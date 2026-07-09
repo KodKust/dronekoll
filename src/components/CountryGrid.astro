@@ -1,9 +1,8 @@
 ---
 /**
- * Landskort-grid (hem + hubbar). Cirkelflagga (SVG i fas 8 — emoji som
- * TILLFÄLLIG platshållare tills circle-flags committats; aldrig emoji i
- * skarp v1), namn, overlay/NOTAM-chip. Sökfältet filtrerar client-side
- * på nativt + engelskt + lokalt namn.
+ * Landskort-grid (hem + hubbar). Cirkelflagga = SVG (HatScripts circle-flags,
+ * MIT) — ALDRIG emoji (Windows renderar emoji-flaggor som bokstavspar).
+ * Sökfältet filtrerar client-side på nativt + engelskt namn.
  */
 import { t } from '../lib/i18n';
 import type { PageEntry } from '../lib/model';
@@ -40,7 +39,15 @@ const { lang, pages, searchable = false } = Astro.props;
         href={p.urlPath}
         data-names={`${p.displayName} ${p.iso}`.toLowerCase()}
       >
-        <span class="cgrid__flag" aria-hidden="true">{p.country.flagEmoji ?? '🏳️'}</span>
+        <img
+          class="cgrid__flag"
+          src={`/flags/${p.iso.toLowerCase()}.svg`}
+          width="28"
+          height="28"
+          alt=""
+          loading="lazy"
+          decoding="async"
+        />
         <span class="cgrid__name">{p.displayName}</span>
         <span class={`pill cgrid__badge ${p.country.hasAirspaceOverlay ? 'cgrid__badge--zones' : ''}`}>
           {p.country.hasAirspaceOverlay ? t('grid.overlayBadge', lang) : t('grid.notamBadge', lang)}
@@ -135,7 +142,7 @@ const { lang, pages, searchable = false } = Astro.props;
     color: inherit;
   }
   .cgrid__card:hover { text-decoration: none; }
-  .cgrid__flag { font-size: 26px; line-height: 1; grid-row: span 2; }
+  .cgrid__flag { width: 28px; height: 28px; grid-row: span 2; border-radius: 50%; }
   .cgrid__name { font-weight: 600; color: var(--ink); }
   .cgrid__badge {
     justify-self: start;

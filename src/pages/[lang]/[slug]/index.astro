@@ -88,6 +88,9 @@ const ldBlocks = [
   description={description}
   lang={lang}
   alternates={page.cluster}
+  ogImage={existsSync(join(process.cwd(), 'public', 'og', lang, `${page.slug}.jpg`))
+    ? `https://dronekoll.com/og/${lang}/${page.slug}.jpg`
+    : undefined}
 >
   <Fragment slot="head">
     {ldBlocks.map((ld) => (
@@ -106,7 +109,14 @@ const ldBlocks = [
           { label: page.displayName },
         ]}
       />
-      <div class="hero__flag" aria-hidden="true">{c.flagEmoji}</div>
+      <img
+        class="hero__flag"
+        src={`/flags/${page.iso.toLowerCase()}.svg`}
+        width="40"
+        height="40"
+        alt=""
+        decoding="async"
+      />
       <h1>
         {h1Pre}<span class="h-accent">{page.displayName}</span>{h1Post}
       </h1>
@@ -215,7 +225,7 @@ const ldBlocks = [
 
 <style>
   .hero .content { display: grid; gap: var(--space-4); }
-  .hero__flag { font-size: 40px; line-height: 1; }
+  .hero__flag { width: 40px; height: 40px; border-radius: 50%; box-shadow: var(--shadow-1); }
   .hero__meta {
     display: flex;
     flex-wrap: wrap;

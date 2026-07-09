@@ -30,7 +30,13 @@ const alternates = [
 const ldBlocks = [organizationLd(), softwareAppLd('en')];
 ---
 
-<Base title={title} description={description} lang="en" alternates={alternates}>
+<Base
+  title={title}
+  description={description}
+  lang="en"
+  alternates={alternates}
+  ogImage="https://dronekoll.com/og/home.jpg"
+>
   <Fragment slot="head">
     {ldBlocks.map((ld) => (
       <script type="application/ld+json" set:html={JSON.stringify(ld)} />
