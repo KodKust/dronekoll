@@ -107,20 +107,62 @@ export function zoneCountByIso(): Record<string, number> {
   return out;
 }
 
-/** EN-overlays (src/content/en/{ISO}.json). Saknad fil → undefined. */
-const EN_DIR = join(ROOT, 'src', 'content', 'en');
-let _overlays: Map<string, EnOverlay> | null = null;
-export function loadEnOverlays(): Map<string, EnOverlay> {
-  if (_overlays) return _overlays;
-  _overlays = new Map();
-  if (existsSync(EN_DIR)) {
-    for (const f of readdirSync(EN_DIR)) {
-      if (!f.endsWith('.json')) continue;
+/** Innehålls-overlays per språk (src/content/{lang}/{ISO}.json). it4: generaliserad
+ *  från bara 'en' till valfritt av de 27 språken (matrisen). Cache per språk. */
+const CONTENT_DIR = join(ROOT, 'src', 'content');
+const _overlayCache = new Map<string, Map<string, EnOverlay>>();
+export function loadOverlaysFor(lang: string): Map<string, EnOverlay> {
+  const cached = _overlayCache.get(lang);
+  if (cached) return cached;
+  const m = new Map<string, EnOverlay>();
+  const dir = join(CONTENT_DIR, lang);
+  if (existsSync(dir)) {
+    for (const f of readdirSync(dir)) {
+      if (!f.endsWith('.json') || f.startsWith('_')) continue;
       const iso = f.replace(/\.json$/, '').toUpperCase();
-      _overlays.set(iso, EnOverlaySchema.parse(JSON.parse(readFileSync(join(EN_DIR, f), 'utf8'))));
+      m.set(iso, EnOverlaySchema.parse(JSON.parse(readFileSync(join(dir, f), 'utf8'))));
     }
   }
-  return _overlays;
+  _overlayCache.set(lang, m);
+  return m;
+}
+export const loadEnOverlays = () => loadOverlaysFor('en');
+
+/** Slår ihop en overlays fält ÖVER landets baskälla (parallella länk-arrayer). */
+function applyOverlay(country: Country, overlay: EnOverlay): Country {
+  const f = overlay.fields;
+  return {
+    ...country,
+    keyRules: f.keyRules ?? country.keyRules,
+    importantNotes: f.importantNotes ?? country.importantNotes,
+    disclaimerText: f.disclaimerText ?? country.disclaimerText,
+    sectionLabelRules: f.sectionLabelRules ?? country.sectionLabelRules,
+    sectionLabelPrimary: f.sectionLabelPrimary ?? country.sectionLabelPrimary,
+    sectionLabelSecondary: f.sectionLabelSecondary ?? country.sectionLabelSecondary,
+    linksSheetTitle: f.linksSheetTitle ?? country.linksSheetTitle,
+    dronePilotCredentialName: f.dronePilotCredentialName ?? country.dronePilotCredentialName,
+    primaryLinks: country.primaryLinks.map((l, i) => ({
+      ...l,
+      title: f.primaryLinks?.[i]?.title ?? l.title,
+      description: f.primaryLinks?.[i]?.description ?? l.description,
+    })),
+    secondaryLinks: country.secondaryLinks.map((l, i) => ({
+      ...l,
+      title: f.secondaryLinks?.[i]?.title ?? l.title,
+      description: f.secondaryLinks?.[i]?.description ?? l.description,
+    })),
+    checklist: f.checklist ?? country.checklist,
+  };
+}
+
+/**
+ * Landets innehåll PÅ MÅLSPRÅKET för matrisen (it4). Returnerar null när ingen
+ * overlay finns → modellen genererar då INGEN sida (aldrig blandspråk).
+ * native-språk och 'en' hanteras separat i model.ts (countries.json / en-overlay).
+ */
+export function translatedContent(country: Country, lang: string): Country | null {
+  const overlay = loadOverlaysFor(lang).get(country.isoCode.toUpperCase());
+  return overlay ? applyOverlay(country, overlay) : null;
 }
 
 /** Myndighetsregistret (data/regulators.json) — WP-A: riktiga namn, inte feedkällor. */
@@ -182,27 +224,5 @@ export function englishContent(country: Country): Country {
     console.warn(`⚠ EN-overlay saknas för ${country.isoCode} — EN-sidan visar lokalt innehåll (dev)`);
     return country;
   }
-  const f = overlay.fields;
-  return {
-    ...country,
-    keyRules: f.keyRules ?? country.keyRules,
-    importantNotes: f.importantNotes ?? country.importantNotes,
-    disclaimerText: f.disclaimerText ?? country.disclaimerText,
-    sectionLabelRules: f.sectionLabelRules ?? country.sectionLabelRules,
-    sectionLabelPrimary: f.sectionLabelPrimary ?? country.sectionLabelPrimary,
-    sectionLabelSecondary: f.sectionLabelSecondary ?? country.sectionLabelSecondary,
-    linksSheetTitle: f.linksSheetTitle ?? country.linksSheetTitle,
-    dronePilotCredentialName: f.dronePilotCredentialName ?? country.dronePilotCredentialName,
-    primaryLinks: country.primaryLinks.map((l, i) => ({
-      ...l,
-      title: f.primaryLinks?.[i]?.title ?? l.title,
-      description: f.primaryLinks?.[i]?.description ?? l.description,
-    })),
-    secondaryLinks: country.secondaryLinks.map((l, i) => ({
-      ...l,
-      title: f.secondaryLinks?.[i]?.title ?? l.title,
-      description: f.secondaryLinks?.[i]?.description ?? l.description,
-    })),
-    checklist: f.checklist ?? country.checklist,
-  };
+  return applyOverlay(country, overlay);
 }

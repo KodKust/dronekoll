@@ -58,7 +58,18 @@ if (countriesFile) {
     (c) => c.isoCode !== 'OTHER' && slugIsos.includes(c.isoCode.toUpperCase()),
   );
   const nonEn = real.filter((c) => c.languageCode !== 'en').length;
-  const expectedCountry = real.length + nonEn;
+  // Matris (it4): en (alla) + native (icke-en) + översatta overlays i src/content/{lang}/
+  const CONTENT = join(ROOT, 'src', 'content');
+  let matrixOverlays = 0;
+  if (existsSync(CONTENT)) {
+    for (const d of readdirSync(CONTENT)) {
+      if (d === 'en' || d === 'faq-overrides' || !statSync(join(CONTENT, d)).isDirectory()) continue;
+      matrixOverlays += readdirSync(join(CONTENT, d)).filter(
+        (f) => f.endsWith('.json') && !f.startsWith('_'),
+      ).length;
+    }
+  }
+  const expectedCountry = real.length + nonEn + matrixOverlays;
   const LANG_COUNT = 27;
   const featureCount = Object.keys(
     JSON.parse(readFileSync(join(ROOT, 'data', 'feature-slugs.json'), 'utf8')),

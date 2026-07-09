@@ -119,9 +119,6 @@ export function organizationLd() {
  */
 import { faqOverride, loadRegulators } from './ingest';
 
-// TODO(Opus-grinden): töm när faq.tpl.* körts ×27 — då används sidans språk direkt.
-const TPL_LANGS = new Set(['en', 'sv']);
-
 /** Regelrad → mening: trimma, punktavsluta; gemener först för r2/r3 (ej akronymer). */
 function ruleSentence(rule: string, lowerFirst: boolean): string {
   let s = rule.trim().replace(/[.;]\s*$/, '') + '.';
@@ -136,18 +133,10 @@ export function buildFaq(page: PageEntry): FaqItem[] {
   const gold = faqOverride(page.iso, page.lang);
   if (gold) return gold;
 
-  // Lager 3: koherens — mall-språk eller helengelskt block
-  const lang = TPL_LANGS.has(page.lang) ? page.lang : 'en';
-  const displayName = lang === page.lang ? page.displayName : page.iso; // se nedan
-  // Landsnamn: på fallback-engelska används EN-namnet ur klustret om det finns
-  const enAlt = page.cluster.find((a) => a.hreflang === 'en');
-  const country =
-    lang === page.lang
-      ? page.displayName
-      : (enAlt ? decodeURIComponent(enAlt.href.split('/').filter(Boolean).pop() ?? displayName) : displayName)
-          .replace(/-/g, ' ')
-          .replace(/\b\w/g, (ch) => ch.toUpperCase());
-
+  // Lager 2: mänskliga mallar på sidans språk (faq.tpl.* finns nu ×27) +
+  // lokaliserat landsnamn (page.displayName). Ingen koherens-vakt behövs.
+  const lang = page.lang;
+  const country = page.displayName;
   const reg = loadRegulators()[page.iso.toUpperCase()];
   const items: FaqItem[] = [];
 

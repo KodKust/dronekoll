@@ -3,9 +3,9 @@
  * Äger routing (Astro i18n används EJ — lokaliserade slugs skiljer sig per
  * språk), hreflang-kluster och varumärke-per-språk.
  */
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { loadCountries, englishContent } from './ingest';
+import { loadCountries, englishContent, translatedContent } from './ingest';
 import { SlugsFileSchema } from './schema';
 import type { Country } from './schema';
 
@@ -66,6 +66,31 @@ export function loadSlugs(): Record<string, SlugEntry> {
   return out;
 }
 
+/** Matris-slugs (data/slugs-matrix.json) — genererade celler (icke-en, icke-native). */
+let _slugMatrix: Record<string, Record<string, SlugPair>> | null = null;
+function loadSlugMatrix(): Record<string, Record<string, SlugPair>> {
+  if (_slugMatrix) return _slugMatrix;
+  const p = join(process.cwd(), 'data', 'slugs-matrix.json');
+  _slugMatrix = {};
+  if (existsSync(p)) {
+    const raw = JSON.parse(readFileSync(p, 'utf8'));
+    for (const [iso, byLang] of Object.entries(raw)) {
+      if (iso.startsWith('_')) continue;
+      _slugMatrix[iso] = byLang as Record<string, SlugPair>;
+    }
+  }
+  return _slugMatrix;
+}
+
+/** slug + visningsnamn för (land, språk): slugs.json (en/native, fryst) → matris. */
+function slugFor(iso: string, lang: string, country: Country): SlugPair | null {
+  const s = loadSlugs()[iso];
+  if (!s) return null;
+  if (lang === 'en') return s.en;
+  if (lang === country.languageCode) return s.local;
+  return loadSlugMatrix()[iso]?.[lang] ?? null;
+}
+
 export interface Alternate {
   hreflang: string;
   href: string;
@@ -98,64 +123,74 @@ function countryUrl(lang: string, slug: string): string {
   return `/${lang}/${slug}/`;
 }
 
-/** hreflang-kluster för ett land: lokal ↔ en + x-default=en. */
-function clusterFor(iso: string, country: Country): Alternate[] {
-  const slugs = loadSlugs()[iso];
-  const enHref = SITE + countryUrl('en', slugs.en.slug);
-  const alts: Alternate[] = [{ hreflang: 'en', href: enHref }];
-  if (country.languageCode !== 'en') {
-    alts.push({
-      hreflang: country.languageCode,
-      href: SITE + countryUrl(country.languageCode, slugs.local.slug),
-    });
-  }
-  alts.push({ hreflang: 'x-default', href: enHref });
-  return alts;
-}
-
 let _pages: PageEntry[] | null = null;
-/** Alla landssidor (~98 st: 55 EN + 43 lokalspråk). */
+/**
+ * Alla landssidor — MATRISEN (it4): en sida per (land × språk) DÄR innehåll finns.
+ * native (countries.json) + en (en-overlay) alltid; övriga språk ENDAST om en
+ * översatt overlay finns (aldrig blandspråk). Fullt fylld: 55 × 27 = 1 485 sidor.
+ */
 export function allCountryPages(): PageEntry[] {
   if (_pages) return _pages;
-  const slugs = loadSlugs();
-  const pages: PageEntry[] = [];
+
+  // Pass 1: samla alla celler som HAR innehåll (iso, lang, slug, name, country)
+  interface Cell {
+    iso: string;
+    lang: string;
+    slug: string;
+    name: string;
+    isLocalLang: boolean;
+    country: Country;
+  }
+  const cells: Cell[] = [];
+  const clusterByIso = new Map<string, Alternate[]>();
 
   for (const country of loadCountries()) {
     const iso = country.isoCode.toUpperCase();
-    const s = slugs[iso];
-    if (!s) {
-      // Nytt land utan granskad slug-post → hoppa sidan, mynta ALDRIG auto-slug.
-      console.warn(`⚠ ${iso} saknas i data/slugs.json — landssidan hoppas (append + granska)`);
+    if (!loadSlugs()[iso]) {
+      console.warn(`⚠ ${iso} saknas i data/slugs.json — hoppas (append + granska)`);
       continue;
     }
-    const cluster = clusterFor(iso, country);
+    const isoCells: Cell[] = [];
+    for (const lang of LANGUAGE_CODES) {
+      let content: Country | null;
+      if (lang === country.languageCode) content = country; // native
+      else if (lang === 'en') content = englishContent(country); // en-overlay
+      else content = translatedContent(country, lang); // matris-overlay eller null
+      if (!content) continue; // ingen översättning → ingen sida (koherens)
 
-    // EN-sidan (alla länder)
-    pages.push({
-      iso,
-      lang: 'en',
-      slug: s.en.slug,
-      urlPath: countryUrl('en', s.en.slug),
-      isLocalLang: country.languageCode === 'en',
-      displayName: s.en.name,
-      cluster,
-      country: englishContent(country),
-    });
-
-    // Lokalspråkssidan (icke-EN-länder)
-    if (country.languageCode !== 'en') {
-      pages.push({
+      const sp = slugFor(iso, lang, country);
+      if (!sp) continue;
+      isoCells.push({
         iso,
-        lang: country.languageCode,
-        slug: s.local.slug,
-        urlPath: countryUrl(country.languageCode, s.local.slug),
-        isLocalLang: true,
-        displayName: s.local.name,
-        cluster,
-        country,
+        lang,
+        slug: sp.slug,
+        name: sp.name,
+        isLocalLang: lang === country.languageCode,
+        country: content,
       });
     }
+    // Kluster: alla språk som gav en sida för landet + x-default=en
+    const enCell = isoCells.find((c) => c.lang === 'en');
+    const alts: Alternate[] = isoCells.map((c) => ({
+      hreflang: c.lang,
+      href: SITE + countryUrl(c.lang, c.slug),
+    }));
+    if (enCell) alts.push({ hreflang: 'x-default', href: SITE + countryUrl('en', enCell.slug) });
+    clusterByIso.set(iso, alts);
+    cells.push(...isoCells);
   }
+
+  // Pass 2: materialisera med kluster
+  const pages: PageEntry[] = cells.map((c) => ({
+    iso: c.iso,
+    lang: c.lang,
+    slug: c.slug,
+    urlPath: countryUrl(c.lang, c.slug),
+    isLocalLang: c.isLocalLang,
+    displayName: c.name,
+    cluster: clusterByIso.get(c.iso)!,
+    country: c.country,
+  }));
 
   // Slug-kollisionsvakt per språk
   const seen = new Set<string>();

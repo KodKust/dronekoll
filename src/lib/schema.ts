@@ -104,14 +104,16 @@ export interface CountriesFile {
   countries: Country[];
 }
 
-/** EN-overlay: engelska översättningar av per-land-innehåll (fas 6). */
+/** Innehålls-overlay per språk: src/content/{lang}/{ISO}.json.
+ *  EN (fas 6) + hela matrisen (it4, Opus 4.8). Samma fältform alla språk. */
 export const EnOverlaySchema = z.object({
   meta: z.object({
     sourceHash: z.string(),
-    sourceCountriesVersion: z.number(),
+    sourceCountriesVersion: z.number().nullish(),
     sourceLastVerified: z.string().nullish(),
     translatedAt: z.string(),
-    engine: z.enum(['deepl', 'manual']),
+    engine: z.enum(['deepl', 'manual', 'opus-4-8']),
+    sourceLang: z.string().nullish(),
   }),
   fields: z
     .object({
