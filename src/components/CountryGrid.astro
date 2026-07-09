@@ -31,7 +31,7 @@ const { lang, pages, searchable = false } = Astro.props;
   </div>
 )}
 
-<ul class="cgrid" id="country-grid">
+<ul class="cgrid" id="country-grid" data-stagger>
   {pages.map((p) => (
     <li>
       <a
@@ -50,7 +50,11 @@ const { lang, pages, searchable = false } = Astro.props;
         />
         <span class="cgrid__name">{p.displayName}</span>
         <span class={`pill cgrid__badge ${p.country.hasAirspaceOverlay ? 'cgrid__badge--zones' : ''}`}>
-          {p.country.hasAirspaceOverlay ? t('grid.overlayBadge', lang) : t('grid.notamBadge', lang)}
+          {p.country.hasAirspaceOverlay
+            ? t('grid.overlayBadge', lang)
+            : p.country.hasNotam
+              ? t('grid.notamBadge', lang)
+              : t('grid.rulesBadge', lang)}
         </span>
       </a>
     </li>

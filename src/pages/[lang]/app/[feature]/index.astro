@@ -1,0 +1,171 @@
+---
+/**
+ * Feature-sida — /{lang}/app/{slug}/ (4 funktioner × 27 språk).
+ * Fångar funktionssökningar ("drone flight log PDF export" osv.) och är
+ * appens produktyta på sajten. Samma CAVOK-register som landssidorna
+ * (briefing-blått) men med enhetsbilden som hero-höger.
+ */
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
+import Base from '../../../../layouts/Base.astro';
+import Header from '../../../../components/Header.astro';
+import Footer from '../../../../components/Footer.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import RuleList from '../../../../components/RuleList.astro';
+import FaqBlock from '../../../../components/FaqBlock.astro';
+import AppCta from '../../../../components/AppCta.astro';
+import { LANGUAGE_CODES, loadFeatures, featureCluster, brandForLang, SITE } from '../../../../lib/model';
+import { t } from '../../../../lib/i18n';
+import { breadcrumbLd, faqLd, softwareAppLd, webPageLd, type FaqItem } from '../../../../lib/seo';
+import type { PageEntry } from '../../../../lib/model';
+
+export function getStaticPaths() {
+  return LANGUAGE_CODES.flatMap((lang) =>
+    loadFeatures().map((feature) => ({ params: { lang, feature: feature.slug } })),
+  );
+}
+
+const { lang, feature } = Astro.params as { lang: string; feature: string };
+const brand = brandForLang(lang);
+const cluster = featureCluster(feature);
+
+const title = t(`feat.${feature}.title`, lang, { brand });
+const description = t(`feat.${feature}.desc`, lang);
+const name = t(`feat.${feature}.name`, lang);
+
+// Benefits: b1..b6 — bara de som finns
+const benefits = ['b1', 'b2', 'b3', 'b4', 'b5', 'b6']
+  .map((k) => t(`feat.${feature}.${k}`, lang))
+  .filter((s) => !s.startsWith('feat.'));
+
+// FAQ: faq1..faq4
+const faqItems: FaqItem[] = [];
+for (const n of [1, 2, 3, 4]) {
+  const q = t(`feat.${feature}.faq${n}.q`, lang);
+  const a = t(`feat.${feature}.faq${n}.a`, lang);
+  if (!q.startsWith('feat.') && !a.startsWith('feat.')) faqItems.push({ q, a });
+}
+
+const deviceImage = existsSync(
+  join(process.cwd(), 'public', 'device', feature, `${lang}.webp`),
+)
+  ? `/device/${feature}/${lang}.webp`
+  : undefined;
+
+const ogPath = join(process.cwd(), 'public', 'og', lang, `app-${feature}.jpg`);
+const ogImage = existsSync(ogPath) ? `${SITE}/og/${lang}/app-${feature}.jpg` : undefined;
+
+// webPageLd/breadcrumbLd är byggda för PageEntry — minimal adapter räcker här
+const pseudoPage = {
+  lang,
+  urlPath: `/${lang}/app/${feature}/`,
+  displayName: name,
+  country: {},
+} as unknown as PageEntry;
+
+const ldBlocks = [
+  webPageLd(pseudoPage, title, description),
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t('bc.home', lang), item: `${SITE}/${lang}/` },
+      { '@type': 'ListItem', position: 2, name: t('app.bc', lang), item: `${SITE}/${lang}/app/` },
+      { '@type': 'ListItem', position: 3, name, item: `${SITE}/${lang}/app/${feature}/` },
+    ],
+  },
+  ...(faqItems.length > 0 ? [faqLd(faqItems)] : []),
+  softwareAppLd(lang),
+];
+---
+
+<Base
+  title={title}
+  description={description}
+  lang={lang}
+  alternates={cluster}
+  ogImage={ogImage}
+>
+  <Fragment slot="head">
+    {ldBlocks.map((ld) => (
+      <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+    ))}
+  </Fragment>
+
+  <Header lang={lang} cluster={cluster} />
+
+  {/* ── Hero: två-tons-H1 + enhetsbild ───────────────────────────────── */}
+  <section class="band band--paper feat-hero">
+    <div class="wide feat-hero__grid">
+      <div class="hero-seq feat-hero__text">
+        <Breadcrumbs
+          items={[
+            { label: t('bc.home', lang), href: `/${lang}/` },
+            { label: t('app.bc', lang), href: `/${lang}/app/` },
+            { label: name },
+          ]}
+        />
+        <p class="overline">{t('app.bc', lang)}</p>
+        <h1>
+          {t(`feat.${feature}.h1.pre`, lang)}{' '}
+          <span class="h-accent">{t(`feat.${feature}.h1.accent`, lang)}</span>
+        </h1>
+        <p class="lede">{t(`feat.${feature}.lede`, lang)}</p>
+      </div>
+      {deviceImage && (
+        <div class="feat-hero__device">
+          <img src={deviceImage} alt={name} width="320" loading="eager" decoding="async" />
+        </div>
+      )}
+    </div>
+  </section>
+
+  {/* ── Fördelar ─────────────────────────────────────────────────────── */}
+  <section class="band band--canvas">
+    <div class="content">
+      <RuleList rules={benefits} />
+    </div>
+  </section>
+
+  {/* ── FAQ ──────────────────────────────────────────────────────────── */}
+  {faqItems.length > 0 && (
+    <section class="band band--paper">
+      <div class="content">
+        <h2 class="rise section-title">{t('faq.title', lang)}</h2>
+        <FaqBlock items={faqItems} />
+      </div>
+    </section>
+  )}
+
+  {/* ── CTA ──────────────────────────────────────────────────────────── */}
+  <section class="band band--canvas">
+    <div class="wide">
+      <AppCta lang={lang} />
+    </div>
+  </section>
+
+  <Footer lang={lang} />
+</Base>
+
+<style>
+  .feat-hero__grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-8);
+    align-items: center;
+  }
+  .feat-hero__text { display: grid; gap: var(--space-4); max-width: 56ch; }
+  .feat-hero__device img {
+    max-width: min(320px, 34vw);
+    height: auto;
+    border-radius: 24px;
+    box-shadow: var(--shadow-3);
+    transform: rotate(2deg);
+  }
+  .section-title { margin-bottom: var(--space-5); }
+  @media (max-width: 820px) {
+    .feat-hero__grid { grid-template-columns: 1fr; }
+    .feat-hero__device { justify-self: center; }
+    .feat-hero__device img { max-width: 240px; }
+  }
+</style>

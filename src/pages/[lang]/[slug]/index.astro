@@ -102,7 +102,7 @@ const ldBlocks = [
 
   {/* ── Hero ─────────────────────────────────────────────────────────── */}
   <section class="band band--paper hero">
-    <div class="content">
+    <div class="content hero-seq">
       <Breadcrumbs
         items={[
           { label: t('bc.home', lang), href: `/${lang}/` },
@@ -160,9 +160,16 @@ const ldBlocks = [
   <section class="band band--canvas" id="map">
     <div class="wide">
       <h2 class="rise section-title">{t('map.title', lang)}</h2>
-      {zoneCount && (
-        <p class="small map-zoneline tnum">{t('freshness.zonesLive', lang, { n: zoneCount.toLocaleString(lang) })}</p>
-      )}
+      {zoneCount && (() => {
+        const [pre, post = ''] = t('freshness.zonesLive', lang, { n: '__N__' }).split('__N__');
+        return (
+          <p class="small map-zoneline tnum">
+            {pre}
+            <span data-countup={zoneCount} data-lang={lang}>{zoneCount.toLocaleString(lang)}</span>
+            {post}
+          </p>
+        );
+      })()}
       <MapSection page={page} mapConfig={mapConfig} staticImage={staticImage} />
     </div>
   </section>
@@ -183,7 +190,7 @@ const ldBlocks = [
       {c.importantNotes.length > 0 && (
         <div class="notes">
           <h2 class="rise section-title">{t('notes.title', lang)}</h2>
-          <div class="notes__list">
+          <div class="notes__list" data-stagger>
             {c.importantNotes.map((note) => (
               <Callout kind="note">{note}</Callout>
             ))}

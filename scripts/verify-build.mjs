@@ -38,7 +38,9 @@ function htmlFiles(dir) {
   }
   return out;
 }
-const pages = htmlFiles(DIST);
+// Passthrough-filerna (byte-bevarade, ej Astro-sidor) räknas inte som sidor
+const PASSTHROUGH = new Set(['privacy.html', 'google7779d86ca4c6fa72.html']);
+const pages = htmlFiles(DIST).filter((p) => !PASSTHROUGH.has(p.slice(DIST.length + 1)));
 
 // Förväntan beräknas ur samma datafiler som bygget (utan att importera TS):
 const slugsRaw = JSON.parse(readFileSync(join(ROOT, 'data', 'slugs.json'), 'utf8'));
@@ -58,6 +60,10 @@ if (countriesFile) {
   const nonEn = real.filter((c) => c.languageCode !== 'en').length;
   const expectedCountry = real.length + nonEn;
   const LANG_COUNT = 27;
+  const featureCount = Object.keys(
+    JSON.parse(readFileSync(join(ROOT, 'data', 'feature-slugs.json'), 'utf8')),
+  ).filter((k) => !k.startsWith('_')).length;
+  const appPages = LANG_COUNT * (1 + featureCount); // översikt + features per språk
   // + hem + 404 (+ ev. hubbar när fas 3/7 byggt dem — räknas dynamiskt nedan)
   const hubDirs = readdirSync(DIST).filter(
     (d) =>
@@ -70,7 +76,7 @@ if (countriesFile) {
   );
   // Hård assert på landssidor först när mallfasen (3) är byggd:
   if (process.env.ASSERT_PAGES === '1') {
-    const expectedTotal = expectedCountry + LANG_COUNT + 2; // hem + 404
+    const expectedTotal = expectedCountry + LANG_COUNT + appPages + 2; // hem + 404
     if (pages.length !== expectedTotal) {
       fail(`Sidantal ${pages.length} ≠ förväntat ${expectedTotal}`);
     } else {

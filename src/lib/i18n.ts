@@ -13,8 +13,12 @@ type Catalog = Record<string, Record<string, string>>;
 let _catalog: Catalog | null = null;
 function catalog(): Catalog {
   if (_catalog) return _catalog;
-  const p = join(process.cwd(), 'data', 'web-strings', 'web_strings.json');
-  _catalog = existsSync(p) ? (JSON.parse(readFileSync(p, 'utf8')) as Catalog) : {};
+  _catalog = {};
+  // web_strings (chrome) + feature-strings (app-sidorna) i samma t()-namnrymd
+  for (const rel of ['data/web-strings/web_strings.json', 'data/feature-strings.json']) {
+    const p = join(process.cwd(), rel);
+    if (existsSync(p)) Object.assign(_catalog, JSON.parse(readFileSync(p, 'utf8')) as Catalog);
+  }
   return _catalog;
 }
 

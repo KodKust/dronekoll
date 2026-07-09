@@ -24,7 +24,7 @@ const items = links.map((l, i) => {
 });
 ---
 
-<ul class="sources">
+<ul class="sources" data-stagger>
   {items.map((l) => (
     <li>
       <a class="card card--hover sources__item" href={l.url} rel="noopener nofollow" target="_blank">

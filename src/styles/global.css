@@ -116,28 +116,104 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   animation: pulse-dot var(--dur-pulse) ease-in-out infinite;
 }
 
-/* ── Engångs fade-rise för sektionsrubriker (CSS-only, bakom @supports) ──── */
+/* ══ "Luftrum i rörelse" — motion-lagret ═══════════════════════════════════
+   Sidan beter sig som en lugn flygning: sektioner glider in, listor landar
+   förskjutet, siffror räknar upp, kartan andas in. Appens DNA: 350 ms
+   easeOutCubic, aldrig studs. Endast opacity/transform (CLS 0). Allt dör
+   under prefers-reduced-motion (regeln längre ned nollställer). */
+
+/* ── Sektionsrubriker: scroll-länkad fade-rise (CSS-only, bakom @supports) ── */
 @supports (animation-timeline: view()) {
   .rise {
     animation: rise-in 1ms linear both;
     animation-timeline: view();
     animation-range: entry 0% entry 40%;
   }
-  @keyframes rise-in {
-    from { opacity: 0; transform: translateY(12px); }
+}
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* ── Stagger-entréer: [data-stagger]-containrar (aktiveras av motion.ts) ────
+   Döljning gated bakom html.js — no-JS/reduced-motion ser allt direkt. */
+html.js [data-stagger] > * {
+  opacity: 0;
+  translate: 0 12px;
+  transition:
+    opacity var(--dur-fast) var(--ease-standard),
+    translate var(--dur-fast) var(--ease-standard);
+}
+html.js [data-stagger].in-view > * { opacity: 1; translate: 0 0; }
+/* OBS: html.js-prefix krävs — annars vinner transition-SHORTHANDEN ovan
+   (högre specificitet) och nollar delayn (lärdom: preview-QA 2026-07-09). */
+html.js [data-stagger] > :nth-child(1)  { transition-delay: 0ms; }
+html.js [data-stagger] > :nth-child(2)  { transition-delay: 60ms; }
+html.js [data-stagger] > :nth-child(3)  { transition-delay: 120ms; }
+html.js [data-stagger] > :nth-child(4)  { transition-delay: 180ms; }
+html.js [data-stagger] > :nth-child(5)  { transition-delay: 240ms; }
+html.js [data-stagger] > :nth-child(6)  { transition-delay: 300ms; }
+html.js [data-stagger] > :nth-child(7)  { transition-delay: 360ms; }
+html.js [data-stagger] > :nth-child(8)  { transition-delay: 420ms; }
+html.js [data-stagger] > :nth-child(9)  { transition-delay: 480ms; }
+html.js [data-stagger] > :nth-child(10) { transition-delay: 540ms; }
+html.js [data-stagger] > :nth-child(n + 11) { transition-delay: 600ms; }
+
+/* ── Hero-entré vid load: flagga → H1 → lede → meta (60 ms-kaskad) ──────────
+   H1 är LCP → ENDAST transform på den (opacity förblir 1). */
+.hero-seq > * { animation: hero-in var(--dur-fast) var(--ease-standard) both; }
+.hero-seq > :nth-child(1) { animation-delay: 0ms; }
+.hero-seq > :nth-child(2) { animation-delay: 60ms; }
+.hero-seq > :nth-child(3) { animation-delay: 120ms; }
+.hero-seq > :nth-child(4) { animation-delay: 180ms; }
+.hero-seq > :nth-child(5) { animation-delay: 240ms; }
+@keyframes hero-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: none; }
+}
+.hero-seq > h1 { animation-name: hero-in-lcp; } /* LCP: aldrig opacity 0 */
+@keyframes hero-in-lcp {
+  from { transform: translateY(10px); }
+  to   { transform: none; }
+}
+
+/* ── Hero-djup: prickrastret driver långsammare än innehållet ─────────────── */
+@supports (animation-timeline: scroll()) {
+  .home-hero, .hero--drift {
+    animation: graticule-drift linear both;
+    animation-timeline: scroll();
+    animation-range: 0 140vh;
+  }
+  @keyframes graticule-drift {
+    to { background-position: 0 72px; }
+  }
+}
+
+/* ── Kartan andas in: ram skalar 0.98→1 + tonar (scroll-länkad) ───────────── */
+@supports (animation-timeline: view()) {
+  .mapframe {
+    animation: map-breathe 1ms linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 45%;
+  }
+  @keyframes map-breathe {
+    from { opacity: 0.4; transform: scale(0.98); }
     to   { opacity: 1; transform: none; }
   }
 }
 
-/* ── Reduced motion: opacity-only, frusen puls, ingen smooth scroll ──────── */
+/* ── Reduced motion: allt statiskt direkt ────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
   }
   .pulse-dot { animation: none; box-shadow: 0 0 0 3px var(--go-wash); }
+  /* Stagger-döljningen får aldrig gömma innehåll */
+  html.js [data-stagger] > * { opacity: 1; translate: 0 0; }
 }
 
 /* ── Tillgänglighet ──────────────────────────────────────────────────────── */

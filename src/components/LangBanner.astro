@@ -1,0 +1,119 @@
+---
+/**
+ * Språkförslags-banner — ALDRIG auto-redirect (SEO + respekt för aktivt val).
+ *
+ * navigator.languages → första stödda språk ≠ sidans språk → flytande pill
+ * (fixed bottom, NOLL CLS) med texten PÅ MÅLSPRÅKET + stäng-kryss.
+ * Mål-URL: sidans hreflang-alternate för målspråket om den finns (läses ur
+ * <link rel="alternate">), annars målspråkets hubb /{lang}/.
+ * Dismiss → localStorage.langSuggest = målspråket (visas aldrig igen för det).
+ *
+ * Texterna för ALLA språk skickas som inline-JSON (~1,5 kB) — de måste ju
+ * finnas på MÅLSPRÅKET, inte sidans språk.
+ */
+import { LANGUAGE_CODES, LANGUAGES } from '../lib/model';
+import { t } from '../lib/i18n';
+
+interface Props {
+  lang: string; // sidans språk
+}
+const { lang } = Astro.props;
+
+// Text per målspråk (fallback en hanteras av t())
+const texts: Record<string, string> = {};
+for (const code of LANGUAGE_CODES) {
+  texts[code] = t('langbanner.text', code, { language: LANGUAGES[code] });
+}
+---
+
+<div
+  id="lang-banner"
+  class="langbanner"
+  hidden
+  data-page-lang={lang}
+  data-texts={JSON.stringify(texts)}
+>
+  <a class="langbanner__link" href="#"><span></span> →</a>
+  <button class="langbanner__close" aria-label="✕">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+      <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round" />
+    </svg>
+  </button>
+</div>
+
+<script>
+  const banner = document.getElementById('lang-banner');
+  if (banner) {
+    const pageLang = banner.dataset.pageLang!;
+    const texts: Record<string, string> = JSON.parse(banner.dataset.texts!);
+    const supported = new Set(Object.keys(texts));
+
+    // Första stödda webbläsarspråket (sv-SE → sv)
+    const want = (navigator.languages ?? [navigator.language])
+      .map((l) => l.toLowerCase().split('-')[0])
+      .find((l) => supported.has(l));
+
+    const dismissed = localStorage.getItem('langSuggest');
+    if (want && want !== pageLang && dismissed !== want) {
+      // Mål: sidans alternate för språket, annars hubben
+      const alt = document.querySelector<HTMLLinkElement>(`link[rel="alternate"][hreflang="${want}"]`);
+      const href = alt ? new URL(alt.href).pathname : `/${want}/`;
+
+      const link = banner.querySelector<HTMLAnchorElement>('.langbanner__link')!;
+      link.href = href;
+      link.querySelector('span')!.textContent = texts[want];
+      banner.hidden = false;
+
+      banner.querySelector('.langbanner__close')!.addEventListener('click', () => {
+        localStorage.setItem('langSuggest', want);
+        banner.hidden = true;
+      });
+    }
+  }
+</script>
+
+<style>
+  .langbanner {
+    position: fixed;
+    bottom: max(16px, env(safe-area-inset-bottom));
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 70;
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    background: var(--raised);
+    border: 1px solid var(--border);
+    border-radius: var(--r-pill);
+    box-shadow: var(--shadow-2);
+    padding: 8px 10px 8px 18px;
+    max-width: min(92vw, 480px);
+    animation: langbanner-in var(--dur-fast) var(--ease-standard) both;
+  }
+  @keyframes langbanner-in {
+    from { opacity: 0; transform: translate(-50%, 8px); }
+    to   { opacity: 1; transform: translate(-50%, 0); }
+  }
+  .langbanner__link {
+    font-size: var(--text-small);
+    font-weight: 500;
+    color: var(--accent-ink);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .langbanner__link:hover { text-decoration: none; color: var(--accent); }
+  .langbanner__close {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border: 0;
+    border-radius: 50%;
+    background: var(--soft-btn);
+    color: var(--ink-2);
+    cursor: pointer;
+  }
+  .langbanner__close:hover { color: var(--ink); }
+</style>

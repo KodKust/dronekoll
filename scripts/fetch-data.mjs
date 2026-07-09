@@ -37,6 +37,10 @@ const SOURCES = [
     url: `https://gist.githubusercontent.com/KodKust/d80e1ed0cb7c9910aa2683f83046d69c/raw/classifier_strings.json?cb=${cb}`,
   },
   {
+    name: 'tour_strings.json',
+    url: `https://gist.githubusercontent.com/KodKust/830c9b410d257ea5e13f8cff07473aa2/raw/tour_strings.json?cb=${cb}`,
+  },
+  {
     name: 'schema_baseline.json',
     url: `https://pappilappi.com/status/schema_baseline.json?cb=${cb}`,
   },

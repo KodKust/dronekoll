@@ -155,14 +155,23 @@ if (host && rawCfg) {
       return (maxLa - minLa) * (maxLo - minLo);
     };
 
-    const loadLayer = async (layer: LayerCfg) => {
+    const loadLayer = async (layer: LayerCfg, index = 0) => {
       const res = await fetch(layer.url);
       if (!res.ok) throw new Error(`${layer.id}: HTTP ${res.status}`);
       const gj = await res.json();
       if (Array.isArray(gj.features)) {
         gj.features.sort((a: any, b: any) => roughArea(b.geometry) - roughArea(a.geometry));
       }
+      // Eget pane per lager → zonerna kan tona in lagervis efter baskartan
+      // ("Luftrum i rörelse"). Reduced-motion nollar transitionen via global CSS.
+      const paneName = `zones-${layer.id}`;
+      const pane = map.getPane(paneName) ?? map.createPane(paneName);
+      pane.style.opacity = '0';
+      pane.style.transition = 'opacity 350ms cubic-bezier(0.215, 0.61, 0.355, 1)';
+      const renderer = L.canvas({ pane: paneName });
       L.geoJSON(gj, {
+        pane: paneName,
+        renderer,
         style: (feature) => {
           const key = resolveKey(feature?.properties ?? {}, layer);
           const s = cfg.styles[key] ?? cfg.styles['DEFAULT'];
@@ -176,12 +185,15 @@ if (host && rawCfg) {
         pointToLayer: (feature, latlng) => {
           const key = resolveKey(feature.properties ?? {}, layer);
           const s = cfg.styles[key] ?? cfg.styles['DEFAULT'];
-          return L.circleMarker(latlng, { radius: 5, color: s.stroke, weight: 1.5, fillColor: s.fill, fillOpacity: 1 });
+          return L.circleMarker(latlng, { pane: paneName, renderer, radius: 5, color: s.stroke, weight: 1.5, fillColor: s.fill, fillOpacity: 1 });
         },
       }).addTo(map);
+      setTimeout(() => { pane.style.opacity = '1'; }, 80 + index * 120);
     };
 
-    await Promise.allSettled(cfg.layers.filter((l) => l.defaultOn).map(loadLayer));
+    await Promise.allSettled(
+      cfg.layers.filter((l) => l.defaultOn).map((l, i) => loadLayer(l, i)),
+    );
 
     // Extra lager bakom checkboxar (Leaflets inbyggda lagerkontroll, lazy fetch)
     const extras = cfg.layers.filter((l) => !l.defaultOn);

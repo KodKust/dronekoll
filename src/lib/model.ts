@@ -184,8 +184,43 @@ export function hubCluster(): Alternate[] {
   return alts;
 }
 
-/** Förväntat sidantal (verify-build): landssidor + 27 hubbar + hem + 404. */
+/* ── Feature-sidor (/{lang}/app/{slug}/) ─────────────────────────────────────
+   Slugs = ENGELSKA för alla språk (produktnamnrymd; tour_tags oanvändbara som
+   slugkälla — {0}-platshållare). Kluster = alla 27 språk, samma path-mönster. */
+
+export interface FeatureDef {
+  slug: string;
+  order: number;
+  deviceSlots: [string, string | null];
+}
+
+let _features: FeatureDef[] | null = null;
+export function loadFeatures(): FeatureDef[] {
+  if (_features) return _features;
+  const raw = JSON.parse(
+    readFileSync(join(process.cwd(), 'data', 'feature-slugs.json'), 'utf8'),
+  ) as Record<string, { order: number; deviceSlots: [string, string | null] }>;
+  _features = Object.entries(raw)
+    .filter(([k]) => !k.startsWith('_'))
+    .map(([slug, def]) => ({ slug, order: def.order, deviceSlots: def.deviceSlots }))
+    .sort((a, b) => a.order - b.order);
+  return _features;
+}
+
+/** hreflang-kluster för en feature-sida (samma slug alla språk) + x-default=en. */
+export function featureCluster(slug: string | null): Alternate[] {
+  const path = slug ? `/app/${slug}/` : '/app/';
+  const alts: Alternate[] = LANGUAGE_CODES.map((l) => ({
+    hreflang: l,
+    href: `${SITE}/${l}${path}`,
+  }));
+  alts.push({ hreflang: 'x-default', href: `${SITE}/en${path}` });
+  return alts;
+}
+
+/** Förväntat sidantal (verify-build): landssidor + hubbar + app-sidor + hem + 404. */
 export function expectedPageCount(): { countryPages: number; total: number } {
   const countryPages = allCountryPages().length;
-  return { countryPages, total: countryPages + LANGUAGE_CODES.length + 2 };
+  const appPages = LANGUAGE_CODES.length * (1 + loadFeatures().length); // översikt + features
+  return { countryPages, total: countryPages + LANGUAGE_CODES.length + appPages + 2 };
 }

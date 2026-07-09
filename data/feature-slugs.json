@@ -1,0 +1,27 @@
+{
+  "_comment": "Feature-sidornas identiteter. Slugs = ENGELSKA för alla språk (produktnamnrymd under /app/; tour_tags visade sig oanvändbara som slugkälla — {0}-platshållare + hopslagna begrepp). APPEND-ONLY som landsslugs. deviceSlots: [overlay-källa, icke-overlay-källa] per crop-källa-lands klass; null i pos 2 = EN-fallback för icke-overlay-språk.",
+  "flight-log": {
+    "order": 1,
+    "deviceSlots": ["07", "05"],
+    "tourTagKey": "tour_tag_log",
+    "tourBodyKey": "tour_body_log"
+  },
+  "measure": {
+    "order": 2,
+    "deviceSlots": ["03", "01"],
+    "tourTagKey": "tour_tag_planning",
+    "tourBodyKey": "tour_body_planning"
+  },
+  "checklists": {
+    "order": 3,
+    "deviceSlots": ["08", "06"],
+    "tourTagKey": "tour_tag_planning",
+    "tourBodyKey": "tour_body_planning"
+  },
+  "map": {
+    "order": 4,
+    "deviceSlots": ["01", null],
+    "tourTagKey": "tour_tag_airspace",
+    "tourBodyKey": "tour_body_airspace_a"
+  }
+}

@@ -1,0 +1,115 @@
+---
+/**
+ * App-översikten — /{lang}/app/ : de fyra funktionerna som kort + stor CTA.
+ * Navet mellan kunskapssidorna (länder) och produktytan (funktioner).
+ */
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
+import Base from '../../../layouts/Base.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import AppCta from '../../../components/AppCta.astro';
+import { LANGUAGE_CODES, loadFeatures, featureCluster, brandForLang } from '../../../lib/model';
+import { t } from '../../../lib/i18n';
+import { softwareAppLd, organizationLd } from '../../../lib/seo';
+
+export function getStaticPaths() {
+  return LANGUAGE_CODES.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+const brand = brandForLang(lang);
+const cluster = featureCluster(null);
+
+const title = t('app.overview.title', lang, { brand });
+const description = t('app.overview.desc', lang);
+
+const features = loadFeatures().map((f) => ({
+  slug: f.slug,
+  name: t(`feat.${f.slug}.name`, lang),
+  lede: t(`feat.${f.slug}.desc`, lang),
+  image: existsSync(join(process.cwd(), 'public', 'device', f.slug, `${lang}.webp`))
+    ? `/device/${f.slug}/${lang}.webp`
+    : undefined,
+}));
+
+const ldBlocks = [organizationLd(), softwareAppLd(lang)];
+---
+
+<Base title={title} description={description} lang={lang} alternates={cluster}>
+  <Fragment slot="head">
+    {ldBlocks.map((ld) => (
+      <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+    ))}
+  </Fragment>
+
+  <Header lang={lang} cluster={cluster} />
+
+  <section class="band band--paper">
+    <div class="shell hero-seq app-hero">
+      <Breadcrumbs items={[{ label: t('bc.home', lang), href: `/${lang}/` }, { label: t('app.bc', lang) }]} />
+      <h1>
+        {t('app.overview.h1.pre', lang)}{' '}
+        <span class="h-accent">{t('app.overview.h1.accent', lang)}</span>
+      </h1>
+      <p class="lede prose">{t('app.overview.lede', lang, { brand })}</p>
+    </div>
+  </section>
+
+  <section class="band band--canvas">
+    <div class="shell">
+      <ul class="featgrid" data-stagger>
+        {features.map((f) => (
+          <li>
+            <a class="card card--hover featgrid__card" href={`/${lang}/app/${f.slug}/`}>
+              {f.image && (
+                <img class="featgrid__img" src={f.image} alt="" loading="lazy" decoding="async" width="200" />
+              )}
+              <span class="featgrid__name">{f.name}</span>
+              <span class="small featgrid__lede">{f.lede}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="band band--paper">
+    <div class="wide">
+      <AppCta lang={lang} />
+    </div>
+  </section>
+
+  <Footer lang={lang} />
+</Base>
+
+<style>
+  .app-hero { display: grid; gap: var(--space-4); }
+  .featgrid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: var(--space-5);
+  }
+  .featgrid__card {
+    display: grid;
+    gap: var(--space-3);
+    padding: var(--space-5);
+    border-radius: var(--r-lg);
+    color: inherit;
+    text-align: center;
+    justify-items: center;
+  }
+  .featgrid__card:hover { text-decoration: none; }
+  .featgrid__img {
+    width: 150px;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: var(--shadow-2);
+  }
+  .featgrid__name { font-weight: 640; color: var(--ink); font-size: var(--text-h4); }
+  .featgrid__lede { color: var(--ink-2); }
+</style>

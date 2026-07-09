@@ -5,7 +5,14 @@
  * lastmod = landets lastVerified (hem/hubbar: utelämnas hellre än fejkas).
  */
 import type { APIRoute } from 'astro';
-import { allCountryPages, hubCluster, LANGUAGE_CODES, SITE } from '../lib/model';
+import {
+  allCountryPages,
+  hubCluster,
+  featureCluster,
+  loadFeatures,
+  LANGUAGE_CODES,
+  SITE,
+} from '../lib/model';
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
@@ -44,6 +51,18 @@ export const GET: APIRoute = () => {
   // Landssidor — varje sida bär sitt lands kluster
   for (const page of allCountryPages()) {
     entries.push(urlEntry(SITE + page.urlPath, page.cluster, page.country.lastVerified));
+  }
+
+  // App-sidor: översikt + 4 funktioner × 27 språk (kluster = alla språk, samma slug)
+  const appOverview = featureCluster(null);
+  for (const lang of LANGUAGE_CODES) {
+    entries.push(urlEntry(`${SITE}/${lang}/app/`, appOverview));
+  }
+  for (const feature of loadFeatures()) {
+    const cluster = featureCluster(feature.slug);
+    for (const lang of LANGUAGE_CODES) {
+      entries.push(urlEntry(`${SITE}/${lang}/app/${feature.slug}/`, cluster));
+    }
   }
 
   const xml = [

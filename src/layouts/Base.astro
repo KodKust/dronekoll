@@ -8,6 +8,7 @@ import '@fontsource-variable/manrope';
 import '@fontsource-variable/inter';
 import '../styles/tokens.css';
 import '../styles/global.css';
+import LangBanner from '../components/LangBanner.astro';
 
 export interface Alternate {
   hreflang: string; // t.ex. "nl", "en", "x-default"
@@ -49,6 +50,10 @@ const {
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta name="theme-color" content="#3B81F5" />
 
+    {/* js-flagga FÖRE first paint — stagger-döljningen är gated bakom html.js
+        så no-JS-besökare (och crawlers utan JS) alltid ser allt innehåll. */}
+    <script is:inline>document.documentElement.classList.add('js');</script>
+
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -60,5 +65,9 @@ const {
   </head>
   <body>
     <slot />
+    <LangBanner lang={lang} />
+    <script>
+      import '../scripts/motion';
+    </script>
   </body>
 </html>

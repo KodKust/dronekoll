@@ -187,6 +187,42 @@ for (const c of countries) {
   }
 }
 
+// Feature-OG:er — enhetsbild i högerspalten istället för karta
+const featureDefs = JSON.parse(readFileSync(join(ROOT, 'data', 'feature-slugs.json'), 'utf8'));
+const featStrings = JSON.parse(readFileSync(join(ROOT, 'data', 'feature-strings.json'), 'utf8'));
+const ft = (key, lang) => featStrings[key]?.[lang] ?? featStrings[key]?.en ?? key;
+const LANGS = [...new Set(countries.map((c) => c.languageCode))];
+
+async function devicePngUri(feature, lang) {
+  const src = join(ROOT, 'public', 'device', feature, `${lang}.webp`);
+  if (!existsSync(src)) return null;
+  const buf = await sharp(src)
+    .resize(420, 502, { fit: 'contain', background: '#FFFFFF' })
+    .png()
+    .toBuffer();
+  return `data:image/png;base64,${buf.toString('base64')}`;
+}
+
+for (const feature of Object.keys(featureDefs).filter((k) => !k.startsWith('_'))) {
+  for (const lang of LANGS) {
+    const dir = join(OUT, lang);
+    mkdirSync(dir, { recursive: true });
+    bytes += await render(
+      ogTree({
+        brand: brandFor(lang),
+        h1Pre: ft(`feat.${feature}.h1.pre`, lang),
+        accent: ft(`feat.${feature}.h1.accent`, lang),
+        h1Post: '',
+        caption: ft(`feat.${feature}.name`, lang),
+        flag: null,
+        map: await devicePngUri(feature, lang),
+      }),
+      join(dir, `app-${feature}.jpg`),
+    );
+    made++;
+  }
+}
+
 // Hem-OG (marketing-registret: grön accent)
 mkdirSync(OUT, { recursive: true });
 bytes += await render(

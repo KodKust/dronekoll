@@ -57,6 +57,10 @@ const brand = brandForLang(lang);
     font-size: var(--text-small);
     font-weight: 500;
     color: var(--ink-2);
+    white-space: nowrap;
   }
   .site-header__app:hover { color: var(--accent-ink); text-decoration: none; }
+  @media (max-width: 560px) {
+    .site-header__app { display: none; } /* CTA-panelerna bär appen på mobil */
+  }
 </style>

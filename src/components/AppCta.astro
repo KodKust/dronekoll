@@ -6,7 +6,7 @@
  * renderar utan bild tills dess (grid kollapsar snyggt).
  */
 import { t } from '../lib/i18n';
-import { brandForLang } from '../lib/model';
+import { brandForLang, loadFeatures } from '../lib/model';
 import { APP_STORE_URL } from '../lib/seo';
 
 interface Props {
@@ -17,6 +17,10 @@ interface Props {
 }
 const { lang, deviceImage, deviceAlt = '' } = Astro.props;
 const brand = brandForLang(lang);
+const featureLinks = loadFeatures().map((f) => ({
+  href: `/${lang}/app/${f.slug}/`,
+  name: t(`feat.${f.slug}.name`, lang),
+}));
 ---
 
 <section class="cta">
@@ -24,6 +28,14 @@ const brand = brandForLang(lang);
     <p class="overline">{t('cta.overline', lang)}</p>
     <h2>{t('cta.title', lang)}</h2>
     <p class="cta__body">{t('cta.body', lang, { brand })}</p>
+    <p class="caption cta__features">
+      {t('app.more', lang)}:
+      {featureLinks.map((f, i) => (
+        <Fragment>
+          <a href={f.href}>{f.name}</a>{i < featureLinks.length - 1 && ' · '}
+        </Fragment>
+      ))}
+    </p>
     <div class="cta__badges">
       <a class="cta__badge" href={APP_STORE_URL} rel="noopener">
         <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -54,6 +66,8 @@ const brand = brandForLang(lang);
   }
   .cta__text { display: grid; gap: var(--space-4); max-width: 46ch; }
   .cta__body { color: var(--ink-body); }
+  .cta__features { color: var(--ink-2); }
+  .cta__features a { color: var(--accent-ink); font-weight: 500; }
   .cta__badges { display: flex; gap: var(--space-3); flex-wrap: wrap; }
   .cta__badge {
     display: inline-flex;

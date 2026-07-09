@@ -4,7 +4,7 @@
  * cameo). Mono-wordmark + disclaimer, språkgrid, legal/om/källor, bygg-datum.
  */
 import Wordmark from './Wordmark.astro';
-import { LANGUAGES, brandForLang } from '../lib/model';
+import { LANGUAGES, brandForLang, loadFeatures } from '../lib/model';
 import { t } from '../lib/i18n';
 
 interface Props {
@@ -32,6 +32,16 @@ const buildDate = new Date().toISOString().slice(0, 10);
         </ul>
       </nav>
 
+      <nav aria-label={t('app.bc', lang)}>
+        <p class="overline site-footer__label">{t('app.bc', lang)}</p>
+        <ul class="site-footer__legal">
+          <li><a href={`/${lang}/app/`}>{t('app.bc', lang)}</a></li>
+          {loadFeatures().map((f) => (
+            <li><a href={`/${lang}/app/${f.slug}/`}>{t(`feat.${f.slug}.name`, lang)}</a></li>
+          ))}
+        </ul>
+      </nav>
+
       <nav aria-label="Legal">
         <ul class="site-footer__legal">
           <li><a href="/privacy.html">{t('footer.privacy', lang)}</a></li>
@@ -52,7 +62,7 @@ const buildDate = new Date().toISOString().slice(0, 10);
   .site-footer a:hover { color: #fff; }
   .site-footer__grid {
     display: grid;
-    grid-template-columns: 1.2fr 2fr 0.8fr;
+    grid-template-columns: 1.2fr 1.8fr 0.8fr 0.8fr;
     gap: var(--space-7);
   }
   .site-footer__brand { display: grid; gap: var(--space-4); align-content: start; color: #fff; }

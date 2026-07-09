@@ -15,7 +15,7 @@ const warnRe =
 const items = rules.map((text) => ({ text, warn: warnRe.test(text) }));
 ---
 
-<ul class="rules prose">
+<ul class="rules prose" data-stagger>
   {items.map((r) => (
     <li class="rules__item">
       <span class={`rules__chip ${r.warn ? 'rules__chip--warn' : ''}`} aria-hidden="true">

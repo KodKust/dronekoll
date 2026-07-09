@@ -6,8 +6,9 @@ med DeepL:s tag-hantering (xml, <x id=n/>) så de överlever översättning
 oförvanskade. IS/HR/MT stöds ej → lämnas tomma (i18n.t faller till EN) och
 översätts manuellt/Claude i samma fas.
 
-    python3 scripts/translate_web_strings.py            # fyll saknade
-    python3 scripts/translate_web_strings.py --force    # skriv om alla
+    python3 scripts/translate_web_strings.py                          # web_strings, fyll saknade
+    python3 scripts/translate_web_strings.py --force                  # skriv om alla
+    python3 scripts/translate_web_strings.py --file data/feature-strings.json  # annan katalog
 """
 from __future__ import annotations
 
@@ -103,7 +104,10 @@ def translate(texts: list[str], target: str, api_key: str) -> list[str]:
 
 def main():
     force = "--force" in sys.argv
-    data = json.loads(STRINGS_PATH.read_text())
+    path = STRINGS_PATH
+    if "--file" in sys.argv:
+        path = SITE_ROOT / sys.argv[sys.argv.index("--file") + 1]
+    data = json.loads(path.read_text())
     keys = [k for k in data if not k.startswith("_")]
 
     api_key = read_key()
@@ -125,8 +129,8 @@ def main():
     missing_manual = {
         lang: [k for k in keys if lang not in data[k]] for lang in MANUAL
     }
-    STRINGS_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
-    print(f"\nSkrivet: {STRINGS_PATH.relative_to(SITE_ROOT)}")
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
+    print(f"\nSkrivet: {path.relative_to(SITE_ROOT)}")
     for lang, missing in missing_manual.items():
         if missing:
             print(f"⚠ {lang}: {len(missing)} strängar kvar — översätt manuellt (DeepL saknar språket)")
