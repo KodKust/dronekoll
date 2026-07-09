@@ -200,7 +200,13 @@ const ldBlocks = [
   {/* ── App-CTA ──────────────────────────────────────────────────────── */}
   <section class="band band--paper">
     <div class="wide">
-      <AppCta lang={lang} />
+      <AppCta
+        lang={lang}
+        deviceImage={existsSync(join(process.cwd(), 'public', 'device', `${lang}.webp`))
+          ? `/device/${lang}.webp`
+          : undefined}
+        deviceAlt={t('cta.appstore.alt', lang)}
+      />
     </div>
   </section>
 
