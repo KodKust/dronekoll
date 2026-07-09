@@ -1,0 +1,30 @@
+---
+/** 404 — engelsk (statisk hosting kan inte språkförhandla), pekar mot katalogen. */
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { hubCluster } from '../lib/model';
+---
+
+<Base
+  title="Page not found — DroneKoll"
+  description="The page does not exist. Find drone rules for 55 countries."
+  lang="en"
+  noindex={true}
+>
+  <Header lang="en" cluster={hubCluster()} />
+  <main class="band band--canvas nf">
+    <div class="content">
+      <p class="overline">404</p>
+      <h1>This airspace is empty</h1>
+      <p class="lede">The page you were looking for does not exist.</p>
+      <p><a href="/en/">Browse drone rules for all countries →</a></p>
+    </div>
+  </main>
+  <Footer lang="en" />
+</Base>
+
+<style>
+  .nf { min-height: 46vh; }
+  .nf .content { display: grid; gap: var(--space-4); }
+</style>

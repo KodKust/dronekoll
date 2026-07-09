@@ -1,0 +1,89 @@
+---
+/**
+ * Källkort — officiella länkar ur primaryLinks/secondaryLinks.
+ * Bokstavs-chip (domäninitial) istället för extern favicon-hämtning
+ * (inga tredjepartsanrop). Pil nudgar 2px NE på hover.
+ */
+import type { Country } from '../lib/schema';
+
+interface Props {
+  links: Country['primaryLinks'];
+  /** landets verificationWord → liten "Verifierad"-badge på första kortet */
+  verifiedWord?: string;
+}
+const { links, verifiedWord } = Astro.props;
+
+const items = links.map((l, i) => {
+  let domain = '';
+  try {
+    domain = new URL(l.url).hostname.replace(/^www\./, '');
+  } catch {
+    domain = l.url;
+  }
+  return { ...l, domain, initial: domain.charAt(0).toUpperCase(), first: i === 0 };
+});
+---
+
+<ul class="sources">
+  {items.map((l) => (
+    <li>
+      <a class="card card--hover sources__item" href={l.url} rel="noopener nofollow" target="_blank">
+        <span class="sources__chip" aria-hidden="true">{l.initial}</span>
+        <span class="sources__text">
+          <span class="sources__title">
+            {l.title}
+            {l.first && verifiedWord && <span class="pill sources__verified">{verifiedWord}</span>}
+          </span>
+          {l.description && <span class="sources__desc small">{l.description}</span>}
+          <span class="caption sources__domain">{l.domain}</span>
+        </span>
+        <svg class="sources__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M7 17 17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+    </li>
+  ))}
+</ul>
+
+<style>
+  .sources { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-3); }
+  .sources__item {
+    display: flex;
+    gap: var(--space-4);
+    align-items: flex-start;
+    padding: var(--space-4) var(--space-5);
+    color: inherit;
+  }
+  .sources__item:hover { text-decoration: none; border-color: var(--accent-wash-2); }
+  .sources__chip {
+    flex-shrink: 0;
+    width: 34px;
+    height: 34px;
+    border-radius: var(--r-sm);
+    background: var(--accent-wash);
+    color: var(--accent-ink);
+    font-weight: 640;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sources__text { display: grid; gap: 3px; min-width: 0; }
+  .sources__title { font-weight: 600; color: var(--ink); display: inline-flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; }
+  .sources__verified {
+    background: var(--go-wash);
+    color: var(--go-ink);
+    font-size: var(--text-caption);
+    font-weight: 600;
+    padding: 2px 10px;
+  }
+  .sources__desc { color: var(--ink-2); }
+  .sources__domain { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .sources__arrow {
+    flex-shrink: 0;
+    margin-left: auto;
+    color: var(--ink-3);
+    transition: transform var(--dur-hover) var(--ease-standard);
+    align-self: center;
+  }
+  .sources__item:hover .sources__arrow { transform: translate(2px, -2px); color: var(--accent); }
+</style>

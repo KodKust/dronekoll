@@ -1,0 +1,88 @@
+---
+/**
+ * Footer — sidans enda mörka ögonblick (--brand-navy; appens mörka tema som
+ * cameo). Mono-wordmark + disclaimer, språkgrid, legal/om/källor, bygg-datum.
+ */
+import Wordmark from './Wordmark.astro';
+import { LANGUAGES, brandForLang } from '../lib/model';
+import { t } from '../lib/i18n';
+
+interface Props {
+  lang: string;
+}
+const { lang } = Astro.props;
+const brand = brandForLang(lang);
+const buildDate = new Date().toISOString().slice(0, 10);
+---
+
+<footer class="band band--navy site-footer">
+  <div class="shell">
+    <div class="site-footer__grid">
+      <div class="site-footer__brand">
+        <Wordmark brand={brand} mono />
+        <p class="small">{t('ymyl.disclaimer', lang)}</p>
+      </div>
+
+      <nav aria-label={t('footer.languages', lang)}>
+        <p class="overline site-footer__label">{t('footer.languages', lang)}</p>
+        <ul class="site-footer__langs">
+          {Object.entries(LANGUAGES).map(([code, name]) => (
+            <li><a href={`/${code}/`} lang={code}>{name}</a></li>
+          ))}
+        </ul>
+      </nav>
+
+      <nav aria-label="Legal">
+        <ul class="site-footer__legal">
+          <li><a href="/privacy.html">{t('footer.privacy', lang)}</a></li>
+          <li><a href={`/${lang}/`}>{t('nav.allCountries', lang)}</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <p class="caption site-footer__build tnum">
+      {t('footer.rebuilt', lang, { date: buildDate })}
+    </p>
+  </div>
+</footer>
+
+<style>
+  .site-footer { color: rgba(255, 255, 255, 0.70); }
+  .site-footer a { color: rgba(255, 255, 255, 0.70); }
+  .site-footer a:hover { color: #fff; }
+  .site-footer__grid {
+    display: grid;
+    grid-template-columns: 1.2fr 2fr 0.8fr;
+    gap: var(--space-7);
+  }
+  .site-footer__brand { display: grid; gap: var(--space-4); align-content: start; color: #fff; }
+  .site-footer__brand .small { color: rgba(255, 255, 255, 0.70); max-width: 34ch; }
+  .site-footer__label { color: rgba(255, 255, 255, 0.45); margin-bottom: var(--space-3); }
+  .site-footer__langs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px var(--space-4);
+    font-size: var(--text-small);
+  }
+  .site-footer__legal {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: var(--space-2);
+    font-size: var(--text-small);
+  }
+  .site-footer__build {
+    margin-top: var(--space-7);
+    padding-top: var(--space-4);
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    color: rgba(255, 255, 255, 0.45);
+  }
+  @media (max-width: 768px) {
+    .site-footer__grid { grid-template-columns: 1fr; gap: var(--space-6); }
+    .site-footer__langs { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>

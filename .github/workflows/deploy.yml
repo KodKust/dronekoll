@@ -1,0 +1,70 @@
+# Bygg + deploya dronekoll.com (Astro → GitHub Pages via Actions).
+#
+# Triggers:
+#  - push till main (kodändringar)
+#  - daglig cron 07:20 UTC (färskhets-rebuild: nytt {year}/byggdatum + färsk
+#    countries.json — EFTER nattens fetchers 04–05 + web-optimize 06:10)
+#  - repository_dispatch "site-data-updated" (skickas av dronarkartans
+#    publish-gist.yml → sajten byggs om inom minuter när countries.json ändras)
+#  - manuell dispatch
+#
+# OBS: Aktiveras skarpt först i fas 9 när Pages växlas till build_type=workflow
+# (gh api PUT repos/KodKust/dronekoll/pages -f build_type=workflow).
+name: build-deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '20 7 * * *' # efter natt-fetchers (04–05) + web-optimize (06:10) i dronarkartan
+  workflow_dispatch:
+  repository_dispatch:
+    types: [site-data-updated]
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # slug-frysvakten diffar mot origin/main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Hämta livedata (Gist + baselines; snapshot-fallback vid fel)
+        run: node scripts/fetch-data.mjs
+
+      - name: Bygg (strikt: EN-overlays krävs, sidantal assertas)
+        run: npx astro build && node scripts/verify-build.mjs
+        env:
+          STRICT_EN: '1'
+          ASSERT_PAGES: '1'
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

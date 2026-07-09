@@ -1,0 +1,64 @@
+---
+/**
+ * Bas-layout — äger <head>: titel, beskrivning, canonical, hreflang-kluster,
+ * OG-taggar och favicons. SEO-berikning (JSON-LD m.m.) byggs i src/lib/seo.ts
+ * och skickas in via props/slots (fas 5).
+ */
+import '@fontsource-variable/manrope';
+import '@fontsource-variable/inter';
+import '../styles/tokens.css';
+import '../styles/global.css';
+
+export interface Alternate {
+  hreflang: string; // t.ex. "nl", "en", "x-default"
+  href: string;     // absolut URL
+}
+
+interface Props {
+  title: string;
+  description: string;
+  lang: string;            // sidans språk (html lang)
+  canonical?: string;      // absolut URL; default = aktuell sida
+  alternates?: Alternate[];// hreflang-kluster inkl. självreferens
+  ogImage?: string;        // absolut URL till OG-bild
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description,
+  lang,
+  canonical = new URL(Astro.url.pathname, Astro.site).href,
+  alternates = [],
+  ogImage,
+  noindex = false,
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex" />}
+    {alternates.map((a) => <link rel="alternate" hreflang={a.hreflang} href={a.href} />)}
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#3B81F5" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    {ogImage && <meta name="twitter:card" content="summary_large_image" />}
+
+    <slot name="head" />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

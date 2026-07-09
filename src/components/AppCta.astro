@@ -1,0 +1,82 @@
+---
+/**
+ * App-CTA-panel — EN per sida, nära slutet. Kunskap först, sälj sist.
+ * r20-panel med accent-wash-gradient (en av sajtens två sanktionerade
+ * gradienter). Enhetsbild (lokaliserad crop) kommer i fas 8 — panelen
+ * renderar utan bild tills dess (grid kollapsar snyggt).
+ */
+import { t } from '../lib/i18n';
+import { brandForLang } from '../lib/model';
+import { APP_STORE_URL } from '../lib/seo';
+
+interface Props {
+  lang: string;
+  /** sökväg till lokaliserad enhets-crop (fas 8); utelämnad → textpanel */
+  deviceImage?: string;
+  deviceAlt?: string;
+}
+const { lang, deviceImage, deviceAlt = '' } = Astro.props;
+const brand = brandForLang(lang);
+---
+
+<section class="cta">
+  <div class="cta__text">
+    <p class="overline">{t('cta.overline', lang)}</p>
+    <h2>{t('cta.title', lang)}</h2>
+    <p class="cta__body">{t('cta.body', lang, { brand })}</p>
+    <div class="cta__badges">
+      <a class="cta__badge" href={APP_STORE_URL} rel="noopener">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M16.7 12.9c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.1 1-4 2.4-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.2-.8s1.9.8 3.2.8c1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8-.1 0-2.6-1-2.6-3.9zM14.4 5.2c.7-.8 1.1-1.9 1-3.1-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.2-.6 2.9-1.4z"/>
+        </svg>
+        <span>App Store</span>
+      </a>
+    </div>
+  </div>
+  {deviceImage && (
+    <div class="cta__device">
+      <img src={deviceImage} alt={deviceAlt} loading="lazy" decoding="async" width="320" height="660" />
+    </div>
+  )}
+</section>
+
+<style>
+  .cta {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-7);
+    align-items: center;
+    background: linear-gradient(135deg, var(--accent-wash), #fff 70%);
+    border: 1px solid var(--border);
+    border-radius: var(--r-xl);
+    padding: var(--space-7);
+    overflow: hidden;
+  }
+  .cta__text { display: grid; gap: var(--space-4); max-width: 46ch; }
+  .cta__body { color: var(--ink-body); }
+  .cta__badges { display: flex; gap: var(--space-3); flex-wrap: wrap; }
+  .cta__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--ink);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 18px;
+    font-size: var(--text-small);
+    font-weight: 600;
+    transition: transform var(--dur-lift) var(--ease-standard);
+  }
+  .cta__badge:hover { color: #fff; text-decoration: none; transform: translateY(-1px); }
+  .cta__device img {
+    transform: rotate(-3deg);
+    border-radius: 28px;
+    box-shadow: var(--shadow-3);
+    height: auto;
+  }
+  @media (max-width: 768px) {
+    .cta { grid-template-columns: 1fr; padding: var(--space-6); }
+    .cta__device { justify-self: center; }
+    .cta__device img { max-width: 240px; }
+  }
+</style>

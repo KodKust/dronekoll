@@ -1,0 +1,116 @@
+---
+/**
+ * Kartramen — r20, hairline, shadow-3, 4:3 (1:1 mobil).
+ *
+ * Overlay-länder: skeleton med pulserande drönarglyf; src/scripts/zone-map.ts
+ * (fas 4) hydrerar med Leaflet + Voyager + zon-GeoJSON vid synlighet.
+ * Icke-overlay: statisk Voyager-crop (fas 3-bilder) + wash-scrim + badge
+ * "Zonkarta i appen · NOTAM-data live" — noll JS.
+ * Båda: länk till landets officiella karta (airspaceMapUrl, lokaliserad etikett).
+ */
+import { t } from '../lib/i18n';
+import type { PageEntry } from '../lib/model';
+
+interface Props {
+  page: PageEntry;
+  /** statisk kartbild för icke-overlay-länder (genereras av render_static_maps.py) */
+  staticImage?: string;
+  /** manifest-payload för overlay-länder (fas 4) — serialiseras till data-attribut */
+  mapConfig?: unknown;
+}
+const { page, staticImage, mapConfig } = Astro.props;
+const c = page.country;
+// Interaktiv karta ENDAST när config finns — overlay-land utan lager
+// (SE/ES tills speglings-fetchers är i drift) får statiska behandlingen
+// istället för en evig skeleton.
+const interactive = c.hasAirspaceOverlay && !!mapConfig;
+---
+
+<figure class="mapframe">
+  {interactive ? (
+    <div
+      class="mapframe__canvas"
+      id="zone-map"
+      data-map-config={mapConfig ? JSON.stringify(mapConfig) : undefined}
+      data-msg-loading={t('map.loading', page.lang)}
+      data-msg-error={t('map.error', page.lang)}
+      data-msg-legend={t('map.legend', page.lang)}
+    >
+      <div class="mapframe__skeleton" aria-hidden="true">
+        <svg width="56" height="56" viewBox="0 0 100 100" class="mapframe__glyph">
+          <g stroke="currentColor" stroke-width="5.5" fill="none" stroke-linecap="round">
+            <circle cx="28" cy="28" r="10.5" />
+            <circle cx="72" cy="28" r="10.5" />
+            <circle cx="28" cy="72" r="10.5" />
+            <circle cx="72" cy="72" r="10.5" />
+            <path d="M50 50 L35.5 35.5 M50 50 L64.5 35.5 M50 50 L35.5 64.5 M50 50 L64.5 64.5" />
+          </g>
+          <circle cx="50" cy="50" r="5.4" fill="currentColor" />
+        </svg>
+      </div>
+    </div>
+  ) : (
+    <div class="mapframe__canvas mapframe__canvas--static">
+      {staticImage && (
+        <img src={staticImage} alt="" loading="lazy" decoding="async" class="mapframe__img" />
+      )}
+      <div class="mapframe__scrim">
+        <span class="pill mapframe__badge">{t('map.staticBadge', page.lang)}</span>
+      </div>
+    </div>
+  )}
+  {c.airspaceMapUrl && (
+    <figcaption class="mapframe__caption">
+      <a href={c.airspaceMapUrl} rel="noopener nofollow" target="_blank">
+        {c.airspaceMapLabel ?? c.airspaceMapUrl}
+      </a>
+    </figcaption>
+  )}
+</figure>
+
+{/* Hoisted scripts kan inte villkoras pålitligt i Astro — skriptet no-op:ar
+    utan #zone-map[data-map-config], så ovillkorlig inkludering är korrekt. */}
+<script>
+  import '../scripts/zone-map';
+</script>
+
+<style>
+  .mapframe { margin: 0; }
+  .mapframe__canvas {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    border: 1px solid var(--hairline);
+    border-radius: var(--r-xl);
+    overflow: hidden;
+    background: var(--canvas-deep);
+    box-shadow: var(--shadow-3);
+  }
+  @media (max-width: 560px) { .mapframe__canvas { aspect-ratio: 1 / 1; } }
+
+  .mapframe__skeleton {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: var(--ink-3);
+  }
+  .mapframe__glyph { animation: pulse-dot var(--dur-pulse) ease-in-out infinite; }
+
+  .mapframe__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .mapframe__scrim {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: end center;
+    padding: var(--space-5);
+    background: linear-gradient(180deg, transparent 55%, color-mix(in srgb, var(--accent-wash) 82%, transparent));
+  }
+  .mapframe__badge {
+    background: var(--raised);
+    color: var(--accent-ink);
+    font-weight: 600;
+    box-shadow: var(--shadow-2);
+    border: 1px solid var(--border);
+  }
+  .mapframe__caption { margin-top: var(--space-3); font-size: var(--text-small); }
+</style>

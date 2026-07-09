@@ -1,0 +1,242 @@
+---
+/**
+ * Landssidan — sajtens kärna. En per språk × land (~98 st) ur modellen.
+ * Bandrytm (CAVOK): hero(paper) → snabbfakta(canvas) → regler(paper) →
+ * karta(canvas) → FAQ(canvas efter zontyper-fas 4) → noter+källor(paper) →
+ * app-CTA → navy-footer. Register: briefing (blå accent), aldrig säljtryck.
+ */
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
+import Base from '../../../layouts/Base.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import AnchorNav from '../../../components/AnchorNav.astro';
+import QuickFacts from '../../../components/QuickFacts.astro';
+import RuleList from '../../../components/RuleList.astro';
+import Callout from '../../../components/Callout.astro';
+import SourceLinks from '../../../components/SourceLinks.astro';
+import FaqBlock from '../../../components/FaqBlock.astro';
+import FreshnessBadge from '../../../components/FreshnessBadge.astro';
+import MapSection from '../../../components/MapSection.astro';
+import AppCta from '../../../components/AppCta.astro';
+import { allCountryPages, type PageEntry } from '../../../lib/model';
+import { zoneCountByIso } from '../../../lib/ingest';
+import { mapConfigFor } from '../../../lib/mapconfig';
+import { t } from '../../../lib/i18n';
+import {
+  countryTitle,
+  countryDescription,
+  webPageLd,
+  breadcrumbLd,
+  faqLd,
+  softwareAppLd,
+  buildFaq,
+} from '../../../lib/seo';
+
+export function getStaticPaths() {
+  return allCountryPages().map((page) => ({
+    params: { lang: page.lang, slug: page.slug },
+    props: { page },
+  }));
+}
+
+interface Props {
+  page: PageEntry;
+}
+const { page } = Astro.props;
+const c = page.country;
+const lang = page.lang;
+
+const title = countryTitle(page);
+const description = countryDescription(page);
+const zoneCount = zoneCountByIso()[page.iso];
+const mapConfig = c.hasAirspaceOverlay ? mapConfigFor(page.iso, lang) : null;
+// Statisk Voyager-crop (render_static_maps.py): huvudkarta för icke-overlay,
+// fallback för overlay-länder utan aktiva lager (MapSection avgör).
+const staticMapPath = `/static-maps/${page.iso.toLowerCase()}.webp`;
+const staticImage = existsSync(
+  join(process.cwd(), 'public', 'static-maps', `${page.iso.toLowerCase()}.webp`),
+)
+  ? staticMapPath
+  : undefined;
+const faqItems = buildFaq(page);
+const translated = lang === 'en' && c.languageCode !== 'en';
+
+// Två-tons-H1: accent-span på landsnamnet (briefing-registret = blått).
+// Synlig sentinel-split så platshållarens position styr oavsett språkets ordföljd.
+const H1_SENTINEL = '__COUNTRY__';
+const [h1Pre, h1Post = ''] = t('hero.h1.country', lang, { country: H1_SENTINEL }).split(H1_SENTINEL);
+
+const sections = [
+  'rules',
+  'map',
+  ...(faqItems.length > 0 ? (['faq'] as const) : []),
+  'sources',
+] as Array<'rules' | 'map' | 'zones' | 'faq' | 'sources'>;
+
+const ldBlocks = [
+  webPageLd(page, title, description),
+  breadcrumbLd(page),
+  ...(faqItems.length > 0 ? [faqLd(faqItems)] : []),
+  softwareAppLd(lang),
+];
+---
+
+<Base
+  title={title}
+  description={description}
+  lang={lang}
+  alternates={page.cluster}
+>
+  <Fragment slot="head">
+    {ldBlocks.map((ld) => (
+      <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+    ))}
+  </Fragment>
+
+  <Header lang={lang} cluster={page.cluster} />
+
+  {/* ── Hero ─────────────────────────────────────────────────────────── */}
+  <section class="band band--paper hero">
+    <div class="content">
+      <Breadcrumbs
+        items={[
+          { label: t('bc.home', lang), href: `/${lang}/` },
+          { label: page.displayName },
+        ]}
+      />
+      <div class="hero__flag" aria-hidden="true">{c.flagEmoji}</div>
+      <h1>
+        {h1Pre}<span class="h-accent">{page.displayName}</span>{h1Post}
+      </h1>
+      <p class="lede prose">{t('hero.lede.country', lang)}</p>
+      <div class="hero__meta">
+        <FreshnessBadge
+          lang={lang}
+          iso={page.iso}
+          lastVerified={c.lastVerified}
+          monitored={c.hasAirspaceOverlay}
+        />
+        {c.dataSourceName && <span class="pill hero__chip">{c.dataSourceName}</span>}
+        {c.regulatoryBase && <span class="pill hero__chip hero__chip--frame">{c.regulatoryBase}</span>}
+      </div>
+    </div>
+  </section>
+
+  <AnchorNav lang={lang} sections={sections} />
+
+  {/* ── Snabbfakta ───────────────────────────────────────────────────── */}
+  <section class="band band--canvas">
+    <div class="wide">
+      <QuickFacts page={page} zoneCount={zoneCount} />
+    </div>
+  </section>
+
+  {/* ── Regler ───────────────────────────────────────────────────────── */}
+  <section class="band band--paper" id="rules">
+    <div class="content">
+      <p class="overline rise">{c.sectionLabelRules ?? t('anchor.rules', lang)}</p>
+      {translated && (
+        <div class="section-callout">
+          <Callout kind="warn">{t('ymyl.translated', lang)}</Callout>
+        </div>
+      )}
+      <RuleList rules={c.keyRules} />
+    </div>
+  </section>
+
+  {/* ── Karta ────────────────────────────────────────────────────────── */}
+  <section class="band band--canvas" id="map">
+    <div class="wide">
+      <h2 class="rise section-title">{t('map.title', lang)}</h2>
+      {zoneCount && (
+        <p class="small map-zoneline tnum">{t('freshness.zonesLive', lang, { n: zoneCount.toLocaleString(lang) })}</p>
+      )}
+      <MapSection page={page} mapConfig={mapConfig} staticImage={staticImage} />
+    </div>
+  </section>
+
+  {/* ── FAQ ──────────────────────────────────────────────────────────── */}
+  {faqItems.length > 0 && (
+    <section class="band band--paper" id="faq">
+      <div class="content">
+        <h2 class="rise section-title">{t('faq.title', lang)}</h2>
+        <FaqBlock items={faqItems} />
+      </div>
+    </section>
+  )}
+
+  {/* ── Noter + källor ───────────────────────────────────────────────── */}
+  <section class="band band--canvas" id="sources">
+    <div class="content sources-band">
+      {c.importantNotes.length > 0 && (
+        <div class="notes">
+          <h2 class="rise section-title">{t('notes.title', lang)}</h2>
+          <div class="notes__list">
+            {c.importantNotes.map((note) => (
+              <Callout kind="note">{note}</Callout>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <div>
+        <p class="overline sources-label">{c.sectionLabelPrimary ?? t('anchor.sources', lang)}</p>
+        <SourceLinks links={c.primaryLinks} verifiedWord={c.verificationWord} />
+      </div>
+
+      {c.secondaryLinks.length > 0 && (
+        <div>
+          <p class="overline sources-label">{c.sectionLabelSecondary}</p>
+          <SourceLinks links={c.secondaryLinks} />
+        </div>
+      )}
+
+      {c.disclaimerText && <p class="small disclaimer">{c.disclaimerText}</p>}
+    </div>
+  </section>
+
+  {/* ── App-CTA ──────────────────────────────────────────────────────── */}
+  <section class="band band--paper">
+    <div class="wide">
+      <AppCta lang={lang} />
+    </div>
+  </section>
+
+  <Footer lang={lang} />
+</Base>
+
+<style>
+  .hero .content { display: grid; gap: var(--space-4); }
+  .hero__flag { font-size: 40px; line-height: 1; }
+  .hero__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    align-items: center;
+    margin-top: var(--space-2);
+  }
+  .hero__chip {
+    background: var(--soft-btn);
+    color: var(--ink-2);
+    font-size: var(--text-caption);
+    font-weight: 500;
+  }
+  .hero__chip--frame {
+    background: var(--accent-wash);
+    color: var(--accent-ink);
+    max-width: 48ch;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .section-title { margin-bottom: var(--space-5); }
+  .section-callout { margin-block: var(--space-4) var(--space-5); max-width: var(--w-prose); }
+  #rules .overline { margin-bottom: var(--space-5); }
+  .map-zoneline { color: var(--ink-2); margin: calc(-1 * var(--space-4)) 0 var(--space-4); }
+  .sources-band { display: grid; gap: var(--space-7); }
+  .notes__list { display: grid; gap: var(--space-3); max-width: var(--w-prose); }
+  .sources-label { margin-bottom: var(--space-4); }
+  .disclaimer { color: var(--ink-2); font-style: italic; max-width: var(--w-prose); }
+</style>

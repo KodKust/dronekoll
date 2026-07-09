@@ -1,0 +1,15 @@
+# bygge
+dist/
+.astro/
+
+# beroenden
+node_modules/
+
+# livehämtad data (snapshots/ committas, live/ gör det INTE)
+data/live/
+
+# bygg-cache (OG-bilder m.m.)
+.cache/
+
+# os
+.DS_Store

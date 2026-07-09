@@ -1,0 +1,84 @@
+---
+/**
+ * Sticky pill-ankarnav under headern — ekot av appens chip-rad över kartan.
+ * "Flikarna" utan SEO-straff: allt innehåll ligger i sidan, navet skrollar.
+ * Aktiv pill markeras av en liten IntersectionObserver (progressive enhancement).
+ */
+import { t } from '../lib/i18n';
+
+interface Props {
+  lang: string;
+  /** vilka sektioner sidan faktiskt har, i ordning */
+  sections: Array<'rules' | 'map' | 'zones' | 'faq' | 'sources'>;
+}
+const { lang, sections } = Astro.props;
+const items = sections.map((id) => ({ id, label: t(`anchor.${id}`, lang) }));
+---
+
+<nav class="anchor-nav" aria-label="On this page">
+  <div class="shell anchor-nav__inner">
+    {items.map((i) => (
+      <a class="pill anchor-nav__pill" href={`#${i.id}`} data-anchor={i.id}>{i.label}</a>
+    ))}
+  </div>
+</nav>
+
+<script>
+  const pills = document.querySelectorAll<HTMLAnchorElement>('[data-anchor]');
+  if (pills.length > 0 && 'IntersectionObserver' in window) {
+    const byId = new Map<string, HTMLAnchorElement>();
+    pills.forEach((p) => byId.set(p.dataset.anchor!, p));
+    const obs = new IntersectionObserver(
+      (entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            pills.forEach((p) => p.classList.remove('is-active'));
+            byId.get(e.target.id)?.classList.add('is-active');
+          }
+        }
+      },
+      { rootMargin: '-140px 0px -60% 0px' },
+    );
+    byId.forEach((_, id) => {
+      const el = document.getElementById(id);
+      if (el) obs.observe(el);
+    });
+  }
+</script>
+
+<style>
+  .anchor-nav {
+    position: sticky;
+    top: 64px;
+    z-index: 40;
+    background: color-mix(in srgb, var(--raised) 88%, transparent);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--hairline);
+  }
+  .anchor-nav__inner {
+    display: flex;
+    gap: var(--space-2);
+    padding-block: var(--space-2);
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 16px, #000 calc(100% - 16px), transparent);
+            mask-image: linear-gradient(90deg, transparent, #000 16px, #000 calc(100% - 16px), transparent);
+  }
+  .anchor-nav__inner::-webkit-scrollbar { display: none; }
+  .anchor-nav__pill {
+    flex-shrink: 0;
+    color: var(--ink-2);
+    background: transparent;
+    border: 1px solid transparent;
+    transition:
+      background var(--dur-hover) var(--ease-standard),
+      color var(--dur-hover) var(--ease-standard);
+  }
+  .anchor-nav__pill:hover { background: var(--soft-btn); text-decoration: none; }
+  .anchor-nav__pill.is-active {
+    background: var(--accent-wash);
+    color: var(--accent-ink);
+    font-weight: 600;
+  }
+</style>

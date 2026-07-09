@@ -1,0 +1,62 @@
+---
+/**
+ * Header — 64px, halvtransparent + blur, hairline under. Vänster: wordmark
+ * (lokaliserat namn). Höger: språkväxlare + diskret app-länk (kunskap först:
+ * ingen stor CTA-knapp i chromen).
+ */
+import Wordmark from './Wordmark.astro';
+import LanguageSwitcher from './LanguageSwitcher.astro';
+import { brandForLang } from '../lib/model';
+import { t } from '../lib/i18n';
+import { APP_STORE_URL } from '../lib/seo';
+import type { Alternate } from '../lib/model';
+
+interface Props {
+  lang: string;
+  /** hreflang-kluster för aktuell sida — språkväxlaren länkar dit när målspråket finns */
+  cluster?: Alternate[];
+}
+const { lang, cluster = [] } = Astro.props;
+const brand = brandForLang(lang);
+---
+
+<header class="site-header">
+  <div class="shell site-header__inner">
+    <Wordmark brand={brand} href={`/${lang}/`} />
+    <nav class="site-header__nav" aria-label="Site">
+      <LanguageSwitcher lang={lang} cluster={cluster} />
+      <a class="site-header__app" href={APP_STORE_URL} rel="noopener">{t('nav.getApp', lang)}</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    height: 64px;
+    background: rgba(255, 255, 255, 0.85);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--hairline);
+  }
+  .site-header__inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+  }
+  .site-header__nav {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+  }
+  .site-header__app {
+    font-size: var(--text-small);
+    font-weight: 500;
+    color: var(--ink-2);
+  }
+  .site-header__app:hover { color: var(--accent-ink); text-decoration: none; }
+</style>

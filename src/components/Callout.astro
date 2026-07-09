@@ -1,0 +1,50 @@
+---
+/**
+ * Callout — note (accent), warn, danger (reserverad för juridiska
+ * no-fly-varningar). 3px vänsterkant + wash-bakgrund, r12.
+ */
+interface Props {
+  kind?: 'note' | 'warn' | 'danger';
+  title?: string;
+}
+const { kind = 'note', title } = Astro.props;
+---
+
+<aside class={`callout callout--${kind}`}>
+  <span class="callout__icon" aria-hidden="true">
+    {kind === 'note' ? (
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <circle cx="12" cy="12" r="9" /><path d="M12 10.5V17M12 7v.01" stroke-linecap="round" />
+      </svg>
+    ) : (
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <path d="M12 3.5 22 20H2L12 3.5z" stroke-linejoin="round" /><path d="M12 10v5M12 17.5v.01" stroke-linecap="round" />
+      </svg>
+    )}
+  </span>
+  <div class="callout__body">
+    {title && <p class="callout__title">{title}</p>}
+    <slot />
+  </div>
+</aside>
+
+<style>
+  .callout {
+    display: flex;
+    gap: var(--space-4);
+    padding: var(--space-4) var(--space-5);
+    border-radius: var(--r-md);
+    border-left: 3px solid;
+  }
+  .callout__icon { flex-shrink: 0; margin-top: 2px; }
+  .callout__body { display: grid; gap: 4px; font-size: var(--text-small); }
+  .callout__body :global(p) { margin: 0; }
+  .callout__title { font-weight: 600; }
+
+  .callout--note   { background: var(--accent-wash); border-color: var(--accent); color: var(--ink-body); }
+  .callout--note .callout__icon, .callout--note .callout__title { color: var(--accent-ink); }
+  .callout--warn   { background: var(--warn-wash); border-color: var(--warn-border); color: var(--ink-body); }
+  .callout--warn .callout__icon, .callout--warn .callout__title { color: var(--warn-ink); }
+  .callout--danger { background: var(--danger-wash); border-color: var(--danger-border); color: var(--ink-body); }
+  .callout--danger .callout__icon, .callout--danger .callout__title { color: var(--danger-ink); }
+</style>

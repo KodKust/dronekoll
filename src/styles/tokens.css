@@ -1,0 +1,111 @@
+/* ============================================================================
+   DroneKoll.com designsystem — "CAVOK"
+   (METAR-kod: Ceiling And Visibility OK — flygspråk för "ja, du kan flyga")
+
+   Ljus, mjuk, premium. Härlett ur appens ljusa tema (lib/theme/surface_colors.dart),
+   appikonens gradient (assets/icon.png) och butiksmaterialets typografiska röst
+   (generate_screenshots_final.py: #1D1D1F + #34C759 + två-tons-rubriker).
+
+   Registerregel: hemsidan talar marketing (grönt accentspann), landssidorna talar
+   briefing (blått). Grönt är strikt semantiskt: tillåtet/verifierat/live.
+   ========================================================================== */
+
+:root {
+  /* ── Neutraler (ur SurfaceColors.light, lätt kylda ~1–2 punkter) ───────── */
+  --paper:         #FFFFFF;               /* sectionBg — kort, huvudband */
+  --canvas:        #F6F7F9;               /* sheetBg — alternerande band, sid-bg */
+  --canvas-deep:   #EDEFF3;               /* deepBg — insänkta ytor, skeletons */
+  --raised:        #FBFCFD;               /* dialogBg — popovers, sticky header */
+  --hairline:      rgba(16, 24, 40, 0.08);
+  --border:        #E3E6EB;
+  --border-strong: #C7CCD4;
+  --soft-btn:      rgba(16, 24, 40, 0.05);
+
+  /* ── Ink (appens 3-nivåsystem + butikssvärtan) ─────────────────────────── */
+  --ink:      #1D1D1F;  /* rubriker, värden, nav — 16.1:1 */
+  --ink-body: #3D4149;  /* brödtext — ~10:1 */
+  --ink-2:    #5F646D;  /* sekundärt, ingresser — 6.0:1 */
+  --ink-3:    #9AA0A8;  /* ENDAST meta/platshållare, aldrig brödtext */
+
+  /* ── Varumärkesblått — två nivåer ──────────────────────────────────────── */
+  --accent:        #0277BD;  /* appens ljus-accent. Länkar, aktiva lägen, ikoner */
+  --accent-ink:    #01579B;  /* hover + text på tintad bakgrund — 7.1:1 */
+  --accent-wash:   #E8F3FA;
+  --accent-wash-2: #D3E9F6;
+  --brand-sky:  #3B81F5;     /* ikongradientens topp — endast varumärkesmoment */
+  --brand-navy: #1E3A8B;     /* ikongradientens botten — footer, OG, djupaccent */
+  --brand-grad: linear-gradient(180deg, #3B81F5 0%, #1E3A8B 100%);
+
+  /* ── Signalgrönt (butiksaccent + appens go/no-go) ──────────────────────── */
+  --go:      #34C759;  /* prickar, check-fyllningar, hem-hero — ALDRIG som brödtext */
+  --go-ink:  #1E7B3C;  /* grön text — 5.4:1 */
+  --go-wash: #E9F8EE;
+
+  /* ── Varning / fara ────────────────────────────────────────────────────── */
+  --warn-ink:    #9A5B00;  --warn-wash:   #FDF4E5;  --warn-border:   #F3D9AC;
+  --danger-ink:  #C62828;  --danger-wash: #FDECEC;  --danger-border: #F5C6C6;
+
+  /* ── Zonsymbologi — trippel per typ ────────────────────────────────────────
+     stroke = appens exakta kartfärg (kartlinjer, chip-ringar)
+     fill   = stroke @ låg alfa (kartfyllning, chip/badge-bakgrunder)
+     ink    = mörkad AA-säker variant för legend-etiketter och löptext
+     Rå stroke ALDRIG som text. Rent #FFFF00 (DNGA i appen) bara PÅ kartan. */
+  --zone-ctr-stroke:  #FF5252; --zone-ctr-fill:  rgba(255, 82, 82, 0.12);  --zone-ctr-ink:  #C62828;
+  --zone-rsta-stroke: #E040FB; --zone-rsta-fill: rgba(224, 64, 251, 0.10); --zone-rsta-ink: #9C27B0;
+  --zone-dnga-stroke: #F4D03F; --zone-dnga-fill: rgba(255, 235, 59, 0.16); --zone-dnga-ink: #7D6608;
+  --zone-atz-stroke:  #FFAB40; --zone-atz-fill:  rgba(255, 171, 64, 0.14); --zone-atz-ink:  #9A5B00;
+  --zone-tiz-stroke:  #40C4FF; --zone-tiz-fill:  rgba(64, 196, 255, 0.12); --zone-tiz-ink:  #0277BD;
+  --zone-rwy-stroke:  #FF9800; --zone-rwy-fill:  rgba(255, 152, 0, 0.13);  --zone-rwy-ink:  #8F4E00;
+  --zone-sup-stroke:  #7C4DFF; --zone-sup-fill:  rgba(124, 77, 255, 0.10); --zone-sup-ink:  #5E35B1;
+  --zone-nature-stroke: #2E7D32; --zone-nature-fill: rgba(46, 125, 50, 0.10); --zone-nature-ink: #1B5E20;
+  --zone-mil-stroke:  #1976D2; --zone-mil-fill:  rgba(33, 150, 243, 0.10); --zone-mil-ink:  #0D47A1;
+  --zone-other-stroke:#607D8B; --zone-other-fill:rgba(96, 125, 139, 0.10); --zone-other-ink:#455A64;
+
+  /* ── Typografi ─────────────────────────────────────────────────────────────
+     Poppins (butiksrösten) saknar grekiska+kyrilliska → Manrope bär samma
+     geometriska röst med full täckning för alla 27 språk. Inter för brödtext
+     och all tabellalignad data (tabular-nums). */
+  --font-display: 'Manrope Variable', 'Manrope', 'Inter Variable', 'Inter',
+                  system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter Variable', 'Inter', system-ui, -apple-system, 'Segoe UI',
+               Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  --text-display-xl: clamp(2.375rem, 1.9rem + 2.4vw, 3.5rem);   /* hem-hero */
+  --text-display:    clamp(2rem, 1.7rem + 1.6vw, 2.75rem);      /* lands-H1 */
+  --text-h2:         clamp(1.5rem, 1.35rem + 0.8vw, 1.75rem);
+  --text-h3:         1.3125rem;
+  --text-h4:         1.0625rem;
+  --text-lede:       1.1875rem;
+  --text-body:       1.0625rem;   /* 17px — aldrig mindre för brödtext */
+  --text-small:      0.9375rem;
+  --text-caption:    0.8125rem;
+  --text-overline:   0.75rem;     /* +0.08em, VERSAL — arvet från appens sektionsetiketter */
+  --text-stat:       1.625rem;
+
+  /* ── Layout ────────────────────────────────────────────────────────────── */
+  --w-prose:   68ch;
+  --w-content: 800px;
+  --w-wide:    1080px;
+  --w-shell:   1200px;
+  --page-pad:  clamp(20px, 5vw, 64px);
+
+  --space-1: 4px;  --space-2: 8px;   --space-3: 12px;  --space-4: 16px;
+  --space-5: 24px; --space-6: 32px;  --space-7: 48px;  --space-8: 64px;
+  --space-9: 96px; --space-10: 128px;
+  --section-pad: clamp(56px, 10vw, 96px);
+
+  --r-sm: 8px; --r-md: 12px; --r-lg: 16px; --r-xl: 20px; --r-pill: 999px;
+
+  /* Mjukt, konkret: lager av lågalfa navy-tintade skuggor — alltid MED 1px border */
+  --shadow-1: 0 1px 2px rgba(16, 24, 40, 0.04), 0 1px 3px rgba(16, 24, 40, 0.06);
+  --shadow-2: 0 2px 4px rgba(16, 24, 40, 0.03), 0 8px 24px rgba(16, 24, 40, 0.07);
+  --shadow-3: 0 4px 8px rgba(30, 58, 139, 0.05), 0 20px 48px rgba(30, 58, 139, 0.10);
+
+  /* ── Motion (ur lib/theme/motion_tokens.dart, ordagrant) ───────────────────
+     "calm and confident, never bouncy" */
+  --dur-fast: 350ms;
+  --dur-hover: 150ms;
+  --dur-lift: 200ms;
+  --ease-standard: cubic-bezier(0.215, 0.61, 0.355, 1); /* easeOutCubic */
+  --dur-pulse: 1800ms;
+}

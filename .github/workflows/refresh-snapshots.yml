@@ -1,0 +1,49 @@
+# Veckovis snapshot-uppdatering: hämtar färska kopior av datakällorna och
+# committar dem till data/snapshots/ OM de ändrats. Snapshots är byggets
+# nät-fria fallback — dagliga byggen committar ALDRIG (de läser data/live/).
+name: refresh-snapshots
+
+on:
+  schedule:
+    - cron: '45 4 * * 1' # måndagar 04:45 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-snapshots
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Hämta färsk data till live/
+        run: node scripts/fetch-data.mjs
+
+      - name: Kopiera in i snapshots/ och committa vid ändring
+        run: |
+          mkdir -p data/snapshots
+          for f in countries.json classifier_strings.json schema_baseline.json web-manifest.json; do
+            if [ -f "data/live/$f" ]; then
+              cp "data/live/$f" "data/snapshots/$f"
+            fi
+          done
+          git config user.name "snapshot-bot"
+          git config user.email "actions@github.com"
+          git add data/snapshots
+          if git diff --cached --quiet; then
+            echo "Inga snapshot-ändringar."
+          else
+            git commit -m "chore: uppdatera data-snapshots $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
+            git push
+          fi

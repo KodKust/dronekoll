@@ -1,0 +1,120 @@
+---
+/**
+ * Språkväxlare — popover med alla 27 språk i nativ form. På landssidor
+ * länkar den till landets andra språkversion när den finns (via klustret),
+ * annars till målspråkets hubb. Ren <details>-popover, noll ramverk.
+ */
+import { LANGUAGES, type Alternate } from '../lib/model';
+import { t } from '../lib/i18n';
+
+interface Props {
+  lang: string;
+  cluster?: Alternate[];
+}
+const { lang, cluster = [] } = Astro.props;
+
+const targets: Record<string, string> = {};
+for (const alt of cluster) {
+  if (alt.hreflang !== 'x-default') targets[alt.hreflang] = new URL(alt.href).pathname;
+}
+const entries = Object.entries(LANGUAGES).map(([code, name]) => ({
+  code,
+  name,
+  href: targets[code] ?? `/${code}/`,
+  current: code === lang,
+}));
+---
+
+<details class="langswitch">
+  <summary class="pill langswitch__trigger" aria-label={t('langswitch.label', lang)}>
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+      <circle cx="12" cy="12" r="9" />
+      <path d="M3.5 12h17M12 3.5c2.7 2.4 4 5.4 4 8.5s-1.3 6.1-4 8.5c-2.7-2.4-4-5.4-4-8.5s1.3-6.1 4-8.5z" />
+    </svg>
+    <span class="langswitch__code">{lang.toUpperCase()}</span>
+  </summary>
+  <div class="langswitch__pop card">
+    <ul class="langswitch__list">
+      {entries.map((e) => (
+        <li>
+          <a href={e.href} aria-current={e.current ? 'true' : undefined} lang={e.code}>
+            {e.name}
+            {e.current && (
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true">
+                <path d="M5 13l4.5 4.5L19 7" />
+              </svg>
+            )}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</details>
+
+<script>
+  // Stäng öppen popover vid klick utanför / Escape.
+  document.addEventListener('click', (e) => {
+    for (const d of document.querySelectorAll('details.langswitch[open]')) {
+      if (!d.contains(e.target as Node)) d.removeAttribute('open');
+    }
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape')
+      for (const d of document.querySelectorAll('details.langswitch[open]')) d.removeAttribute('open');
+  });
+</script>
+
+<style>
+  .langswitch { position: relative; }
+  .langswitch__trigger {
+    cursor: pointer;
+    list-style: none;
+    background: var(--soft-btn);
+    color: var(--ink-2);
+    border: 1px solid transparent;
+    transition: border-color var(--dur-hover) var(--ease-standard);
+    user-select: none;
+  }
+  .langswitch__trigger::-webkit-details-marker { display: none; }
+  .langswitch__trigger:hover { border-color: var(--border-strong); }
+  .langswitch__code { font-size: var(--text-caption); font-weight: 640; letter-spacing: 0.04em; }
+  .langswitch__pop {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 8px);
+    z-index: 60;
+    min-width: 460px;
+    border-radius: var(--r-lg);
+    box-shadow: var(--shadow-2);
+    padding: var(--space-3);
+    animation: pop-in var(--dur-fast) var(--ease-standard);
+  }
+  @keyframes pop-in {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: none; }
+  }
+  .langswitch__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+  }
+  .langswitch__list a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-2);
+    padding: 7px 10px;
+    border-radius: var(--r-sm);
+    font-size: var(--text-small);
+    color: var(--ink-body);
+  }
+  .langswitch__list a:hover { background: var(--canvas); text-decoration: none; }
+  .langswitch__list a[aria-current='true'] { color: var(--accent-ink); font-weight: 600; }
+  @media (max-width: 560px) {
+    .langswitch__pop { min-width: min(88vw, 340px); }
+    .langswitch__list { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>

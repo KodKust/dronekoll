@@ -1,0 +1,53 @@
+---
+/**
+ * Snabbfakta-chips: REGULATOR / REGELVERK / BEHÖRIGHET / VERIFIERAD (+ ZONER
+ * för overlay-länder). Värden ur countries.json — inga påhittade fält
+ * (max-höjd finns t.ex. bara som regeltext och får därför INTE bli en chip).
+ */
+import { t } from '../lib/i18n';
+import type { PageEntry } from '../lib/model';
+
+interface Props {
+  page: PageEntry;
+  zoneCount?: number;
+}
+const { page, zoneCount } = Astro.props;
+const c = page.country;
+
+const facts: Array<{ label: string; value: string; tnum?: boolean }> = [];
+if (c.dataSourceName) facts.push({ label: t('facts.regulator', page.lang), value: c.dataSourceName });
+if (c.regulatoryBase) facts.push({ label: t('facts.framework', page.lang), value: c.regulatoryBase });
+if (c.dronePilotCredentialName)
+  facts.push({ label: t('facts.credential', page.lang), value: c.dronePilotCredentialName });
+if (zoneCount && zoneCount > 0)
+  facts.push({ label: t('facts.zones', page.lang), value: zoneCount.toLocaleString(page.lang), tnum: true });
+if (c.lastVerified) facts.push({ label: t('facts.verified', page.lang), value: c.lastVerified, tnum: true });
+---
+
+{facts.length > 0 && (
+  <div class="facts">
+    {facts.map((f) => (
+      <div class="card facts__item">
+        <p class="overline">{f.label}</p>
+        <p class={`facts__value ${f.tnum ? 'tnum' : ''}`}>{f.value}</p>
+      </div>
+    ))}
+  </div>
+)}
+
+<style>
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: var(--space-4);
+  }
+  .facts__item { padding: var(--space-4) var(--space-5); display: grid; gap: 6px; align-content: start; }
+  .facts__value {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--ink);
+    overflow-wrap: anywhere;
+  }
+</style>

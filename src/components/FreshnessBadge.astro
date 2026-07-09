@@ -1,0 +1,50 @@
+---
+/**
+ * Freshness-badge — SSR-fallback (lastVerified + "pipeline övervakas dagligen")
+ * som uppgraderas klient-side av src/scripts/freshness.ts med live-status ur
+ * pappilappi status.json (relativtid på sidans språk, ALDRIG svenska
+ * detail-strängar). Fasta mått → CLS 0 vid uppgradering.
+ */
+import { t } from '../lib/i18n';
+
+interface Props {
+  lang: string;
+  iso: string;
+  lastVerified?: string;
+  /** landet finns i status.json (19 övervakade) → klient-uppgradering aktiveras */
+  monitored?: boolean;
+}
+const { lang, iso, lastVerified, monitored = false } = Astro.props;
+---
+
+<span
+  class="pill freshness"
+  data-freshness={monitored ? iso : undefined}
+  data-lang={lang}
+  data-msg-ok={t('freshness.liveOk', lang)}
+  data-msg-warn={t('freshness.liveWarn', lang)}
+>
+  <span class="pulse-dot" aria-hidden="true"></span>
+  <span class="freshness__text tnum">
+    {lastVerified
+      ? t('freshness.updated', lang, { date: lastVerified })
+      : t('freshness.checkedDaily', lang)}
+  </span>
+</span>
+
+{/* No-op:ar utan [data-freshness] — villkorade hoisted scripts är opålitliga. */}
+<script>
+  import '../scripts/freshness';
+</script>
+
+<style>
+  .freshness {
+    background: var(--go-wash);
+    color: var(--go-ink);
+    font-weight: 500;
+    font-size: var(--text-caption);
+    min-height: 28px;
+  }
+  .freshness.is-warn { background: var(--warn-wash); color: var(--warn-ink); }
+  .freshness.is-warn .pulse-dot { background: var(--warn-ink); animation: none; }
+</style>

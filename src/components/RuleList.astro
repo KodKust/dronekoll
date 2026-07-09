@@ -1,0 +1,53 @@
+---
+/**
+ * Regellistan — TYPOGRAFISK (inga kort, max 68ch). Check-chip i go-wash;
+ * villkors-/varningsregler (heuristik på nyckelord) får warn-chip.
+ * Aldrig en ✅-vägg.
+ */
+interface Props {
+  rules: string[];
+}
+const { rules } = Astro.props;
+
+// Regler som uttrycker förbud/krav på tillstånd markeras med varnings-chip.
+const warnRe =
+  /förbjud|förbud|tillstånd|inte tillåt|krävs|kräver|prohibi|forbidden|not allowed|require|authoris|authoriz|autorisa|autoriz|verbot|erforder|interdit|obligatoire|obrigatór|obligator|vietat|verboden|verplicht|zakaz|tilos|förbjuden/i;
+const items = rules.map((text) => ({ text, warn: warnRe.test(text) }));
+---
+
+<ul class="rules prose">
+  {items.map((r) => (
+    <li class="rules__item">
+      <span class={`rules__chip ${r.warn ? 'rules__chip--warn' : ''}`} aria-hidden="true">
+        {r.warn ? (
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6">
+            <path d="M12 5v9M12 18.5v.01" stroke-linecap="round" />
+          </svg>
+        ) : (
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6">
+            <path d="M5 13l4.5 4.5L19 7" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        )}
+      </span>
+      <span>{r.text}</span>
+    </li>
+  ))}
+</ul>
+
+<style>
+  .rules { list-style: none; margin: 0; padding: 0; display: grid; gap: 20px; }
+  .rules__item { display: flex; gap: var(--space-4); align-items: baseline; }
+  .rules__chip {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--go-wash);
+    color: var(--go-ink);
+    transform: translateY(4px);
+  }
+  .rules__chip--warn { background: var(--warn-wash); color: var(--warn-ink); }
+</style>

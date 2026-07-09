@@ -1,0 +1,516 @@
+{
+  "_source": "dronarkartan lib/services/airspace_wfs_service.dart colorsForLayer()",
+  "_generated_note": "Regenerera med: node scripts/export-zone-styles.mjs",
+  "styles": {
+    "P": {
+      "fill": "rgba(255,0,0,0.4)",
+      "stroke": "rgba(255,0,0,0.93)",
+      "width": 2.5
+    },
+    "MIL_DK": {
+      "fill": "rgba(33,150,243,0.13)",
+      "stroke": "rgba(25,118,210,0.8)",
+      "width": 1.5
+    },
+    "GRON_NATUR": {
+      "fill": "rgba(46,125,50,0.12)",
+      "stroke": "rgba(46,125,50,0.67)",
+      "width": 1.5
+    },
+    "INFRA_DK": {
+      "fill": "rgba(43,87,131,0.13)",
+      "stroke": "rgba(26,53,83,0.8)",
+      "width": 1.2
+    },
+    "ROD_FLYG_DK": {
+      "fill": "rgba(211,47,47,0.2)",
+      "stroke": "rgba(183,28,28,0.8)",
+      "width": 2
+    },
+    "ORANGE_OPMERK_DK": {
+      "fill": "rgba(255,152,0,0.15)",
+      "stroke": "rgba(230,81,0,0.8)",
+      "width": 1.5
+    },
+    "NATURE_NL": {
+      "fill": "rgba(46,125,50,0.12)",
+      "stroke": "rgba(46,125,50,0.67)",
+      "width": 1.5
+    },
+    "P_NL": {
+      "fill": "rgba(255,23,68,0.13)",
+      "stroke": "rgba(211,47,47,0.8)",
+      "width": 1.5
+    },
+    "LFA_NL": {
+      "fill": "rgba(255,193,7,0.13)",
+      "stroke": "rgba(255,160,0,0.8)",
+      "width": 1.5
+    },
+    "CTR_NL": {
+      "fill": "rgba(229,57,53,0.15)",
+      "stroke": "rgba(198,40,40,0.8)",
+      "width": 1.5
+    },
+    "MIL_NL": {
+      "fill": "rgba(33,150,243,0.13)",
+      "stroke": "rgba(25,118,210,0.8)",
+      "width": 1.5
+    },
+    "INFRA_NL": {
+      "fill": "rgba(229,57,53,0.13)",
+      "stroke": "rgba(183,28,28,0.8)",
+      "width": 1.5
+    },
+    "HEMS_NL": {
+      "fill": "rgba(255,87,34,0.13)",
+      "stroke": "rgba(216,67,21,0.8)",
+      "width": 1.5
+    },
+    "RESTRICTED_NL": {
+      "fill": "rgba(229,57,53,0.12)",
+      "stroke": "rgba(229,57,53,0.73)",
+      "width": 1.2
+    },
+    "P_FI": {
+      "fill": "rgba(211,47,47,0.2)",
+      "stroke": "rgba(183,28,28,0.8)",
+      "width": 2
+    },
+    "CTR_FI": {
+      "fill": "rgba(229,57,53,0.15)",
+      "stroke": "rgba(198,40,40,0.8)",
+      "width": 1.5
+    },
+    "MIL_FI": {
+      "fill": "rgba(33,150,243,0.13)",
+      "stroke": "rgba(25,118,210,0.8)",
+      "width": 1.5
+    },
+    "HEMS_FI": {
+      "fill": "rgba(255,87,34,0.13)",
+      "stroke": "rgba(216,67,21,0.8)",
+      "width": 1.5
+    },
+    "INFRA_FI": {
+      "fill": "rgba(43,87,131,0.13)",
+      "stroke": "rgba(26,53,83,0.8)",
+      "width": 1.2
+    },
+    "RESTRICTED_FI": {
+      "fill": "rgba(229,57,53,0.12)",
+      "stroke": "rgba(229,57,53,0.73)",
+      "width": 1.2
+    },
+    "GRON_NATUR_FI": {
+      "fill": "rgba(46,125,50,0.12)",
+      "stroke": "rgba(46,125,50,0.67)",
+      "width": 1.5
+    },
+    "LENNOKKI_FI": {
+      "fill": "rgba(255,193,7,0.13)",
+      "stroke": "rgba(255,160,0,0.8)",
+      "width": 1.2
+    },
+    "INFO_FI": {
+      "fill": "rgba(158,158,158,0.08)",
+      "stroke": "rgba(158,158,158,0.6)",
+      "width": 1
+    },
+    "EFP_FI": {
+      "fill": "rgba(211,47,47,0.25)",
+      "stroke": "rgba(183,28,28,0.93)",
+      "width": 2.5
+    },
+    "EFR_FI": {
+      "fill": "rgba(229,57,53,0.2)",
+      "stroke": "rgba(198,40,40,0.8)",
+      "width": 2
+    },
+    "EFD_FI": {
+      "fill": "rgba(255,152,0,0.15)",
+      "stroke": "rgba(230,81,0,0.8)",
+      "width": 1.5
+    },
+    "ZICAD_FR": {
+      "fill": "rgba(171,71,188,0.13)",
+      "stroke": "rgba(123,31,162,0.8)",
+      "width": 1.5
+    },
+    "PARC_NATIONAL_FR": {
+      "fill": "rgba(46,125,50,0.12)",
+      "stroke": "rgba(27,94,32,0.67)",
+      "width": 1.5
+    },
+    "FR_FORBIDDEN": {
+      "fill": "rgba(229,57,53,0.17)",
+      "stroke": "rgba(183,28,28,0.9)",
+      "width": 1.3
+    },
+    "FR_MAX30": {
+      "fill": "rgba(251,140,0,0.13)",
+      "stroke": "rgba(230,81,0,0.85)",
+      "width": 1
+    },
+    "FR_MAX50": {
+      "fill": "rgba(255,179,0,0.12)",
+      "stroke": "rgba(255,143,0,0.85)",
+      "width": 1
+    },
+    "FR_MAX60": {
+      "fill": "rgba(253,216,53,0.12)",
+      "stroke": "rgba(249,168,37,0.85)",
+      "width": 1
+    },
+    "FR_MAX100": {
+      "fill": "rgba(124,179,66,0.14)",
+      "stroke": "rgba(85,139,47,0.85)",
+      "width": 1
+    },
+    "PARQUE_NACIONAL_ES": {
+      "fill": "rgba(46,125,50,0.12)",
+      "stroke": "rgba(27,94,32,0.67)",
+      "width": 1.5
+    },
+    "OBSTACLE_CH": {
+      "fill": "rgba(255,111,0,0.12)",
+      "stroke": "rgba(230,81,0,0.8)",
+      "width": 1.6
+    },
+    "CTR_CH": {
+      "fill": "rgba(229,57,53,0.15)",
+      "stroke": "rgba(198,40,40,0.8)",
+      "width": 1.5
+    },
+    "TMA_CH": {
+      "fill": "rgba(255,109,0,0.1)",
+      "stroke": "rgba(255,109,0,0.67)",
+      "width": 1.5
+    },
+    "CTA_CH": {
+      "fill": "rgba(255,171,0,0.09)",
+      "stroke": "rgba(255,171,0,0.6)",
+      "width": 1.2
+    },
+    "UAS_AKT_CH": {
+      "fill": "rgba(211,47,47,0.2)",
+      "stroke": "rgba(183,28,28,0.8)",
+      "width": 2
+    },
+    "JAGDBANN_CH": {
+      "fill": "rgba(46,125,50,0.12)",
+      "stroke": "rgba(46,125,50,0.67)",
+      "width": 1.5
+    },
+    "VOGELRES_CH": {
+      "fill": "rgba(46,125,50,0.12)",
+      "stroke": "rgba(27,94,32,0.67)",
+      "width": 1.5
+    },
+    "SICHERHEIT_CH": {
+      "fill": "rgba(229,57,53,0.12)",
+      "stroke": "rgba(229,57,53,0.73)",
+      "width": 1.2
+    },
+    "SCHIESS_CH": {
+      "fill": "rgba(171,71,188,0.13)",
+      "stroke": "rgba(123,31,162,0.8)",
+      "width": 1.5
+    },
+    "RSTA": {
+      "fill": "rgba(213,0,249,0.06)",
+      "stroke": "rgba(213,0,249,0.73)",
+      "width": 1.5
+    },
+    "CTR": {
+      "fill": "rgba(255,23,68,0.1)",
+      "stroke": "rgba(255,23,68,0.67)",
+      "width": 1.5
+    },
+    "ATZ": {
+      "fill": "rgba(255,109,0,0.13)",
+      "stroke": "rgba(255,109,0,0.73)",
+      "width": 1.5
+    },
+    "HKP1K": {
+      "fill": "rgba(255,82,82,0.03)",
+      "stroke": "rgba(255,82,82,0.8)",
+      "width": 2
+    },
+    "HTZ": {
+      "fill": "rgba(0,188,212,0.1)",
+      "stroke": "rgba(0,188,212,0.8)",
+      "width": 2
+    },
+    "RWY5K": {
+      "fill": "rgba(255,145,0,0.13)",
+      "stroke": "rgba(255,145,0,0.67)",
+      "width": 1.5
+    },
+    "DNGA": {
+      "fill": "rgba(255,171,0,0.13)",
+      "stroke": "rgba(255,171,0,0.6)",
+      "width": 1
+    },
+    "D": {
+      "fill": "rgba(255,214,0,0.13)",
+      "stroke": "rgba(255,214,0,0.6)",
+      "width": 1
+    },
+    "TMA": {
+      "fill": "rgba(21,101,192,0.06)",
+      "stroke": "rgba(21,101,192,0.4)",
+      "width": 1
+    },
+    "TIZ": {
+      "fill": "rgba(0,176,255,0.07)",
+      "stroke": "rgba(0,176,255,0.47)",
+      "width": 1
+    },
+    "TMZ": {
+      "fill": "rgba(0,176,255,0.07)",
+      "stroke": "rgba(0,176,255,0.47)",
+      "width": 1
+    },
+    "RMZ": {
+      "fill": "rgba(0,176,255,0.07)",
+      "stroke": "rgba(0,176,255,0.47)",
+      "width": 1
+    },
+    "TSA": {
+      "fill": "rgba(123,31,162,0.13)",
+      "stroke": "rgba(123,31,162,0.8)",
+      "width": 1.5
+    },
+    "TRA": {
+      "fill": "rgba(123,31,162,0.13)",
+      "stroke": "rgba(123,31,162,0.8)",
+      "width": 1.5
+    },
+    "LFA": {
+      "fill": "rgba(255,109,0,0.09)",
+      "stroke": "rgba(255,109,0,0.53)",
+      "width": 1
+    },
+    "SUP": {
+      "fill": "rgba(170,0,255,0.13)",
+      "stroke": "rgba(170,0,255,0.6)",
+      "width": 1.5
+    },
+    "NOTAM": {
+      "fill": "rgba(255,61,0,0.2)",
+      "stroke": "rgba(255,61,0,0.73)",
+      "width": 1.5
+    },
+    "PARAJUMP": {
+      "fill": "rgba(255,109,0,0.15)",
+      "stroke": "rgba(255,109,0,0.8)",
+      "width": 2
+    },
+    "UASFM_NOFLY": {
+      "fill": "rgba(255,23,68,0.09)",
+      "stroke": "rgba(255,23,68,0.87)",
+      "width": 1.5
+    },
+    "UASFM_LOW": {
+      "fill": "rgba(255,109,0,0.08)",
+      "stroke": "rgba(255,109,0,0.73)",
+      "width": 1
+    },
+    "UASFM_MID": {
+      "fill": "rgba(255,214,0,0.06)",
+      "stroke": "rgba(255,214,0,0.67)",
+      "width": 1
+    },
+    "UASFM_HIGH": {
+      "fill": "rgba(0,200,83,0.04)",
+      "stroke": "rgba(0,200,83,0.4)",
+      "width": 0.8
+    },
+    "TFR_SECURITY": {
+      "fill": "rgba(255,23,68,0.16)",
+      "stroke": "rgba(255,23,68,0.93)",
+      "width": 2.5
+    },
+    "TFR_HAZARD": {
+      "fill": "rgba(255,109,0,0.13)",
+      "stroke": "rgba(255,109,0,0.87)",
+      "width": 2
+    },
+    "TFR_SPORT": {
+      "fill": "rgba(171,71,188,0.13)",
+      "stroke": "rgba(171,71,188,0.87)",
+      "width": 2
+    },
+    "TFR_SPACE": {
+      "fill": "rgba(0,122,255,0.1)",
+      "stroke": "rgba(0,122,255,0.8)",
+      "width": 2
+    },
+    "TFR_GATHERING": {
+      "fill": "rgba(255,214,0,0.13)",
+      "stroke": "rgba(255,214,0,0.87)",
+      "width": 2
+    },
+    "TFR_OTHER": {
+      "fill": "rgba(176,190,197,0.1)",
+      "stroke": "rgba(96,125,139,0.8)",
+      "width": 2
+    },
+    "STADIUM_TFR": {
+      "fill": "rgba(171,71,188,0.08)",
+      "stroke": "rgba(171,71,188,0.67)",
+      "width": 1.5
+    },
+    "NPS_PARK": {
+      "fill": "rgba(46,125,50,0.08)",
+      "stroke": "rgba(46,125,50,0.67)",
+      "width": 1.5
+    },
+    "CLASS_B": {
+      "fill": "rgba(0,51,160,0.08)",
+      "stroke": "rgba(0,51,160,0.8)",
+      "width": 1.8
+    },
+    "CLASS_C": {
+      "fill": "rgba(160,0,107,0.08)",
+      "stroke": "rgba(160,0,107,0.8)",
+      "width": 1.8
+    },
+    "CLASS_D": {
+      "fill": "rgba(0,51,160,0.06)",
+      "stroke": "rgba(0,51,160,0.53)",
+      "width": 1.2
+    },
+    "CLASS_E2": {
+      "fill": "rgba(160,0,107,0.06)",
+      "stroke": "rgba(160,0,107,0.53)",
+      "width": 1
+    },
+    "SUA_PROHIBITED": {
+      "fill": "rgba(255,0,0,0.33)",
+      "stroke": "rgba(255,0,0,0.93)",
+      "width": 2.5
+    },
+    "SUA_RESTRICTED": {
+      "fill": "rgba(211,47,47,0.25)",
+      "stroke": "rgba(211,47,47,0.87)",
+      "width": 2
+    },
+    "SUA_MOA": {
+      "fill": "rgba(255,109,0,0.2)",
+      "stroke": "rgba(255,109,0,0.8)",
+      "width": 1.8
+    },
+    "SUA_WARNING": {
+      "fill": "rgba(255,214,0,0.2)",
+      "stroke": "rgba(255,214,0,0.8)",
+      "width": 1.5
+    },
+    "HELIPORT_HOSPITAL": {
+      "fill": "rgba(211,47,47,0.2)",
+      "stroke": "rgba(211,47,47,0.8)",
+      "width": 1.5
+    },
+    "HELIPORT_PUBLIC": {
+      "fill": "rgba(255,145,0,0.2)",
+      "stroke": "rgba(255,145,0,0.8)",
+      "width": 1.5
+    },
+    "NSUFR_US": {
+      "fill": "rgba(198,40,40,0.33)",
+      "stroke": "rgba(198,40,40,0.93)",
+      "width": 2.5
+    },
+    "SFRA_DC": {
+      "fill": "rgba(255,111,0,0.2)",
+      "stroke": "rgba(255,111,0,0.8)",
+      "width": 2.2
+    },
+    "USFWS_REFUGE": {
+      "fill": "rgba(85,139,47,0.08)",
+      "stroke": "rgba(85,139,47,0.67)",
+      "width": 1.5
+    },
+    "FRIA_US": {
+      "fill": "rgba(0,172,193,0.08)",
+      "stroke": "rgba(0,172,193,0.6)",
+      "width": 1.2
+    },
+    "REC_FIXED_SITE_US": {
+      "fill": "rgba(38,166,154,0.08)",
+      "stroke": "rgba(38,166,154,0.6)",
+      "width": 1.2
+    },
+    "NO_NFZ_AERODROME": {
+      "fill": "rgba(255,23,68,0.2)",
+      "stroke": "rgba(255,23,68,0.87)",
+      "width": 1.5
+    },
+    "NO_RESTRICTED_R102": {
+      "fill": "rgba(255,23,68,0.27)",
+      "stroke": "rgba(255,23,68,1)",
+      "width": 2
+    },
+    "NO_RESTRICTED_AREA": {
+      "fill": "rgba(211,47,47,0.27)",
+      "stroke": "rgba(211,47,47,1)",
+      "width": 1.8
+    },
+    "NO_INFRA_NVE": {
+      "fill": "rgba(0,191,165,0.15)",
+      "stroke": "rgba(0,137,123,0.8)",
+      "width": 1.5
+    },
+    "NO_RESTRICTED_DORMANT": {
+      "fill": "rgba(255,152,0,0.13)",
+      "stroke": "rgba(255,152,0,0.6)",
+      "width": 1.2
+    },
+    "NO_PRISON": {
+      "fill": "rgba(255,23,68,0.27)",
+      "stroke": "rgba(255,23,68,1)",
+      "width": 1.8
+    },
+    "NO_CTR_TIZ": {
+      "fill": "rgba(41,98,255,0.13)",
+      "stroke": "rgba(41,98,255,0.8)",
+      "width": 1.2
+    },
+    "NO_NATURE_FERDSEL": {
+      "fill": "rgba(255,109,0,0.13)",
+      "stroke": "rgba(255,109,0,0.8)",
+      "width": 1.2
+    },
+    "NO_NATURE_LANDING": {
+      "fill": "rgba(255,214,0,0.1)",
+      "stroke": "rgba(255,214,0,0.67)",
+      "width": 1
+    },
+    "NO_NATURE_LOWFLY": {
+      "fill": "rgba(255,109,0,0.13)",
+      "stroke": "rgba(255,109,0,0.8)",
+      "width": 1.2
+    },
+    "NO_NATURE_FORSVAR": {
+      "fill": "rgba(156,39,176,0.16)",
+      "stroke": "rgba(156,39,176,0.8)",
+      "width": 1.3
+    },
+    "NO_MILITARY_RANGE": {
+      "fill": "rgba(136,14,79,0.2)",
+      "stroke": "rgba(136,14,79,0.87)",
+      "width": 1.6
+    },
+    "NO_MARINE_RESTRICTED": {
+      "fill": "rgba(0,96,100,0.2)",
+      "stroke": "rgba(0,96,100,0.8)",
+      "width": 1.4
+    },
+    "DEFAULT": {
+      "fill": "rgba(0,188,212,0.08)",
+      "stroke": "rgba(0,188,212,0.44)",
+      "width": 1
+    }
+  }
+}

@@ -1,0 +1,100 @@
+---
+/**
+ * Marknadshemmet "/" — det ENDA stället med marketing-registret:
+ * två-tons-H1 med butiksgrönt ("Får du flyga här? Få svaret direkt." =
+ * butiksrubriken ordagrant). Hålls innehållsligt skild från /en/ (katalogen).
+ * Alltid engelska; hreflang självrefererande + x-default.
+ */
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import CountryGrid from '../components/CountryGrid.astro';
+import AppCta from '../components/AppCta.astro';
+import { allCountryPages, SITE } from '../lib/model';
+import { zoneCountByIso } from '../lib/ingest';
+import { t } from '../lib/i18n';
+import { organizationLd, softwareAppLd } from '../lib/seo';
+
+const enPages = allCountryPages()
+  .filter((p) => p.lang === 'en')
+  .sort((a, b) => a.displayName.localeCompare(b.displayName, 'en'));
+const totalCountries = enPages.length;
+const totalZones = Object.values(zoneCountByIso()).reduce((a, b) => a + b, 0);
+
+const title = t('meta.title.home', 'en', { brand: 'DroneKoll', n: totalCountries });
+const description = t('meta.desc.home', 'en', { n: totalCountries });
+const alternates = [
+  { hreflang: 'en', href: `${SITE}/` },
+  { hreflang: 'x-default', href: `${SITE}/` },
+];
+const ldBlocks = [organizationLd(), softwareAppLd('en')];
+---
+
+<Base title={title} description={description} lang="en" alternates={alternates}>
+  <Fragment slot="head">
+    {ldBlocks.map((ld) => (
+      <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+    ))}
+  </Fragment>
+
+  <Header lang="en" cluster={alternates} />
+
+  {/* ── Hero — marketing-registret, grön accent ──────────────────────── */}
+  <section class="band band--paper home-hero">
+    <div class="shell">
+      <h1 class="home-hero__h1">
+        {t('home.h1.pre', 'en')}<br />
+        <span class="h-go">{t('home.h1.accent', 'en')}</span>
+      </h1>
+      <p class="lede home-hero__lede">{t('home.lede', 'en', { n: totalCountries })}</p>
+      <div class="home-hero__trust">
+        <span class="pill home-trust tnum">{t('home.trust.countries', 'en', { n: totalCountries })}</span>
+        {totalZones > 0 && (
+          <span class="pill home-trust tnum">
+            {t('home.trust.zones', 'en', { n: totalZones.toLocaleString('en') })}
+          </span>
+        )}
+        <span class="pill home-trust">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          {t('home.trust.daily', 'en')}
+        </span>
+      </div>
+    </div>
+  </section>
+
+  {/* ── Landsväljare ─────────────────────────────────────────────────── */}
+  <section class="band band--canvas">
+    <div class="shell">
+      <h2 class="home-grid-title">{t('home.countries.title', 'en')}</h2>
+      <CountryGrid lang="en" pages={enPages} searchable />
+    </div>
+  </section>
+
+  {/* ── App ──────────────────────────────────────────────────────────── */}
+  <section class="band band--paper">
+    <div class="wide">
+      <AppCta lang="en" />
+    </div>
+  </section>
+
+  <Footer lang="en" />
+</Base>
+
+<style>
+  /* Enda tillåtna ornament: 3 % prickig graticule på hero-bandet */
+  .home-hero {
+    background-image: radial-gradient(rgba(16, 24, 40, 0.03) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+  .home-hero .shell { display: grid; gap: var(--space-5); }
+  .home-hero__h1 { font-size: var(--text-display-xl); font-weight: 760; line-height: 1.06; letter-spacing: -0.025em; }
+  .home-hero__lede { max-width: 56ch; }
+  .home-hero__trust { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+  .home-trust {
+    background: var(--paper);
+    border: 1px solid var(--border);
+    color: var(--ink-2);
+    font-weight: 500;
+  }
+  .home-grid-title { margin-bottom: var(--space-5); }
+</style>

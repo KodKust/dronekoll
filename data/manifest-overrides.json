@@ -1,0 +1,119 @@
+{
+  "_comment": "Människokuraterade kart-lager per land — slås ihop ÖVER det som build-manifest.mjs härleder ur countries.json. Nycklar per land: layers (ersätter helt när satt), attribution, dropDerived (true = ignorera countries.json-feeds). Verifieras/förfinas i fas 4-QA mot pappilappi/airspace/-inventariet.",
+
+  "CH": {
+    "_why": "Appens primär är geoadmin-API (ej CORS-vänlig för webben); pappilappi har 9 statiska ch-*-feeds som täcker webbfallet.",
+    "dropDerived": true,
+    "attribution": "BAZL/BAFU/VBS · geo.admin.ch",
+    "layers": [
+      { "id": "ch-uas", "url": "https://pappilappi.com/airspace/web/ch-uas-aktivitaetszonen.geojson", "typeProp": "_zoneType", "zoneKeyDefault": "UAS_AKT_CH", "defaultOn": true, "label": "UAS-zoner" },
+      { "id": "ch-ctr", "url": "https://pappilappi.com/airspace/web/ch-ctr.geojson", "typeProp": "_zoneType", "zoneKeyDefault": "CTR_CH", "defaultOn": true, "label": "CTR" },
+      { "id": "ch-tma", "url": "https://pappilappi.com/airspace/web/ch-tma.geojson", "typeProp": "_zoneType", "zoneKeyDefault": "TMA_CH", "defaultOn": false, "label": "TMA" },
+      { "id": "ch-cta", "url": "https://pappilappi.com/airspace/web/ch-cta.geojson", "typeProp": "_zoneType", "zoneKeyDefault": "CTA_CH", "defaultOn": false, "label": "CTA" },
+      { "id": "ch-sicherheit", "url": "https://pappilappi.com/airspace/web/ch-sicherheitszonenplan.geojson", "typeProp": "_zoneType", "zoneKeyDefault": "SICHERHEIT_CH", "defaultOn": true, "label": "Sicherheitszonen" },
+      { "id": "ch-jagdbann", "url": "https://pappilappi.com/airspace/web/ch-jagdbanngebiete.geojson", "typeProp": "_zoneType", "zoneKeyDefault": "JAGDBANN_CH", "defaultOn": false, "label": "Jagdbanngebiete" },
+      { "id": "ch-vogel", "url": "https://pappilappi.com/airspace/web/ch-vogelreservate.geojson", "typeProp": "_zoneType", "zoneKeyDefault": "VOGELRES_CH", "defaultOn": false, "label": "Vogelreservate" },
+      { "id": "ch-schiess", "url": "https://pappilappi.com/airspace/web/ch-schiessanzeigen.geojson", "typeProp": "_zoneType", "zoneKeyDefault": "SCHIESS_CH", "defaultOn": false, "label": "Schiessanzeigen" },
+      { "id": "ch-hinder", "url": "https://pappilappi.com/airspace/web/ch-luftfahrthindernis.geojson", "typeProp": "_zoneType", "zoneKeyDefault": "OBSTACLE_CH", "defaultOn": false, "label": "Luftfahrthindernisse" }
+    ]
+  },
+
+  "SE": {
+    "_why": "LFV WFS (daim.lfv.se) saknar CORS + statisk spegel — fetch-se-zones.yml (dronarkartan) skapar se-zones.geojson. Tills den landat: layers tom → sidan degraderar graciöst.",
+    "dropDerived": true,
+    "attribution": "LFV",
+    "layers": [
+      { "id": "se-zones", "url": "https://pappilappi.com/airspace/web/se-zones.geojson", "typeProp": "_zoneType", "defaultOn": true, "label": "Restriktionsområden", "pendingFetcher": true }
+    ]
+  },
+
+  "ES": {
+    "_why": "ENAIRE ArcGIS saknar statisk spegel — fetch-es-zones.yml skapar es-zones.geojson. es-parques finns redan.",
+    "dropDerived": true,
+    "attribution": "ENAIRE · Parques Nacionales",
+    "layers": [
+      { "id": "es-zones", "url": "https://pappilappi.com/airspace/web/es-zones.geojson", "typeProp": "_zoneType", "defaultOn": true, "label": "Zonas ENAIRE", "pendingFetcher": true },
+      { "id": "es-parques", "url": "https://pappilappi.com/airspace/web/es-parques.geojson", "typeProp": "_zoneType", "zoneKeyDefault": "PARQUE_NACIONAL_ES", "defaultOn": false, "label": "Parques Nacionales" }
+    ]
+  },
+
+  "US": {
+    "_why": "Många feeds — kuraterat urval: UASFM-grid + klasser default av (tunga), säkerhetslager på.",
+    "dropDerived": true,
+    "attribution": "FAA",
+    "layers": [
+      { "id": "us-uasfm", "url": "https://pappilappi.com/airspace/web/us.geojson", "typeProp": "type", "defaultOn": false, "label": "UASFM grid" },
+      { "id": "us-classes", "url": "https://pappilappi.com/airspace/web/us-classes.geojson", "typeProp": "type", "defaultOn": true, "label": "Class B/C/D/E2" },
+      { "id": "us-sua", "url": "https://pappilappi.com/airspace/web/us-sua.geojson", "typeProp": "type", "defaultOn": true, "label": "Special Use Airspace" },
+      { "id": "us-nsufr", "url": "https://pappilappi.com/airspace/web/us-nsufr.geojson", "typeProp": "type", "zoneKeyDefault": "NSUFR_US", "defaultOn": true, "label": "NSUFR" },
+      { "id": "us-dc-sfra", "url": "https://pappilappi.com/airspace/web/us-dc-sfra.geojson", "typeProp": "type", "zoneKeyDefault": "SFRA_DC", "defaultOn": true, "label": "DC SFRA" },
+      { "id": "us-nps", "url": "https://pappilappi.com/airspace/web/us-nps.geojson", "typeProp": "type", "zoneKeyDefault": "NPS_PARK", "defaultOn": false, "label": "National Parks" },
+      { "id": "us-wildlife", "url": "https://pappilappi.com/airspace/web/us-wildlife-refuges.geojson", "typeProp": "type", "zoneKeyDefault": "USFWS_REFUGE", "defaultOn": false, "label": "Wildlife Refuges" },
+      { "id": "us-fria", "url": "https://pappilappi.com/airspace/web/us-fria.geojson", "typeProp": "type", "zoneKeyDefault": "FRIA_US", "defaultOn": false, "label": "FRIA" }
+    ]
+  },
+
+  "NO": {
+    "_why": "no.geojson 17MB rå → web-optimerad; håll default-on ensam.",
+    "dropDerived": true,
+    "attribution": "Avinor · Miljødirektoratet · NVE",
+    "layers": [
+      { "id": "no-zones", "url": "https://pappilappi.com/airspace/web/no.geojson", "typeProp": "_zoneType", "defaultOn": true, "label": "Restriksjonsområder" },
+      { "id": "no-nve", "url": "https://pappilappi.com/airspace/web/no-nve-infra.geojson", "typeProp": "_zoneType", "zoneKeyDefault": "NO_INFRA_NVE", "defaultOn": false, "label": "Vindkraft (NVE)" }
+    ]
+  },
+
+  "FR": {
+    "_why": "fr-drones 15MB rå (höjd-grid) → web-optimerad; parcs + zicad som extra lager.",
+    "dropDerived": true,
+    "attribution": "IGN · DGAC",
+    "layers": [
+      { "id": "fr-drones", "url": "https://pappilappi.com/airspace/web/fr-drones.geojson", "typeProp": "_zoneType", "defaultOn": true, "label": "Zones drones (IGN)" },
+      { "id": "fr-parcs", "url": "https://pappilappi.com/airspace/web/fr-parcs.geojson", "typeProp": "_zoneType", "zoneKeyDefault": "PARC_NATIONAL_FR", "defaultOn": false, "label": "Parcs nationaux" },
+      { "id": "fr-zicad", "url": "https://pappilappi.com/airspace/web/fr-zicad.geojson", "typeProp": "_zoneType", "zoneKeyDefault": "ZICAD_FR", "defaultOn": false, "label": "ZICAD" }
+    ]
+  },
+
+  "NL": {
+    "dropDerived": true,
+    "attribution": "IenW ED-269 · PDOK",
+    "layers": [
+      { "id": "nl-ed269", "url": "https://pappilappi.com/airspace/web/nl-ed269.geojson", "typeProp": "_zoneType", "defaultOn": true, "label": "UAS-zones" },
+      { "id": "nl-pdok", "url": "https://pappilappi.com/airspace/web/nl-pdok.geojson", "typeProp": "_zoneType", "defaultOn": false, "label": "PDOK-zones" },
+      { "id": "nl-natura", "url": "https://pappilappi.com/airspace/web/nl-pdok-natura.geojson", "typeProp": null, "zoneKeyDefault": "NATURE_NL", "defaultOn": false, "label": "Natura 2000" }
+    ]
+  },
+
+  "DK": {
+    "dropDerived": true,
+    "attribution": "Trafikstyrelsen · Miljøstyrelsen",
+    "layers": [
+      { "id": "dk-primary", "url": "https://pappilappi.com/airspace/web/dk-primary.geojson", "typeProp": "_zoneType", "defaultOn": true, "label": "Dronezoner" },
+      { "id": "dk-natur", "url": "https://pappilappi.com/airspace/web/dk-natur.geojson", "typeProp": "_zoneType", "zoneKeyDefault": "GRON_NATUR", "defaultOn": false, "label": "Naturbeskyttelse" }
+    ]
+  },
+
+  "FI": {
+    "dropDerived": true,
+    "attribution": "Traficom · SYKE · AIS Finland",
+    "layers": [
+      { "id": "fi-primary", "url": "https://pappilappi.com/airspace/web/fi-primary.geojson", "typeProp": "_zoneType", "defaultOn": true, "label": "UAS-vyöhykkeet" },
+      { "id": "fi-efr", "url": "https://pappilappi.com/airspace/web/fi-efr-static.geojson", "typeProp": "_zoneType", "defaultOn": true, "label": "EFP/EFR/EFD" },
+      { "id": "fi-natur", "url": "https://pappilappi.com/airspace/web/fi-natur.geojson", "typeProp": "_zoneType", "zoneKeyDefault": "GRON_NATUR_FI", "defaultOn": false, "label": "Natura 2000" }
+    ]
+  },
+
+  "IE": {
+    "_why": "Appens primär är Gist-raw (iaa_simplified.geojson, CORS ok) — behåll den tills ev. spegel.",
+    "attribution": "IAA"
+  },
+
+  "AT": { "attribution": "Austro Control" },
+  "EE": { "attribution": "Transpordiamet" },
+  "IS": { "attribution": "Samgöngustofa" },
+  "LU": { "attribution": "DAC · geoportail.lu" },
+  "PT": { "attribution": "ANAC · AAN" },
+  "RO": { "attribution": "AACR" },
+  "SI": { "attribution": "CAA Slovenija" },
+  "SK": { "attribution": "Dopravný úrad" }
+}
