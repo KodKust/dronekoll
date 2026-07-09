@@ -7,7 +7,7 @@
  */
 import { t } from '../lib/i18n';
 import { brandForLang, loadFeatures } from '../lib/model';
-import { APP_STORE_URL } from '../lib/seo';
+import { APP_STORE_URL, PLAY_STORE_URL, loadRating } from '../lib/seo';
 
 interface Props {
   lang: string;
@@ -21,6 +21,7 @@ const featureLinks = loadFeatures().map((f) => ({
   href: `/${lang}/app/${f.slug}/`,
   name: t(`feat.${f.slug}.name`, lang),
 }));
+const rating = loadRating();
 ---
 
 <section class="cta">
@@ -43,6 +44,22 @@ const featureLinks = loadFeatures().map((f) => ({
         </svg>
         <span>App Store</span>
       </a>
+      {PLAY_STORE_URL && (
+        <a class="cta__badge" href={PLAY_STORE_URL} rel="noopener" aria-label={t('cta.play.alt', lang)}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M3.6 1.8 13.7 12 3.6 22.2c-.4-.2-.6-.6-.6-1.2V3c0-.6.2-1 .6-1.2zm11.3 11.4 2.6 2.6-11 6.3 8.4-8.9zm3.9-4.5 2.6 1.5c.8.5.8 1.7 0 2.2l-2.6 1.5-2.9-2.6 2.9-2.6zM6.5 2.5l11 6.3-2.6 2.6-8.4-8.9z"/>
+          </svg>
+          <span>Google Play</span>
+        </a>
+      )}
+      {rating && (
+        <span class="pill cta__rating tnum" title={rating.source}>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/>
+          </svg>
+          {rating.value.toLocaleString(lang)} · {rating.source}
+        </span>
+      )}
     </div>
   </div>
   {deviceImage && (
@@ -66,6 +83,13 @@ const featureLinks = loadFeatures().map((f) => ({
   }
   .cta__text { display: grid; gap: var(--space-4); max-width: 46ch; }
   .cta__body { color: var(--ink-body); }
+  .cta__rating {
+    background: var(--warn-wash);
+    color: var(--warn-ink);
+    font-weight: 600;
+    font-size: var(--text-small);
+    align-self: center;
+  }
   .cta__features { color: var(--ink-2); }
   .cta__features a { color: var(--accent-ink); font-weight: 500; }
   .cta__badges { display: flex; gap: var(--space-3); flex-wrap: wrap; }

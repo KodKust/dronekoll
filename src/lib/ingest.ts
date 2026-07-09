@@ -123,6 +123,46 @@ export function loadEnOverlays(): Map<string, EnOverlay> {
   return _overlays;
 }
 
+/** Myndighetsregistret (data/regulators.json) — WP-A: riktiga namn, inte feedkällor. */
+export interface RegulatorInfo {
+  regulator: string;
+  aviation?: string | null;
+}
+let _regulators: Record<string, RegulatorInfo> | null = null;
+export function loadRegulators(): Record<string, RegulatorInfo> {
+  if (_regulators) return _regulators;
+  const p = join(ROOT, 'data', 'regulators.json');
+  _regulators = {};
+  if (existsSync(p)) {
+    const raw = JSON.parse(readFileSync(p, 'utf8')) as Record<string, RegulatorInfo>;
+    for (const [k, v] of Object.entries(raw)) {
+      if (!k.startsWith('_')) _regulators[k.toUpperCase()] = v;
+    }
+  }
+  return _regulators;
+}
+
+/** Handskrivna FAQ-guldsvar (src/content/faq-overrides/{ISO}.json) per språk. */
+const FAQ_OVERRIDE_DIR = join(ROOT, 'src', 'content', 'faq-overrides');
+let _faqOverrides: Map<string, Record<string, Array<{ q: string; a: string }>>> | null = null;
+export function faqOverride(iso: string, lang: string): Array<{ q: string; a: string }> | null {
+  if (!_faqOverrides) {
+    _faqOverrides = new Map();
+    if (existsSync(FAQ_OVERRIDE_DIR)) {
+      for (const f of readdirSync(FAQ_OVERRIDE_DIR)) {
+        if (!f.endsWith('.json')) continue;
+        _faqOverrides.set(
+          f.replace(/\.json$/, '').toUpperCase(),
+          JSON.parse(readFileSync(join(FAQ_OVERRIDE_DIR, f), 'utf8')),
+        );
+      }
+    }
+  }
+  const entry = _faqOverrides.get(iso.toUpperCase());
+  const list = entry?.[lang];
+  return Array.isArray(list) && list.length > 0 ? list : null;
+}
+
 /**
  * Landets innehåll på ENGELSKA: overlay-fälten ersätter de lokala.
  * Länkar behåller id/url från källan (parallella arrayer per index).

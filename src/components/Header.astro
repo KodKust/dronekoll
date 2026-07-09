@@ -24,6 +24,9 @@ const brand = brandForLang(lang);
   <div class="shell site-header__inner">
     <Wordmark brand={brand} href={`/${lang}/`} />
     <nav class="site-header__nav" aria-label="Site">
+      {/* WP-B: synliga ingångar — Kristoffer hittade inte appens funktioner */}
+      <a class="site-header__link" href={`/${lang}/`}>{t('nav.allCountries', lang)}</a>
+      <a class="site-header__link" href={`/${lang}/app/`}>{t('app.bc', lang)}</a>
       <LanguageSwitcher lang={lang} cluster={cluster} />
       <a class="site-header__app" href={APP_STORE_URL} rel="noopener">{t('nav.getApp', lang)}</a>
     </nav>
@@ -52,6 +55,17 @@ const brand = brandForLang(lang);
     display: flex;
     align-items: center;
     gap: var(--space-4);
+  }
+  .site-header__link {
+    font-size: var(--text-small);
+    font-weight: 500;
+    color: var(--ink-2);
+    white-space: nowrap;
+  }
+  .site-header__link:hover { color: var(--accent-ink); text-decoration: none; }
+  @media (max-width: 640px) {
+    .site-header__link { font-size: var(--text-caption); }
+    .site-header__nav { gap: var(--space-3); }
   }
   .site-header__app {
     font-size: var(--text-small);

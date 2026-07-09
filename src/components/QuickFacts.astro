@@ -5,6 +5,7 @@
  * (max-höjd finns t.ex. bara som regeltext och får därför INTE bli en chip).
  */
 import { t } from '../lib/i18n';
+import { loadRegulators } from '../lib/ingest';
 import type { PageEntry } from '../lib/model';
 
 interface Props {
@@ -15,7 +16,9 @@ const { page, zoneCount } = Astro.props;
 const c = page.country;
 
 const facts: Array<{ label: string; value: string; tnum?: boolean }> = [];
-if (c.dataSourceName) facts.push({ label: t('facts.regulator', page.lang), value: c.dataSourceName });
+// Myndighet ur regulators.json — ALDRIG dataSourceName (teknisk feedkälla/licenssträng)
+const reg = loadRegulators()[page.iso.toUpperCase()];
+if (reg) facts.push({ label: t('facts.regulator', page.lang), value: reg.regulator });
 if (c.regulatoryBase) facts.push({ label: t('facts.framework', page.lang), value: c.regulatoryBase });
 if (c.dronePilotCredentialName)
   facts.push({ label: t('facts.credential', page.lang), value: c.dronePilotCredentialName });

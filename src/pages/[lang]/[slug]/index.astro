@@ -21,7 +21,7 @@ import FreshnessBadge from '../../../components/FreshnessBadge.astro';
 import MapSection from '../../../components/MapSection.astro';
 import AppCta from '../../../components/AppCta.astro';
 import { allCountryPages, type PageEntry } from '../../../lib/model';
-import { zoneCountByIso } from '../../../lib/ingest';
+import { zoneCountByIso, loadRegulators } from '../../../lib/ingest';
 import { mapConfigFor } from '../../../lib/mapconfig';
 import { t } from '../../../lib/i18n';
 import {
@@ -128,8 +128,12 @@ const ldBlocks = [
           lastVerified={c.lastVerified}
           monitored={c.hasAirspaceOverlay}
         />
-        {c.dataSourceName && <span class="pill hero__chip">{c.dataSourceName}</span>}
+        {loadRegulators()[page.iso.toUpperCase()] && (
+          <span class="pill hero__chip">{loadRegulators()[page.iso.toUpperCase()].regulator}</span>
+        )}
         {c.regulatoryBase && <span class="pill hero__chip hero__chip--frame">{c.regulatoryBase}</span>}
+        {/* WP-E: kartan = differentiator — direktväg redan från hero */}
+        <a class="pill hero__chip hero__chip--map" href="#map">↓ {t('anchor.map', lang)}</a>
       </div>
     </div>
   </section>
@@ -254,6 +258,13 @@ const ldBlocks = [
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .hero__chip--map {
+    background: var(--paper);
+    border: 1px solid var(--border-strong);
+    color: var(--accent-ink);
+    font-weight: 600;
+  }
+  .hero__chip--map:hover { text-decoration: none; border-color: var(--accent); }
   .section-title { margin-bottom: var(--space-5); }
   .section-callout { margin-block: var(--space-4) var(--space-5); max-width: var(--w-prose); }
   #rules .overline { margin-bottom: var(--space-5); }

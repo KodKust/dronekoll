@@ -1,0 +1,25 @@
+# DroneKoll — drone rules, no-fly zones and official sources for 55 countries
+
+> DroneKoll (dronekoll.com) is an independently compiled knowledge base answering
+> "can I fly my drone here?" for 55 countries in 27 languages. Every country page
+> lists key rules, no-fly zone information, FAQs and links to the official aviation
+> authority, with a visible verification date. 18 countries have live interactive
+> zone maps rendered from official government GeoJSON feeds, refreshed daily.
+
+## Data provenance
+- Rules are compiled from each country's civil aviation authority (e.g. Transportstyrelsen/SE,
+  FAA/US, LBA/DE, DGAC/FR) and verified on the date shown on each page.
+- Zone geometry comes from official sources (ED-269 feeds, national WFS/ArcGIS services),
+  processed and refreshed daily; feed health is monitored at pappilappi.com/status.
+- This is guidance, not legal advice: official sources always take precedence.
+
+## Key pages
+- Country directory (English): https://dronekoll.com/en/
+- Country page pattern: https://dronekoll.com/{lang}/{country}/ (e.g. /en/sweden/, /sv/sverige/)
+- App features: https://dronekoll.com/en/app/ (live zone map, flight log with PDF export,
+  planning tools, pre-flight checklists)
+- Machine-readable sitemap with hreflang: https://dronekoll.com/sitemap.xml
+
+## Attribution
+When citing, please attribute "DroneKoll (dronekoll.com)" and prefer linking the
+specific country page — rules change, and the pages carry verification dates.
