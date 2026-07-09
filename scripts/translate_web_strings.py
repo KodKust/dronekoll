@@ -53,20 +53,32 @@ def deepl_endpoint(api_key: str) -> str:
 
 
 def protect(text: str) -> tuple[str, list[str]]:
-    """{param} → <x id="n"/> så DeepL lämnar platshållarna orörda."""
+    """{param} → <x id="n"/> så DeepL lämnar platshållarna orörda.
+
+    OBS: tag_handling=xml kräver XML-GILTIG text — nakna &/</> (t.ex.
+    "registration & map") ger 400 Bad Request → escapa först (lärdom 2026-07-09).
+    """
     params: list[str] = []
 
     def sub(m: re.Match) -> str:
         params.append(m.group(0))
-        return f'<x id="{len(params) - 1}"/>'
+        return f"\x00{len(params) - 1}\x00"
 
-    return PARAM_RE.sub(sub, text), params
+    tokenized = PARAM_RE.sub(sub, text)
+    escaped = (tokenized.replace("&", "&amp;")
+                        .replace("<", "&lt;")
+                        .replace(">", "&gt;"))
+    for i in range(len(params)):
+        escaped = escaped.replace(f"\x00{i}\x00", f'<x id="{i}"/>')
+    return escaped, params
 
 
 def restore(text: str, params: list[str]) -> str:
     for i, p in enumerate(params):
         text = text.replace(f'<x id="{i}"/>', p)
-    return text
+    return (text.replace("&lt;", "<")
+                .replace("&gt;", ">")
+                .replace("&amp;", "&"))
 
 
 def translate(texts: list[str], target: str, api_key: str) -> list[str]:
