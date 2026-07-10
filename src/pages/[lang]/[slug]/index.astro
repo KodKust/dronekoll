@@ -223,6 +223,7 @@ const ldBlocks = [
     <div class="wide">
       <AppCta
         lang={lang}
+        bodyKey={c.hasAirspaceOverlay ? 'cta.body' : c.hasNotam ? 'cta.body.notam' : 'cta.body.base'}
         deviceImage={existsSync(join(process.cwd(), 'public', 'device', `${lang}.webp`))
           ? `/device/${lang}.webp`
           : undefined}

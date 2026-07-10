@@ -55,10 +55,17 @@ const interactive = c.hasAirspaceOverlay && !!mapConfig;
         <img src={staticImage} alt="" loading="lazy" decoding="async" class="mapframe__img" />
       )}
       <div class="mapframe__scrim">
-        {/* Sanningsnivåer: NOTAM-löftet ENDAST för länder som har NOTAM i appen
-            (klass B). Bas-länder (klass C: UA/AU/NZ/SG m.fl.) får ärlig copy. */}
+        {/* Sanningsnivåer i TRE steg: "Full zonkarta i appen" får BARA overlay-
+            länder säga (tier 1-fallback när lagren inte laddat). NOTAM-länder
+            utan overlay (tier 2: BE/DE/GB m.fl.) lovar enbart NOTAM live —
+            zonkarta-löftet här var buggen Kristoffer fann i BE-vyn 2026-07-10.
+            Bas-länder (tier 3: UA/AU/NZ/SG m.fl.) får regler & checklistor. */}
         <span class="pill mapframe__badge">
-          {c.hasNotam ? t('map.staticBadge', page.lang) : t('map.staticBadgeBase', page.lang)}
+          {c.hasAirspaceOverlay
+            ? t('map.staticBadge', page.lang)
+            : c.hasNotam
+              ? t('map.staticBadgeNotam', page.lang)
+              : t('map.staticBadgeBase', page.lang)}
         </span>
       </div>
     </div>

@@ -11,11 +11,18 @@ import { APP_STORE_URL, PLAY_STORE_URL, loadRating } from '../lib/seo';
 
 interface Props {
   lang: string;
+  /**
+   * Strängnyckel för brödtexten. Landssidor skickar tier-ärlig variant:
+   * cta.body (zonkarta-löftet) ENDAST för overlay-länder, annars
+   * cta.body.notam / cta.body.base. Default = generisk produktbeskrivning
+   * för hem/hub/app-sidor (inte knuten till ett enskilt lands förmågor).
+   */
+  bodyKey?: string;
   /** sökväg till lokaliserad enhets-crop (fas 8); utelämnad → textpanel */
   deviceImage?: string;
   deviceAlt?: string;
 }
-const { lang, deviceImage, deviceAlt = '' } = Astro.props;
+const { lang, bodyKey = 'cta.body', deviceImage, deviceAlt = '' } = Astro.props;
 const brand = brandForLang(lang);
 const featureLinks = loadFeatures().map((f) => ({
   href: `/${lang}/app/${f.slug}/`,
@@ -28,7 +35,7 @@ const rating = loadRating();
   <div class="cta__text">
     <p class="overline">{t('cta.overline', lang)}</p>
     <h2>{t('cta.title', lang)}</h2>
-    <p class="cta__body">{t('cta.body', lang, { brand })}</p>
+    <p class="cta__body">{t(bodyKey, lang, { brand })}</p>
     <p class="caption cta__features">
       {t('app.more', lang)}:
       {featureLinks.map((f, i) => (
