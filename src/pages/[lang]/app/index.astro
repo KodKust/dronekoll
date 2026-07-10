@@ -55,6 +55,11 @@ const ldBlocks = [organizationLd(), softwareAppLd(lang)];
       </h1>
       <p class="lede prose">{t('app.overview.lede', lang, { brand })}</p>
     </div>
+    {existsSync(join(process.cwd(), 'public', 'img', 'app-hero.webp')) && (
+      <div class="wide app-hero__banner">
+        <img src="/img/app-hero.webp" alt="" width="1400" height="933" loading="eager" decoding="async" />
+      </div>
+    )}
   </section>
 
   <section class="band band--canvas">
@@ -86,6 +91,14 @@ const ldBlocks = [organizationLd(), softwareAppLd(lang)];
 
 <style>
   .app-hero { display: grid; gap: var(--space-4); }
+  .app-hero__banner { margin-top: var(--space-6); }
+  .app-hero__banner img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--r-xl);
+    border: 1px solid var(--hairline);
+    box-shadow: var(--shadow-3);
+  }
   .featgrid {
     list-style: none;
     margin: 0;

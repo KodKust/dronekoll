@@ -106,7 +106,8 @@ const ldBlocks = [organizationLd(), softwareAppLd('en')];
         class="home-hero__img"
         src="/img/hero-drone.webp"
         alt=""
-        width="480"
+        width="1300"
+        height="732"
         loading="eager"
         decoding="async"
       />
@@ -168,16 +169,17 @@ const ldBlocks = [organizationLd(), softwareAppLd('en')];
   }
   .home-grid-title { margin-bottom: var(--space-5); }
   .home-hero__explore a { font-weight: 600; }
+  /* Liggande hero-drönare (vit botten blandar sömlöst med --paper-bandet). */
   .home-hero__grid.has-image {
     display: grid;
-    grid-template-columns: 1.4fr 1fr;
-    gap: var(--space-7);
+    grid-template-columns: 1fr 0.95fr;
+    gap: var(--space-6);
     align-items: center;
   }
-  .home-hero__img { max-width: 100%; height: auto; justify-self: center; }
+  .home-hero__img { width: 100%; height: auto; }
   @media (max-width: 820px) {
     .home-hero__grid.has-image { grid-template-columns: 1fr; }
-    .home-hero__img { max-width: 300px; }
+    .home-hero__img { max-width: 520px; justify-self: center; }
   }
   .home-feat-band { padding-block: var(--space-7); }
   .home-feat-band .overline { margin-bottom: var(--space-5); }
