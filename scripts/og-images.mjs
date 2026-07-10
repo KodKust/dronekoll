@@ -235,7 +235,7 @@ bytes += await render(
     flag: null,
     map: await mapPngUri('NL'),
   }),
-  join(OUT, 'home.png'),
+  join(OUT, 'home.jpg'),
 );
 made++;
 
