@@ -9,6 +9,7 @@ import '@fontsource-variable/inter';
 import '../styles/tokens.css';
 import '../styles/global.css';
 import LangBanner from '../components/LangBanner.astro';
+import { GOATCOUNTER_CODE } from '../lib/seo';
 
 export interface Alternate {
   hreflang: string; // t.ex. "nl", "en", "x-default"
@@ -62,6 +63,31 @@ const {
     {ogImage && <meta name="twitter:card" content="summary_large_image" />}
 
     <slot name="head" />
+
+    {/* GoatCounter — cookiefri analys (gated: renderas bara när GOATCOUNTER_CODE satt).
+        Beacon + iOS/Android-klick-events för pappilappi/status-baren. */}
+    {GOATCOUNTER_CODE && (
+      <Fragment>
+        <script
+          data-goatcounter={`https://${GOATCOUNTER_CODE}.goatcounter.com/count`}
+          async
+          src="//gc.zgo.at/count.js"
+        ></script>
+        <script is:inline>
+          {/* Store-klick → events (path=ios-click/android-click), med GoatCounters
+              inbyggda land-data per hit. Delegerad lyssnare täcker alla store-länkar. */}
+          document.addEventListener('click', function (e) {
+            var a = e.target.closest && e.target.closest('a[href]');
+            if (!a || !window.goatcounter || !window.goatcounter.count) return;
+            var h = a.href;
+            if (h.indexOf('apps.apple.com') > -1)
+              window.goatcounter.count({ path: 'ios-click', title: 'iOS store click', event: true });
+            else if (h.indexOf('play.google.com') > -1)
+              window.goatcounter.count({ path: 'android-click', title: 'Android store click', event: true });
+          });
+        </script>
+      </Fragment>
+    )}
   </head>
   <body>
     <slot />

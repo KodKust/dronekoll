@@ -13,6 +13,12 @@ export const APP_STORE_URL = 'https://apps.apple.com/app/dronekoll/id6761332194'
  *  när Play-releasen är live, bygg om — badgen dyker upp överallt. */
 export const PLAY_STORE_URL: string | null = null;
 
+/** GoatCounter-analys (cookiefri). GATED: null → ingen beacon, inget klick-spår.
+ *  FLIP: när Kristoffer skapat gratiskontot, sätt subdomänen (t.ex. 'dronekoll' om
+ *  sajten blir dronekoll.goatcounter.com), bygg om → beacon + iOS/Android-klick-events
+ *  aktiveras site-wide. En GitHub Action drar sedan API:t → pappilappi/status-baren. */
+export const GOATCOUNTER_CODE: string | null = null;
+
 /** Socialt bevis (data/rating.json, manuellt underhållet). */
 import { readFileSync as _rfs, existsSync as _ex } from 'node:fs';
 import { join as _join } from 'node:path';
