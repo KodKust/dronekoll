@@ -60,7 +60,7 @@ const staticImage = existsSync(
 )
   ? staticMapPath
   : undefined;
-const faqItems = buildFaq(page);
+const faqItems = buildFaq(page, { interactiveMap: !!mapConfig });
 const translated = lang === 'en' && c.languageCode !== 'en';
 
 // Två-tons-H1: accent-span på landsnamnet (briefing-registret = blått).

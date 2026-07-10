@@ -22,7 +22,7 @@ interface Props {
   deviceImage?: string;
   deviceAlt?: string;
 }
-const { lang, bodyKey = 'cta.body', deviceImage, deviceAlt = '' } = Astro.props;
+const { lang, bodyKey = 'cta.body.generic', deviceImage, deviceAlt = '' } = Astro.props;
 const brand = brandForLang(lang);
 const featureLinks = loadFeatures().map((f) => ({
   href: `/${lang}/app/${f.slug}/`,

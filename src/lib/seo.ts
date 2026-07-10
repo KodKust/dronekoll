@@ -132,7 +132,7 @@ function ruleSentence(rule: string, lowerFirst: boolean): string {
   return s;
 }
 
-export function buildFaq(page: PageEntry): FaqItem[] {
+export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {}): FaqItem[] {
   const c = page.country;
 
   // Lager 1: guldoverride på sidans språk
@@ -172,10 +172,19 @@ export function buildFaq(page: PageEntry): FaqItem[] {
     });
   }
 
-  // 3. Var får jag inte flyga — prosa om zontyper, appen + officiell karta
+  // 3. Var får jag inte flyga — TERNÄR + sidkarte-medveten (Cowork-QA R1 #1-2):
+  // overlay-varianten lovar zoner "på denna sida" → kräver att sidkartan faktiskt
+  // är interaktiv (annars ljög SE/ES-pending). NOTAM-länder lovar app-NOTAM;
+  // bas-länder får inga app-datalöften alls. Går även in i FAQPage-JSON-LD.
+  const zonesKey =
+    c.hasAirspaceOverlay && opts.interactiveMap
+      ? 'faq.tpl.zones.overlay'
+      : c.hasNotam
+        ? 'faq.tpl.zones.notam'
+        : 'faq.tpl.zones.base';
   items.push({
     q: t('faq.q.zones', lang, { country }),
-    a: t(c.hasAirspaceOverlay ? 'faq.tpl.zones.overlay' : 'faq.tpl.zones.plain', lang, {
+    a: t(zonesKey, lang, {
       country,
       brand: brandForLang(lang),
     }),
