@@ -39,6 +39,23 @@ function slugify(s) {
 const dn = {};
 for (const l of LANGS) dn[l] = new Intl.DisplayNames([l], { type: 'region' });
 
+// Vardagsformer där Intl.DisplayNames ger officiella långnamn — HK blev
+// "R.A.S. chinoise de Hong Kong", "ir-Reġjun Amministrattiv Speċjali ta’…"
+// (81 tecken) m.fl. Beslut Kristoffer 2026-07-10 (slug-granskningen): korta
+// adress OCH rubriknamn till språkets vardagsform. Namnet styr — sluggen
+// genereras ur det som vanligt (icke-latinska språk behåller en-slugen).
+const NAME_OVERRIDES = {
+  HK: {
+    bg: 'Хонконг', cs: 'Hongkong', da: 'Hongkong', de: 'Hongkong',
+    el: 'Χονγκ Κονγκ', es: 'Hong Kong', et: 'Hongkong', fi: 'Hongkong',
+    fr: 'Hong Kong', hr: 'Hong Kong', hu: 'Hongkong', is: 'Hong Kong',
+    it: 'Hong Kong', lt: 'Honkongas', lv: 'Honkonga', mt: 'Hong Kong',
+    nl: 'Hongkong', no: 'Hongkong', pl: 'Hongkong', pt: 'Hong Kong',
+    ro: 'Hong Kong', sk: 'Hongkong', sl: 'Hongkong', sv: 'Hongkong',
+    tr: 'Hong Kong', uk: 'Гонконг',
+  },
+};
+
 const out = {};
 const collisions = [];
 
@@ -51,7 +68,7 @@ for (const c of countriesFile.countries) {
   out[iso] = {};
   for (const lang of LANGS) {
     if (lang === c.languageCode) continue; // native → slugs.json.local
-    const name = dn[lang].of(iso) || s.en.name;
+    const name = NAME_OVERRIDES[iso]?.[lang] ?? (dn[lang].of(iso) || s.en.name);
     let slug;
     if (NON_LATIN.has(lang)) {
       slug = enSlug; // ASCII-URL, namnet bär skriften
