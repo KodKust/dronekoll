@@ -17,7 +17,7 @@ export const PLAY_STORE_URL: string | null = null;
  *  FLIP: när Kristoffer skapat gratiskontot, sätt subdomänen (t.ex. 'dronekoll' om
  *  sajten blir dronekoll.goatcounter.com), bygg om → beacon + iOS/Android-klick-events
  *  aktiveras site-wide. En GitHub Action drar sedan API:t → pappilappi/status-baren. */
-export const GOATCOUNTER_CODE: string | null = null;
+export const GOATCOUNTER_CODE: string | null = 'dronekoll';
 
 /** Socialt bevis (data/rating.json, manuellt underhållet). */
 import { readFileSync as _rfs, existsSync as _ex } from 'node:fs';
