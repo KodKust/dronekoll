@@ -254,7 +254,10 @@ const ldBlocks = [
   .hero__chip--frame {
     background: var(--accent-wash);
     color: var(--accent-ink);
-    max-width: 48ch;
+    /* min(…, 100%) + min-width:0: 48ch > 375px-viewporten sprängde annars
+       hela .content i sidled på mobil (Cowork-QA R2 §2, scrollW 404px). */
+    max-width: min(48ch, 100%);
+    min-width: 0;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

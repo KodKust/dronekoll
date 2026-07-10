@@ -40,6 +40,15 @@ def lonlat_to_pixels(lon: float, lat: float, z: int) -> tuple[float, float]:
     return x, y
 
 
+# Handvalda crops där landets fulla bbox ger oigenkännlig bild (Cowork-QA R2 §6):
+# avlånga länder tvingar ner zoomen tills allt ryms → SE blev "UK→Belarus".
+# Syftet med cropen är IGENKÄNNING, inte fullständighet — visa den del av
+# landet folk känner igen. (lat_min, lat_max, lon_min, lon_max)
+CROP_OVERRIDES = {
+    "SE": (55.4, 60.8, 11.6, 19.2),  # Götaland+Svealand: Sthlm/Gbg/Malmö, Vänern/Vättern
+}
+
+
 def pick_zoom(lat_min, lat_max, lon_min, lon_max) -> int:
     for z in range(11, 2, -1):
         x0, y1 = lonlat_to_pixels(lon_min, lat_min, z)
@@ -125,7 +134,8 @@ def main():
             skipped += 1
             continue
         print(f"{iso} …", flush=True)
-        img = render(iso, (c["latMin"], c["latMax"], c["lonMin"], c["lonMax"]), session)
+        bbox = CROP_OVERRIDES.get(iso) or (c["latMin"], c["latMax"], c["lonMin"], c["lonMax"])
+        img = render(iso, bbox, session)
         img.save(out, "WEBP", quality=80)
         print(f"  ✓ {out.name} ({out.stat().st_size // 1024} kB)")
         done += 1

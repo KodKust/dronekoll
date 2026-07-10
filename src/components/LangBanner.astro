@@ -73,6 +73,9 @@ for (const code of LANGUAGE_CODES) {
 </script>
 
 <style>
+  /* display:flex nedan slår ut hidden-attributets UA-regel → tom spök-pill
+     på varje sida i besökarens eget språk (Cowork-QA R2 §3). */
+  .langbanner[hidden] { display: none; }
   .langbanner {
     position: fixed;
     bottom: max(16px, env(safe-area-inset-bottom));

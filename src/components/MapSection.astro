@@ -24,6 +24,11 @@ const c = page.country;
 // (SE/ES tills speglings-fetchers är i drift) får statiska behandlingen
 // istället för en evig skeleton.
 const interactive = c.hasAirspaceOverlay && !!mapConfig;
+// Zonsumma till klick-att-ladda-knappens etikett ("Ladda {n} zoner ({mb} MB)").
+// {mb} lämnas kvar som platshållare — zone-map.ts fyller den vid rendering.
+const defaultZoneCount = ((mapConfig as { layers?: { defaultOn?: boolean; featureCount?: number }[] } | null)?.layers ?? [])
+  .filter((l) => l.defaultOn)
+  .reduce((sum, l) => sum + (l.featureCount || 0), 0);
 ---
 
 <figure class="mapframe">
@@ -35,6 +40,10 @@ const interactive = c.hasAirspaceOverlay && !!mapConfig;
       data-msg-loading={t('map.loading', page.lang)}
       data-msg-error={t('map.error', page.lang)}
       data-msg-legend={t('map.legend', page.lang)}
+      data-msg-load-template={t('map.load', page.lang, {
+        n: defaultZoneCount.toLocaleString(page.lang),
+        mb: '{mb}',
+      })}
     >
       <div class="mapframe__skeleton" aria-hidden="true">
         <svg width="56" height="56" viewBox="0 0 100 100" class="mapframe__glyph">
@@ -104,6 +113,31 @@ const interactive = c.hasAirspaceOverlay && !!mapConfig;
     display: grid;
     place-items: center;
     color: var(--ink-3);
+    /* Positionerat element ovanpå statiskt = åt alla klick → "Load zones"-
+       knappen var funktionsdöd (Cowork-QA R2 §1, FR + Save-Data-läget). */
+    pointer-events: none;
+  }
+  /* Klick-att-ladda-knappen skapas av zone-map.ts (JS-element får inte
+     Astro-scope-attributet → :global). CAVOK-pill, centrerad i ramen. */
+  :global(.zonemap-loadbtn) {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font: inherit;
+    font-size: var(--text-body);
+    font-weight: 600;
+    color: var(--accent-ink);
+    background: var(--raised);
+    border: 1px solid var(--border);
+    border-radius: var(--r-pill);
+    padding: 12px 22px;
+    box-shadow: var(--shadow-2);
+    cursor: pointer;
+  }
+  :global(.zonemap-loadbtn:hover) {
+    border-color: var(--accent);
   }
   .mapframe__glyph { animation: pulse-dot var(--dur-pulse) ease-in-out infinite; }
 

@@ -97,6 +97,7 @@ for (const country of countriesFile.countries) {
     return {
       gzBytes: wm?.gzBytes ?? 0,
       zoneTypes: wm?.zoneTypes,
+      featureCount: wm?.featureCount ?? 0,
       ...l,
     };
   });

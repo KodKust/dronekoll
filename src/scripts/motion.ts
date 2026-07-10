@@ -52,7 +52,9 @@ if (counters.length > 0) {
     const dur = Math.min(1400, 600 + target / 60); // större tal ≈ längre, tak 1,4 s
     const t0 = performance.now();
     const tick = (now: number) => {
-      const p = Math.min(1, (now - t0) / dur);
+      // Clamp nedåt: första rAF-timestampen kan ligga FÖRE t0 → negativ easing
+      // gav "-4 countries" på hemmet (Cowork-QA R2 §4).
+      const p = Math.min(1, Math.max(0, (now - t0) / dur));
       el.textContent = fmt(el, target * easeOutCubic(p));
       if (p < 1) requestAnimationFrame(tick);
     };
