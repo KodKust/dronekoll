@@ -80,14 +80,15 @@ if (countriesFile) {
     (d) =>
       statSync(join(DIST, d)).isDirectory() &&
       existsSync(join(DIST, d, 'index.html')) &&
-      d.length <= 3,
+      d.length <= 3 &&
+      d !== 'go', // /go är app-bryggan, ingen språkhubb
   );
   console.log(
     `Sidor i dist/: ${pages.length} (landssidor förväntade: ${expectedCountry}, hubbar funna: ${hubDirs.length}/${LANG_COUNT})`,
   );
   // Hård assert på landssidor först när mallfasen (3) är byggd:
   if (process.env.ASSERT_PAGES === '1') {
-    const expectedTotal = expectedCountry + LANG_COUNT + appPages + 2; // hem + 404
+    const expectedTotal = expectedCountry + LANG_COUNT + appPages + 3; // hem + 404 + go
     if (pages.length !== expectedTotal) {
       fail(`Sidantal ${pages.length} ≠ förväntat ${expectedTotal}`);
     } else {
