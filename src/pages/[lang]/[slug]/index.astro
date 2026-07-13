@@ -96,6 +96,14 @@ const ldBlocks = [
     {ldBlocks.map((ld) => (
       <script type="application/ld+json" set:html={JSON.stringify(ld)} />
     ))}
+    {/* Smart App Banner (endast iOS Safari): "Öppna" med installerad app
+        levererar app-argument till appens deep-link-parser (besöksläge:
+        detta land + sidans språk); utan app visas App Store-knapp.
+        Bara landssidor — hubbar/hem saknar land. */}
+    <meta
+      name="apple-itunes-app"
+      content={`app-id=6761332194, app-argument=dronarkartan://open?country=${page.iso}&lang=${lang}&src=banner`}
+    />
   </Fragment>
 
   <Header lang={lang} cluster={page.cluster} />

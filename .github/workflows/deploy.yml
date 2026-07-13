@@ -55,6 +55,9 @@ jobs:
           STRICT_EN: '1'
           ASSERT_PAGES: '1'
 
+      - name: "Matris-staleness (warn-only — stale celler flaggas i /api/cell/)"
+        run: node scripts/check-matrix-staleness.mjs
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

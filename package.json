@@ -12,7 +12,8 @@
     "build:offline": "astro build && node scripts/verify-build.mjs",
     "preview": "astro preview",
     "fetch-data": "node scripts/fetch-data.mjs",
-    "verify": "node scripts/verify-build.mjs"
+    "verify": "node scripts/verify-build.mjs",
+    "check-matrix-staleness": "node scripts/check-matrix-staleness.mjs"
   },
   "dependencies": {
     "astro": "^5.0.0",

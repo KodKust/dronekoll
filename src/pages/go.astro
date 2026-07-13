@@ -1,0 +1,68 @@
+---
+/**
+ * /go — appens brygga till rätt språksida (turistläge).
+ * Appen länkar alltid det enkla formatet /go/?country=ES&lang=de&ref=app —
+ * kartan här slår upp den faktiskt existerande sidan (byggd ur
+ * allCountryPages, aldrig en gissad slug) och redirectar.
+ *
+ * ref vidarebefordras till MÅLSIDAN: GoatCounter kampanj-parsar ?ref= där —
+ * tillförlitlig app-referral-mätning utan event-kod (count.js på /go hinner
+ * inte före location.replace och används medvetet inte här).
+ * noindex — sidan är maskineri, inte innehåll.
+ */
+import Base from '../layouts/Base.astro';
+import { allCountryPages, LANGUAGES, LANGUAGE_CODES } from '../lib/model';
+
+// Slimmad karta {ISO: {lang: urlPath}} ur existerande sidor (~40 kB inline,
+// ~10 kB gzip) — atomär med bygget, inga extra roundtrips före redirect.
+const map: Record<string, Record<string, string>> = {};
+for (const p of allCountryPages()) {
+  (map[p.iso] ??= {})[p.lang] = p.urlPath;
+}
+const langCodes = LANGUAGE_CODES;
+const hubs = Object.entries(LANGUAGES); // [kod, nativt språknamn]
+---
+
+<Base
+  title="DroneKoll"
+  description="DroneKoll — drone rules by country."
+  lang="en"
+  noindex={true}
+>
+  <main class="content" style="padding: 4rem 1rem; text-align: center;">
+    <noscript>
+      <h1>DroneKoll</h1>
+      <p>Choose your language:</p>
+      <ul style="list-style: none; padding: 0; line-height: 2;">
+        {hubs.map(([code, name]) => (
+          <li><a href={`/${code}/`}>{name}</a></li>
+        ))}
+      </ul>
+    </noscript>
+    <p id="go-fallback" hidden>
+      <a href="/en/">DroneKoll</a>
+    </p>
+  </main>
+
+  <script is:inline define:vars={{ map, langCodes }}>
+    // Kedja: (iso,lang) → (iso,en) → /{lang}/-hubben → /en/.
+    const q = new URLSearchParams(location.search);
+    const iso = (q.get('country') || '').toUpperCase();
+    const lang = (q.get('lang') || '').toLowerCase();
+    const ref = q.get('ref');
+    const byIso = map[iso] || {};
+    let target =
+      byIso[lang] ||
+      byIso['en'] ||
+      (langCodes.includes(lang) ? `/${lang}/` : '/en/');
+    if (ref) {
+      target += (target.includes('?') ? '&' : '?') + 'ref=' + encodeURIComponent(ref);
+    }
+    // Synlig reservlänk om navigeringen mot förmodan inte sker.
+    setTimeout(() => {
+      const el = document.getElementById('go-fallback');
+      if (el) el.hidden = false;
+    }, 1500);
+    location.replace(target);
+  </script>
+</Base>
