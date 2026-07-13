@@ -1,0 +1,1128 @@
+{
+  "CTR_INSIDE": {
+    "title": {
+      "sv": "Kontrollzon (CTR)",
+      "no": "Kontrollsone (CTR)",
+      "de": "Kontrollzone (CTR)",
+      "en": "Control Zone (CTR)",
+      "nl": "Controlezone (CTR)",
+      "es": "Zona de control (CTR)",
+      "fr": "Zone de contrôle (CTR)",
+      "it": "Dentro la zona di controllo (CTR)"
+    },
+    "summary": {
+      "sv": "ATC-tillstånd krävs",
+      "no": "ATC-tillatelse kreves",
+      "de": "ATC-Genehmigung erforderlich",
+      "en": "ATC clearance required",
+      "nl": "ATC-klaring vereist",
+      "es": "Autorización ATC requerida",
+      "fr": "Autorisation ATC requise",
+      "it": "Volo non consentito — autorizzazione ATC richiesta"
+    },
+    "details": {
+      "sv": "Du befinner dig i kontrollerat luftrum och inom 5 km från landningsbanan. Flygning kräver godkänt tillstånd från ansvarigt kontrolltorn.\n\nKontakta flygplatsen i god tid — vanligtvis minst 48 h i förväg. Tillstånd kan inte ges i luften.",
+      "no": "Du befinner deg i kontrollert luftrom og innenfor 5 km fra landingsbanen. Flyging krever godkjent tillatelse fra ansvarlig kontrolltårn.\n\nKontakt flyplassen i god tid — vanligvis minst 48 t i forveien. Tillatelse kan ikke gis i luften.",
+      "de": "Sie befinden sich in kontrolliertem Luftraum innerhalb von 5 km von der Landebahn. Der Flug erfordert eine Genehmigung vom zuständigen Kontrolltower.\n\nKontaktieren Sie den Flughafen rechtzeitig — in der Regel mindestens 48 Stunden im Voraus. Genehmigungen werden nicht in der Luft erteilt.",
+      "en": "You are in controlled airspace within 5 km of the runway. Flight requires an approved permit from the responsible control tower.\n\nContact the airport well in advance — typically at least 48 hours ahead. Permits cannot be granted in the air.",
+      "nl": "U bevindt zich in gecontroleerd luchtruim binnen 5 km van de landingsbaan. Vliegen vereist toestemming van de verantwoordelijke verkeerstoren.\n\nNeem ruim van tevoren contact op met de luchthaven — doorgaans minimaal 48 uur vooraf. Toestemming kan niet in de lucht worden verleend.",
+      "es": "Se encuentra en espacio aéreo controlado dentro de 5 km de la pista. El vuelo requiere autorización aprobada de la torre de control responsable.\n\nContacte con el aeropuerto con antelación — normalmente al menos 48 horas antes. La autorización no puede concederse en vuelo.",
+      "fr": "Vous êtes dans un espace aérien contrôlé à moins de 5 km de la piste. Le vol nécessite une autorisation approuvée de la tour de contrôle.\n\nContactez l'aéroport bien à l'avance — au moins 48 heures avant.",
+      "it": "Sei all'interno di una zona di controllo (CTR) attorno a un aeroporto. Il volo con drone richiede autorizzazione dal controllo del traffico aereo. Contatta la torre prima del volo."
+    }
+  },
+  "CTR_OUTSIDE": {
+    "title": {
+      "sv": "Kontrollzon (CTR) — utanför 5 km",
+      "no": "Kontrollsone (CTR) — utenfor 5 km",
+      "de": "Kontrollzone (CTR) — außerhalb 5 km",
+      "en": "Control Zone (CTR) — outside 5 km",
+      "nl": "Controlezone (CTR) — buiten 5 km",
+      "es": "Zona de control (CTR) — fuera de 5 km",
+      "fr": "Zone de contrôle (CTR) — hors 5 km",
+      "it": "Fuori dalla zona di controllo (CTR)"
+    },
+    "summary": {
+      "sv": "Max 50 m AGL — utanför 5 km-zon",
+      "no": "Maks. 50 m AGL — utenfor 5 km-sonen",
+      "de": "Max. 50 m AGL — außerhalb 5-km-Zone",
+      "en": "Max 50 m AGL — outside 5 km zone",
+      "nl": "Max 50 m AGL — buiten 5 km-zone",
+      "es": "Máx. 50 m AGL — fuera de zona de 5 km",
+      "fr": "Max 50 m AGL — hors zone de 5 km",
+      "it": "Vicino a una CTR — verifica le distanze"
+    },
+    "details": {
+      "sv": "Du befinner dig i kontrollzonen men utanför 5 km-skyddszon från landningsbanan.\n\nDrönare ≤ 7 kg och hastighet < 90 km/h får flyga upp till 50 m AGL utan ATC-tillstånd (TSFS 2017:57).\n\nObservera: Vid tveksamhet, kontakta alltid berörd flygplats.",
+      "no": "Du befinner deg i kontrollsonen, men utenfor 5 km-beskyttelsessonen fra landingsbanen.\n\nI åpen kategori (EASA) kan du normalt fly opp til 50 m AGL uten ATC-tillatelse — sjekk Luftfartstilsynets regler.\n\nMerk: Ved tvil, kontakt alltid berørt flyplass.",
+      "de": "Sie befinden sich in der Kontrollzone, aber außerhalb der 5-km-Schutzzone der Landebahn.\n\nIn der offenen Kategorie (EASA) dürfen Sie möglicherweise bis zu 50 m AGL fliegen — prüfen Sie die landesspezifischen Regeln.\n\nHinweis: Im Zweifelsfall immer den betreffenden Flughafen kontaktieren.",
+      "en": "You are in the control zone but outside the 5 km runway protection zone.\n\nIn the open category (EASA), you may be able to fly up to 50 m AGL — check the country-specific rules.\n\nNote: When in doubt, always contact the relevant airport.",
+      "nl": "U bevindt zich in de controlezone maar buiten de 5 km-beschermingszone van de landingsbaan.\n\nIn de open categorie (EASA) mag u mogelijk tot 50 m AGL vliegen — raadpleeg de landspecifieke regels.\n\nLet op: neem bij twijfel altijd contact op met de betreffende luchthaven.",
+      "es": "Se encuentra en espacio aéreo controlado pero fuera de 5 km de la pista. Puede volar hasta un máximo de 50 m sobre el nivel del suelo.\n\nSe puede contactar con la torre de control para solicitar mayor altitud. Siga siempre las instrucciones del ATC.",
+      "fr": "Vous êtes dans la zone de contrôle mais à l'extérieur de la zone de protection de 5 km de la piste.\n\nEn catégorie ouverte (EASA), vous pouvez voler jusqu'à 50 m AGL — vérifiez les règles nationales.\n\nEn cas de doute, contactez toujours l'aéroport concerné.",
+      "it": "Sei fuori da una zona di controllo ma vicino al confine. Mantieni una distanza di sicurezza dagli aeromobili in avvicinamento."
+    }
+  },
+  "CTR": {
+    "title": {
+      "sv": "Kontrollzon (CTR)",
+      "no": "Kontrollsone (CTR)",
+      "de": "Kontrollzone (CTR)",
+      "en": "Control Zone (CTR)",
+      "nl": "Controlezone (CTR)",
+      "es": "Zona de control (CTR)",
+      "fr": "Zone de contrôle (CTR)",
+      "it": "Zona di controllo (CTR)",
+      "pt": "Zona de controlo (CTR)",
+      "ro": "Zonă de control (CTR)",
+      "is": "Flugstjórnarsvæði (CTR)",
+      "et": "Lennujuhtimistsoon (CTR)",
+      "sl": "Kontrolirana cona (CTR)",
+      "sk": "Riadená zóna (CTR)",
+      "uk": "Диспетчерська зона (CTR)"
+    },
+    "summary": {
+      "sv": "ATC-tillstånd krävs",
+      "no": "ATC-tillatelse kreves",
+      "de": "Kontrollierter Luftraum — Bedingungen prüfen",
+      "en": "Controlled airspace — check conditions",
+      "nl": "Gecontroleerd luchtruim — raadpleeg voorwaarden",
+      "es": "Espacio aéreo controlado — consulte ENAIRE",
+      "fr": "Espace aérien contrôlé — vérifiez les conditions",
+      "it": "Autorizzazione ATC richiesta",
+      "pt": "Autorização necessária — tráfego aéreo",
+      "ro": "Necesită autorizare — trafic aerian",
+      "is": "Leyfi þarf — flugumferð",
+      "et": "Luba vajalik — lennuliiklus",
+      "sl": "Potrebno dovoljenje — zračni promet",
+      "sk": "Potrebné povolenie — letová prevádzka",
+      "uk": "Потрібен дозвіл — повітряний рух"
+    },
+    "details": {
+      "sv": "Du befinner dig i kontrollerat luftrum och inom 5 km från landningsbanan. Flygning kräver godkänt tillstånd från ansvarigt kontrolltorn.\n\nKontakta flygplatsen i god tid — vanligtvis minst 48 h i förväg. Tillstånd kan inte ges i luften.",
+      "no": "Du befinner deg i kontrollert luftrom og innenfor 5 km fra landingsbanen. Flyging krever tillatelse fra ansvarlig kontrolltårn.\n\nKontakt flyplassen i god tid — vanligvis minst 48 t i forveien. Tillatelse kan ikke gis i luften.",
+      "de": "Sie befinden sich in einer Kontrollzone (CTR) um einen Flughafen. Die Bedingungen variieren je nach genauer Position und Höhe.\n\nPrüfen Sie die Luftfahrtkarte für die spezifischen Bedingungen dieser Zone.",
+      "en": "You are in a control zone (CTR) around an airport. Conditions vary depending on the exact location and altitude.\n\nCheck the aeronautical chart for the specific conditions of this zone.",
+      "nl": "U bevindt zich in een controlezone (CTR) rond een luchthaven. De voorwaarden variëren afhankelijk van de exacte locatie en hoogte.\n\nRaadpleeg de luchtvaartkaart voor de specifieke voorwaarden van deze zone.",
+      "es": "Zona de control alrededor de un aeropuerto. Las condiciones varían según la ubicación exacta y la altitud.\n\nConsulte el mapa de drones de ENAIRE para conocer las condiciones específicas de esta zona.",
+      "fr": "Vous êtes dans une zone de contrôle (CTR) autour d'un aéroport. Les conditions varient selon l'emplacement exact et l'altitude.\n\nConsultez la carte aéronautique pour les conditions spécifiques.",
+      "it": "Spazio aereo controllato attorno a un aeroporto. Il volo con drone richiede autorizzazione del controllo del traffico aereo. Contatta la torre prima del volo.",
+      "pt": "Zona de controlo de aeroporto — contacte o controlo de tráfego aéreo ou siga as condições da zona antes de voar.",
+      "ro": "Zonă de control a aeroportului — contactați controlul traficului aerian sau respectați condițiile zonei înainte de zbor.",
+      "is": "Flugstjórnarsvæði flugvallar — hafðu samband við flugumferðarstjórn eða fylgdu skilyrðum svæðisins fyrir flug.",
+      "et": "Lennujaama lennujuhtimistsoon — võta enne lendamist ühendust lennujuhtimisega või järgi tsooni tingimusi.",
+      "sl": "Kontrolirana cona letališča — pred letom se obrnite na kontrolo zračnega prometa ali upoštevajte pogoje cone.",
+      "sk": "Riadená zóna letiska — pred letom kontaktujte riadenie letovej prevádzky alebo dodržte podmienky zóny.",
+      "uk": "Диспетчерська зона аеропорту — перед польотом зверніться до диспетчерської служби або дотримуйтесь умов зони."
+    }
+  },
+  "ATZ": {
+    "title": {
+      "sv": "Flygplatszon (ATZ)",
+      "no": "Flyplasssone (ATZ)",
+      "de": "Flugplatzzone (ATZ)",
+      "en": "Aerodrome Traffic Zone (ATZ)",
+      "nl": "Luchthavenzone (ATZ)",
+      "es": "Zona de tráfico de aeródromo (ATZ)",
+      "fr": "Zone de trafic d'aérodrome (ATZ)",
+      "it": "Zona di traffico aeroportuale (ATZ)",
+      "pt": "Zona de tráfego de aeródromo (ATZ)",
+      "ro": "Zonă de trafic de aerodrom (ATZ)",
+      "is": "Flugvallarsvæði (ATZ)",
+      "et": "Lennuvälja tsoon (ATZ)",
+      "sl": "Cona letališkega prometa (ATZ)",
+      "sk": "Letisková zóna (ATZ)",
+      "uk": "Зона аеродромного руху (ATZ)"
+    },
+    "summary": {
+      "sv": "Max 50 m AGL — kontakta flygplatsen",
+      "no": "Maks. 50 m AGL — kontakt flyplassen",
+      "de": "Max. 50 m AGL — Flugplatz kontaktieren",
+      "en": "Max 50 m AGL — contact aerodrome",
+      "nl": "Max 50 m AGL — neem contact op met de luchthaven",
+      "es": "Contacte con TWR/AFIS antes de volar",
+      "fr": "Contactez TWR/AFIS avant de voler",
+      "it": "Contatta torre/AFIS prima del volo",
+      "pt": "Atenção — tráfego de aeródromo",
+      "ro": "Atenție — trafic de aerodrom",
+      "is": "Varúð — flugvallarumferð",
+      "et": "Tähelepanu — lennuvälja liiklus",
+      "sl": "Pozor — letališki promet",
+      "sk": "Pozor — letisková prevádzka",
+      "uk": "Увага — аеродромний рух"
+    },
+    "details": {
+      "sv": "Drönare får normalt flyga upp till 50 m AGL inom ATZ. Kontakt med flygplatsen (TWR eller AFIS) måste etableras innan flygning.\n\nVid kontrollerad ATZ gäller samma regler som för CTR.",
+      "no": "Droner kan normalt fly opp til 50 m AGL innenfor ATZ. Kontakt med flyplassen (TWR eller AFIS) må etableres før flyging.\n\nVed kontrollert ATZ gjelder samme regler som for CTR.",
+      "de": "Drohnen dürfen in der Regel bis zu 50 m AGL innerhalb der ATZ fliegen. Kontakt mit dem Flughafen (TWR oder AFIS) muss vor dem Flug hergestellt werden.\n\nIn einer kontrollierten ATZ gelten dieselben Regeln wie für die CTR.",
+      "en": "Drones may normally fly up to 50 m AGL within the ATZ. Contact with the aerodrome (TWR or AFIS) must be established before flight.\n\nIn a controlled ATZ, the same rules apply as for CTR.",
+      "nl": "Drones mogen normaal tot 50 m AGL vliegen binnen de ATZ. Contact met de luchthaven (TWR of AFIS) moet worden gelegd voor de start.\n\nBij een gecontroleerde ATZ gelden dezelfde regels als voor CTR.",
+      "es": "Zona de tráfico de aeródromo activa. Contacte con la torre (TWR) o el servicio de información de vuelo (AFIS) antes de despegar.\n\nMáximo 120 m AGL (EASA Open category) — verifique con ENAIRE o el operador del aeródromo si aplican restricciones de altura específicas en la zona.",
+      "fr": "Zone de trafic d'aérodrome active. Contactez la tour (TWR) ou le service d'information de vol (AFIS) avant le décollage.\n\nMaximum 50 m au-dessus du sol sauf accord contraire.",
+      "it": "Massimo 120 m AGL (Open EASA) — verifica le restrizioni della zona prima del volo. Contatta la torre o AFIS.",
+      "pt": "Zona de tráfego de aeródromo ou heliporto — voo condicionado; verifique as condições da zona e mantenha distância do tráfego.",
+      "ro": "Zonă de trafic de aerodrom sau heliport — zbor condiționat; verificați condițiile zonei și păstrați distanța față de trafic.",
+      "is": "Umferðarsvæði flugvallar eða þyrlupalls — skilyrt flug; athugaðu skilyrði svæðisins og haltu fjarlægð frá umferð.",
+      "et": "Lennuvälja või kopteriväljaku tsoon — tingimuslik lendamine; kontrolli tsooni tingimusi ja hoia liiklusest eemale.",
+      "sl": "Cona letališča ali heliporta — pogojno letenje; preverite pogoje cone in se izogibajte prometu.",
+      "sk": "Zóna letiska alebo heliportu — podmienené lety; skontrolujte podmienky zóny a vyhýbajte sa prevádzke.",
+      "uk": "Зона аеродрому або вертодрому — польоти за умовами; перевірте умови зони та тримайтеся подалі від руху."
+    }
+  },
+  "RWY5K": {
+    "title": {
+      "sv": "Flygplatszon 5 km (RWY5K)",
+      "no": "Flyplasssone 5 km (RWY5K)",
+      "de": "Landebahn 5-km-Zone (RWY5K)",
+      "en": "Runway 5 km Zone (RWY5K)",
+      "nl": "Landingsbaan 5 km-zone (RWY5K)",
+      "es": "Zona de 5 km del aeródromo",
+      "fr": "Zone de 5 km de l'aérodrome",
+      "it": "5 km da pista"
+    },
+    "summary": {
+      "sv": "Max 50 m AGL — informera flygplatsen",
+      "no": "Maks. 50 m AGL — informer flyplassen",
+      "de": "Max. 50 m AGL — Flughafen informieren",
+      "en": "Max 50 m AGL — notify aerodrome",
+      "nl": "Max 50 m AGL — informeer de luchthaven",
+      "es": "Dentro de 5 km de la pista — se requiere autorización",
+      "fr": "À moins de 5 km de la piste — autorisation requise",
+      "it": "Zona di sicurezza attorno alla pista"
+    },
+    "details": {
+      "sv": "Inom 5 km från landningsbana gäller max 50 m AGL.\n\nKontakta flygplatsens torn (TWR) eller flygplatsinformation (AFIS) och informera om din planerade flygning.",
+      "no": "Innenfor 5 km fra landingsbanen gjelder maks. 50 m AGL.\n\nKontakt flyplassens tårn (TWR) eller flyplassinformasjon (AFIS) og informer om din planlagte flyging.",
+      "de": "Innerhalb von 5 km von der Landebahn gilt max. 50 m AGL.\n\nKontaktieren Sie den Tower (TWR) oder die Flughafeninformation (AFIS) und informieren Sie über Ihren geplanten Flug.",
+      "en": "Within 5 km of the runway, max 50 m AGL applies.\n\nContact the aerodrome tower (TWR) or aerodrome information (AFIS) and notify them of your planned flight.",
+      "nl": "Binnen 5 km van de landingsbaan geldt max 50 m AGL.\n\nNeem contact op met de verkeerstoren (TWR) of luchthaveninfomatie (AFIS) en informeer hen over uw geplande vlucht.",
+      "es": "Se encuentra dentro de 5 km de una pista. Se requiere autorización de la torre de control antes de volar.\n\nContacte con el aeropuerto con suficiente antelación.",
+      "fr": "Vous êtes à moins de 5 km d'une piste. L'autorisation de la tour de contrôle est requise avant de voler.",
+      "it": "Sei entro 5 km da una pista attiva. Mantieni una distanza di sicurezza dagli aeromobili."
+    }
+  },
+  "HKP1K": {
+    "title": {
+      "sv": "Helikopterskyddszon 1 km (HKP1K)",
+      "no": "Helikopterbeskyttelsessone 1 km (HKP1K)",
+      "de": "Hubschrauberschutzzone 1 km (HKP1K)",
+      "en": "Helicopter Protection Zone 1 km (HKP1K)",
+      "nl": "Helikopterbeschermingszone 1 km (HKP1K)",
+      "es": "Zona de helipuerto (1 km)",
+      "fr": "Zone d'héliport (1 km)",
+      "it": "Eliporto (1 km)"
+    },
+    "summary": {
+      "sv": "Samråd med helikopterflygplatsen krävs",
+      "no": "Koordinering med helikopterflyplass kreves",
+      "de": "Koordinierung mit Hubschrauberlandeplatz erforderlich",
+      "en": "Coordination with heliport required",
+      "nl": "Afstemming met heliport vereist",
+      "es": "Dentro de 1 km de helipuerto — consulte con el operador",
+      "fr": "À moins de 1 km d'un héliport — consultez l'exploitant",
+      "it": "Zona di sicurezza attorno all'eliporto"
+    },
+    "details": {
+      "sv": "Flygning inom 1 km från helikopterflygplats får endast ske i samråd med berörd helikopterflygplats.\n\nKontakta operatören i god tid innan din flygning. Helikoptrar rör sig ofta nära marken och utan förvarning.",
+      "no": "Flyging innenfor 1 km fra helikopterflyplass kan kun skje i samråd med berørt helikopterflyplass.\n\nKontakt operatøren i god tid før flyging. Helikoptre beveger seg ofte nær bakken og uten forvarsel.",
+      "de": "Flüge innerhalb von 1 km vom Hubschrauberlandeplatz dürfen nur in Abstimmung mit dem betreffenden Helikopterlandeplatz stattfinden.\n\nKontaktieren Sie den Betreiber rechtzeitig vor dem Flug. Hubschrauber bewegen sich oft bodennah und ohne Vorwarnung.",
+      "en": "Flight within 1 km of a heliport may only take place in consultation with the relevant heliport.\n\nContact the operator well in advance of your flight. Helicopters often move close to the ground without warning.",
+      "nl": "Vliegen binnen 1 km van een heliport mag alleen plaatsvinden in overleg met de betreffende heliport.\n\nNeem ruim voor de start contact op met de exploitant. Helikopters bewegen zich vaak dicht bij de grond en zonder waarschuwing.",
+      "es": "Se encuentra dentro de 1 km de un helipuerto. Consulte con el operador del helipuerto antes de volar.\n\nEl tráfico de helicópteros puede ser frecuente e impredecible.",
+      "fr": "Vous êtes à moins de 1 km d'un héliport. Consultez l'exploitant de l'héliport avant de voler.",
+      "it": "Sei entro 1 km da un eliporto. Gli elicotteri possono partire senza preavviso — mantieni distanza e separazione di quota."
+    }
+  },
+  "HTZ": {
+    "title": {
+      "sv": "Helikoptertrafikzon (HTZ)",
+      "no": "Helikoptertrafikksone (HTZ)",
+      "de": "Hubschrauberverkehrszone (HTZ)",
+      "en": "Helicopter Traffic Zone (HTZ)",
+      "nl": "Helikopterverkeerszone (HTZ)",
+      "es": "Zona de tráfico de helicópteros (HTZ)",
+      "fr": "Zone de trafic d'hélicoptères (HTZ)"
+    },
+    "summary": {
+      "sv": "Offshore helikoptertrafik — samordna med operatör",
+      "no": "Offshore helikoptertrafikk — koordiner med operatør",
+      "de": "Offshore-Hubschrauberverkehr — mit Betreiber abstimmen",
+      "en": "Offshore helicopter traffic — coordinate with operator",
+      "nl": "Offshore helikopterverkeer — afstemmen met exploitant",
+      "es": "Tráfico de helicópteros offshore — coordine con el operador",
+      "fr": "Trafic d'hélicoptères offshore — coordonnez avec l'exploitant"
+    },
+    "details": {
+      "sv": "Trafikzon för helikoptertrafik offshore — plattformar, vindparker m.m. Helikoptrar rör sig mellan anläggningar utan fasta rutter.\n\nKontakta ansvarig operatör innan flygning. Drönare bör hållas långt från aktiva plattformar.",
+      "no": "Trafikksone for offshore helikoptertrafikk — plattformer, vindparker m.m. Helikoptre beveger seg mellom anlegg uten faste ruter.\n\nKontakt ansvarlig operatør før flyging. Droner bør holdes unna aktive plattformer.",
+      "de": "Verkehrszone für Offshore-Hubschrauberverkehr — Plattformen, Windparks usw. Hubschrauber bewegen sich zwischen Anlagen ohne feste Routen.\n\nDen zuständigen Betreiber vor dem Flug kontaktieren. Drohnen sollten Abstand zu aktiven Plattformen halten.",
+      "en": "Traffic zone for offshore helicopter operations — platforms, wind farms, etc. Helicopters move between installations without fixed routes.\n\nContact the responsible operator before flight. Keep drones well clear of active platforms.",
+      "nl": "Verkeerszone voor offshore helikopterverkeer — platforms, windparken enz. Helikopters bewegen zich tussen installaties zonder vaste routes.\n\nNeem contact op met de verantwoordelijke exploitant voor de start. Houd drones ruim uit de buurt van actieve platforms.",
+      "es": "Zona de tráfico para operaciones offshore de helicópteros — plataformas, parques eólicos, etc. Los helicópteros se mueven entre instalaciones sin rutas fijas.\n\nContacte con el operador antes de volar. Mantenga los drones alejados de plataformas activas.",
+      "fr": "Zone de trafic pour les opérations offshore d'hélicoptères — plateformes, parcs éoliens, etc. Les hélicoptères se déplacent entre les installations sans itinéraires fixes.\n\nContactez l'exploitant avant de voler. Gardez les drones éloignés des plateformes actives."
+    }
+  },
+  "RSTA": {
+    "title": {
+      "sv": "Restriktionsområde (RSTA)",
+      "no": "Restriksjonsområde (RSTA)",
+      "de": "Beschränkungsgebiet (RSTA)",
+      "en": "Restricted Area (RSTA)",
+      "nl": "Beperkt gebied (RSTA)",
+      "es": "Zona restringida",
+      "fr": "Zone restreinte",
+      "it": "Zona ristretta (R)",
+      "pt": "Área restrita (RSTA)",
+      "ro": "Zonă restricționată (RSTA)",
+      "is": "Takmarkað svæði (RSTA)",
+      "et": "Piiranguala (RSTA)",
+      "sl": "Območje omejitev (RSTA)",
+      "sk": "Obmedzená zóna (RSTA)",
+      "uk": "Зона обмежень (RSTA)"
+    },
+    "summary": {
+      "sv": "Tillstånd krävs",
+      "no": "Tillatelse kreves",
+      "de": "Genehmigung erforderlich",
+      "en": "Permit required",
+      "nl": "Toestemming vereist",
+      "es": "Se requiere autorización previa",
+      "fr": "Autorisation préalable requise",
+      "it": "Autorizzazione richiesta",
+      "pt": "Autorização necessária",
+      "ro": "Necesită autorizare",
+      "is": "Leyfi þarf",
+      "et": "Luba vajalik",
+      "sl": "Potrebno dovoljenje",
+      "sk": "Potrebné povolenie",
+      "uk": "Потрібен дозвіл"
+    },
+    "details": {
+      "sv": "Permanent restriktionsområde. Flygning kräver tillstånd från ansvarig myndighet (militär, polis, infrastruktur m.m.).\n\nKontakta LFV eller Transportstyrelsen för information om hur tillstånd söks.",
+      "no": "Permanent restriksjonsområde. Flyging krever tillatelse fra ansvarlig myndighet (militær, politi, infrastruktur m.m.).\n\nKontakt LFV eller Transportstyrelsen for informasjon om søknad om tillatelse.",
+      "de": "Permanentes Beschränkungsgebiet. Flüge erfordern eine Genehmigung der zuständigen Behörde (Militär, Polizei, Infrastruktur usw.).\n\nKontaktieren Sie die zuständige nationale Luftfahrtbehörde für Informationen zur Genehmigungsbeantragung.",
+      "en": "Permanent restricted area. Flight requires a permit from the responsible authority (military, police, infrastructure, etc.).\n\nContact the relevant national aviation authority for information on how to apply for a permit.",
+      "nl": "Permanent beperkt gebied. Vliegen vereist toestemming van de verantwoordelijke autoriteit (militair, politie, infrastructuur enz.).\n\nNeem contact op met de bevoegde nationale luchtvaartautoriteit voor informatie over het aanvragen van toestemming.",
+      "es": "Zona restringida. Está prohibido volar sin autorización específica del titular.\n\nContacte con la autoridad responsable para solicitar autorización. Las condiciones pueden variar.",
+      "fr": "Zone restreinte. Le vol est interdit sans autorisation spécifique du titulaire.\n\nContactez l'autorité nationale compétente pour demander une autorisation.",
+      "it": "Volo con drone richiede autorizzazione specifica. Verifica con l'autorità aeronautica competente.",
+      "pt": "Área restrita — é necessária autorização da autoridade indicada antes de voar nesta zona.",
+      "ro": "Zonă restricționată — este necesară autorizarea autorității indicate înainte de a zbura în această zonă.",
+      "is": "Takmarkað svæði — afla þarf leyfis frá tilgreindu yfirvaldi áður en flogið er á þessu svæði.",
+      "et": "Piiranguala — enne selles tsoonis lendamist on vaja märgitud asutuse luba.",
+      "sl": "Območje omejitev — pred letenjem v tej coni je potrebno dovoljenje navedenega organa.",
+      "sk": "Obmedzená zóna — pred letom v tejto zóne je potrebné povolenie uvedeného úradu.",
+      "uk": "Зона обмежень — перед польотом у цій зоні необхідний дозвіл зазначеного органу."
+    }
+  },
+  "P": {
+    "title": {
+      "sv": "Förbjudet område (P)",
+      "no": "Forbudt område (P)",
+      "de": "Verbotenes Gebiet (P)",
+      "en": "Prohibited Area (P)",
+      "nl": "Verboden gebied (P)",
+      "es": "Zona prohibida",
+      "fr": "Zone interdite",
+      "it": "Zona vietata (P)",
+      "pt": "Zona proibida (P)",
+      "ro": "Zonă interzisă (P)",
+      "is": "Bannsvæði (P)",
+      "et": "Keeluala (P)",
+      "sl": "Prepovedana cona (P)",
+      "sk": "Zakázaná zóna (P)",
+      "uk": "Заборонена зона (P)"
+    },
+    "summary": {
+      "sv": "Absolut förbud — flygning inte tillåten",
+      "no": "Absolutt forbud — flyging ikke tillatt",
+      "de": "Absolutes Verbot — Flug nicht erlaubt",
+      "en": "Absolute prohibition — flight not permitted",
+      "nl": "Absoluut verbod — vliegen niet toegestaan",
+      "es": "Vuelo de drones prohibido",
+      "fr": "Vol de drone interdit",
+      "it": "Volo con drone proibito",
+      "pt": "Voo proibido",
+      "ro": "Zbor interzis",
+      "is": "Flug bannað",
+      "et": "Lendamine keelatud",
+      "sl": "Letenje prepovedano",
+      "sk": "Lety zakázané",
+      "uk": "Польоти заборонено"
+    },
+    "details": {
+      "sv": "Permanent förbjudet område (Prohibited). Flygning inte tillåten under några omständigheter utan särskilt tillstånd.\n\nGäller typiskt kärnkraftverk, militära anläggningar och andra säkerhetskritiska objekt.",
+      "no": "Permanent forbudt område (Prohibited). Flyging ikke tillatt under noen omstendigheter uten særlig tillatelse.\n\nGjelder typisk kjernekraftverk, militære anlegg og andre sikkerhetskritiske objekter.",
+      "de": "Permanentes Verbotsgebiet (Prohibited). Flüge unter keinen Umständen ohne Sondergenehmigung gestattet.\n\nGilt typischerweise für Kernkraftwerke, Militäranlagen und andere sicherheitskritische Objekte.",
+      "en": "Permanent prohibited area. Flight not permitted under any circumstances without special permission.\n\nTypically applies to nuclear power plants, military installations and other safety-critical objects.",
+      "nl": "Permanent verboden gebied (Prohibited). Vliegen onder geen enkele omstandigheid toegestaan zonder speciale toestemming.\n\nGeldt doorgaans voor kerncentrales, militaire installaties en andere veiligheidskritieke objecten.",
+      "es": "Zona permanentemente prohibida para el vuelo de drones. No se conceden excepciones a menos que exista una autorización militar o gubernamental específica.",
+      "fr": "Zone interdite en permanence pour le vol de drones. Aucune exception n'est accordée sauf autorisation militaire ou gouvernementale spécifique.",
+      "it": "Zona di divieto assoluto — il volo con drone è vietato. Centrali nucleari, basi militari, infrastrutture critiche.",
+      "pt": "Zona proibida — o voo de drones não é permitido nesta área sem autorização especial da autoridade competente.",
+      "ro": "Zonă interzisă — zborul dronelor nu este permis în această zonă fără o autorizare specială din partea autorității competente.",
+      "is": "Bannsvæði — flug dróna er ekki heimilt á þessu svæði án sérstaks leyfis frá viðkomandi yfirvaldi.",
+      "et": "Keeluala — droonilennud ei ole selles piirkonnas lubatud ilma pädeva asutuse eriloata.",
+      "sl": "Prepovedana cona — letenje z droni v tem območju ni dovoljeno brez posebnega dovoljenja pristojnega organa.",
+      "sk": "Zakázaná zóna — lety dronov v tejto oblasti nie sú povolené bez osobitného povolenia príslušného úradu.",
+      "uk": "Заборонена зона — польоти дронів у цій зоні не дозволені без спеціального дозволу компетентного органу."
+    }
+  },
+  "DNGA": {
+    "title": {
+      "sv": "Farligt område (DNGA)",
+      "no": "Farlig sone (DNGA)",
+      "de": "Gefahrengebiet (DNGA)",
+      "en": "Danger Area (DNGA)",
+      "nl": "Gevaarlijk gebied (DNGA)",
+      "es": "Zona de precaución",
+      "fr": "Zone de précaution",
+      "it": "Zona pericolosa (D)",
+      "pt": "Área de perigo (DNGA)",
+      "ro": "Zonă periculoasă (DNGA)",
+      "is": "Hættusvæði (DNGA)",
+      "et": "Ohuala (DNGA)",
+      "sl": "Nevarno območje (DNGA)",
+      "sk": "Nebezpečná zóna (DNGA)",
+      "uk": "Небезпечна зона (DNGA)"
+    },
+    "summary": {
+      "sv": "Flyg med stor försiktighet",
+      "no": "Fly med stor forsiktighet",
+      "de": "Mit größter Vorsicht fliegen",
+      "en": "Fly with extreme caution",
+      "nl": "Vlieg met uiterste voorzichtigheid",
+      "es": "Zona de infraestructura protegida — condiciones aplicables",
+      "fr": "Zone d'infrastructure protégée — conditions applicables",
+      "it": "Attenzione — attività rischiosa",
+      "pt": "Perigo — atividade militar ou de tiro",
+      "ro": "Pericol — activitate militară sau de tragere",
+      "is": "Hætta — her- eða skotæfingar",
+      "et": "Oht — sõjaline või laskmistegevus",
+      "sl": "Nevarnost — vojaška ali strelska dejavnost",
+      "sk": "Nebezpečenstvo — vojenská alebo strelecká činnosť",
+      "uk": "Небезпека — військова або стрілецька діяльність"
+    },
+    "details": {
+      "sv": "Farliga aktiviteter förekommer i området — militär övning, sprängning, fallskärmshopp m.m.\n\nKontrollera aktuella NOTAMs för aktiveringstider. Aktiviteten är inte alltid pågående.",
+      "no": "Farlige aktiviteter forekommer i området — militærøvelser, sprengning, fallskjermhopp m.m.\n\nSjekk aktuelle NOTAMer for aktiveringstider. Aktiviteten er ikke alltid pågående.",
+      "de": "In diesem Gebiet finden gefährliche Aktivitäten statt — Militärübungen, Sprengungen, Fallschirmspringen usw.\n\nAktuelle NOTAMs auf Aktivierungszeiten prüfen. Die Aktivität ist nicht immer aktiv.",
+      "en": "Hazardous activities occur in this area — military exercises, explosions, parachuting, etc.\n\nCheck current NOTAMs for activation times. The activity is not always ongoing.",
+      "nl": "In dit gebied vinden gevaarlijke activiteiten plaats — militaire oefeningen, explosies, parachutespringen enz.\n\nControleer actuele NOTAMs voor activeringstijden. De activiteit is niet altijd aan de gang.",
+      "es": "Zona de protección de infraestructura (ferrocarril, energía, etc.). Puede requerir autorización del titular según el tipo de operación.\n\nConsulte las condiciones específicas antes de volar.",
+      "fr": "Zone de protection d'infrastructure. Peut nécessiter l'autorisation du titulaire selon le type d'opération.",
+      "it": "Area con attività potenzialmente pericolosa per il volo. Esercitazioni militari, tiri al bersaglio, attività industriale.",
+      "pt": "Área de perigo — pode haver atividade perigosa (militar, tiro). Verifique o estado da zona antes de voar.",
+      "ro": "Zonă periculoasă — poate exista activitate periculoasă (militară, trageri). Verificați starea zonei înainte de zbor.",
+      "is": "Hættusvæði — hættuleg starfsemi getur átt sér stað. Athugaðu stöðu svæðisins fyrir flug.",
+      "et": "Ohuala — võib esineda ohtlikku tegevust (sõjaline, laskmine). Kontrolli tsooni seisundit enne lendu.",
+      "sl": "Nevarno območje — možna je nevarna dejavnost (vojaška, streljanje). Pred letom preverite stanje cone.",
+      "sk": "Nebezpečná zóna — môže prebiehať nebezpečná činnosť (vojenská, streľba). Pred letom skontrolujte stav zóny.",
+      "uk": "Небезпечна зона — можлива небезпечна діяльність (військова, стрільби). Перевірте стан зони перед польотом."
+    }
+  },
+  "D": {
+    "title": {
+      "sv": "Farligt område (D)",
+      "no": "Farlig sone (D)",
+      "de": "Gefahrengebiet (D)",
+      "en": "Danger Area (D)",
+      "nl": "Gevaarlijk gebied (D)",
+      "es": "Zona peligrosa",
+      "fr": "Zone dangereuse",
+      "it": "Zona pericolosa"
+    },
+    "summary": {
+      "sv": "Farliga aktiviteter — kontrollera NOTAM",
+      "no": "Farlige aktiviteter — sjekk NOTAM",
+      "de": "Gefährliche Aktivitäten — NOTAM prüfen",
+      "en": "Hazardous activities — check NOTAMs",
+      "nl": "Gevaarlijke activiteiten — controleer NOTAMs",
+      "es": "Actividades peligrosas — proceda con precaución",
+      "fr": "Activités dangereuses — procédez avec prudence",
+      "it": "Attenzione richiesta"
+    },
+    "details": {
+      "sv": "Danger area. Farliga aktiviteter kan förekomma — militär övning, skjutövningar m.m.\n\nKontrollera NOTAM för aktuella aktiveringstider.",
+      "no": "Danger area. Farlige aktiviteter kan forekomme — militærøvelser, skyteøvelser m.m.\n\nSjekk NOTAM for aktuelle aktiveringstider.",
+      "de": "Gefahrengebiet. Gefährliche Aktivitäten können vorkommen — Militärübungen, Schießübungen usw.\n\nNOTAM auf aktuelle Aktivierungszeiten prüfen.",
+      "en": "Danger area. Hazardous activities may occur — military exercises, firing practice, etc.\n\nCheck NOTAMs for current activation times.",
+      "nl": "Gevaarlijk gebied. Gevaarlijke activiteiten kunnen plaatsvinden — militaire oefeningen, schietoefeningen enz.\n\nControleer NOTAMs voor actuele activeringstijden.",
+      "es": "Zona donde pueden realizarse actividades peligrosas para la aviación. Puede estar activa permanentemente o activarse mediante NOTAM.\n\nCompruebe si la zona está activa antes de volar.",
+      "fr": "Zone où des activités dangereuses pour l'aviation peuvent avoir lieu. Vérifiez si la zone est active avant de voler.",
+      "it": "Area pericolosa per il volo aereo. Verifica le condizioni prima del volo."
+    }
+  },
+  "TIZ": {
+    "title": {
+      "sv": "Trafikinformationszon (TIZ)",
+      "no": "Trafikkinformasjonssone (TIZ)",
+      "de": "Verkehrsinformationszone (TIZ)",
+      "en": "Traffic Information Zone (TIZ)",
+      "nl": "Verkeersinformatiezone (TIZ)",
+      "es": "Zona de información de tránsito (TIZ)",
+      "fr": "Zone d'information de transit (TIZ)",
+      "it": "Zona di informazione del traffico (TIZ)"
+    },
+    "summary": {
+      "sv": "G-luftrum — lyssna på AFIS-frekvens",
+      "no": "G-luftrom — lytt på AFIS-frekvens",
+      "de": "G-Luftraum — AFIS-Frequenz abhören",
+      "en": "Class G airspace — monitor AFIS frequency",
+      "nl": "Klasse G-luchtruim — luister op AFIS-frequentie",
+      "es": "Zona de información — radio recomendada",
+      "fr": "Zone d'information — radio recommandée",
+      "it": "Contatto consigliato con AFIS"
+    },
+    "details": {
+      "sv": "G-luftrum. Max 120 m tillåtet utan ytterligare tillstånd.\n\nRapportera till AFIS/RADIO på angiven frekvens. Ingen clearance krävs men information ska utbytas. Kontrollera lokala föreskrifter för eventuella höjdbegränsningar.",
+      "no": "G-luftrom. Maks. 120 m tillatt uten ytterligere tillatelse.\n\nRapporter til AFIS/RADIO på angitt frekvens. Ingen clearance kreves, men informasjon skal utveksles. Sjekk lokale forskrifter for eventuelle høydebegrensninger.",
+      "de": "G-Luftraum. Max. 120 m ohne weitere Genehmigung erlaubt.\n\nBeim AFIS/RADIO auf der angegebenen Frequenz melden. Keine Freigabe erforderlich, aber Informationsaustausch vorgeschrieben. Lokale Vorschriften auf eventuelle Höhenbeschränkungen prüfen.",
+      "en": "Class G airspace. Max 120 m permitted without further permission.\n\nReport to AFIS/RADIO on the specified frequency. No clearance required but information must be exchanged. Check local regulations for any altitude restrictions.",
+      "nl": "Klasse G-luchtruim. Max 120 m toegestaan zonder verdere toestemming.\n\nMeld u bij AFIS/RADIO op de aangegeven frequentie. Geen klaring vereist maar informatie-uitwisseling is verplicht. Controleer lokale voorschriften op eventuele hoogtebeperkingen.",
+      "es": "Zona de información de tránsito. Se recomienda el contacto por radio para mantener la conciencia situacional.\n\nNo se requiere autorización pero se recomienda informar a la estación correspondiente.",
+      "fr": "Zone d'information de transit. Le contact radio est recommandé.",
+      "it": "Zona di informazione del traffico attorno a piccoli aeroporti. Contatto con AFIS raccomandato per coordinamento."
+    }
+  },
+  "SUP": {
+    "title": {
+      "sv": "Tillfällig restriktion (AIP SUP)",
+      "no": "Midlertidig restriksjon (AIP SUP)",
+      "de": "Vorübergehende Einschränkung (AIP SUP)",
+      "en": "Temporary Restriction (AIP SUP)",
+      "nl": "Tijdelijke beperking (AIP SUP)",
+      "es": "Suplemento AIP",
+      "fr": "Supplément AIP",
+      "it": "Supplemento AIP"
+    },
+    "summary": {
+      "sv": "Tidsbegränsad — kontrollera giltighetstid",
+      "no": "Tidsbegrenset — sjekk gyldighetsperiode",
+      "de": "Befristet — Gültigkeitsdauer prüfen",
+      "en": "Time-limited — check validity period",
+      "nl": "Tijdelijk — controleer geldigheidsduur",
+      "es": "Restricción temporal del espacio aéreo",
+      "fr": "Restriction temporaire de l'espace aérien",
+      "it": "Verifica nei dettagli"
+    },
+    "details": {
+      "sv": "Tidsbegränsad restriktion publicerad via AIP Supplement.\n\nKontrollera giltighetstid och villkor nedan. Restriktionen gäller under angivna tider.",
+      "no": "Tidsbegrenset restriksjon publisert via AIP Supplement.\n\nSjekk gyldighetsperiode og vilkår nedenfor. Restriksjonen gjelder i angitte tider.",
+      "de": "Befristete Einschränkung, veröffentlicht über AIP Supplement.\n\nGültigkeitsdauer und Bedingungen unten prüfen. Die Einschränkung gilt während der angegebenen Zeiten.",
+      "en": "Time-limited restriction published via AIP Supplement.\n\nCheck validity period and conditions below. The restriction applies during the specified times.",
+      "nl": "Tijdelijke beperking gepubliceerd via AIP Supplement.\n\nControleer de geldigheidsduur en voorwaarden hieronder. De beperking geldt gedurende de aangegeven tijden.",
+      "es": "Restricción temporal publicada como suplemento AIP. Puede incluir restricciones de altitud o prohibiciones completas.\n\nConsulte el documento fuente para conocer las condiciones exactas y la duración.",
+      "fr": "Restriction temporaire publiée comme supplément AIP. Consultez le document source.",
+      "it": "Modifica temporanea pubblicata come supplemento AIP. Leggi i dettagli prima del volo."
+    }
+  },
+  "NOTAM": {
+    "title": {
+      "sv": "Tillfällig restriktion (NOTAM)",
+      "no": "Midlertidig restriksjon (NOTAM)",
+      "de": "Vorübergehende Einschränkung (NOTAM)",
+      "en": "Temporary Restriction (NOTAM)",
+      "nl": "Tijdelijke beperking (NOTAM)",
+      "es": "NOTAM",
+      "fr": "NOTAM",
+      "it": "NOTAM"
+    },
+    "summary": {
+      "sv": "Läs NOTAM-texten — kan vara förbud, övning eller varning",
+      "no": "Les NOTAM-teksten — kan være forbud, øvelse eller advarsel",
+      "de": "NOTAM-Text lesen — kann Verbot, Übung oder Warnung sein",
+      "en": "Read the NOTAM text — may be a restriction, exercise or warning",
+      "nl": "Lees de NOTAM-tekst — kan een verbod, oefening of waarschuwing zijn",
+      "es": "Lee el texto NOTAM — puede ser una prohibición, ejercicio o aviso",
+      "fr": "Lisez le texte NOTAM — peut être une interdiction, un exercice ou un avertissement",
+      "it": "Leggi il testo NOTAM — può essere un divieto, un'esercitazione o un avviso"
+    },
+    "details": {
+      "sv": "Tillfälligt område aktiverat via NOTAM.\n\nDet kan vara ett förbud, en militär övning eller en varning — läs NOTAM-texten för vad som faktiskt gäller, giltighetstid och eventuella undantag.",
+      "no": "Midlertidig sone aktivert via NOTAM.\n\nDet kan være et forbud, en militær øvelse eller en advarsel — les NOTAM-teksten for hva som faktisk gjelder, gyldighetstid og eventuelle unntak.",
+      "de": "Temporäres Gebiet, aktiviert über NOTAM.\n\nEs kann ein Verbot, eine militärische Übung oder eine Warnung sein — lesen Sie den NOTAM-Text für das, was tatsächlich gilt, die Gültigkeitsdauer und etwaige Ausnahmen.",
+      "en": "Temporary area activated via NOTAM.\n\nIt may be a restriction, a military exercise or a warning — read the NOTAM text for what actually applies, the validity period and any exceptions.",
+      "nl": "Tijdelijk gebied geactiveerd via NOTAM.\n\nHet kan een verbod, een militaire oefening of een waarschuwing zijn — lees de NOTAM-tekst voor wat er werkelijk geldt, de geldigheidsduur en eventuele uitzonderingen.",
+      "es": "Área temporal activada mediante NOTAM.\n\nPuede ser una prohibición, un ejercicio militar o un aviso — lee el texto NOTAM para saber qué se aplica realmente, el periodo de validez y posibles excepciones.",
+      "fr": "Zone temporaire activée par NOTAM.\n\nIl peut s'agir d'une interdiction, d'un exercice militaire ou d'un avertissement — lisez le texte NOTAM pour savoir ce qui s'applique réellement, la période de validité et les éventuelles exceptions.",
+      "it": "Area temporanea attivata tramite NOTAM.\n\nPuò essere un divieto, un'esercitazione militare o un avviso — leggi il testo NOTAM per sapere cosa si applica davvero, il periodo di validità ed eventuali eccezioni."
+    }
+  },
+  "TMA": {
+    "title": {
+      "sv": "Terminalområde (TMA)",
+      "no": "Terminalområde (TMA)",
+      "de": "Terminalbereich (TMA)",
+      "en": "Terminal Control Area (TMA)",
+      "nl": "Terminalgebied (TMA)",
+      "es": "Área terminal (TMA)",
+      "fr": "Région terminale (TMA)",
+      "it": "Area di controllo terminale (TMA)"
+    },
+    "summary": {
+      "sv": "Kontrollerat luftrum — samordna med ATC",
+      "no": "Kontrollert luftrom — koordiner med ATC",
+      "de": "Kontrollierter Luftraum — ATC koordinieren",
+      "en": "Controlled airspace — coordinate with ATC",
+      "nl": "Gecontroleerd luchtruim — afstemmen met ATC",
+      "es": "Área terminal — altitud limitada",
+      "fr": "Région terminale — altitude limitée",
+      "it": "Spazio aereo controllato d'alta quota"
+    },
+    "details": {
+      "sv": "Terminalområde kring större flygplats. Drönare i kontrollerat luftrum kräver samordning med ATC.\n\nKontakta ansvarig flygledning för information om aktuella villkor.",
+      "no": "Terminalområde rundt større flyplass. Droner i kontrollert luftrom krever koordinering med ATC.\n\nKontakt ansvarlig flygeledelse for informasjon om gjeldende vilkår.",
+      "de": "Terminalbereich um einen größeren Flughafen. Drohnen im kontrollierten Luftraum erfordern Koordinierung mit ATC.\n\nZuständige Flugverkehrsleitung für aktuelle Bedingungen kontaktieren.",
+      "en": "Terminal area around a major airport. Drones in controlled airspace require coordination with ATC.\n\nContact the responsible air traffic control for information on current conditions.",
+      "nl": "Terminalgebied rond een grote luchthaven. Drones in gecontroleerd luchtruim vereisen afstemming met ATC.\n\nNeem contact op met de verantwoordelijke luchtverkeersleiding voor informatie over de actuele voorwaarden.",
+      "es": "Área terminal alrededor de un aeropuerto importante. Las restricciones de altitud varían.\n\nConsulte los límites de altitud específicos para su ubicación.",
+      "fr": "Région terminale autour d'un aéroport important. Les restrictions d'altitude varient.",
+      "it": "Area di controllo terminale attorno agli aeroporti principali. Normalmente sopra le altitudini dei droni Open category."
+    }
+  },
+  "LFA": {
+    "title": {
+      "sv": "Lågflygningsområde (LFA)",
+      "no": "Lavflygingsområde (LFA)",
+      "de": "Tieffluggebiet (LFA)",
+      "en": "Low Flying Area (LFA)",
+      "nl": "Laagvlieggebied (LFA)",
+      "es": "Zona de vuelo a baja altitud (LFA)",
+      "fr": "Zone de vol à basse altitude (LFA)",
+      "it": "Zona di volo a bassa quota (LFA)"
+    },
+    "summary": {
+      "sv": "Militär lågflygning — var försiktig",
+      "no": "Militær lavflyging — vær forsiktig",
+      "de": "Militärischer Tiefflug — Vorsicht",
+      "en": "Military low-flying — use caution",
+      "nl": "Militaire laagvliegers — voorzichtigheid geboden",
+      "es": "Vuelo militar a baja altitud — precaución extrema",
+      "fr": "Vol militaire à basse altitude — extrême prudence",
+      "it": "Attività di volo militare a bassa quota"
+    },
+    "details": {
+      "sv": "Militära flygplan kan flyga på mycket låg höjd i detta område. Extra uppmärksamhet krävs. Kontrollera NOTAMs för aktiveringstider.",
+      "no": "Militære fly kan fly på svært lav høyde i dette området. Ekstra oppmerksomhet kreves. Sjekk NOTAM for aktiveringstider.",
+      "de": "Militärflugzeuge können in diesem Gebiet in sehr geringer Höhe fliegen. Besondere Vorsicht ist geboten. NOTAMs auf Aktivierungszeiten prüfen.",
+      "en": "Military aircraft may fly at very low altitude in this area. Extra vigilance required. Check NOTAMs for activation times.",
+      "nl": "Militaire vliegtuigen kunnen op zeer lage hoogte vliegen in dit gebied. Extra oplettendheid vereist. Controleer NOTAMs voor activeringstijden.",
+      "es": "Zona donde las fuerzas armadas realizan vuelos a baja altitud. Aeronaves tripuladas pueden aparecer repentinamente a altitudes muy bajas.\n\nExtrema precaución. Mantenga vigilancia visual constante.",
+      "fr": "Zone de vol militaire à basse altitude. Des aéronefs habités peuvent apparaître soudainement.",
+      "it": "Area dove velivoli militari possono volare a bassa quota. Mantieni il drone basso e attento all'attività in alto."
+    }
+  },
+  "TMZ": {
+    "title": {
+      "sv": "Transponderkravszon (TMZ)",
+      "no": "Transponderkravssone (TMZ)",
+      "de": "Transponder-Pflichtzone (TMZ)",
+      "en": "Transponder Mandatory Zone (TMZ)",
+      "nl": "Transponderverplichtingszone (TMZ)",
+      "es": "Zona obligatoria de transpondedor (TMZ)",
+      "fr": "Zone obligatoire de transpondeur (TMZ)",
+      "it": "Zona obbligatoria di transponder (TMZ)"
+    },
+    "summary": {
+      "sv": "Transponder krävs",
+      "no": "Transponder kreves",
+      "de": "Transponder erforderlich",
+      "en": "Transponder required",
+      "nl": "Transponder vereist",
+      "es": "Transpondedor obligatorio — drones normalmente exentos",
+      "fr": "Transpondeur obligatoire — drones normalement exemptés",
+      "it": "Transponder richiesto"
+    },
+    "details": {
+      "sv": "I denna zon krävs transponder för bemannat flyg. Drönare berörs normalt inte men var medveten om ökad flygtrafik.",
+      "no": "I denne sonen kreves transponder for bemannet fly. Droner berøres normalt ikke men vær oppmerksom på økt flytrafikk.",
+      "de": "In dieser Zone ist ein Transponder für bemannte Luftfahrzeuge erforderlich. Drohnen sind normalerweise nicht betroffen, aber erhöhter Flugverkehr ist zu beachten.",
+      "en": "Transponder is required for manned aircraft in this zone. Drones are not typically affected but be aware of increased air traffic.",
+      "nl": "In deze zone is een transponder vereist voor bemande luchtvaartuigen. Drones worden doorgaans niet getroffen, maar houd rekening met verhoogd luchtverkeer.",
+      "es": "Zona donde las aeronaves tripuladas deben llevar transpondedor. Los drones en categoría abierta están normalmente exentos.\n\nAumente la vigilancia ya que el tráfico aéreo puede ser más denso.",
+      "fr": "Zone où les aéronefs habités doivent porter un transpondeur. Les drones en catégorie ouverte sont normalement exemptés.",
+      "it": "Zona dove è richiesto il transponder per il volo motorizzato. Normalmente non riguarda i droni ma sii consapevole del traffico aereo aumentato."
+    }
+  },
+  "RMZ": {
+    "title": {
+      "sv": "Radiokravszon (RMZ)",
+      "no": "Radiokravssone (RMZ)",
+      "de": "Funkkommunikationspflichtzone (RMZ)",
+      "en": "Radio Mandatory Zone (RMZ)",
+      "nl": "Radioverplichtingszone (RMZ)",
+      "es": "Zona obligatoria de radio (RMZ)",
+      "fr": "Zone obligatoire de radio (RMZ)",
+      "it": "Zona obbligatoria radio (RMZ)"
+    },
+    "summary": {
+      "sv": "Radiokontakt krävs",
+      "no": "Radiokontakt kreves",
+      "de": "Funkkontakt erforderlich",
+      "en": "Radio contact required",
+      "nl": "Radiocontact vereist",
+      "es": "Radio obligatoria — drones normalmente exentos",
+      "fr": "Radio obligatoire — drones normalement exemptés",
+      "it": "Comunicazione radio richiesta"
+    },
+    "details": {
+      "sv": "I denna zon krävs tvåvägskommunikation för bemannat flyg. Drönare berörs normalt inte men var uppmärksam på flygtrafik.",
+      "no": "I denne sonen kreves toveis radiokommunikasjon for bemannet fly. Droner berøres normalt ikke men vær oppmerksom på flytrafikk.",
+      "de": "In dieser Zone ist Zweiwegfunkkommunikation für bemannte Luftfahrzeuge erforderlich. Drohnen sind normalerweise nicht betroffen, aber auf Flugverkehr achten.",
+      "en": "Two-way radio communication is required for manned aircraft in this zone. Drones are not typically affected but be aware of air traffic.",
+      "nl": "In deze zone is tweewegcommunicatie per radio vereist voor bemande luchtvaartuigen. Drones worden doorgaans niet getroffen, maar houd rekening met luchtverkeer.",
+      "es": "Zona donde las aeronaves tripuladas deben mantener contacto por radio. Los drones en categoría abierta están normalmente exentos.\n\nTenga en cuenta que puede haber más tráfico aéreo en esta zona.",
+      "fr": "Zone où les aéronefs habités doivent maintenir le contact radio.",
+      "it": "Zona dove è richiesta la comunicazione radio per il volo motorizzato. Mantieni il drone fuori dalla rotta di volo principale."
+    }
+  },
+  "PARAJUMP": {
+    "title": {
+      "sv": "Fallskärmszon",
+      "no": "Fallskjermsone",
+      "de": "Fallschirmsprungzone",
+      "en": "Parachute Jump Zone",
+      "nl": "Parachutespringzone",
+      "es": "Zona de paracaidismo",
+      "fr": "Zone de parachutisme",
+      "it": "Zona di paracadutismo"
+    },
+    "summary": {
+      "sv": "Fallskärmshoppning — undvik området",
+      "no": "Fallskjermhopping — unngå området",
+      "de": "Fallschirmspringen — Gebiet meiden",
+      "en": "Parachuting — avoid area",
+      "nl": "Parachutespringen — vermijd het gebied",
+      "es": "Zona activa de salto en paracaídas — NO vuele",
+      "fr": "Zone active de saut en parachute — NE volez PAS",
+      "it": "Attività di paracadutismo attiva"
+    },
+    "details": {
+      "sv": "I detta område genomförs fallskärmshoppning. Undvik att flyga drönare här under aktiva perioder. Kontrollera NOTAMs för aktiveringstider.",
+      "no": "I dette området gjennomføres fallskjermhopping. Unngå å fly drone her under aktive perioder. Sjekk NOTAM for aktiveringstider.",
+      "de": "In diesem Gebiet wird Fallschirmspringen durchgeführt. Drohnenflüge während aktiver Zeiten vermeiden. NOTAMs auf Aktivierungszeiten prüfen.",
+      "en": "Parachute jumping takes place in this area. Avoid flying drones during active periods. Check NOTAMs for activation times.",
+      "nl": "In dit gebied wordt parachutegesprongen. Vermijd dronevluchten tijdens actieve perioden. Controleer NOTAMs voor activeringstijden.",
+      "es": "Zona designada para saltos en paracaídas. Cuando está activa, es extremadamente peligroso volar drones.\n\nLos paracaidistas son difíciles de detectar visualmente y descienden a gran velocidad.",
+      "fr": "Zone désignée pour les sauts en parachute. Extrêmement dangereux de faire voler des drones lorsqu'elle est active.",
+      "it": "Area con attività di paracadutismo. Evita il volo quando l'attività è in corso. Verifica NOTAM per orari."
+    }
+  },
+  "UNKNOWN": {
+    "title": {
+      "sv": "Okänd zon",
+      "no": "Ukjent sone",
+      "de": "Unbekannte Zone",
+      "en": "Unknown zone",
+      "nl": "Onbekende zone",
+      "es": "Zona del espacio aéreo",
+      "fr": "Zone de l'espace aérien",
+      "it": "Zona sconosciuta"
+    },
+    "summary": {
+      "sv": "Kontrollera lokala föreskrifter",
+      "no": "Sjekk lokale forskrifter",
+      "de": "Lokale Vorschriften prüfen",
+      "en": "Check local regulations",
+      "nl": "Controleer lokale voorschriften",
+      "es": "Consulte las condiciones específicas",
+      "fr": "Vérifiez les conditions spécifiques",
+      "it": "Verifica le restrizioni locali"
+    },
+    "details": {
+      "sv": "Zontypen är inte känd av appen. Kontrollera LFV Dronechart och AIP för gällande regler.",
+      "no": "Sonetypen er ikke kjent av appen. Sjekk offisielle kilder og AIP for gjeldende regler.",
+      "de": "Dieser Zonentyp ist der App nicht bekannt. Offizielle Quellen und AIP auf geltende Regeln prüfen.",
+      "en": "This zone type is not recognized by the app. Check official airspace sources and AIP for applicable regulations.",
+      "nl": "Dit zonetype is niet herkend door de app. Controleer officiele luchtruimbronnen en AIP voor geldende voorschriften.",
+      "es": "Zona del espacio aéreo con condiciones que pueden afectar al vuelo de drones. Consulte las fuentes oficiales para conocer las reglas específicas.",
+      "fr": "Zone de l'espace aérien avec des conditions pouvant affecter le vol de drones.",
+      "it": "Tipo di zona non identificato. Verifica con l'autorità aeronautica locale prima del volo."
+    }
+  },
+  "NO_NFZ_AERODROME": {
+    "title": {
+      "sv": "Flygplats-no-fly (5 km)",
+      "no": "Flyplass-no-fly (5 km)",
+      "de": "Flugplatz-Sperrzone (5 km)",
+      "en": "Aerodrome no-fly (5 km)",
+      "es": "Aeropuerto-no-vuelo (5 km)",
+      "fr": "Aéroport-no-fly (5 km)",
+      "it": "Aeroporto - no-fly (5 km)",
+      "nl": "Luchthaven-no-fly (5 km)"
+    },
+    "summary": {
+      "sv": "5 km runt flygplats — tillstånd krävs",
+      "no": "5 km rundt flyplass — tillatelse kreves",
+      "de": "5 km um Flugplatz — Genehmigung erforderlich",
+      "en": "5 km around aerodrome — authorization required",
+      "es": "En un radio de 5 km alrededor del aeropuerto: se requiere autorización",
+      "fr": "Dans un rayon de 5 km autour de l'aéroport — autorisation requise",
+      "it": "Raggio di 5 km dall'aeroporto — è necessaria un'autorizzazione",
+      "nl": "5 km rond de luchthaven — vergunning vereist"
+    },
+    "details": {
+      "sv": "Du är inom 5 km från en norsk flygplats. Drönarflygning kräver tillstånd från flygplatsens kontakt. Verifiera med Avinor Dronekart.",
+      "no": "Du er innenfor 5 km fra en norsk flyplass. Droneflyging krever tillatelse fra flyplassens kontakt. Verifiser med Avinor Dronekart.",
+      "de": "Sie befinden sich innerhalb von 5 km eines norwegischen Flugplatzes. Drohnenflüge erfordern Genehmigung vom Flugplatzbetreiber.",
+      "en": "You are within 5 km of a Norwegian aerodrome. Drone flight requires authorization from the aerodrome contact. Verify with Avinor Dronekart.",
+      "es": "Te encuentras a menos de 5 km de un aeropuerto noruego. Para volar con drones es necesario obtener un permiso del responsable del aeropuerto. Consúltalo en Avinor Dronekart.",
+      "fr": "Vous vous trouvez à moins de 5 km d'un aéroport norvégien. Le pilotage d'un drone nécessite une autorisation délivrée par le responsable de l'aéroport. Vérifiez auprès d'Avinor Dronekart.",
+      "it": "Ti trovi a meno di 5 km da un aeroporto norvegese. Per far volare un drone è necessario ottenere l'autorizzazione dal referente dell'aeroporto. Verifica su Avinor Dronekart.",
+      "nl": "Je bevindt je binnen 5 km van een Noorse luchthaven. Voor het vliegen met een drone is toestemming van de luchthaven nodig. Controleer dit via Avinor Dronekart."
+    }
+  },
+  "NO_NATURE_FERDSEL": {
+    "title": {
+      "sv": "Naturreservat — ferdselsforbud",
+      "no": "Naturreservat — ferdselsforbud",
+      "de": "Naturreservat — Zugangsverbot",
+      "en": "Nature reserve — access prohibited",
+      "es": "Reserva natural — Prohibido el paso",
+      "fr": "Réserve naturelle — accès interdit",
+      "it": "Riserva naturale — Divieto di accesso",
+      "nl": "Natuurreservaat — verbod op betreden"
+    },
+    "summary": {
+      "sv": "All ferdsel förbjuden (säsong)",
+      "no": "All ferdsel forbudt (sesongbasert)",
+      "de": "Aller Zugang verboten (saisonal)",
+      "en": "All access prohibited (seasonal)",
+      "es": "Prohibido el paso (temporada)",
+      "fr": "Circulation interdite (en saison)",
+      "it": "Divieto di transito (stagionale)",
+      "nl": "Alle verkeer verboden (seizoensgebonden)"
+    },
+    "details": {
+      "sv": "Området har ferdselsforbud — drönare får inte flyga över. Många zoner har säsongsbegränsning (t.ex. fågelhäckning). Se exakta datum i naturbase.no via länken nedan.",
+      "no": "Området har ferdselsforbud — droner kan ikke fly over. Mange soner har sesongbegrensning (f.eks. fuglehekking). Se eksakte datoer i naturbase.no.",
+      "de": "Zugangsverbot — Drohnen dürfen nicht überfliegen. Viele Zonen haben saisonale Beschränkungen.",
+      "en": "Access prohibited — drones may not fly over. Many zones have seasonal limits (e.g. bird breeding). Check exact dates on naturbase.no.",
+      "es": "La zona está prohibida al tráfico; no se permite el vuelo de drones. Muchas zonas tienen restricciones estacionales (por ejemplo, durante la época de cría de las aves). Consulte las fechas exactas en naturbase.no a través del enlace que figura a continuación.",
+      "fr": "La zone est interdite à la circulation — les drones ne sont pas autorisés à y survoler. De nombreuses zones sont soumises à des restrictions saisonnières (par exemple, pendant la période de nidification des oiseaux). Consultez les dates exactes sur naturbase.no via le lien ci-dessous.",
+      "it": "L'area è soggetta a divieto di transito: i droni non possono sorvolarla. Molte zone sono soggette a restrizioni stagionali (ad es. durante la nidificazione degli uccelli). Consulta le date esatte su naturbase.no tramite il link sottostante.",
+      "nl": "In dit gebied geldt een vliegverbod — drones mogen hier niet vliegen. Voor veel zones gelden seizoensgebonden beperkingen (bijv. broedseizoen). Bekijk de exacte data op naturbase.no via de onderstaande link."
+    }
+  },
+  "NO_NATURE_LANDING": {
+    "title": {
+      "sv": "Naturreservat — landingsforbud",
+      "no": "Naturreservat — landingsforbud",
+      "de": "Naturreservat — Landeverbot",
+      "en": "Nature reserve — landing prohibited",
+      "es": "Reserva natural — prohibido aterrizar",
+      "fr": "Réserve naturelle — atterrissage interdit",
+      "it": "Riserva naturale — divieto di atterraggio",
+      "nl": "Natuurreservaat — landingsverbod"
+    },
+    "summary": {
+      "sv": "Landning förbjuden — överflyg OK",
+      "no": "Landing forbudt — overflyging OK",
+      "de": "Landung verboten — Überflug erlaubt",
+      "en": "Landing prohibited — overflight allowed",
+      "es": "Prohibido el aterrizaje — se permite el sobrevuelo",
+      "fr": "Atterrissage interdit — survol autorisé",
+      "it": "Divieto di atterraggio — sorvolo consentito",
+      "nl": "Landen verboden — overvliegen toegestaan"
+    },
+    "details": {
+      "sv": "Du får flyga ÖVER zonen men inte landa. Många zoner har säsongsbegränsning. Se exakta restriktioner i naturbase.no.",
+      "no": "Du kan fly OVER sonen, men ikke lande. Mange soner har sesong-begrensning. Se eksakte restriksjoner i naturbase.no.",
+      "de": "Sie können das Gebiet überfliegen, aber nicht landen.",
+      "en": "You may fly OVER but not land. Many zones have seasonal limits. Check exact restrictions on naturbase.no.",
+      "es": "Puedes sobrevolar la zona, pero no aterrizar. Muchas zonas tienen restricciones de temporada. Consulta las restricciones exactas en naturbase.no.",
+      "fr": "Vous pouvez survoler la zone, mais vous ne pouvez pas y atterrir. De nombreuses zones sont soumises à des restrictions saisonnières. Consultez les restrictions précises sur naturbase.no.",
+      "it": "È consentito sorvolare la zona, ma non atterrarvi. Molte zone sono soggette a restrizioni stagionali. Consultare le restrizioni precise su naturbase.no.",
+      "nl": "Je mag OVER de zone vliegen, maar niet landen. Veel zones hebben seizoensbeperkingen. Bekijk de exacte beperkingen op naturbase.no."
+    }
+  },
+  "NO_NATURE_LOWFLY": {
+    "title": {
+      "sv": "Naturreservat — lavflyging < 300 m",
+      "no": "Naturreservat — lavflyging < 300 m",
+      "de": "Naturreservat — Tieffliegen < 300 m",
+      "en": "Nature reserve — low-flight < 300 m",
+      "es": "Reserva natural — vuelo a baja altura < 300 m",
+      "fr": "Réserve naturelle — survol à moins de 300 m",
+      "it": "Riserva naturale — volo a bassa quota < 300 m",
+      "nl": "Natuurreservaat — laagvliegen < 300 m"
+    },
+    "summary": {
+      "sv": "Max 300 m AGL — högre OK",
+      "no": "Max 300 m AGL — høyere OK",
+      "de": "Max 300 m AGL — höher erlaubt",
+      "en": "Max 300 m AGL — higher allowed",
+      "es": "Máximo 300 m sobre el nivel del suelo — se admite una altura superior",
+      "fr": "300 m AGL maximum — au-delà, c'est acceptable",
+      "it": "Massimo 300 m AGL — più in alto va bene",
+      "nl": "Max. 300 m boven de grond — hoger mag"
+    },
+    "details": {
+      "sv": "Lågflyg under 300 m AGL är förbjudet i denna zon. För drönare i Open-kategorin (max 120 m AGL) betyder det att zonen är effektivt no-fly. Vissa zoner har säsongsbegränsning.",
+      "no": "Lavflyging under 300 m AGL er forbudt i denne sonen. For droner i Open-kategorien (maks 120 m AGL) betyr det at sonen er effektivt no-fly. Noen soner har sesongbegrensning.",
+      "de": "Tieffliegen unter 300 m AGL ist verboten. Für Drohnen in Open-Kategorie (max 120 m AGL) ist die Zone effektiv Sperrzone.",
+      "en": "Low-flight under 300 m AGL is prohibited. For drones in Open category (max 120 m AGL), this zone is effectively no-fly. Some zones have seasonal limits.",
+      "es": "Está prohibido volar a baja altura, por debajo de los 300 m AGL, en esta zona. Para los drones de la categoría Open (máximo 120 m AGL), esto significa que la zona es, en la práctica, una zona de exclusión aérea. Algunas zonas tienen restricciones estacionales.",
+      "fr": "Le survol à basse altitude (moins de 300 m AGL) est interdit dans cette zone. Pour les drones de la catégorie Open (max. 120 m AGL), cela signifie que la zone est de fait interdite au survol. Certaines zones sont soumises à des restrictions saisonnières.",
+      "it": "In questa zona è vietato volare a bassa quota (meno di 300 m AGL). Per i droni della categoria Open (max 120 m AGL), ciò significa che la zona è di fatto una no-fly zone. Alcune zone sono soggette a restrizioni stagionali.",
+      "nl": "Vliegen op lage hoogte onder 300 m AGL is in deze zone verboden. Voor drones in de Open-categorie (max. 120 m AGL) betekent dit dat de zone in feite een vliegverbod heeft. Sommige zones hebben seizoensgebonden beperkingen."
+    }
+  },
+  "NO_RESTRICTED_R102": {
+    "title": {
+      "sv": "Oslo Sentrum — restriktionsområde (R 102)",
+      "no": "Oslo Sentrum — restriksjonsområde (R 102)",
+      "de": "Oslo Zentrum — Sperrgebiet (R 102)",
+      "en": "Oslo centre — restricted area (R 102)",
+      "es": "Centro de Oslo — zona restringida (R 102)",
+      "fr": "Centre-ville d'Oslo — zone réglementée (R 102)",
+      "it": "Centro di Oslo — zona soggetta a restrizioni (R 102)",
+      "nl": "Oslo Centrum — beperkingsgebied (R 102)"
+    },
+    "summary": {
+      "sv": "Drönarförbud — tillstånd från Luftfartstilsynet",
+      "no": "Droneforbud — tillatelse fra Luftfartstilsynet",
+      "de": "Drohnenverbot — Genehmigung erforderlich",
+      "en": "Drone prohibited — authorization from CAA required",
+      "es": "Prohibición de drones: autorización de la Autoridad de Aviación Civil",
+      "fr": "Interdiction des drones — autorisation délivrée par l'Autorité de surveillance de l'aviation civile",
+      "it": "Divieto di utilizzo dei droni — autorizzazione dell'Autorità per la sicurezza aerea",
+      "nl": "Droneverbod — vergunning van de Luchtvaartautoriteit"
+    },
+    "details": {
+      "sv": "Du är i EN R 102 — restriksjonsområde kring Slottet, Stortinget, Regjeringskvartalet och Akershus festning. 1 NM radie, GND till 3000 ft AMSL. Drönarflygning kräver särskilt tillstånd från Luftfartstilsynet (separat ansökan per flygning).",
+      "no": "Du er i EN R 102 — restriksjonsområde rundt Slottet, Stortinget, Regjeringskvartalet og Akershus festning. 1 NM radius, GND til 3000 ft AMSL. Droneflyging krever særskilt tillatelse fra Luftfartstilsynet (egen søknad per flyging).",
+      "de": "Sie befinden sich in EN R 102 — Sperrgebiet um Königspalast, Storting und Regierungsviertel. 1 NM Radius, GND bis 3000 ft AMSL. Drohnenflüge erfordern Sondergenehmigung der norwegischen Luftfahrtbehörde.",
+      "en": "You are in EN R 102 — restricted area around the Royal Palace, Storting, Government Quarter and Akershus Fortress. 1 NM radius, GND to 3000 ft AMSL. Drone flight requires special authorization from the Norwegian CAA (per-flight application).",
+      "es": "Se encuentra en la zona de restricción EN R 102, que rodea el Palacio Real, el Parlamento, el barrio del Gobierno y la fortaleza de Akershus. Radio de 1 NM, desde el nivel del suelo hasta 3000 pies sobre el nivel del mar. El vuelo de drones requiere un permiso especial de la Autoridad de Aviación Civil (solicitud por separado para cada vuelo).",
+      "fr": "Vous vous trouvez dans la zone EN R 102 — zone réglementée autour du Palais royal, du Storting, du quartier du gouvernement et de la forteresse d'Akershus. Rayon de 1 NM, du sol jusqu'à 3 000 pieds AMSL. Le pilotage de drones nécessite une autorisation spéciale de l'Autorité de surveillance de l'aviation civile (demande distincte pour chaque vol).",
+      "it": "Ti trovi nella zona EN R 102 — area soggetta a restrizioni intorno al Palazzo Reale, allo Storting, al quartiere del Governo e alla fortezza di Akershus. Raggio di 1 NM, da GND a 3000 ft AMSL. Il volo con droni richiede un'autorizzazione speciale da parte dell'Autorità di vigilanza dell'aviazione civile (Luftfartstilsynet) (richiesta separata per ogni volo).",
+      "nl": "U bevindt zich in EN R 102 — een beperkingsgebied rond het Koninklijk Paleis, het Storting, het regeringskwartier en de vesting Akershus. Straal van 1 NM, van GND tot 3000 ft AMSL. Voor het vliegen met een drone is een speciale vergunning van de Luftfartstilsynet vereist (afzonderlijke aanvraag per vlucht)."
+    }
+  },
+  "NO_RESTRICTED_DORMANT": {
+    "title": {
+      "sv": "Sovande R-zon (NOTAM-aktiverad)",
+      "no": "Sovende R-sone (NOTAM-aktivert)",
+      "de": "Schlafendes R-Gebiet (NOTAM-aktiviert)",
+      "en": "Dormant restricted area (NOTAM-activated)",
+      "es": "Zona R inactiva (activada por NOTAM)",
+      "fr": "Zone R inactive (activée par NOTAM)",
+      "it": "Zona R inattiva (attivata tramite NOTAM)",
+      "nl": "Slapende R-zone (NOTAM-geactiveerd)"
+    },
+    "summary": {
+      "sv": "Inaktiv för det mesta — kontrollera dagens NOTAM",
+      "no": "Inaktiv mesteparten av tiden — sjekk dagens NOTAM",
+      "de": "Meist inaktiv — heutiges NOTAM prüfen",
+      "en": "Inactive most of the time — check today's NOTAM",
+      "es": "Inactivo la mayor parte del tiempo — comprueba el NOTAM de hoy",
+      "fr": "Inactif la plupart du temps — consultez les NOTAM du jour",
+      "it": "Per lo più inattivo — controlla i NOTAM di oggi",
+      "nl": "Meestal inactief — bekijk de NOTAM van vandaag"
+    },
+    "details": {
+      "sv": "Detta är en SOVANDE R-zon. Den är INTE permanent förbjuden — aktiveras enbart via NOTAM av polismyndighet (statsbesök, terrorhot, demonstrationer). När INTE aktiv: flygning OK enligt vanliga drönarregler. När aktiv: alla flygningar förbjudna. Kontrollera dagens NOTAM på ippc.no innan flygning.",
+      "no": "Dette er en SOVENDE R-sone. Den er IKKE permanent forbudt — aktiveres kun via NOTAM av politimyndighet (statsbesøk, terrortrussel, demonstrasjoner). Når IKKE aktiv: flyging OK etter vanlige droneregler. Når aktiv: all flyging forbudt. Sjekk dagens NOTAM på ippc.no før flyging.",
+      "de": "Dies ist ein SCHLAFENDES R-Gebiet. NICHT permanent verboten — wird nur per NOTAM von der Polizei aktiviert (Staatsbesuche, Terrordrohung, Demonstrationen). Bei Inaktivität: Flug nach normalen Drohnenregeln erlaubt. Bei Aktivierung: alle Flüge verboten. Tagesaktuelles NOTAM prüfen.",
+      "en": "This is a DORMANT restricted area. NOT permanently prohibited — activated only via NOTAM by police authority (state visits, terror threat, demonstrations). When NOT active: flight OK under normal drone rules. When active: all flights prohibited. Check today's NOTAM at ippc.no before flying.",
+      "es": "Esta es una zona R INACTIVA. NO está prohibida de forma permanente, sino que solo se activa mediante un NOTAM de las autoridades policiales (visitas de Estado, amenazas terroristas, manifestaciones). Cuando NO está activa: se permite volar según las normas habituales para drones. Cuando está activa: todos los vuelos están prohibidos. Comprueba el NOTAM de hoy en ippc.no antes de volar.",
+      "fr": "Il s'agit d'une zone R INACTIVE. Elle n'est PAS interdite en permanence — elle n'est activée que par NOTAM émis par les autorités policières (visite d'État, menace terroriste, manifestations). Lorsqu'elle n'est PAS active : le vol est autorisé conformément aux règles habituelles relatives aux drones. Lorsqu'elle est active : tous les vols sont interdits. Vérifiez le NOTAM du jour sur ippc.no avant de voler.",
+      "it": "Questa è una zona R INATTIVA. NON è soggetta a divieto permanente — viene attivata esclusivamente tramite NOTAM da parte delle autorità di polizia (visite di Stato, minacce terroristiche, manifestazioni). Quando NON è attiva: il volo è consentito secondo le normali norme sui droni. Quando è attiva: tutti i voli sono vietati. Controllare il NOTAM del giorno su ippc.no prima del volo.",
+      "nl": "Dit is een SLAPENDE R-zone. Deze zone is NIET permanent verboden — ze wordt uitsluitend geactiveerd via een NOTAM van de politie (staatsbezoek, terreurdreiging, demonstraties). Wanneer NIET actief: vliegen is toegestaan volgens de gebruikelijke dronevoorschriften. Wanneer actief: alle vluchten verboden. Controleer de NOTAM van vandaag op ippc.no voor de vlucht."
+    }
+  },
+  "NO_RESTRICTED_AREA": {
+    "title": {
+      "sv": "Restriksjonsområde (R-zon)",
+      "no": "Restriksjonsområde (R-sone)",
+      "de": "Sperrgebiet (R-Zone)",
+      "en": "Restricted area (R-zone)",
+      "es": "Zona restringida (zona R)",
+      "fr": "Zone réglementée (zone R)",
+      "it": "Area soggetta a restrizioni (zona R)",
+      "nl": "Beperkingszone (R-zone)"
+    },
+    "summary": {
+      "sv": "Permanent drönarförbud — kräver tillstånd",
+      "no": "Permanent droneforbud — krever tillatelse",
+      "de": "Permanentes Drohnenverbot — Genehmigung nötig",
+      "en": "Permanent drone prohibition — authorization required",
+      "es": "Prohibición permanente de drones: se requiere autorización",
+      "fr": "Interdiction permanente des drones — autorisation obligatoire",
+      "it": "Divieto permanente di utilizzo dei droni — è necessaria un'autorizzazione",
+      "nl": "Permanent verbod op drones — vergunning vereist"
+    },
+    "details": {
+      "sv": "Permanent AIP-restriksjonsområde (militärt eller kritisk infrastruktur). Drönarflygning förbjuden utan särskilt tillstånd från Luftfartstilsynet. Verifiera höjdintervall och aktivitetsstatus i bottom-sheet.",
+      "no": "Permanent AIP-restriksjonsområde (militært eller kritisk infrastruktur). Droneflyging forbudt uten særskilt tillatelse fra Luftfartstilsynet. Verifiser høyde-intervall og aktivitetsstatus.",
+      "de": "Permanentes AIP-Sperrgebiet (militärisch oder kritische Infrastruktur). Drohnenflüge ohne Sondergenehmigung verboten.",
+      "en": "Permanent AIP restricted area (military or critical infrastructure). Drone flight prohibited without special authorization from the Norwegian CAA. Verify altitude range and activity status.",
+      "es": "Zona de restricción AIP permanente (infraestructura militar o crítica). Prohibido el vuelo de drones sin autorización especial de la Autoridad de Aviación Civil. Verifique los intervalos de altitud y el estado de actividad en la hoja de referencia.",
+      "fr": "Zone soumise à des restrictions AIP permanentes (infrastructures militaires ou critiques). Le vol de drones est interdit sans autorisation spéciale de l'Autorité de surveillance de l'aviation civile. Vérifiez les plages d'altitude et le statut d'activité dans la fiche de base.",
+      "it": "Zona soggetta a restrizioni AIP permanenti (infrastrutture militari o critiche). È vietato il volo con droni senza un'autorizzazione specifica dell'Autorità per la sicurezza aerea. Verificare gli intervalli di quota e lo stato delle attività nella scheda di base.",
+      "nl": "Permanent AIP-beperkingsgebied (militaire of kritieke infrastructuur). Het vliegen met drones is verboden zonder speciale toestemming van de Luchtvaartautoriteit. Controleer de hoogtebereiken en de activiteitsstatus in het bottom-sheet."
+    }
+  },
+  "NO_PRISON": {
+    "title": {
+      "sv": "Fängelse — drönarförbud",
+      "no": "Fengsel — droneforbud",
+      "de": "Gefängnis — Drohnenverbot",
+      "en": "Prison — drone prohibited",
+      "es": "Cárcel — prohibición de drones",
+      "fr": "Prison — interdiction des drones",
+      "it": "Prigione — Divieto di utilizzo dei droni",
+      "nl": "Gevangenis — verbod op drones"
+    },
+    "summary": {
+      "sv": "926 m radie kring fängelset — flygning förbjuden",
+      "no": "926 m radius rundt fengselet — flyging forbudt",
+      "de": "926 m Radius um Gefängnis — Flug verboten",
+      "en": "926 m radius around prison — flight prohibited",
+      "es": "Radio de 926 m alrededor de la prisión: prohibido sobrevolar la zona",
+      "fr": "Dans un rayon de 926 mètres autour de la prison — survol interdit",
+      "it": "Raggio di 926 m intorno al carcere — divieto di sorvolo",
+      "nl": "Een straal van 926 m rond de gevangenis — vliegen verboden"
+    },
+    "details": {
+      "sv": "Permanent restriksjonsområde över norskt fängelse. 0,5 NM (926 m) radie. Drönarflygning är förbjuden utan särskilt tillstånd enligt forskrift FOR-2018-12-05-1807.",
+      "no": "Permanent restriksjonsområde over norsk fengsel. 0,5 NM (926 m) radius. Droneflyging er forbudt uten særskilt tillatelse per forskrift FOR-2018-12-05-1807.",
+      "de": "Permanente Sperrzone über norwegischem Gefängnis. 0,5 NM (926 m) Radius. Drohnenflüge ohne Sondergenehmigung verboten.",
+      "en": "Permanent restricted area over Norwegian prison. 0.5 NM (926 m) radius. Drone flight prohibited without special authorization per regulation FOR-2018-12-05-1807.",
+      "es": "Zona de restricción permanente sobre una prisión noruega. Radio de 0,5 millas náuticas (926 m). Está prohibido volar drones sin un permiso especial, de conformidad con la normativa FOR-2018-12-05-1807.",
+      "fr": "Zone d'interdiction permanente au-dessus d'une prison norvégienne. Rayon de 0,5 NM (926 m). Le survol par drone est interdit sans autorisation spéciale, conformément au règlement FOR-2018-12-05-1807.",
+      "it": "Zona soggetta a restrizioni permanenti sopra un carcere norvegese. Raggio di 0,5 NM (926 m). Il volo con droni è vietato senza un'autorizzazione specifica ai sensi del regolamento FOR-2018-12-05-1807.",
+      "nl": "Permanent beperkingsgebied boven een Noorse gevangenis. Straal van 0,5 NM (926 m). Het vliegen met drones is verboden zonder speciale vergunning overeenkomstig verordening FOR-2018-12-05-1807."
+    }
+  },
+  "NO_CTR_TIZ": {
+    "title": {
+      "sv": "Kontrollzon (CTR/TIZ)",
+      "no": "Kontrollsone (CTR/TIZ)",
+      "de": "Kontrollzone (CTR/TIZ)",
+      "en": "Control zone (CTR/TIZ)",
+      "es": "Zona de control (CTR/TIZ)",
+      "fr": "Zone de contrôle (CTR/TIZ)",
+      "it": "Zona di controllo (CTR/TIZ)",
+      "nl": "Controlezone (CTR/TIZ)"
+    },
+    "summary": {
+      "sv": "Kontrollerat luftrum — tillstånd krävs",
+      "no": "Kontrollert luftrom — tillatelse kreves",
+      "de": "Kontrollierter Luftraum — Genehmigung nötig",
+      "en": "Controlled airspace — authorization required",
+      "es": "Espacio aéreo controlado: se requiere autorización",
+      "fr": "Espace aérien contrôlé — autorisation requise",
+      "it": "Spazio aereo controllato — è necessaria un'autorizzazione",
+      "nl": "Gecontroleerd luchtruim — vergunning vereist"
+    },
+    "details": {
+      "sv": "Du är i en kontrollzon (CTR) eller trafikinformationszon (TIZ) runt en flygplats. Drönarflygning kräver tillstånd från flygledningen — ansök via Avinor Drone (Ninox) före flygning. Detta täcker större område än 5 km-bufferten — Oslo CTR sträcker sig över hela sentrum.",
+      "no": "Du er i en kontrollsone (CTR) eller trafikinformasjonssone (TIZ) rundt en flyplass. Droneflyging krever tillatelse fra flygelederen — søk via Avinor Drone (Ninox) før flyging. Dette dekker større område enn 5 km-bufferen — Oslo CTR strekker seg over hele sentrum.",
+      "de": "Sie befinden sich in einer Kontrollzone (CTR) oder Verkehrs-informationszone (TIZ). Drohnenflüge erfordern Genehmigung der Flugsicherung — Antrag über Avinor Drone (Ninox).",
+      "en": "You are in a Control Zone (CTR) or Traffic Information Zone (TIZ) around an aerodrome. Drone flight requires ATC authorization — apply via Avinor Drone (Ninox) before flying. This covers a larger area than the 5 km buffer — Oslo CTR extends over the entire city centre.",
+      "es": "Te encuentras en una zona de control (CTR) o en una zona de información de tráfico (TIZ) alrededor de un aeropuerto. El vuelo de drones requiere un permiso de la torre de control; solicítelo a través de Avinor Drone (Ninox) antes del vuelo. Esto abarca un área mayor que la zona de seguridad de 5 km; la CTR de Oslo se extiende por todo el centro de la ciudad.",
+      "fr": "Vous vous trouvez dans une zone de contrôle (CTR) ou une zone d'information de trafic (TIZ) autour d'un aéroport. Le pilotage d'un drone nécessite une autorisation de la tour de contrôle — faites votre demande via Avinor Drone (Ninox) avant le vol. Cela couvre une zone plus étendue que la zone tampon de 5 km — la CTR d'Oslo s'étend sur tout le centre-ville.",
+      "it": "Ti trovi in una zona di controllo del traffico aereo (CTR) o in una zona di informazione sul traffico aereo (TIZ) nei pressi di un aeroporto. Il volo con i droni richiede un'autorizzazione da parte del controllo del traffico aereo — richiedila tramite Avinor Drone (Ninox) prima del volo. Questa copre un'area più ampia rispetto alla zona di sicurezza di 5 km — la CTR di Oslo si estende su tutto il centro città.",
+      "nl": "U bevindt zich in een controlezone (CTR) of verkeersinformatiezone (TIZ) rond een luchthaven. Voor het vliegen met een drone is toestemming van de luchtverkeersleiding vereist — vraag deze aan via Avinor Drone (Ninox) vóór de vlucht. Dit bestrijkt een groter gebied dan de bufferzone van 5 km — de CTR van Oslo strekt zich uit over het hele stadscentrum."
+    }
+  },
+  "NO_MARINE_RESTRICTED": {
+    "title": {
+      "sv": "Marint militärt övningsområde",
+      "no": "Marint militært øvingsområde",
+      "de": "Marine Militärübungszone",
+      "en": "Marine military training area",
+      "es": "Área de maniobras militares navales",
+      "fr": "Zone d'entraînement militaire maritime",
+      "it": "Area di addestramento militare marittimo",
+      "nl": "Maritiem militair oefenterrein"
+    },
+    "summary": {
+      "sv": "Skytte/övning till sjöss — restriktioner vid aktivitet",
+      "no": "Skyting/øving til sjøs — restriksjoner under aktivitet",
+      "de": "Schießen/Übung zur See — Beschränkungen aktiv",
+      "en": "Naval shooting/exercise area — restrictions when active",
+      "es": "Tiro/ejercicio en el mar — restricciones durante la actividad",
+      "fr": "Tir/exercice en mer — restrictions relatives à l'activité",
+      "it": "Tiro/esercitazioni in mare — restrizioni relative all'attività",
+      "nl": "Schietoefeningen op zee — beperkingen tijdens de activiteit"
+    },
+    "details": {
+      "sv": "Sjøforsvarets marina skyte- og øvingsfelt. Restriksjoner gjelder all luftaktivitet (inkl. drönare) under aktiva skytetider. Verifiera aktivitetsstatus via NOTAM eller Sjøforsvaret før flygning över området.",
+      "no": "Sjøforsvarets marine skyte- og øvingsfelt. Restriksjoner gjelder all luftaktivitet (inkl. droner) under aktive skytetider. Verifiser aktivitetsstatus via NOTAM eller Sjøforsvaret før flyging over området.",
+      "de": "Marine Schieß- und Übungsgebiete der norwegischen Marine. Beschränkungen für Drohnenflüge während aktiver Schießzeiten.",
+      "en": "Norwegian Naval Forces marine shooting and exercise areas. Restrictions apply to all air activity (incl. drones) during active shooting hours. Verify status via NOTAM or contact the Naval Forces before flying over the area.",
+      "es": "Campo de tiro y entrenamiento naval de la Armada. Se aplican restricciones a toda actividad aérea (incluidos los drones) durante los horarios de tiro. Verifique el estado de la actividad a través de NOTAM o de la Armada antes de sobrevolar la zona.",
+      "fr": "Zone de tir et d'entraînement de la Marine. Des restrictions s'appliquent à toute activité aérienne (y compris les drones) pendant les périodes de tir. Vérifiez l'état d'activité via NOTAM ou auprès de la Marine avant de survoler la zone.",
+      "it": "Poligono di tiro e area di addestramento della Marina. Durante gli orari di tiro sono in vigore restrizioni su tutte le attività aeree (compresi i droni). Verificare lo stato delle attività tramite NOTAM o contattando la Marina prima di sorvolare l'area.",
+      "nl": "Het schiet- en oefenterrein van de marine. Er gelden beperkingen voor alle luchtvaartactiviteiten (inclusief drones) tijdens actieve schietperiodes. Controleer de status van de activiteiten via NOTAM of bij de marine voordat u over het gebied vliegt."
+    }
+  },
+  "NO_MILITARY_RANGE": {
+    "title": {
+      "sv": "Militärt skytefält",
+      "no": "Militært skytefelt",
+      "de": "Militärisches Schießfeld",
+      "en": "Military range",
+      "es": "Campo de tiro militar",
+      "fr": "Champ de tir militaire",
+      "it": "Poligono di tiro militare",
+      "nl": "Militaire schietbaan"
+    },
+    "summary": {
+      "sv": "Aktivt militärområde — flygning förbjuden",
+      "no": "Aktivt militærområde — flyging forbudt",
+      "de": "Militärgebiet — Flug verboten",
+      "en": "Active military area — flight prohibited",
+      "es": "Zona militar activa — prohibido sobrevolar",
+      "fr": "Zone militaire active — interdiction de survoler",
+      "it": "Area militare attiva — divieto di sorvolo",
+      "nl": "Militair gebied — vliegen verboden"
+    },
+    "details": {
+      "sv": "Forsvarets skyte- og øvingsfelt — område används aktivt för militära operationer (skytte, övning). Drönarflygning är förbjuden utan särskilt tillstånd från Forsvarsbygg. Verifiera aktuell aktivitetsstatus innan flygning i närheten.",
+      "no": "Forsvarets skyte- og øvingsfelt — området brukes aktivt til militære operasjoner (skyting, øving). Droneflyging er forbudt uten særskilt tillatelse fra Forsvarsbygg. Verifiser aktivitetsstatus før flyging i nærheten.",
+      "de": "Militärisches Schieß- und Übungsgebiet. Drohnenflüge ohne Sondergenehmigung von Forsvarsbygg verboten.",
+      "en": "Norwegian Armed Forces shooting and training range. Drone flight prohibited without special authorization from Forsvarsbygg. Verify current activity status before flying nearby.",
+      "es": "Campo de tiro y de maniobras de las Fuerzas Armadas: zona utilizada activamente para operaciones militares (tiro, maniobras). Está prohibido volar drones sin un permiso especial de Forsvarsbygg. Comprueba el estado actual de las actividades antes de volar en las inmediaciones.",
+      "fr": "Champ de tir et de manœuvres de l'armée — cette zone est activement utilisée pour des opérations militaires (tir, manœuvres). Le vol de drones y est interdit sans autorisation spéciale de Forsvarsbygg. Vérifiez l'état actuel des activités avant de voler à proximité.",
+      "it": "Campo di tiro e di addestramento delle Forze armate — area utilizzata attivamente per operazioni militari (tiro, addestramento). Il volo con droni è vietato senza un'autorizzazione specifica rilasciata da Forsvarsbygg. Verificare lo stato attuale delle attività prima di volare nelle vicinanze.",
+      "nl": "Schiet- en oefenterrein van de strijdkrachten — dit gebied wordt actief gebruikt voor militaire operaties (schieten, oefenen). Het vliegen met drones is verboden zonder speciale toestemming van Forsvarsbygg. Controleer de actuele activiteitsstatus voordat u in de buurt gaat vliegen."
+    }
+  },
+  "NO_NATURE_FORSVAR": {
+    "title": {
+      "sv": "Naturreservat — militärt knutet",
+      "no": "Naturreservat — militært knyttet",
+      "de": "Naturreservat — militärisch",
+      "en": "Nature reserve — military-linked",
+      "es": "Reserva natural — de carácter militar",
+      "fr": "Réserve naturelle — liée à l'armée",
+      "it": "Riserva naturale — di proprietà militare",
+      "nl": "Natuurreservaat — militair gebonden"
+    },
+    "summary": {
+      "sv": "Restriktioner pga militära operationer",
+      "no": "Restriksjoner grunnet militære operasjoner",
+      "de": "Beschränkungen wegen Militäroperationen",
+      "en": "Restrictions due to military operations",
+      "es": "Restricciones debido a operaciones militares",
+      "fr": "Restrictions liées à des opérations militaires",
+      "it": "Restrizioni dovute a operazioni militari",
+      "nl": "Beperkingen als gevolg van militaire operaties"
+    },
+    "details": {
+      "sv": "Naturreservat anknutet till militära operationer. Restriktioner gäller på låg höjd eller landning. Verifiera med Forsvarsbygg + naturbase.no innan flygning.",
+      "no": "Naturreservat tilknyttet militære operasjoner. Restriksjoner gjelder lavflyging eller landing. Verifiser med Forsvarsbygg + naturbase.no.",
+      "de": "Naturschutzgebiet mit militärischem Bezug. Restriktionen für Tief-fliegen oder Landung.",
+      "en": "Nature reserve linked to military operations. Restrictions on low-flight or landing. Verify with Forsvarsbygg + naturbase.no.",
+      "es": "Reserva natural vinculada a operaciones militares. Se aplican restricciones a la altura de vuelo o al aterrizaje. Consulte con Forsvärdsbygg y naturbase.no antes del vuelo.",
+      "fr": "Réserve naturelle liée à des opérations militaires. Des restrictions s'appliquent en basse altitude ou lors de l'atterrissage. Vérifiez auprès de Forsvarsbygg et sur naturbase.no avant le vol.",
+      "it": "Riserva naturale soggetta a operazioni militari. Sono in vigore restrizioni relative al volo a bassa quota o all'atterraggio. Verificare con Forsvarsbygg e naturbase.no prima del volo.",
+      "nl": "Natuurreservaat in verband met militaire operaties. Er gelden beperkingen voor vliegen op lage hoogte of landen. Neem voor de vlucht contact op met Forsvarsbygg en naturbase.no."
+    }
+  }
+}
