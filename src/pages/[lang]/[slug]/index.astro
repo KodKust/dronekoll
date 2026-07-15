@@ -252,6 +252,12 @@ const ldBlocks = [
     gap: var(--space-2);
     align-items: center;
     margin-top: var(--space-2);
+    /* KRITISK: .content är en grid; utan min-width:0 blåser ett långt
+       nowrap-chip (regelverket) upp grid-kolumnen → hela sidan bredare än
+       viewporten på mobil (text ut över högerkanten). min-width:0 låter
+       flex/grid-behållaren krympa till kolumnbredden. (2026-07-15) */
+    min-width: 0;
+    max-width: 100%;
   }
   .hero__chip {
     background: var(--soft-btn);
@@ -262,13 +268,13 @@ const ldBlocks = [
   .hero__chip--frame {
     background: var(--accent-wash);
     color: var(--accent-ink);
-    /* min(…, 100%) + min-width:0: 48ch > 375px-viewporten sprängde annars
-       hela .content i sidled på mobil (Cowork-QA R2 §2, scrollW 404px). */
-    max-width: min(48ch, 100%);
+    /* Regelverket kan vara långt ("EU 2019/947 … + national enforcement
+       framework"). Låt det RADBRYTA i stället för nowrap+ellipsis (som
+       kapade texten fult på mobil) — behållarens min-width:0 håller det
+       inom viewporten. (2026-07-15) */
+    max-width: 100%;
     min-width: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: normal;
   }
   .hero__chip--map {
     background: var(--paper);

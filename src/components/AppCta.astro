@@ -8,6 +8,7 @@
 import { t } from '../lib/i18n';
 import { brandForLang, loadFeatures } from '../lib/model';
 import { APP_STORE_URL, PLAY_STORE_URL, loadRating } from '../lib/seo';
+import StarRating from './StarRating.astro';
 
 interface Props {
   lang: string;
@@ -59,14 +60,7 @@ const rating = loadRating();
           <span>Google Play</span>
         </a>
       )}
-      {rating && (
-        <span class="pill cta__rating tnum" title={rating.source}>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/>
-          </svg>
-          {rating.value.toLocaleString(lang)} · {rating.source}
-        </span>
-      )}
+      {rating && <StarRating value={rating.value} source={rating.source} lang={lang} />}
     </div>
   </div>
   {deviceImage && (
@@ -90,13 +84,6 @@ const rating = loadRating();
   }
   .cta__text { display: grid; gap: var(--space-4); max-width: 46ch; }
   .cta__body { color: var(--ink-body); }
-  .cta__rating {
-    background: var(--warn-wash);
-    color: var(--warn-ink);
-    font-weight: 600;
-    font-size: var(--text-small);
-    align-self: center;
-  }
   .cta__features { color: var(--ink-2); }
   .cta__features a { color: var(--accent-ink); font-weight: 500; }
   .cta__badges { display: flex; gap: var(--space-3); flex-wrap: wrap; }

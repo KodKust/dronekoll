@@ -1,0 +1,62 @@
+---
+/**
+ * Betygs-pill (socialt bevis). Grön förtroendepalett (--go-*, samma som
+ * "Regler verifierade") — INTE gul/warn, som läste som en varning. Visar
+ * 4,7 som en 5-stjärnig rad med gulddelfyllning (den igenkännliga, säljande
+ * betygskonventionen) + fet siffra + källa. Återanvänds på hem + AppCta så
+ * betyget ser likadant ut överallt. value/source ur data/rating.json.
+ */
+interface Props {
+  value: number;
+  source?: string;
+  lang?: string;
+}
+const { value, source = 'App Store', lang = 'en' } = Astro.props;
+const fill = Math.max(0, Math.min(100, (value / 5) * 100));
+---
+
+<span class="pill starrate tnum" title={`${value.toLocaleString(lang)} / 5 · ${source}`}>
+  <span class="starrate__stars" style={`--fill:${fill}%`} aria-hidden="true">
+    <span class="starrate__empty">★★★★★</span>
+    <span class="starrate__fill">★★★★★</span>
+  </span>
+  <span class="starrate__num">{value.toLocaleString(lang)}</span>
+  <span class="starrate__src">{source}</span>
+</span>
+
+<style>
+  .starrate {
+    gap: 7px;
+    background: var(--go-wash);
+    color: var(--go-ink);
+    font-weight: 600;
+    line-height: 1;
+  }
+  .starrate__stars {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    /* reservera bredd för 5 glyfer så delfyllnaden linjerar exakt */
+  }
+  .starrate__empty {
+    color: #CBE7D4; /* svagt grönt, tomma stjärnor */
+  }
+  .starrate__fill {
+    position: absolute;
+    inset: 0;
+    width: var(--fill);
+    overflow: hidden;
+    white-space: nowrap;
+    color: #F5A623; /* varm guld — den säljande betygsfärgen */
+  }
+  .starrate__num {
+    font-weight: 800;
+    font-size: var(--text-body, 1rem);
+    letter-spacing: -0.01em;
+  }
+  .starrate__src {
+    font-weight: 500;
+    opacity: 0.82;
+  }
+</style>
