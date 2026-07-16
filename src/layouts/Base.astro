@@ -68,6 +68,10 @@ const {
         Beacon + iOS/Android-klick-events för pappilappi/status-baren. */}
     {GOATCOUNTER_CODE && (
       <Fragment>
+        {/* Preconnect till beacon-värden — sparar DNS+TLS när count.js hämtas.
+            Utan crossorigin: count.js laddas som vanligt script (ej CORS), så
+            connectionen ska matcha den icke-CORS-hämtningen för att återanvändas. */}
+        <link rel="preconnect" href="https://gc.zgo.at" />
         <script
           data-goatcounter={`https://${GOATCOUNTER_CODE}.goatcounter.com/count`}
           async
