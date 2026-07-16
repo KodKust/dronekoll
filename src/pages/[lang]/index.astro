@@ -19,6 +19,7 @@ import {
   brandForLang,
 } from '../../lib/model';
 import { t } from '../../lib/i18n';
+import { organizationLd, webSiteLd } from '../../lib/seo';
 
 export function getStaticPaths() {
   return LANGUAGE_CODES.map((lang) => ({ params: { lang } }));
@@ -39,9 +40,16 @@ const brand = brandForLang(lang);
 const totalCountries = new Set(allCountryPages().map((p) => p.iso)).size;
 const title = t('meta.title.hub', lang, { brand });
 const description = t('meta.desc.hub', lang, { n: totalCountries });
+const ldBlocks = [organizationLd(), webSiteLd(lang)];
 ---
 
 <Base title={title} description={description} lang={lang} alternates={hubCluster()}>
+  <Fragment slot="head">
+    {ldBlocks.map((ld) => (
+      <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+    ))}
+  </Fragment>
+
   <Header lang={lang} cluster={hubCluster()} />
 
   <section class="band band--paper">

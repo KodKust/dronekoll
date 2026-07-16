@@ -1,4 +1,64 @@
+# dronekoll.com — robots policy
+# Beslut (SEO/GEO-audit 2026-07-16): sajten VILL bli indexerad OCH citerad i
+# AI-svarsmotorer. Standard = tillåt allt. AI-crawlers listas explicit nedan så
+# att intentet är dokumenterat och framtidssäkrat (vissa botar matchar sitt eget
+# token före wildcard). Innehållet är publik, opartiskt sammanställd YMYL-vägledning
+# som är avsedd att spridas — därför tillåts både tränings- och svarstids-crawlers.
+
 User-agent: *
+Allow: /
+
+# ── AI-crawlers vi aktivt vill bli citerade av ───────────────────────────────
+# OpenAI (ChatGPT): GPTBot = träning, OAI-SearchBot = ChatGPT-sök-index,
+# ChatGPT-User = användarutlöst hämtning vid svarstillfället.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (Claude): ClaudeBot = träning/index, Claude-SearchBot + Claude-User =
+# svarstids-hämtning, anthropic-ai = äldre token.
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity: PerplexityBot = index, Perplexity-User = svarstids-hämtning.
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google Gemini / AI Overviews (Google-Extended styr AI-användning; separat från Googlebot).
+User-agent: Google-Extended
+Allow: /
+
+# Common Crawl (matar en stor mängd öppna modeller).
+User-agent: CCBot
+Allow: /
+
+# Apple Intelligence.
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI.
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# ByteDance (Doubao/TikTok-ekosystemet).
+User-agent: Bytespider
 Allow: /
 
 Sitemap: https://dronekoll.com/sitemap.xml

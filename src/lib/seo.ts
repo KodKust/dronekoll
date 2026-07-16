@@ -112,6 +112,22 @@ export function organizationLd() {
     name: 'DroneKoll',
     url: SITE,
     logo: `${SITE}/favicon.svg`,
+    description:
+      'Independently compiled drone rules, no-fly zones and official sources for 55 countries in 27 languages.',
+    sameAs: [APP_STORE_URL],
+  };
+}
+
+/** WebSite-entitet (saknades — bara inline isPartOf fanns). Ger sökmotorer +
+ *  AI-svarsmotorer en tydlig sajt-entitet att hänga sidorna på. (SEO/GEO-audit) */
+export function webSiteLd(lang: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: brandForLang(lang),
+    url: SITE,
+    inLanguage: lang,
+    publisher: { '@type': 'Organization', name: 'DroneKoll', url: SITE },
   };
 }
 

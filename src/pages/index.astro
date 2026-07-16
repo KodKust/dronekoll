@@ -15,7 +15,7 @@ import { join } from 'node:path';
 import { allCountryPages, loadFeatures, SITE } from '../lib/model';
 import { zoneCountByIso } from '../lib/ingest';
 import { t } from '../lib/i18n';
-import { organizationLd, softwareAppLd, loadRating } from '../lib/seo';
+import { organizationLd, webSiteLd, softwareAppLd, loadRating } from '../lib/seo';
 import StarRating from '../components/StarRating.astro';
 
 const enPages = allCountryPages()
@@ -39,7 +39,7 @@ const alternates = [
   { hreflang: 'en', href: `${SITE}/` },
   { hreflang: 'x-default', href: `${SITE}/` },
 ];
-const ldBlocks = [organizationLd(), softwareAppLd('en')];
+const ldBlocks = [organizationLd(), webSiteLd('en'), softwareAppLd('en')];
 ---
 
 <Base
@@ -103,6 +103,7 @@ const ldBlocks = [organizationLd(), softwareAppLd('en')];
         width="1300"
         height="732"
         loading="eager"
+        fetchpriority="high"
         decoding="async"
       />
     )}

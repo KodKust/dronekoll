@@ -31,6 +31,7 @@ import {
   breadcrumbLd,
   faqLd,
   softwareAppLd,
+  organizationLd,
   buildFaq,
 } from '../../../lib/seo';
 
@@ -80,6 +81,7 @@ const ldBlocks = [
   breadcrumbLd(page),
   ...(faqItems.length > 0 ? [faqLd(faqItems)] : []),
   softwareAppLd(lang),
+  organizationLd(),
 ];
 ---
 

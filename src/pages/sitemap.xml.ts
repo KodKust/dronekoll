@@ -16,7 +16,18 @@ import {
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-function urlEntry(loc: string, alternates: Array<{ hreflang: string; href: string }>, lastmod?: string): string {
+// Bygg-datum som lastmod för sidor utan egen innehållsdatum (hem/hubb/app) —
+// sajten rebuildas dagligen (färskt år/data), så det är ärligt. Landssidor
+// behåller lastVerified. (SEO/GEO-audit B6)
+const BUILD_DATE = new Date().toISOString().slice(0, 10);
+
+function urlEntry(
+  loc: string,
+  alternates: Array<{ hreflang: string; href: string }>,
+  lastmod?: string,
+  priority?: string,
+  changefreq?: string,
+): string {
   const alts = alternates
     .map((a) => `    <xhtml:link rel="alternate" hreflang="${a.hreflang}" href="${esc(a.href)}"/>`)
     .join('\n');
@@ -25,6 +36,8 @@ function urlEntry(loc: string, alternates: Array<{ hreflang: string; href: strin
     `    <loc>${esc(loc)}</loc>`,
     alts,
     lastmod ? `    <lastmod>${lastmod}</lastmod>` : null,
+    changefreq ? `    <changefreq>${changefreq}</changefreq>` : null,
+    priority ? `    <priority>${priority}</priority>` : null,
     '  </url>',
   ]
     .filter(Boolean)
@@ -39,29 +52,29 @@ export const GET: APIRoute = () => {
     urlEntry(`${SITE}/`, [
       { hreflang: 'en', href: `${SITE}/` },
       { hreflang: 'x-default', href: `${SITE}/` },
-    ]),
+    ], BUILD_DATE, '1.0', 'weekly'),
   );
 
   // 27 hubbar — delar ett kluster
   const hubs = hubCluster();
   for (const lang of LANGUAGE_CODES) {
-    entries.push(urlEntry(`${SITE}/${lang}/`, hubs));
+    entries.push(urlEntry(`${SITE}/${lang}/`, hubs, BUILD_DATE, '0.6', 'weekly'));
   }
 
   // Landssidor — varje sida bär sitt lands kluster
   for (const page of allCountryPages()) {
-    entries.push(urlEntry(SITE + page.urlPath, page.cluster, page.country.lastVerified));
+    entries.push(urlEntry(SITE + page.urlPath, page.cluster, page.country.lastVerified, '0.8', 'weekly'));
   }
 
   // App-sidor: översikt + 4 funktioner × 27 språk (kluster = alla språk, samma slug)
   const appOverview = featureCluster(null);
   for (const lang of LANGUAGE_CODES) {
-    entries.push(urlEntry(`${SITE}/${lang}/app/`, appOverview));
+    entries.push(urlEntry(`${SITE}/${lang}/app/`, appOverview, BUILD_DATE, '0.7', 'monthly'));
   }
   for (const feature of loadFeatures()) {
     const cluster = featureCluster(feature.slug);
     for (const lang of LANGUAGE_CODES) {
-      entries.push(urlEntry(`${SITE}/${lang}/app/${feature.slug}/`, cluster));
+      entries.push(urlEntry(`${SITE}/${lang}/app/${feature.slug}/`, cluster, BUILD_DATE, '0.7', 'monthly'));
     }
   }
 
