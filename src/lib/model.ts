@@ -119,6 +119,13 @@ export function brandForLang(lang: string): string {
   return _brands[lang] ?? 'DroneKoll';
 }
 
+/** Engelska landsnamn som kräver bestämd artikel "the" i löptext (SEO/GEO). */
+export const EN_ARTICLE_ISO = new Set(['US', 'GB', 'NL', 'CZ', 'DO', 'PH', 'AE']);
+/** "the " för engelska sidor vars landsnamn tar bestämd artikel, annars "". */
+export function enArticle(iso: string, lang: string): string {
+  return lang === 'en' && EN_ARTICLE_ISO.has(iso) ? 'the ' : '';
+}
+
 function countryUrl(lang: string, slug: string): string {
   return `/${lang}/${slug}/`;
 }

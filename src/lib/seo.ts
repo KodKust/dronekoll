@@ -4,7 +4,7 @@
  * Q/A · SoftwareApplication utan aggregateRating tills äkta betyg hämtas.
  */
 import { t } from './i18n';
-import { brandForLang, SITE, type PageEntry } from './model';
+import { brandForLang, enArticle, SITE, type PageEntry } from './model';
 
 export const APP_STORE_URL = 'https://apps.apple.com/app/dronekoll/id6761332194';
 
@@ -151,7 +151,7 @@ export function webSiteLd(lang: string) {
  *   3. Koherens-vakt: språk vars mallar inte översatts än (Opus-grinden) får
  *      HELENGELSK FAQ (fråga+svar) — aldrig blandspråk
  */
-import { faqOverride, loadRegulators } from './ingest';
+import { faqOverride, credentialAnswer, loadRegulators } from './ingest';
 
 /** Regelrad → mening: trimma, punktavsluta; gemener först för r2/r3 (ej akronymer). */
 function ruleSentence(rule: string, lowerFirst: boolean): string {
@@ -170,7 +170,9 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
   // Lager 2: mänskliga mallar på sidans språk (faq.tpl.* finns nu ×27) +
   // lokaliserat landsnamn (page.displayName). Ingen koherens-vakt behövs.
   const lang = page.lang;
-  const country = page.displayName;
+  // Engelsk bestämd artikel i löptext ("in the United States"): endast en-sidor,
+  // flaggade ISO. FAQ-mallarna använder alla "in {country}" → en rad täcker allt.
+  const country = enArticle(page.iso, page.lang) + page.displayName;
   const reg = loadRegulators()[page.iso.toUpperCase()];
   const items: FaqItem[] = [];
 
@@ -179,11 +181,13 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
     const easa = /EASA|2019\/947/i.test(c.regulatoryBase ?? '');
     items.push({
       q: t('faq.q.credential', lang, { country }),
-      a: t(easa ? 'faq.tpl.credential.easa' : 'faq.tpl.credential.other', lang, {
-        country,
-        credential: c.dronePilotCredentialName,
-        regulator: reg.regulator,
-      }),
+      a:
+        credentialAnswer(page.iso, lang) ??
+        t(easa ? 'faq.tpl.credential.easa' : 'faq.tpl.credential.other', lang, {
+          country,
+          credential: c.dronePilotCredentialName,
+          regulator: reg.regulator,
+        }),
     });
   }
 
@@ -194,8 +198,10 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
       a: t('faq.tpl.rules.intro', lang, {
         country,
         r1: ruleSentence(c.keyRules[0], false),
-        r2: ruleSentence(c.keyRules[1], true),
-        r3: ruleSentence(c.keyRules[2], true),
+        // r2/r3 = false: injektionen kommer nu VERSALISERAD (mallen byter till
+        // kolon-mönster "… : {r2}" så en versal standalone-mening passar). Fas 4.
+        r2: ruleSentence(c.keyRules[1], false),
+        r3: ruleSentence(c.keyRules[2], false),
       }),
     });
   }
