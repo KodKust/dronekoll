@@ -171,7 +171,7 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
 // blandspråkskänsliga i18n-nycklar i REQUIRE_27 så bygget vaktar dem.
 {
   const LANGS = ['bg','cs','da','de','el','en','es','et','fi','fr','hr','hu','is','it','lt','lv','mt','nl','no','pl','pt','ro','sk','sl','sv','tr','uk'];
-  const REQUIRE_27 = ['sources.verified', 'map.openOfficial'];
+  const REQUIRE_27 = ['sources.verified', 'map.openOfficial', 'related.title', 'quickanswer.title', 'quickanswer.body'];
   const ws = JSON.parse(readFileSync(join(ROOT, 'data', 'web-strings', 'web_strings.json'), 'utf8'));
   const phSet = (s) => new Set([...String(s).matchAll(/\{(\w+)\}/g)].map((m) => m[1]));
   for (const key of REQUIRE_27) {

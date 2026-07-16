@@ -61,7 +61,7 @@ export function breadcrumbLd(page: PageEntry) {
   };
 }
 
-export function webPageLd(page: PageEntry, title: string, description: string) {
+export function webPageLd(page: PageEntry, title: string, description: string, speakable?: string[]) {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
@@ -71,6 +71,8 @@ export function webPageLd(page: PageEntry, title: string, description: string) {
     inLanguage: page.lang,
     ...(page.country.lastVerified ? { dateModified: page.country.lastVerified } : {}),
     isPartOf: { '@type': 'WebSite', name: brandForLang(page.lang), url: SITE },
+    // Röst-/AI-extraktion: peka på quick-answer-boxen (C4) när den finns.
+    ...(speakable ? { speakable: { '@type': 'SpeakableSpecification', cssSelector: speakable } } : {}),
   };
 }
 
@@ -93,6 +95,7 @@ export function faqLd(items: FaqItem[]) {
 }
 
 export function softwareAppLd(lang: string) {
+  const r = loadRating();
   return {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
@@ -101,7 +104,16 @@ export function softwareAppLd(lang: string) {
     applicationCategory: 'UtilitiesApplication',
     url: APP_STORE_URL,
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, // gratis att ladda ner
-    // INGEN aggregateRating förrän äkta betyg pipelinas in.
+    // aggregateRating tänds FÖRST när rating.json.count fylls (Google kräver antal).
+    ...(r && r.count != null
+      ? {
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: String(r.value),
+            ratingCount: String(r.count),
+          },
+        }
+      : {}),
   };
 }
 
