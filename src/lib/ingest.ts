@@ -205,6 +205,19 @@ export function faqOverride(iso: string, lang: string): Array<{ q: string; a: st
   return Array.isArray(list) && list.length > 0 ? list : null;
 }
 
+/** Definitiva FAQ-svar 1 (behörighet) för icke-EASA-länder — PARTIELL override
+ *  (byter ENBART svar 1, till skillnad från faqOverride som byter hela FAQ:n).
+ *  data/faq-credential-answers.json = { ISO: { lang: svar } }. Saknas språk → null → mallen. */
+let _credAnswers: Record<string, Record<string, string>> | null = null;
+export function credentialAnswer(iso: string, lang: string): string | null {
+  if (!_credAnswers) {
+    const p = join(ROOT, 'data', 'faq-credential-answers.json');
+    _credAnswers = existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : {};
+  }
+  const a = _credAnswers[iso.toUpperCase()]?.[lang];
+  return a && a.trim() ? a : null;
+}
+
 /**
  * Landets innehåll på ENGELSKA: overlay-fälten ersätter de lokala.
  * Länkar behåller id/url från källan (parallella arrayer per index).
