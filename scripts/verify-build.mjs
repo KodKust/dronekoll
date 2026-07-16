@@ -164,5 +164,30 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
   }
 }
 
+// ── 5. Fullt lokaliserade chrome-nycklar: 27/27 + platshållar-paritet ────────
+// Nycklar som MÅSTE finnas på alla 27 språk — annars faller t() tyst till EN
+// och renderar engelska på fel-språkiga sidor (blandspråks-buggen Fas 2 rättade:
+// airspaceMapLabel/verificationWord kom app-ägda på landets modersmål). Lägg nya
+// blandspråkskänsliga i18n-nycklar i REQUIRE_27 så bygget vaktar dem.
+{
+  const LANGS = ['bg','cs','da','de','el','en','es','et','fi','fr','hr','hu','is','it','lt','lv','mt','nl','no','pl','pt','ro','sk','sl','sv','tr','uk'];
+  const REQUIRE_27 = ['sources.verified', 'map.openOfficial'];
+  const ws = JSON.parse(readFileSync(join(ROOT, 'data', 'web-strings', 'web_strings.json'), 'utf8'));
+  const phSet = (s) => new Set([...String(s).matchAll(/\{(\w+)\}/g)].map((m) => m[1]));
+  for (const key of REQUIRE_27) {
+    const entry = ws[key];
+    if (!entry) { fail(`i18n-vakt: nyckeln "${key}" saknas i web_strings.json`); continue; }
+    const missing = LANGS.filter((l) => !entry[l] || !String(entry[l]).trim());
+    if (missing.length) { fail(`i18n-vakt: "${key}" saknar språk: ${missing.join(', ')}`); continue; }
+    const enPh = phSet(entry.en);
+    const drift = LANGS.filter((l) => {
+      const p = phSet(entry[l]);
+      return p.size !== enPh.size || [...enPh].some((x) => !p.has(x));
+    });
+    if (drift.length) fail(`i18n-vakt: "${key}" platshållar-drift mot EN i: ${drift.join(', ')}`);
+    else ok(`i18n-vakt: "${key}" fullständig (27/27)`);
+  }
+}
+
 console.log(failures === 0 ? '\nVerifiering GRÖN.' : `\n${failures} verifieringsfel.`);
 process.exit(failures === 0 ? 0 : 1);
