@@ -184,6 +184,30 @@ export function loadRegulators(): Record<string, RegulatorInfo> {
   return _regulators;
 }
 
+/**
+ * Landsspecifika besökar-/utlänningsnoter (data/visitor-notes.json) per språk.
+ * YMYL-kurerat site-lokalt (utanför overlay-staleness — proveniens i _-fält).
+ * Hoppar _-prefixade nycklar (yttre kommentar + inre _sources/_verified).
+ */
+let _visitorNotes: Record<string, Record<string, string>> | null = null;
+export function loadVisitorNotes(): Record<string, Record<string, string>> {
+  if (_visitorNotes) return _visitorNotes;
+  const p = join(ROOT, 'data', 'visitor-notes.json');
+  _visitorNotes = {};
+  if (existsSync(p)) {
+    const raw = JSON.parse(readFileSync(p, 'utf8')) as Record<string, Record<string, string>>;
+    for (const [iso, langs] of Object.entries(raw)) {
+      if (iso.startsWith('_')) continue;
+      const notes: Record<string, string> = {};
+      for (const [lang, text] of Object.entries(langs)) {
+        if (!lang.startsWith('_')) notes[lang] = text;
+      }
+      _visitorNotes[iso.toUpperCase()] = notes;
+    }
+  }
+  return _visitorNotes;
+}
+
 /** Handskrivna FAQ-guldsvar (src/content/faq-overrides/{ISO}.json) per språk. */
 const FAQ_OVERRIDE_DIR = join(ROOT, 'src', 'content', 'faq-overrides');
 let _faqOverrides: Map<string, Record<string, Array<{ q: string; a: string }>>> | null = null;

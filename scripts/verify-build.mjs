@@ -13,6 +13,7 @@
 import { readFileSync, existsSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { execFileSync } from 'node:child_process';
+import { checkWebStrings } from './check-web-strings.mjs';
 
 const ROOT = process.cwd();
 const DIST = join(ROOT, 'dist');
@@ -163,6 +164,10 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
     fail(`${f} har MODIFIERATS av bygget`);
   }
 }
+
+// ── 5. Sträng-/notvakt (web_strings + feature-strings + visitor-notes) ───────
+console.log('\nSträng-/notvakt:');
+failures += checkWebStrings();
 
 console.log(failures === 0 ? '\nVerifiering GRÖN.' : `\n${failures} verifieringsfel.`);
 process.exit(failures === 0 ? 0 : 1);

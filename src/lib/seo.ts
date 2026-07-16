@@ -123,7 +123,7 @@ export function organizationLd() {
  *   3. Koherens-vakt: språk vars mallar inte översatts än (Opus-grinden) får
  *      HELENGELSK FAQ (fråga+svar) — aldrig blandspråk
  */
-import { faqOverride, loadRegulators } from './ingest';
+import { faqOverride, loadRegulators, loadVisitorNotes } from './ingest';
 
 /** Regelrad → mening: trimma, punktavsluta; gemener först för r2/r3 (ej akronymer). */
 function ruleSentence(rule: string, lowerFirst: boolean): string {
@@ -159,7 +159,26 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
     });
   }
 
-  // 2. Viktigaste reglerna — SAMMANFATTNING av tre, aldrig hela listan igen
+  // 2. Turist/utlänning — EASA-länder får enhetligt EU-svar + ev. nationell note
+  //    (note APPENDAS i kod, aldrig via platshållare); icke-EASA får note-ram
+  //    (faq.tpl.visitor.other) eller ärlig generisk fallback. note slås upp på
+  //    EXAKT sidans språk (aldrig cross-lang-fallback) → aldrig blandspråk.
+  if (reg) {
+    const easaV = /EASA|2019\/947/i.test(c.regulatoryBase ?? '');
+    const note = loadVisitorNotes()[page.iso.toUpperCase()]?.[lang];
+    let a: string;
+    if (easaV) {
+      a = t('faq.tpl.visitor.easa', lang, { country, regulator: reg.regulator });
+      if (note) a += ' ' + note;
+    } else if (note) {
+      a = t('faq.tpl.visitor.other', lang, { note, regulator: reg.regulator });
+    } else {
+      a = t('faq.tpl.visitor.generic', lang, { country, regulator: reg.regulator });
+    }
+    items.push({ q: t('faq.q.visitor', lang, { country }), a });
+  }
+
+  // 3. Viktigaste reglerna — SAMMANFATTNING av tre, aldrig hela listan igen
   if (c.keyRules.length >= 3) {
     items.push({
       q: t('faq.q.rules', lang, { country }),
@@ -172,7 +191,7 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
     });
   }
 
-  // 3. Var får jag inte flyga — TERNÄR + sidkarte-medveten (Cowork-QA R1 #1-2):
+  // 4. Var får jag inte flyga — TERNÄR + sidkarte-medveten (Cowork-QA R1 #1-2):
   // overlay-varianten lovar zoner "på denna sida" → kräver att sidkartan faktiskt
   // är interaktiv (annars ljög SE/ES-pending). NOTAM-länder lovar app-NOTAM;
   // bas-länder får inga app-datalöften alls. Går även in i FAQPage-JSON-LD.
@@ -190,7 +209,7 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
     }),
   });
 
-  // 4. Vem reglerar — regulators.json, ALDRIG dataSourceName/URL:er
+  // 5. Vem reglerar — regulators.json, ALDRIG dataSourceName/URL:er
   if (reg) {
     items.push({
       q: t('faq.q.authority', lang, { country }),

@@ -54,6 +54,7 @@ jobs:
         env:
           STRICT_EN: '1'
           ASSERT_PAGES: '1'
+          STRICT_L10N: '1'
 
       - name: "Matris-staleness (warn-only — stale celler flaggas i /api/cell/)"
         run: node scripts/check-matrix-staleness.mjs
