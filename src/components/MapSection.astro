@@ -82,7 +82,7 @@ const defaultZoneCount = ((mapConfig as { layers?: { defaultOn?: boolean; featur
   {c.airspaceMapUrl && (
     <figcaption class="mapframe__caption">
       <a href={c.airspaceMapUrl} rel="noopener nofollow" target="_blank">
-        {c.airspaceMapLabel ?? c.airspaceMapUrl}
+        {t('map.openOfficial', page.lang)}
       </a>
     </figcaption>
   )}
