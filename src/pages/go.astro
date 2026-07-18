@@ -50,6 +50,7 @@ const hubs = Object.entries(LANGUAGES); // [kod, nativt språknamn]
     const iso = (q.get('country') || '').toUpperCase();
     const lang = (q.get('lang') || '').toLowerCase();
     const ref = q.get('ref');
+    const section = (q.get('section') || '').toLowerCase();
     const byIso = map[iso] || {};
     let target =
       byIso[lang] ||
@@ -57,6 +58,12 @@ const hubs = Object.entries(LANGUAGES); // [kod, nativt språknamn]
       (langCodes.includes(lang) ? `/${lang}/` : '/en/');
     if (ref) {
       target += (target.includes('?') ? '&' : '?') + 'ref=' + encodeURIComponent(ref);
+    }
+    // Djuplänk till en enskild FAQ-fråga (appens turistpanel → #faq-visitor).
+    // VITLISTAD — hashen får aldrig komma fritt från query-strängen.
+    var SECTIONS = ['credential', 'visitor', 'rules', 'zones', 'authority'];
+    if (SECTIONS.indexOf(section) !== -1 && byIso[lang || 'en']) {
+      target += '#faq-' + section;
     }
     // Synlig reservlänk om navigeringen mot förmodan inte sker.
     setTimeout(() => {

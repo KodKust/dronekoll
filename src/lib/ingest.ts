@@ -210,8 +210,9 @@ export function loadVisitorNotes(): Record<string, Record<string, string>> {
 
 /** Handskrivna FAQ-guldsvar (src/content/faq-overrides/{ISO}.json) per språk. */
 const FAQ_OVERRIDE_DIR = join(ROOT, 'src', 'content', 'faq-overrides');
-let _faqOverrides: Map<string, Record<string, Array<{ q: string; a: string }>>> | null = null;
-export function faqOverride(iso: string, lang: string): Array<{ q: string; a: string }> | null {
+type GoldFaq = { q: string; a: string; id?: string };
+let _faqOverrides: Map<string, Record<string, GoldFaq[]>> | null = null;
+export function faqOverride(iso: string, lang: string): GoldFaq[] | null {
   if (!_faqOverrides) {
     _faqOverrides = new Map();
     if (existsSync(FAQ_OVERRIDE_DIR)) {

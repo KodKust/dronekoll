@@ -79,6 +79,10 @@ export function webPageLd(page: PageEntry, title: string, description: string, s
 export interface FaqItem {
   q: string;
   a: string;
+  /** Stabil ankarnyckel → id="faq-{id}" i FaqBlock. Låter /go djuplänka till en
+   *  enskild fråga (t.ex. #faq-visitor från appens turistpanel). Guldoverrides
+   *  sätter den i sin JSON; mallvägen sätter den här. Saknas → inget id. */
+  id?: string;
 }
 
 /** FAQPage-schema av EXAKT de Q/A som renderas synligt på sidan. */
@@ -180,6 +184,7 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
   if (c.dronePilotCredentialName && reg) {
     const easa = /EASA|2019\/947/i.test(c.regulatoryBase ?? '');
     items.push({
+      id: 'credential',
       q: t('faq.q.credential', lang, { country }),
       a:
         credentialAnswer(page.iso, lang) ??
@@ -207,12 +212,13 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
     } else {
       a = t('faq.tpl.visitor.generic', lang, { country, regulator: reg.regulator });
     }
-    items.push({ q: t('faq.q.visitor', lang, { country }), a });
+    items.push({ id: 'visitor', q: t('faq.q.visitor', lang, { country }), a });
   }
 
   // 3. Viktigaste reglerna — SAMMANFATTNING av tre, aldrig hela listan igen
   if (c.keyRules.length >= 3) {
     items.push({
+      id: 'rules',
       q: t('faq.q.rules', lang, { country }),
       a: t('faq.tpl.rules.intro', lang, {
         country,
@@ -236,6 +242,7 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
         ? 'faq.tpl.zones.notam'
         : 'faq.tpl.zones.base';
   items.push({
+    id: 'zones',
     q: t('faq.q.zones', lang, { country }),
     a: t(zonesKey, lang, {
       country,
@@ -246,6 +253,7 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
   // 5. Vem reglerar — regulators.json, ALDRIG dataSourceName/URL:er
   if (reg) {
     items.push({
+      id: 'authority',
       q: t('faq.q.authority', lang, { country }),
       a: reg.aviation
         ? t('faq.tpl.regulator.two', lang, { country, regulator: reg.regulator, aviation: reg.aviation })

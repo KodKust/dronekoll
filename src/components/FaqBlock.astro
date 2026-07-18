@@ -13,7 +13,7 @@ const { items } = Astro.props;
 
 <div class="faq prose">
   {items.map((item) => (
-    <details class="faq__item">
+    <details class="faq__item" id={item.id ? `faq-${item.id}` : undefined}>
       <summary class="faq__q">
         {item.q}
         <svg class="faq__plus" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -24,6 +24,22 @@ const { items } = Astro.props;
     </details>
   ))}
 </div>
+
+{/* Djuplänk: #faq-visitor (från appens turistpanel via /go) ska visa SVARET,
+    inte bara scrolla till en hopfälld fråga. Ovillkorligt inline-skript —
+    villkorade hoistade script i Astro no-op:ar tyst utan målelement. */}
+<script is:inline>
+  (function () {
+    function openTarget() {
+      var h = location.hash;
+      if (!h || h.indexOf('#faq-') !== 0) return;
+      var el = document.getElementById(h.slice(1));
+      if (el && el.tagName === 'DETAILS') el.open = true;
+    }
+    openTarget();
+    window.addEventListener('hashchange', openTarget);
+  })();
+</script>
 
 <style>
   .faq { display: grid; }
