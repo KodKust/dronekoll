@@ -20,7 +20,8 @@ import FaqBlock from '../../../components/FaqBlock.astro';
 import FreshnessBadge from '../../../components/FreshnessBadge.astro';
 import MapSection from '../../../components/MapSection.astro';
 import AppCta from '../../../components/AppCta.astro';
-import { allCountryPages, type PageEntry } from '../../../lib/model';
+import CountryGrid from '../../../components/CountryGrid.astro';
+import { allCountryPages, relatedCountries, enArticle, type PageEntry } from '../../../lib/model';
 import { zoneCountByIso, loadRegulators } from '../../../lib/ingest';
 import { mapConfigFor } from '../../../lib/mapconfig';
 import { t } from '../../../lib/i18n';
@@ -31,6 +32,7 @@ import {
   breadcrumbLd,
   faqLd,
   softwareAppLd,
+  organizationLd,
   buildFaq,
 } from '../../../lib/seo';
 
@@ -47,6 +49,8 @@ interface Props {
 const { page } = Astro.props;
 const c = page.country;
 const lang = page.lang;
+const year = new Date().getFullYear();
+const related = relatedCountries(page, 4);
 
 const title = countryTitle(page);
 const description = countryDescription(page);
@@ -76,10 +80,11 @@ const sections = [
 ] as Array<'rules' | 'map' | 'zones' | 'faq' | 'sources'>;
 
 const ldBlocks = [
-  webPageLd(page, title, description),
+  webPageLd(page, title, description, ['.quick-answer']),
   breadcrumbLd(page),
   ...(faqItems.length > 0 ? [faqLd(faqItems)] : []),
   softwareAppLd(lang),
+  organizationLd(),
 ];
 ---
 
@@ -126,7 +131,7 @@ const ldBlocks = [
         decoding="async"
       />
       <h1>
-        {h1Pre}<span class="h-accent">{page.displayName}</span>{h1Post}
+        {h1Pre}{enArticle(page.iso, lang)}<span class="h-accent">{page.displayName}</span>{h1Post}
       </h1>
       <p class="lede prose">{t('hero.lede.country', lang)}</p>
       <div class="hero__meta">
@@ -151,6 +156,11 @@ const ldBlocks = [
   {/* ── Snabbfakta ───────────────────────────────────────────────────── */}
   <section class="band band--canvas">
     <div class="wide">
+      <div class="quick-answer">
+        <Callout kind="note" title={t('quickanswer.title', lang)}>
+          {t('quickanswer.body', lang, { country: enArticle(page.iso, lang) ? 'The ' + page.displayName : page.displayName, year })}
+        </Callout>
+      </div>
       <QuickFacts page={page} zoneCount={zoneCount} />
     </div>
   </section>
@@ -212,7 +222,7 @@ const ldBlocks = [
 
       <div>
         <p class="overline sources-label">{c.sectionLabelPrimary ?? t('anchor.sources', lang)}</p>
-        <SourceLinks links={c.primaryLinks} verifiedWord={c.verificationWord} />
+        <SourceLinks links={c.primaryLinks} verifiedWord={t('sources.verified', lang)} />
       </div>
 
       {c.secondaryLinks.length > 0 && (
@@ -239,6 +249,16 @@ const ldBlocks = [
       />
     </div>
   </section>
+
+  {/* ── Relaterade länder (intern länkning — B5) ─────────────────────── */}
+  {related.length > 0 && (
+    <section class="band band--canvas" id="related">
+      <div class="wide">
+        <h2 class="rise section-title">{t('related.title', lang)}</h2>
+        <CountryGrid lang={lang} pages={related} />
+      </div>
+    </section>
+  )}
 
   <Footer lang={lang} />
 </Base>
@@ -284,6 +304,7 @@ const ldBlocks = [
   }
   .hero__chip--map:hover { text-decoration: none; border-color: var(--accent); }
   .section-title { margin-bottom: var(--space-5); }
+  .quick-answer { margin-bottom: var(--space-5); }
   .section-callout { margin-block: var(--space-4) var(--space-5); max-width: var(--w-prose); }
   #rules .overline { margin-bottom: var(--space-5); }
   .map-zoneline { color: var(--ink-2); margin: calc(-1 * var(--space-4)) 0 var(--space-4); }

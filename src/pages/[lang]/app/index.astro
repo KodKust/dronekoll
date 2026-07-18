@@ -12,7 +12,7 @@ import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import AppCta from '../../../components/AppCta.astro';
 import { LANGUAGE_CODES, loadFeatures, featureCluster, brandForLang } from '../../../lib/model';
 import { t } from '../../../lib/i18n';
-import { softwareAppLd, organizationLd } from '../../../lib/seo';
+import { softwareAppLd, organizationLd, webSiteLd } from '../../../lib/seo';
 
 export function getStaticPaths() {
   return LANGUAGE_CODES.map((lang) => ({ params: { lang } }));
@@ -34,7 +34,7 @@ const features = loadFeatures().map((f) => ({
     : undefined,
 }));
 
-const ldBlocks = [organizationLd(), softwareAppLd(lang)];
+const ldBlocks = [organizationLd(), webSiteLd(lang), softwareAppLd(lang)];
 ---
 
 <Base title={title} description={description} lang={lang} alternates={cluster}>

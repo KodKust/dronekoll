@@ -4,7 +4,7 @@
  * Q/A · SoftwareApplication utan aggregateRating tills äkta betyg hämtas.
  */
 import { t } from './i18n';
-import { brandForLang, SITE, type PageEntry } from './model';
+import { brandForLang, enArticle, SITE, type PageEntry } from './model';
 
 export const APP_STORE_URL = 'https://apps.apple.com/app/dronekoll/id6761332194';
 
@@ -61,7 +61,7 @@ export function breadcrumbLd(page: PageEntry) {
   };
 }
 
-export function webPageLd(page: PageEntry, title: string, description: string) {
+export function webPageLd(page: PageEntry, title: string, description: string, speakable?: string[]) {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
@@ -71,6 +71,8 @@ export function webPageLd(page: PageEntry, title: string, description: string) {
     inLanguage: page.lang,
     ...(page.country.lastVerified ? { dateModified: page.country.lastVerified } : {}),
     isPartOf: { '@type': 'WebSite', name: brandForLang(page.lang), url: SITE },
+    // Röst-/AI-extraktion: peka på quick-answer-boxen (C4) när den finns.
+    ...(speakable ? { speakable: { '@type': 'SpeakableSpecification', cssSelector: speakable } } : {}),
   };
 }
 
@@ -93,6 +95,7 @@ export function faqLd(items: FaqItem[]) {
 }
 
 export function softwareAppLd(lang: string) {
+  const r = loadRating();
   return {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
@@ -101,7 +104,16 @@ export function softwareAppLd(lang: string) {
     applicationCategory: 'UtilitiesApplication',
     url: APP_STORE_URL,
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, // gratis att ladda ner
-    // INGEN aggregateRating förrän äkta betyg pipelinas in.
+    // aggregateRating tänds FÖRST när rating.json.count fylls (Google kräver antal).
+    ...(r && r.count != null
+      ? {
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: String(r.value),
+            ratingCount: String(r.count),
+          },
+        }
+      : {}),
   };
 }
 
@@ -112,6 +124,22 @@ export function organizationLd() {
     name: 'DroneKoll',
     url: SITE,
     logo: `${SITE}/favicon.svg`,
+    description:
+      'Independently compiled drone rules, no-fly zones and official sources for 55 countries in 27 languages.',
+    sameAs: [APP_STORE_URL],
+  };
+}
+
+/** WebSite-entitet (saknades — bara inline isPartOf fanns). Ger sökmotorer +
+ *  AI-svarsmotorer en tydlig sajt-entitet att hänga sidorna på. (SEO/GEO-audit) */
+export function webSiteLd(lang: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: brandForLang(lang),
+    url: SITE,
+    inLanguage: lang,
+    publisher: { '@type': 'Organization', name: 'DroneKoll', url: SITE },
   };
 }
 
@@ -123,7 +151,7 @@ export function organizationLd() {
  *   3. Koherens-vakt: språk vars mallar inte översatts än (Opus-grinden) får
  *      HELENGELSK FAQ (fråga+svar) — aldrig blandspråk
  */
-import { faqOverride, loadRegulators, loadVisitorNotes } from './ingest';
+import { faqOverride, credentialAnswer, loadRegulators, loadVisitorNotes } from './ingest';
 
 /** Regelrad → mening: trimma, punktavsluta; gemener först för r2/r3 (ej akronymer). */
 function ruleSentence(rule: string, lowerFirst: boolean): string {
@@ -142,7 +170,9 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
   // Lager 2: mänskliga mallar på sidans språk (faq.tpl.* finns nu ×27) +
   // lokaliserat landsnamn (page.displayName). Ingen koherens-vakt behövs.
   const lang = page.lang;
-  const country = page.displayName;
+  // Engelsk bestämd artikel i löptext ("in the United States"): endast en-sidor,
+  // flaggade ISO. FAQ-mallarna använder alla "in {country}" → en rad täcker allt.
+  const country = enArticle(page.iso, page.lang) + page.displayName;
   const reg = loadRegulators()[page.iso.toUpperCase()];
   const items: FaqItem[] = [];
 
@@ -151,11 +181,13 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
     const easa = /EASA|2019\/947/i.test(c.regulatoryBase ?? '');
     items.push({
       q: t('faq.q.credential', lang, { country }),
-      a: t(easa ? 'faq.tpl.credential.easa' : 'faq.tpl.credential.other', lang, {
-        country,
-        credential: c.dronePilotCredentialName,
-        regulator: reg.regulator,
-      }),
+      a:
+        credentialAnswer(page.iso, lang) ??
+        t(easa ? 'faq.tpl.credential.easa' : 'faq.tpl.credential.other', lang, {
+          country,
+          credential: c.dronePilotCredentialName,
+          regulator: reg.regulator,
+        }),
     });
   }
 
@@ -185,8 +217,10 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
       a: t('faq.tpl.rules.intro', lang, {
         country,
         r1: ruleSentence(c.keyRules[0], false),
-        r2: ruleSentence(c.keyRules[1], true),
-        r3: ruleSentence(c.keyRules[2], true),
+        // r2/r3 = false: injektionen kommer nu VERSALISERAD (mallen byter till
+        // kolon-mönster "… : {r2}" så en versal standalone-mening passar). Fas 4.
+        r2: ruleSentence(c.keyRules[1], false),
+        r3: ruleSentence(c.keyRules[2], false),
       }),
     });
   }

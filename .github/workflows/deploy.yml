@@ -72,3 +72,19 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: "IndexNow — pinga Bing/Yandex om live-sidorna (ej daglig cron)"
+        if: github.event_name != 'schedule'
+        continue-on-error: true
+        run: |
+          KEY=b67bd64c7a26a0fab9953aad21b270d3
+          sleep 15 # låt Pages-CDN propagera nyckelfilen + sidorna
+          URLS=$(curl -s https://dronekoll.com/sitemap.xml \
+            | grep -oE '<loc>[^<]+</loc>' | sed -e 's/<loc>//' -e 's#</loc>##' \
+            | jq -R . | jq -s .)
+          N=$(echo "$URLS" | jq 'length')
+          echo "Submitterar $N URL:er till IndexNow"
+          curl -sS -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{\"host\":\"dronekoll.com\",\"key\":\"$KEY\",\"keyLocation\":\"https://dronekoll.com/$KEY.txt\",\"urlList\":$URLS}" \
+            -w "IndexNow-svar: HTTP %{http_code}\n"

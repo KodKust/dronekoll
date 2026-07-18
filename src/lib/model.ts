@@ -119,6 +119,13 @@ export function brandForLang(lang: string): string {
   return _brands[lang] ?? 'DroneKoll';
 }
 
+/** Engelska landsnamn som kräver bestämd artikel "the" i löptext (SEO/GEO). */
+export const EN_ARTICLE_ISO = new Set(['US', 'GB', 'NL', 'CZ', 'DO', 'PH', 'AE']);
+/** "the " för engelska sidor vars landsnamn tar bestämd artikel, annars "". */
+export function enArticle(iso: string, lang: string): string {
+  return lang === 'en' && EN_ARTICLE_ISO.has(iso) ? 'the ' : '';
+}
+
 function countryUrl(lang: string, slug: string): string {
   return `/${lang}/${slug}/`;
 }
@@ -207,6 +214,36 @@ export function allCountryPages(): PageEntry[] {
 /** Länder synliga på en språkhubb: de vars lokalspråk = hubbens språk. */
 export function countriesForLang(lang: string): PageEntry[] {
   return allCountryPages().filter((p) => p.lang === lang);
+}
+
+/**
+ * Geografiskt närmaste länder PÅ SIDANS SPRÅK — för "relaterade länder"-blocket
+ * (B5, intern länkning). countriesForLang garanterar att varje länkmål har en
+ * sida på sidans språk. Primärmått = AVSTÅND MELLAN BBOX-KANTER (0 om lådorna
+ * överlappar/angränsar) — robust mot öterritorier som annars drar centroiden
+ * ut i havet (PT:s bbox rymmer Azorerna → centroid mitt i Atlanten). Centroid-
+ * avstånd bara som tiebreak mellan angränsande länder.
+ */
+export function relatedCountries(page: PageEntry, n = 4): PageEntry[] {
+  const a = page.country;
+  const acx = (a.latMin + a.latMax) / 2;
+  const acy = (a.lonMin + a.lonMax) / 2;
+  // Gap mellan två intervall: 0 om de överlappar, annars positivt avstånd.
+  const gap = (lo1: number, hi1: number, lo2: number, hi2: number) =>
+    lo1 > hi2 ? lo1 - hi2 : lo2 > hi1 ? lo2 - hi1 : 0;
+  return countriesForLang(page.lang)
+    .filter((p) => p.iso !== page.iso)
+    .map((p) => {
+      const b = p.country;
+      const dLat = gap(a.latMin, a.latMax, b.latMin, b.latMax);
+      const dLon = gap(a.lonMin, a.lonMax, b.lonMin, b.lonMax);
+      const edge = dLat * dLat + dLon * dLon; // 0 = angränsande/överlappande
+      const cent = ((b.latMin + b.latMax) / 2 - acx) ** 2 + ((b.lonMin + b.lonMax) / 2 - acy) ** 2;
+      return { p, edge, cent };
+    })
+    .sort((x, y) => x.edge - y.edge || x.cent - y.cent)
+    .slice(0, n)
+    .map((x) => x.p);
 }
 
 /** Hubb-kluster: alla 27 hubbar + x-default = /en/. */
