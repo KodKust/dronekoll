@@ -1,5 +1,8 @@
 {
-  "version": 194,
+  "version": 200,
+  "touristContent": {
+    "baseUrl": "https://dronekoll.com"
+  },
   "countries": [
     {
       "isoCode": "BR",
@@ -10921,7 +10924,7 @@
       ],
       "overlayInfo": {
         "shown": [
-          "Lennuvälja- ja lennujuhtimistsoonid (CTR) — luba vajalik",
+          "Lennuvälja- ja lähialad (CTR) — luba vajalik",
           "Piirangualad (RSTA) — sh UAS-piirangutsoonid ja piiriala",
           "Ohualad (DNGA) ja keelualad (P)"
         ],
@@ -11267,7 +11270,7 @@
         "shown": [
           "Flughafen- und Flugplatzzonen (CTR) — Bewilligung erforderlich",
           "Verbotszonen (P) und Beschränkungsgebiete (RSTA)",
-          "Bedingte Zonen und Event-Zonen (ATZ) — z. B. Großveranstaltungen"
+          "Bedingte Zonen und Event-Zonen — z. B. Großveranstaltungen"
         ],
         "notShown": [
           "Informationszonen ohne Beschränkung",
@@ -11409,7 +11412,7 @@
       ],
       "lastVerified": "2026-06-19",
       "verifiedBy": "Trafikstyrelsen (official sources) + audit 2026-05-04",
-      "regulatoryBase": "EU 2019/947 (EASA Open Category) + BEK 527/2025 (national enforcement)",
+      "regulatoryBase": "EU 2019/947 (EASA Open Category) + BEK 1649/2023 + 527/2025 (national enforcement)",
       "checklist": [
         {
           "title": "Daglig inspektion",
@@ -12626,60 +12629,23 @@
       "name": "Deutschland",
       "nameSwedish": "Tyskland",
       "flagEmoji": "🇩🇪",
-      "hasAirspaceOverlay": false,
+      "hasAirspaceOverlay": true,
       "airspaceApiType": "geojson-static",
-      "airspaceWfsUrl": "https://pappilappi.com/airspace/de.geojson",
-      "airspaceLayerNames": [
-        "kontrollzonen",
-        "flughaefen",
-        "flugplaetze",
-        "flugbeschraenkungsgebiete",
-        "temporaere_betriebseinschraenkungen",
-        "naturschutzgebiete",
-        "nationalparks",
-        "vogelschutzgebiete",
-        "ffh-gebiete",
-        "krankenhaeuser",
-        "justizvollzugsanstalten",
-        "diplomatische_vertretungen",
-        "internationale_organisationen",
-        "militaerische_anlagen",
-        "polizei",
-        "sicherheitsbehoerden",
-        "behoerden",
-        "kraftwerke",
-        "industrieanlagen",
-        "umspannwerke",
-        "stromleitungen",
-        "windkraftanlagen",
-        "bahnanlagen",
-        "bundesautobahnen",
-        "bundesstrassen",
-        "binnenwasserstrassen",
-        "seewasserstrassen",
-        "schifffahrtsanlagen",
-        "wohngrundstuecke",
-        "freibaeder",
-        "modellflugplaetze"
-      ],
+      "airspaceLayerNames": [],
       "overlayInfo": {
         "shown": [
-          "Kontrollzonen (CTR) und Flughäfen/Flugplätze",
-          "Flugbeschränkungsgebiete und temporäre Einschränkungen",
-          "Naturschutzgebiete, Nationalparks, Vogelschutz- und FFH-Gebiete",
-          "Krankenhäuser, Gefängnisse, Botschaften, Polizei, Militär",
-          "Kraftwerke, Industrieanlagen, Stromleitungen, Umspannwerke",
-          "Bahnlinien, Autobahnen, Bundesstraßen, Wasserstraßen",
-          "Wohngrundstücke, Freibäder, Modellflugplätze",
-          "NOTAM — Temporäre Einschränkungen (global, alle 12 Stunden)",
-          "📚 Ebenen-Filter (Symbol 🗂 in der Werkzeugleiste): Natur- und Infrastrukturebenen ein-/ausblenden. Luftraum bleibt immer sichtbar."
+          "Kontrollzonen, Flughäfen/Flugplätze, Flugbeschränkungsgebiete (ED-R), temporäre Betriebseinschränkungen, militärische Anlagen",
+          "Naturschutzgebiete, Nationalparks, FFH- und Vogelschutzgebiete (BfN)",
+          "Krankenhäuser, Behörden, Polizei, JVA, diplomatische Vertretungen",
+          "Wohngrundstücke, Bundesfernstraßen, Bahnanlagen, Wasserstraßen, Stromleitungen, Industrieanlagen, Windkraft, Freibäder",
+          "📚 Ebenen-Filter: über das Menü-Symbol können Ebenen ein-/ausgeblendet werden — Flugsicherheits-Ebenen sind immer sichtbar"
         ],
         "notShown": [
-          "Labore (in dipul.de verfügbar, nicht im WMS-Dienst enthalten)"
+          "Hängegleiter-Gelände, Modellflugplätze und inaktive temporäre Betriebseinschränkungen (nur in der dipul-Karte verfügbar, nicht im WFS-Dienst)"
         ],
-        "source": "DFS dipul (offiziell, WMS-Kartendienst)",
-        "complement": "Prüfen Sie immer die vollständige dipul-Karte",
-        "complementUrl": "https://uas-betrieb.de/drohnenflug/"
+        "source": "DFS dipul (WFS, unverändert gespiegelt) · BfN Schutzgebiete",
+        "complement": "Prüfen Sie im Zweifel die vollständige dipul-Karte",
+        "complementUrl": "https://maptool-dipul.dfs.de"
       },
       "airspaceButtonLabel": "Luftraum",
       "linksSheetTitle": "Luftraum & Regeln — Deutschland",
@@ -12710,8 +12676,8 @@
       "latMax": 55.1,
       "lonMin": 5.9,
       "lonMax": 15.1,
-      "dataSourceName": "DFS INSPIRE (CC BY 4.0) · BfN (DL-DE BY 2.0) · OSM (ODbL)",
-      "dataSourceUrl": "https://www.dfs.de/homepage/de/services/geo-daten/",
+      "dataSourceName": "DFS dipul (CC BY-ND 4.0) · BfN (GeoNutzV)",
+      "dataSourceUrl": "https://dipul.de/homepage/de/informationen/geografische-gebiete/wfs-wms/",
       "airspaceMapUrl": "https://maptool-dipul.dfs.de",
       "airspaceMapLabel": "Öffne dipul Karte ↗",
       "primaryLinks": [
@@ -12779,7 +12745,7 @@
       ],
       "lastVerified": "2026-06-19",
       "verifiedBy": "LBA, DFS (offizielle Quellen) + audit 2026-05-04",
-      "regulatoryBase": "EU 2019/947 (EASA Open Category) + LuftVO §21a–21i",
+      "regulatoryBase": "EU 2019/947 (EASA Open Category) + LuftVO §§ 21a–21j",
       "checklist": [
         {
           "title": "Tägliche Kontrolle",
@@ -12879,7 +12845,7 @@
         },
         {
           "title": "Darfst du hier fliegen?",
-          "body": "DFS-NOTAM auf der Karte und Drohnenregeln in der Luftraum-Ansicht — plus Push-Warnung, wenn sich Luftfahrzeuge nähern.",
+          "body": "Offizielle dipul-Zonen (DFS) als Kartenüberlagerung — Kontrollzonen, Naturschutz, Wohngebiete und mehr, täglich aktualisiert. Tippe auf eine Zone für die Antwort. Plus Push-Warnung, wenn sich Luftfahrzeuge nähern.",
           "tag": "Luftraum & Warnung",
           "icon": "airplanemode_active",
           "iconColor": "448AFF",
@@ -12919,9 +12885,9 @@
           "iconColor": "69F0AE"
         },
         {
-          "tag": "OFFIZIELLE QUELLEN",
-          "title": "Live NOTAMs + offizielle Regeln",
-          "body": "Offizielle Drohnenbestimmungen - direkt in der App.\nPlus Live-NOTAMs auf der Karte: Sperrgebiete,\nfallschirmsprünge, Militärübungen.\nKeine Google-Suche mehr vor jedem Flug.",
+          "tag": "LUFTRAUM",
+          "title": "Offizielle Luftraum-Zonen",
+          "body": "Offizielle dipul-Zonen (DFS) als Kartenüberlagerung — Kontrollzonen, Naturschutz, Wohngebiete und mehr, täglich aktualisiert. Tippe auf eine Zone für die Antwort. Plus Push-Warnung, wenn sich Luftfahrzeuge nähern.",
           "icon": "public",
           "iconColor": "26C6DA",
           "spotlight": "luftrum",
@@ -12987,7 +12953,285 @@
           "iconColor": "00E676"
         }
       ],
-      "dronePilotCredentialName": "Drohnenführerschein"
+      "dronePilotCredentialName": "Drohnenführerschein",
+      "airspaceSecondaryFeeds": [
+        {
+          "url": "https://pappilappi.com/airspace/de/kontrollzonen.geojson?cb=20260714a",
+          "ttlMinutes": 10080,
+          "label": "de-kontrollzonen",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_CTR"
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/flugbeschraenkungsgebiete.geojson?cb=20260714a",
+          "ttlMinutes": 10080,
+          "label": "de-flugbeschraenkungsgebiete",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_RESTRICTED"
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/flughaefen.geojson?cb=20260714a",
+          "ttlMinutes": 10080,
+          "label": "de-flughaefen",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_AIRPORT"
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/flugplaetze.geojson?cb=20260714a",
+          "ttlMinutes": 10080,
+          "label": "de-flugplaetze",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_AIRPORT"
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/temporaere_betriebseinschraenkungen.geojson?cb=20260714a",
+          "ttlMinutes": 360,
+          "label": "de-temporaere_betriebseinschraenkungen",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_TEMP"
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/militaerische_anlagen.geojson?cb=20260714a",
+          "ttlMinutes": 10080,
+          "label": "de-militaerische_anlagen",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_MIL"
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/natur.geojson?cb=20260714a",
+          "ttlMinutes": 10080,
+          "label": "de-natur",
+          "sourceLabel": "BfN Schutzgebiete",
+          "authority": "BfN",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 2.5
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/natur2000.geojson?cb=20260714a",
+          "ttlMinutes": 10080,
+          "label": "de-natur2000",
+          "sourceLabel": "BfN Schutzgebiete",
+          "authority": "BfN",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 2.5
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/windkraftanlagen.geojson?cb=20260714a",
+          "ttlMinutes": 43200,
+          "label": "de-windkraftanlagen",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_WIND",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 0.8
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/freibaeder.geojson?cb=20260714a",
+          "ttlMinutes": 43200,
+          "label": "de-freibaeder",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_BATHING",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 0.6
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/krankenhaeuser.geojson?cb=20260714a",
+          "ttlMinutes": 43200,
+          "label": "de-krankenhaeuser",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_HOSPITAL",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 0.8
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/polizei.geojson?cb=20260714a",
+          "ttlMinutes": 43200,
+          "label": "de-polizei",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_GOV",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 0.6
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/sicherheitsbehoerden.geojson?cb=20260714a",
+          "ttlMinutes": 43200,
+          "label": "de-sicherheitsbehoerden",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_GOV",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 0.6
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/behoerden.geojson?cb=20260714a",
+          "ttlMinutes": 43200,
+          "label": "de-behoerden",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_GOV",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 0.6
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/umspannwerke.geojson?cb=20260714a",
+          "ttlMinutes": 43200,
+          "label": "de-umspannwerke",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_INDUSTRY",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 0.8
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/kraftwerke.geojson?cb=20260714a",
+          "ttlMinutes": 43200,
+          "label": "de-kraftwerke",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_INDUSTRY",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 0.8
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/justizvollzugsanstalten.geojson?cb=20260714a",
+          "ttlMinutes": 43200,
+          "label": "de-justizvollzugsanstalten",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_PRISON",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 0.8
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/diplomatische_vertretungen.geojson?cb=20260714a",
+          "ttlMinutes": 43200,
+          "label": "de-diplomatische_vertretungen",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_GOV",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 0.6
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/internationale_organisationen.geojson?cb=20260714a",
+          "ttlMinutes": 43200,
+          "label": "de-internationale_organisationen",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_GOV",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 0.6
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/labore.geojson?cb=20260714a",
+          "ttlMinutes": 43200,
+          "label": "de-labore",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_INDUSTRY",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 0.8
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/seewasserstrassen.geojson?cb=20260714a",
+          "ttlMinutes": 43200,
+          "label": "de-seewasserstrassen",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_WATERWAY",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 0.8
+        },
+        {
+          "url": "https://pappilappi.com/airspace/de/schifffahrtsanlagen.geojson?cb=20260714a",
+          "ttlMinutes": 43200,
+          "label": "de-schifffahrtsanlagen",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_WATERWAY",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 0.8
+        },
+        {
+          "url": "https://uas-betrieb.de/geoservices/dipul/ows",
+          "wfsTypeName": "dipul:wohngrundstuecke",
+          "ttlMinutes": 720,
+          "label": "de-wohngrundstuecke",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_RESIDENTIAL",
+          "viewportCullMaxDeg": 0.25
+        },
+        {
+          "url": "https://uas-betrieb.de/geoservices/dipul/ows",
+          "wfsTypeName": "dipul:bundesstrassen",
+          "ttlMinutes": 1440,
+          "label": "de-bundesstrassen",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_ROAD",
+          "viewportCullMaxDeg": 0.3
+        },
+        {
+          "url": "https://uas-betrieb.de/geoservices/dipul/ows",
+          "wfsTypeName": "dipul:bundesautobahnen",
+          "ttlMinutes": 1440,
+          "label": "de-bundesautobahnen",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_ROAD",
+          "viewportCullMaxDeg": 0.3
+        },
+        {
+          "url": "https://uas-betrieb.de/geoservices/dipul/ows",
+          "wfsTypeName": "dipul:bahnanlagen",
+          "ttlMinutes": 1440,
+          "label": "de-bahnanlagen",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_RAIL",
+          "viewportCullMaxDeg": 0.3
+        },
+        {
+          "url": "https://uas-betrieb.de/geoservices/dipul/ows",
+          "wfsTypeName": "dipul:binnenwasserstrassen",
+          "ttlMinutes": 1440,
+          "label": "de-binnenwasserstrassen",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_WATERWAY",
+          "viewportCullMaxDeg": 0.35
+        },
+        {
+          "url": "https://uas-betrieb.de/geoservices/dipul/ows",
+          "wfsTypeName": "dipul:stromleitungen",
+          "ttlMinutes": 1440,
+          "label": "de-stromleitungen",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_POWERLINE",
+          "viewportCullMaxDeg": 0.35
+        },
+        {
+          "url": "https://uas-betrieb.de/geoservices/dipul/ows",
+          "wfsTypeName": "dipul:industrieanlagen",
+          "ttlMinutes": 1440,
+          "label": "de-industrieanlagen",
+          "sourceLabel": "DFS dipul",
+          "authority": "DFS (dipul)",
+          "zoneKeyDefault": "DE_INDUSTRY",
+          "viewportCullMaxDeg": 0.3
+        }
+      ]
     },
     {
       "isoCode": "ES",
@@ -14472,7 +14716,7 @@
         "shown": [
           "Traficom UAS-ilmatilavyöhykkeet — lentoasemien CTR, vankilat, sotilasalueet (Puolustusvoimat), sairaaloiden HEMS-helikopterikentät",
           "Kriittinen infrastruktuuri — voimalaitokset, satamat, sillat, rautatiet",
-          "Turvallisuusherkät vyöhykkeet (REQ_AUTHORISATION + SENSITIVE)",
+          "Turvallisuusherkät vyöhykkeet",
           "Lennokkikentät (informatiivisia, törmäysriski)",
           "Syke Natura 2000 -alueet (SAC + SPA) — aktivoituvat keväällä–kesällä",
           "AIS Finland EFP-kieltoalueet (Loviisa, Olkiluoto, Kilpilahti, Helsingin keskusta)",
@@ -15898,7 +16142,7 @@
       "overlayInfo": {
         "shown": [
           "CTR — Kontrollzoner kring flygplatser",
-          "ATZ — Flygplatstrafik",
+          "ATZ — Flygplatstrafikzon",
           "TMA — Terminalområden",
           "RSTA — Restriktionsområden",
           "DNGA — Farliga områden",
@@ -17407,13 +17651,13 @@
       ],
       "overlayInfo": {
         "shown": [
-          "🚫 No-fly zones (LAANC required) — red",
+          "🚫 No ceiling (0 ft — FAA authorization required) — red",
           "🟧 Low ceiling (≤150 ft AGL) — orange",
           "🟨 Mid ceiling (200–350 ft AGL) — yellow",
-          "🟩 Open ceiling (400 ft Part 107) — green",
+          "🟩 Open ceiling (400 ft AGL) — green",
           "🛂 Active TFRs — Security/VIP, Hazards, Sports, Space, UAS gatherings",
           "🏟 Stadium TFRs (3 NM around 203 MLB/NFL/NCAA D1 venues, 14 CFR 99.7)",
-          "🌲 National Parks (418 NPS units — 36 CFR §2.17 drone prohibited)",
+          "🌲 National Parks (418 mapped NPS units — 36 CFR §2.17 drone prohibited)",
           "✈️ Class B/C/D/E2 controlled airspace (FAA Sectional — context for UASFM)",
           "🛡 Special Use Airspace (Prohibited, Restricted, MOA, Warning — 1,494 areas)",
           "🚁 Heliports (1,600+ medical/public helipads in airspace overlay; 3,000+ map pins including private — H-symbol on map)"
