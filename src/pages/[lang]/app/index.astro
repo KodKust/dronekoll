@@ -46,6 +46,7 @@ const ldBlocks = [organizationLd(), webSiteLd(lang), softwareAppLd(lang)];
 
   <Header lang={lang} cluster={cluster} />
 
+  <main id="main-content">
   <section class="band band--paper">
     <div class="shell hero-seq app-hero">
       <Breadcrumbs items={[{ label: t('bc.home', lang), href: `/${lang}/` }, { label: t('app.bc', lang) }]} />
@@ -85,6 +86,7 @@ const ldBlocks = [organizationLd(), webSiteLd(lang), softwareAppLd(lang)];
       <AppCta lang={lang} />
     </div>
   </section>
+  </main>
 
   <Footer lang={lang} />
 </Base>

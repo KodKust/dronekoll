@@ -10,6 +10,7 @@ import '../styles/tokens.css';
 import '../styles/global.css';
 import LangBanner from '../components/LangBanner.astro';
 import { GOATCOUNTER_CODE } from '../lib/seo';
+import { t } from '../lib/i18n';
 
 export interface Alternate {
   hreflang: string; // t.ex. "nl", "en", "x-default"
@@ -94,6 +95,10 @@ const {
     )}
   </head>
   <body>
+    {/* REPO-A11Y-01: första Tab-stoppet. Målet #main-content sätts av varje
+        sidmall (main omsluter INTE header/språkbanner/footer — de ligger i
+        samma slot som huvudinnehållet). */}
+    <a href="#main-content" class="skip-link">{t('a11y.skipToContent', lang)}</a>
     <slot />
     <LangBanner lang={lang} />
     <script>

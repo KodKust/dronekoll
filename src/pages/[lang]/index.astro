@@ -52,6 +52,7 @@ const ldBlocks = [organizationLd(), webSiteLd(lang)];
 
   <Header lang={lang} cluster={hubCluster()} />
 
+  <main id="main-content">
   <section class="band band--paper">
     <div class="shell hub-hero">
       <h1>{t('hub.h1', lang)}</h1>
@@ -83,6 +84,7 @@ const ldBlocks = [organizationLd(), webSiteLd(lang)];
       <AppCta lang={lang} />
     </div>
   </section>
+  </main>
 
   <Footer lang={lang} />
 </Base>

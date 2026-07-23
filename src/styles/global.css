@@ -227,4 +227,27 @@ html.js [data-stagger] > :nth-child(n + 11) { transition-delay: 600ms; }
   border: 0;
 }
 
+/* REPO-A11Y-01: dold tills tangentbordsfokus (första Tab-stoppet på sidan). */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--space-4);
+  z-index: 100;
+  padding: var(--space-3) var(--space-5);
+  background: var(--raised);
+  color: var(--ink);
+  border-radius: var(--r-sm);
+  border: 1px solid var(--border-strong);
+  box-shadow: var(--shadow-2);
+  font-weight: 600;
+  text-decoration: none;
+}
+.skip-link:focus {
+  top: var(--space-4);
+}
+
+/* REPO-A11Y-01: ankarmål (main + AnchorNav-sektioner) döljs inte under den
+   sticky 64px-headern efter hopp/klick. */
+[id] { scroll-margin-top: calc(64px + var(--space-4)); }
+
 ::selection { background: var(--accent-wash-2); color: var(--ink); }

@@ -57,6 +57,7 @@ const ldBlocks = [organizationLd(), webSiteLd('en'), softwareAppLd('en')];
 
   <Header lang="en" cluster={alternates} />
 
+  <main id="main-content">
   {/* ── Hero — marketing-registret, grön accent ──────────────────────── */}
   <section class="band band--paper home-hero">
     <div class={`shell home-hero__grid ${existsSync(join(process.cwd(), 'public', 'img', 'hero-drone.webp')) ? 'has-image' : ''}`}>
@@ -142,6 +143,7 @@ const ldBlocks = [organizationLd(), webSiteLd('en'), softwareAppLd('en')];
       <AppCta lang="en" />
     </div>
   </section>
+  </main>
 
   <Footer lang="en" />
 </Base>
