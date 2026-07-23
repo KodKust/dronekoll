@@ -8,19 +8,20 @@ import type { Country } from '../lib/schema';
 
 interface Props {
   links: Country['primaryLinks'];
-  /** landets verificationWord → liten "Verifierad"-badge på första kortet */
-  verifiedWord?: string;
 }
-const { links, verifiedWord } = Astro.props;
+const { links } = Astro.props;
 
-const items = links.map((l, i) => {
+// v8-revision: ingen "Verifierad"-badge på första kortet. En källa är inte
+// verifierad enbart för att den ligger på index 0 (REPO-P0-03). Verifiering
+// visas per claim (legalStatus), aldrig per källkorts-position.
+const items = links.map((l) => {
   let domain = '';
   try {
     domain = new URL(l.url).hostname.replace(/^www\./, '');
   } catch {
     domain = l.url;
   }
-  return { ...l, domain, initial: domain.charAt(0).toUpperCase(), first: i === 0 };
+  return { ...l, domain, initial: domain.charAt(0).toUpperCase() };
 });
 ---
 
@@ -32,7 +33,6 @@ const items = links.map((l, i) => {
         <span class="sources__text">
           <span class="sources__title">
             {l.title}
-            {l.first && verifiedWord && <span class="pill sources__verified">{verifiedWord}</span>}
           </span>
           {l.description && <span class="sources__desc small">{l.description}</span>}
           <span class="caption sources__domain">{l.domain}</span>
@@ -69,13 +69,6 @@ const items = links.map((l, i) => {
   }
   .sources__text { display: grid; gap: 3px; min-width: 0; }
   .sources__title { font-weight: 600; color: var(--ink); display: inline-flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; }
-  .sources__verified {
-    background: var(--go-wash);
-    color: var(--go-ink);
-    font-size: var(--text-caption);
-    font-weight: 600;
-    padding: 2px 10px;
-  }
   .sources__desc { color: var(--ink-2); }
   .sources__domain { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .sources__arrow {

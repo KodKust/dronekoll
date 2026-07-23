@@ -24,7 +24,9 @@ if (c.dronePilotCredentialName)
   facts.push({ label: t('facts.credential', page.lang), value: c.dronePilotCredentialName });
 if (zoneCount && zoneCount > 0)
   facts.push({ label: t('facts.zones', page.lang), value: zoneCount.toLocaleString(page.lang), tnum: true });
-if (c.lastVerified) facts.push({ label: t('facts.verified', page.lang), value: c.lastVerified, tnum: true });
+// v8-revision: ingen sid-nivå "VERIFIERAD {datum}"-chip. Den gick i god för HELA
+// landet, men 55/55 sidor har minst ett ej-verifierat påstående (pageVerified=false).
+// Regelgranskningsdatum hör till per-claim-status, inte en hel-landsbadge (REPO-P0-03).
 ---
 
 {facts.length > 0 && (

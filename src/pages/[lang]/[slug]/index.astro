@@ -222,7 +222,7 @@ const ldBlocks = [
 
       <div>
         <p class="overline sources-label">{c.sectionLabelPrimary ?? t('anchor.sources', lang)}</p>
-        <SourceLinks links={c.primaryLinks} verifiedWord={t('sources.verified', lang)} />
+        <SourceLinks links={c.primaryLinks} />
       </div>
 
       {c.secondaryLinks.length > 0 && (
