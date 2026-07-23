@@ -23,8 +23,17 @@ interface LayerCfg {
 let _manifest: Record<string, { bounds: number[][]; attribution: string; layers: LayerCfg[] }> | null | undefined;
 function manifest() {
   if (_manifest !== undefined) return _manifest;
-  const p = join(process.cwd(), 'data', 'map-manifest.json');
-  _manifest = existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')).countries : null;
+  // v8-revision (REPO-P0-06): live först (byggt av build-manifest.mjs efter
+  // fetch-data), committad data/map-manifest.json som fallback. Så når en
+  // uppdaterad web-manifest den byggda sajten i SAMMA bygge.
+  for (const rel of ['data/live/map-manifest.json', 'data/map-manifest.json']) {
+    const p = join(process.cwd(), rel);
+    if (existsSync(p)) {
+      _manifest = JSON.parse(readFileSync(p, 'utf8')).countries;
+      return _manifest;
+    }
+  }
+  _manifest = null;
   return _manifest;
 }
 

@@ -112,7 +112,14 @@ for (const country of countriesFile.countries) {
   };
 }
 
-const out = join(ROOT, 'data', 'map-manifest.json');
+// v8-revision (REPO-P0-06): skriv till data/live/ (gitignorerad), INTE den
+// committade data/map-manifest.json. mapconfig.ts läser live först, den
+// committade filen är fallback när skriptet inte körts (t.ex. build:offline
+// utan föregående fetch-data). Ett normalt bygge ska aldrig smutsa arbetsträdet.
+import { mkdirSync } from 'node:fs';
+const liveDir = join(ROOT, 'data', 'live');
+mkdirSync(liveDir, { recursive: true });
+const out = join(liveDir, 'map-manifest.json');
 writeFileSync(
   out,
   JSON.stringify(
@@ -125,5 +132,5 @@ writeFileSync(
   ) + '\n',
 );
 
-console.log(`✓ ${Object.keys(manifest).length} overlay-länder → data/map-manifest.json`);
+console.log(`✓ ${Object.keys(manifest).length} overlay-länder → data/live/map-manifest.json`);
 for (const w of warnings) console.warn(`⚠ ${w}`);

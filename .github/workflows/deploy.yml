@@ -49,6 +49,9 @@ jobs:
       - name: Hämta livedata (Gist + baselines; snapshot-fallback vid fel)
         run: node scripts/fetch-data.mjs
 
+      - name: "Bygg kartmanifest (live web-manifest → data/live/map-manifest.json)"
+        run: node scripts/build-manifest.mjs
+
       - name: "Bygg (strikt: EN-overlays krävs, sidantal assertas)"
         run: npx astro build && node scripts/verify-build.mjs
         env:
