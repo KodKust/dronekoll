@@ -17,7 +17,7 @@ const skyImg = existsSync(join(process.cwd(), 'public', 'img', '404-drone.webp')
   noindex={true}
 >
   <Header lang="en" cluster={hubCluster()} />
-  <main class={`band band--canvas nf ${skyImg ? 'nf--img' : ''}`}>
+  <main id="main-content" class={`band band--canvas nf ${skyImg ? 'nf--img' : ''}`}>
     <div class="shell nf__grid">
       <div class="content nf__text">
         <p class="overline">404</p>
