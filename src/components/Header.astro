@@ -39,10 +39,12 @@ const brand = brandForLang(lang);
     top: 0;
     z-index: 50;
     height: 64px;
-    background: rgba(255, 255, 255, 0.85);
+    /* Fas 8: token-styrd ljusyta (~86%) + blur — blurren blir meningsfull när
+       himlen ligger bakom. Blur bara här + små overlays, aldrig på fullbreddsband. */
+    background: var(--surface-header);
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--hairline);
+    border-bottom: 1px solid var(--sky-border);
   }
   .site-header__inner {
     height: 100%;

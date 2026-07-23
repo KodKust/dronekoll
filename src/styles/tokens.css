@@ -21,6 +21,21 @@
   --border-strong: #C7CCD4;
   --soft-btn:      rgba(16, 24, 40, 0.05);
 
+  /* ── Ytor över CAVOK-himlen (Fas 8 / avsnitt 21.4) ──────────────────────────
+     Halvtransparenta ljusytor så himmelsatmosfären ANAS bakom stora band, men
+     kort/kritiska ytor hålls (nästan) solida för läsbarhet. Aldrig "glassmorphism-
+     soppa": få transparenta lager, solida läsytor där innehållet är viktigt.
+     Säkerhetskritisk copy får ALDRIG bero på bakgrundens lokala ljushet →
+     --surface-critical är helt opak. Fallback när bilden blockeras: html #dfeffb. */
+  --surface-page:      rgba(250, 253, 255, 0.68);
+  --surface-section:   rgba(255, 255, 255, 0.76);
+  --surface-section-2: rgba(243, 249, 253, 0.72);
+  --surface-card:      rgba(255, 255, 255, 0.94);
+  --surface-critical:  #FFFFFF;
+  --surface-header:    rgba(250, 253, 255, 0.86);
+  --sky-fallback:      #DFEFFB;
+  --sky-border:        rgba(69, 125, 166, 0.16);
+
   /* ── Ink (appens 3-nivåsystem + butikssvärtan) ─────────────────────────── */
   --ink:      #1D1D1F;  /* rubriker, värden, nav — 16.1:1 */
   --ink-body: #3D4149;  /* brödtext — ~10:1 */
