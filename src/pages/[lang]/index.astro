@@ -65,7 +65,10 @@ const ldBlocks = [organizationLd(), webSiteLd(lang)];
       {localPages.length > 0 && (
         <div>
           {lang !== 'en' && (
-            <p class="overline hub-label">{t('hub.inLanguage', lang, { language: LANGUAGES[lang] })}</p>
+            /* v8 avsnitt 22.5: rendera det nativa språknamnet DIREKT (endonym ur
+               LANGUAGES), aldrig en "In {language}"-meningsmall — den tolkades i
+               flera språk som "i tidningen/boken/verket". Namnet är entydigt självt. */
+            <p class="overline hub-label" lang={lang}>{LANGUAGES[lang]}</p>
           )}
           <CountryGrid lang={lang} pages={localPages} searchable={lang === 'en'} />
         </div>

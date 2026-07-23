@@ -17,7 +17,8 @@
     "validate-snapshot": "node scripts/validate-snapshot.mjs",
     "check:links": "node scripts/check-links.mjs",
     "check:api": "node scripts/check-api-contract.mjs",
-    "check": "npm run build:offline && node scripts/check-en-staleness.mjs && npm run check-matrix-staleness && npm run check:links && npm run check:api",
+    "check:l10n": "node scripts/check-l10n-placeholders.mjs",
+    "check": "npm run build:offline && node scripts/check-en-staleness.mjs && npm run check-matrix-staleness && npm run check:links && npm run check:api && npm run check:l10n",
     "check-matrix-staleness": "node scripts/check-matrix-staleness.mjs"
   },
   "dependencies": {
