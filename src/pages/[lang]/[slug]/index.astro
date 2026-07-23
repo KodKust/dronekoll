@@ -50,6 +50,11 @@ const { page } = Astro.props;
 const c = page.country;
 const lang = page.lang;
 const year = new Date().getFullYear();
+const claimCaveatKey: Record<string, string> = {
+  UNVERIFIED: 'claimstatus.unverified',
+  REWRITE_NEEDED: 'claimstatus.review',
+  ADVISORY: 'claimstatus.advisory',
+};
 const related = relatedCountries(page, 4);
 
 const title = countryTitle(page);
@@ -174,7 +179,7 @@ const ldBlocks = [
           <Callout kind="warn">{t('ymyl.translated', lang)}</Callout>
         </div>
       )}
-      <RuleList rules={c.keyRules} />
+      <RuleList rules={c.keyRules} statuses={c.legalStatus?.keyRules} lang={lang} />
     </div>
   </section>
 
@@ -213,9 +218,17 @@ const ldBlocks = [
         <div class="notes">
           <h2 class="rise section-title">{t('notes.title', lang)}</h2>
           <div class="notes__list" data-stagger>
-            {c.importantNotes.map((note) => (
-              <Callout kind="note">{note}</Callout>
-            ))}
+            {c.importantNotes.map((note, i) => {
+              const cs = c.legalStatus?.importantNotes?.[i];
+              const key = cs ? claimCaveatKey[cs.reviewState] : undefined;
+              const caveat = key ? t(key, lang) : null;
+              return (
+                <Callout kind="note">
+                  {note}
+                  {caveat && <span class="note-caveat">{caveat}</span>}
+                </Callout>
+              );
+            })}
           </div>
         </div>
       )}
@@ -312,4 +325,16 @@ const ldBlocks = [
   .notes__list { display: grid; gap: var(--space-3); max-width: var(--w-prose); }
   .sources-label { margin-bottom: var(--space-4); }
   .disclaimer { color: var(--ink-2); font-style: italic; max-width: var(--w-prose); }
+  .note-caveat {
+    display: inline-block;
+    margin-left: var(--space-2);
+    padding: 1px 8px;
+    border-radius: var(--r-sm);
+    background: var(--warn-wash);
+    color: var(--warn-ink);
+    font-size: var(--text-caption);
+    font-weight: 600;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
 </style>

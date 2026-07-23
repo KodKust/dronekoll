@@ -33,6 +33,64 @@ export const SecondaryFeedSchema = z
   })
   .passthrough();
 
+/** v8-revision: officiell källa som stödjer/motsäger en claim (subset av legal-sources.json). */
+export const LegalSourceRefSchema = z
+  .object({
+    id: z.string(),
+    url: z.string(),
+    authority: z.string(),
+    evidenceStrength: z.enum(['direct', 'candidate', 'dynamic']),
+    checkedAt: z.string().nullish(),
+  })
+  .passthrough();
+
+/** Per-claim status — positionellt alignad med respektive innehållsarray (index i
+ *  keyRules[i]/importantNotes[i] motsvarar legalStatus.keyRules[i], validerat 818/818
+ *  i v8-generatorn). reviewState är vad UI ska rendera på; status är källregistrets
+ *  råa värde (för framtida bruk/felsökning). */
+export const LegalClaimStatusSchema = z
+  .object({
+    claimId: z.string(),
+    status: z.enum(['VERIFIED', 'PARTIAL', 'CONTRADICTED', 'OUTDATED', 'NO_OFFICIAL_SUPPORT', 'ADVISORY_NOT_LAW']),
+    reviewState: z.enum(['VERIFIED', 'REWRITE_NEEDED', 'UNVERIFIED', 'ADVISORY']),
+    layer: z.enum(['AVIATION_CORE', 'DYNAMIC_AIRSPACE', 'LOCAL_OR_SECTORAL']).nullish(),
+    sources: z.array(LegalSourceRefSchema).default([]),
+    checkedAt: z.string().nullish(),
+    nextReviewAt: z.string().nullish(),
+    held: z.boolean().nullish(), // över-strikt EASA-mall (folksamling/natt) hållen tills omskrivning
+    proposedReplacementEn: z.string().nullish(),
+  })
+  .passthrough();
+
+export const LegalChecklistStatusSchema = LegalClaimStatusSchema.extend({
+  group: z.number(),
+  item: z.number(),
+});
+
+/** v8-revision: käll-/proveniensrevision för landets regelinnehåll. Byggs av
+ *  tools/legal/generate_countries.py ur legal-audit/data/legal-claims.json.
+ *  pageVerified är alltid false — ingen sida får bära ett hel-lands "verifierad";
+ *  status visas per claim/fält (REPO-P0-03). */
+export const LegalStatusSchema = z
+  .object({
+    schemaVersion: z.number(),
+    auditVersion: z.string(),
+    pageVerified: z.literal(false).or(z.boolean()),
+    keyRules: z.array(LegalClaimStatusSchema).default([]),
+    importantNotes: z.array(LegalClaimStatusSchema).default([]),
+    checklist: z.array(LegalChecklistStatusSchema).default([]),
+    disclaimer: LegalClaimStatusSchema.omit({ sources: true, held: true, proposedReplacementEn: true })
+      .extend({ sources: z.array(LegalSourceRefSchema).default([]) })
+      .nullish(),
+    removed: z
+      .array(z.object({ claimId: z.string(), field: z.string(), status: z.string(), originalText: z.string(), auditNote: z.string().nullish() }))
+      .nullish(),
+  })
+  .passthrough();
+
+export type LegalClaimStatus = z.infer<typeof LegalClaimStatusSchema>;
+export type LegalStatus = z.infer<typeof LegalStatusSchema>;
+
 export const CountrySchema = z
   .object({
     isoCode: z.string().min(2).max(6), // "OTHER" är 5 tecken; filtreras i ingest
@@ -86,6 +144,7 @@ export const CountrySchema = z
     regulatoryBase: z.string().nullish(),
     lastVerified: z.string().optional(), // "YYYY-MM-DD"
     verifiedBy: z.string().nullish(),
+    legalStatus: LegalStatusSchema.nullish(), // v8-revision — saknas i data byggd före 2026-07-23
   })
   .passthrough();
 

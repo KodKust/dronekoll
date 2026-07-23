@@ -1,9 +1,10 @@
 ---
 /**
- * Freshness-badge — SSR-fallback (lastVerified + "pipeline övervakas dagligen")
- * som uppgraderas klient-side av src/scripts/freshness.ts med live-status ur
- * pappilappi status.json (relativtid på sidans språk, ALDRIG svenska
- * detail-strängar). Fasta mått → CLS 0 vid uppgradering.
+ * Freshness-badge — SSR (juridiskt granskningsdatum, "Regler kontrollerade
+ * {datum}") kan uppgraderas klient-side av src/scripts/freshness.ts med en
+ * SEPARAT feed-degraderingsnotering ur pappilappi status.json. Regel-datumet
+ * skrivs ALDRIG över av teknisk pipeline-/feed-status (REPO-P0-03) — en
+ * frisk feed bevisar inte att reglerna är aktuella. Fasta mått → CLS 0.
  */
 import { t } from '../lib/i18n';
 
@@ -21,7 +22,6 @@ const { lang, iso, lastVerified, monitored = false } = Astro.props;
   class="pill freshness"
   data-freshness={monitored ? iso : undefined}
   data-lang={lang}
-  data-msg-ok={t('freshness.liveOk', lang)}
   data-msg-warn={t('freshness.liveWarn', lang)}
 >
   <span class="pulse-dot" aria-hidden="true"></span>
@@ -45,6 +45,7 @@ const { lang, iso, lastVerified, monitored = false } = Astro.props;
     font-size: var(--text-caption);
     min-height: 28px;
   }
-  .freshness.is-warn { background: var(--warn-wash); color: var(--warn-ink); }
-  .freshness.is-warn .pulse-dot { background: var(--warn-ink); animation: none; }
+  /* v8-revision: feed-degradering färgar INTE om hela badgen (skulle se ut
+     som att reglerna är degraderade). Bara .freshness__feednote markeras. */
+  .freshness__feednote { color: var(--warn-ink); font-weight: 600; }
 </style>
