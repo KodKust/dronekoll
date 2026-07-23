@@ -54,12 +54,38 @@ if (host && rawCfg) {
     .reduce((sum, l) => sum + (l.gzBytes || 0), 0);
   const auto = !saveData && defaultBytes <= AUTO_BUDGET;
 
+  // v8-revision (REPO-P0-05): en delvis laddad karta får aldrig se komplett
+  // ut. Enda statuselementet (role=status) skapas/uppdateras via textContent
+  // — aldrig innerHTML — och placeras EFTER kartcanvasen, före "officiell
+  // karta"-länken. Kartan är planeringsstöd; den ger aldrig ensam klartecken.
+  let statusEl: HTMLElement | null = null;
+  const announce = (message: string) => {
+    if (!message) return;
+    if (!statusEl) {
+      statusEl = document.createElement('div');
+      statusEl.className = 'mapframe__warning';
+      statusEl.setAttribute('role', 'status');
+      host!.insertAdjacentElement('afterend', statusEl);
+    }
+    statusEl.textContent = message;
+  };
+
   let booted = false;
   const boot = () => {
     if (booted) return;
     booted = true;
     init().catch(() => {
-      host.innerHTML = `<div class="mapframe__skeleton"><p class="small" style="padding:1rem;text-align:center">${host.dataset.msgError ?? ''}</p></div>`;
+      while (host!.firstChild) host!.removeChild(host!.firstChild);
+      const wrap = document.createElement('div');
+      wrap.className = 'mapframe__skeleton';
+      const p = document.createElement('p');
+      p.className = 'small';
+      p.setAttribute('role', 'status');
+      p.style.padding = '1rem';
+      p.style.textAlign = 'center';
+      p.textContent = host!.dataset.msgError ?? '';
+      wrap.appendChild(p);
+      host!.appendChild(wrap);
     });
   };
 
@@ -191,9 +217,17 @@ if (host && rawCfg) {
       setTimeout(() => { pane.style.opacity = '1'; }, 80 + index * 120);
     };
 
-    await Promise.allSettled(
-      cfg.layers.filter((l) => l.defaultOn).map((l, i) => loadLayer(l, i)),
-    );
+    // v8-revision: granska varje resultat — ett svalt fel fick tidigare kartan
+    // se komplett ut trots saknade lager (REPO-P0-05).
+    const defaultLayers = cfg.layers.filter((l) => l.defaultOn);
+    const settled = await Promise.allSettled(defaultLayers.map((l, i) => loadLayer(l, i)));
+    const loaded = settled.filter((r) => r.status === 'fulfilled').length;
+    if (loaded < defaultLayers.length) {
+      const msg = (host!.dataset.msgPartial ?? '')
+        .replace('{loaded}', String(loaded))
+        .replace('{total}', String(defaultLayers.length));
+      announce(msg);
+    }
 
     // Extra lager bakom checkboxar (Leaflets inbyggda lagerkontroll, lazy fetch)
     const extras = cfg.layers.filter((l) => !l.defaultOn);
@@ -206,7 +240,7 @@ if (host && rawCfg) {
           if (fetched) return;
           fetched = true;
           fetch(layer.url)
-            .then((r) => r.json())
+            .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
             .then((gj) => {
               if (Array.isArray(gj.features))
                 gj.features.sort((a: any, b: any) => roughArea(b.geometry) - roughArea(a.geometry));
@@ -222,7 +256,13 @@ if (host && rawCfg) {
                 },
               }).addTo(group);
             })
-            .catch(() => {});
+            .catch(() => {
+              // v8-revision: återställ fetched så användaren kan försöka igen,
+              // synka bort den nu-tomma bocken, och meddela synligt (REPO-P0-05).
+              fetched = false;
+              map.removeLayer(group);
+              announce(host!.dataset.msgLayerError ?? '');
+            });
         });
         const mb = layer.gzBytes ? ` (~${Math.max(0.1, layer.gzBytes / 1_000_000).toFixed(1)} MB)` : '';
         control.addOverlay(group, `${layer.label ?? layer.id}${mb}`);

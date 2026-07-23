@@ -39,6 +39,8 @@ const defaultZoneCount = ((mapConfig as { layers?: { defaultOn?: boolean; featur
       data-map-config={mapConfig ? JSON.stringify(mapConfig) : undefined}
       data-msg-loading={t('map.loading', page.lang)}
       data-msg-error={t('map.error', page.lang)}
+      data-msg-partial={t('map.partial', page.lang, { loaded: '{loaded}', total: '{total}' })}
+      data-msg-layer-error={t('map.layerError', page.lang)}
       data-msg-legend={t('map.legend', page.lang)}
       data-msg-load-template={t('map.load', page.lang, {
         n: defaultZoneCount.toLocaleString(page.lang),
@@ -158,4 +160,15 @@ const defaultZoneCount = ((mapConfig as { layers?: { defaultOn?: boolean; featur
     border: 1px solid var(--border);
   }
   .mapframe__caption { margin-top: var(--space-3); font-size: var(--text-small); }
+  /* v8-revision: partial-data-varning (REPO-P0-05) — samma warn-tokens som
+     RuleList/FreshnessBadge, alltid synlig text (inte färg ensamt). */
+  :global(.mapframe__warning) {
+    margin-top: var(--space-3);
+    padding: var(--space-2) var(--space-4);
+    border-radius: var(--r-sm);
+    background: var(--warn-wash);
+    color: var(--warn-ink);
+    font-size: var(--text-small);
+    font-weight: 500;
+  }
 </style>
