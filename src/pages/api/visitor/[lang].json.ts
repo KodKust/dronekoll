@@ -29,7 +29,10 @@ interface Entry {
   q: string;
   a: string;
   url: string;
-  /** true = landet har en researchad, landsspecifik not (inte bara EU-basen). */
+  /** true = landet har en researchad, landsspecifik not (inte bara EU-basen).
+   *  Rent visningsmetadata (styr appens kort-visning) — säger INGET om huruvida
+   *  flygning är tillåten. Ingen konsument får tolka detta som ett säkerhets-
+   *  eller tillstånds-svar (v8-revisionens explicita krav). */
   specific: boolean;
 }
 interface Props {
@@ -37,6 +40,11 @@ interface Props {
   entries: Entry[];
   version: number;
 }
+
+// v8-revision: svarsformatets egen version — se motsvarande konstant i
+// api/cell/[lang]/[iso].json.ts (samma resonemang: additiva ändringar,
+// ingen separat versionsgrind behövs så länge fält bara läggs till).
+const API_SCHEMA_VERSION = 2;
 
 export function getStaticPaths() {
   const version = loadCountriesFile().version;
@@ -75,6 +83,7 @@ export const GET: APIRoute = ({ props }) => {
       siteCountriesVersion: version,
       // Hur många av länderna som har landsspecifik text (resten = EU-basen).
       specificCount: entries.filter((e) => e.specific).length,
+      apiSchemaVersion: API_SCHEMA_VERSION,
     },
     countries: Object.fromEntries(
       entries.map((e) => [e.iso, { q: e.q, a: e.a, url: e.url, specific: e.specific }]),
