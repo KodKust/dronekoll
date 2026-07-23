@@ -53,14 +53,19 @@ const entries = Object.entries(LANGUAGES).map(([code, name]) => ({
 
 <script>
   // Stäng öppen popover vid klick utanför / Escape.
+  // REPO-A11Y-02: Escape ska återföra fokus till summary — annars tappar
+  // tangentbords-/skärmläsaranvändare sin plats när popovern stängs under dem.
   document.addEventListener('click', (e) => {
     for (const d of document.querySelectorAll('details.langswitch[open]')) {
       if (!d.contains(e.target as Node)) d.removeAttribute('open');
     }
   });
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape')
-      for (const d of document.querySelectorAll('details.langswitch[open]')) d.removeAttribute('open');
+    if (e.key !== 'Escape') return;
+    for (const d of document.querySelectorAll('details.langswitch[open]')) {
+      d.removeAttribute('open');
+      d.querySelector<HTMLElement>('summary')?.focus();
+    }
   });
 </script>
 
@@ -88,6 +93,10 @@ const entries = Object.entries(LANGUAGES).map(([code, name]) => ({
     box-shadow: var(--shadow-2);
     padding: var(--space-3);
     animation: pop-in var(--dur-fast) var(--ease-standard);
+    /* REPO-A11Y-02: 27 språk kan overflow:a viewporten (särskilt 200/400 %
+       zoom) — intern scroll i stället för att växeln växer utanför skärmen. */
+    max-height: min(70vh, 480px);
+    overflow-y: auto;
   }
   @keyframes pop-in {
     from { opacity: 0; transform: translateY(4px); }

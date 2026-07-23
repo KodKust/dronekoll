@@ -19,10 +19,15 @@ interface Props {
 }
 const { lang } = Astro.props;
 
-// Text per målspråk (fallback en hanteras av t())
-const texts: Record<string, string> = {};
+// Text per målspråk (fallback en hanteras av t()). REPO-A11Y-02: stäng-
+// etiketten måste också vara på MÅLSPRÅKET (hela bannern är det) — inte den
+// bokstavliga symbolen "✕", som skärmläsare läser upp olika/obegripligt.
+const texts: Record<string, { text: string; close: string }> = {};
 for (const code of LANGUAGE_CODES) {
-  texts[code] = t('langbanner.text', code, { language: LANGUAGES[code] });
+  texts[code] = {
+    text: t('langbanner.text', code, { language: LANGUAGES[code] }),
+    close: t('langbanner.close', code),
+  };
 }
 ---
 
@@ -34,7 +39,7 @@ for (const code of LANGUAGE_CODES) {
   data-texts={JSON.stringify(texts)}
 >
   <a class="langbanner__link" href="#"><span></span> →</a>
-  <button class="langbanner__close" aria-label="✕">
+  <button class="langbanner__close">
     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
       <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round" />
     </svg>
@@ -42,10 +47,28 @@ for (const code of LANGUAGE_CODES) {
 </div>
 
 <script>
+  // REPO-A11Y-02: localStorage kan kasta (privat läge, blockerad lagring,
+  // sandboxad iframe) — en okapslad läsning fick tidigare HELA bannerskriptet
+  // att avbryta. Säker helper: fel → som om inget var sparat/går att spara.
+  function safeStorageGet(key: string): string | null {
+    try {
+      return localStorage.getItem(key);
+    } catch {
+      return null;
+    }
+  }
+  function safeStorageSet(key: string, value: string): void {
+    try {
+      localStorage.setItem(key, value);
+    } catch {
+      /* no-op — offret är att förslaget kan visas igen nästa besök */
+    }
+  }
+
   const banner = document.getElementById('lang-banner');
   if (banner) {
     const pageLang = banner.dataset.pageLang!;
-    const texts: Record<string, string> = JSON.parse(banner.dataset.texts!);
+    const texts: Record<string, { text: string; close: string }> = JSON.parse(banner.dataset.texts!);
     const supported = new Set(Object.keys(texts));
 
     // Första stödda webbläsarspråket (sv-SE → sv)
@@ -53,7 +76,7 @@ for (const code of LANGUAGE_CODES) {
       .map((l) => l.toLowerCase().split('-')[0])
       .find((l) => supported.has(l));
 
-    const dismissed = localStorage.getItem('langSuggest');
+    const dismissed = safeStorageGet('langSuggest');
     if (want && want !== pageLang && dismissed !== want) {
       // Mål: sidans alternate för språket, annars hubben
       const alt = document.querySelector<HTMLLinkElement>(`link[rel="alternate"][hreflang="${want}"]`);
@@ -61,11 +84,13 @@ for (const code of LANGUAGE_CODES) {
 
       const link = banner.querySelector<HTMLAnchorElement>('.langbanner__link')!;
       link.href = href;
-      link.querySelector('span')!.textContent = texts[want];
+      link.querySelector('span')!.textContent = texts[want].text;
+      const closeBtn = banner.querySelector<HTMLButtonElement>('.langbanner__close')!;
+      closeBtn.setAttribute('aria-label', texts[want].close);
       banner.hidden = false;
 
-      banner.querySelector('.langbanner__close')!.addEventListener('click', () => {
-        localStorage.setItem('langSuggest', want);
+      closeBtn.addEventListener('click', () => {
+        safeStorageSet('langSuggest', want);
         banner.hidden = true;
       });
     }
