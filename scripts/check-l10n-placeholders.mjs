@@ -28,12 +28,9 @@ const ADJACENT = /[\p{L}\p{N}]\{|\}[\p{L}\p{N}]/u;
 // Känd backlog (Fas 7): kräver käll-omstrukturering + regenerering, inte
 // symptom-patch. Nyckel → kort skäl. En träff PÅ dessa nycklar tolereras
 // (rapporteras som backlog); en träff på VILKEN ANNAN nyckel som helst fäller.
+// hero.h1.country + faq.q.* deinflekterades 2026-07-23 (Option B: "{country} — …"
+// + FAQ utan {country}) och är rena → utanför allowlist, vakten skyddar dem nu.
 const ALLOWLIST = new Map([
-  ['hero.h1.country', '{country} böjs i mallen — avsnitt 22.2, kräver H1-omstruktur + regen'],
-  ['faq.q.credential', '{country} böjs i frågan — avsnitt 22.2, ta bort {country} ur FAQ + regen'],
-  ['faq.q.rules', '{country} böjs i frågan — avsnitt 22.2, ta bort {country} ur FAQ + regen'],
-  ['faq.q.zones', '{country} böjs i frågan — avsnitt 22.2, ta bort {country} ur FAQ + regen'],
-  ['faq.q.authority', '{country} böjs i frågan — avsnitt 22.2, ta bort {country} ur FAQ + regen'],
   ['faq.tpl.credential.easa', '{credential} böjs (lv) — avsnitt 22, regenerera lv'],
   ['map.load', '{n} felinflekterad (ro) — avsnitt 22, regenerera ro'],
   ['map.partial', '{total} felinflekterad (et/lv) — avsnitt 22, regenerera et/lv'],

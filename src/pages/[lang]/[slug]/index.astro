@@ -76,6 +76,14 @@ const translated = lang === 'en' && c.languageCode !== 'en';
 // Synlig sentinel-split så platshållarens position styr oavsett språkets ordföljd.
 const H1_SENTINEL = '__COUNTRY__';
 const [h1Pre, h1Post = ''] = t('hero.h1.country', lang, { country: H1_SENTINEL }).split(H1_SENTINEL);
+// v8 avsnitt 22.2 (Option B): landsnamnet inleder nu H1 ("{country} — …").
+// enArticle ger "the " bara på engelska (Nederländerna/UK/USA m.fl.) — vid
+// mening­sstart ska den versaliseras ("The Netherlands — …"); mitt i behålls
+// gemener. h1Pre är tom precis när landet står först.
+const rawArticle = enArticle(page.iso, lang);
+const h1Article = h1Pre.length === 0 && rawArticle
+  ? rawArticle.charAt(0).toUpperCase() + rawArticle.slice(1)
+  : rawArticle;
 
 const sections = [
   'rules',
@@ -137,7 +145,7 @@ const ldBlocks = [
         decoding="async"
       />
       <h1>
-        {h1Pre}{enArticle(page.iso, lang)}<span class="h-accent">{page.displayName}</span>{h1Post}
+        {h1Pre}{h1Article}<span class="h-accent">{page.displayName}</span>{h1Post}
       </h1>
       <p class="lede prose">{t('hero.lede.country', lang)}</p>
       <div class="hero__meta">
