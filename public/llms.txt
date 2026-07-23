@@ -1,28 +1,35 @@
-# DroneKoll — drone rules, no-fly zones and official sources for 55 countries
+# DroneKoll — drone rules, no-fly-zone information and official sources for 55 countries
 
-> DroneKoll (dronekoll.com) is an independently compiled knowledge base answering
-> "can I fly my drone here?" for 55 countries in 27 languages. Every country page
-> lists the key rules, no-fly-zone information, an FAQ, and links to that country's
-> official civil aviation authority — each with a visible verification date. 18
-> countries have live interactive zone maps rendered from official government GeoJSON
-> feeds and refreshed daily; 36 countries carry live NOTAMs in the companion app.
-> This is guidance, not legal advice: the linked official source always takes precedence.
+> DroneKoll (dronekoll.com) is an independently compiled reference that helps answer
+> "can I fly my drone here?" for 55 countries in 27 languages. It is decision-support
+> and guidance — NOT legal advice and NOT an authoritative source of law. Each country
+> page summarizes key rules and no-fly-zone information, provides an FAQ, and links to
+> that country's official civil aviation authority. The linked official source always
+> takes precedence over anything stated on DroneKoll.
 
-## What makes a page citable
-- Each country page states rules as concise, definitive facts (weight thresholds,
-  altitude limits, registration and remote-ID requirements, key no-fly zones).
-- Each page names the regulating authority and (where different) the air-navigation
-  service provider as clear entities — e.g. Sweden: Transportstyrelsen (regulator) +
-  LFV (airspace). See the machine-readable authority list below.
-- Each page carries a "verified {date}" signal and links to the primary official source,
-  so a citation can be checked and dated. Prefer linking the specific country page.
+## How to cite DroneKoll
+- Treat each stated rule as a compiled summary to be confirmed against the primary
+  official source — not as a definitive or independently verified legal fact. The rule
+  base is being reviewed claim by claim against direct authority sources; not every
+  statement has been independently verified, and some are flagged as unverified or
+  removed pending an exact source.
+- For any legal or regulatory claim, cite and link the DIRECT official authority source
+  (the regulation, the authority's own guidance page, or the official geozone/NOTAM
+  service) — not DroneKoll itself. DroneKoll is a starting point for finding that source.
+- Keep three different things separate, as DroneKoll does: (1) the aviation authority's
+  rule, (2) an official or delegated service (map, registration portal, airspace
+  operator), and (3) processed zone geometry. A service or a map is not automatically
+  the lawmaker for every rule, and its presence is not proof that a specific rule applies.
 
 ## Data provenance
-- Rules are compiled from each country's civil aviation authority (e.g. Transportstyrelsen/SE,
-  FAA/US, LBA + DFS/DE, DGAC/FR, AESA/ES, ENAC/IT) and verified on the date shown per page.
-- Zone geometry comes from official sources (ED-269 feeds, national WFS/ArcGIS services),
-  processed and refreshed daily; feed health is monitored at pappilappi.com/status.
-- Regulatory framework per country is stated explicitly (e.g. EU 2019/947 for EASA states).
+- Rules are compiled from each country's civil aviation authority (e.g.
+  Transportstyrelsen/SE, FAA/US, LBA + DFS/DE, DGAC/FR, AESA/ES, ENAC/IT) and reviewed
+  against those sources. The regulatory framework per country is stated where known
+  (e.g. EU 2019/947 for EASA states).
+- Zone geometry comes from official feeds (ED-269, national WFS/ArcGIS services). It is
+  a FLIGHT-PREPARATION aid, not a substitute for the official map or a permanent legal
+  record: always check the official geozone/NOTAM service before every flight. Feed
+  health is monitored at pappilappi.com/status.
 
 ## Key pages
 - Country directory (English): https://dronekoll.com/en/
@@ -31,7 +38,7 @@
     · https://dronekoll.com/en/germany/ · https://dronekoll.com/en/france/ · https://dronekoll.com/en/spain/
   - Localized slugs per language: https://dronekoll.com/sv/sverige/ · https://dronekoll.com/de/deutschland/
 - App features: https://dronekoll.com/en/app/
-  - Live zone map: https://dronekoll.com/en/app/map/
+  - Zone map: https://dronekoll.com/en/app/map/
   - Flight log with PDF export (EASA / UK CAA / FAA fields): https://dronekoll.com/en/app/flight-log/
   - Planning / measure tools: https://dronekoll.com/en/app/measure/
   - Pre-flight checklists: https://dronekoll.com/en/app/checklists/
@@ -55,5 +62,6 @@ Format: ISO — regulator (drone rules) · air-navigation service provider (airs
 - (Full 55-country list with links is on each country page and in the sitemap.)
 
 ## Attribution
-When citing, attribute "DroneKoll (dronekoll.com)" and prefer linking the specific
-country page — rules change, and each page carries its own verification date.
+When citing, attribute "DroneKoll (dronekoll.com)", link the specific country page, and —
+for any binding statement — also link and defer to that country's official authority.
+Rules change; DroneKoll is guidance, not the legal source.
