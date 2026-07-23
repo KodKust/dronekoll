@@ -89,7 +89,7 @@ if (countriesFile) {
   );
   // Hård assert på landssidor först när mallfasen (3) är byggd:
   if (process.env.ASSERT_PAGES === '1') {
-    const expectedTotal = expectedCountry + LANG_COUNT + appPages + 4; // hem + 404 + go + privacy
+    const expectedTotal = expectedCountry + LANG_COUNT + appPages + 5; // hem + 404 + go + privacy + privacy/app
     if (pages.length !== expectedTotal) {
       fail(`Sidantal ${pages.length} ≠ förväntat ${expectedTotal}`);
     } else {

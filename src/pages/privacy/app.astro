@@ -1,0 +1,275 @@
+---
+/**
+ * Integritetspolicy — APPEN (DroneKoll/Drönarkollen mobilapp). Faktabaserad,
+ * byggd på verklig behandlingsinventering av app-repot (dronarkartan) 2026-07-23:
+ * iOS PrivacyInfo.xcprivacy (precis plats + kraschdata, ej spårning), Firebase
+ * Crashlytics (crash_obs.dart custom keys), geolocator (lokal), area-anrop
+ * (adsb.fi/open-meteo/nominatim/LFV/Aloft…), flyglogg i flutter_secure_storage
+ * (lokal), IAP via App Store/Google Play. Ersätter gamla pappilappi.com/privacy.html.
+ * Webbplatsens policy bor separat på /privacy/. EN + SV på samma kanoniska sida.
+ *
+ * ⚠️ Kräver Kristoffers/jurists slutkontroll före live + ASC-metadata-länk
+ * (App Store pekar idag på pappilappi.com/privacy.html) + appens in-app-länk
+ * (paywall_screen.dart + countries.json privacyPolicyUrl) uppdateras hit.
+ */
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const updated = '2026-07-23';
+const title = 'App privacy policy · Appens integritetspolicy — DroneKoll';
+const description =
+  'How the DroneKoll mobile app processes data: precise location used on-device, crash diagnostics, no ads, no tracking, no account. Så behandlar DroneKoll-appen uppgifter.';
+---
+
+<Base title={title} description={description} lang="en">
+  <Header lang="en" cluster={[]} />
+
+  <main id="main-content">
+    <section class="band band--paper">
+      <div class="content legal">
+        <p class="overline">App privacy · Appens integritet</p>
+        <h1>Privacy policy — DroneKoll app</h1>
+        <p class="legal__lang"><a href="#sv">På svenska ↓</a></p>
+        <p class="legal__updated">Last updated: {updated}</p>
+
+        <p>
+          This policy explains what personal data is processed when you use the
+          <strong>DroneKoll mobile app</strong> (also published as Drönarkollen / DroneKoll /
+          DrohnenKoll), why, on what legal basis, how long it is kept, who receives it and
+          your rights. It covers the <strong>app only</strong>. The
+          <a href="/privacy/">dronekoll.com website</a> is covered by a separate policy.
+        </p>
+        <p>
+          <strong>Controller:</strong> DroneKoll (Kristoffer Nordgren), Västerås, Sweden.
+          Contact: <a href="mailto:kristoffer.nordgren@gmail.com">kristoffer.nordgren@gmail.com</a>.
+        </p>
+
+        <h2>What is processed, and why</h2>
+        <ol>
+          <li>
+            <strong>Precise location — used on your device.</strong> With your permission, the
+            app uses your device's precise location to centre the map on you, show your
+            position, check which airspace zones are near you, and — if you turn on flight
+            warnings — alert you about nearby restrictions while a flight is active, including
+            when the screen is locked. This happens <strong>on your device</strong>; your
+            location is <strong>not stored on our servers</strong> and is never linked to your
+            identity or used for advertising.
+          </li>
+          <li>
+            <strong>Map, airspace, traffic and weather look-ups.</strong> The app's core job is
+            to show data for a place. When you open the map, load airspace zones, show live air
+            traffic, check the weather, look up elevation, or search for an address, the app
+            sends the <strong>coordinates of the area you are viewing</strong> (or your search
+            text) to the relevant data provider so it can return results for that area. To
+            deliver a response, those providers necessarily receive an IP address and the
+            coordinates/text requested. Providers include: map tiles — <strong>CARTO</strong>,
+            <strong>OpenStreetMap</strong>, Esri; airspace and drone maps — national aviation
+            authorities and services such as <strong>LFV</strong> (Sweden), <strong>Aloft</strong>
+            and the <strong>FAA</strong> (USA), <strong>IGN/Géoplateforme</strong> (France) and
+            others per country; air traffic — <strong>adsb.fi</strong>, planespotters.net;
+            weather — <strong>Open-Meteo</strong>, RainViewer, aviationweather.gov; address and
+            place-name look-up — <strong>OpenStreetMap Nominatim</strong>, Photon; elevation —
+            Open-Elevation. Each processes the request under its own privacy policy.
+            <em>Legal basis:</em> legitimate interest and performance of the service (showing the
+            information you asked for).
+          </li>
+          <li>
+            <strong>Rule content and airspace data.</strong> The app downloads its country rule
+            summaries, translations, restriction zones and NOTAM data from
+            <strong>GitHub</strong> (githubusercontent.com) and from our own infrastructure
+            <strong>pappilappi.com</strong> and <strong>dronekoll.com</strong>. These requests
+            include the country and language you are viewing; the serving host receives an IP
+            address. No account or identifier of yours is attached.
+          </li>
+          <li>
+            <strong>Crash diagnostics (Firebase Crashlytics — Google).</strong> If the app
+            crashes or hits a serious error, a crash report is sent to Firebase Crashlytics
+            (Google). It contains the technical stack trace, a short rolling log of recent
+            in-app steps, and a few app-state values that help us reproduce the fault: the drone
+            model label you selected, the country code in view, whether a flight was active, and
+            your subscription state. It does <strong>not</strong> contain your name, account,
+            or location. It is <strong>not</strong> used for tracking or advertising (the app
+            declares no tracking). <em>Legal basis:</em> legitimate interest (keeping the app
+            stable and safe).
+          </li>
+          <li>
+            <strong>Subscriptions.</strong> The optional subscription is handled entirely by
+            <strong>Apple's App Store</strong> or <strong>Google Play</strong>. They validate
+            your purchase and tell the app whether it is active. We receive purchase/receipt
+            confirmation to unlock features — we <strong>never receive or store your card
+            details</strong>. Apple and Google process payments under their own policies.
+          </li>
+          <li>
+            <strong>Data kept on your device.</strong> Your settings, your subscription state,
+            and your <strong>flight log</strong> are stored on your device (the flight log in the
+            device's secure storage). The flight log is <strong>never uploaded</strong> to us or
+            to any cloud; it stays on your phone. Log entries can include a place name derived
+            from your GPS position via address look-up (see point 2), and you can turn that
+            location off for the log and delete entries at any time.
+          </li>
+        </ol>
+
+        <p>
+          <strong>No ads. No cross-app tracking. No account or login. We do not sell your data.</strong>
+        </p>
+
+        <h2>Recipients and international transfers</h2>
+        <p>
+          Crash diagnostics: Google (Firebase). Payments: Apple, Google. Rule/airspace data and
+          look-ups: GitHub, pappilappi.com and dronekoll.com (our own), and the map/airspace/
+          traffic/weather/geocoding providers listed above. Some of these are outside the EU/EEA
+          (e.g. Google and Apple in the USA); such transfers rely on the providers' own
+          safeguards, such as standard contractual clauses.
+        </p>
+
+        <h2>Automated decision-making</h2>
+        <p>
+          No automated decision-making that produces legal effects takes place. The map's zone
+          colours and any "go / check first" indication are <strong>informational guidance</strong>
+          to help you plan — they are not an official clearance and do not decide anything about you.
+        </p>
+
+        <h2>Your rights (GDPR)</h2>
+        <p>
+          You have the right to access, rectification, erasure, restriction, objection and data
+          portability where applicable, and to lodge a complaint with the Swedish Authority for
+          Privacy Protection (<strong>IMY</strong>). Because your flight log and settings live on
+          your device, you control them directly — delete entries in the app, or remove the app to
+          erase them. For anything held via crash diagnostics, contact us at the email above.
+        </p>
+        <p class="legal__updated">We may update this policy; the "last updated" date reflects the current version.</p>
+
+        <hr class="legal__rule" id="sv" />
+
+        <h2>Integritetspolicy — DroneKoll-appen (svenska)</h2>
+        <p class="legal__updated">Senast uppdaterad: {updated}</p>
+        <p>
+          Denna policy beskriver vilka personuppgifter som behandlas när du använder
+          <strong>DroneKoll-appen</strong> (även utgiven som Drönarkollen / DroneKoll /
+          DrohnenKoll), varför, på vilken rättslig grund, hur länge de sparas, vilka mottagare
+          som finns och vilka rättigheter du har. Den gäller <strong>endast appen</strong>.
+          <a href="/privacy/">Webbplatsen dronekoll.com</a> omfattas av en separat policy.
+        </p>
+        <p>
+          <strong>Personuppgiftsansvarig:</strong> DroneKoll (Kristoffer Nordgren), Västerås,
+          Sverige. Kontakt:
+          <a href="mailto:kristoffer.nordgren@gmail.com">kristoffer.nordgren@gmail.com</a>.
+        </p>
+
+        <h3>Vad som behandlas och varför</h3>
+        <ol>
+          <li>
+            <strong>Precis plats — används på din enhet.</strong> Med ditt tillstånd använder
+            appen din enhets precisa plats för att centrera kartan på dig, visa din position,
+            kontrollera vilka luftrumszoner som finns nära dig och — om du slår på flygvarningar —
+            varna för restriktioner i närheten medan en flygning pågår, även när skärmen är låst.
+            Detta sker <strong>på din enhet</strong>; din plats <strong>lagras inte på våra
+            servrar</strong> och kopplas aldrig till din identitet eller används för annonser.
+          </li>
+          <li>
+            <strong>Uppslag av karta, luftrum, trafik och väder.</strong> Appens kärnuppgift är
+            att visa data för en plats. När du öppnar kartan, laddar luftrumszoner, visar
+            flygtrafik i realtid, kollar vädret, slår upp höjd över havet eller söker en adress,
+            skickar appen <strong>koordinaterna för det område du tittar på</strong> (eller din
+            söktext) till respektive datakälla för att få tillbaka resultat för området. För att
+            kunna svara tar de källorna nödvändigtvis emot en IP-adress och de koordinater/den
+            text som efterfrågas. Källor är bl.a.: karttiles — <strong>CARTO</strong>,
+            <strong>OpenStreetMap</strong>, Esri; luftrum och drönarkartor — nationella
+            luftfartsmyndigheter och tjänster som <strong>LFV</strong> (Sverige),
+            <strong>Aloft</strong> och <strong>FAA</strong> (USA), <strong>IGN/Géoplateforme</strong>
+            (Frankrike) m.fl. per land; flygtrafik — <strong>adsb.fi</strong>, planespotters.net;
+            väder — <strong>Open-Meteo</strong>, RainViewer, aviationweather.gov; adress- och
+            platsnamnsuppslag — <strong>OpenStreetMap Nominatim</strong>, Photon; höjddata —
+            Open-Elevation. Var och en behandlar anropet enligt sin egen integritetspolicy.
+            <em>Rättslig grund:</em> berättigat intresse och fullgörande av tjänsten (att visa den
+            information du bett om).
+          </li>
+          <li>
+            <strong>Regelinnehåll och luftrumsdata.</strong> Appen hämtar sina
+            landsregelsammanfattningar, översättningar, restriktionszoner och NOTAM-data från
+            <strong>GitHub</strong> (githubusercontent.com) och från vår egen infrastruktur
+            <strong>pappilappi.com</strong> och <strong>dronekoll.com</strong>. Anropen innehåller
+            vilket land och språk du tittar på; den levererande värden tar emot en IP-adress.
+            Ingen kopplas till något konto eller identifierare hos dig.
+          </li>
+          <li>
+            <strong>Kraschdiagnostik (Firebase Crashlytics — Google).</strong> Om appen kraschar
+            eller stöter på ett allvarligt fel skickas en kraschrapport till Firebase Crashlytics
+            (Google). Den innehåller den tekniska anropsstacken, en kort rullande logg över de
+            senaste stegen i appen, och några app-tillståndsvärden som hjälper oss återskapa
+            felet: den drönarmodell du valt, landskoden som visas, om en flygning var aktiv och
+            din prenumerationsstatus. Den innehåller <strong>inte</strong> ditt namn, konto eller
+            din plats. Den används <strong>inte</strong> för spårning eller annonser (appen
+            deklarerar ingen spårning). <em>Rättslig grund:</em> berättigat intresse (att hålla
+            appen stabil och säker).
+          </li>
+          <li>
+            <strong>Prenumerationer.</strong> Den valfria prenumerationen hanteras helt av
+            <strong>Apples App Store</strong> eller <strong>Google Play</strong>. De validerar
+            ditt köp och talar om för appen om det är aktivt. Vi tar emot köp-/kvittobekräftelse
+            för att låsa upp funktioner — vi <strong>tar aldrig emot eller lagrar dina
+            kortuppgifter</strong>. Apple och Google behandlar betalningar enligt sina egna
+            policyer.
+          </li>
+          <li>
+            <strong>Data som stannar på din enhet.</strong> Dina inställningar, din
+            prenumerationsstatus och din <strong>flyglogg</strong> lagras på din enhet (flygloggen
+            i enhetens säkra lagring). Flygloggen <strong>laddas aldrig upp</strong> till oss eller
+            något moln; den stannar i din telefon. Loggposter kan innehålla ett platsnamn som
+            härletts ur din GPS-position via adressuppslag (se punkt 2), och du kan stänga av den
+            platsen för loggen och radera poster när som helst.
+          </li>
+        </ol>
+
+        <p>
+          <strong>Inga annonser. Ingen spårning över appar. Inget konto eller inloggning. Vi
+          säljer inte dina uppgifter.</strong>
+        </p>
+
+        <h3>Mottagare och överföringar</h3>
+        <p>
+          Kraschdiagnostik: Google (Firebase). Betalningar: Apple, Google. Regel-/luftrumsdata och
+          uppslag: GitHub, pappilappi.com och dronekoll.com (vår egen), samt karta-/luftrums-/
+          trafik-/väder-/geokodningskällorna ovan. Några av dessa finns utanför EU/EES (t.ex.
+          Google och Apple i USA); sådana överföringar vilar på leverantörernas egna
+          skyddsåtgärder, såsom standardavtalsklausuler.
+        </p>
+
+        <h3>Automatiserat beslutsfattande</h3>
+        <p>
+          Inget automatiserat beslutsfattande med rättslig verkan förekommer. Kartans zonfärger
+          och eventuell "flyg / kontrollera först"-indikering är <strong>informativ
+          vägledning</strong> för din planering — de är inte en officiell klarering och avgör
+          ingenting om dig.
+        </p>
+
+        <h3>Dina rättigheter (GDPR)</h3>
+        <p>
+          Du har rätt till tillgång, rättelse, radering, begränsning, invändning och
+          dataportabilitet när den är tillämplig, samt att klaga hos
+          Integritetsskyddsmyndigheten (<strong>IMY</strong>). Eftersom din flyglogg och dina
+          inställningar bor på din enhet styr du dem direkt — radera poster i appen, eller ta bort
+          appen för att radera dem. För sådant som hanterats via kraschdiagnostik, kontakta oss via
+          e-postadressen ovan.
+        </p>
+        <p class="legal__updated">Vi kan uppdatera policyn; datumet "senast uppdaterad" visar aktuell version.</p>
+      </div>
+    </section>
+  </main>
+
+  <Footer lang="en" />
+</Base>
+
+<style>
+  .legal { max-width: var(--w-prose); }
+  .legal h1 { margin-bottom: var(--space-2); }
+  .legal h2 { margin: var(--space-7) 0 var(--space-3); }
+  .legal h3 { margin: var(--space-5) 0 var(--space-2); }
+  .legal p, .legal li { line-height: 1.65; }
+  .legal ol { display: grid; gap: var(--space-4); padding-left: 1.25rem; }
+  .legal__lang { margin: 0 0 var(--space-2); }
+  .legal__updated { color: var(--ink-2); font-size: var(--text-small); }
+  .legal__rule { margin: var(--space-8) 0; border: 0; border-top: 1px solid var(--hairline); }
+  .legal code { background: var(--canvas); padding: 1px 6px; border-radius: var(--r-sm); font-size: 0.9em; }
+</style>
