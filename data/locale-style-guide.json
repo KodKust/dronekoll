@@ -1,0 +1,198 @@
+{
+  "_doc": "Fas 7 / avsnitt 22.8 — kodifierar DroneKolls röst per locale och LÖSER de dokumenterade blandningarna (du/ni, formell/informell, live-calques). App-rösten är medvetet 'pilot-till-pilot, inte myndighetstext' → informellt (T) default där språket stödjer det; fr artigt (vous) per etablerat val. Grundat i matris-workflow.mjs per-språk-noter. Överstyrbart av Kristoffer; per-locale native-bekräftelse önskvärd men ej gate (native-QA-policy). Termer bor i terminology.json — droneTerm här är snabbreferens. reviewLevel-fältet i overlay.meta ska aldrig sättas 'native/native_legal' utan mänsklig granskning (L10N-04).",
+  "_version": 1,
+  "_common": {
+    "neverLive": "Använd aldrig 'live/direktsändning' som färskhet — se terminology.data_feed.",
+    "authorityNames": "Myndighetsnamn (LFV, EASA, FAA…) behålls i latinsk form även i kyrilliska/grekiska.",
+    "numbersUnits": "Ändra ALDRIG siffror/enheter/EASA-koder vid översättning."
+  },
+  "bg": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "дрон",
+    "note": "Kyrilliska."
+  },
+  "cs": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "dron",
+    "note": "Korrekt kasus; 'Můžete' (konsekvent), ej växla Můžeš/Můžete."
+  },
+  "da": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "drone",
+    "note": "Ej svenska calques."
+  },
+  "de": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "Drohne",
+    "note": "'du' genomgående (pilot-till-pilot-röst) — aldrig blanda Sie/du."
+  },
+  "el": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "drone",
+    "note": "Grekiskt alfabet; latinska myndighetsnamn kvar; ett tilltal."
+  },
+  "en": {
+    "formality": "neutral",
+    "preferredPronoun": "neutral",
+    "decimalSeparator": ".",
+    "droneTerm": "drone",
+    "note": ""
+  },
+  "es": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "dron",
+    "note": "Neutral ES+LatAm, 'tú'."
+  },
+  "et": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "droon",
+    "note": "Kasusböjning."
+  },
+  "fi": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "drooni",
+    "note": "Korrekt kasusböjning."
+  },
+  "fr": {
+    "formality": "formal-polite",
+    "preferredPronoun": "V",
+    "decimalSeparator": ",",
+    "droneTerm": "drone",
+    "note": "'vous' (artigt), 'télépilote'."
+  },
+  "hr": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "dron",
+    "note": "DeepL saknar → Opus enda källa, extra kvalitet."
+  },
+  "hu": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "drón",
+    "note": "Agglutination; konsekvent tilltal (ej blanda betartod/ellenőrizze)."
+  },
+  "is": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "dróni",
+    "note": "DeepL saknar → korrekt kasus/genus; språknamn böjs, använd separat länklabel."
+  },
+  "it": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "drone",
+    "note": "'tu' eller 'Lei' konsekvent."
+  },
+  "lt": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "dronas",
+    "note": "Kasusböjning."
+  },
+  "lv": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "drons",
+    "note": "Makron ā/ē/ī/ū."
+  },
+  "mt": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "drone",
+    "note": "DeepL saknar → räkneordsgrammatik; artiklar/elision behöver särskild review."
+  },
+  "nl": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "drone",
+    "note": "'je' (informellt) genomgående — aldrig 'u/uw'."
+  },
+  "no": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "drone",
+    "note": "Bokmål; 'du' eller opersonligt 'man' konsekvent, ej bådadera."
+  },
+  "pl": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "dron",
+    "note": "Korrekt kasus."
+  },
+  "pt": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "drone",
+    "note": "Europeisk/neutral; håll 'tu' ELLER 'você' konsekvent, blanda ej 'teu/seu'."
+  },
+  "ro": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "dronă",
+    "note": "ș/ț; ett tilltal (ej blanda tu/dumneavoastră)."
+  },
+  "sk": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "dron",
+    "note": "Korrekt genus/kasus."
+  },
+  "sl": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "dron",
+    "note": ""
+  },
+  "sv": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "drönare",
+    "note": "Naturlig svenska, 'drönare/drönarkort', inga danismer."
+  },
+  "tr": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "drone",
+    "note": "Vokalharmoni, İ/ı; 'canlı' ALDRIG för teknisk aktuell data."
+  },
+  "uk": {
+    "formality": "informal",
+    "preferredPronoun": "T",
+    "decimalSeparator": ",",
+    "droneTerm": "дрон",
+    "note": "Kyrilliska, ej ryska calques."
+  }
+}

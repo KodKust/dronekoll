@@ -16,7 +16,7 @@
  *
  * Kör: node scripts/check-l10n-placeholders.mjs  (ingår i npm run check)
  */
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
 const ROOT = process.cwd();
@@ -28,13 +28,11 @@ const ADJACENT = /[\p{L}\p{N}]\{|\}[\p{L}\p{N}]/u;
 // Känd backlog (Fas 7): kräver käll-omstrukturering + regenerering, inte
 // symptom-patch. Nyckel → kort skäl. En träff PÅ dessa nycklar tolereras
 // (rapporteras som backlog); en träff på VILKEN ANNAN nyckel som helst fäller.
-// hero.h1.country + faq.q.* deinflekterades 2026-07-23 (Option B: "{country} — …"
-// + FAQ utan {country}) och är rena → utanför allowlist, vakten skyddar dem nu.
-const ALLOWLIST = new Map([
-  ['faq.tpl.credential.easa', '{credential} böjs (lv) — avsnitt 22, regenerera lv'],
-  ['map.load', '{n} felinflekterad (ro) — avsnitt 22, regenerera ro'],
-  ['map.partial', '{total} felinflekterad (et/lv) — avsnitt 22, regenerera et/lv'],
-]);
+// Fas 7 (2026-07-23): hela avsnitt 22:s platshållar-limningsbacklog är nu
+// utrensad — hero.h1.country + faq.q.* deinflekterade (Option B), {date}-glapp,
+// franska/ro/et/lv-talformer och lv-{credential} rättade. Allowlisten är TOM:
+// varje ny bokstav/siffra intill {platshållare} fäller nu bygget direkt.
+const ALLOWLIST = new Map();
 
 let hardFailures = 0;
 const backlog = [];
@@ -64,6 +62,35 @@ if (backlog.length) {
   console.log(`L10N-platshållarvakt — känd backlog (Fas 7, tolererad):`);
   console.log(backlog.join('\n'));
 }
+
+// ── L10N-04: ingen overlay får PÅSTÅ mänsklig granskning som inte gjorts ──────
+// reviewLevel 'native'/'native_legal' kräver en modersmåls-/juristgranskning som
+// projektet inte utför (native-QA-policyn). Ett sådant värde vore ett falskt
+// "verifierad"-löfte → fail-closed. Frånvarande/machine/ai_qa är ärligt och OK.
+const CONTENT = join(ROOT, 'src', 'content');
+let overlaysScanned = 0;
+if (existsSync(CONTENT)) {
+  for (const lang of readdirSync(CONTENT)) {
+    const dir = join(CONTENT, lang);
+    if (lang === 'faq-overrides' || !statSync(dir).isDirectory()) continue;
+    for (const f of readdirSync(dir)) {
+      if (!f.endsWith('.json') || f.startsWith('_')) continue;
+      overlaysScanned++;
+      let meta;
+      try {
+        meta = JSON.parse(readFileSync(join(dir, f), 'utf8'))?.meta;
+      } catch {
+        continue;
+      }
+      const rl = meta?.reviewLevel;
+      if (rl === 'native' || rl === 'native_legal') {
+        hardFailures++;
+        console.error(`✗ src/content/${lang}/${f}: meta.reviewLevel="${rl}" — mänsklig native-granskning görs inte i detta projekt; överlova aldrig (L10N-04).`);
+      }
+    }
+  }
+}
+if (overlaysScanned > 0) console.log(`L10N-04: ${overlaysScanned} överlägg skannade för falska native-påståenden.`);
 
 if (hardFailures === 0) {
   console.log('\nL10N-platshållarvakt GRÖN (inga nya platshållar-limningar).');

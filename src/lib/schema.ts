@@ -173,6 +173,15 @@ export const EnOverlaySchema = z.object({
     translatedAt: z.string(),
     engine: z.enum(['deepl', 'manual', 'opus-4-8']),
     sourceLang: z.string().nullish(),
+    // v8-revision L10N-04: ärlig proveniens. reviewLevel är den enda källan
+    // som UI får lita på för att påstå granskningsgrad. FRÅNVARO = icke-native
+    // (maskin/ai_qa). 'native'/'native_legal' kräver en mänsklig granskning som
+    // projektet inte gör → check-l10n-placeholders.mjs fäller bygget om de sätts
+    // (native-QA-policyn: överlova aldrig). sourceLocale/terminologyVersion bär
+    // spårbarhet mot terminology.json + locale-style-guide.json.
+    reviewLevel: z.enum(['machine', 'ai_qa', 'native', 'native_legal']).nullish(),
+    sourceLocale: z.string().nullish(),
+    terminologyVersion: z.number().nullish(),
   }),
   fields: z
     .object({

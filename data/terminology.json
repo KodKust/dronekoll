@@ -1,0 +1,22 @@
+{
+  "_doc": "Fas 7 / L10N-03 — kanonisk begreppsordlista för YMYL-drönartermer. Låser EN-källterm + definition + svensk term, så samma koncept aldrig får olika ord i olika strängar. EN + sv är auktoritativa nu; övriga språk populeras vid den språkmedvetna regenereringen av de 166 centrala strängarna (LANG-03/04) med per-locale native-granskning. terminologyVersion refereras i overlay.meta (L10N-04). Ändra aldrig en fastställd term utan att bumpa version + regenerera berörda strängar.",
+  "_version": 1,
+  "drone_uas": { "en": "drone", "enFormal": "unmanned aircraft (UAS)", "sv": "drönare", "svFormal": "obemannat luftfartyg (UAS)", "note": "Använd vardagsordet i brödtext; myndighetsformen bara där lagtext citeras. ALDRIG 'flygplan/aircraft' för en drönare (avsnitt 22.4)." },
+  "drone_operator": { "en": "drone operator", "sv": "operatör", "note": "Den registrerade ansvariga — INTE samma som fjärrpiloten. Håll isär." },
+  "remote_pilot": { "en": "remote pilot", "sv": "fjärrpilot", "note": "Den som faktiskt manövrerar. Skilj från operator." },
+  "operator_registration": { "en": "operator registration", "sv": "operatörsregistrering", "note": "Registrering av operatören, ej av drönaren." },
+  "competency_certificate": { "en": "certificate of competency", "sv": "kompetensbevis", "note": "Generisk term; landssidor kan visa den vardagliga lokala termen (t.ex. 'drönarkort') via dronePilotCredentialName." },
+  "open_category": { "en": "open category", "sv": "öppen kategori", "note": "EASA-kategorin. Gemener på svenska." },
+  "subcat_a1_a3": { "en": "subcategories A1 and A3", "sv": "underkategori A1 och A3", "note": "Behåll bokstavskoderna ordagrant i alla språk." },
+  "subcat_a2": { "en": "subcategory A2", "sv": "underkategori A2", "note": "Behåll 'A2' ordagrant." },
+  "vlos": { "en": "visual line of sight (VLOS)", "sv": "inom synhåll (VLOS)", "note": "Behåll förkortningen VLOS i alla språk." },
+  "uas_geographical_zone": { "en": "UAS geographical zone", "sv": "geografisk UAS-zon", "note": "Den formella zon-termen; 'restriktionsområde/förbudsområde' är egna begrepp (nedan)." },
+  "prohibited_area": { "en": "prohibited area", "sv": "förbudsområde", "note": "Absolut förbud. Skilj från restricted_area." },
+  "restricted_area": { "en": "restricted area", "sv": "restriktionsområde", "note": "Villkorat, ej absolut. Blanda aldrig ihop med prohibited_area." },
+  "notam": { "en": "NOTAM", "sv": "NOTAM", "note": "Behåll versalt i alla språk; översätt aldrig." },
+  "official_authority": { "en": "official authority", "sv": "ansvarig myndighet", "note": "Myndigheten som reglerar; skilj från en delegerad tjänst (nedan)." },
+  "delegated_service": { "en": "delegated service", "sv": "delegerad tjänst", "note": "Karttjänst/operatör (t.ex. LFV drönarkarta, d-flight, Aloft) — får ALDRIG märkas som normkälla (REPO-P0-03)." },
+  "data_feed": { "en": "data feed", "sv": "dataflöde", "note": "Teknisk källa. Använd ALDRIG 'live/direktsändning' som färskhetsindikator (avsnitt 22.7)." },
+  "legally_reviewed": { "en": "legally reviewed", "sv": "juridiskt granskad", "note": "Får bara användas när en människa gjort native_legal-granskning (L10N-04). Annars aldrig." },
+  "data_updated": { "en": "data updated", "sv": "data uppdaterad", "note": "Teknisk färskhet. Skilj strikt från 'regler kontrollerade' (juridiskt datum) — de får aldrig skriva över varandra (REPO-P0-04)." }
+}
