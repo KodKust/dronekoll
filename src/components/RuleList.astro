@@ -1,90 +1,37 @@
 ---
 /**
- * Regellistan — TYPOGRAFISK (inga kort, max 68ch). Check-chip i go-wash;
- * villkors-/varningsregler (heuristik på nyckelord) får warn-chip.
- * Aldrig en ✅-vägg.
- *
- * v8-revision: statuses[i] är positionellt alignad med rules[i] (validerat
- * 818/818 i generatorn). Bara icke-VERIFIED/ADVISORY-rader får en caveat-tagg
- * — annars blir listan en "verifierad"-vägg igen, fast med ett annat ord.
- * Frånvaro av tagg = källsatt av en direkt myndighetskälla (REPO-P0-03).
+ * Regellistan — TYPOGRAFISK (inga kort, max 68ch). REN lista: reglerna står
+ * fria utan per-rad-status/ikoner. Översynsdatum visas separat via
+ * FreshnessBadge ("Rules checked {date}") — vi lovar aldrig "verifierad", men
+ * säger när reglerna senast sågs över. Legal-registret/legalStatus är ett
+ * INTERNT arbetsverktyg och surfas inte här (Kristoffers beslut 2026-07-24;
+ * de gamla per-rad-taggarna undergrävde trovärdigheten).
  */
-import { t } from '../lib/i18n';
-import type { LegalClaimStatus } from '../lib/schema';
-
 interface Props {
   rules: string[];
-  statuses?: LegalClaimStatus[];
-  lang: string;
 }
-const { rules, statuses, lang } = Astro.props;
-
-// Regler som uttrycker förbud/krav på tillstånd markeras med varnings-chip.
-const warnRe =
-  /förbjud|förbud|tillstånd|inte tillåt|krävs|kräver|prohibi|forbidden|not allowed|require|authoris|authoriz|autorisa|autoriz|verbot|erforder|interdit|obligatoire|obrigatór|obligator|vietat|verboden|verplicht|zakaz|tilos|förbjuden/i;
-
-const caveatKey: Record<string, string> = {
-  UNVERIFIED: 'claimstatus.unverified',
-  REWRITE_NEEDED: 'claimstatus.review',
-  ADVISORY: 'claimstatus.advisory',
-};
-
-const items = rules.map((text, i) => {
-  const cs = statuses?.[i];
-  const caveat = cs && caveatKey[cs.reviewState] ? t(caveatKey[cs.reviewState], lang) : null;
-  return { text, warn: warnRe.test(text), caveat };
-});
+const { rules } = Astro.props;
 ---
 
 <ul class="rules prose" data-stagger>
-  {items.map((r) => (
+  {rules.map((text) => (
     <li class="rules__item">
-      <span class={`rules__chip ${r.warn ? 'rules__chip--warn' : ''}`} aria-hidden="true">
-        {r.warn ? (
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6">
-            <path d="M12 5v9M12 18.5v.01" stroke-linecap="round" />
-          </svg>
-        ) : (
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6">
-            <path d="M5 13l4.5 4.5L19 7" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        )}
-      </span>
-      <span class="rules__text">
-        {r.text}
-        {r.caveat && <span class="rules__caveat">{r.caveat}</span>}
-      </span>
+      <span class="rules__marker" aria-hidden="true"></span>
+      <span class="rules__text">{text}</span>
     </li>
   ))}
 </ul>
 
 <style>
-  .rules { list-style: none; margin: 0; padding: 0; display: grid; gap: 20px; }
-  .rules__item { display: flex; gap: var(--space-4); align-items: baseline; }
-  .rules__chip {
+  .rules { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }
+  .rules__item { display: flex; gap: var(--space-3); align-items: baseline; }
+  .rules__marker {
     flex-shrink: 0;
-    width: 24px;
-    height: 24px;
+    width: 5px;
+    height: 5px;
     border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--go-wash);
-    color: var(--go-ink);
-    transform: translateY(4px);
+    background: var(--ink-3);
+    transform: translateY(-4px);
   }
-  .rules__chip--warn { background: var(--warn-wash); color: var(--warn-ink); }
   .rules__text { display: inline; }
-  .rules__caveat {
-    display: inline-block;
-    margin-left: var(--space-2);
-    padding: 1px 8px;
-    border-radius: var(--r-sm);
-    background: var(--warn-wash);
-    color: var(--warn-ink);
-    font-size: var(--text-caption);
-    font-weight: 600;
-    white-space: nowrap;
-    vertical-align: middle;
-  }
 </style>
