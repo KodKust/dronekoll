@@ -1,0 +1,53 @@
+---
+/**
+ * Appens fyra funktionskort som band — GEMENSAM källa för "/" och alla
+ * 27 språkindex (samma loadFeatures + t() → aldrig språkdrift). Ett av de
+ * två ställen som får behålla stagger-entré (liten grupp, kort sekvens).
+ */
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
+import FeatureCard from './FeatureCard.astro';
+import { loadFeatures } from '../lib/model';
+import { t } from '../lib/i18n';
+
+interface Props {
+  lang: string;
+}
+const { lang } = Astro.props;
+
+const features = loadFeatures().map((f) => ({
+  slug: f.slug,
+  name: t(`feat.${f.slug}.name`, lang),
+  desc: t(`feat.${f.slug}.desc`, lang),
+  image: existsSync(join(process.cwd(), 'public', 'device', f.slug, `${lang}.webp`))
+    ? `/device/${f.slug}/${lang}.webp`
+    : undefined,
+}));
+---
+
+<section class="band band--paper home-feat-band">
+  <div class="shell">
+    <p class="overline home-feat-band__label">{t('app.bc', lang)}</p>
+    <ul class="homefeat" data-stagger>
+      {features.map((f) => (
+        <li>
+          <FeatureCard href={`/${lang}/app/${f.slug}/`} name={f.name} desc={f.desc} image={f.image} />
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<style>
+  .home-feat-band { padding-block: var(--space-7); }
+  .home-feat-band__label { margin-bottom: var(--space-5); }
+  .homefeat {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--space-5);
+  }
+  .homefeat > li { display: grid; }
+</style>

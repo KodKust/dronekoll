@@ -1,24 +1,30 @@
 ---
 /**
- * Språkhubb — /{lang}/ för alla 27 språk. Länder på hubbens språk först,
- * därefter alla länder på engelska (turist-/fallbacklänkar). /en/ blir
- * den fullständiga engelska katalogen (hålls medvetet skild från "/" som
- * är marknadshemmet).
+ * Språkindex — /{lang}/ för alla 27 språk. Designpass 2026-07-24: SAMMA
+ * startsidesarkitektur som "/" (HomeHero + FeatureBand + CountrySearch +
+ * landsgrid + AppCta) via gemensamma komponenter och datakällor — inga
+ * äldre lokala kopior. Innehållet är översatt (web-strings/feature-strings,
+ * 27/27-täckning verifierad); metadata behåller hubbens katalogvinkel.
+ * Efter språkmatrisen (55×27) har varje språk alla länder lokalt; den
+ * engelska fallback-sektionen renderas bara om ett språk saknar länder.
  */
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import HomeHero from '../../components/HomeHero.astro';
+import FeatureBand from '../../components/FeatureBand.astro';
+import CountrySearch from '../../components/CountrySearch.astro';
 import CountryGrid from '../../components/CountryGrid.astro';
 import AppCta from '../../components/AppCta.astro';
 import {
   LANGUAGE_CODES,
-  LANGUAGES,
   allCountryPages,
   countriesForLang,
   hubCluster,
   brandForLang,
 } from '../../lib/model';
 import { t } from '../../lib/i18n';
+import { zoneCountByIso } from '../../lib/ingest';
 import { organizationLd, webSiteLd } from '../../lib/seo';
 
 export function getStaticPaths() {
@@ -36,9 +42,9 @@ const enPages =
         .filter((p) => p.lang === 'en' && !localPages.some((lp) => lp.iso === p.iso))
         .sort((a, b) => a.displayName.localeCompare(b.displayName, 'en'));
 
-const brand = brandForLang(lang);
 const totalCountries = new Set(allCountryPages().map((p) => p.iso)).size;
-const title = t('meta.title.hub', lang, { brand });
+const totalZones = Object.values(zoneCountByIso()).reduce((a, b) => a + b, 0);
+const title = t('meta.title.hub', lang, { brand: brandForLang(lang) });
 const description = t('meta.desc.hub', lang, { n: totalCountries });
 const ldBlocks = [organizationLd(), webSiteLd(lang)];
 ---
@@ -53,47 +59,38 @@ const ldBlocks = [organizationLd(), webSiteLd(lang)];
   <Header lang={lang} cluster={hubCluster()} />
 
   <main id="main-content">
-  <section class="band band--paper">
-    <div class="shell hub-hero">
-      <h1>{t('hub.h1', lang)}</h1>
-      <p class="lede prose">{t('hub.lede', lang)}</p>
-    </div>
-  </section>
+    <HomeHero lang={lang} totalCountries={totalCountries} totalZones={totalZones} />
 
-  <section class="band band--canvas">
-    <div class="shell hub-grids">
-      {localPages.length > 0 && (
-        <div>
-          {lang !== 'en' && (
-            /* v8 avsnitt 22.5: rendera det nativa språknamnet DIREKT (endonym ur
-               LANGUAGES), aldrig en "In {language}"-meningsmall — den tolkades i
-               flera språk som "i tidningen/boken/verket". Namnet är entydigt självt. */
-            <p class="overline hub-label" lang={lang}>{LANGUAGES[lang]}</p>
-          )}
-          <CountryGrid lang={lang} pages={localPages} searchable={lang === 'en'} />
-        </div>
-      )}
-      {enPages.length > 0 && (
-        <div>
-          <p class="overline hub-label">{t('hub.allInEnglish', lang)}</p>
-          <CountryGrid lang={lang} pages={enPages} />
-        </div>
-      )}
-    </div>
-  </section>
+    <FeatureBand lang={lang} />
 
-  <section class="band band--paper">
-    <div class="wide">
-      <AppCta lang={lang} />
-    </div>
-  </section>
+    {/* ── Landsväljare ─────────────────────────────────────────────────── */}
+    <section class="band band--canvas">
+      <div class="shell hub-grids">
+        <h2 class="home-grid-title">{t('home.countries.title', lang)}</h2>
+        <CountrySearch lang={lang} total={localPages.length + enPages.length} />
+        {localPages.length > 0 && <CountryGrid lang={lang} pages={localPages} />}
+        {enPages.length > 0 && (
+          <div>
+            <p class="overline hub-label">{t('hub.allInEnglish', lang)}</p>
+            <CountryGrid lang={lang} pages={enPages} />
+          </div>
+        )}
+      </div>
+    </section>
+
+    {/* ── App-CTA ──────────────────────────────────────────────────────── */}
+    <section class="band band--paper">
+      <div class="wide">
+        <AppCta lang={lang} />
+      </div>
+    </section>
   </main>
 
   <Footer lang={lang} />
 </Base>
 
 <style>
-  .hub-hero { display: grid; gap: var(--space-4); }
-  .hub-grids { display: grid; gap: var(--space-7); }
-  .hub-label { margin-bottom: var(--space-4); }
+  .home-grid-title { margin-bottom: var(--space-5); }
+  .hub-grids > * + :global(.cgrid) { margin-top: 0; }
+  .hub-label { margin-block: var(--space-6) var(--space-4); }
 </style>

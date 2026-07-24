@@ -2,6 +2,11 @@
 /**
  * App-översikten — /{lang}/app/ : de fyra funktionerna som kort + stor CTA.
  * Navet mellan kunskapssidorna (länder) och produktytan (funktioner).
+ * Designpass 2026-07-24: delad hero — text till vänster, den befintliga
+ * app-/kartbilden som kontrollerad visual till höger (inte en helskärmsbanner);
+ * nästa innehåll börjar synas inom en vanlig laptopskärm. Den nya transparenta
+ * hero-drönaren används medvetet INTE här (den är startsidans varumärkesbild —
+ * här ska visualen förklara appen).
  */
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
@@ -9,6 +14,7 @@ import Base from '../../../layouts/Base.astro';
 import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import FeatureCard from '../../../components/FeatureCard.astro';
 import AppCta from '../../../components/AppCta.astro';
 import { LANGUAGE_CODES, loadFeatures, featureCluster, brandForLang } from '../../../lib/model';
 import { t } from '../../../lib/i18n';
@@ -34,6 +40,7 @@ const features = loadFeatures().map((f) => ({
     : undefined,
 }));
 
+const heroImage = existsSync(join(process.cwd(), 'public', 'img', 'app-hero.webp'));
 const ldBlocks = [organizationLd(), webSiteLd(lang), softwareAppLd(lang)];
 ---
 
@@ -47,20 +54,22 @@ const ldBlocks = [organizationLd(), webSiteLd(lang), softwareAppLd(lang)];
   <Header lang={lang} cluster={cluster} />
 
   <main id="main-content">
-  <section class="band band--paper">
-    <div class="shell hero-seq app-hero">
-      <Breadcrumbs items={[{ label: t('bc.home', lang), href: `/${lang}/` }, { label: t('app.bc', lang) }]} />
-      <h1>
-        {t('app.overview.h1.pre', lang)}{' '}
-        <span class="h-accent">{t('app.overview.h1.accent', lang)}</span>
-      </h1>
-      <p class="lede prose">{t('app.overview.lede', lang, { brand })}</p>
-    </div>
-    {existsSync(join(process.cwd(), 'public', 'img', 'app-hero.webp')) && (
-      <div class="wide app-hero__banner">
-        <img src="/img/app-hero.webp" alt="" width="1400" height="933" loading="eager" decoding="async" />
+  <section class="band band--paper app-hero">
+    <div class="shell app-hero__grid">
+      <div class="hero-seq app-hero__copy">
+        <Breadcrumbs items={[{ label: t('bc.home', lang), href: `/${lang}/` }, { label: t('app.bc', lang) }]} />
+        <h1>
+          {t('app.overview.h1.pre', lang)}{' '}
+          <span class="h-accent">{t('app.overview.h1.accent', lang)}</span>
+        </h1>
+        <p class="lede app-hero__lede">{t('app.overview.lede', lang, { brand })}</p>
       </div>
-    )}
+      {heroImage && (
+        <div class="app-hero__visual">
+          <img src="/img/app-hero.webp" alt="" width="1400" height="933" loading="eager" decoding="async" />
+        </div>
+      )}
+    </div>
   </section>
 
   <section class="band band--canvas">
@@ -68,13 +77,7 @@ const ldBlocks = [organizationLd(), webSiteLd(lang), softwareAppLd(lang)];
       <ul class="featgrid" data-stagger>
         {features.map((f) => (
           <li>
-            <a class="card card--hover featgrid__card" href={`/${lang}/app/${f.slug}/`}>
-              {f.image && (
-                <img class="featgrid__img" src={f.image} alt="" loading="lazy" decoding="async" width="200" />
-              )}
-              <span class="featgrid__name">{f.name}</span>
-              <span class="small featgrid__lede">{f.lede}</span>
-            </a>
+            <FeatureCard href={`/${lang}/app/${f.slug}/`} name={f.name} desc={f.lede} image={f.image} />
           </li>
         ))}
       </ul>
@@ -92,12 +95,19 @@ const ldBlocks = [organizationLd(), webSiteLd(lang), softwareAppLd(lang)];
 </Base>
 
 <style>
-  .app-hero { display: grid; gap: var(--space-4); }
-  .app-hero__banner { margin-top: var(--space-6); }
-  .app-hero__banner img {
+  .app-hero { padding-block: clamp(40px, 6vw, 68px); }
+  .app-hero__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 44%);
+    gap: clamp(var(--space-5), 4vw, var(--space-8));
+    align-items: center;
+  }
+  .app-hero__copy { display: grid; gap: var(--space-4); min-width: 0; }
+  .app-hero__lede { max-width: 52ch; }
+  .app-hero__visual img {
     width: 100%;
     height: auto;
-    border-radius: var(--r-xl);
+    border-radius: var(--r-lg);
     border: 1px solid var(--hairline);
     box-shadow: var(--shadow-3);
   }
@@ -109,22 +119,9 @@ const ldBlocks = [organizationLd(), webSiteLd(lang), softwareAppLd(lang)];
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     gap: var(--space-5);
   }
-  .featgrid__card {
-    display: grid;
-    gap: var(--space-3);
-    padding: var(--space-5);
-    border-radius: var(--r-lg);
-    color: inherit;
-    text-align: center;
-    justify-items: center;
+  .featgrid > li { display: grid; }
+  @media (max-width: 880px) {
+    .app-hero__grid { grid-template-columns: 1fr; }
+    .app-hero__visual { order: 2; }
   }
-  .featgrid__card:hover { text-decoration: none; }
-  .featgrid__img {
-    width: 150px;
-    height: auto;
-    border-radius: 18px;
-    box-shadow: var(--shadow-2);
-  }
-  .featgrid__name { font-weight: 640; color: var(--ink); font-size: var(--text-h4); }
-  .featgrid__lede { color: var(--ink-2); }
 </style>

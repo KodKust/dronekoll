@@ -1,8 +1,12 @@
 ---
 /**
  * Header — 64px, halvtransparent + blur, hairline under. Vänster: wordmark
- * (lokaliserat namn). Höger: språkväxlare + diskret app-länk (kunskap först:
- * ingen stor CTA-knapp i chromen).
+ * (lokaliserat namn). Höger: navlänkar + språkväxlare + "Hämta appen" som
+ * kompakt fylld blå primärknapp (sajtens gemensamma knappsystem).
+ *
+ * Mobil (≤720px): navlänkar + appknapp flyttar in i en avsiktlig, tillgänglig
+ * meny — wordmark + språkväxlare + 44×44-menyknapp står kvar i raden. De
+ * centrala länkarna försvinner aldrig. Escape stänger menyn och återför fokus.
  */
 import Wordmark from './Wordmark.astro';
 import LanguageSwitcher from './LanguageSwitcher.astro';
@@ -24,14 +28,47 @@ const brand = brandForLang(lang);
   <div class="shell site-header__inner">
     <Wordmark brand={brand} href={`/${lang}/`} />
     <nav class="site-header__nav" aria-label="Site">
-      {/* WP-B: synliga ingångar — Kristoffer hittade inte appens funktioner */}
       <a class="site-header__link" href={`/${lang}/`}>{t('nav.allCountries', lang)}</a>
       <a class="site-header__link" href={`/${lang}/app/`}>{t('app.bc', lang)}</a>
       <LanguageSwitcher lang={lang} cluster={cluster} />
-      <a class="site-header__app" href={APP_STORE_URL} rel="noopener">{t('nav.getApp', lang)}</a>
+      <a class="btn btn--primary site-header__app" href={APP_STORE_URL} rel="noopener">{t('nav.getApp', lang)}</a>
+
+      <details class="site-menu">
+        <summary class="site-menu__btn" aria-label={t('nav.menu', lang)}>
+          <svg class="site-menu__ico site-menu__ico--open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round" />
+          </svg>
+          <svg class="site-menu__ico site-menu__ico--close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round" />
+          </svg>
+        </summary>
+        <div class="site-menu__pop card">
+          <a class="site-menu__link" href={`/${lang}/`}>{t('nav.allCountries', lang)}</a>
+          <a class="site-menu__link" href={`/${lang}/app/`}>{t('app.bc', lang)}</a>
+          <a class="btn btn--primary site-menu__cta" href={APP_STORE_URL} rel="noopener">{t('nav.getApp', lang)}</a>
+        </div>
+      </details>
     </nav>
   </div>
 </header>
+
+<script>
+  // Mobilmenyn: stäng vid klick utanför / Escape. Escape återför fokus till
+  // menyknappen så tangentbords-/skärmläsaranvändare inte tappar sin plats
+  // (samma mönster som språkväxlaren, REPO-A11Y-02).
+  document.addEventListener('click', (e) => {
+    for (const d of document.querySelectorAll('details.site-menu[open]')) {
+      if (!d.contains(e.target as Node)) d.removeAttribute('open');
+    }
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    for (const d of document.querySelectorAll('details.site-menu[open]')) {
+      d.removeAttribute('open');
+      d.querySelector<HTMLElement>('summary')?.focus();
+    }
+  });
+</script>
 
 <style>
   .site-header {
@@ -57,6 +94,7 @@ const brand = brandForLang(lang);
     display: flex;
     align-items: center;
     gap: var(--space-4);
+    min-width: 0;
   }
   .site-header__link {
     font-size: var(--text-small);
@@ -65,18 +103,71 @@ const brand = brandForLang(lang);
     white-space: nowrap;
   }
   .site-header__link:hover { color: var(--accent-ink); text-decoration: none; }
-  @media (max-width: 640px) {
-    .site-header__link { font-size: var(--text-caption); }
-    .site-header__nav { gap: var(--space-3); }
-  }
+  /* Kompakt fylld blå knapp i chromen — samma system som sidans övriga CTA
+     (kompakt i fotavtryck, aldrig under 44px kontrollhöjd). */
   .site-header__app {
-    font-size: var(--text-small);
-    font-weight: 500;
-    color: var(--ink-2);
+    padding: 8px 18px;
     white-space: nowrap;
   }
-  .site-header__app:hover { color: var(--accent-ink); text-decoration: none; }
-  @media (max-width: 560px) {
-    .site-header__app { display: none; } /* CTA-panelerna bär appen på mobil */
+
+  /* ── Mobilmeny ── */
+  .site-menu { position: relative; display: none; }
+  .site-menu__btn {
+    cursor: pointer;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: var(--r-md);
+    border: 1px solid var(--border);
+    background: var(--surface-critical);
+    color: var(--ink);
+    user-select: none;
+  }
+  .site-menu__btn::-webkit-details-marker { display: none; }
+  .site-menu__ico--close { display: none; }
+  .site-menu[open] .site-menu__ico--open { display: none; }
+  .site-menu[open] .site-menu__ico--close { display: block; }
+  .site-menu__pop {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 10px);
+    z-index: 60;
+    min-width: min(78vw, 280px);
+    display: grid;
+    gap: var(--space-1);
+    padding: var(--space-3);
+    border-radius: var(--r-lg);
+    box-shadow: var(--shadow-2);
+    animation: menu-in var(--dur-fast) var(--ease-standard);
+  }
+  @keyframes menu-in {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: none; }
+  }
+  .site-menu__link {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 var(--space-3);
+    border-radius: var(--r-sm);
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .site-menu__link:hover { background: var(--canvas); text-decoration: none; color: var(--accent-ink); }
+  .site-menu__cta { margin-top: var(--space-2); }
+
+  @media (max-width: 720px) {
+    .site-header__link, .site-header__app { display: none; }
+    .site-menu { display: block; }
+    .site-header__nav { gap: var(--space-3); }
+  }
+  /* 320px-säkring: språkväxlaren visar bara globen (etiketten finns i
+     aria-label), wordmarken krymper en aning. */
+  @media (max-width: 380px) {
+    .site-header__nav :global(.langswitch__code) { display: none; }
+    .site-header :global(.wordmark__name) { font-size: 1rem; }
   }
 </style>

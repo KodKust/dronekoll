@@ -117,7 +117,9 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
    (--navy) förblir helt opak = tydlig marin slutpunkt (avsnitt 21.4). */
 .band--paper  { background: var(--surface-section); border-block: 1px solid rgba(255, 255, 255, 0.32); }
 .band--canvas { background: var(--surface-section-2); border-top: 1px solid var(--sky-border); }
-.band--navy   { background: var(--brand-navy); color: rgba(255, 255, 255, 0.70); }
+/* Djupare marin slutpunkt (designpass 2026-07-24). Enbart footern använder
+   bandet; kart-/zonkomponenternas färger är orörda (--brand-navy kvar för OG). */
+.band--navy   { background: var(--navy-deep); color: rgba(255, 255, 255, 0.78); }
 
 .shell   { max-width: var(--w-shell);   margin-inline: auto; padding-inline: var(--page-pad); }
 .wide    { max-width: var(--w-wide);    margin-inline: auto; padding-inline: var(--page-pad); }
@@ -138,7 +140,12 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
               transform var(--dur-lift) var(--ease-standard),
               border-color var(--dur-hover) var(--ease-standard);
 }
-.card--hover:hover { box-shadow: var(--shadow-2); transform: translateY(-2px); }
+/* Mycket litet lyft + något tydligare blågrå kant — aldrig ett stort hopp. */
+.card--hover:hover {
+  box-shadow: var(--shadow-2);
+  transform: translateY(-2px);
+  border-color: var(--sky-border-strong);
+}
 
 /* ── Pill-primitiv ───────────────────────────────────────────────────────── */
 .pill {
@@ -150,6 +157,45 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   font-size: var(--text-small);
   font-weight: 500;
 }
+
+/* ── Knappsystem (designpass 2026-07-24) ─────────────────────────────────────
+   ETT system för hela sajten: primär (fylld accentblå), sekundär (ljus med
+   kant). ≥44px kontrollhöjd. Hover ändrar bara färg/skugga — aldrig layout. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: 44px;
+  padding: 10px 22px;
+  border-radius: var(--r-pill);
+  border: 1px solid transparent;
+  font-family: var(--font-body);
+  font-size: var(--text-small);
+  font-weight: 600;
+  line-height: 1.25;
+  cursor: pointer;
+  text-decoration: none;
+  transition:
+    background var(--dur-hover) var(--ease-standard),
+    border-color var(--dur-hover) var(--ease-standard),
+    color var(--dur-hover) var(--ease-standard),
+    box-shadow var(--dur-hover) var(--ease-standard);
+}
+.btn:hover { text-decoration: none; }
+.btn--primary {
+  background: var(--accent);
+  color: #fff;
+  box-shadow: 0 1px 2px rgba(2, 87, 155, 0.20);
+}
+.btn--primary:hover { background: var(--accent-ink); color: #fff; box-shadow: 0 2px 6px rgba(2, 87, 155, 0.24); }
+.btn--primary:focus-visible { outline-color: var(--accent-ink); }
+.btn--secondary {
+  background: var(--surface-critical);
+  border-color: var(--border-strong);
+  color: var(--ink);
+}
+.btn--secondary:hover { border-color: var(--accent); color: var(--accent-ink); }
 
 /* ── Live-puls (freshness-badge) — 1800ms ur MotionTokens ────────────────── */
 @keyframes pulse-dot {
@@ -163,26 +209,17 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   animation: pulse-dot var(--dur-pulse) ease-in-out infinite;
 }
 
-/* ══ "Luftrum i rörelse" — motion-lagret ═══════════════════════════════════
-   Sidan beter sig som en lugn flygning: sektioner glider in, listor landar
-   förskjutet, siffror räknar upp, kartan andas in. Appens DNA: 350 ms
-   easeOutCubic, aldrig studs. Endast opacity/transform (CLS 0). Allt dör
-   under prefers-reduced-motion (regeln längre ned nollställer). */
-
-/* ── Sektionsrubriker: scroll-länkad fade-rise (CSS-only, bakom @supports) ── */
-@supports (animation-timeline: view()) {
-  .rise {
-    animation: rise-in 1ms linear both;
-    animation-timeline: view();
-    animation-range: entry 0% entry 40%;
-  }
-}
-@keyframes rise-in {
-  from { opacity: 0; transform: translateY(12px); }
-  to   { opacity: 1; transform: none; }
-}
+/* ══ Motion — kort och sparsam ═══════════════════════════════════════════════
+   Designpass 2026-07-24: innehåll är SYNLIGT som standard. Entréanimationer
+   finns bara på två små grupper — heron (.hero-seq) och de fyra appkorten
+   ([data-stagger]) — och hela sekvensen är kort. Inga scroll-länkade rörelser
+   (rise/graticule-drift/map-breathe borttagna): himlen och sidan står stilla.
+   Appens DNA: 350 ms easeOutCubic, aldrig studs. Endast opacity/transform
+   (CLS 0). Allt dör under prefers-reduced-motion (regeln längre ned). */
 
 /* ── Stagger-entréer: [data-stagger]-containrar (aktiveras av motion.ts) ────
+   ENDAST för små grupper (≤ ~4 barn, t.ex. appkorten). Långa listor (regler,
+   landskort, källor, FAQ) får ALDRIG data-stagger — de ska stå i sidan direkt.
    Döljning gated bakom html.js — no-JS/reduced-motion ser allt direkt. */
 html.js [data-stagger] > * {
   opacity: 0;
@@ -198,13 +235,7 @@ html.js [data-stagger] > :nth-child(1)  { transition-delay: 0ms; }
 html.js [data-stagger] > :nth-child(2)  { transition-delay: 60ms; }
 html.js [data-stagger] > :nth-child(3)  { transition-delay: 120ms; }
 html.js [data-stagger] > :nth-child(4)  { transition-delay: 180ms; }
-html.js [data-stagger] > :nth-child(5)  { transition-delay: 240ms; }
-html.js [data-stagger] > :nth-child(6)  { transition-delay: 300ms; }
-html.js [data-stagger] > :nth-child(7)  { transition-delay: 360ms; }
-html.js [data-stagger] > :nth-child(8)  { transition-delay: 420ms; }
-html.js [data-stagger] > :nth-child(9)  { transition-delay: 480ms; }
-html.js [data-stagger] > :nth-child(10) { transition-delay: 540ms; }
-html.js [data-stagger] > :nth-child(n + 11) { transition-delay: 600ms; }
+html.js [data-stagger] > :nth-child(n + 5) { transition-delay: 240ms; }
 
 /* ── Hero-entré vid load: flagga → H1 → lede → meta (60 ms-kaskad) ──────────
    H1 är LCP → ENDAST transform på den (opacity förblir 1). */
@@ -222,31 +253,6 @@ html.js [data-stagger] > :nth-child(n + 11) { transition-delay: 600ms; }
 @keyframes hero-in-lcp {
   from { transform: translateY(10px); }
   to   { transform: none; }
-}
-
-/* ── Hero-djup: prickrastret driver långsammare än innehållet ─────────────── */
-@supports (animation-timeline: scroll()) {
-  .home-hero, .hero--drift {
-    animation: graticule-drift linear both;
-    animation-timeline: scroll();
-    animation-range: 0 140vh;
-  }
-  @keyframes graticule-drift {
-    to { background-position: 0 72px; }
-  }
-}
-
-/* ── Kartan andas in: ram skalar 0.98→1 + tonar (scroll-länkad) ───────────── */
-@supports (animation-timeline: view()) {
-  .mapframe {
-    animation: map-breathe 1ms linear both;
-    animation-timeline: view();
-    animation-range: entry 0% entry 45%;
-  }
-  @keyframes map-breathe {
-    from { opacity: 0.4; transform: scale(0.98); }
-    to   { opacity: 1; transform: none; }
-  }
 }
 
 /* ── Reduced motion: allt statiskt direkt ────────────────────────────────── */

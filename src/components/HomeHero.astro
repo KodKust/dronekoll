@@ -1,0 +1,146 @@
+---
+/**
+ * Startsidans hero — GEMENSAM för "/" och alla 27 språkindex /{lang}/
+ * (designpass 2026-07-24: en arkitektur, samma komponenter, samma datakällor —
+ * språkversionerna får aldrig glida isär igen).
+ *
+ * Tvåkolumnskomposition: text + CTA till vänster, drönaren till höger.
+ * Drönarbilden (äkta transparent PNG → AVIF/WebP via astro:assets) ses snett
+ * underifrån med gimbalkameran riktad nedåt-vänster — mot rubriken/CTA:n.
+ * Himlen syns ända fram till drönarens kanter: ingen platta, ingen vit ruta,
+ * bara en mjuk drop-shadow. Bilden är dekorativ (alt="") och inte klickbar.
+ * Används ENDAST här — inte på landssidor, feature-sidor, CTA:er eller 404.
+ */
+import { Picture } from 'astro:assets';
+import droneImg from '../assets/brand/dronekoll-drone-underside-camera-down.png';
+import { t } from '../lib/i18n';
+import { APP_STORE_URL } from '../lib/seo';
+
+interface Props {
+  lang: string;
+  totalCountries: number;
+  totalZones: number;
+}
+const { lang, totalCountries, totalZones } = Astro.props;
+
+// Trustraden: max tre uppgifter (länder · zoner · uppdateras dagligen).
+// Betygs-pillen visas medvetet INTE här — utan källa + antal omdömen ska den
+// inte vara ett dominerande designobjekt (den finns kvar i AppCta).
+const [cPre, cPost = ''] = t('home.trust.countries', lang, { n: '__N__' }).split('__N__');
+const [zPre, zPost = ''] = t('home.trust.zones', lang, { n: '__N__' }).split('__N__');
+---
+
+<section class="band band--paper home-hero">
+  <div class="shell home-hero__grid">
+    <div class="hero-seq home-hero__copy">
+      <h1 class="home-hero__h1">
+        {t('home.h1.pre', lang)}<br />
+        <span class="h-accent">{t('home.h1.accent', lang)}</span>
+      </h1>
+      <p class="lede home-hero__lede">{t('home.lede', lang, { n: totalCountries })}</p>
+      <div class="home-hero__cta">
+        <a class="btn btn--primary" href={APP_STORE_URL} rel="noopener">{t('nav.getApp', lang)}</a>
+        <a class="home-hero__explore" href={`/${lang}/app/`}>
+          {t('app.overview.h1.pre', lang)} {t('app.overview.h1.accent', lang)} →
+        </a>
+      </div>
+      <div class="home-hero__trust">
+        <span class="pill home-trust tnum">
+          {cPre}<span data-countup={totalCountries} data-lang={lang}>{totalCountries.toLocaleString(lang)}</span>{cPost}
+        </span>
+        {totalZones > 0 && (
+          <span class="pill home-trust tnum">
+            {zPre}<span data-countup={totalZones} data-lang={lang}>{totalZones.toLocaleString(lang)}</span>{zPost}
+          </span>
+        )}
+        <span class="pill home-trust">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          {t('home.trust.daily', lang)}
+        </span>
+      </div>
+    </div>
+
+    <div class="home-hero__visual">
+      <Picture
+        src={droneImg}
+        widths={[420, 640, 900, 1240]}
+        sizes="(max-width: 880px) 86vw, 44vw"
+        formats={['avif', 'webp']}
+        fallbackFormat="webp"
+        alt=""
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
+        class="home-hero__drone"
+      />
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Kompakt hero: nästa sektion ska anas på en vanlig laptopskärm. */
+  .home-hero { padding-block: clamp(40px, 6vw, 68px); }
+  .home-hero__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 11fr) minmax(0, 9fr);
+    gap: clamp(var(--space-5), 4vw, var(--space-8));
+    align-items: center;
+  }
+  .home-hero__copy {
+    display: grid;
+    gap: var(--space-5);
+    justify-items: start;
+    min-width: 0;
+  }
+  .home-hero__h1 {
+    font-size: var(--text-display-xl);
+    font-weight: 760;
+    line-height: 1.06;
+    letter-spacing: -0.025em;
+  }
+  .home-hero__lede { max-width: 56ch; }
+  .home-hero__cta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-3) var(--space-5);
+  }
+  /* Sekundär utforska-länk: tydligt underordnad, men full 44px-träffyta. */
+  .home-hero__explore {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    font-weight: 600;
+  }
+  .home-hero__trust { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+  .home-trust {
+    background: var(--surface-critical);
+    border: 1px solid var(--border);
+    color: var(--ink-2);
+    font-weight: 500;
+  }
+
+  /* Drönaren: transparent mot himlen, mjuk realistisk skugga — ingen glow,
+     ingen platta. Optiskt något höjd så kamerans blick möter textblocket. */
+  .home-hero__visual { min-width: 0; }
+  .home-hero__visual :global(img) {
+    width: min(100%, 560px);
+    height: auto;
+    margin-inline: auto;
+    transform: translateY(-3%);
+    filter: drop-shadow(0 30px 26px rgba(16, 24, 40, 0.17));
+  }
+
+  @media (max-width: 880px) {
+    .home-hero { padding-block: clamp(36px, 6vw, 48px); }
+    .home-hero__grid { grid-template-columns: 1fr; }
+    /* Drönaren går ned UNDER texten — aldrig absolut positionering, inga
+       kollisioner med långa rubriker/CTA på andra språk, inga kapade propellrar. */
+    .home-hero__visual { order: 2; margin-top: var(--space-2); }
+    .home-hero__visual :global(img) {
+      width: min(86vw, 420px);
+      transform: none;
+      filter: drop-shadow(0 20px 18px rgba(16, 24, 40, 0.15));
+    }
+  }
+</style>

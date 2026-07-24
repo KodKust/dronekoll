@@ -68,6 +68,7 @@ const items = sections.map((id) => ({ id, label: t(`anchor.${id}`, lang) }));
   .anchor-nav__inner::-webkit-scrollbar { display: none; }
   .anchor-nav__pill {
     flex-shrink: 0;
+    padding-block: 9px; /* rymligare träffyta i den sticky raden */
     color: var(--ink-2);
     background: transparent;
     border: 1px solid transparent;

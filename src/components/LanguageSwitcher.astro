@@ -74,6 +74,7 @@ const entries = Object.entries(LANGUAGES).map(([code, name]) => ({
   .langswitch__trigger {
     cursor: pointer;
     list-style: none;
+    min-height: 44px; /* viktig kontroll → full träffyta */
     background: var(--soft-btn);
     color: var(--ink-2);
     border: 1px solid transparent;

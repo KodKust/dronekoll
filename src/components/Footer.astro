@@ -57,8 +57,10 @@ const buildDate = new Date().toISOString().slice(0, 10);
 </footer>
 
 <style>
-  .site-footer { color: rgba(255, 255, 255, 0.70); }
-  .site-footer a { color: rgba(255, 255, 255, 0.70); }
+  /* Djup marin slutpunkt (--navy-deep via .band--navy) med höjd kontrast i
+     text, labels och byggdatum — lugn och rymlig, inte urtvättad. */
+  .site-footer { color: rgba(255, 255, 255, 0.80); }
+  .site-footer a { color: rgba(255, 255, 255, 0.80); }
   .site-footer a:hover { color: #fff; }
   .site-footer__grid {
     display: grid;
@@ -66,8 +68,8 @@ const buildDate = new Date().toISOString().slice(0, 10);
     gap: var(--space-7);
   }
   .site-footer__brand { display: grid; gap: var(--space-4); align-content: start; color: #fff; }
-  .site-footer__brand .small { color: rgba(255, 255, 255, 0.70); max-width: 34ch; }
-  .site-footer__label { color: rgba(255, 255, 255, 0.45); margin-bottom: var(--space-3); }
+  .site-footer__brand .small { color: rgba(255, 255, 255, 0.80); max-width: 34ch; }
+  .site-footer__label { color: rgba(255, 255, 255, 0.62); margin-bottom: var(--space-3); }
   .site-footer__langs {
     list-style: none;
     margin: 0;
@@ -88,8 +90,8 @@ const buildDate = new Date().toISOString().slice(0, 10);
   .site-footer__build {
     margin-top: var(--space-7);
     padding-top: var(--space-4);
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
-    color: rgba(255, 255, 255, 0.45);
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+    color: rgba(255, 255, 255, 0.62);
   }
   @media (max-width: 768px) {
     .site-footer__grid { grid-template-columns: 1fr; gap: var(--space-6); }

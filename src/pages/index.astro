@@ -1,37 +1,29 @@
 ---
 /**
- * Marknadshemmet "/" — det ENDA stället med marketing-registret:
- * två-tons-H1 med butiksgrönt ("Får du flyga här? Få svaret direkt." =
- * butiksrubriken ordagrant). Hålls innehållsligt skild från /en/ (katalogen).
- * Alltid engelska; hreflang självrefererande + x-default.
+ * Marknadshemmet "/" — engelska; hreflang självrefererande + x-default.
+ * Designpass 2026-07-24: samma startsidesarkitektur som de 27 språkindexen
+ * (HomeHero + FeatureBand + CountrySearch/CountryGrid + AppCta) — delade
+ * komponenter och datakällor så språkversionerna aldrig glider isär.
+ * H1-accenten är numera briefing-blå (grönt reserveras för semantik).
  */
 import Base from '../layouts/Base.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import HomeHero from '../components/HomeHero.astro';
+import FeatureBand from '../components/FeatureBand.astro';
+import CountrySearch from '../components/CountrySearch.astro';
 import CountryGrid from '../components/CountryGrid.astro';
 import AppCta from '../components/AppCta.astro';
-import { existsSync } from 'node:fs';
-import { join } from 'node:path';
-import { allCountryPages, loadFeatures, SITE } from '../lib/model';
+import { allCountryPages, SITE } from '../lib/model';
 import { zoneCountByIso } from '../lib/ingest';
 import { t } from '../lib/i18n';
-import { organizationLd, webSiteLd, softwareAppLd, loadRating } from '../lib/seo';
-import StarRating from '../components/StarRating.astro';
+import { organizationLd, webSiteLd, softwareAppLd } from '../lib/seo';
 
 const enPages = allCountryPages()
   .filter((p) => p.lang === 'en')
   .sort((a, b) => a.displayName.localeCompare(b.displayName, 'en'));
 const totalCountries = enPages.length;
 const totalZones = Object.values(zoneCountByIso()).reduce((a, b) => a + b, 0);
-
-const features = loadFeatures().map((f) => ({
-  slug: f.slug,
-  name: t(`feat.${f.slug}.name`, 'en'),
-  desc: t(`feat.${f.slug}.desc`, 'en'),
-  image: existsSync(join(process.cwd(), 'public', 'device', f.slug, 'en.webp'))
-    ? `/device/${f.slug}/en.webp`
-    : undefined,
-}));
 
 const title = t('meta.title.home', 'en', { brand: 'DroneKoll', n: totalCountries });
 const description = t('meta.desc.home', 'en', { n: totalCountries });
@@ -58,125 +50,30 @@ const ldBlocks = [organizationLd(), webSiteLd('en'), softwareAppLd('en')];
   <Header lang="en" cluster={alternates} />
 
   <main id="main-content">
-  {/* ── Hero — marketing-registret, grön accent ──────────────────────── */}
-  <section class="band band--paper home-hero">
-    <div class="shell home-hero__grid">
-    <div class="hero-seq">
-      <h1 class="home-hero__h1">
-        {t('home.h1.pre', 'en')}<br />
-        <span class="h-go">{t('home.h1.accent', 'en')}</span>
-      </h1>
-      <p class="lede home-hero__lede">{t('home.lede', 'en', { n: totalCountries })}</p>
-      <div class="home-hero__trust">
-        {(() => {
-          const [cPre, cPost = ''] = t('home.trust.countries', 'en', { n: '__N__' }).split('__N__');
-          const [zPre, zPost = ''] = t('home.trust.zones', 'en', { n: '__N__' }).split('__N__');
-          return (
-            <Fragment>
-              <span class="pill home-trust tnum">
-                {cPre}<span data-countup={totalCountries} data-lang="en">{totalCountries}</span>{cPost}
-              </span>
-              {totalZones > 0 && (
-                <span class="pill home-trust tnum">
-                  {zPre}
-                  <span data-countup={totalZones} data-lang="en">{totalZones.toLocaleString('en')}</span>
-                  {zPost}
-                </span>
-              )}
-            </Fragment>
-          );
-        })()}
-        <span class="pill home-trust">
-          <span class="pulse-dot" aria-hidden="true"></span>
-          {t('home.trust.daily', 'en')}
-        </span>
-        {loadRating() && <StarRating value={loadRating()!.value} source={loadRating()!.source} lang="en" />}
+    <HomeHero lang="en" totalCountries={totalCountries} totalZones={totalZones} />
+
+    <FeatureBand lang="en" />
+
+    {/* ── Landsväljare ─────────────────────────────────────────────────── */}
+    <section class="band band--canvas">
+      <div class="shell">
+        <h2 class="home-grid-title">{t('home.countries.title', 'en')}</h2>
+        <CountrySearch lang="en" total={totalCountries} />
+        <CountryGrid lang="en" pages={enPages} />
       </div>
-      <p class="home-hero__explore">
-        <a href="/en/app/">{t('app.overview.h1.pre', 'en')} {t('app.overview.h1.accent', 'en')} →</a>
-      </p>
-    </div>
-    </div>
-  </section>
+    </section>
 
-  {/* ── Appens funktioner — WP-B: FLYTTAD UPP (låg begravd under 55 landskort) ── */}
-  <section class="band band--paper home-feat-band">
-    <div class="shell">
-      <p class="overline rise">{t('app.bc', 'en')}</p>
-      <ul class="homefeat" data-stagger>
-        {features.map((f) => (
-          <li>
-            <a class="card card--hover homefeat__card" href={`/en/app/${f.slug}/`}>
-              {f.image && <img src={f.image} alt="" loading="lazy" decoding="async" width="150" />}
-              <span class="homefeat__name">{f.name}</span>
-              <span class="small homefeat__desc">{f.desc}</span>
-            </a>
-          </li>
-        ))}
-      </ul>
-    </div>
-  </section>
-
-  {/* ── Landsväljare ─────────────────────────────────────────────────── */}
-  <section class="band band--canvas">
-    <div class="shell">
-      <h2 class="home-grid-title">{t('home.countries.title', 'en')}</h2>
-      <CountryGrid lang="en" pages={enPages} searchable />
-    </div>
-  </section>
-
-  {/* ── App-CTA ──────────────────────────────────────────────────────── */}
-  <section class="band band--paper">
-    <div class="wide">
-      <AppCta lang="en" />
-    </div>
-  </section>
+    {/* ── App-CTA ──────────────────────────────────────────────────────── */}
+    <section class="band band--paper">
+      <div class="wide">
+        <AppCta lang="en" />
+      </div>
+    </section>
   </main>
 
   <Footer lang="en" />
 </Base>
 
 <style>
-  /* Enda tillåtna ornament: 3 % prickig graticule på hero-bandet */
-  .home-hero {
-    background-image: radial-gradient(rgba(16, 24, 40, 0.03) 1px, transparent 1px);
-    background-size: 28px 28px;
-  }
-  .home-hero .shell { display: grid; gap: var(--space-5); }
-  .home-hero__h1 { font-size: var(--text-display-xl); font-weight: 760; line-height: 1.06; letter-spacing: -0.025em; }
-  .home-hero__lede { max-width: 56ch; }
-  .home-hero__trust { display: flex; flex-wrap: wrap; gap: var(--space-2); }
-  .home-trust {
-    background: var(--paper);
-    border: 1px solid var(--border);
-    color: var(--ink-2);
-    font-weight: 500;
-  }
   .home-grid-title { margin-bottom: var(--space-5); }
-  .home-hero__explore a { font-weight: 600; }
-  /* Fas 8 (Sol PREMIUM-03): ingen stor drönarbild mot himlen — heron bärs av
-     himmelsatmosfären + texten. Hero-grid är enkolumn via .home-hero .shell. */
-  .home-feat-band { padding-block: var(--space-7); }
-  .home-feat-band .overline { margin-bottom: var(--space-5); }
-  .homefeat {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: var(--space-5);
-  }
-  .homefeat__card {
-    display: grid;
-    gap: var(--space-3);
-    justify-items: center;
-    text-align: center;
-    padding: var(--space-5);
-    border-radius: var(--r-lg);
-    color: inherit;
-  }
-  .homefeat__card:hover { text-decoration: none; }
-  .homefeat__card img { width: 140px; height: auto; border-radius: 16px; box-shadow: var(--shadow-2); }
-  .homefeat__name { font-weight: 640; color: var(--ink); }
-  .homefeat__desc { color: var(--ink-2); }
 </style>

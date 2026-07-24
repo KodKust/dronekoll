@@ -1,8 +1,9 @@
 ---
 /**
- * Landskort-grid (hem + hubbar). Cirkelflagga = SVG (HatScripts circle-flags,
- * MIT) — ALDRIG emoji (Windows renderar emoji-flaggor som bokstavspar).
- * Sökfältet filtrerar client-side på nativt + engelskt namn.
+ * Landskort-grid (hem + hubbar + relaterade länder). Cirkelflagga = SVG
+ * (HatScripts circle-flags, MIT) — ALDRIG emoji (Windows renderar emoji-
+ * flaggor som bokstavspar). Sökningen bor i CountrySearch.astro (filtrerar
+ * alla .cgrid-kort på sidan). Ingen stagger: 55 kort ska synas direkt.
  */
 import { t } from '../lib/i18n';
 import type { PageEntry } from '../lib/model';
@@ -10,28 +11,11 @@ import type { PageEntry } from '../lib/model';
 interface Props {
   lang: string;
   pages: PageEntry[];
-  searchable?: boolean;
 }
-const { lang, pages, searchable = false } = Astro.props;
+const { lang, pages } = Astro.props;
 ---
 
-{searchable && (
-  <div class="grid-search">
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-      <circle cx="11" cy="11" r="7" /><path d="m20 20-3.8-3.8" stroke-linecap="round" />
-    </svg>
-    <input
-      type="search"
-      id="country-search"
-      placeholder={t('grid.search', lang)}
-      autocomplete="off"
-      aria-label={t('grid.search', lang)}
-    />
-    <kbd>/</kbd>
-  </div>
-)}
-
-<ul class="cgrid" id="country-grid" data-stagger>
+<ul class="cgrid">
   {pages.map((p) => (
     <li>
       <a
@@ -60,73 +44,8 @@ const { lang, pages, searchable = false } = Astro.props;
     </li>
   ))}
 </ul>
-<p class="small grid-empty" id="grid-empty" hidden>{t('grid.noResults', lang)}</p>
-
-{searchable && (
-  <script>
-    const input = document.getElementById('country-search') as HTMLInputElement | null;
-    const grid = document.getElementById('country-grid');
-    const empty = document.getElementById('grid-empty');
-    if (input && grid) {
-      const cards = [...grid.querySelectorAll<HTMLElement>('[data-names]')];
-      input.addEventListener('input', () => {
-        const q = input.value.trim().toLowerCase();
-        let hits = 0;
-        for (const c of cards) {
-          const show = q === '' || c.dataset.names!.includes(q);
-          (c.parentElement as HTMLElement).hidden = !show;
-          if (show) hits++;
-        }
-        if (empty) empty.hidden = hits > 0;
-      });
-      document.addEventListener('keydown', (e) => {
-        if (e.key === '/' && document.activeElement !== input) {
-          e.preventDefault();
-          input.focus();
-        }
-      });
-    }
-  </script>
-)}
 
 <style>
-  .grid-search {
-    display: flex;
-    align-items: center;
-    gap: var(--space-3);
-    background: var(--paper);
-    border: 1px solid var(--border-strong);
-    border-radius: var(--r-pill);
-    padding: 0 var(--space-4);
-    height: 48px;
-    max-width: 420px;
-    margin-bottom: var(--space-6);
-    color: var(--ink-3);
-    transition: border-color var(--dur-hover) var(--ease-standard), box-shadow var(--dur-hover) var(--ease-standard);
-  }
-  .grid-search:focus-within {
-    border-color: var(--accent);
-    box-shadow: 0 0 0 3px var(--accent-wash);
-  }
-  .grid-search input {
-    flex: 1;
-    border: 0;
-    outline: 0;
-    background: transparent;
-    font: inherit;
-    font-size: var(--text-body);
-    color: var(--ink);
-  }
-  .grid-search kbd {
-    background: var(--soft-btn);
-    border-radius: 6px;
-    padding: 2px 8px;
-    font-size: var(--text-caption);
-    font-family: var(--font-body);
-    color: var(--ink-3);
-  }
-  @media (max-width: 768px) { .grid-search kbd { display: none; } }
-
   .cgrid {
     list-style: none;
     margin: 0;
@@ -156,5 +75,4 @@ const { lang, pages, searchable = false } = Astro.props;
     color: var(--ink-2);
   }
   .cgrid__badge--zones { background: var(--accent-wash); color: var(--accent-ink); }
-  .grid-empty { margin-top: var(--space-4); color: var(--ink-2); }
 </style>

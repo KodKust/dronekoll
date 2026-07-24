@@ -177,7 +177,7 @@ const ldBlocks = [
   {/* ── Regler ───────────────────────────────────────────────────────── */}
   <section class="band band--paper" id="rules">
     <div class="content">
-      <p class="overline rise">{c.sectionLabelRules ?? t('anchor.rules', lang)}</p>
+      <p class="overline">{c.sectionLabelRules ?? t('anchor.rules', lang)}</p>
       {translated && (
         <div class="section-callout">
           <Callout kind="warn">{t('ymyl.translated', lang)}</Callout>
@@ -190,7 +190,7 @@ const ldBlocks = [
   {/* ── Karta ────────────────────────────────────────────────────────── */}
   <section class="band band--canvas" id="map">
     <div class="wide">
-      <h2 class="rise section-title">{t('map.title', lang)}</h2>
+      <h2 class="section-title">{t('map.title', lang)}</h2>
       {zoneCount && (() => {
         const [pre, post = ''] = t('freshness.zonesLive', lang, { n: '__N__' }).split('__N__');
         return (
@@ -209,7 +209,7 @@ const ldBlocks = [
   {faqItems.length > 0 && (
     <section class="band band--paper" id="faq">
       <div class="content">
-        <h2 class="rise section-title">{t('faq.title', lang)}</h2>
+        <h2 class="section-title">{t('faq.title', lang)}</h2>
         <FaqBlock items={faqItems} />
       </div>
     </section>
@@ -220,8 +220,8 @@ const ldBlocks = [
     <div class="content sources-band">
       {c.importantNotes.length > 0 && (
         <div class="notes">
-          <h2 class="rise section-title">{t('notes.title', lang)}</h2>
-          <div class="notes__list" data-stagger>
+          <h2 class="section-title">{t('notes.title', lang)}</h2>
+          <div class="notes__list">
             {c.importantNotes.map((note) => (
               <Callout kind="note">{note}</Callout>
             ))}
@@ -254,6 +254,9 @@ const ldBlocks = [
         deviceImage={existsSync(join(process.cwd(), 'public', 'device', `${lang}.webp`))
           ? `/device/${lang}.webp`
           : undefined}
+        deviceImage2={existsSync(join(process.cwd(), 'public', 'device', 'flight-log', `${lang}.webp`))
+          ? `/device/flight-log/${lang}.webp`
+          : undefined}
         deviceAlt={t('cta.appstore.alt', lang)}
       />
     </div>
@@ -263,7 +266,7 @@ const ldBlocks = [
   {related.length > 0 && (
     <section class="band band--canvas" id="related">
       <div class="wide">
-        <h2 class="rise section-title">{t('related.title', lang)}</h2>
+        <h2 class="section-title">{t('related.title', lang)}</h2>
         <CountryGrid lang={lang} pages={related} />
       </div>
     </section>

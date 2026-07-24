@@ -1,0 +1,90 @@
+---
+/**
+ * Appfunktions-kort (hem/hubbar + appöversikten). Identisk bildyta, samma
+ * rubrikbaseline och kortbotten i hela raden; vänsterställd rubrik/beskrivning
+ * med telefonen centrerad; liten konsekvent pil i diskret cirkel som
+ * klickaffordance. Hover = kortprimitivens lilla lyft + tydligare kant.
+ */
+interface Props {
+  href: string;
+  name: string;
+  desc?: string;
+  image?: string;
+}
+const { href, name, desc, image } = Astro.props;
+---
+
+<a class="card card--hover fc" href={href}>
+  {image && (
+    <span class="fc__media">
+      <img src={image} alt="" loading="lazy" decoding="async" width="640" height="1139" />
+    </span>
+  )}
+  <span class="fc__head">
+    <span class="fc__name">{name}</span>
+    <span class="fc__arrow" aria-hidden="true">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+        <path d="M5 12h13M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </span>
+  </span>
+  {desc && <span class="small fc__desc">{desc}</span>}
+</a>
+
+<style>
+  .fc {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    height: 100%;
+    padding: var(--space-5);
+    border-radius: var(--r-lg);
+    color: inherit;
+  }
+  .fc:hover { text-decoration: none; }
+  /* Identisk bildyta oavsett skärmbildens innehåll — reserverad höjd, ingen
+     layoutförskjutning under laddning (width/height-attribut ger ration). */
+  .fc__media {
+    display: grid;
+    place-items: center;
+    height: 232px;
+    margin-bottom: var(--space-2);
+  }
+  /* Definit höjd på bilden (inte height:100% — procent mot auto-rad i grid
+     är odefinierat och lät bilden växa fritt över texten). */
+  .fc__media img {
+    height: 212px;
+    width: auto;
+    border-radius: 16px;
+    box-shadow: var(--shadow-2);
+  }
+  .fc__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+  }
+  .fc__name { font-weight: 640; color: var(--ink); font-size: var(--text-h4); }
+  .fc__arrow {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: var(--surface-critical);
+    color: var(--ink-2);
+    transition:
+      background var(--dur-hover) var(--ease-standard),
+      border-color var(--dur-hover) var(--ease-standard),
+      color var(--dur-hover) var(--ease-standard);
+  }
+  .fc:hover .fc__arrow {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .fc__desc { color: var(--ink-2); }
+</style>

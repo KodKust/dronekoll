@@ -1,12 +1,14 @@
 ---
 /**
- * Språkförslags-banner — ALDRIG auto-redirect (SEO + respekt för aktivt val).
+ * Språkförslags-toast — ALDRIG auto-redirect (SEO + respekt för aktivt val).
  *
- * navigator.languages → första stödda språk ≠ sidans språk → flytande pill
- * (fixed bottom, NOLL CLS) med texten PÅ MÅLSPRÅKET + stäng-kryss.
+ * navigator.languages → första stödda språk ≠ sidans språk → liten toast
+ * nere till HÖGER (fixed, NOLL CLS — täcker aldrig centrerat innehåll,
+ * knappar eller sidfot) med texten PÅ MÅLSPRÅKET + stäng-kryss (44×44).
  * Mål-URL: sidans hreflang-alternate för målspråket om den finns (läses ur
  * <link rel="alternate">), annars målspråkets hubb /{lang}/.
- * Dismiss → localStorage.langSuggest = målspråket (visas aldrig igen för det).
+ * Dismiss → sessionStorage.langSuggest = målspråket → visas högst en gång
+ * per session efter stängning. Ingen automatisk stängning.
  *
  * Texterna för ALLA språk skickas som inline-JSON (~1,5 kB) — de måste ju
  * finnas på MÅLSPRÅKET, inte sidans språk.
@@ -47,21 +49,23 @@ for (const code of LANGUAGE_CODES) {
 </div>
 
 <script>
-  // REPO-A11Y-02: localStorage kan kasta (privat läge, blockerad lagring,
+  // REPO-A11Y-02: storage kan kasta (privat läge, blockerad lagring,
   // sandboxad iframe) — en okapslad läsning fick tidigare HELA bannerskriptet
   // att avbryta. Säker helper: fel → som om inget var sparat/går att spara.
+  // sessionStorage (inte localStorage): förslaget visas högst en gång per
+  // session efter stängning, men får återkomma i en ny session.
   function safeStorageGet(key: string): string | null {
     try {
-      return localStorage.getItem(key);
+      return sessionStorage.getItem(key);
     } catch {
       return null;
     }
   }
   function safeStorageSet(key: string, value: string): void {
     try {
-      localStorage.setItem(key, value);
+      sessionStorage.setItem(key, value);
     } catch {
-      /* no-op — offret är att förslaget kan visas igen nästa besök */
+      /* no-op — offret är att förslaget kan visas igen nästa sidladdning */
     }
   }
 
@@ -104,23 +108,22 @@ for (const code of LANGUAGE_CODES) {
   .langbanner {
     position: fixed;
     bottom: max(16px, env(safe-area-inset-bottom));
-    left: 50%;
-    transform: translateX(-50%);
+    right: max(16px, env(safe-area-inset-right));
     z-index: 70;
     display: flex;
     align-items: center;
-    gap: var(--space-2);
+    gap: var(--space-1);
     background: var(--raised);
     border: 1px solid var(--border);
     border-radius: var(--r-pill);
     box-shadow: var(--shadow-2);
-    padding: 8px 10px 8px 18px;
-    max-width: min(92vw, 480px);
+    padding: 4px 4px 4px 18px;
+    max-width: min(calc(100vw - 32px), 440px);
     animation: langbanner-in var(--dur-fast) var(--ease-standard) both;
   }
   @keyframes langbanner-in {
-    from { opacity: 0; transform: translate(-50%, 8px); }
-    to   { opacity: 1; transform: translate(-50%, 0); }
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: none; }
   }
   .langbanner__link {
     font-size: var(--text-small);
@@ -131,17 +134,27 @@ for (const code of LANGUAGE_CODES) {
     text-overflow: ellipsis;
   }
   .langbanner__link:hover { text-decoration: none; color: var(--accent); }
+  /* 44×44 träffyta (WCAG-målstorlek) — den synliga cirkeln är mindre men
+     hela knappen tar emot klicket. */
   .langbanner__close {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
     border: 0;
     border-radius: 50%;
-    background: var(--soft-btn);
+    background: transparent;
     color: var(--ink-2);
     cursor: pointer;
   }
-  .langbanner__close:hover { color: var(--ink); }
+  .langbanner__close:hover { color: var(--ink); background: var(--soft-btn); }
+  /* Mobil: ännu kompaktare fotavtryck så toasten inte spänner över hela
+     innehållsbredden (den är engångs per session + stängbar; fixed-toast
+     vald framför in-flow-rad för att aldrig orsaka layoutskift). */
+  @media (max-width: 640px) {
+    .langbanner { max-width: 84vw; padding-left: 14px; }
+    .langbanner__link { font-size: var(--text-caption); }
+  }
 </style>

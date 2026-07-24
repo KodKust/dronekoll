@@ -1,11 +1,12 @@
 ---
 /**
- * Regellistan — TYPOGRAFISK (inga kort, max 68ch). REN lista: reglerna står
- * fria utan per-rad-status/ikoner. Översynsdatum visas separat via
- * FreshnessBadge ("Rules checked {date}") — vi lovar aldrig "verifierad", men
- * säger när reglerna senast sågs över. Legal-registret/legalStatus är ett
- * INTERNT arbetsverktyg och surfas inte här (Kristoffers beslut 2026-07-24;
- * de gamla per-rad-taggarna undergrävde trovärdigheten).
+ * Regellistan (landssidor) — varje befintlig punkt får en egen lugn regelrad:
+ * nästan vit yta, diskret blågrå kant, generös padding och ett neutralt
+ * nummer i separat kolumn (ekar källkortens bokstavschip). Text och ordning
+ * ändras ALDRIG här. REN lista: inga per-rad-statusar/ikoner — översynsdatum
+ * visas separat via FreshnessBadge; legal-registret/legalStatus är ett
+ * INTERNT arbetsverktyg och surfas inte (Kristoffers beslut 2026-07-24).
+ * Ingen stagger: reglerna ska stå i sidan direkt, även vid #rules-djuplänk.
  */
 interface Props {
   rules: string[];
@@ -13,25 +14,46 @@ interface Props {
 const { rules } = Astro.props;
 ---
 
-<ul class="rules prose" data-stagger>
-  {rules.map((text) => (
-    <li class="rules__item">
-      <span class="rules__marker" aria-hidden="true"></span>
+<ol class="rules">
+  {rules.map((text, i) => (
+    <li class="rules__row">
+      <span class="rules__num tnum" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
       <span class="rules__text">{text}</span>
     </li>
   ))}
-</ul>
+</ol>
 
 <style>
-  .rules { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }
-  .rules__item { display: flex; gap: var(--space-3); align-items: baseline; }
-  .rules__marker {
-    flex-shrink: 0;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: var(--ink-3);
-    transform: translateY(-4px);
+  .rules {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: var(--space-3);
+    max-width: var(--w-prose);
   }
-  .rules__text { display: inline; }
+  .rules__row {
+    display: flex;
+    gap: var(--space-4);
+    align-items: flex-start;
+    background: var(--surface-card);
+    border: 1px solid var(--sky-border);
+    border-radius: var(--r-md);
+    padding: var(--space-4) var(--space-5);
+  }
+  .rules__num {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-top: 1px;
+    border-radius: var(--r-sm);
+    background: var(--soft-btn);
+    color: var(--ink-2);
+    font-size: var(--text-caption);
+    font-weight: 640;
+  }
+  .rules__text { color: var(--ink-body); min-width: 0; }
 </style>

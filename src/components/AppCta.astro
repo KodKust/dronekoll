@@ -2,8 +2,11 @@
 /**
  * App-CTA-panel — EN per sida, nära slutet. Kunskap först, sälj sist.
  * r20-panel med accent-wash-gradient (en av sajtens två sanktionerade
- * gradienter). Enhetsbild (lokaliserad crop) kommer i fas 8 — panelen
- * renderar utan bild tills dess (grid kollapsar snyggt).
+ * gradienter). Två tydliga varianter (designpass 2026-07-24):
+ *   cta--media  = balanserad tvåkolumn med enhetsbild(er) till höger —
+ *                 två diskret överlappande telefoner när båda crops finns.
+ *   cta--plain  = smalare centrerad enkolumnsyta (ingen tom högersida).
+ * Den nya hero-drönaren används ALDRIG här (varumärkesbilden är startsidans).
  */
 import { t } from '../lib/i18n';
 import { brandForLang, loadFeatures } from '../lib/model';
@@ -19,11 +22,19 @@ interface Props {
    * för hem/hub/app-sidor (inte knuten till ett enskilt lands förmågor).
    */
   bodyKey?: string;
-  /** sökväg till lokaliserad enhets-crop (fas 8); utelämnad → textpanel */
+  /** sökväg till lokaliserad enhets-crop; utelämnad → centrerad textpanel */
   deviceImage?: string;
+  /** valfri andra crop — ger den överlappande tvåtelefons-kompositionen */
+  deviceImage2?: string;
   deviceAlt?: string;
 }
-const { lang, bodyKey = 'cta.body.generic', deviceImage, deviceAlt = '' } = Astro.props;
+const {
+  lang,
+  bodyKey = 'cta.body.generic',
+  deviceImage,
+  deviceImage2,
+  deviceAlt = '',
+} = Astro.props;
 const brand = brandForLang(lang);
 const featureLinks = loadFeatures().map((f) => ({
   href: `/${lang}/app/${f.slug}/`,
@@ -32,7 +43,7 @@ const featureLinks = loadFeatures().map((f) => ({
 const rating = loadRating();
 ---
 
-<section class="cta">
+<section class={`cta ${deviceImage ? 'cta--media' : 'cta--plain'}`}>
   <div class="cta__text">
     <p class="overline">{t('cta.overline', lang)}</p>
     <h2>{t('cta.title', lang)}</h2>
@@ -64,33 +75,49 @@ const rating = loadRating();
     </div>
   </div>
   {deviceImage && (
-    <div class="cta__device">
-      <img src={deviceImage} alt={deviceAlt} loading="lazy" decoding="async" width="320" height="660" />
+    <div class={`cta__device ${deviceImage2 ? 'cta__device--duo' : ''}`}>
+      {deviceImage2 && (
+        <img
+          class="cta__phone cta__phone--back"
+          src={deviceImage2}
+          alt=""
+          loading="lazy"
+          decoding="async"
+          width="640"
+          height="1139"
+        />
+      )}
+      <img
+        class="cta__phone cta__phone--front"
+        src={deviceImage}
+        alt={deviceAlt}
+        loading="lazy"
+        decoding="async"
+        width="640"
+        height="1139"
+      />
     </div>
   )}
 </section>
 
 <style>
   .cta {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: var(--space-7);
-    align-items: center;
     background: linear-gradient(135deg, var(--accent-wash), #fff 70%);
     border: 1px solid var(--border);
     border-radius: var(--r-xl);
     padding: var(--space-7);
     overflow: hidden;
   }
-  .cta__text { display: grid; gap: var(--space-4); max-width: 46ch; }
+  .cta__text { display: grid; gap: var(--space-4); }
   .cta__body { color: var(--ink-body); }
   .cta__features { color: var(--ink-2); }
   .cta__features a { color: var(--accent-ink); font-weight: 500; }
-  .cta__badges { display: flex; gap: var(--space-3); flex-wrap: wrap; }
+  .cta__badges { display: flex; gap: var(--space-3); flex-wrap: wrap; align-items: center; }
   .cta__badge {
     display: inline-flex;
     align-items: center;
     gap: 8px;
+    min-height: 44px;
     background: var(--ink);
     color: #fff;
     border-radius: 10px;
@@ -100,15 +127,48 @@ const rating = loadRating();
     transition: transform var(--dur-lift) var(--ease-standard);
   }
   .cta__badge:hover { color: #fff; text-decoration: none; transform: translateY(-1px); }
-  .cta__device img {
-    transform: rotate(-3deg);
-    border-radius: 28px;
+
+  /* ── Variant: utan media → smalare centrerad enkolumnsyta ── */
+  .cta--plain { max-width: 680px; margin-inline: auto; text-align: center; }
+  .cta--plain .cta__text { justify-items: center; }
+  .cta--plain .cta__body { max-width: 52ch; }
+  .cta--plain .cta__badges { justify-content: center; }
+
+  /* ── Variant: med media → balanserad tvåkolumn ── */
+  .cta--media {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: var(--space-7);
+    align-items: center;
+  }
+  .cta--media .cta__text { max-width: 46ch; }
+  .cta__device { position: relative; }
+  .cta__phone {
+    border-radius: 22px;
     box-shadow: var(--shadow-3);
     height: auto;
   }
-  @media (max-width: 768px) {
-    .cta { grid-template-columns: 1fr; padding: var(--space-6); }
+  .cta__device .cta__phone--front { width: 230px; transform: rotate(-2deg); }
+  /* Två diskret överlappande telefoner: baksidans crop lite mindre, bakom. */
+  .cta__device--duo { padding-left: 108px; }
+  .cta__device--duo .cta__phone--back {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 196px;
+    transform: translateY(-50%) rotate(-7deg);
+    box-shadow: var(--shadow-2);
+  }
+  .cta__device--duo .cta__phone--front {
+    position: relative;
+    transform: rotate(3deg);
+  }
+
+  @media (max-width: 820px) {
+    .cta--media { grid-template-columns: 1fr; padding: var(--space-6); }
     .cta__device { justify-self: center; }
-    .cta__device img { max-width: 240px; }
+    .cta__device .cta__phone--front { width: 200px; }
+    .cta__device--duo { padding-left: 92px; }
+    .cta__device--duo .cta__phone--back { width: 168px; }
   }
 </style>

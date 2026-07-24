@@ -15,7 +15,7 @@ const gradId = `wm-bg-${Math.random().toString(36).slice(2, 8)}`;
 const Tag = href ? 'a' : 'span';
 ---
 
-<Tag class="wordmark" href={href}>
+<Tag class={`wordmark ${mono ? 'wordmark--mono' : ''}`} href={href}>
   {mono ? (
     <svg
       class="wordmark__glyph"
@@ -77,5 +77,9 @@ const Tag = href ? 'a' : 'span';
     letter-spacing: -0.02em;
     color: var(--ink);
   }
-  .band--navy .wordmark__name { color: #fff; }
+  /* Uttrycklig ljus/inverterad variant (mono = footer): namnet följer
+     omgivningens currentColor — aldrig mörkt mot marin bakgrund. Den gamla
+     indirekta ".band--navy …"-regeln var beroende av förälderns klass och
+     slog inte konsekvent. */
+  .wordmark--mono .wordmark__name { color: currentColor; }
 </style>
