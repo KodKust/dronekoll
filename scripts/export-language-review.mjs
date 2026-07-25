@@ -11,8 +11,15 @@
  *
  *   node scripts/export-language-review.mjs --lang fi
  *   node scripts/export-language-review.mjs --lang fi,et,lv,lt,pl,hu
+ *   node scripts/export-language-review.mjs --all --out ~/Desktop/Språkgranskning
  *
- * Ut: data/_outsourced/{lang}.review.json
+ * meta.title och meta.desc undantas som default: de är SEO-ytor där den finska
+ * granskningen 2026-07-25 föreslog en grammatiskt korrekt men sämre titel (den
+ * nyckelordsladdade "interaktiiviset aluekartat ja NOTAMit" byttes mot en
+ * trognare översättning av engelskan). Att väga sökord mot ordagrannhet är ett
+ * affärsbeslut och hör inte hemma mitt i en språkgranskning. --seo tar med dem.
+ *
+ * Ut: data/_outsourced/{lang}.review.json, eller --out <katalog>
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -21,10 +28,14 @@ const ROOT = process.cwd();
 const OUT = join(ROOT, 'data', '_outsourced');
 const args = process.argv.slice(2);
 const langArg = args.includes('--lang') ? args[args.indexOf('--lang') + 1] : null;
-if (!langArg) {
-  console.error('Ange språk: node scripts/export-language-review.mjs --lang fi[,et,lv]');
+const wantAll = args.includes('--all');
+const withSeo = args.includes('--seo');
+const outDir = args.includes('--out') ? args[args.indexOf('--out') + 1] : OUT;
+if (!langArg && !wantAll) {
+  console.error('Ange språk: --lang fi[,et,lv]  eller  --all');
   process.exit(2);
 }
+const SKIP_SEO = /^meta\.(title|desc)\./;
 
 const LANG_NAME = {
   bg: 'bulgariska', cs: 'tjeckiska', da: 'danska', de: 'tyska', el: 'grekiska',
@@ -65,20 +76,36 @@ const instruction = (lang) => [
   'Returnera SAMMA JSON-struktur ifylld, utan extra text runt omkring.',
 ].join('\n');
 
-mkdirSync(OUT, { recursive: true });
-for (const lang of langArg.split(',').map((s) => s.trim()).filter(Boolean)) {
+// Marknadsordning: språk där det finns användare först, långsvansen sist.
+// Filnamnen numreras i den ordningen så det syns vilken som ger mest.
+const MARKET_ORDER = ['de', 'nl', 'da', 'no', 'fr', 'sv', 'fi', 'pl', 'es', 'it', 'pt',
+  'cs', 'sk', 'hu', 'ro', 'el', 'et', 'lv', 'lt', 'sl', 'hr', 'bg', 'tr', 'uk', 'is', 'mt'];
+
+const langs = wantAll
+  ? MARKET_ORDER.filter((l) => Object.values(catalog).some((e) => e && typeof e === 'object' && e[l]))
+  : langArg.split(',').map((s) => s.trim()).filter(Boolean);
+
+mkdirSync(outDir, { recursive: true });
+let n = 0;
+for (const lang of langs) {
   const items = [];
   for (const [key, entry] of Object.entries(catalog)) {
     if (key.startsWith('_') || typeof entry !== 'object') continue;
+    if (!withSeo && SKIP_SEO.test(key)) continue;
     const current = entry[lang];
     if (!current || !String(current).trim()) continue;
     items.push({ key, en: entry.en ?? '', current, fixed: '', why: '' });
   }
-  const chars = items.reduce((n, i) => n + i.current.length, 0);
+  if (!items.length) continue;
+  n += 1;
+  const chars = items.reduce((a, i) => a + i.current.length, 0);
+  const name = wantAll
+    ? `${String(n).padStart(2, '0')}-${LANG_NAME[lang] ?? lang}-${lang}.json`
+    : `${lang}.review.json`;
   writeFileSync(
-    join(OUT, `${lang}.review.json`),
+    join(outDir, name),
     JSON.stringify({ instruction: instruction(lang), lang, items }, null, 2) + '\n',
   );
-  console.log(`✓ ${lang}.review.json — ${items.length} strängar, ${chars.toLocaleString('sv-SE')} tecken`);
+  console.log(`✓ ${name.padEnd(28)} ${items.length} strängar, ${chars.toLocaleString('sv-SE')} tecken`);
 }
-console.log(`\nFilerna ligger i data/_outsourced/ — skicka dem som de är.`);
+console.log(`\n${n} filer i ${outDir}`);
