@@ -69,11 +69,27 @@ function expectedHash(iso) {
 
 const CASE_ALIASES = { countryIn: 'country', countryGen: 'country' };
 const ph = (s) => new Set([...String(s).matchAll(/\{(\w+)\}/g)].map((m) => CASE_ALIASES[m[1]] ?? m[1]));
-const NUM_UNIT = /(\d[\d., \s]*)\s*(kg|g\b|km|m\b|ft|NM|J\b|%|SGD|HK\$|€|£|\$)/gi;
+/**
+ * Mätvärden ur en text, normaliserade för jämförelse mellan språk.
+ *
+ * Två fallgropar som gav falsklarm i första skarpa körningen (2026-07-25):
+ *  · Tyskan skriver komposita med bindestreck — "5-km-Kreis" är samma mått som
+ *    "5 km". Bindestreck normaliseras därför till mellanslag först.
+ *  · "HK$10M" lästes som "10 meter" av ett skiftlägesokänsligt m\b. Enheterna
+ *    matchas nu skiftlägeskänsligt (m/g är meter/gram, M är miljoner), och ett
+ *    tal som föregås av valutatecken räknas som belopp, inte som längd.
+ * Kvarstående osäkerhet fälls hellre än släpps igenom — en avvisad rättelse
+ * kostar en manuell titt, en insläppt felaktig siffra kostar mer.
+ */
+const NUM_UNIT = /(?<![$€£])(\d[\d., \s]*)\s*(kg|km|ft|NM|SGD|HK\$|EUR|USD|g|m|J|%)(?![a-zA-Z])/g;
 const norm = (s) => s.replace(/[\s.,]/g, '');
 function measures(t) {
   const out = new Set();
-  for (const m of String(t).matchAll(NUM_UNIT)) out.add(`${norm(m[1])}${m[2].toLowerCase()}`);
+  // Bindestreck, tankstreck och minustecken → mellanslag. Engelskan skriver
+  // "25-150kg", tyskan "25–150 kg" med en dash; utan normalisering läses de som
+  // olika mått och en korrekt rättelse avvisas.
+  const flat = String(t).replace(/[-–—−]/g, ' ');
+  for (const m of flat.matchAll(NUM_UNIT)) out.add(`${norm(m[1])}${m[2]}`);
   return out;
 }
 const PROTECTED = /\b(EASA|FAA|CAA|CAAP|CAAS|CAD|DGCA|SACAA|SANParks|NATS|GCAA|DCAA|Traficom|NOTAM|VLOS|BVLOS|EVLOS|FPV|MTOM|B-RID|RPC|UAPL|FRIA|FRZ|RFZ|CTR|NEMA|DigitalSky|PCAR|FlyItSafe|HKIA|NAIA|SISANT|UIN|eVTOL|Part \d+)\b/g;
