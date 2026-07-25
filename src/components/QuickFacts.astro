@@ -6,7 +6,7 @@
  */
 import { t } from '../lib/i18n';
 import { loadRegulators } from '../lib/ingest';
-import type { PageEntry } from '../lib/model';
+import { frameworkText, type PageEntry } from '../lib/model';
 
 interface Props {
   page: PageEntry;
@@ -19,7 +19,11 @@ const facts: Array<{ label: string; value: string; tnum?: boolean }> = [];
 // Myndighet ur regulators.json — ALDRIG dataSourceName (teknisk feedkälla/licenssträng)
 const reg = loadRegulators()[page.iso.toUpperCase()];
 if (reg) facts.push({ label: t('facts.regulator', page.lang), value: reg.regulator });
-if (c.regulatoryBase) facts.push({ label: t('facts.framework', page.lang), value: c.regulatoryBase });
+if (c.regulatoryBase)
+  facts.push({
+    label: t('facts.framework', page.lang),
+    value: frameworkText(c.regulatoryBase, page.lang),
+  });
 if (c.dronePilotCredentialName)
   facts.push({ label: t('facts.credential', page.lang), value: c.dronePilotCredentialName });
 if (zoneCount && zoneCount > 0)

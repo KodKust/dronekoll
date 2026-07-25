@@ -177,7 +177,15 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
     // vaktas av sektion 6 — här vaktas bara mallarna.
     'faq.q.visitor', 'faq.tpl.visitor.easa', 'faq.tpl.visitor.other', 'faq.tpl.visitor.generic'];
   const ws = JSON.parse(readFileSync(join(ROOT, 'data', 'web-strings', 'web_strings.json'), 'utf8'));
-  const phSet = (s) => new Set([...String(s).matchAll(/\{(\w+)\}/g)].map((m) => m[1]));
+  // countryIn/countryGen är KASUSVARIANTER av samma landsnamn (finskan böjer
+  // namnet i stället för att sätta preposition framför — se
+  // data/fi-country-forms.json). Paritetsvakten ska fortfarande fånga tappade
+  // och påhittade variabler, men inte flagga att fi valt rätt kasus.
+  const CASE_ALIASES = { countryIn: 'country', countryGen: 'country' };
+  const phSet = (s) =>
+    new Set(
+      [...String(s).matchAll(/\{(\w+)\}/g)].map((m) => CASE_ALIASES[m[1]] ?? m[1]),
+    );
   for (const key of REQUIRE_27) {
     const entry = ws[key];
     if (!entry) { fail(`i18n-vakt: nyckeln "${key}" saknas i web_strings.json`); continue; }
@@ -191,6 +199,25 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
     if (drift.length) fail(`i18n-vakt: "${key}" platshållar-drift mot EN i: ${drift.join(', ')}`);
     else ok(`i18n-vakt: "${key}" fullständig (27/27)`);
   }
+}
+
+// ── 7. Finska landsnamnsformer: 55/55 ───────────────────────────────────────
+// De finska mallarna renderar {countryIn}/{countryGen}, aldrig nominativen —
+// saknas ett land i tabellen faller countryParams tillbaka på nominativen och
+// sidan får tillbaka exakt den trasiga finskan fixen tog bort ("maassa Suomi").
+// Nytt land i slugs-matrisen → ny rad i data/fi-country-forms.json.
+{
+  const forms = JSON.parse(readFileSync(join(ROOT, 'data', 'fi-country-forms.json'), 'utf8'));
+  const matrix = JSON.parse(readFileSync(join(ROOT, 'data', 'slugs-matrix.json'), 'utf8'));
+  const isos = Object.keys(matrix).filter((k) => !k.startsWith('_'));
+  // FI själv saknas i matrisen (fi är dess eget språk) — kräv det ändå.
+  const required = [...new Set([...isos, 'FI'])];
+  const missing = required.filter((iso) => {
+    const f = forms[iso];
+    return !f || !String(f.in || '').trim() || !String(f.gen || '').trim();
+  });
+  if (missing.length) fail(`fi-böjning: saknar in/gen för ${missing.join(', ')}`);
+  else ok(`fi-böjning: ${required.length}/${required.length} landsnamn har inessiv + genitiv`);
 }
 
 // ── 6. Sträng-/notvakt: visitor-notes struktur + platshållare/skriftsystem ───

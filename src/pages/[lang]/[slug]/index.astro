@@ -21,7 +21,7 @@ import FreshnessBadge from '../../../components/FreshnessBadge.astro';
 import MapSection from '../../../components/MapSection.astro';
 import AppCta from '../../../components/AppCta.astro';
 import CountryGrid from '../../../components/CountryGrid.astro';
-import { allCountryPages, relatedCountries, enArticle, type PageEntry } from '../../../lib/model';
+import { allCountryPages, relatedCountries, enArticle, frameworkText, type PageEntry } from '../../../lib/model';
 import { zoneCountByIso, loadRegulators } from '../../../lib/ingest';
 import { mapConfigFor } from '../../../lib/mapconfig';
 import { t } from '../../../lib/i18n';
@@ -153,7 +153,9 @@ const ldBlocks = [
         {loadRegulators()[page.iso.toUpperCase()] && (
           <span class="pill hero__chip">{loadRegulators()[page.iso.toUpperCase()].regulator}</span>
         )}
-        {c.regulatoryBase && <span class="pill hero__chip hero__chip--frame">{c.regulatoryBase}</span>}
+        {c.regulatoryBase && (
+          <span class="pill hero__chip hero__chip--frame">{frameworkText(c.regulatoryBase, lang)}</span>
+        )}
         {/* WP-E: kartan = differentiator — direktväg redan från hero */}
         <a class="pill hero__chip hero__chip--map" href="#map">↓ {t('anchor.map', lang)}</a>
       </div>

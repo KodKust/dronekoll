@@ -33,7 +33,17 @@ const { lang, pages } = Astro.props;
           decoding="async"
         />
         <span class="cgrid__name">{p.displayName}</span>
-        <span class={`pill cgrid__badge ${p.country.hasAirspaceOverlay ? 'cgrid__badge--zones' : ''}`}>
+        {/* Tre datanivåer, tre tinter — violett zonkarta > gul NOTAM > grå regler.
+            Färgen bär rangordningen så rutnätet går att skanna utan att läsa. */}
+        <span
+          class={`pill cgrid__badge ${
+            p.country.hasAirspaceOverlay
+              ? 'cgrid__badge--zones'
+              : p.country.hasNotam
+                ? 'cgrid__badge--notam'
+                : ''
+          }`}
+        >
           {p.country.hasAirspaceOverlay
             ? t('grid.overlayBadge', lang)
             : p.country.hasNotam
@@ -74,5 +84,6 @@ const { lang, pages } = Astro.props;
     background: var(--soft-btn);
     color: var(--ink-2);
   }
-  .cgrid__badge--zones { background: var(--accent-wash); color: var(--accent-ink); }
+  .cgrid__badge--zones { background: var(--violet-wash); color: var(--violet-ink); }
+  .cgrid__badge--notam { background: var(--warn-wash);   color: var(--warn-ink); }
 </style>

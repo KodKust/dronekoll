@@ -62,6 +62,13 @@
   --warn-ink:    #9A5B00;  --warn-wash:   #FDF4E5;  --warn-border:   #F3D9AC;
   --danger-ink:  #C62828;  --danger-wash: #FDECEC;  --danger-border: #F5C6C6;
 
+  /* ── Violett — ENDAST datatäcknings-etiketten "zonkarta" ────────────────
+     Landsrutnätets tre badgear (zonkarta / NOTAM / regler) låg förut i blått
+     och grått och gick ihop vid överblick. Violett är den enda tinten som är
+     ledig: blått = accent/länkar, grönt = go, gult = varning, rött = fara.
+     ink på wash 6.8:1, ink på vitt kort 8.0:1. */
+  --violet-ink:  #5E35B1;  --violet-wash: #EFE9FA;
+
   /* ── Zonsymbologi — trippel per typ ────────────────────────────────────────
      stroke = appens exakta kartfärg (kartlinjer, chip-ringar)
      fill   = stroke @ låg alfa (kartfyllning, chip/badge-bakgrunder)

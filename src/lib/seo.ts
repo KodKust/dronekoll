@@ -4,7 +4,23 @@
  * Q/A · SoftwareApplication utan aggregateRating tills äkta betyg hämtas.
  */
 import { t } from './i18n';
-import { brandForLang, enArticle, SITE, type PageEntry } from './model';
+import { brandForLang, enArticle, fiCountryForm, SITE, type PageEntry } from './model';
+
+/**
+ * Landsnamnets kasusformer till mallarna. Finska mallar använder {countryIn}
+ * ("Suomessa") och {countryGen} ("Suomen"); alla andra språk får nominativen
+ * i båda så en mall aldrig kan gå sönder av att sakna en form. Se
+ * data/fi-country-forms.json för varför tabellen behövs.
+ */
+function countryParams(iso: string, lang: string, displayName: string) {
+  const country = enArticle(iso, lang) + displayName;
+  const fi = lang === 'fi' ? fiCountryForm(iso) : null;
+  return {
+    country,
+    countryIn: fi?.in ?? country,
+    countryGen: fi?.gen ?? country,
+  };
+}
 
 export const APP_STORE_URL = 'https://apps.apple.com/app/dronekoll/id6761332194';
 
@@ -39,14 +55,17 @@ const YEAR = new Date().getFullYear(); // daglig rebuild håller årtalet ärlig
 
 export function countryTitle(page: PageEntry): string {
   return t('meta.title.country', page.lang, {
-    country: page.displayName,
+    ...countryParams(page.iso, page.lang, page.displayName),
     year: YEAR,
     brand: brandForLang(page.lang),
   });
 }
 
 export function countryDescription(page: PageEntry): string {
-  return t('meta.desc.country', page.lang, { country: page.displayName, year: YEAR });
+  return t('meta.desc.country', page.lang, {
+    ...countryParams(page.iso, page.lang, page.displayName),
+    year: YEAR,
+  });
 }
 
 /** BreadcrumbList: Hem → hubb → land. */
@@ -175,8 +194,10 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
   // lokaliserat landsnamn (page.displayName). Ingen koherens-vakt behövs.
   const lang = page.lang;
   // Engelsk bestämd artikel i löptext ("in the United States"): endast en-sidor,
-  // flaggade ISO. FAQ-mallarna använder alla "in {country}" → en rad täcker allt.
-  const country = enArticle(page.iso, page.lang) + page.displayName;
+  // flaggade ISO. Finska får dessutom {countryIn}/{countryGen} — dess mallar kan
+  // inte använda nominativen i löptext (se countryParams).
+  const cp = countryParams(page.iso, page.lang, page.displayName);
+  const country = cp.country;
   const reg = loadRegulators()[page.iso.toUpperCase()];
   const items: FaqItem[] = [];
 
@@ -185,11 +206,11 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
     const easa = /EASA|2019\/947/i.test(c.regulatoryBase ?? '');
     items.push({
       id: 'credential',
-      q: t('faq.q.credential', lang, { country }),
+      q: t('faq.q.credential', lang, { ...cp }),
       a:
         credentialAnswer(page.iso, lang) ??
         t(easa ? 'faq.tpl.credential.easa' : 'faq.tpl.credential.other', lang, {
-          country,
+          ...cp,
           credential: c.dronePilotCredentialName,
           regulator: reg.regulator,
         }),
@@ -205,23 +226,23 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
     const note = loadVisitorNotes()[page.iso.toUpperCase()]?.[lang];
     let a: string;
     if (easaV) {
-      a = t('faq.tpl.visitor.easa', lang, { country, regulator: reg.regulator });
+      a = t('faq.tpl.visitor.easa', lang, { ...cp, regulator: reg.regulator });
       if (note) a += ' ' + note;
     } else if (note) {
-      a = t('faq.tpl.visitor.other', lang, { note, regulator: reg.regulator });
+      a = t('faq.tpl.visitor.other', lang, { ...cp, note, regulator: reg.regulator });
     } else {
-      a = t('faq.tpl.visitor.generic', lang, { country, regulator: reg.regulator });
+      a = t('faq.tpl.visitor.generic', lang, { ...cp, regulator: reg.regulator });
     }
-    items.push({ id: 'visitor', q: t('faq.q.visitor', lang, { country }), a });
+    items.push({ id: 'visitor', q: t('faq.q.visitor', lang, { ...cp }), a });
   }
 
   // 3. Viktigaste reglerna — SAMMANFATTNING av tre, aldrig hela listan igen
   if (c.keyRules.length >= 3) {
     items.push({
       id: 'rules',
-      q: t('faq.q.rules', lang, { country }),
+      q: t('faq.q.rules', lang, { ...cp }),
       a: t('faq.tpl.rules.intro', lang, {
-        country,
+        ...cp,
         r1: ruleSentence(c.keyRules[0], false),
         // r2/r3 = false: injektionen kommer nu VERSALISERAD (mallen byter till
         // kolon-mönster "… : {r2}" så en versal standalone-mening passar). Fas 4.
@@ -243,9 +264,9 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
         : 'faq.tpl.zones.base';
   items.push({
     id: 'zones',
-    q: t('faq.q.zones', lang, { country }),
+    q: t('faq.q.zones', lang, { ...cp }),
     a: t(zonesKey, lang, {
-      country,
+      ...cp,
       brand: brandForLang(lang),
     }),
   });
@@ -254,10 +275,10 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
   if (reg) {
     items.push({
       id: 'authority',
-      q: t('faq.q.authority', lang, { country }),
+      q: t('faq.q.authority', lang, { ...cp }),
       a: reg.aviation
-        ? t('faq.tpl.regulator.two', lang, { country, regulator: reg.regulator, aviation: reg.aviation })
-        : t('faq.tpl.regulator.one', lang, { country, regulator: reg.regulator }),
+        ? t('faq.tpl.regulator.two', lang, { ...cp, regulator: reg.regulator, aviation: reg.aviation })
+        : t('faq.tpl.regulator.one', lang, { ...cp, regulator: reg.regulator }),
     });
   }
 

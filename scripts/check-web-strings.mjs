@@ -30,7 +30,12 @@ const LANGS = [
 const LANGSET = new Set(LANGS);
 const CYRILLIC = /[Ѐ-ӿ]/;
 const GREEK = /[Ͱ-Ͽ]/;
-const placeholders = (s) => new Set([...s.matchAll(/\{(\w+)\}/g)].map((m) => m[1]));
+// countryIn/countryGen = kasusvarianter av {country} (finskan böjer landsnamnet
+// i stället för att sätta en preposition framför — data/fi-country-forms.json).
+// Paritetsvakten fångar fortfarande tappade och påhittade variabler.
+const CASE_ALIASES = { countryIn: 'country', countryGen: 'country' };
+const placeholders = (s) =>
+  new Set([...s.matchAll(/\{(\w+)\}/g)].map((m) => CASE_ALIASES[m[1]] ?? m[1]));
 const wordCount = (s) => s.trim().split(/\s+/).length;
 
 export function checkWebStrings() {

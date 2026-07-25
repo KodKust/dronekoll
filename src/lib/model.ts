@@ -126,6 +126,71 @@ export function enArticle(iso: string, lang: string): string {
   return lang === 'en' && EN_ARTICLE_ISO.has(iso) ? 'the ' : '';
 }
 
+/**
+ * Finska landsnamnsformer (data/fi-country-forms.json): "in" = missä-kasus
+ * (Suomessa/Kyproksella), "gen" = genitiv (Suomen).
+ *
+ * Finskan saknar preposition för "i {land}" — namnet böjs. De finska mallarna
+ * kringgick det förut med "maassa {country}" ("maassa Suomi"), som är
+ * grammatiskt fel; se data/fi-country-forms.json. Tabellen är den enda
+ * sanningen, ingen algoritmisk böjning: vokalharmoni, konsonantgradation,
+ * ö-namnens ytterlokalkasus och sammansatta namn (Isossa-Britanniassa) går
+ * inte att härleda ur nominativformen utan att bli fel någonstans.
+ */
+/**
+ * regulatoryBase → sidans språk (data/framework-phrases.json).
+ *
+ * Fältet är ETT globalt engelskt värde per land i countries.json (delas med
+ * appen) → faktarutan "Framework" visade engelsk löptext på alla 27 språk,
+ * t.ex. "+ national enforcement framework" mitt i en finsk sida, och rå
+ * kyrilliska för UA. Här byts kända löptextfraser mot sidans språk medan
+ * förordningarnas EGENNAMN lämnas orörda ("EU 2019/947", "14 CFR Part 107").
+ * Längsta frasen först, så "Irish national enforcement framework" vinner över
+ * "national enforcement framework". Okänd fras → oförändrad (syns i klartext
+ * i stället för att tyst bli fel), vilket också gör nya länders värden
+ * ofarliga tills någon lägger till frasen.
+ *
+ * Detekteringen i seo.ts (EASA-mallval) läser ALLTID råfältet, aldrig detta.
+ */
+let _fwPhrases: [string, Record<string, string>][] | null = null;
+export function frameworkText(raw: string | null | undefined, lang: string): string {
+  if (!raw) return '';
+  if (!_fwPhrases) {
+    const p = join(process.cwd(), 'data/framework-phrases.json');
+    const obj = existsSync(p)
+      ? (JSON.parse(readFileSync(p, 'utf8')) as Record<string, Record<string, string>>)
+      : {};
+    _fwPhrases = Object.entries(obj)
+      .filter(([k]) => !k.startsWith('_'))
+      .sort((a, b) => b[0].length - a[0].length);
+  }
+  let out = raw;
+  for (const [phrase, translations] of _fwPhrases) {
+    const target = translations[lang];
+    if (target && out.includes(phrase)) out = out.replaceAll(phrase, target);
+  }
+  return out;
+}
+
+export interface FiForms {
+  in: string;
+  gen: string;
+}
+let _fiForms: Record<string, FiForms> | null = null;
+export function fiCountryForm(iso: string): FiForms | null {
+  if (!_fiForms) {
+    const p = join(process.cwd(), 'data/fi-country-forms.json');
+    const raw = existsSync(p)
+      ? (JSON.parse(readFileSync(p, 'utf8')) as Record<string, unknown>)
+      : {};
+    _fiForms = {};
+    for (const [k, v] of Object.entries(raw)) {
+      if (!k.startsWith('_')) _fiForms[k.toUpperCase()] = v as FiForms;
+    }
+  }
+  return _fiForms[iso.toUpperCase()] ?? null;
+}
+
 function countryUrl(lang: string, slug: string): string {
   return `/${lang}/${slug}/`;
 }
