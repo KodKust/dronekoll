@@ -57,36 +57,34 @@ de går att stickprova.
 `src/lib/schema.ts`. Lägg till nya motorer där **medvetet** — annars faller
 bygget, vilket är meningen: proveniensen ska aldrig bli en gissning i efterhand.
 
-## Språkgranskning av chrome-strängarna (annat jobb, annan risk)
+## Språkgranskning — ett format för hela sajten
 
-Matrisjobbet ovan skapar NY text ur engelska. Det här granskar BEFINTLIG text i
-`web_strings.json` + `feature-strings.json` — 169 strängar per språk, ~13 500
-tecken. Det är knappar, rubriker och FAQ-mallar, alltså rent språk utan
-sakuppgifter, och därmed det lager som lämpar sig bäst att lägga ut.
+`export-review.mjs` + `import-review.mjs` ersatte det tidigare paret
+export/import-language-review (chrome) och export/import-translation-job
+(regeltexter). Skillnaden behövdes aldrig: varje post har `en`, `current` och
+tomma `fixed`/`why`. Är `current` en daterad översättning av en ändrad engelsk
+text skriver granskaren en ny — är den bara språkligt skev rättas språket.
+Samma uppgift, samma instruktion, ett filformat.
 
 ```bash
-node scripts/export-language-review.mjs --lang fi,et,lv,lt,pl,hu
-# → data/_outsourced/{lang}.review.json — instruktionen ligger i filen
-node scripts/import-language-review.mjs fi.granskad.json            # torrkörning
-node scripts/import-language-review.mjs fi.granskad.json --apply
-npx astro build && node scripts/verify-build.mjs
+node scripts/export-review.mjs --out ~/Desktop/Språkgranskning
+# → 26 mappar (en per språk) × ~12 filer: 1-webbtexter, 3-regler-A …
+node scripts/import-review.mjs ~/Desktop/Språkgranskning            # torrkör allt
+node scripts/import-review.mjs ~/Desktop/Språkgranskning --apply --engine gpt-5
+STRICT_EN=1 ASSERT_PAGES=1 STRICT_L10N=1 npx astro build && node scripts/verify-build.mjs
 ```
 
-Granskaren fyller i `fixed` bara där något är fel och motiverar i `why`. Tomt
-fält = texten duger. `why` är inte kosmetik: det skiljer ett verkligt fel
-("partitiv krävs efter räkneord") från en stilåsikt ("låter bättre"). Kommer en
-fil tillbaka full av det senare behöver promten stramas åt, inte texten ändras.
+Mappordningen följer språk som är modersmål i ett land med **zonkarta** —
+huvudmarknaderna först, långsvansen sist. Filerna delas i portioner om ~22 000
+tecken så var och en ryms i ett chattsvar.
 
-Importern fäller på **platshållare** — hårt, aldrig som varning. Försvinner
-`{country}` ur en FAQ-mall renderas en halv mening på alla 55 landssidor i det
-språket samtidigt. `{countryIn}`/`{countryGen}` känns igen som böjda former av
-`{country}` (se `data/fi-country-forms.json`).
+Importern avvisar per post (resten av filen skrivs ändå): tappad eller tillagd
+platshållare, ändrat mätvärde, borttappad skyddad term, radantal som inte matchar
+källan. `meta.title`/`meta.desc` exporteras inte alls — SEO väger sökord mot
+ordagrannhet och är ett affärsbeslut, inte en språkfråga.
 
-Kasusspråken (fi, et, lv, lt, pl, hu) är de mest angelägna: finskan visade sig
-2026-07-25 ha krycklösningen "maassa {country}" i 11 mallar, alltså trasig
-grammatik på 55 sidor, plus partitivfel och en ren felöversättning
-("Lastausalueet…" för "Loading zones…"). Samma sorts fel sitter sannolikt kvar i
-de andra fem.
+`--engine` hamnar i cellens proveniens och måste finnas i vitlistan i
+`src/lib/schema.ts`. Nya motorer läggs till MEDVETET, annars faller bygget.
 
 ## Efter import
 
