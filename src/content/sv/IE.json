@@ -1,67 +1,67 @@
 {
- "meta": {
-  "sourceHash": "4c4750f0c88fe4d2f7dcefb940ffd9a0",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Kontrollera alltid IAA:s officiella källor innan du flyger. Den här appen är ett verktyg – inte en juridisk auktoritet. Irland följer EASA-reglerna. Nordirland följer UK CAA:s regler – separata regler gäller.",
-  "sectionLabelRules": "VIKTIGASTE REGLERNA (EASA ÖPPEN KATEGORI)",
-  "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
-  "sectionLabelSecondary": "YTTERLIGARE RESURSER",
-  "linksSheetTitle": "Luftrum och regler – Irland",
-  "dronePilotCredentialName": "Pilotkompetensintyg",
-  "keyRules": [
-   "Högst 120 m över marken (EASA öppen kategori)",
-   "Registrera dig som UAS-operatör om drönaren väger 250 g eller mer eller har en kamera (41 €, gäller i 2 år)",
-   "A1/A3-onlineutbildning krävs (51 €, gäller i 5 år) – lägsta ålder 16 år",
-   "A2-intyg för verksamhet nära människor (prov + praktiskt test hos en godkänd utbildningsanordnare)",
-   "Irländsk EASA-registrering är giltig i alla EU-medlemsstater",
-   "Håll alltid drönaren inom synhåll (VLOS) – högst 300 m horisontellt",
-   "Minst 30 m till människor, folksamlingar, fordon och byggnader",
-   "Minst 5 km från alla flygplatser, flygfält eller helikopterplattor",
-   "Phoenix Park (Dublin): absolut drönarförbud",
-   "Nationalparker kräver tillstånd från NPWS – de flesta förbjuder drönare under häckningssäsongen"
-  ],
-  "importantNotes": [
-   "Gardaí (polisen) kan utfärda böter på plats på 500 € eller mer för överträdelser (från augusti 2025)",
-   "Nordirland är Storbritannien – helt andra regler (UK CAA, inte IAA/EASA)",
-   "5 km-zonen kring Dublins flygplats täcker stora delar av staden",
-   "Att flyga utan tillstånd i röda zoner är ett brott",
-   "GDPR gäller när du fångar identifierbara bilder – du är personuppgiftsansvarig"
-  ],
-  "primaryLinks": [
-   {
-    "title": "IAA – Regler för drönare",
-    "description": "Irländska luftfartsmyndighetens officiella nav för drönarregler och resurser"
-   },
-   {
-    "title": "IAA – Registrera dig som operatör",
-    "description": "Registrera dig som UAS-operatör (40 €, gäller i 2 år, giltigt i alla EU-/EASA-länder)"
-   },
-   {
-    "title": "IAA – Karta över geografiska zoner",
-    "description": "Officiell karta över röda/gula/gröna zoner – kontrollera före varje flygning"
-   },
-   {
-    "title": "SafeDrone – Luftrumskarta",
-    "description": "Sök på plats eller Eircode för luftrumsrestriktioner och zoninformation"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "IAA – Vanliga frågor om säkerhet och regler",
-    "description": "Vanliga frågor om de irländska reglerna för drönare"
-   },
-   {
-    "title": "Citizens Information – Drönarägande",
-    "description": "Lättläst guide till drönarägande och regler i Irland"
-   },
-   {
-    "title": "UAAI – Luftrumsresurser",
-    "description": "Community-resurser för luftrum och planeringsverktyg"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "004d6fde4894978be0e705543cec7048",
+    "engine": "opus-5",
+    "translatedAt": "2026-07-25",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Kontrollera alltid IAA:s officiella källor innan du flyger. Den här appen är ett verktyg – inte en juridisk auktoritet. Irland följer EASA-reglerna. Nordirland följer UK CAA:s regler – separata regler gäller.",
+    "sectionLabelRules": "VIKTIGASTE REGLERNA (EASA ÖPPEN KATEGORI)",
+    "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
+    "sectionLabelSecondary": "YTTERLIGARE RESURSER",
+    "linksSheetTitle": "Luftrum och regler – Irland",
+    "dronePilotCredentialName": "Pilotkompetensintyg",
+    "keyRules": [
+      "I den öppna kategorin är högsta höjd 120 m, mätt som avståndet till närmaste punkt på jordytan — inte rakt nedåt, så nära en sluttning kan marken bredvid dig räknas in. Inom 50 m från ett högt konstgjort hinder (över 105 m) kan den som ansvarar för hindret begära tillstånd att flyga upp till 15 m över hindrets höjd.",
+      "Du måste registrera dig som drönaroperatör om drönaren väger 250 g eller mer (eller kan överföra mer än 80 J anslagsenergi) — det gäller även leksaker. Under 250 g krävs registrering ändå om drönaren har en sensor som kan fånga personuppgifter, såvida den inte räknas som leksak enligt EU:s leksaksdirektiv. Krav på utbildning och pilotcertifikat är separata och beror på drönarens klass och underkategori.",
+      "I Irland måste du vara minst 16 år för att registrera dig som drönaroperatör; en förälder eller vårdnadshavare kan registrera sig för någon yngre, som då bara får flyga under den vuxnes direkta uppsikt. A1/A3-utbildningen och provet online krävs för att flyga självständigt i den öppna kategorin.",
+      "A2-intyg för verksamhet nära människor (prov + praktiskt test hos en godkänd utbildningsanordnare)",
+      "Irländsk EASA-registrering är giltig i alla EU-medlemsstater",
+      "I den öppna kategorin ska drönaren hållas inom din egen synlinje utan hjälpmedel (glasögon och linser går bra; kikare eller skärm räknas inte) — eller så flyger du med hjälp av en observatör och håller tydlig och effektiv kommunikation med denne hela tiden, så att ni tillsammans kan bevaka luftrummet och undvika kollisioner. Follow me-läget är ett separat undantag, tillåtet upp till 50 m från piloten.",
+      "Minst 30 m till människor, folksamlingar, fordon och byggnader",
+      "Det finns inget enda EU-gemensamt avstånd som måste hållas till flygplatser. Restriktioner nära flygplatser publiceras som geografiska zoner (artikel 15) vars form och storlek varierar mellan flygplatser. Innan du flyger någonstans nära en flygplats, ett flygfält eller en helikopterplatta: kontrollera ditt lands officiella drönarzonkarta. Att flyga inne i en kontrollzon (CTR) kräver normalt förhandstillstånd från flygtrafikledningen.",
+      "Phoenix Park (Dublin): absolut drönarförbud",
+      "Nationalparker kräver tillstånd från NPWS – de flesta förbjuder drönare under häckningssäsongen"
+    ],
+    "importantNotes": [
+      "Gardaí (polisen) kan utfärda böter på plats på 500 € eller mer för överträdelser (från augusti 2025)",
+      "Nordirland är Storbritannien – helt andra regler (UK CAA, inte IAA/EASA)",
+      "Restriktionszonerna runt flygplatser varierar i storlek; zonen runt Dublins flygplats täcker betydande delar av staden. Kontrollera den officiella irländska drönarkartan innan du flyger nära en flygplats.",
+      "Att flyga utan tillstånd i röda zoner är ett brott",
+      "GDPR gäller när du fångar identifierbara bilder – du är personuppgiftsansvarig"
+    ],
+    "primaryLinks": [
+      {
+        "title": "IAA – Regler för drönare",
+        "description": "Irländska luftfartsmyndighetens officiella nav för drönarregler och resurser"
+      },
+      {
+        "title": "IAA – Registrera dig som operatör",
+        "description": "Registrera dig som UAS-operatör (40 €, gäller i 2 år, giltigt i alla EU-/EASA-länder)"
+      },
+      {
+        "title": "IAA – Karta över geografiska zoner",
+        "description": "Officiell karta över röda/gula/gröna zoner – kontrollera före varje flygning"
+      },
+      {
+        "title": "SafeDrone – Luftrumskarta",
+        "description": "Sök på plats eller Eircode för luftrumsrestriktioner och zoninformation"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "IAA – Vanliga frågor om säkerhet och regler",
+        "description": "Vanliga frågor om de irländska reglerna för drönare"
+      },
+      {
+        "title": "Citizens Information – Drönarägande",
+        "description": "Lättläst guide till drönarägande och regler i Irland"
+      },
+      {
+        "title": "UAAI – Luftrumsresurser",
+        "description": "Community-resurser för luftrum och planeringsverktyg"
+      }
+    ]
+  }
 }
