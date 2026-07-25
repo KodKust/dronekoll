@@ -57,6 +57,37 @@ de går att stickprova.
 `src/lib/schema.ts`. Lägg till nya motorer där **medvetet** — annars faller
 bygget, vilket är meningen: proveniensen ska aldrig bli en gissning i efterhand.
 
+## Språkgranskning av chrome-strängarna (annat jobb, annan risk)
+
+Matrisjobbet ovan skapar NY text ur engelska. Det här granskar BEFINTLIG text i
+`web_strings.json` + `feature-strings.json` — 169 strängar per språk, ~13 500
+tecken. Det är knappar, rubriker och FAQ-mallar, alltså rent språk utan
+sakuppgifter, och därmed det lager som lämpar sig bäst att lägga ut.
+
+```bash
+node scripts/export-language-review.mjs --lang fi,et,lv,lt,pl,hu
+# → data/_outsourced/{lang}.review.json — instruktionen ligger i filen
+node scripts/import-language-review.mjs fi.granskad.json            # torrkörning
+node scripts/import-language-review.mjs fi.granskad.json --apply
+npx astro build && node scripts/verify-build.mjs
+```
+
+Granskaren fyller i `fixed` bara där något är fel och motiverar i `why`. Tomt
+fält = texten duger. `why` är inte kosmetik: det skiljer ett verkligt fel
+("partitiv krävs efter räkneord") från en stilåsikt ("låter bättre"). Kommer en
+fil tillbaka full av det senare behöver promten stramas åt, inte texten ändras.
+
+Importern fäller på **platshållare** — hårt, aldrig som varning. Försvinner
+`{country}` ur en FAQ-mall renderas en halv mening på alla 55 landssidor i det
+språket samtidigt. `{countryIn}`/`{countryGen}` känns igen som böjda former av
+`{country}` (se `data/fi-country-forms.json`).
+
+Kasusspråken (fi, et, lv, lt, pl, hu) är de mest angelägna: finskan visade sig
+2026-07-25 ha krycklösningen "maassa {country}" i 11 mallar, alltså trasig
+grammatik på 55 sidor, plus partitivfel och en ren felöversättning
+("Lastausalueet…" för "Loading zones…"). Samma sorts fel sitter sannolikt kvar i
+de andra fem.
+
 ## Efter import
 
 Push till `main` deployar sajten (minuter). Appen hämtar samma texter inom 6 h.
