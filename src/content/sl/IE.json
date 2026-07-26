@@ -1,67 +1,67 @@
 {
- "meta": {
-  "sourceHash": "4c4750f0c88fe4d2f7dcefb940ffd9a0",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Pred letenjem vedno preverite uradne vire IAA. Ta aplikacija je orodje, ne pravni organ. Irska upošteva predpise EASA. Severna Irska upošteva pravila UK CAA — veljajo ločeni predpisi.",
-  "sectionLabelRules": "KLJUČNA PRAVILA (KATEGORIJA EASA OPEN)",
-  "sectionLabelPrimary": "URADNI VIRI",
-  "sectionLabelSecondary": "DODATNI VIRI",
-  "linksSheetTitle": "Zračni prostor in pravila — Irska",
-  "dronePilotCredentialName": "Potrdilo o usposobljenosti pilota",
-  "keyRules": [
-   "Največ 120 m nad tlemi (kategorija EASA Open)",
-   "Registracija kot upravljavec UAS, če dron tehta 250 g ali več oziroma ima kamero (41 €, veljavno 2 leti)",
-   "Potrebno spletno usposabljanje A1/A3 (51 €, veljavno 5 let) — najnižja starost 16 let",
-   "Potrdilo A2 za operacije v bližini ljudi (izpit + praktični preizkus prek odobrenega izvajalca usposabljanja)",
-   "Irska registracija EASA velja v vseh državah članicah EU",
-   "Z dronom vedno ohranjajte vidno polje (VLOS) — največ 300 m vodoravno",
-   "Najmanj 30 m od ljudi, množic, vozil in zgradb",
-   "Najmanj 5 km od katerega koli letališča, letališke steze ali helikopterskega pristajališča",
-   "Phoenix Park (Dublin): popolna prepoved dronov",
-   "Nacionalni parki zahtevajo dovoljenje NPWS — večina prepoveduje drone v gnezditveni sezoni"
-  ],
-  "importantNotes": [
-   "Gardaí lahko za kršitve izreče globe na kraju samem v višini 500 € ali več (od avgusta 2025)",
-   "Severna Irska je del Združenega kraljestva — popolnoma drugačna pravila (UK CAA, ne IAA/EASA)",
-   "5-kilometrska cona letališča Dublin pokriva pomembne dele mesta",
-   "Letenje brez dovoljenja v rdečih conah je kaznivo dejanje",
-   "GDPR velja pri zajemanju prepoznavnih slik — ste upravljavec podatkov"
-  ],
-  "primaryLinks": [
-   {
-    "title": "IAA — predpisi za drone",
-    "description": "Uradno središče Irske uprave za letalstvo za pravila in vire glede dronov"
-   },
-   {
-    "title": "IAA — registracija kot upravljavec",
-    "description": "Registracija kot upravljavec UAS (40 €, veljavno 2 leti, veljavno v vseh državah EU/EASA)"
-   },
-   {
-    "title": "IAA — karta geografskih con",
-    "description": "Uradna karta rdečih/oranžnih/zelenih con — preverite pred vsakim letom"
-   },
-   {
-    "title": "SafeDrone — karta zračnega prostora",
-    "description": "Iščite po lokaciji ali kodi Eircode za omejitve zračnega prostora in informacije o conah"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "IAA — pogosta vprašanja o varnosti in predpisih",
-    "description": "Pogosta vprašanja o irskih predpisih za drone"
-   },
-   {
-    "title": "Citizens Information — lastništvo drona",
-    "description": "Poljuden vodnik o lastništvu in pravilih glede dronov na Irskem"
-   },
-   {
-    "title": "UAAI — viri o zračnem prostoru",
-    "description": "Skupnostni viri o zračnem prostoru in orodja za načrtovanje"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "004d6fde4894978be0e705543cec7048",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Pred letenjem vedno preverite uradne vire IAA. Ta aplikacija je orodje, ne pravni organ. Irska upošteva predpise EASA. Severna Irska upošteva pravila UK CAA — veljajo ločeni predpisi.",
+    "sectionLabelRules": "KLJUČNA PRAVILA (KATEGORIJA EASA OPEN)",
+    "sectionLabelPrimary": "URADNI VIRI",
+    "sectionLabelSecondary": "DODATNI VIRI",
+    "linksSheetTitle": "Zračni prostor in pravila — Irska",
+    "dronePilotCredentialName": "Potrdilo o usposobljenosti pilota",
+    "keyRules": [
+      "V odprti kategoriji je največja višina 120 m, merjena kot razdalja do najbližje točke zemeljske površine — ne zgolj navpično navzdol, zato se ob pobočju upošteva tudi teren ob vas. Znotraj 50 m od visokega umetnega objekta (višjega od 105 m) lahko subjekt, odgovoren zanj, zaprosi za dovoljenje za letenje do 15 m nad višino objekta.",
+      "Registrirati se morate kot upravljavec drona, če vaš dron tehta 250 g ali več (ali lahko ob trku prenese več kot 80 J energije) — to velja tudi za igrače. Pod 250 g je registracija še vedno potrebna, če ima dron senzor, ki lahko zajema osebne podatke, razen če se šteje za igračo po EU Toy Safety Directive. Zahteve glede usposabljanja oziroma potrdila pilota so ločene in so odvisne od razreda ter podkategorije drona.",
+      "Na Irskem morate biti za registracijo kot upravljavec drona stari najmanj 16 let; za mlajšo osebo se lahko registrira starš ali skrbnik, ta oseba pa lahko nato leti le pod neposrednim nadzorom te odrasle osebe. Za samostojno letenje v odprti kategoriji sta obvezna spletno usposabljanje in izpit A1/A3.",
+      "Potrdilo A2 za operacije v bližini ljudi (izpit + praktični preizkus prek odobrenega izvajalca usposabljanja)",
+      "Irska registracija EASA velja v vseh državah članicah EU",
+      "V odprti kategoriji mora biti dron v vašem lastnem vidnem polju brez pripomočkov (očala ali kontaktne leče so dovoljene; daljnogled ali zaslon ne štejeta) — lahko pa letite s pomočjo opazovalca, pri čemer morata ves čas jasno in učinkovito komunicirati, da lahko skupaj spremljata zračni prostor in preprečujeta trčenja. Način follow-me je ločena izjema in je dovoljen do 50 m od pilota.",
+      "Najmanj 30 m od ljudi, množic, vozil in zgradb",
+      "Ni enotne razdalje od letališč, ki bi veljala po vsej EU. Omejitve v bližini letališč so objavljene kot geografska območja (Article 15), katerih oblika in velikost se razlikujeta od letališča do letališča. Pred letenjem kjer koli v bližini letališča, vzletišča ali heliporta preverite uradni zemljevid območij za drone svoje države; za letenje v kontrolni coni (CTR) je običajno potrebno predhodno dovoljenje kontrole zračnega prometa.",
+      "Phoenix Park (Dublin): popolna prepoved dronov",
+      "Nacionalni parki zahtevajo dovoljenje NPWS — večina prepoveduje drone v gnezditveni sezoni"
+    ],
+    "importantNotes": [
+      "Gardaí lahko za kršitve izreče globe na kraju samem v višini 500 € ali več (od avgusta 2025)",
+      "Severna Irska je del Združenega kraljestva — popolnoma drugačna pravila (UK CAA, ne IAA/EASA)",
+      "Območja omejitev okoli letališč se razlikujejo po velikosti; območje okoli letališča Dublin pokriva precejšen del mesta. Pred letenjem v bližini letališča preverite uradni irski zemljevid za drone.",
+      "Letenje brez dovoljenja v rdečih conah je kaznivo dejanje",
+      "GDPR velja pri zajemanju posnetkov, na katerih je mogoče prepoznati posameznike — ste upravljavec podatkov"
+    ],
+    "primaryLinks": [
+      {
+        "title": "IAA — predpisi za drone",
+        "description": "Uradno središče Irske uprave za letalstvo za pravila in vire glede dronov"
+      },
+      {
+        "title": "IAA — registracija kot upravljavec",
+        "description": "Registracija kot upravljavec UAS (40 €, veljavno 2 leti, veljavno v vseh državah EU/EASA)"
+      },
+      {
+        "title": "IAA — karta geografskih con",
+        "description": "Uradna karta rdečih/oranžnih/zelenih con — preverite pred vsakim letom"
+      },
+      {
+        "title": "SafeDrone — karta zračnega prostora",
+        "description": "Iščite po lokaciji ali kodi Eircode za omejitve zračnega prostora in informacije o conah"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "IAA — pogosta vprašanja o varnosti in predpisih",
+        "description": "Pogosta vprašanja o irskih predpisih za drone"
+      },
+      {
+        "title": "Citizens Information — lastništvo drona",
+        "description": "Poljuden vodnik o lastništvu in pravilih glede dronov na Irskem"
+      },
+      {
+        "title": "UAAI — viri o zračnem prostoru",
+        "description": "Skupnostni viri o zračnem prostoru in orodja za načrtovanje"
+      }
+    ]
+  }
 }

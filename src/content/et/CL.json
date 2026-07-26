@@ -1,28 +1,28 @@
 {
   "meta": {
     "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (asustamata alad, harrastus): kuni 750 g kaaluvad droonid võivad lennata eravaldusel kuni 50 m kõrgusel kõrgeimast takistusest ilma loata",
-      "DAN 151 (asustatud alad / professionaalne kasutus): üle 750 g kaaluvad droonid nõuavad DGAC-i registreerimist, piloodilitsentsi ja käitamisluba",
-      "Maksimaalne lubatud üldkõrgus: 130 m AGL (DAN 151) — varieerub loa järgi",
+      "DAN 91 (asustamata alad, harrastuslend): kuni 750 g kaaluvad droonid võivad eravaldusel ilma loata lennata kuni 50 m kõrgeimast takistusest kõrgemal",
+      "DAN 151 (asustatud alad / professionaalne kasutus): üle 750 g kaaluvate droonide puhul on vaja DGAC-i registreeringut, piloodilitsentsi ja käitamisluba",
+      "Suurim lubatud lennukõrgus: 130 m AGL (DAN 151) — sõltub loast",
       "Vähemalt 2 km kaugusel lennujaamadest ja lennuväljadest",
-      "Kuni 500 m kaugusel operaatorist (säilita otsene silmside)",
+      "Maksimaalselt 500 m operaatorist (hoia drooni palja silmaga nähtavana)",
       "Hoia droon alati otsenähtavuse piires (VLOS)",
       "Öölennud nõuavad DGAC-i eriluba",
-      "DGAC-i registreerimine: mark, mudel, seerianumber, maksimaalne kaal ≤9 kg lubatud kasutuse jaoks, 10×15 cm foto",
-      "Piloodilitsents nõuab kirjalikku eksamit (miinimumtulemus 75%) teemadel DAN 151, DAN 91, meteoroloogia ja aerodünaamika",
-      "Kolmanda osapoole vastutuskindlustus (JAC-i lubatud) on nõutav professionaalseks kasutuseks"
+      "DGAC-i registreerimine: mark, mudel, seerianumber, lubatud kasutuse maksimaalne kaal ≤9 kg, 10×15 cm foto",
+      "Piloodilitsentsi saamiseks tuleb sooritada kirjalik eksam (miinimumtulemus 75%) teemadel DAN 151, DAN 91, meteoroloogia ja aerodünaamika",
+      "Professionaalseks kasutuseks on nõutav kolmanda isiku vastutuskindlustus (JAC-i heaks kiidetud)"
     ],
     "importantNotes": [
-      "📋 KAHETINE REGULATIIVNE RAAMISTIK — DAN 91 vs DAN 151: Tšiili eristab lendamist ASUSTAMATA aladel (DAN 91, lubavam; harrastuslennud ≤750 g ilma loata) ja lendamist ASUSTATUD aladel või avaliku huvi aladel (DAN 151, mis nõuab registreerimist, sertifitseeritud pilooti ja kindlustust). Kohalduvad reeglid sõltuvad asukohast JA eesmärgist.",
+      "📋 KAHEOSALINE REGULATIIVNE RAAMISTIK — DAN 91 vs. DAN 151: Tšiilis eristatakse lendamist ASUSTAMATA aladel (DAN 91, leebem; harrastuslennud ≤750 g ilma loata) ning ASUSTATUD aladel või avaliku huvi aladel (DAN 151, mille puhul on vaja registreeringut, sertifitseeritud pilooti ja kindlustust). Kohaldatavad reeglid sõltuvad NII asukohast KUI KA eesmärgist.",
       "✈️ VÄLISTURISTID: Reeglid kehtivad võrdselt ka mitteresidentidele. Harrastuslikeks droonilendudeks kuni 750 g kaaluvate droonidega asustamata eravaldusel registreerimist ei nõuta. Muude operatsioonide jaoks (turism, professionaalne kasutus, inimeste läheduses, parkides) on nõutavad samad load nagu Tšiili kodanikelegi.",
-      "🌋 RAHVUSPARGID JA RESERVAADID: CONAF (Riiklik Metsanduskorporatsioon) keelab droonid ilma eriloata sellistes parkides nagu Torres del Paine, Lauca ja Isluga vulkaani rahvuspark. Tšiili Antarktis: INACH-i erimäärused. Kontrolli iga pargi või reservaadiga enne reisi.",
-      "🏔️ PIIRANGUGA ALAD: Santiago kesklinn (La Moneda, Plaza de Armas), SCEL lennujaam (Pudahuel), sõjaväe- ja piirialad. Lihavõttesaar, Robinson Crusoe saar, Antarktis: täiendavad piirangud. Vaata keelatud, piiranguga ja ohtlike alade kaarti AIP Chile (ENR 5.1) järgi.",
+      "🌋 RAHVUSPARGID JA RESERVAADID: CONAF (National Forestry Corporation) keelab ilma eriloata droonide kasutamise sellistes parkides nagu Torres del Paine, Lauca ja Isluga Volcano National Park. Chilean Antarctica: INACH-i erieeskirjad. Enne reisi kontrolli iga pargi või reservaadi nõudeid.",
+      "🏔️ PIIRANGUALAD: Santiago kesklinn (La Moneda, Plaza de Armas), SCEL Airport (Pudahuel), sõjaväe- ja piirialad. Easter Island, Robinson Crusoe Island, Antarctica: täiendavad piirangud. Keelatud, piiratud ja ohualade kaarti vaata dokumendist AIP Chile (ENR 5.1).",
       "💰 IGA-AASTANE UUENDAMINE: DGAC-i registreering kehtib 12 kuud ja seda tuleb igal aastal uuendada. Kehtiva registreeringu või tunnistuseta käitamine võib tuua kaasa trahvi, seadmete konfiskeerimise ja käitamiskeelu."
     ],
     "primaryLinks": [
@@ -57,7 +57,7 @@
         "description": "Juurdepääs täielikule lennundusmääruste kogumile: DAN 91, DAN 151 ja kõik droonidele kohalduvad sätted"
       }
     ],
-    "disclaimerText": "Kontrolli enne lendamist alati DGAC-i ametlikke allikaid. See rakendus on tööriist, mitte juriidiline autoriteet. Tšiilis kohaldatakse DAN 91 (asustamata alad) ja DAN 151 (asustatud alad) — kohalduvad reeglid sõltuvad lennu asukohast ja eesmärgist.",
+    "disclaimerText": "Kontrolli enne lendamist alati DGAC-i ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Tšiilis kohaldatakse DAN 91 (asustamata alad) ja DAN 151 (asustatud alad) — kohaldatavad reeglid sõltuvad lennu asukohast ja eesmärgist.",
     "sectionLabelRules": "PÕHIREEGLID",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",

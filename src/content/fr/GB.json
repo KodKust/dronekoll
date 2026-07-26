@@ -1,65 +1,65 @@
 {
- "meta": {
-  "sourceHash": "b3162ca911ac55fba8e7336c9f471c36",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Vérifiez toujours les sources officielles de la CAA avant de voler. Cette application est un outil, pas une autorité juridique. Le Royaume-Uni a sa propre réglementation des drones, distincte de celle de l'UE/EASA. Les arrêtés des collectivités locales peuvent ajouter des restrictions supplémentaires.",
-  "sectionLabelRules": "RÈGLES CLÉS",
-  "sectionLabelPrimary": "SOURCES OFFICIELLES",
-  "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",
-  "linksSheetTitle": "Espace aérien et règles — Royaume-Uni",
-  "dronePilotCredentialName": "Flyer ID et Operator ID",
-  "keyRules": [
-   "Max 120 m (400 ft) au-dessus du sol",
-   "Flyer ID requis à partir de 100 g — réussir le test en ligne de la CAA (40 questions, seuil de réussite de 75 %)",
-   "Gardez toujours une vue directe (VLOS) — max ~500 m à l'horizontale",
-   "Minimum 50 m des personnes non impliquées (30 m / 5 m ne s'appliquent qu'aux drones à marquage de classe UK avec certificat A2)",
-   "Zone de restriction de vol de 5 km autour des aéroports — interdiction de voler sans autorisation",
-   "Assurance obligatoire pour l'usage non récréatif ou les drones de 20 kg ou plus",
-   "Déploiement progressif du Remote ID : à partir de janvier 2026 pour les drones à marquage de classe UK (UK1/UK2/UK3/UK5/UK6) ; pleinement obligatoire en janvier 2028",
-   "Le Royaume-Uni ne fait PAS partie de l'EASA — les certificats de télépilote de l'UE ne sont pas valables au Royaume-Uni",
-   "Londres a des zones réglementées permanentes (R157, R158, R159) — tous les drones y sont interdits"
-  ],
-  "importantNotes": [
-   "Le seuil d'enregistrement au Royaume-Uni est de 100 g — plus strict que les 250 g de l'UE",
-   "Les certificats de drone de l'UE/EASA ne sont PAS reconnus au Royaume-Uni depuis le Brexit",
-   "Les collectivités locales peuvent restreindre le vol sur leurs terrains — vérifiez avant de voler dans les parcs",
-   "Les prisons ont des zones d'interdiction de vol d'environ 1 km — mettre en danger un aéronef est passible de jusqu'à 5 ans de prison"
-  ],
-  "primaryLinks": [
-   {
-    "title": "UK CAA — Réglementation des drones",
-    "description": "Portail officiel de la CAA pour l'ensemble des règles, de l'enregistrement et des ressources sur les drones au Royaume-Uni"
-   },
-   {
-    "title": "CAA — S'enregistrer (Flyer ID et Operator ID)",
-    "description": "Obtenez votre Flyer ID (obligatoire à partir de 100 g) et votre Operator ID (obligatoire à partir de 250 g)"
-   },
-   {
-    "title": "CAA — The Drone Code",
-    "description": "Règles officielles : où vous pouvez voler, limites d'altitude et exigences de sécurité"
-   },
-   {
-    "title": "Drone Assist — Carte de l'espace aérien",
-    "description": "Application gratuite de planification de vol indiquant les zones d'interdiction de vol et les restrictions de l'espace aérien"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAA — Restrictions de l'espace aérien",
-    "description": "Zones de restriction de vol autour des aéroports, des prisons et des zones sensibles"
-   },
-   {
-    "title": "CAA — Exigences d'assurance",
-    "description": "Quand une assurance drone est requise (obligatoire pour l'usage non récréatif)"
-   },
-   {
-    "title": "CAA — Politique Remote ID",
-    "description": "Exigences Remote ID du Royaume-Uni à partir de janvier 2026"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Vérifiez toujours les sources officielles de la CAA avant de voler. Cette application est un outil, pas une autorité juridique. Le Royaume-Uni a sa propre réglementation des drones, distincte de celle de l'UE/EASA. Les arrêtés des collectivités locales peuvent ajouter des restrictions supplémentaires.",
+    "sectionLabelRules": "RÈGLES CLÉS",
+    "sectionLabelPrimary": "SOURCES OFFICIELLES",
+    "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",
+    "linksSheetTitle": "Espace aérien et règles — Royaume-Uni",
+    "dronePilotCredentialName": "Flyer ID et Operator ID",
+    "keyRules": [
+      "Max 120 m (400 ft) au-dessus du sol",
+      "Flyer ID requis à partir de 100 g — réussir le test en ligne de la CAA (40 questions, seuil de réussite de 75 %)",
+      "Gardez toujours le drone dans votre propre champ de vision direct, sans aide, suffisamment près pour pouvoir déterminer son orientation et surveiller les autres aéronefs. Il n’existe aucune distance maximale légale fixe en mètres — la distance à laquelle vous pouvez voler dépend de la visibilité, de l’éclairage et du drone lui-même, et non d’un rayon prédéfini.",
+      "Restez à au moins 50 m des personnes non impliquées (les distances de 30 m / 5 m ne s’appliquent qu’aux drones portant un marquage de classe UK avec un certificat A2)",
+      "Les zones de restriction de vol (FRZ) entourent les aéroports, mais leur forme et leur étendue exactes varient selon l’aéroport — il n’existe pas de « cercle de 5 km » universel. Avant de voler près d’un aéroport, consultez toujours la FRZ concernée sur la carte officielle de sécurité des drones de la CAA.",
+      "L’assurance responsabilité civile (conformément à l’EC Regulation 785/2004) est obligatoire pour les vols commerciaux ou non récréatifs, ainsi que pour tout drone de 20 kg ou plus — elle est facultative mais recommandée pour un usage récréatif avec un drone plus léger.",
+      "Déploiement progressif du Remote ID : à partir de janvier 2026 pour les drones à marquage de classe UK (UK1/UK2/UK3/UK5/UK6) ; pleinement obligatoire en janvier 2028",
+      "Le Royaume-Uni ne fait PAS partie de l'EASA — les certificats de télépilote de l'UE ne sont pas valables au Royaume-Uni",
+      "Londres compte trois zones réglementées permanentes — R157 (Hyde Park/résidences royales), R158 (City of London/Square Mile, une petite zone d’environ 0,5 NM autour du quartier financier) et R159 (Canary Wharf/Isle of Dogs) — où tous les drones sont interdits, quelle que soit leur taille, sauf autorisation obtenue via une demande Non-Standard Flight auprès de NATS, déposée au moins 28 jours à l’avance. Parliament et Downing Street se trouvent à Westminster, en dehors des trois zones R, et sont protégés par des mécanismes distincts."
+    ],
+    "importantNotes": [
+      "Le seuil d'enregistrement au Royaume-Uni est de 100 g — plus strict que les 250 g de l'UE",
+      "Les certificats de drone de l'UE/EASA ne sont PAS reconnus au Royaume-Uni depuis le Brexit",
+      "Les collectivités locales peuvent restreindre le vol sur leurs terrains — vérifiez avant de voler dans les parcs",
+      "Les prisons sont entourées de zones d’interdiction de vol d’environ 1 km — mettre en danger un aéronef est passible d’une peine pouvant aller jusqu’à 5 ans de prison"
+    ],
+    "primaryLinks": [
+      {
+        "title": "UK CAA — Réglementation des drones",
+        "description": "Portail officiel de la CAA pour l'ensemble des règles, de l'enregistrement et des ressources sur les drones au Royaume-Uni"
+      },
+      {
+        "title": "CAA — S'enregistrer (Flyer ID et Operator ID)",
+        "description": "Obtenez votre Flyer ID (obligatoire à partir de 100 g) et votre Operator ID (obligatoire à partir de 250 g)"
+      },
+      {
+        "title": "CAA — The Drone Code",
+        "description": "Règles officielles : où vous pouvez voler, limites d'altitude et exigences de sécurité"
+      },
+      {
+        "title": "Drone Assist — Carte de l'espace aérien",
+        "description": "Application gratuite de planification de vol indiquant les zones d'interdiction de vol et les restrictions de l'espace aérien"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAA — Restrictions de l'espace aérien",
+        "description": "Zones de restriction de vol autour des aéroports, des prisons et des zones sensibles"
+      },
+      {
+        "title": "CAA — Exigences d'assurance",
+        "description": "Quand une assurance drone est requise (obligatoire pour l'usage non récréatif)"
+      },
+      {
+        "title": "CAA — Politique Remote ID",
+        "description": "Exigences Remote ID du Royaume-Uni à partir de janvier 2026"
+      }
+    ]
+  }
 }

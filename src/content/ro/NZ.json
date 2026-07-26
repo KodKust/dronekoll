@@ -1,59 +1,59 @@
 {
- "meta": {
-  "sourceHash": "bf61742c347692384d38d2d8eb6348a5",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Verifică întotdeauna sursele oficiale CAANZ înainte de zbor. Această aplicație este un instrument — nu o autoritate juridică. Regulile pot fi modificate fără notificare prealabilă.",
-  "sectionLabelRules": "REGULI ESENȚIALE",
-  "sectionLabelPrimary": "SURSE OFICIALE",
-  "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
-  "linksSheetTitle": "Spațiu aerian și reguli — Noua Zeelandă",
-  "dronePilotCredentialName": "Certificat Part 101/102",
-  "keyRules": [
-   "Maximum 120 m deasupra nivelului solului",
-   "Nu este necesară nicio înregistrare sau licență de pilot pentru zborul recreativ conform Part 101",
-   "Menține întotdeauna raza vizuală directă (VLOS)",
-   "La 4 km de orice aerodrom (aeroport, heliport, pistă) cu excepția cazului în care ai autorizarea operatorului",
-   "Este necesar consimțământul proprietarului înainte de a zbura deasupra unei proprietăți private",
-   "Distanță minimă de 150 m față de mamiferele marine (balene, delfini, foci) — Marine Mammals Protection Regulations 1992",
-   "Terenurile de conservare (DOC) necesită un permis înainte de zbor",
-   "Zborul de noapte este permis conform Part 101 cu iluminare anticoliziune și rază vizuală directă (vezi Circulara consultativă CAA AC101-1)",
-   "Nu zbura deasupra persoanelor fără consimțământul lor",
-   "Cedează întotdeauna prioritatea tuturor aeronavelor cu pilot",
-   "Greutate maximă a dronei de 25 kg conform Part 101 — dronele mai grele necesită certificare Part 102"
-  ],
-  "importantNotes": [
-   "Noua Zeelandă nu are cerințe de înregistrare sau de licență pentru zborul recreativ conform Part 101 — dar se aplică toate regulile. Civil Aviation Act 2023 (în vigoare din aprilie 2025) ar putea introduce în viitor înregistrarea/Remote ID",
-   "Terenurile DOC acoperă aproximativ o treime din Noua Zeelandă — verifică întotdeauna înainte de a zbura în natură",
-   "Regula de 150 m față de mamiferele marine este strict aplicată — include balene, delfini și foci",
-   "Asigurarea nu este obligatorie în mod explicit, dar este puternic recomandată"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAANZ — reguli privind dronele",
-    "description": "Regulile și îndrumările oficiale ale Autorității Aviației Civile privind dronele pentru Noua Zeelandă"
-   },
-   {
-    "title": "AirShare — harta spațiului aerian",
-    "description": "Harta spațiului aerian în timp real, cu zone controlate, cereri de zbor și alerte"
-   },
-   {
-    "title": "DOC — permise pentru terenurile de conservare",
-    "description": "Solicită un permis pentru a zbura pe terenurile administrate de Departamentul de Conservare"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAANZ — regulile Part 101",
-    "description": "Reguli detaliate Part 101 pentru aeronavele fără pilot în Noua Zeelandă"
-   },
-   {
-    "title": "CAA NZ — reguli privind dronele",
-    "description": "Reglementările și îndrumările oficiale ale Autorității Aviației Civile privind dronele"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "81f94aa9e46da24263d172cdcaa6b7c7",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Verifică întotdeauna sursele oficiale CAANZ înainte de zbor. Această aplicație este un instrument — nu o autoritate juridică. Regulile pot fi modificate fără notificare prealabilă.",
+    "sectionLabelRules": "REGULI ESENȚIALE",
+    "sectionLabelPrimary": "SURSE OFICIALE",
+    "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
+    "linksSheetTitle": "Spațiu aerian și reguli — Noua Zeelandă",
+    "dronePilotCredentialName": "Certificat Part 101/102",
+    "keyRules": [
+      "Altitudinea maximă este de 120 m (400 ft) deasupra nivelului solului, cu excepția zborurilor efectuate în condițiile specifice prevăzute în CATI: 101-1, secțiunea 2.5 (Part 101).",
+      "Nu este necesară nicio înregistrare sau licență de pilot pentru zborul recreativ conform Part 101",
+      "Trebuie să poți vedea drona cu ochiul liber în permanență, cu excepția zborului FPV cu un observator vizual sau a operării în baza unei autorizații BVLOS (CAA Part 101).",
+      "Păstrează o distanță de cel puțin 4 km față de orice aerodrom (aeroport, platformă pentru elicoptere, pistă de aterizare), cu excepția cazului în care ai permisiunea operatorului aerodromului — verifică distanța exactă în vigoare.",
+      "Este necesar consimțământul proprietarului înainte de a zbura deasupra unei proprietăți private",
+      "Păstrează o distanță orizontală de cel puțin 150 m față de orice punct aflat direct deasupra unui mamifer marin (balene, delfini, foci) atunci când operezi sub 600 m deasupra nivelului mării (Marine Mammals Protection Regulations 1992).",
+      "Zborul pe terenuri de conservare (parcuri naționale, rezervații, parcuri forestiere) necesită un permis de la Department of Conservation (DOC).",
+      "Zborul de noapte este permis conform Part 101, cu iluminare anticoliziune și menținerea contactului vizual direct (vezi CAA Advisory Circular AC101-1)",
+      "Nu zbura deasupra persoanelor fără consimțământul lor",
+      "Cedează întotdeauna prioritatea tuturor aeronavelor cu pilot",
+      "Greutatea maximă a dronei este de 25 kg conform Part 101 — dronele mai grele sau operațiunile care nu pot respecta condițiile Part 101 necesită certificare Part 102."
+    ],
+    "importantNotes": [
+      "Noua Zeelandă nu are cerințe de înregistrare sau de licență pentru zborul recreativ conform Part 101 — dar se aplică toate regulile. Civil Aviation Act 2023 (în vigoare din aprilie 2025) ar putea introduce în viitor înregistrarea/Remote ID",
+      "Terenurile DOC acoperă aproximativ o treime din Noua Zeelandă — verifică întotdeauna înainte de a zbura în natură",
+      "Regula distanței de 150 m față de mamiferele marine este aplicată strict și include balenele, delfinii și focile atunci când operarea are loc sub 600 m deasupra nivelului mării.",
+      "Asigurarea nu este obligatorie în mod explicit, dar este puternic recomandată"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAANZ — reguli privind dronele",
+        "description": "Regulile și îndrumările oficiale ale Autorității Aviației Civile privind dronele pentru Noua Zeelandă"
+      },
+      {
+        "title": "AirShare — harta spațiului aerian",
+        "description": "Harta spațiului aerian în timp real, cu zone controlate, cereri de zbor și alerte"
+      },
+      {
+        "title": "DOC — permise pentru terenurile de conservare",
+        "description": "Solicită un permis pentru a zbura pe terenurile administrate de Departamentul de Conservare"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAANZ — regulile Part 101",
+        "description": "Reguli detaliate Part 101 pentru aeronavele fără pilot în Noua Zeelandă"
+      },
+      {
+        "title": "CAA NZ — reguli privind dronele",
+        "description": "Reglementările și îndrumările oficiale ale Autorității Aviației Civile privind dronele"
+      }
+    ]
+  }
 }

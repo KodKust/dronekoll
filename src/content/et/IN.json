@@ -1,22 +1,22 @@
 {
   "meta": {
-    "sourceHash": "8723bef5a4524ad2ccd415d49676bf8a",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Punase/kollase/rohelise tsooni süsteem — kontrolli DigitalSky enne iga lendu",
+      "DigitalSky jagab õhuruumi Green-tsoonideks (kohene automaatne luba), Yellow-tsoonideks (kontrollitav õhuruum, automaatne menetlus ~15-30 min — sinna kuulub lennujaama perimeetri vöönd, ligikaudu 8-12 km) ja Red-tsoonideks (piiratud, vaja käsitsi heakskiitu) — kontrolli enne lendamist alati DigitalSky, sest konkreetse lennujaama lähedaste tsoonide täpsed piirid võivad sellest üldisest mustrist erineda.",
       "Kindlustus kohustuslik kõigile kategooriatele peale Nano",
-      "Kaugpiloodi sertifikaat (RPC) nõutav äriliseks kasutuseks või üle 2 kg kaaluvatele droonidele",
-      "Säilita alati visuaalne nägemisulatus (VLOS)",
-      "Punastes tsoonides lendamine on ilma eriloata rangelt keelatud"
+      "Remote Pilot Certificate (RPC) on nõutav Micro-kategooria (250g-2kg) ja suuremate droonide äriliseks kasutamiseks ning kohustuslik kõigi Small-kategooria droonide (2-25 kg) ja suuremate puhul olenemata kasutuseesmärgist. Nano (<250g) puhul ei ole RPC kunagi nõutav, isegi ärilisel kasutamisel.",
+      "Iga lend peab toimuma otsenähtavuses — droon peab olema kogu aeg palja silmaga nähtav, ilma binokli või muude sarnaste abivahenditeta — välja arvatud juhul, kui DGCA on andnud konkreetse EVLOS/BVLOS loa.",
+      "Red-tsoonides on lendamine rangelt keelatud ilma asjaomase ametiasutuse eriloata, mis antakse DigitalSky kaudu."
     ],
     "importantNotes": [
-      "DigitalSky registreerimine on kohustuslik — registreerimata droonid (peale Nano) võidakse konfiskeerida",
+      "DigitalSky registreerimine on kohustuslik kõigile droonidele peale Nano (<250g), mis ei vaja ei registreerimist ega UIN-i. Registreerimata drooni lennutamisel, kui see tuleb registreerida, on konfiskeerimise oht.",
       "Punased tsoonid hõlmavad lennujaamu, sõjaväealasid, piire ja tundlikke asukohti",
-      "Kindlustus on kohustuslik Mikro, Väikese ja Keskmise kategooria droonidele"
+      "Kindlustus on kohustuslik Micro-, Small- ja Medium-kategooria droonidele"
     ],
     "primaryLinks": [
       {
@@ -38,7 +38,7 @@
         "description": "Punase, kollase ja rohelise tsooni kaart kogu India kohta"
       }
     ],
-    "disclaimerText": "Kontrolli enne lendamist alati DGCA ja DigitalSky ametlikke allikaid. See rakendus on tööriist, mitte juriidiline autoriteet. India kasutab kõigi droonide vastavuse jaoks kohustuslikku digiplatvormi.",
+    "disclaimerText": "Kontrolli enne lendamist alati DGCA ja DigitalSky ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. India kasutab kõigi drooninõuete täitmiseks kohustuslikku digiplatvormi.",
     "sectionLabelRules": "PÕHIREEGLID",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",

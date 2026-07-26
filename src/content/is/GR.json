@@ -1,61 +1,61 @@
 {
- "meta": {
-  "sourceHash": "6bd279870909de9539cac55440892030da06bb4b119368a297585876f27098df",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Að hámarki 120 m yfir jörðu (EASA opinn flokkur)",
-   "Skráðu þig sem rekstraraðili fjarstýrðra loftfara (ókeypis), ef dróninn vegur 250 g eða meira eða er með myndavél",
-   "A1/A3 netþjálfun er nauðsynleg – lágmarksaldur 16",
-   "Takmörkuð fornleifasvæði: Akrópólis, Delfí, Ólympía og fleiri",
-   "Haltu ávallt sjónlínu (VLOS) við drónann",
-   "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
-   "Lágmarksfjarlægð 8 km frá hverjum flugvelli",
-   "Næturflug er heimilt samkvæmt grunnreglum EASA opna flokksins þegar tilskilið grænt blikkandi ljós er notað, nema gildandi landsvæði eða innlend regla setji strangara skilyrði.",
-   "Flugvellir á eyjum: athugaðu DAGR-kortið vandlega — margar eyjar hafa stór stýrð svæði (CTR)"
-  ],
-  "importantNotes": [
-   "Fornleifasvæði og menningarminjar eru stranglega bannaðar — þungar sektir gilda",
-   "Flugvellir á eyjum skapa umfangsmikil takmörkuð svæði",
-   "Hermannvirki: algjör flugbannssvæði (mörg á eyjum)",
-   "GDPR gildir þegar teknar eru myndir af persónugreinanlegum einstaklingum"
-  ],
-  "primaryLinks": [
-   {
-    "title": "HCAA – Reglur um dróna",
-    "description": "Opinberar reglur og upplýsingar frá flugmálayfirvöldum um dróna"
-   },
-   {
-    "title": "HCAA – Skráning flugmanns",
-    "description": "Ókeypis skráning sem rekstraraðili fjarstýrðra loftfara (gildir í öllum ESB/EASA-löndum)"
-   },
-   {
-    "title": "DAGR – Loftrýmiskort fyrir dróna",
-    "description": "Opinbert landfræðilegt kort af takmörkunum á drónaflugi í Grikklandi"
-   },
-   {
-    "title": "HCAA – Flugtilkynning",
-    "description": "Skil á 5 daga fyrirframtilkynningu um flug (nauðsynleg fyrir hvert flug)"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "HASP – Loftíþróttir",
-    "description": "Loftíþróttasamband Grikklands og upplýsingar um tómstundaflug"
-   },
-   {
-    "title": "HCAA – Algengar spurningar um dróna",
-    "description": "Algengar spurningar um drónareglur í Grikklandi"
-   }
-  ],
-  "disclaimerText": "Athugaðu ávallt opinberar heimildir Flugmálastjórnar Grikklands (HCAA) og DAGR-kortið fyrir hvert flug. Þetta forrit er verkfæri — ekki lögbær heimild. Grikkland fylgir EASA-reglunum með viðbótum á landsvísu, þar á meðal meðal annars skyldubundinni 5 daga flugtilkynningu.",
-  "sectionLabelRules": "GRUNNREGLUR (EASA OPINN FLOKKUR)",
-  "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
-  "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
-  "linksSheetTitle": "Loftrými og reglur — Grikkland",
-  "dronePilotCredentialName": "Rekstrarvottorð"
- }
+  "meta": {
+    "sourceHash": "6bd279870909de9539cac55440892030da06bb4b119368a297585876f27098df",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Að hámarki 120 m yfir jörðu (EASA opinn flokkur)",
+      "Skráðu þig sem rekstraraðila fjarstýrðra loftfara (ókeypis) ef dróninn vegur 250 g eða meira eða er með myndavél",
+      "A1/A3 netþjálfun er nauðsynleg – lágmarksaldur 16",
+      "Takmörkuð fornleifasvæði: Akrópólis, Delfí, Ólympía og fleiri",
+      "Haltu ávallt sjónlínu (VLOS) við drónann",
+      "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
+      "Lágmarksfjarlægð 8 km frá hverjum flugvelli",
+      "Næturflug er heimilt samkvæmt grunnreglum EASA opna flokksins þegar tilskilið grænt blikkandi ljós er notað, nema gildandi landfræðilegt UAS-svæði eða innlend regla setji strangara skilyrði.",
+      "Flugvellir á eyjum: athugaðu DAGR-kortið vandlega — margar eyjar hafa stór stýrð svæði (CTR)"
+    ],
+    "importantNotes": [
+      "Stranglega bannað er að fljúga við fornleifasvæði og menningarminjar — háar sektir geta átt við",
+      "Flugvellir á eyjum skapa umfangsmikil takmörkuð svæði",
+      "Hernaðarmannvirki: algjör flugbannssvæði (mörg á eyjum)",
+      "GDPR gildir þegar persónugreinanlegir einstaklingar eru teknir upp"
+    ],
+    "primaryLinks": [
+      {
+        "title": "HCAA – Reglur um dróna",
+        "description": "Opinberar reglur og upplýsingar frá flugmálayfirvöldum um dróna"
+      },
+      {
+        "title": "HCAA – Skráning flugmanns",
+        "description": "Ókeypis skráning sem rekstraraðili fjarstýrðra loftfara (gildir í öllum ESB/EASA-löndum)"
+      },
+      {
+        "title": "DAGR – Loftrýmiskort fyrir dróna",
+        "description": "Opinbert landfræðilegt kort af takmörkunum á drónaflugi í Grikklandi"
+      },
+      {
+        "title": "HCAA – Flugtilkynning",
+        "description": "Skil á 5 daga fyrirframtilkynningu um flug (nauðsynleg fyrir hvert flug)"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "HASP – Loftíþróttir",
+        "description": "Loftíþróttasamband Grikklands og upplýsingar um tómstundaflug"
+      },
+      {
+        "title": "HCAA – Algengar spurningar um dróna",
+        "description": "Algengar spurningar um drónareglur í Grikklandi"
+      }
+    ],
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir Hellenic Civil Aviation Authority (HCAA) og DAGR-kortið fyrir hvert flug. Þetta forrit er verkfæri — ekki lögbær heimild. Grikkland fylgir EASA-reglunum með viðbótum á landsvísu, meðal annars skyldubundinni flugtilkynningu með 5 daga fyrirvara.",
+    "sectionLabelRules": "GRUNNREGLUR (EASA OPINN FLOKKUR)",
+    "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
+    "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
+    "linksSheetTitle": "Loftrými og reglur — Grikkland",
+    "dronePilotCredentialName": "Rekstrarvottorð"
+  }
 }

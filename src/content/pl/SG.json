@@ -1,62 +1,62 @@
 {
- "meta": {
-  "sourceHash": "edba8fa0339b0b435910d8c9bd14a7a0",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła CAAS. Ta aplikacja jest narzędziem — a nie organem prawnym. Singapur ma bardzo surowe przepisy dronowe z dotkliwymi karami.",
-  "sectionLabelRules": "KLUCZOWE ZASADY",
-  "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
-  "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
-  "linksSheetTitle": "Przestrzeń powietrzna i zasady — Singapur",
-  "dronePilotCredentialName": "Licencja pilota UA",
-  "keyRules": [
-   "Standardowo maks. 200 ft (60 m AMSL) — 400 ft (122 m) dla licencjonowanych operatorów komercyjnych w wyznaczonych strefach >6 km od lotnisk (od lutego 2025)",
-   "Rejestracja wymagana dla wszystkich dronów powyżej 250 g (opłata 25 SGD)",
-   "Licencja pilota UA (UAPL) wymagana do użytku komercyjnego lub dla dronów powyżej 7 kg",
-   "5 km od lotnisk i baz lotniczych wojska",
-   "Broadcast Remote ID (B-RID) obowiązkowy od grudnia 2025",
-   "Loty nocne dozwolone tylko przy zachowaniu VLOS i odpowiednim oświetleniu",
-   "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
-   "Zezwolenie na działalność wymagane do lotów w obszarach zastrzeżonych",
-   "Kary do 100 000 SGD lub 5 lat pozbawienia wolności",
-   "Nie lataj nad ludźmi, budynkami ani obiektami zastrzeżonymi"
-  ],
-  "importantNotes": [
-   "Singapur ma bardzo surowe prawo dronowe — kary do 100 000 SGD lub 5 lat więzienia",
-   "Standardowy limit wysokości to zaledwie 200 ft (60 m) — znacznie niżej niż w większości krajów",
-   "B-RID (Broadcast Remote ID) jest obowiązkowy od grudnia 2025",
-   "Wiele obszarów w Singapurze jest zastrzeżonych — przed lotem zawsze sprawdzaj OneMap"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAAS — Bezzałogowe statki powietrzne",
-    "description": "Oficjalne przepisy i wytyczne dronowe Urzędu Lotnictwa Cywilnego Singapuru"
-   },
-   {
-    "title": "OneMap — Mapa przestrzeni powietrznej",
-    "description": "Oficjalna mapa Singapuru ze strefami lotów dronów i ograniczeniami"
-   },
-   {
-    "title": "FlyItSafe — Aplikacja CAAS",
-    "description": "Oficjalna aplikacja CAAS do bezpieczeństwa dronów, ze strefami lotów i informacjami o zezwoleniach"
-   },
-   {
-    "title": "CAAS — Rejestracja UA",
-    "description": "Zarejestruj drona i złóż wniosek o zezwolenia na działalność online"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAAS — Licencja pilota UA (UAPL)",
-    "description": "Wymagania dotyczące licencji pilota do operacji komercyjnych lub dla dronów powyżej 7 kg"
-   },
-   {
-    "title": "CAAS — Broadcast Remote ID",
-    "description": "Wymagania B-RID (Broadcast Remote ID) obowiązkowe od grudnia 2025"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła CAAS. Ta aplikacja jest narzędziem — a nie organem prawnym. Singapur ma bardzo surowe przepisy dronowe z dotkliwymi karami.",
+    "sectionLabelRules": "KLUCZOWE ZASADY",
+    "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
+    "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
+    "linksSheetTitle": "Przestrzeń powietrzna i zasady — Singapur",
+    "dronePilotCredentialName": "Licencja pilota UA",
+    "keyRules": [
+      "Standardowo maks. 200 ft (60 m AMSL) — 400 ft (122 m) dla licencjonowanych operatorów komercyjnych w wyznaczonych strefach oddalonych o ponad 6 km od lotniska. Przed zastosowaniem wyższego limitu sprawdź aktualne mapy stref i warunki.",
+      "Musisz zarejestrować bezzałogowy statek powietrzny w CAAS, jeśli waży więcej niż 250 g. Rejestracja kosztuje 25 SGD i nie wygasa — trzeba ją jedynie zaktualizować lub anulować, jeśli dron zostanie zgubiony, uszkodzony albo sprzedany lub gdy jego etykieta identyfikacyjna stanie się nieczytelna.",
+      "UA Pilot Licence (UAPL) jest wymagana do użytku komercyjnego lub zawodowego, a także dla każdego drona o masie powyżej 7 kg niezależnie od celu. Class B UAPL obejmuje lżejsze drony komercyjne o masie poniżej 7 kg.",
+      "Zachowaj co najmniej 5 km od lotnisk i wojskowych baz lotniczych — przed lotem w pobliżu jakiejkolwiek bazy sprawdź dokładną aktualnie obowiązującą odległość.",
+      "Broadcast Remote ID (B-RID) jest obowiązkowy od 1 grudnia 2025 r. dla UA o masie powyżej 250 g, z wyjątkiem UA używanych wewnątrz budynków lub w przestrzeni zamkniętej oraz przypadków, gdy operator ma Operator Permit i korzysta z aplikacji FlyItSafe.",
+      "Loty nocne są dozwolone wyłącznie przy włączonym wymaganym oświetleniu i stałym zachowaniu VLOS; lot poza zasięgiem wzroku wymaga Operator Permit oraz Class 1 Activity Permit.",
+      "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
+      "Do lotów w obszarach zastrzeżonych wymagane jest Activity Permit",
+      "Kary do 100 000 SGD lub 5 lat pozbawienia wolności",
+      "Nie lataj nad ludźmi, budynkami ani obiektami zastrzeżonymi"
+    ],
+    "importantNotes": [
+      "Singapur ma bardzo surowe prawo dronowe — kary do 100 000 SGD lub 5 lat więzienia",
+      "Standardowy limit wysokości to zaledwie 200 ft (60 m) — znacznie niżej niż w większości krajów",
+      "B-RID (Broadcast Remote ID) jest obowiązkowy od grudnia 2025",
+      "Wiele obszarów w Singapurze jest zastrzeżonych — przed lotem zawsze sprawdzaj OneMap"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAAS — Bezzałogowe statki powietrzne",
+        "description": "Oficjalne przepisy i wytyczne dronowe Urzędu Lotnictwa Cywilnego Singapuru"
+      },
+      {
+        "title": "OneMap — Mapa przestrzeni powietrznej",
+        "description": "Oficjalna mapa Singapuru ze strefami lotów dronów i ograniczeniami"
+      },
+      {
+        "title": "FlyItSafe — Aplikacja CAAS",
+        "description": "Oficjalna aplikacja CAAS do bezpieczeństwa dronów, ze strefami lotów i informacjami o zezwoleniach"
+      },
+      {
+        "title": "CAAS — Rejestracja UA",
+        "description": "Zarejestruj drona i złóż wniosek o zezwolenia na działalność online"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAAS — Licencja pilota UA (UAPL)",
+        "description": "Wymagania dotyczące licencji pilota do operacji komercyjnych lub dla dronów powyżej 7 kg"
+      },
+      {
+        "title": "CAAS — Broadcast Remote ID",
+        "description": "Wymagania B-RID (Broadcast Remote ID) obowiązkowe od grudnia 2025"
+      }
+    ]
+  }
 }

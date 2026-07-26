@@ -1,64 +1,64 @@
 {
- "meta": {
-  "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Maksymalna wysokość: 152 m (500 ft) nad poziomem gruntu (AGL)",
-   "Minimalna odległość 4 km od lotnisk i lądowisk",
-   "Minimalna odległość 30 m w poziomie i 20 m w pionie od osób, budynków lub obiektów",
-   "Użytek komercyjny (dowolna masa): wymagana rejestracja w MTC + szczególne zezwolenie",
-   "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
-   "Lot dozwolony wyłącznie za dnia — loty nocne wymagają szczególnego zezwolenia DGAC",
-   "Obszary miejskie: wymagają wcześniejszej zgody MTC; obszary wiejskie: brak szczególnych ograniczeń",
-   "Obszary zastrzeżone: lotniska, lądowiska, obiekty strategiczne oraz obszary o dużej gęstości zaludnienia bez zezwolenia",
-   "Rozróżnienie prawne: użytek rekreacyjny (dla przyjemności) vs. użytek zawodowy/komercyjny (działalność specjalistyczna)"
-  ],
-  "importantNotes": [
-   "🏛️ MACHU PICCHU I STANOWISKA ARCHEOLOGICZNE: Ministerstwo Kultury zakazuje używania dronów bez szczególnego zezwolenia w Machu Picchu, przy liniach z Nazca, w Chan Chan, Caral, Kuélap i innych stanowiskach archeologicznych. Zezwolenie Ministerstwa Kultury jest wymagane DODATKOWO obok zezwolenia MTC.",
-   "🌳 OBSZARY CHRONIONE I AMAZONIA: SERNANP (Krajowa Służba Obszarów Chronionych) wymaga szczególnego zezwolenia na drony w parkach takich jak Manu, Tambopata i Huascarán. Amazonia oraz społeczności rdzenne objęte są dodatkowymi ograniczeniami.",
-   "🏙️ OBSZARY MIEJSKIE W LIMIE I CUSCO: Śródmieście Limy (Plaza Mayor, Pałac Rządowy), lotnisko Jorge Chávez (LIM), śródmieście Cusco i lotnisko (CUZ), strefy wojskowe oraz ambasady objęte są stałymi ograniczeniami. Historyczne centrum Cusco wymaga zezwolenia Ministerstwa Kultury."
-  ],
-  "primaryLinks": [
-   {
-    "title": "MTC — Wymagania dotyczące operowania dronem",
-    "description": "Oficjalna strona Ministerstwa Transportu i Komunikacji (MTC) wymieniająca wymagania dotyczące operowania dronami. Zawiera przepis NTC 001-2015 oraz procedury DGAC."
-   },
-   {
-    "title": "Wirtualne Biuro Podawcze MTC — Rejestracja RPAS",
-    "description": "Oficjalna platforma internetowa MTC do w pełni cyfrowej rejestracji dronów (RPAS). Wybierz „Rejestracja systemów zdalnie pilotowanych statków powietrznych (RPAS)” i wypełnij formularz"
-   },
-   {
-    "title": "MTC — Strona instytucjonalna",
-    "description": "Główna strona Ministerstwa Transportu i Komunikacji. Dostęp do procedur, przepisów oraz usług lotniczych świadczonych przez DGAC"
-   },
-   {
-    "title": "DGAC — Kontakt ws. RPAS (zezwolenia)",
-    "description": "Oficjalny adres e-mail DGAC do zapytań o RPAS i zezwolenia szczególne: rpas-dgac@mtc.gob.pe. Telefon: (01) 615 7800, wew. 1371"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "El Peruano — Zezwolenia na drony (oficjalne)",
-    "description": "Dziennik urzędowy El Peruano: oficjalne informacje o zezwoleniach potrzebnych do operowania dronami, zgodnie z MTC i DGAC"
-   },
-   {
-    "title": "TV Perú — Oficjalny przewodnik po wymaganiach",
-    "description": "Oficjalny materiał nadawcy publicznego TV Perú z aktualnymi informacjami o wymaganiach dotyczących operowania dronami, określonych przez MTC"
-   },
-   {
-    "title": "Biura MTC — Obsługa osobista",
-    "description": "Siedziba MTC: Jr. Zorritos 1203, Cercado de Lima. Obsługa dostępna także w regionalnych Centrach Obsługi Obywateli w zakresie procedur RPAS na miejscu."
-   }
-  ],
-  "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła DGAC Ministerstwa Transportu i Komunikacji (MTC). Ta aplikacja jest narzędziem, a nie organem prawnym. W Peru obowiązuje Uzupełniająca Norma Techniczna (NTC) 001-2015 z uproszczoną rejestracją poprzez Wirtualne Biuro Podawcze MTC.",
-  "sectionLabelRules": "KLUCZOWE ZASADY",
-  "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
-  "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
-  "linksSheetTitle": "Przestrzeń powietrzna i przepisy — Peru",
-  "dronePilotCredentialName": "Licencja pilota RPAS"
- }
+  "meta": {
+    "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Maksymalna wysokość: 152 m (500 ft) nad poziomem gruntu (AGL)",
+      "Minimalna odległość 4 km od lotnisk i lądowisk",
+      "Minimalna odległość 30 m w poziomie i 20 m w pionie od osób, budynków lub obiektów",
+      "Użytek komercyjny (dowolna masa): wymagana rejestracja w MTC + szczególne zezwolenie",
+      "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
+      "Lot dozwolony wyłącznie za dnia — loty nocne wymagają szczególnego zezwolenia DGAC",
+      "Obszary miejskie: wymagają wcześniejszej zgody MTC; obszary wiejskie: brak szczególnych ograniczeń",
+      "Obszary zastrzeżone: lotniska, lądowiska, obiekty strategiczne oraz obszary o dużej gęstości zaludnienia bez zezwolenia",
+      "Rozróżnienie prawne: użytek rekreacyjny (dla przyjemności) vs. użytek zawodowy/komercyjny (działalność specjalistyczna)"
+    ],
+    "importantNotes": [
+      "🏛️ MACHU PICCHU I STANOWISKA ARCHEOLOGICZNE: Ministry of Culture zakazuje używania dronów bez specjalnego zezwolenia w Machu Picchu, na Nazca Lines, w Chan Chan, Caral, Kuélap i na innych stanowiskach archeologicznych. Zezwolenie Ministry of Culture jest wymagane OPRÓCZ zezwolenia MTC.",
+      "🌳 CHRONIONE OBSZARY PRZYRODNICZE I AMAZONIA: SERNANP (National Service for Protected Natural Areas) wymaga specjalnego zezwolenia na używanie dronów w parkach takich jak Manu, Tambopata i Huascarán. W Amazonii i społecznościach rdzennych obowiązują dodatkowe ograniczenia.",
+      "🏙️ OBSZARY MIEJSKIE W LIMIE I CUSCO: Śródmieście Limy (Plaza Mayor, Government Palace), Jorge Chávez Airport (LIM), śródmieście Cusco i lotnisko (CUZ), strefy wojskowe oraz ambasady objęte są stałymi ograniczeniami. Historyczne centrum Cusco wymaga zezwolenia Ministry of Culture."
+    ],
+    "primaryLinks": [
+      {
+        "title": "MTC — Wymagania dotyczące operowania dronem",
+        "description": "Oficjalna strona Ministerstwa Transportu i Komunikacji (MTC) wymieniająca wymagania dotyczące operowania dronami. Zawiera przepis NTC 001-2015 oraz procedury DGAC."
+      },
+      {
+        "title": "Wirtualne Biuro Podawcze MTC — Rejestracja RPAS",
+        "description": "Oficjalna platforma internetowa MTC do w pełni cyfrowej rejestracji dronów (RPAS). Wybierz „Rejestracja systemów zdalnie pilotowanych statków powietrznych (RPAS)” i wypełnij formularz"
+      },
+      {
+        "title": "MTC — Strona instytucjonalna",
+        "description": "Główna strona Ministerstwa Transportu i Komunikacji. Dostęp do procedur, przepisów oraz usług lotniczych świadczonych przez DGAC"
+      },
+      {
+        "title": "DGAC — Kontakt ws. RPAS (zezwolenia)",
+        "description": "Oficjalny adres e-mail DGAC do zapytań o RPAS i zezwolenia szczególne: rpas-dgac@mtc.gob.pe. Telefon: (01) 615 7800, wew. 1371"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "El Peruano — Zezwolenia na drony (oficjalne)",
+        "description": "Dziennik urzędowy El Peruano: oficjalne informacje o zezwoleniach potrzebnych do operowania dronami, zgodnie z MTC i DGAC"
+      },
+      {
+        "title": "TV Perú — Oficjalny przewodnik po wymaganiach",
+        "description": "Oficjalny materiał nadawcy publicznego TV Perú z aktualnymi informacjami o wymaganiach dotyczących operowania dronami, określonych przez MTC"
+      },
+      {
+        "title": "Biura MTC — Obsługa osobista",
+        "description": "Siedziba MTC: Jr. Zorritos 1203, Cercado de Lima. Obsługa dostępna także w regionalnych Centrach Obsługi Obywateli w zakresie procedur RPAS na miejscu."
+      }
+    ],
+    "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła DGAC działającej przy Ministry of Transport and Communications (MTC). Ta aplikacja jest narzędziem, a nie organem prawnym. W Peru obowiązuje Complementary Technical Standard (NTC) 001-2015, a uproszczona rejestracja odbywa się przez Virtual Filing Desk MTC.",
+    "sectionLabelRules": "KLUCZOWE ZASADY",
+    "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
+    "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
+    "linksSheetTitle": "Przestrzeń powietrzna i przepisy — Peru",
+    "dronePilotCredentialName": "Licencja pilota RPAS"
+  }
 }

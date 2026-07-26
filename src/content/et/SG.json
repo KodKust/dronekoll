@@ -1,28 +1,28 @@
 {
   "meta": {
-    "sourceHash": "edba8fa0339b0b435910d8c9bd14a7a0",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Standardne maksimaalselt 200 ft (60 m AMSL) — 400 ft (122 m) litsentseeritud ärioperaatoritele määratud tsoonides >6 km lennujaamadest (alates 2025. aasta veebruarist)",
-      "Registreerimine nõutav kõigile üle 250 g kaaluvatele droonidele (25 SGD tasu)",
-      "UA piloodi litsents (UAPL) nõutav äriliseks kasutuseks või üle 7 kg kaaluvatele droonidele",
-      "5 km kaugusel lennujaamadest ja sõjaväe õhuväebaasidest",
-      "Broadcast Remote ID (B-RID) kohustuslik alates 2025. aasta detsembrist",
-      "Öölennud lubatud ainult VLOS-i säilitamisel korraliku valgustusega",
-      "Säilita alati visuaalne nägemisulatus (VLOS)",
-      "Piiranguga aladel lendamiseks on nõutav tegevusluba",
-      "Karistused kuni 100 000 SGD või 5 aastat vangistust",
-      "Ära lenda inimeste, hoonete ega piiranguga rajatiste kohal"
+      "Standardne ülempiir on 200 ft (60 m AMSL) — litsentseeritud ärioperaatoritele on lennujaamast rohkem kui 6 km kaugusel asuvates kindlaksmääratud tsoonides lubatud 400 ft (122 m). Enne kõrgema piiri kasutamist kontrolli kehtivaid tsoonikaarte ja tingimusi.",
+      "Üle 250 g kaaluv mehitamata õhusõiduk tuleb registreerida CAAS juures. Registreerimine maksab SGD 25 ja ei aegu — seda tuleb uuendada või tühistada ainult siis, kui droon kaob, saab kahjustada, müüakse või selle ID-silt muutub loetamatuks.",
+      "UA Pilot Licence (UAPL) on nõutav äriliseks või professionaalseks kasutuseks või mis tahes üle 7 kg kaaluva drooni puhul olenemata eesmärgist. Class B UAPL hõlmab alla 7 kg kaaluvaid kergemaid äridroone.",
+      "Püsi lennujaamadest ja sõjaväe lennubaasidest vähemalt 5 km kaugusel — enne mis tahes lennubaasi lähedal lendamist kontrolli täpset kehtivat vahemaad.",
+      "Broadcast Remote ID (B-RID) on olnud alates 1. detsembrist 2025 kohustuslik üle 250 g UA-dele, välja arvatud siseruumides või suletud alal käitatavad UA-d ning juhud, mil operaatoril on Operator Permit ja ta kasutab rakendust FlyItSafe.",
+      "Öölend on lubatud ainult siis, kui nõutav valgustus töötab ja VLOS säilib kogu aeg; otsenähtavusest kaugemale lendamiseks on vaja Operator Permit ja Class 1 Activity Permit.",
+      "Hoia drooni alati otsenähtavuses (VLOS)",
+      "Piirangualadel lendamiseks on nõutav tegevusluba",
+      "Karistused on astmelised: esimese süüdimõistmise korral raskete rikkumiste eest (nt lendamine keelatud või kaitstud alal või lennutamine joobeseisundis) kuni SGD 50 000 või 2 aastat vangistust — korduvate rikkumiste korral kuni SGD 100 000 või 5 aastat. Kergemate rikkumiste eest (nt registreerimata drooni lennutamine või B-RID rikkumine) on karistus kuni SGD 10 000 ja kuni 6 kuud vangistust.",
+      "Ära lenda inimeste, hoonete ega piiratud juurdepääsuga rajatiste kohal."
     ],
     "importantNotes": [
-      "Singapuris on väga ranged drooniseadused — karistused kuni 100 000 SGD või 5 aastat vangistust",
+      "Singapore rakendab rangeid astmelisi droonikaristusi: esimese süüdimõistmise korral raskete rikkumiste, näiteks piirangualal lendamise eest kuni SGD 50 000 või 2 aastat vangistust — korduvate rikkumiste korral kuni SGD 100 000 või 5 aastat. Kergemate rikkumiste eest määratakse väiksemad karistused (kuni SGD 10 000, kuni 6 kuud).",
       "Standardne kõrguspiir on vaid 200 ft (60 m) — palju madalam kui enamikus riikides",
-      "B-RID (Broadcast Remote ID) on kohustuslik alates 2025. aasta detsembrist",
-      "Paljud Singapuri piirkonnad on piiranguga — kontrolli enne lendamist alati OneMapi"
+      "Broadcast Remote ID (B-RID) on olnud alates 1. detsembrist 2025 kohustuslik üle 250 g UA-dele (piiratud erandid kehtivad siseruumides kasutamisel ning Operator Permit omanikele, kes kasutavad rakendust FlyItSafe).",
+      "Paljud Singapore alad on piirangualad — kontrolli enne lendamist alati OneMap."
     ],
     "primaryLinks": [
       {
@@ -52,7 +52,7 @@
         "description": "B-RID (Broadcast Remote ID) nõuded, kohustuslikud alates 2025. aasta detsembrist"
       }
     ],
-    "disclaimerText": "Kontrolli enne lendamist alati CAAS-i ametlikke allikaid. See rakendus on tööriist, mitte juriidiline autoriteet. Singapuris kehtivad väga ranged droonimäärused karmide karistustega.",
+    "disclaimerText": "Kontrolli enne lendamist alati CAAS ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Singapore droonimäärused on väga ranged ja karistused karmid.",
     "sectionLabelRules": "PÕHIREEGLID",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",

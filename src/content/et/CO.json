@@ -1,28 +1,28 @@
 {
   "meta": {
     "sourceHash": "81c150124a0453afe7f5155ecf3def2f6e3595db14698b42ea98cfaec819abc2",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maksimaalne kõrgus: 122 m (400 ft) maapinnast (AGL)",
-      "Maksimaalne horisontaalne kaugus: 750 m operaatorist (säilitades VLOS-i)",
-      "Droonid, mille MTOW on 200 g või rohkem: kohustuslik registreerimine Aerocivili UAS-platvormil",
+      "Maksimaalne horisontaalne kaugus: 750 m operaatorist (droon peab jääma otsenähtavusse, VLOS)",
+      "Vähemalt 200 g MTOW-ga droonid: kohustuslik registreerimine Aerocivili UAS Platformis",
       "Avatud kategooria (droonid ≤25 kg): käitamine lubatud ilma eelloata RAC 100 alusel",
       "Klass B (25–150 kg): nõuab alati Aerocivili luba",
-      "Vähemalt 9 km kaugusel lennujaamade lähtepunktist",
+      "Vähemalt 9 km kaugusel lennujaama võrdluspunktist",
       "Vähemalt 3 km kaugusel helikopteriväljakutest",
-      "Vähemalt 30 m kaugusel kaasamata inimestest ja hoonetest",
+      "Vähemalt 30 m kaugusel tegevusega mitteseotud inimestest ja hoonetest",
       "Hoia droon alati otsenähtavuse piires (VLOS) ja lenda ainult päevavalguse ajal",
-      "GEO-tsoonid (droonide piiranguga alad) määrab Aerocivil kooskõlas ICAO-ga"
+      "GEO-tsoonid (droonide piirangualad) määrab Aerocivil kooskõlas ICAO-ga"
     ],
     "importantNotes": [
-      "📋 RAC 100 (praegu kehtiv): peamine droone Colombias reguleeriv määrus. See asendab varasema RAC 91 lisa 13. See kehtestab avatud kategooria (käitamine ilma eelloata) ja erikategooria (loaga). Ringkiri 100-MAUT-5.0-22-010-CI annab samm-sammulise juhise registreerimisprotsessi kohta.",
-      "🌳 RAHVUSPARGID JA KAITSEALAD: Colombia rahvuslikud loodusparkid (PNN) keelavad droonid ilma eriloata sellistes parkides nagu Tayrona, Cocuy, Los Nevados ja Amacayacu. Colombia Kariibi mere piirkonnas ja Amazonase piirkonnas kehtivad täiendavad piirangud — kontrolli iga pargiga enne reisi.",
-      "🏛️ PIIRANGUGA JA LINNALISED ALAD: Bogotá kesklinn (Casa de Nariño, Plaza Bolívar, El Dorado lennujaam (SKBO)), Cartagena müüridega vanalinn, sõjaväetsoonid, piirid (Venezuela, Ecuador, Panama), laevatatavad jõed ja naftaplatvormid on püsivate piirangute all — kontrolli Aerocivili GEO-tsoone.",
-      "💰 KARISTUSED JA VASTUTUS: Litsentsita või lubatud aladest väljaspool käitamine võib tuua kaasa märkimisväärsed trahvid (UVT — maksuväärtuse ühik), seadmete konfiskeerimise ja raskematel juhtudel kriminaalvastutuse. Ärilise kasutuse jaoks: vastutuskindlustus on nõutav."
+      "📋 RAC 100 (praegu kehtiv): peamine droone Colombias reguleeriv õigusakt. See asendab varasema RAC 91, Appendix 13. Sellega kehtestatakse avatud kategooria (käitamine ilma eelloata) ja erikategooria (loaga). Circular 100-MAUT-5.0-22-010-CI annab registreerimisprotsessi kohta samm-sammulised juhised.",
+      "🌳 RAHVUSPARGID JA KAITSEALAD: Colombia’s National Natural Parks (PNN) keelab ilma eriloata droonide kasutamise sellistes parkides nagu Tayrona, Cocuy, Los Nevados ja Amacayacu. Colombia Kariibi mere piirkonnas ja Amazonase piirkonnas kehtivad täiendavad piirangud — enne reisi kontrolli iga pargi nõudeid.",
+      "🏛️ PIIRANGU- JA LINNAALAD: Bogotá kesklinn (Casa de Nariño, Plaza Bolívar, El Dorado Airport (SKBO)), Cartagena müüridega vanalinn, sõjaväetsoonid, piirid (Venezuela, Ecuador, Panama), laevatatavad jõed ja naftaplatvormid on püsipiirangutega — kontrolli Aerocivili GEO-tsoone.",
+      "💰 KARISTUSED JA VASTUTUS: Litsentsita või lubatud aladest väljaspool käitamine võib tuua kaasa märkimisväärsed trahvid (UVT — maksuväärtuse ühik), seadmete konfiskeerimise ja raskematel juhtudel kriminaalvastutuse. Ärilisel kasutamisel on vastutuskindlustus nõutav."
     ],
     "primaryLinks": [
       {
@@ -56,7 +56,7 @@
         "description": "Colombia lennundusmäärused (RAC). Sisaldab RAC 100 (UAS-i operatsioonid), RAC 91 lisa 13 ja kõiki droonidele kohalduvaid määrusi"
       }
     ],
-    "disclaimerText": "Kontrolli enne lendamist alati Tsiviillennundusameti (Aerocivil) ametlikke allikaid. See rakendus on tööriist, mitte juriidiline autoriteet. Colombias kehtib RAC 100 (UAS-i operatsioonide lennundusmäärused), mis nõuab kohustuslikku registreerimist droonidele, mille MTOW on 200 g või rohkem, UAS-platvormi kaudu.",
+    "disclaimerText": "Kontrolli enne lendamist alati Civil Aviation Authority (Aerocivil) ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Colombias kehtib RAC 100 (Aeronautical Regulations for UAS Operations), mille kohaselt tuleb vähemalt 200 g MTOW-ga droonid UAS Platformi kaudu registreerida.",
     "sectionLabelRules": "PÕHIREEGLID",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",

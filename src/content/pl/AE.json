@@ -1,57 +1,57 @@
 {
- "meta": {
-  "sourceHash": "5c1b8b1de8a04cc2765268195ab455a9",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Rekreacyjne i komercyjne loty dronów zostały przywrócone w styczniu 2025 r. po tymczasowym ogólnokrajowym zawieszeniu — ale operowanie wymaga szkolenia akredytowanego przez GCAA, rejestracji UAE Pass oraz zezwolenia na lot. Dubaj jest regulowany odrębnie przez DCAA. Turyści mogą nie być uprawnieni — zweryfikuj wymagania dotyczące rezydencji przed przywiezieniem drona. Ta aplikacja jest narzędziem, a nie organem prawnym. Kary pozostają dotkliwe.",
-  "sectionLabelRules": "KLUCZOWE ZASADY",
-  "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
-  "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
-  "linksSheetTitle": "Przestrzeń powietrzna i zasady — Zjednoczone Emiraty Arabskie",
-  "dronePilotCredentialName": "Świadectwo pilota drona",
-  "keyRules": [
-   "Loty rekreacyjne przywrócone w ZEA (z wyłączeniem Dubaju) 7 stycznia 2025 r. po ogólnokrajowym zawieszeniu",
-   "Maksymalna wysokość 400 ft (122 m) nad poziomem gruntu",
-   "Maksymalna masa drona 5 kg dla operatorów rekreacyjnych",
-   "Operacje wyłącznie za dnia — zasięg wzroku (VLOS) obowiązkowy przez cały czas",
-   "Zakaz lotów nad obszarami zaludnionymi, zgromadzeniami oraz imprezami",
-   "Zachowaj 5 km odległości od lotnisk, lądowisk dla śmigłowców oraz miejsc lądowania śmigłowców",
-   "Rejestracja obowiązkowa poprzez aplikację/stronę UAE Drone przy użyciu poświadczeń UAE Pass",
-   "Wymagany certyfikat szkolenia z ośrodka akredytowanego przez GCAA (również dla pilotów rekreacyjnych)",
-   "Zezwolenia ważne 2 lata i odnawialne; rozpatrzenie trwa zwykle ~2 godziny",
-   "Dubaj jest regulowany odrębnie przez DCAA — zweryfikuj status właściwy dla Dubaju przed lotem",
-   "Turyści mogą jeszcze nie być uprawnieni — zweryfikuj przepisy dotyczące rezydencji przed przywiezieniem drona do ZEA",
-   "Kary za naruszenia mogą sięgać 2 000 000 AED (~545 000 USD) — ZEA pozostaje surowe"
-  ],
-  "importantNotes": [
-   "Stan na styczeń 2025 r.: zniesiono ogólnokrajowe zawieszenie dronów. Firmy odzyskały dostęp 25 listopada 2024 r.; osoby prywatne 7 stycznia 2025 r.",
-   "Operowanie wymaga trzech rzeczy: szkolenia akredytowanego przez GCAA, rejestracji UAE Pass oraz zatwierdzonego zezwolenia na lot dla każdej misji.",
-   "Emirat Dubaj jest regulowany odrębnie przez DCAA i może mieć własne ograniczenia — zawsze sprawdzaj przed lotem w przestrzeni powietrznej Dubaju.",
-   "Zezwolenia są ograniczone do obywateli i rezydentów — uprawnienia turystów były stopniowo wprowadzane. Zweryfikuj drones.gov.ae przed podróżą.",
-   "Kary pozostają dotkliwe (do 2 000 000 AED). Nawet drobne naruszenia mogą być kosztowne — w razie wątpliwości nie lataj."
-  ],
-  "primaryLinks": [
-   {
-    "title": "GCAA — Rejestracja UAS",
-    "description": "Oficjalna rejestracja dronów i przepisy Generalnego Urzędu Lotnictwa Cywilnego"
-   },
-   {
-    "title": "drones.gov.ae — Portal dronowy ZEA",
-    "description": "Oficjalny portal ZEA z przepisami dronowymi, zezwoleniami oraz aktualnym statusem"
-   },
-   {
-    "title": "GCAA — Strefy zakazu lotów",
-    "description": "Oficjalna mapa obszarów zastrzeżonych i stref zakazu lotów w ZEA"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "DCAA — Urząd dronowy Dubaju",
-    "description": "Urząd Lotnictwa Cywilnego Dubaju — odrębne przepisy dla emiratu Dubaj"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "14c73e040c51b82a0166ec067002a03f",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Rekreacyjne i komercyjne loty dronami wznowiono w styczniu 2025 r. po tymczasowym ogólnokrajowym zawieszeniu — wykonywanie lotów wymaga jednak szkolenia akredytowanego przez GCAA, rejestracji za pomocą UAE Pass oraz zezwolenia na lot. Dubaj podlega odrębnym przepisom DCAA. Turyści mogą nie być uprawnieni — przed przywiezieniem drona sprawdź wymagania dotyczące rezydencji. Ta aplikacja jest narzędziem, a nie źródłem prawa. Kary pozostają dotkliwe.",
+    "sectionLabelRules": "KLUCZOWE ZASADY",
+    "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
+    "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
+    "linksSheetTitle": "Przestrzeń powietrzna i zasady — Zjednoczone Emiraty Arabskie",
+    "dronePilotCredentialName": "Świadectwo pilota drona",
+    "keyRules": [
+      "Loty rekreacyjne przywrócone w ZEA (z wyłączeniem Dubaju) 7 stycznia 2025 r. po ogólnokrajowym zawieszeniu",
+      "Maksymalna wysokość wynosi 400 ft (122 m) nad poziomem gruntu zgodnie z federalnymi przepisami GCAA — Dubaj podlega jednak odrębnym przepisom DCAA, dlatego przed lotem zawsze sprawdź warunki obowiązujące w danym emiracie (np. w aplikacji My Drone Hub).",
+      "Maksymalna masa drona 5 kg dla operatorów rekreacyjnych",
+      "Loty wyłącznie za dnia — przez cały czas obowiązuje utrzymywanie kontaktu wzrokowego z dronem (VLOS)",
+      "Zakaz lotów nad obszarami zaludnionymi, zgromadzeniami oraz imprezami",
+      "Zachowaj odległość co najmniej 5 km od lotnisk i lądowisk dla śmigłowców zgodnie z federalnymi przepisami GCAA — warunki różnią się jednak między emiratami (Dubaj = DCAA), dlatego przed lotem sprawdź strefy obowiązujące w danym emiracie.",
+      "Rejestracja obowiązkowa poprzez aplikację/stronę UAE Drone przy użyciu poświadczeń UAE Pass",
+      "Wymagany jest certyfikat szkolenia wydany przez ośrodek akredytowany przez GCAA (również dla pilotów rekreacyjnych)",
+      "Zezwolenia są ważne przez 2 lata i można je odnawiać; rozpatrzenie wniosku trwa zwykle ~2 godziny",
+      "Dubaj podlega odrębnym przepisom DCAA — przed lotem sprawdź status i warunki obowiązujące w Dubaju",
+      "Turyści mogą jeszcze nie być uprawnieni — zweryfikuj przepisy dotyczące rezydencji przed przywiezieniem drona do ZEA",
+      "Kary za naruszenia mogą sięgać 2 000 000 AED (~545 000 USD) — w ZEA nadal obowiązują surowe przepisy"
+    ],
+    "importantNotes": [
+      "Stan na styczeń 2025 r.: zniesiono ogólnokrajowe zawieszenie lotów dronów. Firmy odzyskały dostęp 25 listopada 2024 r.; osoby prywatne 7 stycznia 2025 r.",
+      "Do wykonywania lotów potrzebne są trzy rzeczy: szkolenie akredytowane przez GCAA, rejestracja za pomocą UAE Pass oraz zatwierdzone zezwolenie na lot dla każdej misji.",
+      "Emirat Dubaju podlega odrębnym przepisom DCAA i może mieć własne ograniczenia — przed lotem w przestrzeni powietrznej Dubaju zawsze je sprawdź.",
+      "Zezwolenia są dostępne wyłącznie dla obywateli i rezydentów — możliwość uzyskania ich przez turystów była stopniowo wprowadzana. Przed podróżą sprawdź drones.gov.ae.",
+      "Kary pozostają dotkliwe (do 2 000 000 AED). Nawet drobne naruszenia mogą być kosztowne — w razie wątpliwości nie lataj."
+    ],
+    "primaryLinks": [
+      {
+        "title": "GCAA — Rejestracja UAS",
+        "description": "Oficjalna rejestracja dronów i przepisy Generalnego Urzędu Lotnictwa Cywilnego"
+      },
+      {
+        "title": "drones.gov.ae — Portal dronowy ZEA",
+        "description": "Oficjalny portal ZEA z przepisami dronowymi, zezwoleniami oraz aktualnym statusem"
+      },
+      {
+        "title": "GCAA — Strefy zakazu lotów",
+        "description": "Oficjalna mapa obszarów zastrzeżonych i stref zakazu lotów w ZEA"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "DCAA — Urząd dronowy Dubaju",
+        "description": "Urząd Lotnictwa Cywilnego Dubaju — odrębne przepisy dla emiratu Dubaj"
+      }
+    ]
+  }
 }

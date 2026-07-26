@@ -1,67 +1,67 @@
 {
- "meta": {
-  "sourceHash": "4c4750f0c88fe4d2f7dcefb940ffd9a0",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Controleer voor het vliegen altijd de officiële IAA-bronnen. Deze app is een hulpmiddel — geen juridische autoriteit. Ierland volgt de EASA-regelgeving. Noord-Ierland volgt de regels van de UK CAA — daar geldt afzonderlijke regelgeving.",
-  "sectionLabelRules": "BELANGRIJKSTE REGELS (EASA OPEN-CATEGORIE)",
-  "sectionLabelPrimary": "OFFICIËLE BRONNEN",
-  "sectionLabelSecondary": "AANVULLENDE BRONNEN",
-  "linksSheetTitle": "Luchtruim en regels — Ierland",
-  "dronePilotCredentialName": "Bewijs van pilotenbekwaamheid",
-  "keyRules": [
-   "Maximaal 120 m boven de grond (EASA Open-categorie)",
-   "Registreer je als UAS-operator als je drone 250 g of meer weegt of een camera heeft (€41, 2 jaar geldig)",
-   "A1/A3-onlinetraining vereist (€51, 5 jaar geldig) — minimumleeftijd 16 jaar",
-   "A2-certificaat voor vluchten dicht bij mensen (examen + praktijktest via een erkende opleider)",
-   "Ierse EASA-registratie is geldig in alle EU-lidstaten",
-   "Houd altijd zicht op je drone (VLOS) — maximaal 300 m horizontaal",
-   "Minimaal 30 m van mensen, menigten, voertuigen en gebouwen",
-   "Minimaal 5 km van elke luchthaven, elk vliegveld of elke helihaven",
-   "Phoenix Park (Dublin): absoluut droneverbod",
-   "Nationale parken vereisen toestemming van de NPWS — de meeste verbieden drones tijdens het broedseizoen"
-  ],
-  "importantNotes": [
-   "De Gardaí kunnen bij overtredingen ter plaatse boetes van €500+ opleggen (vanaf augustus 2025)",
-   "Noord-Ierland is het VK — volledig andere regels (UK CAA, niet IAA/EASA)",
-   "De 5 km-zone rond luchthaven Dublin beslaat aanzienlijke delen van de stad",
-   "Zonder toestemming vliegen in rode zones is een strafbaar feit",
-   "De AVG is van toepassing wanneer je identificeerbare beelden vastlegt — je bent verwerkingsverantwoordelijke"
-  ],
-  "primaryLinks": [
-   {
-    "title": "IAA — Droneregelgeving",
-    "description": "Officiële hub van de Irish Aviation Authority voor droneregels en -bronnen"
-   },
-   {
-    "title": "IAA — Registreer je als operator",
-    "description": "Registreer je als UAS-operator (€40, 2 jaar geldig, geldig in alle EU-/EASA-landen)"
-   },
-   {
-    "title": "IAA — Kaart met geografische zones",
-    "description": "Officiële kaart met rode/oranje/groene zones — controleer voor elke vlucht"
-   },
-   {
-    "title": "SafeDrone — Luchtruimkaart",
-    "description": "Zoek op locatie of Eircode naar luchtruimbeperkingen en zone-informatie"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "IAA — FAQ over veiligheid en regelgeving",
-    "description": "Veelgestelde vragen over de Ierse droneregelgeving"
-   },
-   {
-    "title": "Citizens Information — Drone-eigendom",
-    "description": "Gids in gewone taal over drone-eigendom en -regels in Ierland"
-   },
-   {
-    "title": "UAAI — Luchtruimbronnen",
-    "description": "Luchtruimbronnen en planningstools van de gemeenschap"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "004d6fde4894978be0e705543cec7048",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Controleer vóór het vliegen altijd de officiële bronnen van IAA. Deze app is een hulpmiddel — geen juridische autoriteit. Ierland volgt de EASA-regelgeving. Northern Ireland volgt de regels van UK CAA — daar gelden afzonderlijke regels.",
+    "sectionLabelRules": "BELANGRIJKSTE REGELS (EASA OPEN-CATEGORIE)",
+    "sectionLabelPrimary": "OFFICIËLE BRONNEN",
+    "sectionLabelSecondary": "AANVULLENDE BRONNEN",
+    "linksSheetTitle": "Luchtruim en regels — Ierland",
+    "dronePilotCredentialName": "Bewijs van pilotenbekwaamheid",
+    "keyRules": [
+      "In de open categorie bedraagt de maximale hoogte 120 m, gemeten als de afstand tot het dichtstbijzijnde punt van het aardoppervlak — niet simpelweg recht naar beneden; bij een helling kan dus ook de grond naast je meetellen. Binnen 50 m van een hoog kunstmatig obstakel (hoger dan 105 m) kan de partij die ervoor verantwoordelijk is toestemming aanvragen om tot 15 m boven de hoogte van het obstakel te vliegen.",
+      "Je moet je als droneoperator registreren als je drone 250 g of meer weegt (of bij een botsing meer dan 80 J aan energie kan overdragen) — dit geldt ook voor speelgoed. Onder 250 g is registratie nog steeds vereist als de drone een sensor heeft waarmee persoonsgegevens kunnen worden vastgelegd, tenzij hij volgens de EU Toy Safety Directive als speelgoed geldt. De vereisten voor pilotenopleiding en certificaten staan hier los van en hangen af van de klasse en subcategorie van de drone.",
+      "In Ireland moet je minstens 16 jaar zijn om je als droneoperator te registreren; een ouder of voogd mag iemand die jonger is registreren, waarna die persoon alleen onder rechtstreeks toezicht van die volwassene mag vliegen. De A1/A3-onlinetraining en het examen zijn verplicht om zelfstandig in de open categorie te vliegen.",
+      "A2-certificaat voor vluchten dicht bij mensen (examen + praktijktest via een erkende opleider)",
+      "Ierse EASA-registratie is geldig in alle EU-lidstaten",
+      "In de open categorie moet je de drone binnen je eigen directe zicht zonder hulpmiddelen houden (bril/contactlenzen zijn toegestaan; een verrekijker of scherm telt niet) — of met hulp van een waarnemer vliegen, waarbij jullie voortdurend duidelijk en effectief met elkaar communiceren, zodat jullie samen het luchtruim kunnen bewaken en botsingen kunnen voorkomen. De follow-me-modus is een afzonderlijke uitzondering en is toegestaan tot 50 m van de piloot.",
+      "Minimaal 30 m van mensen, menigten, voertuigen en gebouwen",
+      "Er bestaat geen uniforme afstand die in de hele EU tot luchthavens moet worden aangehouden. Beperkingen nabij luchthavens worden gepubliceerd als geografische zones (Article 15), waarvan vorm en omvang per luchthaven verschillen. Controleer voordat je in de buurt van een luchthaven, vliegveld of helihaven vliegt de officiële dronezonekaart van je land; vliegen binnen een controlezone (CTR) vereist normaal gesproken voorafgaande toestemming van de luchtverkeersleiding.",
+      "Phoenix Park (Dublin): absoluut droneverbod",
+      "Nationale parken vereisen toestemming van de NPWS — de meeste verbieden drones tijdens het broedseizoen"
+    ],
+    "importantNotes": [
+      "De Gardaí kunnen bij overtredingen ter plaatse boetes van €500+ opleggen (vanaf augustus 2025)",
+      "Northern Ireland maakt deel uit van het VK — daar gelden volledig andere regels (UK CAA, niet IAA/EASA)",
+      "Beperkingszones rond luchthavens verschillen in omvang; de zone rond Dublin Airport beslaat aanzienlijke delen van de stad. Controleer de officiële Ierse dronekaart voordat je in de buurt van een luchthaven vliegt.",
+      "Zonder toestemming vliegen in rode zones is een strafbaar feit",
+      "GDPR is van toepassing wanneer je identificeerbare beelden vastlegt — je bent verwerkingsverantwoordelijke"
+    ],
+    "primaryLinks": [
+      {
+        "title": "IAA — Droneregelgeving",
+        "description": "Officiële hub van de Irish Aviation Authority voor droneregels en -bronnen"
+      },
+      {
+        "title": "IAA — Registreer je als operator",
+        "description": "Registreer je als UAS-operator (€40, 2 jaar geldig, geldig in alle EU-/EASA-landen)"
+      },
+      {
+        "title": "IAA — Kaart met geografische zones",
+        "description": "Officiële kaart met rode/oranje/groene zones — controleer voor elke vlucht"
+      },
+      {
+        "title": "SafeDrone — Luchtruimkaart",
+        "description": "Zoek op locatie of Eircode naar luchtruimbeperkingen en zone-informatie"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "IAA — FAQ over veiligheid en regelgeving",
+        "description": "Veelgestelde vragen over de Ierse droneregelgeving"
+      },
+      {
+        "title": "Citizens Information — Drone-eigendom",
+        "description": "Gids in gewone taal over drone-eigendom en -regels in Ierland"
+      },
+      {
+        "title": "UAAI — Luchtruimbronnen",
+        "description": "Luchtruimbronnen en planningstools van de gemeenschap"
+      }
+    ]
+  }
 }

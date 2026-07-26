@@ -1,27 +1,27 @@
 {
   "meta": {
-    "sourceHash": "f53af6e5236d50516efd5d214a26baef",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "sourceHash": "fca3bbf5a00a2bc5c8ae02d7f663df3d",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Visuaalne nägemisulatus (VLOS) kohustuslik — maksimaalselt 500 m horisontaalne kaugus",
+      "Otsenähtavus (VLOS) on kohustuslik — maksimaalne horisontaalne kaugus 500 m",
       "Vähemalt 50 m kaugusel inimestest, hoonetest ja sõidukitest",
-      "10 km kaugusel igast lennujaamast — rangelt jõustatud",
-      "KÕIK rahvuspargid on droonidele keelatud — sh Kruger (kuni 10 aastat vangistust)",
-      "Ainult päevavalgus — nõutavad selged ilmaolud",
+      "Püsi lennujaamadest vähemalt 10 km kaugusel — nõuet jõustatakse South Africa riigis rangelt. Enne lennujaama lähedal lendamist kontrolli täpset kehtivat vahemaad asutusest SACAA.",
+      "Drooni lennutamiseks Kruger või mõnes muus South African rahvuspargis on vaja SANParks sõnaselget luba (NEMA Protected Areas Act) — ilma loata on keelatud lennata madalamal kui 2,500 ft pargi kõrgeimast punktist. Eraldi võib mis tahes UAV käitamine South African õhuruumis tsiviillennunduseeskirju järgimata kaasa tuua kuni R50,000 trahvi ja/või kuni 10 aastat vangistust.",
+      "Lennata tohib ainult päevavalges ja selgete ilmaoludega",
       "Harrastuslennuks ei ole vaja registreerimist ega litsentsi",
-      "Äriline kasutus nõuab RPC-d (kaugpiloodi sertifikaat), ROC-i ja RLA-d",
-      "Kindlustus kohustuslik ainult ärilisteks operatsioonideks",
+      "Äriliseks kasutuseks on vaja RPC (Remote Pilot Certificate), ROC ja RLA",
+      "Kindlustus on üldjuhul nõutav ainult ärilisteks operatsioonideks — enne ärilist kasutust kontrolli SACAA kehtivaid nõudeid.",
       "Ära lenda inimeste kogunemiste ega avalike ürituste kohal"
     ],
     "importantNotes": [
-      "MIS TAHES rahvuspargis (sh Kruger) lendamine võib tuua kaasa kuni 10 aastat vangistust",
-      "10 km lennujaama keelutsoon on palju rangem kui enamikus riikides",
+      "Mis tahes rahvuspargis (sealhulgas Kruger) ilma SANParks loata lendamine rikub NEMA Protected Areas Act ning UAV käitamine tsiviillennunduseeskirju järgimata võib eraldi kaasa tuua kuni R50,000 trahvi ja/või 10 aastat vangistust.",
+      "South Africa 10 km lennujaamatsoon on palju rangem kui enamikus riikides tavapärane 3-9 km — kontrolli kehtivat vahemaad asutusest SACAA.",
       "Ärioperaatorid vajavad kolme eraldi sertifikaati: RPC, ROC ja RLA",
-      "Rikkumiste eest võib järgneda kriminaalvastutus"
+      "Rikkumiste eest võidakse algatada kriminaalmenetlus"
     ],
     "primaryLinks": [
       {
@@ -39,7 +39,7 @@
         "description": "RPC, ROC ja RLA nõuded ärilistele droonioperatsioonidele"
       }
     ],
-    "disclaimerText": "Kontrolli enne lendamist alati SACAA ametlikke allikaid. See rakendus on tööriist, mitte juriidiline autoriteet. Reeglid võivad muutuda ette teatamata.",
+    "disclaimerText": "Kontrolli enne lendamist alati SACAA ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Reeglid võivad muutuda ette teatamata.",
     "sectionLabelRules": "PÕHIREEGLID",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",

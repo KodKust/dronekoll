@@ -1,62 +1,62 @@
 {
- "meta": {
-  "sourceHash": "edba8fa0339b0b435910d8c9bd14a7a0",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Pred letenjem vedno preverite uradne vire CAAS. Ta aplikacija je orodje, ne pravni organ. Singapur ima zelo stroge predpise za drone s hudimi kaznimi.",
-  "sectionLabelRules": "KLJUČNA PRAVILA",
-  "sectionLabelPrimary": "URADNI VIRI",
-  "sectionLabelSecondary": "DODATNI VIRI",
-  "linksSheetTitle": "Zračni prostor in pravila — Singapur",
-  "dronePilotCredentialName": "Pilotska licenca UA",
-  "keyRules": [
-   "Standardno največ 200 ft (60 m AMSL) — 400 ft (122 m) za licencirane komercialne upravljavce v določenih conah >6 km od letališč (od februarja 2025)",
-   "Registracija je potrebna za vse drone, težje od 250 g (pristojbina 25 SGD)",
-   "Pilotska licenca UA (UAPL) je potrebna za komercialno rabo ali drone, težje od 7 kg",
-   "5 km od letališč in vojaških letalskih baz",
-   "Oddajni Remote ID (B-RID) obvezen od decembra 2025",
-   "Nočno letenje je dovoljeno le ob ohranjanju VLOS z ustrezno osvetlitvijo",
-   "Vedno ohranjajte vidno polje (VLOS)",
-   "Za letenje v omejenih območjih je potrebno dovoljenje za dejavnost",
-   "Kazni do 100.000 SGD ali 5 let zapora",
-   "Ne letite nad ljudmi, zgradbami ali omejenimi objekti"
-  ],
-  "importantNotes": [
-   "Singapur ima zelo stroge zakone o dronih — kazni do 100.000 SGD ali 5 let zapora",
-   "Standardna omejitev višine je le 200 ft (60 m) — precej nižja kot v večini držav",
-   "B-RID (oddajni Remote ID) je obvezen od decembra 2025",
-   "Številna območja v Singapurju so omejena — pred letenjem vedno preverite OneMap"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAAS — brezpilotni zrakoplovi",
-    "description": "Uradni predpisi in smernice za drone organa za civilno letalstvo Singapurja"
-   },
-   {
-    "title": "OneMap — karta zračnega prostora",
-    "description": "Uradna karta Singapurja s conami za letenje z droni in omejitvami"
-   },
-   {
-    "title": "FlyItSafe — aplikacija CAAS",
-    "description": "Uradna aplikacija CAAS za varnost dronov z conami letenja in informacijami o dovoljenjih"
-   },
-   {
-    "title": "CAAS — registracija UA",
-    "description": "Registrirajte svoj dron in spletno zaprosite za dovoljenja za dejavnost"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAAS — pilotska licenca UA (UAPL)",
-    "description": "Zahteve za pilotsko licenco za komercialne operacije ali drone, težje od 7 kg"
-   },
-   {
-    "title": "CAAS — oddajni Remote ID",
-    "description": "Zahteve za B-RID (oddajni Remote ID), obvezne od decembra 2025"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Pred letenjem vedno preverite uradne vire CAAS. Ta aplikacija je orodje, ne pravni organ. Singapur ima zelo stroge predpise za drone s hudimi kaznimi.",
+    "sectionLabelRules": "KLJUČNA PRAVILA",
+    "sectionLabelPrimary": "URADNI VIRI",
+    "sectionLabelSecondary": "DODATNI VIRI",
+    "linksSheetTitle": "Zračni prostor in pravila — Singapur",
+    "dronePilotCredentialName": "Pilotska licenca UA",
+    "keyRules": [
+      "Standardna največja višina je 200 ft (60 m AMSL) — 400 ft (122 m) za licencirane komercialne upravljavce v določenih conah več kot 6 km od letališča. Pred uporabo višje omejitve preverite aktualne karte con in pogoje.",
+      "Brezpilotni zrakoplov morate registrirati pri CAAS, če tehta več kot 250 g. Registracija stane 25 SGD in ne poteče — posodobiti ali preklicati jo morate le, če je dron izgubljen, poškodovan ali prodan oziroma če njegova identifikacijska nalepka postane nečitljiva.",
+      "Za komercialno/poklicno uporabo ali za vsak dron, težji od 7 kg, ne glede na namen, je potrebna UA Pilot Licence (UAPL). Class B UAPL velja za lažje komercialne drone pod 7 kg.",
+      "Ostanite najmanj 5 km od letališč in vojaških letalskih baz — pred letenjem v bližini katere koli letalske baze preverite natančno trenutno veljavno razdaljo.",
+      "Broadcast Remote ID (B-RID) je od 1. decembra 2025 obvezen za UA nad 250 g, razen za UA, ki se uporabljajo v zaprtih prostorih ali ograjenih območjih, oziroma kadar ima upravljavec Operator Permit in uporablja aplikacijo FlyItSafe.",
+      "Nočno letenje je dovoljeno le, če je vključena zahtevana osvetlitev in je ves čas ohranjen VLOS; za letenje zunaj vidnega polja sta potrebna Operator Permit in Class 1 Activity Permit.",
+      "Vedno ohranjajte neposreden vidni stik (VLOS)",
+      "Za letenje v omejenih območjih je potrebno dovoljenje za dejavnost",
+      "Kazni so stopnjevane: ob prvi obsodbi za hujše kršitve (npr. letenje na prepovedanem ali varovanem območju oziroma upravljanje pod vplivom) do 50.000 SGD ali 2 leti zapora — pri ponovnih prekrških do 100.000 SGD ali 5 let zapora. Za lažje prekrške (npr. letenje z neregistriranim dronom ali kršitev B-RID) so predpisane nižje kazni do 10.000 SGD in do 6 mesecev zapora.",
+      "Ne letite nad ljudmi, zgradbami ali objekti z omejenim dostopom."
+    ],
+    "importantNotes": [
+      "Singapur ima stroge, stopnjevane kazni za drone: ob prvi obsodbi za hujše kršitve, kot je letenje na omejenem območju, do 50.000 SGD ali 2 leti zapora — pri ponovnih prekrških do 100.000 SGD ali 5 let zapora. Za lažje prekrške veljajo nižje kazni (do 10.000 SGD in do 6 mesecev zapora).",
+      "Standardna omejitev višine je le 200 ft (60 m) — precej nižja kot v večini držav",
+      "Broadcast Remote ID (B-RID) je od 1. decembra 2025 obvezen za UA nad 250 g (z omejenimi izjemami za uporabo v zaprtih prostorih in imetnike Operator Permit, ki uporabljajo aplikacijo FlyItSafe).",
+      "Številna območja v Singapurju so omejena — pred letenjem vedno preverite OneMap"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAAS — brezpilotni zrakoplovi",
+        "description": "Uradni predpisi in smernice za drone organa za civilno letalstvo Singapurja"
+      },
+      {
+        "title": "OneMap — karta zračnega prostora",
+        "description": "Uradna karta Singapurja s conami za letenje z droni in omejitvami"
+      },
+      {
+        "title": "FlyItSafe — aplikacija CAAS",
+        "description": "Uradna aplikacija CAAS za varnost dronov z conami letenja in informacijami o dovoljenjih"
+      },
+      {
+        "title": "CAAS — registracija UA",
+        "description": "Registrirajte svoj dron in spletno zaprosite za dovoljenja za dejavnost"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAAS — pilotska licenca UA (UAPL)",
+        "description": "Zahteve za pilotsko licenco za komercialne operacije ali drone, težje od 7 kg"
+      },
+      {
+        "title": "CAAS — oddajni Remote ID",
+        "description": "Zahteve za B-RID (oddajni Remote ID), obvezne od decembra 2025"
+      }
+    ]
+  }
 }

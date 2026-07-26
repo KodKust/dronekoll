@@ -70,30 +70,68 @@ function expectedHash(iso) {
 const CASE_ALIASES = { countryIn: 'country', countryGen: 'country' };
 const ph = (s) => new Set([...String(s).matchAll(/\{(\w+)\}/g)].map((m) => CASE_ALIASES[m[1]] ?? m[1]));
 /**
- * Mätvärden ur en text, normaliserade för jämförelse mellan språk.
+ * Kontrollen jämför TALEN i ett mätvärde, inte enheten.
  *
- * Två fallgropar som gav falsklarm i första skarpa körningen (2026-07-25):
- *  · Tyskan skriver komposita med bindestreck — "5-km-Kreis" är samma mått som
- *    "5 km". Bindestreck normaliseras därför till mellanslag först.
- *  · "HK$10M" lästes som "10 meter" av ett skiftlägesokänsligt m\b. Enheterna
- *    matchas nu skiftlägeskänsligt (m/g är meter/gram, M är miljoner), och ett
- *    tal som föregås av valutatecken räknas som belopp, inte som längd.
- * Kvarstående osäkerhet fälls hellre än släpps igenom — en avvisad rättelse
- * kostar en manuell titt, en insläppt felaktig siffra kostar mer.
+ * Första ansatsen jämförde tal+enhet och gav falsklarm i språk efter språk, för
+ * enheten är ofta det som översätts: slovenskan skriver "10-kilometrska",
+ * isländskan "200 fet", tyskan bakar in den i "5-km-Kreis". Att lista alla
+ * böjda och översatta enhetsformer för 26 språk går inte att göra fullständigt,
+ * och en ofullständig lista fäller korrekta rättelser — vilket är dyrare än det
+ * låter, eftersom varje avvisning kräver en manuell läsning.
+ *
+ * Talen däremot är oföränderliga. Ändras 400 till 500 fångas det alltid, och
+ * det är den farliga ändringen: en pilot som läser fel höjd. Den ändring som
+ * slinker igenom är enhetsbyte med bevarat tal (400 ft → 400 m) när enheten
+ * dessutom är översatt — sällsynt, och något stickprovet får fånga.
  */
-const NUM_UNIT = /(?<![$€£])(\d[\d., \s]*)\s*(kg|km|ft|NM|SGD|HK\$|EUR|USD|g|m|J|%)(?![a-zA-Z])/g;
+const UNIT = String.raw`(?:kg|km|ft|NM|SGD|HK\$|EUR|USD|g|m|J|%)(?![a-zA-Z])`;
 const norm = (s) => s.replace(/[\s.,]/g, '');
+/**
+ * Alla tal i texten, normaliserade (tusentalsavgränsare bort).
+ *
+ * Mellanslag godtas ENDAST mellan grupper om tre siffror, alltså som
+ * tusentalsavgränsare ("2 500 ft"). Ett slappare mönster läste "€1–2.5 million"
+ * som det enda talet 125 i stället för 1 och 2.5, vilket gjorde kontrollen
+ * blind för just den sortens intervall.
+ */
+const NUM_TOKEN = /\d{1,3}(?:[  ](?=\d{3}\b)\d{3})*(?:[.,]\d+)?|\d+(?:[.,]\d+)?/g;
+function numbers(t) {
+  const flat = String(t).replace(/[-–—−]/g, ' ');
+  return new Set([...flat.matchAll(NUM_TOKEN)].map((m) => norm(m[0])));
+}
+/**
+ * Tal som i KÄLLAN bär en enhet — de som måste överleva översättningen.
+ * Använder SAMMA tokenisering som numbers(); annars läser den ena sidan
+ * "3-9 km" som talet 39 och den andra som 3 och 9, och jämförelsen blir skräp.
+ */
+const NUM_UNIT = new RegExp(`(?<![$€£])(${NUM_TOKEN.source})\\s*(?=${UNIT})`, 'g');
 function measures(t) {
   const out = new Set();
-  // Bindestreck, tankstreck och minustecken → mellanslag. Engelskan skriver
-  // "25-150kg", tyskan "25–150 kg" med en dash; utan normalisering läses de som
-  // olika mått och en korrekt rättelse avvisas.
   const flat = String(t).replace(/[-–—−]/g, ' ');
-  for (const m of flat.matchAll(NUM_UNIT)) out.add(`${norm(m[1])}${m[2]}`);
+  for (const m of flat.matchAll(NUM_UNIT)) out.add(norm(m[1]));
   return out;
 }
 const PROTECTED = /\b(EASA|FAA|CAA|CAAP|CAAS|CAD|DGCA|SACAA|SANParks|NATS|GCAA|DCAA|Traficom|NOTAM|VLOS|BVLOS|EVLOS|FPV|MTOM|B-RID|RPC|UAPL|FRIA|FRZ|RFZ|CTR|NEMA|DigitalSky|PCAR|FlyItSafe|HKIA|NAIA|SISANT|UIN|eVTOL|Part \d+)\b/g;
 const terms = (t) => new Set(String(t).match(PROTECTED) ?? []);
+
+/** Vad står i katalogen just nu för ett id? null om posten inte går att slå upp. */
+const _cellCache = new Map();
+function currentInRepo(lang, id) {
+  const [kind, a, b, c] = String(id).split('|');
+  if (kind === 'chrome') {
+    const owner = chromeFiles.find((x) => x.data[a]);
+    return owner ? owner.data[a][lang] ?? null : null;
+  }
+  if (kind !== 'cell') return null;
+  const key = `${lang}/${a}`;
+  if (!_cellCache.has(key)) {
+    const p = join(CONTENT, lang, `${a}.json`);
+    _cellCache.set(key, existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : null);
+  }
+  const cell = _cellCache.get(key);
+  if (!cell) return null;
+  return c === '-' ? cell.fields?.[b] ?? null : cell.fields?.[b]?.[Number(c)] ?? null;
+}
 
 function collect(p) {
   if (lstatSync(p).isDirectory()) {
@@ -118,6 +156,11 @@ for (const f of files) {
     const fixed = String(it.fixed ?? '').trim();
     if (!fixed) continue;
     if (it.current != null && fixed === String(it.current).trim()) continue;
+    // …och mot vad som FAKTISKT står i katalogen nu. it.current är en
+    // ögonblicksbild från exporttillfället, så en rättelse som redan förts in
+    // räknades annars om vid nästa körning och rapporterades med identisk
+    // FÖRE/EFTER. Körningen ska vara idempotent och rapporten sann.
+    if (fixed === String(currentInRepo(lang, it.id) ?? '').trim()) continue;
     considered++;
     const where = `${lang} ${it.id}`;
 
@@ -128,7 +171,8 @@ for (const f of files) {
     if (lost.length) { errors.push(`${where}: platshållare borta → {${lost.join('}, {')}}`); continue; }
     if (extra.length) { errors.push(`${where}: okänd platshållare → {${extra.join('}, {')}}`); continue; }
 
-    const missM = [...measures(it.en ?? '')].filter((m) => !measures(fixed).has(m));
+    const inTr = numbers(fixed);
+    const missM = [...measures(it.en ?? '')].filter((m) => !inTr.has(m));
     if (missM.length) { errors.push(`${where}: mätvärde ändrat/borta → ${missM.join(', ')}`); continue; }
     const missT = [...terms(it.en ?? '')].filter((t) => !fixed.includes(t));
     if (missT.length) { errors.push(`${where}: skyddad term borta → ${missT.join(', ')}`); continue; }

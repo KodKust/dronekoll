@@ -1,48 +1,48 @@
 {
- "meta": {
-  "sourceHash": "8723bef5a4524ad2ccd415d49676bf8a",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Raadpleeg altijd de officiële bronnen van de DGCA en DigitalSky voordat je vliegt. Deze app is een hulpmiddel — geen juridische autoriteit. India gebruikt een verplicht digitaal platform voor alle dronenaleving.",
-  "sectionLabelRules": "BELANGRIJKSTE REGELS",
-  "sectionLabelPrimary": "OFFICIËLE BRONNEN",
-  "sectionLabelSecondary": "AANVULLENDE HULPBRONNEN",
-  "linksSheetTitle": "Luchtruim en regels — India",
-  "dronePilotCredentialName": "Certificaat als piloot op afstand",
-  "keyRules": [
-   "Rode/gele/groene-zonesysteem — controleer DigitalSky vóór elke vlucht",
-   "Verzekering verplicht voor alle categorieën behalve Nano",
-   "Certificaat als piloot op afstand (RPC) vereist voor commercieel gebruik of drones boven 2 kg",
-   "Houd de drone altijd binnen direct zicht (VLOS)",
-   "Vliegen in rode zones is strikt verboden zonder speciale toestemming"
-  ],
-  "importantNotes": [
-   "Registratie bij DigitalSky is verplicht — niet-geregistreerde drones (behalve Nano) riskeren inbeslagname",
-   "Rode zones omvatten luchthavens, militaire gebieden, grenzen en gevoelige locaties",
-   "Verzekering is verplicht voor drones in de categorieën Micro, Small en Medium"
-  ],
-  "primaryLinks": [
-   {
-    "title": "DigitalSky — DGCA-platform",
-    "description": "Verplicht platform voor droneregistratie, vliegtoestemmingen en zonecontroles"
-   },
-   {
-    "title": "DGCA — Droneregelgeving",
-    "description": "Officiële droneregels en circulaires van het Directoraat-Generaal Burgerluchtvaart"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "DGCA — Certificaat als piloot op afstand",
-    "description": "RPC-vereisten voor commercieel gebruik of drones boven 2 kg"
-   },
-   {
-    "title": "DigitalSky — Luchtruimzonekaart",
-    "description": "Kaart met rode, gele en groene zones voor heel India"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Raadpleeg altijd de officiële bronnen van DGCA en DigitalSky voordat je vliegt. Deze app is een hulpmiddel — geen juridische autoriteit. India gebruikt een verplicht digitaal platform voor de naleving van alle dronevoorschriften.",
+    "sectionLabelRules": "BELANGRIJKSTE REGELS",
+    "sectionLabelPrimary": "OFFICIËLE BRONNEN",
+    "sectionLabelSecondary": "AANVULLENDE HULPBRONNEN",
+    "linksSheetTitle": "Luchtruim en regels — India",
+    "dronePilotCredentialName": "Certificaat als piloot op afstand",
+    "keyRules": [
+      "DigitalSky verdeelt het luchtruim in zones met de aanduiding Green (directe geautomatiseerde toestemming), Yellow (gecontroleerd luchtruim, ~15-30 min geautomatiseerde verwerking — waaronder de band rond luchthavens van ongeveer 8-12 km) en Red (beperkt, handmatige goedkeuring vereist). Controleer vóór elke vlucht DigitalSky, omdat de exacte zonegrenzen bij een specifieke luchthaven van dit algemene patroon kunnen afwijken.",
+      "Verzekering verplicht voor alle categorieën behalve Nano",
+      "Een Remote Pilot Certificate (RPC) is vereist voor commercieel gebruik van Micro-drones (250g-2kg) en grotere drones, en is ongeacht het doel verplicht voor alle drones in de categorie Small (2-25 kg) en hoger. Voor Nano-drones (<250g) is nooit een RPC nodig, ook niet voor commercieel gebruik.",
+      "Elke vlucht moet binnen direct zicht blijven — de drone moet te allen tijde met het blote oog zichtbaar zijn, zonder verrekijker of vergelijkbare hulpmiddelen — tenzij DGCA specifieke toestemming voor EVLOS/BVLOS heeft verleend.",
+      "Vliegen in Red-zones is strikt verboden zonder speciale toestemming van de bevoegde autoriteit via DigitalSky."
+    ],
+    "importantNotes": [
+      "Registratie via DigitalSky is verplicht voor alle drones behalve Nano (<250g), waarvoor noch registratie noch een UIN nodig is. Wie met een niet-geregistreerde drone vliegt die wel geregistreerd moet zijn, riskeert inbeslagname.",
+      "Rode zones omvatten luchthavens, militaire gebieden, grenzen en gevoelige locaties",
+      "Verzekering is verplicht voor drones in de categorieën Micro, Small en Medium"
+    ],
+    "primaryLinks": [
+      {
+        "title": "DigitalSky — DGCA-platform",
+        "description": "Verplicht platform voor droneregistratie, vliegtoestemmingen en zonecontroles"
+      },
+      {
+        "title": "DGCA — Droneregelgeving",
+        "description": "Officiële droneregels en circulaires van het Directoraat-Generaal Burgerluchtvaart"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "DGCA — Certificaat als piloot op afstand",
+        "description": "RPC-vereisten voor commercieel gebruik of drones boven 2 kg"
+      },
+      {
+        "title": "DigitalSky — Luchtruimzonekaart",
+        "description": "Kaart met rode, gele en groene zones voor heel India"
+      }
+    ]
+  }
 }

@@ -1,57 +1,57 @@
 {
- "meta": {
-  "sourceHash": "7f83002d17ec1f36dc5d2d21e4820aaa",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Athugaðu ávallt opinberar heimildir CAD áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild. Hong Kong hefur sínar eigin drónareglur — reglur meginlands Kína gilda ekki.",
-  "sectionLabelRules": "HELSTU REGLUR",
-  "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
-  "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
-  "linksSheetTitle": "Loftrými og reglur — Hong Kong",
-  "dronePilotCredentialName": "SUA-flugmannsáritun",
-  "keyRules": [
-   "Að hámarki 91 m (300 fet) yfir jörðu — lægra en í flestum löndum",
-   "Skráning nauðsynleg fyrir alla dróna yfir 250 g í gegnum eSUA-gáttina",
-   "5 km frá flugvöllum — ekkert flug án heimildar frá CAD",
-   "50 m lágmarksfjarlægð frá fólki sem ekki tekur þátt í fluginu",
-   "Aðeins að degi til — ekkert næturflug án sérstakrar heimildar",
-   "Svæðið við Victoria-höfn er takmarkað",
-   "Haltu ávallt sjónlínu (VLOS)",
-   "Hong Kong hefur sínar eigin reglur — EKKI reglur meginlands Kína"
-  ],
-  "importantNotes": [
-   "Hámarkshæð er aðeins 91 m (300 fet) — umtalsvert lægri en 120 m staðallinn í flestum löndum",
-   "Trygging er skyldubundin og dýr: 10 milljóna HK$ vernd fyrir dróna yfir 7 kg",
-   "Hong Kong hefur algjörlega aðskildar reglur frá meginlandi Kína",
-   "Victoria-höfn og nærliggjandi svæði hafa flugtakmarkanir",
-   "Flokkur C (25–150 kg) tekinn upp í júlí 2025 fyrir vöruafhendingu í atvinnuskyni og eVTOL-rekstur — sérstök vottun nauðsynleg"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAD — Reglur um lítil ómönnuð loftför",
-    "description": "Opinberar drónareglur og leiðbeiningar flugmáladeildar fyrir Hong Kong"
-   },
-   {
-    "title": "eSUA — Skráningargátt",
-    "description": "Skráðu drónann þinn og sæktu um flugheimildir á netinu"
-   },
-   {
-    "title": "CAD — Drónakort",
-    "description": "Opinbert drónakort sem sýnir takmörkuð svæði, flugvelli og heimiluð svæði"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAD — Framhaldsáritunarþjálfun (Advanced Rating)",
-    "description": "Framhaldsáritunarþjálfun nauðsynleg fyrir dróna yfir 250 g"
-   },
-   {
-    "title": "CAD — Tryggingakröfur",
-    "description": "Skyldubundnar kröfur um tryggingu gagnvart þriðja aðila fyrir drónarekstur"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir CAD áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild. Hong Kong hefur sínar eigin drónareglur — reglur meginlands Kína gilda ekki.",
+    "sectionLabelRules": "HELSTU REGLUR",
+    "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
+    "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
+    "linksSheetTitle": "Loftrými og reglur — Hong Kong",
+    "dronePilotCredentialName": "SUA-flugmannsréttindi",
+    "keyRules": [
+      "Að hámarki 91 m (300 fet) yfir jörðu — lægra en í flestum löndum",
+      "Skráning nauðsynleg fyrir alla dróna yfir 250 g í gegnum eSUA-gáttina",
+      "Takmarkanir nálægt flugvöllum í Hong Kong eru skilgreindar sem opinberlega auglýst Restricted Flying Zones (RFZ) umhverfis HKIA og aðra flugvelli og þyrlupalla og eru sýndar á CAD Drone Map — engin ein föst fjarlægð gildir. Flug innan RFZ krefst heimildar CAD og sum svæði (t.d. Victoria Harbour) eru takmörkuð óháð fjarlægð frá flugvelli.",
+      "50 m lágmarksfjarlægð frá fólki sem ekki tekur þátt í fluginu",
+      "Aðeins að degi til — ekkert næturflug án sérstakrar heimildar",
+      "Svæðið við Victoria Harbour er takmarkað",
+      "Haltu ávallt sjónlínu (VLOS)",
+      "Hong Kong hefur sínar eigin reglur — EKKI reglur meginlands Kína"
+    ],
+    "importantNotes": [
+      "Hámarkshæð er aðeins 91 m (300 fet) — umtalsvert lægri en 120 m staðallinn í flestum löndum",
+      "Trygging er EKKI nauðsynleg fyrir hefðbundinn rekstur í Category A1 og hefðbundinn A2-rekstur. Tryggingarvernd að fjárhæð HK$10M gildir fyrir ítarlegri rekstur og dróna í Category B; nýrri Category C (25-150kg, tekinn upp 18. júlí 2025) krefst HK$15M (25-75kg) eða HK$20M (75-150kg). Í eigin kröfutöflu CAD er gildistökudagur víðtækari innleiðingar tryggingaskyldu skráður sem „óákveðinn“ — staðfestu gildandi stöðu áður en þú gerir ráð fyrir að trygging sé nauðsynleg fyrir þinn flokk.",
+      "Hong Kong hefur allt aðrar reglur en meginland Kína",
+      "Victoria Harbour og nærliggjandi svæði hafa flugtakmarkanir",
+      "Category C (25-150 kg) var tekin upp 18. júlí 2025 til að gera kleift vöruafhendingar í atvinnuskyni og eVTOL-prófanir. Hún krefst fyrirframsamþykkis CAD og sérstakrar tryggingar (HK$15M fyrir 25-75kg, HK$20M fyrir 75-150kg) og er aðskilin frá fyrirliggjandi léttari A1/A2/B-flokkum."
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAD — Reglur um lítil ómönnuð loftför",
+        "description": "Opinberar drónareglur og leiðbeiningar flugmáladeildar fyrir Hong Kong"
+      },
+      {
+        "title": "eSUA — Skráningargátt",
+        "description": "Skráðu drónann þinn og sæktu um flugheimildir á netinu"
+      },
+      {
+        "title": "CAD — Drónakort",
+        "description": "Opinbert drónakort sem sýnir takmörkuð svæði, flugvelli og heimiluð svæði"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAD — Framhaldsáritunarþjálfun (Advanced Rating)",
+        "description": "Framhaldsáritunarþjálfun nauðsynleg fyrir dróna yfir 250 g"
+      },
+      {
+        "title": "CAD — Tryggingakröfur",
+        "description": "Skyldubundnar kröfur um tryggingu gagnvart þriðja aðila fyrir drónarekstur"
+      }
+    ]
+  }
 }

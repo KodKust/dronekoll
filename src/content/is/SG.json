@@ -1,62 +1,62 @@
 {
- "meta": {
-  "sourceHash": "edba8fa0339b0b435910d8c9bd14a7a0",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Athugaðu ávallt opinberar heimildir CAAS áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild. Singapúr hefur mjög strangar drónareglur með þungum viðurlögum.",
-  "sectionLabelRules": "HELSTU REGLUR",
-  "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
-  "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
-  "linksSheetTitle": "Loftrými og reglur — Singapúr",
-  "dronePilotCredentialName": "UA-flugmannsleyfi",
-  "keyRules": [
-   "Að hámarki 200 fet (60 m yfir sjávarmáli) sem staðall — 400 fet (122 m) fyrir rekstraraðila með atvinnuleyfi á tilgreindum svæðum >6 km frá flugvöllum (frá febrúar 2025)",
-   "Skráning nauðsynleg fyrir alla dróna yfir 250 g (25 SGD gjald)",
-   "UA-flugmannsleyfi (UAPL) nauðsynlegt fyrir atvinnunotkun eða dróna yfir 7 kg",
-   "5 km frá flugvöllum og herflugstöðvum",
-   "Broadcast Remote ID (B-RID) skyldubundið frá desember 2025",
-   "Næturflug aðeins heimilt ef VLOS er viðhaldið með viðeigandi ljósum",
-   "Haltu ávallt sjónlínu (VLOS)",
-   "Athafnaleyfi nauðsynlegt til að fljúga á takmörkuðum svæðum",
-   "Viðurlög allt að 100.000 SGD eða 5 ára fangelsi",
-   "Fljúgðu ekki yfir fólk, byggingar eða takmörkuð mannvirki"
-  ],
-  "importantNotes": [
-   "Singapúr hefur mjög strangar drónareglur — viðurlög allt að 100.000 SGD eða 5 ára fangelsi",
-   "Staðalhæðarmörkin eru aðeins 200 fet (60 m) — mun lægri en í flestum löndum",
-   "B-RID (Broadcast Remote ID) er skyldubundið frá desember 2025",
-   "Mörg svæði í Singapúr eru takmörkuð — athugaðu ávallt OneMap áður en þú flýgur"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAAS — Ómönnuð loftför",
-    "description": "Opinberar drónareglur og leiðbeiningar frá Flugmálastofnun Singapúr"
-   },
-   {
-    "title": "OneMap — Loftrýmiskort",
-    "description": "Opinbert kort af Singapúr með drónaflugssvæðum og takmörkunum"
-   },
-   {
-    "title": "FlyItSafe — CAAS-forrit",
-    "description": "Opinbert drónaöryggisforrit CAAS með flugsvæðum og upplýsingum um leyfi"
-   },
-   {
-    "title": "CAAS — UA-skráning",
-    "description": "Skráðu drónann þinn og sæktu um athafnaleyfi á netinu"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAAS — UA-flugmannsleyfi (UAPL)",
-    "description": "Kröfur um flugmannsleyfi fyrir atvinnurekstur eða dróna yfir 7 kg"
-   },
-   {
-    "title": "CAAS — Broadcast Remote ID",
-    "description": "Kröfur um B-RID (Broadcast Remote ID) skyldubundnar frá desember 2025"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir CAAS áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild. Singapúr hefur mjög strangar drónareglur með þungum viðurlögum.",
+    "sectionLabelRules": "HELSTU REGLUR",
+    "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
+    "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
+    "linksSheetTitle": "Loftrými og reglur — Singapúr",
+    "dronePilotCredentialName": "UA-flugmannsleyfi",
+    "keyRules": [
+      "Staðalhámarkið er 200 fet (60 m AMSL) — 400 fet (122 m) fyrir rekstraraðila með atvinnuleyfi á tilgreindum svæðum í meira en 6 km fjarlægð frá flugvelli. Staðfestu gildandi svæðakort og skilyrði áður en þú treystir á hærri mörkin.",
+      "Þú verður að skrá ómannaða loftfarið þitt hjá CAAS ef það vegur meira en 250 g. Skráning kostar SGD 25 og rennur ekki út — þú þarft aðeins að uppfæra hana eða afskrá loftfarið ef dróninn týnist, skemmist, er seldur eða auðkennismerkið verður ólæsilegt.",
+      "UA Pilot Licence (UAPL) er nauðsynlegt fyrir atvinnu- eða faglega notkun og fyrir alla dróna sem vega meira en 7 kg, óháð tilgangi. Class B UAPL nær yfir léttari atvinnudróna undir 7 kg.",
+      "Haltu að minnsta kosti 5 km fjarlægð frá flugvöllum og herflugstöðvum — staðfestu nákvæma gildandi fjarlægð áður en þú flýgur nálægt herflugstöð.",
+      "Broadcast Remote ID (B-RID) hefur verið skyldubundið frá 1. desember 2025 fyrir UA yfir 250 g, nema UA sem eru notuð innandyra eða í lokuðu rými, eða þegar rekstraraðilinn er með Operator Permit og notar FlyItSafe-appið.",
+      "Næturflug er aðeins heimilt þegar tilskilin ljós eru virk og VLOS er viðhaldið allan tímann; flug utan sjónlínu krefst Operator Permit og Class 1 Activity Permit.",
+      "Haltu ávallt sjónlínu (VLOS)",
+      "Athafnaleyfi nauðsynlegt til að fljúga á takmörkuðum svæðum",
+      "Viðurlög eru þrepaskipt: allt að SGD 50.000 eða 2 ára fangelsi við fyrsta dóm fyrir alvarleg brot (t.d. flug á bönnuðu eða vernduðu svæði eða starfrækslu undir áhrifum) — tvöfaldast í SGD 100.000 eða 5 ár við ítrekuð brot. Vægari brot (t.d. flug með óskráðan dróna eða brot á B-RID-reglum) varða lægri viðurlögum, allt að SGD 10.000 og allt að 6 mánaða fangelsi.",
+      "Fljúgðu ekki yfir fólk, byggingar eða takmörkuð mannvirki"
+    ],
+    "importantNotes": [
+      "Singapúr hefur ströng, þrepaskipt viðurlög við drónabrotum: allt að SGD 50.000 eða 2 ára fangelsi við fyrsta dóm fyrir alvarleg brot, eins og flug á takmörkuðu svæði — tvöfaldast í SGD 100.000 eða 5 ár við ítrekuð brot. Vægari brot varða lægri sektum (allt að SGD 10.000 og allt að 6 mánuðum).",
+      "Staðalhæðarmörkin eru aðeins 200 fet (60 m) — mun lægri en í flestum löndum",
+      "Broadcast Remote ID (B-RID) hefur verið skyldubundið frá 1. desember 2025 fyrir UA yfir 250 g, með takmörkuðum undanþágum fyrir notkun innandyra og handhafa Operator Permit sem nota FlyItSafe-appið.",
+      "Mörg svæði í Singapúr eru takmörkuð — athugaðu ávallt OneMap áður en þú flýgur"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAAS — Ómönnuð loftför",
+        "description": "Opinberar drónareglur og leiðbeiningar frá Flugmálastofnun Singapúr"
+      },
+      {
+        "title": "OneMap — Loftrýmiskort",
+        "description": "Opinbert kort af Singapúr með drónaflugssvæðum og takmörkunum"
+      },
+      {
+        "title": "FlyItSafe — CAAS-forrit",
+        "description": "Opinbert drónaöryggisforrit CAAS með flugsvæðum og upplýsingum um leyfi"
+      },
+      {
+        "title": "CAAS — UA-skráning",
+        "description": "Skráðu drónann þinn og sæktu um athafnaleyfi á netinu"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAAS — UA-flugmannsleyfi (UAPL)",
+        "description": "Kröfur um flugmannsleyfi fyrir atvinnurekstur eða dróna yfir 7 kg"
+      },
+      {
+        "title": "CAAS — Broadcast Remote ID",
+        "description": "Kröfur um B-RID (Broadcast Remote ID) skyldubundnar frá desember 2025"
+      }
+    ]
+  }
 }

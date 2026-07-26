@@ -1,63 +1,63 @@
 {
- "meta": {
-  "sourceHash": "a1e69adb928a29b23e35f851c7f189c239b934c116c4c5c3bb8ff4997785f369",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-   "Rekisteröityminen UAS-käyttäjäksi (15 € / 3 vuotta), jos drone painaa vähintään 250 g tai siinä on kamera",
-   "A1/A3-verkkokoulutus vaaditaan — vähimmäisikä 16 vuotta",
-   "Yölento on sallittu EASA:n avoimen luokan perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
-   "8 km:n turvavyöhyke lentoasemien ympärillä",
-   "Vähintään 1 km:n etäisyys asuinalueista (koskee pääasiassa A3-luokkaa — tiukemmat vaatimukset raskaammille droneille)",
-   "Pidä drone aina näköyhteydessä (VLOS)",
-   "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-   "Pohjois-Kypros (KTMC): erillinen lainkäyttöalue — eri säännöt",
-   "YK:n lennätyskieltovyöhyke: täydellinen lennätyskielto"
-  ],
-  "importantNotes": [
-   "Yölento on sallittu EASA:n avoimen luokan perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
-   "1 kilometrin etäisyys asuinalueista on hyvin rajoittava pienellä saarella",
-   "8 kilometrin turvavyöhykkeet lentoasemien ympärillä kattavat suuren osan saaresta",
-   "Pohjois-Kypros (KTMC) on erillinen lainkäyttöalue, jolla on eri säännöt",
-   "YK:n puskurivyöhyke on ehdoton lennätyskieltoalue"
-  ],
-  "primaryLinks": [
-   {
-    "title": "DCAD — Dronemääräykset",
-    "description": "Kyproksen siviili-ilmailuosaston viralliset dronemääräykset"
-   },
-   {
-    "title": "DCAD — Käyttäjän rekisteröinti",
-    "description": "Rekisteröityminen UAS-lentäjäksi (15 € / 3 vuotta, voimassa kaikissa EU-/EASA-maissa)"
-   },
-   {
-    "title": "drones.gov.cy — Geovyöhykkeiden kartta",
-    "description": "Virallinen kartta Kyproksen dronelentojen maantieteellisistä vyöhykkeistä"
-   },
-   {
-    "title": "DCAD — Sääntöjen yleiskatsaus",
-    "description": "Yleiskatsaus Kyproksen dronen lennätyssääntöihin"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "DCAD — Usein kysyttyä droneista",
-    "description": "Usein kysyttyä Kyproksen dronemääräyksistä"
-   },
-   {
-    "title": "Hermes Airports — Tietoa",
-    "description": "Tietoa Larnakan ja Pafoksen lentoasemista"
-   }
-  ],
-  "disclaimerText": "Tarkista aina Kyproksen DCAD:n ja drones.gov.cy-palvelun viralliset lähteet ennen jokaista lentoa. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Kypros noudattaa EASAn määräyksiä tiukkoine kansallisine lisäyksineen, kuten yölentojen kiellolla.",
-  "sectionLabelRules": "PERUSSÄÄNNÖT (EASAN AVOIN LUOKKA)",
-  "sectionLabelPrimary": "VIRALLISET LÄHTEET",
-  "sectionLabelSecondary": "LISÄRESURSSIT",
-  "linksSheetTitle": "Ilmatila ja säännöt — Kypros",
-  "dronePilotCredentialName": "Kaukolentäjän todistus"
- }
+  "meta": {
+    "sourceHash": "a1e69adb928a29b23e35f851c7f189c239b934c116c4c5c3bb8ff4997785f369",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
+      "Rekisteröityminen UAS-käyttäjäksi (15 € / 3 vuotta), jos drone painaa vähintään 250 g tai siinä on kamera",
+      "A1/A3-verkkokoulutus vaaditaan — vähimmäisikä 16 vuotta",
+      "Yölento on sallittu EASAn avoimen kategorian perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
+      "8 km:n turvavyöhyke lentoasemien ympärillä",
+      "Vähintään 1 km:n etäisyys asuinalueista (koskee pääasiassa A3-luokkaa — tiukemmat vaatimukset raskaammille droneille)",
+      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
+      "Pohjois-Kypros (TRNC): erillinen lainkäyttöalue — eri säännöt",
+      "YK:n lennätyskieltovyöhyke: täydellinen lennätyskielto"
+    ],
+    "importantNotes": [
+      "Yölento on sallittu EASAn avoimen kategorian perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
+      "1 kilometrin etäisyysvaatimus asuinalueista on pienellä saarella hyvin rajoittava",
+      "8 kilometrin turvavyöhykkeet lentoasemien ympärillä kattavat suuren osan saaresta",
+      "Pohjois-Kypros (TRNC) on erillinen lainkäyttöalue, jolla on eri säännöt",
+      "YK:n Dead Zone on ehdoton lennätyskieltoalue"
+    ],
+    "primaryLinks": [
+      {
+        "title": "DCAD — Dronemääräykset",
+        "description": "Kyproksen siviili-ilmailuosaston viralliset dronemääräykset"
+      },
+      {
+        "title": "DCAD — Käyttäjän rekisteröinti",
+        "description": "Rekisteröityminen UAS-lentäjäksi (15 € / 3 vuotta, voimassa kaikissa EU-/EASA-maissa)"
+      },
+      {
+        "title": "drones.gov.cy — Geovyöhykkeiden kartta",
+        "description": "Virallinen kartta Kyproksen dronelentojen maantieteellisistä vyöhykkeistä"
+      },
+      {
+        "title": "DCAD — Sääntöjen yleiskatsaus",
+        "description": "Yleiskatsaus Kyproksen dronen lennätyssääntöihin"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "DCAD — Usein kysyttyä droneista",
+        "description": "Usein kysyttyä Kyproksen dronemääräyksistä"
+      },
+      {
+        "title": "Hermes Airports — Tietoa",
+        "description": "Tietoa Larnakan ja Pafoksen lentoasemista"
+      }
+    ],
+    "disclaimerText": "Tarkista aina DCA Cyprusin ja drones.gov.cy-palvelun viralliset lähteet ennen jokaista lentoa. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Kypros noudattaa EASAn määräyksiä ja tiukkoja kansallisia lisäsääntöjä, kuten yölentokieltoa.",
+    "sectionLabelRules": "PERUSSÄÄNNÖT (EASAN AVOIN LUOKKA)",
+    "sectionLabelPrimary": "VIRALLISET LÄHTEET",
+    "sectionLabelSecondary": "LISÄRESURSSIT",
+    "linksSheetTitle": "Ilmatila ja säännöt — Kypros",
+    "dronePilotCredentialName": "Kaukolentäjän todistus"
+  }
 }

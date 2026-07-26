@@ -1,62 +1,62 @@
 {
- "meta": {
-  "sourceHash": "edba8fa0339b0b435910d8c9bd14a7a0",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Vérifiez toujours les sources officielles de la CAAS avant de voler. Cette application est un outil, pas une autorité juridique. Singapour applique une réglementation des drones très stricte, assortie de lourdes sanctions.",
-  "sectionLabelRules": "RÈGLES CLÉS",
-  "sectionLabelPrimary": "SOURCES OFFICIELLES",
-  "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",
-  "linksSheetTitle": "Espace aérien et règles — Singapour",
-  "dronePilotCredentialName": "Licence de télépilote UA",
-  "keyRules": [
-   "Maximum 200 ft (60 m AMSL) standard — 400 ft (122 m) pour les exploitants commerciaux titulaires d'une licence dans les zones désignées à plus de 6 km des aéroports (depuis février 2025)",
-   "Enregistrement requis pour tous les drones de plus de 250 g (frais de 25 SGD)",
-   "Licence de télépilote UA (UAPL) requise pour l'usage commercial ou les drones de plus de 7 kg",
-   "5 km des aéroports et des bases aériennes militaires",
-   "Broadcast Remote ID (B-RID) obligatoire à partir de décembre 2025",
-   "Vol de nuit autorisé uniquement si le VLOS est maintenu avec un éclairage adapté",
-   "Gardez toujours une vue directe (VLOS)",
-   "Permis d'activité requis pour voler dans les zones réglementées",
-   "Sanctions pouvant atteindre 100 000 SGD ou 5 ans d'emprisonnement",
-   "Ne survolez pas les personnes, les bâtiments ou les installations réglementées"
-  ],
-  "importantNotes": [
-   "Singapour applique une réglementation des drones très stricte — sanctions pouvant atteindre 100 000 SGD ou 5 ans de prison",
-   "La limite d'altitude standard n'est que de 200 ft (60 m) — bien plus basse que dans la plupart des pays",
-   "Le B-RID (Broadcast Remote ID) est obligatoire à partir de décembre 2025",
-   "De nombreuses zones à Singapour sont réglementées — vérifiez toujours OneMap avant de voler"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAAS — Aéronefs sans pilote",
-    "description": "Réglementation et directives officielles sur les drones de l'Autorité de l'aviation civile de Singapour"
-   },
-   {
-    "title": "OneMap — Carte de l'espace aérien",
-    "description": "Carte officielle de Singapour indiquant les zones de vol de drones et les restrictions"
-   },
-   {
-    "title": "FlyItSafe — Application de la CAAS",
-    "description": "Application officielle de sécurité des drones de la CAAS avec zones de vol et informations sur les permis"
-   },
-   {
-    "title": "CAAS — Enregistrement UA",
-    "description": "Enregistrez votre drone et demandez des permis d'activité en ligne"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAAS — Licence de télépilote UA (UAPL)",
-    "description": "Exigences de licence de télépilote pour les opérations commerciales ou les drones de plus de 7 kg"
-   },
-   {
-    "title": "CAAS — Broadcast Remote ID",
-    "description": "Exigences B-RID (Broadcast Remote ID) obligatoires à partir de décembre 2025"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Vérifiez toujours les sources officielles de la CAAS avant de voler. Cette application est un outil, pas une autorité juridique. Singapour applique une réglementation des drones très stricte, assortie de lourdes sanctions.",
+    "sectionLabelRules": "RÈGLES CLÉS",
+    "sectionLabelPrimary": "SOURCES OFFICIELLES",
+    "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",
+    "linksSheetTitle": "Espace aérien et règles — Singapour",
+    "dronePilotCredentialName": "Licence de télépilote UA",
+    "keyRules": [
+      "Limite standard : 200 ft (60 m AMSL) — 400 ft (122 m) pour les exploitants commerciaux titulaires d'une licence dans les zones désignées situées à plus de 6 km d'un aéroport. Vérifiez les cartes de zones et les conditions en vigueur avant de vous fier à la limite supérieure.",
+      "Vous devez enregistrer votre aéronef sans pilote auprès de CAAS s'il pèse plus de 250 g. L'enregistrement coûte 25 SGD et n'expire pas — vous ne devez le mettre à jour ou l'annuler que si le drone est perdu, endommagé ou vendu, ou si son étiquette d'identification devient illisible.",
+      "Une UA Pilot Licence (UAPL) est requise pour un usage commercial ou professionnel, ou pour tout drone de plus de 7 kg, quel que soit l'usage. Une UAPL de classe B couvre les drones commerciaux plus légers, de moins de 7 kg.",
+      "Restez à au moins 5 km des aéroports et des bases aériennes militaires — vérifiez la distance exacte en vigueur avant de voler à proximité d'une base aérienne.",
+      "Le Broadcast Remote ID (B-RID) est obligatoire depuis le 1er décembre 2025 pour les UA de plus de 250 g, sauf pour les UA exploités à l'intérieur ou dans un espace clos, ou lorsque l'exploitant détient un Operator Permit et utilise l'application FlyItSafe.",
+      "Les vols de nuit ne sont autorisés que si l'éclairage requis est activé et si le VLOS est maintenu à tout moment ; les vols au-delà de la vue directe nécessitent un Operator Permit et un Class 1 Activity Permit.",
+      "Gardez toujours une vue directe (VLOS)",
+      "Permis d'activité requis pour voler dans les zones réglementées",
+      "Les sanctions sont graduées : jusqu'à 50 000 SGD ou 2 ans d'emprisonnement lors d'une première condamnation pour des infractions graves (par ex. vol dans une zone interdite ou protégée, ou pilotage avec des capacités affaiblies) — jusqu'à 100 000 SGD ou 5 ans en cas de récidive. Les infractions moins graves (par ex. vol avec un drone non enregistré ou infraction liée au B-RID) sont passibles de sanctions moins lourdes, pouvant atteindre 10 000 SGD et 6 mois d'emprisonnement.",
+      "Ne survolez pas de personnes, de bâtiments ni d'installations faisant l'objet de restrictions."
+    ],
+    "importantNotes": [
+      "Singapour applique des sanctions graduées strictes aux infractions liées aux drones : jusqu'à 50 000 SGD ou 2 ans d'emprisonnement lors d'une première condamnation pour une infraction grave, comme un vol dans une zone réglementée — jusqu'à 100 000 SGD ou 5 ans en cas de récidive. Les infractions moins graves entraînent des sanctions plus faibles (jusqu'à 10 000 SGD et jusqu'à 6 mois).",
+      "La limite d'altitude standard n'est que de 200 ft (60 m) — bien plus basse que dans la plupart des pays",
+      "Le Broadcast Remote ID (B-RID) est obligatoire depuis le 1er décembre 2025 pour les UA de plus de 250 g (avec des exceptions limitées pour l'utilisation en intérieur et pour les titulaires d'un Operator Permit utilisant l'application FlyItSafe).",
+      "De nombreuses zones à Singapour sont réglementées — vérifiez toujours OneMap avant de voler"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAAS — Aéronefs sans pilote",
+        "description": "Réglementation et directives officielles sur les drones de l'Autorité de l'aviation civile de Singapour"
+      },
+      {
+        "title": "OneMap — Carte de l'espace aérien",
+        "description": "Carte officielle de Singapour indiquant les zones de vol de drones et les restrictions"
+      },
+      {
+        "title": "FlyItSafe — Application de la CAAS",
+        "description": "Application officielle de sécurité des drones de la CAAS avec zones de vol et informations sur les permis"
+      },
+      {
+        "title": "CAAS — Enregistrement UA",
+        "description": "Enregistrez votre drone et demandez des permis d'activité en ligne"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAAS — Licence de télépilote UA (UAPL)",
+        "description": "Exigences de licence de télépilote pour les opérations commerciales ou les drones de plus de 7 kg"
+      },
+      {
+        "title": "CAAS — Broadcast Remote ID",
+        "description": "Exigences B-RID (Broadcast Remote ID) obligatoires à partir de décembre 2025"
+      }
+    ]
+  }
 }

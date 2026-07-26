@@ -1,62 +1,62 @@
 {
- "meta": {
-  "sourceHash": "edba8fa0339b0b435910d8c9bd14a7a0",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Sjekk alltid offisielle CAAS-kilder før du flyr. Denne appen er et verktøy — ikke en juridisk myndighet. Singapore har svært strenge droneregler med strenge straffer.",
-  "sectionLabelRules": "VIKTIGE REGLER",
-  "sectionLabelPrimary": "OFFISIELLE KILDER",
-  "sectionLabelSecondary": "TILLEGGSRESSURSER",
-  "linksSheetTitle": "Luftrom og regler — Singapore",
-  "dronePilotCredentialName": "UA-pilotsertifikat",
-  "keyRules": [
-   "Maks 200 ft (60 m AMSL) standard — 400 ft (122 m) for lisensierte kommersielle operatører i utpekte soner >6 km fra flyplasser (siden feb. 2025)",
-   "Registrering påkrevd for alle droner over 250 g (SGD 25 i gebyr)",
-   "UA-pilotsertifikat (UAPL) påkrevd for kommersiell bruk eller droner over 7 kg",
-   "5 km fra flyplasser og militære flybaser",
-   "Broadcast Remote ID (B-RID) obligatorisk fra desember 2025",
-   "Nattflyging kun tillatt hvis VLOS opprettholdes med tilstrekkelig belysning",
-   "Oppretthold alltid synsrekkevidde (VLOS)",
-   "Aktivitetstillatelse påkrevd for flyging i restriksjonsbelagte områder",
-   "Straffer på opptil SGD 100 000 eller 5 års fengsel",
-   "Ikke fly over mennesker, bygninger eller restriksjonsbelagte installasjoner"
-  ],
-  "importantNotes": [
-   "Singapore har svært strenge dronelover — straffer på opptil SGD 100 000 eller 5 års fengsel",
-   "Standard høydegrense er bare 200 ft (60 m) — mye lavere enn i de fleste land",
-   "B-RID (Broadcast Remote ID) er obligatorisk fra desember 2025",
-   "Mange områder i Singapore er restriksjonsbelagt — sjekk alltid OneMap før du flyr"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAAS — Ubemannede luftfartøy",
-    "description": "Offisielt droneregelverk og veiledning fra Singapores sivile luftfartsmyndighet"
-   },
-   {
-    "title": "OneMap — Luftromskart",
-    "description": "Offisielt Singapore-kart med droneflygingssoner og restriksjoner"
-   },
-   {
-    "title": "FlyItSafe — CAAS-app",
-    "description": "Offisiell CAAS-app for dronesikkerhet med flygingssoner og informasjon om tillatelser"
-   },
-   {
-    "title": "CAAS — UA-registrering",
-    "description": "Registrer dronen din og søk om aktivitetstillatelser på nett"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAAS — UA-pilotsertifikat (UAPL)",
-    "description": "Krav til pilotsertifikat for kommersiell drift eller droner over 7 kg"
-   },
-   {
-    "title": "CAAS — Broadcast Remote ID",
-    "description": "Krav til B-RID (Broadcast Remote ID) obligatorisk fra desember 2025"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Sjekk alltid offisielle CAAS-kilder før du flyr. Denne appen er et verktøy — ikke en rettskilde. Singapore har svært strengt droneregelverk med alvorlige straffer.",
+    "sectionLabelRules": "VIKTIGE REGLER",
+    "sectionLabelPrimary": "OFFISIELLE KILDER",
+    "sectionLabelSecondary": "TILLEGGSRESSURSER",
+    "linksSheetTitle": "Luftrom og regler — Singapore",
+    "dronePilotCredentialName": "UA-pilotlisens",
+    "keyRules": [
+      "Standardgrensen er maks 200 ft (60 m AMSL) — 400 ft (122 m) for lisensierte kommersielle operatører i utpekte soner mer enn 6 km fra en flyplass. Kontroller gjeldende sonekart og vilkår før du legger den høyere grensen til grunn.",
+      "Du må registrere det ubemannede luftfartøyet hos CAAS hvis det veier mer enn 250 g. Registreringen koster SGD 25 og utløper ikke — du trenger bare å oppdatere eller avregistrere det hvis dronen går tapt, blir skadet eller solgt, eller hvis ID-etiketten blir uleselig.",
+      "En UA Pilot Licence (UAPL) kreves for kommersiell/profesjonell bruk eller for droner som veier mer enn 7 kg, uansett formål. En Class B UAPL dekker lettere kommersielle droner under 7 kg.",
+      "Hold minst 5 km avstand fra flyplasser og militære flybaser — kontroller den nøyaktige gjeldende avstanden før du flyr nær en flybase.",
+      "Broadcast Remote ID (B-RID) har vært obligatorisk siden 1. desember 2025 for UA over 250 g, unntatt UA som opereres innendørs eller i et lukket område, eller når operatøren har en Operator Permit og bruker FlyItSafe-appen.",
+      "Nattflyging er bare tillatt når den påkrevde belysningen er aktiv og VLOS opprettholdes til enhver tid; flyging utenfor synsvidde krever en Operator Permit og en Class 1 Activity Permit.",
+      "Hold alltid dronen innenfor synsvidde (VLOS)",
+      "Aktivitetstillatelse påkrevd for flyging i restriksjonsbelagte områder",
+      "Straffene er graderte: opptil SGD 50 000 eller 2 års fengsel ved første domfellelse for alvorlige overtredelser (f.eks. flyging i et forbudt/beskyttet område eller operasjon i påvirket tilstand) — doblet til SGD 100 000 eller 5 års fengsel ved gjentatte overtredelser. Mindre alvorlige overtredelser (f.eks. flyging med en uregistrert drone eller brudd på B-RID-kravet) har lavere straffer på opptil SGD 10 000 og opptil 6 måneders fengsel.",
+      "Ikke fly over mennesker, bygninger eller restriksjonsbelagte installasjoner"
+    ],
+    "importantNotes": [
+      "Singapore har strenge, graderte straffer for droneovertredelser: opptil SGD 50 000 eller 2 års fengsel ved første domfellelse for alvorlige overtredelser som flyging i et restriksjonsområde — doblet til SGD 100 000 eller 5 års fengsel ved gjentatte overtredelser. Mindre alvorlige overtredelser har lavere straffer (opptil SGD 10 000 og opptil 6 måneders fengsel).",
+      "Standard høydegrense er bare 200 ft (60 m) — mye lavere enn i de fleste land",
+      "Broadcast Remote ID (B-RID) har vært obligatorisk siden 1. desember 2025 for UA over 250 g (med begrensede unntak for innendørs bruk og innehavere av Operator Permit som bruker FlyItSafe-appen).",
+      "Mange områder i Singapore er restriksjonsbelagt — sjekk alltid OneMap før du flyr"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAAS — Ubemannede luftfartøy",
+        "description": "Offisielt droneregelverk og veiledning fra Singapores sivile luftfartsmyndighet"
+      },
+      {
+        "title": "OneMap — Luftromskart",
+        "description": "Offisielt Singapore-kart med droneflygingssoner og restriksjoner"
+      },
+      {
+        "title": "FlyItSafe — CAAS-app",
+        "description": "Offisiell CAAS-app for dronesikkerhet med flygingssoner og informasjon om tillatelser"
+      },
+      {
+        "title": "CAAS — UA-registrering",
+        "description": "Registrer dronen din og søk om aktivitetstillatelser på nett"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAAS — UA-pilotsertifikat (UAPL)",
+        "description": "Krav til pilotsertifikat for kommersiell drift eller droner over 7 kg"
+      },
+      {
+        "title": "CAAS — Broadcast Remote ID",
+        "description": "Krav til B-RID (Broadcast Remote ID) obligatorisk fra desember 2025"
+      }
+    ]
+  }
 }

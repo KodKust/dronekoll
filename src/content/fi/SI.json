@@ -1,63 +1,63 @@
 {
- "meta": {
-  "sourceHash": "e6b2b7ef595a946c4fd009b44046d64770faa9411a520492ab5a176d0099aefc",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-   "Rekisteröityminen UAS-käyttäjäksi (40 € / 30 kuukautta) vähintään 250 g painaville tai kameralla varustetuille droneille",
-   "Ilmainen A1/A3-verkkokoe saatavilla Slovenian CAA:n kautta",
-   "Kielletty asuttujen alueiden yllä — ainoa poikkeus koskee enintään 1 200 g painavia droneja, jotka lentävät enintään 50 m korkeudessa maanomistajan suostumuksella ja kun lennosta on ilmoitettu virastolle etukäteen.",
-   "Pidä drone aina näköyhteydessä (VLOS)",
-   "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-   "Yölento on sallittu EASA:n avoimen luokan perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
-   "Triglavin kansallispuisto: dronejen lennättäminen on kielletty ilman puistohallinnon ennakkolupaa.",
-   "Lähilentovyöhyke (CTR, esim. Ljubljana): yli 5 km:n päässä lentoasemasta lennätä enintään 50 m korkeudessa maanpinnasta; lähempänä tai korkeammalla vain Slovenian lennonjohdon luvalla.",
-   "Ydinlaitosalue (NEK Krško): lennättäminen sallittu vain Slovenian ydinturvallisuusviranomaisen ja sisäministeriön luvalla."
-  ],
-  "importantNotes": [
-   "Verkkokoulutus ja A1/A3-koe ovat maksuttomia (sisältyvät rekisteröintiin).",
-   "Asuttujen alueiden yllä lennättäminen edellyttää lisälupia",
-   "Rekisteröinti maksaa 40 € 30 kuukaudelta",
-   "Triglavin kansallispuistossa on dronerajoituksia",
-   "GDPR-tietosuoja-asetus koskee henkilötietojen keräämistä tunnistettavista henkilöistä"
-  ],
-  "primaryLinks": [
-   {
-    "title": "Slovenian CAA — Dronemääräykset",
-    "description": "Slovenian tasavallan siviili-ilmailuviranomaisen viralliset määräykset ja resurssit droneista"
-   },
-   {
-    "title": "Slovenian CAA — Käyttäjän rekisteröinti",
-    "description": "Rekisteröityminen UAS-käyttäjäksi (40 € / 30 kuukautta, voimassa kaikissa EU-/EASA-maissa)"
-   },
-   {
-    "title": "Slovenian CAA — Ilmatilakartta",
-    "description": "ArcGIS-pohjainen ilmatilakartta, joka näyttää dronevyöhykkeet ja rajoitukset"
-   },
-   {
-    "title": "Slovenian CAA — Ilmainen A1/A3-koe",
-    "description": "Ilmainen verkkokoulutus ja A1/A3-koe"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Slovenia Control — Tietoa ilmatilasta",
-    "description": "Slovenian lennonjohto ja tietoa ilmatilasta"
-   },
-   {
-    "title": "Slovenian CAA — Usein kysyttyä droneista",
-    "description": "Usein kysyttyä Slovenian dronemääräyksistä"
-   }
-  ],
-  "disclaimerText": "Tarkista aina Slovenian CAA:n viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Slovenia noudattaa EASAn määräyksiä kansallisine muutoksineen.",
-  "sectionLabelRules": "TÄRKEIMMÄT SÄÄNNÖT (EASAN AVOIN KATEGORIA)",
-  "sectionLabelPrimary": "VIRALLISET LÄHTEET",
-  "sectionLabelSecondary": "LISÄRESURSSIT",
-  "linksSheetTitle": "Ilmatila ja säännöt — Slovenia",
-  "dronePilotCredentialName": "Dronelentäjän todistus"
- }
+  "meta": {
+    "sourceHash": "e6b2b7ef595a946c4fd009b44046d64770faa9411a520492ab5a176d0099aefc",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
+      "Rekisteröidy UAS-käyttäjäksi (40 € / 30 kuukautta), jos drone painaa vähintään 250 g tai siinä on kamera",
+      "Ilmainen A1/A3-verkkokoe saatavilla Slovenian CAA:n kautta",
+      "Kielletty asuttujen alueiden yllä — ainoa poikkeus koskee enintään 1 200 g painavia droneja, jotka lentävät enintään 50 m korkeudessa maanomistajan suostumuksella ja kun lennosta on ilmoitettu virastolle etukäteen.",
+      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
+      "Yölento on sallittu EASA:n avoimen luokan perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
+      "Triglavin kansallispuisto: dronejen lennättäminen on kielletty ilman puistohallinnon ennakkolupaa.",
+      "Lähilentovyöhyke (CTR, esim. Ljubljana): yli 5 km:n päässä lentoasemasta lennätä enintään 50 m korkeudessa maanpinnasta; lähempänä tai korkeammalla vain Slovenian lennonjohdon luvalla.",
+      "Ydinlaitosalue (NEK Krško): lennättäminen sallittu vain Slovenian ydinturvallisuusviranomaisen ja sisäministeriön luvalla."
+    ],
+    "importantNotes": [
+      "Verkkokoulutus ja A1/A3-koe ovat maksuttomia (sisältyvät rekisteröintiin).",
+      "Asuttujen alueiden yllä lennättäminen edellyttää lisälupia",
+      "Rekisteröinti maksaa 40 € 30 kuukaudelta",
+      "Triglavin kansallispuistossa on dronerajoituksia",
+      "GDPR-tietosuoja-asetus koskee henkilön tunnistamisen mahdollistavien tietojen keräämistä"
+    ],
+    "primaryLinks": [
+      {
+        "title": "Slovenian CAA — Dronemääräykset",
+        "description": "Slovenian tasavallan siviili-ilmailuviranomaisen viralliset määräykset ja resurssit droneista"
+      },
+      {
+        "title": "Slovenian CAA — Käyttäjän rekisteröinti",
+        "description": "Rekisteröityminen UAS-käyttäjäksi (40 € / 30 kuukautta, voimassa kaikissa EU-/EASA-maissa)"
+      },
+      {
+        "title": "Slovenian CAA — Ilmatilakartta",
+        "description": "ArcGIS-pohjainen ilmatilakartta, joka näyttää dronevyöhykkeet ja rajoitukset"
+      },
+      {
+        "title": "Slovenian CAA — Ilmainen A1/A3-koe",
+        "description": "Ilmainen verkkokoulutus ja A1/A3-koe"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Slovenia Control — Tietoa ilmatilasta",
+        "description": "Slovenian lennonjohto ja tietoa ilmatilasta"
+      },
+      {
+        "title": "Slovenian CAA — Usein kysyttyä droneista",
+        "description": "Usein kysyttyä Slovenian dronemääräyksistä"
+      }
+    ],
+    "disclaimerText": "Tarkista aina Slovenian CAA:n viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Slovenia noudattaa EASAn määräyksiä kansallisine muutoksineen.",
+    "sectionLabelRules": "TÄRKEIMMÄT SÄÄNNÖT (EASAN AVOIN KATEGORIA)",
+    "sectionLabelPrimary": "VIRALLISET LÄHTEET",
+    "sectionLabelSecondary": "LISÄRESURSSIT",
+    "linksSheetTitle": "Ilmatila ja säännöt — Slovenia",
+    "dronePilotCredentialName": "Dronelentäjän todistus"
+  }
 }

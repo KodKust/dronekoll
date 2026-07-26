@@ -1,63 +1,63 @@
 {
- "meta": {
-  "sourceHash": "000b9bfb30fd5dc95150d4d75572729ea894e9cb117bc556495e8105d1de0bf6",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Að hámarki 120 m yfir jörðu (EASA opinn flokkur)",
-   "Skráning í gegnum D-Flight-gáttina: grunnáskrift 7 €/ári (PRO 28 €/ári) + skyldubundinn QR-kóði á hvern dróna (Base 7 €/UAS; sá fyrsti er innifalinn í upphaflegu áskriftinni)",
-   "Skyldubundin A1/A3 netþjálfun — lágmarksaldur 16",
-   "Skyldubundin ábyrgðartrygging — að minnsta kosti 750.000 SDR (sérstök dráttarréttindi)",
-   "Róm og Vatíkanið: umfangsmikil flugbannssvæði",
-   "Haltu drónanum ávallt innan sjónlínu (VLOS)",
-   "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
-   "Lágmarksfjarlægð 5 km frá hvaða flugvelli eða flugbraut sem er",
-   "Næturflug er heimilt samkvæmt grunnreglum EASA opna flokksins þegar tilskilið grænt blikkandi ljós er notað, nema gildandi landsvæði eða innlend regla setji strangara skilyrði.",
-   "Sögulegir staðir og fornleifasvæði kunna að vera háð frekari takmörkunum"
-  ],
-  "importantNotes": [
-   "D-Flight áskrift: grunnur 7 €/ári (PRO 28 €/ári fyrir sérstakan flokk). Fyrsti grunn-QR-kóðinn er innifalinn í upphaflegri virkjun; viðbótar grunn-QR-kóðar kosta 7 € á hvern UAS (PRO 112 € á hvern UAS).",
-   "Skyldubundin trygging með lágmarksvernd upp á 750.000 SDR (sérstök dráttarréttindi)",
-   "Róm/Vatíkanið hefur eitt takmarkaðasta loftrými Evrópu fyrir dróna",
-   "Sektir allt að 100.000 € fyrir alvarleg brot",
-   "GDPR gildir þegar teknar eru persónugreinanlegar myndir"
-  ],
-  "primaryLinks": [
-   {
-    "title": "ENAC — Drónareglur",
-    "description": "Opinberar reglur og úrræði frá flugmálayfirvöldum Ítalíu um dróna"
-   },
-   {
-    "title": "D-Flight — Skráðu þig og fljúgðu",
-    "description": "Skráningargátt og loftrýmiskort (6 €/mánuði áskrift nauðsynleg)"
-   },
-   {
-    "title": "D-Flight — Loftrýmiskort",
-    "description": "Opinbert gagnvirkt kort sem sýnir loftrýmissvæði og takmarkanir fyrir dróna"
-   },
-   {
-    "title": "ENAC — UAS-reglugerðir",
-    "description": "Nánar um ítalskar reglugerðir um UAS og breytingar á EASA-reglunum á landsvísu"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "ENAV — NOTAM",
-    "description": "Virk NOTAM og tímabundnar loftrýmistakmarkanir"
-   },
-   {
-    "title": "ENAC — Algengar spurningar um dróna",
-    "description": "Algengar spurningar um drónareglur á Ítalíu"
-   }
-  ],
-  "disclaimerText": "Athugaðu ávallt opinberar heimildir frá ENAC og D-Flight áður en þú flýgur. Þetta forrit er verkfæri, ekki lögbær heimild. Ítalía beitir EASA-reglunum með viðbótum á landsvísu.",
-  "sectionLabelRules": "GRUNNREGLUR (EASA OPINN FLOKKUR)",
-  "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
-  "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
-  "linksSheetTitle": "Loftrými og reglur — Ítalía",
-  "dronePilotCredentialName": "Drónaleyfi"
- }
+  "meta": {
+    "sourceHash": "000b9bfb30fd5dc95150d4d75572729ea894e9cb117bc556495e8105d1de0bf6",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Að hámarki 120 m yfir jörðu (EASA opinn flokkur)",
+      "Skráning í gegnum D-Flight-gáttina: grunnáskrift 7 €/ári (PRO 28 €/ári) + skyldubundinn QR-kóði á hvern dróna (Base 7 €/UAS; sá fyrsti er innifalinn í upphaflegu áskriftinni)",
+      "Skyldubundin A1/A3 netþjálfun — lágmarksaldur 16",
+      "Skyldubundin ábyrgðartrygging — að minnsta kosti 750.000 SDR (sérstök dráttarréttindi)",
+      "Róm og Vatíkanið: umfangsmikil flugbannssvæði",
+      "Haltu drónanum ávallt innan sjónlínu (VLOS)",
+      "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
+      "Lágmarksfjarlægð 5 km frá hvaða flugvelli eða flugstað sem er",
+      "Næturflug er heimilt samkvæmt grunnreglum EASA opna flokksins þegar tilskilið grænt blikkandi ljós er notað, nema gildandi landfræðilegt UAS-svæði eða innlend regla setji strangara skilyrði.",
+      "Sögulegir staðir og fornleifasvæði kunna að vera háð frekari takmörkunum"
+    ],
+    "importantNotes": [
+      "D-Flight-áskrift: Basic 7 €/ári (PRO 28 €/ári fyrir sérstakan flokk). Fyrsti Basic QR Code er innifalinn við upphaflega virkjun; fleiri Basic QR Codes kosta 7 € fyrir hvert UAS (PRO 112 € fyrir hvert UAS).",
+      "Skyldubundin trygging að lágmarksfjárhæð 750.000 SDR (sérstök dráttarréttindi)",
+      "Róm/Vatíkanið hefur eitt takmarkaðasta loftrými Evrópu fyrir dróna",
+      "Sektir allt að 100.000 € fyrir alvarleg brot",
+      "GDPR gildir þegar teknar eru persónugreinanlegar myndir"
+    ],
+    "primaryLinks": [
+      {
+        "title": "ENAC — Drónareglur",
+        "description": "Opinberar reglur og úrræði frá flugmálayfirvöldum Ítalíu um dróna"
+      },
+      {
+        "title": "D-Flight — Skráðu þig og fljúgðu",
+        "description": "Skráningargátt og loftrýmiskort (6 €/mánuði áskrift nauðsynleg)"
+      },
+      {
+        "title": "D-Flight — Loftrýmiskort",
+        "description": "Opinbert gagnvirkt kort sem sýnir loftrýmissvæði og takmarkanir fyrir dróna"
+      },
+      {
+        "title": "ENAC — UAS-reglugerðir",
+        "description": "Nánar um ítalskar reglugerðir um UAS og breytingar á EASA-reglunum á landsvísu"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "ENAV — NOTAM",
+        "description": "Virk NOTAM og tímabundnar loftrýmistakmarkanir"
+      },
+      {
+        "title": "ENAC — Algengar spurningar um dróna",
+        "description": "Algengar spurningar um drónareglur á Ítalíu"
+      }
+    ],
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir frá ENAC og D-Flight áður en þú flýgur. Þetta forrit er verkfæri, ekki lögbær heimild. Ítalía beitir EASA-reglunum með viðbótum á landsvísu.",
+    "sectionLabelRules": "GRUNNREGLUR (EASA OPINN FLOKKUR)",
+    "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
+    "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
+    "linksSheetTitle": "Loftrými og reglur — Ítalía",
+    "dronePilotCredentialName": "Drónaleyfi"
+  }
 }

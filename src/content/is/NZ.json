@@ -1,59 +1,59 @@
 {
- "meta": {
-  "sourceHash": "bf61742c347692384d38d2d8eb6348a5",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Athugaðu ávallt opinberar heimildir CAANZ áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild. Reglur kunna að breytast án fyrirvara.",
-  "sectionLabelRules": "HELSTU REGLUR",
-  "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
-  "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
-  "linksSheetTitle": "Loftrými og reglur — Nýja-Sjáland",
-  "dronePilotCredentialName": "Part 101/102 vottorð",
-  "keyRules": [
-   "Að hámarki 120 m yfir jörðu",
-   "Engin skráning eða flugmannsleyfi nauðsynlegt fyrir Part 101 tómstundaflug",
-   "Haltu ávallt sjónlínu (VLOS)",
-   "4 km frá hvaða flugvelli (flugvelli, þyrlupalli, flugbraut) sem er nema þú hafir heimild frá rekstraraðilanum",
-   "Samþykki landeiganda nauðsynlegt áður en flogið er yfir einkaeign",
-   "150 m lágmarksfjarlægð frá sjávarspendýrum (hvölum, höfrungum, selum) — reglugerð um vernd sjávarspendýra frá 1992",
-   "Verndarland (DOC) krefst leyfis áður en flogið er",
-   "Næturflug heimilt samkvæmt Part 101 með árekstravarnaljósum og sjónlínu (sjá ráðgjafarbréf CAA AC101-1)",
-   "Fljúgðu ekki yfir fólk án samþykkis þess",
-   "Víktu ávallt fyrir öllum mönnuðum loftförum",
-   "Hámarksþyngd dróna 25 kg samkvæmt Part 101 — þyngri drónar krefjast Part 102 vottunar"
-  ],
-  "importantNotes": [
-   "Nýja-Sjáland hefur enga kröfu um skráningu eða leyfi fyrir Part 101 tómstundaflug — en allar reglur gilda samt. Flugmálalög frá 2023 (í gildi frá apríl 2025) kunna að innleiða skráningu/Remote ID í framtíðinni",
-   "DOC-land nær yfir um það bil þriðjung Nýja-Sjálands — athugaðu ávallt áður en þú flýgur í náttúrunni",
-   "150 m reglan um sjávarspendýr er stranglega framfylgt — nær til hvala, höfrunga og sela",
-   "Trygging er ekki beinlínis skyldubundin en eindregið mælt með henni"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAANZ — Drónareglur",
-    "description": "Opinberar drónareglur og leiðbeiningar Flugmálastjórnar fyrir Nýja-Sjáland"
-   },
-   {
-    "title": "AirShare — Loftrýmiskort",
-    "description": "Rauntímaloftrýmiskort með stýrðum svæðum, flugbeiðnum og viðvörunum"
-   },
-   {
-    "title": "DOC — Leyfi fyrir verndarland",
-    "description": "Sæktu um leyfi til að fljúga á landi í umsjá Verndarmálastofnunar"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAANZ — Part 101 reglur",
-    "description": "Ítarlegar Part 101 reglur fyrir ómönnuð loftför á Nýja-Sjálandi"
-   },
-   {
-    "title": "CAA NZ — Drónareglur",
-    "description": "Opinberar drónareglur og leiðbeiningar Flugmálastjórnar"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "81f94aa9e46da24263d172cdcaa6b7c7",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir CAANZ áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild. Reglur kunna að breytast án fyrirvara.",
+    "sectionLabelRules": "HELSTU REGLUR",
+    "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
+    "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
+    "linksSheetTitle": "Loftrými og reglur — Nýja-Sjáland",
+    "dronePilotCredentialName": "Part 101/102 vottorð",
+    "keyRules": [
+      "Hámarkshæð er 120 m (400 fet) yfir jörðu, nema flogið sé samkvæmt sérstökum skilyrðum í CATI: 101-1 section 2.5 (Part 101).",
+      "Hvorki þarf skráningu né flugmannsleyfi fyrir Part 101 tómstundaflug",
+      "Þú verður alltaf að geta séð drónann berum augum, nema þú fljúgir FPV með sjónrænum áhorfanda sem heldur VLOS eða starfir samkvæmt BVLOS-heimild (CAA Part 101).",
+      "Haltu að minnsta kosti 4 km fjarlægð frá öllum flugstöðum (flugvelli, þyrlupalli eða lendingarbraut) nema þú hafir heimild frá rekstraraðila flugstaðarins — staðfestu nákvæma gildandi fjarlægð.",
+      "Samþykki landeiganda nauðsynlegt áður en flogið er yfir einkaeign",
+      "Þegar flogið er neðan 600 m yfir sjávarmáli skal halda að minnsta kosti 150 m láréttri fjarlægð frá punkti beint yfir sjávarspendýri (hval, höfrungi eða sel) (Marine Mammals Protection Regulations 1992).",
+      "Flug yfir verndarsvæðum (þjóðgörðum, friðlöndum og skógargörðum) krefst leyfis frá Department of Conservation (DOC).",
+      "Næturflug er heimilt samkvæmt Part 101 með árekstravarnaljósum og innan sjónlínu (sjá CAA Advisory Circular AC101-1).",
+      "Fljúgðu ekki yfir fólk án samþykkis þess",
+      "Víktu ávallt fyrir öllum mönnuðum loftförum",
+      "Hámarksþyngd dróna er 25 kg samkvæmt Part 101 — fyrir þyngri dróna eða rekstur sem getur ekki uppfyllt skilyrði Part 101 þarf Part 102-vottun."
+    ],
+    "importantNotes": [
+      "Nýja-Sjáland gerir hvorki kröfu um skráningu né leyfi fyrir Part 101 tómstundaflug — en allar reglur gilda samt. Civil Aviation Act 2023 (í gildi frá apríl 2025) kann að innleiða skráningu/Remote ID síðar.",
+      "DOC-land nær yfir um það bil þriðjung Nýja-Sjálands — athugaðu ávallt áður en þú flýgur í náttúrunni",
+      "Reglunni um 150 m fjarlægð frá sjávarspendýrum er framfylgt af hörku og hún nær til hvala, höfrunga og sela þegar flogið er neðan 600 m yfir sjávarmáli.",
+      "Trygging er ekki beinlínis skyldubundin en eindregið er mælt með henni"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAANZ — Drónareglur",
+        "description": "Opinberar drónareglur og leiðbeiningar Flugmálastjórnar fyrir Nýja-Sjáland"
+      },
+      {
+        "title": "AirShare — Loftrýmiskort",
+        "description": "Rauntímaloftrýmiskort með stýrðum svæðum, flugbeiðnum og viðvörunum"
+      },
+      {
+        "title": "DOC — Leyfi fyrir verndarland",
+        "description": "Sæktu um leyfi til að fljúga á landi í umsjá Verndarmálastofnunar"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAANZ — Part 101 reglur",
+        "description": "Ítarlegar Part 101 reglur fyrir ómönnuð loftför á Nýja-Sjálandi"
+      },
+      {
+        "title": "CAA NZ — Drónareglur",
+        "description": "Opinberar drónareglur og leiðbeiningar Flugmálastjórnar"
+      }
+    ]
+  }
 }

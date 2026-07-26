@@ -1,61 +1,61 @@
 {
- "meta": {
-  "sourceHash": "36d02a53cfd249d58006a295f9a59616c0e6c70d5da2bf039b877f35892a3057",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Að hámarki 120 m yfir jörðu (EASA opinn flokkur)",
-   "Skyldubundin A1/A3 netþjálfun — lágmarksaldur 14 (foreldri eða forráðamaður verður að ljúka skráningu fyrir ólögráða á aldrinum 14 og 15 ára).",
-   "Skyldubundin ábyrgðartrygging (skírteinisnúmer nauðsynlegt við skráningu)",
-   "Stýrða svæðið (CTR) við Luxembourg-Findel-flugvöll nær yfir stóran hluta landsins",
-   "Haltu drónanum ávallt innan sjónlínu (VLOS)",
-   "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
-   "Fylgdu Luxembourg-Findel CTR og landfræðilegu UAS-svæðunum sem birt eru á Geoportail.lu — það er ekki lengur flöt 5 km öryggisspilda eftir EASA-samræminguna",
-   "Að næturlagi krefjast mörg svæði (einkum í kringum Findel) sérstaks leyfis — athugaðu kröfurnar fyrir hvert svæði á drones.geoportail.lu.",
-   "Stórhertogahöllin, fangelsi og hersvæði: fyrirframheimild nauðsynleg — leikvangar og flugbrautir á staðnum (Useldange, Noertrange): flug bannað."
-  ],
-  "importantNotes": [
-   "Skyldubundin trygging; skírteinisnúmer nauðsynlegt við skráningu",
-   "Stýrða svæðið (CTR) við Luxembourg-Findel-flugvöll nær yfir stóran hluta þessa litla lands",
-   "Nýi landsramminn (desember 2025) kveður á um refsiviðurlög — allt að 1 árs fangelsi og 5.000 € sekt — fyrir að vanrækja að útvega tryggingu eða skrá sig.",
-   "GDPR gildir þegar teknar eru persónugreinanlegar myndir"
-  ],
-  "primaryLinks": [
-   {
-    "title": "DAC — Drónareglur",
-    "description": "Opinberar reglur flugmálayfirvalda Lúxemborgar um dróna"
-   },
-   {
-    "title": "DAC — Skráðu þig sem rekstraraðili",
-    "description": "Skráning sem rekstraraðili fjarstýrðra loftfara (10 €/ári, viðurkennt í öllum ESB/EASA-löndum)"
-   },
-   {
-    "title": "Geoportail.lu — Drónakort",
-    "description": "Opinber landfræðigátt með upplýsingum um drónasvæði"
-   },
-   {
-    "title": "DAC — Yfirlit reglna",
-    "description": "Yfirlit yfir reglur um drónaflug í Lúxemborg"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "ANA — Flugleiðsaga",
-    "description": "Flugleiðsöguþjónusta Lúxemborgar og upplýsingar um loftrými"
-   },
-   {
-    "title": "DAC — Algengar spurningar um dróna",
-    "description": "Algengar spurningar um drónareglur í Lúxemborg"
-   }
-  ],
-  "disclaimerText": "Athugaðu ávallt opinberar heimildir frá DAC og Geoportail.lu áður en þú flýgur. Þetta forrit er verkfæri — ekki lögheimild. Lúxemborg beitir EASA-reglunum með viðbótarkröfum á landsvísu.",
-  "sectionLabelRules": "GRUNNREGLUR (EASA OPINN FLOKKUR)",
-  "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
-  "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
-  "linksSheetTitle": "Loftrými og reglur — Lúxemborg",
-  "dronePilotCredentialName": "Fjarflugmannsleyfi"
- }
+  "meta": {
+    "sourceHash": "36d02a53cfd249d58006a295f9a59616c0e6c70d5da2bf039b877f35892a3057",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Að hámarki 120 m yfir jörðu (EASA opinn flokkur)",
+      "Skyldubundin A1/A3 netþjálfun — lágmarksaldur 14 (foreldri eða forráðamaður verður að ljúka skráningu fyrir ólögráða á aldrinum 14 og 15 ára).",
+      "Skyldubundin ábyrgðartrygging (skírteinisnúmer nauðsynlegt við skráningu)",
+      "Stýrða svæðið (CTR) við Luxembourg-Findel-flugvöll nær yfir stóran hluta landsins",
+      "Haltu drónanum ávallt innan sjónlínu (VLOS)",
+      "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
+      "Fylgdu Luxembourg-Findel CTR og landfræðilegu UAS-svæðunum sem birt eru á Geoportail.lu — eftir EASA-samræminguna gildir ekki lengur fast 5 km öryggissvæði",
+      "Að næturlagi krefjast mörg svæði (einkum í kringum Findel) sérstaks leyfis — athugaðu kröfurnar fyrir hvert svæði á drones.geoportail.lu.",
+      "Grand Ducal Palace, fangelsi og hersvæði: fyrirframheimild nauðsynleg — staðbundnir leikvangar og flugstaðir (Useldange, Noertrange): flug bannað."
+    ],
+    "importantNotes": [
+      "Skyldubundin trygging; skírteinisnúmer nauðsynlegt við skráningu",
+      "Stýrða svæðið (CTR) við Luxembourg-Findel-flugvöll nær yfir stóran hluta þessa litla lands",
+      "Nýja regluverkið á landsvísu (desember 2025) kveður á um refsiviðurlög — allt að 1 árs fangelsi og 5.000 € sekt — ef trygging er ekki tekin eða skráning ekki framkvæmd.",
+      "GDPR gildir þegar teknar eru persónugreinanlegar myndir"
+    ],
+    "primaryLinks": [
+      {
+        "title": "DAC — Drónareglur",
+        "description": "Opinberar reglur flugmálayfirvalda Lúxemborgar um dróna"
+      },
+      {
+        "title": "DAC — Skráðu þig sem rekstraraðili",
+        "description": "Skráning sem rekstraraðili fjarstýrðra loftfara (10 €/ári, viðurkennt í öllum ESB/EASA-löndum)"
+      },
+      {
+        "title": "Geoportail.lu — Drónakort",
+        "description": "Opinber landfræðigátt með upplýsingum um drónasvæði"
+      },
+      {
+        "title": "DAC — Yfirlit reglna",
+        "description": "Yfirlit yfir reglur um drónaflug í Lúxemborg"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "ANA — Flugleiðsaga",
+        "description": "Flugleiðsöguþjónusta Lúxemborgar og upplýsingar um loftrými"
+      },
+      {
+        "title": "DAC — Algengar spurningar um dróna",
+        "description": "Algengar spurningar um drónareglur í Lúxemborg"
+      }
+    ],
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir frá DAC og Geoportail.lu áður en þú flýgur. Þetta forrit er verkfæri — ekki réttarheimild. Lúxemborg beitir EASA-reglunum með viðbótarkröfum á landsvísu.",
+    "sectionLabelRules": "MIKILVÆGUSTU REGLUR (EASA OPINN FLOKKUR)",
+    "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
+    "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
+    "linksSheetTitle": "Loftrými og reglur — Lúxemborg",
+    "dronePilotCredentialName": "Fjarflugmannsleyfi"
+  }
 }

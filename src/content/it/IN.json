@@ -1,48 +1,48 @@
 {
- "meta": {
-  "sourceHash": "8723bef5a4524ad2ccd415d49676bf8a",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Verifica sempre le fonti ufficiali della DGCA e di DigitalSky prima di volare. Questa app è uno strumento, non un'autorità legale. L'India utilizza una piattaforma digitale obbligatoria per tutta la conformità sui droni.",
-  "sectionLabelRules": "REGOLE PRINCIPALI",
-  "sectionLabelPrimary": "FONTI UFFICIALI",
-  "sectionLabelSecondary": "RISORSE AGGIUNTIVE",
-  "linksSheetTitle": "Spazio aereo e regole — India",
-  "dronePilotCredentialName": "Certificato di pilota remoto",
-  "keyRules": [
-   "Sistema a zone rosse/gialle/verdi — verifica DigitalSky prima di ogni volo",
-   "Assicurazione obbligatoria per tutte le categorie tranne Nano",
-   "Certificato di pilota remoto (RPC) richiesto per uso commerciale o droni di peso superiore a 2 kg",
-   "Mantieni sempre il contatto visivo diretto (VLOS)",
-   "È severamente vietato volare nelle zone rosse senza autorizzazione speciale"
-  ],
-  "importantNotes": [
-   "La registrazione su DigitalSky è obbligatoria: i droni non registrati (tranne i Nano) rischiano la confisca",
-   "Le zone rosse comprendono aeroporti, aree militari, confini e siti sensibili",
-   "L'assicurazione è obbligatoria per i droni delle categorie Micro, Small e Medium"
-  ],
-  "primaryLinks": [
-   {
-    "title": "DigitalSky — Piattaforma DGCA",
-    "description": "Piattaforma obbligatoria per la registrazione dei droni, le autorizzazioni al volo e la verifica delle zone"
-   },
-   {
-    "title": "DGCA — Normativa sui droni",
-    "description": "Regole e circolari ufficiali sui droni della Direzione Generale dell'Aviazione Civile"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "DGCA — Certificato di pilota remoto",
-    "description": "Requisiti dell'RPC per uso commerciale o droni di peso superiore a 2 kg"
-   },
-   {
-    "title": "DigitalSky — Mappa delle zone dello spazio aereo",
-    "description": "Mappa delle zone rosse, gialle e verdi per tutta l'India"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Verifica sempre le fonti ufficiali della DGCA e di DigitalSky prima di volare. Questa app è uno strumento, non una fonte giuridicamente vincolante. L'India utilizza una piattaforma digitale obbligatoria per tutti gli adempimenti normativi relativi ai droni.",
+    "sectionLabelRules": "REGOLE PRINCIPALI",
+    "sectionLabelPrimary": "FONTI UFFICIALI",
+    "sectionLabelSecondary": "RISORSE AGGIUNTIVE",
+    "linksSheetTitle": "Spazio aereo e regole — India",
+    "dronePilotCredentialName": "Certificato di pilota remoto",
+    "keyRules": [
+      "DigitalSky suddivide lo spazio aereo in zone Green (permesso automatizzato immediato), Yellow (spazio aereo controllato, elaborazione automatizzata in ~15-30 min — comprende la fascia perimetrale degli aeroporti, indicativamente 8-12 km) e Red (soggette a restrizioni, con approvazione manuale obbligatoria). Controlla sempre DigitalSky prima di volare, perché i confini esatti delle zone vicino a uno specifico aeroporto possono differire da questo schema generale.",
+      "Assicurazione obbligatoria per tutte le categorie tranne Nano",
+      "Il Remote Pilot Certificate (RPC) è richiesto per l'uso commerciale dei droni Micro (250g-2kg) e di categoria superiore, ed è obbligatorio per tutti i droni della categoria Small (2-25 kg) e superiori, indipendentemente dallo scopo. I droni Nano (<250g) non richiedono mai un RPC, nemmeno per uso commerciale.",
+      "Ogni volo deve svolgersi in linea di vista: il drone deve rimanere sempre visibile a occhio nudo, senza binocolo o ausili simili, a meno che la DGCA non abbia concesso una specifica autorizzazione EVLOS/BVLOS.",
+      "È severamente vietato volare nelle zone Red senza un'autorizzazione speciale dell'autorità competente tramite DigitalSky."
+    ],
+    "importantNotes": [
+      "La registrazione su DigitalSky è obbligatoria per tutti i droni tranne i Nano (<250g), che non richiedono né registrazione né UIN. Volare con un drone non registrato per il quale la registrazione è obbligatoria comporta il rischio di confisca.",
+      "Le zone rosse comprendono aeroporti, aree militari, confini e siti sensibili",
+      "L'assicurazione è obbligatoria per i droni delle categorie Micro, Small e Medium"
+    ],
+    "primaryLinks": [
+      {
+        "title": "DigitalSky — Piattaforma DGCA",
+        "description": "Piattaforma obbligatoria per la registrazione dei droni, le autorizzazioni al volo e la verifica delle zone"
+      },
+      {
+        "title": "DGCA — Normativa sui droni",
+        "description": "Regole e circolari ufficiali sui droni della Direzione Generale dell'Aviazione Civile"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "DGCA — Certificato di pilota remoto",
+        "description": "Requisiti dell'RPC per uso commerciale o droni di peso superiore a 2 kg"
+      },
+      {
+        "title": "DigitalSky — Mappa delle zone dello spazio aereo",
+        "description": "Mappa delle zone rosse, gialle e verdi per tutta l'India"
+      }
+    ]
+  }
 }

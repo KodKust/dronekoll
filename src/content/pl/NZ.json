@@ -1,59 +1,59 @@
 {
- "meta": {
-  "sourceHash": "bf61742c347692384d38d2d8eb6348a5",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła CAANZ. Ta aplikacja jest narzędziem — a nie organem prawnym. Przepisy mogą ulec zmianie bez powiadomienia.",
-  "sectionLabelRules": "KLUCZOWE ZASADY",
-  "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
-  "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
-  "linksSheetTitle": "Przestrzeń powietrzna i zasady — Nowa Zelandia",
-  "dronePilotCredentialName": "Certyfikat Part 101/102",
-  "keyRules": [
-   "Maks. 120 m nad poziomem gruntu",
-   "Brak wymogu rejestracji lub licencji pilota dla lotów rekreacyjnych w ramach Part 101",
-   "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
-   "4 km od jakiegokolwiek lotniska (portu lotniczego, lądowiska dla śmigłowców, pasa startowego), o ile nie masz zezwolenia operatora",
-   "Wymagana zgoda właściciela nieruchomości przed lotem nad terenem prywatnym",
-   "Minimalna odległość 150 m od ssaków morskich (wielorybów, delfinów, fok) — Marine Mammals Protection Regulations 1992",
-   "Tereny objęte ochroną przyrody (DOC) wymagają zezwolenia przed lotem",
-   "Loty nocne dozwolone w ramach Part 101 z oświetleniem antykolizyjnym i przy zachowaniu zasięgu wzroku (zob. okólnik doradczy CAA AC101-1)",
-   "Nie lataj nad ludźmi bez ich zgody",
-   "Zawsze ustępuj pierwszeństwa wszystkim załogowym statkom powietrznym",
-   "Maksymalna masa drona 25 kg w ramach Part 101 — cięższe drony wymagają certyfikacji Part 102"
-  ],
-  "importantNotes": [
-   "Nowa Zelandia nie ma wymogu rejestracji ani licencji dla lotów rekreacyjnych w ramach Part 101 — ale wszystkie zasady nadal obowiązują. Ustawa o lotnictwie cywilnym z 2023 r. (w mocy od kwietnia 2025 r.) może w przyszłości wprowadzić rejestrację/Remote ID",
-   "Tereny DOC obejmują około jednej trzeciej Nowej Zelandii — zawsze sprawdzaj przed lotem na łonie przyrody",
-   "Zasada 150 m od ssaków morskich jest rygorystycznie egzekwowana — obejmuje wieloryby, delfiny i foki",
-   "Ubezpieczenie nie jest wyraźnie obowiązkowe, ale zdecydowanie zalecane"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAANZ — Zasady dotyczące dronów",
-    "description": "Oficjalne zasady i wytyczne dronowe Urzędu Lotnictwa Cywilnego dla Nowej Zelandii"
-   },
-   {
-    "title": "AirShare — Mapa przestrzeni powietrznej",
-    "description": "Mapa przestrzeni powietrznej w czasie rzeczywistym ze strefami kontrolowanymi, wnioskami o loty i alertami"
-   },
-   {
-    "title": "DOC — Zezwolenia na terenach chronionych",
-    "description": "Złóż wniosek o zezwolenie na loty nad terenami zarządzanymi przez Departament Ochrony Przyrody"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAANZ — Zasady Part 101",
-    "description": "Szczegółowe zasady Part 101 dla bezzałogowych statków powietrznych w Nowej Zelandii"
-   },
-   {
-    "title": "CAA NZ — Zasady dotyczące dronów",
-    "description": "Oficjalne przepisy i wytyczne dronowe Urzędu Lotnictwa Cywilnego"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "81f94aa9e46da24263d172cdcaa6b7c7",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła CAANZ. Ta aplikacja jest narzędziem — a nie organem prawnym. Przepisy mogą ulec zmianie bez powiadomienia.",
+    "sectionLabelRules": "KLUCZOWE ZASADY",
+    "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
+    "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
+    "linksSheetTitle": "Przestrzeń powietrzna i zasady — Nowa Zelandia",
+    "dronePilotCredentialName": "Certyfikat Part 101/102",
+    "keyRules": [
+      "Maksymalna wysokość wynosi 120 m (400 ft) nad poziomem gruntu, chyba że lot odbywa się na szczególnych warunkach określonych w CATI: 101-1, sekcja 2.5 (Part 101).",
+      "Brak wymogu rejestracji lub licencji pilota dla lotów rekreacyjnych w ramach Part 101",
+      "Przez cały czas musisz widzieć drona własnymi oczami, chyba że latasz w trybie FPV z obserwatorem wzrokowym albo działasz na podstawie zezwolenia BVLOS (CAA Part 101).",
+      "Zachowaj co najmniej 4 km od każdego lotniska lub lądowiska (portu lotniczego, lądowiska dla śmigłowców albo pasa startowego), chyba że masz zgodę jego operatora — sprawdź dokładną aktualnie obowiązującą odległość.",
+      "Wymagana zgoda właściciela nieruchomości przed lotem nad terenem prywatnym",
+      "Zachowaj co najmniej 150 m w poziomie od każdego punktu znajdującego się bezpośrednio nad ssakiem morskim (wielorybem, delfinem lub foką), gdy operujesz poniżej 600 m nad poziomem morza (Marine Mammals Protection Regulations 1992).",
+      "Loty nad terenami objętymi ochroną przyrody (parkami narodowymi, rezerwatami i parkami leśnymi) wymagają zezwolenia Department of Conservation (DOC).",
+      "Loty nocne są dozwolone w ramach Part 101 przy użyciu oświetlenia antykolizyjnego i z zachowaniem zasięgu wzroku (zob. CAA Advisory Circular AC101-1)",
+      "Nie lataj nad ludźmi bez ich zgody",
+      "Zawsze ustępuj pierwszeństwa wszystkim załogowym statkom powietrznym",
+      "W ramach Part 101 maksymalna masa drona wynosi 25 kg — cięższe drony oraz operacje, które nie spełniają warunków Part 101, wymagają certyfikacji Part 102."
+    ],
+    "importantNotes": [
+      "Nowa Zelandia nie wymaga rejestracji ani licencji przy rekreacyjnych lotach w ramach Part 101 — ale wszystkie zasady nadal obowiązują. Civil Aviation Act 2023 (obowiązuje od kwietnia 2025 r.) może w przyszłości wprowadzić rejestrację/Remote ID",
+      "Tereny DOC objęte ochroną przyrody zajmują około jednej trzeciej Nowej Zelandii — zawsze sprawdzaj zasady przed lotem na obszarach przyrodniczych.",
+      "Zasada 150 m dotycząca ssaków morskich jest rygorystycznie egzekwowana i obejmuje wieloryby, delfiny oraz foki podczas lotów poniżej 600 m nad poziomem morza.",
+      "Ubezpieczenie nie jest wyraźnie obowiązkowe, ale zdecydowanie zalecane"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAANZ — Zasady dotyczące dronów",
+        "description": "Oficjalne zasady i wytyczne dronowe Urzędu Lotnictwa Cywilnego dla Nowej Zelandii"
+      },
+      {
+        "title": "AirShare — Mapa przestrzeni powietrznej",
+        "description": "Mapa przestrzeni powietrznej w czasie rzeczywistym ze strefami kontrolowanymi, wnioskami o loty i alertami"
+      },
+      {
+        "title": "DOC — Zezwolenia na terenach chronionych",
+        "description": "Złóż wniosek o zezwolenie na loty nad terenami zarządzanymi przez Departament Ochrony Przyrody"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAANZ — Zasady Part 101",
+        "description": "Szczegółowe zasady Part 101 dla bezzałogowych statków powietrznych w Nowej Zelandii"
+      },
+      {
+        "title": "CAA NZ — Zasady dotyczące dronów",
+        "description": "Oficjalne przepisy i wytyczne dronowe Urzędu Lotnictwa Cywilnego"
+      }
+    ]
+  }
 }

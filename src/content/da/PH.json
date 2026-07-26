@@ -1,54 +1,54 @@
 {
- "meta": {
-  "sourceHash": "eaa7abf236bd1a6fbe4e339875dc13bc",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Tjek altid officielle CAAP-kilder, før du flyver. Denne app er et værktøj — ikke en juridisk myndighed. Reglerne kan ændre sig uden varsel.",
-  "sectionLabelRules": "VIGTIGSTE REGLER",
-  "sectionLabelPrimary": "OFFICIELLE KILDER",
-  "sectionLabelSecondary": "YDERLIGERE RESSOURCER",
-  "linksSheetTitle": "Luftrum og regler — Filippinerne",
-  "dronePilotCredentialName": "RPA Controller-certifikat",
-  "keyRules": [
-   "Maksimalt 400 ft (122 m) over jorden",
-   "Hold altid dronen inden for synsvidde (VLOS)",
-   "Registrering påkrævet for AL kommerciel dronebrug (uanset vægt); ikke-kommercielle droner registreres kun ved 7 kg og derover jf. CAAP PCAR Part 11",
-   "10 km fra enhver lufthavn — håndhæves strengt",
-   "30 m minimumsafstand til uinvolverede personer",
-   "Ingen natflyvning uden særlig CAAP-tilladelse",
-   "RPA Controller Certificate påkrævet til kommerciel brug eller droner over 7 kg (gyldigt i 5 år)",
-   "UAS Operator Certificate påkrævet til kommercielle operationer (gyldigt i 3 år)",
-   "Forsikring lovpligtig for kommercielle operationer",
-   "Vig altid for alle bemandede luftfartøjer"
-  ],
-  "importantNotes": [
-   "10 km-forbudszonen omkring lufthavne er strengere end i de fleste lande",
-   "Kommercielle operatører skal have både RPA Controller Certificate (5 år) og UAS Operator Certificate (3 år)",
-   "Natflyvning kræver en særlig CAAP-tilladelse — er ikke tilladt som standard",
-   "Forsikring er lovpligtig for alle kommercielle droneoperationer"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAAP — RPAS-regler",
-    "description": "Officielle dronebestemmelser fra Civil Aviation Authority of the Philippines"
-   },
-   {
-    "title": "CAAP — Hovedportal",
-    "description": "Hjemmeside for Civil Aviation Authority of the Philippines"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAAP — UA-registreringsportal",
-    "description": "Registrer din drone i CAAP's UA-register"
-   },
-   {
-    "title": "CAAP — Kommerciel licensering",
-    "description": "Krav til RPA Controller Certificate og UAS Operator Certificate"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "e85b5f3541d893697ea6591ad6e2d83b",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Tjek altid officielle CAAP-kilder, før du flyver. Denne app er et værktøj — ikke en juridisk myndighed. Reglerne kan ændre sig uden varsel.",
+    "sectionLabelRules": "VIGTIGSTE REGLER",
+    "sectionLabelPrimary": "OFFICIELLE KILDER",
+    "sectionLabelSecondary": "YDERLIGERE RESSOURCER",
+    "linksSheetTitle": "Luftrum og regler — Filippinerne",
+    "dronePilotCredentialName": "RPA Controller-certifikat",
+    "keyRules": [
+      "Maksimalt 400 ft (122 m) over jorden",
+      "Du skal til enhver tid have direkte visuel kontakt med dronen uden hjælpemidler (briller eller kontaktlinser er tilladt). Flyvning med FPV-briller er kun tilladt med en visuel observatør, der opretholder VLOS; flyvning ud over synsvidde kræver tilladelse fra CAAP (PCAR Part 11).",
+      "Registrering påkrævet for AL kommerciel dronebrug (uanset vægt); ikke-kommercielle droner registreres kun ved 7 kg og derover jf. CAAP PCAR Part 11",
+      "Hold mindst 10 km afstand fra enhver lufthavn — denne buffer blev udvidet via CAAP Memorandum Circular 026-2025 efter observationer af droner nær NAIA (Manila) i slutningen af 2024/begyndelsen af 2025 og håndhæves strengt.",
+      "30 m minimumsafstand til uinvolverede personer",
+      "Natflyvning kræver en særlig CAAP-tilladelse og korrekt belysning på dronen — det er ikke tilladt som standard.",
+      "RPA Controller Certificate påkrævet til kommerciel brug eller droner over 7 kg (gyldigt i 5 år)",
+      "Kommercielle operationer kræver et UAS Operator Certificate (gyldigt i 3 år) plus et Remote Pilot License til piloten, som kræves ved kommerciel brug eller for droner på 7 kg eller derover, også når de flyves rekreativt.",
+      "Ansvarsforsikring kræves som en del af processen for UAS Operator Certificate ved kommercielle operationer.",
+      "Vig altid for alle bemandede luftfartøjer"
+    ],
+    "importantNotes": [
+      "Forbudszonen på 10 km omkring lufthavne (udvidet i 2025 via MC 026-2025) er strengere end de typiske bufferzoner på 3-9 km i de fleste lande.",
+      "Kommercielle operatører skal have både RPA Controller Certificate (5 år) og UAS Operator Certificate (3 år)",
+      "Natflyvning er ikke tilladt som standard — du skal have en særlig CAAP-tilladelse og korrekt belysning på dronen.",
+      "Ansvarsforsikring er obligatorisk for alle kommercielle droneoperationer som en del af processen for Operator Certificate."
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAAP — RPAS-regler",
+        "description": "Officielle dronebestemmelser fra Civil Aviation Authority of the Philippines"
+      },
+      {
+        "title": "CAAP — Hovedportal",
+        "description": "Hjemmeside for Civil Aviation Authority of the Philippines"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAAP — UA-registreringsportal",
+        "description": "Registrer din drone i CAAP's UA-register"
+      },
+      {
+        "title": "CAAP — Kommerciel licensering",
+        "description": "Krav til RPA Controller Certificate og UAS Operator Certificate"
+      }
+    ]
+  }
 }

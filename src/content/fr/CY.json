@@ -1,63 +1,63 @@
 {
- "meta": {
-  "sourceHash": "a1e69adb928a29b23e35f851c7f189c239b934c116c4c5c3bb8ff4997785f369",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Maximum 120 m au-dessus du sol (catégorie ouverte EASA)",
-   "Enregistrement comme exploitant d'UAS (15 € / 3 ans) si le drone pèse 250 g ou plus ou dispose d'une caméra",
-   "La formation en ligne A1/A3 est requise — âge minimum 16 ans",
-   "Les vols de nuit sont autorisés dans le cadre des exigences de base de l'AESA pour la catégorie ouverte lorsque le feu clignotant vert requis est utilisé, sauf si une règle géographique ou nationale en vigueur impose une condition plus stricte.",
-   "Zone de sécurité de 8 km autour des aéroports",
-   "Distance minimale de 1 km des zones résidentielles (s'applique principalement à la catégorie A3 — exigences plus strictes pour les drones plus lourds)",
-   "Gardez toujours une vue directe (VLOS) sur le drone",
-   "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
-   "Chypre du Nord (RTCN) : juridiction distincte — règles différentes",
-   "Zone tampon de l'ONU : interdiction totale de vol"
-  ],
-  "importantNotes": [
-   "Les vols de nuit sont autorisés dans le cadre des exigences de base de l'AESA pour la catégorie ouverte lorsque le feu clignotant vert requis est utilisé, sauf si une règle géographique ou nationale en vigueur impose une condition plus stricte.",
-   "Une distance d'un kilomètre des zones résidentielles est très restrictive sur une petite île",
-   "Les zones de sécurité de 8 kilomètres autour des aéroports couvrent une grande partie de l'île",
-   "Chypre du Nord (RTCN) est une juridiction distincte avec des règles différentes",
-   "La zone tampon de l'ONU est une zone d'interdiction de vol stricte"
-  ],
-  "primaryLinks": [
-   {
-    "title": "DCAD — Réglementation des drones",
-    "description": "Réglementation officielle des drones du Département de l'aviation civile de Chypre"
-   },
-   {
-    "title": "DCAD — Enregistrement d'exploitant",
-    "description": "Enregistrement comme télépilote d'UAS (15 € / 3 ans, valable dans tous les pays de l'UE/EASA)"
-   },
-   {
-    "title": "drones.gov.cy — Carte des géozones",
-    "description": "Carte officielle des zones géographiques pour les vols de drones à Chypre"
-   },
-   {
-    "title": "DCAD — Aperçu des règles",
-    "description": "Aperçu de la réglementation des vols de drones à Chypre"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "DCAD — Questions fréquentes sur les drones",
-    "description": "Questions fréquentes sur la réglementation des drones à Chypre"
-   },
-   {
-    "title": "Hermes Airports — Informations",
-    "description": "Informations sur les aéroports de Larnaca et de Paphos"
-   }
-  ],
-  "disclaimerText": "Avant chaque vol, vérifiez toujours les sources officielles du DCA Chypre et de drones.gov.cy. Cette application est un outil, pas une autorité juridique. Chypre suit la réglementation EASA avec des ajouts nationaux stricts, comme l'interdiction des vols de nuit.",
-  "sectionLabelRules": "RÈGLES DE BASE (CATÉGORIE OUVERTE EASA)",
-  "sectionLabelPrimary": "SOURCES OFFICIELLES",
-  "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",
-  "linksSheetTitle": "Espace aérien et réglementation — Chypre",
-  "dronePilotCredentialName": "Certificat de télépilote"
- }
+  "meta": {
+    "sourceHash": "a1e69adb928a29b23e35f851c7f189c239b934c116c4c5c3bb8ff4997785f369",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Altitude maximale : 120 m au-dessus du sol (catégorie ouverte EASA)",
+      "Enregistrement comme exploitant d'UAS (15 € / 3 ans) si le drone pèse 250 g ou plus ou dispose d'une caméra",
+      "La formation en ligne A1/A3 est requise — âge minimum 16 ans",
+      "Les vols de nuit sont autorisés dans le cadre des exigences de base de l'EASA pour la catégorie ouverte lorsque le feu vert clignotant requis est utilisé, sauf si une zone géographique applicable ou une règle nationale impose une condition plus stricte.",
+      "Zone de sécurité de 8 km autour des aéroports",
+      "Distance minimale de 1 km des zones résidentielles (s'applique principalement à la catégorie A3 — exigences plus strictes pour les drones plus lourds)",
+      "Gardez toujours le drone en vue directe (VLOS)",
+      "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
+      "Chypre du Nord (TRNC) : juridiction distincte — règles différentes",
+      "UN No-Fly Zone : interdiction totale de vol"
+    ],
+    "importantNotes": [
+      "Les vols de nuit sont autorisés dans le cadre des exigences de base de l'EASA pour la catégorie ouverte lorsque le feu vert clignotant requis est utilisé, sauf si une zone géographique applicable ou une règle nationale impose une condition plus stricte.",
+      "L'obligation de rester à 1 km des zones résidentielles est très restrictive sur une petite île",
+      "Les zones de sécurité de 8 kilomètres autour des aéroports couvrent une grande partie de l'île",
+      "Chypre du Nord (TRNC) est une juridiction distincte avec des règles différentes",
+      "La zone appelée « UN Dead Zone » est une zone d'interdiction de vol stricte"
+    ],
+    "primaryLinks": [
+      {
+        "title": "DCAD — Réglementation des drones",
+        "description": "Réglementation officielle des drones du Département de l'aviation civile de Chypre"
+      },
+      {
+        "title": "DCAD — Enregistrement d'exploitant",
+        "description": "Enregistrement comme télépilote d'UAS (15 € / 3 ans, valable dans tous les pays de l'UE/EASA)"
+      },
+      {
+        "title": "drones.gov.cy — Carte des géozones",
+        "description": "Carte officielle des zones géographiques pour les vols de drones à Chypre"
+      },
+      {
+        "title": "DCAD — Aperçu des règles",
+        "description": "Aperçu de la réglementation des vols de drones à Chypre"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "DCAD — Questions fréquentes sur les drones",
+        "description": "Questions fréquentes sur la réglementation des drones à Chypre"
+      },
+      {
+        "title": "Hermes Airports — Informations",
+        "description": "Informations sur les aéroports de Larnaca et de Paphos"
+      }
+    ],
+    "disclaimerText": "Avant chaque vol, vérifiez toujours les sources officielles de DCA Cyprus et de drones.gov.cy. Cette application est un outil, pas une autorité juridique. Chypre suit la réglementation EASA avec des ajouts nationaux stricts, comme l'interdiction des vols de nuit.",
+    "sectionLabelRules": "RÈGLES DE BASE (CATÉGORIE OUVERTE EASA)",
+    "sectionLabelPrimary": "SOURCES OFFICIELLES",
+    "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",
+    "linksSheetTitle": "Espace aérien et réglementation — Chypre",
+    "dronePilotCredentialName": "Certificat de télépilote"
+  }
 }

@@ -1,48 +1,48 @@
 {
- "meta": {
-  "sourceHash": "8723bef5a4524ad2ccd415d49676bf8a",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Tjek altid officielle DGCA- og DigitalSky-kilder, før du flyver. Denne app er et værktøj — ikke en juridisk myndighed. Indien bruger en obligatorisk digital platform til al droneoverholdelse.",
-  "sectionLabelRules": "VIGTIGSTE REGLER",
-  "sectionLabelPrimary": "OFFICIELLE KILDER",
-  "sectionLabelSecondary": "YDERLIGERE RESSOURCER",
-  "linksSheetTitle": "Luftrum og regler — Indien",
-  "dronePilotCredentialName": "Fjernpilotcertifikat",
-  "keyRules": [
-   "Rød/gul/grøn zonesystem — tjek DigitalSky før hver flyvning",
-   "Forsikring obligatorisk for alle kategorier undtagen Nano",
-   "Remote Pilot Certificate (RPC) påkrævet til kommerciel brug eller droner over 2 kg",
-   "Hold altid dronen inden for synsvidde (VLOS)",
-   "Flyvning i røde zoner er strengt forbudt uden særlig tilladelse"
-  ],
-  "importantNotes": [
-   "DigitalSky-registrering er obligatorisk — uregistrerede droner (undtagen Nano) risikerer konfiskation",
-   "Røde zoner omfatter lufthavne, militærområder, grænser og følsomme steder",
-   "Forsikring er obligatorisk for droner i kategorierne Micro, Small og Medium"
-  ],
-  "primaryLinks": [
-   {
-    "title": "DigitalSky — DGCA-platform",
-    "description": "Obligatorisk platform til droneregistrering, flyvetilladelser og zonetjek"
-   },
-   {
-    "title": "DGCA — Droneregler",
-    "description": "Officielle droneregler og cirkulærer fra Directorate General of Civil Aviation"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "DGCA — Fjernpilotcertifikat",
-    "description": "Krav til RPC ved kommerciel brug eller droner over 2 kg"
-   },
-   {
-    "title": "DigitalSky — Luftrumszonekort",
-    "description": "Kort over røde, gule og grønne zoner for hele Indien"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Tjek altid officielle DGCA- og DigitalSky-kilder, før du flyver. Denne app er et værktøj — ikke en juridisk myndighed. Indien bruger en obligatorisk digital platform til overholdelse af alle droneregler.",
+    "sectionLabelRules": "VIGTIGSTE REGLER",
+    "sectionLabelPrimary": "OFFICIELLE KILDER",
+    "sectionLabelSecondary": "YDERLIGERE RESSOURCER",
+    "linksSheetTitle": "Luftrum og regler — Indien",
+    "dronePilotCredentialName": "Fjernpilotcertifikat",
+    "keyRules": [
+      "DigitalSky opdeler luftrummet i Green-zoner (øjeblikkelig automatisk tilladelse), Yellow-zoner (kontrolleret luftrum, ~15-30 min automatisk behandling — dette omfatter området omkring lufthavne, omtrent 8-12 km) og Red-zoner (restriktionsområder, manuel godkendelse påkrævet) — tjek altid DigitalSky før flyvning, da de præcise zonegrænser ved en bestemt lufthavn kan afvige fra dette generelle mønster.",
+      "Forsikring obligatorisk for alle kategorier undtagen Nano",
+      "Remote Pilot Certificate (RPC) kræves ved kommerciel brug af Micro-droner (250g-2kg) og større droner og er obligatorisk for alle droner i Small-kategorien (2-25 kg) og derover uanset formål. Nano-droner (<250g) kræver aldrig RPC, heller ikke ved kommerciel brug.",
+      "Enhver flyvning skal foregå inden for synsvidde — dronen skal hele tiden kunne ses med det blotte øje uden kikkert eller lignende hjælpemidler — medmindre DGCA har givet en specifik EVLOS/BVLOS-godkendelse.",
+      "Flyvning i Red-zoner er strengt forbudt uden særlig tilladelse fra den relevante myndighed via DigitalSky."
+    ],
+    "importantNotes": [
+      "Registrering i DigitalSky er obligatorisk for alle droner undtagen Nano (<250g), som hverken kræver registrering eller UIN. Flyvning med en uregistreret drone, der er registreringspligtig, medfører risiko for konfiskation.",
+      "Røde zoner omfatter lufthavne, militærområder, grænser og følsomme steder",
+      "Forsikring er obligatorisk for droner i kategorierne Micro, Small og Medium"
+    ],
+    "primaryLinks": [
+      {
+        "title": "DigitalSky — DGCA-platform",
+        "description": "Obligatorisk platform til droneregistrering, flyvetilladelser og zonetjek"
+      },
+      {
+        "title": "DGCA — Droneregler",
+        "description": "Officielle droneregler og cirkulærer fra Directorate General of Civil Aviation"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "DGCA — Fjernpilotcertifikat",
+        "description": "Krav til RPC ved kommerciel brug eller droner over 2 kg"
+      },
+      {
+        "title": "DigitalSky — Luftrumszonekort",
+        "description": "Kort over røde, gule og grønne zoner for hele Indien"
+      }
+    ]
+  }
 }

@@ -1,67 +1,67 @@
 {
- "meta": {
-  "sourceHash": "4c4750f0c88fe4d2f7dcefb940ffd9a0",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Athugaðu ávallt opinberar heimildir IAA áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild. Írland fylgir EASA-reglunum. Norður-Írland fylgir reglum UK CAA — sérstakar reglur gilda.",
-  "sectionLabelRules": "HELSTU REGLUR (EASA OPINN FLOKKUR)",
-  "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
-  "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
-  "linksSheetTitle": "Loftrými og reglur — Írland",
-  "dronePilotCredentialName": "Hæfnisvottorð flugmanns",
-  "keyRules": [
-   "Að hámarki 120 m yfir jörðu (EASA opinn flokkur)",
-   "Skráðu þig sem rekstraraðili fjarstýrðra loftfara ef dróninn er 250 g eða þyngri eða er með myndavél (41 €, gildir í 2 ár)",
-   "A1/A3 netþjálfun nauðsynleg (51 €, gildir í 5 ár) — lágmarksaldur 16",
-   "A2-vottorð fyrir rekstur nálægt fólki (próf + verklegt próf hjá viðurkenndum þjálfunaraðila)",
-   "Írsk EASA-skráning gildir í öllum aðildarríkjum ESB",
-   "Haltu ávallt sjónlínu (VLOS) — að hámarki 300 m lárétt",
-   "Að minnsta kosti 30 m frá fólki, mannfjölda, ökutækjum og byggingum",
-   "Að minnsta kosti 5 km frá hvaða flugvelli, flugbraut eða þyrlupalli sem er",
-   "Phoenix Park (Dublin): algjört drónabann",
-   "Þjóðgarðar krefjast leyfis frá NPWS — flestir banna dróna á varptíma"
-  ],
-  "importantNotes": [
-   "Lögreglan (Gardaí) getur lagt á sektir á staðnum, 500 € eða meira, fyrir brot (frá ágúst 2025)",
-   "Norður-Írland er hluti af Bretlandi — algjörlega ólíkar reglur (UK CAA, ekki IAA/EASA)",
-   "5 km svæðið við Dublin-flugvöll nær yfir umtalsverðan hluta borgarinnar",
-   "Að fljúga án heimildar á rauðum svæðum er refsivert brot",
-   "GDPR gildir þegar teknar eru persónugreinanlegar myndir — þú ert ábyrgðaraðili gagna"
-  ],
-  "primaryLinks": [
-   {
-    "title": "IAA — Drónareglur",
-    "description": "Opinber miðstöð Flugmálastjórnar Írlands fyrir drónareglur og úrræði"
-   },
-   {
-    "title": "IAA — Skráðu þig sem rekstraraðili",
-    "description": "Skráðu þig sem rekstraraðili fjarstýrðra loftfara (40 €, gildir í 2 ár, gildir í öllum ESB/EASA-löndum)"
-   },
-   {
-    "title": "IAA — Kort af landfræðisvæðum",
-    "description": "Opinbert kort af rauðum/gulum/grænum svæðum — athugaðu fyrir hvert flug"
-   },
-   {
-    "title": "SafeDrone — Loftrýmiskort",
-    "description": "Leitaðu eftir staðsetningu eða Eircode að loftrýmistakmörkunum og svæðisupplýsingum"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "IAA — Algengar spurningar um öryggi og reglur",
-    "description": "Algengar spurningar um írskar drónareglur"
-   },
-   {
-    "title": "Citizens Information — Drónaeign",
-    "description": "Leiðbeining á einföldu máli um drónaeign og reglur á Írlandi"
-   },
-   {
-    "title": "UAAI — Loftrýmisúrræði",
-    "description": "Loftrýmisúrræði og skipulagsverkfæri frá samfélaginu"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "004d6fde4894978be0e705543cec7048",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir IAA áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild. Írland fylgir EASA-reglunum. Norður-Írland fylgir reglum UK CAA — sérstakar reglur gilda.",
+    "sectionLabelRules": "HELSTU REGLUR (EASA OPINN FLOKKUR)",
+    "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
+    "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
+    "linksSheetTitle": "Loftrými og reglur — Írland",
+    "dronePilotCredentialName": "Hæfnisvottorð flugmanns",
+    "keyRules": [
+      "Í opna flokknum er hámarkshæðin 120 m, mæld sem fjarlægðin að næsta punkti á yfirborði jarðar — ekki einfaldlega beint niður, þannig að við brekku getur jörðin við hliðina á þér einnig talist með. Innan 50 m frá háu manngerðu mannvirki (yfir 105 m) getur ábyrgðaraðili þess óskað eftir heimild til að fljúga allt að 15 m yfir hæð mannvirkisins.",
+      "Þú verður að skrá þig sem drónarekstraraðila ef dróninn vegur 250 g eða meira (eða getur miðlað meira en 80 J höggorku) — þetta gildir einnig um leikföng. Undir 250 g er skráning samt nauðsynleg ef dróninn er með skynjara sem getur safnað persónuupplýsingum, nema hann teljist leikfang samkvæmt EU Toy Safety Directive. Kröfur um þjálfun eða skírteini flugmanns eru aðskildar og ráðast af flokksmerkingu drónans og undirflokki.",
+      "Á Írlandi verður þú að vera að minnsta kosti 16 ára til að skrá þig sem drónarekstraraðila. Foreldri eða forráðamaður getur skráð sig fyrir hönd yngri einstaklings, sem má þá aðeins fljúga undir beinu eftirliti þess fullorðna. A1/A3 netþjálfun og próf eru nauðsynleg til að fljúga sjálfstætt í opna flokknum.",
+      "A2-vottorð fyrir rekstur nálægt fólki (próf + verklegt próf hjá viðurkenndum þjálfunaraðila)",
+      "Írsk EASA-skráning gildir í öllum aðildarríkjum ESB",
+      "Í opna flokknum skaltu halda drónanum innan eigin sjónlínu án hjálpartækja (gleraugu og augnlinsur eru í lagi; sjónauki eða skjár telst ekki með) — eða fljúga með aðstoð áhorfanda og viðhalda skýrum og skilvirkum samskiptum ykkar á milli allan tímann, þannig að þið getið saman fylgst með loftrýminu og forðast árekstra. Follow-me mode er sérstök undantekning og er heimil allt að 50 m frá flugmanninum.",
+      "Að minnsta kosti 30 m frá fólki, mannfjölda, ökutækjum og byggingum",
+      "Engin ein fjarlægð frá flugvöllum gildir um allt ESB. Takmarkanir nálægt flugvöllum eru birtar sem landfræðileg svæði (Article 15), en lögun og stærð þeirra er mismunandi eftir flugvöllum. Áður en þú flýgur nálægt flugvelli, flugstað eða þyrlupalli skaltu athuga opinbert drónasvæðakort landsins; flug innan stýrðs svæðis (CTR) krefst að jafnaði fyrirframheimildar frá flugumferðarstjórn.",
+      "Phoenix Park (Dublin): algjört drónabann",
+      "Þjóðgarðar krefjast leyfis frá NPWS — flestir banna dróna á varptíma"
+    ],
+    "importantNotes": [
+      "Lögreglan (Gardaí) getur lagt á sektir á staðnum, 500 € eða meira, fyrir brot (frá ágúst 2025)",
+      "Norður-Írland er hluti af Bretlandi — algjörlega ólíkar reglur (UK CAA, ekki IAA/EASA)",
+      "Takmörkunarsvæði umhverfis flugvelli eru mismunandi að stærð; svæðið umhverfis Dublin Airport nær yfir verulegan hluta borgarinnar. Athugaðu opinbera írska drónakortið áður en þú flýgur nálægt flugvelli.",
+      "Að fljúga án heimildar á rauðum svæðum er refsivert brot",
+      "GDPR gildir þegar teknar eru persónugreinanlegar myndir — þú ert ábyrgðaraðili gagna"
+    ],
+    "primaryLinks": [
+      {
+        "title": "IAA — Drónareglur",
+        "description": "Opinber miðstöð Flugmálastjórnar Írlands fyrir drónareglur og úrræði"
+      },
+      {
+        "title": "IAA — Skráðu þig sem rekstraraðili",
+        "description": "Skráðu þig sem rekstraraðili fjarstýrðra loftfara (40 €, gildir í 2 ár, gildir í öllum ESB/EASA-löndum)"
+      },
+      {
+        "title": "IAA — Kort af landfræðisvæðum",
+        "description": "Opinbert kort af rauðum/gulum/grænum svæðum — athugaðu fyrir hvert flug"
+      },
+      {
+        "title": "SafeDrone — Loftrýmiskort",
+        "description": "Leitaðu eftir staðsetningu eða Eircode að loftrýmistakmörkunum og svæðisupplýsingum"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "IAA — Algengar spurningar um öryggi og reglur",
+        "description": "Algengar spurningar um írskar drónareglur"
+      },
+      {
+        "title": "Citizens Information — Drónaeign",
+        "description": "Leiðbeining á einföldu máli um drónaeign og reglur á Írlandi"
+      },
+      {
+        "title": "UAAI — Loftrýmisúrræði",
+        "description": "Loftrýmisúrræði og skipulagsverkfæri frá samfélaginu"
+      }
+    ]
+  }
 }

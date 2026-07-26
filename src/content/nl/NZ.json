@@ -1,59 +1,59 @@
 {
- "meta": {
-  "sourceHash": "bf61742c347692384d38d2d8eb6348a5",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Raadpleeg altijd de officiële bronnen van de CAANZ voordat je vliegt. Deze app is een hulpmiddel — geen juridische autoriteit. De regels kunnen zonder voorafgaande kennisgeving wijzigen.",
-  "sectionLabelRules": "BELANGRIJKSTE REGELS",
-  "sectionLabelPrimary": "OFFICIËLE BRONNEN",
-  "sectionLabelSecondary": "AANVULLENDE HULPBRONNEN",
-  "linksSheetTitle": "Luchtruim en regels — Nieuw-Zeeland",
-  "dronePilotCredentialName": "Part 101/102-certificaat",
-  "keyRules": [
-   "Max. 120 m boven de grond",
-   "Geen registratie of pilotenlicentie vereist voor recreatief vliegen onder Part 101",
-   "Houd de drone altijd binnen direct zicht (VLOS)",
-   "4 km van elk luchtvaartterrein (luchthaven, helihaven, landingsbaan) tenzij je toestemming hebt van de exploitant",
-   "Toestemming van de grondeigenaar vereist voordat je boven privéterrein vliegt",
-   "Minimale afstand van 150 m tot zeezoogdieren (walvissen, dolfijnen, zeehonden) — Marine Mammals Protection Regulations 1992",
-   "Natuurbeheergrond (DOC) vereist een vergunning voordat je vliegt",
-   "Nachtvluchten toegestaan onder Part 101 met anti-botsingsverlichting en direct zicht (zie CAA Advisory Circular AC101-1)",
-   "Vlieg niet boven mensen zonder hun toestemming",
-   "Geef te allen tijde voorrang aan alle bemande luchtvaartuigen",
-   "Maximaal dronegewicht 25 kg onder Part 101 — zwaardere drones vereisen Part 102-certificering"
-  ],
-  "importantNotes": [
-   "Nieuw-Zeeland kent geen registratie- of licentieplicht voor recreatief vliegen onder Part 101 — maar alle regels blijven gelden. De Civil Aviation Act 2023 (van kracht april 2025) kan in de toekomst registratie/Remote ID invoeren",
-   "DOC-grond beslaat ruwweg een derde van Nieuw-Zeeland — controleer dit altijd voordat je in de natuur vliegt",
-   "De 150 m-regel voor zeezoogdieren wordt strikt gehandhaafd — omvat walvissen, dolfijnen en zeehonden",
-   "Verzekering is niet uitdrukkelijk verplicht, maar wordt sterk aanbevolen"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAANZ — Droneregels",
-    "description": "Officiële droneregels en richtlijnen van de burgerluchtvaartautoriteit voor Nieuw-Zeeland"
-   },
-   {
-    "title": "AirShare — Luchtruimkaart",
-    "description": "Realtime-luchtruimkaart met gecontroleerde zones, vluchtaanvragen en waarschuwingen"
-   },
-   {
-    "title": "DOC — Vergunningen voor natuurbeheergrond",
-    "description": "Vraag een vergunning aan om te vliegen op grond die wordt beheerd door het Department of Conservation"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAANZ — Part 101-regels",
-    "description": "Gedetailleerde Part 101-regels voor onbemande luchtvaartuigen in Nieuw-Zeeland"
-   },
-   {
-    "title": "CAA NZ — Droneregels",
-    "description": "Officiële droneregelgeving en richtlijnen van de burgerluchtvaartautoriteit"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "81f94aa9e46da24263d172cdcaa6b7c7",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Raadpleeg altijd de officiële bronnen van de CAANZ voordat je vliegt. Deze app is een hulpmiddel — geen juridische autoriteit. De regels kunnen zonder voorafgaande kennisgeving wijzigen.",
+    "sectionLabelRules": "BELANGRIJKSTE REGELS",
+    "sectionLabelPrimary": "OFFICIËLE BRONNEN",
+    "sectionLabelSecondary": "AANVULLENDE HULPBRONNEN",
+    "linksSheetTitle": "Luchtruim en regels — Nieuw-Zeeland",
+    "dronePilotCredentialName": "Part 101/102-certificaat",
+    "keyRules": [
+      "De maximale hoogte is 120 m (400 ft) boven de grond, tenzij je vliegt onder de specifieke voorwaarden in CATI: 101-1 section 2.5 (Part 101).",
+      "Geen registratie of pilotenlicentie vereist voor recreatief vliegen onder Part 101",
+      "Je moet de drone te allen tijde met je eigen ogen kunnen zien, tenzij je FPV vliegt met een visuele waarnemer of opereert met een BVLOS-toestemming (CAA Part 101).",
+      "Blijf ten minste 4 km verwijderd van elk luchtvaartterrein (luchthaven, helikopterplatform, landingsbaan), tenzij je toestemming hebt van de exploitant van het luchtvaartterrein — controleer de exacte actuele afstand.",
+      "Toestemming van de grondeigenaar vereist voordat je boven privéterrein vliegt",
+      "Blijf bij vluchten onder 600 m boven zeeniveau ten minste 150 m horizontaal verwijderd van elk punt direct boven een zeezoogdier (walvissen, dolfijnen, zeehonden) (Marine Mammals Protection Regulations 1992).",
+      "Voor vliegen op natuurbeheerterreinen (nationale parken, reservaten, bosparken) is een vergunning van het Department of Conservation (DOC) vereist.",
+      "Nachtvluchten toegestaan onder Part 101 met anti-botsingsverlichting en direct zicht (zie CAA Advisory Circular AC101-1)",
+      "Vlieg niet boven mensen zonder hun toestemming",
+      "Geef te allen tijde voorrang aan alle bemande luchtvaartuigen",
+      "Het maximale dronegewicht onder Part 101 is 25 kg — zwaardere drones, of operaties die niet aan de voorwaarden van Part 101 kunnen voldoen, vereisen Part 102-certificering."
+    ],
+    "importantNotes": [
+      "Nieuw-Zeeland kent geen registratie- of licentieplicht voor recreatief vliegen onder Part 101 — maar alle regels blijven gelden. De Civil Aviation Act 2023 (van kracht april 2025) kan in de toekomst registratie/Remote ID invoeren",
+      "Door DOC beheerde natuurgebieden beslaan ongeveer een derde van Nieuw-Zeeland — controleer dit altijd voordat je in natuurgebieden vliegt.",
+      "De 150 m-regel voor zeezoogdieren wordt strikt gehandhaafd en geldt voor walvissen, dolfijnen en zeehonden wanneer je onder 600 m boven zeeniveau opereert.",
+      "Verzekering is niet uitdrukkelijk verplicht, maar wordt sterk aanbevolen"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAANZ — Droneregels",
+        "description": "Officiële droneregels en richtlijnen van de burgerluchtvaartautoriteit voor Nieuw-Zeeland"
+      },
+      {
+        "title": "AirShare — Luchtruimkaart",
+        "description": "Realtime-luchtruimkaart met gecontroleerde zones, vluchtaanvragen en waarschuwingen"
+      },
+      {
+        "title": "DOC — Vergunningen voor natuurbeheergrond",
+        "description": "Vraag een vergunning aan om te vliegen op grond die wordt beheerd door het Department of Conservation"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAANZ — Part 101-regels",
+        "description": "Gedetailleerde Part 101-regels voor onbemande luchtvaartuigen in Nieuw-Zeeland"
+      },
+      {
+        "title": "CAA NZ — Droneregels",
+        "description": "Officiële droneregelgeving en richtlijnen van de burgerluchtvaartautoriteit"
+      }
+    ]
+  }
 }

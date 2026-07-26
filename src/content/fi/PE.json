@@ -1,64 +1,64 @@
 {
- "meta": {
-  "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Enimmäiskorkeus: 152 m (500 ft) maanpinnasta (AGL)",
-   "Vähintään 4 km:n etäisyys lentoasemista ja lentopaikoista",
-   "Vähintään 30 m vaakasuunnassa ja 20 m pystysuunnassa ihmisistä, rakennuksista tai esineistä",
-   "Kaupallinen käyttö (mikä tahansa paino): MTC-rekisteröinti vaaditaan + erillinen lupa",
-   "Pidä drone aina suorassa näköyhteydessä (VLOS)",
-   "Lennättäminen sallittu vain päivällä — yölennot edellyttävät DGACin erillistä lupaa",
-   "Kaupunkialueet: vaativat MTC:n ennakkohyväksynnän; maaseutualueet: ei erityisrajoituksia",
-   "Rajoitusalueet: lentoasemat, lentopaikat, strategiset kohteet ja tiheästi asutut alueet ilman lupaa",
-   "Oikeudellinen erottelu: harrastekäyttö (vapaa-aika) vs. ammatti-/kaupallinen käyttö (erikoistoiminta)"
-  ],
-  "importantNotes": [
-   "🏛️ MACHU PICCHU JA ARKEOLOGISET KOHTEET: Kulttuuriministeriö kieltää dronejen käytön ilman erityislupaa Machu Picchussa, Nazcan linjoilla, Chan Chanissa, Caralissa, Kuélapissa ja muilla arkeologisilla kohteilla. Kulttuuriministeriön lupa vaaditaan MTC:n luvan LISÄKSI.",
-   "🌳 SUOJELLUT LUONNONALUEET JA AMAZONIA: Suojeltujen luonnonalueiden kansallinen palvelu (SERNANP) vaatii erityisluvan droneille puistoissa kuten Manu, Tambopata ja Huascarán. Amazonialla ja alkuperäiskansojen yhteisöillä on lisärajoituksia.",
-   "🏙️ LIMAN JA CUSCON KAUPUNKIALUEET: Liman keskusta (Plaza Mayor, hallintopalatsi), Jorge Chávezin lentoasema (LIM), Cuscon keskusta ja lentoasema (CUZ), sotilasalueet ja suurlähetystöt ovat pysyvien rajoitusten alaisia. Cuscon historiallinen keskusta edellyttää kulttuuriministeriön lupaa."
-  ],
-  "primaryLinks": [
-   {
-    "title": "MTC — Dronen käytön vaatimukset",
-    "description": "Liikenne- ja viestintäministeriön (MTC) virallinen sivusto, jolla luetellaan dronen käytön vaatimukset. Sisältää määräyksen NTC 001-2015 ja DGACin menettelyt."
-   },
-   {
-    "title": "MTC:n virtuaalinen jättöpiste — RPAS-rekisteröinti",
-    "description": "MTC:n virallinen verkkoalusta dronejen (RPAS) rekisteröintiin kokonaan verkossa. Valitse \"Kauko-ohjattujen ilma-alusjärjestelmien (RPAS) rekisteröinti\" ja täytä lomake"
-   },
-   {
-    "title": "MTC — Organisaation sivu",
-    "description": "Liikenne- ja viestintäministeriön pääsivusto. Pääsy DGACin tarjoamiin menettelyihin, määräyksiin ja ilmailupalveluihin"
-   },
-   {
-    "title": "DGAC — RPAS-yhteystiedot (luvat)",
-    "description": "DGACin virallinen sähköpostiosoite RPAS-tiedusteluihin ja erityislupiin: rpas-dgac@mtc.gob.pe. Puhelin: (01) 615 7800, alanumero 1371"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "El Peruano — Droneluvat (virallinen)",
-    "description": "El Peruano -virallinen lehti: virallista tietoa dronejen käyttöön tarvittavista luvista MTC:n ja DGACin mukaan"
-   },
-   {
-    "title": "TV Perú — Virallinen opas vaatimuksista",
-    "description": "Julkisen yleisradion TV Perún virallinen katsaus, jossa ajantasaista tietoa dronen käytön vaatimuksista MTC:n mukaan"
-   },
-   {
-    "title": "MTC:n toimipisteet — Paikan päällä palvelu",
-    "description": "MTC:n päätoimipaikka: Jr. Zorritos 1203, Cercado de Lima. Palvelut ovat saatavilla myös alueellisissa kansalaispalvelukeskuksissa paikan päällä tehtäviä RPAS-menettelyjä varten."
-   }
-  ],
-  "disclaimerText": "Tarkista aina liikenne- ja viestintäministeriön (MTC) DGACin viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Perussa on voimassa täydentävä tekninen standardi (NTC) 001-2015, jossa on yksinkertaistettu rekisteröinti MTC:n virtuaalisen jättöpisteen kautta.",
-  "sectionLabelRules": "TÄRKEIMMÄT SÄÄNNÖT",
-  "sectionLabelPrimary": "VIRALLISET LÄHTEET",
-  "sectionLabelSecondary": "LISÄRESURSSIT",
-  "linksSheetTitle": "Ilmatila ja säännöt — Peru",
-  "dronePilotCredentialName": "RPAS-lentäjän lupakirja"
- }
+  "meta": {
+    "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Enimmäiskorkeus: 152 m (500 ft) maanpinnasta (AGL)",
+      "Vähintään 4 km:n etäisyys lentoasemista ja lentopaikoista",
+      "Vähintään 30 m:n vaakasuora ja 20 m:n pystysuora etäisyys ihmisiin, rakennuksiin tai esineisiin",
+      "Kaupallinen käyttö (mikä tahansa paino): MTC-rekisteröinti vaaditaan + erillinen lupa",
+      "Pidä drone aina suorassa näköyhteydessä (VLOS)",
+      "Lennättäminen sallittu vain päivällä — yölennot edellyttävät DGACin erillistä lupaa",
+      "Kaupunkialueilla vaaditaan MTC:n ennakkohyväksyntä; maaseutualueilla ei ole erityisrajoituksia",
+      "Rajoitusalueet: lentoasemat, lentopaikat, strategiset kohteet ja tiheästi asutut alueet ilman lupaa",
+      "Oikeudellinen erottelu: harrastekäyttö (vapaa-aika) ja ammatti- tai kaupallinen käyttö (erityistoiminta)"
+    ],
+    "importantNotes": [
+      "🏛️ MACHU PICCHU JA ARKEOLOGISET KOHTEET: Kulttuuriministeriö kieltää dronejen käytön ilman erityislupaa Machu Picchussa, Nazcan linjoilla, Chan Chanissa, Caralissa, Kuélapissa ja muilla arkeologisilla kohteilla. Kulttuuriministeriön lupa vaaditaan MTC:n luvan LISÄKSI.",
+      "🌳 SUOJELLUT LUONNONALUEET JA AMAZONIA: Suojeltujen luonnonalueiden kansallinen palvelu (SERNANP) vaatii erityisluvan droneille puistoissa kuten Manu, Tambopata ja Huascarán. Amazonin alueella ja alkuperäiskansojen yhteisöissä on lisärajoituksia.",
+      "🏙️ LIMAN JA CUSCON KAUPUNKIALUEET: Liman keskusta (Plaza Mayor, hallintopalatsi), Jorge Chávezin lentoasema (LIM), Cuscon keskusta ja lentoasema (CUZ), sotilasalueet ja suurlähetystöt ovat pysyvien rajoitusten alaisia. Cuscon historiallinen keskusta edellyttää kulttuuriministeriön lupaa."
+    ],
+    "primaryLinks": [
+      {
+        "title": "MTC — Dronen käytön vaatimukset",
+        "description": "Liikenne- ja viestintäministeriön (MTC) virallinen sivusto, jolla luetellaan dronen käytön vaatimukset. Sisältää määräyksen NTC 001-2015 ja DGACin menettelyt."
+      },
+      {
+        "title": "MTC:n virtuaalinen jättöpiste — RPAS-rekisteröinti",
+        "description": "MTC:n virallinen verkkoalusta dronejen (RPAS) rekisteröintiin kokonaan verkossa. Valitse \"Kauko-ohjattujen ilma-alusjärjestelmien (RPAS) rekisteröinti\" ja täytä lomake"
+      },
+      {
+        "title": "MTC — Organisaation sivu",
+        "description": "Liikenne- ja viestintäministeriön pääsivusto. Pääsy DGACin tarjoamiin menettelyihin, määräyksiin ja ilmailupalveluihin"
+      },
+      {
+        "title": "DGAC — RPAS-yhteystiedot (luvat)",
+        "description": "DGACin virallinen sähköpostiosoite RPAS-tiedusteluihin ja erityislupiin: rpas-dgac@mtc.gob.pe. Puhelin: (01) 615 7800, alanumero 1371"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "El Peruano — Droneluvat (virallinen)",
+        "description": "El Peruano -virallinen lehti: virallista tietoa dronejen käyttöön tarvittavista luvista MTC:n ja DGACin mukaan"
+      },
+      {
+        "title": "TV Perú — Virallinen opas vaatimuksista",
+        "description": "Julkisen yleisradion TV Perún virallinen katsaus, jossa ajantasaista tietoa dronen käytön vaatimuksista MTC:n mukaan"
+      },
+      {
+        "title": "MTC:n toimipisteet — Paikan päällä palvelu",
+        "description": "MTC:n päätoimipaikka: Jr. Zorritos 1203, Cercado de Lima. Palvelut ovat saatavilla myös alueellisissa kansalaispalvelukeskuksissa paikan päällä tehtäviä RPAS-menettelyjä varten."
+      }
+    ],
+    "disclaimerText": "Tarkista aina liikenne- ja viestintäministeriön (MTC) DGACin viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Perussa on voimassa täydentävä tekninen standardi (NTC) 001-2015, ja rekisteröinti on yksinkertaistettu MTC:n sähköisen kirjaamon kautta.",
+    "sectionLabelRules": "TÄRKEIMMÄT SÄÄNNÖT",
+    "sectionLabelPrimary": "VIRALLISET LÄHTEET",
+    "sectionLabelSecondary": "LISÄRESURSSIT",
+    "linksSheetTitle": "Ilmatila ja säännöt — Peru",
+    "dronePilotCredentialName": "RPAS-lentäjän lupakirja"
+  }
 }

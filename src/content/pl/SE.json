@@ -1,71 +1,71 @@
 {
- "meta": {
-  "sourceHash": "552be0e829692206489496fe6ca91a32ed231ba21bc0abd64eefd98c31764ced",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Maksymalna wysokość lotu: 120 m nad poziomem gruntu (kategoria otwarta EASA).",
-   "Operator powinien zazwyczaj zostać zarejestrowany, jeśli dron waży co najmniej 250 g lub jest wyposażony w kamerę/czujnik umożliwiający gromadzenie danych osobowych, o ile nie podlega on wyłączeniu dotyczącemu zabawek. Wymogi dotyczące karty operatora dronów oraz odległości zależą od klasy, masy i podkategorii drona.",
-   "Licencja dronowa A1/A3 jest wymagana, jeśli dron waży 250 g lub więcej — teoretyczny egzamin online prowadzony przez Szwedzką Agencję Transportu (płatny; licencja ważna 5 lat). Minimalny wiek do samodzielnego operowania dronem: 15 lat. Osoby poniżej 15. roku życia mogą latać wyłącznie z ważną licencją dronową pod nadzorem pilota zdalnego w wieku 16 lat lub starszego, posiadającego ważną licencję dronową.",
-   "Numer operatora musi być wyraźnie oznaczony na dronie.",
-   "Utrzymuj drona w zasięgu wzroku (VLOS) — nie lataj za rogami ani za budynkami.",
-   "A1: Drony o masie poniżej 250 g — lot nad niezaangażowanymi osobami (nie nad tłumami).",
-   "A2: Drony o masie do 4 kg — co najmniej 30 m od osób postronnych (5 m w trybie niskiej prędkości). Wymaga certyfikatu A2.",
-   "A3: Drony o masie do 25 kg — co najmniej 150 m od obszarów mieszkalnych, handlowych, przemysłowych i rekreacyjnych.",
-   "Nigdy nie lataj nad tłumami bez szczególnego zezwolenia.",
-   "Przed każdym lotem sprawdź mapę dronową LFV oraz NOTAM-y."
-  ],
-  "importantNotes": [
-   "Od 1 stycznia 2026 r. lot dronem o masie 250 g lub więcej bez ważnej licencji dronowej jest przestępstwem — zagrożonym grzywną lub karą pozbawienia wolności do sześciu miesięcy.",
-   "Rezerwaty przyrody i parki narodowe często mają własne ograniczenia — sprawdź w Urzędzie Wojewódzkim właściwym dla danego obszaru.",
-   "Obiekty chronione mogą podlegać zakazowi wstępu i fotografowania, a także mogą znajdować się na obszarze objętym ograniczeniami. Należy sprawdzić oznakowanie, decyzje oraz aktualne informacje dotyczące przestrzeni powietrznej dla danego miejsca.",
-   "Każdy, kto pilotuje drony, ma obowiązek zgłaszać zdarzenia, w których doszło do poważnych obrażeń, wypadku śmiertelnego lub w które zaangażowany był statek powietrzny z załogą. W przypadku działalności podlegającej obowiązkowi uzyskania zezwolenia mogą obowiązywać inne wymogi. Urząd Transportu zachęca również do dobrowolnego zgłaszania innych zdarzeń związanych z bezpieczeństwem.",
-   "Ubezpieczenie jest zdecydowanie zalecane — niektóre polisy ubezpieczenia domowego obejmują loty dronem, a inne nie."
-  ],
-  "primaryLinks": [
-   {
-    "title": "Szwedzka Agencja Transportu — Przepisy dronowe",
-    "description": ""
-   },
-   {
-    "title": "Mapa dronowa LFV — Przestrzeń powietrzna",
-    "description": ""
-   },
-   {
-    "title": "Rejestracja operatora (wymaga ≥250 g lub kamery)",
-    "description": ""
-   },
-   {
-    "title": "Licencja dronowa A1/A3 — Teoretyczny egzamin online (wymaga ≥250 g, od 15 lat)",
-    "description": ""
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Certyfikat A2 (drony o masie powyżej 500 g lub loty w pobliżu osób)",
-    "description": ""
-   },
-   {
-    "title": "AROweb — NOTAM i AIP Szwecja",
-    "description": ""
-   },
-   {
-    "title": "Obiekty chronione — Skontaktuj się ze Szwedzkimi Siłami Zbrojnymi",
-    "description": ""
-   },
-   {
-    "title": "Rezerwaty przyrody — Sprawdź w Urzędzie Wojewódzkim",
-    "description": ""
-   }
-  ],
-  "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła. Ta aplikacja jest narzędziem, a nie źródłem prawa. Przepisy mogą ulec zmianie bez powiadomienia.",
-  "sectionLabelRules": "WAŻNE ZASADY",
-  "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
-  "sectionLabelSecondary": "ZAAWANSOWANE / PRZYPADKI SZCZEGÓLNE",
-  "linksSheetTitle": "Przestrzeń powietrzna i przepisy",
-  "dronePilotCredentialName": "Świadectwo dronowe A1/A3"
- }
+  "meta": {
+    "sourceHash": "552be0e829692206489496fe6ca91a32ed231ba21bc0abd64eefd98c31764ced",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Maksymalna wysokość lotu: 120 m nad poziomem gruntu (kategoria otwarta EASA).",
+      "Operator musi być zazwyczaj zarejestrowany, jeśli dron waży co najmniej 250 g lub jest wyposażony w kamerę albo czujnik umożliwiający gromadzenie danych osobowych, chyba że obejmuje go wyjątek dotyczący zabawek. Wymogi dotyczące licencji dronowych oraz odległości lotu zależą od klasy, masy i podkategorii drona.",
+      "Licencja dronowa A1/A3 jest wymagana, jeśli dron waży 250 g lub więcej — egzamin teoretyczny online przeprowadza Swedish Transport Agency (jest płatny; licencja jest ważna 5 lat). Minimalny wiek do samodzielnego operowania dronem wynosi 15 lat. Osoby poniżej 15. roku życia mogą latać wyłącznie z ważną licencją dronową pod nadzorem pilota zdalnego w wieku 16 lat lub starszego, posiadającego ważną licencję dronową.",
+      "Numer operatora musi być wyraźnie umieszczony na dronie.",
+      "Utrzymuj drona w zasięgu wzroku (VLOS) — nie lataj za rogami ani za budynkami.",
+      "A1: Drony o masie poniżej 250 g — można latać nad osobami niezaangażowanymi w operację (ale nie nad tłumami).",
+      "A2: Drony o masie do 4 kg — co najmniej 30 m od osób postronnych (5 m w trybie niskiej prędkości). Wymagany jest certyfikat A2.",
+      "A3: Drony o masie do 25 kg — co najmniej 150 m od obszarów mieszkalnych, handlowych, przemysłowych i rekreacyjnych.",
+      "Nigdy nie lataj nad tłumami bez szczególnego zezwolenia.",
+      "Przed każdym lotem sprawdź LFV Drone Map oraz komunikaty NOTAM."
+    ],
+    "importantNotes": [
+      "Od 1 stycznia 2026 r. lot dronem o masie 250 g lub więcej bez ważnej licencji dronowej jest przestępstwem — zagrożonym grzywną lub karą pozbawienia wolności do sześciu miesięcy.",
+      "Rezerwaty przyrody i parki narodowe często mają własne ograniczenia — sprawdź zasady dla danego obszaru w County Administrative Board.",
+      "W obiektach chronionych mogą obowiązywać ograniczenia dostępu i fotografowania; mogą one również znajdować się na obszarze objętym ograniczeniami. Sprawdź oznakowanie, oficjalne decyzje oraz najnowsze informacje o przestrzeni powietrznej dla danego miejsca.",
+      "Każdy, kto operuje dronem, musi zgłaszać zdarzenia, w których ktoś odniósł poważne obrażenia, doszło do wypadku śmiertelnego lub uczestniczył załogowy statek powietrzny. W przypadku działalności wymagającej zezwolenia mogą obowiązywać inne wymogi. Swedish Transport Agency zachęca również do dobrowolnego zgłaszania innych zdarzeń związanych z bezpieczeństwem.",
+      "Ubezpieczenie jest zdecydowanie zalecane — niektóre polisy ubezpieczenia domowego obejmują loty dronem, a inne nie."
+    ],
+    "primaryLinks": [
+      {
+        "title": "Szwedzka Agencja Transportu — Przepisy dronowe",
+        "description": ""
+      },
+      {
+        "title": "Mapa dronowa LFV — Przestrzeń powietrzna",
+        "description": ""
+      },
+      {
+        "title": "Rejestracja operatora (wymaga ≥250 g lub kamery)",
+        "description": ""
+      },
+      {
+        "title": "Licencja dronowa A1/A3 — Teoretyczny egzamin online (wymaga ≥250 g, od 15 lat)",
+        "description": ""
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Certyfikat A2 (drony o masie powyżej 500 g lub loty w pobliżu osób)",
+        "description": ""
+      },
+      {
+        "title": "AROweb — NOTAM i AIP Szwecja",
+        "description": ""
+      },
+      {
+        "title": "Obiekty chronione — Skontaktuj się ze Szwedzkimi Siłami Zbrojnymi",
+        "description": ""
+      },
+      {
+        "title": "Rezerwaty przyrody — Sprawdź w Urzędzie Wojewódzkim",
+        "description": ""
+      }
+    ],
+    "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła. Ta aplikacja jest narzędziem, a nie źródłem prawa. Przepisy mogą ulec zmianie bez powiadomienia.",
+    "sectionLabelRules": "WAŻNE ZASADY",
+    "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
+    "sectionLabelSecondary": "ZAAWANSOWANE / PRZYPADKI SZCZEGÓLNE",
+    "linksSheetTitle": "Przestrzeń powietrzna i przepisy",
+    "dronePilotCredentialName": "Certyfikat pilota drona A1/A3"
+  }
 }

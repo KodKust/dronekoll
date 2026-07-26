@@ -1,65 +1,65 @@
 {
- "meta": {
-  "sourceHash": "b3162ca911ac55fba8e7336c9f471c36",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Sjekk alltid offisielle kilder fra CAA før du flyr. Denne appen er et verktøy — ikke en juridisk myndighet. Storbritannia har sitt eget droneregelverk, atskilt fra EU/EASA. Lokale kommunale vedtekter kan legge til ytterligere restriksjoner.",
-  "sectionLabelRules": "VIKTIGE REGLER",
-  "sectionLabelPrimary": "OFFISIELLE KILDER",
-  "sectionLabelSecondary": "FLERE RESSURSER",
-  "linksSheetTitle": "Luftrom og regler — Storbritannia",
-  "dronePilotCredentialName": "Flyer ID og Operator ID",
-  "keyRules": [
-   "Maks 120 m (400 ft) over bakkenivå",
-   "Flyer ID kreves fra 100 g — bestå CAAs nettprøve (40 spørsmål, 75 % beståttgrense)",
-   "Hold alltid dronen innen synsrekkevidde (VLOS) — maks ~500 m horisontalt",
-   "Minst 50 m fra uinnviklede personer (30 m / 5 m gjelder bare for britiske klassemerkede droner med A2-sertifikat)",
-   "5 km flygerestriksjonssone (Flight Restriction Zone) rundt flyplasser — ingen flyging uten tillatelse",
-   "Forsikring er obligatorisk for ikke-rekreasjonell bruk eller droner på 20 kg+",
-   "Remote ID innføres gradvis: fra januar 2026 for britiske klassemerkede droner (UK1/UK2/UK3/UK5/UK6); fullt obligatorisk fra januar 2028",
-   "Storbritannia er IKKE en del av EASA — EU-pilotsertifikater er ikke gyldige i Storbritannia",
-   "London har permanente restriksjonssoner (R157, R158, R159) — alle droner er forbudt"
-  ],
-  "importantNotes": [
-   "Registreringsgrensen i Storbritannia er 100 g — strengere enn EUs 250 g",
-   "EU/EASA-dronesertifikater anerkjennes IKKE i Storbritannia etter brexit",
-   "Lokale kommuner kan begrense flyging på sin grunn — sjekk før du flyr i parker",
-   "Fengsler har flygeforbudssoner på ~1 km — å utsette luftfartøy for fare kan gi opptil 5 års fengsel"
-  ],
-  "primaryLinks": [
-   {
-    "title": "UK CAA — droneregelverk",
-    "description": "CAAs offisielle knutepunkt for alle britiske droneregler, registrering og ressurser"
-   },
-   {
-    "title": "CAA — registrer (Flyer ID og Operator ID)",
-    "description": "Skaff deg Flyer ID (obligatorisk fra 100 g) og Operator ID (obligatorisk fra 250 g)"
-   },
-   {
-    "title": "CAA — The Drone Code",
-    "description": "Offisielle regler: hvor du kan fly, høydegrenser og sikkerhetskrav"
-   },
-   {
-    "title": "Drone Assist — luftromskart",
-    "description": "Gratis app for flygeplanlegging som viser flygeforbudssoner og luftromsrestriksjoner"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAA — luftromsrestriksjoner",
-    "description": "Flygerestriksjonssoner rundt flyplasser, fengsler og sensitive områder"
-   },
-   {
-    "title": "CAA — forsikringskrav",
-    "description": "Når droneforsikring kreves (obligatorisk for ikke-rekreasjonell bruk)"
-   },
-   {
-    "title": "CAA — Remote ID-retningslinjer",
-    "description": "Britiske Remote ID-krav fra januar 2026"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Sjekk alltid offisielle kilder fra CAA før du flyr. Denne appen er et verktøy — ikke en rettskilde. Storbritannia har sitt eget droneregelverk, atskilt fra EU/EASA. Lokale kommunale vedtekter kan legge til ytterligere restriksjoner.",
+    "sectionLabelRules": "VIKTIGE REGLER",
+    "sectionLabelPrimary": "OFFISIELLE KILDER",
+    "sectionLabelSecondary": "FLERE RESSURSER",
+    "linksSheetTitle": "Luftrom og regler — Storbritannia",
+    "dronePilotCredentialName": "Flyer ID og Operator ID",
+    "keyRules": [
+      "Maks 120 m (400 ft) over bakkenivå",
+      "Flyer ID kreves fra 100 g — bestå CAAs nettprøve (40 spørsmål, 75 % beståttgrense)",
+      "Hold dronen innenfor din egen direkte synsvidde uten hjelpemidler til enhver tid, så nær at du kan se hvilken vei den vender og holde utkikk etter andre luftfartøy. Det finnes ingen fast lovbestemt maksimalavstand i meter — hvor langt du kan fly, avhenger av sikt, lysforhold og selve dronen, ikke en fast radius.",
+      "Minst 50 m fra personer som ikke er involvert (30 m / 5 m gjelder bare for britiske klassemerkede droner med A2-sertifikat)",
+      "Flygerestriksjonssoner (FRZ) omgir flyplasser, men den nøyaktige formen og størrelsen varierer fra flyplass til flyplass — det finnes ingen universell «sirkel på 5 km». Sjekk alltid den aktuelle FRZ-sonen på CAAs offisielle dronesikkerhetskart før du flyr nær en flyplass.",
+      "Ansvarsforsikring overfor tredjepart (i henhold til EC Regulation 785/2004) er obligatorisk for kommersielle eller andre ikke-rekreasjonelle flyginger, eller for droner som veier 20 kg eller mer — valgfritt, men anbefalt for lettere droner til rekreasjonsbruk.",
+      "Remote ID innføres gradvis: fra januar 2026 for britiske klassemerkede droner (UK1/UK2/UK3/UK5/UK6); fullt obligatorisk fra januar 2028",
+      "Storbritannia er IKKE en del av EASA — EU-pilotsertifikater er ikke gyldige i Storbritannia",
+      "London har tre permanente restriksjonsområder — R157 (Hyde Park/kongelige residenser), R158 (City of London/Square Mile, en liten sone på ~0,5 NM rundt finansdistriktet) og R159 (Canary Wharf/Isle of Dogs) — alle droner er forbudt uansett størrelse med mindre flygingen er godkjent gjennom en Non-Standard Flight-søknad til NATS, sendt inn minst 28 dager i forveien. Parliament og Downing Street ligger i Westminster, utenfor alle de tre R-sonene, og er beskyttet gjennom separate ordninger."
+    ],
+    "importantNotes": [
+      "Registreringsgrensen i Storbritannia er 100 g — strengere enn EUs 250 g",
+      "EU/EASA-dronesertifikater anerkjennes IKKE i Storbritannia etter Brexit",
+      "Lokale kommuner kan begrense flyging på sin grunn — sjekk før du flyr i parker",
+      "Fengsler har flygeforbudssoner på ~1 km — å utsette luftfartøy for fare kan gi opptil 5 år i fengsel"
+    ],
+    "primaryLinks": [
+      {
+        "title": "UK CAA — droneregelverk",
+        "description": "CAAs offisielle knutepunkt for alle britiske droneregler, registrering og ressurser"
+      },
+      {
+        "title": "CAA — registrer (Flyer ID og Operator ID)",
+        "description": "Skaff deg Flyer ID (obligatorisk fra 100 g) og Operator ID (obligatorisk fra 250 g)"
+      },
+      {
+        "title": "CAA — The Drone Code",
+        "description": "Offisielle regler: hvor du kan fly, høydegrenser og sikkerhetskrav"
+      },
+      {
+        "title": "Drone Assist — luftromskart",
+        "description": "Gratis app for flygeplanlegging som viser flygeforbudssoner og luftromsrestriksjoner"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAA — luftromsrestriksjoner",
+        "description": "Flygerestriksjonssoner rundt flyplasser, fengsler og sensitive områder"
+      },
+      {
+        "title": "CAA — forsikringskrav",
+        "description": "Når droneforsikring kreves (obligatorisk for ikke-rekreasjonell bruk)"
+      },
+      {
+        "title": "CAA — Remote ID-retningslinjer",
+        "description": "Britiske Remote ID-krav fra januar 2026"
+      }
+    ]
+  }
 }

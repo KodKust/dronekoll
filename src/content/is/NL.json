@@ -1,59 +1,59 @@
 {
- "meta": {
-  "sourceHash": "3f93b288335a64961197959526986fa369f18ef2ac4a0d684c859af0aa2a4931",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Allt að 120 m yfir jörðu (EASA opinn flokkur)",
-   "Skráðu þig sem rekstraraðili fjarstýrðra loftfara hjá RDW (23 € eingreiðsla + 13 €/ári endurnýjunargjald) ef dróninn vegur 250 g eða meira eða er búinn myndavél",
-   "A1/A3 netþjálfun er skyldubundin — lágmarksaldur 16",
-   "14 km stýrða svæðið (CTR) í kringum Schiphol nær yfir stærstan hluta Amsterdam — sjá opinbera loftrýmiskortið",
-   "Haltu ávallt sjónlínu (VLOS) við drónann",
-   "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
-   "Lágmarksfjarlægð 3 km frá litlum flugvöllum, með stærri öryggisspildu í kringum Schiphol",
-   "Næturflug er heimilt samkvæmt grunnreglum EASA opna flokksins þegar tilskilið grænt blikkandi ljós er notað, nema gildandi landsvæði eða innlend regla setji strangara skilyrði.",
-   "Náttúrusvæði (Natura 2000): takmarkanir á varptíma",
-   "Þéttbýl svæði í Randstad: athugaðu reglur sveitarfélaga á staðnum"
-  ],
-  "importantNotes": [
-   "14 km stýrða svæðið (CTR) í kringum Schiphol bannar í raun dróna yfir stærstum hluta Amsterdam",
-   "Skráning í gegnum RDW kostar 23 € eingreiðslu auk 13 € árlegs endurnýjunargjalds (frá 2025) — gildir í öllum ESB/EASA-löndum",
-   "Sektir allt að 11.250 € fyrir brot",
-   "Hersvæði (Leeuwarden, Eindhoven, Volkel): algjört flugbann",
-   "GDPR gildir þegar teknar eru myndir sem sýna persónugreinanlega einstaklinga"
-  ],
-  "primaryLinks": [
-   {
-    "title": "ILT — Drónareglur",
-    "description": "Opinberar reglur Eftirlitsstofnunar mannlegs umhverfis og samgangna"
-   },
-   {
-    "title": "RDW — Skráðu þig sem rekstraraðili",
-    "description": "Ókeypis skráning sem rekstraraðili fjarstýrðra loftfara (gildir í öllum ESB/EASA-löndum)"
-   },
-   {
-    "title": "ILT — Yfirlit reglna",
-    "description": "Yfirlit yfir reglur um drónaflug í Hollandi"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "LVNL — Flugumferðarstjórn",
-    "description": "Flugumferðarstjórn Hollands og upplýsingar um loftrými"
-   },
-   {
-    "title": "Ríkisstjórnin — Drónareglur",
-    "description": "Stjórnargátt með upplýsingum um drónareglur"
-   }
-  ],
-  "disclaimerText": "Athugaðu ávallt opinberar heimildir frá ILT og RDW og loftrýmiskortið frá IenW áður en þú flýgur. Þetta forrit er verkfæri — ekki lögheimild. Holland fylgir EASA-reglunum.",
-  "sectionLabelRules": "HELSTU REGLUR (EASA OPINN FLOKKUR)",
-  "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
-  "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
-  "linksSheetTitle": "Loftrými og reglur — Holland",
-  "dronePilotCredentialName": "A1/A3 flugmannsleyfi"
- }
+  "meta": {
+    "sourceHash": "3f93b288335a64961197959526986fa369f18ef2ac4a0d684c859af0aa2a4931",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Allt að 120 m yfir jörðu (EASA opinn flokkur)",
+      "Skráðu þig sem rekstraraðila fjarstýrðra loftfara hjá RDW (23 € eingreiðsla + 13 €/ári endurnýjunargjald) ef dróninn vegur 250 g eða meira eða er búinn myndavél",
+      "A1/A3 netþjálfun er skyldubundin — lágmarksaldur 16",
+      "14 km CTR-svæðið umhverfis Schiphol nær yfir stærstan hluta Amsterdam — sjá opinbera loftrýmiskortið",
+      "Haltu ávallt sjónlínu (VLOS) við drónann",
+      "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
+      "Lágmarksfjarlægð 3 km frá litlum flugvöllum, en stærra öryggissvæði gildir umhverfis Schiphol",
+      "Næturflug er heimilt samkvæmt grunnreglum EASA opna flokksins þegar tilskilið grænt blikkandi ljós er notað, nema gildandi landfræðilegt UAS-svæði eða innlend regla setji strangara skilyrði.",
+      "Náttúrusvæði (Natura 2000): takmarkanir á varptíma",
+      "Þéttbýl svæði í Randstad: athugaðu reglur sveitarfélaga á staðnum"
+    ],
+    "importantNotes": [
+      "14 km CTR-svæðið umhverfis Schiphol bannar í reynd drónaflug yfir stærstum hluta Amsterdam",
+      "Skráning í gegnum RDW kostar 23 € eingreiðslu auk 13 € árlegs endurnýjunargjalds (frá 2025) — gildir í öllum ESB/EASA-löndum",
+      "Sektir allt að 11.250 € fyrir brot",
+      "Hersvæði (Leeuwarden, Eindhoven, Volkel): algjört flugbann",
+      "GDPR gildir þegar teknar eru myndir sem sýna persónugreinanlega einstaklinga"
+    ],
+    "primaryLinks": [
+      {
+        "title": "ILT — Drónareglur",
+        "description": "Opinberar reglur Eftirlitsstofnunar mannlegs umhverfis og samgangna"
+      },
+      {
+        "title": "RDW — Skráðu þig sem rekstraraðili",
+        "description": "Ókeypis skráning sem rekstraraðili fjarstýrðra loftfara (gildir í öllum ESB/EASA-löndum)"
+      },
+      {
+        "title": "ILT — Yfirlit reglna",
+        "description": "Yfirlit yfir reglur um drónaflug í Hollandi"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "LVNL — Flugumferðarstjórn",
+        "description": "Flugumferðarstjórn Hollands og upplýsingar um loftrými"
+      },
+      {
+        "title": "Ríkisstjórnin — Drónareglur",
+        "description": "Stjórnargátt með upplýsingum um drónareglur"
+      }
+    ],
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir frá ILT og RDW og loftrýmiskortið frá IenW áður en þú flýgur. Þetta forrit er verkfæri — ekki réttarheimild. Holland fylgir EASA-reglunum.",
+    "sectionLabelRules": "HELSTU REGLUR (EASA OPINN FLOKKUR)",
+    "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
+    "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
+    "linksSheetTitle": "Loftrými og reglur — Holland",
+    "dronePilotCredentialName": "A1/A3 flugmannsleyfi"
+  }
 }

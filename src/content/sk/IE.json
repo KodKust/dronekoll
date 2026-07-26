@@ -1,67 +1,67 @@
 {
- "meta": {
-  "sourceHash": "4c4750f0c88fe4d2f7dcefb940ffd9a0",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Pred lietaním vždy skontrolujte oficiálne zdroje IAA. Táto aplikácia je nástroj, nie právny zdroj. Írsko sa riadi predpismi EASA. Severné Írsko sa riadi pravidlami UK CAA — platia samostatné predpisy.",
-  "sectionLabelRules": "KĽÚČOVÉ PRAVIDLÁ (KATEGÓRIA EASA OPEN)",
-  "sectionLabelPrimary": "OFICIÁLNE ZDROJE",
-  "sectionLabelSecondary": "ĎALŠIE ZDROJE",
-  "linksSheetTitle": "Vzdušný priestor a pravidlá — Írsko",
-  "dronePilotCredentialName": "Osvedčenie o spôsobilosti pilota",
-  "keyRules": [
-   "Max. 120 m nad úrovňou terénu (kategória EASA Open)",
-   "Registrácia ako prevádzkovateľ UAS, ak dron váži 250 g a viac alebo má kameru (€41, platná 2 roky)",
-   "Vyžaduje sa online školenie A1/A3 (€51, platné 5 rokov) — minimálny vek 16 rokov",
-   "Osvedčenie A2 pre prevádzku v blízkosti ľudí (skúška + praktický test cez schváleného poskytovateľa školení)",
-   "Írska registrácia EASA platí vo všetkých členských štátoch EÚ",
-   "Vždy udržiavajte vizuálny dohľad (VLOS) — max. 300 m horizontálne",
-   "Minimálne 30 m od ľudí, davov, vozidiel a budov",
-   "Minimálne 5 km od akéhokoľvek letiska, letovej plochy alebo heliportu",
-   "Phoenix Park (Dublin): absolútny zákaz dronov",
-   "Národné parky vyžadujú povolenie NPWS — väčšina zakazuje drony počas hniezdneho obdobia"
-  ],
-  "importantNotes": [
-   "Garda (polícia) môže za porušenia udeľovať pokuty na mieste vo výške €500 a viac (od augusta 2025)",
-   "Severné Írsko patrí do Spojeného kráľovstva — úplne odlišné pravidlá (UK CAA, nie IAA/EASA)",
-   "5-kilometrová zóna letiska Dublin pokrýva významné časti mesta",
-   "Lietanie bez povolenia v červených zónach je trestný čin",
-   "Pri zachytávaní identifikovateľného obrazu platí GDPR — ste prevádzkovateľom údajov"
-  ],
-  "primaryLinks": [
-   {
-    "title": "IAA — Predpisy pre drony",
-    "description": "Oficiálne centrum írskeho úradu civilného letectva pre pravidlá a zdroje o dronoch"
-   },
-   {
-    "title": "IAA — Registrácia prevádzkovateľa",
-    "description": "Registrácia ako prevádzkovateľ UAS (€40, platná 2 roky, platná vo všetkých krajinách EÚ/EASA)"
-   },
-   {
-    "title": "IAA — Mapa geografických zón",
-    "description": "Oficiálna mapa červených/oranžových/zelených zón — skontrolujte pred každým letom"
-   },
-   {
-    "title": "SafeDrone — Mapa vzdušného priestoru",
-    "description": "Vyhľadávanie podľa lokality alebo Eircode pre obmedzenia vzdušného priestoru a informácie o zónach"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "IAA — Časté otázky o bezpečnosti a predpisoch",
-    "description": "Často kladené otázky o írskych predpisoch pre drony"
-   },
-   {
-    "title": "Citizens Information — Vlastníctvo dronu",
-    "description": "Sprievodca vlastníctvom a pravidlami pre drony v Írsku v zrozumiteľnom jazyku"
-   },
-   {
-    "title": "UAAI — Zdroje o vzdušnom priestore",
-    "description": "Komunitné zdroje o vzdušnom priestore a nástroje na plánovanie"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "004d6fde4894978be0e705543cec7048",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Pred lietaním vždy skontrolujte oficiálne zdroje IAA. Táto aplikácia je nástroj, nie právny zdroj. Írsko sa riadi predpismi EASA. Severné Írsko sa riadi pravidlami UK CAA — platia samostatné predpisy.",
+    "sectionLabelRules": "KĽÚČOVÉ PRAVIDLÁ (KATEGÓRIA EASA OPEN)",
+    "sectionLabelPrimary": "OFICIÁLNE ZDROJE",
+    "sectionLabelSecondary": "ĎALŠIE ZDROJE",
+    "linksSheetTitle": "Vzdušný priestor a pravidlá — Írsko",
+    "dronePilotCredentialName": "Osvedčenie o spôsobilosti pilota",
+    "keyRules": [
+      "V otvorenej kategórii je maximálna výška 120 m meraná ako vzdialenosť k najbližšiemu bodu zemského povrchu — nie jednoducho zvislo nadol, takže pri svahu sa môže počítať aj terén vedľa vás. Ak sa nachádzate do 50 m od vysokej umelej prekážky (vyššej ako 105 m), subjekt zodpovedný za prekážku môže požiadať o povolenie lietať až 15 m nad jej výškou.",
+      "Ako prevádzkovateľ dronu sa musíte zaregistrovať, ak váš dron váži 250 g alebo viac (alebo môže pri náraze odovzdať viac ako 80 J energie) — platí to aj pre hračky. Pri hmotnosti pod 250 g sa registrácia stále vyžaduje, ak má dron snímač schopný zaznamenávať osobné údaje, pokiaľ nejde o hračku podľa EU Toy Safety Directive. Požiadavky na výcvik a osvedčenie pilota sú samostatné a závisia od triedy a podkategórie dronu.",
+      "V Írsku musíte mať aspoň 16 rokov, aby ste sa mohli zaregistrovať ako prevádzkovateľ dronu; za mladšiu osobu sa môže zaregistrovať rodič alebo zákonný zástupca a tá potom smie lietať iba pod jeho priamym dohľadom. Na samostatné lietanie v otvorenej kategórii sa vyžaduje online školenie a skúška A1/A3.",
+      "Osvedčenie A2 pre prevádzku v blízkosti ľudí (skúška + praktický test cez schváleného poskytovateľa školení)",
+      "Írska registrácia EASA platí vo všetkých členských štátoch EÚ",
+      "V otvorenej kategórii udržiavajte dron vo vlastnom priamom vizuálnom dohľade bez pomôcok (okuliare alebo kontaktné šošovky sú v poriadku; ďalekohľad ani obrazovka sa nepočítajú) — alebo lietajte s pomocou pozorovateľa, pričom medzi vami musí byť neustále jasná a účinná komunikácia, aby ste spoločne mohli sledovať vzdušný priestor a predchádzať zrážkam. Režim follow-me je samostatná výnimka povolená do 50 m od pilota.",
+      "Minimálne 30 m od ľudí, davov, vozidiel a budov",
+      "Neexistuje jednotná vzdialenosť od letísk platná v celej EÚ. Obmedzenia v blízkosti letísk sa zverejňujú ako geografické zóny (článok 15), ktorých tvar a veľkosť sa pri jednotlivých letiskách líšia. Pred letom v blízkosti letiska, letovej plochy alebo heliportu skontrolujte oficiálnu mapu zón pre drony vo svojej krajine; lietanie v riadenej zóne (CTR) si zvyčajne vyžaduje predchádzajúce povolenie riadenia letovej prevádzky.",
+      "Phoenix Park (Dublin): absolútny zákaz dronov",
+      "Národné parky vyžadujú povolenie NPWS — väčšina zakazuje drony počas hniezdneho obdobia"
+    ],
+    "importantNotes": [
+      "Gardaí môžu za porušenia udeľovať pokuty na mieste vo výške €500 a viac (od augusta 2025)",
+      "Severné Írsko patrí do Spojeného kráľovstva — úplne odlišné pravidlá (UK CAA, nie IAA/EASA)",
+      "Obmedzené zóny okolo letísk majú rôznu veľkosť; zóna okolo Dublin Airport pokrýva významné časti mesta. Pred letom v blízkosti letiska skontrolujte oficiálnu írsku mapu zón pre drony.",
+      "Lietanie bez povolenia v červených zónach je trestný čin",
+      "Pri zachytávaní identifikovateľného obrazu platí GDPR — ste prevádzkovateľom údajov"
+    ],
+    "primaryLinks": [
+      {
+        "title": "IAA — Predpisy pre drony",
+        "description": "Oficiálne centrum írskeho úradu civilného letectva pre pravidlá a zdroje o dronoch"
+      },
+      {
+        "title": "IAA — Registrácia prevádzkovateľa",
+        "description": "Registrácia ako prevádzkovateľ UAS (€40, platná 2 roky, platná vo všetkých krajinách EÚ/EASA)"
+      },
+      {
+        "title": "IAA — Mapa geografických zón",
+        "description": "Oficiálna mapa červených/oranžových/zelených zón — skontrolujte pred každým letom"
+      },
+      {
+        "title": "SafeDrone — Mapa vzdušného priestoru",
+        "description": "Vyhľadávanie podľa lokality alebo Eircode pre obmedzenia vzdušného priestoru a informácie o zónach"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "IAA — Časté otázky o bezpečnosti a predpisoch",
+        "description": "Často kladené otázky o írskych predpisoch pre drony"
+      },
+      {
+        "title": "Citizens Information — Vlastníctvo dronu",
+        "description": "Sprievodca vlastníctvom a pravidlami pre drony v Írsku v zrozumiteľnom jazyku"
+      },
+      {
+        "title": "UAAI — Zdroje o vzdušnom priestore",
+        "description": "Komunitné zdroje o vzdušnom priestore a nástroje na plánovanie"
+      }
+    ]
+  }
 }

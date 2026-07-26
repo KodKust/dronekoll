@@ -1,67 +1,67 @@
 {
- "meta": {
-  "sourceHash": "4c4750f0c88fe4d2f7dcefb940ffd9a0",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła IAA. Ta aplikacja jest narzędziem — a nie organem prawnym. Irlandia stosuje przepisy EASA. Irlandia Północna stosuje przepisy UK CAA — obowiązują tam odrębne przepisy.",
-  "sectionLabelRules": "KLUCZOWE ZASADY (KATEGORIA OTWARTA EASA)",
-  "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
-  "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
-  "linksSheetTitle": "Przestrzeń powietrzna i zasady — Irlandia",
-  "dronePilotCredentialName": "Świadectwo kompetencji pilota",
-  "keyRules": [
-   "Maks. 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-   "Zarejestruj się jako operator UAS, jeśli dron ma 250 g lub więcej albo ma kamerę (41 €, ważne 2 lata)",
-   "Wymagane szkolenie online A1/A3 (51 €, ważne 5 lat) — minimalny wiek 16 lat",
-   "Certyfikat A2 do operacji w pobliżu osób (egzamin + test praktyczny u zatwierdzonego ośrodka szkoleniowego)",
-   "Irlandzka rejestracja EASA jest ważna we wszystkich państwach członkowskich UE",
-   "Zawsze utrzymuj drona w zasięgu wzroku (VLOS) — maks. 300 m w poziomie",
-   "Minimalnie 30 m od osób, tłumów, pojazdów i budynków",
-   "Minimalnie 5 km od jakiegokolwiek lotniska, lądowiska lub lądowiska dla śmigłowców",
-   "Phoenix Park (Dublin): bezwzględny zakaz lotów dronów",
-   "Parki narodowe wymagają zezwolenia NPWS — większość zakazuje dronów w okresie lęgowym"
-  ],
-  "importantNotes": [
-   "Gardaí (policja) może nakładać mandaty na miejscu w wysokości od 500 € za naruszenia (od sierpnia 2025)",
-   "Irlandia Północna to Wielka Brytania — całkowicie odmienne przepisy (UK CAA, nie IAA/EASA)",
-   "Strefa 5 km wokół lotniska w Dublinie obejmuje znaczną część miasta",
-   "Lot bez zezwolenia w strefach czerwonych jest przestępstwem",
-   "RODO ma zastosowanie przy uwiecznianiu możliwych do zidentyfikowania wizerunków — jesteś administratorem danych"
-  ],
-  "primaryLinks": [
-   {
-    "title": "IAA — Przepisy dronowe",
-    "description": "Oficjalne centrum Irlandzkiego Urzędu Lotnictwa z zasadami i materiałami dla dronów"
-   },
-   {
-    "title": "IAA — Rejestracja jako operator",
-    "description": "Rejestracja jako operator UAS (40 €, ważna 2 lata, uznawana we wszystkich krajach UE/EASA)"
-   },
-   {
-    "title": "IAA — Mapa stref geograficznych",
-    "description": "Oficjalna mapa stref czerwonych/bursztynowych/zielonych — sprawdzaj przed każdym lotem"
-   },
-   {
-    "title": "SafeDrone — Mapa przestrzeni powietrznej",
-    "description": "Wyszukiwanie według lokalizacji lub kodu Eircode w celu sprawdzenia ograniczeń przestrzeni powietrznej i informacji o strefach"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "IAA — FAQ o bezpieczeństwie i przepisach",
-    "description": "Najczęściej zadawane pytania dotyczące irlandzkich przepisów dronowych"
-   },
-   {
-    "title": "Citizens Information — Posiadanie drona",
-    "description": "Przystępny przewodnik po posiadaniu drona i zasadach w Irlandii"
-   },
-   {
-    "title": "UAAI — Materiały o przestrzeni powietrznej",
-    "description": "Społecznościowe materiały o przestrzeni powietrznej oraz narzędzia do planowania"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "004d6fde4894978be0e705543cec7048",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła IAA. Ta aplikacja jest narzędziem — a nie organem prawnym. Irlandia stosuje przepisy EASA. Irlandia Północna stosuje przepisy UK CAA — obowiązują tam odrębne przepisy.",
+    "sectionLabelRules": "KLUCZOWE ZASADY (KATEGORIA OTWARTA EASA)",
+    "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
+    "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
+    "linksSheetTitle": "Przestrzeń powietrzna i zasady — Irlandia",
+    "dronePilotCredentialName": "Świadectwo kompetencji pilota",
+    "keyRules": [
+      "W kategorii otwartej maksymalną wysokość 120 m mierzy się jako odległość od najbliższego punktu powierzchni ziemi — nie tylko pionowo w dół, więc w pobliżu zbocza liczy się również grunt znajdujący się obok. W promieniu 50 m od wysokiej sztucznej przeszkody (powyżej 105 m) podmiot za nią odpowiedzialny może wystąpić o zezwolenie na lot do 15 m powyżej wysokości przeszkody.",
+      "Musisz zarejestrować się jako operator drona, jeśli dron waży 250 g lub więcej albo może przekazać przy uderzeniu energię większą niż 80 J — dotyczy to także zabawek. Poniżej 250 g rejestracja nadal jest wymagana, jeśli dron ma czujnik umożliwiający rejestrowanie danych osobowych, chyba że kwalifikuje się jako zabawka zgodnie z EU Toy Safety Directive. Wymagania dotyczące szkolenia i świadectwa pilota są odrębne i zależą od klasy drona oraz podkategorii.",
+      "W Irlandii trzeba mieć co najmniej 16 lat, aby zarejestrować się jako operator drona; rodzic lub opiekun może zarejestrować się w imieniu młodszej osoby, która może wtedy latać wyłącznie pod bezpośrednim nadzorem tego dorosłego. Do samodzielnego latania w kategorii otwartej wymagane są szkolenie online i egzamin A1/A3.",
+      "Certyfikat A2 do operacji w pobliżu osób (egzamin + test praktyczny u zatwierdzonego ośrodka szkoleniowego)",
+      "Irlandzka rejestracja EASA jest ważna we wszystkich państwach członkowskich UE",
+      "W kategorii otwartej utrzymuj drona w bezpośrednim zasięgu własnego wzroku bez użycia przyrządów (okulary lub soczewki są dozwolone; lornetka ani ekran się nie liczą) — możesz też latać z pomocą obserwatora, pod warunkiem stałej, jasnej i skutecznej komunikacji między wami, tak abyście wspólnie mogli obserwować przestrzeń powietrzną i unikać kolizji. Tryb follow-me jest odrębnym wyjątkiem i jest dozwolony do 50 m od pilota.",
+      "Minimalnie 30 m od osób, tłumów, pojazdów i budynków",
+      "Nie istnieje jedna obowiązująca w całej UE odległość od lotnisk. Ograniczenia w pobliżu lotnisk są publikowane jako strefy geograficzne (Article 15), których kształt i rozmiar różnią się w zależności od lotniska. Przed lotem w pobliżu lotniska, lądowiska lub lądowiska dla śmigłowców sprawdź oficjalną mapę stref dronowych danego kraju; lot wewnątrz strefy kontrolowanej (CTR) zwykle wymaga wcześniejszego zezwolenia kontroli ruchu lotniczego.",
+      "Phoenix Park (Dublin): bezwzględny zakaz lotów dronów",
+      "Parki narodowe wymagają zezwolenia NPWS — większość zakazuje dronów w okresie lęgowym"
+    ],
+    "importantNotes": [
+      "Gardaí (policja) mogą nakładać na miejscu mandaty w wysokości od 500 € za naruszenia (od sierpnia 2025)",
+      "Irlandia Północna to Wielka Brytania — całkowicie odmienne przepisy (UK CAA, nie IAA/EASA)",
+      "Strefy ograniczeń wokół lotnisk różnią się rozmiarem; strefa wokół lotniska w Dublinie obejmuje znaczną część miasta. Przed lotem w pobliżu lotniska sprawdź oficjalną irlandzką mapę dronową.",
+      "Lot bez zezwolenia w strefach czerwonych jest przestępstwem",
+      "RODO ma zastosowanie przy wykonywaniu zdjęć umożliwiających identyfikację osób — jesteś administratorem danych"
+    ],
+    "primaryLinks": [
+      {
+        "title": "IAA — Przepisy dronowe",
+        "description": "Oficjalne centrum Irlandzkiego Urzędu Lotnictwa z zasadami i materiałami dla dronów"
+      },
+      {
+        "title": "IAA — Rejestracja jako operator",
+        "description": "Rejestracja jako operator UAS (40 €, ważna 2 lata, uznawana we wszystkich krajach UE/EASA)"
+      },
+      {
+        "title": "IAA — Mapa stref geograficznych",
+        "description": "Oficjalna mapa stref czerwonych/bursztynowych/zielonych — sprawdzaj przed każdym lotem"
+      },
+      {
+        "title": "SafeDrone — Mapa przestrzeni powietrznej",
+        "description": "Wyszukiwanie według lokalizacji lub kodu Eircode w celu sprawdzenia ograniczeń przestrzeni powietrznej i informacji o strefach"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "IAA — FAQ o bezpieczeństwie i przepisach",
+        "description": "Najczęściej zadawane pytania dotyczące irlandzkich przepisów dronowych"
+      },
+      {
+        "title": "Citizens Information — Posiadanie drona",
+        "description": "Przystępny przewodnik po posiadaniu drona i zasadach w Irlandii"
+      },
+      {
+        "title": "UAAI — Materiały o przestrzeni powietrznej",
+        "description": "Społecznościowe materiały o przestrzeni powietrznej oraz narzędzia do planowania"
+      }
+    ]
+  }
 }

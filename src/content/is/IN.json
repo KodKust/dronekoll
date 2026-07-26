@@ -1,48 +1,48 @@
 {
- "meta": {
-  "sourceHash": "8723bef5a4524ad2ccd415d49676bf8a",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Athugaðu ávallt opinberar heimildir DGCA og DigitalSky áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild. Indland notar skyldubundinn stafrænan vettvang fyrir alla drónareglufylgni.",
-  "sectionLabelRules": "HELSTU REGLUR",
-  "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
-  "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
-  "linksSheetTitle": "Loftrými og reglur — Indland",
-  "dronePilotCredentialName": "Fjarflugmannsskírteini",
-  "keyRules": [
-   "Rautt/gult/grænt svæðakerfi — athugaðu DigitalSky fyrir hvert flug",
-   "Trygging skyldubundin fyrir alla flokka nema Nanó",
-   "Fjarflugmannsskírteini (RPC) nauðsynlegt fyrir atvinnunotkun eða dróna yfir 2 kg",
-   "Haltu ávallt sjónlínu (VLOS)",
-   "Flug á rauðum svæðum er stranglega bannað án sérstakrar heimildar"
-  ],
-  "importantNotes": [
-   "DigitalSky-skráning er skyldubundin — óskráðir drónar (nema Nanó) eiga á hættu haldlagningu",
-   "Rauð svæði ná til flugvalla, hersvæða, landamæra og viðkvæmra staða",
-   "Trygging er skyldubundin fyrir dróna í flokkunum Míkró, Lítill og Miðlungs"
-  ],
-  "primaryLinks": [
-   {
-    "title": "DigitalSky — DGCA-vettvangur",
-    "description": "Skyldubundinn vettvangur fyrir drónaskráningu, flugheimildir og svæðaathuganir"
-   },
-   {
-    "title": "DGCA — Drónareglugerðir",
-    "description": "Opinberar drónareglur og umburðarbréf Aðalflugmálastjórnar"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "DGCA — Fjarflugmannsskírteini",
-    "description": "Kröfur um RPC fyrir atvinnunotkun eða dróna yfir 2 kg"
-   },
-   {
-    "title": "DigitalSky — Loftrýmissvæðakort",
-    "description": "Rautt, gult og grænt svæðakort fyrir allt Indland"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir DGCA og DigitalSky áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild. Indland notar skyldubundinn stafrænan vettvang til að uppfylla allar reglur um dróna.",
+    "sectionLabelRules": "HELSTU REGLUR",
+    "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
+    "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
+    "linksSheetTitle": "Loftrými og reglur — Indland",
+    "dronePilotCredentialName": "Fjarflugmannsskírteini",
+    "keyRules": [
+      "DigitalSky skiptir loftrýminu í Green-svæði (sjálfvirk heimild strax), Yellow-svæði (stýrt loftrými, sjálfvirk afgreiðsla tekur um 15-30 mín. — þar á meðal beltið umhverfis flugvelli, um það bil 8-12 km) og Red-svæði (takmörkuð svæði þar sem handvirkt samþykki er nauðsynlegt). Athugaðu alltaf DigitalSky áður en þú flýgur, því nákvæm mörk svæða við tiltekinn flugvöll geta vikið frá þessu almenna mynstri.",
+      "Trygging er skyldubundin fyrir alla flokka nema Nano",
+      "Remote Pilot Certificate (RPC) er nauðsynlegt fyrir atvinnunotkun Micro-dróna (250g-2kg) og stærri dróna og er skyldubundið fyrir alla dróna í Small-flokki (2-25 kg) og stærri flokkum óháð tilgangi. Nano-drónar (<250g) þurfa aldrei RPC, jafnvel ekki í atvinnunotkun.",
+      "Öll flug verða að vera innan sjónlínu — dróninn verður að vera sýnilegur berum augum allan tímann, án sjónauka eða sambærilegra hjálpartækja — nema DGCA hafi veitt sérstaka EVLOS/BVLOS-heimild.",
+      "Flug á Red-svæðum er stranglega bannað án sérstakrar heimildar frá viðkomandi yfirvaldi í gegnum DigitalSky."
+    ],
+    "importantNotes": [
+      "DigitalSky-skráning er skyldubundin fyrir alla dróna nema Nano (<250g), sem þarf hvorki skráningu né UIN. Flug með óskráðum dróna sem skráningarskylda gildir um getur leitt til haldlagningar.",
+      "Rauð svæði ná til flugvalla, hersvæða, landamæra og viðkvæmra staða",
+      "Trygging er skyldubundin fyrir dróna í Micro-, Small- og Medium-flokkum"
+    ],
+    "primaryLinks": [
+      {
+        "title": "DigitalSky — DGCA-vettvangur",
+        "description": "Skyldubundinn vettvangur fyrir drónaskráningu, flugheimildir og svæðaathuganir"
+      },
+      {
+        "title": "DGCA — Drónareglugerðir",
+        "description": "Opinberar drónareglur og umburðarbréf Aðalflugmálastjórnar"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "DGCA — Fjarflugmannsskírteini",
+        "description": "Kröfur um RPC fyrir atvinnunotkun eða dróna yfir 2 kg"
+      },
+      {
+        "title": "DigitalSky — Loftrýmissvæðakort",
+        "description": "Rautt, gult og grænt svæðakort fyrir allt Indland"
+      }
+    ]
+  }
 }

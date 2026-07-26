@@ -1,71 +1,71 @@
 {
- "meta": {
-  "sourceHash": "552be0e829692206489496fe6ca91a32ed231ba21bc0abd64eefd98c31764ced",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Altitude de vol maximale : 120 m au-dessus du sol (catégorie ouverte EASA).",
-   "En règle générale, l'exploitant doit être enregistré si le drone pèse au moins 250 g ou est équipé d'une caméra ou d'un capteur capable de collecter des données à caractère personnel, à moins qu'il ne relève de l'exception relative aux jouets. Les exigences en matière de licence de pilotage de drone et de distance dépendent de la classe, du poids et de la sous-catégorie du drone.",
-   "Un certificat de drone A1/A3 est requis si le drone pèse 250 g ou plus — examen théorique en ligne administré par l'Agence suédoise des transports (payant ; le certificat est valable 5 ans). Âge minimum pour piloter un drone de manière autonome : 15 ans. Les moins de 15 ans ne peuvent voler qu'avec un certificat de drone valide et sous la supervision d'un télépilote âgé de 16 ans ou plus titulaire d'un certificat de drone valide.",
-   "Le numéro d'exploitant doit être clairement apposé sur le drone.",
-   "Gardez le drone en vue directe (VLOS) — ne volez pas au coin des rues ni derrière des bâtiments.",
-   "A1 : drones de moins de 250 g — vol autorisé au-dessus de personnes non impliquées (mais pas de rassemblements).",
-   "A2 : drones jusqu'à 4 kg — au moins 30 m des personnes présentes (5 m en mode basse vitesse). Nécessite un certificat A2.",
-   "A3 : drones jusqu'à 25 kg — au moins 150 m des zones résidentielles, commerciales, industrielles et de loisirs.",
-   "Ne survolez jamais un rassemblement de personnes sans autorisation spéciale.",
-   "Consultez la carte des drones LFV (LFV Drone Map) et les NOTAM avant chaque vol."
-  ],
-  "importantNotes": [
-   "Depuis le 1er janvier 2026, piloter un drone de 250 g ou plus sans certificat de drone valide constitue une infraction pénale — passible d'une amende ou d'une peine pouvant aller jusqu'à six mois de prison.",
-   "Les réserves naturelles et les parcs nationaux ont souvent leurs propres restrictions — renseignez-vous auprès du conseil d'administration du comté (County Administrative Board) pour la zone concernée.",
-   "Les sites protégés peuvent faire l'objet d'une interdiction d'accès et de prise de vue, et peuvent également se trouver dans une zone réglementée. Vérifiez la signalisation, les décisions officielles et les informations actualisées relatives à l'espace aérien pour ce site.",
-   "Toute personne pilotant un drone est tenue de signaler les incidents ayant entraîné des blessures graves, un décès ou impliquant un aéronef piloté. D’autres exigences peuvent s’appliquer aux activités soumises à autorisation. L'Agence suédoise des transports encourage également la déclaration volontaire d'autres incidents liés à la sécurité.",
-   "L'assurance est fortement recommandée — certaines assurances habitation couvrent les vols de drone, d'autres non."
-  ],
-  "primaryLinks": [
-   {
-    "title": "Agence suédoise des transports — Réglementation des drones",
-    "description": ""
-   },
-   {
-    "title": "LFV Drone Map — Espace aérien",
-    "description": ""
-   },
-   {
-    "title": "Enregistrement de l'exploitant (requis si ≥250 g ou caméra)",
-    "description": ""
-   },
-   {
-    "title": "Certificat de drone A1/A3 — Examen théorique en ligne (requis si ≥250 g, à partir de 15 ans)",
-    "description": ""
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Certificat A2 (drones de plus de 500 g ou vol à proximité de personnes)",
-    "description": ""
-   },
-   {
-    "title": "AROweb — NOTAM et AIP Suède",
-    "description": ""
-   },
-   {
-    "title": "Sites protégés — Contactez les forces armées suédoises",
-    "description": ""
-   },
-   {
-    "title": "Réserves naturelles — Renseignez-vous auprès de votre conseil d'administration du comté",
-    "description": ""
-   }
-  ],
-  "disclaimerText": "Vérifiez toujours les sources officielles avant de voler. Cette application est un outil — pas une source juridique. Les règles peuvent changer sans préavis.",
-  "sectionLabelRules": "RÈGLES IMPORTANTES",
-  "sectionLabelPrimary": "SOURCES OFFICIELLES",
-  "sectionLabelSecondary": "AVANCÉ / CAS PARTICULIERS",
-  "linksSheetTitle": "Espace aérien et réglementation",
-  "dronePilotCredentialName": "certificat de drone A1/A3"
- }
+  "meta": {
+    "sourceHash": "552be0e829692206489496fe6ca91a32ed231ba21bc0abd64eefd98c31764ced",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Altitude de vol maximale : 120 m au-dessus du sol (catégorie ouverte EASA).",
+      "En règle générale, l'exploitant doit être enregistré si le drone pèse au moins 250 g ou est équipé d'une caméra ou d'un capteur capable de collecter des données à caractère personnel, à moins qu'il ne relève de l'exception relative aux jouets. Les exigences en matière de licence de pilotage de drone et de distance dépendent de la classe, du poids et de la sous-catégorie du drone.",
+      "Un certificat de drone A1/A3 est requis si le drone pèse 250 g ou plus — examen théorique en ligne administré par la Swedish Transport Agency (payant ; le certificat est valable 5 ans). Âge minimum pour piloter un drone de manière autonome : 15 ans. Les moins de 15 ans ne peuvent voler qu'avec un certificat de drone valide et sous la supervision d'un télépilote âgé de 16 ans ou plus titulaire d'un certificat de drone valide.",
+      "Le numéro d'exploitant doit être clairement apposé sur le drone.",
+      "Gardez le drone en vue directe (VLOS) — ne le faites pas passer hors de vue derrière un angle ou un bâtiment.",
+      "A1 : drones de moins de 250 g — vol autorisé au-dessus de personnes non impliquées (mais pas de rassemblements).",
+      "A2 : drones jusqu'à 4 kg — au moins 30 m des personnes présentes (5 m en mode basse vitesse). Nécessite un certificat A2.",
+      "A3 : drones jusqu'à 25 kg — au moins 150 m des zones résidentielles, commerciales, industrielles et de loisirs.",
+      "Ne survolez jamais un rassemblement de personnes sans autorisation spéciale.",
+      "Consultez la carte des drones LFV (LFV Drone Map) et les NOTAM avant chaque vol."
+    ],
+    "importantNotes": [
+      "Depuis le 1er janvier 2026, piloter un drone de 250 g ou plus sans certificat de drone valide constitue une infraction pénale — passible d'une amende ou d'une peine pouvant aller jusqu'à six mois de prison.",
+      "Les réserves naturelles et les parcs nationaux ont souvent leurs propres restrictions — renseignez-vous auprès de la County Administrative Board compétente pour la zone concernée.",
+      "Les sites protégés peuvent être soumis à des restrictions d'accès et de photographie, et peuvent également se trouver dans une zone réglementée. Vérifiez la signalisation, les décisions officielles et les dernières informations sur l'espace aérien pour le lieu concerné.",
+      "Quiconque exploite un drone doit signaler les incidents dans lesquels une personne a été grièvement blessée, un accident mortel s'est produit ou un aéronef habité a été impliqué. D'autres exigences peuvent s'appliquer aux activités soumises à autorisation. La Swedish Transport Agency encourage également le signalement volontaire d'autres incidents de sécurité.",
+      "L'assurance est fortement recommandée — certaines assurances habitation couvrent les vols de drone, d'autres non."
+    ],
+    "primaryLinks": [
+      {
+        "title": "Agence suédoise des transports — Réglementation des drones",
+        "description": ""
+      },
+      {
+        "title": "LFV Drone Map — Espace aérien",
+        "description": ""
+      },
+      {
+        "title": "Enregistrement de l'exploitant (requis si ≥250 g ou caméra)",
+        "description": ""
+      },
+      {
+        "title": "Certificat de drone A1/A3 — Examen théorique en ligne (requis si ≥250 g, à partir de 15 ans)",
+        "description": ""
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Certificat A2 (drones de plus de 500 g ou vol à proximité de personnes)",
+        "description": ""
+      },
+      {
+        "title": "AROweb — NOTAM et AIP Suède",
+        "description": ""
+      },
+      {
+        "title": "Sites protégés — Contactez les forces armées suédoises",
+        "description": ""
+      },
+      {
+        "title": "Réserves naturelles — Renseignez-vous auprès de votre conseil d'administration du comté",
+        "description": ""
+      }
+    ],
+    "disclaimerText": "Vérifiez toujours les sources officielles avant de voler. Cette application est un outil — pas une source juridique. Les règles peuvent changer sans préavis.",
+    "sectionLabelRules": "RÈGLES IMPORTANTES",
+    "sectionLabelPrimary": "SOURCES OFFICIELLES",
+    "sectionLabelSecondary": "CAS AVANCÉS / CAS PARTICULIERS",
+    "linksSheetTitle": "Espace aérien et réglementation",
+    "dronePilotCredentialName": "Certificat de drone A1/A3"
+  }
 }

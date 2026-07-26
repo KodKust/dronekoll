@@ -1,54 +1,54 @@
 {
- "meta": {
-  "sourceHash": "eaa7abf236bd1a6fbe4e339875dc13bc",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Athugaðu ávallt opinberar heimildir CAAP áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild. Reglur kunna að breytast án fyrirvara.",
-  "sectionLabelRules": "HELSTU REGLUR",
-  "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
-  "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
-  "linksSheetTitle": "Loftrými og reglur — Filippseyjar",
-  "dronePilotCredentialName": "RPA-stjórnandavottorð",
-  "keyRules": [
-   "Að hámarki 400 fet (122 m) yfir jörðu",
-   "Haltu ávallt sjónlínu (VLOS)",
-   "Skráning nauðsynleg fyrir ALLA drónanotkun í atvinnuskyni (hvaða þyngd sem er); drónar sem ekki eru notaðir í atvinnuskyni eru aðeins skráðir frá 7 kg og yfir samkvæmt CAAP PCAR Part 11",
-   "10 km frá hvaða flugvelli sem er — stranglega framfylgt",
-   "30 m lágmarksfjarlægð frá fólki sem ekki tekur þátt í fluginu",
-   "Ekkert næturflug án sérstaks leyfis frá CAAP",
-   "RPA-stjórnandavottorð nauðsynlegt fyrir atvinnunotkun eða dróna yfir 7 kg (gildir í 5 ár)",
-   "UAS-rekstrarvottorð nauðsynlegt fyrir atvinnurekstur (gildir í 3 ár)",
-   "Trygging skyldubundin fyrir atvinnurekstur",
-   "Víktu ávallt fyrir öllum mönnuðum loftförum"
-  ],
-  "importantNotes": [
-   "10 km bannsvæðið við flugvelli er strangara en í flestum löndum",
-   "Rekstraraðilar í atvinnuskyni þurfa bæði RPA-stjórnandavottorð (5 ár) og UAS-rekstrarvottorð (3 ár)",
-   "Næturflug krefst sérstaks leyfis frá CAAP — ekki heimilt sjálfgefið",
-   "Trygging er skyldubundin fyrir allan drónarekstur í atvinnuskyni"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAAP — RPAS-reglugerðir",
-    "description": "Opinberar drónareglugerðir Flugmálastjórnar Filippseyja"
-   },
-   {
-    "title": "CAAP — Aðalgátt",
-    "description": "Aðalvefur Flugmálastjórnar Filippseyja"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAAP — UA-skráningargátt",
-    "description": "Skráðu drónann þinn í UA-skrá CAAP"
-   },
-   {
-    "title": "CAAP — Atvinnuleyfisveitingar",
-    "description": "Kröfur um RPA-stjórnandavottorð og UAS-rekstrarvottorð"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "e85b5f3541d893697ea6591ad6e2d83b",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir CAAP áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild. Reglur kunna að breytast án fyrirvara.",
+    "sectionLabelRules": "HELSTU REGLUR",
+    "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
+    "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
+    "linksSheetTitle": "Loftrými og reglur — Filippseyjar",
+    "dronePilotCredentialName": "RPA-stjórnandavottorð",
+    "keyRules": [
+      "Að hámarki 400 fet (122 m) yfir jörðu",
+      "Þú verður alltaf að halda beinni sjónsnertingu við drónann án hjálpartækja (gleraugu eða augnlinsur eru í lagi). Flug með FPV-gleraugum er aðeins heimilt með sjónrænum áhorfanda sem heldur VLOS; flug utan sjónlínu krefst heimildar CAAP (PCAR Part 11).",
+      "Skráning er nauðsynleg fyrir ALLA drónanotkun í atvinnuskyni (óháð þyngd); drónar sem ekki eru notaðir í atvinnuskyni þurfa aðeins skráningu ef þeir vega 7 kg eða meira samkvæmt CAAP PCAR Part 11",
+      "Haltu að minnsta kosti 10 km fjarlægð frá öllum flugvöllum — þetta öryggissvæði var stækkað með CAAP Memorandum Circular 026-2025 eftir að drónar sáust nálægt NAIA (Manila) seint 2024/snemma 2025 og reglunni er framfylgt af hörku.",
+      "30 m lágmarksfjarlægð frá fólki sem ekki tekur þátt í fluginu",
+      "Næturflug krefst sérstaks leyfis CAAP og viðeigandi ljósa á drónanum — það er ekki sjálfkrafa heimilt.",
+      "RPA-stjórnandavottorð nauðsynlegt fyrir atvinnunotkun eða dróna yfir 7 kg (gildir í 5 ár)",
+      "Atvinnurekstur krefst UAS Operator Certificate (gildir í 3 ár) auk Remote Pilot License fyrir flugmanninn. Remote Pilot License er nauðsynlegt fyrir atvinnunotkun eða dróna sem vega 7 kg eða meira, jafnvel í tómstundaflugi.",
+      "Ábyrgðartrygging er nauðsynleg sem hluti af ferlinu við að fá UAS Operator Certificate fyrir atvinnurekstur.",
+      "Víktu ávallt fyrir öllum mönnuðum loftförum"
+    ],
+    "importantNotes": [
+      "10 km flugbannssvæðið við flugvelli (stækkað 2025 með MC 026-2025) er strangara en hefðbundin 3-9 km svæði í flestum löndum.",
+      "Rekstraraðilar í atvinnuskyni þurfa bæði RPA-stjórnandavottorð (5 ár) og UAS-rekstrarvottorð (3 ár)",
+      "Næturflug er ekki sjálfkrafa heimilt — þú þarft sérstakt leyfi CAAP og viðeigandi ljós á drónanum.",
+      "Ábyrgðartrygging er skyldubundin fyrir allan drónarekstur í atvinnuskyni sem hluti af ferlinu fyrir Operator Certificate."
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAAP — RPAS-reglugerðir",
+        "description": "Opinberar drónareglugerðir Flugmálastjórnar Filippseyja"
+      },
+      {
+        "title": "CAAP — Aðalgátt",
+        "description": "Aðalvefur Flugmálastjórnar Filippseyja"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAAP — UA-skráningargátt",
+        "description": "Skráðu drónann þinn í UA-skrá CAAP"
+      },
+      {
+        "title": "CAAP — Atvinnuleyfisveitingar",
+        "description": "Kröfur um RPA-stjórnandavottorð og UAS-rekstrarvottorð"
+      }
+    ]
+  }
 }

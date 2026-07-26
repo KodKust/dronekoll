@@ -1,66 +1,66 @@
 {
- "meta": {
-  "sourceHash": "0f0a6121bbc9f46e91e7d5d2f7ae284d",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Athugaðu ávallt opinberar heimildir Transport Canada áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild. Samþykktir fylkja, sjálfstjórnarsvæða og sveitarfélaga kunna að bæta við takmörkunum.",
-  "sectionLabelRules": "HELSTU REGLUR",
-  "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
-  "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
-  "linksSheetTitle": "Loftrými og reglur — Kanada",
-  "dronePilotCredentialName": "Flugmannsvottorð",
-  "keyRules": [
-   "Að hámarki 122 m (400 fet) yfir jörðu",
-   "Sýndu skráningarnúmerið (C-F####) á drónanum",
-   "Grunnvottorð: 14 ára+, 35 spurninga próf (65% lágmark) — aðeins óstýrt loftrými",
-   "Framhaldsvottorð: 16 ára+, 50 spurninga próf (80% lágmark) + flugmat — stýrt loftrými",
-   "Drónar undir 250 g: engin skráning eða vottorð nauðsynlegt",
-   "Haltu ávallt sjónlínu (VLOS) — bein sjónsnerting án hjálpartækja",
-   "Haltu 30 m láréttri fjarlægð frá fólki (grunnrekstur)",
-   "NAV DRONE heimild fyrir stýrt loftrými (aðeins framhaldsvottorð); grunnrekstur: 5,6 km (3 sjómílur) frá flugvöllum, 1,9 km (1 sjómíla) frá þyrlupöllum",
-   "Fylkisgarðar banna almennt tómstundadrónanotkun — athugaðu áður en þú flýgur"
-  ],
-  "importantNotes": [
-   "Fylkisgarðar í Bresku Kólumbíu og Alberta banna tómstundadróna án leyfis",
-   "Fylkisgarðar í Ontario og borgargarðar í Toronto banna tómstundadróna",
-   "Flest sveitarfélög banna dróna í almenningsgörðum án leyfis",
-   "Trygging er ekki nauðsynleg fyrir grunnrekstur en eindregið mælt með henni",
-   "Level 1 Complex Operations vottorð (frá nóvember 2025) gerir kleift að stunda áhættulítinn BVLOS-rekstur án SFOC"
-  ],
-  "primaryLinks": [
-   {
-    "title": "Transport Canada — Drónaöryggi",
-    "description": "Opinber miðstöð fyrir allar kanadískar drónareglugerðir, leyfisveitingar og skráningu"
-   },
-   {
-    "title": "Transport Canada — Skráðu drónann þinn",
-    "description": "Skráðu dróna 250 g+ í gegnum Drone Management Portal (5 $, ~3 mínútur)"
-   },
-   {
-    "title": "NAV DRONE — Stýrt loftrými",
-    "description": "Sæktu um aðgang að stýrðu loftrými (framhaldsvottorð nauðsynlegt)"
-   },
-   {
-    "title": "Transport Canada — Flugmannsvottorð",
-    "description": "Próf og kröfur fyrir grunn- og framhaldsflugmannsvottorð"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Transport Canada — Hvar má fljúga",
-    "description": "Reglur um hvar má og má ekki fljúga drónum í Kanada"
-   },
-   {
-    "title": "Transport Canada — Fljúgðu örugglega og löglega",
-    "description": "Heildarleiðbeining um öruggan og löglegan drónarekstur"
-   },
-   {
-    "title": "Transport Canada — Reglubreytingar 2025",
-    "description": "Samantekt á nýjum tegundum drónareksturs, þar á meðal BVLOS og EVLOS"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "51b497a18aafd4cff4e8165ebea4d22e",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir Transport Canada áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild. Samþykktir fylkja, sjálfstjórnarsvæða og sveitarfélaga kunna að bæta við takmörkunum.",
+    "sectionLabelRules": "HELSTU REGLUR",
+    "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
+    "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
+    "linksSheetTitle": "Loftrými og reglur — Kanada",
+    "dronePilotCredentialName": "Flugmannsvottorð",
+    "keyRules": [
+      "Að hámarki 122 m (400 fet) yfir jörðu",
+      "Sýndu skráningarnúmerið (C-F####) á drónanum",
+      "Grunnvottorð: 14 ára og eldri, 35 spurninga próf (65% til að standast) — aðeins óstýrt loftrými",
+      "Framhaldsvottorð: 16 ára og eldri, 50 spurninga próf (80% til að standast) + flugmat — stýrt loftrými",
+      "Drónar undir 250 g: hvorki þarf skráningu né vottorð",
+      "Haltu ávallt sjónlínu (VLOS) — bein sjónsnerting án hjálpartækja",
+      "Haltu 30 m láréttri fjarlægð frá fólki (grunnrekstur)",
+      "Nema farið sé eftir skilgreindu verklagi Transport Canada skal halda 5,6 km (3 NM) fjarlægð frá vottuðum flugvöllum og 1,9 km (1 NM) frá vottuðum þyrlupöllum. Flug í stýrðu loftrými krefst framhaldsvottorðs og NAV DRONE-heimildar.",
+      "Fylkis- og þjóðgarðar banna almennt tómstundaflug dróna — staðfest bann gildir í fylkisgörðum Alberta, Ontario og Bresku Kólumbíu og í öllum þjóðgörðum Parks Canada. Athugaðu reglur viðkomandi garðs áður en þú flýgur."
+    ],
+    "importantNotes": [
+      "Fylkisgarðar í Bresku Kólumbíu og Alberta banna tómstundadróna án leyfis",
+      "Fylkisgarðar í Ontario og borgargarðar í Toronto banna tómstundadróna",
+      "Flest sveitarfélög banna dróna í almenningsgörðum án leyfis",
+      "Trygging er ekki nauðsynleg fyrir grunnrekstur en eindregið mælt með henni",
+      "Level 1 Complex Operations vottorð (frá nóvember 2025) gerir kleift að stunda áhættulítinn BVLOS-rekstur án SFOC"
+    ],
+    "primaryLinks": [
+      {
+        "title": "Transport Canada — Drónaöryggi",
+        "description": "Opinber miðstöð fyrir allar kanadískar drónareglugerðir, leyfisveitingar og skráningu"
+      },
+      {
+        "title": "Transport Canada — Skráðu drónann þinn",
+        "description": "Skráðu dróna 250 g+ í gegnum Drone Management Portal (5 $, ~3 mínútur)"
+      },
+      {
+        "title": "NAV DRONE — Stýrt loftrými",
+        "description": "Sæktu um aðgang að stýrðu loftrými (framhaldsvottorð nauðsynlegt)"
+      },
+      {
+        "title": "Transport Canada — Flugmannsvottorð",
+        "description": "Próf og kröfur fyrir grunn- og framhaldsflugmannsvottorð"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Transport Canada — Hvar má fljúga",
+        "description": "Reglur um hvar má og má ekki fljúga drónum í Kanada"
+      },
+      {
+        "title": "Transport Canada — Fljúgðu örugglega og löglega",
+        "description": "Heildarleiðbeining um öruggan og löglegan drónarekstur"
+      },
+      {
+        "title": "Transport Canada — Reglubreytingar 2025",
+        "description": "Samantekt á nýjum tegundum drónareksturs, þar á meðal BVLOS og EVLOS"
+      }
+    ]
+  }
 }

@@ -1,26 +1,26 @@
 {
   "meta": {
-    "sourceHash": "b3162ca911ac55fba8e7336c9f471c36",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maksimaalselt 120 m (400 ft) maapinnast",
-      "Flyer ID nõutav alates 100 g — läbi CAA veebitest (40 küsimust, 75% läbimispiir)",
-      "Säilita alati visuaalne nägemisulatus (VLOS) — maksimaalselt ~500 m horisontaalselt",
-      "Vähemalt 50 m kaasamata inimestest (30 m / 5 m kehtivad ainult UK klassimärgisega droonidele A2 sertifikaadiga)",
-      "5 km lennupiirangutsoon lennujaamade ümber — lendamine keelatud ilma loata",
-      "Kindlustus kohustuslik mitteharrastuslikuks kasutuseks või 20 kg ja raskematele droonidele",
+      "Flyer ID on nõutav alates 100 g — soorita CAA veebitest (40 küsimust, läbimispiir 75%)",
+      "Hoia drooni kogu aeg oma otseses, abivahenditeta vaateväljas ning piisavalt lähedal, et näha, mis suunas see on pööratud, ja märgata teisi õhusõidukeid. Seaduses ei ole kindlat maksimaalset kaugust meetrites — lennukaugus sõltub nähtavusest, valgustusest ja droonist endast, mitte etteantud raadiusest.",
+      "Vähemalt 50 m kaugusel lennutegevusega mitteseotud inimestest (30 m / 5 m kehtivad ainult UK klassimärgisega droonidele, kui piloodil on A2 sertifikaat)",
+      "Lennujaamu ümbritsevad lennupiirangutsoonid (FRZ), kuid nende täpne kuju ja suurus sõltuvad lennujaamast — universaalset „5 km ringi” ei ole. Enne lennujaama lähedal lendamist kontrolli alati konkreetset FRZ-i CAA ametlikult drooniohutuse kaardilt.",
+      "Kolmanda isiku vastutuskindlustus (EC Regulation 785/2004 kohaselt) on kohustuslik ärilistel või muudel mitteharrastuslikel lendudel ning kõigi vähemalt 20 kg kaaluvate droonide puhul — kergemate droonide harrastuskasutusel on see vabatahtlik, kuid soovitatav.",
       "Remote ID võetakse järk-järgult kasutusele: alates 2026. aasta jaanuarist UK klassimärgisega droonidele (UK1/UK2/UK3/UK5/UK6); täielikult kohustuslik 2028. aasta jaanuaris",
       "Ühendkuningriik EI ole EASA osa — EL-i piloodisertifikaadid ei kehti Ühendkuningriigis",
-      "Londonil on alalised piiranguga tsoonid (R157, R158, R159) — kõik droonid keelatud"
+      "Londonis on kolm alalist piiranguala — R157 (Hyde Park/royal residences), R158 (City of London/Square Mile, väike ~0,5 NM tsoon finantspiirkonna ümber) ja R159 (Canary Wharf/Isle of Dogs). Kõik droonid on olenemata suurusest keelatud, välja arvatud juhul, kui NATS on andnud loa vähemalt 28 päeva ette esitatud Non-Standard Flight taotluse alusel. Parliament ja Downing Street asuvad Westminsteris, väljaspool kõiki kolme R-tsooni, ning neid kaitstakse muude meetmetega."
     ],
     "importantNotes": [
       "Ühendkuningriigi registreerimispiir on 100 g — rangem kui EL-i 250 g",
       "EL/EASA droonisertifikaate EI tunnustata Ühendkuningriigis pärast Brexitit",
-      "Kohalikud volikogud võivad piirata lendamist oma maal — kontrolli enne parkides lendamist",
+      "Kohalikud omavalitsused võivad oma territooriumil lendamist piirata — kontrolli reegleid enne parkides lendamist",
       "Vanglatel on ~1 km lennukeelutsoonid — õhusõidukite ohtu seadmine toob kaasa kuni 5 aastat vangistust"
     ],
     "primaryLinks": [
@@ -55,7 +55,7 @@
         "description": "Ühendkuningriigi Remote ID nõuded alates 2026. aasta jaanuarist"
       }
     ],
-    "disclaimerText": "Kontrolli enne lendamist alati CAA ametlikke allikaid. See rakendus on tööriist, mitte juriidiline autoriteet. Ühendkuningriigil on omad droonimäärused, mis on EL-ist/EASA-st eraldiseisvad. Kohalikud volikogu määrused võivad lisada täiendavaid piiranguid.",
+    "disclaimerText": "Kontrolli enne lendamist alati CAA ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Ühendkuningriigil on EL-ist/EASA-st eraldiseisvad droonireeglid. Kohalike omavalitsuste määrused võivad kehtestada lisapiiranguid.",
     "sectionLabelRules": "PÕHIREEGLID",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",

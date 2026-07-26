@@ -1,54 +1,54 @@
 {
- "meta": {
-  "sourceHash": "eaa7abf236bd1a6fbe4e339875dc13bc",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Verifică întotdeauna sursele oficiale CAAP înainte de zbor. Această aplicație este un instrument — nu o autoritate juridică. Regulile pot fi modificate fără notificare prealabilă.",
-  "sectionLabelRules": "REGULI ESENȚIALE",
-  "sectionLabelPrimary": "SURSE OFICIALE",
-  "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
-  "linksSheetTitle": "Spațiu aerian și reguli — Filipine",
-  "dronePilotCredentialName": "Certificat de operator RPA",
-  "keyRules": [
-   "Maximum 400 ft (122 m) deasupra nivelului solului",
-   "Menține întotdeauna raza vizuală directă (VLOS)",
-   "Înregistrare obligatorie pentru TOATE utilizările comerciale ale dronelor (indiferent de greutate); dronele necomerciale se înregistrează doar de la 7 kg în sus, conform CAAP PCAR Part 11",
-   "La 10 km de orice aeroport — strict aplicat",
-   "Distanță minimă de 30 m față de persoanele neimplicate",
-   "Fără zbor de noapte fără un permis special CAAP",
-   "Certificat de operator RPA necesar pentru uz comercial sau pentru dronele cu o greutate de peste 7 kg (valabil 5 ani)",
-   "Certificat de operator UAS necesar pentru operațiunile comerciale (valabil 3 ani)",
-   "Asigurare obligatorie pentru operațiunile comerciale",
-   "Cedează întotdeauna prioritatea tuturor aeronavelor cu pilot"
-  ],
-  "importantNotes": [
-   "Zona de excludere de 10 km în jurul aeroporturilor este mai strictă decât în majoritatea țărilor",
-   "Operatorii comerciali au nevoie atât de certificatul de operator RPA (5 ani), cât și de certificatul de operator UAS (3 ani)",
-   "Zborul de noapte necesită un permis special CAAP — nu este permis în mod implicit",
-   "Asigurarea este obligatorie pentru toate operațiunile comerciale cu drone"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAAP — reglementări RPAS",
-    "description": "Reglementările oficiale ale Autorității Aviației Civile a Filipinelor privind dronele"
-   },
-   {
-    "title": "CAAP — portalul principal",
-    "description": "Site-ul principal al Autorității Aviației Civile a Filipinelor"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAAP — portalul registrului UA",
-    "description": "Înregistrează-ți drona în registrul UA al CAAP"
-   },
-   {
-    "title": "CAAP — licențiere comercială",
-    "description": "Cerințele privind certificatul de operator RPA și certificatul de operator UAS"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "e85b5f3541d893697ea6591ad6e2d83b",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Verifică întotdeauna sursele oficiale ale CAAP înainte de zbor. Această aplicație este un instrument — nu o autoritate juridică. Regulile pot fi modificate fără notificare prealabilă.",
+    "sectionLabelRules": "REGULI ESENȚIALE",
+    "sectionLabelPrimary": "SURSE OFICIALE",
+    "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
+    "linksSheetTitle": "Spațiu aerian și reguli — Filipine",
+    "dronePilotCredentialName": "RPA Controller Certificate",
+    "keyRules": [
+      "Maximum 400 ft (122 m) deasupra nivelului solului",
+      "Trebuie să menții în permanență contactul vizual direct, fără mijloace auxiliare, cu drona (ochelarii de vedere sau lentilele de contact sunt permise). Zborul cu ochelari FPV este permis numai dacă un observator vizual menține VLOS; zborul fără contact vizual direct necesită autorizarea CAAP (PCAR Part 11).",
+      "Înregistrare obligatorie pentru TOATE utilizările comerciale ale dronelor (indiferent de greutate); dronele necomerciale se înregistrează doar de la 7 kg în sus, conform CAAP PCAR Part 11",
+      "Păstrează o distanță de cel puțin 10 km față de orice aeroport — această zonă-tampon a fost extinsă prin CAAP Memorandum Circular 026-2025, după observarea unor drone în apropierea NAIA (Manila) la sfârșitul anului 2024/începutul anului 2025, și este aplicată cu strictețe.",
+      "Distanță minimă de 30 m față de persoanele neimplicate",
+      "Zborul de noapte necesită un permis special CAAP și iluminare corespunzătoare pe dronă — nu este permis în mod implicit.",
+      "Un RPA Controller Certificate este necesar pentru utilizarea comercială sau pentru dronele cu o greutate de peste 7 kg (valabil 5 ani)",
+      "Operațiunile comerciale necesită un UAS Operator Certificate (valabil 3 ani), precum și o Remote Pilot License pentru pilot. Remote Pilot License este necesară pentru utilizarea comercială sau pentru dronele de 7 kg sau mai grele, chiar și în zbor recreativ.",
+      "Asigurarea de răspundere civilă este necesară în cadrul procesului de obținere a UAS Operator Certificate pentru operațiunile comerciale.",
+      "Cedează întotdeauna prioritatea tuturor aeronavelor cu pilot"
+    ],
+    "importantNotes": [
+      "Zona de excludere de 10 km din jurul aeroporturilor (extinsă în 2025 prin MC 026-2025) este mai strictă decât zonele-tampon obișnuite de 3-9 km din majoritatea țărilor.",
+      "Operatorii comerciali au nevoie atât de RPA Controller Certificate (5 ani), cât și de UAS Operator Certificate (3 ani)",
+      "Zborul de noapte nu este permis în mod implicit — ai nevoie de un permis special CAAP și de iluminare corespunzătoare pe dronă.",
+      "Asigurarea de răspundere civilă este obligatorie pentru toate operațiunile comerciale cu drone, ca parte a procesului de obținere a Operator Certificate."
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAAP — reglementări RPAS",
+        "description": "Reglementările oficiale ale Autorității Aviației Civile a Filipinelor privind dronele"
+      },
+      {
+        "title": "CAAP — portalul principal",
+        "description": "Site-ul principal al Autorității Aviației Civile a Filipinelor"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAAP — portalul registrului UA",
+        "description": "Înregistrează-ți drona în registrul UA al CAAP"
+      },
+      {
+        "title": "CAAP — licențiere comercială",
+        "description": "Cerințele privind certificatul de operator RPA și certificatul de operator UAS"
+      }
+    ]
+  }
 }
