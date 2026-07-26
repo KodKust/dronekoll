@@ -1,57 +1,57 @@
 {
- "meta": {
-  "sourceHash": "7f83002d17ec1f36dc5d2d21e4820aaa",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius CAD šaltinius. Ši programėlė yra įrankis, o ne teisinė institucija. Honkonge galioja savos dronų taisyklės — žemyninės Kinijos taisyklės netaikomos.",
-  "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
-  "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
-  "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
-  "linksSheetTitle": "Oro erdvė ir taisyklės — Honkongas",
-  "dronePilotCredentialName": "SUA piloto kvalifikacija",
-  "keyRules": [
-   "Iki 91 m (300 ft) virš žemės paviršiaus — žemiau nei daugumoje šalių",
-   "Registracija privaloma visiems sunkesniems nei 250 g dronams per eSUA portalą",
-   "5 km nuo oro uostų — skraidyti be CAD leidimo draudžiama",
-   "Mažiausias 50 m atstumas nuo operacijoje nedalyvaujančių žmonių",
-   "Tik dieną — skraidyti naktį be specialaus leidimo draudžiama",
-   "Viktorijos uosto vietovė yra ribojama",
-   "Visada išlaikykite tiesioginį regėjimo ryšį (VLOS)",
-   "Honkonge galioja savos taisyklės — NE žemyninės Kinijos"
-  ],
-  "importantNotes": [
-   "Didžiausias aukštis tik 91 m (300 ft) — gerokai žemesnis nei 120 m standartas daugumoje šalių",
-   "Draudimas privalomas ir brangus: 10 mln. HK$ suma sunkesniems nei 7 kg dronams",
-   "Honkonge galioja visiškai atskiros taisyklės nuo žemyninės Kinijos",
-   "Viktorijos uostui ir aplinkinėms vietovėms galioja skrydžių ribojimai",
-   "C kategorija (25–150 kg) įvesta 2025 m. liepą komercinėms pristatymo ir eVTOL operacijoms — reikalingas atskiras sertifikavimas"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAD — Mažų bepiločių orlaivių taisyklės",
-    "description": "Oficialios Civilinės aviacijos departamento dronų taisyklės ir gairės Honkongui"
-   },
-   {
-    "title": "eSUA — Registracijos portalas",
-    "description": "Užregistruokite droną ir pateikite skrydžio leidimų prašymus internetu"
-   },
-   {
-    "title": "CAD — Dronų žemėlapis",
-    "description": "Oficialus dronų žemėlapis, rodantis ribojamas zonas, oro uostus ir leidžiamas zonas"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAD — Pažengusiojo lygio mokymai",
-    "description": "Pažengusiojo lygio (Advanced Rating) mokymai, reikalingi sunkesniems nei 250 g dronams"
-   },
-   {
-    "title": "CAD — Draudimo reikalavimai",
-    "description": "Privalomojo civilinės atsakomybės draudimo reikalavimai dronų operacijoms"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius CAD šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Hong Kong galioja savos dronų taisyklės — mainland China taisyklės netaikomos.",
+    "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
+    "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
+    "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
+    "linksSheetTitle": "Oro erdvė ir taisyklės — Honkongas",
+    "dronePilotCredentialName": "SUA piloto kvalifikacija",
+    "keyRules": [
+      "Iki 91 m (300 ft) virš žemės paviršiaus — žemiau nei daugumoje šalių",
+      "Registracija privaloma visiems sunkesniems nei 250 g dronams per eSUA portalą",
+      "Ribojimai prie Hong Kong oro uostų nustatomi kaip oficialiai paskelbtos Restricted Flying Zones (RFZ) aplink HKIA ir kitus aerodromus bei sraigtasparnių aikšteles; jos rodomos CAD Drone Map — vieno fiksuoto atstumo nėra. Norint skristi RFZ viduje reikia CAD leidimo, o kai kurios teritorijos (pvz., Victoria Harbour) ribojamos nepriklausomai nuo atstumo iki bet kurio oro uosto.",
+      "Mažiausias 50 m atstumas nuo operacijoje nedalyvaujančių žmonių",
+      "Tik dieną — skraidyti naktį be specialaus leidimo draudžiama",
+      "Victoria Harbour teritorija yra ribojama",
+      "Visada išlaikykite tiesioginį regėjimo ryšį (VLOS)",
+      "Hong Kong galioja savos taisyklės — mainland China taisyklės čia NETAIKOMOS"
+    ],
+    "importantNotes": [
+      "Didžiausias aukštis tik 91 m (300 ft) — gerokai žemesnis nei 120 m standartas daugumoje šalių",
+      "Standartinėms Category A1 ir standartinio vertinimo A2 operacijoms draudimas NEREIKALINGAS. HK$10M draudimo apsauga taikoma pažangioms operacijoms ir Category B dronams; naujesnei Category C (25-150kg, įvestai 2025 m. liepos 18 d.) reikalinga HK$15M (25-75kg) arba HK$20M (75-150kg) draudimo apsauga. Pačios CAD reikalavimų lentelėje platesnio draudimo taikymo įsigaliojimo data nurodyta kaip „to be determined“ — prieš manydami, kad jūsų konkrečiai kategorijai draudimas privalomas, patikrinkite dabartinę padėtį.",
+      "Hong Kong taisyklės visiškai skiriasi nuo mainland China taisyklių",
+      "Victoria Harbour ir aplinkinėse teritorijose galioja skrydžių ribojimai",
+      "Category C (25-150 kg) buvo įvesta 2025 m. liepos 18 d., kad būtų galima vykdyti komercinio pristatymo ir eVTOL bandymus; jai reikalingas išankstinis CAD patvirtinimas ir specialus draudimas (HK$15M 25-75kg kategorijai, HK$20M 75-150kg kategorijai) — tai atskira pakopa nuo esamų lengvesnių A1/A2/B kategorijų."
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAD — Mažų bepiločių orlaivių taisyklės",
+        "description": "Oficialios Civilinės aviacijos departamento dronų taisyklės ir gairės Honkongui"
+      },
+      {
+        "title": "eSUA — Registracijos portalas",
+        "description": "Užregistruokite droną ir pateikite skrydžio leidimų prašymus internetu"
+      },
+      {
+        "title": "CAD — Dronų žemėlapis",
+        "description": "Oficialus dronų žemėlapis, rodantis ribojamas zonas, oro uostus ir leidžiamas zonas"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAD — Pažengusiojo lygio mokymai",
+        "description": "Pažengusiojo lygio (Advanced Rating) mokymai, reikalingi sunkesniems nei 250 g dronams"
+      },
+      {
+        "title": "CAD — Draudimo reikalavimai",
+        "description": "Privalomojo civilinės atsakomybės draudimo reikalavimai dronų operacijoms"
+      }
+    ]
+  }
 }

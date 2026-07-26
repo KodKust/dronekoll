@@ -1,63 +1,63 @@
 {
- "meta": {
-  "sourceHash": "0b4390d8f9a3a6d8927fed8920fc55b966e27ba6f08dffbc604b7ea87d7fbd8b",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
-   "Regisztrálj UAS-üzemben tartóként, ha a drón tömege legalább 250 g, vagy kamerával van felszerelve",
-   "A1/A3 online tanfolyam szükséges – legalább 16 éves kortól",
-   "Kötelező felelősségbiztosítás – a minimális fedezet összege a drón tömegétől függ; a 250 g-nál könnyebb drónok mentesülnek a minimális fedezeti követelmény alól a BEK 527 (2025. július) alapján",
-   "A koppenhágai repülőtér CTR-je lefedi Koppenhága belvárosát – nézd meg a Droneregler.dk oldalt",
-   "Mindig tartsd fenn a vizuális látótávolságot (VLOS) a drónnal",
-   "Ne repüljön emberek csoportjai felett! A nem érintett személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; kérjük, ellenőrizze a hivatalos táblázatot.",
-   "Legalább 8 km az IMC-repülőterektől (műszeres repülés), 4 km a VMC-repülőterektől – BEK 527 (2025. július)",
-   "Az EASA nyílt kategóriájú alapszabályai szerint az éjszakai repülés megengedett, amennyiben a előírt zöld villogó fényt használják, kivéve, ha valamely hatályos földrajzi övezetre vonatkozó vagy nemzeti szabály szigorúbb feltételt ír elő.",
-   "Grönlandra és a Feröer-szigetekre külön szabályok vonatkoznak"
-  ],
-  "importantNotes": [
-   "A minimális biztosítási fedezet mostantól tömegfüggő; a 250 g-nál könnyebb drónok mentesülnek a minimális fedezeti követelmény alól a BEK 527 (2025. július) értelmében. Az UAS-üzemben tartói regisztráció mostantól 3 évig érvényes.",
-   "A koppenhágai repülőtér CTR-je lefedi Koppenhága belvárosának nagy részét",
-   "Grönland és a Feröer-szigetek: külön szabályozás érvényes",
-   "A jogsértésekért pénzbírság és büntetőeljárás szabható ki",
-   "A GDPR alkalmazandó, amikor felismerhető képek készülnek"
-  ],
-  "primaryLinks": [
-   {
-    "title": "Dán Közlekedési Hatóság – drónszabályozás",
-    "description": "A Dán Közlekedési Hatóság hivatalos drónszabályozása és forrásai"
-   },
-   {
-    "title": "Dán Közlekedési Hatóság – regisztráció üzemben tartóként",
-    "description": "Regisztrálj UAS-üzemben tartóként (minden EU-/EASA-országban érvényes)"
-   },
-   {
-    "title": "Droneregler.dk – térképek és szabályok",
-    "description": "Hivatalos interaktív dróntérkép zónákkal, szabályokkal és repüléstervező eszközökkel"
-   },
-   {
-    "title": "Naviair – légtér-információ",
-    "description": "Dán léginavigációs szolgálatok és légtér-információk"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Dán Közlekedési Hatóság – drón GYIK",
-    "description": "Gyakran ismételt kérdések a dániai drónszabályozásról"
-   },
-   {
-    "title": "Modellrepülés Dániában",
-    "description": "Dán Modellrepülő Szövetség a klubok helyszíneivel"
-   }
-  ],
-  "disclaimerText": "Repülés előtt mindig ellenőrizd a Dán Közlekedési Hatóság hivatalos forrásait és a Droneregler.dk oldalt. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Dánia az EASA szabályait követi, nemzeti kiegészítésekkel.",
-  "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
-  "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
-  "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
-  "linksSheetTitle": "Légtér és szabályozás – Dánia",
-  "dronePilotCredentialName": "Drónengedély"
- }
+  "meta": {
+    "sourceHash": "0b4390d8f9a3a6d8927fed8920fc55b966e27ba6f08dffbc604b7ea87d7fbd8b",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
+      "Regisztrálj UAS-üzemben tartóként, ha a drón tömege legalább 250 g, vagy kamerával van felszerelve",
+      "A1/A3 online tanfolyam szükséges – legalább 16 éves kortól",
+      "Kötelező felelősségbiztosítás – a minimális fedezet összege a drón tömegétől függ; a 250 g-nál könnyebb drónok mentesülnek a minimális fedezeti követelmény alól a BEK 527 (2025. július) alapján",
+      "A koppenhágai repülőtér CTR-je lefedi Koppenhága belvárosát – nézd meg a Droneregler.dk oldalt",
+      "Mindig tartsd a drónt vizuális látótávolságon belül (VLOS)",
+      "Ne repülj embertömeg felett. A műveletben részt nem vevő személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; ellenőrizd a hivatalos táblázatot.",
+      "Legalább 8 km az IMC-repülőterektől (műszeres repülés), 4 km a VMC-repülőterektől – BEK 527 (2025. július)",
+      "Az EASA nyílt kategóriájának alapszabályai szerint az éjszakai repülés megengedett, ha az előírt zöld villogó fényt használják, kivéve, ha valamely hatályos földrajzi zóna vagy nemzeti szabály szigorúbb feltételt ír elő.",
+      "Grönlandra és a Feröer-szigetekre külön szabályok vonatkoznak"
+    ],
+    "importantNotes": [
+      "A minimális biztosítási fedezet mostantól tömegfüggő; a 250 g-nál könnyebb drónok mentesülnek a minimális fedezeti követelmény alól a BEK 527 (2025. július) értelmében. Az UAS-üzemben tartói regisztráció mostantól 3 évig érvényes.",
+      "A koppenhágai repülőtér CTR-je lefedi Koppenhága belvárosának nagy részét",
+      "Grönland és a Feröer-szigetek: külön szabályozás érvényes",
+      "A jogsértésekért pénzbírság szabható ki, és büntetőeljárás indulhat",
+      "A GDPR alkalmazandó, ha felismerhető személyeket ábrázoló felvételek készülnek"
+    ],
+    "primaryLinks": [
+      {
+        "title": "Dán Közlekedési Hatóság – drónszabályozás",
+        "description": "A Dán Közlekedési Hatóság hivatalos drónszabályozása és forrásai"
+      },
+      {
+        "title": "Dán Közlekedési Hatóság – regisztráció üzemben tartóként",
+        "description": "Regisztrálj UAS-üzemben tartóként (minden EU-/EASA-országban érvényes)"
+      },
+      {
+        "title": "Droneregler.dk – térképek és szabályok",
+        "description": "Hivatalos interaktív dróntérkép zónákkal, szabályokkal és repüléstervező eszközökkel"
+      },
+      {
+        "title": "Naviair – légtér-információ",
+        "description": "Dán léginavigációs szolgálatok és légtér-információk"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Dán Közlekedési Hatóság – drón GYIK",
+        "description": "Gyakran ismételt kérdések a dániai drónszabályozásról"
+      },
+      {
+        "title": "Modellrepülés Dániában",
+        "description": "Dán Modellrepülő Szövetség a klubok helyszíneivel"
+      }
+    ],
+    "disclaimerText": "Repülés előtt mindig ellenőrizd a Dán Közlekedési Hatóság hivatalos forrásait és a Droneregler.dk oldalt. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Dánia az EASA szabályait követi, nemzeti kiegészítésekkel.",
+    "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
+    "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
+    "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
+    "linksSheetTitle": "Légtér és szabályozás – Dánia",
+    "dronePilotCredentialName": "Drónengedély"
+  }
 }

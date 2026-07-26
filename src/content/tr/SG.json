@@ -1,62 +1,62 @@
 {
- "meta": {
-  "sourceHash": "edba8fa0339b0b435910d8c9bd14a7a0",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Uçmadan önce her zaman resmî CAAS kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Singapur'un ağır cezalar içeren çok katı dron mevzuatı vardır.",
-  "sectionLabelRules": "TEMEL KURALLAR",
-  "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
-  "sectionLabelSecondary": "EK KAYNAKLAR",
-  "linksSheetTitle": "Hava Sahası ve Kurallar — Singapur",
-  "dronePilotCredentialName": "UA Pilot Lisansı",
-  "keyRules": [
-   "Standart olarak en fazla 200 ft (60 m AMSL) — havalimanlarından >6 km uzaktaki belirlenmiş bölgelerde lisanslı ticari operatörler için 400 ft (122 m) (Şubat 2025'ten itibaren)",
-   "250 g'dan ağır tüm dronlar için kayıt gereklidir (25 SGD ücret)",
-   "Ticari kullanım veya 7 kg'dan ağır dronlar için UA Pilot Lisansı (UAPL) gereklidir",
-   "Havalimanları ve askeri hava üslerine 5 km mesafe",
-   "Yayınlı Uzaktan Kimlik (B-RID) Aralık 2025'ten itibaren zorunludur",
-   "Gece uçuşuna yalnızca uygun aydınlatmayla VLOS korunursa izin verilir",
-   "Her zaman görüş hattını (VLOS) koruyun",
-   "Kısıtlı alanlarda uçmak için faaliyet izni gereklidir",
-   "100.000 SGD'ye kadar para cezası veya 5 yıla kadar hapis cezası",
-   "İnsanların, binaların veya kısıtlı tesislerin üzerinden uçmayın"
-  ],
-  "importantNotes": [
-   "Singapur'un çok katı dron yasaları vardır — 100.000 SGD'ye kadar para cezası veya 5 yıl hapis",
-   "Standart irtifa sınırı yalnızca 200 ft'tir (60 m) — çoğu ülkeden çok daha düşük",
-   "B-RID (Yayınlı Uzaktan Kimlik) Aralık 2025'ten itibaren zorunludur",
-   "Singapur'da birçok alan kısıtlıdır — uçmadan önce her zaman OneMap'i kontrol edin"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAAS — İnsansız Hava Araçları",
-    "description": "Singapur Sivil Havacılık Otoritesi'nin resmî dron mevzuatı ve rehberliği"
-   },
-   {
-    "title": "OneMap — Hava sahası haritası",
-    "description": "Dron uçuş bölgeleri ve kısıtlamalarını gösteren resmî Singapur haritası"
-   },
-   {
-    "title": "FlyItSafe — CAAS uygulaması",
-    "description": "Uçuş bölgeleri ve izin bilgilerini içeren resmî CAAS dron güvenlik uygulaması"
-   },
-   {
-    "title": "CAAS — UA Kaydı",
-    "description": "Dronunuzu kaydedin ve faaliyet izinleri için çevrim içi başvurun"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAAS — UA Pilot Lisansı (UAPL)",
-    "description": "Ticari operasyonlar veya 7 kg'dan ağır dronlar için pilot lisansı gereklilikleri"
-   },
-   {
-    "title": "CAAS — Yayınlı Uzaktan Kimlik",
-    "description": "Aralık 2025'ten itibaren zorunlu olan B-RID (Yayınlı Uzaktan Kimlik) gereklilikleri"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Uçmadan önce her zaman resmî CAAS kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Singapur'un ağır cezalar içeren çok katı dron mevzuatı vardır.",
+    "sectionLabelRules": "TEMEL KURALLAR",
+    "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
+    "sectionLabelSecondary": "EK KAYNAKLAR",
+    "linksSheetTitle": "Hava Sahası ve Kurallar — Singapur",
+    "dronePilotCredentialName": "UA Pilot Lisansı",
+    "keyRules": [
+      "Standart azami irtifa 200 ft'tir (60 m AMSL); bir havalimanından 6 km'den fazla uzaktaki belirlenmiş bölgelerde lisanslı ticari operatörler için 400 ft'tir (122 m). Daha yüksek sınıra güvenmeden önce güncel bölge haritalarını ve koşulları doğrulayın.",
+      "İnsansız hava aracınız 250 g'dan ağırsa CAAS'a kaydettirmeniz gerekir. Kayıt ücreti SGD 25'tir ve kaydın süresi dolmaz — dron kaybolur, hasar görür veya satılırsa ya da kimlik etiketi okunamaz hâle gelirse kaydı yalnızca güncellemeniz veya iptal etmeniz gerekir.",
+      "Ticari/profesyonel kullanım veya amacı ne olursa olsun 7 kg'dan ağır herhangi bir dron için UA Pilot Licence (UAPL) gerekir. Class B UAPL, 7 kg'ın altındaki daha hafif ticari dronları kapsar.",
+      "Havalimanları ve askerî hava üslerinden en az 5 km uzakta kalın — herhangi bir hava üssünün yakınında uçmadan önce güncel kesin mesafeyi doğrulayın.",
+      "Broadcast Remote ID (B-RID), kapalı mekânda/çevrili bir alanda işletilen UA'lar veya Operator Permit sahibi olup FlyItSafe uygulamasını kullanan operatörler hariç olmak üzere, 250 g'ın üzerindeki UA'lar için 1 Aralık 2025'ten beri zorunludur.",
+      "Gece uçuşuna yalnızca gerekli aydınlatma etkin olduğunda ve VLOS her zaman korunduğunda izin verilir; görüş hattı ötesinde uçuş için Operator Permit ve Class 1 Activity Permit gerekir.",
+      "Her zaman görüş hattını (VLOS) koruyun",
+      "Kısıtlı alanlarda uçmak için faaliyet izni gereklidir",
+      "Cezalar kademelidir: ciddi ihlallerde (ör. yasak/korunan bir bölgede uçmak veya yetileri etkilenmiş durumdayken operasyon yapmak) ilk mahkûmiyette SGD 50.000'e kadar para cezası veya 2 yıla kadar hapis uygulanabilir; tekrarlanan suçlarda bu sınırlar SGD 100.000'e veya 5 yıla çıkar. Daha hafif ihlaller (ör. kayıtsız bir dron uçurmak veya B-RID ihlali) için SGD 10.000'e kadar para cezası ve 6 aya kadar hapis uygulanabilir.",
+      "İnsanların, binaların veya kısıtlı tesislerin üzerinden uçmayın"
+    ],
+    "importantNotes": [
+      "Singapur'da dron cezaları katı ve kademelidir: kısıtlı bir bölgede uçmak gibi ciddi ihlallerde ilk mahkûmiyette SGD 50.000'e kadar para cezası veya 2 yıla kadar hapis uygulanabilir; tekrarlanan suçlarda bu sınırlar SGD 100.000'e veya 5 yıla çıkar. Daha hafif ihlaller daha düşük cezalar taşır (SGD 10.000'e kadar, 6 aya kadar hapis).",
+      "Standart irtifa sınırı yalnızca 200 ft'tir (60 m) — çoğu ülkeden çok daha düşük",
+      "Broadcast Remote ID (B-RID), 250 g'ın üzerindeki UA'lar için 1 Aralık 2025'ten beri zorunludur (kapalı mekân kullanımı ve FlyItSafe uygulamasını kullanan Operator Permit sahipleri için sınırlı istisnalar vardır).",
+      "Singapur'da birçok alan kısıtlıdır — uçmadan önce her zaman OneMap'i kontrol edin"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAAS — İnsansız Hava Araçları",
+        "description": "Singapur Sivil Havacılık Otoritesi'nin resmî dron mevzuatı ve rehberliği"
+      },
+      {
+        "title": "OneMap — Hava sahası haritası",
+        "description": "Dron uçuş bölgeleri ve kısıtlamalarını gösteren resmî Singapur haritası"
+      },
+      {
+        "title": "FlyItSafe — CAAS uygulaması",
+        "description": "Uçuş bölgeleri ve izin bilgilerini içeren resmî CAAS dron güvenlik uygulaması"
+      },
+      {
+        "title": "CAAS — UA Kaydı",
+        "description": "Dronunuzu kaydedin ve faaliyet izinleri için çevrim içi başvurun"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAAS — UA Pilot Lisansı (UAPL)",
+        "description": "Ticari operasyonlar veya 7 kg'dan ağır dronlar için pilot lisansı gereklilikleri"
+      },
+      {
+        "title": "CAAS — Yayınlı Uzaktan Kimlik",
+        "description": "Aralık 2025'ten itibaren zorunlu olan B-RID (Yayınlı Uzaktan Kimlik) gereklilikleri"
+      }
+    ]
+  }
 }

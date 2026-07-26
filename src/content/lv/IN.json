@@ -1,48 +1,48 @@
 {
- "meta": {
-  "sourceHash": "8723bef5a4524ad2ccd415d49676bf8a",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos DGCA un DigitalSky avotus. Šī lietotne ir rīks, nevis juridiska instance. Indija visai dronu atbilstībai izmanto obligātu digitālo platformu.",
-  "sectionLabelRules": "GALVENIE NOTEIKUMI",
-  "sectionLabelPrimary": "OFICIĀLIE AVOTI",
-  "sectionLabelSecondary": "PAPILDU RESURSI",
-  "linksSheetTitle": "Gaisa telpa un noteikumi — Indija",
-  "dronePilotCredentialName": "Tālvadības pilota apliecība",
-  "keyRules": [
-   "Sarkano/dzelteno/zaļo zonu sistēma — pirms katra lidojuma pārbaudi DigitalSky",
-   "Apdrošināšana obligāta visām kategorijām, izņemot Nano",
-   "Tālvadības pilota apliecība (RPC) nepieciešama komerciālai lietošanai vai droniem, kas sver vairāk par 2 kg",
-   "Vienmēr saglabā tiešu redzamības kontaktu (VLOS)",
-   "Lidošana sarkanajās zonās bez īpašas atļaujas ir stingri aizliegta"
-  ],
-  "importantNotes": [
-   "DigitalSky reģistrācija ir obligāta — nereģistrētus dronus (izņemot Nano) var konfiscēt",
-   "Sarkanās zonas ietver lidostas, militārās teritorijas, robežas un sensitīvas vietas",
-   "Apdrošināšana ir obligāta Micro, Small un Medium kategorijas droniem"
-  ],
-  "primaryLinks": [
-   {
-    "title": "DigitalSky — DGCA platforma",
-    "description": "Obligāta platforma dronu reģistrācijai, lidojumu atļaujām un zonu pārbaudēm"
-   },
-   {
-    "title": "DGCA — Dronu noteikumi",
-    "description": "Civilās aviācijas ģenerāldirektorāta oficiālie dronu noteikumi un apkārtraksti"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "DGCA — Tālvadības pilota apliecība",
-    "description": "RPC prasības komerciālai lietošanai vai droniem, kas sver vairāk par 2 kg"
-   },
-   {
-    "title": "DigitalSky — Gaisa telpas zonu karte",
-    "description": "Sarkano, dzelteno un zaļo zonu karte visai Indijai"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos DGCA un DigitalSky avotus. Šī lietotne ir rīks, nevis juridiska instance. Indijā visu dronu prasību izpildei obligāti jāizmanto digitālā platforma.",
+    "sectionLabelRules": "GALVENIE NOTEIKUMI",
+    "sectionLabelPrimary": "OFICIĀLIE AVOTI",
+    "sectionLabelSecondary": "PAPILDU RESURSI",
+    "linksSheetTitle": "Gaisa telpa un noteikumi — Indija",
+    "dronePilotCredentialName": "Tālvadības pilota apliecība",
+    "keyRules": [
+      "DigitalSky iedala gaisa telpu Green (tūlītēja automatizēta atļauja), Yellow (kontrolēta gaisa telpa, ~15-30 min automatizēta apstrāde — tajā ietilpst lidostas perimetra josla aptuveni 8-12 km attālumā) un Red (ierobežota, nepieciešams manuāls apstiprinājums) zonās — pirms lidošanas vienmēr pārbaudi DigitalSky, jo precīzas zonu robežas pie konkrētas lidostas var atšķirties no šī vispārīgā modeļa.",
+      "Apdrošināšana obligāta visām kategorijām, izņemot Nano",
+      "Tālvadības pilota apliecība (RPC) ir nepieciešama Micro (250g-2kg) un lielāku dronu komerciālai lietošanai un ir obligāta visiem Small kategorijas droniem (2-25 kg) un lielākiem neatkarīgi no lietošanas mērķa. Nano (<250g) RPC nav nepieciešama nekad, arī komerciālai lietošanai.",
+      "Katram lidojumam jānotiek tiešā redzamības laukā — dronam visu laiku jābūt saskatāmam ar neapbruņotu aci, bez binokļa vai līdzīgiem palīglīdzekļiem — ja vien DGCA nav piešķīrusi īpašu EVLOS/BVLOS atļauju.",
+      "Lidošana Red zonās ir stingri aizliegta bez īpašas attiecīgās iestādes atļaujas, kas saņemta ar DigitalSky starpniecību."
+    ],
+    "importantNotes": [
+      "DigitalSky reģistrācija ir obligāta visiem droniem, izņemot Nano (<250g), kam nav nepieciešama ne reģistrācija, ne UIN. Lidojot ar nereģistrētu dronu, kuram reģistrācija ir obligāta, pastāv konfiskācijas risks.",
+      "Red zonas ietver lidostas, militārās teritorijas, robežas un īpaši aizsargājamas vietas.",
+      "Apdrošināšana ir obligāta Micro, Small un Medium kategorijas droniem"
+    ],
+    "primaryLinks": [
+      {
+        "title": "DigitalSky — DGCA platforma",
+        "description": "Obligāta platforma dronu reģistrācijai, lidojumu atļaujām un zonu pārbaudēm"
+      },
+      {
+        "title": "DGCA — Dronu noteikumi",
+        "description": "Civilās aviācijas ģenerāldirektorāta oficiālie dronu noteikumi un apkārtraksti"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "DGCA — Tālvadības pilota apliecība",
+        "description": "RPC prasības komerciālai lietošanai vai droniem, kas sver vairāk par 2 kg"
+      },
+      {
+        "title": "DigitalSky — Gaisa telpas zonu karte",
+        "description": "Sarkano, dzelteno un zaļo zonu karte visai Indijai"
+      }
+    ]
+  }
 }

@@ -1,54 +1,54 @@
 {
- "meta": {
-  "sourceHash": "eaa7abf236bd1a6fbe4e339875dc13bc",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos CAAP avotus. Šī lietotne ir rīks, nevis juridiska instance. Noteikumi var mainīties bez iepriekšēja brīdinājuma.",
-  "sectionLabelRules": "GALVENIE NOTEIKUMI",
-  "sectionLabelPrimary": "OFICIĀLIE AVOTI",
-  "sectionLabelSecondary": "PAPILDU RESURSI",
-  "linksSheetTitle": "Gaisa telpa un noteikumi — Filipīnas",
-  "dronePilotCredentialName": "RPA operatora apliecība",
-  "keyRules": [
-   "Maks. 400 ft (122 m) virs zemes",
-   "Vienmēr saglabā tiešu redzamības kontaktu (VLOS)",
-   "Reģistrācija nepieciešama VISAI komerciālai dronu lietošanai (jebkurš svars); nekomerciāli droni reģistrējami tikai no 7 kg saskaņā ar CAAP PCAR Part 11",
-   "10 km no jebkuras lidostas — stingri kontrolēts",
-   "Minimālais attālums 30 m no neiesaistītām personām",
-   "Nakts lidojumi bez īpašas CAAP atļaujas nav atļauti",
-   "RPA operatora apliecība nepieciešama komerciālai lietošanai vai droniem, kas sver vairāk par 7 kg (derīga 5 gadus)",
-   "UAS operatora sertifikāts nepieciešams komerciālai darbībai (derīgs 3 gadus)",
-   "Apdrošināšana obligāta komerciālai darbībai",
-   "Vienmēr dod ceļu visiem pilotējamiem gaisa kuģiem"
-  ],
-  "importantNotes": [
-   "10 km lidostas izslēgšanas zona ir stingrāka nekā vairumā valstu",
-   "Komerciāliem operatoriem nepieciešama gan RPA operatora apliecība (5 gadi), gan UAS operatora sertifikāts (3 gadi)",
-   "Nakts lidojumiem nepieciešama īpaša CAAP atļauja — pēc noklusējuma nav atļauti",
-   "Apdrošināšana ir obligāta visai komerciālai dronu darbībai"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAAP — RPAS noteikumi",
-    "description": "Filipīnu Civilās aviācijas iestādes oficiālie dronu noteikumi"
-   },
-   {
-    "title": "CAAP — Galvenais portāls",
-    "description": "Filipīnu Civilās aviācijas iestādes galvenā vietne"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAAP — UA reģistra portāls",
-    "description": "Reģistrē savu dronu CAAP UA reģistrā"
-   },
-   {
-    "title": "CAAP — Komerciālā licencēšana",
-    "description": "RPA operatora apliecības un UAS operatora sertifikāta prasības"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "e85b5f3541d893697ea6591ad6e2d83b",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos CAAP avotus. Šī lietotne ir rīks, nevis juridiska instance. Noteikumi var mainīties bez iepriekšēja brīdinājuma.",
+    "sectionLabelRules": "GALVENIE NOTEIKUMI",
+    "sectionLabelPrimary": "OFICIĀLIE AVOTI",
+    "sectionLabelSecondary": "PAPILDU RESURSI",
+    "linksSheetTitle": "Gaisa telpa un noteikumi — Filipīnas",
+    "dronePilotCredentialName": "RPA tālvadības pilota apliecība",
+    "keyRules": [
+      "Maks. 400 ft (122 m) virs zemes",
+      "Vienmēr uzturi tiešu, ar neapbruņotu aci nodrošinātu vizuālu kontaktu ar dronu (brilles vai kontaktlēcas ir atļautas). Lidošana ar FPV brillēm ir atļauta tikai tad, ja vizuālais novērotājs uztur VLOS; lidošanai ārpus tiešas redzamības nepieciešama CAAP atļauja (PCAR Part 11).",
+      "Reģistrācija nepieciešama VISAI komerciālai dronu lietošanai (jebkurš svars); nekomerciāli droni reģistrējami tikai no 7 kg saskaņā ar CAAP PCAR Part 11",
+      "Turies vismaz 10 km attālumā no jebkuras lidostas — šī buferzona tika paplašināta ar CAAP Memorandum Circular 026-2025 pēc dronu novērojumiem pie NAIA (Manila) 2024. gada beigās/2025. gada sākumā un tiek stingri kontrolēta.",
+      "Minimālais attālums 30 m no neiesaistītām personām",
+      "Nakts lidojumiem nepieciešama īpaša CAAP atļauja un atbilstošs drona apgaismojums — pēc noklusējuma tie nav atļauti.",
+      "RPA tālvadības pilota apliecība nepieciešama komerciālai lietošanai vai droniem, kas sver vairāk par 7 kg (derīga 5 gadus)",
+      "Komerciālām darbībām nepieciešams UAS operatora sertifikāts (derīgs 3 gadus), kā arī pilotam nepieciešama tālvadības pilota licence, kas ir obligāta komerciālai lietošanai vai droniem, kas sver 7 kg vai vairāk, arī tad, ja ar tiem lido atpūtas nolūkā.",
+      "Civiltiesiskās atbildības apdrošināšana komerciālām darbībām ir nepieciešama UAS operatora sertifikāta saņemšanas procesā.",
+      "Vienmēr dod ceļu gaisa kuģiem ar pilotu."
+    ],
+    "importantNotes": [
+      "10 km lidostas izslēgšanas zona (paplašināta 2025. gadā ar MC 026-2025) ir stingrāka nekā vairumā valstu ierastās 3–9 km buferzonas.",
+      "Komerciāliem operatoriem nepieciešama gan RPA tālvadības pilota apliecība (5 gadi), gan UAS operatora sertifikāts (3 gadi)",
+      "Nakts lidojumi pēc noklusējuma nav atļauti — nepieciešama īpaša CAAP atļauja un atbilstošs drona apgaismojums.",
+      "Civiltiesiskās atbildības apdrošināšana ir obligāta visām komerciālajām dronu darbībām kā daļa no UAS operatora sertifikāta saņemšanas procesa."
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAAP — RPAS noteikumi",
+        "description": "Filipīnu Civilās aviācijas iestādes oficiālie dronu noteikumi"
+      },
+      {
+        "title": "CAAP — Galvenais portāls",
+        "description": "Filipīnu Civilās aviācijas iestādes galvenā vietne"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAAP — UA reģistra portāls",
+        "description": "Reģistrē savu dronu CAAP UA reģistrā"
+      },
+      {
+        "title": "CAAP — Komerciālā licencēšana",
+        "description": "RPA operatora apliecības un UAS operatora sertifikāta prasības"
+      }
+    ]
+  }
 }

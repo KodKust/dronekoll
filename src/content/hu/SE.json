@@ -1,71 +1,71 @@
 {
- "meta": {
-  "sourceHash": "552be0e829692206489496fe6ca91a32ed231ba21bc0abd64eefd98c31764ced",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Legnagyobb repülési magasság: 120 m a talajszint felett (EASA Open kategória).",
-   "A drón üzemeltetőjét általában regisztrálni kell, ha a drón súlya legalább 250 g, vagy olyan kamerával/érzékelővel rendelkezik, amely személyes adatokat képes gyűjteni, kivéve, ha az a játékokra vonatkozó kivétel hatálya alá tartozik. A drón-engedélyre és a repülési távolságra vonatkozó követelmények a drón osztályától, súlyától és alkategóriájától függenek.",
-   "A1/A3 dróntanúsítvány szükséges, ha a drón tömege 250 g vagy több – online elméleti vizsga, amelyet a Swedish Transport Agency bonyolít le (díj ellenében; a tanúsítvány 5 évig érvényes). A drón önálló üzemeltetéséhez szükséges alsó korhatár: 15 év. A 15 év alattiak csak érvényes dróntanúsítvánnyal és egy legalább 16 éves, érvényes dróntanúsítvánnyal rendelkező távpilóta felügyelete mellett repülhetnek.",
-   "Az üzemeltetői számot jól láthatóan fel kell tüntetni a drónon.",
-   "Tartsd a drónt vizuális látótávolságon (VLOS) belül – ne repülj sarkok mögé vagy épületek mögé.",
-   "A1: 250 g-nál kisebb tömegű drónok – nem érintett személyek felett repülhetsz (tömeg felett nem).",
-   "A2: Legfeljebb 4 kg tömegű drónok – legalább 30 m a járókelőktől (5 m alacsony sebességű üzemmódban). A2 tanúsítványt igényel.",
-   "A3: Legfeljebb 25 kg tömegű drónok – legalább 150 m a lakó-, kereskedelmi, ipari és rekreációs területektől.",
-   "Soha ne repülj tömeg felett külön engedély nélkül.",
-   "Minden repülés előtt ellenőrizd az LFV dróntérképét és a NOTAM-okat."
-  ],
-  "importantNotes": [
-   "2026. január 1-jétől bűncselekménynek minősül 250 g vagy nagyobb tömegű drónnal érvényes dróntanúsítvány nélkül repülni – ez pénzbírsággal vagy akár hat hónapig terjedő szabadságvesztéssel büntethető.",
-   "A természetvédelmi területeknek és nemzeti parkoknak gyakran saját korlátozásaik vannak – az adott területről érdeklődj a megyei közigazgatási hivatalnál (County Administrative Board).",
-   "A védett objektumokra belépési és fényképezési tilalom vonatkozhat, és előfordulhat, hogy korlátozott területen találhatók. Ellenőrizze a helyszínen elhelyezett táblákat, a határozatokat és a legfrissebb légtér-információkat.",
-   "Minden drónrepülő köteles bejelenteni azokat az eseményeket, amelyek során valaki súlyosan megsérült, halálos baleset történt, vagy amelyekben személyzettel ellátott légi jármű is érintett volt. Az engedélyköteles tevékenységekre egyéb követelmények is vonatkozhatnak. A Közlekedési Hatóság ösztönzi az egyéb biztonsági események önkéntes bejelentését is.",
-   "A biztosítás erősen ajánlott – egyes lakásbiztosítások fedezik a drónrepülést, mások nem."
-  ],
-  "primaryLinks": [
-   {
-    "title": "Swedish Transport Agency – Drónszabályozás",
-    "description": ""
-   },
-   {
-    "title": "LFV dróntérkép – Légtér",
-    "description": ""
-   },
-   {
-    "title": "Üzemeltetői regisztráció (≥250 g vagy kamera esetén kötelező)",
-    "description": ""
-   },
-   {
-    "title": "A1/A3 dróntanúsítvány – Online elméleti vizsga (≥250 g esetén, 15 évtől kötelező)",
-    "description": ""
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "A2 tanúsítvány (500 g-nál nehezebb drónok vagy emberek közelében történő repülés)",
-    "description": ""
-   },
-   {
-    "title": "AROweb – NOTAM és AIP Svédország",
-    "description": ""
-   },
-   {
-    "title": "Védett helyszínek – Vedd fel a kapcsolatot a Swedish Armed Forces-szal",
-    "description": ""
-   },
-   {
-    "title": "Természetvédelmi területek – Érdeklődj a megyei közigazgatási hivatalnál",
-    "description": ""
-   }
-  ],
-  "disclaimerText": "Repülés előtt mindig ellenőrizd a hivatalos forrásokat. Ez az alkalmazás egy segédeszköz – nem jogi forrás. A szabályok külön értesítés nélkül változhatnak.",
-  "sectionLabelRules": "FONTOS SZABÁLYOK",
-  "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
-  "sectionLabelSecondary": "HALADÓ / KÜLÖNLEGES ESETEK",
-  "linksSheetTitle": "Légtér és szabályozás",
-  "dronePilotCredentialName": "A1/A3 dróntanúsítvány"
- }
+  "meta": {
+    "sourceHash": "552be0e829692206489496fe6ca91a32ed231ba21bc0abd64eefd98c31764ced",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Legnagyobb repülési magasság: 120 m a talajszint felett (EASA nyílt kategória).",
+      "Az üzemben tartót általában regisztrálni kell, ha a drón tömege legalább 250 g, vagy személyes adatok gyűjtésére alkalmas kamerával vagy érzékelővel van felszerelve, kivéve, ha a játékokra vonatkozó mentesség hatálya alá tartozik. A drónengedélyre és a repülési távolságokra vonatkozó követelmények a drón osztályától, tömegétől és alkategóriájától függenek.",
+      "A1/A3 dróntanúsítvány szükséges, ha a drón tömege 250 g vagy több – online elméleti vizsga, amelyet a Swedish Transport Agency bonyolít le (díj ellenében; a tanúsítvány 5 évig érvényes). A drón önálló üzemeltetéséhez szükséges alsó korhatár: 15 év. A 15 év alattiak csak érvényes dróntanúsítvánnyal és egy legalább 16 éves, érvényes dróntanúsítvánnyal rendelkező távpilóta felügyelete mellett repülhetnek.",
+      "Az üzemeltetői számot jól láthatóan fel kell tüntetni a drónon.",
+      "Tartsd a drónt vizuális látótávolságon belül (VLOS) — ne repülj vele sarkok vagy épületek mögé.",
+      "A1: 250 g-nál kisebb tömegű drónok – nem érintett személyek felett repülhetsz (tömeg felett nem).",
+      "A2: Legfeljebb 4 kg tömegű drónok — legalább 30 m-re a műveletben részt nem vevő személyektől (5 m alacsony sebességű üzemmódban). A2 tanúsítvány szükséges.",
+      "A3: Legfeljebb 25 kg tömegű drónok – legalább 150 m a lakó-, kereskedelmi, ipari és rekreációs területektől.",
+      "Soha ne repülj tömeg felett külön engedély nélkül.",
+      "Minden repülés előtt ellenőrizd az LFV dróntérképét és a NOTAM-okat."
+    ],
+    "importantNotes": [
+      "2026. január 1-jétől bűncselekménynek minősül 250 g vagy nagyobb tömegű drónnal érvényes dróntanúsítvány nélkül repülni – ez pénzbírsággal vagy akár hat hónapig terjedő szabadságvesztéssel büntethető.",
+      "A természetvédelmi területeknek és nemzeti parkoknak gyakran saját korlátozásaik vannak – az adott területről érdeklődj a megyei közigazgatási hivatalnál (County Administrative Board).",
+      "A védett objektumokra belépési és fényképezési korlátozások vonatkozhatnak, és korlátozott területen is elhelyezkedhetnek. Ellenőrizd a helyszíni jelzéseket, a hivatalos határozatokat és a helyszínre vonatkozó legfrissebb légtér-információkat.",
+      "Minden drónüzemeltető köteles bejelenteni azokat az eseményeket, amelyekben valaki súlyosan megsérült, halálos baleset történt, vagy ember vezette légijármű volt érintett. Az engedélyköteles tevékenységekre további követelmények vonatkozhatnak. A Swedish Transport Agency más biztonsági események önkéntes bejelentését is ösztönzi.",
+      "A biztosítás erősen ajánlott – egyes lakásbiztosítások fedezik a drónrepülést, mások nem."
+    ],
+    "primaryLinks": [
+      {
+        "title": "Swedish Transport Agency – Drónszabályozás",
+        "description": ""
+      },
+      {
+        "title": "LFV dróntérkép – Légtér",
+        "description": ""
+      },
+      {
+        "title": "Üzemeltetői regisztráció (≥250 g vagy kamera esetén kötelező)",
+        "description": ""
+      },
+      {
+        "title": "A1/A3 dróntanúsítvány – Online elméleti vizsga (≥250 g esetén, 15 évtől kötelező)",
+        "description": ""
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "A2 tanúsítvány (500 g-nál nehezebb drónok vagy emberek közelében történő repülés)",
+        "description": ""
+      },
+      {
+        "title": "AROweb – NOTAM és AIP Svédország",
+        "description": ""
+      },
+      {
+        "title": "Védett helyszínek – Vedd fel a kapcsolatot a Swedish Armed Forces-szal",
+        "description": ""
+      },
+      {
+        "title": "Természetvédelmi területek – Érdeklődj a megyei közigazgatási hivatalnál",
+        "description": ""
+      }
+    ],
+    "disclaimerText": "Repülés előtt mindig ellenőrizd a hivatalos forrásokat. Ez az alkalmazás egy segédeszköz – nem jogi forrás. A szabályok külön értesítés nélkül változhatnak.",
+    "sectionLabelRules": "FONTOS SZABÁLYOK",
+    "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
+    "sectionLabelSecondary": "HALADÓ / KÜLÖNLEGES ESETEK",
+    "linksSheetTitle": "Légtér és szabályozás",
+    "dronePilotCredentialName": "A1/A3 dróntanúsítvány"
+  }
 }

@@ -1,62 +1,62 @@
 {
- "meta": {
-  "sourceHash": "49389e227b39ad270162c3ac5b4ca7074db2b61d6472d7eff6c37ed05fab160b",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Ne vairāk kā 120 m virs zemes (EASA atvērtā kategorija)",
-   "Nepieciešama A1/A3 tiešsaistes apmācība — minimālais vecums 16 gadi",
-   "Vienmēr saglabā tiešu redzamības kontaktu (VLOS) ar dronu",
-   "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personas, kas nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
-   "Ievēro ierobežojumus lidostu CTR un UAS gaisa telpas zonās — pārbaudi Droneinfo.fi",
-   "Nakts lidojumi ir atļauti, ja dronam ir zaļa mirgojoša identifikācijas gaisma un redzamība ir pietiekama",
-   "Austrumu robežas tuvumā ir lidojumu ierobežojumi — pirms lidošanas pārbaudi skartās teritorijas",
-   "Lapzemē ziemeļbriežu ganību teritorijās var būt sezonāli ierobežojumi",
-   "Pārbaudi Droneinfo.fi par konkrētās teritorijas ierobežojumiem un augstuma robežām"
-  ],
-  "importantNotes": [
-   "Austrumu robežas (EFR100) zona ir aktīva visu diennakti — tagad redzama kartē",
-   "Traficom UAS zonas un Natura 2000 teritorijas ir redzamas kartē",
-   "Ziemā akumulatora kapacitāte sala apstākļos samazinās",
-   "Baltās naktis: ilgs lidojumu laiks, taču noteikti pārbaudi ierobežotās teritorijas",
-   "Datu aizsardzības likumdošana (GDPR) piemēro identificējamu personu fotografēšanai"
-  ],
-  "primaryLinks": [
-   {
-    "title": "Traficom — Dronu noteikumi",
-    "description": "Somijas Transporta un komunikāciju aģentūras (Traficom) oficiālie dronu noteikumi"
-   },
-   {
-    "title": "Traficom — Reģistrējies",
-    "description": "Reģistrējies kā UAS lietotājs (€30 par 3 gadiem vai €100 par 5 gadiem, derīga visās ES/EASA valstīs)"
-   },
-   {
-    "title": "Droneinfo.fi — Gaisa telpas karte",
-    "description": "Oficiālā interaktīvā dronu karte, kurā redzamas lidojumu aizlieguma un ierobežotās zonas"
-   },
-   {
-    "title": "Traficom — Apmācība un eksāmeni",
-    "description": "Informācija par A1/A3 un A2 kursiem un eksāmeniem"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Fintraffic ANS — Gaisa telpas informācija",
-    "description": "Somijas gaisa satiksmes vadība un gaisa telpas informācija"
-   },
-   {
-    "title": "Traficom — Biežāk uzdotie jautājumi par droniem",
-    "description": "Biežāk uzdotie jautājumi par Somijas dronu noteikumiem"
-   }
-  ],
-  "disclaimerText": "Pirms lidošanas vienmēr pārbaudi Traficom oficiālos avotus un Droneinfo.fi. Šī lietotne ir rīks, nevis oficiāla instance. Somija ievēro EASA noteikumus ar papildu nacionālajām prasībām.",
-  "sectionLabelRules": "GALVENIE NOTEIKUMI (EASA ATVĒRTĀ KATEGORIJA)",
-  "sectionLabelPrimary": "OFICIĀLIE AVOTI",
-  "sectionLabelSecondary": "PAPILDU INFORMĀCIJA",
-  "linksSheetTitle": "Gaisa telpa un noteikumi — Somija",
-  "dronePilotCredentialName": "Tālvadības operatora apliecība"
- }
+  "meta": {
+    "sourceHash": "49389e227b39ad270162c3ac5b4ca7074db2b61d6472d7eff6c37ed05fab160b",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Ne vairāk kā 120 m virs zemes (EASA atvērtā kategorija)",
+      "Nepieciešama A1/A3 tiešsaistes apmācība — minimālais vecums 16 gadi",
+      "Vienmēr turi dronu tiešā redzeslokā (VLOS)",
+      "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kuras nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
+      "Ievēro ierobežojumus lidostu CTR un UAS gaisa telpas zonās — pārbaudi Droneinfo.fi",
+      "Nakts lidojumi ir atļauti, ja dronam ir zaļa mirgojoša identifikācijas gaisma un redzamība ir pietiekama",
+      "Austrumu robežas tuvumā ir lidojumu ierobežojumi — pirms lidošanas pārbaudi skartās teritorijas",
+      "Lapland ziemeļbriežu ganību teritorijās var būt sezonāli ierobežojumi",
+      "Vietnē Droneinfo.fi pārbaudi konkrētajai teritorijai noteiktos ierobežojumus un augstuma ierobežojumus"
+    ],
+    "importantNotes": [
+      "“Eastern Border” (EFR100) zona ir aktīva 24 stundas diennaktī — tagad redzama kartē",
+      "Traficom UAS zonas un Natura 2000 teritorijas ir redzamas kartē",
+      "Ziemā akumulatora ietilpība salā samazinās",
+      "Baltā nakts: ilgāks lidošanai pieejamais laiks, taču noteikti pārbaudi ierobežotās teritorijas",
+      "Fotografējot identificējamas personas, jāievēro datu aizsardzības tiesību akti (GDPR)."
+    ],
+    "primaryLinks": [
+      {
+        "title": "Traficom — Dronu noteikumi",
+        "description": "Somijas Transporta un komunikāciju aģentūras (Traficom) oficiālie dronu noteikumi"
+      },
+      {
+        "title": "Traficom — Reģistrējies",
+        "description": "Reģistrējies kā UAS lietotājs (€30 par 3 gadiem vai €100 par 5 gadiem, derīga visās ES/EASA valstīs)"
+      },
+      {
+        "title": "Droneinfo.fi — Gaisa telpas karte",
+        "description": "Oficiālā interaktīvā dronu karte, kurā redzamas lidojumu aizlieguma un ierobežotās zonas"
+      },
+      {
+        "title": "Traficom — Apmācība un eksāmeni",
+        "description": "Informācija par A1/A3 un A2 kursiem un eksāmeniem"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Fintraffic ANS — Gaisa telpas informācija",
+        "description": "Somijas gaisa satiksmes vadība un gaisa telpas informācija"
+      },
+      {
+        "title": "Traficom — Biežāk uzdotie jautājumi par droniem",
+        "description": "Biežāk uzdotie jautājumi par Somijas dronu noteikumiem"
+      }
+    ],
+    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi Traficom oficiālos avotus un Droneinfo.fi. Šī lietotne ir rīks, nevis oficiāla instance. Somija ievēro EASA noteikumus ar papildu nacionālajām prasībām.",
+    "sectionLabelRules": "GALVENIE NOTEIKUMI (EASA ATVĒRTĀ KATEGORIJA)",
+    "sectionLabelPrimary": "OFICIĀLIE AVOTI",
+    "sectionLabelSecondary": "PAPILDU INFORMĀCIJA",
+    "linksSheetTitle": "Gaisa telpa un noteikumi — Somija",
+    "dronePilotCredentialName": "Tālvadības operatora apliecība"
+  }
 }

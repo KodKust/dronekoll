@@ -1,63 +1,63 @@
 {
- "meta": {
-  "sourceHash": "b05d24f015f2308210145943a215484aa1c49ad8f402e6dfeecc2171445caa3b",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Maks. 120 m virs zemes (EASA atvērtā kategorija)",
-   "Reģistrācija kā UAS operatoram (bez maksas) droniem, kas sver 250 g vai vairāk vai ir aprīkoti ar kameru",
-   "Nepieciešama A1/A3 tiešsaistes apmācība — minimālais vecums 16 gadi",
-   "Obligāta reģistrācija DroneTower kontrolētās gaisa telpas zonās",
-   "Varšava: valdības iekārtu tuvumā nepieciešama Valsts aizsardzības dienesta (SOP) atļauja",
-   "Vienmēr saglabā tiešu redzamības kontaktu (VLOS) ar dronu",
-   "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personas, kas nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
-   "DRA-RM zonas (zem 6 km, ar augstuma ierobežojumiem) un DRA-RH zonas (virs 6 km) — pārbaudi drony.gov.pl",
-   "Nakts lidojumi ir atļauti saskaņā ar EASA atklātās kategorijas pamatnosacījumiem, ja tiek izmantota nepieciešamā zaļā mirgojošā gaisma, ja vien spēkā esošie ģeogrāfiskās zonas vai valsts noteikumi neparedz stingrākus nosacījumus.",
-   "Nacionālie parki un Natura 2000 teritorijas: spēkā ierobežojumi"
-  ],
-  "importantNotes": [
-   "DroneTower lietotne nepieciešama lidojumu paziņošanai CTR zonās",
-   "Varšava: valdības iekārtu tuvumā nepieciešams SOP apstiprinājums",
-   "Reģistrācija ir bez maksas un derīga visās ES/EASA valstīs",
-   "Naudassodi līdz 50 000 PLN par pārkāpumiem",
-   "GDPR piemēro identificējamu attēlu fiksēšanai"
-  ],
-  "primaryLinks": [
-   {
-    "title": "ULC — Noteikumi par droniem",
-    "description": "Civilās aviācijas iestādes oficiālie noteikumi un resursi par droniem"
-   },
-   {
-    "title": "ULC — Operatora reģistrācija",
-    "description": "Bezmaksas reģistrācija kā UAS operatoram (derīga visās ES/EASA valstīs)"
-   },
-   {
-    "title": "PANSA — DroneMap",
-    "description": "Oficiālā gaisa telpas karte, kurā redzami CTR, ierobežotās zonas un reāllaika informācija"
-   },
-   {
-    "title": "DroneTower — Lidojumu paziņošanas lietotne",
-    "description": "Obligāta lietotne lidojumu paziņošanai kontrolētā gaisa telpā"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "PANSA — NOTAM",
-    "description": "Aktīvie NOTAM un pagaidu gaisa telpas ierobežojumi"
-   },
-   {
-    "title": "ULC — Biežāk uzdotie jautājumi par droniem",
-    "description": "Biežāk uzdotie jautājumi par dronu noteikumiem Polijā"
-   }
-  ],
-  "disclaimerText": "Pirms lidošanas vienmēr pārbaudi Civilās aviācijas iestādes (ULC) un PANSA DroneMap oficiālos avotus. Šī lietotne ir rīks, tā nav tiesību avots. Polija piemēro EASA noteikumus ar nacionālajiem papildinājumiem.",
-  "sectionLabelRules": "GALVENIE NOTEIKUMI (EASA ATVĒRTĀ KATEGORIJA)",
-  "sectionLabelPrimary": "OFICIĀLIE AVOTI",
-  "sectionLabelSecondary": "PAPILDU RESURSI",
-  "linksSheetTitle": "Gaisa telpa un noteikumi — Polija",
-  "dronePilotCredentialName": "Drona pilota apliecība"
- }
+  "meta": {
+    "sourceHash": "b05d24f015f2308210145943a215484aa1c49ad8f402e6dfeecc2171445caa3b",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Maks. 120 m virs zemes (EASA atvērtā kategorija)",
+      "UAS operatora reģistrācija (bez maksas) droniem, kas sver 250 g vai vairāk vai ir aprīkoti ar kameru",
+      "Nepieciešama A1/A3 tiešsaistes apmācība — minimālais vecums 16 gadi",
+      "Obligāta reģistrācija DroneTower lietotnē kontrolētās gaisa telpas zonās",
+      "Warsaw: valdības objektu tuvumā nepieciešama State Protection Service (SOP) atļauja",
+      "Vienmēr saglabā tiešu redzamības kontaktu (VLOS) ar dronu",
+      "Nelido pāri cilvēku pūļiem. Noteikumi par lidojumā neiesaistītām personām ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudi oficiālo tabulu.",
+      "DRA-RM zonas (zem 6 km, ar augstuma ierobežojumiem) un DRA-RH zonas (virs 6 km) — pārbaudi drony.gov.pl",
+      "Nakts lidojumi ir atļauti saskaņā ar EASA atvērtās kategorijas pamatnoteikumiem, ja tiek izmantota obligātā mirgojošā zaļā gaisma, ja vien spēkā esoša ģeogrāfiskā zona vai valsts noteikums neparedz stingrākus nosacījumus.",
+      "Nacionālie parki un Natura 2000 teritorijas: spēkā ierobežojumi"
+    ],
+    "importantNotes": [
+      "DroneTower lietotne nepieciešama lidojumu paziņošanai CTR zonās",
+      "Warsaw: valdības objektu tuvumā nepieciešams SOP apstiprinājums",
+      "Reģistrācija ir bez maksas un derīga visās ES/EASA valstīs",
+      "Naudassodi līdz 50 000 PLN par pārkāpumiem",
+      "GDPR attiecas uz identificējamu attēlu fiksēšanu"
+    ],
+    "primaryLinks": [
+      {
+        "title": "ULC — Noteikumi par droniem",
+        "description": "Civilās aviācijas iestādes oficiālie noteikumi un resursi par droniem"
+      },
+      {
+        "title": "ULC — Operatora reģistrācija",
+        "description": "Bezmaksas reģistrācija kā UAS operatoram (derīga visās ES/EASA valstīs)"
+      },
+      {
+        "title": "PANSA — DroneMap",
+        "description": "Oficiālā gaisa telpas karte, kurā redzami CTR, ierobežotās zonas un reāllaika informācija"
+      },
+      {
+        "title": "DroneTower — Lidojumu paziņošanas lietotne",
+        "description": "Obligāta lietotne lidojumu paziņošanai kontrolētā gaisa telpā"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "PANSA — NOTAM",
+        "description": "Aktīvie NOTAM un pagaidu gaisa telpas ierobežojumi"
+      },
+      {
+        "title": "ULC — Biežāk uzdotie jautājumi par droniem",
+        "description": "Biežāk uzdotie jautājumi par dronu noteikumiem Polijā"
+      }
+    ],
+    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi Civil Aviation Authority (ULC) un PANSA DroneMap oficiālos avotus. Šī lietotne ir rīks, nevis tiesību avots. Polija piemēro EASA noteikumus ar nacionālajiem papildinājumiem.",
+    "sectionLabelRules": "GALVENIE NOTEIKUMI (EASA ATVĒRTĀ KATEGORIJA)",
+    "sectionLabelPrimary": "OFICIĀLIE AVOTI",
+    "sectionLabelSecondary": "PAPILDU RESURSI",
+    "linksSheetTitle": "Gaisa telpa un noteikumi — Polija",
+    "dronePilotCredentialName": "Drona pilota apliecība"
+  }
 }

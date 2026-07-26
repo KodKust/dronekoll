@@ -174,6 +174,19 @@ for (const f of files) {
     const inTr = numbers(fixed);
     const missM = [...measures(it.en ?? '')].filter((m) => !inTr.has(m));
     if (missM.length) { errors.push(`${where}: mätvärde ändrat/borta → ${missM.join(', ')}`); continue; }
+
+    // Tal som varken finns i källan eller i den text som granskades = påhittade.
+    // Litauiska AR.keyRules[8] fick "(Resolution 550/2025)" tillagt med
+    // motiveringen att den engelska versionen innehöll det. Det gjorde den inte.
+    // En uppdiktad förordningsreferens ser trovärdig ut och är svår att upptäcka
+    // i efterhand — därför hårt fel, inte varning. Ensiffriga tal ignoreras
+    // (uppräkningar, "1." i listor) liksom årtal som redan står i texten.
+    const known = new Set([...numbers(it.en ?? ''), ...numbers(it.current ?? '')]);
+    const invented = [...inTr].filter((n) => n.length > 1 && !known.has(n));
+    if (invented.length) {
+      errors.push(`${where}: tal som saknas i källan → ${invented.join(', ')}`);
+      continue;
+    }
     const missT = [...terms(it.en ?? '')].filter((t) => !fixed.includes(t));
     if (missT.length) { errors.push(`${where}: skyddad term borta → ${missT.join(', ')}`); continue; }
 

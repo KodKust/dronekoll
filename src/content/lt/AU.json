@@ -1,65 +1,65 @@
 {
- "meta": {
-  "sourceHash": "52eb478cbdf1a6162ab37ec696de41f5",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius CASA šaltinius. Ši programėlė yra įrankis, o ne teisinė institucija. Valstijų, teritorijų ir nacionalinių parkų taisyklės gali nustatyti papildomų ribojimų be CASA taisyklių.",
-  "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
-  "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
-  "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
-  "linksSheetTitle": "Oro erdvė ir taisyklės — Australija",
-  "dronePilotCredentialName": "Nuotolinio piloto licencija",
-  "keyRules": [
-   "Ne daugiau kaip 120 m virš žemės paviršiaus (AGL)",
-   "Mažiausias 30 m atstumas nuo bet kurio operacijoje nedalyvaujančio asmens — niekada neskraidykite virš žmonių",
-   "Dronai nuo 250 g: neskraidykite arčiau kaip 5,5 km nuo kontroliuojamo oro uosto",
-   "Lengvesni nei 250 g dronai: ne daugiau kaip 45 m aukščio 5,5 km spinduliu nuo kontroliuojamo oro uosto",
-   "Pramoginis skraidymas: tik šviesiu paros metu (nuo civilinės aušros iki civilinės prieblandos). Naktiniam skraidymui reikalingas RePL + ReOC leidimas",
-   "Visada išlaikykite tiesioginį regėjimo ryšį (VLOS)",
-   "Pramoginiams dronams registracija nereikalinga (bet koks svoris iki 25 kg, taikomos standartinės taisyklės)",
-   "Komercinis naudojimas nuo 2 kg: reikalinga nuotolinio piloto licencija (RePL)",
-   "Nacionalinių parkų taisyklės skiriasi pagal valstiją — pasitikrinkite prieš skrydį (kai kuriuose dronai visiškai draudžiami)"
-  ],
-  "importantNotes": [
-   "Viktorija draudžia dronus VISUOSE valstijos ir nacionaliniuose parkuose — jokių išimčių be leidimo",
-   "NSW nacionaliniams parkams reikalingas NPWS leidimas — baudos iki 3 300 $",
-   "Pietų Australija leidžia dronus parkuose tik moksliniams tyrimams arba komerciniam filmavimui",
-   "Bausmės už neteisėtas operacijas gali viršyti 10 000 AUD"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CASA — Dronų taisyklės",
-    "description": "Oficialios CASA taisyklės pramoginiam ir komerciniam dronų skraidymui"
-   },
-   {
-    "title": "OpenSky — Oro erdvės žemėlapis",
-    "description": "CASA patikrinti oro erdvės duomenys su ribojimais tikruoju laiku ir TFR įspėjimais"
-   },
-   {
-    "title": "CASA — Registracija",
-    "description": "Užregistruokite droną komerciniam naudojimui per myCASA portalą"
-   },
-   {
-    "title": "drones.gov.au — Vietinės taisyklės",
-    "description": "Valstijų, teritorijų ir vietinės dronų taisyklės su interaktyviu 7 600+ ribojamų teritorijų žemėlapiu"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CASA — Operatoriaus akreditacija (nemokama)",
-    "description": "Nemokama internetinė akreditacija komerciniam dronų naudojimui iki 2 kg"
-   },
-   {
-    "title": "CASA — Nuotolinio piloto licencija (RePL)",
-    "description": "Pilna licencija komercinėms operacijoms su sunkesniais nei 2 kg dronais"
-   },
-   {
-    "title": "ok2fly — Skrydžio planavimas",
-    "description": "Alternatyvus skrydžio planavimo įrankis Australijos oro erdvei"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "362edae763d5f971da0104f4b2bf8c97",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Prieš skrydį visada patikrinkite oficialius CASA šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Valstijų, teritorijų ir nacionalinių parkų taisyklėse gali būti nustatyta papildomų, CASA taisyklėse nenumatytų ribojimų.",
+    "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
+    "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
+    "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
+    "linksSheetTitle": "Oro erdvė ir taisyklės — Australija",
+    "dronePilotCredentialName": "Nuotolinio piloto licencija",
+    "keyRules": [
+      "Ne daugiau kaip 120 m virš žemės paviršiaus (AGL)",
+      "Mažiausias 30 m atstumas nuo bet kurio operacijoje nedalyvaujančio asmens — niekada neskraidykite virš žmonių",
+      "Daugiau kaip 250 g sveriantys dronai turi laikytis bent 5,5 km atstumo nuo kontroliuojamo oro uosto. Lengvesni nei 250 g dronai gali skraidyti šioje zonoje, tačiau tik iki 45 m virš žemės paviršiaus, už aerodromo ribų ir nekeldami pavojaus kitiems orlaiviams.",
+      "Lengvesni nei 250 g dronai: ne aukščiau kaip 45 m, kai skraidoma 5,5 km spinduliu nuo kontroliuojamo oro uosto",
+      "Pramoginis skraidymas: tik šviesiu paros metu (nuo civilinės aušros iki civilinės prieblandos). Naktiniam skraidymui reikalingas RePL + ReOC leidimas",
+      "Visada išlaikykite tiesioginį regėjimo ryšį (VLOS)",
+      "Pramoginiams dronams registracija nereikalinga (bet kokio svorio dronams, sveriantiems mažiau nei 25 kg, taikomos standartinės taisyklės)",
+      "Komercinis naudojimas nuo 2 kg: reikalinga nuotolinio piloto licencija (RePL)",
+      "Nacionalinių parkų taisyklės skiriasi pagal valstiją — pasitikrinkite prieš skrydį (kai kuriuose dronai visiškai draudžiami)"
+    ],
+    "importantNotes": [
+      "Viktorija draudžia dronus VISUOSE valstijos ir nacionaliniuose parkuose — jokių išimčių be leidimo",
+      "NSW nacionaliniams parkams reikalingas NPWS leidimas — baudos iki 3 300 $",
+      "Pietų Australija leidžia dronus parkuose tik moksliniams tyrimams arba komerciniam filmavimui",
+      "Bausmės už neteisėtas operacijas gali viršyti 10 000 AUD"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CASA — Dronų taisyklės",
+        "description": "Oficialios CASA taisyklės pramoginiam ir komerciniam dronų skraidymui"
+      },
+      {
+        "title": "OpenSky — Oro erdvės žemėlapis",
+        "description": "CASA patikrinti oro erdvės duomenys su ribojimais tikruoju laiku ir TFR įspėjimais"
+      },
+      {
+        "title": "CASA — Registracija",
+        "description": "Užregistruokite droną komerciniam naudojimui per myCASA portalą"
+      },
+      {
+        "title": "drones.gov.au — Vietinės taisyklės",
+        "description": "Valstijų, teritorijų ir vietinės dronų taisyklės su interaktyviu 7 600+ ribojamų teritorijų žemėlapiu"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CASA — Operatoriaus akreditacija (nemokama)",
+        "description": "Nemokama internetinė akreditacija komerciniam dronų naudojimui iki 2 kg"
+      },
+      {
+        "title": "CASA — Nuotolinio piloto licencija (RePL)",
+        "description": "Pilna licencija komercinėms operacijoms su sunkesniais nei 2 kg dronais"
+      },
+      {
+        "title": "ok2fly — Skrydžio planavimas",
+        "description": "Alternatyvus skrydžio planavimo įrankis Australijos oro erdvei"
+      }
+    ]
+  }
 }

@@ -1,71 +1,71 @@
 {
- "meta": {
-  "sourceHash": "552be0e829692206489496fe6ca91a32ed231ba21bc0abd64eefd98c31764ced",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Maksimālais lidojuma augstums: 120 m virs zemes (EASA atvērtā kategorija).",
-   "Parasti operators ir jāreģistrē, ja drona svars ir vismaz 250 g vai tam ir kamera/sensors, kas var vākt personas datus, ja uz to neattiecas rotaļlietu izņēmums. Prasības attiecībā uz dronu karti un attālumu ir atkarīgas no drona klases, svara un apakškategorijas.",
-   "A1/A3 drona licence ir nepieciešama, ja drons sver 250 g vai vairāk — tiešsaistes teorijas tests, ko administrē Zviedrijas Transporta aģentūra (par maksu; licence derīga 5 gadus). Minimālais vecums patstāvīgai drona vadīšanai: 15 gadi. Personas, kas jaunākas par 15 gadiem, drīkst lidot tikai ar derīgu drona licenci tāda tālvadības pilota uzraudzībā, kurš ir vismaz 16 gadus vecs un kuram ir derīga drona licence.",
-   "Operatora numuram jābūt skaidri marķētam uz drona.",
-   "Turi dronu redzamības laukā (VLOS) — nelido aiz stūriem vai aiz ēkām.",
-   "A1: droni, kas sver mazāk par 250 g — lido virs neiesaistītām personām (ne virs ļaužu pūļa).",
-   "A2: droni, kas sver līdz 4 kg — vismaz 30 m no neiesaistītiem cilvēkiem (5 m mazā ātruma režīmā). Nepieciešama A2 apliecība.",
-   "A3: droni, kas sver līdz 25 kg — vismaz 150 m no dzīvojamām, komerciālām, rūpnieciskām un atpūtas zonām.",
-   "Nekad nelido virs ļaužu pūļa bez īpašas atļaujas.",
-   "Pirms katra lidojuma pārbaudi LFV dronu karti un NOTAM."
-  ],
-  "importantNotes": [
-   "No 2026. gada 1. janvāra ir noziedzīgs nodarījums lidot ar dronu, kas sver 250 g vai vairāk, bez derīgas drona licences — sodāms ar naudassodu vai līdz sešiem mēnešiem cietumā.",
-   "Dabas rezervātiem un nacionālajiem parkiem bieži ir savi ierobežojumi — noskaidro attiecīgās teritorijas ierobežojumus pašvaldības administrācijā (länsstyrelsen).",
-   "Aizsargājamajiem objektiem var būt piemērots piekļuves un fotografēšanas aizliegums, un tie var atrasties arī ierobežotas piekļuves zonā. Pārbaudiet norādes, lēmumus un aktuālo informāciju par gaisa telpu šajā vietā.",
-   "Ikvienam, kurš lido ar dronu, ir jāziņo par gadījumiem, kuros kāds ir guvis smagus ievainojumus, noticis nāves gadījums vai iesaistīts apkalpots gaisa kuģis. Attiecībā uz darbībām, kurām nepieciešama atļauja, var tikt piemērotas citas prasības. Transporta pārvalde aicina brīvprātīgi ziņot arī par citiem drošības incidentiem.",
-   "Apdrošināšana ir stingri ieteicama — dažas mājokļa apdrošināšanas polises sedz dronu lidojumus, citas ne."
-  ],
-  "primaryLinks": [
-   {
-    "title": "Zviedrijas Transporta aģentūra — Dronu noteikumi",
-    "description": ""
-   },
-   {
-    "title": "LFV dronu karte — Gaisa telpa",
-    "description": ""
-   },
-   {
-    "title": "Operatora reģistrācija (nepieciešams ≥250 g vai kamera)",
-    "description": ""
-   },
-   {
-    "title": "Drona licence A1/A3 — Tiešsaistes teorijas tests (nepieciešams ≥250 g, no 15 gadiem)",
-    "description": ""
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "A2 apliecība (droniem, kas sver vairāk par 500 g vai lido cilvēku tuvumā)",
-    "description": ""
-   },
-   {
-    "title": "AROweb — NOTAM un AIP Sweden",
-    "description": ""
-   },
-   {
-    "title": "Aizsargājamās vietas — Sazinies ar Zviedrijas Bruņotajiem spēkiem",
-    "description": ""
-   },
-   {
-    "title": "Dabas rezervāti — Noskaidro savā pašvaldības administrācijā",
-    "description": ""
-   }
-  ],
-  "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos avotus. Šī lietotne ir rīks, nevis juridisks avots. Noteikumi var mainīties bez iepriekšēja brīdinājuma.",
-  "sectionLabelRules": "SVARĪGI NOTEIKUMI",
-  "sectionLabelPrimary": "OFICIĀLIE AVOTI",
-  "sectionLabelSecondary": "PAPLAŠINĀTI / ĪPAŠI GADĪJUMI",
-  "linksSheetTitle": "Gaisa telpa un noteikumi",
-  "dronePilotCredentialName": "A1/A3 drona apliecība"
- }
+  "meta": {
+    "sourceHash": "552be0e829692206489496fe6ca91a32ed231ba21bc0abd64eefd98c31764ced",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Maksimālais lidojuma augstums: 120 m virs zemes (EASA atvērtā kategorija).",
+      "Parasti operators ir jāreģistrē, ja drons sver vismaz 250 g vai ir aprīkots ar kameru vai sensoru, kas spēj vākt personas datus, ja vien uz to neattiecas rotaļlietu izņēmums. Prasības attiecībā uz dronu pilota apliecībām un lidojuma attālumiem ir atkarīgas no drona klases, svara un apakškategorijas.",
+      "A1/A3 drona licence ir nepieciešama, ja drons sver 250 g vai vairāk — tiešsaistes teorijas tests, ko administrē Swedish Transport Agency (par maksu; licence derīga 5 gadus). Minimālais vecums patstāvīgai drona vadīšanai: 15 gadi. Personas, kas jaunākas par 15 gadiem, drīkst lidot tikai ar derīgu drona licenci tāda tālvadības pilota uzraudzībā, kurš ir vismaz 16 gadus vecs un kuram ir derīga drona licence.",
+      "Operatora numuram jābūt skaidri marķētam uz drona.",
+      "Turi dronu redzamības laukā (VLOS) — nelido aiz stūriem vai aiz ēkām.",
+      "A1: droni, kas sver mazāk par 250 g, drīkst lidot virs lidojumā neiesaistītām personām, bet ne virs cilvēku pūļiem.",
+      "A2: droni, kas sver līdz 4 kg — vismaz 30 m no neiesaistītiem cilvēkiem (5 m mazā ātruma režīmā). Nepieciešama A2 apliecība.",
+      "A3: droni, kas sver līdz 25 kg — vismaz 150 m no dzīvojamām, komerciālām, rūpnieciskām un atpūtas zonām.",
+      "Nekad nelido virs ļaužu pūļa bez īpašas atļaujas.",
+      "Pirms katra lidojuma pārbaudi LFV dronu karti un NOTAM."
+    ],
+    "importantNotes": [
+      "No 2026. gada 1. janvāra ir noziedzīgs nodarījums lidot ar dronu, kas sver 250 g vai vairāk, bez derīgas drona licences — sodāms ar naudassodu vai līdz sešiem mēnešiem cietumā.",
+      "Dabas rezervātiem un nacionālajiem parkiem bieži ir savi ierobežojumi — sazinies ar County Administrative Board, kas atbild par konkrēto teritoriju.",
+      "Aizsargājamiem objektiem var būt noteikti piekļuves un fotografēšanas ierobežojumi, un tie var atrasties arī ierobežotā zonā. Pārbaudi norādes, oficiālos lēmumus un jaunāko gaisa telpas informāciju par konkrēto vietu.",
+      "Ikvienam, kurš vada dronu, jāziņo par incidentiem, kuros kāds ir guvis smagus ievainojumus, noticis letāls negadījums vai bijis iesaistīts pilotējams gaisa kuģis. Darbībām, kurām nepieciešama atļauja, var būt piemērojamas citas prasības. Swedish Transport Agency aicina brīvprātīgi ziņot arī par citiem drošības incidentiem.",
+      "Apdrošināšana ir stingri ieteicama — dažas mājokļa apdrošināšanas polises sedz dronu lidojumus, citas ne."
+    ],
+    "primaryLinks": [
+      {
+        "title": "Zviedrijas Transporta aģentūra — Dronu noteikumi",
+        "description": ""
+      },
+      {
+        "title": "LFV dronu karte — Gaisa telpa",
+        "description": ""
+      },
+      {
+        "title": "Operatora reģistrācija (nepieciešams ≥250 g vai kamera)",
+        "description": ""
+      },
+      {
+        "title": "Drona licence A1/A3 — Tiešsaistes teorijas tests (nepieciešams ≥250 g, no 15 gadiem)",
+        "description": ""
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "A2 apliecība (droniem, kas sver vairāk par 500 g vai lido cilvēku tuvumā)",
+        "description": ""
+      },
+      {
+        "title": "AROweb — NOTAM un AIP Sweden",
+        "description": ""
+      },
+      {
+        "title": "Aizsargājamās vietas — Sazinies ar Zviedrijas Bruņotajiem spēkiem",
+        "description": ""
+      },
+      {
+        "title": "Dabas rezervāti — Noskaidro savā pašvaldības administrācijā",
+        "description": ""
+      }
+    ],
+    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos avotus. Šī lietotne ir rīks, nevis juridisks avots. Noteikumi var mainīties bez iepriekšēja brīdinājuma.",
+    "sectionLabelRules": "SVARĪGI NOTEIKUMI",
+    "sectionLabelPrimary": "OFICIĀLIE AVOTI",
+    "sectionLabelSecondary": "SAREŽĢĪTĀKI / ĪPAŠI GADĪJUMI",
+    "linksSheetTitle": "Gaisa telpa un noteikumi",
+    "dronePilotCredentialName": "A1/A3 drona apliecība"
+  }
 }

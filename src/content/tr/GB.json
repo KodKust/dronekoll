@@ -1,65 +1,65 @@
 {
- "meta": {
-  "sourceHash": "b3162ca911ac55fba8e7336c9f471c36",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Uçmadan önce her zaman resmî CAA kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Birleşik Krallık'ın AB/EASA'dan ayrı kendi dron mevzuatı vardır. Yerel konsey tüzükleri ek kısıtlamalar getirebilir.",
-  "sectionLabelRules": "TEMEL KURALLAR",
-  "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
-  "sectionLabelSecondary": "EK KAYNAKLAR",
-  "linksSheetTitle": "Hava Sahası ve Kurallar — Birleşik Krallık",
-  "dronePilotCredentialName": "Flyer ID ve Operator ID",
-  "keyRules": [
-   "Yerden en fazla 120 m (400 ft)",
-   "100 g'dan itibaren Flyer ID gereklidir — CAA çevrim içi sınavını geçin (40 soru, %75 geçme notu)",
-   "Her zaman görüş hattını (VLOS) koruyun — yatayda en fazla ~500 m",
-   "İlgisiz kişilere en az 50 m mesafe (30 m / 5 m yalnızca A2 sertifikalı, Birleşik Krallık sınıf işaretli dronlar için geçerlidir)",
-   "Havalimanları çevresinde 5 km'lik Uçuş Kısıtlama Bölgesi — izin olmadan uçmak yasaktır",
-   "Hobi dışı kullanım veya 20 kg+ dronlar için sigorta zorunludur",
-   "Uzaktan Kimlik kademeli olarak devreye giriyor: Birleşik Krallık sınıf işaretli dronlar (UK1/UK2/UK3/UK5/UK6) için Ocak 2026'dan itibaren; Ocak 2028'de tümüyle zorunlu",
-   "Birleşik Krallık EASA'nın parçası DEĞİLDİR — AB pilot sertifikaları Birleşik Krallık'ta geçerli değildir",
-   "Londra'nın kalıcı kısıtlı bölgeleri vardır (R157, R158, R159) — tüm dronlar yasaktır"
-  ],
-  "importantNotes": [
-   "Birleşik Krallık kayıt eşiği 100 g'dır — AB'nin 250 g'ından daha katı",
-   "AB/EASA dron sertifikaları Brexit'ten bu yana Birleşik Krallık'ta tanınmaz",
-   "Yerel konseyler kendi arazilerinde uçuşu kısıtlayabilir — parklarda uçmadan önce kontrol edin",
-   "Cezaevlerinin ~1 km uçuşa yasak bölgeleri vardır — hava araçlarını tehlikeye atmak 5 yıla kadar hapis cezası taşır"
-  ],
-  "primaryLinks": [
-   {
-    "title": "UK CAA — Dron mevzuatı",
-    "description": "Tüm Birleşik Krallık dron kuralları, kayıt ve kaynakları için resmî CAA merkezi"
-   },
-   {
-    "title": "CAA — Kayıt (Flyer ID ve Operator ID)",
-    "description": "Flyer ID'nizi (100 g'dan itibaren zorunlu) ve Operator ID'nizi (250 g'dan itibaren zorunlu) alın"
-   },
-   {
-    "title": "CAA — The Drone Code",
-    "description": "Resmî kurallar: nerede uçabileceğiniz, irtifa sınırları ve güvenlik gereklilikleri"
-   },
-   {
-    "title": "Drone Assist — Hava sahası haritası",
-    "description": "Uçuşa yasak bölgeleri ve hava sahası kısıtlamalarını gösteren ücretsiz uçuş planlama uygulaması"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAA — Hava sahası kısıtlamaları",
-    "description": "Havalimanları, cezaevleri ve hassas alanlar çevresindeki Uçuş Kısıtlama Bölgeleri"
-   },
-   {
-    "title": "CAA — Sigorta gereklilikleri",
-    "description": "Dron sigortasının ne zaman gerekli olduğu (hobi dışı kullanım için zorunlu)"
-   },
-   {
-    "title": "CAA — Uzaktan Kimlik politikası",
-    "description": "Ocak 2026'dan itibaren Birleşik Krallık Uzaktan Kimlik gereklilikleri"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Uçmadan önce her zaman resmî CAA kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Birleşik Krallık'ın AB/EASA'dan ayrı kendi dron mevzuatı vardır. Yerel konsey tüzükleri ek kısıtlamalar getirebilir.",
+    "sectionLabelRules": "TEMEL KURALLAR",
+    "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
+    "sectionLabelSecondary": "EK KAYNAKLAR",
+    "linksSheetTitle": "Hava Sahası ve Kurallar — Birleşik Krallık",
+    "dronePilotCredentialName": "Flyer ID ve Operator ID",
+    "keyRules": [
+      "Yerden en fazla 120 m (400 ft)",
+      "100 g'dan itibaren Flyer ID gereklidir — CAA çevrim içi sınavını geçin (40 soru, %75 geçme notu)",
+      "Dronu her zaman kendi doğrudan ve yardımcı araç kullanılmayan görüş hattınız içinde, hangi yöne baktığını anlayabileceğiniz ve diğer hava araçlarını gözetleyebileceğiniz kadar yakın tutun. Metre cinsinden sabit bir yasal azami mesafe yoktur — ne kadar uzağa uçabileceğiniz belirlenmiş bir yarıçapa değil, görüş koşullarına, aydınlatmaya ve dronun kendisine bağlıdır.",
+      "Operasyona dahil olmayan kişilerden en az 50 m uzakta kalın (30 m / 5 m yalnızca A2 sertifikasına sahip, Birleşik Krallık sınıf işaretli dronlar için geçerlidir)",
+      "Havalimanlarının çevresinde Uçuş Kısıtlama Bölgeleri (FRZ) bulunur, ancak bunların tam şekli ve boyutu havalimanına göre değişir — her yerde geçerli bir \"5 km'lik daire\" yoktur. Bir havalimanının yakınında uçmadan önce CAA'nın resmî dron güvenliği haritasından ilgili FRZ'yi mutlaka kontrol edin.",
+      "Üçüncü şahıs sorumluluk sigortası (EC Regulation 785/2004 uyarınca), ticari veya hobi dışı uçuşlar ya da 20 kg veya daha ağır herhangi bir dron için zorunludur — daha hafif dronlarla hobi amaçlı kullanımda isteğe bağlıdır ancak önerilir.",
+      "Remote ID kademeli olarak devreye giriyor: Birleşik Krallık sınıf işaretli dronlar (UK1/UK2/UK3/UK5/UK6) için Ocak 2026'dan itibaren; Ocak 2028'de tümüyle zorunlu",
+      "Birleşik Krallık EASA'nın parçası DEĞİLDİR — AB pilot sertifikaları Birleşik Krallık'ta geçerli değildir",
+      "Londra'da üç kalıcı kısıtlı bölge vardır — R157 (Hyde Park/kraliyet konutları), R158 (City of London/Square Mile, finans bölgesi çevresinde yaklaşık 0,5 NM'lik küçük bir bölge) ve R159 (Canary Wharf/Isle of Dogs) — en az 28 gün önceden NATS'a sunulan bir Non-Standard Flight başvurusuyla onay alınmadıkça, boyutuna bakılmaksızın tüm dronlar yasaktır. Parliament ve Downing Street, Westminster'da üç R bölgesinin de dışında yer alır ve ayrı mekanizmalarla korunur."
+    ],
+    "importantNotes": [
+      "Birleşik Krallık'ta kayıt eşiği 100 g'dır — AB'deki 250 g eşiğinden daha katıdır",
+      "AB/EASA dron sertifikaları Brexit'ten bu yana Birleşik Krallık'ta tanınmaz",
+      "Yerel konseyler kendi arazilerinde uçuşu kısıtlayabilir — parklarda uçmadan önce kontrol edin",
+      "Cezaevlerinin çevresinde yaklaşık 1 km'lik uçuşa yasak bölgeler vardır — hava araçlarını tehlikeye atmak 5 yıla kadar hapis cezasına yol açabilir"
+    ],
+    "primaryLinks": [
+      {
+        "title": "UK CAA — Dron mevzuatı",
+        "description": "Tüm Birleşik Krallık dron kuralları, kayıt ve kaynakları için resmî CAA merkezi"
+      },
+      {
+        "title": "CAA — Kayıt (Flyer ID ve Operator ID)",
+        "description": "Flyer ID'nizi (100 g'dan itibaren zorunlu) ve Operator ID'nizi (250 g'dan itibaren zorunlu) alın"
+      },
+      {
+        "title": "CAA — The Drone Code",
+        "description": "Resmî kurallar: nerede uçabileceğiniz, irtifa sınırları ve güvenlik gereklilikleri"
+      },
+      {
+        "title": "Drone Assist — Hava sahası haritası",
+        "description": "Uçuşa yasak bölgeleri ve hava sahası kısıtlamalarını gösteren ücretsiz uçuş planlama uygulaması"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAA — Hava sahası kısıtlamaları",
+        "description": "Havalimanları, cezaevleri ve hassas alanlar çevresindeki Uçuş Kısıtlama Bölgeleri"
+      },
+      {
+        "title": "CAA — Sigorta gereklilikleri",
+        "description": "Dron sigortasının ne zaman gerekli olduğu (hobi dışı kullanım için zorunlu)"
+      },
+      {
+        "title": "CAA — Uzaktan Kimlik politikası",
+        "description": "Ocak 2026'dan itibaren Birleşik Krallık Uzaktan Kimlik gereklilikleri"
+      }
+    ]
+  }
 }

@@ -1,48 +1,48 @@
 {
- "meta": {
-  "sourceHash": "8723bef5a4524ad2ccd415d49676bf8a",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius DGCA ir DigitalSky šaltinius. Ši programėlė yra įrankis, o ne teisinė institucija. Indija naudoja privalomą skaitmeninę platformą visam dronų atitikties tvarkymui.",
-  "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
-  "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
-  "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
-  "linksSheetTitle": "Oro erdvė ir taisyklės — Indija",
-  "dronePilotCredentialName": "Nuotolinio piloto pažymėjimas",
-  "keyRules": [
-   "Raudonų/geltonų/žalių zonų sistema — patikrinkite DigitalSky prieš kiekvieną skrydį",
-   "Draudimas privalomas visoms kategorijoms, išskyrus Nano",
-   "Nuotolinio piloto pažymėjimas (RPC) reikalingas komerciniam naudojimui arba sunkesniems nei 2 kg dronams",
-   "Visada išlaikykite tiesioginį regėjimo ryšį (VLOS)",
-   "Skraidyti raudonosiose zonose be specialaus leidimo griežtai draudžiama"
-  ],
-  "importantNotes": [
-   "DigitalSky registracija privaloma — neregistruoti dronai (išskyrus Nano) gali būti konfiskuoti",
-   "Raudonosios zonos apima oro uostus, karines teritorijas, pasienius ir jautrias vietas",
-   "Draudimas privalomas Mikro, Mažos ir Vidutinės kategorijos dronams"
-  ],
-  "primaryLinks": [
-   {
-    "title": "DigitalSky — DGCA platforma",
-    "description": "Privaloma platforma dronų registracijai, skrydžio leidimams ir zonų patikrinimams"
-   },
-   {
-    "title": "DGCA — Dronų taisyklės",
-    "description": "Oficialios Civilinės aviacijos generalinės direkcijos dronų taisyklės ir aplinkraščiai"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "DGCA — Nuotolinio piloto pažymėjimas",
-    "description": "RPC reikalavimai komerciniam naudojimui arba sunkesniems nei 2 kg dronams"
-   },
-   {
-    "title": "DigitalSky — Oro erdvės zonų žemėlapis",
-    "description": "Raudonų, geltonų ir žalių zonų žemėlapis visai Indijai"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius DGCA ir DigitalSky šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Indijoje visai dronų atitikties procedūrai privaloma naudoti skaitmeninę platformą.",
+    "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
+    "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
+    "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
+    "linksSheetTitle": "Oro erdvė ir taisyklės — Indija",
+    "dronePilotCredentialName": "Nuotolinio piloto pažymėjimas",
+    "keyRules": [
+      "DigitalSky oro erdvę skirsto į Green (automatinis leidimas suteikiamas iškart), Yellow (kontroliuojama oro erdvė, automatinis apdorojimas trunka ~15-30 min — tai apima oro uosto perimetro juostą, maždaug 8-12 km) ir Red (ribojama zona, reikalingas rankinis patvirtinimas) zonas — prieš skrydį visada tikrinkite DigitalSky, nes tikslios zonų ribos prie konkretaus oro uosto gali skirtis nuo šio bendro modelio.",
+      "Draudimas privalomas visoms kategorijoms, išskyrus Nano",
+      "Remote Pilot Certificate (RPC) privalomas komerciniam Micro (250g-2kg) ir didesnių dronų naudojimui, taip pat visiems Small kategorijos dronams (2-25 kg) ir sunkesniems, nepriklausomai nuo paskirties. Nano (<250g) dronams RPC niekada nereikia, net ir komerciniam naudojimui.",
+      "Kiekvieno skrydžio metu dronas turi likti tiesioginiame regėjimo lauke — visą laiką būti matomas plika akimi, be žiūronų ar panašių priemonių — nebent DGCA suteikė konkretų EVLOS/BVLOS leidimą.",
+      "Skraidyti Red zonose griežtai draudžiama be specialaus atitinkamos institucijos leidimo, gauto per DigitalSky."
+    ],
+    "importantNotes": [
+      "DigitalSky registracija privaloma visiems dronams, išskyrus Nano (<250g), kuriam nereikia nei registracijos, nei UIN. Skraidant neregistruotu dronu, kurį registruoti privaloma, kyla konfiskavimo rizika.",
+      "Red zonos apima oro uostus, karines teritorijas, pasienio zonas ir jautrius objektus.",
+      "Draudimas privalomas Micro, Small ir Medium kategorijų dronams."
+    ],
+    "primaryLinks": [
+      {
+        "title": "DigitalSky — DGCA platforma",
+        "description": "Privaloma platforma dronų registracijai, skrydžio leidimams ir zonų patikrinimams"
+      },
+      {
+        "title": "DGCA — Dronų taisyklės",
+        "description": "Oficialios Civilinės aviacijos generalinės direkcijos dronų taisyklės ir aplinkraščiai"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "DGCA — Nuotolinio piloto pažymėjimas",
+        "description": "RPC reikalavimai komerciniam naudojimui arba sunkesniems nei 2 kg dronams"
+      },
+      {
+        "title": "DigitalSky — Oro erdvės zonų žemėlapis",
+        "description": "Raudonų, geltonų ir žalių zonų žemėlapis visai Indijai"
+      }
+    ]
+  }
 }

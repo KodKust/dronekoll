@@ -1,63 +1,63 @@
 {
- "meta": {
-  "sourceHash": "e6b2b7ef595a946c4fd009b44046d64770faa9411a520492ab5a176d0099aefc",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Legfeljebb 120 m-rel a talaj felett (EASA nyílt kategória)",
-   "Regisztráció UAS-üzemben tartóként (40 € / 30 hónap) a legalább 250 g tömegű vagy kamerával felszerelt drónokhoz",
-   "A CAA Slovenia ingyenes A1/A3 online vizsgát biztosít",
-   "Lakott területek felett tilos – az egyetlen kivétel a legfeljebb 1200 g tömegű, legfeljebb 50 m magasságban repülő drónok esetében áll fenn, a földtulajdonos hozzájárulásával és a repülés ügynökségnek történő előzetes bejelentésével.",
-   "Mindig tartsd a drónt vizuális látótávolságon belül (VLOS)",
-   "Ne repüljön emberek csoportjai felett! A nem érintett személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; kérjük, ellenőrizze a hivatalos táblázatot.",
-   "Az EASA nyílt kategóriájú alapszabályai szerint az éjszakai repülés megengedett, amennyiben a előírt zöld villogó fényt használják, kivéve, ha valamely hatályos földrajzi övezetre vonatkozó vagy nemzeti szabály szigorúbb feltételt ír elő.",
-   "Triglav Nemzeti Park: A drónok repültetése a parkigazgatóság előzetes engedélye nélkül tilos.",
-   "CTR (pl. Ljubljana): a repülőtértől 5 km-nél távolabb legfeljebb 50 m magasságban repülj a talajszint felett; közelebb vagy magasabban csak a szlovén légiforgalmi irányítás engedélyével.",
-   "Nukleáris létesítmény területe (NEK Krško): A repülés csak a Szlovén Nukleárisbiztonsági Igazgatóság és a Belügyminisztérium engedélyével megengedett."
-  ],
-  "importantNotes": [
-   "Az online képzés és az A1/A3 vizsga ingyenes (a regisztrációban benne foglaltatik).",
-   "A lakott területek feletti repüléshez további engedélyek szükségesek",
-   "A regisztráció 40 €-ba kerül 30 hónapra",
-   "A Triglav Nemzeti Parkban korlátozások vannak a drónokra",
-   "A GDPR alkalmazandó a személyazonosításra alkalmas adatok gyűjtésére"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAA Slovenia – Drónszabályozás",
-    "description": "A Szlovén Köztársaság Polgári Légiközlekedési Ügynökségének hivatalos drónszabályozása és forrásai"
-   },
-   {
-    "title": "CAA Slovenia – Üzemben tartó regisztrációja",
-    "description": "Regisztráció UAS-üzemben tartóként (40 € / 30 hónap, minden EU-/EASA-országban érvényes)"
-   },
-   {
-    "title": "CAA Slovenia – Légtértérkép",
-    "description": "ArcGIS-alapú légtértérkép a drónzónákkal és korlátozásokkal"
-   },
-   {
-    "title": "CAA Slovenia – Ingyenes A1/A3 vizsga",
-    "description": "Ingyenes online képzés és A1/A3 vizsga"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Slovenia Control – Légtérinformációk",
-    "description": "Szlovén légiforgalmi irányítás és légtérinformációk"
-   },
-   {
-    "title": "CAA Slovenia – GYIK a drónokról",
-    "description": "Gyakran ismételt kérdések a szlovéniai drónszabályozásról"
-   }
-  ],
-  "disclaimerText": "Repülés előtt mindig ellenőrizd a CAA Slovenia hivatalos forrásait. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Szlovénia az EASA-szabályozást követi nemzeti kiegészítésekkel.",
-  "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
-  "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
-  "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
-  "linksSheetTitle": "Légtér és szabályozás – Szlovénia",
-  "dronePilotCredentialName": "Drónpilóta-igazolvány"
- }
+  "meta": {
+    "sourceHash": "e6b2b7ef595a946c4fd009b44046d64770faa9411a520492ab5a176d0099aefc",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Legfeljebb 120 m-rel a talaj felett (EASA nyílt kategória)",
+      "Regisztráció UAS-üzemben tartóként (40 € / 30 hónap) a legalább 250 g tömegű vagy kamerával felszerelt drónokhoz",
+      "A CAA Slovenia ingyenes A1/A3 online vizsgát biztosít",
+      "Lakott területek felett tilos – az egyetlen kivétel a legfeljebb 1200 g tömegű, legfeljebb 50 m magasságban repülő drónok esetében áll fenn, a földtulajdonos hozzájárulásával és a repülés ügynökségnek történő előzetes bejelentésével.",
+      "Mindig tartsd a drónt vizuális látótávolságon belül (VLOS)",
+      "Ne repülj embertömeg felett. A műveletben részt nem vevő személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; ellenőrizd a hivatalos táblázatot.",
+      "Az EASA nyílt kategóriájának alapszabályai szerint az éjszakai repülés megengedett, ha az előírt zöld villogó fényt használod, kivéve, ha valamely hatályos földrajzi zóna vagy nemzeti szabály szigorúbb feltételt ír elő.",
+      "Triglav Nemzeti Park: A drónok repültetése a parkigazgatóság előzetes engedélye nélkül tilos.",
+      "CTR (pl. Ljubljana): a repülőtértől 5 km-nél távolabb legfeljebb 50 m magasságban repülj a talajszint felett; közelebb vagy magasabban csak a szlovén légiforgalmi irányítás engedélyével.",
+      "Nukleáris létesítmény körzete (NEK Krško): repülni csak a Slovenian Nuclear Safety Administration és a Ministry of the Interior engedélyével szabad."
+    ],
+    "importantNotes": [
+      "Az online képzés és az A1/A3 vizsga ingyenes (a regisztráció tartalmazza).",
+      "A lakott területek feletti repüléshez további engedélyek szükségesek",
+      "A regisztráció 40 €-ba kerül 30 hónapra",
+      "A Triglav Nemzeti Parkban drónokra vonatkozó korlátozások vannak érvényben.",
+      "A GDPR alkalmazandó a személyazonosításra alkalmas adatok gyűjtésére"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAA Slovenia – Drónszabályozás",
+        "description": "A Szlovén Köztársaság Polgári Légiközlekedési Ügynökségének hivatalos drónszabályozása és forrásai"
+      },
+      {
+        "title": "CAA Slovenia – Üzemben tartó regisztrációja",
+        "description": "Regisztráció UAS-üzemben tartóként (40 € / 30 hónap, minden EU-/EASA-országban érvényes)"
+      },
+      {
+        "title": "CAA Slovenia – Légtértérkép",
+        "description": "ArcGIS-alapú légtértérkép a drónzónákkal és korlátozásokkal"
+      },
+      {
+        "title": "CAA Slovenia – Ingyenes A1/A3 vizsga",
+        "description": "Ingyenes online képzés és A1/A3 vizsga"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Slovenia Control – Légtérinformációk",
+        "description": "Szlovén légiforgalmi irányítás és légtérinformációk"
+      },
+      {
+        "title": "CAA Slovenia – GYIK a drónokról",
+        "description": "Gyakran ismételt kérdések a szlovéniai drónszabályozásról"
+      }
+    ],
+    "disclaimerText": "Repülés előtt mindig ellenőrizd a CAA Slovenia hivatalos forrásait. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Szlovénia az EASA-szabályozást követi nemzeti kiegészítésekkel.",
+    "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
+    "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
+    "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
+    "linksSheetTitle": "Légtér és szabályozás – Szlovénia",
+    "dronePilotCredentialName": "Drónpilóta-tanúsítvány"
+  }
 }

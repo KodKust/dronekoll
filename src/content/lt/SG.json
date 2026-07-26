@@ -1,62 +1,62 @@
 {
- "meta": {
-  "sourceHash": "edba8fa0339b0b435910d8c9bd14a7a0",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius CAAS šaltinius. Ši programėlė yra įrankis, o ne teisinė institucija. Singapūre galioja labai griežtos dronų taisyklės su griežtomis bausmėmis.",
-  "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
-  "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
-  "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
-  "linksSheetTitle": "Oro erdvė ir taisyklės — Singapūras",
-  "dronePilotCredentialName": "UA piloto licencija",
-  "keyRules": [
-   "Standartinis aukštis iki 200 ft (60 m virš jūros lygio) — 400 ft (122 m) licencijuotiems komerciniams operatoriams nustatytose zonose >6 km nuo oro uostų (nuo 2025 m. vasario)",
-   "Registracija privaloma visiems sunkesniems nei 250 g dronams (25 SGD mokestis)",
-   "UA piloto licencija (UAPL) reikalinga komerciniam naudojimui arba sunkesniems nei 7 kg dronams",
-   "5 km nuo oro uostų ir karinių oro bazių",
-   "Transliuojamasis nuotolinis atpažinimas (B-RID) privalomas nuo 2025 m. gruodžio",
-   "Skraidyti naktį leidžiama tik išlaikant VLOS su tinkamu apšvietimu",
-   "Visada išlaikykite tiesioginį regėjimo ryšį (VLOS)",
-   "Skraidyti ribojamose zonose reikalingas veiklos leidimas",
-   "Baudos iki 100 000 SGD arba 5 metai laisvės atėmimo",
-   "Neskraidykite virš žmonių, pastatų ar ribojamų objektų"
-  ],
-  "importantNotes": [
-   "Singapūre galioja labai griežti dronų įstatymai — baudos iki 100 000 SGD arba 5 metai laisvės atėmimo",
-   "Standartinė aukščio riba tik 200 ft (60 m) — daug žemesnė nei daugumoje šalių",
-   "B-RID (transliuojamasis nuotolinis atpažinimas) privalomas nuo 2025 m. gruodžio",
-   "Daugelis Singapūro vietovių yra ribojamos — prieš skrydį visada pasitikrinkite OneMap"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAAS — Bepiločiai orlaiviai",
-    "description": "Oficialios Singapūro civilinės aviacijos institucijos dronų taisyklės ir gairės"
-   },
-   {
-    "title": "OneMap — Oro erdvės žemėlapis",
-    "description": "Oficialus Singapūro žemėlapis su dronų skrydžio zonomis ir ribojimais"
-   },
-   {
-    "title": "FlyItSafe — CAAS programėlė",
-    "description": "Oficiali CAAS dronų saugos programėlė su skrydžio zonomis ir leidimų informacija"
-   },
-   {
-    "title": "CAAS — UA registracija",
-    "description": "Užregistruokite droną ir pateikite veiklos leidimų prašymus internetu"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAAS — UA piloto licencija (UAPL)",
-    "description": "Piloto licencijos reikalavimai komercinėms operacijoms arba sunkesniems nei 7 kg dronams"
-   },
-   {
-    "title": "CAAS — Transliuojamasis nuotolinis atpažinimas",
-    "description": "B-RID (transliuojamasis nuotolinis atpažinimas) reikalavimai, privalomi nuo 2025 m. gruodžio"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius CAAS šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Singapore galioja labai griežtos dronų taisyklės ir griežtos bausmės.",
+    "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
+    "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
+    "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
+    "linksSheetTitle": "Oro erdvė ir taisyklės — Singapūras",
+    "dronePilotCredentialName": "UA piloto licencija",
+    "keyRules": [
+      "Įprasta didžiausia riba — 200 ft (60 m AMSL); licencijuoti komerciniai operatoriai nustatytose zonose, esančiose daugiau kaip 6 km nuo oro uosto, gali skristi iki 400 ft (122 m). Prieš remdamiesi didesne riba patikrinkite aktualius zonų žemėlapius ir sąlygas.",
+      "Jei bepilotis orlaivis sveria daugiau nei 250 g, jį privaloma registruoti CAAS. Registracija kainuoja SGD 25 ir jos galiojimo laikas neribotas — registracijos duomenis reikia atnaujinti arba ją panaikinti tik tada, kai dronas pamestas, sugadintas, parduotas arba jo ID etiketė tampa neįskaitoma.",
+      "UA Pilot Licence (UAPL) reikalinga komerciniam ar profesiniam naudojimui arba bet kuriam sunkesniam nei 7 kg dronui, nepriklausomai nuo paskirties. Class B UAPL taikoma lengvesniems nei 7 kg komerciniams dronams.",
+      "Laikykitės bent 5 km atstumo nuo oro uostų ir karinių oro bazių — prieš skrisdami netoli bet kurios oro bazės patikrinkite tikslų šiuo metu galiojantį atstumą.",
+      "Broadcast Remote ID (B-RID) nuo 2025 m. gruodžio 1 d. privalomas sunkesniems nei 250 g UA, išskyrus patalpose ar uždarose erdvėse naudojamus UA ir atvejus, kai operatorius turi Operator Permit bei naudoja FlyItSafe programėlę.",
+      "Naktį skraidyti leidžiama tik įjungus reikiamą apšvietimą ir visą laiką išlaikant VLOS; skrydžiui už tiesioginio regėjimo ribų reikia Operator Permit ir Class 1 Activity Permit.",
+      "Visada išlaikykite tiesioginį regėjimo ryšį (VLOS)",
+      "Skrydžiams ribojamose zonose reikalingas Activity Permit.",
+      "Baudos skirstomos pagal pažeidimo sunkumą: pirmą kartą nuteisus už sunkų pažeidimą (pvz., skrydį draudžiamoje ar saugomoje teritorijoje arba drono valdymą apsvaigus) gresia iki SGD 50 000 arba 2 metų laisvės atėmimo; už pakartotinius pažeidimus — iki SGD 100 000 arba 5 metų laisvės atėmimo. Už lengvesnius pažeidimus (pvz., neregistruoto drono naudojimą arba B-RID pažeidimą) gresia mažesnės baudos — iki SGD 10 000 ir iki 6 mėnesių laisvės atėmimo.",
+      "Neskraidykite virš žmonių, pastatų ar ribojamų objektų"
+    ],
+    "importantNotes": [
+      "Singapore taikomos griežtos, pakopomis nustatytos bausmės už dronų taisyklių pažeidimus: pirmą kartą nuteisus už sunkius pažeidimus, pavyzdžiui, skrydį ribojamoje zonoje, gresia iki SGD 50 000 bauda arba 2 metų laisvės atėmimas — už pakartotinius pažeidimus iki SGD 100 000 arba 5 metų. Už lengvesnius pažeidimus skiriamos mažesnės baudos (iki SGD 10 000 ir iki 6 mėnesių laisvės atėmimo).",
+      "Standartinė aukščio riba tik 200 ft (60 m) — daug žemesnė nei daugumoje šalių",
+      "Broadcast Remote ID (B-RID) nuo 2025 m. gruodžio 1 d. privalomas sunkesniems nei 250 g UA (taikomos ribotos išimtys naudojimui patalpose ir Operator Permit turėtojams, naudojantiems FlyItSafe programėlę).",
+      "Daugelis Singapore vietovių yra ribojamos — prieš skrydį visada patikrinkite OneMap"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAAS — Bepiločiai orlaiviai",
+        "description": "Oficialios Singapūro civilinės aviacijos institucijos dronų taisyklės ir gairės"
+      },
+      {
+        "title": "OneMap — Oro erdvės žemėlapis",
+        "description": "Oficialus Singapūro žemėlapis su dronų skrydžio zonomis ir ribojimais"
+      },
+      {
+        "title": "FlyItSafe — CAAS programėlė",
+        "description": "Oficiali CAAS dronų saugos programėlė su skrydžio zonomis ir leidimų informacija"
+      },
+      {
+        "title": "CAAS — UA registracija",
+        "description": "Užregistruokite droną ir pateikite veiklos leidimų prašymus internetu"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAAS — UA piloto licencija (UAPL)",
+        "description": "Piloto licencijos reikalavimai komercinėms operacijoms arba sunkesniems nei 7 kg dronams"
+      },
+      {
+        "title": "CAAS — Transliuojamasis nuotolinis atpažinimas",
+        "description": "B-RID (transliuojamasis nuotolinis atpažinimas) reikalavimai, privalomi nuo 2025 m. gruodžio"
+      }
+    ]
+  }
 }

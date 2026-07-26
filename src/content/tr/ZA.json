@@ -1,49 +1,49 @@
 {
- "meta": {
-  "sourceHash": "f53af6e5236d50516efd5d214a26baef",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Uçmadan önce her zaman resmî SACAA kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Kurallar önceden bildirilmeksizin değişebilir.",
-  "sectionLabelRules": "TEMEL KURALLAR",
-  "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
-  "sectionLabelSecondary": "EK KAYNAKLAR",
-  "linksSheetTitle": "Hava Sahası ve Kurallar — Güney Afrika",
-  "dronePilotCredentialName": "Uzaktan Pilot Lisansı",
-  "keyRules": [
-   "Görüş hattı (VLOS) zorunludur — yatayda en fazla 500 m mesafe",
-   "İnsanlara, binalara ve araçlara en az 50 m mesafe",
-   "Herhangi bir havalimanına 10 km mesafe — katı biçimde uygulanır",
-   "TÜM ulusal parklar dronlara yasaktır — Kruger dahil (10 yıla kadar hapis)",
-   "Yalnızca gündüz — açık hava koşulları gereklidir",
-   "Hobi amaçlı uçuş için kayıt veya lisans gerekmez",
-   "Ticari kullanım RPC (Uzaktan Pilot Sertifikası), ROC ve RLA gerektirir",
-   "Sigorta yalnızca ticari operasyonlar için zorunludur",
-   "İnsan topluluklarının veya halka açık etkinliklerin üzerinden uçmayın"
-  ],
-  "importantNotes": [
-   "HERHANGİ bir ulusal parkta (Kruger dahil) uçmak 10 yıla kadar hapis cezasıyla sonuçlanabilir",
-   "10 km'lik havalimanı dışlama bölgesi çoğu ülkeden çok daha katıdır",
-   "Ticari operatörlerin üç ayrı sertifikasyona ihtiyacı vardır: RPC, ROC ve RLA",
-   "İhlaller için cezalar cezai kovuşturmayı içerebilir"
-  ],
-  "primaryLinks": [
-   {
-    "title": "SACAA — UAS mevzuatı",
-    "description": "Güney Afrika Sivil Havacılık Otoritesi'nin resmî dron mevzuatı ve rehberliği"
-   },
-   {
-    "title": "SACAA — Ana portal",
-    "description": "Güney Afrika Sivil Havacılık Otoritesi'nin ana web sitesi"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "SACAA — Ticari ruhsatlandırma",
-    "description": "Ticari dron operasyonları için RPC, ROC ve RLA gereklilikleri"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "fca3bbf5a00a2bc5c8ae02d7f663df3d",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Uçmadan önce her zaman resmî SACAA kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Kurallar önceden bildirilmeksizin değişebilir.",
+    "sectionLabelRules": "TEMEL KURALLAR",
+    "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
+    "sectionLabelSecondary": "EK KAYNAKLAR",
+    "linksSheetTitle": "Hava Sahası ve Kurallar — Güney Afrika",
+    "dronePilotCredentialName": "Uzaktan Pilot Lisansı",
+    "keyRules": [
+      "Görüş hattı (VLOS) zorunludur — yatayda en fazla 500 m mesafe",
+      "İnsanlara, binalara ve araçlara en az 50 m mesafe",
+      "Havalimanlarından en az 10 km uzakta kalın — bu kural Güney Afrika'da sıkı biçimde uygulanır. Bir havalimanının yakınında uçmadan önce kesin güncel mesafeyi SACAA ile doğrulayın.",
+      "Kruger'de veya başka herhangi bir Güney Afrika ulusal parkında dron uçurmak için SANParks'tan açık izin gerekir (NEMA Protected Areas Act) — parkın en yüksek noktasının 2.500 ft üzerinden daha alçakta izinsiz uçmak yasaktır. Ayrıca, Güney Afrika hava sahasında sivil havacılık kurallarına uymadan herhangi bir UAV işletmek R50.000'e kadar para cezasına ve/veya 10 yıla kadar hapis cezasına yol açabilir.",
+      "Yalnızca gündüz uçun — hava koşulları açık olmalıdır",
+      "Hobi amaçlı uçuş için kayıt veya lisans gerekmez",
+      "Ticari kullanım RPC (Uzaktan Pilot Sertifikası), ROC ve RLA gerektirir",
+      "Sigorta genellikle yalnızca ticari operasyonlar için gereklidir — ticari kullanımdan önce güncel SACAA gerekliliklerini doğrulayın.",
+      "İnsan topluluklarının veya halka açık etkinliklerin üzerinden uçmayın"
+    ],
+    "importantNotes": [
+      "Herhangi bir ulusal parkta (Kruger dahil) SANParks izni olmadan uçmak NEMA Protected Areas Act'i ihlal eder; ayrıca sivil havacılık kurallarına uymadan bir UAV işletmek R50.000'e kadar para cezasına ve/veya 10 yıla kadar hapis cezasına yol açabilir.",
+      "Güney Afrika'nın 10 km'lik havalimanı bölgesi, çoğu ülkedeki tipik 3–9 km mesafeden çok daha katıdır — güncel mesafeyi SACAA ile doğrulayın.",
+      "Ticari operatörlerin üç ayrı sertifikasyona ihtiyacı vardır: RPC, ROC ve RLA",
+      "İhlaller cezai kovuşturmaya yol açabilir"
+    ],
+    "primaryLinks": [
+      {
+        "title": "SACAA — UAS mevzuatı",
+        "description": "Güney Afrika Sivil Havacılık Otoritesi'nin resmî dron mevzuatı ve rehberliği"
+      },
+      {
+        "title": "SACAA — Ana portal",
+        "description": "Güney Afrika Sivil Havacılık Otoritesi'nin ana web sitesi"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "SACAA — Ticari ruhsatlandırma",
+        "description": "Ticari dron operasyonları için RPC, ROC ve RLA gereklilikleri"
+      }
+    ]
+  }
 }

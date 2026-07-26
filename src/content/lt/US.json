@@ -1,68 +1,68 @@
 {
- "meta": {
-  "sourceHash": "0ca86c86f309e247349cf5f67709698b",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius FAA šaltinius. Ši programėlė yra įrankis, o ne teisinė institucija. Taisyklės skiriasi pagal valstiją ir savivaldybę. Patikrinkite federalines, valstijos ir vietines taisykles savo konkrečioje vietoje.",
-  "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
-  "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
-  "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
-  "linksSheetTitle": "Oro erdvė ir taisyklės — Jungtinės Valstijos",
-  "dronePilotCredentialName": "Part 107",
-  "keyRules": [
-   "Ne daugiau kaip 400 ft (122 m) virš žemės paviršiaus nekontroliuojamoje oro erdvėje",
-   "Registruokite 250 g ir sunkesnius dronus FAA DroneZone (5 $, galioja 3 metus)",
-   "Pramoginiam naudojimui: išlaikykite nemokamą TRUST saugos testą — turėkite įrodymą skrisdami",
-   "Komerciniam naudojimui: gaukite FAA nuotolinio piloto pažymėjimą (Part 107 egzaminas)",
-   "Remote ID privalomas visiems dronams, kuriems reikia registracijos — ribota išimtis taikoma tik lengvesniems nei 250 g pramoginiams dronams, skraidomiems FAA pripažintose atpažinimo zonose (FRIA apima <2 % JAV)",
-   "LAANC leidimas reikalingas skristi kontroliuojamoje oro erdvėje netoli oro uostų",
-   "Visada išlaikykite tiesioginį regėjimo ryšį (VLOS) — jokio FPV be regėjimo stebėtojo",
-   "Neskraidykite virš žmonių ar judančių transporto priemonių be leidimo",
-   "Naktiniai skrydžiai leidžiami su apsaugos nuo susidūrimo žibintais, matomais 3 statutinių mylių atstumu (Part 107 pilotams: reikalingas 2021 m. mokymų atnaujinimas, atsisakymo nebereikia; pramoginiai pilotai turi laikytis CBO saugos gairių)",
-   "Valstijos ir vietiniai įstatymai gali nustatyti papildomų ribojimų — visada pasitikrinkite prieš skrydį"
-  ],
-  "importantNotes": [
-   "Remote ID visiškai vykdomas — reikalavimų neatitinkantys dronai gali skraidyti tik FAA pripažintose atpažinimo zonose (FRIA)",
-   "Kai kurios valstijos pakeičia vietinius dronų įstatymus (FL, TX, AZ) — kitos leidžia miesto/apygardos ribojimus (CA, NY, CO)"
-  ],
-  "primaryLinks": [
-   {
-    "title": "FAA — Dronų taisyklės",
-    "description": "Oficialus FAA centras visoms UAS taisyklėms, registracijai ir ištekliams"
-   },
-   {
-    "title": "FAA DroneZone — Registracija",
-    "description": "Užregistruokite droną, tvarkykite pažymėjimus ir tikrinkite atitiktį"
-   },
-   {
-    "title": "B4UFLY — Oro erdvės patikrinimas",
-    "description": "Oficiali FAA programėlė oro erdvės ribojimams patikrinti prieš skrydį"
-   },
-   {
-    "title": "LAANC — Leidimas per Aloft (nemokamai)",
-    "description": "Teikite LAANC prašymus per Aloft, FAA patvirtintą nemokamą teikėją. Portalas automatiškai aptinka jūsų vietą — bakstelėkite žemėlapį, kad patvirtintumėte ir paprašytumėte leidimo."
-   },
-   {
-    "title": "TRUST — Pramoginio naudojimo saugos testas",
-    "description": "Nemokamas privalomas saugos testas visiems pramoginiams dronų pilotams"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "FAA — Remote ID",
-    "description": "Remote ID reikalavimai — privalomi visiems 250 g ir sunkesniems dronams"
-   },
-   {
-    "title": "FAA — Part 107 (komercinis)",
-    "description": "Nuotolinio piloto pažymėjimas komercinėms dronų operacijoms"
-   },
-   {
-    "title": "FAA — Pramoginiai pilotai",
-    "description": "Taisyklės ir ištekliai mėgėjams ir pramoginiams dronų pilotams"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "1a86fe9ed556c5d02fb394345097dd21",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius FAA šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Taisyklės skiriasi pagal valstiją ir savivaldybę. Patikrinkite jūsų konkrečiai vietai taikomas federalines, valstijos ir vietos taisykles.",
+    "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
+    "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
+    "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
+    "linksSheetTitle": "Oro erdvė ir taisyklės — Jungtinės Valstijos",
+    "dronePilotCredentialName": "Part 107",
+    "keyRules": [
+      "Ne daugiau kaip 400 ft (122 m) virš žemės paviršiaus nekontroliuojamoje oro erdvėje",
+      "Registruokite 250 g ir sunkesnius dronus FAA DroneZone (5 $, galioja 3 metus)",
+      "Pramoginiam naudojimui: išlaikykite nemokamą TRUST saugos testą — turėkite įrodymą skrisdami",
+      "Komerciniam naudojimui: gaukite FAA Remote Pilot Certificate (Part 107 egzaminas)",
+      "Remote ID privalomas kiekvienam dronui, kurį privaloma registruoti FAA. Lengvesnis nei 250g dronas, naudojamas tik pramoginiais tikslais ir pats neregistruotas, nuo Remote ID atleidžiamas visur — ne tik FRIA viduje. FRIAs (FAA-Recognized Identification Areas) skirtos kitam atvejui: dronui, kuriam kitu atveju taikomas Remote ID reikalavimas, skraidinti ribotoje, specialiai nustatytoje teritorijoje. Bet kuris komerciniais tikslais pagal Part 107 naudojamas dronas turi būti registruotas ir atitikti Remote ID reikalavimus, nepriklausomai nuo svorio.",
+      "LAANC leidimas reikalingas skristi kontroliuojamoje oro erdvėje netoli oro uostų",
+      "Visada išlaikykite tiesioginį regėjimo ryšį (VLOS) — FPV skrydis be vizualiojo stebėtojo draudžiamas",
+      "Neskraidykite virš žmonių ar judančių transporto priemonių be leidimo",
+      "Naktiniai skrydžiai leidžiami su apsaugos nuo susidūrimo žibintais, matomais 3 statutinių mylių atstumu (Part 107 pilotams: reikalingas 2021 m. mokymų atnaujinimas, specialios išimties leidimo nebereikia; pramoginiai pilotai turi laikytis CBO saugos gairių)",
+      "Valstijos ir vietiniai įstatymai gali nustatyti papildomų ribojimų — visada pasitikrinkite prieš skrydį"
+    ],
+    "importantNotes": [
+      "Remote ID reikalavimai visiškai taikomi — jų neatitinkantys dronai gali skraidyti tik FAA-Recognized Identification Areas (FRIAs)",
+      "Kai kuriose valstijose valstijos teisė turi viršenybę prieš vietos dronų taisykles (FL, TX, AZ), o kitos leidžia miestų ir apygardų ribojimus (CA, NY, CO)"
+    ],
+    "primaryLinks": [
+      {
+        "title": "FAA — Dronų taisyklės",
+        "description": "Oficialus FAA centras visoms UAS taisyklėms, registracijai ir ištekliams"
+      },
+      {
+        "title": "FAA DroneZone — Registracija",
+        "description": "Užregistruokite droną, tvarkykite pažymėjimus ir tikrinkite atitiktį"
+      },
+      {
+        "title": "B4UFLY — Oro erdvės patikrinimas",
+        "description": "Oficiali FAA programėlė oro erdvės ribojimams patikrinti prieš skrydį"
+      },
+      {
+        "title": "LAANC — Leidimas per Aloft (nemokamai)",
+        "description": "Teikite LAANC prašymus per Aloft, FAA patvirtintą nemokamą teikėją. Portalas automatiškai aptinka jūsų vietą — bakstelėkite žemėlapį, kad patvirtintumėte ir paprašytumėte leidimo."
+      },
+      {
+        "title": "TRUST — Pramoginio naudojimo saugos testas",
+        "description": "Nemokamas privalomas saugos testas visiems pramoginiams dronų pilotams"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "FAA — Remote ID",
+        "description": "Remote ID reikalavimai — privalomi visiems 250 g ir sunkesniems dronams"
+      },
+      {
+        "title": "FAA — Part 107 (komercinis)",
+        "description": "Nuotolinio piloto pažymėjimas komercinėms dronų operacijoms"
+      },
+      {
+        "title": "FAA — Pramoginiai pilotai",
+        "description": "Taisyklės ir ištekliai mėgėjams ir pramoginiams dronų pilotams"
+      }
+    ]
+  }
 }

@@ -1,54 +1,54 @@
 {
- "meta": {
-  "sourceHash": "eaa7abf236bd1a6fbe4e339875dc13bc",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Uçmadan önce her zaman resmî CAAP kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Kurallar önceden bildirilmeksizin değişebilir.",
-  "sectionLabelRules": "TEMEL KURALLAR",
-  "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
-  "sectionLabelSecondary": "EK KAYNAKLAR",
-  "linksSheetTitle": "Hava Sahası ve Kurallar — Filipinler",
-  "dronePilotCredentialName": "RPA Kumandacı Sertifikası",
-  "keyRules": [
-   "Yerden en fazla 400 ft (122 m)",
-   "Her zaman görüş hattını (VLOS) koruyun",
-   "TÜM ticari dron kullanımları için kayıt gereklidir (her ağırlıkta); ticari olmayan dronlar CAAP PCAR Part 11 uyarınca yalnızca 7 kg ve üzerinde kaydedilir",
-   "Herhangi bir havalimanına 10 km mesafe — katı biçimde uygulanır",
-   "İlgisiz kişilere en az 30 m mesafe",
-   "Özel CAAP izni olmadan gece uçuşu yoktur",
-   "Ticari kullanım veya 7 kg'dan ağır dronlar için RPA Kumandacı Sertifikası gereklidir (5 yıl geçerli)",
-   "Ticari operasyonlar için UAS Operatör Sertifikası gereklidir (3 yıl geçerli)",
-   "Ticari operasyonlar için sigorta zorunludur",
-   "Her zaman tüm insanlı hava araçlarına yol verin"
-  ],
-  "importantNotes": [
-   "10 km'lik havalimanı dışlama bölgesi çoğu ülkeden daha katıdır",
-   "Ticari operatörlerin hem RPA Kumandacı Sertifikasına (5 yıl) hem de UAS Operatör Sertifikasına (3 yıl) ihtiyacı vardır",
-   "Gece uçuşu özel bir CAAP izni gerektirir — varsayılan olarak izin verilmez",
-   "Sigorta, tüm ticari dron operasyonları için zorunludur"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAAP — RPAS mevzuatı",
-    "description": "Filipinler Sivil Havacılık Otoritesi'nin resmî dron mevzuatı"
-   },
-   {
-    "title": "CAAP — Ana portal",
-    "description": "Filipinler Sivil Havacılık Otoritesi'nin ana web sitesi"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAAP — UA Sicil Portalı",
-    "description": "Dronunuzu CAAP UA siciline kaydedin"
-   },
-   {
-    "title": "CAAP — Ticari ruhsatlandırma",
-    "description": "RPA Kumandacı Sertifikası ve UAS Operatör Sertifikası gereklilikleri"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "e85b5f3541d893697ea6591ad6e2d83b",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Uçmadan önce her zaman resmî CAAP kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Kurallar önceden bildirilmeksizin değişebilir.",
+    "sectionLabelRules": "TEMEL KURALLAR",
+    "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
+    "sectionLabelSecondary": "EK KAYNAKLAR",
+    "linksSheetTitle": "Hava Sahası ve Kurallar — Filipinler",
+    "dronePilotCredentialName": "RPA Kumandacı Sertifikası",
+    "keyRules": [
+      "Yerden en fazla 400 ft (122 m)",
+      "Dronla her zaman doğrudan ve yardımcı araç olmadan görsel teması korumalısınız (gözlük veya kontakt lens kullanılabilir). FPV gözlüğüyle uçuşa yalnızca VLOS'u koruyan bir görsel gözlemci eşliğinde izin verilir; görüş hattı ötesi uçuş için CAAP izni gerekir (PCAR Part 11).",
+      "TÜM ticari dron kullanımları için kayıt gereklidir (her ağırlıkta); ticari olmayan dronlar CAAP PCAR Part 11 uyarınca yalnızca 7 kg ve üzerinde kaydedilir",
+      "Herhangi bir havalimanından en az 10 km uzakta kalın — bu tampon bölge, 2024 sonu/2025 başında NAIA (Manila) yakınında dron görülmesinin ardından CAAP Memorandum Circular 026-2025 ile genişletildi ve sıkı biçimde uygulanıyor.",
+      "Operasyona dahil olmayan kişilerden en az 30 m uzakta kalın.",
+      "Gece uçuşu için özel CAAP izni ve dronda uygun aydınlatma gerekir — varsayılan olarak izin verilmez.",
+      "Ticari kullanım veya 7 kg'dan ağır dronlar için RPA Kumandacı Sertifikası gereklidir (5 yıl geçerli)",
+      "Ticari operasyonlar için 3 yıl geçerli bir UAS Operator Certificate ile pilot adına bir Remote Pilot License gerekir; Remote Pilot License ticari kullanımda veya hobi amaçlı uçulsa bile 7 kg veya daha ağır dronlar için zorunludur.",
+      "Ticari operasyonlarda sorumluluk sigortası, UAS Operator Certificate sürecinin bir parçası olarak gereklidir.",
+      "Her zaman tüm insanlı hava araçlarına yol verin"
+    ],
+    "importantNotes": [
+      "10 km'lik havalimanı uçuşa kapalı bölgesi (2025'te MC 026-2025 ile genişletildi), çoğu ülkedeki tipik 3–9 km tamponlardan daha katıdır.",
+      "Ticari operatörlerin hem RPA Kumandacı Sertifikasına (5 yıl) hem de UAS Operatör Sertifikasına (3 yıl) ihtiyacı vardır",
+      "Gece uçuşuna varsayılan olarak izin verilmez — özel CAAP izni ve dronda uygun aydınlatma gerekir.",
+      "Sorumluluk sigortası, Operator Certificate sürecinin bir parçası olarak tüm ticari dron operasyonları için zorunludur."
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAAP — RPAS mevzuatı",
+        "description": "Filipinler Sivil Havacılık Otoritesi'nin resmî dron mevzuatı"
+      },
+      {
+        "title": "CAAP — Ana portal",
+        "description": "Filipinler Sivil Havacılık Otoritesi'nin ana web sitesi"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAAP — UA Sicil Portalı",
+        "description": "Dronunuzu CAAP UA siciline kaydedin"
+      },
+      {
+        "title": "CAAP — Ticari ruhsatlandırma",
+        "description": "RPA Kumandacı Sertifikası ve UAS Operatör Sertifikası gereklilikleri"
+      }
+    ]
+  }
 }

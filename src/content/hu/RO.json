@@ -1,64 +1,64 @@
 {
- "meta": {
-  "sourceHash": "dcef4a956a49aee95524bad5517344cde74a4ab744ba6ea4035a03c84c972db7",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
-   "Online regisztráció az AACR-portálon (uas.caa.ro): 90 € + áfa (~108 €), 1 évig érvényes",
-   "Kötelező A1/A3 online képzés – legalább 16 éves kortól",
-   "A városban való repülés tilos – a városi repülésre vonatkozó korlátozások nagyon szigorúak",
-   "30 km-es tiltott zóna az UKRAJNÁVAL határos térségben (Észak-Dobrudzsa, Sulina–Galați) – a repülés a Nemzetvédelmi Minisztérium rendelete alapján tilos",
-   "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS)",
-   "Ne repüljön emberek csoportjai felett! A nem érintett személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; kérjük, ellenőrizze a hivatalos táblázatot.",
-   "Legalább 8 km-es távolság a repülőterektől (a Henri Coandă védelmi zónája 8–10 km)",
-   "Az EASA nyílt kategóriájú alapszabályai szerint az éjszakai repülés megengedett, amennyiben a előírt zöld villogó fényt használják, kivéve, ha valamely hatályos földrajzi övezetre vonatkozó vagy nemzeti szabály szigorúbb feltételt ír elő.",
-   "A Duna-delta és a nemzeti parkok: további korlátozások érvényesek"
-  ],
-  "importantNotes": [
-   "A regisztráció 100%-ban online történik az AACR-portálon (uas.caa.ro) – nem kell Bukarestbe utazni",
-   "Regisztrációs díj: 90 € + áfa (~108 €), 1 évig érvényes",
-   "A városban való repülés kedvtelési célból lényegében tilos",
-   "A 30 km-es tiltott zóna az Ukrajnával határos térséget (Észak-Dobrudzsa) fedi le, a Nemzetvédelmi Minisztérium 2023 szeptemberében kiadott rendelete alapján",
-   "A GDPR alkalmazandó az azonosítható képek gyűjtésére",
-   "Egy másik EU-/EGT-ország által kiállított regisztráció és A1/A3 tanúsítvány Romániában is érvényes – újbóli regisztráció nélkül (kölcsönös elismerés, EU-rendelet 2019/947)"
-  ],
-  "primaryLinks": [
-   {
-    "title": "AACR – drónszabályozás",
-    "description": "A Román Polgári Légügyi Hatóság hivatalos drónszabályai és forrásai"
-   },
-   {
-    "title": "AACR – regisztráció üzemben tartóként",
-    "description": "Online regisztráció UAS-üzemben tartóként (90 € + áfa, ~108 €, 1 évig érvényes)"
-   },
-   {
-    "title": "ROMATSA – légtértérkép",
-    "description": "Román légiforgalmi szolgálatok és légtér-információ"
-   },
-   {
-    "title": "AACR – UAS-szabályok",
-    "description": "Részletes szabályozás az UAS-ekről és a nemzeti követelményekről"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "AACR – gyakran ismételt kérdések a drónokról",
-    "description": "Gyakran ismételt kérdések a romániai drónszabályozásról"
-   },
-   {
-    "title": "ROMATSA – NOTAM",
-    "description": "Aktív NOTAM-ok és ideiglenes légtérkorlátozások"
-   }
-  ],
-  "disclaimerText": "Repülés előtt mindig ellenőrizd az AACR hivatalos forrásait. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Románia az EASA szabályait alkalmazza szigorú nemzeti kiegészítésekkel, köztük a városi repülési tilalommal és a határ menti tiltott zónákkal.",
-  "sectionLabelRules": "LÉNYEGES SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
-  "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
-  "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
-  "linksSheetTitle": "Légtér és szabályozás – Románia",
-  "dronePilotCredentialName": "Drónpilóta-igazolvány"
- }
+  "meta": {
+    "sourceHash": "dcef4a956a49aee95524bad5517344cde74a4ab744ba6ea4035a03c84c972db7",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
+      "Online regisztráció az AACR-portálon (uas.caa.ro): 90 € + áfa (~108 €), 1 évig érvényes",
+      "Kötelező A1/A3 online képzés – legalább 16 éves kortól",
+      "A városban való repülés tilos – a városi repülésre vonatkozó korlátozások nagyon szigorúak",
+      "30 km-es tiltott zóna az UKRAJNÁVAL határos térségben (Észak-Dobrudzsa, Sulina–Galați) – a repülés a Nemzetvédelmi Minisztérium rendelete alapján tilos",
+      "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS)",
+      "Ne repülj embercsoportosulások felett. A műveletben részt nem vevő személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; ellenőrizd a hivatalos táblázatot.",
+      "Legalább 8 km-es távolság a repülőterektől (a Henri Coandă védelmi zónája 8–10 km)",
+      "Az EASA nyílt kategóriájának alapszabályai szerint az éjszakai repülés megengedett az előírt villogó zöld fény használatával, kivéve, ha egy hatályos földrajzi zóna vagy nemzeti szabály szigorúbb feltételt ír elő.",
+      "A Duna-delta és a nemzeti parkok: további korlátozások érvényesek"
+    ],
+    "importantNotes": [
+      "A regisztráció 100%-ban online történik az AACR-portálon (uas.caa.ro) – nem kell Bukarestbe utazni",
+      "Regisztrációs díj: 90 € + áfa (~108 €), 1 évig érvényes",
+      "A városban való repülés kedvtelési célból lényegében tilos",
+      "A 30 km-es tiltott zóna az Ukrajnával határos térséget (Észak-Dobrudzsa) fedi le, a Nemzetvédelmi Minisztérium 2023 szeptemberében kiadott rendelete alapján",
+      "A GDPR alkalmazandó az azonosítható képek gyűjtésére",
+      "Egy másik EU-/EGT-ország által kiállított regisztráció és A1/A3 tanúsítvány Romániában is érvényes – újbóli regisztráció nélkül (kölcsönös elismerés, EU-rendelet 2019/947)"
+    ],
+    "primaryLinks": [
+      {
+        "title": "AACR – drónszabályozás",
+        "description": "A Román Polgári Légügyi Hatóság hivatalos drónszabályai és forrásai"
+      },
+      {
+        "title": "AACR – regisztráció üzemben tartóként",
+        "description": "Online regisztráció UAS-üzemben tartóként (90 € + áfa, ~108 €, 1 évig érvényes)"
+      },
+      {
+        "title": "ROMATSA – légtértérkép",
+        "description": "Román légiforgalmi szolgálatok és légtér-információ"
+      },
+      {
+        "title": "AACR – UAS-szabályok",
+        "description": "Részletes szabályozás az UAS-ekről és a nemzeti követelményekről"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "AACR – gyakran ismételt kérdések a drónokról",
+        "description": "Gyakran ismételt kérdések a romániai drónszabályozásról"
+      },
+      {
+        "title": "ROMATSA – NOTAM",
+        "description": "Aktív NOTAM-ok és ideiglenes légtérkorlátozások"
+      }
+    ],
+    "disclaimerText": "Repülés előtt mindig ellenőrizd az AACR hivatalos forrásait. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Románia az EASA szabályait alkalmazza szigorú nemzeti kiegészítésekkel, köztük a városi repülési tilalommal és a határ menti tiltott zónákkal.",
+    "sectionLabelRules": "LÉNYEGES SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
+    "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
+    "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
+    "linksSheetTitle": "Légtér és szabályozás – Románia",
+    "dronePilotCredentialName": "Drónpilóta-igazolvány"
+  }
 }

@@ -1,62 +1,62 @@
 {
- "meta": {
-  "sourceHash": "edba8fa0339b0b435910d8c9bd14a7a0",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Verifica sempre le fonti ufficiali della CAAS prima di volare. Questa app è uno strumento, non un'autorità legale. Singapore ha una normativa sui droni molto severa, con sanzioni pesanti.",
-  "sectionLabelRules": "REGOLE PRINCIPALI",
-  "sectionLabelPrimary": "FONTI UFFICIALI",
-  "sectionLabelSecondary": "RISORSE AGGIUNTIVE",
-  "linksSheetTitle": "Spazio aereo e regole — Singapore",
-  "dronePilotCredentialName": "Licenza di pilota UA",
-  "keyRules": [
-   "Massimo 200 ft (60 m AMSL) standard — 400 ft (122 m) per operatori commerciali con licenza in zone designate a più di 6 km dagli aeroporti (da febbraio 2025)",
-   "Registrazione obbligatoria per tutti i droni di peso superiore a 250 g (tassa di SGD 25)",
-   "Licenza di pilota UA (UAPL) obbligatoria per uso commerciale o per droni di peso superiore a 7 kg",
-   "5 km dagli aeroporti e dalle basi aeree militari",
-   "Remote ID trasmesso (B-RID) obbligatorio da dicembre 2025",
-   "Volo notturno consentito solo se si mantiene il VLOS con un'illuminazione adeguata",
-   "Mantieni sempre il contatto visivo diretto (VLOS)",
-   "Permesso per attività richiesto per volare in aree soggette a restrizioni",
-   "Sanzioni fino a SGD 100.000 o 5 anni di reclusione",
-   "Non volare sopra persone, edifici o installazioni soggette a restrizioni"
-  ],
-  "importantNotes": [
-   "Singapore ha una normativa sui droni molto severa — sanzioni fino a SGD 100.000 o 5 anni di carcere",
-   "Il limite di quota standard è di soli 200 ft (60 m) — molto più basso che nella maggior parte dei Paesi",
-   "Il B-RID (Remote ID trasmesso) è obbligatorio da dicembre 2025",
-   "Molte aree di Singapore sono soggette a restrizioni: controlla sempre OneMap prima di volare"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAAS — Aeromobili senza pilota",
-    "description": "Normativa e indicazioni ufficiali sui droni dell'Autorità dell'Aviazione Civile di Singapore"
-   },
-   {
-    "title": "OneMap — Mappa dello spazio aereo",
-    "description": "Mappa ufficiale di Singapore con le zone di volo per droni e le restrizioni"
-   },
-   {
-    "title": "FlyItSafe — App della CAAS",
-    "description": "App ufficiale della CAAS per la sicurezza dei droni, con zone di volo e informazioni sui permessi"
-   },
-   {
-    "title": "CAAS — Registrazione UA",
-    "description": "Registra il tuo drone e richiedi online i permessi per attività"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAAS — Licenza di pilota UA (UAPL)",
-    "description": "Requisiti della licenza di pilota per operazioni commerciali o droni di peso superiore a 7 kg"
-   },
-   {
-    "title": "CAAS — Remote ID trasmesso",
-    "description": "Requisiti del B-RID (Remote ID trasmesso), obbligatori da dicembre 2025"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Verifica sempre le fonti ufficiali della CAAS prima di volare. Questa app è uno strumento, non un'autorità legale. Singapore ha una normativa sui droni molto severa, con sanzioni pesanti.",
+    "sectionLabelRules": "REGOLE PRINCIPALI",
+    "sectionLabelPrimary": "FONTI UFFICIALI",
+    "sectionLabelSecondary": "RISORSE AGGIUNTIVE",
+    "linksSheetTitle": "Spazio aereo e regole — Singapore",
+    "dronePilotCredentialName": "UA Pilot Licence (UAPL)",
+    "keyRules": [
+      "Limite standard: 200 ft (60 m AMSL); 400 ft (122 m) per gli operatori commerciali muniti di licenza nelle zone designate a più di 6 km da un aeroporto. Verifica le mappe delle zone e le condizioni vigenti prima di fare affidamento sul limite più elevato.",
+      "Devi registrare il tuo aeromobile senza pilota presso la CAAS se pesa più di 250 g. La registrazione costa SGD 25 e non scade: devi aggiornarla o cancellarla solo se il drone viene perso, danneggiato o venduto, oppure se l'etichetta identificativa diventa illeggibile.",
+      "Una UA Pilot Licence (UAPL) è obbligatoria per l'uso commerciale o professionale e per qualsiasi drone di peso superiore a 7 kg, indipendentemente dallo scopo. La UAPL di Class B copre i droni commerciali più leggeri, di peso inferiore a 7 kg.",
+      "Resta ad almeno 5 km dagli aeroporti e dalle basi aeree militari; verifica la distanza esatta in vigore prima di volare vicino a qualsiasi base aerea.",
+      "Il Broadcast Remote ID (B-RID) è obbligatorio dal 1° dicembre 2025 per gli UA di peso superiore a 250 g, salvo per gli UA utilizzati al chiuso o in spazi chiusi e quando l'operatore possiede un Operator Permit e utilizza l'app FlyItSafe.",
+      "Il volo notturno è consentito solo con l'illuminazione prescritta attiva e mantenendo sempre il VLOS; il volo oltre la linea di vista richiede un Operator Permit e un Class 1 Activity Permit.",
+      "Mantieni sempre il contatto visivo diretto (VLOS)",
+      "Per volare in aree soggette a restrizioni è richiesto un Activity Permit.",
+      "Le sanzioni sono graduate: fino a SGD 50.000 o 2 anni di reclusione alla prima condanna per violazioni gravi (ad es. volare in un'area vietata o protetta oppure operare in stato di alterazione), che salgono a SGD 100.000 o 5 anni in caso di recidiva. Le violazioni meno gravi (ad es. volare con un drone non registrato o violare gli obblighi B-RID) comportano sanzioni inferiori, fino a SGD 10.000 e fino a 6 mesi di reclusione.",
+      "Non volare sopra persone, edifici o installazioni soggette a restrizioni"
+    ],
+    "importantNotes": [
+      "Singapore applica sanzioni severe e graduate per i droni: fino a SGD 50.000 o 2 anni di reclusione alla prima condanna per violazioni gravi, come volare in un'area soggetta a restrizioni; in caso di recidiva, fino a SGD 100.000 o 5 anni. Le violazioni meno gravi comportano sanzioni inferiori (fino a SGD 10.000 e fino a 6 mesi).",
+      "Il limite di quota standard è di soli 200 ft (60 m) — molto più basso che nella maggior parte dei Paesi",
+      "Il Broadcast Remote ID (B-RID) è obbligatorio dal 1° dicembre 2025 per gli UA di peso superiore a 250 g, con eccezioni limitate per l'uso al chiuso e per i titolari di Operator Permit che utilizzano l'app FlyItSafe.",
+      "Molte aree di Singapore sono soggette a restrizioni: controlla sempre OneMap prima di volare"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAAS — Aeromobili senza pilota",
+        "description": "Normativa e indicazioni ufficiali sui droni dell'Autorità dell'Aviazione Civile di Singapore"
+      },
+      {
+        "title": "OneMap — Mappa dello spazio aereo",
+        "description": "Mappa ufficiale di Singapore con le zone di volo per droni e le restrizioni"
+      },
+      {
+        "title": "FlyItSafe — App della CAAS",
+        "description": "App ufficiale della CAAS per la sicurezza dei droni, con zone di volo e informazioni sui permessi"
+      },
+      {
+        "title": "CAAS — Registrazione UA",
+        "description": "Registra il tuo drone e richiedi online i permessi per attività"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAAS — Licenza di pilota UA (UAPL)",
+        "description": "Requisiti della licenza di pilota per operazioni commerciali o droni di peso superiore a 7 kg"
+      },
+      {
+        "title": "CAAS — Remote ID trasmesso",
+        "description": "Requisiti del B-RID (Remote ID trasmesso), obbligatori da dicembre 2025"
+      }
+    ]
+  }
 }

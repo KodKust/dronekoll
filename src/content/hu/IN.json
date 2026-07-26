@@ -1,48 +1,48 @@
 {
- "meta": {
-  "sourceHash": "8723bef5a4524ad2ccd415d49676bf8a",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Repülés előtt mindig ellenőrizd a DGCA és a DigitalSky hivatalos forrásait. Ez az alkalmazás egy segédeszköz – nem jogi forrás. India egy kötelező digitális platformot használ minden drónmegfelelőséghez.",
-  "sectionLabelRules": "FŐBB SZABÁLYOK",
-  "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
-  "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
-  "linksSheetTitle": "Légtér és szabályok – India",
-  "dronePilotCredentialName": "Távpilóta-igazolvány",
-  "keyRules": [
-   "Piros/sárga/zöld zóna rendszer – minden repülés előtt ellenőrizd a DigitalSky-t",
-   "A biztosítás minden kategóriában kötelező a Nano kivételével",
-   "Távpilóta-igazolvány (RPC) szükséges kereskedelmi célú használathoz vagy 2 kg feletti drónokhoz",
-   "Mindig tartsd fenn a vizuális látótávolságot (VLOS)",
-   "A piros zónákban a repülés szigorúan tilos külön engedély nélkül"
-  ],
-  "importantNotes": [
-   "A DigitalSky-regisztráció kötelező – a nem regisztrált drónokat (a Nano kivételével) elkobozhatják",
-   "A piros zónák közé tartoznak a repülőterek, katonai területek, határok és érzékeny helyszínek",
-   "A biztosítás a Micro, Small és Medium kategóriájú drónokhoz kötelező"
-  ],
-  "primaryLinks": [
-   {
-    "title": "DigitalSky – DGCA-platform",
-    "description": "Kötelező platform a drónregisztrációhoz, repülési engedélyekhez és zónaellenőrzésekhez"
-   },
-   {
-    "title": "DGCA – Drónszabályozás",
-    "description": "A Directorate General of Civil Aviation hivatalos drónszabályai és körlevelei"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "DGCA – Távpilóta-igazolvány",
-    "description": "Az RPC követelményei kereskedelmi célú használathoz vagy 2 kg feletti drónokhoz"
-   },
-   {
-    "title": "DigitalSky – Légtérzóna-térkép",
-    "description": "Piros, sárga és zöld zóna térkép egész Indiára"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Repülés előtt mindig ellenőrizd a DGCA és a DigitalSky hivatalos forrásait. Ez az alkalmazás egy segédeszköz – nem jogi forrás. India minden drónszabályozási követelmény teljesítéséhez kötelező digitális platformot használ.",
+    "sectionLabelRules": "FŐBB SZABÁLYOK",
+    "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
+    "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
+    "linksSheetTitle": "Légtér és szabályok – India",
+    "dronePilotCredentialName": "Távpilóta-igazolvány",
+    "keyRules": [
+      "A DigitalSky a légteret zöld (azonnali automatikus engedély), sárga (ellenőrzött légtér, ~15–30 perces automatikus feldolgozás – ide tartozik a repülőterek körüli, nagyjából 8–12 km-es sáv) és piros (korlátozott, kézi jóváhagyás szükséges) zónákra osztja. Repülés előtt mindig ellenőrizd a DigitalSky-t, mert az egyes repülőterek közelében a zónák pontos határai eltérhetnek ettől az általános mintától.",
+      "A biztosítás minden kategóriában kötelező a Nano kivételével",
+      "Remote Pilot Certificate (RPC) szükséges a Micro (250 g–2 kg) és a nagyobb drónok kereskedelmi használatához, továbbá a Small kategóriájú (2–25 kg) és annál nagyobb drónokhoz a céltól függetlenül kötelező. A Nano (<250 g) kategóriához még kereskedelmi használat esetén sem szükséges RPC.",
+      "Minden repülést látótávolságon belül kell végrehajtani – a drónnak mindenkor szabad szemmel, távcső vagy hasonló segédeszköz nélkül láthatónak kell maradnia –, kivéve, ha a DGCA külön EVLOS/BVLOS engedélyt adott.",
+      "A piros zónákban a repülés szigorúan tilos, kivéve, ha az illetékes hatóság a DigitalSky-n keresztül külön engedélyt adott."
+    ],
+    "importantNotes": [
+      "A DigitalSky-regisztráció minden drónhoz kötelező a Nano (<250 g) kategória kivételével; ehhez sem regisztráció, sem UIN nem szükséges. A regisztrációköteles, de nem regisztrált drón repülése elkobzás kockázatával jár.",
+      "A piros zónák közé tartoznak a repülőterek, katonai területek, határok és érzékeny helyszínek",
+      "A biztosítás a Micro, Small és Medium kategóriájú drónokhoz kötelező"
+    ],
+    "primaryLinks": [
+      {
+        "title": "DigitalSky – DGCA-platform",
+        "description": "Kötelező platform a drónregisztrációhoz, repülési engedélyekhez és zónaellenőrzésekhez"
+      },
+      {
+        "title": "DGCA – Drónszabályozás",
+        "description": "A Directorate General of Civil Aviation hivatalos drónszabályai és körlevelei"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "DGCA – Távpilóta-igazolvány",
+        "description": "Az RPC követelményei kereskedelmi célú használathoz vagy 2 kg feletti drónokhoz"
+      },
+      {
+        "title": "DigitalSky – Légtérzóna-térkép",
+        "description": "Piros, sárga és zöld zóna térkép egész Indiára"
+      }
+    ]
+  }
 }

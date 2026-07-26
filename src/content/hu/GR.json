@@ -1,61 +1,61 @@
 {
- "meta": {
-  "sourceHash": "6bd279870909de9539cac55440892030da06bb4b119368a297585876f27098df",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Legfeljebb 120 m a talaj felett (EASA nyílt kategória)",
-   "Regisztrálj UAS-üzemben tartóként (ingyenes), ha a drón tömege legalább 250 g, vagy kamerával rendelkezik",
-   "A1/A3 online képzés szükséges – legalább 16 éves kortól",
-   "Korlátozott régészeti helyszínek: az Akropolisz, Delphi, Olümpia és mások",
-   "Mindig tartsd fenn a vizuális látótávolságot (VLOS) a drónnal",
-   "Ne repüljön emberek csoportjai felett! A nem érintett személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; kérjük, ellenőrizze a hivatalos táblázatot.",
-   "Legalább 8 km-es távolság minden repülőtértől",
-   "Az EASA nyílt kategóriájú alapszabályai szerint az éjszakai repülés megengedett, amennyiben a előírt zöld villogó fényt használják, kivéve, ha valamely hatályos földrajzi övezetre vonatkozó vagy nemzeti szabály szigorúbb feltételt ír elő.",
-   "Szigeti repülőterek: gondosan ellenőrizd a DAGR térképet – sok szigetnek nagy CTR-je van"
-  ],
-  "importantNotes": [
-   "A régészeti helyszínek és kulturális örökségi emlékek szigorúan tiltottak – súlyos bírságokkal járnak",
-   "A szigeti repülőterek kiterjedt korlátozott zónákat hoznak létre",
-   "Katonai létesítmények: abszolút repülési tilalmi zónák (sok szigeteken)",
-   "A GDPR alkalmazandó, amikor azonosítható személyeket rögzítenek"
-  ],
-  "primaryLinks": [
-   {
-    "title": "HCAA – drónszabályozás",
-    "description": "A Polgári Légügyi Hatóság hivatalos drónszabályai és információi"
-   },
-   {
-    "title": "HCAA – pilótaregisztráció",
-    "description": "Ingyenes regisztráció UAS-üzemben tartóként (minden EU-/EASA-országban érvényes)"
-   },
-   {
-    "title": "DAGR – drónlégtér-térkép",
-    "description": "Hivatalos földrajzi térkép a görögországi dróntilalmakról"
-   },
-   {
-    "title": "HCAA – repülésbejelentés",
-    "description": "5 napos előzetes repülésbejelentés benyújtása (minden repüléshez szükséges)"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "HASP – légisportok",
-    "description": "Görög Légisport Szövetség és kedvtelési célú repülési információk"
-   },
-   {
-    "title": "HCAA – gyakran ismételt kérdések a drónokról",
-    "description": "Gyakran ismételt kérdések a görögországi drónszabályozásról"
-   }
-  ],
-  "disclaimerText": "Minden repülés előtt mindig ellenőrizd a Görög Polgári Légügyi Hatóság (HCAA) hivatalos forrásait és a DAGR térképet. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Görögország az EASA szabályait követi, nemzeti kiegészítésekkel, többek között a kötelező 5 napos repülésbejelentési kötelezettséggel.",
-  "sectionLabelRules": "ALAPVETŐ SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
-  "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
-  "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
-  "linksSheetTitle": "Légtér és szabályozás – Görögország",
-  "dronePilotCredentialName": "Üzemben tartói igazolás"
- }
+  "meta": {
+    "sourceHash": "6bd279870909de9539cac55440892030da06bb4b119368a297585876f27098df",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Legfeljebb 120 m a talaj felett (EASA nyílt kategória)",
+      "Regisztrálj UAS-üzemben tartóként (ingyenes), ha a drón tömege legalább 250 g, vagy kamerával rendelkezik",
+      "A1/A3 online képzés szükséges – legalább 16 éves kortól",
+      "Korlátozott régészeti helyszínek: az Akropolisz, Delphi, Olümpia és mások",
+      "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS)",
+      "Ne repülj embercsoportok felett. A műveletben részt nem vevő személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; ellenőrizd a hivatalos táblázatot.",
+      "Legalább 8 km-es távolság minden repülőtértől",
+      "Az EASA nyílt kategóriájú alapszabályai szerint az éjszakai repülés megengedett, amennyiben az előírt zöld villogó fényt használják, kivéve, ha valamely hatályos földrajzi övezetre vonatkozó vagy nemzeti szabály szigorúbb feltételt ír elő.",
+      "Szigeti repülőterek: gondosan ellenőrizd a DAGR térképet – sok szigetnek nagy CTR-je van"
+    ],
+    "importantNotes": [
+      "A régészeti helyszínek és a kulturális örökség emlékei szigorúan tiltott területek – súlyos bírságok szabhatók ki",
+      "A szigeti repülőterek kiterjedt korlátozott zónákat hoznak létre",
+      "Katonai létesítmények: teljes repülési tilalmi zónák (sok közülük szigeteken található)",
+      "A GDPR alkalmazandó, amikor azonosítható személyeket rögzítenek"
+    ],
+    "primaryLinks": [
+      {
+        "title": "HCAA – drónszabályozás",
+        "description": "A Polgári Légügyi Hatóság hivatalos drónszabályai és információi"
+      },
+      {
+        "title": "HCAA – pilótaregisztráció",
+        "description": "Ingyenes regisztráció UAS-üzemben tartóként (minden EU-/EASA-országban érvényes)"
+      },
+      {
+        "title": "DAGR – drónlégtér-térkép",
+        "description": "Hivatalos földrajzi térkép a görögországi dróntilalmakról"
+      },
+      {
+        "title": "HCAA – repülésbejelentés",
+        "description": "5 napos előzetes repülésbejelentés benyújtása (minden repüléshez szükséges)"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "HASP – légisportok",
+        "description": "Görög Légisport Szövetség és kedvtelési célú repülési információk"
+      },
+      {
+        "title": "HCAA – gyakran ismételt kérdések a drónokról",
+        "description": "Gyakran ismételt kérdések a görögországi drónszabályozásról"
+      }
+    ],
+    "disclaimerText": "Minden repülés előtt mindig ellenőrizd a Görög Polgári Légügyi Hatóság (HCAA) hivatalos forrásait és a DAGR térképet. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Görögország az EASA szabályait követi, nemzeti kiegészítésekkel, többek között a kötelező 5 napos repülésbejelentési kötelezettséggel.",
+    "sectionLabelRules": "ALAPVETŐ SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
+    "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
+    "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
+    "linksSheetTitle": "Légtér és szabályozás – Görögország",
+    "dronePilotCredentialName": "Üzemben tartói igazolás"
+  }
 }

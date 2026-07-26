@@ -1,59 +1,59 @@
 {
- "meta": {
-  "sourceHash": "3f93b288335a64961197959526986fa369f18ef2ac4a0d684c859af0aa2a4931",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
-   "Regisztrálj UAS-üzemben tartóként az RDW-nél (23 € egyszeri díj + 13 €/év megújítási díj), ha a drón tömege legalább 250 g, vagy kamerával van felszerelve",
-   "Az A1/A3 online képzés kötelező – legalább 16 éves kortól",
-   "A Schiphol körüli 14 km-es CTR Amszterdam nagy részét lefedi – lásd a hivatalos légtértérképet",
-   "Mindig tartsd vizuális látótávolságon belül (VLOS) a drónt",
-   "Ne repüljön emberek csoportjai felett! A nem érintett személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; kérjük, ellenőrizze a hivatalos táblázatot.",
-   "Legalább 3 km távolság a kisebb repülőterektől, a Schiphol körül nagyobb pufferzónával",
-   "Az EASA nyílt kategóriájú alapszabályai szerint az éjszakai repülés megengedett, amennyiben a előírt zöld villogó fényt használják, kivéve, ha valamely hatályos földrajzi övezetre vonatkozó vagy nemzeti szabály szigorúbb feltételt ír elő.",
-   "Természetvédelmi területek (Natura 2000): korlátozások a költési időszakban",
-   "Sűrűn lakott városi területek a Randstadban: ellenőrizd a helyi önkormányzati szabályokat"
-  ],
-  "importantNotes": [
-   "A Schiphol körüli 14 km-es CTR gyakorlatilag megtiltja a drónrepülést Amszterdam nagy része felett",
-   "Az RDW-nél történő regisztráció 23 € egyszeri díjba, valamint 13 € éves megújítási díjba kerül (2025-től) – minden EU-/EASA-országban érvényes",
-   "A szabálysértésekért akár 11 250 € bírság is kiszabható",
-   "Katonai zónák (Leeuwarden, Eindhoven, Volkel): teljes repülési tilalom",
-   "A GDPR alkalmazandó, amikor azonosítható személyeket ábrázoló felvételeket készítesz"
-  ],
-  "primaryLinks": [
-   {
-    "title": "ILT – Drónszabályok",
-    "description": "Az Emberi Környezet és Közlekedés Felügyeletének hivatalos szabályai"
-   },
-   {
-    "title": "RDW – Regisztrálj üzemben tartóként",
-    "description": "Ingyenes regisztráció UAS-üzemben tartóként (minden EU-/EASA-országban érvényes)"
-   },
-   {
-    "title": "ILT – A szabályok áttekintése",
-    "description": "A hollandiai drónrepülés szabályainak áttekintése"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "LVNL – Légiforgalmi irányítás",
-    "description": "Holland légiforgalmi irányítás és légtér-információ"
-   },
-   {
-    "title": "Központi kormányzat – Drónszabályok",
-    "description": "Kormányzati portál a drónszabályokról szóló információkkal"
-   }
-  ],
-  "disclaimerText": "Repülés előtt mindig ellenőrizd az ILT és az RDW hivatalos forrásait, valamint az IenW légtértérképét. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Hollandia az EASA szabályait követi.",
-  "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
-  "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
-  "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
-  "linksSheetTitle": "Légtér és szabályok – Hollandia",
-  "dronePilotCredentialName": "A1/A3 pilótaengedély"
- }
+  "meta": {
+    "sourceHash": "3f93b288335a64961197959526986fa369f18ef2ac4a0d684c859af0aa2a4931",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
+      "Regisztrálj UAS-üzemben tartóként az RDW-nél (23 € egyszeri díj + 13 €/év megújítási díj), ha a drón tömege legalább 250 g, vagy kamerával van felszerelve",
+      "Az A1/A3 online képzés kötelező – legalább 16 éves kortól",
+      "A Schiphol körüli 14 km-es CTR Amszterdam nagy részét lefedi – lásd a hivatalos légtértérképet",
+      "Mindig tartsd vizuális látótávolságon belül (VLOS) a drónt",
+      "Ne repülj embertömeg felett. A műveletben részt nem vevő személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; ellenőrizd a hivatalos táblázatot.",
+      "A kisebb repülőterektől legalább 3 km távolságot kell tartani; Schiphol körül nagyobb pufferzóna van érvényben",
+      "Az EASA nyílt kategóriájának alapszabályai szerint az éjszakai repülés megengedett, ha az előírt villogó zöld fényt használják, kivéve, ha egy hatályos földrajzi zóna vagy nemzeti szabály szigorúbb feltételt ír elő.",
+      "Természetvédelmi területek (Natura 2000): korlátozások a költési időszakban",
+      "Sűrűn lakott városi területek a Randstadban: ellenőrizd a helyi önkormányzati szabályokat"
+    ],
+    "importantNotes": [
+      "A Schiphol körüli 14 km-es CTR gyakorlatilag megtiltja a drónrepülést Amszterdam nagy része felett",
+      "Az RDW-nél történő regisztráció egyszeri 23 €-s díjba, valamint évi 13 €-s megújítási díjba kerül (2025-től) – minden EU-/EASA-országban érvényes",
+      "A szabálysértésekért akár 11 250 € bírság is kiszabható",
+      "Katonai zónák (Leeuwarden, Eindhoven, Volkel): teljes repülési tilalom",
+      "A GDPR alkalmazandó, amikor azonosítható személyeket ábrázoló felvételeket készítesz"
+    ],
+    "primaryLinks": [
+      {
+        "title": "ILT – Drónszabályok",
+        "description": "Az Emberi Környezet és Közlekedés Felügyeletének hivatalos szabályai"
+      },
+      {
+        "title": "RDW – Regisztrálj üzemben tartóként",
+        "description": "Ingyenes regisztráció UAS-üzemben tartóként (minden EU-/EASA-országban érvényes)"
+      },
+      {
+        "title": "ILT – A szabályok áttekintése",
+        "description": "A hollandiai drónrepülés szabályainak áttekintése"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "LVNL – Légiforgalmi irányítás",
+        "description": "Holland légiforgalmi irányítás és légtér-információ"
+      },
+      {
+        "title": "Központi kormányzat – Drónszabályok",
+        "description": "Kormányzati portál a drónszabályokról szóló információkkal"
+      }
+    ],
+    "disclaimerText": "Repülés előtt mindig ellenőrizd az ILT és az RDW hivatalos forrásait, valamint az IenW légtértérképét. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Hollandia az EASA szabályait követi.",
+    "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
+    "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
+    "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
+    "linksSheetTitle": "Légtér és szabályok – Hollandia",
+    "dronePilotCredentialName": "A1/A3 pilótaengedély"
+  }
 }

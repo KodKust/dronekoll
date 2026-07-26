@@ -1,65 +1,65 @@
 {
- "meta": {
-  "sourceHash": "b3162ca911ac55fba8e7336c9f471c36",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Repülés előtt mindig ellenőrizd a CAA hivatalos forrásait. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Az Egyesült Királyságnak saját, az EU-tól/EASA-tól elkülönült drónszabályozása van. A helyi önkormányzati rendeletek további korlátozásokat írhatnak elő.",
-  "sectionLabelRules": "FŐBB SZABÁLYOK",
-  "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
-  "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
-  "linksSheetTitle": "Légtér és szabályok – Egyesült Királyság",
-  "dronePilotCredentialName": "Flyer ID és Operator ID",
-  "keyRules": [
-   "Legfeljebb 120 m (400 láb) a talajszint felett",
-   "Flyer ID szükséges 100 g-tól – teljesítsd a CAA online tesztjét (40 kérdés, 75%-os megfelelési küszöb)",
-   "Mindig tartsd fenn a vizuális látótávolságot (VLOS) – legfeljebb ~500 m vízszintesen",
-   "Legalább 50 m a beavatatlan személyektől (a 30 m / 5 m csak az A2 tanúsítvánnyal rendelkező, UK osztályjelzésű drónokra vonatkozik)",
-   "5 km-es repülési korlátozási zóna a repülőterek körül – engedély nélkül tilos repülni",
-   "A biztosítás kötelező a nem kedvtelési célú használathoz vagy a 20 kg feletti drónokhoz",
-   "A Remote ID fokozatos bevezetése: 2026 januárjától az UK osztályjelzésű drónokra (UK1/UK2/UK3/UK5/UK6); teljesen kötelező 2028 januárjától",
-   "Az Egyesült Királyság NEM tagja az EASA-nak – az uniós pilótaigazolványok itt nem érvényesek.",
-   "Londonban állandó korlátozott zónák vannak (R157, R158, R159) – minden drón tiltott"
-  ],
-  "importantNotes": [
-   "Az egyesült királyságbeli regisztrációs küszöb 100 g – szigorúbb az EU 250 g-os határánál",
-   "Az EU-/EASA-drón tanúsítványokat a brexit óta NEM ismerik el az Egyesült Királyságban",
-   "A helyi önkormányzatok korlátozhatják a repülést a saját területükön – ellenőrizd, mielőtt parkokban repülsz",
-   "A börtönök körül ~1 km-es repülési tilalmi zóna van – a légijármű veszélyeztetése akár 5 év börtönnel is járhat"
-  ],
-  "primaryLinks": [
-   {
-    "title": "UK CAA – drónszabályozás",
-    "description": "A CAA hivatalos központja az összes egyesült királyságbeli drónszabályhoz, regisztrációhoz és forráshoz"
-   },
-   {
-    "title": "CAA – regisztráció (Flyer ID és Operator ID)",
-    "description": "Szerezd meg a Flyer ID-t (100 g-tól kötelező) és az Operator ID-t (250 g-tól kötelező)"
-   },
-   {
-    "title": "CAA – The Drone Code",
-    "description": "Hivatalos szabályok: hol repülhetsz, magasságkorlátok és biztonsági követelmények"
-   },
-   {
-    "title": "Drone Assist – légtértérkép",
-    "description": "Ingyenes repüléstervező alkalmazás a repülési tilalmi zónák és légtérkorlátozások megjelenítésével"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAA – légtérkorlátozások",
-    "description": "Repülési korlátozási zónák a repülőterek, börtönök és érzékeny területek körül"
-   },
-   {
-    "title": "CAA – biztosítási követelmények",
-    "description": "Mikor kötelező a drónbiztosítás (kötelező a nem kedvtelési célú használathoz)"
-   },
-   {
-    "title": "CAA – Remote ID szabályzat",
-    "description": "Az egyesült királyságbeli Remote ID követelmények 2026 januárjától"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Repülés előtt mindig ellenőrizd a CAA hivatalos forrásait. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Az Egyesült Királyságnak saját, az EU-tól/EASA-tól elkülönült drónszabályozása van. A helyi önkormányzati rendeletek további korlátozásokat írhatnak elő.",
+    "sectionLabelRules": "FŐBB SZABÁLYOK",
+    "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
+    "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
+    "linksSheetTitle": "Légtér és szabályok – Egyesült Királyság",
+    "dronePilotCredentialName": "Flyer ID és Operator ID",
+    "keyRules": [
+      "Legfeljebb 120 m (400 láb) a talajszint felett",
+      "Flyer ID 100 g-tól szükséges – teljesítsd a CAA online tesztjét (40 kérdés, legalább 75%-os eredmény szükséges)",
+      "Tartsd a drónt mindenkor saját, közvetlen, segédeszköz nélküli látóteredben, olyan közel, hogy meg tudd állapítani, merre néz, és figyelni tudd a többi légijárművet. Nincs méterben meghatározott jogi maximális távolság – az, hogy milyen messzire repülhetsz, a látási viszonyoktól, a fényviszonyoktól és magától a dróntól függ, nem egy rögzített sugártól.",
+      "Legalább 50 m távolságot tarts a műveletben részt nem vevő személyektől (a 30 m / 5 m csak az A2 tanúsítvánnyal használt, UK osztályjelzéssel rendelkező drónokra vonatkozik)",
+      "A repülőtereket repülési korlátozási zónák (FRZ-k) veszik körül, de ezek pontos alakja és mérete repülőterenként eltér – nincs általános „5 km-es kör”. Repülőtér közelében végzett repülés előtt mindig ellenőrizd az adott FRZ-t a CAA hivatalos drónbiztonsági térképén.",
+      "Az EC Regulation 785/2004 szerint a harmadik féllel szembeni felelősségbiztosítás kötelező kereskedelmi vagy más nem szabadidős repüléshez, illetve minden legalább 20 kg tömegű drónhoz – könnyebb drón szabadidős használatához nem kötelező, de ajánlott.",
+      "A Remote ID fokozatos bevezetése: 2026. januárjától az UK osztályjelzésű drónokra (UK1/UK2/UK3/UK5/UK6); 2028. januárjától teljesen kötelező",
+      "Az Egyesült Királyság NEM tagja az EASA-nak – az uniós pilótaigazolványok itt nem érvényesek.",
+      "Londonban három állandó korlátozott terület van – R157 (Hyde Park/királyi rezidenciák), R158 (City of London/Square Mile, egy kis, ~0,5 NM-es zóna a pénzügyi negyed körül) és R159 (Canary Wharf/Isle of Dogs) –, ahol mérettől függetlenül minden drón repülése tilos, kivéve, ha a NATS legalább 28 nappal korábban benyújtott Non-Standard Flight kérelem alapján jóváhagyja. A Parliament és a Downing Street Westminsterben, mindhárom R-zónán kívül található, és külön mechanizmusok védik őket."
+    ],
+    "importantNotes": [
+      "Az egyesült királyságbeli regisztrációs küszöb 100 g – szigorúbb az EU 250 g-os határánál",
+      "Az EU-/EASA-dróntanúsítványokat a brexit óta NEM ismerik el az Egyesült Királyságban",
+      "A helyi önkormányzatok korlátozhatják a repülést a saját területükön – ellenőrizd, mielőtt parkokban repülsz",
+      "A börtönök körül ~1 km-es repülési tilalmi zóna van – a légijármű veszélyeztetése akár 5 év börtönnel is járhat"
+    ],
+    "primaryLinks": [
+      {
+        "title": "UK CAA – drónszabályozás",
+        "description": "A CAA hivatalos központja az összes egyesült királyságbeli drónszabályhoz, regisztrációhoz és forráshoz"
+      },
+      {
+        "title": "CAA – regisztráció (Flyer ID és Operator ID)",
+        "description": "Szerezd meg a Flyer ID-t (100 g-tól kötelező) és az Operator ID-t (250 g-tól kötelező)"
+      },
+      {
+        "title": "CAA – The Drone Code",
+        "description": "Hivatalos szabályok: hol repülhetsz, magasságkorlátok és biztonsági követelmények"
+      },
+      {
+        "title": "Drone Assist – légtértérkép",
+        "description": "Ingyenes repüléstervező alkalmazás a repülési tilalmi zónák és légtérkorlátozások megjelenítésével"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAA – légtérkorlátozások",
+        "description": "Repülési korlátozási zónák a repülőterek, börtönök és érzékeny területek körül"
+      },
+      {
+        "title": "CAA – biztosítási követelmények",
+        "description": "Mikor kötelező a drónbiztosítás (kötelező a nem kedvtelési célú használathoz)"
+      },
+      {
+        "title": "CAA – Remote ID szabályzat",
+        "description": "Az egyesült királyságbeli Remote ID követelmények 2026 januárjától"
+      }
+    ]
+  }
 }

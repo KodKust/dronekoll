@@ -1,54 +1,54 @@
 {
- "meta": {
-  "sourceHash": "eaa7abf236bd1a6fbe4e339875dc13bc",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Verifica sempre le fonti ufficiali della CAAP prima di volare. Questa app è uno strumento, non un'autorità legale. Le regole possono cambiare senza preavviso.",
-  "sectionLabelRules": "REGOLE PRINCIPALI",
-  "sectionLabelPrimary": "FONTI UFFICIALI",
-  "sectionLabelSecondary": "RISORSE AGGIUNTIVE",
-  "linksSheetTitle": "Spazio aereo e regole — Filippine",
-  "dronePilotCredentialName": "Certificato di controller RPA",
-  "keyRules": [
-   "Massimo 400 ft (122 m) dal suolo",
-   "Mantieni sempre il contatto visivo diretto (VLOS)",
-   "Registrazione obbligatoria per TUTTO l'uso commerciale dei droni (qualsiasi peso); i droni non commerciali si registrano solo a partire da 7 kg secondo la PCAR Part 11 della CAAP",
-   "10 km da qualsiasi aeroporto — applicato con rigore",
-   "Distanza minima di 30 m dalle persone non coinvolte",
-   "Vietato il volo notturno senza un permesso speciale della CAAP",
-   "Certificato di controller RPA richiesto per uso commerciale o droni di peso superiore a 7 kg (valido 5 anni)",
-   "Certificato di operatore UAS richiesto per le operazioni commerciali (valido 3 anni)",
-   "Assicurazione obbligatoria per le operazioni commerciali",
-   "Dai sempre la precedenza a tutti gli aeromobili con pilota"
-  ],
-  "importantNotes": [
-   "La zona di esclusione aeroportuale di 10 km è più severa che nella maggior parte dei Paesi",
-   "Gli operatori commerciali necessitano sia del Certificato di controller RPA (5 anni) sia del Certificato di operatore UAS (3 anni)",
-   "Il volo notturno richiede un permesso speciale della CAAP — non è consentito per impostazione predefinita",
-   "L'assicurazione è obbligatoria per tutte le operazioni commerciali con droni"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAAP — Normativa RPAS",
-    "description": "Normativa ufficiale sui droni dell'Autorità dell'Aviazione Civile delle Filippine"
-   },
-   {
-    "title": "CAAP — Portale principale",
-    "description": "Sito principale dell'Autorità dell'Aviazione Civile delle Filippine"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAAP — Portale del registro UA",
-    "description": "Registra il tuo drone nel registro UA della CAAP"
-   },
-   {
-    "title": "CAAP — Licenze commerciali",
-    "description": "Requisiti del Certificato di controller RPA e del Certificato di operatore UAS"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "e85b5f3541d893697ea6591ad6e2d83b",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Verifica sempre le fonti ufficiali della CAAP prima di volare. Questa app è uno strumento, non un'autorità legale. Le regole possono cambiare senza preavviso.",
+    "sectionLabelRules": "REGOLE PRINCIPALI",
+    "sectionLabelPrimary": "FONTI UFFICIALI",
+    "sectionLabelSecondary": "RISORSE AGGIUNTIVE",
+    "linksSheetTitle": "Spazio aereo e regole — Filippine",
+    "dronePilotCredentialName": "Certificato di pilota RPA",
+    "keyRules": [
+      "Massimo 400 ft (122 m) dal suolo",
+      "Devi mantenere sempre il contatto visivo diretto e senza ausili con il drone (occhiali o lenti a contatto sono consentiti). Il volo con visore FPV è consentito solo con un osservatore visivo che mantenga il VLOS; il volo oltre la linea di vista richiede l'autorizzazione della CAAP (PCAR Part 11).",
+      "La registrazione è obbligatoria per QUALSIASI uso commerciale dei droni (indipendentemente dal peso); i droni non commerciali devono essere registrati solo da 7 kg in su, secondo la CAAP PCAR Part 11.",
+      "Mantieni una distanza di almeno 10 km da qualsiasi aeroporto: questa zona cuscinetto è stata ampliata tramite la CAAP Memorandum Circular 026-2025 dopo avvistamenti di droni vicino a NAIA (Manila) tra la fine del 2024 e l'inizio del 2025 ed è applicata con rigore.",
+      "Distanza minima di 30 m dalle persone non coinvolte",
+      "Il volo notturno richiede un permesso speciale della CAAP e un'illuminazione adeguata sul drone: non è consentito di norma.",
+      "Il certificato di pilota RPA è richiesto per l'uso commerciale o per droni di peso superiore a 7 kg (validità: 5 anni).",
+      "Le operazioni commerciali richiedono un certificato di operatore UAS (valido 3 anni) e una licenza di pilota remoto per il pilota; quest'ultima è richiesta per l'uso commerciale o per droni di peso pari o superiore a 7 kg, anche se utilizzati a scopo ricreativo.",
+      "Per le operazioni commerciali, l'assicurazione di responsabilità civile è richiesta nell'ambito della procedura per ottenere il certificato di operatore UAS.",
+      "Dai sempre la precedenza a tutti gli aeromobili con pilota"
+    ],
+    "importantNotes": [
+      "La zona di esclusione aeroportuale di 10 km (ampliata nel 2025 tramite MC 026-2025) è più severa delle tipiche zone cuscinetto di 3–9 km della maggior parte dei Paesi.",
+      "Gli operatori commerciali devono disporre sia del certificato di pilota RPA (5 anni) sia del certificato di operatore UAS (3 anni).",
+      "Il volo notturno non è consentito di norma: servono un permesso speciale della CAAP e un'illuminazione adeguata sul drone.",
+      "L'assicurazione di responsabilità civile è obbligatoria per tutte le operazioni commerciali con droni, nell'ambito della procedura per il certificato di operatore."
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAAP — Normativa RPAS",
+        "description": "Normativa ufficiale sui droni dell'Autorità dell'Aviazione Civile delle Filippine"
+      },
+      {
+        "title": "CAAP — Portale principale",
+        "description": "Sito principale dell'Autorità dell'Aviazione Civile delle Filippine"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAAP — Portale del registro UA",
+        "description": "Registra il tuo drone nel registro UA della CAAP"
+      },
+      {
+        "title": "CAAP — Licenze commerciali",
+        "description": "Requisiti del Certificato di controller RPA e del Certificato di operatore UAS"
+      }
+    ]
+  }
 }

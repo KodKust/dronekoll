@@ -1,71 +1,71 @@
 {
- "meta": {
-  "sourceHash": "552be0e829692206489496fe6ca91a32ed231ba21bc0abd64eefd98c31764ced",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Azami uçuş irtifası: yerden 120 m (EASA Open Kategorisi).",
-   "Drone, oyuncak istisnası kapsamına girmiyorsa, normalde ağırlığı en az 250 g olan veya kişisel verileri toplayabilen kamera/sensöre sahip olan drone operatörleri kayıt yaptırmak zorundadır. Drone lisansı ve mesafe gereklilikleri, dronun sınıfına, ağırlığına ve alt kategorisine göre değişir.",
-   "Dron 250 g veya daha ağırsa A1/A3 dron lisansı gereklidir — İsveç Ulaştırma Kurumu'nca yürütülen çevrim içi teori sınavı (ücretlidir; lisans 5 yıl geçerlidir). Bir dronu bağımsız olarak işletmek için asgari yaş: 15. 15 yaşından küçük olanlar yalnızca geçerli bir dron lisansına sahip 16 yaş veya üzeri bir uzaktan pilotun gözetiminde ve geçerli bir dron lisansıyla uçabilir.",
-   "Operatör numarası dronun üzerinde açıkça işaretlenmelidir.",
-   "Dronu görüş hattı (VLOS) içinde tutun — köşelerin çevresinden veya binaların arkasından uçmayın.",
-   "A1: 250 g'dan hafif dronlar — ilgisiz kişilerin üzerinden uçun (kalabalıkların değil).",
-   "A2: 4 kg'a kadar olan dronlar — ilgisiz kişilere en az 30 m mesafe (düşük hız modunda 5 m). Bir A2 sertifikası gerektirir.",
-   "A3: 25 kg'a kadar olan dronlar — yerleşim, ticari, sanayi ve rekreasyon alanlarına en az 150 m mesafe.",
-   "Özel izin olmadan kalabalıkların üzerinden asla uçmayın.",
-   "Her uçuştan önce LFV Dron Haritası'nı ve NOTAM'ları kontrol edin."
-  ],
-  "importantNotes": [
-   "1 Ocak 2026'dan itibaren, geçerli bir dron lisansı olmadan 250 g veya daha ağır bir dron uçurmak bir suçtur — para cezası veya altı aya kadar hapisle cezalandırılır.",
-   "Doğa rezervlerinin ve ulusal parkların çoğu zaman kendi kısıtlamaları vardır — ilgili alan için İl İdare Kurulu'na danışın.",
-   "Koruma altındaki nesneler, giriş ve görüntüleme yasaklarına tabi olabilir ve ayrıca kısıtlı bölgede yer alabilir. İlgili yerle ilgili tabelaları, kararları ve güncel hava sahası bilgilerini kontrol edin.",
-   "Drone uçuran herkes, bir kişinin ciddi şekilde yaralandığı, ölümle sonuçlanan bir kaza meydana geldiği veya insanlı bir hava aracının olayda yer aldığı durumları bildirmek zorundadır. Ruhsat gerektiren faaliyetler için başka şartlar da geçerli olabilir. Ulaştırma İdaresi, diğer güvenlik olaylarının da gönüllü olarak bildirilmesini teşvik etmektedir.",
-   "Sigorta şiddetle önerilir — bazı ev sigortası poliçeleri dron uçuşlarını kapsar, bazıları kapsamaz."
-  ],
-  "primaryLinks": [
-   {
-    "title": "İsveç Ulaştırma Kurumu — Dron Mevzuatı",
-    "description": ""
-   },
-   {
-    "title": "LFV Dron Haritası — Hava Sahası",
-    "description": ""
-   },
-   {
-    "title": "Operatör Kaydı (≥250 g veya kamera gerektirir)",
-    "description": ""
-   },
-   {
-    "title": "Dron Lisansı A1/A3 — Çevrim İçi Teori Sınavı (≥250 g, 15 yaş ve üzeri gerektirir)",
-    "description": ""
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "A2 Sertifikası (500 g'dan ağır veya insanlara yakın uçan dronlar)",
-    "description": ""
-   },
-   {
-    "title": "AROweb — NOTAM ve AIP İsveç",
-    "description": ""
-   },
-   {
-    "title": "Korunan Alanlar — İsveç Silahlı Kuvvetleri ile İletişime Geçin",
-    "description": ""
-   },
-   {
-    "title": "Doğa Rezervleri — İl İdare Kurulunuza Danışın",
-    "description": ""
-   }
-  ],
-  "disclaimerText": "Uçmadan önce her zaman resmî kaynakları kontrol edin. Bu uygulama bir araçtır, yasal bir kaynak değildir. Kurallar önceden bildirilmeksizin değişebilir.",
-  "sectionLabelRules": "ÖNEMLİ KURALLAR",
-  "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
-  "sectionLabelSecondary": "İLERİ DÜZEY / ÖZEL DURUMLAR",
-  "linksSheetTitle": "Hava Sahası ve Mevzuat",
-  "dronePilotCredentialName": "A1/A3 dron sertifikası"
- }
+  "meta": {
+    "sourceHash": "552be0e829692206489496fe6ca91a32ed231ba21bc0abd64eefd98c31764ced",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Azami uçuş irtifası: yerden 120 m (EASA Open Kategorisi).",
+      "Dron en az 250 g ağırlığındaysa veya kişisel veri toplayabilen bir kamera ya da sensörle donatılmışsa operatörün normalde kayıt yaptırması gerekir; dron oyuncak muafiyeti kapsamındaysa bu şart uygulanmaz. Dron lisansı ve uçuş mesafesi gereklilikleri dronun sınıfına, ağırlığına ve alt kategorisine bağlıdır.",
+      "Dron 250 g veya daha ağırsa A1/A3 dron lisansı gerekir — Swedish Transport Agency tarafından uygulanan çevrim içi teori sınavı ücretlidir ve lisans 5 yıl geçerlidir. Bir dronu bağımsız olarak kullanmak için asgari yaş 15'tir. 15 yaşından küçük kişiler yalnızca geçerli bir dron lisansıyla ve geçerli bir dron lisansına sahip 16 yaş veya üzerindeki bir uzaktan pilotun gözetiminde uçabilir.",
+      "Operatör numarası dronun üzerinde açıkça işaretlenmelidir.",
+      "Dronu görüş hattınızda (VLOS) tutun — köşelerin arkasına veya binaların arkasına uçurmayın.",
+      "A1: 250 g'dan hafif dronlarla operasyona dahil olmayan kişilerin üzerinden uçulabilir, ancak kalabalıkların üzerinden uçulamaz.",
+      "A2: 4 kg'a kadar olan dronlar — operasyona dahil olmayan kişilerden en az 30 m uzakta kalın (düşük hız modunda 5 m). A2 sertifikası gerekir.",
+      "A3: 25 kg'a kadar olan dronlar — yerleşim, ticari, sanayi ve rekreasyon alanlarına en az 150 m mesafe.",
+      "Özel izin olmadan kalabalıkların üzerinden asla uçmayın.",
+      "Her uçuştan önce LFV Drone Map'i ve NOTAM'ları kontrol edin."
+    ],
+    "importantNotes": [
+      "1 Ocak 2026'dan itibaren, geçerli bir dron lisansı olmadan 250 g veya daha ağır bir dron uçurmak bir suçtur — para cezası veya altı aya kadar hapisle cezalandırılır.",
+      "Doğa rezervleri ve ulusal parkların çoğu zaman kendi kısıtlamaları vardır — ilgili alan için County Administrative Board'a danışın.",
+      "Korunan yerler erişim ve fotoğraf çekme kısıtlamalarına tabi olabilir ve ayrıca kısıtlı bir bölge içinde bulunabilir. Konumdaki tabelaları, resmî kararları ve en güncel hava sahası bilgilerini kontrol edin.",
+      "Dron işleten herkes, bir kişinin ciddi şekilde yaralandığı, ölümcül bir kazanın meydana geldiği veya insanlı bir hava aracının olaya karıştığı olayları bildirmek zorundadır. İzne tabi faaliyetler için başka şartlar geçerli olabilir. Swedish Transport Agency, diğer güvenlik olaylarının gönüllü olarak bildirilmesini de teşvik eder.",
+      "Sigorta şiddetle önerilir — bazı ev sigortası poliçeleri dron uçuşlarını kapsar, bazıları kapsamaz."
+    ],
+    "primaryLinks": [
+      {
+        "title": "İsveç Ulaştırma Kurumu — Dron Mevzuatı",
+        "description": ""
+      },
+      {
+        "title": "LFV Dron Haritası — Hava Sahası",
+        "description": ""
+      },
+      {
+        "title": "Operatör Kaydı (≥250 g veya kamera gerektirir)",
+        "description": ""
+      },
+      {
+        "title": "Dron Lisansı A1/A3 — Çevrim İçi Teori Sınavı (≥250 g, 15 yaş ve üzeri gerektirir)",
+        "description": ""
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "A2 Sertifikası (500 g'dan ağır veya insanlara yakın uçan dronlar)",
+        "description": ""
+      },
+      {
+        "title": "AROweb — NOTAM ve AIP İsveç",
+        "description": ""
+      },
+      {
+        "title": "Korunan Alanlar — İsveç Silahlı Kuvvetleri ile İletişime Geçin",
+        "description": ""
+      },
+      {
+        "title": "Doğa Rezervleri — İl İdare Kurulunuza Danışın",
+        "description": ""
+      }
+    ],
+    "disclaimerText": "Uçmadan önce her zaman resmî kaynakları kontrol edin. Bu uygulama bir araçtır, yasal bir kaynak değildir. Kurallar önceden bildirilmeksizin değişebilir.",
+    "sectionLabelRules": "ÖNEMLİ KURALLAR",
+    "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
+    "sectionLabelSecondary": "İLERİ DÜZEY / ÖZEL DURUMLAR",
+    "linksSheetTitle": "Hava Sahası ve Mevzuat",
+    "dronePilotCredentialName": "A1/A3 dron sertifikası"
+  }
 }

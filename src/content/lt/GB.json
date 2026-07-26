@@ -1,65 +1,65 @@
 {
- "meta": {
-  "sourceHash": "b3162ca911ac55fba8e7336c9f471c36",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius CAA šaltinius. Ši programėlė yra įrankis, o ne teisinė institucija. JK turi savas dronų taisykles, atskiras nuo ES/EASA. Vietos savivaldybių įsakai gali nustatyti papildomų ribojimų.",
-  "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
-  "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
-  "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
-  "linksSheetTitle": "Oro erdvė ir taisyklės — Jungtinė Karalystė",
-  "dronePilotCredentialName": "Flyer ID ir Operator ID",
-  "keyRules": [
-   "Ne daugiau kaip 120 m (400 ft) virš žemės paviršiaus",
-   "Flyer ID reikalingas nuo 100 g — išlaikykite CAA internetinį testą (40 klausimų, 75 % išlaikymo riba)",
-   "Visada išlaikykite tiesioginį regėjimo ryšį (VLOS) — ne daugiau kaip ~500 m horizontaliai",
-   "Mažiausias 50 m atstumas nuo operacijoje nedalyvaujančių žmonių (30 m / 5 m taikoma tik JK klasės ženklu pažymėtiems dronams su A2 pažymėjimu)",
-   "5 km skrydžių ribojimo zona aplink oro uostus — skraidyti be leidimo draudžiama",
-   "Draudimas privalomas nepramoginiam naudojimui arba 20 kg ir sunkesniems dronams",
-   "Remote ID diegiamas palaipsniui: nuo 2026 m. sausio JK klasės ženklu pažymėtiems dronams (UK1/UK2/UK3/UK5/UK6); visiškai privalomas nuo 2028 m. sausio",
-   "JK NĖRA EASA dalis — ES piloto pažymėjimai JK negalioja",
-   "Londone yra nuolatinės ribojamosios zonos (R157, R158, R159) — visi dronai draudžiami"
-  ],
-  "importantNotes": [
-   "JK registracijos riba yra 100 g — griežtesnė nei ES 250 g",
-   "ES/EASA dronų pažymėjimai JK nepripažįstami nuo „Brexit“",
-   "Vietos savivaldybės gali riboti skraidymą savo teritorijoje — pasitikrinkite prieš skrisdami parkuose",
-   "Kalėjimai turi ~1 km draudžiamąsias skrydžių zonas — orlaivio keliamas pavojus užtraukia iki 5 metų laisvės atėmimo"
-  ],
-  "primaryLinks": [
-   {
-    "title": "UK CAA — Dronų taisyklės",
-    "description": "Oficialus CAA centras visoms JK dronų taisyklėms, registracijai ir ištekliams"
-   },
-   {
-    "title": "CAA — Registracija (Flyer ID ir Operator ID)",
-    "description": "Gaukite Flyer ID (privalomas nuo 100 g) ir Operator ID (privalomas nuo 250 g)"
-   },
-   {
-    "title": "CAA — The Drone Code",
-    "description": "Oficialios taisyklės: kur galima skraidyti, aukščio ribos ir saugos reikalavimai"
-   },
-   {
-    "title": "Drone Assist — Oro erdvės žemėlapis",
-    "description": "Nemokama skrydžio planavimo programėlė, rodanti draudžiamąsias skrydžių zonas ir oro erdvės ribojimus"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CAA — Oro erdvės ribojimai",
-    "description": "Skrydžių ribojimo zonos aplink oro uostus, kalėjimus ir jautrias vietoves"
-   },
-   {
-    "title": "CAA — Draudimo reikalavimai",
-    "description": "Kada reikalingas dronų draudimas (privalomas nepramoginiam naudojimui)"
-   },
-   {
-    "title": "CAA — Remote ID politika",
-    "description": "JK Remote ID reikalavimai nuo 2026 m. sausio"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius CAA šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. JK turi savas dronų taisykles, atskiras nuo ES/EASA. Vietos savivaldybių įsakai gali nustatyti papildomų ribojimų.",
+    "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
+    "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
+    "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
+    "linksSheetTitle": "Oro erdvė ir taisyklės — Jungtinė Karalystė",
+    "dronePilotCredentialName": "Flyer ID ir Operator ID",
+    "keyRules": [
+      "Ne daugiau kaip 120 m (400 ft) virš žemės paviršiaus",
+      "Flyer ID reikalingas nuo 100 g — išlaikykite CAA internetinį testą (40 klausimų, 75 % išlaikymo riba)",
+      "Visada laikykite droną savo tiesioginiame regėjimo lauke be pagalbinių priemonių, pakankamai arti, kad galėtumėte nustatyti, kuria kryptimi jis nukreiptas, ir stebėti kitus orlaivius. Teisės aktuose nenustatytas fiksuotas didžiausias atstumas metrais — kiek toli galite skristi, priklauso nuo matomumo, apšvietimo ir paties drono, o ne nuo nustatyto spindulio.",
+      "Mažiausias 50 m atstumas nuo operacijoje nedalyvaujančių žmonių (30 m / 5 m atstumai taikomi tik UK klasės ženklu pažymėtiems dronams, kai pilotas turi A2 pažymėjimą)",
+      "Oro uostus supa Flight Restriction Zones (FRZ), tačiau tiksli jų forma ir dydis skiriasi priklausomai nuo oro uosto — visuotinės „5 km apskritimo“ taisyklės nėra. Prieš skrisdami netoli oro uosto visada patikrinkite konkrečią FRZ oficialiame CAA dronų saugos žemėlapyje.",
+      "Trečiųjų asmenų civilinės atsakomybės draudimas pagal EC Regulation 785/2004 privalomas komerciniams ar kitiems nepramoginiams skrydžiams arba bet kuriam 20 kg ar sunkesniam dronui — lengvesniems pramoginiams dronams jis neprivalomas, bet rekomenduojamas.",
+      "Remote ID diegiamas palaipsniui: nuo 2026 m. sausio JK klasės ženklu pažymėtiems dronams (UK1/UK2/UK3/UK5/UK6); visiškai privalomas nuo 2028 m. sausio",
+      "JK NĖRA EASA dalis — ES piloto pažymėjimai JK negalioja",
+      "London yra trys nuolatinės ribojamosios teritorijos — R157 (Hyde Park / royal residences), R158 (City of London / Square Mile, nedidelė ~0.5 NM zona aplink finansų rajoną) ir R159 (Canary Wharf / Isle of Dogs) — jose draudžiami visi dronai, nepriklausomai nuo dydžio, nebent gautas patvirtinimas pateikus Non-Standard Flight paraišką NATS likus bent 28 dienoms. Parliament ir Downing Street yra Westminster, už visų trijų R zonų ribų, ir saugomi atskirais mechanizmais."
+    ],
+    "importantNotes": [
+      "JK registracijos riba yra 100 g — griežtesnė nei ES 250 g",
+      "ES/EASA dronų pažymėjimai JK nepripažįstami nuo „Brexit“",
+      "Vietos savivaldybės gali riboti skraidymą savo teritorijoje — pasitikrinkite prieš skrisdami parkuose",
+      "Kalėjimus supa ~1 km neskraidymo zonos — už pavojaus orlaiviui sukėlimą gresia iki 5 metų laisvės atėmimo"
+    ],
+    "primaryLinks": [
+      {
+        "title": "UK CAA — Dronų taisyklės",
+        "description": "Oficialus CAA centras visoms JK dronų taisyklėms, registracijai ir ištekliams"
+      },
+      {
+        "title": "CAA — Registracija (Flyer ID ir Operator ID)",
+        "description": "Gaukite Flyer ID (privalomas nuo 100 g) ir Operator ID (privalomas nuo 250 g)"
+      },
+      {
+        "title": "CAA — The Drone Code",
+        "description": "Oficialios taisyklės: kur galima skraidyti, aukščio ribos ir saugos reikalavimai"
+      },
+      {
+        "title": "Drone Assist — Oro erdvės žemėlapis",
+        "description": "Nemokama skrydžio planavimo programėlė, rodanti draudžiamąsias skrydžių zonas ir oro erdvės ribojimus"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CAA — Oro erdvės ribojimai",
+        "description": "Skrydžių ribojimo zonos aplink oro uostus, kalėjimus ir jautrias vietoves"
+      },
+      {
+        "title": "CAA — Draudimo reikalavimai",
+        "description": "Kada reikalingas dronų draudimas (privalomas nepramoginiam naudojimui)"
+      },
+      {
+        "title": "CAA — Remote ID politika",
+        "description": "JK Remote ID reikalavimai nuo 2026 m. sausio"
+      }
+    ]
+  }
 }

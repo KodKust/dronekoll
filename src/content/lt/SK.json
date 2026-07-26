@@ -1,65 +1,65 @@
 {
- "meta": {
-  "sourceHash": "52f1e9302ec2bcb4cb052daf85c1bc4eb0d04440f50f5931718d7e36efc0852a",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Ne daugiau kaip 120 m virš žemės paviršiaus (EASA atviroji kategorija)",
-   "Registracija kaip UAS operatorius Transporto institucijoje dronams, sveriantiems 250 g ar daugiau arba turintiems kamerą",
-   "Reikalinga A1/A3 internetinė mokymo programa — mažiausias amžius 16 metų",
-   "Mažiausi atstumai pagal pakategores: A1 — neskraidykite virš pašalinių žmonių; A2 — ne arčiau kaip 30 m nuo žmonių (5 m mažo greičio režimu); A3 — ne arčiau kaip 150 m nuo gyvenamųjų, komercinių, pramoninių ir poilsio zonų.",
-   "Visada išlaikykite tiesioginį regėjimo ryšį su dronu (VLOS)",
-   "Neskriskite virš žmonių susibūrimų. Neįtrauktiems asmenims taikomos taisyklės priklauso nuo subkategorijos, klasės žymos ir eksploatavimo sąlygų; patikrinkite oficialią lentelę.",
-   "M. R. Štefániko oro uostas, Bratislava: visiškas dronų skrydžių draudimas 5 km spinduliu iki 500 m aukščio (PUAS0103M, galioja nuo 2025 m. gruodžio 6 d.). Košicės, Poprado, Žilinos ir Piešťanų oro uostai (galioja nuo 2026 m. kovo 31 d.): 5 km spinduliu nuo oro uosto skrydžiai aukščiau kaip 30 m leidžiami tik suderinus — el. paštu skrydžių valdymo padaliniui likus ne mažiau kaip 24 valandoms.",
-   "Naktiniai skrydžiai leidžiami — dronas turi turėti įjungtą žalią mirksintį žibintą.",
-   "Nacionaliniai parkai (Tatrai, Slovakijos rojus, Žemieji Tatrai): galioja ribojimai",
-   "Bratislavos pilis ir vyriausybinės teritorijos: draudžiamosios skrydžių zonos",
-   "Prieš kiekvieną skrydį patikrinkite UAS geografines teritorijas (PUAS/RUAS zonas) — sąrašą tvarko Transporto ministerija ir Transporto institucija, o zonos gali keistis.",
-   "Malacky-Kuchyňa, Sliač ir Prešov kariniai aerodromai (RUAS zonos): skrydžiai leidžiami tik gavus Slovakijos Respublikos gynybos ministerijos leidimą."
-  ],
-  "importantNotes": [
-   "Atstumus nuo žmonių reglamentuoja EASA pakategorės (A1/A2/A3) — senoji nacionalinė 50 metrų taisyklė nebetaikoma.",
-   "UAS operatorių registraciją tvarko Transporto institucija — galioja visoje ES/EASA",
-   "Tatruose ir nacionaliniuose parkuose galioja reikšmingi ribojimai",
-   "Teritorija aplink M. R. Štefániko oro uostą: visiškas dronų draudimas 5 km spinduliu (PUAS0103M) — tai apima ir didelę Bratislavos dalį.",
-   "Fiksuojant atpažįstamus atvaizdus taikomas BDAR"
-  ],
-  "primaryLinks": [
-   {
-    "title": "Transporto institucija — Dronų taisyklės",
-    "description": "Oficialios Transporto institucijos taisyklės ir ištekliai dėl dronų"
-   },
-   {
-    "title": "Transporto institucija — Operatoriaus registracija",
-    "description": "Registracija kaip UAS operatorius (galioja visose ES/EASA šalyse)"
-   },
-   {
-    "title": "LPS — Oro erdvės žemėlapis",
-    "description": "Slovakijos oro navigacijos tarnybų oro erdvės ir dronų zonų žemėlapis"
-   },
-   {
-    "title": "Transporto institucija — Taisyklių apžvalga",
-    "description": "Dronų skraidymo Slovakijoje taisyklių apžvalga"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "LPS — Oro navigacijos tarnybos",
-    "description": "Slovakijos oro navigacijos tarnybos ir oro erdvės informacija"
-   },
-   {
-    "title": "Transporto institucija — Dažnai užduodami klausimai apie dronus",
-    "description": "Dažnai užduodami klausimai apie dronų taisykles Slovakijoje"
-   }
-  ],
-  "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius Civilinės aviacijos institucijos šaltinius ir LPS oro erdvės žemėlapį. Ši programėlė yra įrankis, o ne teisinė institucija. Slovakija laikosi EASA taisyklių su nacionaliniais papildymais.",
-  "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS (EASA ATVIROJI KATEGORIJA)",
-  "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
-  "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
-  "linksSheetTitle": "Oro erdvė ir taisyklės — Slovakija",
-  "dronePilotCredentialName": "Drono piloto licencija"
- }
+  "meta": {
+    "sourceHash": "52f1e9302ec2bcb4cb052daf85c1bc4eb0d04440f50f5931718d7e36efc0852a",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Ne daugiau kaip 120 m virš žemės paviršiaus (EASA atviroji kategorija)",
+      "UAS operatoriaus registracija Transport Authority sistemoje reikalinga dronams, sveriantiems 250 g ar daugiau arba turintiems kamerą",
+      "Reikalinga A1/A3 internetinė mokymo programa — mažiausias amžius 16 metų",
+      "Mažiausi atstumai pagal pakategores: A1 — neskraidykite virš pašalinių žmonių; A2 — ne arčiau kaip 30 m nuo žmonių (5 m mažo greičio režimu); A3 — ne arčiau kaip 150 m nuo gyvenamųjų, komercinių, pramoninių ir poilsio zonų.",
+      "Visada išlaikykite tiesioginį regėjimo ryšį su dronu (VLOS)",
+      "Neskriskite virš žmonių susibūrimų. Neįtrauktiems asmenims taikomos taisyklės priklauso nuo subkategorijos, klasės žymos ir eksploatavimo sąlygų; patikrinkite oficialią lentelę.",
+      "M. R. Štefánik Airport, Bratislava: 5 km spinduliu iki 500 m aukščio visiškai draudžiami dronų skrydžiai (PUAS0103M, galioja nuo 2025 m. gruodžio 6 d.). Košice, Poprad, Žilina ir Piešťany oro uostai (galioja nuo 2026 m. kovo 31 d.): 5 km atstumu nuo oro uosto skrydžiai aukščiau nei 30 m leidžiami tik suderinus — el. paštu susisiekus su skrydžių valdymo padaliniu bent prieš 24 valandas.",
+      "Naktiniai skrydžiai leidžiami — dronas turi turėti įjungtą žalią mirksintį žibintą.",
+      "Nacionaliniai parkai (Tatra Mountains, Slovak Paradise, Low Tatras): galioja ribojimai",
+      "Bratislava Castle ir Government Areas: neskraidymo zonos",
+      "Prieš kiekvieną skrydį patikrinkite UAS geografines teritorijas (PUAS/RUAS zonas) — sąrašą tvarko Ministry of Transportation ir Transportation Authority, o zonos gali keistis.",
+      "Malacky-Kuchyňa, Sliač ir Prešov kariniai aerodromai (RUAS zonos): skrydžiai leidžiami tik gavus Ministry of Defense of the Slovak Republic leidimą."
+    ],
+    "importantNotes": [
+      "Atstumus nuo žmonių reglamentuoja EASA pakategorės (A1/A2/A3) — senoji nacionalinė 50 metrų taisyklė nebetaikoma.",
+      "UAS operatorių registraciją tvarko Transport Authority — registracija galioja visoje ES/EASA",
+      "Tatra Mountains ir nacionaliniuose parkuose galioja reikšmingi ribojimai",
+      "Teritorija aplink M. R. Štefánik Airport: visiškas dronų draudimas 5 km spinduliu (PUAS0103M) — tai apima ir didelę Bratislava dalį.",
+      "Fiksuojant atpažįstamus vaizdus taikomas GDPR"
+    ],
+    "primaryLinks": [
+      {
+        "title": "Transporto institucija — Dronų taisyklės",
+        "description": "Oficialios Transporto institucijos taisyklės ir ištekliai dėl dronų"
+      },
+      {
+        "title": "Transporto institucija — Operatoriaus registracija",
+        "description": "Registracija kaip UAS operatorius (galioja visose ES/EASA šalyse)"
+      },
+      {
+        "title": "LPS — Oro erdvės žemėlapis",
+        "description": "Slovakijos oro navigacijos tarnybų oro erdvės ir dronų zonų žemėlapis"
+      },
+      {
+        "title": "Transporto institucija — Taisyklių apžvalga",
+        "description": "Dronų skraidymo Slovakijoje taisyklių apžvalga"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "LPS — Oro navigacijos tarnybos",
+        "description": "Slovakijos oro navigacijos tarnybos ir oro erdvės informacija"
+      },
+      {
+        "title": "Transporto institucija — Dažnai užduodami klausimai apie dronus",
+        "description": "Dažnai užduodami klausimai apie dronų taisykles Slovakijoje"
+      }
+    ],
+    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius Civil Aviation Authority šaltinius ir LPS oro erdvės žemėlapį. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Slovakija laikosi EASA taisyklių su nacionaliniais papildymais.",
+    "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS (EASA ATVIROJI KATEGORIJA)",
+    "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
+    "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
+    "linksSheetTitle": "Oro erdvė ir taisyklės — Slovakija",
+    "dronePilotCredentialName": "Drono piloto licencija"
+  }
 }

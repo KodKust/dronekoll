@@ -1,65 +1,65 @@
 {
- "meta": {
-  "sourceHash": "52f1e9302ec2bcb4cb052daf85c1bc4eb0d04440f50f5931718d7e36efc0852a",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Legfeljebb 120 m-rel a talajszint felett (EASA nyílt kategória)",
-   "Regisztráció UAS-üzemben tartóként a Közlekedési Hatóságnál a legalább 250 g tömegű vagy kamerával felszerelt drónokhoz",
-   "Kötelező A1/A3 online képzés – legalább 16 éves kortól",
-   "Minimális távolságok alkategóriánként: A1 – ne repülj a közelben tartózkodók felett; A2 – legalább 30 m az emberektől (5 m lassított üzemmódban); A3 – legalább 150 m lakó-, kereskedelmi, ipari és rekreációs területektől.",
-   "Mindig tartsd a drónt vizuális látótávolságon belül (VLOS)",
-   "Ne repüljön emberek csoportjai felett! A nem érintett személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; kérjük, ellenőrizze a hivatalos táblázatot.",
-   "M. R. Štefánik repülőtér, Pozsony: teljes drónrepülési tilalom 5 km-es körzeten belül, 500 m magasságig (PUAS0103M, 2025. december 6-tól hatályos). Kassa, Poprád, Zsolna és Pöstyén repülőterek (2026. március 31-től hatályos): a repülőtér 5 km-es körzetén belül a 30 m feletti repülés csak egyeztetés után megengedett – e-mailben a légiforgalmi irányító egységnek, legalább 24 órával korábban.",
-   "Az éjszakai repülés megengedett – a drónon bekapcsolt zöld villogó fénynek kell lennie.",
-   "Nemzeti parkok (Tátra, Szlovák Paradicsom, Alacsony-Tátra): korlátozások vannak érvényben",
-   "Pozsonyi vár és kormányzati területek: repülési tilalmi zónák",
-   "Minden repülés előtt ellenőrizd az UAS-földrajzi területeket (PUAS-/RUAS-zónák) – a listát a Közlekedési Minisztérium és a Közlekedési Hatóság vezeti, és a zónák változhatnak.",
-   "A malackai-kuchyňai, a szliácsi és az eperjesi katonai repülőterek (RUAS-zónák): a repülés csak a Szlovák Köztársaság Védelmi Minisztériumának engedélyével megengedett."
-  ],
-  "importantNotes": [
-   "Az emberektől való távolságokat az EASA alkategóriái (A1/A2/A3) szabályozzák – a régi, 50 méteres nemzeti szabály már nem érvényes.",
-   "Az UAS-üzemben tartók regisztrációját a Közlekedési Hatóság kezeli – az egész EU-ban/EASA-ban érvényes",
-   "A Tátrában és a nemzeti parkokban jelentős korlátozások vannak",
-   "Az M. R. Štefánik repülőtér környéke: teljes drónrepülési tilalom 5 km-es körzeten belül (PUAS0103M) – ez Pozsony nagy részét is lefedi.",
-   "A GDPR alkalmazandó az azonosítható képek rögzítésére"
-  ],
-  "primaryLinks": [
-   {
-    "title": "Közlekedési Hatóság – Drónszabályozás",
-    "description": "A Közlekedési Hatóság hivatalos szabályai és forrásai drónokhoz"
-   },
-   {
-    "title": "Közlekedési Hatóság – Üzemben tartó regisztrációja",
-    "description": "Regisztráció UAS-üzemben tartóként (minden EU-/EASA-országban érvényes)"
-   },
-   {
-    "title": "LPS – Légtértérkép",
-    "description": "A szlovák légiforgalmi szolgálatok légtér- és drónzónatérképe"
-   },
-   {
-    "title": "Közlekedési Hatóság – A szabályok áttekintése",
-    "description": "A szlovákiai drónrepülési szabályok áttekintése"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "LPS – Légiforgalmi szolgálatok",
-    "description": "Szlovák légiforgalmi szolgálatok és légtérinformációk"
-   },
-   {
-    "title": "Közlekedési Hatóság – GYIK a drónokról",
-    "description": "Gyakran ismételt kérdések a szlovákiai drónszabályozásról"
-   }
-  ],
-  "disclaimerText": "Repülés előtt mindig ellenőrizd a Polgári Légiközlekedési Hatóság hivatalos forrásait és az LPS légtértérképét. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Szlovákia az EASA-szabályozást követi nemzeti kiegészítésekkel.",
-  "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
-  "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
-  "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
-  "linksSheetTitle": "Légtér és szabályozás – Szlovákia",
-  "dronePilotCredentialName": "Drónpilóta-engedély"
- }
+  "meta": {
+    "sourceHash": "52f1e9302ec2bcb4cb052daf85c1bc4eb0d04440f50f5931718d7e36efc0852a",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Legfeljebb 120 m-rel a talajszint felett (EASA nyílt kategória)",
+      "Regisztráció UAS-üzemben tartóként a Közlekedési Hatóságnál a legalább 250 g tömegű vagy kamerával felszerelt drónokhoz",
+      "Kötelező A1/A3 online képzés – legalább 16 éves kortól",
+      "Minimális távolságok alkategóriánként: A1 – ne repülj a műveletben részt nem vevő személyek felett; A2 – legalább 30 m az emberektől (5 m alacsony sebességű üzemmódban); A3 – legalább 150 m a lakó-, kereskedelmi, ipari és rekreációs területektől.",
+      "Mindig tartsd a drónt vizuális látótávolságon belül (VLOS)",
+      "Ne repülj embertömeg felett. A műveletben részt nem vevő személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; ellenőrizd a hivatalos táblázatot.",
+      "M. R. Štefánik Airport, Bratislava: teljes drónrepülési tilalom van érvényben az 5 km-es körzeten belül, 500 m magasságig (PUAS0103M, 2025. december 6-tól hatályos). Košice, Poprad, Žilina és Piešťany repülőterei (2026. március 31-től hatályos): a repülőtér 5 km-es körzetén belül 30 m felett csak előzetes egyeztetéssel repülhetsz; legalább 24 órával korábban e-mailt kell küldened a légiforgalmi irányítóegységnek.",
+      "Az éjszakai repülés megengedett – a drón zöld villogó fényét be kell kapcsolni.",
+      "Nemzeti parkok (Tatra Mountains, Slovak Paradise, Low Tatras): korlátozások vannak érvényben.",
+      "Bratislava Castle és a kormányzati területek: repülési tilalmi zónák.",
+      "Minden repülés előtt ellenőrizd az UAS-földrajzi területeket (PUAS-/RUAS-zónák) – a listát a Közlekedési Minisztérium és a Közlekedési Hatóság vezeti, és a zónák változhatnak.",
+      "A Malacky-Kuchyňa, Sliač és Prešov katonai repülőterek (RUAS-zónák): repülni csak a Ministry of Defense of the Slovak Republic engedélyével szabad."
+    ],
+    "importantNotes": [
+      "Az emberektől való távolságokat az EASA alkategóriái (A1/A2/A3) szabályozzák – a régi, 50 méteres nemzeti szabály már nem érvényes.",
+      "Az UAS-üzemben tartók regisztrációját a Transport Authority végzi; a regisztráció az egész EU-/EASA-térségben érvényes.",
+      "A Tatra Mountains térségében és a nemzeti parkokban jelentős korlátozások vannak.",
+      "Az M. R. Štefánik Airport környékén teljes drónrepülési tilalom van érvényben az 5 km-es körzeten belül (PUAS0103M) – ez Bratislava nagy részét is lefedi.",
+      "A GDPR alkalmazandó az azonosítható képek rögzítésére"
+    ],
+    "primaryLinks": [
+      {
+        "title": "Közlekedési Hatóság – Drónszabályozás",
+        "description": "A Közlekedési Hatóság hivatalos szabályai és forrásai drónokhoz"
+      },
+      {
+        "title": "Közlekedési Hatóság – Üzemben tartó regisztrációja",
+        "description": "Regisztráció UAS-üzemben tartóként (minden EU-/EASA-országban érvényes)"
+      },
+      {
+        "title": "LPS – Légtértérkép",
+        "description": "A szlovák légiforgalmi szolgálatok légtér- és drónzónatérképe"
+      },
+      {
+        "title": "Közlekedési Hatóság – A szabályok áttekintése",
+        "description": "A szlovákiai drónrepülési szabályok áttekintése"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "LPS – Légiforgalmi szolgálatok",
+        "description": "Szlovák légiforgalmi szolgálatok és légtérinformációk"
+      },
+      {
+        "title": "Közlekedési Hatóság – GYIK a drónokról",
+        "description": "Gyakran ismételt kérdések a szlovákiai drónszabályozásról"
+      }
+    ],
+    "disclaimerText": "Repülés előtt mindig ellenőrizd a Polgári Légiközlekedési Hatóság hivatalos forrásait és az LPS légtértérképét. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Szlovákia az EASA-szabályozást követi nemzeti kiegészítésekkel.",
+    "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
+    "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
+    "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
+    "linksSheetTitle": "Légtér és szabályozás – Szlovákia",
+    "dronePilotCredentialName": "Drónpilóta-engedély"
+  }
 }

@@ -1,63 +1,63 @@
 {
- "meta": {
-  "sourceHash": "41a3bb2c31b60f9e99694313efa18c74c69ab8b4db7f6f293333679ae2e726e6",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
-   "Regisztrálj UAS-üzemben tartóként (46,80 €, 3 évig érvényes), ha a drón tömege legalább 250 g, vagy kamerával van felszerelve",
-   "A1/A3 online képzés szükséges – legalább 16 éves kortól",
-   "Kötelező felelősségbiztosítás – legalább 750 000 SDR fedezettel",
-   "Bécs az LO R 15 repülési korlátozási zónán belül található: a repülés csak az Austro Control fizetős engedélyével megengedett – kivéve a 250 g-nál könnyebb drónokat, amelyek legfeljebb 30 m magasságban repülnek a talajszint felett.",
-   "Mindig tartsd vizuális látótávolságon belül (VLOS) a drónt",
-   "Ne repüljön emberek csoportjai felett! A nem érintett személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; kérjük, ellenőrizze a hivatalos táblázatot.",
-   "Vedd figyelembe a földrajzi UAS-területeket (§ 18b LVR) a Dronespace térképen – az repülőtéri zóna nélküli leszállóhelyeken a védelmi sugáron belüli repülés csak az üzemidőn kívül megengedett; a repülőtéri zónák engedélyt igényelnek.",
-   "Az éjszakai repülés a nyílt kategóriában villogó zöld fénnyel megengedett (EASA 2022 óta) – ellenőrizd a konkrét zónákat a Dronespace.at oldalon",
-   "Nemzeti parkok és természetvédelmi területek: további korlátozások vannak érvényben"
-  ],
-  "importantNotes": [
-   "A regisztráció 46,80 €-ba kerül (3 évig érvényes), és minden EU-/EASA-országban érvényes",
-   "Kötelező biztosítás legalább 750 000 SDR fedezettel",
-   "Bécs (LO R 15): a legalább 250 g tömegű drónokhoz engedély szükséges – a 250 g-nál könnyebb drónok csak legfeljebb 30 m magasságig nem igényelnek engedélyt a talajszint felett.",
-   "Alpesi régiók: figyelj a mentőhelikopterek repülési útvonalaira",
-   "A GDPR alkalmazandó, amikor azonosítható személyekről készül felvétel"
-  ],
-  "primaryLinks": [
-   {
-    "title": "Austro Control – Drónszabályok",
-    "description": "Az Osztrák Légiforgalmi Irányítás hivatalos drónszabályai és forrásai"
-   },
-   {
-    "title": "Austro Control – Regisztrálj üzemben tartóként",
-    "description": "Regisztrálj UAS-üzemben tartóként (46,80 €, 3 évig érvényes, minden EU-/EASA-országban érvényes)"
-   },
-   {
-    "title": "Dronespace.at – Légtértérkép",
-    "description": "Hivatalos interaktív térkép a drónzónákkal és légtérkorlátozásokkal"
-   },
-   {
-    "title": "Austro Control – Képzések és vizsgák",
-    "description": "Információ az A1/A3 és A2 képzésekről és vizsgákról"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "BMIMI – Légi közlekedés",
-    "description": "Légiközlekedési információ az Innovációért, Mobilitásért és Infrastruktúráért Felelős Szövetségi Minisztériumtól"
-   },
-   {
-    "title": "Austro Control – Drón GYIK",
-    "description": "Gyakran ismételt kérdések az ausztriai drónszabályokról"
-   }
-  ],
-  "disclaimerText": "Minden repülés előtt mindig ellenőrizd az Austro Control és a Dronespace.at hivatalos forrásait. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Ausztria az EASA szabályait követi, nemzeti kiegészítésekkel.",
-  "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
-  "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
-  "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
-  "linksSheetTitle": "Légtér és szabályok – Ausztria",
-  "dronePilotCredentialName": "Drónengedély"
- }
+  "meta": {
+    "sourceHash": "41a3bb2c31b60f9e99694313efa18c74c69ab8b4db7f6f293333679ae2e726e6",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
+      "Regisztrálj UAS-üzemben tartóként (46,80 €, 3 évig érvényes), ha a drón tömege legalább 250 g, vagy kamerával van felszerelve",
+      "A1/A3 online képzés szükséges – legalább 16 éves kortól",
+      "Kötelező felelősségbiztosítás – legalább 750 000 SDR fedezettel",
+      "Bécs az LO R 15 repülési korlátozási zónán belül található: a repülés csak az Austro Control fizetős engedélyével megengedett – kivéve a 250 g-nál könnyebb drónokat, amelyek legfeljebb 30 m magasságban repülnek a talajszint felett.",
+      "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS)",
+      "Ne repülj embertömeg felett. A műveletben részt nem vevő személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; ellenőrizd a hivatalos táblázatot.",
+      "Vedd figyelembe a földrajzi UAS-területeket (§ 18b LVR) a Dronespace térképén — a repülőtéri zóna nélküli repülőtereken a védőkörzeten belül csak az üzemidőn kívül szabad repülni; a repülőtéri zónákban engedély szükséges.",
+      "A nyílt kategóriában 2022 óta az EASA szabályai szerint villogó zöld fénnyel engedélyezett az éjszakai repülés — ellenőrizd az adott zónákat a Dronespace.at oldalon",
+      "Nemzeti parkok és természetvédelmi területek: további korlátozások vannak érvényben"
+    ],
+    "importantNotes": [
+      "A regisztráció 46,80 €-ba kerül (3 évig érvényes), és az EU és az EASA valamennyi országában érvényes",
+      "Kötelező biztosítás legalább 750 000 SDR fedezettel",
+      "Bécs (LO R 15): a legalább 250 g tömegű drónokhoz engedély szükséges — a 250 g-nál könnyebb drónokhoz csak akkor nem kell engedély, ha legfeljebb 30 m-rel repülnek a talajszint felett.",
+      "Alpesi régiók: figyelj a mentőhelikopterek repülési útvonalaira",
+      "A GDPR az azonosítható személyekről készült felvételekre vonatkozik"
+    ],
+    "primaryLinks": [
+      {
+        "title": "Austro Control – Drónszabályok",
+        "description": "Az Osztrák Légiforgalmi Irányítás hivatalos drónszabályai és forrásai"
+      },
+      {
+        "title": "Austro Control – Regisztrálj üzemben tartóként",
+        "description": "Regisztrálj UAS-üzemben tartóként (46,80 €, 3 évig érvényes, minden EU-/EASA-országban érvényes)"
+      },
+      {
+        "title": "Dronespace.at – Légtértérkép",
+        "description": "Hivatalos interaktív térkép a drónzónákkal és légtérkorlátozásokkal"
+      },
+      {
+        "title": "Austro Control – Képzések és vizsgák",
+        "description": "Információ az A1/A3 és A2 képzésekről és vizsgákról"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "BMIMI – Légi közlekedés",
+        "description": "Légiközlekedési információ az Innovációért, Mobilitásért és Infrastruktúráért Felelős Szövetségi Minisztériumtól"
+      },
+      {
+        "title": "Austro Control – Drón GYIK",
+        "description": "Gyakran ismételt kérdések az ausztriai drónszabályokról"
+      }
+    ],
+    "disclaimerText": "Minden repülés előtt ellenőrizd az Austro Control és a Dronespace.at hivatalos forrásait. Ez az alkalmazás egy segédeszköz — nem jogi forrás. Ausztria az EASA szabályait követi, nemzeti kiegészítésekkel.",
+    "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
+    "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
+    "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
+    "linksSheetTitle": "Légtér és szabályok – Ausztria",
+    "dronePilotCredentialName": "Drónengedély"
+  }
 }

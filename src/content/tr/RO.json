@@ -1,64 +1,64 @@
 {
- "meta": {
-  "sourceHash": "dcef4a956a49aee95524bad5517344cde74a4ab744ba6ea4035a03c84c972db7",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Yerden en fazla 120 m (EASA Open Kategorisi)",
-   "AACR portalında (uas.caa.ro) çevrim içi kayıt: 90 € + KDV (~108 €), 1 yıl geçerli",
-   "Zorunlu A1/A3 çevrim içi eğitim — asgari yaş: 16",
-   "Şehirde uçmak yasaktır — kentsel uçuşa ilişkin kısıtlamalar çok katıdır",
-   "UKRAYNA sınırı boyunca 30 km'lik dışlama bölgesi (Kuzey Dobruca, Sulina–Galați) — Millî Savunma Bakanlığı kararıyla uçuş yasaktır",
-   "Dronu her zaman doğrudan görüş hattı (VLOS) içinde tutun",
-   "İnsan topluluklarının üzerinden uçmayın. İlgili olmayan kişiler için geçerli kurallar, alt kategoriye, sınıf işaretine ve çalışma koşullarına göre değişir; resmi matrisi kontrol edin.",
-   "Havalimanlarına en az 8 km mesafe (Henri Coandă koruma bölgesi 8–10 km'dir)",
-   "EASA açık kategori temel kuralları kapsamında, gerekli yeşil yanıp sönen ışık kullanıldığında gece uçuşuna izin verilir; ancak yürürlükteki coğrafi bölge veya ulusal kuralların daha katı bir koşul getirmediği sürece.",
-   "Tuna Deltası ve Ulusal Parklar: Ek kısıtlamalar geçerlidir"
-  ],
-  "importantNotes": [
-   "Kayıt, AACR portalı (uas.caa.ro) üzerinden %100 çevrim içidir — Bükreş'e gitmeye gerek yoktur",
-   "Kayıt ücreti: 90 € + KDV (~108 €), 1 yıl geçerli",
-   "Şehirde uçmak, hobi amaçlı olarak esasen yasaktır",
-   "30 km'lik dışlama bölgesi, Eylül 2023'te çıkarılan bir Millî Savunma Bakanlığı kararı uyarınca Ukrayna ile sınırı (Kuzey Dobruca) kapsar",
-   "Belirlenebilir görüntülerin toplanmasında GDPR geçerlidir",
-   "Başka bir AB/AEA ülkesince verilen kayıt ve A1/A3 sertifikaları Romanya'da geçerlidir — yeniden kayıt gerekmez (karşılıklı tanıma, AB Yön. 2019/947)"
-  ],
-  "primaryLinks": [
-   {
-    "title": "AACR — Dron Mevzuatı",
-    "description": "Romanya Sivil Havacılık Otoritesi'nin dronlara ilişkin resmî kuralları ve kaynakları"
-   },
-   {
-    "title": "AACR — Operatör Olarak Kayıt",
-    "description": "UAS operatörü olarak çevrim içi kayıt (90 € + KDV, ~108 €, 1 yıl geçerli)"
-   },
-   {
-    "title": "ROMATSA — Hava Sahası Haritası",
-    "description": "Romanya hava trafik hizmetleri ve hava sahası bilgisi"
-   },
-   {
-    "title": "AACR — UAS Kuralları",
-    "description": "UAS ve ulusal gerekliliklere ilişkin ayrıntılı mevzuat"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "AACR — Dronlar Hakkında Sıkça Sorulan Sorular",
-    "description": "Romanya'da dron mevzuatı hakkında sıkça sorulan sorular"
-   },
-   {
-    "title": "ROMATSA — NOTAM",
-    "description": "Aktif NOTAM'lar ve geçici hava sahası kısıtlamaları"
-   }
-  ],
-  "disclaimerText": "Uçmadan önce her zaman AACR'nin resmî kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Romanya, şehirlerde uçuş yasakları ve sınır dışlama bölgeleri dahil katı ulusal eklerle EASA mevzuatını uygular.",
-  "sectionLabelRules": "TEMEL KURALLAR (EASA OPEN KATEGORİSİ)",
-  "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
-  "sectionLabelSecondary": "EK KAYNAKLAR",
-  "linksSheetTitle": "Hava Sahası ve Mevzuat — Romanya",
-  "dronePilotCredentialName": "Dron Pilot Sertifikası"
- }
+  "meta": {
+    "sourceHash": "dcef4a956a49aee95524bad5517344cde74a4ab744ba6ea4035a03c84c972db7",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Yerden en fazla 120 m (EASA Open Kategorisi)",
+      "AACR portalında (uas.caa.ro) çevrim içi kayıt: 90 € + KDV (~108 €), 1 yıl geçerli",
+      "Zorunlu A1/A3 çevrim içi eğitim — asgari yaş: 16",
+      "Şehirde uçmak yasaktır — kentsel uçuşa ilişkin kısıtlamalar çok katıdır",
+      "UKRAYNA sınırı boyunca 30 km'lik uçuşa kapalı bölge (Kuzey Dobruca, Sulina–Galați) — Ministry of National Defense kararıyla uçuş yasaktır",
+      "Dronu her zaman doğrudan görüş hattı (VLOS) içinde tutun",
+      "İnsan topluluklarının üzerinden uçmayın. Operasyona dahil olmayan kişilerle ilgili kurallar alt kategoriye, sınıf işaretine ve operasyon koşullarına bağlıdır; resmî matrisi kontrol edin.",
+      "Havalimanlarına en az 8 km mesafe (Henri Coandă koruma bölgesi 8–10 km'dir)",
+      "Gerekli yanıp sönen yeşil ışık kullanıldığında, yürürlükteki bir coğrafi bölge veya ulusal kural daha katı bir koşul getirmediği sürece EASA açık kategori temel kuralları kapsamında gece uçuşuna izin verilir.",
+      "Tuna Deltası ve ulusal parklar: ek kısıtlamalar geçerlidir"
+    ],
+    "importantNotes": [
+      "Kayıt, AACR portalı (uas.caa.ro) üzerinden %100 çevrim içidir — Bükreş'e gitmeye gerek yoktur",
+      "Kayıt ücreti: 90 € + KDV (~108 €), 1 yıl geçerli",
+      "Şehirde uçmak, hobi amaçlı olarak esasen yasaktır",
+      "30 km'lik uçuşa kapalı bölge, Eylül 2023'te yayımlanan bir Ministry of National Defense kararı uyarınca Ukrayna sınırını (Kuzey Dobruca) kapsar",
+      "Belirlenebilir görüntülerin toplanmasında GDPR geçerlidir",
+      "Başka bir AB/AEA ülkesince verilen kayıt ve A1/A3 sertifikaları Romanya'da geçerlidir — yeniden kayıt gerekmez (karşılıklı tanıma, EU Reg. 2019/947)"
+    ],
+    "primaryLinks": [
+      {
+        "title": "AACR — Dron Mevzuatı",
+        "description": "Romanya Sivil Havacılık Otoritesi'nin dronlara ilişkin resmî kuralları ve kaynakları"
+      },
+      {
+        "title": "AACR — Operatör Olarak Kayıt",
+        "description": "UAS operatörü olarak çevrim içi kayıt (90 € + KDV, ~108 €, 1 yıl geçerli)"
+      },
+      {
+        "title": "ROMATSA — Hava Sahası Haritası",
+        "description": "Romanya hava trafik hizmetleri ve hava sahası bilgisi"
+      },
+      {
+        "title": "AACR — UAS Kuralları",
+        "description": "UAS ve ulusal gerekliliklere ilişkin ayrıntılı mevzuat"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "AACR — Dronlar Hakkında Sıkça Sorulan Sorular",
+        "description": "Romanya'da dron mevzuatı hakkında sıkça sorulan sorular"
+      },
+      {
+        "title": "ROMATSA — NOTAM",
+        "description": "Aktif NOTAM'lar ve geçici hava sahası kısıtlamaları"
+      }
+    ],
+    "disclaimerText": "Uçmadan önce her zaman AACR'nin resmî kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Romanya, şehirlerdeki uçuş yasakları ve sınırdaki uçuşa kapalı bölgeler dahil olmak üzere katı ulusal eklerle EASA mevzuatını uygular.",
+    "sectionLabelRules": "TEMEL KURALLAR (EASA OPEN KATEGORİSİ)",
+    "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
+    "sectionLabelSecondary": "EK KAYNAKLAR",
+    "linksSheetTitle": "Hava Sahası ve Mevzuat — Romanya",
+    "dronePilotCredentialName": "Dron Pilot Sertifikası"
+  }
 }

@@ -1,63 +1,63 @@
 {
- "meta": {
-  "sourceHash": "000b9bfb30fd5dc95150d4d75572729ea894e9cb117bc556495e8105d1de0bf6",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Maksimāli 120 m virs zemes (EASA atvērtā kategorija)",
-   "Reģistrācija caur D-Flight portālu: pamata abonements €7 gadā (PRO €28 gadā) + obligāts QR kods uz katra drona (Base €7/UAS; pirmais iekļauts sākotnējā abonementā)",
-   "Obligāta A1/A3 tiešsaistes apmācība — minimālais vecums: 16 gadi",
-   "Obligāta civiltiesiskās atbildības apdrošināšana — vismaz 750 000 SDR (speciālās aizņēmuma tiesības)",
-   "Roma un Vatikāns: plašas lidojumu aizlieguma zonas",
-   "Vienmēr turi dronu redzamības laukā (VLOS)",
-   "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personas, kas nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
-   "Minimālais attālums 5 km no jebkuras lidostas vai lidlauka",
-   "Nakts lidojumi ir atļauti saskaņā ar EASA atklātās kategorijas pamatnosacījumiem, ja tiek izmantota nepieciešamā zaļā mirgojošā gaisma, ja vien spēkā esošie ģeogrāfiskās zonas vai valsts noteikumi neparedz stingrākus nosacījumus.",
-   "Vēsturiskām vietām un arheoloģiskām teritorijām var būt piemērojami papildu ierobežojumi"
-  ],
-  "importantNotes": [
-   "D-Flight abonements: pamata €7 gadā (PRO €28 gadā specifiskajai kategorijai). Pirmais pamata QR kods ir iekļauts sākotnējā aktivizācijā; papildu pamata QR kodi maksā €7 par UAS (PRO €112 par UAS).",
-   "Obligāta apdrošināšana ar minimālo segumu 750 000 SDR (speciālās aizņēmuma tiesības)",
-   "Romai/Vatikānam ir viena no ierobežojošākajām gaisa telpām Eiropā droniem",
-   "Naudassodi līdz €100 000 par smagiem pārkāpumiem",
-   "GDPR piemēro, ja tiek fiksēti identificējami attēli"
-  ],
-  "primaryLinks": [
-   {
-    "title": "ENAC — Dronu noteikumi",
-    "description": "Itālijas civilās aviācijas iestādes oficiālie noteikumi un resursi par droniem"
-   },
-   {
-    "title": "D-Flight — Reģistrējies un lido",
-    "description": "Reģistrācijas portāls un gaisa telpas karte (nepieciešams abonements 6 € mēnesī)"
-   },
-   {
-    "title": "D-Flight — Gaisa telpas karte",
-    "description": "Oficiālā interaktīvā karte, kurā redzamas dronu gaisa telpas zonas un ierobežojumi"
-   },
-   {
-    "title": "ENAC — UAS noteikumi",
-    "description": "Detalizēti Itālijas noteikumi par UAS un nacionālie grozījumi EASA noteikumiem"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "ENAV — NOTAM",
-    "description": "Aktīvie NOTAM un pagaidu gaisa telpas ierobežojumi"
-   },
-   {
-    "title": "ENAC — Biežāk uzdotie jautājumi par droniem",
-    "description": "Biežāk uzdotie jautājumi par dronu noteikumiem Itālijā"
-   }
-  ],
-  "disclaimerText": "Pirms lidošanas vienmēr iepazīsties ar ENAC un D-Flight oficiālajiem avotiem. Šī lietotne ir rīks, nevis juridiska instance. Itālija piemēro EASA noteikumus ar nacionālajiem papildinājumiem.",
-  "sectionLabelRules": "PAMATNOTEIKUMI (EASA ATVĒRTĀ KATEGORIJA)",
-  "sectionLabelPrimary": "OFICIĀLIE AVOTI",
-  "sectionLabelSecondary": "PAPILDU RESURSI",
-  "linksSheetTitle": "Gaisa telpa un noteikumi — Itālija",
-  "dronePilotCredentialName": "Drona licence"
- }
+  "meta": {
+    "sourceHash": "000b9bfb30fd5dc95150d4d75572729ea894e9cb117bc556495e8105d1de0bf6",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Maksimāli 120 m virs zemes (EASA atvērtā kategorija)",
+      "Reģistrācija D-Flight portālā: Basic abonements €7 gadā (PRO €28 gadā) + obligāts QR kods uz katra drona (Base €7/UAS; pirmais ir iekļauts sākotnējā abonementā)",
+      "Obligāta A1/A3 tiešsaistes apmācība — minimālais vecums: 16 gadi",
+      "Obligāta civiltiesiskās atbildības apdrošināšana — vismaz 750 000 SDR (speciālās aizņēmuma tiesības)",
+      "Rome un Vatican City: plašas lidojumu aizlieguma zonas",
+      "Vienmēr turi dronu redzamības laukā (VLOS)",
+      "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kuras nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
+      "Minimālais attālums 5 km no jebkuras lidostas vai lidlauka",
+      "Nakts lidojumi ir atļauti saskaņā ar EASA atvērtās kategorijas pamatnoteikumiem, ja tiek izmantota prasītā mirgojošā zaļā gaisma, ja vien spēkā esoša ģeogrāfiskā zona vai valsts noteikums neparedz stingrākus nosacījumus.",
+      "Vēsturiskām vietām un arheoloģiskām teritorijām var būt piemērojami papildu ierobežojumi"
+    ],
+    "importantNotes": [
+      "D-Flight abonements: Basic €7 gadā (PRO €28 gadā specifiskajai kategorijai). Pirmais Basic QR kods ir iekļauts sākotnējā aktivizācijā; papildu Basic QR kodi maksā €7 par UAS (PRO €112 par UAS).",
+      "Obligāta apdrošināšana ar minimālo segumu 750 000 SDR (speciālās aizņēmuma tiesības)",
+      "Rome/Vatican ir viena no visvairāk ierobežotajām gaisa telpām Eiropā dronu lidojumiem",
+      "Naudassodi līdz €100 000 par smagiem pārkāpumiem",
+      "GDPR piemēro, ja tiek fiksēti identificējami attēli"
+    ],
+    "primaryLinks": [
+      {
+        "title": "ENAC — Dronu noteikumi",
+        "description": "Itālijas civilās aviācijas iestādes oficiālie noteikumi un resursi par droniem"
+      },
+      {
+        "title": "D-Flight — Reģistrējies un lido",
+        "description": "Reģistrācijas portāls un gaisa telpas karte (nepieciešams abonements 6 € mēnesī)"
+      },
+      {
+        "title": "D-Flight — Gaisa telpas karte",
+        "description": "Oficiālā interaktīvā karte, kurā redzamas dronu gaisa telpas zonas un ierobežojumi"
+      },
+      {
+        "title": "ENAC — UAS noteikumi",
+        "description": "Detalizēti Itālijas noteikumi par UAS un nacionālie grozījumi EASA noteikumiem"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "ENAV — NOTAM",
+        "description": "Aktīvie NOTAM un pagaidu gaisa telpas ierobežojumi"
+      },
+      {
+        "title": "ENAC — Biežāk uzdotie jautājumi par droniem",
+        "description": "Biežāk uzdotie jautājumi par dronu noteikumiem Itālijā"
+      }
+    ],
+    "disclaimerText": "Pirms lidošanas vienmēr iepazīsties ar ENAC un D-Flight oficiālajiem avotiem. Šī lietotne ir rīks, nevis juridiska instance. Itālija piemēro EASA noteikumus ar nacionālajiem papildinājumiem.",
+    "sectionLabelRules": "PAMATNOTEIKUMI (EASA ATVĒRTĀ KATEGORIJA)",
+    "sectionLabelPrimary": "OFICIĀLIE AVOTI",
+    "sectionLabelSecondary": "PAPILDU RESURSI",
+    "linksSheetTitle": "Gaisa telpa un noteikumi — Itālija",
+    "dronePilotCredentialName": "Drona licence"
+  }
 }

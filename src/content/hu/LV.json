@@ -1,63 +1,63 @@
 {
- "meta": {
-  "sourceHash": "554dcb2ca7172e65f382ee60023e605b64f419f74a40862fa094a3c138b1853d",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
-   "Regisztrálj UAS-üzemben tartóként, ha a drónod tömege legalább 250 g, vagy kamerával van felszerelve",
-   "A1/A3 online képzés szükséges – legalább 16 éves kortól",
-   "Kötelező felelősségbiztosítás az 1,5 kg-nál nehezebb drónokra; a minimális fedezet a tömegtől függ – 250–1 500 g: 150 000 €; 1 501–5 000 g: 500 000 €; >5 kg: 1 000 000 €",
-   "Tilos hidak, vasútvonalak, autópályák és elektromos vezetékek felett repülni",
-   "Mindig tartsd látótávolságon belül (VLOS)",
-   "Ne repüljön emberek csoportjai felett! A nem érintett személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; kérjük, ellenőrizze a hivatalos táblázatot.",
-   "Legalább 5 km távolságra bármely repülőtértől vagy leszállóhelytől",
-   "Az EASA nyílt kategóriájú alapszabályai szerint az éjszakai repülés megengedett, amennyiben a előírt zöld villogó fényt használják, kivéve, ha valamely hatályos földrajzi övezetre vonatkozó vagy nemzeti szabály szigorúbb feltételt ír elő.",
-   "A Rigai repülőtér CTR-je jelentős területet fed le"
-  ],
-  "importantNotes": [
-   "A biztosítás a drón tömegétől függ – 250–1 500 g: 150 000 €; 1 501–5 000 g: 500 000 €; >5 kg: 1 000 000 €",
-   "Hidak, vasútvonalak, autópályák és elektromos vezetékek feletti repülés szigorúan tilos",
-   "A Rigai repülőtér CTR-je nagy korlátozott területet alkot",
-   "Az Oroszországgal és Fehéroroszországgal határos területeken további korlátozások lehetnek érvényben",
-   "A GDPR alkalmazandó azonosítható személyekről készített videó- és fényképfelvételekre"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAA Latvia – Drónszabályok",
-    "description": "A Lett Polgári Repülési Ügynökség hivatalos drónszabályai és forrásai"
-   },
-   {
-    "title": "CAA Latvia – Regisztrálj üzemben tartóként",
-    "description": "Regisztrálj UAS-üzemben tartóként (minden EU-/EASA-országban érvényes)"
-   },
-   {
-    "title": "Airspace.lv – Dróntérkép",
-    "description": "Hivatalos légtértérkép a drónzónákkal és korlátozásokkal"
-   },
-   {
-    "title": "CAA Latvia – A szabályok áttekintése",
-    "description": "A lettországi drónrepülés szabályainak áttekintése"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "LGS – Lett légiforgalom",
-    "description": "Lett légiforgalmi szolgálatok és légtér-információ"
-   },
-   {
-    "title": "CAA Latvia – Drón GYIK",
-    "description": "Gyakran ismételt kérdések a lettországi drónszabályokról"
-   }
-  ],
-  "disclaimerText": "Repülés előtt mindig ellenőrizd a Polgári Repülési Ügynökség hivatalos forrásait és az airspace.lv oldalt. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Lettország az EASA szabályait követi, nemzeti kiegészítésekkel.",
-  "sectionLabelRules": "FŐ SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
-  "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
-  "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
-  "linksSheetTitle": "Légtér és szabályok – Lettország",
-  "dronePilotCredentialName": "Távpilóta-igazolvány"
- }
+  "meta": {
+    "sourceHash": "554dcb2ca7172e65f382ee60023e605b64f419f74a40862fa094a3c138b1853d",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
+      "Regisztrálj UAS-üzemben tartóként, ha a drónod tömege legalább 250 g, vagy kamerával van felszerelve",
+      "A1/A3 online képzés szükséges – legalább 16 éves kortól",
+      "Kötelező felelősségbiztosítás az 1,5 kg-nál nehezebb drónokra; a minimális fedezet a tömegtől függ – 250–1 500 g: 150 000 €; 1 501–5 000 g: 500 000 €; >5 kg: 1 000 000 €",
+      "Tilos hidak, vasútvonalak, autópályák és elektromos vezetékek felett repülni",
+      "Mindig tartsd a drónt látótávolságon belül (VLOS)",
+      "Ne repülj embercsoportok felett. A műveletben részt nem vevő személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; ellenőrizd a hivatalos táblázatot.",
+      "Legalább 5 km távolságra bármely repülőtértől vagy leszállóhelytől",
+      "Az EASA nyílt kategóriájú alapszabályai szerint az éjszakai repülés megengedett, amennyiben az előírt zöld villogó fényt használják, kivéve, ha valamely hatályos földrajzi övezetre vonatkozó vagy nemzeti szabály szigorúbb feltételt ír elő.",
+      "A Rigai repülőtér CTR-je jelentős területet fed le"
+    ],
+    "importantNotes": [
+      "A biztosítás a drón tömegétől függ – 250–1 500 g: 150 000 €; 1 501–5 000 g: 500 000 €; >5 kg: 1 000 000 €",
+      "Hidak, vasútvonalak, autópályák és elektromos vezetékek feletti repülés szigorúan tilos",
+      "A Rigai repülőtér CTR-je nagy korlátozott területet alkot",
+      "Az Oroszországgal és Fehéroroszországgal határos területeken további korlátozások lehetnek érvényben",
+      "A GDPR alkalmazandó azonosítható személyekről készített videó- és fényképfelvételekre"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAA Latvia – Drónszabályok",
+        "description": "A Lett Polgári Repülési Ügynökség hivatalos drónszabályai és forrásai"
+      },
+      {
+        "title": "CAA Latvia – Regisztrálj üzemben tartóként",
+        "description": "Regisztrálj UAS-üzemben tartóként (minden EU-/EASA-országban érvényes)"
+      },
+      {
+        "title": "Airspace.lv – Dróntérkép",
+        "description": "Hivatalos légtértérkép a drónzónákkal és korlátozásokkal"
+      },
+      {
+        "title": "CAA Latvia – A szabályok áttekintése",
+        "description": "A lettországi drónrepülés szabályainak áttekintése"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "LGS – Lett légiforgalom",
+        "description": "Lett légiforgalmi szolgálatok és légtér-információ"
+      },
+      {
+        "title": "CAA Latvia – Drón GYIK",
+        "description": "Gyakran ismételt kérdések a lettországi drónszabályokról"
+      }
+    ],
+    "disclaimerText": "Repülés előtt mindig ellenőrizd a Polgári Repülési Ügynökség hivatalos forrásait és az airspace.lv oldalt. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Lettország az EASA szabályait követi, nemzeti kiegészítésekkel.",
+    "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
+    "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
+    "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
+    "linksSheetTitle": "Légtér és szabályok – Lettország",
+    "dronePilotCredentialName": "Távpilóta-igazolvány"
+  }
 }

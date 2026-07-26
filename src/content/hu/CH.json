@@ -1,63 +1,63 @@
 {
- "meta": {
-  "sourceHash": "f36a1cf828ca8a0a643f670fd6a861c54e98b56220c07b5f5975ef302b2f4c03",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Legfeljebb 120 m-rel a talajszint felett (EASA nyílt kategória kétoldalú megállapodás alapján)",
-   "Regisztrálj UAS-üzemben tartóként (10 CHF, határozatlan ideig érvényes), ha a drón tömege legalább 250 g, vagy kamerával van felszerelve",
-   "A1/A3 online képzés szükséges legalább 250 g tömeg esetén (a tanúsítvány 5 évig érvényes) – legalább 12 éves kortól; a 12 éven aluli gyermekeket 16 évesnél idősebb személynek kell felügyelnie.",
-   "Kötelező felelősségbiztosítás a legalább 250 g tömegű drónokhoz (1 millió CHF fedezet)",
-   "Modellrepülő-klubok tagjai: további kedvezmények a FOCA-szabályozás szerint",
-   "Mindig tartsd a drónt vizuális látótávolságon belül (VLOS)",
-   "Ne repüljön emberek csoportjai felett! A nem érintett személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; kérjük, ellenőrizze a hivatalos táblázatot.",
-   "Repülőterek és leszállópályák 5 km-es körzetén belül az üzemeltetés csak a leszállópálya engedélyével megengedett (250 g-nál nehezebb drónok).",
-   "Nemzeti parkok: a drónhasználat korlátozott vagy tiltott",
-   "Hegyvidéki régiók: figyelj a helikopterek repülési útvonalaira (mentés, sétarepülések)"
-  ],
-  "importantNotes": [
-   "A regisztráció mindössze 10 CHF-be kerül – egyszeri díj korlátlan érvényességgel, megújítás nélkül.",
-   "Kötelező biztosítás a legalább 250 g tömegű drónokhoz (fedezet: 1 millió CHF)",
-   "Svájc nem tagja az EU-nak, de kétoldalú megállapodás révén betartja az EASA-szabályozást",
-   "Az alpesi helikopterútvonalak gyakoriak – mindig tartsd szemmel a légteret",
-   "A DSG (svájci adatvédelmi törvény) alkalmazandó, amikor azonosítható személyeket fényképezel"
-  ],
-  "primaryLinks": [
-   {
-    "title": "FOCA/BAZL – Drónszabályozás",
-    "description": "A Szövetségi Polgári Légiközlekedési Hivatal (FOCA) hivatalos drónszabályozása"
-   },
-   {
-    "title": "FOCA – Regisztráció üzemben tartóként",
-    "description": "Regisztrálj UAS-üzemben tartóként (10 CHF, határozatlan ideig érvényes!)"
-   },
-   {
-    "title": "Swiss Dronemap – Légtértérkép",
-    "description": "Nem hivatalos, közösségi dróntérkép időjárással és repülési pontszámmal"
-   },
-   {
-    "title": "FOCA – A szabályok áttekintése",
-    "description": "A svájci drónrepülési szabályok áttekintése"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Skyguide – Légiforgalmi irányítás",
-    "description": "Svájci légiforgalmi irányítás és légtérinformációk"
-   },
-   {
-    "title": "SMV – Modellrepülés",
-    "description": "Svájci Modellrepülő Szövetség klubkedvezményekkel és helyszínekkel"
-   }
-  ],
-  "disclaimerText": "Minden repülés előtt mindig ellenőrizd a FOCA/BAZL hivatalos forrásait és a hivatalos dróntérképet a map.geo.admin.ch oldalon. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Svájc kétoldalú megállapodás révén követi az EASA-szabályozást.",
-  "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
-  "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
-  "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
-  "linksSheetTitle": "Légtér és szabályozás – Svájc",
-  "dronePilotCredentialName": "Távpilóta-igazolvány"
- }
+  "meta": {
+    "sourceHash": "f36a1cf828ca8a0a643f670fd6a861c54e98b56220c07b5f5975ef302b2f4c03",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Legfeljebb 120 m-rel a talajszint felett (EASA nyílt kategória kétoldalú megállapodás alapján)",
+      "Regisztrálj UAS-üzemben tartóként (10 CHF, határozatlan ideig érvényes), ha a drón tömege legalább 250 g, vagy kamerával van felszerelve",
+      "A1/A3 online képzés szükséges legalább 250 g tömeg esetén (a tanúsítvány 5 évig érvényes) — alsó korhatár 12 év; a 12 éven aluli gyermekeket legalább 16 éves személynek kell felügyelnie.",
+      "Kötelező felelősségbiztosítás a legalább 250 g tömegű drónokhoz (1 millió CHF fedezet)",
+      "A modellrepülő-klubok tagjai: további jogosultságok a FOCA szabályai alapján",
+      "Mindig tartsd a drónt vizuális látótávolságon belül (VLOS)",
+      "Ne repülj embertömeg felett. A műveletben részt nem vevő személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; ellenőrizd a hivatalos táblázatot.",
+      "Repülőterek 5 km-es körzetén belül az üzemeltetés csak az adott repülőtér engedélyével megengedett (250 g-nál nehezebb drónok esetén).",
+      "Nemzeti parkok: a drónhasználat korlátozott vagy tiltott",
+      "Hegyvidéki régiók: figyelj a helikopterek repülési útvonalaira (mentő- és sétarepülések)"
+    ],
+    "importantNotes": [
+      "A regisztráció mindössze 10 CHF-be kerül – egyszeri díj korlátlan érvényességgel, megújítás nélkül.",
+      "Kötelező biztosítás a legalább 250 g tömegű drónokhoz (fedezet: 1 millió CHF)",
+      "Svájc nem tagja az EU-nak, de kétoldalú megállapodás révén betartja az EASA-szabályozást",
+      "Az alpesi helikopterútvonalak gyakoriak – mindig tartsd szemmel a légteret",
+      "A DSG (svájci adatvédelmi törvény) alkalmazandó, amikor azonosítható személyeket fényképezel"
+    ],
+    "primaryLinks": [
+      {
+        "title": "FOCA/BAZL – Drónszabályozás",
+        "description": "A Szövetségi Polgári Légiközlekedési Hivatal (FOCA) hivatalos drónszabályozása"
+      },
+      {
+        "title": "FOCA – Regisztráció üzemben tartóként",
+        "description": "Regisztrálj UAS-üzemben tartóként (10 CHF, határozatlan ideig érvényes!)"
+      },
+      {
+        "title": "Swiss Dronemap – Légtértérkép",
+        "description": "Nem hivatalos, közösségi dróntérkép időjárással és repülési pontszámmal"
+      },
+      {
+        "title": "FOCA – A szabályok áttekintése",
+        "description": "A svájci drónrepülési szabályok áttekintése"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Skyguide – Légiforgalmi irányítás",
+        "description": "Svájci légiforgalmi irányítás és légtérinformációk"
+      },
+      {
+        "title": "SMV – Modellrepülés",
+        "description": "Svájci Modellrepülő Szövetség klubkedvezményekkel és helyszínekkel"
+      }
+    ],
+    "disclaimerText": "Minden repülés előtt mindig ellenőrizd a FOCA/BAZL hivatalos forrásait és a hivatalos dróntérképet a map.geo.admin.ch oldalon. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Svájc kétoldalú megállapodás révén követi az EASA-szabályozást.",
+    "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
+    "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
+    "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
+    "linksSheetTitle": "Légtér és szabályozás – Svájc",
+    "dronePilotCredentialName": "Távpilóta-igazolvány"
+  }
 }

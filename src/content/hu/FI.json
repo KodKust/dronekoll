@@ -1,62 +1,62 @@
 {
- "meta": {
-  "sourceHash": "49389e227b39ad270162c3ac5b4ca7074db2b61d6472d7eff6c37ed05fab160b",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
-   "A1/A3 online képzés szükséges – legalább 16 éves kortól",
-   "Mindig tartsd fenn a vizuális látótávolságot (VLOS) a drónnal",
-   "Ne repüljön emberek csoportjai felett! A nem érintett személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; kérjük, ellenőrizze a hivatalos táblázatot.",
-   "Tartsd be a repülőtéri CTR-ekre és az UAS-légtéri zónákra vonatkozó korlátozásokat – nézd meg a Droneinfo.fi oldalt",
-   "Az éjszakai repülés akkor engedélyezett, ha a drón zöld villogó azonosító fénnyel rendelkezik, és a látótávolság megfelelő",
-   "A keleti határ közelében repülési korlátozások vannak – ellenőrizd az érintett területeket a repülés előtt",
-   "Lappföldön szezonális korlátozások lehetnek a rénszarvastartó területeken",
-   "A területspecifikus korlátozásokat és magasságkorlátokat ellenőrizd a Droneinfo.fi oldalon"
-  ],
-  "importantNotes": [
-   "A keleti határ (EFR100) zónája napi 24 órában aktív – mostantól látható a térképen",
-   "A Traficom UAS-zónái és a Natura 2000 területek megjelennek a térképen",
-   "Télen az akkumulátor kapacitása csökken fagypont alatti hőmérsékleten",
-   "A fehér éjszakák: hosszú repülési idők, de mindenképp ellenőrizd a korlátozott területeket",
-   "Az adatvédelmi jogszabályok (GDPR) alkalmazandók azonosítható személyek fényképezésére"
-  ],
-  "primaryLinks": [
-   {
-    "title": "Traficom – drónszabályok",
-    "description": "A Finn Közlekedési és Kommunikációs Ügynökség (Traficom) hivatalos drónszabályozása"
-   },
-   {
-    "title": "Traficom – regisztráció",
-    "description": "Regisztrálj UAS-felhasználóként (30 € 3 évre vagy 100 € 5 évre, minden EU-/EASA-országban érvényes)"
-   },
-   {
-    "title": "Droneinfo.fi – légtértérkép",
-    "description": "Hivatalos interaktív dróntérkép a repülési tilalmi és korlátozott zónák megjelenítésével"
-   },
-   {
-    "title": "Traficom – képzések és vizsgák",
-    "description": "Információk az A1/A3 és A2 képzési tanfolyamokról és vizsgákról"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Fintraffic ANS – légtér-információ",
-    "description": "Finn légiforgalmi irányítás és légtér-információ"
-   },
-   {
-    "title": "Traficom – gyakran ismételt kérdések a drónokról",
-    "description": "Gyakran ismételt kérdések Finnország drónszabályozásáról"
-   }
-  ],
-  "disclaimerText": "Repülés előtt mindig ellenőrizd a Traficom hivatalos forrásait és a Droneinfo.fi oldalt. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Finnország az EASA szabályait követi, további nemzeti követelményekkel.",
-  "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
-  "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
-  "sectionLabelSecondary": "TOVÁBBI INFORMÁCIÓK",
-  "linksSheetTitle": "Légtér és szabályok – Finnország",
-  "dronePilotCredentialName": "Távirányító-kezelői tanúsítvány"
- }
+  "meta": {
+    "sourceHash": "49389e227b39ad270162c3ac5b4ca7074db2b61d6472d7eff6c37ed05fab160b",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
+      "A1/A3 online képzés szükséges – legalább 16 éves kortól",
+      "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS)",
+      "Ne repülj embertömeg felett. A műveletben részt nem vevő személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; ellenőrizd a hivatalos táblázatot.",
+      "Tartsd be a repülőtéri CTR-ekre és az UAS-légtéri zónákra vonatkozó korlátozásokat – nézd meg a Droneinfo.fi oldalt",
+      "Az éjszakai repülés akkor engedélyezett, ha a drón zöld villogó azonosító fénnyel rendelkezik, és a látótávolság megfelelő",
+      "A keleti határ közelében repülési korlátozások vannak – ellenőrizd az érintett területeket a repülés előtt",
+      "Lappföldön szezonális korlátozások lehetnek a rénszarvastartó területeken",
+      "A területspecifikus korlátozásokat és magasságkorlátokat ellenőrizd a Droneinfo.fi oldalon"
+    ],
+    "importantNotes": [
+      "A keleti határ (EFR100) zónája napi 24 órában aktív – mostantól látható a térképen",
+      "A Traficom UAS-zónái és a Natura 2000 területek megjelennek a térképen",
+      "Télen az akkumulátor kapacitása csökken fagypont alatti hőmérsékleten",
+      "A fehér éjszakák: hosszú repülési idők, de mindenképp ellenőrizd a korlátozott területeket",
+      "Az adatvédelmi jogszabályok (GDPR) az azonosítható személyek fényképezésére vonatkoznak"
+    ],
+    "primaryLinks": [
+      {
+        "title": "Traficom – drónszabályok",
+        "description": "A Finn Közlekedési és Kommunikációs Ügynökség (Traficom) hivatalos drónszabályozása"
+      },
+      {
+        "title": "Traficom – regisztráció",
+        "description": "Regisztrálj UAS-felhasználóként (30 € 3 évre vagy 100 € 5 évre, minden EU-/EASA-országban érvényes)"
+      },
+      {
+        "title": "Droneinfo.fi – légtértérkép",
+        "description": "Hivatalos interaktív dróntérkép a repülési tilalmi és korlátozott zónák megjelenítésével"
+      },
+      {
+        "title": "Traficom – képzések és vizsgák",
+        "description": "Információk az A1/A3 és A2 képzési tanfolyamokról és vizsgákról"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Fintraffic ANS – légtér-információ",
+        "description": "Finn légiforgalmi irányítás és légtér-információ"
+      },
+      {
+        "title": "Traficom – gyakran ismételt kérdések a drónokról",
+        "description": "Gyakran ismételt kérdések Finnország drónszabályozásáról"
+      }
+    ],
+    "disclaimerText": "Repülés előtt mindig ellenőrizd a Traficom hivatalos forrásait és a Droneinfo.fi oldalt. Ez az alkalmazás egy segédeszköz, nem hivatalos hatósági forrás. Finnország az EASA szabályait követi, további nemzeti követelményekkel.",
+    "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
+    "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
+    "sectionLabelSecondary": "TOVÁBBI INFORMÁCIÓK",
+    "linksSheetTitle": "Légtér és szabályok – Finnország",
+    "dronePilotCredentialName": "Távirányító-kezelői tanúsítvány"
+  }
 }

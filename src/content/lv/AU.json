@@ -1,65 +1,65 @@
 {
- "meta": {
-  "sourceHash": "52eb478cbdf1a6162ab37ec696de41f5",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos CASA avotus. Šī lietotne ir rīks, nevis juridiska instance. Štatu, teritoriju un nacionālo parku noteikumi var pievienot ierobežojumus papildus CASA noteikumiem.",
-  "sectionLabelRules": "GALVENIE NOTEIKUMI",
-  "sectionLabelPrimary": "OFICIĀLIE AVOTI",
-  "sectionLabelSecondary": "PAPILDU RESURSI",
-  "linksSheetTitle": "Gaisa telpa un noteikumi — Austrālija",
-  "dronePilotCredentialName": "Tālvadības pilota licence",
-  "keyRules": [
-   "Maks. 120 m virs zemes (AGL)",
-   "Minimālais attālums 30 m no jebkuras neiesaistītas personas — nekad nelido virs cilvēkiem",
-   "Droni 250 g+: nelido 5,5 km rādiusā no kontrolētas lidostas",
-   "Droni, kas sver mazāk par 250 g: maks. 45 m augstums 5,5 km rādiusā no kontrolētas lidostas",
-   "Atpūtas lidošana: tikai gaišajā diennakts laikā (no civilās krēslas līdz civilajai krēslai). Nakts lidošanai nepieciešama RePL + ReOC atļauja",
-   "Vienmēr saglabā tiešu redzamības kontaktu (VLOS)",
-   "Atpūtas droniem reģistrācija nav nepieciešama (jebkurš svars zem 25 kg, piemēro standarta noteikumus)",
-   "Komerciāla lietošana 2 kg+: nepieciešama tālvadības pilota licence (RePL)",
-   "Nacionālo parku noteikumi atšķiras pēc štata — pārbaudi pirms lidošanas (daži pilnībā aizliedz dronus)"
-  ],
-  "importantNotes": [
-   "Viktorija aizliedz dronus VISOS štata un nacionālajos parkos — bez izņēmumiem bez atļaujas",
-   "Jaundienvidvelsas nacionālajiem parkiem nepieciešama NPWS atļauja — naudassodi līdz $3 300",
-   "Dienvidaustrālija atļauj dronus parkos tikai zinātniskiem pētījumiem vai komerciālai filmēšanai",
-   "Sodi par nelikumīgu darbību var pārsniegt $10 000 AUD"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CASA — Dronu noteikumi",
-    "description": "Oficiālie CASA noteikumi atpūtas un komerciālai dronu lidošanai"
-   },
-   {
-    "title": "OpenSky — Gaisa telpas karte",
-    "description": "CASA verificēti gaisa telpas dati ar reāllaika ierobežojumiem un TFR brīdinājumiem"
-   },
-   {
-    "title": "CASA — Reģistrācija",
-    "description": "Reģistrē savu dronu komerciālai lietošanai caur myCASA portālu"
-   },
-   {
-    "title": "drones.gov.au — Vietējie noteikumi",
-    "description": "Štatu, teritoriju un vietējie dronu noteikumi ar interaktīvu karti, kurā 7 600+ ierobežotās teritorijas"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CASA — Operatora akreditācija (bez maksas)",
-    "description": "Bezmaksas tiešsaistes akreditācija komerciālai dronu lietošanai zem 2 kg"
-   },
-   {
-    "title": "CASA — Tālvadības pilota licence (RePL)",
-    "description": "Pilna licence komerciālai darbībai ar droniem, kas sver vairāk par 2 kg"
-   },
-   {
-    "title": "ok2fly — Lidojumu plānošana",
-    "description": "Alternatīvs lidojumu plānošanas rīks Austrālijas gaisa telpai"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "362edae763d5f971da0104f4b2bf8c97",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos CASA avotus. Šī lietotne ir rīks, nevis juridiski saistošs avots. Štatu, teritoriju un nacionālo parku noteikumi var paredzēt papildu ierobežojumus līdztekus CASA noteikumiem.",
+    "sectionLabelRules": "GALVENIE NOTEIKUMI",
+    "sectionLabelPrimary": "OFICIĀLIE AVOTI",
+    "sectionLabelSecondary": "PAPILDU RESURSI",
+    "linksSheetTitle": "Gaisa telpa un noteikumi — Austrālija",
+    "dronePilotCredentialName": "Tālvadības pilota licence",
+    "keyRules": [
+      "Maks. 120 m virs zemes (AGL)",
+      "Minimālais attālums 30 m no jebkuras neiesaistītas personas — nekad nelido virs cilvēkiem",
+      "Droniem, kas sver vairāk nekā 250 g, jāatrodas vismaz 5,5 km no kontrolētas lidostas. Droni, kas sver mazāk par 250 g, šajā zonā drīkst lidot tikai līdz 45 m virs zemes, ārpus lidlauka robežām un neradot apdraudējumu citiem gaisa kuģiem.",
+      "Droni, kas sver mazāk par 250 g: maks. 45 m augstums 5,5 km rādiusā no kontrolētas lidostas",
+      "Atpūtas lidošana: tikai gaišajā diennakts laikā (no civilās krēslas līdz civilajai krēslai). Nakts lidošanai nepieciešama RePL + ReOC atļauja",
+      "Vienmēr turi dronu tiešā redzamībā (VLOS)",
+      "Atpūtas droni nav jāreģistrē (neatkarīgi no svara, ja tas ir mazāks par 25 kg; ir spēkā standarta noteikumi)",
+      "Komerciāla lietošana 2 kg+: nepieciešama tālvadības pilota licence (RePL)",
+      "Nacionālo parku noteikumi atšķiras atkarībā no štata — pārbaudi tos pirms lidojuma (dažos štatos droni ir pilnībā aizliegti)"
+    ],
+    "importantNotes": [
+      "Victoria aizliedz dronus VISOS štata un nacionālajos parkos — izņēmumi iespējami tikai ar atļauju",
+      "NSW nacionālajos parkos nepieciešama NPWS atļauja — naudassodi līdz $3 300",
+      "South Australia parkos dronus atļauj tikai zinātniskiem pētījumiem vai komerciālai filmēšanai",
+      "Sodi par nelikumīgu darbību var pārsniegt $10 000 AUD"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CASA — Dronu noteikumi",
+        "description": "Oficiālie CASA noteikumi atpūtas un komerciālai dronu lidošanai"
+      },
+      {
+        "title": "OpenSky — Gaisa telpas karte",
+        "description": "CASA verificēti gaisa telpas dati ar reāllaika ierobežojumiem un TFR brīdinājumiem"
+      },
+      {
+        "title": "CASA — Reģistrācija",
+        "description": "Reģistrē savu dronu komerciālai lietošanai caur myCASA portālu"
+      },
+      {
+        "title": "drones.gov.au — Vietējie noteikumi",
+        "description": "Štatu, teritoriju un vietējie dronu noteikumi ar interaktīvu karti, kurā 7 600+ ierobežotās teritorijas"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CASA — Operatora akreditācija (bez maksas)",
+        "description": "Bezmaksas tiešsaistes akreditācija komerciālai dronu lietošanai zem 2 kg"
+      },
+      {
+        "title": "CASA — Tālvadības pilota licence (RePL)",
+        "description": "Pilna licence komerciālai darbībai ar droniem, kas sver vairāk par 2 kg"
+      },
+      {
+        "title": "ok2fly — Lidojumu plānošana",
+        "description": "Alternatīvs lidojumu plānošanas rīks Austrālijas gaisa telpai"
+      }
+    ]
+  }
 }

@@ -1,67 +1,67 @@
 {
- "meta": {
-  "sourceHash": "4c4750f0c88fe4d2f7dcefb940ffd9a0",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "disclaimerText": "Repülés előtt mindig ellenőrizd az IAA hivatalos forrásait. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Írország az EASA szabályait követi. Észak-Írország a UK CAA szabályait követi – külön szabályozás vonatkozik rá.",
-  "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
-  "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
-  "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
-  "linksSheetTitle": "Légtér és szabályok – Írország",
-  "dronePilotCredentialName": "Pilóta kompetencia-igazolás",
-  "keyRules": [
-   "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
-   "Regisztrálj UAS-üzemben tartóként, ha a drón legalább 250 g, vagy kamerája van (41 €, 2 évig érvényes)",
-   "A1/A3 online képzés szükséges (51 €, 5 évig érvényes) – legalább 16 éves kortól",
-   "A2 tanúsítvány az emberekhez közeli műveletekhez (vizsga + gyakorlati teszt jóváhagyott képzési szolgáltatón keresztül)",
-   "Az ír EASA-regisztráció minden EU-tagállamban érvényes",
-   "Mindig tartsd vizuális látótávolságon belül (VLOS) – legfeljebb 300 m vízszintesen",
-   "Legalább 30 m távolság emberektől, tömegtől, járművektől és épületektől",
-   "Legalább 5 km távolság bármely repülőtértől, leszállóhelytől vagy helikopter-leszállóhelytől",
-   "Phoenix Park (Dublin): teljes drónrepülési tilalom",
-   "A nemzeti parkokhoz NPWS-engedély szükséges – a legtöbb tiltja a drónokat a fészkelési időszakban"
-  ],
-  "importantNotes": [
-   "A Gardaí a szabálysértésekért 500 €-tól kezdődő helyszíni bírságot szabhat ki (2025 augusztusától)",
-   "Észak-Írország az Egyesült Királysághoz tartozik – teljesen eltérő szabályok (UK CAA, nem IAA/EASA)",
-   "A Dublini repülőtér 5 km-es zónája a város jelentős részét lefedi",
-   "Engedély nélküli repülés a piros zónákban bűncselekménynek minősül",
-   "A GDPR alkalmazandó azonosítható felvételek készítésekor – te vagy az adatkezelő"
-  ],
-  "primaryLinks": [
-   {
-    "title": "IAA – Drónszabályok",
-    "description": "Az Ír Repülési Hatóság hivatalos központja a drónszabályokhoz és forrásokhoz"
-   },
-   {
-    "title": "IAA – Regisztrálj üzemben tartóként",
-    "description": "Regisztrálj UAS-üzemben tartóként (40 €, 2 évig érvényes, minden EU-/EASA-országban érvényes)"
-   },
-   {
-    "title": "IAA – Földrajzi zónák térképe",
-    "description": "Hivatalos piros/borostyán/zöld zónatérkép – ellenőrizd minden repülés előtt"
-   },
-   {
-    "title": "SafeDrone – Légtértérkép",
-    "description": "Keress hely vagy Eircode alapján a légtérkorlátozásokért és zónainformációkért"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "IAA – Biztonsági és szabályozási GYIK",
-    "description": "Gyakran ismételt kérdések az ír drónszabályokról"
-   },
-   {
-    "title": "Citizens Information – Drónbirtoklás",
-    "description": "Közérthető útmutató a drónbirtokláshoz és a szabályokhoz Írországban"
-   },
-   {
-    "title": "UAAI – Légtér-források",
-    "description": "Közösségi légtér-források és tervezőeszközök"
-   }
-  ]
- }
+  "meta": {
+    "sourceHash": "004d6fde4894978be0e705543cec7048",
+    "engine": "gpt-5.6",
+    "translatedAt": "2026-07-26",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "disclaimerText": "Repülés előtt mindig ellenőrizd az IAA hivatalos forrásait. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Írország az EASA szabályait követi. Észak-Írország a UK CAA szabályait követi – külön szabályozás vonatkozik rá.",
+    "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
+    "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
+    "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
+    "linksSheetTitle": "Légtér és szabályok – Írország",
+    "dronePilotCredentialName": "Pilótakompetencia-igazolás",
+    "keyRules": [
+      "A nyílt kategóriában a legnagyobb magasság 120 m, amelyet a földfelszín legközelebbi pontjától kell mérni – nem egyszerűen függőlegesen lefelé –, ezért lejtő közelében a melletted lévő talaj is számíthat. Egy 105 m-nél magasabb mesterséges akadály 50 m-es körzetében az akadályért felelős szervezet engedélyt kérhet az akadály magassága fölötti, legfeljebb 15 m-es repülésre.",
+      "Drónüzemeltetőként regisztrálnod kell, ha a drónod tömege legalább 250 g, vagy 80 J-nál több ütközési energiát adhat át – ez a játékokra is vonatkozik. 250 g alatt is kötelező a regisztráció, ha a drón személyes adatok rögzítésére alkalmas érzékelővel rendelkezik, kivéve, ha az EU Toy Safety Directive szerint játéknak minősül. A pilótaképzésre és a tanúsítványra vonatkozó követelmények ettől különállók, és a drón osztályától és alkategóriájától függenek.",
+      "Írországban legalább 16 évesnek kell lenned ahhoz, hogy drónüzemeltetőként regisztrálj; fiatalabb személy nevében szülő vagy gyám regisztrálhat, a fiatalabb pilóta pedig ezután csak e felnőtt közvetlen felügyelete mellett repülhet. A nyílt kategóriában önálló repüléshez kötelező az A1/A3 online képzés és vizsga.",
+      "A2 tanúsítvány az emberekhez közeli műveletekhez (vizsga + gyakorlati teszt jóváhagyott képzési szolgáltatón keresztül)",
+      "Az ír EASA-regisztráció minden EU-tagállamban érvényes",
+      "A nyílt kategóriában tartsd a drónt saját, segédeszköz nélküli közvetlen látóteredben (szemüveg vagy kontaktlencse használható; távcső vagy képernyő nem számít) – vagy repülj megfigyelő segítségével úgy, hogy köztetek mindenkor egyértelmű és hatékony kommunikáció legyen, így együtt figyelhetitek a légteret és elkerülhetitek az ütközéseket. A follow-me mód külön kivétel: a pilótától legfeljebb 50 m-re használható.",
+      "Legalább 30 m távolság emberektől, tömegtől, járművektől és épületektől",
+      "Nincs egyetlen, az egész EU-ban érvényes távolság, amelyet a repülőterektől tartani kell. A repülőterek körüli korlátozásokat földrajzi zónákként (15. cikk) teszik közzé, és alakjuk, méretük repülőterenként eltér. Mielőtt repülőtér, leszállóhely vagy helikopter-leszállóhely közelében repülsz, ellenőrizd az ország hivatalos drónzóna-térképét; ellenőrzött légtérben (CTR) a repüléshez általában a légiforgalmi irányítás előzetes engedélye szükséges.",
+      "Phoenix Park (Dublin): teljes drónrepülési tilalom",
+      "A nemzeti parkokhoz NPWS-engedély szükséges – a legtöbb tiltja a drónokat a fészkelési időszakban"
+    ],
+    "importantNotes": [
+      "A Gardaí 2025. augusztusától legalább 500 € összegű helyszíni bírságot szabhat ki a szabálysértésekért",
+      "Észak-Írország az Egyesült Királysághoz tartozik – teljesen eltérő szabályok (UK CAA, nem IAA/EASA)",
+      "A repülőterek körüli korlátozási zónák mérete eltérő; a dublini repülőtér körüli zóna a város jelentős részeit lefedi. Repülőtér közelében végzett repülés előtt ellenőrizd a hivatalos ír dróntérképet.",
+      "Engedély nélküli repülés a piros zónákban bűncselekménynek minősül",
+      "A GDPR alkalmazandó azonosítható felvételek készítésekor – te vagy az adatkezelő"
+    ],
+    "primaryLinks": [
+      {
+        "title": "IAA – Drónszabályok",
+        "description": "Az Ír Repülési Hatóság hivatalos központja a drónszabályokhoz és forrásokhoz"
+      },
+      {
+        "title": "IAA – Regisztrálj üzemben tartóként",
+        "description": "Regisztrálj UAS-üzemben tartóként (40 €, 2 évig érvényes, minden EU-/EASA-országban érvényes)"
+      },
+      {
+        "title": "IAA – Földrajzi zónák térképe",
+        "description": "Hivatalos piros/borostyán/zöld zónatérkép – ellenőrizd minden repülés előtt"
+      },
+      {
+        "title": "SafeDrone – Légtértérkép",
+        "description": "Keress hely vagy Eircode alapján a légtérkorlátozásokért és zónainformációkért"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "IAA – Biztonsági és szabályozási GYIK",
+        "description": "Gyakran ismételt kérdések az ír drónszabályokról"
+      },
+      {
+        "title": "Citizens Information – Drónbirtoklás",
+        "description": "Közérthető útmutató a drónbirtokláshoz és a szabályokhoz Írországban"
+      },
+      {
+        "title": "UAAI – Légtér-források",
+        "description": "Közösségi légtér-források és tervezőeszközök"
+      }
+    ]
+  }
 }
