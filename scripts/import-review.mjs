@@ -94,10 +94,17 @@ const norm = (s) => s.replace(/[\s.,]/g, '');
  * som det enda talet 125 i stället för 1 och 2.5, vilket gjorde kontrollen
  * blind för just den sortens intervall.
  */
+/**
+ * Streck mellan tal är en INTERVALLGRÄNS, aldrig en del av talet. Byts de mot
+ * mellanslag råkar tusentalsregeln nedan slå ihop dem: "75-150kg" blev det enda
+ * talet 75150, och en korrekt översättning ("75–150 kg") avvisades. Ett tecken
+ * som inte får förekomma inuti ett tal håller gränserna isär.
+ */
+const splitRanges = (t) => String(t).replace(/[-–—−]/g, '|');
+
 const NUM_TOKEN = /\d{1,3}(?:[  ](?=\d{3}\b)\d{3})*(?:[.,]\d+)?|\d+(?:[.,]\d+)?/g;
 function numbers(t) {
-  const flat = String(t).replace(/[-–—−]/g, ' ');
-  return new Set([...flat.matchAll(NUM_TOKEN)].map((m) => norm(m[0])));
+  return new Set([...splitRanges(t).matchAll(NUM_TOKEN)].map((m) => norm(m[0])));
 }
 /**
  * Tal som i KÄLLAN bär en enhet — de som måste överleva översättningen.
@@ -107,8 +114,7 @@ function numbers(t) {
 const NUM_UNIT = new RegExp(`(?<![$€£])(${NUM_TOKEN.source})\\s*(?=${UNIT})`, 'g');
 function measures(t) {
   const out = new Set();
-  const flat = String(t).replace(/[-–—−]/g, ' ');
-  for (const m of flat.matchAll(NUM_UNIT)) out.add(norm(m[1]));
+  for (const m of splitRanges(t).matchAll(NUM_UNIT)) out.add(norm(m[1]));
   return out;
 }
 const PROTECTED = /\b(EASA|FAA|CAA|CAAP|CAAS|CAD|DGCA|SACAA|SANParks|NATS|GCAA|DCAA|Traficom|NOTAM|VLOS|BVLOS|EVLOS|FPV|MTOM|B-RID|RPC|UAPL|FRIA|FRZ|RFZ|CTR|NEMA|DigitalSky|PCAR|FlyItSafe|HKIA|NAIA|SISANT|UIN|eVTOL|Part \d+)\b/g;
