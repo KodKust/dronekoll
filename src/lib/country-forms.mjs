@@ -19,8 +19,15 @@ export function enArticle(iso, lang) {
 }
 
 /**
- * Finska landsnamnsformer (data/fi-country-forms.json): "in" = missä-kasus
- * (Suomessa/Kyproksella), "gen" = genitiv (Suomen).
+ * Landsnamnsformer per språk: data/{lang}-country-forms.json, {ISO: {in, gen}}.
+ * "in" = "i {land}" färdigformad, "gen" = genitiv. Finns ingen fil för språket
+ * returneras null och mallarna får nominativen.
+ *
+ * Vad "in" innehåller skiljer sig med språktypen — det är hela poängen med en
+ * tabell i stället för en regel: finskan böjer namnet utan preposition
+ * (Saksassa), italienskan bär med sig preposition + ev. artikel (in Germania,
+ * negli Stati Uniti, a Cipro). Mallen skriver därför {countryIn} ENSAMT,
+ * aldrig "in {countryIn}".
  *
  * Finskan saknar preposition för "i {land}" — namnet böjs. De finska mallarna
  * kringgick det förut med "drone{country}issa" ("droneRanskaissa"), som är
@@ -32,18 +39,26 @@ export function enArticle(iso, lang) {
  * @typedef {{ in: string, gen: string }} FiForms
  * @returns {FiForms | null}
  */
-let _fiForms = null;
-export function fiCountryForm(iso) {
-  if (!_fiForms) {
-    const p = join(process.cwd(), 'data/fi-country-forms.json');
-    const raw = existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : {};
-    _fiForms = {};
-    for (const [k, v] of Object.entries(raw)) {
-      if (!k.startsWith('_')) _fiForms[k.toUpperCase()] = v;
+const _forms = {}; // lang -> { ISO: {in, gen} } | null (null = ingen tabell)
+export function countryForm(iso, lang) {
+  if (!(lang in _forms)) {
+    const p = join(process.cwd(), `data/${lang}-country-forms.json`);
+    if (!existsSync(p)) {
+      _forms[lang] = null;
+    } else {
+      const raw = JSON.parse(readFileSync(p, 'utf8'));
+      const table = {};
+      for (const [k, v] of Object.entries(raw)) {
+        if (!k.startsWith('_')) table[k.toUpperCase()] = v;
+      }
+      _forms[lang] = table;
     }
   }
-  return _fiForms[iso.toUpperCase()] ?? null;
+  return _forms[lang]?.[iso.toUpperCase()] ?? null;
 }
+
+/** Bakåtkompatibel alias — fi var första språket med tabell. */
+export const fiCountryForm = (iso) => countryForm(iso, 'fi');
 
 /**
  * Kasusformer till t()-mallarna (titlar, beskrivningar, FAQ). Artikeln är
@@ -52,8 +67,8 @@ export function fiCountryForm(iso) {
  */
 export function countryParams(iso, lang, displayName) {
   const country = enArticle(iso, lang) + displayName;
-  const fi = lang === 'fi' ? fiCountryForm(iso) : null;
-  return { country, countryIn: fi?.in ?? country, countryGen: fi?.gen ?? country };
+  const f = countryForm(iso, lang);
+  return { country, countryIn: f?.in ?? country, countryGen: f?.gen ?? country };
 }
 
 /**
@@ -84,10 +99,13 @@ const CASE_KEYS = ['country', 'countryIn', 'countryGen'];
  * söktrafiken i juli 2026.
  */
 function headingForms(iso, lang, displayName) {
-  const inflected = lang === 'fi' ? fiCountryForm(iso) : null;
-  return inflected
-    ? { country: displayName, countryIn: inflected.in, countryGen: inflected.gen }
-    : { country: displayName };
+  const f = countryForm(iso, lang);
+  const out = { country: displayName };
+  // Bara former som FINNS exponeras — saknas en kastar splitCountryHeading
+  // i stället för att tyst falla tillbaka på nominativen.
+  if (f?.in) out.countryIn = f.in;
+  if (f?.gen) out.countryGen = f.gen;
+  return out;
 }
 
 const PLACEHOLDER = /\{(\w+)\}/g;
@@ -114,8 +132,8 @@ export function splitCountryHeading(tpl, { iso, lang, displayName, key = 'hero.h
       .join(' / ');
     const why =
       found.length === 1 && CASE_KEYS.includes(name)
-        ? `{${name}} är en böjd form som saknar tabell för "${lang}"/${iso}` +
-          ` (bara finskan har data/fi-country-forms.json).`
+        ? `{${name}} saknar form för "${lang}"/${iso}` +
+          ` — lägg till den i data/${lang}-country-forms.json.`
         : `hittade [${found.map((f) => `{${f}}`).join(', ') || 'ingen platshållare'}].`;
     throw new Error(
       `${key}[${lang}]: H1-mallen måste bära exakt en av ${avail} — ${why}\n` +

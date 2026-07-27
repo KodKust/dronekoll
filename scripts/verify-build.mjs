@@ -215,7 +215,7 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
   // det slarvet. I stället låser vi fast de utrullade språken.
   //
   // → Utökas när ett språk får landsformer. Listan ÄR kontraktet.
-  const COUNTRY_ROLLED_OUT = ['sv', 'en', 'de', 'nl', 'da', 'no', 'es', 'fi'];
+  const COUNTRY_ROLLED_OUT = ['sv', 'en', 'de', 'nl', 'da', 'no', 'es', 'fi', 'it'];
   const REQUIRE_COUNTRY = ['faq.q.credential', 'faq.q.rules', 'faq.q.zones', 'faq.q.authority'];
   const CASE_KEYS = new Set(['country', 'countryIn', 'countryGen']);
   for (const key of REQUIRE_COUNTRY) {
@@ -236,23 +236,32 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
   }
 }
 
-// ── 7. Finska landsnamnsformer: 55/55 ───────────────────────────────────────
-// De finska mallarna renderar {countryIn}/{countryGen}, aldrig nominativen —
-// saknas ett land i tabellen faller countryParams tillbaka på nominativen och
-// sidan får tillbaka exakt den trasiga finskan fixen tog bort ("maassa Suomi").
-// Nytt land i slugs-matrisen → ny rad i data/fi-country-forms.json.
+// ── 7. Landsnamnsformer per språk: fullständiga tabeller ────────────────────
+// Mallarna renderar {countryIn}/{countryGen}, aldrig nominativen — saknas ett
+// land i tabellen faller countryParams tillbaka på nominativen och sidan får
+// tillbaka exakt den trasiga grammatik tabellen infördes för att bort ("maassa
+// Suomi", "nell'Germania"). Nytt land i slugs-matrisen → ny rad i VARJE
+// data/{lang}-country-forms.json.
 {
-  const forms = JSON.parse(readFileSync(join(ROOT, 'data', 'fi-country-forms.json'), 'utf8'));
   const matrix = JSON.parse(readFileSync(join(ROOT, 'data', 'slugs-matrix.json'), 'utf8'));
   const isos = Object.keys(matrix).filter((k) => !k.startsWith('_'));
   // FI själv saknas i matrisen (fi är dess eget språk) — kräv det ändå.
   const required = [...new Set([...isos, 'FI'])];
-  const missing = required.filter((iso) => {
-    const f = forms[iso];
-    return !f || !String(f.in || '').trim() || !String(f.gen || '').trim();
-  });
-  if (missing.length) fail(`fi-böjning: saknar in/gen för ${missing.join(', ')}`);
-  else ok(`fi-böjning: ${required.length}/${required.length} landsnamn har inessiv + genitiv`);
+  // Bara finskan har mallar som använder {countryGen}; övriga behöver bara "in".
+  const NEEDS_GEN = new Set(['fi']);
+  const tables = readdirSync(join(ROOT, 'data')).filter((f) => f.endsWith('-country-forms.json'));
+  if (!tables.length) fail('landsformer: hittade inga data/*-country-forms.json');
+  for (const file of tables.sort()) {
+    const lang = file.replace('-country-forms.json', '');
+    const forms = JSON.parse(readFileSync(join(ROOT, 'data', file), 'utf8'));
+    const missing = required.filter((iso) => {
+      const f = forms[iso];
+      if (!f || !String(f.in || '').trim()) return true;
+      return NEEDS_GEN.has(lang) && !String(f.gen || '').trim();
+    });
+    if (missing.length) fail(`${lang}-former: saknar ${NEEDS_GEN.has(lang) ? 'in/gen' : 'in'} för ${missing.join(', ')}`);
+    else ok(`${lang}-former: ${required.length}/${required.length} landsnamn kompletta`);
+  }
 }
 
 // ── 8. Inga råa {platshållare} i renderad HTML ──────────────────────────────
