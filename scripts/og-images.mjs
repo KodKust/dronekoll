@@ -20,6 +20,9 @@ import { join } from 'node:path';
 import satori from 'satori';
 import { Resvg } from '@resvg/resvg-js';
 import sharp from 'sharp';
+// Samma H1-uppdelning som sajten använder — delad modul så en kasusform aldrig
+// kan bli rätt på sidan men fel i JPEG:en (som ingen granskar).
+import { splitCountryHeading } from '../src/lib/country-forms.mjs';
 
 const ROOT = process.cwd();
 const OUT = join(ROOT, 'public', 'og');
@@ -171,8 +174,11 @@ for (const c of countries) {
         ];
 
   for (const v of variants) {
-    const tpl = t('hero.h1.country', v.lang);
-    const [pre, post = ''] = tpl.split('{country}');
+    const h1 = splitCountryHeading(t('hero.h1.country', v.lang), {
+      iso,
+      lang: v.lang,
+      displayName: v.name,
+    });
     const caption = c.lastVerified
       ? t('freshness.updated', v.lang).replace('{date}', c.lastVerified)
       : `${brandFor(v.lang)} · ${year}`;
@@ -181,9 +187,12 @@ for (const c of countries) {
     bytes += await render(
       ogTree({
         brand: brandFor(v.lang),
-        h1Pre: pre.trim(),
-        accent: v.name,
-        h1Post: post.replace(/^\?/, '?'),
+        h1Pre: h1.pre.trim(),
+        // Artikeln viks in i accenten: satori kollapsar avslutande blanksteg i
+        // en flex-item, så ett eget "the "-span skulle ge "theNetherlands".
+        // OG-bilderna saknade artikeln helt förut — detta rättar det på köpet.
+        accent: h1.article + h1.accent,
+        h1Post: h1.post,
         caption,
         flag,
         map,
@@ -212,8 +221,11 @@ for (const c of countries) {
     // native + en renderas redan av huvudloopen (slugs.json)
     if (lang === 'en' || lang === c.languageCode) continue;
     if (!entry?.slug || !entry?.name) continue;
-    const tpl = t('hero.h1.country', lang);
-    const [pre, post = ''] = tpl.split('{country}');
+    const h1 = splitCountryHeading(t('hero.h1.country', lang), {
+      iso,
+      lang,
+      displayName: entry.name,
+    });
     const caption = c.lastVerified
       ? t('freshness.updated', lang).replace('{date}', c.lastVerified)
       : `${brandFor(lang)} · ${year}`;
@@ -222,9 +234,9 @@ for (const c of countries) {
     bytes += await render(
       ogTree({
         brand: brandFor(lang),
-        h1Pre: pre.trim(),
-        accent: entry.name,
-        h1Post: post.replace(/^\?/, '?'),
+        h1Pre: h1.pre.trim(),
+        accent: h1.article + h1.accent,
+        h1Post: h1.post,
         caption,
         flag,
         map,

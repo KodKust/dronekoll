@@ -175,7 +175,13 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
   const REQUIRE_27 = ['sources.verified', 'map.openOfficial', 'related.title', 'quickanswer.title', 'quickanswer.body',
     // Turist-/utlännings-FAQ: samma blandspråksrisk. Landsnoterna (visitor-notes.json)
     // vaktas av sektion 6 — här vaktas bara mallarna.
-    'faq.q.visitor', 'faq.tpl.visitor.easa', 'faq.tpl.visitor.other', 'faq.tpl.visitor.generic'];
+    'faq.q.visitor', 'faq.tpl.visitor.easa', 'faq.tpl.visitor.other', 'faq.tpl.visitor.generic',
+    // Sajtens tyngsta SEO-strängar: H1 + de FAQ-frågor som går in i FAQPage-
+    // schemat. 2026-07-23 tömdes alla fem på {country} i samtliga 27 språk
+    // ("Får du flyga drönare i Tyskland?" → "Tyskland — … här?") och söktrafiken
+    // föll från ~59 till ~8 besökare/dygn. Ingen check fångade det. Med dem här
+    // fälls ett tappat landsnamn i CI. CASE_ALIASES nedan låter fi välja kasus.
+    'hero.h1.country', 'faq.q.credential', 'faq.q.rules', 'faq.q.zones', 'faq.q.authority'];
   const ws = JSON.parse(readFileSync(join(ROOT, 'data', 'web-strings', 'web_strings.json'), 'utf8'));
   // countryIn/countryGen är KASUSVARIANTER av samma landsnamn (finskan böjer
   // namnet i stället för att sätta preposition framför — se
@@ -218,6 +224,25 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
   });
   if (missing.length) fail(`fi-böjning: saknar in/gen för ${missing.join(', ')}`);
   else ok(`fi-böjning: ${required.length}/${required.length} landsnamn har inessiv + genitiv`);
+}
+
+// ── 8. Inga råa {platshållare} i renderad HTML ──────────────────────────────
+// t() (src/lib/i18n.ts) substituerar BARA de params anropet skickar och varnar
+// aldrig. En mall som får en platshållare anroparen inte skickar renderar den
+// som SYNLIG råtext — sajten och systerappen har haft tre sådana läckage
+// ({0} i drönarkortets rubrik, {countryIn} vid H1-omskrivningen). Sektion 5
+// vaktar källsträngarna; denna fångar hela vägen ut, för ALLA nycklar.
+// Mätt vid införandet: 0 träffar över samtliga sidor, alltså falsklarmsfritt.
+{
+  const RAW = /\{(country|countryIn|countryGen|year|brand|n|date|regulator|aviation|credential|note|r1|r2|r3)\}/;
+  const leaks = [];
+  for (const [url, html] of pageByUrl) {
+    const m = html.match(RAW);
+    if (m) leaks.push(`${url} → ${m[0]}`);
+  }
+  if (leaks.length)
+    fail(`Rå platshållare i renderad HTML (${leaks.length} sidor): ${leaks.slice(0, 5).join(' · ')}`);
+  else ok(`Inga råa {platshållare} i ${pageByUrl.size} sidor`);
 }
 
 // ── 6. Sträng-/notvakt: visitor-notes struktur + platshållare/skriftsystem ───

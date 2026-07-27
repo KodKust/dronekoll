@@ -4,23 +4,10 @@
  * Q/A · SoftwareApplication utan aggregateRating tills äkta betyg hämtas.
  */
 import { t } from './i18n';
-import { brandForLang, enArticle, fiCountryForm, SITE, type PageEntry } from './model';
-
-/**
- * Landsnamnets kasusformer till mallarna. Finska mallar använder {countryIn}
- * ("Suomessa") och {countryGen} ("Suomen"); alla andra språk får nominativen
- * i båda så en mall aldrig kan gå sönder av att sakna en form. Se
- * data/fi-country-forms.json för varför tabellen behövs.
- */
-function countryParams(iso: string, lang: string, displayName: string) {
-  const country = enArticle(iso, lang) + displayName;
-  const fi = lang === 'fi' ? fiCountryForm(iso) : null;
-  return {
-    country,
-    countryIn: fi?.in ?? country,
-    countryGen: fi?.gen ?? country,
-  };
-}
+import { brandForLang, SITE, type PageEntry } from './model';
+// Kasusformerna (och H1-uppdelningen) bor i country-forms.mjs så att
+// scripts/og-images.mjs kan dela exakt samma logik — se filens huvudkommentar.
+import { countryParams } from './country-forms.mjs';
 
 export const APP_STORE_URL = 'https://apps.apple.com/app/dronekoll/id6761332194';
 
@@ -34,6 +21,13 @@ export const PLAY_STORE_URL: string | null = null;
  *  sajten blir dronekoll.goatcounter.com), bygg om → beacon + iOS/Android-klick-events
  *  aktiveras site-wide. En GitHub Action drar sedan API:t → pappilappi/status-baren. */
 export const GOATCOUNTER_CODE: string | null = 'dronekoll';
+
+/** Google Search Console — HTML-taggs-verifiering. GATED: null → ingen tagg i
+ *  <head>. FLIP: klistra in content-värdet Google visar (bara strängen inuti
+ *  content="...", inte hela <meta>-taggen), bygg om och deploya → klicka
+ *  "Verifiera" i Search Console. Taggen kan ligga kvar efteråt; tas den bort
+ *  kan Google avverifiera propertyn senare. */
+export const GOOGLE_SITE_VERIFICATION: string | null = null;
 
 /** Socialt bevis (data/rating.json, manuellt underhållet). */
 import { readFileSync as _rfs, existsSync as _ex } from 'node:fs';

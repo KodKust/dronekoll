@@ -13,7 +13,7 @@ import '../styles/global.css';
 // atmosfären inte poppar in. Dekorativ → aldrig <img>/alt, aldrig LCP-innehåll.
 import skyUrl from '../assets/brand/dronekoll-sky-background-v1.webp?url';
 import LangBanner from '../components/LangBanner.astro';
-import { GOATCOUNTER_CODE } from '../lib/seo';
+import { GOATCOUNTER_CODE, GOOGLE_SITE_VERIFICATION } from '../lib/seo';
 import { t } from '../lib/i18n';
 
 export interface Alternate {
@@ -56,6 +56,12 @@ const {
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta name="theme-color" content="#3B81F5" />
     <link rel="preload" as="image" href={skyUrl} type="image/webp" />
+
+    {/* Google Search Console — ägarverifiering (gated: renderas bara när
+        GOOGLE_SITE_VERIFICATION satt). Måste ligga i <head> på rot-URL:en. */}
+    {GOOGLE_SITE_VERIFICATION && (
+      <meta name="google-site-verification" content={GOOGLE_SITE_VERIFICATION} />
+    )}
 
     {/* js-flagga FÖRE first paint — stagger-döljningen är gated bakom html.js
         så no-JS-besökare (och crawlers utan JS) alltid ser allt innehåll. */}

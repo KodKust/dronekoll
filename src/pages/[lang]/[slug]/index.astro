@@ -22,6 +22,7 @@ import MapSection from '../../../components/MapSection.astro';
 import AppCta from '../../../components/AppCta.astro';
 import CountryGrid from '../../../components/CountryGrid.astro';
 import { allCountryPages, relatedCountries, enArticle, frameworkText, type PageEntry } from '../../../lib/model';
+import { splitCountryHeading } from '../../../lib/country-forms.mjs';
 import { zoneCountByIso, loadRegulators } from '../../../lib/ingest';
 import { mapConfigFor } from '../../../lib/mapconfig';
 import { t } from '../../../lib/i18n';
@@ -68,17 +69,16 @@ const faqItems = buildFaq(page, { interactiveMap: !!mapConfig });
 const translated = lang === 'en' && c.languageCode !== 'en';
 
 // Två-tons-H1: accent-span på landsnamnet (briefing-registret = blått).
-// Synlig sentinel-split så platshållarens position styr oavsett språkets ordföljd.
-const H1_SENTINEL = '__COUNTRY__';
-const [h1Pre, h1Post = ''] = t('hero.h1.country', lang, { country: H1_SENTINEL }).split(H1_SENTINEL);
-// v8 avsnitt 22.2 (Option B): landsnamnet inleder nu H1 ("{country} — …").
-// enArticle ger "the " bara på engelska (Nederländerna/UK/USA m.fl.) — vid
-// mening­sstart ska den versaliseras ("The Netherlands — …"); mitt i behålls
-// gemener. h1Pre är tom precis när landet står först.
-const rawArticle = enArticle(page.iso, lang);
-const h1Article = h1Pre.length === 0 && rawArticle
-  ? rawArticle.charAt(0).toUpperCase() + rawArticle.slice(1)
-  : rawArticle;
+// Mallen splittas vid SIN EGEN platshållare — {country}, eller {countryIn}/
+// {countryGen} där språket böjer namnet i stället för att sätta preposition
+// framför (finskan). Ingen sentinel behövs: platshållaren i råmallen ÄR
+// splitpunkten. splitCountryHeading kastar om mallen bär en platshållare vi
+// inte kan fylla — bygget ska falla, inte rendera "{countryIn}" synligt.
+const h1 = splitCountryHeading(t('hero.h1.country', lang), {
+  iso: page.iso,
+  lang,
+  displayName: page.displayName,
+});
 
 const sections = [
   'rules',
@@ -140,7 +140,7 @@ const ldBlocks = [
         decoding="async"
       />
       <h1>
-        {h1Pre}{h1Article}<span class="h-accent">{page.displayName}</span>{h1Post}
+        {h1.pre}{h1.article}<span class="h-accent">{h1.accent}</span>{h1.post}
       </h1>
       <p class="lede prose">{t('hero.lede.country', lang)}</p>
       <div class="hero__meta">
