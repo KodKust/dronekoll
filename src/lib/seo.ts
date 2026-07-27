@@ -7,7 +7,7 @@ import { t } from './i18n';
 import { brandForLang, SITE, type PageEntry } from './model';
 // Kasusformerna (och H1-uppdelningen) bor i country-forms.mjs så att
 // scripts/og-images.mjs kan dela exakt samma logik — se filens huvudkommentar.
-import { countryParams } from './country-forms.mjs';
+import { capitalizeLeadingArticle, countryParams } from './country-forms.mjs';
 
 export const APP_STORE_URL = 'https://apps.apple.com/app/dronekoll/id6761332194';
 
@@ -47,19 +47,25 @@ export function loadRating(): Rating | null {
 
 const YEAR = new Date().getFullYear(); // daglig rebuild håller årtalet ärligt
 
+// Titeln och beskrivningen INLEDS av landsnamnet ({country} först i mallen) →
+// engelskans artikel ska vara versal där. Se capitalizeLeadingArticle.
 export function countryTitle(page: PageEntry): string {
-  return t('meta.title.country', page.lang, {
-    ...countryParams(page.iso, page.lang, page.displayName),
-    year: YEAR,
-    brand: brandForLang(page.lang),
-  });
+  return capitalizeLeadingArticle(
+    t('meta.title.country', page.lang, {
+      ...countryParams(page.iso, page.lang, page.displayName),
+      year: YEAR,
+      brand: brandForLang(page.lang),
+    }),
+  );
 }
 
 export function countryDescription(page: PageEntry): string {
-  return t('meta.desc.country', page.lang, {
-    ...countryParams(page.iso, page.lang, page.displayName),
-    year: YEAR,
-  });
+  return capitalizeLeadingArticle(
+    t('meta.desc.country', page.lang, {
+      ...countryParams(page.iso, page.lang, page.displayName),
+      year: YEAR,
+    }),
+  );
 }
 
 /** BreadcrumbList: Hem → hubb → land. */

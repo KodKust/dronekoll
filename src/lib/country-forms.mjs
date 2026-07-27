@@ -56,6 +56,20 @@ export function countryParams(iso, lang, displayName) {
   return { country, countryIn: fi?.in ?? country, countryGen: fi?.gen ?? country };
 }
 
+/**
+ * Versaliserar engelskans bestämda artikel när landsnamnet INLEDER strängen.
+ *
+ * enArticle ger gemen "the " för löptext ("… in the Netherlands?"), men först i
+ * en titel eller mening ska den vara versal. index.astro gjorde redan detta för
+ * quickanswer.body medan meta.title.country och meta.desc.country missade det —
+ * så de sju artikelländerna (US/GB/NL/CZ/DO/PH/AE) visades som "the Netherlands
+ * drone rules 2026" i Googles sökresultat. Bara engelska kan träffas: inget
+ * annat språk får en artikel av enArticle.
+ */
+export function capitalizeLeadingArticle(s) {
+  return typeof s === 'string' && s.startsWith('the ') ? `The ${s.slice(4)}` : s;
+}
+
 /** Kasusnycklar som över huvud taget finns — bara för felmeddelandet. */
 const CASE_KEYS = ['country', 'countryIn', 'countryGen'];
 
