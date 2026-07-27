@@ -176,12 +176,9 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
     // Turist-/utlännings-FAQ: samma blandspråksrisk. Landsnoterna (visitor-notes.json)
     // vaktas av sektion 6 — här vaktas bara mallarna.
     'faq.q.visitor', 'faq.tpl.visitor.easa', 'faq.tpl.visitor.other', 'faq.tpl.visitor.generic',
-    // Sajtens tyngsta SEO-strängar: H1 + de FAQ-frågor som går in i FAQPage-
-    // schemat. 2026-07-23 tömdes alla fem på {country} i samtliga 27 språk
-    // ("Får du flyga drönare i Tyskland?" → "Tyskland — … här?") och söktrafiken
-    // föll från ~59 till ~8 besökare/dygn. Ingen check fångade det. Med dem här
-    // fälls ett tappat landsnamn i CI. CASE_ALIASES nedan låter fi välja kasus.
-    'hero.h1.country', 'faq.q.credential', 'faq.q.rules', 'faq.q.zones', 'faq.q.authority'];
+    // Sajtens H1. Alla 27 språk bär landsnamnet, så full paritet gäller här.
+    // CASE_ALIASES nedan låter finskan välja kasus utan att flaggas.
+    'hero.h1.country'];
   const ws = JSON.parse(readFileSync(join(ROOT, 'data', 'web-strings', 'web_strings.json'), 'utf8'));
   // countryIn/countryGen är KASUSVARIANTER av samma landsnamn (finskan böjer
   // namnet i stället för att sätta preposition framför — se
@@ -204,6 +201,38 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
     });
     if (drift.length) fail(`i18n-vakt: "${key}" platshållar-drift mot EN i: ${drift.join(', ')}`);
     else ok(`i18n-vakt: "${key}" fullständig (27/27)`);
+  }
+
+  // ── FAQ-frågornas landsnamn: fasad utrullning ────────────────────────────
+  // Dessa fyra går in i FAQPage-schemat och är därför tunga SEO-strängar. De
+  // tömdes på {country} 2026-07-23 i alla 27 språk och söktrafiken föll från
+  // ~59 till ~8 besökare/dygn.
+  //
+  // Landsnamnet är återinfört språk för språk, inte i ett svep: ett språk som
+  // böjer landsnamnet (cs "v Německu", pl "w Niemczech") behöver en formtabell
+  // som finskans data/fi-country-forms.json, annars byts ett fel mot ett annat.
+  // Full paritet mot EN kan alltså inte gälla — den skulle tvinga fram exakt
+  // det slarvet. I stället låser vi fast de utrullade språken.
+  //
+  // → Utökas när ett språk får landsformer. Listan ÄR kontraktet.
+  const COUNTRY_ROLLED_OUT = ['sv', 'en', 'de', 'nl', 'da', 'no', 'es', 'fi'];
+  const REQUIRE_COUNTRY = ['faq.q.credential', 'faq.q.rules', 'faq.q.zones', 'faq.q.authority'];
+  const CASE_KEYS = new Set(['country', 'countryIn', 'countryGen']);
+  for (const key of REQUIRE_COUNTRY) {
+    const entry = ws[key];
+    if (!entry) { fail(`i18n-vakt: nyckeln "${key}" saknas i web_strings.json`); continue; }
+    const missing = LANGS.filter((l) => !entry[l] || !String(entry[l]).trim());
+    if (missing.length) { fail(`i18n-vakt: "${key}" saknar språk: ${missing.join(', ')}`); continue; }
+    // Utrullade språk MÅSTE bära landsnamnet.
+    const tappat = COUNTRY_ROLLED_OUT.filter((l) => ![...phSet(entry[l])].includes('country'));
+    // Alla språk: bara kända platshållare (fångar {maa}, {land} m.m.).
+    const okänd = LANGS.filter((l) =>
+      [...String(entry[l]).matchAll(/\{(\w+)\}/g)].some((m) => !CASE_KEYS.has(m[1])),
+    );
+    if (tappat.length) fail(`i18n-vakt: "${key}" tappat landsnamnet i: ${tappat.join(', ')}`);
+    if (okänd.length) fail(`i18n-vakt: "${key}" okänd platshållare i: ${okänd.join(', ')}`);
+    if (!tappat.length && !okänd.length)
+      ok(`i18n-vakt: "${key}" 27/27 · landsnamn i ${COUNTRY_ROLLED_OUT.length} utrullade språk`);
   }
 }
 
