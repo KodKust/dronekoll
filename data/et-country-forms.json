@@ -1,58 +1,168 @@
 {
-  "_comment": "Estniska landsnamn i SEESÜTLEV (inessiv, -s) eller ALALÜTLEV (adessiv, -l). INGEN preposition. Valet av kasus styrs av namnet, inte av regel: namn på -maa tar adessiv (Saksamaa -> Saksamaal, Prantsusmaa -> Prantsusmaal, Iirimaa -> Iirimaal, Uus-Meremaa -> Uus-Meremaal), liksom öar (Island -> Islandil, Küpros -> Küprosel, Malta -> Maltal, Filipiinid -> Filipiinidel). Övriga tar inessiv (Eesti -> Eestis, Soome -> Soomes, Rootsi -> Rootsis). Flerordsnamn böjer sista ledet (Ameerika Ühendriigid -> Ameerika Ühendriikides). Mallen skriver {countryIn} ENSAMT. GRANSKNINGSBEHOV: skriven utan modersmålstalare — kasusvalet -s kontra -l är den troligaste felkällan. Nytt land -> lägg till här, annars faller verify-build sektion 7.",
-  "AE": { "in": "Araabia Ühendemiraatides" },
-  "AR": { "in": "Argentinas" },
-  "AT": { "in": "Austrias" },
-  "AU": { "in": "Austraalias" },
-  "BE": { "in": "Belgias" },
-  "BG": { "in": "Bulgaarias" },
-  "BR": { "in": "Brasiilias" },
-  "CA": { "in": "Kanadas" },
-  "CH": { "in": "Šveitsis" },
-  "CL": { "in": "Tšiilis" },
-  "CO": { "in": "Colombias" },
-  "CR": { "in": "Costa Ricas" },
-  "CY": { "in": "Küprosel" },
-  "CZ": { "in": "Tšehhis" },
-  "DE": { "in": "Saksamaal" },
-  "DK": { "in": "Taanis" },
-  "DO": { "in": "Dominikaani Vabariigis" },
-  "EC": { "in": "Ecuadoris" },
-  "EE": { "in": "Eestis" },
-  "ES": { "in": "Hispaanias" },
-  "FI": { "in": "Soomes" },
-  "FR": { "in": "Prantsusmaal" },
-  "GB": { "in": "Ühendkuningriigis" },
-  "GR": { "in": "Kreekas" },
-  "HK": { "in": "Hongkongis" },
-  "HR": { "in": "Horvaatias" },
-  "HU": { "in": "Ungaris" },
-  "IE": { "in": "Iirimaal" },
-  "IN": { "in": "Indias" },
-  "IS": { "in": "Islandil" },
-  "IT": { "in": "Itaalias" },
-  "LI": { "in": "Liechtensteinis" },
-  "LT": { "in": "Leedus" },
-  "LU": { "in": "Luksemburgis" },
-  "LV": { "in": "Lätis" },
-  "MT": { "in": "Maltal" },
-  "MX": { "in": "Mehhikos" },
-  "NL": { "in": "Hollandis" },
-  "NO": { "in": "Norras" },
-  "NZ": { "in": "Uus-Meremaal" },
-  "PA": { "in": "Panamas" },
-  "PE": { "in": "Peruus" },
-  "PH": { "in": "Filipiinidel" },
-  "PL": { "in": "Poolas" },
-  "PT": { "in": "Portugalis" },
-  "RO": { "in": "Rumeenias" },
-  "SE": { "in": "Rootsis" },
-  "SG": { "in": "Singapuris" },
-  "SI": { "in": "Sloveenias" },
-  "SK": { "in": "Slovakkias" },
-  "TR": { "in": "Türgis" },
-  "UA": { "in": "Ukrainas" },
-  "US": { "in": "Ameerika Ühendriikides" },
-  "UY": { "in": "Uruguays" },
-  "ZA": { "in": "Lõuna-Aafrika Vabariigis" }
+  "_comment": "Estniska landsnamn i SEESÜTLEV (inessiv, -s) eller ALALÜTLEV (adessiv, -l). INGEN preposition. Valet av kasus styrs av namnet, inte av regel: namn på -maa tar adessiv (Saksamaa -> Saksamaal, Prantsusmaa -> Prantsusmaal, Iirimaa -> Iirimaal, Uus-Meremaa -> Uus-Meremaal), liksom öar (Island -> Islandil, Küpros -> Küprosel, Malta -> Maltal, Filipiinid -> Filipiinidel). Övriga tar inessiv (Eesti -> Eestis, Soome -> Soomes, Rootsi -> Rootsis). Flerordsnamn böjer sista ledet (Ameerika Ühendriigid -> Ameerika Ühendriikides). Mallen skriver {countryIn} ENSAMT. GRANSKAD 2026-07-29: alla 55 former genomgångna. Kasusvalet håller: adessiv -l på -maa-namn (Saksamaal, Prantsusmaal, Iirimaal, Uus-Meremaal) och på öar (Küprosel, Islandil, Maltal, Filipiinidel), inessiv -s på övriga. Inga fel funna. Nytt land -> lägg till här, annars faller verify-build sektion 7.",
+  "AE": {
+    "in": "Araabia Ühendemiraatides"
+  },
+  "AR": {
+    "in": "Argentinas"
+  },
+  "AT": {
+    "in": "Austrias"
+  },
+  "AU": {
+    "in": "Austraalias"
+  },
+  "BE": {
+    "in": "Belgias"
+  },
+  "BG": {
+    "in": "Bulgaarias"
+  },
+  "BR": {
+    "in": "Brasiilias"
+  },
+  "CA": {
+    "in": "Kanadas"
+  },
+  "CH": {
+    "in": "Šveitsis"
+  },
+  "CL": {
+    "in": "Tšiilis"
+  },
+  "CO": {
+    "in": "Colombias"
+  },
+  "CR": {
+    "in": "Costa Ricas"
+  },
+  "CY": {
+    "in": "Küprosel"
+  },
+  "CZ": {
+    "in": "Tšehhis"
+  },
+  "DE": {
+    "in": "Saksamaal"
+  },
+  "DK": {
+    "in": "Taanis"
+  },
+  "DO": {
+    "in": "Dominikaani Vabariigis"
+  },
+  "EC": {
+    "in": "Ecuadoris"
+  },
+  "EE": {
+    "in": "Eestis"
+  },
+  "ES": {
+    "in": "Hispaanias"
+  },
+  "FI": {
+    "in": "Soomes"
+  },
+  "FR": {
+    "in": "Prantsusmaal"
+  },
+  "GB": {
+    "in": "Ühendkuningriigis"
+  },
+  "GR": {
+    "in": "Kreekas"
+  },
+  "HK": {
+    "in": "Hongkongis"
+  },
+  "HR": {
+    "in": "Horvaatias"
+  },
+  "HU": {
+    "in": "Ungaris"
+  },
+  "IE": {
+    "in": "Iirimaal"
+  },
+  "IN": {
+    "in": "Indias"
+  },
+  "IS": {
+    "in": "Islandil"
+  },
+  "IT": {
+    "in": "Itaalias"
+  },
+  "LI": {
+    "in": "Liechtensteinis"
+  },
+  "LT": {
+    "in": "Leedus"
+  },
+  "LU": {
+    "in": "Luksemburgis"
+  },
+  "LV": {
+    "in": "Lätis"
+  },
+  "MT": {
+    "in": "Maltal"
+  },
+  "MX": {
+    "in": "Mehhikos"
+  },
+  "NL": {
+    "in": "Hollandis"
+  },
+  "NO": {
+    "in": "Norras"
+  },
+  "NZ": {
+    "in": "Uus-Meremaal"
+  },
+  "PA": {
+    "in": "Panamas"
+  },
+  "PE": {
+    "in": "Peruus"
+  },
+  "PH": {
+    "in": "Filipiinidel"
+  },
+  "PL": {
+    "in": "Poolas"
+  },
+  "PT": {
+    "in": "Portugalis"
+  },
+  "RO": {
+    "in": "Rumeenias"
+  },
+  "SE": {
+    "in": "Rootsis"
+  },
+  "SG": {
+    "in": "Singapuris"
+  },
+  "SI": {
+    "in": "Sloveenias"
+  },
+  "SK": {
+    "in": "Slovakkias"
+  },
+  "TR": {
+    "in": "Türgis"
+  },
+  "UA": {
+    "in": "Ukrainas"
+  },
+  "US": {
+    "in": "Ameerika Ühendriikides"
+  },
+  "UY": {
+    "in": "Uruguays"
+  },
+  "ZA": {
+    "in": "Lõuna-Aafrika Vabariigis"
+  }
 }

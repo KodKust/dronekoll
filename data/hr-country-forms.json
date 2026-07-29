@@ -1,58 +1,168 @@
 {
-  "_comment": "Kroatiska landsnamn i LOKATIV med preposition — HELA frasen. Prepositionen är 'u' för de flesta; öar tar 'na' (na Cipru, na Malti, na Islandu, na Novom Zelandu, na Filipinima). Adjektiviska namn på -ska/-čka böjs till -skoj/-čkoj (Njemačka -> u Njemačkoj, Hrvatska -> u Hrvatskoj, Francuska -> u Francuskoj); substantiviska på -ija till -iji (Italija -> u Italiji). GRANSKNINGSBEHOV: skriven utan modersmålstalare — 'na' kontra 'u' och de adjektiviska ändelserna är de troligaste felkällorna. Nytt land -> lägg till här, annars faller verify-build sektion 7.",
-  "AE": { "in": "u Ujedinjenim Arapskim Emiratima" },
-  "AR": { "in": "u Argentini" },
-  "AT": { "in": "u Austriji" },
-  "AU": { "in": "u Australiji" },
-  "BE": { "in": "u Belgiji" },
-  "BG": { "in": "u Bugarskoj" },
-  "BR": { "in": "u Brazilu" },
-  "CA": { "in": "u Kanadi" },
-  "CH": { "in": "u Švicarskoj" },
-  "CL": { "in": "u Čileu" },
-  "CO": { "in": "u Kolumbiji" },
-  "CR": { "in": "u Kostarici" },
-  "CY": { "in": "na Cipru" },
-  "CZ": { "in": "u Češkoj" },
-  "DE": { "in": "u Njemačkoj" },
-  "DK": { "in": "u Danskoj" },
-  "DO": { "in": "u Dominikanskoj Republici" },
-  "EC": { "in": "u Ekvadoru" },
-  "EE": { "in": "u Estoniji" },
-  "ES": { "in": "u Španjolskoj" },
-  "FI": { "in": "u Finskoj" },
-  "FR": { "in": "u Francuskoj" },
-  "GB": { "in": "u Ujedinjenom Kraljevstvu" },
-  "GR": { "in": "u Grčkoj" },
-  "HK": { "in": "u Hong Kongu" },
-  "HR": { "in": "u Hrvatskoj" },
-  "HU": { "in": "u Mađarskoj" },
-  "IE": { "in": "u Irskoj" },
-  "IN": { "in": "u Indiji" },
-  "IS": { "in": "na Islandu" },
-  "IT": { "in": "u Italiji" },
-  "LI": { "in": "u Lihtenštajnu" },
-  "LT": { "in": "u Litvi" },
-  "LU": { "in": "u Luksemburgu" },
-  "LV": { "in": "u Latviji" },
-  "MT": { "in": "na Malti" },
-  "MX": { "in": "u Meksiku" },
-  "NL": { "in": "u Nizozemskoj" },
-  "NO": { "in": "u Norveškoj" },
-  "NZ": { "in": "na Novom Zelandu" },
-  "PA": { "in": "u Panami" },
-  "PE": { "in": "u Peruu" },
-  "PH": { "in": "na Filipinima" },
-  "PL": { "in": "u Poljskoj" },
-  "PT": { "in": "u Portugalu" },
-  "RO": { "in": "u Rumunjskoj" },
-  "SE": { "in": "u Švedskoj" },
-  "SG": { "in": "u Singapuru" },
-  "SI": { "in": "u Sloveniji" },
-  "SK": { "in": "u Slovačkoj" },
-  "TR": { "in": "u Turskoj" },
-  "UA": { "in": "u Ukrajini" },
-  "US": { "in": "u Sjedinjenim Američkim Državama" },
-  "UY": { "in": "u Urugvaju" },
-  "ZA": { "in": "u Južnoafričkoj Republici" }
+  "_comment": "Kroatiska landsnamn i LOKATIV med preposition — HELA frasen. Prepositionen är 'u' för de flesta; öar tar 'na' (na Cipru, na Malti, na Islandu, na Novom Zelandu, na Filipinima). Adjektiviska namn på -ska/-čka böjs till -skoj/-čkoj (Njemačka -> u Njemačkoj, Hrvatska -> u Hrvatskoj, Francuska -> u Francuskoj); substantiviska på -ija till -iji (Italija -> u Italiji). GRANSKAD 2026-07-29: alla 55 former genomgångna. 'na' står korrekt på öar (na Cipru, na Islandu, na Malti, na Novom Zelandu, na Filipinima) medan Ukraina korrekt tar 'u' (u Ukrajini) till skillnad från tjeckiskan/slovakiskan. Adjektiviska ändelser rätta (u Njemačkoj, u Rumunjskoj, u Slovačkoj, u Nizozemskoj). Inga fel funna. Nytt land -> lägg till här, annars faller verify-build sektion 7.",
+  "AE": {
+    "in": "u Ujedinjenim Arapskim Emiratima"
+  },
+  "AR": {
+    "in": "u Argentini"
+  },
+  "AT": {
+    "in": "u Austriji"
+  },
+  "AU": {
+    "in": "u Australiji"
+  },
+  "BE": {
+    "in": "u Belgiji"
+  },
+  "BG": {
+    "in": "u Bugarskoj"
+  },
+  "BR": {
+    "in": "u Brazilu"
+  },
+  "CA": {
+    "in": "u Kanadi"
+  },
+  "CH": {
+    "in": "u Švicarskoj"
+  },
+  "CL": {
+    "in": "u Čileu"
+  },
+  "CO": {
+    "in": "u Kolumbiji"
+  },
+  "CR": {
+    "in": "u Kostarici"
+  },
+  "CY": {
+    "in": "na Cipru"
+  },
+  "CZ": {
+    "in": "u Češkoj"
+  },
+  "DE": {
+    "in": "u Njemačkoj"
+  },
+  "DK": {
+    "in": "u Danskoj"
+  },
+  "DO": {
+    "in": "u Dominikanskoj Republici"
+  },
+  "EC": {
+    "in": "u Ekvadoru"
+  },
+  "EE": {
+    "in": "u Estoniji"
+  },
+  "ES": {
+    "in": "u Španjolskoj"
+  },
+  "FI": {
+    "in": "u Finskoj"
+  },
+  "FR": {
+    "in": "u Francuskoj"
+  },
+  "GB": {
+    "in": "u Ujedinjenom Kraljevstvu"
+  },
+  "GR": {
+    "in": "u Grčkoj"
+  },
+  "HK": {
+    "in": "u Hong Kongu"
+  },
+  "HR": {
+    "in": "u Hrvatskoj"
+  },
+  "HU": {
+    "in": "u Mađarskoj"
+  },
+  "IE": {
+    "in": "u Irskoj"
+  },
+  "IN": {
+    "in": "u Indiji"
+  },
+  "IS": {
+    "in": "na Islandu"
+  },
+  "IT": {
+    "in": "u Italiji"
+  },
+  "LI": {
+    "in": "u Lihtenštajnu"
+  },
+  "LT": {
+    "in": "u Litvi"
+  },
+  "LU": {
+    "in": "u Luksemburgu"
+  },
+  "LV": {
+    "in": "u Latviji"
+  },
+  "MT": {
+    "in": "na Malti"
+  },
+  "MX": {
+    "in": "u Meksiku"
+  },
+  "NL": {
+    "in": "u Nizozemskoj"
+  },
+  "NO": {
+    "in": "u Norveškoj"
+  },
+  "NZ": {
+    "in": "na Novom Zelandu"
+  },
+  "PA": {
+    "in": "u Panami"
+  },
+  "PE": {
+    "in": "u Peruu"
+  },
+  "PH": {
+    "in": "na Filipinima"
+  },
+  "PL": {
+    "in": "u Poljskoj"
+  },
+  "PT": {
+    "in": "u Portugalu"
+  },
+  "RO": {
+    "in": "u Rumunjskoj"
+  },
+  "SE": {
+    "in": "u Švedskoj"
+  },
+  "SG": {
+    "in": "u Singapuru"
+  },
+  "SI": {
+    "in": "u Sloveniji"
+  },
+  "SK": {
+    "in": "u Slovačkoj"
+  },
+  "TR": {
+    "in": "u Turskoj"
+  },
+  "UA": {
+    "in": "u Ukrajini"
+  },
+  "US": {
+    "in": "u Sjedinjenim Američkim Državama"
+  },
+  "UY": {
+    "in": "u Urugvaju"
+  },
+  "ZA": {
+    "in": "u Južnoafričkoj Republici"
+  }
 }

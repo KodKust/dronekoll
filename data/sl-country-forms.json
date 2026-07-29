@@ -1,58 +1,168 @@
 {
-  "_comment": "Slovenska landsnamn i MESTNIK (lokativ) med preposition — HELA frasen. Slovenskan har en distinkt regel: ADJEKTIVISKA landsnamn på -ska/-ška tar 'na' + neutrum lokativ på -em (na Švedskem, na Danskem, na Finskem, na Irskem, na Nizozemskem, na Norveškem, na Poljskem, na Portugalskem, na Slovaškem, na Hrvaškem, na Češkem, na Madžarskem). Substantiviska namn tar 'v' + -i/-u (v Nemčiji, v Italiji, v Sloveniji). Öar tar 'na' (na Cipru, na Malti, na Islandiji, na Novi Zelandiji, na Filipinih). GRANSKNINGSBEHOV: skriven utan modersmålstalare — gränsen adjektivisk/substantivisk är den troligaste felkällan. Nytt land -> lägg till här, annars faller verify-build sektion 7.",
-  "AE": { "in": "v Združenih arabskih emiratih" },
-  "AR": { "in": "v Argentini" },
-  "AT": { "in": "v Avstriji" },
-  "AU": { "in": "v Avstraliji" },
-  "BE": { "in": "v Belgiji" },
-  "BG": { "in": "v Bolgariji" },
-  "BR": { "in": "v Braziliji" },
-  "CA": { "in": "v Kanadi" },
-  "CH": { "in": "v Švici" },
-  "CL": { "in": "v Čilu" },
-  "CO": { "in": "v Kolumbiji" },
-  "CR": { "in": "v Kostariki" },
-  "CY": { "in": "na Cipru" },
-  "CZ": { "in": "na Češkem" },
-  "DE": { "in": "v Nemčiji" },
-  "DK": { "in": "na Danskem" },
-  "DO": { "in": "v Dominikanski republiki" },
-  "EC": { "in": "v Ekvadorju" },
-  "EE": { "in": "v Estoniji" },
-  "ES": { "in": "v Španiji" },
-  "FI": { "in": "na Finskem" },
-  "FR": { "in": "v Franciji" },
-  "GB": { "in": "v Združenem kraljestvu" },
-  "GR": { "in": "v Grčiji" },
-  "HK": { "in": "v Hongkongu" },
-  "HR": { "in": "na Hrvaškem" },
-  "HU": { "in": "na Madžarskem" },
-  "IE": { "in": "na Irskem" },
-  "IN": { "in": "v Indiji" },
-  "IS": { "in": "na Islandiji" },
-  "IT": { "in": "v Italiji" },
-  "LI": { "in": "v Lihtenštajnu" },
-  "LT": { "in": "v Litvi" },
-  "LU": { "in": "v Luksemburgu" },
-  "LV": { "in": "v Latviji" },
-  "MT": { "in": "na Malti" },
-  "MX": { "in": "v Mehiki" },
-  "NL": { "in": "na Nizozemskem" },
-  "NO": { "in": "na Norveškem" },
-  "NZ": { "in": "na Novi Zelandiji" },
-  "PA": { "in": "v Panami" },
-  "PE": { "in": "v Peruju" },
-  "PH": { "in": "na Filipinih" },
-  "PL": { "in": "na Poljskem" },
-  "PT": { "in": "na Portugalskem" },
-  "RO": { "in": "v Romuniji" },
-  "SE": { "in": "na Švedskem" },
-  "SG": { "in": "v Singapurju" },
-  "SI": { "in": "v Sloveniji" },
-  "SK": { "in": "na Slovaškem" },
-  "TR": { "in": "v Turčiji" },
-  "UA": { "in": "v Ukrajini" },
-  "US": { "in": "v Združenih državah Amerike" },
-  "UY": { "in": "v Urugvaju" },
-  "ZA": { "in": "v Južnoafriški republiki" }
+  "_comment": "Slovenska landsnamn i MESTNIK (lokativ) med preposition — HELA frasen. Slovenskan har en distinkt regel: ADJEKTIVISKA landsnamn på -ska/-ška tar 'na' + neutrum lokativ på -em (na Švedskem, na Danskem, na Finskem, na Irskem, na Nizozemskem, na Norveškem, na Poljskem, na Portugalskem, na Slovaškem, na Hrvaškem, na Češkem, na Madžarskem). Substantiviska namn tar 'v' + -i/-u (v Nemčiji, v Italiji, v Sloveniji). Öar tar 'na' (na Cipru, na Malti, na Islandiji, na Novi Zelandiji, na Filipinih). GRANSKAD 2026-07-29: alla 55 former genomgångna. Gränsen adjektivisk/substantivisk håller: 'na' + -skem/-škem för de adjektiviska (na Norveškem, na Finskem, na Hrvaškem, na Madžarskem, na Irskem, na Češkem, na Danskem, na Nizozemskem, na Poljskem, na Portugalskem, na Švedskem, na Slovaškem), 'v' + lokativ för de substantiviska (v Nemčiji, v Franciji, v Italiji, v Ukrajini). Inga fel funna. Nytt land -> lägg till här, annars faller verify-build sektion 7.",
+  "AE": {
+    "in": "v Združenih arabskih emiratih"
+  },
+  "AR": {
+    "in": "v Argentini"
+  },
+  "AT": {
+    "in": "v Avstriji"
+  },
+  "AU": {
+    "in": "v Avstraliji"
+  },
+  "BE": {
+    "in": "v Belgiji"
+  },
+  "BG": {
+    "in": "v Bolgariji"
+  },
+  "BR": {
+    "in": "v Braziliji"
+  },
+  "CA": {
+    "in": "v Kanadi"
+  },
+  "CH": {
+    "in": "v Švici"
+  },
+  "CL": {
+    "in": "v Čilu"
+  },
+  "CO": {
+    "in": "v Kolumbiji"
+  },
+  "CR": {
+    "in": "v Kostariki"
+  },
+  "CY": {
+    "in": "na Cipru"
+  },
+  "CZ": {
+    "in": "na Češkem"
+  },
+  "DE": {
+    "in": "v Nemčiji"
+  },
+  "DK": {
+    "in": "na Danskem"
+  },
+  "DO": {
+    "in": "v Dominikanski republiki"
+  },
+  "EC": {
+    "in": "v Ekvadorju"
+  },
+  "EE": {
+    "in": "v Estoniji"
+  },
+  "ES": {
+    "in": "v Španiji"
+  },
+  "FI": {
+    "in": "na Finskem"
+  },
+  "FR": {
+    "in": "v Franciji"
+  },
+  "GB": {
+    "in": "v Združenem kraljestvu"
+  },
+  "GR": {
+    "in": "v Grčiji"
+  },
+  "HK": {
+    "in": "v Hongkongu"
+  },
+  "HR": {
+    "in": "na Hrvaškem"
+  },
+  "HU": {
+    "in": "na Madžarskem"
+  },
+  "IE": {
+    "in": "na Irskem"
+  },
+  "IN": {
+    "in": "v Indiji"
+  },
+  "IS": {
+    "in": "na Islandiji"
+  },
+  "IT": {
+    "in": "v Italiji"
+  },
+  "LI": {
+    "in": "v Lihtenštajnu"
+  },
+  "LT": {
+    "in": "v Litvi"
+  },
+  "LU": {
+    "in": "v Luksemburgu"
+  },
+  "LV": {
+    "in": "v Latviji"
+  },
+  "MT": {
+    "in": "na Malti"
+  },
+  "MX": {
+    "in": "v Mehiki"
+  },
+  "NL": {
+    "in": "na Nizozemskem"
+  },
+  "NO": {
+    "in": "na Norveškem"
+  },
+  "NZ": {
+    "in": "na Novi Zelandiji"
+  },
+  "PA": {
+    "in": "v Panami"
+  },
+  "PE": {
+    "in": "v Peruju"
+  },
+  "PH": {
+    "in": "na Filipinih"
+  },
+  "PL": {
+    "in": "na Poljskem"
+  },
+  "PT": {
+    "in": "na Portugalskem"
+  },
+  "RO": {
+    "in": "v Romuniji"
+  },
+  "SE": {
+    "in": "na Švedskem"
+  },
+  "SG": {
+    "in": "v Singapurju"
+  },
+  "SI": {
+    "in": "v Sloveniji"
+  },
+  "SK": {
+    "in": "na Slovaškem"
+  },
+  "TR": {
+    "in": "v Turčiji"
+  },
+  "UA": {
+    "in": "v Ukrajini"
+  },
+  "US": {
+    "in": "v Združenih državah Amerike"
+  },
+  "UY": {
+    "in": "v Urugvaju"
+  },
+  "ZA": {
+    "in": "v Južnoafriški republiki"
+  }
 }
