@@ -94,6 +94,13 @@ h4 { font-family: var(--font-body); font-size: var(--text-h4); font-weight: 600;
   text-transform: uppercase;
   color: var(--ink-2);
 }
+/* Sektionsetiketter som SER ut som overline men bär sektionens semantik (h2).
+   .overline vinner på specificitet över h1,h2,h3 för allt den själv deklarerar
+   — font, storlek, vikt, spärr, färg. Kvar läcker bara de två egenskaper den
+   INTE deklarerar, och de nollställs här. Skriv aldrig font/färg i den här
+   regeln: `h2.overline` är specifikare än `.overline` och skulle då vinna över
+   själva overline-stilen. */
+h2.overline { line-height: 1.65; text-wrap: initial; }
 
 .lede { font-size: var(--text-lede); line-height: 1.6; color: var(--ink-2); }
 .small { font-size: var(--text-small); line-height: 1.55; }

@@ -6,8 +6,14 @@
 interface Props {
   kind?: 'note' | 'warn' | 'danger';
   title?: string;
+  /* Snabbsvaret är sidans första innehållsavsnitt och dess titel ska stå i
+     dokumentets rubrikstruktur, inte bara se ut som en rubrik. Övriga callouts
+     är inskott i en sektion som redan har sin h2 — de behåller <p>. */
+  titleAs?: 'p' | 'h2';
+  titleId?: string;
 }
-const { kind = 'note', title } = Astro.props;
+const { kind = 'note', title, titleAs = 'p', titleId } = Astro.props;
+const TitleTag = titleAs;
 ---
 
 <aside class={`callout callout--${kind}`}>
@@ -23,7 +29,7 @@ const { kind = 'note', title } = Astro.props;
     )}
   </span>
   <div class="callout__body">
-    {title && <p class="callout__title">{title}</p>}
+    {title && <TitleTag class="callout__title" id={titleId}>{title}</TitleTag>}
     <slot />
   </div>
 </aside>
@@ -40,6 +46,10 @@ const { kind = 'note', title } = Astro.props;
   .callout__body { display: grid; gap: 4px; font-size: var(--text-small); }
   .callout__body :global(p) { margin: 0; }
   .callout__title { font-weight: 600; }
+  /* Titeln som h2 ska se EXAKT ut som titeln som p — h2:s displayfont, storlek
+     och spärr nollställs mot omgivningen. Färgen sätts inte här: den ärvs från
+     .callout--<kind> .callout__title, som är specifikare än h1,h2,h3. */
+  h2.callout__title { font: inherit; font-weight: 600; letter-spacing: normal; text-wrap: initial; }
 
   .callout--note   { background: var(--accent-wash); border-color: var(--accent); color: var(--ink-body); }
   .callout--note .callout__icon, .callout--note .callout__title { color: var(--accent-ink); }

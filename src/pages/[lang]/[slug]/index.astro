@@ -165,10 +165,15 @@ const ldBlocks = [
   <AnchorNav lang={lang} sections={sections} />
 
   {/* ── Snabbfakta ───────────────────────────────────────────────────── */}
-  <section class="band band--canvas">
+  <section class="band band--canvas" aria-labelledby="quickanswer-heading">
     <div class="wide">
       <div class="quick-answer">
-        <Callout kind="note" title={t('quickanswer.title', lang)}>
+        <Callout
+          kind="note"
+          title={t('quickanswer.title', lang)}
+          titleAs="h2"
+          titleId="quickanswer-heading"
+        >
           {t('quickanswer.body', lang, { country: enArticle(page.iso, lang) ? 'The ' + page.displayName : page.displayName, year })}
         </Callout>
       </div>
@@ -177,9 +182,9 @@ const ldBlocks = [
   </section>
 
   {/* ── Regler ───────────────────────────────────────────────────────── */}
-  <section class="band band--paper" id="rules">
+  <section class="band band--paper" id="rules" aria-labelledby="rules-heading">
     <div class="content">
-      <p class="overline">{c.sectionLabelRules ?? t('anchor.rules', lang)}</p>
+      <h2 class="overline" id="rules-heading">{c.sectionLabelRules ?? t('anchor.rules', lang)}</h2>
       {translated && (
         <div class="section-callout">
           <Callout kind="warn">{t('ymyl.translated', lang)}</Callout>
@@ -190,9 +195,9 @@ const ldBlocks = [
   </section>
 
   {/* ── Karta ────────────────────────────────────────────────────────── */}
-  <section class="band band--canvas" id="map">
+  <section class="band band--canvas" id="map" aria-labelledby="map-heading">
     <div class="wide">
-      <h2 class="section-title">{t('map.title', lang)}</h2>
+      <h2 class="section-title" id="map-heading">{t('map.title', lang)}</h2>
       {zoneCount && (() => {
         const [pre, post = ''] = t('freshness.zonesLive', lang, { n: '__N__' }).split('__N__');
         return (
@@ -209,38 +214,43 @@ const ldBlocks = [
 
   {/* ── FAQ ──────────────────────────────────────────────────────────── */}
   {faqItems.length > 0 && (
-    <section class="band band--paper" id="faq">
+    <section class="band band--paper" id="faq" aria-labelledby="faq-heading">
       <div class="content">
-        <h2 class="section-title">{t('faq.title', lang)}</h2>
+        <h2 class="section-title" id="faq-heading">{t('faq.title', lang)}</h2>
         <FaqBlock items={faqItems} />
       </div>
     </section>
   )}
 
   {/* ── Noter + källor ───────────────────────────────────────────────── */}
+  {/* Bandet behåller id="sources" — ankarnavet OCH dess IntersectionObserver
+      observerar just detta element, och en flytt av id:t skulle ändra när
+      pillen tänds. "Bra att veta" och källorna får i stället var sitt eget
+      <section> INUTI bandet: rätt rubrikstruktur, och eftersom de förblir
+      direkta griddbarn av .sources-band ändras inte en enda pixel. */}
   <section class="band band--canvas" id="sources">
     <div class="content sources-band">
       {c.importantNotes.length > 0 && (
-        <div class="notes">
-          <h2 class="section-title">{t('notes.title', lang)}</h2>
+        <section class="notes" aria-labelledby="notes-heading">
+          <h2 class="section-title" id="notes-heading">{t('notes.title', lang)}</h2>
           <div class="notes__list">
             {c.importantNotes.map((note) => (
               <Callout kind="note">{note}</Callout>
             ))}
           </div>
-        </div>
+        </section>
       )}
 
-      <div>
-        <p class="overline sources-label">{c.sectionLabelPrimary ?? t('anchor.sources', lang)}</p>
+      <section aria-labelledby="sources-heading">
+        <h2 class="overline sources-label" id="sources-heading">{c.sectionLabelPrimary ?? t('anchor.sources', lang)}</h2>
         <SourceLinks links={c.primaryLinks} />
-      </div>
+      </section>
 
       {c.secondaryLinks.length > 0 && (
-        <div>
-          <p class="overline sources-label">{c.sectionLabelSecondary}</p>
+        <section aria-labelledby="sources-secondary-heading">
+          <h2 class="overline sources-label" id="sources-secondary-heading">{c.sectionLabelSecondary}</h2>
           <SourceLinks links={c.secondaryLinks} />
-        </div>
+        </section>
       )}
 
       {c.disclaimerText && <p class="small disclaimer">{c.disclaimerText}</p>}

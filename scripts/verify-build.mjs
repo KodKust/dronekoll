@@ -285,6 +285,37 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
   else ok(`Inga råa {platshållare} i ${pageByUrl.size} sidor`);
 }
 
+// ── 9. Rubrikstruktur + aria-labelledby på landssidorna ─────────────────────
+// Reglerna och källorna renderades länge som <p class="overline"> — de SÅG ut
+// som rubriker men stod utanför dokumentets rubrikstruktur, så sidans två
+// viktigaste avsnitt syntes varken för skärmläsare, snippet-uttag eller
+// AI-chunkning. Nu är de <h2> med id, och varje <section> pekar på sin rubrik.
+// Vakten fångar det som lätt går sönder vid mallarbete: en rubrik som tappar
+// sitt id, ett aria-labelledby som pekar i tomma luften, eller två element som
+// råkar dela id (då blir referensen tyst fel i stället för trasig).
+{
+  const missing = [];
+  const dangling = [];
+  const duped = [];
+  for (const [url, html] of pageByUrl) {
+    const labels = [...html.matchAll(/aria-labelledby="([^"]+)"/g)].map((m) => m[1]);
+    if (labels.length === 0) continue; // hubbar/övriga mallar
+    const ids = [...html.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]);
+    const idSet = new Set(ids);
+    if (ids.length !== idSet.size) duped.push(url);
+    for (const l of labels) if (!idSet.has(l)) dangling.push(`${url} → #${l}`);
+    for (const need of ['rules-heading', 'sources-heading']) {
+      if (!idSet.has(need)) missing.push(`${url} → #${need}`);
+    }
+  }
+  const n = pageByUrl.size;
+  if (dangling.length) fail(`aria-labelledby utan mål (${dangling.length}): ${dangling.slice(0, 5).join(' · ')}`);
+  if (missing.length) fail(`Landssida utan regler-/källrubrik (${missing.length}): ${missing.slice(0, 5).join(' · ')}`);
+  if (duped.length) fail(`Dubblerade id på samma sida (${duped.length}): ${duped.slice(0, 5).join(' · ')}`);
+  if (!dangling.length && !missing.length && !duped.length)
+    ok(`Rubrikstruktur hel — inga trasiga aria-referenser, inga id-dubbletter (${n} sidor)`);
+}
+
 // ── 6. Sträng-/notvakt: visitor-notes struktur + platshållare/skriftsystem ───
 // Kompletterar sektion 5: den vaktar web_strings-nycklar, denna vaktar de 49
 // landsnoterna (inga { } som bryter t()-substitution, skiljetecken, längd,
