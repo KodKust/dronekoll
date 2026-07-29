@@ -107,6 +107,23 @@ export function checkWebStrings() {
     }
   }
 
+  // ── F: landsnamnet får inte stå i citattecken i H1/FAQ-frågorna ───────────
+  // Landsnamnet i H1 + faq.q.* är sajtens SEO-bärande yta (se UPPGIFTER, rullades
+  // ut 2026-07-29). Gåsögon runt namnet — «España», »Danmark«, „Ísland“ — bryter
+  // exakt-matchningen mot söktermen, ser maskingenererat ut och är dessutom
+  // oidiomatiskt kring egennamn på no/da/es. Vakten gäller ENBART citattecken som
+  // omsluter {country}-platshållaren; citat kring sektionsnamn ("Källor", "Lager",
+  // "App Store") är korrekta och lämnas i fred. Maltesiskans f'{country} är
+  // prepositionen f', inte ett citat — apostrofen matchas därför inte.
+  const QUOTED_COUNTRY = /[«»„“”]\s*\{country[A-Za-z]*\}|\{country[A-Za-z]*\}\s*[«»„“”]/;
+  for (const key of Object.keys(web).filter((k) => k === 'hero.h1.country' || k.startsWith('faq.q.'))) {
+    for (const lang of Object.keys(web[key]).filter((l) => LANGSET.has(l))) {
+      if (QUOTED_COUNTRY.test(web[key][lang])) {
+        fail(`${key}.${lang}: landsnamnet står i citattecken — bryter exakt-matchningen i H1/FAQ`);
+      }
+    }
+  }
+
   // ── A+C+D: visitor-notes.json ─────────────────────────────────────────────
   const noteIsos = Object.keys(notes).filter((k) => !k.startsWith('_'));
   for (const iso of noteIsos) {
