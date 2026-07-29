@@ -81,6 +81,32 @@ export function checkWebStrings() {
     }
   }
 
+  // ── E: faq.tpl.credential.easa — registrering ≠ kompetensbevis ────────────
+  // Mallen påstod en gång att A1/A3-beviset krävs "om drönaren väger 250 g eller
+  // mer, eller har en kamera". Det är villkoret för OPERATÖRSREGISTRERING; beviset
+  // utlöses av klassmärkning C1 eller vikt ≥250 g. Felet stod i den DELADE mallen
+  // och gällde därför alla 27 språk och varje EASA-land samtidigt — en språkgranskare
+  // per språk hade inte hittat det, eftersom varje enskild översättning var trogen
+  // originalet. Vakten är därför språkOBEROENDE och strukturell: den läser inte
+  // grammatik utan kontrollerar att båda trösklarna fortfarande finns kvar i texten.
+  //   · "250" minst TVÅ gånger  → två skilda trösklar, inte ett sammanslaget villkor
+  //   · "C1"                    → klassmärkningen nämns (identisk i alla 27 språk)
+  // Faller detta har någon skrivit tillbaka enkeltröskel-varianten. Rätta texten —
+  // sänk aldrig vakten.
+  const CRED = 'faq.tpl.credential.easa';
+  if (!web[CRED]) fail(`${CRED}: nyckeln saknas (EASA-ländernas licenssvar)`);
+  else {
+    for (const lang of Object.keys(web[CRED]).filter((l) => LANGSET.has(l))) {
+      const s = web[CRED][lang];
+      if ((s.match(/250/g) || []).length < 2) {
+        fail(`${CRED}.${lang}: "250" nämns <2 ggr — registrering och kompetensbevis har slagits ihop till en tröskel`);
+      }
+      if (!s.includes('C1')) {
+        fail(`${CRED}.${lang}: saknar "C1" — klassmärkningen är det som utlöser kompetensbeviset`);
+      }
+    }
+  }
+
   // ── A+C+D: visitor-notes.json ─────────────────────────────────────────────
   const noteIsos = Object.keys(notes).filter((k) => !k.startsWith('_'));
   for (const iso of noteIsos) {
