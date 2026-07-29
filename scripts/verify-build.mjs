@@ -274,7 +274,11 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
 // vaktar källsträngarna; denna fångar hela vägen ut, för ALLA nycklar.
 // Mätt vid införandet: 0 träffar över samtliga sidor, alltså falsklarmsfritt.
 {
-  const RAW = /\{(country|countryIn|countryGen|year|brand|n|date|regulator|aviation|credential|note|r1|r2|r3)\}/;
+  // ⚠️ ALLOWLIST — nya platshållarnamn MÅSTE läggas till här, annars vaktar
+  // vakten dem inte. Bevisat 2026-07-29: {overlay}/{notam}/{notamExtra}/{langs}
+  // infördes, läckte rått på 27 sidor, och bygget gick GRÖNT eftersom namnen
+  // saknades i listan. En vakt med allowlist är tyst om det den inte känner.
+  const RAW = /\{(country|countryIn|countryGen|year|brand|n|overlay|notam|notamExtra|langs|date|regulator|aviation|credential|note|r1|r2|r3)\}/;
   const leaks = [];
   for (const [url, html] of pageByUrl) {
     const m = html.match(RAW);

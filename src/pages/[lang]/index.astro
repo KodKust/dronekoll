@@ -23,6 +23,7 @@ import {
   hubCluster,
   brandForLang,
   SITE,
+  siteCounts,
 } from '../../lib/model';
 import { t } from '../../lib/i18n';
 import { zoneCountByIso } from '../../lib/ingest';
@@ -46,7 +47,7 @@ const enPages =
 const totalCountries = new Set(allCountryPages().map((p) => p.iso)).size;
 const totalZones = Object.values(zoneCountByIso()).reduce((a, b) => a + b, 0);
 const title = t('meta.title.hub', lang, { brand: brandForLang(lang) });
-const description = t('meta.desc.hub', lang, { n: totalCountries });
+const description = t('meta.desc.hub', lang, siteCounts());
 const ldBlocks = [organizationLd(), webSiteLd(lang)];
 
 // /en/ är en dublett av "/" — samma H1, ~1 % textskillnad — och pekar därför ut

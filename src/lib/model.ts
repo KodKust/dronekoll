@@ -415,8 +415,55 @@ export function tFeature(
   lang: string,
   extra?: Record<string, string | number>,
 ): string {
-  const n = new Set(allCountryPages().map((p) => p.iso)).size;
-  return t(`feat.${slug}.${key}`, lang, { brand: brandForLang(lang), n, ...extra });
+  return t(`feat.${slug}.${key}`, lang, { brand: brandForLang(lang), ...siteCounts(), ...extra });
+}
+
+/**
+ * Sajtens täckningssiffror — EN sanning, räknad ur datan vid varje bygge.
+ *
+ * Fanns inte tidigare: siffrorna stod som text i tio strängar × 27 språk och
+ * åldrades tyst. Vid genomgången 2026-07-29 sa sajten "18 länder" med zonlager
+ * medan datan sagt 19 ända sedan Tyskland fick sitt lager i 1.1.7 — sajten
+ * underdrev alltså sin egen täckning i ett halvår, på alla språk samtidigt.
+ *
+ * notamExtra är HÄRLETT (notam − overlay) och därför det farligaste talet:
+ * meningen "18 länder har zonlager, ytterligare 18 har NOTAM" bar två olika
+ * begrepp som råkade ha samma värde. En svepande 18→19 hade gjort det andra
+ * talet fel för alltid, tyst, på 27 språk. Det korrekta värdet var 17.
+ *
+ * ⚠️ Maltesiskan böjer räkneord: 11–19 kräver suffixet "-il" ("19-il pajjiż"),
+ * 20 och uppåt gör det inte. Passerar overlay eller notamExtra 19 måste
+ * mt-strängarna läsas om för hand — en platshållare kan inte fånga det.
+ */
+export interface SiteCounts {
+  n: number;          // länder med publicerade sidor
+  overlay: number;    // länder med officiellt zonlager
+  notam: number;      // länder med NOTAM
+  notamExtra: number; // NOTAM-länder UTÖVER dem som redan har zonlager
+  langs: number;      // antal språk
+}
+
+let _counts: SiteCounts | null = null;
+export function siteCounts(): SiteCounts {
+  if (_counts) return _counts;
+  const all = loadCountries();
+  const overlayIso = new Set(
+    all.filter((c) => c.hasAirspaceOverlay).map((c) => c.isoCode.toUpperCase()),
+  );
+  const notamIso = new Set(
+    all.filter((c) => c.hasNotam).map((c) => c.isoCode.toUpperCase()),
+  );
+  _counts = {
+    // n räknas ur SIDORNA, inte ur countries.json: ett land utan publicerad
+    // sida ska inte räknas in i "regler för N länder". Datan har 56 poster,
+    // 55 har sidor.
+    n: new Set(allCountryPages().map((p) => p.iso)).size,
+    overlay: overlayIso.size,
+    notam: notamIso.size,
+    notamExtra: [...notamIso].filter((iso) => !overlayIso.has(iso)).length,
+    langs: LANGUAGE_CODES.length,
+  };
+  return _counts;
 }
 
 export function featureLangs(slug: string | null): string[] {

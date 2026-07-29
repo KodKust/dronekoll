@@ -14,7 +14,7 @@ import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
 import BenefitGrid from '../../../../components/BenefitGrid.astro';
 import FaqBlock from '../../../../components/FaqBlock.astro';
 import AppCta from '../../../../components/AppCta.astro';
-import { allCountryPages, loadFeatures, featureLangs, featureCluster, brandForLang, SITE } from '../../../../lib/model';
+import { loadFeatures, featureLangs, featureCluster, brandForLang, siteCounts, SITE } from '../../../../lib/model';
 import { t } from '../../../../lib/i18n';
 import { breadcrumbLd, faqLd, softwareAppLd, webPageLd, organizationLd, type FaqItem } from '../../../../lib/seo';
 import type { PageEntry } from '../../../../lib/model';
@@ -32,11 +32,12 @@ const { lang, feature } = Astro.params as { lang: string; feature: string };
 const brand = brandForLang(lang);
 const cluster = featureCluster(feature);
 
-// {n} = antal länder, tillgängligt i ALLA feature-strängar. Sidorna skrevs en
-// gång med "55 länder" inbakat i texten och datan säger nu 56 — en siffra i
-// prosa åldras tyst, en platshållare gör det inte. Nya strängar ska använda {n}.
-const countryCount = new Set(allCountryPages().map((p) => p.iso)).size;
-const vars = { brand, n: countryCount };
+// Täckningssiffrorna är tillgängliga i ALLA feature-strängar: {n} länder,
+// {overlay} med zonlager, {notam} med NOTAM, {notamExtra} utöver zonlagren,
+// {langs} språk. Sidorna skrevs en gång med siffrorna inbakade i texten och
+// "18 länder" hann bli fel i ett halvår — en siffra i prosa åldras tyst, en
+// platshållare gör det inte. Nya strängar ska ALLTID använda platshållarna.
+const vars = { brand, ...siteCounts() };
 
 const title = t(`feat.${feature}.title`, lang, vars);
 const description = t(`feat.${feature}.desc`, lang, vars);
