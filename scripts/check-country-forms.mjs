@@ -97,9 +97,18 @@ for (const file of files.sort()) {
     if (!name) continue;
     const form = forms[iso].in;
     if (inflects) {
-      // Böjande språk: formen MÅSTE skilja sig från nominativen.
-      if (form.trim() === name.trim()) wrong.push(`${iso} "${form}" är oböjd`);
-    } else if (!form.includes(name)) {
+      // Böjande språk: formen MÅSTE skilja sig från nominativen — om den inte
+      // är explicit markerad som oböjlig. Indeklinabla lånord finns på riktigt
+      // (lt/lv "Peru", "Čile"), och utan preposition blir de identiska med
+      // nominativen. Flaggan tvingar fram ett medvetet beslut i stället för att
+      // vakten tystas generellt.
+      if (form.trim() === name.trim() && !forms[iso].indeclinable) {
+        wrong.push(`${iso} "${form}" är oböjd (sätt "indeclinable": true om det stämmer)`);
+      }
+    } else if (!form.toLowerCase().includes(name.toLowerCase())) {
+      // Skiftlägesokänsligt: artikelsammansmältning kan ändra initialen
+      // (mt "Il-Brażil" -> "fil-Brażil"), och källdatan är inte konsekvent i
+      // versalisering av artikeln.
       wrong.push(`${iso} "${form}" saknar "${name}"`);
     }
   }

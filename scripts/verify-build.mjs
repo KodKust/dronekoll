@@ -215,7 +215,9 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
   // det slarvet. I stället låser vi fast de utrullade språken.
   //
   // → Utökas när ett språk får landsformer. Listan ÄR kontraktet.
-  const COUNTRY_ROLLED_OUT = ['sv', 'en', 'de', 'nl', 'da', 'no', 'es', 'fi', 'it', 'fr', 'pt', 'bg', 'ro'];
+  // ALLA 27 språk är utrullade sedan 2026-07-29. Listan behålls som kontrakt:
+  // ett nytt språk måste läggas till här för att vaktas.
+  const COUNTRY_ROLLED_OUT = LANGS;
   const REQUIRE_COUNTRY = ['faq.q.credential', 'faq.q.rules', 'faq.q.zones', 'faq.q.authority'];
   const CASE_KEYS = new Set(['country', 'countryIn', 'countryGen']);
   for (const key of REQUIRE_COUNTRY) {
