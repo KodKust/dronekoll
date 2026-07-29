@@ -279,13 +279,28 @@ export function relatedCountries(page: PageEntry, n = 4): PageEntry[] {
     .map((x) => x.p);
 }
 
-/** Hubb-kluster: alla 27 hubbar + x-default = /en/. */
+/**
+ * Hubb-kluster: alla 27 hubbar + x-default.
+ *
+ * ENGELSKAN PEKAR PÅ "/" — INTE "/en/". Sajten hade två engelska hubbar med
+ * i praktiken samma innehåll (samma H1, ~1 % textskillnad), båda med egen
+ * canonical. Google fick två kandidater för samma sökning och röster som borde
+ * samlats på en URL delades på två. "/" är den valda kanoniska engelska hubben:
+ * den är kortast, äldst och den som appen och butikslänkarna pekar på.
+ *
+ * En 301 vore renare men går inte — sajten ligger på GitHub Pages, som bara
+ * lämnar ut färdiga filer och inte kan svara med en omdirigering. Därför
+ * konsolideras det med canonical + hreflang i stället: /en/ ligger kvar och
+ * pekar ut "/" som originalet, och ingen hreflang pekar längre på /en/.
+ * hreflang MÅSTE peka på kanoniska URL:er — pekar de på en sida som
+ * canonicalar bort sig själv ignorerar Google hela klustret.
+ */
 export function hubCluster(): Alternate[] {
   const alts: Alternate[] = LANGUAGE_CODES.map((l) => ({
     hreflang: l,
-    href: `${SITE}/${l}/`,
+    href: l === 'en' ? `${SITE}/` : `${SITE}/${l}/`,
   }));
-  alts.push({ hreflang: 'x-default', href: `${SITE}/en/` });
+  alts.push({ hreflang: 'x-default', href: `${SITE}/` });
   return alts;
 }
 

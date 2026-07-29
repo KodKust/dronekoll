@@ -14,7 +14,7 @@ import FeatureBand from '../components/FeatureBand.astro';
 import CountrySearch from '../components/CountrySearch.astro';
 import CountryGrid from '../components/CountryGrid.astro';
 import AppCta from '../components/AppCta.astro';
-import { allCountryPages, SITE } from '../lib/model';
+import { allCountryPages, hubCluster, SITE } from '../lib/model';
 import { zoneCountByIso } from '../lib/ingest';
 import { t } from '../lib/i18n';
 import { organizationLd, webSiteLd, softwareAppLd } from '../lib/seo';
@@ -27,10 +27,12 @@ const totalZones = Object.values(zoneCountByIso()).reduce((a, b) => a + b, 0);
 
 const title = t('meta.title.home', 'en', { brand: 'DroneKoll', n: totalCountries });
 const description = t('meta.desc.home', 'en', { n: totalCountries });
-const alternates = [
-  { hreflang: 'en', href: `${SITE}/` },
-  { hreflang: 'x-default', href: `${SITE}/` },
-];
+// "/" ÄR den engelska hubben och bär därför hela 27-språksklustret — inte bara
+// sig själv. Tidigare deklarerade den bara en+x-default, medan /en/ bar alla 27:
+// besökaren som landade här hittade ingen väg till sitt språk, och Google såg
+// två engelska sidor utan att veta vilken som gällde. hubCluster() pekar nu
+// engelskan hit, så samma funktion tjänar alla 27 hubbar. Se model.ts.
+const alternates = hubCluster();
 const ldBlocks = [organizationLd(), webSiteLd('en'), softwareAppLd('en')];
 ---
 

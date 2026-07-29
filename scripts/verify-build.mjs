@@ -316,6 +316,34 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
     ok(`Rubrikstruktur hel — inga trasiga aria-referenser, inga id-dubbletter (${n} sidor)`);
 }
 
+// ── 10. Sitemapen får bara innehålla kanoniska URL:er ───────────────────────
+// En sitemap är en lista över sidor vi BER Google indexera. Står där en sida
+// som samtidigt säger "originalet finns någon annanstans" ger vi två motstridiga
+// besked om samma URL, och Google får välja själv. Uppstod konkret när /en/
+// pekades om mot "/" (2026-07-29): sidan låg kvar i sitemapen i samma andetag
+// som den kanonikaliserades bort. Samma vakt fångar nästa gång en dublett
+// kanonikaliseras utan att lyftas ur listan.
+{
+  const sm = pages.find((p) => p.endsWith('sitemap.xml'));
+  const smPath = join(DIST, 'sitemap.xml');
+  const xml = existsSync(smPath) ? readFileSync(smPath, 'utf8') : (sm ? readFileSync(sm, 'utf8') : null);
+  if (!xml) {
+    console.log('○ Sitemap-canonicalvakt: dist/sitemap.xml saknas — hoppas');
+  } else {
+    const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+    const bad = [];
+    for (const loc of locs) {
+      const html = pageByUrl.get(loc);
+      if (!html) continue; // täcks av sektion 1
+      const m = html.match(/rel="canonical" href="([^"]+)"/);
+      if (m && m[1] !== loc) bad.push(`${loc} → canonical ${m[1]}`);
+    }
+    if (bad.length)
+      fail(`Sitemap listar icke-kanoniska URL:er (${bad.length}): ${bad.slice(0, 5).join(' · ')}`);
+    else ok(`Sitemap: alla ${locs.length} URL:er är sin egen canonical`);
+  }
+}
+
 // ── 6. Sträng-/notvakt: visitor-notes struktur + platshållare/skriftsystem ───
 // Kompletterar sektion 5: den vaktar web_strings-nycklar, denna vaktar de 49
 // landsnoterna (inga { } som bryter t()-substitution, skiljetecken, längd,

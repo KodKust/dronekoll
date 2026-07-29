@@ -47,17 +47,17 @@ function urlEntry(
 export const GET: APIRoute = () => {
   const entries: string[] = [];
 
-  // Hem (fristående kluster: en + x-default = sig själv)
-  entries.push(
-    urlEntry(`${SITE}/`, [
-      { hreflang: 'en', href: `${SITE}/` },
-      { hreflang: 'x-default', href: `${SITE}/` },
-    ], BUILD_DATE, '1.0', 'weekly'),
-  );
+  // Hem = den engelska hubben, och bär därför HELA 27-språksklustret — inte
+  // längre bara sig själv. Måste vara identiskt med klustret i sidans <head>
+  // (src/pages/index.astro), annars ser Google två olika svar på samma fråga.
+  entries.push(urlEntry(`${SITE}/`, hubCluster(), BUILD_DATE, '1.0', 'weekly'));
 
-  // 27 hubbar — delar ett kluster
+  // 26 hubbar — delar ett kluster. /en/ UTELÄMNAS: den canonicalar mot "/" (se
+  // hubCluster i model.ts) och en sitemap ska bara innehålla kanoniska URL:er —
+  // annars ber vi Google indexera en sida som samtidigt säger "indexera mig inte".
+  // Engelskan finns i sitemapen som "/" högst upp.
   const hubs = hubCluster();
-  for (const lang of LANGUAGE_CODES) {
+  for (const lang of LANGUAGE_CODES.filter((l) => l !== 'en')) {
     entries.push(urlEntry(`${SITE}/${lang}/`, hubs, BUILD_DATE, '0.6', 'weekly'));
   }
 

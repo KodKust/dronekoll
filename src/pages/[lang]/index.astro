@@ -22,6 +22,7 @@ import {
   countriesForLang,
   hubCluster,
   brandForLang,
+  SITE,
 } from '../../lib/model';
 import { t } from '../../lib/i18n';
 import { zoneCountByIso } from '../../lib/ingest';
@@ -47,9 +48,20 @@ const totalZones = Object.values(zoneCountByIso()).reduce((a, b) => a + b, 0);
 const title = t('meta.title.hub', lang, { brand: brandForLang(lang) });
 const description = t('meta.desc.hub', lang, { n: totalCountries });
 const ldBlocks = [organizationLd(), webSiteLd(lang)];
+
+// /en/ är en dublett av "/" — samma H1, ~1 % textskillnad — och pekar därför ut
+// "/" som originalet. Sidan ligger kvar (inkommande länkar ska inte dö) men
+// konkurrerar inte längre med "/" om samma sökning. En 301 vore renare, men
+// GitHub Pages lämnar bara ut färdiga filer och kan inte omdirigera.
+const canonical = lang === 'en' ? `${SITE}/` : undefined;
+// ...och bär då INGA hreflang-alternativ. En sida som pekar ut någon annan som
+// original ska inte stå i språkgrafen — "/" bär hela klustret för engelskan.
+// Låter man /en/ ligga kvar i grafen bryts dessutom reciprociteten: de 26 andra
+// hubbarna pekar på "/", inte tillbaka på /en/. Språkväljaren i Header är UI och
+// får hubCluster() oavsett — besökaren ska kunna byta språk även här.
 ---
 
-<Base title={title} description={description} lang={lang} alternates={hubCluster()}>
+<Base title={title} description={description} lang={lang} alternates={lang === 'en' ? [] : hubCluster()} canonical={canonical}>
   <Fragment slot="head">
     {ldBlocks.map((ld) => (
       <script type="application/ld+json" set:html={JSON.stringify(ld)} />
