@@ -1,0 +1,139 @@
+---
+/**
+ * Metodsidan — /{lang}/how-we-verify/.
+ *
+ * Sajtens E-E-A-T-yta. Landssidorna visar redan myndighet, regelverk,
+ * verifieringsdatum och källänkar, men de visar inte VEM som sammanställt
+ * dem eller HUR kontrollen går till. För YMYL-innehåll (drönarregler kan ge
+ * böter och flygförbud) är just det den tyngsta signalen — och den kan inte
+ * fejkas: en påhittad "juridisk granskare" är värre än ingen alls.
+ * Avsändaren här är därför densamma som i integritetspolicyn, som redan
+ * namnger personuppgiftsansvarig enligt GDPR. Byt avsändare på ETT ställe:
+ * nyckeln method.author i web_strings.json.
+ *
+ * Slug är engelsk på alla språk — samma produktnamnrymd som /app/-sidorna.
+ * Sidan genereras bara på språk som har egen text (methodLangs), aldrig som
+ * halvengelsk sida: en förtroendesida på fel språk motverkar sitt syfte.
+ */
+import Base from '../../../layouts/Base.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import AppCta from '../../../components/AppCta.astro';
+import {
+  allCountryPages,
+  methodLangs,
+  methodCluster,
+  brandForLang,
+  hubCluster,
+  SITE,
+} from '../../../lib/model';
+import { t } from '../../../lib/i18n';
+import { organizationLd } from '../../../lib/seo';
+
+export function getStaticPaths() {
+  return methodLangs().map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+const brand = brandForLang(lang);
+const n = new Set(allCountryPages().map((p) => p.iso)).size;
+const vars = { brand, n };
+
+const title = t('meta.title.method', lang, vars);
+const description = t('meta.desc.method', lang, vars);
+const author = t('method.author', lang, vars);
+
+// Avsnitten: s1..s5. Samma tåliga mönster som funktionssidorna — ett avsnitt
+// vars text inte finns hoppas över i stället för att rendera nyckelnamnet.
+const sections = [1, 2, 3, 4, 5]
+  .map((i) => ({
+    id: `method-s${i}`,
+    title: t(`method.s${i}.title`, lang, vars),
+    body: t(`method.s${i}.body`, lang, vars),
+  }))
+  .filter((s) => !s.title.startsWith('method.') && !s.body.startsWith('method.'));
+
+const ldBlocks = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${SITE}/${lang}/how-we-verify/`,
+    url: `${SITE}/${lang}/how-we-verify/`,
+    name: title,
+    description,
+    inLanguage: lang,
+    // author/publisher pekar på samma verkliga avsändare som sidan visar.
+    // Schemat får ALDRIG påstå mer än den synliga texten gör.
+    author: { '@type': 'Organization', name: author },
+    publisher: { '@type': 'Organization', name: 'DroneKoll', url: SITE },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t('bc.home', lang), item: `${SITE}/${lang}/` },
+      { '@type': 'ListItem', position: 2, name: t('method.bc', lang), item: `${SITE}/${lang}/how-we-verify/` },
+    ],
+  },
+  organizationLd(),
+];
+---
+
+<Base title={title} description={description} lang={lang} alternates={methodCluster()}>
+  <Fragment slot="head">
+    {ldBlocks.map((ld) => (
+      <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+    ))}
+  </Fragment>
+
+  <Header lang={lang} cluster={hubCluster()} />
+
+  <main id="main-content">
+    {/* ── Hero ───────────────────────────────────────────────────────── */}
+    <section class="band band--paper" aria-labelledby="method-heading">
+      <div class="content hero-seq">
+        <Breadcrumbs
+          items={[
+            { label: t('bc.home', lang), href: `/${lang}/` },
+            { label: t('method.bc', lang) },
+          ]}
+        />
+        <h1 id="method-heading">
+          {t('method.h1.pre', lang, vars)}{' '}
+          <span class="h-accent">{t('method.h1.accent', lang, vars)}</span>
+        </h1>
+        <p class="lede prose">{t('method.lede', lang, vars)}</p>
+        <p class="small method-byline">{t('method.byline', lang, { ...vars, author })}</p>
+      </div>
+    </section>
+
+    {/* ── Metoden, avsnitt för avsnitt ───────────────────────────────── */}
+    {sections.map((s) => (
+      <section class="band band--canvas method-section" aria-labelledby={s.id}>
+        <div class="content">
+          <h2 id={s.id}>{s.title}</h2>
+          <p class="prose method-body">{s.body}</p>
+        </div>
+      </section>
+    ))}
+
+    {/* ── CTA ────────────────────────────────────────────────────────── */}
+    <section class="band band--paper">
+      <div class="wide">
+        <AppCta lang={lang} />
+      </div>
+    </section>
+  </main>
+
+  <Footer lang={lang} />
+</Base>
+
+<style>
+  .method-byline { color: var(--ink-2); }
+  /* Varannat band skiftar redan bakgrund via band--canvas/paper; avsnitten
+     hålls ihop som ETT block i stället för att blinka mellan valörerna. */
+  .method-section + .method-section { padding-top: 0; }
+  .method-section h2 { margin-bottom: var(--space-4); }
+  .method-body { max-width: var(--w-prose); }
+</style>

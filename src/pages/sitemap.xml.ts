@@ -10,6 +10,8 @@ import {
   hubCluster,
   featureCluster,
   featureLangs,
+  methodLangs,
+  methodCluster,
   loadFeatures,
   LANGUAGE_CODES,
   SITE,
@@ -60,6 +62,12 @@ export const GET: APIRoute = () => {
   const hubs = hubCluster();
   for (const lang of LANGUAGE_CODES.filter((l) => l !== 'en')) {
     entries.push(urlEntry(`${SITE}/${lang}/`, hubs, BUILD_DATE, '0.6', 'weekly'));
+  }
+
+  // Metodsidan — bara språk som har egen text (methodLangs)
+  const methodAlts = methodCluster();
+  for (const lang of methodLangs()) {
+    entries.push(urlEntry(`${SITE}/${lang}/how-we-verify/`, methodAlts, BUILD_DATE, '0.5', 'monthly'));
   }
 
   // Landssidor — varje sida bär sitt lands kluster

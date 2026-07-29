@@ -304,8 +304,14 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
     const idSet = new Set(ids);
     if (ids.length !== idSet.size) duped.push(url);
     for (const l of labels) if (!idSet.has(l)) dangling.push(`${url} → #${l}`);
-    for (const need of ['rules-heading', 'sources-heading']) {
-      if (!idSet.has(need)) missing.push(`${url} → #${need}`);
+    // Regler-/källrubrikerna krävs bara av LANDSSIDOR. Andra mallar (metodsidan,
+    // funktionssidorna) har aria-labelledby men varken regler eller källor.
+    // Kännetecknet är regelbandet id="rules" — det finns bara på landssidan.
+    const isCountryPage = /\sid="rules"/.test(html);
+    if (isCountryPage) {
+      for (const need of ['rules-heading', 'sources-heading']) {
+        if (!idSet.has(need)) missing.push(`${url} → #${need}`);
+      }
     }
   }
   const n = pageByUrl.size;

@@ -4,7 +4,7 @@
  * cameo). Mono-wordmark + disclaimer, språkgrid, legal/om/källor, bygg-datum.
  */
 import Wordmark from './Wordmark.astro';
-import { LANGUAGES, brandForLang, tFeature, featuresForLang } from '../lib/model';
+import { LANGUAGES, brandForLang, tFeature, featuresForLang, methodLangs } from '../lib/model';
 import { t } from '../lib/i18n';
 
 interface Props {
@@ -44,6 +44,12 @@ const buildDate = new Date().toISOString().slice(0, 10);
 
       <nav aria-label="Legal">
         <ul class="site-footer__legal">
+          {/* Metodsidan bär sajtens E-E-A-T: vem som sammanställt reglerna och
+              hur de kontrolleras. Länkas från varje sida — en förtroendesida
+              utan ingång gör ingen nytta. Bara på språk där den finns. */}
+          {methodLangs().includes(lang) && (
+            <li><a href={`/${lang}/how-we-verify/`}>{t('method.bc', lang)}</a></li>
+          )}
           <li><a href="/privacy/">{t('footer.privacy', lang)}</a></li>
           <li><a href={`/${lang}/`}>{t('nav.allCountries', lang)}</a></li>
         </ul>

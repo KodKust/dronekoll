@@ -358,6 +358,45 @@ const FEATURE_CORE_KEYS = ['name', 'title', 'desc', 'h1.pre', 'h1.accent', 'lede
  * inte återuppstå. Använd den i stället för t() för allt som börjar på "feat.".
  */
 /**
+ * Språk som har egen text för metodsidan (/{lang}/how-we-verify/).
+ *
+ * Samma princip som featureLangs, men mot web_strings: sidan finns bara där
+ * texten finns. En metodsida vars poäng ÄR att inge förtroende får inte vara
+ * halvengelsk — då motverkar den sig själv.
+ */
+const METHOD_CORE_KEYS = [
+  'meta.title.method', 'meta.desc.method', 'method.bc', 'method.h1.pre',
+  'method.h1.accent', 'method.lede', 'method.byline', 'method.author',
+];
+
+let _methodLangs: string[] | null = null;
+export function methodLangs(): string[] {
+  if (_methodLangs) return _methodLangs;
+  const cat = JSON.parse(
+    readFileSync(join(process.cwd(), 'data', 'web-strings', 'web_strings.json'), 'utf8'),
+  ) as Record<string, Record<string, string>>;
+  _methodLangs = LANGUAGE_CODES.filter((l) =>
+    METHOD_CORE_KEYS.every((k) => {
+      const v = cat[k]?.[l];
+      return typeof v === 'string' && v.trim() !== '';
+    }),
+  );
+  return _methodLangs;
+}
+
+/** hreflang-kluster för metodsidan — bara språk som har egen text. */
+export function methodCluster(): Alternate[] {
+  const langs = methodLangs();
+  const alts: Alternate[] = langs.map((l) => ({
+    hreflang: l,
+    href: `${SITE}/${l}/how-we-verify/`,
+  }));
+  const xd = langs.includes('en') ? 'en' : langs[0];
+  if (xd) alts.push({ hreflang: 'x-default', href: `${SITE}/${xd}/how-we-verify/` });
+  return alts;
+}
+
+/**
  * Funktioner som ska LÄNKAS på ett visst språk.
  *
  * Lika viktig som featureLangs. Sidan kan vara korrekt grindad och ändå läcka:
