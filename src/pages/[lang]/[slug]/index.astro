@@ -88,7 +88,7 @@ const sections = [
 ] as Array<'rules' | 'map' | 'zones' | 'faq' | 'sources'>;
 
 const ldBlocks = [
-  webPageLd(page, title, description, ['.quick-answer']),
+  webPageLd(page, title, description),
   breadcrumbLd(page),
   ...(faqItems.length > 0 ? [faqLd(faqItems)] : []),
   softwareAppLd(lang),

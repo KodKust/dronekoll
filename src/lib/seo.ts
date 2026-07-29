@@ -80,7 +80,16 @@ export function breadcrumbLd(page: PageEntry) {
   };
 }
 
-export function webPageLd(page: PageEntry, title: string, description: string, speakable?: string[]) {
+/**
+ * speakable BORTTAGET 2026-07-29. Det var tänkt som röst-/AI-extraktion mot
+ * quick-answer-boxen, men Googles implementation av speakable gäller
+ * betafunktionen för ENGELSKSPRÅKIGA NYHETSFRÅGOR I USA — den gör ingenting
+ * för regelsidor på 27 språk. Schemat ska inte bära löften som inte infrias;
+ * varje sådant fält är en påstådd egenskap som en granskare måste avfärda.
+ * Vill man göra snabbsvaret maskinläsbart är vägen att göra SJÄLVA SVARET
+ * konkret, inte att märka en generisk text som uppläsbar.
+ */
+export function webPageLd(page: PageEntry, title: string, description: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
@@ -90,8 +99,6 @@ export function webPageLd(page: PageEntry, title: string, description: string, s
     inLanguage: page.lang,
     ...(page.country.lastVerified ? { dateModified: page.country.lastVerified } : {}),
     isPartOf: { '@type': 'WebSite', name: brandForLang(page.lang), url: SITE },
-    // Röst-/AI-extraktion: peka på quick-answer-boxen (C4) när den finns.
-    ...(speakable ? { speakable: { '@type': 'SpeakableSpecification', cssSelector: speakable } } : {}),
   };
 }
 
