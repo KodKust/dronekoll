@@ -31,7 +31,7 @@ const brand = brandForLang(lang);
       <a class="site-header__link" href={`/${lang}/`}>{t('nav.allCountries', lang)}</a>
       <a class="site-header__link" href={`/${lang}/app/`}>{t('app.bc', lang)}</a>
       <LanguageSwitcher lang={lang} cluster={cluster} />
-      <a class="btn btn--primary site-header__app" href={APP_STORE_URL} rel="noopener">{t('nav.getApp', lang)}</a>
+      <a class="btn btn--primary site-header__app" href={APP_STORE_URL} rel="noopener" data-cta="header">{t('nav.getApp', lang)}</a>
 
       <details class="site-menu">
         <summary class="site-menu__btn" aria-label={t('nav.menu', lang)}>
@@ -45,7 +45,7 @@ const brand = brandForLang(lang);
         <div class="site-menu__pop card">
           <a class="site-menu__link" href={`/${lang}/`}>{t('nav.allCountries', lang)}</a>
           <a class="site-menu__link" href={`/${lang}/app/`}>{t('app.bc', lang)}</a>
-          <a class="btn btn--primary site-menu__cta" href={APP_STORE_URL} rel="noopener">{t('nav.getApp', lang)}</a>
+          <a class="btn btn--primary site-menu__cta" href={APP_STORE_URL} rel="noopener" data-cta="menu">{t('nav.getApp', lang)}</a>
         </div>
       </details>
     </nav>

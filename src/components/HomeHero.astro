@@ -39,7 +39,7 @@ const [zPre, zPost = ''] = t('home.trust.zones', lang, { n: '__N__' }).split('__
       </h1>
       <p class="lede home-hero__lede">{t('home.lede', lang, { n: totalCountries })}</p>
       <div class="home-hero__cta">
-        <a class="btn btn--primary" href={APP_STORE_URL} rel="noopener">{t('nav.getApp', lang)}</a>
+        <a class="btn btn--primary" href={APP_STORE_URL} rel="noopener" data-cta="hero">{t('nav.getApp', lang)}</a>
         <a class="home-hero__explore" href={`/${lang}/app/`}>
           {t('app.overview.h1.pre', lang)} {t('app.overview.h1.accent', lang)} →
         </a>

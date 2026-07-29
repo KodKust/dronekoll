@@ -90,16 +90,39 @@ const {
           src="//gc.zgo.at/count.js"
         ></script>
         <script is:inline>
-          {/* Store-klick → events (path=ios-click/android-click), med GoatCounters
-              inbyggda land-data per hit. Delegerad lyssnare täcker alla store-länkar. */}
+          {/* Store-klick → events, med GoatCounters inbyggda land-data per hit.
+              Delegerad lyssnare täcker alla store-länkar.
+
+              SEDAN 2026-07-29 bär sökvägen språk och PLACERING:
+                ios-click/sv/header · ios-click/de/appblock · android-click/en/hero
+              Tidigare räknades varje klick som bara "ios-click", vilket gjorde det
+              omöjligt att se VILKEN knapp som konverterar — och därmed omöjligt att
+              flytta den till rätt ställe på annat än känsla.
+
+              ⚠️ Historiken bryter av här: gamla "ios-click" går inte att jämföra
+              rakt av med de nya sökvägarna. Summera på prefix när du ser bakåt.
+
+              Placeringen kommer ur data-cta på länken; saknas den används "other",
+              så en ny knapp någon glömmer märka fortfarande räknas — bara inte
+              tillskrivs. Språket läses ur <html lang>, ingen koppling till bygget. */}
           document.addEventListener('click', function (e) {
             var a = e.target.closest && e.target.closest('a[href]');
             if (!a || !window.goatcounter || !window.goatcounter.count) return;
             var h = a.href;
-            if (h.indexOf('apps.apple.com') > -1)
-              window.goatcounter.count({ path: 'ios-click', title: 'iOS store click', event: true });
-            else if (h.indexOf('play.google.com') > -1)
-              window.goatcounter.count({ path: 'android-click', title: 'Android store click', event: true });
+            var store =
+              h.indexOf('apps.apple.com') > -1
+                ? 'ios-click'
+                : h.indexOf('play.google.com') > -1
+                  ? 'android-click'
+                  : null;
+            if (!store) return;
+            var lang = document.documentElement.lang || 'en';
+            var placement = a.getAttribute('data-cta') || 'other';
+            window.goatcounter.count({
+              path: store + '/' + lang + '/' + placement,
+              title: (store === 'ios-click' ? 'iOS' : 'Android') + ' store click · ' + placement,
+              event: true,
+            });
           });
         </script>
       </Fragment>
