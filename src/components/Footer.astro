@@ -4,7 +4,7 @@
  * cameo). Mono-wordmark + disclaimer, språkgrid, legal/om/källor, bygg-datum.
  */
 import Wordmark from './Wordmark.astro';
-import { LANGUAGES, brandForLang, loadFeatures } from '../lib/model';
+import { LANGUAGES, brandForLang, tFeature, featuresForLang } from '../lib/model';
 import { t } from '../lib/i18n';
 
 interface Props {
@@ -36,8 +36,8 @@ const buildDate = new Date().toISOString().slice(0, 10);
         <p class="overline site-footer__label">{t('app.bc', lang)}</p>
         <ul class="site-footer__legal">
           <li><a href={`/${lang}/app/`}>{t('app.bc', lang)}</a></li>
-          {loadFeatures().map((f) => (
-            <li><a href={`/${lang}/app/${f.slug}/`}>{t(`feat.${f.slug}.name`, lang)}</a></li>
+          {featuresForLang(lang).map((f) => (
+            <li><a href={`/${lang}/app/${f.slug}/`}>{tFeature(f.slug, 'name', lang)}</a></li>
           ))}
         </ul>
       </nav>

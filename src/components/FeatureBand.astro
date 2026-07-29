@@ -7,7 +7,7 @@
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import FeatureCard from './FeatureCard.astro';
-import { loadFeatures } from '../lib/model';
+import { tFeature, featuresForLang } from '../lib/model';
 import { t } from '../lib/i18n';
 
 interface Props {
@@ -15,10 +15,10 @@ interface Props {
 }
 const { lang } = Astro.props;
 
-const features = loadFeatures().map((f) => ({
+const features = featuresForLang(lang).map((f) => ({
   slug: f.slug,
-  name: t(`feat.${f.slug}.name`, lang),
-  desc: t(`feat.${f.slug}.desc`, lang),
+  name: tFeature(f.slug, 'name', lang),
+  desc: tFeature(f.slug, 'desc', lang),
   image: existsSync(join(process.cwd(), 'public', 'device', f.slug, `${lang}.webp`))
     ? `/device/${f.slug}/${lang}.webp`
     : undefined,

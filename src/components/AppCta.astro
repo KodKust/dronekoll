@@ -9,7 +9,7 @@
  * Den nya hero-drönaren används ALDRIG här (varumärkesbilden är startsidans).
  */
 import { t } from '../lib/i18n';
-import { brandForLang, loadFeatures } from '../lib/model';
+import { brandForLang, tFeature, featuresForLang } from '../lib/model';
 import { APP_STORE_URL, PLAY_STORE_URL, loadRating } from '../lib/seo';
 import StarRating from './StarRating.astro';
 
@@ -36,9 +36,9 @@ const {
   deviceAlt = '',
 } = Astro.props;
 const brand = brandForLang(lang);
-const featureLinks = loadFeatures().map((f) => ({
+const featureLinks = featuresForLang(lang).map((f) => ({
   href: `/${lang}/app/${f.slug}/`,
-  name: t(`feat.${f.slug}.name`, lang),
+  name: tFeature(f.slug, 'name', lang),
 }));
 const rating = loadRating();
 ---

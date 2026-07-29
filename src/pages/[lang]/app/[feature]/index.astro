@@ -14,14 +14,17 @@ import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
 import BenefitGrid from '../../../../components/BenefitGrid.astro';
 import FaqBlock from '../../../../components/FaqBlock.astro';
 import AppCta from '../../../../components/AppCta.astro';
-import { LANGUAGE_CODES, loadFeatures, featureCluster, brandForLang, SITE } from '../../../../lib/model';
+import { allCountryPages, loadFeatures, featureLangs, featureCluster, brandForLang, SITE } from '../../../../lib/model';
 import { t } from '../../../../lib/i18n';
 import { breadcrumbLd, faqLd, softwareAppLd, webPageLd, organizationLd, type FaqItem } from '../../../../lib/seo';
 import type { PageEntry } from '../../../../lib/model';
 
 export function getStaticPaths() {
-  return LANGUAGE_CODES.flatMap((lang) =>
-    loadFeatures().map((feature) => ({ params: { lang, feature: feature.slug } })),
+  // Per FEATURE, inte per språk: en sida genereras bara på de språk som har egen
+  // text för just den funktionen (featureLangs). En ny funktionssida kan därmed
+  // rullas ut språk för språk utan att någon besökare möter en halvengelsk sida.
+  return loadFeatures().flatMap((feature) =>
+    featureLangs(feature.slug).map((lang) => ({ params: { lang, feature: feature.slug } })),
   );
 }
 
@@ -29,20 +32,26 @@ const { lang, feature } = Astro.params as { lang: string; feature: string };
 const brand = brandForLang(lang);
 const cluster = featureCluster(feature);
 
-const title = t(`feat.${feature}.title`, lang, { brand });
-const description = t(`feat.${feature}.desc`, lang);
-const name = t(`feat.${feature}.name`, lang);
+// {n} = antal länder, tillgängligt i ALLA feature-strängar. Sidorna skrevs en
+// gång med "55 länder" inbakat i texten och datan säger nu 56 — en siffra i
+// prosa åldras tyst, en platshållare gör det inte. Nya strängar ska använda {n}.
+const countryCount = new Set(allCountryPages().map((p) => p.iso)).size;
+const vars = { brand, n: countryCount };
+
+const title = t(`feat.${feature}.title`, lang, vars);
+const description = t(`feat.${feature}.desc`, lang, vars);
+const name = t(`feat.${feature}.name`, lang, vars);
 
 // Benefits: b1..b6 — bara de som finns
 const benefits = ['b1', 'b2', 'b3', 'b4', 'b5', 'b6']
-  .map((k) => t(`feat.${feature}.${k}`, lang))
+  .map((k) => t(`feat.${feature}.${k}`, lang, vars))
   .filter((s) => !s.startsWith('feat.'));
 
 // FAQ: faq1..faq4
 const faqItems: FaqItem[] = [];
 for (const n of [1, 2, 3, 4]) {
-  const q = t(`feat.${feature}.faq${n}.q`, lang);
-  const a = t(`feat.${feature}.faq${n}.a`, lang);
+  const q = t(`feat.${feature}.faq${n}.q`, lang, vars);
+  const a = t(`feat.${feature}.faq${n}.a`, lang, vars);
   if (!q.startsWith('feat.') && !a.startsWith('feat.')) faqItems.push({ q, a });
 }
 
@@ -109,10 +118,10 @@ const ldBlocks = [
         />
         <p class="overline">{t('app.bc', lang)}</p>
         <h1>
-          {t(`feat.${feature}.h1.pre`, lang)}{' '}
-          <span class="h-accent">{t(`feat.${feature}.h1.accent`, lang)}</span>
+          {t(`feat.${feature}.h1.pre`, lang, vars)}{' '}
+          <span class="h-accent">{t(`feat.${feature}.h1.accent`, lang, vars)}</span>
         </h1>
-        <p class="lede">{t(`feat.${feature}.lede`, lang)}</p>
+        <p class="lede">{t(`feat.${feature}.lede`, lang, vars)}</p>
       </div>
       {deviceImage && (
         <div class="feat-hero__device">

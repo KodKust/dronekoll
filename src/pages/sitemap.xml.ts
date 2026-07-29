@@ -9,6 +9,7 @@ import {
   allCountryPages,
   hubCluster,
   featureCluster,
+  featureLangs,
   loadFeatures,
   LANGUAGE_CODES,
   SITE,
@@ -71,9 +72,11 @@ export const GET: APIRoute = () => {
   for (const lang of LANGUAGE_CODES) {
     entries.push(urlEntry(`${SITE}/${lang}/app/`, appOverview, BUILD_DATE, '0.7', 'monthly'));
   }
+  // Bara de språk sidan faktiskt genereras på (featureLangs) — en sitemap får
+  // aldrig lista en URL som inte finns i dist/.
   for (const feature of loadFeatures()) {
     const cluster = featureCluster(feature.slug);
-    for (const lang of LANGUAGE_CODES) {
+    for (const lang of featureLangs(feature.slug)) {
       entries.push(urlEntry(`${SITE}/${lang}/app/${feature.slug}/`, cluster, BUILD_DATE, '0.7', 'monthly'));
     }
   }

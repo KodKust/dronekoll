@@ -16,7 +16,7 @@ import Footer from '../../../components/Footer.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import FeatureCard from '../../../components/FeatureCard.astro';
 import AppCta from '../../../components/AppCta.astro';
-import { LANGUAGE_CODES, loadFeatures, featureCluster, brandForLang } from '../../../lib/model';
+import { LANGUAGE_CODES, featureCluster, brandForLang, tFeature, featuresForLang } from '../../../lib/model';
 import { t } from '../../../lib/i18n';
 import { softwareAppLd, organizationLd, webSiteLd } from '../../../lib/seo';
 
@@ -31,10 +31,10 @@ const cluster = featureCluster(null);
 const title = t('app.overview.title', lang, { brand });
 const description = t('app.overview.desc', lang);
 
-const features = loadFeatures().map((f) => ({
+const features = featuresForLang(lang).map((f) => ({
   slug: f.slug,
-  name: t(`feat.${f.slug}.name`, lang),
-  lede: t(`feat.${f.slug}.desc`, lang),
+  name: tFeature(f.slug, 'name', lang),
+  lede: tFeature(f.slug, 'desc', lang),
   image: existsSync(join(process.cwd(), 'public', 'device', f.slug, `${lang}.webp`))
     ? `/device/${f.slug}/${lang}.webp`
     : undefined,

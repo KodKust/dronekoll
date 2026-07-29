@@ -7,6 +7,7 @@ import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { loadCountries, englishContent, translatedContent } from './ingest';
 import { SlugsFileSchema } from './schema';
+import { t } from './i18n';
 import type { Country } from './schema';
 
 export const SITE = 'https://dronekoll.com';
@@ -327,14 +328,83 @@ export function loadFeatures(): FeatureDef[] {
   return _features;
 }
 
-/** hreflang-kluster för en feature-sida (samma slug alla språk) + x-default=en. */
+/**
+ * Språk som har EGEN text för en feature — inte engelsk reservtext.
+ *
+ * t() faller TYST tillbaka på engelska när ett språk saknas. För de fyra
+ * ursprungliga funktionssidorna spelade det ingen roll: de föddes med alla 27
+ * språk. En ny sida som rullas ut språk för språk skulle däremot rendera en
+ * halvengelsk sida på de språk som inte hunnit med — rubrik på engelska, chrome
+ * på svenska. Det är precis den blandspråksbugg resten av vakterna finns för.
+ *
+ * Därför genereras sidan bara för de språk som faktiskt har texten. Ett språk
+ * utan text får ingen sida alls i stället för en halvöversatt — och eftersom
+ * klustret byggs ur samma lista pekar ingen hreflang på en sida som inte finns.
+ *
+ * Bara BÄRANDE nycklar räknas. b1..b6 och faq1..faq4 utelämnas medvetet: mallen
+ * filtrerar redan bort dem som saknas, så en sida med fyra punkter i stället för
+ * sex är komplett på sitt språk, inte trasig.
+ */
+const FEATURE_CORE_KEYS = ['name', 'title', 'desc', 'h1.pre', 'h1.accent', 'lede'];
+
+/**
+ * Feature-sträng med sidans variabler ALLTID ifyllda: {brand} och {n}.
+ *
+ * Finns för att feature-strängar renderas på fem ställen — funktionssidan,
+ * FeatureBand, AppCta, Footer och /app/-översikten — och bara sidan skickade
+ * med parametrar. Första strängen med {brand} i sin `desc` läckte därför rå
+ * text på 55 hubb- och app-sidor; platshållarvakten fångade det, men bara efter
+ * att sidorna byggts. Går alla call sites genom den här funktionen kan buggen
+ * inte återuppstå. Använd den i stället för t() för allt som börjar på "feat.".
+ */
+/**
+ * Funktioner som ska LÄNKAS på ett visst språk.
+ *
+ * Lika viktig som featureLangs. Sidan kan vara korrekt grindad och ändå läcka:
+ * FeatureBand, AppCta, Footer och /app/-översikten listar alla funktioner på
+ * alla språk, så en sida som bara finns på sv+en skulle dyka upp som engelsk
+ * rubrik i en bulgarisk sidfot — och länken hade pekat på en sida som inte
+ * genererats. Menyerna visar därför bara det som faktiskt finns på språket.
+ */
+export function featuresForLang(lang: string): FeatureDef[] {
+  return loadFeatures().filter((f) => featureLangs(f.slug).includes(lang));
+}
+
+export function tFeature(
+  slug: string,
+  key: string,
+  lang: string,
+  extra?: Record<string, string | number>,
+): string {
+  const n = new Set(allCountryPages().map((p) => p.iso)).size;
+  return t(`feat.${slug}.${key}`, lang, { brand: brandForLang(lang), n, ...extra });
+}
+
+export function featureLangs(slug: string | null): string[] {
+  if (!slug) return LANGUAGE_CODES; // /app/-översikten bor i web_strings, alltid 27
+  const cat = JSON.parse(
+    readFileSync(join(process.cwd(), 'data', 'feature-strings.json'), 'utf8'),
+  ) as Record<string, Record<string, string>>;
+  return LANGUAGE_CODES.filter((l) =>
+    FEATURE_CORE_KEYS.every((k) => {
+      const v = cat[`feat.${slug}.${k}`]?.[l];
+      return typeof v === 'string' && v.trim() !== '';
+    }),
+  );
+}
+
+/** hreflang-kluster för en feature-sida — bara språk som har egen text. */
 export function featureCluster(slug: string | null): Alternate[] {
   const path = slug ? `/app/${slug}/` : '/app/';
-  const alts: Alternate[] = LANGUAGE_CODES.map((l) => ({
+  const langs = featureLangs(slug);
+  const alts: Alternate[] = langs.map((l) => ({
     hreflang: l,
     href: `${SITE}/${l}${path}`,
   }));
-  alts.push({ hreflang: 'x-default', href: `${SITE}/en${path}` });
+  // x-default = engelskan när den finns, annars första utrullade språket. En
+  // sida vars engelska ännu inte skrivits ska inte peka x-default i tomma luften.
+  const xd = langs.includes('en') ? 'en' : langs[0];
+  if (xd) alts.push({ hreflang: 'x-default', href: `${SITE}/${xd}${path}` });
   return alts;
 }
 
