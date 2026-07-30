@@ -72,10 +72,43 @@ if (countriesFile) {
   }
   const expectedCountry = real.length + nonEn + matrixOverlays;
   const LANG_COUNT = 27;
-  const featureCount = Object.keys(
+  const featureSlugs = Object.keys(
     JSON.parse(readFileSync(join(ROOT, 'data', 'feature-slugs.json'), 'utf8')),
-  ).filter((k) => !k.startsWith('_')).length;
-  const appPages = LANG_COUNT * (1 + featureCount); // översikt + features per språk
+  ).filter((k) => !k.startsWith('_'));
+  // Språkgrindade funktionssidor: en feature renderas BARA på språk där alla
+  // kärnnycklar har egen text (samma villkor + källa som model.ts featureLangs;
+  // håll dem i synk). Gamla formeln (features × 27) räknade nya grindade
+  // features som fullt utrullade → falskt sidantal-fel som blockerade
+  // deployen 2026-07-29→30 när /app/travel/ lanserades på få språk.
+  const FEATURE_CORE_KEYS = ['name', 'title', 'desc', 'h1.pre', 'h1.accent', 'lede'];
+  const featureStrings = JSON.parse(
+    readFileSync(join(ROOT, 'data', 'feature-strings.json'), 'utf8'),
+  );
+  const gatedFeaturePages = featureSlugs.reduce((sum, slug) => {
+    const langs = Object.keys(featureStrings[`feat.${slug}.name`] ?? {}).filter((l) =>
+      FEATURE_CORE_KEYS.every((k) => {
+        const v = featureStrings[`feat.${slug}.${k}`]?.[l];
+        return typeof v === 'string' && v.trim() !== '';
+      }),
+    );
+    return sum + langs.length;
+  }, 0);
+  const appPages = LANG_COUNT + gatedFeaturePages; // översikt ×27 + grindade features
+  // Metodsidan /{lang}/how-we-verify/ är också språkgrindad (model.ts
+  // methodLangs — samma nycklar, samma källa web_strings.json; håll i synk).
+  const METHOD_CORE_KEYS = [
+    'meta.title.method', 'meta.desc.method', 'method.bc', 'method.h1.pre',
+    'method.h1.accent', 'method.lede', 'method.byline', 'method.author',
+  ];
+  const wsCat = JSON.parse(
+    readFileSync(join(ROOT, 'data', 'web-strings', 'web_strings.json'), 'utf8'),
+  );
+  const methodPages = Object.keys(wsCat['method.bc'] ?? {}).filter((l) =>
+    METHOD_CORE_KEYS.every((k) => {
+      const v = wsCat[k]?.[l];
+      return typeof v === 'string' && v.trim() !== '';
+    }),
+  ).length;
   // + hem + 404 (+ ev. hubbar när fas 3/7 byggt dem — räknas dynamiskt nedan)
   const hubDirs = readdirSync(DIST).filter(
     (d) =>
@@ -89,7 +122,7 @@ if (countriesFile) {
   );
   // Hård assert på landssidor först när mallfasen (3) är byggd:
   if (process.env.ASSERT_PAGES === '1') {
-    const expectedTotal = expectedCountry + LANG_COUNT + appPages + 4; // hem + 404 + go + privacy
+    const expectedTotal = expectedCountry + LANG_COUNT + appPages + methodPages + 4; // hem + 404 + go + privacy
     if (pages.length !== expectedTotal) {
       fail(`Sidantal ${pages.length} ≠ förväntat ${expectedTotal}`);
     } else {

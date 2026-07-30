@@ -497,6 +497,14 @@ export function featureCluster(slug: string | null): Alternate[] {
 /** Förväntat sidantal (verify-build): landssidor + hubbar + app-sidor + hem + 404. */
 export function expectedPageCount(): { countryPages: number; total: number } {
   const countryPages = allCountryPages().length;
-  const appPages = LANGUAGE_CODES.length * (1 + loadFeatures().length); // översikt + features
-  return { countryPages, total: countryPages + LANGUAGE_CODES.length + appPages + 2 };
+  // Översikten finns på alla språk; varje feature bara på sina featureLangs
+  // (språkgrinden). Spegel av verify-build.mjs:s sidantal — håll i synk.
+  const appPages =
+    LANGUAGE_CODES.length +
+    loadFeatures().reduce((sum, f) => sum + featureLangs(f.slug).length, 0);
+  // hubbar (27) + metodsidor + hem + 404 + go + privacy — samma termer som verify-build.
+  return {
+    countryPages,
+    total: countryPages + LANGUAGE_CODES.length + appPages + methodLangs().length + 4,
+  };
 }
