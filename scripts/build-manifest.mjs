@@ -94,13 +94,29 @@ for (const country of countriesFile.countries) {
   layers = layers.map((l) => {
     const key = l.url?.split('/').pop();
     const wm = webManifest?.feeds?.[key];
+    // pappilappi-web-URL:er: web-manifestet är facit över vilka filer som
+    // FINNS. Saknad/tom fil → pendingFetcher, så mapconfig filtrerar bort
+    // lagret och sidan degraderar till statisk karta i stället för att
+    // skicka en 404-URL till webbläsaren (DE: 22 lager 404:ade i produktion
+    // 2026-07-30 — web-optimize har aldrig producerat de/-filerna, dipuls
+    // CC BY-ND-licens stoppar bearbetade kopior). Icke-pappilappi-URL:er
+    // (IE:s Gist-raw) berörs inte — de har ingen web-manifest-post per design.
+    const webHostedButMissing =
+      l.url?.startsWith(WEB_BASE) && !((wm?.gzBytes ?? 0) > 0);
     return {
       gzBytes: wm?.gzBytes ?? 0,
       zoneTypes: wm?.zoneTypes,
       featureCount: wm?.featureCount ?? 0,
+      ...(webHostedButMissing ? { pendingFetcher: true } : {}),
       ...l,
     };
   });
+  const pending = layers.filter((l) => l.pendingFetcher && !((l.gzBytes ?? 0) > 0));
+  if (pending.length === layers.length && layers.length > 0) {
+    warnings.push(`${iso}: alla ${layers.length} lager väntar på fetcher — kartan faller tillbaka till statisk`);
+  } else if (pending.length > 0) {
+    warnings.push(`${iso}: ${pending.length} lager väntar på fetcher (filtreras bort)`);
+  }
 
   manifest[iso] = {
     bounds: [
