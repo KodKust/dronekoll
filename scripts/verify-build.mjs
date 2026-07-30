@@ -14,6 +14,16 @@ import { readFileSync, existsSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { checkWebStrings } from './check-web-strings.mjs';
+// Sektion 11: räknar om landssidornas <title>/<meta description> med EXAKT
+// samma byggare som sajten (delad ren-JS-modul — så vakten aldrig driftar).
+import {
+  buildCountryTitle,
+  buildCountryDescription,
+  tierFor,
+  MAX_TITLE,
+  MAX_DESC,
+} from '../src/lib/title-builder.mjs';
+import { countryParams, capitalizeLeadingArticle } from '../src/lib/country-forms.mjs';
 
 const ROOT = process.cwd();
 const DIST = join(ROOT, 'dist');
@@ -211,7 +221,13 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
     'faq.q.visitor', 'faq.tpl.visitor.easa', 'faq.tpl.visitor.other', 'faq.tpl.visitor.generic',
     // Sajtens H1. Alla 27 språk bär landsnamnet, så full paritet gäller här.
     // CASE_ALIASES nedan låter finskan välja kasus utan att flaggas.
-    'hero.h1.country'];
+    'hero.h1.country',
+    // Titel-/desc-sviten (title-builder.mjs): saknas en tier-mall faller t()
+    // tyst till EN → engelsk titel på fel-språkig sida. Sektion 11 vaktar
+    // längder/kartord i renderad HTML; här vaktas kompletthet + platshållare.
+    'meta.title.country', 'meta.title.country.map', 'meta.title.country.mapShort',
+    'meta.title.country.notam', 'meta.desc.country', 'meta.desc.country.map',
+    'meta.desc.country.notam'];
   const ws = JSON.parse(readFileSync(join(ROOT, 'data', 'web-strings', 'web_strings.json'), 'utf8'));
   // countryIn/countryGen är KASUSVARIANTER av samma landsnamn (finskan böjer
   // namnet i stället för att sätta preposition framför — se
@@ -384,6 +400,116 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
     if (bad.length)
       fail(`Sitemap listar icke-kanoniska URL:er (${bad.length}): ${bad.slice(0, 5).join(' · ')}`);
     else ok(`Sitemap: alla ${locs.length} URL:er är sin egen canonical`);
+  }
+}
+
+// ── 11. Landssidornas <title>/<meta description>: längd + kartordsgating ────
+// SEO-uppdraget 2026-07-30: titlar med kartord för overlay-länder, NOTAM-ord
+// för NOTAM-länder — men ALDRIG ett kartlöfte för ett land utan zonkarta
+// (samma löftesdisciplin som cta.body-buggklassen). Vakten läser den FAKTISKT
+// renderade HTML:en och kontrollerar tre saker per landssida:
+//   a) titel ≤60 tecken, description ≤155 (Googles trunkeringsgränser)
+//   b) kartordet förekommer i titeln OMM landet har hasAirspaceOverlay;
+//      "NOTAM" förekommer OMM landet har hasNotam utan overlay
+//   c) titel + description är EXAKT vad title-builder.mjs räknar fram —
+//      byggaren och sajten kan inte glida isär utan att bygget faller
+// Dessutom: feat.map.title (kartsidan) ≤60 på alla 27 språk med riktiga
+// täckningssiffror insatta.
+{
+  if (!countriesFile) {
+    console.log('○ Titel-/desc-vakt: countries.json saknas — hoppas');
+  } else {
+    // Kartordet per språk = den gemensamma kärnan i .map/.mapShort-mallarna.
+    // ⚠️ Byts kartordet i mallarna måste raden här bytas med — vakten jämför
+    // gemener-mot-gemener och falerar hellre än tiger (ordet ska FINNAS i
+    // overlay-titlar, så ett stavfel här ger rött bygge, inte tystnad).
+    const MAP_WORDS = {
+      en: 'no-fly zone map', sv: 'drönarkarta', de: 'drohnenkarte', nl: 'dronekaart',
+      it: 'mappa zone vietate', es: 'mapa de zonas', fr: 'carte des zones', pl: 'mapa stref',
+      da: 'dronekort', no: 'dronekart', fi: 'dronekartta', et: 'droonikaart',
+      is: 'drónakort', cs: 'mapa bezletových zón', sk: 'mapa bezletových zón',
+      hu: 'dróntérkép', ro: 'harta zonelor', hr: 'karta zona', sl: 'zemljevid con',
+      bg: 'карта на зоните', uk: 'карта зон', el: 'χάρτης ζωνών', lt: 'zonų žemėlapis',
+      lv: 'zonu karte', pt: 'mapa de zonas', tr: 'haritası', mt: 'mappa taż-żoni',
+    };
+    const unescape = (s) =>
+      s.replaceAll('&amp;', '&').replaceAll('&quot;', '"').replaceAll('&#39;', "'")
+        .replaceAll('&lt;', '<').replaceAll('&gt;', '>');
+
+    // (lang, slug) → land: EN-sidor + native-sidor ur slugs.json, matris-sidor
+    // ur slugs-matrix.json — samma tre källor som modellen bygger URL:erna av.
+    const matrix = JSON.parse(readFileSync(join(ROOT, 'data', 'slugs-matrix.json'), 'utf8'));
+    const byIso = {};
+    for (const c of countriesFile.countries) byIso[c.isoCode?.toUpperCase()] = c;
+    const lookup = new Map(); // "lang/slug" → { iso, lang, displayName }
+    for (const iso of slugIsos) {
+      const c = byIso[iso];
+      if (!c) continue;
+      lookup.set(`en/${slugsRaw[iso].en.slug}`, { iso, lang: 'en', displayName: slugsRaw[iso].en.name });
+      if (c.languageCode !== 'en')
+        lookup.set(`${c.languageCode}/${slugsRaw[iso].local.slug}`, { iso, lang: c.languageCode, displayName: slugsRaw[iso].local.name });
+      const cell = matrix[iso] ?? {};
+      for (const [lang, e] of Object.entries(cell))
+        lookup.set(`${lang}/${e.slug}`, { iso, lang, displayName: e.name });
+    }
+
+    const YEAR = new Date().getFullYear();
+    const brands = {};
+    for (const c of countriesFile.countries)
+      if (c.languageCode && !brands[c.languageCode]) brands[c.languageCode] = c.appName;
+
+    let checked = 0;
+    const errs = [];
+    for (const [url, html] of pageByUrl) {
+      const m = url.match(/^https:\/\/[^/]+\/([a-z]{2})\/([^/]+)\/$/);
+      if (!m) continue;
+      const entry = lookup.get(`${m[1]}/${m[2]}`);
+      if (!entry) continue; // hubb/app/metod — ingen landssida
+      checked++;
+      const { iso, lang, displayName } = entry;
+      const c = byIso[iso];
+      const tier = tierFor(c);
+      const title = unescape(html.match(/<title>([^<]*)<\/title>/)?.[1] ?? '');
+      const desc = unescape(html.match(/<meta name="description" content="([^"]*)"/)?.[1] ?? '');
+
+      // a) längder
+      if (title.length > MAX_TITLE) errs.push(`${url} titel ${title.length}>${MAX_TITLE}: ${title}`);
+      if (desc.length > MAX_DESC) errs.push(`${url} desc ${desc.length}>${MAX_DESC}`);
+
+      // b) kart-/NOTAM-ord OMM rätt tier
+      const lower = title.toLowerCase();
+      const hasMapWord = lower.includes(MAP_WORDS[lang]);
+      if (tier === 'map' && !hasMapWord) errs.push(`${url} (overlay) saknar kartordet "${MAP_WORDS[lang]}": ${title}`);
+      if (tier !== 'map' && hasMapWord) errs.push(`${url} (${tier}) har kartord utan zonkarta: ${title}`);
+      const hasNotamWord = lower.includes('notam');
+      if (tier === 'notam' && !hasNotamWord) errs.push(`${url} (notam) saknar NOTAM-ordet: ${title}`);
+      if (tier !== 'notam' && hasNotamWord) errs.push(`${url} (${tier}) har NOTAM-ord i fel tier: ${title}`);
+
+      // c) exakt likhet med byggaren
+      const params = { ...countryParams(iso, lang, displayName), year: YEAR, brand: brands[lang] ?? 'DroneKoll' };
+      const wantTitle = capitalizeLeadingArticle(buildCountryTitle(lang, tier, params));
+      const wantDesc = capitalizeLeadingArticle(buildCountryDescription(lang, tier, params));
+      if (title !== wantTitle) errs.push(`${url} titel ≠ byggaren: "${title}" vs "${wantTitle}"`);
+      if (desc !== wantDesc) errs.push(`${url} desc ≠ byggaren`);
+    }
+
+    // Kartsidans titel: riktiga täckningssiffror + varumärke, ≤60 på alla språk
+    const fsCat = JSON.parse(readFileSync(join(ROOT, 'data', 'feature-strings.json'), 'utf8'));
+    const overlayN = countriesFile.countries.filter((c) => c.hasAirspaceOverlay).length;
+    const notamN = countriesFile.countries.filter((c) => c.hasNotam).length;
+    for (const [lang, t] of Object.entries(fsCat['feat.map.title'] ?? {})) {
+      const rendered = t
+        .replaceAll('{overlay}', String(overlayN))
+        .replaceAll('{notam}', String(notamN))
+        .replaceAll('{brand}', brands[lang] ?? 'DroneKoll');
+      if (rendered.length > MAX_TITLE)
+        errs.push(`feat.map.title/${lang} ${rendered.length}>${MAX_TITLE}: ${rendered}`);
+    }
+
+    // Mappningen ska täcka i princip alla landssidor — annars vaktar vakten luft.
+    if (checked < 1000) errs.push(`Titel-/desc-vakt nådde bara ${checked} landssidor — mappningen trasig?`);
+    if (errs.length) fail(`Titel-/desc-vakt (${errs.length} fel): ${errs.slice(0, 6).join(' · ')}`);
+    else ok(`Titel/desc: ${checked} landssidor ≤${MAX_TITLE}/≤${MAX_DESC}, kartord/NOTAM rätt gate:ade, identiska med byggaren · feat.map.title 27/27 ≤${MAX_TITLE}`);
   }
 }
 

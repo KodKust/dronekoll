@@ -35,8 +35,10 @@ const fail = (m) => { failures++; console.error(`✗ ${m}`); };
 const ok = (m) => console.log(`✓ ${m}`);
 
 // Språk som böjer SJÄLVA namnet — för dem gäller "formen ≠ nominativen" i
-// stället för namnmatchning (se filhuvudet).
-const INFLECTS_NAME = new Set(['fi', 'et', 'hu', 'tr', 'lt', 'lv', 'cs', 'sk', 'pl', 'sl', 'hr', 'uk', 'is', 'el']);
+// stället för namnmatchning (se filhuvudet). 'de' hör hit: artikelländerna
+// dativböjs ("in den Vereinigten StaatEN" ≠ nominativ "Vereinigte Staaten",
+// "in den NiederlandEN") så prefix-matchning mot nominativen är omöjlig.
+const INFLECTS_NAME = new Set(['fi', 'et', 'hu', 'tr', 'lt', 'lv', 'cs', 'sk', 'pl', 'sl', 'hr', 'uk', 'is', 'el', 'de']);
 
 // Kända prepositioner/artikelkontraktioner per språk. Saknas språket hoppas kontrollen.
 const PREPOSITIONS = {
@@ -46,6 +48,8 @@ const PREPOSITIONS = {
   es: ['en'],
   bg: ['в', 'във'],
   ro: ['în'],
+  nl: ['in', 'op'], // ö-stater tar 'op' (op Malta, op IJsland, op de Filipijnen)
+  de: ['in', 'im', 'auf'], // ö-stater tar 'auf' (auf Malta, auf den Philippinen)
 };
 
 function loadNames(lang) {

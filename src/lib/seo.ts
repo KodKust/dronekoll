@@ -8,6 +8,9 @@ import { brandForLang, SITE, type PageEntry } from './model';
 // Kasusformerna (och H1-uppdelningen) bor i country-forms.mjs så att
 // scripts/og-images.mjs kan dela exakt samma logik — se filens huvudkommentar.
 import { capitalizeLeadingArticle, countryParams } from './country-forms.mjs';
+// Titel-/desc-mallval + trunkering bor i title-builder.mjs av samma skäl:
+// verify-build räknar om exakt samma strängar och vaktar 60/155-gränserna.
+import { buildCountryTitle, buildCountryDescription, tierFor } from './title-builder.mjs';
 
 export const APP_STORE_URL = 'https://apps.apple.com/app/dronekoll/id6761332194';
 
@@ -51,7 +54,7 @@ const YEAR = new Date().getFullYear(); // daglig rebuild håller årtalet ärlig
 // engelskans artikel ska vara versal där. Se capitalizeLeadingArticle.
 export function countryTitle(page: PageEntry): string {
   return capitalizeLeadingArticle(
-    t('meta.title.country', page.lang, {
+    buildCountryTitle(page.lang, tierFor(page.country), {
       ...countryParams(page.iso, page.lang, page.displayName),
       year: YEAR,
       brand: brandForLang(page.lang),
@@ -61,7 +64,7 @@ export function countryTitle(page: PageEntry): string {
 
 export function countryDescription(page: PageEntry): string {
   return capitalizeLeadingArticle(
-    t('meta.desc.country', page.lang, {
+    buildCountryDescription(page.lang, tierFor(page.country), {
       ...countryParams(page.iso, page.lang, page.displayName),
       year: YEAR,
     }),
