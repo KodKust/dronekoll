@@ -33,22 +33,20 @@ const { lang, pages } = Astro.props;
           decoding="async"
         />
         <span class="cgrid__name">{p.displayName}</span>
-        {/* Tre datanivåer, tre tinter — violett zonkarta > gul NOTAM > grå regler.
-            Färgen bär rangordningen så rutnätet går att skanna utan att läsa. */}
-        <span
-          class={`pill cgrid__badge ${
-            p.country.hasAirspaceOverlay
-              ? 'cgrid__badge--zones'
-              : p.country.hasNotam
-                ? 'cgrid__badge--notam'
-                : ''
-          }`}
-        >
-          {p.country.hasAirspaceOverlay
-            ? t('grid.overlayBadge', lang)
-            : p.country.hasNotam
-              ? t('grid.notamBadge', lang)
-              : t('grid.rulesBadge', lang)}
+        {/* Förmåge-badges som i appen (Kristoffer 2026-07-30): zonkarta och
+            NOTAM är oberoende förmågor — ett land med båda visar båda.
+            Tre tinter — violett zonkarta > gul NOTAM > grå regler; färgen
+            bär rangordningen så rutnätet går att skanna utan att läsa. */}
+        <span class="cgrid__badges">
+          {p.country.hasAirspaceOverlay && (
+            <span class="pill cgrid__badge cgrid__badge--zones">{t('grid.overlayBadge', lang)}</span>
+          )}
+          {p.country.hasNotam && (
+            <span class="pill cgrid__badge cgrid__badge--notam">{t('grid.notamBadge', lang)}</span>
+          )}
+          {!p.country.hasAirspaceOverlay && !p.country.hasNotam && (
+            <span class="pill cgrid__badge">{t('grid.rulesBadge', lang)}</span>
+          )}
         </span>
       </a>
     </li>
@@ -77,8 +75,13 @@ const { lang, pages } = Astro.props;
   .cgrid__card:hover { text-decoration: none; }
   .cgrid__flag { width: 28px; height: 28px; grid-row: span 2; border-radius: 50%; }
   .cgrid__name { font-weight: 600; color: var(--ink); }
-  .cgrid__badge {
+  .cgrid__badges {
     justify-self: start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .cgrid__badge {
     padding: 1px 10px;
     font-size: var(--text-caption);
     background: var(--soft-btn);
