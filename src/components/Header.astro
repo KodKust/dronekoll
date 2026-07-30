@@ -1,18 +1,20 @@
 ---
 /**
  * Header — 64px, halvtransparent + blur, hairline under. Vänster: wordmark
- * (lokaliserat namn). Höger: navlänkar + språkväxlare + "Hämta appen" som
- * kompakt fylld blå primärknapp (sajtens gemensamma knappsystem).
+ * (lokaliserat namn). Höger: navlänkar + språkväxlare.
  *
- * Mobil (≤720px): navlänkar + appknapp flyttar in i en avsiktlig, tillgänglig
- * meny — wordmark + språkväxlare + 44×44-menyknapp står kvar i raden. De
- * centrala länkarna försvinner aldrig. Escape stänger menyn och återför fokus.
+ * "Hämta appen"-knappen togs BORT 2026-07-30 (Kristoffer): den ledde bara till
+ * iOS och dubblerade butiksmärkena (App Store + Google Play) som redan finns i
+ * hero och app-CTA-bandet — kaka på kaka, och orättvis mot Android-användare.
+ *
+ * Mobil (≤720px): navlänkarna flyttar in i en avsiktlig, tillgänglig meny —
+ * wordmark + språkväxlare + 44×44-menyknapp står kvar i raden. De centrala
+ * länkarna försvinner aldrig. Escape stänger menyn och återför fokus.
  */
 import Wordmark from './Wordmark.astro';
 import LanguageSwitcher from './LanguageSwitcher.astro';
 import { brandForLang } from '../lib/model';
 import { t } from '../lib/i18n';
-import { APP_STORE_URL } from '../lib/seo';
 import type { Alternate } from '../lib/model';
 
 interface Props {
@@ -31,7 +33,6 @@ const brand = brandForLang(lang);
       <a class="site-header__link" href={`/${lang}/`}>{t('nav.allCountries', lang)}</a>
       <a class="site-header__link" href={`/${lang}/app/`}>{t('app.bc', lang)}</a>
       <LanguageSwitcher lang={lang} cluster={cluster} />
-      <a class="btn btn--primary site-header__app" href={APP_STORE_URL} rel="noopener" data-cta="header">{t('nav.getApp', lang)}</a>
 
       <details class="site-menu">
         <summary class="site-menu__btn" aria-label={t('nav.menu', lang)}>
@@ -45,7 +46,6 @@ const brand = brandForLang(lang);
         <div class="site-menu__pop card">
           <a class="site-menu__link" href={`/${lang}/`}>{t('nav.allCountries', lang)}</a>
           <a class="site-menu__link" href={`/${lang}/app/`}>{t('app.bc', lang)}</a>
-          <a class="btn btn--primary site-menu__cta" href={APP_STORE_URL} rel="noopener" data-cta="menu">{t('nav.getApp', lang)}</a>
         </div>
       </details>
     </nav>
@@ -103,12 +103,6 @@ const brand = brandForLang(lang);
     white-space: nowrap;
   }
   .site-header__link:hover { color: var(--accent-ink); text-decoration: none; }
-  /* Kompakt fylld blå knapp i chromen — samma system som sidans övriga CTA
-     (kompakt i fotavtryck, aldrig under 44px kontrollhöjd). */
-  .site-header__app {
-    padding: 8px 18px;
-    white-space: nowrap;
-  }
 
   /* ── Mobilmeny ── */
   .site-menu { position: relative; display: none; }
@@ -157,10 +151,9 @@ const brand = brandForLang(lang);
     color: var(--ink);
   }
   .site-menu__link:hover { background: var(--canvas); text-decoration: none; color: var(--accent-ink); }
-  .site-menu__cta { margin-top: var(--space-2); }
 
   @media (max-width: 720px) {
-    .site-header__link, .site-header__app { display: none; }
+    .site-header__link { display: none; }
     .site-menu { display: block; }
     .site-header__nav { gap: var(--space-3); }
   }
