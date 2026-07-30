@@ -11,10 +11,10 @@ import { capitalizeLeadingArticle, countryParams } from './country-forms.mjs';
 
 export const APP_STORE_URL = 'https://apps.apple.com/app/dronekoll/id6761332194';
 
-/** WP-C: GATED tills Android-produktionssläppet — internal-spåret har ingen publik
- *  listing. FLIP: sätt till 'https://play.google.com/store/apps/details?id=se.dronarkartan.dronarkartan'
- *  när Play-releasen är live, bygg om — badgen dyker upp överallt. */
-export const PLAY_STORE_URL: string | null = null;
+/** FLIPPAD 2026-07-30: Android-produktionssläppet är live på Google Play
+ *  (publik listing verifierad HTTP 200) — badgen visas nu överallt. */
+export const PLAY_STORE_URL: string | null =
+  'https://play.google.com/store/apps/details?id=se.dronarkartan.dronarkartan';
 
 /** GoatCounter-analys (cookiefri). GATED: null → ingen beacon, inget klick-spår.
  *  FLIP: när Kristoffer skapat gratiskontot, sätt subdomänen (t.ex. 'dronekoll' om
@@ -156,7 +156,7 @@ export function organizationLd() {
     logo: `${SITE}/favicon.svg`,
     description:
       'Independently compiled drone rules, no-fly zones and official sources for 55 countries in 27 languages.',
-    sameAs: [APP_STORE_URL],
+    sameAs: [APP_STORE_URL, ...(PLAY_STORE_URL ? [PLAY_STORE_URL] : [])],
   };
 }
 

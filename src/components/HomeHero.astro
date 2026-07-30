@@ -14,7 +14,7 @@
 import { Picture } from 'astro:assets';
 import droneImg from '../assets/brand/dronekoll-drone-underside-camera-down.png';
 import { t } from '../lib/i18n';
-import { APP_STORE_URL } from '../lib/seo';
+import { APP_STORE_URL, PLAY_STORE_URL } from '../lib/seo';
 
 interface Props {
   lang: string;
@@ -39,7 +39,34 @@ const [zPre, zPost = ''] = t('home.trust.zones', lang, { n: '__N__' }).split('__
       </h1>
       <p class="lede home-hero__lede">{t('home.lede', lang, { n: totalCountries })}</p>
       <div class="home-hero__cta">
-        <a class="btn btn--primary" href={APP_STORE_URL} rel="noopener" data-cta="hero">{t('nav.getApp', lang)}</a>
+        {/* Officiella butiksmärken (Apple badge-API + Googles artwork) i st.f.
+            egen knapp — appen finns i BÅDA butikerna sedan 2026-07-30 och de
+            officiella märkena bär igenkänning/trovärdighet. Klickspårningen i
+            Base.astro fångar länkarna på href-domänen; data-cta = placering. */}
+        <div class="home-hero__stores">
+          <a href={APP_STORE_URL} rel="noopener" data-cta="hero">
+            <img
+              src="/badges/app-store-badge.svg"
+              alt={t('cta.appstore.alt', lang)}
+              width="144"
+              height="48"
+              loading="eager"
+              decoding="async"
+            />
+          </a>
+          {PLAY_STORE_URL && (
+            <a href={PLAY_STORE_URL} rel="noopener" data-cta="hero">
+              <img
+                src="/badges/google-play-badge.svg"
+                alt={t('cta.play.alt', lang)}
+                width="162"
+                height="48"
+                loading="eager"
+                decoding="async"
+              />
+            </a>
+          )}
+        </div>
         <a class="home-hero__explore" href={`/${lang}/app/`}>
           {t('app.overview.h1.pre', lang)} {t('app.overview.h1.accent', lang)} →
         </a>
@@ -105,6 +132,21 @@ const [zPre, zPost = ''] = t('home.trust.zones', lang, { n: '__N__' }).split('__
     align-items: center;
     gap: var(--space-3) var(--space-5);
   }
+  /* Butiksmärkena: samma höjd, mjuk lyft-hover som övriga CTA-ytor. */
+  .home-hero__stores {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-3);
+  }
+  .home-hero__stores a {
+    display: inline-flex;
+    border-radius: 8px;
+    transition: transform var(--dur-lift) var(--ease-standard);
+  }
+  .home-hero__stores a:hover { transform: translateY(-1px); }
+  .home-hero__stores img { display: block; height: 48px; width: auto; }
+
   /* Sekundär utforska-länk: tydligt underordnad, men full 44px-träffyta. */
   .home-hero__explore {
     display: inline-flex;

@@ -59,6 +59,12 @@ const buildDate = new Date().toISOString().slice(0, 10);
     <p class="caption site-footer__build tnum">
       {t('footer.rebuilt', lang, { date: buildDate })}
     </p>
+    {/* Varumärkeskrav för de officiella butiksmärkena (Apple/Google badge-
+        riktlinjer). Engelska på alla språk — juridisk notis, översätts inte. */}
+    <p class="caption site-footer__trademarks">
+      Apple, the Apple logo and App&nbsp;Store are trademarks of Apple Inc.
+      Google Play and the Google Play logo are trademarks of Google LLC.
+    </p>
   </div>
 </footer>
 
@@ -98,6 +104,10 @@ const buildDate = new Date().toISOString().slice(0, 10);
     padding-top: var(--space-4);
     border-top: 1px solid rgba(255, 255, 255, 0.16);
     color: rgba(255, 255, 255, 0.62);
+  }
+  .site-footer__trademarks {
+    margin-top: var(--space-2);
+    color: rgba(255, 255, 255, 0.44);
   }
   @media (max-width: 768px) {
     .site-footer__grid { grid-template-columns: 1fr; gap: var(--space-6); }
