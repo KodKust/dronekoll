@@ -68,9 +68,15 @@ const { lang, pages } = Astro.props;
     grid-template-rows: auto auto;
     gap: 4px var(--space-3);
     align-items: center;
+    align-content: center;
     padding: var(--space-4) var(--space-5);
     border-radius: var(--r-lg);
     color: inherit;
+    /* Symmetri (Kristoffer 2026-07-30): kort med två badge-pills (Zonkarta+
+       NOTAM staplade på mobil) blev högre än grannarna i samma rad. Kortet
+       fyller nu radens höjd och innehållet centreras — alla kort i en rad
+       får samma yta oavsett antal pills. */
+    height: 100%;
   }
   .cgrid__card:hover { text-decoration: none; }
   .cgrid__flag { width: 28px; height: 28px; grid-row: span 2; border-radius: 50%; }
