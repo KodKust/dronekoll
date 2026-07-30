@@ -21,9 +21,9 @@ import FreshnessBadge from '../../../components/FreshnessBadge.astro';
 import MapSection from '../../../components/MapSection.astro';
 import AppCta from '../../../components/AppCta.astro';
 import CountryGrid from '../../../components/CountryGrid.astro';
-import { allCountryPages, relatedCountries, enArticle, frameworkText, type PageEntry } from '../../../lib/model';
+import { allCountryPages, relatedCountries, enArticle, type PageEntry } from '../../../lib/model';
 import { splitCountryHeading } from '../../../lib/country-forms.mjs';
-import { zoneCountByIso, loadRegulators } from '../../../lib/ingest';
+import { zoneCountByIso } from '../../../lib/ingest';
 import { mapConfigFor } from '../../../lib/mapconfig';
 import { t } from '../../../lib/i18n';
 import {
@@ -66,7 +66,6 @@ const staticImage = existsSync(
   ? staticMapPath
   : undefined;
 const faqItems = buildFaq(page, { interactiveMap: !!mapConfig });
-const translated = lang === 'en' && c.languageCode !== 'en';
 
 // Två-tons-H1: accent-span på landsnamnet (briefing-registret = blått).
 // Mallen splittas vid SIN EGEN platshållare — {country}, eller {countryIn}/
@@ -143,6 +142,9 @@ const ldBlocks = [
         {h1.pre}{h1.article}<span class="h-accent">{h1.accent}</span>{h1.post}
       </h1>
       <p class="lede prose">{t('hero.lede.country', lang)}</p>
+      {/* Endast freshness-badgen: myndighet/regelverk/karta fanns tidigare
+          som chip här men dubblerades av snabbfakta-korten och ankarnavet
+          direkt nedanför ("kaka på kaka", Kristoffer 2026-07-30). */}
       <div class="hero__meta">
         <FreshnessBadge
           lang={lang}
@@ -150,14 +152,6 @@ const ldBlocks = [
           lastVerified={c.lastVerified}
           monitored={c.hasAirspaceOverlay}
         />
-        {loadRegulators()[page.iso.toUpperCase()] && (
-          <span class="pill hero__chip">{loadRegulators()[page.iso.toUpperCase()].regulator}</span>
-        )}
-        {c.regulatoryBase && (
-          <span class="pill hero__chip hero__chip--frame">{frameworkText(c.regulatoryBase, lang)}</span>
-        )}
-        {/* WP-E: kartan = differentiator — direktväg redan från hero */}
-        <a class="pill hero__chip hero__chip--map" href="#map">↓ {t('anchor.map', lang)}</a>
       </div>
     </div>
   </section>
@@ -185,11 +179,6 @@ const ldBlocks = [
   <section class="band band--paper" id="rules" aria-labelledby="rules-heading">
     <div class="content">
       <h2 class="overline" id="rules-heading">{c.sectionLabelRules ?? t('anchor.rules', lang)}</h2>
-      {translated && (
-        <div class="section-callout">
-          <Callout kind="warn">{t('ymyl.translated', lang)}</Callout>
-        </div>
-      )}
       <RuleList rules={c.keyRules} />
     </div>
   </section>
@@ -297,40 +286,14 @@ const ldBlocks = [
     gap: var(--space-2);
     align-items: center;
     margin-top: var(--space-2);
-    /* KRITISK: .content är en grid; utan min-width:0 blåser ett långt
-       nowrap-chip (regelverket) upp grid-kolumnen → hela sidan bredare än
-       viewporten på mobil (text ut över högerkanten). min-width:0 låter
-       flex/grid-behållaren krympa till kolumnbredden. (2026-07-15) */
+    /* KRITISK: .content är en grid; utan min-width:0 kan ett långt barn
+       blåsa upp grid-kolumnen → hela sidan bredare än viewporten på mobil.
+       (2026-07-15, mobil-overflow-läxan) */
     min-width: 0;
     max-width: 100%;
   }
-  .hero__chip {
-    background: var(--soft-btn);
-    color: var(--ink-2);
-    font-size: var(--text-caption);
-    font-weight: 500;
-  }
-  .hero__chip--frame {
-    background: var(--accent-wash);
-    color: var(--accent-ink);
-    /* Regelverket kan vara långt ("EU 2019/947 … + national enforcement
-       framework"). Låt det RADBRYTA i stället för nowrap+ellipsis (som
-       kapade texten fult på mobil) — behållarens min-width:0 håller det
-       inom viewporten. (2026-07-15) */
-    max-width: 100%;
-    min-width: 0;
-    white-space: normal;
-  }
-  .hero__chip--map {
-    background: var(--paper);
-    border: 1px solid var(--border-strong);
-    color: var(--accent-ink);
-    font-weight: 600;
-  }
-  .hero__chip--map:hover { text-decoration: none; border-color: var(--accent); }
   .section-title { margin-bottom: var(--space-5); }
   .quick-answer { margin-bottom: var(--space-5); }
-  .section-callout { margin-block: var(--space-4) var(--space-5); max-width: var(--w-prose); }
   #rules .overline { margin-bottom: var(--space-5); }
   .map-zoneline { color: var(--ink-2); margin: calc(-1 * var(--space-4)) 0 var(--space-4); }
   .sources-band { display: grid; gap: var(--space-7); }
