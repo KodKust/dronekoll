@@ -10,6 +10,7 @@
  */
 import { t } from '../lib/i18n';
 import type { PageEntry } from '../lib/model';
+import { APP_STORE_URL, PLAY_STORE_URL } from '../lib/seo';
 
 interface Props {
   page: PageEntry;
@@ -90,6 +91,41 @@ const defaultZoneCount = ((mapConfig as { layers?: { defaultOn?: boolean; featur
   )}
 </figure>
 
+{/* Konverteringsögonblicket (Kristoffer 2026-07-30): besökaren tittar just nu
+    på landets zonkarta — appen ger exakt samma karta live på plats. Visas
+    ENDAST för overlay-länder (löftet är sant där, inkl. DE där webben visar
+    statisk förhandsbild men appen har fulla kartan). data-cta="map" →
+    klickspårningen bokför placeringen separat, så knappens värde blir mätbart. */}
+{c.hasAirspaceOverlay && (
+  <aside class="map-appcta">
+    <p class="map-appcta__text">{t('map.appPitch', page.lang)}</p>
+    <div class="map-appcta__badges">
+      <a href={APP_STORE_URL} rel="noopener" data-cta="map">
+        <img
+          src="/badges/app-store-badge.svg"
+          alt={t('cta.appstore.alt', page.lang)}
+          width="120"
+          height="40"
+          loading="lazy"
+          decoding="async"
+        />
+      </a>
+      {PLAY_STORE_URL && (
+        <a href={PLAY_STORE_URL} rel="noopener" data-cta="map">
+          <img
+            src="/badges/google-play-badge.svg"
+            alt={t('cta.play.alt', page.lang)}
+            width="135"
+            height="40"
+            loading="lazy"
+            decoding="async"
+          />
+        </a>
+      )}
+    </div>
+  </aside>
+)}
+
 {/* Hoisted scripts kan inte villkoras pålitligt i Astro — skriptet no-op:ar
     utan #zone-map[data-map-config], så ovillkorlig inkludering är korrekt. */}
 <script>
@@ -160,6 +196,32 @@ const defaultZoneCount = ((mapConfig as { layers?: { defaultOn?: boolean; featur
     border: 1px solid var(--border);
   }
   .mapframe__caption { margin-top: var(--space-3); font-size: var(--text-small); }
+  /* App-pitch vid kartan: dämpad accent-yta i briefing-registret — ett
+     erbjudande i förbifarten, inte en banner. Badges = officiella märkena
+     (Apple kräver ≥40px höjd). */
+  .map-appcta {
+    margin-top: var(--space-4);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3) var(--space-5);
+    padding: var(--space-4) var(--space-5);
+    background: var(--accent-wash);
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+  }
+  .map-appcta__text {
+    margin: 0;
+    font-weight: 500;
+    color: var(--accent-ink);
+    font-size: var(--text-small);
+    max-width: 52ch;
+  }
+  .map-appcta__badges { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+  .map-appcta__badges a { display: inline-flex; border-radius: 7px; transition: transform var(--dur-lift) var(--ease-standard); }
+  .map-appcta__badges a:hover { transform: translateY(-1px); }
+  .map-appcta__badges img { display: block; height: 40px; width: auto; }
   /* v8-revision: partial-data-varning (REPO-P0-05) — samma warn-tokens som
      RuleList/FreshnessBadge, alltid synlig text (inte färg ensamt). */
   :global(.mapframe__warning) {
