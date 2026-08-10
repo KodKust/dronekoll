@@ -1,5 +1,5 @@
 {
-  "version": 210,
+  "version": 219,
   "touristContent": {
     "baseUrl": "https://dronekoll.com"
   },
@@ -9267,8 +9267,8 @@
       "lonMax": 6.54,
       "dataSourceName": "DAC",
       "dataSourceUrl": "https://dac.gouvernement.lu/en/drones.html",
-      "airspaceMapUrl": "https://drones.geoportail.lu",
-      "airspaceMapLabel": "Ouvrir drones.geoportail.lu ↗",
+      "airspaceMapUrl": "https://g-o.lu/uas",
+      "airspaceMapLabel": "Ouvrir g-o.lu/uas ↗",
       "primaryLinks": [
         {
           "id": "dac_drones",
@@ -9317,7 +9317,7 @@
         "Dans la catégorie ouverte, gardez le drone dans votre propre champ de vision direct, à l'œil nu (lunettes/lentilles correctives autorisées ; jumelles ou écran ne comptent pas) — ou faites-vous assister par un observateur, avec une communication claire et efficace entre vous à tout moment, afin de surveiller ensemble l'espace aérien et d'éviter les collisions. Le mode « follow-me » est une exception distincte, autorisée jusqu'à 50 m du télépilote.",
         "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
         "Respectez la CTR de Luxembourg-Findel et les zones géographiques UAS publiées sur Geoportail.lu — pas de tampon forfaitaire de 5 km depuis l'harmonisation EASA",
-        "De nuit, de nombreuses zones (notamment autour de Findel) exigent une autorisation spécifique — vérifiez les conditions de chaque zone sur drones.geoportail.lu.",
+        "De nuit, de nombreuses zones (notamment autour de Findel) exigent une autorisation spécifique — vérifiez les conditions de chaque zone sur g-o.lu/uas.",
         "Palais grand-ducal, centres pénitentiaires et zones militaires : autorisation préalable obligatoire — stades et aérodromes locaux (Useldange, Noertrange) : vol interdit."
       ],
       "importantNotes": [
@@ -9561,9 +9561,7 @@
         "notShown": [
           "Réserves naturelles sans statut de zone UAS"
         ],
-        "source": "DAC Luxembourg / geoportail.lu (CC0), actualisé chaque semaine",
-        "complement": "Consultez toujours la carte officielle sur drones.geoportail.lu pour les informations faisant foi.",
-        "complementUrl": "https://drones.geoportail.lu"
+        "source": "DAC Luxembourg / geoportail.lu (CC0), actualisé chaque semaine"
       },
       "legalStatus": {
         "schemaVersion": 1,
@@ -10699,28 +10697,823 @@
       "airspaceApiType": "geojson-static",
       "airspaceSecondaryFeeds": [
         {
-          "url": "https://pappilappi.com/airspace/si-zones.geojson?cb=20260611a",
+          "url": "https://pappilappi.com/airspace/si-aviation.geojson?cb=20260805a",
           "ttlMinutes": 1440,
-          "label": "si-zones",
-          "sourceLabel": "CAA Slovenia — UAS geografske cone",
+          "label": "si-aviation",
+          "sourceLabel": "OurAirports (PD) + NEK — letališča in heliporti",
           "authority": "CAA Slovenia",
-          "bundled": "assets/airspace/si-zones.geojson",
-          "defaultDescription": "Uradne UAS geografske cone Slovenije (CAA) — prepovedane cone, letališča, heliporti, CTR-cone in območja z omejitvami, posodobljeno tedensko."
+          "bundled": "assets/airspace/si-aviation.geojson"
+        },
+        {
+          "url": "https://pappilappi.com/airspace/si-nature.geojson?cb=20260805a",
+          "ttlMinutes": 4320,
+          "label": "si-nature",
+          "sourceLabel": "ARSO — zavarovana območja in Natura 2000",
+          "authority": "ARSO"
+        },
+        {
+          "url": "https://pappilappi.com/airspace/si-built/",
+          "ttlMinutes": 10080,
+          "label": "si-built",
+          "sourceLabel": "MKGP — dejanska raba (pozidano zemljišče)",
+          "authority": "MKGP",
+          "zoneKeyDefault": "SI_BUILT",
+          "viewportCullMaxDeg": 0.08,
+          "tiles": [
+            {
+              "bounds": [
+                13.4,
+                45.4,
+                13.6,
+                45.6
+              ],
+              "url": "si-built-67_227.geojson"
+            },
+            {
+              "bounds": [
+                13.4,
+                45.8,
+                13.6,
+                46.0
+              ],
+              "url": "si-built-67_229.geojson"
+            },
+            {
+              "bounds": [
+                13.4,
+                46.0,
+                13.6,
+                46.2
+              ],
+              "url": "si-built-67_230.geojson"
+            },
+            {
+              "bounds": [
+                13.4,
+                46.2,
+                13.6,
+                46.4
+              ],
+              "url": "si-built-67_231.geojson"
+            },
+            {
+              "bounds": [
+                13.4,
+                46.4,
+                13.6,
+                46.6
+              ],
+              "url": "si-built-67_232.geojson"
+            },
+            {
+              "bounds": [
+                13.6,
+                45.4,
+                13.8,
+                45.6
+              ],
+              "url": "si-built-68_227.geojson"
+            },
+            {
+              "bounds": [
+                13.6,
+                45.6,
+                13.8,
+                45.8
+              ],
+              "url": "si-built-68_228.geojson"
+            },
+            {
+              "bounds": [
+                13.6,
+                45.8,
+                13.8,
+                46.0
+              ],
+              "url": "si-built-68_229.geojson"
+            },
+            {
+              "bounds": [
+                13.6,
+                46.0,
+                13.8,
+                46.2
+              ],
+              "url": "si-built-68_230.geojson"
+            },
+            {
+              "bounds": [
+                13.6,
+                46.2,
+                13.8,
+                46.4
+              ],
+              "url": "si-built-68_231.geojson"
+            },
+            {
+              "bounds": [
+                13.6,
+                46.4,
+                13.8,
+                46.6
+              ],
+              "url": "si-built-68_232.geojson"
+            },
+            {
+              "bounds": [
+                13.8,
+                45.4,
+                14.0,
+                45.6
+              ],
+              "url": "si-built-69_227.geojson"
+            },
+            {
+              "bounds": [
+                13.8,
+                45.6,
+                14.0,
+                45.8
+              ],
+              "url": "si-built-69_228.geojson"
+            },
+            {
+              "bounds": [
+                13.8,
+                45.8,
+                14.0,
+                46.0
+              ],
+              "url": "si-built-69_229.geojson"
+            },
+            {
+              "bounds": [
+                13.8,
+                46.0,
+                14.0,
+                46.2
+              ],
+              "url": "si-built-69_230.geojson"
+            },
+            {
+              "bounds": [
+                13.8,
+                46.2,
+                14.0,
+                46.4
+              ],
+              "url": "si-built-69_231.geojson"
+            },
+            {
+              "bounds": [
+                13.8,
+                46.4,
+                14.0,
+                46.6
+              ],
+              "url": "si-built-69_232.geojson"
+            },
+            {
+              "bounds": [
+                14.0,
+                45.4,
+                14.2,
+                45.6
+              ],
+              "url": "si-built-70_227.geojson"
+            },
+            {
+              "bounds": [
+                14.0,
+                45.6,
+                14.2,
+                45.8
+              ],
+              "url": "si-built-70_228.geojson"
+            },
+            {
+              "bounds": [
+                14.0,
+                45.8,
+                14.2,
+                46.0
+              ],
+              "url": "si-built-70_229.geojson"
+            },
+            {
+              "bounds": [
+                14.0,
+                46.0,
+                14.2,
+                46.2
+              ],
+              "url": "si-built-70_230.geojson"
+            },
+            {
+              "bounds": [
+                14.0,
+                46.2,
+                14.2,
+                46.4
+              ],
+              "url": "si-built-70_231.geojson"
+            },
+            {
+              "bounds": [
+                14.0,
+                46.4,
+                14.2,
+                46.6
+              ],
+              "url": "si-built-70_232.geojson"
+            },
+            {
+              "bounds": [
+                14.2,
+                45.4,
+                14.4,
+                45.6
+              ],
+              "url": "si-built-71_227.geojson"
+            },
+            {
+              "bounds": [
+                14.2,
+                45.6,
+                14.4,
+                45.8
+              ],
+              "url": "si-built-71_228.geojson"
+            },
+            {
+              "bounds": [
+                14.2,
+                45.8,
+                14.4,
+                46.0
+              ],
+              "url": "si-built-71_229.geojson"
+            },
+            {
+              "bounds": [
+                14.2,
+                46.0,
+                14.4,
+                46.2
+              ],
+              "url": "si-built-71_230.geojson"
+            },
+            {
+              "bounds": [
+                14.2,
+                46.2,
+                14.4,
+                46.4
+              ],
+              "url": "si-built-71_231.geojson"
+            },
+            {
+              "bounds": [
+                14.2,
+                46.4,
+                14.4,
+                46.6
+              ],
+              "url": "si-built-71_232.geojson"
+            },
+            {
+              "bounds": [
+                14.4,
+                45.4,
+                14.6,
+                45.6
+              ],
+              "url": "si-built-72_227.geojson"
+            },
+            {
+              "bounds": [
+                14.4,
+                45.6,
+                14.6,
+                45.8
+              ],
+              "url": "si-built-72_228.geojson"
+            },
+            {
+              "bounds": [
+                14.4,
+                45.8,
+                14.6,
+                46.0
+              ],
+              "url": "si-built-72_229.geojson"
+            },
+            {
+              "bounds": [
+                14.4,
+                46.0,
+                14.6,
+                46.2
+              ],
+              "url": "si-built-72_230.geojson"
+            },
+            {
+              "bounds": [
+                14.4,
+                46.2,
+                14.6,
+                46.4
+              ],
+              "url": "si-built-72_231.geojson"
+            },
+            {
+              "bounds": [
+                14.4,
+                46.4,
+                14.6,
+                46.6
+              ],
+              "url": "si-built-72_232.geojson"
+            },
+            {
+              "bounds": [
+                14.6,
+                45.4,
+                14.8,
+                45.6
+              ],
+              "url": "si-built-73_227.geojson"
+            },
+            {
+              "bounds": [
+                14.6,
+                45.6,
+                14.8,
+                45.8
+              ],
+              "url": "si-built-73_228.geojson"
+            },
+            {
+              "bounds": [
+                14.6,
+                45.8,
+                14.8,
+                46.0
+              ],
+              "url": "si-built-73_229.geojson"
+            },
+            {
+              "bounds": [
+                14.6,
+                46.0,
+                14.8,
+                46.2
+              ],
+              "url": "si-built-73_230.geojson"
+            },
+            {
+              "bounds": [
+                14.6,
+                46.2,
+                14.8,
+                46.4
+              ],
+              "url": "si-built-73_231.geojson"
+            },
+            {
+              "bounds": [
+                14.6,
+                46.4,
+                14.8,
+                46.6
+              ],
+              "url": "si-built-73_232.geojson"
+            },
+            {
+              "bounds": [
+                14.8,
+                45.4,
+                15.0,
+                45.6
+              ],
+              "url": "si-built-74_227.geojson"
+            },
+            {
+              "bounds": [
+                14.8,
+                45.6,
+                15.0,
+                45.8
+              ],
+              "url": "si-built-74_228.geojson"
+            },
+            {
+              "bounds": [
+                14.8,
+                45.8,
+                15.0,
+                46.0
+              ],
+              "url": "si-built-74_229.geojson"
+            },
+            {
+              "bounds": [
+                14.8,
+                46.0,
+                15.0,
+                46.2
+              ],
+              "url": "si-built-74_230.geojson"
+            },
+            {
+              "bounds": [
+                14.8,
+                46.2,
+                15.0,
+                46.4
+              ],
+              "url": "si-built-74_231.geojson"
+            },
+            {
+              "bounds": [
+                14.8,
+                46.4,
+                15.0,
+                46.6
+              ],
+              "url": "si-built-74_232.geojson"
+            },
+            {
+              "bounds": [
+                14.8,
+                46.6,
+                15.0,
+                46.8
+              ],
+              "url": "si-built-74_233.geojson"
+            },
+            {
+              "bounds": [
+                15.0,
+                45.4,
+                15.2,
+                45.6
+              ],
+              "url": "si-built-75_227.geojson"
+            },
+            {
+              "bounds": [
+                15.0,
+                45.6,
+                15.2,
+                45.8
+              ],
+              "url": "si-built-75_228.geojson"
+            },
+            {
+              "bounds": [
+                15.0,
+                45.8,
+                15.2,
+                46.0
+              ],
+              "url": "si-built-75_229.geojson"
+            },
+            {
+              "bounds": [
+                15.0,
+                46.0,
+                15.2,
+                46.2
+              ],
+              "url": "si-built-75_230.geojson"
+            },
+            {
+              "bounds": [
+                15.0,
+                46.2,
+                15.2,
+                46.4
+              ],
+              "url": "si-built-75_231.geojson"
+            },
+            {
+              "bounds": [
+                15.0,
+                46.4,
+                15.2,
+                46.6
+              ],
+              "url": "si-built-75_232.geojson"
+            },
+            {
+              "bounds": [
+                15.0,
+                46.6,
+                15.2,
+                46.8
+              ],
+              "url": "si-built-75_233.geojson"
+            },
+            {
+              "bounds": [
+                15.2,
+                45.4,
+                15.4,
+                45.6
+              ],
+              "url": "si-built-76_227.geojson"
+            },
+            {
+              "bounds": [
+                15.2,
+                45.6,
+                15.4,
+                45.8
+              ],
+              "url": "si-built-76_228.geojson"
+            },
+            {
+              "bounds": [
+                15.2,
+                45.8,
+                15.4,
+                46.0
+              ],
+              "url": "si-built-76_229.geojson"
+            },
+            {
+              "bounds": [
+                15.2,
+                46.0,
+                15.4,
+                46.2
+              ],
+              "url": "si-built-76_230.geojson"
+            },
+            {
+              "bounds": [
+                15.2,
+                46.2,
+                15.4,
+                46.4
+              ],
+              "url": "si-built-76_231.geojson"
+            },
+            {
+              "bounds": [
+                15.2,
+                46.4,
+                15.4,
+                46.6
+              ],
+              "url": "si-built-76_232.geojson"
+            },
+            {
+              "bounds": [
+                15.2,
+                46.6,
+                15.4,
+                46.8
+              ],
+              "url": "si-built-76_233.geojson"
+            },
+            {
+              "bounds": [
+                15.4,
+                45.6,
+                15.6,
+                45.8
+              ],
+              "url": "si-built-77_228.geojson"
+            },
+            {
+              "bounds": [
+                15.4,
+                45.8,
+                15.6,
+                46.0
+              ],
+              "url": "si-built-77_229.geojson"
+            },
+            {
+              "bounds": [
+                15.4,
+                46.0,
+                15.6,
+                46.2
+              ],
+              "url": "si-built-77_230.geojson"
+            },
+            {
+              "bounds": [
+                15.4,
+                46.2,
+                15.6,
+                46.4
+              ],
+              "url": "si-built-77_231.geojson"
+            },
+            {
+              "bounds": [
+                15.4,
+                46.4,
+                15.6,
+                46.6
+              ],
+              "url": "si-built-77_232.geojson"
+            },
+            {
+              "bounds": [
+                15.4,
+                46.6,
+                15.6,
+                46.8
+              ],
+              "url": "si-built-77_233.geojson"
+            },
+            {
+              "bounds": [
+                15.6,
+                45.8,
+                15.8,
+                46.0
+              ],
+              "url": "si-built-78_229.geojson"
+            },
+            {
+              "bounds": [
+                15.6,
+                46.0,
+                15.8,
+                46.2
+              ],
+              "url": "si-built-78_230.geojson"
+            },
+            {
+              "bounds": [
+                15.6,
+                46.2,
+                15.8,
+                46.4
+              ],
+              "url": "si-built-78_231.geojson"
+            },
+            {
+              "bounds": [
+                15.6,
+                46.4,
+                15.8,
+                46.6
+              ],
+              "url": "si-built-78_232.geojson"
+            },
+            {
+              "bounds": [
+                15.6,
+                46.6,
+                15.8,
+                46.8
+              ],
+              "url": "si-built-78_233.geojson"
+            },
+            {
+              "bounds": [
+                15.8,
+                46.2,
+                16.0,
+                46.4
+              ],
+              "url": "si-built-79_231.geojson"
+            },
+            {
+              "bounds": [
+                15.8,
+                46.4,
+                16.0,
+                46.6
+              ],
+              "url": "si-built-79_232.geojson"
+            },
+            {
+              "bounds": [
+                15.8,
+                46.6,
+                16.0,
+                46.8
+              ],
+              "url": "si-built-79_233.geojson"
+            },
+            {
+              "bounds": [
+                15.8,
+                46.8,
+                16.0,
+                47.0
+              ],
+              "url": "si-built-79_234.geojson"
+            },
+            {
+              "bounds": [
+                16.0,
+                46.2,
+                16.2,
+                46.4
+              ],
+              "url": "si-built-80_231.geojson"
+            },
+            {
+              "bounds": [
+                16.0,
+                46.4,
+                16.2,
+                46.6
+              ],
+              "url": "si-built-80_232.geojson"
+            },
+            {
+              "bounds": [
+                16.0,
+                46.6,
+                16.2,
+                46.8
+              ],
+              "url": "si-built-80_233.geojson"
+            },
+            {
+              "bounds": [
+                16.0,
+                46.8,
+                16.2,
+                47.0
+              ],
+              "url": "si-built-80_234.geojson"
+            },
+            {
+              "bounds": [
+                16.2,
+                46.2,
+                16.4,
+                46.4
+              ],
+              "url": "si-built-81_231.geojson"
+            },
+            {
+              "bounds": [
+                16.2,
+                46.4,
+                16.4,
+                46.6
+              ],
+              "url": "si-built-81_232.geojson"
+            },
+            {
+              "bounds": [
+                16.2,
+                46.6,
+                16.4,
+                46.8
+              ],
+              "url": "si-built-81_233.geojson"
+            },
+            {
+              "bounds": [
+                16.2,
+                46.8,
+                16.4,
+                47.0
+              ],
+              "url": "si-built-81_234.geojson"
+            },
+            {
+              "bounds": [
+                16.4,
+                46.4,
+                16.6,
+                46.6
+              ],
+              "url": "si-built-82_232.geojson"
+            },
+            {
+              "bounds": [
+                16.4,
+                46.6,
+                16.6,
+                46.8
+              ],
+              "url": "si-built-82_233.geojson"
+            }
+          ]
         }
       ],
       "overlayInfo": {
         "shown": [
-          "Prepovedane cone (P) — vključno z NEK Krško in prepovedanimi letališči",
-          "Letališča in heliporti (ATZ)",
-          "CTR-cone (dovoljeno do 50 m) in nevarna območja (DNGA)",
-          "Območja z omejitvami (RSTA) — Luka Koper, TEŠ, Triglavski narodni park"
+          "Letališča in heliporti (ATZ)"
         ],
         "notShown": [
           "Kratkoročne omejitve — preverite NOTAM v aplikaciji"
         ],
-        "source": "CAA Slovenia (ArcGIS), posodobljeno tedensko",
-        "complement": "Za zavezujoče informacije vedno preverite uradni zemljevid CAA.",
-        "complementUrl": "https://www.caa.si/en/geographical-restrictions-for-uas.html"
+        "source": "CAA Slovenia (ArcGIS), posodobljeno tedensko"
       },
       "legalStatus": {
         "schemaVersion": 1,
@@ -11595,7 +12388,7 @@
           "zoneKeyDefault": "OBSTACLE_CH",
           "pointBufferM": 50,
           "authority": "BAZL",
-          "defaultDescription": "Luftfahrthindernis — Hochspannungsleitungen, Antennenmaste, Seilbahnen, Kräne und Gebäude. Vollständiges BAZL-Register. 50 m Sicherheitsabstand empfohlen.",
+          "defaultDescription": "Luftfahrthindernis — Hochspannungsleitungen, Antennenmaste, Seilbahnen, Kräne und Gebäude. Der Datensatz ist nicht vollständig. Rechne deshalb mit Hindernissen, die auf der Karte fehlen.",
           "viewportCull": true,
           "viewportCullMaxDeg": 0.6
         },
@@ -11663,14 +12456,17 @@
           "Kontrollzonen (CTR) und Flugplatzperimeter",
           "Naturschutzgebiete mit Drohnenverbot",
           "Sensible Infrastruktur (Gefängnisse, Kraftwerke, Spitäler)",
+          "TMA/CTA — Nahkontrollbezirke und Kontrollbezirke (Untergrenzen weit über Drohnenhöhe, zur Orientierung)",
+          "Sicherheitszonenpläne der Flugplätze — An- und Abflugflächen",
+          "Militärische Schiessgebiete mit tagesaktuellen Schiesszeiten (VBS)",
+          "UAS-Aktivitätszonen — gemeldete Drohnenaktivität mit Gültigkeitszeiten",
+          "Luftfahrthindernisse — Masten, Seilbahnen, Kräne (beim Hineinzoomen sichtbar)",
           "NOTAM — Temporäre Einschränkungen (global, alle 12 Stunden)"
         ],
         "notShown": [
           "Privatgrundstücke und Lärmschutzzonen"
         ],
-        "source": "FOCA/BAZL via opendata.swiss (offiziell, regelmässig aktualisiert)",
-        "complement": "Konsultieren Sie immer die offizielle BAZL-Drohnenkarte auf map.geo.admin.ch für verbindliche Informationen.",
-        "complementUrl": "https://map.geo.admin.ch/?lang=de&topic=aviation&layers=ch.bazl.einschraenkungen-drohnen"
+        "source": "FOCA/BAZL via opendata.swiss (offiziell, regelmässig aktualisiert)"
       },
       "airspaceButtonLabel": "Luftraum",
       "linksSheetTitle": "Luftraum & Regeln — Schweiz",
@@ -11743,6 +12539,12 @@
           "title": "SMV — Modellflug",
           "url": "https://www.modellflug.ch",
           "description": "Schweizerischer Modellflugverband mit Vereinsprivilegien und -standorten"
+        },
+        {
+          "id": "dabs",
+          "title": "DABS — Daily Airspace Bulletin Switzerland (BAZL)",
+          "url": "https://www.bazl.admin.ch/de/geografische-flugeinschraenkungen",
+          "description": "BAZL: «Vor jedem Flug muss daher auch das DABS geprüft werden» — Schritt 2 i BAZL:s egen trestegskontroll"
         }
       ],
       "keyRules": [
@@ -12313,6 +13115,12 @@
       "airspaceMapLabel": "Open LPS airspace map ↗",
       "primaryLinks": [
         {
+          "id": "nsat-zony",
+          "title": "Zemepisné oblasti UAS — Dopravný úrad",
+          "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/zemepisne-oblasti-uas/",
+          "description": "Oficiálna stránka Dopravného úradu so zemepisnými oblasťami UAS (KML na stiahnutie). Predletová príprava: oboznámiť sa s aktuálne platnými zemepisnými oblasťami."
+        },
+        {
           "id": "du_drones",
           "title": "Dopravný úrad — Predpisy pre drony",
           "url": "https://letectvo.nsat.sk/bezpilotne-letectvo/",
@@ -12358,7 +13166,7 @@
         "Odstupy podľa podkategórie: A1 — nelietajte nad nezúčastnenými osobami, A2 — min. 30 m od osôb (5 m v nízkorýchlostnom režime), A3 — min. 150 m od obytných, obchodných, priemyselných a rekreačných priestorov.",
         "V otvorenej kategórii musíte držať dron v priamom vizuálnom dohľade voľným okom (okuliare/kontaktné šošovky sú v poriadku; ďalekohľad alebo obrazovka sa nepočíta) — alebo si prizvať na pomoc pozorovateľa, s jasnou a účinnou komunikáciou medzi vami po celý čas, aby ste spolu mohli sledovať vzdušný priestor a predchádzať zrážkam. Režim „follow-me“ je samostatná výnimka, povolená do 50 m od pilota.",
         "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre osoby, ktoré nie sú priamo zapojené, závisia od podkategórie, triedy a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
-        "Pri Letisku M. R. Štefánika v Bratislave platí zákaz letov s dronmi v okruhu 5 km, od zeme do výšky 500 m (účinné od 6. decembra 2025). Výnimky: záchranné, zdravotné a pátracie lety. Pokuty do 3 500 € za úmyselné porušenie.",
+        "Pri Letisku M. R. Štefánika v Bratislave platí zákaz letov s dronmi v okruhu 3 km od vzťažného bodu letiska, od zeme do výšky 500 m (zóna PUAS0103M, v znení zmeny účinnej od 20. marca 2026). V okruhu 5 km (zóna RUAS001-LZIBAD-D) je civilná prevádzka UAS povolená len v osobitnej kategórii. Výnimky zo zákazu: lety na záchranu ľudského života, sanitné lety a lety pátrania a záchrany (SAR). Pokuty do 3 500 € za úmyselné porušenie.",
         "Nočné lety sú povolené — dron musí mať aktivované zelené blikajúce svetlo.",
         "Národné parky (Tatry, Slovenský raj, Nízke Tatry): platia obmedzenia",
         "Bratislavský hrad a vládne oblasti: bezletové zóny",
@@ -12369,7 +13177,7 @@
         "Vzdialenosti od osôb sa riadia podkategóriami EASA (A1/A2/A3) — staré národné pravidlo 50 m už neplatí.",
         "Registrácia prevádzkovateľa UAS sa robí cez Dopravný úrad — platnosť po celej EÚ/EASA",
         "Tatry a národné parky majú významné obmedzenia",
-        "Okolie letiska M. R. Štefánika: úplný zákaz dronov v okruhu 5 km (PUAS0103M) — pokrýva aj veľkú časť Bratislavy.",
+        "Okolie letiska M. R. Štefánika: úplný zákaz dronov v okruhu 3 km (PUAS0103M), a v okruhu 5 km prevádzka len v osobitnej kategórii (RUAS001-LZIBAD-D).",
         "GDPR platí pri zachytávaní identifikovateľných snímok"
       ],
       "lastVerified": "2026-06-11",
@@ -12605,9 +13413,7 @@
         "notShown": [
           "Krátkodobé obmedzenia — skontrolujte NOTAM v aplikácii"
         ],
-        "source": "Dopravný úrad SR / NSAT, aktualizované týždenne",
-        "complement": "Pre záväzné informácie si vždy pozrite oficiálnu stránku geo-zón.",
-        "complementUrl": "https://letectvo.nsat.sk/en/unmanned-aviation/geo-zones/"
+        "source": "Dopravný úrad SR / NSAT, aktualizované týždenne"
       },
       "legalStatus": {
         "schemaVersion": 1,
@@ -13127,9 +13933,7 @@
         "notShown": [
           "Parachutezones (controleer lokale NOTAM)"
         ],
-        "source": "IenW ED-269 + RVO Natura 2000 (officieel, dagelijks bijgewerkt)",
-        "complement": "Controleer ook rijksoverheid.nl voor de officiële regels",
-        "complementUrl": "https://www.rijksoverheid.nl/onderwerpen/drone"
+        "source": "IenW ED-269 + RVO Natura 2000 (officieel, dagelijks bijgewerkt)"
       },
       "hasNotam": true,
       "onboardingExtended": [
@@ -16271,9 +17075,7 @@
           "SDA zones (Specific Drone Activity — unofficial, SafeDrone Academy data)",
           "Northern Ireland (UK CAA — separate regulations apply)"
         ],
-        "source": "Irish Aviation Authority (IAA, official ED-269 data)",
-        "complement": "Always check the IAA UAS Geographic Zones page",
-        "complementUrl": "https://www.iaa.ie/general-aviation/drones/uas-geographic-zones"
+        "source": "Irish Aviation Authority (IAA, official ED-269 data)"
       },
       "airspaceButtonLabel": "Airspace",
       "linksSheetTitle": "Airspace & Rules — Ireland",
@@ -16363,7 +17165,7 @@
         "In the open category, keep the drone within your own unaided visual line of sight (glasses/contacts are fine; binoculars or a screen don't count) — or fly with an observer's help, keeping clear and effective communication between you at all times, so together you can watch the airspace and avoid collisions. Follow-me mode is a separate exception, allowed up to 50 m from the pilot.",
         "Minimum 30 m from people, crowds, vehicles and buildings",
         "There is no single EU-wide distance you must keep from airports. Restrictions near airports are published as geographic zones (Article 15) whose shape and size vary from airport to airport. Before flying anywhere near an airport, airfield or heliport, check your country's official drone-zone map; flying inside a control zone (CTR) normally requires prior authorisation from air traffic control.",
-        "Phoenix Park (Dublin): absolute drone prohibition",
+        "Phoenix Park (Dublin): drone flight requires prior permission from the Department of Justice (coflights@justice.ie) — it cannot be granted in the air",
         "National parks require NPWS permission — most prohibit drones during nesting season"
       ],
       "importantNotes": [
@@ -16398,8 +17200,7 @@
           "items": [
             "Airspace checked via IAA Geographical Zones map or SafeDrone",
             "Not in a red zone (prohibited without IAA authorization)",
-            "Not within 5 km of any airport or helipad",
-            "Not in Phoenix Park or other absolute no-fly areas",
+            "Permission obtained for any zone that requires it (Phoenix Park: Department of Justice)",
             "National park restrictions checked (NPWS permission needed)",
             "EASA operator registration and A1/A3 certificate carried",
             "Visibility and light conditions sufficient",
@@ -16945,14 +17746,18 @@
       "lonMax": -6.0,
       "dataSourceName": "ANAC",
       "dataSourceUrl": "https://www.anac.pt/vPT/Generico/drones/legislacao_regulamentacao_uas/Paginas/LegislacaoeRegulamentacaoEspecifica.aspx",
-      "airspaceMapUrl": "https://www.anac.pt/vPT/Generico/drones/legislacao_regulamentacao_uas/Paginas/LegislacaoeRegulamentacaoEspecifica.aspx",
-      "airspaceMapLabel": "Open ANAC drone info ↗",
+      "airspaceMapUrl": "https://dnt.anac.pt/",
+      "airspaceMapLabel": "Open ANAC UAS geozones map ↗",
       "primaryLinks": [
         {
           "id": "anac_drones",
           "title": "ANAC — Regulamentação de drones",
           "url": "https://www.anac.pt/vPT/Generico/drones/legislacao_regulamentacao_uas/Paginas/LegislacaoeRegulamentacaoEspecifica.aspx",
           "description": "Regras e recursos oficiais da autoridade portuguesa da aviação civil sobre drones"
+        },
+        {
+          "title": "ANAC — Mapa de geozonas UAS",
+          "url": "https://dnt.anac.pt/"
         },
         {
           "id": "anac_register",
@@ -17001,7 +17806,7 @@
         "Proibido sobrevoar instalações militares, prisões, embaixadas e forças de segurança (Decreto-Lei n.º 87/2021). O Parque Natural de Sintra-Cascais exige autorização do ICNF.",
         "Na categoria aberta, deve manter o drone dentro do seu próprio contacto visual direto, a olho nu (óculos/lentes de contacto são aceitáveis; binóculos ou ecrã não contam) — ou voar com a ajuda de um observador, mantendo uma comunicação clara e eficaz entre vocês em todos os momentos, para que possam juntos vigiar o espaço aéreo e evitar colisões. O modo «follow-me» é uma exceção separada, permitida até 50 m do piloto.",
         "Não sobrevoe aglomerações de pessoas. As regras aplicáveis a pessoas não envolvidas dependem da subcategoria, da marca de classe e das condições de operação; consulte a matriz oficial.",
-        "Não voe nas zonas de proteção de aeroportos e heliportos (CTR/ATZ) sem autorização — verifique as zonas no mapa da app e em voanaboa.pt.",
+        "Não voe nas zonas de proteção de aeroportos e heliportos (CTR/ATZ) sem autorização — verifique as zonas no mapa da app e em dnt.anac.pt.",
         "Voo noturno permitido na Categoria Aberta sem autorização da ANAC — ative uma luz verde intermitente no drone.",
         "Açores e Madeira: podem aplicar-se restrições regionais adicionais",
         "Fotografia e filmagem aéreas (e a sua divulgação) carecem de autorização da AAN — pedido gratuito online através da plataforma e-AAN."
@@ -17246,12 +18051,9 @@
           "Zonas condicionadas e heliportos (ATZ)"
         ],
         "notShown": [
-          "Zonas informativas sem restrição (NO_RESTRICTION)",
           "Restrições temporárias de última hora — verifique os NOTAM na app"
         ],
-        "source": "ANAC / dnt.anac.pt (ED-269), atualizado semanalmente",
-        "complement": "Consulte sempre o mapa oficial voanaboa.pt para informações vinculativas.",
-        "complementUrl": "https://voanaboa.pt"
+        "source": "ANAC / dnt.anac.pt (ED-269), atualizado semanalmente"
       },
       "legalStatus": {
         "schemaVersion": 1,
@@ -18091,8 +18893,8 @@
       "lonMax": -13.0,
       "dataSourceName": "ICETRA",
       "dataSourceUrl": "https://island.is/en/o/transport-authority/drones",
-      "airspaceMapUrl": "https://flydrone.is",
-      "airspaceMapLabel": "Open FlyDrone.is map ↗",
+      "airspaceMapUrl": "https://kort.gis.is/mapview/?app=dronar",
+      "airspaceMapLabel": "Opna drónakortið ↗",
       "primaryLinks": [
         {
           "id": "icetra_drones",
@@ -18131,6 +18933,10 @@
           "title": "Umhverfisstofnun – Náttúruvernd",
           "url": "https://www.ust.is",
           "description": "Upplýsingar um þjóðgarða og friðlönd frá Umhverfisstofnun"
+        },
+        {
+          "title": "Kortasjá – drónakort",
+          "url": "https://kort.gis.is/mapview/?app=dronar"
         }
       ],
       "keyRules": [
@@ -18141,7 +18947,7 @@
         "Frá 17. maí 2026 hefur Náttúruverndarstofnun (ekki flugmálayfirvöld) hætt að gefa út leyfi fyrir frístunda- og fræðsluflugi með dróna á yfir 25 friðlýstum svæðum, þar á meðal Vatnajökulsþjóðgarði, Þingvöllum og Snæfellsjökli — leyfi fyrir kvikmyndun, sjónvarpi, auglýsingum, fréttum og rannsóknum eru enn veitt.",
         "Í opna flokknum verður þú að halda drónanum innan þíns eigin, óstudda sjónsviðs (gleraugu/linsur eru í lagi; sjónauki eða skjár telur ekki með) — eða fljúga með aðstoð eftirlitsmanns, með skýrum og skilvirkum samskiptum ykkar á milli allan tímann, svo þið getið saman fylgst með loftrýminu og forðast árekstra. Follow-me-stilling er sérstök undanþága, leyfð allt að 50 m frá flugmanninum.",
         "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
-        "Að minnsta kosti 2 km frá Keflavík, Reykjavík, Akureyri og Egilsstöðum, og 1,5 km frá öðrum flugvöllum með áætlunarflugi (leyfi frá Isavia getur þurft nær).",
+        "Óheimilt er að fljúga án leyfis rekstraraðila flugvalla á flugvöllum, innan flugvallasvæða og innan bannsvæða umhverfis áætlunarflugvelli — bannsvæðin eru þau svæði sem sýnd eru á kortinu í appinu (víða um 5 km). Innan bannsvæðis er þó heimilt að fljúga án sérstaks leyfis ef flogið er undir hæð hæstu hindrana, innan 50 metra við flugferil loftfarsins. Leyfi: ISAVIA fyrir Keflavíkurflugvöll, Innanlandsflugvellir ehf. fyrir aðra áætlunarflugvelli.",
         "Fuglavarpssvæði: árstíðabundnar takmarkanir (maí–ágúst)",
         "Erfið vindskilyrði: á Íslandi fer vindur oft yfir öryggismörk dróna"
       ],
@@ -18175,7 +18981,7 @@
           "icon": "location_on",
           "color": "FFD600",
           "items": [
-            "Loftrými skoðað á FlyDrone.is",
+            "Loftrými skoðað á drónakortinu",
             "Ekki innan 5 km frá neinum flugvelli",
             "Staða eldvirkra svæða skoðuð (engin virk eldgos)",
             "Leyfi fyrir þjóðgarði fengið ef á við",
@@ -18372,8 +19178,7 @@
           "label": "is-zones",
           "sourceLabel": "Samgöngustofa — drónabannsvæði",
           "authority": "Samgöngustofa",
-          "bundled": "assets/airspace/is-zones.geojson",
-          "defaultDescription": "Opinber drónabannsvæði Íslands (Samgöngustofa) — flugvellir, sendiráð, fangelsi, virkjanir og náttúrusvæði þar sem leyfi þarf."
+          "bundled": "assets/airspace/is-zones.geojson"
         }
       ],
       "overlayInfo": {
@@ -18384,9 +19189,7 @@
         "notShown": [
           "Tímabundnar lokanir (t.d. eldgos) — athugaðu NOTAM í appinu"
         ],
-        "source": "Samgöngustofa / LMÍ (CC BY 4.0), uppfært vikulega",
-        "complement": "Skoðaðu alltaf opinbera drónakortið fyrir bindandi upplýsingar.",
-        "complementUrl": "https://kort.gis.is/mapview/?app=dronar"
+        "source": "Samgöngustofa / LMÍ (CC BY 4.0), uppfært vikulega"
       },
       "legalStatus": {
         "schemaVersion": 1,
@@ -18726,12 +19529,12 @@
         }
       ],
       "keyRules": [
-        "Avatud kategoorias on maksimaalne kõrgus 120 m, mõõdetuna kaugusena maapinna lähima punktini — mitte lihtsalt otse alla, seega nõlva lähedal võib arvesse minna ka kõrval asuv pinnas. 50 m raadiuses kõrgest tehisrajatisest (üle 105 m) võib rajatise eest vastutav üksus taotleda luba lennata kuni 15 m rajatise kõrgusest kõrgemale.",
+        "50 m raadiuses tehisrajatisest võib rajatise valdaja loal lennata kuni 15 m rajatisest kõrgemal.",
         "Peate registreerima end drooniooperaatorina, kui teie drooni kaal on 250 g või rohkem (või võib kokkupõrke korral üle kanda rohkem kui 80 J liikumisenergiat) — see kehtib ka mänguasjade kohta. Alla 250 g puhul on registreerimine siiski nõutav, kui droonil on andur, mis suudab koguda isikuandmeid, välja arvatud juhul, kui see kvalifitseerub mänguasjaks vastavalt ELi mänguasjade ohutuse direktiivile. Piloodikoolituse/tunnistuse nõuded on eraldiseisvad ja sõltuvad drooni klassist ja alakategooriast.",
         "Eestis on kaugpiloodi miinimumvanus 16 aastat — erandid kehtivad C0-klassi drooni puhul alamkategoorias A1, alla 250 g kaaluva isevalmistatud drooni puhul ning nõuetele vastava piloodi otsese järelevalve all lendamisel.",
         "Avatud kategoorias peate hoidma drooni oma otsese, abivahenditeta silmside piires (prillid/kontaktläätsed sobivad; binokkel või ekraan ei loe) — või lendama vaatleja abiga, hoides temaga pidevalt selget ja tõhusat suhtlust, et saaksite koos jälgida õhuruumi ja vältida kokkupõrkeid. Follow-me režiim on eraldi erand, lubatud kuni 50 m kaugusel pilootist.",
         "Ärge lennake inimkogunemiste kohal. Kolmandatele isikutele kehtivad eeskirjad sõltuvad alamkategooriast, klassimärgist ja lennutingimustest; tutvuge ametliku tabeliga.",
-        "Lennujaamade vahetus läheduses on lendamine keelatud (0 m kõrguspiirang) — kontrolli tsoone alati Estonian Drone Mapist.",
+        "Lennujaamade vahetus läheduses on avatud kategoorias kõrguspiirang 0 meetrit — lennata saab vaid erikategooria käitamisloaga.",
         "Öölennud on lubatud, kui droonil on vilkuv roheline tuli (UAS.OPEN.060(2)(g)) — idapiiri lähedal kehtib siiski öölennukeeld julgeolekukaalutlustel.",
         "Tallinna lennujaama CTR: kontrolli hoolikalt Estonian Drone Mapis",
         "Saarte lennujaamade (Saaremaa, Hiiumaa) ümber kehtivad piirangualad",
@@ -18977,9 +19780,7 @@
         "notShown": [
           "Lühiajalised piirangud — kontrolli NOTAM-eid äpis"
         ],
-        "source": "EANS / utm.eans.ee, uuendatakse iganädalaselt",
-        "complement": "Siduva teabe saamiseks vaata alati ametlikku droonikaarti.",
-        "complementUrl": "https://utm.eans.ee"
+        "source": "EANS / utm.eans.ee, uuendatakse iganädalaselt"
       },
       "legalStatus": {
         "schemaVersion": 1,
@@ -19274,7 +20075,7 @@
         {
           "id": "dronespace",
           "title": "Dronespace.at — Luftraumkarte",
-          "url": "https://www.dronespace.at",
+          "url": "https://map.dronespace.at",
           "description": "Offizielle interaktive Karte mit Drohnenzonen und Luftraumbeschränkungen"
         },
         {
@@ -19307,6 +20108,7 @@
         "In der offenen Kategorie müssen Sie die Drohne in Ihrer eigenen Sichtlinie, mit bloßem Auge halten (Brille/Kontaktlinsen sind in Ordnung; Fernglas oder Bildschirm zählen nicht) — oder mit Unterstützung eines Beobachters fliegen, wobei jederzeit eine klare und wirksame Kommunikation zwischen Ihnen bestehen muss, damit Sie gemeinsam den Luftraum beobachten und Kollisionen vermeiden können. Der Follow-me-Modus ist eine separate Ausnahme, erlaubt bis zu 50 m vom Piloten entfernt.",
         "Fliegen Sie nicht über Menschenansammlungen. Die Vorschriften für unbeteiligte Personen hängen von der Unterkategorie, der Klassenkennzeichnung und den Betriebsbedingungen ab; bitte beachten Sie die offizielle Matrix.",
         "Beachten Sie die geografischen UAS-Gebiete (§18b LVR) auf der Dronespace-Karte — an Flugplätzen ohne eigene Flugplatzzone ist Fliegen ohne Zustimmung des Flugplatzbetreibers verboten.",
+        "UAS unter 250 g Startmasse, die bis maximal 30 m über Grund geflogen werden, sind von der Zustimmungspflicht in Kontrollzonen und von der Bewilligungspflicht in Flugbeschränkungsgebieten ausgenommen. In Flugbeschränkungsgebieten gilt die Ausnahme jedoch nur, wenn innerhalb Ihres Flugbereichs kein Flugplatz ohne Flugplatzzone liegt.",
         "Nachtflug in der Open-Kategorie zulässig mit grün blinkender Leuchte (EASA seit 2022) — prüfe spezifische Zonen auf Dronespace.at",
         "Nationalparks und Naturschutzgebiete: zusätzliche Einschränkungen gelten"
       ],
@@ -19554,9 +20356,7 @@
           "Naturschutzgebiete der Bundesländer — separat geregelt, nicht in den UAS-Gebieten",
           "Kurzfristige Sperren — NOTAM in der App prüfen"
         ],
-        "source": "Austro Control (ED-269), wöchentlich aktualisiert",
-        "complement": "Konsultiere immer die offizielle Dronespace-Karte für verbindliche Informationen.",
-        "complementUrl": "https://map.dronespace.at"
+        "source": "Austro Control (ED-269), wöchentlich aktualisiert"
       },
       "legalStatus": {
         "schemaVersion": 1,
@@ -19847,8 +20647,7 @@
           "ttlMinutes": 1440,
           "label": "dk-primary",
           "sourceLabel": "Trafikstyrelsen DroneZoner 2025",
-          "authority": "Trafikstyrelsen",
-          "defaultDescription": "Officiel dronezone-data fra Trafikstyrelsens bekendtgørelse 2025 — RØD (flyvesikring), ORANGE (opmærksomhed), BLÅ (§ 11 sikringskritisk inkl. broer, havne, infrastruktur)."
+          "authority": "Trafikstyrelsen"
         },
         {
           "url": "https://pappilappi.com/airspace/dk-natur.geojson?cb=20260604a",
@@ -19857,7 +20656,6 @@
           "sourceLabel": "Trafikstyrelsen NaturOmraader (§ 14)",
           "zoneKeyDefault": "GRON_NATUR",
           "authority": "Miljøstyrelsen",
-          "defaultDescription": "Fugle- og habitatområde (§ 14). Aktiveres sæsonvis ved fuglehækning og andre kritiske perioder.",
           "seasonStart": "03-15",
           "seasonEnd": "08-31"
         }
@@ -20177,9 +20975,7 @@
         "notShown": [
           "TSA/TRA — Midlertidigt segregerede militære områder (tjek NOTAM)"
         ],
-        "source": "Trafikstyrelsen DroneZoner 2025 + NaturOmraader § 14 (officielt, dagligt opdateret)",
-        "complement": "Tjek altid droneregler.dk for de seneste regler",
-        "complementUrl": "https://www.droneregler.dk"
+        "source": "Trafikstyrelsen DroneZoner 2025 + NaturOmraader § 14 (officielt, dagligt opdateret)"
       },
       "legalStatus": {
         "schemaVersion": 1,
@@ -21091,7 +21887,7 @@
         {
           "id": "romatsa",
           "title": "ROMATSA — Harta spațiului aerian",
-          "url": "https://www.romatsa.ro",
+          "url": "https://flightplan.romatsa.ro/",
           "description": "Serviciile române de trafic aerian și informații despre spațiul aerian"
         },
         {
@@ -21111,7 +21907,7 @@
         {
           "id": "romatsa_notam",
           "title": "ROMATSA — NOTAM",
-          "url": "https://www.romatsa.ro",
+          "url": "https://flightplan.romatsa.ro/",
           "description": "NOTAM-uri active și restricții temporare ale spațiului aerian"
         }
       ],
@@ -21370,9 +22166,7 @@
         "notShown": [
           "Restricții temporare de ultimă oră — verificați NOTAM în aplicație"
         ],
-        "source": "ROMATSA / flightplan.romatsa.ro, actualizat săptămânal",
-        "complement": "Consultați întotdeauna harta oficială ROMATSA pentru informații obligatorii.",
-        "complementUrl": "https://flightplan.romatsa.ro/init/drones"
+        "source": "ROMATSA / flightplan.romatsa.ro, actualizat săptămânal"
       },
       "legalStatus": {
         "schemaVersion": 1,
@@ -22201,9 +22995,7 @@
         "notShown": [
           "Hängegleiter-Gelände, Modellflugplätze und inaktive temporäre Betriebseinschränkungen (nur in der dipul-Karte verfügbar, nicht im WFS-Dienst)"
         ],
-        "source": "DFS dipul (WFS, unverändert gespiegelt) · BfN Schutzgebiete",
-        "complement": "Prüfen Sie im Zweifel die vollständige dipul-Karte",
-        "complementUrl": "https://maptool-dipul.dfs.de"
+        "source": "DFS dipul (WFS, unverändert gespiegelt) · BfN Schutzgebiete"
       },
       "airspaceButtonLabel": "Luftraum",
       "linksSheetTitle": "Luftraum & Regeln — Deutschland",
@@ -23018,14 +23810,14 @@
           "Zonas restringidas por fotogrametría (autorización CECAF)",
           "Infraestructuras protegidas — ferrocarril, energía (14 115 zonas)",
           "Zonas urbanas (notificación previa 5 días — consulte AESA para reglas vigentes)",
+          "Parques nacionales y sus zonas periféricas de protección (16 parques, Ley 30/2014)",
           "NOTAM — Restricciones temporales (global, cada 12 horas)"
         ],
         "notShown": [
-          "Zonas de exclusión por motivos de seguridad del Estado"
+          "Zonas de exclusión por motivos de seguridad del Estado",
+          "Espacios protegidos autonómicos — parques naturales y reservas con normativa propia de cada comunidad"
         ],
-        "source": "ENAIRE INSIGNIA (oficial, ciclo AIRAC)",
-        "complement": "Consulte siempre el mapa oficial de ENAIRE",
-        "complementUrl": "https://drones.enaire.es"
+        "source": "ENAIRE INSIGNIA (oficial, ciclo AIRAC)"
       },
       "airspaceButtonLabel": "Espacio aéreo",
       "linksSheetTitle": "Espacio aéreo y normas — España",
@@ -24324,7 +25116,7 @@
           "sourceLabel": "Parcs Nationaux (data.gouv.fr)",
           "zoneKeyDefault": "PARC_NATIONAL_FR",
           "authority": "Parcs nationaux de France",
-          "defaultDescription": "Vol drone interdit dans le coeur du parc national selon l'article L362-1 + règlement de chaque parc. Toute dérogation requiert l'autorisation écrite de la direction du parc."
+          "defaultDescription": "Le survol du cœur du parc national à une hauteur inférieure à 1 000 m du sol est interdit par la réglementation propre à chaque parc. L'habilitation figure au code de l'environnement art. L331-4-1. La dérogation relève du directeur du parc — et non du contrôle aérien."
         }
       ],
       "airspaceWfsTapUrl": "https://data.geopf.fr/wfs/ows",
@@ -24332,8 +25124,10 @@
       "overlayInfo": {
         "shown": [
           "Zones interdites de vol (rouge — Vol interdit)",
-          "Zones à hauteur maximale limitée (ambre — 30 m, 50 m, 100 m)",
+          "Zones à hauteur maximale limitée (ambre — 30 m, 50 m, 60 m, 100 m)",
           "Zones autour des aéroports et aérodromes",
+          "Zones interdites à la captation aérienne (ZICAD) — prise de vues par drone interdite même si le vol est autorisé",
+          "Parcs nationaux (11) — cœurs, aires d'adhésion et réserves intégrales ; vol interdit dans les cœurs",
           "NOTAM — Restrictions temporaires (global, toutes les 12 heures)"
         ],
         "notShown": [
@@ -24341,9 +25135,7 @@
           "Limites exactes des agglomérations (indicatives uniquement)",
           "Territoires d'outre-mer partiellement couverts"
         ],
-        "source": "IGN / Géoportail (officiel, données DGAC, mis à jour périodiquement)",
-        "complement": "Consultez toujours Géoportail et le SIA pour les restrictions temporaires",
-        "complementUrl": "https://www.geoportail.gouv.fr/donnees/restrictions-pour-drones-de-loisir"
+        "source": "IGN / Géoportail (officiel, données DGAC, mis à jour périodiquement)"
       },
       "airspaceButtonLabel": "Espace aérien",
       "linksSheetTitle": "Espace aérien et règles — France",
@@ -24374,10 +25166,10 @@
       "latMax": 51.5,
       "lonMin": -5.0,
       "lonMax": 10.0,
-      "dataSourceName": "IGN / Géoportail · Etalab 2.0",
-      "dataSourceUrl": "https://www.geoportail.gouv.fr/donnees/restrictions-pour-drones-de-loisir",
-      "airspaceMapUrl": "https://www.geoportail.gouv.fr/donnees/restrictions-pour-drones-de-loisir",
-      "airspaceMapLabel": "Open Géoportail drone map ↗",
+      "dataSourceName": "DGAC / IGN Géoplateforme · Etalab 2.0",
+      "dataSourceUrl": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_RESTRICTIONS-UAS",
+      "airspaceMapUrl": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_RESTRICTIONS-UAS",
+      "airspaceMapLabel": "Open the DGAC drone map (cartes.gouv.fr) ↗",
       "primaryLinks": [
         {
           "id": "dgac_drones",
@@ -24393,9 +25185,9 @@
         },
         {
           "id": "geoportail",
-          "title": "Géoportail — Carte des restrictions drones",
-          "url": "https://www.geoportail.gouv.fr/donnees/restrictions-pour-drones-de-loisir",
-          "description": "Carte officielle indiquant les zones d’interdiction, les zones restreintes et les altitudes maximales autorisées"
+          "title": "cartes.gouv.fr — Restrictions UAS catégorie Ouverte et aéromodélisme",
+          "url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/DGAC_RESTRICTIONS-UAS",
+          "description": "Carte et données officielles de la DGAC : zones d'interdiction, zones restreintes et hauteurs maximales autorisées"
         },
         {
           "id": "dgac_rules",
@@ -24423,7 +25215,7 @@
         "Vous devez vous enregistrer en tant qu'exploitant de drone si votre drone pèse 250 g ou plus (ou pourrait transférer plus de 80 J d'énergie cinétique lors d'un impact) — cela s'applique même aux jouets. En dessous de 250 g, l'enregistrement reste obligatoire si le drone est équipé d'un capteur capable de capturer des données personnelles, sauf s'il est considéré comme un jouet au sens de la directive européenne sur la sécurité des jouets. Les exigences de formation/certificat de télépilote sont distinctes et dépendent de la classe et de la sous-catégorie du drone.",
         "En France, l'âge minimum pour piloter seul en catégorie ouverte est de 14 ans, avec formation et examen A1/A3 gratuits en ligne via AlphaTango (valables 5 ans, reconnus dans toute l'UE) ; en dessous de cet âge, le vol n'est autorisé que sous la supervision directe d'un télépilote certifié. Cet âge abaissé ne s'applique qu'en France — dans un autre pays de l'UE, c'est l'âge minimum de ce pays qui prévaut.",
         "Assurance responsabilité civile fortement recommandée pour le loisir (obligatoire pour usage professionnel ou commercial)",
-        "Paris et Île-de-France : vastes zones d’interdiction de vol — consultez Géoportail",
+        "Paris et Île-de-France : vastes zones d’interdiction de vol — consultez la carte officielle DGAC (cartes.gouv.fr)",
         "Dans la catégorie ouverte, gardez le drone dans votre propre champ de vision direct, à l'œil nu (lunettes/lentilles correctives autorisées ; jumelles ou écran ne comptent pas) — ou faites-vous assister par un observateur, avec une communication claire et efficace entre vous à tout moment, afin de surveiller ensemble l'espace aérien et d'éviter les collisions. Le mode « follow-me » est une exception distincte, autorisée jusqu'à 50 m du télépilote.",
         "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
         "Il n'existe pas de distance unique à respecter vis-à-vis des aéroports à l'échelle de l'UE. Les restrictions à proximité des aéroports sont publiées sous forme de zones géographiques (article 15) dont la forme et la taille varient d'un aéroport à l'autre. Avant de voler à proximité d'un aéroport, d'un aérodrome ou d'un héliport, consultez la carte officielle des zones pour drones de votre pays ; voler dans une zone de contrôle (CTR) nécessite normalement une autorisation préalable du contrôle aérien.",
@@ -24461,9 +25253,9 @@
           "icon": "location_on",
           "color": "FFD600",
           "items": [
-            "Espace aérien vérifié sur la carte Géoportail des restrictions drones",
+            "Espace aérien vérifié sur la carte officielle DGAC des restrictions UAS (cartes.gouv.fr)",
             "Hors zone restreinte ou interdite (vérifier AlphaTango)",
-            "À plus de 5 km de tout aérodrome ou hélistation",
+            "Hors du volume interdit autour des aérodromes et hélistations (dimensions variables selon l'aérodrome et la piste — vérifier la carte DGAC)",
             "Hors zone interdite de Paris ou d'autres zones urbaines restreintes",
             "Restrictions des parcs nationaux et réserves naturelles vérifiées",
             "Enregistrement AlphaTango et attestation A1/A3 emportés",
@@ -25498,8 +26290,7 @@
           "ttlMinutes": 1440,
           "label": "fi-primary",
           "sourceLabel": "Traficom UAS-ilmatilavyöhykkeet (ED-269)",
-          "authority": "Traficom",
-          "defaultDescription": "Traficomin viralliset UAS-ilmatilavyöhykkeet — lentoasemien CTR-alueet, vankilat, sotilasalueet, sairaalat ja muut turvallisuusherkät kohteet."
+          "authority": "Traficom"
         },
         {
           "url": "https://pappilappi.com/airspace/fi-natur.geojson?cb=20260802b",
@@ -25510,7 +26301,6 @@
           "authority": "Syke",
           "viewportCull": true,
           "viewportCullMaxDeg": 2.5,
-          "defaultDescription": "Natura 2000 -alueet (SAC-luontodirektiivin ja SPA-lintudirektiivin alueet). Aktivoituvat lintujen pesimäaikaan ja muina herkkinä jaksoina.",
           "seasonStart": "03-15",
           "seasonEnd": "08-31"
         },
@@ -25519,16 +26309,14 @@
           "ttlMinutes": 1440,
           "label": "fi-permanent",
           "sourceLabel": "Traficom Ilmatilasovellus — pysyvät varaukset",
-          "authority": "Traficom",
-          "defaultDescription": "Pysyvät kielto-, rajoitus- ja vaara-alueet (EFP/EFR/EFD) Traficomin ilmatilasovelluksen mukaan — mm. ydinvoimalat (Loviisa, Olkiluoto), itärajan EFR100-vyöhyke sekä sotilas- ja ampuma-alueet."
+          "authority": "Traficom"
         },
         {
           "url": "https://pappilappi.com/airspace/fi-temporary.geojson?cb=20260802a",
           "ttlMinutes": 360,
           "label": "fi-temporary",
           "sourceLabel": "Traficom Ilmatilasovellus — tilapäiset varaukset",
-          "authority": "Traficom",
-          "defaultDescription": "Tilapäiset ilmatilavaraukset (D/R) voimassaoloaikoineen — mm. sotilasharjoitukset ja UAS-toiminta. Tarkista vyöhykkeen voimassaolo vyöhykekortista ennen lentoa."
+          "authority": "Traficom"
         }
       ],
       "airspaceButtonLabel": "Ilmatila",
@@ -25561,32 +26349,32 @@
       "lonMin": 19.08,
       "lonMax": 31.59,
       "dataSourceName": "Traficom",
-      "dataSourceUrl": "https://droneinfo.fi/en/droneinfo-front-page",
-      "airspaceMapUrl": "https://www.droneinfo.fi",
-      "airspaceMapLabel": "Open Droneinfo.fi map ↗",
+      "dataSourceUrl": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
+      "airspaceMapUrl": "https://sky.fintraffic.fi/",
+      "airspaceMapLabel": "Open Fintraffic Sky ↗",
       "primaryLinks": [
         {
           "id": "traficom_drones",
           "title": "Traficom – Drone-säännöt",
-          "url": "https://droneinfo.fi/en/droneinfo-front-page",
+          "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
           "description": "Liikenne- ja viestintäviraston (Traficom) viralliset drone-säännöt"
         },
         {
           "id": "traficom_register",
           "title": "Traficom – Rekisteröidy käyttäjäksi",
-          "url": "https://droneinfo.fi/en/registering-drone-operator",
+          "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
           "description": "Rekisteröidy UAS-käyttäjäksi (40 €/1 v, 95 €/3 v tai 125 €/5 v, voimassa kaikissa EU/EASA-maissa)"
         },
         {
           "id": "droneinfo",
           "title": "Droneinfo.fi – Ilmatilakartta",
-          "url": "https://www.droneinfo.fi",
+          "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
           "description": "Virallinen interaktiivinen drone-kartta, jossa näkyvät kielto- ja rajoitusalueet"
         },
         {
           "id": "traficom_training",
           "title": "Traficom – Koulutus ja kokeet",
-          "url": "https://droneinfo.fi/en/droneinfo-front-page",
+          "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
           "description": "Tietoa A1/A3- ja A2-koulutuksista ja kokeista"
         }
       ],
@@ -25600,7 +26388,7 @@
         {
           "id": "traficom_faq",
           "title": "Traficom – Usein kysyttyä droneista",
-          "url": "https://droneinfo.fi/en/droneinfo-front-page",
+          "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
           "description": "Usein kysytyt kysymykset Suomen drone-säännöistä"
         }
       ],
@@ -25617,13 +26405,11 @@
           "Live NOTAM — Fintraffic AIS, päivittyy 12 tunnin välein"
         ],
         "notShown": [
-          "AUP/UUP-päivittäiset aktivoinnit (Fintraffic Sky / NOTAM näyttää)",
+          "Varausalueiden aktivointitila — alueet näkyvät kartalla, mutta ei tieto siitä, onko varaus juuri nyt voimassa (AUP/UUP: Fintraffic Sky / NOTAM)",
           "Poronhoitoalueet Lapissa (kausiluonteisia, paikalliset rajoitukset)",
           "Kausiluonteiset tapahtumat (festivaalit, suuret yleisötilaisuudet)"
         ],
-        "source": "Traficom UAS Reservations API + SYKE INSPIRE Protected Sites WFS — viralliset, päivittyvät päivittäin",
-        "complement": "Tarkista aina droneinfo.fi viimeisimpien rajoitusten varalta ennen lentoa",
-        "complementUrl": "https://www.droneinfo.fi"
+        "source": "Traficom UAS Reservations API + SYKE INSPIRE Protected Sites WFS — viralliset, päivittyvät päivittäin"
       },
       "keyRules": [
         "Avoimessa kategoriassa suurin sallittu korkeus on 120 m, mitattuna etäisyytenä lähimpään maanpinnan kohtaan — ei suoraan alaspäin, joten rinteen lähellä myös vieressä oleva maasto voidaan laskea mukaan. 50 m säteellä korkeasta keinotekoisesta esteestä (yli 105 m) esteestä vastaava taho voi hakea lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
@@ -28254,15 +29040,14 @@
           "RWY5K — 5 km banzon",
           "SUP — AIP Supplements",
           "NOTAM — Tillfälliga restriktioner (realtid från LFV)",
-          "UAS-zoner (Transportstyrelsens drönarkarta)"
+          "UAS-zoner — LFV:s drönarkarta (zonerna beslutas av Transportstyrelsen)"
         ],
         "notShown": [
           "Naturreservat med drönarförbud (Länsstyrelsen)",
-          "Kommunala lokala föreskrifter"
+          "Kommunala lokala föreskrifter",
+          "TMA, TRA och CBA — terminalområden och militära reservat (finns hos LFV men ingår inte i appens lagerval)"
         ],
-        "source": "LFV DAIM (realtidsuppdaterad)",
-        "complement": "Kontrollera alltid LFV Drönarkartan för komplett bild",
-        "complementUrl": "https://dronechart.lfv.se"
+        "source": "LFV DAIM (realtidsuppdaterad)"
       },
       "hasNotam": true,
       "onboardingExtended": [
@@ -29551,9 +30336,7 @@
           "Midlertidige arrangementsrestriksjoner som ikke er publisert som NOTAM",
           "Sesongbaserte dyrelivshensyn utenfor kartlagte naturreservater"
         ],
-        "source": "Avinor + Miljødirektoratet + Forsvarsbygg + Sjøforsvaret + NVE + Lovdata — inneholder data under Norsk lisens for offentlige data (NLOD)",
-        "complement": "Verifiser alltid med Avinor Dronekart for siste restriksjoner før flyging",
-        "complementUrl": "https://experience.arcgis.com/experience/9d098dbc738e436f9525fdb4ef443f61"
+        "source": "Avinor + Miljødirektoratet + Forsvarsbygg + Sjøforsvaret + NVE + Lovdata — inneholder data under Norsk lisens for offentlige data (NLOD)"
       },
       "airspaceSecondaryFeeds": [
         {
@@ -29573,7 +30356,7 @@
           "sourceLabel": "NVE Vindkraft (NLOD 2.0)",
           "zoneKeyDefault": "NO_INFRA_NVE",
           "authority": "NVE (Norges vassdrags- og energidirektorat)",
-          "defaultDescription": "Vindkraftpark — rotorblad og turbulens. Hold minst 150 m sikkerhetsavstand. Verifiser via NVE-lenken i info-kortet."
+          "defaultDescription": "Vindkraftpark fra NVEs register. Rotorbladene sveiper høyt over bakken og skaper kraftig turbulens i le — begge deler kan nå langt utenfor tårnfoten. Hold god margin, og verifiser via NVE-lenken i info-kortet."
         }
       ],
       "legalStatus": {
@@ -31110,7 +31893,12 @@
           "🌲 National Parks (418 mapped NPS units — 36 CFR §2.17 drone prohibited)",
           "✈️ Class B/C/D/E2 controlled airspace (FAA Sectional — context for UASFM)",
           "🛡 Special Use Airspace (Prohibited, Restricted, MOA, Warning — 1,494 areas)",
-          "🚁 Heliports (1,600+ medical/public helipads in airspace overlay; 3,000+ map pins including private — H-symbol on map)"
+          "🚁 Heliports (1,600+ medical/public helipads in airspace overlay; 3,000+ map pins including private — H-symbol on map)",
+          "🦅 National Wildlife Refuges (USFWS) — take-off and landing on refuge land prohibited; shown when zoomed in",
+          "🏛 Washington DC SFRA (30 NM, 14 CFR 93) — FAA authorization required; the inner FRZ bans drone flight outright",
+          "🛑 Part-time National Security UAS Flight Restrictions (NSUFR, 14 CFR 99.7) — DoD sites, closed while active",
+          "🛩 FRIA — FAA-Recognized Identification Areas where drones without Remote ID may fly; shown when zoomed in",
+          "🎯 Recreational flyer fixed sites (CBO club fields, up to 200 ft AGL); shown when zoomed in"
         ],
         "notShown": [
           "State and county parks — many ban drones; check the specific park.",
