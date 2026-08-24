@@ -12,10 +12,11 @@
  *   annars             → meta.title.country        (befintlig regel-titel)
  *
  * Trunkering (titel ≤60, desc ≤155): kandidatkedja där årtalet stryks FÖRST
- * och kartordet SIST — kartordet är det viktigaste ledet. För kartländer med
- * långa namn finns en kortform (mapShort: bara kartord + land) innan kedjan
- * ger upp och faller till bastiteln. Årtals-strykningen äter även upp ett
- * komma före {year} så "sammanställt, 2026." inte blir "sammanställt,.".
+ * och kart-/NOTAM-ordet SIST — det ordet är det viktigaste ledet. För länder
+ * med långa namn finns kortformer (mapShort/notamShort: bara kart- resp.
+ * NOTAM-ordet + land) innan kedjan ger upp och faller till bastiteln.
+ * Årtals-strykningen äter även upp ett komma före {year} så
+ * "sammanställt, 2026." inte blir "sammanställt,.".
  */
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -78,7 +79,8 @@ export function buildCountryTitle(lang, tier, params) {
     chain.push(full, withoutYear(full), short, withoutYear(short));
   } else if (tier === 'notam') {
     const full = tpl('meta.title.country.notam', lang);
-    chain.push(full, withoutYear(full));
+    const short = tpl('meta.title.country.notamShort', lang);
+    chain.push(full, withoutYear(full), short, withoutYear(short));
   }
   chain.push(base, withoutYear(base));
   return pick(chain, params, MAX_TITLE);

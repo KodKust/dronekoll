@@ -226,7 +226,8 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
     // tyst till EN → engelsk titel på fel-språkig sida. Sektion 11 vaktar
     // längder/kartord i renderad HTML; här vaktas kompletthet + platshållare.
     'meta.title.country', 'meta.title.country.map', 'meta.title.country.mapShort',
-    'meta.title.country.notam', 'meta.desc.country', 'meta.desc.country.map',
+    'meta.title.country.notam', 'meta.title.country.notamShort',
+    'meta.desc.country', 'meta.desc.country.map',
     'meta.desc.country.notam'];
   const ws = JSON.parse(readFileSync(join(ROOT, 'data', 'web-strings', 'web_strings.json'), 'utf8'));
   // countryIn/countryGen är KASUSVARIANTER av samma landsnamn (finskan böjer
