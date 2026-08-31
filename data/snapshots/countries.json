@@ -1,5 +1,5 @@
 {
-  "version": 228,
+  "version": 234,
   "touristContent": {
     "baseUrl": "https://dronekoll.com"
   },
@@ -9279,19 +9279,19 @@
         {
           "id": "dac_register",
           "title": "DAC — S'enregistrer comme exploitant",
-          "url": "https://dac.gouvernement.lu/fr/drones.html",
+          "url": "https://dac.gouvernement.lu/fr/drones/where-when-register.html",
           "description": "Enregistrement en tant qu’exploitant d’UAS (10 €/an, reconnu dans tous les pays de l’UE/EASA)"
         },
         {
           "id": "geoportail_lu",
           "title": "Geoportail.lu — Carte des drones",
-          "url": "https://www.geoportail.lu",
-          "description": "Portail géographique officiel avec informations sur les zones drones"
+          "url": "https://g-o.lu/uas",
+          "description": "Seules les zones géographiques UAS publiées ici sont légalement applicables au Luxembourg"
         },
         {
           "id": "dac_rules",
           "title": "DAC — Aperçu des règles",
-          "url": "https://dac.gouvernement.lu/fr/drones.html",
+          "url": "https://dac.gouvernement.lu/fr/drones/drones-let-me-fly/categorie-open.html",
           "description": "Aperçu des règles de vol des drones au Luxembourg"
         }
       ],
@@ -9311,23 +9311,23 @@
       ],
       "keyRules": [
         "Dans la catégorie ouverte, la hauteur maximale est de 120 m, mesurée comme la distance jusqu'au point le plus proche de la surface terrestre — pas simplement à la verticale, donc près d'une pente le sol à côté de vous peut aussi compter. À moins de 50 m d'un obstacle artificiel élevé (plus de 105 m), l'entité responsable de cet obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
-        "Mandatoire : formation en ligne A1/A3 — âge minimum 14 ans (l'inscription doit être effectuée par un parent ou tuteur pour les 14-15 ans).",
+        "Formation en ligne A1/A3 obligatoire et gratuite via la plateforme LearningZone d'Eurocontrol (FR/DE/EN/LB, accès 3 mois renouvelable), attestation valable 5 ans. L'âge minimum pour opérer un aéronef sans équipage à bord en catégorie « ouverte » est de 14 ans au Luxembourg (art. 2 du règlement grand-ducal du 22 décembre 2025) ; un mineur plus jeune vole sous la supervision d'une personne de plus de 16 ans disposant des qualifications requises. L'examen OPEN A2 se passe dans les locaux de la DAC et coûte 45 €.",
         "Assurance responsabilité civile obligatoire (numéro de police requis lors de l’enregistrement)",
         "La CTR de l’aéroport de Luxembourg-Findel couvre une part importante du pays",
         "Dans la catégorie ouverte, gardez le drone dans votre propre champ de vision direct, à l'œil nu (lunettes/lentilles correctives autorisées ; jumelles ou écran ne comptent pas) — ou faites-vous assister par un observateur, avec une communication claire et efficace entre vous à tout moment, afin de surveiller ensemble l'espace aérien et d'éviter les collisions. Le mode « follow-me » est une exception distincte, autorisée jusqu'à 50 m du télépilote.",
         "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
         "Respectez la CTR de Luxembourg-Findel et les zones géographiques UAS publiées sur Geoportail.lu — pas de tampon forfaitaire de 5 km depuis l'harmonisation EASA",
-        "De nuit, de nombreuses zones (notamment autour de Findel) exigent une autorisation spécifique — vérifiez les conditions de chaque zone sur g-o.lu/uas.",
+        "Le vol de nuit est autorisé en catégorie Ouverte au Luxembourg, sous réserve des exigences de base de l'AESA. Certaines zones géographiques — notamment autour de Findel — imposent toutefois des conditions ou une autorisation spécifique de nuit : vérifiez les conditions de chaque zone sur g-o.lu/uas.",
         "Palais grand-ducal, centres pénitentiaires et zones militaires : autorisation préalable obligatoire — stades et aérodromes locaux (Useldange, Noertrange) : vol interdit."
       ],
       "importantNotes": [
         "Assurance obligatoire avec numéro de police requis lors de l’enregistrement",
         "La CTR de l’aéroport de Luxembourg-Findel couvre une grande partie de ce petit pays",
-        "Le nouveau cadre national (décembre 2025) prévoit des sanctions pénales — jusqu'à 1 an de prison et 5 000 € d'amende — en cas de défaut d'assurance ou d'enregistrement.",
+        "Le nouveau cadre national — loi du 19 décembre 2025 et règlement grand-ducal du 22 décembre 2025 relatif aux aéronefs sans équipage à bord — complète la réglementation européenne et introduit des sanctions pénales en cas de non-respect des obligations d'enregistrement, d'assurance et de zones. Des frais s'appliquent depuis le 14 janvier 2026 : 10 € pour l'enregistrement ou son renouvellement, 30 € pour une déclaration STS, 45 € pour l'examen OPEN A2.",
         "Le RGPD s’applique lors de la capture d’images identifiables"
       ],
-      "lastVerified": "2026-06-11",
-      "verifiedBy": "DAC (official sources)",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "DAC (official sources) + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 (EASA Open Category) + national enforcement framework",
       "checklist": [
         {
@@ -10467,24 +10467,24 @@
         "V odprti kategoriji je največja višina 120 m, merjena kot razdalja do najbližje točke zemeljskega površja — ne preprosto navpično navzdol, zato lahko blizu pobočja štejejo tudi tla ob vas. V razdalji 50 m od visoke umetne ovire (nad 105 m) lahko subjekt, odgovoren za oviro, zaprosi za dovoljenje za let do 15 m nad višino ovire.",
         "Kot operater drona se morate registrirati, če vaš dron tehta 250 g ali več (ali bi ob trku lahko prenesel več kot 80 J energije) — to velja tudi za igrače. Pri manj kot 250 g je registracija še vedno obvezna, če ima dron senzor, ki lahko zajema osebne podatke, razen če se šteje za igračo v skladu z direktivo EU o varnosti igrač. Zahteve glede usposabljanja/potrdila pilota so ločene in odvisne od razreda in podkategorije drona.",
         "V Sloveniji je minimalna starost za samostojno letenje 16 let — spletno usposabljanje in izpit A1/A3 sta veljavna 5 let, izvaja ju Javna agencija za civilno letalstvo (CAA).",
-        "Nad poseljenimi območji prepovedano — izjema le za drone do 1200 g, do 50 m, s soglasjem lastnika zemljišča in predhodno najavo leta agenciji.",
+        "Nad poseljenimi območji je letenje v odprti kategoriji prepovedano. Izjema po 14. členu Uredbe velja le, če so izpolnjeni vsi pogoji: masa sistema do 1200 g, višina do 50 m nad tlemi (AGL), operacija izključno podnevi, predhodna odobritev lastnika ali uporabnika nepremičnine in oddana predhodna najava leta. Kadar je nujno potrebno za varno izvedbo operacije, se zrakoplov lahko nahaja največ deset metrov čez mejo nepremičnine.",
         "V odprti kategoriji morate dron obdržati v svojem neposrednem vidnem polju s prostim očesom (očala/kontaktne leče so v redu; daljnogled ali zaslon se ne štejeta) — ali leteti s pomočjo opazovalca, pri čemer ves čas ohranjate jasno in učinkovito komunikacijo med seboj, da lahko skupaj spremljate zračni prostor in se izognete trčenjem. Način »follow-me« je ločena izjema, dovoljena do 50 m od pilota.",
         "Ne letite nad skupinami ljudi. Pravila za neudeležene osebe so odvisna od podkategorije, razredne oznake in pogojev delovanja; preverite uradno matriko.",
         "Nočni let je dovoljen v skladu z osnovnimi zahtevami EASA za odprto kategorijo, če se uporablja predpisana zelena utripajoča luč, razen če veljavna geografska cona ali nacionalni predpis določa strožje pogoje.",
         "Triglavski narodni park: letenje z droni prepovedano brez predhodnega dovoljenja uprave parka.",
-        "CTR (npr. Ljubljana): več kot 5 km od letališča letenje do največ 50 m nad tlemi; bližje ali višje le z odobritvijo Kontrole zračnega prometa Slovenije.",
+        "Za letališča s CTR velja: Portorož (LJPZ), Maribor (LJMB) in Cerklje (LJCE) imajo izven obratovalnega časa režim 'nekontroliranih' letališč — prepoved letenja 2600 m od vzletno-pristajalne steze, razen s soglasjem upravljavca letališča. Za letališče Jožeta Pučnika Ljubljana (LJLJ) veljajo vedno iste omejitve brez olajšav, ker obratuje 24/7. Obratovalni časi so v elektronskem AIP (AD 2.3). Zrakoplov s posadko ima vedno absolutno prednost.",
         "Območje jedrskih objektov (NEK Krško): letenje dovoljeno le z dovoljenjem Uprave RS za jedrsko varnost in MNZ."
       ],
       "importantNotes": [
-        "Spletno usposabljanje in izpit A1/A3 sta del registracijskega postopka pri CAA Slovenija — preveri trenutno ceno na caa.si, saj se plačilo lahko nanaša na registracijo dela, ne nujno na sam izpit.",
+        "Spletni tečaj usposabljanja in izpit A1/A3 sta vključena v ceno registracije operatorja pri CAA Slovenija — nista ločena brezplačna storitev.",
         "Letenje nad naseljenimi območji zahteva dodatna dovoljenja",
-        "Registracija stane 40 € za 30 mesecev",
+        "Registracija operatorja stane 50,00 € pri spletni registraciji oziroma 70,00 € sicer, in v ceno sta vključena spletni tečaj usposabljanja ter izpit A1 in A3. Znesek 40,00 € velja za izpit A2 (Tarifa CAA, Uradni list RS, št. 38/17, 40/17 – popr. in 202/20).",
         "Triglavski narodni park ima omejitve za drone",
         "GDPR velja pri zajemanju prepoznavnih oseb"
       ],
-      "lastVerified": "2026-06-11",
-      "verifiedBy": "CAA Slovenia (official sources)",
-      "regulatoryBase": "EU 2019/947 (EASA Open Category) + national enforcement framework",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "CAA Slovenia (official sources) + audit 2026-08-26",
+      "regulatoryBase": "EU 2019/947 (EASA Open Category) + Uredba o izvajanju izvedbene uredbe Komisije (EU) o pravilih in postopkih za upravljanje brezpilotnih zrakoplovov (Uradni list RS, št. 39/24)",
       "checklist": [
         {
           "title": "Dnevni pregled",
@@ -12550,25 +12550,27 @@
       "keyRules": [
         "In der offenen Kategorie beträgt die maximale Höhe 120 m, gemessen als Abstand zum nächstgelegenen Punkt der Erdoberfläche — nicht einfach senkrecht nach unten, sodass in der Nähe eines Hangs auch der Boden neben Ihnen zählen kann. Innerhalb von 50 m eines hohen künstlichen Hindernisses (über 105 m) kann die für das Hindernis verantwortliche Stelle eine Genehmigung beantragen, bis zu 15 m über der Höhe des Hindernisses zu fliegen.",
         "Sie müssen sich als Drohnenbetreiber registrieren, wenn Ihre Drohne 250 g oder mehr wiegt (oder bei einem Aufprall mehr als 80 J Bewegungsenergie übertragen könnte) — das gilt auch für Spielzeuge. Unter 250 g ist eine Registrierung dennoch erforderlich, wenn die Drohne über einen Sensor verfügt, der personenbezogene Daten erfassen kann, es sei denn, sie gilt als Spielzeug nach der EU-Spielzeugrichtlinie. Anforderungen an Pilotenschulung/-nachweis sind separat geregelt und hängen von Klasse und Unterkategorie der Drohne ab.",
-        "In der Schweiz gilt ein Mindestalter von 12 Jahren für Drohnen ab 250 g in der offenen Kategorie; unter 12 Jahren ist das Fliegen nur unter Aufsicht einer Person ab 16 Jahren erlaubt. Der A1/A3-Kompetenznachweis ist online zu erwerben und 5 Jahre gültig.",
+        "In der Schweiz beträgt das Mindestalter für Fernpilotinnen und Fernpiloten 12 Jahre in der Betriebskategorie «offen» und 14 Jahre in der Kategorie «speziell» (Art. 26 VLK, SR 748.941) — unabhängig vom Gewicht der Drohne. Jüngere dürfen nur unter direkter Aufsicht einer Fernpilotin oder eines Fernpiloten fliegen, die oder der die Anforderungen erfüllt. Bei der Registrierung müssen Kinder unter 16 Jahren eine gesetzliche Vertretung angeben. Der A1/A3-Kompetenznachweis ist online zu erwerben und 5 Jahre gültig.",
         "Verpflichtende Haftpflichtversicherung für Drohnen ab 250 g (Deckung CHF 1 Mio.)",
         "Mitglieder von Modellflugvereinen: zusätzliche Privilegien nach BAZL-Regeln",
         "In der offenen Kategorie müssen Sie die Drohne in Ihrer eigenen Sichtlinie, mit bloßem Auge halten (Brille/Kontaktlinsen sind in Ordnung; Fernglas oder Bildschirm zählen nicht) — oder mit Unterstützung eines Beobachters fliegen, wobei jederzeit eine klare und wirksame Kommunikation zwischen Ihnen bestehen muss, damit Sie gemeinsam den Luftraum beobachten und Kollisionen vermeiden können. Der Follow-me-Modus ist eine separate Ausnahme, erlaubt bis zu 50 m vom Piloten entfernt.",
         "Fliegen Sie nicht über Menschenansammlungen. Die Vorschriften für unbeteiligte Personen hängen von der Unterkategorie, der Klassenkennzeichnung und den Betriebsbedingungen ab; bitte beachten Sie die offizielle Matrix.",
-        "Innerhalb von 5 km um Flughäfen und Flugplätze nur mit Bewilligung des Flugplatzes (Drohnen über 250 g).",
+        "Für Drohnen über 250 g ist der Betrieb untersagt in einem Abstand von weniger als 5 km von den Pisten eines zivilen oder militärischen Flugplatzes sowie in einer aktiven CTR, sofern dabei eine Höhe von 120 m über Grund überstiegen wird (Art. 28 VLK). Die Flugplatzleitung kann eine verkleinerte Zone innerhalb der 5 km festlegen; Ausnahmen bewilligt die Flugplatzleitung bzw. die Flugverkehrskontrollstelle.",
+        "Unabhängig vom Gewicht ist der Betrieb u. a. untersagt über Vollzugseinrichtungen, über militärischem Gebiet gemäss Anhang VLK, über Freiluft-Schaltanlagen der Netzebene 2 sowie im Umkreis von 750 m um Kernkraftwerke und das Zwischenlager Würenlingen (Art. 27 VLK).",
         "Nationalparks: Drohnennutzung eingeschränkt oder verboten",
         "Bergregionen: auf Hubschrauberrouten achten (Rettung, Rundflüge)"
       ],
       "importantNotes": [
         "Registrierung kostet nur CHF 10 — einmalig und unbegrenzt gültig, ohne Erneuerungspflicht.",
+        "U-Space Zürich: Der erste U-Space-Luftraum der Schweiz wird in der CTR Zürich eingeführt (rund 10 km × 17 km); die Nutzung der U-Space-Dienste wird ab Ende 2026 für alle Drohnenpilotinnen und -piloten im Gebiet obligatorisch (einmalige Registrierung bei einem USSP nötig). Ausgenommen: Drohnen unter 250 g, Modellluftfahrzeuge, staatliche Flüge. Rechtsgrundlage Art. 29a–29e VLK.",
         "Verpflichtende Versicherung für Drohnen ab 250 g (Deckung CHF 1 Mio.)",
         "Die Schweiz ist nicht in der EU, folgt aber EASA über ein bilaterales Abkommen",
         "Alpine Hubschrauberrouten sind häufig — stets den Luftraum beobachten",
         "DSG (Schweizer Datenschutzgesetz) gilt bei der Aufnahme identifizierbarer Personen"
       ],
-      "lastVerified": "2026-06-10",
-      "verifiedBy": "FOCA/BAZL (official sources)",
-      "regulatoryBase": "EU 2019/947 (EASA Open Category) + national enforcement framework",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "FOCA/BAZL (official sources) + audit 2026-08-26",
+      "regulatoryBase": "EU 2019/947 (EASA Open Category, via bilaterales Luftverkehrsabkommen CH–EU) + Verordnung des UVEK über Luftfahrzeuge besonderer Kategorien (VLK, SR 748.941)",
       "checklist": [
         {
           "title": "Tägliche Inspektion",
@@ -13166,10 +13168,12 @@
         "Odstupy podľa podkategórie: A1 — nelietajte nad nezúčastnenými osobami, A2 — min. 30 m od osôb (5 m v nízkorýchlostnom režime), A3 — min. 150 m od obytných, obchodných, priemyselných a rekreačných priestorov.",
         "V otvorenej kategórii musíte držať dron v priamom vizuálnom dohľade voľným okom (okuliare/kontaktné šošovky sú v poriadku; ďalekohľad alebo obrazovka sa nepočíta) — alebo si prizvať na pomoc pozorovateľa, s jasnou a účinnou komunikáciou medzi vami po celý čas, aby ste spolu mohli sledovať vzdušný priestor a predchádzať zrážkam. Režim „follow-me“ je samostatná výnimka, povolená do 50 m od pilota.",
         "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre osoby, ktoré nie sú priamo zapojené, závisia od podkategórie, triedy a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
-        "Pri Letisku M. R. Štefánika v Bratislave platí zákaz letov s dronmi v okruhu 3 km od vzťažného bodu letiska, od zeme do výšky 500 m (zóna PUAS0103M, v znení zmeny účinnej od 20. marca 2026). V okruhu 5 km (zóna RUAS001-LZIBAD-D) je civilná prevádzka UAS povolená len v osobitnej kategórii. Výnimky zo zákazu: lety na záchranu ľudského života, sanitné lety a lety pátrania a záchrany (SAR). Pokuty do 3 500 € za úmyselné porušenie.",
+        "Pri Letisku M. R. Štefánika v Bratislave platí zákaz vykonávania civilných letov s dronmi v okruhu 3 km od vzťažného bodu letiska (48°10'12''N, 17°12'46''E), od povrchu zeme do výšky 500 m nad úrovňou zeme — zóna RUAS098M podľa rozhodnutia ministra č. 104/2026 s platnosťou od 18. augusta 2026, ktoré zrušilo predchádzajúcu zónu PUAS0103M. Zákaz sa nevzťahuje na lety na záchranu ľudského života, sanitné lety a lety pátrania a záchrany (SAR), ani na lety vykonávané na základe predchádzajúceho súhlasu Ministerstva obrany SR, ktoré sú vybavené systémom diaľkovej identifikácie. V okruhu 5 km (zóna RUAS001-LZIBAD-D) je civilná prevádzka UAS povolená len v osobitnej kategórii.",
+        "Od 31. marca 2026 platia nové pravidlá v riadených okrskoch (CTR) Štefánik (Bratislava), Košice, Žilina, Piešťany a Tatry (Poprad) podľa rozhodnutia Dopravného úradu č. 1/2026: lietanie bez povolenia je možné len vo vzdialenosti viac ako 5 km od letiska a do maximálnej výšky 30 m, alebo v rámci atypického vzdušného priestoru (do výšky budovy, len v jej bezprostrednej blízkosti, najviac 30 m vodorovne od nej). Prevádzku v CTR v zmysle určených zemepisných oblastí možno vykonať len na základe prevádzkového povolenia v osobitnej kategórii.",
+        "Súčasťou predletovej prípravy je overenie, že systém diaľkovej identifikácie dronu je aktívny a aktualizovaný (NSAT).",
         "Nočné lety sú povolené — dron musí mať aktivované zelené blikajúce svetlo.",
         "Národné parky (Tatry, Slovenský raj, Nízke Tatry): platia obmedzenia",
-        "Bratislavský hrad a vládne oblasti: bezletové zóny",
+        "Vojenské letiská Malacky-Kuchyňa (RUAS077M), Sliač (RUAS080M) a Prešov (RUAS081M), každé s polomerom 5 600 m: let len s predchádzajúcim súhlasom Ministerstva obrany SR a s aktívnym systémom diaľkovej identifikácie (rozhodnutie ministra č. 104/2026).",
         "Pred každým letom skontrolujte zemepisné oblasti UAS (zóny PUAS/RUAS) — zoznam vedie Ministerstvo dopravy a Dopravný úrad, zóny sa menia priebežne.",
         "Vojenské letiská Malacky-Kuchyňa, Sliač a Prešov (zóny RUAS): let len so súhlasom Ministerstva obrany SR."
       ],
@@ -13177,11 +13181,12 @@
         "Vzdialenosti od osôb sa riadia podkategóriami EASA (A1/A2/A3) — staré národné pravidlo 50 m už neplatí.",
         "Registrácia prevádzkovateľa UAS sa robí cez Dopravný úrad — platnosť po celej EÚ/EASA",
         "Tatry a národné parky majú významné obmedzenia",
-        "Okolie letiska M. R. Štefánika: úplný zákaz dronov v okruhu 3 km (PUAS0103M), a v okruhu 5 km prevádzka len v osobitnej kategórii (RUAS001-LZIBAD-D).",
+        "Okolie letiska M. R. Štefánika: zákaz civilných letov UAS v okruhu 3 km (zóna RUAS098M, rozhodnutie ministra č. 104/2026 platné od 18.08.2026); v okruhu 5 km je prevádzka povolená len v osobitnej kategórii (RUAS001-LZIBAD-D).",
+        "Poistenie je povinné, ak prevádzkujete UAS v otvorenej kategórii A2/A3, v osobitnej kategórii alebo v osvedčenej kategórii (NSAT FAQ).",
         "GDPR platí pri zachytávaní identifikovateľných snímok"
       ],
-      "lastVerified": "2026-06-11",
-      "verifiedBy": "Dopravný úrad (official sources) + audit 2026-05-04",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "Dopravný úrad (official sources) + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 (EASA Open Category) + national enforcement framework",
       "checklist": [
         {
@@ -13717,7 +13722,7 @@
       "lonMax": 7.3,
       "dataSourceName": "IenW · RVO Natura 2000",
       "dataSourceUrl": "https://www.rijksoverheid.nl/onderwerpen/drone",
-      "airspaceMapUrl": "https://www.rijksoverheid.nl/onderwerpen/drone/vraag-en-antwoord/waar-mag-ik-vliegen-met-een-drone",
+      "airspaceMapUrl": "https://aeret.kaartviewer.nl/?@dpf_basic",
       "airspaceMapLabel": "Officiële regels — Rijksoverheid ↗",
       "primaryLinks": [
         {
@@ -13757,23 +13762,23 @@
         "In de open categorie is de maximale hoogte 120 m, gemeten als de afstand tot het dichtstbijzijnde punt van het aardoppervlak — niet simpelweg recht naar beneden, dus in de buurt van een helling kan de grond naast je ook meetellen. Binnen 50 m van een hoog kunstmatig obstakel (hoger dan 105 m) kan de partij die verantwoordelijk is voor het obstakel toestemming aanvragen om tot 15 m boven de hoogte van het obstakel te vliegen.",
         "Je moet je registreren als dronebestuurder als je drone 250 g of meer weegt (of bij een botsing meer dan 80 J bewegingsenergie zou kunnen overdragen) — dit geldt ook voor speelgoed. Onder 250 g is registratie nog steeds vereist als de drone een sensor heeft die persoonsgegevens kan vastleggen, tenzij deze als speelgoed geldt volgens de EU-Speelgoedrichtlijn. Vereisten voor pilotenopleiding/-certificaat zijn afzonderlijk geregeld en hangen af van de klasse en subcategorie van de drone.",
         "In Nederland is de minimumleeftijd voor het A1/A3-bewijs 16 jaar. Ben je jonger, dan moet een waarnemer (met een geldig bewijs) de drone steeds in het zicht houden en met je in contact blijven.",
-        "De CTR van 14 km rond Schiphol bestrijkt het grootste deel van Amsterdam — raadpleeg de officiële luchtruimkaart",
+        "De verboden zone rond Schiphol bestrijkt het grootste deel van Amsterdam en omliggende gebieden — raadpleeg vóór elke vlucht de officiële kaart in plaats van te vertrouwen op een vaste afstand.",
         "In de open categorie moet je de drone binnen je eigen zichtlijn, met het blote oog houden (bril/contactlenzen zijn prima; verrekijker of scherm telt niet) — of vliegen met hulp van een waarnemer, waarbij jullie te allen tijde duidelijk en effectief met elkaar communiceren, zodat jullie samen het luchtruim in de gaten kunnen houden en botsingen kunnen vermijden. Follow-me-modus is een aparte uitzondering, toegestaan tot 50 m van de piloot.",
         "Vlieg niet over mensenmassa’s. De regels voor niet-betrokken personen zijn afhankelijk van de subcategorie, de klasse-aanduiding en de bedrijfsomstandigheden; raadpleeg de officiële matrix.",
         "Restricties rond luchthavens worden gepubliceerd als no-fly-zones op de officiële dronekaart; rond Schiphol geldt een grote bufferzone. Controleer de kaart vóór het vliegen in de buurt van een luchthaven — er is geen enkele vaste afstand die overal geldt.",
-        "Nachtvluchten zijn toegestaan volgens de EASA-basisnorm voor de open categorie wanneer het vereiste groene knipperlicht wordt gebruikt, tenzij een geldige geografische zone of nationale regel een strengere voorwaarde oplegt.",
+        "In Nederland mag je in de open categorie niet in de nacht vliegen. Vliegen is gebonden aan de Uniforme Daglicht Periode (UDP), die loopt van zonsopgang tot zonsondergang. Een ontheffing om buiten de UDP te vliegen kan alleen worden aangevraagd bij de ILT voor vluchten in de categorie Specifiek — voor de open categorie bestaat die mogelijkheid niet.",
         "Natuurgebieden (Natura 2000): beperkingen tijdens het broedseizoen",
         "Dichtbevolkte stedelijke gebieden in de Randstad: controleer de lokale gemeenteregels"
       ],
       "importantNotes": [
-        "De CTR van 14 km rond Schiphol verbiedt drones feitelijk boven het grootste deel van Amsterdam",
+        "Rond Schiphol geldt een uitgestrekte verboden zone die het grootste deel van Amsterdam en omliggende recreatiegebieden beslaat; raadpleeg vóór elke vlucht de officiële kaart in plaats van te vertrouwen op een vaste afstand.",
         "Registratie via RDW kost €23 eenmalig + €13/jaar verlenging (sinds 2025) — geldig in alle EU/EASA-landen",
-        "Boetes tot € 11.250 bij overtredingen",
+        "Overtredingen kunnen leiden tot forse boetes, inbeslagname van de drone en bij herhaling zelfs strafvervolging — de bedragen verschillen per overtreding.",
         "Militaire zones (Leeuwarden, Eindhoven, Volkel): absoluut vliegverbod",
         "AVG/GDPR is van toepassing bij het maken van herkenbare beelden"
       ],
-      "lastVerified": "2026-06-19",
-      "verifiedBy": "ILT (official sources) + audit 2026-05-04",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "ILT (official sources) + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 (EASA Open Category) + national enforcement framework",
       "checklist": [
         {
@@ -13910,12 +13915,14 @@
           "authority": "Ministerie van Infrastructuur en Waterstaat"
         },
         {
-          "url": "https://pappilappi.com/airspace/nl-pdok-natura.geojson?cb=20260603d",
+          "url": "https://pappilappi.com/airspace/nl-pdok-natura.geojson?cb=20260827a",
           "ttlMinutes": 10080,
           "label": "pdok-natura",
           "sourceLabel": "PDOK RVO Natura 2000",
           "zoneKeyDefault": "NATURE_NL",
-          "authority": "RVO / Rijksoverheid"
+          "authority": "RVO / Rijksoverheid",
+          "viewportCull": true,
+          "viewportCullMaxDeg": 2.5
         }
       ],
       "overlayInfo": {
@@ -17121,19 +17128,19 @@
           "id": "iaa_register",
           "title": "IAA — Register as operator",
           "url": "https://www.iaa.ie/general-aviation/drones/drone-register",
-          "description": "Register as UAS operator (€40, valid 2 years, valid across all EU/EASA countries)"
+          "description": "Register as UAS operator (€41, valid 2 years, valid across all EU/EASA countries)"
         },
         {
           "id": "iaa_geo_zones",
           "title": "IAA — Geographical zones map",
           "url": "https://www.iaa.ie/general-aviation/drones/faqs/geographical-zones",
-          "description": "Official red/amber/green zone map — check before every flight"
+          "description": "Official IAA UAS geographical zones, published as an ED-269/ED-318 data file — reference only, not for navigation. Check before every flight."
         },
         {
           "id": "safedrone",
           "title": "SafeDrone — Airspace map",
           "url": "https://geozone.safedrone.ie/",
-          "description": "Search by location or Eircode for airspace restrictions and zone information"
+          "description": "Community map built on official IAA zone data — note that blue zones are unofficial additions by Safe Drone Academy. Always cross-check against the IAA's own UAS Geographical Zones data."
         }
       ],
       "secondaryLinks": [
@@ -17163,7 +17170,7 @@
         "A2 certificate for close-to-people operations (exam + practical test via approved training provider)",
         "Irish EASA registration is valid across all EU member states",
         "In the open category, keep the drone within your own unaided visual line of sight (glasses/contacts are fine; binoculars or a screen don't count) — or fly with an observer's help, keeping clear and effective communication between you at all times, so together you can watch the airspace and avoid collisions. Follow-me mode is a separate exception, allowed up to 50 m from the pilot.",
-        "Minimum 30 m from people, crowds, vehicles and buildings",
+        "There is no single blanket distance from people in Ireland. What applies depends on your drone's class marking and subcategory: in A1 you may fly close to people but must avoid overflying uninvolved persons; in A2 you must keep at least 30 m horizontally from uninvolved persons (5 m in low-speed mode with a C2 drone); in A3 you must be at least 150 m from residential, commercial, industrial and recreational areas with no uninvolved persons in the operating area. Never fly over assemblies of people.",
         "There is no single EU-wide distance you must keep from airports. Restrictions near airports are published as geographic zones (Article 15) whose shape and size vary from airport to airport. Before flying anywhere near an airport, airfield or heliport, check your country's official drone-zone map; flying inside a control zone (CTR) normally requires prior authorisation from air traffic control.",
         "Phoenix Park (Dublin): drone flight requires prior permission from the Department of Justice (coflights@justice.ie) — it cannot be granted in the air",
         "National parks require NPWS permission — most prohibit drones during nesting season"
@@ -17175,8 +17182,8 @@
         "Flying without authorization in red zones is a criminal offence",
         "GDPR applies when capturing identifiable images — you are a data controller"
       ],
-      "lastVerified": "2026-06-19",
-      "verifiedBy": "IAA (official sources) + audit 2026-05-04",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "IAA (official sources) + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 (EASA Open Category) + Irish national enforcement framework",
       "checklist": [
         {
@@ -17763,7 +17770,7 @@
           "id": "anac_register",
           "title": "ANAC — Registar como operador",
           "url": "https://www.anac.pt/vPT/Generico/drones/registo_uas/Paginas/OperadoresdeUAS.aspx",
-          "description": "Registo gratuito como operador de UAS (válido 3 anos, reconhecido em todos os países da UE/EASA)"
+          "description": "Registo gratuito como operador de UAS (válido 3 anos, reconhecido em todos os países da UE/EASA). O registo faz-se em uas.anac.pt e exige NIF português e Chave Móvel Digital ativa."
         },
         {
           "id": "nav_portugal",
@@ -17780,7 +17787,7 @@
         {
           "id": "aan_levantamentos",
           "title": "AAN — Autorização para filmagens aéreas",
-          "url": "https://www.aan.pt/subPagina-AAN-001.005-levantamentos-a-reos",
+          "url": "https://www.aan.pt/subPagina-AAN-001.005.005-aeronaves-nao-tripuladas-drones",
           "description": "Pedido gratuito de autorização para captação de imagens aéreas (plataforma e-AAN)"
         }
       ],
@@ -17802,14 +17809,14 @@
         "Na categoria aberta, a altura máxima é de 120 m, medida como a distância ao ponto mais próximo da superfície terrestre — não simplesmente na vertical para baixo, pelo que perto de uma encosta o terreno ao seu lado também pode contar. A menos de 50 m de um obstáculo artificial alto (acima de 105 m), a entidade responsável pelo obstáculo pode solicitar autorização para voar até 15 m acima da altura do obstáculo.",
         "Deve registar-se como operador de drone se o seu drone pesar 250 g ou mais (ou puder transferir mais de 80 J de energia de impacto) — isto aplica-se mesmo a brinquedos. Abaixo de 250 g, o registo continua a ser exigido se o drone tiver um sensor capaz de captar dados pessoais, a menos que seja considerado um brinquedo nos termos da Diretiva Europeia de Segurança de Brinquedos. Os requisitos de formação/certificado de piloto são separados e dependem da classe e subcategoria do drone.",
         "Em Portugal, a idade mínima para pilotar de forma independente na categoria aberta é de 16 anos. A formação e o exame A1/A3 são gratuitos, realizados online, e válidos por 5 anos.",
-        "Seguro de responsabilidade civil obrigatório para drones com mais de 900 g",
-        "Proibido sobrevoar instalações militares, prisões, embaixadas e forças de segurança (Decreto-Lei n.º 87/2021). O Parque Natural de Sintra-Cascais exige autorização do ICNF.",
+        "Seguro de responsabilidade civil obrigatório para drones com MTOM superior a 900 g (Decreto-Lei n.º 58/2018); as coberturas, condições e capitais mínimos constam da Portaria n.º 2/2021.",
+        "Proibido sobrevoar órgãos de soberania, embaixadas e consulados, instalações militares, instalações das forças e serviços de segurança e estabelecimentos prisionais, salvo autorização da entidade responsável (Regulamento n.º 1093/2016 da ANAC, mantido em vigor pelo Decreto-Lei n.º 87/2021). O Parque Natural de Sintra-Cascais exige autorização do ICNF.",
         "Na categoria aberta, deve manter o drone dentro do seu próprio contacto visual direto, a olho nu (óculos/lentes de contacto são aceitáveis; binóculos ou ecrã não contam) — ou voar com a ajuda de um observador, mantendo uma comunicação clara e eficaz entre vocês em todos os momentos, para que possam juntos vigiar o espaço aéreo e evitar colisões. O modo «follow-me» é uma exceção separada, permitida até 50 m do piloto.",
         "Não sobrevoe aglomerações de pessoas. As regras aplicáveis a pessoas não envolvidas dependem da subcategoria, da marca de classe e das condições de operação; consulte a matriz oficial.",
         "Não voe nas zonas de proteção de aeroportos e heliportos (CTR/ATZ) sem autorização — verifique as zonas no mapa da app e em dnt.anac.pt.",
         "Voo noturno permitido na Categoria Aberta sem autorização da ANAC — ative uma luz verde intermitente no drone.",
         "Açores e Madeira: podem aplicar-se restrições regionais adicionais",
-        "Fotografia e filmagem aéreas (e a sua divulgação) carecem de autorização da AAN — pedido gratuito online através da plataforma e-AAN."
+        "Captação de imagens aéreas exige autorização prévia da Autoridade Aeronáutica Nacional (AAN) através da plataforma e-AAN — via exclusiva para levantamentos aéreos. O requerimento deve ser submetido com uma antecedência mínima de 10 dias antes do início da atividade; o período máximo a conceder é de 30 dias consecutivos (Guia Rápido e-AAN da AAN)."
       ],
       "importantNotes": [
         "Portugal tem um sistema duplo: a ANAC regula o voo, a AAN autoriza a captação de imagens aéreas.",
@@ -17819,8 +17826,8 @@
         "Época de fogos florestais: podem aplicar-se restrições adicionais ao uso de drones",
         "O RGPD aplica-se à captação de imagens identificáveis"
       ],
-      "lastVerified": "2026-06-11",
-      "verifiedBy": "ANAC (official sources)",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "ANAC (official sources) + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 (EASA Open Category) + national enforcement framework",
       "checklist": [
         {
@@ -18910,9 +18917,9 @@
         },
         {
           "id": "flydrone",
-          "title": "FlyDrone.is – Loftrýmiskort",
+          "title": "FlyDrone.is – Skráning og A1/A3-próf",
           "url": "https://flydrone.is",
-          "description": "Opinbert gagnvirkt drónakort sem sýnir bannsvæði og takmarkanir"
+          "description": "Skráningarsíða Samgöngustofu þar sem rekstraraðilar skrá sig, lesa námsefnið og taka A1/A3-prófið (5.863 ISK, gildir í 5 ár)"
         },
         {
           "id": "island_is",
@@ -18930,9 +18937,9 @@
         },
         {
           "id": "ust",
-          "title": "Umhverfisstofnun – Náttúruvernd",
-          "url": "https://www.ust.is",
-          "description": "Upplýsingar um þjóðgarða og friðlönd frá Umhverfisstofnun"
+          "title": "Náttúruverndarstofnun – Drónar á friðlýstum svæðum",
+          "url": "https://www.nattura.is/stofnunin/reglur-um-notkun-drona",
+          "description": "Listi yfir friðlýst svæði með takmörkunum á drónaflugi og tímabilin sem gilda"
         },
         {
           "title": "Kortasjá – drónakort",
@@ -18944,7 +18951,8 @@
         "Þú verður að skrá þig sem stjórnanda dróna ef dróninn þinn vegur 250 g eða meira (eða gæti flutt meira en 80 J hreyfiorku við árekstur) — þetta á einnig við um leikföng. Undir 250 g er skráning samt sem áður nauðsynleg ef dróninn er með skynjara sem getur safnað persónuupplýsingum, nema hann teljist leikfang samkvæmt leikfangaöryggistilskipun ESB. Kröfur um flugmannsþjálfun/skírteini eru aðskildar og fara eftir flokki og undirflokki drónans.",
         "Á Íslandi er lágmarksaldur 16 ár — undantekningar gilda fyrir C0-flokkaðan dróna í undirflokki A1, undir 250 g heimasmíðaðan dróna, eða flug undir eftirliti vottaðs fjarstýringarmanns.",
         "Í eldgosum getur Almannavarnir/Samgöngustofa sett tímabundnar takmarkanir á drónaflug — hæðartakmörk geta hækkað upp í 1.500 fet, og heilu svæði (t.d. Reykjanesskaginn í gosinu í júlí 2025) geta verið alfarið lokuð meðan á virkni stendur. Athugaðu ávallt núverandi eldvirkni fyrir flug.",
-        "Frá 17. maí 2026 hefur Náttúruverndarstofnun (ekki flugmálayfirvöld) hætt að gefa út leyfi fyrir frístunda- og fræðsluflugi með dróna á yfir 25 friðlýstum svæðum, þar á meðal Vatnajökulsþjóðgarði, Þingvöllum og Snæfellsjökli — leyfi fyrir kvikmyndun, sjónvarpi, auglýsingum, fréttum og rannsóknum eru enn veitt.",
+        "Frá 17. maí 2026 gefur Náttúruverndarstofnun (ekki flugmálayfirvöld) einungis út leyfi fyrir drónaflug í atvinnuskyni á 27 friðlýstum svæðum. Takmarkanirnar eru þrískiptar: 15 svæði allt árið (m.a. Gullfoss, Geysir, Goðafoss, Skógafoss, Dyrhólaey, Látrabjarg og verndarsvæði Mývatns og Laxár), 11 svæði frá 1. maí til 15. september (m.a. Snæfellsjökulsþjóðgarður, Dimmuborgir, Hornstrandir og Dynjandi) og Friðlandið að Fjallabaki frá 15. júní til 15. september. Leyfi fyrir rannsóknir, vöktun, kvikmyndatöku, atvinnuljósmyndun og leyfisskylda viðburði eru enn veitt. Þingvellir og Vatnajökulsþjóðgarður eru ekki á þessum lista og hafa sínar eigin reglur.",
+        "Óheimilt er að fljúga nær en 150 m frá viðkvæmum mannvirkjum: orkuverum, spennuvirkjum, Alþingi, forsetasetrinu, ráðuneytum, sendiráðum, lögreglustöðvum, fangelsum og sjúkrahúsum.",
         "Í opna flokknum verður þú að halda drónanum innan þíns eigin, óstudda sjónsviðs (gleraugu/linsur eru í lagi; sjónauki eða skjár telur ekki með) — eða fljúga með aðstoð eftirlitsmanns, með skýrum og skilvirkum samskiptum ykkar á milli allan tímann, svo þið getið saman fylgst með loftrýminu og forðast árekstra. Follow-me-stilling er sérstök undanþága, leyfð allt að 50 m frá flugmanninum.",
         "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
         "Óheimilt er að fljúga án leyfis rekstraraðila flugvalla á flugvöllum, innan flugvallasvæða og innan bannsvæða umhverfis áætlunarflugvelli — bannsvæðin eru þau svæði sem sýnd eru á kortinu í appinu (víða um 5 km). Innan bannsvæðis er þó heimilt að fljúga án sérstaks leyfis ef flogið er undir hæð hæstu hindrana, innan 50 metra við flugferil loftfarsins. Leyfi: ISAVIA fyrir Keflavíkurflugvöll, Innanlandsflugvellir ehf. fyrir aðra áætlunarflugvelli.",
@@ -18953,13 +18961,13 @@
       ],
       "importantNotes": [
         "Virk eldgosasvæði geta haft tímabundið flugbann – athugaðu fyrir hvert flug",
-        "Frá 17. maí 2026 hafnar Náttúruverndarstofnun tómstunda- og kennsluflugi með drónum í 25+ friðlýstum svæðum (þjóðgörðum o.fl.); ákvörðunin hefur verið kærð til umhverfisráðuneytisins",
+        "Frá 17. maí 2026 veitir Náttúruverndarstofnun einungis leyfi fyrir drónaflug í atvinnuskyni á 27 friðlýstum svæðum — sum allt árið, önnur aðeins yfir sumarmánuðina. Athugaðu listann fyrir hvert svæði á nattura.is.",
         "Íslenskt veðurfar er rysjótt – vindur fer oft yfir mörk dróna",
         "Fuglavarpstími (maí–ágúst): viðbótartakmarkanir á mörgum svæðum",
         "Ísland er í EES en ekki ESB – EASA-reglur gilda í gegnum EES-samninginn"
       ],
-      "lastVerified": "2026-06-19",
-      "verifiedBy": "ICETRA (official sources) + audit 2026-05-04",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "ICETRA (official sources) + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 (EASA Open Category) + national enforcement framework",
       "checklist": [
         {
@@ -19499,7 +19507,7 @@
           "id": "ecaa_register",
           "title": "Transpordiamet – Registreeru käitajana",
           "url": "https://transpordiamet.ee/en/aviation-and-aviation-safety/flying-drones-estonia/operator-registration",
-          "description": "Registreeru UAS-käitajana (10 €/aastas, kehtib kõigis EL/EASA riikides)"
+          "description": "Registreeru UAS-käitajana lennuohutuse järelevalve infosüsteemis LOIS2 (riigilõiv 10 €, kehtib üks aasta, kehtib kõigis EL/EASA riikides)"
         },
         {
           "id": "utm_ee",
@@ -19547,8 +19555,8 @@
         "Eestis on hästi välja arendatud digitaalne registreerimissüsteem",
         "GDPR kehtib, kui pildistad või filmid tuvastatavaid inimesi"
       ],
-      "lastVerified": "2026-06-11",
-      "verifiedBy": "Transpordiamet (official sources)",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "Transpordiamet (official sources) + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 (EASA Open Category) + national enforcement framework",
       "checklist": [
         {
@@ -20102,7 +20110,7 @@
       "keyRules": [
         "In der offenen Kategorie beträgt die maximale Höhe 120 m, gemessen als Abstand zum nächstgelegenen Punkt der Erdoberfläche — nicht einfach senkrecht nach unten, sodass in der Nähe eines Hangs auch der Boden neben Ihnen zählen kann. Innerhalb von 50 m eines hohen künstlichen Hindernisses (über 105 m) kann die für das Hindernis verantwortliche Stelle eine Genehmigung beantragen, bis zu 15 m über der Höhe des Hindernisses zu fliegen.",
         "Sie müssen sich als Drohnenbetreiber registrieren, wenn Ihre Drohne 250 g oder mehr wiegt (oder bei einem Aufprall mehr als 80 J Bewegungsenergie übertragen könnte) — das gilt auch für Spielzeuge. Unter 250 g ist eine Registrierung dennoch erforderlich, wenn die Drohne über einen Sensor verfügt, der personenbezogene Daten erfassen kann, es sei denn, sie gilt als Spielzeug nach der EU-Spielzeugrichtlinie. Anforderungen an Pilotenschulung/-nachweis sind separat geregelt und hängen von Klasse und Unterkategorie der Drohne ab.",
-        "Für den A1/A3-Kompetenznachweis (kostenloser Online-Kurs mit 40-Fragen-Test) gilt ein Mindestalter von 16 Jahren; für die Registrierung als Betreiber ist man erst ab 18 Jahren allein berechtigt. Jüngere dürfen nur unter direkter Aufsicht eines zertifizierten Fernpiloten fliegen.",
+        "Für den A1/A3-Kompetenznachweis (kostenloser Online-Kurs mit 40-Fragen-Test) gilt ein Mindestalter von 16 Jahren; für die Registrierung als Betreiber ist man erst ab 18 Jahren allein berechtigt. Jüngere dürfen nur unter direkter Aufsicht eines zertifizierten Fernpiloten fliegen. Der Drohnenführerschein (A1/A3-Kompetenznachweis) ist 5 Jahre gültig und muss danach erneuert werden — die ersten in Österreich ab 2021 ausgestellten Nachweise laufen 2026 aus.",
         "Verpflichtende Haftpflichtversicherung — mindestens 750.000 SZR Deckung",
         "Wien liegt im Flugbeschränkungsgebiet LO-R 15: Drohnen unter 250 g dürfen ohne Bewilligung fliegen, jedoch nur bis 30 m Höhe. Ab 250 g ist eine kostenpflichtige Austro-Control-Bewilligung erforderlich.",
         "In der offenen Kategorie müssen Sie die Drohne in Ihrer eigenen Sichtlinie, mit bloßem Auge halten (Brille/Kontaktlinsen sind in Ordnung; Fernglas oder Bildschirm zählen nicht) — oder mit Unterstützung eines Beobachters fliegen, wobei jederzeit eine klare und wirksame Kommunikation zwischen Ihnen bestehen muss, damit Sie gemeinsam den Luftraum beobachten und Kollisionen vermeiden können. Der Follow-me-Modus ist eine separate Ausnahme, erlaubt bis zu 50 m vom Piloten entfernt.",
@@ -20119,8 +20127,8 @@
         "Alpine Gebiete: auf Flugrouten von Rettungshubschraubern achten",
         "DSGVO gilt bei der Aufnahme identifizierbarer Personen"
       ],
-      "lastVerified": "2026-06-11",
-      "verifiedBy": "Austro Control (official sources) + audit 2026-05-04",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "Austro Control (official sources) + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 (EASA Open Category) + national enforcement framework",
       "checklist": [
         {
@@ -20770,24 +20778,25 @@
       "keyRules": [
         "I den åbne kategori er maksimumshøjden 120 m målt som afstanden til nærmeste punkt på jordoverfladen — ikke bare lige nedad, så tæt på en skråning kan jorden ved siden af dig også tælle med. Inden for 50 m fra en høj kunstig forhindring (over 105 m) kan den ansvarlige for forhindringen anmode om tilladelse til at flyve op til 15 m over forhindringens højde.",
         "Du skal registrere dig som droneoperatør, hvis din drone vejer 250 g eller mere (eller kan overføre mere end 80 J bevægelsesenergi ved en kollision) — dette gælder selv for legetøj. Under 250 g kræves registrering stadig, hvis dronen har en sensor, der kan indsamle personoplysninger, medmindre den betragtes som legetøj i henhold til EU's legetøjsdirektiv. Krav til pilotuddannelse/-certifikat er separate og afhænger af dronens klasse og underkategori.",
-        "I Danmark er minimumsalderen 15 år for at have et selvstændigt dronecertifikat i den åbne kategori; yngre må kun flyve under opsyn af en certificeret fjernpilot, der selv er mindst 15 år.",
+        "I Danmark skal du være fyldt 15 år for at flyve med en drone over 250 g. Er du fyldt 12 år, må du flyve med en drone under 250 g. Er du yngre, må du kun flyve under opsyn af en person på mindst 15 år, som opfylder kravene til dronecertifikat.",
         "Obligatorisk ansvarsforsikring — minimumsbeløb afhænger af drone-vægt; drones <250 g undtaget fra mindstebeløbet siden BEK 527 (juli 2025)",
         "Københavns Lufthavns CTR dækker det meste af centrale København — tjek Droneregler.dk før flyvning i området.",
         "I den åbne kategori skal du holde dronen inden for din egen synsvidde, med det blotte øje (briller/kontaktlinser er fint; kikkert eller skærm tæller ikke) — eller flyve med hjælp fra en observatør, med tydelig og effektiv kommunikation mellem jer hele tiden, så I sammen kan holde øje med luftrummet og undgå kollisioner. Follow-me-tilstand er en separat undtagelse, tilladt op til 50 m fra piloten.",
         "Man må ikke flyve over menneskemængder. Reglerne for uvedkommende afhænger af underkategori, klassemærke og driftsforhold; se den officielle oversigt.",
-        "Mindst 8 km til IMC-lufthavne (instrumentflyvning) og 4 km til VMC-lufthavne — med et A2-kompetencebevis kan afstanden reduceres ned til 2 km (BEK 527, ikraft 1. juli 2025).",
+        "Mindst 8 km til IMC-flyvepladser (instrumentflyvning) og 4 km til VMC-flyvepladser — med et kompetencecertifikat (dronecertifikat) kan afstanden reduceres ned til 2 km med faldende højdegrænser tættere på banen (§ 9 og § 9 a i dronebekendtgørelsen, BEK 527 i kraft 1. juli 2025). Hold desuden 2 km afstand til akutlandingspladser for helikopter.",
         "Natflyvning er tilladt i henhold til EASA’s grundlæggende krav for den åbne kategori, når det påkrævede grønne blinklys anvendes, medmindre en gældende geografisk zone eller national regel stiller strengere krav.",
         "Grønland og Færøerne har særskilte regler"
       ],
       "importantNotes": [
         "Minimikravet til ansvarsforsikring er nu vægtafhængigt; droner under 250 g er undtaget fra minimumsdækningskravet.",
+        "Kommende krav: Trafikstyrelsen har sendt en ændring af dronebekendtgørelsen i høring, som stiller krav om Remote-ID eller anden fjernidentifikation for alle droner over 250 g — og for droner under 250 g med sensor i visse dronezoner. Forventet ikrafttræden 1. januar 2027.",
         "Københavns Lufthavns CTR dækker størstedelen af centrale København.",
         "Grønland og Færøerne: særskilt regulering gælder",
         "Bøder og strafferetlig forfølgelse er mulig ved overtrædelser",
         "GDPR gælder, når der optages genkendelige billeder"
       ],
-      "lastVerified": "2026-06-19",
-      "verifiedBy": "Trafikstyrelsen (official sources) + audit 2026-05-04",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "Trafikstyrelsen (official sources) + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 (EASA Open Category) + BEK 1649/2023 + 527/2025 (national enforcement)",
       "checklist": [
         {
@@ -21004,6 +21013,10 @@
           "Dronezoner — ORANGE (opmærksomhedsområde) — midlertidige aktiviteter",
           "Dronezoner — BLÅ (§ 11 sikringskritisk) — broer, havne, kraftværker, vindmøller, vitale infrastruktur",
           "Naturbeskyttelse (§ 14 GRØN) — sæsonbaseret (fuglebeskyttelse + habitat)",
+          "Jernbaner (§ 16) — droneflyvning under 15 m fra banen ikke tilladt",
+          "Veje over 70 km/t (§ 17) — må ikke overflyves (undtagen krydsning)",
+          "Ind- og udflyvningsplaner (§ 9 stk. 2) — højdegrænser ved lufthavne",
+          "Restriktionsområder (GUL) — aktiveres ved NOTAM",
           "NOTAM — Midlertidige restriktioner (globalt, opdateres hver 12. time)"
         ],
         "notShown": [
@@ -21902,21 +21915,21 @@
       "lonMin": 20.1,
       "lonMax": 30.0,
       "dataSourceName": "AACR",
-      "dataSourceUrl": "https://www.caa.ro/page/uas",
+      "dataSourceUrl": "https://www.caa.ro/ro/pages/drone",
       "airspaceMapUrl": "https://www.romatsa.ro",
       "airspaceMapLabel": "Open ROMATSA airspace info ↗",
       "primaryLinks": [
         {
           "id": "aacr_drones",
           "title": "AACR — Reglementări privind dronele",
-          "url": "https://www.caa.ro/page/uas",
+          "url": "https://www.caa.ro/ro/pages/drone",
           "description": "Regulile și resursele oficiale privind dronele ale Autorității Aeronautice Civile Române"
         },
         {
           "id": "aacr_register",
           "title": "AACR — Înregistrare ca operator",
-          "url": "https://www.caa.ro/page/uas",
-          "description": "Înregistrare online ca operator UAS (90 € + TVA, ~108 €, valabilă 1 an)"
+          "url": "https://www.caa.ro/ro/pages/drone",
+          "description": "Înregistrare online ca operator UAS pe platforma AACR (taxă 20 €, cont necesar)"
         },
         {
           "id": "romatsa",
@@ -21927,7 +21940,7 @@
         {
           "id": "aacr_rules",
           "title": "AACR — Reguli UAS",
-          "url": "https://www.caa.ro/page/uas",
+          "url": "https://www.caa.ro/ro/pages/drone",
           "description": "Reglementări detaliate privind UAS și cerințe naționale"
         }
       ],
@@ -21935,7 +21948,7 @@
         {
           "id": "aacr_faq",
           "title": "AACR — Întrebări frecvente despre drone",
-          "url": "https://www.caa.ro/page/uas",
+          "url": "https://www.caa.ro/ro/pages/%C3%8Entreb%C4%83ri-frecvente",
           "description": "Întrebări frecvente despre reglementările pentru drone în România"
         },
         {
@@ -21947,7 +21960,7 @@
       ],
       "keyRules": [
         "În categoria deschisă, înălțimea maximă este de 120 m, măsurată ca distanța până la cel mai apropiat punct al suprafeței terestre — nu pur și simplu vertical în jos, astfel încât în apropierea unei pante terenul de lângă tine poate conta și el. În limita a 50 m de un obstacol artificial înalt (peste 105 m), entitatea responsabilă de obstacol poate solicita permisiunea de a zbura până la 15 m deasupra înălțimii obstacolului.",
-        "Înregistrare online pe portalul AACR (uas.caa.ro): 90 € + TVA (~108 €), valabilă 1 an",
+        "Înregistrarea ca operator UAS este obligatorie pentru drone de 250 g sau mai grele (sau sub 250 g cu senzor de date personale). Înregistrarea se face online pe platforma AACR (uas.caa.ro), iar taxa este de 20 € (Ordinul MTI nr. 1280/2021). Numărul unic de operator (ROU-…) trebuie afișat pe toate dronele tale.",
         "În România, vârsta minimă pentru un pilot la distanță este de 16 ani, sau 12 ani sub supravegherea directă a unui pilot autorizat de cel puțin 16 ani; nu există vârstă minimă pentru o dronă sub 250 g în subcategoria A1.",
         "Zborul în oraș este interzis — restricțiile pentru zbor urban sunt foarte stricte",
         "Zonă de excludere de 30 km la granița cu UCRAINA (Dobrogea de Nord, Sulina–Galați) — zbor interzis prin ordin MApN",
@@ -21959,14 +21972,14 @@
       ],
       "importantNotes": [
         "Înregistrarea se face 100% online pe portalul AACR (uas.caa.ro) — nu este necesară deplasarea la București",
-        "Taxa de înregistrare: 90 € + TVA (~108 €), valabilă 1 an",
+        "Taxa de înregistrare ca operator UAS este de 20 € conform Ordinului MTI nr. 1280/2021; AACR nu publică tariful pe pagina principală — plata se face în platforma online uas.caa.ro.",
         "Zborul în oraș este practic interzis pentru uz recreativ",
         "Zona de excludere de 30 km vizează granița cu Ucraina (Dobrogea de Nord), prin ordin MApN din septembrie 2023",
         "GDPR se aplică la capturarea de imagini identificabile",
         "Certificatele de înregistrare și A1/A3 emise de un alt stat membru UE/SEE sunt valabile în România, fără a fi necesară o nouă înregistrare — conform principiului de recunoaștere reciprocă din Regulamentul UE 2019/947."
       ],
-      "lastVerified": "2026-06-19",
-      "verifiedBy": "AACR (official sources)",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "AACR (official sources) + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 (EASA Open Category) + national enforcement framework",
       "checklist": [
         {
@@ -22180,7 +22193,7 @@
       "airspaceApiType": "geojson-static",
       "airspaceSecondaryFeeds": [
         {
-          "url": "https://pappilappi.com/airspace/ro-zones.geojson?cb=20260611a",
+          "url": "https://pappilappi.com/airspace/ro-zones.geojson?cb=20260827a",
           "ttlMinutes": 1440,
           "label": "ro-zones",
           "sourceLabel": "ROMATSA — zone restricționate UAV",
@@ -23105,8 +23118,8 @@
         },
         {
           "id": "luftrecht_paragraphen",
-          "title": "BMDV – Drohnen-Informationen",
-          "url": "https://bmdv.bund.de/SharedDocs/DE/Artikel/LF/drohnen.html",
+          "title": "BMV – Drohnen-Informationen",
+          "url": "https://www.bmv.de/SharedDocs/DE/Artikel/LF/drohnen.html",
           "description": "Nationale Drohnenverordnung und gesetzliche Grundlagen (§21h LuftVO)"
         }
       ],
@@ -23117,9 +23130,10 @@
         "In Deutschland gilt ein Mindestalter von 16 Jahren für den A1/A3-Kompetenznachweis (Online-Schulung und -Prüfung, 40 Fragen aus 9 Themenbereichen, 75 % zum Bestehen, 5 Jahre gültig) — Ausnahme: Fliegen unter direkter Aufsicht eines Fernpiloten mit gültigem Nachweis.",
         "Verpflichtende Haftpflichtversicherung (§43 Luftverkehrsgesetz) — gilt auch für Freizeitdrohnen, unabhängig vom Gewicht.",
         "Das Überfliegen von Wohngrundstücken ohne ausdrückliche Zustimmung der Eigentümer oder sonstigen Nutzungsberechtigten ist untersagt (§21h LuftVO). Ausnahmen: Drohnen unter 250 g ohne Aufnahme-/Übertragungsfunktion, oder Flug ab 100 m Höhe unter mehreren Voraussetzungen (berechtigtes Interesse, keine öffentliche Fläche verfügbar, Zustimmung nicht zumutbar einholbar, Datenschutzvorkehrungen, nur 6-22 Uhr, Lärmgrenzen eingehalten).",
-        "100-m-Abstand zu Bahnanlagen, Autobahnen, Industrieanlagen ohne Zustimmung des Betreibers/Eigentümers",
+        "100-m-Abstand (seitlich und darüber) zu Bundesfernstraßen, Bundeswasserstraßen und Bahnanlagen sowie zu Industrieanlagen und Justizvollzugsanstalten ohne Zustimmung der zuständigen Stelle (§21h Absatz 3 LuftVO). Für Bahnanlagen hat die DB InfraGO AG die Anforderungen für einen eisenbahnverträglichen UAS-Betrieb in NfL 1-2026-3788 veröffentlicht.",
         "Flugverbot in Naturschutzgebieten und Nationalparks",
         "ED-R 146: dauerhaftes Flugbeschränkungsgebiet über dem Berliner Regierungsviertel — Genehmigung erforderlich. Prüfen Sie den aktuellen Status auf dipul.de vor dem Flug.",
+        "Seit dem 6. August 2026 gelten neue DFS-Verfahren für UAS-Flüge in den Kontrollzonen (CTR) von 15 Verkehrsflughäfen (u. a. Frankfurt Main, München, Berlin Brandenburg, Hamburg, Düsseldorf, Stuttgart). Grundlage ist NfL 2026-1-3960, die NfL 2023-1-2705 aufhebt. Die CTR ist in vier Zonen eingeteilt: In Zone 1 (CTR-Innenbereich über dem Flughafen) ist unabhängig von der Flughöhe stets eine individuelle Flugverkehrskontrollfreigabe erforderlich — Antrag über ais.dfs.de mit rund 14 Tagen Vorlaufzeit. In den Zonen 2 bis 4 gilt eine allgemeine FVK-Freigabe bis 25 m (Zone 2), 45 m (Zone 3) bzw. 100 m über der Flugplatzhöhe oder 50 m über Grund (Zone 4, der größere Wert gilt). Prüfen Sie Zone und Geländehöhe vorab im Maptool von dipul.",
         "Direct Remote ID seit 1.1.2024 EU-weit Pflicht für Klassendrohnen C1, C2, C3"
       ],
       "importantNotes": [
@@ -23127,8 +23141,8 @@
         "Ausländische Piloten mit EU-Registrierung müssen trotzdem die nationale LuftVO beachten",
         "Das Fotografieren von Privatgrundstücken kann neben der Fluggenehmigung nach §21h LuftVO auch datenschutzrechtliche Fragen (DSGVO) aufwerfen."
       ],
-      "lastVerified": "2026-06-19",
-      "verifiedBy": "LBA, DFS (offizielle Quellen) + audit 2026-05-04",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "LBA, DFS (offizielle Quellen) + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 (EASA Open Category) + LuftVO §§ 21a–21j",
       "checklist": [
         {
@@ -23930,7 +23944,7 @@
         "En la categoría abierta, la altura máxima es de 120 m medidos como la distancia al punto más cercano de la superficie terrestre — no simplemente en vertical hacia abajo, por lo que cerca de una pendiente el terreno junto a usted también puede contar. A menos de 50 m de un obstáculo artificial alto (más de 105 m), la entidad responsable del mismo puede solicitar permiso para volar hasta 15 m por encima de la altura del obstáculo.",
         "Debes registrarte como operador de drones si tu dron pesa 250 g o más (o puede transferir más de 80 J de energía de impacto) — esto se aplica incluso a los juguetes. Por debajo de 250 g, el registro sigue siendo obligatorio si el dron lleva un sensor capaz de captar datos personales, salvo que se considere un juguete según la Directiva de Seguridad de los Juguetes de la UE. Los requisitos de formación/certificado de piloto son independientes y dependen de la clase y subcategoría del dron.",
         "En España, la edad mínima según el RD 517/2024 (art. 7) es de 12 años para drones C0 en subcategoría A1, y de 14 años para C1/C2 y A3 sin supervisión directa; en ambos casos se requiere completar la formación y el examen A1/A3 en línea.",
-        "Vuelos en entorno urbano o sobre aglomeraciones: comunicación previa al Ministerio del Interior con al menos 5 días de antelación.",
+        "Vuelos en entorno urbano o sobre concentraciones de personas: los operadores de UAS sujetos a la obligación de registrarse deben comunicarlo previamente al Ministerio del Interior con una antelación mínima de cinco días naturales respecto a la fecha prevista para el inicio de la operación (art. 40 del RD 517/2024).",
         "En la categoría abierta, debe mantener el dron dentro de su propio contacto visual directo, a simple vista (gafas/lentillas correctoras están bien; prismáticos o pantalla no cuentan) — o volar con la ayuda de un observador, manteniendo una comunicación clara y eficaz entre ustedes en todo momento, para que juntos puedan vigilar el espacio aéreo y evitar colisiones. El modo «follow-me» es una excepción independiente, permitida hasta 50 m del piloto.",
         "No sobrevuele concentraciones de personas. Las normas para las personas no implicadas dependen de la subcategoría, la marca de clase y las condiciones de funcionamiento; consulte la matriz oficial.",
         "Respete las zonas geográficas de UAS en torno a aeropuertos y aeródromos (RD 517/2024) — compruebe siempre el mapa de ENAIRE Drones.",
@@ -23945,8 +23959,8 @@
         "Bases militares y edificios gubernamentales: zonas de exclusión aérea absolutas",
         "Se aplica el RGPD al captar imágenes identificables"
       ],
-      "lastVerified": "2026-06-10",
-      "verifiedBy": "AESA (official sources)",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "AESA (official sources) + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 (EASA Open Category) + RD 517/2024",
       "checklist": [
         {
@@ -25247,13 +25261,15 @@
       "keyRules": [
         "Dans la catégorie ouverte, la hauteur maximale est de 120 m, mesurée comme la distance jusqu'au point le plus proche de la surface terrestre — pas simplement à la verticale, donc près d'une pente le sol à côté de vous peut aussi compter. À moins de 50 m d'un obstacle artificiel élevé (plus de 105 m), l'entité responsable de cet obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
         "Vous devez vous enregistrer en tant qu'exploitant de drone si votre drone pèse 250 g ou plus (ou pourrait transférer plus de 80 J d'énergie cinétique lors d'un impact) — cela s'applique même aux jouets. En dessous de 250 g, l'enregistrement reste obligatoire si le drone est équipé d'un capteur capable de capturer des données personnelles, sauf s'il est considéré comme un jouet au sens de la directive européenne sur la sécurité des jouets. Les exigences de formation/certificat de télépilote sont distinctes et dépendent de la classe et de la sous-catégorie du drone.",
+        "En France, deux enregistrements distincts coexistent : l'enregistrement de l'exploitant (à partir de 250 g ou avec capteur de données personnelles) et l'enregistrement de l'aéronef lui-même sur AlphaTango dès que sa masse dépasse 800 g et/ou qu'il est équipé d'un dispositif de signalement électronique. Le numéro d'enregistrement doit être apposé sur l'aéronef.",
         "En France, l'âge minimum pour piloter seul en catégorie ouverte est de 14 ans, avec formation et examen A1/A3 gratuits en ligne via AlphaTango (valables 5 ans, reconnus dans toute l'UE) ; en dessous de cet âge, le vol n'est autorisé que sous la supervision directe d'un télépilote certifié. Cet âge abaissé ne s'applique qu'en France — dans un autre pays de l'UE, c'est l'âge minimum de ce pays qui prévaut.",
         "Assurance responsabilité civile fortement recommandée pour le loisir (obligatoire pour usage professionnel ou commercial)",
         "Paris et Île-de-France : vastes zones d’interdiction de vol — consultez la carte officielle DGAC (cartes.gouv.fr)",
+        "Règle nationale française : en catégorie Ouverte, le vol dans l'espace public en agglomération n'est autorisé que dans le cadre d'une activité professionnelle. Pour un usage de loisir, cela exclut de fait les rues, places et parcs publics des villes et villages — pas seulement Paris.",
         "Dans la catégorie ouverte, gardez le drone dans votre propre champ de vision direct, à l'œil nu (lunettes/lentilles correctives autorisées ; jumelles ou écran ne comptent pas) — ou faites-vous assister par un observateur, avec une communication claire et efficace entre vous à tout moment, afin de surveiller ensemble l'espace aérien et d'éviter les collisions. Le mode « follow-me » est une exception distincte, autorisée jusqu'à 50 m du télépilote.",
         "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
         "Il n'existe pas de distance unique à respecter vis-à-vis des aéroports à l'échelle de l'UE. Les restrictions à proximité des aéroports sont publiées sous forme de zones géographiques (article 15) dont la forme et la taille varient d'un aéroport à l'autre. Avant de voler à proximité d'un aéroport, d'un aérodrome ou d'un héliport, consultez la carte officielle des zones pour drones de votre pays ; voler dans une zone de contrôle (CTR) nécessite normalement une autorisation préalable du contrôle aérien.",
-        "Les vols de nuit sont autorisés dans le cadre des exigences de base de l'AESA pour la catégorie ouverte lorsque le feu clignotant vert requis est utilisé, sauf si une règle géographique ou nationale en vigueur impose une condition plus stricte.",
+        "En France, le vol de nuit est interdit en catégorie Ouverte, même si l'aéronef est équipé de dispositifs d'éclairage (guide DSAC « Catégorie Ouverte », §7). L'interdiction porte sur la « nuit aéronautique » : en métropole, elle commence 30 minutes après le coucher du soleil et se termine 30 minutes avant le lever du soleil. Des dérogations peuvent être accordées par le préfet territorialement compétent, à demander au moins 30 jours avant les vols ; certains sites d'aéromodélisme publiés font aussi exception.",
         "Catégorie Spécifique : scénarios européens STS-01 / STS-02 remplacent les anciens scénarios français S-1/S-2/S-3 (supprimés en 2026)",
         "Parcs nationaux et réserves naturelles : usage des drones interdit sans autorisation préfectorale"
       ],
@@ -25264,8 +25280,8 @@
         "Le survol des sites nucléaires, zones militaires et prisons constitue une infraction pénale",
         "Le RGPD s’applique lors de la capture d’images identifiables — vous êtes responsable du traitement des données"
       ],
-      "lastVerified": "2026-05-13",
-      "verifiedBy": "DGAC + Service Public.fr + Géoportail (deep-audit 2026-05-13)",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "DGAC + Service Public.fr + Géoportail + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 (EASA Open Category) + national enforcement framework",
       "checklist": [
         {
@@ -26396,19 +26412,19 @@
         {
           "id": "traficom_register",
           "title": "Traficom – Rekisteröidy käyttäjäksi",
-          "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
+          "url": "https://traficom.fi/fi/miehittamaton-ilmailu/rekisteroityminen-ja-teoriakoe",
           "description": "Rekisteröidy UAS-käyttäjäksi (40 €/1 v, 95 €/3 v tai 125 €/5 v, voimassa kaikissa EU/EASA-maissa)"
         },
         {
           "id": "droneinfo",
           "title": "Droneinfo.fi – Ilmatilakartta",
-          "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
+          "url": "https://www.droneinfo.fi/",
           "description": "Virallinen interaktiivinen drone-kartta, jossa näkyvät kielto- ja rajoitusalueet"
         },
         {
           "id": "traficom_training",
           "title": "Traficom – Koulutus ja kokeet",
-          "url": "https://www.traficom.fi/fi/liikenne/ilmailu/miehittamaton-ilmailu",
+          "url": "https://traficom.fi/fi/miehittamaton-ilmailu/verkkoteoriakoe-toiminnan-alakategoriaan-a1-ja-a3",
           "description": "Tietoa A1/A3- ja A2-koulutuksista ja kokeista"
         }
       ],
@@ -26447,10 +26463,10 @@
       },
       "keyRules": [
         "Avoimessa kategoriassa suurin sallittu korkeus on 120 m, mitattuna etäisyytenä lähimpään maanpinnan kohtaan — ei suoraan alaspäin, joten rinteen lähellä myös vieressä oleva maasto voidaan laskea mukaan. 50 m säteellä korkeasta keinotekoisesta esteestä (yli 105 m) esteestä vastaava taho voi hakea lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
-        "Suomessa etäohjaajan vähimmäisikä on 12 vuotta yli 250 gramman painoisille droneille (Traficom); alle 250 gramman C0-luokan tai itse rakennetuille droneille ei ole ikävaatimusta eikä koulutusvaatimusta.",
+        "Suomessa etäohjaajan vähimmäisikä on 12 vuotta yli 250 gramman painoisille droneille (Traficom); alle 250 gramman C0-luokan tai itse rakennetuille droneille ei ole ikä- eikä koulutusvaatimusta. Huomaa, että rekisteröityvän operaattorin (käyttäjän) on aina oltava täysi-ikäinen — alaikäisen lennättäjän puolesta operaattoriksi rekisteröityy huoltaja.",
         "Avoimessa kategoriassa dronen on pysyttävä omassa, apuvälineettömässä näköyhteydessäsi (silmälasit/piilolinssit käyvät; kiikari tai näyttö ei kelpaa) — tai voit lentää tarkkailijan avustamana pitäen jatkuvasti selkeän ja tehokkaan yhteydenpidon hänen kanssaan, jotta voitte yhdessä tarkkailla ilmatilaa ja välttää yhteentörmäykset. Follow-me-tila on erillinen poikkeus, sallittu enintään 50 m etäisyydellä ohjaajasta.",
         "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-        "Noudata lentoasemien CTR-alueiden ja UAS-ilmatilavyöhykkeiden rajoituksia — tarkista Droneinfo.fi",
+        "Noudata lentoasemien CTR-alueiden ja UAS-ilmatilavyöhykkeiden rajoituksia. Vyöhykkeet on määritelty Traficomin määräyksessä OPS M1-29, jonka uusin versio tuli voimaan 16.4.2026 — tarkista ajantasainen tilanne Droneinfo.fi:stä.",
         "Yölento sallittu, kun dronessa on vihreä vilkkuva tunnusvalo ja näkyvyys riittää",
         "Itärajan lähellä on lentorajoituksia – tarkista alueet ennen lentoa",
         "Lapissa poronhoitoalueilla voi olla kausiluonteisia rajoituksia",
@@ -26463,8 +26479,8 @@
         "Yötön yö: pitkät lentoajat, mutta tarkista rajoitusalueet",
         "Tietosuojalainsäädäntö (GDPR) koskee tunnistettavien henkilöiden kuvaamista"
       ],
-      "lastVerified": "2026-06-05",
-      "verifiedBy": "Traficom (official sources)",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "Traficom (official sources) + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 (EASA Open Category) + national enforcement framework",
       "checklist": [
         {
@@ -28914,7 +28930,7 @@
           "url": "https://dronechart.lfv.se"
         },
         {
-          "title": "Operatörsregistrering (krävs ≥250g eller kamera)",
+          "title": "Operatörsregistrering (krävs ≥250 g eller kamera, 250 kr/år)",
           "url": "https://dronarsidan.transportstyrelsen.se/"
         },
         {
@@ -28948,7 +28964,7 @@
         "I öppna kategorin ska du hålla drönaren inom ditt eget, obehjälpta synhåll (glasögon/linser är okej; kikare eller skärm räknas inte) — eller flyga med hjälp av en observatör, med tydlig och effektiv kommunikation er emellan hela tiden, så att ni tillsammans kan avläsa luftrummet och undvika kollisioner. Follow-me-läge är ett separat undantag, tillåtet upp till 50 m från piloten.",
         "A1: drönare under 250 g — flyg över oinvolverade personer (inte folksamlingar).",
         "A2: drönare upp till 4 kg — minst 30 m från oinvolverade personer (5 m i låghastighetsläge). Kräver A2-certifikat.",
-        "A3: drönare upp till 25 kg — minst 150 m från bostads-, affärs-, industri- och rekreationsområden.",
+        "A3: drönare upp till 25 kg — flyg endast där inga oinvolverade personer förväntas befinna sig, och minst 150 m horisontellt från bostads-, affärs-, industri- och rekreationsområden.",
         "Aldrig flyga över folksamlingar utan särskilt tillstånd.",
         "Kontrollera LFV Drönarkartan och NOTAM före varje flygning."
       ],
@@ -28959,8 +28975,8 @@
         "Alla som flyger drönare måste rapportera händelser där någon skadats allvarligt, en dödsolycka inträffat eller ett bemannat luftfartyg varit inblandat. Andra krav kan gälla för tillståndspliktig verksamhet. Transportstyrelsen uppmuntrar även frivillig rapportering av andra säkerhetshändelser.",
         "Försäkring rekommenderas starkt — vissa hemförsäkringar täcker drönarflygning, andra inte."
       ],
-      "lastVerified": "2026-06-10",
-      "verifiedBy": "LFV, Transportstyrelsen",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "LFV, Transportstyrelsen + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 + nationella svenska regler",
       "checklist": [
         {
@@ -30143,6 +30159,7 @@
       "keyRules": [
         "I den åpne kategorien er maksimal høyde 120 m, målt som avstanden til nærmeste punkt på jordoverflaten — ikke bare rett ned, så nær en skråning kan bakken ved siden av deg også telle med. Innenfor 50 m fra en høy kunstig hindring (over 105 m) kan den som er ansvarlig for hindringen søke om tillatelse til å fly opptil 15 m over hindringens høyde.",
         "Du må registrere deg som droneoperatør hvis dronen din veier 250 g eller mer (eller kan overføre mer enn 80 J bevegelsesenergi ved en kollisjon) — dette gjelder selv for leker. Under 250 g kreves registrering likevel hvis dronen har en sensor som kan fange opp personopplysninger, med mindre den regnes som leke etter EUs leketøysdirektiv. Krav til pilotopplæring/sertifikat er separate og avhenger av dronens klasse og underkategori.",
+        "I Norge er aldersgrensen 16 år for å fly på egen hånd. Unntak gjelder for C0-droner klassifisert som leketøy og for egenbygde droner under 250 g med maksfart under 19 m/s. Er du under 16, kan du fly under direkte oppsyn av en fjernpilot som er minst 16 år og selv har gyldig kompetansebevis.",
         "EU-registrering fra hjemlandet er gyldig – ingen ny norsk registrering nødvendig",
         "Ansvarsforsikring kreves normalt fra 250 g (ikke krav under 250 g i åpen kategori)",
         "Det kreves tillatelse for å fly innenfor 5 km fra en lufthavn — søk via NinoxDrone2-appen (levert av Avinor).",
@@ -30155,8 +30172,8 @@
         "Svalbard har egne og svært strenge regler – se Sysselmesterens nettside",
         "Norge følger EASA Open Category (åpen kategori A1/A2/A3) fullt ut"
       ],
-      "lastVerified": "2026-06-06",
-      "verifiedBy": "Luftfartstilsynet, Avinor (offisielle kilder)",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "Luftfartstilsynet, Avinor (offisielle kilder) + audit 2026-08-26",
       "regulatoryBase": "EU 2019/947 (EASA Open Category) – Norge er EØS-medlem",
       "checklist": [
         {
@@ -32033,7 +32050,7 @@
           "id": "faa_remote_id",
           "title": "FAA — Remote ID",
           "url": "https://www.faa.gov/uas/getting_started/remote_id",
-          "description": "Remote ID requirements — mandatory for all drones 250g+"
+          "description": "Remote ID requirements — required for every drone that must be registered, regardless of weight"
         },
         {
           "id": "faa_part107",
@@ -32049,7 +32066,7 @@
         }
       ],
       "keyRules": [
-        "Max 400 ft (122 m) above ground level in uncontrolled airspace",
+        "Max 400 ft (122 m) above ground level everywhere under 14 CFR 107.51 — in controlled airspace the LAANC grid ceiling is often lower. Exception: you may fly up to 400 ft above a structure while within a 400 ft radius of it.",
         "Register drones 250g+ on FAA DroneZone ($5, valid 3 years)",
         "Recreational: pass the free TRUST safety test — carry proof while flying",
         "Commercial: obtain FAA Remote Pilot Certificate (Part 107 exam)",
@@ -32061,11 +32078,11 @@
         "State and local laws may add restrictions — always check before flying"
       ],
       "importantNotes": [
-        "Remote ID is fully enforced — non-compliant drones may only fly in FAA-Recognized Identification Areas (FRIAs)",
+        "Remote ID is fully enforced for every drone that must be registered. A drone that is subject to Remote ID but lacks it may only fly inside an FAA-Recognized Identification Area (FRIA).",
         "Some states preempt local drone laws (FL, TX, AZ) — others allow city/county restrictions (CA, NY, CO)"
       ],
-      "lastVerified": "2026-06-19",
-      "verifiedBy": "FAA (official sources) + audit 2026-05-04",
+      "lastVerified": "2026-08-26",
+      "verifiedBy": "FAA (official sources) + audit 2026-08-26",
       "regulatoryBase": "14 CFR Part 107 + 49 USC 44809 (recreational)",
       "checklist": [
         {
