@@ -1,5 +1,5 @@
 {
-  "version": 248,
+  "version": 250,
   "touristContent": {
     "baseUrl": "https://dronekoll.com"
   },
@@ -13982,9 +13982,10 @@
       ],
       "overlayInfo": {
         "shown": [
-          "Zakázané zóny (P) — vojenské priestory MOSR a PUAS-zóny",
+          "Zakázané zóny (P) — zóny PUAS a zakázané priestory LZP z AIP SR (jadrové elektrárne, chemický závod)",
           "Letiskové zóny CTR — Bratislava, Košice, Piešťany, Poprad, Žilina",
-          "Obmedzené zóny (RSTA) — RUAS a LZR"
+          "Obmedzené zóny (RSTA) — zóny RUAS (vojenské priestory MO SR a chránené objekty) a rezervácie LZR",
+          "Navigačné výstrahy (W) — výsadková činnosť a padákové a závesné lietanie (informatívne, LPS SR)"
         ],
         "notShown": [
           "Krátkodobé obmedzenia — skontrolujte NOTAM v aplikácii"
@@ -14621,6 +14622,7 @@
           "UAS-zones via IenW ED-269 (officiële drone-zones, AIRAC-update)",
           "Verbodsgebieden (P_NL) — koninklijke paleizen, Dodenherdenking, Waddenzee",
           "CTR — Nabijheid vliegveld (CTR_NL)",
+          "Parachutespringgebieden (PARAJUMP) — LVNL; vermijd het gebied tijdens sprongen",
           "Defensie-oefengebieden (MIL_NL) — EHR/EHTSA/EHTRA",
           "Laagvlieggebieden (LFA_NL) — militaire laagvliegroutes",
           "Kritieke infrastructuur (INFRA_NL) — Seveso/industrie/havens (regelwijziging 1 januari 2026)",
@@ -22040,10 +22042,11 @@
         "shown": [
           "Flughafen- und Flugplatzzonen (CTR) — Bewilligung erforderlich",
           "Verbotszonen (P) und Beschränkungsgebiete (RSTA)",
-          "Bedingte Zonen und Event-Zonen — z. B. Großveranstaltungen"
+          "Bedingte Zonen und Event-Zonen — z. B. Großveranstaltungen",
+          "Militärische Gefahrengebiete (LO D) — Einflug auf eigene Gefahr, Aktivierung per NOTAM (BMLV / Austro Control)",
+          "Modellfluggebiete (Vereinsflugplätze, bis 150 m über Grund) — keine Beschränkung, aber erhöhtes Aufkommen unbemannter Luftfahrzeuge"
         ],
         "notShown": [
-          "Informationszonen ohne Beschränkung",
           "Naturschutzgebiete der Bundesländer — separat geregelt, nicht in den UAS-Gebieten",
           "Kurzfristige Sperren — NOTAM in der App prüfen"
         ],
@@ -26305,7 +26308,7 @@
         ],
         "notShown": [
           "Zonas de exclusión por motivos de seguridad del Estado",
-          "Espacios protegidos autonómicos — parques naturales y reservas con normativa propia de cada comunidad"
+          "Espacios naturales protegidos autonómicos (parques naturales, reservas) y ZEPA de la Red Natura 2000 (MITECO) — normativa propia de cada comunidad; los parques nacionales sí se muestran"
         ],
         "source": "ENAIRE INSIGNIA (oficial, ciclo AIRAC)"
       },
@@ -29099,6 +29102,14 @@
           "label": "fi-temporary",
           "sourceLabel": "Traficom Ilmatilasovellus — tilapäiset varaukset",
           "authority": "Traficom"
+        },
+        {
+          "url": "https://pappilappi.com/airspace/fi-advisory.geojson?cb=20260907a",
+          "ttlMinutes": 1440,
+          "label": "fi-advisory",
+          "sourceLabel": "AIS Finland eAIP ENR 5.3 — neuvoa-antavat vaara-alueet",
+          "authority": "Fintraffic ANS / AIS Finland",
+          "zoneKeyDefault": "DNGA_ADVISORY"
         }
       ],
       "airspaceButtonLabel": "Ilmatila",
@@ -29177,21 +29188,22 @@
       "overlayInfo": {
         "shown": [
           "Traficom UAS-ilmatilavyöhykkeet — lentoasemien CTR, vankilat, sotilasalueet (Puolustusvoimat), sairaaloiden HEMS-helikopterikentät",
-          "Kriittinen infrastruktuuri — voimalaitokset, satamat, sillat, rautatiet",
+          "Kriittinen infrastruktuuri — satamat ja voimalaitokset (ratapihat ja rautatietunnelit turvallisuusherkkinä vyöhykkeinä)",
           "Turvallisuusherkät vyöhykkeet",
           "Lennokkikentät (informatiivisia, törmäysriski)",
-          "Syke Natura 2000 -alueet (SAC + SPA) — aktivoituvat keväällä–kesällä",
+          "Syke Natura 2000 -alueet (SAC + SPA) — näkyvät kartalla ympäri vuoden (lähennä nähdäksesi), herkkä kausi 1.3.–31.10.",
           "Traficom EFP-kieltoalueet (Loviisa, Olkiluoto, Kilpilahti, Helsingin keskusta)",
           "Traficom EFR-rajoitusalueet (EFR100 itärajan vyöhyke H24, sotilassaaret)",
-          "Traficom EFD-vaara-alueet (sotilasammunnat, aktivoituvat NOTAMilla)",
-          "Live NOTAM — Fintraffic AIS, päivittyy 12 tunnin välein"
+          "Traficom EFD-vaara-alueet — miehittämätön ilmailu, purjelento, laskuvarjohyppy ja muu vilkas harrasteilmailu; osassa alueista myös sotilastoimintaa (aktivoituvat NOTAMilla)",
+          "Live NOTAM — Fintraffic AIS, päivittyy 12 tunnin välein",
+          "AIS Finland eAIP ENR 5.3 — neuvoa-antavat vaara-alueet: avolouhokset, luotausasemat, ampumaradat, teollisuuslaitokset ja lasermittaukset; ei lupavaatimusta, lue vyöhykkeen tiedot"
         ],
         "notShown": [
           "Varausalueiden aktivointitila — alueet näkyvät kartalla, mutta ei tieto siitä, onko varaus juuri nyt voimassa (AUP/UUP: Fintraffic Sky / NOTAM)",
           "Poronhoitoalueet Lapissa (kausiluonteisia, paikalliset rajoitukset)",
           "Kausiluonteiset tapahtumat (festivaalit, suuret yleisötilaisuudet)"
         ],
-        "source": "Traficom UAS Reservations API + SYKE INSPIRE Protected Sites WFS — viralliset, päivittyvät päivittäin"
+        "source": "Traficom UAS Reservations API + SYKE INSPIRE Protected Sites WFS + AIS Finland eAIP (Fintraffic ANS) — viralliset lähteet, aineisto päivitetään päivittäin"
       },
       "keyRules": [
         "Avoimessa kategoriassa suurin sallittu korkeus on 120 m, mitattuna etäisyytenä lähimpään maanpinnan kohtaan — ei suoraan alaspäin, joten rinteen lähellä myös vieressä oleva maasto voidaan laskea mukaan. 50 m säteellä korkeasta keinotekoisesta esteestä (yli 105 m) esteestä vastaava taho voi hakea lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
@@ -33351,9 +33363,11 @@
           "Lufthavn-no-fly (5 km rundt lufthavner med lufttrafikktjeneste) — rød",
           "CTR/TIZ — Kontrollsoner og trafikkinformasjonssoner",
           "R-soner (Restricted Airspace) — Avinor og Luftfartstilsynet",
+          "Fareområder (DNGA) — AIP Norge ENR 5.1, Luftfartstilsynet (dronesoner.no)",
           "Forsvarets skytefelt land (NO_MILITARY_RANGE) — Geonorge WFS",
           "Sjøforsvarets forbudsområder (NO_MARINE_RESTRICTED) — Sjøforsvaret",
-          "Fengsler (NO_PRISON) — Lovdata-baserte no-fly-soner",
+          "Fengsler (NO_PRISON) — Lovdata-forskrift og Kriminalomsorgen (dronesoner.no)",
+          "Ambassader (NO_EMBASSY) — Luftfartstilsynet (dronesoner.no)",
           "NSM forbudsområder — sensorforbud for foto/film (NO_NSM_SENSOR) — Nasjonal sikkerhetsmyndighet",
           "Verneområder — lavflygingslag for luftfartøy (< 300 m) (NO_NATURE_LOWFLY) — Miljødirektoratet",
           "Verneområder — landingsforbudslag for luftfartøy (NO_NATURE_LANDING) — Miljødirektoratet",
@@ -35022,6 +35036,7 @@
           "🛡 Special Use Airspace (Prohibited, Restricted, MOA, Warning)",
           "🚁 Heliports (1,600+ medical/public helipads in airspace overlay; 3,000+ map pins including private — H-symbol on map)",
           "🦅 National Wildlife Refuges (USFWS) — unauthorized take-off, landing and low flight that harasses wildlife prohibited (50 CFR 27.34); shown when zoomed in",
+          "🏕 Wilderness Areas (USFS/BLM) — launching, landing and operating drones from inside the boundary prohibited (36 CFR 261.18, 43 CFR 6302.20); shown when zoomed in",
           "🏛 Washington DC SFRA (30 NM ring, 14 CFR 93) — inner 15 NM FRZ: no drone flight without specific FAA authorization; 15–30 NM: recreational flying under the NOTAM's conditions, Part 107 under certificate or waiver",
           "🛑 National Security UAS Flight Restrictions (NSUFR, 14 CFR 99.7) — standing 24/7 sites and part-time sites closed while active",
           "🛩 FRIA — FAA-Recognized Identification Areas where drones without Remote ID may fly; shown when zoomed in",
