@@ -1,5 +1,5 @@
 {
-  "version": 250,
+  "version": 253,
   "touristContent": {
     "baseUrl": "https://dronekoll.com"
   },
@@ -24542,7 +24542,7 @@
             "group": 2,
             "item": 3,
             "status": "PARTIAL",
-            "reviewState": "PARTIAL",
+            "reviewState": "REWRITE_NEEDED",
             "layer": "DYNAMIC_AIRSPACE",
             "sources": [],
             "checkedAt": "2026-09-05T00:09:00+02:00",
@@ -27716,7 +27716,7 @@
           "Limites exactes des agglomérations (indicatives uniquement)",
           "Territoires d'outre-mer partiellement couverts"
         ],
-        "source": "IGN / Géoportail (officiel, données DGAC, mis à jour périodiquement)"
+        "source": "IGN / cartes.gouv.fr (Géoplateforme, officiel, données DGAC, mis à jour périodiquement)"
       },
       "airspaceButtonLabel": "Espace aérien",
       "linksSheetTitle": "Espace aérien et règles — France",
@@ -31747,6 +31747,7 @@
       "privacyPolicyUrl": "https://pappilappi.com/privacy.html",
       "airspaceApiType": "wfs",
       "airspaceWfsUrl": "https://daim.lfv.se/geoserver/wfs",
+      "notamHideListUrl": "https://dronechart.lfv.se/data/notam.txt",
       "airspaceLayerNames": [
         "mais:CTR",
         "mais:ATZ",
