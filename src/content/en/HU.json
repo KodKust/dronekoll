@@ -1,30 +1,31 @@
 {
   "meta": {
-    "sourceHash": "c60fe25d411d1b17d1f39a3942f259be9fd7a6aefee2fdedfab7c81c48111b27",
-    "sourceCountriesVersion": 193,
+    "sourceHash": "92806b910a3a8d8837e79579753fac51d498af3b1113a2e662fd8b4a6e40e9d4",
+    "sourceCountriesVersion": 254,
     "sourceLastVerified": "2026-04-07",
-    "translatedAt": "2026-07-09",
-    "engine": "deepl"
+    "translatedAt": "2026-09-23",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "A maximum of 120 m above the ground (EASA Open Category)",
-      "Registration is required for drones weighing 120 g or more (a stricter requirement than EASA’s 250 g threshold)",
-      "The A1/A3 online training course is mandatory — minimum age 16",
-      "Mandatory liability insurance for all drone operations",
-      "Budapest: Permits for urban flights must be requested 30 days in advance",
+      "In the Open Category the maximum height is 120 m, understood as the distance from the closest point of the Earth’s surface — not simply straight down, so near a slope the ground beside you can also count. Within 50 m of a tall artificial obstacle (over 105 m), the entity responsible for the obstacle may request permission to fly up to 15 m above the obstacle’s height.",
+      "In addition to operator registration, in Hungary the drone itself must also be registered with the aviation authority (device registration) – the application must be submitted at least 10 days before the flight, and the registration mark issued must be clearly displayed on the drone. The only exception is a toy drone: a drone qualifying as a toy, under 120 g, with no data-recording device, that cannot fly more than 100 m away.",
+      "Flying on your own in the Open Category requires a minimum age of 16 — the A1/A3 training at KTI is free, and the exam must be taken in person at the KAV exam centre (fee: 12,700 Ft); the certificate is valid for 5 years and recognised throughout the EU. Younger pilots may only fly under the direct supervision of a pilot over 16 who has already passed the exam.",
+      "Mandatory liability insurance – according to the authority, recreational Open Category flights with a drone of up to 250 g are exempt; carry proof of insurance with you while flying.",
+      "Over built-up areas – in any town or village, not only Budapest – drones may only be flown in ad hoc airspace designated by the military aviation authority; the application must be submitted at least 30 days before the planned flight. Exception: a toy drone, i.e. a drone qualifying as a toy, under 120 g, with no data-recording device, that cannot fly more than 100 m away.",
       "The MyDroneSpace app is required for every flight",
-      "Always maintain visual line of sight (VLOS)",
+      "In the Open Category you must keep the drone within your own direct line of sight with the naked eye (glasses/contact lenses are fine; binoculars or a screen do not count) — or use an observer with whom you maintain clear and effective communication at all times, so that together you can monitor the airspace and avoid collisions. “Follow-me” mode is a separate exception, permitted within 50 m of the pilot.",
       "Do not fly over assemblies of people. Rules for uninvolved persons depend on subcategory, class mark and operating conditions; check the official matrix.",
-      "At least 5 km away from any airport or landing site",
-      "Parliament, government buildings, and military areas: complete flight ban"
+      "There is no single EU-wide distance you must keep from airports. Restrictions near airports are published as geographic zones (Article 15) whose shape and size vary from airport to airport. Before flying anywhere near an airport, airfield or heliport, check your country's official drone-zone map; flying inside a control zone (CTR) normally requires prior authorisation from air traffic control.",
+      "In the Budapest CTR outside the LHBP No Drone Zone, and in the Kecskemét, Szolnok and Pápa military control zones (MCTR) outside the No Drone Zones, you may fly up to 40 m above ground without air traffic control clearance; flying in the No Drone Zones is prohibited. Within 2 km of the reference point of aerodromes without an ATZ, and within 750 m of air ambulance helicopter landing sites, you may only fly with the consent of the aerodrome operator, and you must notify the aviation authority at least 2 days in advance.",
+      "Flying a drone is prohibited within 300 m of the priority national memorial site (the area around the Parliament and Kossuth Square), designated protected facilities and facilities of particular importance to the functioning of the state; it is also prohibited within 300 m of designated critical and defence infrastructure, except with the operator’s permission. Flying is prohibited in prohibited (P) airspace, and in restricted (R) airspace it is only allowed in accordance with the applicable rules."
     ],
     "importantNotes": [
-      "Registration is now mandatory for drones weighing 120 g or more—a much stricter requirement than the standard EASA threshold of 250 g",
-      "In Budapest, you must apply for a permit 30 days in advance—plan ahead",
+      "In Hungary every drone except toy drones must be registered (device registration), at least 10 days before the flight – regardless of weight.",
+      "Over built-up areas (not only in Budapest) you may only fly in ad hoc airspace – submit the application at least 30 days in advance.",
       "The MyDroneSpace app is required for every flight",
-      "Liability insurance is mandatory for all drones, regardless of weight",
-      "The GDPR applies if you collect data on identifiable individuals"
+      "Liability insurance is mandatory – according to the authority, recreational Open Category flights with a drone of up to 250 g are exempt.",
+      "The GDPR applies if you record identifiable individuals"
     ],
     "primaryLinks": [
       {
@@ -36,8 +37,8 @@
         "description": "Registration and Flight Management App (required for all flights)"
       },
       {
-        "title": "MyDroneSpace – Aerial Map",
-        "description": "Official interactive map showing drone zones and airspace restrictions"
+        "title": "MyDroneSpace – Airspace Map",
+        "description": "HungaroControl’s official mydronespace web interface with drone zones and airspace restrictions (registration/login required)"
       },
       {
         "title": "HungaroControl – Overview of Rules",
@@ -50,7 +51,7 @@
         "description": "Hungarian Civil Aviation Authority Licensing Information"
       },
       {
-        "title": "HungaroControl – Drone FAQ",
+        "title": "MyDroneSpace – Drone FAQ",
         "description": "Frequently Asked Questions About Hungarian Drone Regulations"
       }
     ],

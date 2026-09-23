@@ -1,29 +1,30 @@
 {
   "meta": {
-    "sourceHash": "c139af1376a67c6fd4409a0435b10fd8dd0df99586c1e480fb6eb124208d488a",
-    "sourceCountriesVersion": 193,
+    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "sourceCountriesVersion": 254,
     "sourceLastVerified": "2026-05-04",
-    "translatedAt": "2026-07-09",
-    "engine": "deepl"
+    "translatedAt": "2026-09-23",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "Maximum altitude: 120 m (400 ft) above ground level (AGL)",
-      "Drones weighing less than 25 kg: DO NOT require DINACIA registration for recreational use",
-      "Drones weighing ≥25 kg or used for commercial purposes: mandatory registration on the DINACIA UTM platform",
-      "Always keep the drone within direct line of sight (VLOS)",
-      "Do not fly over densely populated areas (cities, towns, neighborhoods)",
-      "Avoid airports, airfields, and controlled airspace (CTR)",
+      "Maximum flight altitude is 120 m (400 ft) above ground level.",
+      "Drones ('Small') up to 25 kg do not require DINACIA registration for recreational use — they may fly freely up to 120 m, except in aerodrome zones.",
+      "In Montevideo, DINACIA has designated 4 recreational flying zones for Small drones (up to 25 kg), in defined sectors of: Parque Baroffio (northern area), Parque Marcos Sastre (near Ruta 8), Parque Miguelete (stretch between Silva and Bvar. Aparicio Saravia) and Parque Tomkinson (except the baby football club area). Maximum altitude in these zones: 30 m above ground (DINACIA Res. 093/2019, AIP ENR 5.5).",
+      "Drones from 25 to 260 kg ('Medium') must be registered with DINACIA and receive an identification number visible on the device.",
+      "The pilot must keep the drone within direct line of sight at all times.",
+      "Flying over densely populated areas (cities, towns, neighborhoods) is not permitted without express authorization from the aeronautical authority.",
+      "Avoid airports, airfields, and controlled airspace (CTR) unless expressly authorized.",
       "A reasonable distance from people and buildings not involved (recommended: 30 m)",
       "Flight permitted only during the day — night flights require specific authorization",
-      "Business operation: mandatory liability insurance + DINACIA permit",
-      "Airspace Reservations (Events): Complete the form 10 days in advance"
+      "Commercial use requires mandatory civil liability or aviation insurance, in addition to the corresponding DINACIA permit.",
+      "Operations requiring express authorization (over populated areas or gatherings of people, in aerodrome zones, in prohibited or restricted areas, or for commercial use): apply to DINACIA via the UTM platform (utm.dinacia.gub.uy)."
     ],
     "importantNotes": [
-      "🌟 URUGUAY IS PERMISSIVE: DINACIA Resolution 291/2014 states that drones weighing less than 25 kg do NOT require registration for recreational use. Most consumer drones (DJI Mini, Mavic, Air, Phantom) are well below this threshold—but all other operating rules DO apply.",
-      "📋 DINACIA RESOLUTION 291/2014: classifies drones into three categories—Small (≤25 kg), Medium (25–260 kg empty weight), and Large (>260 kg). The Uruguayan Aeronautical Regulations (RAU 91 and others) supplement the regulatory framework.",
-      "✈️ FOREIGN TOURISTS: The rules also apply to non-residents. For recreational use of a drone weighing less than 25 kg, registration is not required. For commercial/professional use or events: contact DINACIA before your trip. Customs may require you to declare your equipment upon entering the country.",
-      "🏖️ PUNTA DEL ESTE AND MONTEVIDEO: Punta del Este (high tourist density), Carrasco Airport (MVD), Laguna del Sauce Airport (PDP), the Government House, and Plaza Independencia have permanent restrictions. Coastlines and beaches tend to be crowded during peak season.",
+      "Uruguay is relatively permissive: DINACIA Resolution 291/2014 states that drones up to 25 kg do not require registration for recreational use.",
+      "DINACIA Resolution 291/2014 classifies drones into three categories: Small (≤25 kg), Medium (25-260 kg) and Large (over 260 kg).",
+      "The rules also apply to non-residents. For exclusively recreational use of a drone up to 25 kg, no registration or operator permit is required. All paid use (even with small drones) requires the DINACIA DAOD Operator Permit (requirements: 18 years of age, a course at an authorized center, a skills test and Uruguayan citizenship; foreigners must open an APIA electronic file with DINACIA) and civil liability insurance.",
+      "🚫 PROHIBITED ZONES (AIP ENR 5.1): Torre Ejecutiva/Plaza Independencia in Montevideo (950 m radius), Residencia Presidencial Suárez (950 m radius), Estancia Presidencial Anchorena (1,852 m radius), Isla de Lobos off Punta del Este (5 km radius), islands off Cabo Polonio, Barra de Valizas and La Coronilla (5 km radius), military units, prisons, dams and ANCAP fuel plants. ATM authorization is required in the controlled airspace and traffic zone of Carrasco (MVD) and Laguna del Sauce (PDP) airports. Coasts and beaches are often densely populated in high season.",
       "🌳 PROTECTED NATURAL AREAS (SNAP): The National System of Protected Areas includes areas such as Esteros de Farrapos, Cabo Polonio, and Quebrada de los Cuervos. Check with the Ministry of the Environment for specific restrictions before operating drones in these areas."
     ],
     "primaryLinks": [
@@ -36,8 +37,8 @@
         "description": "DINACIA's official UTM (Unmanned Traffic Management) platform for registering drones (≥25 kg) and submitting applications for operating authorization. Requires a registered user"
       },
       {
-        "title": "DINACIA — RPAS Operator Permits",
-        "description": "Official page on RPAS operator permits — steps, requirements, and forms. Required for drones weighing 25 kg or more and for all commercial uses"
+        "title": "DINACIA — Issuance of DAOD Permit",
+        "description": "DINACIA circular (CA.UY.PEL.07.02) with the requirements for the DAOD Operator Permit. Mandatory for drones over 25 kg and for all paid use."
       },
       {
         "title": "DINACIA — LAR 61 Pilot Licenses",
@@ -63,6 +64,6 @@
     "sectionLabelPrimary": "OFFICIAL SOURCES",
     "sectionLabelSecondary": "ADDITIONAL RESOURCES",
     "linksSheetTitle": "Airspace and Regulations — Uruguay",
-    "dronePilotCredentialName": "DAOD Operator License"
+    "dronePilotCredentialName": "DAOD Operator Permit"
   }
 }

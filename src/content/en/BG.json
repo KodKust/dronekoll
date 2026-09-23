@@ -1,27 +1,30 @@
 {
   "meta": {
-    "sourceHash": "53287a6bbcc1a046359816ed2a7de6b009d10fc753031bec7dc231d525fdedf3",
-    "sourceCountriesVersion": 193,
+    "sourceHash": "76cde0e68eaea6de50863e60f85670840fe89558dc64828a40f7f9cfd6b8a0c6",
+    "sourceCountriesVersion": 254,
     "sourceLastVerified": "2026-04-07",
-    "translatedAt": "2026-07-09",
-    "engine": "deepl"
+    "translatedAt": "2026-09-23",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "Max. 120 m above ground level (EASA Open category)",
-      "Registration as a UAS operator for drones weighing 250 g or more or equipped with a camera",
-      "Mandatory Online Training A1/A3 — Minimum Age 16",
-      "An 8-km protection zone around airports (larger than the EASA standard)",
+      "In the open category the maximum height is 120 m, measured as the distance to the closest point on the surface of the earth — not simply straight down, so near a slope the terrain next to you may also count. Within 50 m of a tall artificial obstacle (over 105 m), the entity responsible for the obstacle may request authorization to fly up to 15 m above the height of the obstacle.",
+      "You must register as a drone operator if your drone weighs 250 g or more (or could transfer more than 80 J of kinetic energy on impact) — this applies even to toys. Below 250 g, registration is still required if the drone has a sensor able to capture personal data, unless it is considered a toy under the EU Toy Safety Directive. Pilot training/certificate requirements are separate and depend on the drone's class and subcategory. The operator registration number is applied with a sticker on every drone and, if the drone has a remote identification system (Remote ID), is also entered into it.",
+      "The minimum age for flying on your own in the open category is 16 — the A1/A3 online training and exam are taken in the DG CAA system (uas.caa.bg, login with a qualified electronic signature), are valid for 5 years and are recognized throughout the EU. No minimum age: class C0 in A1, a privately built drone under 250 g, or a flight under the direct supervision of a pilot with the necessary competence. If the pilot is under 18, a parent or guardian registers as the operator.",
+      "Tourists: if your drone is subject to registration, register as an operator in the EU country where you live; if you live outside the EU — in the first EU country where you will fly (in Bulgaria: uas.caa.bg). Qualifications from non-EU countries are not recognized — the required training (e.g. A1/A3) must be completed in the EU.",
+      "There are geographic zones of different sizes around airports. At Sofia, Varna, Burgas, Plovdiv and Gorna Oryahovitsa airports the zones are larger than 8 km: in the inner zone every flight requires authorization from DG CAA, and in the wider zone — flights above 50 m. Apply at least 7 working days in advance. Check the map at uas.caa.bg.",
       "The areas surrounding Sofia Airport cover a significant portion of the city",
-      "Pre-flight coordination with BULATSA is required",
-      "Always maintain visual line of sight (VLOS) with the drone",
+      "Without authorization, it is prohibited to fly in restricted or prohibited geographic zones, in activated (temporarily reserved) airspace structures and within the guarded boundaries of public-use airports. In case of a violation, the drone may be forced to land or removed, and any damage is at the violator's expense.",
+      "Before every flight, check the geographic zones on the DG CAA map (uas.caa.bg); in a zone that requires authorization, submit an application to DG CAA within the deadline stated for the zone.",
+      "In the open category you must keep the drone in direct visual line of sight with the naked eye (glasses/contact lenses are fine; binoculars or a screen do not count) — or with the help of an observer, with clear and effective communication between you at all times, so that together you watch the airspace and avoid collisions. “Follow-me” mode is a separate exception only in subcategory A1 (class C0/C1 drones or privately built drones under 250 g), up to 50 m from the pilot.",
       "Do not fly over assemblies of people. Rules for uninvolved persons depend on subcategory, class mark and operating conditions; check the official matrix.",
       "Night flight is permitted under the EASA open-category baseline when the required green flashing light is used, unless a current geographic zone or national rule imposes a stricter condition.",
-      "National Parks and Nature Reserves: Restrictions Apply"
+      "National Parks and Nature Reserves: Restrictions Apply",
+      "Third-party liability insurance is mandatory for drones over 20 kg, and for commercial/professional activity — regardless of weight. For professional activity in the open category, the operator submits a declaration to DG CAA."
     ],
     "importantNotes": [
-      "Pre-flight coordination with BULATSA is required before a flight",
-      "8-km safety zone around airports — larger than the EASA standard",
+      "Before a flight, check the geographic zones at uas.caa.bg and active NOTAMs in BULATSA's B-FLIP",
+      "There are geographic zones larger than 8 km around major airports; within them, authorization from DG CAA is required (in the wider zone — for flights above 50 m). Check the map at uas.caa.bg.",
       "The areas surrounding Sofia Airport restrict flights over a large part of the city",
       "Military facilities: areas where flying is strictly prohibited",
       "The GDPR applies when photographing recognizable individuals"
@@ -41,7 +44,7 @@
       },
       {
         "title": "DG GVA — Drone Zones",
-        "description": "Information and Restrictions on Geographic Zones for Drone Flights"
+        "description": "The official DG CAA map of geographic zones and restrictions for drone flights"
       }
     ],
     "secondaryLinks": [
@@ -51,10 +54,10 @@
       },
       {
         "title": "BULATSA — NOTAM",
-        "description": "Active NOTAMs and Temporary Airspace Restrictions"
+        "description": "Active NOTAMs and temporary airspace restrictions in the B-FLIP portal (requires B-FLIP registration)"
       }
     ],
-    "disclaimerText": "Before a flight, always check the official sources of DG CAA and BULATSA. This app is a tool—it is not a legal authority. Bulgaria follows EASA regulations with national additions, including a requirement for pre-flight coordination.",
+    "disclaimerText": "Before a flight, always check the official sources of DG CAA (uas.caa.bg) and BULATSA. This app is a tool—it is not a legal authority. Bulgaria follows EASA regulations with national additions, including authorization from DG CAA for flights in some geographic zones.",
     "sectionLabelRules": "BASIC RULES (EASA OPEN CATEGORY)",
     "sectionLabelPrimary": "OFFICIAL SOURCES",
     "sectionLabelSecondary": "ADDITIONAL RESOURCES",

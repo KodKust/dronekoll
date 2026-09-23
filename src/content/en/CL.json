@@ -1,30 +1,32 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "sourceCountriesVersion": 193,
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "sourceCountriesVersion": 254,
     "sourceLastVerified": "2026-05-04",
-    "translatedAt": "2026-07-09",
-    "engine": "deepl"
+    "translatedAt": "2026-09-23",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (unpopulated areas, recreational): Drones weighing ≤750 g may fly up to 50 m above the tallest obstacle on private property without authorization",
-      "DAN 151 (populated areas/professional use): Drones weighing more than 750 g require DGAC registration, a pilot's license, and an operational authorization",
-      "Maximum authorized overall height: 130 m AGL (DAN 151) — varies by authorization",
-      "Minimum distance of 2 km from airports and airfields",
+      "DAN 91.102(j): without DGAC authorization, only drones of up to 750 g made of expanded polyethylene or equivalent material, for private or recreational use, may fly, in private places and no more than 50 m above the tallest obstacle or building. Any other flight requires prior DGAC authorization.",
+      "DAN 151 (populated areas, public interest or aerial work): applies to drones of any weight (max. 9 kg) and requires DGAC registration, a remote pilot credential, insurance, an AOC or CEO and an operating authorization.",
+      "DAN 151: the drone must carry an emergency parachute during operation and be able to be controlled manually (max. 9 kg excluding the parachute).",
+      "The general limit is 400 feet (120 m) AGL — flying above it requires prior DGAC authorization (DAN 151 Ed. 3, in force since May 2024). The current DAN 91 expresses the same limit as '400 feet (130 meters)'.",
+      "No flying within 2 km of the extended runway centerline (measured from the threshold) or within 1 km parallel to the runway centerline of an aerodrome.",
+      "No drone operations in areas where a fire is being fought with manned aircraft (DAN 91.102(i)(11) and DAN 151.103(g)(14)).",
       "Maximum distance of 500 m from the operator (maintain direct eye contact)",
-      "Always keep the drone within direct line of sight (VLOS)",
+      "You must keep direct visual contact with the drone at all times to direct its flight.",
       "Night flights require specific authorization from the DGAC",
-      "DGAC Registration: make, model, serial number, maximum weight ≤9 kg for authorized use, 10×15 cm photo",
-      "A pilot's license requires a written exam (minimum score of 75%) on DAN 151, DAN 91, meteorology, and aerodynamics",
+      "DGAC registration (DAN 151.203): manufacturer/country, make, model, serial number and factory weight, with a copy of your identity card; the application is made on the DGAC web platform (since August 2026). Maximum takeoff weight 9 kg.",
+      "Remote pilot credential: at least 18 years old, training declaration and written exam (minimum 75%) on DAN 151, DAN 91, NOTAM, meteorology and aerodynamics; valid for 36 months.",
       "Third-Party Liability Insurance (JAC-authorized) required for professional use"
     ],
     "importantNotes": [
-      "📋 DUAL REGULATORY FRAMEWORK — DAN 91 vs. DAN 151: Chile distinguishes between flying in UNPOPULATED areas (DAN 91, more permissive; recreational flights ≤750 g without a permit) and flying in POPULATED areas or areas of public interest (DAN 151, which requires registration, a certified pilot, and insurance). The applicable regulations depend on the location AND purpose.",
-      "✈️ FOREIGN TOURISTS: The rules apply equally to non-residents. Registration is not required for recreational drone flights with drones weighing ≤750 g in unpopulated private areas. For any other operations (tourism, professional use, near people, in parks), the same permits are required as for Chilean citizens.",
-      "🌋 NATIONAL PARKS AND RESERVES: CONAF (National Forestry Corporation) prohibits drones without a special permit in parks such as Torres del Paine, Lauca, and Isluga Volcano National Park. Chilean Antarctica: special regulations from INACH. Check with each park or reserve before traveling.",
-      "🏔️ RESTRICTED AREAS: Downtown Santiago (La Moneda, Plaza de Armas), SCEL Airport (Pudahuel), military and border zones. Easter Island, Robinson Crusoe Island, Antarctica: additional restrictions. See AIP Chile (ENR 5.1) for a map of prohibited, restricted, and hazardous areas.",
-      "💰 ANNUAL RENEWAL: DGAC registration is valid for 12 months and must be renewed annually. Operating without a valid registration or credential may result in a fine, confiscation of equipment, and a ban on operations."
+      "DUAL REGULATORY FRAMEWORK — DAN 91 (unpopulated areas): every flight requires prior DGAC authorization, case by case (Annex D). DAN 151 (populated areas, public interest or aerial work): registration, credential, insurance and authorization. Only exception: drones ≤750 g made of expanded polyethylene or equivalent material, recreational use, in private places and ≤50 m above the tallest obstacle.",
+      "✈️ FOREIGN TOURISTS: The rules apply equally to non-residents. Without DGAC authorization, only drones ≤750 g made of expanded polyethylene or equivalent material, for recreational use, in private places and ≤50 m above the tallest obstacle are allowed. Any other flight requires prior DGAC authorization; DGAC registration requires a copy of your identity card.",
+      "🌋 PROTECTED AREAS: Recreational or tourist use of drones is not permitted in any State Protected Wild Area (national parks, reserves, natural monuments). CONAF only authorizes flights in justified cases (scientific research, monitoring or other management purposes) via conaf.cerofilas.gob.cl, and DGAC permission is then also required. Antarctica: special regulations from INACH.",
+      "🏔️ RESTRICTED AREAS: No flying over La Moneda (zone SC-P28), military installations, prisons and strategic facilities, or in prohibited, restricted or hazardous areas of the AIP Chile (ENR 5.1) or NOTAM.",
+      "💰 VALIDITY PERIODS: The remote pilot credential lasts 36 months and is revalidated with a new exam (min. 75%); the DAN 151 operating authorization is valid for up to 6 months. Failure to comply with DGAC regulations may result in fines, suspension of operations, confiscation of equipment or criminal liability if aviation safety is endangered."
     ],
     "primaryLinks": [
       {
@@ -40,8 +42,8 @@
         "description": "Chile's Official Aeronautical Information System: NOTAMs, prohibited/restricted/hazardous areas (ENR 5), charts, aerodromes"
       },
       {
-        "title": "RPA Registration Procedure (Official PDF)",
-        "description": "DGAC Official Procedure for New Registration and Regularization of Drones (RPA). Includes Appendix B and forms"
+        "title": "Drone (RPA) Registration — New DGAC Platform",
+        "description": "Online registration in the National RPA Register under DAN 151. Registration does not in itself constitute an authorization to fly."
       }
     ],
     "secondaryLinks": [

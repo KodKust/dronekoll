@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "b05d24f015f2308210145943a215484aa1c49ad8f402e6dfeecc2171445caa3b",
-    "sourceCountriesVersion": 193,
+    "sourceHash": "71ddedd6eadd4ef67c92064fd4d382b6fa87094ff6d0bff888fecfd333d022c5",
+    "sourceCountriesVersion": 254,
     "sourceLastVerified": "2026-05-04",
-    "translatedAt": "2026-07-09",
-    "engine": "deepl"
+    "translatedAt": "2026-09-23",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "Max. 120 m above ground level (EASA Open Category)",
-      "Registration as a UAS operator (free) for drones weighing 250 g or more or equipped with a camera",
-      "Required A1/A3 online training — minimum age 16",
-      "Mandatory registration with DroneTower in controlled airspace zones",
-      "Warsaw: Permission from the State Protection Service (SOP) is required near government facilities",
-      "Always maintain visual line of sight (VLOS) with the drone",
+      "In the open category, the maximum height is 120 m, measured as the distance to the closest point of the Earth's surface — not simply straight down, so near a slope the terrain beside you may also count. Within 50 m of a tall artificial obstacle (over 105 m), the entity responsible for the obstacle may request permission to fly up to 15 m above the obstacle's height.",
+      "You must register as a drone operator if your drone weighs 250 g or more (or could transfer more than 80 J of energy on impact) — this applies even to toys. Below 250 g, registration is still required if the drone has a sensor able to capture personal data, unless it is considered a toy under the EU Toy Safety Directive. Pilot training/certificate requirements are separate and depend on the drone's class and subcategory.",
+      "From 13 November 2025, the operator of a drone with a take-off mass from 250 g to 20 kg must have compulsory third-party liability (OC) insurance (minimum sum insured: the equivalent of 50,000 SDR per occurrence) — also for recreational flights.",
+      "In Poland, since 27 February 2025, the minimum age for the open category is 14; the free online training and exam are valid for 5 years. Younger people may fly under the direct supervision of a pilot aged at least 14 who holds the required competency (exceptions: a C0 toy drone in A1 and a privately built drone below 250 g).",
+      "Every drone flight in Poland — regardless of mass or location — must be reported to PAŻP before take-off via Check-In in the DroneTower app (Art. 156a(2) of the Aviation Law, Prawo lotnicze). In some places, including parts of DRA-R CTR zones around controlled aerodromes, a mission approved by PAŻP is also needed (Kreator Misji KSID on drony.gov.pl) — you then take off only after the TWR controller's acceptance in DroneTower.",
+      "DRA-R CTR zones around controlled aerodromes, open category: closer than 1 km from the aerodrome — no flights; 1–6 km — above 30 m AGL only with A2 competency (drones > 0.9 kg also with an approved mission), maximum 50 m AGL; beyond 6 km — maximum 100 m AGL. In a CTR, at least A1/A3 competency is required (also for drones < 250 g). Different rules apply in the Rzeszów CTR (EPRZ). Check exact boundaries and conditions in DroneTower or DroneMap.",
+      "Warsaw: the city centre is covered by the permanent EPP21 WARSZAWA II zone — drone flights only with the zone manager's permission; check conditions and contact details in DroneTower.",
+      "In the open category, you must keep the drone within your own unaided sight (glasses/contact lenses are fine; binoculars or a screen don't count) — or fly with the help of an observer, maintaining clear and effective communication with each other at all times to jointly scan the airspace and avoid collisions. “Follow-me” mode is a separate exception, allowed up to 50 m from the pilot.",
       "Do not fly over assemblies of people. Rules for uninvolved persons depend on subcategory, class mark and operating conditions; check the official matrix.",
-      "DRA-RM zones (below 6 km, with altitude restrictions) and DRA-RH zones (above 6 km) — check drony.gov.pl",
+      "Restricted DRA-R zones are divided by the likelihood of obtaining permission: DRA-RH (high), DRA-RM (medium), DRA-RL (low) — not by height (ULC President's Guidelines No. 4/2025, Wytyczne nr 4/2025 Prezesa ULC). Check drony.gov.pl before flying in a restricted zone.",
+      "C1, C2 and C3 class drones must fly with remote identification (Remote ID) switched on and up to date, broadcasting the operator number; this does not apply to classes C0/C4, or to drones without a class mark placed on the market before 1 January 2024 or privately built (in A1 below 250 g or in A3).",
       "Night flight is permitted under the EASA open-category baseline when the required green flashing light is used, unless a current geographic zone or national rule imposes a stricter condition.",
-      "National Parks and Natura 2000 Sites: Restrictions Are in Effect"
+      "National parks may be covered by DRA-R geographical zones — flights only with the zone manager's permission; check the zones in DroneTower before flying (this also applies to Natura 2000 sites and nature reserves)."
     ],
     "importantNotes": [
-      "The DroneTower app is required for flight notifications in CTR zones",
-      "Warsaw: SOP approval required near government facilities",
+      "Check-In in the DroneTower app is mandatory before every flight in Poland — not only in CTR zones.",
+      "Warsaw has permanent prohibited zones published in the AIP, including EPP9 WARSZAWA, EPP21 WARSZAWA II (city centre) and EPP26 FRONTEX (a 500 m circle around Frontex headquarters), as well as other geographical zones for drones. Check them and their conditions in DroneTower or DroneMap before flying.",
       "Registration is free and valid in all EU/EASA countries",
-      "Fines of up to 50,000 PLN for violations",
+      "Tourists from outside the EU/EASA (e.g. from the USA or the UK): register as an operator in the first EU country where you plan to fly — if that is Poland, on drony.gov.pl — and display your operator number on the drone. A registration from another EU/EASA country is valid in Poland; you cannot register twice.",
+      "ULC administrative penalties: PLN 4,000 for each breach of open-category rules, PLN 10,000 for flying contrary to geographical zone conditions or for failing to register as an operator; violating flight bans (e.g. for security reasons) is a criminal offence punishable by up to 5 years' imprisonment.",
       "The GDPR applies to the recording of identifiable images"
     ],
     "primaryLinks": [
@@ -32,22 +36,22 @@
         "description": "Official regulations and resources on drones from the Civil Aviation Authority"
       },
       {
-        "title": "ULC — Operator Registration",
-        "description": "Free registration as a UAS operator (valid in all EU/EASA countries)"
+        "title": "drony.gov.pl — Operator Registration",
+        "description": "Free UAS operator registration plus online training and exam (registration valid in all EU/EASA countries)"
       },
       {
         "title": "PANSA — DroneMap",
-        "description": "Official airspace map showing CTRs, restricted zones, and real-time information"
+        "description": "Official airspace map showing CTRs, prohibited zones, and real-time information"
       },
       {
         "title": "DroneTower — Flight Reporting App",
-        "description": "A mandatory app for reporting flights in controlled airspace"
+        "description": "Mandatory app for reporting (Check-In) every drone flight in Poland"
       }
     ],
     "secondaryLinks": [
       {
         "title": "PANSA — NOTAMs",
-        "description": "Active NOTAMs and Temporary Airspace Restrictions"
+        "description": "PAŻP NOTAM Office — NOTAM information for FIR Warszawa; check current drone restrictions in DroneTower"
       },
       {
         "title": "ULC — FAQs About Drones",
@@ -59,6 +63,6 @@
     "sectionLabelPrimary": "OFFICIAL SOURCES",
     "sectionLabelSecondary": "ADDITIONAL RESOURCES",
     "linksSheetTitle": "Airspace and Regulations — Poland",
-    "dronePilotCredentialName": "Drone Pilot Certificate"
+    "dronePilotCredentialName": "Drone Pilot Qualifications"
   }
 }

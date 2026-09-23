@@ -1,28 +1,30 @@
 {
   "meta": {
-    "sourceHash": "b98ef8dd7e9c6b0c530a3757ad835b367dd07af3c65b9dd744c1512f5f5992cd",
-    "sourceCountriesVersion": 193,
+    "sourceHash": "27f497a74725016dcbdecc01ce23d9050fb7893544b864e9bca529e0be6b134f",
+    "sourceCountriesVersion": 254,
     "sourceLastVerified": "2026-04-07",
-    "translatedAt": "2026-07-09",
-    "engine": "deepl"
+    "translatedAt": "2026-09-23",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "Up to 120 m above the ground (EASA Open Category)",
-      "Register as a UAS operator if the drone weighs 250 g or more or is equipped with a camera",
-      "A1/A3 online training is mandatory — minimum age 16",
-      "Mandatory liability insurance for ALL drone weights (coverage of €1–2.5 million)",
-      "Brussels: dual permits required (federal + regional approval)",
-      "Always maintain visual line of sight (VLOS) of the drone",
+      "In the open category the maximum height is 120 m, measured as the distance to the closest point of the Earth's surface — not simply straight down, so near a slope the ground beside you can also count. Within 50 m of a tall artificial obstacle (higher than 105 m), the party responsible for the obstacle can request permission to fly up to 15 m above the obstacle's height.",
+      "You must register as a UAS operator if your drone weighs 250 g or more (or could transfer more than 80 J of kinetic energy in a collision) — this also applies to toys. Below 250 g, registration is still required if the drone has a sensor able to capture personal data, unless it counts as a toy under the EU Toy Safety Directive. Register in the EU/EASA country where you live (if you live outside it: in the first EU/EASA country where you will fly); that registration is valid in all EU/EASA countries. Pilot training/certificate requirements are set separately and depend on the drone's class and subcategory.",
+      "In Belgium the minimum age for subcategories A1/A3 is 14 — the free online training and exam are valid for 5 years and recognised EU-wide. For subcategory A2 the minimum age remains 16. Exceptions to the age-14 limit: no minimum age for a C0 drone that is a toy (EU Toy Safety Directive) in A1, for a privately built drone under 250 g, or under the direct supervision of a pilot aged at least 16 who holds the required certificate.",
+      "Liability insurance (injury and property damage to third parties) is mandatory in the open category, except for drones under 900 g used only privately. From 20 kg, the requirements of Regulation (EC) No 785/2004 apply.",
+      "Foreign pilots: registration and an A1/A3/A2 certificate from another EU member state are valid in Belgium; carry your proof of registration and display your operator number on the drone. Belgian geozones and the Belgian insurance requirement (except private use under 900 g) also apply to you.",
+      "Brussels: in geozone EBR-01 you need prior permission from the institution concerned to fly over or within 50 m of embassies and federal and international (including EU) institutions. Also check the Brussels Airport CTR conditions on Droneguide and the municipal rules if you want to take off from or film in a public place.",
+      "In the open category you must keep the drone within your own line of sight, with the naked eye (glasses/contact lenses are fine; binoculars or a screen do not count) — or fly with the help of an observer, with the two of you communicating clearly and effectively at all times, so that together you can monitor the airspace and avoid collisions. Follow-me mode in subcategory A1 is a separate exception, permitted up to 50 m from the pilot.",
+      "Drones without a class label (placed on the market before 2024): under 250 g in A1, otherwise only in A3 and max. 25 kg (min. 150 m from residential, commercial, industrial or recreational areas). Without a class label and placed on the market after 31-12-2023: not in the open category.",
       "Do not fly over assemblies of people. Rules for uninvolved persons depend on subcategory, class mark and operating conditions; check the official matrix.",
-      "At least 3 km away from airports and heliports",
+      "There is no uniform EU-wide distance from airports; the shape and size of geozones differ per airport. Geozones apply in a Belgian CTR (see Droneguide): in VLL 0 around the runways the open category is prohibited; in VLL 1 and VLL 2 max. 150 ft (approx. 45 m) above the ground (in VLL 1 also no higher than the highest obstacle within 100 m). VLL 1: prior permit required; VLL 2: notify the flight at least 3 hours in advance. Apply via the skeyes DAA-planner; staying reachable by phone, geo-awareness and Remote ID are mandatory (Remote ID not for C0 and certain drones under 250 g).",
       "Night flight is permitted under the EASA open-category baseline when the required green flashing light is used, unless a current geographic zone or national rule imposes a stricter condition.",
       "Check Droneguide for zone-specific altitude limits and restrictions"
     ],
     "importantNotes": [
-      "Mandatory insurance for ALL drone weights — coverage of €1–2.5 million required",
-      "Brussels requires both federal registration AND regional authorization",
-      "Three airports (Brussels, Charleroi, Liège) are establishing large restricted zones",
+      "Liability insurance mandatory, except for private use with drones under 900 g",
+      "Brussels (geozone EBR-01): flying over or within 50 m of embassies, federal government institutions and international institutions only with prior permission from the institution concerned",
+      "The controlled airports (Brussels, Antwerp, Charleroi, Liège, Ostend) and military airfields have CTR geozones with strict conditions; Kortrijk-Wevelgem has an RMZ/TMZ geozone.",
       "Fines and criminal prosecution may result from violations",
       "The GDPR applies when creating images that depict identifiable individuals"
     ],
@@ -46,15 +48,15 @@
     ],
     "secondaryLinks": [
       {
-        "title": "skeyes — Air Traffic Control",
-        "description": "Belgian Air Traffic Controller and Airspace Information"
+        "title": "skeyes — Drones and geozones",
+        "description": "Drone page of the Belgian air traffic controller: conditions for flying in geozones and the DAA-planner"
       },
       {
         "title": "BCAA — Drone FAQ",
         "description": "Frequently Asked Questions About Drone Regulations in Belgium"
       }
     ],
-    "disclaimerText": "Always check the official BCAA sources and Droneguide before flying. This app is a tool—not a legal authority. Belgium follows EASA regulations, which include strict national insurance requirements.",
+    "disclaimerText": "Always check the official BCAA sources and Droneguide before flying. This app is a tool — not a legal authority. Belgium follows EASA regulations, supplemented by national rules (including mandatory insurance and fixed geographical zones).",
     "sectionLabelRules": "KEY RULES (EASA OPEN CATEGORY)",
     "sectionLabelPrimary": "OFFICIAL SOURCES",
     "sectionLabelSecondary": "ADDITIONAL RESOURCES",

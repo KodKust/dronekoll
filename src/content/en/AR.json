@@ -1,31 +1,33 @@
 {
   "meta": {
-    "sourceHash": "64c56f7cd237868e12b4a9acebacfc1c7ed47d9c27e97af77b28d123a7822c74",
-    "sourceCountriesVersion": 193,
+    "sourceHash": "9cca66a7c2aad0d0dc5edac3e33625910a5e790c5cdccb45c10be1fbd9252627",
+    "sourceCountriesVersion": 254,
     "sourceLastVerified": "2026-05-04",
-    "translatedAt": "2026-07-09",
-    "engine": "deepl"
+    "translatedAt": "2026-09-23",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
       "Maximum altitude: 122 m (400 ft) above ground level in the Open Category (uncontrolled airspace)",
-      "Near airports (≤5 km): maximum height 43 m without prior authorization from the air navigation service provider",
-      "Minimum distance of 5 km from airports and airfields without authorization",
-      "Minimum distance of 500 m from heliports",
-      "A safe distance from people and buildings not involved",
+      "Open Category: flying within aerodrome control zones (CTR) is prohibited. In controlled airspace, within 5 km of runway thresholds: maximum 43 m and never in the approach or take-off surfaces; greater height requires authorization from the air navigation service provider.",
+      "Heliports: flying within 1 nautical mile (1.85 km) of the reference point (HRP) is prohibited; between 1 and 2 nautical miles, maximum 150 ft (46 m) above the heliport, unless coordinated in advance.",
+      "Flying is prohibited over military, security or prison facilities and within 1 nautical mile (1.85 km) of them; over refineries, power plants or fuel depots without the owner's permission; and within 25 m (vertically or laterally) of high-voltage power lines.",
+      "You must keep a safe distance from people and buildings not involved in the operation.",
       "Always keep the drone within direct line of sight (VLOS) in the Open Category",
-      "Flight permitted only during the day — night flights require specific authorization",
-      "Drones weighing less than 250 g: exempt from registration and licensing (Resolution 550/2025)",
-      "Drones weighing ≥250 g: mandatory registration with TAD (ANAC) — no pilot license required in the Open Category",
+      "Piloting or acting as an observer within 8 hours of consuming alcohol or under the influence of psychoactive substances is prohibited.",
+      "Night flights: ANAC Res. 312/2026 (May 2026) removed the general restriction in RAAC 100; ANAC's guidance still lists night operations as Specific Category — check with ANAC before flying at night.",
+      "Drones weighing less than 250 g are exempt from registration, licensing and mandatory insurance (Resolution 550/2025, August 2025). Drones from 250 g to 25 kg do not require a pilot license, but must be registered digitally with ANAC in the Casillero Aeronáutico Digital (CAD).",
+      "Drones weighing ≥250 g: mandatory registration with CAD (ANAC) — no pilot license required in the Open Category",
       "Operations in a Specific Category (25–150 kg or urban flights/BVLOS): require a pilot license, medical certification, and a commercial operator certificate",
-      "The Open Category allows drones weighing less than 25 kg without prior authorization (no weight limit in rural areas)"
+      "The Open Category allows drones from 250 g to less than 25 kg without prior authorization (rotary-wing drones with no weight limit only in rural areas, outside CTRs and restricted airspace)"
     ],
     "importantNotes": [
-      "📜 NEW 2025 FRAMEWORK: ANAC Resolution 550/2025 (effective as of August 2025) replaces Resolution 880/2019. It establishes three categories: operations without prior authorization, Open Category, and Specific Category. RAAC Part 100/101/102.",
-      "✈️ FOREIGN TOURISTS: Drones weighing 250 g or more must be registered with TAD before their first flight (Resolution 550/2025). Registration is done online; an Argentine ID or passport is required. Drones weighing less than 250 g—such as the DJI Mini, Flip, etc.—are exempt from registration and licensing.",
-      "🌳 NATIONAL PARKS AND PROTECTED AREAS: The APN (National Parks Administration) prohibits drones without a special permit in parks such as Iguazú, Nahuel Huapi, Los Glaciares, and Tierra del Fuego. Check with each park before flying.",
-      "🏛️ URBAN AND RESTRICTED AREAS: Buenos Aires (Jorge Newbery Airport, Casa Rosada, Congress), Ezeiza (Ministro Pistarini), and military zones are no-fly zones. Aerolíneas Argentinas and downtown areas have permanent restrictions—check the AIP.",
-      "💰 PENALTIES: Violations may result in significant fines, confiscation of equipment, and, in serious cases, criminal liability. Liability insurance is required for commercial use."
+      "📜 NEW FRAMEWORK: ANAC Resolution 550/2025 (effective as of August 2025, amended by Res. 312/2026) replaces Resolution 880/2019. It establishes three categories: Open, Specific and Certified. RAAC Part 100/101/102.",
+      "Drones weighing 250 g or more must be registered with ANAC in the Casillero Aeronáutico Digital (CAD) before their first flight — registration is free, online and requires a DNI or passport. Drones weighing less than 250 g (e.g. DJI Mini or Flip) are exempt from registration and licensing (Resolution 550/2025).",
+      "Tourists: a valid registration certificate for that drone issued by the civil aviation authority of another ICAO State is accepted (RAAC 100.05); an operator-only registration may not be enough. If your drone is not registered, complete the free digital sworn statement (Declaración Jurada) with ANAC using your passport.",
+      "🌳 NATIONAL PARKS AND PROTECTED AREAS: the APN prohibits recreational and sporting use of drones in all its protected areas (APN Res. 9/2021), such as Iguazú, Nahuel Huapi, Los Glaciares or Tierra del Fuego. Professional or scientific use requires prior authorization from the APN.",
+      "🏛️ RESTRICTED AREAS: flying is prohibited over the Casa Rosada, the Quinta de Olivos, public buildings and embassies, within 1 nautical mile of military facilities and within the control zones of airports such as Aeroparque and Ezeiza — check the AIP.",
+      "💰 PENALTIES: violations are penalized under the Reglamento General de Infracciones de la Aviación Civil, without prejudice to civil or criminal liability. Insurance is mandatory in the Specific and Certified Categories (voluntary in the Open Category)."
     ],
     "primaryLinks": [
       {
@@ -33,8 +35,8 @@
         "description": "Official website of the National Civil Aviation Administration on drones (VANT/SVANT): new regulatory framework—Resolution 550/2025, categories, and operational requirements"
       },
       {
-        "title": "Drone Registration (TAD)",
-        "description": "Mandatory registration system for drones weighing more than 500 g via the Trámites a Distancia (TAD) platform. Class A (≤500 g) recreational use is exempt."
+        "title": "Drone Registration (CAD)",
+        "description": "Free digital sworn statement (Declaración Jurada) for drones from 250 g to 25 kg in ANAC's Casillero Aeronáutico Digital (CAD); a digital Registration Certificate is issued. Drones under 250 g are exempt."
       },
       {
         "title": "AIP — Publication of Aeronautical Information",
@@ -51,7 +53,7 @@
         "description": "Air Operator Certificate for commercial drone operations. Required for Specific Category and professional flights"
       },
       {
-        "title": "Certification as a Remote Crew Member (Pilot)",
+        "title": "Authorization as a Remote Crew Member (Pilot)",
         "description": "Procedure for Obtaining Authorization as a Remote Pilot. Exams and Requirements for Professional Certification"
       },
       {
@@ -59,11 +61,11 @@
         "description": "ANAC's Official Summary of the New Regulatory Framework for Drones Following Resolution 550/2025: Key Changes and Categories"
       }
     ],
-    "disclaimerText": "Always check ANAC's official sources before flying. This app is a tool, not a legal authority. Argentina enforces ANAC Resolution 550/2025 (RAAC Part 100/101/102), effective as of August 2025.",
+    "disclaimerText": "Always check ANAC's official sources before flying. This app is a tool, not a legal authority. Argentina enforces ANAC Resolution 550/2025 (RAAC Part 100/101/102), effective as of August 2025 and amended by ANAC Resolution 312/2026.",
     "sectionLabelRules": "KEY RULES",
     "sectionLabelPrimary": "OFFICIAL SOURCES",
     "sectionLabelSecondary": "ADDITIONAL RESOURCES",
     "linksSheetTitle": "Airspace and Regulations — Argentina",
-    "dronePilotCredentialName": "UAV Pilot Certificate"
+    "dronePilotCredentialName": "Remote Pilot License (RPA)"
   }
 }

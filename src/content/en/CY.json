@@ -1,30 +1,34 @@
 {
   "meta": {
-    "sourceHash": "a1e69adb928a29b23e35f851c7f189c239b934c116c4c5c3bb8ff4997785f369",
-    "sourceCountriesVersion": 193,
+    "sourceHash": "8d3736758eabe09f115c22b261f62052d660fd07794af65c1d39b8fa76ca192b",
+    "sourceCountriesVersion": 254,
     "sourceLastVerified": "2026-05-04",
-    "translatedAt": "2026-07-09",
-    "engine": "deepl"
+    "translatedAt": "2026-09-23",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "Maximum 120 m above the ground (EASA Open Category)",
-      "Registration as a UAS operator (15 € / 3 years), if the drone weighs 250 g or more or has a camera",
-      "A1/A3 online training is required – minimum age 16",
+      "In the open category, the maximum height is 120 m, measured as the distance from the closest point of the Earth's surface — not just straight down, so near a slope the ground beside you may also count. Within 50 m of a tall artificial obstacle (over 105 m), the entity responsible for the obstacle may request permission to fly up to 15 m above the obstacle's height.",
+      "You must register as a drone operator if your drone weighs 250 g or more (or could transfer more than 80 J of kinetic energy on impact) — this applies even to toys. Below 250 g, registration is still required if the drone has a sensor able to capture personal data, unless it qualifies as a toy under the EU Toy Safety Directive. Pilot training/certificate requirements are separate and depend on the drone's class and subcategory.",
+      "Mark your operator registration number indelibly on each of your drones and upload it to the remote identification system (if fitted). Operator registration is from age 18 — for younger people, a responsible person (e.g. a parent or guardian) can register.",
+      "Drones placed on the market after 01/01/2024 without a class label (C0–C6) may not fly in the open category — only in the specific category, with an operational authorisation.",
+      "The minimum age for flying independently in the open category is 16 — the A1/A3 online training (9 modules, 40-question exam, cost 15 euros) is valid for 5 years and recognised throughout the EU. Below this age, flying is permitted only under the direct supervision of a certified pilot.",
+      "Visitors from non-EU countries: if Cyprus is the first EU country where you fly, operator registration (where required) is done with the Cyprus DCA (15 €, minimum age 18); if you have already flown in another EU country, you do not register again. For the A1/A3 subcategories you need an A1/A3 pilot certificate issued by an EU country (online training and exam, 15 €); for a C0 drone (<250 g) the exam is not mandatory.",
       "Night flight is permitted under the EASA open-category baseline when the required green flashing light is used, unless a current geographic zone or national rule imposes a stricter condition.",
-      "8-km safety zone around airports",
-      "Minimum distance of 1 km from residential areas (applies mainly to Category A3—stricter requirements for heavier drones)",
-      "Always maintain visual line of sight (VLOS) with the drone",
+      "Larnaca and Paphos airports: in Zone A (red) all drone flights are prohibited; in Zone B (yellow) only with DCA permission (apply at least 10 working days in advance, third-party liability insurance 1,000,000 €). The DCA asks visitors to keep a distance of at least 8 km from airports and heliports.",
+      "Minimum distance of 150 m from residential, commercial or industrial areas (category A3)",
+      "In the open category, keep the drone within your direct visual line of sight, with the naked eye (glasses/contact lenses are allowed; binoculars or a screen do not count) — or with the help of an observer, with clear and effective communication between you at all times, so that together you monitor the airspace and avoid collisions. \"Follow-me\" mode is a separate exception, permitted up to 50 m from the pilot.",
       "Do not fly over assemblies of people. Rules for uninvolved persons depend on subcategory, class mark and operating conditions; check the official matrix.",
+      "British Bases (Akrotiri, Dhekelia): separate administration with its own drone legislation, its own registration form and maps of designated areas — check sbaadministration.org before flying there.",
       "Northern Cyprus (TRNC): separate jurisdiction – different rules",
-      "UN No-Fly Zone: Total Flight Ban"
+      "UN Dead Zone: no activity without prior approval from UNFICYP — do not fly there."
     ],
     "importantNotes": [
       "Night flight is permitted under the EASA open-category baseline when the required green flashing light is used, unless a current geographic zone or national rule imposes a stricter condition.",
-      "A 1-kilometer distance from residential areas is very restrictive on a small island",
-      "The 8-kilometer safety zones around airports cover a large part of the island",
+      "Around Larnaca and Paphos airports: in Zone A (red) drone flights are prohibited, in Zone B (yellow) only with DCA permission.",
+      "The preinstalled geozone map on most DJI drones is not the correct one for Cyprus; for class C1, C2, C3, C5, C6 drones, load the official DCA geozone file (drones.gov.cy).",
       "Northern Cyprus (TRNC) is a separate jurisdiction with different rules",
-      "The UN Dead Zone is a strict no-fly zone"
+      "UN Dead Zone: no activity without prior approval from UNFICYP — do not fly there."
     ],
     "primaryLinks": [
       {
@@ -33,7 +37,7 @@
       },
       {
         "title": "DCAD – Operator Registration",
-        "description": "Registration as a UAS pilot (15 € / 3 years, valid in all EU/EASA countries)"
+        "description": "Registration as a UAS operator (15 € / 3 years, valid in all EU/EASA countries)"
       },
       {
         "title": "drones.gov.cy – Map of Geozones",
@@ -54,8 +58,8 @@
         "description": "Information about Larnaca and Paphos Airports"
       }
     ],
-    "disclaimerText": "Before every flight, always check the official sources of the DCA Cyprus and drones.gov.cy. This app is a tool—not a legal authority. Cyprus follows EASA regulations with strict national additions, such as a ban on night flights.",
-    "sectionLabelRules": "BASIC RULES (EASA OPEN CLASS)",
+    "disclaimerText": "Before every flight, always check the official sources of the DCA Cyprus and drones.gov.cy. This app is a tool—not a legal authority. Cyprus follows EASA regulations, with national geographic zones (Κ.Δ.Π. 190/2024, as amended).",
+    "sectionLabelRules": "BASIC RULES (EASA OPEN CATEGORY)",
     "sectionLabelPrimary": "OFFICIAL SOURCES",
     "sectionLabelSecondary": "ADDITIONAL RESOURCES",
     "linksSheetTitle": "Airspace and Regulations — Cyprus",

@@ -174,7 +174,9 @@ export const EnOverlaySchema = z.object({
     // Vitlista — ny översättningsmotor ska läggas till MEDVETET, så proveniensen
     // aldrig kan bli en gissning i efterhand. 'opus-5' tillkom 2026-07-25 när
     // matriscellerna översattes om efter v8-svansens regelrättningar.
-    engine: z.enum(['deepl', 'manual', 'opus-4-8', 'opus-5', 'gpt-5.6']),
+    // 'opus-5-5' tillkom 2026-09-23: källförvaltningens 36 länder — ändrade rader
+    // översatta och oberoende granskade (dronarkartan 1aac231, LOGG Fas 580).
+    engine: z.enum(['deepl', 'manual', 'opus-4-8', 'opus-5', 'opus-5-5', 'gpt-5.6']),
     sourceLang: z.string().nullish(),
     // v8-revision L10N-04: ärlig proveniens. reviewLevel är den enda källan
     // som UI får lita på för att påstå granskningsgrad. FRÅNVARO = icke-native

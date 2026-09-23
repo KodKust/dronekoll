@@ -1,29 +1,36 @@
 {
   "meta": {
-    "sourceHash": "554dcb2ca7172e65f382ee60023e605b64f419f74a40862fa094a3c138b1853d",
-    "sourceCountriesVersion": 193,
+    "sourceHash": "dffaad15a571e359fb1ed462806f7dd69c5c983c8a5aea73cf0df596497c54f0",
+    "sourceCountriesVersion": 254,
     "sourceLastVerified": "2026-05-04",
-    "translatedAt": "2026-07-09",
-    "engine": "deepl"
+    "translatedAt": "2026-09-23",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "A maximum of 120 m above ground level (EASA Open Category)",
-      "Register as a UAS operator if your drone weighs 250 g or more or is equipped with a camera",
-      "A1/A3 online training required – minimum age 16",
-      "Mandatory civil liability insurance for drones weighing more than 1.5 kg; The minimum coverage depends on weight—250–1,500 g: €150,000; 1,501–5,000 g: €500,000; >5 kg: €1,000,000",
-      "It is prohibited to fly over bridges, railroads, highways, and power lines",
-      "Always maintain line-of-sight (VLOS)",
+      "In the open category, the maximum height is 120 m, measured as the distance to the closest point on the ground surface — not only straight down, so near a slope the ground alongside may also count. Within 50 m of a tall artificial obstacle (over 105 m), the entity responsible for the obstacle may request permission to fly up to 15 m above the obstacle's height.",
+      "You must register as a drone operator if your drone weighs 250 g or more (or could transfer more than 80 J of kinetic energy in a collision) — this also applies to toys. If it weighs less than 250 g, registration is still required if the drone has a sensor able to capture personal data, unless it is considered a toy under the EU Toy Safety Directive. Pilot training/certificate requirements are separate and depend on the drone's class and subcategory.",
+      "You must register as a UAS operator in your EU country of residence (if you live outside the EU — in the first EU country where you fly); registration is valid throughout the EU, and registering in two countries at the same time is not allowed. In Latvia, registration costs 5 € and is valid for 1 year. Each drone must be marked with the UAS operator number.",
+      "A drone from 250 g requires the A1/A3 online course and exam. Since 2024, drones without a C class mark and weighing 250 g or more may only fly in the A3 subcategory — far from uninvolved persons and at least 150 m from residential, commercial, industrial and recreational areas.",
+      "In Latvia, the minimum age for flying independently is 16; younger pilots may only fly under the direct supervision of a qualified remote pilot aged at least 16, or with a class C0 drone designed as a toy.",
+      "Class C1, C2 (and C3) drones must fly with active direct remote identification (Remote ID) with your UAS operator number entered.",
+      "Civil liability insurance is mandatory, except for drones with a mass under 250 g and a maximum speed under 19 m/s. Minimum limit: in the A1 and A2 subcategories — 50,000 €; for drones from 20 kg and in the specific category — 750,000 SDR (Regulation (EC) No 785/2004).",
+      "There is no general ban, but UAS geographical zones may be established over state roads, bridges, railway facilities and 110/330 kV power lines (up to 50 m from them) — check airspace.lv. Avoid flying over people, traffic, buildings and engineering structures whenever possible.",
+      "Filming or photographing critical infrastructure objects bearing the sign „BEZ SASKAŅOŠANAS FOTOGRAFĒT, FILMĒT AIZLIEGTS“ is prohibited.",
+      "In the open category, you must keep the drone within your direct visual line of sight without aids (glasses/contact lenses are allowed; binoculars or a screen do not count) — or fly with the help of an observer, maintaining clear and effective mutual communication at all times so that together you can monitor the airspace and avoid collisions. “Follow-me” mode is a separate exception, permitted up to 50 m from the pilot.",
       "Do not fly over assemblies of people. Rules for uninvolved persons depend on subcategory, class mark and operating conditions; check the official matrix.",
-      "At least 5 km away from any airport or airfield",
+      "There is no single EU-wide distance to keep from airports. Restrictions near airports are published as geographical zones (Article 15), whose shape and size vary from airport to airport. Before flying near an airport, airfield or heliport, check your country's official drone zone map; flying in a control zone (CTR) usually requires prior air traffic control permission.",
+      "In Latvia, since 1 January 2025, flights in UAS geographical zones that require flight notification or approval must be notified before the flight in the CAA Unmanned Aircraft Information System BGKIS (e.caa.gov.lv); operators registered in another EEA country or in Switzerland can also create a BGKIS account. Approval in zones around aerodromes can take up to 5 working days (up to 30 days if the flight plan has to be changed).",
       "Night flight is permitted under the EASA open-category baseline when the required green flashing light is used, unless a current geographic zone or national rule imposes a stricter condition.",
-      "The Riga Airport CTR covers a significant area"
+      "The Riga CTR covers a large part of Riga. Without separate approval, flying is permitted below 50 m above ground and more than 5 km from the thresholds of runways 18 and 36 with a drone up to 2 kg; a drone over 2 kg requires additional qualification (e.g. an A2 certificate of competency). Higher than 50 m or within the 5 km zone around the runway thresholds, each flight must be approved in advance with VAS „Latvijas gaisa satiksme“.",
+      "At the request of the police, CAA, border guard or another official, stop the flight immediately and present an identity document – carry it with you.",
+      "A remote pilot or observer whose blood alcohol concentration exceeds 0.2 ‰ or who is under the influence of intoxicating substances may be fined up to 700 €; refusing a test is prohibited. Fines: up to 700 € (e.g. for flying without mandatory insurance), up to 1,000 € for violating the permitted height or aerodrome zone requirements."
     ],
     "importantNotes": [
-      "Insurance depends on the drone's weight — 250–1,500 g: €150,000; 1,501–5,000 g: €500,000; >5 kg: €1,000,000",
-      "Flying over bridges, railroads, highways, and power lines is strictly prohibited",
+      "Insurance mandatory, except drones < 250 g with max. speed < 19 m/s; minimum A1/A2 — 50,000 €, from 20 kg and in the specific category — 750,000 SDR",
+      "UAS geographical zones may apply over bridges, railways, state roads and 110/330 kV power lines (up to 50 m) — check airspace.lv",
       "The Riga Airport CTR constitutes a large restricted area",
-      "There may be additional restrictions in the border areas with Russia and Belarus",
+      "Along the Belarus and Russia border there is the restricted area EVR17A BORDER EAST (from ground to 500 ft, active H24). Drone flights in it (including < 250 g) are only permitted with authorisation from the State Border Guard Aviation and Special Operations Department, which must be obtained at least 24 hours before the planned flight day (documents must be submitted at least 32 hours in advance).",
       "The GDPR applies to the filming and photographing of identifiable individuals"
     ],
     "primaryLinks": [
@@ -50,7 +57,7 @@
         "description": "Latvian Air Traffic Services and Airspace Information"
       },
       {
-        "title": "CAA Latvia – Drone BUJ",
+        "title": "CAA Latvia – Drone FAQ",
         "description": "Frequently Asked Questions About Drone Regulations in Latvia"
       }
     ],

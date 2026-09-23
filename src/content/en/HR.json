@@ -1,30 +1,34 @@
 {
   "meta": {
-    "sourceHash": "787b0ffdb58f4e659dab084b584504eae2d084cddcc8121e3000d9d4781ddb6e",
-    "sourceCountriesVersion": 193,
+    "sourceHash": "64708e9a3d82a3a709ddda077adb46fb41b25644e94f27236ce2d35379ac40be",
+    "sourceCountriesVersion": 254,
     "sourceLastVerified": "2026-04-07",
-    "translatedAt": "2026-07-09",
-    "engine": "manual"
+    "translatedAt": "2026-09-23",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "Maximum 120 m above ground level (EASA Open category)",
-      "Registration as a UAS operator (~€3) for drones of 250 g+ or with a camera",
-      "Mandatory A1/A3 online training — minimum age 16",
-      "Mandatory third-party liability insurance — minimum coverage €1,000,000",
-      "Banned in national parks: Plitvice Lakes, Krka, Paklenica — drone flying is not permitted",
-      "Always maintain visual contact with the drone (VLOS)",
+      "Every drone flight in Croatia must be approved in advance via AMC (establishment of an ad hoc airspace structure) — for all drones regardless of mass. You must first register a user account on the AMC Portal (wait for it to be processed). Up to 120 m outside a CTR and up to 50 m inside a CTR (outside the zones around aerodromes and temporary no-fly zones), approval is granted automatically on the day of the flight in the AMC Portal Mobile app; in other cases through the regular procedure (request 7 days in advance).",
+      "In the open category, the maximum height is 120 m, measured as the distance to the closest point of the earth's surface — not simply straight down, so near a slope the ground beside you may also count. Within 50 m of a tall artificial obstacle (taller than 105 m), the entity responsible for that obstacle may request permission to fly up to 15 m above the obstacle's height.",
+      "You must register as a drone operator if your drone weighs 250 g or more (or could transfer more than 80 J of kinetic energy on impact) — this applies even to toys. Below 250 g, registration is still mandatory if the drone has a sensor capable of capturing personal data, unless it is considered a toy under the EU Toy Safety Directive. Pilot training/certificate requirements are separate and depend on the drone's class and subcategory.",
+      "The minimum age for flying alone in the open category is 16 — the A1/A3 online training and exam are valid for 5 years and recognised throughout the EU. Younger pilots may only fly under the direct supervision of a certified pilot.",
+      "Third-party liability insurance (at least 750,000 SDR, Regulation (EC) 785/2004) is mandatory when you carry out aerial work with a drone — according to the CCAA this also includes photography and filming for private purposes. For purely recreational flying without aerial work (drone up to 20 kg) it is not mandatory.",
+      "Protected natural areas (national parks, nature parks, etc.): drone flights only with prior approval from the public institution that manages the area. In Plitvice Lakes NP and Krka NP, drone filming is prohibited, except exceptionally with the Institution's approval.",
+      "In the open category, you must keep the drone in direct line of sight with the naked eye (glasses/contact lenses are fine; binoculars or a screen don't count) — or with the help of an observer, with clear and effective communication between you at all times, so that together you can watch the airspace and avoid collisions. Follow-me mode is a separate exception, permitted up to 50 m from the pilot.",
       "Do not fly over assemblies of people. Rules for uninvolved persons depend on subcategory, class mark and operating conditions; check the official matrix.",
-      "At least 5 km from any airport or airfield",
+      "In Croatia, the zones around aerodromes are set nationally (NN 20/2023, Art. 4): within 1,500 m of the fence of a controlled aerodrome and 500 m laterally of the approach axis up to 3,500 m from the threshold, flight is conditionally prohibited (approval only exceptionally, through the regular procedure). In the rest of the control zone (CTR), approval up to 50 m above ground is granted automatically in the AMC Portal Mobile app, and above 50 m only through the regular procedure. Near an uncontrolled aerodrome (1,500 m from its edges, 500 m laterally of the approach axis up to 2,500 m from the threshold), prior consent from the aerodrome operator is required. Before flying near an airport, airfield or heliport, check the official drone zone map.",
       "Night flight is permitted under the EASA open-category baseline when the required green flashing light is used, unless a current geographic zone or national rule imposes a stricter condition.",
-      "Coastal areas during summer: additional restrictions possible"
+      "Do not fly near fires or emergency response sites – a drone in the operating area of firefighting aircraft endangers firefighting. Temporary no-fly zones (e.g. matches, events) are published on the AMC Portal."
     ],
     "importantNotes": [
-      "National parks (Plitvice, Krka, Paklenica) strictly prohibit all drones",
-      "Mandatory insurance with minimum coverage of €1,000,000",
-      "Registration is very affordable (~€3) and valid across the entire EU",
+      "National parks, nature parks and other protected areas: drone flights only with approval from the public institution that manages them; at Plitvice and Krka, drone filming is prohibited except exceptionally with the Institution's approval",
+      "Liability insurance (at least 750,000 SDR) is mandatory when you carry out aerial work — including photography and filming for private purposes",
+      "Operator registration is valid across the entire EU",
       "Dubrovnik old town: expect drone restrictions",
-      "GDPR applies when filming identifiable people"
+      "GDPR applies when filming identifiable people",
+      "Aerial imaging may require approval from the State Geodetic Administration (Uredba o snimanju iz zraka, NN 77/20) – check dgu.gov.hr before filming.",
+      "Report a serious injury to a person or a dangerous approach to a crewed aircraft to HACZ within 72 hours (Aviation Reporting portal).",
+      "Violations are penalised under the Air Traffic Act (Zakon o zračnom prometu) – fines from 700 € upwards and revocation of registration."
     ],
     "primaryLinks": [
       {
@@ -33,15 +37,15 @@
       },
       {
         "title": "CCAA — Operator registration",
-        "description": "Register as a UAS operator (~€3, valid in all EU/EASA countries)"
+        "description": "Register as a UAS operator (valid in all EU/EASA countries)"
       },
       {
         "title": "AMC Portal — Airspace map",
         "description": "Croatia Control's airspace management and drone-zone map"
       },
       {
-        "title": "CCAA — Rules overview",
-        "description": "Overview of the rules for flying drones in Croatia"
+        "title": "CCAA — Rules for foreign pilots",
+        "description": "What you need to know if you are temporarily flying a drone in Croatia (CCAA page in English)"
       }
     ],
     "secondaryLinks": [
@@ -54,7 +58,7 @@
         "description": "Frequently asked questions about drone regulations in Croatia"
       }
     ],
-    "disclaimerText": "Always check the official CCAA sources and the AMC Portal before flying. This app is a tool — not a legal authority. Croatia follows EASA regulations with national additions, including bans in national parks.",
+    "disclaimerText": "Always check the official CCAA sources and the AMC Portal before flying. This app is a tool — not a legal authority. Croatia follows EASA regulations with national additions, including approval for flights in protected natural areas.",
     "sectionLabelRules": "KEY RULES (EASA OPEN CATEGORY)",
     "sectionLabelPrimary": "OFFICIAL SOURCES",
     "sectionLabelSecondary": "ADDITIONAL RESOURCES",

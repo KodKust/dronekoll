@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "000b9bfb30fd5dc95150d4d75572729ea894e9cb117bc556495e8105d1de0bf6",
-    "sourceCountriesVersion": 193,
+    "sourceHash": "49588a835cca5391d11c172e7550ef7ac8f76a3c7fe6c69b2398693532352902",
+    "sourceCountriesVersion": 254,
     "sourceLastVerified": "2026-05-04",
-    "translatedAt": "2026-07-09",
-    "engine": "deepl"
+    "translatedAt": "2026-09-23",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "Maximum 120 m above ground level (EASA Open Category)",
-      "Registration via the D-Flight portal: Basic subscription €7/year (PRO €28/year) + mandatory QR code on each drone (Base €7/UAS; the first one is included with the initial subscription)",
-      "Mandatory A1/A3 Online Training — Minimum age: 16",
-      "Mandatory liability insurance — minimum 750,000 SDR (Special Drawing Rights)",
+      "In the open category, the maximum height is 120 m, measured as the distance from the closest point of the Earth's surface — not simply straight down, so near a slope the ground beside you can also count. Within 50 m of a tall artificial obstacle (over 105 m), the entity responsible for the obstacle may request authorisation to fly up to 15 m above the obstacle's height.",
+      "Registration in Italy via the D-Flight portal (except for the exemptions listed below): Basic subscription €7/year (PRO €28/year) + mandatory QR code on each drone (Base €7/UAS; the first one is included with the initial subscription)",
+      "Exempt: toy drones (Directive 2009/48/EC) do not require registration, a certificate or insurance; drones under 250 g without a camera or microphone do not require registration.",
+      "Foreign pilots: operator registration is valid in all EU countries and in Switzerland. If you are already registered in your own EU country, you do not need to register on D-Flight: just display your operator number on the drone. Residents outside the EU (including the United Kingdom) register in the first EU country they intend to visit.",
+      "In Italy, the minimum age to fly in A1/A3 is 16; minors (aged 16-17) need the consent of a parent or legal guardian to register on the ENAC portal. The online certificate (40 questions) is valid for 5 years.",
+      "Third-party liability insurance is mandatory for all drones (including under 250 g and for recreational use), except toy drones (Dir. 2009/48/EC) — minimum coverage 750,000 SDR, under Art. 27 of the Regolamento UAS-IT and Art. 1015 of the Codice della Navigazione.",
       "Rome and Vatican City: Extensive No-Fly Zones",
-      "Always keep the drone within visual line of sight (VLOS)",
-      "Do not fly over assemblies of people. Rules for uninvolved persons depend on subcategory, class mark and operating conditions; check the official matrix.",
-      "A minimum distance of 5 km from any airport or airfield",
-      "Night flight is permitted under the EASA open-category baseline when the required green flashing light is used, unless a current geographic zone or national rule imposes a stricter condition.",
-      "Historic sites and archaeological areas may be subject to additional restrictions"
+      "In the open category, you must keep the drone within your direct visual line of sight, with the naked eye (glasses/contact lenses are fine; binoculars or a screen do not count) — or fly with the help of an observer, maintaining clear and effective communication between you at all times so that you can jointly monitor the airspace and avoid collisions. \"Follow-me\" mode is a separate exception, permitted up to 50 m from the pilot.",
+      "Do not fly over assemblies of people. Rules for uninvolved persons depend on subcategory, class mark and operating conditions; check the official table.",
+      "There is no single distance from airports: aerodrome geographical zones (ENAC Circular ATM-09A) are published on D-Flight. In the open category, flying is prohibited inside these zones, which start at a different height depending on their colour (red 0 m, orange 25 m, yellow 45 m); in the rest of ATZs and CTRs the zone normally starts at 60 m. Below these heights you may fly without an airspace reservation; to fly inside the zones you need the specific category with clearance from ENAC or the Aeronautica Militare.",
+      "Night flight is permitted under the EASA open-category baseline, provided that the required green flashing light is used, unless a national rule or a rule for a specific geographical zone imposes stricter conditions.",
+      "Historic sites and archaeological areas may be subject to additional restrictions",
+      "Nature parks: flying over them is prohibited where the ENAC-approved ban is published on D-Flight; to fly there you need clearance from the park authority (Ente Parco).",
+      "Drones with a C1, C2 or C3 class mark: direct remote identification and geo-awareness must be active and up to date."
     ],
     "importantNotes": [
-      "D-Flight Subscription: Basic €7/year (PRO €28/year for a specific category). The first Basic QR Code is included with initial activation; additional Basic QR Codes cost €7 per UAS (PRO €112 per UAS).",
+      "D-Flight subscription: Basic €7/year (PRO €28/year for the Specific Category). The first Base QR Code is included with initial activation; additional Base QR Codes cost €7 per UAS (PRO €112 per UAS).",
       "Mandatory insurance with a minimum coverage of 750,000 SDRs (Special Drawing Rights)",
-      "Rome/Vatican has one of the most restrictive airspaces in Europe for drones",
-      "Fines of up to €100,000 for serious violations",
+      "Rome: the city centre is a no-fly zone for security reasons, where overflight is prohibited for all aircraft, including drones; any exemptions also require clearance from the Prefettura di Roma. Always check D-Flight.",
+      "Fines of up to 100,000 € for serious violations",
       "The GDPR applies when identifiable images are captured"
     ],
     "primaryLinks": [
@@ -33,7 +37,7 @@
       },
       {
         "title": "D-Flight — Sign up and fly",
-        "description": "Registration portal and airspace map (6 €/month subscription required)"
+        "description": "Operator registration portal and airspace map (maps with a free account; operator registration with a Base subscription of 7 €/year)"
       },
       {
         "title": "D-Flight — Airspace Map",
@@ -41,13 +45,13 @@
       },
       {
         "title": "ENAC — UAS Regulations",
-        "description": "Details of Italian Regulations on UAS and National Amendments to EASA Rules"
+        "description": "Details of Italian UAS regulations and national additions to EASA rules"
       }
     ],
     "secondaryLinks": [
       {
         "title": "ENAV — NOTAM",
-        "description": "Active NOTAMs and Temporary Airspace Restrictions"
+        "description": "Italian air navigation service provider; access to NOTAMs (Self Briefing) requires signing an Operation Letter"
       },
       {
         "title": "ENAC — Frequently Asked Questions About Drones",

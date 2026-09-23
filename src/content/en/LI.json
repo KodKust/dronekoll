@@ -1,28 +1,34 @@
 {
   "meta": {
-    "sourceHash": "508ee28346525a09001728f6f525106d73a15d373ba459d581dbbbe091cc7d62",
-    "sourceCountriesVersion": 193,
+    "sourceHash": "eee1f5c184b67a857980e5927e116be613b5cef533bad82326dd2e369b059d05",
+    "sourceCountriesVersion": 254,
     "sourceLastVerified": "2026-04-07",
-    "translatedAt": "2026-07-09",
-    "engine": "deepl"
+    "translatedAt": "2026-09-23",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "A maximum of 120 m above ground level (EASA Open category)",
+      "In the Open category, the maximum height is 120 m, measured as the distance from the closest point of the Earth's surface — not simply straight down, so near a slope the ground beside you can also count. Within 50 m of a tall artificial obstacle (over 105 m), the entity responsible for the obstacle can request authorisation to fly up to 15 m above the height of the obstacle.",
       "Fully complies with the Swiss FOCA drone regulations",
-      "Registration through the Swiss system (CHF 10, valid indefinitely) if the drone weighs 250 g or more or is equipped with a camera",
+      "You must register as a drone operator if your drone weighs 250 g or more (or could transfer more than 80 J of kinetic energy on impact) — this also applies to toys. Below 250 g, registration is still required if the drone has a sensor able to capture personal data, unless it counts as a toy under the EU Toy Safety Directive. The operator number (without the last three characters) must be clearly displayed on every drone. Pilot training/competency requirements are regulated separately and depend on the drone's class and subcategory.",
+      "Minimum remote pilot age (Open category): 12 years; younger pilots only under the supervision of a person aged at least 16 who holds a certificate",
       "Mandatory liability insurance for drones weighing more than 250 g (coverage of CHF 1 million)",
-      "Vaduz Castle: Complete Flight Ban",
-      "Always maintain visual line of sight (VLOS) with the drone",
+      "Remote ID (remote identification) must be switched on during flight, with the operator number stored — except for class C0, legacy and home-built drones",
+      "Permanent drone no-fly zone “Regierungsgebäude – Landtag – Schloss Vaduz” (all weight classes). Exemption permits can be requested from the Amt für Hochbau und Raumplanung.",
+      "Balzers Heliport (LSXB): drones over 250 g are prohibited in parts of Balzers, and all drones directly at the heliport — exceptions only with a permit",
+      "In the Open category, you must keep the drone within your own line of sight, with the naked eye (glasses/contact lenses are fine; binoculars or a screen do not count) — or fly with the support of an observer, with clear and effective communication between you at all times so that together you can watch the airspace and avoid collisions. Follow-me mode is a separate exception, allowed up to 50 m from the pilot.",
+      "Night flights only within visual range and with position lights switched on; reduce the distance accordingly",
       "Do not fly over assemblies of people. Rules for uninvolved persons depend on subcategory, class mark and operating conditions; check the official matrix.",
-      "At least 5 km away from any airport or airfield",
+      "There is no uniform EU-wide distance you must keep from airports. Restrictions near airports are published as geographical zones (Article 15), whose shape and size vary from airport to airport. Before flying near an airport, airfield or heliport, check your country's official drone zone map; flying within a control zone (CTR) usually requires prior authorisation from air traffic control.",
+      "Before every flight, also check the DABS (Daily Airspace Bulletin Switzerland, skybriefing.com/de/dabs) — if the flight area is affected, you must not fly.",
       "A very small country — cross-border flights to Switzerland or Austria require special attention",
       "Alpine terrain: Watch out for helicopter routes"
     ],
     "importantNotes": [
       "Liechtenstein fully complies with Swiss FOCA regulations",
       "Same registration system as Switzerland (CHF 10, unlimited)",
-      "Vaduz Castle is a strict no-fly zone",
+      "Resident in an EASA state (EU, Switzerland, Liechtenstein, Norway, Iceland): register in your country of residence — the registration is valid in all EASA states. Resident outside the EASA states: register before flying unless already registered in an EASA state (in Switzerland via dLIS with the BAZL, CHF 10). Remote pilot certificates from non-EASA states are not recognised.",
+      "The “Regierungsgebäude – Landtag – Schloss Vaduz” area is a permanent drone no-fly zone (all weight classes)",
       "The country is only about 25 km long — it's easy to cross the border without meaning to",
       "The GDPR applies (EEA member) when recording identifiable individuals"
     ],
@@ -36,12 +42,12 @@
         "description": "Same registration system as in Switzerland (CHF 10, valid indefinitely)"
       },
       {
-        "title": "Swiss Dronemap — Airspace Map",
-        "description": "Official Interactive Drone Map (includes Liechtenstein)"
+        "title": "BAZL Drone Map — Airspace Map",
+        "description": "Official BAZL drone map (also applies in Liechtenstein)"
       },
       {
-        "title": "Government of Liechtenstein — Aviation",
-        "description": "Liechtenstein's Government Portal with Aviation Information"
+        "title": "Landespolizei Liechtenstein — Drones",
+        "description": "Drone information and no-fly zones in Liechtenstein"
       }
     ],
     "secondaryLinks": [
@@ -54,7 +60,7 @@
         "description": "Frequently Asked Questions About Drone Regulations"
       }
     ],
-    "disclaimerText": "Always check the official sources from FOCA/BAZL and the Swiss Dronemap before every flight. This app is a tool—not a legal source. Liechtenstein follows the Swiss FOCA/EASA regulations.",
+    "disclaimerText": "Always check the official sources from FOCA/BAZL and the BAZL drone map before every flight. This app is a tool—not a legal source. Liechtenstein follows the Swiss FOCA/EASA regulations.",
     "sectionLabelRules": "KEY RULES (EASA OPEN CATEGORY)",
     "sectionLabelPrimary": "OFFICIAL SOURCES",
     "sectionLabelSecondary": "ADDITIONAL RESOURCES",
