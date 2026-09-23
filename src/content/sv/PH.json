@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "e85b5f3541d893697ea6591ad6e2d83b",
-    "engine": "opus-5",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "cd7d00ae89362b29f698d8bc4b8a6112",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -13,22 +13,26 @@
     "linksSheetTitle": "Luftrum och regler – Filippinerna",
     "dronePilotCredentialName": "RPA Controller-certifikat",
     "keyRules": [
-      "Högsta höjd är 400 ft (122 m) över marken.",
-      "Du måste hålla direkt visuell kontakt med drönaren utan hjälpmedel hela tiden (glasögon eller kontaktlinser går bra). Att flyga med FPV-glasögon är bara tillåtet med en visuell observatör som upprätthåller VLOS; flygning bortom synlinje kräver tillstånd från CAAP (PCAR Part 11).",
-      "Registrering krävs för ALL kommersiell drönaranvändning (oavsett vikt); icke-kommersiella drönare registreras endast vid 7 kg och över enligt CAAP PCAR Part 11",
-      "Håll minst 10 km till varje flygplats — den buffertzonen utvidgades genom CAAP Memorandum Circular 026-2025 efter drönarobservationer nära NAIA (Manila) i slutet av 2024 och början av 2025, och den tillämpas strikt.",
+      "Högsta höjd är 120 m (cirka 400 ft) över marken.",
+      "Du måste själv hela tiden ha drönaren inom direkt synhåll (glasögon eller linser går bra; FPV-glasögon, kikare eller skärmar räknas inte). Flygning bortom synhåll, även med visuella observatörer (EVLOS), kräver tillstånd från CAAP (PCAR Part 11).",
+      "Registrering hos CAAP krävs för alla drönare som används kommersiellt (oavsett vikt) och för icke-kommersiella drönare på 7 kg och mer (CAAP:s registreringsregler). PCAR Part 11 är bredare formulerad, så kontrollera med CAAP (awd@caap.gov.ph) om du är osäker.",
+      "Håll minst 10 km från alla flygplatser om du inte har ett CAAP Special Permit (då med visuell observatör och högst 120 m AGL) – bekräftat på nytt i CAAP Memorandum Circular 026-2025 och strikt övervakat.",
+      "Utan CAAP Special Permit får du inte flyga i kontrollerat luftrum, i förbjudna områden eller restriktionsområden, över anläggningar som är känsliga för den nationella säkerheten, över brand-, polis- eller andra räddningsinsatser, eller från ett fordon i rörelse (PCAR Part 11).",
       "Håll minst 30 m avstånd till utomstående personer.",
+      "Håll minst 150 m horisontellt avstånd från bostads-, affärs-, industri- och rekreationsområden, och flyg aldrig över icke-inblandade personer eller folksamlingar (PCAR Part 11, öppen kategori; högsta startmassa 25 kg).",
       "Nattflygning kräver särskilt tillstånd från CAAP och korrekt belysning på drönaren — det är inte tillåtet utan tillstånd.",
       "RPA Controller-certifikat krävs för kommersiell användning eller drönare över 7 kg (gäller i 5 år)",
-      "Kommersiell verksamhet kräver ett UAS-operatörscertifikat (giltigt i 3 år) plus fjärrpilotlicens för piloten; det krävs för kommersiell användning eller för drönare på 7 kg eller mer även vid fritidsflygning.",
-      "Ansvarsförsäkring krävs som en del av processen för UAS-operatörscertifikat vid kommersiell verksamhet.",
-      "Väj alltid för bemannade luftfartyg."
+      "Kommersiellt drönararbete och alla flygningar utanför den öppna kategorin (t.ex. drönare över 25 kg eller flygningar bortom synhåll) kräver ett Certificate of Authorization från CAAP (giltigt i 5 år), en licensierad fjärrpilot, registrering av drönaren och ansvarsförsäkring mot tredje part (PCAR Part 11).",
+      "Väj alltid för bemannade luftfartyg.",
+      "Ingen flygning inom 8 timmar efter att du druckit alkohol. Rapportera allvarliga personskador eller egendomsskador till CAAP inom 48 timmar."
     ],
     "importantNotes": [
-      "Den 10 km stora förbudszonen runt flygplatser (utvidgad 2025 genom MC 026-2025) är strängare än de flesta länders typiska buffertar på 3–9 km.",
-      "Kommersiella operatörer behöver både RPA Controller-certifikat (5 år) och UAS Operator-certifikat (3 år)",
+      "Flygplatszonen på 10 km är större än i de flesta länder; flygning inom den kräver ett CAAP Special Permit.",
+      "Kommersiella operatörer behöver ett Certificate of Authorization från CAAP (giltigt i 5 år), och varje pilot behöver ett RPA Controller Certificate (giltigt i 5 år).",
       "Nattflygning är inte tillåten utan tillstånd — du behöver ett särskilt tillstånd från CAAP och korrekt belysning på drönaren.",
-      "Ansvarsförsäkring är obligatorisk för all kommersiell drönarverksamhet, som en del av processen för operatörscertifikat."
+      "Ansvarsförsäkring mot tredje part är obligatorisk för all kommersiell drönarverksamhet (specifik kategori), tillsammans med Certificate of Authorization.",
+      "Överträdelser av CAAP:s drönarregler kan ge böter på 20 000–100 000 PHP per överträdelse.",
+      "Utländska piloter som behöver ett pilotcertifikat från CAAP (kommersiell användning eller drönare på 7 kg och mer) kan få en giltig utländsk RPA-licens validerad av CAAP i stället för att skaffa en lokal; valideringen gäller i 1 år och kräver tillverkarutbildning, 5 timmars erfarenhet och en demonstrationsflygning för CAAP."
     ],
     "primaryLinks": [
       {
@@ -42,12 +46,12 @@
     ],
     "secondaryLinks": [
       {
-        "title": "CAAP – UA-registerportal",
-        "description": "Registrera din drönare i CAAP:s UA-register"
+        "title": "CAAP – RPA-registrering",
+        "description": "Registrera din drönare hos CAAP"
       },
       {
-        "title": "CAAP – Kommersiell licensiering",
-        "description": "Krav för RPA Controller-certifikat och UAS Operator-certifikat"
+        "title": "CAAP – RPA Controller Certificate",
+        "description": "Krav och ansökningsprocess för RPA Controller Certificate"
       }
     ]
   }

@@ -1,27 +1,29 @@
 {
   "meta": {
-    "sourceHash": "b98ef8dd7e9c6b0c530a3757ad835b367dd07af3c65b9dd744c1512f5f5992cd",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "27f497a74725016dcbdecc01ce23d9050fb7893544b864e9bca529e0be6b134f",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Kuni 120 m maapinnast (EASA avatud kategooria)",
-      "Registreeru UAS-operaatorina, kui droon kaalub 250 g või rohkem või on kaameraga varustatud",
-      "A1/A3 veebikoolitus on kohustuslik — vanuse alampiir 16 aastat",
-      "Kohustuslik vastutuskindlustus KÕIGILE droonidele olenemata kaalust (kindlustuskate 1–2,5 miljonit €)",
-      "Brüssel: nõutavad on kaks luba (föderaalne + piirkondlik heakskiit)",
-      "Hoia drooni alati otsenähtavuses (VLOS)",
+      "Avatud kategoorias on maksimaalne kõrgus 120 m, mõõdetuna kaugusena maapinna lähimast punktist — mitte lihtsalt otse alla, seega nõlva lähedal võib arvesse minna ka sinu kõrval olev maapind. Kõrgest tehislikust takistusest (üle 105 m) kuni 50 m kaugusel võib takistuse eest vastutav üksus taotleda luba lennata kuni 15 m takistuse kõrgusest kõrgemal.",
+      "UAS-i operaatorina pead end registreerima, kui su droon kaalub 250 g või rohkem (või võib kokkupõrkel üle kanda üle 80 J kineetilist energiat) — see kehtib ka mänguasjadele. Alla 250 g on registreerimine siiski nõutav, kui droonil on isikuandmeid jäädvustada suutev andur, välja arvatud juhul, kui see on ELi mänguasjade ohutuse direktiivi järgi mänguasi. Registreeru selles EL/EASA riigis, kus elad (kui elad sealt väljaspool: esimeses EL/EASA riigis, kus hakkad lendama); see registreering kehtib kõigis EL/EASA riikides. Piloodi koolituse/sertifikaadi nõuded on eraldi ja sõltuvad drooni klassist ja alamkategooriast.",
+      "Belgias on alamkategooriate A1/A3 minimaalne vanus 14 — tasuta veebikoolitus ja eksam kehtivad 5 aastat ning on tunnustatud kogu ELis. Alamkategoorias A2 jääb minimaalseks vanuseks 16. Erandid 14-aastase vanusepiiri puhul: vanusepiirangut ei ole alamkategoorias A1 C0-drooni puhul, mis on mänguasi (ELi mänguasjade ohutuse direktiiv), isehitatud alla 250 g drooni puhul ega siis, kui lennatakse vähemalt 16-aastase ja nõutavat sertifikaati omava piloodi otsese järelevalve all.",
+      "Avatud kategoorias on vastutuskindlustus (kolmandatele isikutele tekitatud vigastused ja varakahju) kohustuslik, välja arvatud ainult eraotstarbel kasutatavatel alla 900 g droonidel. Alates 20 kg kehtivad määruse (EÜ) nr 785/2004 nõuded.",
+      "Välispiloodid: mõnes teises ELi liikmesriigis tehtud registreering ja A1/A3/A2 sertifikaat kehtivad Belgias; kanna kaasas registreerimistõendit ja märgi oma operaatorinumber droonile. Ka sinu suhtes kehtivad Belgia geotsoonid ja Belgia kindlustusnõue (v.a eraotstarbeline kasutus alla 900 g).",
+      "Brüssel: geotsoonis EBR-01 on saatkondade ning föderaal- ja rahvusvaheliste (sh ELi) institutsioonide kohal või neist kuni 50 m kaugusel lendamiseks vaja asjaomase institutsiooni eelluba. Kontrolli Droneguide'ist ka Brussels Airporti CTR-i tingimusi ning kohaliku omavalitsuse reegleid, kui soovid avalikust kohast õhku tõusta või seal filmida.",
+      "Avatud kategoorias pead hoidma drooni oma otsenähtavuses palja silmaga (prillid/kontaktläätsed on lubatud; binokkel või ekraan ei loe) — või lendama vaatleja abiga, kusjuures te suhtlete kogu aeg selgelt ja tõhusalt, et saaksite koos õhuruumi jälgida ja kokkupõrkeid vältida. Follow-me režiim alamkategoorias A1 on eraldi erand, lubatud kuni 50 m kaugusel piloodist.",
+      "Klassitähiseta droonid (turule lastud enne 2024. aastat): alla 250 g alamkategoorias A1, muidu ainult A3-s ja max 25 kg (min 150 m elu-, äri-, tööstus- või puhkealadest). Klassitähiseta ja turule lastud pärast 31-12-2023: mitte avatud kategoorias.",
       "Ära lenda rahvakogunemiste kohal. Kõrvaliste isikute suhtes kehtivad reeglid sõltuvad alamkategooriast, klassimärgist ja käitamistingimustest; kontrolli ametlikku tabelit.",
-      "Vähemalt 3 km kaugusel lennujaamadest ja helikopteriväljakutest",
+      "Lennujaamadest hoitavat ühtset ELi-ülest kaugust ei ole; geotsoonide kuju ja suurus erinevad lennujaamiti. Belgia CTR-is kehtivad geotsoonid (vt Droneguide): radade ümber asuvas VLL 0-s on avatud kategooria keelatud; VLL 1-s ja VLL 2-s max 150 ft (u 45 m) maapinnast (VLL 1-s ka mitte kõrgemal kui kõrgeim takistus 100 m raadiuses). VLL 1: nõutav eelluba; VLL 2: teata lennust vähemalt 3 tundi ette. Taotle skeyes DAA-planneri kaudu; telefoni teel kättesaadavus, geoteadlikkus ja Remote ID on kohustuslikud (Remote ID ei kehti C0 ja teatud alla 250 g droonide puhul).",
       "EASA avatud kategooria baasnõuete kohaselt on öölend lubatud, kui kasutatakse nõutavat rohelist vilkuvat tuld, välja arvatud juhul, kui kehtiv geograafiline tsoon või riiklik eeskiri kehtestab rangema tingimuse.",
       "Kontrolli Droneguide'ist tsoonipõhiseid kõrguspiiranguid ja muid piiranguid"
     ],
     "importantNotes": [
-      "Kohustuslik kindlustus KÕIGILE droonidele olenemata kaalust — nõutav kindlustuskate 1–2,5 miljonit €",
-      "Brüssel nõuab nii föderaalset registreerimist KUI KA piirkondlikku luba",
-      "Kolm lennujaama (Brüssel, Charleroi, Liège) loovad suuri piirangutsoone",
+      "Vastutuskindlustus on kohustuslik, välja arvatud eraotstarbel kasutatavatel alla 900 g droonidel",
+      "Brüssel (geotsoon EBR-01): saatkondade, föderaalvalitsuse institutsioonide ja rahvusvaheliste institutsioonide kohal või neist kuni 50 m kaugusel lendamine ainult asjaomase institutsiooni eelloal",
+      "Kontrollitavatel lennujaamadel (Brüssel, Antwerpen, Charleroi, Liège, Ostende) ja sõjaväelennuväljadel on rangete tingimustega CTR-geotsoonid; Kortrijk-Wevelgemil on RMZ/TMZ-geotsoon.",
       "Rikkumiste tagajärjeks võivad olla trahvid ja kriminaalmenetlus",
       "GDPR kohaldub tuvastatavaid isikuid kujutavate piltide loomisel"
     ],
@@ -45,15 +47,15 @@
     ],
     "secondaryLinks": [
       {
-        "title": "skeyes — Lennujuhtimine",
-        "description": "Belgia lennujuhtimine ja teave õhuruumi kohta"
+        "title": "skeyes — droonid ja geotsoonid",
+        "description": "Belgia lennujuhtimisteenistuse drooni leht: geotsoonides lendamise tingimused ja DAA-planner"
       },
       {
         "title": "BCAA — Droonide KKK",
         "description": "Korduma kippuvad küsimused Belgia droonimääruste kohta"
       }
     ],
-    "disclaimerText": "Kontrolli enne lendamist alati BCAA ametlikke allikaid ja Droneguide'i. See rakendus on abivahend, mitte õigusallikas. Belgia järgib EASA määrusi, mis sisaldavad rangeid riiklikke kindlustusnõudeid.",
+    "disclaimerText": "Kontrolli enne lendamist alati BCAA ametlikke allikaid ja Droneguide'i. See rakendus on abivahend, mitte õigusallikas. Belgia järgib EASA määrusi, mida täiendavad riiklikud reeglid (sh kohustuslik kindlustus ja fikseeritud geograafilised tsoonid).",
     "sectionLabelRules": "PÕHIREEGLID (EASA AVATUD KATEGOORIA)",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",

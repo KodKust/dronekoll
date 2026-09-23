@@ -1,34 +1,35 @@
 {
   "meta": {
-    "sourceHash": "8c56d8d6e542afc955c989bfd255bb6e85a0ed0ddb98d0c06385589c15af8287",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "1ccf0d60f2daab09a23a0c0e3bbd85b102fdef6468c55b05317299a6742f4265",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimalna visina: 120 m (400 ft) iznad razine tla (AGL)",
-      "Minimalna udaljenost od 8 km od zračnih luka i uzletišta",
-      "Minimalna udaljenost od 30 m od ljudi, životinja i građevina koji nisu uključeni",
+      "Maksimalna visina: 120 m (400 ft) iznad razine tla, u nekontroliranom zračnom prostoru.",
+      "Minimalna udaljenost od 8 km od bilo koje zračne luke ili aerodroma; za let bliže potrebni su odobrenje DGAC-a i izdavanje NOTAM-a.",
+      "Letite samo podalje od gusto izgrađenih područja u gradovima, mjestima ili naseljima i podalje od okupljanja ljudi na otvorenom. Samo uz posebno odobrenje DGAC-a smijete letjeti bliže, a nikad bliže od 30 m tim zgradama ili okupljanjima.",
       "SVI dronovi lakši od 25 kg moraju imati identifikacijsku pločicu sa serijskim brojem, imenom vlasnika i brojem telefona",
-      "Dronovi teški 25 kg ili više: obavezna registracija na drones.dgac.go.cr",
+      "Obavezna registracija na drones.dgac.go.cr: dronovi ≥25 kg i svaka nerekreativna upotreba (komercijalna ili nekomercijalna), bez obzira na težinu",
       "Rekreativna upotreba <25 kg: NE zahtijeva formalnu registraciju ako slijedite osnovna pravila",
       "Uvijek držite dron u izravnom vidnom polju (VLOS)",
       "Letenje je dopušteno samo tijekom dana i po dobrom vremenu — noćno letenje zahtijeva odobrenje",
+      "Nerekreativna, nekomercijalna upotreba (uključujući dronove <25 kg): certifikat o osposobljenosti DGAC-a (najmanje 18 godina), osiguranje od građanskopravne odgovornosti i registracija na drones.dgac.go.cr",
       "Komercijalna upotreba: RPAS licencija + certifikat Tehničkog vijeća + operativni certifikat DGAC-a",
       "Zabranjeno je letjeti iznad privatnog posjeda bez dozvole, zatvora, ograničenih područja i zračnih luka"
     ],
     "importantNotes": [
       "🏷️ OBAVEZNA IDENTIFIKACIJSKA PLOČICA: Iako dronovi lakši od 25 kg za rekreativnu upotrebu NE zahtijevaju formalnu registraciju, SVI dronovi moraju imati identifikacijsku pločicu sa serijskim brojem, imenom vlasnika i kontaktnim brojem telefona. Ovo je najstroži zahtjev za fizičku identifikaciju.",
-      "✈️ STRANI TURISTI: Pravila se primjenjuju na nerezidente. Za rekreativnu upotrebu: identifikacijska pločica + pridržavanje osnovnih pravila (ne letjeti u blizini zračnih luka, iznad privatnog posjeda ni zatvora) — formalna registracija nije potrebna. Carina može zatražiti prijavu drona pri ulasku u zemlju.",
-      "🌳 NACIONALNI PARKOVI I SINAC: National System of Conservation Areas (SINAC) zahtijeva posebnu dozvolu za dronove u parkovima kao što su Manuel Antonio, Corcovado, Tortuguero, Arenal Volcano, Monteverde i Poás Volcano. Bioraznolikost i divlje životinje zaštićene su — provjerite kod uprave svakog parka PRIJE putovanja.",
-      "🏖️ TURISTIČKA PODRUČJA I ZRAČNE LUKE: SJO (Juan Santamaría, Alajuela), LIR (Liberia, Guanacaste), Presidential Palace, veleposlanstva i vojne zone imaju trajna ograničenja. Turističke plaže, među kojima su Tamarindo, Manuel Antonio i Jacó, često imaju dodatna općinska ograničenja.",
-      "💰 KOMERCIJALNA UPOTREBA I KAZNE: Komercijalni letovi bez RPAS licencije ili certifikata koji izdaje Technical Council mogu rezultirati kaznama, oduzimanjem opreme i zabranom operacija. Za plaćeno fotografiranje ili videosnimanje ishodite licenciju prije početka aktivnosti."
+      "✈️ STRANI TURISTI: Pravila se primjenjuju na nerezidente. Za rekreativnu upotrebu: identifikacijska pločica + pridržavanje osnovnih pravila (ne letjeti u blizini zračnih luka, iznad privatnog posjeda ni zatvora) — formalna registracija nije potrebna. Carina može zatražiti prijavu drona pri ulasku u zemlju. Strani piloti u komercijalne svrhe: DGAC može validirati stranu RPAS licenciju (licencija i liječničko uvjerenje moraju biti valjani) na najviše 3 mjeseca, uz samo jedno produljenje za 3 mjeseca u opravdanim slučajevima. Validacija ne zamjenjuje ostale zahtjeve za komercijalnu upotrebu.",
+      "🌳 NACIONALNI PARKOVI I SINAC: dronovi nisu dopušteni u Nacionalnom parku Manuel Antonio (SINAC). Druga zaštićena područja mogu ih zabraniti ili ograničiti — provjerite kod uprave svakog područja PRIJE putovanja.",
+      "🏖️ OGRANIČENE ZONE: bez dopuštenja DGAC-a zabranjeno je letjeti u zabranjenim ili ograničenim zonama objavljenima u AIP-u te unutar 8 km od zračnih luka kao što su SJO i LIR. Provjerite i moguća općinska ograničenja.",
+      "💰 KOMERCIJALNA UPOTREBA I KAZNE: Komercijalni letovi bez RPAS licencije ili certifikata koji izdaje Technical Council mogu rezultirati kaznama, oduzimanjem opreme i zabranom operacija. Za plaćeno fotografiranje ili videosnimanje: ishodite licenciju prije početka aktivnosti."
     ],
     "primaryLinks": [
       {
         "title": "DGAC — Registar dronova (namjenski portal)",
-        "description": "Službena stranica Glavne uprave civilnog zrakoplovstva za registraciju dronova i dobivanje registracijskog broja. Platforma posebno za RPAS"
+        "description": "Službeni namjenski portal Glavne uprave civilnog zrakoplovstva za registraciju dronova i dobivanje registracijskog broja. Platforma posebno za RPAS"
       },
       {
         "title": "DGAC — Početna stranica",
@@ -57,7 +58,7 @@
         "description": "Službena turistička stranica Kostarike. Korisno za razumijevanje turističkih područja s posebnim ograničenjima za dronove"
       }
     ],
-    "disclaimerText": "Uvijek provjerite službene izvore DGAC-a prije leta. Ova aplikacija je alat, a ne pravno tijelo. Kostarika primjenjuje RAC OPS RPAS i DGAC’s Operational Directive. Svi dronovi moraju imati identifikacijsku pločicu; za komercijalnu upotrebu potreban je certifikat koji izdaje Civil Aviation Technical Council.",
+    "disclaimerText": "Uvijek provjerite službene izvore DGAC-a prije leta. Ova aplikacija je alat, a ne pravno tijelo. Kostarika primjenjuje RAC-RPAS (Decreto Ejecutivo N° 44615-MOPT, na snazi od 27/09/2024). Svi dronovi moraju imati identifikacijsku pločicu; za komercijalnu upotrebu potreban je certifikat koji izdaje Civil Aviation Technical Council.",
     "sectionLabelRules": "KLJUČNA PRAVILA",
     "sectionLabelPrimary": "SLUŽBENI IZVORI",
     "sectionLabelSecondary": "DODATNI RESURSI",

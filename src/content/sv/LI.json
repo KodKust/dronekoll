@@ -1,27 +1,33 @@
 {
   "meta": {
-    "sourceHash": "508ee28346525a09001728f6f525106d73a15d373ba459d581dbbbe091cc7d62",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eee1f5c184b67a857980e5927e116be613b5cef533bad82326dd2e369b059d05",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Högst 120 m över marken (EASA öppen kategori)",
+      "I den öppna kategorin är högsta höjd 120 m, mätt som avståndet till närmaste punkt på jordytan – inte bara rakt nedåt, så nära en sluttning kan även marken bredvid dig räknas in. Inom 50 m från ett högt konstgjort hinder (över 105 m) kan den som ansvarar för hindret begära tillstånd att flyga upp till 15 m över hindrets höjd.",
       "Följer de schweiziska FOCA-reglerna för drönare fullt ut",
-      "Registrering via det schweiziska systemet (10 CHF, gäller tills vidare) om drönaren väger 250 g eller mer eller är utrustad med kamera",
+      "Du måste registrera dig som drönaroperatör om drönaren väger 250 g eller mer (eller kan överföra mer än 80 J rörelseenergi vid en kollision) – det gäller även leksaker. Under 250 g krävs registrering ändå om drönaren har en sensor som kan samla in personuppgifter, såvida den inte räknas som en leksak enligt EU Toy Safety Directive. Operatörsnumret (utan de tre sista tecknen) ska vara väl synligt på varje drönare. Kraven på pilotutbildning och kompetens regleras separat och beror på drönarens klass och underkategori.",
+      "Lägsta ålder för fjärrpiloter (öppen kategori): 12 år; yngre piloter endast under uppsikt av en person som är minst 16 år och har ett intyg",
       "Obligatorisk ansvarsförsäkring för drönare som väger mer än 250 g (täckning på 1 miljon CHF)",
-      "Vaduz Castle: totalt flygförbud",
-      "Håll alltid drönaren inom synhåll (VLOS)",
+      "Remote ID (fjärridentifiering) måste vara påslaget under flygning, med operatörsnumret inlagt – utom för klass C0, äldre drönare och egenbyggda drönare",
+      "Permanent flygförbudszon för drönare ”Regierungsgebäude – Landtag – Schloss Vaduz” (alla viktklasser). Dispens kan sökas hos Amt für Hochbau und Raumplanung.",
+      "Balzers Heliport (LSXB): drönare över 250 g är förbjudna i delar av Balzers, och alla drönare direkt vid helikopterflygplatsen – undantag endast med tillstånd",
+      "I den öppna kategorin måste du hålla drönaren inom ditt eget synhåll med blotta ögat (glasögon och linser går bra; kikare eller en skärm räknas inte) – eller flyga med stöd av en observatör, med tydlig och effektiv kommunikation mellan er hela tiden, så att ni tillsammans kan bevaka luftrummet och undvika kollisioner. Follow-me-läget är ett separat undantag och är tillåtet upp till 50 m från piloten.",
+      "Nattflygning endast inom synhåll och med positionsljusen påslagna; minska avståndet i motsvarande grad",
       "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
-      "Minst 5 km från alla flygplatser eller flygfält",
+      "Det finns inget enhetligt EU-gemensamt avstånd som måste hållas till flygplatser. Restriktioner nära flygplatser publiceras som geografiska zoner (artikel 15), vars form och storlek varierar mellan flygplatser. Innan du flyger i närheten av en flygplats, ett flygfält eller en helikopterflygplats ska du kontrollera ditt lands officiella karta över drönarzoner; flygning i en kontrollzon (CTR) kräver normalt förhandstillstånd från flygtrafikledningen.",
+      "Kontrollera före varje flygning även DABS (Daily Airspace Bulletin Switzerland, skybriefing.com/de/dabs) – om flygområdet berörs får du inte flyga.",
       "Ett mycket litet land – gränsöverskridande flygningar till Schweiz eller Österrike kräver extra uppmärksamhet",
       "Alpin terräng: se upp för helikopterleder"
     ],
     "importantNotes": [
       "Liechtenstein följer de schweiziska FOCA-reglerna fullt ut",
       "Samma registreringssystem som Schweiz (10 CHF, gäller utan tidsbegränsning)",
-      "Vaduz Castle är ett strikt flygförbudsområde",
+      "Bosatt i en EASA-stat (EU, Schweiz, Liechtenstein, Norge, Island): registrera dig i ditt bosättningsland – registreringen gäller i alla EASA-stater. Bosatt utanför EASA-staterna: registrera dig innan du flyger, om du inte redan är registrerad i en EASA-stat (i Schweiz via dLIS hos BAZL, 10 CHF). Fjärrpilotintyg från stater utanför EASA erkänns inte.",
+      "Området ”Regierungsgebäude – Landtag – Schloss Vaduz” är en permanent flygförbudszon för drönare (alla viktklasser)",
       "Landet är bara omkring 25 km långt – det är lätt att av misstag korsa gränsen",
       "GDPR gäller (EES-medlem) när identifierbara personer filmas eller fotograferas"
     ],
@@ -35,12 +41,12 @@
         "description": "Samma registreringssystem som i Schweiz (10 CHF, gäller tills vidare)"
       },
       {
-        "title": "Swiss Dronemap – Luftrumskarta",
-        "description": "Officiell interaktiv drönarkarta (inklusive Liechtenstein)"
+        "title": "BAZL:s drönarkarta – Luftrumskarta",
+        "description": "BAZL:s officiella drönarkarta (gäller även i Liechtenstein)"
       },
       {
-        "title": "Liechtensteins regering – Luftfart",
-        "description": "Liechtensteins regeringsportal med luftfartsinformation"
+        "title": "Landespolizei Liechtenstein – Drönare",
+        "description": "Information om drönare och flygförbudszoner i Liechtenstein"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +59,7 @@
         "description": "Vanliga frågor om reglerna för drönare"
       }
     ],
-    "disclaimerText": "Kontrollera alltid de officiella källorna från FOCA/BAZL och Swiss Dronemap före varje flygning. Den här appen är ett verktyg – inte en juridisk källa. Liechtenstein följer de schweiziska FOCA/EASA-reglerna.",
+    "disclaimerText": "Kontrollera alltid de officiella källorna från FOCA/BAZL och BAZL:s drönarkarta före varje flygning. Den här appen är ett verktyg – inte en juridisk källa. Liechtenstein följer de schweiziska FOCA/EASA-reglerna.",
     "sectionLabelRules": "VIKTIGASTE REGLERNA (EASA ÖPPEN KATEGORI)",
     "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
     "sectionLabelSecondary": "YTTERLIGARE RESURSER",

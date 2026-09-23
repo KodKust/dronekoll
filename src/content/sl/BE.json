@@ -1,63 +1,65 @@
 {
- "meta": {
-  "sourceHash": "b98ef8dd7e9c6b0c530a3757ad835b367dd07af3c65b9dd744c1512f5f5992cd",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Do 120 m nad tlemi (kategorija EASA Open)",
-   "Registracija kot upravljavec UAS, če dron tehta 250 g ali več oziroma je opremljen s kamero",
-   "Spletno usposabljanje A1/A3 je obvezno — najnižja starost 16 let",
-   "Obvezno zavarovanje odgovornosti za VSE teže dronov (kritje 1–2,5 milijona €)",
-   "Bruselj: potrebna sta dvojna dovoljenja (zvezna + regionalna odobritev)",
-   "Z dronom vedno ohranjajte vidno polje (VLOS)",
-   "Ne letite nad skupinami ljudi. Pravila za neudeležene osebe so odvisna od podkategorije, razredne oznake in pogojev delovanja; preverite uradno matriko.",
-   "Najmanj 3 km stran od letališč in heliportov",
-   "Nočni let je dovoljen v skladu z osnovnimi zahtevami EASA za odprto kategorijo, če se uporablja predpisana zelena utripajoča luč, razen če veljavna geografska cona ali nacionalni predpis določa strožje pogoje.",
-   "Za coni specifične omejitve višine in omejitve preverite Droneguide"
-  ],
-  "importantNotes": [
-   "Obvezno zavarovanje za VSE teže dronov — potrebno je kritje 1–2,5 milijona €",
-   "Bruselj zahteva tako zvezno registracijo KOT regionalno odobritev",
-   "Tri letališča (Bruselj, Charleroi, Liège) vzpostavljajo velika omejena območja",
-   "Kršitve lahko privedejo do glob in kazenskega pregona",
-   "GDPR velja pri ustvarjanju slik, ki prikazujejo prepoznavne posameznike"
-  ],
-  "primaryLinks": [
-   {
-    "title": "BCAA — pravila za drone",
-    "description": "Uradni belgijski organ za civilno letalstvo s predpisi in informacijami o dronih"
-   },
-   {
-    "title": "BCAA — registracija kot upravljavec",
-    "description": "Registracija kot upravljavec UAS (veljavno v vseh državah EU/EASA)"
-   },
-   {
-    "title": "Droneguide — karta zračnega prostora",
-    "description": "Uradna interaktivna karta s prikazom con za drone, omejitev in pogojev letenja"
-   },
-   {
-    "title": "BCAA — usposabljanje in izpiti",
-    "description": "Informacije o tečajih in izpitih A1/A3 ter A2"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "skeyes — kontrola zračnega prometa",
-    "description": "Belgijski kontrolor zračnega prometa in informacije o zračnem prostoru"
-   },
-   {
-    "title": "BCAA — pogosta vprašanja o dronih",
-    "description": "Pogosta vprašanja o predpisih za drone v Belgiji"
-   }
-  ],
-  "disclaimerText": "Pred letenjem vedno preverite uradne vire BCAA in Droneguide. Ta aplikacija je orodje, ne pravni organ. Belgija upošteva predpise EASA, ki vključujejo stroge nacionalne zahteve glede zavarovanja.",
-  "sectionLabelRules": "KLJUČNA PRAVILA (KATEGORIJA EASA OPEN)",
-  "sectionLabelPrimary": "URADNI VIRI",
-  "sectionLabelSecondary": "DODATNI VIRI",
-  "linksSheetTitle": "Zračni prostor in predpisi — Belgija",
-  "dronePilotCredentialName": "Licenca za drone A1/A3"
- }
+  "meta": {
+    "sourceHash": "27f497a74725016dcbdecc01ce23d9050fb7893544b864e9bca529e0be6b134f",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "V odprti kategoriji je največja višina 120 m, merjena kot razdalja do najbližje točke zemeljskega površja — ne preprosto navpično navzdol, zato ob pobočju lahko šteje tudi teren ob vas. Znotraj 50 m od visoke umetne ovire (višje od 105 m) lahko subjekt, odgovoren za oviro, zaprosi za dovoljenje za letenje do 15 m nad višino ovire.",
+      "Kot upravljavec UAS se morate registrirati, če vaš dron tehta 250 g ali več (ali bi lahko ob trku prenesel več kot 80 J kinetične energije) — to velja tudi za igrače. Pod 250 g je registracija še vedno potrebna, če ima dron senzor, ki lahko zajema osebne podatke, razen če velja za igračo po direktivi EU o varnosti igrač. Registrirajte se v državi EU/EASA, v kateri živite (če živite zunaj nje: v prvi državi EU/EASA, v kateri boste leteli); ta registracija velja v vseh državah EU/EASA. Zahteve glede usposabljanja/potrdila pilota so določene ločeno in so odvisne od razreda drona in podkategorije.",
+      "V Belgiji je najnižja starost za podkategoriji A1/A3 14 let — brezplačno spletno usposabljanje in izpit veljata 5 let in sta priznana po vsej EU. Za podkategorijo A2 ostaja najnižja starost 16 let. Izjeme od starostne meje 14 let: brez najnižje starosti za dron C0, ki je igrača (direktiva EU o varnosti igrač), v A1, za zasebno izdelan dron pod 250 g ali pod neposrednim nadzorom pilota, starega vsaj 16 let, ki ima zahtevano potrdilo.",
+      "Zavarovanje odgovornosti (telesne poškodbe in materialna škoda tretjim osebam) je v odprti kategoriji obvezno, razen za drone pod 900 g, ki se uporabljajo le zasebno. Od 20 kg veljajo zahteve Uredbe (ES) št. 785/2004.",
+      "Tuji piloti: registracija in potrdilo A1/A3/A2 iz druge države članice EU veljajo v Belgiji; imejte s seboj dokazilo o registraciji in na dronu prikažite svojo številko upravljavca. Za vas veljajo tudi belgijske geocone in belgijska zahteva po zavarovanju (razen zasebne rabe pod 900 g).",
+      "Bruselj: v geoconi EBR-01 potrebujete predhodno dovoljenje zadevne institucije za letenje nad veleposlaništvi ter zveznimi in mednarodnimi (vključno z EU) institucijami ali znotraj 50 m od njih. Preverite tudi pogoje CTR letališča Brussels Airport na Droneguide in občinska pravila, če želite vzleteti z javnega kraja ali na njem snemati.",
+      "V odprti kategoriji morate dron ohranjati v lastnem vidnem polju, s prostim očesom (očala/kontaktne leče so v redu; daljnogled ali zaslon ne štejeta) — ali leteti s pomočjo opazovalca, pri čemer ves čas jasno in učinkovito komunicirata, da lahko skupaj spremljata zračni prostor in se izogneta trkom. Način »follow-me« v podkategoriji A1 je ločena izjema, dovoljena do 50 m od pilota.",
+      "Droni brez razredne oznake (dani na trg pred letom 2024): pod 250 g v A1, sicer le v A3 in največ 25 kg (najmanj 150 m od stanovanjskih, poslovnih, industrijskih ali rekreacijskih območij). Brez razredne oznake in dani na trg po 31. 12. 2023: ne v odprti kategoriji.",
+      "Ne letite nad skupinami ljudi. Pravila za neudeležene osebe so odvisna od podkategorije, razredne oznake in pogojev delovanja; preverite uradno matriko.",
+      "Enotne razdalje od letališč na ravni EU ni; oblika in velikost geocon se razlikujeta od letališča do letališča. V belgijski CTR veljajo geocone (glejte Droneguide): v VLL 0 okoli vzletno-pristajalnih stez je odprta kategorija prepovedana; v VLL 1 in VLL 2 največ 150 ft (pribl. 45 m) nad tlemi (v VLL 1 tudi ne višje od najvišje ovire v krogu 100 m). VLL 1: potrebno je predhodno dovoljenje; VLL 2: let prijavite vsaj 3 ure vnaprej. Zaprosite prek skeyes DAA-planner; obvezni so telefonska dosegljivost, geozavedanje in Remote ID (Remote ID ne za C0 in nekatere drone pod 250 g).",
+      "Nočni let je dovoljen v skladu z osnovnimi zahtevami EASA za odprto kategorijo, če se uporablja predpisana zelena utripajoča luč, razen če veljavna geografska cona ali nacionalni predpis določa strožje pogoje.",
+      "Za coni specifične omejitve višine in omejitve preverite Droneguide"
+    ],
+    "importantNotes": [
+      "Zavarovanje odgovornosti je obvezno, razen za zasebno rabo z droni pod 900 g",
+      "Bruselj (geocona EBR-01): letenje nad veleposlaništvi, zveznimi vladnimi institucijami in mednarodnimi institucijami ali znotraj 50 m od njih le s predhodnim dovoljenjem zadevne institucije",
+      "Nadzorovana letališča (Bruselj, Antwerpen, Charleroi, Liège, Ostende) in vojaška letališča imajo geocone CTR s strogimi pogoji; Kortrijk-Wevelgem ima geocono RMZ/TMZ.",
+      "Kršitve lahko privedejo do glob in kazenskega pregona",
+      "GDPR velja pri ustvarjanju slik, ki prikazujejo prepoznavne posameznike"
+    ],
+    "primaryLinks": [
+      {
+        "title": "BCAA — pravila za drone",
+        "description": "Uradni belgijski organ za civilno letalstvo s predpisi in informacijami o dronih"
+      },
+      {
+        "title": "BCAA — registracija kot upravljavec",
+        "description": "Registracija kot upravljavec UAS (veljavno v vseh državah EU/EASA)"
+      },
+      {
+        "title": "Droneguide — karta zračnega prostora",
+        "description": "Uradna interaktivna karta s prikazom con za drone, omejitev in pogojev letenja"
+      },
+      {
+        "title": "BCAA — usposabljanje in izpiti",
+        "description": "Informacije o tečajih in izpitih A1/A3 ter A2"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "skeyes — droni in geocone",
+        "description": "Stran o dronih belgijskega izvajalca kontrole zračnega prometa: pogoji za letenje v geoconah in DAA-planner"
+      },
+      {
+        "title": "BCAA — pogosta vprašanja o dronih",
+        "description": "Pogosta vprašanja o predpisih za drone v Belgiji"
+      }
+    ],
+    "disclaimerText": "Pred letenjem vedno preverite uradne vire BCAA in Droneguide. Ta aplikacija je orodje, ne pravni organ. Belgija upošteva predpise EASA, dopolnjene z nacionalnimi pravili (vključno z obveznim zavarovanjem in stalnimi geografskimi conami).",
+    "sectionLabelRules": "KLJUČNA PRAVILA (KATEGORIJA EASA OPEN)",
+    "sectionLabelPrimary": "URADNI VIRI",
+    "sectionLabelSecondary": "DODATNI VIRI",
+    "linksSheetTitle": "Zračni prostor in predpisi — Belgija",
+    "dronePilotCredentialName": "Licenca za drone A1/A3"
+  }
 }

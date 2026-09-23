@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "a1e69adb928a29b23e35f851c7f189c239b934c116c4c5c3bb8ff4997785f369",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "8d3736758eabe09f115c22b261f62052d660fd07794af65c1d39b8fa76ca192b",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimāli 120 m virs zemes (EASA atvērtā kategorija)",
-      "Reģistrācija UAS operatora statusā (15 € / 3 gadiem), ja drons sver 250 g vai vairāk vai ir aprīkots ar kameru",
-      "Nepieciešama A1/A3 tiešsaistes apmācība — minimālais vecums 16 gadi",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, ko mēra kā attālumu no tuvākā Zemes virsmas punkta — ne tikai taisni uz leju, tāpēc nogāzes tuvumā var skaitīties arī zeme tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgā persona var lūgt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Tev jāreģistrējas kā drona operatoram, ja tavs drons sver 250 g vai vairāk (vai triecienā varētu nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas pat uz rotaļlietām. Zem 250 g reģistrācija tomēr ir nepieciešama, ja dronam ir sensors, kas spēj uztvert personas datus, izņemot gadījumu, ja tas atbilst rotaļlietai saskaņā ar ES Rotaļlietu drošuma direktīvu. Pilota apmācības/apliecības prasības ir atsevišķas un ir atkarīgas no drona klases un apakškategorijas.",
+      "Neizdzēšami norādi savu operatora reģistrācijas numuru uz katra sava drona un ielādē to tālvadības identifikācijas sistēmā (ja tāda ir). Operatora reģistrācija ir no 18 gadu vecuma — jaunākiem var reģistrēties atbildīgā persona (piem., vecāks vai aizbildnis).",
+      "Droni, kas laisti tirgū pēc 01/01/2024 bez klases marķējuma (C0–C6), nedrīkst lidot atvērtajā kategorijā — tikai specifiskajā kategorijā ar ekspluatācijas atļauju.",
+      "Minimālais vecums patstāvīgai lidošanai atvērtajā kategorijā ir 16 gadi — A1/A3 tiešsaistes apmācība (9 moduļi, eksāmens ar 40 jautājumiem, maksa 15 eiro) ir derīga 5 gadus un atzīta visā ES. Jaunākiem lidot atļauts tikai sertificēta pilota tiešā uzraudzībā.",
+      "Apmeklētāji no valstīm ārpus ES: ja Kipra ir pirmā ES valsts, kurā lido, operatora reģistrāciju (ja tā nepieciešama) veic Kipras DCA (15 €, minimālais vecums 18 gadi); ja jau esi lidojis citā ES valstī, atkārtoti nereģistrējies. Apakškategorijām A1/A3 nepieciešama ES valstī izsniegta A1/A3 pilota apliecība (tiešsaistes apmācība un eksāmens, 15 €); C0 dronam (<250 g) eksāmens nav obligāts.",
       "Nakts lidojumi ir atļauti saskaņā ar EASA atvērtās kategorijas pamatnosacījumiem, ja tiek izmantota nepieciešamā zaļā mirgojošā gaisma, ja vien spēkā esošās ģeogrāfiskās zonas vai valsts noteikumi neparedz stingrākus nosacījumus.",
-      "8 km drošības zona ap lidostām",
-      "Minimālais attālums 1 km no dzīvojamām zonām (galvenokārt attiecas uz A3 kategoriju — stingrākas prasības smagākiem droniem)",
-      "Vienmēr saglabā tiešu redzamības kontaktu (VLOS) ar dronu",
+      "Larnakas un Pafosas lidostas: zonā A (sarkanā) visi dronu lidojumi ir aizliegti; zonā B (dzeltenā) tikai ar DCA atļauju (piesakies vismaz 10 darba dienas iepriekš, trešo personu civiltiesiskās atbildības apdrošināšana 1 000 000 €). DCA lūdz apmeklētājus ievērot vismaz 8 km attālumu no lidostām un helikopteru laukumiem.",
+      "Minimālais attālums 150 m no dzīvojamām, komerciālām vai rūpnieciskām zonām (A3 kategorija)",
+      "Atvērtajā kategorijā turi dronu savā tiešajā redzamībā ar neapbruņotu aci (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai ar novērotāja palīdzību, visu laiku skaidri un efektīvi sazinoties, lai kopā uzraudzītu gaisa telpu un izvairītos no sadursmēm. Režīms “Follow-me” ir atsevišķs izņēmums, kas atļauts līdz 50 m no pilota.",
       "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kas nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
+      "Britu bāzes (Akrotiri, Dhekelia): atsevišķa pārvalde ar saviem dronu tiesību aktiem, savu reģistrācijas veidlapu un noteikto zonu kartēm — pirms lidošanas tur pārbaudi sbaadministration.org.",
       "Ziemeļkipra (TRNC): atsevišķa jurisdikcija — atšķirīgi noteikumi",
-      "UN lidojumu aizlieguma zona: pilnīgs lidojumu aizliegums"
+      "ANO buferzona (Dead Zone): jebkāda darbība bez iepriekšēja UNFICYP apstiprinājuma aizliegta — nelido tur."
     ],
     "importantNotes": [
       "Nakts lidojumi ir atļauti saskaņā ar EASA atvērtās kategorijas pamatnosacījumiem, ja tiek izmantota nepieciešamā zaļā mirgojošā gaisma, ja vien spēkā esošās ģeogrāfiskās zonas vai valsts noteikumi neparedz stingrākus nosacījumus.",
-      "Prasība ievērot 1 kilometra attālumu no dzīvojamām zonām mazā salā ir ļoti ierobežojoša",
-      "8 kilometru drošības zonas ap lidostām aptver lielu daļu salas",
+      "Ap Larnakas un Pafosas lidostām: zonā A (sarkanā) dronu lidojumi ir aizliegti, zonā B (dzeltenā) — tikai ar DCA atļauju.",
+      "Vairumā DJI dronu iepriekš instalētā ģeozonu karte Kiprai nav pareizā; C1, C2, C3, C5, C6 klases droniem ielādē oficiālo DCA ģeozonu failu (drones.gov.cy).",
       "Ziemeļkipra (TRNC) ir atsevišķa jurisdikcija ar atšķirīgiem noteikumiem",
-      "UN Dead Zone ir stingra lidojumu aizlieguma zona"
+      "ANO buferzona (Dead Zone): jebkāda darbība bez iepriekšēja UNFICYP apstiprinājuma aizliegta — nelido tur."
     ],
     "primaryLinks": [
       {
@@ -32,7 +36,7 @@
       },
       {
         "title": "DCAD — Operatora reģistrācija",
-        "description": "Reģistrācija kā UAS pilotam (15 € / 3 gadi, derīga visās ES/EASA valstīs)"
+        "description": "Reģistrācija kā UAS operatoram (15 € / 3 gadi, derīga visās ES/EASA valstīs)"
       },
       {
         "title": "drones.gov.cy — Ģeozonu karte",
@@ -53,8 +57,8 @@
         "description": "Informācija par Larnakas un Pafas lidostām"
       }
     ],
-    "disclaimerText": "Pirms katra lidojuma vienmēr pārbaudi DCA Cyprus un drones.gov.cy oficiālos avotus. Šī lietotne ir rīks, nevis juridiska instance. Kipra ievēro EASA noteikumus ar stingriem nacionālajiem papildinājumiem, piemēram, nakts lidojumu aizliegumu.",
-    "sectionLabelRules": "PAMATNOTEIKUMI (EASA ATVĒRTĀ KLASE)",
+    "disclaimerText": "Pirms katra lidojuma vienmēr pārbaudi DCA Cyprus un drones.gov.cy oficiālos avotus. Šī lietotne ir rīks, nevis juridiska instance. Kipra ievēro EASA noteikumus ar nacionālajām ģeogrāfiskajām zonām (Κ.Δ.Π. 190/2024 ar grozījumiem).",
+    "sectionLabelRules": "PAMATNOTEIKUMI (EASA ATVĒRTĀ KATEGORIJA)",
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",
     "linksSheetTitle": "Gaisa telpa un noteikumi — Kipra",

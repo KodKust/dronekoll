@@ -1,37 +1,41 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
-      "UAS-üzemben tartóként való regisztráció (ingyenes) a legalább 250 g tömegű vagy kamerával felszerelt drónok esetén",
-      "A1/A3 online képzés szükséges – legalább 16 éves kortól",
-      "A repülőterek CTR-jében és ATZ-jében történő repülés csak a légiforgalmi irányítással vagy a repülőtér üzemeltetőjével való egyeztetés után engedélyezett",
-      "Az autópályák és főutak feletti repülés korlátozott — kerüld a felettük való repülést",
-      "Mindig tartsd vizuális látótávolságon belül (VLOS) a drónt",
+      "A nyílt kategóriában a legnagyobb magasság 120 m, a Föld felszínének legközelebbi pontjától mérve — nem egyszerűen függőlegesen lefelé, így lejtő közelében a melletted lévő terep is számíthat. Egy 105 m-nél magasabb mesterséges akadály 50 m-es körzetében az akadályért felelős szervezet engedélyt kérhet arra, hogy az akadály magasságánál legfeljebb 15 m-rel magasabban is lehessen repülni.",
+      "Drónüzemben tartóként regisztrálnod kell, ha a drónod 250 g-os vagy nehezebb (vagy ütközéskor több mint 80 J mozgási energiát adhat át) — ez a játékokra is vonatkozik. 250 g alatt is kötelező a regisztráció, ha a drónon személyes adatok rögzítésére alkalmas érzékelő van, kivéve, ha az uniós játékbiztonsági irányelv szerint játéknak minősül. A képzési/pilótaengedély-követelmények ettől függetlenek, és a drón osztályától és alkategóriájától függenek.",
+      "A nyílt kategóriában az önálló repülés alsó korhatára 16 év — az A1/A3 online képzés és vizsga 5 évig érvényes, és az egész EU-ban elismerik. Nincs korhatár: játéknak minősülő C0 osztályú drón az A1 alkategóriában, vagy saját építésű, 250 g alatti drón esetén; egyébként a fiatalabb pilóták csak a kor- és képzési követelményeknek megfelelő pilóta közvetlen felügyelete alatt repülhetnek.",
+      "Turisták: egy másik EU-/EASA-országban szerzett üzemben tartói regisztráció és A1/A3 bizonyítvány Csehországban is érvényes (csak egy országban regisztrálhatsz). EU-n kívülről: abban az első EU-/EASA-országban regisztrálj, ahol repülni fogsz (Csehországban az ÚCL-nél a dron.caa.gov.cz oldalon), és ha a drónodhoz képzés szükséges, végezd el az uniós szabályok szerinti képzést – a nem uniós országok bizonyítványait nem ismerik el.",
+      "Csehországban kötelező a felelősségbiztosítás az A2 alkategóriában, valamint az A3-ban a 4 kg feletti drónokra (az A1-ben nem) — ellenőrizd, hogy a biztosításod fedezi-e a csehországi repüléseket.",
+      "A repülőterek CTR-jeiben és ATZ-iben koordináció nélkül csak a rácsháló által meghatározott magasságig repülhetsz (ellenőrizd a DroneMapben). Magasabban csak az ŘLP-vel való koordináció után és a repülés DroneMapben való megjelölésével; a CTR belső zónájában a repülést mindig meg kell jelölni a DroneMapben, a rácsmagasság felett pedig a repülőtér üzemeltetőjével is egyeztetni kell. Katonai repülőtereknél (MCTR) szigorúbb feltételek érvényesek. Nem ellenőrzött repülőtereken a rácsmagasság felett csak az AFIS-szal vagy a repülőtér üzemeltetőjével való koordináció után. A DroneMapben való megjelölés nem vonatkozik a regisztrációt nem igénylő drónokra.",
+      "Sűrűn lakott területeken (LKR316 zóna) a repülési területet előre meg kell jelölni a DroneMapben (dronemap.gov.cz). A megjelölésnek (itt, valamint a CTR-ekben és a védett természeti területeken is) tartalmaznia kell a magasságot, az időpontot, a drón típusát és tömegkategóriáját, valamint az üzemben tartó regisztrációs számát. Nem vonatkozik azokra a drónokra, amelyeknél nem kötelező az üzemben tartói regisztráció.",
+      "Nemzeti parkok, tájvédelmi körzetek (CHKO) és kis kiterjedésű védett területek, pl. természetvédelmi területek (LKR318 zóna): repülni csak az illetékes természetvédelmi hatóságnak tett előzetes bejelentés vagy annak engedélye alapján, a repülési terület DroneMapben való megjelölésével lehet. Nem vonatkozik azokra a drónokra, amelyeknél nem kötelező az üzemben tartói regisztráció.",
+      "Utak (LKR317 zóna): autópálya vagy I. rendű út tengelyétől 50 m-en belül főszabályként csak az ŘSD hozzájárulásával; II. és III. rendű utak tengelyétől 15 m-en belül főszabályként csak az út tulajdonosának vagy kezelőjének hozzájárulásával (hasonlóan a sűrűn lakott területeken kívüli helyi utaknál). A repülési területet meg kell jelölni a DroneMapben – nem vonatkozik azokra a drónokra, amelyeknél nem kötelező az üzemben tartói regisztráció.",
+      "A nyílt kategóriában a drónt közvetlen látótávolságon belül kell tartanod, szabad szemmel (szemüveg/kontaktlencse megengedett; távcső vagy képernyő nem számít) — vagy egy megfigyelő segítségével, úgy, hogy mindvégig egyértelműen és hatékonyan kommunikáltok egymással, így együtt figyelhetitek a légteret és kerülhetitek el az ütközéseket. A „follow-me” (követő) mód külön kivétel, csak az A1 alkategóriában, a pilótától 50 m-en belül engedélyezett.",
       "Ne repülj embertömeg felett. A műveletben részt nem vevő személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; ellenőrizd a hivatalos táblázatot.",
       "Az EASA nyílt kategóriájának alapszabályai szerint az éjszakai repülés megengedett, ha az előírt zöld villogó fényt használják, kivéve, ha valamely hatályos földrajzi zóna vagy nemzeti szabály szigorúbb feltételt ír elő.",
-      "A szabálysértésekért akár 5 000 000 CZK (≈ 185 000 €) bírság is kiszabható",
-      "A prágai vár és a kormányzati épületek: szigorú repülési tilalmi zónák"
+      "A szabálysértésekért akár 3 000 000 CZK (≈ 120 000 €) bírság is kiszabható",
+      "A prágai vár és a kormányzati épületek: abszolút repülési tilalmi zónák"
     ],
     "importantNotes": [
-      "A repülőterek CTR-jében és ATZ-jében történő repüléshez egyeztetés szükséges a légiforgalmi irányítással vagy a repülőtér üzemeltetőjével",
-      "Az autópályák és főutak feletti átrepülés korlátozott Csehországban – úgy tervezd meg az útvonalat, hogy elkerüld őket",
-      "Akár 5 000 000 CZK (≈ 185 000 €) bírság",
+      "A repülőterek CTR-jeiben és ATZ-iben koordináció nélkül csak a rácsháló által meghatározott magasságig (ellenőrizd a DroneMapben); magasabban csak koordináció után (CTR-ben az ŘLP-vel, nem ellenőrzött repülőtereken az AFIS-szal vagy a repülőtér üzemeltetőjével) és a repülés DroneMapben való megjelölésével; a CTR belső zónájában a megjelölés mindig kötelező",
+      "Utak (LKR317 zóna): autópályáknál és I. rendű utaknál főszabályként a tengelytől 50 m-en belül csak az ŘSD hozzájárulásával; II. és III. rendű utaknál főszabályként a tengelytől 15 m-en belül csak az út tulajdonosának vagy kezelőjének hozzájárulásával",
+      "Akár 3 000 000 CZK (≈ 120 000 €) bírság",
       "A prágai vár területén szigorú repülési tilalom van érvényben",
       "A GDPR alkalmazandó az azonosítható személyeket ábrázoló felvételek gyűjtésére"
     ],
     "primaryLinks": [
       {
-        "title": "CAA – Drónszabályok",
-        "description": "A Polgári Repülési Hatóság hivatalos drónszabályai és forrásai"
+        "title": "ÚCL — Drónszabályok",
+        "description": "A Polgári Légügyi Hivatal hivatalos drónszabályai és forrásai"
       },
       {
-        "title": "CAA – Üzemben tartói regisztráció",
+        "title": "ÚCL — Üzemben tartói regisztráció",
         "description": "Ingyenes regisztráció UAS-üzemben tartóként (minden EU-/EASA-országban érvényes)"
       },
       {
@@ -39,18 +43,18 @@
         "description": "Hivatalos interaktív térkép a drónzónákkal és légtérkorlátozásokkal"
       },
       {
-        "title": "CAC – A szabályok áttekintése",
-        "description": "A csehországi drónrepülés szabályainak áttekintése"
+        "title": "ÚCL — Szabályok áttekintése",
+        "description": "A drónrepülés szabályainak áttekintése Csehországban"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Légiforgalmi irányítás – NOTAM és légtér",
-        "description": "Cseh légiforgalmi irányítás és légtér-információ"
+        "title": "ŘLP — NOTAM és légtér",
+        "description": "Cseh légiforgalmi irányítás és légtérinformációk"
       },
       {
-        "title": "CAA – Drón GYIK",
-        "description": "Gyakran ismételt kérdések a csehországi drónszabályokról"
+        "title": "ÚCL — GYIK a drónokról",
+        "description": "Gyakran ismételt kérdések a csehországi drónszabályozásról"
       }
     ],
     "disclaimerText": "Repülés előtt mindig ellenőrizd a Polgári Repülési Hatóság (ÚCL) és a Dronemap.gov.cz hivatalos forrásait. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Csehország az EASA szabályait követi, nemzeti kiegészítésekkel.",
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
     "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
     "linksSheetTitle": "Légtér és szabályok – Csehország",
-    "dronePilotCredentialName": "Drónpilóta-engedély"
+    "dronePilotCredentialName": "A1/A3 képzési tanúsítvány"
   }
 }

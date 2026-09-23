@@ -1,27 +1,33 @@
 {
   "meta": {
-    "sourceHash": "508ee28346525a09001728f6f525106d73a15d373ba459d581dbbbe091cc7d62",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eee1f5c184b67a857980e5927e116be613b5cef533bad82326dd2e369b059d05",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne daugiau kaip 120 m virš žemės paviršiaus (EASA atviroji kategorija)",
+      "Atvirojoje kategorijoje didžiausias aukštis yra 120 m, matuojant atstumą iki artimiausio žemės paviršiaus taško — ne vien tiesiai žemyn, todėl prie šlaito gali būti atsižvelgiama ir į greta esantį žemės paviršių. Kai skraidoma ne toliau kaip 50 m nuo aukšto dirbtinio objekto (aukštesnio nei 105 m), už jį atsakingas subjektas gali paprašyti leidimo skristi iki 15 m virš objekto aukščio.",
       "Visiškai atitinka Šveicarijos FOCA dronų taisykles",
-      "Registracija Šveicarijos sistemoje (10 CHF, galioja neribotą laiką), jei dronas sveria 250 g ar daugiau arba turi kamerą",
+      "Turite registruotis kaip drono operatorius, jei dronas sveria 250 g ar daugiau (arba smūgio metu gali perduoti daugiau kaip 80 J kinetinės energijos) — tai taikoma ir žaislams. Jei dronas sveria mažiau nei 250 g, registracija vis tiek privaloma, kai jame yra jutiklis, galintis fiksuoti asmens duomenis, nebent jis laikomas žaislu pagal EU Toy Safety Directive. Operatoriaus numeris (be paskutinių trijų simbolių) turi būti aiškiai matomas ant kiekvieno drono. Piloto mokymo / kompetencijos reikalavimai reglamentuojami atskirai ir priklauso nuo drono klasės bei pakategorės.",
+      "Mažiausias nuotolinio piloto amžius (atviroji kategorija): 12 metų; jaunesni pilotai — tik prižiūrimi ne jaunesnio kaip 16 metų asmens, turinčio pažymėjimą",
       "Privalomasis civilinės atsakomybės draudimas dronams, sveriantiems daugiau nei 250 g (draudimo suma — 1 mln. CHF)",
-      "Vaduz Castle: visiškas skrydžių draudimas",
-      "Visada išlaikykite tiesioginį regėjimo ryšį su dronu (VLOS)",
+      "Skrydžio metu turi būti įjungtas Remote ID (nuotolinis identifikavimas) su įrašytu operatoriaus numeriu — išskyrus C0 klasės, senesnius (legacy) ir savadarbius dronus",
+      "Nuolatinė dronų neskraidymo zona „Regierungsgebäude – Landtag – Schloss Vaduz“ (visoms svorio klasėms). Išimties leidimų galima prašyti Amt für Hochbau und Raumplanung.",
+      "Balzers sraigtasparnių aerodromas (LSXB): dalyje Balzers teritorijos draudžiami sunkesni nei 250 g dronai, o tiesiai prie sraigtasparnių aerodromo — visi dronai; išimtys tik su leidimu",
+      "Atvirojoje kategorijoje droną turite laikyti savo regėjimo lauke plika akimi (akiniai ar kontaktiniai lęšiai tinka; žiūronai ar ekranas nelaikomi tinkamais) — arba skraidyti padedami stebėtojo, visą laiką palaikydami aiškų ir veiksmingą tarpusavio ryšį, kad kartu galėtumėte stebėti oro erdvę ir išvengti susidūrimų. Follow-me režimas yra atskira išimtis: leidžiama skristi iki 50 m nuo piloto.",
+      "Naktiniai skrydžiai — tik regėjimo lauke ir su įjungtais padėties žibintais; atitinkamai sumažinkite atstumą",
       "Neskriskite virš žmonių susibūrimų. Neįtrauktiems asmenims taikomos taisyklės priklauso nuo subkategorijos, klasės žymos ir eksploatavimo sąlygų; patikrinkite oficialią lentelę.",
-      "Ne arčiau kaip 5 km nuo bet kurio oro uosto ar aerodromo",
+      "Nėra vieno visoje ES galiojančio atstumo, kurio privaloma laikytis nuo oro uostų. Ribojimai prie oro uostų skelbiami kaip geografinės zonos (15 straipsnis), kurių forma ir dydis skiriasi priklausomai nuo oro uosto. Prieš skrisdami netoli oro uosto, aerodromo ar sraigtasparnių aikštelės patikrinkite oficialų savo šalies dronų zonų žemėlapį; skrydžiui kontrolės zonoje (CTR) paprastai reikia išankstinio skrydžių valdymo leidimo.",
+      "Prieš kiekvieną skrydį taip pat patikrinkite DABS (Daily Airspace Bulletin Switzerland, skybriefing.com/de/dabs) — jei skrydžio zona paveikta, skraidyti negalima.",
       "Labai maža šalis — skrydžiams per sieną į Šveicariją ar Austriją reikia ypatingo dėmesio",
       "Alpių reljefas: saugokitės sraigtasparnių maršrutų"
     ],
     "importantNotes": [
       "Lichtenšteinas visiškai laikosi Šveicarijos FOCA taisyklių",
       "Ta pati registracijos sistema kaip Šveicarijoje (10 CHF, galioja neribotą laiką)",
-      "Vaduz Castle yra griežta neskraidymo zona",
+      "Gyvenantiems EASA valstybėje (ES, Šveicarijoje, Lichtenšteine, Norvegijoje, Islandijoje): registruokitės savo gyvenamosios vietos šalyje — registracija galioja visose EASA valstybėse. Gyvenantiems ne EASA valstybėse: užsiregistruokite prieš skrydį, nebent jau esate užsiregistravę EASA valstybėje (Šveicarijoje — per dLIS pas BAZL, CHF 10). Ne EASA valstybių nuotolinio piloto pažymėjimai nepripažįstami.",
+      "Teritorija „Regierungsgebäude – Landtag – Schloss Vaduz“ yra nuolatinė dronų neskraidymo zona (visoms svorio klasėms)",
       "Šalis vos apie 25 km ilgio — lengva netyčia kirsti sieną",
       "Fiksuojant atpažįstamus asmenis taikomas GDPR (šalis yra EEA narė)"
     ],
@@ -35,12 +41,12 @@
         "description": "Ta pati registracijos sistema kaip Šveicarijoje (10 CHF, galioja neribotą laiką)"
       },
       {
-        "title": "Swiss Dronemap — Oro erdvės žemėlapis",
-        "description": "Oficialus interaktyvus dronų žemėlapis (įskaitant Lichtenšteiną)"
+        "title": "BAZL dronų žemėlapis — Oro erdvės žemėlapis",
+        "description": "Oficialus BAZL dronų žemėlapis (galioja ir Lichtenšteine)"
       },
       {
-        "title": "Lichtenšteino vyriausybė — Aviacija",
-        "description": "Lichtenšteino vyriausybės portalas su aviacijos informacija"
+        "title": "Landespolizei Liechtenstein — Dronai",
+        "description": "Informacija apie dronus ir neskraidymo zonas Lichtenšteine"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +59,7 @@
         "description": "Dažnai užduodami klausimai apie dronų taisykles"
       }
     ],
-    "disclaimerText": "Prieš kiekvieną skrydį visada pasitikrinkite oficialius FOCA/BAZL šaltinius ir Swiss Dronemap. Ši programėlė yra įrankis, o ne teisinis šaltinis. Lichtenšteinas laikosi Šveicarijos FOCA/EASA taisyklių.",
+    "disclaimerText": "Prieš kiekvieną skrydį visada pasitikrinkite oficialius FOCA/BAZL šaltinius ir BAZL dronų žemėlapį. Ši programėlė yra įrankis, o ne teisinis šaltinis. Lichtenšteinas laikosi Šveicarijos FOCA/EASA taisyklių.",
     "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS (EASA ATVIROJI KATEGORIJA)",
     "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
     "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",

@@ -1,39 +1,42 @@
 {
   "meta": {
-    "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c7bb0eb5efb529d016ee7e14e38488c5a01fec2c25b6f85e5c65f17487613d71",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimālais augstums: 152 m (500 ft) virs zemes (AGL)",
-      "Minimālais attālums 4 km no lidostām un lidlaukiem",
-      "Minimālais attālums 30 m horizontāli un 20 m vertikāli no cilvēkiem, ēkām vai objektiem",
-      "Komerciāla lietošana (jebkurš svars): nepieciešama MTC reģistrācija + īpaša atļauja",
-      "Vienmēr turi dronu tiešā redzamības laukā (VLOS)",
-      "Lidojumi atļauti tikai dienā — nakts lidojumiem nepieciešama īpaša DGAC atļauja",
-      "Pilsētas zonas: nepieciešams iepriekšējs MTC apstiprinājums; lauku apvidos: īpašu ierobežojumu nav",
-      "Ierobežotās zonas: lidostas, lidlauki, stratēģiskās iekārtas un blīvi apdzīvotas zonas bez atļaujas",
-      "Juridiskais nošķīrums: atpūtas lietošana (brīvais laiks) pret profesionālu/komerciālu lietošanu (specializētas darbības)"
+      "Maksimālais augstums: 152 m (500 ft) virs zemes līmeņa (AGL) (NTC 001-2015, art. 8(e)(10)).",
+      "Minimālais attālums 4 km no lidostām un lidlaukiem (NTC 001-2015, art. 8(e)(19)).",
+      "Visos lidojuma posmos ievēro vismaz 30 m horizontālo un 20 m vertikālo attālumu no cilvēkiem, ēkām vai šķēršļiem (NTC 001-2015, art. 8(e)(9)).",
+      "Nelido virs automaģistrālēm, ceļiem, takām, tiltiem, elektroapgādes vai telekomunikāciju infrastruktūras (stabiem, torņiem, kabeļiem, antenām), kuģojamiem ūdensceļiem vai ogļūdeņražu cauruļvadiem; to tuvumā turies vairāk nekā 30 m horizontāli no to malas (NTC 001-2015, art. 8(e)(20)).",
+      "Atpūtas lietošana: droni, kas sver mazāk par 2 kg, ir izslēgti no Likuma Nr. 30740 un tā izpildes noteikumu darbības jomas, taču NTC 001-2015 ekspluatācijas ierobežojumi (augstums, attālumi, zonas) attiecas uz jebkuru civilo lietošanu. No 2 kg un jebkurai lietošanai, kas nav atpūta, drons jāreģistrē DGAC; par reģistrācijas neveikšanu draud naudassods (Likums Nr. 30740, 3. un 4. pants); procedūra notiek automātiski, izmantojot MTC Virtual Filing Desk (Mesa de Partes Virtual).",
+      "Lietošana, kas nav atpūta (jebkurš svars): drona reģistrācija, RPAS pilota akreditācija (vecums no 18 gadiem, RPAS kurss CIAC vai aeroklubā un DGAC eksāmens), civiltiesiskās atbildības apdrošināšana vismaz 10 UIT apmērā un DGAC atļauja (NTC 001-2015, para. 8(c)-(d)). Kopš 2025. gada janvāra reģistrācija notiek automātiski.",
+      "Dronam visu laiku jāatrodas pilota tiešā redzamības laukā.",
+      "Lidot atļauts tikai dienā: NTC aizliedz darbības nakts apstākļos (pēc saulrieta vai pirms saullēkta) (NTC 001-2015, art. 8(e)(13)).",
+      "Pilsētu un apdzīvotās teritorijas: lidot nav atļauts. DGAC to atļauj tikai izņēmuma kārtā valsts iestādēm, to līgumpartneriem, pakalpojumiem, kas atzīti par sabiedrības interesēs esošiem, ugunsdzēsējiem un INDECI, ar droniem līdz 6 kg, kas aprīkoti ar izpletni. Par pilsētas teritoriju uzskata katru departamenta, provinces vai apgabala centru un katru apdzīvoto vietu, kurā ir vairāk nekā 1000 iedzīvotāju. Lauku apvidi: uz tiem attiecas standarta vispārējie ierobežojumi (NTC 001-2015, art. 8(e)(2) un (f)).",
+      "Ierobežotās zonas: lidostas, lidlauki, stratēģiski objekti un blīvi apdzīvotas teritorijas, ja vien nav atļaujas.",
+      "Juridiskais nošķīrums: atpūtas lietošana (brīvais laiks) pret profesionālu/komerciālu lietošanu (specializētas darbības), katrai no tām ir atšķirīgas prasības."
     ],
     "importantNotes": [
       "🏛️ MACHU PICCHU UN ARHEOLOĢISKĀS VIETAS: Ministry of Culture aizliedz dronu lietošanu bez īpašas atļaujas Machu Picchu, Nazca Lines, Chan Chan, Caral, Kuélap un citās arheoloģiskās vietās. Papildus MTC atļaujai nepieciešama Ministry of Culture atļauja.",
       "🌳 AIZSARGĀJAMĀS DABAS TERITORIJAS UN AMAZON: SERNANP (National Service for Protected Natural Areas) prasa īpašu atļauju droniem tādos parkos kā Manu, Tambopata un Huascarán. Amazon reģionā un pamatiedzīvotāju kopienās ir papildu ierobežojumi.",
-      "🏙️ PILSĒTU TERITORIJAS — Lima UN Cusco: Lima centram (Plaza Mayor, Government Palace), Jorge Chávez Airport (LIM), Cusco centram un lidostai (CUZ), militārajām zonām un vēstniecībām ir pastāvīgi ierobežojumi. Cusco vēsturiskajam centram nepieciešama Ministry of Culture atļauja."
+      "🏙️ PILSĒTU TERITORIJAS LIMĀ UN KUSKO: Lima un Kusko ir pilsētu teritorijas, kur lidot nav atļauts, izņemot ar izņēmuma atļauju (NTC 001-2015, art. 8(e)(2) un (f)). Valdības pils, militārās teritorijas, Jorge Chávez (LIM) un Cusco (CUZ) lidostas un AIP-Perú vai NOTAM publicētās zonas arī ir ierobežotās zonas (art. 8(e)(19) un (22)). Kusko vēsturiskajā centrā papildus nepieciešams Kultūras ministrijas labvēlīgs atzinums (Likums Nr. 30740, 2.5. pants).",
+      "⚠️ SODI: Nacionālā policija var iejaukties un konfiscēt dronu, ja ar to lido, pārkāpjot noteikumus; DGAC piemēro sodus, tostarp naudassodus (D.S. 012-2026-MTC, 7. un 73. pants; Likums Nr. 30740, 4. pants)."
     ],
     "primaryLinks": [
       {
-        "title": "MTC — Prasības drona ekspluatācijai",
-        "description": "Transporta un komunikāciju ministrijas (MTC) oficiālā vietne ar prasībām dronu ekspluatācijai. Tā ietver regulējumu NTC 001-2015 un DGAC procedūras."
+        "title": "MTC — Likuma Nr. 30740 izpildes noteikumi (D.S. 012-2026-MTC)",
+        "description": "Oficiālie MTC noteikumi (29/05/2026). Jaunās kategorijas un licences stāsies spēkā, kad DGAC atjauninās NTC 001-2015; līdz tam piemēro NTC."
       },
       {
-        "title": "MTC virtuālais iesniegšanas galds — RPAS reģistrācija",
-        "description": "MTC oficiālā tiešsaistes platforma dronu (RPAS) reģistrācijai pilnībā tiešsaistē. Izvēlies “Tālvadības pilotējamu gaisa kuģu sistēmu (RPAS) reģistrācija” un aizpildi veidlapu"
+        "title": "MTC Mesa de Partes Virtual (Virtual Filing Desk) — RPAS reģistrācija",
+        "description": "MTC oficiālā tiešsaistes platforma dronu (RPAS) reģistrācijai pilnībā tiešsaistē. Izvēlies \"Registro de Aeronaves Pilotadas a Distancia (RPAS)\" (tālvadības gaisa kuģu reģistrācija) un aizpildi veidlapu"
       },
       {
         "title": "MTC — Iestādes lapa",
-        "description": "Transporta un komunikāciju ministrijas galvenā vietne. Piekļuve procedūrām, noteikumiem un DGAC sniegtajiem aviācijas pakalpojumiem"
+        "description": "Transporta un komunikāciju ministrijas galvenā vietne. Piekļuve DGAC procedūrām, noteikumiem un aviācijas pakalpojumiem"
       },
       {
         "title": "DGAC — RPAS kontakts (atļaujas)",
@@ -42,23 +45,23 @@
     ],
     "secondaryLinks": [
       {
-        "title": "El Peruano — Dronu atļaujas (oficiāli)",
-        "description": "El Peruano oficiālais laikraksts: oficiāla informācija par atļaujām, kas nepieciešamas dronu ekspluatācijai saskaņā ar MTC un DGAC"
+        "title": "MTC — RPAS pilotu akreditācija",
+        "description": "MTC lapa (atjaunināta 11/08/2026): RPAS pilotu/operatoru pieteikums, tiešsaistes eksāmens un elektroniskā akreditācija (lietošanai, kas nav atpūta)."
       },
       {
-        "title": "TV Perú — Oficiāla prasību rokasgrāmata",
-        "description": "Sabiedriskā raidītāja TV Perú oficiāls atspoguļojums ar atjauninātu informāciju par prasībām dronu ekspluatācijai, kā to nosaka MTC"
+        "title": "MTC — Automātiska dronu reģistrācija (2025)",
+        "description": "MTC paziņojums (26/01/2025): RPAS reģistrācija, izmantojot Virtual Filing Desk (Mesa de Partes Virtual), aizņem tikai dažas minūtes."
       },
       {
         "title": "MTC biroji — Klātienes apkalpošana",
-        "description": "MTC galvenā mītne: Jr. Zorritos 1203, Cercado de Lima. Pakalpojumi pieejami arī reģionālajos iedzīvotāju apkalpošanas centros klātienes RPAS procedūrām."
+        "description": "MTC galvenā mītne: Jr. Zorritos 1203, Cercado de Lima. Pakalpojumi klātienes RPAS procedūrām pieejami arī reģionālajos iedzīvotāju apkalpošanas centros (Centros de Atención al Ciudadano)."
       }
     ],
-    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi Ministry of Transport and Communications (MTC) DGAC oficiālos avotus. Šī lietotne ir rīks, nevis juridiska instance. Peru piemēro Complementary Technical Standard (NTC) 001-2015 ar vienkāršotu reģistrāciju, izmantojot MTC Virtual Filing Desk.",
+    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi Ministry of Transport and Communications (MTC) DGAC oficiālos avotus. Šī lietotne ir rīks, nevis juridiska instance. Peru piemēro Likumu Nr. 30740, tā izpildes noteikumus (D.S. No. 012-2026-MTC) un NTC 001-2015 ar vienkāršotu reģistrāciju, izmantojot MTC Virtual Filing Desk (Mesa de Partes Virtual).",
     "sectionLabelRules": "GALVENIE NOTEIKUMI",
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",
     "linksSheetTitle": "Gaisa telpa un noteikumi — Peru",
-    "dronePilotCredentialName": "RPAS pilota licence"
+    "dronePilotCredentialName": "RPAS pilota/operatora akreditācija"
   }
 }

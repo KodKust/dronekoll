@@ -1,33 +1,36 @@
 {
   "meta": {
-    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
-    "engine": "opus-5",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "17cf8ce1211fdb6fb07c1979f47d5e58",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
-    "disclaimerText": "Verifică întotdeauna sursele oficiale DGCA și DigitalSky înainte de zbor. Această aplicație este un instrument — nu o autoritate juridică. India folosește o platformă digitală obligatorie pentru toată conformitatea privind dronele.",
+    "disclaimerText": "Verifică întotdeauna sursele oficiale DGCA (eGCA) și DigitalSky înainte de zbor. Această aplicație este un instrument — nu o autoritate juridică.",
     "sectionLabelRules": "REGULI ESENȚIALE",
     "sectionLabelPrimary": "SURSE OFICIALE",
     "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
     "linksSheetTitle": "Spațiu aerian și reguli — India",
     "dronePilotCredentialName": "Certificat de pilot la distanță",
     "keyRules": [
-      "DigitalSky împarte spațiul aerian în zone verzi (permisiune automată imediată), galbene (spațiu aerian controlat, procesare automată în circa 15–30 de minute — aici intră și banda perimetrală a aeroportului, aproximativ 8–12 km) și roșii (restricționate, cu aprobare manuală) — verifică întotdeauna DigitalSky înainte de zbor, deoarece limitele exacte ale zonelor din apropierea unui anumit aeroport pot diferi de acest tipar general.",
+      "DigitalSky împarte spațiul aerian în zone verzi (nu este necesară nicio permisiune, până la 120 m/400 ft), galbene (permisiunea autorității de control al traficului aerian competente) și roșii (doar cu permisiunea Guvernului central). La 8–12 km de perimetrul unui aeroport operațional, zona verde se aplică doar până la 60 m (200 ft); deasupra este zonă galbenă. Verifică întotdeauna harta DigitalSky înainte de zbor.",
+      "Cu excepția cazului în care este scutită (drone Nano de până la 250 g sau drone model de până la 25 kg folosite doar pentru educație, cercetare sau recreere în raza vizuală), o dronă trebuie să fie conformă cu un certificat de tip DGCA. DGCA a suspendat temporar, până la noi dispoziții, înregistrarea dronelor fără certificat de tip (doar dronele Nano și model fabricate în India pot depune cerere direct la DGCA), iar o dronă neînregistrată nu are voie să zboare.",
       "Asigurare obligatorie pentru toate categoriile, cu excepția Nano",
-      "Certificatul de pilot la distanță (RPC) este necesar pentru utilizarea comercială a dronelor Micro (250 g–2 kg) și mai mari și este obligatoriu pentru toate dronele din categoria Small (2–25 kg) și peste, indiferent de scop. Dronele Nano (sub 250 g) nu necesită niciodată un RPC, nici măcar pentru uz comercial.",
+      "Certificatul de pilot la distanță (RPC) este necesar pentru utilizarea comercială a dronelor Micro (>250 g–2 kg) și mai mari și este obligatoriu pentru toate dronele din categoria Small (2–25 kg) și peste, indiferent de scop. Dronele Nano (≤250 g) nu necesită niciodată un RPC, nici măcar pentru uz comercial.",
       "Fiecare zbor trebuie să rămână în raza vizuală directă — drona trebuie să fie vizibilă cu ochiul liber în permanență, fără binoclu sau alte mijloace similare — cu excepția cazului în care DGCA a acordat o aprobare specifică EVLOS sau BVLOS.",
       "Zborul în zonele roșii este strict interzis fără o autorizație specială din partea autorității competente, obținută prin DigitalSky."
     ],
     "importantNotes": [
-      "Înregistrarea în DigitalSky este obligatorie pentru toate dronele, cu excepția celor Nano (sub 250 g), care nu necesită nici înregistrare, nici UIN. Zborul cu o dronă neînregistrată, atunci când înregistrarea este obligatorie, riscă confiscarea aparatului.",
+      "Toate dronele, inclusiv cele Nano (≤250 g), trebuie înregistrate și trebuie să aibă un UIN (prin portalul eGCA al DGCA) înainte de zbor. Dronele Nano sunt scutite doar de certificarea de tip, de certificatul de pilot la distanță și de asigurarea de răspundere civilă față de terți. Zborul cu o dronă neînregistrată atrage riscul de sancțiuni și confiscare.",
+      "Vizitatori: importul de drone în India este interzis conform DGFT Notification 54/2022 (toate clasele de greutate, inclusiv ≤250 g), cu excepția autorizării DGFT pentru uz guvernamental/de cercetare-dezvoltare sau de apărare/securitate. Înregistrarea necesită un pașaport indian sau un act de identitate emis de guvernul indian și dovada adresei, așa că drona unui vizitator în general nu poate fi înregistrată și nici folosită legal.",
       "Zonele roșii includ aeroporturi, zone militare, frontiere și locații sensibile",
-      "Asigurarea este obligatorie pentru dronele din categoriile Micro, Small și Medium"
+      "Asigurarea este obligatorie pentru dronele din categoriile Micro, Small și Medium",
+      "Orice accident în care este implicată drona ta trebuie raportat la DGCA în termen de 48 de ore."
     ],
     "primaryLinks": [
       {
         "title": "DigitalSky — platforma DGCA",
-        "description": "Platformă obligatorie pentru înregistrarea dronelor, autorizațiile de zbor și verificările de zonă"
+        "description": "Platformă obligatorie pentru autorizațiile de zbor și verificările de zonă"
       },
       {
         "title": "DGCA — reglementări privind dronele",

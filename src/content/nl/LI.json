@@ -1,27 +1,33 @@
 {
   "meta": {
-    "sourceHash": "508ee28346525a09001728f6f525106d73a15d373ba459d581dbbbe091cc7d62",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eee1f5c184b67a857980e5927e116be613b5cef533bad82326dd2e369b059d05",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximaal 120 m boven de grond (EASA Open-categorie)",
+      "In de open categorie is de maximale hoogte 120 m, gemeten als de afstand tot het dichtstbijzijnde punt van het aardoppervlak — niet simpelweg recht naar beneden, dus bij een helling kan ook de grond naast je meetellen. Binnen 50 m van een hoog kunstmatig obstakel (hoger dan 105 m) kan de entiteit die verantwoordelijk is voor het obstakel toestemming aanvragen om tot 15 m boven de hoogte van het obstakel te vliegen.",
       "Volledig in overeenstemming met de Zwitserse FOCA-droneregelgeving",
-      "Registratie via het Zwitserse systeem (CHF 10, onbeperkt geldig) als de drone 250 g of meer weegt of voorzien is van een camera",
+      "Je moet je als droneoperator registreren als je drone 250 g of meer weegt (of bij een botsing meer dan 80 J kinetische energie kan overdragen) — dit geldt ook voor speelgoed. Weegt de drone minder dan 250 g, is registratie toch vereist als de drone een sensor heeft die persoonsgegevens kan vastleggen, tenzij hij als speelgoed geldt volgens de EU-richtlijn inzake de veiligheid van speelgoed. Het operatornummer (zonder de laatste drie tekens) moet duidelijk zichtbaar op elke drone staan. Eisen voor pilotenopleiding/-bekwaamheid zijn apart geregeld en hangen af van de klasse en subcategorie van de drone.",
+      "Minimumleeftijd voor piloten op afstand (open categorie): 12 jaar; jongere piloten alleen onder toezicht van een persoon van minstens 16 jaar die een certificaat heeft",
       "Verplichte aansprakelijkheidsverzekering voor drones die meer dan 250 g wegen (dekking van CHF 1 miljoen)",
-      "Vaduz Castle: volledig vliegverbod",
-      "Houd de drone altijd binnen direct zicht (VLOS)",
+      "Remote ID (identificatie op afstand) moet tijdens de vlucht zijn ingeschakeld, met het operatornummer opgeslagen — behalve bij klasse C0, legacy- en zelfgebouwde drones",
+      "Permanente no-flyzone voor drones “Regierungsgebäude – Landtag – Schloss Vaduz” (alle gewichtsklassen). Ontheffingen kunnen worden aangevraagd bij het Amt für Hochbau und Raumplanung.",
+      "Heliport Balzers (LSXB): drones boven 250 g zijn verboden in delen van Balzers, en alle drones direct bij de heliport — uitzonderingen alleen met een vergunning",
+      "In de open categorie moet je de drone binnen je eigen zichtlijn houden, met het blote oog (bril/contactlenzen zijn prima; een verrekijker of scherm telt niet) — of vliegen met hulp van een waarnemer, waarbij jullie te allen tijde duidelijk en doeltreffend met elkaar communiceren, zodat jullie samen het luchtruim kunnen bewaken en botsingen kunnen vermijden. De follow-me-modus is een aparte uitzondering, toegestaan tot 50 m van de piloot.",
+      "Nachtvluchten alleen binnen zichtbereik en met ingeschakelde positielichten; verklein de afstand navenant",
       "Vlieg niet over mensenmassa’s. De regels voor niet-betrokken personen zijn afhankelijk van de subcategorie, de klasse-aanduiding en de bedrijfsomstandigheden; raadpleeg de officiële matrix.",
-      "Minstens 5 km verwijderd van elke luchthaven of elk vliegveld",
+      "Er is geen uniforme EU-brede afstand die je tot luchthavens moet aanhouden. Beperkingen rond luchthavens worden gepubliceerd als geografische zones (artikel 15), waarvan vorm en grootte per luchthaven verschillen. Controleer voordat je in de buurt van een luchthaven, vliegveld of heliport vliegt de officiële dronezonekaart van je land; voor vliegen in een controlezone (CTR) is meestal vooraf toestemming van de luchtverkeersleiding nodig.",
+      "Controleer vóór elke vlucht ook het DABS (Daily Airspace Bulletin Switzerland, skybriefing.com/de/dabs) — als het vluchtgebied erdoor wordt geraakt, mag je niet vliegen.",
       "Een heel klein land — grensoverschrijdende vluchten naar Zwitserland of Oostenrijk vereisen bijzondere aandacht",
       "Alpien terrein: let op helikopterroutes"
     ],
     "importantNotes": [
       "Liechtenstein voldoet volledig aan de Zwitserse FOCA-regelgeving",
       "Hetzelfde registratiesysteem als Zwitserland (CHF 10, onbeperkt)",
-      "Vaduz Castle is een strikte no-flyzone",
+      "Woonachtig in een EASA-staat (EU, Zwitserland, Liechtenstein, Noorwegen, IJsland): registreer je in je land van verblijf — de registratie is geldig in alle EASA-staten. Woonachtig buiten de EASA-staten: registreer je vóór het vliegen, tenzij je al in een EASA-staat bent geregistreerd (in Zwitserland via dLIS bij het BAZL, CHF 10). Certificaten voor piloten op afstand uit niet-EASA-staten worden niet erkend.",
+      "Het gebied “Regierungsgebäude – Landtag – Schloss Vaduz” is een permanente no-flyzone voor drones (alle gewichtsklassen)",
       "Het land is slechts ongeveer 25 km lang — je steekt zomaar per ongeluk de grens over",
       "De GDPR is van toepassing (lid van de EEA) bij het vastleggen van identificeerbare personen"
     ],
@@ -35,12 +41,12 @@
         "description": "Hetzelfde registratiesysteem als in Zwitserland (CHF 10, onbeperkt geldig)"
       },
       {
-        "title": "Swiss Dronemap — Luchtruimkaart",
-        "description": "Officiële interactieve dronekaart (inclusief Liechtenstein)"
+        "title": "BAZL-dronekaart — Luchtruimkaart",
+        "description": "Officiële BAZL-dronekaart (geldt ook in Liechtenstein)"
       },
       {
-        "title": "Regering van Liechtenstein — Luchtvaart",
-        "description": "Overheidsportaal van Liechtenstein met luchtvaartinformatie"
+        "title": "Landespolizei Liechtenstein — Drones",
+        "description": "Drone-informatie en no-flyzones in Liechtenstein"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +59,7 @@
         "description": "Veelgestelde vragen over droneregelgeving"
       }
     ],
-    "disclaimerText": "Controleer vóór elke vlucht altijd de officiële bronnen van FOCA/BAZL en de Swiss Dronemap. Deze app is een hulpmiddel, geen juridische bron. Liechtenstein volgt de Zwitserse FOCA/EASA-regelgeving.",
+    "disclaimerText": "Controleer vóór elke vlucht altijd de officiële bronnen van FOCA/BAZL en de BAZL-dronekaart. Deze app is een hulpmiddel, geen juridische bron. Liechtenstein volgt de Zwitserse FOCA/EASA-regelgeving.",
     "sectionLabelRules": "BELANGRIJKSTE REGELS (EASA OPEN-CATEGORIE)",
     "sectionLabelPrimary": "OFFICIËLE BRONNEN",
     "sectionLabelSecondary": "AANVULLENDE BRONNEN",

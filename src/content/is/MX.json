@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "17d852a01e48f71061854c0a7b614ed78721768d3d73eccf5ccdda3a556d264f",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "da2427b1326315670ad00c40760c98fe7dcb581d5abb3f16d2aa07daea8f6c28",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Hámarkshæð: 120 m (400 fet) yfir jörðu",
-      "Lágmarksfjarlægð 9,2 km frá stýrðum flugvöllum",
-      "Lágmarksfjarlægð 3,7 km frá óstýrðum flugvöllum",
+      "Lágmarksfjarlægð 9,2 km (5 NM) frá hvaða flugvelli sem er, stýrðum eða óstýrðum (NOM-107-SCT3-2019, 4.10.1).",
+      "Á milli 9,2 km (5 NM) og 18,5 km (10 NM) frá flugvöllunum sem taldir eru upp í NOM-107 (viðauka I): hámarkshæð 100 m (328 ft).",
       "Lágmarksfjarlægð 900 m frá þyrlupöllum",
+      "Bannað er að fljúga á bann-, hafta- eða hættusvæðum AIP (ENR 5.1) og í þyrluleiðum; athugaðu NOTAM fyrir hvert flug.",
       "Haltu drónanum ávallt innan beinnar sjónlínu (VLOS), ekki meira en 457 m frá stjórnanda",
-      "Drónar sem vega 250 g eða meira: skráningarskylda hjá AFAC (Appendix K-eyðublað)",
+      "Drónar yfir 250 g: skráningarskylda hjá AFAC áður en flogið er (Appendix K-eyðublað)",
       "Drónar sem vega minna en 250 g: undanþegnir skráningu, en allar aðrar reglur gilda",
-      "Þyngdarflokkar: Micro (≤2 kg), Light (2–25 kg), Heavy (>25 kg)",
+      "Þyngdarflokkar: Micro (≤2 kg), Small (>2–25 kg), Large (>25 kg)",
+      "Tómstundadrónar yfir 2 kg: mega aðeins fljúga innan flugmódelklúbba sem AFAC hefur heimilað.",
       "Næturflug krefst sérstakrar heimildar frá AFAC",
-      "Atvinnunotkun krefst viðbótarheimildar eftir þyngdarflokki"
+      "Einkanotkun sem ekki er í atvinnuskyni, eða notkun í atvinnuskyni: gild ábyrgðartrygging er skyldubundin; Micro (≤2 kg) krefst auk þess sérstakrar heimildar fyrir stýrt loftrými; Small og Large krefjast rekstrarheimildar frá AFAC."
     ],
     "importantNotes": [
-      "⚠️ ERLENDIR FLUGMENN: NOM-107 bannar rekstur dróna sem eru skráðir erlendis eða af erlendum ríkisborgurum nema tvíhliða samningur sé milli Mexíkó og upprunalandsins. Ferðamenn: athugaðu áður en þú ferðast.",
-      "Viðurlög fyrir ólöglegan rekstur geta numið allt að 80.000 MXN eða varðað fangelsi",
+      "ERLENDIR FLUGMENN: NOM-107-SCT3-2019 bannar rekstur dróna með erlenda skráningu eða sem erlendir ríkisborgarar stýra, nema tvíhliða samningur sé á milli Mexíkó og upprunalandsins — ekki er vitað um neinn slíkan samning í gildi eins og er.",
+      "Til að flytja Micro-dróna yfir 250 g og Small-dróna inn til Mexíkó verða þeir að hafa framleiðanda og gerð, raðnúmer, notendahandbók og hugbúnað sem takmarkar sjálfkrafa fjarlægð og hæð (NOM-107, 10.1).",
+      "AFAC getur beitt viðurlögum fyrir brot á NOM-107 samkvæmt Ley de Aviación Civil; notkun dróna til að fremja glæpi (t.d. að varpa sprengiefnum eða ráðast á fólk) varðar fangelsisvist (Código Penal Federal, gr. 163 Bis–Quáter).",
       "Þjóðgarðar og fornleifasvæði (INAH) banna almennt dróna án sérstaks leyfis",
       "Smábátahafnir og strandsvæði eru oft háð takmörkunum — hafðu samband við yfirvöld á staðnum",
       "Afgreiðslutími AFAC-skráningar er allt að 10 virkir dagar — skipuleggðu fram í tímann"
@@ -37,16 +40,12 @@
       {
         "title": "NOM-107-SCT3-2019 — Opinber staðall",
         "description": "Opinber mexíkóskur staðall sem setur kröfur um rekstur fjarstýrðra loftfarakerfa"
-      },
-      {
-        "title": "Umburðarbréf CO AV-23/10 R4",
-        "description": "Skyldubundið umburðarbréf sem setur ítarlegar tæknilegar og rekstrarlegar kröfur fyrir dróna"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "ASA — Flugvellir og stoðþjónusta",
-        "description": "Upplýsingar um mexíkóska alríkisflugvelli til að athuga takmörkuð svæði"
+        "title": "AFAC — Gagnagrunnur flugvalla og þyrlupalla",
+        "description": "Gildandi opinber skrá yfir flugvelli og þyrlupalla til að athuga lágmarksfjarlægðir NOM-107"
       },
       {
         "title": "SICT — Flugmál",
@@ -62,6 +61,6 @@
     "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
     "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
     "linksSheetTitle": "Loftrými og reglur — Mexíkó",
-    "dronePilotCredentialName": "Fjarflugmannsleyfi"
+    "dronePilotCredentialName": "RPAS-flugmannsheimild"
   }
 }

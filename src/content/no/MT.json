@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "20d25911745bc6945c5cccf0785ea82d556cd1bb0a98eb5f9e4b1f82d7230b03",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "58ca5d4ebda944ebab8099950bf44fbb0464a578adf9411beaecf769f1064e8c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimalt 120 m over bakken (EASA Open-kategori)",
-      "Registrer deg som UAS-operatør (€25/år, eller €10 for et turistpass)",
-      "A1/A3 nettbasert opplæring påkrevd — minstealder 16 år",
+      "I Open-kategorien er maksimal høyde 120 m, målt som avstanden til nærmeste punkt på jordoverflaten — ikke bare rett ned, så nær en skråning kan også terrenget ved siden av deg telle. Innenfor 50 m fra et høyt kunstig hinder (over 105 m) kan den som er ansvarlig for hinderet, be om tillatelse til å fly opptil 15 m over hinderets høyde.",
+      "Registrer deg som UAS-operatør på tmcad.idronect.com (€25/år; besøkende med EASA-operatørnummer: €10 for 3 måneder)",
+      "Operatørens registreringsnummer eller QR-koden for det må skrives ut og festes på dronen — politiet kan kontrollere, og mangler den, blir du ilagt sanksjon.",
+      "A1/A3-sertifikat kreves for droner over 250 g (nettbasert opplæring, eksamen på TM-CADs kontor i Lija) — minstealder 16 år",
+      "Droner med klassemerke C1, C2 eller C3 som har Remote ID, må fly med Remote ID aktivert og oppdatert, med operatørens registreringsnummer lagt inn.",
       "Ansvarsforsikring obligatorisk for droner uansett vekt",
       "HELE landet er kontrollert luftrom — sjekk alltid IDRONECT",
-      "Hold alltid dronen innenfor synsvidde (VLOS)",
+      "I Open-kategorien må du holde dronen innenfor din egen direkte synsvidde, med det blotte øye (briller/kontaktlinser er greit; kikkert eller skjerm teller ikke) — eller fly med hjelp av en observatør, med klar og effektiv kommunikasjon mellom dere til enhver tid, slik at dere sammen kan overvåke luftrommet og unngå kollisjoner. «Follow-me»-modus er et eget unntak, tillatt opptil 50 m fra piloten.",
       "Du må ikke fly over folkemengder. Reglene for uvedkommende avhenger av underkategori, klassemerke og driftsforhold; sjekk den offisielle oversikten.",
-      "Malta International Airport CTR dekker det meste av øya",
+      "Hele Malta er kontrollert luftrom — hver droneflyging krever autorisasjon fra TM-CAD via tmcad.idronect.com. Mange forespørsler med lav risiko godkjennes automatisk i løpet av få minutter når systemet bekrefter at flygingen oppfyller kravene; følg vilkårene i ditt Authorisation Form. En egen flyforbudssone på 5 km omfatter området rundt Malta International Airport.",
+      "Flyginger som ikke autoriseres automatisk, må sendes inn minst 5 virkedager i forveien. For å fly i en restriksjonssone må du laste opp et tillatelsesbrev ('no objection') fra soneeieren i IDRONECT.",
       "Nattflyging forbudt uten spesifikk autorisasjon",
-      "Valletta og historiske områder: ytterligere restriksjoner gjelder"
+      "Valletta er en 'Special Permit Zone': kommersielle flyginger krever en særskilt tillatelse, inkludert en 'no objection' fra statsministerens kontor. For all annen flyging i Valletta og de andre restriksjonssonene: sjekk IDRONECT-kartet og autorisasjonsvilkårene før du flyr."
     ],
     "importantNotes": [
-      "HELE landet er kontrollert luftrom — unikt i EU",
+      "HELE landet er kontrollert luftrom — hver flyging krever autorisasjon fra TM-CAD",
       "Forsikring obligatorisk for droner uansett vekt",
-      "Malta Airport CTR dekker det meste av hovedøya",
-      "Turistregistrering tilgjengelig (€10) for kortidsbesøkende",
-      "GDPR gjelder når man tar bilder av identifiserbare personer"
+      "Sjekk flyplassonene og andre restriksjonssoner på IDRONECT-kartet (tmcad.idronect.com/map)",
+      "Registrering for tre måneder (€10) for besøkende som allerede har et EASA-registreringsnummer som operatør; ellers €25",
+      "GDPR gjelder når man tar bilder av identifiserbare personer",
+      "Ha med bevis på registrering, forsikring, sertifikat og autorisasjon — mangler du dette, kan det gi bøter. En flyging uten autorisasjon eller utenfor vilkårene kan føre til at dronen konfiskeres."
     ],
     "primaryLinks": [
       {
@@ -32,7 +36,7 @@
       },
       {
         "title": "TM-CAD — Registrer deg som operatør",
-        "description": "Registrer deg som UAS-operatør (€25/år eller €10 for turist, gyldig i alle EU/EASA-land)"
+        "description": "Registrer deg som UAS-operatør på tmcad.idronect.com (€25/år, gyldig i alle EU/EASA-land; €10 for 3 måneder for besøkende som allerede har et EASA-operatørnummer)"
       },
       {
         "title": "IDRONECT — Flygeadministrasjon",
@@ -49,8 +53,8 @@
         "description": "Maltas flygetjenester og luftromsinformasjon"
       },
       {
-        "title": "TM-CAD — Drone-FAQ",
-        "description": "Ofte stilte spørsmål om droneforskrifter på Malta"
+        "title": "TM-CAD — Informasjon og hjelp",
+        "description": "Informasjon og hjelp om droneregelverket på Malta"
       }
     ],
     "disclaimerText": "Sjekk alltid de offisielle TM-CAD-kildene og IDRONECT før du flyr. Denne appen er et verktøy — ikke en rettskilde. Malta følger EASA-forskriftene — merk at hele landet er kontrollert luftrom.",

@@ -1,42 +1,44 @@
 {
   "meta": {
-    "sourceHash": "7ac6f58efeb57847db5c573b36f52f9091268fb859f217572eb22f0601db3ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "87a436fc2428e63cbeabda8e978948a403f544d76e6100f96d885f4d05ce52ec",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Hámarkshæð fer eftir þyngd: ≤250 g → 30 m; 250 g–25 kg → 60 m; 25–150 kg → 120 m",
-      "Drónar sem vega meira en 250 g (óháð notkun) þurfa að vera skráðir hjá AAC — kostnaður: US$5; skráning fer fram í eigin persónu í Albrook",
-      "Tómstundadrónar sem vega ≤250 g: skráning er EKKI nauðsynleg, en allar aðrar reglur gilda",
-      "Lágmarksfjarlægð 8 km frá flugvöllum og öðrum flugstöðum",
-      "Lágmarksfjarlægð 30 m lárétt og 10 m lóðrétt frá fólki",
-      "Haltu drónanum ávallt innan beinnar sjónlínu (VLOS)",
-      "Næturflug er BANNAÐ án sérstakrar undanþágu frá AAC",
-      "Ábyrgðartrygging er SKYLDUBUNDIN fyrir öll viðskipti",
-      "Skyldubundið eyðublað um upplýst samþykki vegna einkaeignar, verndarsvæða frumbyggja, verndaðra svæða og vatnasviðs Panama Canal",
-      "Atvinnunotkun krefst RPA-flugmannsleyfis til viðbótar við drónaskráningu"
+      "Hámarkshæð fer eftir flokki RPA: Micro (≤250 g) → 100 ft (~30 m); Light (251 g–25 kg) → 400 ft (~120 m); Medium (26–150 kg) → 400 ft, en takmarkast við 100 m án Mode S-ratsjársvara (AAC-staðall §9.2, §10.1.1, §11.1.5, §11.1.10).",
+      "Hvert RPA, þar á meðal í Micro-flokki (≤250 g), verður að vera skráð hjá AAC (§8.1, §9.1, §15.2 staðalsins) — ólíkt flestum löndum undanþiggur Panama ekki léttustu drónana skráningu. Skráning fer fram í eigin persónu í Albrook; athugaðu gildandi gjald.",
+      "Panama undanþiggur EKKI létta tómstundadróna (≤250 g) skráningu — ólíkt flestum löndum krefst AAC-staðallinn (§8.1, §9.1) skráningar fyrir alla RPA-flokka, þar á meðal Micro.",
+      "Allur RPA-rekstur í Panama krefst rekstrarheimildar frá AAC (§8.2, §8.20): leggðu fram Form 005 (Solicitud de Permiso de Actividades Aéreas Especiales) að minnsta kosti 5 virkum dögum fyrir fram.",
+      "Lágmarksfjarlægð 8 km (5 sjómílur) frá flugvöllum og flugbrautum, forsetaembætti lýðveldisins og fangelsum (§8.10–8.11 AAC-staðalsins). Staðallinn bannar einnig flug á stöðum sem stofna öryggi ríkisins í hættu, svo sem við sendiráð, opinberar stofnanir og banka (§8.11), og AAC viðheldur takmörkunum yfir lögreglustöðvum, sjúkrahúsum og öryggisráðuneytinu (tilkynning AAC frá 26/9/2025).",
+      "Við flugtak og lendingu skaltu halda að minnsta kosti 30 m láréttri og 10 m lóðréttri fjarlægð frá fólki sem ekki tekur þátt í rekstrinum (§13.1 AAC-staðalsins).",
+      "Þú verður ávallt að hafa drónann í beinni sjónsnertingu (RACP).",
+      "Næturflug er BANNAÐ án sérstakrar undanþágu frá AAC.",
+      "Ábyrgðartrygging gagnvart þriðja aðila er SKYLDUBUNDIN fyrir alla eigendur RPA (§8.4 AAC-staðalsins), óháð notkun. Flug yfir fólki krefst einnig heimildar AAC og samþykkis þeirra sem í hlut eiga (§8.16).",
+      "Bann-, hafta- eða hættusvæði (sjá AIP AAC) krefjast sérstakrar heimildar frá AAC og frá því yfirvaldi sem fer með svæðið — hvort tveggja er nauðsynlegt (§13.1 d AAC-staðalsins). Á skurðarsvæðinu, vernduðum svæðum og landsvæðum frumbyggja skaltu hafa samband við ábyrgt yfirvald áður en þú sækir um flugleyfi.",
+      "Hver sá sem stýrir RPA — einnig í tómstundaskyni og í Micro-flokki (≤250 g) — verður að hafa fjarflugmannsskírteini frá AAC og heilbrigðisvottorð í 3. flokki (§8.3, §9.1, §10.1 AAC-staðalsins). Atvinnunotkun krefst auk þess heimildar til atvinnurekstrar (§13.3)."
     ],
     "importantNotes": [
-      "📏 HÁMARKSHÆÐ FER EFTIR ÞYNGD (einstakt í Rómönsku Ameríku): RACP í Panama skilgreinir þrjú hámarkshæðarmörk eftir þyngd drónans: drónar ≤250 g eru takmarkaðir við AÐEINS 30 m, drónar sem vega 250 g–25 kg eru takmarkaðir við 60 m og aðeins drónar sem vega ≥25 kg mega ná staðalhæðinni 120 m. Athugaðu þyngd drónans þíns áður en þú skipuleggur flughæðina.",
-      "✈️ FERÐAMENN — 14 DAGA REGLAN: Ef dvöl þín í Panama er ≤14 almanaksdagar geturðu sótt um sérstaka heimild frá AAC án þess að skrá drónann varanlega. Ef dvölin er >14 dagar er skráning hjá AAC skyldubundin fyrir dróna >250 g. Tómstundadrónar ≤250 g eru undanþegnir í báðum tilvikum.",
-      "🚢 PANAMA CANAL — SÉRSTÖK TAKMÖRKUN: Vatnasvið Panama Canal (þar með talið skipastigarnir, Gatún Lake og aðliggjandi svæði) krefst skyldubundins Letter of Informed Consent frá Canal Authority fyrir hvert flug. AAC mun EKKI heimila rekstur yfir þessu svæði án þessa bréfs. Þetta gildir einnig um einkaeign, verndarsvæði frumbyggja og vernduð svæði.",
-      "🌳 VERNDUÐ SVÆÐI OG MIAMBIENTE: Þjóðgarðar eins og Soberanía, Volcán Barú, Coiba (á heimsminjaskrá UNESCO) og Darién krefjast sérstaks leyfis frá Ministry of the Environment (MiAmbiente). Eyjarnar Bocas del Toro og Guna Yala hafa einnig takmarkanir — hafðu samband við samfélagið á staðnum áður en þú flýgur.",
-      "🏢 SKRÁNING VERÐUR AÐ FARA FRAM Á STAÐNUM: Ólíkt flestum löndum verður skráning hjá AAC að fara fram Á STAÐNUM á skrifstofunni í Albrook (Building 805). Taktu með þér skilríki, drónann sjálfan, útfyllt eyðublað og US$5. Athugaðu hvort lausir tímar séu í boði og hversu langur afgreiðslutíminn er áður en þú ferðast."
+      "Ólíkt mörgum löndum skiptir Panama hámarkshæðinni eftir flokki RPA: 100 ft (~30 m) fyrir Micro (≤250 g), 400 ft (~120 m) fyrir Light (251 g–25 kg) og 400 ft fyrir Medium (26–150 kg) — en sá síðastnefndi takmarkast við 100 m án Mode S-ratsjársvara. Athugaðu flokk drónans þíns áður en þú skipuleggur flughæðina.",
+      "Ferðamenn: sérstaka leyfið fyrir erlend RPA eða rekstraraðila (Form 004) gildir í að hámarki 15 daga og er EKKI veitt fyrir tómstundastarfsemi (§8.22 AAC-staðalsins). Tómstundaflug krefst skráningar RPA hjá AAC (allir flokkar, þar á meðal Micro ≤250 g, §8.1) og RPA-flugmannsskírteinis frá AAC (§8.3); erlent skírteini er aðeins staðfest ef tvíhliða samningur er fyrir hendi (§18.17). Hafðu samband við AAC áður en þú ferðast.",
+      "PANAMASKURÐURINN — HAFTASVÆÐI: samkvæmt AIP AAC (ENR 5) er rekstur takmarkaður yfir skipastigunum Gatún, Pedro Miguel og Miraflores, stíflunum Gatún og Madden og yfir hverju skipi sem fer um skurðinn. Heimild frá AAC og frá því yfirvaldi sem fer með svæðið er nauðsynleg (§13.1 d AAC-staðalsins).",
+      "Casco Antiguo, Cinta Costera, Av. Balboa og Calle 50 og nærliggjandi svæði: auk heimildar AAC verður þú að tilkynna Servicio de Protección Institucional (SPI) bréflega.",
+      "🌳 VERNDUÐ SVÆÐI (MiAmbiente): á vernduðum svæðum SINAP mega aðeins gestir með gilt leyfi/skráningu nota dróna, í samræmi við gildandi verklag og gjöld (Resolución DM-0173-2026, 12. gr.). Hafðu samband við stjórn svæðisins áður en þú flýgur.",
+      "Ólíkt flestum löndum verður AAC-skráning að fara fram í eigin persónu í Albrook — kynntu þér gildandi verklag og kröfur áður en þú sækir um."
     ],
     "primaryLinks": [
       {
         "title": "AAC — Flugmálayfirvöld Panama",
-        "description": "Opinber vefur flugmálayfirvalda Panama. Upplýsingar um drónaskráningu, RACP-reglugerðir og ferli fyrir innlenda og erlenda rekstraraðila"
+        "description": "Opinber vefur flugmálayfirvalda Panama. Upplýsingar um drónaskráningu, RPAS-staðalinn og ferli fyrir innlenda og erlenda rekstraraðila"
       },
       {
-        "title": "RACP — Flugmálareglugerðir Panama",
-        "description": "Aðgangur að heildarflugmálareglugerðum Panama. Kafli um reglugerðir sem gilda um ómönnuð loftför (RPA)"
+        "title": "Norma AAC/DG/DSA/001-2021 — Fjarstýrð loftför (RPAS)",
+        "description": "Texti AAC-staðalsins sem setur fram kröfur um rekstur fjarstýrðra loftfarakerfa (RPAS) í Panama (PDF)"
       },
       {
         "title": "AAC skrifstofa í Albrook (skráning í eigin persónu nauðsynleg)",
-        "description": "Bygging 805, Albrook, fyrsta hæð — flugöryggisdeild. Drónaskráning VERÐUR að fara fram í eigin persónu: taktu með þér skilríki, drónann sjálfan og útfyllt eyðublað. Kostnaður: 5 US$"
+        "description": "Bygging 805, Albrook, jarðhæð — skjaladeild. Leggðu fram beiðnibréf (eða sendu það á correspondencia.aac@aeronautica.gob.pa); AAC úthlutar tíma. Taktu með skráningareyðublaðið, afrit af RPA-skírteininu þínu, persónuskilríki, tæknilýsingu, reikning, tryggingarskírteini og greiðslukvittun. Kostnaður: US$20"
       },
       {
         "title": "AAC — Fréttatilkynningar og gildandi reglugerðir",
@@ -46,7 +48,7 @@
     "secondaryLinks": [
       {
         "title": "STRI/Smithsonian — Leiðbeining um AAC-rannsóknir",
-        "description": "Ítarleg leiðbeining frá Smithsonian-suðrænu rannsóknastofnuninni um heimildarferli AAC, þar á meðal samþykkiseyðublaðið fyrir takmörkuð svæði"
+        "description": "Ítarleg leiðbeining frá Smithsonian-suðrænu rannsóknastofnuninni um heimildarferli AAC, þar á meðal samþykkisbréfið (Letter of Informed Consent) fyrir takmörkuð svæði"
       },
       {
         "title": "MiAmbiente — Vernduð svæði (þjóðgarðar)",
@@ -54,10 +56,10 @@
       },
       {
         "title": "Panamaskurður — Opinberar upplýsingar",
-        "description": "Skurðaryfirvöld Panama. Vatnasvið skurðarins krefst skyldubundins samþykkisbréfs — án þess veitir AAC ekki heimild"
+        "description": "Skurðaryfirvöld Panama. Skipastigarnir, stíflurnar og skip á leið um skurðinn eru haftasvæði (AIP ENR 5): heimild frá AAC og frá því yfirvaldi sem fer með svæðið er nauðsynleg"
       }
     ],
-    "disclaimerText": "Athugaðu ávallt opinberar heimildir AAC áður en þú flýgur. Þetta forrit er verkfæri, ekki lögbær heimild. Panama framfylgir Civil Aviation Regulations (RACP), sem fela í sér þyngdartengdar hámarkshæðir og sérstakar takmarkanir yfir vatnasviði Panama Canal.",
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir AAC áður en þú flýgur. Þetta forrit er verkfæri, ekki lögbær heimild. Panama beitir Norma AAC/DG/DSA/001-2021, með ÞYNGDARTENGDUM hámarkshæðum og haftasvæðum á Panamaskurðarsvæðinu (AIP ENR 5).",
     "sectionLabelRules": "HELSTU REGLUR",
     "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
     "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",

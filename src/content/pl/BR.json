@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalna wysokość: 120 m (400 ft) nad poziomem gruntu",
+      "Maksymalna wysokość: 120 m (400 ft) AGL (ANAC); loty rekreacyjne: nie wyżej niż 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "Drony o masie powyżej 250 g: obowiązkowa rejestracja w systemie SISANT (ANAC)",
-      "Drony o masie do 250 g: zwolnione z rejestracji, licencjonowane automatycznie",
-      "Minimalna odległość 5,4 km od lotnisk przy lotach na małej wysokości",
-      "Minimalna odległość 9 km od lotnisk przy lotach do 120 m",
+      "Drony do 250 g nie muszą być rejestrowane w SISANT (ANAC Resolution nr 806). Od 1 lipca 2026 r. (ICA 100-40) loty tymi dronami wymagają również zezwolenia za pośrednictwem SARPAS (DECEA). Drony powyżej 250 g muszą być zarejestrowane w SISANT.",
+      "Strefy ograniczeń lotów wokół lotnisk (FRZ) (ICA 100-40, obowiązuje od 1 lipca 2026 r.): wokół lotniska (ZEA) FRZ zaczyna się od poziomu gruntu do 1 740 m; pozostajesz poniżej niej, latając do 100 ft (30 m) dalej niż 1 740 m, do 200 ft (60 m) dalej niż 2 350 m, do 300 ft dalej niż 2 960 m i do 400 ft dalej niż 3 570 m. W sektorach podejścia i startu (ZAD) FRZ zaczyna się od poziomu gruntu do 3 550 m; dalej: do 100 ft dalej niż 3 550 m, do 200 ft dalej niż 4 480 m, do 300 ft dalej niż 5 400 m i do 400 ft dalej niż 6 320 m. Loty wewnątrz FRZ wymagają Termo de Coordenação i wniosku w SARPAS złożonego co najmniej 4 dni kalendarzowe wcześniej.",
+      "Loty rekreacyjne (ICA 100-40, art. 32): maksymalna wysokość 200 ft (60 m) AGL i maksymalna odległość pozioma 300 m. W pobliżu lotnisk obowiązują pasy FRZ – sprawdź w SARPAS.",
       "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
-      "Minimalna odległość 30 metrów od osób niezaangażowanych w operację",
-      "Przed każdym lotem w przestrzeni kontrolowanej wymagane jest zezwolenie SARPAS (DECEA)",
+      "Minimalna odległość 30 m od osób niezaangażowanych w operację",
+      "Każdy lot wymaga zezwolenia na dostęp do przestrzeni powietrznej za pośrednictwem SARPAS (DECEA), także w przypadku dronów do 250 g. Minimalne wyprzedzenie: 30 minut w kategorii otwartej; 4 lub 8 dni kalendarzowych dla operacji przecinających FRZ lub obszary zastrzeżone, BVLOS lub powyżej 400 ft. Loty rekreacyjne w EAC wyznaczonym do rekreacji są zwolnione.",
       "Sprzęt nadawczy musi posiadać certyfikat ANATEL",
-      "Loty nocne wymagają szczególnego zezwolenia oraz oświetlenia antykolizyjnego"
+      "Loty nocne: dron musi mieć światła nawigacyjne (ICA 100-40, art. 20)",
+      "Piloci poniżej 18 lat muszą zawsze latać w towarzystwie pilota powyżej 18 lat, który odpowiada za operację",
+      "Nierekreacyjne użycie dronów powyżej 250 g (RBAC nr 100): obowiązkowe jest ubezpieczenie od szkód wyrządzonych osobom trzecim. Zdanie egzaminu teoretycznego ANAC (RBAC 100.13(b)) nie jest wymagane do 31 grudnia 2026 r. (Resolution nr 805/2026, art. 2)."
     ],
     "importantNotes": [
-      "Turyści: Brazylia ZEZWALA na loty rekreacyjne, ale drony o masie powyżej 250 g muszą przed lotem zostać zarejestrowane w systemie SISANT",
-      "Kary nakładane przez ANAC mogą sięgać 7000 R$ za jedno naruszenie — operowanie bez rejestracji lub zezwolenia SARPAS jest poważnym wykroczeniem",
+      "Turyści: Brazylia ZEZWALA na loty rekreacyjne. Drony powyżej 250 g muszą być zarejestrowane w SISANT (cudzoziemcy mogą użyć paszportu), a loty wymagają zezwolenia SARPAS (DECEA), także w przypadku dronów do 250 g.",
+      "Grzywny ANAC za drony zaczynają się od kwot bazowych od R$ 750 do R$ 4 500 za naruszenie (operowanie bez rejestracji: R$ 2 250 – Resolution nr 762/2024); w zależności od okoliczności łagodzących i obciążających kwota końcowa może wynosić od 20% do 300% tej kwoty (Resolution nr 761/2024, art. 35). Lot bez zezwolenia SARPAS jest naruszeniem przepisów ruchu lotniczego rozpatrywanym przez JJAER (ICA 100-40, art. 66).",
       "Parki narodowe (ICMBio) oraz terytoria ludności rdzennej (FUNAI) zasadniczo zakazują używania dronów bez szczególnego zezwolenia",
       "Plaże oraz miejskie obszary turystyczne (Rio, São Paulo, Salvador) objęte są ograniczeniami gminnymi — sprawdź u władz lokalnych"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — Zezwolenie na lot (DECEA)",
-        "description": "System DECEA do składania wniosków o zezwolenie na lot w przestrzeni kontrolowanej. Wymagany przed każdym lotem"
+        "description": "System DECEA do składania wniosków o zezwolenie na dostęp do przestrzeni powietrznej, także dla dronów do 250 g. Wymagany przed każdym lotem"
       },
       {
         "title": "ANATEL — Certyfikacja sprzętu",
@@ -48,15 +50,15 @@
         "description": "Aktywne NOTAM-y oraz oficjalne mapy lotnicze DECEA pozwalające sprawdzić ograniczenia czasowe"
       },
       {
-        "title": "ANAC — Najczęściej zadawane pytania o drony",
-        "description": "Oficjalne odpowiedzi ANAC na częste pytania operatorów dronów"
+        "title": "ANAC — Najczęściej zadawane pytania o SISANT (rejestracja dronów)",
+        "description": "Oficjalne odpowiedzi ANAC dotyczące rejestracji w SISANT, także dla cudzoziemców"
       },
       {
-        "title": "RBAC-E nr 94 — Pełna norma techniczna",
-        "description": "Specjalny brazylijski przepis lotnictwa cywilnego nr 94 — pełny tekst mający zastosowanie do dronów"
+        "title": "RBAC nr 100 — pełna norma techniczna",
+        "description": "Brazylijskie przepisy lotnictwa cywilnego nr 100 (zastępują RBAC-E nr 94) — pełny tekst mający zastosowanie do dronów"
       }
     ],
-    "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła ANAC i DECEA. Ta aplikacja jest narzędziem, a nie organem prawnym. W Brazylii obowiązuje RBAC-E nr 94 (obecnie zastępowany przez RBAC nr 100), który wymaga uzyskania obowiązkowej zgody za pośrednictwem systemu SARPAS.",
+    "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła ANAC i DECEA. Ta aplikacja jest narzędziem, a nie organem prawnym. W Brazylii obowiązują RBAC nr 100 i Resolution nr 806 (ANAC, od czerwca 2026 r.) oraz ICA 100-40 (DECEA, od lipca 2026 r.), z obowiązkowym zezwoleniem za pośrednictwem systemu SARPAS.",
     "sectionLabelRules": "GŁÓWNE ZASADY",
     "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
     "sectionLabelSecondary": "DODATKOWE MATERIAŁY",

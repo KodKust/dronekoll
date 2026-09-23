@@ -1,37 +1,41 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimaalselt 120 m maapinnast (EASA avatud kategooria)",
-      "Registreeru tasuta UAS-operaatorina, kui droon kaalub 250 g või rohkem või on varustatud kaameraga",
-      "Nõutav A1/A3 veebikoolitus — vanuse alampiir 16 aastat",
-      "Lennud lennujaamade CTR-is ja ATZ-is on lubatud ainult pärast koordineerimist lennujuhtimise või lennujaama käitajaga",
-      "Kiirteede ja põhimaanteede kohal lendamine on piiratud — väldi neid",
-      "Hoia drooni alati otsenähtavuses (VLOS)",
+      "Avatud kategoorias on maksimaalne kõrgus 120 m, mõõdetuna kaugusena maapinna lähimast punktist — mitte lihtsalt otse alla, seega nõlva lähedal võib arvesse minna ka sinu kõrval olev maapind. Kõrgest tehislikust takistusest (üle 105 m) kuni 50 m kaugusel võib takistuse eest vastutav üksus taotleda luba lennata kuni 15 m takistuse kõrgusest kõrgemal.",
+      "Drooni operaatorina pead end registreerima, kui su droon kaalub 250 g või rohkem (või võib kokkupõrkel üle kanda üle 80 J kineetilist energiat) — see kehtib ka mänguasjadele. Alla 250 g on registreerimine siiski kohustuslik, kui droonil on isikuandmeid jäädvustada suutev andur, välja arvatud juhul, kui seda loetakse ELi mänguasjade ohutuse direktiivi järgi mänguasjaks. Koolituse/piloodilitsentsi nõuded on eraldi ja sõltuvad drooni klassist ja alamkategooriast.",
+      "Avatud kategoorias iseseisvalt lendamise minimaalne vanus on 16 — A1/A3 veebikoolitus ja eksam kehtivad 5 aastat ja on tunnustatud kogu ELis. Vanusepiirangut ei ole: C0-klassi droon, mis on mänguasi, alamkategoorias A1, või isehitatud alla 250 g droon; muul juhul tohivad nooremad piloodid lennata ainult vanuse- ja koolitusnõuetele vastava piloodi otsese järelevalve all.",
+      "Turistid: teises EL/EASA riigis tehtud operaatori registreering ja A1/A3 sertifikaat kehtivad ka Tšehhis (registreeruda saab ainult ühes riigis). Väljaspool ELi: registreeru esimeses EL/EASA riigis, kus hakkad lendama (Tšehhis ÚCL-is aadressil dron.caa.gov.cz), ning kui su droon nõuab koolitust, läbi koolitus ELi reeglite järgi – väljaspool ELi välja antud sertifikaate ei tunnustata.",
+      "Tšehhis on vastutuskindlustus kohustuslik alamkategoorias A2 ja A3-s üle 4 kg droonidele (mitte A1-s) — kontrolli, et su poliis kataks lende Tšehhis.",
+      "Lennujaamade CTR-ides ja ATZ-ides võid ilma kooskõlastuseta lennata ainult ruudustikuga määratud kõrguseni (kontrolli DroneMapist). Kõrgemal ainult pärast kooskõlastamist ŘLP-ga ja lennu märkimist DroneMapis; CTR-i sisetsoonis tuleb lend alati DroneMapis märkida ning ruudustiku kõrgusest kõrgemal on vaja ka kooskõlastust lennujaama käitajaga. Sõjaväelennujaamades (MCTR) kehtivad rangemad tingimused. Kontrollimata lennujaamades ruudustiku kõrgusest kõrgemal ainult pärast kooskõlastamist AFIS-e või lennujaama käitajaga. DroneMapis märkimine ei kehti droonidele, mis registreerimist ei nõua.",
+      "Tihedalt asustatud aladel (tsoon LKR316) tuleb lennuala DroneMapis (dronemap.gov.cz) eelnevalt märkida. Märge (siin nagu ka CTR-ides ja looduskaitsealadel) peab sisaldama kõrgust, aega, drooni tüüpi ja kaalukategooriat ning operaatori registreerimisnumbrit. Ei kehti droonidele, mille puhul operaatori registreerimine ei ole nõutav.",
+      "Rahvuspargid, maastikukaitsealad (CHKO) ja väikesed kaitsealad, nt looduskaitsealad (tsoon LKR318): lennud ainult pädevale looduskaitseasutusele eelnevalt teatamise või selle loa alusel ning lennuala DroneMapis märkides. Ei kehti droonidele, mille puhul operaatori registreerimine ei ole nõutav.",
+      "Teed (tsoon LKR317): kiirtee või I klassi tee telgjoonest kuni 50 m kaugusel reeglina ainult ŘSD nõusolekul; II ja III klassi tee telgjoonest kuni 15 m kaugusel reeglina ainult tee omaniku või valdaja nõusolekul (sarnaselt kohalikel teedel väljaspool tihedalt asustatud alasid). Lennuala tuleb DroneMapis märkida – ei kehti droonidele, mille puhul operaatori registreerimine ei ole nõutav.",
+      "Avatud kategoorias pead hoidma drooni otsenähtavuses palja silmaga (prillid/kontaktläätsed on lubatud; binokkel või ekraan ei loe) — või kaasama abiks vaatleja, kusjuures te suhtlete kogu aeg selgelt ja tõhusalt, et saaksite koos õhuruumi jälgida ja kokkupõrkeid vältida. „Follow-me” režiim on eraldi erand ainult alamkategoorias A1, lubatud piloodist kuni 50 m kaugusel.",
       "Ära lenda rahvakogunemiste kohal. Kõrvaliste isikute suhtes kehtivad reeglid sõltuvad alamkategooriast, klassimärgist ja käitamistingimustest; kontrolli ametlikku tabelit.",
       "EASA avatud kategooria baasnõuete kohaselt on öölend lubatud, kui kasutatakse nõutavat rohelist vilkuvat tuld, välja arvatud juhul, kui kehtiv geograafiline tsoon või riiklik eeskiri kehtestab rangema tingimuse.",
-      "Trahvid rikkumiste eest kuni 5 000 000 CZK (≈ 185 000 €)",
-      "Praha loss ja valitsushooned: ranged lennukeelutsoonid"
+      "Trahvid rikkumiste eest kuni 3 000 000 CZK (≈ 120 000 €)",
+      "Praha loss ja valitsushooned: absoluutsed lennukeelutsoonid"
     ],
     "importantNotes": [
-      "Lennud lennujaamade CTR-is ja ATZ-is nõuavad koordineerimist lennujuhtimise või lennujaama käitajaga",
-      "Ülelennud kiirteedel ja põhimaanteedel on Tšehhis piiratud — planeeri marsruut nii, et neid vältida",
-      "Trahvid kuni 5 000 000 CZK (≈ 185 000 €)",
+      "Lennujaamade CTR-ides ja ATZ-ides ilma kooskõlastuseta ainult ruudustikuga määratud kõrguseni (kontrolli DroneMapist); kõrgemal ainult pärast kooskõlastamist (CTR-is ŘLP-ga, kontrollimata lennujaamades AFIS-e või lennujaama käitajaga) ja lennu märkimist DroneMapis; CTR-i sisetsoonis on märkimine alati nõutav",
+      "Teed (tsoon LKR317): kiirteedel ja I klassi teedel reeglina telgjoonest kuni 50 m kaugusel ainult ŘSD nõusolekul; II ja III klassi teedel reeglina telgjoonest kuni 15 m kaugusel ainult tee omaniku või valdaja nõusolekul",
+      "Trahvid kuni 3 000 000 CZK (≈ 120 000 €)",
       "Praha lossi piirkonnas kehtivad ranged lennukeelud",
       "GDPR kohaldub tuvastatavate kujutiste jäädvustamisel"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Droonimäärused",
-        "description": "Tsiviillennundusameti ametlikud droone puudutavad reeglid ja ressursid"
+        "title": "ÚCL — droonimäärused",
+        "description": "Tsiviillennundusameti ametlikud reeglid ja ressursid droonide kohta"
       },
       {
-        "title": "CAA — Operaatori registreerimine",
+        "title": "ÚCL — operaatori registreerimine",
         "description": "Tasuta registreerimine UAS-operaatorina (kehtib kõigis EL/EASA riikides)"
       },
       {
@@ -39,17 +43,17 @@
         "description": "Ametlik interaktiivne kaart, mis näitab droonitsoone ja õhuruumi piiranguid"
       },
       {
-        "title": "CAA — Reeglite ülevaade",
+        "title": "ÚCL — reeglite ülevaade",
         "description": "Ülevaade Tšehhis droonidega lendamise reeglitest"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Lennujuhtimine — NOTAM ja õhuruum",
-        "description": "Tšehhi lennujuhtimine ja teave õhuruumi kohta"
+        "title": "ŘLP — NOTAM ja õhuruum",
+        "description": "Tšehhi lennuliiklusteenindus ja õhuruumi teave"
       },
       {
-        "title": "CAA — Droonide KKK",
+        "title": "ÚCL — KKK droonide kohta",
         "description": "Korduma kippuvad küsimused Tšehhi droonimääruste kohta"
       }
     ],
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",
     "linksSheetTitle": "Õhuruum ja regulatsioonid — Tšehhi",
-    "dronePilotCredentialName": "Droonipiloodi litsents"
+    "dronePilotCredentialName": "A1/A3 koolitustunnistus"
   }
 }

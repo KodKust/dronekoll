@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (żoni mhux popolati, użu rikreattiv): Droni li jiżnu ≤750 g jistgħu jtiru sa 50 m 'il fuq mill-ogħla ostaklu fuq proprjetà privata mingħajr awtorizzazzjoni",
-      "DAN 151 (żoni popolati/użu professjonali): Droni li jiżnu aktar minn 750 g jeħtieġu reġistrazzjoni mad-DGAC, liċenzja ta' pilota, u awtorizzazzjoni operattiva",
-      "Għoli massimu awtorizzat: 130 m AGL (DAN 151) — ivarja skont l-awtorizzazzjoni",
-      "Distanza minima ta' 2 km mill-ajruporti u l-ajrudromi",
+      "DAN 91.102(j): mingħajr awtorizzazzjoni tad-DGAC, jistgħu jtiru biss droni sa 750 g magħmula minn polietilene espanż jew materjal ekwivalenti, għal użu privat jew rikreattiv, f'postijiet privati u mhux aktar minn 50 m 'il fuq mill-ogħla ostakolu jew bini. Kull titjira oħra teħtieġ awtorizzazzjoni minn qabel tad-DGAC.",
+      "DAN 151 (żoni popolati, interess pubbliku jew xogħol mill-ajru): japplika għal droni ta' kwalunkwe piż (massimu ta' 9 kg) u jeħtieġ reġistrazzjoni mad-DGAC, kredenzjal ta' pilota remot, assigurazzjoni, AOC jew CEO u awtorizzazzjoni operattiva.",
+      "DAN 151: id-drone irid iġorr paraxut ta' emerġenza waqt l-operazzjoni u jkun jista' jiġi kkontrollat manwalment (massimu ta' 9 kg eskluż il-paraxut).",
+      "Il-limitu ġenerali huwa 400 pied (120 m) AGL — it-titjir 'il fuq minnu jeħtieġ awtorizzazzjoni minn qabel tad-DGAC (DAN 151 Ed. 3, fis-seħħ minn Mejju 2024). Id-DAN 91 attwali jesprimi l-istess limitu bħala '400 pied (130 metru)'.",
+      "Ebda titjir fi ħdan 2 km mill-estensjoni tal-linja ċentrali tar-runway (imkejla mill-għatba) jew fi ħdan 1 km b'mod parallel mal-linja ċentrali tar-runway ta' ajrudromu.",
+      "Ebda operazzjoni tad-droni f'żoni fejn qed jiġi miġġieled nar b'inġenji tal-ajru bl-ekwipaġġ (DAN 91.102(i)(11) u DAN 151.103(g)(14)).",
       "Distanza massima ta' 500 m mill-operatur (żomm kuntatt viżiv dirett)",
-      "Żomm dejjem id-drone fil-linja tal-vista diretta (VLOS)",
+      "Trid iżżomm kuntatt viżiv dirett mad-drone f'kull ħin biex tidderieġi t-titjira tiegħu.",
       "It-titjiriet bil-lejl jeħtieġu awtorizzazzjoni speċifika mid-DGAC",
-      "Reġistrazzjoni mad-DGAC: għamla, mudell, numru tas-serje, piż massimu ≤9 kg għall-użu awtorizzat, ritratt 10×15 cm",
-      "Liċenzja ta' pilota teħtieġ eżami bil-miktub (punteġġ minimu ta' 75%) dwar DAN 151, DAN 91, meteoroloġija u ajrudinamika",
+      "Reġistrazzjoni mad-DGAC (DAN 151.203): manifattur/pajjiż, marka, mudell, numru tas-serje u piż tal-fabbrika, b'kopja tal-karta tal-identità tiegħek; l-applikazzjoni ssir fuq il-pjattaforma web tad-DGAC (minn Awwissu 2026). Piż massimu tat-tluq 9 kg.",
+      "Kredenzjal ta' pilota remot: mill-inqas 18-il sena, dikjarazzjoni tat-taħriġ u eżami bil-miktub (minimu ta' 75%) dwar DAN 151, DAN 91, NOTAM, meteoroloġija u ajrudinamika; validu għal 36 xahar.",
       "Assigurazzjoni ta' Responsabbiltà lejn Terzi (awtorizzata mill-JAC) meħtieġa għall-użu professjonali"
     ],
     "importantNotes": [
-      "📋 QAFAS REGOLATORJU DOPPJU — DAN 91 vs. DAN 151: Iċ-Ċili tiddistingwi bejn it-titjir f'żoni MHUX POPOLATI (DAN 91, aktar permissiv; titjiriet rikreattivi ≤750 g mingħajr permess) u t-titjir f'żoni POPOLATI jew żoni ta' interess pubbliku (DAN 151, li jeħtieġ reġistrazzjoni, pilota ċċertifikat, u assigurazzjoni). Ir-regolamenti applikabbli jiddependu mill-post U l-iskop.",
-      "✈️ TURISTI BARRANIN: Ir-regoli japplikaw bl-istess mod għal dawk li mhumiex residenti. Ir-reġistrazzjoni mhijiex meħtieġa għal titjiriet rikreattivi b'droni li jiżnu ≤750 g f'żoni privati mhux popolati. Għal kwalunkwe operazzjoni oħra (turiżmu, użu professjonali, qrib in-nies, fil-parki), huma meħtieġa l-istess permessi bħal għaċ-ċittadini Ċileni.",
-      "🌋 PARKI NAZZJONALI U RIŻERVI: CONAF (National Forestry Corporation) tipprojbixxi d-droni mingħajr permess speċjali f'parki bħal Torres del Paine, Lauca u Isluga Volcano National Park. L-Antartika Ċilena: regolamenti speċjali mill-INACH. Iċċekkja ma' kull park jew riżerva qabel tivvjaġġa.",
-      "🏔️ ŻONI RISTRETTI: Iċ-ċentru ta' Santiago (La Moneda, Plaza de Armas), SCEL Airport (Pudahuel), żoni militari u tal-fruntiera. Easter Island, Robinson Crusoe Island, l-Antartika: restrizzjonijiet addizzjonali. Ara AIP Chile (ENR 5.1) għal mappa ta' żoni pprojbiti, ristretti u perikolużi.",
-      "💰 TIĠDID ANNWALI: Ir-reġistrazzjoni mad-DGAC hija valida għal 12-il xahar u trid tiġġedded kull sena. L-operat mingħajr reġistrazzjoni jew kredenzjal validi jista' jirriżulta f'multa, konfiska tat-tagħmir, u projbizzjoni fuq l-operazzjonijiet."
+      "QAFAS REGOLATORJU DOPPJU — DAN 91 (żoni mhux popolati): kull titjira teħtieġ awtorizzazzjoni minn qabel tad-DGAC, każ b'każ (Anness D). DAN 151 (żoni popolati, interess pubbliku jew xogħol mill-ajru): reġistrazzjoni, kredenzjal, assigurazzjoni u awtorizzazzjoni. L-unika eċċezzjoni: droni ≤750 g magħmula minn polietilene espanż jew materjal ekwivalenti, użu rikreattiv, f'postijiet privati u ≤50 m 'il fuq mill-ogħla ostakolu.",
+      "✈️ TURISTI BARRANIN: Ir-regoli japplikaw bl-istess mod għal dawk li mhumiex residenti. Mingħajr awtorizzazzjoni tad-DGAC, huma permessi biss droni ≤750 g magħmula minn polietilene espanż jew materjal ekwivalenti, għal użu rikreattiv, f'postijiet privati u ≤50 m 'il fuq mill-ogħla ostakolu. Kull titjira oħra teħtieġ awtorizzazzjoni minn qabel tad-DGAC; ir-reġistrazzjoni mad-DGAC teħtieġ kopja tal-karta tal-identità tiegħek.",
+      "🌋 ŻONI PROTETTI: L-użu rikreattiv jew turistiku tad-droni mhuwiex permess f'ebda Żona Selvaġġa Protetta mill-Istat (parki nazzjonali, riżervi, monumenti naturali). Is-CONAF tawtorizza titjiriet biss f'każijiet ġustifikati (riċerka xjentifika, monitoraġġ jew skopijiet oħra ta' ġestjoni) permezz ta' conaf.cerofilas.gob.cl, u mbagħad ikun meħtieġ ukoll permess tad-DGAC. Antartika: regolamenti speċjali mill-INACH.",
+      "🏔️ ŻONI RISTRETTI: Ebda titjir fuq La Moneda (żona SC-P28), installazzjonijiet militari, ħabsijiet u faċilitajiet strateġiċi, jew f'żoni pprojbiti, ristretti jew perikolużi tal-AIP Chile (ENR 5.1) jew tan-NOTAM.",
+      "💰 PERJODI TA' VALIDITÀ: Il-kredenzjal ta' pilota remot idum 36 xahar u jiġi riwalidat b'eżami ġdid (minimu ta' 75%); l-awtorizzazzjoni operattiva DAN 151 hija valida sa 6 xhur. In-nuqqas ta' konformità mar-regolamenti tad-DGAC jista' jwassal għal multi, sospensjoni tal-operazzjonijiet, konfiska tat-tagħmir jew responsabbiltà kriminali jekk is-sikurezza tal-avjazzjoni tiġi pperikolata."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Is-Sistema Uffiċjali ta' Informazzjoni Ajrunawtika taċ-Ċili: NOTAMs, żoni pprojbiti/ristretti/perikolużi (ENR 5), mapep, ajrudromi"
       },
       {
-        "title": "Proċedura ta' Reġistrazzjoni tal-RPA (PDF Uffiċjali)",
-        "description": "Il-Proċedura Uffiċjali tad-DGAC għal Reġistrazzjoni Ġdida u Regolarizzazzjoni tad-Droni (RPA). Tinkludi l-Appendiċi B u l-formoli"
+        "title": "Reġistrazzjoni tad-Droni (RPA) — Pjattaforma Ġdida tad-DGAC",
+        "description": "Reġistrazzjoni online fir-Reġistru Nazzjonali tal-RPA taħt DAN 151. Ir-reġistrazzjoni fiha nfisha ma tikkostitwixxix awtorizzazzjoni biex ittir."
       }
     ],
     "secondaryLinks": [

@@ -1,34 +1,39 @@
 {
   "meta": {
-    "sourceHash": "cd8a26ec06fe6fce166e7bf3de181ffab5c36b7b3c6007a64f6e67ae3c10ef12",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "8e19b8ef08eacce878876a6b70061b85975b67e81f34fce0c591ea4492f2566c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Drones die ≥250 g (0,55 lb) wegen: verplichte registratie bij IDAC via Vuela Seguro (RAD-48)",
-      "Drones die meer dan 2 kg (4,4 lb) wegen: naast registratie is een speciale IDAC-vergunning vereist",
-      "Minimale afstand van 9 km (5 zeemijl) tot luchthavens en vliegvelden",
+      "Verplichte registratie bij IDAC via Vuela Seguro: RAD 48 (wijziging van kracht sinds 21/02/2025) vereist dit vanaf 0,20 kg (0,44 lb); de Vuela Seguro-gids vermeldt nog 0,25 kg (0,55 lb) — informeer bij IDAC als je drone 200–249 g weegt",
+      "Drones >250 g (0,55 lb): licentie of certificaat als piloot op afstand van IDAC vereist, ook voor recreatief gebruik (min. 18 jaar, RAD 107.23)",
+      "Recreatieve vluchten: IDAC (Vuela Seguro-gids) vereist een vergunningsaanvraag met formulier 1500-9 (licentie/certificaat, registratie, verzekering indien van toepassing en kaart met coördinaten) minstens 5 werkdagen vóór de operatie; geschatte behandeltijd 15 werkdagen",
+      "Minimale afstand van 9 km (5 zeemijl) tot luchthavens en vliegvelden zonder toestemming van IDAC.",
+      "Buiten luchtruim klasse G (bijv. controlezones van luchthavens) zijn voorafgaande toestemming van IDAC en coördinatie met ATC vereist (RAD 107.57)",
       "Vliegen is alleen overdag toegestaan — nachtvluchten vereisen een specifieke IDAC-vergunning",
       "Houd de drone altijd binnen direct zicht (VLOS)",
-      "VERPLICHTE aansprakelijkheidsverzekering voor derden (RAD-107)",
-      "No-flyzone: National Palace, Ministry of Defense, San Isidro Air Base",
-      "NO-FLYZONE: Dominican Oil Refinery, Las Calderas Naval Base, militaire commandoposten",
-      "Commerciële operatie: certificaat als piloot op afstand + aanvullende operationele vergunning",
-      "Verstoor het luchtverkeer niet in de naderings- en vertrekpatronen van luchthavens"
+      "Maximale hoogte 400 ft (122 m) boven de grond (RAD 107.67); vliegen boven niet-betrokken personen is verboden zonder voorafgaande toestemming van IDAC (RAD 107.55)",
+      "Vliegen vanaf een rijdend voertuig of varend vaartuig is verboden zonder toestemming van IDAC, behalve boven dunbevolkte gebieden (RAD 107.39)",
+      "VERPLICHTE aansprakelijkheidsverzekering voor derden (RAD 48.19 en RAD 107.69; voor recreatief gebruik tussen 0,25 en 2 kg accepteert RAD 107.69 een beëdigde verklaring van hoofdelijke aansprakelijkheid (Declaración Jurada de Responsabilidad Solidaria))",
+      "Drones >2 kg (4,4 lb): aansprakelijkheidsverzekering ook voor recreatief gebruik vereist (min. USD 2.000, RAD 107.69; RAD 48.19 vereist min. USD 5.000 boven 4,5 kg)",
+      "Overvliegen is VERBODEN: National Palace, Ministry of Defense, San Isidro Air Base",
+      "Overvliegen is VERBODEN: Dominican Oil Refinery, Las Calderas Naval Base, militaire commandoposten",
+      "Commerciële operatie: licentie als piloot op afstand van IDAC + vergunning (formulier 1500-9). Buitenlanders: alleen als ze zijn ingehuurd door een Dominicaans bedrijf",
+      "Verstoor het luchtverkeer niet in de landings-/startpatronen van luchtvaartterreinen"
     ],
     "importantNotes": [
       "📋 JURIDISCH KADER: Drone-operaties worden geregeld door Civil Aviation Law 491-06 + RAD-107 (small unmanned aircraft system) + RAD-48 (registration and labeling). IDAC (Dominican Civil Aviation Institute) is de bevoegde autoriteit.",
-      "✈️ BUITENLANDSE TOERISTEN: Deze regels gelden voor niet-ingezetenen. Drones die ≥250 g wegen, moeten vóór gebruik geregistreerd worden. Voor recreatief gebruik van drones die ≤250 g wegen (DJI Mini, Flip): registratie is niet vereist, maar alle andere regels blijven gelden. Documentatie wordt aanbevolen bij binnenkomst in het land.",
+      "✈️ BUITENLANDSE TOERISTEN: Deze regels gelden voor niet-ingezetenen. Vraag vóór het vliegen een vergunning aan bij IDAC met formulier 1500-9 (min. 5 werkdagen van tevoren; geschatte behandeltijd 15 werkdagen), met je licentie/certificaat, registratie, verzekering indien van toepassing en een kaart met coördinaten als bijlage. Als je land vanwege het gewicht van de drone geen licentie/registratie vereist, voeg dan dat deel van je nationale regelgeving en een kopie van je identiteitsbewijs bij. Registratie: RAD 48 vereist dit vanaf 0,20 kg (de Vuela Seguro-gids vermeldt 0,25 kg); informeer bij IDAC voor drones van 200–249 g (bijv. DJI Mini, Flip). Ook als registratie niet vereist is, gelden alle andere regels. Commercieel gebruik: alleen als je bent ingehuurd door een Dominicaans bedrijf dat de aanvraag indient.",
       "🏖️ PUNTA CANA EN TOERISTISCHE KUSTGEBIEDEN: De luchthavens PUJ (Punta Cana), SDQ (Las Américas) en STI (Santiago) hebben een uitsluitingszone van 9 km. Saona, Catalina, Bayahibe, Las Galeras: veel stranden en resorts kennen aanvullende beperkingen — informeer bij je hotel of touroperator voordat je vliegt.",
-      "🌳 BESCHERMDE GEBIEDEN: De nationale parken Los Haitises, del Este (Saona), Sierra de Bahoruco, Jaragua en Lago Enriquillo vereisen een speciale vergunning van de Ministry of the Environment. Voor Samaná Bay (walvissen kijken, jan–mrt) gelden aanvullende beperkingen om verstoring van wilde dieren te voorkomen.",
-      "🏛️ PERMANENT BEPERKTE GEBIEDEN: National Palace (Santo Domingo), Ministry of Defense, alle militaire bases (San Isidro, Las Calderas) en Dominican Oil Refinery. De Colonial Zone (UNESCO World Heritage Site in Santo Domingo) kent tijdelijke beperkingen — informeer vooraf."
+      "🌳 BESCHERMDE GEBIEDEN: Informeer vóór het vliegen in nationale parken (Los Haitises, del Este/Saona, Sierra de Bahoruco, Jaragua, Lago Enriquillo) bij het Ministerie van Milieu; toestemming kan vereist zijn. Respecteer de wilde dieren — walvissen in Samaná (jan–mrt).",
+      "🏛️ PERMANENTE NO-FLYZONES: National Palace (Santo Domingo), Ministry of Defense, alle militaire bases (San Isidro, Las Calderas) en Dominican Oil Refinery. De Colonial Zone (UNESCO World Heritage Site in Santo Domingo) kent tijdelijke beperkingen — informeer vooraf."
     ],
     "primaryLinks": [
       {
         "title": "IDAC — Vuela Seguro (officieel droneportaal)",
-        "description": "Officiële website van het Dominicaans Instituut voor Burgerluchtvaart voor drone-exploitanten. Bevat een uitgebreide gids, RAD-107/48-regelgeving, registratievereisten en beperkte gebieden"
+        "description": "Officiële website van het Dominicaanse burgerluchtvaartinstituut voor droneoperators. Bevat een uitgebreide gids, de RAD-107/48-regelgeving, registratievereisten en beperkte gebieden"
       },
       {
         "title": "Registratievereisten en -procedure",
@@ -45,16 +50,16 @@
     ],
     "secondaryLinks": [
       {
-        "title": "IDAC — DTAC (afdeling burgerluchtvaart)",
-        "description": "Officieel e-mailadres voor registratie en vragen: DTAC@idac.gov.do. Voor exploitanten van drones die meer dan 2 kg wegen of voor commercieel gebruik wordt rechtstreeks contact aanbevolen."
+        "title": "IDAC — DTAC (afdeling Burgerluchttransport)",
+        "description": "Officieel e-mailadres om registratieprocedures te starten en voor vragen: DTAC@idac.gov.do. Voor commercieel gebruik wordt direct contact aanbevolen"
       },
       {
-        "title": "Burgerluchtvaartwet nr. 491-06",
-        "description": "Algemeen juridisch kader voor de volledige Dominicaanse burgerluchtvaart, waaronder onbemande luchtvaartuigen. De basis waarop de RAD-regelgeving is gebouwd"
+        "title": "Burgerluchtvaartwet 491-06",
+        "description": "Wettenpagina van IDAC: burgerluchtvaartwet 491-06 en wet 17-24, die deze wijzigt. Algemeen juridisch kader voor de volledige Dominicaanse burgerluchtvaart, inclusief onbemande luchtvaartuigen. De basis waarop de RAD-regelgeving is vastgesteld"
       },
       {
         "title": "Ministerie van Milieu — Beschermde gebieden",
-        "description": "Voor beschermde gebieden zoals Nationaal Park Los Haitises, Nationaal Park Del Este (Saona) en de baai van Samaná: een specifieke vergunning is vereist voordat je met drones opereert"
+        "description": "Voor beschermde gebieden zoals Nationaal Park Los Haitises, Nationaal Park Del Este (Saona) en de baai van Samaná: informeer bij het ministerie voordat je met drones opereert; toestemming kan vereist zijn"
       }
     ],
     "disclaimerText": "Raadpleeg altijd de officiële bronnen van IDAC voordat je vliegt. Deze app is een hulpmiddel, geen juridische autoriteit. De Dominicaanse Republiek past Civil Aviation Law 491-06 toe, samen met Regulations RAD-107 (sUAS operations) en RAD-48 (registration). De officiële website is Vuela Seguro (idac.gob.do/drone).",

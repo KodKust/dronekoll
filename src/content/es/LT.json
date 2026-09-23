@@ -1,55 +1,58 @@
 {
   "meta": {
-    "sourceHash": "c6156d2d7270eed1f0bbf03a22c83cd1cf94b1875c9f45ae22d161f7fab4e957",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e93e943369b28f887990b72c587e2c372465bbacd9292903c416ee4c4ebf7e67",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Un máximo de 120 m sobre el nivel del suelo (categoría Abierta de EASA)",
-      "Regístrate como operador de UAS (10 €/año) si tu dron pesa 250 g o más o lleva cámara",
-      "Formación en línea A1/A3 obligatoria; edad mínima 16 años",
+      "En la categoría abierta, la altura máxima es de 120 m, medida como la distancia al punto más cercano de la superficie terrestre, no simplemente en vertical hacia abajo; por eso, cerca de una pendiente también puede contar el terreno adyacente. A menos de 50 m de un obstáculo artificial alto (de más de 105 m), la entidad responsable del obstáculo puede solicitar permiso para volar hasta 15 m por encima de la altura del obstáculo.",
+      "Debes registrarte como operador de drones si tu dron pesa 250 g o más (o si puede transmitir más de 80 J de energía cinética en una colisión); esto se aplica también a los juguetes. Por debajo de 250 g, el registro sigue siendo obligatorio si el dron tiene un sensor capaz de captar datos personales, salvo que se considere un juguete según la Directiva de la UE sobre la seguridad de los juguetes. Los requisitos de formación/certificado del piloto son independientes y dependen de la clase y la subcategoría del dron.",
+      "El número de registro debe estar visible en el dron y (en los drones de clase C1–C3) introducido en el sistema de Remote ID",
+      "Los drones sin marca de clase C (comercializados antes del 2024-01-01) y los drones de construcción privada solo pueden volar en la subcategoría A1 si su masa de despegue es inferior a 250 g, o en la subcategoría A3 si es inferior a 25 kg",
+      "La edad mínima de un piloto a distancia es de 16 años (norma de la UE; Lituania no la ha rebajado). Los pilotos más jóvenes solo pueden volar: bajo la supervisión directa de un piloto a distancia que cumpla los requisitos; con un juguete de clase C0 en la subcategoría A1; o con un dron de construcción privada con una masa de despegue inferior a 250 g. La formación y el examen A1/A3 se completan en el sistema de la TKA, y el certificado es válido durante 5 años.",
       "El seguro de responsabilidad civil es obligatorio para drones de más de 20 kg",
-      "Mantén siempre el contacto visual directo (VLOS)",
+      "En la categoría abierta, debes mantener el dron dentro de tu propio alcance visual directo, sin ayudas (las gafas o lentes de contacto sirven; los prismáticos o una pantalla no cuentan), o volar con la ayuda de un observador, manteniendo en todo momento una comunicación clara y eficaz entre ambos para explorar juntos el espacio aéreo y evitar colisiones. El modo «Follow-me» es una excepción aparte, permitida hasta 50 m del piloto.",
       "No vueles sobre concentraciones de personas. Las normas para las personas no implicadas dependen de la subcategoría, la marca de clase y las condiciones de operación; consulta la matriz oficial.",
-      "Al menos 5 km de distancia de cualquier aeropuerto o aeródromo",
+      "No existe una distancia única en toda la UE que debas mantener respecto a los aeropuertos. Las restricciones cerca de los aeropuertos se publican como zonas geográficas (artículo 15), cuya forma y tamaño varían de un aeropuerto a otro; antes de volar cerca de un aeropuerto, aeródromo o helipuerto, consulta el mapa oficial de zonas de drones. En el espacio aéreo controlado (zonas UR de Vilna, Kaunas, Palanga y Šiauliai) puedes volar en la categoría abierta sin autorización previa solo hasta la altura fijada para la zona: cuanto más cerca del aeropuerto, más baja (alturas: utm.ans.lt; volar más alto requiere una autorización expedida según el procedimiento de la LTSA). En las zonas ATZ/TIZ de los aeródromos, el vuelo debe coordinarse previamente con el propietario u operador del aeródromo.",
+      "Los vuelos en las zonas EYP y sobre áreas militares (EYURM) están prohibidos sin autorización; lo mismo se aplica en las zonas EYR activadas (la activación se anuncia mediante NOTAM)",
       "Los vuelos nocturnos están permitidos según los requisitos básicos de la categoría abierta de la EASA cuando se utiliza la luz verde intermitente exigida, salvo que una norma nacional o de zona geográfica vigente imponga una condición más estricta.",
       "Hay restricciones en vigor en el Parque Nacional del Istmo de Curlandia",
-      "Restricciones adicionales en las zonas fronterizas con Rusia y Bielorrusia"
+      "En la zona fronteriza a lo largo de las fronteras con Bielorrusia y Rusia (a unos 7,4 km de la frontera), los vuelos sin coordinación previa están terminantemente prohibidos"
     ],
     "importantNotes": [
-      "El registro cuesta 10 € al año; debe renovarse anualmente",
+      "El registro y la expedición o renovación del certificado de registro cuestan 31 €",
       "El seguro solo es obligatorio para drones de más de 20 kg",
-      "Hay restricciones de vuelo en vigor en las zonas fronterizas con Rusia y Bielorrusia",
+      "En la zona fronteriza a lo largo de las fronteras con Bielorrusia y Rusia (a unos 7,4 km de la frontera), los vuelos sin coordinación previa están terminantemente prohibidos",
       "El CTR del Aeropuerto de Vilna cubre gran parte de la ciudad",
       "El RGPD se aplica cuando se graba o fotografía a personas identificables"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Reglas de drones",
-        "description": "Normativa oficial de drones de la Administración de Aviación Civil"
+        "title": "TKA – Normativa de drones",
+        "description": "Normativa oficial de drones de la Transporto kompetencijų agentūra (TKA)"
       },
       {
-        "title": "TKA — Regístrate como usuario",
-        "description": "Registro como operador de UAS (10 € al año, válido en todos los países de la UE/EASA)"
+        "title": "TKA – Regístrate como operador",
+        "description": "Regístrate como operador de UAS (31 €, válido en todos los países de la UE/EASA)"
       },
       {
         "title": "UTM Lithuania — Mapa del espacio aéreo",
         "description": "Mapa oficial UTM del espacio aéreo que muestra las zonas de drones y las restricciones"
       },
       {
-        "title": "CAA — Resumen de las reglas",
-        "description": "Un resumen de la normativa de vuelo de drones en Lituania"
+        "title": "TKA – Resumen de la normativa",
+        "description": "Resumen de la normativa de vuelo de drones en Lituania"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Air Navigation — Servicios de navegación aérea",
+        "title": "Oro Navigacija – Servicios de navegación aérea",
         "description": "Servicio de navegación aérea de Lituania e información sobre el espacio aéreo"
       },
       {
-        "title": "CAA — Preguntas frecuentes sobre drones",
+        "title": "TKA – FAQ sobre drones",
         "description": "Preguntas frecuentes sobre la normativa de drones en Lituania"
       }
     ],

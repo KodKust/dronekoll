@@ -1,34 +1,35 @@
 {
   "meta": {
-    "sourceHash": "8c56d8d6e542afc955c989bfd255bb6e85a0ed0ddb98d0c06385589c15af8287",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "1ccf0d60f2daab09a23a0c0e3bbd85b102fdef6468c55b05317299a6742f4265",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Azami irtifa: yerden 120 m (400 ft) (AGL)",
-      "Havalimanları ve hava meydanlarından en az 8 km uzakta kalın",
-      "Operasyona dahil olmayan kişilerden, hayvanlardan ve binalardan en az 30 m uzakta kalın",
+      "Azami irtifa: kontrolsüz hava sahasında yerden 120 m (400 ft).",
+      "Herhangi bir havalimanı veya hava meydanından en az 8 km mesafe; daha yakında uçmak DGAC onayı ve bir NOTAM yayımlanmasını gerektirir.",
+      "Yalnızca şehir, kasaba veya yerleşim yerlerindeki yoğun bina alanlarından ve açık havadaki insan topluluklarından uzakta uçun. Yalnızca özel DGAC onayıyla daha yakında operasyon yapabilirsiniz; bu binalara veya topluluklara hiçbir zaman 30 m'den daha fazla yaklaşamazsınız.",
       "25 kg'dan hafif TÜM dronlarda seri numarası, sahibinin adı ve telefon numarasını içeren bir kimlik plakası bulunmalıdır",
-      "25 kg veya daha ağır dronlar: drones.dgac.go.cr adresinde zorunlu kayıt",
+      "drones.dgac.go.cr üzerinden zorunlu kayıt: ≥25 kg dronlar ve ağırlıktan bağımsız olarak tüm hobi dışı kullanımlar (ticari veya ticari olmayan)",
       "Hobi amaçlı kullanım (<25 kg): temel kurallara uyulduğunda resmî kayıt GEREKTİRMEZ",
       "Dronu her zaman doğrudan görüş hattınızda (VLOS) tutun",
       "Yalnızca gündüz ve iyi hava koşullarında uçuşa izin verilir — gece uçuşları için izin gerekir",
+      "Hobi dışı, ticari olmayan kullanım (<25 kg dronlar dahil): DGAC yeterlilik sertifikası (en az 18 yaş), hukuki sorumluluk sigortası ve drones.dgac.go.cr üzerinden kayıt",
       "Ticari kullanım: RPAS lisansı + Teknik Konsey sertifikası + DGAC operasyonel sertifikası",
       "İzin almadan özel mülklerin, cezaevlerinin, kısıtlı alanların ve havalimanlarının üzerinden uçmak yasaktır"
     ],
     "importantNotes": [
       "🏷️ ZORUNLU KİMLİK PLAKASI: Hobi kullanımı için 25 kg'dan hafif dronlar resmî kayıt GEREKTİRMESE de, TÜM dronlarda seri numarası, sahibinin adı ve iletişim telefon numarasını içeren bir kimlik plakası bulunmalıdır. Bu, fiziksel kimliklendirme için en katı gerekliliktir.",
-      "✈️ YABANCI TURİSTLER: Kurallar yerleşik olmayanlar için de geçerlidir. Hobi amaçlı kullanımda kimlik plakası bulunmalı ve temel kurallara uyulmalıdır (havalimanlarından uzak durun; özel mülklerin ve cezaevlerinin üzerinde uçmayın) — resmî kayıt gerekmez. Gümrük, ülkeye girişte dron beyanı isteyebilir.",
-      "🌳 ULUSAL PARKLAR VE SINAC: Ulusal Koruma Alanları Sistemi (SINAC), Manuel Antonio, Corcovado, Tortuguero, Arenal Volkanı, Monteverde ve Poás Volkanı gibi parklarda dronlar için özel izin gerektirir. Biyoçeşitlilik ve yaban hayatı korunmaktadır — yolculuğunuzdan ÖNCE her parka danışın.",
-      "🏖️ TURİSTİK ALANLAR VE HAVALİMANLARI: SJO (Juan Santamaría, Alajuela), LIR (Liberia, Guanacaste), Cumhurbaşkanlığı Sarayı, elçilikler ve askeri bölgeler kalıcı kısıtlamalara tabidir. Tamarindo, Manuel Antonio ve Jacó gibi turistik plajlarda çoğu zaman ek belediye kısıtlamaları vardır.",
+      "✈️ YABANCI TURİSTLER: Kurallar yerleşik olmayanlar için de geçerlidir. Hobi amaçlı kullanımda kimlik plakası bulunmalı ve temel kurallara uyulmalıdır (havalimanlarından uzak durun; özel mülklerin ve cezaevlerinin üzerinde uçmayın) — resmî kayıt gerekmez. Gümrük, ülkeye girişte dron beyanı isteyebilir. Ticari amaçlı yabancı pilotlar: DGAC yabancı bir RPAS lisansını (lisans ve sağlık sertifikası geçerli olmalıdır) en fazla 3 ay için onaylayabilir; bu süre yalnızca gerekçeli durumlarda bir kez 3 ay uzatılabilir. Onay, ticari kullanımın diğer gerekliliklerinin yerini almaz.",
+      "🌳 ULUSAL PARKLAR VE SINAC: Manuel Antonio Ulusal Parkı'nda (SINAC) dronlara izin verilmez. Diğer korunan alanlar dronları yasaklayabilir veya kısıtlayabilir — seyahatinizden ÖNCE her alanla ayrı ayrı kontrol edin.",
+      "🏖️ KISITLI BÖLGELER: DGAC izni olmadan AIP'de yayımlanan yasak veya kısıtlı bölgelerde ve SJO ve LIR gibi havalimanlarının 8 km yakınında uçmak yasaktır. Olası belediye kısıtlamalarını da kontrol edin.",
       "💰 TİCARİ KULLANIM VE CEZALAR: RPAS lisansı veya Teknik Konsey sertifikası olmadan yapılan ticari uçuşlar para cezalarına, ekipmana el konulmasına ve operasyon yasağına yol açabilir. Ücretli fotoğraf/video işleri için: faaliyete başlamadan önce lisansı alın."
     ],
     "primaryLinks": [
       {
         "title": "DGAC — Dron Sicili (özel portal)",
-        "description": "Sivil Havacılık Genel Müdürlüğü'nün dronları kaydetmek ve kayıt numarası almak için resmî web sitesi. Özellikle RPAS için bir platform"
+        "description": "Sivil Havacılık Genel Müdürlüğü'nün dronları kaydetmek ve kayıt numarası almak için resmî özel portalı. Özellikle RPAS için bir platform"
       },
       {
         "title": "DGAC — Ana Sayfa",
@@ -57,7 +58,7 @@
         "description": "Kosta Rika'nın resmî turizm web sitesi. Dronlara ilişkin özel kısıtlamaları olan turistik alanları anlamak için yararlıdır"
       }
     ],
-    "disclaimerText": "Uçmadan önce her zaman DGAC'ın resmî kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Kosta Rika, RAC OPS RPAS'ı ve DGAC'ın Operasyonel Direktifini uygular. Tüm dronlarda kimlik plakası bulunmalıdır; ticari kullanım Sivil Havacılık Teknik Konseyi'nden sertifika gerektirir.",
+    "disclaimerText": "Uçmadan önce her zaman DGAC'ın resmî kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Kosta Rika, RAC-RPAS'ı (Decreto Ejecutivo N° 44615-MOPT, 27/09/2024'ten beri yürürlükte) uygular. Tüm dronlarda kimlik plakası bulunmalıdır; ticari kullanım Sivil Havacılık Teknik Konseyi'nden sertifika gerektirir.",
     "sectionLabelRules": "TEMEL KURALLAR",
     "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
     "sectionLabelSecondary": "EK KAYNAKLAR",

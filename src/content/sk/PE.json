@@ -1,39 +1,42 @@
 {
   "meta": {
-    "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c7bb0eb5efb529d016ee7e14e38488c5a01fec2c25b6f85e5c65f17487613d71",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálna výška: 152 m (500 ft) nad úrovňou terénu (AGL)",
-      "Minimálna vzdialenosť 4 km od letísk a letových plôch",
-      "Minimálna vzdialenosť 30 m horizontálne a 20 m vertikálne od ľudí, budov alebo objektov",
-      "Komerčné použitie (akákoľvek hmotnosť): vyžaduje sa registrácia MTC + osobitné povolenie",
-      "Dron majte vždy v priamom vizuálnom dohľade (VLOS)",
-      "Let je povolený iba počas dňa — nočné lety si vyžadujú osobitné povolenie od DGAC",
-      "Mestské oblasti: vyžadujú predchádzajúci súhlas MTC; vidiecke oblasti: bez osobitných obmedzení",
-      "Obmedzené oblasti: letiská, letové plochy, strategické objekty a husto obývané oblasti bez povolenia",
-      "Právne rozlíšenie: rekreačné použitie (voľný čas) vs. profesionálne/komerčné použitie (špecializované činnosti)"
+      "Maximálna výška: 152 m (500 ft) nad úrovňou terénu (AGL) (NTC 001-2015, čl. 8(e)(10)).",
+      "Minimálna vzdialenosť 4 km od letísk a letových plôch (NTC 001-2015, čl. 8(e)(19)).",
+      "Počas všetkých fáz letu dodržiavajte minimálnu vzdialenosť 30 m horizontálne a 20 m vertikálne od ľudí, budov alebo prekážok (NTC 001-2015, čl. 8(e)(9)).",
+      "Nelietajte nad diaľnicami, cestami, chodníkmi, mostmi, elektrickou alebo telekomunikačnou infraštruktúrou (stĺpy, veže, káble, antény), splavnými vodnými cestami ani potrubiami na prepravu uhľovodíkov; v ich blízkosti zostaňte viac ako 30 m horizontálne od ich okraja (NTC 001-2015, čl. 8(e)(20)).",
+      "Rekreačné použitie: drony pod 2 kg sú vyňaté z pôsobnosti zákona č. 30740 a jeho vykonávacieho predpisu, ale prevádzkové obmedzenia NTC 001-2015 (výška, vzdialenosti, zóny) platia pre každé civilné použitie. Od 2 kg a pri každom nerekreačnom použití musí byť dron zaregistrovaný na DGAC; za neregistrovanie hrozí pokuta (zákon č. 30740, čl. 3 a 4); postup je automatický cez MTC Virtual Filing Desk (Mesa de Partes Virtual).",
+      "Nerekreačné použitie (akákoľvek hmotnosť): registrácia dronu, akreditácia pilota RPAS (vek 18 rokov alebo viac, kurz RPAS v CIAC alebo v leteckom klube a skúška na DGAC), poistenie občianskoprávnej zodpovednosti najmenej 10 UIT a povolenie DGAC (NTC 001-2015, ods. 8(c) – (d)). Registrácia je od januára 2025 automatická.",
+      "Dron musí byť neustále v priamom vizuálnom dohľade pilota.",
+      "Lietať je povolené iba cez deň: NTC zakazuje prevádzku v nočných podmienkach (po západe alebo pred východom slnka) (NTC 001-2015, čl. 8(e)(13)).",
+      "Mestské a obývané oblasti: lietanie nie je povolené. DGAC ho výnimočne povoľuje iba verejným subjektom, ich zmluvným dodávateľom, službám vyhláseným za službu vo verejnom záujme, hasičom a INDECI, s dronmi do 6 kg vybavenými padákom. Za mestskú oblasť sa považuje každé hlavné mesto departementu, provincie alebo okresu a každá obec s viac ako 1000 obyvateľmi. Vidiecke oblasti: platia všeobecné obmedzenia normy (NTC 001-2015, čl. 8(e)(2) a (f)).",
+      "Obmedzené oblasti: letiská, letové plochy, strategické objekty a husto obývané oblasti, pokiaľ nie je udelené povolenie.",
+      "Právne rozlíšenie: rekreačné použitie (voľný čas) vs. profesionálne/komerčné použitie (špecializované činnosti), pričom pre každé platia iné požiadavky."
     ],
     "importantNotes": [
       "🏛️ MACHU PICCHU A ARCHEOLOGICKÉ LOKALITY: Ministry of Culture zakazuje používanie dronov bez osobitného povolenia na lokalitách Machu Picchu, Nazca Lines, Chan Chan, Caral, Kuélap a ďalších archeologických lokalitách. Okrem povolenia od MTC sa vyžaduje aj povolenie od Ministry of Culture.",
       "🌳 CHRÁNENÉ PRÍRODNÉ OBLASTI A AMAZON: SERNANP (National Service for Protected Natural Areas) vyžaduje osobitné povolenie na používanie dronov v parkoch Manu, Tambopata a Huascarán. Amazon a domorodé komunity majú ďalšie obmedzenia.",
-      "🏙️ MESTSKÉ OBLASTI V LIMA A CUSCO: Centrum mesta Lima (Plaza Mayor, Government Palace), Jorge Chávez Airport (LIM), centrum mesta Cusco a letisko (CUZ), vojenské zóny a veľvyslanectvá podliehajú trvalým obmedzeniam. Historické centrum mesta Cusco vyžaduje povolenie od Ministry of Culture."
+      "🏙️ MESTSKÉ OBLASTI V LIME A CUSCU: Lima a Cusco sú mestské oblasti, kde lietanie nie je povolené okrem výnimočného povolenia (NTC 001-2015, čl. 8(e)(2) a (f)). Obmedzenými oblasťami sú aj vládny palác, vojenské priestory, letiská Jorge Chávez (LIM) a Cusco (CUZ) a oblasti zverejnené v AIP-Perú alebo v NOTAM (čl. 8(e)(19) a (22)). Historické centrum Cusca si navyše vyžaduje kladné stanovisko Ministerstva kultúry (zákon č. 30740, čl. 2.5).",
+      "⚠️ SANKCIE: Národná polícia môže zasiahnuť a zaistiť dron, ak sa s ním lieta v rozpore s predpismi; DGAC ukladá sankcie vrátane pokút (D.S. 012-2026-MTC, čl. 7 a 73; zákon č. 30740, čl. 4)."
     ],
     "primaryLinks": [
       {
-        "title": "MTC — Požiadavky na prevádzku dronu",
-        "description": "Oficiálna stránka Ministerstva dopravy a spojov (MTC) s požiadavkami na prevádzku dronov. Zahŕňa predpis NTC 001-2015 a postupy DGAC."
+        "title": "MTC — vykonávací predpis k zákonu č. 30740 (D.S. 012-2026-MTC)",
+        "description": "Oficiálny predpis MTC (29. 5. 2026). Nové kategórie a licencie nadobudnú účinnosť, keď DGAC aktualizuje NTC 001-2015; dovtedy platí NTC."
       },
       {
-        "title": "Virtuálna podateľňa MTC — Registrácia RPAS",
-        "description": "Oficiálna online platforma MTC na úplne online registráciu dronov (RPAS). Vyberte „Registrácia systémov diaľkovo riadených lietadiel (RPAS)“ a vyplňte formulár"
+        "title": "MTC Mesa de Partes Virtual (Virtual Filing Desk) — registrácia RPAS",
+        "description": "Oficiálna online platforma MTC na registráciu dronov (RPAS) úplne online. Vyberte „Registro de Aeronaves Pilotadas a Distancia (RPAS)“ (registrácia diaľkovo pilotovaných lietadiel) a vyplňte formulár"
       },
       {
         "title": "MTC — Inštitucionálna stránka",
-        "description": "Hlavná stránka Ministerstva dopravy a spojov. Prístup k postupom, predpisom a leteckým službám poskytovaným DGAC"
+        "description": "Hlavná stránka Ministerstva dopravy a spojov. Prístup k postupom, predpisom a leteckým službám DGAC"
       },
       {
         "title": "DGAC — Kontakt pre RPAS (povolenia)",
@@ -42,23 +45,23 @@
     ],
     "secondaryLinks": [
       {
-        "title": "El Peruano — Povolenia na drony (oficiálne)",
-        "description": "Úradný vestník El Peruano: oficiálne informácie o povoleniach potrebných na prevádzku dronov podľa MTC a DGAC"
+        "title": "MTC — akreditácia pilotov RPAS",
+        "description": "Stránka MTC (aktualizovaná 11. 8. 2026): žiadosť, online skúška a elektronická akreditácia pilotov/prevádzkovateľov RPAS (nerekreačné použitie)."
       },
       {
-        "title": "TV Perú — Oficiálny sprievodca požiadavkami",
-        "description": "Oficiálne spravodajstvo verejnoprávnej televízie TV Perú s aktuálnymi informáciami o požiadavkách na prevádzku dronov podľa MTC"
+        "title": "MTC — automatická registrácia dronov (2025)",
+        "description": "Oznámenie MTC (26. 1. 2025): registrácia RPAS cez Virtual Filing Desk (Mesa de Partes Virtual) trvá len niekoľko minút."
       },
       {
         "title": "Úrady MTC — Osobná návšteva",
-        "description": "Sídlo MTC: Jr. Zorritos 1203, Cercado de Lima. Osobné postupy pre RPAS sú dostupné aj v regionálnych centrách služieb pre občanov."
+        "description": "Sídlo MTC: Jr. Zorritos 1203, Cercado de Lima. Služby sú dostupné aj v regionálnych centrách služieb pre občanov (Centros de Atención al Ciudadano), kde možno osobne vybaviť postupy týkajúce sa RPAS."
       }
     ],
-    "disclaimerText": "Pred lietaním vždy skontrolujte oficiálne zdroje DGAC v rámci Ministry of Transport and Communications (MTC). Táto aplikácia je nástroj, nie právny zdroj. Peru uplatňuje Complementary Technical Standard (NTC) 001-2015 so zjednodušenou registráciou cez MTC Virtual Filing Desk.",
+    "disclaimerText": "Pred lietaním vždy skontrolujte oficiálne zdroje DGAC v rámci Ministry of Transport and Communications (MTC). Táto aplikácia je nástroj, nie právny zdroj. Peru uplatňuje zákon č. 30740, jeho vykonávací predpis (D.S. No. 012-2026-MTC) a NTC 001-2015 so zjednodušenou registráciou cez MTC Virtual Filing Desk (Mesa de Partes Virtual).",
     "sectionLabelRules": "KĽÚČOVÉ PRAVIDLÁ",
     "sectionLabelPrimary": "OFICIÁLNE ZDROJE",
     "sectionLabelSecondary": "ĎALŠIE ZDROJE",
     "linksSheetTitle": "Vzdušný priestor a predpisy — Peru",
-    "dronePilotCredentialName": "Pilotná licencia RPAS"
+    "dronePilotCredentialName": "Akreditácia pilota/prevádzkovateľa RPAS"
   }
 }

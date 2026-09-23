@@ -1,27 +1,29 @@
 {
   "meta": {
-    "sourceHash": "b98ef8dd7e9c6b0c530a3757ad835b367dd07af3c65b9dd744c1512f5f5992cd",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "27f497a74725016dcbdecc01ce23d9050fb7893544b864e9bca529e0be6b134f",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Līdz 120 m virs zemes (EASA atvērtā kategorija)",
-      "Reģistrējies kā UAS operators, ja drons sver 250 g vai vairāk vai ir aprīkots ar kameru",
-      "A1/A3 tiešsaistes apmācība ir obligāta — minimālais vecums 16 gadi",
-      "Obligāta civiltiesiskās atbildības apdrošināšana VISIEM droniem neatkarīgi no svara (segums €1–2,5 miljonu apmērā)",
-      "Brisele: nepieciešamas divas atļaujas (federālā un reģionālā atļauja)",
-      "Vienmēr turi dronu tiešā redzamībā (VLOS)",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, ko mēra kā attālumu līdz tuvākajam Zemes virsmas punktam — ne vienkārši taisni uz leju, tāpēc nogāzes tuvumā var skaitīties arī zeme tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (augstāka par 105 m) par šķērsli atbildīgā persona var lūgt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Tev jāreģistrējas kā UAS operatoram, ja tavs drons sver 250 g vai vairāk (vai sadursmē varētu nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas arī uz rotaļlietām. Zem 250 g reģistrācija tomēr ir nepieciešama, ja dronam ir sensors, kas spēj uztvert personas datus, izņemot gadījumu, ja tas atbilst rotaļlietai saskaņā ar ES Rotaļlietu drošuma direktīvu. Reģistrējies ES/EASA valstī, kurā dzīvo (ja dzīvo ārpus tām — pirmajā ES/EASA valstī, kurā lidosi); šī reģistrācija ir derīga visās ES/EASA valstīs. Pilota apmācības/apliecības prasības ir noteiktas atsevišķi un ir atkarīgas no drona klases un apakškategorijas.",
+      "Beļģijā minimālais vecums apakškategorijām A1/A3 ir 14 gadi — bezmaksas tiešsaistes apmācība un eksāmens ir derīgi 5 gadus un atzīti visā ES. Apakškategorijai A2 minimālais vecums joprojām ir 16 gadi. Izņēmumi no 14 gadu vecuma ierobežojuma: nav minimālā vecuma C0 dronam, kas ir rotaļlieta (ES Rotaļlietu drošuma direktīva), A1 apakškategorijā, pašbūvētam dronam, kas sver mazāk par 250 g, vai lidojot tiešā uzraudzībā pilotam, kurš ir vismaz 16 gadus vecs un kuram ir nepieciešamā apliecība.",
+      "Civiltiesiskās atbildības apdrošināšana (trešo personu veselības kaitējums un īpašuma bojājumi) atvērtajā kategorijā ir obligāta, izņemot dronus, kas sver mazāk par 900 g un tiek izmantoti tikai privāti. No 20 kg piemēro Regulation (EC) No 785/2004 prasības.",
+      "Ārvalstu piloti: citā ES dalībvalstī veikta reģistrācija un A1/A3/A2 apliecība ir derīga Beļģijā; ņem līdzi reģistrācijas apliecinājumu un izvieto operatora numuru uz drona. Uz tevi attiecas arī Beļģijas ģeozonas un Beļģijas apdrošināšanas prasība (izņemot privātu lietošanu zem 900 g).",
+      "Brisele: ģeozonā EBR-01 nepieciešama attiecīgās iestādes iepriekšēja atļauja, lai lidotu virs vēstniecībām un federālajām un starptautiskajām (tostarp ES) iestādēm vai 50 m attālumā no tām. Pārbaudi arī Brussels Airport CTR nosacījumus Droneguide un pašvaldības noteikumus, ja vēlies pacelties vai filmēt publiskā vietā.",
+      "Atvērtajā kategorijā dronam jābūt tavā tiešajā redzamībā ar neapbruņotu aci (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai lido ar novērotāja palīdzību, visu laiku skaidri un efektīvi sazinoties, lai kopā uzraudzītu gaisa telpu un izvairītos no sadursmēm. Režīms “Follow-me” apakškategorijā A1 ir atsevišķs izņēmums, kas atļauts līdz 50 m no pilota.",
+      "Droni bez klases marķējuma (laisti tirgū pirms 2024. gada): zem 250 g — A1, citādi tikai A3 un maks. 25 kg (min. 150 m no dzīvojamām, komerciālām, rūpnieciskām vai atpūtas zonām). Bez klases marķējuma un laisti tirgū pēc 31-12-2023: ne atvērtajā kategorijā.",
       "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kas nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
-      "Vismaz 3 km no lidostām un helikopteru laukumiem",
+      "Vienota ES mēroga attāluma no lidostām nav; ģeozonu forma un lielums katrai lidostai atšķiras. Beļģijas CTR ir spēkā ģeozonas (skat. Droneguide): VLL 0 ap skrejceļiem atvērtā kategorija ir aizliegta; VLL 1 un VLL 2 — maks. 150 ft (apm. 45 m) virs zemes (VLL 1 turklāt ne augstāk par augstāko šķērsli 100 m rādiusā). VLL 1: nepieciešama iepriekšēja atļauja; VLL 2: par lidojumu jāpaziņo vismaz 3 stundas iepriekš. Piesakies caur skeyes DAA-planner; obligāti jābūt sasniedzamam pa tālruni, obligāta ir ģeogrāfiskā informētība (geo-awareness) un Remote ID (Remote ID neattiecas uz C0 un noteiktiem droniem zem 250 g).",
       "Nakts lidojumi ir atļauti saskaņā ar EASA atvērtās kategorijas pamatnosacījumiem, ja tiek izmantota nepieciešamā zaļā mirgojošā gaisma, ja vien spēkā esošie ģeogrāfiskās zonas vai valsts noteikumi neparedz stingrākus nosacījumus.",
       "Droneguide pārbaudi konkrētās zonas augstuma ierobežojumus un aizliegumus"
     ],
     "importantNotes": [
-      "Obligāta apdrošināšana VISIEM droniem neatkarīgi no svara — nepieciešams €1–2,5 miljonu segums",
-      "Briselei nepieciešama gan federālā reģistrācija, GAN reģionālā atļauja",
-      "Trīs lidostas (Brisele, Šarleruā, Ljēža) izveido lielas ierobežotās zonas",
+      "Civiltiesiskās atbildības apdrošināšana ir obligāta, izņemot privātu lietošanu ar droniem, kas sver mazāk par 900 g",
+      "Brisele (ģeozona EBR-01): lidot virs vēstniecībām, federālās valdības iestādēm un starptautiskām iestādēm vai 50 m attālumā no tām drīkst tikai ar attiecīgās iestādes iepriekšēju atļauju",
+      "Kontrolētajām lidostām (Brisele, Antverpene, Šarleruā, Ljēža, Ostende) un militārajiem lidlaukiem ir CTR ģeozonas ar stingriem nosacījumiem; Kortreikas-Vevelgemas lidostai ir RMZ/TMZ ģeozona.",
       "Pārkāpumi var izraisīt naudassodus un kriminālvajāšanu",
       "GDPR attiecas uz tādu attēlu veidošanu, kuros redzamas identificējamas personas"
     ],
@@ -45,15 +47,15 @@
     ],
     "secondaryLinks": [
       {
-        "title": "skeyes — Gaisa satiksmes vadība",
-        "description": "Beļģijas gaisa satiksmes vadība un gaisa telpas informācija"
+        "title": "skeyes — droni un ģeozonas",
+        "description": "Beļģijas gaisa satiksmes vadības dienesta dronu lapa: nosacījumi lidošanai ģeozonās un DAA-planner"
       },
       {
         "title": "BCAA — Biežāk uzdotie jautājumi par droniem",
         "description": "Biežāk uzdotie jautājumi par dronu noteikumiem Beļģijā"
       }
     ],
-    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos BCAA avotus un Droneguide. Šī lietotne ir rīks, nevis juridiski saistošs avots. Beļģija ievēro EASA noteikumus, kas ietver stingras nacionālās apdrošināšanas prasības.",
+    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos BCAA avotus un Droneguide. Šī lietotne ir rīks, nevis juridiski saistošs avots. Beļģija ievēro EASA noteikumus, ko papildina nacionālie noteikumi (tostarp obligāta apdrošināšana un noteiktas ģeogrāfiskās zonas).",
     "sectionLabelRules": "GALVENIE NOTEIKUMI (EASA ATVĒRTĀ KATEGORIJA)",
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",

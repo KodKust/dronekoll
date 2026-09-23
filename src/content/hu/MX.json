@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "17d852a01e48f71061854c0a7b614ed78721768d3d73eccf5ccdda3a556d264f",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "da2427b1326315670ad00c40760c98fe7dcb581d5abb3f16d2aa07daea8f6c28",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maximális repülési magasság: 120 m (400 ft) a talajszint felett",
-      "Legalább 9,2 km távolság az ellenőrzött repülőterektől",
-      "Legalább 3,7 km távolság az ellenőrizetlen repülőterektől",
+      "Legalább 9,2 km (5 NM) távolság bármely ellenőrzött vagy nem ellenőrzött repülőtértől (NOM-107-SCT3-2019, 4.10.1).",
+      "A NOM-107-ben (I. függelék) felsorolt repülőterektől 9,2 km (5 NM) és 18,5 km (10 NM) között: legfeljebb 100 m (328 ft) magasság.",
       "Legalább 900 m távolság a helikopterleszállóktól",
+      "Tilos repülni az AIP (ENR 5.1) szerinti tiltott, korlátozott vagy veszélyes légterekben és a helikopterfolyosókban; minden repülés előtt ellenőrizd a NOTAM-okat.",
       "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS), legfeljebb 457 m-re a kezelőtől",
-      "250 g vagy annál nehezebb drónok: kötelező regisztráció az AFAC-nál (a K. függelék szerinti űrlapon)",
+      "250 g feletti drónok: repülés előtt kötelező regisztráció az AFAC-nál (a K. függelék szerinti űrlapon)",
       "250 g-nál könnyebb drónok: mentesülnek a regisztráció alól, de minden más szabály érvényes",
-      "Súlykategóriák: Mikro (≤2 kg), Könnyű (2–25 kg), Nehéz (>25 kg)",
+      "Súlykategóriák: Mikro (≤2 kg), Kicsi (>2–25 kg), Nagy (>25 kg)",
+      "2 kg feletti szabadidős drónok: csak az AFAC által engedélyezett modellrepülő klubokban repülhetnek.",
       "Az éjszakai repülésekhez az AFAC külön engedélye szükséges",
-      "A kereskedelmi használathoz a súlykategóriától függően további engedély szükséges"
+      "Nem kereskedelmi magáncélú vagy kereskedelmi használat: érvényes polgári jogi felelősségbiztosítás kötelező; a Mikro (≤2 kg) kategóriához ezenfelül különleges engedély szükséges az ellenőrzött légtérhez; a Kicsi és a Nagy kategóriához az AFAC üzemeltetési engedélye szükséges."
     ],
     "importantNotes": [
-      "⚠️ KÜLFÖLDI PILÓTÁK: A NOM-107 tiltja a külföldön regisztrált vagy külföldi állampolgárok által üzemeltetett drónok használatát, kivéve, ha Mexikó és a származási ország között kétoldalú megállapodás van. Turisták: ellenőrizd az utazás előtt.",
-      "Az illegális üzemeltetés büntetése akár MXN $80,000 összegű bírság vagy szabadságvesztés is lehet",
+      "KÜLFÖLDI PILÓTÁK: a NOM-107-SCT3-2019 tiltja a külföldi lajstromozású vagy külföldi állampolgárok által vezetett drónok üzemeltetését, kivéve, ha Mexikó és a származási ország között kétoldalú megállapodás van — jelenleg nem ismert ilyen hatályos megállapodás.",
+      "A 250 g feletti Mikro és a Kicsi drónok Mexikóba történő behozatalához a drónoknak rendelkezniük kell gyártó- és típusmegjelöléssel, sorozatszámmal, használati útmutatóval, valamint a távolságot és a magasságot automatikusan korlátozó szoftverrel (NOM-107, 10.1).",
+      "A NOM-107 be nem tartását az AFAC a Ley de Aviación Civil alapján szankcionálhatja; a drónok bűncselekmény elkövetésére való használata (pl. robbanóanyag ledobása vagy emberek megtámadása) szabadságvesztéssel büntetendő (Código Penal Federal, 163 Bis–Quáter cikk).",
       "A nemzeti parkok és a régészeti helyszínek (INAH) általában külön engedély nélkül tiltják a drónokat",
       "A jachtkikötők és a tengerparti területek gyakran korlátozás alá esnek — érdeklődj a helyi hatóságoknál",
       "Az AFAC nyilvántartásának válaszideje akár 10 munkanap is lehet — tervezz előre"
@@ -37,16 +40,12 @@
       {
         "title": "NOM-107-SCT3-2019 — Hivatalos szabvány",
         "description": "A mexikói hivatalos szabvány, amely meghatározza a távirányítású légijármű-rendszerek üzemeltetésének követelményeit"
-      },
-      {
-        "title": "Circular CO AV-23/10 R4",
-        "description": "Kötelező körlevél, amely részletes műszaki és üzemeltetési követelményeket határoz meg a drónokra vonatkozóan"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "ASA — Repülőterek és kiegészítő szolgáltatások",
-        "description": "Információk a mexikói szövetségi repülőterekről a korlátozott területek ellenőrzéséhez"
+        "title": "AFAC — Repülőtér- és helikopter-leszállóhely-adatbázis",
+        "description": "A repülőterek és helikopter-leszállóhelyek aktuális hivatalos listája a NOM-107 minimális távolságainak ellenőrzéséhez"
       },
       {
         "title": "SICT — Polgári légiközlekedés",
@@ -62,6 +61,6 @@
     "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
     "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
     "linksSheetTitle": "Légtér és szabályok — Mexikó",
-    "dronePilotCredentialName": "Távpilóta-engedély"
+    "dronePilotCredentialName": "RPAS-pilótaengedély"
   }
 }

@@ -1,27 +1,33 @@
 {
   "meta": {
-    "sourceHash": "508ee28346525a09001728f6f525106d73a15d373ba459d581dbbbe091cc7d62",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eee1f5c184b67a857980e5927e116be613b5cef533bad82326dd2e369b059d05",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m, mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maasto voi olla ratkaiseva. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolella.",
       "Noudattaa täysin Sveitsin FOCAn dronemääräyksiä",
-      "Rekisteröinti Sveitsin järjestelmän kautta (10 CHF, voimassa toistaiseksi), jos drone painaa vähintään 250 g tai siinä on kamera",
+      "Sinun on rekisteröidyttävä dronen käyttäjäksi, jos dronesi painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g:n dronen kohdalla rekisteröinti vaaditaan silti, jos dronessa on henkilötietoja tallentamaan kykenevä anturi, ellei sitä katsota leluksi EU:n lelujen turvallisuusdirektiivin mukaan. Käyttäjän rekisteröintinumeron (ilman kolmea viimeistä merkkiä) on oltava selvästi näkyvissä jokaisessa dronessa. Lentäjän koulutus- ja pätevyysvaatimukset säädetään erikseen, ja ne riippuvat dronen luokasta ja alaluokasta.",
+      "Kauko-ohjaajan vähimmäisikä (avoin kategoria): 12 vuotta; nuoremmat vain vähintään 16-vuotiaan todistuksen haltijan valvonnassa",
       "Pakollinen vastuuvakuutus yli 250 g painaville droneille (kattavuus 1 miljoona CHF)",
-      "Vaduzin linna: täydellinen lennätyskielto",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Etätunnistuksen (Remote ID) on oltava päällä lennon aikana, ja siihen on tallennettava käyttäjän rekisteröintinumero — lukuun ottamatta C0-luokan, vanhoja (legacy) ja itse rakennettuja droneja",
+      "Pysyvä dronejen lentokieltoalue ”Regierungsgebäude – Landtag – Schloss Vaduz” (kaikki painoluokat). Poikkeuslupia voi hakea Amt für Hochbau und Raumplanungilta.",
+      "Balzersin helikopterikenttä (LSXB): yli 250 g:n dronet ovat kiellettyjä osassa Balzersia, ja kaikki dronet suoraan helikopterikentällä — poikkeukset vain luvalla",
+      "Avoimessa kategoriassa drone on pidettävä omassa suorassa näköyhteydessäsi paljain silmin (silmälasit/piilolinssit käyvät; kiikarit tai näyttö eivät kelpaa) — tai lennä tarkkailijan avulla niin, että välillänne on koko ajan selkeä ja toimiva yhteys, jotta voitte yhdessä valvoa ilmatilaa ja välttää yhteentörmäyksiä. ”Follow-me”-tila on erillinen poikkeus, joka on sallittu enintään 50 m:n etäisyydellä lentäjästä.",
+      "Yölennot vain näköetäisyydellä ja paikkavalot päällä; lyhennä etäisyyttä vastaavasti",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-      "Vähintään 5 km:n etäisyys kaikista lentoasemista ja lentopaikoista",
+      "EU:ssa ei ole yhtä yhteistä etäisyyttä, joka lentoasemiin on pidettävä. Lentoasemien lähellä olevat rajoitukset julkaistaan maantieteellisinä vyöhykkeinä (15 artikla), joiden muoto ja koko vaihtelevat lentoasemittain. Ennen kuin lennät lentoaseman, lentopaikan tai helikopterikentän lähellä, tarkista maasi virallinen dronevyöhykekartta; lentäminen lähialueella (CTR) edellyttää yleensä lennonjohdon ennakkolupaa.",
+      "Tarkista ennen jokaista lentoa myös DABS (Daily Airspace Bulletin Switzerland, skybriefing.com/de/dabs) — jos lentoalue on sen piirissä, et saa lentää.",
       "Hyvin pieni maa — rajat ylittävät lennot Sveitsiin tai Itävaltaan vaativat erityistä tarkkaavaisuutta",
       "Alppimaasto: varo helikopterireittejä"
     ],
     "importantNotes": [
       "Liechtenstein noudattaa täysin Sveitsin FOCAn määräyksiä",
       "Sama rekisteröintijärjestelmä kuin Sveitsissä (10 CHF, voimassa toistaiseksi)",
-      "Vaduzin linna on ehdoton lennätyskieltoalue",
+      "EASA-valtiossa (EU, Sveitsi, Liechtenstein, Norja, Islanti) asuvat: rekisteröidy asuinmaassasi — rekisteröinti on voimassa kaikissa EASA-valtioissa. EASA-valtioiden ulkopuolella asuvat: rekisteröidy ennen lentämistä, ellet ole jo rekisteröitynyt jossakin EASA-valtiossa (Sveitsissä dLIS-palvelussa BAZL:lle, 10 CHF). EASA-valtioiden ulkopuolisten maiden kauko-ohjaajan todistuksia ei tunnusteta.",
+      "Alue ”Regierungsgebäude – Landtag – Schloss Vaduz” on pysyvä dronejen lentokieltoalue (kaikki painoluokat)",
       "Maa on vain noin 25 km pitkä — rajan voi ylittää vahingossa helposti",
       "GDPR-tietosuoja-asetus koskee tunnistettavien henkilöiden kuvaamista (ETA-jäsen)"
     ],
@@ -35,12 +41,12 @@
         "description": "Sama rekisteröintijärjestelmä kuin Sveitsissä (10 CHF, voimassa toistaiseksi)"
       },
       {
-        "title": "Swiss Dronemap — Ilmatilakartta",
-        "description": "Virallinen interaktiivinen dronekartta (sisältää Liechtensteinin)"
+        "title": "BAZL-dronekartta — ilmatilakartta",
+        "description": "BAZL:n virallinen dronekartta (pätee myös Liechtensteinissa)"
       },
       {
-        "title": "Liechtensteinin hallitus — Ilmailu",
-        "description": "Liechtensteinin hallituksen portaali ilmailutietoineen"
+        "title": "Landespolizei Liechtenstein — dronet",
+        "description": "Tietoa droneista ja lentokieltoalueista Liechtensteinissa"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +59,7 @@
         "description": "Usein kysyttyä dronemääräyksistä"
       }
     ],
-    "disclaimerText": "Tarkista aina FOCA/BAZL:n viralliset lähteet ja Swiss Dronemap ennen jokaista lentoa. Tämä sovellus on työkalu, ei oikeudellinen lähde. Liechtenstein noudattaa Sveitsin FOCA/EASA-määräyksiä.",
+    "disclaimerText": "Tarkista aina FOCA/BAZL:n viralliset lähteet ja BAZL:n dronekartta ennen jokaista lentoa. Tämä sovellus on työkalu, ei oikeudellinen lähde. Liechtenstein noudattaa Sveitsin FOCA/EASA-määräyksiä.",
     "sectionLabelRules": "TÄRKEIMMÄT SÄÄNNÖT (EASAN AVOIN KATEGORIA)",
     "sectionLabelPrimary": "VIRALLISET LÄHTEET",
     "sectionLabelSecondary": "LISÄRESURSSIT",

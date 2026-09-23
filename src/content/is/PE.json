@@ -1,35 +1,38 @@
 {
   "meta": {
-    "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c7bb0eb5efb529d016ee7e14e38488c5a01fec2c25b6f85e5c65f17487613d71",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Hámarkshæð: 152 m (500 fet) yfir jörðu (AGL)",
-      "Lágmarksfjarlægð 4 km frá flugvöllum og öðrum flugstöðum",
-      "Lágmarksfjarlægð 30 m lárétt og 20 m lóðrétt frá fólki, byggingum eða hlutum",
-      "Atvinnunotkun (hvaða þyngd sem er): skráning hjá MTC nauðsynleg + sérstök heimild",
-      "Haltu drónanum ávallt innan beinnar sjónlínu (VLOS)",
-      "Flug er aðeins heimilt að degi til — næturflug krefst sérstakrar heimildar frá DGAC",
-      "Flug í þéttbýli krefst fyrirframsamþykkis MTC; á dreifbýlissvæðum gilda engar sérstakar takmarkanir",
-      "Takmörkuð svæði: flugvellir, flugstaðir, mikilvæg mannvirki og svæði með mikilli íbúaþéttni — flug er ekki heimilt án leyfis",
-      "Lagalegur greinarmunur: tómstundanotkun (afþreying) vs. atvinnu-/viðskiptanotkun (sérhæfð starfsemi)"
+      "Hámarkshæð: 152 m (500 ft) yfir jörðu (AGL) (NTC 001-2015, 8. gr. (e)(10)).",
+      "Lágmarksfjarlægð 4 km frá flugvöllum og flugbrautum (NTC 001-2015, 8. gr. (e)(19)).",
+      "Haltu að minnsta kosti 30 m láréttri og 20 m lóðréttri fjarlægð frá fólki, byggingum eða hindrunum í öllum áföngum flugsins (NTC 001-2015, 8. gr. (e)(9)).",
+      "Fljúgðu ekki yfir þjóðvegi, vegi, slóða, brýr, raforku- eða fjarskiptainnviði (staura, möstur, kapla, loftnet), skipgengar vatnaleiðir eða olíu- og gasleiðslur; nálægt þeim skaltu halda meira en 30 m láréttri fjarlægð frá jaðri þeirra (NTC 001-2015, 8. gr. (e)(20)).",
+      "Tómstundanotkun: drónar undir 2 kg falla utan laga nr. 30740 og reglugerðar þeirra, en rekstrartakmarkanir NTC 001-2015 (hæð, fjarlægðir, svæði) gilda um alla borgaralega notkun. Frá 2 kg, og fyrir alla notkun sem ekki er í tómstundaskyni, verður að skrá drónann hjá DGAC; vanræksla á skráningu varðar sekt (lög nr. 30740, 3. og 4. gr.); ferlið er sjálfvirkt í gegnum rafræna afgreiðslu MTC (Mesa de Partes Virtual).",
+      "Notkun sem ekki er í tómstundaskyni (óháð þyngd): drónaskráning, RPAS-flugmannsvottun (18 ára eða eldri, RPAS-námskeið hjá CIAC eða flugklúbbi og DGAC-próf), ábyrgðartrygging að lágmarki 10 UIT og heimild DGAC (NTC 001-2015, mgr. 8(c)-(d)). Skráning hefur verið sjálfvirk frá janúar 2025.",
+      "Dróninn verður ávallt að vera innan beinnar sjónlínu flugmannsins.",
+      "Aðeins er heimilt að fljúga að degi til: NTC bannar rekstur við næturskilyrði (eftir sólsetur eða fyrir sólarupprás) (NTC 001-2015, 8. gr. (e)(13)).",
+      "Þéttbýli og byggð svæði: flug er ekki heimilt. DGAC heimilar það aðeins í undantekningartilvikum fyrir opinbera aðila, verktaka þeirra, þjónustu sem lýst hefur verið í almannaþágu, slökkvilið og INDECI, með drónum allt að 6 kg búnum fallhlíf. Sérhver höfuðstaður héraðs, sýslu eða umdæmis og sérhver byggð með fleiri en 1000 íbúa telst þéttbýli. Dreifbýli: háð almennum takmörkunum staðalsins (NTC 001-2015, 8. gr. (e)(2) og (f)).",
+      "Takmörkuð svæði: flugvellir, flugbrautir, mikilvæg mannvirki og þéttbýl svæði, nema heimild sé fyrir hendi.",
+      "Lagalegur greinarmunur: tómstundanotkun (afþreying) vs. atvinnu-/viðskiptanotkun (sérhæfð starfsemi), með mismunandi kröfum fyrir hvora."
     ],
     "importantNotes": [
       "🏛️ MACHU PICCHU OG FORNLEIFASVÆÐI: Ministry of Culture bannar notkun dróna án sérstaks leyfis við Machu Picchu, Nazca Lines, Chan Chan, Caral, Kuélap og önnur fornleifasvæði. Heimild frá Ministry of Culture er nauðsynleg TIL VIÐBÓTAR VIÐ heimild frá MTC.",
       "🌳 VERNDUÐ NÁTTÚRUSVÆÐI OG AMAZON: SERNANP (National Service for Protected Natural Areas) krefst sérstaks leyfis fyrir dróna í þjóðgörðum eins og Manu, Tambopata og Huascarán. Amazon-svæðið og samfélög frumbyggja hafa frekari takmarkanir.",
-      "🏙️ ÞÉTTBÝLI Í LIMA OG CUSCO: Miðborg Lima (Plaza Mayor, Government Palace), Jorge Chávez Airport (LIM), miðborg Cusco og flugvöllurinn (CUZ), hersvæði og sendiráð lúta varanlegum takmörkunum. Söguleg miðborg Cusco krefst leyfis frá Ministry of Culture."
+      "🏙️ ÞÉTTBÝLI Í LIMA OG CUSCO: Lima og Cusco eru þéttbýli þar sem flug er ekki heimilt nema með undanþáguheimild (NTC 001-2015, 8. gr. (e)(2) og (f)). Forsetahöllin, hersvæði, flugvellirnir Jorge Chávez (LIM) og Cusco (CUZ) og svæði sem birt eru í AIP-Perú eða NOTAM eru einnig takmörkuð svæði (8. gr. (e)(19) og (22)). Sögulegi miðbær Cusco krefst auk þess jákvæðrar umsagnar Ministry of Culture (lög nr. 30740, gr. 2.5).",
+      "⚠️ VIÐURLÖG: Lögreglan (National Police) getur gripið inn í og lagt hald á drónann ef honum er flogið í bága við reglurnar; DGAC beitir viðurlögum, þar á meðal sektum (D.S. 012-2026-MTC, 7. og 73. gr.; lög nr. 30740, 4. gr.)."
     ],
     "primaryLinks": [
       {
-        "title": "MTC — Kröfur til að fljúga dróna",
-        "description": "Opinber vefur samgöngu- og fjarskiptaráðuneytisins (MTC) sem tilgreinir kröfur til að fljúga drónum. Inniheldur reglugerð NTC 001-2015 og ferli DGAC."
+        "title": "MTC — Reglugerð laga nr. 30740 (D.S. 012-2026-MTC)",
+        "description": "Opinber reglugerð MTC (29/05/2026). Nýju flokkarnir og skírteinin taka gildi þegar DGAC uppfærir NTC 001-2015; þangað til gildir NTC."
       },
       {
-        "title": "Sýndarafgreiðsluborð MTC — RPAS-skráning",
-        "description": "Opinber netvettvangur MTC til að skrá dróna (RPAS) að fullu á netinu. Veldu \"Skráning fjarstýrðra loftfarakerfa (RPAS)\" og fylltu út eyðublaðið"
+        "title": "MTC Mesa de Partes Virtual (rafræn afgreiðsla) — RPAS-skráning",
+        "description": "Opinber netvettvangur MTC til að skrá dróna (RPAS) alfarið á netinu. Veldu \"Registro de Aeronaves Pilotadas a Distancia (RPAS)\" (skráning fjarstýrðra loftfara) og fylltu út eyðublaðið"
       },
       {
         "title": "MTC — Stofnanasíða",
@@ -42,23 +45,23 @@
     ],
     "secondaryLinks": [
       {
-        "title": "El Peruano — Drónaleyfi (opinbert)",
-        "description": "Opinbera stjórnartíðindin El Peruano: opinberar upplýsingar um leyfin sem þú þarft til að fljúga drónum, samkvæmt MTC og DGAC"
+        "title": "MTC — RPAS-flugmannsvottun",
+        "description": "Síða MTC (uppfærð 11/08/2026): umsókn, netpróf og rafræn vottun RPAS-flugmanna/rekstraraðila (notkun sem ekki er í tómstundaskyni)."
       },
       {
-        "title": "TV Perú — Opinber leiðbeining um kröfur",
-        "description": "Opinber umfjöllun ríkisútvarpsins TV Perú með uppfærðum upplýsingum um kröfur til að fljúga drónum, eins og MTC tilgreinir"
+        "title": "MTC — Sjálfvirk drónaskráning (2025)",
+        "description": "Tilkynning MTC (26/01/2025): RPAS-skráning tekur aðeins nokkrar mínútur í gegnum rafræna afgreiðslu (Mesa de Partes Virtual)."
       },
       {
         "title": "Skrifstofur MTC — Þjónusta í eigin persónu",
-        "description": "Höfuðstöðvar MTC: Jr. Zorritos 1203, Cercado de Lima. Þjónusta er einnig í boði hjá svæðisbundnum borgaraþjónustumiðstöðvum fyrir RPAS-ferli í eigin persónu."
+        "description": "Höfuðstöðvar MTC: Jr. Zorritos 1203, Cercado de Lima. Þjónusta er einnig í boði hjá svæðisbundnum borgaraþjónustumiðstöðvum (Centros de Atención al Ciudadano) fyrir RPAS-ferli í eigin persónu."
       }
     ],
-    "disclaimerText": "Athugaðu ávallt opinberar heimildir DGAC hjá Ministry of Transport and Communications (MTC) áður en þú flýgur. Þetta forrit er verkfæri, ekki lögbær heimild. Perú framfylgir Complementary Technical Standard (NTC) 001-2015 með einfaldaðri skráningu í gegnum MTC’s Virtual Filing Desk.",
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir DGAC hjá Ministry of Transport and Communications (MTC) áður en þú flýgur. Þetta forrit er verkfæri, ekki lögbær heimild. Perú framfylgir lögum nr. 30740, reglugerð þeirra (D.S. No. 012-2026-MTC) og NTC 001-2015, með einfaldaðri skráningu í gegnum rafræna afgreiðslu MTC (Mesa de Partes Virtual).",
     "sectionLabelRules": "HELSTU REGLUR",
     "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
     "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
     "linksSheetTitle": "Loftrými og reglur — Perú",
-    "dronePilotCredentialName": "RPAS-flugmannsleyfi"
+    "dronePilotCredentialName": "RPAS-flugmanns-/rekstraraðilavottun"
   }
 }

@@ -1,30 +1,32 @@
 {
   "meta": {
-    "sourceHash": "64c56f7cd237868e12b4a9acebacfc1c7ed47d9c27e97af77b28d123a7822c74",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "9cca66a7c2aad0d0dc5edac3e33625910a5e790c5cdccb45c10be1fbd9252627",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Azami irtifa: Open Kategorisinde (kontrolsüz hava sahası) yerden 122 m (400 ft)",
-      "Havalimanlarının yakınında (≤5 km): hava seyrüsefer hizmet sağlayıcısının önceden izni olmadan azami yükseklik 43 m",
-      "İzin olmadan havalimanları ve hava meydanlarından en az 5 km uzakta kalın",
-      "Helikopter pistlerine en az 500 m mesafe",
-      "İlgisiz kişilere ve binalara güvenli mesafe",
+      "Open kategorisi: hava meydanı kontrol bölgeleri (CTR) içinde uçmak yasaktır. Kontrollü hava sahasında, pist eşiklerinin 5 km yakınında: azami 43 m ve asla yaklaşma veya kalkış yüzeylerinde değil; daha yüksek irtifa, hava seyrüsefer hizmet sağlayıcısından izin gerektirir.",
+      "Helikopter pistleri: referans noktasının (HRP) 1 deniz mili (1,85 km) yakınında uçmak yasaktır; 1 ile 2 deniz mili arasında, önceden koordine edilmedikçe helikopter pistinin en fazla 150 ft (46 m) üzerinde.",
+      "Askeri, güvenlik veya cezaevi tesislerinin üzerinde ve bunların 1 deniz mili (1,85 km) yakınında; sahibinin izni olmadan rafinerilerin, enerji santrallerinin veya yakıt depolarının üzerinde; ve yüksek gerilim hatlarının 25 m (dikey veya yatay) yakınında uçmak yasaktır.",
+      "Operasyona dahil olmayan kişilere ve binalara güvenli bir mesafe korumalısınız.",
       "Open Kategorisinde dronu her zaman doğrudan görüş hattı (VLOS) içinde tutun",
-      "Uçuşa yalnızca gündüz izin verilir — gece uçuşları özel izin gerektirir",
-      "250 g'dan hafif dronlar: kayıt ve lisanstan muaf (Karar 550/2025)",
-      "≥250 g dronlar: TAD (ANAC) kaydı zorunlu — Open Kategorisinde pilot lisansı gerekmez",
+      "Alkol tükettikten sonraki 8 saat içinde veya psikoaktif maddelerin etkisi altındayken pilotluk yapmak ya da gözlemci olarak görev yapmak yasaktır.",
+      "Gece uçuşları: ANAC Res. 312/2026 (Mayıs 2026), RAAC 100'deki genel kısıtlamayı kaldırdı; ANAC'ın rehberi gece operasyonlarını hâlâ Specific kategorisinde sayıyor — gece uçmadan önce ANAC'a danışın.",
+      "250 g'dan hafif dronlar kayıt, lisans ve zorunlu sigortadan muaftır (Karar 550/2025, Ağustos 2025). 250 g ile 25 kg arasındaki dronlar pilot lisansı gerektirmez, ancak Casillero Aeronáutico Digital (CAD) üzerinden ANAC'a dijital olarak kaydedilmelidir.",
+      "≥250 g dronlar: CAD (ANAC) kaydı zorunlu — Open kategorisinde pilot lisansı gerekmez",
       "Specific kategorisindeki operasyonlar (25–150 kg veya kentsel uçuşlar/BVLOS) pilot lisansı, sağlık sertifikası ve ticari operatör sertifikası gerektirir",
-      "Open Kategorisi, önceden izin olmadan 25 kg'dan hafif dronlara olanak tanır (kırsal alanlarda ağırlık sınırı yoktur)"
+      "Open kategorisi, 250 g ile 25 kg'ın altı arasındaki dronlara önceden izin olmadan olanak tanır (döner kanatlı dronlar ağırlık sınırı olmadan yalnızca kırsal alanlarda, CTR'lerin ve kısıtlı hava sahasının dışında)"
     ],
     "importantNotes": [
-      "📜 YENİ 2025 ÇERÇEVESİ: ANAC Kararı 550/2025 (Ağustos 2025'ten itibaren yürürlükte), Karar 880/2019'un yerini alır. Üç kategori belirler: önceden izin gerektirmeyen operasyonlar, Open kategorisi ve Specific kategorisi. RAAC Part 100/101/102.",
-      "✈️ YABANCI TURİSTLER: 250 g veya daha ağır dronlar ilk uçuşlarından önce TAD'a kaydedilmelidir (Karar 550/2025). Kayıt çevrim içi yapılır; bir Arjantin kimliği veya pasaport gereklidir. DJI Mini, Flip vb. gibi 250 g'dan hafif dronlar kayıt ve lisanstan muaftır.",
-      "🌳 ULUSAL PARKLAR VE KORUNAN ALANLAR: APN (Ulusal Parklar İdaresi), Iguazú, Nahuel Huapi, Los Glaciares ve Tierra del Fuego gibi parklarda özel izin olmadan dronları yasaklar. Uçmadan önce her parka danışın.",
-      "🏛️ KENTSEL VE KISITLI ALANLAR: Buenos Aires (Jorge Newbery Havalimanı, Casa Rosada, Kongre), Ezeiza (Ministro Pistarini) ve askeri bölgeler uçuşa yasak bölgelerdir. Aerolíneas Argentinas ve şehir merkezi alanları kalıcı kısıtlamalara tabidir — AIP'yi kontrol edin.",
-      "💰 CEZALAR: İhlaller yüksek para cezalarına, ekipmana el konulmasına ve ciddi durumlarda cezai sorumluluğa yol açabilir. Ticari kullanım için sorumluluk sigortası gereklidir."
+      "📜 YENİ ÇERÇEVE: ANAC Kararı 550/2025 (Ağustos 2025'ten itibaren yürürlükte, Res. 312/2026 ile değiştirildi), Karar 880/2019'un yerini alır. Üç kategori belirler: Open, Specific ve Certified. RAAC Part 100/101/102.",
+      "250 g veya daha ağır dronlar ilk uçuşlarından önce Casillero Aeronáutico Digital (CAD) üzerinden ANAC'a kaydedilmelidir — kayıt ücretsizdir, çevrim içi yapılır ve DNI veya pasaport gerektirir. 250 g'dan hafif dronlar (ör. DJI Mini veya Flip) kayıt ve lisanstan muaftır (Karar 550/2025).",
+      "Turistler: o dron için başka bir ICAO Devletinin sivil havacılık otoritesi tarafından verilmiş geçerli bir kayıt sertifikası kabul edilir (RAAC 100.05); yalnızca operatöre ait bir kayıt yeterli olmayabilir. Dronunuz kayıtlı değilse, pasaportunuzla ANAC'a ücretsiz dijital yeminli beyanı (Declaración Jurada) doldurun.",
+      "🌳 ULUSAL PARKLAR VE KORUNAN ALANLAR: APN, Iguazú, Nahuel Huapi, Los Glaciares veya Tierra del Fuego gibi tüm korunan alanlarında dronların hobi ve spor amaçlı kullanımını yasaklar (APN Res. 9/2021). Profesyonel veya bilimsel kullanım APN'den önceden izin gerektirir.",
+      "🏛️ KISITLI ALANLAR: Casa Rosada, Quinta de Olivos, kamu binaları ve büyükelçiliklerin üzerinde, askeri tesislerin 1 deniz mili yakınında ve Aeroparque ile Ezeiza gibi havalimanlarının kontrol bölgelerinde uçmak yasaktır — AIP'yi kontrol edin.",
+      "💰 CEZALAR: İhlaller, hukuki veya cezai sorumluluk saklı kalmak kaydıyla Reglamento General de Infracciones de la Aviación Civil kapsamında cezalandırılır. Specific ve Certified kategorilerinde sigorta zorunludur (Open kategorisinde isteğe bağlıdır)."
     ],
     "primaryLinks": [
       {
@@ -32,8 +34,8 @@
         "description": "Ulusal Sivil Havacılık İdaresi'nin dronlara (VANT/SVANT) ilişkin resmî web sitesi: yeni mevzuat çerçevesi — Karar 550/2025, kategoriler ve operasyonel gereklilikler"
       },
       {
-        "title": "Dron Kaydı (TAD)",
-        "description": "Trámites a Distancia (TAD) platformu üzerinden 500 g'dan ağır dronlar için zorunlu kayıt sistemi. Sınıf A (≤500 g) hobi kullanımı muaftır."
+        "title": "Dron Kaydı (CAD)",
+        "description": "ANAC'ın Casillero Aeronáutico Digital (CAD) sisteminde 250 g ile 25 kg arasındaki dronlar için ücretsiz dijital yeminli beyan (Declaración Jurada); dijital bir Kayıt Sertifikası düzenlenir. 250 g'dan hafif dronlar muaftır."
       },
       {
         "title": "AIP — Havacılık Bilgilerinin Yayımı",
@@ -50,19 +52,19 @@
         "description": "Ticari dron operasyonları için Hava Operatörü Sertifikası. Specific Kategori ve profesyonel uçuşlar için gereklidir"
       },
       {
-        "title": "Uzaktan Ekip Üyesi (Pilot) Olarak Sertifikalandırma",
-        "description": "Uzaktan pilot olarak yetki alma prosedürü. Profesyonel sertifikasyon için sınavlar ve gereklilikler"
+        "title": "Uzaktan Mürettebat Üyesi (Pilot) Olarak Yetkilendirme",
+        "description": "Uzaktan Pilot Olarak Yetki Alma Prosedürü. Profesyonel Sertifikasyon İçin Sınavlar ve Gereklilikler"
       },
       {
         "title": "Yeni Mevzuat Çerçevesi (Resmî Özet)",
         "description": "ANAC'ın Karar 550/2025 sonrası dronlara yönelik yeni mevzuat çerçevesinin resmî özeti: temel değişiklikler ve kategoriler"
       }
     ],
-    "disclaimerText": "Uçmadan önce her zaman ANAC'ın resmî kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Arjantin, Ağustos 2025'ten itibaren yürürlükte olan ANAC Kararı 550/2025'i (RAAC Part 100/101/102) uygular.",
+    "disclaimerText": "Uçmadan önce her zaman ANAC'ın resmî kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Arjantin, Ağustos 2025'ten itibaren yürürlükte olan ve ANAC Kararı 312/2026 ile değiştirilen ANAC Kararı 550/2025'i (RAAC Part 100/101/102) uygular.",
     "sectionLabelRules": "TEMEL KURALLAR",
     "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
     "sectionLabelSecondary": "EK KAYNAKLAR",
     "linksSheetTitle": "Hava Sahası ve Mevzuat — Arjantin",
-    "dronePilotCredentialName": "İHA Pilot Sertifikası"
+    "dronePilotCredentialName": "Uzaktan Pilot Lisansı (RPA)"
   }
 }

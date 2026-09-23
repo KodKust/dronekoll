@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (nüfussuz alanlar, hobi): ≤750 g dronlar özel mülkte, en yüksek engelin 50 m üzerine kadar izin olmadan uçabilir",
-      "DAN 151 (nüfuslu alanlar/profesyonel kullanım): 750 g'dan ağır dronlar DGAC kaydı, pilot lisansı ve operasyonel izin gerektirir",
-      "İzin verilen azami toplam yükseklik: 130 m AGL (DAN 151) — izne göre değişir",
-      "Havalimanları ve hava meydanlarından en az 2 km uzakta kalın",
+      "DAN 91.102(j): DGAC izni olmadan yalnızca genleştirilmiş polietilen veya eşdeğer malzemeden yapılmış, özel veya hobi amaçlı kullanılan 750 g'a kadar dronlar, özel alanlarda ve en yüksek engelin veya binanın en fazla 50 m üzerinde uçabilir. Diğer tüm uçuşlar DGAC'tan önceden izin gerektirir.",
+      "DAN 151 (nüfuslu alanlar, kamu yararı veya hava çalışması): her ağırlıktaki (azami 9 kg) dronlar için geçerlidir ve DGAC kaydı, uzaktan pilot yeterlilik belgesi, sigorta, bir AOC veya CEO ve bir operasyon izni gerektirir.",
+      "DAN 151: dron operasyon sırasında bir acil durum paraşütü taşımalı ve manuel olarak kontrol edilebilmelidir (paraşüt hariç azami 9 kg).",
+      "Genel sınır yerden 400 feet'tir (120 m) — bunun üzerinde uçmak DGAC'tan önceden izin gerektirir (DAN 151 Ed. 3, Mayıs 2024'ten beri yürürlükte). Yürürlükteki DAN 91 aynı sınırı '400 feet (130 metre)' olarak ifade eder.",
+      "Bir hava meydanında, uzatılmış pist merkez hattının 2 km yakınında (eşikten ölçülür) veya pist merkez hattına paralel 1 km içinde uçuş yapılamaz.",
+      "Mürettebatlı hava araçlarıyla yangınla mücadele edilen alanlarda dron operasyonu yapılamaz (DAN 91.102(i)(11) ve DAN 151.103(g)(14)).",
       "Operatörden azami 500 m uzaklıkta kalın (doğrudan görsel teması koruyun)",
-      "Dronu her zaman doğrudan görüş hattınızda (VLOS) tutun",
+      "Uçuşunu yönlendirmek için dronla her zaman doğrudan görsel teması korumalısınız.",
       "Gece uçuşları DGAC'tan özel izin gerektirir",
-      "DGAC kaydı: marka, model, seri numarası, izinli kullanım için azami ağırlık ≤9 kg, 10×15 cm fotoğraf",
-      "Pilot lisansı almak için DAN 151, DAN 91, meteoroloji ve aerodinamik konularını kapsayan yazılı bir sınavdan en az %75 puan almak gerekir",
+      "DGAC kaydı (DAN 151.203): üretici/ülke, marka, model, seri numarası ve fabrika ağırlığı, kimlik kartınızın bir kopyasıyla birlikte; başvuru DGAC web platformu üzerinden yapılır (Ağustos 2026'dan beri). Azami kalkış ağırlığı 9 kg.",
+      "Uzaktan pilot yeterlilik belgesi: en az 18 yaş, eğitim beyanı ve DAN 151, DAN 91, NOTAM, meteoroloji ve aerodinamik konularında yazılı sınav (en az %75); 36 ay geçerlidir.",
       "Profesyonel kullanım için üçüncü şahıs sorumluluk sigortası (JAC onaylı) gereklidir"
     ],
     "importantNotes": [
-      "📋 İKİLİ MEVZUAT ÇERÇEVESİ — DAN 91 vs. DAN 151: Şili, NÜFUSSUZ alanlarda uçmak (DAN 91, daha esnek; ≤750 g izinsiz hobi uçuşları) ile NÜFUSLU alanlarda veya kamu yararı alanlarında uçmak (DAN 151; kayıt, sertifikalı pilot ve sigorta gerektirir) arasında ayrım yapar. Geçerli mevzuat konuma VE amaca bağlıdır.",
-      "✈️ YABANCI TURİSTLER: Kurallar yerleşik olmayanlara da eşit şekilde uygulanır. Nüfussuz özel alanlarda ≤750 g dronlarla hobi uçuşları için kayıt gerekmez. Diğer tüm operasyonlar için (turizm, profesyonel kullanım, insanların yakınında, parklarda) Şili vatandaşlarıyla aynı izinler gereklidir.",
-      "🌋 ULUSAL PARKLAR VE REZERVLER: CONAF (National Forestry Corporation), Torres del Paine, Lauca ve Isluga Volcano National Park gibi parklarda özel izin olmadan dron kullanımını yasaklar. Şili Antarktikası için INACH'ın özel düzenlemeleri geçerlidir. Seyahatten önce ilgili park veya rezervle iletişime geçin.",
-      "🏔️ KISITLI ALANLAR: Santiago şehir merkezi (La Moneda, Plaza de Armas), SCEL Havalimanı (Pudahuel), askeri ve sınır bölgeleri. Paskalya Adası, Robinson Crusoe Adası, Antarktika: ek kısıtlamalar. Yasak, kısıtlı ve tehlikeli alanların haritası için AIP Chile'ye (ENR 5.1) bakın.",
-      "💰 YILLIK YENİLEME: DGAC kaydı 12 ay geçerlidir ve her yıl yenilenmelidir. Geçerli kayıt veya belge olmadan uçmak para cezasına, ekipmana el konulmasına ve operasyon yasağına yol açabilir."
+      "İKİLİ MEVZUAT ÇERÇEVESİ — DAN 91 (nüfussuz alanlar): her uçuş, duruma göre DGAC'tan önceden izin gerektirir (Ek D). DAN 151 (nüfuslu alanlar, kamu yararı veya hava çalışması): kayıt, yeterlilik belgesi, sigorta ve izin. Tek istisna: genleştirilmiş polietilen veya eşdeğer malzemeden yapılmış ≤750 g dronlar, hobi amaçlı kullanım, özel alanlarda ve en yüksek engelin ≤50 m üzerinde.",
+      "✈️ YABANCI TURİSTLER: Kurallar yerleşik olmayanlar için de aynen geçerlidir. DGAC izni olmadan yalnızca genleştirilmiş polietilen veya eşdeğer malzemeden yapılmış, hobi amaçlı kullanılan ≤750 g dronlara, özel alanlarda ve en yüksek engelin ≤50 m üzerinde izin verilir. Diğer tüm uçuşlar DGAC'tan önceden izin gerektirir; DGAC kaydı kimlik kartınızın bir kopyasını gerektirir.",
+      "🌋 KORUNAN ALANLAR: Devlete ait hiçbir Korunan Yaban Alanında (ulusal parklar, rezervler, doğal anıtlar) dronların hobi veya turistik amaçlı kullanımına izin verilmez. CONAF yalnızca gerekçeli durumlarda (bilimsel araştırma, izleme veya diğer yönetim amaçları) conaf.cerofilas.gob.cl üzerinden uçuşlara izin verir ve bu durumda DGAC izni de gerekir. Antarktika: INACH'ın özel düzenlemeleri.",
+      "🏔️ KISITLI ALANLAR: La Moneda (SC-P28 bölgesi), askeri tesisler, cezaevleri ve stratejik tesislerin üzerinde veya AIP Chile'nin (ENR 5.1) ya da NOTAM'ın yasak, kısıtlı veya tehlikeli alanlarında uçuş yapılamaz.",
+      "💰 GEÇERLİLİK SÜRELERİ: Uzaktan pilot yeterlilik belgesi 36 ay geçerlidir ve yeni bir sınavla (en az %75) yenilenir; DAN 151 operasyon izni 6 aya kadar geçerlidir. DGAC mevzuatına uyulmaması para cezalarına, operasyonların askıya alınmasına, ekipmana el konulmasına veya havacılık güvenliği tehlikeye atılırsa cezai sorumluluğa yol açabilir."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Şili'nin resmî havacılık bilgi sistemi: NOTAM'lar, yasak/kısıtlı/tehlikeli alanlar (ENR 5), haritalar, havaalanları"
       },
       {
-        "title": "RPA Kayıt Prosedürü (Resmî PDF)",
-        "description": "DGAC'ın dronların (RPA) yeni kaydı ve düzenlenmesine ilişkin resmî prosedürü. Ek B'yi ve formları içerir"
+        "title": "Dron (RPA) Kaydı — Yeni DGAC Platformu",
+        "description": "DAN 151 kapsamında Ulusal RPA Siciline çevrim içi kayıt. Kayıt tek başına uçuş izni teşkil etmez."
       }
     ],
     "secondaryLinks": [

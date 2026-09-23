@@ -1,28 +1,34 @@
 {
   "meta": {
-    "sourceHash": "51b497a18aafd4cff4e8165ebea4d22e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "05a601befa3ab4524ab9e1c3f953a9bc",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maksimaalselt 122 m (400 ft) maapinnast",
-      "Kuva registreerimisnumber (C-F####) droonil",
+      "Ära kunagi lenda metsatulekahjust kuni 9,3 km (5 NM) kaugusel ega päästeoperatsiooni (õnnetus, üleujutus) turvaperimeetri sees — kehtib kõigile droonidele, sh alla 250 g.",
+      "Väljakuulutatud ürituste (kontserdid, festivalid, spordiüritused) kohal või lähedal on lendamine ilma SFOC-RPAS-ita keelatud — see kehtib ka alla 250 g droonidele.",
+      "Märgi oma drooni registreerimisnumber (nt C-1234567890) droonile selgelt nähtavalt",
       "Põhisertifikaat: vanus 14+, 35-küsimuseline eksam (65% läbimispiir) — ainult kontrollimata õhuruum",
       "Edasijõudnute sertifikaat: vanus 16+, 50-küsimuseline eksam (80% läbimispiir) + lennuoskuste hindamine — kontrollitav õhuruum",
       "Alla 250 g kaaluvad droonid: registreerimist ega sertifikaati ei nõuta",
+      "Välisturistid, kes lennutavad oma 250 g või raskemat drooni: vajad Kanada droonipiloodi sertifikaati (koduriigi litsents ei kehti) ja välismaalase SFOC-RPAS-i (Foreign SFOC-RPAS), sest välismaalased ei saa Kanadas droone registreerida. Taotle varakult — teeninduse standardaeg on 30 tööpäeva. Alla 250 g: SFOC-i pole vaja, välja arvatud väljakuulutatud üritustel.",
       "Hoia drooni alati otsenähtavuses (VLOS) — vaata seda otse ja ilma abivahenditeta",
       "Hoia 30 m horisontaalset kaugust inimestest (põhioperatsioonid)",
-      "Kui sa ei järgi Transport Canada kehtestatud menetlust, hoia droon sertifitseeritud lennujaamadest 5,6 km (3 NM) ja sertifitseeritud kopteriväljakutest 1,9 km (1 NM) kaugusel. Kontrollitavas õhuruumis lendamiseks on vaja edasijõudnute sertifikaati ja NAV DRONE luba.",
+      "Öösel lendamine (250 g ja raskemad droonid): droonil peavad olema tuled, mis hoiavad selle sulle või su vaatlejale nähtavana, ja need peavad olema sisse lülitatud.",
+      "250 g ja raskemad droonid: lendamine on keelatud 12 tunni jooksul pärast alkoholi tarvitamist või joobes olekus",
+      "Põhitoimingud (Basic): püsi sertifitseeritud lennujaamadest kaugemal kui 5,6 km (3 NM) ja sertifitseeritud kopteriväljakutest kaugemal kui 1,9 km (1 NM). Lähemal ainult Advanced-sertifikaadiga, järgides kehtestatud protseduure. Kontrollitav õhuruum: Advanced-sertifikaat + vastava ohutusdeklaratsiooniga droon + NAV DRONE luba.",
+      "Sõjaväelennuvälja keskpunktist kuni 5,6 km (3 NM) kaugusel on vaja riigikaitseministeeriumi (Department of National Defence) luba.",
       "Provintsi- ja rahvusparkides on harrastuslik droonikasutus üldjuhul keelatud — keeld kehtib kinnitatult Alberta, Ontario ja British Columbia provintsiparkides ning kõigis Parks Canada rahvusparkides. Enne lendamist kontrolli konkreetse pargi reegleid."
     ],
     "importantNotes": [
-      "BC ja Alberta provintsiparkides on harrastuslik droonikasutus ilma loata keelatud",
+      "BC ja Alberta provintsiparkides on drooni lennutamine ilma pargi loata ebaseaduslik ning harrastuslendamine ei ole lubatud (Alberta: mis tahes suuruses; BC: luba antakse harva)",
       "Ontario provintsiparkides ja Toronto linnaparkides on harrastuslik droonikasutus keelatud",
-      "Enamik omavalitsusi keelab ilma loata droonide kasutamise avalikes parkides",
+      "Ka teised omavalitsused võivad linnaparkides droonid ilma loata keelata — kontrolli enne lendamist kohalikke määrusi",
       "Kindlustus ei ole põhioperatsioonideks nõutav, kuid tungivalt soovitatav",
-      "1. taseme keeruliste operatsioonide sertifikaat (alates 2025. aasta novembrist) võimaldab madala riskiga BVLOS-operatsioone ilma SFOC-ita"
+      "Level 1 Complex piloodisertifikaat (18+) lubab alates 4. novembrist 2025 madala riskiga BVLOS-lende ilma SFOC-ita — kuid ainult RPAS-i operaatorisertifikaadi (RPOC) alusel, mis on sinul või operaatoril, kelle heaks sa lendad"
     ],
     "primaryLinks": [
       {
@@ -31,7 +37,7 @@
       },
       {
         "title": "Transport Canada — Registreeri oma droon",
-        "description": "Registreeri 250 g ja raskemad droonid droonihalduse portaali kaudu (5 $, ~3 minutit)"
+        "description": "Registreeri 250 g ja raskemad droonid Drone Management Portali kaudu (umbes 10 $, korrigeeritakse igal aastal; ~3 minutit)"
       },
       {
         "title": "NAV DRONE — Kontrollitav õhuruum",

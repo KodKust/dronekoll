@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "a1e69adb928a29b23e35f851c7f189c239b934c116c4c5c3bb8ff4997785f369",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "8d3736758eabe09f115c22b261f62052d660fd07794af65c1d39b8fa76ca192b",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröityminen UAS-käyttäjäksi (15 € / 3 vuotta), jos drone painaa vähintään 250 g tai siinä on kamera",
-      "A1/A3-verkkokoulutus vaaditaan — vähimmäisikä 16 vuotta",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä lähin piste voi olla myös vieressäsi oleva maasto. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
+      "Sinun on rekisteröidyttävä UAS-käyttäjäksi, jos dronesi painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g:n dronen kohdalla rekisteröinti vaaditaan silti, jos dronessa on henkilötietoja tallentamaan kykenevä anturi, ellei sitä pidetä EU:n lelujen turvallisuusdirektiivin mukaisena leluna. Lentäjän koulutus- ja todistusvaatimukset ovat erillisiä ja riippuvat dronen luokasta ja alaluokasta.",
+      "Merkitse käyttäjän rekisterinumerosi pysyvästi jokaiseen droneesi ja lataa se etätunnistusjärjestelmään (jos sellainen on asennettu). Käyttäjäksi voi rekisteröityä 18-vuotiaasta alkaen — nuoremmille rekisteröinnin voi tehdä vastuuhenkilö (esim. vanhempi tai huoltaja).",
+      "1.1.2024 jälkeen markkinoille saatetut dronet, joilla ei ole luokkamerkkiä (C0–C6), eivät saa lentää avoimessa kategoriassa — vain erityiskategoriassa toimintaluvalla.",
+      "Vähimmäisikä itsenäiselle lentämiselle avoimessa kategoriassa on 16 vuotta — A1/A3-verkkokoulutus (9 moduulia, 40 kysymyksen koe, hinta 15 euroa) on voimassa 5 vuotta ja tunnustetaan koko EU:ssa. Tätä nuoremmat saavat lentää vain sertifioidun lentäjän välittömässä valvonnassa.",
+      "Vierailijat EU:n ulkopuolisista maista: jos Kypros on ensimmäinen EU-maa, jossa lennät, käyttäjän rekisteröinti (silloin kun sitä vaaditaan) tehdään Kyproksen DCA:lle (15 €, vähimmäisikä 18); jos olet jo lentänyt toisessa EU-maassa, et rekisteröidy uudelleen. Alaluokissa A1/A3 tarvitset EU-maan myöntämän A1/A3-lentäjäntodistuksen (verkkokoulutus ja -koe, 15 €); C0-dronelle (<250 g) koe ei ole pakollinen.",
       "Yölento on sallittu EASAn avoimen kategorian perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
-      "8 km:n turvavyöhyke lentoasemien ympärillä",
-      "Vähintään 1 km:n etäisyys asuinalueista (koskee pääasiassa A3-luokkaa — tiukemmat vaatimukset raskaammille droneille)",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Larnakan ja Pafoksen lentoasemat: vyöhykkeellä A (punainen) kaikki dronelennot ovat kiellettyjä; vyöhykkeellä B (keltainen) vain DCA:n luvalla (hae vähintään 10 työpäivää etukäteen, vastuuvakuutus kolmansia osapuolia kohtaan 1 000 000 €). DCA pyytää vierailijoita pysymään vähintään 8 km:n päässä lentoasemista ja helikopterikentistä.",
+      "Vähintään 150 m:n etäisyys asuin-, liike- tai teollisuusalueista (alaluokka A3)",
+      "Avoimessa kategoriassa dronen on pysyttävä suorassa näköyhteydessäsi paljain silmin (silmälasit/piilolinssit käyvät; kiikareita tai näyttöä ei lasketa) — tai tähystäjän avulla niin, että viestitte keskenänne selkeästi ja tehokkaasti koko ajan ja voitte yhdessä valvoa ilmatilaa ja välttää yhteentörmäykset. ”Follow me” -tila on erillinen poikkeus, joka on sallittu enintään 50 m:n päässä lentäjästä.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
+      "Brittiläiset tukikohdat (Akrotiri, Dhekelia): erillinen hallinto omine dronelakeineen, omine rekisteröintilomakkeineen ja nimettyjen alueiden karttoineen — tarkista sbaadministration.org ennen kuin lennät siellä.",
       "Pohjois-Kypros (TRNC): erillinen lainkäyttöalue — eri säännöt",
-      "YK:n lennätyskieltovyöhyke: täydellinen lennätyskielto"
+      "YK:n puskurivyöhyke (UN Dead Zone): ei mitään toimintaa ilman UNFICYPin ennakkohyväksyntää — älä lennä siellä."
     ],
     "importantNotes": [
       "Yölento on sallittu EASAn avoimen kategorian perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
-      "1 kilometrin etäisyysvaatimus asuinalueista on pienellä saarella hyvin rajoittava",
-      "8 kilometrin turvavyöhykkeet lentoasemien ympärillä kattavat suuren osan saaresta",
+      "Larnakan ja Pafoksen lentoasemien ympärillä: vyöhykkeellä A (punainen) dronelennot ovat kiellettyjä, vyöhykkeellä B (keltainen) vain DCA:n luvalla.",
+      "Useimpien DJI-dronejen esiasennettu geovyöhykekartta ei ole oikea Kyprokselle; lataa C1-, C2-, C3-, C5- ja C6-luokan droneihin DCA:n virallinen geovyöhyketiedosto (drones.gov.cy).",
       "Pohjois-Kypros (TRNC) on erillinen lainkäyttöalue, jolla on eri säännöt",
-      "YK:n Dead Zone on ehdoton lennätyskieltoalue"
+      "YK:n puskurivyöhyke (UN Dead Zone): ei mitään toimintaa ilman UNFICYPin ennakkohyväksyntää — älä lennä siellä."
     ],
     "primaryLinks": [
       {
@@ -32,7 +36,7 @@
       },
       {
         "title": "DCAD — Käyttäjän rekisteröinti",
-        "description": "Rekisteröityminen UAS-lentäjäksi (15 € / 3 vuotta, voimassa kaikissa EU-/EASA-maissa)"
+        "description": "Rekisteröityminen UAS-käyttäjäksi (15 € / 3 vuotta, voimassa kaikissa EU-/EASA-maissa)"
       },
       {
         "title": "drones.gov.cy — Geovyöhykkeiden kartta",
@@ -53,8 +57,8 @@
         "description": "Tietoa Larnakan ja Pafoksen lentoasemista"
       }
     ],
-    "disclaimerText": "Tarkista aina DCA Cyprusin ja drones.gov.cy-palvelun viralliset lähteet ennen jokaista lentoa. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Kypros noudattaa EASAn määräyksiä ja tiukkoja kansallisia lisäsääntöjä, kuten yölentokieltoa.",
-    "sectionLabelRules": "PERUSSÄÄNNÖT (EASAN AVOIN LUOKKA)",
+    "disclaimerText": "Tarkista aina DCA Cyprusin ja drones.gov.cy-palvelun viralliset lähteet ennen jokaista lentoa. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Kypros noudattaa EASAn määräyksiä, ja lisäksi sillä on kansalliset maantieteelliset vyöhykkeet (Κ.Δ.Π. 190/2024, muutoksineen).",
+    "sectionLabelRules": "PERUSSÄÄNNÖT (EASAN AVOIN KATEGORIA)",
     "sectionLabelPrimary": "VIRALLISET LÄHTEET",
     "sectionLabelSecondary": "LISÄRESURSSIT",
     "linksSheetTitle": "Ilmatila ja säännöt — Kypros",

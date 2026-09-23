@@ -1,37 +1,41 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Altitude maximale : 120 m au-dessus du sol (catégorie ouverte EASA)",
-      "Enregistrement comme exploitant d'UAS (gratuit) pour les drones de 250 g ou plus ou équipés d'une caméra",
-      "Formation en ligne A1/A3 requise — âge minimum 16 ans",
-      "Les vols dans la CTR et l'ATZ des aéroports ne sont autorisés qu'après coordination avec le contrôle aérien ou l'exploitant de l'aéroport",
-      "Le survol des autoroutes et des grands axes routiers est restreint — évitez-les",
-      "Gardez toujours le drone en vue directe (VLOS)",
+      "Dans la catégorie ouverte, la hauteur maximale est de 120 m, mesurée comme la distance jusqu'au point le plus proche de la surface terrestre — pas simplement à la verticale : près d'une pente, le terrain à côté de vous peut donc aussi compter. À moins de 50 m d'un obstacle artificiel élevé (de plus de 105 m), l'entité responsable de l'obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
+      "Vous devez vous enregistrer comme exploitant de drone si votre drone pèse 250 g ou plus (ou pourrait transmettre plus de 80 J d'énergie cinétique en cas d'impact) — cela vaut même pour les jouets. En dessous de 250 g, l'enregistrement reste obligatoire si le drone possède un capteur capable de collecter des données personnelles, sauf s'il est considéré comme un jouet au sens de la directive européenne relative à la sécurité des jouets. Les exigences de formation/de licence de télépilote sont distinctes et dépendent de la classe et de la sous-catégorie du drone.",
+      "L'âge minimum pour voler seul dans la catégorie ouverte est de 16 ans — la formation et l'examen en ligne A1/A3 sont valables 5 ans et reconnus dans toute l'UE. Sans limite d'âge : un drone de classe C0 qui est un jouet, dans la sous-catégorie A1, ou un drone de construction privée de moins de 250 g ; sinon, les plus jeunes uniquement sous la supervision directe d'un télépilote qui remplit les exigences d'âge et de formation.",
+      "Touristes : l'enregistrement comme exploitant et un certificat A1/A3 d'un autre pays de l'UE/de l'EASA sont également valables en République tchèque (vous ne pouvez vous enregistrer que dans un seul pays). Hors UE : enregistrez-vous dans le premier pays de l'UE/de l'EASA où vous volerez (en République tchèque auprès de l'ÚCL sur dron.caa.gov.cz), et si votre drone exige une formation, suivez-la selon les règles de l'UE – les certificats de pays hors UE ne sont pas reconnus.",
+      "L'assurance responsabilité civile est obligatoire en République tchèque dans la sous-catégorie A2 et en A3 pour les drones de plus de 4 kg (pas en A1) — vérifiez que votre police couvre les vols en République tchèque.",
+      "Dans les CTR et ATZ des aéroports, vous pouvez voler sans coordination uniquement jusqu'à la hauteur fixée par la grille (à vérifier dans DroneMap). Plus haut uniquement après coordination avec le ŘLP et avec le vol signalé dans DroneMap ; dans la zone intérieure d'une CTR, le vol doit toujours être signalé dans DroneMap, et au-dessus de la hauteur de la grille une coordination avec l'exploitant de l'aéroport est également requise. Des conditions plus strictes s'appliquent aux aéroports militaires (MCTR). Sur les aéroports non contrôlés, au-dessus de la hauteur de la grille uniquement après coordination avec l'AFIS ou l'exploitant de l'aéroport. Le signalement dans DroneMap ne s'applique pas aux drones qui ne nécessitent pas d'enregistrement.",
+      "Dans les zones densément peuplées (zone LKR316), la zone de vol doit être signalée à l'avance dans DroneMap (dronemap.gov.cz). Le signalement (ici comme dans les CTR et les aires naturelles protégées) doit indiquer la hauteur, l'heure, le type et la catégorie de poids du drone, ainsi que le numéro d'enregistrement de l'exploitant. Ne s'applique pas aux drones pour lesquels l'enregistrement de l'exploitant n'est pas requis.",
+      "Parcs nationaux, zones paysagères protégées (CHKO) et petites aires protégées, p. ex. réserves naturelles (zone LKR318) : vols uniquement sur la base d'une notification préalable à l'autorité compétente de protection de la nature, ou de son autorisation, et avec la zone de vol signalée dans DroneMap. Ne s'applique pas aux drones pour lesquels l'enregistrement de l'exploitant n'est pas requis.",
+      "Routes (zone LKR317) : en règle générale, à moins de 50 m de l'axe d'une autoroute ou d'une route de classe I uniquement avec l'accord du ŘSD ; en règle générale, à moins de 15 m de l'axe des routes de classe II et III uniquement avec l'accord du propriétaire ou du gestionnaire de la route (de même pour les routes locales en dehors des zones densément peuplées). La zone de vol doit être signalée dans DroneMap – ne s'applique pas aux drones pour lesquels l'enregistrement de l'exploitant n'est pas requis.",
+      "Dans la catégorie ouverte, vous devez garder le drone en vue directe, à l'œil nu (lunettes/lentilles de contact autorisées ; jumelles ou écran ne comptent pas) — ou faire appel à un observateur, en communiquant ensemble de manière claire et efficace à tout moment, afin de surveiller ensemble l'espace aérien et d'éviter les collisions. Le mode « Follow-me » est une exception distincte, uniquement dans la sous-catégorie A1, autorisée dans un rayon de 50 m du télépilote.",
       "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
       "Les vols de nuit sont autorisés dans le cadre des exigences de base de l'EASA pour la catégorie ouverte lorsque le feu vert clignotant requis est utilisé, sauf si une zone géographique applicable ou une règle nationale impose une condition plus stricte.",
-      "Amendes pouvant atteindre 5 000 000 CZK (≈ 185 000 €) en cas d'infraction",
-      "Château de Prague et bâtiments gouvernementaux : zones d'interdiction de vol strictes"
+      "Amendes pouvant atteindre 3 000 000 CZK (≈ 120 000 €) en cas d'infraction",
+      "Château de Prague et bâtiments gouvernementaux : zones d'interdiction de vol absolue"
     ],
     "importantNotes": [
-      "Les vols dans les CTR et ATZ des aéroports nécessitent une coordination avec le contrôle aérien ou l'exploitant de l'aéroport",
-      "Le survol des autoroutes et des grands axes routiers est restreint en République tchèque — planifiez votre itinéraire pour les éviter",
-      "Amendes pouvant atteindre 5 000 000 CZK (≈ 185 000 €)",
+      "Dans les CTR et ATZ des aéroports, sans coordination uniquement jusqu'à la hauteur fixée par la grille (à vérifier dans DroneMap) ; plus haut uniquement après coordination (dans une CTR avec le ŘLP, sur les aéroports non contrôlés avec l'AFIS ou l'exploitant de l'aéroport) et avec le vol signalé dans DroneMap ; dans la zone intérieure d'une CTR, le signalement est toujours requis",
+      "Routes (zone LKR317) : pour les autoroutes et les routes de classe I, en règle générale à moins de 50 m de l'axe uniquement avec l'accord du ŘSD ; pour les routes de classe II et III, en règle générale à moins de 15 m de l'axe uniquement avec l'accord du propriétaire ou du gestionnaire de la route",
+      "Amendes pouvant atteindre 3 000 000 CZK (≈ 120 000 €)",
       "La zone du château de Prague fait l'objet de strictes interdictions de vol",
       "Le GDPR s'applique à la collecte d'images identifiables"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Réglementation des drones",
+        "title": "ÚCL — Réglementation des drones",
         "description": "Règles et ressources officielles de l'autorité de l'aviation civile concernant les drones"
       },
       {
-        "title": "CAA — Enregistrement d'exploitant",
+        "title": "ÚCL — Enregistrement de l'exploitant",
         "description": "Enregistrement gratuit comme exploitant d'UAS (valable dans tous les pays de l'UE/EASA)"
       },
       {
@@ -39,17 +43,17 @@
         "description": "Carte interactive officielle indiquant les zones de drones et les restrictions de l'espace aérien"
       },
       {
-        "title": "CAA — Aperçu des règles",
-        "description": "Aperçu des règles pour faire voler un drone en République tchèque"
+        "title": "ÚCL — Aperçu des règles",
+        "description": "Aperçu des règles de vol des drones en République tchèque"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Contrôle aérien — NOTAM et espace aérien",
+        "title": "ŘLP — NOTAM et espace aérien",
         "description": "Contrôle aérien tchèque et informations sur l'espace aérien"
       },
       {
-        "title": "CAA — FAQ sur les drones",
+        "title": "ÚCL — FAQ sur les drones",
         "description": "Questions fréquentes sur la réglementation des drones en République tchèque"
       }
     ],
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "SOURCES OFFICIELLES",
     "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",
     "linksSheetTitle": "Espace aérien et réglementation — République tchèque",
-    "dronePilotCredentialName": "Licence de télépilote de drone"
+    "dronePilotCredentialName": "Certificat de formation A1/A3"
   }
 }

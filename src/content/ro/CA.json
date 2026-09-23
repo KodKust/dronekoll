@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "51b497a18aafd4cff4e8165ebea4d22e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "05a601befa3ab4524ab9e1c3f953a9bc",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,21 +14,27 @@
     "dronePilotCredentialName": "Certificat de pilot",
     "keyRules": [
       "Maximum 122 m (400 ft) deasupra nivelului solului",
-      "Afișează numărul de înregistrare (C-F####) pe dronă",
+      "Nu zbura niciodată pe o rază de 9,3 km (5 NM) de un incendiu de vegetație sau în perimetrul de securitate al unei operațiuni de urgență (accident, inundație) — se aplică tuturor dronelor, inclusiv celor sub 250 g.",
+      "Nu zbura la sau în apropierea evenimentelor anunțate public (concerte, festivaluri, sport) fără un SFOC-RPAS — inclusiv cu drone sub 250 g.",
+      "Afișează clar pe dronă numărul de înregistrare (de ex. C-1234567890)",
       "Certificat de bază: de la 14 ani, examen de 35 de întrebări (prag de trecere 65%) — doar spațiu aerian necontrolat",
       "Certificat avansat: de la 16 ani, examen de 50 de întrebări (prag de trecere 80%) + evaluare de zbor — spațiu aerian controlat",
       "Drone sub 250 g: nu necesită înregistrare sau certificat",
+      "Vizitatori străini care zboară cu propria dronă de 250 g+: ai nevoie de un certificat canadian de pilot de dronă (o licență din țara de origine nu este recunoscută) și de un Foreign SFOC-RPAS, deoarece străinii nu pot înregistra drone în Canada. Solicită din timp — termenul standard este de 30 de zile lucrătoare. Sub 250 g: nu este necesar un SFOC, cu excepția evenimentelor anunțate public.",
       "Menține întotdeauna contactul vizual direct (VLOS) cu drona — fără mijloace auxiliare",
       "Menține o distanță orizontală de 30 m față de persoane (operațiuni de bază)",
-      "Cu excepția cazului în care urmezi o procedură stabilită de Transport Canada, păstrează o distanță de 5,6 km (3 NM) față de aeroporturile certificate și de 1,9 km (1 NM) față de heliporturile certificate. Zborul în spațiul aerian controlat necesită un certificat avansat și autorizare NAV DRONE.",
+      "Zbor de noapte (drone de 250 g+): drona trebuie să aibă lumini care o mențin vizibilă pentru tine sau pentru observatorul tău vizual, iar acestea trebuie să fie aprinse.",
+      "Drone de 250 g+: nu zbura în decurs de 12 ore după consumul de alcool sau sub influența acestuia",
+      "Basic: rămâi la mai mult de 5,6 km (3 NM) de aeroporturile certificate și 1,9 km (1 NM) de heliporturile certificate. Mai aproape doar cu un certificat Advanced, respectând procedurile stabilite. Spațiu aerian controlat: certificat Advanced + dronă cu declarația de siguranță corespunzătoare + autorizare NAV DRONE.",
+      "Pe o rază de 5,6 km (3 NM) de centrul unui aerodrom militar ai nevoie de autorizarea Departamentului Apărării Naționale.",
       "Parcurile provinciale și naționale interzic în general utilizarea recreativă a dronelor — interdicția este confirmată în parcurile provinciale din Alberta, Ontario și Columbia Britanică, precum și în toate parcurile naționale administrate de Parks Canada. Verifică regulile parcului respectiv înainte de zbor."
     ],
     "importantNotes": [
-      "Parcurile provinciale din Columbia Britanică și Alberta interzic dronele recreative fără permis",
+      "Parcurile provinciale din BC și Alberta: zborul cu drona fără permisiunea parcului este ilegal, iar zborul recreativ nu este permis (Alberta: orice dimensiune; BC: permisiunea se acordă rar)",
       "Parcurile provinciale din Ontario și parcurile municipale din Toronto interzic dronele recreative",
-      "Majoritatea municipalităților interzic dronele în parcurile publice fără un permis",
+      "Și alte municipalități pot interzice dronele în parcurile orașului fără permis — verifică regulamentele locale înainte de zbor",
       "Asigurarea nu este necesară pentru operațiunile de bază, dar este recomandată cu tărie",
-      "Certificatul pentru operațiuni complexe de nivel 1 (din noiembrie 2025) permite operațiunile BVLOS cu risc redus fără SFOC"
+      "Certificatul de pilot Level 1 Complex (18+) permite BVLOS cu risc scăzut fără SFOC începând cu 4 noiembrie 2025 — dar numai în baza unui certificat de operator RPAS (RPOC), deținut de tine sau de operatorul pentru care zbori"
     ],
     "primaryLinks": [
       {
@@ -37,7 +43,7 @@
       },
       {
         "title": "Transport Canada — înregistrează-ți drona",
-        "description": "Înregistrează dronele de 250 g+ prin Portalul de gestionare a dronelor (5 $, ~3 minute)"
+        "description": "Înregistrează dronele de 250 g+ prin Portalul de gestionare a dronelor (circa 10 $, ajustat anual; ~3 minute)"
       },
       {
         "title": "NAV DRONE — spațiu aerian controlat",

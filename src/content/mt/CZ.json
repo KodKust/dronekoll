@@ -1,56 +1,60 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Massimu ta' 120 m 'il fuq mill-art (kategorija Open tal-EASA)",
-      "Reġistrazzjoni bħala operatur ta' UAS (bla ħlas) għal droni li jiżnu 250 g jew aktar jew mgħammra b'kamera",
-      "Taħriġ online A1/A3 meħtieġ — età minima 16-il sena",
-      "It-titjiriet fis-CTR u l-ATZ tal-ajruporti huma permessi biss wara koordinazzjoni mal-kontroll tat-traffiku tal-ajru jew l-operatur tal-ajruport",
-      "It-titjir fuq l-awtostradi u t-toroq prinċipali huwa ristrett — evitahom",
-      "Żomm dejjem il-linja tal-vista diretta (VLOS) mad-drone",
+      "Fil-kategorija Open, l-għoli massimu huwa 120 m, imkejjel bħala d-distanza sal-eqreb punt tal-wiċċ tad-Dinja — mhux sempliċement dritt 'l isfel, għalhekk qrib inklinazzjoni l-art ta' ħdejk tista' tgħodd ukoll. Fi ħdan 50 m minn ostakolu artifiċjali għoli (aktar minn 105 m), l-entità responsabbli għall-ostakolu tista' titlob permess għal titjiriet sa 15 m 'il fuq mill-għoli tal-ostakolu.",
+      "Trid tirreġistra bħala operatur tad-droni jekk id-drone tiegħek jiżen 250 g jew aktar (jew jista' jittrasferixxi aktar minn 80 J ta' enerġija kinetika mal-impatt) — dan japplika wkoll għall-ġugarelli. Taħt il-250 g, ir-reġistrazzjoni xorta hija obbligatorja jekk id-drone għandu sensur kapaċi jiġbor data personali, sakemm ma jitqiesx ġugarell skont id-Direttiva tal-UE dwar is-Sikurezza tal-Ġugarelli. Ir-rekwiżiti tat-taħriġ/tal-liċenzja tal-pilota huma separati u jiddependu mill-klassi u mis-sottokategorija tad-drone.",
+      "L-età minima biex ittir waħdek fil-kategorija Open hija 16-il sena — it-taħriġ u l-eżami online A1/A3 huma validi għal 5 snin u rikonoxxuti madwar l-UE kollha. L-ebda limitu ta' età: drone tal-klassi C0 li huwa ġugarell, fis-sottokategorija A1, jew drone mibni privatament taħt il-250 g; inkella piloti iżgħar biss taħt is-superviżjoni diretta ta' pilota li jissodisfa r-rekwiżiti tal-età u tat-taħriġ.",
+      "Turisti: ir-reġistrazzjoni tal-operatur u ċertifikat A1/A3 minn pajjiż ieħor tal-UE/EASA huma validi wkoll fir-Repubblika Ċeka (tista' tirreġistra f'pajjiż wieħed biss). Barra mill-UE: irreġistra fl-ewwel pajjiż tal-UE/EASA fejn se ttir (fir-Repubblika Ċeka mal-ÚCL fuq dron.caa.gov.cz), u jekk id-drone tiegħek jeħtieġ taħriġ, lesti t-taħriġ skont ir-regoli tal-UE – iċ-ċertifikati minn pajjiżi mhux tal-UE mhumiex rikonoxxuti.",
+      "L-assigurazzjoni tar-responsabbiltà hija obbligatorja fir-Repubblika Ċeka fis-sottokategorija A2 u f'A3 għal droni 'l fuq minn 4 kg (mhux f'A1) — iċċekkja li l-polza tiegħek tkopri titjiriet fir-Repubblika Ċeka.",
+      "Fis-CTRs u fl-ATZs tal-ajruporti tista' ttir mingħajr koordinazzjoni biss sal-għoli stabbilit mill-grilja (iċċekkja f'DroneMap). Ogħla biss wara koordinazzjoni mal-ŘLP u bit-titjira mmarkata f'DroneMap; fiż-żona ta' ġewwa ta' CTR it-titjira trid dejjem tiġi mmarkata f'DroneMap, u 'l fuq mill-għoli tal-grilja hija meħtieġa wkoll koordinazzjoni mal-operatur tal-ajruport. Kundizzjonijiet aktar stretti japplikaw fl-ajruporti militari (MCTR). F'ajruporti mhux ikkontrollati, 'il fuq mill-għoli tal-grilja biss wara koordinazzjoni mal-AFIS jew mal-operatur tal-ajruport. L-immarkar f'DroneMap ma japplikax għal droni li ma jeħtiġux reġistrazzjoni.",
+      "F'żoni b'popolazzjoni densa (żona LKR316) iż-żona tat-titjir trid tiġi mmarkata minn qabel f'DroneMap (dronemap.gov.cz). L-immarkar (hawn kif ukoll fis-CTRs u fiż-żoni naturali protetti) irid jinkludi l-għoli, il-ħin, it-tip u l-kategorija tal-piż tad-drone, u n-numru tar-reġistrazzjoni tal-operatur. Ma japplikax għal droni li għalihom ir-reġistrazzjoni tal-operatur mhijiex meħtieġa.",
+      "Parki nazzjonali, żoni protetti tal-pajsaġġ (CHKO) u żoni protetti fuq skala żgħira, eż. riżervi naturali (żona LKR318): titjiriet biss abbażi ta' notifika minn qabel lill-awtorità kompetenti għall-konservazzjoni tan-natura, jew ta' permess minnha, u biż-żona tat-titjir immarkata f'DroneMap. Ma japplikax għal droni li għalihom ir-reġistrazzjoni tal-operatur mhijiex meħtieġa.",
+      "Toroq (żona LKR317): bħala regola, fi ħdan 50 m mil-linja ċentrali ta' awtostrada jew triq tal-klassi I biss bil-kunsens tal-ŘSD; bħala regola, fi ħdan 15 m mil-linja ċentrali ta' toroq tal-klassi II u III biss bil-kunsens tas-sid jew tal-amministratur tat-triq (bl-istess mod għal toroq lokali barra ż-żoni b'popolazzjoni densa). Iż-żona tat-titjir trid tiġi mmarkata f'DroneMap – ma japplikax għal droni li għalihom ir-reġistrazzjoni tal-operatur mhijiex meħtieġa.",
+      "Fil-kategorija Open trid iżżomm id-drone fil-linja tal-vista diretta tiegħek, b'għajnejk biss (in-nuċċali/il-lentijiet tal-kuntatt huma aċċettabbli; il-binokli jew skrin ma jgħoddux) — jew bl-għajnuna ta' osservatur, b'komunikazzjoni ċara u effettiva bejnietkom f'kull ħin, sabiex flimkien tissorveljaw l-ispazju tal-ajru u tevitaw ħabtiet. Il-modalità “Follow-me” hija eċċezzjoni separata biss fis-sottokategorija A1, permessa fi ħdan 50 m mill-pilota.",
       "Ittirx fuq ġemgħat ta' nies. Ir-regoli għal persuni mhux involuti jiddependu mis-sottokategorija, il-marka tal-klassi u l-kundizzjonijiet operattivi; iċċekkja l-matriċi uffiċjali.",
       "It-titjir bil-lejl huwa permess skont ir-regoli bażiċi tal-Open Category tal-EASA meta jintuża d-dawl aħdar li jteptep meħtieġ, sakemm żona ġeografika fis-seħħ jew regola nazzjonali ma timponix kundizzjoni aktar stretta.",
-      "Multi sa 5,000,000 CZK (≈ 185,000 €) għal ksur",
-      "Prague Castle u l-bini tal-gvern: żoni stretti ta' projbizzjoni tat-titjir"
+      "Multi sa 3,000,000 CZK (≈ 120,000 €) għal ksur",
+      "Prague Castle u l-bini tal-gvern: żoni assoluti ta' projbizzjoni tat-titjir"
     ],
     "importantNotes": [
-      "It-titjiriet fiż-żoni CTR u ATZ tal-ajruporti jeħtieġu koordinazzjoni mal-kontroll tat-traffiku tal-ajru jew mal-operatur tal-ajruport",
-      "Il-qsim minn fuq l-awtostradi u t-toroq prinċipali huwa ristrett fil-Czech Republic — ippjana r-rotta tiegħek biex tevita li taqsamhom",
-      "Multi ta' sa 5,000,000 CZK (≈ 185,000 €)",
+      "Fis-CTRs u fl-ATZs tal-ajruporti, mingħajr koordinazzjoni biss sal-għoli stabbilit mill-grilja (iċċekkja f'DroneMap); ogħla biss wara koordinazzjoni (f'CTR mal-ŘLP, f'ajruporti mhux ikkontrollati mal-AFIS jew mal-operatur tal-ajruport) u bit-titjira mmarkata f'DroneMap; fiż-żona ta' ġewwa ta' CTR, l-immarkar huwa dejjem meħtieġ",
+      "Toroq (żona LKR317): għall-awtostradi u t-toroq tal-klassi I, bħala regola fi ħdan 50 m mil-linja ċentrali biss bil-kunsens tal-ŘSD; għat-toroq tal-klassi II u III, bħala regola fi ħdan 15 m mil-linja ċentrali biss bil-kunsens tas-sid jew tal-amministratur tat-triq",
+      "Multi ta' sa 3,000,000 CZK (≈ 120,000 €)",
       "Iż-żona ta' Prague Castle għandha restrizzjonijiet stretti fuq it-titjir",
       "Il-GDPR japplika għall-ġbir ta' immaġini identifikabbli"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Regolamenti dwar id-Droni",
-        "description": "Regoli u Riżorsi Uffiċjali mill-Awtorità tal-Avjazzjoni Ċivili Rigward id-Droni"
+        "title": "ÚCL — Regolamenti dwar id-Droni",
+        "description": "Regoli u riżorsi uffiċjali mill-Awtorità tal-Avjazzjoni Ċivili dwar id-droni"
       },
       {
-        "title": "CAA — Reġistrazzjoni tal-Operatur",
-        "description": "Reġistrazzjoni bla ħlas bħala operatur ta' UAS (valida fil-pajjiżi kollha tal-UE/EASA)"
+        "title": "ÚCL — Reġistrazzjoni tal-Operatur",
+        "description": "Reġistrazzjoni b'xejn bħala operatur ta' UAS (valida fil-pajjiżi kollha tal-UE/EASA)"
       },
       {
         "title": "Dronemap.gov.cz — Mappa tal-Ispazju tal-Ajru",
         "description": "Mappa interattiva uffiċjali li turi ż-żoni tad-droni u r-restrizzjonijiet tal-ispazju tal-ajru"
       },
       {
-        "title": "CAC — Ħarsa Ġenerali tar-Regoli",
-        "description": "Ħarsa Ġenerali tar-Regoli għat-Titjir tad-Droni fir-Repubblika Ċeka"
+        "title": "ÚCL — Ħarsa Ġenerali lejn ir-Regoli",
+        "description": "Ħarsa ġenerali lejn ir-regoli għat-titjir tad-droni fir-Repubblika Ċeka"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Kontroll tat-Traffiku tal-Ajru — NOTAM u Spazju tal-Ajru",
-        "description": "Kontroll tat-Traffiku tal-Ajru Ċek u Informazzjoni dwar l-Ispazju tal-Ajru"
+        "title": "ŘLP — NOTAM u Spazju tal-Ajru",
+        "description": "Informazzjoni dwar il-kontroll tat-traffiku tal-ajru Ċek u l-ispazju tal-ajru"
       },
       {
-        "title": "CAA — FAQs dwar id-Droni",
-        "description": "Mistoqsijiet Frekwenti dwar ir-Regolamenti tad-Droni fir-Repubblika Ċeka"
+        "title": "ÚCL — FAQ dwar id-Droni",
+        "description": "Mistoqsijiet frekwenti dwar ir-regolamenti tad-droni fir-Repubblika Ċeka"
       }
     ],
     "disclaimerText": "Qabel ittir, iċċekkja dejjem is-sorsi uffiċjali tas-Civil Aviation Authority (ÚCL) u Dronemap.gov.cz. Din l-app hija għodda—mhux sors legali uffiċjali. Czech Republic issegwi r-regolamenti tal-EASA b'żidiet nazzjonali.",
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "SORSI UFFIĊJALI",
     "sectionLabelSecondary": "RIŻORSI ADDIZZJONALI",
     "linksSheetTitle": "Spazju tal-Ajru u Regolamenti — Czech Republic",
-    "dronePilotCredentialName": "Liċenzja ta' pilota ta' drone"
+    "dronePilotCredentialName": "Ċertifikat tat-taħriġ A1/A3"
   }
 }

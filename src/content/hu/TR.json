@@ -1,41 +1,43 @@
 {
   "meta": {
-    "sourceHash": "965aaa2f6c885d898cf7ee6ff9907d07afe1d10c3a57077ecae02dbc001de716",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ab41c1c6a873ddfc4cf87129700fea1004f13537f36d6d678dee51194176fb4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximális repülési magasság: 120 méter (400 ft) a talajszint felett",
-      "Az UAV-nak mindig a látótávolságodon belül kell maradnia (VLOS).",
-      "Csak nappali repülés — az éjszakai repülésekhez külön engedély szükséges",
-      "Legalább 9 km minden repülőtértől (beleértve az isztambuli IST-t és a Sabiha Gökçen SAW-t is)",
-      "Legalább 50 méter vízszintes távolságot kell tartani más személyektől",
-      "Minden 500 g-nál nehezebb UAV-t regisztrálni kell az iha.shgm.gov.tr oldalon",
-      "Tilos a repülés a történelmi területeken (Hagia Sophia, Topkapı, Sultanahmet) és a Boszporusz-folyosó mentén",
-      "Katonai zónák, kormányzati épületek és tömegrendezvények felett szigorúan tilos a repülés",
-      "500 g-nál nehezebb UAV-k külföldi pilóták általi használatához diplomáciai úton benyújtott kérelem szükséges",
-      "Az FPV-repülés külön engedély nélkül tilos"
+      "A maximális repülési magasság 120 m (400 ft); P0/P1 repüléseknél az UAV-t látótávolságon belül (VLOS) kell tartani, és a pilótától legfeljebb 3000 m-re távolodhat el. 120 m feletti repülés csak P2 engedéllyel és az illetékes hatóságokkal egyeztetve lehetséges.",
+      "Az UAV-t mindig a látótávolságodon belül kell tartanod, optikai vagy elektronikus eszközök segítsége nélküli, közvetlen vizuális kapcsolatban (SHT-İHA).",
+      "Az amatőr (P0) repülések csak nappal végezhetők; éjszakai műveletek P1 vagy P2 engedéllyel és megfelelő felszereléssel lehetségesek (SHT-İHA 15. cikk). Az átmeneti időszakban (2027. július 31-ig) az éjszakai repülésekhez kérj SHGM-engedélyt.",
+      "Repülőterek közelében repülés előtt ellenőrizd az iha.shgm.gov.tr térképét (később İHATTYS); a zöld zónákon kívüli minden helyszínen a repülés SHGM-engedélyhez kötött. Az új SHT-İHA nem határoz meg rögzített távolságot; biztonságos minimális távolságként az előző irányelv szerinti 9 km (5 NM) tartandó.",
+      "A tömeg feletti repülés magas kockázatú műveletnek minősül; P0 és P1 pilóták számára nem megengedett, és csak P2 engedéllyel végezhető (SHT-İHA 6. cikk). Az új irányelv nem határoz meg rögzített távolságot; biztonságos minimumként ajánlott legalább 50 m távolságot tartani az emberektől és az építményektől (az előző irányelvben szereplő érték).",
+      "Új SHT-İHA (2026): a játék kategóriájú egyszerű UAV-k (Simple UAV) kivételével minden UAV-felhasználónak – az 500 g alattiakat is beleértve – regisztrálnia kell az İHATTYS-ben; a meglévő légijárművek határideje 2027. július 31. Az İHATTYS élesítéséig az 500 g-os és nehezebb UAV-kat az iha.shgm.gov.tr oldalon kell regisztrálni.",
+      "Az új SHT-İHA szerint a repülési jogosultság a pilótaengedélyhez kötött: amatőr P0 (alsó korhatár 10 év), kereskedelmi P1 (18 év), haladó P2; az egyszerű UAV-khoz nem kell engedély. Az átmeneti időszakban (2027. július 31-ig) a meglévő İHA0/İHA1 tanúsítványok és İHA2/İHA3 engedélyek érvényesek maradnak, és átalakítással P0/P1/P2-re váltják át őket.",
+      "A távoli azonosítás (Remote ID) és a geokerítés (geofencing) az egyszerű UAV-k kivételével kötelező; te felelsz azért, hogy az UAV-dra naprakész korlátozottzóna-adatok legyenek feltöltve (SHT-İHA 12., 23. cikk; a meglévő UAV-k átmeneti ideje 2027. július 31-ig tart).",
+      "Isztambul történelmi félszigetén (Hagia Sophia, Topkapı, Sultanahmet) és a Boszporusz környékén repülés előtt ellenőrizd az iha.shgm.gov.tr térképét; a zöld zónákon kívüli minden helyszínen a repülés SHGM-engedélyhez kötött, a piros zónákban pedig engedélyt csak a területet lezáró intézmény jóváhagyásával adnak.",
+      "Katonai zónák és kormányzati épületek felett szigorúan tilos a repülés; sűrűn lakott területek feletti repüléshez az SHGM előzetes engedélye szükséges.",
+      "Az 500 grammos vagy nehezebb UAV-t használó külföldi pilótáknak diplomáciai úton, legalább 20 munkanappal előre kell kérelmet benyújtaniuk az FR.23-as, „İHA Uçuş İzin Talep Formu” (UAV repülési engedély iránti kérelem) űrlapon.",
+      "FPV-repüléseknél jelen kell lennie egy megfigyelőnek, aki folyamatos vizuális kapcsolatban tartja az UAV-t, és a pilóta és a megfigyelő között folyamatos kommunikációt kell fenntartani; az FPV-eszközöknek a BTK által engedélyezett frekvenciákon kell működniük (SHGM GYIK). Az új SHT-İHA a látótávolságot (VLOS) optikai/elektronikus eszközök segítsége nélküli közvetlen vizuális kapcsolatként határozza meg – FPV-repülés előtt egyeztess az SHGM-mel."
     ],
     "importantNotes": [
-      "⚠️ KÜLFÖLDI PILÓTÁK: 500 grammnál nehezebb drón törökországi üzemeltetéséhez a repülés előtt legalább 20 munkanappal diplomáciai úton kérelmet kell benyújtanod a Polgári Légügyi Főigazgatósághoz (SHGM), biztosítást kell kötnöd, és İHA-2 engedéllyel rendelkező török állampolgár felügyelete alatt kell repülnöd. Az 500 g-nál könnyebb drónok (például DJI Mini, Flip stb.) mentesülnek ezen követelmények alól.",
-      "🗺️ ZÓNARENDSZER: Törökország zöld (nyílt), sárga (engedélyköteles) és piros (tiltott) zónákra van felosztva. Repülés előtt feltétlenül ellenőrizd a zóna státuszát az iha.shgm.gov.tr oldalon.",
-      "🏛️ TÖRTÉNELMI ÉS TURISZTIKAI HELYSZÍNEK: Külön engedély nélkül tilos repülni Istanbul történelmi félszigete (Sultanahmet, Hagia Sophia, Topkapı, Grand Bazaar), Cappadocia egyes völgyei, Pamukkale, Ephesus és más régészeti helyszínek felett; az engedélyt a Ministry of Culture and Tourism adja ki.",
-      "🛂 BEHOZATAL ÉS VÁM: Ha 500 g-nál nehezebb drónnal lépsz be Törökországba, előfordulhat, hogy a vámnál be kell jelentened. A kereskedelmi célú behozatal külön eljárást igényel; a Bosphorus, a katonai kikötők és a határ menti régiók további korlátozások alá esnek."
+      "🛂 KÜLFÖLDI PILÓTÁK — ÚJ SHT-İHA (2026. július 30.): a külföldről behozott UAV-knak rendelkezniük kell az SHGM megfelelőségi szoftvermoduljával; a modul nélkül a légijármű Törökországban nem regisztrálható és nem repültethető. A külföldön lajstromozott UAV-knak kompatibilisnek kell lenniük az İHATTYS-szel; a külföldi engedélyeket az SHGM értékeli, és különbözeti képzés után ad ki P1/P2 engedélyt. A 2026. július 30. előtt beszerzett UAV-k megfelelési határideje 2027. július 31. Az İHATTYS élesítéséig az 500 g-os és nehezebb UAV-kra vonatkozó kérelmeket az FR.23-as űrlappal, diplomáciai úton, legalább 20 munkanappal előre kell benyújtani az SHGM-hez.",
+      "🗺️ ZÓNARENDSZER: Az új SHT-İHA szerint (2026. július 30.) a zónákat az İHATTYS térképén zöld (nem kell engedély), piros (az illetékes intézmény lezárta; csak az intézmény jóváhagyásával, SHGM-engedéllyel és NOTAM-mal) és narancssárga (másoknak kiosztott) színnel teszik közzé. Az İHATTYS élesítéséig az iha.shgm.gov.tr térképét (zöld/sárga/piros) kell használni. Mindkét rendszerben a zöld zónákon kívüli minden helyszínen a repülés SHGM-engedélyhez kötött. Repülés előtt mindig ellenőrizd a térképet.",
+      "🏛️ TÖRTÉNELMI ÉS TURISZTIKAI HELYSZÍNEK: A múzeumokban és a múzeumokhoz tartozó helyszíneken a video-/film-/fotófelvételek készítése a Kulturális és Turisztikai Minisztérium engedélyéhez kötött; az UAV-repülési korlátozásokat az iha.shgm.gov.tr térképén is ellenőrizd.",
+      "🛂 KÜLFÖLDRŐL BEHOZOTT UAV-K: Az 500 g-os és nehezebb UAV-kat a Törökországba való behozataluk után legkésőbb 3 napon belül regisztrálni kell az iha.shgm.gov.tr oldalon (2920. sz. törvény, 144. cikk). A külföldieknek sport/amatőr célú regisztrációhoz török személyi azonosító számra vagy tartózkodási engedélyre van szükségük. Belépéskor a vámnál nyilatkozat lehet szükséges; a kereskedelmi célú behozatalhoz külön eljárás szükséges. A katonai kikötőkre és a határvidékekre további korlátozások vonatkoznak."
     ],
     "primaryLinks": [
       {
-        "title": "SHGM — Pilóta nélküli légijármű (hivatalos oldal)",
-        "description": "A Polgári Légügyi Főigazgatóság hivatalos UAV-oldala: SHT-UAV irányelv, súlykategóriák (UAV-0/1/2/3) és üzemeltetési szabályok"
+        "title": "SHGM — İHA Takip / İHATTYS (hivatalos portál)",
+        "description": "A Polgári Légügyi Főigazgatóság hivatalos UAV-portálja (İHATTYS). Amíg az SHGM be nem jelenti a rendszer élesítését, a regisztrációs és repülésiengedély-eljárások a meglévő módokon történnek (iha.shgm.gov.tr és SHGM-űrlapok)."
       },
       {
-        "title": "UAV-regisztrációs rendszer (500 g vagy annál nehezebb drónokhoz kötelező)",
-        "description": "Kötelező regisztrációs portál minden 500 grammnál nehezebb drónhoz. Török személyi azonosító szám szükséges; a külföldi állampolgárokra az FR-03 űrlap vonatkozik"
+        "title": "UAV-regisztrációs rendszer (500 g felett kötelező)",
+        "description": "Kötelező regisztrációs portál minden 500 grammnál nehezebb drónhoz. Török személyi azonosító szám szükséges; külföldi állampolgárokra az FR-03-as űrlap vonatkozik"
       },
       {
-        "title": "UAV-pilóta regisztrációs kérelem (e-Kormányzat)",
-        "description": "Hivatalos szolgáltatás az e-Kormányzaton keresztül az UAV-1 és magasabb kategóriájú pilóta-regisztrációs kérelmekhez. Kereskedelmi műveletekhez pilótaengedély szükséges."
+        "title": "UAV-pilóta-regisztrációs kérelem (e-Devlet)",
+        "description": "Hivatalos szolgáltatás az e-Devlet (e-kormányzat) felületén az İHA-1 és magasabb szintű pilóta-regisztrációs kérelmekhez. Kereskedelmi műveletekhez pilótaengedély szükséges."
       },
       {
         "title": "Repülési engedély kérelme (sárga/piros zónák)",
@@ -44,23 +46,27 @@
     ],
     "secondaryLinks": [
       {
-        "title": "UAV Tracking — Hivatalos mobilalkalmazás (Android)",
-        "description": "Az SHGM hivatalos UAV Tracking alkalmazása: légtérzónák, repülési engedélyek és pilótaengedély-kezelés"
+        "title": "İHA Takip — Hivatalos mobilalkalmazás (Android)",
+        "description": "Az SHGM hivatalos İHA Takip / İHATTYS alkalmazása. Amíg az SHGM be nem jelenti az İHATTYS élesítését, a regisztrációs és repülésiengedély-eljárások a meglévő módokon történnek (iha.shgm.gov.tr és SHGM-űrlapok)."
+      },
+      {
+        "title": "İHATTYS — Hivatalos mobilalkalmazás (iOS)",
+        "description": "Az SHGM hivatalos İHATTYS alkalmazásának iOS-verziója; az alkalmazásban végzett műveletek érvénytelenek, amíg az SHGM meg nem teszi a szükséges bejelentést"
       },
       {
         "title": "SHGM — Intézményi honlap",
         "description": "A Polgári Légügyi Főigazgatóság honlapja: minden légiközlekedési szabályozás, közlemény és elérhetőség"
       },
       {
-        "title": "SHT-UAV irányelv (a szabályozás szövege)",
-        "description": "Polgári Légügyi Irányelv — Pilóta nélküli légijármű (SHT-UAV): a hivatalos irányelv, amely minden művelet jogi alapját képezi"
+        "title": "SHT-İHA irányelv 2026 (szabályozás szövege, PDF)",
+        "description": "Unmanned Aircraft Systems Directive (SHT-İHA), 2026. július 30-tól hatályos: a hivatalos irányelvszöveg, amely minden UAV-művelet jogalapja"
       }
     ],
-    "disclaimerText": "Repülés előtt feltétlenül ellenőrizd az SHGM hivatalos forrásait. Ez az alkalmazás egy segédeszköz, nem jogi forrás. Az UAV-műveleteket Törökországban az SHT-UAV Directive szabályozza; minden 500 g vagy annál nehezebb eszközt regisztrálni kell az SHGM regisztrációs rendszerében (iha.shgm.gov.tr).",
+    "disclaimerText": "Repülés előtt feltétlenül ellenőrizd az SHGM hivatalos forrásait. Ez az alkalmazás egy segédeszköz, nem jogi forrás. Törökországban az UAV-műveleteket az új SHT-İHA (Unmanned Aircraft Systems Directive) szabályozza, amely 2026. július 30-tól hatályos; az átmeneti időszak 2027. július 31-ig tart. Minden 500 g-nál nehezebb eszközt regisztrálni kell az SHGM regisztrációs rendszerében (iha.shgm.gov.tr).",
     "sectionLabelRules": "ALAPVETŐ SZABÁLYOK",
     "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
     "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
     "linksSheetTitle": "Légtér és szabályok — Törökország",
-    "dronePilotCredentialName": "UAV-pilótaengedély"
+    "dronePilotCredentialName": "UAV-pilótaengedély (P0/P1/P2)"
   }
 }

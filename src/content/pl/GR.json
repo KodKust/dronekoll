@@ -1,61 +1,65 @@
 {
   "meta": {
-    "sourceHash": "6bd279870909de9539cac55440892030da06bb4b119368a297585876f27098df",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e631818b431dccaf473ebde5f460a6b9eb0f571b8775190b265998e6821bc00d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalnie 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-      "Zarejestruj się jako operator UAS (bezpłatnie), jeśli dron waży 250 g lub więcej albo ma kamerę",
-      "Wymagane szkolenie online A1/A3 – minimalny wiek 16 lat",
-      "Stanowiska archeologiczne objęte ograniczeniami: Akropol, Delfy, Olimpia i inne",
-      "Zawsze utrzymuj z dronem kontakt wzrokowy (VLOS)",
+      "W kategorii otwartej maksymalna wysokość wynosi 120 m, mierzona jako odległość od najbliższego punktu powierzchni ziemi — nie po prostu pionowo w dół, więc w pobliżu zbocza liczy się także teren obok ciebie. W promieniu 50 m od wysokiej przeszkody sztucznej (wyższej niż 105 m) podmiot odpowiedzialny za tę przeszkodę może wystąpić o zezwolenie na lot do 15 m powyżej wysokości przeszkody.",
+      "Musisz zarejestrować się jako operator drona, jeśli twój dron waży 250 g lub więcej (lub przy uderzeniu mógłby przekazać energię kinetyczną większą niż 80 J) — dotyczy to nawet zabawek. Poniżej 250 g rejestracja jest nadal wymagana, jeśli dron ma czujnik zdolny do rejestrowania danych osobowych, chyba że kwalifikuje się jako zabawka w rozumieniu unijnej dyrektywy w sprawie bezpieczeństwa zabawek. Wymagania dotyczące szkolenia/świadectwa pilota są odrębne i zależą od klasy drona i podkategorii.",
+      "Numer rejestracyjny operatora musi być umieszczony na wszystkich twoich dronach i wprowadzony do systemu zdalnej identyfikacji (Remote ID), jeśli dron go ma. Rejestrację w Grecji odnawia się po 3 latach.",
+      "Goście z krajów spoza UE/EASA: jeśli twój dron wymaga rejestracji (zob. wyżej) i nie jesteś już zarejestrowany w innym państwie EASA, zarejestruj się w Grecji przed lotem (bez greckiego numeru podatkowego (AFM): specjalny wniosek z paszportem na stronie HCAA). Rezydenci innego państwa EASA rejestrują się w kraju zamieszkania. Szkolenia i świadectwa pilota z krajów spoza UE nie są uznawane w UE.",
+      "Ubezpieczenie od odpowiedzialności cywilnej wobec osób trzecich jest wymagane dla każdego drona używanego zawodowo, a także dla dronów używanych prywatnie o masie 4 kg i większej (przepisy krajowe).",
+      "W Grecji minimalny wiek wynosi 16 lat — wymóg wieku nie dotyczy lotów dronem klasy C0 będącym zabawką w podkategorii A1, dronem prywatnej konstrukcji poniżej 250 g ani lotów pod bezpośrednim nadzorem pilota posiadającego świadectwo.",
+      "Obszary takie jak Akropol, Delfy i Olimpia leżą w strefach żółtych/purpurowych — w zależności od konkretnego obszaru loty są dozwolone pod warunkami lub całkowicie zabronione, a wymagana jest wcześniejsza zgoda HCAA uzyskana co najmniej 5 dni roboczych wcześniej.",
+      "W kategorii otwartej musisz utrzymywać drona w bezpośrednim zasięgu wzroku, gołym okiem (okulary/soczewki kontaktowe są dozwolone; lornetka ani ekran się nie liczą) — albo z pomocą obserwatora, przy czym przez cały czas musicie komunikować się jasno i skutecznie, aby wspólnie obserwować przestrzeń powietrzną i unikać kolizji. Tryb „follow-me” to odrębny wyjątek, dozwolony do 50 m od pilota.",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
-      "Minimalna odległość 8 km od każdego lotniska",
+      "Nie istnieje jedna, obowiązująca w całej UE odległość, jaką trzeba zachować od lotnisk. Ograniczenia w pobliżu lotnisk publikowane są jako strefy geograficzne (art. 15), których kształt i wielkość różnią się w zależności od lotniska. Przed lotem w pobliżu portu lotniczego, lotniska lub lądowiska dla śmigłowców sprawdź oficjalną mapę stref dla dronów w swoim kraju; lot w strefie kontrolowanej (CTR) zwykle wymaga wcześniejszej zgody kontroli ruchu lotniczego.",
       "Lot nocny jest dozwolony zgodnie z podstawowymi wymogami EASA dla kategorii otwartej, pod warunkiem stosowania wymaganego migającego zielonego światła, chyba że obowiązujące przepisy dotyczące strefy geograficznej lub przepisy krajowe nakładają bardziej rygorystyczne warunki.",
       "Lotniska na wyspach: dokładnie sprawdź mapę DAGR — wiele wysp ma rozległe strefy CTR"
     ],
     "importantNotes": [
-      "Na stanowiskach archeologicznych i przy zabytkach dziedzictwa kulturowego obowiązuje bezwzględny zakaz lotów — grożą wysokie grzywny",
+      "Pożary lasów: loty są zabronione w strefach wyznaczonych przez NOTAM. Jeśli widzisz lotnicze środki gaśnicze lub otrzymasz wiadomość 112 o pożarze w okolicy, natychmiast przerwij lot i wyląduj. Naruszenia: grzywna, postępowanie karne, konfiskata drona.",
+      "Stanowiska archeologiczne i zabytki dziedzictwa kulturowego wymagają wcześniejszej zgody HCAA (co najmniej 5 dni roboczych wcześniej) — nie zawsze są objęte całkowitym zakazem, ale podlegają ścisłej kontroli.",
       "Lotniska na wyspach tworzą rozległe strefy zastrzeżone",
-      "Instalacje wojskowe: bezwzględne strefy zakazu lotów (wiele na wyspach)",
+      "Nie lataj nad portami, szpitalami, obiektami energetycznymi i telekomunikacyjnymi ani obiektami wojskowymi lub rządowymi bez wcześniejszej zgody HCAA — niektóre obiekty wojskowe i rządowe są na mapie DAGR strefami całkowitego zakazu lotów (wiele na wyspach). Naruszenia mogą skutkować grzywnami, sankcjami karnymi i konfiskatą sprzętu.",
       "RODO ma zastosowanie, gdy rejestrowane są możliwe do zidentyfikowania osoby"
     ],
     "primaryLinks": [
       {
         "title": "HCAA – Przepisy dotyczące dronów",
-        "description": "Oficjalne zasady i informacje urzędu lotnictwa cywilnego dotyczące dronów"
+        "description": "Oficjalne zasady i informacje o dronach od Hellenic Civil Aviation Authority (HCAA)"
       },
       {
-        "title": "HCAA – Rejestracja pilota",
-        "description": "Bezpłatna rejestracja jako operator UAS (ważna we wszystkich krajach UE/EASA)"
+        "title": "HCAA – Rejestracja operatora",
+        "description": "Rejestracja jako operator UAS (dla rezydentów Grecji, opłata 20 €; numer rejestracyjny jest ważny we wszystkich krajach UE/EASA)"
       },
       {
         "title": "DAGR – Mapa przestrzeni powietrznej dla dronów",
         "description": "Oficjalna mapa geograficzna ograniczeń dotyczących lotów dronów w Grecji"
       },
       {
-        "title": "HCAA – Zgłoszenie lotu",
-        "description": "Składanie zgłoszenia lotu z 5-dniowym wyprzedzeniem (wymagane dla każdego lotu)"
+        "title": "HCAA – Wniosek o zgodę na lot (strefy DAGR)",
+        "description": "Wniosek o zgodę na loty w żółtych/purpurowych strefach DAGR (co najmniej 5 dni roboczych wcześniej)"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "HASP – Sporty lotnicze",
-        "description": "Grecka Federacja Sportów Lotniczych oraz informacje o lotach rekreacyjnych"
+        "title": "HASP – instytucja zapewniająca służby żeglugi powietrznej",
+        "description": "Grecka instytucja zapewniająca służby żeglugi powietrznej – operator DAGR i NOTAM-ów"
       },
       {
         "title": "HCAA – Najczęściej zadawane pytania o drony",
         "description": "Najczęściej zadawane pytania dotyczące przepisów dronowych w Grecji"
       }
     ],
-    "disclaimerText": "Przed każdym lotem zawsze sprawdzaj oficjalne źródła Hellenic Civil Aviation Authority (HCAA) oraz mapę DAGR. Ta aplikacja jest narzędziem, a nie organem prawnym. Grecja stosuje przepisy EASA z dodatkami krajowymi, w tym z obowiązkiem zgłoszenia lotu z 5-dniowym wyprzedzeniem.",
-    "sectionLabelRules": "PODSTAWOWE ZASADY (KLASA OTWARTA EASA)",
+    "disclaimerText": "Przed każdym lotem zawsze sprawdzaj oficjalne źródła Hellenic Civil Aviation Authority (HCAA) oraz mapę DAGR. Ta aplikacja jest narzędziem, a nie organem prawnym. Grecja stosuje przepisy EASA z dodatkami krajowymi, w tym m.in. z obowiązkiem złożenia wniosku do HCAA co najmniej 5 dni roboczych wcześniej w przypadku lotów w żółtych/purpurowych strefach DAGR, w których loty są dozwolone pod warunkami.",
+    "sectionLabelRules": "PODSTAWOWE ZASADY (KATEGORIA OTWARTA EASA)",
     "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
     "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
     "linksSheetTitle": "Przestrzeń powietrzna i przepisy — Grecja",
-    "dronePilotCredentialName": "Świadectwo operatora"
+    "dronePilotCredentialName": "Świadectwo pilota zdalnego"
   }
 }

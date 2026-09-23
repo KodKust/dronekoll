@@ -1,61 +1,65 @@
 {
   "meta": {
-    "sourceHash": "6bd279870909de9539cac55440892030da06bb4b119368a297585876f27098df",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "e631818b431dccaf473ebde5f460a6b9eb0f571b8775190b265998e6821bc00d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximal 120 m über Grund (EASA Open-Kategorie)",
-      "Registrierung als UAS-Betreiber (kostenlos), wenn die Drohne 250 g oder mehr wiegt oder eine Kamera hat",
-      "A1/A3-Onlineschulung erforderlich – Mindestalter 16",
-      "Gesperrte archäologische Stätten: die Akropolis, Delphi, Olympia und weitere",
-      "Halte die Drohne stets in direkter Sichtverbindung (VLOS)",
+      "In der offenen Kategorie beträgt die maximale Höhe 120 m, gemessen als Abstand zum nächstgelegenen Punkt der Erdoberfläche – nicht einfach senkrecht nach unten, sodass an einem Hang auch das Gelände neben dir zählen kann. Innerhalb von 50 m um ein hohes künstliches Hindernis (über 105 m) kann die für das Hindernis verantwortliche Stelle eine Genehmigung beantragen, bis zu 15 m über die Höhe des Hindernisses zu fliegen.",
+      "Du musst dich als Drohnenbetreiber registrieren, wenn deine Drohne 250 g oder mehr wiegt (oder bei einem Aufprall mehr als 80 J kinetische Energie übertragen könnte) – das gilt sogar für Spielzeug. Unter 250 g ist die Registrierung trotzdem erforderlich, wenn die Drohne einen Sensor hat, der personenbezogene Daten erfassen kann, es sei denn, sie gilt als Spielzeug im Sinne der EU-Spielzeugrichtlinie. Die Anforderungen an Pilotenschulung/-zeugnis sind davon getrennt und hängen von der Klasse und Unterkategorie der Drohne ab.",
+      "Deine Betreiberregistrierungsnummer muss an allen deinen Drohnen angebracht und in das System zur Fernidentifizierung (Remote ID) eingegeben werden, falls die Drohne eines hat. Die Registrierung in Griechenland wird nach 3 Jahren erneuert.",
+      "Besucher aus Nicht-EU-/EASA-Ländern: Wenn deine Drohne registrierungspflichtig ist (siehe oben) und du nicht bereits in einem anderen EASA-Staat registriert bist, registriere dich vor dem Flug in Griechenland (ohne griechische Steuernummer (AFM): ein Sonderantrag mit Reisepass auf der Website der HCAA). Einwohner eines anderen EASA-Staates registrieren sich in ihrem Wohnsitzland. Schulungs- und Pilotenzeugnisse aus Nicht-EU-Ländern werden in der EU nicht anerkannt.",
+      "Eine Haftpflichtversicherung ist für jede beruflich genutzte Drohne sowie für privat genutzte Drohnen ab 4 kg erforderlich (nationale Gesetzgebung).",
+      "In Griechenland beträgt das Mindestalter 16 Jahre – keine Altersanforderung gilt für das Fliegen einer Drohne der Klasse C0, die ein Spielzeug ist, in der Unterkategorie A1, einer privat gebauten Drohne unter 250 g oder unter direkter Aufsicht eines zertifizierten Piloten.",
+      "Gebiete wie die Akropolis, Delphi und Olympia liegen in gelben/magentafarbenen Zonen – Flüge sind je nach Gebiet unter Auflagen erlaubt oder vollständig verboten, und eine vorherige Genehmigung der HCAA ist mindestens 5 Arbeitstage im Voraus erforderlich.",
+      "In der offenen Kategorie musst du die Drohne in direkter Sichtverbindung mit bloßem Auge halten (Brille/Kontaktlinsen sind erlaubt; Fernglas oder Bildschirm zählen nicht) – oder mit Hilfe eines Beobachters, wobei ihr jederzeit klar und wirksam miteinander kommuniziert, damit ihr gemeinsam den Luftraum überwacht und Zusammenstöße vermeidet. Der „Follow-me“-Modus ist eine gesonderte Ausnahme, zulässig bis 50 m vom Piloten.",
       "Fliege nicht über Menschenansammlungen. Die Vorschriften für unbeteiligte Personen hängen von der Unterkategorie, der Klassenkennzeichnung und den Betriebsbedingungen ab; beachte die offizielle Matrix.",
-      "Mindestabstand von 8 km zu jedem Flughafen",
+      "Es gibt keinen einheitlichen EU-weiten Abstand, den du zu Flughäfen einhalten musst. Beschränkungen in Flughafennähe werden als geografische Zonen (Artikel 15) veröffentlicht, deren Form und Größe sich von Flughafen zu Flughafen unterscheiden. Prüfe vor einem Flug in der Nähe eines Flughafens, Flugplatzes oder Hubschrauberlandeplatzes die offizielle Drohnenzonenkarte deines Landes; für Flüge innerhalb einer Kontrollzone (CTR) ist in der Regel eine vorherige Genehmigung der Flugverkehrskontrolle erforderlich.",
       "Nachtflüge sind gemäß den EASA-Grundvorschriften für die offene Kategorie zulässig, sofern das vorgeschriebene grün blinkende Licht verwendet wird, es sei denn, eine geltende geografische Zonenregelung oder nationale Vorschrift sieht strengere Auflagen vor.",
       "Inselflughäfen: Prüfe die DAGR-Karte sorgfältig – viele Inseln haben große CTRs"
     ],
     "importantNotes": [
-      "Archäologische Stätten und Kulturdenkmäler sind strikt gesperrt – es drohen hohe Bußgelder",
+      "Waldbrände: In per NOTAM festgelegten Zonen ist das Fliegen verboten. Wenn du Luftfahrzeuge der Brandbekämpfung siehst oder eine 112-Nachricht über einen Brand in der Gegend erhältst, brich den Flug sofort ab und lande. Verstöße: Bußgeld, Strafverfolgung, Beschlagnahme der Drohne.",
+      "Archäologische Stätten und Kulturdenkmäler erfordern eine vorherige Genehmigung der HCAA (mindestens 5 Arbeitstage im Voraus) – sie sind nicht immer vollständig verboten, unterliegen aber einer strengen Kontrolle.",
       "Rund um Inselflughäfen bestehen ausgedehnte Sperrzonen",
-      "Militäranlagen: absolute Flugverbotszonen (viele auf Inseln)",
+      "Fliege ohne vorherige Genehmigung der HCAA nicht über Häfen, Krankenhäuser, Energie- und Telekommunikationsanlagen oder militärische bzw. staatliche Einrichtungen – einige militärische und staatliche Einrichtungen sind auf der DAGR-Karte vollständige Flugverbotszonen (viele davon auf Inseln). Verstöße können Bußgelder, strafrechtliche Sanktionen und die Beschlagnahme der Ausrüstung nach sich ziehen.",
       "Die DSGVO gilt, sobald identifizierbare Personen aufgenommen werden"
     ],
     "primaryLinks": [
       {
         "title": "HCAA – Vorschriften zu Drohnen",
-        "description": "Offizielle Regeln und Informationen der Zivilluftfahrtbehörde zu Drohnen"
+        "description": "Offizielle Regeln und Informationen der griechischen Zivilluftfahrtbehörde (HCAA) zu Drohnen"
       },
       {
-        "title": "HCAA – Pilotenregistrierung",
-        "description": "Kostenlose Registrierung als UAS-Betreiber (gültig in allen EU-/EASA-Ländern)"
+        "title": "HCAA – Betreiberregistrierung",
+        "description": "Registrierung als UAS-Betreiber (für in Griechenland Ansässige, Gebühr 20 €; die Registrierungsnummer gilt in allen EU-/EASA-Ländern)"
       },
       {
         "title": "DAGR – Drohnen-Luftraumkarte",
         "description": "Offizielle geografische Karte der Beschränkungen für Drohnenflüge in Griechenland"
       },
       {
-        "title": "HCAA – Fluganmeldung",
-        "description": "Einreichung einer Flugvoranmeldung mit 5 Tagen Vorlauf (für jeden Flug erforderlich)"
+        "title": "HCAA – Antrag auf Fluggenehmigung (DAGR-Zonen)",
+        "description": "Antrag auf Genehmigung von Flügen in gelben/magentafarbenen DAGR-Zonen (mindestens 5 Arbeitstage im Voraus)"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "HASP – Luftsport",
-        "description": "Griechischer Luftsportverband und Informationen zum Freizeitflug"
+        "title": "HASP – Flugsicherungsdienstleister",
+        "description": "Griechischer Flugsicherungsdienstleister – Betreiber von DAGR und NOTAMs"
       },
       {
         "title": "HCAA – Häufige Fragen zu Drohnen",
         "description": "Häufig gestellte Fragen zu den Drohnenvorschriften in Griechenland"
       }
     ],
-    "disclaimerText": "Prüfe vor jedem Flug stets die offiziellen Quellen der griechischen Zivilluftfahrtbehörde (HCAA) und die DAGR-Karte. Diese App ist ein Hilfsmittel – keine rechtliche Instanz. Griechenland folgt den EASA-Vorschriften mit nationalen Ergänzungen, darunter die Pflicht, Flüge mindestens 5 Tage im Voraus anzumelden.",
+    "disclaimerText": "Prüfe vor jedem Flug stets die offiziellen Quellen der griechischen Zivilluftfahrtbehörde (HCAA) und die DAGR-Karte. Diese App ist ein Hilfsmittel – keine rechtliche Instanz. Griechenland folgt den EASA-Vorschriften mit nationalen Ergänzungen, darunter der Pflicht, für Flüge in gelben/magentafarbenen DAGR-Zonen, in denen das Fliegen unter Auflagen erlaubt ist, mindestens 5 Arbeitstage im Voraus einen Antrag bei der HCAA zu stellen.",
     "sectionLabelRules": "GRUNDREGELN (OFFENE EASA-KATEGORIE)",
     "sectionLabelPrimary": "OFFIZIELLE QUELLEN",
     "sectionLabelSecondary": "WEITERE RESSOURCEN",
     "linksSheetTitle": "Luftraum und Vorschriften – Griechenland",
-    "dronePilotCredentialName": "Betreiberzeugnis"
+    "dronePilotCredentialName": "Fernpilotenzeugnis"
   }
 }

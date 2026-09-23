@@ -1,27 +1,31 @@
 {
   "meta": {
-    "sourceHash": "000b9bfb30fd5dc95150d4d75572729ea894e9cb117bc556495e8105d1de0bf6",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "49588a835cca5391d11c172e7550ef7ac8f76a3c7fe6c69b2398693532352902",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Máximo 120 m sobre el nivel del suelo (categoría Abierta de EASA)",
-      "Registro a través del portal D-Flight: suscripción Basic 7 €/año (PRO 28 €/año) + código QR obligatorio en cada dron (Base 7 €/UAS; el primero se incluye con la suscripción inicial)",
-      "Formación en línea A1/A3 obligatoria; edad mínima: 16 años",
-      "Seguro de responsabilidad civil obligatorio; mínimo 750.000 DEG (Derechos Especiales de Giro)",
+      "En la categoría abierta, la altura máxima es de 120 m, medida como la distancia al punto más cercano de la superficie terrestre, no simplemente en vertical hacia abajo; por eso, cerca de una pendiente también puede contar el terreno que tienes al lado. A menos de 50 m de un obstáculo artificial alto (de más de 105 m), la entidad responsable del obstáculo puede solicitar autorización para volar hasta 15 m por encima de la altura del obstáculo.",
+      "Registro en Italia a través del portal D-Flight (salvo las exenciones indicadas abajo): suscripción Basic 7 €/año (PRO 28 €/año) + código QR obligatorio en cada dron (Base 7 €/UAS; el primero se incluye con la suscripción inicial)",
+      "Exentos: los drones de juguete (Directiva 2009/48/CE) no requieren registro, certificado ni seguro; los drones de menos de 250 g sin cámara ni micrófono no requieren registro.",
+      "Pilotos extranjeros: el registro de operador es válido en todos los países de la UE y en Suiza. Si ya estás registrado en tu país de la UE, no necesitas registrarte en D-Flight: basta con mostrar tu número de operador en el dron. Los residentes fuera de la UE (incluido el Reino Unido) se registran en el primer país de la UE que tengan previsto visitar.",
+      "En Italia, la edad mínima para volar en A1/A3 es de 16 años; los menores (de 16-17 años) necesitan el consentimiento de uno de sus padres o de su tutor legal para registrarse en el portal de ENAC. El certificado en línea (40 preguntas) es válido durante 5 años.",
+      "El seguro de responsabilidad civil frente a terceros es obligatorio para todos los drones (incluidos los de menos de 250 g y los de uso recreativo), salvo los drones de juguete (Dir. 2009/48/CE); cobertura mínima de 750.000 DEG, conforme al art. 27 del Regolamento UAS-IT y al art. 1015 del Codice della Navigazione.",
       "Roma y la Ciudad del Vaticano: amplias zonas de exclusión aérea",
-      "Mantén siempre el dron dentro de tu campo visual (VLOS)",
-      "No vueles sobre concentraciones de personas. Las normas para las personas no implicadas dependen de la subcategoría, la marca de clase y las condiciones de funcionamiento; consulta la matriz oficial.",
-      "Una distancia mínima de 5 km de cualquier aeropuerto o aeródromo",
-      "Los vuelos nocturnos están permitidos según los requisitos básicos de la categoría abierta de la EASA cuando se utiliza la luz verde intermitente exigida, salvo que una norma nacional o de zona geográfica vigente imponga una condición más estricta.",
-      "Los sitios históricos y las zonas arqueológicas pueden estar sujetos a restricciones adicionales"
+      "En la categoría abierta, debes mantener el dron dentro de tu alcance visual directo, a simple vista (las gafas o lentes de contacto sirven; los prismáticos o una pantalla no cuentan), o volar con la ayuda de un observador, manteniendo en todo momento una comunicación clara y eficaz entre ambos para vigilar juntos el espacio aéreo y evitar colisiones. El modo «Follow-me» es una excepción aparte, permitida hasta 50 m del piloto.",
+      "No vueles sobre concentraciones de personas. Las normas para las personas no implicadas dependen de la subcategoría, la marca de clase y las condiciones de funcionamiento; consulta la tabla oficial.",
+      "No existe una distancia única respecto a los aeropuertos: las zonas geográficas de aeródromo (ENAC Circular ATM-09A) se publican en D-Flight. En la categoría abierta, está prohibido volar dentro de estas zonas, que empiezan a una altura distinta según su color (roja 0 m, naranja 25 m, amarilla 45 m); en el resto de ATZ y CTR, la zona empieza normalmente a 60 m. Por debajo de estas alturas puedes volar sin reserva de espacio aéreo; para volar dentro de las zonas necesitas la categoría específica con autorización de ENAC o de la Aeronautica Militare.",
+      "Los vuelos nocturnos están permitidos según los requisitos básicos de la categoría abierta de la EASA, siempre que se utilice la luz verde intermitente exigida, salvo que una norma nacional o una norma de una zona geográfica concreta imponga condiciones más estrictas.",
+      "Los sitios históricos y las zonas arqueológicas pueden estar sujetos a restricciones adicionales",
+      "Parques naturales: está prohibido sobrevolarlos donde la prohibición aprobada por ENAC esté publicada en D-Flight; para volar en ellos necesitas autorización de la autoridad del parque (Ente Parco).",
+      "Drones con marca de clase C1, C2 o C3: la identificación remota directa y la geoconsciencia deben estar activas y actualizadas."
     ],
     "importantNotes": [
-      "Suscripción D-Flight: Basic 7 €/año (PRO 28 €/año para la categoría Específica). El primer código QR Basic se incluye con la activación inicial; los códigos QR Basic adicionales cuestan 7 € por UAS (PRO 112 € por UAS).",
+      "Suscripción D-Flight: Basic 7 €/año (PRO 28 €/año para la categoría específica). El primer código QR Base se incluye con la activación inicial; los códigos QR Base adicionales cuestan 7 € por UAS (PRO 112 € por UAS).",
       "Seguro obligatorio con una cobertura mínima de 750.000 DEG (Derechos Especiales de Giro)",
-      "Roma y el Vaticano tienen uno de los espacios aéreos más restrictivos de Europa para drones",
+      "Roma: el centro de la ciudad es una zona de exclusión aérea por motivos de seguridad, donde el sobrevuelo está prohibido para todas las aeronaves, incluidos los drones; cualquier excepción requiere además autorización de la Prefettura di Roma. Consulta siempre D-Flight.",
       "Multas de hasta 100.000 € por infracciones graves",
       "El RGPD se aplica cuando se captan imágenes identificables"
     ],
@@ -32,7 +36,7 @@
       },
       {
         "title": "D-Flight — Regístrate y vuela",
-        "description": "Portal de registro y mapa del espacio aéreo (se requiere suscripción de 6 €/mes)"
+        "description": "Portal de registro de operadores y mapa del espacio aéreo (mapas con una cuenta gratuita; registro de operador con una suscripción Base de 7 €/año)"
       },
       {
         "title": "D-Flight — Mapa del espacio aéreo",
@@ -40,13 +44,13 @@
       },
       {
         "title": "ENAC — Normativa de UAS",
-        "description": "Detalles de la normativa italiana sobre UAS y las modificaciones nacionales a las reglas de EASA"
+        "description": "Detalles de la normativa italiana sobre UAS y de las disposiciones nacionales que complementan las reglas de EASA"
       }
     ],
     "secondaryLinks": [
       {
         "title": "ENAV — NOTAM",
-        "description": "NOTAM activos y restricciones temporales del espacio aéreo"
+        "description": "Proveedor italiano de servicios de navegación aérea; el acceso a los NOTAM (Self Briefing) requiere firmar una Operation Letter"
       },
       {
         "title": "ENAC — Preguntas frecuentes sobre drones",

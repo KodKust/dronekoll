@@ -1,27 +1,33 @@
 {
   "meta": {
-    "sourceHash": "508ee28346525a09001728f6f525106d73a15d373ba459d581dbbbe091cc7d62",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eee1f5c184b67a857980e5927e116be613b5cef533bad82326dd2e369b059d05",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálne 120 m nad úrovňou terénu (kategória EASA Open)",
+      "V otvorenej kategórii je maximálna výška 120 m meraná ako vzdialenosť od najbližšieho bodu zemského povrchu — nie jednoducho zvislo nadol, takže pri svahu sa môže počítať aj terén vedľa vás. Do 50 m od vysokej umelej prekážky (vyššej ako 105 m) môže subjekt zodpovedný za prekážku požiadať o povolenie lietať až 15 m nad výškou prekážky.",
       "Plne v súlade so švajčiarskymi predpismi FOCA pre drony",
-      "Registrácia cez švajčiarsky systém (CHF 10, platná neobmedzene), ak dron váži 250 g a viac alebo je vybavený kamerou",
+      "Ako prevádzkovateľ dronu sa musíte zaregistrovať, ak váš dron váži 250 g alebo viac (alebo môže pri náraze odovzdať viac ako 80 J kinetickej energie) — platí to aj pre hračky. Pri hmotnosti pod 250 g sa registrácia stále vyžaduje, ak má dron snímač schopný zaznamenávať osobné údaje, pokiaľ sa nepovažuje za hračku podľa EU Toy Safety Directive. Číslo prevádzkovateľa (bez posledných troch znakov) musí byť zreteľne uvedené na každom drone. Požiadavky na výcvik a spôsobilosť pilota sú upravené samostatne a závisia od triedy a podkategórie dronu.",
+      "Minimálny vek diaľkovo riadiaceho pilota (otvorená kategória): 12 rokov; mladší piloti iba pod dohľadom osoby vo veku najmenej 16 rokov, ktorá má osvedčenie",
       "Povinné poistenie zodpovednosti za škodu pri dronoch s hmotnosťou nad 250 g (krytie CHF 1 milión)",
-      "Zámok Vaduz: úplný zákaz lietania",
-      "Dron majte vždy vo vizuálnom dohľade (VLOS)",
+      "Remote ID (diaľková identifikácia) musí byť počas letu zapnuté a musí v ňom byť uložené číslo prevádzkovateľa — okrem dronov triedy C0, starších dronov (legacy) a dronov vlastnej výroby",
+      "Trvalá bezletová zóna pre drony „Regierungsgebäude – Landtag – Schloss Vaduz“ (všetky hmotnostné triedy). O povolenie výnimky možno požiadať Amt für Hochbau und Raumplanung.",
+      "Heliport Balzers (LSXB): drony nad 250 g sú zakázané v častiach obce Balzers a všetky drony priamo na heliporte — výnimky iba s povolením",
+      "V otvorenej kategórii musíte dron udržiavať vo vlastnom priamom vizuálnom dohľade voľným okom (okuliare alebo kontaktné šošovky sú v poriadku; ďalekohľad ani obrazovka sa nepočítajú) — alebo lietať s podporou pozorovateľa, pričom medzi vami musí byť neustále jasná a účinná komunikácia, aby ste spoločne mohli sledovať vzdušný priestor a predchádzať zrážkam. Režim follow-me je samostatná výnimka povolená do 50 m od pilota.",
+      "Nočné lety iba v rámci vizuálneho dosahu a so zapnutými pozičnými svetlami; vzdialenosť primerane znížte",
       "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre osoby, ktoré nie sú priamo zapojené, závisia od podkategórie, triedneho označenia a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
-      "Najmenej 5 km od akéhokoľvek letiska či letovej plochy",
+      "Neexistuje jednotná vzdialenosť od letísk platná v celej EÚ, ktorú musíte dodržiavať. Obmedzenia v blízkosti letísk sa zverejňujú ako geografické zóny (článok 15), ktorých tvar a veľkosť sa pri jednotlivých letiskách líšia. Pred letom v blízkosti letiska, letovej plochy alebo heliportu skontrolujte oficiálnu mapu zón pre drony vo svojej krajine; lietanie v riadenej zóne (CTR) si zvyčajne vyžaduje predchádzajúce povolenie riadenia letovej prevádzky.",
+      "Pred každým letom skontrolujte aj DABS (Daily Airspace Bulletin Switzerland, skybriefing.com/de/dabs) — ak sa týka oblasti letu, nesmiete lietať.",
       "Veľmi malá krajina — cezhraničné lety do Švajčiarska alebo Rakúska si vyžadujú osobitnú pozornosť",
       "Alpský terén: dávajte pozor na trasy vrtuľníkov"
     ],
     "importantNotes": [
       "Lichtenštajnsko je plne v súlade so švajčiarskymi predpismi FOCA",
       "Rovnaký registračný systém ako vo Švajčiarsku (CHF 10, neobmedzená platnosť)",
-      "Zámok Vaduz je prísna bezletová zóna",
+      "Bydlisko v štáte EASA (EÚ, Švajčiarsko, Lichtenštajnsko, Nórsko, Island): zaregistrujte sa v krajine bydliska — registrácia platí vo všetkých štátoch EASA. Bydlisko mimo štátov EASA: pred lietaním sa zaregistrujte, ak už nie ste zaregistrovaní v niektorom štáte EASA (vo Švajčiarsku cez dLIS na BAZL, CHF 10). Osvedčenia diaľkovo riadiacich pilotov zo štátov mimo EASA sa neuznávajú.",
+      "Oblasť „Regierungsgebäude – Landtag – Schloss Vaduz“ je trvalou bezletovou zónou pre drony (všetky hmotnostné triedy)",
       "Krajina je dlhá len asi 25 km — hranicu je ľahké prekročiť neúmyselne",
       "Pri zaznamenávaní identifikovateľných osôb platí GDPR (Lichtenštajnsko je členom EHP)."
     ],
@@ -35,12 +41,12 @@
         "description": "Rovnaký registračný systém ako vo Švajčiarsku (CHF 10, platný neobmedzene)"
       },
       {
-        "title": "Swiss Dronemap — Mapa vzdušného priestoru",
-        "description": "Oficiálna interaktívna mapa dronov (zahŕňa Lichtenštajnsko)"
+        "title": "Mapa dronov BAZL — mapa vzdušného priestoru",
+        "description": "Oficiálna mapa dronov BAZL (platí aj v Lichtenštajnsku)"
       },
       {
-        "title": "Vláda Lichtenštajnska — Letectvo",
-        "description": "Vládny portál Lichtenštajnska s informáciami o letectve"
+        "title": "Landespolizei Liechtenstein — drony",
+        "description": "Informácie o dronoch a bezletové zóny v Lichtenštajnsku"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +59,7 @@
         "description": "Často kladené otázky o predpisoch pre drony"
       }
     ],
-    "disclaimerText": "Pred každým letom vždy skontrolujte oficiálne zdroje FOCA/BAZL a Swiss Dronemap. Táto aplikácia je nástroj, nie právny zdroj. Lichtenštajnsko sa riadi švajčiarskymi predpismi FOCA/EASA.",
+    "disclaimerText": "Pred každým letom vždy skontrolujte oficiálne zdroje FOCA/BAZL a mapu dronov BAZL. Táto aplikácia je nástroj, nie právny zdroj. Lichtenštajnsko sa riadi švajčiarskymi predpismi FOCA/EASA.",
     "sectionLabelRules": "KĽÚČOVÉ PRAVIDLÁ (KATEGÓRIA EASA OPEN)",
     "sectionLabelPrimary": "OFICIÁLNE ZDROJE",
     "sectionLabelSecondary": "ĎALŠIE ZDROJE",

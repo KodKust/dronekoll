@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "51b497a18aafd4cff4e8165ebea4d22e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "05a601befa3ab4524ab9e1c3f953a9bc",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,21 +14,27 @@
     "dronePilotCredentialName": "Pilot Sertifikası",
     "keyRules": [
       "Yerden en fazla 122 m (400 ft)",
-      "Kayıt numarasını (C-F####) dronun üzerinde gösterin",
+      "Bir orman yangınının 9,3 km (5 NM) yakınında veya bir acil durum operasyonunun (kaza, sel) güvenlik çevresi içinde asla uçmayın — 250 g altındakiler dahil tüm dronlar için geçerlidir.",
+      "SFOC-RPAS olmadan duyurulmuş etkinliklerde (konserler, festivaller, spor) veya yakınında uçuş yapılamaz — buna 250 g altındaki dronlar da dahildir.",
+      "Dron kayıt numaranızı (ör. C-1234567890) dronun üzerinde açıkça gösterin",
       "Temel sertifika: asgari yaş 14, 35 soruluk sınav (geçme notu %65) — yalnızca kontrolsüz hava sahası",
       "İleri sertifika: asgari yaş 16, 50 soruluk sınav (geçme notu %80) + uçuş değerlendirmesi — kontrollü hava sahası",
       "250 g'dan hafif dronlar: kayıt veya sertifika gerekmez",
+      "Kendi 250 g+ dronunu uçuran yabancı ziyaretçiler: Kanada dron pilot sertifikasına (kendi ülkenizin lisansı geçerli sayılmaz) ve Foreign SFOC-RPAS belgesine ihtiyacınız vardır, çünkü yabancılar Kanada'da dron kaydedemez. Erken başvurun — hizmet standardı 30 iş günüdür. 250 g altı: duyurulmuş etkinlikler dışında SFOC gerekmez.",
       "Dronu her zaman doğrudan görüş hattınızda (VLOS) tutun — yardımcı araç kullanmadan doğrudan görsel temas sağlayın",
       "İnsanlara yatayda 30 m mesafeyi koruyun (temel operasyonlar)",
-      "Transport Canada tarafından belirlenmiş bir prosedürü izlemiyorsanız, sertifikalı havalimanlarından 5,6 km (3 NM) ve sertifikalı helikopter pistlerinden 1,9 km (1 NM) uzakta kalın. Kontrollü hava sahasında uçmak için İleri sertifika ve NAV DRONE izni gerekir.",
+      "Gece uçuşu (250 g+ dronlar): dronda, onu sizin veya görsel gözlemcinizin görebilmesini sağlayan ışıklar bulunmalı ve bu ışıklar açık olmalıdır.",
+      "250 g+ dronlar: alkol aldıktan sonraki 12 saat içinde veya etkisi altındayken uçuş yapılamaz",
+      "Temel: sertifikalı havalimanlarından 5,6 km'den (3 NM) ve sertifikalı helikopter pistlerinden 1,9 km'den (1 NM) daha uzakta kalın. Daha yakına yalnızca İleri sertifikayla ve belirlenmiş prosedürlere uyarak. Kontrollü hava sahası: İleri sertifika + buna uygun güvenlik beyanına sahip dron + NAV DRONE izni.",
+      "Bir askeri hava meydanının merkezinin 5,6 km (3 NM) yakınında Ulusal Savunma Bakanlığı'ndan (Department of National Defence) izin almanız gerekir.",
       "Eyalet parkları ve ulusal parklar genellikle hobi amaçlı dron kullanımını yasaklar — Alberta, Ontario ve British Columbia eyalet parklarında ve Parks Canada'ya bağlı tüm ulusal parklarda yasak olduğu doğrulanmıştır. Uçmadan önce ilgili parkın kurallarını kontrol edin."
     ],
     "importantNotes": [
-      "BC ve Alberta eyalet parkları hobi amaçlı dronları izin olmadan yasaklar",
+      "BC ve Alberta eyalet parkları: park izni olmadan dron uçurmak yasadışıdır ve hobi amaçlı uçuşa izin verilmez (Alberta: her boyut; BC: izin nadiren verilir)",
       "Ontario eyalet parkları ve Toronto şehir parkları hobi amaçlı dronları yasaklar",
-      "Çoğu belediye, kamu parklarında dronları izin olmadan yasaklar",
+      "Diğer belediyeler de şehir parklarında izinsiz dron uçurmayı yasaklayabilir — uçmadan önce yerel tüzükleri kontrol edin",
       "Sigorta temel operasyonlar için gerekli değildir ancak şiddetle önerilir",
-      "Seviye 1 Karmaşık Operasyonlar sertifikası (Kasım 2025'ten beri), SFOC olmadan düşük riskli BVLOS operasyonlarına olanak tanır"
+      "Level 1 Complex pilot sertifikası (18+), 4 Kasım 2025'ten bu yana SFOC olmadan düşük riskli BVLOS'a olanak tanır — ancak yalnızca size veya adına uçtuğunuz operatöre ait bir RPAS Operator Certificate (RPOC) kapsamında"
     ],
     "primaryLinks": [
       {
@@ -37,7 +43,7 @@
       },
       {
         "title": "Transport Canada — Dronunuzu kaydedin",
-        "description": "250 g+ dronları Drone Management Portal üzerinden kaydedin ($5, ~3 dakika)"
+        "description": "250 g+ dronları Drone Management Portal üzerinden kaydedin (yaklaşık $10, her yıl ayarlanır; ~3 dakika)"
       },
       {
         "title": "NAV DRONE — Kontrollü hava sahası",

@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Največja višina: 120 m (400 ft) nad tlemi",
+      "Največja višina: 120 m (400 ft) AGL (ANAC); rekreativni leti: največ 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "Droni, težji od 250 g: obvezna registracija pri SISANT (ANAC)",
-      "Droni do 250 g: oproščeni registracije, samodejno licencirani",
-      "Najmanjša razdalja 5,4 km od letališč za lete na majhni višini",
-      "Najmanjša razdalja 9 km od letališč za lete do 120 m",
+      "Droni do 250 g ne potrebujejo registracije v SISANT (resolucija ANAC št. 806). Od 1. julija 2026 (ICA 100-40) leti s temi droni zahtevajo tudi dovoljenje prek SARPAS (DECEA). Droni nad 250 g morajo biti registrirani v SISANT.",
+      "Območja omejitve letenja okoli letališč (FRZ) (ICA 100-40, v veljavi od 1. julija 2026): okoli letališča (ZEA) se FRZ začne na tleh do 1.740 m; pod njo ostanete, če letite do 100 ft (30 m) onkraj 1.740 m, 200 ft (60 m) onkraj 2.350 m, 300 ft onkraj 2.960 m in 400 ft onkraj 3.570 m. V sektorjih prileta in vzleta (ZAD) se FRZ začne na tleh do 3.550 m; nato: 100 ft onkraj 3.550 m, 200 ft onkraj 4.480 m, 300 ft onkraj 5.400 m in 400 ft onkraj 6.320 m. Letenje znotraj FRZ zahteva Termo de Coordenação in zahtevek v SARPAS vsaj 4 koledarske dni vnaprej.",
+      "Rekreativni leti (ICA 100-40, čl. 32): največja višina 200 ft (60 m) AGL in največja vodoravna razdalja 300 m. V bližini letališč veljajo pasovi FRZ – preverite v SARPAS.",
       "Dron vedno ohranjajte v neposrednem vidnem polju (VLOS)",
-      "Najmanjša razdalja 30 metrov od ljudi, ki niso vključeni v operacijo",
-      "Pred vsakim letom v nadzorovanem zračnem prostoru je potrebno dovoljenje SARPAS (DECEA)",
+      "Najmanjša razdalja 30 m od ljudi, ki niso vključeni v operacijo",
+      "Vsak let zahteva dovoljenje za dostop do zračnega prostora prek SARPAS (DECEA), tudi za drone do 250 g. Najkrajši rok vnaprejšnje prijave: 30 minut v kategoriji Open; 4 ali 8 koledarskih dni za operacije, ki sekajo FRZ ali omejena območja, BVLOS ali nad 400 ft. Rekreativni leti na EAC, določenem za rekreacijo, so izvzeti.",
       "Oddajno opremo mora certificirati ANATEL",
-      "Nočni leti zahtevajo posebno dovoljenje in protitrčno osvetlitev"
+      "Nočni leti: dron mora imeti navigacijske luči (ICA 100-40, čl. 20)",
+      "Piloti, mlajši od 18 let, morajo biti vedno v spremstvu pilota, starejšega od 18 let, ki je odgovoren za operacijo",
+      "Nerekreativna uporaba dronov nad 250 g (RBAC št. 100): zavarovanje, ki krije škodo tretjim osebam, je obvezno. Teoretični izpit ANAC (RBAC 100.13(b)) do 31. decembra 2026 ni zahtevan (resolucija št. 805/2026, čl. 2)."
     ],
     "importantNotes": [
-      "Turisti: Brazilija DOVOLJUJE rekreativne lete, vendar morajo biti droni, težji od 250 g, pred letom registrirani pri SISANT",
-      "Globe, ki jih izreka ANAC, lahko dosežejo 7.000 R$ na kršitev — letenje brez registracije ali dovoljenja SARPAS je resen prekršek",
+      "Turisti: Brazilija DOVOLJUJE rekreativne lete. Droni nad 250 g morajo biti registrirani v SISANT (tujci lahko uporabijo potni list), leti pa zahtevajo dovoljenje SARPAS (DECEA), tudi z droni do 250 g.",
+      "Globe ANAC za drone izhajajo iz referenčnih zneskov od R$ 750 do R$ 4.500 na kršitev (upravljanje brez registracije: R$ 2.250 – resolucija št. 762/2024); glede na olajševalne in obteževalne okoliščine se lahko končni znesek giblje od 20 % do 300 % tega zneska (resolucija št. 761/2024, čl. 35). Letenje brez dovoljenja SARPAS je kršitev pravil zračnega prometa, o kateri odloča JJAER (ICA 100-40, čl. 66).",
       "Nacionalni parki (ICMBio) in domorodna območja (FUNAI) praviloma prepovedujejo drone brez posebnega dovoljenja",
       "Plaže in mestna turistična območja (Rio, São Paulo, Salvador) imajo občinske omejitve — preverite pri lokalnih oblasteh"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — Dovoljenje za let (DECEA)",
-        "description": "Sistem DECEA za pridobitev dovoljenja za let v nadzorovanem zračnem prostoru. Obvezno pred vsakim letom"
+        "description": "Sistem DECEA za pridobitev dovoljenja za dostop do zračnega prostora, tudi za drone do 250 g. Obvezno pred vsakim letom"
       },
       {
         "title": "ANATEL — Certifikacija opreme",
@@ -48,15 +50,15 @@
         "description": "Aktivni NOTAM-i in uradne letalske karte DECEA za preverjanje začasnih omejitev"
       },
       {
-        "title": "ANAC — Pogosta vprašanja o dronih",
-        "description": "Uradni odgovori ANAC na pogosta vprašanja upravljavcev dronov"
+        "title": "ANAC — pogosta vprašanja o SISANT (registracija dronov)",
+        "description": "Uradni odgovori ANAC o registraciji v SISANT, tudi za tujce"
       },
       {
-        "title": "RBAC-E št. 94 — celoten tehnični standard",
-        "description": "Posebni brazilski predpis o civilnem letalstvu št. 94 — celotno besedilo, ki velja za drone"
+        "title": "RBAC št. 100 — celoten tehnični standard",
+        "description": "Brazilski predpis o civilnem letalstvu št. 100 (nadomešča RBAC-E št. 94) — celotno besedilo, ki velja za drone"
       }
     ],
-    "disclaimerText": "Pred letenjem vedno preverite uradne vire ANAC in DECEA. Ta aplikacija je orodje, ne pravni organ. Brazilija uveljavlja RBAC-E št. 94 (trenutno v prehodu na RBAC št. 100), ki zahteva obvezno odobritev prek SARPAS.",
+    "disclaimerText": "Pred letenjem vedno preverite uradne vire ANAC in DECEA. Ta aplikacija je orodje, ne pravni organ. Brazilija uporablja RBAC št. 100 in resolucijo št. 806 (ANAC, od junija 2026) ter ICA 100-40 (DECEA, od julija 2026), z obveznim dovoljenjem prek SARPAS.",
     "sectionLabelRules": "GLAVNA PRAVILA",
     "sectionLabelPrimary": "URADNI VIRI",
     "sectionLabelSecondary": "DODATNI VIRI",

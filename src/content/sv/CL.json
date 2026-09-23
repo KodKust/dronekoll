@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (obefolkade områden, nöjesbruk): Drönare som väger ≤750 g får flyga upp till 50 m över det högsta hindret på privat mark utan tillstånd",
-      "DAN 151 (befolkade områden/yrkesmässig användning): För drönare som väger mer än 750 g krävs registrering hos DGAC, pilotlicens och verksamhetstillstånd",
-      "Högsta tillåtna flyghöjd: 130 m över marken (DAN 151) – varierar beroende på tillstånd",
-      "Minst 2 km från flygplatser och flygfält",
+      "DAN 91.102(j): utan tillstånd från DGAC får endast drönare på upp till 750 g, tillverkade av expanderad polyeten eller motsvarande material, för privat bruk eller nöjesbruk flyga, på privata platser och högst 50 m över det högsta hindret eller den högsta byggnaden. All annan flygning kräver förhandstillstånd från DGAC.",
+      "DAN 151 (befolkade områden, allmänintresse eller flygarbete): gäller drönare oavsett vikt (max. 9 kg) och kräver registrering hos DGAC, behörighet som fjärrpilot, försäkring, AOC eller CEO samt verksamhetstillstånd.",
+      "DAN 151: drönaren måste ha en nödfallskärm under flygningen och kunna styras manuellt (max. 9 kg exklusive fallskärmen).",
+      "Den allmänna gränsen är 400 fot (120 m) AGL – flygning över den kräver förhandstillstånd från DGAC (DAN 151 Ed. 3, i kraft sedan maj 2024). Nuvarande DAN 91 anger samma gräns som ”400 fot (130 meter)”.",
+      "Ingen flygning inom 2 km från banans förlängda centrumlinje (mätt från tröskeln) eller inom 1 km parallellt med banans centrumlinje vid en flygplats.",
+      "Ingen drönarverksamhet i områden där en brand bekämpas med bemannade luftfartyg (DAN 91.102(i)(11) och DAN 151.103(g)(14)).",
       "Högst 500 m från operatören (håll drönaren inom direkt synhåll)",
-      "Håll alltid drönaren inom synhåll (VLOS)",
+      "Du måste hela tiden ha direkt visuell kontakt med drönaren för att styra dess flygning.",
       "Nattflygning kräver särskilt tillstånd från DGAC",
-      "Registrering hos DGAC: fabrikat, modell, serienummer, maxvikt ≤9 kg för tillåten användning, foto 10×15 cm",
-      "En pilotlicens kräver ett skriftligt prov (minst 75 % rätt) som omfattar DAN 151, DAN 91, meteorologi och aerodynamik",
+      "Registrering hos DGAC (DAN 151.203): tillverkare/land, märke, modell, serienummer och fabriksvikt, tillsammans med en kopia av din id-handling; ansökan görs på DGAC:s webbplattform (sedan augusti 2026). Högsta startvikt 9 kg.",
+      "Behörighet som fjärrpilot: minst 18 år, intyg om utbildning och skriftligt prov (minst 75 %) om DAN 151, DAN 91, NOTAM, meteorologi och aerodynamik; gäller i 36 månader.",
       "Ansvarsförsäkring mot tredje man (godkänd av JAC) krävs för yrkesmässig användning"
     ],
     "importantNotes": [
-      "📋 DUBBELT REGELVERK – DAN 91 vs DAN 151: Chile skiljer mellan flygning i OBEFOLKADE områden (DAN 91, mer tillåtande; nöjesflygningar ≤750 g utan tillstånd) och flygning i BEFOLKADE områden eller områden av allmänt intresse (DAN 151, som kräver registrering, certifierad pilot och försäkring). Vilka regler som gäller beror på både plats OCH syfte.",
-      "✈️ UTLÄNDSKA TURISTER: Reglerna gäller på samma sätt för personer som inte är bosatta i landet. Registrering krävs inte för nöjesflygningar med drönare som väger ≤750 g i obefolkade privata områden. För all annan verksamhet (turism, yrkesmässig användning, nära människor, i parker) krävs samma tillstånd som för chilenska medborgare.",
-      "🌋 NATIONALPARKER OCH RESERVAT: CONAF (den nationella skogsstyrelsen) förbjuder drönare utan särskilt tillstånd i parker som Torres del Paine, Lauca och nationalparken kring vulkanen Isluga. Chilenska Antarktis: särskilda regler från INACH. Hör med varje park eller reservat innan du reser.",
-      "🏔️ RESTRIKTIONSOMRÅDEN: Centrala Santiago (La Moneda, Plaza de Armas), flygplatsen SCEL (Pudahuel), militära zoner och gränszoner. Påskön, Robinson Crusoe-ön, Antarktis: ytterligare restriktioner. Se AIP Chile (ENR 5.1) för en karta över förbjudna områden, restriktionsområden och riskområden.",
-      "💰 ÅRLIG FÖRNYELSE: Registreringen hos DGAC gäller i 12 månader och måste förnyas årligen. Att flyga utan giltig registrering eller behörighet kan leda till böter, beslag av utrustning och förbud mot verksamhet."
+      "DUBBELT REGELVERK – DAN 91 (obefolkade områden): varje flygning kräver förhandstillstånd från DGAC, från fall till fall (bilaga D). DAN 151 (befolkade områden, allmänintresse eller flygarbete): registrering, behörighet, försäkring och tillstånd. Enda undantag: drönare ≤750 g av expanderad polyeten eller motsvarande material, nöjesbruk, på privata platser och ≤50 m över det högsta hindret.",
+      "✈️ UTLÄNDSKA TURISTER: Reglerna gäller på samma sätt för personer som inte är bosatta i landet. Utan tillstånd från DGAC tillåts endast drönare ≤750 g av expanderad polyeten eller motsvarande material, för nöjesbruk, på privata platser och ≤50 m över det högsta hindret. All annan flygning kräver förhandstillstånd från DGAC; registrering hos DGAC kräver en kopia av din id-handling.",
+      "🌋 SKYDDADE OMRÅDEN: Drönare får inte användas för nöjes- eller turiständamål i något statligt skyddat naturområde (nationalparker, reservat, naturminnen). CONAF tillåter endast flygningar i motiverade fall (vetenskaplig forskning, övervakning eller andra förvaltningsändamål) via conaf.cerofilas.gob.cl, och då krävs även tillstånd från DGAC. Antarktis: särskilda föreskrifter från INACH.",
+      "🏔️ RESTRIKTIONSOMRÅDEN: Ingen flygning över La Moneda (zon SC-P28), militära anläggningar, fängelser och strategiska anläggningar, eller i förbjudna områden, restriktionsområden eller farliga områden enligt AIP Chile (ENR 5.1) eller NOTAM.",
+      "💰 GILTIGHETSTIDER: Behörigheten som fjärrpilot gäller i 36 månader och förnyas genom ett nytt prov (minst 75 %); verksamhetstillståndet enligt DAN 151 gäller i upp till 6 månader. Brott mot DGAC:s föreskrifter kan leda till böter, avstängning från verksamhet, beslag av utrustning eller straffrättsligt ansvar om flygsäkerheten äventyras."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Chiles officiella system för flygteknisk information: NOTAM, förbjudna/restriktions-/riskområden (ENR 5), kartor, flygfält"
       },
       {
-        "title": "Registreringsförfarande för RPA (officiell PDF)",
-        "description": "DGAC:s officiella förfarande för nyregistrering och regularisering av drönare (RPA). Inklusive Bilaga B och blanketter"
+        "title": "Drönarregistrering (RPA) – DGAC:s nya plattform",
+        "description": "Onlineregistrering i det nationella RPA-registret enligt DAN 151. Registreringen utgör i sig inget tillstånd att flyga."
       }
     ],
     "secondaryLinks": [

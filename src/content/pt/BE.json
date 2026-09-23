@@ -1,27 +1,29 @@
 {
   "meta": {
-    "sourceHash": "b98ef8dd7e9c6b0c530a3757ad835b367dd07af3c65b9dd744c1512f5f5992cd",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "27f497a74725016dcbdecc01ce23d9050fb7893544b864e9bca529e0be6b134f",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Até 120 m acima do solo (Categoria Aberta EASA)",
-      "Registe-se como operador de UAS se o drone tiver peso igual ou superior a 250 g ou estiver equipado com câmara",
-      "A formação online A1/A3 é obrigatória — idade mínima de 16 anos",
-      "Seguro de responsabilidade civil obrigatório para drones de QUALQUER peso (cobertura de 1 a 2,5 milhões de euros)",
-      "Bruxelas: são necessárias duas autorizações (aprovação federal + regional)",
-      "Mantenha sempre a linha de vista direta (VLOS) do drone",
+      "Na categoria aberta, a altura máxima é de 120 m, medida como a distância ao ponto mais próximo da superfície terrestre — não simplesmente na vertical, pelo que, junto a uma encosta, o terreno ao seu lado também pode contar. A menos de 50 m de um obstáculo artificial alto (com mais de 105 m), o responsável pelo obstáculo pode pedir autorização para voar até 15 m acima da altura do obstáculo.",
+      "Tem de se registar como operador de UAS se o seu drone pesar 250 g ou mais (ou puder transferir mais de 80 J de energia cinética numa colisão) — isto aplica-se também a brinquedos. Abaixo de 250 g, o registo continua a ser obrigatório se o drone tiver um sensor capaz de captar dados pessoais, salvo se for considerado um brinquedo ao abrigo da Diretiva da UE relativa à segurança dos brinquedos. Registe-se no país da UE/EASA onde reside (se residir fora: no primeiro país da UE/EASA onde vai voar); esse registo é válido em todos os países da UE/EASA. Os requisitos de formação/certificado de piloto são definidos separadamente e dependem da classe e da subcategoria do drone.",
+      "Na Bélgica, a idade mínima para as subcategorias A1/A3 é de 14 anos — a formação e o exame online gratuitos são válidos por 5 anos e reconhecidos em toda a UE. Para a subcategoria A2, a idade mínima continua a ser de 16 anos. Exceções ao limite de 14 anos: não há idade mínima para um drone C0 que seja um brinquedo (Diretiva da UE relativa à segurança dos brinquedos) em A1, para um drone de construção privada com menos de 250 g, nem sob a supervisão direta de um piloto com pelo menos 16 anos que possua o certificado exigido.",
+      "O seguro de responsabilidade civil (danos corporais e materiais a terceiros) é obrigatório na categoria aberta, exceto para drones com menos de 900 g utilizados apenas para fins privados. A partir de 20 kg, aplicam-se os requisitos do Regulamento (CE) n.º 785/2004.",
+      "Pilotos estrangeiros: o registo e um certificado A1/A3/A2 de outro Estado-Membro da UE são válidos na Bélgica; leve consigo o comprovativo de registo e afixe o seu número de operador no drone. As zonas geográficas belgas e o requisito belga de seguro (exceto uso privado abaixo de 900 g) também se aplicam a si.",
+      "Bruxelas: na zona geográfica EBR-01 precisa de autorização prévia da instituição em causa para sobrevoar ou voar a menos de 50 m de embaixadas e de instituições federais e internacionais (incluindo as da UE). Consulte também as condições da CTR do Aeroporto de Bruxelas no Droneguide e as regras municipais se quiser descolar ou filmar num espaço público.",
+      "Na categoria aberta, tem de manter o drone dentro da sua própria linha de vista, a olho nu (óculos/lentes de contacto são permitidos; binóculos ou um ecrã não contam) — ou voar com a ajuda de um observador, comunicando ambos de forma clara e eficaz em todos os momentos, para que juntos possam vigiar o espaço aéreo e evitar colisões. O modo «seguir-me» na subcategoria A1 é uma exceção à parte, permitida até 50 m do piloto.",
+      "Drones sem marca de classe (colocados no mercado antes de 2024): abaixo de 250 g em A1, caso contrário apenas em A3 e máx. 25 kg (mín. 150 m de zonas residenciais, comerciais, industriais ou recreativas). Sem marca de classe e colocados no mercado após 31-12-2023: não na categoria aberta.",
       "Não sobrevoe aglomerações de pessoas. As regras aplicáveis a pessoas não envolvidas dependem da subcategoria, da marca de classe e das condições de operação; consulte a matriz oficial.",
-      "Pelo menos 3 km de aeroportos e heliportos",
+      "Não existe uma distância uniforme a aeroportos em toda a UE; a forma e a dimensão das zonas geográficas variam de aeroporto para aeroporto. Numa CTR belga aplicam-se zonas geográficas (ver Droneguide): em VLL 0, em redor das pistas, a categoria aberta é proibida; em VLL 1 e VLL 2, máx. 150 ft (aprox. 45 m) acima do solo (em VLL 1, também não mais alto do que o obstáculo mais alto num raio de 100 m). VLL 1: autorização prévia obrigatória; VLL 2: notifique o voo com pelo menos 3 horas de antecedência. Faça o pedido através do DAA-planner da skeyes; é obrigatório estar contactável por telefone, ter geoconsciência e Remote ID (Remote ID não se aplica a C0 nem a certos drones com menos de 250 g).",
       "O voo noturno é permitido ao abrigo das regras de base da categoria aberta da EASA, desde que seja utilizada a luz verde intermitente exigida, salvo se uma zona geográfica em vigor ou uma regra nacional impuser uma condição mais rigorosa.",
       "Consulte o Droneguide para conhecer os limites de altitude e as restrições específicas de cada zona"
     ],
     "importantNotes": [
-      "Seguro obrigatório para drones de QUALQUER peso — é exigida uma cobertura de 1 a 2,5 milhões de euros",
-      "Bruxelas exige tanto o registo federal COMO a autorização regional",
-      "Três aeroportos (Bruxelas, Charleroi, Liège) estão a estabelecer amplas zonas restritas",
+      "Seguro de responsabilidade civil obrigatório, exceto para uso privado com drones com menos de 900 g",
+      "Bruxelas (zona geográfica EBR-01): sobrevoar ou voar a menos de 50 m de embaixadas, instituições do governo federal e instituições internacionais só com autorização prévia da instituição em causa",
+      "Os aeroportos controlados (Bruxelas, Antuérpia, Charleroi, Liège, Ostende) e os aeródromos militares têm zonas geográficas CTR com condições rigorosas; Kortrijk-Wevelgem tem uma zona geográfica RMZ/TMZ.",
       "As infrações podem dar origem a multas e a ação penal",
       "O RGPD aplica-se à criação de imagens que retratem pessoas identificáveis"
     ],
@@ -45,15 +47,15 @@
     ],
     "secondaryLinks": [
       {
-        "title": "skeyes — Controlo de Tráfego Aéreo",
-        "description": "Controlo de tráfego aéreo belga e informação sobre o espaço aéreo"
+        "title": "skeyes — Drones e zonas geográficas",
+        "description": "Página sobre drones do controlador de tráfego aéreo belga: condições para voar em zonas geográficas e o DAA-planner"
       },
       {
         "title": "BCAA — Perguntas Frequentes sobre Drones",
         "description": "Perguntas frequentes sobre a regulamentação de drones na Bélgica"
       }
     ],
-    "disclaimerText": "Verifique sempre as fontes oficiais da BCAA e o Droneguide antes de voar. Esta aplicação é uma ferramenta — não uma autoridade legal. A Bélgica segue a regulamentação da EASA, que inclui requisitos nacionais rigorosos em matéria de seguro.",
+    "disclaimerText": "Verifique sempre as fontes oficiais da BCAA e o Droneguide antes de voar. Esta aplicação é uma ferramenta — não uma autoridade legal. A Bélgica segue a regulamentação da EASA, complementada por regras nacionais (incluindo seguro obrigatório e zonas geográficas fixas).",
     "sectionLabelRules": "REGRAS PRINCIPAIS (CATEGORIA ABERTA EASA)",
     "sectionLabelPrimary": "FONTES OFICIAIS",
     "sectionLabelSecondary": "RECURSOS ADICIONAIS",

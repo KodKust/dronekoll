@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximale Höhe: 120 m (400 ft) über Grund",
+      "Maximale Höhe: 120 m (400 ft) über Grund (ANAC); Freizeitflüge: nicht mehr als 60 m (200 ft) über Grund (DECEA, ICA 100-40)",
       "Drohnen über 250 g: Registrierung bei SISANT (ANAC) verpflichtend",
-      "Drohnen bis 250 g: von der Registrierung befreit, automatisch zugelassen",
-      "Mindestabstand von 5,4 km zu Flughäfen bei Flügen in niedriger Höhe",
-      "Mindestabstand von 9 km zu Flughäfen bei Flügen bis 120 m",
+      "Drohnen bis 250 g müssen nicht bei SISANT registriert werden (ANAC-Resolution Nr. 806). Seit dem 1. Juli 2026 (ICA 100-40) benötigen Flüge mit diesen Drohnen zudem eine Genehmigung über SARPAS (DECEA). Drohnen über 250 g müssen bei SISANT registriert werden.",
+      "Flugbeschränkungszonen an Flughäfen (FRZ) (ICA 100-40, in Kraft seit 1. Juli 2026): Rund um den Flugplatz (ZEA) beginnt die FRZ bis 1.740 m am Boden; du bleibst unterhalb, wenn du jenseits von 1.740 m bis 100 ft (30 m), jenseits von 2.350 m bis 200 ft (60 m), jenseits von 2.960 m bis 300 ft und jenseits von 3.570 m bis 400 ft fliegst. In den An- und Abflugsektoren (ZAD) beginnt die FRZ bis 3.550 m am Boden; danach: 100 ft jenseits von 3.550 m, 200 ft jenseits von 4.480 m, 300 ft jenseits von 5.400 m und 400 ft jenseits von 6.320 m. Das Fliegen innerhalb der FRZ erfordert einen Termo de Coordenação und einen SARPAS-Antrag mindestens 4 Kalendertage im Voraus.",
+      "Freizeitflüge (ICA 100-40, Art. 32): maximale Höhe 200 ft (60 m) über Grund und maximaler horizontaler Abstand 300 m. In der Nähe von Flugplätzen gelten die FRZ-Bänder – prüfe dies in SARPAS.",
       "Halte die Drohne stets in direkter Sichtverbindung (VLOS)",
-      "Mindestabstand von 30 Metern zu unbeteiligten Personen",
-      "Vor jedem Flug im kontrollierten Luftraum ist eine SARPAS-Genehmigung (DECEA) erforderlich",
+      "Mindestabstand von 30 m zu unbeteiligten Personen",
+      "Jeder Flug erfordert eine Genehmigung für den Luftraumzugang über SARPAS (DECEA), auch mit Drohnen bis 250 g. Mindestvorlauf: 30 Minuten in der Open-Kategorie; 4 oder 8 Kalendertage für Einsätze, die eine FRZ oder Beschränkungsgebiete berühren, BVLOS oder über 400 ft. Freizeitflüge in einem für Freizeitzwecke ausgewiesenen EAC sind ausgenommen.",
       "Die Sendetechnik muss von ANATEL zertifiziert sein",
-      "Nachtflüge erfordern eine gesonderte Genehmigung und eine Antikollisionsbeleuchtung"
+      "Nachtflüge: Die Drohne muss Navigationslichter haben (ICA 100-40, Art. 20)",
+      "Piloten unter 18 müssen stets von einem Piloten über 18 begleitet werden, der für den Einsatz verantwortlich ist",
+      "Nicht zu Freizeitzwecken genutzte Drohnen über 250 g (RBAC Nr. 100): Eine Versicherung für Schäden Dritter ist Pflicht. Das Bestehen der ANAC-Theorieprüfung (RBAC 100.13(b)) entfällt bis zum 31. Dezember 2026 (Resolution Nr. 805/2026, Art. 2)."
     ],
     "importantNotes": [
-      "Touristen: Brasilien ERLAUBT Freizeitflüge, aber Drohnen über 250 g müssen vor dem Flug bei SISANT registriert werden",
-      "Bußgelder der ANAC können bis zu 7.000 R$ pro Verstoß betragen – der Betrieb ohne Registrierung oder SARPAS-Genehmigung ist eine schwere Zuwiderhandlung",
+      "Touristen: Brasilien ERLAUBT Freizeitflüge. Drohnen über 250 g müssen bei SISANT registriert werden (Ausländer können ihren Reisepass verwenden), und Flüge erfordern eine Genehmigung über SARPAS (DECEA), auch mit Drohnen bis 250 g.",
+      "Die Bußgelder der ANAC für Drohnen gehen von Referenzbeträgen zwischen R$ 750 und R$ 4.500 pro Verstoß aus (Betrieb ohne Registrierung: R$ 2.250 – Resolution Nr. 762/2024); je nach mildernden und erschwerenden Umständen kann der Endbetrag zwischen 20 % und 300 % dieses Betrags liegen (Resolution Nr. 761/2024, Art. 35). Fliegen ohne SARPAS-Genehmigung ist ein Verstoß gegen die Luftverkehrsregeln, über den die JJAER entscheidet (ICA 100-40, Art. 66).",
       "In Nationalparks (ICMBio) und indigenen Gebieten (FUNAI) sind Drohnenflüge ohne besondere Genehmigung in der Regel verboten",
       "Für Strände und städtische Touristengebiete (Rio, São Paulo, Salvador) gelten kommunale Beschränkungen – erkundige dich bei den örtlichen Behörden"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS – Fluggenehmigung (DECEA)",
-        "description": "DECEA-System zur Beantragung von Fluggenehmigungen im kontrollierten Luftraum. Vor jedem Flug erforderlich"
+        "description": "DECEA-System zur Beantragung der Genehmigung für den Luftraumzugang, auch für Drohnen bis 250 g. Vor jedem Flug erforderlich"
       },
       {
         "title": "ANATEL – Gerätezertifizierung",
@@ -48,15 +50,15 @@
         "description": "Aktive NOTAMs und offizielle DECEA-Luftfahrtkarten zur Prüfung vorübergehender Beschränkungen"
       },
       {
-        "title": "ANAC – Häufige Fragen zu Drohnen",
-        "description": "Offizielle Antworten der ANAC auf häufige Fragen von Drohnenbetreibern"
+        "title": "ANAC – Häufige Fragen zu SISANT (Drohnenregistrierung)",
+        "description": "Offizielle Antworten der ANAC zur SISANT-Registrierung, auch für Ausländer"
       },
       {
-        "title": "RBAC-E Nr. 94 – Vollständige technische Vorschrift",
-        "description": "Brasilianische Sondervorschrift für die Zivilluftfahrt Nr. 94 – vollständiger, für Drohnen geltender Text"
+        "title": "RBAC Nr. 100 – Vollständige technische Norm",
+        "description": "Brasilianische Zivilluftfahrtvorschrift Nr. 100 (ersetzt RBAC-E Nr. 94) – vollständiger, für Drohnen geltender Text"
       }
     ],
-    "disclaimerText": "Konsultiere vor dem Fliegen stets die offiziellen Quellen von ANAC und DECEA. Diese App ist ein Hilfsmittel, keine rechtliche Instanz. Brasilien wendet RBAC-E Nr. 94 an (derzeit erfolgt die Umstellung auf RBAC Nr. 100). Diese Vorschrift schreibt eine verpflichtende Genehmigung über SARPAS vor.",
+    "disclaimerText": "Konsultiere vor dem Fliegen stets die offiziellen Quellen von ANAC und DECEA. Diese App ist ein Hilfsmittel, keine rechtliche Instanz. Brasilien wendet RBAC Nr. 100 und die Resolution Nr. 806 (ANAC, seit Juni 2026) sowie ICA 100-40 (DECEA, seit Juli 2026) an, mit verpflichtender Genehmigung über SARPAS.",
     "sectionLabelRules": "WICHTIGSTE REGELN",
     "sectionLabelPrimary": "OFFIZIELLE QUELLEN",
     "sectionLabelSecondary": "WEITERE RESSOURCEN",

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ab66a0144761f05a1cfb8f54499fb2e2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -11,19 +11,23 @@
     "sectionLabelPrimary": "SLUŽBENI IZVORI",
     "sectionLabelSecondary": "DODATNI RESURSI",
     "linksSheetTitle": "Zračni prostor i pravila — Hong Kong",
-    "dronePilotCredentialName": "Ovlaštenje pilota SUA-a",
+    "dronePilotCredentialName": "Certifikat daljinskog pilota (standardno / napredno ovlaštenje)",
     "keyRules": [
-      "Najviše 91 m (300 ft) iznad razine tla — niže nego u većini zemalja",
-      "Registracija potrebna za sve dronove teže od 250 g putem portala eSUA",
+      "Najviše 91 m (300 ft) iznad razine tla za dronove kat. A2 (250 g–7 kg) i registrirane izuzete modele do 250 g; neregistrirani dronovi do 250 g: najviše 30 m (100 ft)",
+      "Najveća brzina 50 km/h (kat. A2); neregistrirani dronovi do 250 g najviše 20 km/h",
+      "Dronovi teži od 250 g — i dronovi do 250 g kojima se leti izvan ograničenja kat. A1 — moraju biti registrirani i označeni putem portala eSUA, a daljinski pilot (od 14 godina) mora se također registrirati na eSUA. Vrijedi i za posjetitelje",
       "Ograničenja u blizini zračnih luka u Hong Kongu definirana su kao službeno proglašene zone ograničenog letenja (RFZ) oko HKIA i drugih aerodroma/heliodroma, prikazane na CAD Drone Map — ne postoji jedinstvena fiksna udaljenost. Za letenje unutar RFZ-a potrebna je dozvola CAD-a, a neka su područja (npr. Victoria Harbour) ograničena bez obzira na udaljenost od bilo koje zračne luke.",
-      "Minimalna udaljenost od 50 m od osoba koje nisu uključene",
+      "Zabranjeno je letjeti iznad zabranjenog područja (Prohibition Area) kod Penny's Baya (npr. Hong Kong Disneyland) — utvrđeno je posebnim zakonom i nije obuhvaćeno zonama RFZ na karti CAD Drone Map",
+      "Držite se najmanje 10 m (≤20 km/h) ili 30 m (preko 20 km/h, kat. A2) od neuključenih osoba, vozila, plovila i građevina; nikad ne letite iznad njih",
       "Samo danju — nema noćnog letenja bez posebne dozvole",
       "Područje Victoria Harbour ograničeno je",
       "Uvijek održavajte vidno polje (VLOS)",
+      "Dronovi teži od 250 g moraju imati geosvjesnost i dnevnik letova; dnevnike letova čuvajte 6 mjeseci",
       "Hong Kong ima vlastita pravila — propisi kopnene Kine NE primjenjuju se"
     ],
     "importantNotes": [
-      "Maksimalna visina iznosi samo 91 m (300 ft) — znatno je niža od standarda od 120 m u većini zemalja",
+      "Maksimalna visina iznosi 91 m (300 ft), a za neregistrirane dronove do 250 g samo 30 m (100 ft) — znatno niže od standarda od 120 m u većini zemalja",
+      "Posjetitelji: dronovi teži od 250 g zahtijevaju registraciju drona i pilota na eSUA uz putovnicu (obično vrijedi 6 mjeseci). Oznaka CAD ne može se ispisati i ne šalje se poštom u inozemstvo — preuzmite je u sjedištu CAD-a ili zatražite slanje na adresu u Hong Kongu (npr. u vaš hotel)",
       "Osiguranje NIJE obavezno za standardne operacije kategorije A1 ni za operacije A2 sa standardnim ovlaštenjem. Pokriće od HK$10M primjenjuje se na napredne operacije i dronove kategorije B; novija kategorija C (25-150kg, uvedena 18. srpnja 2025.) zahtijeva HK$15M (25-75kg) ili HK$20M (75-150kg). U vlastitoj tablici zahtjeva CAD navodi da datum početka šire primjene obveznog osiguranja tek treba odrediti — provjerite trenutačni status prije nego što pretpostavite da je osiguranje obavezno za vašu kategoriju.",
       "Hong Kong ima potpuno odvojena pravila od kopnene Kine",
       "Victoria Harbour i okolna područja podliježu ograničenjima letenja",
@@ -46,11 +50,11 @@
     "secondaryLinks": [
       {
         "title": "CAD — Obuka za napredno ovlaštenje",
-        "description": "Obuka za napredno ovlaštenje (Advanced Rating) potrebna za dronove teže od 250 g"
+        "description": "Obuka za napredno ovlaštenje (Advanced Rating) — potrebna samo za napredne operacije"
       },
       {
         "title": "CAD — Zahtjevi za osiguranje",
-        "description": "Obavezni zahtjevi za osiguranje od odgovornosti prema trećima za operacije dronovima"
+        "description": "Osiguranje od odgovornosti prema trećima — obavezno za napredne operacije; još nije na snazi za standardne letove kat. A2"
       }
     ]
   }

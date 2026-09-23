@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Azami yükseklik: yerden 120 m (400 ft)",
+      "Azami yükseklik: 120 m (400 ft) AGL (ANAC); hobi uçuşları: en fazla 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "250 g'dan ağır dronlar: SISANT (ANAC) kaydı zorunludur",
-      "250 g'a kadar olan dronlar: kayıttan muaftır, otomatik olarak lisanslanır",
-      "Alçak irtifa uçuşlarında havalimanlarına en az 5,4 km mesafe",
-      "120 m'ye kadar olan uçuşlarda havalimanlarına en az 9 km mesafe",
+      "250 g'a kadar olan dronların SISANT'a kaydedilmesi gerekmez (ANAC Karar No. 806). 1 Temmuz 2026'dan itibaren (ICA 100-40) bu dronlar için de uçuşlar SARPAS (DECEA) üzerinden izin gerektirir. 250 g'dan ağır dronlar SISANT'a kaydedilmelidir.",
+      "Havalimanı Uçuş Kısıtlama Bölgeleri (FRZ) (ICA 100-40, 1 Temmuz 2026'dan beri yürürlükte): hava meydanının çevresinde (ZEA) FRZ, 1.740 m'ye kadar yer seviyesinden başlar; 1.740 m'nin ötesinde 100 ft'e (30 m), 2.350 m'nin ötesinde 200 ft'e (60 m), 2.960 m'nin ötesinde 300 ft'e ve 3.570 m'nin ötesinde 400 ft'e kadar uçarak FRZ'nin altında kalırsınız. Yaklaşma ve kalkış sektörlerinde (ZAD) FRZ, 3.550 m'ye kadar yer seviyesinden başlar; sonrasında: 3.550 m'nin ötesinde 100 ft, 4.480 m'nin ötesinde 200 ft, 5.400 m'nin ötesinde 300 ft ve 6.320 m'nin ötesinde 400 ft. FRZ içinde uçmak bir Termo de Coordenação ve en az 4 takvim günü önceden bir SARPAS talebi gerektirir.",
+      "Hobi uçuşları (ICA 100-40, madde 32): azami yükseklik 200 ft (60 m) AGL ve azami yatay mesafe 300 m. Hava meydanlarının yakınında FRZ bantları geçerlidir – SARPAS'ta kontrol edin.",
       "Dronu her zaman doğrudan görüş hattınızda (VLOS) tutun",
-      "Operasyona dahil olmayan kişilere en az 30 metre mesafe",
-      "Kontrollü hava sahasında her uçuştan önce SARPAS (DECEA) izni gereklidir",
+      "Operasyona dahil olmayan kişilere en az 30 m mesafe",
+      "250 g'a kadar olan dronlar dahil her uçuş, SARPAS (DECEA) üzerinden hava sahası erişim izni gerektirir. Asgari ön bildirim süresi: açık kategoride 30 dakika; bir FRZ veya kısıtlı alanlarla kesişen, BVLOS ya da 400 ft üzerindeki operasyonlar için 4 veya 8 takvim günü. Hobi için belirlenmiş bir EAC içindeki hobi uçuşları muaftır.",
       "Verici ekipmanı ANATEL tarafından sertifikalandırılmış olmalıdır",
-      "Gece uçuşları özel izin ve çarpışma önleyici aydınlatma gerektirir"
+      "Gece uçuşları: dronda seyrüsefer ışıkları bulunmalıdır (ICA 100-40, madde 20)",
+      "18 yaşından küçük pilotlara her zaman, operasyondan sorumlu 18 yaşından büyük bir pilot eşlik etmelidir",
+      "250 g'dan ağır dronların hobi dışı kullanımı (RBAC No. 100): üçüncü şahıslara verilen zararları kapsayan sigorta zorunludur. ANAC teori sınavını geçme şartı (RBAC 100.13(b)) 31 Aralık 2026'ya kadar uygulanmaz (Karar No. 805/2026, madde 2)."
     ],
     "importantNotes": [
-      "Turistler: Brezilya hobi amaçlı uçuşlara İZİN VERİR, ancak 250 g'dan ağır dronlar uçuştan önce SISANT'a kaydedilmelidir",
-      "ANAC tarafından uygulanan para cezaları ihlal başına 7.000 R$'a ulaşabilir — kayıt veya SARPAS izni olmadan uçmak ciddi bir suçtur",
+      "Turistler: Brezilya hobi amaçlı uçuşlara İZİN VERİR. 250 g'dan ağır dronlar SISANT'a kaydedilmelidir (yabancılar pasaportlarını kullanabilir) ve 250 g'a kadar olan dronlar dahil uçuşlar SARPAS (DECEA) izni gerektirir.",
+      "ANAC'ın dron para cezaları ihlal başına R$ 750 ile R$ 4.500 arasındaki referans tutarlardan başlar (kayıtsız operasyon: R$ 2.250 – Karar No. 762/2024); hafifletici ve ağırlaştırıcı etkenlere bağlı olarak nihai tutar bu tutarın %20'si ile %300'ü arasında değişebilir (Karar No. 761/2024, madde 35). SARPAS izni olmadan uçmak, JJAER tarafından yargılanan bir hava trafiği ihlalidir (ICA 100-40, madde 66).",
       "Ulusal parklar (ICMBio) ve yerli toplulukların yaşadığı bölgeler (FUNAI), özel izin olmadan dron kullanımını genellikle yasaklar",
       "Plajlar ve kentsel turistik alanlar (Rio, São Paulo, Salvador) belediye kısıtlamalarına tabidir — yerel yetkililere danışın"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — Uçuş İzni (DECEA)",
-        "description": "Kontrollü hava sahasında uçuş izni talep etmek için DECEA sistemi. Her uçuştan önce gereklidir"
+        "description": "250 g'a kadar olan dronlar dahil, hava sahası erişim izni talep etmek için DECEA sistemi. Her uçuştan önce gereklidir"
       },
       {
         "title": "ANATEL — Ekipman Sertifikasyonu",
@@ -48,15 +50,15 @@
         "description": "Geçici kısıtlamaları kontrol etmek için aktif NOTAM'lar ve resmî DECEA havacılık haritaları"
       },
       {
-        "title": "ANAC — Dronlar Hakkında Sıkça Sorulan Sorular",
-        "description": "ANAC'ın dron operatörlerinden gelen yaygın sorulara resmî yanıtları"
+        "title": "ANAC — SISANT hakkında sıkça sorulan sorular (dron kaydı)",
+        "description": "ANAC'ın yabancılar dahil SISANT kaydı hakkındaki resmî yanıtları"
       },
       {
-        "title": "RBAC-E No. 94 — Eksiksiz Teknik Standart",
-        "description": "Özel Brezilya Sivil Havacılık Yönetmeliği No. 94 — dronlara uygulanan tam metin"
+        "title": "RBAC No. 100 — Tam teknik standart",
+        "description": "Brezilya Sivil Havacılık Yönetmeliği No. 100 (RBAC-E No. 94'ün yerini alır) — dronlara uygulanan tam metin"
       }
     ],
-    "disclaimerText": "Uçmadan önce her zaman ANAC ve DECEA'nın resmî kaynaklarına danışın. Bu uygulama bir araçtır, yasal bir merci değildir. Brezilya, SARPAS aracılığıyla zorunlu onay gerektiren RBAC-E No. 94'ü (şu anda RBAC No. 100'e geçiş sürecinde) uygular.",
+    "disclaimerText": "Uçmadan önce her zaman ANAC ve DECEA'nın resmî kaynaklarına danışın. Bu uygulama bir araçtır, yasal bir merci değildir. Brezilya, SARPAS üzerinden zorunlu izinle birlikte RBAC No. 100 ve Karar No. 806'yı (ANAC, Haziran 2026'dan itibaren) ve ICA 100-40'ı (DECEA, Temmuz 2026'dan itibaren) uygular.",
     "sectionLabelRules": "ANA KURALLAR",
     "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
     "sectionLabelSecondary": "EK KAYNAKLAR",

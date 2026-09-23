@@ -1,37 +1,41 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Un máximo de 120 m sobre el nivel del suelo (categoría abierta de EASA)",
-      "Registro como operador de UAS (gratuito) para drones de 250 g o más o equipados con cámara",
-      "Formación en línea A1/A3 requerida; edad mínima 16 años",
-      "Los vuelos en el CTR y la ATZ de los aeropuertos solo se permiten previa coordinación con el control de tráfico aéreo o el operador del aeropuerto",
-      "Volar sobre autopistas y carreteras principales está restringido; evítalas",
-      "Mantén siempre el contacto visual directo (VLOS) con el dron",
+      "En la categoría abierta, la altura máxima es de 120 m, medida como la distancia al punto más cercano de la superficie terrestre, no simplemente en vertical hacia abajo, de modo que cerca de una pendiente también puede contar el terreno que tienes al lado. A menos de 50 m de un obstáculo artificial alto (de más de 105 m), el responsable del obstáculo puede solicitar permiso para volar hasta 15 m por encima de la altura del obstáculo.",
+      "Debes registrarte como operador de drones si tu dron pesa 250 g o más (o puede transmitir más de 80 J de energía cinética en un impacto); esto también se aplica a los juguetes. Por debajo de 250 g, el registro sigue siendo obligatorio si el dron tiene un sensor capaz de captar datos personales, salvo que se considere un juguete según la Directiva de la UE sobre la seguridad de los juguetes. Los requisitos de formación/licencia de piloto son independientes y dependen de la clase y la subcategoría del dron.",
+      "La edad mínima para volar por tu cuenta en la categoría abierta es de 16 años; la formación y el examen en línea A1/A3 son válidos durante 5 años y están reconocidos en toda la UE. Sin límite de edad: un dron de clase C0 que sea un juguete, en la subcategoría A1, o un dron de construcción privada de menos de 250 g; en los demás casos, los pilotos más jóvenes solo pueden volar bajo la supervisión directa de un piloto que cumpla los requisitos de edad y formación.",
+      "Turistas: el registro de operador y un certificado A1/A3 de otro país de la UE/EASA también son válidos en la República Checa (solo puedes registrarte en un país). Fuera de la UE: regístrate en el primer país de la UE/EASA donde vayas a volar (en la República Checa, ante la ÚCL en dron.caa.gov.cz) y, si tu dron requiere formación, complétala según las normas de la UE; los certificados de países de fuera de la UE no se reconocen.",
+      "En la República Checa, el seguro de responsabilidad civil es obligatorio en la subcategoría A2 y en A3 para drones de más de 4 kg (no en A1); comprueba que tu póliza cubra los vuelos en la República Checa.",
+      "En las CTR y ATZ de los aeropuertos puedes volar sin coordinación solo hasta la altura fijada por la cuadrícula (consúltala en DroneMap). Más alto, solo tras coordinarlo con ŘLP y con el vuelo marcado en DroneMap; en la zona interior de una CTR, el vuelo debe marcarse siempre en DroneMap y, por encima de la altura de la cuadrícula, también se requiere coordinación con el operador del aeropuerto. En los aeropuertos militares (MCTR) se aplican condiciones más estrictas. En los aeropuertos no controlados, por encima de la altura de la cuadrícula solo tras coordinarlo con el AFIS o el operador del aeropuerto. El marcado en DroneMap no se aplica a los drones que no requieren registro.",
+      "En zonas densamente pobladas (zona LKR316), el área de vuelo debe marcarse de antemano en DroneMap (dronemap.gov.cz). El marcado (aquí, igual que en las CTR y en las áreas naturales protegidas) debe incluir la altura, la hora, el tipo y la categoría de peso del dron, y el número de registro del operador. No se aplica a los drones para los que no se requiere el registro de operador.",
+      "Parques nacionales, áreas paisajísticas protegidas (CHKO) y áreas protegidas de pequeña extensión, p. ej., reservas naturales (zona LKR318): vuelos solo previa notificación a la autoridad competente de conservación de la naturaleza, o con su permiso, y con el área de vuelo marcada en DroneMap. No se aplica a los drones para los que no se requiere el registro de operador.",
+      "Carreteras (zona LKR317): por regla general, a menos de 50 m del eje de una autopista o de una carretera de clase I solo con el consentimiento de ŘSD; por regla general, a menos de 15 m del eje de las carreteras de clase II y III solo con el consentimiento del propietario o gestor de la carretera (lo mismo para las vías locales fuera de zonas densamente pobladas). El área de vuelo debe marcarse en DroneMap; no se aplica a los drones para los que no se requiere el registro de operador.",
+      "En la categoría abierta debes mantener el dron dentro de tu propio campo de visión directo, a simple vista (las gafas o lentes de contacto están permitidas; los prismáticos o una pantalla no cuentan), o con la ayuda de un observador, manteniendo entre ambos una comunicación clara y eficaz en todo momento, para vigilar juntos el espacio aéreo y evitar colisiones. El modo «Follow-me» es una excepción aparte solo en la subcategoría A1, permitida a menos de 50 m del piloto.",
       "No vueles sobre concentraciones de personas. Las normas para las personas no implicadas dependen de la subcategoría, la marca de clase y las condiciones operativas; consulta la matriz oficial.",
       "Los vuelos nocturnos están permitidos según los requisitos básicos de la categoría abierta de la EASA cuando se utiliza la luz verde intermitente exigida, salvo que una norma nacional o de zona geográfica vigente imponga una condición más estricta.",
-      "Multas de hasta 5.000.000 CZK (≈ 185.000 €) por infracciones",
-      "Castillo de Praga y edificios gubernamentales: zonas de exclusión aérea estrictas"
+      "Multas de hasta 3.000.000 CZK (≈ 120.000 €) por infracciones",
+      "Castillo de Praga y edificios gubernamentales: zonas de exclusión aérea absoluta"
     ],
     "importantNotes": [
-      "Los vuelos dentro de los CTR y las ATZ de los aeropuertos requieren coordinación con el control de tráfico aéreo o el operador del aeropuerto",
-      "El sobrevuelo de autopistas y carreteras principales está restringido en la República Checa; planifica tu ruta para evitarlas",
-      "Multas de hasta 5.000.000 CZK (≈ 185.000 €)",
+      "En las CTR y ATZ de los aeropuertos, sin coordinación solo hasta la altura fijada por la cuadrícula (consúltala en DroneMap); más alto, solo tras coordinarlo (en una CTR, con ŘLP; en aeropuertos no controlados, con el AFIS o el operador del aeropuerto) y con el vuelo marcado en DroneMap; en la zona interior de una CTR, el marcado es siempre obligatorio",
+      "Carreteras (zona LKR317): en autopistas y carreteras de clase I, por regla general a menos de 50 m del eje solo con el consentimiento de ŘSD; en carreteras de clase II y III, por regla general a menos de 15 m del eje solo con el consentimiento del propietario o gestor de la carretera",
+      "Multas de hasta 3.000.000 CZK (≈ 120.000 €)",
       "La zona del Castillo de Praga tiene estrictas restricciones de exclusión aérea",
       "El RGPD se aplica a la recopilación de imágenes de personas identificables"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Normativa de drones",
+        "title": "ÚCL — Normativa de drones",
         "description": "Reglas y recursos oficiales de la Autoridad de Aviación Civil sobre drones"
       },
       {
-        "title": "CAA — Registro de operador",
+        "title": "ÚCL — Registro de operador",
         "description": "Registro gratuito como operador de UAS (válido en todos los países de la UE/EASA)"
       },
       {
@@ -39,17 +43,17 @@
         "description": "Mapa interactivo oficial que muestra las zonas de drones y las restricciones del espacio aéreo"
       },
       {
-        "title": "CAA — Resumen de las reglas",
+        "title": "ÚCL — Resumen de las reglas",
         "description": "Resumen de las reglas para volar drones en la República Checa"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Control de tráfico aéreo — NOTAM y espacio aéreo",
+        "title": "ŘLP — NOTAM y espacio aéreo",
         "description": "Control de tráfico aéreo checo e información sobre el espacio aéreo"
       },
       {
-        "title": "CAA — Preguntas frecuentes sobre drones",
+        "title": "ÚCL — Preguntas frecuentes sobre drones",
         "description": "Preguntas frecuentes sobre la normativa de drones en la República Checa"
       }
     ],
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "FUENTES OFICIALES",
     "sectionLabelSecondary": "RECURSOS ADICIONALES",
     "linksSheetTitle": "Espacio aéreo y normativa — República Checa",
-    "dronePilotCredentialName": "Licencia de piloto de dron"
+    "dronePilotCredentialName": "Certificado de formación A1/A3"
   }
 }

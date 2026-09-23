@@ -1,34 +1,39 @@
 {
   "meta": {
-    "sourceHash": "cd8a26ec06fe6fce166e7bf3de181ffab5c36b7b3c6007a64f6e67ae3c10ef12",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "8e19b8ef08eacce878876a6b70061b85975b67e81f34fce0c591ea4492f2566c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Droner, der vejer ≥250 g (0,55 lb): obligatorisk registrering hos IDAC via Vuela Seguro (RAD-48)",
-      "Droner, der vejer mere end 2 kg (4,4 lb): Ud over registrering kræves en særlig IDAC-tilladelse",
-      "Mindst 9 km (5 sømil) fra lufthavne og flyvepladser",
+      "Obligatorisk registrering hos IDAC via Vuela Seguro: RAD 48 (ændring gældende siden 21/02/2025) kræver det fra 0,20 kg (0,44 lb); Vuela Seguro-vejledningen angiver stadig 0,25 kg (0,55 lb) — bekræft med IDAC, hvis din drone vejer 200–249 g",
+      "Droner >250 g (0,55 lb): fjernpilotlicens eller -certifikat fra IDAC påkrævet, også ved rekreativ brug (mindst 18 år, RAD 107.23)",
+      "Rekreative flyvninger: IDAC (Vuela Seguro-vejledningen) kræver en ansøgning om tilladelse på formular 1500-9 (licens/certifikat, registrering, forsikring hvis relevant og kort med koordinater) mindst 5 arbejdsdage før operationen; forventet sagsbehandlingstid 15 arbejdsdage",
+      "Mindst 9 km (5 sømil) fra lufthavne og flyvepladser uden tilladelse fra IDAC.",
+      "Uden for luftrumsklasse G (f.eks. lufthavnes kontrolzoner) kræves forudgående tilladelse fra IDAC og koordinering med ATC (RAD 107.57)",
       "Flyvning er kun tilladt i dagslys — natflyvning kræver en specifik IDAC-tilladelse",
       "Hold altid dronen inden for synsvidde (VLOS)",
-      "OBLIGATORISK ansvarsforsikring (RAD-107)",
-      "Forbudszone: National Palace, Ministry of Defense, San Isidro Air Base",
-      "FLYVEFORBUDSZONE: Dominican Oil Refinery, Las Calderas Naval Base, militære kommandoposter",
-      "Kommerciel drift: fjernpilotcertifikat + yderligere driftstilladelse",
-      "Forstyr ikke lufttrafikken i lufthavnes ind- og udflyvningsmønstre"
+      "Maksimal højde 400 ft (122 m) over jorden (RAD 107.67); det er forbudt at flyve over uvedkommende personer uden forudgående tilladelse fra IDAC (RAD 107.55)",
+      "Det er forbudt at flyve fra et køretøj eller fartøj i bevægelse uden tilladelse fra IDAC, undtagen over tyndt befolkede områder (RAD 107.39)",
+      "OBLIGATORISK ansvarsforsikring over for tredjemand (RAD 48.19 og RAD 107.69; ved rekreativ brug mellem 0,25 og 2 kg accepterer RAD 107.69 en erklæring på tro og love om solidarisk ansvar (Declaración Jurada de Responsabilidad Solidaria))",
+      "Droner >2 kg (4,4 lb): ansvarsforsikring påkrævet også ved rekreativ brug (mindst USD 2.000, RAD 107.69; RAD 48.19 kræver mindst USD 5.000 over 4,5 kg)",
+      "Overflyvning er FORBUDT: National Palace, Ministry of Defense, San Isidro Air Base",
+      "Overflyvning er FORBUDT: Dominican Oil Refinery, Las Calderas Naval Base, militære kommandoposter",
+      "Kommerciel operation: fjernpilotlicens fra IDAC + tilladelse (formular 1500-9). Udenlandske statsborgere: kun hvis de er ansat af en dominikansk virksomhed",
+      "Forstyr ikke lufttrafikken i flyvepladsers landings- og startmønstre"
     ],
     "importantNotes": [
       "📋 JURIDISK RAMME: Droneoperationer reguleres af Civil Aviation Law 491-06 + RAD-107 (system for små ubemandede luftfartøjer) + RAD-48 (registrering og mærkning). IDAC (Dominican Civil Aviation Institute) er den kompetente myndighed.",
-      "✈️ UDENLANDSKE TURISTER: Disse regler gælder også for ikke-bosiddende. Droner, der vejer ≥250 g, skal registreres før brug. Ved rekreativ brug af droner, der vejer ≤250 g (DJI Mini, Flip), kræves der ingen registrering, men alle andre regler gælder. Dokumentation anbefales ved indrejse i landet.",
+      "✈️ UDENLANDSKE TURISTER: Disse regler gælder for ikke-bosiddende. Før du flyver, skal du ansøge IDAC om tilladelse på formular 1500-9 (mindst 5 arbejdsdage i forvejen; forventet sagsbehandlingstid 15 arbejdsdage) og vedlægge din licens/dit certifikat, registrering, forsikring hvis relevant og et kort med koordinater. Hvis dit land ikke kræver licens/registrering på grund af dronens vægt, skal du vedlægge den pågældende del af dine nationale regler og en kopi af dit ID. Registrering: RAD 48 kræver det fra 0,20 kg (Vuela Seguro-vejledningen angiver 0,25 kg); for droner på 200–249 g (f.eks. DJI Mini, Flip) skal du bekræfte med IDAC. Selv hvis registrering ikke er påkrævet, gælder alle øvrige regler. Kommerciel brug: kun hvis du er ansat af en dominikansk virksomhed, der ansøger om det.",
       "🏖️ PUNTA CANA OG KYSTNÆRE TURISTOMRÅDER: Lufthavnene PUJ (Punta Cana), SDQ (Las Américas) og STI (Santiago) har en eksklusionszone på 9 km. Saona, Catalina, Bayahibe, Las Galeras: Mange strande og resorts har yderligere restriktioner — tjek med dit hotel eller din turoperatør, før du flyver.",
-      "🌳 BESKYTTEDE OMRÅDER: Nationalparkerne Los Haitises, del Este (Saona), Sierra de Bahoruco, Jaragua og Lago Enriquillo kræver en særlig tilladelse fra Ministry of the Environment. Samaná Bay (hvalsafari, jan.–mar.): Der er yderligere restriktioner for at undgå at forstyrre dyrelivet.",
-      "🏛️ OMRÅDER MED PERMANENTE RESTRIKTIONER: National Palace (Santo Domingo), Ministry of Defense, alle militærbaser (San Isidro, Las Calderas) og Dominican Oil Refinery. Colonial Zone (UNESCO-verdensarvsted i Santo Domingo) har midlertidige restriktioner — tjek på forhånd."
+      "🌳 BESKYTTEDE OMRÅDER: Før du flyver i nationalparker (Los Haitises, del Este/Saona, Sierra de Bahoruco, Jaragua, Lago Enriquillo), skal du tjekke med miljøministeriet; der kan kræves tilladelse. Respektér dyrelivet — hvaler i Samaná (jan.–mar.).",
+      "🏛️ PERMANENTE FLYVEFORBUDSZONER: National Palace (Santo Domingo), Ministry of Defense, alle militærbaser (San Isidro, Las Calderas) og Dominican Oil Refinery. Colonial Zone (UNESCO-verdensarvsted i Santo Domingo) har midlertidige restriktioner — tjek på forhånd."
     ],
     "primaryLinks": [
       {
-        "title": "IDAC — Flyv sikkert (officiel droneportal)",
-        "description": "Officiel hjemmeside for det dominikanske civilluftfartsinstitut for droneoperatører. Indeholder en omfattende vejledning, RAD-107/48-forordningerne, registreringskrav og restriktionsbelagte områder"
+        "title": "IDAC — Vuela Seguro (officiel droneportal)",
+        "description": "Officiel hjemmeside fra Dominican Civil Aviation Institute for droneoperatører. Indeholder en omfattende vejledning, RAD-107/48-reglerne, registreringskrav og restriktionsområder"
       },
       {
         "title": "Registreringskrav og -procedure",
@@ -45,16 +50,16 @@
     ],
     "secondaryLinks": [
       {
-        "title": "IDAC — DTAC (afdelingen for civil luftfart)",
-        "description": "Officiel e-mailadresse til registrering og forespørgsler: DTAC@idac.gov.do. For operatører af droner, der vejer mere end 2 kg, eller til kommerciel brug anbefales direkte kontakt."
+        "title": "IDAC — DTAC (afdelingen for civil lufttransport)",
+        "description": "Officiel e-mail til at starte registreringsprocedurer og til henvendelser: DTAC@idac.gov.do. Ved kommerciel brug anbefales direkte kontakt"
       },
       {
-        "title": "Civilluftfartslov nr. 491-06",
-        "description": "Generel juridisk ramme for al dominikansk civil luftfart, inklusive ubemandede luftfartøjer. Grundlaget for RAD-bestemmelserne"
+        "title": "Civil Aviation Law 491-06",
+        "description": "IDAC's side om love: Civil Aviation Law 491-06 og Law 17-24, som ændrer den. Generel juridisk ramme for al dominikansk civil luftfart, herunder ubemandede luftfartøjer. Grundlaget for RAD-reglerne"
       },
       {
         "title": "Miljøministeriet — Beskyttede områder",
-        "description": "For beskyttede områder såsom Los Haitises Nationalpark, Del Este Nationalpark (Saona) og Samanábugten: en specifik tilladelse er påkrævet, før man flyver med droner"
+        "description": "For beskyttede områder såsom Los Haitises Nationalpark, Del Este Nationalpark (Saona) og Samanábugten: tjek med ministeriet, før du flyver med droner; der kan kræves tilladelse"
       }
     ],
     "disclaimerText": "Tjek altid IDAC's officielle kilder, før du flyver. Denne app er et værktøj, ikke en juridisk myndighed. Den Dominikanske Republik håndhæver Civil Aviation Law 491-06 sammen med Regulations RAD-107 (sUAS-operationer) og RAD-48 (registrering). Den officielle hjemmeside er Vuela Seguro (idac.gob.do/drone).",

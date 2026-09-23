@@ -1,41 +1,43 @@
 {
   "meta": {
-    "sourceHash": "965aaa2f6c885d898cf7ee6ff9907d07afe1d10c3a57077ecae02dbc001de716",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ab41c1c6a873ddfc4cf87129700fea1004f13537f36d6d678dee51194176fb4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimaalne lennukõrgus: 120 meetrit (400 ft) maapinnast",
-      "Sinu droon peab alati jääma otsenähtavusse (VLOS)",
-      "Ainult päevased lennud — öölendudeks on vaja eraldi luba",
-      "Vähemalt 9 km kaugusel kõigist lennujaamadest (sh Istanbul IST ja Sabiha Gökçen SAW)",
-      "Teistest inimestest tuleb hoida vähemalt 50 meetri suurust horisontaalset vahemaad",
-      "Kõik üle 500 g kaaluvad droonid tuleb registreerida aadressil iha.shgm.gov.tr",
-      "Lendamine on keelatud ajaloolistes piirkondades (Hagia Sophia, Topkapı, Sultanahmet) ja Bosphorus koridoris",
-      "Lendamine sõjaväetsoonide, valitsushoonete ja rahvarohkete ürituste kohal on rangelt keelatud",
-      "Välispiloodid peavad üle 500 g kaaluvate droonide kasutamiseks esitama taotluse diplomaatiliste kanalite kaudu",
-      "FPV-lend on ilma eraldi loata keelatud"
+      "Maksimaalne lennukõrgus on 120 m (400 ft); P0/P1 lendudel tuleb UAV-d hoida otseses nähtavuses (VLOS) ja see ei tohi piloodist kaugemale minna kui 3 000 m. Kõrgemal kui 120 m lendamine on võimalik ainult P2 litsentsiga ja kooskõlastatult asjaomaste asutustega.",
+      "Pead hoidma oma UAV-d alati oma nähtavuses, otseses visuaalses kontaktis ilma optiliste või elektrooniliste abivahenditeta (SHT-İHA).",
+      "Amatöör- (P0) lende tohib teha ainult päeval; öised käitamised on võimalikud P1 või P2 litsentsi ja sobiva varustusega (SHT-İHA art 15). Üleminekuperioodil (kuni 31. juulini 2027) hangi öölendudeks SHGM luba.",
+      "Enne lennujaamade lähedal lendamist kontrolli kaarti aadressil iha.shgm.gov.tr (hiljem İHATTYS); lennud kõigis kohtades väljaspool rohelisi tsoone nõuavad SHGM luba. Uus SHT-İHA ei määra kindlat kaugust; ohutu minimaalse kaugusena tuleks hoida eelmise direktiivi 9 km (5 NM).",
+      "Rahvahulkade kohal lendamine loetakse kõrge riskiga käitamiseks; see on P0 ja P1 pilootidele suletud ning seda tohib teha ainult P2 litsentsi alusel (SHT-İHA art 6). Uus direktiiv ei määra kindlat kaugust; ohutu miinimumina on soovitatav hoida inimestest ja rajatistest vähemalt 50 m kaugusele (eelmise direktiivi väärtus).",
+      "Uus SHT-İHA (2026): välja arvatud mänguasjatasemel lihtsad UAV-d (Simple UAV), peavad kõik UAV kasutajad, sealhulgas alla 500 g droonide omanikud, registreeruma İHATTYS-es; olemasolevate õhusõidukite tähtaeg on 31. juuli 2027. Kuni İHATTYS käivitub, registreeritakse 500 g ja raskemad UAV-d aadressil iha.shgm.gov.tr.",
+      "Uue SHT-İHA kohaselt on lennuõigus seotud piloodilitsentsiga: amatöör P0 (vanuse alampiir 10 aastat), äriline P1 (vanus 18), edasijõudnud P2; lihtsate UAV-de (Simple UAV) jaoks litsentsi vaja ei ole. Üleminekuperioodil (kuni 31. juulini 2027) jäävad olemasolevad İHA0/İHA1 sertifikaadid ja İHA2/İHA3 litsentsid kehtima ning need konverteeritakse kohandamise kaudu P0/P1/P2-ks.",
+      "Kaugtuvastus (Remote ID) ja geopiiramine on kohustuslikud kõigile UAV-dele peale lihtsate UAV-de (Simple UAV); sina vastutad ajakohaste piirangutsoonide andmete laadimise eest oma UAV-sse (SHT-İHA art 12, 23; olemasolevatele UAV-dele üleminek kuni 31. juulini 2027).",
+      "Enne lendamist Istanbuli ajaloolisel poolsaarel (Hagia Sophia, Topkapı, Sultanahmet) ja Bosporuse ümbruses kontrolli kaarti aadressil iha.shgm.gov.tr; lennud kõigis kohtades väljaspool rohelisi tsoone nõuavad SHGM luba ning punastes tsoonides antakse luba ainult ala sulgenud asutuse heakskiidul.",
+      "Lendamine sõjaväetsoonide ja valitsushoonete kohal on rangelt keelatud; tihedalt asustatud alade kohal lendamine nõuab SHGM eelnevat luba.",
+      "Välismaa piloodid, kes kasutavad 500 grammi või raskemaid UAV-sid, peavad esitama taotluse diplomaatiliste kanalite kaudu vähemalt 20 tööpäeva ette vormil FR.23 „İHA Uçuş İzin Talep Formu” (UAV lennuloa taotluse vorm).",
+      "FPV-lendudel peab kohal olema vaatleja, kes hoiab UAV-d pidevas visuaalses kontaktis, ning piloodi ja vaatleja vahel tuleb hoida pidevat sidet; FPV-varustus peab töötama BTK lubatud sagedustel (SHGM KKK). Uus SHT-İHA määratleb otsese nähtavuse (VLOS) kui otsese visuaalse kontakti ilma optiliste/elektrooniliste abivahenditeta — konsulteeri enne FPV-lendu SHGM-iga."
     ],
     "importantNotes": [
-      "⚠️ VÄLISPILOODID: Üle 500 grammi kaaluva drooni kasutamiseks Türgis pead esitama General Directorate of Civil Aviation (SHGM) asutusele taotluse diplomaatiliste kanalite kaudu vähemalt 20 tööpäeva enne lendu, hankima kindlustuse ja lendama İHA-2 litsentsi omava Türgi kodaniku järelevalve all. Alla 500 g kaaluvad droonid (nagu DJI Mini, Flip jt) on nendest nõuetest vabastatud.",
-      "🗺️ TSOONISÜSTEEM: Türgi on jagatud roheliseks (avatud), kollaseks (luba nõutav) ja punaseks (keelatud) tsooniks. Kontrolli enne lendu kindlasti tsooni staatust aadressil iha.shgm.gov.tr.",
-      "🏛️ AJALOOLISED JA TURISTLIKUD KOHAD: Lendamine Historic Peninsula of Istanbul kohal (Sultanahmet, Hagia Sophia, Topkapı, Grand Bazaar), teatud Cappadocia orgude, Pamukkale, Ephesus ja teiste arheoloogiliste paikade kohal on ilma Ministry of Culture and Tourism eriloata keelatud.",
-      "🛂 IMPORT JA TOLL: Kui sisened Türki üle 500 g kaaluvate droonidega, võidakse sinult nõuda nende deklareerimist tollis. Äriliseks impordiks on vaja eraldi menetlust; Bosphorus, sõjaväesadamates ja piirialadel kehtivad täiendavad piirangud."
+      "🛂 VÄLISMAA PILOODID — UUS SHT-İHA (30. juuli 2026): välismaalt toodud UAV-del peab olema SHGM vastavustarkvara moodul; ilma moodulita ei saa õhusõidukit Türgis registreerida ega sellega lennata. Välisriigis registreeritud UAV-d peavad ühilduma İHATTYS-ega; välisriigi litsentse hindab SHGM ning P1/P2 väljastatakse pärast erinevuste koolitust. Enne 30. juulit 2026 soetatud UAV-de puhul kestab vastavusse viimise periood 31. juulini 2027. Kuni İHATTYS käivitub, esitatakse 500 g ja raskemate UAV-de taotlused SHGM-ile vormil FR.23 diplomaatiliste kanalite kaudu vähemalt 20 tööpäeva ette.",
+      "🗺️ TSOONISÜSTEEM: uue SHT-İHA (30. juuli 2026) kohaselt avaldatakse tsoonid İHATTYS-e kaardil rohelisena (luba pole vaja), punasena (asjaomase asutuse poolt suletud; ainult selle asutuse heakskiidu, SHGM loa ja NOTAM-iga) ja oranžina (eraldatud teistele). Kuni İHATTYS käivitub, kasutatakse iha.shgm.gov.tr kaarti (roheline/kollane/punane). Mõlemas süsteemis nõuavad lennud kõigis kohtades väljaspool rohelisi tsoone SHGM luba. Kontrolli enne lendamist alati kaarti.",
+      "🏛️ AJALOOLISED JA TURISMIOBJEKTID: video-/filmi-/fotovõtted muuseumides ja muuseumidega seotud objektidel nõuavad Kultuuri- ja Turismiministeeriumi luba; UAV lennupiirangute osas kontrolli ka kaarti aadressil iha.shgm.gov.tr.",
+      "🛂 VÄLISMAALT TOODUD UAV-D: 500 g ja raskemad UAV-d tuleb registreerida aadressil iha.shgm.gov.tr hiljemalt 3 päeva jooksul pärast Türki toomist (seadus nr 2920, art 144). Välismaalased vajavad spordi-/amatöörkasutuseks registreerumiseks Türgi isikukoodi või elamisluba. Sisenemisel võidakse tollis nõuda deklaratsiooni; ärilisel eesmärgil sissevedu nõuab eraldi menetlust. Sõjaväesadamates ja piirialadel kehtivad lisapiirangud."
     ],
     "primaryLinks": [
       {
-        "title": "SHGM — Mehitamata õhusõiduk (ametlik veebisait)",
-        "description": "Tsiviillennunduse Peadirektoraadi ametlik droonileht: SHT-UAV direktiiv, kaaluklassid (UAV-0/1/2/3) ja käitamisreeglid"
+        "title": "SHGM — İHA Takip / İHATTYS (ametlik portaal)",
+        "description": "Tsiviillennunduse Peadirektoraadi ametlik UAV portaal (İHATTYS). Kuni SHGM teatab süsteemi käivitumisest, tehakse registreerimis- ja lennuloa menetlused olemasolevate meetoditega (iha.shgm.gov.tr ja SHGM vormid)."
       },
       {
-        "title": "Droonide registreerimissüsteem (nõutav 500 g ja raskematele droonidele)",
-        "description": "Kohustuslik registreerimisportaal kõigile üle 500 grammi kaaluvatele droonidele. Nõuab Türgi isikukoodi; vorm FR-03 kehtib välisriigi kodanikele"
+        "title": "UAV registreerimissüsteem (kohustuslik üle 500 g)",
+        "description": "Kohustuslik registreerimisportaal kõigile üle 500 grammi kaaluvatele droonidele. Nõuab Türgi isikukoodi; välisriigi kodanikele kehtib vorm FR-03"
       },
       {
-        "title": "Drooni piloodi registreerimistaotlus (e-riik)",
-        "description": "Ametlik teenus e-riigi kaudu piloodi registreerimistaotlusteks UAV-1 ja kõrgemale. Ärilisteks operatsioonideks on vajalik piloodilitsents."
+        "title": "UAV piloodi registreerimistaotlus (e-Devlet)",
+        "description": "Ametlik teenus e-Devleti (e-valitsus) kaudu İHA-1 ja kõrgema taseme piloodi registreerimistaotluste jaoks. Äriliseks käitamiseks on nõutav piloodilitsents."
       },
       {
         "title": "Lennuloa taotlus (kollased/punased tsoonid)",
@@ -44,23 +46,27 @@
     ],
     "secondaryLinks": [
       {
-        "title": "Droonijälgimine — ametlik mobiilirakendus (Android)",
-        "description": "SHGM-i ametlik droonijälgimise rakendus: õhuruumi tsoonid, lennuload ja piloodilitsentsi haldus"
+        "title": "İHA Takip — Ametlik mobiilirakendus (Android)",
+        "description": "SHGM ametlik rakendus İHA Takip / İHATTYS. Kuni SHGM teatab İHATTYS-e käivitumisest, tehakse registreerimis- ja lennuloa menetlused olemasolevate meetoditega (iha.shgm.gov.tr ja SHGM vormid)."
+      },
+      {
+        "title": "İHATTYS — Ametlik mobiilirakendus (iOS)",
+        "description": "SHGM ametliku rakenduse İHATTYS iOS-versioon; rakenduses tehtud toimingud ei kehti enne, kui SHGM on teinud vajaliku teadaande"
       },
       {
         "title": "SHGM — Ettevõtte koduleht",
         "description": "Tsiviillennunduse Peadirektoraadi koduleht: kõik lennundusmäärused, teadaanded ja kontaktandmed"
       },
       {
-        "title": "SHT-UAV direktiiv (määruse tekst)",
-        "description": "Tsiviillennunduse direktiiv — mehitamata õhusõiduk (SHT-UAV): ametlik direktiiv, mis on kõigi operatsioonide õiguslik alus"
+        "title": "SHT-İHA direktiiv 2026 (määruse tekst, PDF)",
+        "description": "Mehitamata õhusõidukisüsteemide direktiiv (SHT-İHA), kehtib alates 30. juulist 2026: ametlik direktiivi tekst, mis on kõigi UAV käitamiste õiguslik alus"
       }
     ],
-    "disclaimerText": "Kontrolli enne lendamist kindlasti SHGM ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Droonide käitamist Türgis reguleerib SHT-UAV Directive; kõik 500 g ja raskemad seadmed tuleb registreerida SHGM registreerimissüsteemis (iha.shgm.gov.tr).",
+    "disclaimerText": "Kontrolli enne lendamist kindlasti SHGM ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Türgis reguleerib UAV-de käitamist uus SHT-İHA (mehitamata õhusõidukisüsteemide direktiiv), mis kehtib alates 30. juulist 2026; üleminekuperiood kestab 31. juulini 2027. Kõik üle 500 g kaaluvad seadmed tuleb registreerida SHGM registreerimissüsteemis (iha.shgm.gov.tr).",
     "sectionLabelRules": "PÕHIREEGLID",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",
     "linksSheetTitle": "Õhuruum ja regulatsioonid — Türgi",
-    "dronePilotCredentialName": "UAV-piloodi litsents"
+    "dronePilotCredentialName": "UAV-piloodi litsents (P0/P1/P2)"
   }
 }

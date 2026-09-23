@@ -1,28 +1,35 @@
 {
   "meta": {
-    "sourceHash": "554dcb2ca7172e65f382ee60023e605b64f419f74a40862fa094a3c138b1853d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "dffaad15a571e359fb1ed462806f7dd69c5c983c8a5aea73cf0df596497c54f0",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimalt 120 m over jorden (EASA's åbne kategori)",
-      "Registrer dig som UAS-operatør, hvis din drone vejer 250 g eller mere eller har et kamera",
-      "A1/A3-onlinekursus er påkrævet — minimumsalder 16 år",
-      "Obligatorisk ansvarsforsikring for droner over 1,5 kg; minimumsdækningen afhænger af vægten — 250–1.500 g: €150.000; 1.501–5.000 g: €500.000; >5 kg: €1.000.000",
-      "Det er forbudt at flyve over broer, jernbaner, motorveje og elledninger",
-      "Hold altid dronen inden for synsvidde (VLOS)",
+      "I den åbne kategori er den maksimale højde 120 m, målt som afstanden til det nærmeste punkt på jordoverfladen — ikke kun lodret nedad, så nær en skråning kan terrænet ved siden af også tælle med. Inden for 50 m fra en høj kunstig hindring (over 105 m) kan den ansvarlige for hindringen anmode om tilladelse til at flyve op til 15 m over hindringens højde.",
+      "Du skal registrere dig som droneoperatør, hvis din drone vejer 250 g eller mere (eller kan overføre mere end 80 J kinetisk energi ved et sammenstød) — det gælder også legetøj. Vejer den under 250 g, kræves registrering stadig, hvis dronen har en sensor, der kan opfange personoplysninger, medmindre den regnes som legetøj i henhold til EU's legetøjsdirektiv. Krav til pilotuddannelse/-bevis er separate og afhænger af dronens klasse og underkategori.",
+      "Du skal registrere dig som UAS-operatør i det EU-land, hvor du har bopæl (hvis du bor uden for EU — i det første EU-land, hvor du flyver); registreringen er gyldig i hele EU, og det er ikke tilladt at være registreret i to lande på samme tid. I Letland koster registreringen 5 € og er gyldig i 1 år. Hver drone skal mærkes med UAS-operatørnummeret.",
+      "En drone fra 250 g kræver A1/A3-onlinekurset og -prøven. Siden 2024 må droner uden C-klassemærke, der vejer 250 g eller mere, kun flyve i underkategori A3 — langt fra uvedkommende personer og mindst 150 m fra bolig-, erhvervs-, industri- og rekreative områder.",
+      "I Letland er minimumsalderen for at flyve selvstændigt 16 år; yngre piloter må kun flyve under direkte opsyn af en kvalificeret fjernpilot på mindst 16 år eller med en drone i klasse C0, der er udformet som legetøj.",
+      "Droner i klasse C1, C2 (og C3) skal flyve med aktiv direkte fjernidentifikation (Remote ID) med dit UAS-operatørnummer indtastet.",
+      "Ansvarsforsikring er obligatorisk, undtagen for droner med en masse under 250 g og en maksimal hastighed under 19 m/s. Minimumsgrænse: i underkategori A1 og A2 — 50.000 €; for droner fra 20 kg og i den specifikke kategori — 750.000 SDR (forordning (EF) nr. 785/2004).",
+      "Der er intet generelt forbud, men der kan oprettes geografiske UAS-zoner over statsveje, broer, jernbaneanlæg og 110/330 kV-elledninger (op til 50 m fra dem) — tjek airspace.lv. Undgå så vidt muligt at flyve over mennesker, trafik, bygninger og ingeniørkonstruktioner.",
+      "Det er forbudt at filme eller fotografere kritiske infrastrukturobjekter, der bærer skiltet „BEZ SASKAŅOŠANAS FOTOGRAFĒT, FILMĒT AIZLIEGTS“.",
+      "I den åbne kategori skal du holde dronen inden for din direkte synsvidde uden hjælpemidler (briller/kontaktlinser er tilladt; kikkert eller skærm tæller ikke) — eller flyve med hjælp fra en observatør, hvor I til enhver tid opretholder klar og effektiv gensidig kommunikation, så I sammen kan overvåge luftrummet og undgå kollisioner. »Follow-me«-tilstand er en separat undtagelse, tilladt op til 50 m fra piloten.",
       "Man må ikke flyve over menneskemængder. Reglerne for uvedkommende afhænger af underkategori, klassemærke og driftsforhold; se den officielle oversigt.",
-      "Mindst 5 km fra enhver lufthavn eller flyveplads",
+      "Der er ingen fælles EU-afstand, du skal holde fra lufthavne. Restriktioner nær lufthavne offentliggøres som geografiske zoner (artikel 15), hvis form og størrelse varierer fra lufthavn til lufthavn. Før du flyver i nærheden af en lufthavn, flyveplads eller helikopterplads, skal du tjekke dit lands officielle dronezonekort; flyvning i en kontrolzone (CTR) kræver som regel forudgående tilladelse fra flyvekontrollen.",
+      "I Letland skal flyvninger i geografiske UAS-zoner, der kræver flyveanmeldelse eller godkendelse, siden 1. januar 2025 anmeldes før flyvningen i CAA's informationssystem for ubemandede luftfartøjer BGKIS (e.caa.gov.lv); operatører, der er registreret i et andet EØS-land eller i Schweiz, kan også oprette en BGKIS-konto. Godkendelse i zoner omkring flyvepladser kan tage op til 5 arbejdsdage (op til 30 dage, hvis flyveplanen skal ændres).",
       "Natflyvning er tilladt i henhold til EASA's grundlæggende regler for den åbne kategori, når det påkrævede grønne blinkende lys anvendes, medmindre en gældende geografisk zone eller national regel stiller strengere krav.",
-      "CTR'en for Riga Airport dækker et stort område"
+      "Riga CTR dækker en stor del af Riga. Uden særskilt godkendelse er det tilladt at flyve under 50 m over jorden og mere end 5 km fra tærsklerne på bane 18 og 36 med en drone på op til 2 kg; en drone over 2 kg kræver yderligere kvalifikation (f.eks. et A2-kompetencebevis). Højere end 50 m eller inden for 5 km-zonen omkring banetærsklerne skal hver flyvning godkendes på forhånd hos VAS „Latvijas gaisa satiksme“.",
+      "Hvis politiet, CAA, grænsevagten eller en anden embedsperson anmoder om det, skal du straks stoppe flyvningen og fremvise et identitetsdokument — hav det med dig.",
+      "En fjernpilot eller observatør, hvis alkoholkoncentration i blodet overstiger 0,2 ‰, eller som er påvirket af rusmidler, kan få en bøde på op til 700 €; det er forbudt at nægte at blive testet. Bøder: op til 700 € (f.eks. for at flyve uden obligatorisk forsikring), op til 1.000 € for overtrædelse af den tilladte højde eller kravene til flyvepladszoner."
     ],
     "importantNotes": [
-      "Forsikringen afhænger af dronens vægt — 250–1.500 g: €150.000; 1.501–5.000 g: €500.000; >5 kg: €1.000.000",
-      "Det er strengt forbudt at flyve over broer, jernbaner, motorveje og elledninger",
+      "Forsikring obligatorisk, undtagen droner < 250 g med maks. hastighed < 19 m/s; minimum A1/A2 — 50.000 €, fra 20 kg og i den specifikke kategori — 750.000 SDR",
+      "Geografiske UAS-zoner kan gælde over broer, jernbaner, statsveje og 110/330 kV-elledninger (op til 50 m) — tjek airspace.lv",
       "CTR'en for Riga Airport udgør et stort restriktionsområde",
-      "Der kan gælde yderligere restriktioner i grænseområderne mod Rusland og Hviderusland",
+      "Langs grænsen til Belarus og Rusland ligger restriktionsområdet EVR17A BORDER EAST (fra jorden til 500 ft, aktivt H24). Droneflyvninger i det (også < 250 g) er kun tilladt med tilladelse fra State Border Guard Aviation and Special Operations Department, som skal indhentes mindst 24 timer før den planlagte flyvedag (dokumenterne skal indsendes mindst 32 timer i forvejen).",
       "GDPR gælder for filmning og fotografering af personer, der kan identificeres"
     ],
     "primaryLinks": [
@@ -49,8 +56,8 @@
         "description": "Lettisk flyvekontroltjeneste og luftrumsinformation"
       },
       {
-        "title": "CAA Latvia — ofte stillede spørgsmål om droner",
-        "description": "Ofte stillede spørgsmål om droneregler i Letland"
+        "title": "CAA Latvia – FAQ om droner",
+        "description": "Ofte stillede spørgsmål om dronereglerne i Letland"
       }
     ],
     "disclaimerText": "Tjek altid de officielle kilder fra Civil Aviation Agency samt airspace.lv, før du flyver. Denne app er et værktøj — ikke en juridisk myndighed. Letland følger EASA-reglerne med nationale tilføjelser.",

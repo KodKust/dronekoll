@@ -1,33 +1,36 @@
 {
   "meta": {
-    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "17cf8ce1211fdb6fb07c1979f47d5e58",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
-    "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła DGCA oraz DigitalSky. Ta aplikacja jest narzędziem — a nie organem prawnym. W Indiach obowiązkowa platforma cyfrowa służy do obsługi wszystkich wymogów dotyczących dronów.",
+    "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła DGCA (eGCA) oraz DigitalSky. Ta aplikacja jest narzędziem — a nie organem prawnym.",
     "sectionLabelRules": "KLUCZOWE ZASADY",
     "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
     "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
     "linksSheetTitle": "Przestrzeń powietrzna i zasady — Indie",
     "dronePilotCredentialName": "Świadectwo pilota zdalnego",
     "keyRules": [
-      "DigitalSky dzieli przestrzeń powietrzną na strefy zielone (natychmiastowe automatyczne zezwolenie), żółte (przestrzeń kontrolowana, automatyczne rozpatrzenie w ciągu ~15–30 min — obejmuje to pas wokół lotniska, w przybliżeniu 8–12 km) oraz czerwone (strefy zastrzeżone, wymagane ręczne zatwierdzenie). Przed każdym lotem sprawdzaj DigitalSky, ponieważ dokładne granice stref w pobliżu konkretnego lotniska mogą odbiegać od tego ogólnego schematu.",
+      "DigitalSky dzieli przestrzeń powietrzną na strefy zielone (bez zezwolenia, do 120 m/400 ft), żółte (zezwolenie właściwego organu kontroli ruchu lotniczego) i czerwone (wyłącznie zezwolenie rządu centralnego). W odległości 8–12 km od granicy czynnego lotniska strefa zielona obowiązuje tylko do 60 m (200 ft); powyżej obowiązuje strefa żółta. Przed lotem zawsze sprawdzaj mapę DigitalSky.",
+      "Jeśli dron nie jest zwolniony (drony Nano do 250 g lub drony modelarskie do 25 kg używane wyłącznie do celów edukacyjnych, badawczych lub rekreacyjnych w zasięgu wzroku), musi być zgodny z certyfikatem typu DGCA. DGCA tymczasowo, do odwołania, wstrzymała rejestrację dronów bez certyfikatu typu (bezpośrednio do DGCA mogą występować tylko drony Nano i modelarskie wyprodukowane w Indiach), a niezarejestrowanym dronem nie wolno latać.",
       "Ubezpieczenie obowiązkowe dla wszystkich kategorii z wyjątkiem Nano",
-      "Świadectwo pilota zdalnego (RPC) jest wymagane przy komercyjnym użytkowaniu dronów kategorii Micro (250 g–2 kg) oraz większych, a także obowiązkowe dla wszystkich dronów kategorii Small (2–25 kg) i wyższych niezależnie od celu. Drony Nano (<250 g) nigdy nie wymagają RPC, nawet do użytku komercyjnego.",
+      "Świadectwo pilota zdalnego (RPC) jest wymagane przy komercyjnym użytkowaniu dronów kategorii Micro (>250 g–2 kg) oraz większych, a także obowiązkowe dla wszystkich dronów kategorii Small (2-25 kg) i wyższych niezależnie od celu. Drony Nano (≤250 g) nigdy nie wymagają RPC, nawet do użytku komercyjnego.",
       "Każdy lot musi odbywać się w zasięgu wzroku — dron musi przez cały czas pozostawać widoczny gołym okiem, bez lornetki ani podobnych pomocy — chyba że DGCA wydała odrębne zezwolenie na EVLOS/BVLOS.",
       "Loty w strefach czerwonych są surowo zabronione bez specjalnego zezwolenia właściwego organu uzyskanego za pośrednictwem DigitalSky."
     ],
     "importantNotes": [
-      "Rejestracja w DigitalSky jest obowiązkowa dla wszystkich dronów z wyjątkiem kategorii Nano (<250 g), która nie wymaga ani rejestracji, ani UIN. Lot niezarejestrowanym dronem podlegającym rejestracji grozi konfiskatą.",
+      "Wszystkie drony, w tym Nano (≤250 g), muszą przed lotem zostać zarejestrowane i otrzymać UIN (przez portal eGCA DGCA). Drony Nano są zwolnione jedynie z certyfikacji typu, obowiązku posiadania świadectwa pilota zdalnego oraz ubezpieczenia od odpowiedzialności cywilnej wobec osób trzecich. Lot niezarejestrowanym dronem grozi karami i konfiskatą.",
+      "Odwiedzający: import dronów do Indii jest zakazany na mocy DGFT Notification 54/2022 (wszystkie klasy masy, w tym ≤250 g), z wyjątkiem przypadków z zezwoleniem DGFT do celów rządowych/R&D lub obronnych/bezpieczeństwa. Rejestracja wymaga indyjskiego paszportu lub dokumentu tożsamości wydanego przez rząd Indii oraz potwierdzenia adresu, więc dron odwiedzającego z reguły nie może zostać zarejestrowany ani legalnie używany do lotów.",
       "Strefy czerwone obejmują lotniska, obszary wojskowe, granice oraz obiekty wrażliwe",
-      "Ubezpieczenie jest obowiązkowe dla dronów kategorii Micro, Small i Medium"
+      "Ubezpieczenie jest obowiązkowe dla dronów kategorii Micro, Small i Medium",
+      "Każdy wypadek z udziałem twojego drona należy zgłosić do DGCA w ciągu 48 godzin."
     ],
     "primaryLinks": [
       {
         "title": "DigitalSky — Platforma DGCA",
-        "description": "Obowiązkowa platforma do rejestracji dronów, zezwoleń na loty i sprawdzania stref"
+        "description": "Obowiązkowa platforma do zezwoleń na loty i sprawdzania stref"
       },
       {
         "title": "DGCA — Przepisy dronowe",

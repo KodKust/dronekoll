@@ -1,42 +1,44 @@
 {
   "meta": {
-    "sourceHash": "7ac6f58efeb57847db5c573b36f52f9091268fb859f217572eb22f0601db3ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "87a436fc2428e63cbeabda8e978948a403f544d76e6100f96d885f4d05ce52ec",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimaalne kõrgus sõltub kaalust: ≤250 g → 30 m; 250 g–25 kg → 60 m; 25–150 kg → 120 m",
-      "Üle 250 g kaaluvate droonide registreerimine AAC-s on kõigi kasutusviiside puhul kohustuslik — maksumus: US$5; registreerimine toimub Albrookis kohapeal",
-      "Harrastusdroonid kaaluga ≤250 g: registreerimist EI nõuta, kuid kõik muud reeglid kehtivad",
-      "Vähemalt 8 km kaugusel lennujaamadest ja lennuväljadest",
-      "Hoia inimestest vähemalt 30 m horisontaalset ja 10 m vertikaalset kaugust",
-      "Hoia droon alati otsenähtavuse piires (VLOS)",
-      "Öölennud on KEELATUD, kui asutus AAC ei ole teinud konkreetset erandit",
-      "Vastutuskindlustus on KOHUSTUSLIK kõigi toimingute puhul",
-      "Kohustuslik teavitatud nõusoleku vorm järgmiste alade kohta: eraomand, põlisrahvaste reservaadid, kaitsealad ja Panama Canal valgla",
-      "Äriline kasutus nõuab lisaks drooni registreerimisele RPA piloodi litsentsi"
+      "Maksimaalne kõrgus sõltub RPA klassist: Micro (≤250 g) → 100 ft (~30 m); Light (251 g–25 kg) → 400 ft (~120 m); Medium (26–150 kg) → 400 ft, kuid ilma Mode S transpondrita piiratud 100 m-ga (AAC standard §9.2, §10.1.1, §11.1.5, §11.1.10).",
+      "Iga RPA, sealhulgas Micro-klass (≤250 g), tuleb registreerida AAC-s (standardi §8.1, §9.1, §15.2) — erinevalt enamikust riikidest ei vabasta Panama kõige kergemaid droone registreerimisest. Registreerimine toimub kohapeal Albrookis; kontrolli kehtivat tasu.",
+      "Panama EI vabasta kergeid harrastusdroone (≤250 g) registreerimisest — erinevalt enamikust riikidest nõuab AAC standard (§8.1, §9.1) registreerimist kõigile RPA klassidele, sealhulgas Micro.",
+      "Iga RPA käitamine Panamas nõuab AAC käitamisluba (§8.2, §8.20): esita vorm 005 (Solicitud de Permiso de Actividades Aéreas Especiales) vähemalt 5 tööpäeva ette.",
+      "Vähemalt 8 km (5 meremiili) kaugusel lennujaamadest ja lennuväljadest, Vabariigi Presidendi kantseleist ja vanglatest (AAC standardi §8.10–8.11). Standard keelab ka lendamise kohtades, mis ohustavad riigi julgeolekut, nagu saatkonnad, avalik-õiguslikud asutused ja pangad (§8.11), ning AAC kohaldab piiranguid politseijaoskondade, haiglate ja Julgeolekuministeeriumi kohal (AAC teadaanne 26.9.2025).",
+      "Õhkutõusmisel ja maandumisel hoia käitamisega mitteseotud inimestest vähemalt 30 m horisontaalset ja 10 m vertikaalset kaugust (AAC standardi §13.1).",
+      "Pead hoidma drooni kogu aeg oma otseses nähtavuses (RACP).",
+      "Öölennud on KEELATUD, kui AAC ei ole teinud konkreetset erandit.",
+      "Kolmanda isiku tsiviilvastutuskindlustus on KOHUSTUSLIK igale RPA omanikule (AAC standardi §8.4), olenemata kasutusest. Inimeste kohal lendamine nõuab ka AAC luba ja asjaosaliste nõusolekut (§8.16).",
+      "Keelu-, piirangu- või ohualad (vt AAC AIP) nõuavad AAC ja ala eest vastutava asutuse konkreetset luba — mõlemad on nõutavad (AAC standardi §13.1 d). Kanali tsoonis, kaitsealadel ja põlisrahvaste territooriumidel konsulteeri enne lennuloa taotlemist vastutava asutusega.",
+      "Igaüks, kes RPA-d käitab — sealhulgas harrastuslikult ja Micro-klassiga (≤250 g) — peab omama AAC kaugpiloodi litsentsi ja 3. klassi tervisetõendit (AAC standardi §8.3, §9.1, §10.1). Äriline kasutus nõuab lisaks ärilise käitamise luba (§13.3)."
     ],
     "importantNotes": [
-      "📏 KÕRGUSPIIRID SÕLTUVAD KAALUST (ainulaadne Ladina-Ameerikas): Panama RACP sätestab drooni kaalu alusel kolm maksimaalset kõrgustaset: ≤250 g droonide piir on AINULT 30 m, 250 g–25 kg droonide piir on 60 m ja ainult ≥25 kg droonid võivad lennata tavapärase 120 m kõrguseni. Kontrolli enne lennukõrguse planeerimist oma drooni kaalu.",
-      "✈️ TURISTID — 14 PÄEVA REEGEL: Kui viibid Panamas ≤14 kalendripäeva, võid taotleda AAC-lt eriluba ilma drooni püsivalt registreerimata. Kui viibid >14 päeva, on üle 250 g kaaluvate droonide registreerimine AAC-s kohustuslik. ≤250 g harrastusdroonid on mõlemal juhul registreerimisest vabastatud.",
-      "🚢 PANAMA CANAL — ERIPIIRANG: Enne mis tahes lendu Panama Canal valglas (sealhulgas lüüsid, Gatún Lake ja külgnevad alad) tuleb Canal Authority käest hankida kohustuslik Letter of Informed Consent. AAC EI anna ilma selle kirjata luba selle ala kohal käitamiseks. Sama nõue kehtib eraomandi, põlisrahvaste reservaatide ja kaitsealade kohta.",
-      "🌳 KAITSEALAD JA MIAMBIENTE: Sellistes rahvusparkides nagu Soberanía, Volcán Barú, Coiba (UNESCO maailmapärandi objekt) ja Darién on vaja Ministry of the Environment (MiAmbiente) eriluba. Bocas del Toro ja Guna Yala saartel kehtivad samuti piirangud — kooskõlasta käitamine eelnevalt kohaliku kogukonnaga.",
-      "🏢 KOHAPEALNE REGISTREERIMINE ON NÕUTAV: Erinevalt enamikust riikidest tuleb AAC registreerimine teha KOHAPEAL Albrook office (Building 805). Võta kaasa isikut tõendav dokument, droon, täidetud vorm ja US$5. Kontrolli enne reisi vastuvõtuaegade saadavust ja menetlusaegu."
+      "Erinevalt paljudest riikidest astmestab Panama maksimaalse kõrguse RPA klassi järgi: 100 ft (~30 m) Micro (≤250 g), 400 ft (~120 m) Light (251 g–25 kg) ja 400 ft Medium (26–150 kg) puhul — kuid viimane on ilma Mode S transpondrita piiratud 100 m-ga. Kontrolli enne lennukõrguse planeerimist oma drooni klassi.",
+      "Turistid: välisriigi RPA-de või käitajate eriluba (vorm 004) kehtib maksimaalselt 15 päeva ja seda EI anta harrastustegevuseks (AAC standardi §8.22). Harrastuslikuks lendamiseks on nõutav RPA registreerimine AAC-s (kõik klassid, sealhulgas Micro ≤250 g, §8.1) ja AAC RPA piloodilitsents (§8.3); välisriigi litsents kinnitatakse ainult kahepoolse lepingu olemasolul (§18.17). Kontrolli enne reisimist AAC-st.",
+      "PANAMA CANAL — PIIRANGUGA ALA: AAC AIP (ENR 5) kohaselt on käitamised Gatúni, Pedro Migueli ja Miraflorese lüüside, Gatúni ja Maddeni tammide ning mis tahes Kanalit läbiva laeva kohal piiratud. Nõutav on AAC ja ala eest vastutava asutuse luba (AAC standardi §13.1 d).",
+      "Casco Antiguo, Cinta Costera, Av. Balboa ja Calle 50 ning ümbritsevad alad: lisaks AAC loale pead kirjalikult teavitama asutust Servicio de Protección Institucional (SPI).",
+      "🌳 KAITSEALAD (MiAmbiente): SINAP-i kaitsealadel tohivad droone kasutada ainult kehtiva loa/registreeringuga külastajad, kooskõlas kohaldatavate menetluste ja tasudega (Resolución DM-0173-2026, art 12). Kontrolli enne lendamist ala haldusest.",
+      "Erinevalt enamikust riikidest tuleb AAC registreerimine teha kohapeal Albrookis — kontrolli enne taotluse esitamist kehtivat korda ja nõudeid."
     ],
     "primaryLinks": [
       {
         "title": "AAC — Panama Tsiviillennundusamet",
-        "description": "Panama Tsiviillennundusameti ametlik veebisait. Teave droonide registreerimise, RACP-määruste ning kohalike ja välisoperaatorite toimingute kohta"
+        "description": "Panama Tsiviillennundusameti ametlik veebisait. Teave droonide registreerimise, RPAS-standardi ning kohalike ja välismaa käitajate menetluste kohta"
       },
       {
-        "title": "RACP — Panama tsiviillennundusmäärused",
-        "description": "Juurdepääs täielikele Panama tsiviillennundusmäärustele. Jaotis mehitamata õhusõidukitele (RPA) kohalduvate määruste kohta"
+        "title": "Norma AAC/DG/DSA/001-2021 — Kaugjuhitavad õhusõidukid (RPAS)",
+        "description": "AAC standardi tekst, mis sätestab kaugjuhitavate õhusõidukisüsteemide (RPAS) käitamise nõuded Panamas (PDF)"
       },
       {
         "title": "AAC Albrooki büroo (kohapealne registreerimine nõutav)",
-        "description": "Hoone 805, Albrook, esimene korrus — Lennundusohutuse Direktoraat. Droonide registreerimine tuleb teha KOHAPEAL: võta kaasa isikutunnistus, droon ise ja täidetud vorm. Maksumus: 5 US$"
+        "description": "Hoone 805, Albrook, esimene korrus — Dokumentatsiooniosakond. Esita taotluskiri (või saada see aadressile correspondencia.aac@aeronautica.gob.pa); AAC määrab sulle vastuvõtuaja. Võta kaasa registreerimisvorm, RPA litsentsi koopia, isikutunnistus, spetsifikatsioonid, arve, kindlustuspoliis ja maksekviitung. Maksumus: 20 US$"
       },
       {
         "title": "AAC — Pressiteated ja kehtivad määrused",
@@ -46,7 +48,7 @@
     "secondaryLinks": [
       {
         "title": "STRI/Smithsonian — AAC uurimisjuhend",
-        "description": "Smithsoniani Troopiliste Uuringute Instituudi üksikasjalik juhend AAC loaprotsessi kohta, sh teadva nõusoleku vorm piiranguga aladele"
+        "description": "Smithsoniani Troopiliste Uuringute Instituudi üksikasjalik juhend AAC loaprotsessi kohta, sh teadva nõusoleku kiri piiranguga aladele"
       },
       {
         "title": "MiAmbiente — Kaitsealad (rahvuspargid)",
@@ -54,10 +56,10 @@
       },
       {
         "title": "Panama kanal — Ametlik teave",
-        "description": "Panama Kanaliamet. Kanali valgla nõuab kohustuslikku teadva nõusoleku kirja — ilma selleta AAC luba ei anna"
+        "description": "Panama Canal Authority. Lüüsid, tammid ja läbisõitvad laevad on piiranguga alad (AIP ENR 5): nõutav on AAC ja ala eest vastutava asutuse luba"
       }
     ],
-    "disclaimerText": "Kontrolli enne lendamist alati AAC ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Panamas kehtivad Civil Aviation Regulations (RACP), mis sisaldavad kaalust sõltuvaid maksimaalseid kõrgusi ja eripiiranguid Panama Canal valgla kohal.",
+    "disclaimerText": "Kontrolli enne lendamist alati AAC ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Panamas kehtib Norma AAC/DG/DSA/001-2021, mis sätestab KAALUST SÕLTUVAD maksimaalsed kõrgused ja piiranguga alad Panama Canali tsoonis (AIP ENR 5).",
     "sectionLabelRules": "PÕHIREEGLID",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",

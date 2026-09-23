@@ -1,30 +1,32 @@
 {
   "meta": {
-    "sourceHash": "64c56f7cd237868e12b4a9acebacfc1c7ed47d9c27e97af77b28d123a7822c74",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "9cca66a7c2aad0d0dc5edac3e33625910a5e790c5cdccb45c10be1fbd9252627",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maksimālais augstums: 122 m (400 ft) virs zemes atvērtajā kategorijā (nekontrolētā gaisa telpā)",
-      "Lidostu tuvumā (≤5 km): maksimālais augstums 43 m bez iepriekšējas aeronavigācijas pakalpojumu sniedzēja atļaujas",
-      "Minimālais attālums 5 km no lidostām un lidlaukiem bez atļaujas",
-      "Minimālais attālums 500 m no helikopteru laukumiem",
-      "Drošs attālums no lidojumā neiesaistītiem cilvēkiem un ēkām",
+      "Atvērtā kategorija: lidot lidlauku kontroles zonās (CTR) ir aizliegts. Kontrolētā gaisa telpā 5 km rādiusā no skrejceļu sliekšņiem: maksimāli 43 m un nekad pieejas vai pacelšanās virsmās; lielākam augstumam nepieciešama aeronavigācijas pakalpojumu sniedzēja atļauja.",
+      "Helikopteru laukumi: lidot 1 jūras jūdzes (1,85 km) rādiusā no atskaites punkta (HRP) ir aizliegts; no 1 līdz 2 jūras jūdzēm — maksimāli 150 ft (46 m) virs helikopteru laukuma, ja vien tas nav iepriekš saskaņots.",
+      "Aizliegts lidot virs militāriem, drošības vai ieslodzījuma objektiem un 1 jūras jūdzes (1,85 km) rādiusā no tiem; virs naftas pārstrādes rūpnīcām, elektrostacijām vai degvielas noliktavām bez īpašnieka atļaujas; kā arī 25 m (vertikāli vai horizontāli) attālumā no augstsprieguma elektrolīnijām.",
+      "Jāievēro drošs attālums no lidojumā neiesaistītiem cilvēkiem un ēkām.",
       "Atvērtajā kategorijā vienmēr turi dronu tiešā redzamībā (VLOS)",
-      "Lidojumi atļauti tikai dienā — nakts lidojumiem nepieciešama īpaša atļauja",
-      "Droni, kas sver mazāk par 250 g: atbrīvoti no reģistrācijas un licencēšanas (Resolution 550/2025)",
-      "Droni, kas sver ≥250 g: obligāta reģistrācija TAD (ANAC) — atvērtajā kategorijā pilota licence nav nepieciešama",
+      "Pilotēt vai darboties kā novērotājam 8 stundu laikā pēc alkohola lietošanas vai psihoaktīvo vielu ietekmē ir aizliegts.",
+      "Nakts lidojumi: ANAC Res. 312/2026 (2026. gada maijs) atcēla RAAC 100 noteikto vispārējo ierobežojumu; ANAC vadlīnijās nakts lidojumi joprojām norādīti kā specifiskā kategorija — pirms lidošanas naktī sazinies ar ANAC.",
+      "Droni, kas sver mazāk par 250 g, ir atbrīvoti no reģistrācijas, licencēšanas un obligātās apdrošināšanas (Resolution 550/2025, 2025. gada augusts). Droniem no 250 g līdz 25 kg pilota licence nav nepieciešama, taču tie digitāli jāreģistrē ANAC sistēmā Casillero Aeronáutico Digital (CAD).",
+      "Droni, kas sver ≥250 g: obligāta reģistrācija CAD (ANAC) — atvērtajā kategorijā pilota licence nav nepieciešama",
       "Darbība specifiskajā kategorijā (25–150 kg vai pilsētas lidojumi/BVLOS): nepieciešama pilota licence, medicīniskā sertifikācija un komerciālā operatora sertifikāts",
-      "Atvērtā kategorija atļauj dronus, kas sver mazāk par 25 kg, bez iepriekšējas atļaujas (lauku apvidos svara ierobežojuma nav)"
+      "Atvērtā kategorija atļauj dronus no 250 g līdz mazāk nekā 25 kg bez iepriekšējas atļaujas (rotorplānu droni bez svara ierobežojuma tikai lauku apvidos, ārpus CTR un ierobežotās gaisa telpas)"
     ],
     "importantNotes": [
-      "📜 JAUNAIS 2025. GADA IETVARS: ANAC Resolution 550/2025 (spēkā no 2025. gada augusta) aizstāj Resolution 880/2019. Tā nosaka trīs kategorijas: lidojumi bez iepriekšējas atļaujas, atvērtā kategorija un specifiskā kategorija. RAAC Part 100/101/102.",
-      "✈️ ĀRVALSTU TŪRISTI: Droni, kas sver 250 g vai vairāk, pirms pirmā lidojuma jāreģistrē TAD (Resolution 550/2025). Reģistrācija notiek tiešsaistē; nepieciešams Argentīnas identitātes dokuments vai pase. Droni, kas sver mazāk par 250 g — piemēram, DJI Mini, Flip u. c. — ir atbrīvoti no reģistrācijas un licencēšanas.",
-      "🌳 NACIONĀLIE PARKI UN AIZSARGĀJAMĀS TERITORIJAS: APN (National Parks Administration) aizliedz izmantot dronus bez īpašas atļaujas tādos parkos kā Iguazú, Nahuel Huapi, Los Glaciares un Tierra del Fuego. Pirms lidojuma pārbaudi prasības konkrētajā parkā.",
-      "🏛️ PILSĒTAS UN IEROBEŽOTĀS ZONAS: Buenos Aires (Jorge Newbery Airport, Casa Rosada, Congress), Ezeiza (Ministro Pistarini) un militārās zonas ir lidojumu aizlieguma zonas. Uz Aerolíneas Argentinas un pilsētu centru teritorijām attiecas pastāvīgi ierobežojumi — pārbaudi AIP.",
-      "💰 SODI: Pārkāpumi var izraisīt būtiskus naudassodus, iekārtu konfiskāciju un smagos gadījumos kriminālatbildību. Komerciālai lietošanai nepieciešama civiltiesiskās atbildības apdrošināšana."
+      "📜 JAUNAIS IETVARS: ANAC Resolution 550/2025 (spēkā no 2025. gada augusta, grozīta ar Res. 312/2026) aizstāj Resolution 880/2019. Tā nosaka trīs kategorijas: atvērtā, specifiskā un sertificētā. RAAC Part 100/101/102.",
+      "Droni, kas sver 250 g vai vairāk, pirms pirmā lidojuma jāreģistrē ANAC sistēmā Casillero Aeronáutico Digital (CAD) — reģistrācija ir bezmaksas, notiek tiešsaistē, un tai nepieciešams DNI vai pase. Droni, kas sver mazāk par 250 g (piem., DJI Mini vai Flip), ir atbrīvoti no reģistrācijas un licencēšanas (Resolution 550/2025).",
+      "Tūristi: tiek pieņemta derīga šī drona reģistrācijas apliecība, ko izsniegusi citas ICAO valsts civilās aviācijas iestāde (RAAC 100.05); ar operatora reģistrāciju vien var nepietikt. Ja tavs drons nav reģistrēts, aizpildi ANAC bezmaksas digitālo zvērināto deklarāciju (Declaración Jurada), izmantojot savu pasi.",
+      "🌳 NACIONĀLIE PARKI UN AIZSARGĀJAMĀS TERITORIJAS: APN aizliedz dronu izmantošanu atpūtai un sportam visās savās aizsargājamajās teritorijās (APN Res. 9/2021), piemēram, Iguazú, Nahuel Huapi, Los Glaciares vai Tierra del Fuego. Profesionālai vai zinātniskai izmantošanai nepieciešama iepriekšēja APN atļauja.",
+      "🏛️ IEROBEŽOTĀS ZONAS: aizliegts lidot virs Casa Rosada, Quinta de Olivos, valsts ēkām un vēstniecībām, 1 jūras jūdzes rādiusā no militāriem objektiem un tādu lidostu kā Aeroparque un Ezeiza kontroles zonās — pārbaudi AIP.",
+      "💰 SODI: pārkāpumi tiek sodīti saskaņā ar Reglamento General de Infracciones de la Aviación Civil, neskarot civiltiesisko vai kriminālatbildību. Apdrošināšana ir obligāta specifiskajā un sertificētajā kategorijā (atvērtajā kategorijā — brīvprātīga)."
     ],
     "primaryLinks": [
       {
@@ -32,8 +34,8 @@
         "description": "Nacionālās civilās aviācijas administrācijas oficiālā vietne par droniem (VANT/SVANT): jaunais regulējuma ietvars — Rezolūcija 550/2025, kategorijas un ekspluatācijas prasības"
       },
       {
-        "title": "Dronu reģistrācija (TAD)",
-        "description": "Obligātā reģistrācijas sistēma droniem, kas sver vairāk par 500 g, izmantojot Trámites a Distancia (TAD) platformu. A klase (≤500 g) atpūtai ir atbrīvota."
+        "title": "Dronu reģistrācija (CAD)",
+        "description": "Bezmaksas digitālā zvērinātā deklarācija (Declaración Jurada) droniem no 250 g līdz 25 kg ANAC sistēmā Casillero Aeronáutico Digital (CAD); tiek izsniegta digitāla reģistrācijas apliecība. Droni, kas sver mazāk par 250 g, ir atbrīvoti."
       },
       {
         "title": "AIP — Aeronavigācijas informācijas publikācija",
@@ -50,19 +52,19 @@
         "description": "Gaisa operatora sertifikāts komerciālai dronu darbībai. Nepieciešams specifiskajai kategorijai un profesionāliem lidojumiem"
       },
       {
-        "title": "Sertifikācija par tālvadības apkalpes locekli (pilotu)",
-        "description": "Procedūra atļaujas saņemšanai kā tālvadības pilotam. Eksāmeni un prasības profesionālai sertifikācijai"
+        "title": "Atļauja tālvadības apkalpes loceklim (pilotam)",
+        "description": "Tālvadības pilota atļaujas saņemšanas kārtība. Eksāmeni un prasības profesionālajai sertifikācijai"
       },
       {
         "title": "Jaunais regulējuma ietvars (oficiāls kopsavilkums)",
         "description": "ANAC oficiālais kopsavilkums par jauno dronu regulējuma ietvaru pēc Rezolūcijas 550/2025: galvenās izmaiņas un kategorijas"
       }
     ],
-    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi ANAC oficiālos avotus. Šī lietotne ir rīks, nevis juridiski saistošs avots. Argentīnā no 2025. gada augusta ir spēkā ANAC Resolution 550/2025 (RAAC Part 100/101/102).",
+    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi ANAC oficiālos avotus. Šī lietotne ir rīks, nevis juridiski saistošs avots. Argentīnā ir spēkā ANAC Resolution 550/2025 (RAAC Part 100/101/102), kas stājās spēkā 2025. gada augustā un ir grozīta ar ANAC Resolution 312/2026.",
     "sectionLabelRules": "GALVENIE NOTEIKUMI",
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",
     "linksSheetTitle": "Gaisa telpa un noteikumi — Argentīna",
-    "dronePilotCredentialName": "Bezpilota gaisa kuģa pilota apliecība"
+    "dronePilotCredentialName": "Tālvadības pilota licence (RPA)"
   }
 }

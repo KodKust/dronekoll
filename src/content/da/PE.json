@@ -1,39 +1,42 @@
 {
   "meta": {
-    "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c7bb0eb5efb529d016ee7e14e38488c5a01fec2c25b6f85e5c65f17487613d71",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimal højde: 152 m (500 ft) over jorden (AGL)",
-      "Mindst 4 km fra lufthavne og flyvepladser",
-      "Mindst 30 m vandret og 20 m lodret fra personer, bygninger eller objekter",
-      "Erhvervsmæssig brug (uanset vægt): MTC-registrering påkrævet + særlig tilladelse",
-      "Hold altid dronen inden for synsvidde (VLOS)",
-      "Flyvning kun tilladt i dagslys — natflyvning kræver særlig tilladelse fra DGAC",
-      "Byområder: kræver forudgående godkendelse fra MTC; landdistrikter: ingen specifikke restriktioner",
-      "Områder med restriktioner: lufthavne, flyvepladser, strategiske anlæg og tætbefolkede områder uden tilladelse",
-      "Juridisk skelnen: fritidsbrug (rekreation) vs. professionel/erhvervsmæssig brug (specialiserede aktiviteter)"
+      "Maksimal højde: 152 m (500 ft) over jorden (AGL) (NTC 001-2015, art. 8(e)(10)).",
+      "Mindst 4 km fra lufthavne og flyvepladser (NTC 001-2015, art. 8(e)(19)).",
+      "Hold mindst 30 m vandret og 20 m lodret afstand til personer, bygninger eller forhindringer i alle flyvningens faser (NTC 001-2015, art. 8(e)(9)).",
+      "Flyv ikke over motorveje, veje, stier, broer, el- eller telekommunikationsinfrastruktur (master, tårne, kabler, antenner), sejlbare vandveje eller rørledninger til kulbrinter; i nærheden af dem skal du holde mere end 30 m vandret afstand fra deres kant (NTC 001-2015, art. 8(e)(20)).",
+      "Fritidsbrug: droner under 2 kg er undtaget fra lov nr. 30740 og dens reglement, men driftsbegrænsningerne i NTC 001-2015 (højde, afstande, zoner) gælder for al civil brug. Fra 2 kg og ved al ikke-rekreativ brug skal dronen registreres hos DGAC; manglende registrering straffes med bøde (lov nr. 30740, art. 3 og 4); proceduren er automatisk via MTC's Virtual Filing Desk (Mesa de Partes Virtual).",
+      "Ikke-rekreativ brug (uanset vægt): droneregistrering, RPAS-pilotakkreditering (mindst 18 år, RPAS-kursus hos et CIAC eller en flyveklub og DGAC-prøve), ansvarsforsikring på mindst 10 UIT og DGAC-tilladelse (NTC 001-2015, pkt. 8(c)-(d)). Registreringen har været automatisk siden januar 2025.",
+      "Dronen skal til enhver tid forblive inden for pilotens direkte synsvidde.",
+      "Flyvning er kun tilladt om dagen: NTC forbyder drift under natforhold (efter solnedgang eller før solopgang) (NTC 001-2015, art. 8(e)(13)).",
+      "Byområder og befolkede områder: flyvning er ikke tilladt. DGAC tillader det kun undtagelsesvis for offentlige institutioner, deres entreprenører, tjenester erklæret af offentlig interesse, brandvæsenet og INDECI med droner på op til 6 kg udstyret med faldskærm. Enhver departements-, provins- eller distriktshovedstad og ethvert sted med mere end 1000 indbyggere betragtes som byområde. Landområder: underlagt standardens generelle begrænsninger (NTC 001-2015, art. 8(e)(2) og (f)).",
+      "Restriktionsområder: lufthavne, flyvepladser, strategiske anlæg og tætbefolkede områder, medmindre der foreligger tilladelse.",
+      "Juridisk skelnen: fritidsbrug (rekreation) vs. professionel/erhvervsmæssig brug (specialiserede aktiviteter) med forskellige krav til hver."
     ],
     "importantNotes": [
       "🏛️ MACHU PICCHU OG ARKÆOLOGISKE STEDER: Ministry of Culture forbyder brug af droner uden særlig tilladelse ved Machu Picchu, Nazca Lines, Chan Chan, Caral, Kuélap og andre arkæologiske steder. Tilladelse fra Ministry of Culture kræves UD OVER tilladelsen fra MTC.",
       "🌳 BESKYTTEDE NATUROMRÅDER OG AMAZONAS: SERNANP (National Service for Protected Natural Areas) kræver en særlig tilladelse til droner i parker som Manu, Tambopata og Huascarán. Amazonas og oprindelige samfund har yderligere restriktioner.",
-      "🏙️ BYOMRÅDER I LIMA OG CUSCO: Limas bymidte (Plaza Mayor, Government Palace), Jorge Chávez Airport (LIM), Cuscos bymidte og lufthavnen (CUZ), militærområder og ambassader har permanente restriktioner. Cuscos historiske centrum kræver en tilladelse fra Ministry of Culture."
+      "🏙️ BYOMRÅDER I LIMA OG CUSCO: Lima og Cusco er byområder, hvor flyvning ikke er tilladt undtagen med en særlig undtagelsestilladelse (NTC 001-2015, art. 8(e)(2) og (f)). Regeringspaladset, militærområder, lufthavnene Jorge Chávez (LIM) og Cusco (CUZ) samt områder offentliggjort i AIP-Perú eller i NOTAM'er er også restriktionsområder (art. 8(e)(19) og (22)). Cuscos historiske centrum kræver desuden en positiv udtalelse fra Ministry of Culture (lov nr. 30740, art. 2.5).",
+      "⚠️ SANKTIONER: Nationalpolitiet kan gribe ind og beslaglægge dronen, hvis den flyves i strid med reglerne; DGAC pålægger sanktioner, herunder bøder (D.S. 012-2026-MTC, art. 7 og 73; lov nr. 30740, art. 4)."
     ],
     "primaryLinks": [
       {
-        "title": "MTC — Krav for at flyve med en drone",
-        "description": "Transport- og Kommunikationsministeriets (MTC) officielle hjemmeside med kravene for at flyve med droner. Den inkluderer reguleringen NTC 001-2015 og DGAC-procedurer."
+        "title": "MTC — reglement til lov nr. 30740 (D.S. 012-2026-MTC)",
+        "description": "Officielt MTC-reglement (29/05/2026). De nye kategorier og licenser træder i kraft, når DGAC opdaterer NTC 001-2015; indtil da gælder NTC."
       },
       {
-        "title": "MTC's virtuelle indleveringsskranke — RPAS-registrering",
-        "description": "MTC's officielle onlineplatform til at registrere droner (RPAS) helt online. Vælg \"Registrering af fjernstyrede luftfartøjssystemer (RPAS)\", og udfyld formularen"
+        "title": "MTC Mesa de Partes Virtual (Virtual Filing Desk) — RPAS-registrering",
+        "description": "MTC's officielle onlineplatform til registrering af droner (RPAS) helt online. Vælg \"Registro de Aeronaves Pilotadas a Distancia (RPAS)\" (registrering af fjernstyrede luftfartøjer), og udfyld formularen"
       },
       {
         "title": "MTC — Institutionel side",
-        "description": "Hovedhjemmesiden for Transport- og Kommunikationsministeriet. Adgang til procedurer, regler og luftfartstjenester leveret af DGAC"
+        "description": "Hovedhjemmesiden for Transport- og Kommunikationsministeriet. Adgang til DGAC's procedurer, regler og luftfartstjenester"
       },
       {
         "title": "DGAC — RPAS-kontakt (tilladelser)",
@@ -42,23 +45,23 @@
     ],
     "secondaryLinks": [
       {
-        "title": "El Peruano — Dronetilladelser (officielt)",
-        "description": "Statstidende El Peruano: officiel information om de tilladelser, du skal have for at flyve med droner, ifølge MTC og DGAC"
+        "title": "MTC — RPAS-pilotakkreditering",
+        "description": "MTC-side (opdateret 11/08/2026): ansøgning, onlineprøve og elektronisk akkreditering af RPAS-piloter/-operatører (ikke-rekreativ brug)."
       },
       {
-        "title": "TV Perú — Officiel vejledning om krav",
-        "description": "Officiel dækning fra public service-kanalen TV Perú med opdateret information om kravene for at flyve med droner, som fastsat af MTC"
+        "title": "MTC — automatisk droneregistrering (2025)",
+        "description": "MTC-meddelelse (26/01/2025): RPAS-registrering tager kun få minutter via Virtual Filing Desk (Mesa de Partes Virtual)."
       },
       {
         "title": "MTC-kontorer — Personlig betjening",
-        "description": "MTC's hovedkontor: Jr. Zorritos 1203, Cercado de Lima. Betjening er også tilgængelig på regionale borgerservicecentre til personlige RPAS-procedurer."
+        "description": "MTC's hovedkontor: Jr. Zorritos 1203, Cercado de Lima. Betjening er også tilgængelig på regionale borgerservicecentre (Centros de Atención al Ciudadano) til personlige RPAS-procedurer."
       }
     ],
-    "disclaimerText": "Tjek altid de officielle kilder fra DGAC under Ministry of Transport and Communications (MTC), før du flyver. Denne app er et værktøj, ikke en juridisk myndighed. Peru håndhæver Complementary Technical Standard (NTC) 001-2015 med forenklet registrering via MTC’s Virtual Filing Desk.",
+    "disclaimerText": "Tjek altid de officielle kilder fra DGAC under Ministry of Transport and Communications (MTC), før du flyver. Denne app er et værktøj, ikke en juridisk myndighed. Peru håndhæver lov nr. 30740, dens reglement (D.S. No. 012-2026-MTC) og NTC 001-2015 med forenklet registrering via MTC's Virtual Filing Desk (Mesa de Partes Virtual).",
     "sectionLabelRules": "VIGTIGSTE REGLER",
     "sectionLabelPrimary": "OFFICIELLE KILDER",
     "sectionLabelSecondary": "YDERLIGERE RESSOURCER",
     "linksSheetTitle": "Luftrum og regler — Peru",
-    "dronePilotCredentialName": "RPAS-pilotlicens"
+    "dronePilotCredentialName": "RPAS-pilot-/operatørakkreditering"
   }
 }

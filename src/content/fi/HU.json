@@ -1,29 +1,30 @@
 {
   "meta": {
-    "sourceHash": "c60fe25d411d1b17d1f39a3942f259be9fd7a6aefee2fdedfab7c81c48111b27",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "92806b910a3a8d8837e79579753fac51d498af3b1113a2e662fd8b4a6e40e9d4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröinti vaaditaan vähintään 120 g painaville droneille (tiukempi vaatimus kuin EASAn 250 g:n raja)",
-      "A1/A3-verkkokoulutus on pakollinen — vähimmäisikä 16 vuotta",
-      "Pakollinen vastuuvakuutus kaikelle dronetoiminnalle",
-      "Budapest: kaupunkilennot vaativat luvan, jota on haettava 30 päivää etukäteen",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m, mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maasto voi olla ratkaiseva. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolella.",
+      "Käyttäjän rekisteröinnin lisäksi Unkarissa myös itse drone on rekisteröitävä ilmailuviranomaiselle (laiterekisteröinti) – hakemus on jätettävä vähintään 10 päivää ennen lentoa, ja myönnetyn rekisteritunnuksen on oltava selvästi näkyvissä dronessa. Ainoa poikkeus on leludrone: leluksi luokiteltava, alle 120 g painava drone, jossa ei ole tallennuslaitetta ja joka ei pysty lentämään yli 100 m:n päähän.",
+      "Itsenäinen lentäminen avoimessa kategoriassa edellyttää vähintään 16 vuoden ikää — A1/A3-koulutus KTI:ssä on maksuton, ja koe on suoritettava henkilökohtaisesti KAV:n koekeskuksessa (maksu: 12 700 Ft); todistus on voimassa 5 vuotta ja se tunnustetaan kaikkialla EU:ssa. Nuoremmat lentäjät saavat lentää vain kokeen jo suorittaneen, yli 16-vuotiaan lentäjän välittömässä valvonnassa.",
+      "Pakollinen vastuuvakuutus – viranomaisen mukaan enintään 250 g painavalla dronella tehdyt avoimen kategorian virkistyslennot on vapautettu; pidä vakuutustodistus mukanasi lentäessäsi.",
+      "Taajama-alueiden yllä – missä tahansa kaupungissa tai kylässä, ei vain Budapestissa – droneja saa lentää vain sotilasilmailuviranomaisen osoittamassa ad hoc -ilmatilassa; hakemus on jätettävä vähintään 30 päivää ennen suunniteltua lentoa. Poikkeus: leludrone eli leluksi luokiteltava, alle 120 g painava drone, jossa ei ole tallennuslaitetta ja joka ei pysty lentämään yli 100 m:n päähän.",
       "MyDroneSpace-sovellus vaaditaan jokaista lentoa varten",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Avoimessa kategoriassa drone on pidettävä omassa suorassa näköyhteydessäsi paljain silmin (silmälasit/piilolinssit käyvät; kiikarit tai näyttö eivät kelpaa) — tai käytä tarkkailijaa, jonka kanssa ylläpidät koko ajan selkeää ja toimivaa yhteyttä, jotta voitte yhdessä valvoa ilmatilaa ja välttää yhteentörmäyksiä. ”Follow-me”-tila on erillinen poikkeus, joka on sallittu 50 m:n säteellä lentäjästä.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-      "Vähintään 5 km:n etäisyys kaikista lentoasemista ja laskeutumispaikoista",
-      "Parlamentti, hallintorakennukset ja sotilasalueet: täydellinen lennätyskielto"
+      "EU:ssa ei ole yhtä yhteistä etäisyyttä, joka lentoasemiin on pidettävä. Lentoasemien lähellä olevat rajoitukset julkaistaan maantieteellisinä vyöhykkeinä (15 artikla), joiden muoto ja koko vaihtelevat lentoasemittain. Ennen kuin lennät lentoaseman, lentopaikan tai helikopterikentän lähellä, tarkista maasi virallinen dronevyöhykekartta; lentäminen lähialueella (CTR) edellyttää yleensä lennonjohdon ennakkolupaa.",
+      "Budapestin CTR-alueella LHBP No Drone Zonen ulkopuolella sekä Kecskemétin, Szolnokin ja Pápan sotilaallisilla lähialueilla (MCTR) No Drone Zone -alueiden ulkopuolella saat lentää enintään 40 m:n korkeudella maanpinnasta ilman lennonjohdon lupaa; lentäminen No Drone Zone -alueilla on kielletty. Sellaisten lentopaikkojen, joilla ei ole ATZ-vyöhykettä, vertailupisteen 2 km:n säteellä sekä lääkintähelikopterien laskeutumispaikkojen 750 m:n säteellä saat lentää vain lentopaikan pitäjän suostumuksella, ja sinun on ilmoitettava ilmailuviranomaiselle vähintään 2 päivää etukäteen.",
+      "Dronen lentäminen on kielletty 300 m:n säteellä ensisijaisesta kansallisesta muistomerkkialueesta (parlamenttitalon ja Kossuthin aukion ympäristö), nimetyistä suojelluista kohteista ja valtion toiminnan kannalta erityisen tärkeistä kohteista; se on kielletty myös 300 m:n säteellä nimetyistä kriittisen infrastruktuurin ja maanpuolustuksen infrastruktuurin kohteista, paitsi niiden ylläpitäjän luvalla. Lentäminen on kielletty kielletyssä (P) ilmatilassa, ja rajoitetussa (R) ilmatilassa se on sallittua vain sovellettavien sääntöjen mukaisesti."
     ],
     "importantNotes": [
-      "Rekisteröinti on nyt pakollinen vähintään 120 g painaville droneille — vaatimus on paljon tiukempi kuin EASAn tavanomainen 250 g:n raja",
-      "Budapestissa lupaa on haettava 30 päivää etukäteen — varaa aikaa",
+      "Unkarissa kaikki dronet leludroneja lukuun ottamatta on rekisteröitävä (laiterekisteröinti) vähintään 10 päivää ennen lentoa – painosta riippumatta.",
+      "Taajama-alueiden yllä (ei vain Budapestissa) saa lentää vain ad hoc -ilmatilassa – jätä hakemus vähintään 30 päivää etukäteen.",
       "MyDroneSpace-sovellus vaaditaan jokaista lentoa varten",
-      "Vastuuvakuutus on pakollinen kaikille droneille painosta riippumatta",
-      "GDPR-tietosuoja-asetus koskee tunnistettavia henkilöitä koskevien tietojen keräämistä"
+      "Vastuuvakuutus on pakollinen – viranomaisen mukaan enintään 250 g painavalla dronella tehdyt avoimen kategorian virkistyslennot on vapautettu.",
+      "GDPR-tietosuoja-asetus koskee tunnistettavien henkilöiden kuvaamista"
     ],
     "primaryLinks": [
       {
@@ -35,8 +36,8 @@
         "description": "Rekisteröinti- ja lennonhallintasovellus (vaaditaan kaikkiin lentoihin)"
       },
       {
-        "title": "MyDroneSpace — Ilmatilakartta",
-        "description": "Virallinen interaktiivinen kartta, joka näyttää dronevyöhykkeet ja ilmatilarajoitukset"
+        "title": "MyDroneSpace – ilmatilakartta",
+        "description": "HungaroControlin virallinen mydronespace-verkkokäyttöliittymä, jossa näkyvät dronevyöhykkeet ja ilmatilarajoitukset (vaatii rekisteröitymisen/kirjautumisen)"
       },
       {
         "title": "HungaroControl — Sääntöjen yleiskatsaus",
@@ -49,7 +50,7 @@
         "description": "Unkarin siviili-ilmailuviranomaisen lupakirjatiedot"
       },
       {
-        "title": "HungaroControl — Usein kysyttyä droneista",
+        "title": "MyDroneSpace – usein kysyttyä droneista",
         "description": "Usein kysyttyä Unkarin dronemääräyksistä"
       }
     ],

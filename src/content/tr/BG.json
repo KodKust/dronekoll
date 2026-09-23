@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "53287a6bbcc1a046359816ed2a7de6b009d10fc753031bec7dc231d525fdedf3",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "76cde0e68eaea6de50863e60f85670840fe89558dc64828a40f7f9cfd6b8a0c6",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Yerden en fazla 120 m (EASA Open kategorisi)",
-      "250 g veya daha ağır ya da kameralı dronlar için UAS operatörü olarak kayıt",
-      "Zorunlu A1/A3 çevrim içi eğitim — asgari yaş 16",
-      "Havalimanları çevresinde 8 km'lik koruma bölgesi (EASA standardından daha büyük)",
+      "Açık kategoride azami yükseklik 120 m'dir ve yeryüzünün en yakın noktasına olan mesafe olarak ölçülür — yalnızca dümdüz aşağıya doğru değil; bu nedenle bir yamacın yakınında yanınızdaki arazi de hesaba katılabilir. Yüksek bir yapay engelin (105 m'yi aşan) 50 m yakınında, engelden sorumlu kuruluş engelin yüksekliğinin 15 m üzerine kadar uçmak için izin talep edebilir.",
+      "Dronunuz 250 g veya daha ağırsa (ya da çarpma anında 80 J'den fazla kinetik enerji aktarabilecekse) dron operatörü olarak kaydolmanız gerekir — bu oyuncaklar için bile geçerlidir. 250 g'ın altında, dronda kişisel veri toplayabilen bir sensör varsa, AB Oyuncak Güvenliği Direktifi kapsamında oyuncak sayılmadıkça kayıt yine de gereklidir. Pilot eğitimi/sertifika gereklilikleri ayrıdır ve dronun sınıfına ve alt kategorisine bağlıdır. Operatör kayıt numarası her drona bir etiketle yapıştırılır ve dronda uzaktan tanımlama sistemi (Remote ID) varsa buna da girilir.",
+      "Açık kategoride tek başına uçmak için asgari yaş 16'dır — A1/A3 çevrim içi eğitimi ve sınavı DG CAA sisteminde (uas.caa.bg, nitelikli elektronik imzayla giriş) yapılır, 5 yıl geçerlidir ve AB genelinde tanınır. Asgari yaş yoktur: A1'de C0 sınıfı, 250 g'ın altındaki kendi yapımı bir dron veya gerekli yetkinliğe sahip bir pilotun doğrudan gözetimi altındaki uçuş. Pilot 18 yaşından küçükse, operatör olarak bir ebeveyn veya vasi kaydolur.",
+      "Turistler: dronunuz kayda tabiyse, yaşadığınız AB ülkesinde operatör olarak kaydolun; AB dışında yaşıyorsanız — uçacağınız ilk AB ülkesinde (Bulgaristan'da: uas.caa.bg). AB dışı ülkelerden alınan yeterlilikler tanınmaz — gerekli eğitim (ör. A1/A3) AB'de tamamlanmalıdır.",
+      "Havalimanlarının çevresinde farklı büyüklüklerde coğrafi bölgeler vardır. Sofya, Varna, Burgas, Plovdiv ve Gorna Oryahovitsa havalimanlarında bölgeler 8 km'den büyüktür: iç bölgede her uçuş DG CAA izni gerektirir, daha geniş bölgede ise 50 m'nin üzerindeki uçuşlar. En az 7 iş günü önceden başvurun. uas.caa.bg adresindeki haritayı kontrol edin.",
       "Sofya Havalimanı çevresindeki alanlar şehrin önemli bir bölümünü kapsar",
-      "BULATSA ile uçuş öncesi koordinasyon gereklidir",
-      "Dronu her zaman doğrudan görüş hattınızda (VLOS) tutun",
+      "İzin olmadan kısıtlı veya yasak coğrafi bölgelerde, etkinleştirilmiş (geçici olarak ayrılmış) hava sahası yapılarında ve kamuya açık havalimanlarının korunan sınırları içinde uçmak yasaktır. İhlal durumunda dron iniş yapmaya zorlanabilir veya uzaklaştırılabilir ve her türlü zarar ihlalde bulunana aittir.",
+      "Her uçuştan önce DG CAA haritasında (uas.caa.bg) coğrafi bölgeleri kontrol edin; izin gerektiren bir bölgede, bölge için belirtilen süre içinde DG CAA'ya başvuru yapın.",
+      "Açık kategoride dronu çıplak gözle doğrudan görüş hattınızda tutmalısınız (gözlük/kontakt lens sorun değildir; dürbün veya ekran sayılmaz) — ya da bir gözlemcinin yardımıyla uçmalısınız; hava sahasını birlikte izleyip çarpışmaları önleyebilmeniz için aranızda her zaman açık ve etkili iletişim olmalıdır. “Follow-me” modu yalnızca A1 alt kategorisinde (C0/C1 sınıfı dronlar veya 250 g'ın altındaki kendi yapımı dronlar) pilottan 50 m'ye kadar ayrı bir istisnadır.",
       "İnsan topluluklarının üzerinden uçmayın. Operasyona dahil olmayan kişilerle ilgili kurallar alt kategoriye, sınıf işaretine ve operasyon koşullarına bağlıdır; resmî matrisi kontrol edin.",
       "Gerekli yanıp sönen yeşil ışık kullanıldığında, yürürlükteki bir coğrafi bölge veya ulusal kural daha katı bir koşul getirmediği sürece EASA açık kategori temel kuralları kapsamında gece uçuşuna izin verilir.",
-      "Ulusal parklar ve doğa rezervleri: kısıtlamalar geçerlidir"
+      "Ulusal parklar ve doğa rezervleri: kısıtlamalar geçerlidir",
+      "Üçüncü şahıs sorumluluk sigortası 20 kg'ın üzerindeki dronlar için ve ağırlıktan bağımsız olarak ticari/profesyonel faaliyet için zorunludur. Açık kategoride profesyonel faaliyet için operatör DG CAA'ya bir beyan sunar."
     ],
     "importantNotes": [
-      "Her uçuştan önce BULATSA ile koordinasyon gereklidir",
-      "Havalimanları çevresinde 8 km'lik güvenlik bölgesi — EASA standardından daha büyük",
+      "Uçuştan önce uas.caa.bg adresinde coğrafi bölgeleri ve BULATSA'nın B-FLIP sisteminde aktif NOTAM'ları kontrol edin",
+      "Büyük havalimanlarının çevresinde 8 km'den büyük coğrafi bölgeler vardır; bunların içinde DG CAA izni gerekir (daha geniş bölgede — 50 m'nin üzerindeki uçuşlar için). uas.caa.bg adresindeki haritayı kontrol edin.",
       "Sofya Havalimanı çevresindeki alanlar şehrin büyük bir bölümü üzerindeki uçuşları kısıtlar",
       "Askeri tesisler: uçmanın kesinlikle yasak olduğu alanlar",
       "Tanınabilir kişiler fotoğraflanırken GDPR geçerlidir"
@@ -40,7 +43,7 @@
       },
       {
         "title": "DG GVA — Dron Bölgeleri",
-        "description": "Dron uçuşları için coğrafi bölgeler hakkında bilgi ve kısıtlamalar"
+        "description": "Dron uçuşları için coğrafi bölgeleri ve kısıtlamaları gösteren resmî DG CAA haritası"
       }
     ],
     "secondaryLinks": [
@@ -50,10 +53,10 @@
       },
       {
         "title": "BULATSA — NOTAM",
-        "description": "Aktif NOTAM'lar ve geçici hava sahası kısıtlamaları"
+        "description": "B-FLIP portalında aktif NOTAM'lar ve geçici hava sahası kısıtlamaları (B-FLIP kaydı gerektirir)"
       }
     ],
-    "disclaimerText": "Uçuştan önce her zaman DG CAA ve BULATSA'nın resmî kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Bulgaristan, uçuş öncesi koordinasyon gerekliliği dahil ulusal eklerle EASA mevzuatını izler.",
+    "disclaimerText": "Uçuştan önce her zaman DG CAA (uas.caa.bg) ve BULATSA'nın resmî kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Bulgaristan, bazı coğrafi bölgelerdeki uçuşlar için DG CAA izni dahil ulusal eklerle EASA mevzuatını izler.",
     "sectionLabelRules": "TEMEL KURALLAR (EASA OPEN KATEGORİSİ)",
     "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
     "sectionLabelSecondary": "EK KAYNAKLAR",

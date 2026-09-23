@@ -1,28 +1,35 @@
 {
   "meta": {
-    "sourceHash": "554dcb2ca7172e65f382ee60023e605b64f419f74a40862fa094a3c138b1853d",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "sourceHash": "dffaad15a571e359fb1ed462806f7dd69c5c983c8a5aea73cf0df596497c54f0",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Um máximo de 120 m acima do nível do solo (Categoria Aberta EASA)",
-      "Registe-se como operador de UAS se o drone tiver peso igual ou superior a 250 g ou estiver equipado com câmara",
-      "É necessária formação online A1/A3 — idade mínima de 16 anos",
-      "Seguro de responsabilidade civil obrigatório para drones com peso superior a 1,5 kg; a cobertura mínima depende do peso — 250–1500 g: 150 000 €; 1501–5000 g: 500 000 €; >5 kg: 1 000 000 €",
-      "É proibido sobrevoar pontes, caminhos-de-ferro, autoestradas e linhas elétricas",
-      "Mantenha sempre a linha de vista direta (VLOS)",
+      "Na categoria aberta, a altura máxima é de 120 m, medida como a distância ao ponto mais próximo da superfície do solo — não apenas na vertical, pelo que, junto a um declive, o terreno ao lado também pode contar. A menos de 50 m de um obstáculo artificial alto (mais de 105 m), a entidade responsável pelo obstáculo pode pedir autorização para voar até 15 m acima da altura do obstáculo.",
+      "Tem de se registar como operador de drones se o seu drone pesar 250 g ou mais (ou puder transferir mais de 80 J de energia cinética numa colisão) — isto aplica-se também a brinquedos. Se pesar menos de 250 g, o registo continua a ser obrigatório se o drone tiver um sensor capaz de captar dados pessoais, a menos que seja considerado um brinquedo nos termos da Diretiva da UE relativa à segurança dos brinquedos. Os requisitos de formação/certificado do piloto são independentes e dependem da classe e da subcategoria do drone.",
+      "Tem de se registar como operador de UAS no seu país de residência da UE (se viver fora da UE — no primeiro país da UE onde voar); o registo é válido em toda a UE, e não é permitido estar registado em dois países ao mesmo tempo. Na Letónia, o registo custa 5 € e é válido por 1 ano. Cada drone tem de estar marcado com o número de operador de UAS.",
+      "Um drone a partir de 250 g exige o curso e o exame online A1/A3. Desde 2024, os drones sem marca de classe C e com peso igual ou superior a 250 g só podem voar na subcategoria A3 — longe de pessoas não envolvidas e a pelo menos 150 m de zonas residenciais, comerciais, industriais e recreativas.",
+      "Na Letónia, a idade mínima para voar de forma independente é de 16 anos; os pilotos mais novos só podem voar sob a supervisão direta de um piloto remoto qualificado com pelo menos 16 anos, ou com um drone da classe C0 concebido como brinquedo.",
+      "Os drones das classes C1, C2 (e C3) têm de voar com a identificação remota direta (Remote ID) ativa e com o seu número de operador de UAS introduzido.",
+      "O seguro de responsabilidade civil é obrigatório, exceto para drones com massa inferior a 250 g e velocidade máxima inferior a 19 m/s. Limite mínimo: nas subcategorias A1 e A2 — 50 000 €; para drones a partir de 20 kg e na categoria específica — 750 000 SDR (Regulamento (CE) n.º 785/2004).",
+      "Não existe uma proibição geral, mas podem ser estabelecidas zonas geográficas UAS sobre estradas nacionais, pontes, instalações ferroviárias e linhas elétricas de 110/330 kV (até 50 m delas) — consulte airspace.lv. Evite, sempre que possível, sobrevoar pessoas, tráfego, edifícios e estruturas de engenharia.",
+      "É proibido filmar ou fotografar objetos de infraestruturas críticas que ostentem o sinal „BEZ SASKAŅOŠANAS FOTOGRAFĒT, FILMĒT AIZLIEGTS“.",
+      "Na categoria aberta, tem de manter o drone dentro da sua linha de vista direta, sem ajudas (óculos/lentes de contacto são permitidos; binóculos ou um ecrã não contam) — ou voar com a ajuda de um observador, mantendo sempre uma comunicação mútua clara e eficaz, para que possam vigiar em conjunto o espaço aéreo e evitar colisões. O modo “Follow-me” é uma exceção à parte, permitida até 50 m do piloto.",
       "Não sobrevoe aglomerações de pessoas. As regras aplicáveis a pessoas não envolvidas dependem da subcategoria, da marca de classe e das condições de operação; consulte a matriz oficial.",
-      "Pelo menos 5 km de qualquer aeroporto ou aeródromo",
+      "Não existe uma distância única a nível da UE a manter em relação aos aeroportos. As restrições junto a aeroportos são publicadas como zonas geográficas (artigo 15.º), cuja forma e dimensão variam de aeroporto para aeroporto. Antes de voar perto de um aeroporto, aeródromo ou heliporto, consulte o mapa oficial de zonas para drones do seu país; voar numa zona de controlo (CTR) exige normalmente autorização prévia do controlo de tráfego aéreo.",
+      "Na Letónia, desde 1 de janeiro de 2025, os voos em zonas geográficas UAS que exigem notificação ou aprovação do voo têm de ser notificados antes do voo no Sistema de Informação de Aeronaves Não Tripuladas da CAA, o BGKIS (e.caa.gov.lv); os operadores registados noutro país do EEE ou na Suíça também podem criar uma conta no BGKIS. A aprovação em zonas em torno de aeródromos pode demorar até 5 dias úteis (até 30 dias se o plano de voo tiver de ser alterado).",
       "Os voos noturnos são permitidos ao abrigo das normas de referência da categoria aberta da EASA, desde que seja utilizada a luz verde intermitente exigida, a menos que uma zona geográfica ou uma norma nacional em vigor imponha uma condição mais rigorosa.",
-      "O CTR do Aeroporto de Riga abrange uma área significativa"
+      "O CTR de Riga abrange grande parte da cidade. Sem aprovação separada, é permitido voar abaixo de 50 m acima do solo e a mais de 5 km das soleiras das pistas 18 e 36 com um drone até 2 kg; um drone com mais de 2 kg exige uma qualificação adicional (por exemplo, um certificado de competência A2). Acima de 50 m ou dentro da zona de 5 km em torno das soleiras das pistas, cada voo tem de ser aprovado previamente junto da VAS „Latvijas gaisa satiksme“.",
+      "A pedido da polícia, da CAA, da guarda de fronteira ou de outro funcionário, interrompa imediatamente o voo e apresente um documento de identificação – traga-o consigo.",
+      "Um piloto remoto ou observador com uma taxa de álcool no sangue superior a 0,2 ‰ ou sob a influência de substâncias inebriantes pode ser multado em até 700 €; é proibido recusar o teste. Multas: até 700 € (por exemplo, por voar sem o seguro obrigatório), até 1 000 € por violar a altura permitida ou os requisitos das zonas de aeródromo."
     ],
     "importantNotes": [
-      "O seguro depende do peso do drone — 250–1500 g: 150 000 €; 1501–5000 g: 500 000 €; >5 kg: 1 000 000 €",
-      "É estritamente proibido sobrevoar pontes, caminhos-de-ferro, autoestradas e linhas elétricas",
+      "Seguro obrigatório, exceto drones < 250 g com velocidade máx. < 19 m/s; mínimo A1/A2 — 50 000 €, a partir de 20 kg e na categoria específica — 750 000 SDR",
+      "Podem aplicar-se zonas geográficas UAS sobre pontes, caminhos de ferro, estradas nacionais e linhas elétricas de 110/330 kV (até 50 m) — consulte airspace.lv",
       "O CTR do Aeroporto de Riga constitui uma grande área restrita",
-      "Pode haver restrições adicionais nas zonas fronteiriças com a Rússia e a Bielorrússia",
+      "Ao longo da fronteira com a Bielorrússia e a Rússia existe a área restrita EVR17A BORDER EAST (do solo até 500 ft, ativa H24). Os voos de drones nesta área (incluindo < 250 g) só são permitidos com autorização do Departamento de Aviação e Operações Especiais da Guarda Nacional de Fronteiras, que tem de ser obtida pelo menos 24 horas antes do dia de voo previsto (os documentos têm de ser apresentados com pelo menos 32 horas de antecedência).",
       "O RGPD aplica-se à filmagem e à fotografia de pessoas identificáveis"
     ],
     "primaryLinks": [
@@ -49,7 +56,7 @@
         "description": "Serviços de tráfego aéreo letões e informação sobre o espaço aéreo"
       },
       {
-        "title": "CAA Latvia — Perguntas Frequentes sobre Drones",
+        "title": "CAA Letónia – Perguntas frequentes sobre drones",
         "description": "Perguntas frequentes sobre a regulamentação de drones na Letónia"
       }
     ],

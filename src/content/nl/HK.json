@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ab66a0144761f05a1cfb8f54499fb2e2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -11,19 +11,23 @@
     "sectionLabelPrimary": "OFFICIËLE BRONNEN",
     "sectionLabelSecondary": "AANVULLENDE HULPBRONNEN",
     "linksSheetTitle": "Luchtruim en regels — Hong Kong",
-    "dronePilotCredentialName": "SUA-pilotenbevoegdheid",
+    "dronePilotCredentialName": "Certificaat voor piloot op afstand (standard / advanced rating)",
     "keyRules": [
-      "Max. 91 m (300 ft) boven de grond — lager dan in de meeste landen",
-      "Registratie vereist voor alle drones boven 250 g via eSUA portal",
+      "Max. 91 m (300 ft) boven de grond voor drones van Cat. A2 (250 g–7 kg) en geregistreerde vrijgestelde modellen tot 250 g; niet-geregistreerde drones tot 250 g: max. 30 m (100 ft)",
+      "Max. snelheid 50 km/h (Cat. A2); niet-geregistreerde drones tot 250 g max. 20 km/h",
+      "Drones boven 250 g — en drones tot 250 g die buiten de grenzen van Cat. A1 worden gevlogen — moeten via het eSUA-portaal worden geregistreerd en gelabeld, en de piloot op afstand (vanaf 14 jaar) moet zich ook op eSUA registreren. Geldt ook voor bezoekers",
       "Beperkingen nabij luchthavens in Hong Kong zijn vastgelegd als officieel afgekondigde Restricted Flying Zones (RFZ) rond HKIA en andere vliegvelden/helihavens, zoals weergegeven op de CAD Drone Map — er geldt geen enkele vaste afstand. Voor vliegen binnen een RFZ is toestemming van CAD vereist, en sommige gebieden (bijv. Victoria Harbour) zijn beperkt ongeacht de afstand tot een luchthaven.",
-      "Minimale afstand van 50 m tot niet-betrokken personen",
+      "Niet vliegen boven het verboden gebied bij Penny's Bay (bijv. Hong Kong Disneyland) — het is bij afzonderlijke wet vastgesteld en valt niet onder de RFZ-zones van de CAD Drone Map",
+      "Houd minstens 10 m (≤20 km/h) of 30 m (boven 20 km/h, Cat. A2) afstand van niet-betrokken personen, voertuigen, vaartuigen en bouwwerken; vlieg nooit boven hen",
       "Alleen overdag — geen nachtvluchten zonder speciale toestemming",
       "Voor het gebied rond Victoria Harbour gelden beperkingen",
       "Houd de drone altijd binnen direct zicht (VLOS)",
+      "Drones boven 250 g moeten geo-awareness en een vluchtlogboek hebben; bewaar vluchtlogboeken 6 maanden",
       "Hong Kong heeft zijn eigen regels — NIET de regels van mainland China"
     ],
     "importantNotes": [
-      "De maximale hoogte is slechts 91 m (300 ft) — aanzienlijk lager dan de standaard van 120 m in de meeste landen",
+      "De maximale hoogte is 91 m (300 ft), en slechts 30 m (100 ft) voor niet-geregistreerde drones tot 250 g — ruim onder de standaard van 120 m in de meeste landen",
+      "Bezoekers: drones boven 250 g vereisen registratie van drone en piloot op eSUA met je paspoort (normaal 6 maanden geldig). Het CAD-label kan niet worden afgedrukt en wordt niet naar het buitenland verstuurd — haal het op bij het hoofdkantoor van de CAD of laat het naar een adres in Hong Kong sturen (bijv. je hotel)",
       "Voor standaardvluchten in Category A1 en standaard ingeschaalde A2-operaties is verzekering NIET verplicht. Een dekking van HK$10M geldt voor geavanceerde operaties en drones van Category B; voor de nieuwere Category C (25-150kg, ingevoerd op 18 July 2025) is HK$15M (25-75kg) of HK$20M (75-150kg) vereist. In CAD’s eigen tabel met vereisten staat als ingangsdatum voor de bredere invoering van de verzekeringsplicht ‘to be determined’ — controleer de actuele status voordat je ervan uitgaat dat dekking verplicht is voor jouw specifieke categorie.",
       "Hong Kong heeft volledig andere regels dan mainland China",
       "Victoria Harbour en omliggende gebieden kennen vliegbeperkingen",
@@ -46,11 +50,11 @@
     "secondaryLinks": [
       {
         "title": "CAD — Advanced Rating-training",
-        "description": "Advanced Rating-training vereist voor drones boven 250 g"
+        "description": "Advanced Rating-training — alleen vereist voor geavanceerde operaties"
       },
       {
         "title": "CAD — Verzekeringsvereisten",
-        "description": "Verplichte vereisten voor een aansprakelijkheidsverzekering voor derden bij drone-operaties"
+        "description": "Aansprakelijkheidsverzekering voor derden — verplicht voor geavanceerde operaties; nog niet van kracht voor standaardvluchten in Cat. A2"
       }
     ]
   }

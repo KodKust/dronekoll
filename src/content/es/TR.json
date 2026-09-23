@@ -1,41 +1,43 @@
 {
   "meta": {
-    "sourceHash": "965aaa2f6c885d898cf7ee6ff9907d07afe1d10c3a57077ecae02dbc001de716",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "sourceHash": "6ab41c1c6a873ddfc4cf87129700fea1004f13537f36d6d678dee51194176fb4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Altitud máxima de vuelo: 120 metros (400 ft) sobre el nivel del suelo",
-      "Tu UAV debe permanecer siempre dentro de tu campo visual (VLOS)",
-      "Solo vuelo diurno; para vuelos nocturnos se requiere un permiso independiente",
-      "Al menos 9 km de distancia de cualquier aeropuerto (incluidos Estambul IST y Sabiha Gökçen SAW)",
-      "Debe mantenerse una distancia horizontal mínima de 50 metros respecto a otras personas",
-      "Todos los UAV que pesen más de 500 g deben registrarse en iha.shgm.gov.tr",
-      "Está prohibido volar en zonas históricas (Santa Sofía, Topkapı, Sultanahmet) y a lo largo del corredor del Bósforo",
-      "Está terminantemente prohibido volar sobre zonas militares, edificios gubernamentales y eventos multitudinarios",
-      "El uso de UAV de más de 500 g por parte de pilotos extranjeros requiere una solicitud por vía diplomática",
-      "El vuelo FPV está prohibido sin una autorización independiente"
+      "La altitud máxima de vuelo es de 120 m (400 ft); en los vuelos P0/P1, el UAV debe mantenerse dentro del alcance visual (VLOS) y no debe alejarse más de 3000 m del piloto. Volar por encima de 120 m solo es posible con una licencia P2 y en coordinación con las autoridades competentes.",
+      "Debes mantener siempre tu UAV dentro de tu campo de visión, en contacto visual directo sin la ayuda de dispositivos ópticos ni electrónicos (SHT-İHA).",
+      "Los vuelos de aficionado (P0) solo pueden realizarse de día; las operaciones nocturnas son posibles con una licencia P1 o P2 y el equipo adecuado (SHT-İHA art. 15). Durante el periodo de transición (hasta el 31 de julio de 2027), obtén permiso de la SHGM para los vuelos nocturnos.",
+      "Antes de volar cerca de aeropuertos, consulta el mapa en iha.shgm.gov.tr (más adelante, İHATTYS); los vuelos en todos los lugares fuera de las zonas verdes están sujetos a permiso de la SHGM. La nueva SHT-İHA no establece una distancia fija; deberían mantenerse los 9 km (5 NM) de la directiva anterior como distancia mínima segura.",
+      "Volar sobre multitudes se considera una operación de alto riesgo; está vedado a los pilotos P0 y P1 y solo puede realizarse con una licencia P2 (SHT-İHA art. 6). La nueva directiva no establece una distancia fija; se recomienda mantenerse al menos a 50 m de personas y estructuras (el valor de la directiva anterior) como mínimo seguro.",
+      "Nueva SHT-İHA (2026): salvo los UAV simples de tipo juguete, todos los usuarios de UAV, incluidos los de menos de 500 g, deben registrarse en İHATTYS; el plazo para las aeronaves existentes es el 31 de julio de 2027. Hasta que İHATTYS entre en funcionamiento, los UAV de 500 g o más se registran en iha.shgm.gov.tr.",
+      "Según la nueva SHT-İHA, la autorización de vuelo está vinculada a la licencia de piloto: P0 de aficionado (edad mínima 10 años), P1 comercial (18 años), P2 avanzada; los UAV simples no requieren licencia. Durante el periodo de transición (hasta el 31 de julio de 2027), los certificados İHA0/İHA1 y las licencias İHA2/İHA3 existentes siguen siendo válidos y se convierten en P0/P1/P2 mediante adaptación.",
+      "La identificación remota (Remote ID) y la geovalla (geofencing) son obligatorias para los UAV que no sean UAV simples; eres responsable de cargar en tu UAV los datos actualizados de zonas restringidas (SHT-İHA art. 12, 23; transición para los UAV existentes hasta el 31 de julio de 2027).",
+      "Antes de volar en la Península Histórica de Estambul (Santa Sofía, Topkapı, Sultanahmet) y en los alrededores del Bósforo, consulta el mapa en iha.shgm.gov.tr; los vuelos en todos los lugares fuera de las zonas verdes están sujetos a permiso de la SHGM, y en las zonas rojas el permiso solo se concede con la aprobación de la institución que cerró el área.",
+      "Está terminantemente prohibido volar sobre zonas militares y edificios gubernamentales; volar sobre zonas densamente pobladas requiere permiso previo de la SHGM.",
+      "Los pilotos extranjeros que usen UAV de 500 gramos o más deben presentar la solicitud por vía diplomática con al menos 20 días hábiles de antelación mediante el formulario FR.23, «İHA Uçuş İzin Talep Formu» (formulario de solicitud de permiso de vuelo de UAV).",
+      "En los vuelos FPV debe estar presente un observador que mantenga el UAV en contacto visual continuo, y debe mantenerse una comunicación continua entre el piloto y el observador; el equipo FPV debe operar en frecuencias autorizadas por la BTK (SHGM FAQ). La nueva SHT-İHA define el alcance visual (VLOS) como el contacto visual directo sin la ayuda de dispositivos ópticos/electrónicos; consulta a la SHGM antes de volar en FPV."
     ],
     "importantNotes": [
-      "⚠️ PILOTOS EXTRANJEROS: Para operar un dron de más de 500 gramos en Turquía, debes presentar una solicitud a la Dirección General de Aviación Civil (SHGM) por vía diplomática al menos 20 días hábiles antes del vuelo, contratar un seguro y volar bajo la supervisión de un ciudadano turco con licencia İHA-2. Los drones de menos de 500 g (como el DJI Mini, Flip, etc.) están exentos de estos requisitos.",
-      "🗺️ SISTEMA DE ZONAS: Turquía se divide en zonas verdes (abiertas), amarillas (requieren permiso) y rojas (prohibidas). Asegúrate de comprobar el estado de la zona en iha.shgm.gov.tr antes de tu vuelo.",
-      "🏛️ SITIOS HISTÓRICOS Y TURÍSTICOS: Está prohibido volar sobre la península histórica de Estambul (Sultanahmet, Santa Sofía, Topkapı, Gran Bazar), ciertos valles de Capadocia, Pamukkale, Éfeso y otros yacimientos arqueológicos sin permiso especial del Ministerio de Cultura y Turismo.",
-      "🛂 IMPORTACIÓN Y ADUANAS: Si entras a Turquía con drones de más de 500 g, es posible que debas declararlos en la aduana. La importación con fines comerciales requiere un trámite aparte; el Bósforo, los puertos militares y las regiones fronterizas están sujetos a restricciones adicionales."
+      "🛂 PILOTOS EXTRANJEROS — NUEVA SHT-İHA (30 de julio de 2026): los UAV traídos del extranjero deben tener el módulo de software de conformidad de la SHGM; sin el módulo, la aeronave no puede registrarse ni volar en Turquía. Los UAV con matrícula extranjera deben ser compatibles con İHATTYS; la SHGM evalúa las licencias extranjeras y expide la P1/P2 tras una formación de diferencias. Para los UAV adquiridos antes del 30 de julio de 2026, el plazo de adaptación dura hasta el 31 de julio de 2027. Hasta que İHATTYS entre en funcionamiento, las solicitudes para UAV de 500 g o más se presentan a la SHGM con el formulario FR.23, por vía diplomática, con al menos 20 días hábiles de antelación.",
+      "🗺️ SISTEMA DE ZONAS: según la nueva SHT-İHA (30 de julio de 2026), las zonas se publicarán en el mapa de İHATTYS como verdes (sin necesidad de permiso), rojas (cerradas por la institución competente; solo con la aprobación de esa institución, permiso de la SHGM y un NOTAM) y naranjas (asignadas a terceros). Hasta que İHATTYS entre en funcionamiento, se usa el mapa de iha.shgm.gov.tr (verde/amarillo/rojo). En ambos sistemas, los vuelos en todos los lugares fuera de las zonas verdes están sujetos a permiso de la SHGM. Consulta siempre el mapa antes de volar.",
+      "🏛️ LUGARES HISTÓRICOS Y TURÍSTICOS: las grabaciones de video, cine o fotografía en museos y en los lugares vinculados a museos están sujetas a permiso del Ministerio de Cultura y Turismo; para las restricciones de vuelo de UAV, consulta también el mapa en iha.shgm.gov.tr.",
+      "🛂 UAV TRAÍDOS DEL EXTRANJERO: los UAV de 500 g o más deben registrarse en iha.shgm.gov.tr como máximo 3 días después de su entrada en Turquía (Ley n.º 2920, art. 144). Los extranjeros necesitan un número de identidad turco o un permiso de residencia para registrarse para uso deportivo o de aficionado. Puede exigirse una declaración en la aduana a la entrada; las importaciones con fines comerciales requieren un proceso aparte. Los puertos militares y las regiones fronterizas están sujetos a restricciones adicionales."
     ],
     "primaryLinks": [
       {
-        "title": "SHGM — Vehículo aéreo no tripulado (sitio oficial)",
-        "description": "Página oficial de UAV de la Dirección General de Aviación Civil: Directiva SHT-UAV, categorías de peso (UAV-0/1/2/3) y reglas operativas"
+        "title": "SHGM — İHA Takip / İHATTYS (portal oficial)",
+        "description": "Portal oficial de UAV de la Dirección General de Aviación Civil (İHATTYS). Hasta que la SHGM anuncie que el sistema ha entrado en funcionamiento, los trámites de registro y de permiso de vuelo se realizan por los métodos actuales (iha.shgm.gov.tr y formularios de la SHGM)."
       },
       {
-        "title": "Sistema de registro de UAV (obligatorio para drones de 500 g o más)",
-        "description": "Portal de registro obligatorio para todos los drones de más de 500 gramos. Requiere un número de identidad turco; el formulario FR-03 aplica a personas extranjeras"
+        "title": "Sistema de registro de UAV (obligatorio por encima de 500 g)",
+        "description": "Portal de registro obligatorio para todos los drones de más de 500 gramos. Requiere un número de identidad turco; para los ciudadanos extranjeros se aplica el formulario FR-03"
       },
       {
-        "title": "Solicitud de registro de piloto de UAV (Administración electrónica)",
-        "description": "Servicio oficial a través de la Administración electrónica para solicitudes de registro de piloto de UAV-1 y superiores. Se requiere licencia de piloto para operaciones comerciales."
+        "title": "Solicitud de registro de piloto de UAV (e-Devlet)",
+        "description": "Servicio oficial a través de e-Devlet (administración electrónica) para las solicitudes de registro de piloto İHA-1 y superiores. Se requiere una licencia de piloto para las operaciones comerciales."
       },
       {
         "title": "Solicitud de autorización de vuelo (zonas amarillas/rojas)",
@@ -44,23 +46,27 @@
     ],
     "secondaryLinks": [
       {
-        "title": "Seguimiento de UAV — App móvil oficial (Android)",
-        "description": "App oficial de seguimiento de UAV de la SHGM: zonas de espacio aéreo, permisos de vuelo y gestión de la licencia de piloto"
+        "title": "İHA Takip — App móvil oficial (Android)",
+        "description": "App oficial İHA Takip / İHATTYS de la SHGM. Hasta que la SHGM anuncie que İHATTYS ha entrado en funcionamiento, los trámites de registro y de permiso de vuelo se realizan por los métodos actuales (iha.shgm.gov.tr y formularios de la SHGM)."
+      },
+      {
+        "title": "İHATTYS — App móvil oficial (iOS)",
+        "description": "Versión para iOS de la app oficial İHATTYS de la SHGM; los trámites realizados en la app no son válidos hasta que la SHGM haga el anuncio correspondiente"
       },
       {
         "title": "SHGM — Página institucional",
         "description": "Página principal de la Dirección General de Aviación Civil: toda la normativa aeronáutica, anuncios e información de contacto"
       },
       {
-        "title": "Directiva SHT-UAV (texto del reglamento)",
-        "description": "Directiva de Aviación Civil — Vehículo aéreo no tripulado (SHT-UAV): la directiva oficial que sirve de base legal para todas las operaciones"
+        "title": "Directiva SHT-İHA 2026 (texto normativo, PDF)",
+        "description": "Directiva sobre sistemas de aeronaves no tripuladas (SHT-İHA), en vigor desde el 30 de julio de 2026: el texto oficial de la directiva que sirve de base legal para todas las operaciones con UAV"
       }
     ],
-    "disclaimerText": "Asegúrate de consultar las fuentes oficiales de la SHGM antes de volar. Esta app es una herramienta, no una autoridad legal. Las operaciones con UAV en Turquía se rigen por la Directiva SHT-UAV; todos los aparatos de 500 g o más deben registrarse en el sistema de registro de la SHGM (iha.shgm.gov.tr).",
+    "disclaimerText": "Asegúrate de consultar las fuentes oficiales de la SHGM antes de volar. Esta app es una herramienta, no una autoridad legal. En Turquía, las operaciones con UAV se rigen por la nueva SHT-İHA (Directiva sobre sistemas de aeronaves no tripuladas), en vigor desde el 30 de julio de 2026; el periodo de transición dura hasta el 31 de julio de 2027. Todos los aparatos de más de 500 g deben registrarse en el sistema de registro de la SHGM (iha.shgm.gov.tr).",
     "sectionLabelRules": "REGLAS BÁSICAS",
     "sectionLabelPrimary": "FUENTES OFICIALES",
     "sectionLabelSecondary": "RECURSOS ADICIONALES",
     "linksSheetTitle": "Espacio aéreo y normativa — Turquía",
-    "dronePilotCredentialName": "Licencia de piloto de UAV"
+    "dronePilotCredentialName": "Licencia de piloto de UAV (P0/P1/P2)"
   }
 }

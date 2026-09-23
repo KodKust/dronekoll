@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "362edae763d5f971da0104f4b2bf8c97",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb2939eb8f1213b47dba87ec9440da8e",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,23 @@
     "keyRules": [
       "Ne daugiau kaip 120 m virš žemės paviršiaus (AGL)",
       "Mažiausias 30 m atstumas nuo bet kurio operacijoje nedalyvaujančio asmens — niekada neskraidykite virš žmonių",
-      "Daugiau kaip 250 g sveriantys dronai turi laikytis bent 5,5 km atstumo nuo kontroliuojamo oro uosto. Lengvesni nei 250 g dronai gali skraidyti šioje zonoje, tačiau tik iki 45 m virš žemės paviršiaus, už aerodromo ribų ir nekeldami pavojaus kitiems orlaiviams.",
-      "Lengvesni nei 250 g dronai: ne aukščiau kaip 45 m, kai skraidoma 5,5 km spinduliu nuo kontroliuojamo oro uosto",
+      "Dronai, sunkesni nei 250 g: neskraidykite 5,5 km atstumu nuo kontroliuojamo oro uosto ar kilimo ir tūpimo tako artėjimo / išskridimo trajektorijoje iki 7 km (7–8,5 km: ne aukščiau kaip 90 m). Dronai, sveriantys 250 g ar mažiau, 5,5 km atstumu gali skristi iki 45 m virš žemės, bet niekada ne virš artėjimo / išskridimo trajektorijų ar jose, ne oro uosto teritorijoje ir ne ten, kur jie keltų pavojų orlaiviams.",
+      "5,5 km atstumu nuo oro uosto be skrydžių valdymo bokšto arba 1,4 km atstumu nuo sraigtasparnių nusileidimo aikštelės: pastebėję pilotuojamą orlaivį ar sraigtasparnį, nekilkite — pasitraukite iš jo kelio ir kuo greičiau nusileiskite",
+      "Niekada neskraidykite virš ar šalia avarinių tarnybų operacijų (policijos, greitosios pagalbos, paieškos ir gelbėjimo, gaisrų gesinimo) ar vietovių, susijusių su visuomenės saugumu",
       "Pramoginis skraidymas: tik šviesiu paros metu (nuo civilinės aušros iki civilinės prieblandos). Naktiniam skraidymui reikalingas RePL + ReOC leidimas",
       "Visada išlaikykite tiesioginį regėjimo ryšį (VLOS)",
+      "Vienu metu skraidinkite tik vieną droną",
       "Pramoginiams dronams registracija nereikalinga (bet kokio svorio dronams, sveriantiems mažiau nei 25 kg, taikomos standartinės taisyklės)",
-      "Komercinis naudojimas nuo 2 kg: reikalinga nuotolinio piloto licencija (RePL)",
+      "Skrydžiai darbo tikslais (bet kokio svorio, įskaitant lengvesnius nei 250 g): užregistruokite droną (nemokamai iki 500 g; 40 AUD už kiekvieną sunkesnį nei 500 g droną) ir turėkite operatoriaus akreditaciją arba nuotolinio piloto licenciją (RePL). Sunkesniems nei 2 kg paprastai taip pat reikalingi RePL ir ReOC. Užsienyje registruotų dronų Australijoje užregistruoti negalima — skrydžiams darbo tikslais gaukite CASA leidimą per myCASA",
       "Nacionalinių parkų taisyklės skiriasi pagal valstiją — pasitikrinkite prieš skrydį (kai kuriuose dronai visiškai draudžiami)"
     ],
     "importantNotes": [
-      "Viktorija draudžia dronus VISUOSE valstijos ir nacionaliniuose parkuose — jokių išimčių be leidimo",
+      "Sidnėjaus uostas ir jo apylinkės yra „zona be dronų“ (žemai skrendantys sraigtasparniai ir hidroplanai) — daugelyje turistinių vietų skraidyti negalima; pasitikrinkite CASA patikrintoje programėlėje",
+      "Viktorija: Parks Victoria valdomose teritorijose pramoginiai dronai visiškai draudžiami; filmuoti dronu reikia Parks Victoria leidimo ir licencijuoto, CASA sertifikuoto operatoriaus",
       "NSW nacionaliniams parkams reikalingas NPWS leidimas — baudos iki 3 300 $",
       "Pietų Australija leidžia dronus parkuose tik moksliniams tyrimams arba komerciniam filmavimui",
-      "Bausmės už neteisėtas operacijas gali viršyti 10 000 AUD"
+      "Dronai draudžiami Uluṟu-Kata Tjuṯa ir Kakadu nacionaliniuose parkuose (be leidimo tai pažeidimas pagal EPBC Act)",
+      "CASA gali skirti iki 1 820 AUD baudą už kiekvieną pažeidimą; teismo baudos — iki 18 200 AUD, o jei jūsų dronas kelia pavojų orlaiviams — iki 2 metų laisvės atėmimo"
     ],
     "primaryLinks": [
       {
@@ -36,7 +40,7 @@
       },
       {
         "title": "OpenSky — Oro erdvės žemėlapis",
-        "description": "CASA patikrinti oro erdvės duomenys su ribojimais tikruoju laiku ir TFR įspėjimais"
+        "description": "CASA patikrinti oro erdvės duomenys su ribojimais tikruoju laiku"
       },
       {
         "title": "CASA — Registracija",

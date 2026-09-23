@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ab66a0144761f05a1cfb8f54499fb2e2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -11,19 +11,23 @@
     "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
     "sectionLabelSecondary": "YTTERLIGARE RESURSER",
     "linksSheetTitle": "Luftrum och regler – Hongkong",
-    "dronePilotCredentialName": "SUA-pilotbehörighet",
+    "dronePilotCredentialName": "Fjärrpilotcertifikat (standardbehörighet/avancerad behörighet)",
     "keyRules": [
-      "Högst 91 m (300 ft) över marken – lägre än i de flesta länder",
-      "Registrering krävs för alla drönare över 250 g via eSUA-portalen",
+      "Max 91 m (300 ft) över marken för drönare i kat. A2 (250 g–7 kg) och registrerade undantagna modeller upp till 250 g; oregistrerade drönare upp till 250 g: max 30 m (100 ft)",
+      "Maxhastighet 50 km/h (kat. A2); oregistrerade drönare upp till 250 g max 20 km/h",
+      "Drönare över 250 g – och drönare upp till 250 g som flygs utöver gränserna för kat. A1 – måste registreras och märkas via eSUA-portalen, och fjärrpiloten (från 14 år) måste också registrera sig på eSUA. Gäller även besökare",
       "Restriktioner nära flygplatser definieras i Hongkong som officiellt kungjorda restriktionszoner (RFZ) runt HKIA och andra flygfält och helikopterplattor. Zonerna visas på CAD Drone Map – något enda fast avstånd gäller inte. Flygning inom en RFZ kräver tillstånd från CAD, och vissa områden (t.ex. Victoria Harbour) är restriktionsbelagda oavsett avståndet till en flygplats.",
-      "Minst 50 m till personer som inte deltar",
+      "Ingen flygning över det förbjudna området nära Penny's Bay (t.ex. Hong Kong Disneyland) – det har inrättats genom separat lagstiftning och omfattas inte av RFZ-zonerna på CAD Drone Map",
+      "Håll minst 10 m (≤20 km/h) eller 30 m (över 20 km/h, kat. A2) från utomstående personer, fordon, fartyg, byggnader och andra konstruktioner; flyg aldrig över dem",
       "Endast dagsljus – ingen nattflygning utan särskilt tillstånd",
       "Området kring Victoria Harbour är restriktionsbelagt",
       "Håll alltid drönaren inom synhåll (VLOS)",
+      "Drönare över 250 g måste ha geomedvetenhet och flyglogg; spara flygloggarna i 6 månader",
       "Hongkong har egna regler – INTE Fastlandskinas föreskrifter"
     ],
     "importantNotes": [
-      "Högsta höjd är bara 91 m (300 ft) – betydligt lägre än standardhöjden på 120 m i de flesta länder",
+      "Högsta höjd är 91 m (300 ft), och bara 30 m (100 ft) för oregistrerade drönare upp till 250 g – långt under standardhöjden på 120 m i de flesta länder",
+      "Besökare: drönare över 250 g kräver registrering av drönare och pilot på eSUA med ditt pass (gäller normalt i 6 månader). CAD-etiketten kan inte skrivas ut och skickas inte utomlands – hämta den på CAD:s huvudkontor eller låt den skickas till en adress i Hongkong (t.ex. ditt hotell)",
       "Försäkring krävs INTE för standardverksamhet i kategori A1 eller standardklassad A2-verksamhet. Täckning på 10 milj. HK$ gäller avancerad verksamhet och drönare i kategori B; den nyare kategorin C (25–150 kg, införd 18 juli 2025) kräver 15 milj. HK$ (25–75 kg) eller 20 milj. HK$ (75–150 kg). I CAD:s egen kravtabell anges ikraftträdandet för den bredare försäkringsplikten som ”ännu inte fastställt” – kontrollera aktuellt läge innan du utgår från att försäkring krävs för just din kategori.",
       "Hongkong har helt andra regler än Fastlandskina",
       "Victoria Harbour och omgivande områden har flygrestriktioner",
@@ -46,11 +50,11 @@
     "secondaryLinks": [
       {
         "title": "CAD – Advanced Rating-utbildning",
-        "description": "Advanced Rating-utbildning krävs för drönare över 250 g"
+        "description": "Utbildning för Advanced Rating – krävs endast för Advanced Operations"
       },
       {
         "title": "CAD – Försäkringskrav",
-        "description": "Obligatoriska krav på ansvarsförsäkring mot tredje man för drönarverksamhet"
+        "description": "Ansvarsförsäkring mot tredje man – obligatorisk för avancerad verksamhet; ännu inte i kraft för vanliga flygningar i kat. A2"
       }
     ]
   }

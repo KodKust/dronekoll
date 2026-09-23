@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "e85b5f3541d893697ea6591ad6e2d83b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "cd7d00ae89362b29f698d8bc4b8a6112",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -13,22 +13,26 @@
     "linksSheetTitle": "Luchtruim en regels — Filipijnen",
     "dronePilotCredentialName": "RPA Controller-certificaat",
     "keyRules": [
-      "Max. 400 ft (122 m) boven de grond",
-      "Je moet te allen tijde direct visueel contact met de drone houden zonder hulpmiddelen (een bril of contactlenzen zijn toegestaan). Vliegen met een FPV-bril is alleen toegestaan wanneer een visuele waarnemer VLOS handhaaft; vliegen buiten direct zicht vereist toestemming van CAAP (PCAR Part 11).",
-      "Registratie is vereist voor ALLE commerciële inzet van drones, ongeacht het gewicht; niet-commerciële drones hoeven volgens CAAP PCAR Part 11 pas vanaf 7 kg te worden geregistreerd",
-      "Blijf ten minste 10 km verwijderd van elke luchthaven — deze buffer werd via CAAP Memorandum Circular 026-2025 uitgebreid na dronemeldingen nabij NAIA (Manila) eind 2024/begin 2025 en wordt strikt gehandhaafd.",
+      "De maximale hoogte is 120 m (ongeveer 400 ft) boven de grond.",
+      "Je moet de drone zelf te allen tijde binnen direct zicht houden (bril of contactlenzen zijn prima; een FPV-bril, verrekijker of scherm telt niet). Vliegen buiten direct zicht, ook met visuele waarnemers (EVLOS), vereist toestemming van de CAAP (PCAR Part 11).",
+      "Registratie bij de CAAP is vereist voor alle drones die commercieel worden gebruikt (elk gewicht) en voor niet-commerciële drones van 7 kg en meer (registratieregels van de CAAP). PCAR Part 11 is ruimer geformuleerd, dus informeer bij twijfel bij de CAAP (awd@caap.gov.ph).",
+      "Blijf ten minste 10 km van elk luchtvaartterrein, tenzij je een CAAP Special Permit hebt (dan met een visuele waarnemer en max. 120 m AGL) — bevestigd door CAAP Memorandum Circular 026-2025 en streng gehandhaafd.",
+      "Zonder CAAP Special Permit mag je niet vliegen in gecontroleerd luchtruim, in verboden of beperkte gebieden, boven installaties die gevoelig zijn voor de nationale veiligheid, boven brandweer-, politie- of andere noodoperaties, of vanuit een rijdend voertuig (PCAR Part 11).",
       "Minimale afstand van 30 m tot niet-betrokken personen",
+      "Houd ten minste 150 m horizontale afstand van woon-, bedrijfs-, industrie- en recreatiegebieden, en vlieg nooit boven niet-betrokken personen of mensenmassa's (PCAR Part 11, open categorie; max. startmassa 25 kg).",
       "Voor nachtvluchten zijn een speciale CAAP-vergunning en passende verlichting op de drone vereist — ze zijn niet standaard toegestaan.",
       "RPA Controller-certificaat vereist voor commercieel gebruik of drones boven 7 kg (5 jaar geldig)",
-      "Voor commerciële operaties zijn een UAS Operator Certificate (3 jaar geldig) en een Remote Pilot License voor de piloot vereist; de licentie is ook verplicht voor drones van 7 kg of zwaarder, zelfs wanneer ze recreatief worden gevlogen.",
-      "Een aansprakelijkheidsverzekering is vereist als onderdeel van het proces voor een UAS Operator Certificate bij commerciële operaties.",
-      "Geef te allen tijde voorrang aan alle bemande luchtvaartuigen"
+      "Commercieel dronewerk en elke vlucht buiten de open categorie (bijv. drones boven 25 kg of vluchten buiten direct zicht) vereisen een CAAP Certificate of Authorization (5 jaar geldig), een gelicentieerde piloot op afstand, droneregistratie en een aansprakelijkheidsverzekering tegenover derden (PCAR Part 11).",
+      "Geef te allen tijde voorrang aan alle bemande luchtvaartuigen",
+      "Niet vliegen binnen 8 uur na het drinken van alcohol. Meld ernstig letsel of schade aan eigendommen binnen 48 uur aan de CAAP."
     ],
     "importantNotes": [
-      "De uitsluitingszone van 10 km rond luchthavens (in 2025 uitgebreid via MC 026-2025) is strenger dan de gebruikelijke buffers van 3-9 km in de meeste landen.",
-      "Commerciële exploitanten hebben zowel een RPA Controller-certificaat (5 jaar) als een UAS Operator-certificaat (3 jaar) nodig",
+      "De zone van 10 km rond luchtvaartterreinen is groter dan in de meeste landen; om erbinnen te vliegen heb je een CAAP Special Permit nodig.",
+      "Commerciële operators hebben een CAAP Certificate of Authorization nodig (5 jaar geldig), en elke piloot heeft een RPA Controller Certificate nodig (5 jaar geldig).",
       "Nachtvluchten zijn standaard niet toegestaan — je hebt een speciale CAAP-vergunning en de juiste verlichting op de drone nodig.",
-      "Een aansprakelijkheidsverzekering is verplicht voor alle commerciële drone-operaties als onderdeel van de procedure voor het Operator Certificate."
+      "Een aansprakelijkheidsverzekering tegenover derden is verplicht voor alle commerciële drone-operaties (specifieke categorie), naast het Certificate of Authorization.",
+      "Overtredingen van de droneregels van de CAAP kunnen worden beboet met PHP 20.000–100.000 per overtreding.",
+      "Buitenlandse piloten die een pilotencertificaat van de CAAP nodig hebben (commercieel gebruik of drones van 7 kg+), kunnen een geldige buitenlandse RPA-licentie door de CAAP laten valideren in plaats van een lokale te halen; de validatie is 1 jaar geldig en vereist een opleiding van de fabrikant, 5 uur ervaring en een demonstratievlucht bij de CAAP."
     ],
     "primaryLinks": [
       {
@@ -42,12 +46,12 @@
     ],
     "secondaryLinks": [
       {
-        "title": "CAAP — UA-registratieportaal",
-        "description": "Registreer je drone bij het UA-register van de CAAP"
+        "title": "CAAP — RPA-registratie",
+        "description": "Registreer je drone bij de CAAP"
       },
       {
-        "title": "CAAP — Commerciële licenties",
-        "description": "Vereisten voor het RPA Controller-certificaat en het UAS Operator-certificaat"
+        "title": "CAAP — RPA Controller Certificate",
+        "description": "Vereisten en aanvraagprocedure voor het RPA Controller Certificate"
       }
     ]
   }

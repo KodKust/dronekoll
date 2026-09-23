@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Înălțime maximă: 120 m (400 ft) deasupra solului",
+      "Înălțime maximă: 120 m (400 ft) AGL (ANAC); zboruri recreative: nu mai mult de 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "Drone cu masa de peste 250 g: înregistrare obligatorie la SISANT (ANAC)",
-      "Drone cu masa de până la 250 g: scutite de înregistrare, autorizate automat",
-      "Distanță minimă de 5,4 km față de aeroporturi pentru zboruri la altitudine joasă",
-      "Distanță minimă de 9 km față de aeroporturi pentru zboruri până la 120 m",
+      "Dronele de până la 250 g nu trebuie înregistrate în SISANT (Rezoluția ANAC nr. 806). Începând cu 1 iulie 2026 (ICA 100-40), zborurile cu aceste drone necesită și autorizare prin SARPAS (DECEA). Dronele de peste 250 g trebuie înregistrate în SISANT.",
+      "Zonele de restricție a zborului din jurul aeroporturilor (FRZ) (ICA 100-40, în vigoare din 1 iulie 2026): în jurul aerodromului (ZEA), FRZ începe de la nivelul solului până la 1.740 m; rămâi sub ea zburând până la 100 ft (30 m) dincolo de 1.740 m, 200 ft (60 m) dincolo de 2.350 m, 300 ft dincolo de 2.960 m și 400 ft dincolo de 3.570 m. În sectoarele de apropiere și decolare (ZAD), FRZ începe de la nivelul solului până la 3.550 m; după aceea: 100 ft dincolo de 3.550 m, 200 ft dincolo de 4.480 m, 300 ft dincolo de 5.400 m și 400 ft dincolo de 6.320 m. Zborul în interiorul FRZ necesită un Termo de Coordenação și o cerere SARPAS cu cel puțin 4 zile calendaristice înainte.",
+      "Zboruri recreative (ICA 100-40, art. 32): înălțime maximă de 200 ft (60 m) AGL și distanță orizontală maximă de 300 m. În apropierea aerodromurilor se aplică benzile FRZ – verifică în SARPAS.",
       "Menține întotdeauna contactul vizual direct (VLOS) cu drona",
-      "O distanță minimă de 30 de metri față de persoanele neimplicate în operațiune",
-      "Autorizația SARPAS (DECEA) este necesară înaintea fiecărui zbor în spațiul aerian controlat",
+      "Distanță minimă de 30 m față de persoanele neimplicate în operațiune",
+      "Fiecare zbor necesită autorizare de acces în spațiul aerian prin SARPAS (DECEA), inclusiv pentru dronele de până la 250 g. Preaviz minim: 30 min în categoria Open; 4 sau 8 zile calendaristice pentru operațiunile care intersectează o FRZ sau zone restricționate, BVLOS ori peste 400 ft. Zborurile recreative într-un EAC desemnat pentru recreere sunt scutite.",
       "Echipamentul de emisie trebuie să fie certificat de ANATEL",
-      "Zborurile de noapte necesită o autorizație specifică și lumini anticoliziune"
+      "Zboruri de noapte: drona trebuie să aibă lumini de navigație (ICA 100-40, art. 20)",
+      "Piloții sub 18 ani trebuie să fie întotdeauna însoțiți de un pilot de peste 18 ani care este responsabil de operațiune",
+      "Utilizarea non-recreativă a dronelor de peste 250 g (RBAC nr. 100): asigurarea pentru daune aduse terților este obligatorie. Promovarea examenului teoretic ANAC (RBAC 100.13(b)) nu este cerută până la 31 decembrie 2026 (Rezoluția nr. 805/2026, art. 2)."
     ],
     "importantNotes": [
-      "Turiști: Brazilia PERMITE zborurile recreative, însă dronele cu masa de peste 250 g trebuie înregistrate la SISANT înainte de zbor",
-      "Amenzile aplicate de ANAC pot ajunge până la 7.000 R$ pentru fiecare încălcare — operarea fără înregistrare sau fără autorizație SARPAS este o abatere gravă",
+      "Turiști: Brazilia PERMITE zborurile recreative. Dronele de peste 250 g trebuie înregistrate în SISANT (străinii pot folosi pașaportul), iar zborurile necesită autorizarea SARPAS (DECEA), inclusiv cu dronele de până la 250 g.",
+      "Amenzile ANAC pentru drone pornesc de la valori de referință între 750 R$ și 4.500 R$ per încălcare (operare fără înregistrare: 2.250 R$ – Rezoluția nr. 762/2024); în funcție de circumstanțele atenuante și agravante, suma finală poate varia între 20% și 300% din acea valoare (Rezoluția nr. 761/2024, art. 35). Zborul fără autorizare SARPAS este o încălcare a regulilor de trafic aerian judecată de JJAER (ICA 100-40, art. 66).",
       "Parcurile naționale (ICMBio) și zonele indigene (FUNAI) interzic în general dronele fără o autorizație specifică",
       "Plajele și zonele turistice urbane (Rio, São Paulo, Salvador) au restricții municipale — verifică la autoritățile locale"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — Autorizație de zbor (DECEA)",
-        "description": "Sistemul DECEA pentru solicitarea autorizației de zbor în spațiul aerian controlat. Necesar înaintea fiecărui zbor"
+        "description": "Sistemul DECEA pentru solicitarea autorizației de acces în spațiul aerian, inclusiv pentru dronele de până la 250 g. Necesar înaintea fiecărui zbor"
       },
       {
         "title": "ANATEL — Certificarea echipamentelor",
@@ -48,15 +50,15 @@
         "description": "NOTAM-uri active și hărți aeronautice oficiale DECEA pentru a verifica restricțiile temporare"
       },
       {
-        "title": "ANAC — Întrebări frecvente despre drone",
-        "description": "Răspunsurile oficiale ale ANAC la întrebările frecvente ale operatorilor de drone"
+        "title": "ANAC — Întrebări frecvente despre SISANT (înregistrarea dronelor)",
+        "description": "Răspunsurile oficiale ale ANAC despre înregistrarea în SISANT, inclusiv pentru străini"
       },
       {
-        "title": "RBAC-E nr. 94 — Norma tehnică completă",
-        "description": "Regulamentul special brazilian de aviație civilă nr. 94 — textul integral aplicabil dronelor"
+        "title": "RBAC nr. 100 — Standardul tehnic complet",
+        "description": "Regulamentul brazilian al aviației civile nr. 100 (înlocuiește RBAC-E nr. 94) — textul integral aplicabil dronelor"
       }
     ],
-    "disclaimerText": "Consultă întotdeauna sursele oficiale ale ANAC și DECEA înainte de a zbura. Această aplicație este un instrument, nu o autoritate juridică. Brazilia aplică RBAC-E nr. 94 (aflat în prezent în tranziție către RBAC nr. 100), care impune aprobarea obligatorie prin SARPAS.",
+    "disclaimerText": "Consultă întotdeauna sursele oficiale ale ANAC și DECEA înainte de a zbura. Această aplicație este un instrument, nu o autoritate juridică. Brazilia aplică RBAC nr. 100 și Rezoluția nr. 806 (ANAC, din iunie 2026) și ICA 100-40 (DECEA, din iulie 2026), cu autorizare obligatorie prin SARPAS.",
     "sectionLabelRules": "REGULI PRINCIPALE",
     "sectionLabelPrimary": "SURSE OFICIALE",
     "sectionLabelSecondary": "RESURSE SUPLIMENTARE",

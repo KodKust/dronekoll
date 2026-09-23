@@ -1,42 +1,44 @@
 {
   "meta": {
-    "sourceHash": "7ac6f58efeb57847db5c573b36f52f9091268fb859f217572eb22f0601db3ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "87a436fc2428e63cbeabda8e978948a403f544d76e6100f96d885f4d05ce52ec",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "L-għoli massimu jiddependi mill-piż: ≤250 g → 30 m; 250 g–25 kg → 60 m; 25–150 kg → 120 m",
-      "Droni li jiżnu aktar minn 250 g (l-użi kollha) jeħtieġu reġistrazzjoni mal-AAC — spiża: US$5; ir-reġistrazzjoni trid issir personalment f'Albrook",
-      "Droni rikreattivi li jiżnu ≤250 g: Ir-reġistrazzjoni MHIJIEX meħtieġa, iżda japplikaw ir-regoli l-oħra kollha",
-      "Distanza minima ta' 8 km mill-ajruporti u l-ajrudromi",
-      "Distanza minima ta' 30 m orizzontalment u 10 m vertikalment min-nies",
-      "Żomm dejjem id-drone fil-linja tal-vista diretta (VLOS)",
-      "It-titjiriet bil-lejl huma PPROJBITI mingħajr eżenzjoni speċifika tal-AAC",
-      "L-Assigurazzjoni ta' Responsabbiltà Ċivili hija OBBLIGATORJA għat-tranżazzjonijiet kollha",
-      "Formola ta' Kunsens Infurmat Obbligatorja rigward: proprjetà privata, riżervi indiġeni, żoni protetti, u l-baċir tal-Kanal tal-Panama",
-      "L-użu kummerċjali jeħtieġ liċenzja ta' pilota RPA flimkien mar-reġistrazzjoni tad-drone"
+      "L-għoli massimu jiddependi mill-klassi tal-RPA: Micro (≤250 g) → 100 ft (~30 m); Light (251 g–25 kg) → 400 ft (~120 m); Medium (26–150 kg) → 400 ft, iżda limitat għal 100 m mingħajr transponder Mode S (standard tal-AAC §9.2, §10.1.1, §11.1.5, §11.1.10).",
+      "Kull RPA, inkluża l-klassi Micro (≤250 g), irid jiġi rreġistrat mal-AAC (§8.1, §9.1, §15.2 tal-istandard) — b'differenza mill-biċċa l-kbira tal-pajjiżi, il-Panama ma teżentax l-eħfef droni mir-reġistrazzjoni. Ir-reġistrazzjoni ssir personalment f'Albrook; iċċekkja t-tariffa attwali.",
+      "Il-Panama MA teżentax id-droni rikreattivi ħfief (≤250 g) mir-reġistrazzjoni — b'differenza mill-biċċa l-kbira tal-pajjiżi, l-istandard tal-AAC (§8.1, §9.1) jeħtieġ reġistrazzjoni għall-klassijiet kollha tal-RPA, inkluża Micro.",
+      "Kull operazzjoni ta' RPA fil-Panama teħtieġ awtorizzazzjoni operattiva mill-AAC (§8.2, §8.20): issottometti l-Formola 005 (Solicitud de Permiso de Actividades Aéreas Especiales) mill-inqas 5 ijiem tax-xogħol qabel.",
+      "Distanza minima ta' 8 km (5 mili nawtiċi) mill-ajruporti u l-ajrudromi, mill-Presidenza tar-Repubblika u mill-ħabsijiet (§8.10–8.11 tal-istandard tal-AAC). L-istandard jipprojbixxi wkoll it-titjir f'postijiet li jikkompromettu s-sigurtà tal-Istat, bħal ambaxxati, entitajiet pubbliċi u banek (§8.11), u l-AAC iżżomm restrizzjonijiet fuq għases tal-pulizija, sptarijiet u l-Ministeru tas-Sigurtà (dikjarazzjoni tal-AAC tas-26/9/2025).",
+      "Waqt it-tlugħ u l-inżul, żomm mill-inqas 30 m orizzontalment u 10 m vertikalment minn persuni mhux involuti fl-operazzjoni (§13.1 tal-istandard tal-AAC).",
+      "Trid iżżomm id-drone f'kuntatt viżiv dirett tiegħek f'kull ħin (RACP).",
+      "It-titjiriet bil-lejl huma IPPROJBITI mingħajr eżenzjoni speċifika tal-AAC.",
+      "L-assigurazzjoni tar-responsabbiltà ċivili lejn terzi hija OBBLIGATORJA għal kull sid ta' RPA (§8.4 tal-istandard tal-AAC), irrispettivament mill-użu. It-titjir fuq in-nies jeħtieġ ukoll awtorizzazzjoni tal-AAC u l-kunsens ta' dawk involuti (§8.16).",
+      "Żoni pprojbiti, ristretti jew perikolużi (ara l-AIP tal-AAC) jeħtieġu awtorizzazzjoni speċifika mill-AAC u mill-awtorità responsabbli miż-żona — it-tnejn huma meħtieġa (§13.1 d tal-istandard tal-AAC). Fiż-żona tal-Kanal, fiż-żoni protetti u fit-territorji indiġeni, ikkonsulta lill-awtorità responsabbli qabel ma tapplika għall-permess tat-titjira.",
+      "Kull min jopera RPA — inklużi l-użu rikreattiv u l-klassi Micro (≤250 g) — irid ikollu liċenzja ta' pilota remot tal-AAC u ċertifikat mediku tal-Klassi 3 (§8.3, §9.1, §10.1 tal-istandard tal-AAC). L-użu kummerċjali jeħtieġ ukoll awtorizzazzjoni għal operazzjonijiet kummerċjali (§13.3)."
     ],
     "importantNotes": [
-      "📏 L-ALTITUDNIJIET IVARJAW SKONT IL-PIŻ (uniċi fl-Amerika Latina): Ir-RACP tal-Panama għandu tliet livelli ta' altitudni massima bbażati fuq il-piż tad-drone: droni ≤250 g huma limitati għal 30 m BISS, droni li jiżnu 250 g–25 kg huma limitati għal 60 m, u biss droni li jiżnu ≥25 kg jistgħu jilħqu l-istandard ta' 120 m. Iċċekkja l-piż tad-drone tiegħek qabel tippjana l-altitudni tat-titjira tiegħek.",
-      "✈️ TURISTI — REGOLA TA' 14-IL JUM: Jekk iż-żjara tiegħek fil-Panama hija ≤14-il jum kalendarju, tista' tapplika għal awtorizzazzjoni speċjali tal-AAC mingħajr ma tirreġistra d-drone b'mod permanenti. Żjarat >14-il jum: ir-reġistrazzjoni tal-AAC hija obbligatorja għal droni >250 g. Droni rikreattivi ≤250 g huma eżentati fiż-żewġ każijiet.",
-      "🚢 KANAL TAL-PANAMA — RESTRIZZJONI SPEĊJALI: Il-baċir tal-Kanal (inklużi l-lokek, il-Lag Gatún, u ż-żoni adjaċenti) jeħtieġ Ittra ta' Kunsens Infurmat obbligatorja mill-Awtorità tal-Kanal qabel kwalunkwe titjira. L-AAC MHUX se tawtorizza operazzjonijiet fuq din iż-żona mingħajr din l-ittra. Dan japplika wkoll għal proprjetà privata, riżervi indiġeni, u żoni protetti.",
-      "🌳 ŻONI PROTETTI U MIAMBIENTE: Parki nazzjonali bħal Soberanía, Volcán Barú, Coiba (Sit ta' Wirt Dinji tal-UNESCO), u Darién jeħtieġu permess speċifiku mill-Ministeru tal-Ambjent (MiAmbiente). Il-gżejjer ta' Bocas del Toro u Guna Yala għandhom ukoll restrizzjonijiet—ikkoordina mal-komunità lokali qabel ma topera.",
-      "🏢 IR-REĠISTRAZZJONI TRID ISSIR PERSONALMENT: B'differenza mill-biċċa l-kbira tal-pajjiżi, ir-reġistrazzjoni tal-AAC trid issir PERSONALMENT fl-uffiċċju ta' Albrook (Bini 805). Ġib: identifikazzjoni, id-drone fiżiku, il-formola mimlija, u US$5. Iċċekkja d-disponibbiltà tal-appuntamenti u ż-żminijiet tal-ipproċessar qabel il-vjaġġ tiegħek."
+      "B'differenza minn ħafna pajjiżi, il-Panama tqassam l-għoli massimu skont il-klassi tal-RPA: 100 ft (~30 m) għal Micro (≤250 g), 400 ft (~120 m) għal Light (251 g–25 kg), u 400 ft għal Medium (26–150 kg) — iżda din tal-aħħar hija limitata għal 100 m mingħajr transponder Mode S. Iċċekkja l-klassi tad-drone tiegħek qabel tippjana l-altitudni tat-titjira.",
+      "Turisti: il-permess speċjali għal RPAs jew operaturi barranin (Formola 004) idum massimu ta' 15-il jum u MHUX mogħti għal attivitajiet rikreattivi (§8.22 tal-istandard tal-AAC). It-titjir għar-rikreazzjoni jeħtieġ ir-reġistrazzjoni tal-RPA mal-AAC (il-klassijiet kollha, inkluża Micro ≤250 g, §8.1) u liċenzja ta' pilota tal-RPA tal-AAC (§8.3); liċenzja barranija tiġi vvalidata biss jekk jeżisti ftehim bilaterali (§18.17). Iċċekkja mal-AAC qabel tivvjaġġa.",
+      "KANAL TAL-PANAMA — ŻONA RISTRETTA: skont l-AIP tal-AAC (ENR 5), l-operazzjonijiet fuq il-locks ta' Gatún, Pedro Miguel u Miraflores, id-digi ta' Gatún u Madden, u fuq kwalunkwe vapur li jkun qed jaqsam il-Kanal huma ristretti. Hija meħtieġa awtorizzazzjoni mill-AAC u mill-awtorità responsabbli miż-żona (§13.1 d tal-istandard tal-AAC).",
+      "Casco Antiguo, Cinta Costera, Av. Balboa u Calle 50 u ż-żoni tal-madwar: minbarra l-awtorizzazzjoni tal-AAC, trid tinnotifika lis-Servicio de Protección Institucional (SPI) b'ittra.",
+      "🌳 ŻONI PROTETTI (MiAmbiente): fiż-żoni protetti tas-SINAP, viżitaturi b'liċenzja/reġistrazzjoni valida biss jistgħu jużaw id-droni, skont il-proċeduri u t-tariffi applikabbli (Resolución DM-0173-2026, art. 12). Iċċekkja mal-amministrazzjoni taż-żona qabel ittajjar.",
+      "B'differenza mill-biċċa l-kbira tal-pajjiżi, ir-reġistrazzjoni mal-AAC trid issir personalment f'Albrook — iċċekkja l-proċedura u r-rekwiżiti attwali qabel l-applikazzjoni tiegħek."
     ],
     "primaryLinks": [
       {
         "title": "AAC — Awtorità tal-Avjazzjoni Ċivili tal-Panama",
-        "description": "Il-websajt uffiċjali tal-Awtorità tal-Avjazzjoni Ċivili tal-Panama. Informazzjoni dwar ir-reġistrazzjoni tad-droni, ir-regolamenti RACP, u l-proċeduri għall-operaturi domestiċi u barranin"
+        "description": "Il-websajt uffiċjali tal-Awtorità tal-Avjazzjoni Ċivili tal-Panama. Informazzjoni dwar ir-reġistrazzjoni tad-droni, l-istandard tal-RPAS, u l-proċeduri għall-operaturi domestiċi u barranin"
       },
       {
-        "title": "RACP — Regolamenti tal-Avjazzjoni Ċivili tal-Panama",
-        "description": "Aċċess għar-Regolamenti kompleti tal-Avjazzjoni Ċivili tal-Panama. Sezzjoni dwar ir-regolamenti applikabbli għall-inġenji tal-ajru bla ekwipaġġ (RPA)"
+        "title": "Norma AAC/DG/DSA/001-2021 — Inġenji tal-ajru ppilotati mill-bogħod (RPAS)",
+        "description": "It-test tal-istandard tal-AAC li jistabbilixxi r-rekwiżiti għall-operat ta' sistemi ta' inġenji tal-ajru ppilotati mill-bogħod (RPAS) fil-Panama (PDF)"
       },
       {
         "title": "Uffiċċju tal-AAC f'Albrook (reġistrazzjoni personali meħtieġa)",
-        "description": "Bini 805, Albrook, l-ewwel sular — Direttorat tas-Sigurtà tal-Avjazzjoni. Ir-reġistrazzjoni tad-drone TRID issir personalment: ġib identifikazzjoni, id-drone innifsu, u l-formola mimlija. Spiża: US$5"
+        "description": "Bini 805, Albrook, sular terran — Dipartiment tad-Dokumentazzjoni. Issottometti ittra ta' talba (jew ibgħatha lil correspondencia.aac@aeronautica.gob.pa); l-AAC tagħtik appuntament. Ġib il-formola tar-reġistrazzjoni, kopja tal-liċenzja tal-RPA tiegħek, il-karta tal-identità, l-ispeċifikazzjonijiet, il-fattura, il-polza tal-assigurazzjoni u l-irċevuta tal-ħlas. Spiża: US$20"
       },
       {
         "title": "AAC — Stqarrijiet għall-Istampa u Regolamenti Attwali",
@@ -46,7 +48,7 @@
     "secondaryLinks": [
       {
         "title": "STRI/Smithsonian — Gwida għar-Riċerka tal-AAC",
-        "description": "Gwida dettaljata mill-Istitut Smithsonian tar-Riċerka Tropikali dwar il-proċess ta' awtorizzazzjoni tal-AAC, inkluża l-Formola ta' Kunsens Infurmat għaż-żoni ristretti"
+        "description": "Gwida dettaljata mill-Istitut Smithsonian tar-Riċerka Tropikali dwar il-proċess ta' awtorizzazzjoni tal-AAC, inkluża l-Ittra ta' Kunsens Infurmat għaż-żoni ristretti"
       },
       {
         "title": "MiAmbiente — Żoni Protetti (Parki Nazzjonali)",
@@ -54,10 +56,10 @@
       },
       {
         "title": "Kanal tal-Panama — Informazzjoni Uffiċjali",
-        "description": "L-Awtorità tal-Kanal tal-Panama. Il-baċir tal-Kanal jeħtieġ Ittra ta' Kunsens Infurmat obbligatorja—mingħajrha, l-AAC ma tagħtix awtorizzazzjoni"
+        "description": "L-Awtorità tal-Kanal tal-Panama. Il-locks, id-digi u l-vapuri fi tranżitu huma żoni ristretti (AIP ENR 5): hija meħtieġa awtorizzazzjoni mill-AAC u mill-awtorità responsabbli miż-żona"
       }
     ],
-    "disclaimerText": "Iċċekkja dejjem is-sorsi uffiċjali tal-AAC qabel ittir. Din l-app hija għodda, mhux awtorità legali. Il-Panama jinforza r-Regolamenti tal-Avjazzjoni Ċivili (RACP), li jinkludu altitudnijiet massimi dipendenti fuq il-piż u restrizzjonijiet speċjali fuq il-baċir tal-Kanal tal-Panama.",
+    "disclaimerText": "Iċċekkja dejjem is-sorsi uffiċjali tal-AAC qabel ittir. Din l-app hija għodda, mhux awtorità legali. Il-Panama tapplika n-Norma AAC/DG/DSA/001-2021, b'altitudnijiet massimi LI JIDDEPENDU MILL-PIŻ u żoni ristretti fiż-żona tal-Kanal tal-Panama (AIP ENR 5).",
     "sectionLabelRules": "REGOLI EWLENIN",
     "sectionLabelPrimary": "SORSI UFFIĊJALI",
     "sectionLabelSecondary": "RIŻORSI ADDIZZJONALI",

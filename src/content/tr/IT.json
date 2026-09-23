@@ -1,28 +1,32 @@
 {
   "meta": {
-    "sourceHash": "000b9bfb30fd5dc95150d4d75572729ea894e9cb117bc556495e8105d1de0bf6",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "49588a835cca5391d11c172e7550ef7ac8f76a3c7fe6c69b2398693532352902",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Yerden en fazla 120 m (EASA Open Kategorisi)",
-      "D-Flight portalı üzerinden kayıt: Temel abonelik yılda €7 (PRO yılda €28) + her dronda zorunlu QR kodu (Temel €7/UAS; ilki başlangıç aboneliğine dahildir)",
-      "Zorunlu A1/A3 çevrim içi eğitim — asgari yaş: 16",
-      "Zorunlu sorumluluk sigortası — en az 750.000 SDR (Özel Çekme Hakları)",
+      "Açık kategoride azami yükseklik 120 m'dir ve yalnızca dümdüz aşağıya doğru değil, yeryüzünün en yakın noktasına olan mesafe olarak ölçülür — bu nedenle bir yamacın yakınında yanınızdaki zemin de hesaba katılabilir. Yüksek bir yapay engelin (105 m'nin üzerinde) 50 m yakınında, engelden sorumlu kuruluş engelin yüksekliğinin 15 m üzerine kadar uçmak için izin talep edebilir.",
+      "İtalya'da D-Flight portalı üzerinden kayıt (aşağıda listelenen muafiyetler hariç): Temel abonelik yılda €7 (PRO yılda €28) + her dronda zorunlu QR kodu (Temel €7/UAS; ilki başlangıç aboneliğine dahildir)",
+      "Muaf olanlar: oyuncak dronlar (Directive 2009/48/EC) kayıt, sertifika veya sigorta gerektirmez; kamerası veya mikrofonu olmayan 250 g'ın altındaki dronlar kayıt gerektirmez.",
+      "Yabancı pilotlar: operatör kaydı tüm AB ülkelerinde ve İsviçre'de geçerlidir. Kendi AB ülkenizde zaten kayıtlıysanız D-Flight'a kaydolmanız gerekmez: operatör numaranızı dronun üzerinde göstermeniz yeterlidir. AB dışında (Birleşik Krallık dahil) ikamet edenler, ziyaret etmeyi planladıkları ilk AB ülkesinde kaydolur.",
+      "İtalya'da A1/A3'te uçmak için asgari yaş 16'dır; reşit olmayanların (16-17 yaş) ENAC portalına kaydolmak için ebeveyn veya yasal vasi onayına ihtiyacı vardır. Çevrim içi sertifika (40 soru) 5 yıl geçerlidir.",
+      "Oyuncak dronlar (Dir. 2009/48/EC) hariç tüm dronlar için (250 g'ın altındakiler ve hobi amaçlı kullanım dahil) üçüncü şahıs sorumluluk sigortası zorunludur — Regolamento UAS-IT Madde 27 ve Codice della Navigazione Madde 1015 uyarınca asgari teminat 750.000 SDR.",
       "Roma ve Vatikan Şehri: Geniş uçuşa yasak bölgeler",
-      "Dronu her zaman görüş hattı (VLOS) içinde tutun",
-      "İnsan topluluklarının üzerinden uçmayın. Operasyona dahil olmayan kişilerle ilgili kurallar alt kategoriye, sınıf işaretine ve operasyon koşullarına bağlıdır; resmî matrisi kontrol edin.",
-      "Herhangi bir havalimanı veya hava meydanından en az 5 km uzakta kalın",
-      "Gerekli yanıp sönen yeşil ışık kullanıldığında, yürürlükteki bir coğrafi bölge veya ulusal kural daha katı bir koşul getirmediği sürece EASA açık kategori temel kuralları kapsamında gece uçuşuna izin verilir.",
-      "Tarihi alanlar ve arkeolojik bölgeler ek kısıtlamalara tabi olabilir"
+      "Açık kategoride dronu çıplak gözle, kendi doğrudan görüş hattınızda tutmalısınız (gözlük/kontakt lens sorun değildir; dürbün veya ekran sayılmaz) — ya da hava sahasını birlikte izleyip çarpışmaları önleyebilmeniz için aranızda her an açık ve etkili iletişim sürdürerek bir gözlemcinin yardımıyla uçun. \"Follow-me\" modu ayrı bir istisnadır; pilottan 50 m'ye kadar izin verilir.",
+      "İnsan topluluklarının üzerinden uçmayın. Operasyona dahil olmayan kişilerle ilgili kurallar alt kategoriye, sınıf işaretine ve operasyon koşullarına bağlıdır; resmî tabloyu kontrol edin.",
+      "Havalimanlarından tek bir mesafe yoktur: hava meydanı coğrafi bölgeleri (ENAC Circular ATM-09A) D-Flight'ta yayımlanır. Açık kategoride, rengine göre farklı yükseklikte başlayan bu bölgelerin içinde uçmak yasaktır (kırmızı 0 m, turuncu 25 m, sarı 45 m); ATZ ve CTR'lerin geri kalanında bölge normalde 60 m'de başlar. Bu yüksekliklerin altında hava sahası rezervasyonu olmadan uçabilirsiniz; bölgelerin içinde uçmak için ENAC'ın veya Aeronautica Militare'nin izniyle Specific kategorisi gerekir.",
+      "Gerekli yanıp sönen yeşil ışığın kullanılması koşuluyla, ulusal bir kural veya belirli bir coğrafi bölgeye ilişkin bir kural daha katı koşullar getirmediği sürece EASA açık kategori temel kuralları kapsamında gece uçuşuna izin verilir.",
+      "Tarihi alanlar ve arkeolojik bölgeler ek kısıtlamalara tabi olabilir",
+      "Doğa parkları: ENAC onaylı yasağın D-Flight'ta yayımlandığı yerlerde bunların üzerinden uçmak yasaktır; orada uçmak için park yönetiminden (Ente Parco) izin almanız gerekir.",
+      "C1, C2 veya C3 sınıf işaretli dronlar: doğrudan uzaktan tanımlama ve coğrafi farkındalık (geo-awareness) etkin ve güncel olmalıdır."
     ],
     "importantNotes": [
       "D-Flight aboneliği: Temel yılda €7 (Specific kategorisi için PRO yılda €28). İlk Temel QR kodu ilk etkinleştirmeye dahildir; ek Temel QR kodları UAS başına €7'dir (PRO UAS başına €112).",
       "En az 750.000 SDR (Özel Çekme Hakları) teminatlı zorunlu sigorta",
-      "Roma/Vatikan, dronlar için Avrupa'nın en kısıtlayıcı hava sahalarından birine sahiptir",
-      "Ciddi ihlaller için €100.000'e kadar para cezası",
+      "Roma: şehir merkezi güvenlik nedeniyle uçuşa yasak bir bölgedir ve dronlar dahil tüm hava araçlarının bu bölgenin üzerinden uçması yasaktır; olası muafiyetler ayrıca Prefettura di Roma'nın iznini gerektirir. Her zaman D-Flight'ı kontrol edin.",
+      "Ciddi ihlaller için 100.000 €'ya kadar para cezası",
       "Belirlenebilir görüntüler yakalandığında GDPR geçerlidir"
     ],
     "primaryLinks": [
@@ -32,7 +36,7 @@
       },
       {
         "title": "D-Flight — Kaydolun ve uçun",
-        "description": "Kayıt portalı ve hava sahası haritası (aylık 6 € abonelik gereklidir)"
+        "description": "Operatör kayıt portalı ve hava sahası haritası (haritalar ücretsiz hesapla; operatör kaydı yılda 7 € Temel abonelikle)"
       },
       {
         "title": "D-Flight — Hava Sahası Haritası",
@@ -40,13 +44,13 @@
       },
       {
         "title": "ENAC — UAS Mevzuatı",
-        "description": "UAS'a ilişkin İtalyan mevzuatının ve EASA kurallarına yönelik ulusal değişikliklerin ayrıntıları"
+        "description": "İtalyan UAS mevzuatının ve EASA kurallarına yapılan ulusal eklerin ayrıntıları"
       }
     ],
     "secondaryLinks": [
       {
         "title": "ENAV — NOTAM",
-        "description": "Aktif NOTAM'lar ve geçici hava sahası kısıtlamaları"
+        "description": "İtalyan hava seyrüsefer hizmet sağlayıcısı; NOTAM'lara (Self Briefing) erişim için bir Operation Letter imzalanması gerekir"
       },
       {
         "title": "ENAC — Dronlar Hakkında Sıkça Sorulan Sorular",

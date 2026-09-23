@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "51b497a18aafd4cff4e8165ebea4d22e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "05a601befa3ab4524ab9e1c3f953a9bc",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,21 +14,27 @@
     "dronePilotCredentialName": "Lentäjän todistus",
     "keyRules": [
       "Enintään 122 m (400 ft) maanpinnasta",
-      "Näytä rekisterinumero (C-F####) dronessa",
+      "Älä koskaan lennä 9,3 km:n (5 NM) säteellä maastopalosta tai hätätilanteen (onnettomuus, tulva) turva-alueen sisällä — koskee kaikkia droneja, myös alle 250 g:n droneja.",
+      "Ei lentämistä etukäteen mainostetuissa tapahtumissa (konsertit, festivaalit, urheilutapahtumat) tai niiden lähellä ilman SFOC-RPAS-lupaa — tämä koskee myös alle 250 g:n droneja.",
+      "Merkitse dronen rekisterinumero (esim. C-1234567890) selvästi droneen",
       "Perustodistus: ikä 14+, 35 kysymyksen koe (läpäisy 65 %) — vain valvomaton ilmatila",
       "Edistynyt todistus: ikä 16+, 50 kysymyksen koe (läpäisy 80 %) + lentotarkastus — valvottu ilmatila",
       "Alle 250 g painavat dronet: rekisteröintiä tai todistusta ei vaadita",
+      "Ulkomaiset vierailijat, jotka lentävät omalla vähintään 250 g:n dronellaan: tarvitset kanadalaisen dronelentäjän todistuksen (kotimaan lupakirja ei kelpaa) ja Foreign SFOC-RPAS -luvan, koska ulkomaalaiset eivät voi rekisteröidä droneja Kanadassa. Hae ajoissa — käsittelyn tavoiteaika on 30 arkipäivää. Alle 250 g: SFOC-lupaa ei tarvita paitsi etukäteen mainostetuissa tapahtumissa.",
       "Pidä drone aina näköyhteydessä (VLOS) — suora näköyhteys ilman apuvälineitä",
       "Säilytä 30 m:n vaakaetäisyys ihmisistä (perustoiminta)",
-      "Ellet noudata Transport Canadan vahvistettua menettelyä, pysy 5,6 km:n (3 NM) päässä sertifioiduista lentoasemista ja 1,9 km:n (1 NM) päässä sertifioiduista helikopterikentistä. Valvotussa ilmatilassa lentäminen edellyttää Advanced-todistusta ja NAV DRONE -lupaa.",
+      "Yölento (vähintään 250 g:n dronet): dronessa on oltava valot, joiden ansiosta se pysyy sinun tai tähystäjäsi nähtävissä, ja niiden on oltava päällä.",
+      "Vähintään 250 g:n dronet: ei lentämistä 12 tunnin kuluessa alkoholin nauttimisesta tai päihtyneenä",
+      "Basic-todistus: pysy yli 5,6 km:n (3 NM) päässä sertifioiduista lentoasemista ja 1,9 km:n (1 NM) päässä sertifioiduista helikopterikentistä. Lähemmäs vain Advanced-todistuksella vakiintuneita menettelyjä noudattaen. Valvottu ilmatila: Advanced-todistus + drone, jolla on vastaava turvallisuusvakuutus (safety declaration) + NAV DRONE -lupa.",
+      "5,6 km:n (3 NM) säteellä sotilaslentopaikan keskipisteestä tarvitset Kanadan puolustusministeriön (Department of National Defence) luvan.",
       "Provinssi- ja kansallispuistoissa dronejen harrastekäyttö on yleensä kielletty — kielto on vahvistettu Albertan, Ontarion ja Brittiläisen Kolumbian provinssipuistoissa sekä kaikissa Parks Canadan kansallispuistokohteissa. Tarkista kyseisen puiston omat säännöt ennen lentoa."
     ],
     "importantNotes": [
-      "Brittiläisen Kolumbian ja Albertan provinssien puistot kieltävät harrastedronet ilman lupaa",
+      "BC:n ja Albertan provinssipuistot: dronen lennättäminen ilman puiston lupaa on laitonta, eikä harrastelennättäminen ole sallittua (Alberta: minkä tahansa kokoiset dronet; BC: lupia myönnetään harvoin)",
       "Ontarion provinssipuistot ja Toronton kaupungin puistot kieltävät harrastedronet",
-      "Useimmat kunnat kieltävät dronet julkisissa puistoissa ilman lupaa",
+      "Myös muut kunnat voivat kieltää dronet kaupunkipuistoissa ilman lupaa — tarkista paikalliset järjestyssäännöt ennen lentoa",
       "Vakuutusta ei vaadita perustoimintaan, mutta se on erittäin suositeltava",
-      "Level 1 Complex Operations -todistus (marraskuusta 2025) mahdollistaa matalan riskin BVLOS-toiminnan ilman SFOC:ta"
+      "Level 1 Complex -lentäjäntodistus (18+) sallii matalan riskin BVLOS-lennot ilman SFOC-lupaa 4. marraskuuta 2025 alkaen — mutta vain RPAS-toiminnanharjoittajan todistuksen (RPOC) nojalla, joka on joko sinulla tai sillä toiminnanharjoittajalla, jolle lennät"
     ],
     "primaryLinks": [
       {
@@ -37,7 +43,7 @@
       },
       {
         "title": "Transport Canada — Rekisteröi dronesi",
-        "description": "Rekisteröi vähintään 250 g painavat dronet Drone Management Portalin kautta (5 $, ~3 minuuttia)"
+        "description": "Rekisteröi vähintään 250 g painavat dronet Drone Management Portalin kautta (noin 10 $, tarkistetaan vuosittain; ~3 minuuttia)"
       },
       {
         "title": "NAV DRONE — Valvottu ilmatila",

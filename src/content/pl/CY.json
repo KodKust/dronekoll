@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "a1e69adb928a29b23e35f851c7f189c239b934c116c4c5c3bb8ff4997785f369",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "8d3736758eabe09f115c22b261f62052d660fd07794af65c1d39b8fa76ca192b",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalnie 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-      "Rejestracja jako operator UAS (15 € / 3 lata), jeśli dron waży 250 g lub więcej albo ma kamerę",
-      "Wymagane szkolenie online A1/A3 – minimalny wiek 16 lat",
+      "W kategorii otwartej maksymalna wysokość wynosi 120 m, mierzona jako odległość od najbliższego punktu powierzchni ziemi — nie po prostu pionowo w dół, więc w pobliżu zbocza liczy się także teren obok ciebie. W promieniu 50 m od wysokiej przeszkody sztucznej (wyższej niż 105 m) podmiot odpowiedzialny za tę przeszkodę może wystąpić o zezwolenie na lot do 15 m powyżej wysokości przeszkody.",
+      "Musisz zarejestrować się jako operator drona, jeśli twój dron waży 250 g lub więcej (lub przy uderzeniu mógłby przekazać energię kinetyczną większą niż 80 J) — dotyczy to nawet zabawek. Poniżej 250 g rejestracja jest nadal wymagana, jeśli dron ma czujnik zdolny do rejestrowania danych osobowych, chyba że kwalifikuje się jako zabawka w rozumieniu unijnej dyrektywy w sprawie bezpieczeństwa zabawek. Wymagania dotyczące szkolenia/świadectwa pilota są odrębne i zależą od klasy drona i podkategorii.",
+      "Oznacz numer rejestracyjny operatora w sposób trwały na każdym ze swoich dronów i wprowadź go do systemu zdalnej identyfikacji (jeśli jest zamontowany). Rejestracja operatora jest możliwa od 18 lat — w przypadku osób młodszych może się zarejestrować osoba odpowiedzialna (np. rodzic lub opiekun).",
+      "Drony wprowadzone do obrotu po 01/01/2024 bez oznaczenia klasy (C0–C6) nie mogą latać w kategorii otwartej — wyłącznie w kategorii szczególnej, na podstawie zezwolenia operacyjnego.",
+      "Minimalny wiek do samodzielnych lotów w kategorii otwartej wynosi 16 lat — szkolenie online A1/A3 (9 modułów, egzamin z 40 pytań, koszt 15 euro) jest ważne 5 lat i uznawane w całej UE. Poniżej tego wieku loty są dozwolone wyłącznie pod bezpośrednim nadzorem pilota posiadającego świadectwo.",
+      "Goście z krajów spoza UE: jeśli Cypr jest pierwszym krajem UE, w którym latasz, rejestracja operatora (jeśli jest wymagana) odbywa się w DCA Cypru (15 €, minimalny wiek 18 lat); jeśli latałeś już w innym kraju UE, nie rejestrujesz się ponownie. Do podkategorii A1/A3 potrzebujesz świadectwa pilota A1/A3 wydanego przez kraj UE (szkolenie i egzamin online, 15 €); w przypadku drona C0 (<250 g) egzamin nie jest obowiązkowy.",
       "Lot nocny jest dozwolony zgodnie z podstawowymi wymogami EASA dla kategorii otwartej, pod warunkiem stosowania wymaganego migającego zielonego światła, chyba że obowiązujące przepisy dotyczące strefy geograficznej lub przepisy krajowe nakładają bardziej rygorystyczne warunki.",
-      "Strefa bezpieczeństwa 8 km wokół lotnisk",
-      "Minimalna odległość 1 km od obszarów mieszkalnych (dotyczy głównie kategorii A3 — surowsze wymagania dla cięższych dronów)",
-      "Zawsze utrzymuj z dronem kontakt wzrokowy (VLOS)",
+      "Lotniska Larnaka i Pafos: w strefie A (czerwonej) wszystkie loty dronów są zabronione; w strefie B (żółtej) tylko za zgodą DCA (wniosek co najmniej 10 dni roboczych wcześniej, ubezpieczenie od odpowiedzialności cywilnej wobec osób trzecich 1 000 000 €). DCA prosi gości o zachowanie odległości co najmniej 8 km od lotnisk i lądowisk dla śmigłowców.",
+      "Minimalna odległość 150 m od obszarów mieszkalnych, handlowych lub przemysłowych (kategoria A3)",
+      "W kategorii otwartej musisz utrzymywać drona w bezpośrednim zasięgu wzroku, gołym okiem (okulary/soczewki kontaktowe są dozwolone; lornetka ani ekran się nie liczą) — albo z pomocą obserwatora, przy czym przez cały czas musicie komunikować się jasno i skutecznie, aby wspólnie obserwować przestrzeń powietrzną i unikać kolizji. Tryb „follow-me” to odrębny wyjątek, dozwolony do 50 m od pilota.",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
+      "Bazy brytyjskie (Akrotiri, Dhekelia): odrębna administracja z własnymi przepisami dotyczącymi dronów, własnym formularzem rejestracyjnym i mapami wyznaczonych obszarów — przed lotem tam sprawdź sbaadministration.org.",
       "Cypr Północny (TRNC): odrębna jurysdykcja – inne przepisy",
-      "Strefa zakazu lotów ONZ: całkowity zakaz wykonywania lotów"
+      "Martwa strefa ONZ (UN Dead Zone): żadnej aktywności bez wcześniejszej zgody UNFICYP — nie lataj tam."
     ],
     "importantNotes": [
       "Lot nocny jest dozwolony zgodnie z podstawowymi wymogami EASA dla kategorii otwartej, pod warunkiem stosowania wymaganego migającego zielonego światła, chyba że obowiązujące przepisy dotyczące strefy geograficznej lub przepisy krajowe nakładają bardziej rygorystyczne warunki.",
-      "Wymóg zachowania odległości 1 kilometra od obszarów mieszkalnych jest bardzo restrykcyjny na małej wyspie",
-      "Strefy bezpieczeństwa rozciągające się na 8 kilometrów wokół lotnisk obejmują dużą część wyspy",
+      "Wokół lotnisk Larnaka i Pafos: w strefie A (czerwonej) loty dronów są zabronione, w strefie B (żółtej) tylko za zgodą DCA.",
+      "Fabrycznie zainstalowana mapa stref geograficznych w większości dronów DJI nie jest właściwa dla Cypru; w przypadku dronów klasy C1, C2, C3, C5, C6 wgraj oficjalny plik stref geograficznych DCA (drones.gov.cy).",
       "Cypr Północny (TRNC) to odrębna jurysdykcja z innymi przepisami",
-      "Strefa buforowa ONZ jest ścisłą strefą zakazu lotów"
+      "Martwa strefa ONZ (UN Dead Zone): żadnej aktywności bez wcześniejszej zgody UNFICYP — nie lataj tam."
     ],
     "primaryLinks": [
       {
@@ -53,8 +57,8 @@
         "description": "Informacje o lotniskach w Larnace i Pafos"
       }
     ],
-    "disclaimerText": "Przed każdym lotem zawsze sprawdzaj oficjalne źródła DCA Cyprus oraz drones.gov.cy. Ta aplikacja jest narzędziem, a nie organem prawnym. Cypr stosuje przepisy EASA z surowymi dodatkami krajowymi, takimi jak zakaz lotów nocnych.",
-    "sectionLabelRules": "PODSTAWOWE ZASADY (KLASA OTWARTA EASA)",
+    "disclaimerText": "Przed każdym lotem zawsze sprawdzaj oficjalne źródła DCA Cyprus oraz drones.gov.cy. Ta aplikacja jest narzędziem, a nie organem prawnym. Cypr stosuje przepisy EASA z krajowymi strefami geograficznymi (Κ.Δ.Π. 190/2024, z późniejszymi zmianami).",
+    "sectionLabelRules": "PODSTAWOWE ZASADY (KATEGORIA OTWARTA EASA)",
     "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
     "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
     "linksSheetTitle": "Przestrzeń powietrzna i przepisy — Cypr",

@@ -1,37 +1,41 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálne 120 m nad úrovňou terénu (kategória EASA Open)",
-      "Registrácia ako prevádzkovateľ UAS (bezplatná) pre drony s hmotnosťou 250 g a viac alebo vybavené kamerou",
-      "Vyžaduje sa online školenie A1/A3 — minimálny vek 16 rokov",
-      "Lety v CTR a ATZ letísk sú povolené iba po koordinácii s riadením letovej prevádzky alebo prevádzkovateľom letiska",
-      "Lietanie nad diaľnicami a hlavnými cestami je obmedzené — vyhýbajte sa im",
-      "Dron majte vždy vo vizuálnom dohľade (VLOS)",
+      "V otvorenej kategórii je maximálna výška 120 m, meraná ako vzdialenosť k najbližšiemu bodu zemského povrchu — nie iba kolmo nadol, takže pri svahu sa môže počítať aj terén vedľa vás. Do 50 m od vysokej umelej prekážky (nad 105 m) môže subjekt zodpovedný za túto prekážku požiadať o povolenie lietať až do 15 m nad výškou prekážky.",
+      "Ako prevádzkovateľ dronu sa musíte zaregistrovať, ak váš dron váži 250 g alebo viac (alebo by pri náraze mohol odovzdať kinetickú energiu vyššiu ako 80 J) — platí to aj pre hračky. Pod 250 g je registrácia povinná aj vtedy, ak má dron senzor schopný zachytávať osobné údaje, pokiaľ sa nepovažuje za hračku podľa smernice EÚ o bezpečnosti hračiek. Požiadavky na výcvik/pilotnú licenciu sú samostatné a závisia od triedy dronu a podkategórie.",
+      "Minimálny vek na samostatné lietanie v otvorenej kategórii je 16 rokov — online školenie a skúška A1/A3 platia 5 rokov a sú uznávané v celej EÚ. Bez vekového limitu: dron triedy C0, ktorý je hračkou, v podkategórii A1, alebo dron vlastnej výroby pod 250 g; inak mladší piloti iba pod priamym dohľadom pilota, ktorý spĺňa požiadavky na vek a výcvik.",
+      "Turisti: registrácia prevádzkovateľa a osvedčenie A1/A3 z inej krajiny EÚ/EASA platia aj v Českej republike (zaregistrovať sa môžete iba v jednej krajine). Mimo EÚ: zaregistrujte sa v prvej krajine EÚ/EASA, v ktorej budete lietať (v Českej republike na ÚCL na dron.caa.gov.cz), a ak váš dron vyžaduje výcvik, absolvujte ho podľa pravidiel EÚ – osvedčenia z krajín mimo EÚ sa neuznávajú.",
+      "Poistenie zodpovednosti je v Českej republike povinné v podkategórii A2 a v A3 pre drony nad 4 kg (nie v A1) — overte si, že vaša poistka kryje lety v Českej republike.",
+      "V CTR a ATZ letísk smiete bez koordinácie lietať iba do výšky stanovenej mriežkou (overte si v DroneMap). Vyššie iba po koordinácii s ŘLP a s letom vyznačeným v DroneMap; vo vnútornej zóne CTR musí byť let vždy vyznačený v DroneMap a nad výškou mriežky sa vyžaduje aj koordinácia s prevádzkovateľom letiska. Na vojenských letiskách (MCTR) platia prísnejšie podmienky. Na neriadených letiskách nad výškou mriežky iba po koordinácii s AFIS alebo prevádzkovateľom letiska. Vyznačenie v DroneMap sa nevzťahuje na drony, ktoré nevyžadujú registráciu.",
+      "V husto osídlených oblastiach (zóna LKR316) musí byť priestor letu vopred vyznačený v DroneMap (dronemap.gov.cz). Vyznačenie (tu aj v CTR a v chránených prírodných územiach) musí obsahovať výšku, čas, typ a hmotnostnú kategóriu dronu a registračné číslo prevádzkovateľa. Nevzťahuje sa na drony, pri ktorých sa registrácia prevádzkovateľa nevyžaduje.",
+      "Národné parky, chránené krajinné oblasti (CHKO) a maloplošné chránené územia, napr. prírodné rezervácie (zóna LKR318): lety iba na základe predchádzajúceho oznámenia príslušnému orgánu ochrany prírody alebo jeho povolenia a s priestorom letu vyznačeným v DroneMap. Nevzťahuje sa na drony, pri ktorých sa registrácia prevádzkovateľa nevyžaduje.",
+      "Cesty (zóna LKR317): spravidla do 50 m od osi diaľnice alebo cesty I. triedy iba so súhlasom ŘSD; spravidla do 15 m od osi ciest II. a III. triedy iba so súhlasom vlastníka alebo správcu cesty (obdobne pre miestne komunikácie mimo husto osídlených oblastí). Priestor letu musí byť vyznačený v DroneMap – nevzťahuje sa na drony, pri ktorých sa registrácia prevádzkovateľa nevyžaduje.",
+      "V otvorenej kategórii musíte mať dron v priamom vizuálnom dohľade voľným okom (okuliare/kontaktné šošovky sú v poriadku; ďalekohľad ani obrazovka sa nepočítajú) — alebo si na pomoc prizvať pozorovateľa, pričom spolu musíte neustále jasne a účinne komunikovať, aby ste spoločne sledovali vzdušný priestor a predchádzali zrážkam. Režim „follow-me“ je samostatná výnimka iba v podkategórii A1, povolená do 50 m od pilota.",
       "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre osoby, ktoré nie sú priamo zapojené, závisia od podkategórie, triedy a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
       "Nočný let je povolený v rámci základných požiadaviek EASA pre otvorenú kategóriu, ak sa používa požadované zelené blikajúce svetlo, pokiaľ platné geografické obmedzenie alebo vnútroštátne predpisy nestanovujú prísnejšie podmienky.",
-      "Pokuty až do 5 000 000 CZK (≈ 185 000 €) za porušenia",
-      "Pražský hrad a vládne budovy: prísne bezletové zóny"
+      "Pokuty až do 3 000 000 CZK (≈ 120 000 €) za porušenia",
+      "Pražský hrad a vládne budovy: absolútne bezletové zóny"
     ],
     "importantNotes": [
-      "Lety v CTR a ATZ letísk vyžadujú koordináciu s riadením letovej prevádzky alebo prevádzkovateľom letiska",
-      "Prelety nad diaľnicami a hlavnými cestami sú v Českej republike obmedzené — naplánujte si trasu tak, aby ste sa im vyhli",
-      "Pokuty až do 5 000 000 CZK (≈ 185 000 €)",
+      "V CTR a ATZ letísk bez koordinácie iba do výšky stanovenej mriežkou (overte si v DroneMap); vyššie iba po koordinácii (v CTR s ŘLP, na neriadených letiskách s AFIS alebo prevádzkovateľom letiska) a s letom vyznačeným v DroneMap; vo vnútornej zóne CTR je vyznačenie vždy povinné",
+      "Cesty (zóna LKR317): pri diaľniciach a cestách I. triedy spravidla do 50 m od osi iba so súhlasom ŘSD; pri cestách II. a III. triedy spravidla do 15 m od osi iba so súhlasom vlastníka alebo správcu cesty",
+      "Pokuty až do 3 000 000 CZK (≈ 120 000 €)",
       "Oblasť Pražského hradu má prísne bezletové obmedzenia",
       "GDPR sa vzťahuje na zhromažďovanie záberov s identifikovateľnými osobami"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Predpisy pre drony",
+        "title": "ÚCL — Predpisy pre drony",
         "description": "Oficiálne pravidlá a zdroje úradu civilného letectva týkajúce sa dronov"
       },
       {
-        "title": "CAA — Registrácia prevádzkovateľa",
+        "title": "ÚCL — Registrácia prevádzkovateľa",
         "description": "Bezplatná registrácia ako prevádzkovateľ UAS (platná vo všetkých krajinách EÚ/EASA)"
       },
       {
@@ -40,16 +44,16 @@
       },
       {
         "title": "ÚCL — Prehľad pravidiel",
-        "description": "Prehľad pravidiel pre lietanie s dronmi v Českej republike"
+        "description": "Prehľad pravidiel lietania s dronmi v Českej republike"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Riadenie letovej prevádzky — NOTAM a vzdušný priestor",
+        "title": "ŘLP — NOTAM a vzdušný priestor",
         "description": "České riadenie letovej prevádzky a informácie o vzdušnom priestore"
       },
       {
-        "title": "CAA — Časté otázky o dronoch",
+        "title": "ÚCL — Časté otázky o dronoch",
         "description": "Často kladené otázky o predpisoch pre drony v Českej republike"
       }
     ],
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "OFICIÁLNE ZDROJE",
     "sectionLabelSecondary": "ĎALŠIE ZDROJE",
     "linksSheetTitle": "Vzdušný priestor a predpisy — Česká republika",
-    "dronePilotCredentialName": "Licencia pilota dronu"
+    "dronePilotCredentialName": "Osvedčenie o školení A1/A3"
   }
 }

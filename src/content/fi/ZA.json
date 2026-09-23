@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "fca3bbf5a00a2bc5c8ae02d7f663df3d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb076b85a229a810666fd05392ea183d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,19 +14,22 @@
     "dronePilotCredentialName": "Kauko-ohjaajan lupakirja",
     "keyRules": [
       "Näköyhteys (VLOS) on pakollinen — enimmäisvaakaetäisyys 500 m",
-      "Vähintään 50 m:n etäisyys ihmisistä, rakennuksista ja ajoneuvoista",
-      "Pysy vähintään 10 km:n päässä lentoasemista — tätä valvotaan Etelä-Afrikassa tiukasti. Varmista tarkka etäisyys SACAA:lta ennen lentoa lentoaseman lähellä.",
-      "Dronen lennättäminen Krugerissa tai missä tahansa muussa Etelä-Afrikan kansallispuistossa edellyttää SANParksin nimenomaista lupaa (NEMA Protected Areas Act) — lentäminen alle 2 500 ft puiston korkeimman kohdan yläpuolella ilman lupaa on kielletty. Tämän lisäksi miehittämättömän ilma-aluksen käyttö Etelä-Afrikan ilmatilassa siviili-ilmailun sääntöjä noudattamatta voi johtaa enintään 50 000 randin sakkoon ja/tai enintään 10 vuoden vankeuteen.",
+      "Enintään 150 ft (45 m) maanpinnasta — ja pysy 300 m:n säteellä olevan korkeimman esteen alapuolella (rajoitettu VLOS)",
+      "Vähintään 50 m:n etäisyys ihmisiin, yleisiin teihin ja rakennuksiin (ellei omistaja salli) — älä koskaan lennä suoraan kenenkään yllä",
+      "Pysy vähintään 10 km:n päässä kaikista lentopaikoista — lentoasemista, lentokentistä ja helikopterikentistä (myös yksityisten lodgejen kiitoradoista). Etelä-Afrikassa tätä valvotaan tiukasti.",
+      "Ei lentämistä valvotussa, rajoitetussa tai kielletyssä ilmatilassa eikä vankiloiden, poliisiasemien, rikospaikkojen, tuomioistuinten, ydinvoimaloiden tai kansallisesti tärkeiden kohteiden (national key points) lähellä tai yllä",
+      "Lentäminen alle 2 500 ft:n korkeudella minkä tahansa kansallispuiston (myös Krugerin), erityisen luonnonsuojelualueen tai maailmanperintökohteen korkeimman kohdan yläpuolella edellyttää kyseisen alueen oman hallintoviranomaisen etukäteen antamaa kirjallista lupaa (Protected Areas Act s47) — ei vain SANParksin puistoissa. Lisäksi siviili-ilmailusääntöjen rikkomisesta voi erikseen seurata sakko ja/tai enintään 10 vuoden vankeus.",
       "Vain valoisaan aikaan — sääolosuhteiden on oltava selkeät",
-      "Rekisteröintiä tai lupakirjaa ei tarvita harrastelennättämiseen",
-      "Kaupalliseen käyttöön vaaditaan RPC (kauko-ohjaajan todistus), ROC ja RLA",
+      "Rekisteröintiä tai lupakirjaa ei tarvita yksityiseen, ei-kaupalliseen lentämiseen alle 7 kg:n droneilla (vain rajoitettu VLOS)",
+      "Yksityislennot vain omistamasi kiinteistön yllä tai sellaisen kiinteistön yllä, jonka ylle lentämiseen sinulla on omistajan lupa",
+      "Kaikki muu kuin yksityinen käyttö (kaupallinen, yritys- tai voittoa tavoittelematon) edellyttää kauko-ohjaajan lupakirjaa (RPL), UAS-toimintatodistusta (UASOC, aiemmin ROC), RPAS-hyväksyntäkirjettä (RLA) ja SACAA-rekisteröintiä (C of R); kaupallinen käyttö edellyttää lisäksi lentoliikennelupaa (ASL)",
       "Vakuutus vaaditaan yleensä vain kaupallisessa toiminnassa — varmista SACAA:n voimassa olevat vaatimukset ennen kaupallista käyttöä.",
       "Älä lennätä ihmisjoukkojen tai yleisötapahtumien yllä"
     ],
     "importantNotes": [
-      "Lentäminen missä tahansa kansallispuistossa (myös Krugerissa) ilman SANParksin lupaa rikkoo NEMA Protected Areas Actia, ja miehittämättömän ilma-aluksen käyttö siviili-ilmailun sääntöjä noudattamatta voi erikseen johtaa enintään 50 000 randin sakkoon ja/tai 10 vuoden vankeuteen.",
+      "Lentäminen alle 2 500 ft:n korkeudella minkä tahansa kansallispuiston (myös Krugerin) yllä ilman puiston hallintoviranomaisen etukäteen antamaa kirjallista lupaa on rikos Protected Areas Actin mukaan — ensimmäisestä rikoksesta enintään R5 miljoonaa ja/tai 5 vuoden vankeus (uusintarikoksesta R10 miljoonaa ja/tai 10 vuotta). Siviili-ilmailusääntöjen rikkomisesta voi lisäksi erikseen seurata sakko ja/tai enintään 10 vuoden vankeus.",
       "Etelä-Afrikan 10 km:n lentoasemavyöhyke on paljon tiukempi kuin useimpien maiden vastaavat vyöhykkeet (tyypillisesti 3–9 km) — varmista voimassa oleva etäisyys SACAA:lta.",
-      "Kaupalliset toimijat tarvitsevat kolme erillistä todistusta tai lupaa: RPC, ROC ja RLA",
+      "Yritys- ja voittoa tavoittelemattomat käyttäjät tarvitsevat samat hyväksynnät kuin kaupalliset — RPL, UASOC (aiemmin ROC), RLA ja C of R; vain lentoliikennelupa (ASL) koskee yksinomaan kaupallista käyttöä",
       "Rikkomuksista voi seurata rikossyytteitä"
     ],
     "primaryLinks": [
@@ -42,7 +45,7 @@
     "secondaryLinks": [
       {
         "title": "SACAA — Kaupalliset lupakirjat",
-        "description": "RPC-, ROC- ja RLA-vaatimukset kaupalliseen dronetoimintaan"
+        "description": "RPL-, UASOC-, RLA-, C of R- ja ASL-vaatimukset muuhun kuin yksityiseen dronetoimintaan"
       }
     ]
   }

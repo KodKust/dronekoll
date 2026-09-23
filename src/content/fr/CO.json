@@ -1,45 +1,44 @@
 {
   "meta": {
-    "sourceHash": "81c150124a0453afe7f5155ecf3def2f6e3595db14698b42ea98cfaec819abc2",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "739c62107e50c8694e19f4d73e36df062253357ffa3b107cac8d667605278391",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Altitude maximale : 122 m (400 ft) au-dessus du sol (AGL)",
-      "Distance horizontale maximale : 750 m de l'opérateur (tout en gardant le drone en vue directe — VLOS)",
+      "Altitude maximale : 122 m (400 ft) au-dessus du sol (RAC 100).",
+      "Distance horizontale maximale : 750 m de l'opérateur, en gardant le drone en vue directe (VLOS) (RAC 100).",
       "Drones dont la MTOW est de 200 g ou plus : enregistrement obligatoire sur la plateforme UAS de l'Aerocivil",
-      "Catégorie ouverte (drones ≤25 kg) : exploitation autorisée sans autorisation préalable selon le RAC 100",
-      "Classe B (25–150 kg) : nécessite toujours l'autorisation de l'Aerocivil",
-      "Distance minimale de 9 km par rapport au point de référence de l'aéroport",
-      "Distance minimale de 3 km des héliports",
+      "Drone enregistré : porte une étiquette fixe d'au moins 2 × 4 cm indiquant le numéro d'enregistrement, le nom, l'adresse e-mail et atencionalciudadano@aerocivil.gov.co (RAC 100).",
+      "Catégorie ouverte (drones ≤25 kg, usage non commercial uniquement) : exploitation autorisée sans autorisation préalable selon le RAC 100. Usage commercial = catégorie spécifique avec autorisation.",
+      "Drones de plus de 25 kg (jusqu'à 250 kg) : uniquement dans la catégorie spécifique, avec une autorisation de vol de l'Aerocivil et un télépilote titulaire d'un certificat d'aptitude (RAC 100).",
+      "Distance minimale de 2 km des bases militaires ou de police, des prisons et des infrastructures critiques, ainsi que de tout lieu où se trouve le Président (RAC 100).",
+      "Aéroports : il est interdit de voler sur l'aéroport et à moins de 6 km du point de référence (ARP) ; entre 6 et 9 km uniquement dans la catégorie ouverte, 61 m (200 ft) max. au-dessus du seuil le plus bas et en dehors des ZNVD — consultez le Visor Geográfico UAS (RAC 100).",
+      "Distance minimale de 3 km des héliports (RAC 100).",
       "Une distance minimale de 30 m des personnes et des bâtiments non impliqués",
-      "Gardez toujours le drone en vue directe (VLOS) et volez uniquement de jour",
-      "Les zones GEO (zones réglementées pour les drones) sont définies par l'Aerocivil conformément à l'ICAO"
+      "Gardez toujours le drone en vue directe (VLOS). De nuit uniquement avec des feux allumés en permanence et avec un observateur (RAC 100).",
+      "Les zones d'interdiction de vol pour drones (ZNVD) et les zones interdites, réglementées et dangereuses peuvent être consultées dans le Visor Geográfico UAS de l'Aerocivil (RAC 100)."
     ],
     "importantNotes": [
       "📋 RAC 100 (actuellement en vigueur) : la principale réglementation régissant les drones en Colombie. Il remplace le précédent RAC 91, appendice 13. Il établit la catégorie ouverte (exploitation sans autorisation préalable) et la catégorie spécifique (avec autorisation). La circulaire 100-MAUT-5.0-22-010-CI fournit des indications étape par étape sur le processus d'enregistrement.",
+      "✈️ TOURISTES : le RAC 100 s'applique aussi aux étrangers. Les drones à partir de 200 g sont enregistrés sur la Plataforma UAS Colombia avec un passeport valide ; la démarche est gratuite.",
       "🌳 PARCS NATIONAUX ET ZONES PROTÉGÉES : l'organisme Colombia’s National Natural Parks (PNN) interdit les drones sans autorisation spéciale dans des parcs comme Tayrona, Cocuy, Los Nevados et Amacayacu. Les Caraïbes colombiennes et la région amazonienne font l'objet de restrictions supplémentaires — renseignez-vous auprès de chaque parc avant votre voyage.",
-      "🏛️ ZONES RÉGLEMENTÉES ET URBAINES : le centre de Bogotá (Casa de Nariño, Plaza Bolívar, aéroport El Dorado (SKBO)), la ville fortifiée de Carthagène, les zones militaires, les frontières (Venezuela, Équateur, Panama), les fleuves navigables et les plateformes pétrolières sont soumis à des restrictions permanentes — consultez les zones GEO de l'Aerocivil.",
-      "💰 SANCTIONS ET RESPONSABILITÉ : exploiter sans licence ou en dehors des zones autorisées peut entraîner de lourdes amendes (UVT — Unité de valeur fiscale), la confiscation de l'équipement et, dans les cas graves, une responsabilité pénale. Pour l'usage commercial : une assurance responsabilité civile est requise."
+      "🏛️ ZONES RÉGLEMENTÉES : il est interdit de voler dans les zones ZNVD (p. ex. autour d'El Dorado SKBO) — consultez le Visor Geográfico UAS de l'Aerocivil avant chaque vol.",
+      "💰 SANCTIONS ET RESPONSABILITÉ : exploiter sans enregistrement ou en dehors des zones autorisées peut entraîner de lourdes amendes (UVT — Unité de valeur fiscale), la confiscation de l'équipement et, dans les cas graves, une responsabilité pénale. Pour l'usage commercial : une assurance responsabilité civile est requise."
     ],
     "primaryLinks": [
       {
-        "title": "Aerocivil — Systèmes d'aéronefs sans pilote (UAS/drones)",
-        "description": "Site officiel de l'Unité administrative spéciale de l'aviation civile (UAEAC) sur les drones : RAC 100, circulaires informatives, enregistrement UAS"
-      },
-      {
-        "title": "Documents RPAS — Services de navigation",
-        "description": "Dépôt officiel de documents pour les RPAS/drones : formulaires, guides d'enregistrement, circulaire 100-MAUT-5.0-22-010-CI et réglementations applicables"
+        "title": "Aerocivil — Aviation sans pilote (UAS/drones)",
+        "description": "Site officiel de l'Unité administrative spéciale de l'aviation civile (UAEAC) consacré aux drones : RAC 100, circulaires informatives, enregistrement UAS"
       },
       {
         "title": "Aerocivil — Questions fréquentes sur les drones",
         "description": "Section FAQ officielle sur les drones et la mobilité aérienne urbaine, avec des réponses détaillées aux questions courantes des opérateurs"
       },
       {
-        "title": "Registre aéronautique national — UAS",
-        "description": "Système d'enregistrement aéronautique pour les drones de plus de 250 g. Comprend un guide d'enregistrement et les exigences : identification, photos du drone (6, PDF <2 Mo) et un formulaire numérique"
+        "title": "Aerocivil — Plataforma UAS Colombia (enregistrement des drones)",
+        "description": "Portail de services en ligne UAS de l'Aerocivil : accès à la Plataforma UAS Colombia pour enregistrer les drones de 200 g ou plus (gratuitement), au Visor Geográfico UAS et aux tutoriels"
       }
     ],
     "secondaryLinks": [
@@ -49,11 +48,11 @@
       },
       {
         "title": "Services aux citoyens (courriel + téléphone)",
-        "description": "Adresse électronique officielle de l'Aerocivil pour les questions sur les drones. Téléphone : +57 (601) 425 1000 ou numéro gratuit 01 8000 112373. Du lundi au vendredi, de 8 h à 16 h 30."
+        "description": "Adresse électronique officielle de l'Aerocivil pour les questions sur les drones. Téléphone : +57 (601) 425 1000 ou +57 (601) 518 5214. Du lundi au vendredi, de 8 h à 16 h 30. Drones : gdmua@aerocivil.gov.co"
       },
       {
         "title": "Réglementation aéronautique colombienne (RAC)",
-        "description": "Réglementation aéronautique colombienne (RAC). Comprend le RAC 100 (opérations UAS), le RAC 91 appendice 13 et toutes les réglementations applicables aux drones"
+        "description": "Réglementation aéronautique colombienne (RAC). Comprend le RAC 100 (opérations UAS, en vigueur depuis 2023) et les autres réglementations applicables aux drones"
       }
     ],
     "disclaimerText": "Vérifiez toujours les sources officielles de la Civil Aviation Authority (Aerocivil) avant de voler. Cette application est un outil, pas une autorité juridique. La Colombie applique le RAC 100 (Aeronautical Regulations for UAS Operations), qui impose l'enregistrement obligatoire des drones dont la MTOW est de 200 g ou plus via l'UAS Platform.",

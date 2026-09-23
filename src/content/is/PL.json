@@ -1,28 +1,32 @@
 {
   "meta": {
-    "sourceHash": "b05d24f015f2308210145943a215484aa1c49ad8f402e6dfeecc2171445caa3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "71ddedd6eadd4ef67c92064fd4d382b6fa87094ff6d0bff888fecfd333d022c5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Að hámarki 120 m yfir jörðu (EASA opinn flokkur)",
-      "Skráning sem rekstraraðili fjarstýrðra loftfara (ókeypis) fyrir dróna sem vega 250 g eða meira eða eru búnir myndavél",
-      "Nauðsynleg A1/A3 netþjálfun — lágmarksaldur 16",
-      "Skyldubundin skráning hjá DroneTower á stýrðum loftrýmissvæðum",
-      "Warsaw: leyfi frá State Protection Service (SOP) er nauðsynlegt nálægt stjórnarmannvirkjum",
-      "Haltu ávallt sjónlínu (VLOS) við drónann",
+      "Í opna flokknum er hámarkshæðin 120 m, mæld sem fjarlægð að næsta punkti á yfirborði jarðar — ekki einfaldlega beint niður, svo nálægt halla getur landslagið við hliðina á þér líka talist með. Innan 50 m frá háu manngerðu mannvirki (yfir 105 m) getur sá aðili sem ber ábyrgð á mannvirkinu óskað eftir leyfi til að fljúga allt að 15 m yfir hæð þess.",
+      "Þú verður að skrá þig sem drónarekstraraðila ef dróninn þinn vegur 250 g eða meira (eða gæti flutt meira en 80 J af orku við árekstur) — þetta á jafnvel við um leikföng. Undir 250 g er skráning samt nauðsynleg ef dróninn er með skynjara sem getur safnað persónuupplýsingum, nema hann teljist leikfang samkvæmt leikfangatilskipun ESB. Kröfur um þjálfun/skírteini flugmanns eru aðskildar og fara eftir flokki og undirflokki drónans.",
+      "Frá 13. nóvember 2025 verður rekstraraðili dróna með flugtaksmassa frá 250 g til 20 kg að hafa skyldubundna ábyrgðartryggingu gagnvart þriðja aðila (OC) (lágmarksvátryggingarfjárhæð: jafnvirði 50.000 SDR fyrir hvert tjónsatvik) — einnig fyrir frístundaflug.",
+      "Í Póllandi hefur lágmarksaldur fyrir opna flokkinn verið 14 ár frá 27. febrúar 2025; ókeypis netþjálfunin og prófið gilda í 5 ár. Yngri einstaklingar mega fljúga undir beinu eftirliti flugmanns sem er að minnsta kosti 14 ára og hefur tilskilda hæfni (undantekningar: leikfangadróni í flokki C0 í A1 og heimasmíðaður dróni undir 250 g).",
+      "Hvert drónaflug í Póllandi — óháð massa eða staðsetningu — verður að tilkynna PAŻP fyrir flugtak með Check-In í DroneTower-forritinu (156. gr. a(2) loftferðalaganna, Prawo lotnicze). Á sumum stöðum, þar á meðal á hlutum DRA-R CTR-svæða umhverfis stýrða flugvelli, þarf einnig verkefni sem PAŻP hefur samþykkt (Kreator Misji KSID á drony.gov.pl) — þá tekur þú aðeins á loft eftir samþykki TWR-flugumferðarstjórans í DroneTower.",
+      "DRA-R CTR-svæði umhverfis stýrða flugvelli, opinn flokkur: nær en 1 km frá flugvellinum — engin flug; 1–6 km — yfir 30 m AGL aðeins með A2-hæfni (drónar > 0,9 kg einnig með samþykktu verkefni), að hámarki 50 m AGL; utan 6 km — að hámarki 100 m AGL. Í CTR er að minnsta kosti A1/A3-hæfni krafist (einnig fyrir dróna < 250 g). Aðrar reglur gilda í Rzeszów-CTR (EPRZ). Athugaðu nákvæm mörk og skilyrði í DroneTower eða DroneMap.",
+      "Varsjá: miðborgin fellur undir varanlega svæðið EPP21 WARSZAWA II — drónaflug aðeins með leyfi umsjónaraðila svæðisins; athugaðu skilyrði og tengiliðaupplýsingar í DroneTower.",
+      "Í opna flokknum verður þú að hafa drónann innan eigin sjónar án hjálpartækja (gleraugu/snertilinsur eru í lagi; sjónauki eða skjár telst ekki með) — eða fljúga með aðstoð athuganda, þar sem þið eruð alltaf í skýru og virku sambandi til að fylgjast saman með loftrýminu og forðast árekstra. „Follow-me“-stilling er sérstök undantekning, heimil allt að 50 m frá flugmanninum.",
       "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
-      "DRA-RM svæði (undir 6 km, með hæðartakmörkunum) og DRA-RH svæði (yfir 6 km) — athugaðu drony.gov.pl",
+      "Takmörkuð DRA-R-svæði skiptast eftir líkum á að fá leyfi: DRA-RH (miklar), DRA-RM (miðlungs), DRA-RL (litlar) — ekki eftir hæð (leiðbeiningar forseta ULC nr. 4/2025, Wytyczne nr 4/2025 Prezesa ULC). Athugaðu drony.gov.pl áður en þú flýgur á takmörkuðu svæði.",
+      "Drónar í flokkum C1, C2 og C3 verða að fljúga með fjarauðkenningu (Remote ID) kveikta og uppfærða, sem sendir út rekstraraðilanúmerið; þetta á ekki við um flokka C0/C4, né um dróna án flokksmerkingar sem settir voru á markað fyrir 1. janúar 2024 eða eru heimasmíðaðir (í A1 undir 250 g eða í A3).",
       "Næturflug er heimilt samkvæmt grunnreglum EASA opna flokksins þegar tilskilið grænt blikkandi ljós er notað, nema gildandi landfræðilegt UAS-svæði eða innlend regla setji strangara skilyrði.",
-      "Þjóðgarðar og Natura 2000 svæði: takmarkanir eru í gildi"
+      "Þjóðgarðar geta fallið undir landfræðileg DRA-R-svæði — flug aðeins með leyfi umsjónaraðila svæðisins; athugaðu svæðin í DroneTower áður en þú flýgur (þetta á einnig við um Natura 2000-svæði og friðlönd)."
     ],
     "importantNotes": [
-      "DroneTower-forritið er nauðsynlegt fyrir flugtilkynningar á CTR-svæðum",
-      "Warsaw: samþykki SOP er nauðsynlegt nálægt stjórnarmannvirkjum",
+      "Check-In í DroneTower-forritinu er skyldubundið fyrir hvert flug í Póllandi — ekki aðeins á CTR-svæðum.",
+      "Í Varsjá eru varanleg bannsvæði birt í AIP, þar á meðal EPP9 WARSZAWA, EPP21 WARSZAWA II (miðborgin) og EPP26 FRONTEX (500 m hringur umhverfis höfuðstöðvar Frontex), auk annarra landfræðilegra svæða fyrir dróna. Athugaðu þau og skilyrði þeirra í DroneTower eða DroneMap áður en þú flýgur.",
       "Skráning er ókeypis og gildir í öllum ESB/EASA-löndum",
-      "Sektir allt að 50.000 PLN fyrir brot",
+      "Ferðamenn utan ESB/EASA (t.d. frá Bandaríkjunum eða Bretlandi): skráðu þig sem rekstraraðila í fyrsta ESB-landinu þar sem þú hyggst fljúga — ef það er Pólland, á drony.gov.pl — og sýndu rekstraraðilanúmerið þitt á drónanum. Skráning frá öðru ESB/EASA-landi gildir í Póllandi; ekki er hægt að skrá sig tvisvar.",
+      "Stjórnsýsluviðurlög ULC: PLN 4.000 fyrir hvert brot á reglum opna flokksins, PLN 10.000 fyrir flug í andstöðu við skilyrði landfræðilegs svæðis eða fyrir að skrá sig ekki sem rekstraraðila; brot á flugbanni (t.d. af öryggisástæðum) er refsivert og getur varðað allt að 5 ára fangelsi.",
       "GDPR gildir um töku persónugreinanlegra mynda"
     ],
     "primaryLinks": [
@@ -31,22 +35,22 @@
         "description": "Opinberar reglur og úrræði um dróna frá Flugmálastjórn"
       },
       {
-        "title": "ULC — Skráning rekstraraðila",
-        "description": "Ókeypis skráning sem rekstraraðili fjarstýrðra loftfara (gildir í öllum ESB/EASA-löndum)"
+        "title": "drony.gov.pl — Skráning rekstraraðila",
+        "description": "Ókeypis skráning rekstraraðila fjarstýrðra loftfara auk netþjálfunar og prófs (skráningin gildir í öllum ESB/EASA-löndum)"
       },
       {
         "title": "PANSA — DroneMap",
-        "description": "Opinbert loftrýmiskort sem sýnir stýrð svæði (CTR), takmörkuð svæði og rauntímaupplýsingar"
+        "description": "Opinbert loftrýmiskort sem sýnir stýrð svæði (CTR), bannsvæði og rauntímaupplýsingar"
       },
       {
         "title": "DroneTower — Flugtilkynningarforrit",
-        "description": "Skyldubundið forrit til að tilkynna flug í stýrðu loftrými"
+        "description": "Skyldubundið forrit til að tilkynna (Check-In) hvert drónaflug í Póllandi"
       }
     ],
     "secondaryLinks": [
       {
         "title": "PANSA — NOTAM",
-        "description": "Virk NOTAM og tímabundnar loftrýmistakmarkanir"
+        "description": "NOTAM-skrifstofa PAŻP — NOTAM-upplýsingar fyrir FIR Warszawa; athugaðu gildandi drónatakmarkanir í DroneTower"
       },
       {
         "title": "ULC — Algengar spurningar um dróna",
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
     "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
     "linksSheetTitle": "Loftrými og reglur — Pólland",
-    "dronePilotCredentialName": "Drónaflugmannsskírteini"
+    "dronePilotCredentialName": "Hæfni drónaflugmanns"
   }
 }

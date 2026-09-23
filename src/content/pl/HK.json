@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ab66a0144761f05a1cfb8f54499fb2e2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -11,19 +11,23 @@
     "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
     "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
     "linksSheetTitle": "Przestrzeń powietrzna i zasady — Hongkong",
-    "dronePilotCredentialName": "Uprawnienie pilota SUA",
+    "dronePilotCredentialName": "Świadectwo pilota zdalnego (uprawnienie standardowe / zaawansowane)",
     "keyRules": [
-      "Maks. 91 m (300 ft) nad poziomem gruntu — niżej niż w większości krajów",
-      "Rejestracja wymagana dla wszystkich dronów powyżej 250 g poprzez portal eSUA",
+      "Maks. 91 m (300 ft) nad poziomem gruntu dla dronów kat. A2 (250 g–7 kg) i zarejestrowanych modeli zwolnionych do 250 g; niezarejestrowane drony do 250 g: maks. 30 m (100 ft)",
+      "Maks. prędkość 50 km/h (kat. A2); niezarejestrowane drony do 250 g maks. 20 km/h",
+      "Drony powyżej 250 g — oraz drony do 250 g używane poza limitami kat. A1 — muszą być zarejestrowane i oznakowane przez portal eSUA, a pilot zdalny (od 14 lat) również musi zarejestrować się w eSUA. Dotyczy to także gości",
       "Ograniczenia w pobliżu lotnisk w Hongkongu mają postać urzędowo wyznaczonych Restricted Flying Zones (RFZ) wokół HKIA oraz innych lotnisk i lądowisk dla śmigłowców, pokazanych na CAD Drone Map — nie obowiązuje jedna stała odległość. Lot wewnątrz RFZ wymaga zezwolenia CAD, a niektóre obszary, np. Victoria Harbour, są objęte ograniczeniami niezależnie od odległości od lotniska.",
-      "Minimalna odległość 50 m od niezaangażowanych osób",
+      "Zakaz lotów nad strefą zakazaną w pobliżu Penny's Bay (np. Hong Kong Disneyland) — jest ona ustanowiona odrębną ustawą i nie jest objęta strefami RFZ na CAD Drone Map",
+      "Zachowaj co najmniej 10 m (≤20 km/h) lub 30 m (powyżej 20 km/h, kat. A2) od niezaangażowanych osób, pojazdów, jednostek pływających i budowli; nigdy nie lataj nad nimi",
       "Tylko za dnia — loty nocne bez szczególnego zezwolenia zabronione",
       "Obszar Victoria Harbour jest objęty ograniczeniami",
       "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
+      "Drony powyżej 250 g muszą mieć funkcję geoświadomości i dziennik lotów; przechowuj dzienniki lotów przez 6 miesięcy",
       "Hongkong ma własne przepisy — NIE stosuje przepisów Chin kontynentalnych"
     ],
     "importantNotes": [
-      "Maksymalna wysokość to zaledwie 91 m (300 ft) — znacznie niżej niż standardowe 120 m w większości krajów",
+      "Maksymalna wysokość to 91 m (300 ft), a dla niezarejestrowanych dronów do 250 g tylko 30 m (100 ft) — znacznie mniej niż standardowe 120 m w większości krajów",
+      "Goście: drony powyżej 250 g wymagają rejestracji drona i pilota w eSUA z użyciem paszportu (zwykle ważnej 6 miesięcy). Etykiety CAD nie można wydrukować i nie jest wysyłana za granicę — odbierz ją w siedzibie CAD lub zamów wysyłkę na adres w Hongkongu (np. hotelu)",
       "Ubezpieczenie NIE jest wymagane w standardowych operacjach kategorii A1 ani w operacjach A2 objętych standardową klasyfikacją. Suma ubezpieczenia 10 mln HK$ dotyczy operacji zaawansowanych i dronów kategorii B; nowsza kategoria C (25–150 kg, wprowadzona 18 lipca 2025 r.) wymaga sumy 15 mln HK$ (25–75 kg) lub 20 mln HK$ (75–150 kg). Własna tabela wymagań CAD podaje, że data wejścia w życie szerszego obowiązku ubezpieczeniowego jest „do ustalenia” — przed przyjęciem, że ubezpieczenie jest wymagane w Twojej kategorii, sprawdź aktualny stan.",
       "Hongkong ma przepisy całkowicie odrębne od przepisów Chin kontynentalnych",
       "Zatoka Victoria Harbour i okolice objęte są ograniczeniami lotów",
@@ -46,11 +50,11 @@
     "secondaryLinks": [
       {
         "title": "CAD — Szkolenie Advanced Rating",
-        "description": "Szkolenie Advanced Rating wymagane dla dronów powyżej 250 g"
+        "description": "Szkolenie Advanced Rating — wymagane tylko do operacji zaawansowanych (Advanced Operations)"
       },
       {
         "title": "CAD — Wymagania ubezpieczeniowe",
-        "description": "Obowiązkowe wymagania dotyczące ubezpieczenia OC dla operacji dronowych"
+        "description": "Ubezpieczenie OC — obowiązkowe dla operacji zaawansowanych; jeszcze nie obowiązuje w przypadku standardowych lotów kat. A2"
       }
     ]
   }

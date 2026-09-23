@@ -1,64 +1,67 @@
 {
- "meta": {
-  "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Högsta höjd: 152 m (500 ft) över marken (AGL)",
-   "Minst 4 km från flygplatser och flygfält",
-   "Minst 30 m horisontellt och 20 m vertikalt till människor, byggnader eller föremål",
-   "Kommersiell användning (oavsett vikt): registrering hos MTC krävs + särskilt tillstånd",
-   "Håll alltid drönaren inom synhåll (VLOS)",
-   "Flygning tillåten endast under dagtid – nattflygning kräver särskilt tillstånd från DGAC",
-   "Tätorter: kräver förhandsgodkännande från MTC; landsbygdsområden: inga särskilda restriktioner",
-   "Restriktionsområden: flygplatser, flygfält, strategiska anläggningar och tätbefolkade områden utan tillstånd",
-   "Juridisk åtskillnad: nöjesbruk (fritid) kontra yrkesmässig/kommersiell användning (specialiserad verksamhet)"
-  ],
-  "importantNotes": [
-   "🏛️ MACHU PICCHU OCH ARKEOLOGISKA PLATSER: Kulturministeriet förbjuder drönare utan särskilt tillstånd vid Machu Picchu, Nazcalinjerna, Chan Chan, Caral, Kuélap och andra arkeologiska platser. Tillstånd från kulturministeriet krävs UTÖVER tillstånd från MTC.",
-   "🌳 SKYDDADE NATUROMRÅDEN OCH AMAZONAS: SERNANP (nationella myndigheten för skyddade naturområden) kräver särskilt tillstånd för drönare i parker som Manu, Tambopata och Huascarán. Amazonas och urfolkssamhällen har ytterligare restriktioner.",
-   "🏙️ TÄTORTER I LIMA OCH CUSCO: Centrala Lima (Plaza Mayor, regeringspalatset), Jorge Chávez-flygplatsen (LIM), centrala Cusco och flygplatsen (CUZ), militära zoner och ambassader har permanenta restriktioner. Cuscos historiska centrum kräver tillstånd från kulturministeriet."
-  ],
-  "primaryLinks": [
-   {
-    "title": "MTC – Krav för att använda en drönare",
-    "description": "Officiell webbplats för ministeriet för transport och kommunikation (MTC) med kraven för att använda drönare. Den inkluderar föreskrift NTC 001-2015 och DGAC:s förfaranden."
-   },
-   {
-    "title": "MTC:s virtuella inlämningsdisk – RPAS-registrering",
-    "description": "MTC:s officiella onlineplattform för att registrera drönare (RPAS) helt online. Välj \"Registrering av fjärrstyrda luftfartygssystem (RPAS)\" och fyll i blanketten"
-   },
-   {
-    "title": "MTC – Myndighetens webbplats",
-    "description": "Huvudwebbplats för ministeriet för transport och kommunikation. Tillgång till ärenden, föreskrifter och luftfartstjänster som tillhandahålls av DGAC"
-   },
-   {
-    "title": "DGAC – RPAS-kontakt (tillstånd)",
-    "description": "DGAC:s officiella e-postadress för frågor om RPAS och särskilda tillstånd: rpas-dgac@mtc.gob.pe. Telefon: (01) 615 7800, ankn. 1371"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "El Peruano – Drönartillstånd (officiellt)",
-    "description": "Officiella kungörelseorganet El Peruano: officiell information om vilka tillstånd du behöver för att använda drönare, enligt MTC och DGAC"
-   },
-   {
-    "title": "TV Perú – Officiell guide till kraven",
-    "description": "Officiell rapportering från public service-kanalen TV Perú med uppdaterad information om kraven för att använda drönare, enligt MTC"
-   },
-   {
-    "title": "MTC:s kontor – Personlig service",
-    "description": "MTC:s huvudkontor: Jr. Zorritos 1203, Cercado de Lima. Service finns även vid regionala medborgarkontor för RPAS-ärenden på plats."
-   }
-  ],
-  "disclaimerText": "Kontrollera alltid de officiella källorna från DGAC inom ministeriet för transport och kommunikation (MTC) innan du flyger. Den här appen är ett verktyg, inte en juridisk auktoritet. Peru tillämpar den kompletterande tekniska standarden (NTC) 001-2015 med förenklad registrering via MTC:s virtuella inlämningsdisk.",
-  "sectionLabelRules": "VIKTIGASTE REGLERNA",
-  "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
-  "sectionLabelSecondary": "YTTERLIGARE RESURSER",
-  "linksSheetTitle": "Luftrum och regler – Peru",
-  "dronePilotCredentialName": "RPAS-pilotlicens"
- }
+  "meta": {
+    "sourceHash": "c7bb0eb5efb529d016ee7e14e38488c5a01fec2c25b6f85e5c65f17487613d71",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Högsta höjd: 152 m (500 ft) över marken (AGL) (NTC 001-2015, art. 8(e)(10)).",
+      "Minst 4 km från flygplatser och flygfält (NTC 001-2015, art. 8(e)(19)).",
+      "Håll minst 30 m horisontellt och 20 m vertikalt till människor, byggnader eller hinder under flygningens alla faser (NTC 001-2015, art. 8(e)(9)).",
+      "Flyg inte över motorvägar, vägar, stigar, broar, el- eller teleinfrastruktur (stolpar, master, kablar, antenner), farbara vattenvägar eller rörledningar för kolväten; nära dem ska du hålla mer än 30 m horisontellt från deras kant (NTC 001-2015, art. 8(e)(20)).",
+      "Nöjesbruk: drönare under 2 kg omfattas inte av lag nr 30740 och dess förordning, men driftbegränsningarna i NTC 001-2015 (höjd, avstånd, zoner) gäller all civil användning. Från 2 kg, och vid all användning som inte är nöjesbruk, måste drönaren registreras hos DGAC; den som inte registrerar drönaren kan få böter (lag nr 30740, art. 3 och 4); förfarandet sker automatiskt via MTC:s virtuella inlämningsdisk (Mesa de Partes Virtual).",
+      "Användning som inte är nöjesbruk (oavsett vikt): registrering av drönaren, ackreditering som RPAS-pilot (18 år eller äldre, RPAS-kurs vid ett CIAC eller en flygklubb samt prov hos DGAC), ansvarsförsäkring på minst 10 UIT och tillstånd från DGAC (NTC 001-2015, punkt 8(c)–(d)). Registreringen har skett automatiskt sedan januari 2025.",
+      "Drönaren måste hela tiden vara inom pilotens direkta synhåll.",
+      "Flygning är bara tillåten dagtid: NTC förbjuder flygning i mörker (efter solnedgång eller före soluppgång) (NTC 001-2015, art. 8(e)(13)).",
+      "Stadsområden och befolkade områden: flygning är inte tillåten. DGAC tillåter det bara undantagsvis för offentliga organ, deras entreprenörer, tjänster som förklarats vara av allmänt intresse, brandkåren och INDECI, med drönare på upp till 6 kg utrustade med fallskärm. Varje huvudort i ett departement, en provins eller ett distrikt och varje ort med mer än 1000 invånare räknas som stadsområde. Landsbygd: omfattas av standardens allmänna begränsningar (NTC 001-2015, art. 8(e)(2) och (f)).",
+      "Restriktionsområden: flygplatser, flygfält, strategiska anläggningar och tätbefolkade områden, om inte tillstånd finns.",
+      "Juridisk åtskillnad: nöjesbruk (fritid) kontra yrkesmässig/kommersiell användning (specialiserad verksamhet), med olika krav för var och en."
+    ],
+    "importantNotes": [
+      "🏛️ MACHU PICCHU OCH ARKEOLOGISKA PLATSER: Kulturministeriet förbjuder drönare utan särskilt tillstånd vid Machu Picchu, Nazcalinjerna, Chan Chan, Caral, Kuélap och andra arkeologiska platser. Tillstånd från kulturministeriet krävs UTÖVER tillstånd från MTC.",
+      "🌳 SKYDDADE NATUROMRÅDEN OCH AMAZONAS: SERNANP (nationella myndigheten för skyddade naturområden) kräver särskilt tillstånd för drönare i parker som Manu, Tambopata och Huascarán. Amazonas och urfolkssamhällen har ytterligare restriktioner.",
+      "🏙️ STADSOMRÅDEN I LIMA OCH CUSCO: Lima och Cusco är stadsområden där flygning inte är tillåten utom med undantagstillstånd (NTC 001-2015, art. 8(e)(2) och (f)). Regeringspalatset, militära områden, flygplatserna Jorge Chávez (LIM) och Cusco (CUZ) samt områden som publiceras i AIP-Perú eller i NOTAM är också restriktionsområden (art. 8(e)(19) och (22)). Cuscos historiska centrum kräver dessutom ett positivt yttrande från kulturministeriet (lag nr 30740, art. 2.5).",
+      "⚠️ PÅFÖLJDER: Nationella polisen kan ingripa och beslagta drönaren om den flygs i strid med reglerna; DGAC utdömer påföljder, bland annat böter (D.S. 012-2026-MTC, art. 7 och 73; lag nr 30740, art. 4)."
+    ],
+    "primaryLinks": [
+      {
+        "title": "MTC – Förordning till lag nr 30740 (D.S. 012-2026-MTC)",
+        "description": "MTC:s officiella förordning (29/05/2026). De nya kategorierna och licenserna träder i kraft när DGAC uppdaterar NTC 001-2015; fram till dess gäller NTC."
+      },
+      {
+        "title": "MTC Mesa de Partes Virtual (virtuell inlämningsdisk) – RPAS-registrering",
+        "description": "MTC:s officiella plattform för att registrera drönare (RPAS) helt online. Välj \"Registro de Aeronaves Pilotadas a Distancia (RPAS)\" (registrering av fjärrstyrda luftfartyg) och fyll i formuläret"
+      },
+      {
+        "title": "MTC – Myndighetens webbplats",
+        "description": "Huvudwebbplats för ministeriet för transport och kommunikation. Tillgång till ärenden, föreskrifter och luftfartstjänster från DGAC"
+      },
+      {
+        "title": "DGAC – RPAS-kontakt (tillstånd)",
+        "description": "DGAC:s officiella e-postadress för frågor om RPAS och särskilda tillstånd: rpas-dgac@mtc.gob.pe. Telefon: (01) 615 7800, ankn. 1371"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "MTC – Ackreditering av RPAS-piloter",
+        "description": "MTC:s sida (uppdaterad 11/08/2026): ansökan, onlineprov och elektronisk ackreditering av RPAS-piloter/operatörer (användning som inte är nöjesbruk)."
+      },
+      {
+        "title": "MTC – Automatisk drönarregistrering (2025)",
+        "description": "MTC:s meddelande (26/01/2025): RPAS-registrering tar bara några minuter via den virtuella inlämningsdisken (Mesa de Partes Virtual)."
+      },
+      {
+        "title": "MTC:s kontor – Personlig service",
+        "description": "MTC:s huvudkontor: Jr. Zorritos 1203, Cercado de Lima. Service finns även vid regionala medborgarkontor (Centros de Atención al Ciudadano) för RPAS-ärenden på plats."
+      }
+    ],
+    "disclaimerText": "Kontrollera alltid de officiella källorna från DGAC inom ministeriet för transport och kommunikation (MTC) innan du flyger. Den här appen är ett verktyg, inte en juridisk auktoritet. Peru tillämpar lag nr 30740, dess förordning (D.S. nr 012-2026-MTC) och NTC 001-2015, med förenklad registrering via MTC:s virtuella inlämningsdisk (Mesa de Partes Virtual).",
+    "sectionLabelRules": "VIKTIGASTE REGLERNA",
+    "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
+    "sectionLabelSecondary": "YTTERLIGARE RESURSER",
+    "linksSheetTitle": "Luftrum och regler – Peru",
+    "dronePilotCredentialName": "Ackreditering som RPAS-pilot/operatör"
+  }
 }

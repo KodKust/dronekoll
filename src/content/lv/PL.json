@@ -1,28 +1,32 @@
 {
   "meta": {
-    "sourceHash": "b05d24f015f2308210145943a215484aa1c49ad8f402e6dfeecc2171445caa3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "71ddedd6eadd4ef67c92064fd4d382b6fa87094ff6d0bff888fecfd333d022c5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maks. 120 m virs zemes (EASA atvērtā kategorija)",
-      "UAS operatora reģistrācija (bez maksas) droniem, kas sver 250 g vai vairāk vai ir aprīkoti ar kameru",
-      "Nepieciešama A1/A3 tiešsaistes apmācība — minimālais vecums 16 gadi",
-      "Obligāta reģistrācija DroneTower lietotnē kontrolētās gaisa telpas zonās",
-      "Warsaw: valdības objektu tuvumā nepieciešama State Protection Service (SOP) atļauja",
-      "Vienmēr saglabā tiešu redzamības kontaktu (VLOS) ar dronu",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, mērot attālumu līdz tuvākajam Zemes virsmas punktam — nevis vienkārši vertikāli uz leju, tāpēc nogāzes tuvumā var ņemt vērā arī reljefu tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgais subjekts var pieprasīt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Tev jāreģistrējas kā drona operatoram, ja drons sver 250 g vai vairāk (vai triecienā var nodot vairāk nekā 80 J enerģijas) — tas attiecas pat uz rotaļlietām. Ja svars ir mazāks par 250 g, reģistrācija joprojām ir nepieciešama, ja dronam ir sensors, kas spēj fiksēt personas datus, izņemot gadījumu, kad tas tiek uzskatīts par rotaļlietu saskaņā ar EU Toy Safety Directive. Pilota apmācības/apliecības prasības ir atsevišķas un atkarīgas no drona klases un apakškategorijas.",
+      "No 2025. gada 13. novembra drona, kura pacelšanās masa ir no 250 g līdz 20 kg, operatoram jābūt obligātajai civiltiesiskās atbildības (OC) apdrošināšanai (minimālā apdrošinājuma summa: 50 000 SDR ekvivalents par katru gadījumu) — arī atpūtas lidojumiem.",
+      "Polijā kopš 2025. gada 27. februāra minimālais vecums atvērtajā kategorijā ir 14 gadi; bezmaksas tiešsaistes apmācība un eksāmens ir derīgi 5 gadus. Jaunāki cilvēki drīkst lidot tāda vismaz 14 gadus veca pilota tiešā uzraudzībā, kuram ir nepieciešamā kompetence (izņēmumi: C0 rotaļlietu drons A1 apakškategorijā un privāti būvēts drons, kas sver mazāk par 250 g).",
+      "Katrs dronu lidojums Polijā — neatkarīgi no masas un vietas — pirms pacelšanās jāpaziņo PAŻP, izmantojot Check-In lietotnē DroneTower (Aviācijas likuma, Prawo lotnicze, 156.a panta 2. daļa). Dažās vietās, tostarp daļā DRA-R CTR zonu ap kontrolētiem lidlaukiem, nepieciešama arī PAŻP apstiprināta misija (Kreator Misji KSID vietnē drony.gov.pl) — tad pacelies tikai pēc TWR dispečera akcepta DroneTower.",
+      "DRA-R CTR zonas ap kontrolētiem lidlaukiem, atvērtā kategorija: tuvāk par 1 km no lidlauka — lidojumi aizliegti; 1–6 km — virs 30 m AGL tikai ar A2 kompetenci (droniem > 0,9 kg arī ar apstiprinātu misiju), maksimāli 50 m AGL; tālāk par 6 km — maksimāli 100 m AGL. CTR zonā nepieciešama vismaz A1/A3 kompetence (arī droniem < 250 g). Rzeszów CTR (EPRZ) piemēro atšķirīgus noteikumus. Precīzas robežas un nosacījumus pārbaudi DroneTower vai DroneMap.",
+      "Varšava: pilsētas centru aptver pastāvīgā zona EPP21 WARSZAWA II — dronu lidojumi tikai ar zonas pārvaldītāja atļauju; nosacījumus un kontaktinformāciju pārbaudi DroneTower.",
+      "Atvērtajā kategorijā turi dronu savā redzamības laukā bez palīglīdzekļiem (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai lido ar novērotāja palīdzību, visu laiku uzturot skaidru un efektīvu saziņu savā starpā, lai jūs kopā varētu pārraudzīt gaisa telpu un izvairīties no sadursmēm. “Follow-me” režīms ir atsevišķs izņēmums, kas atļauts līdz 50 m no pilota.",
       "Nelido pāri cilvēku pūļiem. Noteikumi par lidojumā neiesaistītām personām ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudi oficiālo tabulu.",
-      "DRA-RM zonas (zem 6 km, ar augstuma ierobežojumiem) un DRA-RH zonas (virs 6 km) — pārbaudi drony.gov.pl",
+      "Ierobežotās DRA-R zonas iedala pēc atļaujas saņemšanas iespējamības: DRA-RH (augsta), DRA-RM (vidēja), DRA-RL (zema) — nevis pēc augstuma (ULC prezidenta vadlīnijas Nr. 4/2025, Wytyczne nr 4/2025 Prezesa ULC). Pirms lidošanas ierobežotā zonā pārbaudi drony.gov.pl.",
+      "C1, C2 un C3 klases droniem jālido ar ieslēgtu un atjauninātu attālināto identifikāciju (Remote ID), kas pārraida operatora numuru; tas neattiecas uz C0/C4 klasēm, kā arī uz droniem bez klases marķējuma, kas laisti tirgū pirms 2024. gada 1. janvāra vai būvēti privāti (A1 apakškategorijā zem 250 g vai A3 apakškategorijā).",
       "Nakts lidojumi ir atļauti saskaņā ar EASA atvērtās kategorijas pamatnoteikumiem, ja tiek izmantota obligātā mirgojošā zaļā gaisma, ja vien spēkā esoša ģeogrāfiskā zona vai valsts noteikums neparedz stingrākus nosacījumus.",
-      "Nacionālie parki un Natura 2000 teritorijas: spēkā ierobežojumi"
+      "Nacionālos parkus var aptvert DRA-R ģeogrāfiskās zonas — lidojumi tikai ar zonas pārvaldītāja atļauju; pirms lidošanas pārbaudi zonas DroneTower (tas attiecas arī uz Natura 2000 teritorijām un dabas rezervātiem)."
     ],
     "importantNotes": [
-      "DroneTower lietotne nepieciešama lidojumu paziņošanai CTR zonās",
-      "Warsaw: valdības objektu tuvumā nepieciešams SOP apstiprinājums",
+      "Check-In lietotnē DroneTower ir obligāts pirms katra lidojuma Polijā — ne tikai CTR zonās.",
+      "Varšavā ir AIP publicētas pastāvīgas aizliegtās zonas, tostarp EPP9 WARSZAWA, EPP21 WARSZAWA II (pilsētas centrs) un EPP26 FRONTEX (500 m aplis ap Frontex galveno mītni), kā arī citas dronu ģeogrāfiskās zonas. Pirms lidošanas pārbaudi tās un to nosacījumus DroneTower vai DroneMap.",
       "Reģistrācija ir bez maksas un derīga visās ES/EASA valstīs",
-      "Naudassodi līdz 50 000 PLN par pārkāpumiem",
+      "Tūristi no valstīm ārpus ES/EASA (piemēram, no ASV vai Apvienotās Karalistes): reģistrējies kā operators pirmajā ES valstī, kurā plāno lidot — ja tā ir Polija, vietnē drony.gov.pl — un norādi savu operatora numuru uz drona. Citā ES/EASA valstī veikta reģistrācija ir derīga Polijā; divreiz reģistrēties nevar.",
+      "ULC administratīvie sodi: PLN 4000 par katru atvērtās kategorijas noteikumu pārkāpumu, PLN 10 000 par lidošanu pretēji ģeogrāfiskās zonas nosacījumiem vai par nereģistrēšanos kā operatoram; lidojumu aizliegumu pārkāpšana (piemēram, drošības apsvērumu dēļ) ir noziedzīgs nodarījums, par ko draud brīvības atņemšana līdz 5 gadiem.",
       "GDPR attiecas uz identificējamu attēlu fiksēšanu"
     ],
     "primaryLinks": [
@@ -31,22 +35,22 @@
         "description": "Civilās aviācijas iestādes oficiālie noteikumi un resursi par droniem"
       },
       {
-        "title": "ULC — Operatora reģistrācija",
-        "description": "Bezmaksas reģistrācija kā UAS operatoram (derīga visās ES/EASA valstīs)"
+        "title": "drony.gov.pl — Operatora reģistrācija",
+        "description": "Bezmaksas UAS operatora reģistrācija, kā arī tiešsaistes apmācība un eksāmens (reģistrācija derīga visās ES/EASA valstīs)"
       },
       {
         "title": "PANSA — DroneMap",
-        "description": "Oficiālā gaisa telpas karte, kurā redzami CTR, ierobežotās zonas un reāllaika informācija"
+        "description": "Oficiālā gaisa telpas karte, kurā redzami CTR, aizliegtās zonas un reāllaika informācija"
       },
       {
         "title": "DroneTower — Lidojumu paziņošanas lietotne",
-        "description": "Obligāta lietotne lidojumu paziņošanai kontrolētā gaisa telpā"
+        "description": "Obligāta lietotne katra dronu lidojuma paziņošanai (Check-In) Polijā"
       }
     ],
     "secondaryLinks": [
       {
         "title": "PANSA — NOTAM",
-        "description": "Aktīvie NOTAM un pagaidu gaisa telpas ierobežojumi"
+        "description": "PAŻP NOTAM birojs — NOTAM informācija par FIR Warszawa; aktuālos dronu ierobežojumus pārbaudi DroneTower"
       },
       {
         "title": "ULC — Biežāk uzdotie jautājumi par droniem",
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",
     "linksSheetTitle": "Gaisa telpa un noteikumi — Polija",
-    "dronePilotCredentialName": "Drona pilota apliecība"
+    "dronePilotCredentialName": "Drona pilota kvalifikācija"
   }
 }

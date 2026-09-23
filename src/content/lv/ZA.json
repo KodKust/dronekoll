@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "fca3bbf5a00a2bc5c8ae02d7f663df3d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb076b85a229a810666fd05392ea183d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,19 +14,22 @@
     "dronePilotCredentialName": "Tālvadības pilota licence",
     "keyRules": [
       "Tiešā redzamība (VLOS) ir obligāta — maksimālais horizontālais attālums ir 500 m",
-      "Minimālais attālums 50 m no cilvēkiem, ēkām un transportlīdzekļiem",
-      "Turies vismaz 10 km attālumā no lidostām — Dienvidāfrikā šī prasība tiek stingri kontrolēta. Pirms lidošanas lidostas tuvumā pārbaudi precīzo attālumu SACAA avotos.",
-      "Lai lidotu ar dronu Kruger vai jebkurā citā Dienvidāfrikas nacionālajā parkā, nepieciešama nepārprotama SANParks atļauja (NEMA Protected Areas Act) — bez atļaujas aizliegts lidot zemāk par 2 500 ft virs parka augstākā punkta. Atsevišķi par jebkura UAV ekspluatēšanu Dienvidāfrikas gaisa telpā, neievērojot civilās aviācijas noteikumus, var piemērot naudassodu līdz R50 000 un/vai brīvības atņemšanu uz laiku līdz 10 gadiem.",
+      "Maks. 150 ft (45 m) virs zemes — un paliec zemāk par augstāko šķērsli 300 m rādiusā (ierobežotā VLOS)",
+      "Minimālais attālums 50 m no cilvēkiem, koplietošanas ceļiem un ēkām (ja vien īpašnieks neatļauj) — nekad nelido tieši virs cilvēkiem",
+      "Turies vismaz 10 km no jebkura lidlauka — lidostām, lidlaukiem un helikopteru nosēšanās laukumiem (arī privātu atpūtas kompleksu (lodge) skrejceļiem). Dienvidāfrikā tas tiek stingri kontrolēts.",
+      "Nelido kontrolētā, ierobežotā vai aizliegtā gaisa telpā, kā arī cietumu, policijas iecirkņu, noziegumu vietu, tiesu, atomelektrostaciju vai valsts stratēģiski svarīgu objektu (national key points) tuvumā vai virs tiem",
+      "Lidošanai zemāk par 2 500 ft virs jebkura nacionālā parka (arī Krīgera), īpašā dabas rezervāta vai pasaules mantojuma vietas augstākā punkta nepieciešama iepriekšēja rakstiska atļauja no attiecīgās teritorijas pārvaldes iestādes (Protected Areas Act s47) — ne tikai SANParks parkos. Turklāt par civilās aviācijas noteikumu pārkāpšanu var piemērot naudassodu un/vai brīvības atņemšanu līdz 10 gadiem.",
       "Tikai dienā — nepieciešami skaidri laika apstākļi",
-      "Reģistrācija vai licence atpūtas lidošanai nav nepieciešama",
-      "Komerciālai lietošanai nepieciešami RPC (tālvadības pilota apliecība), ROC un RLA",
+      "Privātiem, nekomerciāliem lidojumiem ar droniem, kas sver mazāk par 7 kg, reģistrācija vai licence nav nepieciešama (tikai ierobežotā VLOS)",
+      "Privātus lidojumus drīkst veikt tikai virs sava īpašuma vai virs īpašuma, kura īpašnieks devis atļauju",
+      "Jebkurai neprivātai lietošanai (komerciālai, korporatīvai vai bezpeļņas) nepieciešama Remote Pilot Licence (RPL), UAS Operating Certificate (UASOC, agrāk ROC), RPAS Letter of Approval (RLA) un SACAA reģistrācija (C of R); komerciālai lietošanai nepieciešama arī Air Service Licence (ASL)",
       "Apdrošināšana parasti ir nepieciešama tikai komerciālām darbībām — pirms komerciālas lietošanas pārbaudi aktuālās SACAA prasības.",
       "Nelido virs cilvēku pulcēšanās vietām vai publiskiem pasākumiem"
     ],
     "importantNotes": [
-      "Lidošana jebkurā nacionālajā parkā (tostarp Kruger) bez SANParks atļaujas pārkāpj NEMA Protected Areas Act, savukārt par UAV ekspluatēšanu, neievērojot civilās aviācijas noteikumus, atsevišķi var piemērot sodu līdz R50 000 un/vai brīvības atņemšanu uz laiku līdz 10 gadiem.",
+      "Lidošana zemāk par 2 500 ft virs jebkura nacionālā parka (arī Krīgera) bez iepriekšējas rakstiskas parka pārvaldes iestādes atļaujas ir pārkāpums saskaņā ar Protected Areas Act — par pirmo pārkāpumu draud naudassods līdz R5 miljoniem un/vai brīvības atņemšana līdz 5 gadiem (par atkārtotu pārkāpumu — līdz R10 miljoniem un/vai līdz 10 gadiem). Par civilās aviācijas noteikumu pārkāpšanu atsevišķi var piemērot naudassodu un/vai brīvības atņemšanu līdz 10 gadiem.",
       "Dienvidāfrikas 10 km lidostu zona ir daudz stingrāka nekā vairumā valstu (parasti 3–9 km) — pārbaudi aktuālo attālumu SACAA avotos.",
-      "Komerciāliem operatoriem nepieciešamas trīs atsevišķas sertifikācijas: RPC, ROC un RLA",
+      "Korporatīvajiem un bezpeļņas operatoriem nepieciešamas tās pašas atļaujas kā komerciālajiem — RPL, UASOC (agrāk ROC), RLA un C of R; tikai Air Service Licence (ASL) ir paredzēta vienīgi komerciālai lietošanai",
       "Sodi par pārkāpumiem var ietvert kriminālvajāšanu"
     ],
     "primaryLinks": [
@@ -42,7 +45,7 @@
     "secondaryLinks": [
       {
         "title": "SACAA — Komerciālā licencēšana",
-        "description": "RPC, ROC un RLA prasības komerciālai dronu darbībai"
+        "description": "RPL, UASOC, RLA, C of R un ASL prasības neprivātām dronu darbībām"
       }
     ]
   }

@@ -1,41 +1,43 @@
 {
   "meta": {
-    "sourceHash": "965aaa2f6c885d898cf7ee6ff9907d07afe1d10c3a57077ecae02dbc001de716",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ab41c1c6a873ddfc4cf87129700fea1004f13537f36d6d678dee51194176fb4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálna výška letu: 120 metrov (400 ft) nad úrovňou terénu",
-      "Vaše UAV musí vždy zostať vo vašom vizuálnom dohľade (VLOS)",
-      "Iba denné lety — na nočné lety je potrebné osobitné povolenie",
-      "Najmenej 9 km od všetkých letísk (vrátane letísk Istanbul IST a Sabiha Gökçen SAW)",
-      "Od ostatných osôb sa musí dodržiavať horizontálna vzdialenosť najmenej 50 metrov",
-      "Všetky UAV s hmotnosťou nad 500 g musia byť zaregistrované na iha.shgm.gov.tr",
-      "Lietanie je zakázané v historických oblastiach (Hagia Sophia, Topkapı, Sultanahmet) a pozdĺž koridoru Bosphorus",
-      "Lietanie nad vojenskými zónami, vládnymi budovami a podujatiami s veľkým počtom ľudí je prísne zakázané",
-      "Používanie UAV s hmotnosťou nad 500 g zahraničnými pilotmi si vyžaduje žiadosť podanú diplomatickou cestou",
-      "Lety FPV sú bez osobitného povolenia zakázané"
+      "Maximálna výška letu je 120 m (400 ft); pri letoch P0/P1 musí byť UAV udržiavané vo vizuálnom dohľade (VLOS) a nesmie sa od pilota vzdialiť na viac ako 3 000 m. Lietanie nad 120 m je možné iba s licenciou P2 a v koordinácii s príslušnými orgánmi.",
+      "UAV musíte mať vždy vo svojom zornom poli, v priamom vizuálnom kontakte bez pomoci optických alebo elektronických zariadení (SHT-İHA).",
+      "Amatérske lety (P0) sa smú vykonávať iba cez deň; nočná prevádzka je možná s licenciou P1 alebo P2 a vhodným vybavením (SHT-İHA čl. 15). Počas prechodného obdobia (do 31. júla 2027) si na nočné lety zaobstarajte povolenie SHGM.",
+      "Pred lietaním v blízkosti letísk skontrolujte mapu na iha.shgm.gov.tr (neskôr İHATTYS); lety na všetkých miestach mimo zelených zón podliehajú povoleniu SHGM. Nová SHT-İHA neurčuje pevnú vzdialenosť; ako bezpečnú minimálnu vzdialenosť treba dodržiavať 9 km (5 NM) z predchádzajúcej smernice.",
+      "Lietanie nad davmi sa považuje za vysokorizikovú prevádzku; pre pilotov P0 a P1 je vylúčené a smie sa vykonávať iba s licenciou P2 (SHT-İHA čl. 6). Nová smernica neurčuje pevnú vzdialenosť; ako bezpečné minimum sa odporúča zostať najmenej 50 m od ľudí a stavieb (hodnota z predchádzajúcej smernice).",
+      "Nová SHT-İHA (2026): okrem jednoduchých UAV (Simple UAV) na úrovni hračiek sa všetci používatelia UAV vrátane tých pod 500 g musia zaregistrovať v İHATTYS; termín pre existujúce lietadlá je 31. júl 2027. Kým İHATTYS nezačne fungovať, UAV s hmotnosťou 500 g a viac sa registrujú na iha.shgm.gov.tr.",
+      "Podľa novej SHT-İHA je oprávnenie na let viazané na pilotnú licenciu: amatérska P0 (minimálny vek 10 rokov), komerčná P1 (vek 18 rokov), pokročilá P2; pre jednoduché UAV (Simple UAV) sa licencia nevyžaduje. Počas prechodného obdobia (do 31. júla 2027) zostávajú existujúce osvedčenia İHA0/İHA1 a licencie İHA2/İHA3 v platnosti a prostredníctvom prispôsobenia sa prevádzajú na P0/P1/P2.",
+      "Diaľková identifikácia (Remote ID) a geofencing sú povinné pre UAV okrem jednoduchých UAV (Simple UAV); ste zodpovední za nahratie aktuálnych údajov o obmedzených zónach do svojho UAV (SHT-İHA čl. 12, 23; prechodné obdobie pre existujúce UAV do 31. júla 2027).",
+      "Pred lietaním na istanbulskom Historickom polostrove (Hagia Sofia, Topkapı, Sultanahmet) a v okolí Bosporu skontrolujte mapu na iha.shgm.gov.tr; lety na všetkých miestach mimo zelených zón podliehajú povoleniu SHGM a v červených zónach sa povolenie udeľuje iba so súhlasom inštitúcie, ktorá oblasť uzavrela.",
+      "Lietanie nad vojenskými zónami a vládnymi budovami je prísne zakázané; lietanie nad husto obývanými oblasťami vyžaduje predchádzajúce povolenie SHGM.",
+      "Zahraniční piloti používajúci UAV s hmotnosťou 500 gramov a viac musia požiadať diplomatickou cestou najmenej 20 pracovných dní vopred prostredníctvom formulára FR.23 „İHA Uçuş İzin Talep Formu“ (formulár žiadosti o povolenie letu UAV).",
+      "Pri letoch FPV musí byť prítomný pozorovateľ, ktorý udržiava UAV v nepretržitom vizuálnom kontakte, a medzi pilotom a pozorovateľom musí byť zachovaná nepretržitá komunikácia; vybavenie FPV musí pracovať na frekvenciách schválených BTK (SHGM FAQ). Nová SHT-İHA definuje vizuálny dohľad (VLOS) ako priamy vizuálny kontakt bez pomoci optických/elektronických zariadení — pred lietaním FPV sa poraďte so SHGM."
     ],
     "importantNotes": [
-      "⚠️ ZAHRANIČNÍ PILOTI: Na prevádzku dronu s hmotnosťou nad 500 gramov v Turecku musíte diplomatickou cestou podať žiadosť na General Directorate of Civil Aviation (SHGM) najmenej 20 pracovných dní pred letom, uzavrieť poistenie a lietať pod dohľadom tureckého občana s licenciou İHA-2. Drony s hmotnosťou pod 500 g (napríklad DJI Mini, Flip a pod.) sú z týchto požiadaviek vyňaté.",
-      "🗺️ SYSTÉM ZÓN: Turecko je rozdelené na zelené (otvorené), žlté (potrebné povolenie) a červené (zakázané) zóny. Pred letom si nezabudnite overiť stav zóny na iha.shgm.gov.tr.",
-      "🏛️ HISTORICKÉ A TURISTICKÉ LOKALITY: Bez osobitného povolenia Ministry of Culture and Tourism je zakázané lietať nad Historic Peninsula of Istanbul (Sultanahmet, Hagia Sophia, Topkapı, Grand Bazaar), nad niektorými údoliami v oblasti Cappadocia a nad lokalitami Pamukkale, Ephesus a ďalšími archeologickými lokalitami.",
-      "🛂 DOVOZ A CLO: Ak vstupujete do Turecka s dronmi s hmotnosťou nad 500 g, môže sa od vás vyžadovať ich deklarovanie na colnici. Dovoz na komerčné účely si vyžaduje osobitný postup; Bosphorus, vojenské prístavy a pohraničné regióny podliehajú ďalším obmedzeniam."
+      "🛂 ZAHRANIČNÍ PILOTI — NOVÁ SHT-İHA (30. júl 2026): UAV privezené zo zahraničia musia mať softvérový modul zhody SHGM; bez modulu nemožno lietadlo v Turecku zaregistrovať ani s ním lietať. UAV so zahraničnou registráciou musia byť kompatibilné s İHATTYS; zahraničné licencie posudzuje SHGM a P1/P2 sa vydáva po rozdielovom výcviku. Pre UAV získané pred 30. júlom 2026 trvá obdobie na dosiahnutie zhody do 31. júla 2027. Kým İHATTYS nezačne fungovať, žiadosti pre UAV s hmotnosťou 500 g a viac sa podávajú na SHGM formulárom FR.23 diplomatickou cestou najmenej 20 pracovných dní vopred.",
+      "🗺️ SYSTÉM ZÓN: Podľa novej SHT-İHA (30. júl 2026) sa zóny budú zverejňovať na mape İHATTYS ako zelené (povolenie sa nevyžaduje), červené (uzavreté príslušnou inštitúciou; iba so súhlasom tejto inštitúcie, povolením SHGM a NOTAM) a oranžové (pridelené iným). Kým İHATTYS nezačne fungovať, používa sa mapa iha.shgm.gov.tr (zelená/žltá/červená). V oboch systémoch podliehajú lety na všetkých miestach mimo zelených zón povoleniu SHGM. Pred lietaním vždy skontrolujte mapu.",
+      "🏛️ HISTORICKÉ A TURISTICKÉ MIESTA: Natáčanie videa/filmu a fotografovanie v múzeách a na lokalitách patriacich k múzeám podlieha povoleniu Ministerstva kultúry a cestovného ruchu; obmedzenia letov UAV si overte aj na mape na iha.shgm.gov.tr.",
+      "🛂 UAV PRIVEZENÉ ZO ZAHRANIČIA: UAV s hmotnosťou 500 g a viac musia byť zaregistrované na iha.shgm.gov.tr najneskôr do 3 dní po privezení do Turecka (zákon č. 2920, čl. 144). Cudzinci potrebujú na registráciu na športové/amatérske použitie turecké identifikačné číslo alebo povolenie na pobyt. Pri vstupe môže byť na colnici potrebné colné vyhlásenie; dovoz na komerčné účely si vyžaduje samostatný postup. Na vojenské prístavy a pohraničné oblasti sa vzťahujú ďalšie obmedzenia."
     ],
     "primaryLinks": [
       {
-        "title": "SHGM — Bezpilotné lietadlo (oficiálna stránka)",
-        "description": "Oficiálna stránka Generálneho riaditeľstva civilného letectva o UAV: smernica SHT-UAV, hmotnostné triedy (UAV-0/1/2/3) a prevádzkové pravidlá"
+        "title": "SHGM — İHA Takip / İHATTYS (oficiálny portál)",
+        "description": "Oficiálny portál UAV Generálneho riaditeľstva civilného letectva (İHATTYS). Kým SHGM neoznámi, že systém začal fungovať, registrácia a postupy povoľovania letov sa vykonávajú existujúcimi spôsobmi (iha.shgm.gov.tr a formuláre SHGM)."
       },
       {
-        "title": "Registračný systém UAV (povinný pre drony s hmotnosťou 500 g a viac)",
-        "description": "Povinný registračný portál pre všetky drony s hmotnosťou nad 500 gramov. Vyžaduje turecké identifikačné číslo; pre cudzincov platí formulár FR-03"
+        "title": "Registračný systém UAV (povinný nad 500 g)",
+        "description": "Povinný registračný portál pre všetky drony s hmotnosťou nad 500 gramov. Vyžaduje turecké identifikačné číslo; pre cudzích štátnych príslušníkov platí formulár FR-03"
       },
       {
-        "title": "Žiadosť o registráciu pilota UAV (e-Government)",
-        "description": "Oficiálna služba cez e-Government na žiadosti o registráciu pilota pre UAV-1 a vyššie. Na komerčnú prevádzku je potrebná pilotná licencia."
+        "title": "Žiadosť o registráciu pilota UAV (e-Devlet)",
+        "description": "Oficiálna služba cez e-Devlet (e-Government) na podávanie žiadostí o registráciu pilota pre İHA-1 a vyššie. Na komerčnú prevádzku sa vyžaduje pilotná licencia."
       },
       {
         "title": "Žiadosť o povolenie na let (žlté/červené zóny)",
@@ -44,23 +46,27 @@
     ],
     "secondaryLinks": [
       {
-        "title": "Sledovanie UAV — Oficiálna mobilná aplikácia (Android)",
-        "description": "Oficiálna aplikácia SHGM na sledovanie UAV: zóny vzdušného priestoru, letové povolenia a správa pilotnej licencie"
+        "title": "İHA Takip — oficiálna mobilná aplikácia (Android)",
+        "description": "Oficiálna aplikácia SHGM İHA Takip / İHATTYS. Kým SHGM neoznámi, že İHATTYS začal fungovať, registrácia a postupy povoľovania letov sa vykonávajú existujúcimi spôsobmi (iha.shgm.gov.tr a formuláre SHGM)."
+      },
+      {
+        "title": "İHATTYS — oficiálna mobilná aplikácia (iOS)",
+        "description": "Verzia oficiálnej aplikácie SHGM İHATTYS pre iOS; transakcie vykonané v aplikácii sú neplatné, kým SHGM nevydá potrebné oznámenie"
       },
       {
         "title": "SHGM — Firemná domovská stránka",
         "description": "Domovská stránka Generálneho riaditeľstva civilného letectva: všetky letecké predpisy, oznámenia a kontaktné údaje"
       },
       {
-        "title": "Smernica SHT-UAV (znenie predpisu)",
-        "description": "Smernica civilného letectva — Bezpilotné lietadlo (SHT-UAV): oficiálna smernica, ktorá tvorí právny základ pre všetky prevádzky"
+        "title": "Smernica SHT-İHA 2026 (text predpisu, PDF)",
+        "description": "Unmanned Aircraft Systems Directive (SHT-İHA), účinná od 30. júla 2026: oficiálny text smernice, ktorý je právnym základom pre všetku prevádzku UAV"
       }
     ],
-    "disclaimerText": "Pred lietaním si nezabudnite overiť oficiálne zdroje SHGM. Táto aplikácia je nástroj, nie právny zdroj. Prevádzku UAV v Turecku upravuje SHT-UAV Directive; všetky zariadenia s hmotnosťou 500 g a viac musia byť zaregistrované v registračnom systéme SHGM (iha.shgm.gov.tr).",
+    "disclaimerText": "Pred lietaním si nezabudnite overiť oficiálne zdroje SHGM. Táto aplikácia je nástroj, nie právny zdroj. V Turecku prevádzku UAV upravuje nová smernica SHT-İHA (Unmanned Aircraft Systems Directive), účinná od 30. júla 2026; prechodné obdobie trvá do 31. júla 2027. Všetky zariadenia s hmotnosťou nad 500 g musia byť zaregistrované v registračnom systéme SHGM (iha.shgm.gov.tr).",
     "sectionLabelRules": "ZÁKLADNÉ PRAVIDLÁ",
     "sectionLabelPrimary": "OFICIÁLNE ZDROJE",
     "sectionLabelSecondary": "ĎALŠIE ZDROJE",
     "linksSheetTitle": "Vzdušný priestor a predpisy — Turecko",
-    "dronePilotCredentialName": "Pilotná licencia UAV"
+    "dronePilotCredentialName": "Pilotná licencia UAV (P0/P1/P2)"
   }
 }

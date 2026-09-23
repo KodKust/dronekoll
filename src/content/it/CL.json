@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (aree non popolate, uso ricreativo): i droni di peso ≤750 g possono volare fino a 50 m sopra l'ostacolo più alto su proprietà privata senza autorizzazione",
-      "DAN 151 (aree popolate/uso professionale): i droni di peso superiore a 750 g richiedono la registrazione presso la DGAC, una licenza di pilota e un'autorizzazione operativa",
-      "Altezza complessiva massima autorizzata: 130 m AGL (DAN 151) — varia a seconda dell'autorizzazione",
-      "Distanza minima di 2 km da aeroporti e aviosuperfici",
+      "DAN 91.102(j): senza autorizzazione della DGAC possono volare solo droni fino a 750 g realizzati in polietilene espanso o materiale equivalente, per uso privato o ricreativo, in luoghi privati e non oltre 50 m sopra l'ostacolo o l'edificio più alto. Qualsiasi altro volo richiede l'autorizzazione preventiva della DGAC.",
+      "DAN 151 (aree popolate, interesse pubblico o lavoro aereo): si applica ai droni di qualsiasi peso (max. 9 kg) e richiede la registrazione presso la DGAC, una credenziale di pilota remoto, un'assicurazione, un AOC o CEO e un'autorizzazione operativa.",
+      "DAN 151: durante l'operazione il drone deve avere un paracadute di emergenza e poter essere controllato manualmente (max. 9 kg escluso il paracadute).",
+      "Il limite generale è di 400 piedi (120 m) AGL: per volare più in alto serve l'autorizzazione preventiva della DGAC (DAN 151 Ed. 3, in vigore da maggio 2024). L'attuale DAN 91 esprime lo stesso limite come «400 piedi (130 metri)».",
+      "Vietato volare entro 2 km dal prolungamento dell'asse pista (misurati dalla soglia) o entro 1 km parallelamente all'asse pista di un aerodromo.",
+      "Vietate le operazioni con droni nelle aree in cui un incendio viene combattuto con aeromobili con equipaggio (DAN 91.102(i)(11) e DAN 151.103(g)(14)).",
       "Distanza massima di 500 m dall'operatore (mantieni il contatto visivo diretto)",
-      "Mantieni sempre il drone in linea di vista diretta (VLOS)",
+      "Devi mantenere in ogni momento il contatto visivo diretto con il drone per dirigerne il volo.",
       "I voli notturni richiedono un'autorizzazione specifica della DGAC",
-      "Registrazione DGAC: marca, modello, numero di serie, peso massimo ≤9 kg per uso autorizzato, foto 10×15 cm",
-      "La licenza di pilota richiede un esame scritto (punteggio minimo del 75%) su DAN 151, DAN 91, meteorologia e aerodinamica",
+      "Registrazione presso la DGAC (DAN 151.203): produttore/Paese, marca, modello, numero di serie e peso di fabbrica, con una copia del documento d'identità; la domanda si presenta sulla piattaforma web della DGAC (da agosto 2026). Peso massimo al decollo 9 kg.",
+      "Credenziale di pilota remoto: almeno 18 anni, dichiarazione di formazione ed esame scritto (minimo 75%) su DAN 151, DAN 91, NOTAM, meteorologia e aerodinamica; valida 36 mesi.",
       "Assicurazione di responsabilità civile verso terzi (autorizzata dalla JAC) obbligatoria per l'uso professionale"
     ],
     "importantNotes": [
-      "📋 DOPPIO QUADRO NORMATIVO — DAN 91 vs. DAN 151: il Cile distingue tra il volo in aree NON POPOLATE (DAN 91, più permissivo; voli ricreativi ≤750 g senza permesso) e il volo in aree POPOLATE o di interesse pubblico (DAN 151, che richiede registrazione, pilota certificato e assicurazione). La normativa applicabile dipende dal luogo E dallo scopo.",
-      "✈️ TURISTI STRANIERI: le regole si applicano allo stesso modo ai non residenti. La registrazione non è richiesta per i voli ricreativi con droni di peso ≤750 g in aree private non popolate. Per qualsiasi altra operazione (turismo, uso professionale, in prossimità di persone, nei parchi) servono gli stessi permessi previsti per i cittadini cileni.",
-      "🌋 PARCHI NAZIONALI E RISERVE: la CONAF (Corporazione Forestale Nazionale) vieta i droni senza permesso speciale in parchi come Torres del Paine, Lauca e Isluga Volcano National Park. Antartide cilena: normativa speciale dell'INACH. Verifica presso ciascun parco o riserva prima di partire.",
-      "🏔️ AREE SOGGETTE A RESTRIZIONI: centro di Santiago (La Moneda, Plaza de Armas), SCEL Airport (Pudahuel), zone militari e di confine. Easter Island, Robinson Crusoe Island, Antartide: restrizioni aggiuntive. Consulta l'AIP Chile (ENR 5.1) per una mappa delle aree proibite, soggette a restrizioni e pericolose.",
-      "💰 RINNOVO ANNUALE: la registrazione DGAC è valida per 12 mesi e deve essere rinnovata annualmente. Operare senza una registrazione o una credenziale valida può comportare una sanzione, la confisca delle apparecchiature e il divieto di operare."
+      "DOPPIO QUADRO NORMATIVO — DAN 91 (aree non popolate): ogni volo richiede l'autorizzazione preventiva della DGAC, caso per caso (Allegato D). DAN 151 (aree popolate, interesse pubblico o lavoro aereo): registrazione, credenziale, assicurazione e autorizzazione. Unica eccezione: droni ≤750 g in polietilene espanso o materiale equivalente, uso ricreativo, in luoghi privati e ≤50 m sopra l'ostacolo più alto.",
+      "✈️ TURISTI STRANIERI: le regole si applicano allo stesso modo ai non residenti. Senza autorizzazione della DGAC sono ammessi solo droni ≤750 g in polietilene espanso o materiale equivalente, per uso ricreativo, in luoghi privati e ≤50 m sopra l'ostacolo più alto. Qualsiasi altro volo richiede l'autorizzazione preventiva della DGAC; la registrazione presso la DGAC richiede una copia del documento d'identità.",
+      "🌋 AREE PROTETTE: l'uso ricreativo o turistico dei droni non è consentito in nessuna Area Selvatica Protetta dello Stato (parchi nazionali, riserve, monumenti naturali). La CONAF autorizza voli solo in casi giustificati (ricerca scientifica, monitoraggio o altri scopi di gestione) tramite conaf.cerofilas.gob.cl, e in tal caso serve anche il permesso della DGAC. Antartide: norme speciali dell'INACH.",
+      "🏔️ AREE SOGGETTE A RESTRIZIONI: vietato volare sopra La Moneda (zona SC-P28), installazioni militari, carceri e impianti strategici, o in aree vietate, regolamentate o pericolose dell'AIP Chile (ENR 5.1) o dei NOTAM.",
+      "💰 PERIODI DI VALIDITÀ: la credenziale di pilota remoto dura 36 mesi e si rinnova con un nuovo esame (min. 75%); l'autorizzazione operativa DAN 151 è valida fino a 6 mesi. Il mancato rispetto delle norme della DGAC può comportare sanzioni pecuniarie, la sospensione delle operazioni, la confisca delle apparecchiature o la responsabilità penale se viene messa in pericolo la sicurezza aerea."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Sistema ufficiale di informazioni aeronautiche del Cile: NOTAM, aree proibite/soggette a restrizioni/pericolose (ENR 5), carte, aerodromi"
       },
       {
-        "title": "Procedura di registrazione RPA (PDF ufficiale)",
-        "description": "Procedura ufficiale della DGAC per la nuova registrazione e la regolarizzazione dei droni (RPA). Include l'Appendice B e i moduli"
+        "title": "Registrazione dei droni (RPA) — Nuova piattaforma DGAC",
+        "description": "Registrazione online nel Registro nazionale RPA ai sensi della DAN 151. La registrazione di per sé non costituisce un'autorizzazione al volo."
       }
     ],
     "secondaryLinks": [

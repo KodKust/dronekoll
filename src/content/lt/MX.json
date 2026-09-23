@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "17d852a01e48f71061854c0a7b614ed78721768d3d73eccf5ccdda3a556d264f",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "da2427b1326315670ad00c40760c98fe7dcb581d5abb3f16d2aa07daea8f6c28",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Didžiausias skrydžio aukštis: 120 m (400 ft) virš žemės paviršiaus",
-      "Mažiausias 9,2 km atstumas nuo kontroliuojamų oro uostų",
-      "Mažiausias 3,7 km atstumas nuo nekontroliuojamų aerodromų",
+      "Mažiausias 9,2 km (5 NM) atstumas nuo bet kurio aerodromo, kontroliuojamo ar nekontroliuojamo (NOM-107-SCT3-2019, 4.10.1).",
+      "Nuo 9,2 km (5 NM) iki 18,5 km (10 NM) nuo NOM-107 (Appendix I) išvardytų aerodromų: didžiausias aukštis 100 m (328 ft).",
       "Mažiausias 900 m atstumas nuo sraigtasparnių aikštelių",
+      "Draudžiama skraidyti AIP (ENR 5.1) draudžiamosiose, ribojamosiose ar pavojingosiose zonose ir sraigtasparnių koridoriuose; prieš kiekvieną skrydį patikrinkite NOTAM pranešimus.",
       "Visada laikykite droną tiesioginiame regėjimo lauke (VLOS), ne toliau kaip 457 m nuo operatoriaus",
-      "Dronai, sveriantys 250 g ar daugiau: privaloma registracija AFAC (Appendix K forma)",
+      "Sunkesni nei 250 g dronai: prieš skrydį privaloma registracija AFAC (Appendix K forma)",
       "Lengvesni nei 250 g dronai: atleidžiami nuo registracijos, bet taikomos visos kitos taisyklės",
-      "Svorio kategorijos: Micro (≤2 kg), Light (2–25 kg), Heavy (>25 kg)",
+      "Svorio kategorijos: Micro (≤2 kg), Small (>2–25 kg), Large (>25 kg)",
+      "Pramoginiai dronai, sunkesni nei 2 kg: gali skraidyti tik AFAC įgaliotuose aviamodelių klubuose.",
       "Naktiniams skrydžiams reikalingas specialus AFAC leidimas",
-      "Komerciniam naudojimui reikalingas papildomas leidimas, priklausomai nuo svorio kategorijos"
+      "Privatus nekomercinis ar komercinis naudojimas: privalomas galiojantis civilinės atsakomybės draudimas; Micro (≤2 kg) dronams papildomai reikia specialaus leidimo kontroliuojamai oro erdvei; Small ir Large dronams reikia AFAC veiklos leidimo."
     ],
     "importantNotes": [
-      "⚠️ UŽSIENIO PILOTAMS: NOM-107 draudžia naudoti užsienyje registruotus dronus arba juos eksploatuoti užsienio piliečiams, nebent tarp Mexico ir kilmės šalies yra dvišalis susitarimas. Turistams: pasitikrinkite prieš kelionę.",
-      "Už neteisėtas operacijas gali grėsti baudos iki MXN $80 000 arba laisvės atėmimas",
+      "UŽSIENIO PILOTAI: NOM-107-SCT3-2019 draudžia naudoti užsienyje registruotus dronus arba dronus, kuriuos valdo užsienio piliečiai, nebent Meksika ir kilmės šalis yra sudariusios dvišalį susitarimą — šiuo metu nežinoma, kad toks susitarimas galiotų.",
+      "Norint į Meksiką įvežti sunkesnius nei 250 g Micro dronus ir Small dronus, jiems turi būti nurodytas gamintojas ir modelis, serijos numeris, pridėtas naudotojo vadovas ir įdiegta programinė įranga, automatiškai ribojanti atstumą ir aukštį (NOM-107, 10.1).",
+      "Už NOM-107 nesilaikymą AFAC gali skirti sankcijas pagal Ley de Aviación Civil; už dronų naudojimą nusikaltimams daryti (pvz., sprogmenų numetimą ar išpuolius prieš žmones) baudžiama laisvės atėmimu (Código Penal Federal, 163 Bis–Quáter str.).",
       "Nacionaliniuose parkuose ir archeologinėse vietose (INAH) dronai paprastai draudžiami be specialaus leidimo",
       "Prieplaukoms ir pakrantės zonoms dažnai taikomi ribojimai — pasitikslinkite vietos valdžios institucijose",
       "AFAC registras gali atsakyti per laikotarpį iki 10 darbo dienų — planuokite iš anksto"
@@ -37,16 +40,12 @@
       {
         "title": "NOM-107-SCT3-2019 — Oficialus standartas",
         "description": "Oficialus Meksikos standartas, nustatantis nuotoliniu būdu pilotuojamų orlaivių sistemų naudojimo reikalavimus"
-      },
-      {
-        "title": "Aplinkraštis CO AV-23/10 R4",
-        "description": "Privalomas aplinkraštis, nustatantis išsamius techninius ir naudojimo reikalavimus dronams"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "ASA — Oro uostai ir pagalbinės tarnybos",
-        "description": "Informacija apie Meksikos federalinius oro uostus, skirta ribojamoms zonoms patikrinti"
+        "title": "AFAC — Aerodromų ir sraigtasparnių aikštelių duomenų bazė",
+        "description": "Oficialus dabartinis aerodromų ir sraigtasparnių aikštelių sąrašas, skirtas NOM-107 minimaliems atstumams patikrinti"
       },
       {
         "title": "SICT — Civilinė aviacija",
@@ -62,6 +61,6 @@
     "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
     "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
     "linksSheetTitle": "Oro erdvė ir taisyklės — Meksika",
-    "dronePilotCredentialName": "Nuotolinio piloto licencija"
+    "dronePilotCredentialName": "RPAS piloto leidimas"
   }
 }

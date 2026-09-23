@@ -1,28 +1,29 @@
 {
   "meta": {
-    "sourceHash": "c139af1376a67c6fd4409a0435b10fd8dd0df99586c1e480fb6eb124208d488a",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Altitude maximale : 120 m (400 ft) au-dessus du sol (AGL)",
-      "Drones de moins de 25 kg : NE nécessitent PAS d'enregistrement DINACIA pour l'usage récréatif",
-      "Drones pesant ≥25 kg ou utilisés à des fins commerciales : enregistrement obligatoire sur la plateforme UTM de la DINACIA",
-      "Gardez toujours le drone en vue directe (VLOS)",
-      "Ne survolez pas les zones densément peuplées (villes, agglomérations, quartiers)",
-      "Évitez les aéroports, les aérodromes et l'espace aérien contrôlé (CTR)",
+      "L'altitude de vol maximale est de 120 m (400 ft) au-dessus du sol.",
+      "Les drones (« Small ») jusqu'à 25 kg ne nécessitent pas d'enregistrement auprès de la DINACIA pour l'usage récréatif — ils peuvent voler librement jusqu'à 120 m, sauf dans les zones d'aérodrome.",
+      "À Montevideo, la DINACIA a désigné 4 zones de vol de loisir pour les drones Small (jusqu'à 25 kg), dans des secteurs définis de : Parque Baroffio (partie nord), Parque Marcos Sastre (près de la Ruta 8), Parque Miguelete (tronçon entre Silva et Bvar. Aparicio Saravia) et Parque Tomkinson (sauf l'espace du club de football pour enfants). Altitude maximale dans ces zones : 30 m au-dessus du sol (DINACIA Res. 093/2019, AIP ENR 5.5).",
+      "Les drones de 25 à 260 kg (« Medium ») doivent être enregistrés auprès de la DINACIA et recevoir un numéro d'identification visible sur l'appareil.",
+      "Le pilote doit garder le drone en vue directe à tout moment.",
+      "Le survol des zones densément peuplées (villes, agglomérations, quartiers) n'est pas autorisé sans autorisation expresse de l'autorité aéronautique.",
+      "Évitez les aéroports, les aérodromes et l'espace aérien contrôlé (CTR), sauf autorisation expresse.",
       "Maintenez une distance raisonnable par rapport aux personnes et aux bâtiments non impliqués (recommandation : 30 m)",
       "Vol autorisé uniquement de jour — les vols de nuit nécessitent une autorisation spécifique",
-      "Exploitation commerciale : assurance responsabilité civile obligatoire + permis DINACIA",
-      "Réservations d'espace aérien (événements) : remplissez le formulaire 10 jours à l'avance"
+      "L'usage commercial exige une assurance responsabilité civile ou aéronautique obligatoire, en plus du permis correspondant de la DINACIA.",
+      "Opérations nécessitant une autorisation expresse (au-dessus de zones peuplées ou de rassemblements de personnes, dans les zones d'aérodrome, dans les zones interdites ou réglementées, ou pour un usage commercial) : faites la demande auprès de la DINACIA via la plateforme UTM (utm.dinacia.gub.uy)."
     ],
     "importantNotes": [
-      "🌟 L'URUGUAY EST PERMISSIF : la DINACIA Resolution 291/2014 dispose que les drones de moins de 25 kg NE nécessitent PAS d'enregistrement pour l'usage récréatif. La plupart des drones grand public (DJI Mini, Mavic, Air, Phantom) sont bien en dessous de ce seuil — mais toutes les autres règles d'exploitation S'APPLIQUENT.",
-      "📋 DINACIA RESOLUTION 291/2014 : classe les drones en trois catégories — Small (≤25 kg), Medium (25–260 kg à vide) et Large (>260 kg). Les Uruguayan Aeronautical Regulations (RAU 91 et autres) complètent le cadre réglementaire.",
-      "✈️ TOURISTES ÉTRANGERS : les règles s'appliquent également aux non-résidents. Aucun enregistrement n'est requis pour l'usage récréatif d'un drone de moins de 25 kg. Pour l'usage commercial/professionnel ou les événements : contactez la DINACIA avant votre voyage. La douane peut vous demander de déclarer votre équipement à l'entrée dans le pays.",
-      "🏖️ PUNTA DEL ESTE ET MONTEVIDEO : Punta del Este (forte densité touristique), Carrasco Airport (MVD), Laguna del Sauce Airport (PDP), Government House et Plaza Independencia sont soumis à des restrictions permanentes. Les littoraux et les plages ont tendance à être bondés en haute saison.",
+      "L'Uruguay est relativement permissif : la DINACIA Resolution 291/2014 dispose que les drones jusqu'à 25 kg ne nécessitent pas d'enregistrement pour l'usage récréatif.",
+      "La DINACIA Resolution 291/2014 classe les drones en trois catégories : Small (≤25 kg), Medium (25-260 kg) et Large (plus de 260 kg).",
+      "Les règles s'appliquent aussi aux non-résidents. Pour un usage exclusivement récréatif d'un drone jusqu'à 25 kg, aucun enregistrement ni permis d'exploitant n'est requis. Tout usage rémunéré (même avec de petits drones) exige le permis d'exploitant DAOD de la DINACIA (conditions : avoir 18 ans, un cours dans un centre agréé, un test d'aptitude et la nationalité uruguayenne ; les étrangers doivent ouvrir un dossier électronique APIA auprès de la DINACIA) et une assurance responsabilité civile.",
+      "🚫 ZONES INTERDITES (AIP ENR 5.1) : Torre Ejecutiva/Plaza Independencia à Montevideo (rayon de 950 m), Residencia Presidencial Suárez (rayon de 950 m), Estancia Presidencial Anchorena (rayon de 1 852 m), Isla de Lobos au large de Punta del Este (rayon de 5 km), îles au large de Cabo Polonio, Barra de Valizas et La Coronilla (rayon de 5 km), unités militaires, prisons, barrages et usines de carburant de l'ANCAP. Une autorisation ATM est requise dans l'espace aérien contrôlé et la zone de circulation des aéroports de Carrasco (MVD) et Laguna del Sauce (PDP). Les côtes et les plages sont souvent densément peuplées en haute saison.",
       "🌳 ZONES NATURELLES PROTÉGÉES (SNAP) : le National System of Protected Areas comprend des zones telles qu'Esteros de Farrapos, Cabo Polonio et Quebrada de los Cuervos. Renseignez-vous auprès du Ministry of the Environment sur les restrictions spécifiques avant d'utiliser des drones dans ces zones."
     ],
     "primaryLinks": [
@@ -35,8 +36,8 @@
         "description": "Plateforme UTM officielle (gestion du trafic sans pilote) de la DINACIA pour enregistrer les drones (≥25 kg) et déposer des demandes d'autorisation d'exploitation. Nécessite un utilisateur enregistré"
       },
       {
-        "title": "DINACIA — Permis d'exploitant RPAS",
-        "description": "Page officielle sur les permis d'exploitant RPAS — étapes, exigences et formulaires. Requis pour les drones de 25 kg ou plus et pour tous les usages commerciaux"
+        "title": "DINACIA — Délivrance du permis DAOD",
+        "description": "Circulaire de la DINACIA (CA.UY.PEL.07.02) exposant les conditions du permis d'exploitant DAOD. Obligatoire pour les drones de plus de 25 kg et pour tout usage rémunéré."
       },
       {
         "title": "DINACIA — Licences de télépilote LAR 61",
@@ -62,6 +63,6 @@
     "sectionLabelPrimary": "SOURCES OFFICIELLES",
     "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",
     "linksSheetTitle": "Espace aérien et réglementation — Uruguay",
-    "dronePilotCredentialName": "Licence d'exploitant DAOD"
+    "dronePilotCredentialName": "Permis d'exploitant DAOD"
   }
 }

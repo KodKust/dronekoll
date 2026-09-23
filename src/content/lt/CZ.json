@@ -1,37 +1,41 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne daugiau kaip 120 m virš žemės paviršiaus (EASA atviroji kategorija)",
-      "UAS operatoriaus registracija (nemokama) reikalinga dronams, sveriantiems 250 g ar daugiau arba turintiems kamerą",
-      "Reikalinga A1/A3 internetinė mokymo programa — mažiausias amžius 16 metų",
-      "Skrydžiai oro uostų CTR ir ATZ zonose leidžiami tik suderinus su skrydžių valdymu arba oro uosto operatoriumi",
-      "Skraidymas virš greitkelių ir pagrindinių kelių ribojamas — jų venkite",
-      "Visada išlaikykite tiesioginį regėjimo ryšį su dronu (VLOS)",
+      "Atvirojoje kategorijoje didžiausias aukštis yra 120 m, matuojant iki artimiausio Žemės paviršiaus taško — ne tiesiog statmenai žemyn, todėl prie šlaito gali būti skaičiuojamas ir šalia jūsų esantis paviršius. 50 m atstumu nuo aukštos dirbtinės kliūties (aukštesnės nei 105 m) už kliūtį atsakingas subjektas gali prašyti leidimo skristi iki 15 m aukščiau už kliūtį.",
+      "Turite užsiregistruoti kaip dronų operatorius, jei jūsų dronas sveria 250 g ar daugiau (arba smūgio metu galėtų perduoti daugiau nei 80 J kinetinės energijos) — tai taikoma net žaislams. Jei dronas lengvesnis nei 250 g, registracija vis tiek privaloma, jei jame yra jutiklis, galintis rinkti asmens duomenis, nebent jis laikomas žaislu pagal ES žaislų saugos direktyvą. Pilotų mokymo / pažymėjimo reikalavimai yra atskiri ir priklauso nuo drono klasės ir pakategorės.",
+      "Mažiausias amžius savarankiškai skraidyti atvirojoje kategorijoje yra 16 metų — A1/A3 internetiniai mokymai ir egzaminas galioja 5 metus ir pripažįstami visoje ES. Amžiaus riba netaikoma: C0 klasės dronui, kuris yra žaislas, A1 pakategorėje arba savadarbiam lengvesniam nei 250 g dronui; kitais atvejais jaunesni pilotai gali skraidyti tik tiesiogiai prižiūrimi piloto, atitinkančio amžiaus ir mokymo reikalavimus.",
+      "Turistams: kitoje ES / EASA šalyje gauta operatoriaus registracija ir A1/A3 pažymėjimas galioja ir Čekijoje (registruotis galima tik vienoje šalyje). Gyvenantiems už ES ribų: registruokitės pirmojoje ES / EASA šalyje, kurioje skraidysite (Čekijoje — ÚCL, dron.caa.gov.cz), o jei jūsų dronui reikalingi mokymai, baikite juos pagal ES taisykles — ne ES šalių pažymėjimai nepripažįstami.",
+      "Čekijoje civilinės atsakomybės draudimas privalomas A2 pakategorėje ir A3 pakategorėje sunkesniems nei 4 kg dronams (A1 — ne) — patikrinkite, ar jūsų draudimo polisas apima skrydžius Čekijoje.",
+      "Oro uostų CTR ir ATZ be derinimo galima skristi tik iki tinklelyje nustatyto aukščio (pasitikrinkite DroneMap). Aukščiau — tik suderinus su ŘLP ir pažymėjus skrydį DroneMap; CTR vidinėje zonoje skrydis visada turi būti pažymėtas DroneMap, o virš tinklelio aukščio taip pat būtina suderinti su oro uosto operatoriumi. Kariniuose oro uostuose (MCTR) taikomos griežtesnės sąlygos. Nekontroliuojamuose oro uostuose virš tinklelio aukščio — tik suderinus su AFIS arba oro uosto operatoriumi. Žymėjimas DroneMap netaikomas dronams, kurių registruoti nereikia.",
+      "Tankiai gyvenamose vietovėse (zona LKR316) skrydžio teritorija turi būti iš anksto pažymėta DroneMap (dronemap.gov.cz). Žymėjime (čia, taip pat CTR ir saugomose gamtinėse teritorijose) turi būti nurodytas aukštis, laikas, drono tipas ir svorio kategorija bei operatoriaus registracijos numeris. Netaikoma dronams, kurių operatoriaus registracija nereikalinga.",
+      "Nacionaliniai parkai, saugomos kraštovaizdžio teritorijos (CHKO) ir mažos saugomos teritorijos, pvz., gamtiniai rezervatai (zona LKR318): skrydžiai tik iš anksto pranešus kompetentingai gamtos apsaugos institucijai arba gavus jos leidimą ir pažymėjus skrydžio teritoriją DroneMap. Netaikoma dronams, kurių operatoriaus registracija nereikalinga.",
+      "Keliai (zona LKR317): paprastai 50 m atstumu nuo greitkelio ar I klasės kelio ašies — tik gavus ŘSD sutikimą; paprastai 15 m atstumu nuo II ir III klasės kelių ašies — tik gavus kelio savininko ar valdytojo sutikimą (panašiai ir vietiniams keliams už tankiai gyvenamų vietovių ribų). Skrydžio teritorija turi būti pažymėta DroneMap — netaikoma dronams, kurių operatoriaus registracija nereikalinga.",
+      "Atvirojoje kategorijoje droną privalote išlaikyti tiesioginiame regėjimo lauke plika akimi (akiniai / kontaktiniai lęšiai tinka; žiūronai ar ekranas neskaičiuojami) — arba padedant stebėtojui, visą laiką aiškiai ir veiksmingai bendraujant, kad kartu stebėtumėte oro erdvę ir išvengtumėte susidūrimų. „Sek paskui mane“ (follow-me) režimas yra atskira išimtis tik A1 pakategorėje, leidžiama iki 50 m nuo piloto.",
       "Neskriskite virš žmonių susibūrimų. Neįtrauktiems asmenims taikomos taisyklės priklauso nuo subkategorijos, klasės žymos ir eksploatavimo sąlygų; patikrinkite oficialią lentelę.",
       "Pagal EASA atvirosios kategorijos bazinius reikalavimus naktinis skrydis leidžiamas, jei naudojamas privalomas žalias mirksintis žibintas, išskyrus atvejus, kai galiojančios geografinės zonos ar nacionalinės taisyklės numato griežtesnes sąlygas.",
-      "Baudos iki 5 000 000 CZK (≈ 185 000 €) už pažeidimus",
-      "Prague Castle ir vyriausybiniai pastatai: griežtos neskraidymo zonos"
+      "Baudos iki 3 000 000 CZK (≈ 120 000 €) už pažeidimus",
+      "Prahos pilis ir vyriausybiniai pastatai: visiškai draudžiamosios skrydžių zonos"
     ],
     "importantNotes": [
-      "Skrydžiams oro uostų CTR ir ATZ zonose reikalingas derinimas su skrydžių valdymu arba oro uosto operatoriumi",
-      "Čekijoje skraidymas virš greitkelių ir pagrindinių kelių ribojamas — planuokite maršrutą taip, kad jų išvengtumėte",
-      "Baudos iki 5 000 000 CZK (≈ 185 000 €)",
+      "Oro uostų CTR ir ATZ be derinimo — tik iki tinklelyje nustatyto aukščio (pasitikrinkite DroneMap); aukščiau — tik suderinus (CTR — su ŘLP, nekontroliuojamuose oro uostuose — su AFIS arba oro uosto operatoriumi) ir pažymėjus skrydį DroneMap; CTR vidinėje zonoje žymėjimas privalomas visada",
+      "Keliai (zona LKR317): greitkeliams ir I klasės keliams paprastai 50 m atstumu nuo kelio ašies — tik gavus ŘSD sutikimą; II ir III klasės keliams paprastai 15 m atstumu nuo kelio ašies — tik gavus kelio savininko ar valdytojo sutikimą",
+      "Baudos iki 3 000 000 CZK (≈ 120 000 €)",
       "Prague Castle teritorijoje galioja griežti neskraidymo ribojimai",
       "Renkant atpažįstamus vaizdus taikomas GDPR"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Dronų taisyklės",
-        "description": "Oficialios Civilinės aviacijos institucijos taisyklės ir ištekliai dėl dronų"
+        "title": "ÚCL — dronų taisyklės",
+        "description": "Oficialios Civilinės aviacijos institucijos taisyklės ir ištekliai apie dronus"
       },
       {
-        "title": "CAA — Operatoriaus registracija",
+        "title": "ÚCL — operatoriaus registracija",
         "description": "Nemokama registracija kaip UAS operatorius (galioja visose ES/EASA šalyse)"
       },
       {
@@ -39,18 +43,18 @@
         "description": "Oficialus interaktyvus žemėlapis, rodantis dronų zonas ir oro erdvės ribojimus"
       },
       {
-        "title": "CAA — Taisyklių apžvalga",
+        "title": "ÚCL — taisyklių apžvalga",
         "description": "Dronų skraidymo Čekijoje taisyklių apžvalga"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Skrydžių valdymas — NOTAM ir oro erdvė",
-        "description": "Čekijos skrydžių valdymas ir oro erdvės informacija"
+        "title": "ŘLP — NOTAM ir oro erdvė",
+        "description": "Čekijos oro eismo valdymo ir oro erdvės informacija"
       },
       {
-        "title": "CAA — Dažnai užduodami klausimai apie dronus",
-        "description": "Dažnai užduodami klausimai apie dronų taisykles Čekijoje"
+        "title": "ÚCL — DUK apie dronus",
+        "description": "Dažniausiai užduodami klausimai apie dronų taisykles Čekijoje"
       }
     ],
     "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius Civil Aviation Authority (ÚCL) šaltinius ir Dronemap.gov.cz. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Čekija laikosi EASA taisyklių su nacionaliniais papildymais.",
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
     "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
     "linksSheetTitle": "Oro erdvė ir taisyklės — Čekija",
-    "dronePilotCredentialName": "Drono piloto licencija"
+    "dronePilotCredentialName": "A1/A3 mokymo pažymėjimas"
   }
 }

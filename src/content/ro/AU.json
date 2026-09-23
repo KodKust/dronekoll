@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "362edae763d5f971da0104f4b2bf8c97",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb2939eb8f1213b47dba87ec9440da8e",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,23 @@
     "keyRules": [
       "Maximum 120 m deasupra nivelului solului (AGL)",
       "Minimum 30 m față de orice persoană neimplicată — nu zbura niciodată deasupra persoanelor",
-      "Dronele cu o greutate de peste 250 g trebuie să rămână la cel puțin 5,5 km de un aeroport controlat. Dronele sub 250 g pot zbura în această zonă, dar numai până la 45 m deasupra solului, în afara perimetrului aerodromului și fără a crea un pericol pentru alte aeronave.",
-      "Drone sub 250 g: altitudine maximă de 45 m în raza de 5,5 km a unui aeroport controlat",
+      "Drone de peste 250 g: nu zbura pe o rază de 5,5 km de un aeroport controlat sau pe un culoar de apropiere/plecare al pistei până la 7 km (7–8,5 km: max. 90 m). Dronele de 250 g sau mai puțin pot zbura până la 45 m deasupra solului pe o rază de 5,5 km, dar niciodată deasupra sau pe culoarele de apropiere/plecare, în perimetrul aeroportului sau acolo unde reprezintă un pericol pentru aeronave.",
+      "Pe o rază de 5,5 km de un aeroport fără turn de control sau de 1,4 km de un loc de aterizare pentru elicoptere: dacă observi o aeronavă cu echipaj sau un elicopter, nu decola — îndepărtează-te de traiectoria sa și aterizează cât mai curând posibil",
+      "Nu zbura niciodată deasupra sau în apropierea operațiunilor de urgență (poliție, ambulanță, căutare și salvare, stingerea incendiilor) sau a zonelor care afectează siguranța publică",
       "Zbor recreativ: doar pe timp de zi (de la zorii civili la amurgul civil). Zborul de noapte necesită autorizare RePL + ReOC",
       "Menține întotdeauna contactul vizual direct (VLOS) cu drona",
+      "Zboară cu o singură dronă în același timp",
       "Nu este necesară înregistrarea pentru dronele recreative (orice greutate sub 25 kg, se aplică regulile standard)",
-      "Uz comercial de 2 kg+: este necesară licența de pilot la distanță (RePL)",
+      "Zbor în scop profesional (orice greutate, inclusiv sub 250 g): înregistrează drona (gratuit până la 500 g; 40 AUD per dronă peste 500 g) și deține acreditare de operator sau o licență de pilot la distanță (RePL). Peste 2 kg sunt, în general, necesare și RePL și ReOC. Dronele înregistrate în străinătate nu pot fi înregistrate în Australia — pentru zborurile profesionale, obține permisiunea CASA prin myCASA",
       "Regulile parcurilor naționale variază în funcție de stat — verifică înainte de zbor (unele interzic complet dronele)"
     ],
     "importantNotes": [
-      "Statul Victoria interzice dronele în TOATE parcurile statale și naționale — fără permis nu există excepții",
+      "Sydney Harbour și zonele din jur sunt o „zonă fără drone” (elicoptere și hidroavioane la joasă altitudine) — multe obiective turistice sunt interzise; verifică o aplicație verificată de CASA",
+      "Victoria: dronele recreative nu sunt permise deloc pe terenurile administrate de Parks Victoria; filmarea cu drona necesită un permis Parks Victoria și un operator licențiat, certificat de CASA",
       "Parcurile naționale din NSW necesită un permis de la NPWS — amenzi de până la 3.300 $",
       "Australia de Sud permite dronele în parcuri doar pentru cercetare științifică sau filmare comercială",
-      "Sancțiunile pentru operațiuni ilegale pot depăși 10.000 AUD"
+      "Dronele sunt interzise în parcurile naționale Uluṟu-Kata Tjuṯa și Kakadu (infracțiune conform EPBC Act fără permis)",
+      "CASA poate aplica amenzi de până la 1.820 AUD per încălcare; amenzile în instanță ajung până la 18.200 AUD, iar închisoarea până la 2 ani dacă drona ta pune în pericol aeronave"
     ],
     "primaryLinks": [
       {
@@ -36,7 +40,7 @@
       },
       {
         "title": "OpenSky — harta spațiului aerian",
-        "description": "Date de spațiu aerian verificate de CASA, cu restricții în timp real și alerte TFR"
+        "description": "Date de spațiu aerian verificate de CASA, cu restricții în timp real"
       },
       {
         "title": "CASA — înregistrare",

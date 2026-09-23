@@ -1,37 +1,41 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "UAS-operaattoriksi on rekisteröidyttävä maksutta, jos drone painaa vähintään 250 g tai siinä on kamera",
-      "A1/A3-verkkokoulutus vaaditaan — vähimmäisikä 16 vuotta",
-      "Lennot lentoasemien lähilentovyöhykkeillä (CTR) ja lentopaikkavyöhykkeillä (ATZ) ovat sallittuja vain koordinoinnin jälkeen lennonjohdon tai lentopaikan pitäjän kanssa",
-      "Lennättäminen moottoriteiden ja pääteiden yllä on rajoitettua — vältä niitä",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä lähin piste voi olla myös vieressäsi oleva maasto. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
+      "Sinun on rekisteröidyttävä UAS-käyttäjäksi, jos dronesi painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g:n dronen kohdalla rekisteröinti on silti pakollinen, jos dronessa on henkilötietoja tallentamaan kykenevä anturi, ellei sitä pidetä EU:n lelujen turvallisuusdirektiivin mukaisena leluna. Koulutus- ja lupakirjavaatimukset ovat erillisiä ja riippuvat dronen luokasta ja alaluokasta.",
+      "Vähimmäisikä itsenäiselle lentämiselle avoimessa kategoriassa on 16 vuotta — A1/A3-verkkokoulutus ja -koe ovat voimassa 5 vuotta ja tunnustetaan koko EU:ssa. Ei ikärajaa: C0-luokan drone, joka on lelu, alaluokassa A1, tai itse rakennettu alle 250 g:n drone; muuten nuoremmat lentäjät vain sellaisen lentäjän välittömässä valvonnassa, joka täyttää ikä- ja koulutusvaatimukset.",
+      "Turistit: toisessa EU-/EASA-maassa tehty käyttäjän rekisteröinti ja A1/A3-todistus ovat voimassa myös Tšekissä (rekisteröityä voi vain yhdessä maassa). EU:n ulkopuolelta: rekisteröidy ensimmäisessä EU-/EASA-maassa, jossa aiot lentää (Tšekissä ÚCL:lle osoitteessa dron.caa.gov.cz), ja jos dronesi edellyttää koulutusta, suorita koulutus EU:n sääntöjen mukaisesti – EU:n ulkopuolisten maiden todistuksia ei tunnusteta.",
+      "Vastuuvakuutus on Tšekissä pakollinen alaluokassa A2 sekä alaluokassa A3 yli 4 kg:n droneille (ei alaluokassa A1) — tarkista, että vakuutuksesi kattaa lennot Tšekissä.",
+      "Lentoasemien lähialueilla (CTR) ja lentopaikka-alueilla (ATZ) saat lentää ilman koordinointia vain ruudukon määrittämään korkeuteen asti (tarkista DroneMapista). Korkeammalle vain ŘLP:n kanssa koordinoituna ja lento DroneMapiin merkittynä; CTR:n sisävyöhykkeellä lento on aina merkittävä DroneMapiin, ja ruudukon korkeuden yläpuolella vaaditaan lisäksi koordinointi lentoaseman pitäjän kanssa. Sotilaslentoasemilla (MCTR) sovelletaan tiukempia ehtoja. Valvomattomilla lentoasemilla ruudukon korkeuden yläpuolelle vain AFIS-yksikön tai lentoaseman pitäjän kanssa koordinoituna. DroneMap-merkintä ei koske droneja, jotka eivät edellytä rekisteröintiä.",
+      "Tiheään asutuilla alueilla (vyöhyke LKR316) lentoalue on merkittävä etukäteen DroneMapiin (dronemap.gov.cz). Merkinnässä (täällä samoin kuin lähialueilla (CTR) ja luonnonsuojelualueilla) on oltava korkeus, aika, dronen tyyppi ja painoluokka sekä käyttäjän rekisterinumero. Ei koske droneja, joiden käyttäjältä ei vaadita rekisteröintiä.",
+      "Kansallispuistot, maisemansuojelualueet (CHKO) ja pienialaiset suojelualueet, esim. luonnonsuojelualueet (vyöhyke LKR318): lennot vain toimivaltaiselle luonnonsuojeluviranomaiselle tehdyn ennakkoilmoituksen tai sen antaman luvan perusteella ja lentoalue DroneMapiin merkittynä. Ei koske droneja, joiden käyttäjältä ei vaadita rekisteröintiä.",
+      "Tiet (vyöhyke LKR317): alle 50 m:n etäisyydellä moottoritien tai I-luokan tien keskilinjasta pääsääntöisesti vain ŘSD:n suostumuksella; alle 15 m:n etäisyydellä II- ja III-luokan teiden keskilinjasta pääsääntöisesti vain tien omistajan tai hallinnoijan suostumuksella (samoin paikallisilla teillä tiheään asuttujen alueiden ulkopuolella). Lentoalue on merkittävä DroneMapiin – ei koske droneja, joiden käyttäjältä ei vaadita rekisteröintiä.",
+      "Avoimessa kategoriassa dronen on pysyttävä suorassa näköyhteydessäsi paljain silmin (silmälasit/piilolinssit käyvät; kiikareita tai näyttöä ei lasketa) — tai ota avuksi tähystäjä niin, että viestitte keskenänne selkeästi ja tehokkaasti koko ajan ja voitte yhdessä valvoa ilmatilaa ja välttää yhteentörmäykset. ”Follow me” -tila on erillinen poikkeus vain alaluokassa A1, ja se on sallittu 50 m:n säteellä lentäjästä.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
       "Yölento on sallittu EASA:n avoimen luokan perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
-      "Sakot rikkomuksista jopa 5 000 000 CZK (≈ 185 000 €)",
-      "Prahan linna ja hallintorakennukset: tiukat lennätyskieltoalueet"
+      "Sakot rikkomuksista jopa 3 000 000 CZK (≈ 120 000 €)",
+      "Prahan linna ja hallintorakennukset: ehdottomat lennätyskieltoalueet"
     ],
     "importantNotes": [
-      "Lennot lentoasemien lähilentovyöhykkeillä (CTR) ja lentopaikkavyöhykkeillä (ATZ) edellyttävät koordinointia lennonjohdon tai lentopaikan pitäjän kanssa",
-      "Lennättäminen moottoriteiden ja pääteiden yllä on rajoitettua Tšekissä — suunnittele reitti niitä välttäen",
-      "Sakot jopa 5 000 000 CZK (≈ 185 000 €)",
+      "Lentoasemien lähialueilla (CTR) ja lentopaikka-alueilla (ATZ) ilman koordinointia vain ruudukon määrittämään korkeuteen asti (tarkista DroneMapista); korkeammalle vain koordinoituna (CTR:ssä ŘLP:n kanssa, valvomattomilla lentoasemilla AFIS-yksikön tai lentoaseman pitäjän kanssa) ja lento DroneMapiin merkittynä; CTR:n sisävyöhykkeellä merkintä vaaditaan aina",
+      "Tiet (vyöhyke LKR317): moottoriteillä ja I-luokan teillä pääsääntöisesti alle 50 m:n etäisyydellä keskilinjasta vain ŘSD:n suostumuksella; II- ja III-luokan teillä pääsääntöisesti alle 15 m:n etäisyydellä keskilinjasta vain tien omistajan tai hallinnoijan suostumuksella",
+      "Sakot jopa 3 000 000 CZK (≈ 120 000 €)",
       "Prahan linnan alueella on tiukat lennätysrajoitukset",
       "GDPR-tietosuoja-asetus koskee tunnistettavien kuvien ottamista"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Dronemääräykset",
-        "description": "Siviili-ilmailuviranomaisen viralliset dronesäännöt ja resurssit"
+        "title": "ÚCL — Dronemääräykset",
+        "description": "Siviili-ilmailuviranomaisen viralliset dronesäännöt ja -lähteet"
       },
       {
-        "title": "CAA — Käyttäjän rekisteröinti",
+        "title": "ÚCL — Käyttäjän rekisteröinti",
         "description": "Maksuton rekisteröityminen UAS-käyttäjäksi (voimassa kaikissa EU-/EASA-maissa)"
       },
       {
@@ -40,16 +44,16 @@
       },
       {
         "title": "ÚCL — Sääntöjen yleiskatsaus",
-        "description": "Yleiskatsaus Tšekin dronen lennätyssääntöihin"
+        "description": "Yleiskatsaus dronejen lennättämisen sääntöihin Tšekissä"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Lennonjohto — NOTAM ja ilmatila",
-        "description": "Tšekin lennonjohto ja tietoa ilmatilasta"
+        "title": "ŘLP — NOTAM ja ilmatila",
+        "description": "Tšekin lennonvarmistus ja ilmatilatiedot"
       },
       {
-        "title": "CAA — Usein kysyttyä droneista",
+        "title": "ÚCL — Usein kysyttyä droneista",
         "description": "Usein kysyttyä Tšekin dronemääräyksistä"
       }
     ],
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "VIRALLISET LÄHTEET",
     "sectionLabelSecondary": "LISÄRESURSSIT",
     "linksSheetTitle": "Ilmatila ja säännöt — Tšekki",
-    "dronePilotCredentialName": "Dronelentäjän lupakirja"
+    "dronePilotCredentialName": "A1/A3-koulutustodistus"
   }
 }

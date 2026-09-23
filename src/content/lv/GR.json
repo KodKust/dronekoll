@@ -1,61 +1,65 @@
 {
   "meta": {
-    "sourceHash": "6bd279870909de9539cac55440892030da06bb4b119368a297585876f27098df",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e631818b431dccaf473ebde5f460a6b9eb0f571b8775190b265998e6821bc00d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimāli 120 m virs zemes (EASA atvērtā kategorija)",
-      "Reģistrējies kā UAS operators (bez maksas), ja drons sver 250 g vai vairāk vai ir aprīkots ar kameru",
-      "Nepieciešama A1/A3 tiešsaistes apmācība — minimālais vecums 16 gadi",
-      "Ierobežotas arheoloģiskās vietas: Acropolis, Delphi, Olympia un citas.",
-      "Vienmēr saglabā tiešu redzamības kontaktu (VLOS) ar dronu",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, ko mēra kā attālumu no tuvākā zemes virsmas punkta — ne vienkārši taisni uz leju, tāpēc nogāzes tuvumā var skaitīties arī zeme tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgā persona var lūgt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Tev jāreģistrējas kā drona operatoram, ja tavs drons sver 250 g vai vairāk (vai triecienā varētu nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas pat uz rotaļlietām. Zem 250 g reģistrācija tomēr ir nepieciešama, ja dronam ir sensors, kas spēj uztvert personas datus, izņemot gadījumu, ja tas atbilst rotaļlietai saskaņā ar ES Rotaļlietu drošuma direktīvu. Pilota apmācības/apliecības prasības ir atsevišķas un ir atkarīgas no drona klases un apakškategorijas.",
+      "Tavs operatora reģistrācijas numurs jāizvieto uz visiem taviem droniem un jāievada tālvadības identifikācijas sistēmā (Remote ID), ja dronam tāda ir. Reģistrāciju Grieķijā atjauno pēc 3 gadiem.",
+      "Apmeklētāji no valstīm ārpus ES/EASA: ja tavs drons ir jāreģistrē (skat. iepriekš) un tu vēl neesi reģistrējies citā EASA valstī, pirms lidošanas reģistrējies Grieķijā (bez Grieķijas nodokļu maksātāja numura (AFM): īpašs pieteikums ar pasi HCAA vietnē). Citas EASA valsts rezidenti reģistrējas savā dzīvesvietas valstī. Apmācības un pilota apliecības no valstīm ārpus ES ES netiek atzītas.",
+      "Trešo personu civiltiesiskās atbildības apdrošināšana ir nepieciešama katram profesionāli izmantotam dronam, kā arī privāti izmantotiem droniem no 4 kg (nacionālie tiesību akti).",
+      "Grieķijā minimālais vecums ir 16 gadi — vecuma prasība neattiecas uz C0 klases drona, kas ir rotaļlieta, lidināšanu apakškategorijā A1, uz pašbūvētu dronu, kas sver mazāk par 250 g, vai uz lidošanu sertificēta pilota tiešā uzraudzībā.",
+      "Tādas vietas kā Akropole, Delfi un Olimpija atrodas dzeltenajās/fuksīna zonās — atkarībā no konkrētās teritorijas lidojumi ir atļauti ar nosacījumiem vai pilnībā aizliegti, un vismaz 5 darba dienas iepriekš nepieciešams HCAA apstiprinājums.",
+      "Atvērtajā kategorijā turi dronu savā tiešajā redzamībā ar neapbruņotu aci (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai ar novērotāja palīdzību, visu laiku skaidri un efektīvi sazinoties, lai kopā uzraudzītu gaisa telpu un izvairītos no sadursmēm. Režīms “Follow-me” ir atsevišķs izņēmums, kas atļauts līdz 50 m no pilota.",
       "Nelido pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz lidojumā neiesaistītām personām ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudi oficiālo tabulu.",
-      "Minimālais attālums 8 km no katras lidostas",
+      "Vienota ES mēroga attāluma, kas jāievēro no lidostām, nav. Ierobežojumi lidostu tuvumā tiek publicēti kā ģeogrāfiskās zonas (15. pants), kuru forma un lielums katrai lidostai atšķiras. Pirms lidošanas lidostas, lidlauka vai helikopteru laukuma tuvumā pārbaudi savas valsts oficiālo dronu zonu karti; lidošanai kontroles zonā (CTR) parasti nepieciešama iepriekšēja gaisa satiksmes vadības atļauja.",
       "Nakts lidojumi ir atļauti saskaņā ar EASA atvērtās kategorijas pamatnoteikumiem, ja tiek izmantota prasītā mirgojošā zaļā gaisma, ja vien spēkā esoša ģeogrāfiskā zona vai valsts noteikums neparedz stingrāku nosacījumu.",
       "Salu lidostas: rūpīgi pārbaudi DAGR karti — daudzām salām ir lielas CTR zonas."
     ],
     "importantNotes": [
-      "Arheoloģiskajās vietās un pie kultūras mantojuma pieminekļiem lidot ir stingri aizliegts — piemēro lielus naudassodus.",
+      "Meža ugunsgrēki: aizliegts lidot ar NOTAM noteiktajās zonās. Ja redzi ugunsdzēsības gaisa kuģus vai saņem 112 ziņu par ugunsgrēku apkārtnē, nekavējoties pārtrauc lidojumu un nosēdies. Pārkāpumi: naudassods, kriminālvajāšana, drona konfiskācija.",
+      "Arheoloģiskajām vietām un kultūras mantojuma pieminekļiem nepieciešams iepriekšējs HCAA apstiprinājums (vismaz 5 darba dienas iepriekš) — tās ne vienmēr ir pilnībā aizliegtas, taču tām piemēro stingru kontroli.",
       "Salu lidostas rada plašas ierobežotās zonas",
-      "Militārie objekti: absolūtas lidojumu aizlieguma zonas (daudzi uz salām).",
+      "Nelido virs ostām, slimnīcām, enerģētikas un telekomunikāciju objektiem vai militāriem vai valdības objektiem bez iepriekšējas HCAA atļaujas — daži militārie un valdības objekti DAGR kartē ir pilnīgas lidojumu aizlieguma zonas (daudzi uz salām). Pārkāpumi var izraisīt naudassodus, kriminālsodus un iekārtu konfiskāciju.",
       "GDPR attiecas uz identificējamu personu fiksēšanu."
     ],
     "primaryLinks": [
       {
         "title": "HCAA — Noteikumi par droniem",
-        "description": "Civilās aviācijas iestādes oficiālie noteikumi un informācija par droniem"
+        "description": "Hellenic Civil Aviation Authority (HCAA) oficiālie noteikumi un informācija par droniem"
       },
       {
-        "title": "HCAA — Pilota reģistrācija",
-        "description": "Bezmaksas reģistrācija kā UAS operatoram (derīga visās ES/EASA valstīs)"
+        "title": "HCAA – operatora reģistrācija",
+        "description": "Reģistrācija kā UAS operatoram (Grieķijas rezidentiem, maksa 20 €; reģistrācijas numurs ir derīgs visās ES/EASA valstīs)"
       },
       {
         "title": "DAGR — Dronu gaisa telpas karte",
         "description": "Oficiālā ģeogrāfiskā karte ar dronu lidojumu ierobežojumiem Grieķijā"
       },
       {
-        "title": "HCAA — Lidojuma paziņojums",
-        "description": "5 dienu iepriekšēja lidojuma paziņojuma iesniegšana (nepieciešama katram lidojumam)"
+        "title": "HCAA – lidojuma apstiprinājuma pieteikums (DAGR zonas)",
+        "description": "Pieteikums lidojumu apstiprināšanai dzeltenajās/fuksīna DAGR zonās (vismaz 5 darba dienas iepriekš)"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "HASP — Gaisa sports",
-        "description": "Grieķijas Gaisa sporta federācija un atpūtas lidojumu informācija"
+        "title": "HASP – aeronavigācijas pakalpojumu sniedzējs",
+        "description": "Grieķijas aeronavigācijas pakalpojumu sniedzējs – DAGR un NOTAM operators"
       },
       {
         "title": "HCAA — Biežāk uzdotie jautājumi par droniem",
         "description": "Biežāk uzdotie jautājumi par dronu noteikumiem Grieķijā"
       }
     ],
-    "disclaimerText": "Pirms katra lidojuma vienmēr pārbaudi Hellenic Civil Aviation Authority (HCAA) oficiālos avotus un DAGR karti. Šī lietotne ir rīks, nevis juridiska instance. Grieķija ievēro EASA noteikumus ar nacionālajiem papildinājumiem, tostarp obligāto prasību paziņot par lidojumu 5 dienas iepriekš.",
-    "sectionLabelRules": "PAMATNOTEIKUMI (EASA ATVĒRTĀ KLASE)",
+    "disclaimerText": "Pirms katra lidojuma vienmēr pārbaudi Hellenic Civil Aviation Authority (HCAA) oficiālos avotus un DAGR karti. Šī lietotne ir rīks, nevis juridiska instance. Grieķija ievēro EASA noteikumus ar nacionālajiem papildinājumiem, tostarp prasību iesniegt HCAA pieteikumu vismaz 5 darba dienas iepriekš lidojumiem dzeltenajās/fuksīna DAGR zonās, kur lidot atļauts ar nosacījumiem.",
+    "sectionLabelRules": "PAMATNOTEIKUMI (EASA ATVĒRTĀ KATEGORIJA)",
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",
     "linksSheetTitle": "Gaisa telpa un noteikumi — Grieķija",
-    "dronePilotCredentialName": "Operatora apliecība"
+    "dronePilotCredentialName": "Tālvadības pilota apliecība"
   }
 }

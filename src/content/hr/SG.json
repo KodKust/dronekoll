@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "56c3153444a663787bfd0ce0f2337746",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,20 +14,23 @@
     "dronePilotCredentialName": "Licencija pilota UA-a",
     "keyRules": [
       "Standardna najveća visina iznosi 200 ft (60 m AMSL) — 400 ft (122 m) za licencirane komercijalne operatere u posebno određenim zonama više od 6 km od zračne luke. Prije oslanjanja na višu granicu provjerite aktualne karte zona i uvjete.",
-      "Bespilotni zrakoplov teži od 250 g mora se registrirati pri CAAS. Registracija stoji SGD 25 i ne istječe — potrebno ju je ažurirati ili poništiti samo ako je dron izgubljen, oštećen ili prodan ili ako njegova identifikacijska oznaka postane nečitljiva.",
-      "UA Pilot Licence (UAPL) potrebna je za komercijalnu ili profesionalnu upotrebu te za svaki dron teži od 7 kg, bez obzira na svrhu. Class B UAPL obuhvaća lakše komercijalne dronove ispod 7 kg.",
-      "Držite se najmanje 5 km od zračnih luka i vojnih zrakoplovnih baza — prije leta u blizini bilo koje zrakoplovne baze provjerite točnu trenutačno važeću udaljenost.",
+      "Bespilotni zrakoplov teži od 250 g morate registrirati pri CAAS. Registracija stoji SGD 25 i ne istječe — potrebno ju je ažurirati ili poništiti samo ako je dron izgubljen, oštećen ili prodan ili ako njegova identifikacijska oznaka postane nečitljiva. Za registraciju morate imati najmanje 16 godina; za mlađe pilote dron mora registrirati roditelj ili skrbnik.",
+      "Za rekreativno letenje na otvorenom s dronom težim od 1,5 kg do 7 kg potreban je UA Basic Training Certificate (jednokratni tečaj od ~2 sata kod organizacije koju je odobrio CAAS) ili UAPL, a pilot mora imati najmanje 16 godina.",
+      "UA Pilot Licence (UAPL) potrebna je za svaku komercijalnu ili profesionalnu upotrebu bez obzira na težinu te za svaki dron teži od 7 kg bez obzira na svrhu. Class A UAPL obuhvaća dronove do 25 kg; Class B UAPL namijenjena je određenim modelima težima od 25 kg. Strane licencije za dronove ne mogu se pretvoriti u UAPL.",
+      "Držite se najmanje 5 km od zračnih luka i vojnih zrakoplovnih baza, osim ako za to imate CAAS Activity Permit — prije leta u blizini bilo koje zrakoplovne baze provjerite točnu trenutačno važeću udaljenost.",
+      "Letenje dronom u Singapur ili iz njega (npr. preko Johorskog tjesnaca) nezakonito je bez prekogranične dozvole CAAS-a, bez obzira na težinu drona.",
       "Broadcast Remote ID (B-RID) obavezan je od 1. prosinca 2025. za UA s masom većom od 250 g, osim za UA kojima se upravlja u zatvorenom prostoru ili kada operater ima Operator Permit i koristi aplikaciju FlyItSafe.",
       "Noćno letenje dopušteno je samo uz uključeno propisano osvjetljenje i uz održavanje VLOS u svakom trenutku; za letenje izvan vidnog polja potrebni su Operator Permit i Class 1 Activity Permit.",
       "Uvijek održavajte vidno polje (VLOS)",
-      "Dozvola za aktivnost potrebna za letenje u ograničenim područjima",
+      "Za rekreativne letove (dron do 25 kg) potreban je CAAS Class 2 Activity Permit za letenje više od 200 ft iznad srednje razine mora, unutar 5 km od bilo koje zračne luke ili vojne zrakoplovne baze ili u bilo kojem ograničenom ili opasnom području. Za zaštićena područja potrebna je i dozvola Singapore Police Force. Letenje u zabranjenim područjima nikada nije dopušteno.",
       "Kazne su stupnjevane: pri prvoj osudi za ozbiljne prekršaje (npr. letenje u zabranjenom ili zaštićenom području ili upravljanje u stanju smanjene sposobnosti) mogu iznositi do SGD 50.000 ili 2 godine zatvora — pri ponovljenim prekršajima do SGD 100.000 ili 5 godina zatvora. Lakši prekršaji (npr. letenje neregistriranim dronom ili kršenje pravila B-RID) kažnjavaju se blaže, do SGD 10.000 i do 6 mjeseci zatvora.",
       "Ne letite iznad ljudi, građevina ili ograničenih objekata"
     ],
     "importantNotes": [
       "Singapur ima stroge, stupnjevane kazne za prekršaje povezane s dronovima: pri prvoj osudi za ozbiljne prekršaje, poput letenja u ograničenom području, do SGD 50.000 ili 2 godine zatvora — pri ponovljenim prekršajima do SGD 100.000 ili 5 godina zatvora. Lakši prekršaji nose niže kazne, do SGD 10.000 i do 6 mjeseci zatvora.",
-      "Standardno ograničenje visine iznosi samo 200 ft (60 m) — mnogo niže nego u većini zemalja",
+      "Standardno ograničenje visine iznosi samo 200 ft (oko 60 m) iznad srednje razine mora (AMSL), a ne iznad mjesta polijetanja. S uzvisine ili krova imate manje raspoložive visine. Za letenje na većoj visini potreban je CAAS Activity Permit.",
       "Broadcast Remote ID (B-RID) obavezan je od 1. prosinca 2025. za UA s masom većom od 250 g, uz ograničene iznimke za upotrebu u zatvorenom prostoru i za operatere koji imaju Operator Permit i koriste aplikaciju FlyItSafe.",
+      "Posjetitelji bez Singpassa: izradite račun UAPass najmanje 5 radnih dana prije dolaska. Kupite registracijsku naljepnicu od SGD 25 u određenoj pošti SingPost ili online (dostava samo unutar Singapura, do 5 radnih dana). Pričvrstite je na dron, a zatim se registrirajte na UA Portal.",
       "Mnoga područja u Singapuru su ograničena — uvijek provjerite OneMap prije leta"
     ],
     "primaryLinks": [
@@ -40,12 +43,12 @@
         "description": "Službena karta Singapura sa zonama za letenje dronovima i ograničenjima"
       },
       {
-        "title": "FlyItSafe — CAAS aplikacija",
-        "description": "Službena CAAS aplikacija za sigurnost dronova sa zonama za letenje i informacijama o dozvolama"
+        "title": "CAAS — Zahtjevi za letenje UA-om",
+        "description": "Službena pravila CAAS-a za rekreativne, obrazovne i poslovne letove dronovima u Singapuru"
       },
       {
         "title": "CAAS — Registracija UA-a",
-        "description": "Registrirajte svoj dron i podnesite zahtjev za dozvole za aktivnost online"
+        "description": "Kako registrirati dron pri CAAS: kupite naljepnicu od SGD 25, pričvrstite je i zatim se registrirajte na UA Portal"
       }
     ],
     "secondaryLinks": [

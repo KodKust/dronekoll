@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ab66a0144761f05a1cfb8f54499fb2e2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -11,19 +11,23 @@
     "sectionLabelPrimary": "OFICIÁLNÍ ZDROJE",
     "sectionLabelSecondary": "DALŠÍ ZDROJE",
     "linksSheetTitle": "Vzdušný prostor a pravidla — Hongkong",
-    "dronePilotCredentialName": "Pilotní kvalifikace SUA",
+    "dronePilotCredentialName": "Osvědčení dálkově řídícího pilota (standardní / pokročilá kvalifikace)",
     "keyRules": [
-      "Max. 91 m (300 ft) nad úrovní terénu — nižší limit než ve většině zemí",
-      "Registrace vyžadována pro všechny drony nad 250 g prostřednictvím portálu eSUA",
+      "Max. 91 m (300 ft) nad úrovní terénu pro drony kat. A2 (250 g–7 kg) a registrované vyňaté modely do 250 g; neregistrované drony do 250 g: max. 30 m (100 ft)",
+      "Max. rychlost 50 km/h (kat. A2); neregistrované drony do 250 g max. 20 km/h",
+      "Drony nad 250 g — a drony do 250 g provozované nad rámec limitů kat. A1 — musí být zaregistrovány a označeny štítkem přes portál eSUA a dálkově řídící pilot (od 14 let) se musí také zaregistrovat v eSUA. Platí i pro návštěvníky",
       "Omezení v blízkosti letišť jsou v Hongkongu vymezena jako úředně vyhlášené omezené letové zóny (RFZ) kolem HKIA a dalších letišť a heliportů, které jsou zobrazeny na CAD Drone Map — neexistuje žádná jednotná pevná vzdálenost. Létání uvnitř RFZ vyžaduje povolení CAD a některé oblasti (např. Victoria Harbour) jsou omezené bez ohledu na vzdálenost od letiště.",
-      "Minimální vzdálenost 50 m od nezúčastněných osob",
+      "Žádné létání nad zakázaným prostorem (Prohibition Area) u Penny's Bay (např. Hong Kong Disneyland) — je stanoven samostatným zákonem a nepokrývají ho zóny RFZ na mapě CAD Drone Map",
+      "Udržujte alespoň 10 m (≤20 km/h) nebo 30 m (nad 20 km/h, kat. A2) od nezúčastněných osob, vozidel, plavidel a staveb; nikdy nad nimi nelétejte",
       "Pouze za denního světla — noční létání bez zvláštního povolení zakázáno",
       "Oblast přístavu Victoria Harbour je omezená",
       "Vždy udržujte vizuální dohled (VLOS)",
+      "Drony nad 250 g musí mít geo-awareness a letový deník; letové deníky uchovávejte 6 měsíců",
       "Hongkong má vlastní pravidla — NIKOLI předpisy pevninské Číny"
     ],
     "importantNotes": [
-      "Maximální výška je pouze 91 m (300 ft) — výrazně nižší než standardních 120 m ve většině zemí",
+      "Maximální výška je 91 m (300 ft) a pro neregistrované drony do 250 g jen 30 m (100 ft) — výrazně méně než standardních 120 m ve většině zemí",
+      "Návštěvníci: drony nad 250 g vyžadují registraci dronu i pilota v eSUA s vaším cestovním pasem (obvykle platná 6 měsíců). Štítek CAD nelze vytisknout a do zahraničí se nezasílá — vyzvedněte si ho v ústředí CAD nebo si ho nechte poslat na adresu v Hongkongu (např. do hotelu)",
       "Pojištění se NEVYŽADUJE pro standardní provoz v kategorii A1 ani pro standardně hodnocený provoz A2. Krytí HK$10M se vztahuje na pokročilý provoz a drony kategorie B; novější kategorie C (25–150 kg, zavedená 18. července 2025) vyžaduje krytí HK$15M (25–75 kg) nebo HK$20M (75–150 kg). Vlastní tabulka požadavků CAD uvádí datum účinnosti širšího zavedení pojištění jako „bude určeno“ — předpoklad, že je krytí pro vaši konkrétní kategorii povinné, si ověřte podle aktuálního stavu.",
       "Hongkong má pravidla zcela odlišná od pravidel pevninské Číny",
       "Přístav Victoria Harbour a okolní oblasti mají letová omezení",
@@ -46,11 +50,11 @@
     "secondaryLinks": [
       {
         "title": "CAD — školení Advanced Rating",
-        "description": "Školení Advanced Rating vyžadované pro drony nad 250 g"
+        "description": "Školení Advanced Rating — vyžadováno pouze pro pokročilý provoz (Advanced Operations)"
       },
       {
         "title": "CAD — požadavky na pojištění",
-        "description": "Požadavky na povinné pojištění odpovědnosti vůči třetím osobám pro provoz dronů"
+        "description": "Pojištění odpovědnosti vůči třetím osobám — povinné pro pokročilý provoz; pro standardní lety kat. A2 zatím neplatí"
       }
     ]
   }

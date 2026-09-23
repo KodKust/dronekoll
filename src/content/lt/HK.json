@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ab66a0144761f05a1cfb8f54499fb2e2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -11,19 +11,23 @@
     "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
     "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
     "linksSheetTitle": "Oro erdvė ir taisyklės — Honkongas",
-    "dronePilotCredentialName": "SUA piloto kvalifikacija",
+    "dronePilotCredentialName": "Nuotolinio piloto pažymėjimas (standartinė / pažengusiojo lygio kvalifikacija)",
     "keyRules": [
-      "Iki 91 m (300 ft) virš žemės paviršiaus — žemiau nei daugumoje šalių",
-      "Registracija privaloma visiems sunkesniems nei 250 g dronams per eSUA portalą",
+      "Ne aukščiau kaip 91 m (300 ft) virš žemės paviršiaus A2 kategorijos dronams (250 g–7 kg) ir registruotiems modeliams iki 250 g, kuriems taikoma išimtis; neregistruotiems dronams iki 250 g — ne aukščiau kaip 30 m (100 ft)",
+      "Didžiausias greitis 50 km/h (A2 kategorija); neregistruotiems dronams iki 250 g — ne daugiau kaip 20 km/h",
+      "Sunkesni nei 250 g dronai — ir dronai iki 250 g, skraidinami viršijant A1 kategorijos ribas, — turi būti užregistruoti ir paženklinti per eSUA portalą, o nuotolinis pilotas (14+ metų) taip pat turi užsiregistruoti eSUA. Taikoma ir lankytojams",
       "Ribojimai prie Hong Kong oro uostų nustatomi kaip oficialiai paskelbtos Restricted Flying Zones (RFZ) aplink HKIA ir kitus aerodromus bei sraigtasparnių aikšteles; jos rodomos CAD Drone Map — vieno fiksuoto atstumo nėra. Norint skristi RFZ viduje reikia CAD leidimo, o kai kurios teritorijos (pvz., Victoria Harbour) ribojamos nepriklausomai nuo atstumo iki bet kurio oro uosto.",
-      "Mažiausias 50 m atstumas nuo operacijoje nedalyvaujančių žmonių",
+      "Neskraidykite virš draudžiamosios zonos (Prohibition Area) prie Penny's Bay (pvz., Hong Kong Disneyland) — ji nustatyta atskiru teisės aktu ir nepatenka į CAD Drone Map RFZ zonas",
+      "Laikykitės ne mažesnio kaip 10 m (≤20 km/h) arba 30 m (daugiau nei 20 km/h, A2 kategorija) atstumo nuo nedalyvaujančių žmonių, transporto priemonių, laivų ir statinių; niekada neskraidykite virš jų",
       "Tik dieną — skraidyti naktį be specialaus leidimo draudžiama",
       "Victoria Harbour teritorija yra ribojama",
       "Visada išlaikykite tiesioginį regėjimo ryšį (VLOS)",
+      "Sunkesni nei 250 g dronai turi turėti geografinio informuotumo funkciją ir skrydžių žurnalą; skrydžių žurnalus saugokite 6 mėnesius",
       "Hong Kong galioja savos taisyklės — mainland China taisyklės čia NETAIKOMOS"
     ],
     "importantNotes": [
-      "Didžiausias aukštis tik 91 m (300 ft) — gerokai žemesnis nei 120 m standartas daugumoje šalių",
+      "Didžiausias aukštis — 91 m (300 ft), o neregistruotiems dronams iki 250 g — tik 30 m (100 ft) — gerokai žemiau nei 120 m standartas daugumoje šalių",
+      "Lankytojams: sunkesniems nei 250 g dronams reikalinga drono ir piloto registracija eSUA naudojant pasą (paprastai galioja 6 mėnesius). CAD etiketės negalima atsispausdinti ir ji nesiunčiama į užsienį — atsiimkite ją CAD būstinėje arba paprašykite išsiųsti Honkongo adresu (pvz., į jūsų viešbutį)",
       "Standartinėms Category A1 ir standartinio vertinimo A2 operacijoms draudimas NEREIKALINGAS. HK$10M draudimo apsauga taikoma pažangioms operacijoms ir Category B dronams; naujesnei Category C (25-150kg, įvestai 2025 m. liepos 18 d.) reikalinga HK$15M (25-75kg) arba HK$20M (75-150kg) draudimo apsauga. Pačios CAD reikalavimų lentelėje platesnio draudimo taikymo įsigaliojimo data nurodyta kaip „to be determined“ — prieš manydami, kad jūsų konkrečiai kategorijai draudimas privalomas, patikrinkite dabartinę padėtį.",
       "Hong Kong taisyklės visiškai skiriasi nuo mainland China taisyklių",
       "Victoria Harbour ir aplinkinėse teritorijose galioja skrydžių ribojimai",
@@ -46,11 +50,11 @@
     "secondaryLinks": [
       {
         "title": "CAD — Pažengusiojo lygio mokymai",
-        "description": "Pažengusiojo lygio (Advanced Rating) mokymai, reikalingi sunkesniems nei 250 g dronams"
+        "description": "Pažengusiojo lygio (Advanced Rating) mokymai — reikalingi tik pažangiosioms operacijoms (Advanced Operations)"
       },
       {
         "title": "CAD — Draudimo reikalavimai",
-        "description": "Privalomojo civilinės atsakomybės draudimo reikalavimai dronų operacijoms"
+        "description": "Civilinės atsakomybės tretiesiems asmenims draudimas — privalomas pažangiosioms operacijoms; standartiniams A2 kategorijos skrydžiams dar negalioja"
       }
     ]
   }

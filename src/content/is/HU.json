@@ -1,29 +1,30 @@
 {
   "meta": {
-    "sourceHash": "c60fe25d411d1b17d1f39a3942f259be9fd7a6aefee2fdedfab7c81c48111b27",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "92806b910a3a8d8837e79579753fac51d498af3b1113a2e662fd8b4a6e40e9d4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Að hámarki 120 m yfir jörðu (EASA opinn flokkur)",
-      "Skráning er nauðsynleg fyrir dróna sem vega 120 g eða meira (strangari krafa en 250 g viðmiðunarmörk EASA)",
-      "A1/A3 netþjálfunarnámskeiðið er skyldubundið — lágmarksaldur 16",
-      "Skyldubundin ábyrgðartrygging fyrir allan drónarekstur",
-      "Búdapest: sækja verður um leyfi fyrir þéttbýlisflug 30 dögum fyrirfram",
+      "Í opna flokknum er hámarkshæðin 120 m, reiknuð sem fjarlægð frá næsta punkti á yfirborði jarðar — ekki einfaldlega beint niður, svo nálægt halla getur jörðin við hliðina á þér líka talist með. Innan 50 m frá háu manngerðu mannvirki (yfir 105 m) getur sá aðili sem ber ábyrgð á mannvirkinu óskað eftir leyfi til að fljúga allt að 15 m yfir hæð þess.",
+      "Auk skráningar rekstraraðila þarf í Ungverjalandi einnig að skrá drónann sjálfan hjá flugmálayfirvöldum (tækjaskráning) – umsóknina verður að leggja fram að minnsta kosti 10 dögum fyrir flug og útgefið skráningarmerki verður að vera greinilega sýnilegt á drónanum. Eina undantekningin er leikfangadróni: dróni sem telst leikfang, undir 120 g, án gagnaskráningarbúnaðar og getur ekki flogið lengra en 100 m í burtu.",
+      "Til að fljúga á eigin vegum í opna flokknum þarf lágmarksaldurinn að vera 16 ár — A1/A3-þjálfunin hjá KTI er ókeypis og prófið verður að taka í eigin persónu í prófmiðstöð KAV (gjald: 12.700 Ft); skírteinið gildir í 5 ár og er viðurkennt um allt ESB. Yngri flugmenn mega aðeins fljúga undir beinu eftirliti flugmanns eldri en 16 ára sem hefur þegar staðist prófið.",
+      "Skyldubundin ábyrgðartrygging – samkvæmt yfirvöldum eru frístundaflug í opna flokknum með dróna allt að 250 g undanþegin; hafðu tryggingarskírteini meðferðis á meðan þú flýgur.",
+      "Yfir byggð – í hvaða bæ eða þorpi sem er, ekki aðeins í Búdapest – má aðeins fljúga drónum í sérstöku (ad hoc) loftrými sem herflugmálayfirvöld tilgreina; umsóknina verður að leggja fram að minnsta kosti 30 dögum fyrir fyrirhugað flug. Undantekning: leikfangadróni, þ.e. dróni sem telst leikfang, undir 120 g, án gagnaskráningarbúnaðar og getur ekki flogið lengra en 100 m í burtu.",
       "MyDroneSpace-forritið er nauðsynlegt fyrir hvert flug",
-      "Haltu ávallt sjónlínu (VLOS)",
+      "Í opna flokknum verður þú að hafa drónann innan eigin beinnar sjónlínu með berum augum (gleraugu/snertilinsur eru í lagi; sjónauki eða skjár telst ekki með) — eða nota athuganda sem þú ert alltaf í skýru og virku sambandi við, svo að þið getið saman fylgst með loftrýminu og forðast árekstra. „Follow-me“-stilling er sérstök undantekning, heimil innan 50 m frá flugmanninum.",
       "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
-      "Að minnsta kosti 5 km frá hvaða flugvelli eða lendingarstað sem er",
-      "Þingið, stjórnarbyggingar og hersvæði: algjört flugbann"
+      "Engin ein fjarlægð frá flugvöllum gildir um allt ESB. Takmarkanir nálægt flugvöllum eru birtar sem landfræðileg svæði (15. grein) og lögun þeirra og stærð er breytileg eftir flugvöllum. Áður en þú flýgur einhvers staðar nálægt flugvelli, flugbraut eða þyrlupalli skaltu athuga opinbert drónasvæðakort landsins; flug innan flugstjórnarsvæðis (CTR) krefst að jafnaði fyrirfram heimildar frá flugumferðarstjórn.",
+      "Í Búdapest-CTR utan LHBP No Drone Zone, og í herflugstjórnarsvæðunum (MCTR) Kecskemét, Szolnok og Pápa utan No Drone Zones, máttu fljúga allt að 40 m yfir jörðu án heimildar frá flugumferðarstjórn; flug í No Drone Zones er bannað. Innan 2 km frá viðmiðunarpunkti flugvalla án ATZ, og innan 750 m frá lendingarstöðum sjúkraþyrlna, máttu aðeins fljúga með samþykki rekstraraðila flugvallarins og þú verður að tilkynna flugmálayfirvöldum að minnsta kosti 2 dögum fyrir fram.",
+      "Bannað er að fljúga dróna innan 300 m frá þjóðarminnisvarðanum sem nýtur forgangs (svæðinu umhverfis þinghúsið og Kossuth-torg), tilgreindum vernduðum mannvirkjum og mannvirkjum sem hafa sérstaka þýðingu fyrir starfsemi ríkisins; einnig er bannað að fljúga innan 300 m frá tilgreindum mikilvægum innviðum og varnarinnviðum, nema með leyfi rekstraraðilans. Flug er bannað í bannloftrými (P) og í haftaloftrými (R) er það aðeins heimilt í samræmi við gildandi reglur."
     ],
     "importantNotes": [
-      "Skráning er nú skyldubundin fyrir dróna sem vega 120 g eða meira — mun strangari krafa en hefðbundin 250 g viðmiðunarmörk EASA",
-      "Í Búdapest verður þú að sækja um leyfi 30 dögum fyrirfram — skipuleggðu fram í tímann",
+      "Í Ungverjalandi þarf að skrá alla dróna nema leikfangadróna (tækjaskráning), að minnsta kosti 10 dögum fyrir flug – óháð þyngd.",
+      "Yfir byggð (ekki aðeins í Búdapest) máttu aðeins fljúga í sérstöku (ad hoc) loftrými – leggðu umsóknina fram að minnsta kosti 30 dögum fyrir fram.",
       "MyDroneSpace-forritið er nauðsynlegt fyrir hvert flug",
-      "Ábyrgðartrygging er skyldubundin fyrir alla dróna, óháð þyngd",
-      "GDPR gildir ef þú safnar gögnum um persónugreinanlega einstaklinga"
+      "Ábyrgðartrygging er skyldubundin – samkvæmt yfirvöldum eru frístundaflug í opna flokknum með dróna allt að 250 g undanþegin.",
+      "GDPR gildir ef þú tekur upp persónugreinanlega einstaklinga"
     ],
     "primaryLinks": [
       {
@@ -35,8 +36,8 @@
         "description": "Skráningar- og flugumsýsluforrit (nauðsynlegt fyrir öll flug)"
       },
       {
-        "title": "MyDroneSpace – Loftkort",
-        "description": "Opinbert gagnvirkt kort sem sýnir drónasvæði og loftrýmistakmarkanir"
+        "title": "MyDroneSpace – Loftrýmiskort",
+        "description": "Opinbert mydronespace-vefviðmót HungaroControl með drónasvæðum og loftrýmistakmörkunum (skráning/innskráning nauðsynleg)"
       },
       {
         "title": "HungaroControl – Yfirlit reglna",
@@ -49,8 +50,8 @@
         "description": "Upplýsingar um leyfisveitingar frá flugmálayfirvöldum Ungverjalands"
       },
       {
-        "title": "HungaroControl – Algengar spurningar um dróna",
-        "description": "Algengar spurningar um drónareglur í Ungverjalandi"
+        "title": "MyDroneSpace – Algengar spurningar um dróna",
+        "description": "Algengar spurningar um ungverskar drónareglur"
       }
     ],
     "disclaimerText": "Athugaðu ávallt opinberar heimildir HungaroControl og MyDroneSpace áður en þú flýgur. Þetta forrit er aðeins verkfæri — það er ekki lögbær heimild. Ungverjaland fylgir EASA-reglunum með ströngum viðbótum á landsvísu.",

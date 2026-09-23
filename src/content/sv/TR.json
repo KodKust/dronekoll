@@ -1,66 +1,72 @@
 {
- "meta": {
-  "sourceHash": "965aaa2f6c885d898cf7ee6ff9907d07afe1d10c3a57077ecae02dbc001de716",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Högsta flyghöjd: 120 meter (400 ft) över marken",
-   "Din drönare måste alltid hållas inom synhåll (VLOS)",
-   "Endast flygning i dagsljus – för nattflygning krävs särskilt tillstånd",
-   "Minst 9 km från alla flygplatser (inklusive Istanbul IST och Sabiha Gökçen SAW)",
-   "Ett horisontellt avstånd på minst 50 meter måste hållas till andra människor",
-   "Alla drönare som väger mer än 500 g måste registreras på iha.shgm.gov.tr",
-   "Flygning är förbjuden i historiska områden (Hagia Sofia, Topkapı, Sultanahmet) och längs Bosporen-korridoren",
-   "Flygning över militära zoner, regeringsbyggnader och folksamlingar är strängt förbjuden",
-   "Utländska piloters användning av drönare som väger mer än 500 g kräver en ansökan på diplomatisk väg",
-   "FPV-flygning är förbjuden utan särskilt tillstånd"
-  ],
-  "importantNotes": [
-   "⚠️ UTLÄNDSKA PILOTER: För att flyga en drönare som väger mer än 500 gram i Turkiet måste du ansöka hos generaldirektoratet för civil luftfart (SHGM) på diplomatisk väg minst 20 arbetsdagar före flygningen, skaffa försäkring och flyga under överinseende av en turkisk medborgare med İHA-2-licens. Drönare som väger under 500 g (som DJI Mini, Flip m.fl.) är undantagna från dessa krav.",
-   "🗺️ ZONSYSTEM: Turkiet är indelat i gröna (öppna), gula (tillstånd krävs) och röda (förbjudna) zoner. Kontrollera alltid zonstatusen på iha.shgm.gov.tr före flygningen.",
-   "🏛️ HISTORISKA OCH TURISTISKA PLATSER: Flygning är förbjuden över Istanbuls historiska halvö (Sultanahmet, Hagia Sofia, Topkapı, Stora basaren), vissa dalar i Kappadokien, Pamukkale, Efesos och andra arkeologiska platser utan särskilt tillstånd från kultur- och turistministeriet.",
-   "🛂 IMPORT OCH TULL: Om du reser in i Turkiet med drönare som väger mer än 500 g kan du behöva deklarera dem i tullen. Import i kommersiellt syfte kräver en separat process; Bosporen, militärhamnar och gränsområden omfattas av ytterligare restriktioner."
-  ],
-  "primaryLinks": [
-   {
-    "title": "SHGM – Obemannade luftfartyg (officiell webbplats)",
-    "description": "Generaldirektoratet för civil luftfarts officiella drönarsida: SHT-UAV-direktivet, viktklasser (UAV-0/1/2/3) och operativa regler"
-   },
-   {
-    "title": "Registreringssystem för drönare (krävs för drönare som väger 500 g eller mer)",
-    "description": "Obligatorisk registreringsportal för alla drönare som väger mer än 500 gram. Kräver ett turkiskt ID-nummer; blankett FR-03 gäller för utländska medborgare"
-   },
-   {
-    "title": "Ansökan om registrering av drönarpilot (e-förvaltning)",
-    "description": "Officiell tjänst via e-förvaltningen för ansökan om pilotregistrering för UAV-1 och högre. En pilotlicens krävs för kommersiell verksamhet."
-   },
-   {
-    "title": "Ansökan om flygtillstånd (gula/röda zoner)",
-    "description": "I gula och röda zoner krävs förhandstillstånd från SHGM före flygning. I gröna zoner räcker det att följa grundreglerna."
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "UAV Tracking – Officiell mobilapp (Android)",
-    "description": "SHGM:s officiella app UAV Tracking: luftrumszoner, flygtillstånd och hantering av pilotlicens"
-   },
-   {
-    "title": "SHGM – Officiell webbplats",
-    "description": "Startsida för generaldirektoratet för civil luftfart: alla luftfartsföreskrifter, meddelanden och kontaktuppgifter"
-   },
-   {
-    "title": "SHT-UAV-direktivet (föreskriftens text)",
-    "description": "Direktivet för civil luftfart – obemannade luftfartyg (SHT-UAV): det officiella direktiv som utgör den rättsliga grunden för all verksamhet"
-   }
-  ],
-  "disclaimerText": "Kontrollera alltid SHGM:s officiella källor innan du flyger. Den här appen är ett verktyg, inte en juridisk auktoritet. Drönarverksamhet i Turkiet regleras av SHT-UAV-direktivet; alla enheter som väger 500 g eller mer måste registreras i SHGM:s registreringssystem (iha.shgm.gov.tr).",
-  "sectionLabelRules": "GRUNDLÄGGANDE REGLER",
-  "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
-  "sectionLabelSecondary": "YTTERLIGARE RESURSER",
-  "linksSheetTitle": "Luftrum och regler – Turkiet",
-  "dronePilotCredentialName": "Drönarpilotlicens"
- }
+  "meta": {
+    "sourceHash": "6ab41c1c6a873ddfc4cf87129700fea1004f13537f36d6d678dee51194176fb4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Högsta flyghöjd är 120 m (400 ft); vid P0/P1-flygningar måste drönaren hållas inom synhåll (VLOS) och får inte vara mer än 3 000 m från piloten. Flygning över 120 m är bara möjlig med P2-licens och i samordning med berörda myndigheter.",
+      "Du måste alltid hålla drönaren inom synhåll, i direkt synkontakt utan hjälp av optiska eller elektroniska hjälpmedel (SHT-İHA).",
+      "Amatörflygningar (P0) får bara genomföras dagtid; nattflygning är möjlig med P1- eller P2-licens och lämplig utrustning (SHT-İHA art. 15). Under övergångsperioden (till den 31 juli 2027) ska du inhämta tillstånd från SHGM för nattflygningar.",
+      "Kontrollera kartan på iha.shgm.gov.tr (senare İHATTYS) innan du flyger nära flygplatser; flygningar på alla platser utanför gröna zoner kräver tillstånd från SHGM. Det nya SHT-İHA anger inget fast avstånd; de 9 km (5 NM) från det tidigare direktivet bör hållas som ett säkert minimiavstånd.",
+      "Flygning över folksamlingar räknas som en högriskoperation; den är stängd för P0- och P1-piloter och får bara genomföras med P2-licens (SHT-İHA art. 6). Det nya direktivet anger inget fast avstånd; att hålla minst 50 m från människor och byggnader (värdet i det tidigare direktivet) rekommenderas som ett säkert minimum.",
+      "Nya SHT-İHA (2026): med undantag för Simple UAV av leksakstyp måste alla drönaranvändare, även för drönare under 500 g, registrera sig i İHATTYS; sista dag för befintliga luftfartyg är den 31 juli 2027. Tills İHATTYS tas i drift registreras drönare på 500 g och mer på iha.shgm.gov.tr.",
+      "Enligt nya SHT-İHA är flygbehörigheten kopplad till pilotlicensen: amatör P0 (lägsta ålder 10 år), kommersiell P1 (18 år), avancerad P2; för Simple UAV krävs ingen licens. Under övergångsperioden (till den 31 juli 2027) förblir befintliga İHA0/İHA1-certifikat och İHA2/İHA3-licenser giltiga och konverteras till P0/P1/P2 genom anpassning.",
+      "Fjärridentifiering (Remote ID) och geofencing är obligatoriska för andra drönare än Simple UAV; du ansvarar för att ladda in aktuella data om restriktionszoner i din drönare (SHT-İHA art. 12, 23; övergång för befintliga drönare till den 31 juli 2027).",
+      "Kontrollera kartan på iha.shgm.gov.tr innan du flyger på Istanbuls historiska halvö (Hagia Sofia, Topkapı, Sultanahmet) och runt Bosporen; flygningar på alla platser utanför gröna zoner kräver tillstånd från SHGM, och i röda zoner beviljas tillstånd bara med godkännande från den institution som har stängt området.",
+      "Det är strängt förbjudet att flyga över militära zoner och regeringsbyggnader; flygning över tätbefolkade områden kräver tillstånd från SHGM i förväg.",
+      "Utländska piloter som använder drönare som väger 500 gram eller mer måste ansöka via diplomatiska kanaler minst 20 arbetsdagar i förväg med blankett FR.23, \"İHA Uçuş İzin Talep Formu\" (ansökan om flygtillstånd för UAV).",
+      "Vid FPV-flygningar måste en observatör som har drönaren i ständig synkontakt vara på plats, och piloten och observatören måste ha kontinuerlig kommunikation; FPV-utrustningen måste använda frekvenser som godkänts av BTK (SHGM:s vanliga frågor). Nya SHT-İHA definierar synhåll (VLOS) som direkt synkontakt utan hjälp av optiska/elektroniska hjälpmedel – rådfråga SHGM innan du flyger FPV."
+    ],
+    "importantNotes": [
+      "🛂 UTLÄNDSKA PILOTER – NYA SHT-İHA (30 juli 2026): drönare som förs in från utlandet måste ha SHGM:s mjukvarumodul för regelefterlevnad; utan modulen kan luftfartyget inte registreras eller flygas i Turkiet. Utlandsregistrerade drönare måste vara kompatibla med İHATTYS; utländska licenser bedöms av SHGM, och P1/P2 utfärdas efter en skillnadsutbildning. För drönare som skaffats före den 30 juli 2026 löper anpassningsperioden till den 31 juli 2027. Tills İHATTYS tas i drift lämnas ansökningar för drönare på 500 g och mer in till SHGM med blankett FR.23, via diplomatiska kanaler, minst 20 arbetsdagar i förväg.",
+      "🗺️ ZONSYSTEM: Enligt nya SHT-İHA (30 juli 2026) kommer zonerna att publiceras på İHATTYS-kartan som gröna (inget tillstånd krävs), röda (stängda av berörd institution; endast med den institutionens godkännande, tillstånd från SHGM och en NOTAM) och orange (tilldelade andra). Tills İHATTYS tas i drift används kartan på iha.shgm.gov.tr (grön/gul/röd). I båda systemen kräver flygningar på alla platser utanför gröna zoner tillstånd från SHGM. Kontrollera alltid kartan innan du flyger.",
+      "🏛️ HISTORISKA PLATSER OCH TURISTMÅL: Video-, film- och fotoinspelning vid museer och platser som hör till museer kräver tillstånd från kultur- och turistministeriet; för flygrestriktioner för drönare, kontrollera även kartan på iha.shgm.gov.tr.",
+      "🛂 DRÖNARE SOM FÖRS IN FRÅN UTLANDET: Drönare på 500 g och mer måste registreras på iha.shgm.gov.tr senast inom 3 dagar efter att de förts in i Turkiet (lag nr 2920, art. 144). Utlänningar behöver ett turkiskt id-nummer eller uppehållstillstånd för att registrera en drönare för sport-/amatöranvändning. En deklaration kan krävas i tullen vid inresa; import i kommersiellt syfte kräver en separat process. Militära hamnar och gränsområden omfattas av ytterligare restriktioner."
+    ],
+    "primaryLinks": [
+      {
+        "title": "SHGM – İHA Takip / İHATTYS (officiell portal)",
+        "description": "Generaldirektoratet för civil luftfarts officiella drönarportal (İHATTYS). Tills SHGM meddelar att systemet har tagits i drift sköts registrering och flygtillstånd med de befintliga metoderna (iha.shgm.gov.tr och SHGM:s blanketter)."
+      },
+      {
+        "title": "Registreringssystem för drönare (obligatoriskt över 500 g)",
+        "description": "Obligatorisk registreringsportal för alla drönare som väger mer än 500 gram. Kräver ett turkiskt id-nummer; blankett FR-03 gäller för utländska medborgare"
+      },
+      {
+        "title": "Ansökan om pilotregistrering för drönare (e-Devlet)",
+        "description": "Officiell tjänst via e-Devlet (e-förvaltning) för ansökningar om pilotregistrering för İHA-1 och högre. En pilotlicens krävs för kommersiell verksamhet."
+      },
+      {
+        "title": "Ansökan om flygtillstånd (gula/röda zoner)",
+        "description": "I gula och röda zoner krävs förhandstillstånd från SHGM före flygning. I gröna zoner räcker det att följa grundreglerna."
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "İHA Takip – Officiell mobilapp (Android)",
+        "description": "SHGM:s officiella app İHA Takip / İHATTYS. Tills SHGM meddelar att İHATTYS har tagits i drift sköts registrering och flygtillstånd med de befintliga metoderna (iha.shgm.gov.tr och SHGM:s blanketter)."
+      },
+      {
+        "title": "İHATTYS – Officiell mobilapp (iOS)",
+        "description": "iOS-versionen av SHGM:s officiella app İHATTYS; transaktioner som görs i appen är ogiltiga tills SHGM har gått ut med det meddelande som krävs"
+      },
+      {
+        "title": "SHGM – Officiell webbplats",
+        "description": "Startsida för generaldirektoratet för civil luftfart: alla luftfartsföreskrifter, meddelanden och kontaktuppgifter"
+      },
+      {
+        "title": "SHT-İHA-direktivet 2026 (regeltext, PDF)",
+        "description": "Direktivet om obemannade luftfartygssystem (SHT-İHA), som gäller från den 30 juli 2026: den officiella direktivtexten som utgör den rättsliga grunden för all drönarverksamhet"
+      }
+    ],
+    "disclaimerText": "Kontrollera alltid SHGM:s officiella källor innan du flyger. Den här appen är ett verktyg, inte en juridisk auktoritet. I Turkiet regleras drönarverksamhet av det nya SHT-İHA (direktivet om obemannade luftfartygssystem), som gäller från den 30 juli 2026; övergångsperioden löper till den 31 juli 2027. Alla enheter som väger mer än 500 g måste registreras i SHGM:s registreringssystem (iha.shgm.gov.tr).",
+    "sectionLabelRules": "GRUNDLÄGGANDE REGLER",
+    "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
+    "sectionLabelSecondary": "YTTERLIGARE RESURSER",
+    "linksSheetTitle": "Luftrum och regler – Turkiet",
+    "dronePilotCredentialName": "Drönarpilotlicens (P0/P1/P2)"
+  }
 }

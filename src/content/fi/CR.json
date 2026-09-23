@@ -1,34 +1,35 @@
 {
   "meta": {
-    "sourceHash": "8c56d8d6e542afc955c989bfd255bb6e85a0ed0ddb98d0c06385589c15af8287",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "1ccf0d60f2daab09a23a0c0e3bbd85b102fdef6468c55b05317299a6742f4265",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enimmäiskorkeus: 120 m (400 ft) maanpinnasta (AGL)",
-      "Vähintään 8 km:n etäisyys lentoasemista ja lentopaikoista",
-      "Vähintään 30 m:n etäisyys lennätykseen osallistumattomista ihmisistä sekä siihen liittymättömistä eläimistä ja rakennuksista",
+      "Enimmäiskorkeus: 120 m (400 ft) maanpinnasta valvomattomassa ilmatilassa.",
+      "Vähintään 8 km:n etäisyys kaikista lentoasemista ja lentopaikoista; lähempänä lentäminen edellyttää DGAC:n hyväksyntää ja NOTAMin julkaisemista.",
+      "Lennä vain poissa kaupunkien, taajamien tai asutusten tiiviisti rakennetuilta alueilta ja poissa ulkoilmatilaisuuksiin kokoontuneista ihmisjoukoista. Vain DGAC:n erityisellä hyväksynnällä saat toimia lähempänä, etkä koskaan alle 30 m:n päässä näistä rakennuksista tai ihmisjoukoista.",
       "KAIKISSA alle 25 kg painavissa droneissa on oltava tunnistuslaatta, jossa on sarjanumero, omistajan nimi ja puhelinnumero",
-      "Vähintään 25 kg painavat dronet: pakollinen rekisteröinti osoitteessa drones.dgac.go.cr",
+      "Pakollinen rekisteröinti osoitteessa drones.dgac.go.cr: ≥25 kg:n dronet ja kaikki muu kuin harrastekäyttö (kaupallinen tai ei-kaupallinen) painosta riippumatta",
       "Harrastekäyttö <25 kg: EI vaadi virallista rekisteröintiä, jos noudatat perussääntöjä",
       "Pidä drone aina suorassa näköyhteydessä (VLOS)",
       "Lennättäminen on sallittua vain päivällä ja hyvällä säällä — yölennättäminen edellyttää lupaa",
+      "Muu kuin harrastekäyttö, joka ei ole kaupallista (myös <25 kg:n dronet): DGAC:n pätevyystodistus (väh. 18 vuotta), vastuuvakuutus ja rekisteröinti osoitteessa drones.dgac.go.cr",
       "Kaupallinen käyttö: RPAS-lupakirja + Technical Councilin todistus + DGACin toimintatodistus",
       "Lennättäminen on kielletty yksityisalueiden yllä ilman lupaa sekä vankiloiden, rajoitusalueiden ja lentoasemien yllä"
     ],
     "importantNotes": [
       "🏷️ PAKOLLINEN TUNNISTUSLAATTA: Vaikka alle 25 kg painavat harrastedronet EIVÄT vaadi virallista rekisteröintiä, KAIKISSA droneissa on oltava tunnistuslaatta, jossa on sarjanumero, omistajan nimi ja puhelinnumero. Tämä on tiukin fyysistä tunnistamista koskeva vaatimus.",
-      "✈️ ULKOMAISET TURISTIT: Säännöt koskevat myös ei-asukkaita. Harrastekäyttö: tunnistuslaatta + perussääntöjen noudattaminen (ei lentoasemia, ei yksityisalueita, ei vankiloita) — virallista rekisteröintiä ei vaadita. Tulli voi pyytää dronen ilmoittamista maahan saavuttaessa.",
-      "🌳 KANSALLISPUISTOT JA SINAC: National System of Conservation Areas (SINAC) vaatii erityisluvan droneille puistoissa kuten Manuel Antonio, Corcovado, Tortuguero, Arenal Volcano, Monteverde ja Poás Volcano. Luonnon monimuotoisuus ja eläimistö ovat suojeltuja — tarkista kustakin puistosta ENNEN matkaa.",
-      "🏖️ MATKAILUALUEET JA LENTOASEMAT: SJO (Juan Santamaría, Alajuela), LIR (Liberia, Guanacaste), Presidential Palace, suurlähetystöt ja sotilasalueet ovat pysyvien rajoitusten alaisia. Turistirannoilla, kuten Tamarindo, Manuel Antonio ja Jacó, on usein kunnallisia lisärajoituksia.",
-      "💰 KAUPALLINEN KÄYTTÖ JA SEURAAMUKSET: Kaupalliset lennot ilman RPAS-lupakirjaa tai Technical Councilin todistusta voivat johtaa sakkoihin, laitteiston takavarikointiin ja toimintakieltoon. Maksullista valokuvaus- tai videotyötä varten hanki lupakirja ennen toiminnan aloittamista."
+      "✈️ ULKOMAISET TURISTIT: Säännöt koskevat myös ei-asukkaita. Harrastekäyttö: tunnistuslaatta + perussääntöjen noudattaminen (ei lentoasemia, ei yksityisalueita, ei vankiloita) — virallista rekisteröintiä ei vaadita. Tulli voi pyytää dronen ilmoittamista maahan saavuttaessa. Ulkomaiset lentäjät kaupallisessa käytössä: DGAC voi validoida ulkomaisen RPAS-lupakirjan (lupakirjan ja lääketieteellisen todistuksen on oltava voimassa) enintään 3 kuukaudeksi, ja validoinnin voi perustelluissa tapauksissa uusia vain kerran 3 kuukaudeksi. Validointi ei korvaa kaupallisen käytön muita vaatimuksia.",
+      "🌳 KANSALLISPUISTOT JA SINAC: dronet eivät ole sallittuja Manuel Antonion kansallispuistossa (SINAC). Muut suojelualueet voivat kieltää tai rajoittaa niitä — tarkista asia kultakin alueelta ENNEN matkaasi.",
+      "🏖️ RAJOITETUT VYÖHYKKEET: ilman DGAC:n lupaa lentäminen on kielletty AIP:ssä julkaistuilla kielletyillä tai rajoitetuilla vyöhykkeillä sekä 8 km:n säteellä lentoasemista, kuten SJO ja LIR. Tarkista myös mahdolliset kunnalliset rajoitukset.",
+      "💰 KAUPALLINEN KÄYTTÖ JA SEURAAMUKSET: Kaupalliset lennot ilman RPAS-lupakirjaa tai Technical Councilin todistusta voivat johtaa sakkoihin, laitteiston takavarikointiin ja toimintakieltoon. Maksullinen valokuvaus- tai videotyö: hanki lupakirja ennen toiminnan aloittamista."
     ],
     "primaryLinks": [
       {
         "title": "DGAC — Dronerekisteri (oma portaali)",
-        "description": "Siviili-ilmailun pääosaston virallinen sivusto dronejen rekisteröintiin ja rekisterinumeron saamiseen. Erityisesti RPAS-alusta"
+        "description": "Siviili-ilmailun pääosaston virallinen erillinen portaali dronejen rekisteröintiin ja rekisterinumeron saamiseen. Nimenomaan RPAS:lle tarkoitettu alusta"
       },
       {
         "title": "DGAC — Kotisivu",
@@ -57,7 +58,7 @@
         "description": "Costa Rican virallinen matkailusivusto. Hyödyllinen ymmärtämään turistialueita, joilla on erityisiä dronerajoituksia"
       }
     ],
-    "disclaimerText": "Tarkista aina DGACin viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Costa Ricassa sovelletaan RAC OPS RPAS -määräystä ja DGACin Operational Directive -ohjetta. Kaikissa droneissa on oltava tunnistuslaatta; kaupallinen käyttö edellyttää Civil Aviation Technical Councilin todistusta.",
+    "disclaimerText": "Tarkista aina DGAC:n viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Costa Ricassa sovelletaan RAC-RPAS-määräystä (Decreto Ejecutivo N° 44615-MOPT, voimassa 27.9.2024 alkaen). Kaikissa droneissa on oltava tunnistuslaatta; kaupallinen käyttö edellyttää Civil Aviation Technical Councilin todistusta.",
     "sectionLabelRules": "TÄRKEIMMÄT SÄÄNNÖT",
     "sectionLabelPrimary": "VIRALLISET LÄHTEET",
     "sectionLabelSecondary": "LISÄRESURSSIT",

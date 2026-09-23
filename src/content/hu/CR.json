@@ -1,34 +1,35 @@
 {
   "meta": {
-    "sourceHash": "8c56d8d6e542afc955c989bfd255bb6e85a0ed0ddb98d0c06385589c15af8287",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "1ccf0d60f2daab09a23a0c0e3bbd85b102fdef6468c55b05317299a6742f4265",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximális repülési magasság: 120 m (400 ft) a talajszint felett (AGL)",
-      "Legalább 8 km távolság a repülőterektől és leszállópályáktól",
-      "Legalább 30 m távolságot kell tartani a műveletben részt nem vevő emberektől és állatoktól, valamint a művelethez nem kapcsolódó épületektől",
+      "Maximális repülési magasság: 120 m (400 ft) a talajszint felett, nem ellenőrzött légtérben.",
+      "Legalább 8 km távolság bármely repülőtértől vagy leszállóhelytől; közelebb repülni csak a DGAC jóváhagyásával és NOTAM kiadásával lehet.",
+      "Csak városok, községek vagy települések sűrűn beépített területeitől és szabadtéri gyülekezésektől távol repülj. Közelebb csak a DGAC külön jóváhagyásával üzemeltethetsz, de ezektől az épületektől vagy gyülekezésektől akkor sem lehetsz 30 m-nél közelebb.",
       "MINDEN 25 kg-nál könnyebb drónnak rendelkeznie kell azonosítótáblával, amely tartalmazza a sorozatszámot, a tulajdonos nevét és telefonszámát",
-      "25 kg vagy annál nehezebb drónok: kötelező regisztráció a drones.dgac.go.cr oldalon",
+      "Kötelező regisztráció a drones.dgac.go.cr oldalon: ≥25 kg-os drónok, valamint minden nem szabadidős célú használat (kereskedelmi vagy nem kereskedelmi), tömegtől függetlenül",
       "Szabadidős használat <25 kg: NEM igényel formális regisztrációt, ha betartod az alapszabályokat",
       "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS)",
       "A repülés csak nappal és jó időjárási körülmények között engedélyezett — az éjszakai repülés engedélyt igényel",
+      "Nem szabadidős, nem kereskedelmi használat (a <25 kg-os drónokat is beleértve): DGAC alkalmassági bizonyítvány (min. 18 éves kor), polgári jogi felelősségbiztosítás és regisztráció a drones.dgac.go.cr oldalon",
       "Kereskedelmi használat: RPAS-engedély + Műszaki Tanács tanúsítványa + DGAC üzemeltetési tanúsítvány",
       "Tilos engedély nélkül magánterület felett, valamint börtönök, korlátozott területek és repülőterek felett repülni"
     ],
     "importantNotes": [
       "🏷️ KÖTELEZŐ AZONOSÍTÓTÁBLA: Bár a 25 kg-nál könnyebb, szabadidős célra használt drónok NEM igényelnek formális regisztrációt, MINDEN drónnak rendelkeznie kell azonosítótáblával, amely tartalmazza a sorozatszámot, a tulajdonos nevét és egy elérhetőségi telefonszámot. Ez a fizikai azonosítás legszigorúbb követelménye.",
-      "✈️ KÜLFÖLDI TURISTÁK: A szabályok a nem rezidensekre is vonatkoznak. Szabadidős használathoz: azonosítócímke és az alapszabályok betartása (ne repülj repülőtereknél, magánterület felett engedély nélkül vagy börtönök felett) — formális regisztráció nem szükséges. A vám az országba való belépéskor drónbejelentést kérhet.",
-      "🌳 NEMZETI PARKOK ÉS SINAC: A Természetvédelmi Területek Nemzeti Rendszere (SINAC) külön engedélyt ír elő a drónok használatához az olyan parkokban, mint a Manuel Antonio, a Corcovado, a Tortuguero, az Arenal vulkán, a Monteverde és a Poás vulkán. A biológiai sokféleség és a vadvilág védett — utazás ELŐTT érdeklődj minden egyes parknál.",
-      "🏖️ TURISZTIKAI TERÜLETEK ÉS REPÜLŐTEREK: SJO (Juan Santamaría, Alajuela), LIR (Liberia, Guanacaste), az Elnöki Palota, nagykövetségek és katonai zónák állandó korlátozás alatt állnak. Az olyan turisztikai strandok, mint a Tamarindo, a Manuel Antonio és a Jacó gyakran további önkormányzati korlátozások alá esnek.",
+      "✈️ KÜLFÖLDI TURISTÁK: A szabályok a nem rezidensekre is vonatkoznak. Szabadidős használathoz: azonosítótábla és az alapszabályok betartása (ne repülj repülőterek közelében, magánterület vagy börtönök felett) — formális regisztráció nem szükséges. A vám az országba való belépéskor drónbejelentést kérhet. Kereskedelmi célú külföldi pilóták: a DGAC legfeljebb 3 hónapra érvényesítheti a külföldi RPAS-engedélyt (az engedélynek és az orvosi igazolásnak érvényesnek kell lennie), amely indokolt esetben csak egyszer, további 3 hónappal hosszabbítható meg. Az érvényesítés nem helyettesíti a kereskedelmi használat egyéb követelményeit.",
+      "🌳 NEMZETI PARKOK ÉS SINAC: a Manuel Antonio Nemzeti Parkban (SINAC) nem engedélyezettek a drónok. Más védett területek tilthatják vagy korlátozhatják őket — utazásod ELŐTT érdeklődj minden egyes területnél.",
+      "🏖️ KORLÁTOZOTT ZÓNÁK: a DGAC engedélye nélkül tilos repülni az AIP-ben közzétett tiltott vagy korlátozott zónákban, valamint repülőterek, például az SJO és a LIR 8 km-es körzetében. Ellenőrizd az esetleges önkormányzati korlátozásokat is.",
       "💰 KERESKEDELMI HASZNÁLAT ÉS BÜNTETÉSEK: Az RPAS-engedély vagy a Műszaki Tanács tanúsítványa nélküli kereskedelmi repülések bírságot, a berendezés elkobzását és üzemeltetési tilalmat vonhatnak maguk után. Fizetett fotó-/videómunkához: a tevékenység megkezdése előtt szerezd meg az engedélyt."
     ],
     "primaryLinks": [
       {
         "title": "DGAC — Drónnyilvántartás (dedikált portál)",
-        "description": "A Polgári Légügyi Főigazgatóság hivatalos oldala a drónok regisztrálásához és a nyilvántartási szám megszerzéséhez. Kifejezetten RPAS-ra szánt platform"
+        "description": "A Polgári Légügyi Főigazgatóság hivatalos, erre a célra létrehozott portálja a drónok regisztrálásához és a nyilvántartási szám megszerzéséhez. Kifejezetten RPAS-ra szánt platform"
       },
       {
         "title": "DGAC — Kezdőlap",
@@ -57,7 +58,7 @@
         "description": "Costa Rica hivatalos turisztikai oldala. Hasznos a drónokra vonatkozó különleges korlátozásokkal rendelkező turisztikai területek megértéséhez"
       }
     ],
-    "disclaimerText": "Repülés előtt mindig ellenőrizd a DGAC hivatalos forrásait. Ez az alkalmazás egy segédeszköz, nem jogi forrás. Costa Rica a RAC OPS RPAS-t és a DGAC üzemeltetési irányelvét alkalmazza. Minden drónnak rendelkeznie kell azonosítótáblával; a kereskedelmi használat a Polgári Légügyi Műszaki Tanács tanúsítványát igényli.",
+    "disclaimerText": "Repülés előtt mindig ellenőrizd a DGAC hivatalos forrásait. Ez az alkalmazás egy segédeszköz, nem jogi forrás. Costa Rica a RAC-RPAS-t alkalmazza (Decreto Ejecutivo N° 44615-MOPT, 2024. 09. 27. óta hatályos). Minden drónnak rendelkeznie kell azonosítótáblával; a kereskedelmi használathoz a Polgári Légügyi Műszaki Tanács tanúsítványa szükséges.",
     "sectionLabelRules": "FŐBB SZABÁLYOK",
     "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
     "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "efa2a30f33ab3aa81ade21c803c0ce10",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,21 @@
     "keyRules": [
       "Maks. 120 m (400 ft) virs zemes",
       "Flyer ID ir nepieciešams, lidojot ar dronu, kas sver 100 g vai vairāk — nokārto CAA tiešsaistes testu (40 jautājumi, 75% nokārtošanas slieksnis)",
+      "Operator ID ir nepieciešams, ja tavs drons sver 250 g+ vai 100 g+ ar kameru — £12,34 gadā, īpašniekam jābūt 18+; norādi ID uz katra drona.",
       "Vienmēr turi dronu savā tiešajā redzeslokā bez palīglīdzekļiem — pietiekami tuvu, lai varētu noteikt, uz kuru pusi tas ir pavērsts, un pamanīt citus gaisa kuģus. Likumā nav noteikts fiksēts maksimālais attālums metros — tas, cik tālu drīksti lidot, ir atkarīgs no redzamības, apgaismojuma un paša drona, nevis no noteikta rādiusa.",
-      "Minimālais attālums 50 m no neiesaistītām personām (30 m / 5 m attiecas tikai uz UK klases marķētiem droniem ar A2 apliecību)",
-      "Ap lidostām ir noteiktas Flight Restriction Zones (FRZ), taču to precīzā forma un lielums katrai lidostai atšķiras — universāla “5 km apļa” nav. Pirms lidošanas lidostas tuvumā vienmēr pārbaudi konkrēto FRZ CAA oficiālajā dronu drošības kartē.",
+      "Droni zem 250 g vai UK0/UK1/C0 klases (C1 līdz 2027. gada 31. decembrim): drīksti lidot tuvāk neiesaistītiem cilvēkiem un virs tiem, taču nekad virs pūļiem. Citi droni: ievēro vismaz 50 m attālumu no neiesaistītiem cilvēkiem un nekad nelido virs tiem; standarta apakškategorijā Far from People (A3) jāievēro arī 150 m attālums no dzīvojamām, atpūtas, komerciālām un rūpnieciskām zonām (tostarp parkiem, pludmalēm un tūrisma objektiem). Ar A2 apliecību: UK2 (C2 līdz 2027. gada beigām) 30 m vai 5 m lēnā ātruma režīmā; citi droni zem 2 kg — 50 m.",
+      "Ap lidostām ir noteiktas Flight Restriction Zones (FRZ), taču to precīzā forma un lielums katrai lidostai atšķiras — universāla “5 km apļa” nav. Pirms lidošanas lidostas tuvumā vienmēr pārbaudi konkrēto FRZ NATS oficiālajā UAS ierobežojumu kartē.",
+      "Lidošana naktī: jābūt ieslēgtai zaļai mirgojošai ugunij (uzstādi to, ja tavam dronam tādas nav)",
       "Trešo personu civiltiesiskās atbildības apdrošināšana (saskaņā ar EC Regulation 785/2004) ir obligāta komerciāliem/neatpūtas lidojumiem vai jebkuram dronam, kura svars ir 20 kg vai vairāk — vieglākai atpūtas lietošanai tā nav obligāta, bet ir ieteicama.",
       "Remote ID pakāpeniski tiek ieviests: no 2026. gada janvāra UK klases marķētiem droniem (UK1/UK2/UK3/UK5/UK6); pilnībā obligāts no 2028. gada janvāra",
       "Apvienotā Karaliste NAV EASA sastāvā — ES pilota apliecības Apvienotajā Karalistē nav derīgas.",
-      "London pilsētā ir trīs pastāvīgi ierobežotās zonas — R157 (Hyde Park/karaliskās rezidences), R158 (City of London/Square Mile, neliela ~0.5 NM zona ap finanšu rajonu) un R159 (Canary Wharf/Isle of Dogs) — visi droni neatkarīgi no izmēra ir aizliegti, ja vien nav saņemts apstiprinājums, vismaz 28 dienas iepriekš iesniedzot NATS Non-Standard Flight pieteikumu. Parliament un Downing Street atrodas Westminster, ārpus visām trim R zonām, un tos aizsargā atsevišķi mehānismi."
+      "Londonā ir pastāvīgas ierobežotās zonas, kur visi droni ir aizliegti neatkarīgi no izmēra: R157 (Hyde Park — aptver arī Vestminsteru, parlamentu, Downing Street un Bakingemas pili), R158 (City of London) un R159 (Isle of Dogs/Canary Wharf). Lai tur lidotu, nepieciešama Enhanced Non-Standard Flight atļauja caur NATS — piesakies vismaz 21 dienu iepriekš (Londonas zonām tas var aizņemt ilgāk). Vindzoras pils (R156) un Windsor Great Park (R161) arī ir pastāvīgas dronu lidojumu aizlieguma zonas."
     ],
     "importantNotes": [
-      "Apvienotās Karalistes reģistrācijas slieksnis ir 100 g — stingrāks nekā ES 250 g",
       "ES/EASA dronu apliecības Apvienotajā Karalistē NAV atzītas kopš Brexit",
+      "ES C klases dronus (C0–C4) līdz 2027. gada 31. decembrim var lidināt kā atbilstošās UK klases dronus — UK Flyer ID/Operator ID noteikumi joprojām ir spēkā atkarībā no svara un kameras.",
       "Vietējās pašvaldības var ierobežot lidošanu uz to pārvaldītās zemes — pirms lidošanas parkos pārbaudi vietējos noteikumus.",
-      "Ap cietumiem ir ~1 km lidojumu aizlieguma zonas — par gaisa kuģa apdraudēšanu var piespriest līdz 5 gadiem cietumā."
+      "Ap cietumiem Anglijā un Velsā ir dronu lidojumu aizlieguma zonas (precīza forma katram cietumam — pārbaudi karti). Par gaisa kuģa apdraudēšanu var piespriest līdz 5 gadiem cietumā."
     ],
     "primaryLinks": [
       {
@@ -36,15 +38,15 @@
       },
       {
         "title": "CAA — Reģistrācija (Flyer ID un Operator ID)",
-        "description": "Iegūsti savu Flyer ID (obligāts no 100 g) un Operator ID (obligāts no 250 g)"
+        "description": "Iegūsti savu Flyer ID (obligāts no 100 g) un Operator ID (obligāts no 250 g vai no 100 g, ja dronam ir kamera)"
       },
       {
         "title": "CAA — The Drone Code",
         "description": "Oficiālie noteikumi: kur drīksti lidot, augstuma ierobežojumi un drošības prasības"
       },
       {
-        "title": "Drone Assist — Gaisa telpas karte",
-        "description": "Bezmaksas lidojumu plānošanas lietotne, kurā redzamas lidojumu aizlieguma zonas un gaisa telpas ierobežojumi"
+        "title": "Drone Assist — trešās puses gaisa telpas lietotne",
+        "description": "Neoficiāla lietotne (Altitude Angel) — vienmēr pārbaudi ierobežojumus NATS oficiālajā UAS ierobežojumu kartē"
       }
     ],
     "secondaryLinks": [
@@ -57,7 +59,7 @@
         "description": "Kad nepieciešama dronu apdrošināšana (obligāta nekomerciālai lietošanai)"
       },
       {
-        "title": "CAA — Remote ID politika",
+        "title": "CAA — Remote ID (kad tas jāieslēdz)",
         "description": "Apvienotās Karalistes Remote ID prasības no 2026. gada janvāra"
       }
     ]

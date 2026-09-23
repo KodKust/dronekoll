@@ -1,28 +1,32 @@
 {
   "meta": {
-    "sourceHash": "000b9bfb30fd5dc95150d4d75572729ea894e9cb117bc556495e8105d1de0bf6",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "49588a835cca5391d11c172e7550ef7ac8f76a3c7fe6c69b2398693532352902",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimalt 120 m over jorden (EASA's åbne kategori)",
-      "Registrering via D-Flight-portalen: Basic-abonnement €7/år (PRO €28/år) + obligatorisk QR-kode på hver drone (Base €7/UAS; den første er inkluderet i det første abonnement)",
-      "Obligatorisk A1/A3-onlinekursus — minimumsalder: 16 år",
-      "Obligatorisk ansvarsforsikring — mindst 750.000 SDR (særlige trækningsrettigheder)",
+      "I den åbne kategori er den maksimale højde 120 m, målt som afstanden til det nærmeste punkt på jordoverfladen — ikke blot lodret nedad, så nær en skråning kan terrænet ved siden af dig også tælle med. Inden for 50 m fra en høj kunstig hindring (over 105 m) kan den ansvarlige for hindringen anmode om tilladelse til at flyve op til 15 m over hindringens højde.",
+      "Registrering i Italien via D-Flight-portalen (bortset fra undtagelserne nedenfor): Basic-abonnement €7/år (PRO €28/år) + obligatorisk QR-kode på hver drone (Base €7/UAS; den første er inkluderet i det første abonnement)",
+      "Undtaget: legetøjsdroner (direktiv 2009/48/EF) kræver ikke registrering, bevis eller forsikring; droner under 250 g uden kamera eller mikrofon kræver ikke registrering.",
+      "Udenlandske piloter: operatørregistreringen er gyldig i alle EU-lande og i Schweiz. Hvis du allerede er registreret i dit eget EU-land, behøver du ikke registrere dig på D-Flight: du skal blot anbringe dit operatørnummer på dronen. Personer med bopæl uden for EU (herunder Storbritannien) registrerer sig i det første EU-land, de har planer om at besøge.",
+      "I Italien er minimumsalderen for at flyve i A1/A3 16 år; mindreårige (16-17 år) skal have samtykke fra en forælder eller værge for at registrere sig på ENAC-portalen. Onlinebeviset (40 spørgsmål) er gyldigt i 5 år.",
+      "Ansvarsforsikring over for tredjemand er obligatorisk for alle droner (også under 250 g og til fritidsbrug), undtagen legetøjsdroner (direktiv 2009/48/EF) — minimumsdækning 750.000 SDR i henhold til art. 27 i Regolamento UAS-IT og art. 1015 i Codice della Navigazione.",
       "Rome og Vatican City: Omfattende flyveforbudszoner",
-      "Hold altid dronen inden for synsvidde (VLOS)",
-      "Man må ikke flyve over menneskemængder. Reglerne for uvedkommende afhænger af underkategori, klassemærke og driftsforhold; se den officielle oversigt.",
-      "En minimumsafstand på 5 km fra enhver lufthavn eller flyveplads",
-      "Natflyvning er tilladt i henhold til EASA's grundlæggende regler for den åbne kategori, når det påkrævede grønne blinkende lys anvendes, medmindre en gældende geografisk zone eller national regel stiller strengere krav.",
-      "Historiske steder og arkæologiske områder kan være underlagt yderligere restriktioner"
+      "I den åbne kategori skal du holde dronen inden for din direkte synsvidde med det blotte øje (briller/kontaktlinser er fine; kikkert eller skærm tæller ikke) — eller flyve med hjælp fra en observatør, hvor I til enhver tid opretholder klar og effektiv kommunikation, så I sammen kan overvåge luftrummet og undgå kollisioner. »Follow-me«-tilstand er en separat undtagelse, tilladt op til 50 m fra piloten.",
+      "Man må ikke flyve over menneskemængder. Reglerne for uvedkommende afhænger af underkategori, klassemærke og driftsforhold; se den officielle tabel.",
+      "Der er ingen fast afstand til lufthavne: flyvepladsernes geografiske zoner (ENAC Circular ATM-09A) offentliggøres på D-Flight. I den åbne kategori er det forbudt at flyve inden for disse zoner, som starter i forskellig højde afhængigt af deres farve (rød 0 m, orange 25 m, gul 45 m); i resten af ATZ'erne og CTR'erne starter zonen normalt ved 60 m. Under disse højder må du flyve uden luftrumsreservation; for at flyve inden for zonerne skal du bruge den specifikke kategori med klarering fra ENAC eller Aeronautica Militare.",
+      "Natflyvning er tilladt i henhold til EASA's grundlæggende regler for den åbne kategori, forudsat at det påkrævede grønne blinkende lys anvendes, medmindre en national regel eller en regel for en bestemt geografisk zone stiller strengere krav.",
+      "Historiske steder og arkæologiske områder kan være underlagt yderligere restriktioner",
+      "Naturparker: det er forbudt at flyve over dem, hvor det ENAC-godkendte forbud er offentliggjort på D-Flight; for at flyve der skal du have tilladelse fra parkmyndigheden (Ente Parco).",
+      "Droner med klassemærke C1, C2 eller C3: direkte fjernidentifikation og geografisk bevidsthed (geo-awareness) skal være aktive og opdaterede."
     ],
     "importantNotes": [
-      "D-Flight-abonnement: Basic €7/år (PRO €28/år for en specifik kategori). Den første Basic QR Code er inkluderet ved den første aktivering; yderligere Basic QR Codes koster €7 pr. UAS (PRO €112 pr. UAS).",
+      "D-Flight-abonnement: Basic €7/år (PRO €28/år for den specifikke kategori). Den første Base QR Code er inkluderet ved den første aktivering; yderligere Base QR Codes koster €7 pr. UAS (PRO €112 pr. UAS).",
       "Obligatorisk forsikring med en minimumsdækning på 750.000 SDR (særlige trækningsrettigheder)",
-      "Rome/Vatican har et af de mest restriktive luftrum i Europa for droner",
-      "Bøder på op til €100.000 for grove overtrædelser",
+      "Rom: bymidten er en flyveforbudszone af sikkerhedsgrunde, hvor overflyvning er forbudt for alle luftfartøjer, også droner; eventuelle undtagelser kræver desuden klarering fra Prefettura di Roma. Tjek altid D-Flight.",
+      "Bøder på op til 100.000 € for grove overtrædelser",
       "GDPR gælder, når der optages identificerbare billeder"
     ],
     "primaryLinks": [
@@ -32,7 +36,7 @@
       },
       {
         "title": "D-Flight — Tilmeld dig og flyv",
-        "description": "Registreringsportal og luftrumskort (abonnement på 6 €/måned påkrævet)"
+        "description": "Portal til operatørregistrering og luftrumskort (kort med en gratis konto; operatørregistrering med et Base-abonnement til 7 €/år)"
       },
       {
         "title": "D-Flight — Luftrumskort",
@@ -40,13 +44,13 @@
       },
       {
         "title": "ENAC — UAS-regler",
-        "description": "Detaljer om de italienske regler for UAS og nationale tilføjelser til EASA-reglerne"
+        "description": "Detaljer om de italienske UAS-regler og nationale tilføjelser til EASA-reglerne"
       }
     ],
     "secondaryLinks": [
       {
         "title": "ENAV — NOTAM",
-        "description": "Aktive NOTAM'er og midlertidige luftrumsrestriktioner"
+        "description": "Italiensk udbyder af flyvesikringstjenester; adgang til NOTAM'er (Self Briefing) kræver underskrivelse af et Operation Letter"
       },
       {
         "title": "ENAC — Ofte stillede spørgsmål om droner",

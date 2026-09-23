@@ -1,28 +1,29 @@
 {
   "meta": {
-    "sourceHash": "c139af1376a67c6fd4409a0435b10fd8dd0df99586c1e480fb6eb124208d488a",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximální výška: 120 m (400 ft) nad úrovní terénu (AGL)",
-      "Drony lehčí než 25 kg: pro rekreační využití NEVYŽADUJÍ registraci u DINACIA",
-      "Drony s hmotností ≥25 kg nebo používané ke komerčním účelům: povinná registrace na platformě UTM úřadu DINACIA",
-      "Dron vždy udržujte v přímém vizuálním dohledu (VLOS)",
-      "Nelétejte nad hustě obydlenými oblastmi (města, obce, čtvrti)",
-      "Vyhýbejte se letištím, letištním plochám a řízenému vzdušnému prostoru (CTR)",
+      "Maximální výška letu je 120 m (400 ft) nad úrovní terénu.",
+      "Drony („Small“) do 25 kg nevyžadují pro rekreační využití registraci u DINACIA — smějí volně létat až do 120 m, s výjimkou letištních zón.",
+      "V Montevideu vyčlenil DINACIA pro drony Small (do 25 kg) 4 zóny pro rekreační létání, ve vymezených sektorech parků: Parque Baroffio (severní část), Parque Marcos Sastre (u Ruta 8), Parque Miguelete (úsek mezi Silva a Bvar. Aparicio Saravia) a Parque Tomkinson (kromě areálu klubu dětského fotbalu). Maximální výška v těchto zónách: 30 m nad terénem (DINACIA Res. 093/2019, AIP ENR 5.5).",
+      "Drony od 25 do 260 kg („Medium“) musí být registrovány u DINACIA a obdrží identifikační číslo, které musí být na zařízení viditelné.",
+      "Pilot musí dron po celou dobu udržovat v přímém vizuálním dohledu.",
+      "Létání nad hustě obydlenými oblastmi (města, obce, čtvrti) není bez výslovného povolení leteckého úřadu povoleno.",
+      "Vyhýbejte se letištím, letištním plochám a řízenému vzdušnému prostoru (CTR), pokud k tomu nemáte výslovné povolení.",
       "Rozumná vzdálenost od nezúčastněných osob a budov (doporučeno: 30 m)",
       "Let povolen pouze ve dne — noční lety vyžadují zvláštní povolení",
-      "Komerční provoz: povinné pojištění odpovědnosti + povolení DINACIA",
-      "Rezervace vzdušného prostoru (akce): vyplňte formulář 10 dní předem"
+      "Komerční využití vyžaduje povinné pojištění občanskoprávní odpovědnosti nebo letecké pojištění, a navíc odpovídající povolení DINACIA.",
+      "Provoz vyžadující výslovné povolení (nad obydlenými oblastmi nebo shromážděními lidí, v letištních zónách, v zakázaných nebo omezených prostorech nebo pro komerční využití): žádost u DINACIA přes platformu UTM (utm.dinacia.gub.uy)."
     ],
     "importantNotes": [
-      "🌟 URUGUAY MÁ VOLNĚJŠÍ PRAVIDLA: DINACIA Resolution 291/2014 stanoví, že drony lehčí než 25 kg při rekreačním využití NEVYŽADUJÍ registraci. Většina spotřebitelských dronů (DJI Mini, Mavic, Air, Phantom) je výrazně pod tímto limitem — všechna ostatní provozní pravidla však PLATÍ.",
-      "📋 DINACIA RESOLUTION 291/2014: řadí drony do tří kategorií — Small (≤25 kg), Medium (25–260 kg prázdné hmotnosti) a Large (>260 kg). Uruguayan Aeronautical Regulations (RAU 91 a další) doplňují regulační rámec.",
-      "✈️ ZAHRANIČNÍ TURISTÉ: Pravidla platí i pro nerezidenty. Pro rekreační využití dronu lehčího než 25 kg se registrace nevyžaduje. Pro komerční nebo profesionální využití či akce před cestou kontaktujte DINACIA. Celní orgány mohou při vstupu do země vyžadovat celní deklaraci vybavení.",
-      "🏖️ PUNTA DEL ESTE A MONTEVIDEO: Punta del Este (vysoká hustota turistů), Carrasco Airport (MVD), Laguna del Sauce Airport (PDP), Government House a Plaza Independencia podléhají trvalým omezením. Pobřeží a pláže bývají v hlavní sezóně přeplněné.",
+      "Uruguay má poměrně volná pravidla: DINACIA Resolution 291/2014 stanoví, že drony do 25 kg při rekreačním využití nevyžadují registraci.",
+      "DINACIA Resolution 291/2014 řadí drony do tří kategorií: Small (≤25 kg), Medium (25–260 kg) a Large (nad 260 kg).",
+      "Pravidla platí i pro osoby bez trvalého pobytu. Pro výhradně rekreační využití dronu do 25 kg není vyžadována registrace ani povolení provozovatele. Jakékoli placené využití (i s malými drony) vyžaduje povolení provozovatele DAOD od DINACIA (požadavky: věk 18 let, kurz v autorizovaném středisku, zkouška dovedností a uruguayské občanství; cizinci si musí u DINACIA založit elektronický spis APIA) a pojištění občanskoprávní odpovědnosti.",
+      "🚫 ZAKÁZANÉ ZÓNY (AIP ENR 5.1): Torre Ejecutiva/Plaza Independencia v Montevideu (poloměr 950 m), Residencia Presidencial Suárez (poloměr 950 m), Estancia Presidencial Anchorena (poloměr 1 852 m), Isla de Lobos u Punta del Este (poloměr 5 km), ostrovy u Cabo Polonio, Barra de Valizas a La Coronilla (poloměr 5 km), vojenské útvary, věznice, přehrady a palivové závody ANCAP. V řízeném vzdušném prostoru a provozní zóně letišť Carrasco (MVD) a Laguna del Sauce (PDP) je vyžadováno povolení ATM. Pobřeží a pláže bývají v hlavní sezóně hustě obydlené.",
       "🌳 CHRÁNĚNÉ PŘÍRODNÍ OBLASTI (SNAP): National System of Protected Areas zahrnuje oblasti jako Esteros de Farrapos, Cabo Polonio a Quebrada de los Cuervos. Před provozem dronů v těchto oblastech si u Ministry of the Environment ověřte konkrétní omezení."
     ],
     "primaryLinks": [
@@ -35,8 +36,8 @@
         "description": "Oficiální platforma UTM (Unmanned Traffic Management) úřadu DINACIA pro registraci dronů (≥25 kg) a podávání žádostí o provozní povolení. Vyžaduje registrovaného uživatele"
       },
       {
-        "title": "DINACIA — povolení provozovatele RPAS",
-        "description": "Oficiální stránka o povoleních provozovatele RPAS — kroky, požadavky a formuláře. Vyžadováno pro drony s hmotností 25 kg nebo více a pro veškeré komerční využití"
+        "title": "DINACIA — vydání povolení DAOD",
+        "description": "Oběžník DINACIA (CA.UY.PEL.07.02) s požadavky na povolení provozovatele DAOD. Povinné pro drony nad 25 kg a pro veškeré placené využití."
       },
       {
         "title": "DINACIA — pilotní licence LAR 61",
@@ -62,6 +63,6 @@
     "sectionLabelPrimary": "OFICIÁLNÍ ZDROJE",
     "sectionLabelSecondary": "DALŠÍ ZDROJE",
     "linksSheetTitle": "Vzdušný prostor a předpisy — Uruguay",
-    "dronePilotCredentialName": "Licence provozovatele DAOD"
+    "dronePilotCredentialName": "Povolení provozovatele DAOD"
   }
 }

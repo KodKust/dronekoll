@@ -1,45 +1,44 @@
 {
   "meta": {
-    "sourceHash": "81c150124a0453afe7f5155ecf3def2f6e3595db14698b42ea98cfaec819abc2",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "739c62107e50c8694e19f4d73e36df062253357ffa3b107cac8d667605278391",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximale Höhe: 122 m (400 ft) über Grund (AGL)",
-      "Maximaler horizontaler Abstand zum Betreiber: 750 m, wobei die direkte Sichtverbindung (VLOS) gewahrt bleiben muss",
+      "Maximale Höhe: 122 m (400 ft) über Grund (RAC 100).",
+      "Maximaler horizontaler Abstand zum Betreiber: 750 m, wobei die direkte Sichtverbindung (VLOS) gewahrt bleiben muss (RAC 100).",
       "Drohnen mit einer MTOW ab 200 g: Registrierung auf der UAS-Plattform von Aerocivil verpflichtend",
-      "Open-Kategorie (Drohnen ≤25 kg): Betrieb ohne vorherige Genehmigung nach RAC 100 erlaubt",
-      "Klasse B (25–150 kg): Erfordert stets eine Genehmigung von Aerocivil",
-      "Mindestabstand von 9 km zum Bezugspunkt des Flughafens",
-      "Mindestabstand von 3 km zu Hubschrauberlandeplätzen",
+      "Registrierte Drohne: trägt ein fest angebrachtes Etikett von mindestens 2 × 4 cm mit Registrierungsnummer, Name, E-Mail-Adresse und atencionalciudadano@aerocivil.gov.co (RAC 100).",
+      "Open-Kategorie (Drohnen ≤25 kg, nur nicht gewerbliche Nutzung): Betrieb ohne vorherige Genehmigung nach RAC 100 erlaubt. Gewerbliche Nutzung = Specific-Kategorie mit Genehmigung.",
+      "Drohnen über 25 kg (bis 250 kg): nur in der Specific-Kategorie, mit einer Fluggenehmigung von Aerocivil und einem Piloten mit Befähigungszeugnis (RAC 100).",
+      "Mindestabstand von 2 km zu Militär- oder Polizeistützpunkten, Gefängnissen und kritischer Infrastruktur sowie zu jedem Ort, an dem sich der Präsident aufhält (RAC 100).",
+      "Flughäfen: Das Fliegen ist auf dem Flughafen und innerhalb von 6 km um den Bezugspunkt (ARP) verboten; zwischen 6 und 9 km nur in der Open-Kategorie, maximal 61 m (200 ft) über der niedrigsten Schwelle und außerhalb von ZNVD – prüfe den Visor Geográfico UAS (RAC 100).",
+      "Mindestabstand von 3 km zu Hubschrauberlandeplätzen (RAC 100).",
       "Mindestabstand von 30 m zu unbeteiligten Personen und Gebäuden",
-      "Halte die Drohne stets in direkter Sichtverbindung (VLOS) und fliege nur bei Tageslicht",
-      "GEO-Zonen (Sperrgebiete für Drohnen) werden von Aerocivil im Einklang mit der ICAO festgelegt"
+      "Halte die Drohne stets in direkter Sichtverbindung (VLOS). Nachts nur mit dauerhaft eingeschalteten Lichtern und mit einem Beobachter (RAC 100).",
+      "Drohnen-Flugverbotszonen (ZNVD) sowie Sperr-, Beschränkungs- und Gefahrengebiete kannst du im Visor Geográfico UAS von Aerocivil prüfen (RAC 100)."
     ],
     "importantNotes": [
       "📋 RAC 100 (derzeit in Kraft): die maßgebliche Vorschrift für Drohnen in Kolumbien. Sie ersetzt den bisherigen RAC 91, Anhang 13. Sie legt die Open-Kategorie (Betrieb ohne vorherige Genehmigung) und die Specific-Kategorie (mit Genehmigung) fest. Das Rundschreiben 100-MAUT-5.0-22-010-CI erläutert das Registrierungsverfahren Schritt für Schritt.",
+      "✈️ TOURISTEN: RAC 100 gilt auch für Ausländer. Drohnen ab 200 g werden mit einem gültigen Reisepass auf der Plataforma UAS Colombia registriert; das Verfahren ist kostenlos.",
       "🌳 NATIONALPARKS UND SCHUTZGEBIETE: Kolumbiens nationale Naturparks (PNN) verbieten Drohnen ohne Sondergenehmigung in Parks wie Tayrona, Cocuy, Los Nevados und Amacayacu. Die kolumbianische Karibikregion und die Amazonasregion unterliegen zusätzlichen Beschränkungen – erkundige dich vor deiner Reise beim jeweiligen Park.",
-      "🏛️ SPERR- UND STADTGEBIETE: Innenstadt von Bogotá (Casa de Nariño, Plaza Bolívar, Flughafen El Dorado (SKBO)), die Altstadt von Cartagena, Militärzonen, Grenzen (Venezuela, Ecuador, Panama), schiffbare Flüsse und Ölplattformen unterliegen dauerhaften Beschränkungen – prüfe die GEO-Zonen von Aerocivil.",
-      "💰 STRAFEN UND HAFTUNG: Der Betrieb ohne Lizenz oder außerhalb der erlaubten Gebiete kann empfindliche Bußgelder (UVT – Steuerwerteinheit), die Beschlagnahme der Ausrüstung und in schweren Fällen strafrechtliche Haftung nach sich ziehen. Für die gewerbliche Nutzung ist eine Haftpflichtversicherung erforderlich."
+      "🏛️ SPERRGEBIETE: Das Fliegen ist in ZNVD-Zonen verboten (z. B. rund um El Dorado SKBO) – prüfe vor jedem Flug den Visor Geográfico UAS von Aerocivil.",
+      "💰 STRAFEN UND HAFTUNG: Der Betrieb ohne Registrierung oder außerhalb der erlaubten Gebiete kann empfindliche Bußgelder (UVT – Steuerwerteinheit), die Beschlagnahme der Ausrüstung und in schweren Fällen strafrechtliche Haftung nach sich ziehen. Für die gewerbliche Nutzung ist eine Haftpflichtversicherung erforderlich."
     ],
     "primaryLinks": [
       {
-        "title": "Aerocivil – Unbemannte Luftfahrzeugsysteme (UAS/Drohnen)",
+        "title": "Aerocivil – Unbemannte Luftfahrt (UAS/Drohnen)",
         "description": "Offizielle Website der Sonderverwaltungseinheit für Zivilluftfahrt (UAEAC) zu Drohnen: RAC 100, Informationsrundschreiben, UAS-Registrierung"
-      },
-      {
-        "title": "RPAS-Dokumente – Navigationsdienste",
-        "description": "Offizielles Dokumentenverzeichnis für RPAS/Drohnen: Formulare, Registrierungsleitfäden, Rundschreiben 100-MAUT-5.0-22-010-CI und geltende Vorschriften"
       },
       {
         "title": "Aerocivil – Häufige Fragen zu Drohnen",
         "description": "Offizieller FAQ-Bereich zu Drohnen und urbaner Luftmobilität mit ausführlichen Antworten auf häufige Fragen von Betreibern"
       },
       {
-        "title": "Nationales Luftfahrtregister – UAS",
-        "description": "Luftfahrtregistrierungssystem für Drohnen über 250 g. Enthält einen Registrierungsleitfaden und die Anforderungen: Identifikation, Fotos der Drohne (6, PDF <2 MB) und ein digitales Formular"
+        "title": "Aerocivil – Plataforma UAS Colombia (Drohnenregistrierung)",
+        "description": "UAS-E-Service-Portal von Aerocivil: Zugang zur Plataforma UAS Colombia für die Registrierung von Drohnen ab 200 g (kostenlos), zum Visor Geográfico UAS und zu Anleitungen"
       }
     ],
     "secondaryLinks": [
@@ -49,11 +48,11 @@
       },
       {
         "title": "Bürgerservice (E-Mail + Telefon)",
-        "description": "Offizielle E-Mail-Adresse von Aerocivil für Anfragen zu Drohnen. Telefon: +57 (601) 425 1000 oder gebührenfrei 01 8000 112373. Montag–Freitag, 8:00–16:30 Uhr"
+        "description": "Offizielle E-Mail-Adresse von Aerocivil für Anfragen zu Drohnen. Telefon: +57 (601) 425 1000 oder +57 (601) 518 5214. Montag–Freitag 8:00–16:30 Uhr. Drohnen: gdmua@aerocivil.gov.co"
       },
       {
         "title": "Kolumbianische Luftfahrtvorschriften (RAC)",
-        "description": "Kolumbianische Luftfahrtvorschriften (RAC). Enthält RAC 100 (UAS-Betrieb), RAC 91 Anhang 13 und alle für Drohnen geltenden Vorschriften"
+        "description": "Kolumbianische Luftfahrtvorschriften (RAC). Enthält RAC 100 (UAS-Betrieb, in Kraft seit 2023) und die übrigen für Drohnen geltenden Vorschriften"
       }
     ],
     "disclaimerText": "Prüfe vor dem Fliegen stets die offiziellen Quellen der Zivilluftfahrtbehörde (Aerocivil). Diese App ist ein Hilfsmittel, keine rechtliche Instanz. Kolumbien wendet RAC 100 (Luftfahrtvorschriften für den UAS-Betrieb) an. Danach müssen Drohnen mit einer MTOW ab 200 g über die UAS-Plattform registriert werden.",

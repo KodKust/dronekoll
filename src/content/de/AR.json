@@ -1,30 +1,32 @@
 {
   "meta": {
-    "sourceHash": "64c56f7cd237868e12b4a9acebacfc1c7ed47d9c27e97af77b28d123a7822c74",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "9cca66a7c2aad0d0dc5edac3e33625910a5e790c5cdccb45c10be1fbd9252627",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maximale Höhe: 122 m (400 ft) über Grund in der Open-Kategorie (unkontrollierter Luftraum)",
-      "In Flughafennähe (≤5 km): maximale Höhe 43 m ohne vorherige Genehmigung des Flugsicherungsdienstleisters",
-      "Mindestabstand von 5 km zu Flughäfen und Flugplätzen ohne Genehmigung",
-      "Mindestabstand von 500 m zu Hubschrauberlandeplätzen",
-      "Sicherheitsabstand zu unbeteiligten Personen und Gebäuden",
+      "Open-Kategorie: Das Fliegen innerhalb von Flugplatz-Kontrollzonen (CTR) ist verboten. Im kontrollierten Luftraum gilt innerhalb von 5 km um die Schwellen der Start- und Landebahnen: maximal 43 m und niemals in den An- oder Abflugflächen; für größere Höhen ist eine Genehmigung des Flugsicherungsdienstleisters erforderlich.",
+      "Hubschrauberlandeplätze: Das Fliegen innerhalb von 1 Seemeile (1,85 km) um den Bezugspunkt (HRP) ist verboten; zwischen 1 und 2 Seemeilen maximal 150 ft (46 m) über dem Hubschrauberlandeplatz, sofern nicht vorab abgestimmt.",
+      "Verboten ist das Fliegen über militärischen Einrichtungen, Sicherheitseinrichtungen oder Gefängnissen sowie innerhalb von 1 Seemeile (1,85 km) um sie herum; über Raffinerien, Kraftwerken oder Treibstofflagern ohne Erlaubnis des Eigentümers; und im Umkreis von 25 m (vertikal oder seitlich) um Hochspannungsleitungen.",
+      "Du musst einen sicheren Abstand zu unbeteiligten Personen und Gebäuden halten.",
       "Halte die Drohne in der Open-Kategorie stets in direkter Sichtverbindung (VLOS)",
-      "Flug nur bei Tag erlaubt – Nachtflüge erfordern eine gesonderte Genehmigung",
-      "Drohnen unter 250 g: von der Registrierungs- und Lizenzpflicht befreit (Resolution 550/2025)",
-      "Drohnen ab 250 g: Registrierung bei TAD (ANAC) verpflichtend – in der Open-Kategorie ist keine Pilotenlizenz erforderlich",
+      "Das Steuern der Drohne oder die Tätigkeit als Beobachter innerhalb von 8 Stunden nach Alkoholkonsum oder unter dem Einfluss psychoaktiver Substanzen ist verboten.",
+      "Nachtflüge: Mit der ANAC Res. 312/2026 (Mai 2026) wurde die allgemeine Beschränkung in RAAC 100 aufgehoben; in den Leitlinien der ANAC werden Nachteinsätze jedoch weiterhin der Specific-Kategorie zugeordnet – kläre das vor Nachtflügen mit der ANAC.",
+      "Drohnen unter 250 g sind von Registrierung, Lizenz und Versicherungspflicht befreit (Resolution 550/2025, August 2025). Drohnen von 250 g bis 25 kg benötigen keine Pilotenlizenz, müssen aber digital bei der ANAC im Casillero Aeronáutico Digital (CAD) registriert werden.",
+      "Drohnen ab 250 g: Registrierung bei CAD (ANAC) verpflichtend – in der Open-Kategorie ist keine Pilotenlizenz erforderlich",
       "Einsätze in der Specific-Kategorie (25–150 kg oder Stadtflüge/BVLOS) erfordern eine Pilotenlizenz, ein flugmedizinisches Zeugnis und ein Zertifikat für gewerbliche Betreiber",
-      "Die Open-Kategorie erlaubt Drohnen unter 25 kg ohne vorherige Genehmigung (in ländlichen Gebieten keine Gewichtsgrenze)"
+      "Die Open-Kategorie erlaubt Drohnen von 250 g bis unter 25 kg ohne vorherige Genehmigung (Drohnen mit Drehflügeln ohne Gewichtsgrenze nur in ländlichen Gebieten, außerhalb von CTRs und beschränktem Luftraum)"
     ],
     "importantNotes": [
-      "📜 NEUER RECHTSRAHMEN 2025: ANAC Resolution 550/2025 (seit August 2025 in Kraft) ersetzt Resolution 880/2019. Sie legt drei Kategorien fest: Einsätze ohne vorherige Genehmigung, Open-Kategorie und Specific-Kategorie. RAAC Part 100/101/102.",
-      "✈️ AUSLÄNDISCHE TOURISTEN: Drohnen ab 250 g müssen vor dem ersten Flug bei TAD registriert werden (Resolution 550/2025). Die Registrierung erfolgt online; ein argentinischer Ausweis oder ein Reisepass ist erforderlich. Drohnen unter 250 g – etwa DJI Mini, Flip usw. – sind von der Registrierungs- und Lizenzpflicht befreit.",
-      "🌳 NATIONALPARKS UND SCHUTZGEBIETE: Die APN (Nationalparkverwaltung) verbietet Drohnenflüge ohne Sondergenehmigung in Parks wie Iguazú, Nahuel Huapi, Los Glaciares und Tierra del Fuego. Erkundige dich vor jedem Flug bei der jeweiligen Parkverwaltung.",
-      "🏛️ STADT- UND SPERRGEBIETE: Buenos Aires (Flughafen Jorge Newbery, Casa Rosada, Kongress), Ezeiza (Ministro Pistarini) und Militärzonen sind Flugverbotszonen. Aerolíneas Argentinas und die Innenstadt unterliegen dauerhaften Beschränkungen – prüfe das AIP.",
-      "💰 STRAFEN: Verstöße können empfindliche Bußgelder, die Beschlagnahme der Ausrüstung und in schweren Fällen eine strafrechtliche Haftung nach sich ziehen. Für die gewerbliche Nutzung ist eine Haftpflichtversicherung erforderlich."
+      "📜 NEUER RECHTSRAHMEN: ANAC Resolution 550/2025 (seit August 2025 in Kraft, geändert durch Res. 312/2026) ersetzt Resolution 880/2019. Sie legt drei Kategorien fest: Open-, Specific- und Certified-Kategorie. RAAC Part 100/101/102.",
+      "Drohnen ab 250 g müssen vor ihrem ersten Flug bei der ANAC im Casillero Aeronáutico Digital (CAD) registriert werden – die Registrierung ist kostenlos, erfolgt online und erfordert einen DNI oder Reisepass. Drohnen unter 250 g (z. B. DJI Mini oder Flip) sind von Registrierung und Lizenz befreit (Resolution 550/2025).",
+      "Touristen: Eine gültige Registrierungsbescheinigung für die betreffende Drohne, ausgestellt von der Zivilluftfahrtbehörde eines anderen ICAO-Staates, wird anerkannt (RAAC 100.05); eine reine Betreiberregistrierung reicht möglicherweise nicht aus. Ist deine Drohne nicht registriert, gib mit deinem Reisepass die kostenlose digitale eidesstattliche Erklärung (Declaración Jurada) bei der ANAC ab.",
+      "🌳 NATIONALPARKS UND SCHUTZGEBIETE: Die APN verbietet die Nutzung von Drohnen zu Freizeit- und Sportzwecken in all ihren Schutzgebieten (APN Res. 9/2021), etwa Iguazú, Nahuel Huapi, Los Glaciares oder Tierra del Fuego. Die berufliche oder wissenschaftliche Nutzung erfordert eine vorherige Genehmigung der APN.",
+      "🏛️ SPERRGEBIETE: Verboten ist das Fliegen über der Casa Rosada, der Quinta de Olivos, öffentlichen Gebäuden und Botschaften, innerhalb von 1 Seemeile um militärische Einrichtungen und innerhalb der Kontrollzonen von Flughäfen wie Aeroparque und Ezeiza – prüfe das AIP.",
+      "💰 STRAFEN: Verstöße werden nach dem Reglamento General de Infracciones de la Aviación Civil geahndet, unbeschadet der zivil- oder strafrechtlichen Haftung. In der Specific- und der Certified-Kategorie ist eine Versicherung Pflicht (in der Open-Kategorie freiwillig)."
     ],
     "primaryLinks": [
       {
@@ -32,8 +34,8 @@
         "description": "Offizielle Website der nationalen Zivilluftfahrtverwaltung zu Drohnen (VANT/SVANT): neuer Rechtsrahmen – Resolution 550/2025, Kategorien und Betriebsanforderungen"
       },
       {
-        "title": "Drohnenregistrierung (TAD)",
-        "description": "Pflichtsystem zur Registrierung von Drohnen über 500 g über die Plattform Trámites a Distancia (TAD). Klasse A (≤500 g) zu Freizeitzwecken ist ausgenommen."
+        "title": "Drohnenregistrierung (CAD)",
+        "description": "Kostenlose digitale eidesstattliche Erklärung (Declaración Jurada) für Drohnen von 250 g bis 25 kg im Casillero Aeronáutico Digital (CAD) der ANAC; es wird eine digitale Registrierungsbescheinigung ausgestellt. Drohnen unter 250 g sind befreit."
       },
       {
         "title": "AIP – Veröffentlichung von Luftfahrtinformationen",
@@ -50,19 +52,19 @@
         "description": "Luftfahrtbetreiberzeugnis für den gewerblichen Drohnenbetrieb. Erforderlich für die Specific-Kategorie und professionelle Flüge"
       },
       {
-        "title": "Zertifizierung als ferngesteuertes Besatzungsmitglied (Pilot)",
-        "description": "Verfahren zur Erlangung der Genehmigung als Fernpilot. Prüfungen und Anforderungen für die professionelle Zertifizierung"
+        "title": "Zulassung als Mitglied der Fernbesatzung (Pilot)",
+        "description": "Verfahren zur Erlangung der Zulassung als Fernpilot. Prüfungen und Anforderungen für die berufliche Zertifizierung"
       },
       {
         "title": "Neuer Rechtsrahmen (offizielle Zusammenfassung)",
         "description": "Offizielle Zusammenfassung der ANAC zum neuen Rechtsrahmen für Drohnen nach der Resolution 550/2025: wichtigste Änderungen und Kategorien"
       }
     ],
-    "disclaimerText": "Prüfe vor dem Fliegen stets die offiziellen Quellen der ANAC. Diese App ist ein Hilfsmittel, keine rechtliche Instanz. Argentinien wendet die ANAC Resolution 550/2025 (RAAC Part 100/101/102) an, die seit August 2025 in Kraft ist.",
+    "disclaimerText": "Prüfe vor dem Fliegen stets die offiziellen Quellen der ANAC. Diese App ist ein Hilfsmittel, keine rechtliche Instanz. Argentinien wendet die ANAC Resolution 550/2025 (RAAC Part 100/101/102) an, die seit August 2025 in Kraft ist und durch die ANAC Resolution 312/2026 geändert wurde.",
     "sectionLabelRules": "WICHTIGSTE REGELN",
     "sectionLabelPrimary": "OFFIZIELLE QUELLEN",
     "sectionLabelSecondary": "WEITERE RESSOURCEN",
     "linksSheetTitle": "Luftraum und Vorschriften – Argentinien",
-    "dronePilotCredentialName": "UAV-Pilotenzertifikat"
+    "dronePilotCredentialName": "Fernpilotenlizenz (RPA)"
   }
 }

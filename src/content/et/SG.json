@@ -1,27 +1,30 @@
 {
   "meta": {
-    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "56c3153444a663787bfd0ce0f2337746",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Standardne ülempiir on 200 ft (60 m AMSL) — litsentseeritud ärioperaatoritele on lennujaamast rohkem kui 6 km kaugusel asuvates kindlaksmääratud tsoonides lubatud 400 ft (122 m). Enne kõrgema piiri kasutamist kontrolli kehtivaid tsoonikaarte ja tingimusi.",
-      "Üle 250 g kaaluv mehitamata õhusõiduk tuleb registreerida CAAS juures. Registreerimine maksab SGD 25 ja ei aegu — seda tuleb uuendada või tühistada ainult siis, kui droon kaob, saab kahjustada, müüakse või selle ID-silt muutub loetamatuks.",
-      "UA Pilot Licence (UAPL) on nõutav äriliseks või professionaalseks kasutuseks või mis tahes üle 7 kg kaaluva drooni puhul olenemata eesmärgist. Class B UAPL hõlmab alla 7 kg kaaluvaid kergemaid äridroone.",
-      "Püsi lennujaamadest ja sõjaväe lennubaasidest vähemalt 5 km kaugusel — enne mis tahes lennubaasi lähedal lendamist kontrolli täpset kehtivat vahemaad.",
+      "Üle 250 g kaaluv mehitamata õhusõiduk tuleb registreerida CAAS-is. Registreerimine maksab SGD 25 ja ei aegu — seda tuleb uuendada või tühistada ainult siis, kui droon kaob, saab kahjustada, müüakse või selle ID-silt muutub loetamatuks. Registreerimiseks pead olema vähemalt 16-aastane; noorematele pilootidele peab drooni registreerima vanem või eestkostja.",
+      "Harrastuslik välilendamine üle 1,5 kg kuni 7 kg drooniga nõuab UA Basic Training Certificate'it (ühekordne ~2-tunnine kursus CAAS-i heakskiidetud organisatsioonis) või UAPL-i ning piloot peab olema vähemalt 16-aastane.",
+      "UA Pilot Licence (UAPL) on nõutav igasuguseks äriliseks/professionaalseks kasutuseks olenemata kaalust ning mis tahes üle 7 kg drooni puhul olenemata eesmärgist. Class A UAPL hõlmab kuni 25 kg droone; Class B UAPL on mõeldud konkreetsetele üle 25 kg mudelitele. Välisriigi droonilitsentse ei saa UAPL-iks vahetada.",
+      "Püsi lennujaamadest ja sõjaväe lennubaasidest vähemalt 5 km kaugusel, välja arvatud juhul, kui sul on selleks CAAS Activity Permit — enne mis tahes lennubaasi lähedal lendamist kontrolli täpset kehtivat vahemaad.",
+      "Drooniga Singapuri sisse või sealt välja lendamine (nt üle Johori väina) on ilma CAAS-i piiriülese loata ebaseaduslik, olenemata drooni kaalust.",
       "Broadcast Remote ID (B-RID) on olnud alates 1. detsembrist 2025 kohustuslik üle 250 g UA-dele, välja arvatud siseruumides või suletud alal käitatavad UA-d ning juhud, mil operaatoril on Operator Permit ja ta kasutab rakendust FlyItSafe.",
       "Öölend on lubatud ainult siis, kui nõutav valgustus töötab ja VLOS säilib kogu aeg; otsenähtavusest kaugemale lendamiseks on vaja Operator Permit ja Class 1 Activity Permit.",
       "Hoia drooni alati otsenähtavuses (VLOS)",
-      "Piirangualadel lendamiseks on nõutav tegevusluba",
+      "Harrastuslendude puhul (droon kuni 25 kg) on CAAS Class 2 Activity Permit vajalik, et lennata kõrgemal kui 200 ft üle keskmise merepinna, mis tahes lennujaamast või sõjaväe lennubaasist 5 km raadiuses või mis tahes piirangu- või ohualal. Kaitstud aladel on vaja ka Singapore Police Force'i luba. Keelualadel lendamine ei ole kunagi lubatud.",
       "Karistused on astmelised: esimese süüdimõistmise korral raskete rikkumiste eest (nt lendamine keelatud või kaitstud alal või lennutamine joobeseisundis) kuni SGD 50 000 või 2 aastat vangistust — korduvate rikkumiste korral kuni SGD 100 000 või 5 aastat. Kergemate rikkumiste eest (nt registreerimata drooni lennutamine või B-RID rikkumine) on karistus kuni SGD 10 000 ja kuni 6 kuud vangistust.",
       "Ära lenda inimeste, hoonete ega piiratud juurdepääsuga rajatiste kohal."
     ],
     "importantNotes": [
       "Singapore rakendab rangeid astmelisi droonikaristusi: esimese süüdimõistmise korral raskete rikkumiste, näiteks piirangualal lendamise eest kuni SGD 50 000 või 2 aastat vangistust — korduvate rikkumiste korral kuni SGD 100 000 või 5 aastat. Kergemate rikkumiste eest määratakse väiksemad karistused (kuni SGD 10 000, kuni 6 kuud).",
-      "Standardne kõrguspiir on vaid 200 ft (60 m) — palju madalam kui enamikus riikides",
+      "Tavaline kõrguspiirang on vaid 200 ft (umbes 60 m) üle keskmise merepinna (AMSL), mitte üle sinu stardipunkti. Kõrgendikult või katuselt on sul kasutada vähem kõrgust. Kõrgemal lendamiseks on vaja CAAS Activity Permitit.",
       "Broadcast Remote ID (B-RID) on olnud alates 1. detsembrist 2025 kohustuslik üle 250 g UA-dele (piiratud erandid kehtivad siseruumides kasutamisel ning Operator Permit omanikele, kes kasutavad rakendust FlyItSafe).",
+      "Singpassita külastajad: loo UAPass'i konto vähemalt 5 tööpäeva enne saabumist. Osta SGD 25 registreerimissilt määratud SingPosti postkontorist või veebist (kohaletoimetamine ainult Singapuris, kuni 5 tööpäeva). Kinnita see droonile ja registreeri seejärel UA Portalis.",
       "Paljud Singapore alad on piirangualad — kontrolli enne lendamist alati OneMap."
     ],
     "primaryLinks": [
@@ -34,12 +37,12 @@
         "description": "Singapuri ametlik kaart droonide lennutsoonide ja piirangutega"
       },
       {
-        "title": "FlyItSafe — CAAS-i rakendus",
-        "description": "CAAS-i ametlik drooniohutuse rakendus lennutsoonide ja lubade teabega"
+        "title": "CAAS — UA-ga lendamise nõuded",
+        "description": "CAAS-i ametlikud reeglid harrastus-, haridus- ja ärilisteks droonilendudeks Singapuris"
       },
       {
         "title": "CAAS — UA registreerimine",
-        "description": "Registreeri oma droon ja taotle tegevuslube veebis"
+        "description": "Kuidas registreerida oma droon CAAS-is: osta SGD 25 silt, kinnita see ja registreeri seejärel UA Portalis"
       }
     ],
     "secondaryLinks": [

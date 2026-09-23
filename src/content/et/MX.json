@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "17d852a01e48f71061854c0a7b614ed78721768d3d73eccf5ccdda3a556d264f",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "da2427b1326315670ad00c40760c98fe7dcb581d5abb3f16d2aa07daea8f6c28",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maksimaalne kõrgus: 120 m (400 ft) maapinnast",
-      "Vähemalt 9,2 km kaugusel kontrollitavatest lennujaamadest",
-      "Vähemalt 3,7 km kaugusel kontrollimata lennuväljadest",
+      "Vähemalt 9,2 km (5 NM) kaugusel mis tahes lennuväljast, kontrollitavast või kontrollimata (NOM-107-SCT3-2019, 4.10.1).",
+      "NOM-107-s (Appendix I) loetletud lennuväljadest 9,2 km (5 NM) kuni 18,5 km (10 NM) kaugusel: maksimaalne kõrgus 100 m (328 ft).",
       "Vähemalt 900 m kaugusel helikopteriväljakutest",
+      "Lendamine on keelatud AIP (ENR 5.1) keelu-, piirangu- või ohualadel ning helikopterikoridorides; kontrolli enne iga lendu NOTAM-e.",
       "Hoia droon alati otsenähtavuse piires (VLOS), mitte kaugemal kui 457 m operaatorist",
-      "250 g ja raskemad droonid: kohustuslik registreerimine AFAC-is (Appendix K vorm)",
+      "Üle 250 g droonid: kohustuslik registreerimine AFAC-is enne lendamist (Appendix K vorm)",
       "Alla 250 g kaaluvad droonid: registreerimisest vabastatud, kuid kõik muud reeglid kehtivad",
-      "Kaalukategooriad: Micro (≤2 kg), Light (2–25 kg), Heavy (>25 kg)",
+      "Kaalukategooriad: Micro (≤2 kg), Small (>2–25 kg), Large (>25 kg)",
+      "Üle 2 kg harrastusdroonid: tohivad lennata ainult AFAC-i volitatud lennumudelliklubides.",
       "Öölennud nõuavad AFAC-i eriluba",
-      "Äriline kasutus nõuab olenevalt kaalukategooriast täiendavat luba"
+      "Mitteäriline erakasutus või äriline kasutus: kehtiv tsiviilvastutuskindlustus on kohustuslik; Micro (≤2 kg) vajab lisaks eriluba kontrollitava õhuruumi jaoks; Small ja Large vajavad AFAC-i käitamisluba."
     ],
     "importantNotes": [
-      "⚠️ VÄLISPILOODID: NOM-107 keelab välismaal või välisriigi kodanike poolt registreeritud droonide käitamise, välja arvatud juhul, kui Mehhiko ja päritoluriigi vahel on kahepoolne kokkulepe. Turistid: kontrolli enne reisi.",
-      "Ebaseadusliku käitamise eest võib määrata kuni MXN $80,000 suuruse trahvi või vangistuse",
+      "VÄLISMAA PILOODID: NOM-107-SCT3-2019 keelab välisriigis registreeritud või välisriigi kodanike juhitavate droonide käitamise, kui Mehhiko ja päritoluriigi vahel pole kahepoolset lepingut — praegu pole teada ühtegi kehtivat sellist lepingut.",
+      "Üle 250 g Micro- ja Small-droonide sisseveoks Mehhikosse peavad neil olema tootja ja mudel, seerianumber, kasutusjuhend ning tarkvara, mis piirab automaatselt kaugust ja kõrgust (NOM-107, 10.1).",
+      "NOM-107 nõuete rikkumise eest võib AFAC määrata karistuse Ley de Aviación Civil alusel; droonide kasutamine kuritegude toimepanemiseks (nt lõhkeainete heitmine või inimeste ründamine) on karistatav vangistusega (Código Penal Federal, art 163 Bis–Quáter).",
       "Rahvusparkides ja arheoloogilistes paikades (INAH) on droonide kasutamine ilma eriloata üldjuhul keelatud",
       "Sadamates ja rannikualadel kehtivad sageli piirangud — kontrolli kohalike ametiasutuste nõudeid",
       "AFAC-i registri vastamisaeg on kuni 10 tööpäeva — planeeri ette"
@@ -37,16 +40,12 @@
       {
         "title": "NOM-107-SCT3-2019 — Ametlik standard",
         "description": "Mehhiko ametlik standard, mis kehtestab kaugjuhitava õhusõidukisüsteemi käitamise nõuded"
-      },
-      {
-        "title": "Ringkiri CO AV-23/10 R4",
-        "description": "Kohustuslik ringkiri, mis sätestab droonide üksikasjalikud tehnilised ja käituslikud nõuded"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "ASA — Lennujaamad ja abiteenused",
-        "description": "Teave Mehhiko föderaalsete lennujaamade kohta piiranguga alade kontrollimiseks"
+        "title": "AFAC — Lennuväljade ja kopteriväljakute andmebaas",
+        "description": "Ajakohane ametlik lennuväljade ja kopteriväljakute loend NOM-107 minimaalsete kauguste kontrollimiseks"
       },
       {
         "title": "SICT — Tsiviillennundus",
@@ -62,6 +61,6 @@
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",
     "linksSheetTitle": "Õhuruum ja regulatsioonid — Mehhiko",
-    "dronePilotCredentialName": "Kaugpiloodi litsents"
+    "dronePilotCredentialName": "RPAS-piloodi luba"
   }
 }

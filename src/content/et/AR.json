@@ -1,30 +1,32 @@
 {
   "meta": {
-    "sourceHash": "64c56f7cd237868e12b4a9acebacfc1c7ed47d9c27e97af77b28d123a7822c74",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "9cca66a7c2aad0d0dc5edac3e33625910a5e790c5cdccb45c10be1fbd9252627",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maksimaalne kõrgus: 122 m (400 ft) maapinnast avatud kategoorias (kontrollimata õhuruum)",
-      "Lennujaamade läheduses (≤5 km): maksimaalne kõrgus 43 m ilma aeronavigatsiooniteenuse osutaja eelloata",
-      "Vähemalt 5 km kaugusel lennujaamadest ja lennuväljadest ilma loata",
-      "Vähemalt 500 m kaugusel helikopteriväljakutest",
-      "Ohutu kaugus tegevusega mitteseotud inimestest ja hoonetest",
+      "Avatud kategooria: lendamine lennuväljade kontrolltsoonides (CTR) on keelatud. Kontrollitavas õhuruumis kuni 5 km kaugusel rajalävedest: maksimaalselt 43 m ja mitte kunagi lähenemis- ega stardipindadel; kõrgemal lendamiseks on vaja aeronavigatsiooniteenuse osutaja luba.",
+      "Kopteriväljakud: lendamine võrdluspunktist (HRP) kuni 1 meremiili (1,85 km) kaugusel on keelatud; 1 kuni 2 meremiili kaugusel maksimaalselt 150 ft (46 m) kopteriväljakust kõrgemal, kui seda pole eelnevalt kooskõlastatud.",
+      "Keelatud on lennata sõjaväe-, julgeoleku- või vanglarajatiste kohal ja neist kuni 1 meremiili (1,85 km) kaugusel; naftatöötlemistehaste, elektrijaamade või kütuselaode kohal ilma omaniku loata; ning kõrgepingeliinidest kuni 25 m kaugusel (vertikaalselt või horisontaalselt).",
+      "Pead hoidma ohutut kaugust operatsiooniga mitteseotud inimestest ja hoonetest.",
       "Hoia droon avatud kategoorias alati otsenähtavuse piires (VLOS)",
-      "Lendamine lubatud ainult päeval — öölennud nõuavad eriluba",
-      "Alla 250 g kaaluvad droonid: registreerimisest ja litsentseerimisest vabastatud (resolutsioon 550/2025)",
-      "250 g ja raskemad droonid: kohustuslik registreerimine TAD-is (ANAC) — avatud kategoorias piloodilitsentsi ei nõuta",
+      "Piloodina või vaatlejana tegutsemine 8 tunni jooksul pärast alkoholi tarvitamist või psühhoaktiivsete ainete mõju all on keelatud.",
+      "Öölennud: ANAC-i res. 312/2026 (mai 2026) kaotas RAAC 100 üldpiirangu; ANAC-i juhendis on öised operatsioonid endiselt erikategoorias — enne öösel lendamist kontrolli seda ANAC-ilt.",
+      "Alla 250 g kaaluvad droonid on vabastatud registreerimisest, litsentsist ja kohustuslikust kindlustusest (resolutsioon 550/2025, august 2025). 250 g kuni 25 kg droonide puhul piloodilitsentsi ei nõuta, kuid need tuleb ANAC-is digitaalselt registreerida süsteemis Casillero Aeronáutico Digital (CAD).",
+      "250 g ja raskemad droonid: kohustuslik registreerimine CAD-is (ANAC) — avatud kategoorias piloodilitsentsi ei nõuta",
       "Erikategooria käitamiseks (25–150 kg või linnalennud/BVLOS) on vaja piloodilitsentsi, tervisetõendit ja kommertsoperaatori sertifikaati",
-      "Avatud kategooria lubab alla 25 kg kaaluvaid droone ilma eelloata (maapiirkondades kaalupiirang puudub)"
+      "Avatud kategooria lubab 250 g kuni alla 25 kg droone ilma eelloata (pöördtiivikuga droonid ilma kaalupiiranguta ainult maapiirkondades, väljaspool CTR-e ja piiranguga õhuruumi)"
     ],
     "importantNotes": [
-      "📜 UUS 2025. AASTA RAAMISTIK: ANAC-i resolutsioon 550/2025 (kehtiv alates 2025. aasta augustist) asendab resolutsiooni 880/2019. See kehtestab kolm kategooriat: käitamine ilma eelloata, avatud kategooria ja erikategooria. RAAC Part 100/101/102.",
-      "✈️ VÄLISTURISTID: 250 g ja raskemad droonid tuleb enne esimest lendu TAD-is registreerida (resolutsioon 550/2025). Registreerimine toimub veebis; nõutav on Argentina isikutunnistus või pass. Alla 250 g kaaluvad droonid — nagu DJI Mini, Flip jt — on registreerimisest ja litsentseerimisest vabastatud.",
-      "🌳 RAHVUSPARGID JA KAITSEALAD: APN (Rahvusparkide Administratsioon) keelab ilma eriloata droonide kasutamise sellistes parkides nagu Iguazú, Nahuel Huapi, Los Glaciares ja Tierra del Fuego. Enne lendamist kontrolli iga pargi tingimusi.",
-      "🏛️ LINNA- JA PIIRANGUALAD: Buenos Aires (Jorge Newbery lennujaam, Casa Rosada, kongress), Ezeiza (Ministro Pistarini) ja sõjaväetsoonid on lennukeelutsoonid. Aerolíneas Argentinasel ja kesklinna aladel kehtivad püsipiirangud — kontrolli AIP-i.",
-      "💰 KARISTUSED: Rikkumised võivad tuua kaasa märkimisväärsed trahvid, seadmete konfiskeerimise ja raskematel juhtudel kriminaalvastutuse. Ärilise kasutuse jaoks on vastutuskindlustus nõutav."
+      "📜 UUS RAAMISTIK: ANAC-i resolutsioon 550/2025 (kehtib alates 2025. aasta augustist, muudetud res. 312/2026-ga) asendab resolutsiooni 880/2019. See kehtestab kolm kategooriat: avatud, eri- ja sertifitseeritud kategooria. RAAC Part 100/101/102.",
+      "250 g ja raskemad droonid tuleb enne esimest lendu ANAC-is registreerida süsteemis Casillero Aeronáutico Digital (CAD) — registreerimine on tasuta, toimub veebis ja selleks on vaja DNI-d või passi. Alla 250 g kaaluvad droonid (nt DJI Mini või Flip) on registreerimisest ja litsentsist vabastatud (resolutsioon 550/2025).",
+      "Turistid: aktsepteeritakse selle drooni kehtivat registreerimistunnistust, mille on välja andnud mõne teise ICAO riigi tsiviillennundusamet (RAAC 100.05); ainult operaatori registreeringust ei pruugi piisata. Kui su droon ei ole registreeritud, täida ANAC-is passi abil tasuta digitaalne vandedeklaratsioon (Declaración Jurada).",
+      "🌳 RAHVUSPARGID JA KAITSEALAD: APN keelab droonide harrastus- ja sportliku kasutamise kõigil oma kaitsealadel (APN res. 9/2021), näiteks Iguazú, Nahuel Huapi, Los Glaciares või Tierra del Fuego. Professionaalseks või teaduslikuks kasutuseks on vaja APN-i eelluba.",
+      "🏛️ PIIRANGUALAD: lendamine on keelatud Casa Rosada, Quinta de Olivose, avalike hoonete ja saatkondade kohal, sõjaväerajatistest kuni 1 meremiili kaugusel ning lennujaamade, nagu Aeroparque ja Ezeiza, kontrolltsoonides — kontrolli AIP-d.",
+      "💰 KARISTUSED: rikkumisi karistatakse Reglamento General de Infracciones de la Aviación Civil alusel, ilma et see välistaks tsiviil- või kriminaalvastutust. Eri- ja sertifitseeritud kategoorias on kindlustus kohustuslik (avatud kategoorias vabatahtlik)."
     ],
     "primaryLinks": [
       {
@@ -32,8 +34,8 @@
         "description": "Riikliku Tsiviillennundusadministratsiooni ametlik droonileht (VANT/SVANT): uus regulatiivne raamistik — resolutsioon 550/2025, kategooriad ja käitamisnõuded"
       },
       {
-        "title": "Droonide registreerimine (TAD)",
-        "description": "Kohustuslik registreerimissüsteem üle 500 g kaaluvatele droonidele Trámites a Distancia (TAD) platvormi kaudu. Klass A (≤500 g) harrastuslik kasutus on vabastatud."
+        "title": "Drooni registreerimine (CAD)",
+        "description": "Tasuta digitaalne vandedeklaratsioon (Declaración Jurada) 250 g kuni 25 kg droonidele ANAC-i süsteemis Casillero Aeronáutico Digital (CAD); väljastatakse digitaalne registreerimistunnistus. Alla 250 g droonid on vabastatud."
       },
       {
         "title": "AIP — Lennundusteabe väljaanne",
@@ -50,19 +52,19 @@
         "description": "Lennuettevõtja sertifikaat äriliste droonioperatsioonide jaoks. Nõutav erikategooria ja professionaalsete lendude puhul"
       },
       {
-        "title": "Kaugmeeskonnaliikme (piloodi) sertifitseerimine",
-        "description": "Kaugpiloodi loa saamise kord. Eksamid ja nõuded professionaalseks sertifitseerimiseks"
+        "title": "Luba kaugmeeskonna liikmena (piloodina) tegutsemiseks",
+        "description": "Kaugpiloodi loa saamise kord. Eksamid ja nõuded kutsesertifikaadi saamiseks"
       },
       {
         "title": "Uus regulatiivne raamistik (ametlik kokkuvõte)",
         "description": "ANAC-i ametlik kokkuvõte uuest droonide regulatiivsest raamistikust pärast resolutsiooni 550/2025: peamised muudatused ja kategooriad"
       }
     ],
-    "disclaimerText": "Kontrolli enne lendamist alati ANAC-i ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Argentinas kehtib ANAC-i resolutsioon 550/2025 (RAAC Part 100/101/102), mis on jõus alates 2025. aasta augustist.",
+    "disclaimerText": "Kontrolli enne lendamist alati ANAC-i ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Argentinas kehtib ANAC-i resolutsioon 550/2025 (RAAC Part 100/101/102), mis on jõus alates 2025. aasta augustist ja mida on muudetud ANAC-i resolutsiooniga 312/2026.",
     "sectionLabelRules": "PÕHIREEGLID",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",
     "linksSheetTitle": "Õhuruum ja regulatsioonid — Argentina",
-    "dronePilotCredentialName": "Drooni piloodi sertifikaat"
+    "dronePilotCredentialName": "Kaugpiloodi litsents (RPA)"
   }
 }

@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "17d852a01e48f71061854c0a7b614ed78721768d3d73eccf5ccdda3a556d264f",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "da2427b1326315670ad00c40760c98fe7dcb581d5abb3f16d2aa07daea8f6c28",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maximální výška: 120 m (400 ft) nad úrovní terénu",
-      "Minimální vzdálenost 9,2 km od řízených letišť",
-      "Minimální vzdálenost 3,7 km od neřízených letišť",
+      "Minimální vzdálenost 9,2 km (5 NM) od jakéhokoli letiště, řízeného i neřízeného (NOM-107-SCT3-2019, 4.10.1).",
+      "Ve vzdálenosti 9,2 km (5 NM) až 18,5 km (10 NM) od letišť uvedených v NOM-107 (příloha I): maximální výška 100 m (328 ft).",
       "Minimální vzdálenost 900 m od heliportů",
+      "Létání je zakázáno v zakázaných, omezených a nebezpečných prostorech AIP (ENR 5.1) a v koridorech pro vrtulníky; před každým letem zkontrolujte NOTAM.",
       "S dronem vždy udržujte přímý vizuální dohled (VLOS), maximálně 457 m od operátora",
-      "Drony s hmotností 250 g nebo více: povinná registrace u AFAC (formulář dle přílohy K)",
+      "Drony nad 250 g: povinná registrace u AFAC před letem (formulář dle přílohy K)",
       "Drony lehčí než 250 g: vyňaty z registrace, ale platí všechna ostatní pravidla",
-      "Hmotnostní kategorie: Micro (≤2 kg), Light (2–25 kg), Heavy (>25 kg)",
+      "Hmotnostní kategorie: Micro (≤2 kg), Small (>2–25 kg), Large (>25 kg)",
+      "Rekreační drony nad 2 kg: smějí létat pouze v modelářských klubech schválených AFAC.",
       "Noční lety vyžadují zvláštní povolení od AFAC",
-      "Komerční využití vyžaduje další povolení v závislosti na hmotnostní kategorii"
+      "Soukromé nekomerční nebo komerční využití: platné pojištění občanskoprávní odpovědnosti je povinné; kategorie Micro (≤2 kg) navíc vyžaduje zvláštní povolení pro řízený vzdušný prostor; kategorie Small a Large vyžadují provozní povolení od AFAC."
     ],
     "importantNotes": [
-      "⚠️ ZAHRANIČNÍ PILOTI: NOM-107 zakazuje provoz dronů registrovaných v zahraničí nebo cizími státními příslušníky, pokud mezi Mexikem a zemí původu neexistuje bilaterální dohoda. Turisté: ověřte si to před cestou.",
-      "Za nelegální provoz hrozí pokuta až 80 000 MXN nebo trest odnětí svobody",
+      "ZAHRANIČNÍ PILOTI: NOM-107-SCT3-2019 zakazuje provoz dronů se zahraniční registrací nebo pilotovaných cizími státními příslušníky, pokud neexistuje dvoustranná dohoda mezi Mexikem a zemí původu — v současnosti není známo, že by taková dohoda byla v platnosti.",
+      "Aby bylo možné dovézt do Mexika drony Micro nad 250 g a drony Small, musí mít výrobce a model, sériové číslo, uživatelskou příručku a software, který automaticky omezuje vzdálenost a výšku (NOM-107, 10.1).",
+      "Nedodržení NOM-107 může AFAC sankcionovat podle Ley de Aviación Civil; použití dronů k páchání trestných činů (např. shazování výbušnin nebo útoky na lidi) se trestá odnětím svobody (Código Penal Federal, čl. 163 Bis–Quáter).",
       "Národní parky a archeologické lokality (INAH) obecně zakazují drony bez zvláštního povolení",
       "Mariny a pobřežní oblasti často podléhají omezením — ověřte si to u místních úřadů",
       "Vyřízení registrace u AFAC může trvat až 10 pracovních dnů — plánujte s předstihem"
@@ -37,16 +40,12 @@
       {
         "title": "NOM-107-SCT3-2019 — oficiální norma",
         "description": "Oficiální mexická norma stanovující požadavky na provoz systému dálkově řízeného letadla"
-      },
-      {
-        "title": "Oběžník CO AV-23/10 R4",
-        "description": "Závazný oběžník stanovující podrobné technické a provozní požadavky na drony"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "ASA — letiště a pomocné služby",
-        "description": "Informace o mexických federálních letištích pro ověření zakázaných oblastí"
+        "title": "AFAC — databáze letišť a heliportů",
+        "description": "Aktuální oficiální seznam letišť a heliportů pro ověření minimálních vzdáleností podle NOM-107"
       },
       {
         "title": "SICT — civilní letectví",
@@ -62,6 +61,6 @@
     "sectionLabelPrimary": "OFICIÁLNÍ ZDROJE",
     "sectionLabelSecondary": "DALŠÍ ZDROJE",
     "linksSheetTitle": "Vzdušný prostor a předpisy — Mexiko",
-    "dronePilotCredentialName": "Licence dálkově řídícího pilota"
+    "dronePilotCredentialName": "Oprávnění pilota RPAS"
   }
 }

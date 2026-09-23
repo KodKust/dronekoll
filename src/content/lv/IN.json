@@ -1,33 +1,36 @@
 {
   "meta": {
-    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "17cf8ce1211fdb6fb07c1979f47d5e58",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
-    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos DGCA un DigitalSky avotus. Šī lietotne ir rīks, nevis juridiska instance. Indijā visu dronu prasību izpildei obligāti jāizmanto digitālā platforma.",
+    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos DGCA (eGCA) un DigitalSky avotus. Šī lietotne ir rīks, nevis juridiska instance.",
     "sectionLabelRules": "GALVENIE NOTEIKUMI",
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",
     "linksSheetTitle": "Gaisa telpa un noteikumi — Indija",
     "dronePilotCredentialName": "Tālvadības pilota apliecība",
     "keyRules": [
-      "DigitalSky iedala gaisa telpu Green (tūlītēja automatizēta atļauja), Yellow (kontrolēta gaisa telpa, ~15-30 min automatizēta apstrāde — tajā ietilpst lidostas perimetra josla aptuveni 8-12 km attālumā) un Red (ierobežota, nepieciešams manuāls apstiprinājums) zonās — pirms lidošanas vienmēr pārbaudi DigitalSky, jo precīzas zonu robežas pie konkrētas lidostas var atšķirties no šī vispārīgā modeļa.",
+      "DigitalSky iedala gaisa telpu zaļajā (atļauja nav nepieciešama, līdz 120 m/400 ft), dzeltenajā (nepieciešama attiecīgās gaisa satiksmes vadības iestādes atļauja) un sarkanajā (tikai ar centrālās valdības atļauju) zonā. 8–12 km attālumā no darbojošās lidostas perimetra zaļā zona attiecas tikai līdz 60 m (200 ft); virs tā ir dzeltenā zona. Pirms lidošanas vienmēr pārbaudi DigitalSky karti.",
+      "Ja vien drons nav atbrīvots (Nano droni līdz 250 g vai modeļu droni līdz 25 kg, ko izmanto tikai izglītībai, pētniecībai vai atpūtai tiešās redzamības robežās), tam jāatbilst DGCA tipa sertifikātam. DGCA līdz turpmākam paziņojumam ir uz laiku apturējusi dronu bez tipa sertifikāta reģistrāciju (tieši DGCA var pieteikties tikai Indijā ražoti Nano un modeļu droni), un ar nereģistrētu dronu lidot nedrīkst.",
       "Apdrošināšana obligāta visām kategorijām, izņemot Nano",
-      "Tālvadības pilota apliecība (RPC) ir nepieciešama Micro (250g-2kg) un lielāku dronu komerciālai lietošanai un ir obligāta visiem Small kategorijas droniem (2-25 kg) un lielākiem neatkarīgi no lietošanas mērķa. Nano (<250g) RPC nav nepieciešama nekad, arī komerciālai lietošanai.",
+      "Tālvadības pilota apliecība (RPC) ir nepieciešama Micro (>250 g–2 kg) un lielāku dronu komerciālai lietošanai un ir obligāta visiem Small kategorijas droniem (2-25 kg) un lielākiem neatkarīgi no lietošanas mērķa. Nano (≤250 g) RPC nav nepieciešama nekad, arī komerciālai lietošanai.",
       "Katram lidojumam jānotiek tiešā redzamības laukā — dronam visu laiku jābūt saskatāmam ar neapbruņotu aci, bez binokļa vai līdzīgiem palīglīdzekļiem — ja vien DGCA nav piešķīrusi īpašu EVLOS/BVLOS atļauju.",
       "Lidošana Red zonās ir stingri aizliegta bez īpašas attiecīgās iestādes atļaujas, kas saņemta ar DigitalSky starpniecību."
     ],
     "importantNotes": [
-      "DigitalSky reģistrācija ir obligāta visiem droniem, izņemot Nano (<250g), kam nav nepieciešama ne reģistrācija, ne UIN. Lidojot ar nereģistrētu dronu, kuram reģistrācija ir obligāta, pastāv konfiskācijas risks.",
+      "Visi droni, arī Nano (≤250 g), pirms lidošanas jāreģistrē, un tiem jāsaņem UIN (DGCA eGCA portālā). Nano droni ir atbrīvoti tikai no tipa sertifikācijas, tālvadības pilota apliecības un trešo personu apdrošināšanas. Lidojot ar nereģistrētu dronu, draud sodi un drona konfiskācija.",
+      "Apmeklētāji: dronu ievešana Indijā ir aizliegta saskaņā ar DGFT Notification 54/2022 (visām svara klasēm, arī ≤250 g), izņemot ar DGFT atļauju valdības/pētniecības un izstrādes vai aizsardzības/drošības vajadzībām. Reģistrācijai nepieciešama Indijas pase vai Indijas valdības izdots personu apliecinošs dokuments un dzīvesvietas apliecinājums, tāpēc apmeklētāja dronu parasti nevar legāli reģistrēt un ar to lidot.",
       "Red zonas ietver lidostas, militārās teritorijas, robežas un īpaši aizsargājamas vietas.",
-      "Apdrošināšana ir obligāta Micro, Small un Medium kategorijas droniem"
+      "Apdrošināšana ir obligāta Micro, Small un Medium kategorijas droniem",
+      "Par jebkuru negadījumu, kurā iesaistīts tavs drons, 48 stundu laikā jāziņo DGCA."
     ],
     "primaryLinks": [
       {
         "title": "DigitalSky — DGCA platforma",
-        "description": "Obligāta platforma dronu reģistrācijai, lidojumu atļaujām un zonu pārbaudēm"
+        "description": "Obligāta platforma lidojumu atļaujām un zonu pārbaudēm"
       },
       {
         "title": "DGCA — Dronu noteikumi",

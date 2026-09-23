@@ -1,41 +1,43 @@
 {
   "meta": {
-    "sourceHash": "965aaa2f6c885d898cf7ee6ff9907d07afe1d10c3a57077ecae02dbc001de716",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ab41c1c6a873ddfc4cf87129700fea1004f13537f36d6d678dee51194176fb4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimālais lidojuma augstums: 120 metri (400 ft) virs zemes",
-      "Tavam bezpilota gaisa kuģim vienmēr jāpaliek redzamības laukā (VLOS)",
-      "Lidojumi tikai dienā — nakts lidojumiem nepieciešama atsevišķa atļauja",
-      "Vismaz 9 km no visām lidostām (tostarp Istanbul IST un Sabiha Gökçen SAW)",
-      "No citiem cilvēkiem jāsaglabā vismaz 50 metru horizontāls attālums",
-      "Visi bezpilota gaisa kuģi, kas sver vairāk par 500 g, jāreģistrē vietnē iha.shgm.gov.tr",
-      "Lidošana ir aizliegta vēsturiskās zonās (Hagia Sophia, Topkapı, Sultanahmet) un gar Bosphorus koridoru",
-      "Lidošana virs militārām zonām, valdības ēkām un pārpildītiem pasākumiem ir stingri aizliegta",
-      "Ārvalstu pilotiem, lai izmantotu bezpilota gaisa kuģus, kas sver vairāk par 500 g, jāiesniedz pieteikums pa diplomātiskajiem kanāliem",
-      "FPV lidojumi bez atsevišķas atļaujas ir aizliegti"
+      "Maksimālais lidojuma augstums ir 120 m (400 ft); P0/P1 lidojumos bezpilota gaisa kuģim jābūt tiešās redzamības robežās (VLOS), un tas nedrīkst attālināties no pilota vairāk par 3000 m. Lidot augstāk par 120 m var tikai ar P2 licenci un koordinējot ar attiecīgajām iestādēm.",
+      "Bezpilota gaisa kuģim vienmēr jābūt tavā redzamības laukā, tiešā vizuālā kontaktā bez optisku vai elektronisku ierīču palīdzības (SHT-İHA).",
+      "Amatieru (P0) lidojumus drīkst veikt tikai dienā; nakts darbības iespējamas ar P1 vai P2 licenci un piemērotu aprīkojumu (SHT-İHA 15. pants). Pārejas periodā (līdz 2027. gada 31. jūlijam) nakts lidojumiem saņem SHGM atļauju.",
+      "Pirms lidošanas lidostu tuvumā pārbaudi karti iha.shgm.gov.tr (vēlāk İHATTYS); lidojumiem visās vietās ārpus zaļajām zonām nepieciešama SHGM atļauja. Jaunajā SHT-İHA nav noteikts fiksēts attālums; kā drošs minimālais attālums ieteicams ievērot iepriekšējā direktīvā noteiktos 9 km (5 NM).",
+      "Lidošana virs pūļiem tiek uzskatīta par augsta riska darbību; tā nav pieejama P0 un P1 pilotiem, un to drīkst veikt tikai ar P2 licenci (SHT-İHA 6. pants). Jaunajā direktīvā nav noteikts fiksēts attālums; kā drošs minimums ieteicams ievērot vismaz 50 m attālumu no cilvēkiem un būvēm (iepriekšējās direktīvas vērtība).",
+      "Jaunā SHT-İHA (2026): izņemot rotaļlietu līmeņa vienkāršos bezpilota gaisa kuģus (Simple UAV), visiem bezpilota gaisa kuģu lietotājiem, arī ar ierīcēm, kas sver mazāk par 500 g, jāreģistrējas İHATTYS; esošajiem gaisa kuģiem termiņš ir 2027. gada 31. jūlijs. Līdz İHATTYS darbības sākumam bezpilota gaisa kuģus no 500 g reģistrē iha.shgm.gov.tr.",
+      "Saskaņā ar jauno SHT-İHA lidošanas tiesības ir saistītas ar pilota licenci: amatieru P0 (minimālais vecums 10 gadi), komerciālā P1 (18 gadi), padziļinātā P2; vienkāršajiem bezpilota gaisa kuģiem (Simple UAV) licence nav nepieciešama. Pārejas periodā (līdz 2027. gada 31. jūlijam) esošie İHA0/İHA1 sertifikāti un İHA2/İHA3 licences paliek spēkā un pielāgošanas kārtībā tiek pārveidoti par P0/P1/P2.",
+      "Attālinātā identifikācija (Remote ID) un ģeožogs (geofencing) ir obligāti bezpilota gaisa kuģiem, kas nav vienkāršie bezpilota gaisa kuģi (Simple UAV); tu esi atbildīgs par aktuālo ierobežoto zonu datu ielādi savā bezpilota gaisa kuģī (SHT-İHA 12., 23. pants; pāreja esošajiem bezpilota gaisa kuģiem līdz 2027. gada 31. jūlijam).",
+      "Pirms lidošanas Stambulas vēsturiskajā pussalā (Hagia Sophia, Topkapı, Sultanahmet) un Bosfora apkārtnē pārbaudi karti iha.shgm.gov.tr; lidojumiem visās vietās ārpus zaļajām zonām nepieciešama SHGM atļauja, un sarkanajās zonās atļauju piešķir tikai ar tās iestādes apstiprinājumu, kas slēgusi teritoriju.",
+      "Lidošana virs militārām zonām un valdības ēkām ir stingri aizliegta; lidošanai virs blīvi apdzīvotām teritorijām nepieciešama iepriekšēja SHGM atļauja.",
+      "Ārvalstu pilotiem, kas izmanto bezpilota gaisa kuģus, kuri sver 500 gramus vai vairāk, vismaz 20 darbdienas iepriekš pa diplomātiskajiem kanāliem jāiesniedz pieteikums, izmantojot veidlapu FR.23 \"İHA Uçuş İzin Talep Formu\" (UAV Flight Permit Request Form).",
+      "FPV lidojumos jābūt klāt novērotājam, kurš nepārtraukti uztur vizuālu kontaktu ar bezpilota gaisa kuģi, un starp pilotu un novērotāju jāuztur nepārtraukta saziņa; FPV aprīkojumam jādarbojas BTK atļautās frekvencēs (SHGM BUJ). Jaunā SHT-İHA definē tiešo redzamību (VLOS) kā tiešu vizuālu kontaktu bez optisku/elektronisku ierīču palīdzības — pirms FPV lidojumiem konsultējies ar SHGM."
     ],
     "importantNotes": [
-      "⚠️ ĀRVALSTU PILOTI: Lai Turcijā lidotu ar dronu, kas sver vairāk par 500 gramiem, tev vismaz 20 darbdienas pirms lidojuma pa diplomātiskajiem kanāliem jāiesniedz pieteikums iestādei General Directorate of Civil Aviation (SHGM), jāiegādājas apdrošināšana un jālido Turcijas pilsoņa ar İHA-2 licenci uzraudzībā. Droni, kas sver mazāk par 500 g (piemēram, DJI Mini, Flip u. c.), no šīm prasībām ir atbrīvoti.",
-      "🗺️ ZONU SISTĒMA: Turcija ir sadalīta zaļajās (atvērtajās), dzeltenajās (nepieciešama atļauja) un sarkanajās (aizliegtajās) zonās. Pirms lidojuma noteikti pārbaudi zonas statusu vietnē iha.shgm.gov.tr.",
-      "🏛️ VĒSTURISKĀS UN TŪRISMA VIETAS: Bez īpašas atļaujas no Ministry of Culture and Tourism ir aizliegts lidot virs Historic Peninsula of Istanbul (Sultanahmet, Hagia Sophia, Topkapı, Grand Bazaar), noteiktām ielejām Cappadocia teritorijā, Pamukkale, Ephesus un citām arheoloģiskām vietām.",
-      "🛂 IMPORTS UN MUITA: Ja iebrauc Turcijā ar droniem, kas sver vairāk par 500 g, tev tie var būt jādeklarē muitā. Importam komerciāliem nolūkiem nepieciešams atsevišķs process; Bosphorus teritorijā, militārajās ostās un pierobežas reģionos ir papildu ierobežojumi."
+      "🛂 ĀRVALSTU PILOTI — JAUNĀ SHT-İHA (2026. gada 30. jūlijs): no ārzemēm ievestajiem bezpilota gaisa kuģiem jābūt SHGM atbilstības programmatūras modulim; bez moduļa gaisa kuģi Turcijā nevar reģistrēt un ar to nevar lidot. Ārvalstīs reģistrētiem bezpilota gaisa kuģiem jābūt saderīgiem ar İHATTYS; ārvalstu licences izvērtē SHGM, un P1/P2 izsniedz pēc atšķirību apmācības. Bezpilota gaisa kuģiem, kas iegādāti pirms 2026. gada 30. jūlija, atbilstības periods ilgst līdz 2027. gada 31. jūlijam. Līdz İHATTYS darbības sākumam pieteikumus par bezpilota gaisa kuģiem no 500 g iesniedz SHGM ar veidlapu FR.23 pa diplomātiskajiem kanāliem vismaz 20 darbdienas iepriekš.",
+      "🗺️ ZONU SISTĒMA: saskaņā ar jauno SHT-İHA (2026. gada 30. jūlijs) zonas İHATTYS kartē tiks publicētas kā zaļās (atļauja nav nepieciešama), sarkanās (slēgusi attiecīgā iestāde; tikai ar šīs iestādes apstiprinājumu, SHGM atļauju un NOTAM) un oranžās (piešķirtas citiem). Līdz İHATTYS darbības sākumam izmanto iha.shgm.gov.tr karti (zaļā/dzeltenā/sarkanā). Abās sistēmās lidojumiem visās vietās ārpus zaļajām zonām nepieciešama SHGM atļauja. Pirms lidošanas vienmēr pārbaudi karti.",
+      "🏛️ VĒSTURISKĀS UN TŪRISMA VIETAS: video/filmu/foto uzņemšanai muzejos un muzejiem piesaistītās vietās nepieciešama Kultūras un tūrisma ministrijas atļauja; bezpilota gaisa kuģu lidojumu ierobežojumus pārbaudi arī kartē iha.shgm.gov.tr.",
+      "🛂 NO ĀRZEMĒM IEVESTI BEZPILOTA GAISA KUĢI: bezpilota gaisa kuģi no 500 g jāreģistrē iha.shgm.gov.tr ne vēlāk kā 3 dienu laikā pēc ievešanas Turcijā (Likums Nr. 2920, 144. pants). Ārvalstniekiem reģistrācijai sporta/amatieru lietošanai nepieciešams Turcijas personas kods vai uzturēšanās atļauja. Ieceļojot muitā var būt jāiesniedz deklarācija; ievešanai komerciālos nolūkos ir atsevišķs process. Uz militārajām ostām un pierobežas reģioniem attiecas papildu ierobežojumi."
     ],
     "primaryLinks": [
       {
-        "title": "SHGM — Bezpilota gaisa kuģi (oficiālā vietne)",
-        "description": "Civilās aviācijas ģenerāldirektorāta oficiālā bezpilota gaisa kuģu lapa: SHT-UAV direktīva, svara klases (UAV-0/1/2/3) un ekspluatācijas noteikumi"
+        "title": "SHGM — İHA Takip / İHATTYS (oficiālais portāls)",
+        "description": "Civilās aviācijas ģenerāldirektorāta oficiālais bezpilota gaisa kuģu portāls (İHATTYS). Kamēr SHGM nav paziņojis par sistēmas darbības sākumu, reģistrācijas un lidojumu atļauju procedūras notiek ar līdzšinējām metodēm (iha.shgm.gov.tr un SHGM veidlapas)."
       },
       {
-        "title": "Bezpilota gaisa kuģu reģistrācijas sistēma (nepieciešama droniem no 500 g)",
-        "description": "Obligātais reģistrācijas portāls visiem droniem, kas sver vairāk par 500 gramiem. Nepieciešams Turcijas ID numurs; ārvalstniekiem piemērojama veidlapa FR-03"
+        "title": "Bezpilota gaisa kuģu reģistrācijas sistēma (obligāta virs 500 g)",
+        "description": "Obligāts reģistrācijas portāls visiem droniem, kas sver vairāk par 500 gramiem. Nepieciešams Turcijas personas kods; ārvalstniekiem piemēro veidlapu FR-03"
       },
       {
-        "title": "Bezpilota gaisa kuģu pilota reģistrācijas pieteikums (e-pārvalde)",
-        "description": "Oficiāls pakalpojums caur e-pārvaldi pilota reģistrācijas pieteikumiem UAV-1 un augstākai klasei. Komerciālai darbībai nepieciešama pilota licence."
+        "title": "Bezpilota gaisa kuģa pilota reģistrācijas pieteikums (e-Devlet)",
+        "description": "Oficiāls pakalpojums e-Devlet (e-pārvaldes) sistēmā pilotu reģistrācijas pieteikumiem İHA-1 un augstākām kategorijām. Komerciālām darbībām nepieciešama pilota licence."
       },
       {
         "title": "Lidojuma atļaujas pieprasījums (dzeltenās/sarkanās zonas)",
@@ -44,23 +46,27 @@
     ],
     "secondaryLinks": [
       {
-        "title": "Bezpilota gaisa kuģu izsekošana — oficiālā mobilā lietotne (Android)",
-        "description": "SHGM oficiālā bezpilota gaisa kuģu izsekošanas lietotne: gaisa telpas zonas, lidojumu atļaujas un pilota licences pārvaldība"
+        "title": "İHA Takip — Oficiālā mobilā lietotne (Android)",
+        "description": "SHGM oficiālā İHA Takip / İHATTYS lietotne. Kamēr SHGM nav paziņojis par İHATTYS darbības sākumu, reģistrācijas un lidojumu atļauju procedūras notiek ar līdzšinējām metodēm (iha.shgm.gov.tr un SHGM veidlapas)."
+      },
+      {
+        "title": "İHATTYS — Oficiālā mobilā lietotne (iOS)",
+        "description": "SHGM oficiālās İHATTYS lietotnes iOS versija; lietotnē veiktās darbības nav derīgas, kamēr SHGM nav sniedzis attiecīgu paziņojumu"
       },
       {
         "title": "SHGM — Iestādes sākumlapa",
         "description": "Civilās aviācijas ģenerāldirektorāta sākumlapa: visi aviācijas noteikumi, paziņojumi un kontaktinformācija"
       },
       {
-        "title": "SHT-UAV direktīva (regulējuma teksts)",
-        "description": "Civilās aviācijas direktīva — bezpilota gaisa kuģi (SHT-UAV): oficiālā direktīva, kas ir juridiskais pamats visai darbībai"
+        "title": "SHT-İHA Directive 2026 (normatīvā akta teksts, PDF)",
+        "description": "Unmanned Aircraft Systems Directive (SHT-İHA), spēkā no 2026. gada 30. jūlija: oficiālais direktīvas teksts, kas ir juridiskais pamats visām bezpilota gaisa kuģu darbībām"
       }
     ],
-    "disclaimerText": "Pirms lidošanas noteikti iepazīsties ar SHGM oficiālajiem avotiem. Šī lietotne ir rīks, nevis juridiska instance. Bezpilota gaisa kuģu darbību Turcijā regulē SHT-UAV Directive; visas ierīces, kas sver 500 g vai vairāk, jāreģistrē SHGM reģistrācijas sistēmā (iha.shgm.gov.tr).",
+    "disclaimerText": "Pirms lidošanas noteikti iepazīsties ar SHGM oficiālajiem avotiem. Šī lietotne ir rīks, nevis juridiska instance. Turcijā bezpilota gaisa kuģu darbības regulē jaunā SHT-İHA (Unmanned Aircraft Systems Directive), kas ir spēkā no 2026. gada 30. jūlija; pārejas periods ilgst līdz 2027. gada 31. jūlijam. Visas ierīces, kas sver vairāk par 500 g, jāreģistrē SHGM reģistrācijas sistēmā (iha.shgm.gov.tr).",
     "sectionLabelRules": "PAMATNOTEIKUMI",
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",
     "linksSheetTitle": "Gaisa telpa un noteikumi — Turcija",
-    "dronePilotCredentialName": "Bezpilota gaisa kuģa pilota licence"
+    "dronePilotCredentialName": "Bezpilota gaisa kuģa pilota licence (P0/P1/P2)"
   }
 }

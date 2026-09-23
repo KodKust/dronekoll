@@ -1,63 +1,67 @@
 {
- "meta": {
-  "sourceHash": "000b9bfb30fd5dc95150d4d75572729ea894e9cb117bc556495e8105d1de0bf6",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Maximum 120 m deasupra nivelului solului (categoria EASA Open)",
-   "Înregistrare prin portalul D-Flight: abonament Base 7 €/an (PRO 28 €/an) + cod QR obligatoriu pe fiecare dronă (Base 7 €/UAS; primul este inclus în abonamentul inițial)",
-   "Instruire online A1/A3 obligatorie — vârsta minimă: 16 ani",
-   "Asigurare de răspundere civilă obligatorie — minimum 750.000 DST (drepturi speciale de tragere)",
-   "Roma și Vatican: zone întinse de interdicție de zbor",
-   "Menține întotdeauna drona în raza vizuală directă (VLOS)",
-   "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
-   "Distanță minimă de 5 km față de orice aeroport sau aerodrom",
-   "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
-   "Siturile istorice și zonele arheologice pot fi supuse unor restricții suplimentare"
-  ],
-  "importantNotes": [
-   "Abonament D-Flight: Base 7 €/an (PRO 28 €/an pentru categoria specifică). Primul cod QR Base este inclus în activarea inițială; codurile QR Base suplimentare costă 7 € per UAS (PRO 112 € per UAS).",
-   "Asigurare obligatorie cu o acoperire minimă de 750.000 DST (drepturi speciale de tragere)",
-   "Roma/Vaticanul are unul dintre cele mai restrictive spații aeriene pentru drone din Europa",
-   "Amenzi de până la 100.000 € pentru încălcări grave",
-   "GDPR se aplică atunci când sunt surprinse imagini cu persoane identificabile"
-  ],
-  "primaryLinks": [
-   {
-    "title": "ENAC — reglementări privind dronele",
-    "description": "Reguli și resurse oficiale ale Autorității italiene a aviației civile privind dronele"
-   },
-   {
-    "title": "D-Flight — înregistrează-te și zboară",
-    "description": "Portal de înregistrare și hartă a spațiului aerian (abonament necesar de 6 €/lună)"
-   },
-   {
-    "title": "D-Flight — harta spațiului aerian",
-    "description": "Harta oficială interactivă care arată zonele de spațiu aerian pentru drone și restricțiile"
-   },
-   {
-    "title": "ENAC — reglementări UAS",
-    "description": "Detalii despre reglementările italiene privind UAS și modificările naționale ale regulilor EASA"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "ENAV — NOTAM",
-    "description": "NOTAM-uri active și restricții temporare de spațiu aerian"
-   },
-   {
-    "title": "ENAC — întrebări frecvente despre drone",
-    "description": "Întrebări frecvente despre reglementările privind dronele în Italia"
-   }
-  ],
-  "disclaimerText": "Consultă întotdeauna sursele oficiale ale ENAC și D-Flight înainte de zbor. Această aplicație este un instrument, nu o autoritate juridică. Italia aplică reglementările EASA, cu adăugiri naționale.",
-  "sectionLabelRules": "REGULI DE BAZĂ (CATEGORIA EASA OPEN)",
-  "sectionLabelPrimary": "SURSE OFICIALE",
-  "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
-  "linksSheetTitle": "Spațiu aerian și reglementări — Italia",
-  "dronePilotCredentialName": "Licență de dronă"
- }
+  "meta": {
+    "sourceHash": "49588a835cca5391d11c172e7550ef7ac8f76a3c7fe6c69b2398693532352902",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "În categoria deschisă, înălțimea maximă este de 120 m, măsurată ca distanța față de cel mai apropiat punct al suprafeței Pământului — nu pur și simplu pe verticală în jos, așa că în apropierea unei pante poate conta și terenul de lângă tine. La mai puțin de 50 m de un obstacol artificial înalt (peste 105 m), entitatea responsabilă de obstacol poate solicita autorizarea de a zbura până la 15 m deasupra înălțimii obstacolului.",
+      "Înregistrare în Italia prin portalul D-Flight (cu excepția scutirilor enumerate mai jos): abonament Base 7 €/an (PRO 28 €/an) + cod QR obligatoriu pe fiecare dronă (Base 7 €/UAS; primul este inclus în abonamentul inițial)",
+      "Scutiri: dronele-jucărie (Directiva 2009/48/CE) nu necesită înregistrare, certificat sau asigurare; dronele sub 250 g fără cameră sau microfon nu necesită înregistrare.",
+      "Piloți străini: înregistrarea operatorului este valabilă în toate țările UE și în Elveția. Dacă ești deja înregistrat în propria țară din UE, nu trebuie să te înregistrezi pe D-Flight: este suficient să afișezi numărul de operator pe dronă. Rezidenții din afara UE (inclusiv din Regatul Unit) se înregistrează în prima țară din UE pe care intenționează să o viziteze.",
+      "În Italia, vârsta minimă pentru a zbura în A1/A3 este de 16 ani; minorii (cu vârsta de 16-17 ani) au nevoie de acordul unui părinte sau tutore legal pentru a se înregistra pe portalul ENAC. Certificatul online (40 de întrebări) este valabil 5 ani.",
+      "Asigurarea de răspundere civilă față de terți este obligatorie pentru toate dronele (inclusiv sub 250 g și pentru uz recreativ), cu excepția dronelor-jucărie (Dir. 2009/48/CE) — acoperire minimă 750.000 SDR, conform art. 27 din Regolamento UAS-IT și art. 1015 din Codice della Navigazione.",
+      "Roma și Vatican: zone întinse de interdicție de zbor",
+      "În categoria deschisă trebuie să menții drona în câmpul tău vizual direct, cu ochiul liber (ochelarii/lentilele de contact sunt permise; binoclul sau un ecran nu contează) — sau să zbori cu ajutorul unui observator, menținând în permanență o comunicare clară și eficientă între voi, astfel încât să supravegheați împreună spațiul aerian și să evitați coliziunile. Modul „Follow-me” este o excepție separată, permisă până la 50 m de pilot.",
+      "Nu zbura deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultă tabelul oficial.",
+      "Nu există o distanță unică față de aeroporturi: zonele geografice ale aerodromurilor (Circulara ENAC ATM-09A) sunt publicate pe D-Flight. În categoria deschisă, zborul este interzis în interiorul acestor zone, care încep la înălțimi diferite în funcție de culoare (roșu 0 m, portocaliu 25 m, galben 45 m); în restul ATZ-urilor și CTR-urilor zona începe de regulă la 60 m. Sub aceste înălțimi poți zbura fără rezervarea spațiului aerian; pentru a zbura în interiorul zonelor ai nevoie de categoria specifică, cu autorizare de la ENAC sau de la Aeronautica Militare.",
+      "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o regulă națională sau o regulă pentru o anumită zonă geografică impune condiții mai stricte.",
+      "Siturile istorice și zonele arheologice pot fi supuse unor restricții suplimentare",
+      "Parcuri naturale: zborul deasupra lor este interzis acolo unde interdicția aprobată de ENAC este publicată pe D-Flight; pentru a zbura acolo ai nevoie de autorizarea administrației parcului (Ente Parco).",
+      "Drone cu marca de clasă C1, C2 sau C3: identificarea directă la distanță și geo-awareness trebuie să fie active și actualizate."
+    ],
+    "importantNotes": [
+      "Abonament D-Flight: Base 7 €/an (PRO 28 €/an pentru categoria specifică). Primul cod QR Base este inclus în activarea inițială; codurile QR Base suplimentare costă 7 € per UAS (PRO 112 € per UAS).",
+      "Asigurare obligatorie cu o acoperire minimă de 750.000 DST (drepturi speciale de tragere)",
+      "Roma: centrul orașului este o zonă de interdicție a zborului din motive de securitate, unde survolul este interzis tuturor aeronavelor, inclusiv dronelor; orice derogări necesită și autorizarea Prefettura di Roma. Verifică întotdeauna D-Flight.",
+      "Amenzi de până la 100.000 € pentru încălcări grave",
+      "GDPR se aplică atunci când sunt surprinse imagini cu persoane identificabile"
+    ],
+    "primaryLinks": [
+      {
+        "title": "ENAC — reglementări privind dronele",
+        "description": "Reguli și resurse oficiale ale Autorității italiene a aviației civile privind dronele"
+      },
+      {
+        "title": "D-Flight — înregistrează-te și zboară",
+        "description": "Portal de înregistrare a operatorilor și hartă a spațiului aerian (hărți cu un cont gratuit; înregistrarea operatorului cu un abonament Base de 7 €/an)"
+      },
+      {
+        "title": "D-Flight — harta spațiului aerian",
+        "description": "Harta oficială interactivă care arată zonele de spațiu aerian pentru drone și restricțiile"
+      },
+      {
+        "title": "ENAC — reglementări UAS",
+        "description": "Detalii despre reglementările italiene privind UAS și completările naționale la regulile EASA"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "ENAV — NOTAM",
+        "description": "Furnizorul italian de servicii de navigație aeriană; accesul la NOTAM-uri (Self Briefing) necesită semnarea unei Operation Letter"
+      },
+      {
+        "title": "ENAC — întrebări frecvente despre drone",
+        "description": "Întrebări frecvente despre reglementările privind dronele în Italia"
+      }
+    ],
+    "disclaimerText": "Consultă întotdeauna sursele oficiale ale ENAC și D-Flight înainte de zbor. Această aplicație este un instrument, nu o autoritate juridică. Italia aplică reglementările EASA, cu adăugiri naționale.",
+    "sectionLabelRules": "REGULI DE BAZĂ (CATEGORIA EASA OPEN)",
+    "sectionLabelPrimary": "SURSE OFICIALE",
+    "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
+    "linksSheetTitle": "Spațiu aerian și reglementări — Italia",
+    "dronePilotCredentialName": "Licență de dronă"
+  }
 }

@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (asustamata alad, harrastuslend): kuni 750 g kaaluvad droonid võivad eravaldusel ilma loata lennata kuni 50 m kõrgeimast takistusest kõrgemal",
-      "DAN 151 (asustatud alad / professionaalne kasutus): üle 750 g kaaluvate droonide puhul on vaja DGAC-i registreeringut, piloodilitsentsi ja käitamisluba",
-      "Suurim lubatud lennukõrgus: 130 m AGL (DAN 151) — sõltub loast",
-      "Vähemalt 2 km kaugusel lennujaamadest ja lennuväljadest",
+      "DAN 91.102(j): ilma DGAC-i loata tohivad lennata ainult kuni 750 g droonid, mis on valmistatud vahtpolüetüleenist või samaväärsest materjalist, era- või harrastuskasutuseks, eravaldustes ja mitte kõrgemal kui 50 m kõrgeimast takistusest või hoonest. Iga muu lend nõuab DGAC-i eelluba.",
+      "DAN 151 (asustatud alad, avalik huvi või lennutööd): kehtib igas kaalus droonidele (max 9 kg) ning nõuab DGAC-i registreeringut, kaugpiloodi tunnistust, kindlustust, AOC-d või CEO-d ja käitamisluba.",
+      "DAN 151: droonil peab käitamise ajal olema hädalangevari ja seda peab saama käsitsi juhtida (max 9 kg ilma langevarjuta).",
+      "Üldine piirang on 400 jalga (120 m) maapinnast (AGL) — sellest kõrgemal lendamiseks on vaja DGAC-i eelluba (DAN 151 Ed. 3, kehtib alates 2024. aasta maist). Kehtiv DAN 91 väljendab sama piirangut kujul „400 jalga (130 meetrit)”.",
+      "Lendamine on keelatud lennuvälja raja pikendatud telgjoonest kuni 2 km kaugusel (mõõdetuna rajalävest) ning raja telgjoonega paralleelselt kuni 1 km kaugusel.",
+      "Droonioperatsioonid on keelatud aladel, kus tulekahju kustutatakse mehitatud õhusõidukitega (DAN 91.102(i)(11) ja DAN 151.103(g)(14)).",
       "Maksimaalselt 500 m operaatorist (hoia drooni palja silmaga nähtavana)",
-      "Hoia droon alati otsenähtavuse piires (VLOS)",
+      "Pead droonil kogu aeg otsest silmsidet hoidma, et selle lendu juhtida.",
       "Öölennud nõuavad DGAC-i eriluba",
-      "DGAC-i registreerimine: mark, mudel, seerianumber, lubatud kasutuse maksimaalne kaal ≤9 kg, 10×15 cm foto",
-      "Piloodilitsentsi saamiseks tuleb sooritada kirjalik eksam (miinimumtulemus 75%) teemadel DAN 151, DAN 91, meteoroloogia ja aerodünaamika",
+      "DGAC-i registreerimine (DAN 151.203): tootja/riik, mark, mudel, seerianumber ja tehasekaal koos isikutunnistuse koopiaga; taotlus esitatakse DGAC-i veebiplatvormil (alates 2026. aasta augustist). Maksimaalne stardimass 9 kg.",
+      "Kaugpiloodi tunnistus: vähemalt 18-aastane, koolitusdeklaratsioon ja kirjalik eksam (miinimum 75%) teemadel DAN 151, DAN 91, NOTAM, meteoroloogia ja aerodünaamika; kehtib 36 kuud.",
       "Professionaalseks kasutuseks on nõutav kolmanda isiku vastutuskindlustus (JAC-i heaks kiidetud)"
     ],
     "importantNotes": [
-      "📋 KAHEOSALINE REGULATIIVNE RAAMISTIK — DAN 91 vs. DAN 151: Tšiilis eristatakse lendamist ASUSTAMATA aladel (DAN 91, leebem; harrastuslennud ≤750 g ilma loata) ning ASUSTATUD aladel või avaliku huvi aladel (DAN 151, mille puhul on vaja registreeringut, sertifitseeritud pilooti ja kindlustust). Kohaldatavad reeglid sõltuvad NII asukohast KUI KA eesmärgist.",
-      "✈️ VÄLISTURISTID: Reeglid kehtivad võrdselt ka mitteresidentidele. Harrastuslikeks droonilendudeks kuni 750 g kaaluvate droonidega asustamata eravaldusel registreerimist ei nõuta. Muude operatsioonide jaoks (turism, professionaalne kasutus, inimeste läheduses, parkides) on nõutavad samad load nagu Tšiili kodanikelegi.",
-      "🌋 RAHVUSPARGID JA RESERVAADID: CONAF (National Forestry Corporation) keelab ilma eriloata droonide kasutamise sellistes parkides nagu Torres del Paine, Lauca ja Isluga Volcano National Park. Chilean Antarctica: INACH-i erieeskirjad. Enne reisi kontrolli iga pargi või reservaadi nõudeid.",
-      "🏔️ PIIRANGUALAD: Santiago kesklinn (La Moneda, Plaza de Armas), SCEL Airport (Pudahuel), sõjaväe- ja piirialad. Easter Island, Robinson Crusoe Island, Antarctica: täiendavad piirangud. Keelatud, piiratud ja ohualade kaarti vaata dokumendist AIP Chile (ENR 5.1).",
-      "💰 IGA-AASTANE UUENDAMINE: DGAC-i registreering kehtib 12 kuud ja seda tuleb igal aastal uuendada. Kehtiva registreeringu või tunnistuseta käitamine võib tuua kaasa trahvi, seadmete konfiskeerimise ja käitamiskeelu."
+      "KAHEOSALINE REGULEERIV RAAMISTIK — DAN 91 (asustamata alad): iga lend nõuab DGAC-i eelluba, juhtumipõhiselt (lisa D). DAN 151 (asustatud alad, avalik huvi või lennutööd): registreering, tunnistus, kindlustus ja luba. Ainus erand: ≤750 g droonid, mis on valmistatud vahtpolüetüleenist või samaväärsest materjalist, harrastuskasutus, eravaldustes ja ≤50 m kõrgeimast takistusest kõrgemal.",
+      "✈️ VÄLISTURISTID: reeglid kehtivad võrdselt mitteresidentidele. Ilma DGAC-i loata on lubatud ainult ≤750 g droonid, mis on valmistatud vahtpolüetüleenist või samaväärsest materjalist, harrastuskasutuseks, eravaldustes ja ≤50 m kõrgeimast takistusest kõrgemal. Iga muu lend nõuab DGAC-i eelluba; DGAC-i registreerimiseks on vaja isikutunnistuse koopiat.",
+      "🌋 KAITSEALAD: droonide harrastus- või turismikasutus ei ole lubatud üheski riiklikus looduskaitsealas (State Protected Wild Area: rahvuspargid, reservaadid, loodusmälestised). CONAF lubab lende ainult põhjendatud juhtudel (teadusuuringud, seire või muud haldamiseesmärgid) aadressil conaf.cerofilas.gob.cl ning siis on vaja ka DGAC-i luba. Antarktika: INACH-i erieeskirjad.",
+      "🏔️ PIIRANGUALAD: ära lenda La Moneda (tsoon SC-P28), sõjaväerajatiste, vanglate ja strateegiliste rajatiste kohal ega AIP Chile (ENR 5.1) või NOTAM-ide keelu-, piirangu- või ohualadel.",
+      "💰 KEHTIVUSAJAD: kaugpiloodi tunnistus kehtib 36 kuud ja seda pikendatakse uue eksamiga (min 75%); DAN 151 käitamisluba kehtib kuni 6 kuud. DGAC-i määruste rikkumine võib kaasa tuua trahvid, operatsioonide peatamise, seadmete konfiskeerimise või lennuohutuse ohustamise korral kriminaalvastutuse."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Tšiili ametlik lennundusteabe süsteem: NOTAM-id, keelatud/piiranguga/ohtlikud alad (ENR 5), kaardid, lennuväljad"
       },
       {
-        "title": "RPA registreerimise kord (ametlik PDF)",
-        "description": "DGAC-i ametlik kord droonide (RPA) uueks registreerimiseks ja seadustamiseks. Sisaldab lisa B ja vorme"
+        "title": "Drooni (RPA) registreerimine — DGAC-i uus platvorm",
+        "description": "Veebipõhine registreerimine riiklikus RPA-registris DAN 151 alusel. Registreering iseenesest ei ole lennuluba."
       }
     ],
     "secondaryLinks": [

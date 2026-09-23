@@ -1,63 +1,67 @@
 {
- "meta": {
-  "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Maximum 120 m deasupra nivelului solului (categoria EASA Open)",
-   "Înregistrare ca operator UAS (gratuită) pentru dronele cu o greutate de 250 g sau mai mult ori echipate cu o cameră",
-   "Instruire online A1/A3 necesară — vârsta minimă 16 ani",
-   "Zborurile în CTR-ul și ATZ-ul aeroporturilor sunt permise doar după coordonarea cu controlul traficului aerian sau cu operatorul aeroportului",
-   "Zborul deasupra autostrăzilor și a drumurilor principale este restricționat — evită-le",
-   "Menține întotdeauna contactul vizual direct (VLOS) cu drona",
-   "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
-   "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
-   "Amenzi de până la 5.000.000 CZK (≈ 185.000 €) pentru încălcări",
-   "Castelul Praga și clădirile guvernamentale: zone de interdicție strictă de zbor"
-  ],
-  "importantNotes": [
-   "Zborurile în CTR-urile și ATZ-urile aeroporturilor necesită coordonare cu controlul traficului aerian sau cu operatorul aeroportului",
-   "Zborul deasupra autostrăzilor și a drumurilor principale este limitat în Cehia — planifică-ți ruta pentru a le evita",
-   "Amenzi de până la 5.000.000 CZK (≈ 185.000 €)",
-   "Zona Castelului Praga are restricții stricte de interdicție de zbor",
-   "GDPR se aplică surprinderii de imagini cu persoane identificabile"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAA — reglementări privind dronele",
-    "description": "Regulile și resursele oficiale ale Autorității Aviației Civile privind dronele"
-   },
-   {
-    "title": "CAA — înregistrarea operatorului",
-    "description": "Înregistrare gratuită ca operator UAS (valabilă în toate țările UE/EASA)"
-   },
-   {
-    "title": "Dronemap.gov.cz — harta spațiului aerian",
-    "description": "Harta oficială interactivă care arată zonele pentru drone și restricțiile de spațiu aerian"
-   },
-   {
-    "title": "CAA — prezentare generală a regulilor",
-    "description": "Prezentare generală a regulilor pentru zborul cu drone în Cehia"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Controlul traficului aerian — NOTAM și spațiu aerian",
-    "description": "Controlul traficului aerian ceh și informații despre spațiul aerian"
-   },
-   {
-    "title": "CAA — întrebări frecvente despre drone",
-    "description": "Întrebări frecvente despre reglementările privind dronele în Cehia"
-   }
-  ],
-  "disclaimerText": "Înainte de zbor, verifică întotdeauna sursele oficiale ale Autorității Aviației Civile (ÚCL) și Dronemap.gov.cz. Această aplicație este un instrument — nu o autoritate juridică. Cehia respectă reglementările EASA, cu adăugiri naționale.",
-  "sectionLabelRules": "REGULI ESENȚIALE (CATEGORIA EASA OPEN)",
-  "sectionLabelPrimary": "SURSE OFICIALE",
-  "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
-  "linksSheetTitle": "Spațiu aerian și reglementări — Cehia",
-  "dronePilotCredentialName": "Licență de pilot de dronă"
- }
+  "meta": {
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "În categoria Open, înălțimea maximă este de 120 m, măsurată ca distanța până la cel mai apropiat punct de pe suprafața Pământului — nu pur și simplu pe verticală, așa că lângă o pantă poate conta și terenul de lângă tine. Pe o rază de 50 m de un obstacol artificial înalt (peste 105 m), entitatea responsabilă de acel obstacol poate solicita permisiunea de a zbura până la 15 m deasupra înălțimii obstacolului.",
+      "Trebuie să te înregistrezi ca operator de drone dacă drona ta cântărește 250 g sau mai mult (sau ar putea transfera peste 80 J de energie cinetică la impact) — acest lucru se aplică și jucăriilor. Sub 250 g, înregistrarea este totuși obligatorie dacă drona are un senzor capabil să capteze date cu caracter personal, cu excepția cazului în care este considerată jucărie conform Directivei UE privind siguranța jucăriilor. Cerințele de instruire/licență de pilot sunt separate și depind de clasa și subcategoria dronei.",
+      "Vârsta minimă pentru a zbura independent în categoria Open este de 16 ani — instruirea și examenul online A1/A3 sunt valabile 5 ani și recunoscute în toată UE. Fără limită de vârstă: o dronă din clasa C0 care este jucărie, în subcategoria A1, sau o dronă construită în regim privat sub 250 g; în rest, piloții mai tineri doar sub supravegherea directă a unui pilot care îndeplinește cerințele de vârstă și instruire.",
+      "Turiști: înregistrarea ca operator și un certificat A1/A3 dintr-o altă țară UE/EASA sunt valabile și în Republica Cehă (te poți înregistra într-o singură țară). Din afara UE: înregistrează-te în prima țară UE/EASA în care vei zbura (în Republica Cehă la ÚCL, pe dron.caa.gov.cz), iar dacă drona ta necesită instruire, finalizează instruirea conform regulilor UE – certificatele din țări din afara UE nu sunt recunoscute.",
+      "Asigurarea de răspundere civilă este obligatorie în Republica Cehă în subcategoria A2 și în A3 pentru dronele de peste 4 kg (nu în A1) — verifică dacă polița ta acoperă zborurile în Republica Cehă.",
+      "În CTR-urile și ATZ-urile aeroporturilor poți zbura fără coordonare doar până la înălțimea stabilită de grilă (verifică în DroneMap). Mai sus doar după coordonarea cu ŘLP și cu zborul marcat în DroneMap; în zona interioară a unui CTR, zborul trebuie întotdeauna marcat în DroneMap, iar peste înălțimea grilei este necesară și coordonarea cu operatorul aeroportului. La aeroporturile militare (MCTR) se aplică condiții mai stricte. La aeroporturile necontrolate, peste înălțimea grilei doar după coordonarea cu AFIS sau cu operatorul aeroportului. Marcarea în DroneMap nu se aplică dronelor care nu necesită înregistrare.",
+      "În zonele dens populate (zona LKR316), zona de zbor trebuie marcată în prealabil în DroneMap (dronemap.gov.cz). Marcarea (aici, precum și în CTR-uri și în ariile naturale protejate) trebuie să includă înălțimea, ora, tipul și categoria de greutate a dronei, precum și numărul de înregistrare al operatorului. Nu se aplică dronelor pentru care nu este necesară înregistrarea operatorului.",
+      "Parcuri naționale, zone peisagistice protejate (CHKO) și arii protejate de mică suprafață, de ex. rezervații naturale (zona LKR318): zboruri doar pe baza notificării prealabile sau a permisiunii autorității competente pentru protecția naturii și cu zona de zbor marcată în DroneMap. Nu se aplică dronelor pentru care nu este necesară înregistrarea operatorului.",
+      "Drumuri (zona LKR317): de regulă, pe o rază de 50 m de axul unei autostrăzi sau al unui drum de clasa I doar cu acordul ŘSD; de regulă, pe o rază de 15 m de axul drumurilor de clasa II și III doar cu acordul proprietarului sau administratorului drumului (similar pentru drumurile locale din afara zonelor dens populate). Zona de zbor trebuie marcată în DroneMap – nu se aplică dronelor pentru care nu este necesară înregistrarea operatorului.",
+      "În categoria Open trebuie să menții drona în contact vizual direct, cu ochiul liber (ochelarii/lentilele de contact sunt permise; binoclul sau un ecran nu sunt acceptate) — sau să apelezi la un observator, cu o comunicare clară și eficientă între voi în permanență, astfel încât împreună să supravegheați spațiul aerian și să evitați coliziunile. Modul „follow-me” este o excepție separată doar în subcategoria A1, permisă pe o rază de 50 m de pilot.",
+      "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
+      "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
+      "Amenzi de până la 3.000.000 CZK (≈ 120.000 €) pentru încălcări",
+      "Castelul Praga și clădirile guvernamentale: zone de interdicție absolută de zbor"
+    ],
+    "importantNotes": [
+      "În CTR-urile și ATZ-urile aeroporturilor, fără coordonare doar până la înălțimea stabilită de grilă (verifică în DroneMap); mai sus doar după coordonare (într-un CTR cu ŘLP, la aeroporturile necontrolate cu AFIS sau cu operatorul aeroportului) și cu zborul marcat în DroneMap; în zona interioară a unui CTR, marcarea este întotdeauna obligatorie",
+      "Drumuri (zona LKR317): pentru autostrăzi și drumurile de clasa I, de regulă pe o rază de 50 m de ax doar cu acordul ŘSD; pentru drumurile de clasa II și III, de regulă pe o rază de 15 m de ax doar cu acordul proprietarului sau administratorului drumului",
+      "Amenzi de până la 3.000.000 CZK (≈ 120.000 €)",
+      "Zona Castelului Praga are restricții stricte de interdicție de zbor",
+      "GDPR se aplică surprinderii de imagini cu persoane identificabile"
+    ],
+    "primaryLinks": [
+      {
+        "title": "ÚCL — Reglementări privind dronele",
+        "description": "Reguli și resurse oficiale ale Autorității Aviației Civile privind dronele"
+      },
+      {
+        "title": "ÚCL — Înregistrarea operatorilor",
+        "description": "Înregistrare gratuită ca operator UAS (valabilă în toate țările UE/EASA)"
+      },
+      {
+        "title": "Dronemap.gov.cz — harta spațiului aerian",
+        "description": "Harta oficială interactivă care arată zonele pentru drone și restricțiile de spațiu aerian"
+      },
+      {
+        "title": "ÚCL — Prezentare generală a regulilor",
+        "description": "Prezentare generală a regulilor de zbor cu drone în Republica Cehă"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "ŘLP — NOTAM și spațiu aerian",
+        "description": "Controlul traficului aerian ceh și informații despre spațiul aerian"
+      },
+      {
+        "title": "ÚCL — Întrebări frecvente despre drone",
+        "description": "Întrebări frecvente despre reglementările privind dronele în Republica Cehă"
+      }
+    ],
+    "disclaimerText": "Înainte de zbor, verifică întotdeauna sursele oficiale ale Autorității Aviației Civile (ÚCL) și Dronemap.gov.cz. Această aplicație este un instrument — nu o autoritate juridică. Cehia respectă reglementările EASA, cu adăugiri naționale.",
+    "sectionLabelRules": "REGULI ESENȚIALE (CATEGORIA EASA OPEN)",
+    "sectionLabelPrimary": "SURSE OFICIALE",
+    "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
+    "linksSheetTitle": "Spațiu aerian și reglementări — Cehia",
+    "dronePilotCredentialName": "Certificat de instruire A1/A3"
+  }
 }

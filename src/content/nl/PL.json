@@ -1,28 +1,32 @@
 {
   "meta": {
-    "sourceHash": "b05d24f015f2308210145943a215484aa1c49ad8f402e6dfeecc2171445caa3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "71ddedd6eadd4ef67c92064fd4d382b6fa87094ff6d0bff888fecfd333d022c5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Max. 120 m boven de grond (EASA Open categorie)",
-      "Registratie als UAS-exploitant (gratis) voor drones die 250 g of meer wegen of zijn uitgerust met een camera",
-      "Verplichte A1/A3-onlinetraining — minimumleeftijd 16",
-      "Verplichte aanmelding via DroneTower in zones met gecontroleerd luchtruim",
-      "Warsaw: toestemming van de State Protection Service (SOP) is vereist nabij overheidsinstellingen",
-      "Houd de drone altijd binnen direct zicht (VLOS)",
+      "In de open categorie is de maximale hoogte 120 m, gemeten als de afstand tot het dichtstbijzijnde punt van het aardoppervlak — niet simpelweg recht naar beneden, dus bij een helling kan ook het terrein naast je meetellen. Binnen 50 m van een hoog kunstmatig obstakel (hoger dan 105 m) mag de entiteit die verantwoordelijk is voor het obstakel toestemming aanvragen om tot 15 m boven de hoogte van het obstakel te vliegen.",
+      "Je moet je als droneoperator registreren als je drone 250 g of meer weegt (of bij een botsing meer dan 80 J energie kan overdragen) — dit geldt ook voor speelgoed. Weegt de drone minder dan 250 g, is registratie toch vereist als de drone een sensor heeft die persoonsgegevens kan vastleggen, tenzij hij als speelgoed geldt volgens de EU-richtlijn inzake de veiligheid van speelgoed. Eisen voor pilotenopleiding/-certificaten staan hier los van en hangen af van de klasse en subcategorie van de drone.",
+      "Vanaf 13 november 2025 moet de operator van een drone met een startmassa van 250 g tot 20 kg een verplichte wettelijke aansprakelijkheidsverzekering (OC) hebben (minimaal verzekerd bedrag: het equivalent van 50.000 SDR per gebeurtenis) — ook voor recreatieve vluchten.",
+      "In Polen is sinds 27 februari 2025 de minimumleeftijd voor de open categorie 14; de gratis online opleiding en het examen zijn 5 jaar geldig. Jongere personen mogen vliegen onder direct toezicht van een piloot van ten minste 14 jaar die de vereiste bekwaamheid heeft (uitzonderingen: een C0-speelgoeddrone in A1 en een zelfgebouwde drone onder 250 g).",
+      "Elke dronevlucht in Polen — ongeacht massa of locatie — moet vóór het opstijgen bij PAŻP worden gemeld via Check-In in de DroneTower-app (art. 156a(2) van de luchtvaartwet, Prawo lotnicze). Op sommige plaatsen, waaronder delen van DRA-R CTR-zones rond gecontroleerde luchtvaartterreinen, is ook een door PAŻP goedgekeurde missie nodig (Kreator Misji KSID op drony.gov.pl) — je stijgt dan pas op na acceptatie door de TWR-verkeersleider in DroneTower.",
+      "DRA-R CTR-zones rond gecontroleerde luchtvaartterreinen, open categorie: dichter dan 1 km bij het luchtvaartterrein — geen vluchten; 1–6 km — boven 30 m AGL alleen met A2-bekwaamheid (drones > 0,9 kg ook met een goedgekeurde missie), maximaal 50 m AGL; verder dan 6 km — maximaal 100 m AGL. In een CTR is ten minste A1/A3-bekwaamheid vereist (ook voor drones < 250 g). In de CTR van Rzeszów (EPRZ) gelden andere regels. Controleer de exacte grenzen en voorwaarden in DroneTower of DroneMap.",
+      "Warschau: het stadscentrum valt onder de permanente zone EPP21 WARSZAWA II — dronevluchten alleen met toestemming van de zonebeheerder; controleer de voorwaarden en contactgegevens in DroneTower.",
+      "In de open categorie moet je de drone binnen je eigen zicht houden, zonder hulpmiddelen (bril/contactlenzen zijn prima; een verrekijker of scherm telt niet) — of vliegen met hulp van een waarnemer, waarbij jullie te allen tijde duidelijk en doeltreffend met elkaar communiceren, zodat jullie samen het luchtruim kunnen afspeuren en botsingen kunnen vermijden. De ‘follow-me’-modus is een aparte uitzondering, toegestaan tot 50 m van de piloot.",
       "Vlieg niet over mensenmassa’s. De regels voor niet-betrokken personen zijn afhankelijk van de subcategorie, de klasse-aanduiding en de bedrijfsomstandigheden; raadpleeg de officiële matrix.",
-      "DRA-RM-zones (onder 6 km, met hoogtebeperkingen) en DRA-RH-zones (boven 6 km) — raadpleeg drony.gov.pl",
+      "Beperkte DRA-R-zones zijn ingedeeld naar de kans om toestemming te krijgen: DRA-RH (hoog), DRA-RM (gemiddeld), DRA-RL (laag) — niet naar hoogte (Richtlijnen nr. 4/2025 van de president van de ULC, Wytyczne nr 4/2025 Prezesa ULC). Controleer drony.gov.pl voordat je in een beperkte zone vliegt.",
+      "Drones van klasse C1, C2 en C3 moeten vliegen met identificatie op afstand (Remote ID) ingeschakeld en up-to-date, waarbij het operatornummer wordt uitgezonden; dit geldt niet voor de klassen C0/C4, of voor drones zonder klasse-aanduiding die vóór 1 januari 2024 in de handel zijn gebracht of zelfgebouwd zijn (in A1 onder 250 g of in A3).",
       "Nachtvluchten zijn toegestaan volgens de EASA-basisnorm voor de open categorie wanneer het vereiste groene knipperlicht wordt gebruikt, tenzij een actuele geografische zone of nationale regel een strengere voorwaarde oplegt.",
-      "Nationale parken en Natura 2000-gebieden: er gelden beperkingen"
+      "Nationale parken kunnen onder geografische DRA-R-zones vallen — vluchten alleen met toestemming van de zonebeheerder; controleer de zones in DroneTower voordat je vliegt (dit geldt ook voor Natura 2000-gebieden en natuurreservaten)."
     ],
     "importantNotes": [
-      "De app DroneTower is vereist voor vluchtmeldingen in CTR-zones",
-      "Warsaw: goedkeuring van SOP vereist nabij overheidsinstellingen",
+      "Check-In in de DroneTower-app is verplicht vóór elke vlucht in Polen — niet alleen in CTR-zones.",
+      "Warschau heeft permanente verboden zones die in de AIP zijn gepubliceerd, waaronder EPP9 WARSZAWA, EPP21 WARSZAWA II (stadscentrum) en EPP26 FRONTEX (een cirkel van 500 m rond het hoofdkantoor van Frontex), en daarnaast andere geografische zones voor drones. Controleer ze en hun voorwaarden in DroneTower of DroneMap voordat je vliegt.",
       "Registratie is gratis en geldig in alle EU-/EASA-landen",
-      "Boetes tot 50.000 PLN voor overtredingen",
+      "Toeristen van buiten de EU/EASA (bijv. uit de VS of het VK): registreer je als operator in het eerste EU-land waar je wilt vliegen — als dat Polen is, op drony.gov.pl — en breng je operatornummer op de drone aan. Een registratie uit een ander EU/EASA-land is geldig in Polen; je kunt je niet twee keer registreren.",
+      "Bestuurlijke boetes van de ULC: PLN 4.000 voor elke overtreding van de regels van de open categorie, PLN 10.000 voor vliegen in strijd met de voorwaarden van geografische zones of voor het niet registreren als operator; het schenden van vliegverboden (bijv. om veiligheidsredenen) is een strafbaar feit waarop een gevangenisstraf van maximaal 5 jaar staat.",
       "De GDPR is van toepassing op het vastleggen van identificeerbare beelden"
     ],
     "primaryLinks": [
@@ -31,22 +35,22 @@
         "description": "Officiële regelgeving en hulpbronnen over drones van de burgerluchtvaartautoriteit"
       },
       {
-        "title": "ULC — Exploitantenregistratie",
-        "description": "Kosteloze registratie als UAS-exploitant (geldig in alle EU-/EASA-landen)"
+        "title": "drony.gov.pl — Operatorregistratie",
+        "description": "Gratis registratie als UAS-operator plus online opleiding en examen (registratie geldig in alle EU/EASA-landen)"
       },
       {
         "title": "PANSA — DroneMap",
-        "description": "Officiële luchtruimkaart met CTR's, beperkte zones en realtime-informatie"
+        "description": "Officiële luchtruimkaart met CTR's, verboden zones en realtime-informatie"
       },
       {
         "title": "DroneTower — App voor vluchtmeldingen",
-        "description": "Een verplichte app voor het melden van vluchten in gecontroleerd luchtruim"
+        "description": "Verplichte app voor het melden (Check-In) van elke dronevlucht in Polen"
       }
     ],
     "secondaryLinks": [
       {
         "title": "PANSA — NOTAM's",
-        "description": "Actieve NOTAM's en tijdelijke luchtruimbeperkingen"
+        "description": "NOTAM-bureau van PAŻP — NOTAM-informatie voor FIR Warszawa; controleer actuele dronebeperkingen in DroneTower"
       },
       {
         "title": "ULC — Veelgestelde vragen over drones",
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "OFFICIËLE BRONNEN",
     "sectionLabelSecondary": "AANVULLENDE HULPBRONNEN",
     "linksSheetTitle": "Luchtruim en regelgeving — Polen",
-    "dronePilotCredentialName": "Dronepilootcertificaat"
+    "dronePilotCredentialName": "Kwalificaties als dronepiloot"
   }
 }

@@ -1,37 +1,41 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximal 120 m über Grund (EASA Open-Kategorie)",
-      "Registrierung als UAS-Betreiber (kostenlos) für Drohnen ab 250 g oder mit Kamera",
-      "A1/A3-Onlineschulung erforderlich – Mindestalter 16",
-      "Flüge in der CTR und ATZ von Flughäfen sind nur nach Abstimmung mit der Flugsicherung oder dem Flughafenbetreiber erlaubt",
-      "Das Überfliegen von Autobahnen und Hauptstraßen ist eingeschränkt – meide sie",
-      "Halte die Drohne stets in direkter Sichtverbindung (VLOS)",
+      "In der offenen Kategorie beträgt die maximale Höhe 120 m, gemessen als Abstand zum nächstgelegenen Punkt der Erdoberfläche – nicht einfach senkrecht nach unten, sodass an einem Hang auch das Gelände neben dir zählen kann. Innerhalb von 50 m um ein hohes künstliches Hindernis (über 105 m) kann die für das Hindernis verantwortliche Stelle eine Genehmigung beantragen, bis zu 15 m über die Höhe des Hindernisses zu fliegen.",
+      "Du musst dich als Drohnenbetreiber registrieren, wenn deine Drohne 250 g oder mehr wiegt (oder bei einem Aufprall mehr als 80 J kinetische Energie übertragen könnte) – das gilt sogar für Spielzeug. Unter 250 g ist die Registrierung trotzdem verpflichtend, wenn die Drohne einen Sensor hat, der personenbezogene Daten erfassen kann, es sei denn, sie gilt als Spielzeug im Sinne der EU-Spielzeugrichtlinie. Die Anforderungen an Schulung/Pilotenlizenz sind davon getrennt und hängen von der Klasse und Unterkategorie der Drohne ab.",
+      "Das Mindestalter für das selbstständige Fliegen in der offenen Kategorie beträgt 16 Jahre – die A1/A3-Online-Schulung und -Prüfung sind 5 Jahre gültig und in der gesamten EU anerkannt. Keine Altersgrenze: eine Drohne der Klasse C0, die ein Spielzeug ist, in der Unterkategorie A1, oder eine privat gebaute Drohne unter 250 g; ansonsten jüngere Piloten nur unter direkter Aufsicht eines Piloten, der die Alters- und Schulungsanforderungen erfüllt.",
+      "Touristen: Eine Betreiberregistrierung und ein A1/A3-Zeugnis aus einem anderen EU-/EASA-Land gelten auch in Tschechien (du kannst dich nur in einem Land registrieren). Außerhalb der EU: Registriere dich im ersten EU-/EASA-Land, in dem du fliegen wirst (in Tschechien bei der ÚCL auf dron.caa.gov.cz), und wenn deine Drohne eine Schulung erfordert, absolviere diese nach EU-Regeln – Zeugnisse aus Nicht-EU-Ländern werden nicht anerkannt.",
+      "Eine Haftpflichtversicherung ist in Tschechien in der Unterkategorie A2 sowie in A3 für Drohnen über 4 kg Pflicht (nicht in A1) – prüfe, ob deine Police Flüge in Tschechien abdeckt.",
+      "In CTRs und ATZs von Flughäfen darfst du ohne Koordinierung nur bis zu der durch das Raster festgelegten Höhe fliegen (prüfe dies in DroneMap). Höher nur nach Koordinierung mit ŘLP und mit in DroneMap markiertem Flug; in der inneren Zone einer CTR muss der Flug immer in DroneMap markiert werden, und oberhalb der Rasterhöhe ist zusätzlich eine Koordinierung mit dem Flughafenbetreiber erforderlich. An Militärflughäfen (MCTR) gelten strengere Bedingungen. An unkontrollierten Flughäfen oberhalb der Rasterhöhe nur nach Koordinierung mit AFIS oder dem Flughafenbetreiber. Die Markierung in DroneMap gilt nicht für Drohnen, die keine Registrierung erfordern.",
+      "In dicht besiedelten Gebieten (Zone LKR316) muss der Flugbereich vorab in DroneMap (dronemap.gov.cz) markiert werden. Die Markierung (hier wie auch in CTRs und Naturschutzgebieten) muss die Höhe, die Zeit, den Typ und die Gewichtsklasse der Drohne sowie die Registrierungsnummer des Betreibers enthalten. Gilt nicht für Drohnen, für die keine Betreiberregistrierung erforderlich ist.",
+      "Nationalparks, Landschaftsschutzgebiete (CHKO) und kleinflächige Schutzgebiete, z. B. Naturreservate (Zone LKR318): Flüge nur nach vorheriger Meldung bei der bzw. mit Genehmigung der zuständigen Naturschutzbehörde und mit in DroneMap markiertem Flugbereich. Gilt nicht für Drohnen, für die keine Betreiberregistrierung erforderlich ist.",
+      "Straßen (Zone LKR317): In der Regel innerhalb von 50 m von der Mittellinie einer Autobahn oder Straße I. Klasse nur mit Zustimmung der ŘSD; in der Regel innerhalb von 15 m von der Mittellinie von Straßen II. und III. Klasse nur mit Zustimmung des Eigentümers oder Verwalters der Straße (ähnlich bei Gemeindestraßen außerhalb dicht besiedelter Gebiete). Der Flugbereich muss in DroneMap markiert werden – gilt nicht für Drohnen, für die keine Betreiberregistrierung erforderlich ist.",
+      "In der offenen Kategorie musst du die Drohne in direkter Sichtverbindung mit bloßem Auge halten (Brille/Kontaktlinsen sind in Ordnung; Fernglas oder Bildschirm zählen nicht) – oder einen Beobachter zur Hilfe nehmen, wobei ihr jederzeit klar und wirksam miteinander kommuniziert, damit ihr gemeinsam den Luftraum beobachten und Zusammenstöße vermeiden könnt. Der „Follow-me“-Modus ist eine gesonderte Ausnahme nur in der Unterkategorie A1, zulässig innerhalb von 50 m vom Piloten.",
       "Fliege nicht über Menschenansammlungen. Die Vorschriften für unbeteiligte Personen hängen von der Unterkategorie, der Klassenkennzeichnung und den Betriebsbedingungen ab; beachte die offizielle Matrix.",
       "Nachtflüge sind gemäß den EASA-Grundvorschriften für die offene Kategorie zulässig, sofern das vorgeschriebene grün blinkende Licht verwendet wird, es sei denn, eine geltende geografische Zonenregelung oder nationale Vorschrift sieht strengere Auflagen vor.",
-      "Bußgelder von bis zu 5.000.000 CZK (≈ 185.000 €) bei Verstößen",
-      "Prager Burg und Regierungsgebäude: strikte Flugverbotszonen"
+      "Bußgelder von bis zu 3.000.000 CZK (≈ 120.000 €) bei Verstößen",
+      "Prager Burg und Regierungsgebäude: absolute Flugverbotszonen"
     ],
     "importantNotes": [
-      "Flüge innerhalb der CTR und ATZ von Flughäfen erfordern eine Abstimmung mit der Flugsicherung oder dem Flughafenbetreiber",
-      "Das Überfliegen von Autobahnen und Hauptstraßen ist in Tschechien eingeschränkt – plane deine Route so, dass du sie meidest",
-      "Bußgelder von bis zu 5.000.000 CZK (≈ 185.000 €)",
+      "In CTRs und ATZs von Flughäfen ohne Koordinierung nur bis zu der durch das Raster festgelegten Höhe (prüfe dies in DroneMap); höher nur nach Koordinierung (in einer CTR mit ŘLP, an unkontrollierten Flughäfen mit AFIS oder dem Flughafenbetreiber) und mit in DroneMap markiertem Flug; in der inneren Zone einer CTR ist die Markierung immer erforderlich",
+      "Straßen (Zone LKR317): Bei Autobahnen und Straßen I. Klasse in der Regel innerhalb von 50 m von der Mittellinie nur mit Zustimmung der ŘSD; bei Straßen II. und III. Klasse in der Regel innerhalb von 15 m von der Mittellinie nur mit Zustimmung des Eigentümers oder Verwalters der Straße",
+      "Bußgelder von bis zu 3.000.000 CZK (≈ 120.000 €)",
       "Für den Bereich der Prager Burg gelten strenge Flugbeschränkungen",
       "Die DSGVO gilt bei der Erfassung von Bildern, auf denen Personen identifizierbar sind"
     ],
     "primaryLinks": [
       {
-        "title": "CAA – Drohnenvorschriften",
-        "description": "Offizielle Regeln und Ressourcen der Zivilluftfahrtbehörde zu Drohnen"
+        "title": "ÚCL – Drohnenvorschriften",
+        "description": "Offizielle Regeln und Informationen der Zivilluftfahrtbehörde zu Drohnen"
       },
       {
-        "title": "CAA – Betreiberregistrierung",
+        "title": "ÚCL – Betreiberregistrierung",
         "description": "Kostenlose Registrierung als UAS-Betreiber (gültig in allen EU-/EASA-Ländern)"
       },
       {
@@ -39,17 +43,17 @@
         "description": "Offizielle interaktive Karte mit Drohnenzonen und Luftraumbeschränkungen"
       },
       {
-        "title": "CAA – Überblick über die Regeln",
+        "title": "ÚCL – Überblick über die Regeln",
         "description": "Überblick über die Regeln für das Fliegen von Drohnen in Tschechien"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Flugsicherung – NOTAM und Luftraum",
+        "title": "ŘLP – NOTAM und Luftraum",
         "description": "Tschechische Flugsicherung und Luftrauminformationen"
       },
       {
-        "title": "CAA – FAQ zu Drohnen",
+        "title": "ÚCL – Häufige Fragen zu Drohnen",
         "description": "Häufig gestellte Fragen zu den Drohnenvorschriften in Tschechien"
       }
     ],
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "OFFIZIELLE QUELLEN",
     "sectionLabelSecondary": "WEITERE RESSOURCEN",
     "linksSheetTitle": "Luftraum und Vorschriften – Tschechien",
-    "dronePilotCredentialName": "Drohnenpilotenlizenz"
+    "dronePilotCredentialName": "A1/A3-Schulungszertifikat"
   }
 }

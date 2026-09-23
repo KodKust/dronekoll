@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (negyvenamos vietovės, pramoginis naudojimas): iki 750 g sveriantys dronai gali skristi iki 50 m virš aukščiausios kliūties privačioje valdoje be leidimo",
-      "DAN 151 (gyvenamosios vietovės/profesionalus naudojimas): sunkesniems nei 750 g dronams reikalinga DGAC registracija, piloto licencija ir naudojimo leidimas",
-      "Didžiausias leistinas bendras aukštis: 130 m AGL (DAN 151) — priklauso nuo leidimo",
-      "Mažiausias 2 km atstumas nuo oro uostų ir aerodromų",
+      "DAN 91.102(j): be DGAC leidimo skraidyti gali tik iki 750 g dronai, pagaminti iš putų polietileno ar lygiavertės medžiagos, naudojami asmeniniais ar pramoginiais tikslais, privačiose vietose ir ne aukščiau kaip 50 m virš aukščiausios kliūties ar pastato. Bet kokiam kitam skrydžiui reikalingas išankstinis DGAC leidimas.",
+      "DAN 151 (gyvenamosios vietovės, viešasis interesas ar aviacijos darbai): taikoma bet kokio svorio dronams (ne sunkesniems kaip 9 kg); reikalinga DGAC registracija, nuotolinio piloto pažymėjimas, draudimas, AOC arba CEO ir naudojimo leidimas.",
+      "DAN 151: operacijos metu dronas turi turėti avarinį parašiutą ir galėti būti valdomas rankiniu būdu (ne sunkesnis kaip 9 kg be parašiuto).",
+      "Bendroji riba yra 400 pėdų (120 m) AGL — norint skristi aukščiau, reikalingas išankstinis DGAC leidimas (DAN 151 Ed. 3, galioja nuo 2024 m. gegužės). Dabartiniame DAN 91 ta pati riba nurodyta kaip „400 pėdų (130 metrų)“.",
+      "Draudžiama skraidyti 2 km atstumu nuo aerodromo kilimo ir tūpimo tako ašies tęsinio (matuojant nuo slenksčio) arba 1 km atstumu lygiagrečiai kilimo ir tūpimo tako ašiai.",
+      "Draudžiama naudoti dronus vietovėse, kuriose gaisras gesinamas pilotuojamais orlaiviais (DAN 91.102(i)(11) ir DAN 151.103(g)(14)).",
       "Didžiausias 500 m atstumas nuo operatoriaus (išlaikykite tiesioginį regėjimo ryšį)",
-      "Visada laikykite droną tiesioginiame regėjimo lauke (VLOS)",
+      "Visada privalote išlaikyti tiesioginį vizualinį kontaktą su dronu, kad galėtumėte valdyti jo skrydį.",
       "Naktiniams skrydžiams reikalingas specialus DGAC leidimas",
-      "DGAC registracija: markė, modelis, serijos numeris, didžiausias svoris ≤9 kg leistinam naudojimui, 10×15 cm nuotrauka",
-      "Piloto licencijai reikalingas rašytinis egzaminas (mažiausiai 75 % teisingų atsakymų) apie DAN 151, DAN 91, meteorologiją ir aerodinamiką",
+      "DGAC registracija (DAN 151.203): gamintojas / šalis, markė, modelis, serijos numeris ir gamyklinis svoris, pridedant asmens tapatybės kortelės kopiją; prašymas teikiamas DGAC interneto platformoje (nuo 2026 m. rugpjūčio). Didžiausia kilimo masė 9 kg.",
+      "Nuotolinio piloto pažymėjimas: ne jaunesniems kaip 18 metų, mokymo deklaracija ir rašytinis egzaminas (mažiausiai 75 %) apie DAN 151, DAN 91, NOTAM, meteorologiją ir aerodinamiką; galioja 36 mėnesius.",
       "Profesionaliam naudojimui privalomas civilinės atsakomybės draudimas (patvirtintas JAC)"
     ],
     "importantNotes": [
-      "📋 DVIGUBA TEISINĖ SISTEMA — DAN 91 vs. DAN 151: Čilėje skiriami skrydžiai NEGYVENAMOSE vietovėse (DAN 91; taisyklės švelnesnės, o pramoginiams skrydžiams su ≤750 g dronais leidimo nereikia) ir GYVENAMOSIOSE arba viešojo intereso vietovėse (DAN 151; reikalinga registracija, sertifikuotas pilotas ir draudimas). Taikomos taisyklės priklauso nuo vietos IR tikslo.",
-      "✈️ UŽSIENIO TURISTAMS: taisyklės vienodai taikomos ir nerezidentams. Registracija nereikalinga pramoginiams skrydžiams su ≤750 g sveriančiais dronais negyvenamose privačiose vietovėse. Bet kokioms kitoms operacijoms (turizmui, profesionaliam naudojimui, arti žmonių, parkuose) reikalingi tie patys leidimai kaip ir Čilės piliečiams.",
-      "🌋 NACIONALINIAI PARKAI IR REZERVATAI: CONAF (National Forestry Corporation) draudžia be specialaus leidimo skraidinti dronus tokiuose parkuose kaip Torres del Paine, Lauca ir Isluga Volcano National Park. Chilean Antarctica: taikomos specialios INACH taisyklės. Prieš kelionę pasitikslinkite kiekvieno parko ar rezervato administracijoje.",
-      "🏔️ RIBOJAMOS TERITORIJOS: Downtown Santiago (La Moneda, Plaza de Armas), SCEL Airport (Pudahuel), karinės ir pasienio zonos. Easter Island, Robinson Crusoe Island, Antarctica: papildomi ribojimai. Draudžiamų, ribojamų ir pavojingų teritorijų žemėlapį rasite AIP Chile (ENR 5.1).",
-      "💰 METINIS ATNAUJINIMAS: DGAC registracija galioja 12 mėnesių ir turi būti atnaujinama kasmet. Skraidymas be galiojančios registracijos ar pažymėjimo gali užtraukti baudą, įrangos konfiskavimą ir draudimą vykdyti operacijas."
+      "DVIGUBA TEISINĖ SISTEMA — DAN 91 (negyvenamos vietovės): kiekvienam skrydžiui reikalingas išankstinis DGAC leidimas, kiekvienu atveju atskirai (D priedas). DAN 151 (gyvenamosios vietovės, viešasis interesas ar aviacijos darbai): registracija, pažymėjimas, draudimas ir leidimas. Vienintelė išimtis: ≤750 g dronai, pagaminti iš putų polietileno ar lygiavertės medžiagos, pramoginiam naudojimui, privačiose vietose ir ≤50 m virš aukščiausios kliūties.",
+      "✈️ UŽSIENIO TURISTAMS: taisyklės vienodai taikomos ir nerezidentams. Be DGAC leidimo leidžiami tik ≤750 g dronai, pagaminti iš putų polietileno ar lygiavertės medžiagos, pramoginiam naudojimui, privačiose vietose ir ≤50 m virš aukščiausios kliūties. Bet kokiam kitam skrydžiui reikalingas išankstinis DGAC leidimas; DGAC registracijai reikalinga asmens tapatybės kortelės kopija.",
+      "🌋 SAUGOMOS TERITORIJOS: pramoginis ar turistinis dronų naudojimas neleidžiamas jokioje valstybės saugomoje laukinėje teritorijoje (nacionaliniuose parkuose, rezervatuose, gamtos paminkluose). CONAF leidžia skrydžius tik pagrįstais atvejais (moksliniams tyrimams, stebėsenai ar kitiems valdymo tikslams) per conaf.cerofilas.gob.cl, o tada taip pat reikalingas DGAC leidimas. Antarktida: specialios INACH taisyklės.",
+      "🏔️ RIBOJAMOS ZONOS: draudžiama skraidyti virš La Moneda (zona SC-P28), karinių objektų, kalėjimų ir strateginių objektų, taip pat AIP Chile (ENR 5.1) ar NOTAM nurodytose draudžiamose, ribojamose ar pavojingose zonose.",
+      "💰 GALIOJIMO TERMINAI: nuotolinio piloto pažymėjimas galioja 36 mėnesius ir atnaujinamas išlaikius naują egzaminą (mažiausiai 75 %); DAN 151 naudojimo leidimas galioja iki 6 mėnesių. Nesilaikant DGAC taisyklių gali būti skiriamos baudos, sustabdoma veikla, konfiskuojama įranga arba kilti baudžiamoji atsakomybė, jei sukeliamas pavojus aviacijos saugai."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Oficiali Čilės aeronautikos informacijos sistema: NOTAM, draudžiamos/ribojamos/pavojingos zonos (ENR 5), žemėlapiai, aerodromai"
       },
       {
-        "title": "RPA registracijos tvarka (oficialus PDF)",
-        "description": "Oficiali DGAC dronų (RPA) naujos registracijos ir įteisinimo tvarka. Įskaitant B priedą ir formas"
+        "title": "Dronų (RPA) registracija — nauja DGAC platforma",
+        "description": "Registracija internetu Nacionaliniame RPA registre pagal DAN 151. Registracija savaime nesuteikia leidimo skraidyti."
       }
     ],
     "secondaryLinks": [

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ab66a0144761f05a1cfb8f54499fb2e2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -11,19 +11,23 @@
     "sectionLabelPrimary": "OFFISIELLE KILDER",
     "sectionLabelSecondary": "TILLEGGSRESSURSER",
     "linksSheetTitle": "Luftrom og regler — Hongkong",
-    "dronePilotCredentialName": "SUA-pilotrettighet",
+    "dronePilotCredentialName": "Fjernpilotsertifikat (standard / advanced rating)",
     "keyRules": [
-      "Maks 91 m (300 ft) over bakken — lavere enn i de fleste land",
-      "Registrering påkrevd for alle droner over 250 g via eSUA-portalen",
+      "Maks 91 m (300 ft) over bakken for droner i kat. A2 (250 g–7 kg) og registrerte unntatte modeller opptil 250 g; uregistrerte droner opptil 250 g: maks 30 m (100 ft)",
+      "Maks fart 50 km/t (kat. A2); uregistrerte droner opptil 250 g maks 20 km/t",
+      "Droner over 250 g — og droner opptil 250 g som flys utover grensene for kat. A1 — må registreres og merkes via eSUA-portalen, og fjernpiloten (fra 14 år) må også registrere seg på eSUA. Gjelder også besøkende",
       "Restriksjoner nær flyplasser i Hongkong er definert som kunngjorte Restricted Flying Zones (RFZ) rundt HKIA og andre flyplasser/helikopterplasser, og vises på CAD Drone Map — det finnes ingen enkelt fast avstand. Flyging innenfor en RFZ krever tillatelse fra CAD, og enkelte områder (f.eks. Victoria Harbour) er restriksjonsbelagt uavhengig av avstanden til en flyplass.",
-      "50 m minimumsavstand fra personer som ikke er involvert",
+      "Ingen flyging over forbudsområdet ved Penny's Bay (f.eks. Hong Kong Disneyland) — det er fastsatt i en egen lov og dekkes ikke av RFZ-sonene i CAD Drone Map",
+      "Hold minst 10 m (≤20 km/t) eller 30 m (over 20 km/t, kat. A2) avstand fra uvedkommende personer, kjøretøy, fartøy og bygninger; fly aldri over dem",
       "Kun i dagslys — ingen nattflyging uten spesiell tillatelse",
       "Området rundt Victoria Harbour er restriksjonsbelagt",
       "Hold alltid dronen innenfor synsvidde (VLOS)",
+      "Droner over 250 g må ha geo-awareness og flyloggføring; oppbevar flyloggene i 6 måneder",
       "Hongkong har sine egne regler — IKKE regelverket fra fastlands-Kina"
     ],
     "importantNotes": [
-      "Maksimal høyde er bare 91 m (300 ft) — betydelig lavere enn standarden på 120 m i de fleste land",
+      "Maks høyde er 91 m (300 ft), og bare 30 m (100 ft) for uregistrerte droner opptil 250 g — godt under standarden på 120 m i de fleste land",
+      "Besøkende: droner over 250 g krever registrering av drone og pilot på eSUA med passet ditt (normalt gyldig i 6 måneder). CAD-merket kan ikke skrives ut og sendes ikke til utlandet — hent det på CADs hovedkontor eller få det sendt til en adresse i Hongkong (f.eks. hotellet ditt)",
       "Forsikring kreves IKKE for standardoperasjoner i Category A1 og standardklassifiserte A2-operasjoner. Dekning på HK$10M gjelder for avanserte operasjoner og droner i Category B; den nyere Category C (25–150 kg, innført 18. juli 2025) krever HK$15M (25–75 kg) eller HK$20M (75–150 kg). CADs egen kravtabell oppgir ikrafttredelsesdatoen for den bredere innføringen av forsikringskravet som «ikke fastsatt» — kontroller gjeldende status før du antar at forsikring kreves for din kategori.",
       "Hongkong har helt separate regler fra fastlands-Kina",
       "Victoria Harbour og omkringliggende områder har flyrestriksjoner",
@@ -46,11 +50,11 @@
     "secondaryLinks": [
       {
         "title": "CAD — Advanced Rating-opplæring",
-        "description": "Advanced Rating-opplæring påkrevd for droner over 250 g"
+        "description": "Advanced Rating-opplæring — kreves bare for Advanced Operations"
       },
       {
         "title": "CAD — Forsikringskrav",
-        "description": "Obligatoriske krav til tredjepartsforsikring for dronedrift"
+        "description": "Tredjepartsforsikring — obligatorisk for Advanced Operations; ennå ikke i kraft for standardflyginger i kat. A2"
       }
     ]
   }

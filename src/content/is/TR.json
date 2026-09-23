@@ -1,41 +1,43 @@
 {
   "meta": {
-    "sourceHash": "965aaa2f6c885d898cf7ee6ff9907d07afe1d10c3a57077ecae02dbc001de716",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ab41c1c6a873ddfc4cf87129700fea1004f13537f36d6d678dee51194176fb4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Hámarksflughæð: 120 metrar (400 fet) yfir jörðu",
-      "Fjarstýrða loftfarið þitt verður ávallt að vera innan sjónlínu þinnar (VLOS)",
-      "Flug er aðeins heimilt að degi til — sérstakt leyfi þarf fyrir næturflug",
-      "Að minnsta kosti 9 km frá öllum flugvöllum (þar á meðal Istanbul IST og Sabiha Gökçen SAW)",
-      "Halda verður að minnsta kosti 50 metra láréttri fjarlægð frá öðru fólki",
-      "Öll fjarstýrð loftför sem vega meira en 500 g verða að vera skráð á iha.shgm.gov.tr",
-      "Flug er bannað á sögulegum svæðum (Hagia Sophia, Topkapı, Sultanahmet) og meðfram Bosphorus-flugganginum",
-      "Flug yfir hersvæði, stjórnarbyggingar og fjölmenna viðburði er stranglega bannað",
-      "Erlendir flugmenn sem nota fjarstýrð loftför sem vega meira en 500 g verða að senda inn umsókn eftir diplómatískum leiðum",
-      "FPV-flug er bannað án sérstakrar heimildar"
+      "Hámarksflughæð er 120 m (400 ft); í P0/P1-flugi verður að halda loftfarinu innan sjónlínu (VLOS) og það má ekki fara lengra en 3.000 m frá flugmanninum. Flug yfir 120 m er aðeins mögulegt með P2-leyfi og í samráði við viðkomandi yfirvöld.",
+      "Þú verður ávallt að hafa loftfarið innan sjónlínu þinnar, í beinni sjónsnertingu án aðstoðar sjón- eða rafeindatækja (SHT-İHA).",
+      "Áhugamannaflug (P0) má aðeins fara fram að degi til; næturrekstur er mögulegur með P1- eða P2-leyfi og viðeigandi búnaði (SHT-İHA 15. gr.). Á aðlögunartímabilinu (til 31. júlí 2027) skaltu fá leyfi SHGM fyrir næturflugi.",
+      "Áður en þú flýgur nálægt flugvöllum skaltu athuga kortið á iha.shgm.gov.tr (síðar İHATTYS); flug á öllum stöðum utan grænna svæða er háð leyfi SHGM. Nýja SHT-İHA tilgreinir ekki fasta fjarlægð; halda ætti 9 km (5 NM) úr fyrri tilskipun sem öruggri lágmarksfjarlægð.",
+      "Flug yfir mannfjölda telst rekstur með mikilli áhættu; það er lokað P0- og P1-flugmönnum og má aðeins fara fram samkvæmt P2-leyfi (SHT-İHA 6. gr.). Nýja tilskipunin tilgreinir ekki fasta fjarlægð; mælt er með að halda að minnsta kosti 50 m fjarlægð frá fólki og mannvirkjum (gildið í fyrri tilskipun) sem öruggu lágmarki.",
+      "Nýja SHT-İHA (2026): að undanskildum einföldum loftförum (Simple UAV) af leikfangagerð verða allir notendur fjarstýrðra loftfara, einnig undir 500 g, að skrá sig í İHATTYS; frestur fyrir loftför sem þegar eru til er 31. júlí 2027. Þar til İHATTYS verður tekið í notkun eru loftför frá 500 g skráð á iha.shgm.gov.tr.",
+      "Samkvæmt nýja SHT-İHA er flugheimild tengd flugmannsleyfinu: P0 áhugamannaleyfi (lágmarksaldur 10 ár), P1 atvinnuleyfi (18 ára), P2 framhaldsleyfi; ekkert leyfi þarf fyrir Simple UAV. Á aðlögunartímabilinu (til 31. júlí 2027) halda gildandi İHA0/İHA1-vottorð og İHA2/İHA3-leyfi gildi sínu og þeim er breytt í P0/P1/P2 með aðlögun.",
+      "Fjarauðkenning (Remote ID) og landfræðileg afmörkun (geofencing) eru skyldubundnar fyrir önnur loftför en Simple UAV; þú berð ábyrgð á að hlaða uppfærðum gögnum um takmörkuð svæði inn í loftfarið þitt (SHT-İHA 12., 23. gr.; aðlögun fyrir loftför sem þegar eru til stendur til 31. júlí 2027).",
+      "Áður en þú flýgur á sögulega skaganum í Istanbúl (Hagia Sophia, Topkapı, Sultanahmet) og umhverfis Bosporussund skaltu athuga kortið á iha.shgm.gov.tr; flug á öllum stöðum utan grænna svæða er háð leyfi SHGM og á rauðum svæðum er leyfi aðeins veitt með samþykki þeirrar stofnunar sem lokaði svæðinu.",
+      "Flug yfir hersvæði og stjórnarbyggingar er stranglega bannað; flug yfir þéttbýlum svæðum krefst fyrirfram leyfis SHGM.",
+      "Erlendir flugmenn sem nota loftför sem vega 500 g eða meira verða að sækja um eftir diplómatískum leiðum að minnsta kosti 20 virkum dögum fyrir fram með eyðublaðinu FR.23, \"İHA Uçuş İzin Talep Formu\" (beiðni um flugleyfi fyrir fjarstýrt loftfar).",
+      "Í FPV-flugi verður athugandi sem heldur loftfarinu í stöðugri sjónsnertingu að vera viðstaddur og viðhalda verður stöðugum samskiptum milli flugmanns og athuganda; FPV-búnaður verður að starfa á tíðnum sem BTK hefur heimilað (algengar spurningar SHGM). Nýja SHT-İHA skilgreinir sjónlínu (VLOS) sem beina sjónsnertingu án aðstoðar sjón-/rafeindatækja — hafðu samband við SHGM áður en þú flýgur FPV."
     ],
     "importantNotes": [
-      "⚠️ ERLENDIR FLUGMENN: Til að fljúga dróna sem vegur meira en 500 grömm í Tyrklandi verður þú að senda umsókn til General Directorate of Civil Aviation (SHGM) eftir diplómatískum leiðum að minnsta kosti 20 virka daga fyrir flug, útvega tryggingu og fljúga undir eftirliti tyrknesks ríkisborgara sem hefur İHA-2 leyfi. Drónar sem vega minna en 500 g (svo sem DJI Mini, Flip o.fl.) eru undanþegnir þessum kröfum.",
-      "🗺️ SVÆÐAKERFI: Tyrklandi er skipt í græn (opin), gul (leyfisskyld) og rauð (bönnuð) svæði. Gættu þess að athuga stöðu svæðisins á iha.shgm.gov.tr fyrir flug.",
-      "🏛️ SÖGULEGIR STAÐIR OG FERÐAMANNASTAÐIR: Flug er bannað yfir Historic Peninsula of Istanbul (Sultanahmet, Hagia Sophia, Topkapı, Grand Bazaar), tilteknum dölum í Cappadocia, Pamukkale, Ephesus og öðrum fornleifasvæðum án sérstaks leyfis frá Ministry of Culture and Tourism.",
-      "🛂 INNFLUTNINGUR OG TOLLUR: Ef þú kemur til Tyrklands með dróna sem vega meira en 500 g kann þess að vera krafist að þú gefir þá upp í tolli. Innflutningur í viðskiptalegum tilgangi krefst sérstaks ferlis; Bosphorus, hernaðarhafnir og landamærasvæði eru háð frekari takmörkunum."
+      "🛂 ERLENDIR FLUGMENN — NÝJA SHT-İHA (30. júlí 2026): loftför sem flutt eru inn erlendis frá verða að hafa samræmishugbúnaðareiningu SHGM; án einingarinnar er ekki hægt að skrá loftfarið eða fljúga því í Tyrklandi. Erlendis skráð loftför verða að vera samhæf İHATTYS; SHGM metur erlend skírteini og P1/P2 er gefið út eftir mismunaþjálfun. Fyrir loftför sem keypt voru fyrir 30. júlí 2026 stendur aðlögunartímabilið til 31. júlí 2027. Þar til İHATTYS verður tekið í notkun eru umsóknir fyrir loftför frá 500 g lagðar fram hjá SHGM með eyðublaðinu FR.23, eftir diplómatískum leiðum, að minnsta kosti 20 virkum dögum fyrir fram.",
+      "🗺️ SVÆÐAKERFI: Samkvæmt nýja SHT-İHA (30. júlí 2026) verða svæði birt á İHATTYS-kortinu sem græn (ekkert leyfi nauðsynlegt), rauð (lokuð af viðkomandi stofnun; aðeins með samþykki þeirrar stofnunar, leyfi SHGM og NOTAM) og appelsínugul (úthlutað öðrum). Þar til İHATTYS verður tekið í notkun er iha.shgm.gov.tr-kortið (grænt/gult/rautt) notað. Í báðum kerfum er flug á öllum stöðum utan grænna svæða háð leyfi SHGM. Athugaðu alltaf kortið áður en þú flýgur.",
+      "🏛️ SÖGULEGIR STAÐIR OG FERÐAMANNASTAÐIR: Mynd-/kvikmynda-/ljósmyndataka á söfnum og stöðum sem tilheyra söfnum er háð leyfi Ministry of Culture and Tourism; varðandi flugtakmarkanir fyrir fjarstýrð loftför skaltu einnig athuga kortið á iha.shgm.gov.tr.",
+      "🛂 LOFTFÖR FLUTT INN ERLENDIS FRÁ: Loftför frá 500 g verður að skrá á iha.shgm.gov.tr í síðasta lagi innan 3 daga eftir að þau eru flutt til Tyrklands (lög nr. 2920, 144. gr.). Útlendingar þurfa tyrkneska kennitölu eða dvalarleyfi til að skrá til íþrótta-/áhugamannanotkunar. Tollskýrslu kann að vera krafist við komu; innflutningur í atvinnuskyni krefst sérstaks ferlis. Herhafnir og landamærasvæði eru háð frekari takmörkunum."
     ],
     "primaryLinks": [
       {
-        "title": "SHGM — Fjarstýrð loftför (opinber vefur)",
-        "description": "Opinber fjarstýrðra loftfara-síða Landsflugmálastjórnar: SHT-UAV tilskipun, þyngdarflokkar (UAV-0/1/2/3) og rekstrarreglur"
+        "title": "SHGM — İHA Takip / İHATTYS (opinber gátt)",
+        "description": "Opinber gátt Landsflugmálastjórnar fyrir fjarstýrð loftför (İHATTYS). Þar til SHGM tilkynnir að kerfið hafi verið tekið í notkun fara skráning og flugleyfisferli fram með núverandi aðferðum (iha.shgm.gov.tr og eyðublöð SHGM)."
       },
       {
-        "title": "Skráningarkerfi fjarstýrðra loftfara (skylda fyrir dróna 500 g eða þyngri)",
-        "description": "Skyldubundin skráningargátt fyrir alla dróna sem vega meira en 500 grömm. Krefst tyrknesks kennitölunúmers; eyðublað FR-03 gildir fyrir erlenda ríkisborgara"
+        "title": "Skráningarkerfi fjarstýrðra loftfara (skylda yfir 500 g)",
+        "description": "Skyldubundin skráningargátt fyrir alla dróna sem vega meira en 500 g. Krefst tyrkneskrar kennitölu; eyðublað FR-03 gildir fyrir erlenda ríkisborgara"
       },
       {
-        "title": "Umsókn um skráningu flugmanns fjarstýrðra loftfara (e-Government)",
-        "description": "Opinber þjónusta í gegnum e-Government fyrir umsóknir um skráningu flugmanna fyrir UAV-1 og hærra. Flugmannsleyfi er nauðsynlegt fyrir atvinnurekstur."
+        "title": "Umsókn um skráningu flugmanns fjarstýrðra loftfara (e-Devlet)",
+        "description": "Opinber þjónusta í gegnum e-Devlet (rafræna stjórnsýslu) fyrir umsóknir um skráningu flugmanna fyrir İHA-1 og ofar. Flugmannsleyfi er nauðsynlegt fyrir atvinnurekstur."
       },
       {
         "title": "Beiðni um flugheimild (gul/rauð svæði)",
@@ -44,23 +46,27 @@
     ],
     "secondaryLinks": [
       {
-        "title": "Eftirlit með fjarstýrðum loftförum — Opinbert farsímaforrit (Android)",
-        "description": "Opinbert eftirlitsforrit SHGM fyrir fjarstýrð loftför: loftrýmissvæði, flugleyfi og umsýsla flugmannsleyfa"
+        "title": "İHA Takip — Opinbert snjallforrit (Android)",
+        "description": "Opinbert İHA Takip / İHATTYS-forrit SHGM. Þar til SHGM tilkynnir að İHATTYS hafi verið tekið í notkun fara skráning og flugleyfisferli fram með núverandi aðferðum (iha.shgm.gov.tr og eyðublöð SHGM)."
+      },
+      {
+        "title": "İHATTYS — Opinbert snjallforrit (iOS)",
+        "description": "iOS-útgáfa af opinberu İHATTYS-forriti SHGM; færslur sem gerðar eru í forritinu eru ógildar þar til SHGM hefur birt tilskilda tilkynningu"
       },
       {
         "title": "SHGM — Heimasíða stofnunar",
         "description": "Heimasíða Landsflugmálastjórnar: allar flugmálareglugerðir, tilkynningar og upplýsingar um tengiliði"
       },
       {
-        "title": "SHT-UAV tilskipun (texti reglugerðar)",
-        "description": "Flugmálatilskipun — Fjarstýrð loftför (SHT-UAV): opinbera tilskipunin sem er lagagrundvöllur alls rekstrar"
+        "title": "SHT-İHA-tilskipunin 2026 (reglugerðartexti, PDF)",
+        "description": "Tilskipun um ómönnuð loftfarakerfi (SHT-İHA), í gildi frá 30. júlí 2026: opinber texti tilskipunarinnar sem er lagagrundvöllur alls reksturs fjarstýrðra loftfara"
       }
     ],
-    "disclaimerText": "Gættu þess að athuga opinberar heimildir SHGM áður en þú flýgur. Þetta forrit er verkfæri, ekki lögbær heimild. Rekstur fjarstýrðra loftfara í Tyrklandi lýtur SHT-UAV Directive; öll tæki sem vega 500 g eða meira verða að vera skráð í skráningarkerfi SHGM (iha.shgm.gov.tr).",
+    "disclaimerText": "Gættu þess að athuga opinberar heimildir SHGM áður en þú flýgur. Þetta forrit er verkfæri, ekki lögbær heimild. Í Tyrklandi lýtur rekstur fjarstýrðra loftfara nýju SHT-İHA (tilskipun um ómönnuð loftfarakerfi), sem er í gildi frá 30. júlí 2026; aðlögunartímabilið stendur til 31. júlí 2027. Öll tæki sem vega meira en 500 g verða að vera skráð í skráningarkerfi SHGM (iha.shgm.gov.tr).",
     "sectionLabelRules": "GRUNNREGLUR",
     "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
     "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
     "linksSheetTitle": "Loftrými og reglur — Tyrkland",
-    "dronePilotCredentialName": "Flugmannsleyfi fjarstýrðra loftfara"
+    "dronePilotCredentialName": "Flugmannsleyfi fjarstýrðra loftfara (P0/P1/P2)"
   }
 }

@@ -1,68 +1,70 @@
 {
- "meta": {
-  "sourceHash": "64c56f7cd237868e12b4a9acebacfc1c7ed47d9c27e97af77b28d123a7822c74",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Največja višina: 122 m (400 ft) nad tlemi v kategoriji Open (nenadzorovan zračni prostor)",
-   "Blizu letališč (≤5 km): največja višina 43 m brez predhodnega dovoljenja ponudnika navigacijskih služb zračnega prometa",
-   "Najmanjša razdalja 5 km od letališč in letaliških stez brez dovoljenja",
-   "Najmanjša razdalja 500 m od heliportov",
-   "Varna razdalja od nevključenih ljudi in zgradb",
-   "Dron vedno ohranjajte v neposrednem vidnem polju (VLOS) v kategoriji Open",
-   "Letenje je dovoljeno le podnevi — nočni leti zahtevajo posebno dovoljenje",
-   "Droni, lažji od 250 g: oproščeni registracije in licenciranja (resolucija 550/2025)",
-   "Droni ≥250 g: obvezna registracija pri TAD (ANAC) — v kategoriji Open pilotska licenca ni potrebna",
-   "Operacije v posebni kategoriji (25–150 kg ali mestni leti/BVLOS): zahtevajo pilotsko licenco, zdravniško spričevalo in potrdilo komercialnega upravljavca",
-   "Kategorija Open dovoljuje drone, lažje od 25 kg, brez predhodnega dovoljenja (na podeželskih območjih ni omejitve teže)"
-  ],
-  "importantNotes": [
-   "📜 NOV OKVIR 2025: Resolucija ANAC 550/2025 (veljavna od avgusta 2025) nadomešča resolucijo 880/2019. Uvaja tri kategorije: operacije brez predhodnega dovoljenja, kategorijo Open in posebno kategorijo. RAAC del 100/101/102.",
-   "✈️ TUJI TURISTI: Droni s 250 g ali več morajo biti pred prvim letom registrirani pri TAD (resolucija 550/2025). Registracija poteka prek spleta; potrebna je argentinska osebna izkaznica ali potni list. Droni, lažji od 250 g — kot so DJI Mini, Flip itd. — so oproščeni registracije in licenciranja.",
-   "🌳 NACIONALNI PARKI IN ZAVAROVANA OBMOČJA: APN (Uprava nacionalnih parkov) brez posebnega dovoljenja prepoveduje drone v parkih, kot so Iguazú, Nahuel Huapi, Los Glaciares in Tierra del Fuego. Pred letenjem preverite pri vsakem parku.",
-   "🏛️ MESTNA IN OMEJENA OBMOČJA: Buenos Aires (letališče Jorge Newbery, Casa Rosada, kongres), Ezeiza (Ministro Pistarini) in vojaška območja so cone prepovedi letenja. Aerolíneas Argentinas in mestna središča imajo trajne omejitve — preverite AIP.",
-   "💰 KAZNI: Kršitve lahko privedejo do visokih glob, zasega opreme in v resnih primerih do kazenske odgovornosti. Za komercialno uporabo je potrebno zavarovanje odgovornosti."
-  ],
-  "primaryLinks": [
-   {
-    "title": "ANAC — VANT/SVANT (uradna spletna stran)",
-    "description": "Uradna spletna stran Nacionalne uprave za civilno letalstvo o dronih (VANT/SVANT): nov regulativni okvir — resolucija 550/2025, kategorije in operativne zahteve"
-   },
-   {
-    "title": "Registracija dronov (TAD)",
-    "description": "Obvezni sistem za registracijo dronov, težjih od 500 g, prek platforme Trámites a Distancia (TAD). Razred A (≤500 g) za rekreativno rabo je oproščen."
-   },
-   {
-    "title": "AIP — objava letalskih informacij",
-    "description": "Uradni sistem letalskih informacij ANAC: NOTAM-i, karte, omejeni zračni prostor. Preverite pred vsakim letom"
-   },
-   {
-    "title": "Resolucija ANAC 550/2025 (celotno besedilo)",
-    "description": "Uradno besedilo resolucije 550/2025, ki potrjuje RAAC del 100 (splošni), del 101 (kategorija Open) in del 102 (posebna kategorija)"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "CETA — potrdilo upravljavca (komercialna uporaba)",
-    "description": "Potrdilo letalskega upravljavca za komercialne operacije dronov. Potrebno za posebno kategorijo in poklicne lete"
-   },
-   {
-    "title": "Certifikacija kot član posadke na daljavo (pilot)",
-    "description": "Postopek za pridobitev dovoljenja kot daljinski pilot. Izpiti in zahteve za poklicno certifikacijo"
-   },
-   {
-    "title": "Nov regulativni okvir (uradni povzetek)",
-    "description": "Uradni povzetek ANAC o novem regulativnem okviru za drone po resoluciji 550/2025: ključne spremembe in kategorije"
-   }
-  ],
-  "disclaimerText": "Pred letenjem vedno preverite uradne vire ANAC. Ta aplikacija je orodje, ne pravni organ. Argentina uveljavlja resolucijo ANAC 550/2025 (RAAC del 100/101/102), veljavno od avgusta 2025.",
-  "sectionLabelRules": "KLJUČNA PRAVILA",
-  "sectionLabelPrimary": "URADNI VIRI",
-  "sectionLabelSecondary": "DODATNI VIRI",
-  "linksSheetTitle": "Zračni prostor in predpisi — Argentina",
-  "dronePilotCredentialName": "Potrdilo pilota UAV"
- }
+  "meta": {
+    "sourceHash": "9cca66a7c2aad0d0dc5edac3e33625910a5e790c5cdccb45c10be1fbd9252627",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Največja višina: 122 m (400 ft) nad tlemi v kategoriji Open (nenadzorovan zračni prostor)",
+      "Kategorija Open: letenje znotraj kontrolnih con letališč (CTR) je prepovedano. V nadzorovanem zračnem prostoru, znotraj 5 km od pragov vzletno-pristajalnih stez: največ 43 m in nikoli v priletnih ali vzletnih ravninah; za večjo višino je potrebno dovoljenje izvajalca navigacijskih služb zračnega prometa.",
+      "Heliporti: letenje znotraj 1 navtične milje (1,85 km) od referenčne točke (HRP) je prepovedano; med 1 in 2 navtičnima miljama največ 150 ft (46 m) nad heliportom, razen ob predhodni uskladitvi.",
+      "Prepovedano je letenje nad vojaškimi, varnostnimi ali zaporniškimi objekti in znotraj 1 navtične milje (1,85 km) od njih; nad rafinerijami, elektrarnami ali skladišči goriva brez dovoljenja lastnika; ter znotraj 25 m (navpično ali vodoravno) od visokonapetostnih daljnovodov.",
+      "Od ljudi in zgradb, ki niso vključeni v operacijo, morate ohranjati varno razdaljo.",
+      "Dron vedno ohranjajte v neposrednem vidnem polju (VLOS) v kategoriji Open",
+      "Pilotiranje ali delovanje kot opazovalec v 8 urah po uživanju alkohola ali pod vplivom psihoaktivnih snovi je prepovedano.",
+      "Nočni leti: ANAC Res. 312/2026 (maj 2026) je odpravila splošno omejitev v RAAC 100; smernice ANAC nočne operacije še vedno uvrščajo v posebno kategorijo — pred nočnim letenjem preverite pri ANAC.",
+      "Droni, lažji od 250 g, so izvzeti iz registracije, licenciranja in obveznega zavarovanja (resolucija 550/2025, avgust 2025). Droni od 250 g do 25 kg ne potrebujejo pilotske licence, vendar morajo biti digitalno registrirani pri ANAC v sistemu Casillero Aeronáutico Digital (CAD).",
+      "Droni ≥250 g: obvezna registracija pri CAD (ANAC) — v kategoriji Open pilotska licenca ni potrebna",
+      "Operacije v posebni kategoriji (25–150 kg ali mestni leti/BVLOS): zahtevajo pilotsko licenco, zdravniško spričevalo in potrdilo komercialnega upravljavca",
+      "Kategorija Open dovoljuje drone od 250 g do manj kot 25 kg brez predhodnega dovoljenja (droni z vrtljivimi krili brez omejitve teže le na podeželskih območjih, zunaj CTR in omejenega zračnega prostora)"
+    ],
+    "importantNotes": [
+      "📜 NOV OKVIR: Resolucija ANAC 550/2025 (veljavna od avgusta 2025, spremenjena z Res. 312/2026) nadomešča resolucijo 880/2019. Uvaja tri kategorije: Open, posebno in certificirano. RAAC Part 100/101/102.",
+      "Droni s težo 250 g ali več morajo biti pred prvim letom registrirani pri ANAC v sistemu Casillero Aeronáutico Digital (CAD) — registracija je brezplačna, poteka prek spleta in zahteva DNI ali potni list. Droni, lažji od 250 g (npr. DJI Mini ali Flip), so izvzeti iz registracije in licenciranja (resolucija 550/2025).",
+      "Turisti: sprejema se veljavno potrdilo o registraciji tega drona, ki ga je izdal organ za civilno letalstvo druge države ICAO (RAAC 100.05); registracija zgolj upravljavca morda ne zadostuje. Če vaš dron ni registriran, pri ANAC s potnim listom izpolnite brezplačno digitalno zapriseženo izjavo (Declaración Jurada).",
+      "🌳 NACIONALNI PARKI IN ZAVAROVANA OBMOČJA: APN prepoveduje rekreativno in športno uporabo dronov na vseh svojih zavarovanih območjih (APN Res. 9/2021), kot so Iguazú, Nahuel Huapi, Los Glaciares ali Tierra del Fuego. Poklicna ali znanstvena uporaba zahteva predhodno dovoljenje APN.",
+      "🏛️ OMEJENA OBMOČJA: letenje je prepovedano nad Casa Rosada, Quinta de Olivos, javnimi zgradbami in veleposlaništvi, znotraj 1 navtične milje od vojaških objektov ter znotraj kontrolnih con letališč, kot sta Aeroparque in Ezeiza — preverite AIP.",
+      "💰 KAZNI: kršitve se kaznujejo po Reglamento General de Infracciones de la Aviación Civil, brez poseganja v civilno ali kazensko odgovornost. Zavarovanje je obvezno v posebni in certificirani kategoriji (v kategoriji Open je prostovoljno)."
+    ],
+    "primaryLinks": [
+      {
+        "title": "ANAC — VANT/SVANT (uradna spletna stran)",
+        "description": "Uradna spletna stran Nacionalne uprave za civilno letalstvo o dronih (VANT/SVANT): nov regulativni okvir — resolucija 550/2025, kategorije in operativne zahteve"
+      },
+      {
+        "title": "Registracija dronov (CAD)",
+        "description": "Brezplačna digitalna zaprisežena izjava (Declaración Jurada) za drone od 250 g do 25 kg v sistemu Casillero Aeronáutico Digital (CAD) pri ANAC; izda se digitalno potrdilo o registraciji. Droni pod 250 g so izvzeti."
+      },
+      {
+        "title": "AIP — objava letalskih informacij",
+        "description": "Uradni sistem letalskih informacij ANAC: NOTAM-i, karte, omejeni zračni prostor. Preverite pred vsakim letom"
+      },
+      {
+        "title": "Resolucija ANAC 550/2025 (celotno besedilo)",
+        "description": "Uradno besedilo resolucije 550/2025, ki potrjuje RAAC del 100 (splošni), del 101 (kategorija Open) in del 102 (posebna kategorija)"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "CETA — potrdilo upravljavca (komercialna uporaba)",
+        "description": "Potrdilo letalskega upravljavca za komercialne operacije dronov. Potrebno za posebno kategorijo in poklicne lete"
+      },
+      {
+        "title": "Pooblastilo za člana posadke na daljavo (pilota)",
+        "description": "Postopek za pridobitev pooblastila pilota na daljavo. Izpiti in zahteve za poklicno certificiranje"
+      },
+      {
+        "title": "Nov regulativni okvir (uradni povzetek)",
+        "description": "Uradni povzetek ANAC o novem regulativnem okviru za drone po resoluciji 550/2025: ključne spremembe in kategorije"
+      }
+    ],
+    "disclaimerText": "Pred letenjem vedno preverite uradne vire ANAC. Ta aplikacija je orodje, ne pravni organ. Argentina uveljavlja resolucijo ANAC 550/2025 (RAAC Part 100/101/102), veljavno od avgusta 2025, ki jo je spremenila resolucija ANAC 312/2026.",
+    "sectionLabelRules": "KLJUČNA PRAVILA",
+    "sectionLabelPrimary": "URADNI VIRI",
+    "sectionLabelSecondary": "DODATNI VIRI",
+    "linksSheetTitle": "Zračni prostor in predpisi — Argentina",
+    "dronePilotCredentialName": "Licenca pilota na daljavo (RPA)"
+  }
 }

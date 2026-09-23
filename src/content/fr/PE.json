@@ -1,39 +1,42 @@
 {
   "meta": {
-    "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c7bb0eb5efb529d016ee7e14e38488c5a01fec2c25b6f85e5c65f17487613d71",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Altitude maximale : 152 m (500 ft) au-dessus du sol (AGL)",
-      "Distance minimale de 4 km des aéroports et aérodromes",
-      "Une distance minimale de 30 m à l'horizontale et de 20 m à la verticale des personnes, des bâtiments ou des objets",
-      "Usage commercial (tout poids) : enregistrement MTC requis + autorisation spécifique",
-      "Gardez toujours le drone en vue directe (VLOS)",
-      "Vol autorisé uniquement de jour — les vols de nuit nécessitent une autorisation spécifique de la DGAC",
-      "Zones urbaines : nécessitent une approbation préalable du MTC ; zones rurales : pas de restriction spécifique",
-      "Zones réglementées : aéroports, aérodromes, installations stratégiques et zones à forte densité de population, sauf autorisation",
-      "Distinction juridique : usage récréatif (loisir) vs usage professionnel/commercial (activités spécialisées)"
+      "Altitude maximale : 152 m (500 ft) au-dessus du sol (AGL) (NTC 001-2015, art. 8(e)(10)).",
+      "Distance minimale de 4 km des aéroports et aérodromes (NTC 001-2015, art. 8(e)(19)).",
+      "Gardez une distance minimale de 30 m à l'horizontale et de 20 m à la verticale des personnes, des bâtiments ou des obstacles pendant toutes les phases du vol (NTC 001-2015, art. 8(e)(9)).",
+      "Ne survolez pas les autoroutes, routes, sentiers, ponts, infrastructures électriques ou de télécommunications (poteaux, tours, câbles, antennes), voies navigables ou canalisations d'hydrocarbures ; à proximité, restez à plus de 30 m à l'horizontale de leur bord (NTC 001-2015, art. 8(e)(20)).",
+      "Usage récréatif : les drones de moins de 2 kg sont exclus du champ de la loi n° 30740 et de son règlement, mais les limitations d'exploitation de la NTC 001-2015 (altitude, distances, zones) s'appliquent à tout usage civil. À partir de 2 kg, et pour tout usage non récréatif, le drone doit être enregistré auprès de la DGAC ; le défaut d'enregistrement est passible d'une amende (loi n° 30740, art. 3 et 4) ; la procédure est automatique via le guichet virtuel du MTC (Mesa de Partes Virtual).",
+      "Usage non récréatif (quel que soit le poids) : enregistrement du drone, accréditation de pilote RPAS (18 ans ou plus, cours RPAS dans un CIAC ou un aéroclub, et examen de la DGAC), assurance responsabilité civile d'au moins 10 UIT, et autorisation de la DGAC (NTC 001-2015, par. 8(c)-(d)). L'enregistrement est automatique depuis janvier 2025.",
+      "Le drone doit rester en permanence dans le champ de vision direct du pilote.",
+      "Le vol n'est autorisé que de jour : la NTC interdit l'exploitation de nuit (après le coucher du soleil ou avant le lever du soleil) (NTC 001-2015, art. 8(e)(13)).",
+      "Zones urbaines et habitées : le vol n'est pas autorisé. La DGAC ne l'autorise qu'à titre exceptionnel pour les entités publiques, leurs sous-traitants, les services déclarés d'intérêt public, les pompiers et l'INDECI, avec des drones jusqu'à 6 kg équipés d'un parachute. Tout chef-lieu de département, de province ou de district et toute localité de plus de 1000 habitants sont considérés comme des zones urbaines. Zones rurales : soumises aux limitations générales de la norme (NTC 001-2015, art. 8(e)(2) et (f)).",
+      "Zones réglementées : aéroports, aérodromes, installations stratégiques et zones à forte densité de population, sauf autorisation.",
+      "Distinction juridique : usage récréatif (loisir) vs usage professionnel/commercial (activités spécialisées), avec des exigences différentes pour chacun."
     ],
     "importantNotes": [
       "🏛️ MACHU PICCHU ET SITES ARCHÉOLOGIQUES : le Ministry of Culture interdit l'usage de drones sans autorisation spéciale à Machu Picchu, sur le site des Nazca Lines, à Chan Chan, Caral, Kuélap et dans d'autres sites archéologiques. Une autorisation du Ministry of Culture est requise EN PLUS de celle du MTC.",
       "🌳 ZONES NATURELLES PROTÉGÉES ET AMAZONIE : le SERNANP (National Service for Protected Natural Areas) exige un permis spécial pour les drones dans des parcs comme Manu, Tambopata et Huascarán. L'Amazonie et les communautés autochtones font l'objet de restrictions supplémentaires.",
-      "🏙️ ZONES URBAINES DE LIMA ET CUSCO : le centre de Lima (Plaza Mayor, Government Palace), Jorge Chávez Airport (LIM), le centre de Cusco et l'aéroport (CUZ), les zones militaires et les ambassades font l'objet de restrictions permanentes. Le centre historique de Cusco nécessite un permis du Ministry of Culture."
+      "🏙️ ZONES URBAINES À LIMA ET CUSCO : Lima et Cusco sont des zones urbaines, où le vol n'est pas autorisé sauf autorisation exceptionnelle (NTC 001-2015, art. 8(e)(2) et (f)). Le palais du gouvernement, les zones militaires, les aéroports Jorge Chávez (LIM) et de Cusco (CUZ), ainsi que les zones publiées dans l'AIP-Perú ou par NOTAM sont également des zones réglementées (art. 8(e)(19) et (22)). Le centre historique de Cusco exige en outre un avis favorable du ministère de la Culture (loi n° 30740, art. 2.5).",
+      "⚠️ SANCTIONS : la Police nationale peut intervenir et saisir le drone s'il est utilisé en infraction à la réglementation ; la DGAC inflige des sanctions, notamment des amendes (D.S. 012-2026-MTC, art. 7 et 73 ; loi n° 30740, art. 4)."
     ],
     "primaryLinks": [
       {
-        "title": "MTC — Exigences pour l'exploitation d'un drone",
-        "description": "Site officiel du ministère des Transports et des Communications (MTC) énumérant les exigences pour l'exploitation des drones. Il comprend le règlement NTC 001-2015 et les procédures de la DGAC."
+        "title": "MTC — Règlement de la loi n° 30740 (D.S. 012-2026-MTC)",
+        "description": "Règlement officiel du MTC (29/05/2026). Les nouvelles catégories et licences entreront en vigueur lorsque la DGAC mettra à jour la NTC 001-2015 ; d'ici là, la NTC s'applique."
       },
       {
-        "title": "Guichet de dépôt virtuel du MTC — Enregistrement RPAS",
-        "description": "Plateforme en ligne officielle du MTC pour enregistrer les drones (RPAS) entièrement en ligne. Sélectionnez « Enregistrement des systèmes d'aéronefs télépilotés (RPAS) » et remplissez le formulaire"
+        "title": "MTC Mesa de Partes Virtual (guichet virtuel) — Enregistrement RPAS",
+        "description": "La plateforme en ligne officielle du MTC pour enregistrer les drones (RPAS) entièrement en ligne. Sélectionnez « Registro de Aeronaves Pilotadas a Distancia (RPAS) » (enregistrement des aéronefs télépilotés) et remplissez le formulaire"
       },
       {
         "title": "MTC — Page institutionnelle",
-        "description": "Site principal du ministère des Transports et des Communications. Accès aux procédures, réglementations et services aéronautiques fournis par la DGAC"
+        "description": "Site principal du ministère des Transports et des Communications. Accès aux procédures, à la réglementation et aux services aéronautiques de la DGAC"
       },
       {
         "title": "DGAC — Contact RPAS (autorisations)",
@@ -42,23 +45,23 @@
     ],
     "secondaryLinks": [
       {
-        "title": "El Peruano — Permis de drones (officiel)",
-        "description": "Journal officiel El Peruano : informations officielles sur les permis nécessaires pour exploiter des drones, selon le MTC et la DGAC"
+        "title": "MTC — Accréditation de pilote RPAS",
+        "description": "Page du MTC (mise à jour le 11/08/2026) : demande, examen en ligne et accréditation électronique des pilotes/exploitants RPAS (usage non récréatif)."
       },
       {
-        "title": "TV Perú — Guide officiel des exigences",
-        "description": "Couverture officielle du diffuseur public TV Perú avec des informations à jour sur les exigences pour l'exploitation des drones, telles que précisées par le MTC"
+        "title": "MTC — Enregistrement automatique des drones (2025)",
+        "description": "Avis du MTC (26/01/2025) : l'enregistrement RPAS ne prend que quelques minutes via le guichet virtuel (Mesa de Partes Virtual)."
       },
       {
         "title": "Bureaux du MTC — Service en personne",
-        "description": "Siège du MTC : Jr. Zorritos 1203, Cercado de Lima. Des services sont également disponibles dans les centres régionaux de service aux citoyens pour les démarches RPAS en personne."
+        "description": "Siège du MTC : Jr. Zorritos 1203, Cercado de Lima. Des services sont également disponibles dans les centres régionaux de service aux citoyens (Centros de Atención al Ciudadano) pour les démarches RPAS en personne."
       }
     ],
-    "disclaimerText": "Vérifiez toujours les sources officielles de la DGAC du Ministry of Transport and Communications (MTC) avant de voler. Cette application est un outil, pas une autorité juridique. Le Pérou applique la Complementary Technical Standard (NTC) 001-2015, avec un enregistrement simplifié via le Virtual Filing Desk du MTC.",
+    "disclaimerText": "Vérifiez toujours les sources officielles de la DGAC du ministère des Transports et des Communications (MTC) avant de voler. Cette application est un outil, pas une autorité juridique. Le Pérou applique la loi n° 30740, son règlement (D.S. n° 012-2026-MTC) et la NTC 001-2015, avec un enregistrement simplifié via le guichet virtuel du MTC (Mesa de Partes Virtual).",
     "sectionLabelRules": "RÈGLES CLÉS",
     "sectionLabelPrimary": "SOURCES OFFICIELLES",
     "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",
     "linksSheetTitle": "Espace aérien et réglementation — Pérou",
-    "dronePilotCredentialName": "Licence de télépilote RPAS"
+    "dronePilotCredentialName": "Accréditation de pilote/exploitant RPAS"
   }
 }

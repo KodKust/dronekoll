@@ -1,61 +1,65 @@
 {
   "meta": {
-    "sourceHash": "6bd279870909de9539cac55440892030da06bb4b119368a297585876f27098df",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e631818b431dccaf473ebde5f460a6b9eb0f571b8775190b265998e6821bc00d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne daugiau kaip 120 m virš žemės paviršiaus (EASA atviroji kategorija)",
-      "Registruokitės kaip UAS operatorius (nemokamai), jei dronas sveria 250 g ar daugiau arba turi kamerą",
-      "Reikalinga A1/A3 internetinė mokymo programa — mažiausias amžius 16 metų",
-      "Ribojamos archeologinės vietos: Acropolis, Delphi, Olympia ir kitos",
-      "Visada išlaikykite tiesioginį regėjimo ryšį su dronu (VLOS)",
+      "Atvirojoje kategorijoje didžiausias aukštis yra 120 m, matuojant iki artimiausio Žemės paviršiaus taško — ne tiesiog statmenai žemyn, todėl prie šlaito gali būti skaičiuojamas ir šalia jūsų esantis paviršius. 50 m atstumu nuo aukštos dirbtinės kliūties (aukštesnės nei 105 m) už kliūtį atsakingas subjektas gali prašyti leidimo skristi iki 15 m aukščiau už kliūtį.",
+      "Turite užsiregistruoti kaip dronų operatorius, jei jūsų dronas sveria 250 g ar daugiau (arba smūgio metu galėtų perduoti daugiau nei 80 J kinetinės energijos) — tai taikoma net žaislams. Jei dronas lengvesnis nei 250 g, registracija vis tiek privaloma, jei jame yra jutiklis, galintis rinkti asmens duomenis, nebent jis laikomas žaislu pagal ES žaislų saugos direktyvą. Pilotų mokymo / pažymėjimo reikalavimai yra atskiri ir priklauso nuo drono klasės ir pakategorės.",
+      "Jūsų operatoriaus registracijos numeris turi būti pažymėtas ant visų jūsų dronų ir įvestas į nuotolinio identifikavimo sistemą (Remote ID), jei dronas ją turi. Registracija Graikijoje atnaujinama po 3 metų.",
+      "Lankytojams iš ne ES / EASA šalių: jei jūsų dronui reikalinga registracija (žr. aukščiau) ir dar nesate užsiregistravę kitoje EASA valstybėje, prieš skrydį užsiregistruokite Graikijoje (neturint Graikijos mokesčių mokėtojo numerio (AFM) — specialus prašymas su pasu HCAA svetainėje). Kitos EASA valstybės gyventojai registruojasi savo gyvenamosios vietos šalyje. Ne ES šalių mokymai ir pilotų pažymėjimai ES nepripažįstami.",
+      "Civilinės atsakomybės tretiesiems asmenims draudimas reikalingas kiekvienam profesionaliai naudojamam dronui, taip pat asmeniniais tikslais naudojamiems 4 kg ir sunkesniems dronams (nacionaliniai teisės aktai).",
+      "Graikijoje mažiausias amžius yra 16 metų — amžiaus reikalavimas netaikomas skraidinant C0 klasės droną, kuris yra žaislas, A1 pakategorėje, savadarbį lengvesnį nei 250 g droną arba skrendant tiesiogiai prižiūrint sertifikuotam pilotui.",
+      "Tokios vietovės kaip Akropolis, Delfai ir Olimpija patenka į geltonas / purpurines zonas — priklausomai nuo konkrečios vietovės skrydžiai leidžiami laikantis sąlygų arba visiškai draudžiami, o išankstinį HCAA patvirtinimą būtina gauti ne vėliau kaip prieš 5 darbo dienas.",
+      "Atvirojoje kategorijoje droną privalote išlaikyti tiesioginiame regėjimo lauke plika akimi (akiniai / kontaktiniai lęšiai tinka; žiūronai ar ekranas neskaičiuojami) — arba padedant stebėtojui, visą laiką aiškiai ir veiksmingai bendraujant, kad kartu stebėtumėte oro erdvę ir išvengtumėte susidūrimų. „Sek paskui mane“ (follow-me) režimas yra atskira išimtis, leidžiama iki 50 m nuo piloto.",
       "Neskriskite virš žmonių susibūrimų. Neįtrauktiems asmenims taikomos taisyklės priklauso nuo subkategorijos, klasės žymos ir eksploatavimo sąlygų; patikrinkite oficialią lentelę.",
-      "Mažiausias 8 km atstumas nuo kiekvieno oro uosto",
+      "Vieno visoje ES taikomo atstumo, kurio reikia laikytis nuo oro uostų, nėra. Ribojimai prie oro uostų skelbiami kaip geografinės zonos (15 straipsnis), kurių forma ir dydis kiekviename oro uoste skiriasi. Prieš skrisdami netoli oro uosto, aerodromo ar sraigtasparnių aikštelės pasitikrinkite oficialų savo šalies dronų zonų žemėlapį; skrydžiams kontroliuojamoje zonoje (CTR) paprastai reikalingas išankstinis oro eismo valdymo tarnybos leidimas.",
       "Pagal EASA atvirosios kategorijos bazinius reikalavimus naktinis skrydis leidžiamas, jei naudojamas privalomas žalias mirksintis žibintas, išskyrus atvejus, kai galiojančios geografinės zonos ar nacionalinės taisyklės numato griežtesnes sąlygas.",
       "Salų oro uostai: atidžiai patikrinkite DAGR žemėlapį — daugelyje salų yra didelės CTR zonos"
     ],
     "importantNotes": [
-      "Archeologinėse vietose ir prie kultūros paveldo paminklų skraidyti griežtai draudžiama — taikomos didelės baudos",
+      "Miškų gaisrai: skraidyti draudžiama NOTAM nustatytose zonose. Jei matote gaisrus gesinančius orlaivius arba gaunate 112 pranešimą apie gaisrą vietovėje, nedelsdami nutraukite skrydį ir nusileiskite. Pažeidimai: bauda, baudžiamasis persekiojimas, drono konfiskavimas.",
+      "Archeologinėms vietovėms ir kultūros paveldo paminklams reikalingas išankstinis HCAA patvirtinimas (ne vėliau kaip prieš 5 darbo dienas) — jos ne visada visiškai draudžiamos, bet griežtai kontroliuojamos.",
       "Salų oro uostai sudaro plačias ribojamas zonas",
-      "Kariniai objektai: visiškos neskraidymo zonos (daugelis jų yra salose)",
+      "Neskraidykite virš uostų, ligoninių, energetikos ir telekomunikacijų objektų ar karinių ir vyriausybinių įrenginių be išankstinio HCAA leidimo — kai kurie kariniai ir vyriausybiniai įrenginiai DAGR žemėlapyje pažymėti kaip visiškai draudžiamosios skrydžių zonos (daug jų salose). Už pažeidimus gali būti skiriamos baudos, baudžiamosios sankcijos ir konfiskuojama įranga.",
       "Fiksuojant atpažįstamus asmenis taikomas GDPR"
     ],
     "primaryLinks": [
       {
         "title": "HCAA — Dronų taisyklės",
-        "description": "Oficialios Civilinės aviacijos institucijos taisyklės ir informacija dėl dronų"
+        "description": "Oficialios Hellenic Civil Aviation Authority (HCAA) taisyklės ir informacija apie dronus"
       },
       {
-        "title": "HCAA — Piloto registracija",
-        "description": "Nemokama registracija kaip UAS operatorius (galioja visose ES/EASA šalyse)"
+        "title": "HCAA – operatoriaus registracija",
+        "description": "Registracija kaip UAS operatorius (Graikijos gyventojams, mokestis 20 €; registracijos numeris galioja visose ES/EASA šalyse)"
       },
       {
         "title": "DAGR — Dronų oro erdvės žemėlapis",
         "description": "Oficialus geografinis dronų skrydžių ribojimų žemėlapis Graikijoje"
       },
       {
-        "title": "HCAA — Pranešimas apie skrydį",
-        "description": "Išankstinio pranešimo apie skrydį pateikimas prieš 5 dienas (reikalingas kiekvienam skrydžiui)"
+        "title": "HCAA – skrydžio patvirtinimo prašymas (DAGR zonos)",
+        "description": "Prašymas patvirtinti skrydžius geltonose / purpurinėse DAGR zonose (ne vėliau kaip prieš 5 darbo dienas)"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "HASP — Aviacijos sportas",
-        "description": "Graikijos aviacijos sporto federacija ir informacija apie pramoginius skrydžius"
+        "title": "HASP – oro navigacijos paslaugų teikėjas",
+        "description": "Graikijos oro navigacijos paslaugų teikėjas – DAGR ir NOTAM operatorius"
       },
       {
         "title": "HCAA — Dažnai užduodami klausimai apie dronus",
         "description": "Dažnai užduodami klausimai apie dronų taisykles Graikijoje"
       }
     ],
-    "disclaimerText": "Prieš kiekvieną skrydį visada pasitikrinkite oficialius Hellenic Civil Aviation Authority (HCAA) šaltinius ir DAGR žemėlapį. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Graikija laikosi EASA taisyklių su nacionaliniais papildymais, įskaitant privalomą reikalavimą apie skrydį pranešti prieš 5 dienas.",
-    "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS (EASA ATVIROJI KLASĖ)",
+    "disclaimerText": "Prieš kiekvieną skrydį visada pasitikrinkite oficialius Hellenic Civil Aviation Authority (HCAA) šaltinius ir DAGR žemėlapį. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Graikija laikosi EASA taisyklių su nacionaliniais papildymais, įskaitant, be kita ko, prašymo pateikimą HCAA ne vėliau kaip prieš 5 darbo dienas skrydžiams geltonose / purpurinėse DAGR zonose, kuriose skraidyti leidžiama laikantis sąlygų.",
+    "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS (EASA ATVIROJI KATEGORIJA)",
     "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
     "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
     "linksSheetTitle": "Oro erdvė ir taisyklės — Graikija",
-    "dronePilotCredentialName": "Operatoriaus pažymėjimas"
+    "dronePilotCredentialName": "Nuotolinio piloto pažymėjimas"
   }
 }

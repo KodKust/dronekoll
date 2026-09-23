@@ -1,27 +1,29 @@
 {
   "meta": {
-    "sourceHash": "b98ef8dd7e9c6b0c530a3757ad835b367dd07af3c65b9dd744c1512f5f5992cd",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "27f497a74725016dcbdecc01ce23d9050fb7893544b864e9bca529e0be6b134f",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Bis zu 120 m über Grund (EASA Open-Kategorie)",
-      "Registrierung als UAS-Betreiber, wenn die Drohne 250 g oder mehr wiegt oder mit einer Kamera ausgestattet ist",
-      "A1/A3-Onlineschulung verpflichtend – Mindestalter 16",
-      "Haftpflichtversicherung für Drohnen JEDEN Gewichts verpflichtend (Deckung von 1–2,5 Mio. €)",
-      "Brüssel: zwei Genehmigungen erforderlich (eine föderale und eine regionale)",
-      "Halte die Drohne stets in direkter Sichtverbindung (VLOS)",
+      "In der offenen Kategorie beträgt die maximale Höhe 120 m, gemessen als Abstand zum nächstgelegenen Punkt der Erdoberfläche – nicht einfach senkrecht nach unten, sodass an einem Hang auch das Gelände neben dir zählen kann. Innerhalb von 50 m um ein hohes künstliches Hindernis (höher als 105 m) kann die für das Hindernis verantwortliche Stelle eine Genehmigung beantragen, bis zu 15 m über die Höhe des Hindernisses zu fliegen.",
+      "Du musst dich als UAS-Betreiber registrieren, wenn deine Drohne 250 g oder mehr wiegt (oder bei einem Zusammenstoß mehr als 80 J kinetische Energie übertragen könnte) – das gilt auch für Spielzeug. Unter 250 g ist die Registrierung trotzdem erforderlich, wenn die Drohne einen Sensor hat, der personenbezogene Daten erfassen kann, es sei denn, sie gilt als Spielzeug im Sinne der EU-Spielzeugrichtlinie. Registriere dich in dem EU-/EASA-Land, in dem du wohnst (wohnst du außerhalb davon: im ersten EU-/EASA-Land, in dem du fliegen wirst); diese Registrierung gilt in allen EU-/EASA-Ländern. Die Anforderungen an Pilotenschulung/-zeugnis werden separat festgelegt und hängen von der Klasse und Unterkategorie der Drohne ab.",
+      "In Belgien liegt das Mindestalter für die Unterkategorien A1/A3 bei 14 Jahren – die kostenlose Online-Schulung und -Prüfung sind 5 Jahre gültig und EU-weit anerkannt. Für die Unterkategorie A2 bleibt das Mindestalter bei 16 Jahren. Ausnahmen von der Altersgrenze von 14 Jahren: kein Mindestalter für eine C0-Drohne, die ein Spielzeug ist (EU-Spielzeugrichtlinie), in A1, für eine privat gebaute Drohne unter 250 g oder unter direkter Aufsicht eines mindestens 16-jährigen Piloten, der das erforderliche Zeugnis besitzt.",
+      "Eine Haftpflichtversicherung (Personen- und Sachschäden Dritter) ist in der offenen Kategorie Pflicht, außer für Drohnen unter 900 g, die ausschließlich privat genutzt werden. Ab 20 kg gelten die Anforderungen der Verordnung (EG) Nr. 785/2004.",
+      "Ausländische Piloten: Eine Registrierung und ein A1/A3/A2-Zeugnis aus einem anderen EU-Mitgliedstaat gelten in Belgien; führe deinen Registrierungsnachweis mit und bringe deine Betreibernummer an der Drohne an. Die belgischen Geozonen und die belgische Versicherungspflicht (außer private Nutzung unter 900 g) gelten auch für dich.",
+      "Brüssel: In der Geozone EBR-01 brauchst du eine vorherige Genehmigung der betroffenen Institution, um über Botschaften sowie föderale und internationale (einschließlich EU-)Institutionen oder innerhalb von 50 m um sie zu fliegen. Prüfe außerdem die Bedingungen der CTR von Brussels Airport in Droneguide sowie die kommunalen Regeln, wenn du an einem öffentlichen Ort starten oder filmen willst.",
+      "In der offenen Kategorie musst du die Drohne in deiner eigenen Sichtweite halten, mit bloßem Auge (Brille/Kontaktlinsen sind in Ordnung; Fernglas oder Bildschirm zählen nicht) – oder mit Hilfe eines Beobachters fliegen, wobei ihr beide jederzeit klar und wirksam miteinander kommuniziert, damit ihr gemeinsam den Luftraum überwachen und Zusammenstöße vermeiden könnt. Der Follow-me-Modus in der Unterkategorie A1 ist eine gesonderte Ausnahme, zulässig bis 50 m vom Piloten.",
+      "Drohnen ohne Klassenkennzeichnung (vor 2024 in Verkehr gebracht): unter 250 g in A1, ansonsten nur in A3 und max. 25 kg (mind. 150 m Abstand zu Wohn-, Gewerbe-, Industrie- oder Erholungsgebieten). Ohne Klassenkennzeichnung und nach dem 31.12.2023 in Verkehr gebracht: nicht in der offenen Kategorie.",
       "Fliege nicht über Menschenansammlungen. Die Vorschriften für unbeteiligte Personen hängen von der Unterkategorie, der Klassenkennzeichnung und den Betriebsbedingungen ab; prüfe die offizielle Matrix.",
-      "Mindestens 3 km zu Flughäfen und Hubschrauberlandeplätzen",
+      "Es gibt keinen einheitlichen EU-weiten Abstand zu Flughäfen; Form und Größe der Geozonen unterscheiden sich je nach Flughafen. In einer belgischen CTR gelten Geozonen (siehe Droneguide): In VLL 0 rund um die Start- und Landebahnen ist die offene Kategorie verboten; in VLL 1 und VLL 2 max. 150 ft (ca. 45 m) über Grund (in VLL 1 außerdem nicht höher als das höchste Hindernis im Umkreis von 100 m). VLL 1: vorherige Genehmigung erforderlich; VLL 2: Flug mindestens 3 Stunden im Voraus anmelden. Beantrage dies über den skeyes DAA-planner; telefonische Erreichbarkeit, Geo-Awareness und Remote ID sind Pflicht (Remote ID nicht für C0 und bestimmte Drohnen unter 250 g).",
       "Nachtflüge sind gemäß den EASA-Grundvorschriften für die offene Kategorie zulässig, sofern das vorgeschriebene grün blinkende Licht verwendet wird, es sei denn, eine geltende geografische Zonenregelung oder nationale Vorschrift sieht strengere Auflagen vor.",
       "Prüfe in Droneguide die zonenspezifischen Höhengrenzen und Beschränkungen"
     ],
     "importantNotes": [
-      "Versicherung für Drohnen JEDEN Gewichts verpflichtend – Deckung von 1–2,5 Mio. € erforderlich",
-      "Brüssel erfordert sowohl die föderale Registrierung ALS AUCH eine regionale Genehmigung",
-      "Drei Flughäfen (Brüssel, Charleroi, Lüttich) richten große Sperrzonen ein",
+      "Haftpflichtversicherung verpflichtend, außer bei privater Nutzung von Drohnen unter 900 g",
+      "Brüssel (Geozone EBR-01): Fliegen über oder innerhalb von 50 m um Botschaften, föderale Regierungsinstitutionen und internationale Institutionen nur mit vorheriger Genehmigung der betroffenen Institution",
+      "Die kontrollierten Flughäfen (Brüssel, Antwerpen, Charleroi, Lüttich, Ostende) und Militärflugplätze haben CTR-Geozonen mit strengen Bedingungen; Kortrijk-Wevelgem hat eine RMZ/TMZ-Geozone.",
       "Verstöße können Bußgelder und strafrechtliche Verfolgung nach sich ziehen",
       "Die DSGVO gilt, sobald Bilder identifizierbarer Personen entstehen"
     ],
@@ -45,15 +47,15 @@
     ],
     "secondaryLinks": [
       {
-        "title": "skeyes – Flugsicherung",
-        "description": "Belgische Flugsicherung und Luftrauminformationen"
+        "title": "skeyes – Drohnen und Geozonen",
+        "description": "Drohnenseite der belgischen Flugsicherung: Bedingungen für Flüge in Geozonen und der DAA-planner"
       },
       {
         "title": "BCAA – Drohnen-FAQ",
         "description": "Häufig gestellte Fragen zu den Drohnenvorschriften in Belgien"
       }
     ],
-    "disclaimerText": "Prüfe vor dem Fliegen stets die offiziellen Quellen der BCAA und Droneguide. Diese App ist ein Hilfsmittel – keine rechtliche Instanz. Belgien folgt den EASA-Vorschriften, zu denen strenge nationale Versicherungsanforderungen gehören.",
+    "disclaimerText": "Prüfe vor dem Fliegen stets die offiziellen Quellen der BCAA und Droneguide. Diese App ist ein Hilfsmittel – keine rechtliche Instanz. Belgien folgt den EASA-Vorschriften, ergänzt durch nationale Regeln (u. a. Versicherungspflicht und feste geografische Zonen).",
     "sectionLabelRules": "WICHTIGSTE REGELN (EASA OPEN-KATEGORIE)",
     "sectionLabelPrimary": "OFFIZIELLE QUELLEN",
     "sectionLabelSecondary": "WEITERE RESSOURCEN",

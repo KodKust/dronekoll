@@ -1,33 +1,36 @@
 {
   "meta": {
-    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "17cf8ce1211fdb6fb07c1979f47d5e58",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
-    "disclaimerText": "Athugaðu ávallt opinberar heimildir DGCA og DigitalSky áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild. Indland notar skyldubundinn stafrænan vettvang til að uppfylla allar reglur um dróna.",
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir DGCA (eGCA) og DigitalSky áður en þú flýgur. Þetta forrit er verkfæri — ekki lögbær heimild.",
     "sectionLabelRules": "HELSTU REGLUR",
     "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
     "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
     "linksSheetTitle": "Loftrými og reglur — Indland",
     "dronePilotCredentialName": "Fjarflugmannsskírteini",
     "keyRules": [
-      "DigitalSky skiptir loftrýminu í Green-svæði (sjálfvirk heimild strax), Yellow-svæði (stýrt loftrými, sjálfvirk afgreiðsla tekur um 15-30 mín. — þar á meðal beltið umhverfis flugvelli, um það bil 8-12 km) og Red-svæði (takmörkuð svæði þar sem handvirkt samþykki er nauðsynlegt). Athugaðu alltaf DigitalSky áður en þú flýgur, því nákvæm mörk svæða við tiltekinn flugvöll geta vikið frá þessu almenna mynstri.",
+      "DigitalSky skiptir loftrýminu í Green (engin heimild nauðsynleg, allt að 120 m/400 ft), Yellow (heimild frá viðkomandi flugumferðarstjórnaryfirvaldi) og Red (eingöngu heimild frá ríkisstjórn Indlands). 8–12 km frá jaðri starfandi flugvallar gildir Green aðeins upp í 60 m (200 ft); þar fyrir ofan er Yellow. Athugaðu alltaf DigitalSky-kortið áður en þú flýgur.",
+      "Nema dróninn sé undanþeginn (Nano-drónar allt að 250 g, eða módeldrónar allt að 25 kg sem eingöngu eru notaðir til kennslu, rannsókna eða tómstunda innan sjónlínu) verður hann að vera í samræmi við tegundarvottorð DGCA. DGCA hefur tímabundið stöðvað skráningu dróna án tegundarvottorðs þar til annað verður tilkynnt (aðeins Nano- og módeldrónar framleiddir á Indlandi geta sótt beint um hjá DGCA) og óskráðum dróna má ekki fljúga.",
       "Trygging er skyldubundin fyrir alla flokka nema Nano",
-      "Remote Pilot Certificate (RPC) er nauðsynlegt fyrir atvinnunotkun Micro-dróna (250g-2kg) og stærri dróna og er skyldubundið fyrir alla dróna í Small-flokki (2-25 kg) og stærri flokkum óháð tilgangi. Nano-drónar (<250g) þurfa aldrei RPC, jafnvel ekki í atvinnunotkun.",
+      "Remote Pilot Certificate (RPC) er nauðsynlegt fyrir atvinnunotkun Micro-dróna (>250 g–2 kg) og stærri dróna og er skyldubundið fyrir alla dróna í Small-flokki (2-25 kg) og stærri flokkum óháð tilgangi. Nano-drónar (≤250 g) þurfa aldrei RPC, jafnvel ekki í atvinnunotkun.",
       "Öll flug verða að vera innan sjónlínu — dróninn verður að vera sýnilegur berum augum allan tímann, án sjónauka eða sambærilegra hjálpartækja — nema DGCA hafi veitt sérstaka EVLOS/BVLOS-heimild.",
       "Flug á Red-svæðum er stranglega bannað án sérstakrar heimildar frá viðkomandi yfirvaldi í gegnum DigitalSky."
     ],
     "importantNotes": [
-      "DigitalSky-skráning er skyldubundin fyrir alla dróna nema Nano (<250g), sem þarf hvorki skráningu né UIN. Flug með óskráðum dróna sem skráningarskylda gildir um getur leitt til haldlagningar.",
+      "Allir drónar, þar á meðal Nano (≤250 g), verða að vera skráðir og hafa UIN (í gegnum eGCA-gátt DGCA) áður en flogið er. Nano-drónar eru aðeins undanþegnir tegundarvottun, Remote Pilot Certificate og ábyrgðartryggingu gagnvart þriðja aðila. Flug með óskráðan dróna getur varðað sektum og haldlagningu.",
+      "Ferðamenn: innflutningur dróna til Indlands er bannaður samkvæmt DGFT Notification 54/2022 (allir þyngdarflokkar, þar á meðal ≤250 g), nema með heimild DGFT til nota á vegum stjórnvalda/í rannsóknum og þróun eða í varnar-/öryggismálum. Skráning krefst indversks vegabréfs eða skilríkis útgefins af indverskum stjórnvöldum og sönnunar á heimilisfangi, svo að dróna ferðamanns er almennt ekki hægt að skrá eða fljúga löglega.",
       "Rauð svæði ná til flugvalla, hersvæða, landamæra og viðkvæmra staða",
-      "Trygging er skyldubundin fyrir dróna í Micro-, Small- og Medium-flokkum"
+      "Trygging er skyldubundin fyrir dróna í Micro-, Small- og Medium-flokkum",
+      "Tilkynna verður DGCA um hvert slys sem dróninn þinn á hlut að innan 48 klukkustunda."
     ],
     "primaryLinks": [
       {
         "title": "DigitalSky — DGCA-vettvangur",
-        "description": "Skyldubundinn vettvangur fyrir drónaskráningu, flugheimildir og svæðaathuganir"
+        "description": "Skyldubundinn vettvangur fyrir flugheimildir og svæðaathuganir"
       },
       {
         "title": "DGCA — Drónareglugerðir",

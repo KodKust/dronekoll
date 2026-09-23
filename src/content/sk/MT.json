@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "20d25911745bc6945c5cccf0785ea82d556cd1bb0a98eb5f9e4b1f82d7230b03",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "58ca5d4ebda944ebab8099950bf44fbb0464a578adf9411beaecf769f1064e8c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálne 120 m nad úrovňou terénu (kategória EASA Open)",
-      "Zaregistrujte sa ako prevádzkovateľ UAS (€25/rok alebo €10 za turistický preukaz)",
-      "Vyžaduje sa online školenie A1/A3 — minimálny vek 16 rokov",
+      "V otvorenej kategórii je maximálna výška 120 m meraná ako vzdialenosť k najbližšiemu bodu zemského povrchu — nie jednoducho zvislo nadol, takže pri svahu sa môže počítať aj terén vedľa vás. Do 50 m od vysokej umelej prekážky (vyššej ako 105 m) môže subjekt za ňu zodpovedný požiadať o povolenie lietať až 15 m nad výškou prekážky.",
+      "Zaregistrujte sa ako prevádzkovateľ UAS na tmcad.idronect.com (25 €/rok; návštevníci s číslom prevádzkovateľa EASA: 10 € na 3 mesiace)",
+      "Registračné číslo prevádzkovateľa alebo jeho QR kód musí byť vytlačené a pripevnené na drone — polícia to môže kontrolovať a za nedodržanie hrozí pokuta.",
+      "Osvedčenie A1/A3 sa vyžaduje pre drony nad 250 g (online školenie, skúška v kanceláriách TM-CAD v Lija) — minimálny vek 16 rokov",
+      "Drony s triednym označením C1, C2 alebo C3 vybavené Remote ID musia lietať s aktívnym a aktuálnym Remote ID, do ktorého je zadané registračné číslo prevádzkovateľa.",
       "Poistenie zodpovednosti voči tretím osobám je povinné pre drony akejkoľvek hmotnosti",
       "CELÁ krajina je riadený vzdušný priestor — vždy skontrolujte IDRONECT",
-      "Dron majte vždy vo vizuálnom dohľade (VLOS)",
+      "V otvorenej kategórii musíte dron udržiavať v priamom vizuálnom dohľade, iba vlastnými očami (okuliare alebo kontaktné šošovky sú v poriadku; ďalekohľad ani obrazovka sa nepočítajú) — alebo lietať s pomocou pozorovateľa, pričom medzi vami musí byť neustále jasná a účinná komunikácia, aby ste spoločne mohli sledovať vzdušný priestor a predchádzať zrážkam. Režim „Follow-me“ je samostatná výnimka povolená do 50 m od pilota.",
       "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre osoby, ktoré nie sú priamo zapojené, závisia od podkategórie, triedneho označenia a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
-      "CTR letiska Malta International Airport pokrýva väčšinu ostrova",
+      "Celá Malta je riadený vzdušný priestor — každý let dronu vyžaduje povolenie TM-CAD cez tmcad.idronect.com. Mnohé žiadosti s nízkym rizikom sa schvaľujú automaticky v priebehu niekoľkých minút, keď systém potvrdí, že let spĺňa požiadavky; dodržiavajte podmienky uvedené vo svojom Authorisation Form. Samostatná bezletová zóna 5 km pokrýva oblasť Malta International Airport.",
+      "Lety, ktoré nie sú povolené automaticky, treba podať najmenej 5 pracovných dní vopred. Na lietanie v obmedzenej zóne nahrajte do IDRONECT list s povolením („no objection“) od vlastníka zóny.",
       "Nočné lietanie je bez osobitného povolenia zakázané",
-      "Valletta a historické oblasti: platia ďalšie obmedzenia"
+      "Valletta je „Special Permit Zone“: komerčné lety vyžadujú osobitné povolenie vrátane „no objection“ od Office of the Prime Minister. Pri akomkoľvek inom lete vo Vallette a v ostatných obmedzených zónach si pred letom skontrolujte mapu IDRONECT a podmienky povolenia."
     ],
     "importantNotes": [
-      "CELÁ krajina je riadený vzdušný priestor — jedinečné v EÚ",
+      "CELÁ krajina je riadený vzdušný priestor — každý let vyžaduje povolenie TM-CAD",
       "Poistenie je povinné pre drony akejkoľvek hmotnosti",
-      "CTR letiska Malta Airport pokrýva väčšinu hlavného ostrova",
-      "Pre krátkodobých návštevníkov je k dispozícii turistická registrácia (€10)",
-      "Pri zachytávaní snímok identifikovateľných osôb platí GDPR."
+      "Letiskové zóny a ďalšie obmedzené zóny skontrolujte na mape IDRONECT (tmcad.idronect.com/map)",
+      "Trojmesačná registrácia (10 €) pre návštevníkov, ktorí už majú registračné číslo prevádzkovateľa EASA; inak 25 €",
+      "Pri zachytávaní snímok identifikovateľných osôb platí GDPR.",
+      "Majte pri sebe doklad o registrácii, poistení, licencii a povolení — ak ich nemáte, hrozia pokuty. Let bez povolenia alebo mimo jeho podmienok môže viesť k zhabaniu dronu."
     ],
     "primaryLinks": [
       {
@@ -32,7 +36,7 @@
       },
       {
         "title": "TM-CAD — Registrácia prevádzkovateľa",
-        "description": "Zaregistrujte sa ako prevádzkovateľ UAS (€25/rok alebo €10 turistický, platné vo všetkých krajinách EÚ/EASA)"
+        "description": "Zaregistrujte sa ako prevádzkovateľ UAS na tmcad.idronect.com (25 €/rok, platné vo všetkých krajinách EÚ/EASA; 10 € na 3 mesiace pre návštevníkov, ktorí už majú číslo prevádzkovateľa EASA)"
       },
       {
         "title": "IDRONECT — Správa letov",
@@ -49,8 +53,8 @@
         "description": "Maltské letové prevádzkové služby a informácie o vzdušnom priestore"
       },
       {
-        "title": "TM-CAD — Časté otázky o dronoch",
-        "description": "Často kladené otázky o predpisoch pre drony na Malte"
+        "title": "TM-CAD — informácie a pomoc",
+        "description": "Informácie a pomoc k predpisom pre drony na Malte"
       }
     ],
     "disclaimerText": "Pred lietaním vždy skontrolujte oficiálne zdroje TM-CAD a IDRONECT. Táto aplikácia je nástroj, nie právny zdroj. Malta sa riadi predpismi EASA — pamätajte, že celá krajina je riadený vzdušný priestor.",

@@ -1,29 +1,30 @@
 {
   "meta": {
-    "sourceHash": "c60fe25d411d1b17d1f39a3942f259be9fd7a6aefee2fdedfab7c81c48111b27",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "92806b910a3a8d8837e79579753fac51d498af3b1113a2e662fd8b4a6e40e9d4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne vairāk kā 120 m virs zemes (EASA atvērtā kategorija)",
-      "Reģistrācija nepieciešama droniem, kas sver 120 g vai vairāk (stingrāka prasība nekā EASA 250 g slieksnis)",
-      "A1/A3 tiešsaistes apmācības kurss ir obligāts — minimālais vecums 16 gadi",
-      "Obligāta civiltiesiskās atbildības apdrošināšana visām dronu operācijām.",
-      "Budapest pilsētā atļaujas lidojumiem pilsētvidē jāpieprasa 30 dienas iepriekš.",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, ko saprot kā attālumu līdz tuvākajam Zemes virsmas punktam — nevis vienkārši vertikāli uz leju, tāpēc nogāzes tuvumā var ņemt vērā arī zemi tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgais subjekts var pieprasīt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Papildus operatora reģistrācijai Ungārijā aviācijas iestādē jāreģistrē arī pats drons (ierīces reģistrācija) — pieteikums jāiesniedz vismaz 10 dienas pirms lidojuma, un izsniegtajai reģistrācijas zīmei jābūt skaidri redzamai uz drona. Vienīgais izņēmums ir rotaļlietu drons: drons, kas kvalificējas kā rotaļlieta, sver mazāk par 120 g, tam nav datu ierakstīšanas ierīces un tas nevar aizlidot tālāk par 100 m.",
+      "Patstāvīgai lidošanai atvērtajā kategorijā minimālais vecums ir 16 gadi — A1/A3 apmācība KTI ir bezmaksas, bet eksāmens jākārto klātienē KAV eksāmenu centrā (maksa: 12 700 Ft); apliecība ir derīga 5 gadus un atzīta visā ES. Jaunāki piloti drīkst lidot tikai tāda pilota tiešā uzraudzībā, kurš ir vecāks par 16 gadiem un jau nokārtojis eksāmenu.",
+      "Obligāta civiltiesiskās atbildības apdrošināšana — saskaņā ar iestādes skaidrojumu atpūtas lidojumi atvērtajā kategorijā ar dronu līdz 250 g ir atbrīvoti; lidojuma laikā ņem līdzi apdrošināšanas apliecinājumu.",
+      "Virs apbūvētām teritorijām — jebkurā pilsētā vai ciemā, ne tikai Budapeštā — ar droniem drīkst lidot tikai militārās aviācijas iestādes noteiktā ad hoc gaisa telpā; pieteikums jāiesniedz vismaz 30 dienas pirms plānotā lidojuma. Izņēmums: rotaļlietu drons, t. i., drons, kas kvalificējas kā rotaļlieta, sver mazāk par 120 g, tam nav datu ierakstīšanas ierīces un tas nevar aizlidot tālāk par 100 m.",
       "Katram lidojumam nepieciešama MyDroneSpace lietotne",
-      "Vienmēr saglabā tiešu redzamības kontaktu (VLOS)",
+      "Atvērtajā kategorijā turi dronu savā tiešajā redzamības laukā ar neapbruņotu aci (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai izmanto novērotāju, ar kuru visu laiku uzturi skaidru un efektīvu saziņu, lai jūs kopā varētu uzraudzīt gaisa telpu un izvairīties no sadursmēm. “Follow-me” režīms ir atsevišķs izņēmums, kas atļauts 50 m rādiusā no pilota.",
       "Nelido pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz lidojumā neiesaistītām personām ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudi oficiālo tabulu.",
-      "Vismaz 5 km no jebkuras lidostas vai nolaišanās vietas",
-      "Parlaments, valdības ēkas un militārās zonas: pilnīgs lidojumu aizliegums"
+      "Nav viena visā ES noteikta attāluma, kas jāievēro no lidostām. Ierobežojumi lidostu tuvumā tiek publicēti kā ģeogrāfiskās zonas (Article 15), kuru forma un izmērs dažādās lidostās atšķiras. Pirms lidošanas jebkur lidostas, lidlauka vai helikopteru lidlauka tuvumā pārbaudi savas valsts oficiālo dronu zonu karti; lidošanai kontroles zonā (CTR) parasti nepieciešama iepriekšēja gaisa satiksmes vadības atļauja.",
+      "Budapeštas CTR ārpus LHBP No Drone Zone, kā arī Kecskemét, Szolnok un Pápa militārajās kontroles zonās (MCTR) ārpus No Drone Zones drīkst lidot līdz 40 m virs zemes bez gaisa satiksmes vadības atļaujas; lidošana No Drone Zones ir aizliegta. 2 km rādiusā no to lidlauku kontrolpunkta, kuriem nav ATZ, un 750 m rādiusā no gaisa ambulances helikopteru nosēšanās vietām drīkst lidot tikai ar lidlauka operatora piekrišanu, un aviācijas iestāde jāinformē vismaz 2 dienas iepriekš.",
+      "Lidot ar dronu aizliegts 300 m rādiusā no prioritārās nacionālās memoriālās vietas (teritorija ap Parlamentu un Košuta laukumu), noteiktiem aizsargājamiem objektiem un objektiem, kam ir īpaša nozīme valsts darbībā; tāpat aizliegts lidot 300 m rādiusā no noteiktas kritiskās un aizsardzības infrastruktūras, izņemot ar operatora atļauju. Lidošana ir aizliegta aizliegtajā (P) gaisa telpā, bet ierobežotajā (R) gaisa telpā tā atļauta tikai saskaņā ar piemērojamajiem noteikumiem."
     ],
     "importantNotes": [
-      "Reģistrācija tagad ir obligāta droniem, kas sver 120 g vai vairāk — daudz stingrāka prasība nekā standarta EASA 250 g slieksnis",
-      "Budapest pilsētā atļauja jāpieprasa 30 dienas iepriekš — plāno laikus.",
+      "Ungārijā visi droni, izņemot rotaļlietu dronus, jāreģistrē (ierīces reģistrācija) vismaz 10 dienas pirms lidojuma — neatkarīgi no svara.",
+      "Virs apbūvētām teritorijām (ne tikai Budapeštā) drīkst lidot tikai ad hoc gaisa telpā — pieteikumu iesniedz vismaz 30 dienas iepriekš.",
       "Katram lidojumam nepieciešama MyDroneSpace lietotne",
-      "Civiltiesiskās atbildības apdrošināšana ir obligāta visiem droniem neatkarīgi no svara",
-      "GDPR attiecas uz datu ievākšanu par identificējamām personām."
+      "Civiltiesiskās atbildības apdrošināšana ir obligāta — saskaņā ar iestādes skaidrojumu atpūtas lidojumi atvērtajā kategorijā ar dronu līdz 250 g ir atbrīvoti.",
+      "GDPR ir piemērojama, ja ieraksti identificējamas personas"
     ],
     "primaryLinks": [
       {
@@ -35,8 +36,8 @@
         "description": "Reģistrācijas un lidojumu pārvaldības lietotne (nepieciešama visiem lidojumiem)"
       },
       {
-        "title": "MyDroneSpace — Gaisa karte",
-        "description": "Oficiālā interaktīvā karte, kurā redzamas dronu zonas un gaisa telpas ierobežojumi"
+        "title": "MyDroneSpace – Gaisa telpas karte",
+        "description": "HungaroControl oficiālā mydronespace tīmekļa saskarne ar dronu zonām un gaisa telpas ierobežojumiem (nepieciešama reģistrācija/pieteikšanās)"
       },
       {
         "title": "HungaroControl — Noteikumu pārskats",
@@ -49,7 +50,7 @@
         "description": "Ungārijas Civilās aviācijas iestādes licencēšanas informācija"
       },
       {
-        "title": "HungaroControl — Biežāk uzdotie jautājumi par droniem",
+        "title": "MyDroneSpace – Dronu BUJ",
         "description": "Biežāk uzdotie jautājumi par Ungārijas dronu noteikumiem"
       }
     ],

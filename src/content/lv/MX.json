@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "17d852a01e48f71061854c0a7b614ed78721768d3d73eccf5ccdda3a556d264f",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "da2427b1326315670ad00c40760c98fe7dcb581d5abb3f16d2aa07daea8f6c28",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maksimālais augstums: 120 m (400 ft) virs zemes",
-      "Minimālais attālums 9,2 km no kontrolētām lidostām",
-      "Minimālais attālums 3,7 km no nekontrolētiem lidlaukiem",
+      "Minimālais attālums 9,2 km (5 NM) no jebkura lidlauka — kontrolēta vai nekontrolēta (NOM-107-SCT3-2019, 4.10.1).",
+      "No 9,2 km (5 NM) līdz 18,5 km (10 NM) attālumā no NOM-107 (Appendix I) uzskaitītajiem lidlaukiem: maksimālais augstums 100 m (328 ft).",
       "Minimālais attālums 900 m no helikopteru laukumiem",
+      "Lidot aizliegts AIP (ENR 5.1) aizliegtajās, ierobežotajās vai bīstamajās zonās un helikopteru koridoros; pirms katra lidojuma pārbaudi NOTAM.",
       "Vienmēr turi dronu tiešā redzamības laukā (VLOS), ne tālāk par 457 m no operatora",
-      "Droni, kas sver 250 g vai vairāk: obligāta reģistrācija AFAC (veidlapa Appendix K)",
+      "Droni virs 250 g: pirms lidošanas obligāta reģistrācija AFAC (veidlapa Appendix K)",
       "Droni, kas sver mazāk par 250 g: atbrīvoti no reģistrācijas, bet piemēro visus pārējos noteikumus",
-      "Svara kategorijas: Micro (≤2 kg), Light (2–25 kg), Heavy (>25 kg)",
+      "Svara kategorijas: Micro (≤2 kg), Small (>2–25 kg), Large (>25 kg)",
+      "Atpūtas droni virs 2 kg: drīkst lidot tikai AFAC atļautos lidmodeļu klubos.",
       "Nakts lidojumiem nepieciešama īpaša AFAC atļauja",
-      "Komerciālai lietošanai nepieciešama papildu atļauja atkarībā no svara kategorijas"
+      "Privāta nekomerciāla vai komerciāla lietošana: obligāta derīga civiltiesiskās atbildības apdrošināšana; Micro (≤2 kg) papildus nepieciešama īpaša atļauja lidošanai kontrolētā gaisa telpā; Small un Large nepieciešama AFAC ekspluatācijas atļauja."
     ],
     "importantNotes": [
-      "⚠️ ĀRVALSTU PILOTI: NOM-107 aizliedz ārvalstīs reģistrētu vai ārvalstnieku darbinātu dronu ekspluatāciju, ja vien starp Meksiku un izcelsmes valsti nav divpusējs līgums. Tūristi: pārbaudi pirms ceļojuma.",
-      "Sods par nelikumīgu darbību var sasniegt MXN $80 000 vai ietvert brīvības atņemšanu",
+      "ĀRVALSTU PILOTI: NOM-107-SCT3-2019 aizliedz ekspluatēt dronus ar ārvalstu reģistrāciju vai dronus, kurus vada ārvalstu pilsoņi, ja vien starp Meksiku un izcelsmes valsti nav noslēgts divpusējs nolīgums — pašlaik nav zināms neviens spēkā esošs šāds nolīgums.",
+      "Lai Meksikā ievestu Micro dronus virs 250 g un Small dronus, tiem jābūt norādītam ražotājam un modelim, sērijas numuram, lietošanas instrukcijai un programmatūrai, kas automātiski ierobežo attālumu un augstumu (NOM-107, 10.1).",
+      "Par NOM-107 neievērošanu AFAC var piemērot sankcijas saskaņā ar Ley de Aviación Civil; dronu izmantošana noziegumu izdarīšanai (piemēram, sprāgstvielu nomešanai vai uzbrukumiem cilvēkiem) tiek sodīta ar brīvības atņemšanu (Código Penal Federal, 163 Bis–Quáter pants).",
       "Nacionālie parki un arheoloģiskās vietas (INAH) parasti aizliedz dronus bez īpašas atļaujas",
       "Jahtu ostas un piekrastes zonas bieži ir pakļautas ierobežojumiem — noskaidro vietējās iestādēs",
       "AFAC reģistra atbildes termiņš ir līdz 10 darbdienām — plāno laikus"
@@ -37,16 +40,12 @@
       {
         "title": "NOM-107-SCT3-2019 — Oficiālais standarts",
         "description": "Oficiālais Meksikas standarts, kas nosaka prasības tālvadības pilotējamas gaisa kuģu sistēmas ekspluatācijai"
-      },
-      {
-        "title": "Apkārtraksts CO AV-23/10 R4",
-        "description": "Obligāts apkārtraksts, kas nosaka detalizētas tehniskās un ekspluatācijas prasības droniem"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "ASA — Lidostas un palīgpakalpojumi",
-        "description": "Informācija par Meksikas federālajām lidostām, lai pārbaudītu ierobežotās zonas"
+        "title": "AFAC — Lidlauku un helikopteru lidlauku datubāze",
+        "description": "Aktuālais oficiālais lidlauku un helikopteru lidlauku saraksts NOM-107 minimālo attālumu pārbaudei"
       },
       {
         "title": "SICT — Civilā aviācija",
@@ -62,6 +61,6 @@
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",
     "linksSheetTitle": "Gaisa telpa un noteikumi — Meksika",
-    "dronePilotCredentialName": "Tālvadības pilota licence"
+    "dronePilotCredentialName": "RPAS pilota atļauja"
   }
 }

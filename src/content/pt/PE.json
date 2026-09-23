@@ -1,39 +1,42 @@
 {
   "meta": {
-    "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "sourceHash": "c7bb0eb5efb529d016ee7e14e38488c5a01fec2c25b6f85e5c65f17487613d71",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Altitude máxima: 152 m (500 ft) acima do nível do solo (AGL)",
-      "Distância mínima de 4 km de aeroportos e aeródromos",
-      "Uma distância mínima de 30 m na horizontal e 20 m na vertical de pessoas, edifícios ou objetos",
-      "Uso comercial (qualquer peso): exige registo no MTC + autorização específica",
-      "Mantenha sempre o drone dentro da linha de vista direta (VLOS)",
-      "Voo permitido apenas durante o dia — os voos noturnos exigem autorização específica da DGAC",
-      "Zonas urbanas: exigem aprovação prévia do MTC; zonas rurais: sem restrições específicas",
-      "Zonas restritas: aeroportos, aeródromos, instalações estratégicas e zonas de elevada densidade populacional sem autorização",
-      "Distinção legal: uso recreativo (lazer) vs. uso profissional/comercial (atividades especializadas)"
+      "Altitude máxima: 152 m (500 ft) acima do nível do solo (AGL) (NTC 001-2015, art. 8(e)(10)).",
+      "Distância mínima de 4 km de aeroportos e aeródromos (NTC 001-2015, art. 8(e)(19)).",
+      "Mantenha uma distância mínima de 30 m na horizontal e 20 m na vertical de pessoas, edifícios ou obstáculos em todas as fases do voo (NTC 001-2015, art. 8(e)(9)).",
+      "Não sobrevoe autoestradas, estradas, trilhos, pontes, infraestruturas elétricas ou de telecomunicações (postes, torres, cabos, antenas), vias navegáveis ou oleodutos e gasodutos; junto a estes, mantenha-se a mais de 30 m na horizontal da respetiva margem (NTC 001-2015, art. 8(e)(20)).",
+      "Uso recreativo: os drones com menos de 2 kg estão excluídos da Lei n.º 30740 e do respetivo Regulamento, mas as limitações operacionais da NTC 001-2015 (altitude, distâncias, zonas) aplicam-se a todo o uso civil. A partir de 2 kg, e para todo o uso não recreativo, o drone tem de estar registado na DGAC; a falta de registo é punível com multa (Lei n.º 30740, arts. 3 e 4); o procedimento é automático através do balcão virtual do MTC (Mesa de Partes Virtual).",
+      "Uso não recreativo (qualquer peso): registo do drone, acreditação de piloto de RPAS (18 anos ou mais, curso de RPAS num CIAC ou aeroclube, e exame da DGAC), seguro de responsabilidade civil de pelo menos 10 UIT e autorização da DGAC (NTC 001-2015, n.º 8(c)-(d)). O registo é automático desde janeiro de 2025.",
+      "O drone tem de permanecer sempre dentro da linha de vista direta do piloto.",
+      "Só é permitido voar durante o dia: a NTC proíbe operar em condições noturnas (depois do pôr do sol ou antes do nascer do sol) (NTC 001-2015, art. 8(e)(13)).",
+      "Zonas urbanas e povoadas: não é permitido voar. A DGAC só o autoriza excecionalmente a entidades públicas, aos seus contratantes, a serviços declarados de interesse público, aos bombeiros e ao INDECI, com drones até 6 kg equipados com paraquedas. Considera-se zona urbana qualquer capital de departamento, província ou distrito e qualquer localidade com mais de 1000 habitantes. Zonas rurais: sujeitas às limitações gerais da norma (NTC 001-2015, art. 8(e)(2) e (f)).",
+      "Zonas restritas: aeroportos, aeródromos, instalações estratégicas e zonas de elevada densidade populacional, salvo autorização.",
+      "Distinção legal: uso recreativo (lazer) vs. uso profissional/comercial (atividades especializadas), com requisitos diferentes para cada um."
     ],
     "importantNotes": [
       "🏛️ MACHU PICCHU E SÍTIOS ARQUEOLÓGICOS: o Ministério da Cultura proíbe o uso de drones sem autorização especial em Machu Picchu, nas Linhas de Nazca, em Chan Chan, Caral, Kuélap e noutros sítios arqueológicos. É exigida autorização do Ministério da Cultura ADEMAIS da do MTC.",
       "🌳 ÁREAS NATURAIS PROTEGIDAS E A AMAZÓNIA: o SERNANP (Serviço Nacional de Áreas Naturais Protegidas) exige uma autorização especial para drones em parques como Manu, Tambopata e Huascarán. A Amazónia e as comunidades indígenas têm restrições adicionais.",
-      "🏙️ ZONAS URBANAS EM LIMA E CUSCO: o centro de Lima (Plaza Mayor, Palácio do Governo), o Aeroporto Jorge Chávez (LIM), o centro de Cusco e o aeroporto (CUZ), as zonas militares e as embaixadas têm restrições permanentes. O centro histórico de Cusco exige uma autorização do Ministério da Cultura."
+      "🏙️ ZONAS URBANAS EM LIMA E CUSCO: Lima e Cusco são zonas urbanas, onde não é permitido voar, salvo com autorização excecional (NTC 001-2015, art. 8(e)(2) e (f)). O Palácio do Governo, as zonas militares, os aeroportos Jorge Chávez (LIM) e de Cusco (CUZ) e as zonas publicadas no AIP-Perú ou em NOTAM são também zonas restritas (art. 8(e)(19) e (22)). O centro histórico de Cusco exige ainda um parecer favorável do Ministério da Cultura (Lei n.º 30740, art. 2.5).",
+      "⚠️ SANÇÕES: a Polícia Nacional pode intervir e apreender o drone se este for utilizado em violação da regulamentação; a DGAC aplica sanções, incluindo multas (D.S. 012-2026-MTC, arts. 7 e 73; Lei n.º 30740, art. 4)."
     ],
     "primaryLinks": [
       {
-        "title": "MTC — Requisitos para Operar um Drone",
-        "description": "Site oficial do Ministério dos Transportes e Comunicações (MTC) com os requisitos para operar drones. Inclui o regulamento NTC 001-2015 e os procedimentos da DGAC."
+        "title": "MTC — Regulamento da Lei n.º 30740 (D.S. 012-2026-MTC)",
+        "description": "Regulamento oficial do MTC (29/05/2026). As novas categorias e licenças entram em vigor quando a DGAC atualizar a NTC 001-2015; até lá, aplica-se a NTC."
       },
       {
-        "title": "Mesa de Partes Virtual do MTC — Registo de RPAS",
-        "description": "Plataforma online oficial do MTC para registar drones (RPAS) inteiramente online. Selecione «Registo de Sistemas de Aeronaves Pilotadas Remotamente (RPAS)» e preencha o formulário"
+        "title": "MTC Mesa de Partes Virtual (balcão virtual) — Registo de RPAS",
+        "description": "Plataforma online oficial do MTC para registar drones (RPAS) totalmente online. Selecione \"Registro de Aeronaves Pilotadas a Distancia (RPAS)\" (Registo de Aeronaves Pilotadas Remotamente) e preencha o formulário"
       },
       {
         "title": "MTC — Página Institucional",
-        "description": "Site principal do Ministério dos Transportes e Comunicações. Acesso a procedimentos, regulamentação e serviços aeronáuticos prestados pela DGAC"
+        "description": "Site principal do Ministério dos Transportes e Comunicações. Acesso a procedimentos, regulamentação e serviços aeronáuticos da DGAC"
       },
       {
         "title": "DGAC — Contacto RPAS (Autorizações)",
@@ -42,23 +45,23 @@
     ],
     "secondaryLinks": [
       {
-        "title": "El Peruano — Autorizações de Drones (Oficial)",
-        "description": "Diário Oficial El Peruano: informação oficial sobre as autorizações necessárias para operar drones, segundo o MTC e a DGAC"
+        "title": "MTC — Acreditação de pilotos de RPAS",
+        "description": "Página do MTC (atualizada a 11/08/2026): pedido, exame online e acreditação eletrónica de pilotos/operadores de RPAS (uso não recreativo)."
       },
       {
-        "title": "TV Perú — Guia Oficial de Requisitos",
-        "description": "Cobertura oficial da emissora pública TV Perú com informação atualizada sobre os requisitos para operar drones, conforme especificado pelo MTC"
+        "title": "MTC — Registo automático de drones (2025)",
+        "description": "Aviso do MTC (26/01/2025): o registo de RPAS demora apenas alguns minutos através do balcão virtual (Mesa de Partes Virtual)."
       },
       {
         "title": "Escritórios do MTC — Atendimento Presencial",
-        "description": "Sede do MTC: Jr. Zorritos 1203, Cercado de Lima. Os serviços também estão disponíveis nos Centros Regionais de Atendimento ao Cidadão para procedimentos presenciais de RPAS."
+        "description": "Sede do MTC: Jr. Zorritos 1203, Cercado de Lima. Os serviços também estão disponíveis nos Centros de Atendimento ao Cidadão regionais (Centros de Atención al Ciudadano) para procedimentos presenciais de RPAS."
       }
     ],
-    "disclaimerText": "Verifique sempre as fontes oficiais da DGAC do Ministério dos Transportes e Comunicações (MTC) antes de voar. Esta aplicação é uma ferramenta, não uma autoridade legal. O Peru aplica a Norma Técnica Complementar (NTC) 001-2015, com um registo simplificado através da Mesa de Partes Virtual do MTC.",
+    "disclaimerText": "Verifique sempre as fontes oficiais da DGAC do Ministério dos Transportes e Comunicações (MTC) antes de voar. Esta aplicação é uma ferramenta, não uma autoridade legal. O Peru aplica a Lei n.º 30740, o respetivo Regulamento (D.S. n.º 012-2026-MTC) e a NTC 001-2015, com um registo simplificado através do balcão virtual do MTC (Mesa de Partes Virtual).",
     "sectionLabelRules": "REGRAS PRINCIPAIS",
     "sectionLabelPrimary": "FONTES OFICIAIS",
     "sectionLabelSecondary": "RECURSOS ADICIONAIS",
     "linksSheetTitle": "Espaço aéreo e regulamentação — Peru",
-    "dronePilotCredentialName": "Licença de Piloto de RPAS"
+    "dronePilotCredentialName": "Acreditação de Piloto/Operador de RPAS"
   }
 }

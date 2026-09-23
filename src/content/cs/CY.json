@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "a1e69adb928a29b23e35f851c7f189c239b934c116c4c5c3bb8ff4997785f369",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "8d3736758eabe09f115c22b261f62052d660fd07794af65c1d39b8fa76ca192b",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálně 120 m nad terénem (kategorie EASA Open)",
-      "Registrace jako provozovatel UAS (15 € / 3 roky), pokud dron váží 250 g nebo více nebo má kameru",
-      "Vyžadováno online školení A1/A3 – minimální věk 16 let",
+      "V otevřené kategorii je maximální výška 120 m, měřená jako vzdálenost od nejbližšího bodu zemského povrchu — nikoli jen kolmo dolů, takže u svahu se může počítat i terén vedle vás. Do 50 m od vysoké umělé překážky (nad 105 m) může subjekt odpovědný za překážku požádat o povolení létat až 15 m nad výškou překážky.",
+      "Jako provozovatel dronu se musíte zaregistrovat, pokud váš dron váží 250 g nebo více (nebo by mohl při nárazu předat více než 80 J kinetické energie) — to platí i pro hračky. Pod 250 g je registrace přesto nutná, pokud má dron senzor schopný zaznamenávat osobní údaje, ledaže se podle směrnice EU o bezpečnosti hraček považuje za hračku. Požadavky na výcvik/osvědčení pilota jsou samostatné a závisí na třídě dronu a podkategorii.",
+      "Registrační číslo provozovatele nesmazatelně vyznačte na každém svém dronu a nahrajte ho do systému dálkové identifikace (pokud je jím dron vybaven). Registrace provozovatele je možná od 18 let — za mladší osoby se může zaregistrovat odpovědná osoba (např. rodič nebo opatrovník).",
+      "Drony uvedené na trh po 1. 1. 2024 bez třídního označení (C0–C6) nesmějí létat v otevřené kategorii — pouze ve specifické kategorii s provozním povolením.",
+      "Minimální věk pro samostatné létání v otevřené kategorii je 16 let — online školení A1/A3 (9 modulů, zkouška se 40 otázkami, poplatek 15 eur) platí 5 let a je uznáváno v celé EU. Pod touto věkovou hranicí je létání povoleno pouze pod přímým dohledem pilota s osvědčením.",
+      "Návštěvníci ze zemí mimo EU: pokud je Kypr první zemí EU, kde létáte, registrujete se jako provozovatel (je-li to vyžadováno) u kyperského DCA (15 €, minimální věk 18 let); pokud jste již létali v jiné zemi EU, znovu se neregistrujete. Pro podkategorie A1/A3 potřebujete osvědčení pilota A1/A3 vydané zemí EU (online školení a zkouška, 15 €); pro dron C0 (<250 g) není zkouška povinná.",
       "Noční let je podle základních požadavků EASA pro otevřenou kategorii povolen, pokud je použito požadované zelené blikající světlo, ledaže by platná geografická zóna nebo vnitrostátní předpis stanovoval přísnější podmínku.",
-      "Bezpečnostní pásmo 8 km kolem letišť",
-      "Minimální vzdálenost 1 km od obytných oblastí (týká se zejména kategorie A3 – přísnější požadavky pro těžší drony)",
-      "S dronem vždy udržujte vizuální dohled (VLOS)",
+      "Letiště Larnaka a Pafos: v zóně A (červená) jsou všechny lety dronů zakázány; v zóně B (žlutá) pouze se svolením DCA (žádost podejte alespoň 10 pracovních dní předem, pojištění odpovědnosti vůči třetím osobám 1 000 000 €). DCA žádá návštěvníky, aby dodržovali vzdálenost alespoň 8 km od letišť a heliportů.",
+      "Minimální vzdálenost 150 m od obytných, obchodních nebo průmyslových oblastí (kategorie A3)",
+      "V otevřené kategorii udržujte dron ve svém přímém vizuálním dohledu pouhým okem (brýle/kontaktní čočky jsou povoleny; dalekohled ani obrazovka se nepočítají) — nebo s pomocí pozorovatele, přičemž spolu musíte neustále jasně a účinně komunikovat, abyste společně sledovali vzdušný prostor a zabránili srážkám. Režim „follow-me“ je samostatnou výjimkou, povolenou až do 50 m od pilota.",
       "Nelétejte nad shromážděními lidí. Pravidla pro osoby, které se na dané činnosti nepodílejí, závisí na podkategorii, třídním označení a provozních podmínkách; podívejte se do oficiální tabulky.",
+      "Britské základny (Akrotiri, Dhekelia): samostatná správa s vlastními předpisy pro drony, vlastním registračním formulářem a mapami vymezených oblastí — před letem tam si ověřte sbaadministration.org.",
       "Severní Kypr (TRNC): samostatná jurisdikce – odlišná pravidla",
-      "Bezletová zóna OSN: úplný zákaz letů"
+      "Nárazníková zóna OSN (UN Dead Zone): žádná činnost bez předchozího souhlasu UNFICYP — nelétejte tam."
     ],
     "importantNotes": [
       "Noční let je podle základních požadavků EASA pro otevřenou kategorii povolen, pokud je použito požadované zelené blikající světlo, ledaže by platná geografická zóna nebo vnitrostátní předpis stanovoval přísnější podmínku.",
-      "Požadavek na vzdálenost 1 kilometr od obytných oblastí je na malém ostrově velmi omezující",
-      "Bezpečnostní pásma sahající 8 kilometrů od letišť pokrývají velkou část ostrova",
+      "Kolem letišť Larnaka a Pafos: v zóně A (červená) jsou lety dronů zakázány, v zóně B (žlutá) pouze se svolením DCA.",
+      "Předinstalovaná mapa geografických zón ve většině dronů DJI není pro Kypr správná; u dronů třídy C1, C2, C3, C5, C6 nahrajte oficiální soubor geografických zón DCA (drones.gov.cy).",
       "Severní Kypr (TRNC) je samostatná jurisdikce s odlišnými pravidly",
-      "Mrtvá zóna OSN je přísná bezletová zóna"
+      "Nárazníková zóna OSN (UN Dead Zone): žádná činnost bez předchozího souhlasu UNFICYP — nelétejte tam."
     ],
     "primaryLinks": [
       {
@@ -32,7 +36,7 @@
       },
       {
         "title": "DCAD – registrace provozovatele",
-        "description": "Registrace jako pilot UAS (15 € / 3 roky, platná ve všech zemích EU/EASA)"
+        "description": "Registrace jako provozovatel UAS (15 € / 3 roky, platná ve všech zemích EU/EASA)"
       },
       {
         "title": "drones.gov.cy – mapa geozón",
@@ -53,8 +57,8 @@
         "description": "Informace o letištích v Larnace a Paphosu"
       }
     ],
-    "disclaimerText": "Před každým letem si vždy ověřte oficiální zdroje DCA Cyprus a drones.gov.cy. Tato aplikace je pomůcka, nikoli právní autorita. Kypr se řídí předpisy EASA s přísnými vnitrostátními doplňky, jako je zákaz nočních letů.",
-    "sectionLabelRules": "ZÁKLADNÍ PRAVIDLA (TŘÍDA EASA OPEN)",
+    "disclaimerText": "Před každým letem si vždy ověřte oficiální zdroje DCA Cyprus a drones.gov.cy. Tato aplikace je pomůcka, nikoli právní autorita. Kypr se řídí předpisy EASA s vnitrostátními geografickými zónami (Κ.Δ.Π. 190/2024, ve znění pozdějších změn).",
+    "sectionLabelRules": "ZÁKLADNÍ PRAVIDLA (KATEGORIE EASA OPEN)",
     "sectionLabelPrimary": "OFICIÁLNÍ ZDROJE",
     "sectionLabelSecondary": "DALŠÍ ZDROJE",
     "linksSheetTitle": "Vzdušný prostor a předpisy — Kypr",

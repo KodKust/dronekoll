@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
-    "engine": "opus-5",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ab66a0144761f05a1cfb8f54499fb2e2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -11,19 +11,23 @@
     "sectionLabelPrimary": "SURSE OFICIALE",
     "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
     "linksSheetTitle": "Spațiu aerian și reguli — Hong Kong",
-    "dronePilotCredentialName": "Calificare de pilot SUA",
+    "dronePilotCredentialName": "Certificat de pilot la distanță (calificare standard / avansată)",
     "keyRules": [
-      "Maximum 91 m (300 ft) deasupra nivelului solului — mai jos decât în majoritatea țărilor",
-      "Înregistrare obligatorie pentru toate dronele cu o greutate de peste 250 g prin portalul eSUA",
+      "Max. 91 m (300 ft) deasupra nivelului solului pentru dronele din Cat. A2 (250 g–7 kg) și modelele scutite înregistrate de până la 250 g; drone neînregistrate de până la 250 g: max. 30 m (100 ft)",
+      "Viteză maximă 50 km/h (Cat. A2); dronele neînregistrate de până la 250 g max. 20 km/h",
+      "Dronele de peste 250 g — și dronele de până la 250 g operate dincolo de limitele Cat. A1 — trebuie înregistrate și etichetate prin portalul eSUA, iar pilotul la distanță (vârstă 14+) trebuie să se înregistreze și el în eSUA. Se aplică și vizitatorilor",
       "În Hong Kong, restricțiile din apropierea aeroporturilor sunt definite ca zone de zbor restricționat (RFZ) publicate oficial în jurul HKIA și al altor aerodromuri și heliporturi și sunt marcate pe harta dronelor a CAD — nu există o distanță unică, fixă. Zborul în interiorul unei RFZ necesită permisiunea CAD, iar unele zone (de exemplu Victoria Harbour) sunt restricționate indiferent de distanța față de vreun aeroport.",
-      "Distanță minimă de 50 m față de persoanele neimplicate",
+      "Nu zbura deasupra zonei interzise de lângă Penny's Bay (de ex. Hong Kong Disneyland) — este stabilită printr-o lege separată și nu este acoperită de zonele RFZ de pe CAD Drone Map",
+      "Păstrează cel puțin 10 m (≤20 km/h) sau 30 m (peste 20 km/h, Cat. A2) față de persoanele, vehiculele, ambarcațiunile și structurile neimplicate; nu zbura niciodată deasupra lor",
       "Doar pe timp de zi — zborul de noapte este interzis fără o autorizație specială",
       "Zona portului Victoria este restricționată",
       "Menține întotdeauna raza vizuală directă (VLOS)",
+      "Dronele de peste 250 g trebuie să aibă geo-awareness și un jurnal de zbor; păstrează jurnalele de zbor timp de 6 luni",
       "Hong Kong are propriile reguli — NU cele din China continentală"
     ],
     "importantNotes": [
-      "Altitudinea maximă este de doar 91 m (300 ft) — semnificativ mai joasă decât standardul de 120 m din majoritatea țărilor",
+      "Altitudinea maximă este de 91 m (300 ft) și doar 30 m (100 ft) pentru dronele neînregistrate de până la 250 g — mult sub standardul de 120 m din majoritatea țărilor",
+      "Vizitatori: dronele de peste 250 g necesită înregistrarea dronei și a pilotului în eSUA folosind pașaportul (valabilă în mod normal 6 luni). Eticheta CAD nu poate fi tipărită și nu este trimisă prin poștă în străinătate — ridic-o de la sediul CAD sau cere să fie trimisă la o adresă din Hong Kong (de ex. hotelul tău)",
       "Asigurarea NU este necesară pentru operațiunile standard din categoria A1 și pentru cele din categoria A2 cu evaluare standard. Acoperirea de 10 mil. HK$ se aplică operațiunilor avansate și dronelor din categoria B; categoria C, mai nouă (25–150 kg, introdusă la 18 iulie 2025), necesită 15 mil. HK$ (25–75 kg) sau 20 mil. HK$ (75–150 kg). În propriul tabel de cerințe al CAD, data intrării în vigoare a obligației extinse de asigurare este trecută ca urmând să fie stabilită — verifică situația actuală înainte de a presupune că asigurarea este obligatorie pentru categoria ta.",
       "Hong Kong are reguli complet separate de cele din China continentală",
       "Portul Victoria și zonele înconjurătoare au restricții de zbor",
@@ -46,11 +50,11 @@
     "secondaryLinks": [
       {
         "title": "CAD — instruire Advanced Rating",
-        "description": "Instruire de nivel Advanced Rating necesară pentru dronele cu o greutate de peste 250 g"
+        "description": "Instruire Advanced Rating — necesară doar pentru operațiunile avansate"
       },
       {
         "title": "CAD — cerințe de asigurare",
-        "description": "Cerințele obligatorii de asigurare de răspundere civilă față de terți pentru operațiunile cu drone"
+        "description": "Asigurare de răspundere civilă față de terți — obligatorie pentru operațiunile avansate; încă nu este în vigoare pentru zborurile standard din Cat. A2"
       }
     ]
   }

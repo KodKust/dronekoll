@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "787b0ffdb58f4e659dab084b584504eae2d084cddcc8121e3000d9d4781ddb6e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "64708e9a3d82a3a709ddda077adb46fb41b25644e94f27236ce2d35379ac40be",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximum 120 m au-dessus du sol (catégorie ouverte EASA)",
-      "Enregistrement comme exploitant d'UAS (~3 €) pour les drones de 250 g ou plus ou équipés d'une caméra",
-      "Formation en ligne A1/A3 obligatoire — âge minimum 16 ans",
-      "Assurance responsabilité civile obligatoire — couverture minimale de 1 000 000 €",
-      "Interdiction dans les parcs nationaux : Plitvice Lakes, Krka, Paklenica — le vol de drones n’y est pas autorisé",
-      "Gardez toujours le contact visuel avec le drone (VLOS)",
+      "Chaque vol de drone en Croatie doit être approuvé à l'avance via l'AMC (création d'une structure d'espace aérien ad hoc) — pour tous les drones, quelle que soit leur masse. Vous devez d'abord enregistrer un compte utilisateur sur AMC Portal (attendez qu'il soit traité). Jusqu'à 120 m en dehors d'une CTR et jusqu'à 50 m à l'intérieur d'une CTR (en dehors des zones autour des aérodromes et des zones temporaires d'interdiction de vol), l'approbation est accordée automatiquement le jour du vol dans l'application AMC Portal Mobile ; dans les autres cas, par la procédure ordinaire (demande 7 jours à l'avance).",
+      "Dans la catégorie ouverte, la hauteur maximale est de 120 m, mesurée comme la distance jusqu'au point le plus proche de la surface terrestre — pas simplement à la verticale : près d'une pente, le terrain à côté de vous peut donc aussi compter. À moins de 50 m d'un obstacle artificiel élevé (de plus de 105 m), l'entité responsable de l'obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
+      "Vous devez vous enregistrer comme exploitant de drone si votre drone pèse 250 g ou plus (ou pourrait transmettre plus de 80 J d'énergie cinétique en cas d'impact) — cela vaut même pour les jouets. En dessous de 250 g, l'enregistrement reste obligatoire si le drone possède un capteur capable de collecter des données personnelles, sauf s'il est considéré comme un jouet au sens de la directive européenne relative à la sécurité des jouets. Les exigences de formation/de certificat de télépilote sont distinctes et dépendent de la classe et de la sous-catégorie du drone.",
+      "L'âge minimum pour voler seul dans la catégorie ouverte est de 16 ans — la formation et l'examen en ligne A1/A3 sont valables 5 ans et reconnus dans toute l'UE. Les télépilotes plus jeunes ne peuvent voler que sous la supervision directe d'un télépilote certifié.",
+      "L'assurance responsabilité civile (au moins 750 000 SDR, règlement (CE) 785/2004) est obligatoire lorsque vous effectuez du travail aérien avec un drone — selon la CCAA, cela inclut aussi la photographie et le tournage à des fins privées. Pour le vol purement récréatif sans travail aérien (drone jusqu'à 20 kg), elle n'est pas obligatoire.",
+      "Aires naturelles protégées (parcs nationaux, parcs naturels, etc.) : vols de drones uniquement avec l'approbation préalable de l'établissement public qui gère l'aire. Dans les PN des lacs de Plitvice et de Krka, le tournage par drone est interdit, sauf exceptionnellement avec l'approbation de l'Établissement.",
+      "Dans la catégorie ouverte, vous devez garder le drone en vue directe, à l'œil nu (lunettes/lentilles de contact autorisées ; jumelles ou écran ne comptent pas) — ou avec l'aide d'un observateur, en communiquant ensemble de manière claire et efficace à tout moment, afin de surveiller ensemble l'espace aérien et d'éviter les collisions. Le mode « follow-me » est une exception distincte, autorisée jusqu'à 50 m du télépilote.",
       "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
-      "À au moins 5 km de tout aéroport ou aérodrome",
+      "En Croatie, les zones autour des aérodromes sont fixées au niveau national (NN 20/2023, art. 4) : à moins de 1 500 m de la clôture d'un aérodrome contrôlé et à moins de 500 m latéralement de l'axe d'approche jusqu'à 3 500 m du seuil, le vol est conditionnellement interdit (approbation seulement à titre exceptionnel, par la procédure ordinaire). Dans le reste de la zone de contrôle (CTR), l'approbation jusqu'à 50 m au-dessus du sol est accordée automatiquement dans l'application AMC Portal Mobile, et au-dessus de 50 m uniquement par la procédure ordinaire. Près d'un aérodrome non contrôlé (1 500 m de ses limites, 500 m latéralement de l'axe d'approche jusqu'à 2 500 m du seuil), le consentement préalable de l'exploitant de l'aérodrome est requis. Avant de voler près d'un aéroport, d'un aérodrome ou d'un héliport, consultez la carte officielle des zones drones.",
       "Les vols de nuit sont autorisés dans le cadre des exigences de base de l’EASA pour la catégorie ouverte lorsque le feu vert clignotant requis est utilisé, sauf si une zone géographique applicable ou une règle nationale impose une condition plus stricte.",
-      "Zones côtières en été : des restrictions supplémentaires sont possibles"
+      "Ne volez pas près d'incendies ou de sites d'intervention d'urgence – un drone dans la zone d'opération des avions de lutte contre les incendies met en danger la lutte contre le feu. Les zones temporaires d'interdiction de vol (p. ex. matchs, événements) sont publiées sur AMC Portal."
     ],
     "importantNotes": [
-      "Les parcs nationaux (Plitvice Lakes, Krka, Paklenica) interdisent strictement tous les drones",
-      "Assurance obligatoire avec une couverture minimale de 1 000 000 €",
-      "L'enregistrement est très abordable (~3 €) et valable dans toute l'UE",
+      "Parcs nationaux, parcs naturels et autres aires protégées : vols de drones uniquement avec l'approbation de l'établissement public qui les gère ; à Plitvice et à Krka, le tournage par drone est interdit, sauf exceptionnellement avec l'approbation de l'Établissement",
+      "L'assurance responsabilité civile (au moins 750 000 SDR) est obligatoire lorsque vous effectuez du travail aérien — y compris la photographie et le tournage à des fins privées",
+      "L'enregistrement comme exploitant est valable dans toute l'UE",
       "Dubrovnik old town : attendez-vous à des restrictions sur les drones",
-      "Le GDPR s’applique lorsque des personnes identifiables sont filmées"
+      "Le GDPR s’applique lorsque des personnes identifiables sont filmées",
+      "L'imagerie aérienne peut nécessiter l'approbation de l'Administration géodésique de l'État (Uredba o snimanju iz zraka, NN 77/20) – consultez dgu.gov.hr avant de filmer.",
+      "Signalez toute blessure grave d'une personne ou tout rapprochement dangereux avec un aéronef habité à la HACZ dans les 72 heures (portail Aviation Reporting).",
+      "Les infractions sont sanctionnées en vertu de la loi sur le trafic aérien (Zakon o zračnom prometu) – amendes à partir de 700 € et révocation de l'enregistrement."
     ],
     "primaryLinks": [
       {
@@ -32,15 +36,15 @@
       },
       {
         "title": "CCAA — Enregistrement d'exploitant",
-        "description": "Enregistrez-vous comme exploitant d'UAS (~3 €, valable dans tous les pays de l'UE/EASA)"
+        "description": "Enregistrez-vous comme exploitant d'UAS (valable dans tous les pays de l'UE/EASA)"
       },
       {
         "title": "Portail AMC — Carte de l'espace aérien",
         "description": "Carte de gestion de l'espace aérien et des zones de drones de Croatia Control"
       },
       {
-        "title": "CCAA — Aperçu des règles",
-        "description": "Aperçu des règles pour faire voler un drone en Croatie"
+        "title": "CCAA — Règles pour les télépilotes étrangers",
+        "description": "Ce que vous devez savoir si vous faites voler temporairement un drone en Croatie (page de la CCAA en anglais)"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +57,7 @@
         "description": "Questions fréquentes sur la réglementation des drones en Croatie"
       }
     ],
-    "disclaimerText": "Vérifiez toujours les sources officielles de la CCAA ainsi qu’AMC Portal avant de voler. Cette application est un outil, pas une autorité juridique. La Croatie suit la réglementation EASA avec des ajouts nationaux, notamment des interdictions dans les parcs nationaux.",
+    "disclaimerText": "Vérifiez toujours les sources officielles de la CCAA ainsi qu'AMC Portal avant de voler. Cette application est un outil, pas une autorité juridique. La Croatie suit la réglementation EASA avec des ajouts nationaux, notamment une approbation pour les vols dans les aires naturelles protégées.",
     "sectionLabelRules": "RÈGLES CLÉS (CATÉGORIE OUVERTE EASA)",
     "sectionLabelPrimary": "SOURCES OFFICIELLES",
     "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",

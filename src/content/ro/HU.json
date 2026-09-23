@@ -1,63 +1,64 @@
 {
- "meta": {
-  "sourceHash": "c60fe25d411d1b17d1f39a3942f259be9fd7a6aefee2fdedfab7c81c48111b27",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Maximum 120 m deasupra solului (categoria EASA Open)",
-   "Înregistrarea este necesară pentru dronele cu o greutate de 120 g sau mai mult (o cerință mai strictă decât pragul EASA de 250 g)",
-   "Cursul de instruire online A1/A3 este obligatoriu — vârsta minimă 16 ani",
-   "Asigurare de răspundere civilă obligatorie pentru toate operațiunile cu drone",
-   "Budapesta: permisele pentru zborurile urbane trebuie solicitate cu 30 de zile în avans",
-   "Aplicația MyDroneSpace este necesară pentru fiecare zbor",
-   "Menține întotdeauna raza vizuală directă (VLOS)",
-   "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
-   "La cel puțin 5 km de orice aeroport sau loc de aterizare",
-   "Parlamentul, clădirile guvernamentale și zonele militare: interdicție totală de zbor"
-  ],
-  "importantNotes": [
-   "Înregistrarea este acum obligatorie pentru dronele cu o greutate de 120 g sau mai mult — o cerință mult mai strictă decât pragul standard EASA de 250 g",
-   "La Budapesta, trebuie să soliciți un permis cu 30 de zile în avans — planifică din timp",
-   "Aplicația MyDroneSpace este necesară pentru fiecare zbor",
-   "Asigurarea de răspundere civilă este obligatorie pentru toate dronele, indiferent de greutate",
-   "GDPR se aplică dacă colectezi date despre persoane identificabile"
-  ],
-  "primaryLinks": [
-   {
-    "title": "HungaroControl — reglementări privind dronele",
-    "description": "Reglementările și liniile directoare oficiale ale Serviciului maghiar de navigație aeriană privind dronele"
-   },
-   {
-    "title": "MyDroneSpace — înregistrare și zbor",
-    "description": "Aplicație de înregistrare și gestionare a zborurilor (necesară pentru toate zborurile)"
-   },
-   {
-    "title": "MyDroneSpace — harta aeriană",
-    "description": "Harta oficială interactivă care arată zonele pentru drone și restricțiile de spațiu aerian"
-   },
-   {
-    "title": "HungaroControl — prezentare generală a regulilor",
-    "description": "Prezentare generală a reglementărilor privind dronele în Ungaria"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Autoritatea aviatică — licențiere",
-    "description": "Informații despre licențiere ale Autorității maghiare a aviației civile"
-   },
-   {
-    "title": "HungaroControl — întrebări frecvente despre drone",
-    "description": "Întrebări frecvente despre reglementările maghiare privind dronele"
-   }
-  ],
-  "disclaimerText": "Verifică întotdeauna sursele oficiale ale HungaroControl și MyDroneSpace înainte de zbor. Această aplicație este doar un instrument — nu este o autoritate juridică. Ungaria respectă reglementările EASA, cu adăugiri naționale stricte.",
-  "sectionLabelRules": "REGULI PRINCIPALE (CATEGORIA EASA OPEN)",
-  "sectionLabelPrimary": "SURSE OFICIALE",
-  "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
-  "linksSheetTitle": "Spațiu aerian și reglementări — Ungaria",
-  "dronePilotCredentialName": "Certificare de pilot de dronă"
- }
+  "meta": {
+    "sourceHash": "92806b910a3a8d8837e79579753fac51d498af3b1113a2e662fd8b4a6e40e9d4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "În categoria deschisă, înălțimea maximă este de 120 m, măsurată ca distanța față de cel mai apropiat punct al suprafeței Pământului — nu pur și simplu pe verticală în jos, așa că în apropierea unei pante poate conta și terenul de lângă tine. La mai puțin de 50 m de un obstacol artificial înalt (peste 105 m), entitatea responsabilă de obstacol poate solicita permisiunea de a zbura până la 15 m deasupra înălțimii obstacolului.",
+      "Pe lângă înregistrarea operatorului, în Ungaria trebuie înregistrată la autoritatea aeronautică și drona propriu-zisă (înregistrarea dispozitivului) – cererea trebuie depusă cu cel puțin 10 zile înainte de zbor, iar marca de înregistrare emisă trebuie afișată vizibil pe dronă. Singura excepție este drona-jucărie: o dronă care se califică drept jucărie, sub 120 g, fără dispozitiv de înregistrare a datelor și care nu poate zbura la mai mult de 100 m distanță.",
+      "Pentru a zbura singur în categoria deschisă, vârsta minimă este de 16 ani — instruirea A1/A3 la KTI este gratuită, iar examenul trebuie susținut cu prezență fizică la centrul de examinare KAV (taxă: 12.700 Ft); certificatul este valabil 5 ani și recunoscut în toată UE. Piloții mai tineri pot zbura doar sub supravegherea directă a unui pilot de peste 16 ani care a promovat deja examenul.",
+      "Asigurare de răspundere civilă obligatorie – potrivit autorității, zborurile recreative din categoria deschisă cu o dronă de până la 250 g sunt scutite; ia cu tine dovada asigurării când zbori.",
+      "Deasupra zonelor construite – în orice oraș sau sat, nu doar în Budapesta – dronele pot zbura doar în spațiul aerian ad hoc desemnat de autoritatea aeronautică militară; cererea trebuie depusă cu cel puțin 30 de zile înainte de zborul planificat. Excepție: drona-jucărie, adică o dronă care se califică drept jucărie, sub 120 g, fără dispozitiv de înregistrare a datelor și care nu poate zbura la mai mult de 100 m distanță.",
+      "Aplicația MyDroneSpace este necesară pentru fiecare zbor",
+      "În categoria deschisă trebuie să menții drona în propriul câmp vizual direct, cu ochiul liber (ochelarii/lentilele de contact sunt permise; binoclul sau un ecran nu contează) — sau să zbori cu ajutorul unui observator, menținând în permanență o comunicare clară și eficientă între voi, astfel încât să supravegheați împreună spațiul aerian și să evitați coliziunile. Modul „Follow-me” este o excepție separată, permisă până la 50 m de pilot.",
+      "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
+      "Nu există o distanță unică la nivelul UE pe care trebuie să o păstrezi față de aeroporturi. Restricțiile din apropierea aeroporturilor sunt publicate ca zone geografice (articolul 15), a căror formă și dimensiune diferă de la un aeroport la altul. Înainte de a zbura în apropierea unui aeroport, aerodrom sau heliport, verifică harta oficială a zonelor pentru drone din țara ta; zborul într-o zonă de control (CTR) necesită de regulă autorizarea prealabilă a controlului traficului aerian.",
+      "În CTR Budapesta, în afara No Drone Zone LHBP, și în zonele de control militare (MCTR) Kecskemét, Szolnok și Pápa, în afara No Drone Zones, poți zbura până la 40 m deasupra solului fără autorizare de la controlul traficului aerian; zborul în No Drone Zones este interzis. La mai puțin de 2 km de punctul de referință al aerodromurilor fără ATZ și la mai puțin de 750 m de locurile de aterizare ale elicopterelor de ambulanță aeriană poți zbura doar cu acordul operatorului aerodromului și trebuie să notifici autoritatea aeronautică cu cel puțin 2 zile înainte.",
+      "Zborul cu drona este interzis la mai puțin de 300 m de situl memorial național prioritar (zona din jurul Parlamentului și a Pieței Kossuth), de obiectivele protejate desemnate și de obiectivele de importanță deosebită pentru funcționarea statului; este interzis și la mai puțin de 300 m de infrastructura critică și de apărare desemnată, cu excepția cazului în care operatorul acesteia permite. Zborul este interzis în spațiul aerian interzis (P), iar în spațiul aerian restricționat (R) este permis doar în conformitate cu regulile aplicabile."
+    ],
+    "importantNotes": [
+      "În Ungaria, orice dronă, cu excepția dronelor-jucărie, trebuie înregistrată (înregistrarea dispozitivului), cu cel puțin 10 zile înainte de zbor – indiferent de greutate.",
+      "Deasupra zonelor construite (nu doar în Budapesta) poți zbura doar în spațiul aerian ad hoc – depune cererea cu cel puțin 30 de zile înainte.",
+      "Aplicația MyDroneSpace este necesară pentru fiecare zbor",
+      "Asigurarea de răspundere civilă este obligatorie – potrivit autorității, zborurile recreative din categoria deschisă cu o dronă de până la 250 g sunt scutite.",
+      "GDPR se aplică dacă filmezi persoane identificabile"
+    ],
+    "primaryLinks": [
+      {
+        "title": "HungaroControl — reglementări privind dronele",
+        "description": "Reglementările și liniile directoare oficiale ale Serviciului maghiar de navigație aeriană privind dronele"
+      },
+      {
+        "title": "MyDroneSpace — înregistrare și zbor",
+        "description": "Aplicație de înregistrare și gestionare a zborurilor (necesară pentru toate zborurile)"
+      },
+      {
+        "title": "MyDroneSpace – Harta spațiului aerian",
+        "description": "Interfața web oficială mydronespace a HungaroControl, cu zonele pentru drone și restricțiile de spațiu aerian (necesită înregistrare/autentificare)"
+      },
+      {
+        "title": "HungaroControl — prezentare generală a regulilor",
+        "description": "Prezentare generală a reglementărilor privind dronele în Ungaria"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Autoritatea aviatică — licențiere",
+        "description": "Informații despre licențiere ale Autorității maghiare a aviației civile"
+      },
+      {
+        "title": "MyDroneSpace – Întrebări frecvente despre drone",
+        "description": "Întrebări frecvente despre reglementările maghiare privind dronele"
+      }
+    ],
+    "disclaimerText": "Verifică întotdeauna sursele oficiale ale HungaroControl și MyDroneSpace înainte de zbor. Această aplicație este doar un instrument — nu este o autoritate juridică. Ungaria respectă reglementările EASA, cu adăugiri naționale stricte.",
+    "sectionLabelRules": "REGULI PRINCIPALE (CATEGORIA EASA OPEN)",
+    "sectionLabelPrimary": "SURSE OFICIALE",
+    "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
+    "linksSheetTitle": "Spațiu aerian și reglementări — Ungaria",
+    "dronePilotCredentialName": "Certificare de pilot de dronă"
+  }
 }

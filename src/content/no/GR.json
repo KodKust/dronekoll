@@ -1,61 +1,65 @@
 {
   "meta": {
-    "sourceHash": "6bd279870909de9539cac55440892030da06bb4b119368a297585876f27098df",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e631818b431dccaf473ebde5f460a6b9eb0f571b8775190b265998e6821bc00d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimalt 120 m over bakken (EASA åpen kategori)",
-      "Registrer deg som UAS-operatør (gratis) dersom dronen veier 250 g eller mer eller har kamera",
-      "A1/A3-nettopplæring kreves – minstealder 16 år",
-      "Restriksjonsbelagte arkeologiske steder: Acropolis, Delphi, Olympia med flere",
-      "Hold alltid dronen innenfor synsvidde (VLOS)",
+      "I Open-kategorien er maksimal høyde 120 m, målt som avstanden fra nærmeste punkt på jordoverflaten — ikke bare rett ned, så nær en skråning kan også terrenget ved siden av deg telle. Innenfor 50 m fra en høy kunstig hindring (over 105 m) kan den som er ansvarlig for hindringen be om tillatelse til å fly opptil 15 m over hindringens høyde.",
+      "Du må registrere deg som droneoperatør hvis dronen din veier 250 g eller mer (eller kan overføre mer enn 80 J kinetisk energi ved et sammenstøt) — dette gjelder også leker. Under 250 g kreves registrering likevel hvis dronen har en sensor som kan fange opp personopplysninger, med mindre den regnes som leke etter EUs leketøysdirektiv. Krav til opplæring/pilotbevis gjelder separat og avhenger av dronens klasse og underkategori.",
+      "Operatørens registreringsnummer må festes på alle dronene dine og legges inn i systemet for fjernidentifikasjon (Remote ID), hvis dronen har et slikt. Registreringen i Hellas fornyes etter 3 år.",
+      "Besøkende fra land utenfor EU/EASA: hvis dronen din krever registrering (se over) og du ikke allerede er registrert i en annen EASA-stat, registrer deg i Hellas før du flyr (uten gresk skattenummer (AFM): en særskilt søknad med pass på HCAAs nettsted). Personer bosatt i en annen EASA-stat registrerer seg i bostedslandet. Opplæring og pilotbevis fra land utenfor EU anerkjennes ikke i EU.",
+      "Ansvarsforsikring overfor tredjepart kreves for alle droner som brukes profesjonelt, samt for privat brukte droner på 4 kg og mer (nasjonal lovgivning).",
+      "I Hellas er minstealderen 16 år — det gjelder ingen alderskrav for å fly en drone i klasse C0 som er en leke i underkategori A1, en privatbygd drone under 250 g, eller under direkte tilsyn av en sertifisert pilot.",
+      "Områder som Akropolis, Delfi og Olympia ligger innenfor gule/magenta soner — flyginger er tillatt på vilkår eller helt forbudt avhengig av det konkrete området, og forhåndsgodkjenning fra HCAA kreves minst 5 virkedager i forveien.",
+      "I Open-kategorien må du holde dronen innenfor direkte synsvidde, med det blotte øye (briller/kontaktlinser er tillatt; kikkert eller skjerm teller ikke) — eller med hjelp av en observatør, med tydelig og effektiv kommunikasjon mellom dere hele tiden, slik at dere sammen overvåker luftrommet og unngår kollisjoner. Follow-me-modus er et eget unntak, tillatt opptil 50 m fra piloten.",
       "Du må ikke fly over folkemengder. Reglene for uvedkommende avhenger av underkategori, klassemerke og driftsforhold; sjekk den offisielle oversikten.",
-      "Minsteavstand på 8 km fra hver flyplass",
+      "Det finnes ingen felles EU-avstand du må holde fra flyplasser. Restriksjoner nær flyplasser publiseres som geografiske soner (artikkel 15), og formen og størrelsen varierer fra flyplass til flyplass. Før du flyr nær en flyplass, flystripe eller helikopterplass, sjekk landets offisielle kart over dronesoner; flyging innenfor en kontrollsone (CTR) krever normalt forhåndstillatelse fra flygekontrollen.",
       "Nattflyging er tillatt etter EASAs grunnregler for Open-kategorien når det påkrevde grønne blinklyset brukes, med mindre en gjeldende geografisk sone eller nasjonal regel stiller strengere krav.",
       "Øyflyplasser: sjekk DAGR-kartet nøye — mange øyer har store CTR-er"
     ],
     "importantNotes": [
-      "Arkeologiske steder og kulturminner er strengt stengt for droneflyging — overtredelser kan gi høye bøter",
+      "Skogbranner: flyging er forbudt i soner utpekt ved NOTAM. Ser du luftbårne brannslukkingsressurser, eller mottar du en 112-melding om brann i området, avbryt flygingen umiddelbart og land. Overtredelser: bot, straffeforfølgning, inndragning av dronen.",
+      "Arkeologiske steder og kulturminner krever forhåndsgodkjenning fra HCAA (minst 5 virkedager i forveien) — de er ikke alltid helt forbudt, men er underlagt streng kontroll.",
       "Øyflyplasser skaper omfattende restriksjonssoner",
-      "Militæranlegg: absolutte flygeforbudssoner (mange på øyer)",
+      "Ikke fly over havner, sykehus, energi- og telekommunikasjonsanlegg eller militære eller statlige anlegg uten forhåndstillatelse fra HCAA — enkelte militære og statlige anlegg er rene flyforbudssoner på DAGR-kartet (mange på øyer). Overtredelser kan føre til bøter, straff og inndragning av utstyr.",
       "GDPR gjelder når identifiserbare personer filmes"
     ],
     "primaryLinks": [
       {
         "title": "HCAA – regelverk om droner",
-        "description": "Offisielle regler og informasjon om droner fra luftfartsmyndigheten"
+        "description": "Offisielle regler og informasjon om droner fra Hellenic Civil Aviation Authority (HCAA)"
       },
       {
-        "title": "HCAA – pilotregistrering",
-        "description": "Gratis registrering som UAS-operatør (gyldig i alle EU/EASA-land)"
+        "title": "HCAA – Operatørregistrering",
+        "description": "Registrering som UAS-operatør (for personer bosatt i Hellas, med et gebyr på 20 €; registreringsnummeret gjelder i alle EU-/EASA-land)"
       },
       {
         "title": "DAGR – luftromskart for droner",
         "description": "Offisielt geografisk kart over restriksjoner på droneflyging i Hellas"
       },
       {
-        "title": "HCAA – flygemelding",
-        "description": "Innsending av flygemelding 5 dager i forveien (kreves for hver flyging)"
+        "title": "HCAA – Søknad om flygegodkjenning (DAGR-soner)",
+        "description": "Søknad om godkjenning av flyginger i gule/magenta DAGR-soner (minst 5 virkedager i forveien)"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "HASP – luftsport",
-        "description": "Det greske luftsportforbundet og informasjon om rekreasjonsflyging"
+        "title": "HASP – Leverandør av flysikringstjenester",
+        "description": "Gresk leverandør av flysikringstjenester – driver DAGR og NOTAM"
       },
       {
         "title": "HCAA – ofte stilte spørsmål om droner",
         "description": "Ofte stilte spørsmål om droneregelverket i Hellas"
       }
     ],
-    "disclaimerText": "Før hver flyging, sjekk alltid de offisielle kildene til Hellenic Civil Aviation Authority (HCAA) og DAGR-kartet. Denne appen er et verktøy — ikke en rettskilde. Hellas følger EASA-regelverket med nasjonale tillegg, blant annet det obligatoriske kravet om flygemelding 5 dager i forveien.",
-    "sectionLabelRules": "GRUNNLEGGENDE REGLER (EASA ÅPEN KLASSE)",
+    "disclaimerText": "Før hver flyging, sjekk alltid de offisielle kildene til Hellenic Civil Aviation Authority (HCAA) og DAGR-kartet. Denne appen er et verktøy — ikke en rettskilde. Hellas følger EASA-regelverket med nasjonale tillegg, blant annet at det må sendes søknad til HCAA minst 5 virkedager i forveien for flyginger i gule/magenta DAGR-soner der flyging er tillatt på vilkår.",
+    "sectionLabelRules": "GRUNNLEGGENDE REGLER (EASA OPEN-KATEGORI)",
     "sectionLabelPrimary": "OFFISIELLE KILDER",
     "sectionLabelSecondary": "FLERE RESSURSER",
     "linksSheetTitle": "Luftrom og regelverk — Hellas",
-    "dronePilotCredentialName": "Operatørsertifikat"
+    "dronePilotCredentialName": "Fjernpilotsertifikat"
   }
 }

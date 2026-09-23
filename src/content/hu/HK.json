@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ab66a0144761f05a1cfb8f54499fb2e2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -11,19 +11,23 @@
     "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
     "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
     "linksSheetTitle": "Légtér és szabályok – Hongkong",
-    "dronePilotCredentialName": "SUA-pilótajogosítás",
+    "dronePilotCredentialName": "Távpilóta-bizonyítvány (standard / advanced jogosítás)",
     "keyRules": [
-      "Legfeljebb 91 m (300 láb) a talajszint felett – alacsonyabb, mint a legtöbb országban",
-      "Minden 250 g feletti drónhoz regisztráció szükséges az eSUA-portálon keresztül",
+      "Max. 91 m (300 ft) a talajszint felett az A2 kat. drónoknál (250 g–7 kg) és a regisztrált, mentesített, legfeljebb 250 g-os modelleknél; nem regisztrált, legfeljebb 250 g-os drónok: max. 30 m (100 ft)",
+      "Max. sebesség 50 km/h (A2 kat.); nem regisztrált, legfeljebb 250 g-os drónok max. 20 km/h",
+      "A 250 g feletti drónokat — és az A1 kat. határain túl repülő, legfeljebb 250 g-os drónokat — regisztrálni és címkével ellátni kell az eSUA portálon, és a távpilótának (14 éves kortól) is regisztrálnia kell az eSUA-n. Ez a látogatókra is vonatkozik",
       "Hongkongban a repülőterek körüli korlátozásokat a HKIA és más repülőterek, illetve helikopter-leszállóhelyek körül hivatalosan kihirdetett Restricted Flying Zone-ok (RFZ-k) határozzák meg; ezek a CAD Drone Map térképen láthatók – nincs egyetlen, mindenhol érvényes távolság. RFZ-n belüli repüléshez a CAD engedélye szükséges, és egyes területek (például Victoria Harbour) bármely repülőtértől mért távolságtól függetlenül korlátozottak.",
-      "Legalább 50 m távolság a műveletben részt nem vevő emberektől",
+      "Tilos a Penny's Bay (pl. Hongkong Disneyland) közelében lévő tiltott terület felett repülni — ezt külön jogszabály állapítja meg, és nem tartozik a CAD Drone Map RFZ zónái közé",
+      "Tarts legalább 10 m (≤20 km/h) vagy 30 m (20 km/h felett, A2 kat.) távolságot a nem érintett személyektől, járművektől, vízi járművektől és építményektől; soha ne repülj felettük",
       "Csak nappal – az éjszakai repülés külön engedély nélkül tilos",
       "A Victoria Harbour térsége korlátozott",
       "Mindig tartsd a drónt vizuális látótávolságon belül (VLOS)",
+      "A 250 g feletti drónoknak rendelkezniük kell földrajzi tudatosság funkcióval és repülési naplóval; a repülési naplókat 6 hónapig meg kell őrizni",
       "Hongkongnak saját szabályai vannak – NEM a szárazföldi Kína szabályai érvényesek"
     ],
     "importantNotes": [
-      "A maximális magasság mindössze 91 m (300 láb) – jelentősen alacsonyabb, mint a legtöbb országban szokásos 120 m",
+      "A maximális magasság 91 m (300 ft), a nem regisztrált, legfeljebb 250 g-os drónoknál pedig csak 30 m (100 ft) — jóval alacsonyabb, mint a legtöbb országban szokásos 120 m",
+      "Látogatók: a 250 g feletti drónokhoz az eSUA-n drón- és pilótaregisztráció szükséges az útleveleddel (általában 6 hónapig érvényes). A CAD-címke nem nyomtatható ki, és nem postázzák külföldre — vedd át a CAD központjában, vagy kérd hongkongi címre (pl. a szállodádba)",
       "Standard A1 kategóriájú és standard minősítésű A2 műveletekhez NEM kötelező biztosítás. A fejlett műveletekhez és a B kategóriájú drónokhoz HK$10M fedezet szükséges; az újabb, 2025. július 18-án bevezetett C kategória (25–150 kg) esetén HK$15M (25–75 kg), illetve HK$20M (75–150 kg) szükséges. A CAD saját követelménytáblázata a szélesebb körű biztosítási bevezetés hatálybalépését „meghatározandó”-ként jelöli – ellenőrizd az aktuális státuszt, mielőtt azt feltételeznéd, hogy a te kategóriádhoz kötelező a biztosítás.",
       "Hongkongnak a szárazföldi Kínától teljesen elkülönülő szabályai vannak",
       "A Victoria Harbour és a környező területek repülési korlátozás alá esnek",
@@ -46,11 +50,11 @@
     "secondaryLinks": [
       {
         "title": "CAD – Advanced Rating képzés",
-        "description": "A 250 g feletti drónokhoz Advanced Rating képzés szükséges"
+        "description": "Advanced Rating képzés — csak Advanced Operations műveletekhez szükséges"
       },
       {
         "title": "CAD – Biztosítási követelmények",
-        "description": "Kötelező harmadik félnek okozott károkra vonatkozó biztosítási követelmények drónműveletekhez"
+        "description": "Harmadik fél felé fennálló felelősségbiztosítás — advanced műveletekhez kötelező; a standard A2 kat. repülésekre még nem hatályos"
       }
     ]
   }

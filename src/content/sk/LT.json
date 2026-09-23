@@ -1,55 +1,58 @@
 {
   "meta": {
-    "sourceHash": "c6156d2d7270eed1f0bbf03a22c83cd1cf94b1875c9f45ae22d161f7fab4e957",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e93e943369b28f887990b72c587e2c372465bbacd9292903c416ee4c4ebf7e67",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálne 120 m nad úrovňou terénu (kategória EASA Open)",
-      "Registrácia ako prevádzkovateľ UAS (€10/rok), ak váš dron váži 250 g a viac alebo je vybavený kamerou",
-      "Povinné online školenie A1/A3 – minimálny vek 16 rokov",
+      "V otvorenej kategórii je maximálna výška 120 m meraná ako vzdialenosť k najbližšiemu bodu zemského povrchu — nie jednoducho zvislo nadol, takže pri lietaní v blízkosti svahu sa môže počítať aj susedný terén. Do 50 m od vysokej umelej prekážky (vyššej ako 105 m) môže subjekt zodpovedný za prekážku požiadať o povolenie lietať až 15 m nad výškou prekážky.",
+      "Ako prevádzkovateľ dronu sa musíte zaregistrovať, ak váš dron váži 250 g alebo viac (alebo môže pri zrážke odovzdať viac ako 80 J kinetickej energie) — platí to aj pre hračky. Pri hmotnosti pod 250 g sa registrácia stále vyžaduje, ak má dron snímač schopný zaznamenávať osobné údaje, pokiaľ sa nepovažuje za hračku podľa EU Toy Safety Directive. Požiadavky na výcvik a osvedčenie pilota sú samostatné a závisia od triedy a podkategórie dronu.",
+      "Registračné číslo musí byť viditeľné na drone a (pri dronoch triedy C1 – C3) zadané do systému Remote ID",
+      "Drony bez triedneho označenia C (uvedené na trh pred 1. 1. 2024) a drony vlastnej výroby smú lietať iba v podkategórii A1, ak je ich vzletová hmotnosť menšia ako 250 g, alebo v podkategórii A3, ak je menšia ako 25 kg",
+      "Minimálny vek diaľkovo riadiaceho pilota je 16 rokov (pravidlo EÚ; Litva ho neznížila). Mladší piloti smú lietať iba: pod priamym dohľadom diaľkovo riadiaceho pilota, ktorý spĺňa požiadavky; s hračkou triedy C0 v podkategórii A1; alebo s dronom vlastnej výroby so vzletovou hmotnosťou menšou ako 250 g. Školenie a skúška A1/A3 sa absolvujú v systéme TKA a osvedčenie platí 5 rokov.",
       "Poistenie občianskoprávnej zodpovednosti je povinné pre drony s hmotnosťou nad 20 kg",
-      "Vždy udržiavajte vizuálny dohľad (VLOS)",
+      "V otvorenej kategórii musíte dron udržiavať vo vlastnom priamom vizuálnom dohľade voľným okom (okuliare alebo kontaktné šošovky sú v poriadku; ďalekohľad ani obrazovka sa nepočítajú) — alebo lietať s pomocou pozorovateľa, pričom medzi vami musí byť neustále jasná a účinná komunikácia, aby ste spoločne mohli sledovať vzdušný priestor a predchádzať zrážkam. Režim „Follow-me“ je samostatná výnimka povolená do 50 m od pilota.",
       "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre osoby, ktoré nie sú priamo zapojené, závisia od podkategórie, triedneho označenia a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
-      "Najmenej 5 km od akéhokoľvek letiska alebo letovej plochy",
+      "Neexistuje jednotná vzdialenosť od letísk platná v celej EÚ, ktorú musíte dodržiavať. Obmedzenia v blízkosti letísk sa zverejňujú ako geografické zóny (článok 15), ktorých tvar a veľkosť sa pri jednotlivých letiskách líšia – pred letom v blízkosti letiska, letovej plochy alebo heliportu skontrolujte oficiálnu mapu zón pre drony. V riadenom vzdušnom priestore (zóny UR Vilnius, Kaunas, Palanga, Šiauliai) môžete v otvorenej kategórii lietať bez predchádzajúceho povolenia iba do výšky stanovenej pre danú zónu – čím bližšie k letisku, tým nižšie (výšky – utm.ans.lt; lietanie vyššie vyžaduje povolenie vydané podľa postupu LTSA). V letiskových zónach ATZ/TIZ treba let vopred koordinovať s vlastníkom alebo prevádzkovateľom letiska.",
+      "Lety v zónach EYP a nad vojenskými priestormi (EYURM) sú bez povolenia zakázané; to isté platí v aktivovaných zónach EYR (aktivácia sa oznamuje prostredníctvom NOTAM)",
       "Nočný let je povolený v rámci základných požiadaviek EASA pre otvorenú kategóriu, ak sa používa požadované zelené blikajúce svetlo, pokiaľ platné geografické obmedzenie alebo vnútroštátne predpisy nestanovujú prísnejšie podmienky.",
       "V národnom parku Kurská kosa platia obmedzenia",
-      "Ďalšie obmedzenia v pohraničných oblastiach s Ruskom a Bieloruskom"
+      "V hraničnom pásme pozdĺž hraníc s Bieloruskom a Ruskom (približne 7,4 km od hranice) sú lety bez predchádzajúcej koordinácie prísne zakázané"
     ],
     "importantNotes": [
-      "Registrácia stojí €10 ročne — musí sa každoročne obnovovať",
+      "Registrácia a vydanie/obnovenie osvedčenia o registrácii stojí 31 €",
       "Poistenie sa vyžaduje iba pre drony s hmotnosťou nad 20 kg",
-      "V pohraničných oblastiach s Ruskom a Bieloruskom platia letové obmedzenia",
+      "V hraničnom pásme pozdĺž hraníc s Bieloruskom a Ruskom (približne 7,4 km od hranice) sú lety bez predchádzajúcej koordinácie prísne zakázané",
       "CTR letiska Vilnius pokrýva veľkú časť mesta",
       "Pri filmovaní alebo fotografovaní identifikovateľných osôb platí GDPR"
     ],
     "primaryLinks": [
       {
-        "title": "CAA – Pravidlá pre drony",
-        "description": "Oficiálne predpisy pre drony Správy civilného letectva"
+        "title": "TKA – pravidlá pre drony",
+        "description": "Oficiálne pravidlá pre drony agentúry Transporto kompetencijų agentūra (TKA)"
       },
       {
-        "title": "TKA – Registrácia používateľa",
-        "description": "Registrácia ako prevádzkovateľ UAS (€10 ročne, platná vo všetkých krajinách EÚ/EASA)"
+        "title": "TKA – registrácia prevádzkovateľa",
+        "description": "Registrácia prevádzkovateľa UAS (31 €, platná vo všetkých krajinách EÚ/EASA)"
       },
       {
         "title": "UTM Lithuania – Mapa vzdušného priestoru",
         "description": "Oficiálna mapa vzdušného priestoru UTM zobrazujúca zóny a obmedzenia pre drony"
       },
       {
-        "title": "CAA – Prehľad pravidiel",
-        "description": "Prehľad predpisov pre lietanie s dronmi v Litve"
+        "title": "TKA – prehľad pravidiel",
+        "description": "Prehľad predpisov pre lety dronov v Litve"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Air Navigation – Letecké navigačné služby",
-        "description": "Litovská letecká navigačná služba a informácie o vzdušnom priestore"
+        "title": "Oro Navigacija – letové navigačné služby",
+        "description": "Litovské letové navigačné služby a informácie o vzdušnom priestore"
       },
       {
-        "title": "CAA – Časté otázky o dronoch",
+        "title": "TKA – časté otázky o dronoch",
         "description": "Často kladené otázky o predpisoch pre drony v Litve"
       }
     ],

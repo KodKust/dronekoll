@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "efa2a30f33ab3aa81ade21c803c0ce10",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,21 @@
     "keyRules": [
       "Legfeljebb 120 m (400 láb) a talajszint felett",
       "Flyer ID 100 g-tól szükséges – teljesítsd a CAA online tesztjét (40 kérdés, legalább 75%-os eredmény szükséges)",
+      "Operator ID szükséges, ha a drónod 250 g-os vagy nehezebb, illetve kamerával 100 g-os vagy nehezebb — évi 12,34 £, a tulajdonosnak legalább 18 évesnek kell lennie; az azonosítót minden drónon fel kell tüntetni.",
       "Tartsd a drónt mindenkor saját, közvetlen, segédeszköz nélküli látóteredben, olyan közel, hogy meg tudd állapítani, merre néz, és figyelni tudd a többi légijárművet. Nincs méterben meghatározott jogi maximális távolság – az, hogy milyen messzire repülhetsz, a látási viszonyoktól, a fényviszonyoktól és magától a dróntól függ, nem egy rögzített sugártól.",
-      "Legalább 50 m távolságot tarts a műveletben részt nem vevő személyektől (a 30 m / 5 m csak az A2 tanúsítvánnyal használt, UK osztályjelzéssel rendelkező drónokra vonatkozik)",
-      "A repülőtereket repülési korlátozási zónák (FRZ-k) veszik körül, de ezek pontos alakja és mérete repülőterenként eltér – nincs általános „5 km-es kör”. Repülőtér közelében végzett repülés előtt mindig ellenőrizd az adott FRZ-t a CAA hivatalos drónbiztonsági térképén.",
+      "250 g alatti, illetve UK0/UK1/C0 osztályú drónok (C1 2027. december 31-ig): közelebb repülhetsz a nem érintett személyekhez, és felettük is repülhetsz, de tömeg felett soha. Más drónok: tarts legalább 50 m távolságot a nem érintett személyektől, és soha ne repülj felettük; a szokásos Far from People (A3) alkategóriában 150 m-t is tartanod kell a lakó-, rekreációs, kereskedelmi és ipari területektől (beleértve a parkokat, strandokat és turisztikai látványosságokat). A2 bizonyítvánnyal: UK2 (C2 2027 végéig) 30 m, lassú üzemmódban 5 m; egyéb 2 kg alatti drónok 50 m.",
+      "A repülőtereket repülési korlátozási zónák (FRZ-k) veszik körül, de ezek pontos alakja és mérete repülőterenként eltér – nincs általános „5 km-es kör”. Repülőtér közelében végzett repülés előtt mindig ellenőrizd az adott FRZ-t a NATS hivatalos UAS-korlátozási térképén.",
+      "Éjszakai repülés: zöld villogó fénynek kell bekapcsolva lennie (szerelj fel egyet, ha a drónodon nincs)",
       "Az EC Regulation 785/2004 szerint a harmadik féllel szembeni felelősségbiztosítás kötelező kereskedelmi vagy más nem szabadidős repüléshez, illetve minden legalább 20 kg tömegű drónhoz – könnyebb drón szabadidős használatához nem kötelező, de ajánlott.",
       "A Remote ID fokozatos bevezetése: 2026. januárjától az UK osztályjelzésű drónokra (UK1/UK2/UK3/UK5/UK6); 2028. januárjától teljesen kötelező",
       "Az Egyesült Királyság NEM tagja az EASA-nak – az uniós pilótaigazolványok itt nem érvényesek.",
-      "Londonban három állandó korlátozott terület van – R157 (Hyde Park/királyi rezidenciák), R158 (City of London/Square Mile, egy kis, ~0,5 NM-es zóna a pénzügyi negyed körül) és R159 (Canary Wharf/Isle of Dogs) –, ahol mérettől függetlenül minden drón repülése tilos, kivéve, ha a NATS legalább 28 nappal korábban benyújtott Non-Standard Flight kérelem alapján jóváhagyja. A Parliament és a Downing Street Westminsterben, mindhárom R-zónán kívül található, és külön mechanizmusok védik őket."
+      "Londonban állandó korlátozott területek vannak, ahol mérettől függetlenül minden drón tilos: R157 (Hyde Park — Westminstert, a Parlamentet, a Downing Streetet és a Buckingham-palotát is lefedi), R158 (City of London) és R159 (Isle of Dogs/Canary Wharf). Az ottani repüléshez a NATS-on keresztül Enhanced Non-Standard Flight engedély szükséges — legalább 21 nappal előbb kérelmezd (a londoni területeknél tovább tarthat). A windsori kastély (R156) és a Windsor Great Park (R161) szintén állandó drónos repülési tilalmi terület."
     ],
     "importantNotes": [
-      "Az egyesült királyságbeli regisztrációs küszöb 100 g – szigorúbb az EU 250 g-os határánál",
       "Az EU-/EASA-dróntanúsítványokat a brexit óta NEM ismerik el az Egyesült Királyságban",
+      "Az uniós C osztályú drónok (C0–C4) 2027. december 31-ig a megfelelő brit osztályként repülhetők — a UK Flyer ID/Operator ID szabályai tömeg és kamera szerint továbbra is érvényesek.",
       "A helyi önkormányzatok korlátozhatják a repülést a saját területükön – ellenőrizd, mielőtt parkokban repülsz",
-      "A börtönök körül ~1 km-es repülési tilalmi zóna van – a légijármű veszélyeztetése akár 5 év börtönnel is járhat"
+      "Az angliai és walesi börtönök körül drónos repülési tilalmi zónák vannak (a pontos alak börtönönként eltér — ellenőrizd a térképen). A légi jármű veszélyeztetése akár 5 év börtönnel is járhat."
     ],
     "primaryLinks": [
       {
@@ -36,15 +38,15 @@
       },
       {
         "title": "CAA – regisztráció (Flyer ID és Operator ID)",
-        "description": "Szerezd meg a Flyer ID-t (100 g-tól kötelező) és az Operator ID-t (250 g-tól kötelező)"
+        "description": "Szerezd meg a Flyer ID-t (100 g-tól kötelező) és az Operator ID-t (250 g-tól kötelező, vagy 100 g-tól, ha a drónon kamera van)"
       },
       {
         "title": "CAA – The Drone Code",
         "description": "Hivatalos szabályok: hol repülhetsz, magasságkorlátok és biztonsági követelmények"
       },
       {
-        "title": "Drone Assist – légtértérkép",
-        "description": "Ingyenes repüléstervező alkalmazás a repülési tilalmi zónák és légtérkorlátozások megjelenítésével"
+        "title": "Drone Assist — harmadik fél légtér-alkalmazása",
+        "description": "Nem hivatalos alkalmazás (Altitude Angel) — a korlátozásokat mindig ellenőrizd a NATS hivatalos UAS-korlátozási térképén"
       }
     ],
     "secondaryLinks": [
@@ -57,8 +59,8 @@
         "description": "Mikor kötelező a drónbiztosítás (kötelező a nem kedvtelési célú használathoz)"
       },
       {
-        "title": "CAA – Remote ID szabályzat",
-        "description": "Az egyesült királyságbeli Remote ID követelmények 2026 januárjától"
+        "title": "CAA — Remote ID (mikor kell bekapcsolnod)",
+        "description": "Az Egyesült Királyság Remote ID-követelményei 2026 januárjától"
       }
     ]
   }

@@ -1,27 +1,33 @@
 {
   "meta": {
-    "sourceHash": "508ee28346525a09001728f6f525106d73a15d373ba459d581dbbbe091cc7d62",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eee1f5c184b67a857980e5927e116be613b5cef533bad82326dd2e369b059d05",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Največ 120 m nad tlemi (kategorija EASA Open)",
+      "V odprti kategoriji je največja višina 120 m, merjeno kot razdalja do najbližje točke zemeljskega površja — ne zgolj navpično navzdol, zato lahko ob pobočju šteje tudi teren ob vas. V krogu 50 m od visoke umetne ovire (višje od 105 m) lahko subjekt, odgovoren za oviro, zahteva dovoljenje za letenje do 15 m nad višino ovire.",
       "V celoti skladno s švicarskimi predpisi FOCA za drone",
-      "Registracija prek švicarskega sistema (10 CHF, veljavna neomejeno), če dron tehta 250 g ali več oziroma je opremljen s kamero",
+      "Kot upravljavec drona se morate registrirati, če vaš dron tehta 250 g ali več (ali bi lahko ob trku prenesel več kot 80 J kinetične energije) — to velja tudi za igrače. Pod 250 g je registracija še vedno obvezna, če ima dron senzor, ki lahko zajema osebne podatke, razen če po direktivi EU o varnosti igrač šteje za igračo. Številka upravljavca (brez zadnjih treh znakov) mora biti jasno prikazana na vsakem dronu. Zahteve glede usposabljanja/usposobljenosti pilotov so urejene ločeno in so odvisne od razreda in podkategorije drona.",
+      "Najnižja starost pilota na daljavo (odprta kategorija): 12 let; mlajši piloti le pod nadzorom osebe, stare najmanj 16 let, ki ima potrdilo",
       "Obvezno zavarovanje odgovornosti za drone, težje od 250 g (kritje 1 milijon CHF)",
-      "Grad Vaduz: popolna prepoved letenja",
-      "Z dronom vedno ohranjajte vidni stik (VLOS)",
+      "Remote ID (daljinska identifikacija) mora biti med letom vklopljen, s shranjeno številko upravljavca — razen za drone razreda C0, starejše drone (legacy) in drone lastne izdelave",
+      "Stalna cona prepovedi letenja za drone »Regierungsgebäude – Landtag – Schloss Vaduz« (vsi težnostni razredi). Dovoljenja za izjeme je mogoče zahtevati pri Amt für Hochbau und Raumplanung.",
+      "Heliport Balzers (LSXB): droni nad 250 g so prepovedani v delih Balzersa, vsi droni pa neposredno na heliportu — izjeme le z dovoljenjem",
+      "V odprti kategoriji morate dron ohranjati v lastnem vidnem stiku s prostim očesom (očala/kontaktne leče so v redu; daljnogled ali zaslon ne šteje) — ali pa letite s pomočjo opazovalca, pri čemer ves čas ohranjata jasno in učinkovito medsebojno komunikacijo, da lahko skupaj spremljata zračni prostor in se izogibata trkom. Način follow-me je posebna izjema, dovoljena do 50 m od pilota.",
+      "Nočni leti le v vidnem dosegu in z vklopljenimi pozicijskimi lučmi; ustrezno zmanjšajte razdaljo",
       "Ne letite nad skupinami ljudi. Pravila za neudeležene osebe so odvisna od podkategorije, razredne oznake in pogojev delovanja; preverite uradno matriko.",
-      "Najmanj 5 km stran od katerega koli letališča ali vzletišča",
+      "Enotne razdalje od letališč, ki bi veljala po vsej EU, ni. Omejitve v bližini letališč so objavljene kot geografske cone (člen 15), katerih oblika in velikost se od letališča do letališča razlikujeta. Preden letite v bližini letališča, vzletišča ali heliporta, preverite uradno karto con za drone v svoji državi; za letenje v kontrolni coni (CTR) je običajno potrebno predhodno dovoljenje kontrole zračnega prometa.",
+      "Pred vsakim letom preverite tudi DABS (Daily Airspace Bulletin Switzerland, skybriefing.com/de/dabs) — če DABS zadeva območje leta, ne smete leteti.",
       "Zelo majhna država — čezmejni leti v Švico ali Avstrijo zahtevajo posebno pozornost",
       "Alpski teren: pazite na helikopterske poti"
     ],
     "importantNotes": [
       "Lihtenštajn je v celoti skladen s švicarskimi predpisi FOCA",
       "Enak registracijski sistem kot v Švici (10 CHF, neomejeno)",
-      "Grad Vaduz je stroga cona prepovedi letenja",
+      "Prebivališče v državi EASA (EU, Švica, Lihtenštajn, Norveška, Islandija): registrirajte se v državi prebivališča — registracija velja v vseh državah EASA. Prebivališče zunaj držav EASA: pred letenjem se registrirajte, razen če ste že registrirani v državi EASA (v Švici prek dLIS pri BAZL, 10 CHF). Potrdila pilotov na daljavo iz držav zunaj EASA niso priznana.",
+      "Območje »Regierungsgebäude – Landtag – Schloss Vaduz« je stalna cona prepovedi letenja za drone (vsi težnostni razredi)",
       "Država je dolga le približno 25 km — mejo je zlahka nenamerno prečkati",
       "GDPR velja pri snemanju prepoznavnih posameznikov (Lihtenštajn je član EGP)"
     ],
@@ -35,12 +41,12 @@
         "description": "Enak registracijski sistem kot v Švici (10 CHF, veljavno neomejeno)"
       },
       {
-        "title": "Swiss Dronemap — karta zračnega prostora",
-        "description": "Uradna interaktivna karta za drone (vključuje Lihtenštajn)"
+        "title": "Karta za drone BAZL — karta zračnega prostora",
+        "description": "Uradna karta za drone BAZL (velja tudi v Lihtenštajnu)"
       },
       {
-        "title": "Vlada Lihtenštajna — letalstvo",
-        "description": "Vladni portal Lihtenštajna z informacijami o letalstvu"
+        "title": "Landespolizei Liechtenstein — droni",
+        "description": "Informacije o dronih in conah prepovedi letenja v Lihtenštajnu"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +59,7 @@
         "description": "Pogosta vprašanja o predpisih za drone"
       }
     ],
-    "disclaimerText": "Pred vsakim letom vedno preverite uradne vire FOCA/BAZL in Swiss Dronemap. Ta aplikacija je orodje, ne pravni vir. Lihtenštajn upošteva švicarske predpise FOCA/EASA.",
+    "disclaimerText": "Pred vsakim letom vedno preverite uradne vire FOCA/BAZL in karto za drone BAZL. Ta aplikacija je orodje, ne pravni vir. Lihtenštajn upošteva švicarske predpise FOCA/EASA.",
     "sectionLabelRules": "KLJUČNA PRAVILA (KATEGORIJA EASA OPEN)",
     "sectionLabelPrimary": "URADNI VIRI",
     "sectionLabelSecondary": "DODATNI VIRI",

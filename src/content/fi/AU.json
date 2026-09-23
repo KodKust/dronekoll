@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "362edae763d5f971da0104f4b2bf8c97",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "eb2939eb8f1213b47dba87ec9440da8e",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,23 @@
     "keyRules": [
       "Enintään 120 m maanpinnasta (AGL)",
       "Vähintään 30 m:n etäisyys kaikista lennätykseen osallistumattomista henkilöistä — älä koskaan lennätä ihmisten yllä",
-      "Yli 250 g painavien dronejen on pysyttävä vähintään 5,5 km:n päässä valvotusta lentoasemasta. Alle 250 g painavat dronet saavat lentää tuolla vyöhykkeellä, mutta vain enintään 45 m maanpinnan yläpuolella, lentopaikan rajojen ulkopuolella ja aiheuttamatta vaaraa muille ilma-aluksille.",
-      "Alle 250 g painavat dronet: enintään 45 m korkeus 5,5 km:n säteellä valvotusta lentoasemasta",
+      "Yli 250 g painavat dronet: älä lennä 5,5 km:n säteellä valvotusta lentoasemasta tai kiitotien lähestymis-/lähtöreitillä 7 km:n etäisyydelle asti (7–8,5 km: enintään 90 m). Enintään 250 g painavat dronet saavat lentää 5,5 km:n säteellä enintään 45 m maanpinnan yläpuolella, mutta eivät koskaan lähestymis-/lähtöreittien yllä tai niillä, lentoaseman alueen sisällä tai siellä, missä ne aiheuttavat vaaraa ilma-aluksille.",
+      "5,5 km:n säteellä lentoasemasta, jolla ei ole lennonjohtoa, tai 1,4 km:n säteellä helikopterin laskeutumispaikasta: jos huomaat miehitetyn ilma-aluksen tai helikopterin, älä lähde lentoon — siirry pois sen reitiltä ja laskeudu mahdollisimman pian",
+      "Älä koskaan lennä hätätilannetoiminnan (poliisi, ambulanssi, etsintä ja pelastus, sammutustyöt) yllä tai lähellä äläkä alueilla, jotka vaikuttavat yleiseen turvallisuuteen",
       "Harrastelennättäminen: vain valoisaan aikaan (aamun siviilihämärästä illan siviilihämärään). Yölennättäminen edellyttää RePL- + ReOC-lupaa",
       "Pidä drone aina näköyhteydessä (VLOS)",
+      "Lennätä vain yhtä dronea kerrallaan",
       "Rekisteröintiä ei vaadita harrastedroneilta (kaikki alle 25 kg painavat dronet; tavanomaisia sääntöjä sovelletaan)",
-      "Vähintään 2 kg painavien dronejen kaupallinen käyttö: kaukolentäjän lupakirja (RePL) vaaditaan",
+      "Lentäminen työtehtävissä (mikä tahansa paino, myös alle 250 g): rekisteröi drone (maksuton 500 g:aan asti; 40 AUD dronea kohden yli 500 g:n droneilta) ja hanki käyttäjän akkreditointi (operator accreditation) tai kauko-ohjaajan lupakirja (RePL). Yli 2 kg:n droneille vaaditaan yleensä lisäksi RePL ja ReOC. Ulkomailla rekisteröityjä droneja ei voi rekisteröidä Australiassa — työlentoja varten hae CASA:n lupa myCASA-palvelun kautta",
       "Kansallispuistojen säännöt vaihtelevat osavaltioittain — tarkista ennen lennättämistä (jotkin kieltävät dronet kokonaan)"
     ],
     "importantNotes": [
-      "Victoria kieltää dronet KAIKISSA osavaltion ja kansallispuistoissa — ei poikkeuksia ilman lupaa",
+      "Sydney Harbour ja ympäröivät alueet ovat dronekieltoalue (”no drone zone”) (matalalla lentävät helikopterit ja vesilentokoneet) — monet matkailukohteet ovat kiellettyjä; tarkista CASA:n varmentamasta sovelluksesta",
+      "Victoria: harrastedronet eivät ole lainkaan sallittuja Parks Victorian hallinnoimilla alueilla; dronekuvaus edellyttää Parks Victorian lupaa ja luvanhaltijana toimivaa, CASA:n sertifioimaa operaattoria",
       "NSW:n kansallispuistot edellyttävät NPWS:n lupaa — sakot jopa 3 300 $",
       "Etelä-Australia sallii dronet puistoissa vain tieteelliseen tutkimukseen tai kaupalliseen kuvaukseen",
-      "Seuraamukset laittomasta toiminnasta voivat ylittää 10 000 AUD"
+      "Dronet ovat kiellettyjä Uluṟu-Kata Tjuṯan ja Kakadun kansallispuistoissa (rikos EPBC Act -lain nojalla ilman lupaa)",
+      "CASA voi määrätä jopa 1 820 AUD:n sakon rikkomusta kohden; tuomioistuimen sakot jopa 18 200 AUD ja jopa 2 vuotta vankeutta, jos dronesi vaarantaa ilma-aluksia"
     ],
     "primaryLinks": [
       {
@@ -36,7 +40,7 @@
       },
       {
         "title": "OpenSky — Ilmatilakartta",
-        "description": "CASA:n varmentama ilmatiladata reaaliaikaisine rajoituksineen ja TFR-hälytyksineen"
+        "description": "CASA:n varmentama ilmatiladata reaaliaikaisine rajoituksineen"
       },
       {
         "title": "CASA — Rekisteröinti",

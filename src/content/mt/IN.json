@@ -1,33 +1,36 @@
 {
   "meta": {
-    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "17cf8ce1211fdb6fb07c1979f47d5e58",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
-    "disclaimerText": "Iċċekkja dejjem is-sorsi uffiċjali tad-DGCA u DigitalSky qabel ittir. Din l-app hija għodda — mhux sors legali uffiċjali. India tuża pjattaforma diġitali obbligatorja għall-konformità kollha tad-droni.",
+    "disclaimerText": "Iċċekkja dejjem is-sorsi uffiċjali tad-DGCA (eGCA) u DigitalSky qabel ittir. Din l-app hija għodda — mhux awtorità legali.",
     "sectionLabelRules": "REGOLI EWLENIN",
     "sectionLabelPrimary": "SORSI UFFIĊJALI",
     "sectionLabelSecondary": "RIŻORSI ADDIZZJONALI",
     "linksSheetTitle": "Spazju tal-Ajru u Regoli — India",
     "dronePilotCredentialName": "Ċertifikat ta' Pilota Remot",
     "keyRules": [
-      "DigitalSky taqsam l-ispazju tal-ajru f'żoni Green (permess awtomatiku immedjat), Yellow (spazju tal-ajru kkontrollat, ipproċessar awtomatiku ta' ~15-30 min — dan jinkludi l-faxxa madwar il-perimetru tal-ajruport, bejn wieħed u ieħor 8-12 km) u Red (ristretti, jeħtieġu approvazzjoni manwali) — dejjem iċċekkja DigitalSky qabel ittir, għax il-konfini eżatti taż-żoni qrib ajruport speċifiku jistgħu jkunu differenti minn dan il-mudell ġenerali.",
+      "DigitalSky jaqsam l-ispazju tal-ajru f'żona ħadra (Green — ma hemmx bżonn permess, sa 120 m/400 ft), żona safra (Yellow — permess mill-awtorità tal-kontroll tat-traffiku tal-ajru kkonċernata) u żona ħamra (Red — permess tal-Gvern Ċentrali biss). F'distanza ta' 8–12 km mill-perimetru ta' ajruport operattiv, iż-żona ħadra tapplika biss sa 60 m (200 ft); 'il fuq minn hekk hija żona safra. Iċċekkja dejjem il-mappa ta' DigitalSky qabel ittajjar.",
+      "Sakemm ma jkunx eżentat (droni Nano sa 250 g, jew droni mudell sa 25 kg użati biss għall-edukazzjoni, ir-riċerka jew ir-rikreazzjoni fil-linja viżwali), drone irid ikun konformi ma' ċertifikat tat-tip tad-DGCA. Id-DGCA issospendiet temporanjament ir-reġistrazzjoni ta' droni mingħajr ċertifikat tat-tip sa avviż ieħor (droni Nano u mudell magħmula fl-Indja biss jistgħu japplikaw direttament mad-DGCA), u drone mhux irreġistrat ma jistax jittajjar.",
       "Assigurazzjoni obbligatorja għall-kategoriji kollha ħlief Nano",
-      "Remote Pilot Certificate (RPC) huwa meħtieġ għall-użu kummerċjali ta' droni Micro (250g-2kg) u droni akbar, u huwa obbligatorju għad-droni kollha tal-kategorija Small (2-25 kg) u ogħla irrispettivament mill-iskop. Nano (<250g) qatt ma jeħtieġ RPC, anke għall-użu kummerċjali.",
+      "Remote Pilot Certificate (RPC) huwa meħtieġ għall-użu kummerċjali ta' droni Micro (>250 g–2 kg) u droni akbar, u huwa obbligatorju għad-droni kollha tal-kategorija Small (2-25 kg) u ogħla irrispettivament mill-iskop. Nano (≤250 g) qatt ma jeħtieġ RPC, anke għall-użu kummerċjali.",
       "Kull titjira trid tibqa' fil-linja diretta tal-vista — id-drone għandu jibqa' viżibbli għall-għajn mingħajr għajnuniet il-ħin kollu, mingħajr trombi jew mezzi simili — sakemm ma tkunx ingħatat approvazzjoni speċifika EVLOS/BVLOS mid-DGCA.",
       "It-titjir f'żoni Red huwa strettament ipprojbit mingħajr awtorizzazzjoni speċjali mill-awtorità rilevanti permezz ta' DigitalSky."
     ],
     "importantNotes": [
-      "Ir-reġistrazzjoni ma' DigitalSky hija obbligatorja għad-droni kollha ħlief Nano (<250g), li ma jeħtieġ la reġistrazzjoni u lanqas UIN. It-titjir b'drone mhux irreġistrat li jeħtieġ reġistrazzjoni jista' jwassal għall-konfiska tiegħu.",
+      "Id-droni kollha, inklużi n-Nano (≤250 g), iridu jiġu rreġistrati u jkollhom UIN (permezz tal-portal eGCA tad-DGCA) qabel ittir. Id-droni Nano huma eżentati biss miċ-ċertifikazzjoni tat-tip, mir-Remote Pilot Certificate u mill-assigurazzjoni lejn terzi. It-titjir ta' drone mhux irreġistrat jirriskja penali u konfiska.",
+      "Viżitaturi: l-importazzjoni ta' droni fl-Indja hija pprojbita taħt id-DGFT Notification 54/2022 (il-klassijiet kollha tal-piż, inklużi dawk ≤250 g), ħlief b'awtorizzazzjoni tad-DGFT għal użu governattiv/R&D jew tad-difiża/sigurtà. Ir-reġistrazzjoni teħtieġ passaport Indjan jew ID maħruġa mill-gvern Indjan u prova tal-indirizz, għalhekk id-drone ta' viżitatur ġeneralment ma jistax jiġi rreġistrat jew jittajjar legalment.",
       "Iż-żoni Red jinkludu ajruporti, żoni militari, fruntieri u postijiet sensittivi",
-      "L-assigurazzjoni hija obbligatorja għal droni tal-kategorija Micro, Small u Medium"
+      "L-assigurazzjoni hija obbligatorja għal droni tal-kategorija Micro, Small u Medium",
+      "Kwalunkwe inċident li jinvolvi d-drone tiegħek irid jiġi rrappurtat lid-DGCA fi żmien 48 siegħa."
     ],
     "primaryLinks": [
       {
         "title": "DigitalSky — Pjattaforma tad-DGCA",
-        "description": "Pjattaforma obbligatorja għar-reġistrazzjoni tad-droni, il-permessi tat-titjir u l-verifiki taż-żoni"
+        "description": "Pjattaforma obbligatorja għall-permessi tat-titjir u l-verifiki taż-żoni"
       },
       {
         "title": "DGCA — Regolamenti dwar id-droni",

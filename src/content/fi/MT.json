@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "20d25911745bc6945c5cccf0785ea82d556cd1bb0a98eb5f9e4b1f82d7230b03",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "58ca5d4ebda944ebab8099950bf44fbb0464a578adf9411beaecf769f1064e8c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröidy UAS-käyttäjäksi (25 €/vuosi tai 10 €:n turistilupa)",
-      "A1/A3-verkkokoulutus vaaditaan — vähimmäisikä 16 vuotta",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m, mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maasto voi olla ratkaiseva. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolella.",
+      "Rekisteröidy UAS-käyttäjäksi osoitteessa tmcad.idronect.com (25 €/vuosi; vierailijat, joilla on EASA-käyttäjän rekisteröintinumero: 10 € 3 kuukaudeksi)",
+      "Käyttäjän rekisteröintinumero tai sen QR-koodi on tulostettava ja kiinnitettävä droneen — poliisi voi tarkastaa sen, ja laiminlyönnistä seuraa rangaistus.",
+      "A1/A3-todistus vaaditaan yli 250 g:n droneille (verkkokoulutus, koe TM-CAD:n toimistolla Lijassa) — vähimmäisikä 16 vuotta",
+      "C1-, C2- tai C3-luokkamerkityillä droneilla, joissa on Remote ID, on lennettävä Remote ID päällä ja ajan tasalla, ja siihen on syötettävä käyttäjän rekisteröintinumero.",
       "Kolmannen osapuolen vastuuvakuutus on pakollinen kaikenpainoisille droneille",
       "KOKO maa on valvottua ilmatilaa — tarkista aina IDRONECT",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Avoimessa kategoriassa drone on pidettävä omassa suorassa näköyhteydessäsi paljain silmin (silmälasit/piilolinssit käyvät; kiikarit tai näyttö eivät kelpaa) — tai lennä tarkkailijan avulla niin, että välillänne on koko ajan selkeä ja toimiva yhteys, jotta voitte yhdessä valvoa ilmatilaa ja välttää yhteentörmäyksiä. ”Follow-me”-tila on erillinen poikkeus, joka on sallittu enintään 50 m:n etäisyydellä lentäjästä.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-      "Malta International Airportin lähilentovyöhyke (CTR) kattaa suurimman osan saaresta",
+      "Koko Malta on valvottua ilmatilaa — jokainen dronelento edellyttää TM-CAD:n lupaa tmcad.idronect.com-palvelun kautta. Monet vähäriskiset pyynnöt hyväksytään automaattisesti muutamassa minuutissa, kun järjestelmä vahvistaa lennon olevan sääntöjen mukainen; noudata lupalomakkeesi (Authorisation Form) ehtoja. Erillinen 5 km:n lentokieltoalue kattaa Maltan kansainvälisen lentoaseman alueen.",
+      "Lennot, joita ei hyväksytä automaattisesti, on haettava vähintään 5 työpäivää etukäteen. Jos haluat lentää rajoitusalueella, lataa IDRONECTiin vyöhykkeen omistajan lupakirje (’no objection’).",
       "Yölennättäminen kielletty ilman erillistä lupaa",
-      "Vallettassa ja historiallisilla alueilla on voimassa lisärajoituksia"
+      "Valletta on ’Special Permit Zone’: kaupalliset lennot edellyttävät erityislupaa, mukaan lukien pääministerin toimiston ’no objection’ -lausunto. Muita lentoja varten Vallettassa ja muilla rajoitusalueilla tarkista IDRONECT-kartta ja lupaehdot ennen lentoa."
     ],
     "importantNotes": [
-      "KOKO maa on valvottua ilmatilaa — ainutlaatuista EU:ssa",
+      "KOKO maa on valvottua ilmatilaa — jokainen lento edellyttää TM-CAD:n lupaa",
       "Vakuutus pakollinen kaikenpainoisille droneille",
-      "Malta Airportin lähilentovyöhyke (CTR) kattaa suurimman osan pääsaaresta",
-      "Turistirekisteröinti saatavilla (10 €) lyhytaikaisille kävijöille",
-      "GDPR-tietosuoja-asetus koskee tunnistettavien henkilöiden kuvaamista"
+      "Tarkista lentoasemavyöhykkeet ja muut rajoitusalueet IDRONECT-kartalta (tmcad.idronect.com/map)",
+      "Kolmen kuukauden rekisteröinti (10 €) vierailijoille, joilla on jo EASA-käyttäjän rekisteröintinumero; muuten 25 €",
+      "GDPR-tietosuoja-asetus koskee tunnistettavien henkilöiden kuvaamista",
+      "Pidä mukanasi todisteet rekisteröinnistä, vakuutuksesta, lupakirjasta ja lennon luvasta — niiden puuttuminen voi johtaa sakkoihin. Lento ilman lupaa tai sen ehtojen vastaisesti voi johtaa dronen takavarikointiin."
     ],
     "primaryLinks": [
       {
@@ -32,7 +36,7 @@
       },
       {
         "title": "TM-CAD — Rekisteröidy käyttäjäksi",
-        "description": "Rekisteröidy UAS-käyttäjäksi (25 €/vuosi tai 10 € turisti, voimassa kaikissa EU-/EASA-maissa)"
+        "description": "Rekisteröidy UAS-käyttäjäksi osoitteessa tmcad.idronect.com (25 €/vuosi, voimassa kaikissa EU-/EASA-maissa; 10 € 3 kuukaudeksi vierailijoille, joilla on jo EASA-käyttäjän rekisteröintinumero)"
       },
       {
         "title": "IDRONECT — Lentojen hallinta",
@@ -49,8 +53,8 @@
         "description": "Maltan lennonvarmistuspalvelut ja ilmatilatiedot"
       },
       {
-        "title": "TM-CAD — Usein kysyttyä droneista",
-        "description": "Usein kysyttyä Maltan dronemääräyksistä"
+        "title": "TM-CAD — tietoa ja apua",
+        "description": "Tietoa ja apua Maltan dronemääräyksistä"
       }
     ],
     "disclaimerText": "Tarkista aina TM-CAD:n viralliset lähteet ja IDRONECT ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Malta noudattaa EASAn määräyksiä — huomaa, että koko maa on valvottua ilmatilaa.",

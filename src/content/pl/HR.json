@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "787b0ffdb58f4e659dab084b584504eae2d084cddcc8121e3000d9d4781ddb6e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "64708e9a3d82a3a709ddda077adb46fb41b25644e94f27236ce2d35379ac40be",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalnie 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-      "Rejestracja jako operator UAS (~3 €) dla dronów o masie 250 g lub więcej albo z kamerą",
-      "Obowiązkowe szkolenie online A1/A3 — minimalny wiek 16 lat",
-      "Obowiązkowe ubezpieczenie od odpowiedzialności cywilnej wobec osób trzecich — minimalna suma 1 000 000 €",
-      "Zakaz w parkach narodowych: Jeziora Plitwickie, Krka, Paklenica — loty dronów są niedozwolone",
-      "Zawsze utrzymuj z dronem kontakt wzrokowy (VLOS)",
+      "Każdy lot dronem w Chorwacji musi zostać wcześniej zatwierdzony przez AMC (ustanowienie struktury przestrzeni powietrznej ad hoc) — dla wszystkich dronów niezależnie od masy. Najpierw musisz zarejestrować konto użytkownika w AMC Portal (poczekaj na jego rozpatrzenie). Do 120 m poza CTR i do 50 m wewnątrz CTR (poza strefami wokół lotnisk i tymczasowymi strefami zakazu lotów) zgoda jest udzielana automatycznie w dniu lotu w aplikacji AMC Portal Mobile; w pozostałych przypadkach w trybie zwykłej procedury (wniosek 7 dni wcześniej).",
+      "W kategorii otwartej maksymalna wysokość wynosi 120 m, mierzona jako odległość od najbliższego punktu powierzchni ziemi — nie po prostu pionowo w dół, więc w pobliżu zbocza liczy się także teren obok ciebie. W promieniu 50 m od wysokiej przeszkody sztucznej (wyższej niż 105 m) podmiot odpowiedzialny za tę przeszkodę może wystąpić o zezwolenie na lot do 15 m powyżej wysokości przeszkody.",
+      "Musisz zarejestrować się jako operator drona, jeśli twój dron waży 250 g lub więcej (lub przy uderzeniu mógłby przekazać energię kinetyczną większą niż 80 J) — dotyczy to nawet zabawek. Poniżej 250 g rejestracja jest nadal obowiązkowa, jeśli dron ma czujnik zdolny do rejestrowania danych osobowych, chyba że jest uznawany za zabawkę w rozumieniu unijnej dyrektywy w sprawie bezpieczeństwa zabawek. Wymagania dotyczące szkolenia/świadectwa pilota są odrębne i zależą od klasy drona i podkategorii.",
+      "Minimalny wiek do samodzielnych lotów w kategorii otwartej wynosi 16 lat — szkolenie online i egzamin A1/A3 są ważne 5 lat i uznawane w całej UE. Młodsi piloci mogą latać wyłącznie pod bezpośrednim nadzorem pilota posiadającego świadectwo.",
+      "Ubezpieczenie od odpowiedzialności cywilnej wobec osób trzecich (co najmniej 750 000 SDR, rozporządzenie (WE) 785/2004) jest obowiązkowe, gdy wykonujesz dronem prace lotnicze — według CCAA obejmuje to także fotografowanie i filmowanie do celów prywatnych. Przy lotach czysto rekreacyjnych bez prac lotniczych (dron do 20 kg) nie jest obowiązkowe.",
+      "Chronione obszary przyrodnicze (parki narodowe, parki przyrody itp.): loty dronem wyłącznie za wcześniejszą zgodą instytucji publicznej zarządzającej obszarem. W PN Jezior Plitwickich i PN Krka filmowanie dronem jest zabronione, z wyjątkiem szczególnych przypadków za zgodą tej instytucji.",
+      "W kategorii otwartej musisz utrzymywać drona w bezpośrednim zasięgu wzroku, gołym okiem (okulary/soczewki kontaktowe są dozwolone; lornetka ani ekran się nie liczą) — albo z pomocą obserwatora, przy czym przez cały czas musicie komunikować się jasno i skutecznie, aby wspólnie obserwować przestrzeń powietrzną i unikać kolizji. Tryb „follow-me” to odrębny wyjątek, dozwolony do 50 m od pilota.",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
-      "Co najmniej 5 km od jakiegokolwiek lotniska lub lądowiska",
+      "W Chorwacji strefy wokół lotnisk są określone na poziomie krajowym (NN 20/2023, art. 4): w promieniu 1 500 m od ogrodzenia lotniska kontrolowanego oraz do 500 m w bok od osi podejścia na odcinku do 3 500 m od progu lot jest warunkowo zabroniony (zgoda tylko wyjątkowo, w trybie zwykłej procedury). W pozostałej części strefy kontrolowanej (CTR) zgoda do 50 m nad ziemią jest udzielana automatycznie w aplikacji AMC Portal Mobile, a powyżej 50 m wyłącznie w trybie zwykłej procedury. W pobliżu lotniska niekontrolowanego (do 1 500 m od jego krawędzi, do 500 m w bok od osi podejścia na odcinku do 2 500 m od progu) wymagana jest wcześniejsza zgoda operatora lotniska. Przed lotem w pobliżu portu lotniczego, lotniska lub lądowiska dla śmigłowców sprawdź oficjalną mapę stref dla dronów.",
       "Lot nocny jest dozwolony zgodnie z podstawowymi wymogami EASA dla kategorii otwartej, pod warunkiem stosowania wymaganego migającego zielonego światła, chyba że obowiązujące przepisy dotyczące strefy geograficznej lub przepisy krajowe nakładają bardziej rygorystyczne warunki.",
-      "Obszary przybrzeżne latem: możliwe dodatkowe ograniczenia"
+      "Nie lataj w pobliżu pożarów ani miejsc akcji ratunkowych – dron w obszarze działania samolotów gaśniczych zagraża akcji gaśniczej. Tymczasowe strefy zakazu lotów (np. mecze, wydarzenia) są publikowane w AMC Portal."
     ],
     "importantNotes": [
-      "W parkach narodowych (Plitwice, Krka, Paklenica) obowiązuje bezwzględny zakaz lotów wszystkimi dronami",
-      "Obowiązkowe ubezpieczenie z minimalną sumą 1 000 000 €",
-      "Rejestracja jest bardzo tania (~3 €) i ważna w całej UE",
+      "Parki narodowe, parki przyrody i inne obszary chronione: loty dronem wyłącznie za zgodą zarządzającej nimi instytucji publicznej; w Plitwicach i Krce filmowanie dronem jest zabronione, z wyjątkiem szczególnych przypadków za zgodą tej instytucji",
+      "Ubezpieczenie OC (co najmniej 750 000 SDR) jest obowiązkowe, gdy wykonujesz prace lotnicze — w tym fotografowanie i filmowanie do celów prywatnych",
+      "Rejestracja operatora jest ważna w całej UE",
       "Stare Miasto w Dubrowniku: spodziewaj się ograniczeń dla dronów",
-      "RODO ma zastosowanie przy filmowaniu możliwych do zidentyfikowania osób"
+      "RODO ma zastosowanie przy filmowaniu możliwych do zidentyfikowania osób",
+      "Zdjęcia lotnicze mogą wymagać zgody Państwowego Urzędu Geodezyjnego (Uredba o snimanju iz zraka, NN 77/20) – przed filmowaniem sprawdź dgu.gov.hr.",
+      "Poważne obrażenia osoby lub niebezpieczne zbliżenie do załogowego statku powietrznego zgłoś do HACZ w ciągu 72 godzin (portal Aviation Reporting).",
+      "Naruszenia są karane na podstawie ustawy o ruchu lotniczym (Zakon o zračnom prometu) – grzywny od 700 € wzwyż i cofnięcie rejestracji."
     ],
     "primaryLinks": [
       {
@@ -32,15 +36,15 @@
       },
       {
         "title": "CCAA — Rejestracja operatora",
-        "description": "Rejestracja jako operator UAS (~3 €, ważna we wszystkich krajach UE/EASA)"
+        "description": "Rejestracja jako operator UAS (ważna we wszystkich krajach UE/EASA)"
       },
       {
         "title": "Portal AMC — Mapa przestrzeni powietrznej",
         "description": "Mapa zarządzania przestrzenią powietrzną i stref dla dronów Croatia Control"
       },
       {
-        "title": "CCAA — Przegląd zasad",
-        "description": "Przegląd zasad latania dronami w Chorwacji"
+        "title": "CCAA — Zasady dla pilotów zagranicznych",
+        "description": "Co musisz wiedzieć, jeśli tymczasowo latasz dronem w Chorwacji (strona CCAA w języku angielskim)"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +57,7 @@
         "description": "Najczęściej zadawane pytania dotyczące przepisów dronowych w Chorwacji"
       }
     ],
-    "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła CCAA oraz AMC Portal. Ta aplikacja jest narzędziem — a nie organem prawnym. Chorwacja stosuje przepisy EASA z dodatkami krajowymi, w tym zakazami w parkach narodowych.",
+    "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła CCAA oraz AMC Portal. Ta aplikacja jest narzędziem — a nie organem prawnym. Chorwacja stosuje przepisy EASA z dodatkami krajowymi, w tym z wymogiem zgody na loty na chronionych obszarach przyrodniczych.",
     "sectionLabelRules": "KLUCZOWE ZASADY (KATEGORIA OTWARTA EASA)",
     "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
     "sectionLabelSecondary": "DODATKOWE MATERIAŁY",

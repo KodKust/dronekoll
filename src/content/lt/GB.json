@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "efa2a30f33ab3aa81ade21c803c0ce10",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,21 @@
     "keyRules": [
       "Ne daugiau kaip 120 m (400 ft) virš žemės paviršiaus",
       "Flyer ID reikalingas nuo 100 g — išlaikykite CAA internetinį testą (40 klausimų, 75 % išlaikymo riba)",
+      "Operator ID reikalingas, jei jūsų dronas sveria 250 g ar daugiau arba 100 g ar daugiau ir turi kamerą — 12,34 £ per metus, savininkui turi būti 18+; ID pažymėkite ant kiekvieno drono.",
       "Visada laikykite droną savo tiesioginiame regėjimo lauke be pagalbinių priemonių, pakankamai arti, kad galėtumėte nustatyti, kuria kryptimi jis nukreiptas, ir stebėti kitus orlaivius. Teisės aktuose nenustatytas fiksuotas didžiausias atstumas metrais — kiek toli galite skristi, priklauso nuo matomumo, apšvietimo ir paties drono, o ne nuo nustatyto spindulio.",
-      "Mažiausias 50 m atstumas nuo operacijoje nedalyvaujančių žmonių (30 m / 5 m atstumai taikomi tik UK klasės ženklu pažymėtiems dronams, kai pilotas turi A2 pažymėjimą)",
-      "Oro uostus supa Flight Restriction Zones (FRZ), tačiau tiksli jų forma ir dydis skiriasi priklausomai nuo oro uosto — visuotinės „5 km apskritimo“ taisyklės nėra. Prieš skrisdami netoli oro uosto visada patikrinkite konkrečią FRZ oficialiame CAA dronų saugos žemėlapyje.",
+      "Lengvesni nei 250 g dronai arba UK0/UK1/C0 klasės (C1 — iki 2027 m. gruodžio 31 d.): galite skristi arčiau nedalyvaujančių žmonių ir virš jų, bet niekada virš minių. Kiti dronai: laikykitės ne mažesnio kaip 50 m atstumo nuo nedalyvaujančių žmonių ir niekada neskraidykite virš jų; standartinėje Far from People (A3) pakategorėje taip pat turite laikytis 150 m atstumo nuo gyvenamųjų, rekreacinių, komercinių ir pramoninių zonų (įskaitant parkus, paplūdimius ir turistų lankomas vietas). Turint A2 pažymėjimą: UK2 (C2 — iki 2027 m. pabaigos) 30 m arba 5 m lėtuoju režimu; kiti lengvesni nei 2 kg dronai — 50 m.",
+      "Oro uostus supa Flight Restriction Zones (FRZ), tačiau tiksli jų forma ir dydis skiriasi priklausomai nuo oro uosto — visuotinės „5 km apskritimo“ taisyklės nėra. Prieš skrisdami netoli oro uosto visada patikrinkite konkrečią FRZ oficialiame NATS UAS ribojimų žemėlapyje.",
+      "Skrydžiai naktį: turi būti įjungta žalia mirksinti lemputė (jei jūsų dronas jos neturi, sumontuokite)",
       "Trečiųjų asmenų civilinės atsakomybės draudimas pagal EC Regulation 785/2004 privalomas komerciniams ar kitiems nepramoginiams skrydžiams arba bet kuriam 20 kg ar sunkesniam dronui — lengvesniems pramoginiams dronams jis neprivalomas, bet rekomenduojamas.",
       "Remote ID diegiamas palaipsniui: nuo 2026 m. sausio JK klasės ženklu pažymėtiems dronams (UK1/UK2/UK3/UK5/UK6); visiškai privalomas nuo 2028 m. sausio",
       "JK NĖRA EASA dalis — ES piloto pažymėjimai JK negalioja",
-      "London yra trys nuolatinės ribojamosios teritorijos — R157 (Hyde Park / royal residences), R158 (City of London / Square Mile, nedidelė ~0.5 NM zona aplink finansų rajoną) ir R159 (Canary Wharf / Isle of Dogs) — jose draudžiami visi dronai, nepriklausomai nuo dydžio, nebent gautas patvirtinimas pateikus Non-Standard Flight paraišką NATS likus bent 28 dienoms. Parliament ir Downing Street yra Westminster, už visų trijų R zonų ribų, ir saugomi atskirais mechanizmais."
+      "Londone yra nuolatinių ribojamų zonų, kuriose draudžiami visi dronai, nepriklausomai nuo dydžio: R157 (Hyde Park — apima ir Westminster, Parlamentą, Downing Street ir Bakingamo rūmus), R158 (City of London) ir R159 (Isle of Dogs/Canary Wharf). Norint ten skristi, reikia Enhanced Non-Standard Flight leidimo per NATS — kreipkitės ne vėliau kaip prieš 21 dieną (Londono zonose gali užtrukti ilgiau). Windsor Castle (R156) ir Windsor Great Park (R161) taip pat yra nuolatinės draudžiamosios dronų skrydžių zonos."
     ],
     "importantNotes": [
-      "JK registracijos riba yra 100 g — griežtesnė nei ES 250 g",
       "ES/EASA dronų pažymėjimai JK nepripažįstami nuo „Brexit“",
+      "ES C klasės dronus (C0–C4) iki 2027 m. gruodžio 31 d. galima skraidinti kaip atitinkamos JK klasės dronus — UK Flyer ID / Operator ID taisyklės vis tiek taikomos pagal svorį ir kamerą.",
       "Vietos savivaldybės gali riboti skraidymą savo teritorijoje — pasitikrinkite prieš skrisdami parkuose",
-      "Kalėjimus supa ~1 km neskraidymo zonos — už pavojaus orlaiviui sukėlimą gresia iki 5 metų laisvės atėmimo"
+      "Anglijos ir Velso kalėjimus supa draudžiamosios dronų skrydžių zonos (kiekvieno kalėjimo zonos forma skirtinga — pasitikrinkite žemėlapyje). Už pavojaus orlaiviui sukėlimą gresia iki 5 metų laisvės atėmimo."
     ],
     "primaryLinks": [
       {
@@ -36,15 +38,15 @@
       },
       {
         "title": "CAA — Registracija (Flyer ID ir Operator ID)",
-        "description": "Gaukite Flyer ID (privalomas nuo 100 g) ir Operator ID (privalomas nuo 250 g)"
+        "description": "Gaukite Flyer ID (privalomas nuo 100 g) ir Operator ID (privalomas nuo 250 g arba nuo 100 g, jei dronas turi kamerą)"
       },
       {
         "title": "CAA — The Drone Code",
         "description": "Oficialios taisyklės: kur galima skraidyti, aukščio ribos ir saugos reikalavimai"
       },
       {
-        "title": "Drone Assist — Oro erdvės žemėlapis",
-        "description": "Nemokama skrydžio planavimo programėlė, rodanti draudžiamąsias skrydžių zonas ir oro erdvės ribojimus"
+        "title": "Drone Assist — trečiosios šalies oro erdvės programėlė",
+        "description": "Neoficiali programėlė (Altitude Angel) — ribojimus visada patvirtinkite oficialiame NATS UAS ribojimų žemėlapyje"
       }
     ],
     "secondaryLinks": [
@@ -57,7 +59,7 @@
         "description": "Kada reikalingas dronų draudimas (privalomas nepramoginiam naudojimui)"
       },
       {
-        "title": "CAA — Remote ID politika",
+        "title": "CAA — Remote ID (kada privalote jį įjungti)",
         "description": "JK Remote ID reikalavimai nuo 2026 m. sausio"
       }
     ]

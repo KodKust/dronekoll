@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "362edae763d5f971da0104f4b2bf8c97",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb2939eb8f1213b47dba87ec9440da8e",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,23 @@
     "keyRules": [
       "Massimu ta' 120 m 'il fuq mill-art (AGL)",
       "Minimu ta' 30 m minn kwalunkwe persuna mhux involuta — qatt m'għandek ittir fuq in-nies",
-      "Droni ta' aktar minn 250 g għandhom jibqgħu mill-inqas 5.5 km 'il bogħod minn ajruport ikkontrollat. Droni taħt il-250 g jistgħu jtiru f'dik iż-żona, iżda biss sa 45 m 'il fuq mill-art, barra l-konfini tal-ajrudrom u mingħajr ma joħolqu periklu għal inġenji tal-ajru oħra.",
-      "Droni taħt il-250g: altitudni massima ta' 45 m fi ħdan 5.5 km minn ajruport ikkontrollat",
+      "Droni 'l fuq minn 250 g: ittirx fi ħdan 5.5 km minn ajruport ikkontrollat jew fir-rotta tal-avviċinament/tat-tluq ta' runway sa 7 km (7–8.5 km: massimu ta' 90 m). Id-droni ta' 250 g jew inqas jistgħu jtiru sa 45 m 'il fuq mill-art fi ħdan 5.5 km, iżda qatt fuq jew fir-rotot tal-avviċinament/tat-tluq, ġewwa l-konfini tal-ajruport, jew fejn joħolqu periklu għall-inġenji tal-ajru.",
+      "Fi ħdan 5.5 km minn ajruport mingħajr torri tal-kontroll, jew fi ħdan 1.4 km minn sit tal-inżul tal-ħelikopters: jekk issir taf b'inġenju tal-ajru jew ħelikopter bl-ekwipaġġ, tlanċjax — imxi 'l bogħod mir-rotta tiegħu u inżel malajr kemm jista' jkun",
+      "Ittirx qatt fuq jew qrib operazzjonijiet ta' emerġenza (pulizija, ambulanza, tiftix u salvataġġ, tifi tan-nar) jew żoni li jaffettwaw is-sigurtà pubblika",
       "Titjir rikreattiv: waqt id-dawl tal-jum biss (mill-bidu tat-tbexbix ċivili sa tmiem l-għabex ċivili). It-titjir bil-lejl jeħtieġ awtorizzazzjoni RePL + ReOC",
       "Żomm dejjem il-linja tal-vista diretta (VLOS)",
+      "Tajjar drone wieħed biss kull darba",
       "Ebda reġistrazzjoni meħtieġa għad-droni rikreattivi (kwalunkwe piż taħt il-25 kg, japplikaw ir-regoli standard)",
-      "Użu kummerċjali ta' 2 kg+: Liċenzja ta' Pilota Remot (RePL) meħtieġa",
+      "Titjir għax-xogħol (kwalunkwe piż, inkluż taħt il-250 g): irreġistra d-drone (b'xejn sa 500 g; AUD 40 għal kull drone 'l fuq minn 500 g) u jkollok akkreditazzjoni tal-operatur jew Remote Pilot Licence (RePL). 'L fuq minn 2 kg, ġeneralment huma meħtieġa wkoll RePL u ReOC. Id-droni rreġistrati barra mill-pajjiż ma jistgħux jiġu rreġistrati fl-Awstralja — għal titjiriet tax-xogħol, ikseb permess mis-CASA permezz ta' myCASA",
       "Ir-regoli tal-parki nazzjonali jvarjaw skont l-istat — iċċekkja qabel ittir (xi wħud jipprojbixxu d-droni għalkollox)"
     ],
     "importantNotes": [
-      "Victoria tipprojbixxi d-droni fil-parki statali u nazzjonali KOLLHA — ebda eċċezzjoni mingħajr permess",
+      "Sydney Harbour u ż-żoni ta' madwaru huma 'no drone zone' (ħelikopters u ajruplani tal-baħar li jtiru baxx) — ħafna siti turistiċi huma pprojbiti; iċċekkja app ivverifikata mis-CASA",
+      "Victoria: id-droni rikreattivi mhumiex permessi xejn fuq art immaniġġjata minn Parks Victoria; l-iffilmjar bid-drone jeħtieġ permess ta' Parks Victoria u operatur liċenzjat u ċċertifikat mis-CASA",
       "Il-parki nazzjonali ta' NSW jeħtieġu permess mingħand NPWS — multi sa $3,300",
       "L-Awstralja t'Isfel tippermetti d-droni fil-parki biss għal riċerka xjentifika jew filmar kummerċjali",
-      "Il-penali għall-operazzjonijiet illegali jistgħu jaqbżu $10,000 AUD"
+      "Id-droni huma pprojbiti fil-Parki Nazzjonali Uluṟu-Kata Tjuṯa u Kakadu (reat taħt l-EPBC Act mingħajr permess)",
+      "Is-CASA tista' timmulta sa AUD 1,820 għal kull reat; il-multi tal-qorti sa AUD 18,200, u sa 2 snin ħabs jekk id-drone tiegħek jipperikola inġenji tal-ajru"
     ],
     "primaryLinks": [
       {
@@ -36,7 +40,7 @@
       },
       {
         "title": "OpenSky — Mappa tal-ispazju tal-ajru",
-        "description": "Data tal-ispazju tal-ajru verifikata mis-CASA b'restrizzjonijiet f'ħin reali u twissijiet TFR"
+        "description": "Data tal-ispazju tal-ajru vverifikata mis-CASA b'restrizzjonijiet f'ħin reali"
       },
       {
         "title": "CASA — Reġistrazzjoni",

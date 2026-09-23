@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (onbevolkte gebieden, recreatief): Drones die ≤750 g wegen mogen zonder toestemming tot 50 m boven het hoogste obstakel op privéterrein vliegen",
-      "DAN 151 (bevolkte gebieden/professioneel gebruik): Drones die meer dan 750 g wegen vereisen registratie bij de DGAC, een pilotenlicentie en een operationele toestemming",
-      "Maximaal toegestane totale hoogte: 130 m AGL (DAN 151) — varieert per toestemming",
-      "Minimale afstand van 2 km tot luchthavens en vliegvelden",
+      "DAN 91.102(j): zonder toestemming van de DGAC mogen alleen drones tot 750 g van geëxpandeerd polyethyleen of gelijkwaardig materiaal, voor privé- of recreatief gebruik, vliegen, op privéterrein en niet hoger dan 50 m boven het hoogste obstakel of gebouw. Elke andere vlucht vereist voorafgaande toestemming van de DGAC.",
+      "DAN 151 (bevolkte gebieden, algemeen belang of luchtwerk): geldt voor drones van elk gewicht (max. 9 kg) en vereist registratie bij de DGAC, een bewijs van bevoegdheid als piloot op afstand, een verzekering, een AOC of CEO en een operationele toestemming.",
+      "DAN 151: de drone moet tijdens de operatie een noodparachute aan boord hebben en handmatig bestuurd kunnen worden (max. 9 kg exclusief de parachute).",
+      "De algemene limiet is 400 voet (120 m) AGL — hoger vliegen vereist voorafgaande toestemming van de DGAC (DAN 151 Ed. 3, van kracht sinds mei 2024). De huidige DAN 91 drukt dezelfde limiet uit als '400 voet (130 meter)'.",
+      "Niet vliegen binnen 2 km van de verlengde hartlijn van de baan (gemeten vanaf de drempel) of binnen 1 km parallel aan de hartlijn van de baan van een luchtvaartterrein.",
+      "Geen droneoperaties in gebieden waar een brand met bemande luchtvaartuigen wordt bestreden (DAN 91.102(i)(11) en DAN 151.103(g)(14)).",
       "Maximale afstand van 500 m tot de bestuurder (houd de drone rechtstreeks in het oog)",
-      "Houd de drone altijd binnen direct zicht (VLOS)",
+      "Je moet altijd direct visueel contact met de drone houden om de vlucht te sturen.",
       "Nachtvluchten vereisen specifieke toestemming van de DGAC",
-      "DGAC-registratie: merk, model, serienummer, maximumgewicht ≤9 kg voor toegestaan gebruik, foto van 10×15 cm",
-      "Een pilotenlicentie vereist een schriftelijk examen (minimumscore van 75%) over DAN 151, DAN 91, meteorologie en aerodynamica",
+      "Registratie bij de DGAC (DAN 151.203): fabrikant/land, merk, model, serienummer en fabrieksgewicht, met een kopie van je identiteitsbewijs; de aanvraag wordt ingediend via het webplatform van de DGAC (sinds augustus 2026). Maximaal startgewicht 9 kg.",
+      "Bewijs van bevoegdheid als piloot op afstand: minstens 18 jaar oud, trainingsverklaring en schriftelijk examen (minimaal 75%) over DAN 151, DAN 91, NOTAM, meteorologie en aerodynamica; 36 maanden geldig.",
       "Aansprakelijkheidsverzekering voor derden (goedgekeurd door JAC) vereist voor professioneel gebruik"
     ],
     "importantNotes": [
-      "📋 TWEELEDIG REGELGEVINGSKADER — DAN 91 vs. DAN 151: Chili maakt onderscheid tussen vliegen in ONBEVOLKTE gebieden (DAN 91, soepeler; recreatieve vluchten ≤750 g zonder vergunning) en vliegen in BEVOLKTE gebieden of gebieden van openbaar belang (DAN 151, waarvoor registratie, een gecertificeerde piloot en een verzekering vereist zijn). Welke regelgeving geldt, hangt af van de locatie ÉN het doel.",
-      "✈️ BUITENLANDSE TOERISTEN: De regels gelden ook voor niet-ingezetenen. Registratie is niet vereist voor recreatieve dronevluchten met drones die ≤750 g wegen in onbevolkte privégebieden. Voor alle andere vluchten (toeristische of professionele vluchten, in de buurt van mensen of in parken) gelden dezelfde vergunningseisen als voor Chileense burgers.",
-      "🌋 NATIONALE PARKEN EN RESERVATEN: CONAF (National Forestry Corporation) verbiedt drones zonder speciale vergunning in parken zoals Torres del Paine, Lauca en Isluga Volcano National Park. Voor Chilean Antarctica gelden speciale regels van INACH. Informeer bij elk park of reservaat voordat je reist.",
-      "🏔️ BEPERKTE GEBIEDEN: Het centrum van Santiago (La Moneda, Plaza de Armas), SCEL Airport (Pudahuel), militaire zones en grenszones. Voor Easter Island, Robinson Crusoe Island en Antarctica gelden aanvullende beperkingen. Zie AIP Chile (ENR 5.1) voor een kaart van verboden, beperkte en gevaarlijke gebieden.",
-      "💰 JAARLIJKSE VERLENGING: De DGAC-registratie is 12 maanden geldig en moet jaarlijks worden verlengd. Opereren zonder geldige registratie of geldig bevoegdheidsbewijs kan leiden tot een boete, inbeslagname van apparatuur en een verbod om vluchten uit te voeren."
+      "TWEELEDIG REGELGEVEND KADER — DAN 91 (onbewoonde gebieden): elke vlucht vereist voorafgaande toestemming van de DGAC, per geval (Annex D). DAN 151 (bevolkte gebieden, algemeen belang of luchtwerk): registratie, bewijs van bevoegdheid, verzekering en toestemming. Enige uitzondering: drones ≤750 g van geëxpandeerd polyethyleen of gelijkwaardig materiaal, recreatief gebruik, op privéterrein en ≤50 m boven het hoogste obstakel.",
+      "✈️ BUITENLANDSE TOERISTEN: De regels gelden evenzeer voor niet-ingezetenen. Zonder toestemming van de DGAC zijn alleen drones ≤750 g van geëxpandeerd polyethyleen of gelijkwaardig materiaal toegestaan, voor recreatief gebruik, op privéterrein en ≤50 m boven het hoogste obstakel. Elke andere vlucht vereist voorafgaande toestemming van de DGAC; registratie bij de DGAC vereist een kopie van je identiteitsbewijs.",
+      "🌋 BESCHERMDE GEBIEDEN: Recreatief of toeristisch gebruik van drones is in geen enkel door de staat beschermd natuurgebied toegestaan (nationale parken, reservaten, natuurmonumenten). CONAF staat vluchten alleen in gerechtvaardigde gevallen toe (wetenschappelijk onderzoek, monitoring of andere beheerdoeleinden) via conaf.cerofilas.gob.cl, en dan is ook toestemming van de DGAC vereist. Antarctica: speciale regelgeving van INACH.",
+      "🏔️ BEPERKTE GEBIEDEN: Niet vliegen boven La Moneda (zone SC-P28), militaire installaties, gevangenissen en strategische faciliteiten, of in verboden, beperkte of gevaarlijke gebieden van de AIP Chile (ENR 5.1) of NOTAM.",
+      "💰 GELDIGHEIDSDUUR: Het bewijs van bevoegdheid als piloot op afstand is 36 maanden geldig en wordt verlengd met een nieuw examen (min. 75%); de operationele toestemming onder DAN 151 is maximaal 6 maanden geldig. Het niet naleven van de DGAC-regelgeving kan leiden tot boetes, schorsing van operaties, inbeslagname van apparatuur of strafrechtelijke aansprakelijkheid als de luchtvaartveiligheid in gevaar wordt gebracht."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Het officiële luchtvaartinformatiesysteem van Chili: NOTAM's, verboden/beperkte/gevaarlijke gebieden (ENR 5), kaarten, luchthavens"
       },
       {
-        "title": "Registratieprocedure voor RPA (officiële PDF)",
-        "description": "Officiële DGAC-procedure voor nieuwe registratie en regularisatie van drones (RPA). Bevat Bijlage B en formulieren"
+        "title": "Registratie van drones (RPA) — Nieuw DGAC-platform",
+        "description": "Online registratie in het nationale RPA-register onder DAN 151. Registratie is op zich geen toestemming om te vliegen."
       }
     ],
     "secondaryLinks": [

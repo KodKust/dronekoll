@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "56c3153444a663787bfd0ce0f2337746",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,20 +14,23 @@
     "dronePilotCredentialName": "UA-pilotlicens",
     "keyRules": [
       "Maks. 200 ft (60 m AMSL) som standard — 400 ft (122 m) for licenserede kommercielle operatører i udpegede zoner mere end 6 km fra en lufthavn. Kontrollér de aktuelle zonekort og betingelser, før du regner med den højere grænse.",
-      "Du skal registrere dit ubemandede luftfartøj hos CAAS, hvis det vejer mere end 250 g. Registreringen koster SGD 25 og udløber ikke — du skal kun opdatere eller annullere den, hvis dronen mistes, beskadiges, sælges, eller dens ID-mærke bliver ulæseligt.",
-      "En UA Pilot Licence (UAPL) kræves til kommerciel eller professionel brug eller for enhver drone, der vejer mere end 7 kg, uanset formål. En Class B UAPL dækker lettere kommercielle droner under 7 kg.",
-      "Hold mindst 5 km afstand fra lufthavne og militære luftbaser — kontrollér den præcise aktuelle afstand, før du flyver nær en luftbase.",
+      "Du skal registrere dit ubemandede luftfartøj hos CAAS, hvis det vejer mere end 250 g. Registreringen koster SGD 25 og udløber ikke — du skal kun opdatere eller annullere den, hvis dronen mistes, beskadiges, sælges, eller dens ID-mærke bliver ulæseligt. Du skal være mindst 16 år for at kunne registrere dronen; for yngre piloter skal en forælder eller værge registrere dronen.",
+      "Fritidsflyvning udendørs med en drone over 1,5 kg op til 7 kg kræver et UA Basic Training Certificate (engangskursus på ca. 2 timer hos en CAAS-godkendt organisation) eller en UAPL, og piloten skal være mindst 16 år.",
+      "En UA Pilot Licence (UAPL) kræves til enhver kommerciel/professionel brug uanset vægt og for enhver drone, der vejer mere end 7 kg, uanset formål. En Class A UAPL dækker droner op til 25 kg; en Class B UAPL gælder for specifikke modeller over 25 kg. Udenlandske dronelicenser kan ikke konverteres til en UAPL.",
+      "Hold mindst 5 km afstand fra lufthavne og militære luftbaser, medmindre du har en CAAS Activity Permit til det — kontrollér den præcise aktuelle afstand, før du flyver nær en luftbase.",
+      "Det er ulovligt at flyve en drone ind i eller ud af Singapore (f.eks. over Johor-strædet) uden en grænseoverskridende tilladelse fra CAAS, uanset dronens vægt.",
       "Broadcast Remote ID (B-RID) har været obligatorisk siden 1. december 2025 for UA over 250 g, bortset fra UA, der flyves indendørs eller i et lukket område, eller når operatøren har en Operator Permit og bruger FlyItSafe-appen.",
       "Natflyvning er kun tilladt, når den krævede belysning er aktiv, og VLOS opretholdes hele tiden; flyvning ud over synsvidde kræver en Operator Permit og en Class 1 Activity Permit.",
       "Hold altid dronen inden for synsvidde (VLOS)",
-      "Aktivitetstilladelse påkrævet for at flyve i restriktionsbelagte områder",
+      "Til fritidsflyvninger (drone op til 25 kg) kræves en CAAS Class 2 Activity Permit for at flyve højere end 200 ft over middelvandstand, inden for 5 km fra en lufthavn eller militær luftbase eller i et restriktions- eller fareområde. Beskyttede områder kræver også en tilladelse fra Singapore Police Force. Flyvning i forbudte områder er aldrig tilladt.",
       "Straffene er trinvist opdelt: op til SGD 50.000 eller 2 års fængsel ved første dom for alvorlige overtrædelser (f.eks. flyvning i et forbudt eller beskyttet område eller flyvning i påvirket tilstand) — fordoblet til SGD 100.000 eller 5 år ved gentagne overtrædelser. Mindre overtrædelser (f.eks. flyvning med en uregistreret drone eller en B-RID-overtrædelse) straffes mildere med op til SGD 10.000 og op til 6 måneders fængsel.",
       "Flyv ikke over personer, bygninger eller restriktionsbelagte anlæg"
     ],
     "importantNotes": [
       "Singapore har strenge, trinvist opdelte dronestraffe: op til SGD 50.000 eller 2 års fængsel ved første dom for alvorlige overtrædelser som flyvning i et restriktionsområde — fordoblet til SGD 100.000 eller 5 år ved gentagne overtrædelser. Mindre overtrædelser har lavere straffe (op til SGD 10.000 og op til 6 måneder).",
-      "Standardhøjdegrænsen er kun 200 ft (60 m) — meget lavere end i de fleste lande",
+      "Standardhøjdegrænsen er kun 200 ft (ca. 60 m) over middelvandstand (AMSL), ikke over dit startpunkt. Fra højtliggende terræn eller et tag har du mindre højde til rådighed. Højere flyvning kræver en CAAS Activity Permit.",
       "Broadcast Remote ID (B-RID) har været obligatorisk siden 1. december 2025 for UA over 250 g (med begrænsede undtagelser for indendørs brug og indehavere af en Operator Permit, der bruger FlyItSafe-appen).",
+      "Besøgende uden Singpass: opret en UAPass-konto mindst 5 arbejdsdage før ankomst. Køb registreringsmærket til SGD 25 på et udpeget SingPost-posthus eller online (levering kun inden for Singapore, op til 5 arbejdsdage). Sæt det på dronen, og registrer den derefter på UA Portal.",
       "Mange områder i Singapore er restriktionsbelagte — tjek altid OneMap, før du flyver"
     ],
     "primaryLinks": [
@@ -40,12 +43,12 @@
         "description": "Officielt kort over Singapore med droneflyvezoner og restriktioner"
       },
       {
-        "title": "FlyItSafe — CAAS-app",
-        "description": "CAAS' officielle dronesikkerhedsapp med flyvezoner og information om tilladelser"
+        "title": "CAAS — krav til flyvning med UA",
+        "description": "CAAS' officielle regler for droneflyvning til fritids-, uddannelses- og erhvervsformål i Singapore"
       },
       {
         "title": "CAAS — UA-registrering",
-        "description": "Registrér din drone og ansøg om aktivitetstilladelser online"
+        "description": "Sådan registrerer du din drone hos CAAS: køb mærket til SGD 25, sæt det på, og registrer den derefter på UA Portal"
       }
     ],
     "secondaryLinks": [

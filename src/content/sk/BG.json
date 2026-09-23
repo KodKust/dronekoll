@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "53287a6bbcc1a046359816ed2a7de6b009d10fc753031bec7dc231d525fdedf3",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "76cde0e68eaea6de50863e60f85670840fe89558dc64828a40f7f9cfd6b8a0c6",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Max. 120 m nad úrovňou terénu (kategória EASA Open)",
-      "Registrácia prevádzkovateľa UAS sa vyžaduje pri dronoch s hmotnosťou 250 g a viac alebo vybavených kamerou",
-      "Povinné online školenie A1/A3 — minimálny vek 16 rokov",
-      "8-kilometrová ochranná zóna okolo letísk (väčšia než štandard EASA)",
+      "V otvorenej kategórii je maximálna výška 120 m, meraná ako vzdialenosť k najbližšiemu bodu zemského povrchu — nie iba kolmo nadol, takže pri svahu sa môže počítať aj terén vedľa vás. Do 50 m od vysokej umelej prekážky (nad 105 m) môže subjekt zodpovedný za prekážku požiadať o povolenie lietať až do 15 m nad výškou prekážky.",
+      "Ako prevádzkovateľ dronu sa musíte zaregistrovať, ak váš dron váži 250 g alebo viac (alebo by pri náraze mohol odovzdať kinetickú energiu vyššiu ako 80 J) — platí to aj pre hračky. Pod 250 g je registrácia povinná aj vtedy, ak má dron senzor schopný zachytávať osobné údaje, pokiaľ sa nepovažuje za hračku podľa smernice EÚ o bezpečnosti hračiek. Požiadavky na výcvik/osvedčenie pilota sú samostatné a závisia od triedy dronu a podkategórie. Registračné číslo prevádzkovateľa sa umiestňuje nálepkou na každý dron a ak má dron systém diaľkovej identifikácie (Remote ID), zadáva sa aj doň.",
+      "Minimálny vek na samostatné lietanie v otvorenej kategórii je 16 rokov — online školenie a skúška A1/A3 sa absolvujú v systéme DG CAA (uas.caa.bg, prihlásenie kvalifikovaným elektronickým podpisom), platia 5 rokov a sú uznávané v celej EÚ. Bez minimálneho veku: trieda C0 v A1, dron vlastnej výroby pod 250 g alebo let pod priamym dohľadom pilota s potrebnou spôsobilosťou. Ak má pilot menej ako 18 rokov, ako prevádzkovateľ sa registruje rodič alebo zákonný zástupca.",
+      "Turisti: ak váš dron podlieha registrácii, zaregistrujte sa ako prevádzkovateľ v krajine EÚ, kde žijete; ak žijete mimo EÚ — v prvej krajine EÚ, v ktorej budete lietať (v Bulharsku: uas.caa.bg). Kvalifikácie z krajín mimo EÚ sa neuznávajú — požadovaný výcvik (napr. A1/A3) treba absolvovať v EÚ.",
+      "Okolo letísk sú geografické zóny rôznej veľkosti. Pri letiskách Sofia, Varna, Burgas, Plovdiv a Gorna Oryahovitsa sú zóny väčšie ako 8 km: vo vnútornej zóne vyžaduje každý let povolenie DG CAA a v širšej zóne — lety nad 50 m. Žiadosť podajte najmenej 7 pracovných dní vopred. Pozrite si mapu na uas.caa.bg.",
       "Oblasti v okolí letiska Sofia pokrývajú významnú časť mesta",
-      "Vyžaduje sa predletová koordinácia s BULATSA",
-      "Dron majte vždy vo vizuálnom dohľade (VLOS)",
+      "Bez povolenia je zakázané lietať v obmedzených alebo zakázaných geografických zónach, v aktivovaných (dočasne vyhradených) štruktúrach vzdušného priestoru a v strážených hraniciach verejných letísk. Pri porušení môže byť dron prinútený pristáť alebo odstránený a akékoľvek škody znáša porušovateľ.",
+      "Pred každým letom si overte geografické zóny na mape DG CAA (uas.caa.bg); v zóne, ktorá vyžaduje povolenie, podajte žiadosť na DG CAA v lehote stanovenej pre danú zónu.",
+      "V otvorenej kategórii musíte mať dron v priamom vizuálnom dohľade voľným okom (okuliare/kontaktné šošovky sú v poriadku; ďalekohľad ani obrazovka sa nepočítajú) — alebo s pomocou pozorovateľa, pričom spolu musíte neustále jasne a účinne komunikovať, aby ste spoločne sledovali vzdušný priestor a predchádzali zrážkam. Režim „follow-me“ je samostatná výnimka iba v podkategórii A1 (drony triedy C0/C1 alebo drony vlastnej výroby pod 250 g), do 50 m od pilota.",
       "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre osoby, ktoré nie sú priamo zapojené, závisia od podkategórie, označenia triedy a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
       "Nočný let je povolený v rámci základných požiadaviek EASA pre otvorenú kategóriu, ak sa používa požadované zelené blikajúce svetlo, pokiaľ aktuálna geografická zóna alebo vnútroštátne pravidlo nestanovuje prísnejšie podmienky.",
-      "Národné parky a prírodné rezervácie: platia obmedzenia"
+      "Národné parky a prírodné rezervácie: platia obmedzenia",
+      "Poistenie zodpovednosti voči tretím osobám je povinné pre drony nad 20 kg a pri komerčnej/profesionálnej činnosti — bez ohľadu na hmotnosť. Pri profesionálnej činnosti v otvorenej kategórii predkladá prevádzkovateľ vyhlásenie DG CAA."
     ],
     "importantNotes": [
-      "Pred letom sa vyžaduje predletová koordinácia s BULATSA",
-      "8-kilometrová bezpečnostná zóna okolo letísk — väčšia než štandard EASA",
+      "Pred letom si overte geografické zóny na uas.caa.bg a aktívne NOTAM v B-FLIP od BULATSA",
+      "Okolo veľkých letísk sú geografické zóny väčšie ako 8 km; v nich sa vyžaduje povolenie DG CAA (v širšej zóne — pre lety nad 50 m). Pozrite si mapu na uas.caa.bg.",
       "Okolie letiska Sofia obmedzuje lety nad veľkou časťou mesta",
       "Vojenské objekty: oblasti, kde je lietanie prísne zakázané",
       "Pri fotografovaní rozpoznateľných osôb platí GDPR"
@@ -40,7 +43,7 @@
       },
       {
         "title": "DG GVA — Zóny pre drony",
-        "description": "Informácie a obmedzenia geografických zón pre lietanie s dronmi"
+        "description": "Oficiálna mapa DG CAA s geografickými zónami a obmedzeniami pre lety dronov"
       }
     ],
     "secondaryLinks": [
@@ -50,10 +53,10 @@
       },
       {
         "title": "BULATSA — NOTAM",
-        "description": "Aktívne NOTAM a dočasné obmedzenia vzdušného priestoru"
+        "description": "Aktívne NOTAM a dočasné obmedzenia vzdušného priestoru na portáli B-FLIP (vyžaduje registráciu v B-FLIP)"
       }
     ],
-    "disclaimerText": "Pred letom vždy skontrolujte oficiálne zdroje DG CAA a BULATSA. Táto aplikácia je pomôcka a nemá právnu záväznosť. Bulharsko sa riadi predpismi EASA s národnými doplnkami vrátane požiadavky na predletovú koordináciu.",
+    "disclaimerText": "Pred letom vždy skontrolujte oficiálne zdroje DG CAA (uas.caa.bg) a BULATSA. Táto aplikácia je pomôcka a nemá právnu záväznosť. Bulharsko sa riadi predpismi EASA s národnými doplnkami vrátane povolenia DG CAA na lety v niektorých geografických zónach.",
     "sectionLabelRules": "ZÁKLADNÉ PRAVIDLÁ (KATEGÓRIA EASA OPEN)",
     "sectionLabelPrimary": "OFICIÁLNE ZDROJE",
     "sectionLabelSecondary": "ĎALŠIE ZDROJE",

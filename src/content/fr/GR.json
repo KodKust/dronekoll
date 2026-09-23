@@ -1,61 +1,65 @@
 {
   "meta": {
-    "sourceHash": "6bd279870909de9539cac55440892030da06bb4b119368a297585876f27098df",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e631818b431dccaf473ebde5f460a6b9eb0f571b8775190b265998e6821bc00d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximum 120 m au-dessus du sol (catégorie ouverte EASA)",
-      "Enregistrez-vous comme exploitant d'UAS (gratuit), si le drone pèse 250 g ou plus ou dispose d'une caméra",
-      "La formation en ligne A1/A3 est requise — âge minimum 16 ans",
-      "Sites archéologiques soumis à restrictions : Acropolis, Delphi, Olympia, entre autres",
-      "Gardez toujours le drone en vue directe (VLOS)",
+      "Dans la catégorie ouverte, la hauteur maximale est de 120 m, mesurée comme la distance jusqu'au point le plus proche de la surface terrestre — pas simplement à la verticale : près d'une pente, le terrain à côté de vous peut donc aussi compter. À moins de 50 m d'un obstacle artificiel élevé (de plus de 105 m), l'entité responsable de l'obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
+      "Vous devez vous enregistrer comme exploitant de drone si votre drone pèse 250 g ou plus (ou pourrait transmettre plus de 80 J d'énergie cinétique en cas d'impact) — cela vaut même pour les jouets. En dessous de 250 g, l'enregistrement reste obligatoire si le drone possède un capteur capable de collecter des données personnelles, sauf s'il est considéré comme un jouet au sens de la directive européenne relative à la sécurité des jouets. Les exigences de formation/de certificat de télépilote sont distinctes et dépendent de la classe et de la sous-catégorie du drone.",
+      "Votre numéro d'enregistrement d'exploitant doit être apposé sur tous vos drones et saisi dans le système d'identification à distance (Remote ID), si le drone en est équipé. En Grèce, l'enregistrement est renouvelé au bout de 3 ans.",
+      "Visiteurs de pays hors UE/EASA : si votre drone doit être enregistré (voir ci-dessus) et que vous n'êtes pas déjà enregistré dans un autre État EASA, enregistrez-vous en Grèce avant de voler (sans numéro fiscal grec (AFM) : une demande spéciale avec passeport sur le site de la HCAA). Les résidents d'un autre État EASA s'enregistrent dans leur pays de résidence. Les formations et certificats de télépilote de pays hors UE ne sont pas reconnus dans l'UE.",
+      "L'assurance responsabilité civile est requise pour tout drone utilisé à titre professionnel, ainsi que pour les drones à usage privé de 4 kg et plus (législation nationale).",
+      "En Grèce, l'âge minimum est de 16 ans — aucune condition d'âge ne s'applique pour faire voler un drone de classe C0 qui est un jouet dans la sous-catégorie A1, un drone de construction privée de moins de 250 g, ou sous la supervision directe d'un télépilote certifié.",
+      "Des sites comme l'Acropole, Delphes et Olympie se trouvent dans des zones jaunes/magenta — les vols y sont autorisés sous conditions ou totalement interdits selon la zone concernée, et une approbation préalable de la HCAA est requise au moins 5 jours ouvrables à l'avance.",
+      "Dans la catégorie ouverte, vous devez garder le drone en vue directe, à l'œil nu (lunettes/lentilles de contact autorisées ; jumelles ou écran ne comptent pas) — ou avec l'aide d'un observateur, en communiquant ensemble de manière claire et efficace à tout moment, afin de surveiller ensemble l'espace aérien et d'éviter les collisions. Le mode « follow-me » est une exception distincte, autorisée jusqu'à 50 m du télépilote.",
       "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
-      "Distance minimale de 8 km de chaque aéroport",
+      "Il n'existe pas de distance unique à l'échelle de l'UE à respecter par rapport aux aéroports. Les restrictions près des aéroports sont publiées sous forme de zones géographiques (article 15), dont la forme et la taille varient d'un aéroport à l'autre. Avant de voler près d'un aéroport, d'un aérodrome ou d'un héliport, consultez la carte officielle des zones drones de votre pays ; voler dans une zone de contrôle (CTR) nécessite normalement une autorisation préalable du contrôle aérien.",
       "Les vols de nuit sont autorisés dans le cadre des exigences de base de l’EASA pour la catégorie ouverte lorsque le feu vert clignotant requis est utilisé, sauf si une zone géographique applicable ou une règle nationale impose une condition plus stricte.",
       "Aéroports insulaires : vérifiez attentivement la carte DAGR — de nombreuses îles ont de vastes CTR"
     ],
     "importantNotes": [
-      "Le survol des sites archéologiques et des monuments du patrimoine culturel est strictement interdit — de lourdes amendes s’appliquent",
+      "Feux de forêt : il est interdit de voler dans les zones désignées par NOTAM. Si vous voyez des moyens aériens de lutte contre les incendies ou recevez un message 112 concernant un incendie dans la zone, arrêtez immédiatement le vol et atterrissez. Infractions : amende, poursuites pénales, confiscation du drone.",
+      "Les sites archéologiques et les monuments du patrimoine culturel nécessitent une approbation préalable de la HCAA (au moins 5 jours ouvrables à l'avance) — ils ne sont pas toujours totalement interdits, mais font l'objet d'un contrôle strict.",
       "Les aéroports insulaires créent de vastes zones réglementées",
-      "Installations militaires : zones d’interdiction totale de vol (nombreuses sur les îles)",
+      "Ne survolez pas les ports, les hôpitaux, les installations énergétiques et de télécommunications, ni les installations militaires ou gouvernementales sans autorisation préalable de la HCAA — certaines installations militaires et gouvernementales sont des zones d'interdiction de vol totale sur la carte DAGR (beaucoup sur des îles). Les infractions peuvent entraîner des amendes, des sanctions pénales et la confiscation du matériel.",
       "Le GDPR s’applique lorsque des personnes identifiables sont filmées"
     ],
     "primaryLinks": [
       {
         "title": "HCAA — Réglementation des drones",
-        "description": "Règles et informations officielles de l'autorité de l'aviation civile concernant les drones"
+        "description": "Règles et informations officielles sur les drones de la Hellenic Civil Aviation Authority (HCAA)"
       },
       {
-        "title": "HCAA — Enregistrement des télépilotes",
-        "description": "Enregistrement gratuit comme exploitant d'UAS (valable dans tous les pays de l'UE/EASA)"
+        "title": "HCAA – Enregistrement de l'exploitant",
+        "description": "Enregistrement comme exploitant d'UAS (pour les résidents de Grèce, moyennant des frais de 20 € ; le numéro d'enregistrement est valable dans tous les pays de l'UE/EASA)"
       },
       {
         "title": "DAGR — Carte de l'espace aérien pour les drones",
         "description": "Carte géographique officielle des restrictions sur les vols de drones en Grèce"
       },
       {
-        "title": "HCAA — Notification de vol",
-        "description": "Dépôt d'une notification de vol préalable de 5 jours (requise pour chaque vol)"
+        "title": "HCAA – Demande d'approbation de vol (zones DAGR)",
+        "description": "Demande d'approbation des vols dans les zones DAGR jaunes/magenta (au moins 5 jours ouvrables à l'avance)"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "HASP — Sports aériens",
-        "description": "Fédération hellénique des sports aériens et informations sur les vols de loisir"
+        "title": "HASP – Prestataire de services de navigation aérienne",
+        "description": "Prestataire grec de services de navigation aérienne – exploitant de DAGR et des NOTAM"
       },
       {
         "title": "HCAA — Questions fréquentes sur les drones",
         "description": "Questions fréquentes sur la réglementation des drones en Grèce"
       }
     ],
-    "disclaimerText": "Avant chaque vol, vérifiez toujours les sources officielles de la Hellenic Civil Aviation Authority (HCAA) et la carte DAGR. Cette application est un outil, pas une autorité juridique. La Grèce suit la réglementation EASA avec des ajouts nationaux, notamment l’obligation de notifier le vol 5 jours à l’avance.",
+    "disclaimerText": "Avant chaque vol, vérifiez toujours les sources officielles de la Hellenic Civil Aviation Authority (HCAA) et la carte DAGR. Cette application est un outil, pas une autorité juridique. La Grèce suit la réglementation EASA avec des ajouts nationaux, notamment le dépôt d'une demande auprès de la HCAA au moins 5 jours ouvrables à l'avance pour les vols dans les zones DAGR jaunes/magenta où le vol est autorisé sous conditions.",
     "sectionLabelRules": "RÈGLES DE BASE (CATÉGORIE OUVERTE EASA)",
     "sectionLabelPrimary": "SOURCES OFFICIELLES",
     "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",
     "linksSheetTitle": "Espace aérien et réglementation — Grèce",
-    "dronePilotCredentialName": "Certificat d'exploitant"
+    "dronePilotCredentialName": "Certificat de télépilote"
   }
 }

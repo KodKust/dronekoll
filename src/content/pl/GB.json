@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "efa2a30f33ab3aa81ade21c803c0ce10",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,21 @@
     "keyRules": [
       "Maks. 120 m (400 ft) nad poziomem gruntu",
       "Flyer ID wymagany od 100 g — zdaj test online CAA (40 pytań, próg zaliczenia 75%)",
+      "Operator ID jest wymagany, jeśli twój dron waży 250 g lub więcej albo 100 g lub więcej i ma kamerę — 12,34 £/rok, właściciel musi mieć ukończone 18 lat; umieść ID na każdym dronie.",
       "Przez cały czas utrzymuj drona w bezpośrednim zasięgu własnego wzroku, bez użycia przyrządów, na tyle blisko, aby rozpoznać, w którą stronę jest skierowany, i obserwować inne statki powietrzne. Prawo nie określa stałej maksymalnej odległości w metrach — zasięg lotu zależy od widoczności, oświetlenia i samego drona, a nie od ustalonego promienia.",
-      "Minimalnie 50 m od niezaangażowanych osób (30 m / 5 m dotyczą wyłącznie brytyjskich dronów z oznaczeniem klasy i certyfikatem A2)",
-      "Strefy ograniczenia lotów (FRZ) otaczają lotniska, ale ich dokładny kształt i rozmiar różnią się w zależności od lotniska — nie istnieje uniwersalny „okrąg o promieniu 5 km”. Przed lotem w pobliżu lotniska zawsze sprawdź konkretną FRZ na oficjalnej mapie bezpieczeństwa dronów CAA.",
+      "Drony poniżej 250 g lub klasy UK0/UK1/C0 (C1 do 31 grudnia 2027 r.): możesz latać bliżej osób niezaangażowanych i nad nimi, ale nigdy nad zgromadzeniami ludzi. Pozostałe drony: zachowaj co najmniej 50 m od osób niezaangażowanych i nigdy nie lataj nad nimi; w standardowej podkategorii Far from People (A3) musisz też zachować 150 m od obszarów mieszkalnych, rekreacyjnych, handlowych i przemysłowych (w tym parków, plaż i atrakcji turystycznych). Ze świadectwem A2: UK2 (C2 do końca 2027 r.) 30 m lub 5 m w trybie niskiej prędkości; pozostałe drony poniżej 2 kg 50 m.",
+      "Strefy ograniczenia lotów (FRZ) otaczają lotniska, ale ich dokładny kształt i rozmiar różnią się w zależności od lotniska — nie istnieje uniwersalny „okrąg o promieniu 5 km”. Przed lotem w pobliżu lotniska zawsze sprawdź konkretną FRZ na oficjalnej mapie ograniczeń UAS prowadzonej przez NATS.",
+      "Loty w nocy: musi być włączone zielone migające światło (zamontuj je, jeśli twój dron go nie ma)",
       "Ubezpieczenie od odpowiedzialności cywilnej wobec osób trzecich (zgodnie z EC Regulation 785/2004) jest obowiązkowe w przypadku lotów komercyjnych lub innych niż rekreacyjne, a także dla każdego drona o masie 20 kg lub większej — przy lżejszym dronie używanym rekreacyjnie jest opcjonalne, ale zalecane.",
       "Remote ID wprowadzany stopniowo: od stycznia 2026 dla brytyjskich dronów z oznaczeniem klasy (UK1/UK2/UK3/UK5/UK6); w pełni obowiązkowy od stycznia 2028",
       "Wielka Brytania NIE należy do EASA — unijne świadectwa pilota nie są ważne w Wielkiej Brytanii",
-      "Londyn ma trzy stałe strefy zastrzeżone — R157 (Hyde Park/rezydencje królewskie), R158 (City of London/Square Mile, niewielka strefa ~0,5 NM wokół dzielnicy finansowej) oraz R159 (Canary Wharf/Isle of Dogs). We wszystkich obowiązuje zakaz lotów wszystkimi dronami niezależnie od rozmiaru, chyba że uzyskano zgodę na podstawie wniosku Non-Standard Flight złożonego do NATS co najmniej 28 dni wcześniej. Parlament i Downing Street znajdują się w Westminster, poza wszystkimi trzema strefami R, i są chronione za pomocą odrębnych mechanizmów."
+      "W Londynie istnieją stałe strefy ograniczone, w których zakazane są wszystkie drony niezależnie od wielkości: R157 (Hyde Park — obejmuje też Westminster, Parlament, Downing Street i Pałac Buckingham), R158 (City of London) i R159 (Isle of Dogs/Canary Wharf). Loty w nich wymagają zgody Enhanced Non-Standard Flight za pośrednictwem NATS — złóż wniosek co najmniej 21 dni wcześniej (w przypadku obszarów londyńskich może to potrwać dłużej). Zamek Windsor (R156) i Windsor Great Park (R161) to również stałe strefy zakazu lotów dronów."
     ],
     "importantNotes": [
-      "Brytyjski próg rejestracji to 100 g — surowszy niż unijne 250 g",
       "Unijne/EASA świadectwa dronowe NIE są uznawane w Wielkiej Brytanii od czasu brexitu",
+      "Drony unijnych klas C (C0–C4) mogą latać jako odpowiadająca im klasa brytyjska do 31 grudnia 2027 r. — zasady UK dotyczące Flyer ID/Operator ID nadal obowiązują w zależności od masy i kamery.",
       "Samorządy lokalne mogą ograniczać loty na swoim terenie — sprawdź przed lotem w parkach",
-      "Więzienia mają strefy zakazu lotów o promieniu ~1 km — narażanie statku powietrznego zagrożone jest karą do 5 lat więzienia"
+      "Więzienia w Anglii i Walii mają strefy zakazu lotów dronów (dokładny kształt zależy od więzienia — sprawdź mapę). Narażenie statku powietrznego na niebezpieczeństwo może skutkować karą do 5 lat więzienia."
     ],
     "primaryLinks": [
       {
@@ -36,15 +38,15 @@
       },
       {
         "title": "CAA — Rejestracja (Flyer ID i Operator ID)",
-        "description": "Uzyskaj Flyer ID (obowiązkowy od 100 g) oraz Operator ID (obowiązkowy od 250 g)"
+        "description": "Uzyskaj Flyer ID (obowiązkowy od 100 g) oraz Operator ID (obowiązkowy od 250 g lub od 100 g, jeśli dron ma kamerę)"
       },
       {
         "title": "CAA — The Drone Code",
         "description": "Oficjalne zasady: gdzie można latać, limity wysokości oraz wymagania bezpieczeństwa"
       },
       {
-        "title": "Drone Assist — Mapa przestrzeni powietrznej",
-        "description": "Bezpłatna aplikacja do planowania lotów pokazująca strefy zakazu lotów i ograniczenia przestrzeni powietrznej"
+        "title": "Drone Assist — zewnętrzna aplikacja o przestrzeni powietrznej",
+        "description": "Nieoficjalna aplikacja (Altitude Angel) — zawsze potwierdzaj ograniczenia na oficjalnej mapie ograniczeń UAS prowadzonej przez NATS"
       }
     ],
     "secondaryLinks": [
@@ -57,8 +59,8 @@
         "description": "Kiedy wymagane jest ubezpieczenie drona (obowiązkowe do użytku niekomercyjnego rekreacyjnego)"
       },
       {
-        "title": "CAA — Polityka Remote ID",
-        "description": "Brytyjskie wymagania Remote ID od stycznia 2026"
+        "title": "CAA — Remote ID (kiedy musisz go włączyć)",
+        "description": "Brytyjskie wymagania dotyczące Remote ID od stycznia 2026 r."
       }
     ]
   }

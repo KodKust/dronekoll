@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ab66a0144761f05a1cfb8f54499fb2e2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -11,19 +11,23 @@
     "sectionLabelPrimary": "OFFICIELLE KILDER",
     "sectionLabelSecondary": "YDERLIGERE RESSOURCER",
     "linksSheetTitle": "Luftrum og regler — Hong Kong",
-    "dronePilotCredentialName": "SUA-pilotrating",
+    "dronePilotCredentialName": "Fjernpilotcertifikat (standard / advanced rating)",
     "keyRules": [
-      "Maks. 91 m (300 ft) over jorden — lavere end i de fleste lande",
-      "Registrering påkrævet for alle droner over 250 g via eSUA-portalen",
+      "Maks. 91 m (300 ft) over jorden for droner i kat. A2 (250 g–7 kg) og registrerede undtagne modeller op til 250 g; uregistrerede droner op til 250 g: maks. 30 m (100 ft)",
+      "Maks. hastighed 50 km/t (kat. A2); uregistrerede droner op til 250 g maks. 20 km/t",
+      "Droner over 250 g — og droner op til 250 g, der flyves ud over grænserne for kat. A1 — skal registreres og mærkes via eSUA-portalen, og fjernpiloten (14 år+) skal også registrere sig på eSUA. Gælder også besøgende",
       "Restriktioner nær lufthavne i Hong Kong er fastlagt som officielt bekendtgjorte Restricted Flying Zones (RFZ) omkring HKIA og andre flyvepladser/helikopterlandingspladser og vises på CAD Drone Map — der findes ikke én fast afstand. Flyvning inden for en RFZ kræver tilladelse fra CAD, og nogle områder (f.eks. Victoria Harbour) er begrænsede uanset afstanden til en lufthavn.",
-      "Mindst 50 m afstand til uinvolverede personer",
+      "Ingen flyvning over forbudsområdet ved Penny's Bay (f.eks. Hong Kong Disneyland) — det er fastsat ved særskilt lov og er ikke omfattet af RFZ-zonerne på CAD Drone Map",
+      "Hold mindst 10 m (≤20 km/t) eller 30 m (over 20 km/t, kat. A2) fra uvedkommende personer, køretøjer, fartøjer og konstruktioner; flyv aldrig over dem",
       "Kun i dagslys — ingen natflyvning uden særlig tilladelse",
       "Området omkring Victoria Harbour er restriktionsbelagt",
       "Hold altid dronen inden for synsvidde (VLOS)",
+      "Droner over 250 g skal have geo-awareness og en flyvelog; opbevar flyvelogs i 6 måneder",
       "Hong Kong har sine egne regler — IKKE reglerne fra det kinesiske fastland"
     ],
     "importantNotes": [
-      "Den maksimale højde er kun 91 m (300 ft) — betydeligt lavere end standarden på 120 m i de fleste lande",
+      "Den maksimale højde er 91 m (300 ft) og kun 30 m (100 ft) for uregistrerede droner op til 250 g — et godt stykke under standarden på 120 m i de fleste lande",
+      "Besøgende: droner over 250 g kræver registrering af drone og pilot på eSUA med dit pas (normalt gyldig i 6 måneder). CAD-mærket kan ikke printes og sendes ikke til udlandet — hent det på CAD's hovedkontor, eller få det sendt til en adresse i Hongkong (f.eks. dit hotel)",
       "Forsikring er IKKE påkrævet for standardoperationer i kategori A1 og standardklassificerede A2-operationer. Dækning på HK$10M gælder for avancerede operationer og droner i kategori B; den nyere kategori C (25-150 kg, indført den 18. juli 2025) kræver HK$15M (25-75 kg) eller HK$20M (75-150 kg). CAD's egen kravtabel angiver ikrafttrædelsesdatoen for den bredere indfasning af forsikringskravet som 'ikke fastlagt' — tjek den aktuelle status, før du går ud fra, at forsikring er påkrævet for din specifikke kategori.",
       "Hong Kong har helt separate regler fra det kinesiske fastland",
       "Victoria Harbour og de omkringliggende områder har flyverestriktioner",
@@ -46,11 +50,11 @@
     "secondaryLinks": [
       {
         "title": "CAD — Advanced Rating-uddannelse",
-        "description": "Advanced Rating-uddannelse påkrævet for droner over 250 g"
+        "description": "Advanced Rating-uddannelse — kun påkrævet ved Advanced Operations"
       },
       {
         "title": "CAD — Forsikringskrav",
-        "description": "Obligatoriske krav om ansvarsforsikring for droneoperationer"
+        "description": "Ansvarsforsikring over for tredjemand — obligatorisk ved advanced operations; endnu ikke i kraft for almindelige flyvninger i kat. A2"
       }
     ]
   }

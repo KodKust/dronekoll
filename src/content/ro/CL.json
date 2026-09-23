@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (zone nepopulate, uz recreativ): dronele cu o greutate de ≤750 g pot zbura până la 50 m deasupra celui mai înalt obstacol de pe o proprietate privată, fără autorizare",
-      "DAN 151 (zone populate/uz profesional): dronele cu o greutate de peste 750 g necesită înregistrare la DGAC, o licență de pilot și o autorizație operațională",
-      "Înălțime maximă totală autorizată: 130 m AGL (DAN 151) — variază în funcție de autorizație",
-      "Distanță minimă de 2 km față de aeroporturi și aerodromuri",
+      "DAN 91.102(j): fără autorizarea DGAC pot zbura doar drone de până la 750 g din polietilenă expandată sau dintr-un material echivalent, pentru uz privat sau recreativ, în locuri private și la cel mult 50 m deasupra celui mai înalt obstacol sau clădiri. Orice alt zbor necesită autorizarea prealabilă a DGAC.",
+      "DAN 151 (zone populate, interes public sau lucru aerian): se aplică dronelor de orice greutate (max. 9 kg) și necesită înregistrare la DGAC, o acreditare de pilot la distanță, asigurare, un AOC sau CEO și o autorizație de operare.",
+      "DAN 151: drona trebuie să aibă o parașută de urgență în timpul operării și să poată fi controlată manual (max. 9 kg fără parașută).",
+      "Limita generală este de 400 de picioare (120 m) AGL — zborul peste aceasta necesită autorizarea prealabilă a DGAC (DAN 151 Ed. 3, în vigoare din mai 2024). DAN 91 în vigoare exprimă aceeași limită ca „400 de picioare (130 de metri)”.",
+      "Nu zbura pe o rază de 2 km de prelungirea axei pistei (măsurată de la prag) sau la mai puțin de 1 km paralel cu axa pistei unui aerodrom.",
+      "Nicio operațiune cu drone în zonele în care un incendiu este stins cu aeronave cu echipaj (DAN 91.102(i)(11) și DAN 151.103(g)(14)).",
       "Distanță maximă de 500 m față de operator (menține contactul vizual direct)",
-      "Menține întotdeauna contactul vizual direct (VLOS) cu drona",
+      "Trebuie să menții în permanență contactul vizual direct cu drona pentru a-i dirija zborul.",
       "Zborurile de noapte necesită o autorizație specifică din partea DGAC",
-      "Înregistrarea la DGAC: marca, modelul, numărul de serie, greutatea maximă ≤9 kg pentru uzul autorizat, fotografie 10×15 cm",
-      "Licența de pilot necesită un examen scris (scor minim de 75%) privind DAN 151, DAN 91, meteorologia și aerodinamica",
+      "Înregistrare la DGAC (DAN 151.203): producător/țară, marcă, model, număr de serie și greutate din fabrică, cu o copie a actului de identitate; cererea se depune pe platforma web a DGAC (din august 2026). Greutate maximă la decolare 9 kg.",
+      "Acreditare de pilot la distanță: vârstă de cel puțin 18 ani, declarație de instruire și examen scris (minimum 75%) privind DAN 151, DAN 91, NOTAM, meteorologia și aerodinamica; valabilă 36 de luni.",
       "Asigurare de răspundere civilă față de terți (autorizată de JAC) necesară pentru utilizarea profesională"
     ],
     "importantNotes": [
-      "📋 CADRU DE REGLEMENTARE DUBLU — DAN 91 vs. DAN 151: Chile face distincția între zborul în zone NEPOPULATE (DAN 91, mai permisiv; zboruri recreative ≤750 g fără permis) și zborul în zone POPULATE sau de interes public (DAN 151, care necesită înregistrare, un pilot certificat și asigurare). Reglementarea aplicabilă depinde de locație ȘI de scop.",
-      "✈️ TURIȘTI STRĂINI: Regulile se aplică în egală măsură nerezidenților. Nu este necesară înregistrarea pentru zborurile recreative cu drone cu o greutate de ≤750 g în zone private nepopulate. Pentru orice alte operațiuni (turism, uz profesional, în apropierea persoanelor, în parcuri) sunt necesare aceleași permise ca pentru cetățenii chilieni.",
-      "🌋 PARCURI NAȚIONALE ȘI REZERVAȚII: CONAF (Corporația Națională Forestieră) interzice dronele fără un permis special în parcuri precum Torres del Paine, Lauca și Parcul Național Vulcanul Isluga. Antarctica chiliană: reglementări speciale din partea INACH. Verifică regulile fiecărui parc sau ale fiecărei rezervații înainte de călătorie.",
-      "🏔️ ZONE RESTRICȚIONATE: Centrul orașului Santiago (La Moneda, Plaza de Armas), Aeroportul SCEL (Pudahuel), zonele militare și de frontieră. Insula Paștelui, Insula Robinson Crusoe, Antarctica: restricții suplimentare. Consultă AIP Chile (ENR 5.1) pentru o hartă a zonelor interzise, restricționate și periculoase.",
-      "💰 REÎNNOIRE ANUALĂ: Înregistrarea la DGAC este valabilă 12 luni și trebuie reînnoită anual. Operarea fără o înregistrare sau o acreditare valabilă poate atrage o amendă, confiscarea echipamentului și interzicerea operațiunilor."
+      "CADRU DE REGLEMENTARE DUBLU — DAN 91 (zone nepopulate): fiecare zbor necesită autorizarea prealabilă a DGAC, de la caz la caz (Anexa D). DAN 151 (zone populate, interes public sau lucru aerian): înregistrare, acreditare, asigurare și autorizare. Singura excepție: drone ≤750 g din polietilenă expandată sau dintr-un material echivalent, uz recreativ, în locuri private și ≤50 m deasupra celui mai înalt obstacol.",
+      "✈️ TURIȘTI STRĂINI: regulile se aplică în egală măsură nerezidenților. Fără autorizarea DGAC sunt permise doar drone ≤750 g din polietilenă expandată sau dintr-un material echivalent, pentru uz recreativ, în locuri private și ≤50 m deasupra celui mai înalt obstacol. Orice alt zbor necesită autorizarea prealabilă a DGAC; înregistrarea la DGAC necesită o copie a actului de identitate.",
+      "🌋 ARII PROTEJATE: utilizarea recreativă sau turistică a dronelor nu este permisă în nicio arie sălbatică protejată de stat (parcuri naționale, rezervații, monumente ale naturii). CONAF autorizează zboruri doar în cazuri justificate (cercetare științifică, monitorizare sau alte scopuri de gestionare) prin conaf.cerofilas.gob.cl, iar atunci este necesară și permisiunea DGAC. Antarctica: reglementări speciale de la INACH.",
+      "🏔️ ZONE RESTRICȚIONATE: nu zbura deasupra La Moneda (zona SC-P28), a instalațiilor militare, penitenciarelor și instalațiilor strategice sau în zonele interzise, restricționate ori periculoase din AIP Chile (ENR 5.1) sau NOTAM.",
+      "💰 TERMENE DE VALABILITATE: acreditarea de pilot la distanță este valabilă 36 de luni și se revalidează printr-un nou examen (min. 75%); autorizația de operare DAN 151 este valabilă până la 6 luni. Nerespectarea reglementărilor DGAC poate atrage amenzi, suspendarea operațiunilor, confiscarea echipamentului sau răspundere penală dacă siguranța aviației este pusă în pericol."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Sistemul oficial de informații aeronautice din Chile: NOTAM-uri, zone interzise/restricționate/periculoase (ENR 5), hărți, aerodromuri"
       },
       {
-        "title": "Procedura de înregistrare a RPA (PDF oficial)",
-        "description": "Procedura oficială a DGAC pentru înregistrarea nouă și regularizarea dronelor (RPA). Include Anexa B și formularele"
+        "title": "Înregistrarea dronelor (RPA) — noua platformă DGAC",
+        "description": "Înregistrare online în Registrul național RPA conform DAN 151. Înregistrarea nu constituie în sine o autorizare de zbor."
       }
     ],
     "secondaryLinks": [

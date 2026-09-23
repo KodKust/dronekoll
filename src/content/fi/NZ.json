@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "81f94aa9e46da24263d172cdcaa6b7c7",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "883ec207b6c18072fcf90bbb0d57a889",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,19 +14,20 @@
     "dronePilotCredentialName": "Part 101/102 -todistus",
     "keyRules": [
       "Suurin sallittu korkeus on 120 m (400 ft) maanpinnasta, ellei lennetä CATI: 101-1 -ohjeen kohdan 2.5 (Part 101) erityisehtojen mukaisesti.",
-      "Rekisteröintiä tai lentäjän lupakirjaa ei vaadita Part 101 -harrastelennättämiseen",
+      "Part 101 ei edellytä dronen rekisteröintiä. Tavalliseen päivälentämiseen ei tarvita lupakirjaa, mutta yölentäminen ja lentäminen 4 km:n säteellä lentopaikasta edellyttävät hyväksyttyä koulutusta tai pätevyyttä (CATI 101-1).",
       "Dronen on oltava koko ajan omin silmin nähtävissä, ellei lennetä FPV:llä tarkkailijan kanssa tai BVLOS-luvan nojalla (CAA Part 101).",
-      "Pysy vähintään 4 km:n päässä kaikista lentopaikoista (lentoasema, helikopterikenttä, pienlentopaikka), ellei sinulla ole lentopaikan pitäjän lupaa — varmista tarkka voimassa oleva etäisyys.",
-      "Maanomistajan suostumus vaaditaan ennen lennättämistä yksityisalueen yllä",
+      "Pysy vähintään 4 km:n päässä minkä tahansa lentopaikan rajasta, myös helikopterikenttien. Lähempänä lentäminen edellyttää hyväksyttyä dronelentäjän pätevyyttä (tai sen haltijan välitöntä valvontaa) — myös Australian CASA RePL tai Part 61/149 -lentäjän lupakirja kelpaa — sekä valvotuilla lentopaikoilla ATC-lupaa AirSharen kautta tai valvomattomilla lentopaikoilla pitäjän suostumusta, tarkkailijaa ja enintään 400 ft. Suojatut lennot (shielded operations) rajan ulkopuolella, enintään 33 ft (10 m) suojaavan kohteen yläpuolella ja esteen takana, joka pysäyttäisi dronen, on vapautettu (CATI 101-1, 2.3).",
+      "Valvotussa ilmatilassa tarvitset ATC-selvityksen (pyydä AirSharen kautta), ellei kyse ole suojatusta lennosta. Älä lennä rajoitusalueilla tai sotilaallisilla toiminta-alueilla ilman alueesta vastaavan viranomaisen lupaa, äläkä koskaan lennä matalalentoalueilla (Part 101.7, 101.9). Ne näkyvät AirSharessa.",
+      "Hanki omistajan tai haltijan suostumus ennen kuin lennät minkään kiinteistön yllä — yksityisen tai julkisen (esim. kunnan puistot, rannat, järvet).",
       "Pysy vähintään 150 m:n vaakasuoralla etäisyydellä siitä pisteestä, joka on suoraan merinisäkkään (valaan, delfiinin tai hylkeen) yläpuolella, kun lennät alle 600 m merenpinnasta (Marine Mammals Protection Regulations 1992).",
       "Suojelualueilla (kansallispuistot, luonnonsuojelualueet, metsäpuistot) lentäminen edellyttää Department of Conservationin (DOC) lupaa.",
-      "Yölennättäminen on sallittua Part 101 -säännön nojalla, kun käytössä ovat törmäyksenestovalot ja näköyhteys säilyy (ks. CAA:n neuvontakiertokirje AC101-1)",
+      "Yölentäminen vain sisätiloissa, suojattuna lentona tai CAA:n hyväksymän yölentokoulutuksen jälkeen — valoilla, jotka osoittavat dronen suunnan, yksi drone kerrallaan, ja 30 minuutin suojattu yölennon kertausharjoitus, jos et ole lentänyt yöllä 90 päivään (CATI 101-1, 2.11).",
       "Älä lennätä ihmisten yllä ilman heidän suostumustaan",
       "Väistä aina kaikkia miehitettyjä ilma-aluksia",
-      "Dronen enimmäispaino on Part 101:n mukaan 25 kg — raskaammat dronet tai operaatiot, jotka eivät täytä Part 101:n ehtoja, vaativat Part 102 -sertifioinnin."
+      "Dronen enimmäispaino on Part 101:n mukaan 25 kg; 15–25 kg:n dronet tarvitsevat hyväksytyn lentokelpoisuustarkastuksen ja pätevyysarvioinnin. Raskaammat dronet tai Part 101:n ulkopuoliset operaatiot vaativat Part 102 -sertifioinnin."
     ],
     "importantNotes": [
-      "Uudessa-Seelannissa ei ole rekisteröinti- tai lupakirjavaatimusta Part 101 -harrastelennättämiseen — mutta kaikki säännöt pätevät silti. Siviili-ilmailulaki 2023 (voimassa huhtikuusta 2025) voi tulevaisuudessa tuoda käyttöön rekisteröinnin tai Remote ID:n",
+      "Uudessa-Seelannissa ei ole dronejen rekisteröintiä, eikä useimpiin Part 101 -lentoihin tarvita lupakirjaa — mutta yölennot ja lennot 4 km:n säteellä lentopaikasta edellyttävät hyväksyttyä koulutusta tai lentäjän pätevyyttä. Kaikki Part 101 -säännöt (päivitetty 22.12.2025) ovat edelleen voimassa. Civil Aviation Act 2023 on ollut voimassa huhtikuusta 2025.",
       "DOC:n suojelualueet kattavat noin kolmanneksen Uudesta-Seelannista — tarkista aina ennen luontoalueilla lentämistä.",
       "Merinisäkkäitä koskevaa 150 m:n sääntöä valvotaan tiukasti, ja se koskee valaita, delfiinejä ja hylkeitä, kun lennetään alle 600 m merenpinnasta.",
       "Vakuutus ei ole nimenomaisesti pakollinen, mutta erittäin suositeltava"

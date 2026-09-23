@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "787b0ffdb58f4e659dab084b584504eae2d084cddcc8121e3000d9d4781ddb6e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "64708e9a3d82a3a709ddda077adb46fb41b25644e94f27236ce2d35379ac40be",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálne 120 m nad úrovňou terénu (kategória EASA Open)",
-      "Registrácia ako prevádzkovateľ UAS (~€3) pre drony s hmotnosťou 250 g a viac alebo s kamerou",
-      "Povinné online školenie A1/A3 — minimálny vek 16 rokov",
-      "Povinné poistenie zodpovednosti voči tretím osobám — minimálne krytie €1 000 000",
-      "Zakázané v národných parkoch: Plitvické jazerá, Krka, Paklenica — lietanie s dronmi nie je povolené",
-      "Vždy udržiavajte vizuálny kontakt s dronom (VLOS)",
+      "Každý let dronu v Chorvátsku musí byť vopred schválený cez AMC (zriadenie ad hoc štruktúry vzdušného priestoru) — pre všetky drony bez ohľadu na hmotnosť. Najprv si musíte zaregistrovať používateľský účet na AMC Portal (počkajte na jeho spracovanie). Do 120 m mimo CTR a do 50 m v CTR (mimo zón okolo letísk a dočasných bezletových zón) sa schválenie udeľuje automaticky v deň letu v aplikácii AMC Portal Mobile; v ostatných prípadoch riadnym postupom (žiadosť 7 dní vopred).",
+      "V otvorenej kategórii je maximálna výška 120 m, meraná ako vzdialenosť k najbližšiemu bodu zemského povrchu — nie iba kolmo nadol, takže pri svahu sa môže počítať aj terén vedľa vás. Do 50 m od vysokej umelej prekážky (vyššej ako 105 m) môže subjekt zodpovedný za túto prekážku požiadať o povolenie lietať až do 15 m nad výškou prekážky.",
+      "Ako prevádzkovateľ dronu sa musíte zaregistrovať, ak váš dron váži 250 g alebo viac (alebo by pri náraze mohol odovzdať kinetickú energiu vyššiu ako 80 J) — platí to aj pre hračky. Pod 250 g je registrácia povinná aj vtedy, ak má dron senzor schopný zachytávať osobné údaje, pokiaľ sa nepovažuje za hračku podľa smernice EÚ o bezpečnosti hračiek. Požiadavky na výcvik/osvedčenie pilota sú samostatné a závisia od triedy dronu a podkategórie.",
+      "Minimálny vek na samostatné lietanie v otvorenej kategórii je 16 rokov — online školenie a skúška A1/A3 platia 5 rokov a sú uznávané v celej EÚ. Mladší piloti smú lietať iba pod priamym dohľadom pilota s osvedčením.",
+      "Poistenie zodpovednosti voči tretím osobám (najmenej 750 000 SDR, nariadenie (ES) 785/2004) je povinné, keď s dronom vykonávate letecké práce — podľa CCAA sem patrí aj fotografovanie a natáčanie na súkromné účely. Pri čisto rekreačnom lietaní bez leteckých prác (dron do 20 kg) nie je povinné.",
+      "Chránené prírodné územia (národné parky, prírodné parky atď.): lety dronov iba s predchádzajúcim súhlasom verejnej inštitúcie, ktorá územie spravuje. V NP Plitvické jazerá a NP Krka je natáčanie dronom zakázané, okrem výnimočných prípadov so súhlasom inštitúcie.",
+      "V otvorenej kategórii musíte mať dron v priamom vizuálnom dohľade voľným okom (okuliare/kontaktné šošovky sú v poriadku; ďalekohľad ani obrazovka sa nepočítajú) — alebo s pomocou pozorovateľa, pričom spolu musíte neustále jasne a účinne komunikovať, aby ste spoločne sledovali vzdušný priestor a predchádzali zrážkam. Režim „follow-me“ je samostatná výnimka, povolená do 50 m od pilota.",
       "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre osoby, ktoré nie sú priamo zapojené, závisia od podkategórie, triedy a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
-      "Najmenej 5 km od akéhokoľvek letiska alebo letovej plochy",
+      "V Chorvátsku sú zóny okolo letísk stanovené na národnej úrovni (NN 20/2023, čl. 4): do 1 500 m od oplotenia riadeného letiska a 500 m laterálne od osi priblíženia až do 3 500 m od prahu je let podmienečne zakázaný (schválenie iba výnimočne, riadnym postupom). Vo zvyšku riadeného okrsku (CTR) sa schválenie do 50 m nad terénom udeľuje automaticky v aplikácii AMC Portal Mobile a nad 50 m iba riadnym postupom. V blízkosti neriadeného letiska (1 500 m od jeho okrajov, 500 m laterálne od osi priblíženia až do 2 500 m od prahu) sa vyžaduje predchádzajúci súhlas prevádzkovateľa letiska. Pred letom v blízkosti letiska, letovej plochy alebo heliportu si overte oficiálnu mapu zón pre drony.",
       "Nočný let je povolený v rámci základných požiadaviek EASA pre otvorenú kategóriu, ak sa používa požadované zelené blikajúce svetlo, pokiaľ platné geografické obmedzenie alebo vnútroštátne predpisy nestanovujú prísnejšie podmienky.",
-      "Pobrežné oblasti počas leta: možné ďalšie obmedzenia"
+      "Nelietajte v blízkosti požiarov ani miest zásahov záchranných zložiek – dron v priestore činnosti hasičských lietadiel ohrozuje hasenie. Dočasné bezletové zóny (napr. zápasy, podujatia) sa zverejňujú na AMC Portal."
     ],
     "importantNotes": [
-      "Národné parky (Plitvice, Krka, Paklenica) prísne zakazujú všetky drony",
-      "Povinné poistenie s minimálnym krytím €1 000 000",
-      "Registrácia je veľmi dostupná (~€3) a platí v celej EÚ",
+      "Národné parky, prírodné parky a iné chránené územia: lety dronov iba so súhlasom verejnej inštitúcie, ktorá ich spravuje; na Plitviciach a v Krke je natáčanie dronom zakázané, okrem výnimočných prípadov so súhlasom inštitúcie",
+      "Poistenie zodpovednosti (najmenej 750 000 SDR) je povinné, keď vykonávate letecké práce — vrátane fotografovania a natáčania na súkromné účely",
+      "Registrácia prevádzkovateľa platí v celej EÚ",
       "Staré mesto v Dubrovníku: počítajte s obmedzeniami pre drony",
-      "Pri natáčaní identifikovateľných osôb platí GDPR"
+      "Pri natáčaní identifikovateľných osôb platí GDPR",
+      "Snímkovanie zo vzduchu môže vyžadovať súhlas Štátnej geodetickej správy (Uredba o snimanju iz zraka, NN 77/20) – pred natáčaním si to overte na dgu.gov.hr.",
+      "Vážne zranenie osoby alebo nebezpečné priblíženie k lietadlu s posádkou nahláste HACZ do 72 hodín (portál Aviation Reporting).",
+      "Porušenia sa trestajú podľa zákona o leteckej doprave (Zakon o zračnom prometu) – pokuty od 700 € vyššie a odobratie registrácie."
     ],
     "primaryLinks": [
       {
@@ -32,15 +36,15 @@
       },
       {
         "title": "CCAA — Registrácia prevádzkovateľa",
-        "description": "Registrácia ako prevádzkovateľ UAS (~€3, platná vo všetkých krajinách EÚ/EASA)"
+        "description": "Registrácia ako prevádzkovateľ UAS (platná vo všetkých krajinách EÚ/EASA)"
       },
       {
         "title": "AMC Portal — Mapa vzdušného priestoru",
         "description": "Mapa správy vzdušného priestoru a zón pre drony od Croatia Control"
       },
       {
-        "title": "CCAA — Prehľad pravidiel",
-        "description": "Prehľad pravidiel pre lietanie s dronmi v Chorvátsku"
+        "title": "CCAA — Pravidlá pre zahraničných pilotov",
+        "description": "Čo potrebujete vedieť, ak dočasne lietate s dronom v Chorvátsku (stránka CCAA v angličtine)"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +57,7 @@
         "description": "Často kladené otázky o predpisoch pre drony v Chorvátsku"
       }
     ],
-    "disclaimerText": "Pred lietaním vždy skontrolujte oficiálne zdroje CCAA a AMC Portal. Táto aplikácia je nástroj, nie právny zdroj. Chorvátsko sa riadi predpismi EASA s národnými doplnkami vrátane zákazov v národných parkoch.",
+    "disclaimerText": "Pred lietaním vždy skontrolujte oficiálne zdroje CCAA a AMC Portal. Táto aplikácia je nástroj, nie právny zdroj. Chorvátsko sa riadi predpismi EASA s národnými doplnkami vrátane schvaľovania letov v chránených prírodných územiach.",
     "sectionLabelRules": "KĽÚČOVÉ PRAVIDLÁ (KATEGÓRIA EASA OPEN)",
     "sectionLabelPrimary": "OFICIÁLNE ZDROJE",
     "sectionLabelSecondary": "ĎALŠIE ZDROJE",

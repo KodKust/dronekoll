@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "fca3bbf5a00a2bc5c8ae02d7f663df3d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb076b85a229a810666fd05392ea183d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,19 +14,22 @@
     "dronePilotCredentialName": "Licenza di pilota remoto",
     "keyRules": [
       "Contatto visivo diretto (VLOS) obbligatorio — distanza orizzontale massima 500 m",
-      "Distanza minima di 50 m da persone, edifici e veicoli",
-      "Mantieni una distanza di almeno 10 km dagli aeroporti: la regola è applicata rigorosamente in Sudafrica. Verifica con la SACAA la distanza esatta prima di volare vicino a un aeroporto.",
-      "Far volare un drone nel Kruger o in qualsiasi altro parco nazionale sudafricano richiede l'autorizzazione espressa di SANParks (NEMA Protected Areas Act): senza autorizzazione è vietato volare al di sotto di 2.500 ft sopra il punto più alto del parco. Separatamente, l'uso di qualsiasi UAV nello spazio aereo sudafricano senza rispettare le norme dell'aviazione civile può comportare una multa fino a R50.000 e/o fino a 10 anni di reclusione.",
+      "Max 150 ft (45 m) dal suolo, e resta sotto l'ostacolo più alto entro 300 m (VLOS ristretto)",
+      "Distanza minima di 50 m da persone, strade pubbliche ed edifici (salvo permesso del proprietario): non sorvolare mai direttamente nessuno",
+      "Resta ad almeno 10 km da qualsiasi aerodromo: aeroporti, aviosuperfici ed elisuperfici (comprese le piste private dei lodge). In Sudafrica il rispetto è rigorosamente controllato.",
+      "Vietato volare nello spazio aereo controllato, soggetto a restrizioni o proibito, oppure vicino/sopra carceri, stazioni di polizia, scene del crimine, tribunali, centrali nucleari o national key points",
+      "Volare sotto i 2.500 ft rispetto al punto più alto di qualsiasi parco nazionale (compreso il Kruger), riserva naturale speciale o sito del Patrimonio mondiale richiede il permesso scritto preventivo dell'autorità di gestione dell'area stessa (Protected Areas Act s47), non solo nei parchi SANParks. Inoltre, la violazione delle norme dell'aviazione civile può comportare una multa e/o fino a 10 anni di reclusione.",
       "Solo di giorno — sono richieste condizioni meteorologiche limpide",
-      "Nessuna registrazione o licenza necessaria per il volo ricreativo",
-      "L'uso commerciale richiede RPC (Remote Pilot Certificate), ROC e RLA",
+      "Nessuna registrazione o licenza necessaria per il volo privato non commerciale con droni sotto i 7 kg (solo VLOS ristretto)",
+      "Voli privati solo sopra proprietà di cui sei titolare o per cui hai il permesso del proprietario",
+      "Qualsiasi uso non privato (commerciale, aziendale o senza scopo di lucro) richiede una Remote Pilot Licence (RPL), un UAS Operating Certificate (UASOC, in precedenza ROC), una RPAS Letter of Approval (RLA) e la registrazione SACAA (C of R); l'uso commerciale richiede anche una Air Service Licence (ASL)",
       "L'assicurazione è generalmente richiesta solo per le operazioni commerciali: verifica i requisiti SACAA in vigore prima di un uso commerciale.",
       "Non volare sopra assembramenti di persone o eventi pubblici"
     ],
     "importantNotes": [
-      "Volare in qualsiasi parco nazionale (compreso il Kruger) senza l'autorizzazione di SANParks viola il NEMA Protected Areas Act; separatamente, l'uso di un UAV senza rispettare le norme dell'aviazione civile può comportare sanzioni fino a R50.000 e/o fino a 10 anni di reclusione.",
+      "Volare sotto i 2.500 ft sopra qualsiasi parco nazionale (compreso il Kruger) senza il permesso scritto preventivo dell'autorità di gestione del parco è un reato ai sensi del Protected Areas Act: fino a R5 milioni e/o 5 anni di reclusione per la prima violazione (R10 milioni e/o 10 anni in caso di recidiva). La violazione delle norme dell'aviazione civile può inoltre comportare una multa e/o fino a 10 anni di reclusione.",
       "La zona aeroportuale di 10 km del Sudafrica è molto più severa rispetto a quella della maggior parte dei Paesi (in genere 3–9 km): verifica la distanza in vigore con la SACAA.",
-      "Gli operatori commerciali necessitano di tre certificazioni separate: RPC, ROC e RLA",
+      "Gli operatori aziendali e senza scopo di lucro necessitano delle stesse approvazioni di quelli commerciali — RPL, UASOC (in precedenza ROC), RLA e C of R; solo la Air Service Licence (ASL) è riservata all'uso commerciale",
       "Le sanzioni per le violazioni possono includere procedimenti penali"
     ],
     "primaryLinks": [
@@ -42,7 +45,7 @@
     "secondaryLinks": [
       {
         "title": "SACAA — Licenze commerciali",
-        "description": "Requisiti RPC, ROC e RLA per le operazioni commerciali con droni"
+        "description": "Requisiti RPL, UASOC, RLA, C of R e ASL per le operazioni non private con droni"
       }
     ]
   }

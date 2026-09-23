@@ -1,55 +1,59 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimalt 120 m over jorden (EASA's åbne kategori)",
-      "Registrering som UAS-operatør (gratis) for droner på 250 g eller mere eller med kamera",
-      "A1/A3-onlinekursus er påkrævet — minimumsalder 16 år",
-      "Flyvninger i lufthavnes CTR og ATZ er kun tilladt efter koordinering med flyvekontrollen eller lufthavnsoperatøren",
-      "Flyvning over motorveje og større veje er begrænset — undgå dem",
-      "Hold altid dronen inden for synsvidde (VLOS)",
+      "I den åbne kategori er den maksimale højde 120 m, målt som afstanden til det nærmeste punkt på jordoverfladen — ikke blot lodret nedad, så nær en skråning kan terrænet ved siden af dig også tælle med. Inden for 50 m fra en høj kunstig hindring (over 105 m) kan den, der er ansvarlig for hindringen, anmode om tilladelse til at flyve op til 15 m over hindringens højde.",
+      "Du skal registrere dig som droneoperatør, hvis din drone vejer 250 g eller mere (eller ved et sammenstød kan overføre mere end 80 J kinetisk energi) — det gælder også legetøj. Under 250 g er registrering stadig obligatorisk, hvis dronen har en sensor, der kan opfange personoplysninger, medmindre den betragtes som legetøj i henhold til EU's legetøjsdirektiv. Krav til uddannelse/pilotbevis er særskilte og afhænger af dronens klasse og underkategori.",
+      "Minimumsalderen for at flyve på egen hånd i den åbne kategori er 16 år — onlineuddannelsen og -prøven til A1/A3 er gyldige i 5 år og anerkendt i hele EU. Ingen aldersgrænse: en drone i klasse C0, der er legetøj, i underkategori A1, eller en privatbygget drone under 250 g; ellers må yngre piloter kun flyve under direkte opsyn af en pilot, der opfylder alders- og uddannelseskravene.",
+      "Turister: operatørregistrering og et A1/A3-certifikat fra et andet EU-/EASA-land gælder også i Tjekkiet (du kan kun registrere dig i ét land). Uden for EU: registrér dig i det første EU-/EASA-land, hvor du skal flyve (i Tjekkiet hos ÚCL på dron.caa.gov.cz), og kræver din drone uddannelse, skal du gennemføre uddannelse efter EU's regler – certifikater fra lande uden for EU anerkendes ikke.",
+      "Ansvarsforsikring er obligatorisk i Tjekkiet i underkategori A2 og i A3 for droner over 4 kg (ikke i A1) — tjek, at din police dækker flyvninger i Tjekkiet.",
+      "I lufthavnes CTR og ATZ må du uden koordinering kun flyve op til den højde, som gitteret angiver (tjek i DroneMap). Højere kun efter koordinering med ŘLP og med flyvningen markeret i DroneMap; i den indre zone af en CTR skal flyvningen altid markeres i DroneMap, og over gitterhøjden kræves desuden koordinering med lufthavnsoperatøren. Strengere betingelser gælder ved militære lufthavne (MCTR). Ved ukontrollerede lufthavne over gitterhøjden kun efter koordinering med AFIS eller lufthavnsoperatøren. Markering i DroneMap gælder ikke for droner, der ikke kræver registrering.",
+      "I tætbefolkede områder (zone LKR316) skal flyveområdet markeres på forhånd i DroneMap (dronemap.gov.cz). Markeringen (her samt i CTR'er og beskyttede naturområder) skal omfatte højde, tidspunkt, type og vægtkategori for dronen samt operatørens registreringsnummer. Gælder ikke for droner, hvor operatørregistrering ikke er påkrævet.",
+      "Nationalparker, beskyttede landskabsområder (CHKO) og mindre beskyttede områder, f.eks. naturreservater (zone LKR318): flyvning kun på grundlag af forudgående anmeldelse til eller tilladelse fra den kompetente naturbeskyttelsesmyndighed og med flyveområdet markeret i DroneMap. Gælder ikke for droner, hvor operatørregistrering ikke er påkrævet.",
+      "Veje (zone LKR317): som hovedregel inden for 50 m fra midterlinjen af en motorvej eller vej i klasse I kun med samtykke fra ŘSD; som hovedregel inden for 15 m fra midterlinjen af veje i klasse II og III kun med samtykke fra vejens ejer eller bestyrer (tilsvarende for lokale veje uden for tætbefolkede områder). Flyveområdet skal markeres i DroneMap – gælder ikke for droner, hvor operatørregistrering ikke er påkrævet.",
+      "I den åbne kategori skal du holde dronen inden for din direkte synsvidde med det blotte øje (briller/kontaktlinser er i orden; kikkert eller skærm tæller ikke) — eller tage en observatør med til hjælp, hvor I til enhver tid kommunikerer klart og effektivt, så I sammen kan overvåge luftrummet og undgå kollisioner. “Follow-me”-tilstand er en særskilt undtagelse kun i underkategori A1, tilladt inden for 50 m fra piloten.",
       "Man må ikke flyve over menneskemængder. Reglerne for uvedkommende afhænger af underkategori, klassemærke og driftsforhold; se den officielle oversigt.",
       "Natflyvning er tilladt i henhold til EASA's grundlæggende regler for den åbne kategori, når det påkrævede grønne blinkende lys anvendes, medmindre en gældende geografisk zone eller national regel stiller strengere krav.",
-      "Bøder på op til 5.000.000 CZK (≈ 185.000 €) for overtrædelser",
-      "Prague Castle og regeringsbygninger: strenge flyveforbudszoner"
+      "Bøder på op til 3.000.000 CZK (≈ 120.000 €) for overtrædelser",
+      "Prague Castle og regeringsbygninger: absolutte flyveforbudszoner"
     ],
     "importantNotes": [
-      "Flyvninger inden for lufthavnes CTR og ATZ kræver koordinering med flyvekontrollen eller lufthavnsoperatøren",
-      "Overflyvning af motorveje og større veje er begrænset i Tjekkiet — planlæg din rute, så du undgår dem",
-      "Bøder på op til 5.000.000 CZK (≈ 185.000 €)",
+      "I lufthavnes CTR og ATZ uden koordinering kun op til den højde, som gitteret angiver (tjek i DroneMap); højere kun efter koordinering (i en CTR med ŘLP, ved ukontrollerede lufthavne med AFIS eller lufthavnsoperatøren) og med flyvningen markeret i DroneMap; i den indre zone af en CTR kræves markering altid",
+      "Veje (zone LKR317): ved motorveje og veje i klasse I som hovedregel inden for 50 m fra midterlinjen kun med samtykke fra ŘSD; ved veje i klasse II og III som hovedregel inden for 15 m fra midterlinjen kun med samtykke fra vejens ejer eller bestyrer",
+      "Bøder på op til 3.000.000 CZK (≈ 120.000 €)",
       "Området omkring Prague Castle har strenge flyverestriktioner",
       "GDPR gælder for indsamling af billeder, hvor personer kan identificeres"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — droneregler",
+        "title": "ÚCL — Droneregler",
         "description": "Officielle regler og ressourcer om droner fra luftfartsmyndigheden"
       },
       {
-        "title": "CAA — operatørregistrering",
-        "description": "Gratis registrering som UAS-operatør (gyldig i alle EU/EASA-lande)"
+        "title": "ÚCL — Operatørregistrering",
+        "description": "Gratis registrering som UAS-operatør (gyldig i alle EU-/EASA-lande)"
       },
       {
         "title": "Dronemap.gov.cz — luftrumskort",
         "description": "Officielt interaktivt kort med dronezoner og luftrumsrestriktioner"
       },
       {
-        "title": "CAA — oversigt over reglerne",
-        "description": "Oversigt over reglerne for at flyve drone i Tjekkiet"
+        "title": "ÚCL — Oversigt over reglerne",
+        "description": "Oversigt over reglerne for droneflyvning i Tjekkiet"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Flyvekontrollen — NOTAM og luftrum",
+        "title": "ŘLP — NOTAM og luftrum",
         "description": "Tjekkisk flyvekontrol og luftrumsinformation"
       },
       {
-        "title": "CAA — ofte stillede spørgsmål om droner",
+        "title": "ÚCL — Ofte stillede spørgsmål om droner",
         "description": "Ofte stillede spørgsmål om droneregler i Tjekkiet"
       }
     ],
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "OFFICIELLE KILDER",
     "sectionLabelSecondary": "YDERLIGERE RESSOURCER",
     "linksSheetTitle": "Luftrum og regler — Tjekkiet",
-    "dronePilotCredentialName": "Dronepilotlicens"
+    "dronePilotCredentialName": "A1/A3-uddannelsesbevis"
   }
 }

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "efa2a30f33ab3aa81ade21c803c0ce10",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,21 @@
     "keyRules": [
       "Največ 120 m (400 ft) nad tlemi",
       "Flyer ID je potreben od 100 g — opravite spletni test CAA (40 vprašanj, prag 75 %)",
+      "Operator ID je potreben, če vaš dron tehta 250 g ali več ali 100 g ali več s kamero — £12,34/leto, lastnik mora biti star 18+; ID označite na vsakem dronu.",
       "Dron mora biti ves čas v vašem neposrednem vidnem polju brez pripomočkov, dovolj blizu, da lahko ugotovite, v katero smer je obrnjen, in opazujete druge zrakoplove. Zakonsko določene največje razdalje v metrih ni — kako daleč lahko letite, je odvisno od vidljivosti, osvetlitve in samega drona, ne od določenega polmera.",
-      "Najmanj 50 m od nevključenih ljudi (30 m / 5 m veljata le za drone z oznako razreda UK in potrdilom A2)",
-      "Območja omejitve letenja (FRZ) obdajajo letališča, vendar se njihova natančna oblika in velikost razlikujeta od letališča do letališča — univerzalnega »5-kilometrskega kroga« ni. Pred letenjem v bližini letališča vedno preverite konkretno FRZ na uradnem zemljevidu CAA za varnost dronov.",
+      "Droni pod 250 g ali razreda UK0/UK1/C0 (C1 do 31. dec. 2027): smete leteti bližje nevključenim ljudem in nad njimi, nikoli pa nad množicami. Drugi droni: ohranjajte vsaj 50 m od nevključenih ljudi in nikoli ne letite nad njimi; v standardni podkategoriji Far from People (A3) morate ostati tudi 150 m od stanovanjskih, rekreacijskih, poslovnih in industrijskih območij (vključno s parki, plažami in turističnimi znamenitostmi). S potrdilom A2: UK2 (C2 do konca 2027) 30 m ali 5 m v načinu nizke hitrosti; drugi droni pod 2 kg 50 m.",
+      "Območja omejitve letenja (FRZ) obdajajo letališča, vendar se njihova natančna oblika in velikost razlikujeta od letališča do letališča — univerzalnega »kroga 5 km« ni. Pred letenjem v bližini letališča vedno preverite konkretno FRZ na uradnem zemljevidu omejitev UAS pri NATS.",
+      "Letenje ponoči: vklopljena mora biti zelena utripajoča luč (če je vaš dron nima, jo namestite)",
       "Zavarovanje odgovornosti do tretjih oseb (v skladu z EC Regulation 785/2004) je obvezno za komercialne/nerekreativne lete ali za vsak dron s težo 20 kg ali več — za lažjo rekreativno uporabo ni obvezno, vendar je priporočljivo.",
       "Remote ID se postopoma uvaja: od januarja 2026 za drone z oznako razreda UK (UK1/UK2/UK3/UK5/UK6); v celoti obvezen januarja 2028",
       "Združeno kraljestvo NI del EASA — pilotska potrdila EU v Združenem kraljestvu ne veljajo",
-      "London ima tri stalna omejena območja — R157 (Hyde Park/kraljeve rezidence), R158 (City of London/Square Mile, majhna, ~0,5 NM velika cona okoli finančne četrti) in R159 (Canary Wharf/Isle of Dogs) — vsi droni so prepovedani ne glede na velikost, razen če je let odobren na podlagi vloge Non-Standard Flight pri NATS, vložene najmanj 28 dni vnaprej. Parliament in Downing Street sta na območju Westminster, zunaj vseh treh con R, in sta zaščitena z ločenimi mehanizmi."
+      "London ima stalna omejena območja, kjer so prepovedani vsi droni ne glede na velikost: R157 (Hyde Park — zajema tudi Westminster, parlament, Downing Street in Buckinghamsko palačo), R158 (City of London) in R159 (Isle of Dogs/Canary Wharf). Za letenje tam potrebujete dovoljenje Enhanced Non-Standard Flight prek NATS — zaprosite vsaj 21 dni vnaprej (za londonska območja lahko traja dlje). Grad Windsor (R156) in Windsor Great Park (R161) sta prav tako stalni območji prepovedi letenja za drone."
     ],
     "importantNotes": [
-      "Prag za registracijo v Združenem kraljestvu je 100 g — strožji od praga EU 250 g",
       "Potrdila za drone EU/EASA v Združenem kraljestvu po brexitu niso priznana",
+      "Droni EU razredov C (C0–C4) se lahko do 31. decembra 2027 upravljajo kot ustrezni britanski razred — pravila za UK Flyer ID/Operator ID še vedno veljajo glede na težo in kamero.",
       "Lokalne občine lahko omejijo letenje na svojem zemljišču — pred letenjem v parkih preverite",
-      "Okoli zaporov so ~1 km velike cone prepovedi letenja — ogrožanje zrakoplova se kaznuje z do 5 leti zapora"
+      "Zapori v Angliji in Walesu imajo cone prepovedi letenja za drone (natančna oblika za vsak zapor — preverite zemljevid). Ogrožanje zrakoplova se lahko kaznuje z do 5 leti zapora."
     ],
     "primaryLinks": [
       {
@@ -36,15 +38,15 @@
       },
       {
         "title": "CAA — registracija (Flyer ID in Operator ID)",
-        "description": "Pridobite Flyer ID (obvezen od 100 g) in Operator ID (obvezen od 250 g)"
+        "description": "Pridobite Flyer ID (obvezen od 100 g) in Operator ID (obvezen od 250 g ali od 100 g, če ima dron kamero)"
       },
       {
         "title": "CAA — kodeks za drone (The Drone Code)",
         "description": "Uradna pravila: kje lahko letite, omejitve višine in varnostne zahteve"
       },
       {
-        "title": "Drone Assist — karta zračnega prostora",
-        "description": "Brezplačna aplikacija za načrtovanje letov s prikazom con prepovedi letenja in omejitev zračnega prostora"
+        "title": "Drone Assist — aplikacija tretje osebe za zračni prostor",
+        "description": "Neuradna aplikacija (Altitude Angel) — omejitve vedno potrdite na uradnem zemljevidu omejitev UAS pri NATS"
       }
     ],
     "secondaryLinks": [
@@ -57,8 +59,8 @@
         "description": "Kdaj je zavarovanje dronov potrebno (obvezno za nerekreativno rabo)"
       },
       {
-        "title": "CAA — politika Remote ID",
-        "description": "Zahteve Remote ID v Združenem kraljestvu od januarja 2026"
+        "title": "CAA — Remote ID (kdaj ga morate vklopiti)",
+        "description": "Zahteve za Remote ID v Združenem kraljestvu od januarja 2026"
       }
     ]
   }

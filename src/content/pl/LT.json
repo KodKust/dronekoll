@@ -1,56 +1,59 @@
 {
   "meta": {
-    "sourceHash": "c6156d2d7270eed1f0bbf03a22c83cd1cf94b1875c9f45ae22d161f7fab4e957",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e93e943369b28f887990b72c587e2c372465bbacd9292903c416ee4c4ebf7e67",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalnie 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-      "Zarejestruj się jako operator UAS (10 €/rok), jeśli Twój dron waży 250 g lub więcej albo jest wyposażony w kamerę",
-      "Obowiązkowe szkolenie online A1/A3 – minimalny wiek 16 lat",
+      "W kategorii otwartej maksymalna wysokość wynosi 120 m, mierzona jako odległość do najbliższego punktu powierzchni gruntu — nie po prostu w pionie w dół, więc podczas lotu w pobliżu zbocza liczyć się może także sąsiedni teren. W promieniu 50 m od wysokiej przeszkody sztucznej (wyższej niż 105 m) podmiot odpowiedzialny za przeszkodę może wystąpić o zgodę na lot do 15 m powyżej wysokości przeszkody.",
+      "Musisz zarejestrować się jako operator drona, jeśli twój dron waży 250 g lub więcej (albo mógłby w razie zderzenia przekazać energię kinetyczną większą niż 80 J) — dotyczy to nawet zabawek. Poniżej 250 g rejestracja jest nadal wymagana, jeśli dron ma czujnik zdolny do rejestrowania danych osobowych, chyba że jest uznawany za zabawkę w rozumieniu unijnej dyrektywy w sprawie bezpieczeństwa zabawek. Wymagania dotyczące szkolenia/świadectwa pilota są odrębne i zależą od klasy i podkategorii drona.",
+      "Numer rejestracyjny musi być widoczny na dronie oraz (w przypadku dronów klas C1–C3) wprowadzony do systemu Remote ID",
+      "Drony bez oznaczenia klasy C (wprowadzone do obrotu przed 2024-01-01) oraz drony zbudowane prywatnie mogą latać tylko w podkategorii A1, jeśli ich masa startowa jest mniejsza niż 250 g, lub w podkategorii A3, jeśli jest mniejsza niż 25 kg",
+      "Minimalny wiek pilota zdalnego wynosi 16 lat (przepis UE; Litwa go nie obniżyła). Młodsi piloci mogą latać wyłącznie: pod bezpośrednim nadzorem pilota zdalnego spełniającego wymagania; zabawką klasy C0 w podkategorii A1; albo dronem zbudowanym prywatnie o masie startowej mniejszej niż 250 g. Szkolenie i egzamin A1/A3 odbywają się w systemie TKA, a świadectwo jest ważne 5 lat.",
       "Ubezpieczenie od odpowiedzialności cywilnej jest obowiązkowe dla dronów o masie powyżej 20 kg",
-      "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
+      "W kategorii otwartej musisz utrzymywać drona w bezpośrednim zasięgu własnego wzroku, bez pomocy przyrządów (okulary/soczewki kontaktowe są w porządku; lornetka ani ekran się nie liczą) — albo latać z pomocą obserwatora, utrzymując ze sobą przez cały czas jasną i skuteczną komunikację, tak aby wspólnie obserwować przestrzeń powietrzną i unikać kolizji. Tryb „Follow-me” jest odrębnym wyjątkiem, dozwolonym do 50 m od pilota.",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
-      "Co najmniej 5 km od jakiegokolwiek lotniska lub lądowiska",
+      "Nie ma jednej, obowiązującej w całej UE odległości od lotnisk, którą trzeba zachować. Ograniczenia w pobliżu lotnisk publikuje się jako strefy geograficzne (art. 15), których kształt i wielkość różnią się w zależności od lotniska – przed lotem w pobliżu lotniska, lądowiska lub heliportu sprawdź oficjalną mapę stref dronowych. W przestrzeni kontrolowanej (strefy UR Wilno, Kowno, Połąga, Szawle) możesz latać w kategorii otwartej bez uprzedniej zgody tylko do wysokości ustalonej dla danej strefy – im bliżej lotniska, tym niżej (wysokości – utm.ans.lt; lot wyżej wymaga zezwolenia wydanego w trybie procedury LTSA). W strefach ATZ/TIZ lotnisk lot należy wcześniej uzgodnić z właścicielem lotniska lub zarządzającym lotniskiem.",
+      "Loty w strefach EYP i nad terenami wojskowymi (EYURM) są zabronione bez zezwolenia; to samo dotyczy aktywowanych stref EYR (aktywacja jest ogłaszana w NOTAM)",
       "Lot nocny jest dozwolony zgodnie z podstawowymi wymogami EASA dla kategorii otwartej, pod warunkiem stosowania wymaganego migającego zielonego światła, chyba że obowiązujące przepisy dotyczące strefy geograficznej lub przepisy krajowe nakładają bardziej rygorystyczne warunki.",
       "W Parku Narodowym Mierzei Kurońskiej obowiązują ograniczenia",
-      "Dodatkowe ograniczenia w strefach przygranicznych z Rosją i Białorusią"
+      "W strefie przygranicznej wzdłuż granic z Białorusią i Rosją (ok. 7,4 km od granicy) loty bez uprzedniego uzgodnienia są surowo zabronione"
     ],
     "importantNotes": [
-      "Rejestracja kosztuje 10 € rocznie — musi być odnawiana co roku",
+      "Rejestracja oraz wydanie/odnowienie świadectwa rejestracji kosztuje 31 €",
       "Ubezpieczenie jest wymagane tylko dla dronów o masie powyżej 20 kg",
-      "W strefach przygranicznych z Rosją i Białorusią obowiązują ograniczenia lotów",
+      "W strefie przygranicznej wzdłuż granic z Białorusią i Rosją (ok. 7,4 km od granicy) loty bez uprzedniego uzgodnienia są surowo zabronione",
       "CTR lotniska w Wilnie obejmuje dużą część miasta",
       "RODO ma zastosowanie, gdy filmowane lub fotografowane są możliwe do zidentyfikowania osoby"
     ],
     "primaryLinks": [
       {
-        "title": "CAA – Zasady dotyczące dronów",
-        "description": "Oficjalne przepisy dronowe Administracji Lotnictwa Cywilnego"
+        "title": "TKA – Przepisy dotyczące dronów",
+        "description": "Oficjalne przepisy dotyczące dronów Transporto kompetencijų agentūra (TKA)"
       },
       {
-        "title": "TKA – Zarejestruj się jako użytkownik",
-        "description": "Rejestracja jako operator UAS (10 € rocznie, ważna we wszystkich krajach UE/EASA)"
+        "title": "TKA – Rejestracja operatora",
+        "description": "Zarejestruj się jako operator UAS (31 €, rejestracja ważna we wszystkich krajach UE/EASA)"
       },
       {
         "title": "UTM Litwa – Mapa przestrzeni powietrznej",
         "description": "Oficjalna mapa przestrzeni powietrznej UTM pokazująca strefy dla dronów i ograniczenia"
       },
       {
-        "title": "CAA – Przegląd zasad",
-        "description": "Przegląd przepisów dotyczących lotów dronów na Litwie"
+        "title": "TKA – Przegląd przepisów",
+        "description": "Przegląd przepisów dotyczących lotów dronami na Litwie"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Air Navigation – Służby żeglugi powietrznej",
-        "description": "Litewska służba żeglugi powietrznej oraz informacje o przestrzeni powietrznej"
+        "title": "Oro Navigacija – Służby żeglugi powietrznej",
+        "description": "Litewska służba żeglugi powietrznej i informacje o przestrzeni powietrznej"
       },
       {
-        "title": "CAA – FAQ o dronach",
-        "description": "Najczęściej zadawane pytania dotyczące przepisów dronowych na Litwie"
+        "title": "TKA – FAQ o dronach",
+        "description": "Najczęściej zadawane pytania o przepisy dotyczące dronów na Litwie"
       }
     ],
     "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła TKA oraz UTM Lithuania. Ta aplikacja jest narzędziem, a nie organem prawnym. Litwa stosuje przepisy EASA z dodatkami krajowymi.",

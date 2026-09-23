@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "53287a6bbcc1a046359816ed2a7de6b009d10fc753031bec7dc231d525fdedf3",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "76cde0e68eaea6de50863e60f85670840fe89558dc64828a40f7f9cfd6b8a0c6",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Máx. 120 m sobre el nivel del suelo (categoría abierta de EASA)",
-      "Registro como operador de UAS para drones de 250 g o más o equipados con cámara",
-      "Formación en línea A1/A3 obligatoria; edad mínima de 16 años",
-      "Una zona de protección de 8 km alrededor de los aeropuertos (mayor que el estándar de EASA)",
+      "En la categoría abierta, la altura máxima es de 120 m, medida como la distancia al punto más cercano de la superficie terrestre, no simplemente en vertical hacia abajo, de modo que cerca de una pendiente también puede contar el terreno que tienes al lado. A menos de 50 m de un obstáculo artificial alto (de más de 105 m), el responsable del obstáculo puede solicitar autorización para volar hasta 15 m por encima de la altura del obstáculo.",
+      "Debes registrarte como operador de drones si tu dron pesa 250 g o más (o puede transmitir más de 80 J de energía cinética en un impacto); esto se aplica incluso a los juguetes. Por debajo de 250 g, el registro sigue siendo obligatorio si el dron tiene un sensor capaz de captar datos personales, salvo que se considere un juguete según la Directiva de la UE sobre la seguridad de los juguetes. Los requisitos de formación/certificado del piloto son independientes y dependen de la clase y la subcategoría del dron. El número de registro de operador se coloca con una pegatina en cada dron y, si el dron tiene un sistema de identificación a distancia (Remote ID), también se introduce en él.",
+      "La edad mínima para volar por tu cuenta en la categoría abierta es de 16 años; la formación y el examen en línea A1/A3 se realizan en el sistema de la DG CAA (uas.caa.bg, acceso con firma electrónica cualificada), son válidos durante 5 años y están reconocidos en toda la UE. Sin edad mínima: clase C0 en A1, un dron de construcción privada de menos de 250 g o un vuelo bajo la supervisión directa de un piloto con la competencia necesaria. Si el piloto es menor de 18 años, un progenitor o tutor se registra como operador.",
+      "Turistas: si tu dron está sujeto a registro, regístrate como operador en el país de la UE donde resides; si resides fuera de la UE, en el primer país de la UE donde vayas a volar (en Bulgaria: uas.caa.bg). Las cualificaciones de países de fuera de la UE no se reconocen; la formación exigida (p. ej., A1/A3) debe completarse en la UE.",
+      "Hay zonas geográficas de distintos tamaños alrededor de los aeropuertos. En los aeropuertos de Sofía, Varna, Burgas, Plovdiv y Gorna Oryahovitsa las zonas superan los 8 km: en la zona interior, todo vuelo requiere autorización de la DG CAA, y en la zona exterior, los vuelos por encima de 50 m. Presenta la solicitud con al menos 7 días hábiles de antelación. Consulta el mapa en uas.caa.bg.",
       "Las zonas que rodean el Aeropuerto de Sofía cubren una parte importante de la ciudad",
-      "Se requiere coordinación previa al vuelo con BULATSA",
-      "Mantén siempre el contacto visual directo (VLOS) con el dron",
+      "Sin autorización, está prohibido volar en zonas geográficas restringidas o prohibidas, en estructuras del espacio aéreo activadas (reservadas temporalmente) y dentro del perímetro vigilado de los aeropuertos de uso público. En caso de infracción, el dron puede ser obligado a aterrizar o retirado, y cualquier daño corre a cargo del infractor.",
+      "Antes de cada vuelo, consulta las zonas geográficas en el mapa de la DG CAA (uas.caa.bg); en una zona que requiera autorización, presenta una solicitud a la DG CAA dentro del plazo indicado para esa zona.",
+      "En la categoría abierta debes mantener el dron dentro de tu propio campo de visión directo, a simple vista (las gafas o lentes de contacto están permitidas; los prismáticos o una pantalla no cuentan), o con la ayuda de un observador, manteniendo entre ambos una comunicación clara y eficaz en todo momento, para vigilar juntos el espacio aéreo y evitar colisiones. El modo «Follow-me» es una excepción aparte solo en la subcategoría A1 (drones de clase C0/C1 o drones de construcción privada de menos de 250 g), hasta 50 m del piloto.",
       "No sobrevueles concentraciones de personas. Las normas para las personas no participantes dependen de la subcategoría, la marca de clase y las condiciones operativas; consulta la matriz oficial.",
       "Los vuelos nocturnos están permitidos según los requisitos básicos de la categoría abierta de la EASA cuando se utiliza la luz verde intermitente exigida, salvo que una norma nacional o de zona geográfica vigente imponga una condición más estricta.",
-      "Parques nacionales y reservas naturales: se aplican restricciones"
+      "Parques nacionales y reservas naturales: se aplican restricciones",
+      "El seguro de responsabilidad civil frente a terceros es obligatorio para drones de más de 20 kg y para la actividad comercial/profesional, independientemente del peso. Para la actividad profesional en la categoría abierta, el operador presenta una declaración a la DG CAA."
     ],
     "importantNotes": [
-      "Se requiere coordinación con BULATSA antes de cada vuelo",
-      "Zona de seguridad de 8 km alrededor de los aeropuertos, mayor que el estándar de EASA",
+      "Antes de volar, consulta las zonas geográficas en uas.caa.bg y los NOTAM activos en el B-FLIP de BULATSA",
+      "Alrededor de los grandes aeropuertos hay zonas geográficas de más de 8 km; dentro de ellas se requiere autorización de la DG CAA (en la zona exterior, para vuelos por encima de 50 m). Consulta el mapa en uas.caa.bg.",
       "Las zonas que rodean el Aeropuerto de Sofía restringen los vuelos sobre gran parte de la ciudad",
       "Instalaciones militares: zonas donde está terminantemente prohibido volar",
       "El RGPD se aplica al fotografiar a personas reconocibles"
@@ -40,7 +43,7 @@
       },
       {
         "title": "DG GVA — Zonas de drones",
-        "description": "Información y restricciones sobre las zonas geográficas para el vuelo de drones"
+        "description": "Mapa oficial de la DG CAA con las zonas geográficas y las restricciones para el vuelo de drones"
       }
     ],
     "secondaryLinks": [
@@ -50,10 +53,10 @@
       },
       {
         "title": "BULATSA — NOTAM",
-        "description": "NOTAM activos y restricciones temporales del espacio aéreo"
+        "description": "NOTAM activos y restricciones temporales del espacio aéreo en el portal B-FLIP (requiere registro en B-FLIP)"
       }
     ],
-    "disclaimerText": "Antes de volar, consulta siempre las fuentes oficiales de la DG CAA y BULATSA. Esta app es una herramienta, no una autoridad legal. Bulgaria sigue la normativa de EASA con disposiciones nacionales adicionales, incluido el requisito de coordinación previa al vuelo.",
+    "disclaimerText": "Antes de volar, consulta siempre las fuentes oficiales de la DG CAA (uas.caa.bg) y BULATSA. Esta app es una herramienta, no una autoridad legal. Bulgaria sigue la normativa de EASA con disposiciones nacionales adicionales, incluida la autorización de la DG CAA para los vuelos en algunas zonas geográficas.",
     "sectionLabelRules": "REGLAS BÁSICAS (CATEGORÍA ABIERTA DE EASA)",
     "sectionLabelPrimary": "FUENTES OFICIALES",
     "sectionLabelSecondary": "RECURSOS ADICIONALES",

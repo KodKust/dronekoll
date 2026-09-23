@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "53287a6bbcc1a046359816ed2a7de6b009d10fc753031bec7dc231d525fdedf3",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "76cde0e68eaea6de50863e60f85670840fe89558dc64828a40f7f9cfd6b8a0c6",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maks. 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-      "Rejestracja jako operator UAS dla dronów o masie 250 g lub więcej albo wyposażonych w kamerę",
-      "Obowiązkowe szkolenie online A1/A3 — minimalny wiek 16 lat",
-      "Strefa ochronna 8 km wokół lotnisk (większa niż standard EASA)",
+      "W kategorii otwartej maksymalna wysokość wynosi 120 m, mierzona jako odległość od najbliższego punktu powierzchni ziemi — nie po prostu pionowo w dół, więc w pobliżu zbocza liczy się także teren obok ciebie. W promieniu 50 m od wysokiej przeszkody sztucznej (wyższej niż 105 m) podmiot odpowiedzialny za tę przeszkodę może wystąpić o zezwolenie na lot do 15 m powyżej wysokości przeszkody.",
+      "Musisz zarejestrować się jako operator drona, jeśli twój dron waży 250 g lub więcej (lub przy uderzeniu mógłby przekazać energię kinetyczną większą niż 80 J) — dotyczy to nawet zabawek. Poniżej 250 g rejestracja jest nadal wymagana, jeśli dron ma czujnik zdolny do rejestrowania danych osobowych, chyba że jest uznawany za zabawkę w rozumieniu unijnej dyrektywy w sprawie bezpieczeństwa zabawek. Wymagania dotyczące szkolenia/świadectwa pilota są odrębne i zależą od klasy drona i podkategorii. Numer rejestracyjny operatora umieszcza się naklejką na każdym dronie, a jeśli dron ma system zdalnej identyfikacji (Remote ID), wprowadza się go również do tego systemu.",
+      "Minimalny wiek do samodzielnych lotów w kategorii otwartej wynosi 16 lat — szkolenie online i egzamin A1/A3 odbywają się w systemie DG CAA (uas.caa.bg, logowanie kwalifikowanym podpisem elektronicznym), są ważne 5 lat i uznawane w całej UE. Bez minimalnego wieku: klasa C0 w A1, dron prywatnej konstrukcji poniżej 250 g lub lot pod bezpośrednim nadzorem pilota z niezbędnymi kompetencjami. Jeśli pilot ma mniej niż 18 lat, jako operatora rejestruje się rodzic lub opiekun.",
+      "Turyści: jeśli twój dron podlega rejestracji, zarejestruj się jako operator w kraju UE, w którym mieszkasz; jeśli mieszkasz poza UE — w pierwszym kraju UE, w którym będziesz latać (w Bułgarii: uas.caa.bg). Kwalifikacje z krajów spoza UE nie są uznawane — wymagane szkolenie (np. A1/A3) trzeba ukończyć w UE.",
+      "Wokół lotnisk istnieją strefy geograficzne różnej wielkości. Na lotniskach Sofia, Warna, Burgas, Płowdiw i Gorna Orjachowica strefy są większe niż 8 km: w strefie wewnętrznej każdy lot wymaga zezwolenia DG CAA, a w strefie szerszej — loty powyżej 50 m. Wniosek złóż co najmniej 7 dni roboczych wcześniej. Sprawdź mapę na uas.caa.bg.",
       "Obszary wokół lotniska w Sofii obejmują znaczną część miasta",
-      "Wymagana koordynacja przedlotowa z BULATSA",
-      "Zawsze utrzymuj z dronem kontakt wzrokowy (VLOS)",
+      "Bez zezwolenia zabronione są loty w ograniczonych lub zakazanych strefach geograficznych, w aktywowanych (czasowo zarezerwowanych) strukturach przestrzeni powietrznej oraz w strzeżonych granicach lotnisk użytku publicznego. W razie naruszenia dron może zostać zmuszony do lądowania lub usunięty, a wszelkie szkody pokrywa sprawca naruszenia.",
+      "Przed każdym lotem sprawdź strefy geograficzne na mapie DG CAA (uas.caa.bg); w strefie wymagającej zezwolenia złóż wniosek do DG CAA w terminie określonym dla danej strefy.",
+      "W kategorii otwartej musisz utrzymywać drona w bezpośrednim zasięgu wzroku, gołym okiem (okulary/soczewki kontaktowe są dozwolone; lornetka ani ekran się nie liczą) — albo z pomocą obserwatora, przy czym przez cały czas musicie komunikować się jasno i skutecznie, aby wspólnie obserwować przestrzeń powietrzną i unikać kolizji. Tryb „follow-me” to odrębny wyjątek wyłącznie w podkategorii A1 (drony klasy C0/C1 lub drony prywatnej konstrukcji poniżej 250 g), do 50 m od pilota.",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
       "Lot nocny jest dozwolony zgodnie z podstawowymi wymogami EASA dla kategorii otwartej, pod warunkiem stosowania wymaganego migającego zielonego światła, chyba że obowiązujące przepisy dotyczące strefy geograficznej lub przepisy krajowe nakładają bardziej rygorystyczne warunki.",
-      "Parki narodowe i rezerwaty przyrody: obowiązują ograniczenia"
+      "Parki narodowe i rezerwaty przyrody: obowiązują ograniczenia",
+      "Ubezpieczenie od odpowiedzialności cywilnej wobec osób trzecich jest obowiązkowe dla dronów powyżej 20 kg oraz w działalności komercyjnej/zawodowej — niezależnie od masy. W przypadku działalności zawodowej w kategorii otwartej operator składa deklarację do DG CAA."
     ],
     "importantNotes": [
-      "Przed lotem wymagana jest koordynacja przedlotowa z BULATSA",
-      "Strefa bezpieczeństwa 8 km wokół lotnisk — większa niż standard EASA",
+      "Przed lotem sprawdź strefy geograficzne na uas.caa.bg oraz aktywne NOTAM-y w B-FLIP prowadzonym przez BULATSA",
+      "Wokół dużych lotnisk istnieją strefy geograficzne większe niż 8 km; w ich obrębie wymagane jest zezwolenie DG CAA (w strefie szerszej — na loty powyżej 50 m). Sprawdź mapę na uas.caa.bg.",
       "Obszary wokół lotniska w Sofii ograniczają loty nad dużą częścią miasta",
       "Obiekty wojskowe: obszary, na których loty są bezwzględnie zabronione",
       "RODO ma zastosowanie przy fotografowaniu rozpoznawalnych osób"
@@ -40,7 +43,7 @@
       },
       {
         "title": "DG GVA — Strefy dla dronów",
-        "description": "Informacje i ograniczenia dotyczące stref geograficznych dla lotów dronów"
+        "description": "Oficjalna mapa DG CAA ze strefami geograficznymi i ograniczeniami dla lotów dronów"
       }
     ],
     "secondaryLinks": [
@@ -50,10 +53,10 @@
       },
       {
         "title": "BULATSA — NOTAM",
-        "description": "Aktywne NOTAM-y oraz czasowe ograniczenia przestrzeni powietrznej"
+        "description": "Aktywne NOTAM-y i czasowe ograniczenia przestrzeni powietrznej w portalu B-FLIP (wymaga rejestracji w B-FLIP)"
       }
     ],
-    "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła DG CAA oraz BULATSA. Ta aplikacja jest narzędziem — nie jest organem prawnym. Bułgaria stosuje przepisy EASA z dodatkami krajowymi, obejmującymi wymóg koordynacji przedlotowej.",
+    "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła DG CAA (uas.caa.bg) oraz BULATSA. Ta aplikacja jest narzędziem — nie jest organem prawnym. Bułgaria stosuje przepisy EASA z dodatkami krajowymi, w tym z wymogiem zezwolenia DG CAA na loty w niektórych strefach geograficznych.",
     "sectionLabelRules": "PODSTAWOWE ZASADY (KATEGORIA OTWARTA EASA)",
     "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
     "sectionLabelSecondary": "DODATKOWE MATERIAŁY",

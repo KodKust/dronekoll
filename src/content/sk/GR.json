@@ -1,61 +1,65 @@
 {
   "meta": {
-    "sourceHash": "6bd279870909de9539cac55440892030da06bb4b119368a297585876f27098df",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e631818b431dccaf473ebde5f460a6b9eb0f571b8775190b265998e6821bc00d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálne 120 m nad úrovňou terénu (kategória EASA Open)",
-      "Registrácia ako prevádzkovateľ UAS (bezplatná), ak dron váži 250 g a viac alebo má kameru",
-      "Vyžaduje sa online školenie A1/A3 – minimálny vek 16 rokov",
-      "Obmedzené archeologické lokality: Akropola, Delfy, Olympia a ďalšie",
-      "Dron majte vždy vo vizuálnom dohľade (VLOS)",
+      "V otvorenej kategórii je maximálna výška 120 m, meraná ako vzdialenosť od najbližšieho bodu zemského povrchu — nie iba kolmo nadol, takže pri svahu sa môže počítať aj terén vedľa vás. Do 50 m od vysokej umelej prekážky (nad 105 m) môže subjekt zodpovedný za prekážku požiadať o povolenie lietať až do 15 m nad výškou prekážky.",
+      "Ako prevádzkovateľ dronu sa musíte zaregistrovať, ak váš dron váži 250 g alebo viac (alebo by pri náraze mohol odovzdať kinetickú energiu vyššiu ako 80 J) — platí to aj pre hračky. Pod 250 g je registrácia povinná aj vtedy, ak má dron senzor schopný zachytávať osobné údaje, pokiaľ sa nepovažuje za hračku podľa smernice EÚ o bezpečnosti hračiek. Požiadavky na výcvik/osvedčenie pilota sú samostatné a závisia od triedy dronu a podkategórie.",
+      "Registračné číslo prevádzkovateľa musí byť umiestnené na všetkých vašich dronoch a zadané do systému diaľkovej identifikácie (Remote ID), ak ho dron má. Registrácia v Grécku sa obnovuje po 3 rokoch.",
+      "Návštevníci z krajín mimo EÚ/EASA: ak váš dron vyžaduje registráciu (pozri vyššie) a ešte nie ste zaregistrovaní v inom štáte EASA, zaregistrujte sa pred letom v Grécku (bez gréckeho daňového čísla (AFM): osobitná žiadosť s pasom na webovej stránke HCAA). Rezidenti iného štátu EASA sa registrujú v krajine svojho pobytu. Výcvik a osvedčenia pilotov z krajín mimo EÚ sa v EÚ neuznávajú.",
+      "Poistenie zodpovednosti voči tretím osobám sa vyžaduje pre každý dron používaný profesionálne, ako aj pre súkromne používané drony s hmotnosťou 4 kg a viac (národná legislatíva).",
+      "V Grécku je minimálny vek 16 rokov — veková požiadavka sa neuplatňuje pri lietaní s dronom triedy C0, ktorý je hračkou, v podkategórii A1, s dronom vlastnej výroby pod 250 g ani pod priamym dohľadom pilota s osvedčením.",
+      "Oblasti ako Akropola, Delfy a Olympia patria do žltých/purpurových zón — lety sú v závislosti od konkrétnej oblasti povolené za určitých podmienok alebo úplne zakázané a vyžaduje sa predchádzajúce schválenie HCAA najmenej 5 pracovných dní vopred.",
+      "V otvorenej kategórii majte dron v priamom vizuálnom dohľade voľným okom (okuliare/kontaktné šošovky sú povolené; ďalekohľad ani obrazovka sa nepočítajú) — alebo s pomocou pozorovateľa, pričom spolu musíte neustále jasne a účinne komunikovať, aby ste spoločne sledovali vzdušný priestor a predchádzali zrážkam. Režim „follow-me“ je samostatná výnimka, povolená do 50 m od pilota.",
       "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre osoby, ktoré nie sú priamo zapojené, závisia od podkategórie, triedy a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
-      "Minimálna vzdialenosť 8 km od každého letiska",
+      "Neexistuje jednotná vzdialenosť od letísk platná v celej EÚ. Obmedzenia v blízkosti letísk sa zverejňujú ako geografické zóny (článok 15), ktorých tvar a veľkosť sa líšia od letiska k letisku. Pred letom v blízkosti letiska, letovej plochy alebo heliportu si overte oficiálnu mapu zón pre drony vo vašej krajine; let v riadenom okrsku (CTR) spravidla vyžaduje predchádzajúce povolenie riadenia letovej prevádzky.",
       "Nočný let je povolený v rámci základných požiadaviek EASA pre otvorenú kategóriu, ak sa používa požadované zelené blikajúce svetlo, pokiaľ platné geografické obmedzenie alebo vnútroštátne predpisy nestanovujú prísnejšie podmienky.",
       "Ostrovné letiská: dôkladne si skontrolujte mapu DAGR — mnohé ostrovy majú rozsiahle CTR"
     ],
     "importantNotes": [
-      "Na archeologických lokalitách a pri pamiatkach kultúrneho dedičstva je lietanie prísne zakázané — hrozia vysoké pokuty.",
+      "Lesné požiare: lietanie je zakázané v zónach vyhlásených prostredníctvom NOTAM. Ak uvidíte letecké hasičské prostriedky alebo dostanete správu 112 o požiari v oblasti, okamžite prerušte let a pristaňte. Porušenia: pokuta, trestné stíhanie, zabavenie dronu.",
+      "Archeologické náleziská a kultúrne pamiatky vyžadujú predchádzajúce schválenie HCAA (najmenej 5 pracovných dní vopred) — nie vždy sú úplne zakázané, ale podliehajú prísnej kontrole.",
       "Ostrovné letiská vytvárajú rozsiahle obmedzené zóny",
-      "Vojenské objekty: absolútne bezletové zóny (mnohé na ostrovoch)",
+      "Nelietajte nad prístavmi, nemocnicami, energetickými a telekomunikačnými zariadeniami ani vojenskými alebo vládnymi objektmi bez predchádzajúceho povolenia HCAA — niektoré vojenské a vládne objekty sú na mape DAGR úplnými bezletovými zónami (mnohé na ostrovoch). Porušenia môžu viesť k pokutám, trestným sankciám a zabaveniu vybavenia.",
       "Pri zaznamenávaní identifikovateľných osôb platí GDPR"
     ],
     "primaryLinks": [
       {
         "title": "HCAA – Predpisy pre drony",
-        "description": "Oficiálne pravidlá a informácie úradu civilného letectva týkajúce sa dronov"
+        "description": "Oficiálne pravidlá a informácie o dronoch od Hellenic Civil Aviation Authority (HCAA)"
       },
       {
-        "title": "HCAA – Registrácia pilota",
-        "description": "Bezplatná registrácia ako prevádzkovateľ UAS (platná vo všetkých krajinách EÚ/EASA)"
+        "title": "HCAA – Registrácia prevádzkovateľa",
+        "description": "Registrácia ako prevádzkovateľ UAS (pre rezidentov Grécka, s poplatkom 20 €; registračné číslo platí vo všetkých krajinách EÚ/EASA)"
       },
       {
         "title": "DAGR – Mapa vzdušného priestoru pre drony",
         "description": "Oficiálna geografická mapa obmedzení pre lety dronov v Grécku"
       },
       {
-        "title": "HCAA – Oznámenie letu",
-        "description": "Podanie oznámenia letu 5 dní vopred (vyžaduje sa pre každý let)"
+        "title": "HCAA – Žiadosť o schválenie letu (zóny DAGR)",
+        "description": "Žiadosť o schválenie letov v žltých/purpurových zónach DAGR (najmenej 5 pracovných dní vopred)"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "HASP – Letecké športy",
-        "description": "Grécka federácia leteckých športov a informácie o rekreačných letoch"
+        "title": "HASP – Poskytovateľ letových navigačných služieb",
+        "description": "Grécky poskytovateľ letových navigačných služieb – prevádzkovateľ DAGR a NOTAM"
       },
       {
         "title": "HCAA – Často kladené otázky o dronoch",
         "description": "Často kladené otázky o predpisoch pre drony v Grécku"
       }
     ],
-    "disclaimerText": "Pred každým letom vždy skontrolujte oficiálne zdroje Hellenic Civil Aviation Authority (HCAA) a mapu DAGR. Táto aplikácia je nástroj, nie právny zdroj. Grécko sa riadi predpismi EASA s národnými doplnkami vrátane povinnosti oznámiť let 5 dní vopred.",
-    "sectionLabelRules": "ZÁKLADNÉ PRAVIDLÁ (TRIEDA EASA OPEN)",
+    "disclaimerText": "Pred každým letom vždy skontrolujte oficiálne zdroje Hellenic Civil Aviation Authority (HCAA) a mapu DAGR. Táto aplikácia je nástroj, nie právny zdroj. Grécko sa riadi predpismi EASA s národnými doplnkami vrátane okrem iného povinnosti podať žiadosť na HCAA najmenej 5 pracovných dní vopred pri letoch v žltých/purpurových zónach DAGR, kde je lietanie povolené za určitých podmienok.",
+    "sectionLabelRules": "ZÁKLADNÉ PRAVIDLÁ (KATEGÓRIA EASA OPEN)",
     "sectionLabelPrimary": "OFICIÁLNE ZDROJE",
     "sectionLabelSecondary": "ĎALŠIE ZDROJE",
     "linksSheetTitle": "Vzdušný priestor a predpisy — Grécko",
-    "dronePilotCredentialName": "Osvedčenie prevádzkovateľa"
+    "dronePilotCredentialName": "Osvedčenie diaľkovo riadiaceho pilota"
   }
 }

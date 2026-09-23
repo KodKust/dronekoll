@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (neapdzīvotas teritorijas, atpūtai): droni, kas sver ≤750 g, drīkst lidot līdz 50 m virs augstākā šķēršļa privātīpašumā bez atļaujas",
-      "DAN 151 (apdzīvotas teritorijas/profesionāla lietošana): droniem, kas sver vairāk par 750 g, nepieciešama DGAC reģistrācija, pilota licence un ekspluatācijas atļauja",
-      "Maksimālais atļautais kopējais augstums: 130 m AGL (DAN 151) — atšķiras atkarībā no atļaujas",
-      "Minimālais attālums 2 km no lidostām un lidlaukiem",
+      "DAN 91.102(j): bez DGAC atļaujas drīkst lidot tikai droni līdz 750 g, kas izgatavoti no putupolietilēna vai līdzvērtīga materiāla, privātai vai atpūtas lietošanai, privātās vietās un ne augstāk par 50 m virs augstākā šķēršļa vai ēkas. Jebkuram citam lidojumam nepieciešama iepriekšēja DGAC atļauja.",
+      "DAN 151 (apdzīvotas teritorijas, sabiedrības interešu vai aviācijas darbi): attiecas uz jebkura svara droniem (maks. 9 kg), un tam nepieciešama DGAC reģistrācija, tālvadības pilota apliecība, apdrošināšana, AOC vai CEO un ekspluatācijas atļauja.",
+      "DAN 151: darbības laikā dronam jābūt aprīkotam ar avārijas izpletni, un tam jābūt vadāmam manuāli (maks. 9 kg, neskaitot izpletni).",
+      "Vispārējais ierobežojums ir 400 pēdas (120 m) AGL — lidošanai augstāk nepieciešama iepriekšēja DGAC atļauja (DAN 151 Ed. 3, spēkā kopš 2024. gada maija). Spēkā esošajā DAN 91 tas pats ierobežojums izteikts kā '400 pēdas (130 metri)'.",
+      "Aizliegts lidot 2 km attālumā no skrejceļa pagarinātās ass līnijas (mērot no sliekšņa) vai 1 km attālumā paralēli lidlauka skrejceļa ass līnijai.",
+      "Aizliegts veikt dronu darbības teritorijās, kur ugunsgrēku dzēš ar pilotējamiem gaisa kuģiem (DAN 91.102(i)(11) un DAN 151.103(g)(14)).",
       "Maksimālais attālums 500 m no operatora (saglabā tiešu acu kontaktu)",
-      "Vienmēr turi dronu tiešā redzamības laukā (VLOS)",
+      "Lai vadītu drona lidojumu, visu laiku jāsaglabā tiešs vizuālais kontakts ar to.",
       "Nakts lidojumiem nepieciešama īpaša DGAC atļauja",
-      "DGAC reģistrācija: marka, modelis, sērijas numurs, maksimālais svars ≤9 kg atļautai lietošanai, foto 10×15 cm",
-      "Pilota licencei nepieciešams rakstisks eksāmens (minimālais rezultāts 75%) par DAN 151, DAN 91, meteoroloģiju un aerodinamiku",
+      "DGAC reģistrācija (DAN 151.203): ražotājs/valsts, marka, modelis, sērijas numurs un rūpnīcas svars, pievienojot personas apliecības kopiju; pieteikumu iesniedz DGAC tīmekļa platformā (kopš 2026. gada augusta). Maksimālā pacelšanās masa 9 kg.",
+      "Tālvadības pilota apliecība: vismaz 18 gadu vecums, apmācības deklarācija un rakstisks eksāmens (minimālais rezultāts 75%) par DAN 151, DAN 91, NOTAM, meteoroloģiju un aerodinamiku; derīga 36 mēnešus.",
       "Profesionālai lietošanai nepieciešama trešo personu civiltiesiskās atbildības apdrošināšana (JAC apstiprināta)"
     ],
     "importantNotes": [
-      "📋 DIVKĀRŠS REGULĒJUMA IETVARS — DAN 91 pret DAN 151: Čīle nošķir lidošanu NEAPDZĪVOTĀS teritorijās (DAN 91, pielaidīgāks; atpūtas lidojumi ≤750 g bez atļaujas) no lidošanas APDZĪVOTĀS vietās vai sabiedriski nozīmīgās zonās (DAN 151, kas prasa reģistrāciju, sertificētu pilotu un apdrošināšanu). Piemērojamais regulējums ir atkarīgs no atrašanās vietas UN mērķa.",
-      "✈️ ĀRVALSTU TŪRISTI: Noteikumi vienādi attiecas uz nerezidentiem. Reģistrācija nav nepieciešama atpūtas lidojumiem ar droniem, kas sver ≤750 g, neapdzīvotās privātās teritorijās. Jebkurai citai darbībai (tūrisms, profesionāla lietošana, cilvēku tuvumā, parkos) nepieciešamas tādas pašas atļaujas kā Čīles pilsoņiem.",
-      "🌋 NACIONĀLIE PARKI UN REZERVĀTI: CONAF (Nacionālā mežu korporācija) aizliedz dronus bez īpašas atļaujas tādos parkos kā Torres del Paine, Lauca un Isluga Volcano National Park. Čīles Antarktika: īpašs INACH regulējums. Pirms ceļojuma pārbaudi katra parka vai rezervāta noteikumus.",
-      "🏔️ IEROBEŽOTĀS ZONAS: Santiago centrs (La Moneda, Plaza de Armas), SCEL Airport (Pudahuel), militārās un pierobežas zonas. Easter Island, Robinson Crusoe Island, Antarctica: papildu ierobežojumi. Skati AIP Chile (ENR 5.1) aizliegto, ierobežoto un bīstamo zonu karti.",
-      "💰 IKGADĒJA ATJAUNOŠANA: DGAC reģistrācija ir spēkā 12 mēnešus un jāatjauno katru gadu. Darbība bez derīgas reģistrācijas vai apliecības var izraisīt naudassodu, iekārtu konfiskāciju un darbības aizliegumu."
+      "DUĀLS REGULĒJUMA IETVARS — DAN 91 (neapdzīvotas teritorijas): katram lidojumam nepieciešama iepriekšēja DGAC atļauja, katrā gadījumā atsevišķi (D pielikums). DAN 151 (apdzīvotas teritorijas, sabiedrības interešu vai aviācijas darbi): reģistrācija, apliecība, apdrošināšana un atļauja. Vienīgais izņēmums: droni ≤750 g no putupolietilēna vai līdzvērtīga materiāla, atpūtas lietošana, privātās vietās un ≤50 m virs augstākā šķēršļa.",
+      "✈️ ĀRVALSTU TŪRISTI: noteikumi vienādi attiecas arī uz nerezidentiem. Bez DGAC atļaujas atļauti tikai droni ≤750 g no putupolietilēna vai līdzvērtīga materiāla, atpūtas lietošanai, privātās vietās un ≤50 m virs augstākā šķēršļa. Jebkuram citam lidojumam nepieciešama iepriekšēja DGAC atļauja; DGAC reģistrācijai nepieciešama personas apliecības kopija.",
+      "🌋 AIZSARGĀJAMĀS TERITORIJAS: dronu izmantošana atpūtai vai tūrismam nav atļauta nevienā valsts aizsargājamā dabas teritorijā (nacionālie parki, rezervāti, dabas pieminekļi). CONAF atļauj lidojumus tikai pamatotos gadījumos (zinātniskā izpēte, monitorings vai citi pārvaldības mērķi) caur conaf.cerofilas.gob.cl, un tad nepieciešama arī DGAC atļauja. Antarktīda: INACH īpašie noteikumi.",
+      "🏔️ IEROBEŽOTĀS ZONAS: aizliegts lidot virs La Moneda (zona SC-P28), militāriem objektiem, cietumiem un stratēģiskiem objektiem, kā arī AIP Chile (ENR 5.1) vai NOTAM noteiktajās aizliegtajās, ierobežotajās vai bīstamajās zonās.",
+      "💰 DERĪGUMA TERMIŅI: tālvadības pilota apliecība ir derīga 36 mēnešus, un to atjauno ar jaunu eksāmenu (min. 75%); DAN 151 ekspluatācijas atļauja ir derīga līdz 6 mēnešiem. DGAC noteikumu neievērošana var izraisīt naudassodus, darbības apturēšanu, iekārtu konfiskāciju vai kriminālatbildību, ja tiek apdraudēta aviācijas drošība."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Čīles oficiālā aeronavigācijas informācijas sistēma: NOTAM, aizliegtās/ierobežotās/bīstamās zonas (ENR 5), kartes, lidlauki"
       },
       {
-        "title": "RPA reģistrācijas procedūra (oficiāls PDF)",
-        "description": "DGAC oficiālā procedūra dronu (RPA) jaunreģistrācijai un legalizācijai. Ietver B pielikumu un veidlapas"
+        "title": "Dronu (RPA) reģistrācija — jaunā DGAC platforma",
+        "description": "Tiešsaistes reģistrācija Nacionālajā RPA reģistrā saskaņā ar DAN 151. Reģistrācija pati par sevi nav atļauja lidot."
       }
     ],
     "secondaryLinks": [

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "51b497a18aafd4cff4e8165ebea4d22e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "05a601befa3ab4524ab9e1c3f953a9bc",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,21 +14,27 @@
     "dronePilotCredentialName": "Pilótaigazolvány",
     "keyRules": [
       "Legfeljebb 122 m (400 láb) a talajszint felett",
-      "Tüntesd fel a regisztrációs számot (C-F####) a drónon",
+      "Soha ne repülj erdőtűztől 9,3 km-en (5 NM) belül vagy veszélyhelyzeti művelet (baleset, árvíz) biztonsági kordonján belül — minden drónra vonatkozik, a 250 g alattiakat is beleértve.",
+      "Meghirdetett rendezvényeken (koncertek, fesztiválok, sportesemények) vagy azok közelében SFOC-RPAS nélkül tilos repülni — ez a 250 g alatti drónokra is vonatkozik.",
+      "Tüntesd fel jól láthatóan a drón regisztrációs számát (pl. C-1234567890) a drónon",
       "Alapszintű tanúsítvány: legalább 14 éves kor, 35 kérdéses vizsga (65%-os eredmény szükséges) — csak ellenőrizetlen légtérben",
       "Haladó tanúsítvány: legalább 16 éves kor, 50 kérdéses vizsga (80%-os eredmény szükséges) + repülési felülvizsgálat — ellenőrzött légtérben",
       "250 g alatti drónok: nincs szükség regisztrációra vagy tanúsítványra",
+      "Ha külföldi látogatóként a saját, 250 g-os vagy nehezebb drónoddal repülsz: kanadai drónpilóta-bizonyítványra (a hazai engedély nem számít) és Foreign SFOC-RPAS-ra van szükséged, mert külföldiek nem regisztrálhatnak drónt Kanadában. Kérelmezd időben — a szolgáltatási határidő 30 munkanap. 250 g alatt: nincs szükség SFOC-ra, kivéve meghirdetett rendezvényeken.",
       "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS) — segédeszközök nélkül, közvetlenül szemmel tartva",
       "Tarts 30 m vízszintes távolságot az emberektől (alapszintű üzemelés)",
-      "Hacsak nem a Transport Canada által meghatározott eljárást követed, maradj 5,6 km (3 NM) távolságra a tanúsított repülőterektől és 1,9 km (1 NM) távolságra a tanúsított helikopter-leszállóhelyektől. Az ellenőrzött légtérben való repüléshez Haladó tanúsítvány és NAV DRONE engedély szükséges.",
+      "Éjszakai repülés (250 g-os és nehezebb drónok): a drónon olyan fényeknek kell lenniük, amelyek láthatóvá teszik számodra vagy a vizuális megfigyelőd számára, és ezeknek bekapcsolva kell lenniük.",
+      "250 g-os és nehezebb drónok: alkoholfogyasztás után 12 órán belül vagy befolyásoltság alatt tilos repülni",
+      "Basic: tarts 5,6 km-nél (3 NM) nagyobb távolságot a tanúsított repülőterektől és 1,9 km-nél (1 NM) nagyobbat a tanúsított helikopter-leszállóhelyektől. Közelebb csak Advanced bizonyítvánnyal, a kialakított eljárások szerint. Ellenőrzött légtér: Advanced bizonyítvány + megfelelő biztonsági nyilatkozattal rendelkező drón + NAV DRONE engedély.",
+      "Katonai repülőtér középpontjától 5,6 km-en (3 NM) belül a Nemzetvédelmi Minisztérium engedélye szükséges.",
       "A tartományi és nemzeti parkok általában tiltják a szabadidős célú drónhasználatot — a tilalom Alberta, Ontario és British Columbia tartományi parkjaiban, valamint a Parks Canada valamennyi nemzeti parkjában érvényes. Repülés előtt ellenőrizd az adott park szabályait."
     ],
     "importantNotes": [
-      "British Columbia és Alberta tartományi parkjai engedély nélkül tiltják a rekreációs drónokat",
+      "Brit Columbia és Alberta tartományi parkjai: a park engedélye nélkül drónt repültetni illegális, és a szabadidős repülés nem engedélyezett (Alberta: bármilyen méretben; Brit Columbia: engedélyt ritkán adnak)",
       "Ontario tartományi parkjai és Toronto városi parkjai tiltják a rekreációs drónokat",
-      "A legtöbb önkormányzat engedély nélkül tiltja a drónokat a nyilvános parkokban",
+      "Más önkormányzatok is tilthatják engedély nélkül a drónokat a városi parkokban — repülés előtt ellenőrizd a helyi rendeleteket",
       "A biztosítás alapszintű üzemeléshez nem kötelező, de erősen ajánlott",
-      "A Level 1 Complex Operations tanúsítvány (2025 novemberétől) lehetővé teszi az alacsony kockázatú BVLOS-üzemelést SFOC nélkül"
+      "A Level 1 Complex pilótabizonyítvány (18+) 2025. november 4. óta SFOC nélkül is lehetővé teszi az alacsony kockázatú BVLOS repülést — de csak RPAS üzemeltetői tanúsítvány (RPOC) birtokában, amely a tiéd vagy azé az üzemeltetőé, akinek repülsz"
     ],
     "primaryLinks": [
       {
@@ -37,7 +43,7 @@
       },
       {
         "title": "Transport Canada – Regisztráld a drónodat",
-        "description": "Regisztráld a 250 g-os és nagyobb drónokat a Drone Management Portalon keresztül (5 $, kb. 3 perc)"
+        "description": "Regisztráld a 250 g-os és nehezebb drónokat a Drone Management Portalon (kb. 10 $, évente kiigazítva; kb. 3 perc)"
       },
       {
         "title": "NAV DRONE – Ellenőrzött légtér",

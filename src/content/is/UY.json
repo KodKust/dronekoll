@@ -1,28 +1,29 @@
 {
   "meta": {
-    "sourceHash": "c139af1376a67c6fd4409a0435b10fd8dd0df99586c1e480fb6eb124208d488a",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Hámarkshæð: 120 m (400 fet) yfir jörðu (AGL)",
-      "Drónar sem vega minna en 25 kg: krefjast EKKI skráningar hjá DINACIA fyrir tómstundanotkun",
-      "Drónar sem vega ≥25 kg eða eru notaðir í viðskiptaskyni: skráningarskylda á UTM-vettvangi DINACIA",
-      "Haltu drónanum ávallt innan beinnar sjónlínu (VLOS)",
-      "Fljúgðu ekki yfir þéttbýl svæði (borgir, bæi, hverfi)",
-      "Forðastu flugvelli, aðra flugstaði og stýrt loftrými (CTR)",
+      "Hámarksflughæð er 120 m (400 ft) yfir jörðu.",
+      "Drónar ('Small') allt að 25 kg þurfa ekki skráningu hjá DINACIA fyrir tómstundanotkun — þeir mega fljúga frjálst upp í 120 m, nema á flugvallarsvæðum.",
+      "Í Montevideo hefur DINACIA tilgreint 4 tómstundaflugsvæði fyrir Small-dróna (allt að 25 kg), á afmörkuðum hlutum: Parque Baroffio (norðurhluti), Parque Marcos Sastre (nálægt Ruta 8), Parque Miguelete (kaflinn milli Silva og Bvar. Aparicio Saravia) og Parque Tomkinson (nema svæði barnafótboltaklúbbsins). Hámarkshæð á þessum svæðum: 30 m yfir jörðu (DINACIA Res. 093/2019, AIP ENR 5.5).",
+      "Drónar frá 25 til 260 kg ('Medium') verða að vera skráðir hjá DINACIA og fá auðkennisnúmer sem er sýnilegt á tækinu.",
+      "Flugmaðurinn verður ávallt að hafa drónann innan beinnar sjónlínu.",
+      "Flug yfir þéttbýlum svæðum (borgum, bæjum, hverfum) er ekki heimilt án sérstakrar heimildar frá flugmálayfirvöldum.",
+      "Forðastu flugvelli, flugbrautir og stýrt loftrými (CTR) nema sérstök heimild liggi fyrir.",
       "Hæfileg fjarlægð frá fólki og byggingum sem ekki tengjast fluginu (mælt með: 30 m)",
       "Flug er aðeins heimilt að degi til — næturflug krefst sérstakrar heimildar",
-      "Atvinnurekstur: skyldubundin ábyrgðartrygging + leyfi frá DINACIA",
-      "Loftrýmisfrátektir (viðburðir): fylltu út eyðublaðið 10 dögum fyrirfram"
+      "Atvinnunotkun krefst skyldubundinnar ábyrgðartryggingar eða flugtryggingar, auk viðeigandi leyfis frá DINACIA.",
+      "Rekstur sem krefst sérstakrar heimildar (yfir byggð eða mannsöfnuði, á flugvallarsvæðum, á bann- eða haftasvæðum eða í atvinnuskyni): sæktu um hjá DINACIA í gegnum UTM-vettvanginn (utm.dinacia.gub.uy)."
     ],
     "importantNotes": [
-      "🌟 FRJÁLSLEGAR REGLUR GILDA Í ÚRÚGVÆ: DINACIA Resolution 291/2014 kveður á um að drónar sem vega minna en 25 kg þurfi EKKI skráningu fyrir tómstundanotkun. Flestir neytendadrónar (DJI Mini, Mavic, Air, Phantom) eru vel undir þessum mörkum — en allar aðrar rekstrarreglur GILDA.",
-      "📋 DINACIA RESOLUTION 291/2014: flokkar dróna í þrjá flokka — Small (≤25 kg), Medium (25–260 kg eiginþyngd) og Large (>260 kg). Uruguayan Aeronautical Regulations (RAU 91 og fleiri) bæta við regluverkið.",
-      "✈️ ERLENDIR FERÐAMENN: Reglurnar gilda einnig um þá sem ekki eru búsettir. Fyrir tómstundanotkun dróna sem vegur minna en 25 kg er skráning ekki nauðsynleg. Fyrir atvinnu-/viðskiptanotkun eða viðburði: hafðu samband við DINACIA áður en þú ferðast. Tollur kann að krefjast þess að þú gefir upp búnaðinn við komu til landsins.",
-      "🏖️ PUNTA DEL ESTE OG MONTEVIDEO: Punta del Este (mikil ferðamannaþéttni), Carrasco Airport (MVD), Laguna del Sauce Airport (PDP), Government House og Plaza Independencia lúta varanlegum takmörkunum. Strandlengjur og strendur eru gjarnan fjölmennar á háannatíma.",
+      "Reglur í Úrúgvæ eru tiltölulega frjálslegar: DINACIA Resolution 291/2014 kveður á um að drónar allt að 25 kg þurfi ekki skráningu fyrir tómstundanotkun.",
+      "DINACIA Resolution 291/2014 flokkar dróna í þrjá flokka: Small (≤25 kg), Medium (25-260 kg) og Large (yfir 260 kg).",
+      "Reglurnar gilda einnig um þá sem ekki eru búsettir í landinu. Fyrir notkun dróna allt að 25 kg eingöngu í tómstundaskyni þarf hvorki skráningu né rekstrarleyfi. Öll launuð notkun (jafnvel með litlum drónum) krefst DAOD-rekstrarleyfis DINACIA (kröfur: 18 ára aldur, námskeið hjá viðurkenndri miðstöð, færnipróf og úrúgvæskur ríkisborgararéttur; útlendingar verða að stofna rafræna APIA-skrá hjá DINACIA) og ábyrgðartryggingar.",
+      "🚫 BANNSVÆÐI (AIP ENR 5.1): Torre Ejecutiva/Plaza Independencia í Montevideo (950 m radíus), Residencia Presidencial Suárez (950 m radíus), Estancia Presidencial Anchorena (1.852 m radíus), Isla de Lobos undan Punta del Este (5 km radíus), eyjar undan Cabo Polonio, Barra de Valizas og La Coronilla (5 km radíus), herdeildir, fangelsi, stíflur og eldsneytisstöðvar ANCAP. ATM-heimild er nauðsynleg í stýrðu loftrými og umferðarsvæði flugvallanna Carrasco (MVD) og Laguna del Sauce (PDP). Strendur og strandsvæði eru oft þéttsetin á háannatíma.",
       "🌳 VERNDUÐ NÁTTÚRUSVÆÐI (SNAP): National System of Protected Areas nær yfir svæði eins og Esteros de Farrapos, Cabo Polonio og Quebrada de los Cuervos. Athugaðu hjá Ministry of the Environment hvaða sérstakar takmarkanir gilda áður en þú flýgur drónum á þessum svæðum."
     ],
     "primaryLinks": [
@@ -35,8 +36,8 @@
         "description": "Opinber UTM-vettvangur DINACIA (umferðarstjórnun ómannaðra loftfara) til að skrá dróna (≥25 kg) og sækja um rekstrarheimild. Krefst skráðs notanda"
       },
       {
-        "title": "DINACIA — Leyfi fyrir RPAS-rekstraraðila",
-        "description": "Opinber síða um leyfi fyrir RPAS-rekstraraðila — skref, kröfur og eyðublöð. Nauðsynlegt fyrir dróna sem vega 25 kg eða meira og fyrir alla viðskiptanotkun"
+        "title": "DINACIA — Útgáfa DAOD-leyfis",
+        "description": "Dreifibréf DINACIA (CA.UY.PEL.07.02) með kröfum fyrir DAOD-rekstrarleyfið. Skyldubundið fyrir dróna yfir 25 kg og fyrir alla launaða notkun."
       },
       {
         "title": "DINACIA — LAR 61 flugmannsleyfi",

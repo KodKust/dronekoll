@@ -1,41 +1,43 @@
 {
   "meta": {
-    "sourceHash": "965aaa2f6c885d898cf7ee6ff9907d07afe1d10c3a57077ecae02dbc001de716",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ab41c1c6a873ddfc4cf87129700fea1004f13537f36d6d678dee51194176fb4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimalna visina leta: 120 metara (400 ft) iznad razine tla",
-      "Vaša bespilotna letjelica mora uvijek ostati u vašem vidnom polju (VLOS)",
-      "Samo dnevni let — za noćne letove potrebna je zasebna dozvola",
-      "Najmanje 9 km od svih zračnih luka (uključujući Istanbul IST i Sabiha Gökçen SAW)",
-      "Od drugih osoba mora se održavati vodoravna udaljenost od najmanje 50 metara",
-      "Sve bespilotne letjelice teže od 500 g moraju biti registrirane na iha.shgm.gov.tr",
-      "Letenje je zabranjeno u povijesnim područjima (Hagia Sophia, Topkapı, Sultanahmet) i duž koridora Bosphorus",
-      "Letenje iznad vojnih zona, vladinih zgrada i događanja s velikim brojem ljudi strogo je zabranjeno",
-      "Strani piloti koji žele koristiti bespilotne letjelice teže od 500 g moraju podnijeti zahtjev putem diplomatskih kanala",
-      "FPV let zabranjen je bez zasebnog odobrenja"
+      "Najveća visina leta je 120 m (400 ft); pri letovima P0/P1 bespilotna letjelica mora se držati u vidnom polju (VLOS) i ne smije se udaljiti više od 3.000 m od pilota. Letenje iznad 120 m moguće je samo s licencijom P2 i uz koordinaciju s nadležnim tijelima.",
+      "Bespilotnu letjelicu uvijek morate držati u svom vidnom polju, u izravnom vizualnom kontaktu bez pomoći optičkih ili elektroničkih uređaja (SHT-İHA).",
+      "Amaterski (P0) letovi smiju se izvoditi samo danju; noćne operacije moguće su s licencijom P1 ili P2 i odgovarajućom opremom (SHT-İHA čl. 15). Tijekom prijelaznog razdoblja (do 31. srpnja 2027.) za noćne letove pribavite dozvolu SHGM-a.",
+      "Prije letenja u blizini zračnih luka provjerite kartu na iha.shgm.gov.tr (kasnije İHATTYS); letovi na svim lokacijama izvan zelenih zona podliježu dozvoli SHGM-a. Nova SHT-İHA ne propisuje fiksnu udaljenost; 9 km (5 NM) iz prethodne direktive treba poštovati kao sigurnu minimalnu udaljenost.",
+      "Letenje iznad mnoštva smatra se operacijom visokog rizika; zatvoreno je za pilote P0 i P1 i smije se izvoditi samo s licencijom P2 (SHT-İHA čl. 6). Nova direktiva ne propisuje fiksnu udaljenost; kao sigurni minimum preporučuje se držati se najmanje 50 m od ljudi i građevina (vrijednost iz prethodne direktive).",
+      "Nova SHT-İHA (2026): osim jednostavnih bespilotnih letjelica (Simple UAV) razine igračke, svi korisnici bespilotnih letjelica, uključujući one ispod 500 g, moraju se registrirati u İHATTYS; rok za postojeće letjelice je 31. srpnja 2027. Dok İHATTYS ne počne s radom, bespilotne letjelice od 500 g i više registriraju se na iha.shgm.gov.tr.",
+      "Prema novoj SHT-İHA ovlaštenje za let vezano je uz pilotsku licenciju: amaterska P0 (minimalna dob 10 godina), komercijalna P1 (dob 18 godina), napredna P2; za jednostavne bespilotne letjelice (Simple UAV) licencija nije potrebna. Tijekom prijelaznog razdoblja (do 31. srpnja 2027.) postojeći certifikati İHA0/İHA1 i licencije İHA2/İHA3 ostaju valjani te se prilagodbom pretvaraju u P0/P1/P2.",
+      "Daljinska identifikacija (Remote ID) i geografsko ograđivanje (geofencing) obavezni su za sve bespilotne letjelice osim jednostavnih (Simple UAV); odgovorni ste za učitavanje ažurnih podataka o ograničenim zonama u svoju letjelicu (SHT-İHA čl. 12, 23; prijelazno razdoblje za postojeće bespilotne letjelice do 31. srpnja 2027.).",
+      "Prije letenja na istanbulskom Povijesnom poluotoku (Aja Sofija, Topkapı, Sultanahmet) i oko Bospora provjerite kartu na iha.shgm.gov.tr; letovi na svim lokacijama izvan zelenih zona podliježu dozvoli SHGM-a, a u crvenim zonama dozvola se izdaje samo uz suglasnost institucije koja je zatvorila područje.",
+      "Letenje iznad vojnih zona i vladinih zgrada strogo je zabranjeno; za letenje iznad gusto naseljenih područja potrebna je prethodna dozvola SHGM-a.",
+      "Strani piloti koji koriste bespilotne letjelice od 500 grama ili više moraju podnijeti zahtjev diplomatskim putem najmanje 20 radnih dana unaprijed, na obrascu FR.23 „İHA Uçuş İzin Talep Formu“ (obrazac zahtjeva za dozvolu leta bespilotne letjelice).",
+      "Za FPV letove mora biti prisutan promatrač koji bespilotnu letjelicu neprekidno drži u vizualnom kontaktu, a između pilota i promatrača mora se održavati neprekidna komunikacija; FPV oprema mora raditi na frekvencijama koje je odobrio BTK (SHGM FAQ). Nova SHT-İHA definira vidno polje (VLOS) kao izravni vizualni kontakt bez pomoći optičkih/elektroničkih uređaja — prije FPV letenja posavjetujte se sa SHGM-om."
     ],
     "importantNotes": [
-      "⚠️ STRANI PILOTI: Za upravljanje dronom težim od 500 grama u Turskoj morate putem diplomatskih kanala podnijeti zahtjev tijelu General Directorate of Civil Aviation (SHGM) najmanje 20 radnih dana prije leta, ishoditi osiguranje te letjeti pod nadzorom turskog državljanina koji posjeduje İHA-2 licenciju. Dronovi lakši od 500 g (poput DJI Mini, Flip itd.) izuzeti su od ovih zahtjeva.",
-      "🗺️ SUSTAV ZONA: Turska je podijeljena na zelene (otvorene), žute (potrebna dozvola) i crvene (zabranjene) zone. Obavezno provjerite status zone na iha.shgm.gov.tr prije leta.",
-      "🏛️ POVIJESNA I TURISTIČKA MJESTA: Letenje je zabranjeno iznad Historic Peninsula of Istanbul (Sultanahmet, Hagia Sophia, Topkapı, Grand Bazaar), određenih dolina u regiji Cappadocia, lokaliteta Pamukkale i Ephesus te drugih arheoloških nalazišta bez posebne dozvole Ministry of Culture and Tourism.",
-      "🛂 UVOZ I CARINA: Ako ulazite u Tursku s dronovima težim od 500 g, možda ćete ih morati prijaviti na carini. Uvoz u komercijalne svrhe zahtijeva zaseban postupak; Bosphorus, vojne luke i pogranična područja podliježu dodatnim ograničenjima."
+      "🛂 STRANI PILOTI — NOVA SHT-İHA (30. srpnja 2026.): bespilotne letjelice unesene iz inozemstva moraju imati SHGM-ov softverski modul za usklađenost; bez tog modula letjelica se u Turskoj ne može registrirati niti se njome može letjeti. Bespilotne letjelice registrirane u inozemstvu moraju biti kompatibilne s İHATTYS; strane licencije procjenjuje SHGM, a P1/P2 izdaje se nakon obuke o razlikama. Za bespilotne letjelice nabavljene prije 30. srpnja 2026. razdoblje usklađivanja traje do 31. srpnja 2027. Dok İHATTYS ne počne s radom, zahtjevi za bespilotne letjelice od 500 g i više podnose se SHGM-u na obrascu FR.23, diplomatskim putem, najmanje 20 radnih dana unaprijed.",
+      "🗺️ SUSTAV ZONA: Prema novoj SHT-İHA (30. srpnja 2026.) zone će se na karti İHATTYS objavljivati kao zelene (dozvola nije potrebna), crvene (zatvorila ih je nadležna institucija; samo uz suglasnost te institucije, dozvolu SHGM-a i NOTAM) i narančaste (dodijeljene drugima). Dok İHATTYS ne počne s radom, koristi se karta iha.shgm.gov.tr (zelena/žuta/crvena). U oba sustava letovi na svim lokacijama izvan zelenih zona podliježu dozvoli SHGM-a. Prije leta uvijek provjerite kartu.",
+      "🏛️ POVIJESNE I TURISTIČKE LOKACIJE: snimanje videa/filma/fotografija u muzejima i na lokacijama pridruženima muzejima podliježe dozvoli Ministarstva kulture i turizma; za ograničenja letova bespilotnih letjelica provjerite i kartu na iha.shgm.gov.tr.",
+      "🛂 BESPILOTNE LETJELICE UNESENE IZ INOZEMSTVA: bespilotne letjelice od 500 g i više moraju se registrirati na iha.shgm.gov.tr najkasnije u roku od 3 dana nakon unošenja u Tursku (Zakon br. 2920, čl. 144). Strancima je za registraciju za sportsku/amatersku upotrebu potreban turski identifikacijski broj ili dozvola boravka. Pri ulasku se na carini može zahtijevati prijava; uvoz u komercijalne svrhe zahtijeva zaseban postupak. Za vojne luke i pogranična područja vrijede dodatna ograničenja."
     ],
     "primaryLinks": [
       {
-        "title": "SHGM — Bespilotna letjelica (službena stranica)",
-        "description": "Službena stranica o bespilotnim letjelicama Glavne uprave civilnog zrakoplovstva: Direktiva SHT-UAV, težinske klase (UAV-0/1/2/3) i operativna pravila"
+        "title": "SHGM — İHA Takip / İHATTYS (službeni portal)",
+        "description": "Službeni portal Glavne uprave civilnog zrakoplovstva za bespilotne letjelice (İHATTYS). Dok SHGM ne objavi da je sustav počeo s radom, postupci registracije i dozvola za let provode se postojećim načinima (iha.shgm.gov.tr i obrasci SHGM-a)."
       },
       {
-        "title": "Sustav registracije bespilotnih letjelica (obavezno za dronove od 500 g ili više)",
-        "description": "Obavezni registracijski portal za sve dronove teže od 500 grama. Zahtijeva turski identifikacijski broj; Obrazac FR-03 primjenjuje se na strane državljane"
+        "title": "Sustav registracije bespilotnih letjelica (obavezno iznad 500 g)",
+        "description": "Obavezni portal za registraciju svih dronova težih od 500 grama. Potreban je turski identifikacijski broj; za strane državljane primjenjuje se obrazac FR-03"
       },
       {
-        "title": "Zahtjev za registraciju pilota bespilotne letjelice (e-Government)",
-        "description": "Službena usluga putem e-Governmenta za zahtjeve za registraciju pilota za UAV-1 i više. Za komercijalne operacije potrebna je pilotska licencija."
+        "title": "Zahtjev za registraciju pilota bespilotne letjelice (e-Devlet)",
+        "description": "Službena usluga putem e-Devlet (e-uprava) za zahtjeve za registraciju pilota za İHA-1 i više. Za komercijalne operacije potrebna je pilotska licencija."
       },
       {
         "title": "Zahtjev za odobrenje leta (žute/crvene zone)",
@@ -44,23 +46,27 @@
     ],
     "secondaryLinks": [
       {
-        "title": "Praćenje bespilotnih letjelica — Službena mobilna aplikacija (Android)",
-        "description": "Službena aplikacija SHGM-a za praćenje bespilotnih letjelica: zone zračnog prostora, dozvole za let i upravljanje pilotskim licencijama"
+        "title": "İHA Takip — Službena mobilna aplikacija (Android)",
+        "description": "SHGM-ova službena aplikacija İHA Takip / İHATTYS. Dok SHGM ne objavi da je İHATTYS počeo s radom, postupci registracije i dozvola za let provode se postojećim načinima (iha.shgm.gov.tr i obrasci SHGM-a)."
+      },
+      {
+        "title": "İHATTYS — Službena mobilna aplikacija (iOS)",
+        "description": "iOS verzija SHGM-ove službene aplikacije İHATTYS; transakcije obavljene u aplikaciji nisu valjane dok SHGM ne objavi potrebnu obavijest"
       },
       {
         "title": "SHGM — Korporativna početna stranica",
         "description": "Početna stranica Glavne uprave civilnog zrakoplovstva: svi zrakoplovni propisi, obavijesti i kontaktni podaci"
       },
       {
-        "title": "Direktiva SHT-UAV (tekst propisa)",
-        "description": "Direktiva civilnog zrakoplovstva — Bespilotna letjelica (SHT-UAV): službena direktiva koja služi kao pravna osnova za sve operacije"
+        "title": "Direktiva SHT-İHA 2026 (tekst propisa, PDF)",
+        "description": "Unmanned Aircraft Systems Directive (SHT-İHA), na snazi od 30. srpnja 2026.: službeni tekst direktive koji je pravna osnova za sve operacije bespilotnih letjelica"
       }
     ],
-    "disclaimerText": "Obavezno provjerite službene izvore SHGM prije leta. Ova aplikacija je alat, a ne pravno tijelo. Operacije bespilotnih letjelica u Turskoj uređuje SHT-UAV Directive; svi uređaji teški 500 g ili više moraju biti registrirani u registracijskom sustavu SHGM (iha.shgm.gov.tr).",
+    "disclaimerText": "Obavezno provjerite službene izvore SHGM prije leta. Ova aplikacija je alat, a ne pravno tijelo. U Turskoj operacije bespilotnih letjelica uređuje nova SHT-İHA (Unmanned Aircraft Systems Directive), na snazi od 30. srpnja 2026.; prijelazno razdoblje traje do 31. srpnja 2027. Svi uređaji teži od 500 g moraju biti registrirani u registracijskom sustavu SHGM (iha.shgm.gov.tr).",
     "sectionLabelRules": "OSNOVNA PRAVILA",
     "sectionLabelPrimary": "SLUŽBENI IZVORI",
     "sectionLabelSecondary": "DODATNI RESURSI",
     "linksSheetTitle": "Zračni prostor i propisi — Turska",
-    "dronePilotCredentialName": "Licencija pilota bespilotne letjelice"
+    "dronePilotCredentialName": "Licencija pilota bespilotne letjelice (P0/P1/P2)"
   }
 }

@@ -1,28 +1,35 @@
 {
   "meta": {
-    "sourceHash": "554dcb2ca7172e65f382ee60023e605b64f419f74a40862fa094a3c138b1853d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "dffaad15a571e359fb1ed462806f7dd69c5c983c8a5aea73cf0df596497c54f0",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne daugiau kaip 120 m virš žemės paviršiaus (EASA atviroji kategorija)",
-      "Registruokitės kaip UAS operatorius, jei dronas sveria 250 g ar daugiau arba turi kamerą",
-      "Reikalinga A1/A3 internetinė mokymo programa — mažiausias amžius 16 metų",
-      "Privalomasis civilinės atsakomybės draudimas sunkesniems nei 1,5 kg dronams; mažiausia suma priklauso nuo svorio — 250–1 500 g: 150 000 €; 1 501–5 000 g: 500 000 €; >5 kg: 1 000 000 €",
-      "Draudžiama skristi virš tiltų, geležinkelių, greitkelių ir elektros linijų",
-      "Visada išlaikykite regėjimo ryšį (VLOS)",
+      "Atvirojoje kategorijoje didžiausias aukštis yra 120 m, matuojant atstumą iki artimiausio žemės paviršiaus taško — ne vien tiesiai žemyn, todėl prie šlaito gali būti atsižvelgiama ir į greta esantį žemės paviršių. Kai skraidoma ne toliau kaip 50 m nuo aukšto dirbtinio objekto (aukštesnio nei 105 m), už jį atsakingas subjektas gali paprašyti leidimo skristi iki 15 m virš objekto aukščio.",
+      "Turite registruotis kaip drono operatorius, jei dronas sveria 250 g ar daugiau (arba susidūrimo metu gali perduoti daugiau kaip 80 J kinetinės energijos) — tai taikoma ir žaislams. Jei dronas sveria mažiau nei 250 g, registracija vis tiek privaloma, kai jame yra jutiklis, galintis fiksuoti asmens duomenis, nebent jis laikomas žaislu pagal EU Toy Safety Directive. Piloto mokymo ir pažymėjimo reikalavimai yra atskiri ir priklauso nuo drono klasės bei pakategorės.",
+      "Kaip UAS operatorius turite registruotis savo gyvenamosios vietos ES šalyje (jei gyvenate ne ES — pirmoje ES šalyje, kurioje skraidysite); registracija galioja visoje ES, o registruotis dviejose šalyse vienu metu neleidžiama. Latvijoje registracija kainuoja 5 € ir galioja 1 metus. Kiekvienas dronas turi būti pažymėtas UAS operatoriaus numeriu.",
+      "Dronui nuo 250 g reikia A1/A3 internetinio kurso ir egzamino. Nuo 2024 m. dronais be C klasės žymos, sveriančiais 250 g ar daugiau, galima skraidyti tik A3 pakategorėje — toli nuo neįtrauktų asmenų ir ne arčiau kaip 150 m nuo gyvenamųjų, komercinių, pramoninių ir rekreacinių zonų.",
+      "Latvijoje savarankiškai skraidyti galima nuo 16 metų; jaunesni pilotai gali skraidyti tik tiesiogiai prižiūrimi kvalifikuoto ne jaunesnio kaip 16 metų nuotolinio piloto arba su C0 klasės dronu, sukurtu kaip žaislas.",
+      "C1, C2 (ir C3) klasės dronai turi skraidyti su įjungtu tiesioginiu nuotoliniu identifikavimu (Remote ID), į kurį įvestas jūsų UAS operatoriaus numeris.",
+      "Civilinės atsakomybės draudimas privalomas, išskyrus dronus, kurių masė mažesnė nei 250 g, o didžiausias greitis mažesnis nei 19 m/s. Mažiausia draudimo suma: A1 ir A2 pakategorėse — 50 000 €; dronams nuo 20 kg ir specialiojoje kategorijoje — 750 000 SDR (Regulation (EC) No 785/2004).",
+      "Bendro draudimo nėra, tačiau virš valstybinių kelių, tiltų, geležinkelio įrenginių ir 110/330 kV elektros linijų (iki 50 m nuo jų) gali būti nustatytos UAS geografinės zonos — tikrinkite airspace.lv. Kai tik įmanoma, venkite skrydžių virš žmonių, eismo, pastatų ir inžinerinių statinių.",
+      "Draudžiama filmuoti ar fotografuoti ypatingos svarbos infrastruktūros objektus, pažymėtus ženklu „BEZ SASKAŅOŠANAS FOTOGRAFĒT, FILMĒT AIZLIEGTS“.",
+      "Atvirojoje kategorijoje laikykite droną savo tiesioginiame regėjimo lauke be pagalbinių priemonių (akiniai ar kontaktiniai lęšiai leidžiami; žiūronai ar ekranas nelaikomi tinkamais) — arba skraidykite padedami stebėtojo, visą laiką palaikydami aiškų ir veiksmingą tarpusavio ryšį, kad kartu galėtumėte stebėti oro erdvę ir išvengti susidūrimų. „Follow-me“ režimas yra atskira išimtis: leidžiama skristi iki 50 m nuo piloto.",
       "Neskriskite virš žmonių susibūrimų. Neįtrauktiems asmenims taikomos taisyklės priklauso nuo subkategorijos, klasės žymos ir eksploatavimo sąlygų; patikrinkite oficialią lentelę.",
-      "Ne arčiau kaip 5 km nuo bet kurio oro uosto ar aerodromo",
+      "Nėra vieno visoje ES galiojančio atstumo, kurio privaloma laikytis nuo oro uostų. Ribojimai prie oro uostų skelbiami kaip geografinės zonos (15 straipsnis), kurių forma ir dydis skiriasi priklausomai nuo oro uosto. Prieš skrisdami netoli oro uosto, aerodromo ar sraigtasparnių aikštelės patikrinkite oficialų savo šalies dronų zonų žemėlapį; skrydžiui kontrolės zonoje (CTR) paprastai reikia išankstinio skrydžių valdymo leidimo.",
+      "Latvijoje nuo 2025 m. sausio 1 d. apie skrydžius UAS geografinėse zonose, kuriose reikia pranešti apie skrydį arba gauti leidimą, prieš skrydį būtina pranešti CAA bepiločių orlaivių informacinėje sistemoje BGKIS (e.caa.gov.lv); kitoje EEE šalyje ar Šveicarijoje registruoti operatoriai taip pat gali susikurti BGKIS paskyrą. Leidimo gavimas zonose aplink aerodromus gali užtrukti iki 5 darbo dienų (iki 30 dienų, jei reikia keisti skrydžio planą).",
       "Pagal EASA atvirosios kategorijos bazinius reikalavimus naktinis skrydis leidžiamas, jei naudojamas privalomas žalias mirksintis žibintas, išskyrus atvejus, kai galiojančios geografinės zonos ar nacionalinės taisyklės numato griežtesnes sąlygas.",
-      "Riga Airport CTR apima didelę teritoriją"
+      "Rygos CTR apima didelę Rygos dalį. Be atskiro leidimo skraidyti leidžiama žemiau nei 50 m virš žemės ir toliau nei 5 km nuo 18 ir 36 kilimo ir tūpimo takų slenksčių su dronu iki 2 kg; dronui, sunkesniam nei 2 kg, reikia papildomos kvalifikacijos (pvz., A2 kompetencijos pažymėjimo). Aukščiau nei 50 m arba 5 km zonoje aplink kilimo ir tūpimo takų slenksčius kiekvienas skrydis turi būti iš anksto suderintas su VAS „Latvijas gaisa satiksme“.",
+      "Policijos, CAA, pasieniečių ar kito pareigūno prašymu nedelsdami nutraukite skrydį ir pateikite asmens tapatybės dokumentą — turėkite jį su savimi.",
+      "Nuotoliniam pilotui ar stebėtojui, kurio kraujyje alkoholio koncentracija viršija 0,2 ‰ arba kuris yra apsvaigęs nuo svaiginančiųjų medžiagų, gali būti skirta iki 700 € bauda; atsisakyti tikrintis draudžiama. Baudos: iki 700 € (pvz., už skrydį be privalomojo draudimo), iki 1 000 € už leistino aukščio ar aerodromo zonos reikalavimų pažeidimą."
     ],
     "importantNotes": [
-      "Draudimas priklauso nuo drono svorio — 250–1 500 g: 150 000 €; 1 501–5 000 g: 500 000 €; >5 kg: 1 000 000 €",
-      "Skristi virš tiltų, geležinkelių, greitkelių ir elektros linijų griežtai draudžiama",
+      "Draudimas privalomas, išskyrus dronus < 250 g, kurių didžiausias greitis < 19 m/s; mažiausia suma A1/A2 — 50 000 €, nuo 20 kg ir specialiojoje kategorijoje — 750 000 SDR",
+      "Virš tiltų, geležinkelių, valstybinių kelių ir 110/330 kV elektros linijų (iki 50 m) gali galioti UAS geografinės zonos — tikrinkite airspace.lv",
       "Riga Airport CTR sudaro didelę ribojamąją teritoriją",
-      "Pasienio su Rusija ir Baltarusija zonose gali galioti papildomi ribojimai",
+      "Palei sieną su Baltarusija ir Rusija yra ribojama zona EVR17A BORDER EAST (nuo žemės iki 500 ft, veikia H24). Dronų skrydžiai joje (įskaitant < 250 g) leidžiami tik gavus Valstybės sienos apsaugos tarnybos Aviacijos ir specialiųjų operacijų valdybos leidimą, kurį reikia gauti ne vėliau kaip likus 24 valandoms iki planuojamos skrydžio dienos (dokumentus reikia pateikti ne vėliau kaip prieš 32 valandas).",
       "Filmuojant ir fotografuojant atpažįstamus asmenis taikomas GDPR"
     ],
     "primaryLinks": [
@@ -49,7 +56,7 @@
         "description": "Latvijos oro navigacijos tarnybos ir oro erdvės informacija"
       },
       {
-        "title": "CAA Latvia — Dronų DUK",
+        "title": "CAA Latvia – Dronų DUK",
         "description": "Dažnai užduodami klausimai apie dronų taisykles Latvijoje"
       }
     ],

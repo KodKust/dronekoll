@@ -1,42 +1,44 @@
 {
   "meta": {
-    "sourceHash": "7ac6f58efeb57847db5c573b36f52f9091268fb859f217572eb22f0601db3ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "87a436fc2428e63cbeabda8e978948a403f544d76e6100f96d885f4d05ce52ec",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "A maximális magasság a tömegtől függ: ≤250 g → 30 m; 250 g–25 kg → 60 m; 25–150 kg → 120 m",
-      "A 250 g-nál nehezebb drónokat (minden felhasználás) regisztrálni kell az AAC-nál – költség: US$5; személyes regisztráció Albrookban",
-      "Legfeljebb 250 g tömegű szabadidős drónok: Regisztráció NEM szükséges, de minden egyéb szabály érvényes",
-      "Legalább 8 km távolság a repülőterektől és leszállópályáktól",
-      "Legalább 30 m vízszintes és 10 m függőleges távolság az emberektől",
-      "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS)",
-      "Az éjszakai repülés az AAC külön mentessége nélkül TILOS",
-      "A felelősségbiztosítás minden ügyletnél KÖTELEZŐ",
-      "Kötelező tájékozott beleegyezési nyilatkozat a következőkre vonatkozóan: magántulajdon, őslakos rezervátumok, védett területek és a Panama-csatorna vízgyűjtője",
-      "A kereskedelmi felhasználáshoz a drónregisztráció mellett RPA-pilótaengedély is szükséges"
+      "A maximális magasság az RPA osztályától függ: Mikro (≤250 g) → 100 ft (~30 m); Könnyű (251 g–25 kg) → 400 ft (~120 m); Közepes (26–150 kg) → 400 ft, de Mode S transzponder nélkül 100 m-re korlátozva (AAC-szabvány §9.2, §10.1.1, §11.1.5, §11.1.10).",
+      "Minden RPA-t, a Mikro osztályút (≤250 g) is beleértve, regisztrálni kell az AAC-nál (a szabvány §8.1, §9.1, §15.2) – a legtöbb országtól eltérően Panama nem mentesíti a legkönnyebb drónokat a regisztráció alól. A regisztráció személyesen történik Albrookban; ellenőrizd az aktuális díjat.",
+      "Panama NEM mentesíti a könnyű szabadidős drónokat (≤250 g) a regisztráció alól – a legtöbb országtól eltérően az AAC-szabvány (§8.1, §9.1) minden RPA-osztály, így a Mikro számára is előírja a regisztrációt.",
+      "Panamában minden RPA-művelethez az AAC üzemeltetési engedélye szükséges (§8.2, §8.20): nyújtsd be a 005-ös űrlapot (Solicitud de Permiso de Actividades Aéreas Especiales) legalább 5 munkanappal előre.",
+      "Legalább 8 km (5 tengeri mérföld) távolság a repülőterektől és leszállóhelyektől, a Köztársasági Elnökségtől és a börtönöktől (az AAC-szabvány §8.10–8.11). A szabvány azt is tiltja, hogy az állam biztonságát veszélyeztető helyeken repülj, például nagykövetségeknél, közintézményeknél és bankoknál (§8.11), és az AAC korlátozásokat tart fenn a rendőrőrsök, a kórházak és a Biztonsági Minisztérium felett (az AAC 2025. szeptember 26-i közleménye).",
+      "Fel- és leszálláskor tarts legalább 30 m vízszintes és 10 m függőleges távolságot a műveletben részt nem vevő személyektől (az AAC-szabvány §13.1).",
+      "A drónt mindvégig a közvetlen látótávolságodon belül kell tartanod (RACP).",
+      "Az éjszakai repülés az AAC külön mentessége nélkül TILOS.",
+      "Harmadik személyekkel szembeni polgári jogi felelősségbiztosítás KÖTELEZŐ minden RPA-tulajdonos számára (az AAC-szabvány §8.4), a használattól függetlenül. Emberek feletti repüléshez az AAC engedélye és az érintettek hozzájárulása is szükséges (§8.16).",
+      "A tiltott, korlátozott vagy veszélyes légterekhez (lásd az AAC AIP-t) az AAC és a terület felett illetékes hatóság külön engedélye szükséges – mindkettő kötelező (az AAC-szabvány §13.1 d). A csatornaövezetben, a védett területeken és az őslakos területeken a repülési engedély kérelmezése előtt egyeztess az illetékes hatósággal.",
+      "Aki RPA-t üzemeltet – a szabadidős és a Mikro osztályú (≤250 g) drónokat is beleértve –, annak AAC távpilóta-engedéllyel és 3. osztályú orvosi igazolással kell rendelkeznie (az AAC-szabvány §8.3, §9.1, §10.1). Kereskedelmi használathoz ezenfelül kereskedelmi üzemeltetési engedély is szükséges (§13.3)."
     ],
     "importantNotes": [
-      "📏 A MAGASSÁGOK TÖMEG SZERINT VÁLTOZNAK (Latin-Amerikában egyedülálló): Panama RACP-szabályozása a drón tömege alapján három maximális magassági szintet határoz meg: a ≤250 g tömegű drónok CSAK 30 m-re korlátozottak, a 250 g–25 kg tömegűek 60 m-re, és csak a ≥25 kg tömegű drónok érhetik el a szokásos 120 m-t. Ellenőrizd a drónod tömegét, mielőtt megtervezed a repülési magasságot.",
-      "✈️ TURISTÁK – 14 NAPOS SZABÁLY: Ha a panamai tartózkodásod ≤14 naptári nap, az AAC külön engedélyét igényelheted anélkül, hogy tartósan regisztrálnád a drónt. 14 napnál hosszabb tartózkodás esetén: a 250 g-nál nehezebb drónok AAC-regisztrációja kötelező. A ≤250 g tömegű szabadidős drónok mindkét esetben mentesülnek.",
-      "🚢 PANAMA-CSATORNA – KÜLÖNLEGES KORLÁTOZÁS: A csatorna medencéje (beleértve a zsilipeket, a Gatún-tavat és a szomszédos területeket) bármely repülés előtt a Csatornahatóság kötelező tájékozott beleegyezési levelét igényli. Az AAC e levél nélkül NEM engedélyez műveleteket e terület felett. Ez a magántulajdonra, az őslakos rezervátumokra és a védett területekre is vonatkozik.",
-      "🌳 VÉDETT TERÜLETEK ÉS MIAMBIENTE: Az olyan nemzeti parkok, mint a Soberanía, a Volcán Barú, a Coiba (a világörökség része) és a Darién, a Környezetvédelmi Minisztérium (MiAmbiente) külön engedélyét igénylik. Bocas del Toro és Guna Yala szigetei szintén korlátozás alá esnek – üzemeltetés előtt egyeztess a helyi közösséggel.",
-      "🏢 SZEMÉLYES REGISZTRÁCIÓ SZÜKSÉGES: A legtöbb országtól eltérően az AAC-regisztrációt SZEMÉLYESEN kell elvégezni az albrooki irodában (805-ös épület). Vidd magaddal: a személyazonosító okmányodat, magát a drónt, a kitöltött űrlapot és US$5-t. Utazás előtt ellenőrizd az időpontok elérhetőségét és az ügyintézési időt."
+      "Sok országtól eltérően Panama RPA-osztályonként lépcsőzi a maximális magasságot: 100 ft (~30 m) a Mikro (≤250 g), 400 ft (~120 m) a Könnyű (251 g–25 kg) és 400 ft a Közepes (26–150 kg) osztálynál – ez utóbbi azonban Mode S transzponder nélkül 100 m-re korlátozódik. A repülési magasság megtervezése előtt ellenőrizd a drónod osztályát.",
+      "Turisták: a külföldi RPA-kra vagy üzemeltetőkre vonatkozó különleges engedély (004-es űrlap) legfeljebb 15 napig érvényes, és szabadidős tevékenységre NEM adják meg (az AAC-szabvány §8.22). Szabadidős repüléshez az RPA-t regisztrálni kell az AAC-nál (minden osztály, a Mikro ≤250 g is, §8.1), és AAC RPA-pilótaengedély szükséges (§8.3); külföldi engedélyt csak kétoldalú megállapodás esetén validálnak (§18.17). Utazás előtt érdeklődj az AAC-nál.",
+      "PANAMA-CSATORNA — KORLÁTOZOTT TERÜLET: az AAC AIP (ENR 5) szerint korlátozottak a műveletek a Gatún, Pedro Miguel és Miraflores zsilipek, a Gatún- és a Madden-gát, valamint a csatornán áthaladó bármely hajó felett. Az AAC és a terület felett illetékes hatóság engedélye szükséges (az AAC-szabvány §13.1 d).",
+      "Casco Antiguo, Cinta Costera, Av. Balboa, Calle 50 és környékük: az AAC engedélyén felül levélben értesítened kell a Servicio de Protección Institucionalt (SPI).",
+      "🌳 VÉDETT TERÜLETEK (MiAmbiente): a SINAP védett területein csak érvényes engedéllyel/regisztrációval rendelkező látogatók használhatnak drónt, a vonatkozó eljárásoknak és díjaknak megfelelően (Resolución DM-0173-2026, 12. cikk). Repülés előtt érdeklődj a terület igazgatóságánál.",
+      "A legtöbb országtól eltérően az AAC-regisztrációt személyesen kell intézni Albrookban – a kérelem előtt ellenőrizd az aktuális eljárást és követelményeket."
     ],
     "primaryLinks": [
       {
         "title": "AAC – Panama Polgári Légiközlekedési Hatósága",
-        "description": "Panama Polgári Légiközlekedési Hatóságának hivatalos weboldala. Információk a drónregisztrációról, a RACP-szabályozásról, valamint a hazai és külföldi üzemeltetőkre vonatkozó eljárásokról"
+        "description": "Panama Polgári Légiközlekedési Hatóságának hivatalos weboldala. Információk a drónregisztrációról, az RPAS-szabványról, valamint a hazai és külföldi üzemeltetőkre vonatkozó eljárásokról"
       },
       {
-        "title": "RACP – Panama polgári légiközlekedési szabályzata",
-        "description": "Hozzáférés Panama teljes polgári légiközlekedési szabályzatához. A pilóta nélküli légijárművekre (RPA) alkalmazandó szabályozás fejezete"
+        "title": "Norma AAC/DG/DSA/001-2021 — Távirányított légijárművek (RPAS)",
+        "description": "Az AAC-szabvány szövege, amely a távirányított légijármű-rendszerek (RPAS) panamai üzemeltetésének követelményeit határozza meg (PDF)"
       },
       {
         "title": "AAC albrooki iroda (személyes regisztráció szükséges)",
-        "description": "805-ös épület, Albrook, első emelet – Légiközlekedés-biztonsági Igazgatóság. A drónregisztrációt SZEMÉLYESEN kell elvégezni: vidd magaddal a személyazonosító okmányt, magát a drónt és a kitöltött űrlapot. Költség: US$5"
+        "description": "805-ös épület, Albrook, földszint – Dokumentációs Osztály. Nyújts be kérelmező levelet (vagy küldd el a correspondencia.aac@aeronautica.gob.pa címre); az AAC időpontot ad. Vidd magaddal a regisztrációs űrlapot, az RPA-engedélyed másolatát, a személyi igazolványodat, a műszaki adatokat, a számlát, a biztosítási kötvényt és a befizetési bizonylatot. Költség: US$20"
       },
       {
         "title": "AAC – Sajtóközlemények és hatályos szabályozás",
@@ -46,7 +48,7 @@
     "secondaryLinks": [
       {
         "title": "STRI/Smithsonian – AAC kutatási útmutató",
-        "description": "A Smithsonian Trópusi Kutatóintézet részletes útmutatója az AAC engedélyezési folyamatáról, beleértve a korlátozott területekre vonatkozó tájékozott beleegyezési nyilatkozatot"
+        "description": "A Smithsonian Trópusi Kutatóintézet részletes útmutatója az AAC engedélyezési folyamatáról, beleértve a korlátozott területekre vonatkozó tájékozott beleegyezési levelet"
       },
       {
         "title": "MiAmbiente – Védett területek (nemzeti parkok)",
@@ -54,10 +56,10 @@
       },
       {
         "title": "Panama-csatorna – Hivatalos információk",
-        "description": "A Panama-csatorna Hatósága. A csatorna medencéje kötelező tájékozott beleegyezési levelet igényel – enélkül az AAC nem ad engedélyt"
+        "description": "A Panama-csatorna Hatósága. A zsilipek, a gátak és az áthaladó hajók korlátozott területek (AIP ENR 5): az AAC és a terület felett illetékes hatóság engedélye szükséges"
       }
     ],
-    "disclaimerText": "Repülés előtt mindig ellenőrizd az AAC hivatalos forrásait. Ez az alkalmazás egy segédeszköz, nem jogi forrás. Panamában a polgári légiközlekedési szabályzat (RACP) van hatályban, amely tömegtől függő maximális magasságokat és a Panama-csatorna medencéje feletti különleges korlátozásokat tartalmaz.",
+    "disclaimerText": "Repülés előtt mindig ellenőrizd az AAC hivatalos forrásait. Ez az alkalmazás egy segédeszköz, nem jogi forrás. Panamában a Norma AAC/DG/DSA/001-2021 van érvényben, TÖMEGTŐL FÜGGŐ maximális magasságokkal és korlátozott területekkel a Panama-csatorna övezetében (AIP ENR 5).",
     "sectionLabelRules": "FŐBB SZABÁLYOK",
     "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
     "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",

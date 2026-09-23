@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "fca3bbf5a00a2bc5c8ae02d7f663df3d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb076b85a229a810666fd05392ea183d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Otsenähtavus (VLOS) on kohustuslik — maksimaalne horisontaalne kaugus 500 m",
-      "Vähemalt 50 m kaugusel inimestest, hoonetest ja sõidukitest",
-      "Püsi lennujaamadest vähemalt 10 km kaugusel — nõuet jõustatakse South Africa riigis rangelt. Enne lennujaama lähedal lendamist kontrolli täpset kehtivat vahemaad asutusest SACAA.",
-      "Drooni lennutamiseks Kruger või mõnes muus South African rahvuspargis on vaja SANParks sõnaselget luba (NEMA Protected Areas Act) — ilma loata on keelatud lennata madalamal kui 2,500 ft pargi kõrgeimast punktist. Eraldi võib mis tahes UAV käitamine South African õhuruumis tsiviillennunduseeskirju järgimata kaasa tuua kuni R50,000 trahvi ja/või kuni 10 aastat vangistust.",
+      "Max 150 ft (45 m) maapinnast — ja püsi madalamal kui kõrgeim takistus 300 m raadiuses (piiratud VLOS)",
+      "Vähemalt 50 m kaugusel inimestest, avalikest teedest ja hoonetest (kui omanik ei luba teisiti) — ära kunagi lenda otse kellegi kohal",
+      "Hoia mis tahes lennuväljast vähemalt 10 km kaugusele — lennujaamad, lennuväljad ja kopteriplatvormid (sealhulgas majutusasutuste erastardirajad). Lõuna-Aafrikas jõustatakse rangelt.",
+      "Lendamine keelatud kontrollitavas, piiratud või keelatud õhuruumis ning vanglate, politseijaoskondade, kuriteopaikade, kohtute, tuumaelektrijaamade või riiklike võtmeobjektide (national key points) lähedal/kohal",
+      "Madalamal kui 2 500 ft üle mis tahes rahvuspargi (sealhulgas Kruger), erilooduskaitseala või maailmapärandi objekti kõrgeima punkti lendamine nõuab selle ala enda haldusasutuse eelnevat kirjalikku luba (Protected Areas Act s47) — mitte ainult SANParksi parkides. Eraldi võib tsiviillennundusreeglite rikkumine kaasa tuua trahvi ja/või kuni 10-aastase vangistuse.",
       "Lennata tohib ainult päevavalges ja selgete ilmaoludega",
-      "Harrastuslennuks ei ole vaja registreerimist ega litsentsi",
-      "Äriliseks kasutuseks on vaja RPC (Remote Pilot Certificate), ROC ja RLA",
+      "Alla 7 kg droonidega eraviisiliseks, mitteäriliseks lendamiseks ei ole vaja registreerimist ega litsentsi (ainult piiratud VLOS)",
+      "Eralennud ainult sinule kuuluva kinnistu kohal või kinnistu kohal, mille kohal lendamiseks on sul omaniku luba",
+      "Igasugune mitte-eraviisiline kasutus (äriline, ettevõtte või mittetulunduslik) nõuab Remote Pilot Licence'it (RPL), UAS Operating Certificate'it (UASOC, varem ROC), RPAS Letter of Approvalit (RLA) ja SACAA registreeringut (C of R); äriline kasutus nõuab ka Air Service Licence'it (ASL)",
       "Kindlustus on üldjuhul nõutav ainult ärilisteks operatsioonideks — enne ärilist kasutust kontrolli SACAA kehtivaid nõudeid.",
       "Ära lenda inimeste kogunemiste ega avalike ürituste kohal"
     ],
     "importantNotes": [
-      "Mis tahes rahvuspargis (sealhulgas Kruger) ilma SANParks loata lendamine rikub NEMA Protected Areas Act ning UAV käitamine tsiviillennunduseeskirju järgimata võib eraldi kaasa tuua kuni R50,000 trahvi ja/või 10 aastat vangistust.",
+      "Madalamal kui 2 500 ft mis tahes rahvuspargi (sealhulgas Kruger) kohal lendamine ilma pargi haldusasutuse eelneva kirjaliku loata on Protected Areas Acti kohaselt süütegu — esmakordse rikkumise eest kuni R5 miljonit ja/või 5-aastane vangistus (korduva rikkumise eest R10 miljonit ja/või 10 aastat). Tsiviillennundusreeglite rikkumine võib eraldi kaasa tuua trahvi ja/või kuni 10-aastase vangistuse.",
       "South Africa 10 km lennujaamatsoon on palju rangem kui enamikus riikides tavapärane 3-9 km — kontrolli kehtivat vahemaad asutusest SACAA.",
-      "Ärioperaatorid vajavad kolme eraldi sertifikaati: RPC, ROC ja RLA",
+      "Ettevõtete ja mittetulundusühingute käitajad vajavad samu lube kui ärilised käitajad — RPL, UASOC (varem ROC), RLA ja C of R; ainult Air Service Licence (ASL) on mõeldud üksnes äriliseks kasutuseks",
       "Rikkumiste eest võidakse algatada kriminaalmenetlus"
     ],
     "primaryLinks": [
@@ -36,7 +39,7 @@
     "secondaryLinks": [
       {
         "title": "SACAA — Äriline litsentseerimine",
-        "description": "RPC, ROC ja RLA nõuded ärilistele droonioperatsioonidele"
+        "description": "RPL, UASOC, RLA, C of R ja ASL nõuded mitte-eraviisilistele droonikäitamistele"
       }
     ],
     "disclaimerText": "Kontrolli enne lendamist alati SACAA ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Reeglid võivad muutuda ette teatamata.",

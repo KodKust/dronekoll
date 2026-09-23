@@ -1,61 +1,65 @@
 {
   "meta": {
-    "sourceHash": "6bd279870909de9539cac55440892030da06bb4b119368a297585876f27098df",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e631818b431dccaf473ebde5f460a6b9eb0f571b8775190b265998e6821bc00d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Yerden en fazla 120 m (EASA Open Kategorisi)",
-      "Dron 250 g veya daha ağırsa ya da kamerası varsa UAS operatörü olarak kaydolun (ücretsiz)",
-      "A1/A3 çevrim içi eğitim gereklidir — asgari yaş 16",
-      "Kısıtlı arkeolojik alanlar: Akropolis, Delfi, Olimpiya ve diğerleri",
-      "Dronu her zaman doğrudan görüş hattınızda (VLOS) tutun",
+      "Açık kategoride azami yükseklik 120 m'dir ve yeryüzünün en yakın noktasına olan mesafe olarak ölçülür — yalnızca dümdüz aşağıya doğru değil; bu nedenle bir yamacın yakınında yanınızdaki zemin de hesaba katılabilir. Yüksek bir yapay engelin (105 m'den yüksek) 50 m yakınında, engelden sorumlu kuruluş engelin yüksekliğinin 15 m üzerine kadar uçmak için izin talep edebilir.",
+      "Dronunuz 250 g veya daha ağırsa (ya da çarpma anında 80 J'den fazla kinetik enerji aktarabilecekse) dron operatörü olarak kaydolmanız gerekir — bu oyuncaklar için bile geçerlidir. 250 g'ın altında, dronda kişisel veri toplayabilen bir sensör varsa, AB Oyuncak Güvenliği Direktifi kapsamında oyuncak sayılmadıkça kayıt yine de gereklidir. Pilot eğitimi/sertifika gereklilikleri ayrıdır ve dronun sınıfına ve alt kategorisine bağlıdır.",
+      "Operatör kayıt numaranız tüm dronlarınıza yapıştırılmalı ve dronda varsa uzaktan tanımlama sistemine (Remote ID) girilmelidir. Yunanistan'da kayıt 3 yıl sonra yenilenir.",
+      "AB/EASA dışı ülkelerden gelen ziyaretçiler: dronunuz kayıt gerektiriyorsa (yukarıya bakın) ve başka bir EASA devletinde zaten kayıtlı değilseniz, uçmadan önce Yunanistan'da kaydolun (Yunan vergi numarası (AFM) olmadan: HCAA web sitesinde pasaportla özel başvuru). Başka bir EASA devletinde ikamet edenler ikamet ettikleri ülkede kaydolur. AB dışı ülkelerin eğitim ve pilot sertifikaları AB'de tanınmaz.",
+      "Profesyonel olarak kullanılan her dron ve özel olarak kullanılan 4 kg ve üzeri dronlar için üçüncü şahıs sorumluluk sigortası gereklidir (ulusal mevzuat).",
+      "Yunanistan'da asgari yaş 16'dır — A1 alt kategorisinde oyuncak olan C0 sınıfı bir dronu veya 250 g'ın altındaki kendi yapımı bir dronu uçurmak için ya da sertifikalı bir pilotun doğrudan gözetimi altında yaş şartı aranmaz.",
+      "Akropolis, Delfi ve Olimpia gibi alanlar Sarı/Eflatun bölgeler içindedir — belirli alana bağlı olarak uçuşlara koşullu izin verilir veya uçuşlar tamamen yasaktır ve en az 5 iş günü önceden HCAA'dan onay alınması gerekir.",
+      "Açık kategoride dronu çıplak gözle doğrudan görüş hattınızda tutmalısınız (gözlük/kontakt lens sorun değildir; dürbün veya ekran sayılmaz) — ya da bir gözlemcinin yardımıyla uçmalısınız; hava sahasını birlikte izleyip çarpışmaları önleyebilmeniz için aranızda her zaman açık ve etkili iletişim olmalıdır. Follow-me modu ayrı bir istisnadır ve pilottan 50 m'ye kadar izin verilir.",
       "İnsan topluluklarının üzerinden uçmayın. Operasyona dahil olmayan kişilerle ilgili kurallar alt kategoriye, sınıf işaretine ve operasyon koşullarına bağlıdır; resmî matrisi kontrol edin.",
-      "Her havalimanından en az 8 km uzakta kalın",
+      "Havalimanlarından uzak durmanız gereken AB genelinde tek bir mesafe yoktur. Havalimanlarının yakınındaki kısıtlamalar, şekli ve boyutu havalimanından havalimanına değişen coğrafi bölgeler (Madde 15) olarak yayımlanır. Bir havalimanı, hava meydanı veya helikopter pistinin yakınında uçmadan önce ülkenizin resmî dron bölgesi haritasını kontrol edin; bir kontrol bölgesi (CTR) içinde uçmak normalde hava trafik kontrolünden önceden izin gerektirir.",
       "Gerekli yanıp sönen yeşil ışık kullanıldığında, yürürlükteki bir coğrafi bölge veya ulusal kural daha katı bir koşul getirmediği sürece EASA açık kategori temel kuralları kapsamında gece uçuşuna izin verilir.",
       "Ada havalimanları: DAGR haritasını dikkatlice kontrol edin — birçok adanın büyük CTR'leri vardır"
     ],
     "importantNotes": [
-      "Arkeolojik alanlarda ve kültürel miras anıtlarında uçuş kesinlikle yasaktır — ağır para cezaları uygulanır",
+      "Orman yangınları: NOTAM ile belirlenen bölgelerde uçmak yasaktır. Havadan yangın söndürme araçları görürseniz veya bölgedeki bir yangınla ilgili 112 mesajı alırsanız uçuşu derhal durdurun ve iniş yapın. İhlaller: para cezası, cezai kovuşturma, drona el konulması.",
+      "Arkeolojik alanlar ve kültürel miras anıtları HCAA'dan önceden onay gerektirir (en az 5 iş günü önceden) — her zaman tamamen yasak değildirler, ancak sıkı denetime tabidirler.",
       "Ada havalimanları geniş kısıtlı bölgeler oluşturur",
-      "Askeri tesisler: uçuşun kesinlikle yasak olduğu bölgeler (bunların çoğu adalardadır)",
+      "HCAA'dan önceden izin almadan limanların, hastanelerin, enerji ve telekomünikasyon tesislerinin veya askeri ya da resmî tesislerin üzerinde uçmayın — bazı askeri ve resmî tesisler DAGR haritasında tamamen uçuşa yasak bölgelerdir (birçoğu adalarda). İhlaller para cezalarına, cezai yaptırımlara ve ekipmana el konulmasına yol açabilir.",
       "Belirlenebilir kişiler kaydedildiğinde GDPR geçerlidir"
     ],
     "primaryLinks": [
       {
         "title": "HCAA — Dronlara İlişkin Mevzuat",
-        "description": "Sivil Havacılık Otoritesi'nin dronlara ilişkin resmî kuralları ve bilgileri"
+        "description": "Hellenic Civil Aviation Authority'nin (HCAA) dronlara ilişkin resmî kuralları ve bilgileri"
       },
       {
-        "title": "HCAA — Pilot Kaydı",
-        "description": "UAS operatörü olarak ücretsiz kayıt (tüm AB/EASA ülkelerinde geçerli)"
+        "title": "HCAA – Operatör Kaydı",
+        "description": "UAS operatörü olarak kayıt (Yunanistan'da ikamet edenler için, 20 € ücretle; kayıt numarası tüm AB/EASA ülkelerinde geçerlidir)"
       },
       {
         "title": "DAGR — Dron Hava Sahası Haritası",
         "description": "Yunanistan'da dron uçuşlarına ilişkin kısıtlamaların resmî coğrafi haritası"
       },
       {
-        "title": "HCAA — Uçuş Bildirimi",
-        "description": "5 gün önceden uçuş bildirimi sunumu (her uçuş için gereklidir)"
+        "title": "HCAA – Uçuş Onayı Başvurusu (DAGR bölgeleri)",
+        "description": "Sarı/eflatun DAGR bölgelerindeki uçuşların onayı için başvuru (en az 5 iş günü önceden)"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "HASP — Hava Sporları",
-        "description": "Yunan Hava Sporları Federasyonu ve hobi amaçlı uçuş bilgisi"
+        "title": "HASP – Hava Seyrüsefer Hizmet Sağlayıcısı",
+        "description": "Yunanistan hava seyrüsefer hizmet sağlayıcısı – DAGR ve NOTAM'ların işletmecisi"
       },
       {
         "title": "HCAA — Dronlar Hakkında Sıkça Sorulan Sorular",
         "description": "Yunanistan'da dron mevzuatı hakkında sıkça sorulan sorular"
       }
     ],
-    "disclaimerText": "Her uçuştan önce Hellenic Civil Aviation Authority'nin (HCAA) resmî kaynaklarını ve DAGR haritasını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Yunanistan, uçuşu 5 gün önceden bildirme zorunluluğu da dahil olmak üzere ulusal eklerle EASA mevzuatını uygular.",
-    "sectionLabelRules": "TEMEL KURALLAR (EASA OPEN SINIFI)",
+    "disclaimerText": "Her uçuştan önce her zaman Hellenic Civil Aviation Authority'nin (HCAA) resmî kaynaklarını ve DAGR haritasını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Yunanistan, diğerlerinin yanı sıra koşullu olarak uçuşa izin verilen sarı/eflatun DAGR bölgelerindeki uçuşlar için en az 5 iş günü önceden HCAA'ya başvuru yapılması dahil ulusal eklerle EASA mevzuatını uygular.",
+    "sectionLabelRules": "TEMEL KURALLAR (EASA OPEN KATEGORİSİ)",
     "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
     "sectionLabelSecondary": "EK KAYNAKLAR",
     "linksSheetTitle": "Hava Sahası ve Mevzuat — Yunanistan",
-    "dronePilotCredentialName": "Operatör Sertifikası"
+    "dronePilotCredentialName": "Uzaktan Pilot Sertifikası"
   }
 }

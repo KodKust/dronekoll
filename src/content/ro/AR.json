@@ -1,30 +1,32 @@
 {
   "meta": {
-    "sourceHash": "64c56f7cd237868e12b4a9acebacfc1c7ed47d9c27e97af77b28d123a7822c74",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "9cca66a7c2aad0d0dc5edac3e33625910a5e790c5cdccb45c10be1fbd9252627",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Altitudine maximă: 122 m (400 ft) deasupra nivelului solului în categoria Open (spațiu aerian necontrolat)",
-      "În apropierea aeroporturilor (≤5 km): înălțime maximă de 43 m fără autorizarea prealabilă a furnizorului de servicii de navigație aeriană",
-      "Distanță minimă de 5 km față de aeroporturi și aerodromuri fără autorizare",
-      "Distanță minimă de 500 m față de heliporturi",
-      "O distanță sigură față de persoanele neimplicate și de clădiri",
+      "Categoria Open: zborul în zonele de control ale aerodromurilor (CTR) este interzis. În spațiul aerian controlat, pe o rază de 5 km de pragurile pistelor: maximum 43 m și niciodată în suprafețele de apropiere sau de decolare; o înălțime mai mare necesită autorizarea furnizorului de servicii de navigație aeriană.",
+      "Heliporturi: zborul pe o rază de 1 milă marină (1,85 km) de punctul de referință (HRP) este interzis; între 1 și 2 mile marine, maximum 150 ft (46 m) deasupra heliportului, cu excepția cazului în care zborul este coordonat în prealabil.",
+      "Este interzis zborul deasupra instalațiilor militare, de securitate sau penitenciare și pe o rază de 1 milă marină (1,85 km) de acestea; deasupra rafinăriilor, centralelor electrice sau depozitelor de combustibil fără permisiunea proprietarului; și la mai puțin de 25 m (pe verticală sau lateral) de liniile electrice de înaltă tensiune.",
+      "Trebuie să păstrezi o distanță sigură față de persoanele și clădirile neimplicate în operațiune.",
       "Menține întotdeauna contactul vizual direct (VLOS) cu drona în categoria Open",
-      "Zbor permis doar pe timp de zi — zborurile de noapte necesită o autorizație specifică",
-      "Drone cu o greutate de sub 250 g: scutite de înregistrare și de licențiere (Rezoluția 550/2025)",
-      "Drone cu o greutate de ≥250 g: înregistrare obligatorie la TAD (ANAC) — nu este necesară o licență de pilot în categoria Open",
+      "Este interzis să pilotezi sau să acționezi ca observator în decurs de 8 ore de la consumul de alcool sau sub influența substanțelor psihoactive.",
+      "Zboruri de noapte: Rez. ANAC 312/2026 (mai 2026) a eliminat restricția generală din RAAC 100; ghidul ANAC încă încadrează operațiunile de noapte în categoria Specifică — verifică la ANAC înainte de a zbura noaptea.",
+      "Dronele cu o greutate de sub 250 g sunt scutite de înregistrare, licență și asigurare obligatorie (Rezoluția 550/2025, august 2025). Dronele între 250 g și 25 kg nu necesită licență de pilot, dar trebuie înregistrate digital la ANAC în Casillero Aeronáutico Digital (CAD).",
+      "Drone cu o greutate de ≥250 g: înregistrare obligatorie în CAD (ANAC) — nu este necesară o licență de pilot în categoria Open",
       "Operațiunile din categoria Specifică (25–150 kg sau zboruri urbane/BVLOS): necesită o licență de pilot, un certificat medical și un certificat de operator comercial",
-      "Categoria Open permite drone cu o greutate de sub 25 kg fără autorizare prealabilă (fără limită de greutate în zonele rurale)"
+      "Categoria Open permite drone de la 250 g până la sub 25 kg fără autorizare prealabilă (dronele cu aripi rotative fără limită de greutate doar în zonele rurale, în afara CTR-urilor și a spațiului aerian restricționat)"
     ],
     "importantNotes": [
-      "📜 NOUL CADRU 2025: Rezoluția ANAC 550/2025 (în vigoare din august 2025) înlocuiește Rezoluția 880/2019. Aceasta stabilește trei categorii: operațiuni fără autorizare prealabilă, categoria Open și categoria Specifică. RAAC Part 100/101/102.",
-      "✈️ TURIȘTI STRĂINI: Dronele cu o greutate de 250 g sau mai mult trebuie înregistrate la TAD înainte de primul zbor (Rezoluția 550/2025). Înregistrarea se face online; este necesar un act de identitate argentinian sau un pașaport. Dronele cu o greutate de sub 250 g — precum DJI Mini, Flip etc. — sunt scutite de înregistrare și de licențiere.",
-      "🌳 PARCURI NAȚIONALE ȘI ZONE PROTEJATE: APN (Administrația Parcurilor Naționale) interzice dronele fără un permis special în parcuri precum Iguazú, Nahuel Huapi, Los Glaciares și Tierra del Fuego. Verifică regulile fiecărui parc înainte de zbor.",
-      "🏛️ ZONE URBANE ȘI RESTRICȚIONATE: Buenos Aires (Aeroportul Jorge Newbery, Casa Rosada, Congresul), Ezeiza (Ministro Pistarini) și zonele militare sunt zone de interdicție de zbor. Aerolíneas Argentinas și zonele centrale au restricții permanente — verifică AIP.",
-      "💰 SANCȚIUNI: Încălcările pot atrage amenzi considerabile, confiscarea echipamentului și, în cazuri grave, răspundere penală. Pentru utilizarea comercială este necesară o asigurare de răspundere civilă."
+      "📜 NOUL CADRU: Rezoluția ANAC 550/2025 (în vigoare din august 2025, modificată prin Rez. 312/2026) înlocuiește Rezoluția 880/2019. Aceasta stabilește trei categorii: Open, Specifică și Certificată. RAAC Part 100/101/102.",
+      "Dronele de 250 g sau mai mult trebuie înregistrate la ANAC în Casillero Aeronáutico Digital (CAD) înainte de primul zbor — înregistrarea este gratuită, online și necesită un DNI sau un pașaport. Dronele cu o greutate de sub 250 g (de ex. DJI Mini sau Flip) sunt scutite de înregistrare și licență (Rezoluția 550/2025).",
+      "Turiști: se acceptă un certificat de înregistrare valabil pentru drona respectivă, emis de autoritatea aviației civile a unui alt stat ICAO (RAAC 100.05); o înregistrare doar ca operator s-ar putea să nu fie suficientă. Dacă drona ta nu este înregistrată, completează la ANAC declarația pe propria răspundere digitală gratuită (Declaración Jurada) folosind pașaportul.",
+      "🌳 PARCURI NAȚIONALE ȘI ARII PROTEJATE: APN interzice utilizarea recreativă și sportivă a dronelor în toate ariile sale protejate (Rez. APN 9/2021), precum Iguazú, Nahuel Huapi, Los Glaciares sau Tierra del Fuego. Utilizarea profesională sau științifică necesită autorizarea prealabilă a APN.",
+      "🏛️ ZONE RESTRICȚIONATE: este interzis zborul deasupra Casa Rosada, Quinta de Olivos, clădirilor publice și ambasadelor, pe o rază de 1 milă marină de instalațiile militare și în zonele de control ale aeroporturilor precum Aeroparque și Ezeiza — verifică AIP.",
+      "💰 SANCȚIUNI: încălcările se sancționează conform Reglamento General de Infracciones de la Aviación Civil, fără a aduce atingere răspunderii civile sau penale. Asigurarea este obligatorie în categoriile Specifică și Certificată (voluntară în categoria Open)."
     ],
     "primaryLinks": [
       {
@@ -32,8 +34,8 @@
         "description": "Site-ul oficial al Administrației Naționale a Aviației Civile privind dronele (VANT/SVANT): noul cadru de reglementare — Rezoluția 550/2025, categoriile și cerințele de operare"
       },
       {
-        "title": "Înregistrarea dronei (TAD)",
-        "description": "Sistem de înregistrare obligatorie pentru dronele cu o greutate de peste 500 g prin platforma Trámites a Distancia (TAD). Utilizarea recreativă din clasa A (≤500 g) este scutită."
+        "title": "Înregistrarea dronelor (CAD)",
+        "description": "Declarație pe propria răspundere digitală gratuită (Declaración Jurada) pentru dronele între 250 g și 25 kg în Casillero Aeronáutico Digital (CAD) al ANAC; se emite un certificat de înregistrare digital. Dronele sub 250 g sunt scutite."
       },
       {
         "title": "AIP — publicarea informațiilor aeronautice",
@@ -50,19 +52,19 @@
         "description": "Certificat de operator aerian pentru operațiunile comerciale cu drone. Necesar pentru categoria Specifică și pentru zborurile profesionale"
       },
       {
-        "title": "Certificare ca membru al echipajului la distanță (pilot)",
-        "description": "Procedură pentru obținerea autorizației de pilot la distanță. Examene și cerințe pentru certificarea profesională"
+        "title": "Autorizare ca membru al echipajului la distanță (pilot)",
+        "description": "Procedura de obținere a autorizării ca pilot la distanță. Examene și cerințe pentru certificarea profesională"
       },
       {
         "title": "Noul cadru de reglementare (rezumat oficial)",
         "description": "Rezumatul oficial al ANAC privind noul cadru de reglementare pentru drone în urma Rezoluției 550/2025: principalele modificări și categorii"
       }
     ],
-    "disclaimerText": "Verifică întotdeauna sursele oficiale ale ANAC înainte de zbor. Această aplicație este un instrument, nu o autoritate juridică. Argentina aplică Rezoluția ANAC 550/2025 (RAAC Part 100/101/102), în vigoare din august 2025.",
+    "disclaimerText": "Verifică întotdeauna sursele oficiale ale ANAC înainte de zbor. Această aplicație este un instrument, nu o autoritate juridică. Argentina aplică Rezoluția ANAC 550/2025 (RAAC Part 100/101/102), în vigoare din august 2025 și modificată prin Rezoluția ANAC 312/2026.",
     "sectionLabelRules": "REGULI ESENȚIALE",
     "sectionLabelPrimary": "SURSE OFICIALE",
     "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
     "linksSheetTitle": "Spațiu aerian și reglementări — Argentina",
-    "dronePilotCredentialName": "Certificat de pilot de UAV"
+    "dronePilotCredentialName": "Licență de pilot la distanță (RPA)"
   }
 }

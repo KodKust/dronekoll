@@ -1,30 +1,32 @@
 {
   "meta": {
-    "sourceHash": "64c56f7cd237868e12b4a9acebacfc1c7ed47d9c27e97af77b28d123a7822c74",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "sourceHash": "9cca66a7c2aad0d0dc5edac3e33625910a5e790c5cdccb45c10be1fbd9252627",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Altitude máxima: 122 m (400 ft) acima do nível do solo na Categoria Aberta (espaço aéreo não controlado)",
-      "Perto de aeroportos (≤5 km): altura máxima de 43 m sem autorização prévia do prestador de serviços de navegação aérea",
-      "Distância mínima de 5 km de aeroportos e aeródromos sem autorização",
-      "Distância mínima de 500 m de heliportos",
-      "Uma distância segura de pessoas e edifícios não envolvidos",
+      "Categoria Aberta: é proibido voar dentro das zonas de controlo de aeródromo (CTR). Em espaço aéreo controlado, a menos de 5 km das cabeceiras da pista: máximo de 43 m e nunca nas superfícies de aproximação ou de descolagem; uma altura superior exige autorização do prestador de serviços de navegação aérea.",
+      "Heliportos: é proibido voar a menos de 1 milha náutica (1,85 km) do ponto de referência (HRP); entre 1 e 2 milhas náuticas, máximo de 150 ft (46 m) acima do heliporto, salvo coordenação prévia.",
+      "É proibido voar sobre instalações militares, de segurança ou prisionais e a menos de 1 milha náutica (1,85 km) delas; sobre refinarias, centrais elétricas ou depósitos de combustível sem autorização do proprietário; e a menos de 25 m (na vertical ou na horizontal) de linhas elétricas de alta tensão.",
+      "Deve manter uma distância segura de pessoas e edifícios não envolvidos na operação.",
       "Mantenha sempre o drone dentro da linha de vista direta (VLOS) na Categoria Aberta",
-      "Voo permitido apenas durante o dia — os voos noturnos exigem autorização específica",
-      "Drones com peso inferior a 250 g: isentos de registo e de licenciamento (Resolução 550/2025)",
-      "Drones com peso ≥250 g: registo obrigatório junto do TAD (ANAC) — não é necessária licença de piloto na Categoria Aberta",
+      "É proibido pilotar ou atuar como observador nas 8 horas seguintes ao consumo de álcool ou sob a influência de substâncias psicoativas.",
+      "Voos noturnos: a Res. ANAC 312/2026 (maio de 2026) eliminou a restrição geral do RAAC 100; as orientações da ANAC continuam a incluir as operações noturnas na Categoria Específica — confirme junto da ANAC antes de voar à noite.",
+      "Os drones com peso inferior a 250 g estão isentos de registo, licença e seguro obrigatório (Resolução 550/2025, agosto de 2025). Os drones de 250 g a 25 kg não exigem licença de piloto, mas devem ser registados digitalmente junto da ANAC no Casillero Aeronáutico Digital (CAD).",
+      "Drones com peso ≥250 g: registo obrigatório junto do CAD (ANAC) — não é necessária licença de piloto na Categoria Aberta",
       "Operações na Categoria Específica (25–150 kg ou voos urbanos/BVLOS): exigem licença de piloto, certificação médica e um certificado de operador comercial",
-      "A Categoria Aberta permite drones com peso inferior a 25 kg sem autorização prévia (sem limite de peso em zonas rurais)"
+      "A Categoria Aberta permite drones de 250 g até menos de 25 kg sem autorização prévia (drones de asa rotativa sem limite de peso apenas em zonas rurais, fora das CTR e de espaço aéreo restrito)"
     ],
     "importantNotes": [
-      "📜 NOVO QUADRO REGULAMENTAR 2025: a Resolução ANAC 550/2025 (em vigor desde agosto de 2025) substitui a Resolução 880/2019. Estabelece três categorias: operações sem autorização prévia, Categoria Aberta e Categoria Específica. RAAC Parte 100/101/102.",
-      "✈️ TURISTAS ESTRANGEIROS: os drones com peso igual ou superior a 250 g devem ser registados junto do TAD antes do primeiro voo (Resolução 550/2025). O registo é feito online; é necessário um documento de identidade argentino ou um passaporte. Os drones com peso inferior a 250 g — como o DJI Mini, Flip, etc. — estão isentos de registo e de licenciamento.",
-      "🌳 PARQUES NACIONAIS E ÁREAS PROTEGIDAS: a APN (Administração de Parques Nacionais) proíbe drones sem autorização especial em parques como Iguazú, Nahuel Huapi, Los Glaciares e Tierra del Fuego. Consulte cada parque antes de voar.",
-      "🏛️ ZONAS URBANAS E RESTRITAS: Buenos Aires (Aeroporto Jorge Newbery, Casa Rosada, Congresso), Ezeiza (Ministro Pistarini) e as zonas militares são zonas de proibição de voo. A Aerolíneas Argentinas e as zonas centrais têm restrições permanentes — consulte a AIP.",
-      "💰 SANÇÕES: as infrações podem resultar em multas avultadas, apreensão do equipamento e, em casos graves, responsabilidade criminal. O seguro de responsabilidade civil é obrigatório para uso comercial."
+      "📜 NOVO QUADRO REGULAMENTAR: a Resolução ANAC 550/2025 (em vigor desde agosto de 2025, alterada pela Res. 312/2026) substitui a Resolução 880/2019. Estabelece três categorias: Aberta, Específica e Certificada. RAAC Part 100/101/102.",
+      "Os drones com peso igual ou superior a 250 g devem ser registados junto da ANAC no Casillero Aeronáutico Digital (CAD) antes do primeiro voo — o registo é gratuito, feito online e exige DNI ou passaporte. Os drones com menos de 250 g (p. ex., DJI Mini ou Flip) estão isentos de registo e de licença (Resolução 550/2025).",
+      "Turistas: é aceite um certificado de registo válido desse drone emitido pela autoridade de aviação civil de outro Estado da OACI (RAAC 100.05); um registo apenas do operador pode não ser suficiente. Se o seu drone não estiver registado, preencha a declaração digital gratuita sob compromisso de honra (Declaración Jurada) junto da ANAC com o seu passaporte.",
+      "🌳 PARQUES NACIONAIS E ÁREAS PROTEGIDAS: a APN proíbe o uso recreativo e desportivo de drones em todas as suas áreas protegidas (Res. APN 9/2021), como Iguazú, Nahuel Huapi, Los Glaciares ou Tierra del Fuego. O uso profissional ou científico exige autorização prévia da APN.",
+      "🏛️ ZONAS RESTRITAS: é proibido voar sobre a Casa Rosada, a Quinta de Olivos, edifícios públicos e embaixadas, a menos de 1 milha náutica de instalações militares e dentro das zonas de controlo de aeroportos como Aeroparque e Ezeiza — consulte o AIP.",
+      "💰 SANÇÕES: as infrações são punidas ao abrigo do Reglamento General de Infracciones de la Aviación Civil, sem prejuízo da responsabilidade civil ou penal. O seguro é obrigatório nas Categorias Específica e Certificada (facultativo na Categoria Aberta)."
     ],
     "primaryLinks": [
       {
@@ -32,8 +34,8 @@
         "description": "Site oficial da Administração Nacional de Aviação Civil sobre drones (VANT/SVANT): novo quadro regulamentar — Resolução 550/2025, categorias e requisitos operacionais"
       },
       {
-        "title": "Registo de Drones (TAD)",
-        "description": "Sistema de registo obrigatório para drones com peso superior a 500 g através da plataforma Trámites a Distancia (TAD). O uso recreativo da Classe A (≤500 g) está isento."
+        "title": "Registo de drones (CAD)",
+        "description": "Declaração digital gratuita sob compromisso de honra (Declaración Jurada) para drones de 250 g a 25 kg no Casillero Aeronáutico Digital (CAD) da ANAC; é emitido um Certificado de Registo digital. Os drones com menos de 250 g estão isentos."
       },
       {
         "title": "AIP — Publicação de Informação Aeronáutica",
@@ -50,19 +52,19 @@
         "description": "Certificado de Operador Aéreo para operações comerciais de drones. Obrigatório para a Categoria Específica e para voos profissionais"
       },
       {
-        "title": "Certificação como Membro de Tripulação Remota (Piloto)",
-        "description": "Procedimento para obter autorização como piloto remoto. Exames e requisitos para a certificação profissional"
+        "title": "Autorização como membro da tripulação remota (piloto)",
+        "description": "Procedimento para obter a autorização como piloto remoto. Exames e requisitos para a certificação profissional"
       },
       {
         "title": "Novo Quadro Regulamentar (Resumo Oficial)",
         "description": "Resumo oficial da ANAC sobre o novo quadro regulamentar para drones na sequência da Resolução 550/2025: principais alterações e categorias"
       }
     ],
-    "disclaimerText": "Verifique sempre as fontes oficiais da ANAC antes de voar. Esta aplicação é uma ferramenta, não uma autoridade legal. A Argentina aplica a Resolução ANAC 550/2025 (RAAC Parte 100/101/102), em vigor desde agosto de 2025.",
+    "disclaimerText": "Verifique sempre as fontes oficiais da ANAC antes de voar. Esta aplicação é uma ferramenta, não uma autoridade legal. A Argentina aplica a Resolução ANAC 550/2025 (RAAC Part 100/101/102), em vigor desde agosto de 2025 e alterada pela Resolução ANAC 312/2026.",
     "sectionLabelRules": "REGRAS PRINCIPAIS",
     "sectionLabelPrimary": "FONTES OFICIAIS",
     "sectionLabelSecondary": "RECURSOS ADICIONAIS",
     "linksSheetTitle": "Espaço aéreo e regulamentação — Argentina",
-    "dronePilotCredentialName": "Certificado de Piloto de UAV"
+    "dronePilotCredentialName": "Licença de Piloto Remoto (RPA)"
   }
 }

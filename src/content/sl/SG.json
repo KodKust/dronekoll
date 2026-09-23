@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "56c3153444a663787bfd0ce0f2337746",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,20 +14,23 @@
     "dronePilotCredentialName": "Pilotska licenca UA",
     "keyRules": [
       "Standardna največja višina je 200 ft (60 m AMSL) — 400 ft (122 m) za licencirane komercialne upravljavce v določenih conah več kot 6 km od letališča. Pred uporabo višje omejitve preverite aktualne karte con in pogoje.",
-      "Brezpilotni zrakoplov morate registrirati pri CAAS, če tehta več kot 250 g. Registracija stane 25 SGD in ne poteče — posodobiti ali preklicati jo morate le, če je dron izgubljen, poškodovan ali prodan oziroma če njegova identifikacijska nalepka postane nečitljiva.",
-      "Za komercialno/poklicno uporabo ali za vsak dron, težji od 7 kg, ne glede na namen, je potrebna UA Pilot Licence (UAPL). Class B UAPL velja za lažje komercialne drone pod 7 kg.",
-      "Ostanite najmanj 5 km od letališč in vojaških letalskih baz — pred letenjem v bližini katere koli letalske baze preverite natančno trenutno veljavno razdaljo.",
+      "Brezpilotni zrakoplov morate registrirati pri CAAS, če tehta več kot 250 g. Registracija stane 25 SGD in ne poteče — posodobiti ali preklicati jo morate le, če je dron izgubljen, poškodovan ali prodan oziroma če njegova identifikacijska nalepka postane nečitljiva. Za registracijo morate biti stari najmanj 16 let; za mlajše pilote mora dron registrirati starš ali skrbnik.",
+      "Za rekreativno letenje na prostem z dronom nad 1,5 kg do 7 kg je potreben UA Basic Training Certificate (enkratni, približno 2-urni tečaj pri organizaciji, ki jo je odobril CAAS) ali UAPL, pilot pa mora biti star najmanj 16 let.",
+      "UA Pilot Licence (UAPL) je potrebna za vsako komercialno/poklicno uporabo ne glede na težo in za vsak dron, težji od 7 kg, ne glede na namen. Class A UAPL velja za drone do 25 kg; Class B UAPL je za določene modele nad 25 kg. Tujih licenc za drone ni mogoče pretvoriti v UAPL.",
+      "Ostanite najmanj 5 km od letališč in vojaških letalskih baz, razen če imate za to CAAS Activity Permit — pred letenjem v bližini katere koli letalske baze preverite natančno trenutno veljavno razdaljo.",
+      "Letenje z dronom v Singapur ali iz njega (npr. čez Johorsko ožino) je brez čezmejnega dovoljenja CAAS nezakonito, ne glede na težo drona.",
       "Broadcast Remote ID (B-RID) je od 1. decembra 2025 obvezen za UA nad 250 g, razen za UA, ki se uporabljajo v zaprtih prostorih ali ograjenih območjih, oziroma kadar ima upravljavec Operator Permit in uporablja aplikacijo FlyItSafe.",
       "Nočno letenje je dovoljeno le, če je vključena zahtevana osvetlitev in je ves čas ohranjen VLOS; za letenje zunaj vidnega polja sta potrebna Operator Permit in Class 1 Activity Permit.",
       "Vedno ohranjajte neposreden vidni stik (VLOS)",
-      "Za letenje v omejenih območjih je potrebno dovoljenje za dejavnost",
+      "Za rekreativne lete (dron do 25 kg) je potreben CAAS Class 2 Activity Permit za letenje višje od 200 ft nad srednjo morsko gladino, v krogu 5 km od katerega koli letališča ali vojaške letalske baze ali v katerem koli omejenem ali nevarnem območju. Za zaščitena območja je potrebno tudi dovoljenje Singapore Police Force. Letenje v prepovedanih območjih ni nikoli dovoljeno.",
       "Kazni so stopnjevane: ob prvi obsodbi za hujše kršitve (npr. letenje na prepovedanem ali varovanem območju oziroma upravljanje pod vplivom) do 50.000 SGD ali 2 leti zapora — pri ponovnih prekrških do 100.000 SGD ali 5 let zapora. Za lažje prekrške (npr. letenje z neregistriranim dronom ali kršitev B-RID) so predpisane nižje kazni do 10.000 SGD in do 6 mesecev zapora.",
       "Ne letite nad ljudmi, zgradbami ali objekti z omejenim dostopom."
     ],
     "importantNotes": [
       "Singapur ima stroge, stopnjevane kazni za drone: ob prvi obsodbi za hujše kršitve, kot je letenje na omejenem območju, do 50.000 SGD ali 2 leti zapora — pri ponovnih prekrških do 100.000 SGD ali 5 let zapora. Za lažje prekrške veljajo nižje kazni (do 10.000 SGD in do 6 mesecev zapora).",
-      "Standardna omejitev višine je le 200 ft (60 m) — precej nižja kot v večini držav",
+      "Standardna omejitev višine je le 200 ft (približno 60 m) nad srednjo morsko gladino (AMSL), ne nad točko vzleta. Z vzpetine ali strehe imate na voljo manj višine. Za letenje višje potrebujete CAAS Activity Permit.",
       "Broadcast Remote ID (B-RID) je od 1. decembra 2025 obvezen za UA nad 250 g (z omejenimi izjemami za uporabo v zaprtih prostorih in imetnike Operator Permit, ki uporabljajo aplikacijo FlyItSafe).",
+      "Obiskovalci brez Singpass: račun UAPass ustvarite najmanj 5 delovnih dni pred prihodom. Registracijsko nalepko za 25 SGD kupite na določeni pošti SingPost ali prek spleta (dostava le v Singapurju, do 5 delovnih dni). Pritrdite jo na dron in se nato registrirajte na UA Portal.",
       "Številna območja v Singapurju so omejena — pred letenjem vedno preverite OneMap"
     ],
     "primaryLinks": [
@@ -40,12 +43,12 @@
         "description": "Uradna karta Singapurja s conami za letenje z droni in omejitvami"
       },
       {
-        "title": "FlyItSafe — aplikacija CAAS",
-        "description": "Uradna aplikacija CAAS za varnost dronov z conami letenja in informacijami o dovoljenjih"
+        "title": "CAAS — zahteve za letenje z UA",
+        "description": "Uradna pravila CAAS za rekreativne, izobraževalne in poslovne lete z droni v Singapurju"
       },
       {
         "title": "CAAS — registracija UA",
-        "description": "Registrirajte svoj dron in spletno zaprosite za dovoljenja za dejavnost"
+        "description": "Kako registrirati dron pri CAAS: kupite nalepko za 25 SGD, jo pritrdite in se nato registrirajte na UA Portal"
       }
     ],
     "secondaryLinks": [

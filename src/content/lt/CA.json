@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "51b497a18aafd4cff4e8165ebea4d22e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "05a601befa3ab4524ab9e1c3f953a9bc",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,21 +14,27 @@
     "dronePilotCredentialName": "Piloto pažymėjimas",
     "keyRules": [
       "Ne daugiau kaip 122 m (400 ft) virš žemės paviršiaus",
-      "Rodykite registracijos numerį (C-F####) ant drono",
+      "Niekada neskraidykite arčiau kaip 9,3 km (5 NM) nuo miško gaisro, taip pat avarinės operacijos (avarijos, potvynio) saugumo perimetro viduje — taikoma visiems dronams, įskaitant lengvesnius nei 250 g.",
+      "Neskraidykite per viešai skelbiamus renginius (koncertus, festivalius, sporto varžybas) ar šalia jų be SFOC-RPAS — tai taikoma ir lengvesniems nei 250 g dronams.",
+      "Aiškiai nurodykite drono registracijos numerį (pvz., C-1234567890) ant drono",
       "Bazinis pažymėjimas: nuo 14 metų, 35 klausimų egzaminas (65 % išlaikymo riba) — tik nekontroliuojama oro erdvė",
       "Pažengusiojo pažymėjimas: nuo 16 metų, 50 klausimų egzaminas (80 % išlaikymo riba) + skrydžio įvertinimas — kontroliuojama oro erdvė",
       "Lengvesniems nei 250 g dronams nereikia nei registracijos, nei pažymėjimo",
+      "Užsienio lankytojams, skraidinantiems savo 250 g ar sunkesnį droną: reikia Kanados drono piloto pažymėjimo (namų šalies licencija netinka) ir Foreign SFOC-RPAS, nes užsieniečiai negali registruoti dronų Kanadoje. Kreipkitės iš anksto — nagrinėjimo terminas 30 darbo dienų. Lengvesniems nei 250 g: SFOC nereikia, išskyrus viešai skelbiamus renginius.",
       "Visada išlaikykite tiesioginį regėjimo ryšį (VLOS) — matykite droną tiesiogiai, be pagalbinių priemonių",
       "Išlaikykite 30 m horizontalų atstumą nuo žmonių (bazinės operacijos)",
-      "Jei nesilaikoma nustatytos Transport Canada procedūros, reikia laikytis 5,6 km (3 NM) atstumo nuo sertifikuotų oro uostų ir 1,9 km (1 NM) atstumo nuo sertifikuotų sraigtasparnių aikštelių. Skrydžiams kontroliuojamoje oro erdvėje reikalingas pažengusiojo pažymėjimas ir NAV DRONE leidimas.",
+      "Naktiniai skrydžiai (250 g ir sunkesni dronai): dronas turi turėti žibintus, kad jį matytumėte jūs arba jūsų vizualinis stebėtojas, ir jie turi būti įjungti.",
+      "250 g ir sunkesni dronai: neskraidykite 12 valandų po alkoholio vartojimo arba būdami apsvaigę",
+      "Bazinis pažymėjimas: laikykitės daugiau nei 5,6 km (3 NM) atstumo nuo sertifikuotų oro uostų ir 1,9 km (1 NM) nuo sertifikuotų sraigtasparnių aikštelių. Arčiau — tik su pažangiuoju (Advanced) pažymėjimu, laikantis nustatytų procedūrų. Kontroliuojama oro erdvė: pažangusis pažymėjimas + dronas su atitinkama saugos deklaracija + NAV DRONE leidimas.",
+      "5,6 km (3 NM) atstumu nuo karinio aerodromo centro reikalingas Nacionalinės gynybos departamento (Department of National Defence) leidimas.",
       "Provincijų ir nacionaliniuose parkuose pramoginis dronų naudojimas paprastai draudžiamas — patvirtinta, kad draudimas galioja šių provincijų parkuose: Alberta, Ontario ir British Columbia, taip pat visose Parks Canada nacionalinių parkų teritorijose. Prieš skrydį patikrinkite konkretaus parko taisykles."
     ],
     "importantNotes": [
-      "Britų Kolumbijos ir Albertos provincijų parkuose pramoginiai dronai draudžiami be leidimo",
+      "BC ir Albertos provincijų parkai: skraidinti droną be parko leidimo neteisėta, o pramoginiai skrydžiai neleidžiami (Alberta: bet kokio dydžio; BC: leidimas suteikiamas retai)",
       "Ontario provincijos parkuose ir Toronto miesto parkuose pramoginiai dronai draudžiami",
-      "Dauguma savivaldybių draudžia dronus viešuosiuose parkuose be leidimo",
+      "Kitos savivaldybės taip pat gali drausti dronus miesto parkuose be leidimo — prieš skrydį pasitikrinkite vietos taisykles",
       "Draudimas bazinėms operacijoms nėra privalomas, bet primygtinai rekomenduojamas",
-      "1 lygio sudėtingų operacijų pažymėjimas (nuo 2025 m. lapkričio) leidžia mažos rizikos BVLOS operacijas be SFOC"
+      "Level 1 Complex piloto pažymėjimas (18+) nuo 2025 m. lapkričio 4 d. leidžia mažos rizikos BVLOS skrydžius be SFOC — tačiau tik pagal RPAS operatoriaus pažymėjimą (RPOC), kurį turite jūs arba operatorius, kuriam skraidote"
     ],
     "primaryLinks": [
       {
@@ -37,7 +43,7 @@
       },
       {
         "title": "Transport Canada — Užregistruokite droną",
-        "description": "Registruokite 250 g ir sunkesnius dronus per Drone Management Portal (5 $, ~3 minutės)"
+        "description": "Registruokite 250 g ir sunkesnius dronus per Drone Management Portal (apie 10 $, tikslinama kasmet; ~3 minutės)"
       },
       {
         "title": "NAV DRONE — Kontroliuojama oro erdvė",

@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enimmäiskorkeus: 120 m (400 ft) maanpinnasta",
+      "Enimmäiskorkeus: 120 m (400 ft) AGL (ANAC); harrastelennot: enintään 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "Yli 250 g painavat dronet: pakollinen rekisteröinti SISANT-järjestelmään (ANAC)",
-      "Enintään 250 g painavat dronet: vapautettu rekisteröinnistä, lupa myönnetään automaattisesti",
-      "Vähintään 5,4 km:n etäisyys lentoasemista matalilla lennoilla",
-      "Vähintään 9 km:n etäisyys lentoasemista lennoilla, jotka nousevat enintään 120 m korkeuteen",
+      "Enintään 250 g painavia droneja ei tarvitse rekisteröidä SISANT-järjestelmään (ANACin päätös nro 806). 1. heinäkuuta 2026 alkaen (ICA 100-40) myös näiden dronejen lennot edellyttävät lupaa SARPAS-järjestelmän (DECEA) kautta. Yli 250 g painavat dronet on rekisteröitävä SISANT-järjestelmään.",
+      "Lentoasemien lentorajoitusvyöhykkeet (FRZ) (ICA 100-40, voimassa 1. heinäkuuta 2026 alkaen): lentopaikan ympärillä (ZEA) FRZ alkaa maanpinnasta 1 740 m:n etäisyydelle asti; pysyt sen alapuolella lentämällä enintään 100 ft (30 m) yli 1 740 m:n, 200 ft (60 m) yli 2 350 m:n, 300 ft yli 2 960 m:n ja 400 ft yli 3 570 m:n etäisyydellä. Lähestymis- ja lentoonlähtösektoreilla (ZAD) FRZ alkaa maanpinnasta 3 550 m:n etäisyydelle asti; sen jälkeen: 100 ft yli 3 550 m:n, 200 ft yli 4 480 m:n, 300 ft yli 5 400 m:n ja 400 ft yli 6 320 m:n etäisyydellä. FRZ:n sisällä lentäminen edellyttää Termo de Coordenação -asiakirjaa ja SARPAS-hakemusta vähintään 4 kalenteripäivää etukäteen.",
+      "Harrastelennot (ICA 100-40, art. 32): enimmäiskorkeus 200 ft (60 m) AGL ja suurin vaakaetäisyys 300 m. Lentopaikkojen lähellä sovelletaan FRZ-vyöhykkeitä – tarkista SARPAS-järjestelmästä.",
       "Pidä drone aina suorassa näköyhteydessä (VLOS)",
-      "Vähintään 30 metrin etäisyys ihmisistä, jotka eivät osallistu lennätykseen",
-      "SARPAS-lupa (DECEA) vaaditaan ennen jokaista lentoa valvotussa ilmatilassa",
+      "Vähintään 30 m:n etäisyys ihmisistä, jotka eivät osallistu toimintaan",
+      "Jokainen lento edellyttää ilmatilan käyttölupaa SARPAS-järjestelmän (DECEA) kautta, myös enintään 250 g painavilla droneilla. Vähimmäisennakkoaika: 30 minuuttia avoimessa kategoriassa; 4 tai 8 kalenteripäivää toiminnalle, joka ulottuu FRZ-vyöhykkeelle tai rajoitetuille alueille, BVLOS-toiminnalle tai yli 400 ft:n korkeuteen. Harrastelennot harrastekäyttöön osoitetulla EAC-alueella on vapautettu.",
       "Lähetinlaitteiden on oltava ANATELin sertifioimia",
-      "Yölennot edellyttävät erillistä lupaa ja törmäyksenestovalaistusta"
+      "Yölennot: dronessa on oltava navigointivalot (ICA 100-40, art. 20)",
+      "Alle 18-vuotiaiden lentäjien on aina oltava yli 18-vuotiaan lentäjän seurassa, joka vastaa toiminnasta",
+      "Yli 250 g painavien dronejen muu kuin harrastekäyttö (RBAC nro 100): kolmansille osapuolille aiheutuvat vahingot kattava vakuutus on pakollinen. ANACin teoriakokeen (RBAC 100.13(b)) suorittamisesta on vapautettu 31. joulukuuta 2026 asti (päätös nro 805/2026, art. 2)."
     ],
     "importantNotes": [
-      "Turistit: Brasilia SALLII harrastelennot, mutta yli 250 g painavat dronet on rekisteröitävä SISANT-järjestelmään ennen lentoa",
-      "ANACin määräämät sakot voivat nousta 7 000 realiin (R$) rikkomusta kohti — lennättäminen ilman rekisteröintiä tai SARPAS-lupaa on vakava rikkomus",
+      "Turistit: Brasilia SALLII harrastelennot. Yli 250 g painavat dronet on rekisteröitävä SISANT-järjestelmään (ulkomaalaiset voivat käyttää passiaan), ja lennot edellyttävät SARPAS-lupaa (DECEA), myös enintään 250 g painavilla droneilla.",
+      "ANACin dronesakot perustuvat viitemääriin R$ 750 – R$ 4 500 rikkomusta kohden (toiminta ilman rekisteröintiä: R$ 2 250 – päätös nro 762/2024); lieventävistä ja raskauttavista seikoista riippuen lopullinen summa voi olla 20 %:sta 300 %:iin tästä määrästä (päätös nro 761/2024, art. 35). Lentäminen ilman SARPAS-lupaa on ilmaliikennerikkomus, jonka käsittelee JJAER (ICA 100-40, art. 66).",
       "Kansallispuistoissa (ICMBio) ja alkuperäiskansojen alueilla (FUNAI) dronet ovat yleensä kiellettyjä ilman erillistä lupaa",
       "Rannoilla ja kaupunkien turistialueilla (Rio, São Paulo, Salvador) on kunnallisia rajoituksia — tarkista paikallisilta viranomaisilta"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — Lentolupa (DECEA)",
-        "description": "DECEAn järjestelmä lentoluvan hakemiseen valvotussa ilmatilassa. Vaaditaan ennen jokaista lentoa"
+        "description": "DECEAn järjestelmä ilmatilan käyttöluvan hakemiseen, myös enintään 250 g painaville droneille. Vaaditaan ennen jokaista lentoa"
       },
       {
         "title": "ANATEL — Laitteiden sertifiointi",
@@ -48,15 +50,15 @@
         "description": "Voimassa olevat NOTAMit ja DECEAn viralliset ilmailukartat, joista voi tarkistaa väliaikaiset rajoitukset"
       },
       {
-        "title": "ANAC — Usein kysyttyä droneista",
-        "description": "ANACin viralliset vastaukset dronen käyttäjien yleisiin kysymyksiin"
+        "title": "ANAC — Usein kysyttyä SISANT-järjestelmästä (dronen rekisteröinti)",
+        "description": "ANACin viralliset vastaukset SISANT-rekisteröinnistä, myös ulkomaalaisille"
       },
       {
-        "title": "RBAC-E nro 94 — Täydellinen tekninen määräys",
-        "description": "Brasilian erityinen siviili-ilmailumääräys nro 94 — droneihin sovellettava koko teksti"
+        "title": "RBAC nro 100 — Koko tekninen standardi",
+        "description": "Brasilian siviili-ilmailumääräys nro 100 (korvaa määräyksen RBAC-E nro 94) — droneihin sovellettava koko teksti"
       }
     ],
-    "disclaimerText": "Tarkista aina ANACin ja DECEAn viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Brasiliassa on voimassa määräys RBAC-E nro 94 (siirtymässä määräykseen RBAC nro 100), joka edellyttää pakollista hyväksyntää SARPAS-järjestelmän kautta.",
+    "disclaimerText": "Tarkista aina ANACin ja DECEAn viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Brasiliassa sovelletaan määräystä RBAC nro 100 ja päätöstä nro 806 (ANAC, kesäkuusta 2026) sekä ICA 100-40:tä (DECEA, heinäkuusta 2026), ja lennot edellyttävät pakollista lupaa SARPAS-järjestelmän kautta.",
     "sectionLabelRules": "TÄRKEIMMÄT SÄÄNNÖT",
     "sectionLabelPrimary": "VIRALLISET LÄHTEET",
     "sectionLabelSecondary": "LISÄRESURSSIT",

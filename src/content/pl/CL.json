@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (obszary niezamieszkane, loty rekreacyjne): drony o masie ≤750 g mogą latać do 50 m nad najwyższą przeszkodą na terenie prywatnym bez zezwolenia",
-      "DAN 151 (obszary zamieszkane / użytek zawodowy): Drony o masie powyżej 750 g wymagają rejestracji w DGAC, licencji pilota oraz zezwolenia operacyjnego",
-      "Maksymalna dopuszczalna wysokość całkowita: 130 m AGL (DAN 151) — różni się w zależności od zezwolenia",
-      "Minimalna odległość 2 km od lotnisk i lądowisk",
+      "DAN 91.102(j): bez zezwolenia DGAC mogą latać wyłącznie drony do 750 g wykonane ze spienionego polietylenu lub równoważnego materiału, do użytku prywatnego lub rekreacyjnego, w miejscach prywatnych i nie wyżej niż 50 m nad najwyższą przeszkodą lub budynkiem. Każdy inny lot wymaga wcześniejszego zezwolenia DGAC.",
+      "DAN 151 (obszary zamieszkane, interes publiczny lub prace lotnicze): dotyczy dronów o dowolnej masie (maks. 9 kg) i wymaga rejestracji w DGAC, uprawnienia pilota zdalnego, ubezpieczenia, AOC lub CEO oraz zezwolenia operacyjnego.",
+      "DAN 151: podczas operacji dron musi mieć spadochron awaryjny i musi dawać się sterować ręcznie (maks. 9 kg bez spadochronu).",
+      "Ogólny limit wynosi 400 stóp (120 m) AGL — lot powyżej niego wymaga wcześniejszego zezwolenia DGAC (DAN 151 Ed. 3, obowiązuje od maja 2024 r.). Obecna DAN 91 wyraża ten sam limit jako „400 stóp (130 metrów)”.",
+      "Zakaz lotów w odległości do 2 km na przedłużeniu osi drogi startowej (licząc od progu) oraz do 1 km równolegle do osi drogi startowej lotniska.",
+      "Zakaz operacji dronami w rejonach, w których pożar jest gaszony z użyciem załogowych statków powietrznych (DAN 91.102(i)(11) i DAN 151.103(g)(14)).",
       "Maksymalna odległość 500 m od operatora (utrzymuj bezpośredni kontakt wzrokowy)",
-      "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
+      "Przez cały czas musisz utrzymywać bezpośredni kontakt wzrokowy z dronem, aby kierować jego lotem.",
       "Loty nocne wymagają szczególnego zezwolenia DGAC",
-      "Rejestracja w DGAC: marka, model, numer seryjny, maksymalna masa ≤9 kg dla dozwolonego użytku, zdjęcie 10×15 cm",
-      "Licencja pilota wymaga egzaminu pisemnego (minimalny wynik 75%) z DAN 151, DAN 91, meteorologii i aerodynamiki",
+      "Rejestracja w DGAC (DAN 151.203): producent/kraj, marka, model, numer seryjny i masa fabryczna, wraz z kopią dowodu tożsamości; wniosek składa się na platformie internetowej DGAC (od sierpnia 2026 r.). Maksymalna masa startowa 9 kg.",
+      "Uprawnienie pilota zdalnego: ukończone 18 lat, deklaracja odbycia szkolenia i egzamin pisemny (minimum 75%) z DAN 151, DAN 91, NOTAM, meteorologii i aerodynamiki; ważne 36 miesięcy.",
       "Ubezpieczenie od odpowiedzialności cywilnej wobec osób trzecich (zatwierdzone przez JAC) wymagane do użytku zawodowego"
     ],
     "importantNotes": [
-      "📋 PODWÓJNE RAMY PRAWNE — DAN 91 vs. DAN 151: Chile rozróżnia loty na obszarach NIEZAMIESZKANYCH (DAN 91, bardziej liberalne przepisy; loty rekreacyjne ≤750 g bez zezwolenia) oraz loty na obszarach ZAMIESZKANYCH lub obszarach o znaczeniu publicznym (DAN 151, wymagające rejestracji, certyfikowanego pilota i ubezpieczenia). Właściwe przepisy zależą od lokalizacji ORAZ celu.",
-      "✈️ ZAGRANICZNI TURYŚCI: Przepisy w równym stopniu obowiązują osoby niebędące rezydentami. Rejestracja nie jest wymagana przy rekreacyjnych lotach dronami o masie ≤750 g na niezamieszkanych terenach prywatnych. Przy wszelkich innych operacjach (turystyka, użytek zawodowy, w pobliżu osób, w parkach) wymagane są te same zezwolenia co dla obywateli Chile.",
-      "🌋 PARKI NARODOWE I REZERWATY: CONAF (Krajowa Korporacja Leśna) zakazuje dronów bez szczególnego zezwolenia w parkach takich jak Torres del Paine, Lauca i Park Narodowy Volcán Isluga. Chilijska Antarktyda: szczególne przepisy INACH. Sprawdź w każdym parku lub rezerwacie przed podróżą.",
-      "🏔️ OBSZARY ZASTRZEŻONE: Śródmieście Santiago (La Moneda, Plaza de Armas), lotnisko SCEL (Pudahuel), strefy wojskowe i przygraniczne. Wyspa Wielkanocna, Wyspa Robinsona Crusoe, Antarktyda: dodatkowe ograniczenia. Zobacz AIP Chile (ENR 5.1), aby zapoznać się z mapą obszarów zabronionych, zastrzeżonych i niebezpiecznych.",
-      "💰 COROCZNE ODNOWIENIE: Rejestracja w DGAC jest ważna przez 12 miesięcy i musi być odnawiana co roku. Operowanie bez ważnej rejestracji lub uprawnień może skutkować grzywną, konfiskatą sprzętu oraz zakazem prowadzenia operacji."
+      "PODWÓJNE RAMY PRAWNE — DAN 91 (obszary niezamieszkane): każdy lot wymaga wcześniejszego zezwolenia DGAC, wydawanego indywidualnie w każdym przypadku (Annex D). DAN 151 (obszary zamieszkane, interes publiczny lub prace lotnicze): rejestracja, uprawnienie, ubezpieczenie i zezwolenie. Jedyny wyjątek: drony ≤750 g wykonane ze spienionego polietylenu lub równoważnego materiału, użytek rekreacyjny, w miejscach prywatnych i ≤50 m nad najwyższą przeszkodą.",
+      "✈️ ZAGRANICZNI TURYŚCI: Zasady obowiązują w równym stopniu osoby niebędące rezydentami. Bez zezwolenia DGAC dozwolone są wyłącznie drony ≤750 g wykonane ze spienionego polietylenu lub równoważnego materiału, do użytku rekreacyjnego, w miejscach prywatnych i ≤50 m nad najwyższą przeszkodą. Każdy inny lot wymaga wcześniejszego zezwolenia DGAC; rejestracja w DGAC wymaga kopii dowodu tożsamości.",
+      "🌋 OBSZARY CHRONIONE: Rekreacyjne lub turystyczne używanie dronów nie jest dozwolone na żadnym państwowym chronionym obszarze przyrodniczym (parki narodowe, rezerwaty, pomniki przyrody). CONAF zezwala na loty tylko w uzasadnionych przypadkach (badania naukowe, monitoring lub inne cele związane z zarządzaniem) przez conaf.cerofilas.gob.cl, a wtedy wymagana jest także zgoda DGAC. Antarktyda: szczególne przepisy INACH.",
+      "🏔️ OBSZARY ZASTRZEŻONE: Zakaz lotów nad La Moneda (strefa SC-P28), obiektami wojskowymi, więzieniami i obiektami strategicznymi oraz w strefach zakazanych, ograniczonych lub niebezpiecznych AIP Chile (ENR 5.1) lub NOTAM.",
+      "💰 OKRESY WAŻNOŚCI: Uprawnienie pilota zdalnego jest ważne 36 miesięcy i odnawia się je po zdaniu nowego egzaminu (min. 75%); zezwolenie operacyjne DAN 151 jest ważne do 6 miesięcy. Nieprzestrzeganie przepisów DGAC może skutkować grzywnami, zawieszeniem operacji, konfiskatą sprzętu lub odpowiedzialnością karną, jeśli zagrożone zostanie bezpieczeństwo lotnicze."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Oficjalny chilijski system informacji lotniczej: NOTAM-y, obszary zabronione/zastrzeżone/niebezpieczne (ENR 5), mapy, lotniska"
       },
       {
-        "title": "Procedura rejestracji RPA (oficjalny PDF)",
-        "description": "Oficjalna procedura DGAC dotycząca nowej rejestracji i uregulowania statusu dronów (RPA). Obejmuje Załącznik B i formularze"
+        "title": "Rejestracja drona (RPA) — nowa platforma DGAC",
+        "description": "Rejestracja online w krajowym rejestrze RPA na podstawie DAN 151. Sama rejestracja nie stanowi zezwolenia na lot."
       }
     ],
     "secondaryLinks": [

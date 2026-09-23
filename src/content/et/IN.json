@@ -1,27 +1,30 @@
 {
   "meta": {
-    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "17cf8ce1211fdb6fb07c1979f47d5e58",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DigitalSky jagab õhuruumi Green-tsoonideks (kohene automaatne luba), Yellow-tsoonideks (kontrollitav õhuruum, automaatne menetlus ~15-30 min — sinna kuulub lennujaama perimeetri vöönd, ligikaudu 8-12 km) ja Red-tsoonideks (piiratud, vaja käsitsi heakskiitu) — kontrolli enne lendamist alati DigitalSky, sest konkreetse lennujaama lähedaste tsoonide täpsed piirid võivad sellest üldisest mustrist erineda.",
+      "DigitalSky jagab õhuruumi roheliseks (luba pole vaja, kuni 120 m/400 ft), kollaseks (luba asjaomaselt lennujuhtimisasutuselt) ja punaseks (ainult keskvalitsuse loal) tsooniks. Tegutseva lennujaama perimeetrist 8–12 km kaugusel kehtib roheline tsoon ainult kuni 60 m (200 ft); sellest kõrgemal on kollane tsoon. Kontrolli enne lendamist alati DigitalSky kaarti.",
+      "Kui droon pole vabastatud (Nano-droonid kuni 250 g või mudeldroonid kuni 25 kg, mida kasutatakse ainult hariduse, teadustöö või harrastuse eesmärgil otseses nähtavuses), peab see vastama DGCA tüübisertifikaadile. DGCA on tüübisertifikaadita droonide registreerimise kuni edasise teateni ajutiselt peatanud (ainult Indias valmistatud Nano- ja mudeldroonid saavad DGCA-le otse taotluse esitada) ning registreerimata drooniga ei tohi lennata.",
       "Kindlustus kohustuslik kõigile kategooriatele peale Nano",
-      "Remote Pilot Certificate (RPC) on nõutav Micro-kategooria (250g-2kg) ja suuremate droonide äriliseks kasutamiseks ning kohustuslik kõigi Small-kategooria droonide (2-25 kg) ja suuremate puhul olenemata kasutuseesmärgist. Nano (<250g) puhul ei ole RPC kunagi nõutav, isegi ärilisel kasutamisel.",
+      "Remote Pilot Certificate (RPC) on nõutav Micro-kategooria (>250 g–2 kg) ja suuremate droonide äriliseks kasutamiseks ning kohustuslik kõigi Small-kategooria droonide (2-25 kg) ja suuremate puhul olenemata kasutuseesmärgist. Nano (≤250 g) puhul ei ole RPC kunagi nõutav, isegi ärilisel kasutamisel.",
       "Iga lend peab toimuma otsenähtavuses — droon peab olema kogu aeg palja silmaga nähtav, ilma binokli või muude sarnaste abivahenditeta — välja arvatud juhul, kui DGCA on andnud konkreetse EVLOS/BVLOS loa.",
       "Red-tsoonides on lendamine rangelt keelatud ilma asjaomase ametiasutuse eriloata, mis antakse DigitalSky kaudu."
     ],
     "importantNotes": [
-      "DigitalSky registreerimine on kohustuslik kõigile droonidele peale Nano (<250g), mis ei vaja ei registreerimist ega UIN-i. Registreerimata drooni lennutamisel, kui see tuleb registreerida, on konfiskeerimise oht.",
+      "Kõik droonid, sealhulgas Nano (≤250 g), tuleb enne lendamist registreerida ja neil peab olema UIN (DGCA portaali eGCA kaudu). Nano-droonid on vabastatud ainult tüübisertifikaadist, Remote Pilot Certificate'ist ja kolmanda isiku kindlustusest. Registreerimata drooniga lendamine toob kaasa trahvi- ja konfiskeerimisohu.",
+      "Külastajad: droonide sissevedu Indiasse on DGFT Notification 54/2022 alusel keelatud (kõik kaaluklassid, sealhulgas ≤250 g), välja arvatud DGFT loaga valitsuse/teadus- ja arendustegevuse või kaitse-/julgeolekualaseks kasutuseks. Registreerimiseks on vaja India passi või India valitsuse väljastatud isikutunnistust ja aadressitõendit, seega ei saa külastaja drooni üldjuhul seaduslikult registreerida ega sellega lennata.",
       "Punased tsoonid hõlmavad lennujaamu, sõjaväealasid, piire ja tundlikke asukohti",
-      "Kindlustus on kohustuslik Micro-, Small- ja Medium-kategooria droonidele"
+      "Kindlustus on kohustuslik Micro-, Small- ja Medium-kategooria droonidele",
+      "Igast õnnetusest, milles su droon on osaline, tuleb DGCA-le teatada 48 tunni jooksul."
     ],
     "primaryLinks": [
       {
         "title": "DigitalSky — DGCA platvorm",
-        "description": "Kohustuslik platvorm droonide registreerimiseks, lennulubadeks ja tsoonikontrollideks"
+        "description": "Kohustuslik platvorm lennulubadeks ja tsoonikontrollideks"
       },
       {
         "title": "DGCA — Droonimäärused",
@@ -38,7 +41,7 @@
         "description": "Punase, kollase ja rohelise tsooni kaart kogu India kohta"
       }
     ],
-    "disclaimerText": "Kontrolli enne lendamist alati DGCA ja DigitalSky ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. India kasutab kõigi drooninõuete täitmiseks kohustuslikku digiplatvormi.",
+    "disclaimerText": "Kontrolli enne lendamist alati DGCA (eGCA) ja DigitalSky ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas.",
     "sectionLabelRules": "PÕHIREEGLID",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",

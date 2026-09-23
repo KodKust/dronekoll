@@ -1,33 +1,36 @@
 {
   "meta": {
-    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "17cf8ce1211fdb6fb07c1979f47d5e58",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
-    "disclaimerText": "Verifique sempre as fontes oficiais da DGCA e do DigitalSky antes de voar. Esta aplicação é uma ferramenta — não uma autoridade legal. A Índia utiliza uma plataforma digital obrigatória para toda a conformidade em matéria de drones.",
+    "disclaimerText": "Verifique sempre as fontes oficiais da DGCA (eGCA) e do DigitalSky antes de voar. Esta aplicação é uma ferramenta — não uma autoridade legal.",
     "sectionLabelRules": "REGRAS PRINCIPAIS",
     "sectionLabelPrimary": "FONTES OFICIAIS",
     "sectionLabelSecondary": "RECURSOS ADICIONAIS",
     "linksSheetTitle": "Espaço aéreo e regras — Índia",
     "dronePilotCredentialName": "Certificado de Piloto Remoto",
     "keyRules": [
-      "O DigitalSky divide o espaço aéreo em zonas Green (autorização automatizada imediata), Yellow (espaço aéreo controlado, processamento automatizado em cerca de 15-30 min — inclui a faixa periférica dos aeroportos, aproximadamente 8-12 km) e Red (restritas, exigem aprovação manual) — consulte sempre o DigitalSky antes de voar, pois os limites exatos das zonas perto de um aeroporto específico podem diferir deste padrão geral.",
+      "O DigitalSky divide o espaço aéreo em zonas verdes (sem necessidade de autorização, até 120 m/400 ft), amarelas (autorização da autoridade de controlo de tráfego aéreo competente) e vermelhas (apenas com autorização do Governo Central). Entre 8 e 12 km do perímetro de um aeroporto operacional, a zona verde aplica-se apenas até 60 m (200 ft); acima disso, a zona é amarela. Consulte sempre o mapa do DigitalSky antes de voar.",
+      "Salvo isenção (drones Nano até 250 g, ou drones de modelismo até 25 kg utilizados apenas para educação, investigação ou recreio dentro da linha de vista), o drone tem de estar conforme a um certificado de tipo da DGCA. A DGCA suspendeu temporariamente, até nova ordem, o registo de drones sem certificado de tipo (apenas os drones Nano e de modelismo fabricados na Índia podem requerê-lo diretamente à DGCA), e um drone não registado não pode voar.",
       "Seguro obrigatório para todas as categorias, exceto a Nano",
-      "O Remote Pilot Certificate (RPC) é obrigatório para o uso comercial de drones Micro (250g-2kg) e de categorias superiores, e para todos os drones da categoria Small (2-25 kg) e superiores, independentemente da finalidade. Os drones Nano (<250g) nunca precisam de RPC, mesmo para uso comercial.",
+      "O Remote Pilot Certificate (RPC) é obrigatório para o uso comercial de drones Micro (>250 g–2 kg) e de categorias superiores, e para todos os drones da categoria Small (2-25 kg) e superiores, independentemente da finalidade. Os drones Nano (≤250 g) nunca precisam de RPC, mesmo para uso comercial.",
       "Todos os voos devem manter-se dentro da linha de vista direta — o drone deve permanecer sempre visível a olho nu, sem binóculos ou meios semelhantes — salvo se tiver sido concedida pela DGCA uma aprovação específica EVLOS/BVLOS.",
       "Voar em zonas vermelhas é estritamente proibido sem autorização especial da autoridade competente através do DigitalSky."
     ],
     "importantNotes": [
-      "O registo no DigitalSky é obrigatório para todos os drones, exceto os Nano (<250g), que não precisam de registo nem de UIN. Voar com um drone não registado quando o registo é obrigatório pode resultar na sua apreensão.",
+      "Todos os drones, incluindo os Nano (≤250 g), têm de estar registados e ter um UIN (através do portal eGCA da DGCA) antes de voar. Os drones Nano estão isentos apenas da certificação de tipo, do Remote Pilot Certificate e do seguro de responsabilidade civil. Voar com um drone não registado expõe a sanções e à apreensão.",
+      "Visitantes: a importação de drones para a Índia é proibida pela DGFT Notification 54/2022 (todas as classes de peso, incluindo ≤250 g), salvo com autorização da DGFT para uso governamental/de I&D ou de defesa/segurança. O registo exige um passaporte indiano ou um documento de identificação emitido pelo governo indiano e um comprovativo de morada, pelo que, em regra, o drone de um visitante não pode ser registado nem voar legalmente.",
       "As zonas vermelhas incluem aeroportos, áreas militares, fronteiras e locais sensíveis",
-      "O seguro é obrigatório para os drones das categorias Micro, Small e Medium"
+      "O seguro é obrigatório para os drones das categorias Micro, Small e Medium",
+      "Qualquer acidente que envolva o seu drone tem de ser comunicado à DGCA no prazo de 48 horas."
     ],
     "primaryLinks": [
       {
         "title": "DigitalSky — Plataforma da DGCA",
-        "description": "Plataforma obrigatória para o registo de drones, as autorizações de voo e a verificação de zonas"
+        "description": "Plataforma obrigatória para as autorizações de voo e a verificação de zonas"
       },
       {
         "title": "DGCA — Regulamentação de drones",

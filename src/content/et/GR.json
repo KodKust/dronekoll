@@ -1,61 +1,65 @@
 {
   "meta": {
-    "sourceHash": "6bd279870909de9539cac55440892030da06bb4b119368a297585876f27098df",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e631818b431dccaf473ebde5f460a6b9eb0f571b8775190b265998e6821bc00d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimaalselt 120 m maapinnast (EASA avatud kategooria)",
-      "Registreeru UAS-operaatorina (tasuta), kui droon kaalub 250 g või rohkem või on kaameraga",
-      "Nõutav A1/A3 veebikoolitus — vanuse alampiir 16 aastat",
-      "Piirangutega arheoloogilised paigad: Acropolis, Delphi, Olympia ja teised",
-      "Hoia drooni alati otsenähtavuses (VLOS)",
+      "Avatud kategoorias on maksimaalne kõrgus 120 m, mõõdetuna kaugusena maapinna lähimast punktist — mitte lihtsalt otse alla, seega nõlva lähedal võib arvesse minna ka sinu kõrval olev maapind. Kõrgest tehislikust takistusest (üle 105 m) kuni 50 m kaugusel võib takistuse eest vastutav üksus taotleda luba lennata kuni 15 m takistuse kõrgusest kõrgemal.",
+      "Drooni operaatorina pead end registreerima, kui su droon kaalub 250 g või rohkem (või võib kokkupõrkel üle kanda üle 80 J kineetilist energiat) — see kehtib isegi mänguasjadele. Alla 250 g on registreerimine siiski nõutav, kui droonil on isikuandmeid jäädvustada suutev andur, välja arvatud juhul, kui see on ELi mänguasjade ohutuse direktiivi järgi mänguasi. Piloodi koolituse/sertifikaadi nõuded on eraldi ja sõltuvad drooni klassist ja alamkategooriast.",
+      "Sinu operaatori registreerimisnumber tuleb kinnitada kõigile su droonidele ja sisestada kaugtuvastussüsteemi (Remote ID), kui droonil see on. Kreekas uuendatakse registreeringut 3 aasta järel.",
+      "Külastajad väljastpoolt EL/EASA riike: kui su droon nõuab registreerimist (vt eespool) ja sa ei ole juba mõnes teises EASA riigis registreeritud, registreeru enne lendamist Kreekas (ilma Kreeka maksunumbrita (AFM): eritaotlus passiga HCAA veebisaidil). Teise EASA riigi residendid registreeruvad oma elukohariigis. Väljaspool ELi saadud koolitusi ja piloodisertifikaate ELis ei tunnustata.",
+      "Kolmanda osapoole vastutuskindlustus on nõutav igale kutseliselt kasutatavale droonile ning eraotstarbel kasutatavatele 4 kg ja raskematele droonidele (riiklikud õigusaktid).",
+      "Kreekas on minimaalne vanus 16 — vanusenõue ei kehti alamkategoorias A1 C0-klassi drooni puhul, mis on mänguasi, isehitatud alla 250 g drooni puhul ega sertifitseeritud piloodi otsese järelevalve all lendamisel.",
+      "Alad, nagu Akropolis, Delfi ja Olympia, jäävad kollastesse/magenta tsoonidesse — lennud on olenevalt konkreetsest alast tingimustel lubatud või täielikult keelatud ning HCAA eelheakskiit on nõutav vähemalt 5 tööpäeva ette.",
+      "Avatud kategoorias pead hoidma drooni otsenähtavuses palja silmaga (prillid/kontaktläätsed on lubatud; binokkel või ekraan ei loe) — või vaatleja abiga, kusjuures te suhtlete kogu aeg selgelt ja tõhusalt, et saaksite koos õhuruumi jälgida ja kokkupõrkeid vältida. Follow-me režiim on eraldi erand, lubatud kuni 50 m kaugusel piloodist.",
       "Ära lenda rahvakogunemiste kohal. Kõrvaliste isikute suhtes kehtivad reeglid sõltuvad alamkategooriast, klassimärgist ja käitamistingimustest; kontrolli ametlikku tabelit.",
-      "Vähemalt 8 km kaugusel igast lennujaamast",
+      "Lennujaamadest hoitavat ühtset ELi-ülest kaugust ei ole. Lennujaamade lähedased piirangud avaldatakse geograafiliste tsoonidena (artikkel 15), mille kuju ja suurus erinevad lennujaamiti. Enne lennujaama, lennuvälja või kopteriväljaku lähedal lendamist kontrolli oma riigi ametlikku droonitsoonide kaarti; kontrolltsoonis (CTR) lendamiseks on tavaliselt vaja lennujuhtimise eelluba.",
       "EASA avatud kategooria baasnõuete kohaselt on öölend lubatud, kui kasutatakse nõutavat rohelist vilkuvat tuld, välja arvatud juhul, kui kehtiv geograafiline tsoon või riiklik eeskiri kehtestab rangema tingimuse.",
       "Saarte lennujaamad: kontrolli hoolikalt kaarti DAGR — paljudel saartel on suured CTR-alad"
     ],
     "importantNotes": [
-      "Droonilennud arheoloogiliste paikade ja kultuuripärandi mälestiste kohal on rangelt keelatud — rikkumiste eest määratakse suured trahvid",
+      "Metsatulekahjud: lendamine on keelatud NOTAM-iga määratud tsoonides. Kui näed õhust tulekustutusvahendeid või saad 112-sõnumi piirkonnas toimuva tulekahju kohta, lõpeta lend kohe ja maandu. Rikkumised: trahv, kriminaalvastutusele võtmine, drooni konfiskeerimine.",
+      "Arheoloogilised paigad ja kultuuripärandi mälestised nõuavad HCAA eelheakskiitu (vähemalt 5 tööpäeva ette) — need ei ole alati täielikult keelatud, kuid on range kontrolli all.",
       "Saarte lennujaamad tekitavad ulatuslikke piirangutsoone",
-      "Sõjaväerajatised: absoluutsed lennukeelutsoonid (paljud neist asuvad saartel)",
+      "Ära lenda sadamate, haiglate, energia- ja telekommunikatsioonirajatiste ega sõjaväe- või valitsusrajatiste kohal ilma HCAA eelloata — mõned sõjaväe- ja valitsusrajatised on DAGR-i kaardil täielikud lennukeelutsoonid (paljud saartel). Rikkumised võivad kaasa tuua trahvid, kriminaalkaristused ja seadmete konfiskeerimise.",
       "GDPR kohaldub, kui salvestatakse tuvastatavaid isikuid"
     ],
     "primaryLinks": [
       {
         "title": "HCAA — Droonimäärused",
-        "description": "Tsiviillennundusameti ametlikud droone puudutavad reeglid ja teave"
+        "description": "Hellenic Civil Aviation Authority (HCAA) ametlikud droone puudutavad reeglid ja teave"
       },
       {
-        "title": "HCAA — Piloodi registreerimine",
-        "description": "Tasuta registreerimine UAS-operaatorina (kehtib kõigis EL/EASA riikides)"
+        "title": "HCAA – operaatori registreerimine",
+        "description": "Registreerimine UAS-operaatorina (Kreeka residentidele, tasu 20 €; registreerimisnumber kehtib kõigis EL/EASA riikides)"
       },
       {
         "title": "DAGR — Droonide õhuruumi kaart",
         "description": "Ametlik geograafiline kaart droonilendude piirangute kohta Kreekas"
       },
       {
-        "title": "HCAA — Lennuteade",
-        "description": "5-päevase eelteate esitamine lennust (nõutav iga lennu jaoks)"
+        "title": "HCAA – lennuloa taotlus (DAGR-i tsoonid)",
+        "description": "Loataotlus lendudeks DAGR-i kollastes/magenta tsoonides (vähemalt 5 tööpäeva ette)"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "HASP — Õhusport",
-        "description": "Kreeka Õhuspordi Föderatsioon ja harrastuslendude teave"
+        "title": "HASP – aeronavigatsiooniteenuse osutaja",
+        "description": "Kreeka aeronavigatsiooniteenuse osutaja – DAGR-i ja NOTAM-ide haldaja"
       },
       {
         "title": "HCAA — Korduma kippuvad küsimused droonide kohta",
         "description": "Korduma kippuvad küsimused Kreeka droonimääruste kohta"
       }
     ],
-    "disclaimerText": "Kontrolli enne iga lendu alati Hellenic Civil Aviation Authority (HCAA) ametlikke allikaid ja kaarti DAGR. See rakendus on abivahend, mitte õigusallikas. Kreeka järgib EASA määrusi riiklike lisadega, sealhulgas kohustusliku nõudega teatada lennust 5 päeva ette.",
-    "sectionLabelRules": "PÕHIREEGLID (EASA AVATUD KLASS)",
+    "disclaimerText": "Kontrolli enne iga lendu alati Hellenic Civil Aviation Authority (HCAA) ametlikke allikaid ja kaarti DAGR. See rakendus on abivahend, mitte õigusallikas. Kreeka järgib EASA määrusi riiklike lisadega, sealhulgas muu hulgas nõudega esitada HCAA-le taotlus vähemalt 5 tööpäeva ette lendudeks DAGR-i kollastes/magenta tsoonides, kus lendamine on tingimustel lubatud.",
+    "sectionLabelRules": "PÕHIREEGLID (EASA AVATUD KATEGOORIA)",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",
     "linksSheetTitle": "Õhuruum ja regulatsioonid — Kreeka",
-    "dronePilotCredentialName": "Operaatori sertifikaat"
+    "dronePilotCredentialName": "Kaugpiloodi sertifikaat"
   }
 }

@@ -1,42 +1,44 @@
 {
   "meta": {
-    "sourceHash": "7ac6f58efeb57847db5c573b36f52f9091268fb859f217572eb22f0601db3ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "87a436fc2428e63cbeabda8e978948a403f544d76e6100f96d885f4d05ce52ec",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Didžiausias aukštis priklauso nuo svorio: ≤250 g → 30 m; 250 g–25 kg → 60 m; 25–150 kg → 120 m",
-      "Sunkesni nei 250 g dronai (visais naudojimo atvejais) turi būti registruoti AAC — kaina: US$5; registracija atliekama asmeniškai Albrook",
-      "Pramoginiai dronai ≤250 g: registracija NEREIKALINGA, bet taikomos visos kitos taisyklės",
-      "Mažiausias 8 km atstumas nuo oro uostų ir aerodromų",
-      "Mažiausias 30 m horizontalus ir 10 m vertikalus atstumas nuo žmonių",
-      "Visada laikykite droną tiesioginiame regėjimo lauke (VLOS)",
-      "Naktiniai skrydžiai be specialios AAC išimties DRAUDŽIAMI",
-      "Civilinės atsakomybės draudimas PRIVALOMAS visiems sandoriams",
-      "Privaloma informuoto sutikimo forma dėl: privačios valdos, čiabuvių rezervatų, saugomų teritorijų ir Panamos kanalo baseino",
-      "Komerciniam naudojimui, be drono registracijos, reikalinga ir RPA piloto licencija"
+      "Didžiausias aukštis priklauso nuo RPA klasės: Micro (≤250 g) → 100 ft (~30 m); Light (251 g–25 kg) → 400 ft (~120 m); Medium (26–150 kg) → 400 ft, tačiau be Mode S atsakiklio — ne daugiau kaip 100 m (AAC standarto §9.2, §10.1.1, §11.1.5, §11.1.10).",
+      "Kiekvienas RPA, įskaitant Micro klasę (≤250 g), turi būti registruotas AAC (standarto §8.1, §9.1, §15.2) — kitaip nei dauguma šalių, Panama neatleidžia lengviausių dronų nuo registracijos. Registruojama asmeniškai Albrook; pasitikrinkite dabartinį mokestį.",
+      "Panama NEATLEIDŽIA lengvų pramoginių dronų (≤250 g) nuo registracijos — kitaip nei daugumoje šalių, AAC standartas (§8.1, §9.1) reikalauja registruoti visų klasių RPA, įskaitant Micro.",
+      "Kiekvienai RPA operacijai Panamoje reikia AAC veiklos leidimo (§8.2, §8.20): pateikite Form 005 (Solicitud de Permiso de Actividades Aéreas Especiales) ne vėliau kaip prieš 5 darbo dienas.",
+      "Mažiausias 8 km (5 jūrmylių) atstumas nuo oro uostų ir aerodromų, Respublikos Prezidentūros ir kalėjimų (AAC standarto §8.10–8.11). Standartas taip pat draudžia skraidyti vietose, keliančiose grėsmę valstybės saugumui, pavyzdžiui, prie ambasadų, viešųjų įstaigų ir bankų (§8.11), o AAC taiko apribojimus virš policijos nuovadų, ligoninių ir Saugumo ministerijos (26/9/2025 AAC pranešimas).",
+      "Kylant ir tupiant laikykitės bent 30 m horizontalaus ir 10 m vertikalaus atstumo nuo operacijoje nedalyvaujančių žmonių (AAC standarto §13.1).",
+      "Droną visą laiką turite laikyti tiesioginiame vizualiniame kontakte (RACP).",
+      "Naktiniai skrydžiai be specialios AAC išimties DRAUDŽIAMI.",
+      "Kiekvienam RPA savininkui PRIVALOMAS trečiųjų asmenų civilinės atsakomybės draudimas (AAC standarto §8.4), nepriklausomai nuo naudojimo paskirties. Skrydžiams virš žmonių taip pat reikia AAC leidimo ir dalyvaujančių asmenų sutikimo (§8.16).",
+      "Draudžiamosiose, ribojamosiose ar pavojingosiose zonose (žr. AAC AIP) reikia specialaus AAC ir už zoną atsakingos institucijos leidimo — būtini abu (AAC standarto §13.1 d). Kanalo zonoje, saugomose teritorijose ir čiabuvių teritorijose prieš teikdami prašymą dėl skrydžio leidimo pasitarkite su atsakinga institucija.",
+      "Kiekvienas RPA valdantis asmuo — įskaitant pramoginius ir Micro klasės (≤250 g) dronus — turi turėti AAC nuotolinio piloto licenciją ir 3 klasės medicininį pažymėjimą (AAC standarto §8.3, §9.1, §10.1). Komerciniam naudojimui papildomai reikia komercinės veiklos leidimo (§13.3)."
     ],
     "importantNotes": [
-      "📏 AUKŠTIS PRIKLAUSO NUO SVORIO (unikalu Lotynų Amerikoje): Panamos RACP nustato tris didžiausio aukščio lygius pagal drono svorį: ≤250 g dronai apriboti TIK iki 30 m, 250 g–25 kg dronai apriboti iki 60 m, ir tik ≥25 kg dronai gali pasiekti standartinius 120 m. Prieš planuodami skrydžio aukštį, patikrinkite drono svorį.",
-      "✈️ TURISTAMS — 14 DIENŲ TAISYKLĖ: jei jūsų viešnagė šalyje Panama trunka ≤14 kalendorinių dienų, galite kreiptis dėl specialaus AAC leidimo nuolat neregistruodami drono. Viešnagei >14 dienų: sunkesniems nei 250 g dronams AAC registracija privaloma. Pramoginiai dronai ≤250 g abiem atvejais atleidžiami nuo registracijos.",
-      "🚢 PANAMA CANAL — SPECIALUS RIBOJIMAS: Canal baseine (įskaitant šliuzus, Gatún Lake ir gretimas teritorijas) prieš bet kokį skrydį privaloma gauti Letter of Informed Consent iš Canal Authority. AAC NELEIS operacijų virš šios teritorijos be šio rašto. Tai taip pat taikoma privačiai valdai, čiabuvių rezervatams ir saugomoms teritorijoms.",
-      "🌳 SAUGOMOS TERITORIJOS IR MIAMBIENTE: tokiuose nacionaliniuose parkuose kaip Soberanía, Volcán Barú, Coiba (UNESCO pasaulio paveldo objektas) ir Darién reikia specialaus Ministry of the Environment (MiAmbiente) leidimo. Bocas del Toro ir Guna Yala salose taip pat galioja ribojimai — prieš vykdydami operaciją suderinkite ją su vietos bendruomene.",
-      "🏢 REGISTRACIJA TIK ASMENIŠKAI: skirtingai nei daugumoje šalių, AAC registracija turi būti atliekama ASMENIŠKAI Albrook biure (Building 805). Turėkite asmens dokumentą, patį droną, užpildytą formą ir US$5. Prieš kelionę patikrinkite, ar yra laisvų registracijos laikų, ir kiek trunka paraiškos nagrinėjimas."
+      "Kitaip nei daugelyje šalių, Panamoje didžiausias aukštis priklauso nuo RPA klasės: 100 ft (~30 m) Micro (≤250 g), 400 ft (~120 m) Light (251 g–25 kg) ir 400 ft Medium (26–150 kg) klasei — tačiau pastarajai be Mode S atsakiklio taikoma 100 m riba. Prieš planuodami skrydžio aukštį, pasitikrinkite savo drono klasę.",
+      "Turistams: specialus leidimas užsienio RPA ar operatoriams (Form 004) galioja ne ilgiau kaip 15 dienų ir NĖRA išduodamas pramoginei veiklai (AAC standarto §8.22). Norint skraidyti pramoginiais tikslais, reikia registruoti RPA AAC (visos klasės, įskaitant Micro ≤250 g, §8.1) ir turėti AAC RPA piloto licenciją (§8.3); užsienio licencija pripažįstama tik tada, jei yra dvišalis susitarimas (§18.17). Prieš kelionę pasiteiraukite AAC.",
+      "PANAMOS KANALAS — RIBOJAMA ZONA: pagal AAC AIP (ENR 5) ribojamos operacijos virš Gatún, Pedro Miguel ir Miraflores šliuzų, Gatún ir Madden užtvankų bei virš bet kurio Kanalu plaukiančio laivo. Reikia AAC ir už zoną atsakingos institucijos leidimo (AAC standarto §13.1 d).",
+      "Casco Antiguo, Cinta Costera, Av. Balboa ir Calle 50 bei aplinkinės teritorijos: be AAC leidimo, raštu privalote pranešti Servicio de Protección Institucional (SPI).",
+      "🌳 SAUGOMOS TERITORIJOS (MiAmbiente): SINAP saugomose teritorijose dronus gali naudoti tik lankytojai, turintys galiojančią licenciją / registraciją, laikydamiesi taikomų procedūrų ir mokesčių (Resolución DM-0173-2026, 12 str.). Prieš skrydį pasitarkite su teritorijos administracija.",
+      "Kitaip nei daugumoje šalių, AAC registracija turi būti atliekama asmeniškai Albrook — prieš teikdami prašymą pasitikrinkite dabartinę tvarką ir reikalavimus."
     ],
     "primaryLinks": [
       {
         "title": "AAC — Panamos civilinės aviacijos administracija",
-        "description": "Oficiali Panamos civilinės aviacijos administracijos svetainė. Informacija apie dronų registraciją, RACP taisykles ir procedūras vietiniams bei užsienio operatoriams"
+        "description": "Oficiali Panamos civilinės aviacijos administracijos svetainė. Informacija apie dronų registraciją, RPAS standartą ir procedūras vietiniams bei užsienio operatoriams"
       },
       {
-        "title": "RACP — Panamos civilinės aviacijos taisyklės",
-        "description": "Prieiga prie visų Panamos civilinės aviacijos taisyklių. Skyrius apie bepiločiams orlaiviams (RPA) taikomas taisykles"
+        "title": "Norma AAC/DG/DSA/001-2021 — Nuotoliniu būdu valdomi orlaiviai (RPAS)",
+        "description": "AAC standarto tekstas, kuriame nustatyti nuotoliniu būdu valdomų orlaivių sistemų (RPAS) naudojimo Panamoje reikalavimai (PDF)"
       },
       {
         "title": "AAC Albruko biuras (registracija tik asmeniškai)",
-        "description": "805 pastatas, Albrukas, pirmas aukštas — Aviacijos saugos direkcija. Drono registracija PRIVALO būti atliekama asmeniškai: turėkite asmens dokumentą, patį droną ir užpildytą formą. Kaina: 5 USD"
+        "description": "805 pastatas, Albrook, pirmas aukštas — Dokumentacijos skyrius. Pateikite prašymo raštą (arba išsiųskite jį adresu correspondencia.aac@aeronautica.gob.pa); AAC paskirs vizito laiką. Turėkite registracijos formą, RPA licencijos kopiją, asmens tapatybės kortelę, specifikacijas, sąskaitą faktūrą, draudimo polisą ir mokėjimo kvitą. Kaina: 20 USD"
       },
       {
         "title": "AAC — Pranešimai spaudai ir galiojančios taisyklės",
@@ -46,7 +48,7 @@
     "secondaryLinks": [
       {
         "title": "STRI/Smithsonian — AAC tyrimų vadovas",
-        "description": "Išsamus Smithsono tropinių tyrimų instituto vadovas apie AAC leidimų procesą, įskaitant informuoto sutikimo formą ribojamoms zonoms"
+        "description": "Išsamus Smithsono tropinių tyrimų instituto vadovas apie AAC leidimų procesą, įskaitant informuoto sutikimo raštą (Letter of Informed Consent) ribojamoms zonoms"
       },
       {
         "title": "MiAmbiente — Saugomos teritorijos (nacionaliniai parkai)",
@@ -54,10 +56,10 @@
       },
       {
         "title": "Panamos kanalas — Oficiali informacija",
-        "description": "Panamos kanalo administracija. Kanalo baseinui būtinas privalomas informuoto sutikimo raštas — be jo AAC neišduos leidimo"
+        "description": "Panamos kanalo administracija. Šliuzai, užtvankos ir tranzitu plaukiantys laivai yra ribojamos zonos (AIP ENR 5): reikia AAC ir už zoną atsakingos institucijos leidimo"
       }
     ],
-    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius AAC šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Šalyje Panama galioja Civil Aviation Regulations (RACP), kuriuose nustatyti nuo svorio priklausantys didžiausi aukščiai ir specialūs ribojimai virš Panama Canal baseino.",
+    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius AAC šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Panamoje taikoma Norma AAC/DG/DSA/001-2021, kurioje nustatyti NUO SVORIO PRIKLAUSANTYS didžiausi aukščiai ir ribojamos zonos Panamos kanalo zonoje (AIP ENR 5).",
     "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
     "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
     "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",

@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "17d852a01e48f71061854c0a7b614ed78721768d3d73eccf5ccdda3a556d264f",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "da2427b1326315670ad00c40760c98fe7dcb581d5abb3f16d2aa07daea8f6c28",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Največja višina: 120 m (400 ft) nad tlemi",
-      "Najmanjša razdalja 9,2 km od nadzorovanih letališč",
-      "Najmanjša razdalja 3,7 km od nenadzorovanih letališč",
+      "Najmanjša razdalja 9,2 km (5 NM) od katerega koli letališča, nadzorovanega ali nenadzorovanega (NOM-107-SCT3-2019, 4.10.1).",
+      "Med 9,2 km (5 NM) in 18,5 km (10 NM) od letališč, navedenih v NOM-107 (Priloga I): največja višina 100 m (328 ft).",
       "Najmanjša razdalja 900 m od heliportov",
+      "Letenje je prepovedano v prepovedanih, omejenih ali nevarnih območjih AIP (ENR 5.1) in v helikopterskih koridorjih; pred vsakim letom preverite NOTAM-e.",
       "Vedno ohranjajte neposreden vidni stik z dronom (VLOS); od upravljavca ne sme biti oddaljen več kot 457 m",
-      "Droni, ki tehtajo 250 g ali več: obvezna registracija pri AFAC (obrazec Priloge K)",
+      "Droni nad 250 g: obvezna registracija pri AFAC pred letenjem (obrazec Priloge K)",
       "Droni, lažji od 250 g: oproščeni registracije, vendar veljajo vsa druga pravila",
-      "Težnostni razredi: mikro (≤2 kg), lahki (2–25 kg), težki (>25 kg)",
+      "Težnostni razredi: mikro (≤2 kg), mali (>2–25 kg), veliki (>25 kg)",
+      "Rekreativni droni nad 2 kg: smejo leteti le v klubih modelarjev, ki jih je pooblastila AFAC.",
       "Nočni leti zahtevajo posebno dovoljenje AFAC",
-      "Komercialna uporaba zahteva dodatno dovoljenje glede na težnostni razred"
+      "Zasebna nekomercialna ali komercialna raba: obvezno je veljavno zavarovanje civilne odgovornosti; za mikro drone (≤2 kg) je dodatno potrebno posebno dovoljenje za nadzorovani zračni prostor; za male in velike je potrebno dovoljenje AFAC za izvajanje operacij."
     ],
     "importantNotes": [
-      "⚠️ TUJI PILOTI: NOM-107 prepoveduje upravljanje dronov, registriranih v tujini, ali upravljanje dronov tujih državljanov, razen če med Mehiko in državo izvora obstaja dvostranski sporazum. Turisti: preverite pred potovanjem.",
-      "Kazni za nezakonito upravljanje lahko znašajo do 80.000 MXN, možna pa je tudi zaporna kazen",
+      "TUJI PILOTI: NOM-107-SCT3-2019 prepoveduje upravljanje dronov s tujo registracijo ali dronov, ki jih upravljajo tuji državljani, razen če obstaja dvostranski sporazum med Mehiko in državo izvora — trenutno ni znan noben tak veljaven sporazum.",
+      "Za uvoz mikro dronov nad 250 g in malih dronov v Mehiko morajo ti imeti proizvajalca in model, serijsko številko, uporabniški priročnik in programsko opremo, ki samodejno omejuje razdaljo in višino (NOM-107, 10.1).",
+      "Neupoštevanje NOM-107 lahko AFAC sankcionira po Ley de Aviación Civil; uporaba dronov za storitev kaznivih dejanj (npr. odmetavanje eksploziva ali napadanje ljudi) se kaznuje z zaporom (Código Penal Federal, čl. 163 Bis–Quáter).",
       "Nacionalni parki in arheološka najdišča (INAH) praviloma prepovedujejo drone brez posebnega dovoljenja",
       "Marine in obalna območja so pogosto predmet omejitev — preverite pri lokalnih oblasteh",
       "Odzivni čas registra AFAC je do 10 delovnih dni — načrtujte vnaprej"
@@ -37,16 +40,12 @@
       {
         "title": "NOM-107-SCT3-2019 — uradni standard",
         "description": "Uradni mehiški standard, ki določa zahteve za upravljanje sistema daljinsko pilotiranega zrakoplova"
-      },
-      {
-        "title": "Okrožnica CO AV-23/10 R4",
-        "description": "Obvezna okrožnica z natančnimi tehničnimi in operativnimi zahtevami za drone"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "ASA — letališča in pomožne storitve",
-        "description": "Informacije o mehiških zveznih letališčih za preverjanje omejenih območij"
+        "title": "AFAC — baza podatkov letališč in heliportov",
+        "description": "Aktualen uradni seznam letališč in heliportov za preverjanje najmanjših razdalj po NOM-107"
       },
       {
         "title": "SICT — civilno letalstvo",
@@ -62,6 +61,6 @@
     "sectionLabelPrimary": "URADNI VIRI",
     "sectionLabelSecondary": "DODATNI VIRI",
     "linksSheetTitle": "Zračni prostor in predpisi — Mehika",
-    "dronePilotCredentialName": "Licenca pilota na daljavo"
+    "dronePilotCredentialName": "Dovoljenje pilota RPAS"
   }
 }

@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (nenaseljena područja, rekreativno): Dronovi teški ≤750 g smiju letjeti do 50 m iznad najviše prepreke na privatnom posjedu bez odobrenja",
-      "DAN 151 (naseljena područja/profesionalna upotreba): Dronovi teži od 750 g zahtijevaju registraciju kod DGAC-a, pilotsku licenciju i operativno odobrenje",
-      "Maksimalna odobrena ukupna visina: 130 m AGL (DAN 151) — varira ovisno o odobrenju",
-      "Minimalna udaljenost od 2 km od zračnih luka i uzletišta",
+      "DAN 91.102(j): bez odobrenja DGAC-a smiju letjeti samo dronovi do 750 g izrađeni od ekspandiranog polietilena ili ekvivalentnog materijala, za privatnu ili rekreativnu upotrebu, na privatnim mjestima i najviše 50 m iznad najviše prepreke ili zgrade. Svaki drugi let zahtijeva prethodno odobrenje DGAC-a.",
+      "DAN 151 (naseljena područja, javni interes ili radovi iz zraka): odnosi se na dronove bilo koje težine (najviše 9 kg) i zahtijeva registraciju kod DGAC-a, vjerodajnicu daljinskog pilota, osiguranje, AOC ili CEO te operativno odobrenje.",
+      "DAN 151: dron tijekom operacije mora nositi padobran za nuždu, a njime se mora moći upravljati ručno (najviše 9 kg bez padobrana).",
+      "Opće ograničenje je 400 stopa (120 m) AGL — za let iznad njega potrebno je prethodno odobrenje DGAC-a (DAN 151 Ed. 3, na snazi od svibnja 2024.). Važeći DAN 91 isto ograničenje izražava kao „400 stopa (130 metara)”.",
+      "Zabranjeno je letjeti unutar 2 km od produžene osi uzletno-sletne staze (mjereno od praga) ili unutar 1 km usporedno s osi uzletno-sletne staze aerodroma.",
+      "Nema operacija dronovima u područjima u kojima se požar gasi zrakoplovima s posadom (DAN 91.102(i)(11) i DAN 151.103(g)(14)).",
       "Maksimalna udaljenost od 500 m od operatera (održavajte izravan vizualni kontakt)",
-      "Uvijek držite dron u izravnom vidnom polju (VLOS)",
+      "Morate cijelo vrijeme održavati izravan vizualni kontakt s dronom kako biste upravljali njegovim letom.",
       "Noćni letovi zahtijevaju posebno odobrenje DGAC-a",
-      "Registracija kod DGAC-a: marka, model, serijski broj, maksimalna težina ≤9 kg za odobrenu upotrebu, fotografija 10×15 cm",
-      "Za pilotsku licenciju potreban je pisani ispit (minimalni rezultat 75 %) iz propisa DAN 151 i DAN 91, meteorologije i aerodinamike",
+      "Registracija kod DGAC-a (DAN 151.203): proizvođač/zemlja, marka, model, serijski broj i tvornička težina, uz presliku identifikacijske isprave; zahtjev se podnosi na web-platformi DGAC-a (od kolovoza 2026.). Maksimalna uzletna težina 9 kg.",
+      "Vjerodajnica daljinskog pilota: najmanje 18 godina, izjava o obuci i pisani ispit (najmanje 75 %) iz DAN 151, DAN 91, NOTAM-a, meteorologije i aerodinamike; vrijedi 36 mjeseci.",
       "Osiguranje od odgovornosti prema trećima (odobreno od JAC-a) potrebno je za profesionalnu upotrebu"
     ],
     "importantNotes": [
-      "📋 DVOJNI REGULATORNI OKVIR — DAN 91 vs. DAN 151: Čile razlikuje letenje u NENASELJENIM područjima (DAN 91, popustljiviji; rekreativni letovi ≤750 g bez dozvole) i letenje u NASELJENIM područjima ili područjima od javnog interesa (DAN 151, koji zahtijeva registraciju, certificiranog pilota i osiguranje). Primjenjivi propisi ovise o lokaciji I svrsi.",
-      "✈️ STRANI TURISTI: Pravila se jednako primjenjuju na nerezidente. Registracija nije potrebna za rekreativne letove dronovima težine ≤750 g u nenaseljenim privatnim područjima. Za bilo koje druge operacije (turizam, profesionalna upotreba, u blizini ljudi, u parkovima) potrebne su iste dozvole kao za čileanske državljane.",
-      "🌋 NACIONALNI PARKOVI I REZERVATI: CONAF (Nacionalna korporacija za šumarstvo) zabranjuje dronove bez posebne dozvole u parkovima poput Torres del Paine, Lauca i Nacionalnog parka vulkana Isluga. Na čileanskom području Antarktike primjenjuju se posebni propisi INACH-a. Prije putovanja provjerite pravila svakog parka ili rezervata.",
-      "🏔️ OGRANIČENA PODRUČJA: Središte Santiaga (La Moneda, Plaza de Armas), zračna luka SCEL (Pudahuel), vojne i pogranične zone. Uskršnji otok, otok Robinson Crusoe, Antarktika: dodatna ograničenja. Pogledajte AIP Chile (ENR 5.1) za kartu zabranjenih, ograničenih i opasnih područja.",
-      "💰 GODIŠNJA OBNOVA: Registracija kod DGAC-a vrijedi 12 mjeseci i mora se obnavljati svake godine. Upravljanje bez valjane registracije ili ovlaštenja može rezultirati kaznom, oduzimanjem opreme i zabranom operacija."
+      "DVOSTRUKI REGULATORNI OKVIR — DAN 91 (nenaseljena područja): svaki let zahtijeva prethodno odobrenje DGAC-a, za svaki slučaj posebno (Prilog D). DAN 151 (naseljena područja, javni interes ili radovi iz zraka): registracija, vjerodajnica, osiguranje i odobrenje. Jedina iznimka: dronovi ≤750 g izrađeni od ekspandiranog polietilena ili ekvivalentnog materijala, rekreativna upotreba, na privatnim mjestima i ≤50 m iznad najviše prepreke.",
+      "✈️ STRANI TURISTI: Pravila jednako vrijede za nerezidente. Bez odobrenja DGAC-a dopušteni su samo dronovi ≤750 g izrađeni od ekspandiranog polietilena ili ekvivalentnog materijala, za rekreativnu upotrebu, na privatnim mjestima i ≤50 m iznad najviše prepreke. Svaki drugi let zahtijeva prethodno odobrenje DGAC-a; za registraciju kod DGAC-a potrebna je preslika vaše identifikacijske isprave.",
+      "🌋 ZAŠTIĆENA PODRUČJA: Rekreativna ili turistička upotreba dronova nije dopuštena ni u jednom državnom zaštićenom divljem području (nacionalni parkovi, rezervati, spomenici prirode). CONAF odobrava letove samo u opravdanim slučajevima (znanstveno istraživanje, praćenje ili druge svrhe upravljanja) putem conaf.cerofilas.gob.cl, a tada je potrebno i dopuštenje DGAC-a. Antarktika: posebni propisi INACH-a.",
+      "🏔️ OGRANIČENA PODRUČJA: Zabranjeno je letjeti iznad palače La Moneda (zona SC-P28), vojnih objekata, zatvora i strateških postrojenja te u zabranjenim, ograničenim ili opasnim područjima iz AIP Chile (ENR 5.1) ili NOTAM-a.",
+      "💰 ROKOVI VALJANOSTI: Vjerodajnica daljinskog pilota vrijedi 36 mjeseci i obnavlja se novim ispitom (najmanje 75 %); operativno odobrenje prema DAN 151 vrijedi do 6 mjeseci. Nepoštivanje propisa DGAC-a može rezultirati kaznama, obustavom operacija, oduzimanjem opreme ili kaznenom odgovornošću ako je ugrožena sigurnost zračnog prometa."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Službeni sustav zrakoplovnih informacija Čilea: NOTAM-i, zabranjena/ograničena/opasna područja (ENR 5), karte, uzletišta"
       },
       {
-        "title": "Postupak registracije RPA (službeni PDF)",
-        "description": "Službeni postupak DGAC-a za novu registraciju i legalizaciju dronova (RPA). Uključuje Prilog B i obrasce"
+        "title": "Registracija drona (RPA) — nova platforma DGAC-a",
+        "description": "Online registracija u Nacionalnom registru RPA prema DAN 151. Registracija sama po sebi ne predstavlja odobrenje za let."
       }
     ],
     "secondaryLinks": [

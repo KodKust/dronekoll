@@ -1,27 +1,29 @@
 {
   "meta": {
-    "sourceHash": "b98ef8dd7e9c6b0c530a3757ad835b367dd07af3c65b9dd744c1512f5f5992cd",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "27f497a74725016dcbdecc01ce23d9050fb7893544b864e9bca529e0be6b134f",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Do 120 m nad úrovňou terénu (kategória EASA Open)",
-      "Zaregistrujte sa ako prevádzkovateľ UAS, ak dron váži 250 g a viac alebo je vybavený kamerou",
-      "Online školenie A1/A3 je povinné — minimálny vek 16 rokov",
-      "Povinné poistenie zodpovednosti pre VŠETKY drony bez ohľadu na hmotnosť (krytie €1 – 2,5 milióna)",
-      "Brusel: vyžaduje sa federálne aj regionálne schválenie",
-      "Dron majte vždy vo vizuálnom dohľade (VLOS)",
+      "V otvorenej kategórii je maximálna výška 120 m, meraná ako vzdialenosť k najbližšiemu bodu zemského povrchu — nie iba kolmo nadol, takže pri svahu sa môže počítať aj terén vedľa vás. Do 50 m od vysokej umelej prekážky (vyššej ako 105 m) môže subjekt zodpovedný za prekážku požiadať o povolenie lietať až do 15 m nad výškou prekážky.",
+      "Ako prevádzkovateľ UAS sa musíte zaregistrovať, ak váš dron váži 250 g alebo viac (alebo by pri zrážke mohol odovzdať kinetickú energiu vyššiu ako 80 J) — platí to aj pre hračky. Pod 250 g je registrácia povinná aj vtedy, ak má dron senzor schopný zachytávať osobné údaje, pokiaľ sa nepovažuje za hračku podľa smernice EÚ o bezpečnosti hračiek. Zaregistrujte sa v krajine EÚ/EASA, kde žijete (ak žijete mimo nej: v prvej krajine EÚ/EASA, v ktorej budete lietať); táto registrácia platí vo všetkých krajinách EÚ/EASA. Požiadavky na výcvik/osvedčenie pilota sa určujú samostatne a závisia od triedy dronu a podkategórie.",
+      "V Belgicku je minimálny vek pre podkategórie A1/A3 14 rokov — bezplatné online školenie a skúška platia 5 rokov a sú uznávané v celej EÚ. Pre podkategóriu A2 zostáva minimálny vek 16 rokov. Výnimky z vekovej hranice 14 rokov: žiadny minimálny vek pre dron triedy C0, ktorý je hračkou (smernica EÚ o bezpečnosti hračiek), v A1, pre dron vlastnej výroby pod 250 g alebo pod priamym dohľadom pilota vo veku najmenej 16 rokov s požadovaným osvedčením.",
+      "Poistenie zodpovednosti (ujma na zdraví a škoda na majetku tretích osôb) je v otvorenej kategórii povinné, s výnimkou dronov pod 900 g používaných výlučne súkromne. Od 20 kg platia požiadavky nariadenia (ES) č. 785/2004.",
+      "Zahraniční piloti: registrácia a osvedčenie A1/A3/A2 z iného členského štátu EÚ platia aj v Belgicku; majte pri sebe doklad o registrácii a číslo prevádzkovateľa umiestnite na dron. Belgické geografické zóny a belgická povinnosť poistenia (okrem súkromného použitia pod 900 g) platia aj pre vás.",
+      "Brusel: v geografickej zóne EBR-01 potrebujete na let nad veľvyslanectvami a federálnymi a medzinárodnými inštitúciami (vrátane inštitúcií EÚ) alebo do 50 m od nich predchádzajúce povolenie dotknutej inštitúcie. Na Droneguide si overte aj podmienky CTR letiska Brusel a obecné pravidlá, ak chcete štartovať alebo natáčať na verejnom priestranstve.",
+      "V otvorenej kategórii musíte mať dron vo vlastnom vizuálnom dohľade voľným okom (okuliare/kontaktné šošovky sú v poriadku; ďalekohľad ani obrazovka sa nepočítajú) — alebo lietať s pomocou pozorovateľa, pričom spolu musíte neustále jasne a účinne komunikovať, aby ste spoločne sledovali vzdušný priestor a predchádzali zrážkam. Režim „follow-me“ v podkategórii A1 je samostatná výnimka, povolená do 50 m od pilota.",
+      "Drony bez označenia triedy (uvedené na trh pred rokom 2024): pod 250 g v A1, inak iba v A3 a max. 25 kg (min. 150 m od obytných, obchodných, priemyselných alebo rekreačných oblastí). Bez označenia triedy a uvedené na trh po 31. 12. 2023: nie v otvorenej kategórii.",
       "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre osoby, ktoré nie sú priamo zapojené, závisia od podkategórie, označenia triedy a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
-      "Najmenej 3 km od letísk a heliportov",
+      "Neexistuje jednotná vzdialenosť od letísk platná v celej EÚ; tvar a veľkosť geografických zón sa líšia podľa letiska. V belgickom CTR platia geografické zóny (pozri Droneguide): vo VLL 0 okolo dráh je otvorená kategória zakázaná; vo VLL 1 a VLL 2 max. 150 ft (cca 45 m) nad terénom (vo VLL 1 zároveň nie vyššie ako najvyššia prekážka do 100 m). VLL 1: vyžaduje sa predchádzajúce povolenie; VLL 2: let ohláste najmenej 3 hodiny vopred. Žiadosť podajte cez skeyes DAA-planner; telefonická dosiahnuteľnosť, geo-awareness a Remote ID sú povinné (Remote ID nie pre C0 a niektoré drony pod 250 g).",
       "Nočný let je povolený v rámci základných požiadaviek EASA pre otvorenú kategóriu, ak sa používa požadované zelené blikajúce svetlo, pokiaľ aktuálna geografická zóna alebo vnútroštátne pravidlo nestanovuje prísnejšie podmienky.",
       "V Droneguide si overte výškové limity a obmedzenia pre konkrétnu zónu"
     ],
     "importantNotes": [
-      "Povinné poistenie pre VŠETKY drony bez ohľadu na hmotnosť — vyžaduje sa krytie €1 – 2,5 milióna",
-      "Brusel vyžaduje federálnu registráciu AJ regionálne povolenie",
-      "Tri letiská (Brusel, Charleroi, Liège) zriaďujú rozsiahle obmedzené zóny",
+      "Poistenie zodpovednosti je povinné, s výnimkou súkromného použitia dronov pod 900 g",
+      "Brusel (geografická zóna EBR-01): lety nad veľvyslanectvami, federálnymi vládnymi inštitúciami a medzinárodnými inštitúciami alebo do 50 m od nich iba s predchádzajúcim povolením dotknutej inštitúcie",
+      "Riadené letiská (Brusel, Antverpy, Charleroi, Liège, Ostende) a vojenské letiská majú geografické zóny CTR s prísnymi podmienkami; Kortrijk-Wevelgem má geografickú zónu RMZ/TMZ.",
       "Porušenia môžu viesť k pokutám a trestnému stíhaniu",
       "GDPR sa uplatňuje pri vytváraní snímok, na ktorých sú zachytené identifikovateľné osoby"
     ],
@@ -45,15 +47,15 @@
     ],
     "secondaryLinks": [
       {
-        "title": "skeyes — Riadenie letovej prevádzky",
-        "description": "Belgické riadenie letovej prevádzky a informácie o vzdušnom priestore"
+        "title": "skeyes — Drony a geografické zóny",
+        "description": "Stránka belgického poskytovateľa riadenia letovej prevádzky o dronoch: podmienky lietania v geografických zónach a DAA-planner"
       },
       {
         "title": "BCAA — Časté otázky o dronoch",
         "description": "Často kladené otázky o predpisoch pre drony v Belgicku"
       }
     ],
-    "disclaimerText": "Pred lietaním vždy skontrolujte oficiálne zdroje BCAA a Droneguide. Táto aplikácia je pomôcka a nemá právnu záväznosť. Belgicko sa riadi predpismi EASA, ktoré zahŕňajú prísne národné požiadavky na poistenie.",
+    "disclaimerText": "Pred lietaním vždy skontrolujte oficiálne zdroje BCAA a Droneguide. Táto aplikácia je pomôcka a nemá právnu záväznosť. Belgicko sa riadi predpismi EASA doplnenými o národné pravidlá (vrátane povinného poistenia a pevne stanovených geografických zón).",
     "sectionLabelRules": "KĽÚČOVÉ PRAVIDLÁ (KATEGÓRIA EASA OPEN)",
     "sectionLabelPrimary": "OFICIÁLNE ZDROJE",
     "sectionLabelSecondary": "ĎALŠIE ZDROJE",

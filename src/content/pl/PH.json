@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "e85b5f3541d893697ea6591ad6e2d83b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "cd7d00ae89362b29f698d8bc4b8a6112",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -13,22 +13,26 @@
     "linksSheetTitle": "Przestrzeń powietrzna i zasady — Filipiny",
     "dronePilotCredentialName": "RPA Controller Certificate",
     "keyRules": [
-      "Maks. 400 ft (122 m) nad poziomem gruntu",
-      "Przez cały czas utrzymuj bezpośredni kontakt wzrokowy z dronem bez użycia przyrządów (okulary lub soczewki kontaktowe są dozwolone). Lot z użyciem gogli FPV jest dozwolony wyłącznie z obserwatorem wzrokowym utrzymującym VLOS; lot poza zasięgiem wzroku wymaga zezwolenia CAAP (PCAR Part 11).",
-      "Rejestracja wymagana do WSZELKIEGO komercyjnego użytku dronów (dowolna masa); drony niekomercyjne rejestrowane dopiero od 7 kg wzwyż zgodnie z CAAP PCAR Part 11",
-      "Zachowaj co najmniej 10 km od każdego lotniska — strefę tę rozszerzono na mocy CAAP Memorandum Circular 026-2025 po obserwacjach dronów w pobliżu NAIA (Manila) pod koniec 2024 r. i na początku 2025 r.; przepis jest rygorystycznie egzekwowany.",
+      "Maksymalna wysokość wynosi 120 m (ok. 400 ft) nad poziomem gruntu.",
+      "Przez cały czas musisz samodzielnie utrzymywać drona w bezpośrednim zasięgu wzroku (okulary lub soczewki kontaktowe są w porządku; gogle FPV, lornetka ani ekrany się nie liczą). Loty poza zasięgiem wzroku, także z obserwatorami (EVLOS), wymagają zezwolenia CAAP (PCAR Part 11).",
+      "Rejestracja w CAAP jest wymagana dla wszystkich dronów używanych komercyjnie (dowolna masa) oraz dla dronów niekomercyjnych o masie 7 kg i więcej (zasady rejestracji CAAP). PCAR Part 11 jest sformułowany szerzej, więc w razie wątpliwości skontaktuj się z CAAP (awd@caap.gov.ph).",
+      "Zachowaj co najmniej 10 km od każdego lotniska, chyba że posiadasz Special Permit CAAP (wtedy z obserwatorem i maks. 120 m AGL) — potwierdzone w CAAP Memorandum Circular 026-2025 i rygorystycznie egzekwowane.",
+      "Bez Special Permit CAAP nie lataj w przestrzeni kontrolowanej, w strefach zakazanych lub ograniczonych, nad obiektami wrażliwymi dla bezpieczeństwa narodowego, nad akcjami straży pożarnej, policji lub innych służb ratunkowych ani z poruszającego się pojazdu (PCAR Part 11).",
       "Minimalna odległość 30 m od niezaangażowanych osób",
+      "Zachowaj co najmniej 150 m odległości w poziomie od obszarów mieszkalnych, handlowych, przemysłowych i rekreacyjnych i nigdy nie lataj nad osobami postronnymi ani tłumami (PCAR Part 11, kategoria otwarta; maks. masa startowa 25 kg).",
       "Loty nocne wymagają specjalnego zezwolenia CAAP oraz odpowiedniego oświetlenia drona — domyślnie nie są dozwolone.",
       "RPA Controller Certificate jest wymagany do użytku komercyjnego lub dla dronów o masie powyżej 7 kg (ważny 5 lat)",
-      "Operacje komercyjne wymagają UAS Operator Certificate (ważnego 3 lata) oraz Remote Pilot License dla pilota; licencja jest wymagana do użytku komercyjnego, a także dla dronów o masie 7 kg lub większej, nawet podczas lotów rekreacyjnych.",
-      "Ubezpieczenie od odpowiedzialności cywilnej jest wymagane w ramach procedury uzyskania UAS Operator Certificate dla operacji komercyjnych.",
-      "Zawsze ustępuj pierwszeństwa wszystkim załogowym statkom powietrznym"
+      "Komercyjne prace dronem i każdy lot poza kategorią otwartą (np. drony powyżej 25 kg lub loty poza zasięgiem wzroku) wymagają Certificate of Authorization CAAP (ważny 5 lat), licencjonowanego pilota zdalnego, rejestracji drona oraz ubezpieczenia od odpowiedzialności cywilnej wobec osób trzecich (PCAR Part 11).",
+      "Zawsze ustępuj pierwszeństwa wszystkim załogowym statkom powietrznym",
+      "Nie lataj w ciągu 8 godzin od spożycia alkoholu. Każde poważne obrażenie ciała lub szkodę majątkową zgłoś do CAAP w ciągu 48 godzin."
     ],
     "importantNotes": [
-      "Strefa wyłączenia o promieniu 10 km wokół lotnisk (rozszerzona w 2025 r. na mocy MC 026-2025) jest surowsza niż typowe w większości krajów strefy o promieniu 3–9 km.",
-      "Operatorzy komercyjni potrzebują zarówno RPA Controller Certificate (5 lat), jak i UAS Operator Certificate (3 lata)",
+      "Strefa 10 km wokół lotnisk jest większa niż w większości krajów; lot w jej obrębie wymaga Special Permit CAAP.",
+      "Operatorzy komercyjni potrzebują Certificate of Authorization CAAP (ważny 5 lat), a każdy pilot — RPA Controller Certificate (ważny 5 lat).",
       "Loty nocne nie są domyślnie dozwolone — potrzebne są specjalne zezwolenie CAAP oraz odpowiednie oświetlenie drona.",
-      "Ubezpieczenie od odpowiedzialności cywilnej jest obowiązkowe dla wszystkich komercyjnych operacji dronowych jako część procedury uzyskania Operator Certificate."
+      "Ubezpieczenie od odpowiedzialności cywilnej wobec osób trzecich jest obowiązkowe dla wszystkich komercyjnych operacji dronowych (kategoria szczególna), obok Certificate of Authorization.",
+      "Za naruszenie przepisów CAAP dotyczących dronów grozi grzywna 20 000–100 000 PHP za każde naruszenie.",
+      "Piloci zagraniczni, którzy potrzebują świadectwa pilota CAAP (użytek komercyjny lub drony od 7 kg), mogą zamiast uzyskiwania lokalnego zwalidować w CAAP ważną zagraniczną licencję RPA; walidacja jest ważna 1 rok i wymaga szkolenia producenta, 5 godzin doświadczenia oraz lotu pokazowego przed CAAP."
     ],
     "primaryLinks": [
       {
@@ -42,12 +46,12 @@
     ],
     "secondaryLinks": [
       {
-        "title": "CAAP — Portal rejestracji UA",
-        "description": "Zarejestruj drona w rejestrze UA prowadzonym przez CAAP"
+        "title": "CAAP — Rejestracja RPA",
+        "description": "Zarejestruj drona w CAAP"
       },
       {
-        "title": "CAAP — Licencjonowanie komercyjne",
-        "description": "Wymagania dotyczące Świadectwa operatora RPA oraz Certyfikatu operatora UAS"
+        "title": "CAAP — RPA Controller Certificate",
+        "description": "Wymagania i procedura wnioskowania o RPA Controller Certificate"
       }
     ]
   }

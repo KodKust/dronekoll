@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Altezza massima: 120 m (400 ft) dal suolo",
+      "Altezza massima: 120 m (400 ft) AGL (ANAC); voli ricreativi: non oltre 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "Droni di peso superiore a 250 g: registrazione obbligatoria presso SISANT (ANAC)",
-      "Droni fino a 250 g: esenti dalla registrazione, autorizzati automaticamente",
-      "Distanza minima di 5,4 km dagli aeroporti per i voli a bassa quota",
-      "Distanza minima di 9 km dagli aeroporti per i voli fino a 120 m",
+      "I droni fino a 250 g non devono essere registrati nel SISANT (Risoluzione ANAC n. 806). Dal 1° luglio 2026 (ICA 100-40), anche per questi droni i voli richiedono l'autorizzazione tramite SARPAS (DECEA). I droni oltre 250 g devono essere registrati nel SISANT.",
+      "Zone di restrizione di volo aeroportuali (FRZ) (ICA 100-40, in vigore dal 1° luglio 2026): intorno all'aerodromo (ZEA), la FRZ parte dal livello del suolo fino a 1.740 m; per restarne al di sotto puoi volare fino a 100 ft (30 m) oltre 1.740 m, 200 ft (60 m) oltre 2.350 m, 300 ft oltre 2.960 m e 400 ft oltre 3.570 m. Nei settori di avvicinamento e decollo (ZAD), la FRZ parte dal livello del suolo fino a 3.550 m; più oltre: 100 ft oltre 3.550 m, 200 ft oltre 4.480 m, 300 ft oltre 5.400 m e 400 ft oltre 6.320 m. Per volare all'interno della FRZ servono un Termo de Coordenação e una richiesta SARPAS con almeno 4 giorni di calendario di anticipo.",
+      "Voli ricreativi (ICA 100-40, art. 32): altezza massima di 200 ft (60 m) AGL e distanza orizzontale massima di 300 m. Vicino agli aerodromi si applicano le fasce FRZ: verifica in SARPAS.",
       "Mantieni sempre il drone in linea di vista diretta (VLOS)",
-      "Distanza minima di 30 metri dalle persone non coinvolte nell'operazione",
-      "Prima di ogni volo in spazio aereo controllato è necessaria l'autorizzazione SARPAS (DECEA)",
+      "Distanza minima di 30 m dalle persone non coinvolte nell'operazione",
+      "Ogni volo richiede l'autorizzazione di accesso allo spazio aereo tramite SARPAS (DECEA), compresi i droni fino a 250 g. Preavviso minimo: 30 minuti nella categoria Open; 4 o 8 giorni di calendario per le operazioni che intersecano una FRZ o aree soggette a restrizioni, BVLOS o sopra i 400 ft. Sono esenti i voli ricreativi in una EAC designata per le attività ricreative.",
       "L'apparato di trasmissione deve essere certificato da ANATEL",
-      "I voli notturni richiedono un'autorizzazione specifica e luci anticollisione"
+      "Voli notturni: il drone deve avere luci di navigazione (ICA 100-40, art. 20)",
+      "I piloti di età inferiore a 18 anni devono essere sempre accompagnati da un pilota di età superiore a 18 anni, responsabile dell'operazione",
+      "Uso non ricreativo di droni oltre 250 g (RBAC No. 100): è obbligatoria un'assicurazione che copra i danni a terzi. Il superamento dell'esame teorico ANAC (RBAC 100.13(b)) non è richiesto fino al 31 dicembre 2026 (Risoluzione n. 805/2026, art. 2)."
     ],
     "importantNotes": [
-      "Turisti: il Brasile CONSENTE i voli ricreativi, ma i droni di peso superiore a 250 g devono essere registrati presso SISANT prima del volo",
-      "Le sanzioni imposte da ANAC possono arrivare a R$ 7.000 per infrazione — operare senza registrazione o autorizzazione SARPAS è una violazione grave",
+      "Turisti: il Brasile CONSENTE i voli ricreativi. I droni oltre 250 g devono essere registrati nel SISANT (gli stranieri possono usare il passaporto) e i voli richiedono l'autorizzazione SARPAS (DECEA), anche con droni fino a 250 g.",
+      "Le multe dell'ANAC per i droni partono da importi di riferimento compresi tra R$ 750 e R$ 4.500 per violazione (operare senza registrazione: R$ 2.250 – Risoluzione n. 762/2024); in base alle circostanze attenuanti e aggravanti, l'importo finale può variare dal 20% al 300% di tale importo (Risoluzione n. 761/2024, art. 35). Volare senza autorizzazione SARPAS è un'infrazione del traffico aereo giudicata dalla JJAER (ICA 100-40, art. 66).",
       "I parchi nazionali (ICMBio) e le aree indigene (FUNAI) vietano generalmente i droni senza autorizzazione specifica",
       "Spiagge e aree turistiche urbane (Rio, São Paulo, Salvador) sono soggette a restrizioni comunali — informati presso le autorità locali"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — Autorizzazione al volo (DECEA)",
-        "description": "Sistema DECEA per richiedere l'autorizzazione al volo in spazio aereo controllato. Obbligatorio prima di ogni volo"
+        "description": "Sistema DECEA per richiedere l'autorizzazione di accesso allo spazio aereo, anche per i droni fino a 250 g. Obbligatorio prima di ogni volo"
       },
       {
         "title": "ANATEL — Certificazione delle apparecchiature",
@@ -48,15 +50,15 @@
         "description": "NOTAM attivi e carte aeronautiche ufficiali DECEA per verificare eventuali restrizioni temporanee"
       },
       {
-        "title": "ANAC — Domande frequenti sui droni",
-        "description": "Risposte ufficiali di ANAC alle domande più comuni degli operatori di droni"
+        "title": "ANAC — Domande frequenti sul SISANT (registrazione dei droni)",
+        "description": "Risposte ufficiali dell'ANAC sulla registrazione SISANT, anche per gli stranieri"
       },
       {
-        "title": "RBAC-E n. 94 — Normativa tecnica completa",
-        "description": "Regolamento Speciale Brasiliano dell'Aviazione Civile n. 94 — testo integrale applicabile ai droni"
+        "title": "RBAC No. 100 — Norma tecnica completa",
+        "description": "Regolamento brasiliano dell'aviazione civile n. 100 (sostituisce il RBAC-E No. 94) — testo integrale applicabile ai droni"
       }
     ],
-    "disclaimerText": "Consulta sempre le fonti ufficiali di ANAC e DECEA prima di volare. Questa app è uno strumento, non una fonte giuridicamente vincolante. Il Brasile applica il RBAC-E No. 94 (attualmente in transizione verso il RBAC No. 100), che richiede l'approvazione obbligatoria tramite SARPAS.",
+    "disclaimerText": "Consulta sempre le fonti ufficiali di ANAC e DECEA prima di volare. Questa app è uno strumento, non una fonte giuridicamente vincolante. Il Brasile applica il RBAC No. 100 e la Risoluzione n. 806 (ANAC, da giugno 2026) e l'ICA 100-40 (DECEA, da luglio 2026), con autorizzazione obbligatoria tramite SARPAS.",
     "sectionLabelRules": "REGOLE PRINCIPALI",
     "sectionLabelPrimary": "FONTI UFFICIALI",
     "sectionLabelSecondary": "RISORSE AGGIUNTIVE",

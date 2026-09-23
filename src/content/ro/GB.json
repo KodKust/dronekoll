@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
-    "engine": "opus-5",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "efa2a30f33ab3aa81ade21c803c0ce10",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,21 @@
     "keyRules": [
       "Maximum 120 m (400 ft) deasupra nivelului solului",
       "Flyer ID necesar de la 100 g — promovează testul online CAA (40 de întrebări, prag de trecere de 75%)",
+      "Operator ID obligatoriu dacă drona ta cântărește 250 g+ sau 100 g+ cu cameră — 12,34 £/an, proprietarul trebuie să aibă 18+ ani; aplică ID-ul pe fiecare dronă.",
       "Menține drona permanent în raza ta vizuală directă, fără mijloace optice, și suficient de aproape încât să vezi în ce direcție este orientată și să observi alte aeronave. Nu există o distanță maximă fixă stabilită prin lege în metri — cât de departe poți zbura depinde de vizibilitate, de lumină și de drona în sine, nu de o rază prestabilită.",
-      "Minimum 50 m față de persoanele neimplicate (30 m / 5 m se aplică doar dronelor cu marcaj de clasă UK și certificat A2)",
-      "Zonele de restricție a zborului (FRZ) înconjoară aeroporturile, însă forma și dimensiunea lor exactă diferă de la un aeroport la altul — nu există un „cerc universal de 5 km”. Verifică întotdeauna FRZ-ul concret pe harta oficială de siguranță a dronelor a CAA înainte de a zbura în apropierea unui aeroport.",
+      "Drone sub 250 g sau din clasa UK0/UK1/C0 (C1 până la 31 dec. 2027): poți zbura mai aproape de persoanele neimplicate și deasupra lor, dar niciodată deasupra mulțimilor. Alte drone: păstrează cel puțin 50 m față de persoanele neimplicate și nu zbura niciodată deasupra lor; în subcategoria standard Far from People (A3) trebuie, de asemenea, să rămâi la 150 m de zonele rezidențiale, recreative, comerciale și industriale (inclusiv parcuri, plaje și atracții turistice). Cu un certificat A2: UK2 (C2 până la sfârșitul lui 2027) 30 m sau 5 m în modul de viteză redusă; alte drone sub 2 kg 50 m.",
+      "Zonele de restricție a zborului (FRZ) înconjoară aeroporturile, însă forma și dimensiunea lor exactă diferă de la un aeroport la altul — nu există un „cerc universal de 5 km”. Verifică întotdeauna FRZ-ul concret pe harta oficială a restricțiilor UAS a NATS înainte de a zbura în apropierea unui aeroport.",
+      "Zbor de noapte: o lumină verde intermitentă trebuie să fie aprinsă (montează una dacă drona ta nu are)",
       "Asigurarea de răspundere civilă față de terți (conform Regulamentului CE 785/2004) este obligatorie pentru zborurile comerciale, adică nerecreative, precum și pentru orice dronă de 20 kg sau mai grea — opțională, dar recomandată pentru uzul recreativ mai ușor.",
       "Remote ID se introduce treptat: din ianuarie 2026 pentru dronele cu marcaj de clasă UK (UK1/UK2/UK3/UK5/UK6); complet obligatoriu din ianuarie 2028",
       "Regatul Unit NU face parte din EASA — certificatele de pilot ale UE nu sunt valabile în Regatul Unit",
-      "Londra are trei zone restricționate permanente — R157 (Hyde Park și reședințele regale), R158 (City of London, Square Mile, o zonă mică de circa 0,5 NM în jurul districtului financiar) și R159 (Canary Wharf și Isle of Dogs) — unde toate dronele sunt interzise indiferent de dimensiune, cu excepția cazului în care există o aprobare obținută printr-o cerere Non-Standard Flight depusă la NATS cu cel puțin 28 de zile în avans. Parlamentul și Downing Street se află în Westminster, în afara tuturor celor trei zone R, și sunt protejate prin mecanisme separate."
+      "Londra are zone restricționate permanente în care toate dronele sunt interzise, indiferent de dimensiune: R157 (Hyde Park — acoperă și Westminster, Parlamentul, Downing Street și Palatul Buckingham), R158 (City of London) și R159 (Isle of Dogs/Canary Wharf). Zborul acolo necesită o autorizare Enhanced Non-Standard Flight prin NATS — solicit-o cu cel puțin 21 de zile înainte (pentru zonele din Londra poate dura mai mult). Castelul Windsor (R156) și Windsor Great Park (R161) sunt, de asemenea, zone permanente de interdicție de zbor pentru drone."
     ],
     "importantNotes": [
-      "Pragul de înregistrare din Regatul Unit este de 100 g — mai strict decât cel de 250 g din UE",
       "Certificatele de dronă UE/EASA NU sunt recunoscute în Regatul Unit de la Brexit",
+      "Dronele UE din clasele C (C0–C4) pot fi operate ca clasa britanică corespunzătoare până la 31 decembrie 2027 — regulile UK privind Flyer ID/Operator ID se aplică în continuare în funcție de greutate și cameră.",
       "Consiliile locale pot restricționa zborul pe terenurile lor — verifică înainte de a zbura în parcuri",
-      "Penitenciarele au zone de interdicție de zbor de ~1 km — periclitarea unei aeronave se pedepsește cu până la 5 ani de închisoare"
+      "Penitenciarele din Anglia și Țara Galilor au zone de interdicție de zbor pentru drone (forma exactă diferă de la un penitenciar la altul — verifică harta). Periclitarea unei aeronave se poate pedepsi cu până la 5 ani de închisoare."
     ],
     "primaryLinks": [
       {
@@ -36,15 +38,15 @@
       },
       {
         "title": "CAA — înregistrare (Flyer ID și Operator ID)",
-        "description": "Obține Flyer ID (obligatoriu de la 100 g) și Operator ID (obligatoriu de la 250 g)"
+        "description": "Obține Flyer ID (obligatoriu de la 100 g) și Operator ID (obligatoriu de la 250 g sau de la 100 g dacă drona are cameră)"
       },
       {
         "title": "CAA — The Drone Code",
         "description": "Reguli oficiale: unde poți zbura, limitele de altitudine și cerințele de siguranță"
       },
       {
-        "title": "Drone Assist — harta spațiului aerian",
-        "description": "Aplicație gratuită de planificare a zborului care arată zonele de interdicție de zbor și restricțiile de spațiu aerian"
+        "title": "Drone Assist — aplicație de spațiu aerian terță",
+        "description": "Aplicație neoficială (Altitude Angel) — confirmă întotdeauna restricțiile pe harta oficială a restricțiilor UAS a NATS"
       }
     ],
     "secondaryLinks": [
@@ -57,8 +59,8 @@
         "description": "Când este necesară asigurarea dronei (obligatorie pentru utilizarea necomercială)"
       },
       {
-        "title": "CAA — politica Remote ID",
-        "description": "Cerințele Remote ID din Regatul Unit din ianuarie 2026"
+        "title": "CAA — Remote ID (când trebuie să-l activezi)",
+        "description": "Cerințele UK privind Remote ID din ianuarie 2026"
       }
     ]
   }

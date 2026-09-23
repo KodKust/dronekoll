@@ -1,39 +1,42 @@
 {
   "meta": {
-    "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c7bb0eb5efb529d016ee7e14e38488c5a01fec2c25b6f85e5c65f17487613d71",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Altitudine maximă: 152 m (500 ft) deasupra nivelului solului (AGL)",
-      "Distanță minimă de 4 km față de aeroporturi și aerodromuri",
-      "Distanță minimă de 30 m pe orizontală și 20 m pe verticală față de persoane, clădiri sau obiecte",
-      "Utilizare comercială (indiferent de greutate): este necesară înregistrarea la MTC + o autorizație specifică",
-      "Menține întotdeauna contactul vizual direct cu drona (VLOS)",
-      "Zbor permis doar pe timp de zi — zborurile de noapte necesită o autorizație specifică din partea DGAC",
-      "Zonele urbane: necesită aprobarea prealabilă a MTC; zonele rurale: fără restricții specifice",
-      "Zone în care zborul fără autorizație este restricționat: aeroporturi, aerodromuri, instalații strategice și zone cu densitate mare a populației",
-      "Distincție juridică: uz recreativ (agrement) vs. uz profesional/comercial (activități specializate)"
+      "Altitudine maximă: 152 m (500 ft) deasupra nivelului solului (AGL) (NTC 001-2015, art. 8(e)(10)).",
+      "Distanță minimă de 4 km față de aeroporturi și aerodromuri (NTC 001-2015, art. 8(e)(19)).",
+      "Păstrează o distanță minimă de 30 m pe orizontală și 20 m pe verticală față de persoane, clădiri sau obstacole în toate fazele zborului (NTC 001-2015, art. 8(e)(9)).",
+      "Nu zbura deasupra autostrăzilor, drumurilor, potecilor, podurilor, infrastructurii electrice sau de telecomunicații (stâlpi, turnuri, cabluri, antene), căilor navigabile sau conductelor de hidrocarburi; în apropierea lor, rămâi la mai mult de 30 m pe orizontală de marginea lor (NTC 001-2015, art. 8(e)(20)).",
+      "Uz recreativ: dronele sub 2 kg sunt excluse din Legea nr. 30740 și din regulamentul acesteia, dar limitările operaționale din NTC 001-2015 (altitudine, distanțe, zone) se aplică oricărei utilizări civile. De la 2 kg, precum și pentru orice utilizare nerecreativă, drona trebuie înregistrată la DGAC; neînregistrarea se sancționează cu amendă (Legea nr. 30740, art. 3 și 4); procedura este automată prin Ghișeul virtual de depunere al MTC (Mesa de Partes Virtual).",
+      "Uz nerecreativ (orice greutate): înregistrarea dronei, acreditarea de pilot RPAS (vârsta de cel puțin 18 ani, curs RPAS la un CIAC sau aeroclub și examen DGAC), asigurare de răspundere civilă de cel puțin 10 UIT și autorizarea DGAC (NTC 001-2015, pct. 8(c)-(d)). Înregistrarea este automată din ianuarie 2025.",
+      "Drona trebuie să rămână în permanență în câmpul vizual direct al pilotului.",
+      "Zborul este permis doar pe timp de zi: NTC interzice operarea în condiții de noapte (după apusul sau înainte de răsăritul soarelui) (NTC 001-2015, art. 8(e)(13)).",
+      "Zone urbane și populate: zborul nu este permis. DGAC îl autorizează doar în mod excepțional pentru instituții publice, contractanții acestora, servicii declarate de interes public, pompieri și INDECI, cu drone de până la 6 kg echipate cu parașută. Orice capitală de departament, provincie sau district și orice localitate cu peste 1000 de locuitori este considerată zonă urbană. Zone rurale: supuse limitărilor generale ale normei (NTC 001-2015, art. 8(e)(2) și (f)).",
+      "Zone restricționate: aeroporturi, aerodromuri, instalații strategice și zone cu densitate mare a populației, cu excepția cazului în care există autorizare.",
+      "Distincție juridică: uz recreativ (agrement) vs. uz profesional/comercial (activități specializate), cu cerințe diferite pentru fiecare."
     ],
     "importantNotes": [
       "🏛️ MACHU PICCHU ȘI SITURI ARHEOLOGICE: Ministerul Culturii interzice utilizarea dronelor fără o autorizație specială la Machu Picchu, Liniile Nazca, Chan Chan, Caral, Kuélap și alte situri arheologice. Este necesară o autorizație din partea Ministerului Culturii PE LÂNGĂ cea din partea MTC.",
       "🌳 ZONE NATURALE PROTEJATE ȘI AMAZONIA: SERNANP (Serviciul Național pentru Zonele Naturale Protejate) impune un permis special pentru drone în parcuri precum Manu, Tambopata și Huascarán. Amazonia și comunitățile indigene au restricții suplimentare.",
-      "🏙️ ZONE URBANE DIN LIMA ȘI CUSCO: Centrul orașului Lima (Plaza Mayor, Palatul Guvernamental), Aeroportul Jorge Chávez (LIM), centrul orașului Cusco și aeroportul (CUZ), zonele militare și ambasadele au restricții permanente. Centrul istoric al orașului Cusco necesită un permis din partea Ministerului Culturii."
+      "🏙️ ZONE URBANE ÎN LIMA ȘI CUSCO: Lima și Cusco sunt zone urbane, unde zborul nu este permis decât cu autorizare excepțională (NTC 001-2015, art. 8(e)(2) și (f)). Palatul Guvernului, zonele militare, aeroporturile Jorge Chávez (LIM) și Cusco (CUZ), precum și zonele publicate în AIP-Perú sau în NOTAM-uri sunt, de asemenea, zone restricționate (art. 8(e)(19) și (22)). Centrul istoric din Cusco necesită în plus un aviz favorabil din partea Ministerului Culturii (Legea nr. 30740, art. 2.5).",
+      "⚠️ SANCȚIUNI: Poliția Națională poate interveni și confisca drona dacă aceasta este pilotată cu încălcarea reglementărilor; DGAC aplică sancțiuni, inclusiv amenzi (D.S. 012-2026-MTC, art. 7 și 73; Legea nr. 30740, art. 4)."
     ],
     "primaryLinks": [
       {
-        "title": "MTC — cerințe pentru operarea unei drone",
-        "description": "Site-ul oficial al Ministerului Transporturilor și Comunicațiilor (MTC) cu cerințele pentru operarea dronelor. Include reglementarea NTC 001-2015 și procedurile DGAC."
+        "title": "MTC — Regulamentul Legii nr. 30740 (D.S. 012-2026-MTC)",
+        "description": "Regulamentul oficial al MTC (29/05/2026). Noile categorii și licențe intră în vigoare când DGAC actualizează NTC 001-2015; până atunci se aplică NTC."
       },
       {
-        "title": "Ghișeul virtual de depunere MTC — înregistrare RPAS",
-        "description": "Platforma oficială online a MTC pentru înregistrarea dronelor (RPAS) în întregime online. Selectează „Înregistrarea sistemelor de aeronave pilotate la distanță (RPAS)” și completează formularul"
+        "title": "MTC Mesa de Partes Virtual (Ghișeul virtual de depunere) — Înregistrare RPAS",
+        "description": "Platforma online oficială a MTC pentru înregistrarea dronelor (RPAS) integral online. Selectează „Registro de Aeronaves Pilotadas a Distancia (RPAS)” (Înregistrarea aeronavelor pilotate de la distanță) și completează formularul"
       },
       {
         "title": "MTC — pagina instituțională",
-        "description": "Site-ul principal al Ministerului Transporturilor și Comunicațiilor. Acces la proceduri, reglementări și servicii aeronautice furnizate de DGAC"
+        "description": "Site-ul principal al Ministerului Transporturilor și Comunicațiilor. Acces la procedurile, reglementările și serviciile aeronautice ale DGAC"
       },
       {
         "title": "DGAC — contact RPAS (autorizații)",
@@ -42,23 +45,23 @@
     ],
     "secondaryLinks": [
       {
-        "title": "El Peruano — permise pentru drone (oficial)",
-        "description": "Monitorul Oficial El Peruano: informații oficiale despre permisele necesare pentru operarea dronelor, conform MTC și DGAC"
+        "title": "MTC — Acreditare de pilot RPAS",
+        "description": "Pagina MTC (actualizată la 11/08/2026): cererea, examenul online și acreditarea electronică a piloților/operatorilor RPAS (uz nerecreativ)."
       },
       {
-        "title": "TV Perú — ghid oficial al cerințelor",
-        "description": "Prezentare oficială a postului public TV Perú, cu informații actualizate despre cerințele pentru operarea dronelor, conform MTC"
+        "title": "MTC — Înregistrarea automată a dronelor (2025)",
+        "description": "Anunț MTC (26/01/2025): înregistrarea RPAS durează doar câteva minute prin Ghișeul virtual de depunere (Mesa de Partes Virtual)."
       },
       {
         "title": "Sediile MTC — serviciu cu prezență fizică",
-        "description": "Sediul central MTC: Jr. Zorritos nr. 1203, Cercado de Lima. Serviciile sunt disponibile și la Centrele regionale de servicii pentru cetățeni pentru procedurile RPAS cu prezență fizică."
+        "description": "Sediul central MTC: Jr. Zorritos 1203, Cercado de Lima. Serviciile sunt disponibile și la Centrele regionale de servicii pentru cetățeni (Centros de Atención al Ciudadano) pentru procedurile RPAS cu prezență fizică."
       }
     ],
-    "disclaimerText": "Verifică întotdeauna sursele oficiale ale DGAC din cadrul Ministerului Transporturilor și Comunicațiilor (MTC) înainte de zbor. Această aplicație este un instrument, nu o autoritate juridică. Peru aplică Standardul tehnic complementar (NTC) 001-2015, cu o înregistrare simplificată prin Ghișeul virtual de depunere al MTC.",
+    "disclaimerText": "Verifică întotdeauna sursele oficiale ale DGAC din cadrul Ministerului Transporturilor și Comunicațiilor (MTC) înainte de zbor. Această aplicație este un instrument, nu o autoritate juridică. Peru aplică Legea nr. 30740, regulamentul acesteia (D.S. nr. 012-2026-MTC) și NTC 001-2015, cu o înregistrare simplificată prin Ghișeul virtual de depunere al MTC (Mesa de Partes Virtual).",
     "sectionLabelRules": "REGULI ESENȚIALE",
     "sectionLabelPrimary": "SURSE OFICIALE",
     "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
     "linksSheetTitle": "Spațiu aerian și reglementări — Peru",
-    "dronePilotCredentialName": "Licență de pilot RPAS"
+    "dronePilotCredentialName": "Acreditare de pilot/operator RPAS"
   }
 }

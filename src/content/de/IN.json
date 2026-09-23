@@ -1,33 +1,36 @@
 {
   "meta": {
-    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "17cf8ce1211fdb6fb07c1979f47d5e58",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
-    "disclaimerText": "Prüfe vor dem Fliegen stets die offiziellen Quellen der DGCA und von DigitalSky. Diese App ist ein Hilfsmittel – keine rechtliche Instanz. Indien nutzt eine verpflichtende digitale Plattform zur Einhaltung sämtlicher Drohnenvorschriften.",
+    "disclaimerText": "Prüfe vor dem Fliegen stets die offiziellen Quellen der DGCA (eGCA) und von DigitalSky. Diese App ist ein Hilfsmittel – keine rechtliche Instanz.",
     "sectionLabelRules": "WICHTIGSTE REGELN",
     "sectionLabelPrimary": "OFFIZIELLE QUELLEN",
     "sectionLabelSecondary": "WEITERE RESSOURCEN",
     "linksSheetTitle": "Luftraum & Regeln – Indien",
     "dronePilotCredentialName": "Fernpilotenzeugnis",
     "keyRules": [
-      "DigitalSky teilt den Luftraum in grüne Zonen (sofortige automatische Freigabe), gelbe Zonen (kontrollierter Luftraum, etwa 15–30 min automatische Bearbeitung — dazu gehört der Bereich um Flughäfen in etwa 8–12 km Entfernung) und rote Zonen (beschränkt, manuelle Genehmigung erforderlich) — prüfe vor jedem Flug DigitalSky, denn die genauen Zonengrenzen an einem konkreten Flughafen können von diesem allgemeinen Muster abweichen.",
+      "DigitalSky teilt den Luftraum in Grün (keine Genehmigung nötig, bis 120 m/400 ft), Gelb (Genehmigung der zuständigen Flugverkehrskontrollbehörde) und Rot (nur mit Genehmigung der Zentralregierung) ein. 8–12 km vom Rand eines in Betrieb befindlichen Flughafens gilt Grün nur bis 60 m (200 ft); darüber gilt Gelb. Prüfe vor dem Fliegen immer die DigitalSky-Karte.",
+      "Sofern keine Ausnahme gilt (Nano-Drohnen bis 250 g oder Modelldrohnen bis 25 kg, die ausschließlich für Bildung, Forschung oder Freizeit in Sichtweite genutzt werden), muss eine Drohne einer Musterzulassung der DGCA entsprechen. Die DGCA hat die Registrierung von Drohnen ohne Musterzulassung bis auf Weiteres vorübergehend ausgesetzt (nur in Indien hergestellte Nano- und Modelldrohnen können die Registrierung direkt bei der DGCA beantragen), und eine nicht registrierte Drohne darf nicht geflogen werden.",
       "Versicherung für alle Kategorien außer Nano verpflichtend",
-      "Ein Remote Pilot Certificate (RPC) ist für die gewerbliche Nutzung von Drohnen der Klasse Micro (250 g–2 kg) und größer erforderlich und für alle Drohnen der Klasse Small (2–25 kg) und darüber unabhängig vom Zweck verpflichtend. Nano (unter 250 g) benötigt nie ein RPC, auch nicht gewerblich.",
+      "Ein Remote Pilot Certificate (RPC) ist für die gewerbliche Nutzung von Drohnen der Klasse Micro (>250 g–2 kg) und größer erforderlich und für alle Drohnen der Klasse Small (2–25 kg) und darüber unabhängig vom Zweck verpflichtend. Nano (≤250 g) benötigt nie ein RPC, auch nicht gewerblich.",
       "Jeder Flug muss in Sichtverbindung bleiben — die Drohne muss jederzeit mit bloßem Auge sichtbar sein, ohne Fernglas oder ähnliche Hilfsmittel — sofern die DGCA keine gesonderte EVLOS- oder BVLOS-Genehmigung erteilt hat.",
       "Flüge in roten Zonen sind ohne Sondergenehmigung der zuständigen Behörde über DigitalSky strikt verboten."
     ],
     "importantNotes": [
-      "Die Registrierung in DigitalSky ist für alle Drohnen verpflichtend außer für Drohnen der Kategorie Nano (unter 250 g), für die weder eine Registrierung noch eine UIN erforderlich ist. Wer eine registrierungspflichtige Drohne unregistriert fliegt, riskiert deren Beschlagnahme.",
+      "Alle Drohnen, auch Nano (≤250 g), müssen vor dem Flug registriert sein und eine UIN haben (über das eGCA-Portal der DGCA). Nano-Drohnen sind nur von der Musterzulassung, dem Remote Pilot Certificate und der Haftpflichtversicherung gegenüber Dritten ausgenommen. Wer eine nicht registrierte Drohne fliegt, riskiert Strafen und Beschlagnahme.",
+      "Besucher: Die Einfuhr von Drohnen nach Indien ist gemäß DGFT Notification 54/2022 verboten (alle Gewichtsklassen, auch ≤250 g), außer mit DGFT-Genehmigung für Regierungs-/F&E- oder Verteidigungs-/Sicherheitszwecke. Für die Registrierung sind ein indischer Reisepass oder ein von der indischen Regierung ausgestellter Ausweis sowie ein Adressnachweis erforderlich, daher kann die Drohne eines Besuchers in der Regel nicht legal registriert oder geflogen werden.",
       "Rote Zonen umfassen Flughäfen, Militärgebiete, Grenzen und sensible Orte",
-      "Die Versicherung ist für Drohnen der Kategorien Micro, Small und Medium verpflichtend"
+      "Die Versicherung ist für Drohnen der Kategorien Micro, Small und Medium verpflichtend",
+      "Jeder Unfall mit deiner Drohne muss der DGCA innerhalb von 48 Stunden gemeldet werden."
     ],
     "primaryLinks": [
       {
         "title": "DigitalSky – DGCA-Plattform",
-        "description": "Verpflichtende Plattform für Drohnenregistrierung, Fluggenehmigungen und Zonenprüfungen"
+        "description": "Verpflichtende Plattform für Fluggenehmigungen und Zonenprüfungen"
       },
       {
         "title": "DGCA – Drohnenvorschriften",

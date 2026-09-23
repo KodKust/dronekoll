@@ -1,45 +1,44 @@
 {
   "meta": {
-    "sourceHash": "81c150124a0453afe7f5155ecf3def2f6e3595db14698b42ea98cfaec819abc2",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "739c62107e50c8694e19f4d73e36df062253357ffa3b107cac8d667605278391",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimaalne kõrgus: 122 m (400 ft) maapinnast (AGL)",
-      "Maksimaalne horisontaalne kaugus: 750 m operaatorist (droon peab jääma otsenähtavusse, VLOS)",
+      "Maksimaalne kõrgus: 122 m (400 ft) maapinnast (RAC 100).",
+      "Maksimaalne horisontaalne kaugus: 750 m operaatorist, hoides drooni otsenähtavuses (VLOS) (RAC 100).",
       "Vähemalt 200 g MTOW-ga droonid: kohustuslik registreerimine Aerocivili UAS Platformis",
-      "Avatud kategooria (droonid ≤25 kg): käitamine lubatud ilma eelloata RAC 100 alusel",
-      "Klass B (25–150 kg): nõuab alati Aerocivili luba",
-      "Vähemalt 9 km kaugusel lennujaama võrdluspunktist",
-      "Vähemalt 3 km kaugusel helikopteriväljakutest",
+      "Registreeritud droon: sellel on vähemalt 2 × 4 cm suurune püsiv silt registreerimisnumbri, nime, e-posti aadressi ja aadressiga atencionalciudadano@aerocivil.gov.co (RAC 100).",
+      "Avatud kategooria (droonid ≤25 kg, ainult mitteäriline kasutus): käitamine lubatud ilma eelloata RAC 100 alusel. Äriline kasutus = erikategooria koos loaga.",
+      "Üle 25 kg droonid (kuni 250 kg): ainult erikategoorias, Aerocivili lennuloaga ja sobivussertifikaati omava piloodiga (RAC 100).",
+      "Vähemalt 2 km kaugusel sõjaväe- või politseibaasidest, vanglatest ja elutähtsast taristust ning igast kohast, kus viibib president (RAC 100).",
+      "Lennujaamad: lendamine on keelatud lennujaamas ja võrdluspunktist (ARP) kuni 6 km kaugusel; 6 kuni 9 km kaugusel ainult avatud kategoorias, maksimaalselt 61 m (200 ft) madalaimast rajalävest kõrgemal ja väljaspool ZNVD-d — kontrolli Visor Geográfico UAS-ist (RAC 100).",
+      "Vähemalt 3 km kaugusel kopteriväljakutest (RAC 100).",
       "Vähemalt 30 m kaugusel tegevusega mitteseotud inimestest ja hoonetest",
-      "Hoia droon alati otsenähtavuse piires (VLOS) ja lenda ainult päevavalguse ajal",
-      "GEO-tsoonid (droonide piirangualad) määrab Aerocivil kooskõlas ICAO-ga"
+      "Hoia droon alati otsenähtavuses (VLOS). Öösel ainult pidevalt põlevate tulede ja vaatlejaga (RAC 100).",
+      "Droonide lennukeelutsoone (ZNVD) ning keelu-, piirangu- ja ohualasid saab kontrollida Aerocivili Visor Geográfico UAS-ist (RAC 100)."
     ],
     "importantNotes": [
       "📋 RAC 100 (praegu kehtiv): peamine droone Colombias reguleeriv õigusakt. See asendab varasema RAC 91, Appendix 13. Sellega kehtestatakse avatud kategooria (käitamine ilma eelloata) ja erikategooria (loaga). Circular 100-MAUT-5.0-22-010-CI annab registreerimisprotsessi kohta samm-sammulised juhised.",
+      "✈️ TURISTID: RAC 100 kehtib ka välismaalastele. Alates 200 g droonid registreeritakse Plataforma UAS Colombias kehtiva passiga; see on tasuta.",
       "🌳 RAHVUSPARGID JA KAITSEALAD: Colombia’s National Natural Parks (PNN) keelab ilma eriloata droonide kasutamise sellistes parkides nagu Tayrona, Cocuy, Los Nevados ja Amacayacu. Colombia Kariibi mere piirkonnas ja Amazonase piirkonnas kehtivad täiendavad piirangud — enne reisi kontrolli iga pargi nõudeid.",
-      "🏛️ PIIRANGU- JA LINNAALAD: Bogotá kesklinn (Casa de Nariño, Plaza Bolívar, El Dorado Airport (SKBO)), Cartagena müüridega vanalinn, sõjaväetsoonid, piirid (Venezuela, Ecuador, Panama), laevatatavad jõed ja naftaplatvormid on püsipiirangutega — kontrolli Aerocivili GEO-tsoone.",
-      "💰 KARISTUSED JA VASTUTUS: Litsentsita või lubatud aladest väljaspool käitamine võib tuua kaasa märkimisväärsed trahvid (UVT — maksuväärtuse ühik), seadmete konfiskeerimise ja raskematel juhtudel kriminaalvastutuse. Ärilisel kasutamisel on vastutuskindlustus nõutav."
+      "🏛️ PIIRANGUALAD: lendamine on keelatud ZNVD-tsoonides (nt El Dorado SKBO ümbruses) — kontrolli enne iga lendu Aerocivili Visor Geográfico UAS-i.",
+      "💰 KARISTUSED JA VASTUTUS: registreerimata või lubatud aladest väljaspool käitamine võib tuua kaasa märkimisväärsed trahvid (UVT — maksuväärtuse ühik), seadmete konfiskeerimise ja raskematel juhtudel kriminaalvastutuse. Ärilisel kasutamisel on vastutuskindlustus nõutav."
     ],
     "primaryLinks": [
       {
-        "title": "Aerocivil — Mehitamata õhusõidukisüsteemid (UAS/droonid)",
-        "description": "Tsiviillennunduse Eriadministratsiooniüksuse (UAEAC) ametlik droonileht: RAC 100, teabekirjad, UAS-i registreerimine"
-      },
-      {
-        "title": "RPAS-i dokumendid — Navigatsiooniteenused",
-        "description": "Ametlik RPAS-i/droonide dokumendihoidla: vormid, registreerimisjuhendid, ringkiri 100-MAUT-5.0-22-010-CI ja kohalduvad määrused"
+        "title": "Aerocivil — mehitamata lennundus (UAS/droonid)",
+        "description": "Tsiviillennunduse eriametiasutuse (UAEAC) ametlik droonide veebisait: RAC 100, teabekirjad (Informative Circulars), UAS-i registreerimine"
       },
       {
         "title": "Aerocivil — Korduma kippuvad küsimused droonide kohta",
         "description": "Ametlik KKK-jaotis droonide ja linna õhuliikuvuse kohta, üksikasjalike vastustega operaatorite sagedastele küsimustele"
       },
       {
-        "title": "Riiklik lennundusregister — UAS",
-        "description": "Lennundusregistri süsteem üle 250 g kaaluvatele droonidele. Sisaldab registreerimisjuhendit ja nõudeid: tuvastamine, drooni fotod (6, PDF <2MB) ja digivorm"
+        "title": "Aerocivil — Plataforma UAS Colombia (drooni registreerimine)",
+        "description": "Aerocivili UAS-i e-teenuste portaal: juurdepääs Plataforma UAS Colombiale 200 g ja raskemate droonide registreerimiseks (tasuta), Visor Geográfico UAS ja õpetused"
       }
     ],
     "secondaryLinks": [
@@ -49,11 +48,11 @@
       },
       {
         "title": "Kodanikuteenused (e-post + telefon)",
-        "description": "Aerocivili ametlik e-posti aadress droone puudutavate päringute jaoks. Telefon: +57 (601) 425 1000 või tasuta 01 8000 112373. Esmaspäev–reede, 8.00–16.30."
+        "description": "Aerocivili ametlik e-posti aadress droone puudutavate päringute jaoks. Telefon: +57 (601) 425 1000 või +57 (601) 518 5214. Esmaspäev–reede 8.00–16.30. Droonid: gdmua@aerocivil.gov.co"
       },
       {
         "title": "Colombia lennundusmäärused (RAC)",
-        "description": "Colombia lennundusmäärused (RAC). Sisaldab RAC 100 (UAS-i operatsioonid), RAC 91 lisa 13 ja kõiki droonidele kohalduvaid määrusi"
+        "description": "Colombia lennundusmäärused (RAC). Sisaldab RAC 100 (UAS-i operatsioonid, kehtib alates 2023. aastast) ja teisi droonidele kohalduvaid määrusi"
       }
     ],
     "disclaimerText": "Kontrolli enne lendamist alati Civil Aviation Authority (Aerocivil) ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Colombias kehtib RAC 100 (Aeronautical Regulations for UAS Operations), mille kohaselt tuleb vähemalt 200 g MTOW-ga droonid UAS Platformi kaudu registreerida.",

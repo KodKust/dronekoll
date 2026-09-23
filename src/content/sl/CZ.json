@@ -1,37 +1,41 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Največ 120 m nad tlemi (kategorija EASA Open)",
-      "Registracija kot upravljavec UAS (brezplačna) za drone, ki tehtajo 250 g ali več oziroma so opremljeni s kamero",
-      "Potrebno spletno usposabljanje A1/A3 — najnižja starost 16 let",
-      "Leti v CTR in ATZ letališč so dovoljeni le po uskladitvi s kontrolo zračnega prometa ali upravljavcem letališča",
-      "Letenje nad avtocestami in glavnimi cestami je omejeno — izogibajte se jim",
-      "Vedno ohranjajte neposreden vidni stik z dronom (VLOS)",
+      "V odprti kategoriji je največja višina 120 m, merjena kot razdalja do najbližje točke zemeljskega površja — ne preprosto navpično navzdol, zato ob pobočju lahko šteje tudi teren ob vas. Znotraj 50 m od visoke umetne ovire (višje od 105 m) lahko subjekt, odgovoren za oviro, zaprosi za dovoljenje za letenje do 15 m nad višino ovire.",
+      "Kot upravljavec drona se morate registrirati, če vaš dron tehta 250 g ali več (ali bi lahko ob udarcu prenesel več kot 80 J kinetične energije) — to velja celo za igrače. Pod 250 g je registracija še vedno obvezna, če ima dron senzor, ki lahko zajema osebne podatke, razen če velja za igračo po direktivi EU o varnosti igrač. Zahteve glede usposabljanja/pilotske licence so ločene in odvisne od razreda drona in podkategorije.",
+      "Najnižja starost za samostojno letenje v odprti kategoriji je 16 let — spletno usposabljanje in izpit A1/A3 veljata 5 let in sta priznana po vsej EU. Brez starostne omejitve: dron razreda C0, ki je igrača, v podkategoriji A1, ali zasebno izdelan dron pod 250 g; sicer mlajši piloti le pod neposrednim nadzorom pilota, ki izpolnjuje zahteve glede starosti in usposabljanja.",
+      "Turisti: registracija upravljavca in potrdilo A1/A3 iz druge države EU/EASA veljata tudi na Češkem (registrirate se lahko le v eni državi). Zunaj EU: registrirajte se v prvi državi EU/EASA, v kateri boste leteli (na Češkem pri ÚCL na dron.caa.gov.cz), in če vaš dron zahteva usposabljanje, ga opravite po pravilih EU – potrdila iz držav zunaj EU niso priznana.",
+      "Zavarovanje odgovornosti je na Češkem obvezno v podkategoriji A2 ter v A3 za drone nad 4 kg (ne v A1) — preverite, ali vaša polica krije lete na Češkem.",
+      "V letaliških CTR in ATZ lahko brez usklajevanja letite le do višine, ki jo določa mreža (preverite v DroneMap). Višje le po usklajevanju z ŘLP in z letom, označenim v DroneMap; v notranji coni CTR mora biti let vedno označen v DroneMap, nad višino mreže pa je potrebno tudi usklajevanje z upravljavcem letališča. Na vojaških letališčih (MCTR) veljajo strožji pogoji. Na nenadzorovanih letališčih nad višino mreže le po usklajevanju z AFIS ali upravljavcem letališča. Označevanje v DroneMap ne velja za drone, ki ne zahtevajo registracije.",
+      "Na gosto naseljenih območjih (cona LKR316) mora biti območje leta vnaprej označeno v DroneMap (dronemap.gov.cz). Oznaka (tu, pa tudi v CTR in zavarovanih naravnih območjih) mora vsebovati višino, čas, vrsto in težnostno kategorijo drona ter registracijsko številko upravljavca. Ne velja za drone, za katere registracija upravljavca ni potrebna.",
+      "Nacionalni parki, zavarovana krajinska območja (CHKO) in manjša zavarovana območja, npr. naravni rezervati (cona LKR318): leti le na podlagi predhodne prijave pristojnemu organu za varstvo narave ali njegovega dovoljenja in z območjem leta, označenim v DroneMap. Ne velja za drone, za katere registracija upravljavca ni potrebna.",
+      "Ceste (cona LKR317): praviloma znotraj 50 m od osi avtoceste ali ceste I. razreda le s soglasjem ŘSD; praviloma znotraj 15 m od osi cest II. in III. razreda le s soglasjem lastnika ali upravljavca ceste (podobno za lokalne ceste zunaj gosto naseljenih območij). Območje leta mora biti označeno v DroneMap – ne velja za drone, za katere registracija upravljavca ni potrebna.",
+      "V odprti kategoriji morate dron ohranjati v neposrednem vidnem polju s prostim očesom (očala/kontaktne leče so v redu; daljnogled ali zaslon ne štejeta) — ali si pomagati z opazovalcem, pri čemer ves čas jasno in učinkovito komunicirata, da lahko skupaj spremljata zračni prostor in se izogneta trkom. Način »follow-me« je ločena izjema le v podkategoriji A1, dovoljena znotraj 50 m od pilota.",
       "Ne letite nad skupinami ljudi. Pravila za neudeležene osebe so odvisna od podkategorije, razredne oznake in pogojev delovanja; preverite uradno matriko.",
       "Nočni let je dovoljen v skladu z osnovnimi zahtevami EASA za odprto kategorijo, če se uporablja predpisana zelena utripajoča luč, razen če veljavna geografska cona ali nacionalni predpis določa strožje pogoje.",
-      "Globe do 5.000.000 CZK (≈ 185.000 €) za kršitve",
-      "Praški grad in vladne zgradbe: stroge cone prepovedi letenja"
+      "Globe do 3.000.000 CZK (≈ 120.000 €) za kršitve",
+      "Praški grad in vladne zgradbe: absolutne cone prepovedi letenja"
     ],
     "importantNotes": [
-      "Leti v CTR in ATZ letališč zahtevajo uskladitev s kontrolo zračnega prometa ali upravljavcem letališča",
-      "Preletanje avtocest in glavnih cest je na Češkem omejeno — načrtujte pot tako, da se jim izognete",
-      "Globe do 5.000.000 CZK (≈ 185.000 €)",
+      "V letaliških CTR in ATZ brez usklajevanja le do višine, ki jo določa mreža (preverite v DroneMap); višje le po usklajevanju (v CTR z ŘLP, na nenadzorovanih letališčih z AFIS ali upravljavcem letališča) in z letom, označenim v DroneMap; v notranji coni CTR je označevanje vedno obvezno",
+      "Ceste (cona LKR317): pri avtocestah in cestah I. razreda praviloma znotraj 50 m od osi le s soglasjem ŘSD; pri cestah II. in III. razreda praviloma znotraj 15 m od osi le s soglasjem lastnika ali upravljavca ceste",
+      "Globe do 3.000.000 CZK (≈ 120.000 €)",
       "Na območju Praškega gradu veljajo stroge omejitve letenja",
       "GDPR velja za zbiranje posnetkov, na katerih je mogoče prepoznati posameznike"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — predpisi za drone",
-        "description": "Uradna pravila in viri organa za civilno letalstvo glede dronov"
+        "title": "ÚCL — predpisi za drone",
+        "description": "Uradna pravila in viri Uprave za civilno letalstvo glede dronov"
       },
       {
-        "title": "CAA — registracija upravljavca",
+        "title": "ÚCL — registracija upravljavca",
         "description": "Brezplačna registracija kot upravljavec UAS (veljavno v vseh državah EU/EASA)"
       },
       {
@@ -39,17 +43,17 @@
         "description": "Uradna interaktivna karta s prikazom con za drone in omejitev zračnega prostora"
       },
       {
-        "title": "CAA — pregled pravil",
+        "title": "ÚCL — pregled pravil",
         "description": "Pregled pravil za letenje z droni na Češkem"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Kontrola zračnega prometa — NOTAM in zračni prostor",
+        "title": "ŘLP — NOTAM in zračni prostor",
         "description": "Češka kontrola zračnega prometa in informacije o zračnem prostoru"
       },
       {
-        "title": "CAA — pogosta vprašanja o dronih",
+        "title": "ÚCL — pogosta vprašanja o dronih",
         "description": "Pogosta vprašanja o predpisih za drone na Češkem"
       }
     ],
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "URADNI VIRI",
     "sectionLabelSecondary": "DODATNI VIRI",
     "linksSheetTitle": "Zračni prostor in predpisi — Češka",
-    "dronePilotCredentialName": "Pilotska licenca za drone"
+    "dronePilotCredentialName": "Potrdilo o usposabljanju A1/A3"
   }
 }

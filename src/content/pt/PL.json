@@ -1,28 +1,32 @@
 {
   "meta": {
-    "sourceHash": "b05d24f015f2308210145943a215484aa1c49ad8f402e6dfeecc2171445caa3b",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "sourceHash": "71ddedd6eadd4ef67c92064fd4d382b6fa87094ff6d0bff888fecfd333d022c5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Máx. 120 m acima do nível do solo (Categoria Aberta EASA)",
-      "Registo como operador de UAS (gratuito) para drones com peso igual ou superior a 250 g ou equipados com câmara",
-      "É necessária formação online A1/A3 — idade mínima de 16 anos",
-      "Registo obrigatório junto do DroneTower nas zonas de espaço aéreo controlado",
-      "Varsóvia: é necessária autorização do Serviço de Proteção do Estado (SOP) nas imediações de instalações governamentais",
-      "Mantenha sempre a linha de vista direta (VLOS) com o drone",
+      "Na categoria aberta, a altura máxima é de 120 m, medida como a distância ao ponto mais próximo da superfície terrestre — não simplesmente na vertical, pelo que, junto a um declive, o terreno ao seu lado também pode contar. A menos de 50 m de um obstáculo artificial alto (mais de 105 m), a entidade responsável pelo obstáculo pode pedir autorização para voar até 15 m acima da altura do obstáculo.",
+      "Tem de se registar como operador de drones se o seu drone pesar 250 g ou mais (ou puder transferir mais de 80 J de energia num impacto) — isto aplica-se mesmo a brinquedos. Abaixo de 250 g, o registo continua a ser obrigatório se o drone tiver um sensor capaz de captar dados pessoais, a menos que seja considerado um brinquedo nos termos da Diretiva da UE relativa à segurança dos brinquedos. Os requisitos de formação/certificado do piloto são independentes e dependem da classe e da subcategoria do drone.",
+      "A partir de 13 de novembro de 2025, o operador de um drone com massa à descolagem entre 250 g e 20 kg tem de ter um seguro obrigatório de responsabilidade civil (OC) (capital mínimo seguro: o equivalente a 50 000 SDR por ocorrência) — também para voos recreativos.",
+      "Na Polónia, desde 27 de fevereiro de 2025, a idade mínima para a categoria aberta é de 14 anos; a formação e o exame online gratuitos são válidos por 5 anos. As pessoas mais novas podem voar sob a supervisão direta de um piloto com pelo menos 14 anos que tenha a competência exigida (exceções: um drone-brinquedo C0 em A1 e um drone de construção privada com menos de 250 g).",
+      "Cada voo de drone na Polónia — independentemente da massa ou do local — tem de ser comunicado à PAŻP antes da descolagem através do Check-In na aplicação DroneTower (art. 156a(2) da Lei da Aviação, Prawo lotnicze). Em alguns locais, incluindo partes das zonas DRA-R CTR em torno de aeródromos controlados, é também necessária uma missão aprovada pela PAŻP (Kreator Misji KSID em drony.gov.pl) — nesse caso, só descola após a aceitação do controlador da TWR no DroneTower.",
+      "Zonas DRA-R CTR em torno de aeródromos controlados, categoria aberta: a menos de 1 km do aeródromo — sem voos; 1–6 km — acima de 30 m AGL apenas com competência A2 (drones > 0,9 kg também com uma missão aprovada), máximo 50 m AGL; para além de 6 km — máximo 100 m AGL. Num CTR é exigida pelo menos a competência A1/A3 (também para drones < 250 g). No CTR de Rzeszów (EPRZ) aplicam-se regras diferentes. Confirme os limites e as condições exatos no DroneTower ou no DroneMap.",
+      "Varsóvia: o centro da cidade está abrangido pela zona permanente EPP21 WARSZAWA II — voos de drones apenas com autorização do gestor da zona; consulte as condições e os contactos no DroneTower.",
+      "Na categoria aberta, tem de manter o drone dentro do seu próprio campo de visão, sem ajudas (óculos/lentes de contacto são aceites; binóculos ou um ecrã não contam) — ou voar com a ajuda de um observador, mantendo sempre uma comunicação clara e eficaz entre ambos, para vigiarem em conjunto o espaço aéreo e evitarem colisões. O modo “Follow-me” é uma exceção à parte, permitida até 50 m do piloto.",
       "Não sobrevoe aglomerações de pessoas. As regras aplicáveis a pessoas não envolvidas dependem da subcategoria, da marca de classe e das condições de operação; consulte a matriz oficial.",
-      "Zonas DRA-RM (abaixo de 6 km, com restrições de altitude) e zonas DRA-RH (acima de 6 km) — consulte drony.gov.pl",
+      "As zonas restritas DRA-R dividem-se segundo a probabilidade de obter autorização: DRA-RH (alta), DRA-RM (média), DRA-RL (baixa) — não segundo a altura (Diretrizes n.º 4/2025 do Presidente da ULC, Wytyczne nr 4/2025 Prezesa ULC). Consulte drony.gov.pl antes de voar numa zona restrita.",
+      "Os drones das classes C1, C2 e C3 têm de voar com a identificação remota (Remote ID) ligada e atualizada, a transmitir o número de operador; isto não se aplica às classes C0/C4, nem aos drones sem marca de classe colocados no mercado antes de 1 de janeiro de 2024 ou de construção privada (em A1 abaixo de 250 g ou em A3).",
       "Os voos noturnos são permitidos ao abrigo das normas de referência da categoria aberta da EASA, desde que seja utilizada a luz verde intermitente exigida, a menos que uma zona geográfica ou uma norma nacional em vigor imponha uma condição mais rigorosa.",
-      "Parques nacionais e sítios Natura 2000: estão em vigor restrições"
+      "Os parques nacionais podem estar abrangidos por zonas geográficas DRA-R — voos apenas com autorização do gestor da zona; consulte as zonas no DroneTower antes de voar (o mesmo se aplica aos sítios Natura 2000 e às reservas naturais)."
     ],
     "importantNotes": [
-      "A aplicação DroneTower é obrigatória para a notificação de voos nas zonas CTR",
-      "Varsóvia: é necessária aprovação do SOP nas imediações de instalações governamentais",
+      "O Check-In na aplicação DroneTower é obrigatório antes de cada voo na Polónia — não apenas nas zonas CTR.",
+      "Varsóvia tem zonas proibidas permanentes publicadas no AIP, incluindo EPP9 WARSZAWA, EPP21 WARSZAWA II (centro da cidade) e EPP26 FRONTEX (um círculo de 500 m em torno da sede da Frontex), bem como outras zonas geográficas para drones. Consulte-as, e as respetivas condições, no DroneTower ou no DroneMap antes de voar.",
       "O registo é gratuito e válido em todos os países da UE/EASA",
-      "Multas até 50 000 PLN por infração",
+      "Turistas de fora da UE/EASA (por exemplo, dos EUA ou do Reino Unido): registe-se como operador no primeiro país da UE onde pretende voar — se for a Polónia, em drony.gov.pl — e afixe o seu número de operador no drone. Um registo de outro país da UE/EASA é válido na Polónia; não é possível registar-se duas vezes.",
+      "Sanções administrativas da ULC: 4 000 PLN por cada infração às regras da categoria aberta, 10 000 PLN por voar em desrespeito das condições de uma zona geográfica ou por não se registar como operador; violar proibições de voo (por exemplo, por razões de segurança) é crime punível com pena de prisão até 5 anos.",
       "O RGPD aplica-se à captação de imagens de pessoas identificáveis"
     ],
     "primaryLinks": [
@@ -31,22 +35,22 @@
         "description": "Regulamentação e recursos oficiais sobre drones da Autoridade de Aviação Civil"
       },
       {
-        "title": "ULC — Registo de Operador",
-        "description": "Registo gratuito como operador de UAS (válido em todos os países da UE/EASA)"
+        "title": "drony.gov.pl — Registo de operadores",
+        "description": "Registo gratuito de operador de UAS, com formação e exame online (registo válido em todos os países da UE/EASA)"
       },
       {
         "title": "PANSA — DroneMap",
-        "description": "Mapa oficial do espaço aéreo que mostra os CTR, as zonas restritas e informação em tempo real"
+        "description": "Mapa oficial do espaço aéreo que mostra os CTR, as zonas proibidas e informação em tempo real"
       },
       {
         "title": "DroneTower — Aplicação de Notificação de Voos",
-        "description": "Aplicação obrigatória para a notificação de voos em espaço aéreo controlado"
+        "description": "Aplicação obrigatória para comunicar (Check-In) cada voo de drone na Polónia"
       }
     ],
     "secondaryLinks": [
       {
         "title": "PANSA — NOTAM",
-        "description": "NOTAM ativos e restrições temporárias do espaço aéreo"
+        "description": "Gabinete NOTAM da PAŻP — informação NOTAM para a FIR Warszawa; consulte as restrições atuais para drones no DroneTower"
       },
       {
         "title": "ULC — Perguntas Frequentes sobre Drones",
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "FONTES OFICIAIS",
     "sectionLabelSecondary": "RECURSOS ADICIONAIS",
     "linksSheetTitle": "Espaço aéreo e regulamentação — Polónia",
-    "dronePilotCredentialName": "Certificado de Piloto de Drone"
+    "dronePilotCredentialName": "Qualificações de Piloto de Drone"
   }
 }

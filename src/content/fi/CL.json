@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (asumattomat alueet, harraste): Enintään 750 g painavilla droneilla saa lentää yksityisellä kiinteistöllä ilman lupaa enintään 50 m korkeimman esteen yläpuolella",
-      "DAN 151 (asutut alueet / ammattikäyttö): Yli 750 g painavat dronet edellyttävät DGACin rekisteröintiä, lentäjän lupakirjaa ja toimintalupaa",
-      "Suurin sallittu kokonaiskorkeus: 130 m AGL (DAN 151) — vaihtelee luvan mukaan",
-      "Vähintään 2 km:n etäisyys lentoasemista ja lentopaikoista",
+      "DAN 91.102(j): ilman DGAC:n lupaa saa lentää vain enintään 750 g painavilla, paisutetusta polyeteenistä tai vastaavasta materiaalista valmistetuilla droneilla yksityis- tai harrastekäytössä, yksityisillä paikoilla ja enintään 50 m korkeimman esteen tai rakennuksen yläpuolella. Kaikki muut lennot edellyttävät DGAC:n ennakkolupaa.",
+      "DAN 151 (asutut alueet, yleinen etu tai ilmatyö): koskee kaiken painoisia droneja (enintään 9 kg) ja edellyttää DGAC:n rekisteröintiä, kauko-ohjaajan pätevyystodistusta, vakuutusta, AOC- tai CEO-todistusta sekä toimintalupaa.",
+      "DAN 151: dronessa on oltava toiminnan aikana varavarjo, ja sitä on voitava ohjata käsin (enintään 9 kg ilman varjoa).",
+      "Yleinen raja on 400 jalkaa (120 m) AGL — sen yläpuolella lentäminen edellyttää DGAC:n ennakkolupaa (DAN 151 Ed. 3, voimassa toukokuusta 2024). Voimassa oleva DAN 91 ilmaisee saman rajan muodossa ”400 jalkaa (130 metriä)”.",
+      "Ei lentämistä alle 2 km:n etäisyydellä lentopaikan kiitotien jatketusta keskilinjasta (kynnyksestä mitattuna) eikä alle 1 km:n etäisyydellä kiitotien keskilinjan suuntaisesti.",
+      "Ei dronetoimintaa alueilla, joilla paloa sammutetaan miehitetyillä ilma-aluksilla (DAN 91.102(i)(11) ja DAN 151.103(g)(14)).",
       "Enintään 500 m:n etäisyys lennättäjästä (säilytä suora näköyhteys)",
-      "Pidä drone aina suorassa näköyhteydessä (VLOS)",
+      "Sinun on pidettävä drone koko ajan suorassa näköyhteydessä ohjataksesi sen lentoa.",
       "Yölennot edellyttävät DGACin erillistä lupaa",
-      "DGAC-rekisteröinti: merkki, malli, sarjanumero, enimmäispaino ≤9 kg hyväksyttyyn käyttöön, 10×15 cm valokuva",
-      "Lentäjän lupakirja edellyttää kirjallisen kokeen suorittamista (vähimmäistulos 75 %); koe käsittelee määräyksiä DAN 151 ja DAN 91 sekä meteorologiaa ja aerodynamiikkaa",
+      "DGAC-rekisteröinti (DAN 151.203): valmistaja/maa, merkki, malli, sarjanumero ja tehdaspaino sekä kopio henkilökortistasi; hakemus tehdään DGAC:n verkkoalustalla (elokuusta 2026 alkaen). Suurin lentoonlähtöpaino 9 kg.",
+      "Kauko-ohjaajan pätevyystodistus: vähintään 18 vuoden ikä, koulutusilmoitus ja kirjallinen koe (vähintään 75 %), joka käsittelee määräyksiä DAN 151 ja DAN 91 sekä NOTAMeja, meteorologiaa ja aerodynamiikkaa; voimassa 36 kuukautta.",
       "Kolmannen osapuolen vastuuvakuutus (JACin hyväksymä) vaaditaan ammattikäyttöön"
     ],
     "importantNotes": [
-      "📋 KAKSI SÄÄNTELYKEHYSTÄ — DAN 91 vs. DAN 151: Chile erottaa toisistaan lennättämisen ASUMATTOMILLA alueilla (DAN 91, sallivampi; harrastelennot ≤750 g ilman lupaa) ja lennättämisen ASUTUILLA tai yleisen edun alueilla (DAN 151, joka edellyttää rekisteröintiä, sertifioitua lentäjää ja vakuutusta). Sovellettava säännöstö riippuu sijainnista JA tarkoituksesta.",
-      "✈️ ULKOMAISET TURISTIT: Säännöt koskevat yhtä lailla myös ulkomailla asuvia. Rekisteröintiä ei vaadita harrastekäyttöön enintään 750 g painavilla droneilla asumattomilla yksityisalueilla. Kaikkeen muuhun toimintaan (matkailu, ammattikäyttö, ihmisten lähellä, puistoissa) vaaditaan samat luvat kuin Chilen kansalaisilta.",
-      "🌋 KANSALLISPUISTOT JA -SUOJELUALUEET: Kansallinen metsäviranomainen (CONAF) kieltää dronet ilman erityislupaa puistoissa kuten Torres del Paine, Lauca ja Isluga-tulivuoren kansallispuisto. Chilen Antarktis: INACHin erityismääräykset. Tarkista kustakin puistosta tai suojelualueesta ennen matkaa.",
-      "🏔️ RAJOITUSALUEET: Santiagon keskusta (La Moneda, Plaza de Armas), SCEL-lentoasema (Pudahuel), sotilas- ja raja-alueet. Pääsiäissaari, Robinson Crusoe -saari, Antarktis: lisärajoituksia. Katso kiellettyjen, rajoitettujen ja vaarallisten alueiden kartta lähteestä AIP Chile (ENR 5.1).",
-      "💰 VUOSITTAINEN UUSIMINEN: DGAC-rekisteröinti on voimassa 12 kuukautta ja se on uusittava vuosittain. Lennättäminen ilman voimassa olevaa rekisteröintiä tai pätevyyttä voi johtaa sakkoon, laitteiston takavarikointiin ja toimintakieltoon."
+      "KAKSOISSÄÄNTELYKEHYS — DAN 91 (asumattomat alueet): jokainen lento edellyttää DGAC:n ennakkolupaa tapauskohtaisesti (liite D). DAN 151 (asutut alueet, yleinen etu tai ilmatyö): rekisteröinti, pätevyystodistus, vakuutus ja lupa. Ainoa poikkeus: ≤750 g painavat, paisutetusta polyeteenistä tai vastaavasta materiaalista valmistetut dronet harrastekäytössä, yksityisillä paikoilla ja ≤50 m korkeimman esteen yläpuolella.",
+      "✈️ ULKOMAISET TURISTIT: Säännöt koskevat myös ei-asukkaita. Ilman DGAC:n lupaa sallittuja ovat vain ≤750 g painavat, paisutetusta polyeteenistä tai vastaavasta materiaalista valmistetut dronet harrastekäytössä, yksityisillä paikoilla ja ≤50 m korkeimman esteen yläpuolella. Kaikki muut lennot edellyttävät DGAC:n ennakkolupaa; DGAC-rekisteröinti edellyttää kopiota henkilökortistasi.",
+      "🌋 SUOJELUALUEET: Dronejen harraste- tai matkailukäyttö ei ole sallittua millään valtion suojellulla luonnonalueella (kansallispuistot, luonnonsuojelualueet, luonnonmuistomerkit). CONAF myöntää lupia lennoille vain perustelluissa tapauksissa (tieteellinen tutkimus, seuranta tai muut hoitotarkoitukset) osoitteessa conaf.cerofilas.gob.cl, ja tällöin vaaditaan lisäksi DGAC:n lupa. Etelämanner: INACHin erityismääräykset.",
+      "🏔️ RAJOITETUT ALUEET: Ei lentämistä La Monedan (vyöhyke SC-P28), sotilaslaitosten, vankiloiden ja strategisten laitosten yllä eikä AIP Chilen (ENR 5.1) tai NOTAMien kielletyillä, rajoitetuilla tai vaara-alueilla.",
+      "💰 VOIMASSAOLOAJAT: Kauko-ohjaajan pätevyystodistus on voimassa 36 kuukautta, ja se uusitaan uudella kokeella (väh. 75 %); DAN 151 -toimintalupa on voimassa enintään 6 kuukautta. DGAC:n määräysten noudattamatta jättäminen voi johtaa sakkoihin, toiminnan keskeyttämiseen, laitteiston takavarikointiin tai rikosoikeudelliseen vastuuseen, jos ilmailun turvallisuus vaarantuu."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Chilen virallinen ilmailutietojärjestelmä: NOTAMit, kielletyt/rajoitetut/vaaralliset alueet (ENR 5), kartat, lentopaikat"
       },
       {
-        "title": "RPA-rekisteröintimenettely (virallinen PDF)",
-        "description": "DGACin virallinen menettely dronejen (RPA) uuteen rekisteröintiin ja tilanteen korjaamiseen. Sisältää liitteen B ja lomakkeet"
+        "title": "Dronen (RPA) rekisteröinti — DGAC:n uusi alusta",
+        "description": "Verkkorekisteröinti kansalliseen RPA-rekisteriin DAN 151:n mukaisesti. Rekisteröinti ei sinänsä ole lupa lentää."
       }
     ],
     "secondaryLinks": [

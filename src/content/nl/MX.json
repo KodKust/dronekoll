@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "17d852a01e48f71061854c0a7b614ed78721768d3d73eccf5ccdda3a556d264f",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "da2427b1326315670ad00c40760c98fe7dcb581d5abb3f16d2aa07daea8f6c28",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maximale hoogte: 120 m (400 ft) boven de grond",
-      "Minimale afstand van 9,2 km tot gecontroleerde luchthavens",
-      "Minimale afstand van 3,7 km tot ongecontroleerde vliegvelden",
+      "Minimale afstand van 9,2 km (5 NM) tot elk luchtvaartterrein, gecontroleerd of ongecontroleerd (NOM-107-SCT3-2019, 4.10.1).",
+      "Tussen 9,2 km (5 NM) en 18,5 km (10 NM) van de luchtvaartterreinen die in NOM-107 (Appendix I) staan: maximale hoogte 100 m (328 ft).",
       "Minimale afstand van 900 m tot helihavens",
+      "Vliegen is verboden in de verboden, beperkte of gevaarlijke gebieden van de AIP (ENR 5.1) en in helikoptercorridors; controleer NOTAM's vóór elke vlucht.",
       "Houd de drone altijd binnen direct zicht (VLOS), niet verder dan 457 m van de operator",
-      "Drones van 250 g of meer: verplichte registratie bij de AFAC (Appendix K-formulier)",
+      "Drones boven 250 g: verplichte registratie bij de AFAC vóór het vliegen (Appendix K-formulier)",
       "Drones die minder dan 250 g wegen: vrijgesteld van registratie, maar alle overige regels blijven van toepassing",
-      "Gewichtscategorieën: Micro (≤2 kg), Light (2–25 kg), Heavy (>25 kg)",
+      "Gewichtscategorieën: Micro (≤2 kg), Small (>2–25 kg), Large (>25 kg)",
+      "Recreatieve drones boven 2 kg: mogen alleen vliegen binnen modelvliegclubs die door de AFAC zijn erkend.",
       "Nachtvluchten vereisen specifieke toestemming van de AFAC",
-      "Commercieel gebruik vereist aanvullende toestemming afhankelijk van de gewichtscategorie"
+      "Particulier niet-commercieel of commercieel gebruik: een geldige wettelijke aansprakelijkheidsverzekering is verplicht; voor Micro (≤2 kg) is daarnaast een speciale machtiging voor gecontroleerd luchtruim vereist; Small en Large vereisen een exploitatievergunning van de AFAC."
     ],
     "importantNotes": [
-      "⚠️ BUITENLANDSE PILOTEN: NOM-107 verbiedt het gebruik van drones die in het buitenland of door buitenlanders geregistreerd zijn, tenzij er een bilaterale overeenkomst bestaat tussen Mexico en het land van herkomst. Toeristen: controleer dit voordat je op reis gaat.",
-      "Straffen voor illegale operaties kunnen oplopen tot MXN $80,000 of gevangenisstraf",
+      "BUITENLANDSE PILOTEN: NOM-107-SCT3-2019 verbiedt het gebruik van drones met een buitenlandse registratie of bestuurd door buitenlanders, tenzij er een bilaterale overeenkomst is tussen Mexico en het land van herkomst — voor zover bekend is er momenteel geen dergelijke overeenkomst van kracht.",
+      "Om Micro-drones boven 250 g en Small-drones in Mexico in te voeren, moeten ze een fabrikant en model, serienummer, gebruikershandleiding en software hebben die afstand en hoogte automatisch begrenst (NOM-107, 10.1).",
+      "Het niet naleven van NOM-107 kan door de AFAC worden bestraft op grond van de Ley de Aviación Civil; het gebruik van drones om misdrijven te plegen (bijv. het afwerpen van explosieven of het aanvallen van mensen) wordt bestraft met gevangenisstraf (Código Penal Federal, art. 163 Bis–Quáter).",
       "Nationale parken en archeologische plekken (INAH) verbieden drones over het algemeen zonder speciale toestemming",
       "Voor jachthavens en kustgebieden gelden vaak beperkingen — informeer bij de lokale autoriteiten",
       "Het register van de AFAC heeft een reactietijd van maximaal 10 werkdagen — plan vooruit"
@@ -37,16 +40,12 @@
       {
         "title": "NOM-107-SCT3-2019 — Officiële norm",
         "description": "Officiële Mexicaanse norm die de eisen vaststelt voor het gebruik van een op afstand bestuurd luchtvaartuigsysteem"
-      },
-      {
-        "title": "Circulaire CO AV-23/10 R4",
-        "description": "Verplichte circulaire met gedetailleerde technische en operationele eisen voor drones"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "ASA — Luchthavens en aanvullende diensten",
-        "description": "Informatie over Mexicaanse federale luchthavens om te controleren op verboden gebieden"
+        "title": "AFAC — Database van luchtvaartterreinen en heliports",
+        "description": "Actuele officiële lijst van luchtvaartterreinen en heliports om de minimumafstanden van NOM-107 te controleren"
       },
       {
         "title": "SICT — Burgerluchtvaart",
@@ -62,6 +61,6 @@
     "sectionLabelPrimary": "OFFICIËLE BRONNEN",
     "sectionLabelSecondary": "AANVULLENDE BRONNEN",
     "linksSheetTitle": "Luchtruim en regelgeving — Mexico",
-    "dronePilotCredentialName": "Licentie voor piloot op afstand"
+    "dronePilotCredentialName": "Machtiging als RPAS-piloot"
   }
 }

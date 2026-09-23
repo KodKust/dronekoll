@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimaalne kõrgus: 120 m (400 ft) maapinnast",
+      "Maksimaalne kõrgus: 120 m (400 ft) maapinnast (AGL) (ANAC); harrastuslennud: mitte üle 60 m (200 ft) maapinnast (AGL) (DECEA, ICA 100-40)",
       "Üle 250 g kaaluvad droonid: kohustuslik registreerimine SISANT-is (ANAC)",
-      "Kuni 250 g kaaluvad droonid: registreerimisest vabastatud, automaatselt litsentseeritud",
-      "Vähemalt 5,4 km kaugusel lennujaamadest madallendude puhul",
-      "Kuni 120 m kõrgusel lendamisel vähemalt 9 km kaugusel lennujaamadest",
+      "Kuni 250 g droone ei pea SISANT-is registreerima (ANAC-i resolutsioon No. 806). Alates 1. juulist 2026 (ICA 100-40) on ka nende droonide lendudeks vaja SARPAS-e (DECEA) kaudu saadud luba. Üle 250 g droonid tuleb registreerida SISANT-is.",
+      "Lennujaamade lennupiirangutsoonid (FRZ) (ICA 100-40, kehtib alates 1. juulist 2026): lennuvälja ümber (ZEA) algab FRZ maapinnalt kuni 1 740 m kauguseni; sellest allapoole jääd, kui lendad kuni 100 ft (30 m) kõrgusel kaugemal kui 1 740 m, 200 ft (60 m) kaugemal kui 2 350 m, 300 ft kaugemal kui 2 960 m ja 400 ft kaugemal kui 3 570 m. Lähenemis- ja stardisektorites (ZAD) algab FRZ maapinnalt kuni 3 550 m kauguseni; seejärel: 100 ft kaugemal kui 3 550 m, 200 ft kaugemal kui 4 480 m, 300 ft kaugemal kui 5 400 m ja 400 ft kaugemal kui 6 320 m. FRZ-is lendamiseks on vaja Termo de Coordenação't ja SARPAS-e taotlust vähemalt 4 kalendripäeva ette.",
+      "Harrastuslennud (ICA 100-40, art. 32): maksimaalne kõrgus 200 ft (60 m) maapinnast (AGL) ja maksimaalne horisontaalne kaugus 300 m. Lennuväljade lähedal kehtivad FRZ-vööndid – kontrolli SARPAS-es.",
       "Hoia droon alati otsenähtavuse piires (VLOS)",
-      "Vähemalt 30 meetri kaugusel operatsiooniga mitteseotud inimestest",
-      "Kontrollitavas õhuruumis on enne iga lendu vajalik SARPAS-e (DECEA) luba",
+      "Vähemalt 30 m kaugusel operatsiooniga mitteseotud inimestest",
+      "Iga lennu jaoks on vaja SARPAS-e (DECEA) kaudu saadud õhuruumi kasutamise luba, ka kuni 250 g droonide puhul. Minimaalne etteteatamisaeg: avatud kategoorias 30 minutit; 4 või 8 kalendripäeva operatsioonide puhul, mis lõikuvad FRZ-i või piiranguga aladega, BVLOS-i või üle 400 ft lendude puhul. Harrastuslennud harrastuseks määratud EAC-is on sellest vabastatud.",
       "Saateseadmed peavad olema ANATEL-i sertifitseeritud",
-      "Öölennud nõuavad eriluba ja kokkupõrget vältivat valgustust"
+      "Öölennud: droonil peavad olema navigatsioonituled (ICA 100-40, art. 20)",
+      "Alla 18-aastastel pilootidel peab alati kaasas olema üle 18-aastane piloot, kes vastutab operatsiooni eest",
+      "Üle 250 g droonide mitteharrastuslik kasutus (RBAC No. 100): kolmandatele isikutele tekitatud kahju kattev kindlustus on kohustuslik. ANAC-i teooriaeksamit (RBAC 100.13(b)) ei pea kuni 31. detsembrini 2026 sooritama (resolutsioon No. 805/2026, art. 2)."
     ],
     "importantNotes": [
-      "Turistid: Brasiilia LUBAB harrastuslende, kuid üle 250 g kaaluvad droonid tuleb enne lendu SISANT-is registreerida",
-      "ANAC-i määratavad trahvid võivad ulatuda 7 000 R$-ni rikkumise kohta — registreerimiseta või SARPAS-e loata lendamine on tõsine rikkumine",
+      "Turistid: Brasiilia LUBAB harrastuslende. Üle 250 g droonid tuleb registreerida SISANT-is (välismaalased saavad kasutada passi) ning lendudeks on vaja SARPAS-e (DECEA) luba, ka kuni 250 g droonidega.",
+      "ANAC-i trahvid droonide eest lähtuvad baassummadest R$ 750 kuni R$ 4 500 rikkumise kohta (registreerimata käitamine: R$ 2 250 – resolutsioon No. 762/2024); sõltuvalt kergendavatest ja raskendavatest asjaoludest võib lõppsumma olla 20% kuni 300% sellest summast (resolutsioon No. 761/2024, art. 35). SARPAS-e loata lendamine on lennuliiklusrikkumine, mille üle otsustab JJAER (ICA 100-40, art. 66).",
       "Rahvusparkides (ICMBio) ja põlisrahvaste aladel (FUNAI) on droonide kasutamine ilma eriloata üldjuhul keelatud",
       "Randades ja linnade turismipiirkondades (Rio, São Paulo, Salvador) kehtivad kohalike omavalitsuste piirangud — kontrolli kohalike ametiasutuste nõudeid"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — Lennuluba (DECEA)",
-        "description": "DECEA süsteem lennuloa taotlemiseks kontrollitavas õhuruumis. Nõutav enne iga lendu"
+        "description": "DECEA süsteem õhuruumi kasutamise loa taotlemiseks, ka kuni 250 g droonidele. Nõutav enne iga lendu"
       },
       {
         "title": "ANATEL — Seadmete sertifitseerimine",
@@ -48,15 +50,15 @@
         "description": "Aktiivsed NOTAM-id ja ametlikud DECEA lennunduskaardid ajutiste piirangute kontrollimiseks"
       },
       {
-        "title": "ANAC — Korduma kippuvad küsimused droonide kohta",
-        "description": "ANAC-i ametlikud vastused droonioperaatorite sagedastele küsimustele"
+        "title": "ANAC — korduma kippuvad küsimused SISANT-i kohta (drooni registreerimine)",
+        "description": "ANAC-i ametlikud vastused SISANT-is registreerimise kohta, sh välismaalastele"
       },
       {
-        "title": "RBAC-E nr 94 — Täielik tehniline standard",
-        "description": "Brasiilia tsiviillennunduse erimäärus nr 94 — droonidele kohalduv täistekst"
+        "title": "RBAC No. 100 — tehnilise standardi täistekst",
+        "description": "Brasiilia tsiviillennundusmäärus No. 100 (asendab RBAC-E No. 94) — droonidele kohalduv täistekst"
       }
     ],
-    "disclaimerText": "Enne lendamist tutvu alati ANAC-i ja DECEA ametlike allikatega. See rakendus on abivahend, mitte õigusallikas. Brasiilias kehtib RBAC-E No. 94 (praegu toimub üleminek standardile RBAC No. 100), mille kohaselt on SARPAS-e heakskiit kohustuslik.",
+    "disclaimerText": "Enne lendamist tutvu alati ANAC-i ja DECEA ametlike allikatega. See rakendus on abivahend, mitte õigusallikas. Brasiilias kohaldatakse RBAC No. 100 ja resolutsiooni No. 806 (ANAC, alates 2026. aasta juunist) ning ICA 100-40 (DECEA, alates 2026. aasta juulist), mille kohaselt on SARPAS-e kaudu saadav luba kohustuslik.",
     "sectionLabelRules": "PÕHIREEGLID",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",

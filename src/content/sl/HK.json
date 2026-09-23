@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ab66a0144761f05a1cfb8f54499fb2e2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -11,19 +11,23 @@
     "sectionLabelPrimary": "URADNI VIRI",
     "sectionLabelSecondary": "DODATNI VIRI",
     "linksSheetTitle": "Zračni prostor in pravila — Hongkong",
-    "dronePilotCredentialName": "Pooblastilo pilota SUA",
+    "dronePilotCredentialName": "Potrdilo pilota na daljavo (standardni / napredni rating)",
     "keyRules": [
-      "Največ 91 m (300 ft) nad tlemi — nižje kot v večini držav",
-      "Registracija je potrebna za vse drone, težje od 250 g, prek portala eSUA",
+      "Največ 91 m (300 ft) nad tlemi za drone kat. A2 (250 g–7 kg) in registrirane izvzete modele do 250 g; neregistrirani droni do 250 g: največ 30 m (100 ft)",
+      "Največja hitrost 50 km/h (kat. A2); neregistrirani droni do 250 g največ 20 km/h",
+      "Droni nad 250 g — in droni do 250 g, ki letijo zunaj omejitev kat. A1 — morajo biti registrirani in označeni prek portala eSUA, pilot na daljavo (od 14 let) pa se mora prav tako registrirati v eSUA. Velja tudi za obiskovalce",
       "Omejitve v bližini letališč v Hongkongu so določene kot uradno objavljena območja omejenega letenja (RFZ) okoli HKIA ter drugih letališč in heliportov, prikazana na CAD Drone Map — enotne fiksne razdalje ni. Za letenje znotraj RFZ je potrebno dovoljenje CAD, nekatera območja (npr. Victoria Harbour) pa so omejena ne glede na oddaljenost od katerega koli letališča.",
-      "Najmanjša razdalja 50 m od nevključenih ljudi",
+      "Ne letite nad prepovedanim območjem (Prohibition Area) pri Penny's Bay (npr. Hong Kong Disneyland) — določeno je z ločenim zakonom in ga cone RFZ na CAD Drone Map ne zajemajo",
+      "Ohranjajte vsaj 10 m (≤20 km/h) ali 30 m (nad 20 km/h, kat. A2) od nevključenih ljudi, vozil, plovil in objektov; nikoli ne letite nad njimi",
       "Samo podnevi — nočno letenje brez posebnega dovoljenja ni dovoljeno",
       "Območje pristanišča Victoria je omejeno",
       "Dron naj bo vedno v vašem vidnem polju (VLOS)",
+      "Droni nad 250 g morajo imeti geozavedanje in dnevnik letov; dnevnike letov hranite 6 mesecev",
       "Hongkong ima lastna pravila — predpisi celinske Kitajske NE veljajo"
     ],
     "importantNotes": [
-      "Največja višina je le 91 m (300 ft) — občutno nižja od standarda 120 m v večini držav",
+      "Največja višina je 91 m (300 ft), za neregistrirane drone do 250 g pa le 30 m (100 ft) — precej pod standardom 120 m v večini držav",
+      "Obiskovalci: droni nad 250 g potrebujejo registracijo drona in pilota v eSUA s potnim listom (običajno velja 6 mesecev). Oznake CAD ni mogoče natisniti in je ne pošiljajo v tujino — prevzemite jo na sedežu CAD ali naj vam jo pošljejo na naslov v Hongkongu (npr. v hotel)",
       "Zavarovanje NI potrebno za standardne operacije kategorije A1 in standardno ocenjene operacije A2. Kritje HK$10M velja za napredne operacije in drone kategorije B; novejša kategorija C (25–150 kg, uvedena 18. julija 2025) zahteva HK$15M (25–75 kg) ali HK$20M (75–150 kg). V preglednici zahtev CAD je datum začetka veljavnosti širše uvedbe zavarovanja naveden kot »še ni določen« — preverite trenutno stanje, preden sklepate, da je kritje potrebno za vašo kategorijo.",
       "Hongkong ima popolnoma ločena pravila od celinske Kitajske",
       "Pristanišče Victoria in okoliška območja imajo omejitve letenja",
@@ -46,11 +50,11 @@
     "secondaryLinks": [
       {
         "title": "CAD — usposabljanje za napredni rating",
-        "description": "Za drone, težje od 250 g, je potrebno usposabljanje za napredni rating"
+        "description": "Usposabljanje za napredni rating — potrebno le za napredne operacije"
       },
       {
         "title": "CAD — zahteve za zavarovanje",
-        "description": "Zahteve za obvezno zavarovanje odgovornosti do tretjih oseb za operacije dronov"
+        "description": "Zavarovanje odgovornosti do tretjih oseb — obvezno za napredne operacije; za standardne lete kat. A2 še ne velja"
       }
     ]
   }

@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "20d25911745bc6945c5cccf0785ea82d556cd1bb0a98eb5f9e4b1f82d7230b03",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "58ca5d4ebda944ebab8099950bf44fbb0464a578adf9411beaecf769f1064e8c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximaal 120 m boven de grond (EASA Open-categorie)",
-      "Registreer je als UAS-operator (€25/jaar, of €10 voor een toeristenpas)",
-      "A1/A3-onlinetraining vereist — minimumleeftijd 16 jaar",
+      "In de open categorie is de maximale hoogte 120 m, gemeten als de afstand tot het dichtstbijzijnde punt van het grondoppervlak — niet simpelweg recht naar beneden, dus bij een helling kan ook de grond naast je meetellen. Binnen 50 m van een hoog kunstmatig obstakel (hoger dan 105 m) mag de verantwoordelijke entiteit toestemming aanvragen om tot 15 m boven de hoogte van het obstakel te vliegen.",
+      "Registreer je als UAS-operator op tmcad.idronect.com (€25/jaar; bezoekers met een EASA-operatornummer: €10 voor 3 maanden)",
+      "Het registratienummer van de operator of de QR-code ervan moet worden afgedrukt en op de drone worden aangebracht — de politie kan dit controleren, en als je dit nalaat, krijg je een sanctie.",
+      "A1/A3-certificaat vereist voor drones boven 250 g (online opleiding, examen op de kantoren van TM-CAD in Lija) — minimumleeftijd 16",
+      "Drones met klasse-aanduiding C1, C2 of C3 die met Remote ID zijn uitgerust, moeten vliegen met Remote ID actief en up-to-date, met het registratienummer van de operator erin ingevoerd.",
       "Aansprakelijkheidsverzekering verplicht voor drones van elk gewicht",
       "Het HELE land is gecontroleerd luchtruim — controleer altijd IDRONECT",
-      "Houd de drone altijd binnen direct zicht (VLOS)",
+      "In de open categorie moet je de drone binnen je directe zichtlijn houden, alleen met je eigen ogen (bril/contactlenzen zijn prima; een verrekijker of scherm telt niet) — of vliegen met hulp van een waarnemer, waarbij jullie te allen tijde duidelijk en doeltreffend met elkaar communiceren, zodat jullie samen het luchtruim kunnen afspeuren en botsingen kunnen vermijden. De «Follow-me»-modus is een aparte uitzondering, toegestaan tot 50 m van de piloot.",
       "Vlieg niet over mensenmassa’s. De regels voor niet-betrokken personen zijn afhankelijk van de subcategorie, de klasse-aanduiding en de bedrijfsomstandigheden; raadpleeg de officiële matrix.",
-      "De CTR van Malta International Airport beslaat het grootste deel van het eiland",
+      "Heel Malta is gecontroleerd luchtruim — voor elke dronevlucht is toestemming van TM-CAD via tmcad.idronect.com vereist. Veel aanvragen met een laag risico worden binnen een paar minuten automatisch goedgekeurd wanneer het systeem bevestigt dat de vlucht aan de regels voldoet; volg de voorwaarden in je Authorisation Form. Een aparte no-flyzone van 5 km omvat het gebied van Malta International Airport.",
+      "Vluchten die niet automatisch worden goedgekeurd, moeten ten minste 5 werkdagen van tevoren worden ingediend. Om in een beperkte zone te vliegen, upload je in IDRONECT een toestemmingsbrief ('no objection') van de eigenaar van de zone.",
       "Nachtvluchten verboden zonder specifieke toestemming",
-      "Valletta en historische gebieden: er gelden aanvullende beperkingen"
+      "Valletta is een 'Special Permit Zone': commerciële vluchten vereisen een speciale vergunning, inclusief een 'no objection' van het Office of the Prime Minister. Controleer voor elke andere vlucht in Valletta en de andere beperkte zones de IDRONECT-kaart en de toestemmingsvoorwaarden voordat je vliegt."
     ],
     "importantNotes": [
-      "Het HELE land is gecontroleerd luchtruim — uniek in de EU",
+      "Het HELE land is gecontroleerd luchtruim — voor elke vlucht is toestemming van TM-CAD vereist",
       "Verzekering verplicht voor drones van elk gewicht",
-      "De CTR van Malta Airport beslaat het grootste deel van het hoofdeiland",
-      "Toeristenregistratie beschikbaar (€10) voor kortverblijvende bezoekers",
-      "GDPR is van toepassing bij het vastleggen van beelden van identificeerbare personen"
+      "Controleer de luchthavenzones en andere beperkte zones op de IDRONECT-kaart (tmcad.idronect.com/map)",
+      "Registratie voor drie maanden (€10) voor bezoekers die al een EASA-registratienummer als operator hebben; anders €25",
+      "GDPR is van toepassing bij het vastleggen van beelden van identificeerbare personen",
+      "Heb bewijs van registratie, verzekering, licentie en toestemming bij je — anders riskeer je een boete. Een vlucht zonder toestemming of buiten de voorwaarden ervan kan leiden tot inbeslagname van de drone."
     ],
     "primaryLinks": [
       {
@@ -32,7 +36,7 @@
       },
       {
         "title": "TM-CAD — Registreren als operator",
-        "description": "Registreer je als UAS-operator (€25/jaar of €10 toerist, geldig in alle EU/EASA-landen)"
+        "description": "Registreer je als UAS-operator op tmcad.idronect.com (€25/jaar, geldig in alle EU/EASA-landen; €10 voor 3 maanden voor bezoekers die al een EASA-operatornummer hebben)"
       },
       {
         "title": "IDRONECT — Vluchtbeheer",
@@ -49,8 +53,8 @@
         "description": "Luchtverkeersdiensten en luchtruiminformatie van Malta"
       },
       {
-        "title": "TM-CAD — Drone-FAQ",
-        "description": "Veelgestelde vragen over droneregelgeving op Malta"
+        "title": "TM-CAD — Informatie en hulp",
+        "description": "Informatie en hulp over droneregelgeving in Malta"
       }
     ],
     "disclaimerText": "Controleer vóór je vliegt altijd de officiële bronnen van TM-CAD en IDRONECT. Deze app is een hulpmiddel, geen juridische autoriteit. Malta volgt de EASA-regelgeving — let op dat het hele land gecontroleerd luchtruim is.",

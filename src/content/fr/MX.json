@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "17d852a01e48f71061854c0a7b614ed78721768d3d73eccf5ccdda3a556d264f",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "da2427b1326315670ad00c40760c98fe7dcb581d5abb3f16d2aa07daea8f6c28",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Hauteur maximale : 120 m (400 ft) au-dessus du sol",
-      "Distance minimale de 9,2 km des aéroports contrôlés",
-      "Distance minimale de 3,7 km des aérodromes non contrôlés",
+      "Distance minimale de 9,2 km (5 NM) de tout aérodrome, contrôlé ou non (NOM-107-SCT3-2019, 4.10.1).",
+      "Entre 9,2 km (5 NM) et 18,5 km (10 NM) des aérodromes listés dans la NOM-107 (annexe I) : hauteur maximale de 100 m (328 ft).",
       "Distance minimale de 900 m des héliports",
+      "Le vol est interdit dans les zones interdites, réglementées ou dangereuses de l'AIP (ENR 5.1) et dans les couloirs d'hélicoptères ; consultez les NOTAM avant chaque vol.",
       "Gardez toujours le drone en vue directe (VLOS), à 457 m maximum de l'opérateur",
-      "Drones de 250 g ou plus : enregistrement obligatoire auprès de l'AFAC (formulaire de l'annexe K)",
+      "Drones de plus de 250 g : enregistrement obligatoire auprès de l'AFAC avant de voler (formulaire de l'annexe K)",
       "Drones de moins de 250 g : dispensés d'enregistrement, mais toutes les autres règles s'appliquent",
-      "Catégories de poids : Micro (≤2 kg), Léger (2–25 kg), Lourd (>25 kg)",
+      "Catégories de poids : Micro (≤2 kg), Léger (>2–25 kg), Lourd (>25 kg)",
+      "Drones de loisir de plus de 2 kg : ne peuvent voler qu'au sein de clubs d'aéromodélisme autorisés par l'AFAC.",
       "Les vols de nuit nécessitent une autorisation spécifique de l'AFAC",
-      "L'usage commercial nécessite une autorisation supplémentaire selon la catégorie de poids"
+      "Usage privé non commercial ou usage commercial : une assurance responsabilité civile en cours de validité est obligatoire ; les drones Micro (≤2 kg) nécessitent en outre une autorisation spéciale pour l'espace aérien contrôlé ; les catégories Léger et Lourd nécessitent une autorisation d'exploitation de l'AFAC."
     ],
     "importantNotes": [
-      "⚠️ TÉLÉPILOTES ÉTRANGERS : la NOM-107 interdit l'exploitation de drones immatriculés à l'étranger ou par des ressortissants étrangers, sauf accord bilatéral entre le Mexique et le pays d'origine. Touristes : vérifiez avant de partir.",
-      "Les sanctions pour exploitation illégale peuvent atteindre 80 000 MXN ou l'emprisonnement",
+      "PILOTES ÉTRANGERS : la NOM-107-SCT3-2019 interdit l'exploitation de drones immatriculés à l'étranger ou pilotés par des ressortissants étrangers, sauf accord bilatéral entre le Mexique et le pays d'origine — aucun accord de ce type n'est actuellement connu pour être en vigueur.",
+      "Pour être importés au Mexique, les drones Micro de plus de 250 g et les drones Léger doivent avoir un fabricant et un modèle, un numéro de série, un manuel d'utilisation et un logiciel qui limite automatiquement la distance et la hauteur (NOM-107, 10.1).",
+      "Le non-respect de la NOM-107 peut être sanctionné par l'AFAC en vertu de la Ley de Aviación Civil ; l'utilisation de drones pour commettre des délits (p. ex. larguer des explosifs ou attaquer des personnes) est passible d'emprisonnement (Código Penal Federal, art. 163 Bis–Quáter).",
       "Les parcs nationaux et les sites archéologiques (INAH) interdisent généralement les drones sans autorisation spéciale",
       "Les marinas et les zones côtières sont souvent soumises à des restrictions — renseignez-vous auprès des autorités locales",
       "Le registre de l'AFAC a un délai de réponse pouvant atteindre 10 jours ouvrables — anticipez"
@@ -37,16 +40,12 @@
       {
         "title": "NOM-107-SCT3-2019 — Norme officielle",
         "description": "Norme officielle mexicaine établissant les exigences d'exploitation d'un système d'aéronef télépiloté"
-      },
-      {
-        "title": "Circulaire CO AV-23/10 R4",
-        "description": "Circulaire obligatoire énonçant les exigences techniques et opérationnelles détaillées pour les drones"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "ASA — Aéroports et services auxiliaires",
-        "description": "Informations sur les aéroports fédéraux mexicains pour vérifier les zones réglementées"
+        "title": "AFAC — Base de données des aérodromes et héliports",
+        "description": "Liste officielle à jour des aérodromes et héliports pour vérifier les distances minimales de la NOM-107"
       },
       {
         "title": "SICT — Aviation civile",
@@ -62,6 +61,6 @@
     "sectionLabelPrimary": "SOURCES OFFICIELLES",
     "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",
     "linksSheetTitle": "Espace aérien et réglementation — Mexique",
-    "dronePilotCredentialName": "Licence de télépilote"
+    "dronePilotCredentialName": "Autorisation de pilote RPAS"
   }
 }

@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "53287a6bbcc1a046359816ed2a7de6b009d10fc753031bec7dc231d525fdedf3",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "76cde0e68eaea6de50863e60f85670840fe89558dc64828a40f7f9cfd6b8a0c6",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enint. 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröityminen UAS-käyttäjäksi vähintään 250 g painaville tai kameralla varustetuille droneille",
-      "Pakollinen A1/A3-verkkokoulutus — vähimmäisikä 16 vuotta",
-      "8 km:n suojavyöhyke lentoasemien ympärillä (laajempi kuin EASAn standardi)",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä lähin piste voi olla myös vieressäsi oleva maasto. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
+      "Sinun on rekisteröidyttävä UAS-käyttäjäksi, jos dronesi painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g:n dronen kohdalla rekisteröinti vaaditaan silti, jos dronessa on henkilötietoja tallentamaan kykenevä anturi, ellei sitä pidetä EU:n lelujen turvallisuusdirektiivin mukaisena leluna. Lentäjän koulutus- ja todistusvaatimukset ovat erillisiä ja riippuvat dronen luokasta ja alaluokasta. Käyttäjän rekisterinumero kiinnitetään tarralla jokaiseen droneen, ja jos dronessa on etätunnistusjärjestelmä (Remote ID), numero syötetään myös siihen.",
+      "Vähimmäisikä itsenäiselle lentämiselle avoimessa kategoriassa on 16 vuotta — A1/A3-verkkokoulutus ja -koe suoritetaan DG CAA:n järjestelmässä (uas.caa.bg, kirjautuminen hyväksytyllä sähköisellä allekirjoituksella), ne ovat voimassa 5 vuotta ja ne tunnustetaan koko EU:ssa. Ei vähimmäisikää: C0-luokan drone alaluokassa A1, itse rakennettu alle 250 g:n drone tai lento sellaisen lentäjän välittömässä valvonnassa, jolla on tarvittava pätevyys. Jos lentäjä on alle 18-vuotias, vanhempi tai huoltaja rekisteröityy käyttäjäksi.",
+      "Turistit: jos dronesi on rekisteröintivelvollinen, rekisteröidy käyttäjäksi siinä EU-maassa, jossa asut; jos asut EU:n ulkopuolella — ensimmäisessä EU-maassa, jossa aiot lentää (Bulgariassa: uas.caa.bg). EU:n ulkopuolisten maiden pätevyyksiä ei tunnusteta — vaadittu koulutus (esim. A1/A3) on suoritettava EU:ssa.",
+      "Lentoasemien ympärillä on erikokoisia maantieteellisiä vyöhykkeitä. Sofian, Varnan, Burgasin, Plovdivin ja Gorna Oryahovitsan lentoasemilla vyöhykkeet ovat yli 8 km:n laajuisia: sisemmällä vyöhykkeellä jokainen lento edellyttää DG CAA:n lupaa, ja laajemmalla vyöhykkeellä — yli 50 m:n korkeudessa tehtävät lennot. Hae vähintään 7 työpäivää etukäteen. Tarkista kartta osoitteessa uas.caa.bg.",
       "Sofian lentoaseman ympäristö kattaa merkittävän osan kaupungista",
-      "Ennen lentoa vaaditaan koordinointi BULATSAn kanssa",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Ilman lupaa on kiellettyä lentää rajoitetuilla tai kielletyillä maantieteellisillä vyöhykkeillä, aktivoiduissa (tilapäisesti varatuissa) ilmatilarakenteissa ja yleisten lentoasemien vartioitujen rajojen sisäpuolella. Rikkomustapauksessa drone voidaan pakottaa laskeutumaan tai poistaa, ja mahdolliset vahingot jäävät rikkojan maksettaviksi.",
+      "Tarkista ennen jokaista lentoa maantieteelliset vyöhykkeet DG CAA:n kartalta (uas.caa.bg); jos vyöhyke edellyttää lupaa, jätä hakemus DG CAA:lle vyöhykkeelle ilmoitetussa määräajassa.",
+      "Avoimessa kategoriassa dronen on pysyttävä suorassa näköyhteydessäsi paljain silmin (silmälasit/piilolinssit käyvät; kiikareita tai näyttöä ei lasketa) — tai tähystäjän avulla niin, että viestitte keskenänne selkeästi ja tehokkaasti koko ajan ja voitte yhdessä valvoa ilmatilaa ja välttää yhteentörmäykset. ”Follow me” -tila on erillinen poikkeus vain alaluokassa A1 (C0/C1-luokan dronet tai itse rakennetut alle 250 g:n dronet), enintään 50 m:n päässä lentäjästä.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
       "Yölento on sallittu EASA:n avoimen kategorian perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
-      "Kansallispuistot ja luonnonsuojelualueet: rajoituksia voimassa"
+      "Kansallispuistot ja luonnonsuojelualueet: rajoituksia voimassa",
+      "Vastuuvakuutus kolmansia osapuolia kohtaan on pakollinen yli 20 kg:n droneille sekä kaupallisessa/ammattimaisessa toiminnassa — painosta riippumatta. Avoimen kategorian ammattimaisessa toiminnassa käyttäjä toimittaa DG CAA:lle ilmoituksen."
     ],
     "importantNotes": [
-      "Ennen lentoa vaaditaan koordinointi BULATSAn kanssa",
-      "8 km:n turvavyöhyke lentoasemien ympärillä — laajempi kuin EASAn standardi",
+      "Tarkista ennen lentoa maantieteelliset vyöhykkeet osoitteessa uas.caa.bg ja voimassa olevat NOTAMit BULATSAn B-FLIP-palvelusta",
+      "Suurten lentoasemien ympärillä on yli 8 km:n laajuisia maantieteellisiä vyöhykkeitä; niillä vaaditaan DG CAA:n lupa (laajemmalla vyöhykkeellä — yli 50 m:n korkeudessa tehtäville lennoille). Tarkista kartta osoitteessa uas.caa.bg.",
       "Sofian lentoasemaa ympäröivät alueet rajoittavat lentämistä suuressa osassa kaupunkia",
       "Sotilaskohteet: alueita, joilla lennättäminen on ehdottomasti kielletty",
       "GDPR-tietosuoja-asetus koskee tunnistettavien henkilöiden kuvaamista"
@@ -40,7 +43,7 @@
       },
       {
         "title": "DG CAA — Dronevyöhykkeet",
-        "description": "Tietoa ja rajoituksia dronelentojen maantieteellisistä vyöhykkeistä"
+        "description": "DG CAA:n virallinen kartta dronelentojen maantieteellisistä vyöhykkeistä ja rajoituksista"
       }
     ],
     "secondaryLinks": [
@@ -50,10 +53,10 @@
       },
       {
         "title": "BULATSA — NOTAM",
-        "description": "Voimassa olevat NOTAMit ja väliaikaiset ilmatilarajoitukset"
+        "description": "Voimassa olevat NOTAMit ja väliaikaiset ilmatilarajoitukset B-FLIP-portaalissa (edellyttää B-FLIP-rekisteröitymistä)"
       }
     ],
-    "disclaimerText": "Tarkista aina DG CAA:n ja BULATSAn viralliset lähteet ennen lentoa. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Bulgaria noudattaa EASAn määräyksiä kansallisine lisäyksineen, mukaan lukien lentoa edeltävän koordinoinnin vaatimus.",
+    "disclaimerText": "Tarkista aina DG CAA:n (uas.caa.bg) ja BULATSAn viralliset lähteet ennen lentoa. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Bulgaria noudattaa EASAn määräyksiä kansallisine lisäyksineen, mukaan lukien DG CAA:n lupa lennoille joillakin maantieteellisillä vyöhykkeillä.",
     "sectionLabelRules": "PERUSSÄÄNNÖT (EASAN AVOIN KATEGORIA)",
     "sectionLabelPrimary": "VIRALLISET LÄHTEET",
     "sectionLabelSecondary": "LISÄRESURSSIT",

@@ -1,34 +1,35 @@
 {
   "meta": {
-    "sourceHash": "8c56d8d6e542afc955c989bfd255bb6e85a0ed0ddb98d0c06385589c15af8287",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "1ccf0d60f2daab09a23a0c0e3bbd85b102fdef6468c55b05317299a6742f4265",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimaalne kõrgus: 120 m (400 ft) maapinnast (AGL)",
-      "Vähemalt 8 km kaugusel lennujaamadest ja lennuväljadest",
-      "Vähemalt 30 m kaugusel tegevusega mitteseotud inimestest, loomadest ja hoonetest",
+      "Maksimaalne kõrgus: 120 m (400 ft) maapinnast, kontrollimata õhuruumis.",
+      "Vähemalt 8 km kaugusel igast lennujaamast või lennuväljast; lähemal lendamiseks on vaja DGAC-i heakskiitu ja NOTAM-i väljaandmist.",
+      "Lenda ainult eemal linnade, alevite või asulate tihedast hoonestusest ja eemal inimeste välikogunemistest. Ainult DGAC-i eriloaga võid käitada lähemal, kuid mitte kunagi lähemal kui 30 m nendest hoonetest või kogunemistest.",
       "KÕIGIL alla 25 kg kaaluvatel droonidel peab olema identifitseerimisplaat seerianumbri, omaniku nime ja telefoninumbriga",
-      "25 kg ja raskemad droonid: kohustuslik registreerimine aadressil drones.dgac.go.cr",
+      "Kohustuslik registreerimine aadressil drones.dgac.go.cr: ≥25 kg droonid ja kogu mitteharrastuslik kasutus (äriline või mitteäriline), olenemata kaalust",
       "Alla 25 kg droonide harrastuskasutus: ametlikku registreerimist EI nõuta, kui järgid põhireegleid",
       "Hoia droon alati otsenähtavuse piires (VLOS)",
       "Lendamine on lubatud ainult päeval ja heade ilmaoludega — öölennud nõuavad luba",
+      "Mitteharrastuslik, mitteäriline kasutus (sh <25 kg droonid): DGAC-i pädevustunnistus (vähemalt 18-aastane), tsiviilvastutuskindlustus ja registreerimine aadressil drones.dgac.go.cr",
       "Äriline kasutus: RPAS-i litsents + Technical Council sertifikaat + DGAC-i käitamissertifikaat",
       "Keelatud on lennata ilma loata eravalduse kohal ning vanglate, piirangualade ja lennujaamade kohal"
     ],
     "importantNotes": [
       "🏷️ KOHUSTUSLIK IDENTIFITSEERIMISPLAAT: Kuigi alla 25 kg kaaluvate droonide harrastuskasutus EI nõua ametlikku registreerimist, peab KÕIGIL droonidel olema identifitseerimisplaat seerianumbri, omaniku nime ja kontakttelefoninumbriga. See on rangeim füüsilise identifitseerimise nõue.",
-      "✈️ VÄLISTURISTID: Reeglid kehtivad mitteresidentidele. Harrastuskasutuse korral peab droonil olema identifitseerimissilt ja järgida tuleb põhireegleid (ära lenda lennujaamade, eravalduste ega vanglate kohal) — ametlikku registreerimist ei nõuta. Toll võib riiki sisenemisel nõuda droonideklaratsiooni.",
-      "🌳 RAHVUSPARGID JA SINAC: National System of Conservation Areas (SINAC) nõuab droonide jaoks eriluba sellistes parkides nagu Manuel Antonio, Corcovado, Tortuguero, Arenal Volcano, Monteverde ja Poás Volcano. Elurikkus ja metsloomad on kaitstud — kontrolli iga pargi nõudeid ENNE reisi.",
-      "🏖️ TURISMIALAD JA LENNUJAAMAD: SJO (Juan Santamaría, Alajuela), LIR (Liberia, Guanacaste), Presidential Palace, saatkonnad ja sõjaväetsoonid on püsipiirangutega. Turismirandades nagu Tamarindo, Manuel Antonio ja Jacó kehtivad sageli täiendavad omavalitsuste piirangud.",
-      "💰 ÄRILINE KASUTUS JA KARISTUSED: Ärilennud ilma RPAS-i litsentsi või Technical Council sertifikaadita võivad tuua kaasa trahvid, seadmete konfiskeerimise ja käitamiskeelu. Tasulise foto- või videotöö puhul hangi litsents enne tegevuse alustamist."
+      "✈️ VÄLISTURISTID: reeglid kehtivad mitteresidentidele. Harrastuskasutuse korral: identifitseerimisplaat + järgi põhireegleid (ära lenda lennujaamade lähedal ega eravalduste või vanglate kohal) — ametlikku registreerimist ei nõuta. Toll võib riiki sisenemisel nõuda droonideklaratsiooni. Välispiloodid ärilisel eesmärgil: DGAC võib välismaise RPAS-litsentsi valideerida (litsents ja tervisetõend peavad kehtima) maksimaalselt 3 kuuks, põhjendatud juhtudel pikendatav ainult üks kord 3 kuu võrra. Valideerimine ei asenda muid ärilise kasutuse nõudeid.",
+      "🌳 RAHVUSPARGID JA SINAC: Manuel Antonio rahvuspargis (SINAC) ei ole droonid lubatud. Teised kaitsealad võivad neid keelata või piirata — kontrolli iga ala puhul ENNE reisi.",
+      "🏖️ PIIRANGUTSOONID: ilma DGAC-i loata on lendamine keelatud AIP-s avaldatud keelu- või piirangutsoonides ning lennujaamadest (nt SJO ja LIR) kuni 8 km kaugusel. Kontrolli ka võimalikke kohalike omavalitsuste piiranguid.",
+      "💰 ÄRILINE KASUTUS JA KARISTUSED: ärilennud ilma RPAS-i litsentsi või Technical Councili sertifikaadita võivad tuua kaasa trahvid, seadmete konfiskeerimise ja käitamiskeelu. Tasulise foto- või videotöö puhul hangi litsents enne tegevuse alustamist."
     ],
     "primaryLinks": [
       {
         "title": "DGAC — Droonide register (pühendatud portaal)",
-        "description": "Tsiviillennunduse Peadirektoraadi ametlik veebisait droonide registreerimiseks ja registreerimisnumbri saamiseks. Spetsiaalselt RPAS-ile mõeldud platvorm"
+        "description": "Tsiviillennunduse Peadirektoraadi ametlik spetsiaalne portaal droonide registreerimiseks ja registreerimisnumbri saamiseks. Spetsiaalselt RPAS-ile mõeldud platvorm"
       },
       {
         "title": "DGAC — Koduleht",
@@ -57,7 +58,7 @@
         "description": "Costa Rica ametlik turismiveebisait. Kasulik turismialade mõistmiseks, kus on droonidele eripiirangud"
       }
     ],
-    "disclaimerText": "Kontrolli enne lendamist alati DGAC-i ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Costa Ricas kehtivad RAC OPS RPAS ja DGAC Operational Directive. Kõigil droonidel peab olema identifitseerimisplaat; äriliseks kasutuseks on vaja Civil Aviation Technical Council sertifikaati.",
+    "disclaimerText": "Kontrolli enne lendamist alati DGAC-i ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Costa Ricas kehtib RAC-RPAS (Decreto Ejecutivo N° 44615-MOPT, jõus alates 27/09/2024). Kõigil droonidel peab olema identifitseerimisplaat; äriliseks kasutuseks on vaja Civil Aviation Technical Councili sertifikaati.",
     "sectionLabelRules": "PÕHIREEGLID",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",

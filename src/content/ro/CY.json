@@ -1,63 +1,67 @@
 {
- "meta": {
-  "sourceHash": "a1e69adb928a29b23e35f851c7f189c239b934c116c4c5c3bb8ff4997785f369",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Maximum 120 m deasupra solului (categoria EASA Open)",
-   "Înregistrare ca operator UAS (15 € / 3 ani), dacă drona cântărește 250 g sau mai mult ori are o cameră",
-   "Instruire online A1/A3 obligatorie — vârsta minimă 16 ani",
-   "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
-   "Zonă de siguranță de 8 km în jurul aeroporturilor",
-   "Distanță minimă de 1 km față de zonele rezidențiale (se aplică în principal categoriei A3 — cerințe mai stricte pentru dronele mai grele)",
-   "Menține întotdeauna contactul vizual direct (VLOS) cu drona",
-   "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
-   "Ciprul de Nord (RTCN): jurisdicție separată — reguli diferite",
-   "Zona-tampon a ONU: interdicție totală de zbor"
-  ],
-  "importantNotes": [
-   "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
-   "Distanța de 1 kilometru față de zonele rezidențiale este foarte restrictivă pe o insulă mică",
-   "Zonele de siguranță de 8 kilometri din jurul aeroporturilor acoperă o mare parte a insulei",
-   "Ciprul de Nord (RTCN) este o jurisdicție separată, cu reguli diferite",
-   "Zona-tampon a ONU este o zonă de interdicție strictă de zbor"
-  ],
-  "primaryLinks": [
-   {
-    "title": "DCAD — reglementări privind dronele",
-    "description": "Reglementările oficiale ale Departamentului Aviației Civile din Cipru privind dronele"
-   },
-   {
-    "title": "DCAD — înregistrarea operatorului",
-    "description": "Înregistrare ca pilot UAS (15 € / 3 ani, valabilă în toate țările UE/EASA)"
-   },
-   {
-    "title": "drones.gov.cy — harta zonelor geografice",
-    "description": "Harta oficială a zonelor geografice pentru zborurile cu drone în Cipru"
-   },
-   {
-    "title": "DCAD — prezentare generală a regulilor",
-    "description": "Prezentare generală a reglementărilor privind zborul cu drone în Cipru"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "DCAD — întrebări frecvente despre drone",
-    "description": "Întrebări frecvente despre reglementările privind dronele în Cipru"
-   },
-   {
-    "title": "Hermes Airports — informații",
-    "description": "Informații despre aeroporturile Larnaca și Paphos"
-   }
-  ],
-  "disclaimerText": "Înainte de fiecare zbor, verifică întotdeauna sursele oficiale ale DCA Cipru și drones.gov.cy. Această aplicație este un instrument — nu o autoritate juridică. Ciprul respectă reglementările EASA, cu adăugiri naționale stricte, precum interdicția zborurilor de noapte.",
-  "sectionLabelRules": "REGULI DE BAZĂ (CLASA EASA OPEN)",
-  "sectionLabelPrimary": "SURSE OFICIALE",
-  "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
-  "linksSheetTitle": "Spațiu aerian și reglementări — Cipru",
-  "dronePilotCredentialName": "Certificat de pilot la distanță"
- }
+  "meta": {
+    "sourceHash": "8d3736758eabe09f115c22b261f62052d660fd07794af65c1d39b8fa76ca192b",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "În categoria Open, înălțimea maximă este de 120 m, măsurată ca distanța față de cel mai apropiat punct al suprafeței Pământului — nu doar pe verticală, așa că lângă o pantă poate conta și terenul de lângă tine. Pe o rază de 50 m de un obstacol artificial înalt (peste 105 m), entitatea responsabilă de obstacol poate solicita permisiunea de a zbura până la 15 m deasupra înălțimii obstacolului.",
+      "Trebuie să te înregistrezi ca operator de drone dacă drona ta cântărește 250 g sau mai mult (sau ar putea transfera peste 80 J de energie cinetică la impact) — acest lucru se aplică chiar și jucăriilor. Sub 250 g, înregistrarea este totuși necesară dacă drona are un senzor capabil să capteze date cu caracter personal, cu excepția cazului în care se califică drept jucărie conform Directivei UE privind siguranța jucăriilor. Cerințele de instruire/certificare a pilotului sunt separate și depind de clasa și subcategoria dronei.",
+      "Marchează în mod indelebil numărul de înregistrare al operatorului pe fiecare dintre dronele tale și încarcă-l în sistemul de identificare la distanță (dacă există). Înregistrarea ca operator se face de la 18 ani — pentru persoanele mai tinere se poate înregistra o persoană responsabilă (de ex. un părinte sau tutore).",
+      "Dronele introduse pe piață după 01/01/2024 fără etichetă de clasă (C0–C6) nu pot zbura în categoria Open — doar în categoria Specifică, cu o autorizație operațională.",
+      "Vârsta minimă pentru a zbura independent în categoria Open este de 16 ani — instruirea online A1/A3 (9 module, examen cu 40 de întrebări, cost 15 euro) este valabilă 5 ani și recunoscută în toată UE. Sub această vârstă, zborul este permis doar sub supravegherea directă a unui pilot certificat.",
+      "Vizitatori din țări din afara UE: dacă Ciprul este prima țară UE în care zbori, înregistrarea ca operator (acolo unde este necesară) se face la DCA Cipru (15 €, vârstă minimă 18 ani); dacă ai zburat deja într-o altă țară UE, nu te înregistrezi din nou. Pentru subcategoriile A1/A3 ai nevoie de un certificat de pilot A1/A3 emis de o țară UE (instruire și examen online, 15 €); pentru o dronă C0 (<250 g), examenul nu este obligatoriu.",
+      "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
+      "Aeroporturile Larnaca și Paphos: în Zona A (roșie) toate zborurile cu drone sunt interzise; în Zona B (galbenă) doar cu permisiunea DCA (solicită cu cel puțin 10 zile lucrătoare înainte, asigurare de răspundere civilă față de terți de 1.000.000 €). DCA le cere vizitatorilor să păstreze o distanță de cel puțin 8 km față de aeroporturi și heliporturi.",
+      "Distanță minimă de 150 m față de zonele rezidențiale, comerciale sau industriale (categoria A3)",
+      "În categoria Open, menține drona în câmpul tău vizual direct, cu ochiul liber (ochelarii/lentilele de contact sunt permise; binoclul sau un ecran nu sunt acceptate) — sau cu ajutorul unui observator, cu o comunicare clară și eficientă între voi în permanență, astfel încât împreună să supravegheați spațiul aerian și să evitați coliziunile. Modul „follow-me” este o excepție separată, permisă până la 50 m de pilot.",
+      "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
+      "Bazele britanice (Akrotiri, Dhekelia): administrație separată, cu propria legislație privind dronele, propriul formular de înregistrare și hărți ale zonelor desemnate — verifică sbaadministration.org înainte de a zbura acolo.",
+      "Ciprul de Nord (RTCN): jurisdicție separată — reguli diferite",
+      "Zona tampon ONU (Dead Zone): nicio activitate fără aprobarea prealabilă a UNFICYP — nu zbura acolo."
+    ],
+    "importantNotes": [
+      "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
+      "În jurul aeroporturilor Larnaca și Paphos: în Zona A (roșie) zborurile cu drone sunt interzise, în Zona B (galbenă) doar cu permisiunea DCA.",
+      "Harta zonelor geografice preinstalată pe majoritatea dronelor DJI nu este cea corectă pentru Cipru; pentru dronele din clasele C1, C2, C3, C5, C6, încarcă fișierul oficial de zone geografice al DCA (drones.gov.cy).",
+      "Ciprul de Nord (RTCN) este o jurisdicție separată, cu reguli diferite",
+      "Zona tampon ONU (Dead Zone): nicio activitate fără aprobarea prealabilă a UNFICYP — nu zbura acolo."
+    ],
+    "primaryLinks": [
+      {
+        "title": "DCAD — reglementări privind dronele",
+        "description": "Reglementările oficiale ale Departamentului Aviației Civile din Cipru privind dronele"
+      },
+      {
+        "title": "DCAD — înregistrarea operatorului",
+        "description": "Înregistrare ca operator UAS (15 € / 3 ani, valabilă în toate țările UE/EASA)"
+      },
+      {
+        "title": "drones.gov.cy — harta zonelor geografice",
+        "description": "Harta oficială a zonelor geografice pentru zborurile cu drone în Cipru"
+      },
+      {
+        "title": "DCAD — prezentare generală a regulilor",
+        "description": "Prezentare generală a reglementărilor privind zborul cu drone în Cipru"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "DCAD — întrebări frecvente despre drone",
+        "description": "Întrebări frecvente despre reglementările privind dronele în Cipru"
+      },
+      {
+        "title": "Hermes Airports — informații",
+        "description": "Informații despre aeroporturile Larnaca și Paphos"
+      }
+    ],
+    "disclaimerText": "Înainte de fiecare zbor, verifică întotdeauna sursele oficiale ale DCA Cipru și drones.gov.cy. Această aplicație este un instrument — nu o autoritate juridică. Ciprul respectă reglementările EASA, cu zone geografice naționale (Κ.Δ.Π. 190/2024, cu modificările ulterioare).",
+    "sectionLabelRules": "REGULI DE BAZĂ (CATEGORIA EASA OPEN)",
+    "sectionLabelPrimary": "SURSE OFICIALE",
+    "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
+    "linksSheetTitle": "Spațiu aerian și reglementări — Cipru",
+    "dronePilotCredentialName": "Certificat de pilot la distanță"
+  }
 }

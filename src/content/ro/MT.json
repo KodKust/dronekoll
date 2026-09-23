@@ -1,63 +1,67 @@
 {
- "meta": {
-  "sourceHash": "20d25911745bc6945c5cccf0785ea82d556cd1bb0a98eb5f9e4b1f82d7230b03",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Maximum 120 m deasupra nivelului solului (categoria EASA Open)",
-   "Înregistrează-te ca operator UAS (25 €/an sau 10 € pentru un permis turistic)",
-   "Instruire online A1/A3 obligatorie — vârsta minimă 16 ani",
-   "Asigurare de răspundere față de terți obligatorie pentru drone de orice greutate",
-   "ÎNTREAGA țară este spațiu aerian controlat — verifică întotdeauna IDRONECT",
-   "Menține întotdeauna drona în raza vizuală directă (VLOS)",
-   "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
-   "CTR-ul aeroportului internațional din Malta acoperă cea mai mare parte a insulei",
-   "Zborul de noapte este interzis fără o autorizație specifică",
-   "La Valletta și în zonele istorice se aplică restricții suplimentare"
-  ],
-  "importantNotes": [
-   "ÎNTREAGA țară este spațiu aerian controlat — un caz unic în UE",
-   "Asigurare obligatorie pentru drone de orice greutate",
-   "CTR-ul aeroportului din Malta acoperă cea mai mare parte a insulei principale",
-   "Este disponibilă înregistrarea turistică (10 €) pentru vizitatorii pe termen scurt",
-   "GDPR se aplică atunci când sunt surprinse imagini cu persoane identificabile"
-  ],
-  "primaryLinks": [
-   {
-    "title": "TM-CAD — reglementări privind dronele",
-    "description": "Reguli oficiale privind dronele din partea Direcției Aviației Civile a Transport Malta"
-   },
-   {
-    "title": "TM-CAD — înregistrare ca operator",
-    "description": "Înregistrează-te ca operator UAS (25 €/an sau 10 € turistic, valabil în toate țările UE/EASA)"
-   },
-   {
-    "title": "IDRONECT — gestionarea zborurilor",
-    "description": "Platformă pentru planificarea și autorizarea zborurilor cu drone în Malta"
-   },
-   {
-    "title": "TM-CAD — prezentare generală a regulilor",
-    "description": "Prezentare generală a regulilor pentru zborul cu drone în Malta"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "MATS — servicii de trafic aerian",
-    "description": "Serviciile de trafic aerian din Malta și informații despre spațiul aerian"
-   },
-   {
-    "title": "TM-CAD — întrebări frecvente despre drone",
-    "description": "Întrebări frecvente despre reglementările privind dronele în Malta"
-   }
-  ],
-  "disclaimerText": "Verifică întotdeauna sursele oficiale TM-CAD și IDRONECT înainte de zbor. Această aplicație este un instrument — nu o autoritate juridică. Malta respectă reglementările EASA — ține cont de faptul că întreaga țară este spațiu aerian controlat.",
-  "sectionLabelRules": "REGULI ESENȚIALE (CATEGORIA EASA OPEN)",
-  "sectionLabelPrimary": "SURSE OFICIALE",
-  "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
-  "linksSheetTitle": "Spațiu aerian și reguli — Malta",
-  "dronePilotCredentialName": "Certificat de pilot la distanță"
- }
+  "meta": {
+    "sourceHash": "58ca5d4ebda944ebab8099950bf44fbb0464a578adf9411beaecf769f1064e8c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "În categoria deschisă, înălțimea maximă este de 120 m, măsurată ca distanța până la cel mai apropiat punct al suprafeței solului — nu pur și simplu pe verticală în jos, așa că în apropierea unei pante poate conta și terenul de lângă tine. La mai puțin de 50 m de un obstacol artificial înalt (peste 105 m), entitatea responsabilă de acesta poate solicita permisiunea de a zbura până la 15 m deasupra înălțimii obstacolului.",
+      "Înregistrează-te ca operator UAS pe tmcad.idronect.com (25 €/an; vizitatorii cu număr de operator EASA: 10 € pentru 3 luni)",
+      "Numărul de înregistrare al operatorului sau codul său QR trebuie tipărit și aplicat pe dronă — poliția poate verifica, iar nerespectarea atrage o sancțiune.",
+      "Certificat A1/A3 obligatoriu pentru dronele de peste 250 g (instruire online, examen la birourile TM-CAD din Lija) — vârsta minimă 16 ani",
+      "Dronele cu marca de clasă C1, C2 sau C3 echipate cu Remote ID trebuie să zboare cu Remote ID activ și actualizat, cu numărul de înregistrare al operatorului introdus în acesta.",
+      "Asigurare de răspundere față de terți obligatorie pentru drone de orice greutate",
+      "ÎNTREAGA țară este spațiu aerian controlat — verifică întotdeauna IDRONECT",
+      "În categoria deschisă trebuie să menții drona în câmpul tău vizual direct, doar cu propriii ochi (ochelarii/lentilele de contact sunt permise; binoclul sau un ecran nu contează) — sau să zbori cu ajutorul unui observator, menținând în permanență o comunicare clară și eficientă între voi, astfel încât să supravegheați împreună spațiul aerian și să evitați coliziunile. Modul «Follow-me» este o excepție separată, permisă până la 50 m de pilot.",
+      "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
+      "Întreaga Maltă este spațiu aerian controlat — orice zbor cu drona necesită autorizarea TM-CAD prin tmcad.idronect.com. Multe cereri cu risc scăzut sunt aprobate automat în câteva minute, atunci când sistemul confirmă că zborul este conform; respectă condițiile din Authorisation Form. O zonă separată de interdicție a zborului de 5 km acoperă zona Aeroportului Internațional Malta.",
+      "Zborurile care nu sunt autorizate automat trebuie depuse cu cel puțin 5 zile lucrătoare înainte. Pentru a zbura într-o zonă restricționată, încarcă în IDRONECT o scrisoare de permisiune („no objection”) de la proprietarul zonei.",
+      "Zborul de noapte este interzis fără o autorizație specifică",
+      "Valletta este o „Special Permit Zone”: zborurile comerciale necesită un permis special, inclusiv un „no objection” de la Office of the Prime Minister. Pentru orice alt zbor în Valletta și în celelalte zone restricționate, verifică harta IDRONECT și condițiile de autorizare înainte de zbor."
+    ],
+    "importantNotes": [
+      "ÎNTREAGA țară este spațiu aerian controlat — orice zbor necesită autorizarea TM-CAD",
+      "Asigurare obligatorie pentru drone de orice greutate",
+      "Verifică zonele aeroporturilor și celelalte zone restricționate pe harta IDRONECT (tmcad.idronect.com/map)",
+      "Înregistrare pe trei luni (10 €) pentru vizitatorii care au deja un număr de înregistrare de operator EASA; altfel 25 €",
+      "GDPR se aplică atunci când sunt surprinse imagini cu persoane identificabile",
+      "Ia cu tine dovada înregistrării, a asigurării, a licenței și a autorizării — lipsa lor poate duce la amenzi. Un zbor fără autorizare sau în afara condițiilor acesteia poate duce la confiscarea dronei."
+    ],
+    "primaryLinks": [
+      {
+        "title": "TM-CAD — reglementări privind dronele",
+        "description": "Reguli oficiale privind dronele din partea Direcției Aviației Civile a Transport Malta"
+      },
+      {
+        "title": "TM-CAD — înregistrare ca operator",
+        "description": "Înregistrează-te ca operator UAS pe tmcad.idronect.com (25 €/an, valabil în toate țările UE/EASA; 10 € pentru 3 luni pentru vizitatorii care au deja un număr de operator EASA)"
+      },
+      {
+        "title": "IDRONECT — gestionarea zborurilor",
+        "description": "Platformă pentru planificarea și autorizarea zborurilor cu drone în Malta"
+      },
+      {
+        "title": "TM-CAD — prezentare generală a regulilor",
+        "description": "Prezentare generală a regulilor pentru zborul cu drone în Malta"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "MATS — servicii de trafic aerian",
+        "description": "Serviciile de trafic aerian din Malta și informații despre spațiul aerian"
+      },
+      {
+        "title": "TM-CAD — Informații și ajutor",
+        "description": "Informații și ajutor privind reglementările pentru drone în Malta"
+      }
+    ],
+    "disclaimerText": "Verifică întotdeauna sursele oficiale TM-CAD și IDRONECT înainte de zbor. Această aplicație este un instrument — nu o autoritate juridică. Malta respectă reglementările EASA — ține cont de faptul că întreaga țară este spațiu aerian controlat.",
+    "sectionLabelRules": "REGULI ESENȚIALE (CATEGORIA EASA OPEN)",
+    "sectionLabelPrimary": "SURSE OFICIALE",
+    "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
+    "linksSheetTitle": "Spațiu aerian și reguli — Malta",
+    "dronePilotCredentialName": "Certificat de pilot la distanță"
+  }
 }

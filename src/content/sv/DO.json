@@ -1,34 +1,39 @@
 {
   "meta": {
-    "sourceHash": "cd8a26ec06fe6fce166e7bf3de181ffab5c36b7b3c6007a64f6e67ae3c10ef12",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "8e19b8ef08eacce878876a6b70061b85975b67e81f34fce0c591ea4492f2566c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Drönare som väger ≥250 g (0,55 lb): obligatorisk registrering hos IDAC via Vuela Seguro (RAD-48)",
-      "Drönare som väger mer än 2 kg (4,4 lb): utöver registrering krävs ett särskilt tillstånd från IDAC",
-      "Minst 9 km (5 nautiska mil) från flygplatser och flygfält",
+      "Obligatorisk registrering hos IDAC via Vuela Seguro: RAD 48 (ändring i kraft sedan 21/02/2025) kräver det från 0,20 kg (0,44 lb); vägledningen Vuela Seguro anger fortfarande 0,25 kg (0,55 lb) – bekräfta med IDAC om din drönare väger 200–249 g",
+      "Drönare >250 g (0,55 lb): fjärrpilotlicens eller -certifikat från IDAC krävs, även för nöjesbruk (minst 18 år, RAD 107.23)",
+      "Nöjesflygningar: IDAC (vägledningen Vuela Seguro) kräver en tillståndsansökan på formulär 1500-9 (licens/certifikat, registrering, försäkring i förekommande fall och karta med koordinater) minst 5 arbetsdagar före flygningen; beräknad handläggningstid 15 arbetsdagar",
+      "Minst 9 km (5 nautiska mil) från flygplatser och flygfält utan tillstånd från IDAC.",
+      "Utanför luftrum klass G (t.ex. flygplatsers kontrollzoner) krävs förhandstillstånd från IDAC och samordning med ATC (RAD 107.57)",
       "Flygning tillåten endast under dagtid – nattflygning kräver ett särskilt tillstånd från IDAC",
       "Håll alltid drönaren inom synhåll (VLOS)",
-      "OBLIGATORISK ansvarsförsäkring mot tredje man (RAD-107)",
-      "Flygförbudsområde: National Palace, försvarsministeriet, San Isidro-flygbasen",
-      "FLYGFÖRBUDSOMRÅDE: det dominikanska oljeraffinaderiet, Las Calderas-flottbasen, militära ledningsplatser",
-      "Kommersiell verksamhet: fjärrpilotcertifikat + ytterligare verksamhetstillstånd",
-      "Stör inte flygtrafiken vid in- och utflygning till och från flygplatser"
+      "Högsta höjd 400 ft (122 m) över marken (RAD 107.67); det är förbjudet att flyga över utomstående personer utan förhandstillstånd från IDAC (RAD 107.55)",
+      "Det är förbjudet att flyga från ett fordon eller fartyg i rörelse utan tillstånd från IDAC, utom över glest befolkade områden (RAD 107.39)",
+      "OBLIGATORISK ansvarsförsäkring mot tredje man (RAD 48.19 och RAD 107.69; för nöjesbruk mellan 0,25 och 2 kg godtar RAD 107.69 en försäkran om solidariskt ansvar (Declaración Jurada de Responsabilidad Solidaria))",
+      "Drönare >2 kg (4,4 lb): ansvarsförsäkring krävs även för nöjesbruk (minst 2 000 USD, RAD 107.69; RAD 48.19 kräver minst 5 000 USD över 4,5 kg)",
+      "Det är FÖRBJUDET att flyga över: National Palace, försvarsministeriet, San Isidro-flygbasen",
+      "Det är FÖRBJUDET att flyga över: det dominikanska oljeraffinaderiet, Las Calderas-flottbasen, militära ledningsplatser",
+      "Kommersiell verksamhet: fjärrpilotlicens från IDAC + tillstånd (formulär 1500-9). Utländska medborgare: endast om de anlitas av ett dominikanskt företag",
+      "Stör inte flygtrafiken i flygplatsers trafikvarv för landning och start"
     ],
     "importantNotes": [
       "📋 REGELVERK: Drönarverksamhet regleras av luftfartslagen 491-06 + RAD-107 (litet obemannat luftfartygssystem) + RAD-48 (registrering och märkning). IDAC (Dominikanska institutet för civil luftfart) är behörig myndighet.",
-      "✈️ UTLÄNDSKA TURISTER: Dessa regler gäller även för personer som inte är bosatta i landet. Drönare som väger ≥250 g måste registreras före användning. För nöjesbruk med drönare som väger ≤250 g (DJI Mini, Flip): registrering krävs inte, men alla övriga regler gäller. Dokumentation rekommenderas vid inresa i landet.",
+      "✈️ UTLÄNDSKA TURISTER: Dessa regler gäller även för personer som inte är bosatta i landet. Ansök om tillstånd hos IDAC på formulär 1500-9 innan du flyger (minst 5 arbetsdagar i förväg; beräknad handläggningstid 15 arbetsdagar) och bifoga din licens/ditt certifikat, registrering, försäkring i förekommande fall och en karta med koordinater. Om ditt land inte kräver licens/registrering på grund av drönarens vikt, bifoga den delen av ditt lands regelverk och en kopia av din id-handling. Registrering: RAD 48 kräver det från 0,20 kg (vägledningen Vuela Seguro anger 0,25 kg); för drönare på 200–249 g (t.ex. DJI Mini, Flip), bekräfta med IDAC. Även om registrering inte krävs gäller alla övriga regler. Kommersiell användning: endast om du anlitas av ett dominikanskt företag som ansöker om det.",
       "🏖️ PUNTA CANA OCH KUSTTURISTOMRÅDEN: Flygplatserna PUJ (Punta Cana), SDQ (Las Américas) och STI (Santiago) har en spärrzon på 9 km. Saona, Catalina, Bayahibe, Las Galeras: många stränder och resorter har ytterligare restriktioner – hör med ditt hotell eller din researrangör innan du flyger.",
-      "🌳 SKYDDADE OMRÅDEN: Nationalparkerna Los Haitises, del Este (Saona), Sierra de Bahoruco, Jaragua och Lago Enriquillo kräver ett särskilt tillstånd från miljöministeriet. Samanábukten (valskådning, jan–mar): ytterligare restriktioner gäller för att inte störa djurlivet.",
-      "🏛️ PERMANENTA RESTRIKTIONSOMRÅDEN: National Palace (Santo Domingo), försvarsministeriet, alla militärbaser (San Isidro, Las Calderas) och det dominikanska oljeraffinaderiet. Den koloniala zonen (världsarv enligt Unesco i Santo Domingo) har tillfälliga restriktioner – kontrollera i förväg."
+      "🌳 SKYDDADE OMRÅDEN: Innan du flyger i nationalparker (Los Haitises, del Este/Saona, Sierra de Bahoruco, Jaragua, Lago Enriquillo), kontrollera med miljöministeriet; tillstånd kan krävas. Respektera djurlivet – valar i Samaná (jan–mar).",
+      "🏛️ PERMANENTA FLYGFÖRBUDSOMRÅDEN: National Palace (Santo Domingo), försvarsministeriet, alla militärbaser (San Isidro, Las Calderas) och det dominikanska oljeraffinaderiet. Den koloniala zonen (UNESCO-världsarv i Santo Domingo) har tillfälliga restriktioner – kontrollera i förväg."
     ],
     "primaryLinks": [
       {
-        "title": "IDAC – Flyg säkert (officiell drönarportal)",
-        "description": "Officiell webbplats för Dominikanska institutet för civil luftfart för drönaroperatörer. Innehåller en utförlig guide, RAD-107/48-föreskrifter, registreringskrav och restriktionsområden"
+        "title": "IDAC – Vuela Seguro (officiell drönarportal)",
+        "description": "Dominikanska civila luftfartsinstitutets officiella webbplats för drönaroperatörer. Innehåller en utförlig vägledning, föreskrifterna RAD-107/48, registreringskrav och restriktionsområden"
       },
       {
         "title": "Registreringskrav och förfarande",
@@ -45,16 +50,16 @@
     ],
     "secondaryLinks": [
       {
-        "title": "IDAC – DTAC (avdelningen för civil luftfart)",
-        "description": "Officiell e-postadress för registrering och frågor: DTAC@idac.gov.do. För operatörer av drönare som väger mer än 2 kg eller för kommersiell användning rekommenderas direktkontakt."
+        "title": "IDAC – DTAC (avdelningen för civil lufttransport)",
+        "description": "Officiell e-postadress för att inleda registreringsärenden och för frågor: DTAC@idac.gov.do. Vid kommersiell användning rekommenderas direktkontakt"
       },
       {
-        "title": "Luftfartslagen nr 491-06",
-        "description": "Allmänt regelverk för all dominikansk civil luftfart, inklusive obemannade luftfartyg. Grunden som RAD-föreskrifterna bygger på"
+        "title": "Lag 491-06 om civil luftfart",
+        "description": "IDAC:s sida om lagar: lag 491-06 om civil luftfart och lag 17-24, som ändrar den. Allmänt rättsligt ramverk för all dominikansk civil luftfart, inklusive obemannade luftfartyg. Den grund som RAD-föreskrifterna bygger på"
       },
       {
         "title": "Miljöministeriet – Skyddade områden",
-        "description": "För skyddade områden som nationalparken Los Haitises, Del Este nationalpark (Saona) och Samanábukten: ett särskilt tillstånd krävs innan du använder drönare"
+        "description": "För skyddade områden som nationalparken Los Haitises, Del Este nationalpark (Saona) och Samanábukten: kontrollera med ministeriet innan du flyger drönare; tillstånd kan krävas"
       }
     ],
     "disclaimerText": "Kontrollera alltid IDAC:s officiella källor innan du flyger. Den här appen är ett verktyg, inte en juridisk auktoritet. Dominikanska republiken tillämpar luftfartslagen 491-06 tillsammans med föreskrifterna RAD-107 (sUAS-verksamhet) och RAD-48 (registrering). Den officiella webbplatsen är Vuela Seguro (idac.gob.do/drone).",

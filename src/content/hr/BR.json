@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimalna visina: 120 m (400 ft) iznad razine tla",
+      "Maksimalna visina: 120 m (400 ft) AGL (ANAC); rekreativni letovi: najviše 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "Dronovi teži od 250 g: obavezna registracija u SISANT-u (ANAC)",
-      "Dronovi teški do 250 g: oslobođeni registracije, automatski licencirani",
-      "Minimalna udaljenost od 5,4 km od zračnih luka za letove na maloj visini",
-      "Minimalna udaljenost od 9 km od zračnih luka za letove do 120 m",
+      "Dronovi do 250 g ne moraju se registrirati u SISANT-u (Rezolucija ANAC-a br. 806). Od 1. srpnja 2026. (ICA 100-40) i za te je dronove potrebno odobrenje putem sustava SARPAS (DECEA). Dronovi teži od 250 g moraju biti registrirani u SISANT-u.",
+      "Zone ograničenja letenja zračnih luka (FRZ) (ICA 100-40, na snazi od 1. srpnja 2026.): oko aerodroma (ZEA) FRZ počinje na razini tla do 1.740 m; ispod nje ostajete ako letite do 100 ft (30 m) dalje od 1.740 m, 200 ft (60 m) dalje od 2.350 m, 300 ft dalje od 2.960 m i 400 ft dalje od 3.570 m. U prilaznim i uzletnim sektorima (ZAD) FRZ počinje na razini tla do 3.550 m; nakon toga: 100 ft dalje od 3.550 m, 200 ft dalje od 4.480 m, 300 ft dalje od 5.400 m i 400 ft dalje od 6.320 m. Za let unutar FRZ-a potrebni su Termo de Coordenação i zahtjev u sustavu SARPAS najmanje 4 kalendarska dana unaprijed.",
+      "Rekreativni letovi (ICA 100-40, čl. 32): maksimalna visina 200 ft (60 m) AGL i maksimalna vodoravna udaljenost 300 m. U blizini aerodroma vrijede pojasevi FRZ-a – provjerite u sustavu SARPAS.",
       "Uvijek držite dron u izravnom vidnom polju (VLOS)",
-      "Minimalna udaljenost od 30 metara od osoba koje nisu uključene u operaciju",
-      "Odobrenje putem sustava SARPAS (DECEA) potrebno je prije svakog leta u kontroliranom zračnom prostoru",
+      "Minimalna udaljenost od 30 m od osoba koje nisu uključene u operaciju",
+      "Svaki let zahtijeva odobrenje pristupa zračnom prostoru putem sustava SARPAS (DECEA), uključujući dronove do 250 g. Minimalni rok najave: 30 minuta u otvorenoj kategoriji; 4 ili 8 kalendarskih dana za operacije koje presijecaju FRZ ili ograničena područja, BVLOS ili iznad 400 ft. Izuzeti su rekreativni letovi u EAC-u određenom za rekreaciju.",
       "Odašiljačka oprema mora biti certificirana od strane ANATEL-a",
-      "Noćni letovi zahtijevaju posebno odobrenje i protusudarno osvjetljenje"
+      "Noćni letovi: dron mora imati navigacijska svjetla (ICA 100-40, čl. 20)",
+      "Piloti mlađi od 18 godina uvijek moraju biti u pratnji pilota starijeg od 18 godina koji je odgovoran za operaciju",
+      "Nerekreativna upotreba dronova težih od 250 g (RBAC No. 100): obavezno je osiguranje koje pokriva štetu trećim osobama. Polaganje teorijskog ispita ANAC-a (RBAC 100.13(b)) ne zahtijeva se do 31. prosinca 2026. (Rezolucija br. 805/2026, čl. 2)."
     ],
     "importantNotes": [
-      "Turisti: Brazil DOPUŠTA rekreativne letove, ali dronovi teži od 250 g moraju biti registrirani u SISANT-u prije leta",
-      "Kazne koje izriče ANAC mogu doseći R$ 7.000 po prekršaju — upravljanje bez registracije ili odobrenja putem sustava SARPAS ozbiljan je prekršaj",
+      "Turisti: Brazil DOPUŠTA rekreativne letove. Dronovi teži od 250 g moraju biti registrirani u SISANT-u (stranci mogu koristiti putovnicu), a letovi zahtijevaju odobrenje putem sustava SARPAS (DECEA), i s dronovima do 250 g.",
+      "Kazne ANAC-a za dronove polaze od referentnih iznosa od R$ 750 do R$ 4.500 po prekršaju (upravljanje bez registracije: R$ 2.250 – Rezolucija br. 762/2024); ovisno o olakotnim i otegotnim okolnostima, konačni iznos može iznositi od 20 % do 300 % tog iznosa (Rezolucija br. 761/2024, čl. 35). Letenje bez odobrenja putem sustava SARPAS prekršaj je u zračnom prometu o kojem odlučuje JJAER (ICA 100-40, čl. 66).",
       "Nacionalni parkovi (ICMBio) i područja domorodačkih zajednica (FUNAI) općenito zabranjuju dronove bez posebnog odobrenja",
       "Plaže i urbana turistička područja (Rio, São Paulo, Salvador) imaju općinska ograničenja — provjerite kod lokalnih vlasti"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — Odobrenje leta (DECEA)",
-        "description": "Sustav DECEA za traženje odobrenja leta u kontroliranom zračnom prostoru. Potreban prije svakog leta"
+        "description": "Sustav DECEA za traženje odobrenja pristupa zračnom prostoru, uključujući dronove do 250 g. Potreban prije svakog leta"
       },
       {
         "title": "ANATEL — Certifikacija opreme",
@@ -48,15 +50,15 @@
         "description": "Aktivni NOTAM-i i službene zrakoplovne karte DECEA za provjeru privremenih ograničenja"
       },
       {
-        "title": "ANAC — Često postavljana pitanja o dronovima",
-        "description": "Službeni odgovori ANAC-a na uobičajena pitanja operatera dronova"
+        "title": "ANAC — Česta pitanja o SISANT-u (registracija dronova)",
+        "description": "Službeni odgovori ANAC-a o registraciji u SISANT-u, uključujući za strance"
       },
       {
-        "title": "RBAC-E No. 94 — Cjeloviti tehnički standard",
-        "description": "Poseban brazilski propis o civilnom zrakoplovstvu br. 94 — cjeloviti tekst primjenjiv na dronove"
+        "title": "RBAC No. 100 — Cjelovita tehnička norma",
+        "description": "Brazilski propis o civilnom zrakoplovstvu br. 100 (zamjenjuje RBAC-E No. 94) — cjeloviti tekst primjenjiv na dronove"
       }
     ],
-    "disclaimerText": "Uvijek provjerite službene izvore ANAC-a i DECEA-e prije leta. Ova aplikacija je alat, a ne pravno tijelo. Brazil primjenjuje RBAC-E No. 94 (trenutačno u prijelazu na RBAC No. 100), koji zahtijeva obavezno odobrenje putem sustava SARPAS.",
+    "disclaimerText": "Uvijek provjerite službene izvore ANAC-a i DECEA-e prije leta. Ova aplikacija je alat, a ne pravno tijelo. Brazil primjenjuje RBAC No. 100 i Rezoluciju br. 806 (ANAC, od lipnja 2026.) te ICA 100-40 (DECEA, od srpnja 2026.), uz obavezno odobrenje putem sustava SARPAS.",
     "sectionLabelRules": "GLAVNA PRAVILA",
     "sectionLabelPrimary": "SLUŽBENI IZVORI",
     "sectionLabelSecondary": "DODATNI RESURSI",

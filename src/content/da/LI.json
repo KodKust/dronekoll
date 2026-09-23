@@ -1,27 +1,33 @@
 {
   "meta": {
-    "sourceHash": "508ee28346525a09001728f6f525106d73a15d373ba459d581dbbbe091cc7d62",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eee1f5c184b67a857980e5927e116be613b5cef533bad82326dd2e369b059d05",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimalt 120 m over jorden (EASA's åbne kategori)",
+      "I den åbne kategori er den maksimale højde 120 m, målt som afstanden til det nærmeste punkt på jordoverfladen — ikke blot lodret nedad, så nær en skråning kan terrænet ved siden af dig også tælle med. Inden for 50 m fra en høj kunstig hindring (over 105 m) kan den ansvarlige for hindringen anmode om tilladelse til at flyve op til 15 m over hindringens højde.",
       "Følger fuldt ud de schweiziske FOCA-droneregler",
-      "Registrering via det schweiziske system (CHF 10, gælder på ubestemt tid), hvis dronen vejer 250 g eller mere eller er udstyret med et kamera",
+      "Du skal registrere dig som droneoperatør, hvis din drone vejer 250 g eller mere (eller kan overføre mere end 80 J kinetisk energi ved et sammenstød) — det gælder også legetøj. Under 250 g kræves registrering stadig, hvis dronen har en sensor, der kan opfange personoplysninger, medmindre den regnes som legetøj i henhold til EU's legetøjsdirektiv. Operatørnummeret (uden de sidste tre tegn) skal være tydeligt anbragt på hver drone. Krav til pilotuddannelse/kompetencer er reguleret separat og afhænger af dronens klasse og underkategori.",
+      "Minimumsalder for fjernpiloter (åben kategori): 12 år; yngre piloter kun under opsyn af en person på mindst 16 år, som har et bevis",
       "Obligatorisk ansvarsforsikring for droner over 250 g (dækning på CHF 1 million)",
-      "Vaduz Castle: fuldstændigt flyveforbud",
-      "Hold altid dronen inden for synsvidde (VLOS)",
+      "Remote ID (fjernidentifikation) skal være slået til under flyvning med operatørnummeret lagret — undtagen for klasse C0, ældre droner (legacy) og hjemmebyggede droner",
+      "Permanent flyveforbudszone for droner »Regierungsgebäude – Landtag – Schloss Vaduz« (alle vægtklasser). Der kan søges om dispensation hos Amt für Hochbau und Raumplanung.",
+      "Balzers Heliport (LSXB): droner over 250 g er forbudt i dele af Balzers, og alle droner er forbudt direkte ved helikopterpladsen — undtagelser kun med tilladelse",
+      "I den åbne kategori skal du holde dronen inden for din egen synsvidde med det blotte øje (briller/kontaktlinser er fine; kikkert eller skærm tæller ikke) — eller flyve med støtte fra en observatør, hvor I til enhver tid har klar og effektiv kommunikation, så I sammen kan overvåge luftrummet og undgå kollisioner. »Follow-me«-tilstand er en separat undtagelse, tilladt op til 50 m fra piloten.",
+      "Natflyvning kun inden for synsvidde og med positionslys tændt; reducer afstanden tilsvarende",
       "Man må ikke flyve over menneskemængder. Reglerne for uvedkommende afhænger af underkategori, klassemærke og driftsforhold; se den officielle oversigt.",
-      "Mindst 5 km fra enhver lufthavn eller flyveplads",
+      "Der er ingen ensartet EU-afstand, du skal holde fra lufthavne. Restriktioner nær lufthavne offentliggøres som geografiske zoner (artikel 15), hvis form og størrelse varierer fra lufthavn til lufthavn. Før du flyver i nærheden af en lufthavn, flyveplads eller helikopterplads, skal du tjekke dit lands officielle dronezonekort; flyvning inden for en kontrolzone (CTR) kræver som regel forudgående tilladelse fra flyvekontrollen.",
+      "Før hver flyvning skal du også tjekke DABS (Daily Airspace Bulletin Switzerland, skybriefing.com/de/dabs) — hvis flyveområdet er berørt, må du ikke flyve.",
       "Et meget lille land — grænseoverskridende flyvninger til Schweiz eller Østrig kræver særlig opmærksomhed",
       "Alpint terræn: hold øje med helikopterruter"
     ],
     "importantNotes": [
       "Liechtenstein følger fuldt ud de schweiziske FOCA-regler",
       "Samme registreringssystem som Schweiz (CHF 10, ubegrænset gyldighed)",
-      "Vaduz Castle er en streng flyveforbudszone",
+      "Bosat i en EASA-stat (EU, Schweiz, Liechtenstein, Norge, Island): registrer dig i dit bopælsland — registreringen er gyldig i alle EASA-stater. Bosat uden for EASA-staterne: registrer dig, før du flyver, medmindre du allerede er registreret i en EASA-stat (i Schweiz via dLIS hos BAZL, CHF 10). Fjernpilotbeviser fra lande uden for EASA anerkendes ikke.",
+      "Området »Regierungsgebäude – Landtag – Schloss Vaduz« er en permanent flyveforbudszone for droner (alle vægtklasser)",
       "Landet er kun cirka 25 km langt — det er let at krydse grænsen uden at ville det",
       "GDPR gælder (EØS-medlem), når der optages identificerbare personer"
     ],
@@ -35,12 +41,12 @@
         "description": "Samme registreringssystem som i Schweiz (CHF 10, gælder på ubestemt tid)"
       },
       {
-        "title": "Swiss Dronemap — Luftrumskort",
-        "description": "Officielt interaktivt dronekort (inkluderer Liechtenstein)"
+        "title": "BAZL-dronekort — luftrumskort",
+        "description": "Officielt BAZL-dronekort (gælder også i Liechtenstein)"
       },
       {
-        "title": "Liechtensteins regering — Luftfart",
-        "description": "Liechtensteins regeringsportal med luftfartsinformation"
+        "title": "Landespolizei Liechtenstein — droner",
+        "description": "Information om droner og flyveforbudszoner i Liechtenstein"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +59,7 @@
         "description": "Ofte stillede spørgsmål om droneregler"
       }
     ],
-    "disclaimerText": "Tjek altid de officielle kilder fra FOCA/BAZL og Swiss Dronemap før hver flyvning. Denne app er et værktøj — ikke en juridisk kilde. Liechtenstein følger de schweiziske FOCA/EASA-regler.",
+    "disclaimerText": "Tjek altid de officielle kilder fra FOCA/BAZL og BAZL's dronekort før hver flyvning. Denne app er et værktøj — ikke en juridisk kilde. Liechtenstein følger de schweiziske FOCA/EASA-regler.",
     "sectionLabelRules": "VIGTIGSTE REGLER (EASA'S ÅBNE KATEGORI)",
     "sectionLabelPrimary": "OFFICIELLE KILDER",
     "sectionLabelSecondary": "YDERLIGERE RESSOURCER",

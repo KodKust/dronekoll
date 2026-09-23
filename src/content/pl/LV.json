@@ -1,28 +1,35 @@
 {
   "meta": {
-    "sourceHash": "554dcb2ca7172e65f382ee60023e605b64f419f74a40862fa094a3c138b1853d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "dffaad15a571e359fb1ed462806f7dd69c5c983c8a5aea73cf0df596497c54f0",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalnie 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-      "Zarejestruj się jako operator UAS, jeśli Twój dron waży 250 g lub więcej albo jest wyposażony w kamerę",
-      "Wymagane szkolenie online A1/A3 – minimalny wiek 16 lat",
-      "Obowiązkowe ubezpieczenie od odpowiedzialności cywilnej dla dronów o masie powyżej 1,5 kg; minimalna suma zależy od masy — 250–1500 g: 150 000 €; 1501–5000 g: 500 000 €; >5 kg: 1 000 000 €",
-      "Zabronione są loty nad mostami, liniami kolejowymi, autostradami i liniami energetycznymi",
-      "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
+      "W kategorii otwartej maksymalna wysokość wynosi 120 m, mierzona jako odległość do najbliższego punktu powierzchni gruntu — nie tylko w pionie w dół, więc w pobliżu zbocza liczyć się może także teren obok. W promieniu 50 m od wysokiej przeszkody sztucznej (powyżej 105 m) podmiot odpowiedzialny za przeszkodę może wystąpić o zgodę na lot do 15 m powyżej wysokości przeszkody.",
+      "Musisz zarejestrować się jako operator drona, jeśli twój dron waży 250 g lub więcej (albo mógłby w razie zderzenia przekazać energię kinetyczną większą niż 80 J) — dotyczy to także zabawek. Jeśli waży mniej niż 250 g, rejestracja jest nadal wymagana, gdy dron ma czujnik zdolny do rejestrowania danych osobowych, chyba że jest uznawany za zabawkę w rozumieniu unijnej dyrektywy w sprawie bezpieczeństwa zabawek. Wymagania dotyczące szkolenia/świadectwa pilota są odrębne i zależą od klasy i podkategorii drona.",
+      "Musisz zarejestrować się jako operator UAS w kraju UE, w którym mieszkasz (jeśli mieszkasz poza UE — w pierwszym kraju UE, w którym latasz); rejestracja jest ważna w całej UE, a rejestracja w dwóch krajach jednocześnie jest niedozwolona. Na Łotwie rejestracja kosztuje 5 € i jest ważna 1 rok. Każdy dron musi być oznaczony numerem operatora UAS.",
+      "Dron od 250 g wymaga kursu online i egzaminu A1/A3. Od 2024 roku drony bez oznaczenia klasy C o masie 250 g lub więcej mogą latać wyłącznie w podkategorii A3 — z dala od osób postronnych i co najmniej 150 m od obszarów mieszkalnych, handlowych, przemysłowych i rekreacyjnych.",
+      "Na Łotwie minimalny wiek do samodzielnego latania wynosi 16 lat; młodsi piloci mogą latać wyłącznie pod bezpośrednim nadzorem wykwalifikowanego pilota zdalnego w wieku co najmniej 16 lat albo dronem klasy C0 zaprojektowanym jako zabawka.",
+      "Drony klasy C1, C2 (i C3) muszą latać z aktywną bezpośrednią zdalną identyfikacją (Remote ID) z wprowadzonym numerem operatora UAS.",
+      "Ubezpieczenie od odpowiedzialności cywilnej jest obowiązkowe, z wyjątkiem dronów o masie poniżej 250 g i prędkości maksymalnej poniżej 19 m/s. Minimalna suma: w podkategoriach A1 i A2 — 50 000 €; dla dronów od 20 kg i w kategorii szczególnej — 750 000 SDR (rozporządzenie (WE) nr 785/2004).",
+      "Nie ma ogólnego zakazu, ale nad drogami państwowymi, mostami, obiektami kolejowymi i liniami energetycznymi 110/330 kV (do 50 m od nich) mogą być ustanowione strefy geograficzne UAS — sprawdź airspace.lv. W miarę możliwości unikaj lotów nad ludźmi, ruchem drogowym, budynkami i obiektami inżynieryjnymi.",
+      "Filmowanie lub fotografowanie obiektów infrastruktury krytycznej oznaczonych tabliczką „BEZ SASKAŅOŠANAS FOTOGRAFĒT, FILMĒT AIZLIEGTS“ jest zabronione.",
+      "W kategorii otwartej musisz utrzymywać drona w bezpośrednim zasięgu wzroku, bez pomocy przyrządów (okulary/soczewki kontaktowe są dozwolone; lornetka ani ekran się nie liczą) — albo latać z pomocą obserwatora, utrzymując przez cały czas jasną i skuteczną wzajemną komunikację, tak aby wspólnie obserwować przestrzeń powietrzną i unikać kolizji. Tryb „Follow-me” jest odrębnym wyjątkiem, dozwolonym do 50 m od pilota.",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
-      "Co najmniej 5 km od jakiegokolwiek lotniska lub lądowiska",
+      "Nie ma jednej, obowiązującej w całej UE odległości, którą trzeba zachować od lotnisk. Ograniczenia w pobliżu lotnisk publikuje się jako strefy geograficzne (art. 15), których kształt i wielkość różnią się w zależności od lotniska. Przed lotem w pobliżu lotniska, lądowiska lub heliportu sprawdź oficjalną mapę stref dronowych swojego kraju; lot w strefie kontrolowanej lotniska (CTR) zwykle wymaga uprzedniej zgody kontroli ruchu lotniczego.",
+      "Na Łotwie od 1 stycznia 2025 r. loty w strefach geograficznych UAS, które wymagają zgłoszenia lub zatwierdzenia lotu, muszą zostać zgłoszone przed lotem w systemie informacyjnym bezzałogowych statków powietrznych CAA – BGKIS (e.caa.gov.lv); operatorzy zarejestrowani w innym kraju EOG lub w Szwajcarii również mogą założyć konto BGKIS. Zatwierdzenie w strefach wokół lotnisk może potrwać do 5 dni roboczych (do 30 dni, jeśli trzeba zmienić plan lotu).",
       "Lot nocny jest dozwolony zgodnie z podstawowymi wymogami EASA dla kategorii otwartej, pod warunkiem stosowania wymaganego migającego zielonego światła, chyba że obowiązujące przepisy dotyczące strefy geograficznej lub przepisy krajowe nakładają bardziej rygorystyczne warunki.",
-      "CTR lotniska w Rydze obejmuje znaczny obszar"
+      "CTR Rygi obejmuje dużą część miasta. Bez odrębnej zgody loty są dozwolone poniżej 50 m nad ziemią i w odległości ponad 5 km od progów dróg startowych 18 i 36, dronem do 2 kg; dron powyżej 2 kg wymaga dodatkowych kwalifikacji (np. świadectwa kompetencji A2). Powyżej 50 m lub w strefie 5 km wokół progów dróg startowych każdy lot musi zostać wcześniej uzgodniony z VAS „Latvijas gaisa satiksme“.",
+      "Na żądanie policji, CAA, straży granicznej lub innego funkcjonariusza natychmiast przerwij lot i okaż dokument tożsamości – miej go przy sobie.",
+      "Pilotowi zdalnemu lub obserwatorowi, u którego stężenie alkoholu we krwi przekracza 0,2 ‰ lub który jest pod wpływem środków odurzających, grozi grzywna do 700 €; odmowa poddania się badaniu jest zabroniona. Grzywny: do 700 € (np. za lot bez obowiązkowego ubezpieczenia), do 1000 € za naruszenie dopuszczalnej wysokości lub wymogów strefy lotniska."
     ],
     "importantNotes": [
-      "Ubezpieczenie zależy od masy drona — 250–1500 g: 150 000 €; 1501–5000 g: 500 000 €; >5 kg: 1 000 000 €",
-      "Loty nad mostami, liniami kolejowymi, autostradami i liniami energetycznymi są bezwzględnie zabronione",
+      "Ubezpieczenie obowiązkowe, z wyjątkiem dronów < 250 g o prędkości maks. < 19 m/s; minimum A1/A2 — 50 000 €, od 20 kg i w kategorii szczególnej — 750 000 SDR",
+      "Strefy geograficzne UAS mogą obowiązywać nad mostami, liniami kolejowymi, drogami państwowymi i liniami energetycznymi 110/330 kV (do 50 m) — sprawdź airspace.lv",
       "CTR lotniska w Rydze stanowi duży obszar zastrzeżony",
-      "W strefach przygranicznych z Rosją i Białorusią mogą obowiązywać dodatkowe ograniczenia",
+      "Wzdłuż granicy z Białorusią i Rosją znajduje się strefa ograniczona EVR17A BORDER EAST (od ziemi do 500 ft, aktywna H24). Loty dronów w tej strefie (także < 250 g) są dozwolone wyłącznie za zezwoleniem Departamentu Lotnictwa i Operacji Specjalnych Państwowej Straży Granicznej, które należy uzyskać co najmniej 24 godziny przed planowanym dniem lotu (dokumenty trzeba złożyć co najmniej 32 godziny wcześniej).",
       "RODO ma zastosowanie do filmowania i fotografowania możliwych do zidentyfikowania osób"
     ],
     "primaryLinks": [
@@ -49,8 +56,8 @@
         "description": "Łotewskie służby ruchu lotniczego oraz informacje o przestrzeni powietrznej"
       },
       {
-        "title": "CAA Łotwa – FAQ o dronach",
-        "description": "Najczęściej zadawane pytania dotyczące przepisów dronowych na Łotwie"
+        "title": "CAA Łotwy – FAQ o dronach",
+        "description": "Najczęściej zadawane pytania o przepisy dotyczące dronów na Łotwie"
       }
     ],
     "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła Civil Aviation Agency oraz airspace.lv. Ta aplikacja jest narzędziem, a nie organem prawnym. Łotwa stosuje przepisy EASA z dodatkami krajowymi.",

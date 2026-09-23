@@ -1,42 +1,44 @@
 {
   "meta": {
-    "sourceHash": "7ac6f58efeb57847db5c573b36f52f9091268fb859f217572eb22f0601db3ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "87a436fc2428e63cbeabda8e978948a403f544d76e6100f96d885f4d05ce52ec",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "La hauteur maximale dépend du poids : ≤250 g → 30 m ; 250 g–25 kg → 60 m ; 25–150 kg → 120 m",
-      "Les drones de plus de 250 g (tous usages) nécessitent un enregistrement AAC — coût : 5 US$ ; enregistrement en personne à Albrook",
-      "Drones de loisir de ≤250 g : l'enregistrement n'est PAS requis, mais toutes les autres règles s'appliquent",
-      "Distance minimale de 8 km des aéroports et aérodromes",
-      "Une distance minimale de 30 m à l'horizontale et de 10 m à la verticale des personnes",
-      "Gardez toujours le drone en vue directe (VLOS)",
-      "Les vols de nuit sont INTERDITS sans dérogation spécifique de l'AAC",
-      "L'assurance responsabilité civile est OBLIGATOIRE pour toutes les opérations",
-      "Formulaire de consentement éclairé obligatoire concernant : la propriété privée, les réserves autochtones, les zones protégées et le bassin versant du canal de Panama",
-      "L'usage commercial nécessite une licence de télépilote RPA en plus de l'enregistrement du drone"
+      "La hauteur maximale dépend de la classe de RPA : Micro (≤250 g) → 100 ft (~30 m) ; Léger (251 g–25 kg) → 400 ft (~120 m) ; Moyen (26–150 kg) → 400 ft, mais limitée à 100 m sans transpondeur Mode S (norme de l'AAC §9.2, §10.1.1, §11.1.5, §11.1.10).",
+      "Tout RPA, y compris de classe Micro (≤250 g), doit être enregistré auprès de l'AAC (§8.1, §9.1, §15.2 de la norme) — contrairement à la plupart des pays, le Panama n'exempte pas les drones les plus légers de l'enregistrement. L'enregistrement se fait en personne à Albrook ; vérifiez le tarif en vigueur.",
+      "Le Panama N'exempte PAS les drones de loisir légers (≤250 g) de l'enregistrement — contrairement à la plupart des pays, la norme de l'AAC (§8.1, §9.1) exige l'enregistrement pour toutes les classes de RPA, y compris Micro.",
+      "Toute opération de RPA au Panama nécessite une autorisation d'exploitation de l'AAC (§8.2, §8.20) : déposez le formulaire 005 (Solicitud de Permiso de Actividades Aéreas Especiales) au moins 5 jours ouvrables à l'avance.",
+      "Distance minimale de 8 km (5 milles nautiques) des aéroports et aérodromes, de la présidence de la République et des prisons (§8.10–8.11 de la norme de l'AAC). La norme interdit aussi de voler dans des lieux qui compromettent la sécurité de l'État, comme les ambassades, les entités publiques et les banques (§8.11), et l'AAC maintient des restrictions au-dessus des commissariats de police, des hôpitaux et du ministère de la Sécurité (communiqué de l'AAC du 26/9/2025).",
+      "Lors du décollage et de l'atterrissage, restez à au moins 30 m à l'horizontale et 10 m à la verticale des personnes non impliquées dans l'opération (§13.1 de la norme de l'AAC).",
+      "Vous devez garder le drone en contact visuel direct à tout moment (RACP).",
+      "Les vols de nuit sont INTERDITS sans dérogation spécifique de l'AAC.",
+      "L'assurance responsabilité civile envers les tiers est OBLIGATOIRE pour tout propriétaire de RPA (§8.4 de la norme de l'AAC), quel que soit l'usage. Le survol de personnes nécessite en outre une autorisation de l'AAC et le consentement des personnes concernées (§8.16).",
+      "Les zones interdites, réglementées ou dangereuses (voir l'AIP de l'AAC) nécessitent une autorisation spécifique de l'AAC et de l'autorité responsable de la zone — les deux sont requises (§13.1 d de la norme de l'AAC). Dans la zone du canal, les aires protégées et les territoires autochtones, consultez l'autorité responsable avant de demander le permis de vol.",
+      "Toute personne qui exploite un RPA — y compris pour le loisir et en classe Micro (≤250 g) — doit détenir une licence de télépilote de l'AAC et un certificat médical de classe 3 (§8.3, §9.1, §10.1 de la norme de l'AAC). L'usage commercial exige en outre une autorisation d'opérations commerciales (§13.3)."
     ],
     "importantNotes": [
-      "📏 LES ALTITUDES VARIENT SELON LE POIDS (unique en Amérique latine) : le RACP du Panama comporte trois niveaux d'altitude maximale selon le poids du drone : les drones ≤250 g sont limités à SEULEMENT 30 m, les drones de 250 g–25 kg à 60 m, et seuls les drones de ≥25 kg peuvent atteindre les 120 m standard. Vérifiez le poids de votre drone avant de planifier votre altitude de vol.",
-      "✈️ TOURISTES — RÈGLE DES 14 JOURS : si votre séjour au Panama est de ≤14 jours calendaires, vous pouvez demander une autorisation spéciale de l'AAC sans enregistrer le drone de façon permanente. Séjours >14 jours : l'enregistrement AAC est obligatoire pour les drones >250 g. Les drones de loisir ≤250 g sont dispensés dans les deux cas.",
-      "🚢 CANAL DE PANAMA — RESTRICTION SPÉCIALE : le bassin du canal (y compris les écluses, le lac Gatún et les zones adjacentes) exige une Letter of Informed Consent obligatoire de la Canal Authority avant tout vol. L'AAC N'autorisera PAS les opérations au-dessus de cette zone sans cette lettre. Cela vaut également pour la propriété privée, les réserves autochtones et les zones protégées.",
-      "🌳 ZONES PROTÉGÉES ET MIAMBIENTE : les parcs nationaux comme Soberanía, Volcán Barú, Coiba (site du patrimoine mondial de l'UNESCO) et Darién exigent un permis spécifique du Ministry of the Environment (MiAmbiente). Les îles de Bocas del Toro et de Guna Yala font également l'objet de restrictions — coordonnez-vous avec la communauté locale avant d'opérer.",
-      "🏢 ENREGISTREMENT EN PERSONNE REQUIS : contrairement à la plupart des pays, l'enregistrement AAC doit se faire EN PERSONNE au bureau d'Albrook (bâtiment 805). Apportez : une pièce d'identité, le drone physique, le formulaire rempli et 5 US$. Vérifiez la disponibilité des rendez-vous et les délais de traitement avant votre voyage."
+      "Contrairement à de nombreux pays, le Panama échelonne la hauteur maximale selon la classe de RPA : 100 ft (~30 m) pour Micro (≤250 g), 400 ft (~120 m) pour Léger (251 g–25 kg) et 400 ft pour Moyen (26–150 kg) — mais cette dernière classe est limitée à 100 m sans transpondeur Mode S. Vérifiez la classe de votre drone avant de planifier votre altitude de vol.",
+      "Touristes : le permis spécial pour les RPA ou exploitants étrangers (formulaire 004) dure 15 jours au maximum et n'est PAS accordé pour les activités de loisir (§8.22 de la norme de l'AAC). Voler pour le loisir exige d'enregistrer le RPA auprès de l'AAC (toutes classes, y compris Micro ≤250 g, §8.1) et une licence de pilote de RPA de l'AAC (§8.3) ; une licence étrangère n'est validée que s'il existe un accord bilatéral (§18.17). Renseignez-vous auprès de l'AAC avant de partir.",
+      "CANAL DE PANAMA — ZONE RÉGLEMENTÉE : selon l'AIP de l'AAC (ENR 5), les opérations au-dessus des écluses de Gatún, Pedro Miguel et Miraflores, des barrages de Gatún et Madden, et au-dessus de tout navire transitant par le canal sont réglementées. Une autorisation de l'AAC et de l'autorité responsable de la zone est requise (§13.1 d de la norme de l'AAC).",
+      "Casco Antiguo, Cinta Costera, Av. Balboa, Calle 50 et leurs environs : en plus de l'autorisation de l'AAC, vous devez prévenir par courrier le Servicio de Protección Institucional (SPI).",
+      "🌳 AIRES PROTÉGÉES (MiAmbiente) : dans les aires protégées du SINAP, seuls les visiteurs disposant d'une licence/d'un enregistrement valide peuvent utiliser des drones, conformément aux procédures et tarifs applicables (Resolución DM-0173-2026, art. 12). Renseignez-vous auprès de l'administration de l'aire avant de voler.",
+      "Contrairement à la plupart des pays, l'enregistrement auprès de l'AAC doit se faire en personne à Albrook — vérifiez la procédure et les exigences en vigueur avant votre demande."
     ],
     "primaryLinks": [
       {
         "title": "AAC — Autorité de l'aviation civile du Panama",
-        "description": "Site officiel de l'Autorité de l'aviation civile du Panama. Informations sur l'enregistrement des drones, la réglementation RACP et les procédures pour les opérateurs nationaux et étrangers"
+        "description": "Site officiel de l'Autorité de l'aviation civile du Panama. Informations sur l'enregistrement des drones, la norme RPAS et les procédures pour les exploitants nationaux et étrangers"
       },
       {
-        "title": "RACP — Règlement de l'aviation civile du Panama",
-        "description": "Accès au Règlement complet de l'aviation civile du Panama. Section sur la réglementation applicable aux aéronefs sans pilote (RPA)"
+        "title": "Norma AAC/DG/DSA/001-2021 — Aéronefs télépilotés (RPAS)",
+        "description": "Texte de la norme de l'AAC fixant les exigences pour l'exploitation des systèmes d'aéronefs télépilotés (RPAS) au Panama (PDF)"
       },
       {
         "title": "Bureau AAC d'Albrook (enregistrement en personne requis)",
-        "description": "Bâtiment 805, Albrook, premier étage — Direction de la sécurité aérienne. L'enregistrement du drone DOIT se faire en personne : apportez une pièce d'identité, le drone lui-même et le formulaire rempli. Coût : 5 US$"
+        "description": "Bâtiment 805, Albrook, rez-de-chaussée — Département de la documentation. Déposez une lettre de demande (ou envoyez-la à correspondencia.aac@aeronautica.gob.pa) ; l'AAC vous fixera un rendez-vous. Apportez le formulaire d'enregistrement, une copie de votre licence RPA, votre carte d'identité, les spécifications, la facture, la police d'assurance et le reçu de paiement. Coût : 20 US$"
       },
       {
         "title": "AAC — Communiqués de presse et réglementation en vigueur",
@@ -46,7 +48,7 @@
     "secondaryLinks": [
       {
         "title": "STRI/Smithsonian — Guide de recherche AAC",
-        "description": "Guide détaillé de l'Institut de recherche tropicale Smithsonian sur le processus d'autorisation de l'AAC, y compris le formulaire de consentement éclairé pour les zones réglementées"
+        "description": "Guide détaillé du Smithsonian Tropical Research Institute sur la procédure d'autorisation de l'AAC, y compris la lettre de consentement éclairé (Letter of Informed Consent) pour les zones réglementées"
       },
       {
         "title": "MiAmbiente — Zones protégées (parcs nationaux)",
@@ -54,10 +56,10 @@
       },
       {
         "title": "Canal de Panama — Informations officielles",
-        "description": "Autorité du canal de Panama. Le bassin du canal exige une lettre de consentement éclairé obligatoire — sans elle, l'AAC n'accordera pas d'autorisation"
+        "description": "Autorité du canal de Panama. Les écluses, les barrages et les navires en transit sont des zones réglementées (AIP ENR 5) : une autorisation de l'AAC et de l'autorité responsable de la zone est requise"
       }
     ],
-    "disclaimerText": "Vérifiez toujours les sources officielles de l'AAC avant de voler. Cette application est un outil, pas une autorité juridique. Le Panama applique les Civil Aviation Regulations (RACP), qui prévoient des altitudes maximales dépendant du poids et des restrictions spéciales au-dessus du bassin du canal de Panama.",
+    "disclaimerText": "Vérifiez toujours les sources officielles de l'AAC avant de voler. Cette application est un outil, pas une autorité juridique. Le Panama applique la Norma AAC/DG/DSA/001-2021, avec des altitudes maximales DÉPENDANT DU POIDS et des zones réglementées dans la zone du canal de Panama (AIP ENR 5).",
     "sectionLabelRules": "RÈGLES CLÉS",
     "sectionLabelPrimary": "SOURCES OFFICIELLES",
     "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",

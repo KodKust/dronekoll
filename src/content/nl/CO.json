@@ -1,45 +1,44 @@
 {
   "meta": {
-    "sourceHash": "81c150124a0453afe7f5155ecf3def2f6e3595db14698b42ea98cfaec819abc2",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "739c62107e50c8694e19f4d73e36df062253357ffa3b107cac8d667605278391",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximale hoogte: 122 m (400 ft) boven de grond (AGL)",
-      "Maximale horizontale afstand: 750 m tot de bestuurder (met behoud van VLOS)",
+      "Maximale hoogte: 122 m (400 ft) boven de grond (RAC 100).",
+      "Maximale horizontale afstand: 750 m tot de bestuurder, met behoud van direct zicht (VLOS) (RAC 100).",
       "Drones met een MTOW van 200 g of meer: verplichte registratie via Aerocivil’s UAS Platform",
-      "Open categorie (drones ≤25 kg): operatie toegestaan zonder voorafgaande toestemming onder RAC 100",
-      "Klasse B (25–150 kg): vereist altijd toestemming van Aerocivil",
-      "Minimale afstand van 9 km tot het luchthavenreferentiepunt",
-      "Minimale afstand van 3 km tot helihavens",
+      "Geregistreerde drone: draagt een vast label van minstens 2 × 4 cm met het registratienummer, naam, e-mailadres en atencionalciudadano@aerocivil.gov.co (RAC 100).",
+      "Open categorie (drones ≤25 kg, alleen niet-commercieel gebruik): operatie toegestaan zonder voorafgaande toestemming onder RAC 100. Commercieel gebruik = Specifieke categorie met toestemming.",
+      "Drones boven 25 kg (tot 250 kg): alleen in de Specifieke categorie, met een vluchttoestemming van Aerocivil en een piloot met een bekwaamheidscertificaat (RAC 100).",
+      "Minimale afstand van 2 km tot militaire of politiebases, gevangenissen en kritieke infrastructuur, en tot elke plaats waar de president aanwezig is (RAC 100).",
+      "Luchthavens: vliegen is verboden op de luchthaven en binnen 6 km van het referentiepunt (ARP); tussen 6 en 9 km alleen in de Open categorie, maximaal 61 m (200 ft) boven de laagste drempel en buiten ZNVD — controleer de Visor Geográfico UAS (RAC 100).",
+      "Minimale afstand van 3 km tot helihavens (RAC 100).",
       "Een minimale afstand van 30 m tot niet-betrokken personen en gebouwen",
-      "Houd de drone altijd binnen direct zicht (VLOS) en vlieg alleen bij daglicht",
-      "GEO-zones (gebieden met beperkingen voor drones) worden door Aerocivil vastgesteld in overeenstemming met ICAO"
+      "Houd de drone altijd binnen direct zicht (VLOS). 's Nachts alleen met permanent brandende verlichting en met een waarnemer (RAC 100).",
+      "No-flyzones voor drones (ZNVD) en verboden, beperkte en gevaarlijke gebieden kun je controleren in de Visor Geográfico UAS van Aerocivil (RAC 100)."
     ],
     "importantNotes": [
       "📋 RAC 100 (momenteel van kracht): de belangrijkste regeling voor drones in Colombia. Deze vervangt de eerdere RAC 91, Appendix 13. De regeling stelt de Open categorie (operatie zonder voorafgaande toestemming) en de Specifieke categorie (met toestemming) vast. Circular 100-MAUT-5.0-22-010-CI biedt stapsgewijze uitleg over het registratieproces.",
+      "✈️ TOERISTEN: RAC 100 geldt ook voor buitenlanders. Drones vanaf 200 g worden met een geldig paspoort geregistreerd op de Plataforma UAS Colombia; de procedure is gratis.",
       "🌳 NATIONALE PARKEN EN BESCHERMDE GEBIEDEN: Colombia’s National Natural Parks (PNN) verbieden drones zonder speciale vergunning in parken zoals Tayrona, Cocuy, Los Nevados en Amacayacu. Het Colombiaanse Caribisch gebied en de Amazoneregio kennen aanvullende beperkingen — informeer vóór je reis bij elk park.",
-      "🏛️ BEPERKTE EN STEDELIJKE GEBIEDEN: Het centrum van Bogotá (Casa de Nariño, Plaza Bolívar, luchthaven El Dorado (SKBO)), de ommuurde stad van Cartagena, militaire zones, grenzen (Venezuela, Ecuador, Panama), bevaarbare rivieren en olieplatforms zijn onderworpen aan permanente beperkingen — raadpleeg de GEO-zones van Aerocivil.",
-      "💰 SANCTIES EN AANSPRAKELIJKHEID: Opereren zonder licentie of buiten de toegestane gebieden kan leiden tot forse boetes (UVT — Tax Value Unit), inbeslagname van apparatuur en, in ernstige gevallen, strafrechtelijke aansprakelijkheid. Voor commercieel gebruik is een aansprakelijkheidsverzekering vereist."
+      "🏛️ BEPERKTE GEBIEDEN: vliegen is verboden in ZNVD-zones (bijv. rond El Dorado SKBO) — controleer vóór elke vlucht de Visor Geográfico UAS van Aerocivil.",
+      "💰 SANCTIES EN AANSPRAKELIJKHEID: Opereren zonder registratie of buiten de toegestane gebieden kan leiden tot forse boetes (UVT — Tax Value Unit), inbeslagname van apparatuur en, in ernstige gevallen, strafrechtelijke aansprakelijkheid. Voor commercieel gebruik is een aansprakelijkheidsverzekering vereist."
     ],
     "primaryLinks": [
       {
-        "title": "Aerocivil — Onbemande luchtvaartsystemen (UAS/drones)",
-        "description": "Officiële website van de Speciale Administratieve Eenheid voor Burgerluchtvaart (UAEAC) over drones: RAC 100, informatieve circulaires, UAS-registratie"
-      },
-      {
-        "title": "RPAS-documenten — Navigatiediensten",
-        "description": "Officiële documentenverzameling voor RPAS/drones: formulieren, registratiegidsen, Circulaire 100-MAUT-5.0-22-010-CI en van toepassing zijnde regelgeving"
+        "title": "Aerocivil — Onbemande luchtvaart (UAS/drones)",
+        "description": "Officiële website van de Special Administrative Unit for Civil Aviation (UAEAC) over drones: RAC 100, informatieve circulaires, UAS-registratie"
       },
       {
         "title": "Aerocivil — Veelgestelde vragen over drones",
         "description": "Officiële FAQ-sectie over drones en stedelijke luchtmobiliteit, met gedetailleerde antwoorden op veelgestelde vragen van exploitanten"
       },
       {
-        "title": "Nationaal Luchtvaartregister — UAS",
-        "description": "Luchtvaartregistratiesysteem voor drones die meer dan 250 g wegen. Bevat een registratiegids en vereisten: identificatie, foto's van de drone (6, PDF <2MB) en een digitaal formulier"
+        "title": "Aerocivil — Plataforma UAS Colombia (droneregistratie)",
+        "description": "UAS-portaal voor e-diensten van Aerocivil: toegang tot de Plataforma UAS Colombia om drones van 200 g of meer te registreren (gratis), de Visor Geográfico UAS en tutorials"
       }
     ],
     "secondaryLinks": [
@@ -49,11 +48,11 @@
       },
       {
         "title": "Burgerservice (e-mail + telefoon)",
-        "description": "Het officiële e-mailadres van Aerocivil voor vragen over drones. Telefoon: +57 (601) 425 1000 of gratis 01 8000 112373. Maandag–vrijdag, 8:00–16:30 uur"
+        "description": "Het officiële e-mailadres van Aerocivil voor vragen over drones. Telefoon: +57 (601) 425 1000 of +57 (601) 518 5214. Maandag–vrijdag 8:00–16:30. Drones: gdmua@aerocivil.gov.co"
       },
       {
         "title": "Colombiaanse luchtvaartregelgeving (RAC)",
-        "description": "Colombiaanse luchtvaartregelgeving (RAC). Bevat RAC 100 (UAS-operaties), RAC 91 Bijlage 13 en alle regelgeving die op drones van toepassing is"
+        "description": "Colombiaanse luchtvaartregelgeving (RAC). Bevat RAC 100 (UAS-operaties, van kracht sinds 2023) en de overige regelgeving die op drones van toepassing is"
       }
     ],
     "disclaimerText": "Raadpleeg altijd de officiële bronnen van de Civil Aviation Authority (Aerocivil) voordat je vliegt. Deze app is een hulpmiddel, geen juridische autoriteit. Colombia past RAC 100 (Aeronautical Regulations for UAS Operations) toe, die verplichte registratie via het UAS Platform vereist voor drones met een MTOW van 200 g of meer.",

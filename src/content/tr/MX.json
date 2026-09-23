@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "17d852a01e48f71061854c0a7b614ed78721768d3d73eccf5ccdda3a556d264f",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "da2427b1326315670ad00c40760c98fe7dcb581d5abb3f16d2aa07daea8f6c28",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Azami yükseklik: yerden 120 m (400 ft)",
-      "Kontrollü havalimanlarına en az 9,2 km mesafe",
-      "Kontrolsüz hava meydanlarından en az 3,7 km uzakta kalın",
+      "Kontrollü veya kontrolsüz her hava meydanından en az 9,2 km (5 NM) mesafe (NOM-107-SCT3-2019, 4.10.1).",
+      "NOM-107'de (Ek I) listelenen hava meydanlarından 9,2 km (5 NM) ile 18,5 km (10 NM) arasında: azami yükseklik 100 m (328 ft).",
       "Helikopter pistlerine en az 900 m mesafe",
+      "AIP'nin (ENR 5.1) yasak, kısıtlı veya tehlikeli sahalarında ve helikopter koridorlarında uçmak yasaktır; her uçuştan önce NOTAM'ları kontrol edin.",
       "Dronu her zaman doğrudan görüş hattı (VLOS) içinde ve operatörden en fazla 457 m uzakta tutun",
-      "250 g veya daha ağır dronlar: AFAC'a zorunlu kayıt (Ek K formu)",
+      "250 g'ın üzerindeki dronlar: uçmadan önce AFAC'a zorunlu kayıt (Ek K formu)",
       "250 g'dan hafif dronlar: kayıttan muaf, ancak diğer tüm kurallar geçerlidir",
-      "Ağırlık kategorileri: Mikro (≤2 kg), Hafif (2–25 kg), Ağır (>25 kg)",
+      "Ağırlık kategorileri: Mikro (≤2 kg), Küçük (>2–25 kg), Büyük (>25 kg)",
+      "2 kg'ın üzerindeki hobi dronları: yalnızca AFAC tarafından yetkilendirilmiş model uçak kulüplerinde uçabilir.",
       "Gece uçuşları AFAC'tan özel izin gerektirir",
-      "Ticari kullanım, ağırlık kategorisine bağlı olarak ek izin gerektirir"
+      "Özel ticari olmayan veya ticari kullanım: geçerli bir hukuki sorumluluk sigortası zorunludur; Mikro (≤2 kg) ayrıca kontrollü hava sahası için özel izin gerektirir; Küçük ve Büyük, AFAC'tan operasyon izni gerektirir."
     ],
     "importantNotes": [
-      "⚠️ YABANCI PİLOTLAR: NOM-107, Meksika ile menşe ülke arasında ikili bir anlaşma olmadıkça yurt dışında kayıtlı veya yabancı uyruklu kişilere ait dronların işletilmesini yasaklar. Turistler: seyahatten önce kontrol edin.",
-      "Yasa dışı operasyonlar için 80.000 MXN'ye kadar para cezası veya hapis cezası verilebilir",
+      "YABANCI PİLOTLAR: NOM-107-SCT3-2019, Meksika ile menşe ülke arasında ikili bir anlaşma olmadığı sürece yabancı tescilli veya yabancı uyruklu kişilerce uçurulan dronların işletilmesini yasaklar — şu anda yürürlükte olduğu bilinen böyle bir anlaşma yoktur.",
+      "250 g'ın üzerindeki Mikro dronların ve Küçük dronların Meksika'ya ithal edilebilmesi için üretici ve model bilgisine, seri numarasına, kullanım kılavuzuna ve mesafeyi ve yüksekliği otomatik olarak sınırlayan bir yazılıma sahip olmaları gerekir (NOM-107, 10.1).",
+      "NOM-107'ye uyulmaması AFAC tarafından Ley de Aviación Civil kapsamında yaptırıma bağlanabilir; dronları suç işlemek için kullanmak (ör. patlayıcı bırakmak veya insanlara saldırmak) hapis cezasıyla cezalandırılır (Código Penal Federal, md. 163 Bis–Quáter).",
       "Ulusal parklar ve arkeolojik alanlar (INAH) özel izin olmadan genellikle dronları yasaklar",
       "Marinalar ve kıyı bölgeleri çoğu zaman kısıtlamalara tabidir — yerel yetkililere danışın",
       "AFAC kaydının yanıt süresi 10 iş gününe kadar çıkabilir — önceden planlayın"
@@ -37,16 +40,12 @@
       {
         "title": "NOM-107-SCT3-2019 — Resmî Standart",
         "description": "Uzaktan pilotlu hava aracı sistemi işletmeye ilişkin gereklilikleri belirleyen resmî Meksika standardı"
-      },
-      {
-        "title": "Genelge CO AV-23/10 R4",
-        "description": "Dronlara yönelik ayrıntılı teknik ve operasyonel gereklilikleri belirleyen zorunlu genelge"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "ASA — Havalimanları ve Yardımcı Hizmetler",
-        "description": "Kısıtlı bölgeleri kontrol etmek için Meksika federal havalimanları hakkında bilgi"
+        "title": "AFAC — Hava Meydanı ve Heliport Veritabanı",
+        "description": "NOM-107 minimum mesafelerini kontrol etmek için güncel resmî hava meydanı ve heliport listesi"
       },
       {
         "title": "SICT — Sivil Havacılık",
@@ -62,6 +61,6 @@
     "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
     "sectionLabelSecondary": "EK KAYNAKLAR",
     "linksSheetTitle": "Hava Sahası ve Mevzuat — Meksika",
-    "dronePilotCredentialName": "Uzaktan Pilot Lisansı"
+    "dronePilotCredentialName": "RPAS Pilot Yetkisi"
   }
 }

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "56c3153444a663787bfd0ce0f2337746",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,20 +14,23 @@
     "dronePilotCredentialName": "UA Pilot Licence (UAPL)",
     "keyRules": [
       "Limite standard: 200 ft (60 m AMSL); 400 ft (122 m) per gli operatori commerciali muniti di licenza nelle zone designate a più di 6 km da un aeroporto. Verifica le mappe delle zone e le condizioni vigenti prima di fare affidamento sul limite più elevato.",
-      "Devi registrare il tuo aeromobile senza pilota presso la CAAS se pesa più di 250 g. La registrazione costa SGD 25 e non scade: devi aggiornarla o cancellarla solo se il drone viene perso, danneggiato o venduto, oppure se l'etichetta identificativa diventa illeggibile.",
-      "Una UA Pilot Licence (UAPL) è obbligatoria per l'uso commerciale o professionale e per qualsiasi drone di peso superiore a 7 kg, indipendentemente dallo scopo. La UAPL di Class B copre i droni commerciali più leggeri, di peso inferiore a 7 kg.",
-      "Resta ad almeno 5 km dagli aeroporti e dalle basi aeree militari; verifica la distanza esatta in vigore prima di volare vicino a qualsiasi base aerea.",
+      "Devi registrare il tuo aeromobile senza pilota presso la CAAS se pesa più di 250 g. La registrazione costa SGD 25 e non scade: devi aggiornarla o cancellarla solo se il drone viene perso, danneggiato o venduto, oppure se l'etichetta identificativa diventa illeggibile. Per registrarti devi avere almeno 16 anni; per i piloti più giovani, il drone deve essere registrato da un genitore o tutore.",
+      "Il volo ricreativo all'aperto con un drone da oltre 1,5 kg fino a 7 kg richiede un UA Basic Training Certificate (corso unico di circa 2 ore presso un'organizzazione approvata dalla CAAS) o una UAPL, e il pilota deve avere almeno 16 anni.",
+      "Una UA Pilot Licence (UAPL) è obbligatoria per qualsiasi uso commerciale o professionale, indipendentemente dal peso, e per qualsiasi drone di peso superiore a 7 kg, indipendentemente dallo scopo. Una UAPL di Class A copre i droni fino a 25 kg; una UAPL di Class B è per modelli specifici oltre 25 kg. Le licenze straniere per droni non possono essere convertite in una UAPL.",
+      "Resta ad almeno 5 km da aeroporti e basi aeree militari, a meno che tu non sia titolare di un Activity Permit della CAAS a tal fine; verifica la distanza esatta in vigore prima di volare vicino a qualsiasi base aerea.",
+      "Far volare un drone verso o da Singapore (ad es. attraverso lo stretto di Johor) è illegale senza un permesso transfrontaliero della CAAS, qualunque sia il peso del drone.",
       "Il Broadcast Remote ID (B-RID) è obbligatorio dal 1° dicembre 2025 per gli UA di peso superiore a 250 g, salvo per gli UA utilizzati al chiuso o in spazi chiusi e quando l'operatore possiede un Operator Permit e utilizza l'app FlyItSafe.",
       "Il volo notturno è consentito solo con l'illuminazione prescritta attiva e mantenendo sempre il VLOS; il volo oltre la linea di vista richiede un Operator Permit e un Class 1 Activity Permit.",
       "Mantieni sempre il contatto visivo diretto (VLOS)",
-      "Per volare in aree soggette a restrizioni è richiesto un Activity Permit.",
+      "Per i voli ricreativi (drone fino a 25 kg) serve un Class 2 Activity Permit della CAAS per volare a più di 200 ft sul livello medio del mare, entro 5 km da qualsiasi aeroporto o base aerea militare, o in qualsiasi area soggetta a restrizioni o pericolosa. Le aree protette richiedono anche un permesso della Singapore Police Force. Il volo nelle aree proibite non è mai consentito.",
       "Le sanzioni sono graduate: fino a SGD 50.000 o 2 anni di reclusione alla prima condanna per violazioni gravi (ad es. volare in un'area vietata o protetta oppure operare in stato di alterazione), che salgono a SGD 100.000 o 5 anni in caso di recidiva. Le violazioni meno gravi (ad es. volare con un drone non registrato o violare gli obblighi B-RID) comportano sanzioni inferiori, fino a SGD 10.000 e fino a 6 mesi di reclusione.",
       "Non volare sopra persone, edifici o installazioni soggette a restrizioni"
     ],
     "importantNotes": [
       "Singapore applica sanzioni severe e graduate per i droni: fino a SGD 50.000 o 2 anni di reclusione alla prima condanna per violazioni gravi, come volare in un'area soggetta a restrizioni; in caso di recidiva, fino a SGD 100.000 o 5 anni. Le violazioni meno gravi comportano sanzioni inferiori (fino a SGD 10.000 e fino a 6 mesi).",
-      "Il limite di quota standard è di soli 200 ft (60 m) — molto più basso che nella maggior parte dei Paesi",
+      "Il limite di altitudine standard è di soli 200 ft (circa 60 m) sul livello medio del mare (AMSL), non sopra il punto di decollo. Da un'altura o da un tetto hai quindi meno altezza disponibile. Per volare più in alto serve un Activity Permit della CAAS.",
       "Il Broadcast Remote ID (B-RID) è obbligatorio dal 1° dicembre 2025 per gli UA di peso superiore a 250 g, con eccezioni limitate per l'uso al chiuso e per i titolari di Operator Permit che utilizzano l'app FlyItSafe.",
+      "Visitatori senza Singpass: crea un account UAPass almeno 5 giorni lavorativi prima dell'arrivo. Acquista l'etichetta di registrazione da SGD 25 presso un ufficio postale SingPost designato oppure online (consegna solo a Singapore, fino a 5 giorni lavorativi). Applicala sul drone, poi registrati sul UA Portal.",
       "Molte aree di Singapore sono soggette a restrizioni: controlla sempre OneMap prima di volare"
     ],
     "primaryLinks": [
@@ -40,12 +43,12 @@
         "description": "Mappa ufficiale di Singapore con le zone di volo per droni e le restrizioni"
       },
       {
-        "title": "FlyItSafe — App della CAAS",
-        "description": "App ufficiale della CAAS per la sicurezza dei droni, con zone di volo e informazioni sui permessi"
+        "title": "CAAS — Requisiti per volare con UA",
+        "description": "Regole ufficiali della CAAS per i voli con droni a scopo ricreativo, educativo e commerciale a Singapore"
       },
       {
         "title": "CAAS — Registrazione UA",
-        "description": "Registra il tuo drone e richiedi online i permessi per attività"
+        "description": "Come registrare il tuo drone presso la CAAS: acquista l'etichetta da SGD 25, applicala, poi registrati sul UA Portal"
       }
     ],
     "secondaryLinks": [

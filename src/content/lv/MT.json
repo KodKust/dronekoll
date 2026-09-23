@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "20d25911745bc6945c5cccf0785ea82d556cd1bb0a98eb5f9e4b1f82d7230b03",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "58ca5d4ebda944ebab8099950bf44fbb0464a578adf9411beaecf769f1064e8c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimāli 120 m virs zemes (EASA atvērtā kategorija)",
-      "Reģistrējies kā UAS operators (€25 gadā vai €10 par tūrista atļauju)",
-      "Nepieciešama A1/A3 tiešsaistes apmācība — minimālais vecums 16 gadi",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, mērot attālumu līdz tuvākajam zemes virsmas punktam — nevis vienkārši vertikāli uz leju, tāpēc nogāzes tuvumā var ņemt vērā arī zemi tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par to atbildīgais subjekts var pieprasīt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Reģistrējies kā UAS operators vietnē tmcad.idronect.com (€25 gadā; apmeklētājiem ar EASA operatora numuru: €10 par 3 mēnešiem)",
+      "Operatora reģistrācijas numurs vai tā QR kods jāizdrukā un jāpiestiprina dronam — policija var to pārbaudīt, un par šīs prasības neizpildi piemēro sodu.",
+      "Droniem virs 250 g nepieciešama A1/A3 apliecība (tiešsaistes apmācība, eksāmens TM-CAD birojā Lijā) — minimālais vecums 16 gadi",
+      "Droniem ar C1, C2 vai C3 klases marķējumu, kas aprīkoti ar Remote ID, jālido ar aktīvu un atjauninātu Remote ID, kurā ievadīts operatora reģistrācijas numurs.",
       "Obligāta trešo personu civiltiesiskās atbildības apdrošināšana jebkura svara droniem",
       "VISA valsts ir kontrolēta gaisa telpa — vienmēr pārbaudi IDRONECT",
-      "Vienmēr turi dronu redzamības laukā (VLOS)",
+      "Atvērtajā kategorijā turi dronu savā tiešajā redzamības laukā, tikai ar savām acīm (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai lido ar novērotāja palīdzību, visu laiku uzturot skaidru un efektīvu saziņu, lai jūs kopā varētu pārraudzīt gaisa telpu un izvairīties no sadursmēm. «Follow-me» režīms ir atsevišķs izņēmums, kas atļauts līdz 50 m no pilota.",
       "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kuras nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
-      "Malta International Airport CTR aptver lielāko daļu salas",
+      "Visa Malta ir kontrolēta gaisa telpa — katram dronu lidojumam nepieciešama TM-CAD atļauja, ko saņem vietnē tmcad.idronect.com. Daudzi zema riska pieprasījumi tiek apstiprināti automātiski dažu minūšu laikā, ja sistēma apstiprina, ka lidojums atbilst prasībām; ievēro savas Authorisation Form nosacījumus. Atsevišķa 5 km lidojumu aizlieguma zona aptver Malta International Airport apkārtni.",
+      "Lidojumi, kas netiek atļauti automātiski, jāiesniedz vismaz 5 darbdienas iepriekš. Lai lidotu ierobežotajā zonā, augšupielādē IDRONECT zonas īpašnieka atļaujas vēstuli ('no objection').",
       "Nakts lidojumi bez īpašas atļaujas ir aizliegti",
-      "Valletta un vēsturiskās teritorijas: tiek piemēroti papildu ierobežojumi"
+      "Valleta ir 'Special Permit Zone': komerciāliem lidojumiem nepieciešama īpaša atļauja, tostarp Premjerministra biroja 'no objection'. Jebkuram citam lidojumam Valletā un citās ierobežotajās zonās pirms lidošanas pārbaudi IDRONECT karti un atļaujas nosacījumus."
     ],
     "importantNotes": [
-      "VISA valsts ir kontrolēta gaisa telpa — unikāla situācija ES",
+      "VISA valsts ir kontrolēta gaisa telpa — katram lidojumam nepieciešama TM-CAD atļauja",
       "Apdrošināšana obligāta jebkura svara droniem",
-      "Malta Airport CTR aptver lielāko daļu galvenās salas",
-      "Īslaicīgiem apmeklētājiem pieejama tūristu reģistrācija (€10)",
-      "GDPR piemēro, fiksējot identificējamu cilvēku attēlus"
+      "Pārbaudi lidostu zonas un citas ierobežotās zonas IDRONECT kartē (tmcad.idronect.com/map)",
+      "Trīs mēnešu reģistrācija (€10) apmeklētājiem, kuriem jau ir EASA operatora reģistrācijas numurs; pārējiem €25",
+      "GDPR piemēro, fiksējot identificējamu cilvēku attēlus",
+      "Ņem līdzi reģistrācijas, apdrošināšanas, licences un atļaujas apliecinājumu — pretējā gadījumā var sekot naudassodi. Lidojums bez atļaujas vai neievērojot tās nosacījumus var novest pie drona konfiskācijas."
     ],
     "primaryLinks": [
       {
@@ -32,7 +36,7 @@
       },
       {
         "title": "TM-CAD — Reģistrējies kā operators",
-        "description": "Reģistrējies kā UAS operators (€25 gadā vai €10 tūristiem, derīgs visās ES/EASA valstīs)"
+        "description": "Reģistrējies kā UAS operators vietnē tmcad.idronect.com (€25 gadā, derīgs visās ES/EASA valstīs; €10 par 3 mēnešiem apmeklētājiem, kuriem jau ir EASA operatora numurs)"
       },
       {
         "title": "IDRONECT — Lidojumu pārvaldība",
@@ -49,8 +53,8 @@
         "description": "Maltas gaisa satiksmes pakalpojumi un gaisa telpas informācija"
       },
       {
-        "title": "TM-CAD — Biežāk uzdotie jautājumi par droniem",
-        "description": "Biežāk uzdotie jautājumi par dronu noteikumiem Maltā"
+        "title": "TM-CAD — Informācija un palīdzība",
+        "description": "Informācija un palīdzība par dronu noteikumiem Maltā"
       }
     ],
     "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos TM-CAD avotus un IDRONECT. Šī lietotne ir rīks, nevis juridiska instance. Malta ievēro EASA noteikumus — ņem vērā, ka visa valsts ir kontrolēta gaisa telpa.",

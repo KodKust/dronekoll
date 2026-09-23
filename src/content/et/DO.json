@@ -1,34 +1,39 @@
 {
   "meta": {
-    "sourceHash": "cd8a26ec06fe6fce166e7bf3de181ffab5c36b7b3c6007a64f6e67ae3c10ef12",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "8e19b8ef08eacce878876a6b70061b85975b67e81f34fce0c591ea4492f2566c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "250 g (0,55 lb) ja raskemad droonid: kohustuslik registreerimine IDAC-is Vuela Seguro kaudu (RAD-48)",
-      "Üle 2 kg (4,4 lb) kaaluvad droonid: lisaks registreerimisele on nõutav IDAC-i eriluba",
-      "Vähemalt 9 km (5 meremiili) kaugusel lennujaamadest ja lennuväljadest",
+      "Kohustuslik registreerimine IDAC-is Vuela Seguro kaudu: RAD 48 (muudatus jõus alates 21/02/2025) nõuab seda alates 0,20 kg (0,44 lb); Vuela Seguro juhendis on endiselt 0,25 kg (0,55 lb) — kui su droon kaalub 200–249 g, täpsusta IDAC-ilt",
+      "Droonid >250 g (0,55 lb): nõutav IDAC-i kaugpiloodi litsents või sertifikaat, ka harrastuskasutuseks (min 18 aastat, RAD 107.23)",
+      "Harrastuslennud: IDAC (Vuela Seguro juhend) nõuab loataotlust vormil 1500-9 (litsents/sertifikaat, registreering, vajadusel kindlustus ja koordinaatidega kaart) vähemalt 5 tööpäeva enne operatsiooni; eeldatav menetlusaeg 15 tööpäeva",
+      "Vähemalt 9 km (5 meremiili) kaugusel lennujaamadest ja lennuväljadest ilma IDAC-i loata.",
+      "Väljaspool G-klassi õhuruumi (nt lennujaamade kontrolltsoonid) on nõutav IDAC-i eelluba ja kooskõlastus ATC-ga (RAD 107.57)",
       "Lendamine on lubatud ainult päeval — öölendudeks on vaja IDAC-i eriluba",
       "Hoia droon alati otsenähtavuse piires (VLOS)",
-      "KOHUSTUSLIK kolmanda isiku vastutuskindlustus (RAD-107)",
-      "Lennukeelutsoon: National Palace, Ministry of Defense, San Isidro Air Base",
-      "LENNUKEELUTSOON: Dominican Oil Refinery, Las Calderas Naval Base, sõjaväe komandopunktid",
-      "Äriline käitamine: kaugpiloodi sertifikaat + täiendav käitamisluba",
-      "Ära häiri õhuliiklust lennujaama lähenemis- ja väljumisskeemides"
+      "Maksimaalne kõrgus 400 ft (122 m) maapinnast (RAD 107.67); kõrvaliste inimeste kohal lendamine on ilma IDAC-i eelloata keelatud (RAD 107.55)",
+      "Liikuvast sõidukist või veesõidukist lendamine on ilma IDAC-i loata keelatud, välja arvatud hõredalt asustatud alade kohal (RAD 107.39)",
+      "KOHUSTUSLIK kolmanda osapoole vastutuskindlustus (RAD 48.19 ja RAD 107.69; harrastuskasutuse puhul vahemikus 0,25 kuni 2 kg aktsepteerib RAD 107.69 solidaarvastutuse vandedeklaratsiooni (Declaración Jurada de Responsabilidad Solidaria))",
+      "Droonid >2 kg (4,4 lb): vastutuskindlustus on nõutav ka harrastuskasutuseks (min USD 2 000, RAD 107.69; RAD 48.19 nõuab üle 4,5 kg puhul min USD 5 000)",
+      "Kohal lendamine on KEELATUD: National Palace, Ministry of Defense, San Isidro Air Base",
+      "Kohal lendamine on KEELATUD: Dominican Oil Refinery, Las Calderas Naval Base, sõjaväe komandopunktid",
+      "Äriline käitamine: IDAC-i kaugpiloodi litsents + luba (vorm 1500-9). Välismaalased: ainult juhul, kui neid palkab Dominikaani ettevõte",
+      "Ära häiri õhuliiklust lennuvälja maandumis- ja õhkutõususkeemides"
     ],
     "importantNotes": [
       "📋 ÕIGUSLIK RAAMISTIK: Droonioperatsioone reguleerivad Civil Aviation Law 491-06 + RAD-107 (väike mehitamata õhusõidukisüsteem) + RAD-48 (registreerimine ja märgistamine). IDAC (Dominican Civil Aviation Institute) on pädev ametiasutus.",
-      "✈️ VÄLISTURISTID: Need reeglid kehtivad mitteresidentidele. 250 g ja raskemad droonid tuleb enne käitamist registreerida. Kuni 250 g kaaluvate droonide harrastuskasutuse korral (DJI Mini, Flip) ei ole registreerimine nõutav, kuid kõik muud reeglid kehtivad. Riiki sisenemisel on soovitatav vajalikud dokumendid kaasas hoida.",
-      "🏖️ PUNTA CANA JA RANNIKU TURISMIALAD: Lennujaamade PUJ (Punta Cana), SDQ (Las Américas) ja STI (Santiago) ümber on 9 km keelutsoon. Saona, Catalina, Bayahibe, Las Galeras: paljudes randades ja kuurortides kehtivad täiendavad piirangud — küsi enne lendamist oma hotellilt või reisikorraldajalt.",
-      "🌳 KAITSEALAD: Los Haitises, del Este (Saona), Sierra de Bahoruco, Jaragua ja Lago Enriquillo National Parks nõuavad Ministry of the Environment eriluba. Samaná Bay (vaalavaatlus, Jan–Mar): metsloomade häirimise vältimiseks kehtivad täiendavad piirangud.",
-      "🏛️ PÜSIPIIRANGUALAD: National Palace (Santo Domingo), Ministry of Defense, kõik sõjaväebaasid (San Isidro, Las Calderas) ja Dominican Oil Refinery. Colonial Zone (UNESCO World Heritage Site in Santo Domingo) suhtes kehtivad ajutised piirangud — kontrolli neid eelnevalt."
+      "✈️ VÄLISTURISTID: need reeglid kehtivad mitteresidentidele. Enne lendamist taotle IDAC-ilt luba vormil 1500-9 (vähemalt 5 tööpäeva ette; eeldatav menetlusaeg 15 tööpäeva), lisades oma litsentsi/sertifikaadi, registreeringu, vajadusel kindlustuse ja koordinaatidega kaardi. Kui su riik drooni kaalu tõttu litsentsi/registreerimist ei nõua, lisa oma riikliku regulatsiooni vastav osa ja isikut tõendava dokumendi koopia. Registreerimine: RAD 48 nõuab seda alates 0,20 kg (Vuela Seguro juhendis on 0,25 kg); 200–249 g droonide (nt DJI Mini, Flip) puhul täpsusta IDAC-ilt. Isegi kui registreerimine pole nõutav, kehtivad kõik muud reeglid. Äriline kasutus: ainult juhul, kui sind palkab Dominikaani ettevõte, kes loa taotleb.",
+      "🏖️ PUNTA CANA JA RANNIKU TURISMIALAD: lennujaamade PUJ (Punta Cana), SDQ (Las Américas) ja STI (Santiago) ümber on 9 km keelutsoon. Saona, Catalina, Bayahibe, Las Galeras: paljudes randades ja kuurortides kehtivad täiendavad piirangud — küsi enne lendamist oma hotellilt või reisikorraldajalt.",
+      "🌳 KAITSEALAD: enne rahvusparkides (Los Haitises, del Este/Saona, Sierra de Bahoruco, Jaragua, Lago Enriquillo) lendamist kontrolli keskkonnaministeeriumist; luba võib olla nõutav. Austa metsloomi — vaalad Samanás (jaan–märts).",
+      "🏛️ PÜSIVAD LENNUKEELUTSOONID: National Palace (Santo Domingo), Ministry of Defense, kõik sõjaväebaasid (San Isidro, Las Calderas) ja Dominican Oil Refinery. Colonial Zone (UNESCO maailmapärandi paik Santo Domingos) suhtes kehtivad ajutised piirangud — kontrolli neid eelnevalt."
     ],
     "primaryLinks": [
       {
-        "title": "IDAC — Lenda ohutult (ametlik drooniportaal)",
-        "description": "Dominikaani Tsiviillennunduse Instituudi ametlik veebisait droonioperaatoritele. Sisaldab põhjalikku juhendit, RAD-107/48 määrusi, registreerimisnõudeid ja piiranguga alasid"
+        "title": "IDAC — Vuela Seguro (ametlik drooniportaal)",
+        "description": "Dominikaani Tsiviillennundusinstituudi ametlik veebisait drooni operaatoritele. Sisaldab põhjalikku juhendit, RAD-107/48 määrusi, registreerimisnõudeid ja piiranguga alasid"
       },
       {
         "title": "Registreerimise nõuded ja kord",
@@ -45,16 +50,16 @@
     ],
     "secondaryLinks": [
       {
-        "title": "IDAC — DTAC (tsiviillennunduse osakond)",
-        "description": "Ametlik e-posti aadress registreerimiseks ja päringuteks: DTAC@idac.gov.do. Üle 2 kg kaaluvate droonide operaatoritele või äriliseks kasutuseks on soovitatav otsekontakt."
+        "title": "IDAC — DTAC (tsiviillennutranspordi osakond)",
+        "description": "Ametlik e-posti aadress registreerimismenetluste alustamiseks ja päringuteks: DTAC@idac.gov.do. Ärilise kasutuse puhul on soovitatav otsekontakt"
       },
       {
-        "title": "Tsiviillennunduse seadus nr 491-06",
-        "description": "Üldine õiguslik raamistik kogu Dominikaani tsiviillennundusele, sh mehitamata õhusõidukid. Alus, millele RAD-määrused rajanevad"
+        "title": "Tsiviillennundusseadus 491-06",
+        "description": "IDAC-i seaduste leht: tsiviillennundusseadus 491-06 ja seda muutev seadus 17-24. Kogu Dominikaani tsiviillennunduse, sh mehitamata õhusõidukite üldine õiguslik raamistik. Alus, millele RAD-määrused tuginevad"
       },
       {
         "title": "Keskkonnaministeerium — Kaitsealad",
-        "description": "Kaitsealadele nagu Los Haitisese rahvuspark, Del Este rahvuspark (Saona) ja Samaná laht: enne droonide käitamist on nõutav eriluba"
+        "description": "Kaitsealad nagu Los Haitisese rahvuspark, Del Este rahvuspark (Saona) ja Samaná laht: kontrolli enne droonide käitamist ministeeriumist; luba võib olla nõutav"
       }
     ],
     "disclaimerText": "Kontrolli enne lendamist alati IDAC-i ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Dominikaani Vabariigis kehtivad Civil Aviation Law 491-06 ning Regulations RAD-107 (sUAS-i operatsioonid) ja RAD-48 (registreerimine). Ametlik veebisait on Vuela Seguro (idac.gob.do/drone).",

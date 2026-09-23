@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "17d852a01e48f71061854c0a7b614ed78721768d3d73eccf5ccdda3a556d264f",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "da2427b1326315670ad00c40760c98fe7dcb581d5abb3f16d2aa07daea8f6c28",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maksimal højde: 120 m (400 ft) over jorden",
-      "Mindst 9,2 km fra kontrollerede lufthavne",
-      "Mindst 3,7 km fra ukontrollerede flyvepladser",
+      "Minimumsafstand på 9,2 km (5 NM) fra enhver flyveplads, kontrolleret eller ukontrolleret (NOM-107-SCT3-2019, 4.10.1).",
+      "Mellem 9,2 km (5 NM) og 18,5 km (10 NM) fra de flyvepladser, der er opført i NOM-107 (bilag I): maksimal højde 100 m (328 ft).",
       "Mindst 900 m fra helikopterlandingspladser",
+      "Det er forbudt at flyve i AIP'ens forbudte områder, restriktionsområder og fareområder (ENR 5.1) og i helikopterkorridorer; tjek NOTAM'er før hver flyvning.",
       "Hold altid dronen inden for synsvidde (VLOS), højst 457 m fra operatøren",
-      "Droner på 250 g eller derover: obligatorisk registrering hos AFAC (formular i bilag K)",
+      "Droner over 250 g: obligatorisk registrering hos AFAC før flyvning (formular i bilag K)",
       "Droner under 250 g: fritaget for registrering, men alle andre regler gælder",
-      "Vægtkategorier: Micro (≤2 kg), Light (2–25 kg), Heavy (>25 kg)",
+      "Vægtkategorier: Micro (≤2 kg), Small (>2–25 kg), Large (>25 kg)",
+      "Fritidsdroner over 2 kg: må kun flyve i modelflyveklubber, der er godkendt af AFAC.",
       "Natflyvning kræver særlig tilladelse fra AFAC",
-      "Erhvervsmæssig brug kræver yderligere tilladelse afhængigt af vægtkategorien"
+      "Privat ikke-kommerciel eller kommerciel brug: gyldig ansvarsforsikring er obligatorisk; Micro (≤2 kg) kræver desuden en særlig tilladelse til kontrolleret luftrum; Small og Large kræver en driftstilladelse fra AFAC."
     ],
     "importantNotes": [
-      "⚠️ UDENLANDSKE PILOTER: NOM-107 forbyder flyvning med droner, der er registreret i udlandet, samt droneflyvning udført af udenlandske statsborgere, medmindre der findes en bilateral aftale mellem Mexico og oprindelseslandet. Turister: Tjek det, før du rejser.",
-      "Bøder for ulovlige operationer kan nå op på MXN $80.000 eller fængsel",
+      "UDENLANDSKE PILOTER: NOM-107-SCT3-2019 forbyder drift af droner med udenlandsk registrering eller fløjet af udenlandske statsborgere, medmindre der findes en bilateral aftale mellem Mexico og oprindelseslandet — der kendes i øjeblikket ingen sådan aftale, der er i kraft.",
+      "For at importere Micro-droner over 250 g og Small-droner til Mexico skal de have producent og model, serienummer, brugsanvisning og software, der automatisk begrænser afstand og højde (NOM-107, 10.1).",
+      "Manglende overholdelse af NOM-107 kan sanktioneres af AFAC i henhold til Ley de Aviación Civil; brug af droner til at begå forbrydelser (f.eks. at kaste sprængstoffer eller angribe personer) straffes med fængsel (Código Penal Federal, art. 163 Bis–Quáter).",
       "Nationalparker og arkæologiske steder (INAH) forbyder som regel droner uden særlig tilladelse",
       "Marinaer og kystområder er ofte underlagt restriktioner — spørg de lokale myndigheder",
       "AFAC-registret har en behandlingstid på op til 10 hverdage — planlæg i god tid"
@@ -37,16 +40,12 @@
       {
         "title": "NOM-107-SCT3-2019 — Officiel standard",
         "description": "Officiel mexicansk standard, der fastsætter kravene til at flyve med et fjernstyret luftfartøjssystem"
-      },
-      {
-        "title": "Cirkulære CO AV-23/10 R4",
-        "description": "Obligatorisk cirkulære med detaljerede tekniske og operationelle krav til droner"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "ASA — Lufthavne og hjælpetjenester",
-        "description": "Information om mexicanske føderale lufthavne til at tjekke for områder med restriktioner"
+        "title": "AFAC — database over flyvepladser og helikopterpladser",
+        "description": "Aktuel officiel liste over flyvepladser og helikopterpladser til kontrol af minimumsafstandene i NOM-107"
       },
       {
         "title": "SICT — Civil luftfart",
@@ -62,6 +61,6 @@
     "sectionLabelPrimary": "OFFICIELLE KILDER",
     "sectionLabelSecondary": "YDERLIGERE RESSOURCER",
     "linksSheetTitle": "Luftrum og regler — Mexico",
-    "dronePilotCredentialName": "Fjernpilotlicens"
+    "dronePilotCredentialName": "RPAS-pilottilladelse"
   }
 }

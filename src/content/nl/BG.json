@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "53287a6bbcc1a046359816ed2a7de6b009d10fc753031bec7dc231d525fdedf3",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "76cde0e68eaea6de50863e60f85670840fe89558dc64828a40f7f9cfd6b8a0c6",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Max. 120 m boven de grond (EASA Open categorie)",
-      "Registratie als UAS-exploitant voor drones die 250 g of meer wegen of zijn uitgerust met een camera",
-      "Verplichte A1/A3-onlinetraining — minimumleeftijd 16",
-      "Een beschermingszone van 8 km rond luchthavens (groter dan de EASA-standaard)",
+      "In de open categorie is de maximale hoogte 120 m, gemeten als de afstand tot het dichtstbijzijnde punt van het aardoppervlak — niet simpelweg recht naar beneden, dus bij een helling kan ook het terrein naast je meetellen. Binnen 50 m van een hoog kunstmatig obstakel (hoger dan 105 m) kan de voor het obstakel verantwoordelijke entiteit toestemming vragen om tot 15 m boven de hoogte van het obstakel te vliegen.",
+      "Je moet je registreren als drone-exploitant als je drone 250 g of meer weegt (of bij een botsing meer dan 80 J kinetische energie kan overdragen) — dit geldt zelfs voor speelgoed. Onder 250 g is registratie nog steeds vereist als de drone een sensor heeft die persoonsgegevens kan vastleggen, tenzij hij als speelgoed geldt volgens de EU-richtlijn inzake de veiligheid van speelgoed. Vereisten voor pilotentraining/-certificaten staan hier los van en hangen af van de klasse en subcategorie van de drone. Het registratienummer van de exploitant wordt met een sticker op elke drone aangebracht en, als de drone een systeem voor identificatie op afstand (Remote ID) heeft, ook daarin ingevoerd.",
+      "De minimumleeftijd om zelfstandig te vliegen in de open categorie is 16 jaar — de online A1/A3-training en het examen worden afgelegd in het systeem van DG CAA (uas.caa.bg, inloggen met een gekwalificeerde elektronische handtekening), zijn 5 jaar geldig en worden in de hele EU erkend. Geen minimumleeftijd: klasse C0 in A1, een zelfgebouwde drone onder 250 g, of een vlucht onder direct toezicht van een piloot met de vereiste bekwaamheid. Is de piloot jonger dan 18, dan registreert een ouder of voogd zich als exploitant.",
+      "Toeristen: als je drone registratieplichtig is, registreer je dan als exploitant in het EU-land waar je woont; woon je buiten de EU — in het eerste EU-land waar je gaat vliegen (in Bulgarije: uas.caa.bg). Kwalificaties uit landen buiten de EU worden niet erkend — de vereiste training (bijv. A1/A3) moet in de EU worden gevolgd.",
+      "Rond luchthavens liggen geografische zones van verschillende grootte. Bij de luchthavens van Sofia, Varna, Burgas, Plovdiv en Gorna Oryahovitsa zijn de zones groter dan 8 km: in de binnenste zone vereist elke vlucht toestemming van DG CAA, en in de bredere zone — vluchten boven 50 m. Dien de aanvraag minstens 7 werkdagen van tevoren in. Controleer de kaart op uas.caa.bg.",
       "De gebieden rond de luchthaven van Sofia beslaan een aanzienlijk deel van de stad",
-      "Voorafgaande afstemming met BULATSA is vereist",
-      "Houd de drone altijd binnen direct zicht (VLOS)",
+      "Zonder toestemming is het verboden te vliegen in beperkte of verboden geografische zones, in geactiveerde (tijdelijk gereserveerde) luchtruimstructuren en binnen de bewaakte grenzen van luchthavens voor openbaar gebruik. Bij een overtreding kan de drone tot landen worden gedwongen of worden verwijderd, en eventuele schade komt voor rekening van de overtreder.",
+      "Controleer vóór elke vlucht de geografische zones op de kaart van DG CAA (uas.caa.bg); dien in een zone waarvoor toestemming nodig is een aanvraag in bij DG CAA binnen de voor die zone vermelde termijn.",
+      "In de open categorie moet je de drone met het blote oog binnen direct zicht houden (bril/contactlenzen zijn prima; een verrekijker of scherm telt niet) — of met hulp van een waarnemer, met wie je voortdurend duidelijk en effectief communiceert, zodat jullie samen het luchtruim in de gaten houden en botsingen vermijden. De ‘follow-me’-modus is een aparte uitzondering, alleen in subcategorie A1 (drones van klasse C0/C1 of zelfgebouwde drones onder 250 g), tot 50 m van de piloot.",
       "Vlieg niet over mensenmassa’s. De regels voor niet-betrokken personen zijn afhankelijk van de subcategorie, de klasse-aanduiding en de operationele omstandigheden; raadpleeg de officiële matrix.",
       "Nachtvluchten zijn toegestaan volgens de EASA-basisnorm voor de open categorie wanneer het vereiste groene knipperlicht wordt gebruikt, tenzij een geldende geografische zone of nationale regel een strengere voorwaarde oplegt.",
-      "Nationale parken en natuurreservaten: er gelden beperkingen"
+      "Nationale parken en natuurreservaten: er gelden beperkingen",
+      "Een aansprakelijkheidsverzekering voor derden is verplicht voor drones boven 20 kg, en voor commerciële/professionele activiteiten — ongeacht het gewicht. Voor professionele activiteiten in de open categorie dient de exploitant een verklaring in bij DG CAA."
     ],
     "importantNotes": [
-      "Voorafgaande afstemming met BULATSA is vereist vóór een vlucht",
-      "Veiligheidszone van 8 km rond luchthavens — groter dan de EASA-standaard",
+      "Controleer vóór een vlucht de geografische zones op uas.caa.bg en actieve NOTAM's in B-FLIP van BULATSA",
+      "Rond grote luchthavens liggen geografische zones groter dan 8 km; daarbinnen is toestemming van DG CAA vereist (in de bredere zone — voor vluchten boven 50 m). Controleer de kaart op uas.caa.bg.",
       "In de gebieden rond de luchthaven van Sofia gelden beperkingen voor vluchten boven een groot deel van de stad",
       "Militaire installaties: gebieden waar vliegen strikt verboden is",
       "De GDPR is van toepassing bij het fotograferen van herkenbare personen"
@@ -40,7 +43,7 @@
       },
       {
         "title": "DG GVA — Dronezones",
-        "description": "Informatie en beperkingen over geografische zones voor dronevluchten"
+        "description": "De officiële kaart van DG CAA met geografische zones en beperkingen voor dronevluchten"
       }
     ],
     "secondaryLinks": [
@@ -50,10 +53,10 @@
       },
       {
         "title": "BULATSA — NOTAM",
-        "description": "Actieve NOTAM's en tijdelijke luchtruimbeperkingen"
+        "description": "Actieve NOTAM's en tijdelijke luchtruimbeperkingen in het B-FLIP-portaal (B-FLIP-registratie vereist)"
       }
     ],
-    "disclaimerText": "Raadpleeg vóór een vlucht altijd de officiële bronnen van DG CAA en BULATSA. Deze app is een hulpmiddel, geen rechtsbron. Bulgarije volgt de EASA-regelgeving met nationale aanvullingen, waaronder een verplichting tot voorafgaande afstemming.",
+    "disclaimerText": "Raadpleeg vóór een vlucht altijd de officiële bronnen van DG CAA (uas.caa.bg) en BULATSA. Deze app is een hulpmiddel, geen rechtsbron. Bulgarije volgt de EASA-regelgeving met nationale aanvullingen, waaronder toestemming van DG CAA voor vluchten in sommige geografische zones.",
     "sectionLabelRules": "BASISREGELS (EASA OPEN CATEGORIE)",
     "sectionLabelPrimary": "OFFICIËLE BRONNEN",
     "sectionLabelSecondary": "AANVULLENDE HULPBRONNEN",

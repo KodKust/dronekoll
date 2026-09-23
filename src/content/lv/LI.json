@@ -1,27 +1,33 @@
 {
   "meta": {
-    "sourceHash": "508ee28346525a09001728f6f525106d73a15d373ba459d581dbbbe091cc7d62",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eee1f5c184b67a857980e5927e116be613b5cef533bad82326dd2e369b059d05",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne vairāk kā 120 m virs zemes (EASA atvērtā kategorija)",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, mērot attālumu līdz tuvākajam Zemes virsmas punktam — nevis vienkārši vertikāli uz leju, tāpēc nogāzes tuvumā var ņemt vērā arī zemi tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgais subjekts var pieprasīt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
       "Pilnībā atbilst Šveices FOCA dronu noteikumiem",
-      "Reģistrācija Šveices sistēmā (CHF 10, derīga bez termiņa ierobežojuma), ja drons sver 250 g vai vairāk vai ir aprīkots ar kameru",
+      "Tev jāreģistrējas kā drona operatoram, ja drons sver 250 g vai vairāk (vai triecienā var nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas arī uz rotaļlietām. Ja svars ir mazāks par 250 g, reģistrācija joprojām ir nepieciešama, ja dronam ir sensors, kas spēj fiksēt personas datus, izņemot gadījumu, kad tas kvalificējas kā rotaļlieta saskaņā ar EU Toy Safety Directive. Operatora numuram (bez pēdējām trim rakstzīmēm) jābūt skaidri redzamam uz katra drona. Pilota apmācības/kompetences prasības regulē atsevišķi, un tās ir atkarīgas no drona klases un apakškategorijas.",
+      "Tālvadības pilota minimālais vecums (atvērtā kategorija): 12 gadi; jaunāki piloti tikai tādas personas uzraudzībā, kura ir vismaz 16 gadus veca un kurai ir apliecība",
       "Obligāta civiltiesiskās atbildības apdrošināšana droniem, kas sver vairāk par 250 g (segums CHF 1 miljons)",
-      "Vaduz Castle: pilnīgs lidojumu aizliegums",
-      "Vienmēr saglabā tiešu redzamības kontaktu (VLOS) ar dronu",
+      "Remote ID (attālinātajai identifikācijai) lidojuma laikā jābūt ieslēgtai, ar saglabātu operatora numuru — izņemot C0 klases dronus, \"legacy\" dronus un paštaisītus dronus",
+      "Pastāvīga dronu lidojumu aizlieguma zona “Regierungsgebäude – Landtag – Schloss Vaduz” (visām svara klasēm). Izņēmuma atļaujas var pieprasīt Amt für Hochbau und Raumplanung.",
+      "Balzers helikopteru lidlauks (LSXB): droni virs 250 g ir aizliegti daļā Balzers teritorijas, bet visi droni — tieši pie helikopteru lidlauka; izņēmumi tikai ar atļauju",
+      "Atvērtajā kategorijā turi dronu savā redzamības laukā ar neapbruņotu aci (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai lido ar novērotāja atbalstu, visu laiku uzturot skaidru un efektīvu saziņu, lai jūs kopā varētu vērot gaisa telpu un izvairīties no sadursmēm. Follow-me režīms ir atsevišķs izņēmums, kas atļauts līdz 50 m no pilota.",
+      "Nakts lidojumi tikai redzamības robežās un ar ieslēgtām pozīcijas ugunīm; attiecīgi samazini attālumu",
       "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kuras nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
-      "Vismaz 5 km no jebkuras lidostas vai lidlauka",
+      "Nav vienota visā ES noteikta attāluma, kas jāievēro no lidostām. Ierobežojumi lidostu tuvumā tiek publicēti kā ģeogrāfiskās zonas (Article 15), kuru forma un izmērs dažādās lidostās atšķiras. Pirms lidošanas lidostas, lidlauka vai helikopteru lidlauka tuvumā pārbaudi savas valsts oficiālo dronu zonu karti; lidošanai kontroles zonā (CTR) parasti nepieciešama iepriekšēja gaisa satiksmes vadības atļauja.",
+      "Pirms katra lidojuma pārbaudi arī DABS (Daily Airspace Bulletin Switzerland, skybriefing.com/de/dabs) — ja tas skar lidojuma apgabalu, lidot nedrīkst.",
       "Ļoti maza valsts — pārrobežu lidojumiem uz Šveici vai Austriju nepieciešama īpaša uzmanība",
       "Alpu reljefs: uzmanies no helikopteru maršrutiem"
     ],
     "importantNotes": [
       "Lihtenšteina pilnībā atbilst Šveices FOCA noteikumiem",
       "Tāda pati reģistrācijas sistēma kā Šveicē (CHF 10, beztermiņa)",
-      "Vaduz Castle ir stingra lidojumu aizlieguma zona",
+      "Dzīvesvieta EASA valstī (ES, Šveice, Lihtenšteina, Norvēģija, Islande): reģistrējies savā dzīvesvietas valstī — reģistrācija ir derīga visās EASA valstīs. Dzīvesvieta ārpus EASA valstīm: reģistrējies pirms lidošanas, ja vien jau neesi reģistrējies kādā EASA valstī (Šveicē — dLIS sistēmā pie BAZL, CHF 10). Tālvadības pilota apliecības no valstīm, kas nav EASA valstis, netiek atzītas.",
+      "Teritorija “Regierungsgebäude – Landtag – Schloss Vaduz” ir pastāvīga dronu lidojumu aizlieguma zona (visām svara klasēm)",
       "Valsts ir tikai aptuveni 25 km gara — robežu var viegli šķērsot netīši",
       "GDPR piemēro, fiksējot identificējamas personas (Lihtenšteina ir EEZ dalībvalsts)"
     ],
@@ -35,12 +41,12 @@
         "description": "Tāda pati reģistrācijas sistēma kā Šveicē (CHF 10, spēkā beztermiņa)"
       },
       {
-        "title": "Swiss Dronemap — Gaisa telpas karte",
-        "description": "Oficiālā interaktīvā dronu karte (ietver Lihtenšteinu)"
+        "title": "BAZL dronu karte — Gaisa telpas karte",
+        "description": "Oficiālā BAZL dronu karte (attiecas arī uz Lihtenšteinu)"
       },
       {
-        "title": "Lihtenšteinas valdība — Aviācija",
-        "description": "Lihtenšteinas valdības portāls ar aviācijas informāciju"
+        "title": "Landespolizei Liechtenstein — Droni",
+        "description": "Informācija par droniem un lidojumu aizlieguma zonām Lihtenšteinā"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +59,7 @@
         "description": "Biežāk uzdotie jautājumi par dronu noteikumiem"
       }
     ],
-    "disclaimerText": "Pirms katra lidojuma vienmēr pārbaudi FOCA/BAZL oficiālos avotus un Swiss Dronemap. Šī lietotne ir rīks, nevis juridisks avots. Lihtenšteina ievēro Šveices FOCA/EASA noteikumus.",
+    "disclaimerText": "Pirms katra lidojuma vienmēr pārbaudi FOCA/BAZL oficiālos avotus un BAZL dronu karti. Šī lietotne ir rīks, nevis juridisks avots. Lihtenšteina ievēro Šveices FOCA/EASA noteikumus.",
     "sectionLabelRules": "GALVENIE NOTEIKUMI (EASA ATVĒRTĀ KATEGORIJA)",
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",

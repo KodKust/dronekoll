@@ -1,27 +1,31 @@
 {
   "meta": {
-    "sourceHash": "000b9bfb30fd5dc95150d4d75572729ea894e9cb117bc556495e8105d1de0bf6",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "49588a835cca5391d11c172e7550ef7ac8f76a3c7fe6c69b2398693532352902",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Högst 120 m över marken (EASA öppen kategori)",
-      "Registrering via D-Flight-portalen: Basabonnemang 7 €/år (PRO 28 €/år) + obligatorisk QR-kod på varje drönare (Bas 7 €/UAS; den första ingår i det första abonnemanget)",
-      "Obligatorisk A1/A3-onlineutbildning – lägsta ålder 16 år",
-      "Obligatorisk ansvarsförsäkring – minst 750 000 SDR (särskilda dragningsrätter)",
+      "I den öppna kategorin är högsta höjd 120 m, mätt som avståndet till närmaste punkt på jordytan – inte bara rakt nedåt, så nära en sluttning kan även marken bredvid dig räknas in. Inom 50 m från ett högt konstgjort hinder (över 105 m) kan den som ansvarar för hindret begära tillstånd att flyga upp till 15 m över hindrets höjd.",
+      "Registrering i Italien via D-Flight-portalen (utom för undantagen nedan): basabonnemang 7 €/år (PRO 28 €/år) + obligatorisk QR-kod på varje drönare (Bas 7 €/UAS; den första ingår i det första abonnemanget)",
+      "Undantag: leksaksdrönare (direktiv 2009/48/EG) kräver varken registrering, intyg eller försäkring; drönare under 250 g utan kamera eller mikrofon kräver inte registrering.",
+      "Utländska piloter: operatörsregistreringen gäller i alla EU-länder och i Schweiz. Om du redan är registrerad i ditt eget EU-land behöver du inte registrera dig på D-Flight: det räcker att visa ditt operatörsnummer på drönaren. Den som är bosatt utanför EU (även Storbritannien) registrerar sig i det första EU-land den tänker besöka.",
+      "I Italien är lägsta ålder för att flyga i A1/A3 16 år; minderåriga (16–17 år) behöver samtycke från en förälder eller vårdnadshavare för att registrera sig på ENAC-portalen. Onlineintyget (40 frågor) gäller i 5 år.",
+      "Ansvarsförsäkring mot tredje part är obligatorisk för alla drönare (även under 250 g och vid fritidsanvändning), utom leksaksdrönare (dir. 2009/48/EG) – lägsta täckning 750 000 SDR, enligt art. 27 i Regolamento UAS-IT och art. 1015 i Codice della Navigazione.",
       "Rome och Vatican City: omfattande flygförbudszoner",
-      "Håll alltid drönaren inom synhåll (VLOS)",
+      "I den öppna kategorin måste du hålla drönaren inom ditt eget direkta synhåll med blotta ögat (glasögon och linser går bra; kikare eller en skärm räknas inte) – eller flyga med hjälp av en observatör, med tydlig och effektiv kommunikation mellan er hela tiden, så att ni tillsammans kan bevaka luftrummet och undvika kollisioner. Follow-me-läget är ett separat undantag och är tillåtet upp till 50 m från piloten.",
       "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
-      "Minst 5 km från alla flygplatser eller flygfält",
-      "Nattflygning är tillåten enligt EASA:s grundkrav för den öppna kategorin när det föreskrivna gröna blinkljuset används, såvida inte gällande geografiska bestämmelser eller nationella regler ställer strängare krav.",
-      "Historiska platser och arkeologiska områden kan omfattas av ytterligare restriktioner"
+      "Det finns inget enhetligt avstånd till flygplatser: flygplatsernas geografiska zoner (ENAC Circular ATM-09A) publiceras på D-Flight. I den öppna kategorin är det förbjudet att flyga inne i dessa zoner, som börjar på olika höjd beroende på färg (röd 0 m, orange 25 m, gul 45 m); i övriga delar av ATZ och CTR börjar zonen normalt på 60 m. Under dessa höjder får du flyga utan luftrumsreservation; för att flyga inne i zonerna krävs den specifika kategorin med klarering från ENAC eller Aeronautica Militare.",
+      "Nattflygning är tillåten enligt EASA:s grundkrav för den öppna kategorin, förutsatt att det föreskrivna gröna blinkljuset används, såvida inte en nationell regel eller en regel för en viss geografisk zon ställer strängare krav.",
+      "Historiska platser och arkeologiska områden kan omfattas av ytterligare restriktioner",
+      "Naturparker: det är förbjudet att flyga över dem där ett ENAC-godkänt förbud är publicerat på D-Flight; för att flyga där behöver du tillstånd från parkförvaltningen (Ente Parco).",
+      "Drönare med klassbeteckning C1, C2 eller C3: direkt fjärridentifiering och geomedvetenhet måste vara aktiva och uppdaterade."
     ],
     "importantNotes": [
-      "D-Flight-abonnemang: Bas 7 €/år (PRO 28 €/år för specifik kategori). Den första bas-QR-koden ingår vid första aktiveringen; ytterligare bas-QR-koder kostar 7 € per UAS (PRO 112 € per UAS).",
+      "D-Flight-abonnemang: Bas 7 €/år (PRO 28 €/år för den specifika kategorin). Den första bas-QR-koden ingår vid första aktiveringen; ytterligare bas-QR-koder kostar 7 € per UAS (PRO 112 € per UAS).",
       "Obligatorisk försäkring med en minsta täckning på 750 000 SDR (särskilda dragningsrätter)",
-      "Rome/Vatican har ett av de mest restriktiva luftrummen i Europa för drönare",
+      "Rom: stadskärnan är en flygförbudszon av säkerhetsskäl, där överflygning är förbjuden för alla luftfartyg, även drönare; eventuella undantag kräver dessutom tillstånd från Prefettura di Roma. Kontrollera alltid D-Flight.",
       "Böter på upp till 100 000 € för allvarliga överträdelser",
       "GDPR gäller när bilder där personer kan identifieras tas"
     ],
@@ -32,7 +36,7 @@
       },
       {
         "title": "D-Flight – Registrera dig och flyg",
-        "description": "Registreringsportal och luftrumskarta (abonnemang på 6 €/månad krävs)"
+        "description": "Portal för operatörsregistrering och luftrumskarta (kartor med ett gratiskonto; operatörsregistrering med basabonnemang för 7 €/år)"
       },
       {
         "title": "D-Flight – Luftrumskarta",
@@ -40,13 +44,13 @@
       },
       {
         "title": "ENAC – UAS-föreskrifter",
-        "description": "Detaljer om de italienska föreskrifterna om UAS och nationella tillägg till EASA-reglerna"
+        "description": "Detaljer om de italienska UAS-föreskrifterna och nationella tillägg till EASA-reglerna"
       }
     ],
     "secondaryLinks": [
       {
         "title": "ENAV – NOTAM",
-        "description": "Aktiva NOTAM och tillfälliga luftrumsrestriktioner"
+        "description": "Italiens flygtrafiktjänst; tillgång till NOTAM (Self Briefing) kräver att man undertecknar ett Operation Letter"
       },
       {
         "title": "ENAC – Vanliga frågor om drönare",

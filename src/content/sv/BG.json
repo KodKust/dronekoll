@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "53287a6bbcc1a046359816ed2a7de6b009d10fc753031bec7dc231d525fdedf3",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "76cde0e68eaea6de50863e60f85670840fe89558dc64828a40f7f9cfd6b8a0c6",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Högst 120 m över marken (EASA:s öppna kategori)",
-      "Registrering som UAS-operatör för drönare som väger 250 g eller mer eller är utrustade med kamera",
-      "Obligatorisk A1/A3-onlineutbildning – lägsta ålder 16 år",
-      "En skyddszon på 8 km runt flygplatser (större än EASA-standarden)",
+      "I den öppna kategorin är den högsta höjden 120 m, mätt som avståndet till närmaste punkt på jordytan – inte bara rakt nedåt, så nära en sluttning kan även terrängen bredvid dig räknas. Inom 50 m från ett högt konstgjort hinder (över 105 m) kan den som ansvarar för hindret begära tillstånd att flyga upp till 15 m över hindrets höjd.",
+      "Du måste registrera dig som drönaroperatör om din drönare väger 250 g eller mer (eller skulle kunna överföra mer än 80 J rörelseenergi vid en kollision) – detta gäller även leksaker. Under 250 g krävs registrering ändå om drönaren har en sensor som kan samla in personuppgifter, såvida den inte räknas som leksak enligt EU:s direktiv om leksakers säkerhet. Krav på pilotutbildning/-intyg gäller separat och beror på drönarens klass och underkategori. Operatörens registreringsnummer sätts med en dekal på varje drönare och förs, om drönaren har ett system för fjärridentifiering (Remote ID), även in i det.",
+      "Lägsta ålder för att flyga på egen hand i den öppna kategorin är 16 år – onlineutbildningen och provet för A1/A3 görs i DG CAA:s system (uas.caa.bg, inloggning med kvalificerad elektronisk signatur), gäller i 5 år och erkänns i hela EU. Ingen lägsta ålder: klass C0 i A1, en privatbyggd drönare under 250 g eller en flygning under direkt uppsikt av en pilot med nödvändig kompetens. Är piloten under 18 år registrerar sig en förälder eller vårdnadshavare som operatör.",
+      "Turister: om din drönare omfattas av registreringskravet, registrera dig som operatör i det EU-land där du bor; bor du utanför EU – i det första EU-land där du ska flyga (i Bulgarien: uas.caa.bg). Behörigheter från länder utanför EU erkänns inte – den utbildning som krävs (t.ex. A1/A3) måste genomföras i EU.",
+      "Runt flygplatser finns geografiska zoner av olika storlek. Vid flygplatserna i Sofia, Varna, Burgas, Plovdiv och Gorna Oryahovitsa är zonerna större än 8 km: i den inre zonen kräver varje flygning tillstånd från DG CAA, och i den yttre zonen – flygningar över 50 m. Ansök minst 7 arbetsdagar i förväg. Kontrollera kartan på uas.caa.bg.",
       "Områdena kring Sofias flygplats täcker en stor del av staden",
-      "Förhandssamordning med BULATSA krävs före flygning",
-      "Håll alltid drönaren inom synhåll (VLOS)",
+      "Utan tillstånd är det förbjudet att flyga i begränsade eller förbjudna geografiska zoner, i aktiverade (tillfälligt reserverade) luftrumsstrukturer och inom de bevakade gränserna för flygplatser för allmänt bruk. Vid överträdelse kan drönaren tvingas landa eller avlägsnas, och eventuella skador bekostas av den som begått överträdelsen.",
+      "Kontrollera före varje flygning de geografiska zonerna på DG CAA:s karta (uas.caa.bg); i en zon som kräver tillstånd, lämna in en ansökan till DG CAA inom den tidsfrist som anges för zonen.",
+      "I den öppna kategorin måste du hålla drönaren inom direkt synhåll med blotta ögat (glasögon/kontaktlinser går bra; kikare eller en skärm räknas inte) – eller med hjälp av en observatör, där ni hela tiden kommunicerar tydligt och effektivt, så att ni tillsammans kan bevaka luftrummet och undvika kollisioner. Läget ”Follow-me” är ett separat undantag endast i underkategori A1 (drönare i klass C0/C1 eller privatbyggda drönare under 250 g), upp till 50 m från piloten.",
       "Flyg inte över folksamlingar. Reglerna för utomstående personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
       "Nattflygning är tillåten enligt EASA:s grundkrav för den öppna kategorin när det föreskrivna gröna blinkljuset används, såvida inte gällande geografiska bestämmelser eller nationella regler ställer strängare krav.",
-      "Nationalparker och naturreservat: restriktioner gäller"
+      "Nationalparker och naturreservat: restriktioner gäller",
+      "Ansvarsförsäkring mot tredje man är obligatorisk för drönare över 20 kg och för kommersiell/yrkesmässig verksamhet – oavsett vikt. För yrkesmässig verksamhet i den öppna kategorin lämnar operatören in en deklaration till DG CAA."
     ],
     "importantNotes": [
-      "Förhandssamordning med BULATSA krävs före en flygning",
-      "En säkerhetszon på 8 km runt flygplatser – större än EASA-standarden",
+      "Kontrollera före en flygning de geografiska zonerna på uas.caa.bg och aktiva NOTAM i BULATSA:s B-FLIP",
+      "Runt större flygplatser finns geografiska zoner som är större än 8 km; inom dem krävs tillstånd från DG CAA (i den yttre zonen – för flygningar över 50 m). Kontrollera kartan på uas.caa.bg.",
       "Områdena kring Sofias flygplats begränsar flygningar över en stor del av staden",
       "Militära anläggningar: områden med strikt flygförbud",
       "GDPR gäller när igenkännbara personer fotograferas"
@@ -40,7 +43,7 @@
       },
       {
         "title": "DG GVA – Drönarzoner",
-        "description": "Information och restriktioner för geografiska zoner för drönarflygningar"
+        "description": "DG CAA:s officiella karta över geografiska zoner och restriktioner för drönarflygningar"
       }
     ],
     "secondaryLinks": [
@@ -50,10 +53,10 @@
       },
       {
         "title": "BULATSA – NOTAM",
-        "description": "Aktiva NOTAM och tillfälliga luftrumsrestriktioner"
+        "description": "Aktiva NOTAM och tillfälliga luftrumsrestriktioner i B-FLIP-portalen (kräver registrering i B-FLIP)"
       }
     ],
-    "disclaimerText": "Kontrollera alltid de officiella källorna från DG CAA och BULATSA före en flygning. Den här appen är ett verktyg – den är inte en juridiskt bindande källa. Bulgarien följer EASA-reglerna med nationella tillägg, bland annat ett krav på förhandssamordning.",
+    "disclaimerText": "Kontrollera alltid de officiella källorna från DG CAA (uas.caa.bg) och BULATSA före en flygning. Den här appen är ett verktyg – den är inte en juridiskt bindande källa. Bulgarien följer EASA-reglerna med nationella tillägg, bland annat krav på tillstånd från DG CAA för flygningar i vissa geografiska zoner.",
     "sectionLabelRules": "GRUNDLÄGGANDE REGLER (EASA ÖPPEN KATEGORI)",
     "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
     "sectionLabelSecondary": "YTTERLIGARE RESURSER",

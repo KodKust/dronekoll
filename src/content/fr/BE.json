@@ -1,27 +1,29 @@
 {
   "meta": {
-    "sourceHash": "b98ef8dd7e9c6b0c530a3757ad835b367dd07af3c65b9dd744c1512f5f5992cd",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "27f497a74725016dcbdecc01ce23d9050fb7893544b864e9bca529e0be6b134f",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Jusqu'à 120 m au-dessus du sol (catégorie ouverte EASA)",
-      "Enregistrez-vous comme exploitant d'UAS si le drone pèse 250 g ou plus ou est équipé d'une caméra",
-      "La formation en ligne A1/A3 est obligatoire — âge minimum 16 ans",
-      "Assurance responsabilité civile obligatoire pour les drones de TOUT poids (couverture de 1 à 2,5 millions d'euros)",
-      "Bruxelles : double autorisation requise (fédérale + régionale)",
-      "Gardez toujours le drone en vue directe (VLOS)",
+      "Dans la catégorie ouverte, la hauteur maximale est de 120 m, mesurée comme la distance jusqu'au point le plus proche de la surface terrestre — pas simplement à la verticale : près d'une pente, le terrain à côté de vous peut donc aussi compter. À moins de 50 m d'un obstacle artificiel élevé (de plus de 105 m), l'entité responsable de l'obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
+      "Vous devez vous enregistrer comme exploitant d'UAS si votre drone pèse 250 g ou plus (ou pourrait transmettre plus de 80 J d'énergie cinétique en cas de collision) — cela vaut aussi pour les jouets. En dessous de 250 g, l'enregistrement reste obligatoire si le drone possède un capteur capable de collecter des données personnelles, sauf s'il est considéré comme un jouet au sens de la directive européenne relative à la sécurité des jouets. Enregistrez-vous dans le pays de l'UE/de l'EASA où vous résidez (si vous résidez en dehors : dans le premier pays de l'UE/de l'EASA où vous volerez) ; cet enregistrement est valable dans tous les pays de l'UE/de l'EASA. Les exigences de formation/de certificat de télépilote sont fixées séparément et dépendent de la classe et de la sous-catégorie du drone.",
+      "En Belgique, l'âge minimum pour les sous-catégories A1/A3 est de 14 ans — la formation et l'examen en ligne gratuits sont valables 5 ans et reconnus dans toute l'UE. Pour la sous-catégorie A2, l'âge minimum reste de 16 ans. Exceptions à la limite de 14 ans : aucun âge minimum pour un drone C0 qui est un jouet (directive européenne relative à la sécurité des jouets) en A1, pour un drone de construction privée de moins de 250 g, ou sous la supervision directe d'un télépilote âgé d'au moins 16 ans titulaire du certificat requis.",
+      "L'assurance responsabilité civile (dommages corporels et matériels causés aux tiers) est obligatoire dans la catégorie ouverte, sauf pour les drones de moins de 900 g utilisés uniquement à titre privé. À partir de 20 kg, les exigences du règlement (CE) nº 785/2004 s'appliquent.",
+      "Télépilotes étrangers : l'enregistrement et un certificat A1/A3/A2 d'un autre État membre de l'UE sont valables en Belgique ; ayez sur vous votre preuve d'enregistrement et apposez votre numéro d'exploitant sur le drone. Les géozones belges et l'obligation d'assurance belge (sauf usage privé en dessous de 900 g) s'appliquent également à vous.",
+      "Bruxelles : dans la géozone EBR-01, vous avez besoin de l'autorisation préalable de l'institution concernée pour survoler les ambassades et les institutions fédérales et internationales (y compris européennes), ou pour voler à moins de 50 m de celles-ci. Vérifiez aussi les conditions de la CTR de Brussels Airport sur Droneguide et les règles communales si vous voulez décoller d'un lieu public ou y filmer.",
+      "Dans la catégorie ouverte, vous devez garder le drone dans votre propre champ de vision, à l'œil nu (lunettes/lentilles de contact autorisées ; jumelles ou écran ne comptent pas) — ou voler avec l'aide d'un observateur, en communiquant tous les deux de manière claire et efficace à tout moment, afin de surveiller ensemble l'espace aérien et d'éviter les collisions. Le mode « follow-me » dans la sous-catégorie A1 est une exception distincte, autorisée jusqu'à 50 m du télépilote.",
+      "Drones sans marquage de classe (mis sur le marché avant 2024) : moins de 250 g en A1, sinon uniquement en A3 et 25 kg max. (au moins 150 m des zones résidentielles, commerciales, industrielles ou récréatives). Sans marquage de classe et mis sur le marché après le 31-12-2023 : pas dans la catégorie ouverte.",
       "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
-      "À au moins 3 km des aéroports et héliports",
+      "Il n'existe pas de distance uniforme à l'échelle de l'UE par rapport aux aéroports ; la forme et la taille des géozones diffèrent selon l'aéroport. Des géozones s'appliquent dans une CTR belge (voir Droneguide) : en VLL 0 autour des pistes, la catégorie ouverte est interdite ; en VLL 1 et VLL 2 : 150 ft (env. 45 m) max. au-dessus du sol (en VLL 1, pas plus haut non plus que l'obstacle le plus élevé dans un rayon de 100 m). VLL 1 : permis préalable requis ; VLL 2 : notifiez le vol au moins 3 heures à l'avance. Faites la demande via le DAA-planner de skeyes ; rester joignable par téléphone, la géovigilance (geo-awareness) et le Remote ID sont obligatoires (Remote ID pas pour les C0 et certains drones de moins de 250 g).",
       "Les vols de nuit sont autorisés dans le cadre des exigences de base de l'EASA pour la catégorie ouverte lorsque le feu vert clignotant requis est utilisé, sauf si une zone géographique applicable ou une règle nationale impose une condition plus stricte.",
       "Consultez Droneguide pour les limites d'altitude et les restrictions propres à chaque zone"
     ],
     "importantNotes": [
-      "Assurance obligatoire pour les drones de TOUT poids — couverture de 1 à 2,5 millions d'euros requise",
-      "Bruxelles exige à la fois un enregistrement fédéral ET une autorisation régionale",
-      "Trois aéroports (Bruxelles, Charleroi, Liège) mettent en place de vastes zones réglementées",
+      "Assurance responsabilité civile obligatoire, sauf usage privé avec des drones de moins de 900 g",
+      "Bruxelles (géozone EBR-01) : survol des ambassades, des institutions du gouvernement fédéral et des institutions internationales, ou vol à moins de 50 m de celles-ci, uniquement avec l'autorisation préalable de l'institution concernée",
+      "Les aéroports contrôlés (Bruxelles, Anvers, Charleroi, Liège, Ostende) et les aérodromes militaires ont des géozones CTR aux conditions strictes ; Courtrai-Wevelgem a une géozone RMZ/TMZ.",
       "Les infractions peuvent entraîner des amendes et des poursuites pénales",
       "Le RGPD s'applique lors de la création d'images représentant des personnes identifiables"
     ],
@@ -45,15 +47,15 @@
     ],
     "secondaryLinks": [
       {
-        "title": "skeyes — Contrôle du trafic aérien",
-        "description": "Contrôleur du trafic aérien belge et informations sur l'espace aérien"
+        "title": "skeyes — Drones et géozones",
+        "description": "Page drones du contrôleur aérien belge : conditions de vol dans les géozones et le DAA-planner"
       },
       {
         "title": "BCAA — FAQ sur les drones",
         "description": "Questions fréquentes sur la réglementation des drones en Belgique"
       }
     ],
-    "disclaimerText": "Vérifiez toujours les sources officielles de la BCAA et consultez Droneguide avant de voler. Cette application est un outil, pas une autorité juridique. La Belgique suit la réglementation EASA, qui comprend des exigences d'assurance nationales strictes.",
+    "disclaimerText": "Vérifiez toujours les sources officielles de la BCAA et consultez Droneguide avant de voler. Cette application est un outil, pas une autorité juridique. La Belgique suit la réglementation EASA, complétée par des règles nationales (notamment une assurance obligatoire et des zones géographiques fixes).",
     "sectionLabelRules": "RÈGLES CLÉS (CATÉGORIE OUVERTE EASA)",
     "sectionLabelPrimary": "SOURCES OFFICIELLES",
     "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",

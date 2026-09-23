@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "17d852a01e48f71061854c0a7b614ed78721768d3d73eccf5ccdda3a556d264f",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "da2427b1326315670ad00c40760c98fe7dcb581d5abb3f16d2aa07daea8f6c28",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maksymalna wysokość: 120 m (400 ft) nad poziomem gruntu",
-      "Minimalna odległość 9,2 km od lotnisk kontrolowanych",
-      "Minimalna odległość 3,7 km od lotnisk niekontrolowanych",
+      "Minimalna odległość 9,2 km (5 NM) od każdego lotniska, kontrolowanego lub niekontrolowanego (NOM-107-SCT3-2019, 4.10.1).",
+      "Od 9,2 km (5 NM) do 18,5 km (10 NM) od lotnisk wymienionych w NOM-107 (Załącznik I): maksymalna wysokość 100 m (328 ft).",
       "Minimalna odległość 900 m od lądowisk dla śmigłowców",
+      "Loty są zabronione w strefach zakazanych, ograniczonych lub niebezpiecznych AIP (ENR 5.1) oraz w korytarzach dla śmigłowców; przed każdym lotem sprawdzaj NOTAM-y.",
       "Zawsze utrzymuj drona w zasięgu wzroku (VLOS), nie dalej niż 457 m od operatora",
-      "Drony o masie 250 g lub więcej: obowiązkowa rejestracja w AFAC (formularz z Załącznika K)",
+      "Drony powyżej 250 g: obowiązkowa rejestracja w AFAC przed lotem (formularz z Załącznika K)",
       "Drony o masie poniżej 250 g: zwolnione z rejestracji, ale obowiązują wszystkie pozostałe zasady",
-      "Kategorie masy: Micro (≤2 kg), Light (2–25 kg), Heavy (>25 kg)",
+      "Kategorie masy: Micro (≤2 kg), Small (>2–25 kg), Large (>25 kg)",
+      "Drony rekreacyjne powyżej 2 kg: mogą latać wyłącznie w klubach modelarskich zatwierdzonych przez AFAC.",
       "Loty nocne wymagają szczególnego zezwolenia AFAC",
-      "Użytek komercyjny wymaga dodatkowego zezwolenia w zależności od kategorii masy"
+      "Użytek prywatny niekomercyjny lub komercyjny: obowiązkowe jest ważne ubezpieczenie od odpowiedzialności cywilnej; drony Micro (≤2 kg) wymagają dodatkowo specjalnego zezwolenia na loty w przestrzeni kontrolowanej; drony Small i Large wymagają zezwolenia na wykonywanie operacji wydanego przez AFAC."
     ],
     "importantNotes": [
-      "⚠️ ZAGRANICZNI PILOCI: Norma NOM-107 zabrania operowania dronami zarejestrowanymi za granicą lub przez cudzoziemców, o ile nie istnieje umowa dwustronna między Meksykiem a krajem pochodzenia. Turyści: sprawdź przed podróżą.",
-      "Kary za nielegalne operacje mogą wynieść do 80 000 MXN; możliwa jest również kara pozbawienia wolności",
+      "PILOCI ZAGRANICZNI: NOM-107-SCT3-2019 zakazuje operowania dronami z zagraniczną rejestracją lub pilotowanymi przez cudzoziemców, chyba że istnieje umowa dwustronna między Meksykiem a krajem pochodzenia — obecnie nie wiadomo o żadnej takiej obowiązującej umowie.",
+      "Aby importować do Meksyku drony Micro powyżej 250 g oraz drony Small, muszą one mieć oznaczenie producenta i modelu, numer seryjny, instrukcję obsługi oraz oprogramowanie automatycznie ograniczające odległość i wysokość (NOM-107, 10.1).",
+      "Nieprzestrzeganie NOM-107 może być karane przez AFAC na podstawie Ley de Aviación Civil; używanie dronów do popełniania przestępstw (np. zrzucania materiałów wybuchowych lub atakowania ludzi) jest zagrożone karą pozbawienia wolności (Código Penal Federal, art. 163 Bis–Quáter).",
       "W parkach narodowych i na stanowiskach archeologicznych (INAH) używanie dronów bez specjalnego zezwolenia jest na ogół zabronione",
       "Przystanie i obszary przybrzeżne są często objęte ograniczeniami — sprawdź u władz lokalnych",
       "Rozpatrzenie wniosku w rejestrze AFAC może potrwać do 10 dni roboczych — zaplanuj to z wyprzedzeniem"
@@ -37,16 +40,12 @@
       {
         "title": "NOM-107-SCT3-2019 — Norma oficjalna",
         "description": "Oficjalna norma meksykańska określająca wymagania dotyczące operowania systemem zdalnie pilotowanego statku powietrznego"
-      },
-      {
-        "title": "Okólnik CO AV-23/10 R4",
-        "description": "Obowiązkowy okólnik określający szczegółowe wymagania techniczne i operacyjne dotyczące dronów"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "ASA — Lotniska i służby pomocnicze",
-        "description": "Informacje o meksykańskich lotniskach federalnych pozwalające sprawdzić obszary zastrzeżone"
+        "title": "AFAC — Baza danych lotnisk i heliportów",
+        "description": "Aktualny oficjalny wykaz lotnisk i heliportów do sprawdzania minimalnych odległości według NOM-107"
       },
       {
         "title": "SICT — Lotnictwo cywilne",
@@ -62,6 +61,6 @@
     "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
     "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
     "linksSheetTitle": "Przestrzeń powietrzna i przepisy — Meksyk",
-    "dronePilotCredentialName": "Licencja pilota bezzałogowego statku powietrznego"
+    "dronePilotCredentialName": "Zezwolenie pilota RPAS"
   }
 }

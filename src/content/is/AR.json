@@ -1,30 +1,32 @@
 {
   "meta": {
-    "sourceHash": "64c56f7cd237868e12b4a9acebacfc1c7ed47d9c27e97af77b28d123a7822c74",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "9cca66a7c2aad0d0dc5edac3e33625910a5e790c5cdccb45c10be1fbd9252627",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Hámarkshæð: 122 m (400 fet) yfir jörðu í opna flokknum (óstýrt loftrými)",
-      "Nálægt flugvöllum (≤5 km): hámarkshæð 43 m án fyrirframheimildar frá veitanda flugleiðsöguþjónustu",
-      "Lágmarksfjarlægð 5 km frá flugvöllum og öðrum flugsvæðum án heimildar",
-      "Lágmarksfjarlægð 500 m frá þyrlupöllum",
-      "Örugg fjarlægð frá fólki og byggingum sem ekki tengjast fluginu",
+      "Opni flokkurinn: bannað er að fljúga innan flugstjórnarsviða flugvalla (CTR). Í stýrðu loftrými, innan 5 km frá þröskuldum flugbrauta: að hámarki 43 m og aldrei í aðflugs- eða flugtaksflötum; meiri hæð krefst heimildar frá flugleiðsöguþjónustunni.",
+      "Þyrluvellir: bannað er að fljúga innan 1 sjómílu (1,85 km) frá viðmiðunarpunktinum (HRP); á milli 1 og 2 sjómílna að hámarki 150 ft (46 m) yfir þyrluvellinum, nema samræmt sé fyrirfram.",
+      "Bannað er að fljúga yfir her-, öryggis- eða fangelsisaðstöðu og innan 1 sjómílu (1,85 km) frá henni; yfir olíuhreinsunarstöðvum, orkuverum eða eldsneytisbirgðastöðvum án leyfis eiganda; og innan 25 m (lóðrétt eða lárétt) frá háspennulínum.",
+      "Þú verður að halda öruggri fjarlægð frá fólki og byggingum sem tengjast ekki fluginu.",
       "Haltu drónanum ávallt innan beinnar sjónlínu (VLOS) í opna flokknum",
-      "Flug aðeins heimilt að degi til — næturflug krefst sérstakrar heimildar",
-      "Drónar sem vega minna en 250 g: undanþegnir skráningu og kröfu um flugmannsréttindi (Resolution 550/2025)",
-      "Drónar sem vega ≥250 g: skráningarskylda hjá TAD (ANAC) — ekkert flugmannsleyfi nauðsynlegt í opna flokknum",
+      "Bannað er að stýra dróna eða vera athugandi innan 8 klukkustunda frá áfengisneyslu eða undir áhrifum geðvirkra efna.",
+      "Næturflug: ANAC Res. 312/2026 (maí 2026) afnam almennu takmörkunina í RAAC 100; leiðbeiningar ANAC flokka næturrekstur þó enn undir sérstaka flokkinn — kannaðu hjá ANAC áður en þú flýgur að nóttu.",
+      "Drónar sem vega minna en 250 g eru undanþegnir skráningu, leyfisskyldu og tryggingaskyldu (Resolution 550/2025, ágúst 2025). Drónar frá 250 g til 25 kg krefjast ekki flugmannsleyfis, en verða að vera skráðir rafrænt hjá ANAC í Casillero Aeronáutico Digital (CAD).",
+      "Drónar sem vega ≥250 g: skráningarskylda hjá CAD (ANAC) — ekkert flugmannsleyfi nauðsynlegt í opna flokknum",
       "Rekstur í sérstökum flokki (25–150 kg eða þéttbýlisflug/BVLOS): krefst flugmannsleyfis, læknisvottorðs og rekstrarvottorðs í atvinnuskyni",
-      "Opni flokkurinn leyfir dróna sem vega minna en 25 kg án fyrirframheimildar (engin þyngdarmörk í dreifbýli)"
+      "Opni flokkurinn leyfir dróna frá 250 g upp í minna en 25 kg án fyrirframheimildar (drónar með snúningsvængi án þyngdarmarka aðeins í dreifbýli, utan CTR og takmarkaðs loftrýmis)"
     ],
     "importantNotes": [
-      "📜 NÝTT REGLUVERK 2025: ANAC Resolution 550/2025 (tók gildi í ágúst 2025) kemur í stað Resolution 880/2019. Það skilgreinir þrjá flokka: rekstur án fyrirframheimildar, opinn flokk og sérstakan flokk. RAAC Part 100/101/102.",
-      "✈️ ERLENDIR FERÐAMENN: Drónar sem vega 250 g eða meira verða að vera skráðir hjá TAD fyrir fyrsta flugið (Resolution 550/2025). Skráning fer fram á netinu; argentínskt skilríki eða vegabréf er nauðsynlegt. Drónar sem vega minna en 250 g — svo sem DJI Mini, Flip o.fl. — eru undanþegnir skráningu og kröfu um flugmannsréttindi.",
-      "🌳 ÞJÓÐGARÐAR OG VERNDUÐ SVÆÐI: APN (Þjóðgarðastjórn) bannar dróna án sérstaks leyfis í þjóðgörðum eins og Iguazú, Nahuel Huapi, Los Glaciares og Tierra del Fuego. Athugaðu hjá hverjum garði áður en þú flýgur.",
-      "🏛️ ÞÉTTBÝLI OG TAKMÖRKUÐ SVÆÐI: Buenos Aires (Jorge Newbery-flugvöllur, Casa Rosada, þingið), Ezeiza (Ministro Pistarini) og hersvæði eru flugbannssvæði. Aerolíneas Argentinas og miðborgarsvæði hafa varanlegar takmarkanir — athugaðu AIP.",
-      "💰 VIÐURLÖG: Brot geta leitt til verulegra sekta, haldlagningar búnaðar og, í alvarlegum tilvikum, refsiábyrgðar. Ábyrgðartrygging er nauðsynleg fyrir atvinnunotkun."
+      "📜 NÝTT REGLUVERK: ANAC Resolution 550/2025 (tók gildi í ágúst 2025, breytt með Res. 312/2026) kemur í stað Resolution 880/2019. Það skilgreinir þrjá flokka: opinn, sérstakan og vottaðan. RAAC Part 100/101/102.",
+      "Dróna sem vega 250 g eða meira verður að skrá hjá ANAC í Casillero Aeronáutico Digital (CAD) fyrir fyrsta flug — skráningin er ókeypis, fer fram á netinu og krefst DNI eða vegabréfs. Drónar sem vega minna en 250 g (t.d. DJI Mini eða Flip) eru undanþegnir skráningu og leyfisskyldu (Resolution 550/2025).",
+      "Ferðamenn: gilt skráningarskírteini fyrir viðkomandi dróna, gefið út af flugmálayfirvöldum annars ICAO-ríkis, er tekið gilt (RAAC 100.05); skráning rekstraraðila eingöngu dugar hugsanlega ekki. Ef dróninn þinn er ekki skráður skaltu fylla út ókeypis rafræna eiðsvarna yfirlýsingu (Declaración Jurada) hjá ANAC með vegabréfinu þínu.",
+      "🌳 ÞJÓÐGARÐAR OG VERNDARSVÆÐI: APN bannar tómstunda- og íþróttanotkun dróna á öllum verndarsvæðum sínum (APN Res. 9/2021), svo sem Iguazú, Nahuel Huapi, Los Glaciares eða Tierra del Fuego. Fagleg eða vísindaleg notkun krefst fyrirframheimildar frá APN.",
+      "🏛️ TAKMÖRKUÐ SVÆÐI: bannað er að fljúga yfir Casa Rosada, Quinta de Olivos, opinberum byggingum og sendiráðum, innan 1 sjómílu frá hernaðarmannvirkjum og innan flugstjórnarsviða flugvalla á borð við Aeroparque og Ezeiza — athugaðu AIP.",
+      "💰 VIÐURLÖG: brot varða viðurlögum samkvæmt Reglamento General de Infracciones de la Aviación Civil, með fyrirvara um einkaréttarlega eða refsiréttarlega ábyrgð. Trygging er skyldubundin í sérstaka og vottaða flokknum (valfrjáls í opna flokknum)."
     ],
     "primaryLinks": [
       {
@@ -32,8 +34,8 @@
         "description": "Opinber vefur Landsflugmálastjórnar um dróna (VANT/SVANT): nýr regluverksrammi — reglugerð 550/2025, flokkar og rekstrarkröfur"
       },
       {
-        "title": "Drónaskráning (TAD)",
-        "description": "Skyldubundið skráningarkerfi fyrir dróna sem vega meira en 500 g í gegnum Trámites a Distancia (TAD) vettvanginn. Flokkur A (≤500 g) til tómstunda er undanþeginn."
+        "title": "Drónaskráning (CAD)",
+        "description": "Ókeypis rafræn eiðsvarin yfirlýsing (Declaración Jurada) fyrir dróna frá 250 g til 25 kg í Casillero Aeronáutico Digital (CAD) hjá ANAC; rafrænt skráningarskírteini er gefið út. Drónar undir 250 g eru undanþegnir."
       },
       {
         "title": "AIP — Útgáfa flugmálaupplýsinga",
@@ -50,19 +52,19 @@
         "description": "Rekstrarvottorð flugrekanda fyrir drónarekstur í atvinnuskyni. Nauðsynlegt fyrir sérstakan flokk og atvinnuflug"
       },
       {
-        "title": "Vottun sem fjarstýringaráhafnarmeðlimur (flugmaður)",
-        "description": "Ferli til að fá heimild sem fjarflugmaður. Próf og kröfur fyrir atvinnuvottun"
+        "title": "Heimild sem fjaráhafnarmeðlimur (flugmaður)",
+        "description": "Ferli til að fá heimild sem fjarflugmaður. Próf og kröfur fyrir faglega vottun"
       },
       {
         "title": "Nýr regluverksrammi (opinbert yfirlit)",
         "description": "Opinbert yfirlit ANAC um nýja regluverksrammann fyrir dróna eftir reglugerð 550/2025: helstu breytingar og flokkar"
       }
     ],
-    "disclaimerText": "Athugaðu ávallt opinberar heimildir ANAC áður en þú flýgur. Þetta forrit er verkfæri, ekki lögbær heimild. Argentína framfylgir ANAC Resolution 550/2025 (RAAC Part 100/101/102), sem tók gildi í ágúst 2025.",
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir ANAC áður en þú flýgur. Þetta forrit er verkfæri, ekki lögbær heimild. Argentína framfylgir ANAC Resolution 550/2025 (RAAC Part 100/101/102), sem tók gildi í ágúst 2025 og var breytt með ANAC Resolution 312/2026.",
     "sectionLabelRules": "HELSTU REGLUR",
     "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
     "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
     "linksSheetTitle": "Loftrými og reglur — Argentína",
-    "dronePilotCredentialName": "Flugmannsskírteini fjarstýrðra loftfara"
+    "dronePilotCredentialName": "Fjarflugmannsleyfi (RPA)"
   }
 }

@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "17d852a01e48f71061854c0a7b614ed78721768d3d73eccf5ccdda3a556d264f",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "sourceHash": "da2427b1326315670ad00c40760c98fe7dcb581d5abb3f16d2aa07daea8f6c28",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Altura máxima: 120 m (400 ft) acima do nível do solo",
-      "Distância mínima de 9,2 km de aeroportos controlados",
-      "Distância mínima de 3,7 km de aeródromos não controlados",
+      "Distância mínima de 9,2 km (5 NM) de qualquer aeródromo, controlado ou não controlado (NOM-107-SCT3-2019, 4.10.1).",
+      "Entre 9,2 km (5 NM) e 18,5 km (10 NM) dos aeródromos indicados na NOM-107 (Apêndice I): altura máxima de 100 m (328 ft).",
       "Distância mínima de 900 m de heliportos",
+      "É proibido voar nas áreas proibidas, restritas ou perigosas do AIP (ENR 5.1) e nos corredores de helicópteros; consulte os NOTAM antes de cada voo.",
       "Mantenha sempre o drone dentro da linha de vista direta (VLOS), a não mais de 457 m do operador",
-      "Drones com peso igual ou superior a 250 g: registo obrigatório junto da AFAC (formulário do Anexo K)",
+      "Drones com mais de 250 g: registo obrigatório junto da AFAC antes de voar (formulário do Anexo K)",
       "Drones com peso inferior a 250 g: isentos de registo, mas todas as restantes regras aplicam-se",
-      "Categorias de peso: Micro (≤2 kg), Ligeiro (2–25 kg), Pesado (>25 kg)",
+      "Categorias de peso: Micro (≤2 kg), Pequeno (>2–25 kg), Grande (>25 kg)",
+      "Drones recreativos com mais de 2 kg: só podem voar em clubes de aeromodelismo autorizados pela AFAC.",
       "Os voos noturnos exigem autorização específica da AFAC",
-      "O uso comercial exige autorização adicional consoante a categoria de peso"
+      "Uso privado não comercial ou uso comercial: é obrigatório um seguro de responsabilidade civil válido; os Micro (≤2 kg) exigem ainda uma autorização especial para o espaço aéreo controlado; os Pequenos e Grandes exigem uma autorização de operação da AFAC."
     ],
     "importantNotes": [
-      "⚠️ PILOTOS ESTRANGEIROS: a NOM-107 proíbe a operação de drones registados no estrangeiro ou por cidadãos estrangeiros, salvo se existir um acordo bilateral entre o México e o país de origem. Turistas: verifiquem antes de viajar.",
-      "As sanções por operações ilegais podem chegar a 80 000 MXN ou pena de prisão",
+      "PILOTOS ESTRANGEIROS: a NOM-107-SCT3-2019 proíbe a operação de drones com matrícula estrangeira ou pilotados por cidadãos estrangeiros, salvo se existir um acordo bilateral entre o México e o país de origem — não se conhece atualmente nenhum acordo desse tipo em vigor.",
+      "Para importar para o México drones Micro com mais de 250 g e drones Pequenos, estes têm de ter fabricante e modelo, número de série, manual do utilizador e software que limite automaticamente a distância e a altura (NOM-107, 10.1).",
+      "O incumprimento da NOM-107 pode ser sancionado pela AFAC ao abrigo da Ley de Aviación Civil; utilizar drones para cometer crimes (por exemplo, largar explosivos ou atacar pessoas) é punível com pena de prisão (Código Penal Federal, arts. 163 Bis–Quáter).",
       "Os parques nacionais e os sítios arqueológicos (INAH) proíbem geralmente drones sem autorização especial",
       "As marinas e as zonas costeiras estão frequentemente sujeitas a restrições — consulte as autoridades locais",
       "O registo da AFAC tem um prazo de resposta de até 10 dias úteis — planeie com antecedência"
@@ -37,16 +40,12 @@
       {
         "title": "NOM-107-SCT3-2019 — Norma Oficial",
         "description": "Norma Oficial Mexicana que estabelece os requisitos para operar um sistema de aeronave pilotada remotamente"
-      },
-      {
-        "title": "Circular CO AV-23/10 R4",
-        "description": "Circular obrigatória que define requisitos técnicos e operacionais detalhados para drones"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "ASA — Aeroportos e Serviços Auxiliares",
-        "description": "Informação sobre os aeroportos federais mexicanos para verificar zonas restritas"
+        "title": "AFAC — Base de dados de aeródromos e heliportos",
+        "description": "Lista oficial atual de aeródromos e heliportos para verificar as distâncias mínimas da NOM-107"
       },
       {
         "title": "SICT — Aviação Civil",
@@ -62,6 +61,6 @@
     "sectionLabelPrimary": "FONTES OFICIAIS",
     "sectionLabelSecondary": "RECURSOS ADICIONAIS",
     "linksSheetTitle": "Espaço aéreo e regulamentação — México",
-    "dronePilotCredentialName": "Licença de Piloto Remoto"
+    "dronePilotCredentialName": "Autorização de Piloto de RPAS"
   }
 }

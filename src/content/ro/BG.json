@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "53287a6bbcc1a046359816ed2a7de6b009d10fc753031bec7dc231d525fdedf3",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "76cde0e68eaea6de50863e60f85670840fe89558dc64828a40f7f9cfd6b8a0c6",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximum 120 m deasupra nivelului solului (categoria EASA Open)",
-      "Înregistrare ca operator UAS pentru dronele cu o greutate de 250 g sau mai mult ori echipate cu o cameră",
-      "Instruire online A1/A3 obligatorie — vârsta minimă 16 ani",
-      "Zonă de protecție de 8 km în jurul aeroporturilor (mai mare decât standardul EASA)",
+      "În categoria Open, înălțimea maximă este de 120 m, măsurată ca distanța până la cel mai apropiat punct de pe suprafața pământului — nu pur și simplu pe verticală, așa că lângă o pantă poate conta și terenul de lângă tine. Pe o rază de 50 m de un obstacol artificial înalt (peste 105 m), entitatea responsabilă de obstacol poate solicita autorizarea de a zbura până la 15 m deasupra înălțimii obstacolului.",
+      "Trebuie să te înregistrezi ca operator de drone dacă drona ta cântărește 250 g sau mai mult (sau ar putea transfera peste 80 J de energie cinetică la impact) — acest lucru se aplică chiar și jucăriilor. Sub 250 g, înregistrarea este totuși necesară dacă drona are un senzor capabil să capteze date cu caracter personal, cu excepția cazului în care este considerată jucărie conform Directivei UE privind siguranța jucăriilor. Cerințele de instruire/certificare a pilotului sunt separate și depind de clasa și subcategoria dronei. Numărul de înregistrare al operatorului se aplică cu un autocolant pe fiecare dronă și, dacă drona are un sistem de identificare la distanță (Remote ID), se introduce și în acesta.",
+      "Vârsta minimă pentru a zbura independent în categoria Open este de 16 ani — instruirea și examenul online A1/A3 se susțin în sistemul DG CAA (uas.caa.bg, autentificare cu semnătură electronică calificată), sunt valabile 5 ani și sunt recunoscute în toată UE. Fără vârstă minimă: clasa C0 în A1, o dronă construită în regim privat sub 250 g sau un zbor sub supravegherea directă a unui pilot cu competența necesară. Dacă pilotul are sub 18 ani, un părinte sau tutore se înregistrează ca operator.",
+      "Turiști: dacă drona ta este supusă înregistrării, înregistrează-te ca operator în țara UE în care locuiești; dacă locuiești în afara UE — în prima țară UE în care vei zbura (în Bulgaria: uas.caa.bg). Calificările din țări din afara UE nu sunt recunoscute — instruirea necesară (de ex. A1/A3) trebuie finalizată în UE.",
+      "În jurul aeroporturilor există zone geografice de dimensiuni diferite. La aeroporturile Sofia, Varna, Burgas, Plovdiv și Gorna Oryahovitsa, zonele sunt mai mari de 8 km: în zona interioară, orice zbor necesită autorizarea DG CAA, iar în zona extinsă — zborurile peste 50 m. Solicită cu cel puțin 7 zile lucrătoare înainte. Verifică harta pe uas.caa.bg.",
       "Zonele din jurul Aeroportului Sofia acoperă o parte semnificativă a orașului",
-      "Este necesară coordonarea cu BULATSA înainte de zbor",
-      "Menține întotdeauna contactul vizual direct (VLOS) cu drona",
+      "Fără autorizare, este interzis zborul în zonele geografice restricționate sau interzise, în structurile de spațiu aerian activate (rezervate temporar) și în perimetrul păzit al aeroporturilor de uz public. În caz de încălcare, drona poate fi forțată să aterizeze sau poate fi îndepărtată, iar eventualele daune sunt suportate de contravenient.",
+      "Înainte de fiecare zbor, verifică zonele geografice pe harta DG CAA (uas.caa.bg); într-o zonă care necesită autorizare, depune o cerere la DG CAA în termenul indicat pentru zona respectivă.",
+      "În categoria Open trebuie să menții drona în contact vizual direct, cu ochiul liber (ochelarii/lentilele de contact sunt permise; binoclul sau un ecran nu sunt acceptate) — sau cu ajutorul unui observator, cu o comunicare clară și eficientă între voi în permanență, astfel încât împreună să supravegheați spațiul aerian și să evitați coliziunile. Modul „follow-me” este o excepție separată doar în subcategoria A1 (drone din clasa C0/C1 sau drone construite în regim privat sub 250 g), până la 50 m de pilot.",
       "Nu zbura deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; verifică matricea oficială.",
       "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
-      "Parcuri naționale și rezervații naturale: se aplică restricții"
+      "Parcuri naționale și rezervații naturale: se aplică restricții",
+      "Asigurarea de răspundere civilă față de terți este obligatorie pentru dronele de peste 20 kg și pentru activitatea comercială/profesională — indiferent de greutate. Pentru activitatea profesională în categoria Open, operatorul depune o declarație la DG CAA."
     ],
     "importantNotes": [
-      "Este necesară coordonarea cu BULATSA înainte de zbor",
-      "Zonă de siguranță de 8 km în jurul aeroporturilor — mai mare decât standardul EASA",
+      "Înainte de zbor, verifică zonele geografice pe uas.caa.bg și NOTAM-urile active în B-FLIP al BULATSA",
+      "În jurul aeroporturilor mari există zone geografice mai mari de 8 km; în interiorul lor este necesară autorizarea DG CAA (în zona extinsă — pentru zborurile peste 50 m). Verifică harta pe uas.caa.bg.",
       "Zonele din jurul Aeroportului Sofia restricționează zborurile deasupra unei mari părți a orașului",
       "Instalații militare: zone în care zborul este strict interzis",
       "GDPR se aplică atunci când sunt fotografiate persoane identificabile"
@@ -40,7 +43,7 @@
       },
       {
         "title": "DG GVA — zone pentru drone",
-        "description": "Informații și restricții privind zonele geografice pentru zborurile cu drone"
+        "description": "Harta oficială a DG CAA cu zonele geografice și restricțiile pentru zborurile cu drone"
       }
     ],
     "secondaryLinks": [
@@ -50,10 +53,10 @@
       },
       {
         "title": "BULATSA — NOTAM",
-        "description": "NOTAM-uri active și restricții temporare de spațiu aerian"
+        "description": "NOTAM-uri active și restricții temporare de spațiu aerian în portalul B-FLIP (necesită înregistrare în B-FLIP)"
       }
     ],
-    "disclaimerText": "Înainte de zbor, verifică întotdeauna sursele oficiale ale DG CAA și BULATSA. Această aplicație este un instrument — nu este o autoritate juridică. Bulgaria respectă reglementările EASA, cu adăugiri naționale, inclusiv cerința de coordonare înainte de zbor.",
+    "disclaimerText": "Înainte de zbor, verifică întotdeauna sursele oficiale ale DG CAA (uas.caa.bg) și BULATSA. Această aplicație este un instrument — nu este o autoritate juridică. Bulgaria respectă reglementările EASA, cu adăugiri naționale, inclusiv autorizarea DG CAA pentru zborurile în unele zone geografice.",
     "sectionLabelRules": "REGULI DE BAZĂ (CATEGORIA EASA OPEN)",
     "sectionLabelPrimary": "SURSE OFICIALE",
     "sectionLabelSecondary": "RESURSE SUPLIMENTARE",

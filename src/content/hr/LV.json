@@ -1,28 +1,35 @@
 {
   "meta": {
-    "sourceHash": "554dcb2ca7172e65f382ee60023e605b64f419f74a40862fa094a3c138b1853d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "dffaad15a571e359fb1ed462806f7dd69c5c983c8a5aea73cf0df596497c54f0",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Najviše 120 m iznad razine tla (EASA Open kategorija)",
-      "Registrirajte se kao UAS operater ako je vaš dron težak 250 g ili više ili je opremljen kamerom",
-      "Potrebna je online obuka A1/A3 — najniža dob je 16 godina",
-      "Obavezno osiguranje od građanske odgovornosti za dronove teže od 1,5 kg; minimalno pokriće ovisi o težini — 250–1.500 g: 150.000 €; 1.501–5.000 g: 500.000 €; >5 kg: 1.000.000 €",
-      "Zabranjeno je letjeti iznad mostova, željeznica, autocesta i dalekovoda",
-      "Uvijek držite dron u vidnom polju (VLOS)",
+      "U otvorenoj kategoriji najveća je visina 120 m, mjerena kao udaljenost do najbliže točke površine tla — ne samo okomito prema dolje, pa se uz padinu može računati i tlo pokraj vas. Unutar 50 m od visoke umjetne prepreke (više od 105 m), subjekt odgovoran za prepreku može zatražiti dozvolu za letenje do 15 m iznad visine prepreke.",
+      "Morate se registrirati kao operater drona ako vaš dron teži 250 g ili više (ili pri sudaru može prenijeti više od 80 J kinetičke energije) — to vrijedi i za igračke. Ako teži manje od 250 g, registracija je i dalje potrebna ako dron ima senzor koji može bilježiti osobne podatke, osim ako se smatra igračkom prema EU Toy Safety Directive. Zahtjevi za obuku i certifikat pilota zasebni su i ovise o klasi i potkategoriji drona.",
+      "Morate se registrirati kao UAS operater u zemlji EU-a u kojoj imate prebivalište (ako živite izvan EU-a — u prvoj zemlji EU-a u kojoj letite); registracija vrijedi u cijeloj EU, a registracija u dvjema zemljama istodobno nije dopuštena. U Latviji registracija stoji 5 € i vrijedi 1 godinu. Svaki dron mora biti označen brojem UAS operatera.",
+      "Za dron od 250 g ili teži potrebni su online tečaj i ispit A1/A3. Od 2024. dronovi bez oznake klase C i mase 250 g ili više smiju letjeti samo u potkategoriji A3 — daleko od neuključenih osoba i najmanje 150 m od stambenih, poslovnih, industrijskih i rekreacijskih područja.",
+      "U Latviji je minimalna dob za samostalno letenje 16 godina; mlađi piloti smiju letjeti samo pod izravnim nadzorom kvalificiranog pilota na daljinu od najmanje 16 godina ili s dronom klase C0 izrađenim kao igračka.",
+      "Dronovi klasa C1, C2 (i C3) moraju letjeti s aktivnom izravnom daljinskom identifikacijom (Remote ID) u koju je unesen vaš broj UAS operatera.",
+      "Osiguranje od građanske odgovornosti je obavezno, osim za dronove mase manje od 250 g i najveće brzine manje od 19 m/s. Minimalni limit: u potkategorijama A1 i A2 — 50.000 €; za dronove od 20 kg naviše i u posebnoj kategoriji — 750.000 SDR (Regulation (EC) No 785/2004).",
+      "Opće zabrane nema, ali geografske zone UAS-a mogu se uspostaviti iznad državnih cesta, mostova, željezničkih objekata i dalekovoda od 110/330 kV (do 50 m od njih) — provjerite airspace.lv. Kad god je moguće, izbjegavajte letenje iznad ljudi, prometa, zgrada i inženjerskih građevina.",
+      "Zabranjeno je snimati ili fotografirati objekte kritične infrastrukture označene znakom „BEZ SASKAŅOŠANAS FOTOGRAFĒT, FILMĒT AIZLIEGTS“.",
+      "U otvorenoj kategoriji dron morate držati unutar svog izravnog vidnog polja, bez pomagala (naočale/kontaktne leće su dopuštene; dalekozor ili zaslon ne računaju se) — ili letjeti uz pomoć promatrača, uz stalnu jasnu i učinkovitu komunikaciju između vas, kako biste zajedno mogli nadzirati zračni prostor i izbjeći sudare. Način „Follow-me“ zasebna je iznimka, dopušten do 50 m od pilota.",
       "Ne letite iznad okupljanja ljudi. Pravila za neuključene osobe ovise o potkategoriji, klasi i uvjetima leta; provjerite službenu tablicu.",
-      "Najmanje 5 km od bilo koje zračne luke ili uzletišta",
+      "Ne postoji jedinstvena udaljenost od zračnih luka koja se mora poštovati u cijeloj EU. Ograničenja u blizini zračnih luka objavljuju se kao geografske zone (članak 15), čiji se oblik i veličina razlikuju od zračne luke do zračne luke. Prije letenja u blizini zračne luke, uzletišta ili heliodroma provjerite službenu kartu zona za dronove svoje zemlje; za letenje unutar kontrolirane zone (CTR) obično je potrebno prethodno odobrenje kontrole zračnog prometa.",
+      "U Latviji se od 1. siječnja 2025. letovi u geografskim zonama UAS-a za koje je potrebna prijava ili odobrenje leta moraju prije leta prijaviti u informacijskom sustavu za bespilotne zrakoplove CAA-e BGKIS (e.caa.gov.lv); operateri registrirani u drugoj zemlji EGP-a ili u Švicarskoj također mogu otvoriti račun u BGKIS-u. Odobrenje u zonama oko aerodroma može trajati do 5 radnih dana (do 30 dana ako se plan leta mora promijeniti).",
       "Noćni let dopušten je prema osnovnim pravilima EASA otvorene kategorije kada se koristi propisano zeleno trepćuće svjetlo, osim ako važeća geografska zona ili nacionalno pravilo ne nameće stroži uvjet.",
-      "CTR zračne luke Riga pokriva znatno područje"
+      "CTR Rige pokriva velik dio Rige. Bez posebnog odobrenja letenje je dopušteno ispod 50 m iznad tla i na više od 5 km od pragova uzletno-sletnih staza 18 i 36 s dronom do 2 kg; za dron teži od 2 kg potrebna je dodatna osposobljenost (npr. potvrda o osposobljenosti A2). Iznad 50 m ili unutar zone od 5 km oko pragova uzletno-sletnih staza svaki se let mora unaprijed odobriti kod VAS „Latvijas gaisa satiksme“.",
+      "Na zahtjev policije, CAA-e, granične policije ili druge službene osobe odmah prekinite let i pokažite identifikacijsku ispravu – nosite je sa sobom.",
+      "Pilotu na daljinu ili promatraču čija koncentracija alkohola u krvi prelazi 0,2 ‰ ili koji je pod utjecajem opojnih sredstava može se izreći kazna do 700 €; odbijanje testiranja je zabranjeno. Kazne: do 700 € (npr. za letenje bez obaveznog osiguranja), do 1.000 € za kršenje dopuštene visine ili zahtjeva za zone aerodroma."
     ],
     "importantNotes": [
-      "Osiguranje ovisi o težini drona — 250–1.500 g: 150.000 €; 1.501–5.000 g: 500.000 €; >5 kg: 1.000.000 €",
-      "Letenje iznad mostova, željeznica, autocesta i dalekovoda strogo je zabranjeno",
+      "Osiguranje obavezno, osim za dronove < 250 g s najvećom brzinom < 19 m/s; minimalno A1/A2 — 50.000 €, od 20 kg naviše i u posebnoj kategoriji — 750.000 SDR",
+      "Geografske zone UAS-a mogu vrijediti iznad mostova, željeznica, državnih cesta i dalekovoda od 110/330 kV (do 50 m) — provjerite airspace.lv",
       "CTR zračne luke Riga čini veliko ograničeno područje",
-      "U pograničnim područjima s Rusijom i Bjelorusijom mogu postojati dodatna ograničenja",
+      "Uz granicu s Bjelarusom i Rusijom nalazi se ograničeno područje EVR17A BORDER EAST (od tla do 500 ft, aktivno H24). Letovi dronova u njemu (uključujući < 250 g) dopušteni su samo uz odobrenje Odjela za zrakoplovstvo i specijalne operacije Državne granične straže, koje se mora ishoditi najmanje 24 sata prije planiranog dana leta (dokumenti se moraju podnijeti najmanje 32 sata unaprijed).",
       "GDPR se primjenjuje na snimanje i fotografiranje osoba koje je moguće identificirati"
     ],
     "primaryLinks": [
@@ -49,7 +56,7 @@
         "description": "Latvijske usluge zračnog prometa i informacije o zračnom prostoru"
       },
       {
-        "title": "CAA Latvija — Česta pitanja o dronovima",
+        "title": "CAA Latvija – Česta pitanja o dronovima",
         "description": "Često postavljana pitanja o propisima za dronove u Latviji"
       }
     ],

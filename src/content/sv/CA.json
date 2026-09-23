@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "51b497a18aafd4cff4e8165ebea4d22e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "05a601befa3ab4524ab9e1c3f953a9bc",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,21 +14,27 @@
     "dronePilotCredentialName": "Pilotcertifikat",
     "keyRules": [
       "Högst 122 m (400 ft) över marken",
-      "Visa registreringsnumret (C-F####) på drönaren",
+      "Flyg aldrig inom 9,3 km (5 NM) från en skogsbrand eller innanför säkerhetsperimetern för en räddningsinsats (olycka, översvämning) – gäller alla drönare, även under 250 g.",
+      "Ingen flygning vid eller nära annonserade evenemang (konserter, festivaler, idrott) utan SFOC-RPAS – detta gäller även drönare under 250 g.",
+      "Visa drönarens registreringsnummer (t.ex. C-1234567890) tydligt på drönaren",
       "Grundcertifikat: från 14 år, prov med 35 frågor (65 % för godkänt) – endast okontrollerat luftrum",
       "Avancerat certifikat: från 16 år, prov med 50 frågor (80 % för godkänt) + flygbedömning – kontrollerat luftrum",
       "Drönare under 250 g: ingen registrering eller certifikat krävs",
+      "Utländska besökare som flyger sin egen drönare på 250 g eller mer: du behöver ett kanadensiskt drönarpilotcertifikat (en licens från hemlandet räknas inte) och ett Foreign SFOC-RPAS, eftersom utlänningar inte kan registrera drönare i Kanada. Ansök i god tid – normal handläggningstid är 30 arbetsdagar. Under 250 g: inget SFOC behövs utom vid annonserade evenemang.",
       "Håll alltid drönaren inom synhåll (VLOS) – direkt visuell kontakt utan hjälpmedel",
       "Håll 30 m horisontellt avstånd till människor (grundläggande verksamhet)",
-      "Om du inte följer en fastställd procedur från Transport Canada ska du hålla 5,6 km (3 NM) till certifierade flygplatser och 1,9 km (1 NM) till certifierade helikopterplattor. Att flyga i kontrollerat luftrum kräver Advanced-certifikat och tillstånd via NAV DRONE.",
+      "Nattflygning (drönare från 250 g): drönaren måste ha ljus som gör att du eller din visuella observatör kan se den, och ljusen måste vara tända.",
+      "Drönare från 250 g: ingen flygning inom 12 timmar efter alkoholintag eller under påverkan",
+      "Basic-verksamhet: håll dig mer än 5,6 km (3 NM) från certifierade flygplatser och 1,9 km (1 NM) från certifierade helikopterflygplatser. Närmare endast med ett Advanced-certifikat och enligt fastställda rutiner. Kontrollerat luftrum: Advanced-certifikat + drönare med motsvarande säkerhetsdeklaration + tillstånd via NAV DRONE.",
+      "Inom 5,6 km (3 NM) från centrum av en militär flygplats behöver du tillstånd från Department of National Defence.",
       "Provins- och nationalparker förbjuder generellt drönarflygning för fritidsbruk – det är bekräftat förbjudet i provinsparkerna i Alberta, Ontario och British Columbia samt i alla nationalparker som förvaltas av Parks Canada. Kontrollera den enskilda parkens regler innan du flyger."
     ],
     "importantNotes": [
-      "Provinsparker i British Columbia och Alberta förbjuder drönare för nöjesbruk utan tillstånd",
+      "Provinsparker i BC och Alberta: det är olagligt att flyga drönare utan parkens tillstånd, och nöjesflygning är inte tillåten (Alberta: alla storlekar; BC: tillstånd ges sällan)",
       "Provinsparker i Ontario och stadsparker i Toronto förbjuder drönare för nöjesbruk",
-      "De flesta kommuner förbjuder drönare i offentliga parker utan tillstånd",
+      "Även andra kommuner kan förbjuda drönare i stadsparker utan tillstånd – kontrollera lokala föreskrifter innan du flyger",
       "Försäkring krävs inte för grundläggande verksamhet men rekommenderas starkt",
-      "Certifikatet Level 1 Complex Operations (sedan november 2025) möjliggör BVLOS-verksamhet med låg risk utan SFOC"
+      "Pilotcertifikatet Level 1 Complex (18+) tillåter BVLOS med låg risk utan SFOC sedan den 4 november 2025 – men endast under ett RPAS Operator Certificate (RPOC), som innehas av dig eller av den operatör du flyger för"
     ],
     "primaryLinks": [
       {
@@ -37,7 +43,7 @@
       },
       {
         "title": "Transport Canada – Registrera din drönare",
-        "description": "Registrera drönare från 250 g via Drone Management Portal (5 $, ~3 minuter)"
+        "description": "Registrera drönare från 250 g via Drone Management Portal (cirka 10 $, justeras årligen; ~3 minuter)"
       },
       {
         "title": "NAV DRONE – Kontrollerat luftrum",

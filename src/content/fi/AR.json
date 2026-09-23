@@ -1,30 +1,32 @@
 {
   "meta": {
-    "sourceHash": "64c56f7cd237868e12b4a9acebacfc1c7ed47d9c27e97af77b28d123a7822c74",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "9cca66a7c2aad0d0dc5edac3e33625910a5e790c5cdccb45c10be1fbd9252627",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Enimmäiskorkeus: 122 m (400 ft) maanpinnasta avoimessa kategoriassa (valvomaton ilmatila)",
-      "Lentoasemien lähellä (≤5 km): enimmäiskorkeus 43 m ilman lennonvarmistuspalvelun tarjoajan ennakkolupaa",
-      "Vähintään 5 km:n etäisyys lentoasemista ja lentopaikoista ilman lupaa",
-      "Vähintään 500 m:n etäisyys helikopterikentistä",
-      "Pidä turvallinen etäisyys sivullisiin ihmisiin ja toimintaan liittymättömiin rakennuksiin",
+      "Avoin kategoria: lentäminen lentopaikkojen lähialueilla (CTR) on kielletty. Valvotussa ilmatilassa 5 km:n säteellä kiitoteiden kynnyksistä: enintään 43 m eikä koskaan lähestymis- tai lentoonlähtöpinnoilla; korkeammalle lentäminen edellyttää lennonvarmistuspalvelun tarjoajan lupaa.",
+      "Helikopterikentät: lentäminen 1 meripeninkulman (1,85 km) säteellä vertailupisteestä (HRP) on kielletty; 1–2 meripeninkulman etäisyydellä enintään 150 ft (46 m) helikopterikentän yläpuolella, ellei lennosta ole sovittu etukäteen.",
+      "Lentäminen on kielletty sotilas-, turvallisuus- ja vankilalaitosten yllä ja 1 meripeninkulman (1,85 km) säteellä niistä; jalostamoiden, voimalaitosten ja polttoainevarastojen yllä ilman omistajan lupaa; sekä alle 25 m:n päässä (pysty- tai vaakasuunnassa) suurjännitejohdoista.",
+      "Sinun on pidettävä turvallinen etäisyys ihmisiin ja rakennuksiin, jotka eivät liity toimintaan.",
       "Pidä drone aina suorassa näköyhteydessä (VLOS) avoimessa kategoriassa",
-      "Lennättäminen sallittu vain päivällä — yölennot edellyttävät erillistä lupaa",
-      "Alle 250 g painavat dronet: vapautettu rekisteröinnistä ja lupakirjasta (päätös 550/2025)",
-      "Vähintään 250 g painavat dronet: pakollinen rekisteröinti TAD-järjestelmään (ANAC) — avoimessa kategoriassa ei vaadita lentäjän lupakirjaa",
+      "Ohjaaminen tai toimiminen tähystäjänä on kielletty 8 tunnin kuluessa alkoholin nauttimisesta tai psykoaktiivisten aineiden vaikutuksen alaisena.",
+      "Yölennot: ANACin päätös Res. 312/2026 (toukokuu 2026) poisti RAAC 100:n yleisen rajoituksen; ANACin ohjeissa yötoiminta luetaan kuitenkin edelleen erityiskategoriaan — tarkista ANACilta ennen kuin lennät yöllä.",
+      "Alle 250 g painavat dronet on vapautettu rekisteröinnistä, lupakirjasta ja pakollisesta vakuutuksesta (päätös 550/2025, elokuu 2025). 250 g – 25 kg painavat dronet eivät edellytä lentäjän lupakirjaa, mutta ne on rekisteröitävä sähköisesti ANACille Casillero Aeronáutico Digital -järjestelmässä (CAD).",
+      "Vähintään 250 g painavat dronet: pakollinen rekisteröinti CAD-järjestelmään (ANAC) — avoimessa kategoriassa ei vaadita lentäjän lupakirjaa",
       "Erityiskategorian toiminta (25–150 kg tai kaupunkilennot/BVLOS) edellyttää lentäjän lupakirjaa, lääketieteellistä kelpoisuustodistusta ja kaupallisen toiminnanharjoittajan todistusta",
-      "Avoin kategoria sallii alle 25 kg painavat dronet ilman ennakkolupaa (maaseudulla ei painorajaa)"
+      "Avoin kategoria sallii ilman ennakkolupaa dronet, jotka painavat 250 g – alle 25 kg (pyöriväsiipiset dronet ilman painorajaa vain maaseudulla, lähialueiden (CTR) ja rajoitetun ilmatilan ulkopuolella)"
     ],
     "importantNotes": [
-      "📜 UUSI VUODEN 2025 SÄÄNTELYKEHYS: ANACin päätös 550/2025 (voimassa elokuusta 2025) korvaa päätöksen 880/2019. Se määrittää kolme kategoriaa: toiminta ilman ennakkolupaa, avoin kategoria ja erityiskategoria. RAAC Part 100/101/102.",
-      "✈️ ULKOMAISET TURISTIT: Vähintään 250 g painavat dronet on rekisteröitävä TAD-järjestelmään ennen ensimmäistä lentoa (päätös 550/2025). Rekisteröinti tehdään verkossa; vaaditaan argentiinalainen henkilötodistus tai passi. Alle 250 g painavat dronet — kuten DJI Mini, Flip jne. — ovat vapautettuja rekisteröinnistä ja lupakirjavaatimuksesta.",
-      "🌳 KANSALLISPUISTOT JA SUOJELUALUEET: Kansallispuistohallinto (APN) kieltää dronet ilman erityislupaa puistoissa kuten Iguazú, Nahuel Huapi, Los Glaciares ja Tulimaa. Tarkista kustakin puistosta ennen lennättämistä.",
-      "🏛️ KAUPUNKI- JA RAJOITUSALUEET: Buenos Aires (Jorge Newberyn lentoasema, Casa Rosada, kongressi), Ezeiza (Ministro Pistarini) ja sotilasalueet ovat lennätyskieltoalueita. Aerolíneas Argentinasilla ja keskusta-alueilla on pysyviä rajoituksia — tarkista AIP.",
-      "💰 SEURAAMUKSET: Rikkomukset voivat johtaa huomattaviin sakkoihin, laitteiston takavarikointiin ja vakavissa tapauksissa rikosoikeudelliseen vastuuseen. Kaupalliseen käyttöön vaaditaan vastuuvakuutus."
+      "📜 UUSI SÄÄNTELYKEHYS: ANACin päätös 550/2025 (voimassa elokuusta 2025, muutettu päätöksellä Res. 312/2026) korvaa päätöksen 880/2019. Se määrittää kolme kategoriaa: avoin, erityinen ja sertifioitu. RAAC Part 100/101/102.",
+      "Vähintään 250 g painavat dronet on rekisteröitävä ANACille Casillero Aeronáutico Digital -järjestelmässä (CAD) ennen ensimmäistä lentoa — rekisteröinti on maksuton, tehdään verkossa ja edellyttää DNI-henkilökorttia tai passia. Alle 250 g painavat dronet (esim. DJI Mini tai Flip) on vapautettu rekisteröinnistä ja lupakirjasta (päätös 550/2025).",
+      "Turistit: toisen ICAO-valtion siviili-ilmailuviranomaisen kyseiselle dronelle myöntämä voimassa oleva rekisteröintitodistus hyväksytään (RAAC 100.05); pelkkä käyttäjän rekisteröinti ei välttämättä riitä. Jos droneasi ei ole rekisteröity, täytä ANACille maksuton sähköinen valaehtoinen ilmoitus (Declaración Jurada) passiasi käyttäen.",
+      "🌳 KANSALLISPUISTOT JA SUOJELUALUEET: APN kieltää dronejen harraste- ja urheilukäytön kaikilla suojelualueillaan (APN Res. 9/2021), esim. Iguazú, Nahuel Huapi, Los Glaciares ja Tierra del Fuego. Ammatti- tai tieteellinen käyttö edellyttää APN:n ennakkolupaa.",
+      "🏛️ RAJOITETUT ALUEET: lentäminen on kielletty Casa Rosadan, Quinta de Olivosin, julkisten rakennusten ja suurlähetystöjen yllä, 1 meripeninkulman säteellä sotilaslaitoksista sekä lentoasemien, kuten Aeroparquen ja Ezeizan, lähialueilla — tarkista AIP.",
+      "💰 SEURAAMUKSET: rikkomuksista rangaistaan Reglamento General de Infracciones de la Aviación Civil -säännöstön mukaan, ja lisäksi voi seurata siviili- tai rikosoikeudellinen vastuu. Vakuutus on pakollinen erityisessä ja sertifioidussa kategoriassa (avoimessa kategoriassa vapaaehtoinen)."
     ],
     "primaryLinks": [
       {
@@ -32,8 +34,8 @@
         "description": "Kansallisen siviili-ilmailuhallinnon virallinen sivusto droneista (VANT/SVANT): uusi sääntelykehys — päätös 550/2025, kategoriat ja toimintavaatimukset"
       },
       {
-        "title": "Dronen rekisteröinti (TAD)",
-        "description": "Pakollinen rekisteröintijärjestelmä yli 500 g painaville droneille Trámites a Distancia (TAD) -alustan kautta. A-luokan (≤500 g) harrastekäyttö on vapautettu."
+        "title": "Dronen rekisteröinti (CAD)",
+        "description": "Maksuton sähköinen valaehtoinen ilmoitus (Declaración Jurada) 250 g – 25 kg painaville droneille ANACin Casillero Aeronáutico Digital -järjestelmässä (CAD); sähköinen rekisteröintitodistus myönnetään. Alle 250 g painavat dronet on vapautettu."
       },
       {
         "title": "AIP — Ilmailutiedotusjulkaisu",
@@ -50,19 +52,19 @@
         "description": "Ilma-aluksen käyttäjän todistus kaupalliseen dronetoimintaan. Vaaditaan erityiskategorian ja ammattilentojen osalta"
       },
       {
-        "title": "Kaukomiehistön jäsenen (lentäjän) kelpoisuus",
-        "description": "Menettely kaukolentäjän valtuutuksen saamiseksi. Kokeet ja vaatimukset ammatillista kelpoisuutta varten"
+        "title": "Valtuutus etämiehistön jäseneksi (lentäjä)",
+        "description": "Menettely kauko-ohjaajan valtuutuksen saamiseksi. Ammattipätevyyden kokeet ja vaatimukset"
       },
       {
         "title": "Uusi sääntelykehys (virallinen yhteenveto)",
         "description": "ANACin virallinen yhteenveto uudesta dronesääntelykehyksestä päätöksen 550/2025 jälkeen: keskeiset muutokset ja kategoriat"
       }
     ],
-    "disclaimerText": "Tarkista aina ANACin viralliset lähteet ennen lennättämistä. Tämä sovellus on apuväline, ei virallinen oikeuslähde. Argentiinassa sovelletaan ANACin päätöstä 550/2025 (RAAC Part 100/101/102) elokuusta 2025 alkaen.",
+    "disclaimerText": "Tarkista aina ANACin viralliset lähteet ennen lennättämistä. Tämä sovellus on apuväline, ei virallinen oikeuslähde. Argentiinassa sovelletaan ANACin päätöstä 550/2025 (RAAC Part 100/101/102) elokuusta 2025 alkaen, ja sitä on muutettu ANACin päätöksellä 312/2026.",
     "sectionLabelRules": "TÄRKEIMMÄT SÄÄNNÖT",
     "sectionLabelPrimary": "VIRALLISET LÄHTEET",
     "sectionLabelSecondary": "LISÄRESURSSIT",
     "linksSheetTitle": "Ilmatila ja säännöt — Argentiina",
-    "dronePilotCredentialName": "Miehittämättömän ilma-aluksen lentäjän todistus"
+    "dronePilotCredentialName": "Kauko-ohjaajan lupakirja (RPA)"
   }
 }

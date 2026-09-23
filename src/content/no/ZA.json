@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "fca3bbf5a00a2bc5c8ae02d7f663df3d",
-    "engine": "opus-5",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb076b85a229a810666fd05392ea183d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,19 +14,22 @@
     "dronePilotCredentialName": "Fjernpilotlisens",
     "keyRules": [
       "Synsvidde (VLOS) obligatorisk — maks 500 m horisontal avstand",
-      "50 m minimumsavstand fra mennesker, bygninger og kjøretøy",
-      "Hold minst 10 km avstand til lufthavner — dette håndheves strengt i Sør-Afrika. Bekreft den nøyaktige avstanden med SACAA før du flyr nær en lufthavn.",
-      "Å fly drone i Kruger eller en annen sørafrikansk nasjonalpark krever uttrykkelig tillatelse fra SANParks (NEMA Protected Areas Act) — å fly under 2 500 ft over parkens høyeste punkt uten tillatelse er forbudt. I tillegg kan det å operere et UAV i sørafrikansk luftrom uten å følge reglene for sivil luftfart gi bot på inntil 50 000 rand og/eller inntil 10 års fengsel.",
+      "Maks 150 ft (45 m) over bakken — og hold deg under det høyeste hinderet innenfor 300 m (begrenset VLOS)",
+      "50 m minimumsavstand fra mennesker, offentlige veier og bygninger (med mindre eieren tillater det) — fly aldri rett over noen",
+      "Hold minst 10 km avstand fra alle flyplasser — lufthavner, flystriper og helikopterlandingsplasser (inkludert private flystriper ved lodger). Håndheves strengt i Sør-Afrika.",
+      "Ingen flyging i kontrollert luftrom, restriksjonsområder eller forbudte områder, eller nær/over fengsler, politistasjoner, åsteder, domstoler, kjernekraftverk eller national key points",
+      "Flyging lavere enn 2 500 ft over det høyeste punktet i en nasjonalpark (inkludert Kruger), et spesielt naturreservat eller et verdensarvsted krever skriftlig forhåndstillatelse fra områdets egen forvaltningsmyndighet (Protected Areas Act s47) — ikke bare i SANParks-parker. I tillegg kan brudd på luftfartsreglene gi bot og/eller fengsel i opptil 10 år.",
       "Kun dagslys — klare værforhold påkrevd",
-      "Ingen registrering eller lisens nødvendig for rekreasjonsflyging",
-      "Kommersiell bruk krever RPC (fjernpilotsertifikat), ROC og RLA",
+      "Ingen registrering eller lisens nødvendig for privat, ikke-kommersiell flyging med droner under 7 kg (bare begrenset VLOS)",
+      "Private flyginger bare over eiendom du eier eller har eierens tillatelse til å fly over",
+      "All ikke-privat bruk (kommersiell, bedrift eller ideell) krever Remote Pilot Licence (RPL), UAS Operating Certificate (UASOC, tidligere ROC), RPAS Letter of Approval (RLA) og SACAA-registrering (C of R); kommersiell bruk krever også Air Service Licence (ASL)",
       "Forsikring kreves som regel bare for kommersiell virksomhet — bekreft SACAAs gjeldende krav før kommersiell bruk.",
       "Ikke fly over folkeansamlinger eller offentlige arrangementer"
     ],
     "importantNotes": [
-      "Å fly i en nasjonalpark (også Kruger) uten tillatelse fra SANParks bryter NEMA Protected Areas Act, og å operere et UAV uten å følge reglene for sivil luftfart kan i tillegg gi straff på inntil 50 000 rand og/eller 10 års fengsel.",
+      "Flyging lavere enn 2 500 ft over en nasjonalpark (inkludert Kruger) uten skriftlig forhåndstillatelse fra parkens forvaltningsmyndighet er straffbart etter Protected Areas Act — opptil R5 millioner og/eller 5 års fengsel for første overtredelse (R10 millioner og/eller 10 år ved gjentatt overtredelse). Brudd på luftfartsreglene kan i tillegg gi bot og/eller fengsel i opptil 10 år.",
       "Sør-Afrikas 10 km-sone rundt lufthavner er mye strengere enn i de fleste land (vanligvis 3–9 km) — bekreft gjeldende avstand med SACAA.",
-      "Kommersielle operatører trenger tre separate sertifiseringer: RPC, ROC og RLA",
+      "Bedrifter og ideelle operatører trenger de samme godkjenningene som kommersielle — RPL, UASOC (tidligere ROC), RLA og C of R; bare Air Service Licence (ASL) gjelder kun kommersiell bruk",
       "Straff for overtredelser kan inkludere straffeforfølgelse"
     ],
     "primaryLinks": [
@@ -42,7 +45,7 @@
     "secondaryLinks": [
       {
         "title": "SACAA — Kommersiell lisensiering",
-        "description": "Krav til RPC, ROC og RLA for kommersielle droneoperasjoner"
+        "description": "Krav til RPL, UASOC, RLA, C of R og ASL for ikke-private droneoperasjoner"
       }
     ]
   }

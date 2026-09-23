@@ -1,27 +1,33 @@
 {
   "meta": {
-    "sourceHash": "508ee28346525a09001728f6f525106d73a15d373ba459d581dbbbe091cc7d62",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eee1f5c184b67a857980e5927e116be613b5cef533bad82326dd2e369b059d05",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Najviše 120 m iznad razine tla (EASA Open kategorija)",
+      "U otvorenoj kategoriji najveća je visina 120 m, mjerena kao udaljenost od najbliže točke Zemljine površine — ne samo okomito prema dolje, pa se uz padinu može računati i tlo pokraj vas. Unutar 50 m od visoke umjetne prepreke (više od 105 m), subjekt odgovoran za prepreku može zatražiti odobrenje za letenje do 15 m iznad visine prepreke.",
       "Potpuno u skladu sa švicarskim FOCA propisima o dronovima",
-      "Registracija putem švicarskog sustava (10 CHF, vrijedi neograničeno) ako je dron težak 250 g ili više ili je opremljen kamerom",
+      "Morate se registrirati kao operater drona ako vaš dron teži 250 g ili više (ili pri udaru može prenijeti više od 80 J kinetičke energije) — to vrijedi i za igračke. Ispod 250 g registracija je i dalje potrebna ako dron ima senzor koji može bilježiti osobne podatke, osim ako se smatra igračkom prema EU Toy Safety Directive. Broj operatera (bez posljednja tri znaka) mora biti jasno istaknut na svakom dronu. Zahtjevi za obuku i osposobljenost pilota uređeni su zasebno i ovise o klasi i potkategoriji drona.",
+      "Minimalna dob pilota na daljinu (otvorena kategorija): 12 godina; mlađi piloti samo pod nadzorom osobe od najmanje 16 godina koja ima certifikat",
       "Obavezno osiguranje od odgovornosti za dronove teže od 250 g (pokriće od 1 milijun CHF)",
-      "Vaduz Castle: potpuna zabrana letenja",
-      "Uvijek držite dron u izravnom vidnom polju (VLOS)",
+      "Remote ID (daljinska identifikacija) mora biti uključen tijekom leta, s pohranjenim brojem operatera — osim za dronove klase C0, starije dronove i dronove vlastite izrade",
+      "Trajna zona zabrane letenja dronova „Regierungsgebäude – Landtag – Schloss Vaduz“ (sve težinske kategorije). Dozvole za iznimku mogu se zatražiti od Amt für Hochbau und Raumplanung.",
+      "Heliodrom Balzers (LSXB): dronovi teži od 250 g zabranjeni su u dijelovima Balzersa, a svi dronovi izravno na heliodromu — iznimke samo uz dozvolu",
+      "U otvorenoj kategoriji dron morate držati unutar vlastitog vidnog polja, golim okom (naočale/kontaktne leće su dopuštene; dalekozor ili zaslon ne računaju se) — ili letjeti uz pomoć promatrača, uz stalnu jasnu i učinkovitu komunikaciju između vas, kako biste zajedno mogli nadzirati zračni prostor i izbjeći sudare. Način Follow-me zasebna je iznimka, dopušten do 50 m od pilota.",
+      "Noćni letovi samo unutar vidnog dometa i s uključenim pozicijskim svjetlima; udaljenost odgovarajuće smanjite",
       "Ne letite iznad okupljanja ljudi. Pravila za neuključene osobe ovise o potkategoriji, klasi i uvjetima leta; provjerite službenu tablicu.",
-      "Najmanje 5 km od bilo koje zračne luke ili uzletišta",
+      "Ne postoji jedinstvena udaljenost od zračnih luka koja se mora poštovati u cijeloj EU. Ograničenja u blizini zračnih luka objavljuju se kao geografske zone (članak 15), čiji se oblik i veličina razlikuju od zračne luke do zračne luke. Prije letenja u blizini zračne luke, uzletišta ili heliodroma provjerite službenu kartu zona za dronove svoje zemlje; za letenje unutar kontrolirane zone (CTR) obično je potrebno prethodno odobrenje kontrole zračnog prometa.",
+      "Prije svakog leta provjerite i DABS (Daily Airspace Bulletin Switzerland, skybriefing.com/de/dabs) — ako je područje leta zahvaćeno, ne smijete letjeti.",
       "Vrlo mala zemlja — prekogranični letovi u Švicarsku ili Austriju zahtijevaju posebnu pažnju",
       "Alpski teren: pazite na helikopterske rute"
     ],
     "importantNotes": [
       "Liechtenstein je potpuno u skladu sa švicarskim FOCA propisima",
       "Isti sustav registracije kao u Švicarskoj (10 CHF, neograničeno)",
-      "Vaduz Castle stroga je zona zabrane letenja",
+      "Prebivalište u državi EASA-e (EU, Švicarska, Liechtenstein, Norveška, Island): registrirajte se u zemlji prebivališta — registracija vrijedi u svim državama EASA-e. Prebivalište izvan država EASA-e: registrirajte se prije leta, osim ako ste već registrirani u nekoj državi EASA-e (u Švicarskoj putem dLIS-a pri BAZL-u, 10 CHF). Certifikati pilota na daljinu iz država izvan EASA-e ne priznaju se.",
+      "Područje „Regierungsgebäude – Landtag – Schloss Vaduz“ trajna je zona zabrane letenja dronova (sve težinske kategorije)",
       "Zemlja je duga svega oko 25 km — lako je nenamjerno prijeći granicu",
       "Budući da je Liechtenstein član EGP-a, GDPR se primjenjuje pri snimanju osoba koje je moguće identificirati"
     ],
@@ -35,12 +41,12 @@
         "description": "Isti registracijski sustav kao u Švicarskoj (10 CHF, vrijedi neograničeno)"
       },
       {
-        "title": "Swiss Dronemap — Karta zračnog prostora",
-        "description": "Službena interaktivna karta za dronove (uključuje Liechtenstein)"
+        "title": "BAZL karta za dronove — Karta zračnog prostora",
+        "description": "Službena BAZL karta za dronove (vrijedi i u Liechtensteinu)"
       },
       {
-        "title": "Vlada Liechtensteina — Zrakoplovstvo",
-        "description": "Vladin portal Liechtensteina sa zrakoplovnim informacijama"
+        "title": "Landespolizei Liechtenstein — Dronovi",
+        "description": "Informacije o dronovima i zonama zabrane letenja u Liechtensteinu"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +59,7 @@
         "description": "Često postavljana pitanja o propisima za dronove"
       }
     ],
-    "disclaimerText": "Uvijek provjerite službene izvore FOCA/BAZL i Swiss Dronemap prije svakog leta. Ova aplikacija je alat — a ne pravni izvor. Liechtenstein slijedi švicarske FOCA/EASA propise.",
+    "disclaimerText": "Prije svakog leta uvijek provjerite službene izvore FOCA/BAZL i BAZL kartu za dronove. Ova aplikacija je alat — a ne pravni izvor. Liechtenstein slijedi švicarske FOCA/EASA propise.",
     "sectionLabelRules": "KLJUČNA PRAVILA (EASA OPEN KATEGORIJA)",
     "sectionLabelPrimary": "SLUŽBENI IZVORI",
     "sectionLabelSecondary": "DODATNI RESURSI",

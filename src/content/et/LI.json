@@ -1,27 +1,33 @@
 {
   "meta": {
-    "sourceHash": "508ee28346525a09001728f6f525106d73a15d373ba459d581dbbbe091cc7d62",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eee1f5c184b67a857980e5927e116be613b5cef533bad82326dd2e369b059d05",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimaalselt 120 m maapinnast (EASA avatud kategooria)",
+      "Avatud kategoorias on maksimaalne kõrgus 120 m, mida mõõdetakse kaugusena maapinna lähimast punktist — mitte lihtsalt otse alla, nii et nõlva lähedal võib arvesse minna ka sinu kõrval olev maapind. Kõrgest tehisrajatisest (üle 105 m) 50 m raadiuses võib rajatise eest vastutav üksus taotleda luba lennata kuni 15 m rajatise kõrgusest kõrgemal.",
       "Vastab täielikult Šveitsi FOCA droonimäärustele",
-      "Registreerimine Šveitsi süsteemi kaudu (10 CHF, kehtib tähtajatult), kui droon kaalub 250 g või rohkem või on kaameraga varustatud",
+      "Pead end droonikäitajana registreerima, kui su droon kaalub 250 g või rohkem (või võib kokkupõrkel üle kanda rohkem kui 80 J kineetilist energiat) — see kehtib ka mänguasjade kohta. Alla 250 g on registreerimine siiski nõutav, kui droonil on isikuandmeid jäädvustada suutev andur, välja arvatud juhul, kui see loetakse ELi mänguasjade ohutuse direktiivi kohaselt mänguasjaks. Käitaja number (ilma kolme viimase märgita) peab olema igal droonil selgelt nähtav. Piloodi koolitus- ja pädevusnõuded on reguleeritud eraldi ning sõltuvad drooni klassist ja alamkategooriast.",
+      "Kaugpiloodi vanuse alampiir (avatud kategooria): 12 aastat; nooremad piloodid ainult vähemalt 16-aastase sertifikaati omava isiku järelevalve all",
       "Kohustuslik vastutuskindlustus üle 250 g kaaluvatele droonidele (kate 1 miljon CHF)",
-      "Vaduz Castle: täielik lennukeeld",
-      "Hoia drooni alati otsenähtavuses (VLOS)",
+      "Remote ID (kaugtuvastus) peab lennu ajal olema sisse lülitatud ja sellesse peab olema salvestatud käitaja number — välja arvatud C0-klassi, varasemad (legacy) ja isetehtud droonid",
+      "Alaline droonide lennukeelutsoon „Regierungsgebäude – Landtag – Schloss Vaduz” (kõik kaaluklassid). Erandlube saab taotleda asutuselt Amt für Hochbau und Raumplanung.",
+      "Balzersi kopteriväljak (LSXB): üle 250 g droonid on Balzersi osades keelatud ja kõik droonid otse kopteriväljakul — erandid ainult loaga",
+      "Avatud kategoorias pead hoidma drooni oma otseses nähtavuses palja silmaga (prillid/kontaktläätsed sobivad; binokkel või ekraan ei loe) — või lendama vaatleja toel, hoides omavahel kogu aeg selget ja tõhusat sidet, et saaksite koos õhuruumi jälgida ja kokkupõrkeid vältida. Follow-me-režiim on eraldi erand, mis on lubatud kuni 50 m kaugusel piloodist.",
+      "Öölennud ainult nähtavuse piires ja sisselülitatud positsioonituledega; vähenda kaugust vastavalt",
       "Ära lenda rahvakogunemiste kohal. Kõrvaliste isikute suhtes kehtivad reeglid sõltuvad alamkategooriast, klassimärgist ja käitamistingimustest; kontrolli ametlikku tabelit.",
-      "Vähemalt 5 km kaugusel igast lennujaamast või lennuväljast",
+      "Ühtset kogu EL-i hõlmavat kaugust, mida lennujaamadest hoidma peab, ei ole. Lennujaamade lähedased piirangud avaldatakse geograafiliste tsoonidena (artikkel 15), mille kuju ja suurus on lennujaamati erinevad. Enne lendamist lennujaama, lennuvälja või kopteriväljaku lähedal kontrolli oma riigi ametlikku droonitsoonide kaarti; kontrollitsoonis (CTR) lendamiseks on tavaliselt vaja lennujuhtimise eelnevat luba.",
+      "Kontrolli enne iga lendu ka DABS-i (Daily Airspace Bulletin Switzerland, skybriefing.com/de/dabs) — kui lennuala on sellest mõjutatud, ei tohi sa lennata.",
       "Väga väike riik — piiriülesed lennud Šveitsi või Austriasse nõuavad erilist tähelepanu",
       "Alpimaastik: arvesta helikopterite lennumarsruutidega"
     ],
     "importantNotes": [
       "Liechtenstein vastab täielikult Šveitsi FOCA määrustele",
       "Sama registreerimissüsteem nagu Šveitsis (10 CHF, tähtajatu)",
-      "Vaduz Castle on range lennukeelutsoon",
+      "Elukoht EASA riigis (EL, Šveits, Liechtenstein, Norra, Island): registreeru oma elukohariigis — registreering kehtib kõigis EASA riikides. Elukoht väljaspool EASA riike: registreeru enne lendamist, kui sa pole veel mõnes EASA riigis registreeritud (Šveitsis dLIS-i kaudu BAZL-is, 10 CHF). EASA-väliste riikide kaugpiloodi sertifikaate ei tunnustata.",
+      "Ala „Regierungsgebäude – Landtag – Schloss Vaduz” on alaline droonide lennukeelutsoon (kõik kaaluklassid)",
       "Riik on vaid umbes 25 km pikk — piiri on lihtne tahtmatult ületada",
       "GDPR kohaldub (EMP liige) tuvastatavate isikute salvestamisel"
     ],
@@ -35,12 +41,12 @@
         "description": "Sama registreerimissüsteem nagu Šveitsis (10 CHF, kehtib tähtajatult)"
       },
       {
-        "title": "Swiss Dronemap — Õhuruumi kaart",
-        "description": "Ametlik interaktiivne droonikaart (sisaldab Liechtensteini)"
+        "title": "BAZL-i droonikaart — Õhuruumi kaart",
+        "description": "BAZL-i ametlik droonikaart (kehtib ka Liechtensteinis)"
       },
       {
-        "title": "Liechtensteini valitsus — Lennundus",
-        "description": "Liechtensteini valitsusportaal lennundusteabega"
+        "title": "Landespolizei Liechtenstein — Droonid",
+        "description": "Droonide teave ja lennukeelutsoonid Liechtensteinis"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +59,7 @@
         "description": "Korduma kippuvad küsimused droonimääruste kohta"
       }
     ],
-    "disclaimerText": "Kontrolli enne iga lendu alati FOCA/BAZL-i ametlikke allikaid ja kaarti Swiss Dronemap. See rakendus on abivahend, mitte õigusallikas. Liechtenstein järgib Šveitsi FOCA/EASA määrusi.",
+    "disclaimerText": "Kontrolli enne iga lendu alati FOCA/BAZL-i ametlikke allikaid ja BAZL-i droonikaarti. See rakendus on abivahend, mitte õigusallikas. Liechtenstein järgib Šveitsi FOCA/EASA määrusi.",
     "sectionLabelRules": "PÕHIREEGLID (EASA AVATUD KATEGOORIA)",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",

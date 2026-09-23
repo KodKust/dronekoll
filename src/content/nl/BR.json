@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximale hoogte: 120 m (400 ft) boven de grond",
+      "Maximale hoogte: 120 m (400 ft) AGL (ANAC); recreatieve vluchten: niet hoger dan 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "Drones die meer dan 250 g wegen: verplichte registratie bij SISANT (ANAC)",
-      "Drones tot 250 g: vrijgesteld van registratie, automatisch vergund",
-      "Minimale afstand van 5,4 km tot luchthavens bij vluchten op lage hoogte",
-      "Minimale afstand van 9 km tot luchthavens bij vluchten tot 120 m",
+      "Drones tot 250 g hoeven niet bij SISANT te worden geregistreerd (ANAC Resolution No. 806). Sinds 1 juli 2026 (ICA 100-40) vereisen vluchten met deze drones ook toestemming via SARPAS (DECEA). Drones boven 250 g moeten bij SISANT worden geregistreerd.",
+      "Flight Restriction Zones (FRZ) rond luchthavens (ICA 100-40, van kracht sinds 1 juli 2026): rond het luchtvaartterrein (ZEA) begint de FRZ op grondniveau tot 1.740 m; je blijft eronder door tot 100 ft (30 m) te vliegen voorbij 1.740 m, 200 ft (60 m) voorbij 2.350 m, 300 ft voorbij 2.960 m en 400 ft voorbij 3.570 m. In de naderings- en startsectoren (ZAD) begint de FRZ op grondniveau tot 3.550 m; daarna: 100 ft voorbij 3.550 m, 200 ft voorbij 4.480 m, 300 ft voorbij 5.400 m en 400 ft voorbij 6.320 m. Vliegen binnen de FRZ vereist een Termo de Coordenação en een SARPAS-aanvraag minstens 4 kalenderdagen van tevoren.",
+      "Recreatieve vluchten (ICA 100-40, art. 32): maximale hoogte van 200 ft (60 m) AGL en maximale horizontale afstand van 300 m. Nabij luchtvaartterreinen gelden de FRZ-banden – controleer dit in SARPAS.",
       "Houd de drone altijd binnen direct zicht (VLOS)",
-      "Een minimale afstand van 30 meter tot mensen die niet bij de operatie betrokken zijn",
-      "Toestemming van SARPAS (DECEA) is vereist vóór elke vlucht in gecontroleerd luchtruim",
+      "Minimale afstand van 30 m tot mensen die niet bij de operatie betrokken zijn",
+      "Elke vlucht vereist toestemming voor toegang tot het luchtruim via SARPAS (DECEA), ook voor drones tot 250 g. Minimale aanvraagtermijn: 30 minuten in de open categorie; 4 of 8 kalenderdagen voor operaties die een FRZ of beperkte gebieden doorkruisen, BVLOS of boven 400 ft. Recreatieve vluchten in een voor recreatie aangewezen EAC zijn vrijgesteld.",
       "Zendapparatuur moet gecertificeerd zijn door ANATEL",
-      "Nachtvluchten vereisen specifieke toestemming en antibotsingsverlichting"
+      "Nachtvluchten: de drone moet navigatieverlichting hebben (ICA 100-40, art. 20)",
+      "Piloten onder 18 jaar moeten altijd worden begeleid door een piloot boven 18 jaar die verantwoordelijk is voor de operatie",
+      "Niet-recreatief gebruik van drones boven 250 g (RBAC No. 100): een verzekering die schade aan derden dekt is verplicht. Het theorie-examen van ANAC (RBAC 100.13(b)) is tot 31 december 2026 niet vereist (Resolution No. 805/2026, art. 2)."
     ],
     "importantNotes": [
-      "Toeristen: Brazilië staat recreatieve vluchten toe, maar drones die meer dan 250 g wegen moeten vóór de vlucht bij SISANT geregistreerd worden",
-      "Boetes van ANAC kunnen oplopen tot R$ 7,000 per overtreding — vliegen zonder registratie of SARPAS-toestemming is een ernstig vergrijp",
+      "Toeristen: Brazilië STAAT recreatieve vluchten TOE. Drones boven 250 g moeten bij SISANT worden geregistreerd (buitenlanders kunnen hun paspoort gebruiken), en vluchten vereisen toestemming via SARPAS (DECEA), ook met drones tot 250 g.",
+      "Boetes van ANAC voor drones gaan uit van referentiebedragen van R$ 750 tot R$ 4.500 per overtreding (vliegen zonder registratie: R$ 2.250 – Resolution No. 762/2024); afhankelijk van verzachtende en verzwarende omstandigheden kan het uiteindelijke bedrag variëren van 20% tot 300% van dat bedrag (Resolution No. 761/2024, art. 35). Vliegen zonder SARPAS-toestemming is een luchtverkeersovertreding die door de JJAER wordt beoordeeld (ICA 100-40, art. 66).",
       "Nationale parken (ICMBio) en inheemse gebieden (FUNAI) staan drones doorgaans alleen met specifieke toestemming toe",
       "Stranden en stedelijke toeristische gebieden (Rio, São Paulo, Salvador) hebben gemeentelijke beperkingen — informeer bij de lokale autoriteiten"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — Vluchttoestemming (DECEA)",
-        "description": "Systeem van DECEA om vluchttoestemming aan te vragen in gecontroleerd luchtruim. Vereist vóór elke vlucht"
+        "description": "Systeem van DECEA om toestemming voor toegang tot het luchtruim aan te vragen, ook voor drones tot 250 g. Vereist vóór elke vlucht"
       },
       {
         "title": "ANATEL — Certificering van apparatuur",
@@ -48,15 +50,15 @@
         "description": "Actieve NOTAM's en officiële luchtvaartkaarten van DECEA om te controleren op tijdelijke beperkingen"
       },
       {
-        "title": "ANAC — Veelgestelde vragen over drones",
-        "description": "Officiële antwoorden van ANAC op veelgestelde vragen van drone-operators"
+        "title": "ANAC — Veelgestelde vragen over SISANT (droneregistratie)",
+        "description": "Officiële antwoorden van ANAC over SISANT-registratie, ook voor buitenlanders"
       },
       {
-        "title": "RBAC-E nr. 94 — Volledige technische norm",
-        "description": "Speciale Braziliaanse burgerluchtvaartregelgeving nr. 94 — volledige tekst van toepassing op drones"
+        "title": "RBAC No. 100 — Volledige technische norm",
+        "description": "Braziliaanse burgerluchtvaartregeling No. 100 (vervangt RBAC-E No. 94) — volledige tekst die op drones van toepassing is"
       }
     ],
-    "disclaimerText": "Raadpleeg altijd de officiële bronnen van ANAC en DECEA voordat je vliegt. Deze app is een hulpmiddel, geen juridische autoriteit. Brazilië handhaaft RBAC-E No. 94 (momenteel in overgang naar RBAC No. 100), waarvoor verplichte goedkeuring via SARPAS vereist is.",
+    "disclaimerText": "Raadpleeg altijd de officiële bronnen van ANAC en DECEA voordat je vliegt. Deze app is een hulpmiddel, geen juridische autoriteit. Brazilië past RBAC No. 100 en Resolution No. 806 toe (ANAC, sinds juni 2026) en ICA 100-40 (DECEA, sinds juli 2026), met verplichte toestemming via SARPAS.",
     "sectionLabelRules": "BELANGRIJKSTE REGELS",
     "sectionLabelPrimary": "OFFICIËLE BRONNEN",
     "sectionLabelSecondary": "AANVULLENDE BRONNEN",

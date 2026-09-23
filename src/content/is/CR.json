@@ -1,34 +1,35 @@
 {
   "meta": {
-    "sourceHash": "8c56d8d6e542afc955c989bfd255bb6e85a0ed0ddb98d0c06385589c15af8287",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "1ccf0d60f2daab09a23a0c0e3bbd85b102fdef6468c55b05317299a6742f4265",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Hámarkshæð: 120 m (400 fet) yfir jörðu (AGL)",
-      "Lágmarksfjarlægð 8 km frá flugvöllum og öðrum flugstöðum",
-      "Lágmarksfjarlægð 30 m frá fólki, dýrum og byggingum sem ekki tengjast fluginu",
+      "Hámarkshæð: 120 m (400 ft) yfir jörðu, í óstýrðu loftrými.",
+      "Lágmarksfjarlægð 8 km frá hvaða flugvelli eða flugstað sem er; flug nær krefst samþykkis DGAC og útgáfu NOTAM.",
+      "Fljúgðu aðeins fjarri þéttum byggingaþyrpingum í borgum, bæjum eða byggðum og fjarri útisamkomum fólks. Aðeins með sérstöku samþykki DGAC máttu fljúga nær, og aldrei nær en 30 m frá slíkum byggingum eða samkomum.",
       "ALLIR drónar sem vega minna en 25 kg verða að hafa auðkennisplötu með raðnúmeri, nafni eiganda og símanúmeri",
-      "Drónar sem vega 25 kg eða meira: skráningarskylda á drones.dgac.go.cr",
+      "Skyldubundin skráning á drones.dgac.go.cr: drónar ≥25 kg og öll notkun sem er ekki til tómstunda (í atvinnuskyni eða ekki), óháð þyngd",
       "Tómstundaflug með dróna <25 kg: krefst EKKI formlegrar skráningar ef grunnreglunum er fylgt",
       "Haltu drónanum ávallt innan beinnar sjónlínu (VLOS)",
       "Flug er aðeins heimilt að degi til og í góðu veðri — næturflug krefst heimildar",
+      "Notkun sem er hvorki til tómstunda né í atvinnuskyni (þ.m.t. drónar <25 kg): hæfnisvottorð DGAC (lágm. 18 ára), ábyrgðartrygging og skráning á drones.dgac.go.cr",
       "Atvinnunotkun: RPAS-leyfi + vottorð frá tækniráði + rekstrarvottorð frá DGAC",
       "Bannað er að fljúga yfir einkaeign án leyfis, fangelsi, takmörkuð svæði og flugvelli"
     ],
     "importantNotes": [
       "🏷️ SKYLDUBUNDIN AUÐKENNISPLATA: Þótt drónar sem vega minna en 25 kg til tómstundanotkunar krefjist EKKI formlegrar skráningar verða ALLIR drónar að hafa auðkennisplötu með raðnúmeri, nafni eiganda og símanúmeri tengiliðar. Þetta er ströngasta krafan um líkamlega auðkenningu.",
-      "✈️ ERLENDIR FERÐAMENN: Reglurnar gilda um þá sem ekki eru búsettir. Fyrir tómstundaflug þarf að hafa auðkennismerki og fylgja grunnreglunum (ekki fljúga við flugvelli, yfir einkaeign eða fangelsi) — formleg skráning er ekki nauðsynleg. Tollyfirvöld kunna að óska eftir drónayfirlýsingu við komu til landsins.",
-      "🌳 ÞJÓÐGARÐAR OG SINAC: Landskerfi verndarsvæða (SINAC) krefst sérstaks leyfis fyrir dróna í þjóðgörðum eins og Manuel Antonio, Corcovado, Tortuguero, Arenal-eldfjalli, Monteverde og Poás-eldfjalli. Líffræðilegur fjölbreytileiki og dýralíf eru vernduð — athugaðu hjá hverjum garði ÁÐUR en þú ferðast.",
-      "🏖️ FERÐAMANNASVÆÐI OG FLUGVELLIR: SJO (Juan Santamaría, Alajuela), LIR (Liberia, Guanacaste), forsetahöllin, sendiráð og hersvæði hafa varanlegar takmarkanir. Ferðamannastrendur eins og Tamarindo, Manuel Antonio og Jacó hafa gjarnan frekari takmarkanir á vegum sveitarfélaga.",
-      "💰 ATVINNUNOTKUN OG VIÐURLÖG: Atvinnuflug án RPAS-leyfis eða vottorðs frá Technical Council getur leitt til sekta, haldlagningar búnaðar og rekstrarbanns. Fyrir launaða ljósmynda- eða myndbandsvinnu: aflaðu þér leyfis áður en starfsemin hefst."
+      "✈️ ERLENDIR FERÐAMENN: Reglurnar gilda um þá sem ekki eru búsettir. Til tómstundanotkunar: auðkennisplata + fylgja grunnreglunum (ekki við flugvelli, ekki yfir einkaeign, ekki við fangelsi) — formleg skráning er ekki nauðsynleg. Tollyfirvöld kunna að óska eftir drónayfirlýsingu við komu til landsins. Erlendir flugmenn í atvinnuskyni: DGAC getur fullgilt erlent RPAS-leyfi (leyfi og heilbrigðisvottorð verða að vera í gildi) í að hámarki 3 mánuði, sem má endurnýja aðeins einu sinni um 3 mánuði í rökstuddum tilvikum. Fullgildingin kemur ekki í stað annarra krafna um atvinnunotkun.",
+      "🌳 ÞJÓÐGARÐAR OG SINAC: drónar eru ekki leyfðir í Manuel Antonio-þjóðgarðinum (SINAC). Önnur verndarsvæði kunna að banna þá eða takmarka — kannaðu hjá hverju svæði FYRIR ferðina.",
+      "🏖️ TAKMÖRKUÐ SVÆÐI: án leyfis DGAC er bannað að fljúga á bönnuðum eða takmörkuðum svæðum sem birt eru í AIP og innan 8 km frá flugvöllum á borð við SJO og LIR. Kannaðu einnig mögulegar takmarkanir sveitarfélaga.",
+      "💰 ATVINNUNOTKUN OG VIÐURLÖG: Atvinnuflug án RPAS-leyfis eða vottorðs frá Technical Council getur leitt til sekta, haldlagningar búnaðar og rekstrarbanns. Fyrir launaða ljósmynda- eða myndbandsvinnu: aflaðu þér leyfisins áður en starfsemin hefst."
     ],
     "primaryLinks": [
       {
         "title": "DGAC — Drónaskrá (sérstök gátt)",
-        "description": "Opinber vefur Landsflugmálastjórnar til að skrá dróna og fá skráningarnúmer. Vettvangur sérstaklega fyrir RPAS"
+        "description": "Opinber sérgátt Landsflugmálastjórnar til að skrá dróna og fá skráningarnúmer. Vettvangur sérstaklega fyrir RPAS"
       },
       {
         "title": "DGAC — Heimasíða",
@@ -57,7 +58,7 @@
         "description": "Opinber ferðavefur Kosta Ríka. Gagnlegur til að skilja ferðamannasvæði með sérstökum takmörkunum á drónum"
       }
     ],
-    "disclaimerText": "Athugaðu ávallt opinberar heimildir DGAC áður en þú flýgur. Þetta forrit er verkfæri, ekki lögbær heimild. Kosta Ríka framfylgir RAC OPS RPAS og DGAC’s Operational Directive. Allir drónar verða að hafa auðkennisplötu; atvinnunotkun krefst vottorðs frá Civil Aviation Technical Council.",
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir DGAC áður en þú flýgur. Þetta forrit er verkfæri, ekki lögbær heimild. Kosta Ríka framfylgir RAC-RPAS (Decreto Ejecutivo N° 44615-MOPT, í gildi frá 27/09/2024). Allir drónar verða að hafa auðkennisplötu; atvinnunotkun krefst vottorðs frá Civil Aviation Technical Council.",
     "sectionLabelRules": "HELSTU REGLUR",
     "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
     "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",

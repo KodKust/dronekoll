@@ -1,56 +1,60 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimalt 120 m over bakken (EASA Open-kategori)",
-      "Registrering som UAS-operatør (gratis) for droner som veier 250 g eller mer eller er utstyrt med kamera",
-      "A1/A3 nettbasert opplæring påkrevd — minstealder 16 år",
-      "Flyginger i CTR og ATZ ved flyplasser er kun tillatt etter koordinering med flygekontrollen eller flyplassoperatøren",
-      "Flyging over motorveier og hovedveier er begrenset — unngå dem",
-      "Hold alltid dronen innenfor synsvidde (VLOS)",
+      "I Open-kategorien er maksimal høyde 120 m, målt som avstanden til nærmeste punkt på jordoverflaten — ikke bare rett ned, så nær en skråning kan også terrenget ved siden av deg telle. Innenfor 50 m fra en høy kunstig hindring (over 105 m) kan den som er ansvarlig for hindringen be om tillatelse til å fly opptil 15 m over hindringens høyde.",
+      "Du må registrere deg som droneoperatør hvis dronen din veier 250 g eller mer (eller kan overføre mer enn 80 J kinetisk energi ved et sammenstøt) — dette gjelder også leker. Under 250 g er registrering likevel obligatorisk hvis dronen har en sensor som kan fange opp personopplysninger, med mindre den regnes som leke etter EUs leketøysdirektiv. Krav til opplæring/pilotlisens gjelder separat og avhenger av dronens klasse og underkategori.",
+      "Minstealderen for å fly på egen hånd i Open-kategorien er 16 år — A1/A3-opplæringen og -eksamenen på nett gjelder i 5 år og er anerkjent i hele EU. Ingen aldersgrense: en drone i klasse C0 som er en leke, i underkategori A1, eller en privatbygd drone under 250 g; ellers kan yngre piloter bare fly under direkte tilsyn av en pilot som oppfyller kravene til alder og opplæring.",
+      "Turister: operatørregistrering og et A1/A3-bevis fra et annet EU-/EASA-land gjelder også i Tsjekkia (du kan bare registrere deg i ett land). Utenfor EU: registrer deg i det første EU-/EASA-landet der du skal fly (i Tsjekkia hos ÚCL på dron.caa.gov.cz), og krever dronen din opplæring, fullfør opplæringen etter EU-reglene – bevis fra land utenfor EU anerkjennes ikke.",
+      "Ansvarsforsikring er obligatorisk i Tsjekkia i underkategori A2 og i A3 for droner over 4 kg (ikke i A1) — sjekk at forsikringen din dekker flyginger i Tsjekkia.",
+      "I CTR og ATZ ved flyplasser kan du fly uten koordinering bare opp til høyden som er fastsatt i rutenettet (sjekk i DroneMap). Høyere bare etter koordinering med ŘLP og med flygingen markert i DroneMap; i den indre sonen av en CTR må flygingen alltid markeres i DroneMap, og over rutenettets høyde kreves det også koordinering med flyplassoperatøren. Strengere vilkår gjelder ved militære flyplasser (MCTR). Ved ukontrollerte flyplasser, over rutenettets høyde bare etter koordinering med AFIS eller flyplassoperatøren. Markering i DroneMap gjelder ikke for droner som ikke krever registrering.",
+      "I tett bebygde områder (sone LKR316) må flygeområdet markeres på forhånd i DroneMap (dronemap.gov.cz). Markeringen (her så vel som i CTR og vernede naturområder) må inneholde høyde, tidspunkt, type og vektkategori for dronen, og operatørens registreringsnummer. Gjelder ikke for droner der operatørregistrering ikke kreves.",
+      "Nasjonalparker, landskapsvernområder (CHKO) og små verneområder, f.eks. naturreservater (sone LKR318): flyginger bare på grunnlag av forhåndsvarsel til, eller tillatelse fra, den ansvarlige naturvernmyndigheten, og med flygeområdet markert i DroneMap. Gjelder ikke for droner der operatørregistrering ikke kreves.",
+      "Veier (sone LKR317): som hovedregel innenfor 50 m fra midtlinjen til en motorvei eller vei i klasse I bare med samtykke fra ŘSD; som hovedregel innenfor 15 m fra midtlinjen til veier i klasse II og III bare med samtykke fra veiens eier eller forvalter (tilsvarende for lokale veier utenfor tett bebygde områder). Flygeområdet må markeres i DroneMap – gjelder ikke for droner der operatørregistrering ikke kreves.",
+      "I Open-kategorien må du holde dronen innenfor direkte synsvidde med det blotte øye (briller/kontaktlinser er greit; kikkert eller skjerm teller ikke) — eller ta med en observatør som hjelper, med tydelig og effektiv kommunikasjon mellom dere hele tiden, slik at dere sammen kan overvåke luftrommet og unngå kollisjoner. «Follow-me»-modus er et eget unntak bare i underkategori A1, tillatt innenfor 50 m fra piloten.",
       "Du må ikke fly over folkemengder. Reglene for uvedkommende avhenger av underkategori, klassemerke og driftsforhold; sjekk den offisielle oversikten.",
       "Nattflyging er tillatt etter EASAs grunnregler for Open-kategorien når det påkrevde grønne blinklyset brukes, med mindre en gjeldende geografisk sone eller nasjonal regel stiller strengere krav.",
-      "Bøter på opptil 5 000 000 CZK (≈ 185 000 €) for overtredelser",
-      "Praha slott og regjeringsbygninger: strenge flyforbudssoner"
+      "Bøter på opptil 3 000 000 CZK (≈ 120 000 €) for overtredelser",
+      "Praha slott og regjeringsbygninger: absolutte flyforbudssoner"
     ],
     "importantNotes": [
-      "Flyginger innenfor flyplassers CTR og ATZ krever koordinering med flygekontrollen eller flyplassoperatøren",
-      "Overflyginger av motorveier og hovedveier er begrenset i Tsjekkia — planlegg ruten din for å unngå dem",
-      "Bøter på opptil 5 000 000 CZK (≈ 185 000 €)",
+      "I CTR og ATZ ved flyplasser, uten koordinering bare opp til høyden som er fastsatt i rutenettet (sjekk i DroneMap); høyere bare etter koordinering (i en CTR med ŘLP, ved ukontrollerte flyplasser med AFIS eller flyplassoperatøren) og med flygingen markert i DroneMap; i den indre sonen av en CTR kreves alltid markering",
+      "Veier (sone LKR317): for motorveier og veier i klasse I, som hovedregel innenfor 50 m fra midtlinjen bare med samtykke fra ŘSD; for veier i klasse II og III, som hovedregel innenfor 15 m fra midtlinjen bare med samtykke fra veiens eier eller forvalter",
+      "Bøter på opptil 3 000 000 CZK (≈ 120 000 €)",
       "Området rundt Praha slott har strenge flyrestriksjoner",
       "GDPR gjelder ved innsamling av identifiserbare bilder"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Droneforskrifter",
-        "description": "Offisielle regler og ressurser fra luftfartsmyndigheten om droner"
+        "title": "ÚCL — Droneregler",
+        "description": "Offisielle regler og ressurser om droner fra luftfartsmyndigheten"
       },
       {
-        "title": "CAA — Operatørregistrering",
-        "description": "Gratis registrering som UAS-operatør (gyldig i alle EU/EASA-land)"
+        "title": "ÚCL — Operatørregistrering",
+        "description": "Gratis registrering som UAS-operatør (gyldig i alle EU-/EASA-land)"
       },
       {
         "title": "Dronemap.gov.cz — Luftromskart",
         "description": "Offisielt interaktivt kart som viser dronesoner og luftromsrestriksjoner"
       },
       {
-        "title": "CAC — Regeloversikt",
-        "description": "Oversikt over reglene for å fly drone i Tsjekkia"
+        "title": "ÚCL — Oversikt over regler",
+        "description": "Oversikt over reglene for droneflyging i Tsjekkia"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Flygekontroll — NOTAM og luftrom",
+        "title": "ŘLP — NOTAM og luftrom",
         "description": "Tsjekkisk flygekontroll og luftromsinformasjon"
       },
       {
-        "title": "CAA — FAQ om droner",
-        "description": "Ofte stilte spørsmål om droneforskrifter i Tsjekkia"
+        "title": "ÚCL — Ofte stilte spørsmål om droner",
+        "description": "Ofte stilte spørsmål om droneregelverket i Tsjekkia"
       }
     ],
     "disclaimerText": "Sjekk alltid de offisielle kildene til luftfartsmyndigheten (ÚCL) og Dronemap.gov.cz før du flyr. Denne appen er et verktøy — ikke en rettskilde. Tsjekkia følger EASA-forskriftene med nasjonale tillegg.",
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "OFFISIELLE KILDER",
     "sectionLabelSecondary": "FLERE RESSURSER",
     "linksSheetTitle": "Luftrom og regelverk — Tsjekkia",
-    "dronePilotCredentialName": "Dronepilotlisens"
+    "dronePilotCredentialName": "A1/A3-opplæringsbevis"
   }
 }

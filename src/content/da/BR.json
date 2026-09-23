@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimal højde: 120 m (400 ft) over jorden",
+      "Maksimal højde: 120 m (400 ft) AGL (ANAC); rekreative flyvninger: højst 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "Droner over 250 g: obligatorisk registrering hos SISANT (ANAC)",
-      "Droner op til 250 g: fritaget for registrering, automatisk godkendt",
-      "Mindst 5,4 km fra lufthavne ved flyvning i lav højde",
-      "Mindst 9 km fra lufthavne ved flyvning op til 120 m",
+      "Droner op til 250 g skal ikke registreres i SISANT (ANAC Resolution nr. 806). Siden 1. juli 2026 (ICA 100-40) kræver flyvninger med disse droner også tilladelse via SARPAS (DECEA). Droner over 250 g skal registreres i SISANT.",
+      "Lufthavnenes flyverestriktionszoner (FRZ) (ICA 100-40, gældende siden 1. juli 2026): omkring flyvepladsen (ZEA) begynder FRZ ved jordoverfladen ud til 1.740 m; du holder dig under den ved at flyve op til 100 ft (30 m) uden for 1.740 m, 200 ft (60 m) uden for 2.350 m, 300 ft uden for 2.960 m og 400 ft uden for 3.570 m. I ind- og udflyvningssektorerne (ZAD) begynder FRZ ved jordoverfladen ud til 3.550 m; derefter: 100 ft uden for 3.550 m, 200 ft uden for 4.480 m, 300 ft uden for 5.400 m og 400 ft uden for 6.320 m. Flyvning inden for FRZ kræver en Termo de Coordenação og en SARPAS-anmodning mindst 4 kalenderdage i forvejen.",
+      "Rekreative flyvninger (ICA 100-40, art. 32): maksimal højde 200 ft (60 m) AGL og maksimal vandret afstand 300 m. Nær flyvepladser gælder FRZ-båndene – tjek i SARPAS.",
       "Hold altid dronen inden for synsvidde (VLOS)",
-      "Mindst 30 meters afstand til personer, der ikke er involveret i operationen",
-      "Der kræves SARPAS-tilladelse (DECEA) før hver flyvning i kontrolleret luftrum",
+      "Mindst 30 m afstand til personer, der ikke er involveret i operationen",
+      "Enhver flyvning kræver tilladelse til adgang til luftrummet via SARPAS (DECEA), også for droner op til 250 g. Minimumsvarsel: 30 minutter i den åbne kategori; 4 eller 8 kalenderdage for operationer, der krydser en FRZ eller restriktionsområder, BVLOS eller over 400 ft. Rekreative flyvninger i et EAC udpeget til rekreation er undtaget.",
       "Sendeudstyr skal være certificeret af ANATEL",
-      "Natflyvning kræver særlig tilladelse og antikollisionslys"
+      "Natflyvning: dronen skal have navigationslys (ICA 100-40, art. 20)",
+      "Piloter under 18 år skal altid være ledsaget af en pilot over 18 år, der er ansvarlig for operationen",
+      "Ikke-rekreativ brug af droner over 250 g (RBAC nr. 100): forsikring, der dækker skader på tredjemand, er obligatorisk. Kravet om at bestå ANAC's teoriprøve (RBAC 100.13(b)) er frafaldet indtil 31. december 2026 (Resolution nr. 805/2026, art. 2)."
     ],
     "importantNotes": [
-      "Turister: Brasilien TILLADER rekreativ flyvning, men droner over 250 g skal registreres hos SISANT før flyvningen",
-      "Bøder fra ANAC kan nå op på R$ 7.000 pr. overtrædelse — at flyve uden registrering eller SARPAS-tilladelse er en alvorlig forseelse",
+      "Turister: Brasilien TILLADER rekreativ flyvning. Droner over 250 g skal registreres hos SISANT (udlændinge kan bruge deres pas), og flyvninger kræver tilladelse fra SARPAS (DECEA), også med droner op til 250 g.",
+      "ANAC's bøder for droner tager udgangspunkt i referencebeløb på R$ 750 til R$ 4.500 pr. overtrædelse (flyvning uden registrering: R$ 2.250 – Resolution nr. 762/2024); afhængigt af formildende og skærpende omstændigheder kan det endelige beløb ligge fra 20 % til 300 % af dette beløb (Resolution nr. 761/2024, art. 35). Flyvning uden SARPAS-tilladelse er en lufttrafikovertrædelse, der pådømmes af JJAER (ICA 100-40, art. 66).",
       "Nationalparker (ICMBio) og oprindelige folks territorier (FUNAI) forbyder som regel droner uden særlig tilladelse",
       "Strande og bymæssige turistområder (Rio, São Paulo, Salvador) har kommunale restriktioner — spørg de lokale myndigheder"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — Flyvetilladelse (DECEA)",
-        "description": "DECEA's system til at ansøge om flyvetilladelse i kontrolleret luftrum. Kræves før hver flyvning"
+        "description": "DECEA's system til at ansøge om tilladelse til adgang til luftrummet, også for droner op til 250 g. Kræves før hver flyvning"
       },
       {
         "title": "ANATEL — Udstyrscertificering",
@@ -48,15 +50,15 @@
         "description": "Aktive NOTAM og officielle luftfartskort fra DECEA til at tjekke for midlertidige restriktioner"
       },
       {
-        "title": "ANAC — Ofte stillede spørgsmål om droner",
-        "description": "ANAC's officielle svar på almindelige spørgsmål fra droneoperatører"
+        "title": "ANAC — Ofte stillede spørgsmål om SISANT (droneregistrering)",
+        "description": "ANAC's officielle svar om registrering i SISANT, også for udlændinge"
       },
       {
-        "title": "RBAC-E nr. 94 — Komplet teknisk standard",
-        "description": "Særlig brasiliansk regulering for civil luftfart nr. 94 — den fulde tekst, der gælder for droner"
+        "title": "RBAC nr. 100 — Fuld teknisk standard",
+        "description": "Brasiliansk luftfartsforordning nr. 100 (erstatter RBAC-E nr. 94) — fuld tekst gældende for droner"
       }
     ],
-    "disclaimerText": "Tjek altid de officielle kilder fra ANAC og DECEA, før du flyver. Denne app er et værktøj, ikke en juridisk myndighed. Brasilien håndhæver RBAC-E nr. 94 (i øjeblikket under overgang til RBAC nr. 100), som kræver obligatorisk godkendelse via SARPAS.",
+    "disclaimerText": "Tjek altid de officielle kilder fra ANAC og DECEA, før du flyver. Denne app er et værktøj, ikke en juridisk myndighed. Brasilien anvender RBAC nr. 100 og Resolution nr. 806 (ANAC, siden juni 2026) samt ICA 100-40 (DECEA, siden juli 2026) med obligatorisk tilladelse via SARPAS.",
     "sectionLabelRules": "VIGTIGSTE REGLER",
     "sectionLabelPrimary": "OFFICIELLE KILDER",
     "sectionLabelSecondary": "YDERLIGERE RESSOURCER",

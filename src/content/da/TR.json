@@ -1,41 +1,43 @@
 {
   "meta": {
-    "sourceHash": "965aaa2f6c885d898cf7ee6ff9907d07afe1d10c3a57077ecae02dbc001de716",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ab41c1c6a873ddfc4cf87129700fea1004f13537f36d6d678dee51194176fb4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimal flyvehøjde: 120 meter (400 ft) over jorden",
-      "Din UAV skal altid være inden for din synsvidde (VLOS)",
-      "Kun flyvning i dagslys — der kræves en separat tilladelse til natflyvning",
-      "Mindst 9 km fra alle lufthavne (herunder Istanbul IST og Sabiha Gökçen SAW)",
-      "Der skal holdes en vandret afstand på mindst 50 meter til andre personer",
-      "Alle UAV'er over 500 g skal registreres på iha.shgm.gov.tr",
-      "Flyvning er forbudt i historiske områder (Hagia Sophia, Topkapı, Sultanahmet) og langs Bosphorus-korridoren",
-      "Flyvning over militærområder, regeringsbygninger og folkerige arrangementer er strengt forbudt",
-      "Udenlandske piloters brug af UAV'er over 500 g kræver en ansøgning ad diplomatisk vej",
-      "FPV-flyvning er forbudt uden en separat tilladelse"
+      "Maksimal flyvehøjde er 120 m (400 ft); ved P0/P1-flyvninger skal UAV'en holdes inden for synsvidde (VLOS) og må ikke komme mere end 3.000 m fra piloten. Flyvning over 120 m er kun mulig med en P2-licens og i koordination med de relevante myndigheder.",
+      "Du skal altid holde din UAV inden for din synsvidde, i direkte visuel kontakt uden hjælp af optiske eller elektroniske enheder (SHT-İHA).",
+      "Amatørflyvninger (P0) må kun foretages om dagen; natoperationer er mulige med en P1- eller P2-licens og passende udstyr (SHT-İHA art. 15). I overgangsperioden (indtil 31. juli 2027) skal du indhente SHGM-tilladelse til natflyvninger.",
+      "Før du flyver nær lufthavne, skal du tjekke kortet på iha.shgm.gov.tr (senere İHATTYS); flyvninger alle steder uden for grønne zoner kræver SHGM-tilladelse. Det nye SHT-İHA angiver ingen fast afstand; de 9 km (5 NM) fra det tidligere direktiv bør holdes som en sikker minimumsafstand.",
+      "Flyvning over menneskemængder regnes som en højrisikooperation; det er lukket for P0- og P1-piloter og må kun foretages med en P2-licens (SHT-İHA art. 6). Det nye direktiv angiver ingen fast afstand; det anbefales at holde mindst 50 m afstand til personer og bygværker (værdien i det tidligere direktiv) som et sikkert minimum.",
+      "Nyt SHT-İHA (2026): bortset fra Simple UAV'er af legetøjstypen skal alle UAV-brugere, også dem under 500 g, registrere sig i İHATTYS; fristen for eksisterende luftfartøjer er 31. juli 2027. Indtil İHATTYS går i drift, registreres UAV'er på 500 g og derover på iha.shgm.gov.tr.",
+      "Under det nye SHT-İHA er flyvetilladelsen knyttet til pilotlicensen: amatør P0 (minimumsalder 10 år), kommerciel P1 (18 år), avanceret P2; der kræves ingen licens for Simple UAV'er. I overgangsperioden (indtil 31. juli 2027) forbliver eksisterende İHA0/İHA1-certifikater og İHA2/İHA3-licenser gyldige og konverteres til P0/P1/P2 gennem tilpasning.",
+      "Fjernidentifikation (Remote ID) og geofencing er obligatorisk for andre UAV'er end Simple UAV'er; du er ansvarlig for at indlæse opdaterede data om restriktionszoner på din UAV (SHT-İHA art. 12, 23; overgang for eksisterende UAV'er indtil 31. juli 2027).",
+      "Før du flyver på Istanbuls historiske halvø (Hagia Sophia, Topkapı, Sultanahmet) og omkring Bosporus, skal du tjekke kortet på iha.shgm.gov.tr; flyvninger alle steder uden for grønne zoner kræver SHGM-tilladelse, og i røde zoner gives tilladelse kun med godkendelse fra den institution, der har lukket området.",
+      "Flyvning over militærområder og regeringsbygninger er strengt forbudt; flyvning over tætbefolkede områder kræver forudgående SHGM-tilladelse.",
+      "Udenlandske piloter, der bruger UAV'er på 500 gram eller mere, skal ansøge via diplomatiske kanaler mindst 20 arbejdsdage i forvejen med formular FR.23, \"İHA Uçuş İzin Talep Formu\" (ansøgningsformular om UAV-flyvetilladelse).",
+      "Ved FPV-flyvninger skal der være en observatør til stede, som hele tiden holder visuel kontakt med UAV'en, og der skal opretholdes løbende kommunikation mellem piloten og observatøren; FPV-udstyr skal bruge frekvenser godkendt af BTK (SHGM FAQ). Det nye SHT-İHA definerer synsvidde (VLOS) som direkte visuel kontakt uden hjælp af optiske/elektroniske enheder — rådfør dig med SHGM, før du flyver FPV."
     ],
     "importantNotes": [
-      "⚠️ UDENLANDSKE PILOTER: For at flyve en drone over 500 gram i Tyrkiet skal du ansøge hos General Directorate of Civil Aviation (SHGM) ad diplomatisk vej mindst 20 hverdage før flyvningen, tegne forsikring og flyve under opsyn af en tyrkisk statsborger med en İHA-2-licens. Droner under 500 g (som DJI Mini, Flip osv.) er fritaget for disse krav.",
-      "🗺️ ZONESYSTEM: Tyrkiet er inddelt i grønne (åbne), gule (kræver tilladelse) og røde (forbudte) zoner. Tjek altid zonestatus på iha.shgm.gov.tr før din flyvning.",
-      "🏛️ HISTORISKE OG TURISTMÆSSIGE STEDER: Flyvning er forbudt over Historic Peninsula of Istanbul (Sultanahmet, Hagia Sophia, Topkapı, Grand Bazaar), visse dale i Cappadocia, Pamukkale, Ephesus og andre arkæologiske steder uden særlig tilladelse fra Ministry of Culture and Tourism.",
-      "🛂 IMPORT OG TOLD: Rejser du ind i Tyrkiet med droner over 500 g, kan du blive bedt om at deklarere dem i tolden. Import til erhvervsformål kræver en separat proces; Bosphorus, militærhavne og grænseområder er underlagt yderligere restriktioner."
+      "🛂 UDENLANDSKE PILOTER — NYT SHT-İHA (30. juli 2026): UAV'er, der bringes ind fra udlandet, skal have SHGM's softwaremodul til overensstemmelse; uden modulet kan luftfartøjet ikke registreres eller flyves i Tyrkiet. Udenlandsk registrerede UAV'er skal være kompatible med İHATTYS; udenlandske licenser vurderes af SHGM, og P1/P2 udstedes efter differenceuddannelse. For UAV'er anskaffet før 30. juli 2026 løber overensstemmelsesperioden til 31. juli 2027. Indtil İHATTYS går i drift, indsendes ansøgninger for UAV'er på 500 g og derover til SHGM med formular FR.23 via diplomatiske kanaler mindst 20 arbejdsdage i forvejen.",
+      "🗺️ ZONESYSTEM: Under det nye SHT-İHA (30. juli 2026) vil zoner blive offentliggjort på İHATTYS-kortet som grønne (ingen tilladelse påkrævet), røde (lukket af den relevante institution; kun med denne institutions godkendelse, SHGM-tilladelse og en NOTAM) og orange (tildelt andre). Indtil İHATTYS går i drift, bruges kortet på iha.shgm.gov.tr (grøn/gul/rød). I begge systemer kræver flyvninger alle steder uden for grønne zoner SHGM-tilladelse. Tjek altid kortet, før du flyver.",
+      "🏛️ HISTORISKE OG TURISTMÆSSIGE STEDER: Video-/film-/fotooptagelser på museer og steder tilknyttet museer kræver tilladelse fra Ministry of Culture and Tourism; tjek også kortet på iha.shgm.gov.tr for restriktioner for UAV-flyvning.",
+      "🛂 UAV'ER BRAGT IND FRA UDLANDET: UAV'er på 500 g og derover skal registreres på iha.shgm.gov.tr senest 3 dage efter, at de er bragt ind i Tyrkiet (lov nr. 2920, art. 144). Udlændinge skal have et tyrkisk ID-nummer eller en opholdstilladelse for at kunne foretage registrering til sports-/amatørbrug. Der kan kræves en deklaration i tolden ved indrejse; import til kommercielle formål kræver en separat proces. Militærhavne og grænseregioner er underlagt yderligere restriktioner."
     ],
     "primaryLinks": [
       {
-        "title": "SHGM — Ubemandet luftfartøj (officiel hjemmeside)",
-        "description": "Generaldirektoratet for Civil Luftfarts officielle UAV-side: SHT-UAV-direktivet, vægtklasser (UAV-0/1/2/3) og operationelle regler"
+        "title": "SHGM — İHA Takip / İHATTYS (officiel portal)",
+        "description": "Den officielle UAV-portal (İHATTYS) fra General Directorate of Civil Aviation. Indtil SHGM meddeler, at systemet er gået i drift, udføres registrering og ansøgning om flyvetilladelse efter de eksisterende metoder (iha.shgm.gov.tr og SHGM-formularer)."
       },
       {
-        "title": "UAV-registreringssystem (kræves for droner på 500 g eller derover)",
-        "description": "Obligatorisk registreringsportal for alle droner over 500 gram. Kræver et tyrkisk ID-nummer; formular FR-03 gælder for udenlandske statsborgere"
+        "title": "UAV-registreringssystem (obligatorisk over 500 g)",
+        "description": "Obligatorisk registreringsportal for alle droner, der vejer mere end 500 gram. Kræver et tyrkisk ID-nummer; for udenlandske statsborgere gælder formular FR-03"
       },
       {
-        "title": "Ansøgning om UAV-pilotregistrering (e-Government)",
-        "description": "Officiel tjeneste via e-Government til ansøgning om pilotregistrering for UAV-1 og derover. Der kræves en pilotlicens til erhvervsmæssige operationer."
+        "title": "Ansøgning om UAV-pilotregistrering (e-Devlet)",
+        "description": "Officiel tjeneste via e-Devlet (e-Government) til ansøgninger om pilotregistrering for İHA-1 og højere. En pilotlicens kræves til kommercielle operationer."
       },
       {
         "title": "Anmodning om flyvetilladelse (gule/røde zoner)",
@@ -44,23 +46,27 @@
     ],
     "secondaryLinks": [
       {
-        "title": "UAV Tracking — Officiel mobilapp (Android)",
-        "description": "SHGM's officielle UAV Tracking-app: luftrumszoner, flyvetilladelser og administration af pilotlicens"
+        "title": "İHA Takip — officiel mobilapp (Android)",
+        "description": "SHGM's officielle İHA Takip-/İHATTYS-app. Indtil SHGM meddeler, at İHATTYS er gået i drift, udføres registrering og ansøgning om flyvetilladelse efter de eksisterende metoder (iha.shgm.gov.tr og SHGM-formularer)."
+      },
+      {
+        "title": "İHATTYS — officiel mobilapp (iOS)",
+        "description": "iOS-versionen af SHGM's officielle İHATTYS-app; transaktioner foretaget i appen er ugyldige, indtil SHGM har udsendt den nødvendige meddelelse"
       },
       {
         "title": "SHGM — Officiel hjemmeside",
         "description": "Generaldirektoratet for Civil Luftfarts hjemmeside: alle luftfartsregler, meddelelser og kontaktoplysninger"
       },
       {
-        "title": "SHT-UAV-direktivet (regeltekst)",
-        "description": "Direktiv for civil luftfart — ubemandet luftfartøj (SHT-UAV): det officielle direktiv, der udgør det juridiske grundlag for alle operationer"
+        "title": "SHT-İHA Directive 2026 (regeltekst, PDF)",
+        "description": "Unmanned Aircraft Systems Directive (SHT-İHA), gældende fra 30. juli 2026: den officielle direktivtekst, der udgør retsgrundlaget for alle UAV-operationer"
       }
     ],
-    "disclaimerText": "Tjek altid SHGM's officielle kilder, før du flyver. Denne app er et værktøj, ikke en juridisk myndighed. UAV-operationer i Tyrkiet er reguleret af SHT-UAV Directive; alle enheder på 500 g eller derover skal registreres i SHGM's registreringssystem (iha.shgm.gov.tr).",
+    "disclaimerText": "Tjek altid SHGM's officielle kilder, før du flyver. Denne app er et værktøj, ikke en juridisk myndighed. I Tyrkiet er UAV-operationer reguleret af det nye SHT-İHA (Unmanned Aircraft Systems Directive), der gælder fra den 30. juli 2026; overgangsperioden løber til den 31. juli 2027. Alle enheder, der vejer mere end 500 g, skal registreres i SHGM's registreringssystem (iha.shgm.gov.tr).",
     "sectionLabelRules": "GRUNDLÆGGENDE REGLER",
     "sectionLabelPrimary": "OFFICIELLE KILDER",
     "sectionLabelSecondary": "YDERLIGERE RESSOURCER",
     "linksSheetTitle": "Luftrum og regler — Tyrkiet",
-    "dronePilotCredentialName": "UAV-pilotlicens"
+    "dronePilotCredentialName": "UAV-pilotlicens (P0/P1/P2)"
   }
 }

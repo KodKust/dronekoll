@@ -1,45 +1,44 @@
 {
   "meta": {
-    "sourceHash": "81c150124a0453afe7f5155ecf3def2f6e3595db14698b42ea98cfaec819abc2",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "739c62107e50c8694e19f4d73e36df062253357ffa3b107cac8d667605278391",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálna výška: 122 m (400 ft) nad úrovňou terénu (AGL)",
-      "Maximálna horizontálna vzdialenosť: 750 m od prevádzkovateľa (pri zachovaní VLOS)",
+      "Maximálna výška: 122 m (400 ft) nad úrovňou terénu (RAC 100).",
+      "Maximálna horizontálna vzdialenosť: 750 m od prevádzkovateľa pri zachovaní priameho vizuálneho dohľadu (VLOS) (RAC 100).",
       "Drony s MTOW 200 g a viac: povinná registrácia na platforme UAS úradu Aerocivil",
-      "Kategória Open (drony ≤25 kg): prevádzka povolená bez predchádzajúceho povolenia podľa RAC 100",
-      "Trieda B (25 – 150 kg): vždy vyžaduje povolenie od úradu Aerocivil",
-      "Minimálna vzdialenosť 9 km od referenčného bodu letiska",
-      "Minimálna vzdialenosť 3 km od heliportov",
+      "Registrovaný dron: nesie pevne pripevnený štítok s rozmermi najmenej 2 × 4 cm s registračným číslom, menom, e-mailom a adresou atencionalciudadano@aerocivil.gov.co (RAC 100).",
+      "Kategória Open (drony ≤25 kg, iba nekomerčné použitie): prevádzka povolená bez predchádzajúceho povolenia podľa RAC 100. Komerčné použitie = kategória Specific s povolením.",
+      "Drony nad 25 kg (do 250 kg): iba v kategórii Specific, s povolením na let od Aerocivil a s pilotom, ktorý má osvedčenie o spôsobilosti (RAC 100).",
+      "Minimálna vzdialenosť 2 km od vojenských alebo policajných základní, väzníc a kritickej infraštruktúry a od akéhokoľvek miesta, kde sa nachádza prezident (RAC 100).",
+      "Letiská: lietanie je zakázané na letisku a do 6 km od vzťažného bodu (ARP); medzi 6 a 9 km iba v kategórii Open, maximálne 61 m (200 ft) nad najnižším prahom a mimo ZNVD — overte si to vo Visor Geográfico UAS (RAC 100).",
+      "Minimálna vzdialenosť 3 km od heliportov (RAC 100).",
       "Minimálna vzdialenosť 30 m od nezúčastnených osôb a budov",
-      "Dron majte vždy v priamom vizuálnom dohľade (VLOS) a lietajte iba počas denného svetla",
-      "Zóny GEO (obmedzené oblasti pre drony) definuje úrad Aerocivil v súlade s ICAO"
+      "Dron majte vždy v priamom vizuálnom dohľade (VLOS). V noci iba s trvalo zapnutými svetlami a s pozorovateľom (RAC 100).",
+      "Bezletové zóny pre drony (ZNVD) a zakázané, obmedzené a nebezpečné priestory si môžete overiť vo Visor Geográfico UAS úradu Aerocivil (RAC 100)."
     ],
     "importantNotes": [
       "📋 RAC 100 (aktuálne platný): hlavný predpis upravujúci drony v Kolumbii. Nahrádza predchádzajúci RAC 91, Appendix 13. Zavádza kategóriu Open (prevádzka bez predchádzajúceho povolenia) a kategóriu Specific (s povolením). Circular 100-MAUT-5.0-22-010-CI poskytuje podrobný návod k registračnému procesu.",
+      "✈️ TURISTI: RAC 100 platí aj pre cudzincov. Drony od 200 g sa registrujú na Plataforma UAS Colombia s platným pasom; postup je bezplatný.",
       "🌳 NÁRODNÉ PARKY A CHRÁNENÉ ÚZEMIA: Národné prírodné parky Kolumbie (PNN) zakazujú drony bez osobitného povolenia v parkoch ako Tayrona, Cocuy, Los Nevados a Amacayacu. Kolumbijská karibská oblasť a amazonský región majú ďalšie obmedzenia — pred cestou sa informujte v každom parku.",
-      "🏛️ OBMEDZENÉ A MESTSKÉ OBLASTI: Centrum Bogoty (Casa de Nariño, Plaza Bolívar, letisko El Dorado (SKBO)), opevnené historické centrum Cartageny, vojenské zóny, hranice (Venezuela, Ekvádor, Panama), splavné rieky a ropné plošiny podliehajú trvalým obmedzeniam — skontrolujte zóny GEO úradu Aerocivil.",
-      "💰 POKUTY A ZODPOVEDNOSŤ: Prevádzka bez licencie alebo mimo povolených oblastí môže viesť k vysokým pokutám (UVT — daňová hodnotová jednotka), zabaveniu zariadenia a v závažných prípadoch k trestnej zodpovednosti. Pri komerčnom použití sa vyžaduje poistenie zodpovednosti."
+      "🏛️ OBMEDZENÉ OBLASTI: lietanie je zakázané v zónach ZNVD (napr. okolo El Dorado SKBO) — pred každým letom si to overte vo Visor Geográfico UAS úradu Aerocivil.",
+      "💰 POKUTY A ZODPOVEDNOSŤ: Prevádzka bez registrácie alebo mimo povolených oblastí môže viesť k vysokým pokutám (UVT — daňová hodnotová jednotka), zabaveniu zariadenia a v závažných prípadoch k trestnej zodpovednosti. Pri komerčnom použití sa vyžaduje poistenie zodpovednosti."
     ],
     "primaryLinks": [
       {
-        "title": "Aerocivil — Systémy bezpilotných lietadiel (UAS/drony)",
-        "description": "Oficiálna stránka Osobitnej správnej jednotky pre civilné letectvo (UAEAC) o dronoch: RAC 100, informatívne cirkuláre, registrácia UAS"
-      },
-      {
-        "title": "Dokumenty RPAS — Navigačné služby",
-        "description": "Oficiálne úložisko dokumentov pre RPAS/drony: formuláre, návody na registráciu, cirkulár 100-MAUT-5.0-22-010-CI a platné predpisy"
+        "title": "Aerocivil — Bezpilotné letectvo (UAS/drony)",
+        "description": "Oficiálna stránka Osobitnej správnej jednotky civilného letectva (UAEAC) o dronoch: RAC 100, informatívne obežníky, registrácia UAS"
       },
       {
         "title": "Aerocivil — Často kladené otázky o dronoch",
         "description": "Oficiálna sekcia častých otázok o dronoch a mestskej vzdušnej mobilite s podrobnými odpoveďami na bežné otázky prevádzkovateľov"
       },
       {
-        "title": "Národný letecký register — UAS",
-        "description": "Letecký registračný systém pre drony s hmotnosťou nad 250 g. Zahŕňa návod na registráciu a požiadavky: identifikácia, fotografie dronu (6, PDF <2 MB) a digitálny formulár"
+        "title": "Aerocivil — Plataforma UAS Colombia (registrácia dronov)",
+        "description": "Portál elektronických služieb UAS úradu Aerocivil: prístup na Plataforma UAS Colombia na registráciu dronov s hmotnosťou 200 g a viac (bezplatne), k Visor Geográfico UAS a návodom"
       }
     ],
     "secondaryLinks": [
@@ -49,11 +48,11 @@
       },
       {
         "title": "Služby pre občanov (e-mail + telefón)",
-        "description": "Oficiálna e-mailová adresa úradu Aerocivil pre otázky o dronoch. Telefón: +57 (601) 425 1000 alebo bezplatná linka 01 8000 112373. Pondelok – piatok, 8:00 – 16:30"
+        "description": "Oficiálna e-mailová adresa úradu Aerocivil pre otázky o dronoch. Telefón: +57 (601) 425 1000 alebo +57 (601) 518 5214. Pondelok – piatok 8:00 – 16:30. Drony: gdmua@aerocivil.gov.co"
       },
       {
         "title": "Kolumbijské letecké predpisy (RAC)",
-        "description": "Kolumbijské letecké predpisy (RAC). Zahŕňa RAC 100 (prevádzka UAS), RAC 91 dodatok 13 a všetky predpisy platné pre drony"
+        "description": "Kolumbijské letecké predpisy (RAC). Zahŕňajú RAC 100 (prevádzka UAS, platný od roku 2023) a ďalšie predpisy platné pre drony"
       }
     ],
     "disclaimerText": "Pred lietaním vždy skontrolujte oficiálne zdroje úradu civilného letectva (Aerocivil). Táto aplikácia je nástroj, nie právny zdroj. Kolumbia uplatňuje RAC 100 (Letecké predpisy pre prevádzku UAS), ktorý vyžaduje povinnú registráciu dronov s MTOW 200 g a viac cez platformu UAS.",

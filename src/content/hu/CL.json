@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (lakatlan területek, szabadidős): A ≤750 g tömegű drónok engedély nélkül repülhetnek magánterületen a legmagasabb akadály felett legfeljebb 50 m-rel",
-      "DAN 151 (lakott területek/professzionális használat): A 750 g-nál nehezebb drónokhoz DGAC-regisztráció, pilótaengedély és üzemeltetési engedély szükséges",
-      "Maximális engedélyezett teljes magasság: 130 m AGL (DAN 151) — engedélytől függően változik",
-      "Legalább 2 km távolság a repülőterektől és leszállópályáktól",
+      "DAN 91.102(j): DGAC-engedély nélkül csak legfeljebb 750 g-os, habosított polietilénből vagy azzal egyenértékű anyagból készült, magán- vagy szabadidős célú drónok repülhetnek, magánterületeken és legfeljebb 50 m-rel a legmagasabb akadály vagy épület felett. Minden más repüléshez a DGAC előzetes engedélye szükséges.",
+      "DAN 151 (lakott területek, közérdekű tevékenység vagy légimunka): bármilyen tömegű (max. 9 kg) drónra vonatkozik, és DGAC-regisztrációt, távpilóta-igazolványt, biztosítást, AOC-t vagy CEO-t, valamint üzemeltetési engedélyt követel meg.",
+      "DAN 151: a drónon üzemelés közben vészejtőernyőnek kell lennie, és kézzel irányíthatónak kell lennie (max. 9 kg az ejtőernyő nélkül).",
+      "Az általános határ 400 láb (120 m) AGL — felette repülni csak a DGAC előzetes engedélyével lehet (DAN 151 Ed. 3, 2024 májusa óta hatályos). A jelenlegi DAN 91 ugyanezt a határt „400 láb (130 méter)” formában adja meg.",
+      "Tilos repülni egy repülőtér meghosszabbított futópálya-középvonalától 2 km-en belül (a küszöbtől mérve), illetve a futópálya-középvonallal párhuzamosan 1 km-en belül.",
+      "Tilos drónt üzemeltetni olyan területeken, ahol személyzettel rendelkező légi járművekkel tüzet oltanak (DAN 91.102(i)(11) és DAN 151.103(g)(14)).",
       "Legfeljebb 500 m távolság a kezelőtől (tartsd a drónt közvetlenül szemmel)",
-      "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS)",
+      "A repülés irányításához mindvégig közvetlen vizuális kapcsolatot kell tartanod a drónnal.",
       "Az éjszakai repülésekhez a DGAC külön engedélye szükséges",
-      "DGAC-regisztráció: gyártmány, modell, sorozatszám, maximális tömeg ≤9 kg az engedélyezett használathoz, 10×15 cm-es fénykép",
-      "A pilótaengedélyhez írásbeli vizsgát kell tenni (legalább 75%-os eredménnyel) a DAN 151-ből, a DAN 91-ből, meteorológiából és aerodinamikából",
+      "DGAC-regisztráció (DAN 151.203): gyártó/ország, márka, típus, sorozatszám és gyári tömeg, a személyi igazolványod másolatával; a kérelmet a DGAC webes platformján kell benyújtani (2026 augusztusa óta). Legnagyobb felszállótömeg 9 kg.",
+      "Távpilóta-igazolvány: legalább 18 éves kor, képzési nyilatkozat és írásbeli vizsga (legalább 75%) a DAN 151, a DAN 91, a NOTAM, a meteorológia és az aerodinamika témakörében; 36 hónapig érvényes.",
       "Professzionális használathoz JAC által engedélyezett, harmadik féllel szembeni felelősségbiztosítás szükséges"
     ],
     "importantNotes": [
-      "📋 KETTŐS SZABÁLYOZÁSI KERET — DAN 91 kontra DAN 151: Chile különbséget tesz a LAKATLAN területeken végzett repülés (DAN 91, megengedőbb; ≤750 g tömegű drónokkal engedély nélkül végezhető szabadidős repülés) és a LAKOTT vagy közérdekű területeken végzett repülés (DAN 151, amely regisztrációt, minősített pilótát és biztosítást igényel) között. Az alkalmazandó szabályozás a helyszíntől ÉS a céltól függ.",
-      "✈️ KÜLFÖLDI TURISTÁK: A szabályok a nem rezidensekre is egyformán vonatkoznak. A ≤750 g tömegű drónokkal lakatlan magánterületen végzett szabadidős repüléshez nincs szükség regisztrációra. Bármely más művelethez (turizmus, professzionális használat, emberek közelében, parkokban) ugyanazok az engedélyek szükségesek, mint a chilei állampolgárok esetében.",
-      "🌋 NEMZETI PARKOK ÉS REZERVÁTUMOK: A CONAF (Nemzeti Erdészeti Vállalat) külön engedély nélkül tiltja a drónokat az olyan parkokban, mint a Torres del Paine, a Lauca és az Isluga Volcano National Park. Chilei Antarktisz: az INACH külön szabályozása. Utazás előtt érdeklődj minden egyes parknál vagy rezervátumnál.",
-      "🏔️ KORLÁTOZOTT TERÜLETEK: Santiago belvárosa (La Moneda, Plaza de Armas), a SCEL repülőtér (Pudahuel), katonai és határmenti zónák. Húsvét-sziget, Robinson Crusoe-sziget, Antarktisz: további korlátozások. A tiltott, korlátozott és veszélyes területek térképét lásd az AIP Chile-ben (ENR 5.1).",
-      "💰 ÉVES MEGÚJÍTÁS: A DGAC-regisztráció 12 hónapig érvényes, és évente meg kell újítani. Az érvényes regisztráció vagy igazolvány nélküli üzemeltetés bírságot, a berendezés elkobzását és üzemeltetési tilalmat vonhat maga után."
+      "KETTŐS SZABÁLYOZÁSI KERET — DAN 91 (lakatlan területek): minden repüléshez eseti alapon a DGAC előzetes engedélye szükséges (D. melléklet). DAN 151 (lakott területek, közérdekű tevékenység vagy légimunka): regisztráció, igazolvány, biztosítás és engedély. Egyetlen kivétel: ≤750 g-os, habosított polietilénből vagy azzal egyenértékű anyagból készült drónok, szabadidős használat, magánterületeken és ≤50 m-rel a legmagasabb akadály felett.",
+      "✈️ KÜLFÖLDI TURISTÁK: A szabályok a nem rezidensekre is ugyanúgy vonatkoznak. DGAC-engedély nélkül csak ≤750 g-os, habosított polietilénből vagy azzal egyenértékű anyagból készült, szabadidős célú drónok repülhetnek, magánterületeken és ≤50 m-rel a legmagasabb akadály felett. Minden más repüléshez a DGAC előzetes engedélye szükséges; a DGAC-regisztrációhoz a személyi igazolványod másolata kell.",
+      "🌋 VÉDETT TERÜLETEK: Egyetlen állami védett vadon területen (nemzeti parkok, rezervátumok, természeti emlékek) sem megengedett a drónok szabadidős vagy turisztikai használata. A CONAF csak indokolt esetekben (tudományos kutatás, monitoring vagy egyéb kezelési célok) engedélyez repüléseket a conaf.cerofilas.gob.cl oldalon keresztül, és ilyenkor a DGAC engedélye is szükséges. Antarktisz: az INACH külön szabályai.",
+      "🏔️ KORLÁTOZOTT TERÜLETEK: Tilos repülni a La Moneda (SC-P28 zóna), katonai létesítmények, börtönök és stratégiai létesítmények felett, valamint az AIP Chile (ENR 5.1) vagy NOTAM szerinti tiltott, korlátozott vagy veszélyes területeken.",
+      "💰 ÉRVÉNYESSÉGI IDŐK: A távpilóta-igazolvány 36 hónapig érvényes, és új vizsgával (min. 75%) hosszabbítható meg; a DAN 151 szerinti üzemeltetési engedély legfeljebb 6 hónapig érvényes. A DGAC-előírások megszegése bírságot, a műveletek felfüggesztését, a berendezés elkobzását vagy — a légiközlekedés biztonságának veszélyeztetése esetén — büntetőjogi felelősséget vonhat maga után."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Chile hivatalos légiforgalmi tájékoztató rendszere: NOTAM-ok, tiltott/korlátozott/veszélyes területek (ENR 5), térképek, repülőterek"
       },
       {
-        "title": "RPA regisztrációs eljárás (hivatalos PDF)",
-        "description": "A DGAC hivatalos eljárása a drónok (RPA) új regisztrációjához és rendezéséhez. Tartalmazza a B. függeléket és az űrlapokat"
+        "title": "Drón (RPA) regisztráció — A DGAC új platformja",
+        "description": "Online regisztráció a nemzeti RPA-nyilvántartásba a DAN 151 szerint. A regisztráció önmagában nem jelent repülési engedélyt."
       }
     ],
     "secondaryLinks": [

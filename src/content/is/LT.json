@@ -1,55 +1,58 @@
 {
   "meta": {
-    "sourceHash": "c6156d2d7270eed1f0bbf03a22c83cd1cf94b1875c9f45ae22d161f7fab4e957",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e93e943369b28f887990b72c587e2c372465bbacd9292903c416ee4c4ebf7e67",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Að hámarki 120 m yfir jörðu (EASA opinn flokkur)",
-      "Skráðu þig sem rekstraraðila fjarstýrðra loftfara (10 €/ári) ef dróninn þinn vegur 250 g eða meira eða er búinn myndavél",
-      "Skyldubundin A1/A3 netþjálfun – lágmarksaldur 16",
+      "Í opna flokknum er hámarkshæðin 120 m, mæld sem fjarlægð að næsta punkti á yfirborði jarðar — ekki einfaldlega beint niður, svo þegar flogið er nálægt halla getur aðliggjandi jörð líka talist með. Innan 50 m frá háu manngerðu mannvirki (hærra en 105 m) getur sá aðili sem ber ábyrgð á mannvirkinu óskað eftir leyfi til að fljúga allt að 15 m yfir hæð þess.",
+      "Þú verður að skrá þig sem drónarekstraraðila ef dróninn þinn vegur 250 g eða meira (eða gæti flutt meira en 80 J af hreyfiorku við árekstur) — þetta á jafnvel við um leikföng. Undir 250 g er skráning samt nauðsynleg ef dróninn er með skynjara sem getur safnað persónuupplýsingum, nema hann teljist leikfang samkvæmt leikfangatilskipun ESB. Kröfur um þjálfun/skírteini flugmanns eru aðskildar og fara eftir flokki og undirflokki drónans.",
+      "Skráningarnúmerið verður að vera sýnilegt á drónanum og (fyrir dróna í flokkum C1–C3) fært inn í Remote ID-kerfið",
+      "Drónar án C-flokksmerkingar (settir á markað fyrir 2024-01-01) og heimasmíðaðir drónar mega aðeins fljúga í undirflokki A1 ef flugtaksmassi þeirra er minni en 250 g, eða í undirflokki A3 ef hann er minni en 25 kg",
+      "Lágmarksaldur fjarflugmanns er 16 ár (ESB-regla; Litháen hefur ekki lækkað hann). Yngri flugmenn mega aðeins fljúga: undir beinu eftirliti fjarflugmanns sem uppfyllir kröfurnar; með leikfangi í flokki C0 í undirflokki A1; eða með heimasmíðuðum dróna með flugtaksmassa undir 250 g. A1/A3-þjálfunin og prófið fara fram í kerfi TKA og skírteinið gildir í 5 ár.",
       "Ábyrgðartrygging er skyldubundin fyrir dróna sem vega meira en 20 kg",
-      "Haltu ávallt sjónlínu (VLOS)",
+      "Í opna flokknum verður þú að hafa drónann innan eigin beinnar sjónlínu án hjálpartækja (gleraugu/snertilinsur eru í lagi; sjónauki eða skjár telst ekki með) — eða fljúga með aðstoð athuganda, þar sem þið eruð alltaf í skýru og virku sambandi svo að þið getið saman fylgst með loftrýminu og forðast árekstra. „Follow-me“-stilling er sérstök undantekning, heimil allt að 50 m frá flugmanninum.",
       "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
-      "Að minnsta kosti 5 km frá hvaða flugvelli eða flugstað sem er",
+      "Engin ein fjarlægð frá flugvöllum gildir um allt ESB. Takmarkanir nálægt flugvöllum eru birtar sem landfræðileg svæði (15. grein) og lögun þeirra og stærð er breytileg eftir flugvöllum – áður en þú flýgur nálægt flugvelli, flugbraut eða þyrlupalli skaltu athuga opinbert drónasvæðakort. Í stýrðu loftrými (UR-svæðin Vilnius, Kaunas, Palanga, Šiauliai) máttu fljúga í opna flokknum án fyrirfram heimildar aðeins upp í þá hæð sem ákveðin er fyrir svæðið – því nær flugvellinum, því lægri (hæðir – utm.ans.lt; hærra flug krefst heimildar sem gefin er út samkvæmt LTSA-verklaginu). Á ATZ/TIZ-svæðum flugvalla verður að samræma flugið fyrir fram við eiganda eða rekstraraðila flugvallarins.",
+      "Flug á EYP-svæðum og yfir hersvæðum (EYURM) er bannað án heimildar; hið sama gildir á virkjuðum EYR-svæðum (tilkynnt er um virkjun með NOTAM)",
       "Næturflug er heimilt samkvæmt grunnreglum EASA opna flokksins þegar tilskilið grænt blikkandi ljós er notað, nema gildandi landfræðilegt UAS-svæði eða innlend regla setji strangara skilyrði.",
       "Takmarkanir eru í gildi í Curonian Spit National Park",
-      "Frekari takmarkanir á landamærasvæðum við Rússland og Hvíta-Rússland"
+      "Á landamærasvæðinu meðfram landamærunum að Hvíta-Rússlandi og Rússlandi (um 7,4 km frá landamærunum) er flug án fyrirfram samráðs stranglega bannað"
     ],
     "importantNotes": [
-      "Skráning kostar 10 € á ári — hana verður að endurnýja árlega",
+      "Skráning og útgáfa/endurnýjun skráningarskírteinis kostar 31 €",
       "Trygging er aðeins nauðsynleg fyrir dróna sem vega meira en 20 kg",
-      "Flugtakmarkanir eru í gildi á landamærasvæðum við Rússland og Hvíta-Rússland",
+      "Á landamærasvæðinu meðfram landamærunum að Hvíta-Rússlandi og Rússlandi (um 7,4 km frá landamærunum) er flug án fyrirfram samráðs stranglega bannað",
       "Stýrða svæðið (CTR) við Vilnius-flugvöll nær yfir stóran hluta borgarinnar",
       "GDPR gildir þegar persónugreinanlegir einstaklingar eru kvikmyndaðir eða ljósmyndaðir"
     ],
     "primaryLinks": [
       {
-        "title": "CAA – Drónareglur",
-        "description": "Opinberar drónareglur Flugmálastjórnar"
+        "title": "TKA – Drónareglur",
+        "description": "Opinberar drónareglur Transporto kompetencijų agentūra (TKA)"
       },
       {
-        "title": "TKA – Skráðu þig sem notandi",
-        "description": "Skráðu þig sem rekstraraðili fjarstýrðra loftfara (10 € á ári, gildir í öllum ESB/EASA-löndum)"
+        "title": "TKA – Skráðu þig sem rekstraraðila",
+        "description": "Skráðu þig sem rekstraraðila fjarstýrðra loftfara (31 €, gildir í öllum ESB/EASA-löndum)"
       },
       {
         "title": "UTM Litháen – Loftrýmiskort",
         "description": "Opinbert UTM-loftrýmiskort sem sýnir drónasvæði og takmarkanir"
       },
       {
-        "title": "CAA – Yfirlit reglna",
+        "title": "TKA – Yfirlit reglna",
         "description": "Yfirlit yfir reglur um drónaflug í Litháen"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Air Navigation – Flugleiðsöguþjónusta",
+        "title": "Oro Navigacija – Flugleiðsöguþjónusta",
         "description": "Flugleiðsöguþjónusta Litháens og upplýsingar um loftrými"
       },
       {
-        "title": "CAA – Algengar spurningar um dróna",
+        "title": "TKA – Algengar spurningar um dróna",
         "description": "Algengar spurningar um drónareglur í Litháen"
       }
     ],

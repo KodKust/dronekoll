@@ -1,28 +1,32 @@
 {
   "meta": {
-    "sourceHash": "b05d24f015f2308210145943a215484aa1c49ad8f402e6dfeecc2171445caa3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "71ddedd6eadd4ef67c92064fd4d382b6fa87094ff6d0bff888fecfd333d022c5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne daugiau kaip 120 m virš žemės paviršiaus (EASA atviroji kategorija)",
-      "UAS operatoriaus registracija (nemokama) reikalinga dronams, sveriantiems 250 g ar daugiau arba turintiems kamerą.",
-      "Reikalinga A1/A3 internetinė mokymo programa — mažiausias amžius 16 metų",
-      "Kontroliuojamos oro erdvės zonose privaloma registruotis per DroneTower.",
-      "Warsaw: netoli vyriausybinių objektų reikalingas State Protection Service (SOP) leidimas.",
-      "Visada išlaikykite tiesioginį regėjimo ryšį su dronu (VLOS)",
+      "Atvirojoje kategorijoje didžiausias aukštis yra 120 m, matuojant atstumą iki artimiausio žemės paviršiaus taško — ne vien tiesiai žemyn, todėl prie šlaito gali būti atsižvelgiama ir į greta esantį žemės paviršių. Kai skraidoma ne toliau kaip 50 m nuo aukšto dirbtinio objekto (aukštesnio nei 105 m), už jį atsakingas subjektas gali paprašyti leidimo skristi iki 15 m virš objekto aukščio.",
+      "Turite registruotis kaip drono operatorius, jei dronas sveria 250 g ar daugiau (arba smūgio metu gali perduoti daugiau kaip 80 J energijos) — tai taikoma net žaislams. Jei dronas sveria mažiau nei 250 g, registracija vis tiek privaloma, kai jame yra jutiklis, galintis fiksuoti asmens duomenis, nebent jis laikomas žaislu pagal EU Toy Safety Directive. Piloto mokymo ir pažymėjimo reikalavimai yra atskiri ir priklauso nuo drono klasės bei pakategorės.",
+      "Nuo 2025 m. lapkričio 13 d. drono, kurio kilimo masė nuo 250 g iki 20 kg, operatorius privalo turėti privalomąjį civilinės atsakomybės (OC) draudimą (mažiausia draudimo suma — 50 000 SDR ekvivalentas vienam įvykiui) — taip pat ir pramoginiams skrydžiams.",
+      "Lenkijoje nuo 2025 m. vasario 27 d. mažiausias amžius atvirojoje kategorijoje yra 14 metų; nemokami internetiniai mokymai ir egzaminas galioja 5 metus. Jaunesni asmenys gali skraidyti tiesiogiai prižiūrimi ne jaunesnio kaip 14 metų piloto, turinčio reikiamą kompetenciją (išimtys: C0 žaislinis dronas A1 pakategorėje ir privačiai pagamintas lengvesnis nei 250 g dronas).",
+      "Kiekvienas drono skrydis Lenkijoje — nepriklausomai nuo masės ar vietos — prieš kilimą turi būti praneštas PAŻP per Check-In programėlėje DroneTower (Aviacijos įstatymo, Prawo lotnicze, 156a str. 2 d.). Kai kuriose vietose, įskaitant DRA-R CTR zonų aplink kontroliuojamus aerodromus dalis, taip pat reikia PAŻP patvirtintos misijos (Kreator Misji KSID svetainėje drony.gov.pl) — tada kylate tik gavę TWR skrydžių vadovo patvirtinimą DroneTower programėlėje.",
+      "DRA-R CTR zonos aplink kontroliuojamus aerodromus, atviroji kategorija: arčiau nei 1 km nuo aerodromo — skrydžiai draudžiami; 1–6 km — aukščiau nei 30 m AGL tik turint A2 kompetenciją (dronams > 0,9 kg — taip pat su patvirtinta misija), ne daugiau kaip 50 m AGL; toliau nei 6 km — ne daugiau kaip 100 m AGL. CTR zonoje reikia bent A1/A3 kompetencijos (taip pat ir dronams < 250 g). Rzeszów CTR (EPRZ) zonoje galioja kitos taisyklės. Tikslias ribas ir sąlygas tikrinkite DroneTower arba DroneMap.",
+      "Varšuva: miesto centrą dengia nuolatinė zona EPP21 WARSZAWA II — dronų skrydžiai tik gavus zonos valdytojo leidimą; sąlygas ir kontaktus tikrinkite DroneTower.",
+      "Atvirojoje kategorijoje droną turite laikyti savo regėjimo lauke be pagalbinių priemonių (akiniai ar kontaktiniai lęšiai tinka; žiūronai ar ekranas nelaikomi tinkamais) — arba skraidyti padedami stebėtojo, visą laiką palaikydami aiškų ir veiksmingą tarpusavio ryšį, kad kartu galėtumėte stebėti oro erdvę ir išvengti susidūrimų. „Follow-me“ režimas yra atskira išimtis: leidžiama skristi iki 50 m nuo piloto.",
       "Neskriskite virš žmonių susibūrimų. Neįtrauktiems asmenims taikomos taisyklės priklauso nuo subkategorijos, klasės žymos ir eksploatavimo sąlygų; patikrinkite oficialią lentelę.",
-      "DRA-RM zonos (žemiau 6 km, su aukščio ribojimais) ir DRA-RH zonos (virš 6 km) — tikrinkite drony.gov.pl",
+      "Ribojamosios DRA-R zonos skirstomos pagal tikimybę gauti leidimą: DRA-RH (didelė), DRA-RM (vidutinė), DRA-RL (maža) — o ne pagal aukštį (ULC pirmininko gairės Nr. 4/2025, Wytyczne nr 4/2025 Prezesa ULC). Prieš skrisdami ribojamojoje zonoje, patikrinkite drony.gov.pl.",
+      "C1, C2 ir C3 klasės dronai turi skraidyti su įjungtu ir atnaujintu nuotoliniu identifikavimu (Remote ID), transliuojančiu operatoriaus numerį; tai netaikoma C0/C4 klasėms ir dronams be klasės žymos, kurie pateikti rinkai iki 2024 m. sausio 1 d. arba pagaminti privačiai (A1 pakategorėje, jei lengvesni nei 250 g, arba A3 pakategorėje).",
       "Pagal EASA atvirosios kategorijos bazinius reikalavimus naktinis skrydis leidžiamas, jei naudojamas privalomas žalias mirksintis žibintas, išskyrus atvejus, kai galiojančios geografinės zonos ar nacionalinės taisyklės numato griežtesnes sąlygas.",
-      "Nacionaliniai parkai ir Natura 2000 teritorijos: galioja ribojimai"
+      "Nacionaliniuose parkuose gali būti nustatytos DRA-R geografinės zonos — skrydžiai tik gavus zonos valdytojo leidimą; prieš skrydį patikrinkite zonas DroneTower (tai taip pat taikoma Natura 2000 teritorijoms ir gamtiniams rezervatams)."
     ],
     "importantNotes": [
-      "Programėlė DroneTower reikalinga pranešimams apie skrydžius CTR zonose",
-      "Warsaw: netoli vyriausybinių objektų reikalingas SOP patvirtinimas.",
+      "Check-In programėlėje DroneTower privalomas prieš kiekvieną skrydį Lenkijoje — ne tik CTR zonose.",
+      "Varšuvoje yra AIP paskelbtos nuolatinės draudžiamosios zonos, įskaitant EPP9 WARSZAWA, EPP21 WARSZAWA II (miesto centras) ir EPP26 FRONTEX (500 m apskritimas aplink Frontex būstinę), taip pat kitos dronams skirtos geografinės zonos. Prieš skrydį patikrinkite jas ir jų sąlygas DroneTower arba DroneMap.",
       "Registracija nemokama ir galioja visose ES/EASA šalyse",
-      "Baudos iki 50 000 PLN už pažeidimus",
+      "Turistai iš ne ES / EASA šalių (pvz., iš JAV ar JK): užsiregistruokite kaip operatorius pirmoje ES šalyje, kurioje planuojate skraidyti — jei tai Lenkija, drony.gov.pl — ir nurodykite operatoriaus numerį ant drono. Kitoje ES / EASA šalyje atlikta registracija galioja Lenkijoje; registruotis du kartus negalima.",
+      "ULC administracinės nuobaudos: 4 000 PLN už kiekvieną atvirosios kategorijos taisyklių pažeidimą, 10 000 PLN už skrydį nesilaikant geografinės zonos sąlygų arba neužsiregistravus kaip operatoriui; skrydžių draudimų pažeidimas (pvz., dėl saugumo priežasčių) yra nusikaltimas, už kurį gresia laisvės atėmimas iki 5 metų.",
       "Fiksuojant atpažįstamus vaizdus taikomas GDPR."
     ],
     "primaryLinks": [
@@ -31,22 +35,22 @@
         "description": "Oficialios Civilinės aviacijos institucijos taisyklės ir ištekliai dėl dronų"
       },
       {
-        "title": "ULC — Operatoriaus registracija",
-        "description": "Nemokama registracija kaip UAS operatorius (galioja visose ES/EASA šalyse)"
+        "title": "drony.gov.pl — Operatorių registracija",
+        "description": "Nemokama UAS operatoriaus registracija, internetiniai mokymai ir egzaminas (registracija galioja visose ES / EASA šalyse)"
       },
       {
         "title": "PANSA — DroneMap",
-        "description": "Oficialus oro erdvės žemėlapis, rodantis CTR, ribojamas zonas ir informaciją tikruoju laiku"
+        "description": "Oficialus oro erdvės žemėlapis, rodantis CTR, draudžiamąsias zonas ir informaciją tikruoju laiku"
       },
       {
         "title": "DroneTower — Skrydžių pranešimų programėlė",
-        "description": "Privaloma programėlė pranešimams apie skrydžius kontroliuojamoje oro erdvėje"
+        "description": "Privaloma programėlė kiekvienam drono skrydžiui Lenkijoje pranešti (Check-In)"
       }
     ],
     "secondaryLinks": [
       {
         "title": "PANSA — NOTAM",
-        "description": "Aktyvūs NOTAM pranešimai ir laikini oro erdvės ribojimai"
+        "description": "PAŻP NOTAM biuras — NOTAM informacija apie FIR Warszawa; dabartinius dronų ribojimus tikrinkite DroneTower"
       },
       {
         "title": "ULC — Dažnai užduodami klausimai apie dronus",
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
     "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
     "linksSheetTitle": "Oro erdvė ir taisyklės — Lenkija",
-    "dronePilotCredentialName": "Drono piloto pažymėjimas"
+    "dronePilotCredentialName": "Drono piloto kvalifikacija"
   }
 }

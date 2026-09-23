@@ -1,33 +1,36 @@
 {
   "meta": {
-    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "17cf8ce1211fdb6fb07c1979f47d5e58",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
-    "disclaimerText": "Uçmadan önce her zaman resmî DGCA ve DigitalSky kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Hindistan, dronlara ilişkin tüm mevzuata uyum işlemleri için zorunlu bir dijital platform kullanır.",
+    "disclaimerText": "Uçmadan önce her zaman resmî DGCA (eGCA) ve DigitalSky kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir.",
     "sectionLabelRules": "TEMEL KURALLAR",
     "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
     "sectionLabelSecondary": "EK KAYNAKLAR",
     "linksSheetTitle": "Hava Sahası ve Kurallar — Hindistan",
     "dronePilotCredentialName": "Uzaktan Pilot Sertifikası",
     "keyRules": [
-      "DigitalSky hava sahasını Yeşil (anında otomatik izin), Sarı (kontrollü hava sahası, yaklaşık 15–30 dakikalık otomatik işlem — havalimanı çevresindeki yaklaşık 8–12 km'lik bant buna dahildir) ve Kırmızı (kısıtlı, manuel onay gerekir) bölgelere ayırır — belirli bir havalimanı yakınındaki kesin bölge sınırları bu genel düzenden farklı olabileceği için her uçuştan önce DigitalSky'ı mutlaka kontrol edin.",
+      "DigitalSky hava sahasını Yeşil (izin gerekmez, 120 m/400 ft'e kadar), Sarı (ilgili hava trafik kontrol makamından izin) ve Kırmızı (yalnızca Merkezî Hükûmet izniyle) olarak ayırır. Faal bir havalimanının sınırından 8–12 km mesafede Yeşil yalnızca 60 m'ye (200 ft) kadar geçerlidir; bunun üzeri Sarı'dır. Uçmadan önce her zaman DigitalSky haritasını kontrol edin.",
+      "Muaf olmadıkça (250 g'a kadar Nano dronlar veya yalnızca görüş hattı içinde eğitim, araştırma ya da hobi amacıyla kullanılan 25 kg'a kadar model dronlar), bir dron DGCA tip sertifikasına uygun olmalıdır. DGCA, tip sertifikası olmayan dronların kaydını ikinci bir duyuruya kadar geçici olarak askıya almıştır (yalnızca Hindistan yapımı Nano ve model dronlar doğrudan DGCA'ya başvurabilir) ve kayıtsız bir dron uçurulamaz.",
       "Nano hariç tüm kategoriler için sigorta zorunludur",
-      "Remote Pilot Certificate (RPC), Micro (250 g–2 kg) ve daha büyük dronların ticari kullanımında gereklidir; Small kategorisindeki (2–25 kg) ve daha büyük tüm dronlar için ise kullanım amacı ne olursa olsun zorunludur. Nano (<250 g), ticari kullanımda bile hiçbir zaman RPC gerektirmez.",
+      "Remote Pilot Certificate (RPC), Micro (>250 g–2 kg) ve daha büyük dronların ticari kullanımında gereklidir; Small kategorisindeki (2-25 kg) ve daha büyük tüm dronlar için ise kullanım amacı ne olursa olsun zorunludur. Nano (≤250 g), ticari kullanımda bile hiçbir zaman RPC gerektirmez.",
       "Her uçuş görüş hattı içinde kalmalıdır — DGCA tarafından özel EVLOS/BVLOS onayı verilmediği sürece dron, dürbün veya benzeri yardımcı araçlar olmadan her zaman çıplak gözle görülebilmelidir.",
       "İlgili makamdan DigitalSky üzerinden özel izin alınmadan Kırmızı bölgelerde uçmak kesinlikle yasaktır."
     ],
     "importantNotes": [
-      "Nano (<250 g) dışında tüm dronlar için DigitalSky kaydı zorunludur; Nano için ne kayıt ne de UIN gerekir. Kayıt gerektiren bir dronu kayıtsız uçurmak, drona el konulması riski doğurur.",
+      "Nano (≤250 g) dahil tüm dronlar uçmadan önce kaydedilmeli ve bir UIN almalıdır (DGCA'nın eGCA portalı üzerinden). Nano dronlar yalnızca tip sertifikasyonundan, Remote Pilot Certificate'tan ve üçüncü şahıs sigortasından muaftır. Kayıtsız bir dron uçurmak ceza ve el koyma riski taşır.",
+      "Ziyaretçiler: DGFT Notification 54/2022 uyarınca Hindistan'a dron ithal etmek yasaktır (≤250 g dahil tüm ağırlık sınıfları); hükûmet/Ar-Ge ya da savunma/güvenlik amaçlı kullanım için DGFT izni bulunan durumlar hariç. Kayıt için Hint pasaportu veya Hindistan hükûmetince verilmiş bir kimlik ile adres belgesi gerekir; bu nedenle bir ziyaretçinin dronu genellikle yasal olarak kaydedilemez veya uçurulamaz.",
       "Kırmızı bölgeler havalimanlarını, askeri alanları, sınırları ve hassas konumları içerir",
-      "Micro, Small ve Medium kategorilerindeki dronlar için sigorta zorunludur"
+      "Micro, Small ve Medium kategorilerindeki dronlar için sigorta zorunludur",
+      "Dronunuzun karıştığı her kaza 48 saat içinde DGCA'ya bildirilmelidir."
     ],
     "primaryLinks": [
       {
         "title": "DigitalSky — DGCA platformu",
-        "description": "Dron kaydı, uçuş izinleri ve bölge kontrolleri için zorunlu platform"
+        "description": "Uçuş izinleri ve bölge kontrolleri için zorunlu platform"
       },
       {
         "title": "DGCA — Dron mevzuatı",

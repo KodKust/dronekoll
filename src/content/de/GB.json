@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "efa2a30f33ab3aa81ade21c803c0ce10",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,21 @@
     "keyRules": [
       "Max. 120 m (400 ft) über Grund",
       "Flyer ID ab 100 g erforderlich – bestehe den Online-Test der CAA (40 Fragen, Bestehensgrenze: 75 %)",
+      "Operator ID erforderlich, wenn deine Drohne 250 g oder mehr wiegt oder mit Kamera 100 g oder mehr – £12,34 pro Jahr, der Eigentümer muss mindestens 18 sein; bringe die ID an jeder Drohne an.",
       "Halte jederzeit selbst direkten Sichtkontakt zur Drohne – ohne Hilfsmittel und in so geringer Entfernung, dass du ihre Ausrichtung erkennen und auf andere Luftfahrzeuge achten kannst. Eine feste gesetzliche Höchstentfernung in Metern gibt es nicht – wie weit du fliegen kannst, hängt von Sichtweite, Lichtverhältnissen und der Drohne selbst ab, nicht von einem festgelegten Radius.",
-      "Mindestens 50 m zu unbeteiligten Personen (30 m / 5 m gelten nur für Drohnen mit britischer Klassenkennzeichnung und A2-Zeugnis)",
-      "Flight Restriction Zones (FRZ) umgeben Flughäfen, ihre genaue Form und Größe unterscheiden sich jedoch von Flughafen zu Flughafen — einen allgemeingültigen \"5-km-Kreis\" gibt es nicht. Prüfe die konkrete FRZ immer in der offiziellen Drohnenkarte der CAA, bevor du in Flughafennähe fliegst.",
+      "Drohnen unter 250 g oder der Klasse UK0/UK1/C0 (C1 bis 31. Dez. 2027): Du darfst näher an unbeteiligte Personen heran und über sie fliegen, aber niemals über Menschenansammlungen. Andere Drohnen: Halte mindestens 50 m Abstand zu unbeteiligten Personen und fliege nie über sie; in der Standard-Unterkategorie Far from People (A3) musst du außerdem 150 m Abstand zu Wohn-, Erholungs-, Gewerbe- und Industriegebieten halten (einschl. Parks, Stränden und Sehenswürdigkeiten). Mit einem A2-Zeugnis: UK2 (C2 bis Ende 2027) 30 m bzw. 5 m im Langsamflugmodus; andere Drohnen unter 2 kg 50 m.",
+      "Flight Restriction Zones (FRZ) umgeben Flughäfen, ihre genaue Form und Größe unterscheiden sich jedoch von Flughafen zu Flughafen – einen allgemeingültigen „Kreis von 5 km“ gibt es nicht. Prüfe die konkrete FRZ immer in der offiziellen UAS-Beschränkungskarte von NATS, bevor du in Flughafennähe fliegst.",
+      "Nachtflüge: Ein grün blinkendes Licht muss eingeschaltet sein (rüste eines nach, wenn deine Drohne keines hat)",
       "Eine Haftpflichtversicherung (nach EG-Verordnung 785/2004) ist für gewerbliche, also nicht private Flüge sowie für jede Drohne ab 20 kg vorgeschrieben — bei leichteren Freizeitflügen freiwillig, aber empfohlen.",
       "Remote ID wird schrittweise eingeführt: ab Januar 2026 für UK-klassifizierte Drohnen (UK1/UK2/UK3/UK5/UK6); ab Januar 2028 vollständig verpflichtend",
       "Das Vereinigte Königreich gehört NICHT zur EASA – EU-Pilotenzeugnisse sind im Vereinigten Königreich nicht gültig",
-      "London hat drei dauerhafte Sperrgebiete — R157 (Hyde Park und königliche Residenzen), R158 (City of London, die Square Mile, eine kleine Zone von etwa 0,5 NM um das Finanzviertel) und R159 (Canary Wharf und Isle of Dogs) — in denen alle Drohnen unabhängig von der Größe verboten sind, sofern kein bei NATS genehmigter Non-Standard-Flight-Antrag vorliegt. Der Antrag muss mindestens 28 Tage im Voraus eingereicht werden. Das Parlament und Downing Street liegen in Westminster, außerhalb aller drei R-Zonen, und sind durch separate Mechanismen geschützt."
+      "In London gibt es dauerhafte Sperrgebiete, in denen alle Drohnen unabhängig von ihrer Größe verboten sind: R157 (Hyde Park – umfasst auch Westminster, das Parlament, die Downing Street und den Buckingham Palace), R158 (City of London) und R159 (Isle of Dogs/Canary Wharf). Für Flüge dort ist eine Enhanced Non-Standard Flight-Freigabe über NATS erforderlich – beantrage sie mindestens 21 Tage im Voraus (für Londoner Gebiete kann es länger dauern). Auch Windsor Castle (R156) und Windsor Great Park (R161) sind dauerhafte Flugverbotsgebiete für Drohnen."
     ],
     "importantNotes": [
-      "Die Registrierungsschwelle im Vereinigten Königreich liegt bei 100 g – strenger als der EU-Schwellenwert von 250 g",
       "EU-/EASA-Drohnenzeugnisse werden im Vereinigten Königreich seit dem Brexit NICHT anerkannt",
+      "Drohnen der EU-Klassen C0–C4 dürfen bis zum 31. Dezember 2027 als entsprechende UK-Klasse geflogen werden – die Regeln für UK Flyer ID/Operator ID gelten weiterhin je nach Gewicht und Kamera.",
       "Örtliche Gemeinden können das Fliegen auf ihren Flächen einschränken – informiere dich, bevor du in Parks fliegst",
-      "Rund um Gefängnisse gelten Flugverbotszonen von ~1 km – die Gefährdung von Luftfahrzeugen kann mit bis zu 5 Jahren Freiheitsstrafe geahndet werden"
+      "Gefängnisse in England und Wales haben Flugverbotszonen für Drohnen (genaue Form je nach Gefängnis – prüfe die Karte). Die Gefährdung eines Luftfahrzeugs kann mit bis zu 5 Jahren Freiheitsstrafe geahndet werden."
     ],
     "primaryLinks": [
       {
@@ -36,15 +38,15 @@
       },
       {
         "title": "CAA – Registrierung (Flyer ID und Operator ID)",
-        "description": "Hole dir deine Flyer ID (ab 100 g verpflichtend) und Operator ID (ab 250 g verpflichtend)"
+        "description": "Hole dir deine Flyer ID (ab 100 g verpflichtend) und Operator ID (ab 250 g verpflichtend oder ab 100 g, wenn die Drohne eine Kamera hat)"
       },
       {
         "title": "CAA – The Drone Code",
         "description": "Offizielle Regeln: wo du fliegen darfst, Höhengrenzen und Sicherheitsanforderungen"
       },
       {
-        "title": "Drone Assist – Luftraumkarte",
-        "description": "Kostenlose Flugplanungs-App mit Flugverbotszonen und Luftraumbeschränkungen"
+        "title": "Drone Assist – Luftraum-App eines Drittanbieters",
+        "description": "Inoffizielle App (Altitude Angel) – prüfe Beschränkungen immer in der offiziellen UAS-Beschränkungskarte von NATS"
       }
     ],
     "secondaryLinks": [
@@ -57,8 +59,8 @@
         "description": "Wann eine Drohnenversicherung erforderlich ist (verpflichtend für die nicht private Nutzung)"
       },
       {
-        "title": "CAA – Remote-ID-Richtlinie",
-        "description": "Remote-ID-Anforderungen im Vereinigten Königreich ab Januar 2026"
+        "title": "CAA – Remote ID (wann du sie aktivieren musst)",
+        "description": "Anforderungen an Remote ID im Vereinigten Königreich ab Januar 2026"
       }
     ]
   }

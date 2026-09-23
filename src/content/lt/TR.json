@@ -1,41 +1,43 @@
 {
   "meta": {
-    "sourceHash": "965aaa2f6c885d898cf7ee6ff9907d07afe1d10c3a57077ecae02dbc001de716",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ab41c1c6a873ddfc4cf87129700fea1004f13537f36d6d678dee51194176fb4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Didžiausias skrydžio aukštis: 120 metrų (400 ft) virš žemės paviršiaus",
-      "Jūsų bepilotis orlaivis visada turi likti jūsų regėjimo lauke (VLOS)",
-      "Skraidyti galima tik dieną — naktiniams skrydžiams reikalingas atskiras leidimas",
-      "Ne arčiau kaip 9 km nuo bet kurio oro uosto (įskaitant Istanbul IST ir Sabiha Gökçen SAW)",
-      "Nuo kitų žmonių turi būti išlaikomas ne mažesnis kaip 50 metrų horizontalus atstumas",
-      "Visi sunkesni nei 500 g bepiločiai orlaiviai turi būti registruoti adresu iha.shgm.gov.tr",
-      "Skraidyti draudžiama istorinėse vietose (Hagia Sophia, Topkapı, Sultanahmet) ir palei Bosphorus koridorių",
-      "Skraidyti virš karinių zonų, valstybinių pastatų ir žmonių sambūrių griežtai draudžiama",
-      "Užsienio pilotams naudoti sunkesnius nei 500 g bepiločius orlaivius galima tik pateikus prašymą diplomatiniais kanalais",
-      "FPV skrydžiai be atskiro leidimo draudžiami"
+      "Didžiausias skrydžio aukštis — 120 m (400 ft); P0/P1 skrydžių metu UAV turi būti laikomas tiesioginiame regėjimo lauke (VLOS) ir negali nutolti nuo piloto daugiau kaip 3 000 m. Aukščiau nei 120 m skristi galima tik turint P2 licenciją ir suderinus su atitinkamomis institucijomis.",
+      "Savo UAV visada turite laikyti regėjimo lauke, tiesioginiame vizualiniame kontakte be optinių ar elektroninių prietaisų pagalbos (SHT-İHA).",
+      "Mėgėjų (P0) skrydžiai gali būti vykdomi tik dieną; naktinės operacijos galimos turint P1 arba P2 licenciją ir tinkamą įrangą (SHT-İHA 15 str.). Pereinamuoju laikotarpiu (iki 2027 m. liepos 31 d.) naktiniams skrydžiams gaukite SHGM leidimą.",
+      "Prieš skrisdami netoli oro uostų, patikrinkite žemėlapį iha.shgm.gov.tr (vėliau – İHATTYS); skrydžiams visose vietose už žaliųjų zonų ribų reikia SHGM leidimo. Naujojoje SHT-İHA fiksuotas atstumas nenustatytas; kaip saugų mažiausią atstumą reikėtų išlaikyti ankstesnėje direktyvoje nustatytus 9 km (5 NM).",
+      "Skrydžiai virš minių laikomi didelės rizikos operacija; P0 ir P1 pilotams jie neleidžiami ir gali būti vykdomi tik turint P2 licenciją (SHT-İHA 6 str.). Naujojoje direktyvoje fiksuotas atstumas nenustatytas; kaip saugų minimumą rekomenduojama laikytis bent 50 m atstumo nuo žmonių ir statinių (ankstesnėje direktyvoje nustatyta vertė).",
+      "Naujoji SHT-İHA (2026): išskyrus žaislinio lygio paprastus UAV (Simple UAV), visi UAV naudotojai, įskaitant lengvesnių nei 500 g UAV naudotojus, turi registruotis İHATTYS; esamiems orlaiviams terminas — 2027 m. liepos 31 d. Kol İHATTYS neveikia, 500 g ir sunkesni UAV registruojami iha.shgm.gov.tr.",
+      "Pagal naująją SHT-İHA skrydžio teisė susieta su piloto licencija: mėgėjų P0 (mažiausias amžius 10 metų), komercinė P1 (18 metų), pažengusiųjų P2; paprastiems UAV (Simple UAV) licencijos nereikia. Pereinamuoju laikotarpiu (iki 2027 m. liepos 31 d.) esami İHA0/İHA1 pažymėjimai ir İHA2/İHA3 licencijos lieka galioti ir adaptacijos būdu konvertuojami į P0/P1/P2.",
+      "Nuotolinis identifikavimas (Remote ID) ir geografinis aptvėrimas (geofencing) privalomi visiems UAV, išskyrus paprastus UAV (Simple UAV); jūs atsakingi už tai, kad į UAV būtų įkelti naujausi ribojamų zonų duomenys (SHT-İHA 12, 23 str.; esamiems UAV pereinamasis laikotarpis iki 2027 m. liepos 31 d.).",
+      "Prieš skrisdami Stambulo istoriniame pusiasalyje (Hagia Sophia, Topkapı, Sultanahmet) ir aplink Bosforą, patikrinkite žemėlapį iha.shgm.gov.tr; skrydžiams visose vietose už žaliųjų zonų ribų reikia SHGM leidimo, o raudonosiose zonose leidimas išduodamas tik gavus teritoriją uždariusios institucijos pritarimą.",
+      "Skraidyti virš karinių zonų ir valstybinių pastatų griežtai draudžiama; skrydžiams virš tankiai apgyvendintų teritorijų reikia išankstinio SHGM leidimo.",
+      "Užsienio pilotai, naudojantys 500 gramų ar sunkesnius UAV, turi pateikti prašymą diplomatiniais kanalais ne vėliau kaip prieš 20 darbo dienų, naudodami formą FR.23 „İHA Uçuş İzin Talep Formu“ (UAV skrydžio leidimo prašymo forma).",
+      "FPV skrydžiams turi dalyvauti stebėtojas, nuolat matantis UAV, o tarp piloto ir stebėtojo turi būti palaikomas nuolatinis ryšys; FPV įranga turi veikti BTK leidžiamais dažniais (SHGM DUK). Naujoji SHT-İHA tiesioginį regėjimo lauką (VLOS) apibrėžia kaip tiesioginį vizualinį kontaktą be optinių / elektroninių prietaisų pagalbos — prieš skrisdami su FPV, pasitarkite su SHGM."
     ],
     "importantNotes": [
-      "⚠️ UŽSIENIO PILOTAMS: norėdami Turkijoje naudoti sunkesnį nei 500 gramų droną, turite per diplomatinius kanalus kreiptis į General Directorate of Civil Aviation (SHGM) likus bent 20 darbo dienų iki skrydžio, apsidrausti ir skraidyti prižiūrimi Turkijos piliečio, turinčio İHA-2 licenciją. Lengvesniems nei 500 g dronams (pavyzdžiui, DJI Mini, Flip ir kt.) šie reikalavimai netaikomi.",
-      "🗺️ ZONŲ SISTEMA: Turkija suskirstyta į žaliąsias (atviras), geltonąsias (reikalingas leidimas) ir raudonąsias (draudžiamos) zonas. Prieš skrydį būtinai patikrinkite zonos būseną adresu iha.shgm.gov.tr.",
-      "🏛️ ISTORINĖS IR TURISTINĖS VIETOS: be specialaus Ministry of Culture and Tourism leidimo draudžiama skraidyti virš Historic Peninsula of Istanbul (Sultanahmet, Hagia Sophia, Topkapı, Grand Bazaar), tam tikrų Cappadocia slėnių, Pamukkale, Ephesus ir kitų archeologinių vietų.",
-      "🛂 IMPORTAS IR MUITINĖ: jei į Turkiją vykstate su sunkesniais nei 500 g dronais, gali tekti juos deklaruoti muitinėje. Importui komerciniais tikslais taikoma atskira procedūra; Bosphorus, kariniams uostams ir pasienio regionams galioja papildomi ribojimai."
+      "🛂 UŽSIENIO PILOTAI — NAUJOJI SHT-İHA (2026 m. liepos 30 d.): iš užsienio atvežti UAV turi turėti SHGM atitikties programinės įrangos modulį; be jo orlaivio Turkijoje negalima nei užregistruoti, nei juo skraidyti. Užsienyje registruoti UAV turi būti suderinami su İHATTYS; užsienio licencijas vertina SHGM, o P1/P2 išduodama po skirtumų mokymo. UAV, įsigytiems iki 2026 m. liepos 30 d., atitikties laikotarpis trunka iki 2027 m. liepos 31 d. Kol İHATTYS neveikia, prašymai dėl 500 g ir sunkesnių UAV teikiami SHGM su forma FR.23 diplomatiniais kanalais ne vėliau kaip prieš 20 darbo dienų.",
+      "🗺️ ZONŲ SISTEMA: pagal naująją SHT-İHA (2026 m. liepos 30 d.) zonos bus skelbiamos İHATTYS žemėlapyje kaip žaliosios (leidimo nereikia), raudonosios (uždarytos atitinkamos institucijos; tik su tos institucijos pritarimu, SHGM leidimu ir NOTAM) ir oranžinės (skirtos kitiems). Kol İHATTYS neveikia, naudojamas iha.shgm.gov.tr žemėlapis (žalia / geltona / raudona). Abiejose sistemose skrydžiams visose vietose už žaliųjų zonų ribų reikia SHGM leidimo. Prieš skrydį visada patikrinkite žemėlapį.",
+      "🏛️ ISTORINĖS IR TURISTINĖS VIETOS: vaizdo, filmavimo ir fotografavimo darbams muziejuose ir su muziejais susijusiose vietose reikia Kultūros ir turizmo ministerijos leidimo; dėl UAV skrydžių apribojimų taip pat patikrinkite žemėlapį iha.shgm.gov.tr.",
+      "🛂 IŠ UŽSIENIO ATVEŽTI UAV: 500 g ir sunkesni UAV turi būti užregistruoti iha.shgm.gov.tr ne vėliau kaip per 3 dienas nuo atvežimo į Turkiją (Įstatymas Nr. 2920, 144 str.). Užsieniečiams, norintiems registruotis sportiniam / mėgėjiškam naudojimui, reikia Turkijos asmens kodo arba leidimo gyventi. Įvažiuojant muitinėje gali reikėti deklaracijos; importui komerciniais tikslais taikoma atskira procedūra. Kariniams uostams ir pasienio regionams taikomi papildomi apribojimai."
     ],
     "primaryLinks": [
       {
-        "title": "SHGM — Bepilotis orlaivis (oficiali svetainė)",
-        "description": "Oficialus Civilinės aviacijos generalinio direktorato bepiločių orlaivių puslapis: SHT-UAV direktyva, svorio klasės (UAV-0/1/2/3) ir naudojimo taisyklės"
+        "title": "SHGM — İHA Takip / İHATTYS (oficialus portalas)",
+        "description": "Oficialus Civilinės aviacijos generalinio direktorato UAV portalas (İHATTYS). Kol SHGM nepaskelbs, kad sistema pradėjo veikti, registracijos ir skrydžių leidimų procedūros atliekamos esamais būdais (iha.shgm.gov.tr ir SHGM formos)."
       },
       {
-        "title": "Bepiločių orlaivių registracijos sistema (privaloma nuo 500 g)",
-        "description": "Privaloma registracijos portalas visiems sunkesniems nei 500 gramų dronams. Reikalingas Turkijos asmens kodas; užsieniečiams taikoma forma FR-03"
+        "title": "UAV registracijos sistema (privaloma virš 500 g)",
+        "description": "Privalomas registracijos portalas visiems sunkesniems nei 500 gramų dronams. Reikalingas Turkijos asmens kodas; užsienio piliečiams taikoma forma FR-03"
       },
       {
-        "title": "Bepiločio orlaivio piloto registracijos prašymas (e. valdžia)",
-        "description": "Oficiali paslauga per e. valdžią pateikti UAV-1 ir aukštesnės klasės pilotų registracijos prašymus. Komercinei veiklai būtina piloto licencija."
+        "title": "UAV piloto registracijos paraiška (e-Devlet)",
+        "description": "Oficiali paslauga per e-Devlet (e. valdžios portalą), skirta İHA-1 ir aukštesnio lygio pilotų registracijos paraiškoms. Komercinėms operacijoms reikia piloto licencijos."
       },
       {
         "title": "Skrydžio leidimo prašymas (geltonosios/raudonosios zonos)",
@@ -44,23 +46,27 @@
     ],
     "secondaryLinks": [
       {
-        "title": "UAV sekimas — oficiali mobilioji programėlė (Android)",
-        "description": "Oficiali SHGM bepiločių orlaivių sekimo programėlė: oro erdvės zonos, skrydžio leidimai ir piloto licencijos tvarkymas"
+        "title": "İHA Takip — Oficiali mobilioji programėlė (Android)",
+        "description": "Oficiali SHGM programėlė İHA Takip / İHATTYS. Kol SHGM nepaskelbs, kad İHATTYS pradėjo veikti, registracijos ir skrydžių leidimų procedūros atliekamos esamais būdais (iha.shgm.gov.tr ir SHGM formos)."
+      },
+      {
+        "title": "İHATTYS — Oficiali mobilioji programėlė (iOS)",
+        "description": "Oficialios SHGM programėlės İHATTYS versija iOS; programėlėje atlikti veiksmai negalioja, kol SHGM nepaskelbs reikiamo pranešimo"
       },
       {
         "title": "SHGM — Įstaigos pagrindinis puslapis",
         "description": "Civilinės aviacijos generalinio direktorato pagrindinis puslapis: visi aviacijos reglamentai, pranešimai ir kontaktinė informacija"
       },
       {
-        "title": "SHT-UAV direktyva (reglamento tekstas)",
-        "description": "Civilinės aviacijos direktyva dėl bepiločių orlaivių (SHT-UAV): oficiali direktyva, sudaranti teisinį pagrindą visoms operacijoms"
+        "title": "SHT-İHA direktyva 2026 (teisės akto tekstas, PDF)",
+        "description": "Unmanned Aircraft Systems Directive (SHT-İHA), galiojanti nuo 2026 m. liepos 30 d.: oficialus direktyvos tekstas, kuris yra visų UAV operacijų teisinis pagrindas"
       }
     ],
-    "disclaimerText": "Prieš skrydį būtinai pasitikrinkite oficialius SHGM šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Bepiločių orlaivių naudojimą Turkijoje reglamentuoja SHT-UAV Directive; visi 500 g ir sunkesni įrenginiai turi būti registruoti SHGM registracijos sistemoje (iha.shgm.gov.tr).",
+    "disclaimerText": "Prieš skrydį būtinai pasitikrinkite oficialius SHGM šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Turkijoje bepiločių orlaivių (UAV) naudojimą reglamentuoja naujoji SHT-İHA (Unmanned Aircraft Systems Directive), galiojanti nuo 2026 m. liepos 30 d.; pereinamasis laikotarpis trunka iki 2027 m. liepos 31 d. Visi sunkesni nei 500 g įrenginiai turi būti registruoti SHGM registracijos sistemoje (iha.shgm.gov.tr).",
     "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
     "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
     "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
     "linksSheetTitle": "Oro erdvė ir taisyklės — Turkija",
-    "dronePilotCredentialName": "Bepiločio orlaivio piloto licencija"
+    "dronePilotCredentialName": "Bepiločio orlaivio piloto licencija (P0/P1/P2)"
   }
 }

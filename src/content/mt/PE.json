@@ -1,39 +1,42 @@
 {
   "meta": {
-    "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c7bb0eb5efb529d016ee7e14e38488c5a01fec2c25b6f85e5c65f17487613d71",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Altitudni massima: 152 m (500 ft) 'il fuq mill-art (AGL)",
-      "Distanza minima ta' 4 km mill-ajruporti u l-ajrudromi",
-      "Distanza minima ta' 30 m orizzontalment u 20 m vertikalment minn nies, bini jew oġġetti",
-      "Użu kummerċjali (kwalunkwe piż): reġistrazzjoni mal-MTC meħtieġa + awtorizzazzjoni speċifika",
-      "Żomm dejjem id-drone fil-linja tal-vista diretta (VLOS)",
-      "Titjir permess biss matul il-jum — it-titjiriet bil-lejl jeħtieġu awtorizzazzjoni speċifika mid-DGAC",
-      "Żoni urbani: hija meħtieġa approvazzjoni minn qabel mill-MTC; żoni rurali: ma hemm l-ebda restrizzjoni speċifika",
-      "Żoni ristretti: ajruporti, ajrudromi, faċilitajiet strateġiċi u żoni b'popolazzjoni għolja mingħajr permess",
-      "Distinzjoni legali: użu rikreattiv (għad-divertiment) vs. użu professjonali/kummerċjali (attivitajiet speċjalizzati)"
+      "Altitudni massima: 152 m (500 ft) 'il fuq mill-art (AGL) (NTC 001-2015, art. 8(e)(10)).",
+      "Distanza minima ta' 4 km mill-ajruporti u l-ajrudromi (NTC 001-2015, art. 8(e)(19)).",
+      "Żomm distanza minima ta' 30 m orizzontalment u 20 m vertikalment minn nies, bini jew ostakli matul il-fażijiet kollha tat-titjira (NTC 001-2015, art. 8(e)(9)).",
+      "Ittajjarx fuq awtostradi, toroq, mogħdijiet, pontijiet, infrastruttura tal-elettriku jew tat-telekomunikazzjoni (arbli, torrijiet, kejbils, antenni), passaġġi tal-ilma navigabbli, jew pipelines tal-idrokarburi; qrib tagħhom, ibqa' aktar minn 30 m orizzontalment mit-tarf tagħhom (NTC 001-2015, art. 8(e)(20)).",
+      "Użu rikreattiv: droni taħt it-2 kg huma esklużi mil-Liġi Nru 30740 u mir-Regolament tagħha, iżda l-limitazzjonijiet operattivi tan-NTC 001-2015 (altitudni, distanzi, żoni) japplikaw għall-użu ċivili kollu. Minn 2 kg, u għall-użu kollu mhux rikreattiv, id-drone irid jiġi rreġistrat mad-DGAC; in-nuqqas ta' reġistrazzjoni huwa punibbli b'multa (Liġi Nru 30740, arts. 3 u 4); il-proċedura hija awtomatika permezz tal-Virtual Filing Desk tal-MTC (Mesa de Partes Virtual).",
+      "Użu mhux rikreattiv (kwalunkwe piż): reġistrazzjoni tad-drone, akkreditazzjoni ta' pilota tal-RPAS (età ta' 18-il sena jew aktar, kors tal-RPAS f'CIAC jew f'klabb tat-titjir, u eżami tad-DGAC), assigurazzjoni tar-responsabbiltà ċivili ta' mill-inqas 10 UIT, u awtorizzazzjoni tad-DGAC (NTC 001-2015, para. 8(c)-(d)). Ir-reġistrazzjoni ilha awtomatika minn Jannar 2025.",
+      "Id-drone irid jibqa' fil-linja tal-vista diretta tal-pilota f'kull ħin.",
+      "It-titjir huwa permess biss bi nhar: in-NTC tipprojbixxi l-operat f'kundizzjonijiet ta' lejl (wara nżul ix-xemx jew qabel tlugħ ix-xemx) (NTC 001-2015, art. 8(e)(13)).",
+      "Żoni urbani u popolati: it-titjir mhuwiex permess. Id-DGAC tawtorizzah biss b'mod eċċezzjonali għal entitajiet pubbliċi, il-kuntratturi tagħhom, servizzi ddikjarati ta' interess pubbliku, il-pompieri, u l-INDECI, b'droni sa 6 kg mgħammra b'paraxut. Kull kapitali ta' dipartiment, provinċja jew distrett u kull lokalità b'aktar minn 1000 abitant titqies żona urbana. Żoni rurali: soġġetti għal-limitazzjonijiet ġenerali tal-istandard (NTC 001-2015, art. 8(e)(2) u (f)).",
+      "Żoni ristretti: ajruporti, ajrudromi, faċilitajiet strateġiċi u żoni b'densità għolja ta' popolazzjoni, sakemm ma jkunx hemm awtorizzazzjoni.",
+      "Distinzjoni legali: użu rikreattiv (għad-divertiment) vs. użu professjonali/kummerċjali (attivitajiet speċjalizzati), b'rekwiżiti differenti għal kull wieħed."
     ],
     "importantNotes": [
       "🏛️ MACHU PICCHU U SITI ARKEOLOĠIĊI: Il-Ministeru tal-Kultura jipprojbixxi l-użu tad-droni mingħajr permess speċjali f'Machu Picchu, il-Linji ta' Nazca, Chan Chan, Caral, Kuélap, u siti arkeoloġiċi oħra. Hija meħtieġa awtorizzazzjoni mill-Ministeru tal-Kultura FLIMKIEN ma' dik mill-MTC.",
       "🌳 ŻONI NATURALI PROTETTI U L-AMAŻONJA: SERNANP (is-Servizz Nazzjonali għaż-Żoni Naturali Protetti) jeħtieġ permess speċjali għad-droni f'parki bħal Manu, Tambopata u Huascarán. L-Amażonja u l-komunitajiet indiġeni għandhom restrizzjonijiet addizzjonali.",
-      "🏙️ ŻONI URBANI F'LIMA U CUSCO: Iċ-ċentru ta' Lima (Plaza Mayor, il-Palazz tal-Gvern), l-Ajruport Jorge Chávez (LIM), iċ-ċentru ta' Cusco u l-ajruport (CUZ), żoni militari u ambaxxati għandhom restrizzjonijiet permanenti. Iċ-ċentru storiku ta' Cusco jeħtieġ permess mill-Ministeru tal-Kultura."
+      "🏙️ ŻONI URBANI F'LIMA U CUSCO: Lima u Cusco huma żoni urbani, fejn it-titjir mhuwiex permess ħlief b'awtorizzazzjoni eċċezzjonali (NTC 001-2015, art. 8(e)(2) u (f)). Il-Palazz tal-Gvern, iż-żoni militari, l-ajruporti Jorge Chávez (LIM) u Cusco (CUZ), u ż-żoni ppubblikati fl-AIP-Perú jew fin-NOTAMs huma wkoll żoni ristretti (art. 8(e)(19) u (22)). Iċ-ċentru storiku ta' Cusco jeħtieġ ukoll opinjoni favorevoli mill-Ministeru tal-Kultura (Liġi Nru 30740, art. 2.5).",
+      "⚠️ PENALI: Il-Pulizija Nazzjonali tista' tintervjeni u tikkonfiska d-drone jekk jittajjar bi ksur tar-regolamenti; id-DGAC timponi penali, inklużi multi (D.S. 012-2026-MTC, arts. 7 u 73; Liġi Nru 30740, art. 4)."
     ],
     "primaryLinks": [
       {
-        "title": "MTC — Rekwiżiti biex Topera Drone",
-        "description": "Il-websajt uffiċjali tal-Ministeru tat-Trasport u l-Komunikazzjonijiet (MTC) li jelenka r-rekwiżiti biex topera d-droni. Jinkludi r-regolament NTC 001-2015 u l-proċeduri tad-DGAC."
+        "title": "MTC — Regolament tal-Liġi Nru 30740 (D.S. 012-2026-MTC)",
+        "description": "Regolament uffiċjali tal-MTC (29/05/2026). Il-kategoriji u l-liċenzji l-ġodda jidħlu fis-seħħ meta d-DGAC taġġorna n-NTC 001-2015; sa dak iż-żmien, tapplika n-NTC."
       },
       {
-        "title": "Bank Virtwali tal-Preżentazzjoni tal-MTC — Reġistrazzjoni tal-RPAS",
-        "description": "Il-pjattaforma online uffiċjali tal-MTC biex tirreġistra d-droni (RPAS) kompletament online. Agħżel \"Reġistrazzjoni ta' Sistemi ta' Inġenji tal-Ajru Pilotati mill-Bogħod (RPAS)\" u imla l-formola"
+        "title": "MTC Mesa de Partes Virtual (Virtual Filing Desk) — Reġistrazzjoni tal-RPAS",
+        "description": "Il-pjattaforma online uffiċjali tal-MTC għar-reġistrazzjoni tad-droni (RPAS) kompletament online. Agħżel \"Registro de Aeronaves Pilotadas a Distancia (RPAS)\" (Reġistrazzjoni ta' Inġenji tal-Ajru Ppilotati mill-Bogħod) u imla l-formola"
       },
       {
         "title": "MTC — Paġna Istituzzjonali",
-        "description": "Il-websajt prinċipali tal-Ministeru tat-Trasport u l-Komunikazzjonijiet. Aċċess għall-proċeduri, ir-regolamenti u s-servizzi tal-avjazzjoni pprovduti mid-DGAC"
+        "description": "Il-websajt prinċipali tal-Ministeru tat-Trasport u l-Komunikazzjonijiet. Aċċess għall-proċeduri, ir-regolamenti u s-servizzi tal-avjazzjoni tad-DGAC"
       },
       {
         "title": "DGAC — Kuntatt RPAS (Awtorizzazzjonijiet)",
@@ -42,23 +45,23 @@
     ],
     "secondaryLinks": [
       {
-        "title": "El Peruano — Permessi tad-Droni (Uffiċjali)",
-        "description": "Il-Gazzetta Uffiċjali El Peruano: Informazzjoni uffiċjali dwar il-permessi li teħtieġ biex topera d-droni, skont l-MTC u d-DGAC"
+        "title": "MTC — Akkreditazzjoni ta' Pilota tal-RPAS",
+        "description": "Paġna tal-MTC (aġġornata fil-11/08/2026): applikazzjoni, eżami online, u akkreditazzjoni elettronika ta' piloti/operaturi tal-RPAS (użu mhux rikreattiv)."
       },
       {
-        "title": "TV Perú — Gwida Uffiċjali għar-Rekwiżiti",
-        "description": "Kopertura uffiċjali mix-xandar pubbliku TV Perú b'informazzjoni aġġornata dwar ir-rekwiżiti biex topera d-droni, kif speċifikat mill-MTC"
+        "title": "MTC — Reġistrazzjoni Awtomatika tad-Droni (2025)",
+        "description": "Avviż tal-MTC (26/01/2025): ir-reġistrazzjoni tal-RPAS tieħu biss ftit minuti permezz tal-Virtual Filing Desk (Mesa de Partes Virtual)."
       },
       {
         "title": "Uffiċċji tal-MTC — Servizz Personali",
-        "description": "Il-Kwartieri Ġenerali tal-MTC: 1203 Jr. Zorritos, Cercado de Lima. Is-servizzi huma disponibbli wkoll fiċ-Ċentri reġjonali tas-Servizz għaċ-Ċittadini għal proċeduri RPAS personali."
+        "description": "Il-Kwartieri Ġenerali tal-MTC: Jr. Zorritos 1203, Cercado de Lima. Is-servizzi huma disponibbli wkoll fiċ-Ċentri reġjonali tas-Servizz għaċ-Ċittadini (Centros de Atención al Ciudadano) għal proċeduri tal-RPAS personalment."
       }
     ],
-    "disclaimerText": "Iċċekkja dejjem is-sorsi uffiċjali tad-DGAC tal-Ministeru tat-Trasport u l-Komunikazzjonijiet (MTC) qabel ittir. Din l-app hija għodda, mhux awtorità legali. Il-Perù jinforza l-Istandard Tekniku Komplementari (NTC) 001-2015 b'reġistrazzjoni simplifikata permezz tal-MTC Virtual Filing Desk.",
+    "disclaimerText": "Iċċekkja dejjem is-sorsi uffiċjali tad-DGAC tal-Ministeru tat-Trasport u l-Komunikazzjonijiet (MTC) qabel ittir. Din l-app hija għodda, mhux awtorità legali. Il-Perù jinforza l-Liġi Nru 30740, ir-Regolament tagħha (D.S. Nru 012-2026-MTC), u n-NTC 001-2015, b'reġistrazzjoni simplifikata permezz tal-Virtual Filing Desk tal-MTC (Mesa de Partes Virtual).",
     "sectionLabelRules": "REGOLI EWLENIN",
     "sectionLabelPrimary": "SORSI UFFIĊJALI",
     "sectionLabelSecondary": "RIŻORSI ADDIZZJONALI",
     "linksSheetTitle": "Spazju tal-Ajru u Regolamenti — Perù",
-    "dronePilotCredentialName": "Liċenzja ta' Pilota tal-RPAS"
+    "dronePilotCredentialName": "Akkreditazzjoni ta' Pilota/Operatur tal-RPAS"
   }
 }

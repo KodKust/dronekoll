@@ -1,34 +1,39 @@
 {
   "meta": {
-    "sourceHash": "cd8a26ec06fe6fce166e7bf3de181ffab5c36b7b3c6007a64f6e67ae3c10ef12",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "8e19b8ef08eacce878876a6b70061b85975b67e81f34fce0c591ea4492f2566c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Droni ≥250 g (0,55 lb): obvezna registracija pri IDAC prek Vuela Seguro (RAD-48)",
-      "Droni, težji od 2 kg (4,4 lb): poleg registracije je potrebno posebno dovoljenje IDAC",
-      "Najmanjša razdalja 9 km (5 navtičnih milj) od letališč in vzletišč",
+      "Obvezna registracija pri IDAC prek Vuela Seguro: RAD 48 (sprememba v veljavi od 21. 02. 2025) jo zahteva od 0,20 kg (0,44 lb); vodnik Vuela Seguro še vedno navaja 0,25 kg (0,55 lb) — če vaš dron tehta 200–249 g, preverite pri IDAC",
+      "Droni >250 g (0,55 lb): potrebna je licenca ali potrdilo pilota na daljavo IDAC, tudi za rekreativno uporabo (najmanj 18 let, RAD 107.23)",
+      "Rekreativni leti: IDAC (vodnik Vuela Seguro) zahteva vlogo za dovoljenje na obrazcu 1500-9 (licenca/potrdilo, registracija, zavarovanje, če je relevantno, in karta s koordinatami) vsaj 5 delovnih dni pred operacijo; predvideni čas obdelave 15 delovnih dni",
+      "Najmanjša razdalja 9 km (5 navtičnih milj) od letališč in vzletišč brez dovoljenja IDAC.",
+      "Zunaj zračnega prostora razreda G (npr. kontrolne cone letališč) sta potrebna predhodno dovoljenje IDAC in usklajevanje z ATC (RAD 107.57)",
       "Letenje je dovoljeno le podnevi — nočno letenje zahteva posebno dovoljenje IDAC",
       "Vedno ohranjajte neposreden vidni stik z dronom (VLOS)",
-      "OBVEZNO zavarovanje odgovornosti do tretjih oseb (RAD-107)",
-      "Cona prepovedi letenja: nacionalna palača, ministrstvo za obrambo, letalska baza San Isidro",
-      "CONA PREPOVEDI LETENJA: dominikanska naftna rafinerija, pomorska baza Las Calderas, vojaška poveljstva",
-      "Komercialno upravljanje: potrdilo pilota na daljavo + dodatno operativno dovoljenje",
-      "Ne ovirajte zračnega prometa v vzorcih prileta in odleta na letališčih"
+      "Največja višina 400 ft (122 m) nad tlemi (RAD 107.67); letenje nad nevključenimi ljudmi je brez predhodnega dovoljenja IDAC prepovedano (RAD 107.55)",
+      "Letenje iz vozila ali plovila v gibanju je brez dovoljenja IDAC prepovedano, razen nad redko poseljenimi območji (RAD 107.39)",
+      "OBVEZNO zavarovanje odgovornosti do tretjih oseb (RAD 48.19 in RAD 107.69; za rekreativno uporabo med 0,25 in 2 kg RAD 107.69 sprejema zapriseženo izjavo o solidarni odgovornosti (Declaración Jurada de Responsabilidad Solidaria))",
+      "Droni >2 kg (4,4 lb): zavarovanje odgovornosti je potrebno tudi za rekreativno uporabo (najmanj USD 2.000, RAD 107.69; RAD 48.19 nad 4,5 kg zahteva najmanj USD 5.000)",
+      "Letenje nad njimi je PREPOVEDANO: nacionalna palača, ministrstvo za obrambo, letalska baza San Isidro",
+      "Letenje nad njimi je PREPOVEDANO: dominikanska naftna rafinerija, pomorska baza Las Calderas, vojaška poveljniška mesta",
+      "Komercialno upravljanje: licenca pilota na daljavo IDAC + dovoljenje (obrazec 1500-9). Tuji državljani: le če jih najame dominikansko podjetje",
+      "Ne ovirajte zračnega prometa v pristajalnih/vzletnih krogih letališč"
     ],
     "importantNotes": [
       "📋 PRAVNI OKVIR: Operacije dronov ureja zakon o civilnem letalstvu 491-06 + RAD-107 (sistem majhnih brezpilotnih zrakoplovov) + RAD-48 (registracija in označevanje). Pristojni organ je IDAC (Dominikanski inštitut za civilno letalstvo).",
-      "✈️ TUJI TURISTI: Ta pravila veljajo za nerezidente. Droni ≥250 g morajo biti pred upravljanjem registrirani. Za rekreativno rabo dronov ≤250 g (DJI Mini, Flip): registracija ni potrebna, vendar veljajo vsa druga pravila. Priporočena je dokumentacija ob vstopu v državo.",
-      "🏖️ PUNTA CANA IN OBALNA TURISTIČNA OBMOČJA: Letališča PUJ (Punta Cana), SDQ (Las Américas) in STI (Santiago) imajo 9-kilometrsko izključitveno cono. Saona, Catalina, Bayahibe, Las Galeras: Številne plaže in letovišča imajo dodatne omejitve — pred letenjem preverite pri hotelu ali organizatorju potovanj.",
-      "🌳 ZAVAROVANA OBMOČJA: Nacionalni parki Los Haitises, del Este (Saona), Sierra de Bahoruco, Jaragua in Lago Enriquillo zahtevajo posebno dovoljenje Ministrstva za okolje. Zaliv Samaná (opazovanje kitov, jan.–mar.): veljajo dodatne omejitve, da ne bi motili prostoživečih živali.",
-      "🏛️ TRAJNO OMEJENA OBMOČJA: nacionalna palača (Santo Domingo), ministrstvo za obrambo, vse vojaške baze (San Isidro, Las Calderas) in dominikanska naftna rafinerija. Kolonialna cona (svetovna dediščina Unesca v Santo Domingu) ima začasne omejitve — preverite vnaprej."
+      "✈️ TUJI TURISTI: Ta pravila veljajo za nerezidente. Pred letenjem pri IDAC zaprosite za dovoljenje na obrazcu 1500-9 (najmanj 5 delovnih dni vnaprej; predvideni čas obdelave 15 delovnih dni) in priložite licenco/potrdilo, registracijo, zavarovanje, če je relevantno, ter karto s koordinatami. Če vaša država zaradi teže drona ne zahteva licence/registracije, priložite ta del svojih nacionalnih predpisov in kopijo osebnega dokumenta. Registracija: RAD 48 jo zahteva od 0,20 kg (vodnik Vuela Seguro navaja 0,25 kg); za drone s 200–249 g (npr. DJI Mini, Flip) preverite pri IDAC. Tudi če registracija ni potrebna, veljajo vsa druga pravila. Komercialna uporaba: le če vas najame dominikansko podjetje, ki zanjo zaprosi.",
+      "🏖️ PUNTA CANA IN OBALNA TURISTIČNA OBMOČJA: Letališča PUJ (Punta Cana), SDQ (Las Américas) in STI (Santiago) imajo izključitveno cono 9 km. Saona, Catalina, Bayahibe, Las Galeras: Številne plaže in letovišča imajo dodatne omejitve — pred letenjem preverite pri hotelu ali organizatorju potovanj.",
+      "🌳 ZAVAROVANA OBMOČJA: Pred letenjem v nacionalnih parkih (Los Haitises, del Este/Saona, Sierra de Bahoruco, Jaragua, Lago Enriquillo) preverite pri ministrstvu za okolje; morda bo potrebno dovoljenje. Spoštujte prostoživeče živali — kiti v Samaná (jan.–mar.).",
+      "🏛️ TRAJNE CONE PREPOVEDI LETENJA: nacionalna palača (Santo Domingo), ministrstvo za obrambo, vse vojaške baze (San Isidro, Las Calderas) in dominikanska naftna rafinerija. Kolonialna cona (svetovna dediščina Unesca v Santo Domingu) ima začasne omejitve — preverite vnaprej."
     ],
     "primaryLinks": [
       {
         "title": "IDAC — Vuela Seguro (uradni portal za drone)",
-        "description": "Uradna spletna stran Dominikanskega inštituta za civilno letalstvo za upravljavce dronov. Vključuje obsežen vodnik, predpisa RAD-107/48, zahteve za registracijo in omejena območja"
+        "description": "Uradna spletna stran Dominikanskega inštituta za civilno letalstvo za upravljavce dronov. Vključuje obsežen vodnik, predpise RAD-107/48, zahteve za registracijo in omejena območja"
       },
       {
         "title": "Zahteve in postopek registracije",
@@ -45,16 +50,16 @@
     ],
     "secondaryLinks": [
       {
-        "title": "IDAC — DTAC (oddelek za civilno letalstvo)",
-        "description": "Uradni e-poštni naslov za registracijo in povpraševanja: DTAC@idac.gov.do. Za upravljavce dronov, težjih od 2 kg, ali za komercialno rabo je priporočen neposreden stik."
+        "title": "IDAC — DTAC (oddelek za civilni zračni promet)",
+        "description": "Uradni e-poštni naslov za začetek registracijskih postopkov in povpraševanja: DTAC@idac.gov.do. Za komercialno uporabo je priporočljiv neposreden stik"
       },
       {
-        "title": "Zakon o civilnem letalstvu št. 491-06",
-        "description": "Splošni pravni okvir za vse dominikansko civilno letalstvo, vključno z brezpilotnimi zrakoplovi. Podlaga, na kateri temeljijo predpisi RAD"
+        "title": "Zakon o civilnem letalstvu 491-06",
+        "description": "Stran z zakoni IDAC: zakon o civilnem letalstvu 491-06 in zakon 17-24, ki ga spreminja. Splošni pravni okvir za celotno dominikansko civilno letalstvo, vključno z zrakoplovi brez posadke. Podlaga, na kateri so sprejeti predpisi RAD"
       },
       {
         "title": "Ministrstvo za okolje — zavarovana območja",
-        "description": "Za zavarovana območja, kot so nacionalni park Los Haitises, nacionalni park Del Este (Saona) in zaliv Samaná: pred upravljanjem dronov je potrebno posebno dovoljenje"
+        "description": "Za zavarovana območja, kot so nacionalni park Los Haitises, nacionalni park Del Este (Saona) in zaliv Samaná: pred upravljanjem dronov preverite pri ministrstvu; morda bo potrebno dovoljenje"
       }
     ],
     "disclaimerText": "Pred letenjem vedno preverite uradne vire IDAC. Ta aplikacija je orodje, ne pravni organ. Dominikanska republika uveljavlja zakon o civilnem letalstvu 491-06 skupaj s predpisoma RAD-107 (operacije sUAS) in RAD-48 (registracija). Uradna spletna stran je Vuela Seguro (idac.gob.do/drone).",

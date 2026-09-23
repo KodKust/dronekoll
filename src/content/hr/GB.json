@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "efa2a30f33ab3aa81ade21c803c0ce10",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,21 @@
     "keyRules": [
       "Najviše 120 m (400 ft) iznad razine tla",
       "Flyer ID potreban od 100 g — položite CAA online test (40 pitanja, prag prolaza 75 %)",
+      "Operator ID potreban je ako vaš dron teži 250 g ili više, ili 100 g ili više s kamerom — £12,34 godišnje, vlasnik mora imati najmanje 18 godina; ID označite na svakom dronu.",
       "Dron uvijek držite u vlastitom izravnom vidnom polju, bez pomagala, dovoljno blizu da možete odrediti u kojem je smjeru okrenut i pratiti druge zrakoplove. Ne postoji zakonom određena najveća udaljenost u metrima — koliko daleko smijete letjeti ovisi o vidljivosti, osvjetljenju i samom dronu, a ne o unaprijed zadanom radijusu.",
-      "Najmanje 50 m od osoba koje nisu uključene (30 m / 5 m primjenjuju se samo na dronove s britanskom klasnom oznakom uz A2 certifikat)",
-      "Zone ograničenja letenja (FRZ) okružuju zračne luke, ali njihov se točan oblik i veličina razlikuju od zračne luke do zračne luke — ne postoji univerzalni „krug od 5 km”. Prije leta u blizini zračne luke uvijek provjerite konkretni FRZ na službenoj CAA karti sigurnosti dronova.",
+      "Dronovi lakši od 250 g ili klase UK0/UK1/C0 (C1 do 31. prosinca 2027.): smijete letjeti bliže neuključenim osobama i iznad njih, ali nikad iznad mnoštva. Ostali dronovi: držite se najmanje 50 m od neuključenih osoba i nikad ne letite iznad njih; u standardnoj potkategoriji Far from People (A3) morate se držati i 150 m od stambenih, rekreacijskih, poslovnih i industrijskih područja (uklj. parkove, plaže i turističke atrakcije). S certifikatom A2: UK2 (C2 do kraja 2027.) 30 m ili 5 m u načinu rada niske brzine; ostali dronovi lakši od 2 kg 50 m.",
+      "Zone ograničenja letenja (FRZ) okružuju zračne luke, ali njihov se točan oblik i veličina razlikuju od zračne luke do zračne luke — ne postoji univerzalni „krug od 5 km”. Prije leta u blizini zračne luke uvijek provjerite konkretni FRZ na službenoj NATS-ovoj karti ograničenja za UAS.",
+      "Letenje noću: zeleno trepćuće svjetlo mora biti uključeno (ugradite ga ako ga vaš dron nema)",
       "Osiguranje od odgovornosti prema trećima (prema EC Regulation 785/2004) obavezno je za komercijalne i druge nerekreativne letove ili za svaki dron težak 20 kg ili više — za lakšu rekreativnu upotrebu nije obavezno, ali se preporučuje.",
       "Remote ID se postupno uvodi: od siječnja 2026. za dronove s britanskom klasnom oznakom (UK1/UK2/UK3/UK5/UK6); potpuno obavezan u siječnju 2028.",
       "Ujedinjeno Kraljevstvo NIJE dio EASA-e — EU certifikati pilota ne vrijede u Ujedinjenom Kraljevstvu",
-      "London ima tri trajno ograničena područja — R157 (Hyde Park/kraljevske rezidencije), R158 (City of London/Square Mile, mala zona od ~0.5 NM oko financijske četvrti) i R159 (Canary Wharf/Isle of Dogs) — svi su dronovi zabranjeni bez obzira na veličinu, osim uz odobrenje putem prijave Non-Standard Flight tijelu NATS, podnesene najmanje 28 dana unaprijed. Parliament i Downing Street nalaze se u četvrti Westminster, izvan sve tri R-zone, te su zaštićeni drugim mehanizmima."
+      "London ima trajna ograničena područja u kojima su svi dronovi zabranjeni bez obzira na veličinu: R157 (Hyde Park — obuhvaća i Westminster, Parlament, Downing Street i Buckinghamsku palaču), R158 (City of London) i R159 (Isle of Dogs/Canary Wharf). Za letenje ondje potrebno je odobrenje Enhanced Non-Standard Flight putem NATS-a — zahtjev podnesite najmanje 21 dan unaprijed (za londonska područja može trajati dulje). Windsor Castle (R156) i Windsor Great Park (R161) također su trajna područja zabrane letenja dronova."
     ],
     "importantNotes": [
-      "Britanski prag za registraciju iznosi 100 g — stroži od EU praga od 250 g",
       "EU/EASA certifikati za dronove NISU priznati u Ujedinjenom Kraljevstvu od Brexita",
+      "EU dronovi klase C (C0–C4) mogu se koristiti kao odgovarajuća UK klasa do 31. prosinca 2027. — pravila za UK Flyer ID/Operator ID i dalje se primjenjuju prema težini i kameri.",
       "Lokalna vijeća mogu ograničiti letenje na svom zemljištu — provjerite prije leta u parkovima",
-      "Zatvori imaju zone zabrane letenja od ~1 km — ugrožavanje zrakoplova nosi kaznu do 5 godina zatvora"
+      "Zatvori u Engleskoj i Walesu imaju zone zabrane letenja dronova (točan oblik ovisi o zatvoru — provjerite kartu). Ugrožavanje zrakoplova može značiti do 5 godina zatvora."
     ],
     "primaryLinks": [
       {
@@ -36,15 +38,15 @@
       },
       {
         "title": "CAA — Registracija (Flyer ID i Operator ID)",
-        "description": "Nabavite svoj Flyer ID (obavezan od 100 g) i Operator ID (obavezan od 250 g)"
+        "description": "Nabavite svoj Flyer ID (obavezan od 100 g) i Operator ID (obavezan od 250 g ili od 100 g ako dron ima kameru)"
       },
       {
         "title": "CAA — The Drone Code",
         "description": "Službena pravila: gdje smijete letjeti, ograničenja visine i sigurnosni zahtjevi"
       },
       {
-        "title": "Drone Assist — Karta zračnog prostora",
-        "description": "Besplatna aplikacija za planiranje leta koja prikazuje zone zabrane letenja i ograničenja zračnog prostora"
+        "title": "Drone Assist — aplikacija treće strane za zračni prostor",
+        "description": "Neslužbena aplikacija (Altitude Angel) — ograničenja uvijek potvrdite na službenoj NATS-ovoj karti ograničenja za UAS"
       }
     ],
     "secondaryLinks": [
@@ -57,8 +59,8 @@
         "description": "Kada je osiguranje drona potrebno (obavezno za nerekreativnu upotrebu)"
       },
       {
-        "title": "CAA — Politika Remote ID-a",
-        "description": "Britanski zahtjevi za Remote ID od siječnja 2026."
+        "title": "CAA — Remote ID (kada ga morate uključiti)",
+        "description": "UK zahtjevi za Remote ID od siječnja 2026."
       }
     ]
   }

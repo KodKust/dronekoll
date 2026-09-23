@@ -1,56 +1,60 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximaal 120 m boven de grond (EASA Open categorie)",
-      "Registratie als UAS-exploitant (kosteloos) voor drones die 250 g of meer wegen of zijn uitgerust met een camera",
-      "A1/A3-onlinetraining vereist — minimumleeftijd 16",
-      "Vluchten in de CTR en ATZ van luchthavens zijn alleen toegestaan na afstemming met de luchtverkeersleiding of de luchthavenexploitant",
-      "Vliegen boven snelwegen en grote wegen is beperkt — vermijd ze",
-      "Houd de drone altijd binnen direct zicht (VLOS)",
+      "In de open categorie is de maximale hoogte 120 m, gemeten als de afstand tot het dichtstbijzijnde punt van het aardoppervlak — niet simpelweg recht naar beneden, dus bij een helling kan ook de grond naast je meetellen. Binnen 50 m van een hoog kunstmatig obstakel (hoger dan 105 m) kan de voor dat obstakel verantwoordelijke entiteit toestemming vragen om tot 15 m boven de hoogte van het obstakel te vliegen.",
+      "Je moet je registreren als drone-exploitant als je drone 250 g of meer weegt (of bij een botsing meer dan 80 J kinetische energie kan overdragen) — dit geldt ook voor speelgoed. Onder 250 g is registratie nog steeds verplicht als de drone een sensor heeft die persoonsgegevens kan vastleggen, tenzij hij als speelgoed geldt volgens de EU-richtlijn inzake de veiligheid van speelgoed. Vereisten voor training/pilotenlicentie staan hier los van en hangen af van de klasse en subcategorie van de drone.",
+      "De minimumleeftijd om zelfstandig te vliegen in de open categorie is 16 jaar — de online A1/A3-training en het examen zijn 5 jaar geldig en worden in de hele EU erkend. Geen leeftijdsgrens: een drone van klasse C0 die speelgoed is, in subcategorie A1, of een zelfgebouwde drone onder 250 g; anders mogen jongere piloten alleen vliegen onder direct toezicht van een piloot die aan de leeftijds- en trainingseisen voldoet.",
+      "Toeristen: een registratie als exploitant en een A1/A3-certificaat uit een ander EU-/EASA-land zijn ook in Tsjechië geldig (je kunt je maar in één land registreren). Buiten de EU: registreer je in het eerste EU-/EASA-land waar je gaat vliegen (in Tsjechië bij ÚCL op dron.caa.gov.cz), en als je drone training vereist, volg dan een training volgens de EU-regels – certificaten uit landen buiten de EU worden niet erkend.",
+      "Een aansprakelijkheidsverzekering is in Tsjechië verplicht in subcategorie A2 en in A3 voor drones boven 4 kg (niet in A1) — controleer of je polis vluchten in Tsjechië dekt.",
+      "In CTR's en ATZ's van luchthavens mag je zonder coördinatie alleen vliegen tot de hoogte die het raster aangeeft (controleer dit in DroneMap). Hoger alleen na coördinatie met ŘLP en met de vlucht gemarkeerd in DroneMap; in de binnenste zone van een CTR moet de vlucht altijd in DroneMap worden gemarkeerd, en boven de rasterhoogte is ook coördinatie met de luchthavenexploitant vereist. Op militaire luchthavens (MCTR) gelden strengere voorwaarden. Op ongecontroleerde luchthavens boven de rasterhoogte alleen na coördinatie met AFIS of de luchthavenexploitant. Markeren in DroneMap geldt niet voor drones waarvoor geen registratie vereist is.",
+      "In dichtbevolkte gebieden (zone LKR316) moet het vluchtgebied vooraf in DroneMap (dronemap.gov.cz) worden gemarkeerd. De markering (hier en ook in CTR's en beschermde natuurgebieden) moet de hoogte, de tijd, het type en de gewichtscategorie van de drone en het registratienummer van de exploitant bevatten. Geldt niet voor drones waarvoor geen registratie als exploitant vereist is.",
+      "Nationale parken, beschermde landschapsgebieden (CHKO) en kleinschalige beschermde gebieden, bijv. natuurreservaten (zone LKR318): vluchten alleen op basis van een voorafgaande melding aan, of toestemming van, de bevoegde natuurbeschermingsautoriteit, en met het vluchtgebied gemarkeerd in DroneMap. Geldt niet voor drones waarvoor geen registratie als exploitant vereist is.",
+      "Wegen (zone LKR317): in de regel binnen 50 m van de hartlijn van een autosnelweg of een weg van klasse I alleen met toestemming van ŘSD; in de regel binnen 15 m van de hartlijn van wegen van klasse II en III alleen met toestemming van de eigenaar of beheerder van de weg (op vergelijkbare wijze voor lokale wegen buiten dichtbevolkte gebieden). Het vluchtgebied moet in DroneMap worden gemarkeerd – geldt niet voor drones waarvoor geen registratie als exploitant vereist is.",
+      "In de open categorie moet je de drone met het blote oog binnen direct zicht houden (bril/contactlenzen zijn prima; een verrekijker of scherm telt niet) — of een waarnemer inschakelen, met wie je voortdurend duidelijk en effectief communiceert, zodat jullie samen het luchtruim in de gaten kunnen houden en botsingen vermijden. De ‘follow-me’-modus is een aparte uitzondering, alleen in subcategorie A1, toegestaan binnen 50 m van de piloot.",
       "Vlieg niet over mensenmassa’s. De regels voor niet-betrokken personen zijn afhankelijk van de subcategorie, de klasse-aanduiding en de bedrijfsomstandigheden; raadpleeg de officiële matrix.",
       "Nachtvluchten zijn toegestaan volgens de EASA-basisnorm voor de open categorie wanneer het vereiste groene knipperlicht wordt gebruikt, tenzij een actuele geografische zone of nationale regel een strengere voorwaarde oplegt.",
-      "Boetes tot 5.000.000 CZK (≈ €185.000) voor overtredingen",
-      "Prague Castle en overheidsgebouwen: strikte no-flyzones"
+      "Boetes tot 3.000.000 CZK (≈ 120.000 €) voor overtredingen",
+      "De Praagse Burcht (Pražský hrad) en overheidsgebouwen: absolute no-flyzones"
     ],
     "importantNotes": [
-      "Vluchten binnen de CTR's en ATZ's van luchthavens vereisen afstemming met de luchtverkeersleiding of de luchthavenexploitant",
-      "Het overvliegen van snelwegen en grote wegen is beperkt in Tsjechië — plan je route om ze te vermijden",
-      "Boetes tot 5.000.000 CZK (≈ €185.000)",
+      "In CTR's en ATZ's van luchthavens zonder coördinatie alleen tot de hoogte die het raster aangeeft (controleer dit in DroneMap); hoger alleen na coördinatie (in een CTR met ŘLP, op ongecontroleerde luchthavens met AFIS of de luchthavenexploitant) en met de vlucht gemarkeerd in DroneMap; in de binnenste zone van een CTR is markeren altijd vereist",
+      "Wegen (zone LKR317): bij autosnelwegen en wegen van klasse I in de regel binnen 50 m van de hartlijn alleen met toestemming van ŘSD; bij wegen van klasse II en III in de regel binnen 15 m van de hartlijn alleen met toestemming van de eigenaar of beheerder van de weg",
+      "Boetes tot 3.000.000 CZK (≈ 120.000 €)",
       "Het gebied rond Prague Castle kent strikte no-flybeperkingen",
       "De GDPR is van toepassing op het verzamelen van identificeerbare beelden"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Droneregelgeving",
-        "description": "Officiële regels en hulpbronnen van de burgerluchtvaartautoriteit met betrekking tot drones"
+        "title": "ÚCL — Droneregelgeving",
+        "description": "Officiële regels en informatie van de burgerluchtvaartautoriteit over drones"
       },
       {
-        "title": "CAA — Exploitantenregistratie",
-        "description": "Kosteloze registratie als UAS-exploitant (geldig in alle EU-/EASA-landen)"
+        "title": "ÚCL — Registratie als exploitant",
+        "description": "Gratis registratie als UAS-exploitant (geldig in alle EU-/EASA-landen)"
       },
       {
         "title": "Dronemap.gov.cz — Luchtruimkaart",
         "description": "Officiële interactieve kaart met dronezones en luchtruimbeperkingen"
       },
       {
-        "title": "CAA — Overzicht van de regels",
+        "title": "ÚCL — Overzicht van de regels",
         "description": "Overzicht van de regels voor het vliegen met drones in Tsjechië"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Luchtverkeersleiding — NOTAM en luchtruim",
-        "description": "Tsjechische luchtverkeersleiding en luchtruiminformatie"
+        "title": "ŘLP — NOTAM en luchtruim",
+        "description": "Tsjechische luchtverkeersleiding en informatie over het luchtruim"
       },
       {
-        "title": "CAA — Veelgestelde vragen over drones",
-        "description": "Veelgestelde vragen over droneregelgeving in Tsjechië"
+        "title": "ÚCL — Veelgestelde vragen over drones",
+        "description": "Veelgestelde vragen over de droneregelgeving in Tsjechië"
       }
     ],
     "disclaimerText": "Raadpleeg vóór het vliegen altijd de officiële bronnen van de Civil Aviation Authority (ÚCL) en Dronemap.gov.cz. Deze app is een hulpmiddel — geen juridische autoriteit. Tsjechië volgt de EASA-regelgeving met nationale aanvullingen.",
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "OFFICIËLE BRONNEN",
     "sectionLabelSecondary": "AANVULLENDE HULPBRONNEN",
     "linksSheetTitle": "Luchtruim en regelgeving — Tsjechië",
-    "dronePilotCredentialName": "Dronepilotenlicentie"
+    "dronePilotCredentialName": "A1/A3-trainingscertificaat"
   }
 }

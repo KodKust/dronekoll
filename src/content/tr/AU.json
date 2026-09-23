@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "362edae763d5f971da0104f4b2bf8c97",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb2939eb8f1213b47dba87ec9440da8e",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,23 @@
     "keyRules": [
       "Yerden en fazla 120 m (AGL)",
       "Operasyona dahil olmayan kişilerden en az 30 m uzakta kalın — insanların üzerinden asla uçmayın",
-      "250 g'dan ağır dronlar kontrollü bir havalimanından en az 5,5 km uzakta kalmalıdır. 250 g'ın altındaki dronlar bu bölge içinde uçabilir; ancak yalnızca yerden en fazla 45 m yüksekte, havaalanı sınırlarının dışında ve diğer hava araçları için tehlike oluşturmadan.",
-      "250 g'dan hafif dronlar: kontrollü bir havalimanına 5,5 km'den daha yakınken azami irtifa 45 m",
+      "250 g'dan ağır dronlar: kontrollü bir havalimanının 5,5 km yakınında veya 7 km'ye kadar pist yaklaşma/kalkış rotasında uçmayın (7–8,5 km: azami 90 m). 250 g veya daha hafif dronlar 5,5 km içinde yerden 45 m'ye kadar uçabilir, ancak asla yaklaşma/kalkış rotalarının üzerinde veya içinde, havalimanı sınırı içinde ya da hava araçları için tehlike oluşturacakları yerlerde değil.",
+      "Kontrol kulesi olmayan bir havalimanının 5,5 km yakınında veya bir helikopter iniş alanının 1,4 km yakınında: mürettebatlı bir hava aracını veya helikopteri fark ederseniz kalkış yapmayın — rotasından uzaklaşın ve mümkün olan en kısa sürede iniş yapın",
+      "Acil durum operasyonlarının (polis, ambulans, arama kurtarma, yangın söndürme) veya kamu güvenliğini etkileyen alanların asla üzerinde ya da yakınında uçmayın",
       "Hobi amaçlı uçuş: yalnızca gündüz saatlerinde (sabah sivil alacakaranlığından akşam sivil alacakaranlığına kadar). Gece uçuşu RePL + ReOC izni gerektirir",
       "Her zaman görüş hattını (VLOS) koruyun",
+      "Aynı anda yalnızca bir dron uçurun",
       "Hobi amaçlı dronlar için kayıt gerekmez (25 kg'ın altındaki tüm ağırlıklar; standart kurallar geçerlidir)",
-      "2 kg+ ticari kullanım: Uzaktan Pilot Lisansı (RePL) gereklidir",
+      "İş amaçlı uçuş (250 g altı dahil her ağırlık): dronu kaydedin (500 g'a kadar ücretsiz; 500 g üzerindeki dron başına AUD 40) ve operatör akreditasyonuna veya Remote Pilot Licence (RePL) belgesine sahip olun. 2 kg üzerinde genellikle ayrıca RePL ve ReOC da gerekir. Yurt dışında kayıtlı dronlar Avustralya'da kaydedilemez — iş uçuşları için myCASA üzerinden CASA izni alın",
       "Ulusal park kuralları eyalete göre değişir — uçmadan önce kontrol edin (bazıları dronları tümüyle yasaklar)"
     ],
     "importantNotes": [
-      "Victoria, TÜM eyalet ve ulusal parklarda dronları yasaklar — izin olmadan istisna yoktur",
+      "Sidney Limanı ve çevresi bir 'dron yasak bölgesi'dir (alçak uçan helikopterler ve deniz uçakları) — birçok turistik yerde uçuş yasaktır; CASA onaylı bir uygulamayı kontrol edin",
+      "Victoria: Parks Victoria tarafından yönetilen arazilerde hobi amaçlı dronlara hiçbir şekilde izin verilmez; dronla çekim için Parks Victoria izni ve lisanslı, CASA sertifikalı bir operatör gerekir",
       "NSW ulusal parkları NPWS'den izin gerektirir — $3.300'e kadar para cezası",
       "Güney Avustralya, parklarda dronlara yalnızca bilimsel araştırma veya ticari film çekimi için izin verir",
-      "Yasa dışı operasyonlara yönelik cezalar 10.000 AUD'yi aşabilir"
+      "Uluṟu-Kata Tjuṯa ve Kakadu Ulusal Parklarında dronlar yasaktır (izinsiz uçuş EPBC Act kapsamında suçtur)",
+      "CASA ihlal başına 1.820 AUD'ye kadar ceza verebilir; mahkeme cezaları 18.200 AUD'ye kadar çıkabilir ve dronunuz hava araçlarını tehlikeye atarsa 2 yıla kadar hapis cezası söz konusudur"
     ],
     "primaryLinks": [
       {
@@ -36,7 +40,7 @@
       },
       {
         "title": "OpenSky — Hava sahası haritası",
-        "description": "Gerçek zamanlı kısıtlamalar ve TFR uyarıları içeren CASA onaylı hava sahası verileri"
+        "description": "Gerçek zamanlı kısıtlamalar içeren CASA onaylı hava sahası verileri"
       },
       {
         "title": "CASA — Kayıt",

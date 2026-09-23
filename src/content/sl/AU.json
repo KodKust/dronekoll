@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "362edae763d5f971da0104f4b2bf8c97",
-    "engine": "opus-5",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb2939eb8f1213b47dba87ec9440da8e",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,23 @@
     "keyRules": [
       "Največ 120 m nad tlemi (AGL)",
       "Najmanj 30 m od katere koli nevključene osebe — nikoli ne letite nad ljudmi",
-      "Droni nad 250 g morajo ostati vsaj 5,5 km stran od nadzorovanega letališča. Droni pod 250 g smejo leteti znotraj tega območja, a le do 45 m nad tlemi, zunaj meje letališča in brez nevarnosti za druga zrakoplova.",
-      "Droni pod 250 g: največja višina 45 m v 5,5 km od nadzorovanega letališča",
+      "Droni nad 250 g: ne letite znotraj 5,5 km od nadzorovanega letališča ali na priletni/odletni poti vzletno-pristajalne steze do 7 km (7–8,5 km: največ 90 m). Droni s 250 g ali manj lahko znotraj 5,5 km letijo do 45 m nad tlemi, vendar nikoli nad priletnimi/odletnimi potmi ali na njih, znotraj meje letališča ali tam, kjer bi ogrožali zrakoplove.",
+      "Znotraj 5,5 km od letališča brez kontrolnega stolpa ali znotraj 1,4 km od pristajališča helikopterjev: če opazite zrakoplov s posadko ali helikopter, ne vzletite — umaknite se z njegove poti in čim prej pristanite",
+      "Nikoli ne letite nad intervencijami (policija, reševalci, iskanje in reševanje, gašenje požarov) ali v njihovi bližini ali nad območji, ki vplivajo na javno varnost",
       "Rekreativno letenje: samo v dnevnih urah (od civilnega mraka do civilnega mraka). Nočno letenje zahteva dovoljenje RePL + ReOC",
       "Vedno ohranjajte vidno polje (VLOS)",
+      "Hkrati upravljajte le en dron",
       "Za rekreativne drone registracija ni potrebna (katera koli teža pod 25 kg, veljajo standardna pravila)",
-      "Komercialna uporaba od 2 kg: potrebna je licenca daljinskega pilota (RePL)",
+      "Letenje za delo (katera koli teža, tudi pod 250 g): registrirajte dron (brezplačno do 500 g; 40 AUD na dron nad 500 g) in imejte akreditacijo upravljavca ali licenco pilota na daljavo (RePL). Nad 2 kg sta praviloma potrebna tudi RePL in ReOC. Dronov, registriranih v tujini, ni mogoče registrirati v Avstraliji — za delovne lete pridobite dovoljenje CASA prek myCASA",
       "Pravila nacionalnih parkov se razlikujejo po zveznih državah — pred letenjem preverite (nekatere popolnoma prepovedujejo drone)"
     ],
     "importantNotes": [
-      "Viktorija prepoveduje drone v VSEH deželnih in nacionalnih parkih — brez izjem, razen z dovoljenjem",
+      "Sydney Harbour in okolica so »območje brez dronov« (nizko leteči helikopterji in hidroplani) — številne turistične točke so nedostopne; preverite v aplikaciji, ki jo je preverila CASA",
+      "Viktorija: rekreativni droni na zemljiščih, ki jih upravlja Parks Victoria, sploh niso dovoljeni; snemanje z dronom zahteva dovoljenje Parks Victoria in licenciranega upravljavca s certifikatom CASA",
       "Nacionalni parki NSW zahtevajo dovoljenje NPWS — globe do 3.300 $",
       "Južna Avstralija dovoljuje drone v parkih le za znanstveno raziskovanje ali komercialno snemanje",
-      "Kazni za nezakonito upravljanje lahko presežejo 10.000 AUD"
+      "Droni so prepovedani v nacionalnih parkih Uluṟu-Kata Tjuṯa in Kakadu (brez dovoljenja je to prekršek po zakonu EPBC Act)",
+      "CASA lahko izreče globo do 1.820 AUD za posamezen prekršek; sodne globe do 18.200 AUD in do 2 leti zapora, če vaš dron ogroža zrakoplove"
     ],
     "primaryLinks": [
       {
@@ -36,7 +40,7 @@
       },
       {
         "title": "OpenSky — karta zračnega prostora",
-        "description": "S strani CASA preverjeni podatki o zračnem prostoru z omejitvami v realnem času in opozorili TFR"
+        "description": "S strani CASA preverjeni podatki o zračnem prostoru z omejitvami v realnem času"
       },
       {
         "title": "CASA — registracija",

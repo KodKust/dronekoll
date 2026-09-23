@@ -1,34 +1,35 @@
 {
   "meta": {
-    "sourceHash": "8c56d8d6e542afc955c989bfd255bb6e85a0ed0ddb98d0c06385589c15af8287",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "1ccf0d60f2daab09a23a0c0e3bbd85b102fdef6468c55b05317299a6742f4265",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Altitude máxima: 120 m (400 ft) acima do nível do solo (AGL)",
-      "Distância mínima de 8 km de aeroportos e aeródromos",
-      "Uma distância mínima de 30 m de pessoas, animais e edifícios não envolvidos",
+      "Altitude máxima: 120 m (400 ft) acima do nível do solo, em espaço aéreo não controlado.",
+      "Distância mínima de 8 km de qualquer aeroporto ou aeródromo; voar mais perto exige aprovação da DGAC e a emissão de um NOTAM.",
+      "Voe apenas longe de zonas congestionadas de edifícios em cidades, vilas ou povoações e longe de ajuntamentos de pessoas ao ar livre. Só com aprovação específica da DGAC pode operar mais perto, e nunca a menos de 30 m desses edifícios ou ajuntamentos.",
       "TODOS os drones com peso inferior a 25 kg devem ter uma placa de identificação com o número de série, o nome do proprietário e o número de telefone",
-      "Drones com peso igual ou superior a 25 kg: registo obrigatório em drones.dgac.go.cr",
+      "Registo obrigatório em drones.dgac.go.cr: drones ≥25 kg e todo o uso não recreativo (comercial ou não comercial), independentemente do peso",
       "Uso recreativo <25 kg: NÃO exige registo formal se seguir as regras básicas",
       "Mantenha sempre o drone dentro da linha de vista direta (VLOS)",
       "Só é permitido voar durante o dia e com bom tempo — o voo noturno exige autorização",
+      "Uso não recreativo e não comercial (incluindo drones <25 kg): certificado de competência da DGAC (mín. 18 anos), seguro de responsabilidade civil e registo em drones.dgac.go.cr",
       "Uso comercial: licença de RPAS + certificado do Conselho Técnico + certificado operacional da DGAC",
       "É proibido sobrevoar propriedade privada sem autorização, prisões, zonas restritas e aeroportos"
     ],
     "importantNotes": [
       "🏷️ PLACA DE IDENTIFICAÇÃO OBRIGATÓRIA: embora os drones com peso inferior a 25 kg para uso recreativo NÃO exijam registo formal, TODOS os drones devem ter uma placa de identificação com um número de série, o nome do proprietário e um número de telefone de contacto. Este é o requisito mais rigoroso em matéria de identificação física.",
-      "✈️ TURISTAS ESTRANGEIROS: as regras aplicam-se aos não residentes. Para uso recreativo: placa de identificação + cumprimento das regras básicas (não voar em aeroportos nem sobre propriedades privadas ou prisões) — não é necessário registo formal. A alfândega pode exigir uma declaração do drone à entrada no país.",
-      "🌳 PARQUES NACIONAIS E SINAC: o Sistema Nacional de Áreas de Conservação (SINAC) exige uma autorização especial para drones em parques como Manuel Antonio, Corcovado, Tortuguero, Vulcão Arenal, Monteverde e Vulcão Poás. A biodiversidade e a fauna estão protegidas — consulte cada parque ANTES de viajar.",
-      "🏖️ ZONAS TURÍSTICAS E AEROPORTOS: SJO (Juan Santamaría, Alajuela), LIR (Liberia, Guanacaste), o Palácio Presidencial, as embaixadas e as zonas militares têm restrições permanentes. Praias turísticas como Tamarindo, Manuel Antonio e Jacó têm frequentemente restrições municipais adicionais.",
-      "💰 USO COMERCIAL E SANÇÕES: os voos comerciais sem licença de RPAS ou sem certificado do Conselho Técnico podem resultar em multas, apreensão do equipamento e proibição de operar. Para trabalhos pagos de fotografia/vídeo: obtenha a licença antes de iniciar a atividade."
+      "✈️ TURISTAS ESTRANGEIROS: as regras aplicam-se aos não residentes. Para uso recreativo: placa de identificação + cumprimento das regras básicas (não voar em aeroportos nem sobre propriedades privadas ou prisões) — não é necessário registo formal. A alfândega pode exigir uma declaração do drone à entrada no país. Pilotos estrangeiros para fins comerciais: a DGAC pode validar uma licença RPAS estrangeira (a licença e o certificado médico devem estar válidos) por um máximo de 3 meses, renovável apenas uma vez por 3 meses em casos justificados. A validação não substitui os restantes requisitos para uso comercial.",
+      "🌳 PARQUES NACIONAIS E SINAC: os drones não são permitidos no Parque Nacional Manuel Antonio (SINAC). Outras áreas protegidas podem proibi-los ou restringi-los — informe-se junto de cada área ANTES da sua viagem.",
+      "🏖️ ZONAS RESTRITAS: sem autorização da DGAC, é proibido voar nas zonas proibidas ou restritas publicadas no AIP e a menos de 8 km de aeroportos como SJO e LIR. Verifique também possíveis restrições municipais.",
+      "💰 USO COMERCIAL E SANÇÕES: os voos comerciais sem licença RPAS ou sem certificado do Conselho Técnico podem resultar em multas, apreensão do equipamento e proibição de operar. Para trabalhos pagos de fotografia/vídeo: obtenha a licença antes de iniciar a atividade."
     ],
     "primaryLinks": [
       {
         "title": "DGAC — Registo de Drones (portal dedicado)",
-        "description": "Site oficial da Direção-Geral de Aviação Civil para registar drones e obter um número de registo. Plataforma especificamente para RPAS"
+        "description": "Portal oficial dedicado da Direção-Geral de Aviação Civil para registar drones e obter um número de registo. Plataforma especificamente para RPAS"
       },
       {
         "title": "DGAC — Página Inicial",
@@ -57,7 +58,7 @@
         "description": "Site oficial de turismo da Costa Rica. Útil para conhecer as zonas turísticas com restrições especiais a drones"
       }
     ],
-    "disclaimerText": "Verifique sempre as fontes oficiais da DGAC antes de voar. Esta aplicação é uma ferramenta, não uma autoridade legal. A Costa Rica aplica o RAC OPS RPAS e a Diretiva Operacional da DGAC. Todos os drones devem ter uma placa de identificação; o uso comercial exige um certificado do Conselho Técnico de Aviação Civil.",
+    "disclaimerText": "Verifique sempre as fontes oficiais da DGAC antes de voar. Esta aplicação é uma ferramenta, não uma autoridade legal. A Costa Rica aplica o RAC-RPAS (Decreto Ejecutivo N° 44615-MOPT, em vigor desde 27/09/2024). Todos os drones devem ter uma placa de identificação; o uso comercial exige um certificado do Conselho Técnico de Aviação Civil.",
     "sectionLabelRules": "REGRAS PRINCIPAIS",
     "sectionLabelPrimary": "FONTES OFICIAIS",
     "sectionLabelSecondary": "RECURSOS ADICIONAIS",

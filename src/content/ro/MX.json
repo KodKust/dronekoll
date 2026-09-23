@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "17d852a01e48f71061854c0a7b614ed78721768d3d73eccf5ccdda3a556d264f",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "da2427b1326315670ad00c40760c98fe7dcb581d5abb3f16d2aa07daea8f6c28",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Înălțime maximă: 120 m (400 ft) deasupra nivelului solului",
-      "Distanță minimă de 9,2 km față de aeroporturile controlate",
-      "Distanță minimă de 3,7 km față de aerodromurile necontrolate",
+      "Distanță minimă de 9,2 km (5 NM) față de orice aerodrom, controlat sau necontrolat (NOM-107-SCT3-2019, 4.10.1).",
+      "Între 9,2 km (5 NM) și 18,5 km (10 NM) de aerodromurile enumerate în NOM-107 (Anexa I): înălțime maximă 100 m (328 ft).",
       "Distanță minimă de 900 m față de heliporturi",
+      "Zborul este interzis în zonele interzise, restricționate sau periculoase din AIP (ENR 5.1) și în coridoarele pentru elicoptere; verifică NOTAM-urile înainte de fiecare zbor.",
       "Menține întotdeauna drona în raza vizuală directă (VLOS), la cel mult 457 m de operator",
-      "Drone cu o greutate de 250 g sau mai mult: înregistrare obligatorie la AFAC (formularul din Anexa K)",
+      "Drone de peste 250 g: înregistrare obligatorie la AFAC înainte de zbor (formularul din Anexa K)",
       "Drone cu o greutate de sub 250 g: scutite de înregistrare, dar se aplică toate celelalte reguli",
-      "Categorii de greutate: Micro (≤2 kg), Ușoară (2–25 kg), Grea (>25 kg)",
+      "Categorii de greutate: Micro (≤2 kg), Mică (>2–25 kg), Mare (>25 kg)",
+      "Dronele recreative de peste 2 kg: pot zbura doar în cadrul cluburilor de aeromodelism autorizate de AFAC.",
       "Zborurile de noapte necesită o autorizație specifică din partea AFAC",
-      "Utilizarea comercială necesită o autorizare suplimentară, în funcție de categoria de greutate"
+      "Uz privat necomercial sau comercial: asigurarea valabilă de răspundere civilă este obligatorie; dronele Micro (≤2 kg) necesită în plus o autorizație specială pentru spațiul aerian controlat; dronele Mici și Mari necesită o autorizație de operare de la AFAC."
     ],
     "importantNotes": [
-      "⚠️ PILOȚI STRĂINI: NOM-107 interzice operarea dronelor înregistrate în străinătate sau de către cetățeni străini, cu excepția cazului în care există un acord bilateral între Mexic și țara de origine. Turiști: verificați înainte de a călători.",
-      "Sancțiunile pentru operațiuni ilegale pot ajunge la o amendă de 80.000 MXN sau la pedeapsa cu închisoarea",
+      "PILOȚI STRĂINI: NOM-107-SCT3-2019 interzice operarea dronelor cu înmatriculare străină sau pilotate de cetățeni străini, cu excepția cazului în care există un acord bilateral între Mexic și țara de origine — în prezent nu se cunoaște niciun astfel de acord în vigoare.",
+      "Pentru a importa în Mexic drone Micro de peste 250 g și drone Mici, acestea trebuie să aibă producător și model, număr de serie, manual de utilizare și un software care limitează automat distanța și înălțimea (NOM-107, 10.1).",
+      "Nerespectarea NOM-107 poate fi sancționată de AFAC conform Ley de Aviación Civil; folosirea dronelor pentru a comite infracțiuni (de ex. aruncarea de explozibili sau atacarea persoanelor) se pedepsește cu închisoarea (Código Penal Federal, art. 163 Bis–Quáter).",
       "Parcurile naționale și siturile arheologice (INAH) interzic în general dronele fără o autorizație specială",
       "Porturile de agrement și zonele de coastă sunt adesea supuse unor restricții — verifică la autoritățile locale",
       "Registrul AFAC are un termen de răspuns de până la 10 zile lucrătoare — planifică din timp"
@@ -37,16 +40,12 @@
       {
         "title": "NOM-107-SCT3-2019 — standardul oficial",
         "description": "Standardul oficial mexican care stabilește cerințele pentru operarea unui sistem de aeronavă pilotată la distanță"
-      },
-      {
-        "title": "Circulara CO AV-23/10 R4",
-        "description": "Circulară obligatorie care stabilește cerințele tehnice și operaționale detaliate pentru drone"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "ASA — Aeroporturi și servicii auxiliare",
-        "description": "Informații despre aeroporturile federale mexicane pentru a verifica zonele restricționate"
+        "title": "AFAC — Baza de date a aerodromurilor și heliporturilor",
+        "description": "Lista oficială actualizată a aerodromurilor și heliporturilor, pentru verificarea distanțelor minime NOM-107"
       },
       {
         "title": "SICT — Aviație civilă",
@@ -62,6 +61,6 @@
     "sectionLabelPrimary": "SURSE OFICIALE",
     "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
     "linksSheetTitle": "Spațiu aerian și reglementări — Mexic",
-    "dronePilotCredentialName": "Licență de pilot la distanță"
+    "dronePilotCredentialName": "Autorizație de pilot RPAS"
   }
 }

@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "a1e69adb928a29b23e35f851c7f189c239b934c116c4c5c3bb8ff4997785f369",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "8d3736758eabe09f115c22b261f62052d660fd07794af65c1d39b8fa76ca192b",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Altitude maximale : 120 m au-dessus du sol (catégorie ouverte EASA)",
-      "Enregistrement comme exploitant d'UAS (15 € / 3 ans) si le drone pèse 250 g ou plus ou dispose d'une caméra",
-      "La formation en ligne A1/A3 est requise — âge minimum 16 ans",
+      "Dans la catégorie ouverte, la hauteur maximale est de 120 m, mesurée comme la distance jusqu'au point le plus proche de la surface terrestre — pas simplement à la verticale : près d'une pente, le terrain à côté de vous peut donc aussi compter. À moins de 50 m d'un obstacle artificiel élevé (de plus de 105 m), l'entité responsable de l'obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
+      "Vous devez vous enregistrer comme exploitant de drone si votre drone pèse 250 g ou plus (ou pourrait transmettre plus de 80 J d'énergie cinétique en cas d'impact) — cela vaut même pour les jouets. En dessous de 250 g, l'enregistrement reste obligatoire si le drone possède un capteur capable de collecter des données personnelles, sauf s'il est considéré comme un jouet au sens de la directive européenne relative à la sécurité des jouets. Les exigences de formation/de certificat de télépilote sont distinctes et dépendent de la classe et de la sous-catégorie du drone.",
+      "Marquez de manière indélébile votre numéro d'enregistrement d'exploitant sur chacun de vos drones et chargez-le dans le système d'identification à distance (s'il en est équipé). L'enregistrement comme exploitant est possible à partir de 18 ans — pour les plus jeunes, une personne responsable (p. ex. un parent ou un tuteur) peut effectuer l'enregistrement.",
+      "Les drones mis sur le marché après le 01/01/2024 sans marquage de classe (C0–C6) ne peuvent pas voler dans la catégorie ouverte — uniquement dans la catégorie spécifique, avec une autorisation d'exploitation.",
+      "L'âge minimum pour voler de manière autonome dans la catégorie ouverte est de 16 ans — la formation en ligne A1/A3 (9 modules, examen de 40 questions, coût 15 euros) est valable 5 ans et reconnue dans toute l'UE. En dessous de cet âge, voler n'est autorisé que sous la supervision directe d'un télépilote certifié.",
+      "Visiteurs de pays hors UE : si Chypre est le premier pays de l'UE où vous volez, l'enregistrement comme exploitant (lorsqu'il est requis) se fait auprès de la DCA de Chypre (15 €, âge minimum 18 ans) ; si vous avez déjà volé dans un autre pays de l'UE, vous ne vous enregistrez pas à nouveau. Pour les sous-catégories A1/A3, vous avez besoin d'un certificat de télépilote A1/A3 délivré par un pays de l'UE (formation et examen en ligne, 15 €) ; pour un drone C0 (<250 g), l'examen n'est pas obligatoire.",
       "Les vols de nuit sont autorisés dans le cadre des exigences de base de l'EASA pour la catégorie ouverte lorsque le feu vert clignotant requis est utilisé, sauf si une zone géographique applicable ou une règle nationale impose une condition plus stricte.",
-      "Zone de sécurité de 8 km autour des aéroports",
-      "Distance minimale de 1 km des zones résidentielles (s'applique principalement à la catégorie A3 — exigences plus strictes pour les drones plus lourds)",
-      "Gardez toujours le drone en vue directe (VLOS)",
+      "Aéroports de Larnaca et de Paphos : en zone A (rouge), tous les vols de drones sont interdits ; en zone B (jaune), uniquement avec l'autorisation de la DCA (demande au moins 10 jours ouvrables à l'avance, assurance responsabilité civile de 1 000 000 €). La DCA demande aux visiteurs de se tenir à au moins 8 km des aéroports et des héliports.",
+      "Distance minimale de 150 m des zones résidentielles, commerciales ou industrielles (catégorie A3)",
+      "Dans la catégorie ouverte, vous devez garder le drone en vue directe, à l'œil nu (lunettes/lentilles de contact autorisées ; jumelles ou écran ne comptent pas) — ou avec l'aide d'un observateur, en communiquant ensemble de manière claire et efficace à tout moment, afin de surveiller ensemble l'espace aérien et d'éviter les collisions. Le mode « Follow-me » est une exception distincte, autorisée jusqu'à 50 m du télépilote.",
       "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
+      "Bases britanniques (Akrotiri, Dhekelia) : administration distincte avec sa propre législation sur les drones, son propre formulaire d'enregistrement et ses cartes des zones désignées — consultez sbaadministration.org avant d'y voler.",
       "Chypre du Nord (TRNC) : juridiction distincte — règles différentes",
-      "UN No-Fly Zone : interdiction totale de vol"
+      "Zone tampon de l'ONU (Dead Zone) : aucune activité sans approbation préalable de l'UNFICYP — n'y volez pas."
     ],
     "importantNotes": [
       "Les vols de nuit sont autorisés dans le cadre des exigences de base de l'EASA pour la catégorie ouverte lorsque le feu vert clignotant requis est utilisé, sauf si une zone géographique applicable ou une règle nationale impose une condition plus stricte.",
-      "L'obligation de rester à 1 km des zones résidentielles est très restrictive sur une petite île",
-      "Les zones de sécurité de 8 kilomètres autour des aéroports couvrent une grande partie de l'île",
+      "Autour des aéroports de Larnaca et de Paphos : en zone A (rouge), les vols de drones sont interdits ; en zone B (jaune), uniquement avec l'autorisation de la DCA.",
+      "La carte des géozones préinstallée sur la plupart des drones DJI n'est pas la bonne pour Chypre ; pour les drones de classe C1, C2, C3, C5, C6, chargez le fichier officiel des géozones de la DCA (drones.gov.cy).",
       "Chypre du Nord (TRNC) est une juridiction distincte avec des règles différentes",
-      "La zone appelée « UN Dead Zone » est une zone d'interdiction de vol stricte"
+      "Zone tampon de l'ONU (Dead Zone) : aucune activité sans approbation préalable de l'UNFICYP — n'y volez pas."
     ],
     "primaryLinks": [
       {
@@ -32,7 +36,7 @@
       },
       {
         "title": "DCAD — Enregistrement d'exploitant",
-        "description": "Enregistrement comme télépilote d'UAS (15 € / 3 ans, valable dans tous les pays de l'UE/EASA)"
+        "description": "Enregistrement comme exploitant d'UAS (15 € / 3 ans, valable dans tous les pays de l'UE/EASA)"
       },
       {
         "title": "drones.gov.cy — Carte des géozones",
@@ -53,7 +57,7 @@
         "description": "Informations sur les aéroports de Larnaca et de Paphos"
       }
     ],
-    "disclaimerText": "Avant chaque vol, vérifiez toujours les sources officielles de DCA Cyprus et de drones.gov.cy. Cette application est un outil, pas une autorité juridique. Chypre suit la réglementation EASA avec des ajouts nationaux stricts, comme l'interdiction des vols de nuit.",
+    "disclaimerText": "Avant chaque vol, vérifiez toujours les sources officielles de DCA Cyprus et de drones.gov.cy. Cette application est un outil, pas une autorité juridique. Chypre suit la réglementation EASA, avec des zones géographiques nationales (Κ.Δ.Π. 190/2024, telle que modifiée).",
     "sectionLabelRules": "RÈGLES DE BASE (CATÉGORIE OUVERTE EASA)",
     "sectionLabelPrimary": "SOURCES OFFICIELLES",
     "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",

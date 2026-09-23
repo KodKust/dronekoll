@@ -1,34 +1,39 @@
 {
   "meta": {
-    "sourceHash": "cd8a26ec06fe6fce166e7bf3de181ffab5c36b7b3c6007a64f6e67ae3c10ef12",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "8e19b8ef08eacce878876a6b70061b85975b67e81f34fce0c591ea4492f2566c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Drones com peso ≥250 g (0,55 lb): registo obrigatório junto do IDAC através do Vuela Seguro (RAD-48)",
-      "Drones com peso superior a 2 kg (4,4 lb): além do registo, é necessária uma autorização especial do IDAC",
-      "Distância mínima de 9 km (5 milhas náuticas) de aeroportos e aeródromos",
+      "Registo obrigatório no IDAC através do Vuela Seguro: o RAD 48 (alteração em vigor desde 21/02/2025) exige-o a partir de 0,20 kg (0,44 lb); o guia Vuela Seguro ainda indica 0,25 kg (0,55 lb) — confirme junto do IDAC se o seu drone pesar 200–249 g",
+      "Drones >250 g (0,55 lb): é obrigatória licença ou certificado de piloto remoto do IDAC, também para uso recreativo (mín. 18 anos, RAD 107.23)",
+      "Voos recreativos: o IDAC (guia Vuela Seguro) exige um pedido de autorização através do formulário 1500-9 (licença/certificado, registo, seguro, se aplicável, e mapa com coordenadas) com pelo menos 5 dias úteis de antecedência em relação à operação; prazo de tratamento estimado de 15 dias úteis",
+      "Distância mínima de 9 km (5 milhas náuticas) de aeroportos e aeródromos sem autorização do IDAC.",
+      "Fora do espaço aéreo de classe G (p. ex., zonas de controlo de aeroportos), são obrigatórias autorização prévia do IDAC e coordenação com o ATC (RAD 107.57)",
       "Só é permitido voar durante o dia — o voo noturno exige uma autorização específica do IDAC",
       "Mantenha sempre o drone dentro da linha de vista direta (VLOS)",
-      "Seguro de responsabilidade civil perante terceiros OBRIGATÓRIO (RAD-107)",
-      "Zona de proibição de voo: Palácio Nacional, Ministério da Defesa, Base Aérea de San Isidro",
-      "ZONA DE PROIBIÇÃO DE VOO: Refinaria Dominicana de Petróleo, Base Naval de Las Calderas, postos de comando militar",
-      "Operação comercial: certificado de piloto remoto + autorização operacional adicional",
-      "Não interfira com o tráfego aéreo nos circuitos de aproximação e partida dos aeroportos"
+      "Altura máxima de 400 ft (122 m) acima do nível do solo (RAD 107.67); é proibido sobrevoar pessoas não envolvidas sem autorização prévia do IDAC (RAD 107.55)",
+      "É proibido voar a partir de um veículo ou embarcação em movimento sem autorização do IDAC, exceto sobre zonas pouco povoadas (RAD 107.39)",
+      "Seguro de responsabilidade civil perante terceiros OBRIGATÓRIO (RAD 48.19 e RAD 107.69; para uso recreativo entre 0,25 e 2 kg, o RAD 107.69 aceita uma Declaração sob Compromisso de Honra de Responsabilidade Solidária (Declaración Jurada de Responsabilidad Solidaria))",
+      "Drones >2 kg (4,4 lb): seguro de responsabilidade civil obrigatório também para uso recreativo (mín. 2 000 USD, RAD 107.69; o RAD 48.19 exige um mín. de 5 000 USD acima de 4,5 kg)",
+      "É PROIBIDO sobrevoar: Palácio Nacional, Ministério da Defesa, Base Aérea de San Isidro",
+      "É PROIBIDO sobrevoar: Refinaria Dominicana de Petróleo, Base Naval de Las Calderas, postos de comando militar",
+      "Operação comercial: licença de piloto remoto do IDAC + autorização (formulário 1500-9). Cidadãos estrangeiros: apenas se contratados por uma empresa dominicana",
+      "Não interfira com o tráfego aéreo nos circuitos de aterragem/descolagem dos aeródromos"
     ],
     "importantNotes": [
       "📋 QUADRO LEGAL: as operações com drones são reguladas pela Lei de Aviação Civil 491-06 + RAD-107 (sistema de pequenas aeronaves não tripuladas) + RAD-48 (registo e marcação). O IDAC (Instituto Dominicano de Aviação Civil) é a autoridade competente.",
-      "✈️ TURISTAS ESTRANGEIROS: estas regras aplicam-se aos não residentes. Os drones com peso ≥250 g devem ser registados antes de operar. Para uso recreativo de drones com peso ≤250 g (DJI Mini, Flip): não é necessário registo, mas todas as restantes regras aplicam-se. É recomendável ter a documentação consigo à entrada no país.",
+      "✈️ TURISTAS ESTRANGEIROS: estas regras aplicam-se aos não residentes. Antes de voar, peça uma autorização ao IDAC através do formulário 1500-9 (com pelo menos 5 dias úteis de antecedência; prazo de tratamento estimado de 15 dias úteis), anexando a sua licença/certificado, registo, seguro, se aplicável, e um mapa com coordenadas. Se o seu país não exigir licença/registo devido ao peso do drone, anexe essa parte da regulamentação nacional e uma cópia do seu documento de identificação. Registo: o RAD 48 exige-o a partir de 0,20 kg (o guia Vuela Seguro indica 0,25 kg); para drones de 200–249 g (p. ex., DJI Mini, Flip), confirme junto do IDAC. Mesmo que o registo não seja obrigatório, aplicam-se todas as outras regras. Uso comercial: apenas se for contratado por uma empresa dominicana que faça o pedido.",
       "🏖️ PUNTA CANA E ZONAS TURÍSTICAS COSTEIRAS: os aeroportos PUJ (Punta Cana), SDQ (Las Américas) e STI (Santiago) têm uma zona de exclusão de 9 km. Saona, Catalina, Bayahibe, Las Galeras: muitas praias e resorts têm restrições adicionais — consulte o seu hotel ou operador turístico antes de voar.",
-      "🌳 ÁREAS PROTEGIDAS: os Parques Nacionais Los Haitises, del Este (Saona), Sierra de Bahoruco, Jaragua e Lago Enriquillo exigem uma autorização especial do Ministério do Ambiente. Baía de Samaná (observação de baleias, jan.–mar.): estão em vigor restrições adicionais para não perturbar a fauna.",
-      "🏛️ ZONAS PERMANENTEMENTE RESTRITAS: Palácio Nacional (Santo Domingo), Ministério da Defesa, todas as bases militares (San Isidro, Las Calderas) e a Refinaria Dominicana de Petróleo. A Zona Colonial (Património Mundial da UNESCO em Santo Domingo) tem restrições temporárias — verifique antecipadamente."
+      "🌳 ÁREAS PROTEGIDAS: antes de voar em parques nacionais (Los Haitises, del Este/Saona, Sierra de Bahoruco, Jaragua, Lago Enriquillo), informe-se junto do Ministério do Ambiente; pode ser necessária autorização. Respeite a vida selvagem — baleias em Samaná (jan.–mar.).",
+      "🏛️ ZONAS PERMANENTES DE PROIBIÇÃO DE VOO: Palácio Nacional (Santo Domingo), Ministério da Defesa, todas as bases militares (San Isidro, Las Calderas) e a Refinaria Dominicana de Petróleo. A Zona Colonial (Património Mundial da UNESCO em Santo Domingo) tem restrições temporárias — verifique antecipadamente."
     ],
     "primaryLinks": [
       {
-        "title": "IDAC — Voe Seguro (portal oficial de drones)",
-        "description": "Site oficial do Instituto Dominicano de Aviação Civil para operadores de drones. Inclui um guia abrangente, regulamentação RAD-107/48, requisitos de registo e áreas restritas"
+        "title": "IDAC — Vuela Seguro (portal oficial de drones)",
+        "description": "Site oficial do Instituto Dominicano de Aviação Civil para operadores de drones. Inclui um guia completo, a regulamentação RAD-107/48, os requisitos de registo e as zonas restritas"
       },
       {
         "title": "Requisitos e Procedimento de Registo",
@@ -45,16 +50,16 @@
     ],
     "secondaryLinks": [
       {
-        "title": "IDAC — DTAC (Departamento de Aviação Civil)",
-        "description": "Endereço de e-mail oficial para registo e questões: DTAC@idac.gov.do. Para operadores de drones com peso superior a 2 kg ou para uso comercial, recomenda-se o contacto direto."
+        "title": "IDAC — DTAC (Departamento de Transporte Aéreo Civil)",
+        "description": "E-mail oficial para iniciar procedimentos de registo e para questões: DTAC@idac.gov.do. Para uso comercial, recomenda-se o contacto direto"
       },
       {
-        "title": "Lei de Aviação Civil n.º 491-06",
-        "description": "Quadro legal geral de toda a aviação civil dominicana, incluindo aeronaves não tripuladas. A base sobre a qual assentam os regulamentos RAD"
+        "title": "Lei de Aviação Civil 491-06",
+        "description": "Página de leis do IDAC: Lei de Aviação Civil 491-06 e Lei 17-24, que a altera. Quadro jurídico geral de toda a aviação civil dominicana, incluindo as aeronaves não tripuladas. A base sobre a qual assentam os Regulamentos RAD"
       },
       {
         "title": "Ministério do Ambiente — Áreas Protegidas",
-        "description": "Para áreas protegidas como o Parque Nacional Los Haitises, o Parque Nacional Del Este (Saona) e a Baía de Samaná: é necessária uma autorização específica antes de operar drones"
+        "description": "Para áreas protegidas como o Parque Nacional Los Haitises, o Parque Nacional Del Este (Saona) e a Baía de Samaná: informe-se junto do Ministério antes de operar drones; pode ser necessária autorização"
       }
     ],
     "disclaimerText": "Verifique sempre as fontes oficiais do IDAC antes de voar. Esta aplicação é uma ferramenta, não uma autoridade legal. A República Dominicana aplica a Lei de Aviação Civil 491-06, juntamente com os regulamentos RAD-107 (operações de sUAS) e RAD-48 (registo). O site oficial é o Vuela Seguro (idac.gob.do/drone).",

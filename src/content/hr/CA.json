@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "51b497a18aafd4cff4e8165ebea4d22e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "05a601befa3ab4524ab9e1c3f953a9bc",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,21 +14,27 @@
     "dronePilotCredentialName": "Certifikat pilota",
     "keyRules": [
       "Najviše 122 m (400 ft) iznad razine tla",
-      "Istaknite registracijski broj (C-F####) na dronu",
+      "Nikad ne letite unutar 9,3 km (5 NM) od šumskog požara ni unutar sigurnosnog perimetra hitne intervencije (nesreća, poplava) — vrijedi za sve dronove, uključujući one lakše od 250 g.",
+      "Bez SFOC-RPAS ne letite na oglašenim događanjima (koncerti, festivali, sport) ni u njihovoj blizini — to uključuje i dronove lakše od 250 g.",
+      "Jasno istaknite registracijski broj drona (npr. C-1234567890) na dronu",
       "Osnovni certifikat: minimalna dob 14 godina, ispit s 35 pitanja (prolaz 65 %) — samo nekontrolirani zračni prostor",
       "Napredni certifikat: minimalna dob 16 godina, ispit s 50 pitanja (prolaz 80 %) + provjera leta — kontrolirani zračni prostor",
       "Dronovi lakši od 250 g: nije potrebna registracija ni certifikat",
+      "Strani posjetitelji koji lete vlastitim dronom od 250 g ili težim: potreban vam je kanadski certifikat pilota drona (licencija iz matične zemlje ne vrijedi) i Foreign SFOC-RPAS, jer stranci ne mogu registrirati dronove u Kanadi. Zahtjev podnesite na vrijeme — standardni rok obrade je 30 radnih dana. Lakši od 250 g: SFOC nije potreban, osim na oglašenim događanjima.",
       "Uvijek održavajte vidno polje (VLOS) — izravan vizualni kontakt bez pomagala",
       "Održavajte vodoravnu udaljenost od 30 m od ljudi (osnovne operacije)",
-      "Osim ako slijedite utvrđeni postupak tijela Transport Canada, držite se najmanje 5,6 km (3 NM) od certificiranih zračnih luka i 1,9 km (1 NM) od certificiranih heliodroma. Za letenje u kontroliranom zračnom prostoru potrebni su napredni certifikat i odobrenje NAV DRONE.",
+      "Noćno letenje (dronovi od 250 g ili teži): dron mora imati svjetla koja ga čine vidljivim vama ili vašem vizualnom promatraču, a ona moraju biti uključena.",
+      "Dronovi od 250 g ili teži: ne letite unutar 12 sati nakon pijenja alkohola ni pod utjecajem",
+      "Osnovni certifikat (Basic): držite se više od 5,6 km (3 NM) od certificiranih zračnih luka i 1,9 km (1 NM) od certificiranih heliodroma. Bliže samo s naprednim certifikatom (Advanced) i prema utvrđenim postupcima. Kontrolirani zračni prostor: napredni certifikat + dron s odgovarajućom sigurnosnom izjavom + odobrenje NAV DRONE.",
+      "Unutar 5,6 km (3 NM) od središta vojnog aerodroma potrebno vam je odobrenje Ministarstva nacionalne obrane (Department of National Defence).",
       "Pokrajinski i nacionalni parkovi općenito zabranjuju rekreativnu upotrebu dronova — zabrana je potvrđena u pokrajinskim parkovima Alberte, Ontarija i Britanske Kolumbije te na svim lokacijama nacionalnih parkova kojima upravlja Parks Canada. Prije leta provjerite pravila konkretnog parka."
     ],
     "importantNotes": [
-      "Pokrajinski parkovi u Britanskoj Kolumbiji i Alberti zabranjuju rekreativne dronove bez dozvole",
+      "Pokrajinski parkovi u BC-u i Alberti: letenje dronom bez dopuštenja parka je nezakonito, a rekreativno letenje nije dopušteno (Alberta: bilo koje veličine; BC: dopuštenje se rijetko izdaje)",
       "Pokrajinski parkovi Ontarija i gradski parkovi Toronta zabranjuju rekreativne dronove",
-      "Većina općina zabranjuje dronove u javnim parkovima bez dozvole",
+      "I druge općine mogu zabraniti dronove u gradskim parkovima bez dozvole — prije leta provjerite lokalne propise",
       "Osiguranje nije potrebno za osnovne operacije, ali se izrazito preporučuje",
-      "Certifikat za složene operacije razine 1 (od studenoga 2025.) omogućuje BVLOS operacije niskog rizika bez SFOC-a"
+      "Certifikat pilota Level 1 Complex (18+) od 4. studenoga 2025. dopušta BVLOS niskog rizika bez SFOC-a — ali samo uz RPAS Operator Certificate (RPOC) koji imate vi ili operater za kojeg letite"
     ],
     "primaryLinks": [
       {
@@ -37,7 +43,7 @@
       },
       {
         "title": "Transport Canada — Registrirajte svoj dron",
-        "description": "Registrirajte dronove od 250 g putem Drone Management Portala (5 $, ~3 minute)"
+        "description": "Registrirajte dronove od 250 g naviše putem Drone Management Portala (oko 10 $, usklađuje se godišnje; ~3 minute)"
       },
       {
         "title": "NAV DRONE — Kontrolirani zračni prostor",

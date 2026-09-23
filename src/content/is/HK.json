@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ab66a0144761f05a1cfb8f54499fb2e2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -11,19 +11,23 @@
     "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
     "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
     "linksSheetTitle": "Loftrými og reglur — Hong Kong",
-    "dronePilotCredentialName": "SUA-flugmannsréttindi",
+    "dronePilotCredentialName": "Fjarflugmannsskírteini (almenn réttindi / framhaldsréttindi)",
     "keyRules": [
-      "Að hámarki 91 m (300 fet) yfir jörðu — lægra en í flestum löndum",
-      "Skráning nauðsynleg fyrir alla dróna yfir 250 g í gegnum eSUA-gáttina",
+      "Að hámarki 91 m (300 ft) yfir jörðu fyrir dróna í Cat. A2 (250 g–7 kg) og skráðar undanþegnar gerðir allt að 250 g; óskráðir drónar allt að 250 g: að hámarki 30 m (100 ft)",
+      "Hámarkshraði 50 km/h (Cat. A2); óskráðir drónar allt að 250 g að hámarki 20 km/h",
+      "Dróna yfir 250 g — og dróna allt að 250 g sem flogið er út fyrir mörk Cat. A1 — verður að skrá og merkja í gegnum eSUA-gáttina, og fjarflugmaðurinn (14 ára+) verður einnig að skrá sig á eSUA. Gildir einnig um gesti",
       "Takmarkanir nálægt flugvöllum í Hong Kong eru skilgreindar sem opinberlega auglýst Restricted Flying Zones (RFZ) umhverfis HKIA og aðra flugvelli og þyrlupalla og eru sýndar á CAD Drone Map — engin ein föst fjarlægð gildir. Flug innan RFZ krefst heimildar CAD og sum svæði (t.d. Victoria Harbour) eru takmörkuð óháð fjarlægð frá flugvelli.",
-      "50 m lágmarksfjarlægð frá fólki sem ekki tekur þátt í fluginu",
+      "Ekkert flug yfir bannsvæðinu nálægt Penny's Bay (t.d. Hong Kong Disneyland) — það er sett samkvæmt sérstökum lögum og fellur ekki undir RFZ-svæði CAD Drone Map",
+      "Haltu að minnsta kosti 10 m (≤20 km/h) eða 30 m (yfir 20 km/h, Cat. A2) fjarlægð frá óviðkomandi fólki, ökutækjum, skipum og mannvirkjum; fljúgðu aldrei yfir þau",
       "Aðeins að degi til — ekkert næturflug án sérstakrar heimildar",
       "Svæðið við Victoria Harbour er takmarkað",
       "Haltu ávallt sjónlínu (VLOS)",
+      "Drónar yfir 250 g verða að hafa landfræðilega vitund (geo-awareness) og flugdagbók; geymdu flugdagbækur í 6 mánuði",
       "Hong Kong hefur sínar eigin reglur — EKKI reglur meginlands Kína"
     ],
     "importantNotes": [
-      "Hámarkshæð er aðeins 91 m (300 fet) — umtalsvert lægri en 120 m staðallinn í flestum löndum",
+      "Hámarkshæð er 91 m (300 ft), og aðeins 30 m (100 ft) fyrir óskráða dróna allt að 250 g — vel undir 120 m staðlinum í flestum löndum",
+      "Gestir: drónar yfir 250 g krefjast skráningar dróna og flugmanns á eSUA með vegabréfinu þínu (gildir að jafnaði í 6 mánuði). Ekki er hægt að prenta CAD-merkið og það er ekki sent til útlanda — sæktu það í höfuðstöðvar CAD eða láttu senda það á heimilisfang í Hong Kong (t.d. hótelið þitt)",
       "Trygging er EKKI nauðsynleg fyrir hefðbundinn rekstur í Category A1 og hefðbundinn A2-rekstur. Tryggingarvernd að fjárhæð HK$10M gildir fyrir ítarlegri rekstur og dróna í Category B; nýrri Category C (25-150kg, tekinn upp 18. júlí 2025) krefst HK$15M (25-75kg) eða HK$20M (75-150kg). Í eigin kröfutöflu CAD er gildistökudagur víðtækari innleiðingar tryggingaskyldu skráður sem „óákveðinn“ — staðfestu gildandi stöðu áður en þú gerir ráð fyrir að trygging sé nauðsynleg fyrir þinn flokk.",
       "Hong Kong hefur allt aðrar reglur en meginland Kína",
       "Victoria Harbour og nærliggjandi svæði hafa flugtakmarkanir",
@@ -46,11 +50,11 @@
     "secondaryLinks": [
       {
         "title": "CAD — Framhaldsáritunarþjálfun (Advanced Rating)",
-        "description": "Framhaldsáritunarþjálfun nauðsynleg fyrir dróna yfir 250 g"
+        "description": "Framhaldsáritunarþjálfun (Advanced Rating) — aðeins nauðsynleg fyrir Advanced Operations"
       },
       {
         "title": "CAD — Tryggingakröfur",
-        "description": "Skyldubundnar kröfur um tryggingu gagnvart þriðja aðila fyrir drónarekstur"
+        "description": "Trygging gagnvart þriðja aðila — skyldubundin fyrir framhaldsrekstur (advanced operations); ekki enn í gildi fyrir hefðbundið flug í Cat. A2"
       }
     ]
   }

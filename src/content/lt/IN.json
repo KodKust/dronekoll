@@ -1,33 +1,36 @@
 {
   "meta": {
-    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "17cf8ce1211fdb6fb07c1979f47d5e58",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
-    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius DGCA ir DigitalSky šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Indijoje visai dronų atitikties procedūrai privaloma naudoti skaitmeninę platformą.",
+    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius DGCA (eGCA) ir DigitalSky šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis.",
     "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
     "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
     "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
     "linksSheetTitle": "Oro erdvė ir taisyklės — Indija",
     "dronePilotCredentialName": "Nuotolinio piloto pažymėjimas",
     "keyRules": [
-      "DigitalSky oro erdvę skirsto į Green (automatinis leidimas suteikiamas iškart), Yellow (kontroliuojama oro erdvė, automatinis apdorojimas trunka ~15-30 min — tai apima oro uosto perimetro juostą, maždaug 8-12 km) ir Red (ribojama zona, reikalingas rankinis patvirtinimas) zonas — prieš skrydį visada tikrinkite DigitalSky, nes tikslios zonų ribos prie konkretaus oro uosto gali skirtis nuo šio bendro modelio.",
+      "DigitalSky oro erdvę skirsto į žaliąją (leidimo nereikia, iki 120 m / 400 ft), geltonąją (reikia atitinkamos skrydžių valdymo institucijos leidimo) ir raudonąją (tik centrinės vyriausybės leidimu) zonas. 8–12 km atstumu nuo veikiančio oro uosto perimetro žalioji zona galioja tik iki 60 m (200 ft); aukščiau — geltonoji. Prieš skrydį visada patikrinkite DigitalSky žemėlapį.",
+      "Jei netaikoma išimtis (Nano dronai iki 250 g arba modeliniai dronai iki 25 kg, naudojami tik švietimo, mokslinių tyrimų ar pramoginiais tikslais tiesioginio matomumo ribose), dronas turi atitikti DGCA tipo sertifikatą. DGCA iki atskiro pranešimo laikinai sustabdė dronų be tipo sertifikato registraciją (tiesiogiai į DGCA gali kreiptis tik Indijoje pagamintų Nano ir modelinių dronų savininkai), o neregistruotu dronu skraidyti negalima.",
       "Draudimas privalomas visoms kategorijoms, išskyrus Nano",
-      "Remote Pilot Certificate (RPC) privalomas komerciniam Micro (250g-2kg) ir didesnių dronų naudojimui, taip pat visiems Small kategorijos dronams (2-25 kg) ir sunkesniems, nepriklausomai nuo paskirties. Nano (<250g) dronams RPC niekada nereikia, net ir komerciniam naudojimui.",
+      "Remote Pilot Certificate (RPC) privalomas komerciniam Micro (>250 g–2 kg) ir didesnių dronų naudojimui, taip pat visiems Small kategorijos (2-25 kg) ir sunkesniems dronams, nepriklausomai nuo paskirties. Nano (≤250 g) dronams RPC niekada nereikia, net ir komerciniam naudojimui.",
       "Kiekvieno skrydžio metu dronas turi likti tiesioginiame regėjimo lauke — visą laiką būti matomas plika akimi, be žiūronų ar panašių priemonių — nebent DGCA suteikė konkretų EVLOS/BVLOS leidimą.",
       "Skraidyti Red zonose griežtai draudžiama be specialaus atitinkamos institucijos leidimo, gauto per DigitalSky."
     ],
     "importantNotes": [
-      "DigitalSky registracija privaloma visiems dronams, išskyrus Nano (<250g), kuriam nereikia nei registracijos, nei UIN. Skraidant neregistruotu dronu, kurį registruoti privaloma, kyla konfiskavimo rizika.",
+      "Visi dronai, įskaitant Nano (≤250 g), prieš skrydį turi būti registruoti ir turėti UIN (per DGCA eGCA portalą). Nano dronai atleidžiami tik nuo tipo sertifikavimo, Remote Pilot Certificate ir trečiųjų asmenų draudimo reikalavimų. Skraidant neregistruotu dronu gresia baudos ir drono konfiskavimas.",
+      "Lankytojams: dronų importas į Indiją draudžiamas pagal DGFT Notification 54/2022 (visos svorio klasės, įskaitant ≤250 g), išskyrus atvejus, kai turimas DGFT leidimas naudoti juos vyriausybės, mokslinių tyrimų ir plėtros (R&D) arba gynybos ar saugumo reikmėms. Registracijai reikia Indijos paso arba Indijos vyriausybės išduoto asmens dokumento ir adreso įrodymo, todėl lankytojo drono paprastai neįmanoma teisėtai užregistruoti ir juo skraidyti.",
       "Red zonos apima oro uostus, karines teritorijas, pasienio zonas ir jautrius objektus.",
-      "Draudimas privalomas Micro, Small ir Medium kategorijų dronams."
+      "Draudimas privalomas Micro, Small ir Medium kategorijų dronams.",
+      "Apie bet kokį nelaimingą atsitikimą, susijusį su jūsų dronu, DGCA turi būti pranešta per 48 valandas."
     ],
     "primaryLinks": [
       {
         "title": "DigitalSky — DGCA platforma",
-        "description": "Privaloma platforma dronų registracijai, skrydžio leidimams ir zonų patikrinimams"
+        "description": "Privaloma platforma skrydžio leidimams ir zonų patikrinimams"
       },
       {
         "title": "DGCA — Dronų taisyklės",

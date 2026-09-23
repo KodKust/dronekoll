@@ -1,63 +1,66 @@
 {
- "meta": {
-  "sourceHash": "c6156d2d7270eed1f0bbf03a22c83cd1cf94b1875c9f45ae22d161f7fab4e957",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Maximum 120 m deasupra nivelului solului (categoria EASA Open)",
-   "Înregistrează-te ca operator UAS (10 €/an) dacă drona cântărește 250 g sau mai mult ori este echipată cu o cameră",
-   "Instruire online A1/A3 obligatorie — vârsta minimă 16 ani",
-   "Asigurarea de răspundere civilă este obligatorie pentru dronele cu o greutate de peste 20 kg",
-   "Menține întotdeauna raza vizuală directă (VLOS)",
-   "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
-   "La cel puțin 5 km de orice aeroport sau aerodrom",
-   "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
-   "Sunt în vigoare restricții în Parcul Național Istmul Curonian",
-   "Restricții suplimentare în zonele de frontieră cu Rusia și Belarus"
-  ],
-  "importantNotes": [
-   "Înregistrarea costă 10 € pe an — trebuie reînnoită anual",
-   "Asigurarea este necesară doar pentru dronele cu o greutate de peste 20 kg",
-   "Sunt în vigoare restricții de zbor în zonele de frontieră cu Rusia și Belarus",
-   "CTR-ul Aeroportului Vilnius acoperă o mare parte a orașului",
-   "GDPR se aplică atunci când sunt filmate sau fotografiate persoane identificabile"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAA — reguli privind dronele",
-    "description": "Reglementările oficiale ale Administrației Aviației Civile privind dronele"
-   },
-   {
-    "title": "TKA — înregistrare ca utilizator",
-    "description": "Înregistrare ca operator UAS (10 € pe an, valabilă în toate țările UE/EASA)"
-   },
-   {
-    "title": "UTM Lithuania — harta spațiului aerian",
-    "description": "Harta oficială UTM a spațiului aerian care arată zonele și restricțiile pentru drone"
-   },
-   {
-    "title": "CAA — prezentare generală a regulilor",
-    "description": "Prezentare generală a reglementărilor privind zborul cu drone în Lituania"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Air Navigation — servicii de navigație aeriană",
-    "description": "Serviciul de navigație aeriană din Lituania și informații despre spațiul aerian"
-   },
-   {
-    "title": "CAA — întrebări frecvente despre drone",
-    "description": "Întrebări frecvente despre reglementările privind dronele în Lituania"
-   }
-  ],
-  "disclaimerText": "Înainte de zbor, verifică întotdeauna sursele oficiale ale TKA și UTM Lithuania. Această aplicație este un instrument — nu o autoritate juridică. Lituania respectă reglementările EASA, cu adăugiri naționale.",
-  "sectionLabelRules": "REGULI DE BAZĂ (CATEGORIA EASA OPEN)",
-  "sectionLabelPrimary": "SURSE OFICIALE",
-  "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
-  "linksSheetTitle": "Spațiu aerian și reglementări — Lituania",
-  "dronePilotCredentialName": "Certificat de pilot la distanță"
- }
+  "meta": {
+    "sourceHash": "e93e943369b28f887990b72c587e2c372465bbacd9292903c416ee4c4ebf7e67",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "În categoria deschisă, înălțimea maximă este de 120 m, măsurată ca distanța până la cel mai apropiat punct al suprafeței solului — nu pur și simplu pe verticală în jos, așa că atunci când zbori lângă o pantă poate conta și terenul învecinat. La mai puțin de 50 m de un obstacol artificial înalt (mai înalt de 105 m), entitatea responsabilă de obstacol poate solicita permisiunea de a zbura până la 15 m deasupra înălțimii obstacolului.",
+      "Trebuie să te înregistrezi ca operator de drone dacă drona ta cântărește 250 g sau mai mult (sau ar putea transfera peste 80 J de energie cinetică la o coliziune) — acest lucru se aplică chiar și jucăriilor. Sub 250 g, înregistrarea este totuși obligatorie dacă drona are un senzor capabil să capteze date cu caracter personal, cu excepția cazului în care este considerată jucărie conform Directivei UE privind siguranța jucăriilor. Cerințele privind instruirea/certificatul pilotului sunt separate și depind de clasa și subcategoria dronei.",
+      "Numărul de înregistrare trebuie să fie vizibil pe dronă și (pentru dronele din clasele C1–C3) introdus în sistemul Remote ID",
+      "Dronele fără marcă de clasă C (introduse pe piață înainte de 2024-01-01) și dronele construite în regie proprie pot zbura doar în subcategoria A1, dacă masa lor la decolare este sub 250 g, sau în subcategoria A3, dacă este sub 25 kg",
+      "Vârsta minimă a pilotului la distanță este de 16 ani (regula UE; Lituania nu a coborât-o). Piloții mai tineri pot zbura doar: sub supravegherea directă a unui pilot la distanță care îndeplinește cerințele; cu o jucărie din clasa C0 în subcategoria A1; sau cu o dronă construită în regie proprie cu o masă la decolare sub 250 g. Instruirea și examenul A1/A3 se susțin în sistemul TKA, iar certificatul este valabil 5 ani.",
+      "Asigurarea de răspundere civilă este obligatorie pentru dronele cu o greutate de peste 20 kg",
+      "În categoria deschisă trebuie să menții drona în propriul câmp vizual direct, fără mijloace ajutătoare (ochelarii/lentilele de contact sunt permise; binoclul sau un ecran nu contează) — sau să zbori cu ajutorul unui observator, menținând în permanență o comunicare clară și eficientă unul cu celălalt, astfel încât să supravegheați împreună spațiul aerian și să evitați coliziunile. Modul „Follow-me” este o excepție separată, permisă până la 50 m de pilot.",
+      "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
+      "Nu există o distanță unică la nivelul UE pe care trebuie să o păstrezi față de aeroporturi. Restricțiile din apropierea aeroporturilor sunt publicate ca zone geografice (articolul 15), a căror formă și dimensiune diferă de la un aeroport la altul – înainte de a zbura în apropierea unui aeroport, aerodrom sau heliport, verifică harta oficială a zonelor pentru drone. În spațiul aerian controlat (zonele UR Vilnius, Kaunas, Palanga, Šiauliai) poți zbura în categoria deschisă fără autorizare prealabilă doar până la înălțimea stabilită pentru zonă – cu cât mai aproape de aeroport, cu atât mai jos (înălțimile – utm.ans.lt; zborul la înălțimi mai mari necesită o autorizare emisă conform procedurii LTSA). În zonele ATZ/TIZ ale aerodromurilor, zborul trebuie coordonat în prealabil cu proprietarul sau operatorul aerodromului.",
+      "Zborurile în zonele EYP și deasupra zonelor militare (EYURM) sunt interzise fără autorizare; același lucru se aplică în zonele EYR activate (activarea este anunțată prin NOTAM)",
+      "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
+      "Sunt în vigoare restricții în Parcul Național Istmul Curonian",
+      "În zona de frontieră de-a lungul granițelor cu Belarus și Rusia (aproximativ 7,4 km de la graniță), zborurile fără coordonare prealabilă sunt strict interzise"
+    ],
+    "importantNotes": [
+      "Înregistrarea și emiterea/reînnoirea certificatului de înregistrare costă 31 €",
+      "Asigurarea este necesară doar pentru dronele cu o greutate de peste 20 kg",
+      "În zona de frontieră de-a lungul granițelor cu Belarus și Rusia (aproximativ 7,4 km de la graniță), zborurile fără coordonare prealabilă sunt strict interzise",
+      "CTR-ul Aeroportului Vilnius acoperă o mare parte a orașului",
+      "GDPR se aplică atunci când sunt filmate sau fotografiate persoane identificabile"
+    ],
+    "primaryLinks": [
+      {
+        "title": "TKA – Reguli pentru drone",
+        "description": "Regulile oficiale pentru drone ale Transporto kompetencijų agentūra (TKA)"
+      },
+      {
+        "title": "TKA – Înregistrare ca operator",
+        "description": "Înregistrează-te ca operator UAS (31 €, valabil în toate țările UE/EASA)"
+      },
+      {
+        "title": "UTM Lithuania — harta spațiului aerian",
+        "description": "Harta oficială UTM a spațiului aerian care arată zonele și restricțiile pentru drone"
+      },
+      {
+        "title": "TKA – Prezentare generală a regulilor",
+        "description": "Prezentare generală a reglementărilor privind zborul cu drone în Lituania"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Oro Navigacija – Servicii de navigație aeriană",
+        "description": "Serviciul lituanian de navigație aeriană și informații despre spațiul aerian"
+      },
+      {
+        "title": "TKA – FAQ despre drone",
+        "description": "Întrebări frecvente despre reglementările privind dronele în Lituania"
+      }
+    ],
+    "disclaimerText": "Înainte de zbor, verifică întotdeauna sursele oficiale ale TKA și UTM Lithuania. Această aplicație este un instrument — nu o autoritate juridică. Lituania respectă reglementările EASA, cu adăugiri naționale.",
+    "sectionLabelRules": "REGULI DE BAZĂ (CATEGORIA EASA OPEN)",
+    "sectionLabelPrimary": "SURSE OFICIALE",
+    "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
+    "linksSheetTitle": "Spațiu aerian și reglementări — Lituania",
+    "dronePilotCredentialName": "Certificat de pilot la distanță"
+  }
 }

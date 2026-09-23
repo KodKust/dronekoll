@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "fca3bbf5a00a2bc5c8ae02d7f663df3d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb076b85a229a810666fd05392ea183d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,19 +14,22 @@
     "dronePilotCredentialName": "Távpilóta-engedély",
     "keyRules": [
       "A vizuális látótávolság (VLOS) kötelező – legfeljebb 500 m vízszintes távolság",
-      "Legalább 50 m távolság az emberektől, épületektől és járművektől",
-      "Maradj legalább 10 km-re a repülőterektől — Dél-Afrikában ezt szigorúan betartatják. Mielőtt repülőtér közelében repülsz, ellenőrizd a pontos, aktuális távolságot a SACAA-nál.",
-      "A Krugerben vagy bármely más dél-afrikai nemzeti parkban történő drónrepüléshez a SANParks kifejezett engedélye szükséges (NEMA Protected Areas Act) — engedély nélkül tilos a park legmagasabb pontja felett 2,500 ft-nál alacsonyabban repülni. Ettől különállóan a polgári légiközlekedési szabályok be nem tartásával végzett UAV-üzemeltetés Dél-Afrika légterében akár R50,000 bírsággal és/vagy akár 10 év szabadságvesztéssel járhat.",
+      "Max. 150 ft (45 m) a talaj felett – és maradj a 300 m-en belüli legmagasabb akadály alatt (korlátozott VLOS)",
+      "Legalább 50 m távolság az emberektől, közutaktól és épületektől (hacsak a tulajdonos nem engedélyezi) – soha ne repülj közvetlenül senki felett",
+      "Tarts legalább 10 km távolságot bármely repülőtértől – repülőterek, leszállóhelyek és helikopter-leszállóhelyek (a lodge-ok magán-leszállópályáit is beleértve). Dél-Afrikában szigorúan betartatják.",
+      "Tilos repülni ellenőrzött, korlátozott vagy tiltott légtérben, illetve börtönök, rendőrőrsök, bűncselekmények helyszínei, bíróságok, atomerőművek vagy nemzeti kulcsfontosságú létesítmények (national key points) közelében/felett",
+      "Bármely nemzeti park (a Krugert is beleértve), különleges természetvédelmi terület vagy világörökségi helyszín legmagasabb pontja felett 2500 ft alatt repülni csak az adott terület saját kezelő hatóságának előzetes írásos engedélyével szabad (Protected Areas Act s47) – nem csak a SANParks parkjaiban. Ettől függetlenül a polgári légiközlekedési szabályok megszegése bírsággal és/vagy akár 10 év szabadságvesztéssel járhat.",
       "Csak nappal, tiszta időjárási körülmények között",
-      "Rekreációs célú repüléshez nincs szükség regisztrációra vagy engedélyre",
-      "A kereskedelmi célú használathoz RPC (Remote Pilot Certificate), ROC és RLA szükséges",
+      "A 7 kg alatti drónokkal végzett magáncélú, nem kereskedelmi repüléshez nincs szükség regisztrációra vagy engedélyre (csak korlátozott VLOS)",
+      "Magáncélú repülés csak saját tulajdonú ingatlan felett, vagy olyan felett, amelyhez a tulajdonos engedélyt adott",
+      "Minden nem magáncélú használathoz (kereskedelmi, vállalati vagy nonprofit) Remote Pilot Licence (RPL), UAS Operating Certificate (UASOC, korábban ROC), RPAS Letter of Approval (RLA) és SACAA-regisztráció (C of R) szükséges; kereskedelmi használathoz ezenfelül Air Service Licence (ASL) is kell",
       "A biztosítás általában csak kereskedelmi műveletekhez kötelező — kereskedelmi használat előtt ellenőrizd a SACAA aktuális követelményeit.",
       "Ne repülj embercsoportok vagy nyilvános rendezvények felett"
     ],
     "importantNotes": [
-      "A SANParks engedélye nélkül bármely nemzeti parkban (beleértve a Krugert is) történő repülés sérti a NEMA Protected Areas Act rendelkezéseit, és ettől különállóan a polgári légiközlekedési szabályok be nem tartásával végzett UAV-üzemeltetés akár R50,000 bírsággal és/vagy 10 év szabadságvesztéssel járhat.",
+      "Bármely nemzeti park (a Krugert is beleértve) felett 2500 ft alatt, a park kezelő hatóságának előzetes írásos engedélye nélkül repülni a Protected Areas Act szerint bűncselekmény – első alkalommal akár R5 millió és/vagy 5 év szabadságvesztés (ismételt elkövetés esetén R10 millió és/vagy 10 év). A polgári légiközlekedési szabályok megszegése ettől függetlenül bírsággal és/vagy akár 10 év szabadságvesztéssel járhat.",
       "Dél-Afrika 10 km-es repülőtéri zónája jóval szigorúbb, mint a legtöbb országé (jellemzően 3–9 km) — ellenőrizd az aktuális távolságot a SACAA-nál.",
-      "A kereskedelmi üzemeltetőknek három külön tanúsítványra van szükségük: RPC, ROC és RLA",
+      "A vállalati és nonprofit üzemeltetőknek ugyanazokra a jóváhagyásokra van szükségük, mint a kereskedelmieknek – RPL, UASOC (korábban ROC), RLA és C of R; csak az Air Service Licence (ASL) szól kizárólag kereskedelmi használatra",
       "A jogsértések büntetőeljárást is maguk után vonhatnak"
     ],
     "primaryLinks": [
@@ -42,7 +45,7 @@
     "secondaryLinks": [
       {
         "title": "SACAA – Kereskedelmi engedélyezés",
-        "description": "Az RPC, ROC és RLA követelményei a kereskedelmi célú drónüzemeléshez"
+        "description": "Az RPL, UASOC, RLA, C of R és ASL követelményei a nem magáncélú drónműveletekhez"
       }
     ]
   }

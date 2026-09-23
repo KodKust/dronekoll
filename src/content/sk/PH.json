@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "e85b5f3541d893697ea6591ad6e2d83b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "cd7d00ae89362b29f698d8bc4b8a6112",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -13,22 +13,26 @@
     "linksSheetTitle": "Vzdušný priestor a pravidlá — Filipíny",
     "dronePilotCredentialName": "Osvedčenie riadiaceho RPA",
     "keyRules": [
-      "Max. 400 ft (122 m) nad úrovňou terénu",
-      "Dron musíte mať vždy v priamom vizuálnom dohľade bez pomôcok (okuliare alebo kontaktné šošovky sú povolené). Lietanie s FPV okuliarmi je povolené iba s vizuálnym pozorovateľom, ktorý udržiava VLOS; let mimo vizuálneho dohľadu vyžaduje povolenie CAAP (PCAR Part 11).",
-      "Registrácia sa vyžaduje pre KAŽDÉ komerčné použitie dronu bez ohľadu na hmotnosť; nekomerčné drony sa registrujú až pri hmotnosti 7 kg a viac podľa CAAP PCAR Part 11",
-      "Dodržujte vzdialenosť najmenej 10 km od každého letiska — toto ochranné pásmo bolo rozšírené prostredníctvom CAAP Memorandum Circular 026-2025 po spozorovaní dronov pri NAIA (Manila) koncom roka 2024/začiatkom roka 2025 a prísne sa vymáha.",
+      "Maximálna výška je 120 m (približne 400 ft) nad úrovňou terénu.",
+      "Dron musíte neustále sami udržiavať v priamom vizuálnom dohľade (okuliare alebo kontaktné šošovky sú v poriadku; okuliare FPV, ďalekohľad ani obrazovky sa nepočítajú). Lietanie mimo vizuálneho dohľadu, a to aj s vizuálnymi pozorovateľmi (EVLOS), vyžaduje povolenie CAAP (PCAR Part 11).",
+      "Registrácia na CAAP sa vyžaduje pre všetky drony používané komerčne (akákoľvek hmotnosť) a pre nekomerčné drony s hmotnosťou 7 kg a viac (pravidlá registrácie CAAP). PCAR Part 11 je formulovaná širšie, preto sa v prípade pochybností obráťte na CAAP (awd@caap.gov.ph).",
+      "Zostaňte najmenej 10 km od akéhokoľvek letiska, pokiaľ nemáte CAAP Special Permit (potom s vizuálnym pozorovateľom a max. 120 m AGL) — potvrdené v CAAP Memorandum Circular 026-2025 a prísne vymáhané.",
+      "Bez CAAP Special Permit nelietajte v riadenom vzdušnom priestore, v zakázaných ani obmedzených priestoroch, nad zariadeniami citlivými z hľadiska národnej bezpečnosti, nad hasičskými, policajnými ani inými záchrannými zásahmi ani z idúceho vozidla (PCAR Part 11).",
       "Minimálna vzdialenosť 30 m od nezúčastnených osôb",
+      "Dodržiavajte horizontálnu vzdialenosť najmenej 150 m od obytných, obchodných, priemyselných a rekreačných oblastí a nikdy nelietajte nad nezúčastnenými osobami ani davmi (PCAR Part 11, otvorená kategória; max. vzletová hmotnosť 25 kg).",
       "Nočné lietanie vyžaduje osobitné povolenie CAAP a riadne osvetlenie dronu — štandardne nie je povolené.",
       "RPA Controller Certificate sa vyžaduje na komerčné použitie alebo pre drony nad 7 kg (platné 5 rokov)",
-      "Komerčná prevádzka vyžaduje UAS Operator Certificate (platné 3 roky) a zároveň Remote Pilot License pre pilota; táto licencia sa vyžaduje pri komerčnom použití alebo pri dronoch s hmotnosťou 7 kg a viac aj pri rekreačnom lietaní.",
-      "Poistenie zodpovednosti sa pri komerčnej prevádzke vyžaduje ako súčasť procesu získania UAS Operator Certificate.",
-      "Vždy dajte prednosť všetkým lietadlám s posádkou"
+      "Komerčná práca s dronmi a akýkoľvek let mimo otvorenej kategórie (napr. drony nad 25 kg alebo lety mimo vizuálneho dohľadu) vyžadujú CAAP Certificate of Authorization (platnosť 5 rokov), licencovaného diaľkovo riadiaceho pilota, registráciu dronu a poistenie zodpovednosti voči tretím osobám (PCAR Part 11).",
+      "Vždy dajte prednosť všetkým lietadlám s posádkou",
+      "Nelietajte do 8 hodín po požití alkoholu. Každé vážne zranenie alebo škodu na majetku nahláste CAAP do 48 hodín."
     ],
     "importantNotes": [
-      "10-kilometrová zakázaná zóna okolo letísk (rozšírená v roku 2025 prostredníctvom MC 026-2025) je prísnejšia než bežné ochranné pásma 3 – 9 km vo väčšine krajín.",
-      "Komerční prevádzkovatelia potrebujú osvedčenie riadiaceho RPA (5 rokov) aj osvedčenie prevádzkovateľa UAS (3 roky)",
+      "Zóna 10 km okolo letísk je väčšia ako vo väčšine krajín; lietanie v nej vyžaduje CAAP Special Permit.",
+      "Komerční prevádzkovatelia potrebujú CAAP Certificate of Authorization (platnosť 5 rokov) a každý pilot potrebuje RPA Controller Certificate (platnosť 5 rokov).",
       "Nočné lietanie nie je štandardne povolené — potrebujete osobitné povolenie CAAP a dron musí mať správne osvetlenie.",
-      "Poistenie zodpovednosti je povinné pri všetkých komerčných prevádzkach dronov ako súčasť procesu získania osvedčenia prevádzkovateľa."
+      "Poistenie zodpovednosti voči tretím osobám je povinné pri všetkých komerčných prevádzkach dronov (kategória Specific) spolu s Certificate of Authorization.",
+      "Za porušenie pravidiel CAAP pre drony hrozí pokuta 20 000 – 100 000 PHP za každé porušenie.",
+      "Zahraniční piloti, ktorí potrebujú pilotné osvedčenie CAAP (komerčné použitie alebo drony od 7 kg), si môžu namiesto získania miestneho osvedčenia nechať platnú zahraničnú licenciu RPA uznať (validovať) úradom CAAP; validácia platí 1 rok a vyžaduje výcvik od výrobcu, 5 hodín skúseností a predvádzací let pred CAAP."
     ],
     "primaryLinks": [
       {
@@ -42,12 +46,12 @@
     ],
     "secondaryLinks": [
       {
-        "title": "CAAP — Registračný portál UA",
-        "description": "Zaregistrujte svoj dron v registri UA úradu CAAP"
+        "title": "CAAP — registrácia RPA",
+        "description": "Zaregistrujte svoj dron na CAAP"
       },
       {
-        "title": "CAAP — Komerčné licencovanie",
-        "description": "Požiadavky na osvedčenie riadiaceho RPA a osvedčenie prevádzkovateľa UAS"
+        "title": "CAAP — RPA Controller Certificate",
+        "description": "Požiadavky na RPA Controller Certificate a postup podania žiadosti"
       }
     ]
   }

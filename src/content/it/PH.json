@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "e85b5f3541d893697ea6591ad6e2d83b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "cd7d00ae89362b29f698d8bc4b8a6112",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -13,22 +13,26 @@
     "linksSheetTitle": "Spazio aereo e regole — Filippine",
     "dronePilotCredentialName": "Certificato di pilota RPA",
     "keyRules": [
-      "Massimo 400 ft (122 m) dal suolo",
-      "Devi mantenere sempre il contatto visivo diretto e senza ausili con il drone (occhiali o lenti a contatto sono consentiti). Il volo con visore FPV è consentito solo con un osservatore visivo che mantenga il VLOS; il volo oltre la linea di vista richiede l'autorizzazione della CAAP (PCAR Part 11).",
-      "La registrazione è obbligatoria per QUALSIASI uso commerciale dei droni (indipendentemente dal peso); i droni non commerciali devono essere registrati solo da 7 kg in su, secondo la CAAP PCAR Part 11.",
-      "Mantieni una distanza di almeno 10 km da qualsiasi aeroporto: questa zona cuscinetto è stata ampliata tramite la CAAP Memorandum Circular 026-2025 dopo avvistamenti di droni vicino a NAIA (Manila) tra la fine del 2024 e l'inizio del 2025 ed è applicata con rigore.",
+      "L'altitudine massima è di 120 m (circa 400 ft) dal suolo.",
+      "Devi mantenere personalmente il drone in linea di vista diretta in ogni momento (occhiali o lenti a contatto sono ammessi; visori FPV, binocoli o schermi non contano). Il volo oltre la linea di vista, anche con osservatori visivi (EVLOS), richiede l'autorizzazione della CAAP (PCAR Part 11).",
+      "La registrazione presso la CAAP è obbligatoria per tutti i droni usati a fini commerciali (qualsiasi peso) e per i droni non commerciali da 7 kg in su (norme CAAP sulla registrazione). La PCAR Part 11 è formulata in modo più ampio, quindi in caso di dubbio verifica con la CAAP (awd@caap.gov.ph).",
+      "Resta ad almeno 10 km da qualsiasi aerodromo, a meno che tu non sia titolare di uno Special Permit della CAAP (in tal caso con un osservatore visivo e max 120 m AGL): regola ribadita dalla CAAP Memorandum Circular 026-2025 e applicata rigorosamente.",
+      "Senza uno Special Permit della CAAP, non volare nello spazio aereo controllato, in aree proibite o soggette a restrizioni, sopra strutture sensibili per la sicurezza nazionale, sopra operazioni dei vigili del fuoco, della polizia o di altri servizi di emergenza, né da un veicolo in movimento (PCAR Part 11).",
       "Distanza minima di 30 m dalle persone non coinvolte",
+      "Mantieni una distanza orizzontale di almeno 150 m da aree residenziali, commerciali, industriali e ricreative e non sorvolare mai persone non coinvolte o assembramenti (PCAR Part 11, categoria Open; massa massima al decollo 25 kg).",
       "Il volo notturno richiede un permesso speciale della CAAP e un'illuminazione adeguata sul drone: non è consentito di norma.",
       "Il certificato di pilota RPA è richiesto per l'uso commerciale o per droni di peso superiore a 7 kg (validità: 5 anni).",
-      "Le operazioni commerciali richiedono un certificato di operatore UAS (valido 3 anni) e una licenza di pilota remoto per il pilota; quest'ultima è richiesta per l'uso commerciale o per droni di peso pari o superiore a 7 kg, anche se utilizzati a scopo ricreativo.",
-      "Per le operazioni commerciali, l'assicurazione di responsabilità civile è richiesta nell'ambito della procedura per ottenere il certificato di operatore UAS.",
-      "Dai sempre la precedenza a tutti gli aeromobili con pilota"
+      "Il lavoro commerciale con droni e qualsiasi volo al di fuori della categoria Open (ad es. droni oltre 25 kg o voli oltre la linea di vista) richiedono un Certificate of Authorization della CAAP (valido 5 anni), un pilota remoto con licenza, la registrazione del drone e un'assicurazione di responsabilità civile verso terzi (PCAR Part 11).",
+      "Dai sempre la precedenza a tutti gli aeromobili con pilota",
+      "Non volare entro 8 ore dall'assunzione di alcol. Segnala alla CAAP entro 48 ore qualsiasi lesione grave o danno materiale."
     ],
     "importantNotes": [
-      "La zona di esclusione aeroportuale di 10 km (ampliata nel 2025 tramite MC 026-2025) è più severa delle tipiche zone cuscinetto di 3–9 km della maggior parte dei Paesi.",
-      "Gli operatori commerciali devono disporre sia del certificato di pilota RPA (5 anni) sia del certificato di operatore UAS (3 anni).",
+      "La zona aeroportuale di 10 km è più ampia che nella maggior parte dei Paesi; per volare al suo interno serve uno Special Permit della CAAP.",
+      "Gli operatori commerciali necessitano di un Certificate of Authorization della CAAP (valido 5 anni) e ogni pilota necessita di un RPA Controller Certificate (valido 5 anni).",
       "Il volo notturno non è consentito di norma: servono un permesso speciale della CAAP e un'illuminazione adeguata sul drone.",
-      "L'assicurazione di responsabilità civile è obbligatoria per tutte le operazioni commerciali con droni, nell'ambito della procedura per il certificato di operatore."
+      "L'assicurazione di responsabilità civile verso terzi è obbligatoria per tutte le operazioni commerciali con droni (categoria Specific), insieme al Certificate of Authorization.",
+      "Le violazioni delle norme CAAP sui droni possono essere sanzionate con multe di PHP 20.000–100.000 per violazione.",
+      "I piloti stranieri che necessitano di un certificato di pilota CAAP (uso commerciale o droni da 7 kg in su) possono far convalidare dalla CAAP una licenza RPA straniera valida invece di ottenerne una locale; la convalida è valida 1 anno e richiede la formazione del produttore, 5 ore di esperienza e un volo dimostrativo CAAP."
     ],
     "primaryLinks": [
       {
@@ -42,12 +46,12 @@
     ],
     "secondaryLinks": [
       {
-        "title": "CAAP — Portale del registro UA",
-        "description": "Registra il tuo drone nel registro UA della CAAP"
+        "title": "CAAP — Registrazione RPA",
+        "description": "Registra il tuo drone presso la CAAP"
       },
       {
-        "title": "CAAP — Licenze commerciali",
-        "description": "Requisiti del Certificato di controller RPA e del Certificato di operatore UAS"
+        "title": "CAAP — RPA Controller Certificate",
+        "description": "Requisiti e procedura di domanda per l'RPA Controller Certificate"
       }
     ]
   }

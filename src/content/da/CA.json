@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "51b497a18aafd4cff4e8165ebea4d22e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "05a601befa3ab4524ab9e1c3f953a9bc",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,21 +14,27 @@
     "dronePilotCredentialName": "Pilotcertifikat",
     "keyRules": [
       "Maksimalt 122 m (400 ft) over jorden",
-      "Vis registreringsnummeret (C-F####) på dronen",
+      "Flyv aldrig inden for 9,3 km (5 NM) fra en naturbrand eller inden for sikkerhedsperimeteret for en beredskabsindsats (ulykke, oversvømmelse) — gælder alle droner, også under 250 g.",
+      "Ingen flyvning ved eller nær annoncerede arrangementer (koncerter, festivaler, sport) uden et SFOC-RPAS — det gælder også droner under 250 g.",
+      "Vis dronens registreringsnummer (f.eks. C-1234567890) tydeligt på dronen",
       "Basic-certifikat: fra 14 år, eksamen med 35 spørgsmål (65 % for at bestå) — kun i ukontrolleret luftrum",
       "Advanced-certifikat: fra 16 år, eksamen med 50 spørgsmål (80 % for at bestå) + flyveprøve — kontrolleret luftrum",
       "Droner under 250 g: ingen registrering eller certifikat påkrævet",
+      "Udenlandske besøgende, der flyver deres egen drone på 250 g+: du skal have et canadisk dronepilotcertifikat (en licens fra hjemlandet tæller ikke) og et Foreign SFOC-RPAS, fordi udlændinge ikke kan registrere droner i Canada. Ansøg i god tid — servicestandarden er 30 arbejdsdage. Under 250 g: intet SFOC nødvendigt, undtagen ved annoncerede arrangementer.",
       "Hold altid dronen inden for synsvidde (VLOS) — direkte visuel kontakt uden hjælpemidler",
       "Hold 30 m vandret afstand til mennesker (grundlæggende operationer)",
-      "Medmindre du følger en fastlagt procedure fra Transport Canada, skal du holde 5,6 km (3 NM) afstand til certificerede lufthavne og 1,9 km (1 NM) til certificerede helikopterlandingspladser. Flyvning i kontrolleret luftrum kræver et Advanced-certifikat og NAV DRONE-tilladelse.",
+      "Natflyvning (droner 250 g+): dronen skal have lys, der holder den synlig for dig eller din visuelle observatør, og lysene skal være tændt.",
+      "Droner 250 g+: ingen flyvning inden for 12 timer efter indtagelse af alkohol eller under påvirkning",
+      "Basic: hold dig mere end 5,6 km (3 NM) fra certificerede lufthavne og 1,9 km (1 NM) fra certificerede helikopterlandingspladser. Tættere på kun med Advanced-certifikat efter fastlagte procedurer. Kontrolleret luftrum: Advanced-certifikat + drone med tilsvarende sikkerhedserklæring + NAV DRONE-tilladelse.",
+      "Inden for 5,6 km (3 NM) fra centrum af en militær flyveplads skal du have tilladelse fra Department of National Defence.",
       "Provins- og nationalparker forbyder generelt rekreativ droneflyvning — forbud er bekræftet i provinsparkerne i Alberta, Ontario og British Columbia samt i alle nationalparker under Parks Canada. Tjek reglerne for den konkrete park, før du flyver."
     ],
     "importantNotes": [
-      "Provinsparker i BC og Alberta forbyder rekreative droner uden tilladelse",
+      "Provinsparker i BC og Alberta: det er ulovligt at flyve med drone uden parkens tilladelse, og rekreativ flyvning er ikke tilladt (Alberta: enhver størrelse; BC: tilladelse gives sjældent)",
       "Provinsparker i Ontario og byparker i Toronto forbyder rekreative droner",
-      "De fleste kommuner forbyder droner i offentlige parker uden tilladelse",
+      "Andre kommuner kan også forbyde droner i byparker uden tilladelse — tjek de lokale vedtægter, før du flyver",
       "Forsikring er ikke påkrævet ved grundlæggende operationer, men anbefales kraftigt",
-      "Level 1 Complex Operations-certifikat (siden november 2025) muliggør BVLOS-operationer med lav risiko uden SFOC"
+      "Level 1 Complex-pilotcertifikat (18+) tillader BVLOS med lav risiko uden SFOC siden 4. november 2025 — men kun under et RPAS Operator Certificate (RPOC), som du selv eller den operatør, du flyver for, har"
     ],
     "primaryLinks": [
       {
@@ -37,7 +43,7 @@
       },
       {
         "title": "Transport Canada — Registrér din drone",
-        "description": "Registrér droner på 250 g+ via Drone Management Portal ($5, ~3 minutter)"
+        "description": "Registrér droner på 250 g+ via Drone Management Portal (ca. $10, justeres årligt; ~3 minutter)"
       },
       {
         "title": "NAV DRONE — Kontrolleret luftrum",

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "fca3bbf5a00a2bc5c8ae02d7f663df3d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb076b85a229a810666fd05392ea183d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,19 +14,22 @@
     "dronePilotCredentialName": "Fernpilotenlizenz",
     "keyRules": [
       "Direkte Sichtverbindung (VLOS) verpflichtend – max. 500 m horizontaler Abstand",
-      "Mindestabstand von 50 m zu Personen, Gebäuden und Fahrzeugen",
-      "Halte mindestens 10 km Abstand zu Flughäfen — das wird in Südafrika streng durchgesetzt. Prüfe die genaue Entfernung bei der SACAA, bevor du in Flughafennähe fliegst.",
-      "Drohnenflüge im Kruger-Nationalpark oder in jedem anderen südafrikanischen Nationalpark erfordern die ausdrückliche Genehmigung von SANParks (NEMA Protected Areas Act) — Flüge unter 2 500 ft über dem höchsten Punkt des Parks sind ohne Genehmigung verboten. Unabhängig davon kann der Betrieb eines unbemannten Luftfahrzeugs im südafrikanischen Luftraum ohne Einhaltung der zivilen Luftfahrtvorschriften mit einer Geldstrafe von bis zu 50 000 Rand und/oder bis zu 10 Jahren Haft geahndet werden.",
+      "Max. 150 ft (45 m) über Grund – und bleib unter dem höchsten Hindernis im Umkreis von 300 m (restricted VLOS)",
+      "50 m Mindestabstand zu Personen, öffentlichen Straßen und Gebäuden (sofern der Eigentümer es nicht erlaubt) – fliege niemals direkt über jemanden",
+      "Halte mindestens 10 km Abstand zu jedem Flugplatz – Flughäfen, Flugplätze und Hubschrauberlandeplätze (einschließlich privater Lodge-Landebahnen). In Südafrika streng durchgesetzt.",
+      "Keine Flüge in kontrolliertem, beschränktem oder verbotenem Luftraum oder in der Nähe von bzw. über Gefängnissen, Polizeiwachen, Tatorten, Gerichten, Kernkraftwerken oder National Key Points",
+      "Flüge unter 2.500 ft über dem höchsten Punkt eines Nationalparks (einschließlich Kruger), eines besonderen Naturschutzgebiets oder einer Welterbestätte erfordern die vorherige schriftliche Genehmigung der eigenen Verwaltungsbehörde des jeweiligen Gebiets (Protected Areas Act s47) – nicht nur in SANParks-Parks. Unabhängig davon können Verstöße gegen die Luftfahrtvorschriften mit einer Geldstrafe und/oder bis zu 10 Jahren Freiheitsstrafe geahndet werden.",
       "Nur bei Tageslicht – klare Wetterbedingungen erforderlich",
-      "Keine Registrierung oder Lizenz für Freizeitflüge erforderlich",
-      "Die gewerbliche Nutzung erfordert RPC (Fernpilotenzeugnis), ROC und RLA",
+      "Keine Registrierung oder Lizenz nötig für private, nicht gewerbliche Flüge mit Drohnen unter 7 kg (nur restricted VLOS)",
+      "Private Flüge nur über eigenem Grundstück oder mit Erlaubnis des Eigentümers, es zu überfliegen",
+      "Jede nicht private Nutzung (gewerblich, für Unternehmen oder gemeinnützig) erfordert eine Remote Pilot Licence (RPL), ein UAS Operating Certificate (UASOC, früher ROC), einen RPAS Letter of Approval (RLA) und eine SACAA-Registrierung (C of R); gewerbliche Nutzung erfordert zusätzlich eine Air Service Licence (ASL)",
       "Eine Versicherung ist in der Regel nur für den gewerblichen Betrieb erforderlich — prüfe die aktuellen Anforderungen der SACAA vor gewerblicher Nutzung.",
       "Fliege nicht über Menschenansammlungen oder öffentlichen Veranstaltungen"
     ],
     "importantNotes": [
-      "Flüge in einem Nationalpark (auch im Kruger) ohne Genehmigung von SANParks verstoßen gegen den NEMA Protected Areas Act, und der Betrieb eines unbemannten Luftfahrzeugs ohne Einhaltung der zivilen Luftfahrtvorschriften kann gesondert mit bis zu 50 000 Rand und/oder 10 Jahren Haft geahndet werden.",
+      "Flüge unter 2.500 ft über einem Nationalpark (einschließlich Kruger) ohne vorherige schriftliche Genehmigung der Parkverwaltung sind nach dem Protected Areas Act eine Straftat – bis zu R5 Millionen und/oder 5 Jahre Freiheitsstrafe beim ersten Verstoß (R10 Millionen und/oder 10 Jahre im Wiederholungsfall). Unabhängig davon können Verstöße gegen die Luftfahrtvorschriften mit einer Geldstrafe und/oder bis zu 10 Jahren Freiheitsstrafe geahndet werden.",
       "Die 10-km-Zone um Flughäfen in Südafrika ist deutlich strenger als in den meisten Ländern (üblich sind 3–9 km) — prüfe die aktuelle Entfernung bei der SACAA.",
-      "Gewerbliche Betreiber benötigen drei getrennte Zertifizierungen: RPC, ROC und RLA",
+      "Unternehmen und gemeinnützige Betreiber brauchen dieselben Genehmigungen wie gewerbliche – RPL, UASOC (früher ROC), RLA und C of R; nur die Air Service Licence (ASL) gilt ausschließlich für gewerbliche Nutzung",
       "Zu den Folgen von Verstößen kann eine strafrechtliche Verfolgung gehören"
     ],
     "primaryLinks": [
@@ -42,7 +45,7 @@
     "secondaryLinks": [
       {
         "title": "SACAA – Gewerbliche Zulassung",
-        "description": "Anforderungen an RPC, ROC und RLA für gewerbliche Drohneneinsätze"
+        "description": "Anforderungen an RPL, UASOC, RLA, C of R und ASL für nicht private Drohneneinsätze"
       }
     ]
   }

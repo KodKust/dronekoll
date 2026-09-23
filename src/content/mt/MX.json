@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "17d852a01e48f71061854c0a7b614ed78721768d3d73eccf5ccdda3a556d264f",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "sourceHash": "da2427b1326315670ad00c40760c98fe7dcb581d5abb3f16d2aa07daea8f6c28",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Għoli massimu: 120 m (400 ft) 'il fuq mill-art",
-      "Distanza minima ta' 9.2 km mill-ajruporti kkontrollati",
-      "Distanza minima ta' 3.7 km mill-ajrudromi mhux ikkontrollati",
+      "Distanza minima ta' 9.2 km (5 NM) minn kwalunkwe ajrudrom, ikkontrollat jew mhux ikkontrollat (NOM-107-SCT3-2019, 4.10.1).",
+      "Bejn 9.2 km (5 NM) u 18.5 km (10 NM) mill-ajrudromi elenkati fin-NOM-107 (Appendiċi I): għoli massimu 100 m (328 ft).",
       "Distanza minima ta' 900 m mill-eliporti",
+      "It-titjir huwa pprojbit fiż-żoni pprojbiti, ristretti jew perikolużi tal-AIP (ENR 5.1) u fil-kurituri tal-ħelikopters; iċċekkja n-NOTAMs qabel kull titjira.",
       "Żomm dejjem id-drone fil-linja tal-vista diretta (VLOS), mhux aktar minn 457 m mill-operatur",
-      "Droni li jiżnu 250 g jew aktar: reġistrazzjoni obbligatorja mal-AFAC (formola tal-Appendiċi K)",
+      "Droni ta' aktar minn 250 g: reġistrazzjoni obbligatorja mal-AFAC qabel ittir (formola tal-Appendiċi K)",
       "Droni li jiżnu inqas minn 250 g: eżentati mir-reġistrazzjoni, iżda japplikaw ir-regoli l-oħra kollha",
-      "Kategoriji ta' piż: Micro (≤2 kg), Ħafif (2–25 kg), Tqil (>25 kg)",
+      "Kategoriji ta' piż: Micro (≤2 kg), Small (>2–25 kg), Large (>25 kg)",
+      "Droni rikreattivi ta' aktar minn 2 kg: jistgħu jtiru biss fi ħdan klabbs tal-mudelli tal-ajruplani awtorizzati mill-AFAC.",
       "It-titjiriet bil-lejl jeħtieġu awtorizzazzjoni speċifika mill-AFAC",
-      "L-użu kummerċjali jeħtieġ awtorizzazzjoni addizzjonali skont il-kategorija tal-piż"
+      "Użu privat mhux kummerċjali jew kummerċjali: assigurazzjoni valida tar-responsabbiltà ċivili hija obbligatorja; Micro (≤2 kg) jeħtieġ ukoll awtorizzazzjoni speċjali għall-ispazju tal-ajru kkontrollat; Small u Large jeħtieġu awtorizzazzjoni operattiva mill-AFAC."
     ],
     "importantNotes": [
-      "⚠️ PILOTI BARRANIN: NOM-107 tipprojbixxi l-operat ta' droni rreġistrati barra l-pajjiż jew minn ċittadini barranin sakemm ma jkunx hemm ftehim bilaterali bejn il-Messiku u l-pajjiż tal-oriġini. Turisti: Iċċekkja qabel tivvjaġġa.",
-      "Il-penali għall-operazzjonijiet illegali jistgħu jilħqu sa MXN $80,000 jew ħabs",
+      "PILOTI BARRANIN: in-NOM-107-SCT3-2019 tipprojbixxi l-operat ta' droni b'reġistrazzjoni barranija jew ippilotati minn ċittadini barranin, sakemm ma jkunx hemm ftehim bilaterali bejn il-Messiku u l-pajjiż tal-oriġini — bħalissa mhu magħruf l-ebda ftehim bħal dan fis-seħħ.",
+      "Biex jiġu importati fil-Messiku, id-droni Micro ta' aktar minn 250 g u d-droni Small iridu jkollhom manifattur u mudell, numru tas-serje, manwal tal-utent u software li jillimita awtomatikament id-distanza u l-għoli (NOM-107, 10.1).",
+      "In-nuqqas ta' konformità man-NOM-107 jista' jiġi sanzjonat mill-AFAC taħt il-Ley de Aviación Civil; l-użu tad-droni biex jitwettqu delitti (eż. twaqqigħ ta' splussivi jew attakki fuq nies) huwa punibbli bil-ħabs (Código Penal Federal, arts. 163 Bis–Quáter).",
       "Il-parki nazzjonali u s-siti arkeoloġiċi (INAH) ġeneralment jipprojbixxu d-droni mingħajr permess speċjali",
       "Il-marini u ż-żoni kostali spiss ikunu soġġetti għal restrizzjonijiet—iċċekkja mal-awtoritajiet lokali",
       "Ir-reġistru tal-AFAC għandu żmien ta' rispons ta' sa 10 ijiem tax-xogħol—ippjana minn qabel"
@@ -37,16 +40,12 @@
       {
         "title": "NOM-107-SCT3-2019 — Standard Uffiċjali",
         "description": "L-Istandard Uffiċjali Messikan li jistabbilixxi r-rekwiżiti għall-operat ta' sistema ta' inġenju tal-ajru pilotat mill-bogħod"
-      },
-      {
-        "title": "Ċirkolari CO AV-23/10 R4",
-        "description": "Ċirkolari obbligatorja li tistabbilixxi r-rekwiżiti tekniċi u operattivi dettaljati għad-droni"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "ASA — Ajruporti u Servizzi Awżiljarji",
-        "description": "Informazzjoni dwar l-ajruporti federali Messikani biex tiċċekkja għal żoni ristretti"
+        "title": "AFAC — Database tal-Ajrudromi u l-Eliporti",
+        "description": "Lista uffiċjali attwali tal-ajrudromi u l-eliporti biex tiċċekkja d-distanzi minimi tan-NOM-107"
       },
       {
         "title": "SICT — Avjazzjoni Ċivili",
@@ -62,6 +61,6 @@
     "sectionLabelPrimary": "SORSI UFFIĊJALI",
     "sectionLabelSecondary": "RIŻORSI ADDIZZJONALI",
     "linksSheetTitle": "Spazju tal-Ajru u Regolamenti — Messiku",
-    "dronePilotCredentialName": "Liċenzja ta' Pilota Remot"
+    "dronePilotCredentialName": "Awtorizzazzjoni ta' Pilota tal-RPAS"
   }
 }

@@ -1,61 +1,65 @@
 {
- "meta": {
-  "sourceHash": "6bd279870909de9539cac55440892030da06bb4b119368a297585876f27098df",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Maximum 120 m deasupra solului (categoria EASA Open)",
-   "Înregistrează-te ca operator UAS (gratuit), dacă drona cântărește 250 g sau mai mult ori are o cameră",
-   "Instruire online A1/A3 necesară — vârsta minimă 16 ani",
-   "Situri arheologice restricționate: Acropole, Delphi, Olympia și altele",
-   "Menține întotdeauna contactul vizual direct (VLOS) cu drona",
-   "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
-   "Distanță minimă de 8 km față de fiecare aeroport",
-   "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
-   "Aeroporturi insulare: verifică cu atenție harta DAGR — multe insule au CTR-uri extinse"
-  ],
-  "importantNotes": [
-   "Siturile arheologice și monumentele de patrimoniu cultural sunt strict interzise — se aplică amenzi usturătoare",
-   "Aeroporturile insulare creează zone restricționate întinse",
-   "Instalații militare: zone de interdicție totală de zbor (multe pe insule)",
-   "GDPR se aplică atunci când sunt filmate persoane identificabile"
-  ],
-  "primaryLinks": [
-   {
-    "title": "HCAA — reglementări privind dronele",
-    "description": "Reguli și informații oficiale ale Autorității Aviației Civile privind dronele"
-   },
-   {
-    "title": "HCAA — înregistrarea pilotului",
-    "description": "Înregistrare gratuită ca operator UAS (valabilă în toate țările UE/EASA)"
-   },
-   {
-    "title": "DAGR — harta spațiului aerian pentru drone",
-    "description": "Harta geografică oficială a restricțiilor privind zborurile cu drone în Grecia"
-   },
-   {
-    "title": "HCAA — notificarea zborului",
-    "description": "Depunerea unei notificări prealabile a zborului cu 5 zile în avans (obligatorie pentru fiecare zbor)"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "HASP — sporturi aeriene",
-    "description": "Federația elenă de sporturi aeriene și informații despre zborul recreativ"
-   },
-   {
-    "title": "HCAA — întrebări frecvente despre drone",
-    "description": "Întrebări frecvente despre reglementările privind dronele în Grecia"
-   }
-  ],
-  "disclaimerText": "Înainte de fiecare zbor, verifică întotdeauna sursele oficiale ale Autorității Elene a Aviației Civile (HCAA) și harta DAGR. Această aplicație este un instrument — nu o autoritate juridică. Grecia respectă reglementările EASA, cu adăugiri naționale, inclusiv, printre altele, cerința obligatorie de notificare a zborului cu 5 zile în avans.",
-  "sectionLabelRules": "REGULI DE BAZĂ (CLASA EASA OPEN)",
-  "sectionLabelPrimary": "SURSE OFICIALE",
-  "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
-  "linksSheetTitle": "Spațiu aerian și reglementări — Grecia",
-  "dronePilotCredentialName": "Certificat de operator"
- }
+  "meta": {
+    "sourceHash": "e631818b431dccaf473ebde5f460a6b9eb0f571b8775190b265998e6821bc00d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "În categoria Open, înălțimea maximă este de 120 m, măsurată ca distanța față de cel mai apropiat punct al suprafeței pământului — nu pur și simplu pe verticală, așa că lângă o pantă poate conta și terenul de lângă tine. Pe o rază de 50 m de un obstacol artificial înalt (peste 105 m), entitatea responsabilă de obstacol poate solicita permisiunea de a zbura până la 15 m deasupra înălțimii obstacolului.",
+      "Trebuie să te înregistrezi ca operator de drone dacă drona ta cântărește 250 g sau mai mult (sau ar putea transfera peste 80 J de energie cinetică la impact) — acest lucru se aplică chiar și jucăriilor. Sub 250 g, înregistrarea este totuși necesară dacă drona are un senzor capabil să capteze date cu caracter personal, cu excepția cazului în care se califică drept jucărie conform Directivei UE privind siguranța jucăriilor. Cerințele de instruire/certificare a pilotului sunt separate și depind de clasa și subcategoria dronei.",
+      "Numărul tău de înregistrare ca operator trebuie aplicat pe toate dronele tale și introdus în sistemul de identificare la distanță (Remote ID), dacă drona are unul. Înregistrarea în Grecia se reînnoiește după 3 ani.",
+      "Vizitatori din țări din afara UE/EASA: dacă drona ta necesită înregistrare (vezi mai sus) și nu ești deja înregistrat într-un alt stat EASA, înregistrează-te în Grecia înainte de zbor (fără cod fiscal grecesc (AFM): o cerere specială cu pașaportul pe site-ul HCAA). Rezidenții unui alt stat EASA se înregistrează în țara de reședință. Instruirea și certificatele de pilot din țări din afara UE nu sunt recunoscute în UE.",
+      "Asigurarea de răspundere civilă față de terți este obligatorie pentru orice dronă folosită profesional, precum și pentru dronele folosite în scop privat de 4 kg și peste (legislația națională).",
+      "În Grecia, vârsta minimă este de 16 ani — nu se aplică nicio cerință de vârstă pentru zborul cu o dronă din clasa C0 care este jucărie în subcategoria A1, cu o dronă construită în regim privat sub 250 g sau sub supravegherea directă a unui pilot certificat.",
+      "Zone precum Acropole, Delfi și Olympia se află în zone galbene/magenta — zborurile sunt permise în anumite condiții sau complet interzise, în funcție de zona concretă, iar aprobarea prealabilă a HCAA este necesară cu cel puțin 5 zile lucrătoare înainte.",
+      "În categoria Open, menține drona în câmpul tău vizual direct, cu ochiul liber (ochelarii/lentilele de contact sunt permise; binoclul sau un ecran nu sunt acceptate) — sau cu ajutorul unui observator, cu o comunicare clară și eficientă între voi în permanență, astfel încât să supravegheați împreună spațiul aerian și să evitați coliziunile. Modul follow-me este o excepție separată, permisă până la 50 m de pilot.",
+      "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
+      "Nu există o distanță unică la nivelul UE pe care trebuie să o păstrezi față de aeroporturi. Restricțiile din apropierea aeroporturilor sunt publicate ca zone geografice (articolul 15), a căror formă și dimensiune diferă de la un aeroport la altul. Înainte de a zbura în apropierea unui aeroport, aerodrom sau heliport, verifică harta oficială a zonelor pentru drone din țara ta; zborul într-o zonă de control (CTR) necesită în mod normal permisiunea prealabilă a controlului traficului aerian.",
+      "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
+      "Aeroporturi insulare: verifică cu atenție harta DAGR — multe insule au CTR-uri extinse"
+    ],
+    "importantNotes": [
+      "Incendii de vegetație: zborul este interzis în zonele desemnate prin NOTAM. Dacă vezi mijloace aeriene de stingere a incendiilor sau primești un mesaj 112 despre un incendiu în zonă, oprește imediat zborul și aterizează. Încălcări: amendă, urmărire penală, confiscarea dronei.",
+      "Siturile arheologice și monumentele de patrimoniu cultural necesită aprobarea prealabilă a HCAA (cu cel puțin 5 zile lucrătoare înainte) — nu sunt întotdeauna complet interzise, dar sunt supuse unui control strict.",
+      "Aeroporturile insulare creează zone restricționate întinse",
+      "Nu zbura deasupra porturilor, spitalelor, instalațiilor energetice și de telecomunicații sau a instalațiilor militare ori guvernamentale fără permisiunea prealabilă a HCAA — unele instalații militare și guvernamentale sunt zone de interdicție totală de zbor pe harta DAGR (multe pe insule). Încălcările pot atrage amenzi, sancțiuni penale și confiscarea echipamentului.",
+      "GDPR se aplică atunci când sunt filmate persoane identificabile"
+    ],
+    "primaryLinks": [
+      {
+        "title": "HCAA — reglementări privind dronele",
+        "description": "Reguli și informații oficiale privind dronele de la Autoritatea Elenă a Aviației Civile (HCAA)"
+      },
+      {
+        "title": "HCAA – Înregistrarea operatorilor",
+        "description": "Înregistrare ca operator UAS (pentru rezidenții Greciei, cu o taxă de 20 €; numărul de înregistrare este valabil în toate țările UE/EASA)"
+      },
+      {
+        "title": "DAGR — harta spațiului aerian pentru drone",
+        "description": "Harta geografică oficială a restricțiilor privind zborurile cu drone în Grecia"
+      },
+      {
+        "title": "HCAA – Cerere de aprobare a zborului (zonele DAGR)",
+        "description": "Cerere de aprobare a zborurilor în zonele DAGR galbene/magenta (cu cel puțin 5 zile lucrătoare înainte)"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "HASP – Furnizorul de servicii de navigație aeriană",
+        "description": "Furnizorul elen de servicii de navigație aeriană – operatorul DAGR și al NOTAM-urilor"
+      },
+      {
+        "title": "HCAA — întrebări frecvente despre drone",
+        "description": "Întrebări frecvente despre reglementările privind dronele în Grecia"
+      }
+    ],
+    "disclaimerText": "Înainte de fiecare zbor, verifică întotdeauna sursele oficiale ale Autorității Elene a Aviației Civile (HCAA) și harta DAGR. Această aplicație este un instrument — nu o autoritate juridică. Grecia respectă reglementările EASA, cu adăugiri naționale, inclusiv, printre altele, depunerea unei cereri la HCAA cu cel puțin 5 zile lucrătoare înainte pentru zborurile în zonele DAGR galbene/magenta, unde zborul este permis în anumite condiții.",
+    "sectionLabelRules": "REGULI DE BAZĂ (CATEGORIA EASA OPEN)",
+    "sectionLabelPrimary": "SURSE OFICIALE",
+    "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
+    "linksSheetTitle": "Spațiu aerian și reglementări — Grecia",
+    "dronePilotCredentialName": "Certificat de pilot la distanță"
+  }
 }

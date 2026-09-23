@@ -1,34 +1,35 @@
 {
   "meta": {
-    "sourceHash": "8c56d8d6e542afc955c989bfd255bb6e85a0ed0ddb98d0c06385589c15af8287",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "1ccf0d60f2daab09a23a0c0e3bbd85b102fdef6468c55b05317299a6742f4265",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálna výška: 120 m (400 ft) nad úrovňou terénu (AGL)",
-      "Minimálna vzdialenosť 8 km od letísk a letových plôch",
-      "Minimálna vzdialenosť 30 m od nezúčastnených osôb, zvierat a budov",
+      "Maximálna výška: 120 m (400 ft) nad úrovňou terénu, v neriadenom vzdušnom priestore.",
+      "Minimálna vzdialenosť 8 km od akéhokoľvek letiska; bližší let vyžaduje schválenie DGAC a vydanie NOTAM.",
+      "Lietajte iba mimo husto zastavaných oblastí miest, obcí alebo osád a mimo zhromaždení ľudí pod holým nebom. Bližšie smiete lietať iba s osobitným schválením DGAC, a nikdy nie bližšie ako 30 m od týchto budov alebo zhromaždení.",
       "VŠETKY drony s hmotnosťou pod 25 kg musia mať identifikačný štítok so sériovým číslom, menom vlastníka a telefónnym číslom",
-      "Drony s hmotnosťou 25 kg a viac: povinná registrácia na drones.dgac.go.cr",
+      "Povinná registrácia na drones.dgac.go.cr: drony ≥25 kg a každé nerekreačné použitie (komerčné aj nekomerčné) bez ohľadu na hmotnosť",
       "Rekreačné použitie <25 kg: NEVYŽADUJE formálnu registráciu, ak dodržiavate základné pravidlá",
       "Dron majte vždy v priamom vizuálnom dohľade (VLOS)",
       "Lietanie je povolené iba počas dňa a za dobrého počasia — nočné lietanie si vyžaduje povolenie",
+      "Nerekreačné nekomerčné použitie (vrátane dronov <25 kg): osvedčenie o spôsobilosti DGAC (min. 18 rokov), poistenie občianskoprávnej zodpovednosti a registrácia na drones.dgac.go.cr",
       "Komerčné použitie: licencia RPAS + osvedčenie Technickej rady + prevádzkové osvedčenie DGAC",
       "Je zakázané lietať nad súkromným pozemkom bez povolenia, nad väznicami, obmedzenými oblasťami a letiskami"
     ],
     "importantNotes": [
       "🏷️ POVINNÝ IDENTIFIKAČNÝ ŠTÍTOK: Hoci drony s hmotnosťou pod 25 kg na rekreačné použitie NEVYŽADUJÚ formálnu registráciu, VŠETKY drony musia mať identifikačný štítok so sériovým číslom, menom vlastníka a kontaktným telefónnym číslom. Ide o najprísnejšiu požiadavku na fyzickú identifikáciu.",
-      "✈️ ZAHRANIČNÍ TURISTI: Pravidlá platia pre nerezidentov. Na rekreačné použitie: identifikačný štítok + dodržiavanie základných pravidiel (žiadne letiská, žiadny súkromný pozemok, žiadne väznice) — formálna registrácia sa nevyžaduje. Colnica môže pri vstupe do krajiny vyžadovať colné vyhlásenie o drone.",
-      "🌳 NÁRODNÉ PARKY A SINAC: Národný systém chránených oblastí (SINAC) vyžaduje osobitné povolenie na drony v parkoch ako Manuel Antonio, Corcovado, Tortuguero, sopka Arenal, Monteverde a sopka Poás. Biodiverzita a voľne žijúce živočíchy sú chránené — pred cestou sa informujte v každom parku.",
-      "🏖️ TURISTICKÉ OBLASTI A LETISKÁ: SJO (Juan Santamaría, Alajuela), LIR (Liberia, Guanacaste), Prezidentský palác, veľvyslanectvá a vojenské zóny majú trvalé obmedzenia. Turistické pláže ako Tamarindo, Manuel Antonio a Jacó majú často ďalšie obmedzenia miestnych samospráv.",
+      "✈️ ZAHRANIČNÍ TURISTI: Pravidlá platia pre nerezidentov. Na rekreačné použitie: identifikačný štítok + dodržiavanie základných pravidiel (žiadne letiská, žiadny súkromný pozemok, žiadne väznice) — formálna registrácia sa nevyžaduje. Colnica môže pri vstupe do krajiny vyžadovať colné vyhlásenie o drone. Zahraniční piloti na komerčné účely: DGAC môže uznať zahraničnú licenciu RPAS (licencia aj lekárske osvedčenie musia byť platné) najviac na 3 mesiace, v odôvodnených prípadoch predĺžiteľné iba raz o 3 mesiace. Uznanie nenahrádza ostatné požiadavky na komerčné použitie.",
+      "🌳 NÁRODNÉ PARKY A SINAC: drony nie sú povolené v národnom parku Manuel Antonio (SINAC). Iné chránené územia ich môžu zakazovať alebo obmedzovať — overte si to v každom území PRED cestou.",
+      "🏖️ OBMEDZENÉ ZÓNY: bez povolenia DGAC je zakázané lietať v zakázaných alebo obmedzených zónach uverejnených v AIP a do 8 km od letísk, ako sú SJO a LIR. Overte si aj prípadné obecné obmedzenia.",
       "💰 KOMERČNÉ POUŽITIE A POKUTY: Komerčné lety bez licencie RPAS alebo osvedčenia Technickej rady môžu viesť k pokutám, zabaveniu zariadenia a zákazu prevádzky. Pri platenej fotografickej/videografickej práci: získajte licenciu pred začatím činnosti."
     ],
     "primaryLinks": [
       {
         "title": "DGAC — Register dronov (osobitný portál)",
-        "description": "Oficiálna stránka Generálneho riaditeľstva civilného letectva na registráciu dronov a získanie registračného čísla. Platforma osobitne pre RPAS"
+        "description": "Oficiálny samostatný portál Generálneho riaditeľstva civilného letectva na registráciu dronov a získanie registračného čísla. Platforma osobitne pre RPAS"
       },
       {
         "title": "DGAC — Domovská stránka",
@@ -57,7 +58,7 @@
         "description": "Oficiálna turistická stránka Kostariky. Užitočná na pochopenie turistických oblastí s osobitnými obmedzeniami pre drony"
       }
     ],
-    "disclaimerText": "Pred lietaním vždy skontrolujte oficiálne zdroje DGAC. Táto aplikácia je nástroj, nie právny zdroj. Kostarika uplatňuje RAC OPS RPAS a prevádzkovú smernicu DGAC. Všetky drony musia mať identifikačný štítok; komerčné použitie vyžaduje osvedčenie Technickej rady civilného letectva.",
+    "disclaimerText": "Pred lietaním vždy skontrolujte oficiálne zdroje DGAC. Táto aplikácia je nástroj, nie právny zdroj. Kostarika uplatňuje RAC-RPAS (Decreto Ejecutivo N° 44615-MOPT, platný od 27. 9. 2024). Všetky drony musia mať identifikačný štítok; komerčné použitie vyžaduje osvedčenie Technickej rady civilného letectva.",
     "sectionLabelRules": "KĽÚČOVÉ PRAVIDLÁ",
     "sectionLabelPrimary": "OFICIÁLNE ZDROJE",
     "sectionLabelSecondary": "ĎALŠIE ZDROJE",

@@ -1,63 +1,67 @@
 {
- "meta": {
-  "sourceHash": "20d25911745bc6945c5cccf0785ea82d556cd1bb0a98eb5f9e4b1f82d7230b03",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Högst 120 m över marken (EASA öppen kategori)",
-   "Registrera dig som UAS-operatör (25 €/år, eller 10 € för ett turistpass)",
-   "A1/A3-onlineutbildning krävs – lägsta ålder 16 år",
-   "Ansvarsförsäkring mot tredje man är obligatorisk för drönare oavsett vikt",
-   "HELA landet är kontrollerat luftrum – kontrollera alltid IDRONECT",
-   "Håll alltid drönaren inom synhåll (VLOS)",
-   "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
-   "Kontrollzonen (CTR) för Malta International Airport täcker större delen av ön",
-   "Nattflygning är förbjuden utan särskilt tillstånd",
-   "Valletta och historiska områden: ytterligare restriktioner gäller"
-  ],
-  "importantNotes": [
-   "HELA landet är kontrollerat luftrum – unikt inom EU",
-   "Försäkring är obligatorisk för drönare oavsett vikt",
-   "Kontrollzonen (CTR) för Malta Airport täcker större delen av huvudön",
-   "Turistregistrering finns tillgänglig (10 €) för kortare besök",
-   "GDPR gäller när du fångar bilder på identifierbara personer"
-  ],
-  "primaryLinks": [
-   {
-    "title": "TM-CAD – Regler för drönare",
-    "description": "Officiella drönarregler från Transport Maltas luftfartsdirektorat"
-   },
-   {
-    "title": "TM-CAD – Registrera dig som operatör",
-    "description": "Registrera dig som UAS-operatör (25 €/år eller 10 € för turister, giltigt i alla EU-/EASA-länder)"
-   },
-   {
-    "title": "IDRONECT – Flyghantering",
-    "description": "Plattform för att planera och få tillstånd för drönarflygningar på Malta"
-   },
-   {
-    "title": "TM-CAD – Översikt över reglerna",
-    "description": "Översikt över reglerna för att flyga drönare på Malta"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "MATS – Flygtrafiktjänst",
-    "description": "Maltas flygtrafiktjänst och luftrumsinformation"
-   },
-   {
-    "title": "TM-CAD – Vanliga frågor om drönare",
-    "description": "Vanliga frågor om reglerna för drönare på Malta"
-   }
-  ],
-  "disclaimerText": "Kontrollera alltid TM-CAD:s officiella källor och IDRONECT innan du flyger. Den här appen är ett verktyg – inte en juridisk auktoritet. Malta följer EASA-reglerna – observera att hela landet är kontrollerat luftrum.",
-  "sectionLabelRules": "VIKTIGASTE REGLERNA (EASA ÖPPEN KATEGORI)",
-  "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
-  "sectionLabelSecondary": "YTTERLIGARE RESURSER",
-  "linksSheetTitle": "Luftrum och regler – Malta",
-  "dronePilotCredentialName": "Fjärrpilotcertifikat"
- }
+  "meta": {
+    "sourceHash": "58ca5d4ebda944ebab8099950bf44fbb0464a578adf9411beaecf769f1064e8c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "I den öppna kategorin är högsta höjd 120 m, mätt som avståndet till närmaste punkt på markytan – inte bara rakt nedåt, så nära en sluttning kan även marken bredvid dig räknas in. Inom 50 m från ett högt konstgjort hinder (över 105 m) kan den som ansvarar för hindret begära tillstånd att flyga upp till 15 m över hindrets höjd.",
+      "Registrera dig som UAS-operatör på tmcad.idronect.com (25 €/år; besökare med ett EASA-operatörsnummer: 10 € för 3 månader)",
+      "Operatörens registreringsnummer eller dess QR-kod ska skrivas ut och fästas på drönaren – polisen kan kontrollera, och saknas det blir det påföljd.",
+      "A1/A3-intyg krävs för drönare över 250 g (onlineutbildning, prov på TM-CAD:s kontor i Lija) – lägsta ålder 16 år",
+      "Drönare med klassbeteckning C1, C2 eller C3 som är utrustade med Remote ID måste flyga med Remote ID aktivt och uppdaterat, med operatörens registreringsnummer inlagt.",
+      "Ansvarsförsäkring mot tredje man är obligatorisk för drönare oavsett vikt",
+      "HELA landet är kontrollerat luftrum – kontrollera alltid IDRONECT",
+      "I den öppna kategorin måste du hålla drönaren inom ditt eget direkta synhåll, endast med egna ögon (glasögon och linser går bra; kikare eller en skärm räknas inte) – eller flyga med hjälp av en observatör, med tydlig och effektiv kommunikation mellan er hela tiden, så att ni tillsammans kan bevaka luftrummet och undvika kollisioner. Follow-me-läget är ett separat undantag och är tillåtet upp till 50 m från piloten.",
+      "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
+      "Hela Malta är kontrollerat luftrum – varje drönarflygning kräver tillstånd från TM-CAD via tmcad.idronect.com. Många ansökningar med låg risk godkänns automatiskt inom några minuter när systemet bekräftar att flygningen uppfyller reglerna; följ villkoren i ditt Authorisation Form. En separat flygförbudszon på 5 km omfattar området kring Malta International Airport.",
+      "Flygningar som inte godkänns automatiskt måste sökas minst 5 arbetsdagar i förväg. För att flyga i en restriktionszon laddar du upp ett tillståndsbrev ('no objection') från zonens ägare i IDRONECT.",
+      "Nattflygning är förbjuden utan särskilt tillstånd",
+      "Valletta är en 'Special Permit Zone': kommersiella flygningar kräver ett särskilt tillstånd, bland annat ett 'no objection' från premiärministerns kansli. Vid alla andra flygningar i Valletta och de övriga restriktionszonerna ska du kontrollera IDRONECT-kartan och tillståndsvillkoren innan du flyger."
+    ],
+    "importantNotes": [
+      "HELA landet är kontrollerat luftrum – varje flygning kräver tillstånd från TM-CAD",
+      "Försäkring är obligatorisk för drönare oavsett vikt",
+      "Kontrollera flygplatszonerna och andra restriktionszoner på IDRONECT-kartan (tmcad.idronect.com/map)",
+      "Tremånadersregistrering (10 €) för besökare som redan har ett registreringsnummer som EASA-operatör; annars 25 €",
+      "GDPR gäller när du fångar bilder på identifierbara personer",
+      "Ha med bevis på registrering, försäkring, licens och tillstånd – annars kan det leda till böter. En flygning utan tillstånd eller utanför dess villkor kan leda till att drönaren beslagtas."
+    ],
+    "primaryLinks": [
+      {
+        "title": "TM-CAD – Regler för drönare",
+        "description": "Officiella drönarregler från Transport Maltas luftfartsdirektorat"
+      },
+      {
+        "title": "TM-CAD – Registrera dig som operatör",
+        "description": "Registrera dig som UAS-operatör på tmcad.idronect.com (25 €/år, giltigt i alla EU-/EASA-länder; 10 € för 3 månader för besökare som redan har ett EASA-operatörsnummer)"
+      },
+      {
+        "title": "IDRONECT – Flyghantering",
+        "description": "Plattform för att planera och få tillstånd för drönarflygningar på Malta"
+      },
+      {
+        "title": "TM-CAD – Översikt över reglerna",
+        "description": "Översikt över reglerna för att flyga drönare på Malta"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "MATS – Flygtrafiktjänst",
+        "description": "Maltas flygtrafiktjänst och luftrumsinformation"
+      },
+      {
+        "title": "TM-CAD – Information och hjälp",
+        "description": "Information och hjälp om drönarreglerna på Malta"
+      }
+    ],
+    "disclaimerText": "Kontrollera alltid TM-CAD:s officiella källor och IDRONECT innan du flyger. Den här appen är ett verktyg – inte en juridisk auktoritet. Malta följer EASA-reglerna – observera att hela landet är kontrollerat luftrum.",
+    "sectionLabelRules": "VIKTIGASTE REGLERNA (EASA ÖPPEN KATEGORI)",
+    "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
+    "sectionLabelSecondary": "YTTERLIGARE RESURSER",
+    "linksSheetTitle": "Luftrum och regler – Malta",
+    "dronePilotCredentialName": "Fjärrpilotcertifikat"
+  }
 }

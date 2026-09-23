@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Didžiausias skrydžio aukštis: 120 m (400 ft) virš žemės paviršiaus",
+      "Didžiausias aukštis: 120 m (400 ft) AGL (ANAC); pramoginiai skrydžiai: ne aukščiau kaip 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "Sunkesni nei 250 g dronai: privaloma registracija SISANT sistemoje (ANAC)",
-      "Iki 250 g sveriantys dronai: atleidžiami nuo registracijos, licencijuojami automatiškai",
-      "Mažiausias 5,4 km atstumas nuo oro uostų skrendant mažame aukštyje",
-      "Mažiausias 9 km atstumas nuo oro uostų skrydžiams iki 120 m",
+      "Dronų iki 250 g registruoti SISANT nereikia (ANAC Resolution No. 806). Nuo 2026 m. liepos 1 d. (ICA 100-40) šių dronų skrydžiams taip pat reikalingas leidimas per SARPAS (DECEA). Sunkesni nei 250 g dronai turi būti užregistruoti SISANT.",
+      "Oro uostų skrydžių ribojimo zonos (FRZ) (ICA 100-40, galioja nuo 2026 m. liepos 1 d.): aplink aerodromą (ZEA) FRZ prasideda nuo žemės paviršiaus iki 1 740 m; žemiau jos liekate skrisdami iki 100 ft (30 m) už 1 740 m, 200 ft (60 m) už 2 350 m, 300 ft už 2 960 m ir 400 ft už 3 570 m. Artėjimo ir kilimo sektoriuose (ZAD) FRZ prasideda nuo žemės paviršiaus iki 3 550 m; toliau: 100 ft už 3 550 m, 200 ft už 4 480 m, 300 ft už 5 400 m ir 400 ft už 6 320 m. Skrydžiams FRZ viduje reikalingas Termo de Coordenação ir SARPAS prašymas, pateiktas ne vėliau kaip prieš 4 kalendorines dienas.",
+      "Pramoginiai skrydžiai (ICA 100-40, 32 str.): didžiausias aukštis 200 ft (60 m) AGL, didžiausias horizontalus atstumas 300 m. Netoli aerodromų taikomos FRZ juostos – pasitikrinkite SARPAS.",
       "Visada laikykite droną tiesioginiame regėjimo lauke (VLOS)",
-      "Mažiausias 30 metrų atstumas nuo operacijoje nedalyvaujančių žmonių",
-      "Prieš kiekvieną skrydį kontroliuojamoje oro erdvėje būtinas SARPAS (DECEA) leidimas",
+      "Mažiausias 30 m atstumas nuo operacijoje nedalyvaujančių žmonių",
+      "Kiekvienam skrydžiui reikalingas leidimas naudotis oro erdve per SARPAS (DECEA), įskaitant dronus iki 250 g. Mažiausias išankstinio pranešimo terminas: 30 minučių atvirojoje kategorijoje; 4 arba 8 kalendorinės dienos operacijoms, kertančioms FRZ ar ribojamas zonas, BVLOS arba aukščiau nei 400 ft. Pramoginiams skrydžiams pramogai skirtoje EAC šis reikalavimas netaikomas.",
       "Siųstuvo įranga turi būti sertifikuota ANATEL",
-      "Naktiniams skrydžiams reikalingas specialus leidimas ir apsaugos nuo susidūrimo žibintai"
+      "Naktiniai skrydžiai: dronas turi turėti navigacinius žibintus (ICA 100-40, 20 str.)",
+      "Jaunesni nei 18 metų pilotai visada turi būti lydimi vyresnio nei 18 metų piloto, atsakingo už operaciją",
+      "Nepramoginis sunkesnių nei 250 g dronų naudojimas (RBAC No. 100): privalomas trečiųjų asmenų žalą dengiantis draudimas. ANAC teorijos egzamino (RBAC 100.13(b)) laikyti nereikia iki 2026 m. gruodžio 31 d. (Resolution No. 805/2026, 2 str.)."
     ],
     "importantNotes": [
-      "Turistams: Brazilija LEIDŽIA pramoginius skrydžius, tačiau sunkesni nei 250 g dronai prieš skrydį turi būti užregistruoti SISANT sistemoje",
-      "ANAC skiriamos baudos gali siekti 7 000 R$ už pažeidimą — skraidymas be registracijos ar SARPAS leidimo yra sunkus pažeidimas",
+      "Turistams: Brazilija LEIDŽIA pramoginius skrydžius. Sunkesni nei 250 g dronai turi būti užregistruoti SISANT sistemoje (užsieniečiai gali naudoti pasą), o skrydžiams reikalingas SARPAS (DECEA) leidimas, įskaitant dronus iki 250 g.",
+      "ANAC baudos už dronus prasideda nuo bazinių sumų – nuo R$ 750 iki R$ 4 500 už pažeidimą (skraidymas be registracijos: R$ 2 250 – Resolution No. 762/2024); atsižvelgiant į lengvinančias ir sunkinančias aplinkybes, galutinė suma gali būti nuo 20 % iki 300 % tos sumos (Resolution No. 761/2024, 35 str.). Skraidymas be SARPAS leidimo yra oro eismo pažeidimas, kurį nagrinėja JJAER (ICA 100-40, 66 str.).",
       "Nacionaliniuose parkuose (ICMBio) ir čiabuvių teritorijose (FUNAI) dronai paprastai draudžiami be atskiro leidimo",
       "Paplūdimiuose ir miestų turistinėse zonose (Rio, São Paulo, Salvador) galioja savivaldybių ribojimai — pasitikslinkite vietos valdžios institucijose"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — Skrydžio leidimas (DECEA)",
-        "description": "DECEA sistema skrydžio leidimui kontroliuojamoje oro erdvėje gauti. Būtina prieš kiekvieną skrydį"
+        "description": "DECEA sistema leidimui naudotis oro erdve gauti, įskaitant dronus iki 250 g. Būtina prieš kiekvieną skrydį"
       },
       {
         "title": "ANATEL — Įrangos sertifikavimas",
@@ -48,15 +50,15 @@
         "description": "Aktyvūs NOTAM pranešimai ir oficialūs DECEA aeronautikos žemėlapiai laikiniems ribojimams patikrinti"
       },
       {
-        "title": "ANAC — Dažnai užduodami klausimai apie dronus",
-        "description": "Oficialūs ANAC atsakymai į dažniausius dronų operatorių klausimus"
+        "title": "ANAC — dažniausiai užduodami klausimai apie SISANT (dronų registracija)",
+        "description": "Oficialūs ANAC atsakymai apie registraciją SISANT, taip pat ir užsieniečiams"
       },
       {
-        "title": "RBAC-E Nr. 94 — Visas techninis standartas",
-        "description": "Specialusis Brazilijos civilinės aviacijos reglamentas Nr. 94 — pilnas dronams taikomas tekstas"
+        "title": "RBAC No. 100 — visas techninis standartas",
+        "description": "Brazilijos civilinės aviacijos reglamentas Nr. 100 (pakeičia RBAC-E No. 94) — visas dronams taikomas tekstas"
       }
     ],
-    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius ANAC ir DECEA šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Brazilijoje galioja RBAC-E No. 94 (šiuo metu pereinama prie RBAC No. 100), pagal kurį privaloma gauti patvirtinimą per SARPAS.",
+    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius ANAC ir DECEA šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Brazilijoje taikomi RBAC No. 100 ir Resolution No. 806 (ANAC, nuo 2026 m. birželio) bei ICA 100-40 (DECEA, nuo 2026 m. liepos), privalomas leidimas per SARPAS.",
     "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
     "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
     "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",

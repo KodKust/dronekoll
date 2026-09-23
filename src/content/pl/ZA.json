@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "fca3bbf5a00a2bc5c8ae02d7f663df3d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb076b85a229a810666fd05392ea183d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,19 +14,22 @@
     "dronePilotCredentialName": "Licencja pilota zdalnego",
     "keyRules": [
       "Obowiązkowy lot w zasięgu wzroku (VLOS) — maksymalna odległość pozioma: 500 m",
-      "Minimalna odległość 50 m od osób, budynków i pojazdów",
-      "Zachowaj co najmniej 10 km od lotnisk — zasada ta jest rygorystycznie egzekwowana w Republice Południowej Afryki. Przed lotem w pobliżu lotniska sprawdź dokładną odległość w SACAA.",
-      "Lot dronem w Kruger lub jakimkolwiek innym parku narodowym w Republice Południowej Afryki wymaga wyraźnej zgody SANParks (NEMA Protected Areas Act) — bez zezwolenia zabronione są loty poniżej 2 500 ft nad najwyższym punktem parku. Niezależnie od tego operowanie dowolnym UAV w przestrzeni powietrznej Republiki Południowej Afryki bez przestrzegania przepisów lotnictwa cywilnego może skutkować grzywną do R50 000 i/lub karą do 10 lat pozbawienia wolności.",
+      "Maks. 150 ft (45 m) nad ziemią — i pozostań poniżej najwyższej przeszkody w promieniu 300 m (ograniczony VLOS)",
+      "Minimalna odległość 50 m od osób, dróg publicznych i budynków (chyba że właściciel wyrazi zgodę) — nigdy nie lataj bezpośrednio nad kimkolwiek",
+      "Zachowaj co najmniej 10 km od każdego lotniska — portów lotniczych, lądowisk i lądowisk dla śmigłowców (w tym prywatnych pasów startowych przy ośrodkach typu lodge). Ten przepis jest w Republice Południowej Afryki rygorystycznie egzekwowany.",
+      "Nie lataj w przestrzeni kontrolowanej, ograniczonej lub zakazanej ani w pobliżu lub nad więzieniami, komisariatami policji, miejscami przestępstw, sądami, elektrowniami jądrowymi i obiektami o kluczowym znaczeniu dla państwa (national key points)",
+      "Lot poniżej 2 500 ft nad najwyższym punktem dowolnego parku narodowego (w tym Kruger), specjalnego rezerwatu przyrody lub obiektu światowego dziedzictwa wymaga uprzedniej pisemnej zgody organu zarządzającego danym obszarem (Protected Areas Act s47) — nie tylko w parkach SANParks. Niezależnie od tego naruszenie przepisów lotnictwa cywilnego może skutkować grzywną i/lub karą do 10 lat pozbawienia wolności.",
       "Tylko za dnia — wymagane dobre warunki pogodowe",
-      "Brak wymogu rejestracji lub licencji dla lotów rekreacyjnych",
-      "Użytek komercyjny wymaga RPC (Remote Pilot Certificate), ROC oraz RLA",
+      "Do prywatnych, niekomercyjnych lotów dronami poniżej 7 kg nie jest wymagana rejestracja ani licencja (tylko ograniczony VLOS)",
+      "Loty prywatne wyłącznie nad nieruchomością, której jesteś właścicielem, lub za zgodą właściciela na przelot nad nią",
+      "Każdy użytek inny niż prywatny (komercyjny, firmowy lub non-profit) wymaga Remote Pilot Licence (RPL), UAS Operating Certificate (UASOC, dawniej ROC), RPAS Letter of Approval (RLA) oraz rejestracji w SACAA (C of R); użytek komercyjny wymaga ponadto Air Service Licence (ASL)",
       "Ubezpieczenie jest zasadniczo wymagane tylko w przypadku operacji komercyjnych — przed użyciem komercyjnym sprawdź aktualne wymagania SACAA.",
       "Nie lataj nad zgromadzeniami ludzi ani imprezami publicznymi"
     ],
     "importantNotes": [
-      "Lot w jakimkolwiek parku narodowym (w tym Kruger) bez zgody SANParks narusza NEMA Protected Areas Act, a operowanie UAV bez przestrzegania przepisów lotnictwa cywilnego może niezależnie skutkować grzywną do R50 000 i/lub karą do 10 lat pozbawienia wolności.",
+      "Lot poniżej 2 500 ft nad dowolnym parkiem narodowym (w tym Kruger) bez uprzedniej pisemnej zgody organu zarządzającego parkiem jest przestępstwem w rozumieniu Protected Areas Act — grozi za to do R5 mln i/lub 5 lat pozbawienia wolności za pierwsze przestępstwo (R10 mln i/lub 10 lat za ponowne). Niezależnie od tego naruszenie przepisów lotnictwa cywilnego może skutkować grzywną i/lub karą do 10 lat pozbawienia wolności.",
       "Strefa 10 km wokół lotnisk w Republice Południowej Afryki jest znacznie surowsza niż w większości krajów (zwykle 3–9 km) — sprawdź aktualną odległość w SACAA.",
-      "Operatorzy komercyjni potrzebują trzech odrębnych certyfikatów: RPC, ROC oraz RLA",
+      "Operatorzy firmowi i non-profit potrzebują tych samych zatwierdzeń co komercyjni — RPL, UASOC (dawniej ROC), RLA i C of R; jedynie Air Service Licence (ASL) dotyczy wyłącznie użytku komercyjnego",
       "Naruszenia mogą prowadzić do wszczęcia postępowania karnego"
     ],
     "primaryLinks": [
@@ -42,7 +45,7 @@
     "secondaryLinks": [
       {
         "title": "SACAA — Licencjonowanie komercyjne",
-        "description": "Wymagania RPC, ROC i RLA dla komercyjnych operacji dronowych"
+        "description": "Wymagania RPL, UASOC, RLA, C of R i ASL dla operacji dronowych innych niż prywatne"
       }
     ]
   }

@@ -1,27 +1,33 @@
 {
   "meta": {
-    "sourceHash": "508ee28346525a09001728f6f525106d73a15d373ba459d581dbbbe091cc7d62",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eee1f5c184b67a857980e5927e116be613b5cef533bad82326dd2e369b059d05",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalnie 120 m nad poziomem gruntu (kategoria otwarta EASA)",
+      "W kategorii otwartej maksymalna wysokość wynosi 120 m, mierzona jako odległość od najbliższego punktu powierzchni Ziemi — nie po prostu w pionie w dół, więc w pobliżu zbocza liczyć się może także teren obok ciebie. W promieniu 50 m od wysokiej przeszkody sztucznej (powyżej 105 m) podmiot odpowiedzialny za przeszkodę może wystąpić o zezwolenie na lot do 15 m powyżej wysokości przeszkody.",
       "Liechtenstein w pełni stosuje szwajcarskie przepisy FOCA dotyczące dronów",
-      "Rejestracja poprzez system szwajcarski (10 CHF, ważna bezterminowo), jeśli dron waży 250 g lub więcej albo jest wyposażony w kamerę",
+      "Musisz zarejestrować się jako operator drona, jeśli twój dron waży 250 g lub więcej (albo mógłby przy uderzeniu przekazać energię kinetyczną większą niż 80 J) — dotyczy to także zabawek. Poniżej 250 g rejestracja jest nadal wymagana, jeśli dron ma czujnik zdolny do rejestrowania danych osobowych, chyba że jest uznawany za zabawkę w rozumieniu unijnej dyrektywy w sprawie bezpieczeństwa zabawek. Numer operatora (bez trzech ostatnich znaków) musi być wyraźnie umieszczony na każdym dronie. Wymagania dotyczące szkolenia/kompetencji pilota są uregulowane odrębnie i zależą od klasy i podkategorii drona.",
+      "Minimalny wiek pilota zdalnego (kategoria otwarta): 12 lat; młodsi piloci wyłącznie pod nadzorem osoby w wieku co najmniej 16 lat, która posiada świadectwo",
       "Obowiązkowe ubezpieczenie od odpowiedzialności cywilnej dla dronów o masie powyżej 250 g (suma 1 mln CHF)",
-      "Zamek w Vaduz: całkowity zakaz lotów",
-      "Zawsze utrzymuj z dronem kontakt wzrokowy (VLOS)",
+      "Remote ID (zdalna identyfikacja) musi być włączony podczas lotu, z zapisanym numerem operatora — z wyjątkiem dronów klasy C0, dronów starszego typu (legacy) i dronów zbudowanych samodzielnie",
+      "Stała strefa zakazu lotów dronów „Regierungsgebäude – Landtag – Schloss Vaduz” (wszystkie klasy masy). O zezwolenie na odstępstwo można wystąpić do Amt für Hochbau und Raumplanung.",
+      "Heliport Balzers (LSXB): drony powyżej 250 g są zabronione w części Balzers, a wszystkie drony bezpośrednio przy heliporcie — wyjątki tylko na podstawie zezwolenia",
+      "W kategorii otwartej musisz utrzymywać drona w zasięgu własnego wzroku, gołym okiem (okulary/soczewki kontaktowe są w porządku; lornetka ani ekran się nie liczą) — albo latać przy wsparciu obserwatora, utrzymując między sobą przez cały czas jasną i skuteczną komunikację, tak aby wspólnie obserwować przestrzeń powietrzną i unikać kolizji. Tryb Follow-me jest odrębnym wyjątkiem, dozwolonym do 50 m od pilota.",
+      "Loty nocne wyłącznie w zasięgu wzroku i z włączonymi światłami pozycyjnymi; odpowiednio zmniejsz odległość",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
-      "Co najmniej 5 km od jakiegokolwiek lotniska lub lądowiska",
+      "Nie ma jednolitej, obowiązującej w całej UE odległości, którą trzeba zachować od lotnisk. Ograniczenia w pobliżu lotnisk publikuje się jako strefy geograficzne (art. 15), których kształt i wielkość różnią się w zależności od lotniska. Przed lotem w pobliżu lotniska, lądowiska lub heliportu sprawdź oficjalną mapę stref dronowych swojego kraju; lot w strefie kontrolowanej lotniska (CTR) zwykle wymaga uprzedniej zgody kontroli ruchu lotniczego.",
+      "Przed każdym lotem sprawdź także DABS (Daily Airspace Bulletin Switzerland, skybriefing.com/de/dabs) — jeśli dotyczy on obszaru lotu, nie wolno ci latać.",
       "Bardzo mały kraj — loty transgraniczne do Szwajcarii lub Austrii wymagają szczególnej uwagi",
       "Teren alpejski: uważaj na trasy śmigłowców"
     ],
     "importantNotes": [
       "Liechtenstein w pełni stosuje szwajcarskie przepisy FOCA",
       "Ten sam system rejestracji co w Szwajcarii (10 CHF, bezterminowo)",
-      "Zamek w Vaduz jest ścisłą strefą zakazu lotów",
+      "Miejsce zamieszkania w państwie EASA (UE, Szwajcaria, Liechtenstein, Norwegia, Islandia): zarejestruj się w kraju zamieszkania — rejestracja jest ważna we wszystkich państwach EASA. Miejsce zamieszkania poza państwami EASA: zarejestruj się przed lotem, chyba że jesteś już zarejestrowany w państwie EASA (w Szwajcarii przez dLIS w BAZL, 10 CHF). Świadectwa pilota zdalnego z państw spoza EASA nie są uznawane.",
+      "Obszar „Regierungsgebäude – Landtag – Schloss Vaduz” jest stałą strefą zakazu lotów dronów (wszystkie klasy masy)",
       "Kraj ma zaledwie około 25 km długości — łatwo nieumyślnie przekroczyć granicę",
       "Jako członek EOG Liechtenstein podlega RODO przy rejestrowaniu osób możliwych do zidentyfikowania"
     ],
@@ -35,12 +41,12 @@
         "description": "Ten sam system rejestracji co w Szwajcarii (10 CHF, ważna bezterminowo)"
       },
       {
-        "title": "Swiss Dronemap — Mapa przestrzeni powietrznej",
-        "description": "Oficjalna interaktywna mapa dronowa (obejmuje Liechtenstein)"
+        "title": "Mapa dronowa BAZL — mapa przestrzeni powietrznej",
+        "description": "Oficjalna mapa dronowa BAZL (obowiązuje także w Liechtensteinie)"
       },
       {
-        "title": "Rząd Liechtensteinu — Lotnictwo",
-        "description": "Portal rządowy Liechtensteinu z informacjami lotniczymi"
+        "title": "Landespolizei Liechtenstein — Drony",
+        "description": "Informacje o dronach i strefach zakazu lotów w Liechtensteinie"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +59,7 @@
         "description": "Najczęściej zadawane pytania dotyczące przepisów dronowych"
       }
     ],
-    "disclaimerText": "Przed każdym lotem zawsze sprawdzaj oficjalne źródła FOCA/BAZL oraz Swiss Dronemap. Ta aplikacja jest narzędziem, a nie źródłem prawa. Liechtenstein stosuje szwajcarskie przepisy FOCA/EASA.",
+    "disclaimerText": "Przed każdym lotem zawsze sprawdzaj oficjalne źródła FOCA/BAZL oraz mapę dronową BAZL. Ta aplikacja jest narzędziem, a nie źródłem prawa. Liechtenstein stosuje szwajcarskie przepisy FOCA/EASA.",
     "sectionLabelRules": "KLUCZOWE ZASADY (KATEGORIA OTWARTA EASA)",
     "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
     "sectionLabelSecondary": "DODATKOWE MATERIAŁY",

@@ -1,56 +1,59 @@
 {
   "meta": {
-    "sourceHash": "c6156d2d7270eed1f0bbf03a22c83cd1cf94b1875c9f45ae22d161f7fab4e957",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e93e943369b28f887990b72c587e2c372465bbacd9292903c416ee4c4ebf7e67",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimalt 120 m over bakken (EASA Open-kategori)",
-      "Registrer deg som UAS-operatør (€10/år) hvis dronen din veier 250 g eller mer eller er utstyrt med kamera",
-      "Obligatorisk A1/A3 nettbasert opplæring – minstealder 16 år",
+      "I Open-kategorien er maksimal høyde 120 m, målt som avstanden til nærmeste punkt på jordoverflaten — ikke bare rett ned, så nær en skråning kan også terrenget ved siden av deg telle. Innenfor 50 m fra et høyt kunstig hinder (over 105 m) kan den som er ansvarlig for hinderet, be om tillatelse til å fly opptil 15 m over hinderets høyde.",
+      "Du må registrere deg som droneoperatør hvis dronen din veier 250 g eller mer (eller kan overføre mer enn 80 J kinetisk energi ved et sammenstøt) — dette gjelder også leker. Under 250 g kreves det likevel registrering hvis dronen har en sensor som kan fange opp personopplysninger, med mindre den regnes som leketøy etter EUs leketøysdirektiv. Krav til pilotopplæring/-sertifikat er separate og avhenger av dronens klasse og underkategori.",
+      "Registreringsnummeret må være synlig på dronen og (for droner i klasse C1–C3) lagt inn i Remote ID-systemet",
+      "Droner uten C-klassemerke (brakt i omsetning før 2024-01-01) og privatbygde droner kan bare fly i underkategori A1 hvis startmassen er under 250 g, eller i underkategori A3 hvis den er under 25 kg",
+      "Minstealderen for fjernpiloter er 16 år (EU-regel; Litauen har ikke senket den). Yngre piloter kan bare fly: under direkte tilsyn av en fjernpilot som oppfyller kravene; med et leketøy i klasse C0 i underkategori A1; eller med en privatbygd drone med startmasse under 250 g. A1/A3-opplæringen og eksamen gjennomføres i TKA-systemet, og sertifikatet er gyldig i 5 år.",
       "Ansvarsforsikring er obligatorisk for droner som veier mer enn 20 kg",
-      "Hold alltid dronen innenfor synsvidde (VLOS)",
+      "I Open-kategorien må du holde dronen innenfor din egen direkte synsvidde, med det blotte øye (briller/kontaktlinser er greit; kikkert eller skjerm teller ikke) — eller fly med hjelp av en observatør, med klar og effektiv kommunikasjon mellom dere til enhver tid, slik at dere sammen kan overvåke luftrommet og unngå kollisjoner. «Follow-me»-modus er et eget unntak, tillatt opptil 50 m fra piloten.",
       "Du må ikke fly over folkemengder. Reglene for uvedkommende avhenger av underkategori, klassemerke og driftsforhold; sjekk den offisielle oversikten.",
-      "Minst 5 km unna enhver flyplass eller flystripe",
+      "Det finnes ingen felles EU-avstand du må holde fra flyplasser. Restriksjoner nær flyplasser publiseres som geografiske soner (artikkel 15), med form og størrelse som varierer fra flyplass til flyplass – før du flyr i nærheten av en lufthavn, flyplass eller helikopterplass, sjekk det offisielle dronesonekartet. I kontrollert luftrom (UR-sonene Vilnius, Kaunas, Palanga, Šiauliai) kan du fly i Open-kategorien uten forhåndstillatelse bare opptil høyden som er fastsatt for sonen – jo nærmere flyplassen, desto lavere (høyder – utm.ans.lt; flyging høyere krever en tillatelse utstedt etter LTSA-prosedyren). I ATZ/TIZ-sonene ved flyplasser må flygingen koordineres på forhånd med flyplassens eier eller operatør.",
+      "Flyging i EYP-soner og over militære områder (EYURM) er forbudt uten tillatelse; det samme gjelder i aktiverte EYR-soner (aktivering kunngjøres via NOTAM)",
       "Nattflyging er tillatt etter EASAs grunnregler for Open-kategorien når det påkrevde grønne blinklyset brukes, med mindre en gjeldende geografisk sone eller nasjonal regel stiller strengere krav.",
       "Restriksjoner gjelder i Curonian Spit National Park",
-      "Ytterligere restriksjoner i grenseområdene mot Russland og Hviterussland"
+      "I grensesonen langs grensene til Hviterussland og Russland (omtrent 7,4 km fra grensen) er flyging uten forhåndskoordinering strengt forbudt"
     ],
     "importantNotes": [
-      "Registreringen koster €10 per år — den må fornyes årlig",
+      "Registrering og utstedelse/fornyelse av registreringsbeviset koster 31 €",
       "Forsikring kreves kun for droner som veier mer enn 20 kg",
-      "Flygerestriksjoner gjelder i grenseområdene mot Russland og Hviterussland",
+      "I grensesonen langs grensene til Hviterussland og Russland (omtrent 7,4 km fra grensen) er flyging uten forhåndskoordinering strengt forbudt",
       "CTR-en ved Vilnius Airport dekker en stor del av byen",
       "GDPR gjelder når identifiserbare personer filmes eller fotograferes"
     ],
     "primaryLinks": [
       {
-        "title": "CAA – Droneregler",
-        "description": "Offisielle droneforskrifter fra administrasjonen for sivil luftfart"
+        "title": "TKA – Droneregler",
+        "description": "Offisielle droneregler fra Transporto kompetencijų agentūra (TKA)"
       },
       {
-        "title": "TKA – Registrer deg som bruker",
-        "description": "Registrer deg som UAS-operatør (€10 per år, gyldig i alle EU/EASA-land)"
+        "title": "TKA – Registrer deg som operatør",
+        "description": "Registrer deg som UAS-operatør (31 €, gyldig i alle EU/EASA-land)"
       },
       {
         "title": "UTM Lithuania – Luftromskart",
         "description": "Offisielt UTM-luftromskart som viser dronesoner og restriksjoner"
       },
       {
-        "title": "CAA – Regeloversikt",
-        "description": "En oversikt over reglene for droneflyging i Litauen"
+        "title": "TKA – Regeloversikt",
+        "description": "En oversikt over regelverket for droneflyging i Litauen"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Air Navigation – Flynavigasjonstjenester",
-        "description": "Litauisk flynavigasjonstjeneste og luftromsinformasjon"
+        "title": "Oro Navigacija – Flysikringstjenester",
+        "description": "Litauens flysikringstjeneste og luftromsinformasjon"
       },
       {
-        "title": "CAA – Drone-FAQ",
-        "description": "Ofte stilte spørsmål om droneforskrifter i Litauen"
+        "title": "TKA – Vanlige spørsmål om droner",
+        "description": "Ofte stilte spørsmål om droneregelverket i Litauen"
       }
     ],
     "disclaimerText": "Sjekk alltid de offisielle TKA-kildene og UTM Lithuania før du flyr. Denne appen er et verktøy — ikke en rettskilde. Litauen følger EASA-forskriftene med nasjonale tillegg.",

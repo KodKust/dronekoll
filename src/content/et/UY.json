@@ -1,28 +1,29 @@
 {
   "meta": {
-    "sourceHash": "c139af1376a67c6fd4409a0435b10fd8dd0df99586c1e480fb6eb124208d488a",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimaalne kõrgus: 120 m (400 ft) maapinnast (AGL)",
-      "Alla 25 kg kaaluvad droonid: EI vaja harrastuslikuks kasutuseks DINACIA registreerimist",
-      "25 kg ja raskemad või ärilistel eesmärkidel kasutatavad droonid: kohustuslik registreerimine DINACIA UTM-platvormil",
-      "Hoia droon alati otsenähtavuse piires (VLOS)",
-      "Ära lenda tihedalt asustatud alade kohal (linnad, alevid, elurajoonid)",
-      "Väldi lennujaamu, lennuvälju ja kontrollitavat õhuruumi (CTR)",
+      "Maksimaalne lennukõrgus on 120 m (400 ft) maapinnast.",
+      "Kuni 25 kg droonid ('Small') ei vaja harrastuslikuks kasutuseks DINACIA registreerimist — nendega võib vabalt lennata kuni 120 m kõrguseni, välja arvatud lennuväljade tsoonides.",
+      "Montevideos on DINACIA määranud Small-droonidele (kuni 25 kg) 4 harrastuslennutsooni järgmiste parkide kindlaksmääratud sektorites: Parque Baroffio (põhjaosa), Parque Marcos Sastre (Ruta 8 lähedal), Parque Miguelete (lõik Silva ja Bvar. Aparicio Saravia vahel) ja Parque Tomkinson (välja arvatud lastejalgpalliklubi ala). Maksimaalne kõrgus nendes tsoonides: 30 m maapinnast (DINACIA Res. 093/2019, AIP ENR 5.5).",
+      "25–260 kg droonid ('Medium') tuleb registreerida DINACIA-s ja neile antakse seadmel nähtav identifitseerimisnumber.",
+      "Piloot peab hoidma drooni kogu aeg otseses nähtavuses.",
+      "Tihedalt asustatud alade (linnad, alevid, elurajoonid) kohal lendamine ei ole ilma lennundusasutuse sõnaselge loata lubatud.",
+      "Väldi lennujaamu, lennuvälju ja kontrollitavat õhuruumi (CTR), välja arvatud sõnaselge loa olemasolul.",
       "Hoia lennutegevusega mitteseotud inimestest ja hoonetest mõistlikku kaugust (soovituslik: 30 m)",
       "Lendamine lubatud ainult päeval — öölennud nõuavad eriluba",
-      "Äriline käitamine: kohustuslik vastutuskindlustus + DINACIA luba",
-      "Õhuruumi broneeringud (üritused): täida vorm 10 päeva ette"
+      "Äriline kasutus nõuab lisaks vastavale DINACIA loale kohustuslikku tsiviilvastutus- või lennunduskindlustust.",
+      "Sõnaselget luba nõudvad käitamised (asustatud alade või rahvakogunemiste kohal, lennuväljade tsoonides, keelu- või piirangualadel või äriliseks kasutuseks): esita taotlus DINACIA-le UTM platvormi kaudu (utm.dinacia.gub.uy)."
     ],
     "importantNotes": [
-      "🌟 URUGUAY REEGLID ON LEEBED: DINACIA Resolution 291/2014 sätestab, et alla 25 kg kaaluvad droonid EI vaja harrastuslikuks kasutuseks registreerimist. Enamik tarbijadroone (DJI Mini, Mavic, Air, Phantom) jääb sellest piirist tublisti allapoole — kuid kõik muud käitamisreeglid KEHTIVAD.",
-      "📋 DINACIA RESOLUTION 291/2014: liigitab droonid kolme kategooriasse — Small (≤25 kg), Medium (25–260 kg tühimass) ja Large (>260 kg). Uruguayan Aeronautical Regulations (RAU 91 ja teised) täiendavad õigusraamistikku.",
-      "✈️ VÄLISTURISTID: Reeglid kehtivad ka mitteresidentidele. Alla 25 kg kaaluva drooni harrastuslikuks kasutuseks registreerimist ei nõuta. Ärilise või professionaalse kasutuse või ürituste puhul võta enne reisi ühendust asutusega DINACIA. Toll võib nõuda seadmete deklareerimist riiki sisenemisel.",
-      "🏖️ PUNTA DEL ESTE JA MONTEVIDEO: Punta del Este (suur turistide arv), Carrasco Airport (MVD), Laguna del Sauce Airport (PDP), Government House ja Plaza Independencia on püsipiirangutega. Rannajooned ja rannad on tipphooajal sageli rahvarohked.",
+      "Uruguay on suhteliselt leebe: DINACIA Resolution 291/2014 sätestab, et kuni 25 kg droonid ei vaja harrastuslikuks kasutuseks registreerimist.",
+      "DINACIA Resolution 291/2014 liigitab droonid kolme kategooriasse: Small (≤25 kg), Medium (25-260 kg) ja Large (üle 260 kg).",
+      "Reeglid kehtivad ka mitteresidentidele. Kuni 25 kg drooni üksnes harrastuslikuks kasutamiseks ei ole registreerimist ega operaatoriluba vaja. Igasugune tasuline kasutus (isegi väikeste droonidega) nõuab DINACIA DAOD-operaatoriluba (nõuded: 18-aastane vanus, kursus volitatud keskuses, oskuste test ja Uruguay kodakondsus; välismaalased peavad avama DINACIA-s APIA e-toimiku) ning tsiviilvastutuskindlustust.",
+      "🚫 KEELUTSOONID (AIP ENR 5.1): Torre Ejecutiva/Plaza Independencia Montevideos (950 m raadius), Residencia Presidencial Suárez (950 m raadius), Estancia Presidencial Anchorena (1 852 m raadius), Isla de Lobos Punta del Este lähedal (5 km raadius), saared Cabo Polonio, Barra de Valizase ja La Coronilla lähedal (5 km raadius), sõjaväeüksused, vanglad, tammid ja ANCAP-i kütusetehased. Carrasco (MVD) ja Laguna del Sauce (PDP) lennujaamade kontrollitavas õhuruumis ja liiklustsoonis on nõutav ATM luba. Rannikud ja rannad on kõrghooajal sageli tihedalt asustatud.",
       "🌳 KAITSTAVAD LOODUSALAD (SNAP): National System of Protected Areas hõlmab selliseid alasid nagu Esteros de Farrapos, Cabo Polonio ja Quebrada de los Cuervos. Enne droonide käitamist neil aladel kontrolli Ministry of the Environment ametlikest allikatest konkreetseid piiranguid."
     ],
     "primaryLinks": [
@@ -35,8 +36,8 @@
         "description": "DINACIA ametlik UTM-platvorm (mehitamata liikluse haldus) droonide (≥25 kg) registreerimiseks ja käitamisloa taotluste esitamiseks. Nõuab registreeritud kasutajat"
       },
       {
-        "title": "DINACIA — RPAS-i operaatoriload",
-        "description": "Ametlik leht RPAS-i operaatorilubade kohta — sammud, nõuded ja vormid. Nõutav 25 kg ja raskematele droonidele ning kõigiks ärilisteks kasutusteks"
+        "title": "DINACIA — DAOD-loa väljastamine",
+        "description": "DINACIA ringkiri (CA.UY.PEL.07.02) DAOD-operaatoriloa nõuetega. Kohustuslik üle 25 kg droonidele ja igasuguseks tasuliseks kasutuseks."
       },
       {
         "title": "DINACIA — LAR 61 piloodilitsentsid",
@@ -62,6 +63,6 @@
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",
     "linksSheetTitle": "Õhuruum ja regulatsioonid — Uruguay",
-    "dronePilotCredentialName": "DAOD-operaatorilitsents"
+    "dronePilotCredentialName": "DAOD-operaatoriluba"
   }
 }

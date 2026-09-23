@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximální výška: 120 m (400 ft) nad úrovní terénu",
+      "Maximální výška: 120 m (400 ft) AGL (ANAC); rekreační lety: nejvýše 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "Drony s hmotností nad 250 g: povinná registrace u SISANT (ANAC)",
-      "Drony s hmotností do 250 g: vyňaty z registrace, automaticky licencovány",
-      "Minimální vzdálenost 5,4 km od letišť pro lety v nízké výšce",
-      "Minimální vzdálenost 9 km od letišť pro lety až do 120 m",
+      "Drony do 250 g není nutné registrovat v SISANT (ANAC Resolution č. 806). Od 1. července 2026 (ICA 100-40) vyžadují lety i s těmito drony povolení prostřednictvím SARPAS (DECEA). Drony nad 250 g musí být zaregistrovány v SISANT.",
+      "Letištní zóny omezení letů (FRZ) (ICA 100-40, platí od 1. července 2026): v okolí letiště (ZEA) začíná FRZ na úrovni terénu do vzdálenosti 1 740 m; pod ní zůstanete, když létáte do 100 ft (30 m) za 1 740 m, do 200 ft (60 m) za 2 350 m, do 300 ft za 2 960 m a do 400 ft za 3 570 m. V přibližovacích a vzletových sektorech (ZAD) začíná FRZ na úrovni terénu do vzdálenosti 3 550 m; dále: 100 ft za 3 550 m, 200 ft za 4 480 m, 300 ft za 5 400 m a 400 ft za 6 320 m. Let uvnitř FRZ vyžaduje Termo de Coordenação a žádost v SARPAS alespoň 4 kalendářní dny předem.",
+      "Rekreační lety (ICA 100-40, čl. 32): maximální výška 200 ft (60 m) AGL a maximální vodorovná vzdálenost 300 m. V blízkosti letišť platí pásma FRZ – ověřte si je v SARPAS.",
       "S dronem vždy udržujte přímý vizuální dohled (VLOS)",
-      "Minimální vzdálenost 30 metrů od osob nezúčastněných na provozu",
-      "Před každým letem v řízeném vzdušném prostoru je vyžadováno povolení SARPAS (DECEA)",
+      "Minimální vzdálenost 30 m od osob nezúčastněných na provozu",
+      "Každý let vyžaduje povolení přístupu do vzdušného prostoru prostřednictvím SARPAS (DECEA), včetně dronů do 250 g. Minimální lhůta předem: 30 minut v otevřené kategorii; 4 nebo 8 kalendářních dní pro provoz zasahující do FRZ nebo omezených prostorů, BVLOS nebo nad 400 ft. Rekreační lety v EAC vyhrazeném pro rekreaci jsou osvobozeny.",
       "Vysílací zařízení musí být certifikováno úřadem ANATEL",
-      "Noční lety vyžadují zvláštní povolení a protisrážkové osvětlení"
+      "Noční lety: dron musí mít navigační světla (ICA 100-40, čl. 20)",
+      "Piloti mladší 18 let musí být vždy doprovázeni pilotem starším 18 let, který odpovídá za provoz",
+      "Nerekreační používání dronů nad 250 g (RBAC č. 100): pojištění kryjící škody třetím osobám je povinné. Složení teoretické zkoušky ANAC (RBAC 100.13(b)) je prominuto do 31. prosince 2026 (Resolution č. 805/2026, čl. 2)."
     ],
     "importantNotes": [
-      "Turisté: Brazílie POVOLUJE rekreační lety, ale drony s hmotností nad 250 g musí být před letem zaregistrovány u SISANT",
-      "Pokuty ukládané úřadem ANAC mohou dosáhnout 7 000 R$ za přestupek — provoz bez registrace nebo povolení SARPAS je závažný přestupek",
+      "Turisté: Brazílie rekreační lety POVOLUJE. Drony nad 250 g musí být zaregistrovány v SISANT (cizinci mohou použít cestovní pas) a lety vyžadují povolení SARPAS (DECEA), a to i s drony do 250 g.",
+      "Pokuty ANAC za drony vycházejí z referenčních částek od 750 R$ do 4 500 R$ za každé porušení (provoz bez registrace: 2 250 R$ – Resolution č. 762/2024); podle polehčujících a přitěžujících okolností se konečná částka může pohybovat od 20 % do 300 % této částky (Resolution č. 761/2024, čl. 35). Let bez povolení SARPAS je přestupkem v letovém provozu, o kterém rozhoduje JJAER (ICA 100-40, čl. 66).",
       "Národní parky (ICMBio) a domorodé oblasti (FUNAI) obecně zakazují drony bez zvláštního povolení",
       "Pláže a městské turistické oblasti (Rio, São Paulo, Salvador) mají obecní omezení — ověřte si to u místních úřadů"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — povolení letu (DECEA)",
-        "description": "Systém DECEA pro žádosti o povolení letu v řízeném vzdušném prostoru. Vyžadováno před každým letem"
+        "description": "Systém DECEA pro žádosti o povolení přístupu do vzdušného prostoru, včetně dronů do 250 g. Vyžadováno před každým letem"
       },
       {
         "title": "ANATEL — certifikace zařízení",
@@ -48,15 +50,15 @@
         "description": "Aktivní NOTAM a oficiální letecké mapy DECEA pro ověření dočasných omezení"
       },
       {
-        "title": "ANAC — časté dotazy k dronům",
-        "description": "Oficiální odpovědi úřadu ANAC na běžné dotazy provozovatelů dronů"
+        "title": "ANAC — časté dotazy k SISANT (registrace dronů)",
+        "description": "Oficiální odpovědi ANAC k registraci v SISANT, včetně registrace cizinců"
       },
       {
-        "title": "RBAC-E č. 94 — úplná technická norma",
-        "description": "Zvláštní brazilský předpis civilního letectví č. 94 — úplné znění platné pro drony"
+        "title": "RBAC č. 100 — úplná technická norma",
+        "description": "Brazilský předpis pro civilní letectví č. 100 (nahrazuje RBAC-E č. 94) — úplné znění platné pro drony"
       }
     ],
-    "disclaimerText": "Před letem si vždy ověřte oficiální zdroje ANAC a DECEA. Tato aplikace je pomůcka, nikoli právní autorita. Brazílie vymáhá RBAC-E č. 94 (aktuálně přechází na RBAC č. 100), který vyžaduje povinné schválení prostřednictvím SARPAS.",
+    "disclaimerText": "Před letem si vždy ověřte oficiální zdroje ANAC a DECEA. Tato aplikace je pomůcka, nikoli právní autorita. Brazílie uplatňuje RBAC č. 100 a Resolution č. 806 (ANAC, od června 2026) a ICA 100-40 (DECEA, od července 2026) s povinným povolením prostřednictvím SARPAS.",
     "sectionLabelRules": "HLAVNÍ PRAVIDLA",
     "sectionLabelPrimary": "OFICIÁLNÍ ZDROJE",
     "sectionLabelSecondary": "DALŠÍ ZDROJE",

@@ -1,35 +1,38 @@
 {
   "meta": {
-    "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c7bb0eb5efb529d016ee7e14e38488c5a01fec2c25b6f85e5c65f17487613d71",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximale hoogte: 152 m (500 ft) boven de grond (AGL)",
-      "Minimale afstand van 4 km tot luchthavens en vliegvelden",
-      "Een minimale afstand van 30 m horizontaal en 20 m verticaal tot personen, gebouwen of objecten",
-      "Commercieel gebruik (ongeacht het gewicht): MTC-registratie vereist + specifieke toestemming",
-      "Houd de drone altijd binnen direct zicht (VLOS)",
-      "Vliegen is alleen overdag toegestaan — nachtvluchten vereisen specifieke toestemming van de DGAC",
-      "Voor stedelijke gebieden is voorafgaande goedkeuring van het MTC vereist; voor landelijke gebieden gelden geen specifieke beperkingen",
-      "Beperkte gebieden: luchthavens, vliegvelden, strategische installaties en dichtbevolkte gebieden zonder toestemming",
-      "Juridisch onderscheid: recreatief gebruik (vrije tijd) vs. professioneel/commercieel gebruik (gespecialiseerde activiteiten)"
+      "Maximale hoogte: 152 m (500 ft) boven de grond (AGL) (NTC 001-2015, art. 8(e)(10)).",
+      "Minimale afstand van 4 km tot luchthavens en vliegvelden (NTC 001-2015, art. 8(e)(19)).",
+      "Houd tijdens alle vliegfasen een minimale afstand van 30 m horizontaal en 20 m verticaal tot personen, gebouwen of obstakels (NTC 001-2015, art. 8(e)(9)).",
+      "Vlieg niet boven snelwegen, wegen, paden, bruggen, elektriciteits- of telecommunicatie-infrastructuur (palen, masten, kabels, antennes), bevaarbare waterwegen of koolwaterstofpijpleidingen; blijf in de buurt ervan meer dan 30 m horizontaal van de rand ervan (NTC 001-2015, art. 8(e)(20)).",
+      "Recreatief gebruik: drones onder 2 kg vallen buiten Wet nr. 30740 en het uitvoeringsreglement daarvan, maar de operationele beperkingen van NTC 001-2015 (hoogte, afstanden, zones) gelden voor elk civiel gebruik. Vanaf 2 kg, en bij elk niet-recreatief gebruik, moet de drone bij de DGAC worden geregistreerd; niet registreren wordt bestraft met een boete (Wet nr. 30740, art. 3 en 4); de procedure verloopt automatisch via het virtuele loket van het MTC (Mesa de Partes Virtual).",
+      "Niet-recreatief gebruik (elk gewicht): droneregistratie, accreditatie als RPAS-piloot (18 jaar of ouder, RPAS-cursus bij een CIAC of vliegclub, en DGAC-examen), een wettelijke aansprakelijkheidsverzekering van ten minste 10 UIT, en toestemming van de DGAC (NTC 001-2015, par. 8(c)-(d)). Registratie verloopt sinds januari 2025 automatisch.",
+      "De drone moet te allen tijde binnen de directe zichtlijn van de piloot blijven.",
+      "Vliegen is alleen overdag toegestaan: de NTC verbiedt operaties bij nacht (na zonsondergang of vóór zonsopgang) (NTC 001-2015, art. 8(e)(13)).",
+      "Stedelijke en bewoonde gebieden: vliegen is niet toegestaan. De DGAC staat het alleen bij uitzondering toe voor overheidsinstanties, hun contractanten, diensten die van openbaar belang zijn verklaard, de brandweer en INDECI, met drones tot 6 kg die met een parachute zijn uitgerust. Elke hoofdstad van een departement, provincie of district en elke plaats met meer dan 1000 inwoners geldt als stedelijk gebied. Landelijke gebieden: onderworpen aan de algemene beperkingen van de norm (NTC 001-2015, art. 8(e)(2) en (f)).",
+      "Beperkte gebieden: luchthavens, vliegvelden, strategische installaties en dichtbevolkte gebieden, tenzij er toestemming is.",
+      "Juridisch onderscheid: recreatief gebruik (vrije tijd) vs. professioneel/commercieel gebruik (gespecialiseerde activiteiten), met voor elk andere vereisten."
     ],
     "importantNotes": [
       "🏛️ MACHU PICCHU EN ARCHEOLOGISCHE SITES: Het Ministry of Culture verbiedt het gebruik van drones zonder speciale vergunning bij Machu Picchu, de Nazca Lines, Chan Chan, Caral, Kuélap en andere archeologische sites. Toestemming van het Ministry of Culture is vereist NAAST die van het MTC.",
       "🌳 BESCHERMDE NATUURGEBIEDEN EN DE AMAZON: SERNANP (National Service for Protected Natural Areas) vereist een speciale vergunning voor drones in parken zoals Manu, Tambopata en Huascarán. Voor de Amazon en inheemse gemeenschappen gelden aanvullende beperkingen.",
-      "🏙️ STEDELIJKE GEBIEDEN IN LIMA EN CUSCO: Het centrum van Lima (Plaza Mayor, Government Palace), Jorge Chávez Airport (LIM), het centrum van Cusco en de luchthaven (CUZ), militaire zones en ambassades hebben permanente beperkingen. Voor het historische centrum van Cusco is een vergunning van het Ministry of Culture vereist."
+      "🏙️ STEDELIJKE GEBIEDEN IN LIMA EN CUSCO: Lima en Cusco zijn stedelijke gebieden, waar vliegen niet is toegestaan behalve met uitzonderlijke toestemming (NTC 001-2015, art. 8(e)(2) en (f)). Het regeringspaleis, militaire gebieden, de luchthavens Jorge Chávez (LIM) en Cusco (CUZ) en gebieden die in de AIP-Perú of in NOTAM's zijn gepubliceerd, zijn ook beperkte gebieden (art. 8(e)(19) en (22)). Voor het historische centrum van Cusco is daarnaast een positief advies van het ministerie van Cultuur vereist (Wet nr. 30740, art. 2.5).",
+      "⚠️ SANCTIES: de nationale politie kan ingrijpen en de drone in beslag nemen als ermee in strijd met de regelgeving wordt gevlogen; de DGAC legt sancties op, waaronder boetes (D.S. 012-2026-MTC, art. 7 en 73; Wet nr. 30740, art. 4)."
     ],
     "primaryLinks": [
       {
-        "title": "MTC — Vereisten om een drone te besturen",
-        "description": "Officiële website van het ministerie van Transport en Communicatie (MTC) met de vereisten om drones te besturen. Bevat regeling NTC 001-2015 en DGAC-procedures."
+        "title": "MTC — Uitvoeringsreglement van Wet nr. 30740 (D.S. 012-2026-MTC)",
+        "description": "Officieel reglement van het MTC (29/05/2026). De nieuwe categorieën en licenties gaan in wanneer de DGAC NTC 001-2015 bijwerkt; tot dan geldt de NTC."
       },
       {
-        "title": "Virtuele indieningsbalie van het MTC — RPAS-registratie",
-        "description": "Het officiële onlineplatform van het MTC om drones (RPAS) volledig online te registreren. Selecteer \"Registratie van op afstand bestuurde luchtvaartsystemen (RPAS)\" en vul het formulier in"
+        "title": "MTC Mesa de Partes Virtual (virtueel loket) — RPAS-registratie",
+        "description": "Het officiële onlineplatform van het MTC om drones (RPAS) volledig online te registreren. Selecteer \"Registro de Aeronaves Pilotadas a Distancia (RPAS)\" (registratie van op afstand bestuurde luchtvaartuigen) en vul het formulier in"
       },
       {
         "title": "MTC — Institutionele pagina",
@@ -42,23 +45,23 @@
     ],
     "secondaryLinks": [
       {
-        "title": "El Peruano — Dronevergunningen (officieel)",
-        "description": "Staatscourant El Peruano: officiële informatie over de vergunningen die je nodig hebt om drones te besturen, volgens het MTC en de DGAC"
+        "title": "MTC — Accreditatie van RPAS-piloten",
+        "description": "MTC-pagina (bijgewerkt op 11/08/2026): aanvraag, online examen en elektronische accreditatie van RPAS-piloten/-operators (niet-recreatief gebruik)."
       },
       {
-        "title": "TV Perú — Officiële gids voor vereisten",
-        "description": "Officiële berichtgeving door de publieke omroep TV Perú met actuele informatie over de vereisten om drones te besturen, zoals gespecificeerd door het MTC"
+        "title": "MTC — Automatische droneregistratie (2025)",
+        "description": "Bericht van het MTC (26/01/2025): RPAS-registratie duurt maar enkele minuten via het virtuele loket (Mesa de Partes Virtual)."
       },
       {
         "title": "MTC-kantoren — Persoonlijke dienstverlening",
-        "description": "Hoofdkantoor van het MTC: Jr. Zorritos 1203, Cercado de Lima. Ook bij regionale burgerservicecentra kun je terecht voor persoonlijke RPAS-procedures."
+        "description": "Hoofdkantoor van het MTC: Jr. Zorritos 1203, Cercado de Lima. Ook bij regionale burgerservicecentra (Centros de Atención al Ciudadano) kun je terecht voor persoonlijke RPAS-procedures."
       }
     ],
-    "disclaimerText": "Raadpleeg altijd de officiële bronnen van de DGAC van de Ministry of Transport and Communications (MTC) voordat je vliegt. Deze app is een hulpmiddel, geen juridische autoriteit. Peru past Complementary Technical Standard (NTC) 001-2015 toe, met vereenvoudigde registratie via de MTC’s Virtual Filing Desk.",
+    "disclaimerText": "Raadpleeg altijd de officiële bronnen van de DGAC van het ministerie van Transport en Communicatie (MTC) voordat je vliegt. Deze app is een hulpmiddel, geen juridische autoriteit. Peru past Wet nr. 30740, het uitvoeringsreglement daarvan (D.S. No. 012-2026-MTC) en NTC 001-2015 toe, met vereenvoudigde registratie via het virtuele loket van het MTC (Mesa de Partes Virtual).",
     "sectionLabelRules": "BELANGRIJKSTE REGELS",
     "sectionLabelPrimary": "OFFICIËLE BRONNEN",
     "sectionLabelSecondary": "AANVULLENDE HULPBRONNEN",
     "linksSheetTitle": "Luchtruim en regelgeving — Peru",
-    "dronePilotCredentialName": "RPAS-pilotenlicentie"
+    "dronePilotCredentialName": "Accreditatie als RPAS-piloot/-operator"
   }
 }

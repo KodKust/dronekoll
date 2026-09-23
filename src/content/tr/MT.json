@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "20d25911745bc6945c5cccf0785ea82d556cd1bb0a98eb5f9e4b1f82d7230b03",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "58ca5d4ebda944ebab8099950bf44fbb0464a578adf9411beaecf769f1064e8c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Yerden en fazla 120 m (EASA Open kategorisi)",
-      "UAS operatörü olarak kaydolun (yılda €25 veya turist kaydı için €10)",
-      "A1/A3 çevrim içi eğitim gereklidir — asgari yaş 16",
+      "Açık kategoride azami yükseklik 120 m'dir ve yalnızca dümdüz aşağıya doğru değil, yer yüzeyinin en yakın noktasına olan mesafe olarak ölçülür — bu nedenle bir yamacın yakınında yanınızdaki zemin de hesaba katılabilir. Yüksek bir yapay engelin (105 m'nin üzerinde) 50 m yakınında, engelden sorumlu kuruluş engelin yüksekliğinin 15 m üzerine kadar uçmak için izin talep edebilir.",
+      "tmcad.idronect.com adresinde UAS operatörü olarak kaydolun (yılda €25; EASA operatör numarası olan ziyaretçiler: 3 ay için €10)",
+      "Operatör kayıt numarası veya QR kodu basılıp drona yapıştırılmalıdır — polis kontrol edebilir ve buna uyulmaması cezaya yol açar.",
+      "250 g'ın üzerindeki dronlar için A1/A3 sertifikası gereklidir (çevrim içi eğitim, sınav Lija'daki TM-CAD ofislerinde) — asgari yaş 16",
+      "Remote ID ile donatılmış C1, C2 veya C3 sınıf işaretli dronlar, Remote ID etkin ve güncel olarak ve içine operatör kayıt numarası girilmiş şekilde uçmalıdır.",
       "Her ağırlıktaki dron için üçüncü şahıs sigortası zorunludur",
       "ÜLKENİN TAMAMI kontrollü hava sahasıdır — her zaman IDRONECT'i kontrol edin",
-      "Dronu her zaman görüş hattı (VLOS) içinde tutun",
+      "Açık kategoride dronu yalnızca kendi gözlerinizle, doğrudan görüş hattınızda tutmalısınız (gözlük/kontakt lens sorun değildir; dürbün veya ekran sayılmaz) — ya da hava sahasını birlikte tarayıp çarpışmaları önleyebilmeniz için aranızda her an açık ve etkili iletişim sürdürerek bir gözlemcinin yardımıyla uçun. «Follow-me» modu ayrı bir istisnadır; pilottan 50 m'ye kadar izin verilir.",
       "İnsan topluluklarının üzerinden uçmayın. Operasyona dahil olmayan kişilerle ilgili kurallar alt kategoriye, sınıf işaretine ve operasyon koşullarına bağlıdır; resmî matrisi kontrol edin.",
-      "Malta Uluslararası Havalimanı CTR'si adanın büyük bölümünü kapsar",
+      "Malta'nın tamamı kontrollü hava sahasıdır — her dron uçuşu tmcad.idronect.com üzerinden TM-CAD izni gerektirir. Düşük riskli birçok talep, sistem uçuşun kurallara uygun olduğunu doğruladığında birkaç dakika içinde otomatik olarak onaylanır; Authorisation Form'unuzdaki koşullara uyun. Malta Uluslararası Havalimanı bölgesini ayrı bir 5 km'lik uçuşa yasak bölge kapsar.",
+      "Otomatik olarak onaylanmayan uçuşlar için başvuru en az 5 iş günü önceden yapılmalıdır. Kısıtlı bir bölgede uçmak için bölge sahibinden alınan izin mektubunu ('no objection') IDRONECT'e yükleyin.",
       "Özel izin olmadan gece uçuşu yasaktır",
-      "Valletta ve tarihi alanlar: ek kısıtlamalar geçerlidir"
+      "Valletta bir 'Special Permit Zone'dur: ticari uçuşlar, Başbakanlık Ofisi'nden alınacak bir 'no objection' dahil özel izin gerektirir. Valletta'daki ve diğer kısıtlı bölgelerdeki diğer tüm uçuşlar için uçmadan önce IDRONECT haritasını ve izin koşullarını kontrol edin."
     ],
     "importantNotes": [
-      "ÜLKENİN TAMAMI kontrollü hava sahasıdır — AB'de benzersiz bir durum",
+      "ÜLKENİN TAMAMI kontrollü hava sahasıdır — her uçuş TM-CAD izni gerektirir",
       "Her ağırlıktaki dron için sigorta zorunludur",
-      "Malta Havalimanı CTR'si ana adanın büyük bölümünü kapsar",
-      "Kısa süreli ziyaretçiler için turist kaydı (€10) mevcuttur",
-      "Belirlenebilir kişilerin görüntüleri kaydedilirken GDPR geçerlidir"
+      "Havalimanı bölgelerini ve diğer kısıtlı bölgeleri IDRONECT haritasında kontrol edin (tmcad.idronect.com/map)",
+      "Halihazırda bir EASA operatör kayıt numarası olan ziyaretçiler için üç aylık kayıt (€10); aksi takdirde €25",
+      "Belirlenebilir kişilerin görüntüleri kaydedilirken GDPR geçerlidir",
+      "Kayıt, sigorta, lisans ve izin belgelerini yanınızda bulundurun — aksi takdirde para cezası verilebilir. İzinsiz veya izin koşulları dışında yapılan bir uçuş, drona el konulmasına yol açabilir."
     ],
     "primaryLinks": [
       {
@@ -32,7 +36,7 @@
       },
       {
         "title": "TM-CAD — Operatör olarak kayıt",
-        "description": "UAS operatörü olarak kaydolun (yılda €25 veya turist €10; tüm AB/EASA ülkelerinde geçerli)"
+        "description": "tmcad.idronect.com adresinde UAS operatörü olarak kaydolun (yılda €25, tüm AB/EASA ülkelerinde geçerli; halihazırda EASA operatör numarası olan ziyaretçiler için 3 ay için €10)"
       },
       {
         "title": "IDRONECT — Uçuş yönetimi",
@@ -49,8 +53,8 @@
         "description": "Malta hava trafik hizmetleri ve hava sahası bilgisi"
       },
       {
-        "title": "TM-CAD — Dron SSS",
-        "description": "Malta'da dron mevzuatı hakkında sıkça sorulan sorular"
+        "title": "TM-CAD — Bilgi ve yardım",
+        "description": "Malta'daki dron mevzuatı hakkında bilgi ve yardım"
       }
     ],
     "disclaimerText": "Uçmadan önce her zaman resmî TM-CAD kaynaklarını ve IDRONECT'i kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Malta, EASA mevzuatını uygular — ülkenin tamamının kontrollü hava sahası olduğunu unutmayın.",

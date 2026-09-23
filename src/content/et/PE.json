@@ -1,39 +1,42 @@
 {
   "meta": {
-    "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c7bb0eb5efb529d016ee7e14e38488c5a01fec2c25b6f85e5c65f17487613d71",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimaalne kõrgus: 152 m (500 ft) maapinnast (AGL)",
-      "Vähemalt 4 km kaugusel lennujaamadest ja lennuväljadest",
-      "Vähemalt 30 m horisontaalselt ja 20 m vertikaalselt inimestest, hoonetest või objektidest",
-      "Äriline kasutus (mis tahes kaal): nõutav MTC registreerimine + eriluba",
-      "Hoia droon alati otsenähtavuse piires (VLOS)",
-      "Lendamine lubatud ainult päeval — öölennud nõuavad DGAC-i eriluba",
-      "Linnapiirkonnad: vaja on MTC eelnevat heakskiitu; maapiirkonnad: eripiirangud puuduvad",
-      "Piirangualad: lennujaamad, lennuväljad, strateegilised rajatised ja tihedalt asustatud alad — ilma loata lendamine on keelatud",
-      "Õiguslik eristus: harrastuskasutus (vaba aja veetmine) vs. professionaalne/äriline kasutus (spetsialiseeritud tegevused)"
+      "Maksimaalne kõrgus: 152 m (500 ft) maapinnast (AGL) (NTC 001-2015, art 8(e)(10)).",
+      "Vähemalt 4 km kaugusel lennujaamadest ja lennuväljadest (NTC 001-2015, art 8(e)(19)).",
+      "Hoia kõigis lennuetappides inimestest, hoonetest või takistustest vähemalt 30 m horisontaalset ja 20 m vertikaalset kaugust (NTC 001-2015, art 8(e)(9)).",
+      "Ära lenda maanteede, teede, radade, sildade, elektri- või sidetaristu (postid, mastid, kaablid, antennid), laevatatavate veeteede ega süsivesinike torujuhtmete kohal; nende lähedal hoia nende servast horisontaalselt rohkem kui 30 m kaugusele (NTC 001-2015, art 8(e)(20)).",
+      "Harrastuskasutus: alla 2 kg droonid on seaduse nr 30740 ja selle rakendusmääruse kohaldamisalast välja jäetud, kuid NTC 001-2015 käitamispiirangud (kõrgus, kaugused, tsoonid) kehtivad igasugusele tsiviilkasutusele. Alates 2 kg ja igasuguse mitteharrastusliku kasutuse korral tuleb droon registreerida DGAC-s; registreerimata jätmise eest määratakse trahv (seadus nr 30740, art 3 ja 4); menetlus on automaatne MTC virtuaalse dokumendiregistri (Mesa de Partes Virtual) kaudu.",
+      "Mitteharrastuslik kasutus (mis tahes kaal): drooni registreerimine, RPAS-i piloodi akrediteering (vanus 18 või rohkem, RPAS-i kursus CIAC-is või lennuklubis ja DGAC eksam), vähemalt 10 UIT suurune tsiviilvastutuskindlustus ja DGAC luba (NTC 001-2015, p 8(c)-(d)). Registreerimine on automaatne alates 2025. aasta jaanuarist.",
+      "Droon peab kogu aeg püsima piloodi otseses nähtavuses.",
+      "Lendamine on lubatud ainult päeval: NTC keelab käitamise öistes tingimustes (pärast päikeseloojangut või enne päikesetõusu) (NTC 001-2015, art 8(e)(13)).",
+      "Linna- ja asustatud alad: lendamine ei ole lubatud. DGAC lubab seda ainult erandkorras avalik-õiguslikele asutustele, nende lepingupartneritele, avalikes huvides olevaks kuulutatud teenustele, tuletõrjujatele ja INDECI-le, kuni 6 kg droonidega, millel on langevari. Linnaalaks loetakse iga departemangu, provintsi või ringkonna pealinna ja iga asulat, kus on rohkem kui 1000 elanikku. Maapiirkonnad: kehtivad standardi üldised piirangud (NTC 001-2015, art 8(e)(2) ja (f)).",
+      "Piirangualad: lennujaamad, lennuväljad, strateegilised rajatised ja tihedalt asustatud alad, välja arvatud loa olemasolul.",
+      "Õiguslik eristus: harrastuskasutus (vaba aja veetmine) vs. professionaalne/äriline kasutus (spetsialiseeritud tegevused), kummalegi kehtivad erinevad nõuded."
     ],
     "importantNotes": [
       "🏛️ MACHU PICCHU JA ARHEOLOOGILISED PAIGAD: Ministry of Culture keelab droonide kasutamise ilma eriloata paikades Machu Picchu, Nazca Lines, Chan Chan, Caral, Kuélap ja teistes arheoloogilistes paikades. Ministry of Culture luba on nõutav LISAKS MTC loale.",
       "🌳 KAITSTAVAD LOODUSALAD JA AMAZON: SERNANP (National Service for Protected Natural Areas) nõuab droonide jaoks eriluba sellistes parkides nagu Manu, Tambopata ja Huascarán. Amazon piirkonnas ja põlisrahvaste kogukondades kehtivad täiendavad piirangud.",
-      "🏙️ LINNAPIIRKONNAD LIMA JA CUSCO: Lima kesklinn (Plaza Mayor, Government Palace), Jorge Chávez Airport (LIM), Cusco kesklinn ja lennujaam (CUZ), sõjaväetsoonid ning saatkonnad on püsipiirangutega. Cusco ajaloolises keskuses on vaja Ministry of Culture luba."
+      "🏙️ LINNAALAD LIMAS JA CUSCOS: Lima ja Cusco on linnaalad, kus lendamine ei ole lubatud, välja arvatud erandliku loaga (NTC 001-2015, art 8(e)(2) ja (f)). Piirangualad on ka valitsuspalee, sõjalised alad, Jorge Cháveze (LIM) ja Cusco (CUZ) lennujaamad ning AIP-Perús või NOTAM-ides avaldatud alad (art 8(e)(19) ja (22)). Cusco ajalooline keskus nõuab lisaks Ministry of Culture pooldavat arvamust (seadus nr 30740, art 2.5).",
+      "⚠️ KARISTUSED: riiklik politsei võib sekkuda ja drooni konfiskeerida, kui sellega lennatakse eeskirju rikkudes; DGAC määrab karistusi, sealhulgas trahve (D.S. 012-2026-MTC, art 7 ja 73; seadus nr 30740, art 4)."
     ],
     "primaryLinks": [
       {
-        "title": "MTC — Drooni käitamise nõuded",
-        "description": "Transpordi- ja Sideministeeriumi (MTC) ametlik veebisait, mis loetleb droonide käitamise nõuded. See sisaldab määrust NTC 001-2015 ja DGAC-i toiminguid."
+        "title": "MTC — Seaduse nr 30740 rakendusmäärus (D.S. 012-2026-MTC)",
+        "description": "MTC ametlik määrus (29.05.2026). Uued kategooriad ja litsentsid jõustuvad, kui DGAC ajakohastab NTC 001-2015; seni kehtib NTC."
       },
       {
-        "title": "MTC virtuaalne esitamislaud — RPAS-i registreerimine",
-        "description": "MTC ametlik veebiplatvorm droonide (RPAS) täielikult veebis registreerimiseks. Vali „Kaugjuhitavate õhusõidukisüsteemide (RPAS) registreerimine\" ja täida vorm"
+        "title": "MTC Mesa de Partes Virtual (virtuaalne dokumendiregister) — RPAS-i registreerimine",
+        "description": "MTC ametlik veebiplatvorm droonide (RPAS) registreerimiseks täielikult veebis. Vali \"Registro de Aeronaves Pilotadas a Distancia (RPAS)\" (kaugjuhitavate õhusõidukite registreerimine) ja täida vorm"
       },
       {
         "title": "MTC — Asutuse leht",
-        "description": "Transpordi- ja Sideministeeriumi peamine veebisait. Juurdepääs DGAC-i pakutavatele toimingutele, määrustele ja lennundusteenustele"
+        "description": "Transpordi- ja Sideministeeriumi peamine veebisait. Juurdepääs DGAC-i toimingutele, määrustele ja lennundusteenustele"
       },
       {
         "title": "DGAC — RPAS-i kontakt (load)",
@@ -42,23 +45,23 @@
     ],
     "secondaryLinks": [
       {
-        "title": "El Peruano — Droonilubad (ametlik)",
-        "description": "El Peruano ametlik väljaanne: ametlik teave lubade kohta, mida vajad droonide käitamiseks vastavalt MTC-le ja DGAC-ile"
+        "title": "MTC — RPAS-i piloodi akrediteering",
+        "description": "MTC leht (uuendatud 11.08.2026): RPAS-i pilootide/käitajate taotlus, veebieksam ja elektrooniline akrediteering (mitteharrastuslik kasutus)."
       },
       {
-        "title": "TV Perú — Ametlik nõuete juhend",
-        "description": "Avalik-õigusliku ringhäälingu TV Perú ametlik kajastus ajakohase teabega droonide käitamise nõuete kohta, nagu MTC on täpsustanud"
+        "title": "MTC — Droonide automaatne registreerimine (2025)",
+        "description": "MTC teade (26.01.2025): RPAS-i registreerimine võtab virtuaalse dokumendiregistri (Mesa de Partes Virtual) kaudu vaid mõne minuti."
       },
       {
         "title": "MTC bürood — Kohapealne teenindus",
-        "description": "MTC peakontor: Jr. Zorritos 1203, Cercado de Lima. Teenused on saadaval ka piirkondlikes kodanikuteeninduskeskustes kohapealseteks RPAS-i toiminguteks."
+        "description": "MTC peakontor: Jr. Zorritos 1203, Cercado de Lima. Teenused on kohapealseteks RPAS-i toiminguteks saadaval ka piirkondlikes kodanikuteeninduskeskustes (Centros de Atención al Ciudadano)."
       }
     ],
-    "disclaimerText": "Kontrolli enne lendamist alati Ministry of Transport and Communications (MTC) DGAC ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Peruus kehtib Complementary Technical Standard (NTC) 001-2015 ning registreerimist saab lihtsustatult teha MTC Virtual Filing Desk kaudu.",
+    "disclaimerText": "Kontrolli enne lendamist alati Ministry of Transport and Communications (MTC) DGAC ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Peruus kehtivad seadus nr 30740, selle rakendusmäärus (D.S. No. 012-2026-MTC) ja NTC 001-2015 ning registreerimist saab lihtsustatult teha MTC virtuaalse dokumendiregistri (Mesa de Partes Virtual) kaudu.",
     "sectionLabelRules": "PÕHIREEGLID",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",
     "linksSheetTitle": "Õhuruum ja regulatsioonid — Peruu",
-    "dronePilotCredentialName": "RPAS-i piloodi litsents"
+    "dronePilotCredentialName": "RPAS-i piloodi/käitaja akrediteering"
   }
 }

@@ -1,30 +1,32 @@
 {
   "meta": {
-    "sourceHash": "64c56f7cd237868e12b4a9acebacfc1c7ed47d9c27e97af77b28d123a7822c74",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "9cca66a7c2aad0d0dc5edac3e33625910a5e790c5cdccb45c10be1fbd9252627",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Altitudni massima: 122 m (400 ft) 'il fuq mill-art fil-Kategorija Open (spazju tal-ajru mhux ikkontrollat)",
-      "Qrib l-ajruporti (≤5 km): għoli massimu ta' 43 m mingħajr awtorizzazzjoni minn qabel mill-fornitur tas-servizz tan-navigazzjoni tal-ajru",
-      "Distanza minima ta' 5 km mill-ajruporti u l-ajrudromi mingħajr awtorizzazzjoni",
-      "Distanza minima ta' 500 m mill-eliporti",
-      "Distanza sigura minn persuni mhux involuti u minn bini mhux involut fl-operazzjoni",
+      "Kategorija Open: it-titjir fiż-żoni ta' kontroll tal-ajrudromi (CTR) huwa pprojbit. Fi spazju tal-ajru kkontrollat, fi ħdan 5 km mill-għetiebi tar-runways: massimu ta' 43 m u qatt fis-superfiċji tal-avviċinament jew tat-tluq; għoli akbar jeħtieġ awtorizzazzjoni mill-fornitur tas-servizz tan-navigazzjoni tal-ajru.",
+      "Eliporti: it-titjir fi ħdan 1 mil nawtiku (1.85 km) mill-punt ta' referenza (HRP) huwa pprojbit; bejn 1 u 2 mili nawtiċi, massimu ta' 150 ft (46 m) 'il fuq mill-eliport, sakemm ma jkunx ikkoordinat minn qabel.",
+      "It-titjir huwa pprojbit fuq faċilitajiet militari, tas-sigurtà jew tal-ħabsijiet u fi ħdan 1 mil nawtiku (1.85 km) minnhom; fuq raffineriji, impjanti tal-enerġija jew depożiti tal-fjuwil mingħajr il-permess tas-sid; u fi ħdan 25 m (vertikalment jew lateralment) minn linji tal-elettriku ta' vultaġġ għoli.",
+      "Trid iżżomm distanza sigura minn persuni u bini mhux involuti fl-operazzjoni.",
       "Żomm dejjem id-drone fil-linja tal-vista diretta (VLOS) fil-Kategorija Open",
-      "Titjir permess biss matul il-jum — it-titjiriet bil-lejl jeħtieġu awtorizzazzjoni speċifika",
-      "Droni li jiżnu inqas minn 250 g: eżentati mir-reġistrazzjoni u l-liċenzjar (Resolution 550/2025)",
-      "Droni li jiżnu ≥250 g: reġistrazzjoni obbligatorja ma' TAD (ANAC) — ebda liċenzja ta' pilota meħtieġa fil-Kategorija Open",
+      "Huwa pprojbit li tippilota jew taġixxi bħala osservatur fi żmien 8 sigħat minn meta tikkonsma l-alkoħol jew taħt l-influwenza ta' sustanzi psikoattivi.",
+      "Titjiriet bil-lejl: ANAC Res. 312/2026 (Mejju 2026) neħħiet ir-restrizzjoni ġenerali fir-RAAC 100; il-gwida tal-ANAC għadha telenka l-operazzjonijiet bil-lejl bħala Kategorija Speċifika — iċċekkja mal-ANAC qabel ittir bil-lejl.",
+      "Id-droni li jiżnu inqas minn 250 g huma eżentati mir-reġistrazzjoni, mil-liċenzjar u mill-assigurazzjoni obbligatorja (Resolution 550/2025, Awwissu 2025). Id-droni minn 250 g sa 25 kg ma jeħtiġux liċenzja ta' pilota, iżda jridu jiġu rreġistrati diġitalment mal-ANAC fil-Casillero Aeronáutico Digital (CAD).",
+      "Droni li jiżnu ≥250 g: reġistrazzjoni obbligatorja mas-CAD (ANAC) — ebda liċenzja ta' pilota meħtieġa fil-Kategorija Open",
       "Operazzjonijiet f'Kategorija Speċifika (25–150 kg jew titjiriet urbani/BVLOS): jeħtieġu liċenzja ta' pilota, ċertifikazzjoni medika, u ċertifikat ta' operatur kummerċjali",
-      "Il-Kategorija Open tippermetti droni li jiżnu inqas minn 25 kg mingħajr awtorizzazzjoni minn qabel (ebda limitu ta' piż f'żoni rurali)"
+      "Il-Kategorija Open tippermetti droni minn 250 g sa inqas minn 25 kg mingħajr awtorizzazzjoni minn qabel (droni b'ġwienaħ rotanti mingħajr limitu ta' piż biss f'żoni rurali, barra mis-CTRs u mill-ispazju tal-ajru ristrett)"
     ],
     "importantNotes": [
-      "📜 Qafas ġdid għall-2025: ANAC Resolution 550/2025 (fis-seħħ minn Awwissu 2025) tissostitwixxi Resolution 880/2019. Tistabbilixxi tliet kategoriji: operazzjonijiet mingħajr awtorizzazzjoni minn qabel, Kategorija Open, u Kategorija Speċifika. RAAC Part 100/101/102.",
-      "✈️ TURISTI BARRANIN: Droni li jiżnu 250 g jew aktar iridu jiġu rreġistrati ma' TAD qabel l-ewwel titjira tagħhom (Resolution 550/2025). Ir-reġistrazzjoni ssir online; hija meħtieġa karta tal-identità Arġentina jew passaport. Droni li jiżnu inqas minn 250 g—bħad-DJI Mini, Flip, eċċ.—huma eżentati mir-reġistrazzjoni u l-liċenzjar.",
-      "🌳 PARKI NAZZJONALI U ŻONI PROTETTI: L-APN (National Parks Administration) tipprojbixxi d-droni mingħajr permess speċjali f'parki bħal Iguazú, Nahuel Huapi, Los Glaciares u Tierra del Fuego. Iċċekkja ma' kull park qabel ittir.",
-      "🏛️ ŻONI URBANI U RISTRETTI: Buenos Aires (l-Ajruport Jorge Newbery, Casa Rosada, il-Kungress), Ezeiza (Ministro Pistarini), u ż-żoni militari huma żoni ta' projbizzjoni tat-titjir. Aerolíneas Argentinas u ż-żoni taċ-ċentru għandhom restrizzjonijiet permanenti—iċċekkja l-AIP.",
-      "💰 PENALI: Il-ksur jista' jirriżulta f'multi sinifikanti, konfiska tat-tagħmir, u, f'każijiet serji, responsabbiltà kriminali. L-assigurazzjoni ta' responsabbiltà hija meħtieġa għall-użu kummerċjali."
+      "📜 QAFAS ĠDID: ANAC Resolution 550/2025 (fis-seħħ minn Awwissu 2025, emendata b'Res. 312/2026) tissostitwixxi Resolution 880/2019. Tistabbilixxi tliet kategoriji: Open, Speċifika u Ċertifikata. RAAC Part 100/101/102.",
+      "Id-droni li jiżnu 250 g jew aktar iridu jiġu rreġistrati mal-ANAC fil-Casillero Aeronáutico Digital (CAD) qabel l-ewwel titjira tagħhom — ir-reġistrazzjoni hija b'xejn, online u teħtieġ DNI jew passaport. Id-droni li jiżnu inqas minn 250 g (eż. DJI Mini jew Flip) huma eżentati mir-reġistrazzjoni u mil-liċenzjar (Resolution 550/2025).",
+      "Turisti: huwa aċċettat ċertifikat ta' reġistrazzjoni validu għal dak id-drone maħruġ mill-awtorità tal-avjazzjoni ċivili ta' Stat ieħor tal-ICAO (RAAC 100.05); reġistrazzjoni tal-operatur biss tista' ma tkunx biżżejjed. Jekk id-drone tiegħek mhuwiex irreġistrat, imla d-dikjarazzjoni ġuramentata diġitali b'xejn (Declaración Jurada) mal-ANAC bil-passaport tiegħek.",
+      "🌳 PARKI NAZZJONALI U ŻONI PROTETTI: l-APN tipprojbixxi l-użu rikreattiv u sportiv tad-droni fiż-żoni protetti kollha tagħha (APN Res. 9/2021), bħal Iguazú, Nahuel Huapi, Los Glaciares jew Tierra del Fuego. L-użu professjonali jew xjentifiku jeħtieġ awtorizzazzjoni minn qabel mill-APN.",
+      "🏛️ ŻONI RISTRETTI: it-titjir huwa pprojbit fuq il-Casa Rosada, il-Quinta de Olivos, bini pubbliku u ambaxxati, fi ħdan 1 mil nawtiku minn faċilitajiet militari u fiż-żoni ta' kontroll ta' ajruporti bħal Aeroparque u Ezeiza — iċċekkja l-AIP.",
+      "💰 PENALI: il-ksur jiġi penalizzat skont ir-Reglamento General de Infracciones de la Aviación Civil, mingħajr preġudizzju għar-responsabbiltà ċivili jew kriminali. L-assigurazzjoni hija obbligatorja fil-Kategoriji Speċifika u Ċertifikata (volontarja fil-Kategorija Open)."
     ],
     "primaryLinks": [
       {
@@ -32,8 +34,8 @@
         "description": "Il-websajt uffiċjali tal-Amministrazzjoni Nazzjonali tal-Avjazzjoni Ċivili dwar id-droni (VANT/SVANT): qafas regolatorju ġdid—Riżoluzzjoni 550/2025, kategoriji, u rekwiżiti operattivi"
       },
       {
-        "title": "Reġistrazzjoni tad-Droni (TAD)",
-        "description": "Sistema ta' reġistrazzjoni obbligatorja għad-droni li jiżnu aktar minn 500 g permezz tal-pjattaforma Trámites a Distancia (TAD). L-użu rikreattiv tal-Klassi A (≤500 g) huwa eżentat."
+        "title": "Reġistrazzjoni tad-Droni (CAD)",
+        "description": "Dikjarazzjoni ġuramentata diġitali b'xejn (Declaración Jurada) għal droni minn 250 g sa 25 kg fil-Casillero Aeronáutico Digital (CAD) tal-ANAC; jinħareġ Ċertifikat ta' Reġistrazzjoni diġitali. Id-droni taħt il-250 g huma eżentati."
       },
       {
         "title": "AIP — Pubblikazzjoni ta' Informazzjoni Ajrunawtika",
@@ -50,19 +52,19 @@
         "description": "Ċertifikat ta' Operatur tal-Ajru għall-operazzjonijiet kummerċjali tad-droni. Meħtieġ għall-Kategorija Speċifika u t-titjiriet professjonali"
       },
       {
-        "title": "Ċertifikazzjoni bħala Membru tal-Ekwipaġġ Remot (Pilota)",
-        "description": "Proċedura biex Tikseb Awtorizzazzjoni bħala Pilota Remot. Eżamijiet u Rekwiżiti għaċ-Ċertifikazzjoni Professjonali"
+        "title": "Awtorizzazzjoni bħala Membru tal-Ekwipaġġ Remot (Pilota)",
+        "description": "Proċedura biex tikseb awtorizzazzjoni bħala pilota remot. Eżamijiet u rekwiżiti għaċ-ċertifikazzjoni professjonali"
       },
       {
         "title": "Qafas Regolatorju Ġdid (Sommarju Uffiċjali)",
         "description": "Is-Sommarju Uffiċjali tal-ANAC tal-Qafas Regolatorju Ġdid għad-Droni Wara r-Riżoluzzjoni 550/2025: Bidliet Ewlenin u Kategoriji"
       }
     ],
-    "disclaimerText": "Iċċekkja dejjem is-sorsi uffiċjali tal-ANAC qabel ittir. Din l-app hija għodda, mhux sors legali uffiċjali. L-Argentina tapplika ANAC Resolution 550/2025 (RAAC Part 100/101/102), fis-seħħ minn Awwissu 2025.",
+    "disclaimerText": "Iċċekkja dejjem is-sorsi uffiċjali tal-ANAC qabel ittir. Din l-app hija għodda, mhux sors legali uffiċjali. L-Arġentina tapplika ANAC Resolution 550/2025 (RAAC Part 100/101/102), fis-seħħ minn Awwissu 2025 u emendata b'ANAC Resolution 312/2026.",
     "sectionLabelRules": "REGOLI EWLENIN",
     "sectionLabelPrimary": "SORSI UFFIĊJALI",
     "sectionLabelSecondary": "RIŻORSI ADDIZZJONALI",
     "linksSheetTitle": "Spazju tal-Ajru u Regolamenti — Arġentina",
-    "dronePilotCredentialName": "Ċertifikat ta' Pilota tal-UAV"
+    "dronePilotCredentialName": "Liċenzja ta' Pilota Remot (RPA)"
   }
 }

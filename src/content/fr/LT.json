@@ -1,55 +1,58 @@
 {
   "meta": {
-    "sourceHash": "c6156d2d7270eed1f0bbf03a22c83cd1cf94b1875c9f45ae22d161f7fab4e957",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e93e943369b28f887990b72c587e2c372465bbacd9292903c416ee4c4ebf7e67",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Un maximum de 120 m au-dessus du sol (catégorie ouverte EASA)",
-      "Enregistrez-vous comme exploitant d'UAS (10 €/an) si votre drone pèse 250 g ou plus ou est équipé d'une caméra",
-      "Formation en ligne A1/A3 obligatoire — âge minimum 16 ans",
+      "Dans la catégorie ouverte, la hauteur maximale est de 120 m, mesurée comme la distance par rapport au point le plus proche de la surface du sol — pas simplement à la verticale : en volant près d'une pente, le terrain adjacent peut aussi compter. À moins de 50 m d'un obstacle artificiel élevé (plus de 105 m), l'entité responsable de l'obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
+      "Vous devez vous enregistrer comme exploitant de drone si votre drone pèse 250 g ou plus (ou peut transmettre plus de 80 J d'énergie cinétique en cas de collision) — cela s'applique même aux jouets. En dessous de 250 g, l'enregistrement reste obligatoire si le drone est équipé d'un capteur capable de collecter des données personnelles, sauf s'il est considéré comme un jouet au sens de la directive européenne relative à la sécurité des jouets. Les exigences de formation/certificat des pilotes sont distinctes et dépendent de la classe et de la sous-catégorie du drone.",
+      "Le numéro d'enregistrement doit être visible sur le drone et (pour les drones de classe C1–C3) saisi dans le système Remote ID",
+      "Les drones sans marque de classe C (mis sur le marché avant le 1er janvier 2024) et les drones de construction privée ne peuvent voler que dans la sous-catégorie A1 si leur masse au décollage est inférieure à 250 g, ou dans la sous-catégorie A3 si elle est inférieure à 25 kg",
+      "L'âge minimum d'un télépilote est de 16 ans (règle de l'UE ; la Lituanie ne l'a pas abaissé). Les pilotes plus jeunes ne peuvent voler que : sous la supervision directe d'un télépilote remplissant les exigences ; avec un jouet de classe C0 dans la sous-catégorie A1 ; ou avec un drone de construction privée d'une masse au décollage inférieure à 250 g. La formation et l'examen A1/A3 se passent dans le système TKA, et le certificat est valable 5 ans.",
       "L'assurance responsabilité civile est obligatoire pour les drones de plus de 20 kg",
-      "Gardez toujours une vue directe (VLOS)",
+      "Dans la catégorie ouverte, vous devez garder le drone dans votre propre champ de vision direct, sans aide optique (lunettes/lentilles de contact acceptées ; les jumelles ou un écran ne comptent pas) — ou voler avec l'aide d'un observateur, en maintenant à tout moment une communication claire et efficace l'un avec l'autre, afin de surveiller ensemble l'espace aérien et d'éviter les collisions. Le mode « Follow-me » est une exception distincte, autorisée jusqu'à 50 m du pilote.",
       "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
-      "À au moins 5 km de tout aéroport ou aérodrome",
+      "Il n'existe pas de distance unique à respecter par rapport aux aéroports dans toute l'UE. Les restrictions à proximité des aéroports sont publiées sous forme de zones géographiques (article 15), dont la forme et la taille varient d'un aéroport à l'autre — avant de voler près d'un aéroport, d'un aérodrome ou d'un héliport, consultez la carte officielle des zones drones. Dans l'espace aérien contrôlé (zones UR de Vilnius, Kaunas, Palanga, Šiauliai), vous pouvez voler en catégorie ouverte sans autorisation préalable uniquement jusqu'à la hauteur fixée pour la zone — plus on est proche de l'aéroport, plus elle est basse (hauteurs : utm.ans.lt ; voler plus haut nécessite une autorisation délivrée selon la procédure de la LTSA). Dans les zones ATZ/TIZ des aérodromes, le vol doit être coordonné à l'avance avec le propriétaire ou l'exploitant de l'aérodrome.",
+      "Les vols dans les zones EYP et au-dessus des zones militaires (EYURM) sont interdits sans autorisation ; il en va de même dans les zones EYR activées (l'activation est annoncée par NOTAM)",
       "Les vols de nuit sont autorisés dans le cadre des exigences de base de l’EASA pour la catégorie ouverte lorsque le feu vert clignotant requis est utilisé, sauf si une zone géographique ou une règle nationale en vigueur impose une condition plus stricte.",
       "Des restrictions sont en vigueur dans le parc national de l'isthme de Courlande",
-      "Restrictions supplémentaires dans les zones frontalières avec la Russie et le Bélarus"
+      "Dans la zone frontalière le long des frontières avec la Biélorussie et la Russie (environ 7,4 km de la frontière), les vols sans coordination préalable sont strictement interdits"
     ],
     "importantNotes": [
-      "L'enregistrement coûte 10 € par an — il doit être renouvelé chaque année",
+      "L'enregistrement et la délivrance/le renouvellement du certificat d'enregistrement coûtent 31 €",
       "L'assurance n'est requise que pour les drones de plus de 20 kg",
-      "Des restrictions de vol sont en vigueur dans les zones frontalières avec la Russie et le Bélarus",
+      "Dans la zone frontalière le long des frontières avec la Biélorussie et la Russie (environ 7,4 km de la frontière), les vols sans coordination préalable sont strictement interdits",
       "La CTR de l'aéroport de Vilnius couvre une grande partie de la ville",
       "Le RGPD s'applique lorsque des personnes identifiables sont filmées ou photographiées"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Règles pour les drones",
-        "description": "Réglementation officielle des drones de l'Administration de l'aviation civile"
+        "title": "TKA — Règles relatives aux drones",
+        "description": "Règles officielles relatives aux drones de la Transporto kompetencijų agentūra (TKA)"
       },
       {
-        "title": "TKA — S'inscrire comme utilisateur",
-        "description": "Enregistrez-vous comme exploitant d'UAS (10 € par an, valable dans tous les pays de l'UE/EASA)"
+        "title": "TKA — S'enregistrer comme exploitant",
+        "description": "Enregistrement comme exploitant d'UAS (31 €, valable dans tous les pays de l'UE/EASA)"
       },
       {
         "title": "UTM Lituanie — Carte de l'espace aérien",
         "description": "Carte officielle UTM de l'espace aérien indiquant les zones de drones et les restrictions"
       },
       {
-        "title": "CAA — Aperçu des règles",
+        "title": "TKA — Aperçu des règles",
         "description": "Un aperçu de la réglementation des vols de drones en Lituanie"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Air Navigation — Services de navigation aérienne",
-        "description": "Service de navigation aérienne lituanien et informations sur l'espace aérien"
+        "title": "Oro Navigacija — Services de navigation aérienne",
+        "description": "Service lituanien de navigation aérienne et informations sur l'espace aérien"
       },
       {
-        "title": "CAA — FAQ sur les drones",
+        "title": "TKA — FAQ drones",
         "description": "Questions fréquentes sur la réglementation des drones en Lituanie"
       }
     ],

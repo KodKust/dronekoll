@@ -1,30 +1,32 @@
 {
   "meta": {
-    "sourceHash": "64c56f7cd237868e12b4a9acebacfc1c7ed47d9c27e97af77b28d123a7822c74",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "9cca66a7c2aad0d0dc5edac3e33625910a5e790c5cdccb45c10be1fbd9252627",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maksimal højde: 122 m (400 ft) over jorden i den åbne kategori (ukontrolleret luftrum)",
-      "I nærheden af lufthavne (≤5 km): maksimal højde 43 m uden forudgående tilladelse fra udbyderen af luftnavigationstjenester",
-      "Mindst 5 km fra lufthavne og flyvepladser uden tilladelse",
-      "Mindst 500 m fra helikopterlandingspladser",
-      "Hold sikker afstand til personer og bygninger, der ikke er involveret i flyvningen",
+      "Åben kategori: det er forbudt at flyve inden for flyvepladsers kontrolzoner (CTR). I kontrolleret luftrum, inden for 5 km fra banetærsklerne: maksimalt 43 m og aldrig i indflyvnings- eller startfladerne; større højde kræver tilladelse fra udbyderen af luftfartstjenester.",
+      "Helikopterlandingspladser: det er forbudt at flyve inden for 1 sømil (1,85 km) fra referencepunktet (HRP); mellem 1 og 2 sømil maksimalt 150 ft (46 m) over helikopterlandingspladsen, medmindre det er koordineret på forhånd.",
+      "Det er forbudt at flyve over militære anlæg, sikkerhedsanlæg eller fængsler og inden for 1 sømil (1,85 km) fra dem; over raffinaderier, kraftværker eller brændstofdepoter uden ejerens tilladelse; og inden for 25 m (lodret eller vandret) fra højspændingsledninger.",
+      "Du skal holde sikker afstand til personer og bygninger, der ikke er involveret i flyvningen.",
       "Hold altid dronen inden for synsvidde (VLOS) i den åbne kategori",
-      "Flyvning kun tilladt i dagslys — natflyvning kræver særlig tilladelse",
-      "Droner under 250 g: fritaget for registrering og licens (Resolution 550/2025)",
-      "Droner ≥250 g: obligatorisk registrering hos TAD (ANAC) — ingen pilotlicens påkrævet i den åbne kategori",
+      "Det er forbudt at styre en drone eller fungere som observatør inden for 8 timer efter indtagelse af alkohol eller under påvirkning af psykoaktive stoffer.",
+      "Natflyvning: ANAC Res. 312/2026 (maj 2026) fjernede den generelle begrænsning i RAAC 100; ANAC's vejledning angiver stadig natoperationer som specifik kategori — tjek med ANAC, før du flyver om natten.",
+      "Droner, der vejer under 250 g, er undtaget fra registrering, licens og obligatorisk forsikring (Resolution 550/2025, august 2025). Droner fra 250 g til 25 kg kræver ikke pilotlicens, men skal registreres digitalt hos ANAC i Casillero Aeronáutico Digital (CAD).",
+      "Droner ≥250 g: obligatorisk registrering hos CAD (ANAC) — ingen pilotlicens påkrævet i den åbne kategori",
       "Operationer i den specifikke kategori (25–150 kg eller flyvninger i byområder/BVLOS) kræver pilotlicens, lægeattest og et certifikat som erhvervsoperatør",
-      "Den åbne kategori tillader droner under 25 kg uden forudgående tilladelse (ingen vægtgrænse i landdistrikter)"
+      "Den åbne kategori tillader droner fra 250 g til under 25 kg uden forudgående tilladelse (droner med roterende vinger uden vægtgrænse kun i landdistrikter, uden for CTR'er og begrænset luftrum)"
     ],
     "importantNotes": [
-      "📜 NYT REGELSÆT FRA 2025: ANAC Resolution 550/2025 (gældende fra august 2025) erstatter Resolution 880/2019. Det fastsætter tre kategorier: operationer uden forudgående tilladelse, den åbne kategori og den specifikke kategori. RAAC Part 100/101/102.",
-      "✈️ UDENLANDSKE TURISTER: Droner på 250 g eller derover skal registreres hos TAD før første flyvning (Resolution 550/2025). Registreringen sker online; der kræves et argentinsk ID eller pas. Droner under 250 g — som DJI Mini, Flip osv. — er fritaget for registrering og licens.",
-      "🌳 NATIONALPARKER OG BESKYTTEDE OMRÅDER: APN (National Parks Administration) forbyder droner uden en særlig tilladelse i parker som Iguazú, Nahuel Huapi, Los Glaciares og Tierra del Fuego. Tjek med den enkelte park, før du flyver.",
-      "🏛️ BYOMRÅDER OG OMRÅDER MED RESTRIKTIONER: Buenos Aires (Jorge Newbery Airport, Casa Rosada, Congress), Ezeiza (Ministro Pistarini) og militærområder er flyveforbudszoner. Aerolíneas Argentinas og bymidten har permanente restriktioner — tjek AIP.",
-      "💰 BØDER: Overtrædelser kan medføre betydelige bøder, konfiskation af udstyr og i alvorlige tilfælde strafansvar. Ansvarsforsikring kræves ved erhvervsmæssig brug."
+      "📜 NYT REGELSÆT: ANAC Resolution 550/2025 (gældende fra august 2025, ændret ved Res. 312/2026) erstatter Resolution 880/2019. Det fastsætter tre kategorier: åben, specifik og certificeret. RAAC Part 100/101/102.",
+      "Droner, der vejer 250 g eller mere, skal registreres hos ANAC i Casillero Aeronáutico Digital (CAD) før deres første flyvning — registreringen er gratis, foregår online og kræver DNI eller pas. Droner under 250 g (f.eks. DJI Mini eller Flip) er undtaget fra registrering og licens (Resolution 550/2025).",
+      "Turister: et gyldigt registreringscertifikat for den pågældende drone, udstedt af luftfartsmyndigheden i en anden ICAO-stat, accepteres (RAAC 100.05); en registrering alene af operatøren er muligvis ikke nok. Hvis din drone ikke er registreret, skal du udfylde den gratis digitale erklæring på tro og love (Declaración Jurada) hos ANAC med dit pas.",
+      "🌳 NATIONALPARKER OG BESKYTTEDE OMRÅDER: APN forbyder rekreativ og sportslig brug af droner i alle sine beskyttede områder (APN Res. 9/2021), f.eks. Iguazú, Nahuel Huapi, Los Glaciares eller Tierra del Fuego. Professionel eller videnskabelig brug kræver forudgående tilladelse fra APN.",
+      "🏛️ RESTRIKTIONSOMRÅDER: det er forbudt at flyve over Casa Rosada, Quinta de Olivos, offentlige bygninger og ambassader, inden for 1 sømil fra militære anlæg og inden for kontrolzonerne for lufthavne som Aeroparque og Ezeiza — tjek AIP.",
+      "💰 SANKTIONER: overtrædelser straffes efter Reglamento General de Infracciones de la Aviación Civil, uden at det berører civil- eller strafferetligt ansvar. Forsikring er obligatorisk i den specifikke og den certificerede kategori (frivillig i den åbne kategori)."
     ],
     "primaryLinks": [
       {
@@ -32,8 +34,8 @@
         "description": "Den nationale civile luftfartsadministrations officielle hjemmeside om droner (VANT/SVANT): den nye lovramme — resolution 550/2025, kategorier og operationelle krav"
       },
       {
-        "title": "Droneregistrering (TAD)",
-        "description": "Obligatorisk registreringssystem for droner over 500 g via platformen Trámites a Distancia (TAD). Klasse A (≤500 g) til fritidsbrug er fritaget."
+        "title": "Droneregistrering (CAD)",
+        "description": "Gratis digital erklæring på tro og love (Declaración Jurada) for droner fra 250 g til 25 kg i ANAC's Casillero Aeronáutico Digital (CAD); der udstedes et digitalt registreringscertifikat. Droner under 250 g er undtaget."
       },
       {
         "title": "AIP — Offentliggørelse af luftfartsinformation",
@@ -50,19 +52,19 @@
         "description": "Luftoperatørcertifikat til erhvervsmæssige droneoperationer. Kræves til den specifikke kategori og professionelle flyvninger"
       },
       {
-        "title": "Certificering som fjernbesætningsmedlem (pilot)",
-        "description": "Procedure for at opnå tilladelse som fjernpilot. Eksamener og krav til professionel certificering"
+        "title": "Autorisation som fjernbesætningsmedlem (pilot)",
+        "description": "Procedure for at opnå autorisation som fjernpilot. Eksaminer og krav til professionel certificering"
       },
       {
         "title": "Ny lovramme (officielt resumé)",
         "description": "ANAC's officielle resumé af den nye lovramme for droner efter resolution 550/2025: væsentligste ændringer og kategorier"
       }
     ],
-    "disclaimerText": "Tjek altid ANAC's officielle kilder, før du flyver. Denne app er et værktøj, ikke en juridisk myndighed. Argentina håndhæver ANAC Resolution 550/2025 (RAAC Part 100/101/102), gældende fra august 2025.",
+    "disclaimerText": "Tjek altid ANAC's officielle kilder, før du flyver. Denne app er et værktøj, ikke en juridisk myndighed. Argentina håndhæver ANAC Resolution 550/2025 (RAAC Part 100/101/102), gældende fra august 2025 og ændret ved ANAC Resolution 312/2026.",
     "sectionLabelRules": "VIGTIGSTE REGLER",
     "sectionLabelPrimary": "OFFICIELLE KILDER",
     "sectionLabelSecondary": "YDERLIGERE RESSOURCER",
     "linksSheetTitle": "Luftrum og regler — Argentina",
-    "dronePilotCredentialName": "UAV-pilotcertifikat"
+    "dronePilotCredentialName": "Fjernpilotlicens (RPA)"
   }
 }

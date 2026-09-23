@@ -1,30 +1,32 @@
 {
   "meta": {
-    "sourceHash": "64c56f7cd237868e12b4a9acebacfc1c7ed47d9c27e97af77b28d123a7822c74",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "9cca66a7c2aad0d0dc5edac3e33625910a5e790c5cdccb45c10be1fbd9252627",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Didžiausias aukštis: 122 m (400 ft) virš žemės paviršiaus atvirojoje kategorijoje (nekontroliuojama oro erdvė)",
-      "Netoli oro uostų (≤5 km): didžiausias aukštis 43 m be išankstinio oro navigacijos paslaugų teikėjo leidimo",
-      "Mažiausias 5 km atstumas nuo oro uostų ir aerodromų be leidimo",
-      "Mažiausias 500 m atstumas nuo sraigtasparnių aikštelių",
-      "Saugus atstumas nuo operacijoje nedalyvaujančių žmonių ir pastatų",
+      "Atviroji kategorija: skraidyti aerodromų kontroliuojamose zonose (CTR) draudžiama. Kontroliuojamoje oro erdvėje, 5 km atstumu nuo kilimo ir tūpimo takų slenksčių: ne aukščiau kaip 43 m ir niekada ne artėjimo ar kilimo paviršiuose; skristi aukščiau galima tik gavus oro navigacijos paslaugų teikėjo leidimą.",
+      "Sraigtasparnių aikštelės: draudžiama skraidyti 1 jūrmylės (1,85 km) atstumu nuo atskaitos taško (HRP); nuo 1 iki 2 jūrmylių — ne aukščiau kaip 150 ft (46 m) virš sraigtasparnių aikštelės, nebent iš anksto suderinta.",
+      "Draudžiama skraidyti virš karinių, saugumo ar įkalinimo įstaigų ir 1 jūrmylės (1,85 km) atstumu nuo jų; virš naftos perdirbimo gamyklų, elektrinių ar degalų saugyklų be savininko leidimo; taip pat arčiau kaip 25 m (vertikaliai ar horizontaliai) nuo aukštos įtampos elektros linijų.",
+      "Privalote laikytis saugaus atstumo nuo operacijoje nedalyvaujančių žmonių ir pastatų.",
       "Atvirojoje kategorijoje visada laikykite droną tiesioginiame regėjimo lauke (VLOS)",
-      "Skraidyti leidžiama tik dieną — naktiniams skrydžiams reikalingas specialus leidimas",
-      "Lengvesni nei 250 g dronai: atleidžiami nuo registracijos ir licencijavimo (Resolution 550/2025)",
-      "Dronai, sveriantys ≥250 g: privaloma registracija TAD (ANAC) — atvirojoje kategorijoje piloto licencija nereikalinga",
+      "Draudžiama pilotuoti ar būti stebėtoju, jei nuo alkoholio vartojimo praėjo mažiau nei 8 valandos, arba esant apsvaigus nuo psichoaktyviųjų medžiagų.",
+      "Naktiniai skrydžiai: ANAC Res. 312/2026 (2026 m. gegužės) panaikino bendrąjį RAAC 100 nustatytą ribojimą; ANAC gairėse naktinės operacijos vis dar priskiriamos specialiajai kategorijai — prieš skraidydami naktį pasitarkite su ANAC.",
+      "Lengvesniems nei 250 g dronams registracija, licencija ir privalomasis draudimas netaikomi (Resolution 550/2025, 2025 m. rugpjūtis). Dronams nuo 250 g iki 25 kg piloto licencija nereikalinga, tačiau juos būtina skaitmeniniu būdu užregistruoti ANAC sistemoje Casillero Aeronáutico Digital (CAD).",
+      "Dronai, sveriantys ≥250 g: privaloma registracija CAD (ANAC) — atvirojoje kategorijoje piloto licencija nereikalinga",
       "Operacijos specialiojoje kategorijoje (25–150 kg arba skrydžiai mieste/BVLOS): reikalinga piloto licencija, medicininė pažyma ir komercinio operatoriaus pažymėjimas",
-      "Atviroji kategorija leidžia naudoti lengvesnius nei 25 kg dronus be išankstinio leidimo (kaimo vietovėse svorio riba netaikoma)"
+      "Atviroji kategorija leidžia naudoti dronus nuo 250 g iki mažiau nei 25 kg be išankstinio leidimo (sukamųjų sparnų dronai be svorio ribos — tik kaimo vietovėse, už CTR ir ribojamos oro erdvės ribų)"
     ],
     "importantNotes": [
-      "📜 NAUJA 2025 M. SISTEMA: ANAC Resolution 550/2025 (galioja nuo 2025 m. rugpjūčio) pakeičia Resolution 880/2019. Šiuo teisės aktu nustatomos trys kategorijos: operacijos be išankstinio leidimo, atviroji kategorija ir specialioji kategorija. RAAC Part 100/101/102.",
-      "✈️ UŽSIENIO TURISTAMS: dronai, sveriantys 250 g ar daugiau, prieš pirmąjį skrydį turi būti užregistruoti TAD (Resolution 550/2025). Registruojamasi internetu; reikalingas Argentinos asmens dokumentas arba pasas. Lengvesni nei 250 g dronai (pavyzdžiui, DJI Mini, Flip ir kt.) atleidžiami nuo registracijos ir licencijavimo.",
-      "🌳 NACIONALINIAI PARKAI IR SAUGOMOS TERITORIJOS: APN (National Parks Administration) draudžia be specialaus leidimo skraidinti dronus tokiuose parkuose kaip Iguazú, Nahuel Huapi, Los Glaciares ir Tierra del Fuego. Prieš skrydį pasitikslinkite kiekvieno parko administracijoje.",
-      "🏛️ MIESTO IR RIBOJAMOS TERITORIJOS: Buenos Aires (Jorge Newbery Airport, Casa Rosada, Congress), Ezeiza (Ministro Pistarini) ir karinės zonos yra neskraidymo zonos. Aerolíneas Argentinas ir miesto centro zonoms taikomi nuolatiniai ribojimai — patikrinkite AIP.",
-      "💰 BAUDOS: pažeidimai gali užtraukti dideles baudas, įrangos konfiskavimą, o sunkiais atvejais — baudžiamąją atsakomybę. Komerciniam naudojimui privalomas civilinės atsakomybės draudimas."
+      "📜 NAUJA SISTEMA: ANAC Resolution 550/2025 (galioja nuo 2025 m. rugpjūčio, pakeista Res. 312/2026) pakeičia Resolution 880/2019. Ja nustatomos trys kategorijos: atviroji, specialioji ir sertifikuotoji. RAAC Part 100/101/102.",
+      "Dronai, sveriantys 250 g ar daugiau, prieš pirmąjį skrydį turi būti užregistruoti ANAC sistemoje Casillero Aeronáutico Digital (CAD) — registracija nemokama, vyksta internetu, reikia DNI arba paso. Lengvesniems nei 250 g dronams (pvz., DJI Mini ar Flip) registracija ir licencija nereikalingos (Resolution 550/2025).",
+      "Turistams: pripažįstamas galiojantis to drono registracijos pažymėjimas, išduotas kitos ICAO valstybės civilinės aviacijos institucijos (RAAC 100.05); vien operatoriaus registracijos gali nepakakti. Jei jūsų dronas neužregistruotas, ANAC sistemoje užpildykite nemokamą skaitmeninę priesaikos deklaraciją (Declaración Jurada), naudodami pasą.",
+      "🌳 NACIONALINIAI PARKAI IR SAUGOMOS TERITORIJOS: APN draudžia pramoginį ir sportinį dronų naudojimą visose savo saugomose teritorijose (APN Res. 9/2021), pavyzdžiui, Iguazú, Nahuel Huapi, Los Glaciares ar Tierra del Fuego. Profesionaliam ar moksliniam naudojimui reikalingas išankstinis APN leidimas.",
+      "🏛️ RIBOJAMOS ZONOS: draudžiama skraidyti virš Casa Rosada, Quinta de Olivos, viešųjų pastatų ir ambasadų, 1 jūrmylės atstumu nuo karinių objektų, taip pat oro uostų (pvz., Aeroparque ir Ezeiza) kontroliuojamose zonose — pasitikrinkite AIP.",
+      "💰 BAUDOS: pažeidimai baudžiami pagal Reglamento General de Infracciones de la Aviación Civil, nepažeidžiant civilinės ar baudžiamosios atsakomybės. Specialiojoje ir sertifikuotojoje kategorijose draudimas privalomas (atvirojoje kategorijoje — savanoriškas)."
     ],
     "primaryLinks": [
       {
@@ -32,8 +34,8 @@
         "description": "Oficiali Nacionalinės civilinės aviacijos administracijos svetainė apie dronus (VANT/SVANT): nauja teisinė sistema — nutarimas 550/2025, kategorijos ir naudojimo reikalavimai"
       },
       {
-        "title": "Dronų registracija (TAD)",
-        "description": "Privaloma sunkesnių nei 500 g dronų registracijos sistema per Trámites a Distancia (TAD) platformą. A klasės (≤500 g) pramoginis naudojimas atleidžiamas."
+        "title": "Dronų registracija (CAD)",
+        "description": "Nemokama skaitmeninė priesaikos deklaracija (Declaración Jurada) dronams nuo 250 g iki 25 kg ANAC sistemoje Casillero Aeronáutico Digital (CAD); išduodamas skaitmeninis registracijos pažymėjimas. Lengvesniems nei 250 g dronams tai netaikoma."
       },
       {
         "title": "AIP — Aeronautikos informacijos leidinys",
@@ -50,19 +52,19 @@
         "description": "Oro vežėjo pažymėjimas komercinėms dronų operacijoms. Būtinas specialiajai kategorijai ir profesionaliems skrydžiams"
       },
       {
-        "title": "Sertifikavimas kaip nuotolinio įgulos nario (piloto)",
-        "description": "Leidimo dirbti nuotoliniu pilotu gavimo tvarka. Egzaminai ir reikalavimai profesionaliam sertifikavimui"
+        "title": "Nuotolinio įgulos nario (piloto) leidimas",
+        "description": "Nuotolinio piloto leidimo gavimo tvarka. Profesionalaus sertifikavimo egzaminai ir reikalavimai"
       },
       {
         "title": "Nauja teisinė sistema (oficiali santrauka)",
         "description": "Oficiali ANAC naujosios dronų teisinės sistemos santrauka po nutarimo 550/2025: pagrindiniai pokyčiai ir kategorijos"
       }
     ],
-    "disclaimerText": "Prieš skrydį visada patikrinkite oficialius ANAC šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Argentinoje nuo 2025 m. rugpjūčio galioja ANAC Resolution 550/2025 (RAAC Part 100/101/102).",
+    "disclaimerText": "Prieš skrydį visada patikrinkite oficialius ANAC šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Argentinoje nuo 2025 m. rugpjūčio galioja ANAC Resolution 550/2025 (RAAC Part 100/101/102), pakeistas ANAC Resolution 312/2026.",
     "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
     "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
     "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",
     "linksSheetTitle": "Oro erdvė ir taisyklės — Argentina",
-    "dronePilotCredentialName": "Bepiločio orlaivio piloto pažymėjimas"
+    "dronePilotCredentialName": "Nuotolinio piloto licencija (RPA)"
   }
 }

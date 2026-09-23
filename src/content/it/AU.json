@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "362edae763d5f971da0104f4b2bf8c97",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb2939eb8f1213b47dba87ec9440da8e",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,23 @@
     "keyRules": [
       "Massimo 120 m dal suolo (AGL)",
       "Almeno 30 m da qualsiasi persona non coinvolta — non volare mai sopra le persone",
-      "I droni di peso superiore a 250 g devono mantenersi ad almeno 5,5 km da un aeroporto controllato. I droni di peso inferiore a 250 g possono volare all'interno di tale zona, ma solo fino a 45 m dal suolo, al di fuori del perimetro dell'aerodromo e senza creare pericoli per altri aeromobili.",
-      "Droni di peso inferiore a 250 g: quota massima 45 m entro 5,5 km da un aeroporto controllato",
+      "Droni oltre 250 g: non volare entro 5,5 km da un aeroporto controllato né in una traiettoria di avvicinamento/partenza di una pista fino a 7 km (7–8,5 km: max 90 m). I droni di 250 g o meno possono volare fino a 45 m dal suolo entro 5,5 km, ma mai sopra o all'interno delle traiettorie di avvicinamento/partenza, all'interno del perimetro aeroportuale o dove creano un pericolo per gli aeromobili.",
+      "Entro 5,5 km da un aeroporto senza torre di controllo, o entro 1,4 km da un sito di atterraggio per elicotteri: se ti accorgi di un aeromobile con equipaggio o di un elicottero, non decollare — allontanati dalla sua traiettoria e atterra il prima possibile",
+      "Non volare mai sopra o vicino a operazioni di emergenza (polizia, ambulanze, ricerca e soccorso, antincendio) o ad aree che incidono sulla sicurezza pubblica",
       "Volo ricreativo: solo nelle ore diurne (tra il crepuscolo civile mattutino e quello serale). Il volo notturno richiede l'autorizzazione RePL + ReOC",
       "Mantieni sempre il contatto visivo diretto (VLOS)",
+      "Fai volare un solo drone alla volta",
       "Nessuna registrazione richiesta per i droni ricreativi (qualsiasi peso inferiore a 25 kg, si applicano le regole standard)",
-      "Uso commerciale di 2 kg+: è richiesta la Licenza di pilota remoto (RePL)",
+      "Volo per lavoro (qualsiasi peso, anche sotto i 250 g): registra il drone (gratuito fino a 500 g; AUD 40 per drone oltre 500 g) e possiedi l'accreditamento come operatore o una Remote Pilot Licence (RePL). Oltre 2 kg sono generalmente richiesti anche una RePL e un ReOC. I droni registrati all'estero non possono essere registrati in Australia: per i voli di lavoro, ottieni il permesso della CASA tramite myCASA",
       "Le regole dei parchi nazionali variano da Stato a Stato: verifica prima di volare (alcuni vietano del tutto i droni)"
     ],
     "importantNotes": [
-      "Lo Stato di Victoria vieta i droni in TUTTI i parchi statali e nazionali — nessuna eccezione senza permesso",
+      "Sydney Harbour e le aree circostanti sono una «no drone zone» (elicotteri e idrovolanti a bassa quota): molti siti turistici sono off-limits; consulta un'app verificata dalla CASA",
+      "Victoria: i droni ricreativi non sono affatto consentiti sui terreni gestiti da Parks Victoria; le riprese con droni richiedono un permesso di Parks Victoria e un operatore autorizzato e certificato dalla CASA",
       "I parchi nazionali del NSW richiedono un permesso dell'NPWS — sanzioni fino a $3.300",
       "Nel South Australia, i droni sono consentiti nei parchi solo per la ricerca scientifica o le riprese commerciali",
-      "Le sanzioni per le operazioni illegali possono superare i $10.000 AUD"
+      "I droni sono vietati nei parchi nazionali Uluṟu-Kata Tjuṯa e Kakadu (reato ai sensi dell'EPBC Act senza permesso)",
+      "La CASA può infliggere multe fino a AUD 1.820 per infrazione; multe giudiziarie fino a AUD 18.200 e fino a 2 anni di carcere se il tuo drone mette in pericolo un aeromobile"
     ],
     "primaryLinks": [
       {
@@ -36,7 +40,7 @@
       },
       {
         "title": "OpenSky — Mappa dello spazio aereo",
-        "description": "Dati sullo spazio aereo verificati CASA con restrizioni in tempo reale e avvisi TFR"
+        "description": "Dati sullo spazio aereo verificati dalla CASA con restrizioni in tempo reale"
       },
       {
         "title": "CASA — Registrazione",

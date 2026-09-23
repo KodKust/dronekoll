@@ -1,34 +1,39 @@
 {
   "meta": {
-    "sourceHash": "cd8a26ec06fe6fce166e7bf3de181ffab5c36b7b3c6007a64f6e67ae3c10ef12",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "8e19b8ef08eacce878876a6b70061b85975b67e81f34fce0c591ea4492f2566c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Dronai, sveriantys ≥250 g (0.55 lb): privaloma registracija IDAC per Vuela Seguro (RAD-48)",
-      "Sunkesni nei 2 kg (4.4 lb) dronai: be registracijos, reikalingas ir specialus IDAC leidimas",
-      "Mažiausias 9 km (5 jūrmylių) atstumas nuo oro uostų ir aerodromų",
+      "Privaloma registracija IDAC per Vuela Seguro: RAD 48 (pakeitimas galioja nuo 21/02/2025) reikalauja jos nuo 0,20 kg (0,44 lb); Vuela Seguro gairėse vis dar nurodyta 0,25 kg (0,55 lb) — jei jūsų dronas sveria 200–249 g, pasitikslinkite IDAC",
+      "Dronai >250 g (0,55 lb): reikalinga IDAC nuotolinio piloto licencija arba pažymėjimas, taip pat ir pramoginiam naudojimui (ne jaunesniems kaip 18 metų, RAD 107.23)",
+      "Pramoginiai skrydžiai: IDAC (Vuela Seguro gairės) reikalauja pateikti leidimo prašymą forma 1500-9 (licencija / pažymėjimas, registracija, draudimas, jei taikoma, ir žemėlapis su koordinatėmis) ne vėliau kaip prieš 5 darbo dienas iki operacijos; numatomas nagrinėjimo laikas — 15 darbo dienų",
+      "Mažiausias 9 km (5 jūrmylių) atstumas nuo oro uostų ir aerodromų be IDAC leidimo.",
+      "Už G klasės oro erdvės ribų (pvz., oro uostų kontroliuojamose zonose) reikalingas išankstinis IDAC leidimas ir derinimas su ATC (RAD 107.57)",
       "Skraidyti leidžiama tik dieną — naktiniam skraidymui reikalingas specialus IDAC leidimas",
       "Visada laikykite droną tiesioginiame regėjimo lauke (VLOS)",
-      "PRIVALOMAS civilinės atsakomybės draudimas (RAD-107)",
-      "Draudžiamoji skrydžių zona: National Palace, Ministry of Defense, San Isidro Air Base",
-      "DRAUDŽIAMOJI SKRYDŽIŲ ZONA: Dominican Oil Refinery, Las Calderas Naval Base, karinės vadavietės",
-      "Komercinis naudojimas: nuotolinio piloto pažymėjimas + papildomas veiklos leidimas",
-      "Netrukdykite oro eismui oro uostų tūpimo ir kilimo maršrutuose"
+      "Didžiausias aukštis 400 ft (122 m) virš žemės paviršiaus (RAD 107.67); skraidyti virš nedalyvaujančių žmonių be išankstinio IDAC leidimo draudžiama (RAD 107.55)",
+      "Skraidyti iš judančios transporto priemonės ar laivo be IDAC leidimo draudžiama, išskyrus virš retai apgyvendintų vietovių (RAD 107.39)",
+      "PRIVALOMAS civilinės atsakomybės tretiesiems asmenims draudimas (RAD 48.19 ir RAD 107.69; pramoginiam naudojimui nuo 0,25 iki 2 kg RAD 107.69 pripažįsta priesaikos deklaraciją dėl solidariosios atsakomybės (Declaración Jurada de Responsabilidad Solidaria))",
+      "Dronai >2 kg (4,4 lb): civilinės atsakomybės draudimas reikalingas ir pramoginiam naudojimui (ne mažiau kaip 2 000 USD, RAD 107.69; RAD 48.19 reikalauja ne mažiau kaip 5 000 USD sunkesniems nei 4,5 kg)",
+      "DRAUDŽIAMA skraidyti virš šių objektų: National Palace, Ministry of Defense, San Isidro Air Base",
+      "DRAUDŽIAMA skraidyti virš šių objektų: Dominican Oil Refinery, Las Calderas Naval Base, karinės vadavietės",
+      "Komercinė veikla: IDAC nuotolinio piloto licencija + leidimas (forma 1500-9). Užsienio piliečiams: tik jei juos pasamdė Dominikos įmonė",
+      "Netrukdykite oro eismui aerodromų tūpimo ir kilimo schemose"
     ],
     "importantNotes": [
       "📋 TEISINĖ SISTEMA: dronų operacijas reglamentuoja Civil Aviation Law 491-06 + RAD-107 (mažų bepiločių orlaivių sistema) + RAD-48 (registracija ir ženklinimas). Kompetentinga institucija yra IDAC (Dominican Civil Aviation Institute).",
-      "✈️ UŽSIENIO TURISTAMS: šios taisyklės taikomos nerezidentams. Dronai, sveriantys ≥250 g, prieš naudojimą turi būti užregistruoti. Pramoginiams skrydžiams su ≤250 g sveriančiais dronais (DJI Mini, Flip) registracija nereikalinga, tačiau taikomos visos kitos taisyklės. Įvažiuojant į šalį rekomenduojama turėti dokumentus.",
-      "🏖️ PUNTA CANA IR PAKRANTĖS TURISTINĖS VIETOS: oro uostams PUJ (Punta Cana), SDQ (Las Américas) ir STI (Santiago) taikoma 9 km draudžiamoji zona. Saona, Catalina, Bayahibe, Las Galeras: daugelyje paplūdimių ir kurortų galioja papildomi ribojimai — prieš skrydį pasitikslinkite viešbutyje arba kreipkitės į kelionių organizatorių.",
-      "🌳 SAUGOMOS TERITORIJOS: Los Haitises, del Este (Saona), Sierra de Bahoruco, Jaragua ir Lago Enriquillo nacionaliniuose parkuose reikalingas specialus Ministry of the Environment leidimas. Samaná Bay (banginių stebėjimas, Jan–Mar): taikomi papildomi ribojimai, kad nebūtų trikdoma laukinė gyvūnija.",
-      "🏛️ NUOLAT RIBOJAMOS TERITORIJOS: National Palace (Santo Domingo), Ministry of Defense, visos karinės bazės (San Isidro, Las Calderas) ir Dominican Oil Refinery. Colonial Zone teritorijoje (UNESCO pasaulio paveldo objektas Santo Domingo) galioja laikini ribojimai — pasitikrinkite iš anksto."
+      "✈️ UŽSIENIO TURISTAMS: šios taisyklės taikomos nerezidentams. Prieš skrydį pateikite IDAC leidimo prašymą forma 1500-9 (ne vėliau kaip prieš 5 darbo dienas; numatomas nagrinėjimo laikas — 15 darbo dienų), pridėdami licenciją / pažymėjimą, registraciją, draudimą, jei taikoma, ir žemėlapį su koordinatėmis. Jei jūsų šalyje dėl drono svorio licencijos / registracijos nereikia, pridėkite tą savo nacionalinių taisyklių dalį ir asmens dokumento kopiją. Registracija: RAD 48 reikalauja jos nuo 0,20 kg (Vuela Seguro gairėse nurodyta 0,25 kg); 200–249 g dronams (pvz., DJI Mini, Flip) pasitikslinkite IDAC. Net jei registracijos nereikia, taikomos visos kitos taisyklės. Komercinis naudojimas: tik jei jus pasamdė Dominikos įmonė, kuri dėl to kreipiasi.",
+      "🏖️ PUNTA CANA IR PAKRANTĖS TURISTINĖS VIETOS: oro uostams PUJ (Punta Cana), SDQ (Las Américas) ir STI (Santiago) taikoma 9 km draudžiamoji zona. Saona, Catalina, Bayahibe, Las Galeras: daugelyje paplūdimių ir kurortų galioja papildomi ribojimai — prieš skrydį pasitikslinkite viešbutyje arba pas kelionių organizatorių.",
+      "🌳 SAUGOMOS TERITORIJOS: prieš skrisdami nacionaliniuose parkuose (Los Haitises, del Este/Saona, Sierra de Bahoruco, Jaragua, Lago Enriquillo) pasitarkite su Aplinkos ministerija; gali prireikti leidimo. Gerbkite laukinę gamtą — banginiai Samanoje (sausis–kovas).",
+      "🏛️ NUOLATINĖS DRAUDŽIAMOSIOS SKRYDŽIŲ ZONOS: National Palace (Santo Domingo), Ministry of Defense, visos karinės bazės (San Isidro, Las Calderas) ir Dominican Oil Refinery. Colonial Zone teritorijoje (UNESCO pasaulio paveldo objektas Santo Domingo) galioja laikini ribojimai — pasitikrinkite iš anksto."
     ],
     "primaryLinks": [
       {
         "title": "IDAC — Vuela Seguro (oficialus dronų portalas)",
-        "description": "Oficiali Dominikos civilinės aviacijos instituto svetainė dronų operatoriams. Įskaitant išsamų vadovą, RAD-107/48 taisykles, registracijos reikalavimus ir ribojamas zonas"
+        "description": "Oficiali Dominikos civilinės aviacijos instituto svetainė dronų operatoriams. Joje rasite išsamias gaires, RAD-107/48 taisykles, registracijos reikalavimus ir ribojamas zonas"
       },
       {
         "title": "Registracijos reikalavimai ir tvarka",
@@ -45,16 +50,16 @@
     ],
     "secondaryLinks": [
       {
-        "title": "IDAC — DTAC (Civilinės aviacijos departamentas)",
-        "description": "Oficialus el. paštas registracijai ir užklausoms: DTAC@idac.gov.do. Sunkesnių nei 2 kg dronų operatoriams arba komerciniam naudojimui rekomenduojama kreiptis tiesiogiai."
+        "title": "IDAC — DTAC (Civilinio oro transporto departamentas)",
+        "description": "Oficialus el. paštas registracijos procedūroms pradėti ir užklausoms: DTAC@idac.gov.do. Komerciniam naudojimui rekomenduojama kreiptis tiesiogiai"
       },
       {
-        "title": "Civilinės aviacijos įstatymas Nr. 491-06",
-        "description": "Bendra teisinė sistema visai Dominikos civilinei aviacijai, įskaitant bepiločius orlaivius. Pagrindas, kuriuo remiantis nustatytos RAD taisyklės"
+        "title": "Civil Aviation Law 491-06",
+        "description": "IDAC įstatymų puslapis: Civil Aviation Law 491-06 ir jį keičiantis Law 17-24. Bendroji visos Dominikos civilinės aviacijos, įskaitant bepiločius orlaivius, teisinė bazė. Pagrindas, kuriuo remiantis nustatomos RAD taisyklės"
       },
       {
         "title": "Aplinkos ministerija — Saugomos teritorijos",
-        "description": "Saugomoms teritorijoms, tokioms kaip Los Haitises nacionalinis parkas, Del Este nacionalinis parkas (Saona) ir Samanos įlanka: prieš naudojant dronus reikalingas specialus leidimas"
+        "description": "Saugomoms teritorijoms, tokioms kaip Los Haitises nacionalinis parkas, Del Este nacionalinis parkas (Saona) ir Samanos įlanka: prieš naudodami dronus pasitarkite su ministerija; gali prireikti leidimo"
       }
     ],
     "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius IDAC šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Dominikos Respublikoje galioja Civil Aviation Law 491-06 kartu su Regulations RAD-107 (sUAS operacijos) ir RAD-48 (registracija). Oficiali svetainė — Vuela Seguro (idac.gob.do/drone).",

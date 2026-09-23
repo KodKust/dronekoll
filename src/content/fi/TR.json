@@ -1,41 +1,43 @@
 {
   "meta": {
-    "sourceHash": "965aaa2f6c885d898cf7ee6ff9907d07afe1d10c3a57077ecae02dbc001de716",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ab41c1c6a873ddfc4cf87129700fea1004f13537f36d6d678dee51194176fb4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Suurin lentokorkeus: 120 metriä (400 ft) maanpinnasta",
-      "Miehittämättömän ilma-aluksen on pysyttävä aina näköyhteydessäsi (VLOS)",
-      "Vain päivälennot — yölennot edellyttävät erillistä lupaa",
-      "Vähintään 9 km:n etäisyys kaikista lentoasemista (mukaan lukien Istanbul IST ja Sabiha Gökçen SAW)",
-      "Muista ihmisistä on pidettävä vähintään 50 metrin vaakaetäisyys",
-      "Kaikki yli 500 g painavat miehittämättömät ilma-alukset on rekisteröitävä osoitteessa iha.shgm.gov.tr",
-      "Lennättäminen on kielletty historiallisilla alueilla (Hagia Sophia, Topkapı, Sultanahmet) ja Bosporinsalmen käytävällä",
-      "Lennättäminen sotilasalueiden, hallintorakennusten ja yleisötapahtumien yllä on ehdottomasti kielletty",
-      "Kun ulkomainen lentäjä käyttää yli 500 g painavaa miehittämätöntä ilma-alusta, hakemus on tehtävä diplomaattiteitse",
-      "FPV-lennättäminen on kielletty ilman erillistä lupaa"
+      "Suurin lentokorkeus on 120 m (400 ft); P0/P1-lennoilla UAV on pidettävä näköyhteydessä (VLOS), eikä se saa olla yli 3 000 m:n päässä lentäjästä. Yli 120 m:n korkeudella lentäminen on mahdollista vain P2-lupakirjalla ja yhteistyössä asianomaisten viranomaisten kanssa.",
+      "UAV on aina pidettävä näköyhteydessäsi, suorassa näköyhteydessä ilman optisten tai elektronisten laitteiden apua (SHT-İHA).",
+      "Harrastelennot (P0) saa suorittaa vain päiväsaikaan; yötoiminta on mahdollista P1- tai P2-lupakirjalla ja sopivalla varustuksella (SHT-İHA, 15 art.). Siirtymäaikana (31. heinäkuuta 2027 asti) hanki yölennoille SHGM:n lupa.",
+      "Ennen kuin lennät lentoasemien lähellä, tarkista kartta osoitteessa iha.shgm.gov.tr (myöhemmin İHATTYS); lennot kaikissa paikoissa vihreiden vyöhykkeiden ulkopuolella edellyttävät SHGM:n lupaa. Uusi SHT-İHA ei määritä kiinteää etäisyyttä; aiemman määräyksen 9 km (5 NM) on syytä pitää turvallisena vähimmäisetäisyytenä.",
+      "Väkijoukkojen yllä lentäminen katsotaan korkean riskin toiminnaksi; se on suljettu P0- ja P1-lentäjiltä, ja sitä saa harjoittaa vain P2-lupakirjalla (SHT-İHA, 6 art.). Uusi määräys ei määritä kiinteää etäisyyttä; vähintään 50 m:n etäisyyttä ihmisiin ja rakennelmiin (aiemman määräyksen arvo) suositellaan turvalliseksi vähimmäisetäisyydeksi.",
+      "Uusi SHT-İHA (2026): leluluokan yksinkertaisia UAV:itä (Simple UAV) lukuun ottamatta kaikkien UAV-käyttäjien, myös alle 500 g:n, on rekisteröidyttävä İHATTYSiin; olemassa olevien ilma-alusten määräaika on 31. heinäkuuta 2027. Kunnes İHATTYS otetaan käyttöön, vähintään 500 g:n UAV:t rekisteröidään osoitteessa iha.shgm.gov.tr.",
+      "Uuden SHT-İHA:n mukaan lentolupa on sidottu lentäjän lupakirjaan: harraste-P0 (vähimmäisikä 10 vuotta), kaupallinen P1 (18 vuotta), edistynyt P2; yksinkertaisille UAV:ille ei vaadita lupakirjaa. Siirtymäaikana (31. heinäkuuta 2027 asti) olemassa olevat İHA0/İHA1-todistukset ja İHA2/İHA3-lupakirjat pysyvät voimassa ja muunnetaan P0/P1/P2:ksi mukautuksen kautta.",
+      "Etätunnistus (Remote ID) ja geoaitaus ovat pakollisia muille kuin yksinkertaisille UAV:ille; olet vastuussa ajantasaisten rajoitusvyöhyketietojen lataamisesta UAV:hesi (SHT-İHA, 12 ja 23 art.; olemassa olevien UAV:iden siirtymäaika 31. heinäkuuta 2027 asti).",
+      "Ennen kuin lennät Istanbulin historiallisella niemimaalla (Hagia Sofia, Topkapı, Sultanahmet) ja Bosporinsalmen ympäristössä, tarkista kartta osoitteessa iha.shgm.gov.tr; lennot kaikissa paikoissa vihreiden vyöhykkeiden ulkopuolella edellyttävät SHGM:n lupaa, ja punaisilla vyöhykkeillä lupa myönnetään vain alueen sulkeneen laitoksen hyväksynnällä.",
+      "Lentäminen sotilasalueiden ja hallintorakennusten yllä on ehdottomasti kielletty; tiheästi asuttujen alueiden yllä lentäminen edellyttää SHGM:n ennakkolupaa.",
+      "Vähintään 500 gramman UAV:itä käyttävien ulkomaisten lentäjien on haettava lupaa diplomaattista tietä vähintään 20 arkipäivää etukäteen lomakkeella FR.23, \"İHA Uçuş İzin Talep Formu\" (UAV-lentolupahakemuslomake).",
+      "FPV-lennoilla on oltava läsnä tarkkailija, joka pitää UAV:n jatkuvasti näköyhteydessä, ja lentäjän ja tarkkailijan välillä on ylläpidettävä jatkuvaa yhteyttä; FPV-laitteiden on toimittava BTK:n hyväksymillä taajuuksilla (SHGM:n UKK). Uusi SHT-İHA määrittelee näköyhteyden (VLOS) suoraksi näköyhteydeksi ilman optisten/elektronisten laitteiden apua — tarkista asia SHGM:ltä ennen FPV-lentämistä."
     ],
     "importantNotes": [
-      "⚠️ ULKOMAISET LENTÄJÄT: Yli 500 g painavan dronen käyttö Turkissa edellyttää, että teet hakemuksen siviili-ilmailun pääosastolle (SHGM) diplomaattiteitse vähintään 20 työpäivää ennen lentoa, hankit vakuutuksen ja lennätät İHA-2-lupakirjan omaavan Turkin kansalaisen valvonnassa. Alle 500 g painavat dronet (kuten DJI Mini, Flip jne.) ovat vapautettuja näistä vaatimuksista.",
-      "🗺️ VYÖHYKEJÄRJESTELMÄ: Turkki on jaettu vihreisiin (avoin), keltaisiin (lupa vaaditaan) ja punaisiin (kielletty) vyöhykkeisiin. Tarkista vyöhykkeen tila osoitteessa iha.shgm.gov.tr ennen lentoa.",
-      "🏛️ HISTORIALLISET JA MATKAILUKOHTEET: Lennättäminen on kielletty ilman kulttuuri- ja matkailuministeriön erityislupaa Istanbulin historiallisen niemimaan (Sultanahmet, Hagia Sophia, Topkapı, Grand Bazaar), tiettyjen Kappadokian laaksojen, Pamukkalen, Efesoksen ja muiden arkeologisten kohteiden yllä.",
-      "🛂 TUONTI JA TULLI: Jos tuot Turkkiin yli 500 g painavia droneja, sinua voidaan vaatia ilmoittamaan ne tullissa. Kaupallisiin tarkoituksiin tapahtuva tuonti edellyttää erillistä menettelyä; Bosporinsalmi, sotilassatamat ja raja-alueet ovat lisärajoitusten alaisia."
+      "🛂 ULKOMAISET LENTÄJÄT — UUSI SHT-İHA (30. heinäkuuta 2026): ulkomailta tuoduissa UAV:issä on oltava SHGM:n vaatimustenmukaisuusohjelmistomoduuli; ilman moduulia ilma-alusta ei voi rekisteröidä eikä lentää Turkissa. Ulkomailla rekisteröityjen UAV:iden on oltava yhteensopivia İHATTYSin kanssa; SHGM arvioi ulkomaiset lupakirjat, ja P1/P2 myönnetään erokoulutuksen jälkeen. Ennen 30. heinäkuuta 2026 hankituille UAV:ille vaatimustenmukaisuusaika kestää 31. heinäkuuta 2027 asti. Kunnes İHATTYS otetaan käyttöön, vähintään 500 g:n UAV:itä koskevat hakemukset toimitetaan SHGM:lle lomakkeella FR.23 diplomaattista tietä vähintään 20 arkipäivää etukäteen.",
+      "🗺️ VYÖHYKEJÄRJESTELMÄ: Uuden SHT-İHA:n (30. heinäkuuta 2026) mukaan vyöhykkeet julkaistaan İHATTYS-kartalla vihreinä (lupaa ei tarvita), punaisina (asianomaisen laitoksen sulkemia; vain kyseisen laitoksen hyväksynnällä, SHGM:n luvalla ja NOTAMilla) ja oransseina (varattu muille). Kunnes İHATTYS otetaan käyttöön, käytetään iha.shgm.gov.tr-karttaa (vihreä/keltainen/punainen). Molemmissa järjestelmissä lennot kaikissa paikoissa vihreiden vyöhykkeiden ulkopuolella edellyttävät SHGM:n lupaa. Tarkista kartta aina ennen lentoa.",
+      "🏛️ HISTORIALLISET JA MATKAILUKOHTEET: Video-, elokuva- ja valokuvaus museoissa ja museoihin liittyvissä kohteissa edellyttää kulttuuri- ja matkailuministeriön lupaa; UAV-lentorajoitusten osalta tarkista myös kartta osoitteessa iha.shgm.gov.tr.",
+      "🛂 ULKOMAILTA TUODUT UAV:T: Vähintään 500 g:n UAV:t on rekisteröitävä osoitteessa iha.shgm.gov.tr viimeistään 3 päivän kuluessa Turkkiin tuomisesta (laki nro 2920, 144 art.). Ulkomaalaiset tarvitsevat turkkilaisen henkilötunnuksen tai oleskeluluvan rekisteröityäkseen urheilu-/harrastekäyttöön. Tullissa voidaan maahantulon yhteydessä vaatia ilmoitus; kaupallista tarkoitusta varten tehtävä tuonti edellyttää erillistä menettelyä. Sotilassatamiin ja raja-alueisiin sovelletaan lisärajoituksia."
     ],
     "primaryLinks": [
       {
-        "title": "SHGM — Miehittämätön ilma-alus (virallinen sivusto)",
-        "description": "Siviili-ilmailun pääosaston virallinen dronesivu: SHT-UAV-määräys, painoluokat (UAV-0/1/2/3) ja toimintasäännöt"
+        "title": "SHGM — İHA Takip / İHATTYS (virallinen portaali)",
+        "description": "Siviili-ilmailun pääosaston virallinen UAV-portaali (İHATTYS). Kunnes SHGM ilmoittaa järjestelmän otetun käyttöön, rekisteröinti- ja lentolupamenettelyt hoidetaan nykyisillä tavoilla (iha.shgm.gov.tr ja SHGM:n lomakkeet)."
       },
       {
-        "title": "Miehittämättömien ilma-alusten rekisteröintijärjestelmä (vaaditaan vähintään 500 g painaville droneille)",
-        "description": "Pakollinen rekisteröintiportaali kaikille yli 500 g painaville droneille. Vaatii turkkilaisen henkilötunnuksen; lomake FR-03 koskee ulkomaan kansalaisia"
+        "title": "UAV-rekisteröintijärjestelmä (pakollinen yli 500 g)",
+        "description": "Pakollinen rekisteröintiportaali kaikille yli 500 grammaa painaville droneille. Edellyttää turkkilaista henkilötunnusta; ulkomaalaisiin sovelletaan lomaketta FR-03"
       },
       {
-        "title": "Dronelentäjän rekisteröintihakemus (e-hallinto)",
-        "description": "Virallinen palvelu e-hallinnon kautta lentäjän rekisteröintihakemuksia varten luokasta UAV-1 ylöspäin. Kaupallinen toiminta edellyttää lentäjän lupakirjaa."
+        "title": "UAV-lentäjän rekisteröintihakemus (e-Devlet)",
+        "description": "Virallinen palvelu e-Devletin (sähköinen asiointi) kautta İHA-1- ja sitä ylempien lentäjärekisteröintien hakemuksille. Kaupallinen toiminta edellyttää lentäjän lupakirjaa."
       },
       {
         "title": "Lentolupahakemus (keltaiset/punaiset vyöhykkeet)",
@@ -44,23 +46,27 @@
     ],
     "secondaryLinks": [
       {
-        "title": "Miehittämättömien ilma-alusten seuranta — virallinen mobiilisovellus (Android)",
-        "description": "SHGM:n virallinen dronejen seurantasovellus: ilmatilan vyöhykkeet, lentoluvat ja lentäjän lupakirjan hallinta"
+        "title": "İHA Takip — virallinen mobiilisovellus (Android)",
+        "description": "SHGM:n virallinen İHA Takip / İHATTYS -sovellus. Kunnes SHGM ilmoittaa İHATTYSin otetun käyttöön, rekisteröinti- ja lentolupamenettelyt hoidetaan nykyisillä tavoilla (iha.shgm.gov.tr ja SHGM:n lomakkeet)."
+      },
+      {
+        "title": "İHATTYS — virallinen mobiilisovellus (iOS)",
+        "description": "SHGM:n virallisen İHATTYS-sovelluksen iOS-versio; sovelluksessa tehdyt toimet eivät ole päteviä ennen kuin SHGM antaa tarvittavan ilmoituksen"
       },
       {
         "title": "SHGM — Organisaation kotisivu",
         "description": "Siviili-ilmailun pääosaston kotisivu: kaikki ilmailumääräykset, tiedotteet ja yhteystiedot"
       },
       {
-        "title": "SHT-UAV-määräys (määräyksen teksti)",
-        "description": "Siviili-ilmailun määräys — miehittämätön ilma-alus (SHT-UAV): virallinen määräys, joka toimii kaiken toiminnan oikeusperustana"
+        "title": "SHT-İHA-määräys 2026 (määräysteksti, PDF)",
+        "description": "Miehittämättömien ilma-alusjärjestelmien määräys (SHT-İHA), voimassa 30. heinäkuuta 2026 alkaen: virallinen määräysteksti, joka on kaiken UAV-toiminnan oikeusperusta"
       }
     ],
-    "disclaimerText": "Tarkista aina SHGM:n viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Miehittämättömien ilma-alusten toimintaa Turkissa säätelee SHT-UAV-määräys; kaikki vähintään 500 g painavat laitteet on rekisteröitävä SHGM:n rekisteröintijärjestelmään (iha.shgm.gov.tr).",
+    "disclaimerText": "Tarkista aina SHGM:n viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Turkissa miehittämättömien ilma-alusten toimintaa säätelee uusi SHT-İHA (miehittämättömien ilma-alusjärjestelmien määräys), joka on voimassa 30. heinäkuuta 2026 alkaen; siirtymäaika kestää 31. heinäkuuta 2027 asti. Kaikki yli 500 g painavat laitteet on rekisteröitävä SHGM:n rekisteröintijärjestelmään (iha.shgm.gov.tr).",
     "sectionLabelRules": "PERUSSÄÄNNÖT",
     "sectionLabelPrimary": "VIRALLISET LÄHTEET",
     "sectionLabelSecondary": "LISÄRESURSSIT",
     "linksSheetTitle": "Ilmatila ja säännöt — Turkki",
-    "dronePilotCredentialName": "Miehittämättömän ilma-aluksen lentäjän lupakirja"
+    "dronePilotCredentialName": "Miehittämättömän ilma-aluksen lentäjän lupakirja (P0/P1/P2)"
   }
 }

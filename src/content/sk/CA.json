@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "51b497a18aafd4cff4e8165ebea4d22e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "05a601befa3ab4524ab9e1c3f953a9bc",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,21 +14,27 @@
     "dronePilotCredentialName": "Pilotné osvedčenie",
     "keyRules": [
       "Max. 122 m (400 ft) nad úrovňou terénu",
-      "Registračné číslo (C-F####) umiestnite na dron",
+      "Nikdy nelietajte do 9,3 km (5 NM) od lesného požiaru ani v bezpečnostnom perimetri zásahu záchranných zložiek (nehoda, povodeň) — platí pre všetky drony vrátane dronov pod 250 g.",
+      "Žiadne lietanie na ohlásených podujatiach (koncerty, festivaly, šport) ani v ich blízkosti bez SFOC-RPAS — týka sa to aj dronov pod 250 g.",
+      "Registračné číslo dronu (napr. C-1234567890) umiestnite na dron zreteľne",
       "Základné osvedčenie: od 14 rokov, skúška s 35 otázkami (65 % na úspech) — iba neriadený vzdušný priestor",
       "Pokročilé osvedčenie: od 16 rokov, skúška s 50 otázkami (80 % na úspech) + letové preskúšanie — riadený vzdušný priestor",
       "Drony pod 250 g: registrácia ani osvedčenie sa nevyžadujú",
+      "Zahraniční návštevníci lietajúci s vlastným dronom s hmotnosťou 250 g a viac: potrebujete kanadské osvedčenie pilota dronu (licencia z domovskej krajiny sa neuznáva) a Foreign SFOC-RPAS, pretože cudzinci nemôžu registrovať drony v Kanade. Žiadajte včas — štandardná lehota vybavenia je 30 pracovných dní. Pod 250 g: SFOC sa nevyžaduje, okrem ohlásených podujatí.",
       "Vždy udržiavajte vizuálny dohľad (VLOS) — priamy vizuálny kontakt bez pomôcok",
       "Udržiavajte horizontálnu vzdialenosť 30 m od ľudí (základná prevádzka)",
-      "Ak nepostupujete podľa stanoveného postupu Transport Canada, dodržiavajte vzdialenosť 5,6 km (3 NM) od certifikovaných letísk a 1,9 km (1 NM) od certifikovaných heliportov. Lietanie v riadenom vzdušnom priestore vyžaduje pokročilé osvedčenie a povolenie NAV DRONE.",
+      "Nočné lietanie (drony s hmotnosťou 250 g a viac): dron musí mať svetlá, vďaka ktorým ho vy alebo váš vizuálny pozorovateľ vidíte, a tie musia byť zapnuté.",
+      "Drony s hmotnosťou 250 g a viac: žiadne lietanie do 12 hodín po požití alkoholu ani pod jeho vplyvom",
+      "Basic: dodržiavajte vzdialenosť viac ako 5,6 km (3 NM) od certifikovaných letísk a 1,9 km (1 NM) od certifikovaných heliportov. Bližšie iba s osvedčením Advanced podľa stanovených postupov. Riadený vzdušný priestor: osvedčenie Advanced + dron so zodpovedajúcim bezpečnostným vyhlásením + povolenie NAV DRONE.",
+      "Do 5,6 km (3 NM) od stredu vojenského letiska potrebujete povolenie ministerstva národnej obrany (Department of National Defence).",
       "Provinčné a národné parky vo všeobecnosti zakazujú rekreačné používanie dronov — zákaz je potvrdený v provinčných parkoch Alberty, Ontária a Britskej Kolumbie a vo všetkých národných parkoch spravovaných Parks Canada. Pred lietaním si overte pravidlá konkrétneho parku."
     ],
     "importantNotes": [
-      "Provinčné parky v Britskej Kolumbii a Alberte zakazujú rekreačné drony bez povolenia",
+      "Provinčné parky v Britskej Kolumbii a Alberte: lietanie s dronom bez povolenia parku je nezákonné a rekreačné lietanie nie je povolené (Alberta: akákoľvek veľkosť; BC: povolenie sa udeľuje zriedka)",
       "Provinčné parky v Ontáriu a mestské parky v Toronte zakazujú rekreačné drony",
-      "Väčšina obcí zakazuje drony vo verejných parkoch bez povolenia",
+      "Aj iné obce môžu zakazovať drony v mestských parkoch bez povolenia — pred letom si overte miestne vyhlášky",
       "Poistenie sa pri základnej prevádzke nevyžaduje, ale dôrazne sa odporúča",
-      "Osvedčenie Level 1 Complex Operations (od novembra 2025) umožňuje nízkorizikovú prevádzku BVLOS bez SFOC"
+      "Osvedčenie pilota Level 1 Complex (18+) umožňuje od 4. novembra 2025 BVLOS s nízkym rizikom bez SFOC — ale iba na základe RPAS Operator Certificate (RPOC), ktorý máte vy alebo prevádzkovateľ, pre ktorého lietate"
     ],
     "primaryLinks": [
       {
@@ -37,7 +43,7 @@
       },
       {
         "title": "Transport Canada — Registrácia dronu",
-        "description": "Zaregistrujte drony 250 g a viac cez portál Drone Management Portal ($5, ~3 minúty)"
+        "description": "Drony s hmotnosťou 250 g a viac zaregistrujte cez portál Drone Management Portal (približne 10 $, každoročne upravované; ~3 minúty)"
       },
       {
         "title": "NAV DRONE — Riadený vzdušný priestor",

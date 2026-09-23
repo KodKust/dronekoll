@@ -1,30 +1,32 @@
 {
   "meta": {
-    "sourceHash": "64c56f7cd237868e12b4a9acebacfc1c7ed47d9c27e97af77b28d123a7822c74",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "9cca66a7c2aad0d0dc5edac3e33625910a5e790c5cdccb45c10be1fbd9252627",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Altitude maximale : 122 m (400 ft) au-dessus du sol dans la catégorie ouverte (espace aérien non contrôlé)",
-      "À proximité des aéroports (≤5 km) : hauteur maximale de 43 m sans autorisation préalable du prestataire de services de navigation aérienne",
-      "Distance minimale de 5 km des aéroports et aérodromes sans autorisation",
-      "Distance minimale de 500 m des héliports",
-      "Maintenez une distance de sécurité par rapport aux personnes et aux bâtiments non impliqués",
+      "Catégorie ouverte : il est interdit de voler dans les zones de contrôle d'aérodrome (CTR). En espace aérien contrôlé, à moins de 5 km des seuils de piste : 43 m maximum et jamais dans les surfaces d'approche ou de décollage ; une hauteur supérieure nécessite l'autorisation du prestataire de services de navigation aérienne.",
+      "Héliports : il est interdit de voler à moins de 1 mille marin (1,85 km) du point de référence (HRP) ; entre 1 et 2 milles marins, 150 ft (46 m) maximum au-dessus de l'héliport, sauf coordination préalable.",
+      "Il est interdit de voler au-dessus d'installations militaires, de sécurité ou pénitentiaires et à moins de 1 mille marin (1,85 km) de celles-ci ; au-dessus de raffineries, de centrales électriques ou de dépôts de carburant sans l'autorisation du propriétaire ; et à moins de 25 m (verticalement ou latéralement) des lignes électriques à haute tension.",
+      "Vous devez maintenir une distance de sécurité par rapport aux personnes et aux bâtiments non impliqués dans l'opération.",
       "Gardez toujours le drone en vue directe (VLOS) dans la catégorie ouverte",
-      "Vol autorisé uniquement de jour — les vols de nuit nécessitent une autorisation spécifique",
-      "Drones de moins de 250 g : dispensés d'enregistrement et de licence (résolution 550/2025)",
-      "Drones pesant ≥250 g : enregistrement obligatoire auprès du TAD (ANAC) — aucune licence de télépilote requise dans la catégorie ouverte",
+      "Il est interdit de piloter ou d'agir comme observateur dans les 8 heures suivant la consommation d'alcool ou sous l'influence de substances psychoactives.",
+      "Vols de nuit : la Res. ANAC 312/2026 (mai 2026) a supprimé la restriction générale du RAAC 100 ; les orientations de l'ANAC classent toutefois toujours les opérations de nuit dans la catégorie spécifique — renseignez-vous auprès de l'ANAC avant de voler de nuit.",
+      "Les drones de moins de 250 g sont exemptés d'enregistrement, de licence et d'assurance obligatoire (résolution 550/2025, août 2025). Les drones de 250 g à 25 kg ne nécessitent pas de licence de télépilote, mais doivent être enregistrés numériquement auprès de l'ANAC dans le Casillero Aeronáutico Digital (CAD).",
+      "Drones pesant ≥250 g : enregistrement obligatoire auprès du CAD (ANAC) — aucune licence de télépilote requise dans la catégorie ouverte",
       "Les opérations en catégorie spécifique (25–150 kg ou vols urbains/BVLOS) nécessitent une licence de télépilote, une certification médicale et un certificat d'exploitant commercial",
-      "La catégorie ouverte autorise les drones de moins de 25 kg sans autorisation préalable (aucune limite de poids en zone rurale)"
+      "La catégorie ouverte autorise les drones de 250 g à moins de 25 kg sans autorisation préalable (drones à voilure tournante sans limite de poids uniquement en zone rurale, en dehors des CTR et de l'espace aérien réglementé)"
     ],
     "importantNotes": [
-      "📜 NOUVEAU CADRE 2025 : la résolution ANAC 550/2025 (en vigueur à partir d'août 2025) remplace la résolution 880/2019. Elle établit trois catégories : opérations sans autorisation préalable, catégorie ouverte et catégorie spécifique. RAAC Part 100/101/102.",
-      "✈️ TOURISTES ÉTRANGERS : les drones de 250 g ou plus doivent être enregistrés auprès du TAD avant le premier vol (résolution 550/2025). L'enregistrement se fait en ligne ; une pièce d'identité argentine ou un passeport est requis. Les drones de moins de 250 g — comme les modèles DJI Mini et Flip, entre autres — sont dispensés d'enregistrement et de licence.",
-      "🌳 PARCS NATIONAUX ET ZONES PROTÉGÉES : l'APN (Administration des parcs nationaux) interdit les drones sans permis spécial dans des parcs comme Iguazú, Nahuel Huapi, Los Glaciares et Tierra del Fuego. Renseignez-vous auprès de chaque parc avant de voler.",
-      "🏛️ ZONES URBAINES ET RÉGLEMENTÉES : Buenos Aires (aéroport Jorge Newbery, Casa Rosada, Congrès), Ezeiza (Ministro Pistarini) et les zones militaires sont des zones d'interdiction de vol. Aerolíneas Argentinas et le centre-ville font l'objet de restrictions permanentes — consultez l'AIP.",
-      "💰 SANCTIONS : les infractions peuvent entraîner de lourdes amendes, la confiscation de l'équipement et, dans les cas graves, une responsabilité pénale. Une assurance responsabilité civile est requise pour l'usage commercial."
+      "📜 NOUVEAU CADRE : la résolution ANAC 550/2025 (en vigueur à partir d'août 2025, modifiée par la Res. 312/2026) remplace la résolution 880/2019. Elle établit trois catégories : ouverte, spécifique et certifiée. RAAC Part 100/101/102.",
+      "Les drones de 250 g ou plus doivent être enregistrés auprès de l'ANAC dans le Casillero Aeronáutico Digital (CAD) avant leur premier vol — l'enregistrement est gratuit, se fait en ligne et nécessite un DNI ou un passeport. Les drones de moins de 250 g (p. ex. DJI Mini ou Flip) sont exemptés d'enregistrement et de licence (résolution 550/2025).",
+      "Touristes : un certificat d'enregistrement valide pour ce drone, délivré par l'autorité de l'aviation civile d'un autre État de l'OACI, est accepté (RAAC 100.05) ; un enregistrement de l'exploitant seul peut ne pas suffire. Si votre drone n'est pas enregistré, remplissez auprès de l'ANAC la déclaration sous serment numérique gratuite (Declaración Jurada) avec votre passeport.",
+      "🌳 PARCS NATIONAUX ET AIRES PROTÉGÉES : l'APN interdit l'usage récréatif et sportif des drones dans toutes ses aires protégées (Res. APN 9/2021), comme Iguazú, Nahuel Huapi, Los Glaciares ou Tierra del Fuego. L'usage professionnel ou scientifique nécessite une autorisation préalable de l'APN.",
+      "🏛️ ZONES RÉGLEMENTÉES : il est interdit de voler au-dessus de la Casa Rosada, de la Quinta de Olivos, des bâtiments publics et des ambassades, à moins de 1 mille marin des installations militaires et dans les zones de contrôle d'aéroports comme Aeroparque et Ezeiza — consultez l'AIP.",
+      "💰 SANCTIONS : les infractions sont sanctionnées en vertu du Reglamento General de Infracciones de la Aviación Civil, sans préjudice de la responsabilité civile ou pénale. L'assurance est obligatoire dans les catégories spécifique et certifiée (facultative dans la catégorie ouverte)."
     ],
     "primaryLinks": [
       {
@@ -32,8 +34,8 @@
         "description": "Site officiel de l'Administration nationale de l'aviation civile sur les drones (VANT/SVANT) : nouveau cadre réglementaire — résolution 550/2025, catégories et exigences opérationnelles"
       },
       {
-        "title": "Enregistrement des drones (TAD)",
-        "description": "Système d'enregistrement obligatoire pour les drones de plus de 500 g via la plateforme Trámites a Distancia (TAD). L'usage récréatif de classe A (≤500 g) est dispensé."
+        "title": "Enregistrement des drones (CAD)",
+        "description": "Déclaration sous serment numérique gratuite (Declaración Jurada) pour les drones de 250 g à 25 kg dans le Casillero Aeronáutico Digital (CAD) de l'ANAC ; un certificat d'enregistrement numérique est délivré. Les drones de moins de 250 g sont exemptés."
       },
       {
         "title": "AIP — Publication d'information aéronautique",
@@ -50,19 +52,19 @@
         "description": "Certificat d'exploitant aérien pour les opérations commerciales de drones. Requis pour la catégorie spécifique et les vols professionnels"
       },
       {
-        "title": "Certification comme membre d'équipage à distance (télépilote)",
-        "description": "Procédure d'obtention de l'autorisation en tant que télépilote. Examens et exigences pour la certification professionnelle"
+        "title": "Autorisation comme membre d'équipage à distance (télépilote)",
+        "description": "Procédure d'obtention de l'autorisation de télépilote. Examens et exigences pour la certification professionnelle"
       },
       {
         "title": "Nouveau cadre réglementaire (résumé officiel)",
         "description": "Résumé officiel de l'ANAC sur le nouveau cadre réglementaire des drones après la résolution 550/2025 : principaux changements et catégories"
       }
     ],
-    "disclaimerText": "Vérifiez toujours les sources officielles de l'ANAC avant de voler. Cette application est un outil, pas une autorité juridique. L'Argentine applique la résolution ANAC 550/2025 (RAAC Part 100/101/102), en vigueur à partir d'août 2025.",
+    "disclaimerText": "Vérifiez toujours les sources officielles de l'ANAC avant de voler. Cette application est un outil, pas une autorité juridique. L'Argentine applique la résolution ANAC 550/2025 (RAAC Part 100/101/102), en vigueur à partir d'août 2025 et modifiée par la résolution ANAC 312/2026.",
     "sectionLabelRules": "RÈGLES CLÉS",
     "sectionLabelPrimary": "SOURCES OFFICIELLES",
     "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",
     "linksSheetTitle": "Espace aérien et réglementation — Argentine",
-    "dronePilotCredentialName": "Certificat de télépilote d'UAV"
+    "dronePilotCredentialName": "Licence de télépilote (RPA)"
   }
 }

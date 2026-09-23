@@ -1,28 +1,35 @@
 {
   "meta": {
-    "sourceHash": "554dcb2ca7172e65f382ee60023e605b64f419f74a40862fa094a3c138b1853d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "dffaad15a571e359fb1ed462806f7dd69c5c983c8a5aea73cf0df596497c54f0",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálne 120 m nad úrovňou terénu (kategória EASA Open)",
-      "Registrácia ako prevádzkovateľ UAS, ak váš dron váži 250 g a viac alebo je vybavený kamerou",
-      "Vyžaduje sa online školenie A1/A3 – minimálny vek 16 rokov",
-      "Povinné poistenie občianskoprávnej zodpovednosti pre drony s hmotnosťou nad 1,5 kg; minimálne krytie závisí od hmotnosti — 250 – 1 500 g: €150 000; 1 501 – 5 000 g: €500 000; >5 kg: €1 000 000",
-      "Je zakázané lietať nad mostmi, železnicami, diaľnicami a elektrickým vedením",
-      "Vždy udržiavajte vizuálny dohľad (VLOS)",
+      "V otvorenej kategórii je maximálna výška 120 m meraná ako vzdialenosť k najbližšiemu bodu na zemskom povrchu — nie iba zvislo nadol, takže pri svahu sa môže počítať aj terén vedľa. Do 50 m od vysokej umelej prekážky (vyššej ako 105 m) môže subjekt zodpovedný za prekážku požiadať o povolenie lietať až 15 m nad výškou prekážky.",
+      "Ako prevádzkovateľ dronu sa musíte zaregistrovať, ak váš dron váži 250 g alebo viac (alebo môže pri zrážke odovzdať viac ako 80 J kinetickej energie) — platí to aj pre hračky. Pri hmotnosti pod 250 g sa registrácia stále vyžaduje, ak má dron snímač schopný zaznamenávať osobné údaje, pokiaľ sa nepovažuje za hračku podľa EU Toy Safety Directive. Požiadavky na výcvik a osvedčenie pilota sú samostatné a závisia od triedy a podkategórie dronu.",
+      "Ako prevádzkovateľ UAS sa musíte zaregistrovať v krajine EÚ, v ktorej máte bydlisko (ak žijete mimo EÚ — v prvej krajine EÚ, v ktorej lietate); registrácia platí v celej EÚ a registrácia v dvoch krajinách súčasne nie je povolená. V Lotyšsku stojí registrácia 5 € a platí 1 rok. Každý dron musí byť označený číslom prevádzkovateľa UAS.",
+      "Dron od 250 g vyžaduje online kurz a skúšku A1/A3. Od roku 2024 smú drony bez triedneho označenia C s hmotnosťou 250 g a viac lietať iba v podkategórii A3 — ďaleko od nezúčastnených osôb a najmenej 150 m od obytných, obchodných, priemyselných a rekreačných oblastí.",
+      "V Lotyšsku je minimálny vek na samostatné lietanie 16 rokov; mladší piloti smú lietať iba pod priamym dohľadom kvalifikovaného diaľkovo riadiaceho pilota vo veku najmenej 16 rokov alebo s dronom triedy C0 navrhnutým ako hračka.",
+      "Drony triedy C1, C2 (a C3) musia lietať s aktívnou priamou diaľkovou identifikáciou (Remote ID), do ktorej je zadané vaše číslo prevádzkovateľa UAS.",
+      "Poistenie občianskoprávnej zodpovednosti je povinné, okrem dronov s hmotnosťou pod 250 g a maximálnou rýchlosťou pod 19 m/s. Minimálny limit: v podkategóriách A1 a A2 — 50 000 €; pri dronoch od 20 kg a v kategórii Specific — 750 000 SDR (Regulation (EC) No 785/2004).",
+      "Všeobecný zákaz neexistuje, ale nad štátnymi cestami, mostmi, železničnými zariadeniami a elektrickými vedeniami 110/330 kV (do 50 m od nich) môžu byť zriadené geografické zóny UAS — skontrolujte airspace.lv. Podľa možnosti sa vyhýbajte lietaniu nad ľuďmi, dopravou, budovami a inžinierskymi stavbami.",
+      "Filmovanie alebo fotografovanie objektov kritickej infraštruktúry označených nápisom „BEZ SASKAŅOŠANAS FOTOGRAFĒT, FILMĒT AIZLIEGTS“ je zakázané.",
+      "V otvorenej kategórii musíte dron udržiavať vo vlastnom priamom vizuálnom dohľade voľným okom (okuliare alebo kontaktné šošovky sú v poriadku; ďalekohľad ani obrazovka sa nepočítajú) — alebo lietať s pomocou pozorovateľa, pričom medzi vami musí byť neustále jasná a účinná komunikácia, aby ste spoločne mohli sledovať vzdušný priestor a predchádzať zrážkam. Režim „Follow-me“ je samostatná výnimka povolená do 50 m od pilota.",
       "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre osoby, ktoré nie sú priamo zapojené, závisia od podkategórie, triedneho označenia a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
-      "Najmenej 5 km od akéhokoľvek letiska alebo letovej plochy",
+      "Neexistuje jednotná vzdialenosť od letísk platná v celej EÚ, ktorú musíte dodržiavať. Obmedzenia v blízkosti letísk sa zverejňujú ako geografické zóny (článok 15), ktorých tvar a veľkosť sa pri jednotlivých letiskách líšia. Pred letom v blízkosti letiska, letovej plochy alebo heliportu skontrolujte oficiálnu mapu zón pre drony vo svojej krajine; lietanie v riadenej zóne (CTR) si zvyčajne vyžaduje predchádzajúce povolenie riadenia letovej prevádzky.",
+      "V Lotyšsku sa od 1. januára 2025 musia lety v geografických zónach UAS, ktoré vyžadujú oznámenie alebo schválenie letu, pred letom oznámiť v informačnom systéme bezpilotných lietadiel CAA BGKIS (e.caa.gov.lv); prevádzkovatelia registrovaní v inej krajine EHP alebo vo Švajčiarsku si tiež môžu vytvoriť účet BGKIS. Schválenie v zónach okolo letísk môže trvať až 5 pracovných dní (až 30 dní, ak treba zmeniť letový plán).",
       "Nočný let je povolený v rámci základných požiadaviek EASA pre otvorenú kategóriu, ak sa používa požadované zelené blikajúce svetlo, pokiaľ platné geografické obmedzenie alebo vnútroštátne predpisy nestanovujú prísnejšie podmienky.",
-      "CTR letiska Riga pokrýva významnú oblasť"
+      "CTR Riga pokrýva veľkú časť Rigy. Bez osobitného schválenia je povolené lietať pod 50 m nad zemou a viac ako 5 km od prahov dráh 18 a 36 s dronom do 2 kg; dron nad 2 kg vyžaduje dodatočnú kvalifikáciu (napr. osvedčenie o spôsobilosti A2). Vyššie ako 50 m alebo v zóne 5 km okolo prahov dráh musí byť každý let vopred schválený s VAS „Latvijas gaisa satiksme“.",
+      "Na žiadosť polície, CAA, pohraničnej stráže alebo iného úradníka okamžite ukončite let a predložte doklad totožnosti – majte ho pri sebe.",
+      "Diaľkovo riadiacemu pilotovi alebo pozorovateľovi, ktorého koncentrácia alkoholu v krvi presahuje 0,2 ‰ alebo ktorý je pod vplyvom omamných látok, možno uložiť pokutu až do 700 €; odmietnuť test je zakázané. Pokuty: až do 700 € (napr. za lietanie bez povinného poistenia), až do 1 000 € za porušenie požiadaviek na povolenú výšku alebo letiskovú zónu."
     ],
     "importantNotes": [
-      "Poistenie závisí od hmotnosti dronu — 250 – 1 500 g: €150 000; 1 501 – 5 000 g: €500 000; >5 kg: €1 000 000",
-      "Lietanie nad mostmi, železnicami, diaľnicami a elektrickým vedením je prísne zakázané",
+      "Poistenie je povinné, okrem dronov < 250 g s max. rýchlosťou < 19 m/s; minimum A1/A2 — 50 000 €, od 20 kg a v kategórii Specific — 750 000 SDR",
+      "Geografické zóny UAS môžu platiť nad mostmi, železnicami, štátnymi cestami a elektrickými vedeniami 110/330 kV (do 50 m) — skontrolujte airspace.lv",
       "CTR letiska Riga tvorí rozsiahlu obmedzenú oblasť",
-      "V pohraničných oblastiach s Ruskom a Bieloruskom môžu platiť ďalšie obmedzenia",
+      "Pozdĺž hraníc s Bieloruskom a Ruskom sa nachádza obmedzený priestor EVR17A BORDER EAST (od zeme do 500 ft, aktívny H24). Lety dronov v ňom (vrátane < 250 g) sú povolené iba s povolením odboru letectva a špeciálnych operácií Štátnej pohraničnej stráže, ktoré treba získať najmenej 24 hodín pred plánovaným dňom letu (dokumenty treba predložiť najmenej 32 hodín vopred).",
       "Na filmovanie a fotografovanie identifikovateľných osôb sa vzťahuje GDPR"
     ],
     "primaryLinks": [
@@ -49,7 +56,7 @@
         "description": "Lotyšské letové prevádzkové služby a informácie o vzdušnom priestore"
       },
       {
-        "title": "CAA Latvia – Časté otázky o dronoch",
+        "title": "CAA Lotyšsko – časté otázky o dronoch",
         "description": "Často kladené otázky o predpisoch pre drony v Lotyšsku"
       }
     ],

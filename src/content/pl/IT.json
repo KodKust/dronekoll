@@ -1,27 +1,31 @@
 {
   "meta": {
-    "sourceHash": "000b9bfb30fd5dc95150d4d75572729ea894e9cb117bc556495e8105d1de0bf6",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "49588a835cca5391d11c172e7550ef7ac8f76a3c7fe6c69b2398693532352902",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalnie 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-      "Rejestracja za pośrednictwem portalu D-Flight: subskrypcja podstawowa 7 €/rok (PRO 28 €/rok) + obowiązkowy kod QR na każdym dronie (Base 7 €/UAS; pierwszy wliczony w subskrypcję początkową)",
-      "Obowiązkowe szkolenie online A1/A3 — minimalny wiek: 16 lat",
-      "Obowiązkowe ubezpieczenie od odpowiedzialności cywilnej — co najmniej 750 000 SDR (specjalne prawa ciągnienia)",
+      "W kategorii otwartej maksymalna wysokość wynosi 120 m, mierzona jako odległość od najbliższego punktu powierzchni Ziemi — nie po prostu w pionie w dół, więc w pobliżu zbocza liczyć się może także teren obok ciebie. W promieniu 50 m od wysokiej przeszkody sztucznej (powyżej 105 m) podmiot odpowiedzialny za przeszkodę może wystąpić o zezwolenie na lot do 15 m powyżej wysokości przeszkody.",
+      "Rejestracja we Włoszech za pośrednictwem portalu D-Flight (z wyjątkiem zwolnień wymienionych poniżej): subskrypcja podstawowa 7 €/rok (PRO 28 €/rok) + obowiązkowy kod QR na każdym dronie (Base 7 €/UAS; pierwszy wliczony w subskrypcję początkową)",
+      "Zwolnienia: drony-zabawki (dyrektywa 2009/48/EC) nie wymagają rejestracji, świadectwa ani ubezpieczenia; drony poniżej 250 g bez kamery i mikrofonu nie wymagają rejestracji.",
+      "Piloci zagraniczni: rejestracja operatora jest ważna we wszystkich krajach UE oraz w Szwajcarii. Jeśli jesteś już zarejestrowany w swoim kraju UE, nie musisz rejestrować się w D-Flight: wystarczy umieścić na dronie swój numer operatora. Osoby mieszkające poza UE (w tym w Wielkiej Brytanii) rejestrują się w pierwszym kraju UE, który zamierzają odwiedzić.",
+      "We Włoszech minimalny wiek do latania w A1/A3 wynosi 16 lat; niepełnoletni (w wieku 16-17 lat) potrzebują zgody rodzica lub opiekuna prawnego, aby zarejestrować się na portalu ENAC. Świadectwo online (40 pytań) jest ważne 5 lat.",
+      "Ubezpieczenie od odpowiedzialności cywilnej wobec osób trzecich jest obowiązkowe dla wszystkich dronów (także poniżej 250 g i do użytku rekreacyjnego), z wyjątkiem dronów-zabawek (dyr. 2009/48/EC) — minimalna suma gwarancyjna 750 000 SDR, zgodnie z art. 27 Regolamento UAS-IT i art. 1015 Codice della Navigazione.",
       "Rzym i Watykan: rozległe strefy zakazu lotów",
-      "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
+      "W kategorii otwartej musisz utrzymywać drona w bezpośrednim zasięgu wzroku, gołym okiem (okulary/soczewki kontaktowe są w porządku; lornetka ani ekran się nie liczą) — albo latać z pomocą obserwatora, utrzymując między sobą przez cały czas jasną i skuteczną komunikację, tak aby wspólnie obserwować przestrzeń powietrzną i unikać kolizji. Tryb „Follow-me” jest odrębnym wyjątkiem, dozwolonym do 50 m od pilota.",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
-      "Minimalna odległość 5 km od jakiegokolwiek lotniska lub lądowiska",
-      "Lot nocny jest dozwolony zgodnie z podstawowymi wymogami EASA dla kategorii otwartej, pod warunkiem stosowania wymaganego migającego zielonego światła, chyba że obowiązujące przepisy dotyczące strefy geograficznej lub przepisy krajowe nakładają bardziej rygorystyczne warunki.",
-      "Miejsca zabytkowe i obszary archeologiczne mogą być objęte dodatkowymi ograniczeniami"
+      "Nie ma jednej odległości od lotnisk: strefy geograficzne lotnisk (ENAC Circular ATM-09A) są publikowane w D-Flight. W kategorii otwartej loty wewnątrz tych stref są zabronione; strefy zaczynają się na różnej wysokości w zależności od koloru (czerwona 0 m, pomarańczowa 25 m, żółta 45 m), a w pozostałej części ATZ i CTR strefa zaczyna się zwykle na 60 m. Poniżej tych wysokości możesz latać bez rezerwacji przestrzeni powietrznej; aby latać wewnątrz stref, potrzebujesz kategorii szczególnej z zezwoleniem ENAC lub Aeronautica Militare.",
+      "Lot nocny jest dozwolony zgodnie z podstawowymi wymogami EASA dla kategorii otwartej, pod warunkiem stosowania wymaganego migającego zielonego światła, chyba że przepisy krajowe lub przepisy dotyczące określonej strefy geograficznej nakładają bardziej rygorystyczne warunki.",
+      "Miejsca zabytkowe i obszary archeologiczne mogą być objęte dodatkowymi ograniczeniami",
+      "Parki przyrody: loty nad nimi są zabronione tam, gdzie zatwierdzony przez ENAC zakaz jest opublikowany w D-Flight; aby tam latać, potrzebujesz zezwolenia zarządu parku (Ente Parco).",
+      "Drony z oznaczeniem klasy C1, C2 lub C3: bezpośrednia zdalna identyfikacja i funkcja geoświadomości muszą być aktywne i aktualne."
     ],
     "importantNotes": [
-      "Subskrypcja D-Flight: podstawowa 7 €/rok (PRO 28 €/rok dla kategorii szczególnej). Pierwszy podstawowy kod QR jest wliczony w aktywację początkową; kolejne podstawowe kody QR kosztują 7 € za UAS (PRO 112 € za UAS).",
+      "Subskrypcja D-Flight: podstawowa 7 €/rok (PRO 28 €/rok dla kategorii szczególnej). Pierwszy kod QR Base jest wliczony w aktywację początkową; kolejne kody QR Base kosztują 7 € za UAS (PRO 112 € za UAS).",
       "Obowiązkowe ubezpieczenie z minimalną sumą 750 000 SDR (specjalne prawa ciągnienia)",
-      "Rzym/Watykan mają jedną z najbardziej restrykcyjnych przestrzeni powietrznych dla dronów w Europie",
+      "Rzym: centrum miasta jest strefą zakazu lotów ze względów bezpieczeństwa, w której przeloty są zabronione dla wszystkich statków powietrznych, w tym dronów; wszelkie odstępstwa wymagają ponadto zgody Prefettura di Roma. Zawsze sprawdzaj D-Flight.",
       "Grzywny do 100 000 € za poważne naruszenia",
       "RODO ma zastosowanie, gdy rejestrowane są obrazy umożliwiające identyfikację osób"
     ],
@@ -32,7 +36,7 @@
       },
       {
         "title": "D-Flight — Zarejestruj się i lataj",
-        "description": "Portal rejestracji i mapa przestrzeni powietrznej (wymagana subskrypcja 6 €/miesiąc)"
+        "description": "Portal rejestracji operatorów i mapa przestrzeni powietrznej (mapy z bezpłatnym kontem; rejestracja operatora z subskrypcją Base za 7 €/rok)"
       },
       {
         "title": "D-Flight — Mapa przestrzeni powietrznej",
@@ -40,13 +44,13 @@
       },
       {
         "title": "ENAC — Przepisy UAS",
-        "description": "Szczegóły włoskich przepisów dotyczących UAS oraz krajowe zmiany do przepisów EASA"
+        "description": "Szczegóły włoskich przepisów dotyczących UAS oraz krajowe uzupełnienia przepisów EASA"
       }
     ],
     "secondaryLinks": [
       {
         "title": "ENAV — NOTAM",
-        "description": "Aktywne NOTAM-y oraz czasowe ograniczenia przestrzeni powietrznej"
+        "description": "Włoska instytucja zapewniająca służby żeglugi powietrznej; dostęp do NOTAM-ów (Self Briefing) wymaga podpisania Operation Letter"
       },
       {
         "title": "ENAC — Najczęściej zadawane pytania o drony",

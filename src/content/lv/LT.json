@@ -1,55 +1,58 @@
 {
   "meta": {
-    "sourceHash": "c6156d2d7270eed1f0bbf03a22c83cd1cf94b1875c9f45ae22d161f7fab4e957",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e93e943369b28f887990b72c587e2c372465bbacd9292903c416ee4c4ebf7e67",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne vairāk kā 120 m virs zemes (EASA atvērtā kategorija)",
-      "Reģistrējies kā UAS operators (€10 gadā), ja tavs drons sver 250 g vai vairāk vai ir aprīkots ar kameru",
-      "Obligāta A1/A3 tiešsaistes apmācība — minimālais vecums 16 gadi",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, mērot attālumu līdz tuvākajam zemes virsmas punktam — nevis vienkārši vertikāli uz leju, tāpēc, lidojot nogāzes tuvumā, var ņemt vērā arī blakus esošo zemi. 50 m rādiusā no augsta mākslīga šķēršļa (augstāka par 105 m) par šķērsli atbildīgais subjekts var pieprasīt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Tev jāreģistrējas kā drona operatoram, ja drons sver 250 g vai vairāk (vai sadursmē var nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas pat uz rotaļlietām. Ja svars ir mazāks par 250 g, reģistrācija joprojām ir nepieciešama, ja dronam ir sensors, kas spēj fiksēt personas datus, izņemot gadījumu, kad tas tiek uzskatīts par rotaļlietu saskaņā ar EU Toy Safety Directive. Pilota apmācības/apliecības prasības ir atsevišķas un atkarīgas no drona klases un apakškategorijas.",
+      "Reģistrācijas numuram jābūt redzamam uz drona, un (C1–C3 klases droniem) tas jāievada Remote ID sistēmā",
+      "Droni bez C klases marķējuma (laisti tirgū pirms 2024-01-01) un privāti būvēti droni drīkst lidot tikai A1 apakškategorijā, ja to pacelšanās masa ir mazāka par 250 g, vai A3 apakškategorijā, ja tā ir mazāka par 25 kg",
+      "Tālvadības pilota minimālais vecums ir 16 gadi (ES noteikums; Lietuva to nav samazinājusi). Jaunāki piloti drīkst lidot tikai: prasībām atbilstoša tālvadības pilota tiešā uzraudzībā; ar C0 klases rotaļlietu A1 apakškategorijā; vai ar privāti būvētu dronu, kura pacelšanās masa ir mazāka par 250 g. A1/A3 apmācību un eksāmenu kārto TKA sistēmā, un apliecība ir derīga 5 gadus.",
       "Civiltiesiskās atbildības apdrošināšana ir obligāta droniem, kas sver vairāk par 20 kg",
-      "Vienmēr saglabā tiešu redzamības kontaktu (VLOS)",
+      "Atvērtajā kategorijā turi dronu savā tiešajā redzamības laukā bez palīglīdzekļiem (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai lido ar novērotāja palīdzību, visu laiku uzturot skaidru un efektīvu saziņu savā starpā, lai jūs kopā varētu pārraudzīt gaisa telpu un izvairīties no sadursmēm. “Follow-me” režīms ir atsevišķs izņēmums, kas atļauts līdz 50 m no pilota.",
       "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kuras nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
-      "Vismaz 5 km no jebkuras lidostas vai lidlauka",
+      "Nav viena visā ES noteikta attāluma, kas jāievēro no lidostām. Ierobežojumi lidostu tuvumā tiek publicēti kā ģeogrāfiskās zonas (Article 15), kuru forma un izmērs dažādās lidostās atšķiras — pirms lidošanas lidostas, lidlauka vai helikopteru lidlauka tuvumā pārbaudi oficiālo dronu zonu karti. Kontrolētajā gaisa telpā (Viļņas, Kauņas, Palangas, Šauļu UR zonās) atvērtajā kategorijā bez iepriekšējas atļaujas drīkst lidot tikai līdz zonai noteiktajam augstumam — jo tuvāk lidostai, jo zemāk (augstumi — utm.ans.lt; lai lidotu augstāk, nepieciešama saskaņā ar LTSA procedūru izsniegta atļauja). Lidlauku ATZ/TIZ zonās lidojums iepriekš jāsaskaņo ar lidlauka īpašnieku vai operatoru.",
+      "Lidojumi EYP zonās un virs militārām teritorijām (EYURM) bez atļaujas ir aizliegti; tas pats attiecas uz aktivizētām EYR zonām (aktivizāciju izziņo ar NOTAM)",
       "Nakts lidojumi ir atļauti saskaņā ar EASA atvērtās kategorijas pamatnoteikumiem, ja tiek izmantota prasītā mirgojošā zaļā gaisma, ja vien spēkā esoša ģeogrāfiskā zona vai valsts noteikums neparedz stingrākus nosacījumus.",
       "Parkā Curonian Spit National Park ir spēkā ierobežojumi",
-      "Papildu ierobežojumi pierobežas teritorijās ar Krieviju un Baltkrieviju"
+      "Pierobežas zonā gar robežām ar Baltkrieviju un Krieviju (aptuveni 7,4 km no robežas) lidojumi bez iepriekšējas saskaņošanas ir stingri aizliegti"
     ],
     "importantNotes": [
-      "Reģistrācija maksā €10 gadā — tā jāatjauno katru gadu",
+      "Reģistrācija un reģistrācijas apliecības izsniegšana/atjaunošana maksā 31 €",
       "Apdrošināšana nepieciešama tikai droniem, kas sver vairāk par 20 kg",
-      "Lidojumu ierobežojumi ir spēkā pierobežas teritorijās ar Krieviju un Baltkrieviju",
+      "Pierobežas zonā gar robežām ar Baltkrieviju un Krieviju (aptuveni 7,4 km no robežas) lidojumi bez iepriekšējas saskaņošanas ir stingri aizliegti",
       "Vilnius Airport CTR aptver lielu pilsētas daļu",
       "GDPR piemēro, filmējot vai fotografējot identificējamas personas"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Dronu noteikumi",
-        "description": "Civilās aviācijas administrācijas oficiālie dronu noteikumi"
+        "title": "TKA – Dronu noteikumi",
+        "description": "Transporto kompetencijų agentūra (TKA) oficiālie dronu noteikumi"
       },
       {
-        "title": "TKA — Reģistrējies kā lietotājs",
-        "description": "Reģistrējies kā UAS operators (€10 gadā, derīgs visās ES/EASA valstīs)"
+        "title": "TKA – Reģistrēties kā operatoram",
+        "description": "Reģistrējies kā UAS operators (31 €, derīgs visās ES/EASA valstīs)"
       },
       {
         "title": "UTM Lithuania — Gaisa telpas karte",
         "description": "Oficiālā UTM gaisa telpas karte ar dronu zonām un ierobežojumiem"
       },
       {
-        "title": "CAA — Noteikumu pārskats",
-        "description": "Pārskats par dronu lidošanas noteikumiem Lietuvā"
+        "title": "TKA – Noteikumu pārskats",
+        "description": "Pārskats par dronu lidojumu noteikumiem Lietuvā"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Air Navigation — Aeronavigācijas pakalpojumi",
+        "title": "Oro Navigacija – Aeronavigācijas pakalpojumi",
         "description": "Lietuvas aeronavigācijas pakalpojumi un gaisa telpas informācija"
       },
       {
-        "title": "CAA — Biežāk uzdotie jautājumi par droniem",
+        "title": "TKA – Dronu BUJ",
         "description": "Biežāk uzdotie jautājumi par dronu noteikumiem Lietuvā"
       }
     ],

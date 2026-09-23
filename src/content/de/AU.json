@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "362edae763d5f971da0104f4b2bf8c97",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "eb2939eb8f1213b47dba87ec9440da8e",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,23 @@
     "keyRules": [
       "Max. 120 m über Grund (AGL)",
       "Mindestens 30 m zu jeder unbeteiligten Person – fliege nie über Personen",
-      "Drohnen über 250 g müssen mindestens 5,5 km Abstand zu einem kontrollierten Flughafen halten. Drohnen unter 250 g dürfen in dieser Zone fliegen, allerdings nur bis 45 m über Grund, außerhalb des Flugplatzgeländes und ohne andere Luftfahrzeuge zu gefährden.",
-      "Drohnen unter 250 g: max. 45 m Höhe im Umkreis von 5,5 km um einen kontrollierten Flughafen",
+      "Drohnen über 250 g: Fliege nicht innerhalb von 5,5 km um einen kontrollierten Flughafen oder in einem An-/Abflugweg einer Start- und Landebahn bis 7 km hinaus (7–8,5 km: max. 90 m). Drohnen bis 250 g dürfen innerhalb von 5,5 km bis 45 m über Grund fliegen, aber niemals über oder in An-/Abflugwegen, innerhalb des Flughafengeländes oder dort, wo sie eine Gefahr für Luftfahrzeuge darstellen.",
+      "Innerhalb von 5,5 km um einen Flughafen ohne Kontrollturm oder innerhalb von 1,4 km um einen Hubschrauberlandeplatz: Bemerkst du ein bemanntes Luftfahrzeug oder einen Hubschrauber, starte nicht – weiche aus seinem Weg aus und lande so bald wie möglich",
+      "Fliege niemals über oder in der Nähe von Noteinsätzen (Polizei, Rettungsdienst, Suche und Rettung, Brandbekämpfung) oder Bereichen, die die öffentliche Sicherheit betreffen",
       "Freizeitflüge: nur bei Tageslicht (bürgerliche Morgen- bis Abenddämmerung). Nachtflüge erfordern eine RePL sowie eine ReOC-Genehmigung",
       "Halte stets die direkte Sichtverbindung (VLOS)",
+      "Fliege immer nur eine Drohne gleichzeitig",
       "Keine Registrierung für Freizeitdrohnen erforderlich (unabhängig vom Gewicht, solange es unter 25 kg liegt; die Standardregeln gelten)",
-      "Gewerbliche Nutzung ab 2 kg: Fernpilotenlizenz (RePL) erforderlich",
+      "Fliegen zu beruflichen Zwecken (jedes Gewicht, auch unter 250 g): Registriere die Drohne (bis 500 g kostenlos; AUD 40 pro Drohne über 500 g) und besitze eine Betreiberakkreditierung oder eine Remote Pilot Licence (RePL). Über 2 kg sind in der Regel zusätzlich eine RePL und ein ReOC erforderlich. Im Ausland registrierte Drohnen können nicht in Australien registriert werden – hole für berufliche Flüge über myCASA eine Genehmigung der CASA ein",
       "Die Regeln für Nationalparks variieren je nach Bundesstaat – prüfe dies vor dem Flug (manche verbieten Drohnen vollständig)"
     ],
     "importantNotes": [
-      "Victoria verbietet Drohnenflüge in ALLEN bundesstaatlichen Parks und Nationalparks – keine Ausnahmen ohne Genehmigung",
+      "Der Sydney Harbour und die umliegenden Gebiete sind eine „No Drone Zone“ (tief fliegende Hubschrauber und Wasserflugzeuge) – viele Touristenziele sind gesperrt; prüfe eine von der CASA verifizierte App",
+      "Victoria: Freizeitdrohnen sind auf von Parks Victoria verwalteten Flächen überhaupt nicht erlaubt; Drohnenaufnahmen erfordern eine Genehmigung von Parks Victoria und einen lizenzierten, von der CASA zertifizierten Betreiber",
       "Für Drohnenflüge in den Nationalparks von NSW ist eine Genehmigung des NPWS erforderlich – Bußgelder bis zu 3.300 $",
       "Südaustralien erlaubt Drohnenflüge in Parks nur für wissenschaftliche Forschung oder gewerbliche Filmaufnahmen",
-      "Strafen für den unerlaubten Betrieb können 10.000 AUD übersteigen"
+      "Drohnen sind in den Nationalparks Uluṟu-Kata Tjuṯa und Kakadu verboten (ohne Genehmigung eine Straftat nach dem EPBC Act)",
+      "Die CASA kann Bußgelder von bis zu AUD 1.820 pro Verstoß verhängen; gerichtliche Geldstrafen bis zu AUD 18.200 und bis zu 2 Jahre Haft, wenn deine Drohne Luftfahrzeuge gefährdet"
     ],
     "primaryLinks": [
       {
@@ -36,7 +40,7 @@
       },
       {
         "title": "OpenSky – Luftraumkarte",
-        "description": "CASA-verifizierte Luftraumdaten mit Echtzeitbeschränkungen und TFR-Warnungen"
+        "description": "CASA-verifizierte Luftraumdaten mit Echtzeitbeschränkungen"
       },
       {
         "title": "CASA – Registrierung",

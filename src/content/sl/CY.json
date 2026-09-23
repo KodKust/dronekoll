@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "a1e69adb928a29b23e35f851c7f189c239b934c116c4c5c3bb8ff4997785f369",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "8d3736758eabe09f115c22b261f62052d660fd07794af65c1d39b8fa76ca192b",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Največ 120 m nad tlemi (kategorija EASA Open)",
-      "Registracija kot upravljavec UAS (15 € / 3 leta), če dron tehta 250 g ali več oziroma ima kamero",
-      "Potrebno je spletno usposabljanje A1/A3 – najnižja starost 16 let",
+      "V odprti kategoriji je največja višina 120 m, merjena kot razdalja od najbližje točke zemeljskega površja — ne preprosto navpično navzdol, zato ob pobočju lahko šteje tudi teren ob vas. Znotraj 50 m od visoke umetne ovire (višje od 105 m) lahko subjekt, odgovoren za oviro, zaprosi za dovoljenje za letenje do 15 m nad višino ovire.",
+      "Kot upravljavec drona se morate registrirati, če vaš dron tehta 250 g ali več (ali bi lahko ob udarcu prenesel več kot 80 J kinetične energije) — to velja celo za igrače. Pod 250 g je registracija še vedno potrebna, če ima dron senzor, ki lahko zajema osebne podatke, razen če velja za igračo po direktivi EU o varnosti igrač. Zahteve glede usposabljanja/potrdila pilota so ločene in odvisne od razreda drona in podkategorije.",
+      "Registracijsko številko upravljavca neizbrisno označite na vsakem svojem dronu in jo naložite v sistem za identifikacijo na daljavo (če je nameščen). Registracija upravljavca je mogoča od 18. leta — za mlajše se lahko registrira odgovorna oseba (npr. starš ali skrbnik).",
+      "Droni, dani na trg po 01. 01. 2024 brez razredne oznake (C0–C6), ne smejo leteti v odprti kategoriji — le v posebni kategoriji z operativnim dovoljenjem.",
+      "Najnižja starost za samostojno letenje v odprti kategoriji je 16 let — spletno usposabljanje A1/A3 (9 modulov, izpit s 40 vprašanji, cena 15 evrov) velja 5 let in je priznano po vsej EU. Pod to starostjo je letenje dovoljeno le pod neposrednim nadzorom pilota s potrdilom.",
+      "Obiskovalci iz držav zunaj EU: če je Ciper prva država EU, v kateri letite, se registracija upravljavca (kjer je potrebna) opravi pri DCA Cipra (15 €, najnižja starost 18 let); če ste že leteli v drugi državi EU, se ne registrirate znova. Za podkategoriji A1/A3 potrebujete potrdilo pilota A1/A3, ki ga je izdala država EU (spletno usposabljanje in izpit, 15 €); za dron C0 (<250 g) izpit ni obvezen.",
       "Nočni let je dovoljen v skladu z osnovnimi zahtevami EASA za odprto kategorijo, če se uporablja predpisana zelena utripajoča luč, razen če veljavna geografska cona ali nacionalni predpis določa strožje pogoje.",
-      "8-kilometrska varnostna cona okoli letališč",
-      "Najmanjša razdalja 1 km od stanovanjskih območij (velja predvsem za kategorijo A3 — strožje zahteve za težje drone)",
-      "Vedno ohranjajte neposreden vidni stik z dronom (VLOS)",
+      "Letališči Larnaka in Pafos: v coni A (rdeča) so vsi leti z droni prepovedani; v coni B (rumena) le z dovoljenjem DCA (zaprosite vsaj 10 delovnih dni vnaprej, zavarovanje odgovornosti do tretjih oseb 1.000.000 €). DCA obiskovalce prosi, naj ohranjajo razdaljo vsaj 8 km od letališč in heliportov.",
+      "Najmanjša razdalja 150 m od stanovanjskih, poslovnih ali industrijskih območij (kategorija A3)",
+      "V odprti kategoriji morate dron ohranjati v neposrednem vidnem polju s prostim očesom (očala/kontaktne leče so dovoljene; daljnogled ali zaslon ne štejeta) — ali s pomočjo opazovalca, pri čemer ves čas jasno in učinkovito komunicirata, da skupaj spremljata zračni prostor in se izogneta trkom. Način »follow-me« je ločena izjema, dovoljena do 50 m od pilota.",
       "Ne letite nad skupinami ljudi. Pravila za neudeležene osebe so odvisna od podkategorije, razredne oznake in pogojev delovanja; preverite uradno matriko.",
+      "Britanski bazi (Akrotiri, Dhekelia): ločena uprava z lastno zakonodajo o dronih, lastnim registracijskim obrazcem in kartami določenih območij — pred letenjem tam preverite sbaadministration.org.",
       "Severni Ciper (TRNC): ločena jurisdikcija – drugačna pravila",
-      "Cona prepovedi letenja OZN: popolna prepoved letenja"
+      "Varovalni pas ZN (UN Dead Zone): brez predhodne odobritve UNFICYP nobenih dejavnosti — tam ne letite."
     ],
     "importantNotes": [
       "Nočni let je dovoljen v skladu z osnovnimi zahtevami EASA za odprto kategorijo, če se uporablja predpisana zelena utripajoča luč, razen če veljavna geografska cona ali nacionalni predpis določa strožje pogoje.",
-      "Razdalja 1 kilometra od stanovanjskih območij je na majhnem otoku zelo omejujoča",
-      "8-kilometrske varnostne cone okoli letališč pokrivajo velik del otoka",
+      "Okoli letališč Larnaka in Pafos: v coni A (rdeča) so leti z droni prepovedani, v coni B (rumena) le z dovoljenjem DCA.",
+      "Vnaprej nameščena karta geocon na večini dronov DJI za Ciper ni pravilna; za drone razredov C1, C2, C3, C5, C6 naložite uradno datoteko geocon DCA (drones.gov.cy).",
       "Severni Ciper (TRNC) je ločena jurisdikcija z drugačnimi pravili",
-      "Mrtva cona OZN je stroga cona prepovedi letenja"
+      "Varovalni pas ZN (UN Dead Zone): brez predhodne odobritve UNFICYP nobenih dejavnosti — tam ne letite."
     ],
     "primaryLinks": [
       {
@@ -32,7 +36,7 @@
       },
       {
         "title": "DCAD – registracija upravljavca",
-        "description": "Registracija kot pilot UAS (15 € / 3 leta, veljavno v vseh državah EU/EASA)"
+        "description": "Registracija kot upravljavec UAS (15 € / 3 leta, veljavno v vseh državah EU/EASA)"
       },
       {
         "title": "drones.gov.cy – karta geocon",
@@ -53,8 +57,8 @@
         "description": "Informacije o letališčih Larnaka in Pafos"
       }
     ],
-    "disclaimerText": "Pred vsakim letom vedno preverite uradne vire DCA Cipra in drones.gov.cy. Ta aplikacija je orodje, ne pravni organ. Ciper upošteva predpise EASA s strogimi nacionalnimi dodatki, kot je prepoved nočnih letov.",
-    "sectionLabelRules": "OSNOVNA PRAVILA (RAZRED EASA OPEN)",
+    "disclaimerText": "Pred vsakim letom vedno preverite uradne vire DCA Cipra in drones.gov.cy. Ta aplikacija je orodje, ne pravni organ. Ciper upošteva predpise EASA z nacionalnimi geografskimi conami (Κ.Δ.Π. 190/2024, s spremembami).",
+    "sectionLabelRules": "OSNOVNA PRAVILA (KATEGORIJA EASA OPEN)",
     "sectionLabelPrimary": "URADNI VIRI",
     "sectionLabelSecondary": "DODATNI VIRI",
     "linksSheetTitle": "Zračni prostor in predpisi — Ciper",

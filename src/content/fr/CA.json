@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "51b497a18aafd4cff4e8165ebea4d22e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "05a601befa3ab4524ab9e1c3f953a9bc",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,21 +14,27 @@
     "dronePilotCredentialName": "Certificat de pilote",
     "keyRules": [
       "122 m (400 ft) maximum au-dessus du sol",
-      "Affichez le numéro d'enregistrement (C-F####) sur le drone",
+      "Ne volez jamais à moins de 9,3 km (5 NM) d'un feu de forêt ni à l'intérieur du périmètre de sécurité d'une opération d'urgence (accident, inondation) — cela s'applique à tous les drones, y compris ceux de moins de 250 g.",
+      "Interdiction de voler lors d'événements annoncés publiquement (concerts, festivals, sports) ou à proximité sans SFOC-RPAS — cela inclut les drones de moins de 250 g.",
+      "Affichez clairement votre numéro d'enregistrement de drone (p. ex. C-1234567890) sur le drone",
       "Certificat de base : à partir de 14 ans, examen de 35 questions (65 % de réussite) — espace aérien non contrôlé uniquement",
       "Certificat avancé : à partir de 16 ans, examen de 50 questions (80 % de réussite) + révision en vol — espace aérien contrôlé",
       "Drones de moins de 250 g : aucun enregistrement ni certificat requis",
+      "Visiteurs étrangers faisant voler leur propre drone de 250 g et plus : vous avez besoin d'un certificat de pilote de drone canadien (une licence de votre pays ne compte pas) et d'un Foreign SFOC-RPAS, car les étrangers ne peuvent pas enregistrer de drones au Canada. Faites la demande tôt — norme de service de 30 jours ouvrables. Moins de 250 g : aucun SFOC nécessaire, sauf lors d'événements annoncés publiquement.",
       "Gardez toujours le drone en vue directe (VLOS) — contact visuel direct sans aide",
       "Maintenez une distance horizontale de 30 m par rapport aux personnes (opérations de base)",
-      "Sauf si vous suivez une procédure établie par Transport Canada, restez à 5,6 km (3 NM) des aéroports certifiés et à 1,9 km (1 NM) des héliports certifiés. Le vol en espace aérien contrôlé nécessite un certificat avancé et une autorisation NAV DRONE.",
+      "Vol de nuit (drones de 250 g et plus) : le drone doit être équipé de feux qui le maintiennent visible pour vous ou votre observateur visuel, et ceux-ci doivent être allumés.",
+      "Drones de 250 g et plus : interdiction de voler dans les 12 heures suivant la consommation d'alcool ou en étant sous influence",
+      "Opérations de base : restez à plus de 5,6 km (3 NM) des aéroports certifiés et à plus de 1,9 km (1 NM) des héliports certifiés. Plus près uniquement avec un certificat pour opérations avancées, en suivant les procédures établies. Espace aérien contrôlé : certificat pour opérations avancées + drone doté d'une déclaration de sécurité correspondante + autorisation NAV DRONE.",
+      "À moins de 5,6 km (3 NM) du centre d'un aérodrome militaire, vous avez besoin d'une autorisation du ministère de la Défense nationale.",
       "Les parcs provinciaux et nationaux interdisent généralement l'usage récréatif des drones — cette interdiction est confirmée dans les parcs provinciaux de l'Alberta, de l'Ontario et de la Colombie-Britannique, ainsi que sur tous les sites de parcs nationaux de Parks Canada. Vérifiez les règles du parc concerné avant de voler."
     ],
     "importantNotes": [
-      "Les parcs provinciaux de la Colombie-Britannique et de l'Alberta interdisent les drones récréatifs sans permis",
+      "Parcs provinciaux de la Colombie-Britannique et de l'Alberta : faire voler un drone sans l'autorisation du parc est illégal, et le vol de loisir n'est pas autorisé (Alberta : toute taille ; C.-B. : autorisation rarement accordée)",
       "Les parcs provinciaux de l'Ontario et les parcs municipaux de Toronto interdisent les drones récréatifs",
-      "La plupart des municipalités interdisent les drones dans les parcs publics sans permis",
+      "D'autres municipalités peuvent aussi interdire les drones dans les parcs municipaux sans permis — vérifiez les règlements municipaux avant de voler",
       "L'assurance n'est pas requise pour les opérations de base, mais fortement recommandée",
-      "Le certificat d'opérations complexes de niveau 1 (depuis novembre 2025) permet des opérations BVLOS à faible risque sans SFOC"
+      "Le certificat de pilote Niveau 1 Complexe (18 ans et plus) permet les opérations BVLOS à faible risque sans SFOC depuis le 4 novembre 2025 — mais uniquement sous un certificat d'exploitant de RPAS (RPOC), détenu par vous ou par l'exploitant pour lequel vous volez"
     ],
     "primaryLinks": [
       {
@@ -37,7 +43,7 @@
       },
       {
         "title": "Transports Canada — Enregistrez votre drone",
-        "description": "Enregistrez les drones de 250 g et plus via le Portail de gestion des drones (5 $, environ 3 minutes)"
+        "description": "Enregistrez les drones de 250 g et plus via le Portail de gestion des drones (environ 10 $, ajusté chaque année ; environ 3 minutes)"
       },
       {
         "title": "NAV DRONE — Espace aérien contrôlé",

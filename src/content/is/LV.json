@@ -1,28 +1,35 @@
 {
   "meta": {
-    "sourceHash": "554dcb2ca7172e65f382ee60023e605b64f419f74a40862fa094a3c138b1853d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "dffaad15a571e359fb1ed462806f7dd69c5c983c8a5aea73cf0df596497c54f0",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Að hámarki 120 m yfir jörðu (EASA opinn flokkur)",
-      "Skráðu þig sem rekstraraðila fjarstýrðra loftfara ef dróninn þinn vegur 250 g eða meira eða er búinn myndavél",
-      "A1/A3 netþjálfun nauðsynleg – lágmarksaldur 16",
-      "Skyldubundin ábyrgðartrygging fyrir dróna sem vega meira en 1,5 kg; lágmarksfjárhæð tryggingar fer eftir þyngd — 250–1.500 g: 150.000 €; 1.501–5.000 g: 500.000 €; >5 kg: 1.000.000 €",
-      "Bannað er að fljúga yfir brýr, járnbrautir, hraðbrautir og raflínur",
-      "Haltu ávallt sjónlínu (VLOS)",
+      "Í opna flokknum er hámarkshæðin 120 m, mæld sem fjarlægð að næsta punkti á yfirborði jarðar — ekki aðeins beint niður, svo nálægt halla getur jörðin til hliðar líka talist með. Innan 50 m frá háu manngerðu mannvirki (yfir 105 m) getur sá aðili sem ber ábyrgð á mannvirkinu óskað eftir leyfi til að fljúga allt að 15 m yfir hæð þess.",
+      "Þú verður að skrá þig sem drónarekstraraðila ef dróninn þinn vegur 250 g eða meira (eða gæti flutt meira en 80 J af hreyfiorku við árekstur) — þetta á einnig við um leikföng. Ef hann vegur minna en 250 g er skráning samt nauðsynleg ef dróninn er með skynjara sem getur safnað persónuupplýsingum, nema hann teljist leikfang samkvæmt leikfangatilskipun ESB. Kröfur um þjálfun/skírteini flugmanns eru aðskildar og fara eftir flokki og undirflokki drónans.",
+      "Þú verður að skrá þig sem rekstraraðila fjarstýrðra loftfara í því ESB-landi þar sem þú býrð (ef þú býrð utan ESB — í fyrsta ESB-landinu þar sem þú flýgur); skráningin gildir um allt ESB og óheimilt er að vera skráð(ur) í tveimur löndum samtímis. Í Lettlandi kostar skráning 5 € og gildir í 1 ár. Hver dróni verður að vera merktur með rekstraraðilanúmerinu.",
+      "Dróni frá 250 g krefst A1/A3-netnámskeiðs og prófs. Frá árinu 2024 mega drónar án C-flokksmerkingar sem vega 250 g eða meira aðeins fljúga í undirflokki A3 — fjarri óviðkomandi einstaklingum og að minnsta kosti 150 m frá íbúðar-, verslunar-, iðnaðar- og útivistarsvæðum.",
+      "Í Lettlandi er lágmarksaldur til að fljúga sjálfstætt 16 ár; yngri flugmenn mega aðeins fljúga undir beinu eftirliti hæfs fjarflugmanns sem er að minnsta kosti 16 ára, eða með dróna í flokki C0 sem er hannaður sem leikfang.",
+      "Drónar í flokkum C1, C2 (og C3) verða að fljúga með virka beina fjarauðkenningu (Remote ID) þar sem rekstraraðilanúmerið þitt hefur verið fært inn.",
+      "Ábyrgðartrygging er skyldubundin, nema fyrir dróna með massa undir 250 g og hámarkshraða undir 19 m/s. Lágmarksfjárhæð: í undirflokkum A1 og A2 — 50.000 €; fyrir dróna frá 20 kg og í sérstaka flokknum — 750.000 SDR (reglugerð (EB) nr. 785/2004).",
+      "Ekkert almennt bann er í gildi, en landfræðileg UAS-svæði geta verið ákveðin yfir þjóðvegum, brúm, járnbrautarmannvirkjum og 110/330 kV raflínum (allt að 50 m frá þeim) — athugaðu airspace.lv. Forðastu eftir fremsta megni að fljúga yfir fólk, umferð, byggingar og verkfræðimannvirki.",
+      "Bannað er að kvikmynda eða ljósmynda mikilvæga innviði sem bera skiltið „BEZ SASKAŅOŠANAS FOTOGRAFĒT, FILMĒT AIZLIEGTS“.",
+      "Í opna flokknum verður þú að hafa drónann innan beinnar sjónlínu þinnar án hjálpartækja (gleraugu/snertilinsur eru leyfðar; sjónauki eða skjár telst ekki með) — eða fljúga með aðstoð athuganda, þar sem þið eruð alltaf í skýru og virku sambandi svo að þið getið saman fylgst með loftrýminu og forðast árekstra. „Follow-me“-stilling er sérstök undantekning, heimil allt að 50 m frá flugmanninum.",
       "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
-      "Að minnsta kosti 5 km frá hvaða flugvelli eða flugstað sem er",
+      "Engin ein fjarlægð frá flugvöllum gildir um allt ESB. Takmarkanir nálægt flugvöllum eru birtar sem landfræðileg svæði (15. grein) og lögun þeirra og stærð er breytileg eftir flugvöllum. Áður en þú flýgur nálægt flugvelli, flugbraut eða þyrlupalli skaltu athuga opinbert drónasvæðakort landsins; flug innan flugstjórnarsvæðis (CTR) krefst yfirleitt fyrirfram leyfis frá flugumferðarstjórn.",
+      "Í Lettlandi verður frá 1. janúar 2025 að tilkynna flug á landfræðilegum UAS-svæðum þar sem krafist er flugtilkynningar eða samþykkis, áður en flogið er, í upplýsingakerfi CAA fyrir ómönnuð loftför, BGKIS (e.caa.gov.lv); rekstraraðilar sem skráðir eru í öðru EES-landi eða í Sviss geta einnig stofnað BGKIS-aðgang. Samþykki á svæðum umhverfis flugvelli getur tekið allt að 5 virka daga (allt að 30 daga ef breyta þarf flugáætluninni).",
       "Næturflug er heimilt samkvæmt grunnreglum EASA opna flokksins þegar tilskilið grænt blikkandi ljós er notað, nema gildandi landfræðilegt UAS-svæði eða innlend regla setji strangara skilyrði.",
-      "Stýrða svæðið (CTR) við Ríga-flugvöll nær yfir umtalsvert svæði"
+      "Riga-CTR nær yfir stóran hluta Riga. Án sérstaks samþykkis er heimilt að fljúga undir 50 m yfir jörðu og meira en 5 km frá brautarþröskuldum flugbrauta 18 og 36 með dróna allt að 2 kg; dróni yfir 2 kg krefst viðbótarhæfni (t.d. A2-hæfnisskírteinis). Hærra en 50 m eða innan 5 km svæðisins umhverfis brautarþröskuldana verður að fá hvert flug samþykkt fyrir fram hjá VAS „Latvijas gaisa satiksme“.",
+      "Að beiðni lögreglu, CAA, landamæravarða eða annars embættismanns skaltu stöðva flugið tafarlaust og framvísa persónuskilríki – hafðu það meðferðis.",
+      "Fjarflugmaður eða athugandi sem er með áfengismagn í blóði yfir 0,2 ‰ eða er undir áhrifum vímuefna getur fengið sekt allt að 700 €; óheimilt er að neita að gangast undir próf. Sektir: allt að 700 € (t.d. fyrir flug án skyldubundinnar tryggingar), allt að 1.000 € fyrir brot á kröfum um leyfilega hæð eða flugvallarsvæði."
     ],
     "importantNotes": [
-      "Trygging fer eftir þyngd drónans — 250–1.500 g: 150.000 €; 1.501–5.000 g: 500.000 €; >5 kg: 1.000.000 €",
-      "Bannað er með öllu að fljúga yfir brýr, járnbrautir, hraðbrautir og raflínur",
+      "Trygging skyldubundin, nema drónar < 250 g með hámarkshraða < 19 m/s; lágmark A1/A2 — 50.000 €, frá 20 kg og í sérstaka flokknum — 750.000 SDR",
+      "Landfræðileg UAS-svæði geta gilt yfir brúm, járnbrautum, þjóðvegum og 110/330 kV raflínum (allt að 50 m) — athugaðu airspace.lv",
       "Stýrða svæðið (CTR) við Ríga-flugvöll er stórt takmarkað svæði",
-      "Frekari takmarkanir kunna að vera á landamærasvæðum við Rússland og Hvíta-Rússland",
+      "Meðfram landamærunum að Hvíta-Rússlandi og Rússlandi er haftasvæðið EVR17A BORDER EAST (frá jörðu upp í 500 ft, virkt H24). Drónaflug þar (einnig < 250 g) er aðeins heimilt með heimild frá flug- og sérsveitardeild landamæravarðar ríkisins, sem verður að fá að minnsta kosti 24 klukkustundum fyrir fyrirhugaðan flugdag (gögn verður að leggja fram að minnsta kosti 32 klukkustundum fyrir fram).",
       "GDPR gildir um kvikmyndun og ljósmyndun persónugreinanlegra einstaklinga"
     ],
     "primaryLinks": [

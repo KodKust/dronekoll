@@ -1,55 +1,59 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Að hámarki 120 m yfir jörðu (EASA opinn flokkur)",
-      "Skráning sem rekstraraðili fjarstýrðra loftfara (ókeypis) fyrir dróna sem vega 250 g eða meira eða eru búnir myndavél",
-      "A1/A3 netþjálfun nauðsynleg — lágmarksaldur 16",
-      "Flug í stýrðu svæði (CTR) og flugvallarumferðarsvæði (ATZ) flugvalla er aðeins heimilt eftir samræmingu við flugumferðarstjórn eða rekstraraðila flugvallar",
-      "Flug yfir hraðbrautum og stórum vegum er takmarkað — forðastu þá",
-      "Haltu ávallt sjónlínu (VLOS) við drónann",
+      "Í opna flokknum er hámarkshæðin 120 m, mæld sem fjarlægð að næsta punkti á yfirborði jarðar — ekki einfaldlega beint niður, svo nálægt halla getur landið við hliðina á þér einnig talið. Innan 50 m frá hárri manngerðri hindrun (hærri en 105 m) getur sá aðili sem ber ábyrgð á hindruninni óskað eftir leyfi til að fljúga allt að 15 m yfir hæð hennar.",
+      "Þú verður að skrá þig sem drónarekstraraðila ef dróninn þinn vegur 250 g eða meira (eða gæti flutt meira en 80 J hreyfiorku við högg) — þetta á einnig við um leikföng. Undir 250 g er skráning samt skyldubundin ef dróninn hefur skynjara sem getur safnað persónuupplýsingum, nema hann teljist leikfang samkvæmt leikfangatilskipun ESB (EU Toy Safety Directive). Kröfur um þjálfun/flugmannsskírteini eru aðskildar og ráðast af flokki og undirflokki drónans.",
+      "Lágmarksaldur til að fljúga á eigin vegum í opna flokknum er 16 ár — A1/A3 netþjálfunin og prófið gilda í 5 ár og eru viðurkennd um allt ESB. Engin aldursmörk: dróni í flokki C0 sem er leikfang, í undirflokki A1, eða heimasmíðaður dróni undir 250 g; annars mega yngri flugmenn aðeins fljúga undir beinu eftirliti flugmanns sem uppfyllir kröfur um aldur og þjálfun.",
+      "Ferðamenn: skráning rekstraraðila og A1/A3-skírteini frá öðru ESB/EASA-landi gilda einnig í Tékklandi (þú getur aðeins skráð þig í einu landi). Utan ESB: skráðu þig í fyrsta ESB/EASA-landinu þar sem þú munt fljúga (í Tékklandi hjá ÚCL á dron.caa.gov.cz), og ef dróninn þinn krefst þjálfunar skaltu ljúka þjálfun samkvæmt reglum ESB – skírteini frá löndum utan ESB eru ekki viðurkennd.",
+      "Ábyrgðartrygging er skyldubundin í Tékklandi í undirflokki A2 og í A3 fyrir dróna yfir 4 kg (ekki í A1) — gakktu úr skugga um að tryggingin þín nái til flugs í Tékklandi.",
+      "Í CTR og ATZ flugvalla máttu fljúga án samræmingar aðeins upp að þeirri hæð sem reitakerfið setur (athugaðu í DroneMap). Hærra aðeins eftir samræmingu við ŘLP og með flugið merkt í DroneMap; á innra svæði CTR verður flugið alltaf að vera merkt í DroneMap, og yfir reitahæðinni er einnig krafist samræmingar við flugvallarrekstraraðilann. Strangari skilyrði gilda við herflugvelli (MCTR). Við flugvelli án flugstjórnar er flug yfir reitahæðinni aðeins heimilt eftir samræmingu við AFIS eða flugvallarrekstraraðilann. Merking í DroneMap á ekki við um dróna sem ekki þarf að skrá.",
+      "Á þéttbýlum svæðum (svæði LKR316) verður að merkja flugsvæðið fyrirfram í DroneMap (dronemap.gov.cz). Merkingin (hér sem og í CTR og á friðlýstum náttúrusvæðum) verður að innihalda hæð, tíma, tegund og þyngdarflokk drónans og skráningarnúmer rekstraraðilans. Á ekki við um dróna sem ekki er skylt að skrá rekstraraðila fyrir.",
+      "Þjóðgarðar, verndarsvæði landslags (CHKO) og smærri friðlýst svæði, t.d. friðlönd (svæði LKR318): flug aðeins á grundvelli fyrirframtilkynningar til lögbærs náttúruverndaryfirvalds eða leyfis frá því, og með flugsvæðið merkt í DroneMap. Á ekki við um dróna sem ekki er skylt að skrá rekstraraðila fyrir.",
+      "Vegir (svæði LKR317): að jafnaði aðeins með samþykki ŘSD innan 50 m frá miðlínu hraðbrautar eða vegar í flokki I; að jafnaði aðeins með samþykki eiganda eða umsjónaraðila vegarins innan 15 m frá miðlínu vega í flokki II og III (sambærilegt gildir um staðbundna vegi utan þéttbýlla svæða). Flugsvæðið verður að merkja í DroneMap – á ekki við um dróna sem ekki er skylt að skrá rekstraraðila fyrir.",
+      "Í opna flokknum verður þú að halda drónanum í beinni sjónlínu með berum augum (gleraugu/snertilinsur eru í lagi; sjónauki eða skjár telst ekki með) — eða fá athuganda til aðstoðar, með skýrum og skilvirkum samskiptum ykkar á milli allan tímann, svo að þið getið saman fylgst með loftrýminu og forðast árekstra. „Follow-me“-stilling er sérstök undantekning eingöngu í undirflokki A1, heimil innan 50 m frá flugmanninum.",
       "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
       "Næturflug er heimilt samkvæmt grunnreglum EASA opna flokksins þegar tilskilið grænt blikkandi ljós er notað, nema gildandi landsvæði eða innlend regla setji strangara skilyrði.",
-      "Sektir allt að 5.000.000 CZK (≈ 185.000 €) fyrir brot",
-      "Prague Castle og stjórnarbyggingar: ströng flugbannssvæði"
+      "Sektir allt að 3.000.000 CZK (≈ 120.000 €) fyrir brot",
+      "Prague Castle og stjórnarbyggingar: algjör flugbannssvæði"
     ],
     "importantNotes": [
-      "Flug innan stýrðra svæða (CTR) og flugvallarumferðarsvæða (ATZ) flugvalla krefst samræmingar við flugumferðarstjórn eða rekstraraðila flugvallar",
-      "Flug yfir hraðbrautum og stórum vegum er takmarkað í Tékklandi — skipuleggðu leiðina til að forðast þá",
-      "Sektir allt að 5.000.000 CZK (≈ 185.000 €)",
+      "Í CTR og ATZ flugvalla án samræmingar aðeins upp að þeirri hæð sem reitakerfið setur (athugaðu í DroneMap); hærra aðeins eftir samræmingu (í CTR við ŘLP, við flugvelli án flugstjórnar við AFIS eða flugvallarrekstraraðilann) og með flugið merkt í DroneMap; á innra svæði CTR er merking alltaf nauðsynleg",
+      "Vegir (svæði LKR317): við hraðbrautir og vegi í flokki I að jafnaði aðeins með samþykki ŘSD innan 50 m frá miðlínu; við vegi í flokki II og III að jafnaði aðeins með samþykki eiganda eða umsjónaraðila vegarins innan 15 m frá miðlínu",
+      "Sektir allt að 3.000.000 CZK (≈ 120.000 €)",
       "Strangar flugbannstakmarkanir gilda á svæðinu við Prague Castle",
       "GDPR gildir um töku persónugreinanlegra mynda"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Drónareglur",
-        "description": "Opinberar reglur og úrræði frá Flugmálastjórn um dróna"
+        "title": "ÚCL — Drónareglur",
+        "description": "Opinberar reglur og úrræði Flugmálastjórnar um dróna"
       },
       {
-        "title": "CAA — Skráning rekstraraðila",
-        "description": "Ókeypis skráning sem rekstraraðili fjarstýrðra loftfara (gildir í öllum ESB/EASA-löndum)"
+        "title": "ÚCL — Skráning rekstraraðila",
+        "description": "Ókeypis skráning sem UAS-rekstraraðili (gildir í öllum ESB/EASA-löndum)"
       },
       {
         "title": "Dronemap.gov.cz — Loftrýmiskort",
         "description": "Opinbert gagnvirkt kort sem sýnir drónasvæði og loftrýmistakmarkanir"
       },
       {
-        "title": "CAA — Yfirlit reglna",
+        "title": "ÚCL — Yfirlit yfir reglur",
         "description": "Yfirlit yfir reglur um drónaflug í Tékklandi"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Flugumferðarstjórn — NOTAM og loftrými",
-        "description": "Flugumferðarstjórn Tékklands og upplýsingar um loftrými"
+        "title": "ŘLP — NOTAM og loftrými",
+        "description": "Tékknesk flugumferðarstjórn og upplýsingar um loftrými"
       },
       {
-        "title": "CAA — Algengar spurningar um dróna",
+        "title": "ÚCL — Algengar spurningar um dróna",
         "description": "Algengar spurningar um drónareglur í Tékklandi"
       }
     ],
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
     "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",
     "linksSheetTitle": "Loftrými og reglur — Tékkland",
-    "dronePilotCredentialName": "Drónaflugmannsleyfi"
+    "dronePilotCredentialName": "A1/A3-þjálfunarskírteini"
   }
 }

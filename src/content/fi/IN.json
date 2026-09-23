@@ -1,33 +1,36 @@
 {
   "meta": {
-    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "17cf8ce1211fdb6fb07c1979f47d5e58",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
-    "disclaimerText": "Tarkista aina DGCA:n ja DigitalSkyn viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Intia käyttää pakollista digitaalista alustaa kaikkien droneja koskevien vaatimusten noudattamiseen.",
+    "disclaimerText": "Tarkista aina DGCA:n (eGCA) ja DigitalSkyn viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen.",
     "sectionLabelRules": "TÄRKEIMMÄT SÄÄNNÖT",
     "sectionLabelPrimary": "VIRALLISET LÄHTEET",
     "sectionLabelSecondary": "LISÄRESURSSIT",
     "linksSheetTitle": "Ilmatila ja säännöt — Intia",
     "dronePilotCredentialName": "Kaukolentäjän todistus",
     "keyRules": [
-      "DigitalSky jakaa ilmatilan vihreisiin (välitön automaattinen lupa), keltaisiin (valvottu ilmatila, automaattinen käsittely noin 15–30 min — tähän kuuluu lentoaseman kehävyöhyke, karkeasti 8–12 km) ja punaisiin (rajoitettu, vaatii manuaalisen hyväksynnän) vyöhykkeisiin — tarkista aina DigitalSky ennen lentoa, sillä vyöhykerajat tietyn lentoaseman lähellä voivat poiketa tästä yleiskuvasta.",
+      "DigitalSky jakaa ilmatilan vihreään (lupaa ei tarvita, enintään 120 m/400 ft), keltaiseen (lupa asianomaiselta lennonjohtoviranomaiselta) ja punaiseen (vain keskushallinnon luvalla) vyöhykkeeseen. 8–12 km:n etäisyydellä toiminnassa olevan lentoaseman rajalta vihreä vyöhyke ulottuu vain 60 m:iin (200 ft); sen yläpuolella on keltainen vyöhyke. Tarkista aina DigitalSky-kartta ennen lentoa.",
+      "Ellei drone ole vapautettu (Nano-dronet enintään 250 g tai enintään 25 kg:n mallidronet, joita käytetään vain opetukseen, tutkimukseen tai virkistykseen näköyhteyden sisällä), dronen on vastattava DGCA:n tyyppihyväksyntää. DGCA on väliaikaisesti keskeyttänyt ilman tyyppihyväksyntää olevien dronejen rekisteröinnin toistaiseksi (vain Intiassa valmistetut Nano- ja mallidronet voivat hakea suoraan DGCA:lta), eikä rekisteröimätöntä dronea saa lentää.",
       "Vakuutus pakollinen kaikille kategorioille Nanoa lukuun ottamatta",
-      "Kauko-ohjaajan todistus (RPC) vaaditaan Micro-luokan (250 g–2 kg) ja sitä suurempien dronejen kaupalliseen käyttöön, ja se on pakollinen kaikille Small-luokan droneille (2–25 kg) ja sitä suuremmille käyttötarkoituksesta riippumatta. Nano-luokka (alle 250 g) ei vaadi RPC:tä koskaan, ei myöskään kaupallisessa käytössä.",
+      "Kauko-ohjaajan todistus (RPC) vaaditaan Micro-luokan (>250 g–2 kg) ja sitä suurempien dronejen kaupalliseen käyttöön, ja se on pakollinen kaikille Small-luokan (2–25 kg) ja sitä suuremmille droneille käyttötarkoituksesta riippumatta. Nano-luokka (≤250 g) ei koskaan vaadi RPC:tä, ei myöskään kaupallisessa käytössä.",
       "Jokaisella lennolla dronen on pysyttävä näköyhteydessä — sen on oltava koko ajan paljain silmin näkyvissä ilman kiikaria tai vastaavia apuvälineitä — ellei DGCA ole myöntänyt erillistä EVLOS- tai BVLOS-lupaa.",
       "Punaisilla vyöhykkeillä lentäminen on ehdottomasti kielletty ilman toimivaltaisen viranomaisen erillistä lupaa DigitalSkyn kautta."
     ],
     "importantNotes": [
-      "DigitalSky-rekisteröinti on pakollinen kaikille droneille Nano-luokkaa (alle 250 g) lukuun ottamatta; Nano-luokassa ei vaadita rekisteröintiä eikä UIN-tunnusta. Rekisteröimättömän dronen lennättäminen silloin, kun rekisteröinti vaaditaan, voi johtaa laitteen takavarikointiin.",
+      "Kaikki dronet, myös Nano-luokka (≤250 g), on rekisteröitävä ja niillä on oltava UIN (DGCA:n eGCA-portaalin kautta) ennen lentämistä. Nano-dronet on vapautettu vain tyyppihyväksynnästä, kauko-ohjaajan todistuksesta ja kolmannen osapuolen vastuuvakuutuksesta. Rekisteröimättömän dronen lentäminen voi johtaa seuraamuksiin ja takavarikkoon.",
+      "Vierailijat: dronejen tuonti Intiaan on kielletty DGFT:n ilmoituksella (Notification) 54/2022 (kaikki painoluokat, myös ≤250 g), paitsi DGFT:n luvalla valtion/T&K-käyttöön tai puolustus-/turvallisuuskäyttöön. Rekisteröinti edellyttää Intian passia tai Intian valtion myöntämää henkilöllisyystodistusta sekä osoitetodistusta, joten vierailijan dronea ei yleensä voi rekisteröidä eikä lentää laillisesti.",
       "Punaisiin vyöhykkeisiin kuuluvat lentoasemat, sotilasalueet, rajat ja arkaluonteiset kohteet",
-      "Vakuutus on pakollinen Micro-, Small- ja Medium-luokan droneille"
+      "Vakuutus on pakollinen Micro-, Small- ja Medium-luokan droneille",
+      "Kaikista dronesi onnettomuuksista on ilmoitettava DGCA:lle 48 tunnin kuluessa."
     ],
     "primaryLinks": [
       {
         "title": "DigitalSky — DGCA-alusta",
-        "description": "Pakollinen alusta dronen rekisteröintiin, lentolupiin ja vyöhyketarkistuksiin"
+        "description": "Pakollinen alusta lentolupiin ja vyöhyketarkistuksiin"
       },
       {
         "title": "DGCA — Dronemääräykset",

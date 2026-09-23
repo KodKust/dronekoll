@@ -1,45 +1,44 @@
 {
   "meta": {
-    "sourceHash": "81c150124a0453afe7f5155ecf3def2f6e3595db14698b42ea98cfaec819abc2",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "739c62107e50c8694e19f4d73e36df062253357ffa3b107cac8d667605278391",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Högsta höjd: 122 m (400 ft) över marken (AGL)",
-      "Största horisontella avstånd: 750 m från operatören (samtidigt som VLOS hålls)",
+      "Högsta höjd: 122 m (400 ft) över marken (RAC 100).",
+      "Största horisontella avstånd: 750 m från operatören, så länge drönaren hålls inom direkt synhåll (VLOS) (RAC 100).",
       "Drönare med en maximal startvikt på 200 g eller mer: obligatorisk registrering på Aerocivils UAS-plattform",
-      "Öppen kategori (drönare ≤25 kg): Verksamhet tillåten utan förhandstillstånd enligt RAC 100",
-      "Klass B (25–150 kg): Kräver alltid tillstånd från Aerocivil",
-      "Minst 9 km från flygplatsens referenspunkt",
-      "Minst 3 km från helikopterplattor",
+      "Registrerad drönare: har en fast etikett på minst 2 × 4 cm med registreringsnummer, namn, e-postadress och atencionalciudadano@aerocivil.gov.co (RAC 100).",
+      "Öppen kategori (drönare ≤25 kg, endast icke-kommersiell användning): verksamhet tillåten utan förhandstillstånd enligt RAC 100. Kommersiell användning = specifik kategori med tillstånd.",
+      "Drönare över 25 kg (upp till 250 kg): endast i specifik kategori, med flygtillstånd från Aerocivil och en pilot med lämplighetsintyg (RAC 100).",
+      "Minst 2 km från militär- eller polisbaser, fängelser och kritisk infrastruktur, samt från varje plats där presidenten befinner sig (RAC 100).",
+      "Flygplatser: det är förbjudet att flyga på flygplatsen och inom 6 km från referenspunkten (ARP); mellan 6 och 9 km endast i öppen kategori, högst 61 m (200 ft) över den lägsta tröskeln och utanför ZNVD – kontrollera i Visor Geográfico UAS (RAC 100).",
+      "Minst 3 km från helikopterplattor (RAC 100).",
       "Minst 30 m till personer som inte deltar och byggnader som inte ingår i verksamheten",
-      "Håll alltid drönaren inom synhåll (VLOS) och flyg endast i dagsljus",
-      "GEO-zoner (restriktionsområden för drönare) fastställs av Aerocivil i enlighet med ICAO"
+      "Håll alltid drönaren inom direkt synhåll (VLOS). Nattetid endast med ständigt tända ljus och med en observatör (RAC 100).",
+      "Flygförbudszoner för drönare (ZNVD) samt förbjudna områden, restriktionsområden och farliga områden kan kontrolleras i Aerocivils Visor Geográfico UAS (RAC 100)."
     ],
     "importantNotes": [
       "📋 RAC 100 (gäller för närvarande): den huvudsakliga föreskriften för drönare i Colombia. Den ersätter den tidigare RAC 91, tillägg 13. Den fastställer öppen kategori (verksamhet utan förhandstillstånd) och specifik kategori (med tillstånd). Cirkulär 100-MAUT-5.0-22-010-CI ger steg-för-steg-vägledning för registreringen.",
+      "✈️ TURISTER: RAC 100 gäller även utlänningar. Drönare från 200 g registreras på Plataforma UAS Colombia med ett giltigt pass; förfarandet är kostnadsfritt.",
       "🌳 NATIONALPARKER OCH SKYDDADE OMRÅDEN: Colombias nationalparker (PNN) förbjuder drönare utan särskilt tillstånd i parker som Tayrona, Cocuy, Los Nevados och Amacayacu. Colombias karibiska region och Amazonasregionen har ytterligare restriktioner – hör med varje park innan du reser.",
-      "🏛️ RESTRIKTIONS- OCH TÄTORTSOMRÅDEN: Centrala Bogotá (Casa de Nariño, Plaza Bolívar, El Dorado-flygplatsen (SKBO)), Cartagenas gamla stad, militära zoner, gränser (Venezuela, Ecuador, Panama), farbara floder och oljeplattformar omfattas av permanenta restriktioner – kontrollera Aerocivils GEO-zoner.",
-      "💰 SANKTIONER OCH ANSVAR: Att flyga utan licens eller utanför tillåtna områden kan leda till kännbara böter (UVT – skatteberäkningsenhet), beslag av utrustning och, i allvarliga fall, straffrättsligt ansvar. Vid kommersiell användning: ansvarsförsäkring krävs."
+      "🏛️ RESTRIKTIONSOMRÅDEN: det är förbjudet att flyga i ZNVD-zoner (t.ex. runt El Dorado SKBO) – kontrollera Aerocivils Visor Geográfico UAS före varje flygning.",
+      "💰 SANKTIONER OCH ANSVAR: Att flyga utan registrering eller utanför tillåtna områden kan leda till kännbara böter (UVT – skatteberäkningsenhet), beslag av utrustning och, i allvarliga fall, straffrättsligt ansvar. Vid kommersiell användning: ansvarsförsäkring krävs."
     ],
     "primaryLinks": [
       {
-        "title": "Aerocivil – Obemannade luftfartygssystem (UAS/drönare)",
-        "description": "Officiell webbplats för den särskilda förvaltningsmyndigheten för civil luftfart (UAEAC) om drönare: RAC 100, informationscirkulär, UAS-registrering"
-      },
-      {
-        "title": "RPAS-dokument – Navigationstjänster",
-        "description": "Officiellt dokumentarkiv för RPAS/drönare: blanketter, registreringsguider, cirkulär 100-MAUT-5.0-22-010-CI och tillämpliga föreskrifter"
+        "title": "Aerocivil – Obemannad luftfart (UAS/drönare)",
+        "description": "Officiell webbplats för den särskilda förvaltningsenheten för civil luftfart (UAEAC) om drönare: RAC 100, informationscirkulär, UAS-registrering"
       },
       {
         "title": "Aerocivil – Vanliga frågor om drönare",
         "description": "Officiell FAQ-sektion om drönare och urban luftmobilitet, med detaljerade svar på vanliga frågor från operatörer"
       },
       {
-        "title": "Nationellt luftfartsregister – UAS",
-        "description": "Luftfartsregistreringssystem för drönare som väger mer än 250 g. Inkluderar en registreringsguide och krav: identifiering, foton av drönaren (6, PDF <2 MB) och en digital blankett"
+        "title": "Aerocivil – Plataforma UAS Colombia (drönarregistrering)",
+        "description": "Aerocivils e-tjänsteportal för UAS: tillgång till Plataforma UAS Colombia för att registrera drönare på 200 g eller mer (kostnadsfritt), Visor Geográfico UAS och guider"
       }
     ],
     "secondaryLinks": [
@@ -49,11 +48,11 @@
       },
       {
         "title": "Medborgartjänst (e-post + telefon)",
-        "description": "Aerocivils officiella e-postadress för frågor om drönare. Telefon: +57 (601) 425 1000 eller avgiftsfritt 01 8000 112373. Måndag–fredag 08.00–16.30."
+        "description": "Aerocivils officiella e-postadress för frågor om drönare. Telefon: +57 (601) 425 1000 eller +57 (601) 518 5214. Måndag–fredag 8.00–16.30. Drönare: gdmua@aerocivil.gov.co"
       },
       {
         "title": "Colombianska luftfartsföreskrifter (RAC)",
-        "description": "Colombianska luftfartsföreskrifter (RAC). Inkluderar RAC 100 (UAS-verksamhet), RAC 91 tillägg 13 och alla föreskrifter som gäller drönare"
+        "description": "Colombias luftfartsföreskrifter (RAC). Inkluderar RAC 100 (UAS-verksamhet, i kraft sedan 2023) och övriga föreskrifter som gäller drönare"
       }
     ],
     "disclaimerText": "Kontrollera alltid de officiella källorna från den civila luftfartsmyndigheten (Aerocivil) innan du flyger. Den här appen är ett verktyg, inte en juridiskt bindande källa. Colombia tillämpar RAC 100 (luftfartsföreskrifter för UAS-verksamhet), som kräver obligatorisk registrering för drönare med en maximal startvikt på 200 g eller mer via UAS-plattformen.",

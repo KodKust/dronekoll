@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "fca3bbf5a00a2bc5c8ae02d7f663df3d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb076b85a229a810666fd05392ea183d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,19 +14,22 @@
     "dronePilotCredentialName": "Licencija pilota na daljinu",
     "keyRules": [
       "Vidno polje (VLOS) obavezno — najveća vodoravna udaljenost 500 m",
-      "Minimalna udaljenost od 50 m od ljudi, građevina i vozila",
-      "Držite se najmanje 10 km od zračnih luka — u Južnoafričkoj Republici to se strogo provodi. Prije leta u blizini zračne luke provjerite točnu udaljenost kod SACAA.",
-      "Za letenje dronom u nacionalnom parku Kruger ili bilo kojem drugom južnoafričkom nacionalnom parku potrebno je izričito odobrenje SANParks (NEMA Protected Areas Act) — bez odobrenja je zabranjeno letjeti ispod 2 500 ft iznad najviše točke parka. Neovisno o tome, upravljanje bilo kojim UAV-om u južnoafričkom zračnom prostoru bez poštovanja pravila civilnog zrakoplovstva može se kazniti novčanom kaznom do R50.000 i/ili zatvorom do 10 godina.",
+      "Najviše 150 ft (45 m) iznad tla — i ostanite ispod najviše prepreke unutar 300 m (ograničeni VLOS)",
+      "Minimalna udaljenost od 50 m od ljudi, javnih cesta i zgrada (osim ako vlasnik to dopusti) — nikada ne letite izravno iznad bilo koga",
+      "Držite se najmanje 10 km od svakog aerodroma — zračnih luka, uzletišta i heliodroma (uključujući privatne uzletne staze lodgeova). U Južnoafričkoj Republici to se strogo provodi.",
+      "Zabranjeno je letjeti u kontroliranom, ograničenom ili zabranjenom zračnom prostoru te u blizini ili iznad zatvora, policijskih postaja, mjesta zločina, sudova, nuklearnih elektrana ili nacionalnih ključnih točaka",
+      "Za letenje ispod 2.500 ft iznad najviše točke bilo kojeg nacionalnog parka (uključujući Kruger), posebnog rezervata prirode ili lokaliteta svjetske baštine potrebno je prethodno pisano dopuštenje vlastite upravljačke ustanove tog područja (Protected Areas Act s47) — ne samo u parkovima SANParks. Odvojeno od toga, kršenje pravila civilnog zrakoplovstva može rezultirati novčanom kaznom i/ili zatvorom do 10 godina.",
       "Samo danju — potrebni vedri vremenski uvjeti",
-      "Nije potrebna registracija ni licencija za rekreativno letenje",
-      "Komercijalna upotreba zahtijeva RPC (Certifikat pilota na daljinu), ROC i RLA",
+      "Za privatno, nekomercijalno letenje dronovima lakšima od 7 kg nisu potrebni registracija ni licencija (samo ograničeni VLOS)",
+      "Privatni letovi samo iznad posjeda koji je u vašem vlasništvu ili za čije prelijetanje imate dopuštenje vlasnika",
+      "Svaka neprivatna upotreba (komercijalna, korporativna ili neprofitna) zahtijeva Remote Pilot Licence (RPL), UAS Operating Certificate (UASOC, prije ROC), RPAS Letter of Approval (RLA) i registraciju kod SACAA-e (C of R); za komercijalnu upotrebu potrebna je i Air Service Licence (ASL)",
       "Osiguranje je općenito potrebno samo za komercijalne operacije — prije komercijalne upotrebe provjerite aktualne zahtjeve SACAA.",
       "Ne letite iznad okupljanja ljudi ili javnih događanja"
     ],
     "importantNotes": [
-      "Letenje u bilo kojem nacionalnom parku (uključujući Kruger) bez odobrenja SANParks krši NEMA Protected Areas Act, a upravljanje UAV-om bez poštovanja pravila civilnog zrakoplovstva zasebno može dovesti do kazne do R50.000 i/ili 10 godina zatvora.",
+      "Letenje ispod 2.500 ft iznad bilo kojeg nacionalnog parka (uključujući Kruger) bez prethodnog pisanog dopuštenja upravljačke ustanove parka prekršaj je prema Protected Areas Act — do R5 milijuna i/ili 5 godina zatvora za prvi prekršaj (R10 milijuna i/ili 10 godina za ponovljeni prekršaj). Kršenje pravila civilnog zrakoplovstva može odvojeno rezultirati novčanom kaznom i/ili zatvorom do 10 godina.",
       "Južnoafrička zona od 10 km oko zračnih luka mnogo je stroža nego u većini zemalja (obično 3–9 km) — provjerite trenutačnu udaljenost kod SACAA.",
-      "Komercijalnim operaterima potrebna su tri zasebna ovlaštenja: RPC, ROC i RLA",
+      "Korporativni i neprofitni operateri trebaju ista odobrenja kao komercijalni — RPL, UASOC (prije ROC), RLA i C of R; samo je Air Service Licence (ASL) namijenjena isključivo komercijalnoj upotrebi",
       "Kazne za prekršaje mogu uključivati kazneni progon"
     ],
     "primaryLinks": [
@@ -42,7 +45,7 @@
     "secondaryLinks": [
       {
         "title": "SACAA — Komercijalno licenciranje",
-        "description": "Zahtjevi za RPC, ROC i RLA za komercijalne operacije dronovima"
+        "description": "Zahtjevi za RPL, UASOC, RLA, C of R i ASL za neprivatne operacije dronovima"
       }
     ]
   }

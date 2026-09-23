@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "53287a6bbcc1a046359816ed2a7de6b009d10fc753031bec7dc231d525fdedf3",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "76cde0e68eaea6de50863e60f85670840fe89558dc64828a40f7f9cfd6b8a0c6",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne daugiau kaip 120 m virš žemės paviršiaus (EASA atviroji kategorija)",
-      "Registruokitės kaip UAS operatorius, jei dronas sveria 250 g ar daugiau arba turi kamerą",
-      "Privaloma A1/A3 internetinė mokymo programa — mažiausias amžius 16 metų",
-      "8 km apsaugos zona aplink oro uostus (didesnė nei EASA standarte nustatyta)",
+      "Atvirojoje kategorijoje didžiausias aukštis yra 120 m, matuojant iki artimiausio Žemės paviršiaus taško — ne tiesiog statmenai žemyn, todėl prie šlaito gali būti skaičiuojamas ir šalia jūsų esantis paviršius. 50 m atstumu nuo aukštos dirbtinės kliūties (aukštesnės nei 105 m) už kliūtį atsakingas subjektas gali prašyti leidimo skristi iki 15 m aukščiau už kliūtį.",
+      "Turite užsiregistruoti kaip dronų operatorius, jei jūsų dronas sveria 250 g ar daugiau (arba smūgio metu galėtų perduoti daugiau nei 80 J kinetinės energijos) — tai taikoma net žaislams. Jei dronas lengvesnis nei 250 g, registracija vis tiek privaloma, jei jame yra jutiklis, galintis rinkti asmens duomenis, nebent jis laikomas žaislu pagal ES žaislų saugos direktyvą. Pilotų mokymo / pažymėjimo reikalavimai yra atskiri ir priklauso nuo drono klasės ir pakategorės. Operatoriaus registracijos numeris lipduku užklijuojamas ant kiekvieno drono, o jei dronas turi nuotolinio identifikavimo sistemą (Remote ID), įvedamas ir į ją.",
+      "Mažiausias amžius savarankiškai skraidyti atvirojoje kategorijoje yra 16 metų — A1/A3 internetiniai mokymai ir egzaminas laikomi DG CAA sistemoje (uas.caa.bg, prisijungimas kvalifikuotu elektroniniu parašu), galioja 5 metus ir pripažįstami visoje ES. Amžiaus riba netaikoma: C0 klasei A1 pakategorėje, savadarbiam lengvesniam nei 250 g dronui arba skrydžiui tiesiogiai prižiūrint reikiamą kompetenciją turinčiam pilotui. Jei pilotas jaunesnis nei 18 metų, operatoriumi registruojasi tėvas, motina ar globėjas.",
+      "Turistams: jei jūsų dronui taikoma registracija, užsiregistruokite kaip operatorius toje ES šalyje, kurioje gyvenate; jei gyvenate už ES ribų — pirmojoje ES šalyje, kurioje skraidysite (Bulgarijoje: uas.caa.bg). Ne ES šalių kvalifikacijos nepripažįstamos — reikiamus mokymus (pvz., A1/A3) būtina baigti ES.",
+      "Aplink oro uostus yra įvairaus dydžio geografinių zonų. Sofijos, Varnos, Burgaso, Plovdivo ir Gorna Oriachovicos oro uostuose zonos didesnės nei 8 km: vidinėje zonoje kiekvienam skrydžiui reikalingas DG CAA leidimas, o platesnėje zonoje — skrydžiams aukščiau nei 50 m. Prašymą teikite ne vėliau kaip prieš 7 darbo dienas. Žemėlapį pasitikrinkite uas.caa.bg.",
       "Vietovės aplink Sofijos oro uostą apima nemažą miesto dalį",
-      "Prieš skrydį būtinas derinimas su BULATSA",
-      "Visada išlaikykite tiesioginį regėjimo ryšį su dronu (VLOS)",
+      "Be leidimo draudžiama skraidyti ribojamose ar draudžiamose geografinėse zonose, aktyvuotose (laikinai rezervuotose) oro erdvės struktūrose ir saugomose viešojo naudojimo oro uostų teritorijose. Pažeidus taisykles, dronas gali būti priverstas nusileisti arba pašalintas, o visą žalą atlygina pažeidėjas.",
+      "Prieš kiekvieną skrydį pasitikrinkite geografines zonas DG CAA žemėlapyje (uas.caa.bg); zonoje, kurioje reikalingas leidimas, pateikite prašymą DG CAA per zonai nustatytą terminą.",
+      "Atvirojoje kategorijoje droną privalote išlaikyti tiesioginiame regėjimo lauke plika akimi (akiniai / kontaktiniai lęšiai tinka; žiūronai ar ekranas neskaičiuojami) — arba padedant stebėtojui, visą laiką aiškiai ir veiksmingai bendraujant, kad kartu stebėtumėte oro erdvę ir išvengtumėte susidūrimų. „Sek paskui mane“ (follow-me) režimas yra atskira išimtis tik A1 pakategorėje (C0/C1 klasės dronams arba savadarbiams lengvesniems nei 250 g dronams), iki 50 m nuo piloto.",
       "Neskriskite virš žmonių susibūrimų. Neįtrauktiems asmenims taikomos taisyklės priklauso nuo subkategorijos, klasės žymos ir eksploatavimo sąlygų; patikrinkite oficialią lentelę.",
       "Pagal EASA atvirosios kategorijos bazinius reikalavimus naktinis skrydis leidžiamas, jei naudojamas privalomas žalias mirksintis žibintas, išskyrus atvejus, kai galiojančios geografinės zonos ar nacionalinės taisyklės numato griežtesnes sąlygas.",
-      "Nacionaliniai parkai ir gamtos rezervatai: galioja ribojimai"
+      "Nacionaliniai parkai ir gamtos rezervatai: galioja ribojimai",
+      "Civilinės atsakomybės tretiesiems asmenims draudimas privalomas sunkesniems nei 20 kg dronams, o komercinei / profesionaliai veiklai — nepriklausomai nuo svorio. Profesionaliai veiklai atvirojoje kategorijoje operatorius pateikia deklaraciją DG CAA."
     ],
     "importantNotes": [
-      "Prieš skrydį būtinas išankstinis derinimas su BULATSA",
-      "8 km saugumo zona aplink oro uostus — didesnė nei EASA standarte nustatyta",
+      "Prieš skrydį pasitikrinkite geografines zonas uas.caa.bg ir aktyvius NOTAM BULATSA B-FLIP sistemoje",
+      "Aplink didžiuosius oro uostus yra didesnių nei 8 km geografinių zonų; jose reikalingas DG CAA leidimas (platesnėje zonoje — skrydžiams aukščiau nei 50 m). Žemėlapį pasitikrinkite uas.caa.bg.",
       "Vietovės aplink Sofijos oro uostą riboja skrydžius virš didelės miesto dalies",
       "Kariniai objektai: teritorijos, kuriose skraidyti griežtai draudžiama",
       "Fotografuojant atpažįstamus asmenis taikomas GDPR"
@@ -40,7 +43,7 @@
       },
       {
         "title": "DG GVA — Dronų zonos",
-        "description": "Informacija ir ribojimai dėl geografinių zonų dronų skrydžiams"
+        "description": "Oficialus DG CAA dronų skrydžių geografinių zonų ir ribojimų žemėlapis"
       }
     ],
     "secondaryLinks": [
@@ -50,10 +53,10 @@
       },
       {
         "title": "BULATSA — NOTAM",
-        "description": "Aktyvūs NOTAM pranešimai ir laikini oro erdvės ribojimai"
+        "description": "Aktyvūs NOTAM pranešimai ir laikini oro erdvės ribojimai B-FLIP portale (reikalinga B-FLIP registracija)"
       }
     ],
-    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius DG CAA ir BULATSA šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Bulgarija laikosi EASA taisyklių su nacionaliniais papildymais, įskaitant išankstinio derinimo prieš skrydį reikalavimą.",
+    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius DG CAA (uas.caa.bg) ir BULATSA šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Bulgarija laikosi EASA taisyklių su nacionaliniais papildymais, įskaitant DG CAA leidimą skrydžiams kai kuriose geografinėse zonose.",
     "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS (EASA ATVIROJI KATEGORIJA)",
     "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
     "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "51b497a18aafd4cff4e8165ebea4d22e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "05a601befa3ab4524ab9e1c3f953a9bc",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,21 +14,27 @@
     "dronePilotCredentialName": "Pilotenzeugnis",
     "keyRules": [
       "Max. 122 m (400 ft) über Grund",
-      "Bringe die Registrierungsnummer (C-F####) auf der Drohne an",
+      "Fliege niemals innerhalb von 9,3 km (5 NM) um einen Waldbrand oder innerhalb des Sicherheitsbereichs eines Noteinsatzes (Unfall, Überschwemmung) – gilt für alle Drohnen, auch unter 250 g.",
+      "Kein Fliegen bei oder in der Nähe von öffentlich angekündigten Veranstaltungen (Konzerte, Festivals, Sport) ohne SFOC-RPAS – das gilt auch für Drohnen unter 250 g.",
+      "Bringe die Registrierungsnummer deiner Drohne (z. B. C-1234567890) gut sichtbar auf der Drohne an",
       "Basic-Zeugnis: ab 14 Jahren, Prüfung mit 35 Fragen (Bestehensgrenze: 65 %) – nur unkontrollierter Luftraum",
       "Advanced-Zeugnis: ab 16 Jahren, Prüfung mit 50 Fragen (Bestehensgrenze: 80 %) + praktische Flugprüfung – kontrollierter Luftraum",
       "Drohnen unter 250 g: keine Registrierung oder Zeugnis erforderlich",
+      "Ausländische Besucher, die ihre eigene Drohne ab 250 g fliegen: Du brauchst ein kanadisches Drohnenpilotenzeugnis (eine Lizenz aus dem Heimatland zählt nicht) und ein Foreign SFOC-RPAS, da Ausländer in Kanada keine Drohnen registrieren können. Beantrage es frühzeitig – die Bearbeitungsfrist beträgt 30 Werktage. Unter 250 g: kein SFOC erforderlich, außer bei öffentlich angekündigten Veranstaltungen.",
       "Halte stets die direkte Sichtverbindung (VLOS) – direkter Sichtkontakt ohne Hilfsmittel",
       "Halte 30 m horizontalen Abstand zu Personen (Basic-Einsätze)",
-      "Sofern du keinem festgelegten Verfahren von Transport Canada folgst, halte 5,6 km (3 NM) Abstand zu zertifizierten Flughäfen und 1,9 km (1 NM) zu zertifizierten Hubschrauberlandeplätzen. Flüge im kontrollierten Luftraum erfordern ein Advanced-Zertifikat und eine Freigabe über NAV DRONE.",
+      "Nachtflüge (Drohnen ab 250 g): Die Drohne muss Lichter haben, die sie für dich oder deinen Beobachter sichtbar halten, und diese müssen eingeschaltet sein.",
+      "Drohnen ab 250 g: Kein Fliegen innerhalb von 12 Stunden nach Alkoholkonsum oder unter Alkohol- bzw. Drogeneinfluss",
+      "Basic-Betrieb: Halte mehr als 5,6 km (3 NM) Abstand zu zertifizierten Flughäfen und 1,9 km (1 NM) zu zertifizierten Hubschrauberlandeplätzen. Näher nur mit einem Advanced-Zeugnis nach festgelegten Verfahren. Kontrollierter Luftraum: Advanced-Zeugnis + Drohne mit passender Sicherheitserklärung + Genehmigung über NAV DRONE.",
+      "Innerhalb von 5,6 km (3 NM) um das Zentrum eines Militärflugplatzes benötigst du eine Genehmigung des Department of National Defence.",
       "In Provinz- und Nationalparks ist der private Drohnenbetrieb grundsätzlich untersagt – nachweislich gilt das für die Provinzparks von Alberta, Ontario und British Columbia sowie für alle Nationalparkstandorte von Parks Canada. Prüfe die Regeln des jeweiligen Parks, bevor du fliegst."
     ],
     "importantNotes": [
-      "Die Provinzparks in British Columbia und Alberta verbieten den Freizeitbetrieb von Drohnen ohne Genehmigung",
+      "Provinzparks in BC und Alberta: Das Fliegen einer Drohne ohne Erlaubnis des Parks ist illegal, und Freizeitflüge sind nicht erlaubt (Alberta: jede Größe; BC: Erlaubnis wird selten erteilt)",
       "Provinzparks in Ontario und Stadtparks in Toronto verbieten den Freizeitbetrieb von Drohnen",
-      "Die meisten Kommunen verbieten Drohnen ohne Genehmigung in öffentlichen Parks",
+      "Auch andere Kommunen können Drohnen in städtischen Parks ohne Genehmigung verbieten – prüfe vor dem Flug die örtlichen Satzungen",
       "Für Basic-Einsätze ist keine Versicherung erforderlich, sie wird aber dringend empfohlen",
-      "Das Zertifikat „Level 1 Complex Operations“ (seit November 2025) ermöglicht risikoarme BVLOS-Einsätze ohne SFOC"
+      "Das Pilotenzeugnis Level 1 Complex (ab 18) erlaubt seit dem 4. November 2025 BVLOS-Flüge mit geringem Risiko ohne SFOC – aber nur im Rahmen eines RPAS Operator Certificate (RPOC), das du selbst oder der Betreiber, für den du fliegst, besitzt"
     ],
     "primaryLinks": [
       {
@@ -37,7 +43,7 @@
       },
       {
         "title": "Transport Canada – Drohne registrieren",
-        "description": "Registriere Drohnen ab 250 g über das Drone Management Portal (5 $, ~3 Minuten)"
+        "description": "Registriere Drohnen ab 250 g über das Drone Management Portal (etwa 10 $, jährlich angepasst; ~3 Minuten)"
       },
       {
         "title": "NAV DRONE – Kontrollierter Luftraum",

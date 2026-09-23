@@ -1,45 +1,44 @@
 {
   "meta": {
-    "sourceHash": "81c150124a0453afe7f5155ecf3def2f6e3595db14698b42ea98cfaec819abc2",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "739c62107e50c8694e19f4d73e36df062253357ffa3b107cac8d667605278391",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Azami irtifa: yerden 122 m (400 ft) (AGL)",
-      "Azami yatay mesafe: operatörden 750 m (VLOS korunarak)",
+      "Azami irtifa: yerden 122 m (400 ft) (RAC 100).",
+      "Azami yatay mesafe: doğrudan görüş hattı (VLOS) korunarak operatörden 750 m (RAC 100).",
       "MTOW'u 200 g veya daha fazla olan dronlar: Aerocivil'in UAS Platformu'na zorunlu kayıt",
-      "Open kategorisi (dronlar ≤25 kg): RAC 100 kapsamında önceden izin olmadan operasyona izin verilir",
-      "Sınıf B (25–150 kg): Her zaman Aerocivil'den izin gerektirir",
-      "Havalimanı referans noktasından en az 9 km uzakta kalın",
-      "Helikopter pistlerine en az 3 km mesafe",
+      "Kayıtlı dron: kayıt numarasını, adı, e-postayı ve atencionalciudadano@aerocivil.gov.co adresini içeren en az 2 × 4 cm boyutunda sabit bir etiket taşır (RAC 100).",
+      "Open kategorisi (≤25 kg dronlar, yalnızca ticari olmayan kullanım): RAC 100 kapsamında önceden izin olmadan operasyona izin verilir. Ticari kullanım = izinli Specific kategorisi.",
+      "25 kg'ın üzerindeki dronlar (250 kg'a kadar): yalnızca Specific kategorisinde, Aerocivil'den uçuş izni ve yeterlilik sertifikasına sahip bir pilotla (RAC 100).",
+      "Askeri veya polis üslerinden, cezaevlerinden ve kritik altyapıdan ve Cumhurbaşkanının bulunduğu her yerden en az 2 km mesafe (RAC 100).",
+      "Havalimanları: havalimanında ve referans noktasının (ARP) 6 km yakınında uçmak yasaktır; 6 ile 9 km arasında yalnızca Open kategorisinde, en alçak eşiğin azami 61 m (200 ft) üzerinde ve ZNVD dışında — Visor Geográfico UAS'ı kontrol edin (RAC 100).",
+      "Helikopter pistlerine en az 3 km mesafe (RAC 100).",
       "Operasyona dahil olmayan kişilerden ve binalardan en az 30 m uzakta kalın",
-      "Dronu her zaman doğrudan görüş hattınızda (VLOS) tutun ve yalnızca gündüz saatlerinde uçun",
-      "GEO bölgeleri (dronlar için kısıtlı alanlar) Aerocivil tarafından ICAO'ya uygun olarak belirlenir"
+      "Dronu her zaman doğrudan görüş hattınızda (VLOS) tutun. Gece yalnızca ışıklar sürekli açıkken ve bir gözlemciyle (RAC 100).",
+      "Dron Uçuşa Yasak Bölgeleri (ZNVD) ile yasak, kısıtlı ve tehlikeli alanlar Aerocivil'in Visor Geográfico UAS aracında kontrol edilebilir (RAC 100)."
     ],
     "importantNotes": [
       "📋 RAC 100 (şu anda yürürlükte): Kolombiya'da dronları düzenleyen ana mevzuattır. Önceki RAC 91, Appendix 13'ün yerini alır. Open kategorisini (önceden izin gerektirmeyen operasyon) ve Specific kategorisini (izinli operasyon) belirler. Circular 100-MAUT-5.0-22-010-CI, kayıt süreci için adım adım rehberlik sağlar.",
+      "✈️ TURİSTLER: RAC 100 yabancılar için de geçerlidir. 200 g ve üzeri dronlar, geçerli bir pasaportla Plataforma UAS Colombia'ya kaydedilir; işlem ücretsizdir.",
       "🌳 ULUSAL PARKLAR VE KORUNAN ALANLAR: Kolombiya Ulusal Doğal Parkları (PNN), Tayrona, Cocuy, Los Nevados ve Amacayacu gibi parklarda özel izin olmadan dronları yasaklar. Kolombiya Karayipleri ve Amazon bölgesi ek kısıtlamalara tabidir — yolculuğunuzdan önce her parka danışın.",
-      "🏛️ KISITLI VE KENTSEL ALANLAR: Bogotá şehir merkezi (Casa de Nariño, Plaza Bolívar, El Dorado Havalimanı (SKBO)), Cartagena'nın surlarla çevrili şehri, askeri bölgeler, sınırlar (Venezuela, Ekvador, Panama), seyre elverişli nehirler ve petrol platformları kalıcı kısıtlamalara tabidir — Aerocivil'in GEO bölgelerini kontrol edin.",
-      "💰 CEZALAR VE SORUMLULUK: Lisans olmadan veya izin verilen alanların dışında uçmak yüksek para cezalarına (UVT — Vergi Değer Birimi), ekipmana el konulmasına ve ciddi durumlarda cezai sorumluluğa yol açabilir. Ticari kullanım için sorumluluk sigortası gereklidir."
+      "🏛️ KISITLI ALANLAR: ZNVD bölgelerinde (ör. El Dorado SKBO çevresi) uçmak yasaktır — her uçuştan önce Aerocivil'in Visor Geográfico UAS aracını kontrol edin.",
+      "💰 CEZALAR VE SORUMLULUK: Kayıt olmadan veya izin verilen alanların dışında uçmak yüksek para cezalarına (UVT — Vergi Değer Birimi), ekipmana el konulmasına ve ciddi durumlarda cezai sorumluluğa yol açabilir. Ticari kullanım için sorumluluk sigortası gereklidir."
     ],
     "primaryLinks": [
       {
-        "title": "Aerocivil — İnsansız Hava Aracı Sistemleri (UAS/Dronlar)",
-        "description": "Sivil Havacılık Özel İdari Birimi'nin (UAEAC) dronlara ilişkin resmî web sitesi: RAC 100, Bilgilendirme Genelgeleri, UAS kaydı"
-      },
-      {
-        "title": "RPAS Belgeleri — Seyrüsefer Hizmetleri",
-        "description": "RPAS/dronlar için resmî belge deposu: formlar, kayıt rehberleri, Genelge 100-MAUT-5.0-22-010-CI ve geçerli mevzuat"
+        "title": "Aerocivil — İnsansız Havacılık (UAS/Dronlar)",
+        "description": "Sivil Havacılık Özel İdari Birimi'nin (UAEAC) dronlarla ilgili resmî web sitesi: RAC 100, Bilgilendirme Genelgeleri, UAS kaydı"
       },
       {
         "title": "Aerocivil — Dronlar Hakkında Sıkça Sorulan Sorular",
         "description": "Dronlar ve kentsel hava hareketliliği hakkında resmî SSS bölümü; operatörlerin yaygın sorularına ayrıntılı yanıtlar içerir"
       },
       {
-        "title": "Ulusal Havacılık Sicili — UAS",
-        "description": "250 g'dan ağır dronlar için havacılık kayıt sistemi. Bir kayıt rehberi ve gereklilikleri içerir: kimlik, dronun fotoğrafları (6 adet, PDF <2 MB) ve dijital form"
+        "title": "Aerocivil — Plataforma UAS Colombia (dron kaydı)",
+        "description": "Aerocivil'in UAS e-hizmetler portalı: 200 g veya daha ağır dronları (ücretsiz) kaydetmek için Plataforma UAS Colombia'ya, Visor Geográfico UAS'a ve eğitim videolarına erişim"
       }
     ],
     "secondaryLinks": [
@@ -49,11 +48,11 @@
       },
       {
         "title": "Vatandaş Hizmetleri (E-posta + Telefon)",
-        "description": "Dronlarla ilgili sorular için Aerocivil'in resmî e-posta adresi. Telefon: +57 (601) 425 1000 veya ücretsiz 01 8000 112373. Pazartesi–Cuma, 08.00–16.30."
+        "description": "Dronlarla ilgili sorular için Aerocivil'in resmî e-posta adresi. Telefon: +57 (601) 425 1000 veya +57 (601) 518 5214. Pazartesi–Cuma 08.00–16.30. Dronlar: gdmua@aerocivil.gov.co"
       },
       {
         "title": "Kolombiya Havacılık Mevzuatı (RAC)",
-        "description": "Kolombiya Havacılık Yönetmelikleri (RAC). RAC 100 (UAS operasyonları), RAC 91 Ek 13 ve dronlara uygulanan tüm mevzuatı içerir"
+        "description": "Kolombiya Havacılık Yönetmelikleri (RAC). RAC 100'ü (UAS operasyonları, 2023'ten beri yürürlükte) ve dronlara uygulanan diğer mevzuatı içerir"
       }
     ],
     "disclaimerText": "Uçmadan önce her zaman Civil Aviation Authority (Aerocivil) kuruluşunun resmî kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Kolombiya, UAS Platformu üzerinden MTOW'u 200 g veya daha fazla olan dronlar için zorunlu kayıt gerektiren RAC 100'ü (Aeronautical Regulations for UAS Operations) uygular.",

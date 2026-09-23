@@ -1,34 +1,35 @@
 {
   "meta": {
-    "sourceHash": "8c56d8d6e542afc955c989bfd255bb6e85a0ed0ddb98d0c06385589c15af8287",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "1ccf0d60f2daab09a23a0c0e3bbd85b102fdef6468c55b05317299a6742f4265",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimal høyde: 120 m (400 ft) over bakken (AGL)",
-      "Minimumsavstand på 8 km fra flyplasser og flystriper",
-      "En minimumsavstand på 30 m fra personer, dyr og bygninger som ikke er involvert",
+      "Maksimal høyde: 120 m (400 ft) over bakken, i ukontrollert luftrom.",
+      "Minsteavstand på 8 km fra enhver flyplass; flyging nærmere krever godkjenning fra DGAC og utstedelse av en NOTAM.",
+      "Fly bare unna tett bebygde områder i byer, tettsteder eller bosetninger og unna folkesamlinger utendørs. Bare med særskilt godkjenning fra DGAC kan du operere nærmere, og aldri nærmere enn 30 m fra slike bygninger eller samlinger.",
       "ALLE droner som veier mindre enn 25 kg må ha en identifikasjonsplate med serienummeret, eierens navn og telefonnummer",
-      "Droner som veier 25 kg eller mer: obligatorisk registrering på drones.dgac.go.cr",
+      "Obligatorisk registrering på drones.dgac.go.cr: droner ≥25 kg og all ikke-rekreasjonell bruk (kommersiell eller ikke-kommersiell), uavhengig av vekt",
       "Rekreasjonsbruk <25 kg: krever IKKE formell registrering hvis du følger de grunnleggende reglene",
       "Hold alltid dronen innen direkte synsrekkevidde (VLOS)",
       "Flyging er kun tillatt om dagen og i godt vær — nattflyging krever tillatelse",
+      "Ikke-rekreasjonell, ikke-kommersiell bruk (også droner <25 kg): kompetansebevis fra DGAC (min. 18 år), ansvarsforsikring og registrering på drones.dgac.go.cr",
       "Kommersiell bruk: RPAS-sertifikat + attest fra det tekniske rådet + DGAC-driftssertifikat",
       "Det er forbudt å fly over privat eiendom uten tillatelse, fengsler, restriksjonsområder og flyplasser"
     ],
     "importantNotes": [
       "🏷️ OBLIGATORISK IDENTIFIKASJONSPLATE: Selv om droner som veier mindre enn 25 kg til rekreasjonsbruk IKKE krever formell registrering, må ALLE droner ha en identifikasjonsplate med et serienummer, eierens navn og et kontakttelefonnummer. Dette er det strengeste kravet til fysisk identifikasjon.",
-      "✈️ UTENLANDSKE TURISTER: Reglene gjelder for ikke-bosatte. For rekreasjonsbruk: identifikasjonsmerke + følg de grunnleggende reglene (ikke ved flyplasser, ikke over privat eiendom og ikke ved fengsler) — ingen formell registrering kreves. Tollmyndighetene kan be om en dronedeklarasjon ved innreise til landet.",
-      "🌳 NASJONALPARKER OG SINAC: Det nasjonale systemet for verneområder (SINAC) krever en spesiell tillatelse for droner i parker som Manuel Antonio, Corcovado, Tortuguero, Arenal Volcano, Monteverde og Poás Volcano. Biologisk mangfold og dyreliv er beskyttet — sjekk med hver enkelt park FØR reisen.",
-      "🏖️ TURISTOMRÅDER OG FLYPLASSER: SJO (Juan Santamaría, Alajuela), LIR (Liberia, Guanacaste), presidentpalasset, ambassader og militære soner har permanente restriksjoner. Turiststrender som Tamarindo, Manuel Antonio og Jacó har ofte ytterligere kommunale restriksjoner.",
-      "💰 KOMMERSIELL BRUK OG STRAFF: Kommersielle flyginger uten RPAS-sertifikat eller attest fra det tekniske rådet kan føre til bøter, beslaglegging av utstyr og forbud mot drift. For betalt foto-/videoarbeid: skaff sertifikatet før du begynner aktiviteten."
+      "✈️ UTENLANDSKE TURISTER: Reglene gjelder for ikke-bosatte. For rekreasjonsbruk: identifikasjonsplate + følg de grunnleggende reglene (ikke ved flyplasser, ikke over privat eiendom og ikke ved fengsler) — ingen formell registrering kreves. Tollmyndighetene kan be om en dronedeklarasjon ved innreise til landet. Utenlandske piloter i kommersielt øyemed: DGAC kan godkjenne en utenlandsk RPAS-lisens (lisens og legeattest må være gyldige) i maksimalt 3 måneder, som i begrunnede tilfeller kan fornyes bare én gang for 3 måneder. Godkjenningen erstatter ikke de øvrige kravene for kommersiell bruk.",
+      "🌳 NASJONALPARKER OG SINAC: droner er ikke tillatt i Manuel Antonio nasjonalpark (SINAC). Andre verneområder kan forby eller begrense dem — sjekk med hvert område FØR reisen.",
+      "🏖️ RESTRIKSJONSSONER: uten tillatelse fra DGAC er det forbudt å fly i forbuds- eller restriksjonssoner publisert i AIP og innenfor 8 km fra flyplasser som SJO og LIR. Sjekk også eventuelle kommunale restriksjoner.",
+      "💰 KOMMERSIELL BRUK OG STRAFF: Kommersielle flyginger uten RPAS-lisens eller attest fra det tekniske rådet kan føre til bøter, beslaglegging av utstyr og forbud mot drift. For betalt foto-/videoarbeid: skaff lisensen før du begynner aktiviteten."
     ],
     "primaryLinks": [
       {
         "title": "DGAC — Droneregister (dedikert portal)",
-        "description": "Offisielt nettsted for det generelle direktoratet for sivil luftfart for registrering av droner og innhenting av et registreringsnummer. Plattform spesielt for RPAS"
+        "description": "Offisiell portal fra Generaldirektoratet for sivil luftfart for registrering av droner og innhenting av et registreringsnummer. Plattform spesielt for RPAS"
       },
       {
         "title": "DGAC — Hjemmeside",
@@ -57,7 +58,7 @@
         "description": "Costa Ricas offisielle turistnettsted. Nyttig for å forstå turistområder med spesielle restriksjoner på droner"
       }
     ],
-    "disclaimerText": "Sjekk alltid DGACs offisielle kilder før du flyr. Denne appen er et verktøy, ikke en rettskilde. Costa Rica håndhever RAC OPS RPAS og DGACs Operational Directive. Alle droner må ha en identifikasjonsplate; kommersiell bruk krever en attest fra det tekniske rådet for sivil luftfart.",
+    "disclaimerText": "Sjekk alltid DGACs offisielle kilder før du flyr. Denne appen er et verktøy, ikke en rettskilde. Costa Rica håndhever RAC-RPAS (Decreto Ejecutivo N° 44615-MOPT, i kraft siden 27/09/2024). Alle droner må ha en identifikasjonsplate; kommersiell bruk krever en attest fra det tekniske rådet for sivil luftfart.",
     "sectionLabelRules": "VIKTIGE REGLER",
     "sectionLabelPrimary": "OFFISIELLE KILDER",
     "sectionLabelSecondary": "TILLEGGSRESSURSER",

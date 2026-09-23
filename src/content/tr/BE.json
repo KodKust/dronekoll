@@ -1,27 +1,29 @@
 {
   "meta": {
-    "sourceHash": "b98ef8dd7e9c6b0c530a3757ad835b367dd07af3c65b9dd744c1512f5f5992cd",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "27f497a74725016dcbdecc01ce23d9050fb7893544b864e9bca529e0be6b134f",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Yerden en fazla 120 m (EASA Open Kategorisi)",
-      "Dron 250 g veya daha ağırsa ya da kameralıysa UAS operatörü olarak kaydolun",
-      "A1/A3 çevrim içi eğitim zorunludur — asgari yaş 16",
-      "TÜM dron ağırlıkları için zorunlu sorumluluk sigortası (€1–2,5 milyon teminat)",
-      "Brüksel: çift izin gereklidir (federal + bölgesel onay)",
-      "Dronu her zaman doğrudan görüş hattınızda (VLOS) tutun",
+      "Açık kategoride azami yükseklik 120 m'dir ve yeryüzünün en yakın noktasına olan mesafe olarak ölçülür — yalnızca dümdüz aşağıya doğru değil; bu nedenle bir yamacın yakınında yanınızdaki zemin de hesaba katılabilir. Yüksek bir yapay engelin (105 m'den yüksek) 50 m yakınında, engelden sorumlu kuruluş engelin yüksekliğinin 15 m üzerine kadar uçmak için izin talep edebilir.",
+      "Dronunuz 250 g veya daha ağırsa (ya da bir çarpışmada 80 J'den fazla kinetik enerji aktarabilecekse) UAS operatörü olarak kaydolmanız gerekir — bu oyuncaklar için de geçerlidir. 250 g'ın altında, dronda kişisel veri toplayabilen bir sensör varsa, AB Oyuncak Güvenliği Direktifi kapsamında oyuncak sayılmadıkça kayıt yine de gereklidir. Yaşadığınız AB/EASA ülkesinde kaydolun (bunların dışında yaşıyorsanız: uçacağınız ilk AB/EASA ülkesinde); bu kayıt tüm AB/EASA ülkelerinde geçerlidir. Pilot eğitimi/sertifika gereklilikleri ayrıca belirlenir ve dronun sınıfına ve alt kategorisine bağlıdır.",
+      "Belçika'da A1/A3 alt kategorileri için asgari yaş 14'tür — ücretsiz çevrim içi eğitim ve sınav 5 yıl geçerlidir ve AB genelinde tanınır. A2 alt kategorisi için asgari yaş 16 olarak kalır. 14 yaş sınırının istisnaları: A1'de oyuncak olan (AB Oyuncak Güvenliği Direktifi) bir C0 dron için, 250 g'ın altındaki kendi yapımı bir dron için veya gerekli sertifikaya sahip, en az 16 yaşındaki bir pilotun doğrudan gözetimi altında asgari yaş yoktur.",
+      "Açık kategoride sorumluluk sigortası (üçüncü şahıslara verilen yaralanma ve maddi hasar) zorunludur; yalnızca özel amaçla kullanılan 900 g'ın altındaki dronlar hariç. 20 kg'dan itibaren (EC) No 785/2004 sayılı Tüzüğün gereklilikleri geçerlidir.",
+      "Yabancı pilotlar: başka bir AB üye devletinden alınmış kayıt ve A1/A3/A2 sertifikası Belçika'da geçerlidir; kayıt belgenizi yanınızda taşıyın ve operatör numaranızı dronun üzerinde gösterin. Belçika coğrafi bölgeleri ve Belçika sigorta gerekliliği (900 g altı özel kullanım hariç) sizin için de geçerlidir.",
+      "Brüksel: EBR-01 coğrafi bölgesinde büyükelçiliklerin ve federal ve uluslararası (AB dahil) kurumların üzerinde veya 50 m yakınında uçmak için ilgili kurumdan önceden izin almanız gerekir. Ayrıca Droneguide'da Brussels Airport CTR koşullarını ve kamusal bir yerden kalkış yapmak veya orada çekim yapmak istiyorsanız belediye kurallarını kontrol edin.",
+      "Açık kategoride dronu çıplak gözle doğrudan görüş hattınızda tutmalısınız (gözlük/kontakt lens sorun değildir; dürbün veya ekran sayılmaz) — ya da bir gözlemcinin yardımıyla uçmalısınız; hava sahasını birlikte izleyip çarpışmaları önleyebilmeniz için aranızda her zaman açık ve etkili iletişim olmalıdır. A1 alt kategorisindeki follow-me modu ayrı bir istisnadır ve pilottan 50 m'ye kadar izin verilir.",
+      "Sınıf etiketi olmayan dronlar (2024'ten önce piyasaya sürülmüş): 250 g'ın altındakiler A1'de, diğerleri yalnızca A3'te ve azami 25 kg (yerleşim, ticari, sanayi veya rekreasyon alanlarından en az 150 m). Sınıf etiketi olmayan ve 31-12-2023'ten sonra piyasaya sürülmüş dronlar: açık kategoride uçamaz.",
       "İnsan topluluklarının üzerinden uçmayın. Operasyona dahil olmayan kişilerle ilgili kurallar alt kategoriye, sınıf işaretine ve operasyon koşullarına bağlıdır; resmî matrisi kontrol edin.",
-      "Havalimanları ve helikopter pistlerine en az 3 km mesafe",
+      "Havalimanlarından AB genelinde tek tip bir mesafe yoktur; coğrafi bölgelerin şekli ve boyutu havalimanına göre değişir. Belçika'daki bir CTR'de coğrafi bölgeler geçerlidir (bkz. Droneguide): pistlerin çevresindeki VLL 0'da açık kategori yasaktır; VLL 1 ve VLL 2'de yerden azami 150 ft (yakl. 45 m) (VLL 1'de ayrıca 100 m içindeki en yüksek engelden daha yüksek olmamak kaydıyla). VLL 1: önceden izin gerekir; VLL 2: uçuşu en az 3 saat önceden bildirin. Başvuru skeyes DAA-planner üzerinden yapılır; telefonla ulaşılabilir olmak, geo-awareness ve Remote ID zorunludur (Remote ID, C0 ve bazı 250 g altı dronlar için zorunlu değildir).",
       "Gerekli yanıp sönen yeşil ışık kullanıldığında, yürürlükteki bir coğrafi bölge veya ulusal kural daha katı bir koşul getirmediği sürece EASA açık kategori temel kuralları kapsamında gece uçuşuna izin verilir.",
       "Bölgeye özgü irtifa sınırları ve kısıtlamalar için Droneguide'ı kontrol edin"
     ],
     "importantNotes": [
-      "TÜM dron ağırlıkları için zorunlu sigorta — €1–2,5 milyon teminat gereklidir",
-      "Brüksel hem federal kayıt HEM DE bölgesel izin gerektirir",
-      "Üç havalimanı (Brüksel, Charleroi, Liège) geniş kısıtlı bölgeler oluşturmaktadır",
+      "Sorumluluk sigortası zorunludur; 900 g'ın altındaki dronlarla özel kullanım hariç",
+      "Brüksel (EBR-01 coğrafi bölgesi): büyükelçiliklerin, federal hükümet kurumlarının ve uluslararası kurumların üzerinde veya 50 m yakınında yalnızca ilgili kurumdan önceden izin alınarak uçulabilir",
+      "Kontrollü havalimanlarında (Brüksel, Antwerp, Charleroi, Liège, Ostend) ve askeri hava meydanlarında katı koşullara sahip CTR coğrafi bölgeleri vardır; Kortrijk-Wevelgem'de bir RMZ/TMZ coğrafi bölgesi bulunur.",
       "İhlaller para cezalarına ve cezai kovuşturmaya yol açabilir",
       "Belirlenebilir kişileri gösteren görüntüler oluşturulurken GDPR geçerlidir"
     ],
@@ -45,15 +47,15 @@
     ],
     "secondaryLinks": [
       {
-        "title": "skeyes — Hava Trafik Kontrolü",
-        "description": "Belçika hava trafik kontrolörü ve hava sahası bilgisi"
+        "title": "skeyes — Dronlar ve coğrafi bölgeler",
+        "description": "Belçika hava trafik kontrolörünün dron sayfası: coğrafi bölgelerde uçuş koşulları ve DAA-planner"
       },
       {
         "title": "BCAA — Dron SSS",
         "description": "Belçika'da dron mevzuatı hakkında sıkça sorulan sorular"
       }
     ],
-    "disclaimerText": "Uçmadan önce her zaman resmî BCAA kaynaklarını ve Droneguide'ı kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Belçika, katı ulusal sigorta gerekliliklerini içeren EASA mevzuatını izler.",
+    "disclaimerText": "Uçmadan önce her zaman resmî BCAA kaynaklarını ve Droneguide'ı kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Belçika, ulusal kurallarla (zorunlu sigorta ve sabit coğrafi bölgeler dahil) desteklenen EASA mevzuatını izler.",
     "sectionLabelRules": "TEMEL KURALLAR (EASA OPEN KATEGORİSİ)",
     "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
     "sectionLabelSecondary": "EK KAYNAKLAR",

@@ -1,37 +1,41 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Högst 120 m över marken (EASA öppen kategori)",
-      "Registrering som UAS-operatör (kostnadsfritt) för drönare som väger 250 g eller mer eller är utrustade med kamera",
-      "A1/A3-onlineutbildning krävs – lägsta ålder 16 år",
-      "Flygningar i flygplatsers kontrollzon (CTR) och trafikzon (ATZ) är tillåtna endast efter samordning med flygtrafikledningen eller flygplatsoperatören",
-      "Flygning över motorvägar och större vägar är begränsad – undvik dem",
-      "Håll alltid drönaren inom synhåll (VLOS)",
+      "I den öppna kategorin är den högsta höjden 120 m, mätt som avståndet till närmaste punkt på jordytan – inte bara rakt nedåt, så nära en sluttning kan även marken bredvid dig räknas. Inom 50 m från ett högt konstgjort hinder (över 105 m) kan den som ansvarar för hindret begära tillstånd att flyga upp till 15 m över hindrets höjd.",
+      "Du måste registrera dig som drönaroperatör om din drönare väger 250 g eller mer (eller skulle kunna överföra mer än 80 J rörelseenergi vid en kollision) – detta gäller även leksaker. Under 250 g är registrering ändå obligatorisk om drönaren har en sensor som kan samla in personuppgifter, såvida den inte räknas som leksak enligt EU:s direktiv om leksakers säkerhet. Krav på utbildning/pilotlicens gäller separat och beror på drönarens klass och underkategori.",
+      "Lägsta ålder för att flyga på egen hand i den öppna kategorin är 16 år – onlineutbildningen och provet för A1/A3 gäller i 5 år och erkänns i hela EU. Ingen åldersgräns: en drönare i klass C0 som är en leksak, i underkategori A1, eller en privatbyggd drönare under 250 g; i övrigt får yngre piloter endast flyga under direkt uppsikt av en pilot som uppfyller kraven på ålder och utbildning.",
+      "Turister: operatörsregistrering och ett A1/A3-intyg från ett annat EU-/EASA-land gäller även i Tjeckien (du kan bara registrera dig i ett land). Utanför EU: registrera dig i det första EU-/EASA-land där du ska flyga (i Tjeckien hos ÚCL på dron.caa.gov.cz), och om din drönare kräver utbildning, genomför utbildningen enligt EU:s regler – intyg från länder utanför EU erkänns inte.",
+      "Ansvarsförsäkring är obligatorisk i Tjeckien i underkategori A2 och i A3 för drönare över 4 kg (inte i A1) – kontrollera att din försäkring täcker flygningar i Tjeckien.",
+      "I flygplatsers CTR och ATZ får du flyga utan samordning endast upp till den höjd som rutnätet anger (kontrollera i DroneMap). Högre endast efter samordning med ŘLP och med flygningen markerad i DroneMap; i den inre zonen av en CTR måste flygningen alltid markeras i DroneMap, och över rutnätets höjd krävs även samordning med flygplatsoperatören. Strängare villkor gäller vid militära flygplatser (MCTR). Vid okontrollerade flygplatser får du flyga över rutnätets höjd endast efter samordning med AFIS eller flygplatsoperatören. Markering i DroneMap gäller inte drönare som inte kräver registrering.",
+      "I tätbebyggda områden (zon LKR316) måste flygområdet markeras i förväg i DroneMap (dronemap.gov.cz). Markeringen (här liksom i CTR och skyddade naturområden) ska innehålla höjd, tid, drönarens typ och viktkategori samt operatörens registreringsnummer. Gäller inte drönare för vilka operatörsregistrering inte krävs.",
+      "Nationalparker, landskapsskyddsområden (CHKO) och mindre skyddade områden, t.ex. naturreservat (zon LKR318): flygning endast efter föregående anmälan till, eller tillstånd från, behörig naturvårdsmyndighet, och med flygområdet markerat i DroneMap. Gäller inte drönare för vilka operatörsregistrering inte krävs.",
+      "Vägar (zon LKR317): inom 50 m från mittlinjen på en motorväg eller väg av klass I som regel endast med medgivande från ŘSD; inom 15 m från mittlinjen på vägar av klass II och III som regel endast med medgivande från vägens ägare eller väghållare (motsvarande gäller lokala vägar utanför tätbebyggda områden). Flygområdet måste markeras i DroneMap – gäller inte drönare för vilka operatörsregistrering inte krävs.",
+      "I den öppna kategorin måste du hålla drönaren inom direkt synhåll med blotta ögat (glasögon/kontaktlinser går bra; kikare eller en skärm räknas inte) – eller ta hjälp av en observatör, där ni hela tiden kommunicerar tydligt och effektivt, så att ni tillsammans kan bevaka luftrummet och undvika kollisioner. Läget ”Follow-me” är ett separat undantag endast i underkategori A1, tillåtet inom 50 m från piloten.",
       "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
       "Nattflygning är tillåten enligt EASA:s grundkrav för den öppna kategorin när det föreskrivna gröna blinkljuset används, såvida inte gällande geografiska bestämmelser eller nationella regler ställer strängare krav.",
-      "Böter på upp till 5 000 000 CZK (≈ 185 000 €) för överträdelser",
-      "Pragborgen och regeringsbyggnader: strikta flygförbudsområden"
+      "Böter på upp till 3 000 000 CZK (≈ 120 000 €) för överträdelser",
+      "Pragborgen och regeringsbyggnader: absoluta flygförbudsområden"
     ],
     "importantNotes": [
-      "Flygningar inom flygplatsers CTR och ATZ kräver samordning med flygtrafikledningen eller flygplatsoperatören",
-      "Överflygning av motorvägar och större vägar är begränsad i Tjeckien – planera din rutt så att du undviker dem",
-      "Böter på upp till 5 000 000 CZK (≈ 185 000 €)",
+      "I flygplatsers CTR och ATZ: utan samordning endast upp till den höjd som rutnätet anger (kontrollera i DroneMap); högre endast efter samordning (i en CTR med ŘLP, vid okontrollerade flygplatser med AFIS eller flygplatsoperatören) och med flygningen markerad i DroneMap; i den inre zonen av en CTR krävs alltid markering",
+      "Vägar (zon LKR317): för motorvägar och vägar av klass I som regel inom 50 m från mittlinjen endast med medgivande från ŘSD; för vägar av klass II och III som regel inom 15 m från mittlinjen endast med medgivande från vägens ägare eller väghållare",
+      "Böter på upp till 3 000 000 CZK (≈ 120 000 €)",
       "Det råder stränga flygförbud i området kring Pragborgen",
       "GDPR gäller vid insamling av bilder där personer kan identifieras"
     ],
     "primaryLinks": [
       {
-        "title": "CAA – Regler för drönare",
-        "description": "Officiella regler och resurser från den civila luftfartsmyndigheten om drönare"
+        "title": "ÚCL – Drönarregler",
+        "description": "Officiella regler och resurser om drönare från luftfartsmyndigheten"
       },
       {
-        "title": "CAA – Operatörsregistrering",
+        "title": "ÚCL – Operatörsregistrering",
         "description": "Kostnadsfri registrering som UAS-operatör (giltig i alla EU-/EASA-länder)"
       },
       {
@@ -39,18 +43,18 @@
         "description": "Officiell interaktiv karta som visar drönarzoner och luftrumsrestriktioner"
       },
       {
-        "title": "CAA – Översikt över reglerna",
+        "title": "ÚCL – Översikt över reglerna",
         "description": "Översikt över reglerna för att flyga drönare i Tjeckien"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Flygtrafikledning – NOTAM och luftrum",
-        "description": "Tjeckisk flygtrafikledning och luftrumsinformation"
+        "title": "ŘLP – NOTAM och luftrum",
+        "description": "Tjeckisk flygtrafiktjänst och luftrumsinformation"
       },
       {
-        "title": "CAA – Vanliga frågor om drönare",
-        "description": "Vanliga frågor om reglerna för drönare i Tjeckien"
+        "title": "ÚCL – Vanliga frågor om drönare",
+        "description": "Vanliga frågor om drönarregler i Tjeckien"
       }
     ],
     "disclaimerText": "Kontrollera alltid de officiella källorna från den civila luftfartsmyndigheten (ÚCL) och Dronemap.gov.cz innan du flyger. Den här appen är ett verktyg – inte en juridisk auktoritet. Tjeckien följer EASA-reglerna med nationella tillägg.",
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
     "sectionLabelSecondary": "YTTERLIGARE RESURSER",
     "linksSheetTitle": "Luftrum och regler – Tjeckien",
-    "dronePilotCredentialName": "Drönarpilotlicens"
+    "dronePilotCredentialName": "A1/A3-utbildningsintyg"
   }
 }

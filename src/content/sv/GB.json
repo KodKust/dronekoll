@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "efa2a30f33ab3aa81ade21c803c0ce10",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,21 @@
     "keyRules": [
       "Högst 120 m (400 ft) över marken",
       "Flyer ID krävs från 100 g – klara CAA:s onlineprov (40 frågor, 75 % för godkänt)",
+      "Operator ID krävs om din drönare väger 250 g eller mer, eller 100 g eller mer med kamera – 12,34 £/år, ägaren måste vara minst 18 år; märk ID:t på varje drönare.",
       "Håll alltid drönaren inom direkt synhåll utan hjälpmedel och så nära att du kan se åt vilket håll den är vänd och hålla utkik efter andra luftfartyg. Det finns ingen fast lagstadgad maxdistans i meter – hur långt du kan flyga beror på sikten, ljusförhållandena och själva drönaren, inte på en bestämd radie.",
-      "Minst 50 m till personer som inte deltar (30 m / 5 m gäller endast brittiska klassmärkta drönare med A2-intyg)",
-      "Flygrestriktionszoner (FRZ) omger flygplatser, men deras exakta form och storlek varierar mellan flygplatser – någon universell ”5 km-cirkel” finns inte. Kontrollera alltid den specifika flygrestriktionszonen i CAA:s officiella drönarsäkerhetskarta innan du flyger nära en flygplats.",
+      "Drönare under 250 g, eller klass UK0/UK1/C0 (C1 till och med 31 dec 2027): du får flyga närmare och över utomstående personer, men aldrig över folksamlingar. Övriga drönare: håll minst 50 m från utomstående personer och flyg aldrig över dem; i standardunderkategorin Far from People (A3) måste du dessutom hålla 150 m från bostads-, rekreations-, affärs- och industriområden (inkl. parker, stränder och turistattraktioner). Med ett A2-intyg: UK2 (C2 till och med slutet av 2027) 30 m, eller 5 m i låghastighetsläge; andra drönare under 2 kg 50 m.",
+      "Flygrestriktionszoner (FRZ) omger flygplatser, men deras exakta form och storlek varierar mellan flygplatser – någon universell ”5 km-cirkel” finns inte. Kontrollera alltid den specifika flygrestriktionszonen på NATS officiella karta över UAS-restriktioner innan du flyger nära en flygplats.",
+      "Nattflygning: ett grönt blinkande ljus måste vara påslaget (montera ett om din drönare saknar det)",
       "Ansvarsförsäkring (enligt EG-förordning 785/2004) är obligatorisk för kommersiell flygning, alltså all icke-fritidsflygning, och för varje drönare på 20 kg eller mer — frivillig men rekommenderad för lättare fritidsbruk.",
       "Remote ID fasas in: från januari 2026 för brittiska klassmärkta drönare (UK1/UK2/UK3/UK5/UK6); fullt obligatoriskt från januari 2028",
       "Storbritannien ingår INTE i EASA – EU:s pilotcertifikat gäller inte i Storbritannien",
-      "London har tre permanenta restriktionsområden — R157 (Hyde Park och de kungliga residensen), R158 (City of London, Square Mile, en liten zon på cirka 0,5 NM runt finansdistriktet) och R159 (Canary Wharf och Isle of Dogs) — där alla drönare är förbjudna oavsett storlek, om inte en Non-Standard Flight-ansökan som lämnats in minst 28 dagar i förväg har godkänts av NATS. Parlamentet och Downing Street ligger i Westminster, utanför alla tre R-zonerna, och skyddas genom separata mekanismer."
+      "London har permanenta restriktionsområden där alla drönare är förbjudna oavsett storlek: R157 (Hyde Park – omfattar även Westminster, parlamentet, Downing Street och Buckingham Palace), R158 (City of London) och R159 (Isle of Dogs/Canary Wharf). För att flyga där krävs ett Enhanced Non-Standard Flight-tillstånd via NATS – ansök minst 21 dagar i förväg (för områden i London kan det ta längre tid). Windsor Castle (R156) och Windsor Great Park (R161) är också permanenta flygförbudsområden för drönare."
     ],
     "importantNotes": [
-      "Storbritanniens registreringsgräns är 100 g – strängare än EU:s 250 g",
       "Drönarcertifikat från EU/EASA erkänns INTE i Storbritannien sedan brexit",
+      "EU-drönare i C-klass (C0–C4) får flygas som motsvarande brittisk klass fram till den 31 december 2027 – brittiska regler för Flyer ID/Operator ID gäller fortfarande utifrån vikt och kamera.",
       "Lokala kommuner kan begränsa flygning på sin mark – kontrollera innan du flyger i parker",
-      "Fängelser har flygförbudszoner på ~1 km – att utsätta luftfartyg för fara kan ge upp till 5 års fängelse"
+      "Fängelser i England och Wales har flygförbudszoner för drönare (exakt form per fängelse – kontrollera kartan). Att utsätta ett luftfartyg för fara kan ge upp till 5 års fängelse."
     ],
     "primaryLinks": [
       {
@@ -36,15 +38,15 @@
       },
       {
         "title": "CAA – Registrera (Flyer ID och Operator ID)",
-        "description": "Skaffa ditt Flyer ID (obligatoriskt från 100 g) och Operator ID (obligatoriskt från 250 g)"
+        "description": "Skaffa ditt Flyer ID (obligatoriskt från 100 g) och Operator ID (obligatoriskt från 250 g, eller från 100 g om drönaren har kamera)"
       },
       {
         "title": "CAA – The Drone Code",
         "description": "Officiella regler: var du får flyga, höjdgränser och säkerhetskrav"
       },
       {
-        "title": "Drone Assist – Luftrumskarta",
-        "description": "Kostnadsfri app för flygplanering som visar flygförbudszoner och luftrumsrestriktioner"
+        "title": "Drone Assist – luftrumsapp från tredje part",
+        "description": "Inofficiell app (Altitude Angel) – bekräfta alltid restriktionerna på NATS officiella karta över UAS-restriktioner"
       }
     ],
     "secondaryLinks": [
@@ -57,8 +59,8 @@
         "description": "När drönarförsäkring krävs (obligatorisk för icke-privat bruk)"
       },
       {
-        "title": "CAA – Remote ID-policy",
-        "description": "Storbritanniens Remote ID-krav från januari 2026"
+        "title": "CAA – Remote ID (när du måste aktivera det)",
+        "description": "Brittiska krav på Remote ID från januari 2026"
       }
     ]
   }

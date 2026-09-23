@@ -1,41 +1,43 @@
 {
   "meta": {
-    "sourceHash": "965aaa2f6c885d898cf7ee6ff9907d07afe1d10c3a57077ecae02dbc001de716",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ab41c1c6a873ddfc4cf87129700fea1004f13537f36d6d678dee51194176fb4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalna wysokość lotu: 120 metrów (400 ft) nad poziomem gruntu",
-      "Twój bezzałogowy statek powietrzny musi zawsze pozostawać w zasięgu wzroku (VLOS)",
-      "Loty wyłącznie w ciągu dnia — na loty nocne wymagane jest osobne zezwolenie",
-      "Co najmniej 9 km od wszystkich lotnisk (w tym Istanbul IST i Sabiha Gökçen SAW)",
-      "Należy zachować odległość poziomą co najmniej 50 metrów od innych osób",
-      "Wszystkie bezzałogowe statki powietrzne o masie powyżej 500 g muszą zostać zarejestrowane na iha.shgm.gov.tr",
-      "Loty są zabronione nad obszarami zabytkowymi (Hagia Sophia, Topkapı, Sultanahmet) oraz wzdłuż korytarza Bosphorus",
-      "Loty nad strefami wojskowymi, budynkami rządowymi i zatłoczonymi wydarzeniami są bezwzględnie zabronione",
-      "Używanie bezzałogowych statków powietrznych o masie powyżej 500 g przez zagranicznych pilotów wymaga złożenia wniosku drogą dyplomatyczną",
-      "Lot FPV jest zabroniony bez osobnego zezwolenia"
+      "Maksymalna wysokość lotu wynosi 120 m (400 ft); podczas lotów P0/P1 BSP musi pozostawać w zasięgu wzroku (VLOS) i nie może oddalić się od pilota na więcej niż 3000 m. Loty powyżej 120 m są możliwe wyłącznie z licencją P2 i w koordynacji z właściwymi organami.",
+      "Zawsze musisz utrzymywać swój BSP w zasięgu wzroku, w bezpośrednim kontakcie wzrokowym bez pomocy urządzeń optycznych lub elektronicznych (SHT-İHA).",
+      "Loty amatorskie (P0) mogą odbywać się wyłącznie w dzień; operacje nocne są możliwe z licencją P1 lub P2 i odpowiednim wyposażeniem (SHT-İHA art. 15). W okresie przejściowym (do 31 lipca 2027 r.) na loty nocne uzyskaj zezwolenie SHGM.",
+      "Przed lotem w pobliżu lotnisk sprawdź mapę na iha.shgm.gov.tr (później İHATTYS); loty we wszystkich miejscach poza strefami zielonymi wymagają zezwolenia SHGM. Nowa SHT-İHA nie określa stałej odległości; jako bezpieczną odległość minimalną należy zachować 9 km (5 NM) z poprzedniej dyrektywy.",
+      "Loty nad tłumem są uznawane za operacje wysokiego ryzyka; są niedostępne dla pilotów P0 i P1 i mogą być wykonywane wyłącznie z licencją P2 (SHT-İHA art. 6). Nowa dyrektywa nie określa stałej odległości; jako bezpieczne minimum zaleca się zachowanie co najmniej 50 m od ludzi i budowli (wartość z poprzedniej dyrektywy).",
+      "Nowa SHT-İHA (2026): z wyjątkiem prostych BSP klasy zabawek wszyscy użytkownicy BSP, także poniżej 500 g, muszą zarejestrować się w İHATTYS; termin dla istniejących statków powietrznych upływa 31 lipca 2027 r. Do czasu uruchomienia İHATTYS BSP o masie 500 g i więcej rejestruje się na iha.shgm.gov.tr.",
+      "Zgodnie z nową SHT-İHA uprawnienia do lotów są powiązane z licencją pilota: amatorska P0 (minimalny wiek 10 lat), komercyjna P1 (18 lat), zaawansowana P2; dla prostych BSP licencja nie jest wymagana. W okresie przejściowym (do 31 lipca 2027 r.) dotychczasowe certyfikaty İHA0/İHA1 i licencje İHA2/İHA3 zachowują ważność i są przekształcane w P0/P1/P2 w drodze adaptacji.",
+      "Zdalna identyfikacja (Remote ID) i geofencing są obowiązkowe dla BSP innych niż proste BSP; odpowiadasz za wgranie do swojego BSP aktualnych danych o strefach ograniczonych (SHT-İHA art. 12, 23; okres przejściowy dla istniejących BSP do 31 lipca 2027 r.).",
+      "Przed lotem na Półwyspie Historycznym w Stambule (Hagia Sophia, Topkapı, Sultanahmet) i w rejonie Bosforu sprawdź mapę na iha.shgm.gov.tr; loty we wszystkich miejscach poza strefami zielonymi wymagają zezwolenia SHGM, a w strefach czerwonych zezwolenie jest udzielane wyłącznie za zgodą instytucji, która zamknęła dany obszar.",
+      "Loty nad strefami wojskowymi i budynkami rządowymi są bezwzględnie zabronione; loty nad gęsto zaludnionymi obszarami wymagają uprzedniego zezwolenia SHGM.",
+      "Zagraniczni piloci używający BSP o masie 500 gramów lub więcej muszą złożyć wniosek drogą dyplomatyczną co najmniej 20 dni roboczych wcześniej, na formularzu FR.23 „İHA Uçuş İzin Talep Formu” (formularz wniosku o zezwolenie na lot BSP).",
+      "Podczas lotów FPV musi być obecny obserwator, który stale utrzymuje BSP w kontakcie wzrokowym, a między pilotem a obserwatorem musi być zapewniona ciągła komunikacja; sprzęt FPV musi działać na częstotliwościach zatwierdzonych przez BTK (FAQ SHGM). Nowa SHT-İHA definiuje zasięg wzroku (VLOS) jako bezpośredni kontakt wzrokowy bez pomocy urządzeń optycznych/elektronicznych — przed lotem FPV skonsultuj się z SHGM."
     ],
     "importantNotes": [
-      "⚠️ ZAGRANICZNI PILOCI: Aby operować dronem o masie powyżej 500 gramów w Turcji, musisz co najmniej 20 dni roboczych przed lotem złożyć drogą dyplomatyczną wniosek do General Directorate of Civil Aviation (SHGM), wykupić ubezpieczenie i latać pod nadzorem obywatela Turcji posiadającego licencję İHA-2. Drony o masie poniżej 500 g (takie jak DJI Mini, Flip itp.) są zwolnione z tych wymagań.",
-      "🗺️ SYSTEM STREF: Turcja jest podzielona na strefy zielone (otwarte), żółte (wymagające zezwolenia) i czerwone (zabronione). Przed lotem koniecznie sprawdź status strefy na iha.shgm.gov.tr.",
-      "🏛️ MIEJSCA ZABYTKOWE I TURYSTYCZNE: Loty są zabronione nad Historic Peninsula of Istanbul (Sultanahmet, Hagia Sophia, Topkapı, Grand Bazaar), niektórymi dolinami w Cappadocia, Pamukkale, Ephesus oraz innymi stanowiskami archeologicznymi bez specjalnego zezwolenia Ministry of Culture and Tourism.",
-      "🛂 IMPORT I CŁO: Wjeżdżając do Turcji z dronami o masie powyżej 500 g, możesz zostać zobowiązany do zgłoszenia ich w urzędzie celnym. Import w celach komercyjnych wymaga osobnej procedury; Bosphorus, porty wojskowe i regiony przygraniczne podlegają dodatkowym ograniczeniom."
+      "🛂 PILOCI ZAGRANICZNI — NOWA SHT-İHA (30 lipca 2026 r.): BSP przywiezione z zagranicy muszą mieć moduł oprogramowania zgodności SHGM; bez tego modułu statku powietrznego nie można w Turcji zarejestrować ani nim latać. BSP zarejestrowane za granicą muszą być kompatybilne z İHATTYS; zagraniczne licencje ocenia SHGM, a P1/P2 wydawane są po szkoleniu uzupełniającym różnice. Dla BSP nabytych przed 30 lipca 2026 r. okres dostosowania trwa do 31 lipca 2027 r. Do czasu uruchomienia İHATTYS wnioski dotyczące BSP o masie 500 g i więcej składa się do SHGM na formularzu FR.23, drogą dyplomatyczną, co najmniej 20 dni roboczych wcześniej.",
+      "🗺️ SYSTEM STREF: Zgodnie z nową SHT-İHA (30 lipca 2026 r.) strefy będą publikowane na mapie İHATTYS jako zielone (bez zezwolenia), czerwone (zamknięte przez właściwą instytucję; wyłącznie za zgodą tej instytucji, z zezwoleniem SHGM i NOTAM) oraz pomarańczowe (przydzielone innym). Do czasu uruchomienia İHATTYS używana jest mapa iha.shgm.gov.tr (zielona/żółta/czerwona). W obu systemach loty we wszystkich miejscach poza strefami zielonymi wymagają zezwolenia SHGM. Przed lotem zawsze sprawdzaj mapę.",
+      "🏛️ MIEJSCA HISTORYCZNE I TURYSTYCZNE: Nagrywanie wideo/filmów/zdjęć w muzeach i na terenach do nich przynależących wymaga zezwolenia Ministerstwa Kultury i Turystyki; w sprawie ograniczeń lotów BSP sprawdź także mapę na iha.shgm.gov.tr.",
+      "🛂 BSP PRZYWIEZIONE Z ZAGRANICY: BSP o masie 500 g i więcej muszą zostać zarejestrowane na iha.shgm.gov.tr najpóźniej w ciągu 3 dni od wwiezienia do Turcji (Law No. 2920, art. 144). Aby zarejestrować BSP do użytku sportowego/amatorskiego, cudzoziemcy potrzebują tureckiego numeru identyfikacyjnego lub zezwolenia na pobyt. Przy wjeździe może być wymagane zgłoszenie celne; import w celach komercyjnych wymaga odrębnej procedury. Porty wojskowe i regiony przygraniczne podlegają dodatkowym ograniczeniom."
     ],
     "primaryLinks": [
       {
-        "title": "SHGM — Bezzałogowy statek powietrzny (strona oficjalna)",
-        "description": "Oficjalna strona Generalnej Dyrekcji Lotnictwa Cywilnego poświęcona dronom: dyrektywa SHT-UAV, klasy masy (UAV-0/1/2/3) oraz zasady operacyjne"
+        "title": "SHGM — İHA Takip / İHATTYS (oficjalny portal)",
+        "description": "Oficjalny portal BSP Generalnej Dyrekcji Lotnictwa Cywilnego (İHATTYS). Dopóki SHGM nie ogłosi uruchomienia systemu, procedury rejestracji i zezwoleń na loty realizuje się dotychczasowymi metodami (iha.shgm.gov.tr i formularze SHGM)."
       },
       {
-        "title": "System rejestracji dronów (wymagany dla dronów o masie od 500 g)",
-        "description": "Obowiązkowy portal rejestracji wszystkich dronów o masie powyżej 500 gramów. Wymaga tureckiego numeru identyfikacyjnego; dla cudzoziemców obowiązuje formularz FR-03"
+        "title": "System rejestracji BSP (obowiązkowy powyżej 500 g)",
+        "description": "Obowiązkowy portal rejestracyjny dla wszystkich dronów o masie powyżej 500 gramów. Wymaga tureckiego numeru identyfikacyjnego; cudzoziemców dotyczy formularz FR-03"
       },
       {
-        "title": "Wniosek o rejestrację pilota drona (e-Państwo)",
-        "description": "Oficjalna usługa poprzez e-Państwo do składania wniosków o rejestrację pilota dla UAV-1 i wyższych. Do operacji komercyjnych wymagana jest licencja pilota."
+        "title": "Wniosek o rejestrację pilota BSP (e-Devlet)",
+        "description": "Oficjalna usługa przez e-Devlet (e-administracja) do składania wniosków o rejestrację pilota dla İHA-1 i wyższych. Do operacji komercyjnych wymagana jest licencja pilota."
       },
       {
         "title": "Wniosek o zezwolenie na lot (strefy żółte/czerwone)",
@@ -44,23 +46,27 @@
     ],
     "secondaryLinks": [
       {
-        "title": "Śledzenie dronów — Oficjalna aplikacja mobilna (Android)",
-        "description": "Oficjalna aplikacja SHGM do śledzenia dronów: strefy przestrzeni powietrznej, zezwolenia na loty oraz zarządzanie licencją pilota"
+        "title": "İHA Takip — Oficjalna aplikacja mobilna (Android)",
+        "description": "Oficjalna aplikacja SHGM İHA Takip / İHATTYS. Dopóki SHGM nie ogłosi uruchomienia İHATTYS, procedury rejestracji i zezwoleń na loty realizuje się dotychczasowymi metodami (iha.shgm.gov.tr i formularze SHGM)."
+      },
+      {
+        "title": "İHATTYS — Oficjalna aplikacja mobilna (iOS)",
+        "description": "Wersja iOS oficjalnej aplikacji SHGM İHATTYS; transakcje dokonane w aplikacji są nieważne, dopóki SHGM nie wyda stosownego komunikatu"
       },
       {
         "title": "SHGM — Strona główna instytucji",
         "description": "Strona główna Generalnej Dyrekcji Lotnictwa Cywilnego: wszystkie przepisy lotnicze, komunikaty i dane kontaktowe"
       },
       {
-        "title": "Dyrektywa SHT-UAV (tekst przepisu)",
-        "description": "Dyrektywa lotnictwa cywilnego — Bezzałogowy statek powietrzny (SHT-UAV): oficjalna dyrektywa stanowiąca podstawę prawną wszystkich operacji"
+        "title": "Dyrektywa SHT-İHA 2026 (tekst przepisów, PDF)",
+        "description": "Unmanned Aircraft Systems Directive (SHT-İHA), obowiązująca od 30 lipca 2026 r.: oficjalny tekst dyrektywy stanowiący podstawę prawną wszystkich operacji BSP"
       }
     ],
-    "disclaimerText": "Przed lotem koniecznie sprawdź oficjalne źródła SHGM. Ta aplikacja jest narzędziem, a nie organem prawnym. Operacje bezzałogowych statków powietrznych w Turcji reguluje SHT-UAV Directive; wszystkie urządzenia o masie 500 g lub większej muszą zostać zarejestrowane w systemie rejestracyjnym SHGM (iha.shgm.gov.tr).",
+    "disclaimerText": "Przed lotem koniecznie sprawdź oficjalne źródła SHGM. Ta aplikacja jest narzędziem, a nie organem prawnym. W Turcji operacje bezzałogowych statków powietrznych (BSP) reguluje nowa SHT-İHA (Unmanned Aircraft Systems Directive), obowiązująca od 30 lipca 2026 r.; okres przejściowy trwa do 31 lipca 2027 r. Wszystkie urządzenia o masie powyżej 500 g muszą zostać zarejestrowane w systemie rejestracyjnym SHGM (iha.shgm.gov.tr).",
     "sectionLabelRules": "PODSTAWOWE ZASADY",
     "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
     "sectionLabelSecondary": "DODATKOWE MATERIAŁY",
     "linksSheetTitle": "Przestrzeń powietrzna i przepisy — Turcja",
-    "dronePilotCredentialName": "Licencja pilota bezzałogowego statku powietrznego"
+    "dronePilotCredentialName": "Licencja pilota bezzałogowego statku powietrznego (P0/P1/P2)"
   }
 }

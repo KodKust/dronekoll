@@ -1,42 +1,44 @@
 {
   "meta": {
-    "sourceHash": "7ac6f58efeb57847db5c573b36f52f9091268fb859f217572eb22f0601db3ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "87a436fc2428e63cbeabda8e978948a403f544d76e6100f96d885f4d05ce52ec",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "De maximale hoogte hangt af van het gewicht: ≤250 g → 30 m; 250 g–25 kg → 60 m; 25–150 kg → 120 m",
-      "Drones die meer dan 250 g wegen, ongeacht het gebruik, vereisen AAC-registratie — kosten: US$5; registratie ter plaatse in Albrook",
-      "Recreatieve drones die ≤250 g wegen: registratie is NIET vereist, maar alle andere regels blijven gelden",
-      "Minimale afstand van 8 km tot luchthavens en vliegvelden",
-      "Een minimale afstand van 30 m horizontaal en 10 m verticaal tot personen",
-      "Houd de drone altijd binnen direct zicht (VLOS)",
-      "Nachtvluchten zijn VERBODEN zonder een specifieke AAC-ontheffing",
-      "Een burgerlijke aansprakelijkheidsverzekering is VERPLICHT voor alle transacties",
-      "Verplicht Informed Consent Form voor privéterrein, inheemse reservaten, beschermde gebieden en het stroomgebied van het Panama Canal",
-      "Commercieel gebruik vereist een RPA-pilotenlicentie naast de droneregistratie"
+      "De maximale hoogte hangt af van de RPA-klasse: Micro (≤250 g) → 100 ft (~30 m); Light (251 g–25 kg) → 400 ft (~120 m); Medium (26–150 kg) → 400 ft, maar beperkt tot 100 m zonder Mode S-transponder (AAC-norm §9.2, §10.1.1, §11.1.5, §11.1.10).",
+      "Elke RPA, ook in de klasse Micro (≤250 g), moet bij de AAC worden geregistreerd (§8.1, §9.1, §15.2 van de norm) — anders dan de meeste landen stelt Panama de lichtste drones niet vrij van registratie. Registratie gebeurt persoonlijk in Albrook; controleer het actuele tarief.",
+      "Panama stelt lichte recreatieve drones (≤250 g) NIET vrij van registratie — anders dan in de meeste landen vereist de AAC-norm (§8.1, §9.1) registratie voor alle RPA-klassen, ook Micro.",
+      "Voor elke RPA-operatie in Panama is een exploitatievergunning van de AAC vereist (§8.2, §8.20): dien Formulier 005 (Solicitud de Permiso de Actividades Aéreas Especiales) ten minste 5 werkdagen van tevoren in.",
+      "Minimale afstand van 8 km (5 zeemijl) tot luchthavens en vliegvelden, het presidentschap van de Republiek en gevangenissen (§8.10–8.11 van de AAC-norm). De norm verbiedt ook vliegen op plaatsen die de staatsveiligheid in gevaar brengen, zoals ambassades, overheidsinstellingen en banken (§8.11), en de AAC handhaaft beperkingen boven politiebureaus, ziekenhuizen en het ministerie van Veiligheid (AAC-verklaring van 26/9/2025).",
+      "Houd tijdens het opstijgen en landen ten minste 30 m horizontaal en 10 m verticaal afstand van personen die niet bij de operatie betrokken zijn (§13.1 van de AAC-norm).",
+      "Je moet de drone te allen tijde binnen je directe zicht houden (RACP).",
+      "Nachtvluchten zijn VERBODEN zonder een specifieke AAC-ontheffing.",
+      "Een aansprakelijkheidsverzekering tegenover derden is VERPLICHT voor elke RPA-eigenaar (§8.4 van de AAC-norm), ongeacht het gebruik. Voor vliegen boven mensen zijn ook toestemming van de AAC en instemming van de betrokkenen vereist (§8.16).",
+      "Verboden, beperkte of gevaarlijke gebieden (zie de AIP van de AAC) vereisen specifieke toestemming van de AAC en van de autoriteit die het gebied beheert — beide zijn vereist (§13.1 d van de AAC-norm). Raadpleeg in de kanaalzone, beschermde gebieden en inheemse gebieden de verantwoordelijke autoriteit voordat je de vliegvergunning aanvraagt.",
+      "Iedereen die een RPA bedient — ook recreatief en in de klasse Micro (≤250 g) — moet een AAC-licentie als piloot op afstand en een medisch certificaat van klasse 3 hebben (§8.3, §9.1, §10.1 van de AAC-norm). Voor commercieel gebruik is daarnaast een vergunning voor commerciële operaties vereist (§13.3)."
     ],
     "importantNotes": [
-      "📏 HOOGTES VARIËREN PER GEWICHT (uniek in Latijns-Amerika): De RACP van Panama kent drie maximale hoogten op basis van het dronegewicht: drones ≤250 g zijn beperkt tot SLECHTS 30 m, drones met een gewicht van 250 g–25 kg zijn beperkt tot 60 m, en alleen drones die ≥25 kg wegen mogen de standaardhoogte van 120 m bereiken. Controleer het gewicht van je drone voordat je de vlieghoogte plant.",
-      "✈️ TOERISTEN — 14-DAGENREGEL: Als je verblijf in Panama ≤14 kalenderdagen duurt, kun je een speciale AAC-toestemming aanvragen zonder de drone permanent te registreren. Verblijf >14 dagen: AAC-registratie is verplicht voor drones >250 g. Recreatieve drones ≤250 g zijn in beide gevallen vrijgesteld.",
-      "🚢 PANAMA CANAL — SPECIALE BEPERKING: Voor het stroomgebied van het Panama Canal (waaronder de sluizen, Gatún Lake en aangrenzende gebieden) is vóór elke vlucht een verplichte Letter of Informed Consent van de Canal Authority vereist. De AAC verleent GEEN toestemming voor operaties boven dit gebied zonder deze brief. Dit geldt ook voor privéterrein, inheemse reservaten en beschermde gebieden.",
-      "🌳 BESCHERMDE GEBIEDEN EN MIAMBIENTE: Voor nationale parken zoals Soberanía, Volcán Barú, Coiba (een UNESCO World Heritage Site) en Darién is een specifieke vergunning van het Ministry of the Environment (MiAmbiente) vereist. Voor Bocas del Toro en Guna Yala gelden eveneens beperkingen — stem vóór de operatie af met de lokale gemeenschap.",
-      "🏢 REGISTRATIE TER PLAATSE VEREIST: In tegenstelling tot de meeste landen moet de AAC-registratie PERSOONLIJK worden uitgevoerd bij het kantoor in Albrook (Building 805). Neem mee: identiteitsbewijs, de drone zelf, het ingevulde formulier en US$5. Controleer vóór je reis de beschikbaarheid van afspraken en de verwerkingstijden."
+      "Anders dan veel landen hanteert Panama een maximale hoogte per RPA-klasse: 100 ft (~30 m) voor Micro (≤250 g), 400 ft (~120 m) voor Light (251 g–25 kg) en 400 ft voor Medium (26–150 kg) — maar die laatste is beperkt tot 100 m zonder Mode S-transponder. Controleer de klasse van je drone voordat je je vlieghoogte plant.",
+      "Toeristen: de speciale vergunning voor buitenlandse RPA's of operators (Formulier 004) geldt maximaal 15 dagen en wordt NIET verleend voor recreatieve activiteiten (§8.22 van de AAC-norm). Voor recreatief vliegen moet je de RPA bij de AAC registreren (alle klassen, ook Micro ≤250 g, §8.1) en een RPA-pilotenlicentie van de AAC hebben (§8.3); een buitenlandse licentie wordt alleen gevalideerd als er een bilaterale overeenkomst bestaat (§18.17). Informeer bij de AAC voordat je op reis gaat.",
+      "PANAMAKANAAL — BEPERKT GEBIED: volgens de AIP van de AAC (ENR 5) zijn operaties boven de sluizen van Gatún, Pedro Miguel en Miraflores, de dammen van Gatún en Madden en boven elk schip dat het kanaal doorvaart beperkt. Toestemming van de AAC en van de autoriteit die het gebied beheert is vereist (§13.1 d van de AAC-norm).",
+      "Casco Antiguo, Cinta Costera, Av. Balboa en Calle 50 en omgeving: naast toestemming van de AAC moet je de Servicio de Protección Institucional (SPI) per brief op de hoogte stellen.",
+      "🌳 BESCHERMDE GEBIEDEN (MiAmbiente): in beschermde gebieden van het SINAP mogen alleen bezoekers met een geldige licentie/registratie drones gebruiken, volgens de geldende procedures en tarieven (Resolución DM-0173-2026, art. 12). Informeer bij de beheerder van het gebied voordat je vliegt.",
+      "Anders dan in de meeste landen moet de registratie bij de AAC persoonlijk in Albrook gebeuren — controleer de actuele procedure en vereisten vóór je aanvraag."
     ],
     "primaryLinks": [
       {
         "title": "AAC — Burgerluchtvaartautoriteit van Panama",
-        "description": "Officiële website van de Burgerluchtvaartautoriteit van Panama. Informatie over droneregistratie, RACP-regelgeving en procedures voor binnenlandse en buitenlandse exploitanten"
+        "description": "Officiële website van de Burgerluchtvaartautoriteit van Panama. Informatie over droneregistratie, de RPAS-norm en procedures voor binnenlandse en buitenlandse exploitanten"
       },
       {
-        "title": "RACP — Burgerluchtvaartregelgeving van Panama",
-        "description": "Toegang tot de volledige burgerluchtvaartregelgeving van Panama. Sectie over regelgeving die van toepassing is op onbemande luchtvaartuigen (RPA)"
+        "title": "Norma AAC/DG/DSA/001-2021 — Op afstand bestuurde luchtvaartuigen (RPAS)",
+        "description": "Tekst van de AAC-norm met de vereisten voor het gebruik van op afstand bestuurde luchtvaartuigsystemen (RPAS) in Panama (PDF)"
       },
       {
         "title": "AAC-kantoor Albrook (registratie ter plaatse vereist)",
-        "description": "Gebouw 805, Albrook, eerste verdieping — Directoraat Vliegveiligheid. Droneregistratie MOET persoonlijk gebeuren: neem identiteitsbewijs, de drone zelf en het ingevulde formulier mee. Kosten: US$5"
+        "description": "Gebouw 805, Albrook, begane grond — afdeling Documentatie. Dien een verzoekbrief in (of stuur die naar correspondencia.aac@aeronautica.gob.pa); de AAC plant een afspraak in. Neem het registratieformulier, een kopie van je RPA-licentie, identiteitskaart, specificaties, factuur, verzekeringspolis en betalingsbewijs mee. Kosten: US$20"
       },
       {
         "title": "AAC — Persberichten en actuele regelgeving",
@@ -46,7 +48,7 @@
     "secondaryLinks": [
       {
         "title": "STRI/Smithsonian — AAC-onderzoeksgids",
-        "description": "Gedetailleerde gids van het Smithsonian Tropical Research Institute over de AAC-toestemmingsprocedure, waaronder het formulier voor geïnformeerde toestemming voor beperkte gebieden"
+        "description": "Gedetailleerde gids van het Smithsonian Tropical Research Institute over de AAC-toestemmingsprocedure, waaronder de brief van geïnformeerde toestemming voor beperkte gebieden"
       },
       {
         "title": "MiAmbiente — Beschermde gebieden (nationale parken)",
@@ -54,10 +56,10 @@
       },
       {
         "title": "Panamakanaal — Officiële informatie",
-        "description": "Autoriteit van het Panamakanaal. Het stroomgebied van het kanaal vereist een verplichte brief van geïnformeerde toestemming — zonder deze verleent de AAC geen toestemming"
+        "description": "Autoriteit van het Panamakanaal. De sluizen, dammen en schepen die het kanaal doorvaren zijn beperkte gebieden (AIP ENR 5): toestemming van de AAC en van de autoriteit die het gebied beheert is vereist"
       }
     ],
-    "disclaimerText": "Raadpleeg altijd de officiële bronnen van de AAC voordat je vliegt. Deze app is een hulpmiddel, geen juridische autoriteit. Panama past de Civil Aviation Regulations (RACP) toe, met gewichtsafhankelijke maximale hoogten en speciale beperkingen boven het stroomgebied van het Panama Canal.",
+    "disclaimerText": "Raadpleeg altijd de officiële bronnen van de AAC voordat je vliegt. Deze app is een hulpmiddel, geen juridische autoriteit. Panama past de Norma AAC/DG/DSA/001-2021 toe, met GEWICHTSAFHANKELIJKE maximale hoogten en beperkte gebieden in de zone van het Panamakanaal (AIP ENR 5).",
     "sectionLabelRules": "BELANGRIJKSTE REGELS",
     "sectionLabelPrimary": "OFFICIËLE BRONNEN",
     "sectionLabelSecondary": "AANVULLENDE HULPBRONNEN",

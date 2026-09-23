@@ -1,39 +1,42 @@
 {
   "meta": {
-    "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c7bb0eb5efb529d016ee7e14e38488c5a01fec2c25b6f85e5c65f17487613d71",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximális repülési magasság: 152 m (500 ft) a talajszint felett (AGL)",
-      "Legalább 4 km távolság a repülőterektől és leszállópályáktól",
-      "Legalább 30 m vízszintes és 20 m függőleges távolság az emberektől, épületektől vagy tárgyaktól",
-      "Kereskedelmi használat (bármilyen tömeg): MTC-regisztráció szükséges + külön engedély",
-      "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS)",
-      "A repülés csak nappal engedélyezett — az éjszakai repülésekhez a DGAC külön engedélye szükséges",
-      "Városi területek: előzetes MTC-jóváhagyás szükséges; vidéki területek: nincs külön korlátozás",
-      "Engedély nélkül tilos repülni repülőtereken, leszállópályákon, stratégiai létesítményeknél és sűrűn lakott területeken",
-      "Jogi megkülönböztetés: szabadidős használat (kikapcsolódás) kontra professzionális/kereskedelmi használat (szakmai tevékenységek)"
+      "Maximális repülési magasság: 152 m (500 ft) a talajszint felett (AGL) (NTC 001-2015, art. 8(e)(10)).",
+      "Legalább 4 km távolság a repülőterektől és leszállópályáktól (NTC 001-2015, art. 8(e)(19)).",
+      "A repülés minden szakaszában tarts legalább 30 m vízszintes és 20 m függőleges távolságot az emberektől, épületektől vagy akadályoktól (NTC 001-2015, art. 8(e)(9)).",
+      "Ne repülj autópályák, utak, ösvények, hidak, elektromos vagy távközlési infrastruktúra (oszlopok, tornyok, kábelek, antennák), hajózható vízi utak vagy szénhidrogén-vezetékek felett; a közelükben maradj a szélüktől vízszintesen több mint 30 m-re (NTC 001-2015, art. 8(e)(20)).",
+      "Szabadidős használat: a 2 kg alatti drónokra nem vonatkozik a 30740. sz. törvény és végrehajtási rendelete, de az NTC 001-2015 üzemeltetési korlátai (magasság, távolságok, zónák) minden polgári használatra érvényesek. 2 kg-tól, valamint minden nem szabadidős használat esetén a drónt regisztrálni kell a DGAC-nál; a regisztráció elmulasztása bírsággal büntetendő (30740. sz. törvény, 3. és 4. cikk); az eljárás automatikus az MTC Virtuális Beadványi Pultján (Mesa de Partes Virtual) keresztül.",
+      "Nem szabadidős használat (bármilyen tömeg): drónregisztráció, RPAS-pilóta-akkreditáció (betöltött 18. életév, RPAS-tanfolyam egy CIAC-nál vagy repülőklubnál, valamint DGAC-vizsga), legalább 10 UIT összegű polgári jogi felelősségbiztosítás és DGAC-engedély (NTC 001-2015, para. 8(c)-(d)). A regisztráció 2025 januárja óta automatikus.",
+      "A drónnak mindvégig a pilóta közvetlen látótávolságán belül kell maradnia.",
+      "Repülni csak nappal szabad: az NTC tiltja az éjszakai körülmények közötti (napnyugta után vagy napkelte előtt) üzemeltetést (NTC 001-2015, art. 8(e)(13)).",
+      "Városi és lakott területek: repülni nem megengedett. A DGAC csak kivételesen engedélyezi közintézmények, azok szerződéses partnerei, közérdekűnek nyilvánított szolgáltatások, a tűzoltóság és az INDECI számára, legfeljebb 6 kg-os, ejtőernyővel felszerelt drónokkal. Városi területnek minősül minden megyei, tartományi vagy járási székhely, valamint minden 1000 főnél több lakosú település. Vidéki területek: a szabvány általános korlátozásai vonatkoznak rájuk (NTC 001-2015, art. 8(e)(2) és (f)).",
+      "Korlátozott területek: repülőterek, leszállópályák, stratégiai létesítmények és sűrűn lakott területek, kivéve engedély birtokában.",
+      "Jogi megkülönböztetés: szabadidős használat (kikapcsolódás) kontra professzionális/kereskedelmi használat (szakmai tevékenységek), mindkettőre eltérő követelményekkel."
     ],
     "importantNotes": [
       "🏛️ MACHU PICCHU ÉS RÉGÉSZETI HELYSZÍNEK: A Kulturális Minisztérium külön engedély nélkül tiltja a drónok használatát Machu Picchunál, a Nazca-vonalaknál, Chan Channál, Caralnál, Kuélapnál és más régészeti helyszíneken. Az MTC engedélyén FELÜL a Kulturális Minisztérium engedélye is szükséges.",
       "🌳 VÉDETT TERMÉSZETI TERÜLETEK ÉS AZ AMAZONAS: A SERNANP (Védett Természeti Területek Nemzeti Szolgálata) külön engedélyt ír elő a drónokhoz az olyan parkokban, mint a Manu, a Tambopata és a Huascarán. Az Amazonas és az őslakos közösségek további korlátozások alá esnek.",
-      "🏙️ VÁROSI TERÜLETEK LIMÁBAN ÉS CUSCÓBAN: Lima belvárosa (Plaza Mayor, Kormányzati Palota), a Jorge Chávez repülőtér (LIM), Cusco belvárosa és a repülőtér (CUZ), katonai zónák és nagykövetségek állandó korlátozás alatt állnak. Cusco történelmi központja a Kulturális Minisztérium engedélyét igényli."
+      "🏙️ VÁROSI TERÜLETEK LIMÁBAN ÉS CUSCÓBAN: Lima és Cusco városi terület, ahol kivételes engedély nélkül nem szabad repülni (NTC 001-2015, art. 8(e)(2) és (f)). A Kormánypalota, a katonai területek, a Jorge Chávez (LIM) és a Cusco (CUZ) repülőtér, valamint az AIP-Perúban vagy NOTAM-ban közzétett területek szintén korlátozott területek (art. 8(e)(19) és (22)). Cusco történelmi központjához ezenfelül a Kulturális Minisztérium kedvező véleménye is szükséges (30740. sz. törvény, 2.5. cikk).",
+      "⚠️ SZANKCIÓK: Az Országos Rendőrség közbeléphet és lefoglalhatja a drónt, ha azt a szabályok megsértésével repültetik; a DGAC szankciókat, köztük bírságot szab ki (D.S. 012-2026-MTC, 7. és 73. cikk; 30740. sz. törvény, 4. cikk)."
     ],
     "primaryLinks": [
       {
-        "title": "MTC — A drónüzemeltetés követelményei",
-        "description": "A Közlekedési és Kommunikációs Minisztérium (MTC) hivatalos oldala, amely felsorolja a drónüzemeltetés követelményeit. Tartalmazza az NTC 001-2015 szabályozást és a DGAC-eljárásokat."
+        "title": "MTC — A 30740. sz. törvény végrehajtási rendelete (D.S. 012-2026-MTC)",
+        "description": "Az MTC hivatalos rendelete (2026. 05. 29.). Az új kategóriák és engedélyek akkor lépnek hatályba, amikor a DGAC frissíti az NTC 001-2015-öt; addig az NTC érvényes."
       },
       {
-        "title": "MTC Virtuális Beadványi Pult — RPAS-regisztráció",
-        "description": "Az MTC hivatalos online platformja a drónok (RPAS) teljesen online regisztrálásához. Válaszd a „Távirányítású légijármű-rendszerek (RPAS) regisztrációja” lehetőséget, és töltsd ki az űrlapot"
+        "title": "MTC Mesa de Partes Virtual (Virtuális Beadványi Pult) — RPAS-regisztráció",
+        "description": "Az MTC hivatalos online platformja a drónok (RPAS) teljesen online regisztrációjához. Válaszd a „Registro de Aeronaves Pilotadas a Distancia (RPAS)” (Távirányított légijárművek regisztrációja) lehetőséget, és töltsd ki az űrlapot"
       },
       {
         "title": "MTC — Intézményi oldal",
-        "description": "A Közlekedési és Kommunikációs Minisztérium fő oldala. Hozzáférés a DGAC által biztosított eljárásokhoz, szabályozáshoz és légiközlekedési szolgáltatásokhoz"
+        "description": "A Közlekedési és Kommunikációs Minisztérium fő weboldala. Hozzáférés a DGAC eljárásaihoz, szabályozásához és légiközlekedési szolgáltatásaihoz"
       },
       {
         "title": "DGAC — RPAS kapcsolat (engedélyek)",
@@ -42,23 +45,23 @@
     ],
     "secondaryLinks": [
       {
-        "title": "El Peruano — Drónengedélyek (hivatalos)",
-        "description": "El Peruano hivatalos közlöny: hivatalos információk a drónok üzemeltetéséhez szükséges engedélyekről, az MTC és a DGAC szerint"
+        "title": "MTC — RPAS-pilóta-akkreditáció",
+        "description": "MTC-oldal (frissítve: 2026. 08. 11.): RPAS-pilóták/-üzemeltetők kérelme, online vizsgája és elektronikus akkreditációja (nem szabadidős használat)."
       },
       {
-        "title": "TV Perú — Hivatalos útmutató a követelményekhez",
-        "description": "A közszolgálati TV Perú hivatalos tudósítása a drónüzemeltetés követelményeiről szóló naprakész információkkal, az MTC által meghatározottak szerint"
+        "title": "MTC — Automatikus drónregisztráció (2025)",
+        "description": "MTC-közlemény (2025. 01. 26.): az RPAS-regisztráció mindössze néhány percet vesz igénybe a Virtuális Beadványi Pulton (Mesa de Partes Virtual) keresztül."
       },
       {
         "title": "MTC irodák — Személyes ügyintézés",
-        "description": "MTC-székhely: Jr. Zorritos 1203, Cercado de Lima. A szolgáltatások a regionális Ügyfélszolgálati Központokban is elérhetők a személyes RPAS-eljárásokhoz."
+        "description": "MTC-székhely: Jr. Zorritos 1203, Cercado de Lima. A személyes RPAS-eljárásokhoz a szolgáltatások a regionális Ügyfélszolgálati Központokban (Centros de Atención al Ciudadano) is elérhetők."
       }
     ],
-    "disclaimerText": "Repülés előtt mindig ellenőrizd a Közlekedési és Kommunikációs Minisztérium (MTC) DGAC-jának hivatalos forrásait. Ez az alkalmazás egy segédeszköz, nem jogi forrás. Peru a Kiegészítő Műszaki Szabványt (NTC) 001-2015 alkalmazza, egyszerűsített regisztrációval az MTC Virtuális Beadványi Pultján keresztül.",
+    "disclaimerText": "Repülés előtt mindig ellenőrizd a Közlekedési és Kommunikációs Minisztérium (MTC) DGAC-jának hivatalos forrásait. Ez az alkalmazás egy segédeszköz, nem jogi forrás. Peru a 30740. sz. törvényt, annak végrehajtási rendeletét (D.S. No. 012-2026-MTC) és az NTC 001-2015-öt alkalmazza, egyszerűsített regisztrációval az MTC Virtuális Beadványi Pultján (Mesa de Partes Virtual) keresztül.",
     "sectionLabelRules": "FŐBB SZABÁLYOK",
     "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
     "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",
     "linksSheetTitle": "Légtér és szabályok — Peru",
-    "dronePilotCredentialName": "RPAS-pilótaengedély"
+    "dronePilotCredentialName": "RPAS-pilóta/-üzemeltetői akkreditáció"
   }
 }

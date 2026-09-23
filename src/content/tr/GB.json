@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "efa2a30f33ab3aa81ade21c803c0ce10",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,21 @@
     "keyRules": [
       "Yerden en fazla 120 m (400 ft)",
       "100 g'dan itibaren Flyer ID gereklidir — CAA çevrim içi sınavını geçin (40 soru, %75 geçme notu)",
+      "Dronunuz 250 g+ ise veya kameralıysa 100 g+ ise Operator ID gerekir — yıllık 12,34 £, sahibi 18+ yaşında olmalıdır; ID'yi her dronun üzerine etiketleyin.",
       "Dronu her zaman kendi doğrudan ve yardımcı araç kullanılmayan görüş hattınız içinde, hangi yöne baktığını anlayabileceğiniz ve diğer hava araçlarını gözetleyebileceğiniz kadar yakın tutun. Metre cinsinden sabit bir yasal azami mesafe yoktur — ne kadar uzağa uçabileceğiniz belirlenmiş bir yarıçapa değil, görüş koşullarına, aydınlatmaya ve dronun kendisine bağlıdır.",
-      "Operasyona dahil olmayan kişilerden en az 50 m uzakta kalın (30 m / 5 m yalnızca A2 sertifikasına sahip, Birleşik Krallık sınıf işaretli dronlar için geçerlidir)",
-      "Havalimanlarının çevresinde Uçuş Kısıtlama Bölgeleri (FRZ) bulunur, ancak bunların tam şekli ve boyutu havalimanına göre değişir — her yerde geçerli bir \"5 km'lik daire\" yoktur. Bir havalimanının yakınında uçmadan önce CAA'nın resmî dron güvenliği haritasından ilgili FRZ'yi mutlaka kontrol edin.",
+      "250 g altı dronlar veya UK0/UK1/C0 sınıfı (C1 31 Ara 2027'ye kadar): operasyona dahil olmayan kişilere daha yakın ve onların üzerinde uçabilirsiniz, ancak asla kalabalıkların üzerinde değil. Diğer dronlar: operasyona dahil olmayan kişilerden en az 50 m uzak durun ve asla üzerlerinde uçmayın; standart Far from People (A3) alt kategorisinde ayrıca yerleşim, rekreasyon, ticari ve sanayi alanlarından (parklar, plajlar ve turistik yerler dahil) 150 m uzak durmalısınız. A2 sertifikasıyla: UK2 (2027 sonuna kadar C2) 30 m veya düşük hız modunda 5 m; 2 kg altındaki diğer dronlar 50 m.",
+      "Havalimanlarının çevresinde Uçuş Kısıtlama Bölgeleri (FRZ) bulunur, ancak bunların tam şekli ve boyutu havalimanına göre değişir — her yerde geçerli bir '5 km'lik daire' yoktur. Bir havalimanının yakınında uçmadan önce NATS'in resmî UAS kısıtlama haritasından ilgili FRZ'yi mutlaka kontrol edin.",
+      "Gece uçuşu: yeşil yanıp sönen bir ışık açık olmalıdır (dronunuzda yoksa bir tane takın)",
       "Üçüncü şahıs sorumluluk sigortası (EC Regulation 785/2004 uyarınca), ticari veya hobi dışı uçuşlar ya da 20 kg veya daha ağır herhangi bir dron için zorunludur — daha hafif dronlarla hobi amaçlı kullanımda isteğe bağlıdır ancak önerilir.",
       "Remote ID kademeli olarak devreye giriyor: Birleşik Krallık sınıf işaretli dronlar (UK1/UK2/UK3/UK5/UK6) için Ocak 2026'dan itibaren; Ocak 2028'de tümüyle zorunlu",
       "Birleşik Krallık EASA'nın parçası DEĞİLDİR — AB pilot sertifikaları Birleşik Krallık'ta geçerli değildir",
-      "Londra'da üç kalıcı kısıtlı bölge vardır — R157 (Hyde Park/kraliyet konutları), R158 (City of London/Square Mile, finans bölgesi çevresinde yaklaşık 0,5 NM'lik küçük bir bölge) ve R159 (Canary Wharf/Isle of Dogs) — en az 28 gün önceden NATS'a sunulan bir Non-Standard Flight başvurusuyla onay alınmadıkça, boyutuna bakılmaksızın tüm dronlar yasaktır. Parliament ve Downing Street, Westminster'da üç R bölgesinin de dışında yer alır ve ayrı mekanizmalarla korunur."
+      "Londra'da boyutu ne olursa olsun tüm dronların yasak olduğu kalıcı kısıtlı alanlar vardır: R157 (Hyde Park — Westminster, Parlamento, Downing Street ve Buckingham Sarayı'nı da kapsar), R158 (City of London) ve R159 (Isle of Dogs/Canary Wharf). Orada uçmak NATS üzerinden Enhanced Non-Standard Flight izni gerektirir — en az 21 gün önceden başvurun (Londra alanları için süreç daha uzun sürebilir). Windsor Kalesi (R156) ve Windsor Great Park (R161) de kalıcı olarak dron uçuşuna yasak alanlardır."
     ],
     "importantNotes": [
-      "Birleşik Krallık'ta kayıt eşiği 100 g'dır — AB'deki 250 g eşiğinden daha katıdır",
       "AB/EASA dron sertifikaları Brexit'ten bu yana Birleşik Krallık'ta tanınmaz",
+      "AB C sınıfı dronlar (C0–C4), 31 Aralık 2027'ye kadar karşılık gelen Birleşik Krallık sınıfı olarak uçurulabilir — UK Flyer ID/Operator ID kuralları ağırlığa ve kameraya göre yine geçerlidir.",
       "Yerel konseyler kendi arazilerinde uçuşu kısıtlayabilir — parklarda uçmadan önce kontrol edin",
-      "Cezaevlerinin çevresinde yaklaşık 1 km'lik uçuşa yasak bölgeler vardır — hava araçlarını tehlikeye atmak 5 yıla kadar hapis cezasına yol açabilir"
+      "İngiltere ve Galler'deki cezaevlerinin dron uçuşa yasak bölgeleri vardır (tam şekli cezaevine göre değişir — haritayı kontrol edin). Bir hava aracını tehlikeye atmak 5 yıla kadar hapis cezası anlamına gelebilir."
     ],
     "primaryLinks": [
       {
@@ -36,15 +38,15 @@
       },
       {
         "title": "CAA — Kayıt (Flyer ID ve Operator ID)",
-        "description": "Flyer ID'nizi (100 g'dan itibaren zorunlu) ve Operator ID'nizi (250 g'dan itibaren zorunlu) alın"
+        "description": "Flyer ID'nizi (100 g'dan itibaren zorunlu) ve Operator ID'nizi (250 g'dan itibaren, dronda kamera varsa 100 g'dan itibaren zorunlu) alın"
       },
       {
         "title": "CAA — The Drone Code",
         "description": "Resmî kurallar: nerede uçabileceğiniz, irtifa sınırları ve güvenlik gereklilikleri"
       },
       {
-        "title": "Drone Assist — Hava sahası haritası",
-        "description": "Uçuşa yasak bölgeleri ve hava sahası kısıtlamalarını gösteren ücretsiz uçuş planlama uygulaması"
+        "title": "Drone Assist — üçüncü taraf hava sahası uygulaması",
+        "description": "Resmî olmayan uygulama (Altitude Angel) — kısıtlamaları her zaman NATS'in resmî UAS kısıtlama haritasından teyit edin"
       }
     ],
     "secondaryLinks": [
@@ -57,8 +59,8 @@
         "description": "Dron sigortasının ne zaman gerekli olduğu (hobi dışı kullanım için zorunlu)"
       },
       {
-        "title": "CAA — Uzaktan Kimlik politikası",
-        "description": "Ocak 2026'dan itibaren Birleşik Krallık Uzaktan Kimlik gereklilikleri"
+        "title": "CAA — Remote ID (ne zaman etkinleştirmeniz gerekir)",
+        "description": "Ocak 2026'dan itibaren Birleşik Krallık Remote ID gereklilikleri"
       }
     ]
   }

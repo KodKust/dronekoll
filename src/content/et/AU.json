@@ -1,27 +1,31 @@
 {
   "meta": {
-    "sourceHash": "362edae763d5f971da0104f4b2bf8c97",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb2939eb8f1213b47dba87ec9440da8e",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maksimaalselt 120 m maapinnast (AGL)",
       "Vähemalt 30 m kaugusel igast kõrvalisest inimesest — ära kunagi lenda inimeste kohal",
-      "Üle 250 g kaaluvad droonid peavad jääma kontrollitavast lennujaamast vähemalt 5,5 km kaugusele. Alla 250 g kaaluvate droonidega võib selles tsoonis lennata ainult kuni 45 m kõrgusel maapinnast, väljaspool lennuvälja piire ja teistele õhusõidukitele ohtu tekitamata.",
-      "Alla 250 g kaaluvad droonid: maksimaalne kõrgus 45 m 5,5 km raadiuses kontrollitavast lennujaamast",
+      "Üle 250 g droonid: ära lenda kontrollitavast lennujaamast kuni 5,5 km kaugusel ega raja lähenemis-/väljumistrajektooril kuni 7 km kauguseni (7–8,5 km: max 90 m). 250 g või kergemad droonid tohivad 5,5 km raadiuses lennata kuni 45 m kõrgusel maapinnast, kuid mitte kunagi lähenemis-/väljumistrajektooride kohal ega neis, lennujaama piirides ega seal, kus need ohustavad õhusõidukeid.",
+      "Kuni 5,5 km kaugusel lennujaamast, kus pole lennujuhtimistorni, või kuni 1,4 km kaugusel helikopteri maandumiskohast: kui märkad mehitatud õhusõidukit või helikopterit, ära drooni õhku tõsta — liigu selle teelt eemale ja maandu võimalikult kiiresti",
+      "Ära kunagi lenda päästeoperatsioonide (politsei, kiirabi, otsingu- ja päästetööd, tuletõrje) või avalikku turvalisust mõjutavate alade kohal ega lähedal",
       "Harrastuslend: ainult päevavalguse ajal (koidikust kuni hämarikuni). Öölennud nõuavad RePL + ReOC luba",
       "Hoia drooni alati otsenähtavuses (VLOS)",
+      "Lennuta korraga ainult ühte drooni",
       "Alla 25 kg kaaluvate harrastusdroonide registreerimine ei ole nõutav (kehtivad tavareeglid)",
-      "Äriline kasutus 2 kg ja rohkem: nõutav kaugpiloodi litsents (RePL)",
+      "Tööalane lendamine (mis tahes kaal, sh alla 250 g): registreeri droon (kuni 500 g tasuta; üle 500 g 40 AUD drooni kohta) ja hangi operaatori akrediteering või kaugpiloodi litsents (RePL). Üle 2 kg on üldjuhul nõutavad ka RePL ja ReOC. Välismaal registreeritud droone ei saa Austraalias registreerida — tööalasteks lendudeks hangi CASA luba myCASA kaudu",
       "Rahvusparkide reeglid erinevad osariigiti — kontrolli enne lendamist (mõnes on droonid täielikult keelatud)"
     ],
     "importantNotes": [
-      "Victoria keelab droonide kasutamise KÕIGIS osariigi- ja rahvusparkides — ilma loata erandeid pole",
+      "Sydney Harbour ja ümbritsevad alad on droonivaba tsoon (madalal lendavad helikopterid ja vesilennukid) — paljud turismiobjektid on keelualad; kontrolli CASA verifitseeritud rakendusest",
+      "Victoria: harrastusdroonid on Parks Victoria hallataval maal täielikult keelatud; droonifilmimiseks on vaja Parks Victoria luba ja litsentseeritud, CASA sertifitseeritud operaatorit",
       "NSW rahvusparkides on vaja NPWS-i luba — trahvid kuni 3 300 $",
       "Lõuna-Austraalia lubab droone parkides ainult teadusuuringuteks või äriliseks filmimiseks",
-      "Ebaseaduslike lendude eest määratavad karistused võivad ületada 10 000 AUD-i"
+      "Droonid on keelatud Uluṟu-Kata Tjuṯa ja Kakadu rahvusparkides (ilma loata on see EPBC Acti alusel süütegu)",
+      "CASA võib trahvida kuni 1 820 AUD rikkumise eest; kohtu määratud trahvid kuni 18 200 AUD ja kuni 2 aastat vangistust, kui su droon ohustab õhusõidukeid"
     ],
     "primaryLinks": [
       {
@@ -30,7 +34,7 @@
       },
       {
         "title": "OpenSky — Õhuruumi kaart",
-        "description": "CASA verifitseeritud õhuruumi andmed reaalajas piirangute ja TFR-hoiatustega"
+        "description": "CASA verifitseeritud õhuruumi andmed reaalajas piirangutega"
       },
       {
         "title": "CASA — Registreerimine",

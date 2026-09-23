@@ -1,42 +1,44 @@
 {
   "meta": {
-    "sourceHash": "7ac6f58efeb57847db5c573b36f52f9091268fb859f217572eb22f0601db3ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "87a436fc2428e63cbeabda8e978948a403f544d76e6100f96d885f4d05ce52ec",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enimmäiskorkeus riippuu painosta: ≤250 g → 30 m; 250 g–25 kg → 60 m; 25–150 kg → 120 m",
-      "Yli 250 g painavat dronet (käyttötarkoituksesta riippumatta) edellyttävät AACin rekisteröintiä — hinta: 5 USD; henkilökohtainen rekisteröinti Albrookissa",
-      "Enintään 250 g painavat harrastedronet: rekisteröintiä EI vaadita, mutta kaikki muut säännöt pätevät",
-      "Vähintään 8 km:n etäisyys lentoasemista ja lentopaikoista",
-      "Vähintään 30 m:n vaakasuora ja 10 m:n pystysuora etäisyys ihmisiin",
-      "Pidä drone aina suorassa näköyhteydessä (VLOS)",
-      "Yölennot ovat KIELLETTYJÄ ilman AACin erillistä poikkeuslupaa",
-      "Vastuuvakuutus on PAKOLLINEN kaikessa toiminnassa",
-      "Pakollinen tietoon perustuvan suostumuksen lomake, joka koskee yksityisomaisuutta, alkuperäiskansojen suojelualueita, suojelualueita ja Panaman kanavan valuma-aluetta",
-      "Kaupallinen käyttö edellyttää RPA-lentäjän lupakirjaa dronen rekisteröinnin lisäksi"
+      "Enimmäiskorkeus riippuu RPA-luokasta: Mikro (≤250 g) → 100 ft (~30 m); Kevyt (251 g–25 kg) → 400 ft (~120 m); Keskiraskas (26–150 kg) → 400 ft, mutta ilman Mode S -transponderia enintään 100 m (AAC-standardin §9.2, §10.1.1, §11.1.5, §11.1.10).",
+      "Jokainen RPA, myös Mikro-luokka (≤250 g), on rekisteröitävä AACille (standardin §8.1, §9.1, §15.2) — toisin kuin useimmat maat, Panama ei vapauta kevyimpiä droneja rekisteröinnistä. Rekisteröinti tehdään henkilökohtaisesti Albrookissa; tarkista voimassa oleva maksu.",
+      "Panama EI vapauta kevyitä virkistysdroneja (≤250 g) rekisteröinnistä — toisin kuin useimmissa maissa, AAC-standardi (§8.1, §9.1) edellyttää rekisteröintiä kaikille RPA-luokille, myös Mikro-luokalle.",
+      "Jokainen RPA-lento Panamassa edellyttää AACin toimintalupaa (§8.2, §8.20): jätä lomake 005 (Solicitud de Permiso de Actividades Aéreas Especiales) vähintään 5 arkipäivää etukäteen.",
+      "Vähintään 8 km:n (5 meripeninkulman) etäisyys lentoasemista ja lentopaikoista, tasavallan presidentin virastosta ja vankiloista (AAC-standardin §8.10–8.11). Standardi kieltää myös lentämisen paikoissa, jotka vaarantavat valtion turvallisuuden, kuten suurlähetystöjen, julkisten laitosten ja pankkien kohdalla (§8.11), ja AAC ylläpitää rajoituksia poliisiasemien, sairaaloiden ja turvallisuusministeriön yllä (AACin tiedote 26.9.2025).",
+      "Lentoonlähdön ja laskeutumisen aikana pidä vähintään 30 m:n vaakasuora ja 10 m:n pystysuora etäisyys henkilöihin, jotka eivät osallistu toimintaan (AAC-standardin §13.1).",
+      "Dronen on oltava koko ajan suorassa näköyhteydessäsi (RACP).",
+      "Yölennot ovat KIELLETTYJÄ ilman AACin erillistä poikkeuslupaa.",
+      "Kolmannen osapuolen vastuuvakuutus on PAKOLLINEN jokaiselle RPA:n omistajalle (AAC-standardin §8.4) käytöstä riippumatta. Ihmisten yllä lentäminen edellyttää lisäksi AACin lupaa ja asianosaisten suostumusta (§8.16).",
+      "Kielto-, rajoitus- ja vaara-alueet (katso AACin AIP) edellyttävät erityislupaa AACilta ja alueesta vastaavalta viranomaiselta — molemmat vaaditaan (AAC-standardin §13.1 d). Kanavan alueella, suojelualueilla ja alkuperäiskansojen alueilla ota yhteyttä vastaavaan viranomaiseen ennen lentoluvan hakemista.",
+      "Jokaisella RPA:ta käyttävällä — myös virkistyskäytössä ja Mikro-luokassa (≤250 g) — on oltava AACin kauko-ohjaajan lupakirja ja luokan 3 lääketieteellinen kelpoisuustodistus (AAC-standardin §8.3, §9.1, §10.1). Kaupallinen käyttö edellyttää lisäksi kaupallisen toiminnan lupaa (§13.3)."
     ],
     "importantNotes": [
-      "📏 KORKEUDET VAIHTELEVAT PAINON MUKAAN (ainutlaatuista Latinalaisessa Amerikassa): Panaman RACP:ssä on kolme enimmäiskorkeustasoa dronen painon mukaan: enintään 250 g painavat dronet on rajattu VAIN 30 metriin, 250 g–25 kg painavat dronet 60 metriin, ja vain vähintään 25 kg painavat dronet voivat nousta vakiokorkeuteen 120 m. Tarkista dronesi paino ennen lentokorkeuden suunnittelua.",
-      "✈️ TURISTIT — 14 PÄIVÄN SÄÄNTÖ: Jos oleskelusi Panamassa on enintään 14 kalenteripäivää, voit hakea AACin erityislupaa rekisteröimättä dronea pysyvästi. Yli 14 päivän oleskelu: AAC-rekisteröinti on pakollinen yli 250 g painaville droneille. Enintään 250 g painavat harrastedronet on vapautettu molemmissa tapauksissa.",
-      "🚢 PANAMAN KANAVA — ERITYISRAJOITUS: Kanavan valuma-alueella (mukaan lukien sulut, Gatún-järvi ja lähialueet) tarvitaan ennen lentoa kanavaviranomaisen antama tietoon perustuvaa suostumusta koskeva kirje. AAC EI myönnä toimintalupaa tälle alueelle ilman tätä kirjettä. Tämä koskee myös yksityisomaisuutta, alkuperäiskansojen suojelualueita ja suojelualueita.",
-      "🌳 SUOJELUALUEET JA MIAMBIENTE: Kansallispuistot kuten Soberanía, Barú-tulivuori, Coiba (Unescon maailmanperintökohde) ja Darién edellyttävät ympäristöministeriön (MiAmbiente) erityislupaa. Bocas del Toron ja Guna Yalan saarilla on myös rajoituksia — sovi toiminnasta paikallisyhteisön kanssa ennen lennättämistä.",
-      "🏢 HENKILÖKOHTAINEN REKISTERÖINTI VAADITAAN: Toisin kuin useimmissa maissa, AAC-rekisteröinti on tehtävä HENKILÖKOHTAISESTI Albrookin toimistossa (rakennus 805). Ota mukaan: henkilötodistus, itse drone, täytetty lomake ja 5 USD. Tarkista ajanvarauksen saatavuus ja käsittelyajat ennen matkaa."
+      "Toisin kuin monissa maissa, Panama porrastaa enimmäiskorkeuden RPA-luokan mukaan: 100 ft (~30 m) Mikro-luokalle (≤250 g), 400 ft (~120 m) Kevyt-luokalle (251 g–25 kg) ja 400 ft Keskiraskas-luokalle (26–150 kg) — mutta viimeksi mainittu on ilman Mode S -transponderia rajoitettu 100 m:iin. Tarkista dronesi luokka ennen kuin suunnittelet lentokorkeuden.",
+      "Turistit: ulkomaisille RPA:ille tai käyttäjille myönnettävä erityislupa (lomake 004) on voimassa enintään 15 päivää, eikä sitä myönnetä virkistystoimintaan (AAC-standardin §8.22). Virkistyslentäminen edellyttää RPA:n rekisteröintiä AACille (kaikki luokat, myös Mikro ≤250 g, §8.1) ja AACin RPA-lentäjän lupakirjaa (§8.3); ulkomainen lupakirja hyväksytään vain, jos on olemassa kahdenvälinen sopimus (§18.17). Tarkista asia AACilta ennen matkaa.",
+      "PANAMAN KANAVA — RAJOITUSALUE: AACin AIP:n (ENR 5) mukaan toiminta Gatúnin, Pedro Miguelin ja Mirafloresin sulkujen, Gatúnin ja Maddenin patojen sekä kaikkien kanavan läpi kulkevien alusten yllä on rajoitettua. Tarvitaan lupa AACilta ja alueesta vastaavalta viranomaiselta (AAC-standardin §13.1 d).",
+      "Casco Antiguo, Cinta Costera, Av. Balboa ja Calle 50 ympäristöineen: AACin luvan lisäksi sinun on ilmoitettava kirjeitse Servicio de Protección Institucionalille (SPI).",
+      "🌳 SUOJELUALUEET (MiAmbiente): SINAP-suojelualueilla droneja saavat käyttää vain vierailijat, joilla on voimassa oleva lupa/rekisteröinti, sovellettavien menettelyjen ja maksujen mukaisesti (Resolución DM-0173-2026, art. 12). Tarkista asia alueen hallinnolta ennen lentoa.",
+      "Toisin kuin useimmissa maissa, AAC-rekisteröinti on tehtävä henkilökohtaisesti Albrookissa — tarkista voimassa oleva menettely ja vaatimukset ennen hakemusta."
     ],
     "primaryLinks": [
       {
         "title": "AAC — Panaman siviili-ilmailuviranomainen",
-        "description": "Panaman siviili-ilmailuviranomaisen virallinen sivusto. Tietoa dronen rekisteröinnistä, RACP-määräyksistä ja menettelyistä koti- ja ulkomaisille käyttäjille"
+        "description": "Panaman siviili-ilmailuviranomaisen virallinen sivusto. Tietoa dronen rekisteröinnistä, RPAS-standardista ja menettelyistä koti- ja ulkomaisille käyttäjille"
       },
       {
-        "title": "RACP — Panaman siviili-ilmailumääräykset",
-        "description": "Pääsy koko Panaman siviili-ilmailumääräyksiin. Osio miehittämättömiin ilma-aluksiin (RPA) sovellettavista määräyksistä"
+        "title": "Norma AAC/DG/DSA/001-2021 — kauko-ohjatut ilma-alukset (RPAS)",
+        "description": "AAC-standardin teksti, jossa asetetaan vaatimukset kauko-ohjattujen ilma-alusjärjestelmien (RPAS) käytölle Panamassa (PDF)"
       },
       {
         "title": "AACin Albrookin toimisto (henkilökohtainen rekisteröinti vaaditaan)",
-        "description": "Rakennus 805, Albrook, ensimmäinen kerros — lentoturvallisuusosasto. Dronen rekisteröinti on tehtävä henkilökohtaisesti: ota mukaan henkilötodistus, itse drone ja täytetty lomake. Hinta: 5 USD"
+        "description": "Rakennus 805, Albrook, pohjakerros — asiakirjaosasto. Jätä pyyntökirje (tai lähetä se osoitteeseen correspondencia.aac@aeronautica.gob.pa); AAC antaa sinulle ajan. Ota mukaan rekisteröintilomake, kopio RPA-lupakirjastasi, henkilökortti, tekniset tiedot, lasku, vakuutuskirja ja maksukuitti. Hinta: 20 USD"
       },
       {
         "title": "AAC — Tiedotteet ja voimassa olevat määräykset",
@@ -46,7 +48,7 @@
     "secondaryLinks": [
       {
         "title": "STRI/Smithsonian — AACin tutkimusopas",
-        "description": "Smithsonianin trooppisen tutkimuslaitoksen yksityiskohtainen opas AACin lupamenettelystä, mukaan lukien tietoisen suostumuksen lomake rajoitusalueille"
+        "description": "Smithsonianin trooppisen tutkimuslaitoksen yksityiskohtainen opas AACin lupamenettelystä, mukaan lukien tietoisen suostumuksen kirje rajoitusalueille"
       },
       {
         "title": "MiAmbiente — Suojelualueet (kansallispuistot)",
@@ -54,10 +56,10 @@
       },
       {
         "title": "Panaman kanava — Virallista tietoa",
-        "description": "Panaman kanavan viranomainen. Kanavan valuma-alue edellyttää pakollista tietoisen suostumuksen kirjettä — ilman sitä AAC ei myönnä lupaa"
+        "description": "Panaman kanavan viranomainen. Sulut, padot ja kanavan läpi kulkevat alukset ovat rajoitusalueita (AIP ENR 5): tarvitaan lupa AACilta ja alueesta vastaavalta viranomaiselta"
       }
     ],
-    "disclaimerText": "Tarkista aina AACin viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Panamassa on voimassa siviili-ilmailumääräykset (RACP), joihin sisältyvät painosta riippuvat enimmäiskorkeudet ja erityisrajoitukset Panaman kanavan valuma-alueen yllä.",
+    "disclaimerText": "Tarkista aina AACin viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Panamassa sovelletaan normia Norma AAC/DG/DSA/001-2021, jossa enimmäiskorkeudet RIIPPUVAT PAINOSTA ja Panaman kanavan alueella on rajoitusalueita (AIP ENR 5).",
     "sectionLabelRules": "TÄRKEIMMÄT SÄÄNNÖT",
     "sectionLabelPrimary": "VIRALLISET LÄHTEET",
     "sectionLabelSecondary": "LISÄRESURSSIT",

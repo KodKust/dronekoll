@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (ubebodde områder, rekreasjon): Droner som veier ≤750 g kan fly opptil 50 m over den høyeste hindringen på privat eiendom uten autorisasjon",
-      "DAN 151 (bebodde områder/profesjonell bruk): Droner som veier mer enn 750 g krever DGAC-registrering, pilotlisens og operativ tillatelse",
-      "Maksimal autorisert total høyde: 130 m AGL (DAN 151) — varierer etter autorisasjon",
-      "Minimumsavstand på 2 km fra flyplasser og flystriper",
+      "DAN 91.102(j): uten DGAC-autorisasjon kan bare droner på opptil 750 g laget av ekspandert polyetylen eller tilsvarende materiale, til privat bruk eller rekreasjon, flys, på private steder og ikke mer enn 50 m over den høyeste hindringen eller bygningen. All annen flyging krever forhåndsautorisasjon fra DGAC.",
+      "DAN 151 (bebodde områder, allmenn interesse eller luftarbeid): gjelder droner uansett vekt (maks. 9 kg) og krever DGAC-registrering, fjernpilotbevis, forsikring, AOC eller CEO og en driftstillatelse.",
+      "DAN 151: dronen må ha nødfallskjerm under operasjonen og kunne styres manuelt (maks. 9 kg uten fallskjermen).",
+      "Den generelle grensen er 400 fot (120 m) AGL — flyging over denne krever forhåndsautorisasjon fra DGAC (DAN 151 Ed. 3, i kraft siden mai 2024). Gjeldende DAN 91 angir den samme grensen som «400 fot (130 meter)».",
+      "Ingen flyging innenfor 2 km fra rullebanens forlengede senterlinje (målt fra terskelen) eller innenfor 1 km parallelt med rullebanens senterlinje ved en flyplass.",
+      "Ingen droneoperasjoner i områder der en brann bekjempes med bemannede luftfartøy (DAN 91.102(i)(11) og DAN 151.103(g)(14)).",
       "Maksimal avstand på 500 m fra operatøren (oppretthold direkte visuell kontakt)",
-      "Hold alltid dronen innenfor direkte synsvidde (VLOS)",
+      "Du må til enhver tid ha direkte visuell kontakt med dronen for å styre flygingen.",
       "Nattflyging krever spesifikk autorisasjon fra DGAC",
-      "DGAC-registrering: merke, modell, serienummer, maksimalvekt ≤9 kg for autorisert bruk, 10×15 cm foto",
-      "En pilotlisens krever en skriftlig eksamen (minst 75 % for å bestå) i DAN 151, DAN 91, meteorologi og aerodynamikk",
+      "DGAC-registrering (DAN 151.203): produsent/land, merke, modell, serienummer og fabrikkvekt, med kopi av identitetskortet ditt; søknaden sendes via DGACs nettplattform (siden august 2026). Maksimal startvekt 9 kg.",
+      "Fjernpilotbevis: minst 18 år, opplæringserklæring og skriftlig eksamen (minst 75 %) i DAN 151, DAN 91, NOTAM, meteorologi og aerodynamikk; gyldig i 36 måneder.",
       "Ansvarsforsikring (JAC-godkjent) kreves for profesjonell bruk"
     ],
     "importantNotes": [
-      "📋 DOBBELT REGELVERK — DAN 91 vs. DAN 151: Chile skiller mellom flyging i UBEBODDE områder (DAN 91, mindre strengt; rekreasjonsflyging ≤750 g uten tillatelse) og flyging i BEBODDE områder eller områder av offentlig interesse (DAN 151, som krever registrering, en sertifisert pilot og forsikring). Hvilket regelverk som gjelder, avhenger av stedet OG formålet.",
-      "✈️ UTENLANDSKE TURISTER: Reglene gjelder likt for ikke-bosatte. Registrering kreves ikke for rekreasjonsflyginger med droner som veier ≤750 g i ubebodde private områder. For alle andre operasjoner (turisme, profesjonell bruk, nær mennesker, i parker) kreves de samme tillatelsene som for chilenske statsborgere.",
-      "🌋 NASJONALPARKER OG RESERVATER: CONAF (National Forestry Corporation) forbyr droner uten en spesiell tillatelse i parker som Torres del Paine, Lauca og Isluga Volcano National Park. Chilensk Antarktis: spesielt regelverk fra INACH. Sjekk med hver enkelt park eller reservat før du reiser.",
-      "🏔️ RESTRIKSJONSBELAGTE OMRÅDER: Sentrum av Santiago (La Moneda, Plaza de Armas), SCEL-flyplassen (Pudahuel), militære soner og grensesoner. Påskeøya, Robinson Crusoe-øya, Antarktis: ytterligere restriksjoner. Se AIP Chile (ENR 5.1) for et kart over forbudte, restriksjonsbelagte og farlige områder.",
-      "💰 ÅRLIG FORNYELSE: DGAC-registreringen er gyldig i 12 måneder og må fornyes årlig. Å operere uten en gyldig registrering eller sertifikat kan medføre bot, beslag av utstyr og et forbud mot operasjoner."
+      "DOBBELT REGELVERK — DAN 91 (ubebodde områder): hver flyging krever forhåndsautorisasjon fra DGAC, i hvert enkelt tilfelle (Annex D). DAN 151 (bebodde områder, allmenn interesse eller luftarbeid): registrering, bevis, forsikring og autorisasjon. Eneste unntak: droner ≤750 g laget av ekspandert polyetylen eller tilsvarende materiale, rekreasjonsbruk, på private steder og ≤50 m over den høyeste hindringen.",
+      "✈️ UTENLANDSKE TURISTER: Reglene gjelder likt for ikke-bosatte. Uten DGAC-autorisasjon er bare droner ≤750 g laget av ekspandert polyetylen eller tilsvarende materiale, til rekreasjonsbruk, på private steder og ≤50 m over den høyeste hindringen tillatt. All annen flyging krever forhåndsautorisasjon fra DGAC; DGAC-registrering krever kopi av identitetskortet ditt.",
+      "🌋 VERNEOMRÅDER: Rekreasjons- eller turistbruk av droner er ikke tillatt i noe statlig vernet naturområde (nasjonalparker, reservater, naturminner). CONAF autoriserer bare flyginger i begrunnede tilfeller (vitenskapelig forskning, overvåking eller andre forvaltningsformål) via conaf.cerofilas.gob.cl, og da kreves det også tillatelse fra DGAC. Antarktis: særskilte regler fra INACH.",
+      "🏔️ RESTRIKSJONSOMRÅDER: Ingen flyging over La Moneda (sone SC-P28), militære anlegg, fengsler og strategiske anlegg, eller i forbuds-, restriksjons- eller fareområder i AIP Chile (ENR 5.1) eller NOTAM.",
+      "💰 GYLDIGHETSPERIODER: Fjernpilotbeviset varer i 36 måneder og fornyes med en ny eksamen (min. 75 %); driftstillatelsen etter DAN 151 gjelder i opptil 6 måneder. Brudd på DGACs regelverk kan føre til bøter, suspensjon av virksomheten, beslag av utstyr eller straffeansvar hvis flysikkerheten settes i fare."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Chiles offisielle system for luftfartsinformasjon: NOTAM, forbudte/restriksjonsbelagte/farlige områder (ENR 5), kart, flyplasser"
       },
       {
-        "title": "Prosedyre for RPA-registrering (offisiell PDF)",
-        "description": "DGACs offisielle prosedyre for nyregistrering og regularisering av droner (RPA). Inkluderer vedlegg B og skjemaer"
+        "title": "Droneregistrering (RPA) — ny DGAC-plattform",
+        "description": "Registrering på nett i det nasjonale RPA-registeret etter DAN 151. Registrering er ikke i seg selv en tillatelse til å fly."
       }
     ],
     "secondaryLinks": [

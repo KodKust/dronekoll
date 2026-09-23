@@ -1,27 +1,33 @@
 {
   "meta": {
-    "sourceHash": "508ee28346525a09001728f6f525106d73a15d373ba459d581dbbbe091cc7d62",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eee1f5c184b67a857980e5927e116be613b5cef533bad82326dd2e369b059d05",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Yerden en fazla 120 m (EASA Open kategorisi)",
+      "Açık kategoride azami yükseklik 120 m'dir ve yalnızca dümdüz aşağıya doğru değil, yeryüzünün en yakın noktasına olan mesafe olarak ölçülür — bu nedenle bir yamacın yakınında yanınızdaki zemin de hesaba katılabilir. Yüksek bir yapay engelin (105 m'nin üzerinde) 50 m yakınında, engelden sorumlu kuruluş engelin yüksekliğinin 15 m üzerine kadar uçmak için izin talep edebilir.",
       "İsviçre FOCA dron mevzuatına tümüyle uyar",
-      "Dron 250 g veya daha ağırsa ya da kamera taşıyorsa İsviçre sistemi üzerinden kayıt (10 CHF, süresiz geçerli)",
+      "Dronunuz 250 g veya daha ağırsa (ya da çarpma anında 80 J'den fazla kinetik enerji aktarabiliyorsa) dron operatörü olarak kaydolmanız gerekir — bu oyuncaklar için de geçerlidir. 250 g'ın altında, dronda kişisel veri toplayabilen bir sensör varsa, AB Oyuncak Güvenliği Direktifi kapsamında oyuncak sayılmadığı sürece kayıt yine gereklidir. Operatör numarası (son üç karakteri olmadan) her dronun üzerinde açıkça görünür olmalıdır. Pilot eğitimi/yeterlilik gereklilikleri ayrıca düzenlenir ve dronun sınıfına ve alt kategorisine bağlıdır.",
+      "Asgari uzaktan pilot yaşı (açık kategori): 12 yaş; daha genç pilotlar yalnızca sertifika sahibi ve en az 16 yaşında bir kişinin gözetimi altında uçabilir",
       "250 g'dan ağır dronlar için zorunlu sorumluluk sigortası (1 milyon CHF teminat)",
-      "Vaduz Kalesi: Tam uçuş yasağı",
-      "Dronu her zaman doğrudan görüş hattınızda (VLOS) tutun",
+      "Uçuş sırasında Remote ID (uzaktan tanımlama) açık olmalı ve operatör numarası kayıtlı olmalıdır — C0 sınıfı, eski (legacy) ve kendi yapımı dronlar hariç",
+      "Kalıcı dron uçuş yasağı bölgesi “Regierungsgebäude – Landtag – Schloss Vaduz” (tüm ağırlık sınıfları). Muafiyet izinleri Amt für Hochbau und Raumplanung'dan talep edilebilir.",
+      "Balzers Heliportu (LSXB): Balzers'in bazı bölgelerinde 250 g'ın üzerindeki dronlar, doğrudan heliportta ise tüm dronlar yasaktır — istisnalar yalnızca izinle",
+      "Açık kategoride dronu çıplak gözle, kendi doğrudan görüş hattınızda tutmalısınız (gözlük/kontakt lens sorun değildir; dürbün veya ekran sayılmaz) — ya da hava sahasını birlikte izleyip çarpışmaları önleyebilmeniz için aranızda her an açık ve etkili iletişim sürdürerek bir gözlemcinin yardımıyla uçun. Follow-me modu ayrı bir istisnadır; pilottan 50 m'ye kadar izin verilir.",
+      "Gece uçuşları yalnızca görüş mesafesi içinde ve seyir ışıkları açıkken; mesafeyi buna göre azaltın",
       "İnsan topluluklarının üzerinden uçmayın. Operasyona dahil olmayan kişilerle ilgili kurallar alt kategoriye, sınıf işaretine ve operasyon koşullarına bağlıdır; resmî matrisi kontrol edin.",
-      "Herhangi bir havalimanı veya hava meydanından en az 5 km uzakta kalın",
+      "Havalimanlarından korunması gereken AB genelinde tek bir mesafe yoktur. Havalimanları yakınındaki kısıtlamalar, şekli ve boyutu havalimanından havalimanına değişen coğrafi bölgeler (Madde 15) olarak yayımlanır. Bir havalimanı, hava meydanı veya heliport yakınında uçmadan önce ülkenizin resmî dron bölgeleri haritasını kontrol edin; kontrol bölgesi (CTR) içinde uçmak genellikle hava trafik kontrolünden önceden izin almayı gerektirir.",
+      "Her uçuştan önce DABS'ı da (Daily Airspace Bulletin Switzerland, skybriefing.com/de/dabs) kontrol edin — uçuş alanı etkileniyorsa uçmamalısınız.",
       "Çok küçük bir ülke — İsviçre veya Avusturya'ya sınır ötesi uçuşlar özel dikkat gerektirir",
       "Alp arazisi: helikopter rotalarına dikkat edin"
     ],
     "importantNotes": [
       "Liechtenstein, İsviçre FOCA mevzuatına tümüyle uyar",
       "İsviçre ile aynı kayıt sistemi (10 CHF, süresiz geçerli)",
-      "Vaduz Kalesi, uçuşun kesinlikle yasak olduğu bir bölgedir",
+      "Bir EASA devletinde (AB, İsviçre, Liechtenstein, Norveç, İzlanda) ikamet ediyorsanız: ikamet ettiğiniz ülkede kaydolun — kayıt tüm EASA devletlerinde geçerlidir. EASA devletleri dışında ikamet ediyorsanız: bir EASA devletinde zaten kayıtlı değilseniz uçmadan önce kaydolun (İsviçre'de dLIS üzerinden BAZL'a, CHF 10). EASA dışı devletlerden alınan uzaktan pilot sertifikaları tanınmaz.",
+      "“Regierungsgebäude – Landtag – Schloss Vaduz” alanı kalıcı bir dron uçuş yasağı bölgesidir (tüm ağırlık sınıfları)",
       "Ülke yalnızca yaklaşık 25 km uzunluğunda — istemeden sınırı geçmek kolaydır",
       "Liechtenstein AEA üyesi olduğundan, belirlenebilir kişiler kaydedilirken GDPR geçerlidir"
     ],
@@ -35,12 +41,12 @@
         "description": "İsviçre ile aynı kayıt sistemi (10 CHF, süresiz geçerli)"
       },
       {
-        "title": "Swiss Dronemap — Hava Sahası Haritası",
-        "description": "Resmî etkileşimli dron haritası (Liechtenstein dahildir)"
+        "title": "BAZL Dron Haritası — Hava Sahası Haritası",
+        "description": "Resmî BAZL dron haritası (Liechtenstein'da da geçerlidir)"
       },
       {
-        "title": "Liechtenstein Hükümeti — Havacılık",
-        "description": "Havacılık bilgilerini içeren Liechtenstein hükümet portalı"
+        "title": "Landespolizei Liechtenstein — Dronlar",
+        "description": "Liechtenstein'da dron bilgileri ve uçuşa yasak bölgeler"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +59,7 @@
         "description": "Dron mevzuatı hakkında sıkça sorulan sorular"
       }
     ],
-    "disclaimerText": "Her uçuştan önce FOCA/BAZL'ın resmî kaynaklarını ve Swiss Dronemap'i kontrol edin. Bu uygulama bir araçtır, yasal bir kaynak değildir. Liechtenstein, İsviçre FOCA/EASA mevzuatına uyar.",
+    "disclaimerText": "Her uçuştan önce FOCA/BAZL'ın resmî kaynaklarını ve BAZL dron haritasını kontrol edin. Bu uygulama bir araçtır, yasal bir kaynak değildir. Liechtenstein, İsviçre FOCA/EASA mevzuatına uyar.",
     "sectionLabelRules": "TEMEL KURALLAR (EASA OPEN KATEGORİSİ)",
     "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
     "sectionLabelSecondary": "EK KAYNAKLAR",

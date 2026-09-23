@@ -1,37 +1,41 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne vairāk kā 120 m virs zemes (EASA atvērtā kategorija)",
-      "Reģistrācija UAS operatora statusā (bez maksas) droniem, kas sver 250 g vai vairāk vai ir aprīkoti ar kameru",
-      "Nepieciešama A1/A3 tiešsaistes apmācība — minimālais vecums 16 gadi",
-      "Lidojumi lidostu CTR un ATZ atļauti tikai pēc saskaņošanas ar gaisa satiksmes vadību vai lidostas operatoru",
-      "Lidošana virs automaģistrālēm un galvenajiem ceļiem ir ierobežota — izvairies no tiem",
-      "Vienmēr saglabā tiešu redzamības kontaktu (VLOS) ar dronu",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, ko mēra kā attālumu līdz tuvākajam Zemes virsmas punktam — ne vienkārši taisni uz leju, tāpēc nogāzes tuvumā var skaitīties arī zeme tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šo šķērsli atbildīgā persona var lūgt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Tev jāreģistrējas kā drona operatoram, ja tavs drons sver 250 g vai vairāk (vai triecienā varētu nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas arī uz rotaļlietām. Zem 250 g reģistrācija tomēr ir obligāta, ja dronam ir sensors, kas spēj uztvert personas datus, izņemot gadījumu, ja tas tiek uzskatīts par rotaļlietu saskaņā ar ES Rotaļlietu drošuma direktīvu. Apmācības/pilota licences prasības ir atsevišķas un ir atkarīgas no drona klases un apakškategorijas.",
+      "Minimālais vecums patstāvīgai lidošanai atvērtajā kategorijā ir 16 gadi — A1/A3 tiešsaistes apmācība un eksāmens ir derīgi 5 gadus un atzīti visā ES. Bez vecuma ierobežojuma: C0 klases drons, kas ir rotaļlieta, apakškategorijā A1, vai pašbūvēts drons, kas sver mazāk par 250 g; citādi jaunāki piloti tikai tiešā uzraudzībā pilotam, kurš atbilst vecuma un apmācības prasībām.",
+      "Tūristi: citā ES/EASA valstī veikta operatora reģistrācija un A1/A3 apliecība ir derīga arī Čehijā (reģistrēties var tikai vienā valstī). Ārpus ES: reģistrējies pirmajā ES/EASA valstī, kurā lidosi (Čehijā — ÚCL vietnē dron.caa.gov.cz), un, ja tavam dronam nepieciešama apmācība, pabeidz apmācību saskaņā ar ES noteikumiem — apliecības no valstīm ārpus ES netiek atzītas.",
+      "Civiltiesiskās atbildības apdrošināšana Čehijā ir obligāta apakškategorijā A2 un apakškategorijā A3 droniem virs 4 kg (ne A1) — pārbaudi, vai tava polise sedz lidojumus Čehijā.",
+      "Lidostu CTR un ATZ bez saskaņošanas drīkst lidot tikai līdz režģī noteiktajam augstumam (pārbaudi DroneMap). Augstāk — tikai pēc saskaņošanas ar ŘLP un ar lidojumu, kas atzīmēts DroneMap; CTR iekšējā zonā lidojums vienmēr jāatzīmē DroneMap, un virs režģa augstuma nepieciešama arī saskaņošana ar lidostas operatoru. Militārajās lidostās (MCTR) ir stingrāki nosacījumi. Nekontrolētās lidostās virs režģa augstuma — tikai pēc saskaņošanas ar AFIS vai lidostas operatoru. Atzīmēšana DroneMap neattiecas uz droniem, kuriem reģistrācija nav nepieciešama.",
+      "Blīvi apdzīvotās teritorijās (zona LKR316) lidojuma teritorija iepriekš jāatzīmē DroneMap (dronemap.gov.cz). Atzīmējot (šeit, kā arī CTR un aizsargājamās dabas teritorijās), jānorāda augstums, laiks, drona tips un svara kategorija, kā arī operatora reģistrācijas numurs. Neattiecas uz droniem, kuriem operatora reģistrācija nav nepieciešama.",
+      "Nacionālie parki, aizsargājamo ainavu apvidi (CHKO) un nelielas aizsargājamās teritorijas, piem., dabas rezervāti (zona LKR318): lidojumi tikai pēc iepriekšēja paziņojuma kompetentajai dabas aizsardzības iestādei vai ar tās atļauju un ar lidojuma teritoriju, kas atzīmēta DroneMap. Neattiecas uz droniem, kuriem operatora reģistrācija nav nepieciešama.",
+      "Ceļi (zona LKR317): parasti 50 m attālumā no automaģistrāles vai I klases ceļa ass līnijas tikai ar ŘSD piekrišanu; parasti 15 m attālumā no II un III klases ceļu ass līnijas tikai ar ceļa īpašnieka vai pārvaldītāja piekrišanu (līdzīgi vietējiem ceļiem ārpus blīvi apdzīvotām teritorijām). Lidojuma teritorija jāatzīmē DroneMap — neattiecas uz droniem, kuriem operatora reģistrācija nav nepieciešama.",
+      "Atvērtajā kategorijā dronam jābūt tavā tiešajā redzamībā ar neapbruņotu aci (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai piesaisti novērotāju, visu laiku skaidri un efektīvi sazinoties, lai kopā uzraudzītu gaisa telpu un izvairītos no sadursmēm. Režīms “Follow-me” ir atsevišķs izņēmums tikai apakškategorijā A1, atļauts 50 m rādiusā no pilota.",
       "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kas nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
       "Nakts lidojumi ir atļauti saskaņā ar EASA atvērtās kategorijas pamatnosacījumiem, ja tiek izmantota nepieciešamā zaļā mirgojošā gaisma, ja vien spēkā esošās ģeogrāfiskās zonas vai valsts noteikumi neparedz stingrākus nosacījumus.",
-      "Naudassodi līdz 5 000 000 CZK (≈ 185 000 €) par pārkāpumiem",
-      "Prāgas pils un valdības ēkas: stingras lidojumu aizlieguma zonas"
+      "Naudassodi līdz 3 000 000 CZK (≈ 120 000 €) par pārkāpumiem",
+      "Prāgas pils un valdības ēkas: absolūtas lidojumu aizlieguma zonas"
     ],
     "importantNotes": [
-      "Lidojumiem lidostu CTR un ATZ nepieciešama saskaņošana ar gaisa satiksmes vadību vai lidostas operatoru",
-      "Pārlidojumi virs automaģistrālēm un galvenajiem ceļiem Čehijā ir ierobežoti — plāno maršrutu, lai no tiem izvairītos",
-      "Naudassodi līdz 5 000 000 CZK (≈ 185 000 €)",
+      "Lidostu CTR un ATZ bez saskaņošanas tikai līdz režģī noteiktajam augstumam (pārbaudi DroneMap); augstāk tikai pēc saskaņošanas (CTR — ar ŘLP, nekontrolētās lidostās — ar AFIS vai lidostas operatoru) un ar lidojumu, kas atzīmēts DroneMap; CTR iekšējā zonā atzīmēšana ir obligāta vienmēr",
+      "Ceļi (zona LKR317): automaģistrālēm un I klases ceļiem parasti 50 m attālumā no ass līnijas tikai ar ŘSD piekrišanu; II un III klases ceļiem parasti 15 m attālumā no ass līnijas tikai ar ceļa īpašnieka vai pārvaldītāja piekrišanu",
+      "Naudassodi līdz 3 000 000 CZK (≈ 120 000 €)",
       "Prāgas pils teritorijā ir noteikti stingri lidojumu aizliegumi",
       "GDPR ir piemērojams identificējamu attēlu vākšanai"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Dronu noteikumi",
+        "title": "ÚCL — dronu noteikumi",
         "description": "Civilās aviācijas iestādes oficiālie noteikumi un resursi par droniem"
       },
       {
-        "title": "CAA — Operatora reģistrācija",
+        "title": "ÚCL — operatora reģistrācija",
         "description": "Bezmaksas reģistrācija kā UAS operatoram (derīga visās ES/EASA valstīs)"
       },
       {
@@ -39,17 +43,17 @@
         "description": "Oficiālā interaktīvā karte, kurā redzamas dronu zonas un gaisa telpas ierobežojumi"
       },
       {
-        "title": "CAC — Noteikumu pārskats",
+        "title": "ÚCL — noteikumu pārskats",
         "description": "Pārskats par dronu lidošanas noteikumiem Čehijā"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Gaisa satiksmes vadība — NOTAM un gaisa telpa",
-        "description": "Čehijas gaisa satiksmes vadība un gaisa telpas informācija"
+        "title": "ŘLP — NOTAM un gaisa telpa",
+        "description": "Čehijas gaisa satiksmes vadība un informācija par gaisa telpu"
       },
       {
-        "title": "CAA — Biežāk uzdotie jautājumi par droniem",
+        "title": "ÚCL — biežāk uzdotie jautājumi par droniem",
         "description": "Biežāk uzdotie jautājumi par dronu noteikumiem Čehijā"
       }
     ],
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",
     "linksSheetTitle": "Gaisa telpa un noteikumi — Čehija",
-    "dronePilotCredentialName": "Drona pilota licence"
+    "dronePilotCredentialName": "A1/A3 apmācības apliecība"
   }
 }

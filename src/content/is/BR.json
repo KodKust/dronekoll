@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Hámarksflughæð: 120 m (400 fet) yfir jörðu",
+      "Hámarkshæð: 120 m (400 ft) AGL (ANAC); tómstundaflug: ekki hærra en 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "Drónar sem vega meira en 250 g: skráningarskylda hjá SISANT (ANAC)",
-      "Drónar sem vega allt að 250 g: undanþegnir skráningu og teljast sjálfkrafa leyfðir",
-      "Lágmarksfjarlægð 5,4 km frá flugvöllum fyrir flug í lítilli hæð",
-      "Lágmarksfjarlægð 9 km frá flugvöllum fyrir flug upp í 120 m",
+      "Drónar allt að 250 g þurfa ekki að vera skráðir í SISANT (ANAC Resolution No. 806). Frá 1. júlí 2026 (ICA 100-40) krefjast flug með þessum drónum einnig heimildar í gegnum SARPAS (DECEA). Drónar yfir 250 g verða að vera skráðir í SISANT.",
+      "Flugtakmörkunarsvæði flugvalla (FRZ) (ICA 100-40, í gildi frá 1. júlí 2026): umhverfis flugvöllinn (ZEA) byrjar FRZ við jörð út að 1.740 m; þú helst fyrir neðan það með því að fljúga upp í 100 ft (30 m) handan 1.740 m, 200 ft (60 m) handan 2.350 m, 300 ft handan 2.960 m og 400 ft handan 3.570 m. Í aðflugs- og flugtaksgeirunum (ZAD) byrjar FRZ við jörð út að 3.550 m; þar á eftir: 100 ft handan 3.550 m, 200 ft handan 4.480 m, 300 ft handan 5.400 m og 400 ft handan 6.320 m. Flug innan FRZ krefst Termo de Coordenação og umsóknar í SARPAS með að minnsta kosti 4 almanaksdaga fyrirvara.",
+      "Tómstundaflug (ICA 100-40, gr. 32): hámarkshæð 200 ft (60 m) AGL og mesta lárétta fjarlægð 300 m. Nálægt flugvöllum gilda FRZ-beltin – athugaðu í SARPAS.",
       "Haltu drónanum ávallt innan beinnar sjónlínu (VLOS)",
-      "Lágmarksfjarlægð 30 metrar frá fólki sem tekur ekki þátt í fluginu",
-      "Heimild frá SARPAS (DECEA) er nauðsynleg fyrir hvert flug í stýrðu loftrými",
+      "Lágmarksfjarlægð 30 m frá fólki sem tekur ekki þátt í fluginu",
+      "Hvert flug krefst heimildar til aðgangs að loftrými í gegnum SARPAS (DECEA), einnig fyrir dróna allt að 250 g. Lágmarksfyrirvari: 30 mínútur í opna flokknum; 4 eða 8 almanaksdagar fyrir rekstur sem skarast við FRZ eða takmörkuð svæði, BVLOS eða yfir 400 ft. Tómstundaflug á EAC-svæði sem ætlað er til tómstunda er undanþegið.",
       "Sendibúnaður verður að vera vottaður af ANATEL",
-      "Næturflug krefst sérstakrar heimildar og árekstravarnaljósa"
+      "Næturflug: dróninn verður að hafa leiðsöguljós (ICA 100-40, gr. 20)",
+      "Flugmenn yngri en 18 ára verða alltaf að vera í fylgd flugmanns eldri en 18 ára sem ber ábyrgð á rekstrinum",
+      "Notkun dróna yfir 250 g í öðru skyni en til tómstunda (RBAC No. 100): trygging sem nær yfir tjón þriðja aðila er skyldubundin. Krafan um að standast bóklegt próf ANAC (RBAC 100.13(b)) er felld niður til 31. desember 2026 (Resolution No. 805/2026, gr. 2)."
     ],
     "importantNotes": [
-      "Ferðamenn: Brasilía LEYFIR tómstundaflug, en drónar sem vega meira en 250 g verða að vera skráðir hjá SISANT fyrir flug",
-      "Sektir frá ANAC geta numið allt að 7.000 R$ á hvert brot — að fljúga án skráningar eða SARPAS-heimildar er alvarlegt brot",
+      "Ferðamenn: Brasilía LEYFIR tómstundaflug. Drónar yfir 250 g verða að vera skráðir í SISANT (útlendingar geta notað vegabréf sitt), og flug krefjast heimildar frá SARPAS (DECEA), einnig með dróna allt að 250 g.",
+      "Sektir ANAC vegna dróna byrja á viðmiðunarfjárhæðum frá R$ 750 til R$ 4.500 fyrir hvert brot (rekstur án skráningar: R$ 2.250 – Resolution No. 762/2024); eftir mildandi og þyngjandi þáttum getur endanleg fjárhæð numið frá 20% til 300% af þeirri fjárhæð (Resolution No. 761/2024, gr. 35). Flug án heimildar frá SARPAS er brot á flugumferðarreglum sem JJAER dæmir í (ICA 100-40, gr. 66).",
       "Þjóðgarðar (ICMBio) og landsvæði frumbyggja (FUNAI) banna almennt dróna án sérstakrar heimildar",
       "Strendur og ferðamannasvæði í borgum (Rio, São Paulo, Salvador) hafa takmarkanir á vegum sveitarfélaga — hafðu samband við yfirvöld á staðnum"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — Flugheimild (DECEA)",
-        "description": "Kerfi DECEA til að sækja um flugheimild í stýrðu loftrými. Nauðsynlegt fyrir hvert flug"
+        "description": "Kerfi DECEA til að sækja um heimild til aðgangs að loftrými, einnig fyrir dróna allt að 250 g. Nauðsynlegt fyrir hvert flug"
       },
       {
         "title": "ANATEL — Búnaðarvottun",
@@ -48,15 +50,15 @@
         "description": "Virk NOTAM og opinber flugkort DECEA til að athuga tímabundnar takmarkanir"
       },
       {
-        "title": "ANAC — Algengar spurningar um dróna",
-        "description": "Opinber svör ANAC við algengum spurningum frá drónaflugmönnum"
+        "title": "ANAC — Algengar spurningar um SISANT (drónaskráning)",
+        "description": "Opinber svör ANAC um skráningu í SISANT, þar á meðal fyrir útlendinga"
       },
       {
-        "title": "RBAC-E nr. 94 — Heildartæknistaðall",
-        "description": "Sérstök flugmálareglugerð Brasilíu nr. 94 — heildartexti sem gildir um dróna"
+        "title": "RBAC No. 100 — Tæknistaðallinn í heild",
+        "description": "Flugmálareglugerð Brasilíu No. 100 (kemur í stað RBAC-E No. 94) — fullur texti sem gildir um dróna"
       }
     ],
-    "disclaimerText": "Athugaðu ávallt opinberar heimildir frá ANAC og DECEA áður en þú flýgur. Þetta forrit er verkfæri, ekki lögbær heimild. Brasilía beitir RBAC-E No. 94 (nú er verið að taka upp RBAC No. 100 í staðinn), sem krefst skyldubundinnar heimildar í gegnum SARPAS.",
+    "disclaimerText": "Athugaðu ávallt opinberar heimildir frá ANAC og DECEA áður en þú flýgur. Þetta forrit er verkfæri, ekki lögbær heimild. Brasilía beitir RBAC No. 100 og Resolution No. 806 (ANAC, frá júní 2026) og ICA 100-40 (DECEA, frá júlí 2026), með skyldubundinni heimild í gegnum SARPAS.",
     "sectionLabelRules": "HELSTU REGLUR",
     "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
     "sectionLabelSecondary": "VIÐBÓTARÚRRÆÐI",

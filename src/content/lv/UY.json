@@ -1,28 +1,29 @@
 {
   "meta": {
-    "sourceHash": "c139af1376a67c6fd4409a0435b10fd8dd0df99586c1e480fb6eb124208d488a",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimālais augstums: 120 m (400 ft) virs zemes (AGL)",
-      "Droni, kas sver mazāk par 25 kg: atpūtas lietošanai NAV nepieciešama DINACIA reģistrācija",
-      "Droni, kas sver ≥25 kg vai tiek lietoti komerciāliem nolūkiem: obligāta reģistrācija DINACIA UTM platformā",
-      "Vienmēr turi dronu tiešā redzamības laukā (VLOS)",
-      "Nelido virs blīvi apdzīvotām teritorijām (pilsētas, ciemi, apkaimes)",
-      "Izvairies no lidostām, lidlaukiem un kontrolētās gaisa telpas (CTR)",
+      "Maksimālais lidojuma augstums ir 120 m (400 ft) virs zemes līmeņa.",
+      "Droniem ('Small') līdz 25 kg atpūtas lietošanai nav nepieciešama DINACIA reģistrācija — tie drīkst brīvi lidot līdz 120 m, izņemot lidlauku zonās.",
+      "Montevideo DINACIA ir noteikusi 4 atpūtas lidojumu zonas Small droniem (līdz 25 kg) noteiktos sektoros: Parque Baroffio (ziemeļu daļa), Parque Marcos Sastre (pie Ruta 8), Parque Miguelete (posms starp Silva un Bvar. Aparicio Saravia) un Parque Tomkinson (izņemot bērnu futbola kluba teritoriju). Maksimālais augstums šajās zonās: 30 m virs zemes (DINACIA Res. 093/2019, AIP ENR 5.5).",
+      "Droni no 25 līdz 260 kg ('Medium') jāreģistrē DINACIA, un tiem jāsaņem identifikācijas numurs, kas redzams uz ierīces.",
+      "Pilotam visu laiku jātur drons tiešā redzamības laukā.",
+      "Lidot virs blīvi apdzīvotām teritorijām (pilsētām, ciemiem, apkaimēm) nav atļauts bez aviācijas iestādes skaidras atļaujas.",
+      "Izvairies no lidostām, lidlaukiem un kontrolētās gaisa telpas (CTR), ja vien nav skaidras atļaujas.",
       "Ievēro saprātīgu attālumu no cilvēkiem, kuri nav iesaistīti lidojumā, un no ēkām (ieteicams: 30 m)",
       "Lidojumi atļauti tikai dienā — nakts lidojumiem nepieciešama īpaša atļauja",
-      "Komerciāla darbība: obligāta civiltiesiskās atbildības apdrošināšana + DINACIA atļauja",
-      "Gaisa telpas rezervācijas (pasākumi): aizpildi veidlapu 10 dienas iepriekš"
+      "Komerciālai lietošanai papildus attiecīgajai DINACIA atļaujai obligāti nepieciešama civiltiesiskās atbildības vai aviācijas apdrošināšana.",
+      "Darbības, kurām nepieciešama skaidra atļauja (virs apdzīvotām teritorijām vai cilvēku pulcēšanās vietām, lidlauku zonās, aizliegtajās vai ierobežotajās zonās vai komerciālai lietošanai): piesakies DINACIA, izmantojot UTM platformu (utm.dinacia.gub.uy)."
     ],
     "importantNotes": [
-      "🌟 URUGVAJĀ NOTEIKUMI IR PIEĻĀVĪGI: DINACIA Resolution 291/2014 nosaka, ka droniem, kas sver mazāk par 25 kg, atpūtas lietošanai NAV nepieciešama reģistrācija. Vairums patērētāju dronu (DJI Mini, Mavic, Air, Phantom) ir krietni zem šī sliekšņa — taču VISI pārējie ekspluatācijas noteikumi ir jāievēro.",
-      "📋 DINACIA RESOLUTION 291/2014: dronus iedala trīs kategorijās — Small (≤25 kg), Medium (25–260 kg pašmasa) un Large (>260 kg). Uruguayan Aeronautical Regulations (RAU 91 un citi) papildina regulējuma ietvaru.",
-      "✈️ ĀRVALSTU TŪRISTI: Noteikumi attiecas arī uz nerezidentiem. Atpūtas lietošanai ar dronu, kas sver mazāk par 25 kg, reģistrācija nav nepieciešama. Komerciālai/profesionālai lietošanai vai pasākumiem: sazinies ar DINACIA pirms ceļojuma. Muita, iebraucot valstī, var pieprasīt deklarēt iekārtu.",
-      "🏖️ PUNTA DEL ESTE UN MONTEVIDEO: Punta del Este (liels tūristu blīvums), Carrasco Airport (MVD), Laguna del Sauce Airport (PDP), Government House un Plaza Independencia ir noteikti pastāvīgi ierobežojumi. Sezonas kulminācijā piekrastes un pludmales mēdz būt pārpildītas.",
+      "Urugvajā noteikumi ir salīdzinoši pieļāvīgi: DINACIA Resolution 291/2014 nosaka, ka droniem līdz 25 kg atpūtas lietošanai nav nepieciešama reģistrācija.",
+      "DINACIA Resolution 291/2014 iedala dronus trīs kategorijās: Small (≤25 kg), Medium (25-260 kg) un Large (virs 260 kg).",
+      "Noteikumi attiecas arī uz nerezidentiem. Tikai atpūtas nolūkos lietojot dronu līdz 25 kg, reģistrācija vai operatora atļauja nav nepieciešama. Jebkurai maksas lietošanai (arī ar maziem droniem) nepieciešama DINACIA DAOD operatora atļauja (prasības: 18 gadu vecums, kurss apstiprinātā centrā, prasmju pārbaude un Urugvajas pilsonība; ārvalstniekiem DINACIA jāatver APIA elektroniskā lieta) un civiltiesiskās atbildības apdrošināšana.",
+      "🚫 AIZLIEGTĀS ZONAS (AIP ENR 5.1): Torre Ejecutiva/Plaza Independencia Montevideo (950 m rādiuss), Residencia Presidencial Suárez (950 m rādiuss), Estancia Presidencial Anchorena (1852 m rādiuss), Isla de Lobos pie Punta del Este (5 km rādiuss), salas pie Cabo Polonio, Barra de Valizas un La Coronilla (5 km rādiuss), militārās vienības, cietumi, dambji un ANCAP degvielas rūpnīcas. Carrasco (MVD) un Laguna del Sauce (PDP) lidostu kontrolētajā gaisa telpā un satiksmes zonā nepieciešama ATM atļauja. Augstajā sezonā piekrastes un pludmales bieži ir blīvi apdzīvotas.",
       "🌳 AIZSARGĀJAMĀS DABAS TERITORIJAS (SNAP): National System of Protected Areas ietver tādas teritorijas kā Esteros de Farrapos, Cabo Polonio un Quebrada de los Cuervos. Pirms dronu ekspluatācijas šajās teritorijās noskaidro konkrētos ierobežojumus Ministry of the Environment."
     ],
     "primaryLinks": [
@@ -35,8 +36,8 @@
         "description": "DINACIA oficiālā UTM (bezpilota satiksmes pārvaldības) platforma dronu (≥25 kg) reģistrācijai un ekspluatācijas atļaujas pieteikumu iesniegšanai. Nepieciešams reģistrēts lietotājs"
       },
       {
-        "title": "DINACIA — RPAS operatoru atļaujas",
-        "description": "Oficiālā lapa par RPAS operatoru atļaujām — soļi, prasības un veidlapas. Nepieciešamas droniem, kas sver 25 kg vai vairāk, un jebkurai komerciālai lietošanai"
+        "title": "DINACIA — DAOD atļaujas izsniegšana",
+        "description": "DINACIA apkārtraksts (CA.UY.PEL.07.02) ar prasībām DAOD operatora atļaujai. Obligāta droniem virs 25 kg un jebkurai maksas lietošanai."
       },
       {
         "title": "DINACIA — LAR 61 pilotu licences",
@@ -62,6 +63,6 @@
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",
     "linksSheetTitle": "Gaisa telpa un noteikumi — Urugvaja",
-    "dronePilotCredentialName": "DAOD operatora licence"
+    "dronePilotCredentialName": "DAOD operatora atļauja"
   }
 }

@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "53287a6bbcc1a046359816ed2a7de6b009d10fc753031bec7dc231d525fdedf3",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "76cde0e68eaea6de50863e60f85670840fe89558dc64828a40f7f9cfd6b8a0c6",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Max. 120 m au-dessus du sol (catégorie ouverte EASA)",
-      "Enregistrement comme exploitant d'UAS pour les drones de 250 g ou plus ou équipés d'une caméra",
-      "Formation en ligne A1/A3 obligatoire — âge minimum 16 ans",
-      "Une zone de protection de 8 km autour des aéroports (plus large que le standard EASA)",
+      "Dans la catégorie ouverte, la hauteur maximale est de 120 m, mesurée comme la distance jusqu'au point le plus proche de la surface terrestre — pas simplement à la verticale : près d'une pente, le terrain à côté de vous peut donc aussi compter. À moins de 50 m d'un obstacle artificiel élevé (de plus de 105 m), l'entité responsable de l'obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
+      "Vous devez vous enregistrer comme exploitant de drone si votre drone pèse 250 g ou plus (ou pourrait transmettre plus de 80 J d'énergie cinétique en cas d'impact) — cela vaut même pour les jouets. En dessous de 250 g, l'enregistrement reste obligatoire si le drone possède un capteur capable de collecter des données personnelles, sauf s'il est considéré comme un jouet au sens de la directive européenne relative à la sécurité des jouets. Les exigences de formation/de certificat de télépilote sont distinctes et dépendent de la classe et de la sous-catégorie du drone. Le numéro d'enregistrement de l'exploitant est apposé au moyen d'un autocollant sur chaque drone et, si le drone dispose d'un système d'identification à distance (Remote ID), il y est également saisi.",
+      "L'âge minimum pour voler seul dans la catégorie ouverte est de 16 ans — la formation et l'examen en ligne A1/A3 se passent dans le système de la DG CAA (uas.caa.bg, connexion avec une signature électronique qualifiée), sont valables 5 ans et sont reconnus dans toute l'UE. Aucun âge minimum : classe C0 en A1, drone de construction privée de moins de 250 g, ou vol sous la supervision directe d'un télépilote disposant de la compétence nécessaire. Si le télépilote a moins de 18 ans, un parent ou un tuteur s'enregistre comme exploitant.",
+      "Touristes : si votre drone est soumis à l'enregistrement, enregistrez-vous comme exploitant dans le pays de l'UE où vous résidez ; si vous résidez hors de l'UE — dans le premier pays de l'UE où vous volerez (en Bulgarie : uas.caa.bg). Les qualifications de pays hors UE ne sont pas reconnues — la formation requise (p. ex. A1/A3) doit être suivie dans l'UE.",
+      "Il existe des zones géographiques de tailles différentes autour des aéroports. Aux aéroports de Sofia, Varna, Bourgas, Plovdiv et Gorna Oryahovitsa, les zones s'étendent sur plus de 8 km : dans la zone intérieure, tout vol nécessite une autorisation de la DG CAA, et dans la zone élargie — les vols au-dessus de 50 m. Faites la demande au moins 7 jours ouvrables à l'avance. Consultez la carte sur uas.caa.bg.",
       "Les zones entourant l'aéroport de Sofia couvrent une part importante de la ville",
-      "Une coordination avant vol avec BULATSA est requise",
-      "Gardez toujours le drone en vue directe (VLOS)",
+      "Sans autorisation, il est interdit de voler dans les zones géographiques réglementées ou interdites, dans les structures d'espace aérien activées (temporairement réservées) et à l'intérieur des limites gardées des aéroports ouverts à la circulation publique. En cas d'infraction, le drone peut être contraint d'atterrir ou être retiré, et tout dommage est à la charge du contrevenant.",
+      "Avant chaque vol, consultez les zones géographiques sur la carte de la DG CAA (uas.caa.bg) ; dans une zone qui exige une autorisation, déposez une demande auprès de la DG CAA dans le délai indiqué pour la zone.",
+      "Dans la catégorie ouverte, vous devez garder le drone en vue directe, à l'œil nu (lunettes/lentilles de contact autorisées ; jumelles ou écran ne comptent pas) — ou avec l'aide d'un observateur, en communiquant ensemble de manière claire et efficace à tout moment, afin de surveiller ensemble l'espace aérien et d'éviter les collisions. Le mode « Follow-me » est une exception distincte, uniquement dans la sous-catégorie A1 (drones de classe C0/C1 ou drones de construction privée de moins de 250 g), jusqu'à 50 m du télépilote.",
       "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
       "Les vols de nuit sont autorisés selon les règles de base de l'EASA pour la catégorie ouverte lorsque le feu vert clignotant requis est utilisé, sauf si une zone géographique en vigueur ou une règle nationale impose une condition plus stricte.",
-      "Parcs nationaux et réserves naturelles : des restrictions s'appliquent"
+      "Parcs nationaux et réserves naturelles : des restrictions s'appliquent",
+      "L'assurance responsabilité civile est obligatoire pour les drones de plus de 20 kg, ainsi que pour toute activité commerciale/professionnelle — quel que soit le poids. Pour une activité professionnelle dans la catégorie ouverte, l'exploitant dépose une déclaration auprès de la DG CAA."
     ],
     "importantNotes": [
-      "Une coordination préalable avec BULATSA est requise avant tout vol",
-      "Zone de sécurité de 8 km autour des aéroports — plus large que le standard EASA",
+      "Avant un vol, consultez les zones géographiques sur uas.caa.bg et les NOTAM actifs dans le B-FLIP de BULATSA",
+      "Il existe autour des grands aéroports des zones géographiques de plus de 8 km ; à l'intérieur, une autorisation de la DG CAA est requise (dans la zone élargie — pour les vols au-dessus de 50 m). Consultez la carte sur uas.caa.bg.",
       "Les zones entourant l'aéroport de Sofia restreignent les vols au-dessus d'une grande partie de la ville",
       "Installations militaires : zones où le vol est strictement interdit",
       "Le GDPR s'applique lorsque l'on photographie des personnes reconnaissables"
@@ -40,7 +43,7 @@
       },
       {
         "title": "DG GVA — Zones de drones",
-        "description": "Informations et restrictions sur les zones géographiques pour les vols de drones"
+        "description": "Carte officielle de la DG CAA des zones géographiques et des restrictions pour les vols de drones"
       }
     ],
     "secondaryLinks": [
@@ -50,10 +53,10 @@
       },
       {
         "title": "BULATSA — NOTAM",
-        "description": "NOTAM actifs et restrictions temporaires de l'espace aérien"
+        "description": "NOTAM actifs et restrictions temporaires de l'espace aérien sur le portail B-FLIP (inscription à B-FLIP requise)"
       }
     ],
-    "disclaimerText": "Avant un vol, vérifiez toujours les sources officielles de la DG CAA et de BULATSA. Cette application est un outil, pas une autorité juridique. La Bulgarie suit la réglementation EASA avec des ajouts nationaux, notamment l'obligation d'une coordination avant vol.",
+    "disclaimerText": "Avant un vol, vérifiez toujours les sources officielles de la DG CAA (uas.caa.bg) et de BULATSA. Cette application est un outil, pas une autorité juridique. La Bulgarie suit la réglementation EASA avec des ajouts nationaux, notamment l'autorisation de la DG CAA pour les vols dans certaines zones géographiques.",
     "sectionLabelRules": "RÈGLES DE BASE (CATÉGORIE OUVERTE EASA)",
     "sectionLabelPrimary": "SOURCES OFFICIELLES",
     "sectionLabelSecondary": "RESSOURCES COMPLÉMENTAIRES",

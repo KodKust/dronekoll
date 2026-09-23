@@ -1,27 +1,31 @@
 {
   "meta": {
-    "sourceHash": "000b9bfb30fd5dc95150d4d75572729ea894e9cb117bc556495e8105d1de0bf6",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "49588a835cca5391d11c172e7550ef7ac8f76a3c7fe6c69b2398693532352902",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröinti D-Flight-portaalin kautta: perustilaus 7 €/vuosi (PRO 28 €/vuosi) + pakollinen QR-koodi jokaiseen droneen (Base 7 €/UAS; ensimmäinen sisältyy alkutilaukseen)",
-      "Pakollinen A1/A3-verkkokoulutus — vähimmäisikä 16 vuotta",
-      "Pakollinen vastuuvakuutus — vähintään 750 000 SDR (erityisnosto-oikeutta)",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m, mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maasto voi olla ratkaiseva. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolella.",
+      "Rekisteröinti Italiassa D-Flight-portaalin kautta (lukuun ottamatta alla lueteltuja poikkeuksia): perustilaus 7 €/vuosi (PRO 28 €/vuosi) + pakollinen QR-koodi jokaiseen droneen (Base 7 €/UAS; ensimmäinen sisältyy alkutilaukseen)",
+      "Vapautetut: leludronet (direktiivi 2009/48/EY) eivät vaadi rekisteröintiä, todistusta eikä vakuutusta; alle 250 g painavat dronet, joissa ei ole kameraa eikä mikrofonia, eivät vaadi rekisteröintiä.",
+      "Ulkomaiset lentäjät: käyttäjän rekisteröinti on voimassa kaikissa EU-maissa ja Sveitsissä. Jos olet jo rekisteröitynyt omassa EU-maassasi, sinun ei tarvitse rekisteröityä D-Flightiin: riittää, että käyttäjän rekisteröintinumerosi on näkyvissä dronessa. EU:n ulkopuolella asuvat (myös Yhdistyneessä kuningaskunnassa) rekisteröityvät siinä EU-maassa, johon he aikovat matkustaa ensimmäisenä.",
+      "Italiassa vähimmäisikä A1/A3-lentämiseen on 16 vuotta; alaikäiset (16–17-vuotiaat) tarvitsevat vanhemman tai laillisen huoltajan suostumuksen rekisteröityäkseen ENAC-portaaliin. Verkossa suoritettava todistus (40 kysymystä) on voimassa 5 vuotta.",
+      "Kolmannen osapuolen vastuuvakuutus on pakollinen kaikille droneille (myös alle 250 g ja virkistyskäytössä) leludroneja (dir. 2009/48/EY) lukuun ottamatta — vähimmäiskattavuus 750 000 SDR, Regolamento UAS-IT:n 27 artiklan ja Codice della Navigazionen 1015 artiklan mukaisesti.",
       "Rooma ja Vatikaanivaltio: laajoja lennätyskieltoalueita",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Avoimessa kategoriassa drone on pidettävä omassa suorassa näköyhteydessäsi paljain silmin (silmälasit/piilolinssit käyvät; kiikarit tai näyttö eivät kelpaa) — tai lennä tarkkailijan avulla niin, että välillänne on koko ajan selkeä ja toimiva yhteys, jotta voitte yhdessä valvoa ilmatilaa ja välttää yhteentörmäyksiä. ”Follow-me”-tila on erillinen poikkeus, joka on sallittu enintään 50 m:n etäisyydellä lentäjästä.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-      "Vähintään 5 km:n etäisyys kaikista lentoasemista tai lentopaikoista",
-      "Yölento on sallittu EASA:n avoimen luokan perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
-      "Historialliset kohteet ja arkeologiset alueet voivat olla lisärajoitusten alaisia"
+      "Lentoasemista ei ole yhtä kiinteää etäisyyttä: lentopaikkojen maantieteelliset vyöhykkeet (ENACin kiertokirje ATM-09A) julkaistaan D-Flightissa. Avoimessa kategoriassa lentäminen on kielletty näillä vyöhykkeillä, jotka alkavat värin mukaan eri korkeudelta (punainen 0 m, oranssi 25 m, keltainen 45 m); muualla ATZ- ja CTR-alueilla vyöhyke alkaa yleensä 60 m:n korkeudelta. Näiden korkeuksien alapuolella saat lentää ilman ilmatilavarausta; vyöhykkeiden sisällä lentäminen edellyttää erityistä kategoriaa ja ENACin tai Aeronautica Militaren lupaa.",
+      "Yölento on sallittu EASA:n avoimen kategorian perusvaatimusten mukaisesti edellyttäen, että vaadittua vihreää vilkkuvaloa käytetään, ellei kansallinen sääntö tai tietyn maantieteellisen vyöhykkeen sääntö aseta tiukempia ehtoja.",
+      "Historialliset kohteet ja arkeologiset alueet voivat olla lisärajoitusten alaisia",
+      "Luonnonpuistot: niiden yllä lentäminen on kielletty, jos ENACin hyväksymä kielto on julkaistu D-Flightissa; niissä lentäminen edellyttää puiston hallinnon (Ente Parco) lupaa.",
+      "Dronet, joilla on C1-, C2- tai C3-luokkamerkki: suoran etätunnistuksen ja maantieteellisen tietoisuuden (geo-awareness) on oltava päällä ja ajan tasalla."
     ],
     "importantNotes": [
-      "D-Flight-tilaus: perustilaus 7 €/vuosi (PRO 28 €/vuosi erityiskategorialle). Ensimmäinen perus-QR-koodi sisältyy alkuaktivointiin; lisä-QR-koodit maksavat 7 € kutakin UAS:ää kohden (PRO 112 € kutakin UAS:ää kohden).",
+      "D-Flight-tilaus: perustilaus 7 €/vuosi (PRO 28 €/vuosi erityiseen kategoriaan). Ensimmäinen Base-QR-koodi sisältyy alkuaktivointiin; lisä-Base-QR-koodit maksavat 7 € kutakin UAS:ää kohden (PRO 112 € kutakin UAS:ää kohden).",
       "Pakollinen vakuutus, jonka vähimmäiskattavuus on 750 000 SDR (erityisnosto-oikeutta)",
-      "Rooman ja Vatikaanin alueen ilmatila on droneille yksi Euroopan rajoitetuimmista",
+      "Rooma: kaupungin keskusta on turvallisuussyistä lentokieltoalue, jonka ylilento on kielletty kaikilta ilma-aluksilta, myös droneilta; mahdolliset poikkeukset edellyttävät lisäksi Prefettura di Roman lupaa. Tarkista aina D-Flight.",
       "Sakot jopa 100 000 € vakavista rikkomuksista",
       "GDPR-tietosuoja-asetus koskee tunnistettavien kuvien ottamista"
     ],
@@ -32,7 +36,7 @@
       },
       {
         "title": "D-Flight — Rekisteröidy ja lennätä",
-        "description": "Rekisteröintiportaali ja ilmatilakartta (6 €/kk:n tilaus vaaditaan)"
+        "description": "Käyttäjien rekisteröintiportaali ja ilmatilakartta (kartat ilmaisella tilillä; käyttäjän rekisteröinti Base-tilauksella 7 €/vuosi)"
       },
       {
         "title": "D-Flight — Ilmatilakartta",
@@ -40,13 +44,13 @@
       },
       {
         "title": "ENAC — UAS-määräykset",
-        "description": "Yksityiskohdat Italian UAS-määräyksistä ja kansallisista muutoksista EASAn sääntöihin"
+        "description": "Yksityiskohdat Italian UAS-määräyksistä ja kansallisista lisäyksistä EASAn sääntöihin"
       }
     ],
     "secondaryLinks": [
       {
         "title": "ENAV — NOTAM",
-        "description": "Voimassa olevat NOTAMit ja väliaikaiset ilmatilarajoitukset"
+        "description": "Italian lennonvarmistuspalvelujen tarjoaja; pääsy NOTAMeihin (Self Briefing) edellyttää Operation Letterin allekirjoittamista"
       },
       {
         "title": "ENAC — Usein kysyttyä droneista",

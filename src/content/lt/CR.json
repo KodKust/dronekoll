@@ -1,34 +1,35 @@
 {
   "meta": {
-    "sourceHash": "8c56d8d6e542afc955c989bfd255bb6e85a0ed0ddb98d0c06385589c15af8287",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "1ccf0d60f2daab09a23a0c0e3bbd85b102fdef6468c55b05317299a6742f4265",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Didžiausias aukštis: 120 m (400 ft) virš žemės paviršiaus (AGL)",
-      "Mažiausias 8 km atstumas nuo oro uostų ir aerodromų",
-      "Mažiausias 30 m atstumas nuo operacijoje nedalyvaujančių žmonių, gyvūnų ir pastatų",
+      "Didžiausias aukštis: 120 m (400 ft) virš žemės paviršiaus, nekontroliuojamoje oro erdvėje.",
+      "Mažiausias 8 km atstumas nuo bet kurio oro uosto ar aerodromo; skristi arčiau galima tik gavus DGAC patvirtinimą ir paskelbus NOTAM.",
+      "Skraidykite tik atokiau nuo tankiai užstatytų miestų, miestelių ar gyvenviečių teritorijų ir atokiau nuo lauke susirinkusių žmonių minių. Tik gavę specialų DGAC patvirtinimą galite skristi arčiau, tačiau niekada ne arčiau kaip 30 m nuo tų pastatų ar susibūrimų.",
       "VISI lengvesni nei 25 kg dronai privalo turėti identifikavimo plokštelę su serijos numeriu, savininko vardu ir telefono numeriu",
-      "Dronai, sveriantys 25 kg ar daugiau: privaloma registracija adresu drones.dgac.go.cr",
+      "Privaloma registracija drones.dgac.go.cr: ≥25 kg dronams ir bet kokiam nepramoginiam naudojimui (komerciniam ar nekomerciniam), nepriklausomai nuo svorio",
       "Pramoginis naudojimas <25 kg: formali registracija NEREIKALINGA, jei laikomasi pagrindinių taisyklių",
       "Visada laikykite droną tiesioginiame regėjimo lauke (VLOS)",
       "Skraidyti leidžiama tik dieną ir esant geram orui — naktiniam skraidymui reikalingas leidimas",
+      "Nepramoginis nekomercinis naudojimas (įskaitant <25 kg dronus): DGAC kompetencijos pažymėjimas (ne jaunesniems kaip 18 metų), civilinės atsakomybės draudimas ir registracija drones.dgac.go.cr",
       "Komercinis naudojimas: RPAS licencija + Technical Council pažymėjimas + DGAC veiklos pažymėjimas",
       "Draudžiama skraidyti virš privačios valdos be leidimo, virš kalėjimų, ribojamų zonų ir oro uostų"
     ],
     "importantNotes": [
       "🏷️ PRIVALOMA IDENTIFIKAVIMO PLOKŠTELĖ: nors lengvesniems nei 25 kg dronams pramoginiam naudojimui formali registracija NEREIKALINGA, VISI dronai privalo turėti identifikavimo plokštelę su serijos numeriu, savininko vardu ir kontaktiniu telefono numeriu. Tai griežčiausias fizinio identifikavimo reikalavimas.",
-      "✈️ UŽSIENIO TURISTAMS: taisyklės taikomos nerezidentams. Pramoginiam naudojimui reikia identifikavimo plokštelės ir laikytis pagrindinių taisyklių (neskraidyti prie oro uostų, virš privačios valdos ar kalėjimų), tačiau formalios registracijos nereikia. Įvažiuojant į šalį muitinė gali pareikalauti drono deklaracijos.",
-      "🌳 NACIONALINIAI PARKAI IR SINAC: National System of Conservation Areas (SINAC) reikalauja specialaus leidimo skraidinti dronus tokiuose parkuose kaip Manuel Antonio, Corcovado, Tortuguero, Arenal Volcano, Monteverde ir Poás Volcano. Saugoma biologinė įvairovė ir laukinė gyvūnija — PRIEŠ kelionę pasitikslinkite kiekvieno parko administracijoje.",
-      "🏖️ TURISTINĖS VIETOS IR ORO UOSTAI: SJO (Juan Santamaría, Alajuela), LIR (Liberia, Guanacaste), Presidential Palace, ambasadoms ir karinėms zonoms taikomi nuolatiniai ribojimai. Turistiniuose paplūdimiuose, tokiuose kaip Tamarindo, Manuel Antonio ir Jacó, dažnai galioja papildomi savivaldybių ribojimai.",
+      "✈️ UŽSIENIO TURISTAMS: taisyklės taikomos nerezidentams. Pramoginiam naudojimui reikia identifikavimo plokštelės ir laikytis pagrindinių taisyklių (neskraidyti prie oro uostų, virš privačios valdos ar kalėjimų), tačiau formalios registracijos nereikia. Įvažiuojant į šalį muitinė gali pareikalauti drono deklaracijos. Užsienio pilotams komerciniais tikslais: DGAC gali patvirtinti užsienio RPAS licenciją (licencija ir medicininis pažymėjimas turi galioti) ne ilgiau kaip 3 mėnesiams, pagrįstais atvejais pratęsiant tik vieną kartą 3 mėnesiams. Patvirtinimas nepakeičia kitų komercinio naudojimo reikalavimų.",
+      "🌳 NACIONALINIAI PARKAI IR SINAC: Manuel Antonio nacionaliniame parke (SINAC) dronai neleidžiami. Kitose saugomose teritorijose jie gali būti draudžiami ar ribojami — pasitikrinkite kiekvienoje teritorijoje PRIEŠ kelionę.",
+      "🏖️ RIBOJAMOS ZONOS: be DGAC leidimo draudžiama skraidyti AIP paskelbtose draudžiamose ar ribojamose zonose ir 8 km atstumu nuo oro uostų, tokių kaip SJO ir LIR. Taip pat pasitikrinkite galimus savivaldybių ribojimus.",
       "💰 KOMERCINIS NAUDOJIMAS IR BAUDOS: komerciniai skrydžiai be RPAS licencijos ar Technical Council išduoto pažymėjimo gali užtraukti baudas, įrangos konfiskavimą ir draudimą vykdyti operacijas. Mokamam fotografavimui ar filmavimui licenciją gaukite prieš pradėdami veiklą."
     ],
     "primaryLinks": [
       {
         "title": "DGAC — Dronų registras (specialus portalas)",
-        "description": "Oficiali Civilinės aviacijos generalinės direkcijos svetainė dronams registruoti ir registracijos numeriui gauti. Platforma specialiai RPAS"
+        "description": "Oficialus specialus Civilinės aviacijos generalinės direkcijos portalas dronams registruoti ir registracijos numeriui gauti. Platforma specialiai RPAS"
       },
       {
         "title": "DGAC — Pagrindinis puslapis",
@@ -57,7 +58,7 @@
         "description": "Oficiali Kosta Rikos turizmo svetainė. Naudinga norint suprasti, kuriose turistinėse vietovėse galioja specialūs dronų ribojimai"
       }
     ],
-    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius DGAC šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Kosta Rikoje galioja RAC OPS RPAS ir DGAC’s Operational Directive. Visi dronai privalo turėti identifikavimo plokštelę; komerciniam naudojimui reikalingas Civil Aviation Technical Council pažymėjimas.",
+    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius DGAC šaltinius. Ši programėlė yra įrankis, o ne oficialus teisės šaltinis. Kosta Rikoje galioja RAC-RPAS (Decreto Ejecutivo N° 44615-MOPT, galioja nuo 27/09/2024). Visi dronai privalo turėti identifikavimo plokštelę; komerciniam naudojimui reikalingas Civil Aviation Technical Council pažymėjimas.",
     "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS",
     "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
     "sectionLabelSecondary": "PAPILDOMI IŠTEKLIAI",

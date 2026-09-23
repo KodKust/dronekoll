@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "51b497a18aafd4cff4e8165ebea4d22e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "05a601befa3ab4524ab9e1c3f953a9bc",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,21 +14,27 @@
     "dronePilotCredentialName": "Pilota apliecība",
     "keyRules": [
       "Maks. 122 m (400 ft) virs zemes",
-      "Izvieto reģistrācijas numuru (C-F####) uz drona",
+      "Nekad nelido 9,3 km (5 NM) rādiusā no meža ugunsgrēka vai ārkārtas operācijas (negadījums, plūdi) drošības perimetrā — attiecas uz visiem droniem, arī zem 250 g.",
+      "Nelido izsludinātos pasākumos (koncerti, festivāli, sports) vai to tuvumā bez SFOC-RPAS — tas attiecas arī uz droniem zem 250 g.",
+      "Skaidri izvieto uz drona tā reģistrācijas numuru (piem., C-1234567890)",
       "Pamata apliecība: no 14 gadiem, 35 jautājumu eksāmens (65% nokārtošanas slieksnis) — tikai nekontrolēta gaisa telpa",
       "Paaugstināta līmeņa apliecība: no 16 gadiem, 50 jautājumu eksāmens (80% nokārtošanas slieksnis) + lidojuma pārbaude — kontrolēta gaisa telpa",
       "Droni, kas sver mazāk par 250 g: reģistrācija vai apliecība nav nepieciešama",
+      "Ārvalstu apmeklētāji, kas lido ar savu 250 g+ dronu: nepieciešama Kanādas drona pilota apliecība (mītnes valsts licence neskaitās) un Foreign SFOC-RPAS, jo ārzemnieki nevar reģistrēt dronus Kanādā. Piesakies laikus — pakalpojuma standarts ir 30 darba dienas. Zem 250 g: SFOC nav nepieciešams, izņemot izsludinātos pasākumos.",
       "Vienmēr saglabā tiešu redzamības kontaktu (VLOS) — tiešu vizuālu kontaktu bez palīglīdzekļiem",
       "Saglabā 30 m horizontālu attālumu no cilvēkiem (pamata operācijās)",
-      "Ja vien netiek ievērota Transport Canada noteikta procedūra, turies 5,6 km (3 NM) attālumā no sertificētām lidostām un 1,9 km (1 NM) attālumā no sertificētiem helikopteru laukumiem. Lidošanai kontrolētā gaisa telpā nepieciešama paaugstināta līmeņa apliecība un NAV DRONE atļauja.",
+      "Lidošana naktī (droni 250 g+): dronam jābūt ugunīm, kas nodrošina, ka to redzi tu vai tavs vizuālais novērotājs, un tām jābūt ieslēgtām.",
+      "Droni 250 g+: nelido 12 stundu laikā pēc alkohola lietošanas vai reibuma stāvoklī",
+      "Basic: ievēro vairāk nekā 5,6 km (3 NM) attālumu no sertificētām lidostām un 1,9 km (1 NM) no sertificētiem helikopteru laukumiem. Tuvāk tikai ar Advanced apliecību, ievērojot noteiktās procedūras. Kontrolēta gaisa telpa: Advanced apliecība + drons ar atbilstošu drošības deklarāciju + NAV DRONE atļauja.",
+      "5,6 km (3 NM) rādiusā no militāra lidlauka centra nepieciešama Department of National Defence atļauja.",
       "Provinču un nacionālie parki parasti aizliedz dronu izmantošanu atpūtai — aizliegums ir apstiprināts Alberta, Ontario un British Columbia provinču parkos, kā arī visās Parks Canada nacionālo parku teritorijās. Pirms lidojuma pārbaudi konkrētā parka noteikumus."
     ],
     "importantNotes": [
-      "BC un Alberta provinču parki aizliedz atpūtas dronus bez atļaujas",
+      "BC un Albertas provinču parki: lidot ar dronu bez parka atļaujas ir nelikumīgi, un atpūtas lidojumi nav atļauti (Albertā: jebkura izmēra; BC: atļauju piešķir reti)",
       "Ontario provinces parki un Toronto pilsētas parki aizliedz atpūtas dronus",
-      "Vairums pašvaldību aizliedz dronus publiskajos parkos bez atļaujas",
+      "Arī citas pašvaldības var aizliegt dronus pilsētas parkos bez atļaujas — pirms lidošanas pārbaudi vietējos saistošos noteikumus",
       "Apdrošināšana pamata darbībai nav nepieciešama, bet ir stingri ieteicama",
-      "Level 1 Complex Operations apliecība (kopš 2025. gada novembra) ļauj veikt zema riska BVLOS operācijas bez SFOC"
+      "Level 1 Complex pilota apliecība (18+) kopš 2025. gada 4. novembra ļauj veikt zema riska BVLOS lidojumus bez SFOC — taču tikai saskaņā ar RPAS Operator Certificate (RPOC), kas ir tev vai operatoram, kura labā tu lido"
     ],
     "primaryLinks": [
       {
@@ -37,7 +43,7 @@
       },
       {
         "title": "Transport Canada — Reģistrē savu dronu",
-        "description": "Reģistrē dronus 250 g+ caur Drone Management Portal ($5, ~3 minūtes)"
+        "description": "Reģistrē dronus 250 g+ caur Drone Management Portal (apm. $10, katru gadu koriģē; ~3 minūtes)"
       },
       {
         "title": "NAV DRONE — Kontrolēta gaisa telpa",

@@ -1,45 +1,44 @@
 {
   "meta": {
-    "sourceHash": "81c150124a0453afe7f5155ecf3def2f6e3595db14698b42ea98cfaec819abc2",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "739c62107e50c8694e19f4d73e36df062253357ffa3b107cac8d667605278391",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimālais augstums: 122 m (400 ft) virs zemes (AGL)",
-      "Maksimālais horizontālais attālums: 750 m no operatora (saglabājot VLOS)",
+      "Maksimālais augstums: 122 m (400 ft) virs zemes (RAC 100).",
+      "Maksimālais horizontālais attālums: 750 m no operatora, saglabājot tiešu redzamību (VLOS) (RAC 100).",
       "Droni ar MTOW 200 g vai vairāk: obligāta reģistrācija Aerocivil UAS platformā",
-      "Atvērtā kategorija (droni ≤25 kg): darbība atļauta bez iepriekšējas atļaujas saskaņā ar RAC 100",
-      "B klase (25–150 kg): vienmēr nepieciešama Aerocivil atļauja",
-      "Minimālais attālums 9 km no lidostu atskaites punkta",
-      "Minimālais attālums 3 km no helikopteru laukumiem",
+      "Reģistrēts drons: uz tā ir nostiprināta vismaz 2 × 4 cm liela etiķete ar reģistrācijas numuru, vārdu, e-pastu un atencionalciudadano@aerocivil.gov.co (RAC 100).",
+      "Atvērtā kategorija (droni ≤25 kg, tikai nekomerciālai lietošanai): darbība atļauta bez iepriekšējas atļaujas saskaņā ar RAC 100. Komerciāla lietošana = specifiskā kategorija ar atļauju.",
+      "Droni virs 25 kg (līdz 250 kg): tikai specifiskajā kategorijā, ar Aerocivil lidojuma atļauju un pilotu, kuram ir piemērotības apliecība (RAC 100).",
+      "Minimālais attālums 2 km no militārām vai policijas bāzēm, cietumiem un kritiskās infrastruktūras, kā arī no jebkuras vietas, kur atrodas prezidents (RAC 100).",
+      "Lidostas: aizliegts lidot lidostā un 6 km rādiusā no atskaites punkta (ARP); no 6 līdz 9 km tikai atvērtajā kategorijā, maksimāli 61 m (200 ft) virs zemākā sliekšņa un ārpus ZNVD — pārbaudi Visor Geográfico UAS (RAC 100).",
+      "Minimālais attālums 3 km no helikopteru laukumiem (RAC 100).",
       "Minimālais attālums 30 m no cilvēkiem un ēkām, kas nav iesaistītas",
-      "Vienmēr turi dronu tiešā redzamības laukā (VLOS) un lido tikai gaišajā diennakts laikā",
-      "GEO zonas (droniem ierobežotas teritorijas) nosaka Aerocivil saskaņā ar ICAO"
+      "Vienmēr turi dronu tiešā redzamībā (VLOS). Naktī tikai ar pastāvīgi ieslēgtām ugunīm un ar novērotāju (RAC 100).",
+      "Dronu lidojumu aizlieguma zonas (ZNVD) un aizliegtās, ierobežotās un bīstamās zonas var pārbaudīt Aerocivil Visor Geográfico UAS (RAC 100)."
     ],
     "importantNotes": [
       "📋 RAC 100 (pašlaik spēkā): galvenais dronu regulējums Kolumbijā. Tas aizstāj iepriekšējo RAC 91, Appendix 13. Tas nosaka atvērto kategoriju (darbība bez iepriekšējas atļaujas) un specifisko kategoriju (ar atļauju). Circular 100-MAUT-5.0-22-010-CI sniedz soli pa solim norādes par reģistrācijas procesu.",
+      "✈️ TŪRISTI: RAC 100 attiecas arī uz ārzemniekiem. Dronus no 200 g reģistrē platformā Plataforma UAS Colombia ar derīgu pasi; process ir bez maksas.",
       "🌳 NACIONĀLIE PARKI UN AIZSARGĀJAMĀS TERITORIJAS: Kolumbijas nacionālie dabas parki (PNN) aizliedz dronus bez īpašas atļaujas tādos parkos kā Tayrona, Cocuy, Los Nevados un Amacayacu. Kolumbijas Karību reģionā un Amazones reģionā ir papildu ierobežojumi — pirms ceļojuma pārbaudi katra parka noteikumus.",
-      "🏛️ IEROBEŽOTĀS UN PILSĒTAS ZONAS: Bogotá centrs (Casa de Nariño, Plaza Bolívar, El Dorado Airport (SKBO)), Cartagena mūru ieskautā vecpilsēta, militārās zonas, robežas (Venezuela, Ecuador, Panama), kuģojamās upes un naftas platformas ir pakļautas pastāvīgiem ierobežojumiem — pārbaudi Aerocivil GEO zonas.",
-      "💰 SODI UN ATBILDĪBA: Darbība bez licences vai ārpus atļautajām zonām var izraisīt būtiskus naudassodus (UVT — nodokļa vērtības vienība), iekārtu konfiskāciju un smagos gadījumos kriminālatbildību. Komerciālai lietošanai: nepieciešama civiltiesiskās atbildības apdrošināšana."
+      "🏛️ IEROBEŽOTĀS ZONAS: aizliegts lidot ZNVD zonās (piem., ap El Dorado SKBO) — pirms katra lidojuma pārbaudi Aerocivil Visor Geográfico UAS.",
+      "💰 SODI UN ATBILDĪBA: darbība bez reģistrācijas vai ārpus atļautajām zonām var izraisīt būtiskus naudassodus (UVT — nodokļa vērtības vienība), iekārtu konfiskāciju un smagos gadījumos kriminālatbildību. Komerciālai lietošanai: nepieciešama civiltiesiskās atbildības apdrošināšana."
     ],
     "primaryLinks": [
       {
-        "title": "Aerocivil — Bezpilota gaisa kuģu sistēmas (UAS/Droni)",
-        "description": "Īpašās civilās aviācijas administratīvās vienības (UAEAC) oficiālā vietne par droniem: RAC 100, informatīvie apkārtraksti, UAS reģistrācija"
-      },
-      {
-        "title": "RPAS dokumenti — Navigācijas pakalpojumi",
-        "description": "Oficiāla RPAS/dronu dokumentu krātuve: veidlapas, reģistrācijas rokasgrāmatas, apkārtraksts 100-MAUT-5.0-22-010-CI un piemērojamais regulējums"
+        "title": "Aerocivil — bezpilota aviācija (UAS/droni)",
+        "description": "Civilās aviācijas īpašās administratīvās vienības (UAEAC) oficiālā vietne par droniem: RAC 100, informatīvie apkārtraksti, UAS reģistrācija"
       },
       {
         "title": "Aerocivil — Biežāk uzdotie jautājumi par droniem",
         "description": "Oficiālā biežāk uzdoto jautājumu sadaļa par droniem un pilsētas gaisa mobilitāti ar detalizētām atbildēm uz izplatītiem operatoru jautājumiem"
       },
       {
-        "title": "Nacionālais aeronavigācijas reģistrs — UAS",
-        "description": "Aviācijas reģistrācijas sistēma droniem, kas sver vairāk par 250 g. Ietver reģistrācijas rokasgrāmatu un prasības: identifikāciju, drona fotogrāfijas (6, PDF <2 MB) un digitālu veidlapu"
+        "title": "Aerocivil — Plataforma UAS Colombia (dronu reģistrācija)",
+        "description": "Aerocivil UAS e-pakalpojumu portāls: piekļuve Plataforma UAS Colombia, lai reģistrētu dronus no 200 g (bez maksas), Visor Geográfico UAS un pamācības"
       }
     ],
     "secondaryLinks": [
@@ -49,11 +48,11 @@
       },
       {
         "title": "Iedzīvotāju apkalpošana (e-pasts + tālrunis)",
-        "description": "Aerocivil oficiālā e-pasta adrese uzziņām par droniem. Tālrunis: +57 (601) 425 1000 vai bezmaksas 01 8000 112373. Pirmdiena–piektdiena, 8:00–16:30"
+        "description": "Aerocivil oficiālā e-pasta adrese uzziņām par droniem. Tālrunis: +57 (601) 425 1000 vai +57 (601) 518 5214. Pirmdiena–piektdiena 8:00–16:30. Droni: gdmua@aerocivil.gov.co"
       },
       {
         "title": "Kolumbijas aviācijas noteikumi (RAC)",
-        "description": "Kolumbijas aeronavigācijas noteikumi (RAC). Ietver RAC 100 (UAS darbība), RAC 91 13. pielikumu un visus droniem piemērojamos noteikumus"
+        "description": "Kolumbijas aeronavigācijas noteikumi (RAC). Ietver RAC 100 (UAS darbība, spēkā kopš 2023. gada) un pārējos droniem piemērojamos noteikumus"
       }
     ],
     "disclaimerText": "Pirms lidošanas vienmēr pārbaudi Civilās aviācijas iestādes (Aerocivil) oficiālos avotus. Šī lietotne ir rīks, nevis juridiska instance. Kolumbijā spēkā ir RAC 100 (aviācijas noteikumi UAS operācijām), kas paredz obligātu reģistrāciju droniem ar MTOW 200 g vai vairāk, izmantojot UAS platformu.",

@@ -1,26 +1,29 @@
 {
   "meta": {
-    "sourceHash": "53287a6bbcc1a046359816ed2a7de6b009d10fc753031bec7dc231d525fdedf3",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "76cde0e68eaea6de50863e60f85670840fe89558dc64828a40f7f9cfd6b8a0c6",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maks. 120 m virs zemes (EASA atvērtā kategorija)",
-      "Kā UAS operatoram jāreģistrējas, ja drons sver 250 g vai vairāk vai ir aprīkots ar kameru",
-      "Obligāta tiešsaistes apmācība A1/A3 — minimālais vecums 16 gadi",
-      "8 km aizsardzības zona ap lidostām (lielāka par EASA standartu)",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, ko mēra kā attālumu līdz tuvākajam zemes virsmas punktam — ne vienkārši taisni uz leju, tāpēc nogāzes tuvumā var skaitīties arī reljefs tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgā persona var lūgt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Tev jāreģistrējas kā drona operatoram, ja tavs drons sver 250 g vai vairāk (vai triecienā varētu nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas pat uz rotaļlietām. Zem 250 g reģistrācija tomēr ir nepieciešama, ja dronam ir sensors, kas spēj uztvert personas datus, izņemot gadījumu, ja tas tiek uzskatīts par rotaļlietu saskaņā ar ES Rotaļlietu drošuma direktīvu. Pilota apmācības/apliecības prasības ir atsevišķas un ir atkarīgas no drona klases un apakškategorijas. Operatora reģistrācijas numurs ar uzlīmi tiek izvietots uz katra drona un, ja dronam ir tālvadības identifikācijas sistēma (Remote ID), tiek ievadīts arī tajā.",
+      "Minimālais vecums patstāvīgai lidošanai atvērtajā kategorijā ir 16 gadi — A1/A3 tiešsaistes apmācību un eksāmenu kārto DG CAA sistēmā (uas.caa.bg, pieslēgšanās ar kvalificētu elektronisko parakstu), tie ir derīgi 5 gadus un atzīti visā ES. Bez minimālā vecuma: C0 klase A1 apakškategorijā, pašbūvēts drons, kas sver mazāk par 250 g, vai lidojums tiešā uzraudzībā pilotam ar nepieciešamo kompetenci. Ja pilotam nav 18 gadu, par operatoru reģistrējas vecāks vai aizbildnis.",
+      "Tūristi: ja tavs drons ir jāreģistrē, reģistrējies kā operators ES valstī, kurā dzīvo; ja dzīvo ārpus ES — pirmajā ES valstī, kurā lidosi (Bulgārijā: uas.caa.bg). Kvalifikācijas no valstīm ārpus ES netiek atzītas — nepieciešamā apmācība (piem., A1/A3) jāpabeidz ES.",
+      "Ap lidostām ir dažāda lieluma ģeogrāfiskās zonas. Sofijas, Varnas, Burgasas, Plovdivas un Gorna Orjahovicas lidostās zonas ir lielākas par 8 km: iekšējā zonā katram lidojumam nepieciešama DG CAA atļauja, bet plašākajā zonā — lidojumiem virs 50 m. Piesakies vismaz 7 darba dienas iepriekš. Pārbaudi karti uas.caa.bg.",
       "Sofijas lidostas apkārtne aptver ievērojamu pilsētas daļu",
-      "Nepieciešama iepriekšēja saskaņošana ar BULATSA pirms lidojuma",
-      "Vienmēr turi dronu tiešā redzamībā (VLOS)",
+      "Bez atļaujas ir aizliegts lidot ierobežotās vai aizliegtās ģeogrāfiskajās zonās, aktivizētās (pagaidu rezervētās) gaisa telpas struktūrās un publiskas lietošanas lidostu apsargātajās robežās. Pārkāpuma gadījumā dronu var piespiest nosēsties vai to aizvākt, un jebkādi zaudējumi sedzami no pārkāpēja līdzekļiem.",
+      "Pirms katra lidojuma pārbaudi ģeogrāfiskās zonas DG CAA kartē (uas.caa.bg); zonā, kurā nepieciešama atļauja, iesniedz pieteikumu DG CAA zonai noteiktajā termiņā.",
+      "Atvērtajā kategorijā dronam jābūt tavā tiešajā redzamībā ar neapbruņotu aci (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai ar novērotāja palīdzību, visu laiku skaidri un efektīvi sazinoties, lai kopā uzraudzītu gaisa telpu un izvairītos no sadursmēm. Režīms “Follow-me” ir atsevišķs izņēmums tikai apakškategorijā A1 (C0/C1 klases droni vai pašbūvēti droni zem 250 g), līdz 50 m no pilota.",
       "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kas nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
       "Nakts lidojumi ir atļauti saskaņā ar EASA atvērtās kategorijas pamatnosacījumiem, ja tiek izmantota nepieciešamā zaļā mirgojošā gaisma, ja vien spēkā esošie ģeogrāfiskās zonas vai valsts noteikumi neparedz stingrākus nosacījumus.",
-      "Nacionālajos parkos un dabas rezervātos ir spēkā ierobežojumi"
+      "Nacionālajos parkos un dabas rezervātos ir spēkā ierobežojumi",
+      "Trešo personu civiltiesiskās atbildības apdrošināšana ir obligāta droniem virs 20 kg, kā arī komerciālai/profesionālai darbībai — neatkarīgi no svara. Profesionālai darbībai atvērtajā kategorijā operators iesniedz deklarāciju DG CAA."
     ],
     "importantNotes": [
-      "Pirms lidojuma nepieciešama iepriekšēja saskaņošana ar BULATSA",
-      "8 km drošības zona ap lidostām — lielāka par EASA standartu",
+      "Pirms lidojuma pārbaudi ģeogrāfiskās zonas uas.caa.bg un aktīvos NOTAM BULATSA B-FLIP",
+      "Ap lielākajām lidostām ir ģeogrāfiskās zonas, kas lielākas par 8 km; tajās nepieciešama DG CAA atļauja (plašākajā zonā — lidojumiem virs 50 m). Pārbaudi karti uas.caa.bg.",
       "Sofijas lidostas apkārtne ierobežo lidojumus virs lielas pilsētas daļas",
       "Militārie objekti: zonas, kurās lidošana ir stingri aizliegta",
       "GDPR attiecas uz atpazīstamu personu fotografēšanu"
@@ -40,7 +43,7 @@
       },
       {
         "title": "DG GVA — Dronu zonas",
-        "description": "Informācija un ierobežojumi par ģeogrāfiskajām zonām dronu lidojumiem"
+        "description": "Oficiālā DG CAA ģeogrāfisko zonu un ierobežojumu karte dronu lidojumiem"
       }
     ],
     "secondaryLinks": [
@@ -50,10 +53,10 @@
       },
       {
         "title": "BULATSA — NOTAM",
-        "description": "Aktīvie NOTAM un pagaidu gaisa telpas ierobežojumi"
+        "description": "Aktīvie NOTAM un pagaidu gaisa telpas ierobežojumi B-FLIP portālā (nepieciešama B-FLIP reģistrācija)"
       }
     ],
-    "disclaimerText": "Pirms lidojuma vienmēr pārbaudi DG CAA un BULATSA oficiālos avotus. Šī lietotne ir rīks, tā nav juridiska instance. Bulgārija ievēro EASA noteikumus ar nacionālajiem papildinājumiem, tostarp prasību par iepriekšēju saskaņošanu pirms lidojuma.",
+    "disclaimerText": "Pirms lidojuma vienmēr pārbaudi DG CAA (uas.caa.bg) un BULATSA oficiālos avotus. Šī lietotne ir rīks, tā nav juridiska instance. Bulgārija ievēro EASA noteikumus ar nacionālajiem papildinājumiem, tostarp DG CAA atļauju lidojumiem dažās ģeogrāfiskajās zonās.",
     "sectionLabelRules": "PAMATNOTEIKUMI (EASA ATVĒRTĀ KATEGORIJA)",
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",

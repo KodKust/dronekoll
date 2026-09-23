@@ -1,27 +1,29 @@
 {
   "meta": {
-    "sourceHash": "b98ef8dd7e9c6b0c530a3757ad835b367dd07af3c65b9dd744c1512f5f5992cd",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "27f497a74725016dcbdecc01ce23d9050fb7893544b864e9bca529e0be6b134f",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröidy UAS-käyttäjäksi, jos drone painaa vähintään 250 g tai siinä on kamera",
-      "A1/A3-verkkokoulutus on pakollinen — vähimmäisikä 16 vuotta",
-      "Pakollinen vastuuvakuutus KAIKENPAINOISILLE droneille (vakuutusturva 1–2,5 miljoonaa €)",
-      "Bryssel: vaaditaan kaksi lupaa (liittovaltion lupa + alueellinen hyväksyntä)",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä lähin piste voi olla myös vieressäsi oleva maasto. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
+      "Sinun on rekisteröidyttävä UAS-käyttäjäksi, jos dronesi painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g:n dronen kohdalla rekisteröinti vaaditaan silti, jos dronessa on henkilötietoja tallentamaan kykenevä anturi, ellei sitä pidetä EU:n lelujen turvallisuusdirektiivin mukaisena leluna. Rekisteröidy siinä EU-/EASA-maassa, jossa asut (jos asut niiden ulkopuolella: ensimmäisessä EU-/EASA-maassa, jossa aiot lentää); rekisteröinti on voimassa kaikissa EU-/EASA-maissa. Lentäjän koulutus- ja todistusvaatimukset määritetään erikseen, ja ne riippuvat dronen luokasta ja alaluokasta.",
+      "Belgiassa alaluokkien A1/A3 vähimmäisikä on 14 vuotta — maksuton verkkokoulutus ja -koe ovat voimassa 5 vuotta ja tunnustetaan koko EU:ssa. Alaluokassa A2 vähimmäisikä on edelleen 16 vuotta. Poikkeukset 14 vuoden ikärajaan: ei vähimmäisikää, kun kyseessä on alaluokassa A1 lennettävä C0-drone, joka on lelu (EU:n lelujen turvallisuusdirektiivi), itse rakennettu alle 250 g:n drone tai lentäminen vähintään 16-vuotiaan, vaaditun todistuksen omaavan lentäjän välittömässä valvonnassa.",
+      "Vastuuvakuutus (kolmansille osapuolille aiheutuneet henkilö- ja omaisuusvahingot) on avoimessa kategoriassa pakollinen, paitsi alle 900 g:n droneille, joita käytetään vain yksityisesti. 20 kg:sta alkaen sovelletaan asetuksen (EY) N:o 785/2004 vaatimuksia.",
+      "Ulkomaiset lentäjät: toisessa EU-jäsenvaltiossa tehty rekisteröinti ja A1/A3/A2-todistus ovat voimassa Belgiassa; pidä rekisteröintitodistus mukanasi ja merkitse käyttäjänumerosi droneen. Myös Belgian maantieteelliset vyöhykkeet ja Belgian vakuutusvaatimus (paitsi yksityiskäyttö alle 900 g) koskevat sinua.",
+      "Bryssel: geovyöhykkeellä EBR-01 tarvitset asianomaisen laitoksen ennakkoluvan lentääksesi suurlähetystöjen sekä liittovaltion ja kansainvälisten (myös EU:n) laitosten yllä tai 50 m:n säteellä niistä. Tarkista myös Brysselin lentoaseman lähialueen (CTR) ehdot Droneguidesta sekä kunnalliset säännöt, jos haluat lähteä lentoon julkiselta paikalta tai kuvata siellä.",
+      "Avoimessa kategoriassa dronen on pysyttävä omassa näköyhteydessäsi paljain silmin (silmälasit/piilolinssit käyvät; kiikareita tai näyttöä ei lasketa) — tai lennä tähystäjän avulla niin, että viestitte keskenänne selkeästi ja tehokkaasti koko ajan ja voitte yhdessä valvoa ilmatilaa ja välttää yhteentörmäykset. Follow me -tila alaluokassa A1 on erillinen poikkeus, joka on sallittu enintään 50 m:n päässä lentäjästä.",
+      "Dronet ilman luokkamerkkiä (saatettu markkinoille ennen vuotta 2024): alle 250 g alaluokassa A1, muuten vain alaluokassa A3 ja enintään 25 kg (vähintään 150 m asuin-, liike-, teollisuus- tai virkistysalueista). Ilman luokkamerkkiä ja markkinoille saatettu 31.12.2023 jälkeen: ei avoimessa kategoriassa.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-      "Vähintään 3 km:n etäisyys lentoasemista ja helikopterikentistä",
+      "Lentoasemille ei ole yhtenäistä EU:n laajuista etäisyyttä; geovyöhykkeiden muoto ja koko vaihtelevat lentoasemittain. Belgian lähialueilla (CTR) sovelletaan geovyöhykkeitä (ks. Droneguide): kiitoteiden ympärillä olevalla VLL 0 -alueella avoin kategoria on kielletty; VLL 1- ja VLL 2 -alueilla enintään 150 ft (n. 45 m) maanpinnasta (VLL 1 -alueella lisäksi enintään 100 m:n säteellä olevan korkeimman esteen korkeudelle). VLL 1: ennakkolupa vaaditaan; VLL 2: ilmoita lennosta vähintään 3 tuntia etukäteen. Hae skeyesin DAA-plannerin kautta; puhelimitse tavoitettavissa oleminen, geotietoisuus ja Remote ID ovat pakollisia (Remote ID ei koske C0-droneja eikä tiettyjä alle 250 g:n droneja).",
       "Yölento on sallittu EASA:n avoimen kategorian perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
       "Tarkista Droneguidesta vyöhykekohtaiset korkeusrajat ja rajoitukset"
     ],
     "importantNotes": [
-      "Pakollinen vakuutus KAIKENPAINOISILLE droneille — vakuutusturvan on oltava 1–2,5 miljoonaa €",
-      "Bryssel edellyttää sekä liittovaltion rekisteröintiä ETTÄ alueellista lupaa",
-      "Kolmen lentoaseman (Bryssel, Charleroi, Liège) ympärille ollaan perustamassa laajoja rajoitusvyöhykkeitä",
+      "Vastuuvakuutus pakollinen, paitsi yksityiskäytössä alle 900 g:n droneilla",
+      "Bryssel (geovyöhyke EBR-01): lentäminen suurlähetystöjen, liittovaltion hallintolaitosten ja kansainvälisten laitosten yllä tai 50 m:n säteellä niistä vain asianomaisen laitoksen ennakkoluvalla",
+      "Valvotuilla lentoasemilla (Bryssel, Antwerpen, Charleroi, Liège, Oostende) ja sotilaslentopaikoilla on lähialueen (CTR) geovyöhykkeet tiukoin ehdoin; Kortrijk-Wevelgemillä on RMZ/TMZ-geovyöhyke.",
       "Rikkomuksista voi seurata sakkoja ja rikossyytteitä",
       "GDPR-tietosuoja-asetus koskee tunnistettavia henkilöitä esittävien kuvien ottamista"
     ],
@@ -45,15 +47,15 @@
     ],
     "secondaryLinks": [
       {
-        "title": "skeyes — Lennonjohto",
-        "description": "Belgian lennonjohto ja tietoa ilmatilasta"
+        "title": "skeyes — Dronet ja geovyöhykkeet",
+        "description": "Belgian lennonvarmistusorganisaation dronesivu: geovyöhykkeillä lentämisen ehdot ja DAA-planner"
       },
       {
         "title": "BCAA — Usein kysyttyä droneista",
         "description": "Usein kysyttyä Belgian dronemääräyksistä"
       }
     ],
-    "disclaimerText": "Tarkista aina BCAA:n viralliset lähteet ja Droneguide ennen lennättämistä. Tämä sovellus on apuväline, ei virallinen oikeuslähde. Belgia noudattaa EASAn määräyksiä, joihin sisältyvät tiukat kansalliset vakuutusvaatimukset.",
+    "disclaimerText": "Tarkista aina BCAA:n viralliset lähteet ja Droneguide ennen lennättämistä. Tämä sovellus on apuväline, ei virallinen oikeuslähde. Belgia noudattaa EASAn määräyksiä, joita täydentävät kansalliset säännöt (mm. pakollinen vakuutus ja kiinteät maantieteelliset vyöhykkeet).",
     "sectionLabelRules": "TÄRKEIMMÄT SÄÄNNÖT (EASAN AVOIN KATEGORIA)",
     "sectionLabelPrimary": "VIRALLISET LÄHTEET",
     "sectionLabelSecondary": "LISÄRESURSSIT",

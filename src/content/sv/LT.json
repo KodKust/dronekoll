@@ -1,56 +1,59 @@
 {
   "meta": {
-    "sourceHash": "c6156d2d7270eed1f0bbf03a22c83cd1cf94b1875c9f45ae22d161f7fab4e957",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e93e943369b28f887990b72c587e2c372465bbacd9292903c416ee4c4ebf7e67",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Högst 120 m över marken (EASA öppen kategori)",
-      "Registrera dig som UAS-operatör (10 €/år) om drönaren väger 250 g eller mer eller är utrustad med kamera",
-      "Obligatorisk A1/A3-onlineutbildning – lägsta ålder 16 år",
+      "I den öppna kategorin är högsta höjd 120 m, mätt som avståndet till närmaste punkt på markytan – inte bara rakt nedåt, så när du flyger nära en sluttning kan även marken intill räknas in. Inom 50 m från ett högt konstgjort hinder (högre än 105 m) kan den som ansvarar för hindret begära tillstånd att flyga upp till 15 m över hindrets höjd.",
+      "Du måste registrera dig som drönaroperatör om drönaren väger 250 g eller mer (eller kan överföra mer än 80 J rörelseenergi vid en kollision) – det gäller även leksaker. Under 250 g krävs registrering ändå om drönaren har en sensor som kan samla in personuppgifter, såvida den inte räknas som en leksak enligt EU Toy Safety Directive. Kraven på pilotutbildning och intyg är separata och beror på drönarens klass och underkategori.",
+      "Registreringsnumret ska vara synligt på drönaren och (för drönare i klass C1–C3) vara inlagt i Remote ID-systemet",
+      "Drönare utan C-klassbeteckning (släppta på marknaden före 2024-01-01) och privatbyggda drönare får bara flyga i underkategorin A1 om startmassan är under 250 g, eller i underkategorin A3 om den är under 25 kg",
+      "Lägsta ålder för fjärrpiloter är 16 år (EU-regel; Litauen har inte sänkt den). Yngre piloter får bara flyga: under direkt uppsikt av en fjärrpilot som uppfyller kraven; med en leksak i klass C0 i underkategorin A1; eller med en privatbyggd drönare med en startmassa under 250 g. A1/A3-utbildningen och provet genomförs i TKA-systemet, och intyget gäller i 5 år.",
       "Ansvarsförsäkring mot tredje man är obligatorisk för drönare som väger mer än 20 kg",
-      "Håll alltid drönaren inom synhåll (VLOS)",
+      "I den öppna kategorin måste du hålla drönaren inom ditt eget direkta synhåll utan hjälpmedel (glasögon och linser går bra; kikare eller en skärm räknas inte) – eller flyga med hjälp av en observatör, med tydlig och effektiv kommunikation mellan er hela tiden, så att ni tillsammans kan bevaka luftrummet och undvika kollisioner. Follow-me-läget är ett separat undantag och är tillåtet upp till 50 m från piloten.",
       "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
-      "Minst 5 km från alla flygplatser eller flygfält",
+      "Det finns inget enda EU-gemensamt avstånd som måste hållas till flygplatser. Restriktioner nära flygplatser publiceras som geografiska zoner (artikel 15), vars form och storlek varierar mellan flygplatser – innan du flyger nära en flygplats, ett flygfält eller en helikopterflygplats ska du kontrollera den officiella kartan över drönarzoner. I kontrollerat luftrum (UR-zonerna Vilnius, Kaunas, Palanga och Šiauliai) får du flyga i den öppna kategorin utan förhandstillstånd bara upp till den höjd som gäller för zonen – ju närmare flygplatsen, desto lägre (höjder – utm.ans.lt; högre flygning kräver tillstånd som utfärdas enligt LTSA-förfarandet). I flygplatsernas ATZ/TIZ-zoner ska flygningen samordnas i förväg med flygplatsens ägare eller operatör.",
+      "Flygningar i EYP-zoner och över militära områden (EYURM) är förbjudna utan tillstånd; detsamma gäller i aktiverade EYR-zoner (aktiveringen meddelas via NOTAM)",
       "Nattflygning är tillåten enligt EASA:s grundkrav för den öppna kategorin när det föreskrivna gröna blinkljuset används, såvida inte gällande geografiska bestämmelser eller nationella regler ställer strängare krav.",
       "Restriktioner gäller i Curonian Spit National Park",
-      "Ytterligare restriktioner i gränsområdena mot Ryssland och Belarus"
+      "I gränszonen längs gränserna mot Belarus och Ryssland (cirka 7,4 km från gränsen) är flygningar utan föregående samordning strängt förbjudna"
     ],
     "importantNotes": [
-      "Registreringen kostar 10 € per år – den måste förnyas årligen",
+      "Registrering och utfärdande/förnyelse av registreringsbeviset kostar 31 €",
       "Försäkring krävs endast för drönare som väger mer än 20 kg",
-      "Flygrestriktioner gäller i gränsområdena mot Ryssland och Belarus",
+      "I gränszonen längs gränserna mot Belarus och Ryssland (cirka 7,4 km från gränsen) är flygningar utan föregående samordning strängt förbjudna",
       "CTR för Vilnius Airport täcker en stor del av staden",
       "GDPR gäller när identifierbara personer filmas eller fotograferas"
     ],
     "primaryLinks": [
       {
-        "title": "CAA – Regler för drönare",
-        "description": "Officiella drönarregler från den civila luftfartsförvaltningen"
+        "title": "TKA – Drönarregler",
+        "description": "Officiella drönarregler från Transporto kompetencijų agentūra (TKA)"
       },
       {
-        "title": "TKA – Registrera dig som användare",
-        "description": "Registrera dig som UAS-operatör (10 € per år, giltigt i alla EU-/EASA-länder)"
+        "title": "TKA – Registrera dig som operatör",
+        "description": "Registrera dig som UAS-operatör (31 €, giltigt i alla EU-/EASA-länder)"
       },
       {
         "title": "UTM Litauen – Luftrumskarta",
         "description": "Officiell UTM-luftrumskarta som visar drönarzoner och restriktioner"
       },
       {
-        "title": "CAA – Översikt över reglerna",
-        "description": "En översikt över reglerna för drönarflygningar i Litauen"
+        "title": "TKA – Översikt över reglerna",
+        "description": "En översikt över reglerna för drönarflygning i Litauen"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Air Navigation – Flygtrafiktjänst",
+        "title": "Oro Navigacija – Flygtrafiktjänst",
         "description": "Litauens flygtrafiktjänst och luftrumsinformation"
       },
       {
-        "title": "CAA – Vanliga frågor om drönare",
-        "description": "Vanliga frågor om reglerna för drönare i Litauen"
+        "title": "TKA – Vanliga frågor om drönare",
+        "description": "Vanliga frågor om drönarreglerna i Litauen"
       }
     ],
     "disclaimerText": "Kontrollera alltid de officiella källorna från TKA och UTM Lithuania innan du flyger. Den här appen är ett verktyg – inte en juridisk auktoritet. Litauen följer EASA-reglerna med nationella tillägg.",

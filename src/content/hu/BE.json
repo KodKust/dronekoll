@@ -1,27 +1,29 @@
 {
   "meta": {
-    "sourceHash": "b98ef8dd7e9c6b0c530a3757ad835b367dd07af3c65b9dd744c1512f5f5992cd",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "27f497a74725016dcbdecc01ce23d9050fb7893544b864e9bca529e0be6b134f",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Legfeljebb 120 m-rel a talaj felett (EASA nyílt kategória)",
-      "Regisztrálj UAS-üzemben tartóként, ha a drón tömege legalább 250 g, vagy kamerával van felszerelve",
-      "Az A1/A3 online képzés kötelező – legalább 16 éves kortól",
-      "Kötelező felelősségbiztosítás minden drónra, tömegtől függetlenül (1–2,5 millió € fedezet)",
-      "Brüsszel: kettős engedély szükséges (szövetségi + regionális jóváhagyás)",
-      "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS)",
+      "A nyílt kategóriában a legnagyobb magasság 120 m, a Föld felszínének legközelebbi pontjától mérve — nem egyszerűen függőlegesen lefelé, így lejtő közelében a melletted lévő terep is számíthat. Egy 105 m-nél magasabb mesterséges akadály 50 m-es körzetében az akadályért felelős fél engedélyt kérhet arra, hogy az akadály magasságánál legfeljebb 15 m-rel magasabban is lehessen repülni.",
+      "UAS-üzemben tartóként regisztrálnod kell, ha a drónod 250 g-os vagy nehezebb (vagy ütközéskor több mint 80 J mozgási energiát adhat át) — ez a játékokra is vonatkozik. 250 g alatt is kötelező a regisztráció, ha a drónon személyes adatok rögzítésére alkalmas érzékelő van, kivéve, ha az uniós játékbiztonsági irányelv szerint játéknak minősül. Abban az EU-/EASA-országban regisztrálj, ahol élsz (ha azon kívül élsz: abban az első EU-/EASA-országban, ahol repülni fogsz); ez a regisztráció minden EU-/EASA-országban érvényes. A pilótaképzésre/-bizonyítványra vonatkozó követelményeket külön határozzák meg, és ezek a drón osztályától és alkategóriájától függenek.",
+      "Belgiumban az A1/A3 alkategóriák alsó korhatára 14 év — az ingyenes online képzés és vizsga 5 évig érvényes, és az egész EU-ban elismerik. Az A2 alkategóriában az alsó korhatár továbbra is 16 év. Kivételek a 14 éves korhatár alól: nincs alsó korhatár az A1-ben repülő, játéknak minősülő (uniós játékbiztonsági irányelv) C0 drónnál, a saját építésű, 250 g alatti drónnál, illetve egy legalább 16 éves, a szükséges bizonyítvánnyal rendelkező pilóta közvetlen felügyelete alatt.",
+      "A nyílt kategóriában kötelező a felelősségbiztosítás (harmadik személyeknek okozott személyi sérülés és anyagi kár), kivéve a kizárólag magáncélra használt, 900 g alatti drónokat. 20 kg-tól a 785/2004/EK rendelet követelményei alkalmazandók.",
+      "Külföldi pilóták: egy másik EU-tagállamban szerzett regisztráció és A1/A3/A2 bizonyítvány Belgiumban is érvényes; tartsd magadnál a regisztráció igazolását, és tüntesd fel az üzemben tartói számodat a drónon. A belga geozónák és a belga biztosítási kötelezettség (a 900 g alatti magáncélú használat kivételével) rád is vonatkoznak.",
+      "Brüsszel: az EBR-01 geozónában a nagykövetségek, valamint a szövetségi és nemzetközi (köztük uniós) intézmények felett vagy azok 50 m-es körzetében való repüléshez az érintett intézmény előzetes engedélye szükséges. Ellenőrizd a Droneguide-on a Brussels Airport CTR feltételeit is, valamint a helyi önkormányzati szabályokat, ha közterületről akarsz felszállni vagy ott akarsz filmezni.",
+      "A nyílt kategóriában a drónt közvetlen látótávolságon belül kell tartanod, szabad szemmel (szemüveg/kontaktlencse megengedett; távcső vagy képernyő nem számít) — vagy egy megfigyelő segítségével, úgy, hogy mindvégig egyértelműen és hatékonyan kommunikáltok egymással, így együtt figyelhetitek a légteret és kerülhetitek el az ütközéseket. Az A1 alkategóriában a „follow-me” (követő) mód külön kivétel, a pilótától legfeljebb 50 m-ig engedélyezett.",
+      "Osztályjelölés nélküli drónok (2024 előtt forgalomba hozva): 250 g alatt az A1-ben, egyébként csak az A3-ban és max. 25 kg-ig (lakó-, kereskedelmi, ipari vagy rekreációs területektől min. 150 m-re). Osztályjelölés nélkül és 2023. 12. 31. után forgalomba hozva: a nyílt kategóriában nem.",
       "Ne repülj embertömeg felett. A műveletben részt nem vevő személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; ellenőrizd a hivatalos táblázatot.",
-      "Legalább 3 km távolság a repülőterektől és helikopterleszállóktól",
+      "Nincs egységes, EU-szintű távolság a repülőterektől; a geozónák alakja és mérete repülőterenként eltér. Belga CTR-ben geozónák érvényesek (lásd Droneguide): a futópályák körüli VLL 0-ban a nyílt kategória tilos; a VLL 1-ben és a VLL 2-ben max. 150 ft (kb. 45 m) a talaj felett (a VLL 1-ben ráadásul legfeljebb a 100 m-en belüli legmagasabb akadály magasságáig). VLL 1: előzetes engedély szükséges; VLL 2: a repülést legalább 3 órával előbb be kell jelenteni. Igényelni a skeyes DAA-planneren keresztül lehet; kötelező a telefonos elérhetőség, a földrajzi tudatosság funkció és a Remote ID (a Remote ID nem vonatkozik a C0-ra és bizonyos 250 g alatti drónokra).",
       "Az EASA nyílt kategóriájának alapszabályai szerint az éjszakai repülés megengedett, ha az előírt villogó zöld fényt használják, kivéve, ha valamely hatályos földrajzi zóna vagy nemzeti szabály szigorúbb feltételt ír elő.",
       "Ellenőrizd a Droneguide-on a zónánként eltérő magassági korlátokat és korlátozásokat"
     ],
     "importantNotes": [
-      "Kötelező biztosítás minden drónra, tömegtől függetlenül — 1–2,5 millió € fedezet szükséges",
-      "Brüsszelben szövetségi regisztráció ÉS regionális engedély is szükséges",
-      "Három repülőtér (Brüsszel, Charleroi, Liège) nagy kiterjedésű korlátozott zónákat alakít ki",
+      "Kötelező a felelősségbiztosítás, kivéve a 900 g alatti drónok magáncélú használatát",
+      "Brüsszel (EBR-01 geozóna): nagykövetségek, szövetségi kormányzati intézmények és nemzetközi intézmények felett vagy azok 50 m-es körzetében csak az érintett intézmény előzetes engedélyével szabad repülni",
+      "Az ellenőrzött repülőterek (Brüsszel, Antwerpen, Charleroi, Liège, Ostende) és a katonai repülőterek körül szigorú feltételekkel járó CTR-geozónák vannak; Kortrijk-Wevelgem körül RMZ/TMZ geozóna van.",
       "A szabálysértések bírságot és büntetőeljárást vonhatnak maguk után",
       "A GDPR az azonosítható személyeket ábrázoló képek készítésére vonatkozik"
     ],
@@ -45,15 +47,15 @@
     ],
     "secondaryLinks": [
       {
-        "title": "skeyes – Légiforgalmi irányítás",
-        "description": "Belga légiforgalmi irányítás és légtérinformációk"
+        "title": "skeyes — Drónok és geozónák",
+        "description": "A belga légiforgalmi irányító drónoldala: a geozónákban való repülés feltételei és a DAA-planner"
       },
       {
         "title": "BCAA – Drón GYIK",
         "description": "Gyakran ismételt kérdések a belgiumi drónszabályozásról"
       }
     ],
-    "disclaimerText": "Repülés előtt mindig ellenőrizd a BCAA hivatalos forrásait és a Droneguide-ot. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Belgium az EASA-szabályozást követi, amely szigorú nemzeti biztosítási követelményeket tartalmaz.",
+    "disclaimerText": "Repülés előtt mindig ellenőrizd a BCAA hivatalos forrásait és a Droneguide-ot. Ez az alkalmazás egy segédeszköz – nem jogi forrás. Belgium az EASA-szabályozást követi, nemzeti szabályokkal kiegészítve (többek között kötelező biztosítás és rögzített földrajzi zónák).",
     "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
     "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
     "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",

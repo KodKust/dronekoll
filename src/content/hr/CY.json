@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "a1e69adb928a29b23e35f851c7f189c239b934c116c4c5c3bb8ff4997785f369",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "8d3736758eabe09f115c22b261f62052d660fd07794af65c1d39b8fa76ca192b",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Najviše 120 m iznad tla (EASA otvorena kategorija)",
-      "Registracija operatora UAS-a (15 € / 3 godine) potrebna je ako dron teži 250 g ili više ili ima kameru",
-      "Potrebna je online obuka A1/A3 — najniža dob 16 godina",
+      "U otvorenoj kategoriji maksimalna visina iznosi 120 m, mjereno kao udaljenost od najbliže točke Zemljine površine — ne samo okomito prema dolje, pa se u blizini padine može računati i tlo pokraj vas. Unutar 50 m od visoke umjetne prepreke (više od 105 m) subjekt odgovoran za prepreku može zatražiti dopuštenje za let do 15 m iznad visine prepreke.",
+      "Morate se registrirati kao operater drona ako vaš dron teži 250 g ili više (ili bi pri udaru mogao prenijeti više od 80 J kinetičke energije) — to vrijedi čak i za igračke. Ispod 250 g registracija je i dalje obavezna ako dron ima senzor koji može prikupljati osobne podatke, osim ako se smatra igračkom prema EU Direktivi o sigurnosti igračaka. Zahtjevi za obuku/certifikat pilota zasebni su i ovise o klasi i potkategoriji drona.",
+      "Svoj registracijski broj operatera trajno označite na svakom svojem dronu i učitajte ga u sustav daljinske identifikacije (ako postoji). Registracija operatera moguća je od 18. godine — za mlađe osobe može se registrirati odgovorna osoba (npr. roditelj ili skrbnik).",
+      "Dronovi stavljeni na tržište nakon 01/01/2024 bez oznake klase (C0–C6) ne smiju letjeti u otvorenoj kategoriji — samo u posebnoj kategoriji, uz operativno odobrenje.",
+      "Minimalna dob za samostalno letenje u otvorenoj kategoriji je 16 godina — online obuka A1/A3 (9 modula, ispit od 40 pitanja, cijena 15 eura) vrijedi 5 godina i priznata je u cijelom EU-u. Ispod te dobi letenje je dopušteno samo pod izravnim nadzorom certificiranog pilota.",
+      "Posjetitelji iz zemalja izvan EU-a: ako je Cipar prva zemlja EU-a u kojoj letite, registracija operatera (kada je potrebna) obavlja se kod tijela DCA Cyprus (15 €, minimalna dob 18 godina); ako ste već letjeli u drugoj zemlji EU-a, ne registrirate se ponovno. Za potkategorije A1/A3 potreban vam je certifikat pilota A1/A3 koji je izdala zemlja EU-a (online obuka i ispit, 15 €); za dron C0 (<250 g) ispit nije obavezan.",
       "Noćni let dopušten je prema osnovnim pravilima EASA otvorene kategorije kada se koristi propisano zeleno trepćuće svjetlo, osim ako važeća geografska zona ili nacionalno pravilo ne nameće stroži uvjet.",
-      "Sigurnosna zona od 8 km oko zračnih luka",
-      "Minimalna udaljenost od 1 km od stambenih područja (odnosi se uglavnom na kategoriju A3 — stroži zahtjevi za teže dronove)",
-      "Uvijek držite dron u izravnom vidnom polju (VLOS)",
+      "Zračne luke Larnaka i Pafos: u zoni A (crvena) zabranjeni su svi letovi dronova; u zoni B (žuta) samo uz dopuštenje DCA (zahtjev podnesite najmanje 10 radnih dana unaprijed, osiguranje od odgovornosti prema trećima 1.000.000 €). DCA traži od posjetitelja da se drže najmanje 8 km od zračnih luka i heliodroma.",
+      "Minimalna udaljenost od 150 m od stambenih, poslovnih ili industrijskih područja (kategorija A3)",
+      "U otvorenoj kategoriji dron morate držati u izravnom vidnom polju, golim okom (naočale/kontaktne leće su dopuštene; dalekozor ili zaslon se ne računaju) — ili uz pomoć promatrača, uz jasnu i učinkovitu međusobnu komunikaciju u svakom trenutku, kako biste zajedno nadzirali zračni prostor i izbjegli sudare. Način rada „prati me” (follow-me) zasebna je iznimka, dopuštena do 50 m od pilota.",
       "Ne letite iznad okupljanja ljudi. Pravila za neuključene osobe ovise o potkategoriji, oznaci klase i uvjetima izvođenja operacije; provjerite službenu tablicu.",
+      "Britanske baze (Akrotiri, Dhekelia): zasebna uprava s vlastitim zakonodavstvom o dronovima, vlastitim obrascem za registraciju i kartama određenih područja — prije leta ondje provjerite sbaadministration.org.",
       "Sjeverni Cipar (TRNC): zasebna jurisdikcija — različita pravila",
-      "Zona zabrane letenja UN-a: potpuna zabrana leta"
+      "Tampon-zona UN-a (UN Dead Zone): nikakve aktivnosti bez prethodnog odobrenja UNFICYP-a — ne letite ondje."
     ],
     "importantNotes": [
       "Noćni let dopušten je prema osnovnim pravilima EASA otvorene kategorije kada se koristi propisano zeleno trepćuće svjetlo, osim ako važeća geografska zona ili nacionalno pravilo ne nameće stroži uvjet.",
-      "Udaljenost od 1 kilometra od stambenih područja vrlo je ograničavajuća na malom otoku",
-      "Sigurnosne zone od 8 kilometara oko zračnih luka pokrivaju velik dio otoka",
+      "Oko zračnih luka Larnaka i Pafos: u zoni A (crvena) letovi dronova su zabranjeni, u zoni B (žuta) samo uz dopuštenje DCA.",
+      "Unaprijed instalirana karta geozona na većini DJI dronova nije ispravna za Cipar; za dronove klase C1, C2, C3, C5, C6 učitajte službenu datoteku geozona DCA (drones.gov.cy).",
       "Sjeverni Cipar (TRNC) zasebna je jurisdikcija s različitim pravilima",
-      "UN Dead Zone stroga je zona zabrane letenja"
+      "Tampon-zona UN-a (UN Dead Zone): nikakve aktivnosti bez prethodnog odobrenja UNFICYP-a — ne letite ondje."
     ],
     "primaryLinks": [
       {
@@ -32,7 +36,7 @@
       },
       {
         "title": "DCAD — Registracija operatera",
-        "description": "Registracija kao pilot UAS-a (15 € / 3 godine, vrijedi u svim EU/EASA zemljama)"
+        "description": "Registracija kao UAS operater (15 € / 3 godine, vrijedi u svim EU/EASA zemljama)"
       },
       {
         "title": "drones.gov.cy — Karta geozona",
@@ -53,8 +57,8 @@
         "description": "Informacije o zračnim lukama Larnaka i Pafos"
       }
     ],
-    "disclaimerText": "Prije svakog leta uvijek provjerite službene izvore tijela DCA Cyprus i drones.gov.cy. Ova aplikacija je alat, a ne pravno tijelo. Cipar slijedi EASA propise sa strogim nacionalnim dodacima, poput zabrane noćnih letova.",
-    "sectionLabelRules": "OSNOVNA PRAVILA (EASA OTVORENA KLASA)",
+    "disclaimerText": "Prije svakog leta uvijek provjerite službene izvore tijela DCA Cyprus i drones.gov.cy. Ova aplikacija je alat, a ne pravno tijelo. Cipar slijedi EASA propise, s nacionalnim geografskim zonama (Κ.Δ.Π. 190/2024, s izmjenama).",
+    "sectionLabelRules": "OSNOVNA PRAVILA (OTVORENA KATEGORIJA EASA)",
     "sectionLabelPrimary": "SLUŽBENI IZVORI",
     "sectionLabelSecondary": "DODATNI RESURSI",
     "linksSheetTitle": "Zračni prostor i propisi — Cipar",

@@ -1,28 +1,29 @@
 {
   "meta": {
-    "sourceHash": "c139af1376a67c6fd4409a0435b10fd8dd0df99586c1e480fb6eb124208d488a",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimal højde: 120 m (400 ft) over jorden (AGL)",
-      "Droner under 25 kg: kræver IKKE DINACIA-registrering til fritidsbrug",
-      "Droner på ≥25 kg eller droner, der bruges til erhvervsmæssige formål: obligatorisk registrering på DINACIAs UTM-platform",
-      "Hold altid dronen inden for synsvidde (VLOS)",
-      "Flyv ikke over tætbefolkede områder (byer, mindre byer, kvarterer)",
-      "Undgå lufthavne, flyvepladser og kontrolleret luftrum (CTR)",
+      "Maksimal flyvehøjde er 120 m (400 ft) over jorden.",
+      "Droner ('Small') op til 25 kg kræver ikke DINACIA-registrering til fritidsbrug — de må flyve frit op til 120 m, undtagen i flyvepladszoner.",
+      "I Montevideo har DINACIA udpeget 4 fritidsflyveområder for Small-droner (op til 25 kg) i afgrænsede sektorer af: Parque Baroffio (det nordlige område), Parque Marcos Sastre (nær Ruta 8), Parque Miguelete (strækningen mellem Silva og Bvar. Aparicio Saravia) og Parque Tomkinson (undtagen området ved børnefodboldklubben). Maksimal højde i disse zoner: 30 m over jorden (DINACIA Res. 093/2019, AIP ENR 5.5).",
+      "Droner fra 25 til 260 kg ('Medium') skal registreres hos DINACIA og have et identifikationsnummer, der er synligt på enheden.",
+      "Piloten skal til enhver tid holde dronen inden for direkte synsvidde.",
+      "Flyvning over tætbefolkede områder (byer, mindre byer, kvarterer) er ikke tilladt uden udtrykkelig tilladelse fra luftfartsmyndigheden.",
+      "Undgå lufthavne, flyvepladser og kontrolleret luftrum (CTR), medmindre der foreligger udtrykkelig tilladelse.",
       "En rimelig afstand til uinvolverede personer og bygninger (anbefalet: 30 m)",
       "Flyvning kun tilladt i dagslys — natflyvning kræver særlig tilladelse",
-      "Erhvervsmæssig drift: obligatorisk ansvarsforsikring + DINACIA-tilladelse",
-      "Luftrumsreservationer (arrangementer): udfyld formularen 10 dage i forvejen"
+      "Kommerciel brug kræver obligatorisk ansvarsforsikring eller luftfartsforsikring ud over den tilsvarende DINACIA-tilladelse.",
+      "Operationer, der kræver udtrykkelig tilladelse (over befolkede områder eller forsamlinger af mennesker, i flyvepladszoner, i forbudte områder eller restriktionsområder eller til kommerciel brug): ansøg hos DINACIA via UTM-platformen (utm.dinacia.gub.uy)."
     ],
     "importantNotes": [
-      "🌟 URUGUAY HAR LEMPELIGE REGLER: DINACIA Resolution 291/2014 fastslår, at droner under 25 kg IKKE kræver registrering til fritidsbrug. De fleste forbrugerdroner (DJI Mini, Mavic, Air, Phantom) ligger langt under denne grænse — men alle andre flyveregler gælder.",
-      "📋 DINACIA Resolution 291/2014: inddeler droner i tre kategorier — Small (≤25 kg), Medium (25–260 kg tomvægt) og Large (>260 kg). Uruguayan Aeronautical Regulations (RAU 91 og andre) supplerer regelgrundlaget.",
-      "✈️ UDENLANDSKE TURISTER: Reglerne gælder også for ikke-bosiddende. Til fritidsbrug af en drone under 25 kg kræves ingen registrering. Til erhvervsmæssig/professionel brug eller arrangementer: kontakt DINACIA før din rejse. Tolden kan kræve, at du deklarerer dit udstyr ved indrejse i landet.",
-      "🏖️ PUNTA DEL ESTE OG MONTEVIDEO: Punta del Este (høj turisttæthed), Carrasco Airport (MVD), Laguna del Sauce Airport (PDP), Government House og Plaza Independencia har permanente restriktioner. Kyststrækninger og strande er ofte overfyldte i højsæsonen.",
+      "Uruguay har relativt lempelige regler: DINACIA Resolution 291/2014 fastslår, at droner op til 25 kg ikke kræver registrering til fritidsbrug.",
+      "DINACIA Resolution 291/2014 inddeler droner i tre kategorier: Small (≤25 kg), Medium (25-260 kg) og Large (over 260 kg).",
+      "Reglerne gælder også for personer uden bopæl i landet. Til udelukkende fritidsbrug af en drone op til 25 kg kræves hverken registrering eller operatørtilladelse. Al betalt brug (også med små droner) kræver DINACIA's DAOD-operatørtilladelse (krav: 18 år, et kursus på et godkendt center, en færdighedsprøve og uruguayansk statsborgerskab; udlændinge skal oprette en elektronisk APIA-sag hos DINACIA) og ansvarsforsikring.",
+      "🚫 FORBUDTE ZONER (AIP ENR 5.1): Torre Ejecutiva/Plaza Independencia i Montevideo (radius 950 m), Residencia Presidencial Suárez (radius 950 m), Estancia Presidencial Anchorena (radius 1.852 m), Isla de Lobos ud for Punta del Este (radius 5 km), øerne ud for Cabo Polonio, Barra de Valizas og La Coronilla (radius 5 km), militærenheder, fængsler, dæmninger og ANCAP's brændstofanlæg. Der kræves ATM-tilladelse i det kontrollerede luftrum og trafikzonen for lufthavnene Carrasco (MVD) og Laguna del Sauce (PDP). Kyster og strande er ofte tætbefolkede i højsæsonen.",
       "🌳 BESKYTTEDE NATUROMRÅDER (SNAP): National System of Protected Areas omfatter områder som Esteros de Farrapos, Cabo Polonio og Quebrada de los Cuervos. Tjek med Ministry of the Environment for specifikke restriktioner, før du flyver med droner i disse områder."
     ],
     "primaryLinks": [
@@ -35,8 +36,8 @@
         "description": "DINACIAs officielle UTM-platform (Unmanned Traffic Management) til at registrere droner (≥25 kg) og indsende ansøgninger om driftstilladelse. Kræver en registreret bruger"
       },
       {
-        "title": "DINACIA — RPAS-operatørtilladelser",
-        "description": "Officiel side om RPAS-operatørtilladelser — trin, krav og formularer. Kræves for droner på 25 kg eller derover og til al erhvervsmæssig brug"
+        "title": "DINACIA — udstedelse af DAOD-tilladelse",
+        "description": "DINACIA-cirkulære (CA.UY.PEL.07.02) med kravene til DAOD-operatørtilladelsen. Obligatorisk for droner over 25 kg og for al betalt brug."
       },
       {
         "title": "DINACIA — LAR 61-pilotlicenser",
@@ -62,6 +63,6 @@
     "sectionLabelPrimary": "OFFICIELLE KILDER",
     "sectionLabelSecondary": "YDERLIGERE RESSOURCER",
     "linksSheetTitle": "Luftrum og regler — Uruguay",
-    "dronePilotCredentialName": "DAOD-operatørlicens"
+    "dronePilotCredentialName": "DAOD-operatørtilladelse"
   }
 }

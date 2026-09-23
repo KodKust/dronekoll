@@ -1,28 +1,32 @@
 {
   "meta": {
-    "sourceHash": "b05d24f015f2308210145943a215484aa1c49ad8f402e6dfeecc2171445caa3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "71ddedd6eadd4ef67c92064fd4d382b6fa87094ff6d0bff888fecfd333d022c5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Yerden en fazla 120 m (EASA Open Kategorisi)",
-      "250 g veya daha ağır ya da kameralı dronlar için UAS operatörü olarak kayıt (ücretsiz)",
-      "A1/A3 çevrim içi eğitim zorunludur — asgari yaş 16",
-      "Kontrollü hava sahası bölgelerinde DroneTower'a zorunlu kayıt",
-      "Varşova: Hükümet tesislerinin yakınında State Protection Service'ten (SOP) izin alınması gerekir",
-      "Dronu her zaman doğrudan görüş hattınızda (VLOS) tutun",
+      "Açık kategoride azami yükseklik 120 m'dir ve yalnızca dümdüz aşağıya doğru değil, yeryüzünün en yakın noktasına olan mesafe olarak ölçülür — bu nedenle bir yamacın yakınında yanınızdaki arazi de hesaba katılabilir. Yüksek bir yapay engelin (105 m'nin üzerinde) 50 m yakınında, engelden sorumlu kuruluş engelin yüksekliğinin 15 m üzerine kadar uçmak için izin talep edebilir.",
+      "Dronunuz 250 g veya daha ağırsa (ya da çarpma anında 80 J'den fazla enerji aktarabiliyorsa) dron operatörü olarak kaydolmanız gerekir — bu oyuncaklar için bile geçerlidir. 250 g'ın altında, dronda kişisel veri toplayabilen bir sensör varsa, AB Oyuncak Güvenliği Direktifi kapsamında oyuncak sayılmadığı sürece kayıt yine gereklidir. Pilot eğitimi/sertifika gereklilikleri ayrıdır ve dronun sınıfına ve alt kategorisine bağlıdır.",
+      "13 Kasım 2025'ten itibaren kalkış kütlesi 250 g ile 20 kg arasında olan bir dronun operatörünün zorunlu üçüncü şahıs sorumluluk (OC) sigortası olmalıdır (asgari sigorta bedeli: olay başına 50.000 SDR karşılığı) — hobi uçuşları için de.",
+      "Polonya'da 27 Şubat 2025'ten beri açık kategori için asgari yaş 14'tür; ücretsiz çevrim içi eğitim ve sınav 5 yıl geçerlidir. Daha gençler, gerekli yeterliliğe sahip ve en az 14 yaşında bir pilotun doğrudan gözetimi altında uçabilir (istisnalar: A1'de C0 oyuncak dron ve 250 g'ın altında kendi yapımı dron).",
+      "Polonya'daki her dron uçuşu — kütlesi veya konumu ne olursa olsun — kalkıştan önce DroneTower uygulamasındaki Check-In ile PAŻP'a bildirilmelidir (Havacılık Kanunu md. 156a(2), Prawo lotnicze). Kontrollü hava meydanları çevresindeki DRA-R CTR bölgelerinin bazı kısımları dahil bazı yerlerde ayrıca PAŻP tarafından onaylanmış bir görev de gerekir (drony.gov.pl'de Kreator Misji KSID) — bu durumda yalnızca TWR kontrolörünün DroneTower'daki kabulünden sonra kalkış yaparsınız.",
+      "Kontrollü hava meydanları çevresindeki DRA-R CTR bölgeleri, açık kategori: hava meydanına 1 km'den yakın — uçuş yok; 1–6 km — yerden 30 m'nin üzerinde yalnızca A2 yeterliliğiyle (> 0,9 kg dronlar için ayrıca onaylı bir görevle), yerden azami 50 m; 6 km'nin ötesinde — yerden azami 100 m. Bir CTR'de en az A1/A3 yeterliliği gerekir (< 250 g dronlar için de). Rzeszów CTR'sinde (EPRZ) farklı kurallar geçerlidir. Kesin sınırları ve koşulları DroneTower'da veya DroneMap'te kontrol edin.",
+      "Varşova: şehir merkezi kalıcı EPP21 WARSZAWA II bölgesi kapsamındadır — dron uçuşları yalnızca bölge yöneticisinin izniyle; koşulları ve iletişim bilgilerini DroneTower'da kontrol edin.",
+      "Açık kategoride dronu yardımcı araç kullanmadan, kendi görüş alanınızda tutmalısınız (gözlük/kontakt lens sorun değildir; dürbün veya ekran sayılmaz) — ya da hava sahasını birlikte tarayıp çarpışmaları önleyebilmeniz için aranızda her an açık ve etkili iletişim sürdürerek bir gözlemcinin yardımıyla uçun. “Follow-me” modu ayrı bir istisnadır; pilottan 50 m'ye kadar izin verilir.",
       "İnsan topluluklarının üzerinden uçmayın. Operasyona dahil olmayan kişilerle ilgili kurallar alt kategoriye, sınıf işaretine ve operasyon koşullarına bağlıdır; resmî matrisi kontrol edin.",
-      "DRA-RM bölgeleri (6 km altında, irtifa kısıtlamalı) ve DRA-RH bölgeleri (6 km üstünde) — drony.gov.pl'yi kontrol edin",
+      "Kısıtlı DRA-R bölgeleri yüksekliğe göre değil, izin alma olasılığına göre ayrılır: DRA-RH (yüksek), DRA-RM (orta), DRA-RL (düşük) (ULC Başkanı'nın 4/2025 Sayılı Yönergeleri, Wytyczne nr 4/2025 Prezesa ULC). Kısıtlı bir bölgede uçmadan önce drony.gov.pl'yi kontrol edin.",
+      "C1, C2 ve C3 sınıfı dronlar, operatör numarasını yayınlayan uzaktan tanımlama (Remote ID) açık ve güncel olarak uçmalıdır; bu, C0/C4 sınıfları veya 1 Ocak 2024'ten önce piyasaya sürülmüş ya da kendi yapımı olan sınıf işaretsiz dronlar (A1'de 250 g'ın altında veya A3'te) için geçerli değildir.",
       "Gerekli yanıp sönen yeşil ışık kullanıldığında, yürürlükteki bir coğrafi bölge veya ulusal kural daha katı bir koşul getirmediği sürece EASA açık kategori temel kuralları kapsamında gece uçuşuna izin verilir.",
-      "Ulusal parklar ve Natura 2000 alanları: kısıtlamalar geçerlidir"
+      "Milli parklar DRA-R coğrafi bölgeleri kapsamında olabilir — uçuşlar yalnızca bölge yöneticisinin izniyle; uçmadan önce bölgeleri DroneTower'da kontrol edin (bu, Natura 2000 alanları ve doğa rezervleri için de geçerlidir)."
     ],
     "importantNotes": [
-      "CTR bölgelerinde uçuş bildirimleri için DroneTower uygulaması gereklidir",
-      "Varşova: Hükümet tesislerinin yakınında SOP onayı gereklidir",
+      "Polonya'da her uçuştan önce DroneTower uygulamasında Check-In zorunludur — yalnızca CTR bölgelerinde değil.",
+      "Varşova'da AIP'de yayımlanan kalıcı yasak bölgeler vardır; bunlar arasında EPP9 WARSZAWA, EPP21 WARSZAWA II (şehir merkezi) ve EPP26 FRONTEX (Frontex genel merkezi çevresinde 500 m'lik bir daire) bulunur; ayrıca dronlara yönelik başka coğrafi bölgeler de vardır. Uçmadan önce bunları ve koşullarını DroneTower'da veya DroneMap'te kontrol edin.",
       "Kayıt ücretsizdir ve tüm AB/EASA ülkelerinde geçerlidir",
-      "İhlaller için 50.000 PLN'ye kadar para cezası",
+      "AB/EASA dışından gelen turistler (ör. ABD'den veya Birleşik Krallık'tan): uçmayı planladığınız ilk AB ülkesinde operatör olarak kaydolun — bu Polonya ise drony.gov.pl'de — ve operatör numaranızı dronun üzerinde gösterin. Başka bir AB/EASA ülkesinden alınan kayıt Polonya'da geçerlidir; iki kez kaydolamazsınız.",
+      "ULC idari para cezaları: açık kategori kurallarının her ihlali için PLN 4.000, coğrafi bölge koşullarına aykırı uçuş veya operatör olarak kaydolmama için PLN 10.000; uçuş yasaklarını ihlal etmek (ör. güvenlik nedeniyle konulan yasaklar) 5 yıla kadar hapis cezası gerektiren bir suçtur.",
       "Belirlenebilir görüntülerin kaydedilmesinde GDPR geçerlidir"
     ],
     "primaryLinks": [
@@ -31,22 +35,22 @@
         "description": "Sivil Havacılık Otoritesi'nin dronlara ilişkin resmî mevzuatı ve kaynakları"
       },
       {
-        "title": "ULC — Operatör Kaydı",
-        "description": "UAS operatörü olarak ücretsiz kayıt (tüm AB/EASA ülkelerinde geçerli)"
+        "title": "drony.gov.pl — Operatör Kaydı",
+        "description": "Ücretsiz UAS operatörü kaydı ile çevrim içi eğitim ve sınav (kayıt tüm AB/EASA ülkelerinde geçerlidir)"
       },
       {
         "title": "PANSA — DroneMap",
-        "description": "CTR'leri, kısıtlı bölgeleri ve gerçek zamanlı bilgileri gösteren resmî hava sahası haritası"
+        "description": "CTR'leri, yasak bölgeleri ve gerçek zamanlı bilgileri gösteren resmî hava sahası haritası"
       },
       {
         "title": "DroneTower — Uçuş Bildirim Uygulaması",
-        "description": "Kontrollü hava sahasında uçuşları bildirmek için zorunlu bir uygulama"
+        "description": "Polonya'daki her dron uçuşunu bildirmek (Check-In) için zorunlu uygulama"
       }
     ],
     "secondaryLinks": [
       {
         "title": "PANSA — NOTAM'lar",
-        "description": "Aktif NOTAM'lar ve geçici hava sahası kısıtlamaları"
+        "description": "PAŻP NOTAM Ofisi — FIR Warszawa için NOTAM bilgileri; güncel dron kısıtlamalarını DroneTower'da kontrol edin"
       },
       {
         "title": "ULC — Dronlar Hakkında SSS",
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
     "sectionLabelSecondary": "EK KAYNAKLAR",
     "linksSheetTitle": "Hava Sahası ve Mevzuat — Polonya",
-    "dronePilotCredentialName": "Dron Pilot Sertifikası"
+    "dronePilotCredentialName": "Dron Pilotu Yeterlilikleri"
   }
 }

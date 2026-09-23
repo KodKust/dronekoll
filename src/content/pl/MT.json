@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "20d25911745bc6945c5cccf0785ea82d556cd1bb0a98eb5f9e4b1f82d7230b03",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "58ca5d4ebda944ebab8099950bf44fbb0464a578adf9411beaecf769f1064e8c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalnie 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-      "Rejestracja jako operator UAS (25 €/rok lub 10 € za przepustkę turystyczną)",
-      "Wymagane szkolenie online A1/A3 — minimalny wiek 16 lat",
+      "W kategorii otwartej maksymalna wysokość wynosi 120 m, mierzona jako odległość do najbliższego punktu powierzchni gruntu — nie po prostu w pionie w dół, więc w pobliżu zbocza liczyć się może także teren obok ciebie. W promieniu 50 m od wysokiej przeszkody sztucznej (powyżej 105 m) podmiot za nią odpowiedzialny może wystąpić o zgodę na lot do 15 m powyżej wysokości przeszkody.",
+      "Rejestracja jako operator UAS w tmcad.idronect.com (25 €/rok; odwiedzający z numerem operatora EASA: 10 € za 3 miesiące)",
+      "Numer rejestracyjny operatora lub jego kod QR musi zostać wydrukowany i umieszczony na dronie — policja może to sprawdzić, a niedopełnienie tego obowiązku skutkuje karą.",
+      "Świadectwo A1/A3 wymagane dla dronów powyżej 250 g (szkolenie online, egzamin w biurach TM-CAD w Lija) — minimalny wiek 16 lat",
+      "Drony z oznaczeniem klasy C1, C2 lub C3 wyposażone w Remote ID muszą latać z aktywnym i aktualnym Remote ID, z wprowadzonym numerem rejestracyjnym operatora.",
       "Obowiązkowe ubezpieczenie od odpowiedzialności cywilnej dla dronów o dowolnej masie",
       "CAŁY kraj to przestrzeń kontrolowana — zawsze sprawdzaj IDRONECT",
-      "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
+      "W kategorii otwartej musisz utrzymywać drona w bezpośrednim zasięgu wzroku, wyłącznie własnymi oczami (okulary/soczewki kontaktowe są w porządku; lornetka ani ekran się nie liczą) — albo latać z pomocą obserwatora, utrzymując między sobą przez cały czas jasną i skuteczną komunikację, tak aby wspólnie obserwować przestrzeń powietrzną i unikać kolizji. Tryb „Follow-me” jest odrębnym wyjątkiem, dozwolonym do 50 m od pilota.",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
-      "CTR lotniska Malta International Airport obejmuje większość wyspy",
+      "Cała Malta to przestrzeń kontrolowana — każdy lot dronem wymaga zezwolenia TM-CAD za pośrednictwem tmcad.idronect.com. Wiele wniosków o niskim ryzyku jest zatwierdzanych automatycznie w ciągu kilku minut, gdy system potwierdzi zgodność lotu z przepisami; przestrzegaj warunków określonych w swoim Authorisation Form. Odrębna strefa zakazu lotów 5 km obejmuje obszar Malta International Airport.",
+      "Loty, które nie zostały zatwierdzone automatycznie, należy zgłosić co najmniej 5 dni roboczych wcześniej. Aby latać w strefie ograniczonej, prześlij w IDRONECT pismo z zezwoleniem („no objection”) od właściciela strefy.",
       "Loty nocne zabronione bez szczególnego zezwolenia",
-      "Valletta i obszary zabytkowe: obowiązują dodatkowe ograniczenia"
+      "Valletta jest „Special Permit Zone”: loty komercyjne wymagają specjalnego zezwolenia, w tym „no objection” od Office of the Prime Minister. W przypadku każdego innego lotu w Valletcie i w innych strefach ograniczonych przed lotem sprawdź mapę IDRONECT i warunki zezwolenia."
     ],
     "importantNotes": [
-      "CAŁY kraj to przestrzeń kontrolowana — sytuacja wyjątkowa w UE",
+      "CAŁY kraj to przestrzeń kontrolowana — każdy lot wymaga zezwolenia TM-CAD",
       "Ubezpieczenie obowiązkowe dla dronów o dowolnej masie",
-      "CTR lotniska Malta Airport obejmuje większość głównej wyspy",
-      "Rejestracja turystyczna dostępna (10 €) dla odwiedzających na krótki pobyt",
-      "RODO ma zastosowanie przy utrwalaniu wizerunków osób możliwych do zidentyfikowania"
+      "Sprawdź strefy lotnisk i inne strefy ograniczone na mapie IDRONECT (tmcad.idronect.com/map)",
+      "Trzymiesięczna rejestracja (10 €) dla odwiedzających, którzy mają już numer rejestracyjny operatora EASA; w przeciwnym razie 25 €",
+      "RODO ma zastosowanie przy utrwalaniu wizerunków osób możliwych do zidentyfikowania",
+      "Miej przy sobie potwierdzenie rejestracji, ubezpieczenia, licencji i zezwolenia — ich brak może skutkować grzywną. Lot bez zezwolenia lub niezgodny z jego warunkami może skutkować konfiskatą drona."
     ],
     "primaryLinks": [
       {
@@ -32,7 +36,7 @@
       },
       {
         "title": "TM-CAD — Rejestracja jako operator",
-        "description": "Rejestracja jako operator UAS (25 €/rok lub 10 € turystycznie, ważna we wszystkich krajach UE/EASA)"
+        "description": "Rejestracja jako operator UAS w tmcad.idronect.com (25 €/rok, ważna we wszystkich krajach UE/EASA; 10 € za 3 miesiące dla odwiedzających, którzy mają już numer operatora EASA)"
       },
       {
         "title": "IDRONECT — Zarządzanie lotami",
@@ -49,8 +53,8 @@
         "description": "Maltańskie służby ruchu lotniczego oraz informacje o przestrzeni powietrznej"
       },
       {
-        "title": "TM-CAD — Najczęściej zadawane pytania o drony",
-        "description": "Najczęściej zadawane pytania dotyczące przepisów dronowych na Malcie"
+        "title": "TM-CAD — Informacje i pomoc",
+        "description": "Informacje i pomoc dotyczące przepisów o dronach na Malcie"
       }
     ],
     "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła TM-CAD oraz IDRONECT. Ta aplikacja jest narzędziem, a nie organem prawnym. Malta stosuje przepisy EASA — pamiętaj, że cały kraj to przestrzeń kontrolowana.",

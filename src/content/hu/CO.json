@@ -1,45 +1,44 @@
 {
   "meta": {
-    "sourceHash": "81c150124a0453afe7f5155ecf3def2f6e3595db14698b42ea98cfaec819abc2",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "739c62107e50c8694e19f4d73e36df062253357ffa3b107cac8d667605278391",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximális repülési magasság: 122 m (400 ft) a talajszint felett (AGL)",
-      "Maximális vízszintes távolság: 750 m a kezelőtől (a VLOS fenntartása mellett)",
+      "Maximális repülési magasság: 122 m (400 ft) a talajszint felett (RAC 100).",
+      "Maximális vízszintes távolság: 750 m a kezelőtől, a közvetlen látótávolság (VLOS) fenntartása mellett (RAC 100).",
       "200 g vagy annál nagyobb MTOW-jú drónok: kötelező regisztráció az Aerocivil UAS-platformján",
-      "Open kategória (≤25 kg tömegű drónok): a művelet előzetes engedély nélkül engedélyezett a RAC 100 szerint",
-      "B osztály (25–150 kg): mindig az Aerocivil engedélye szükséges",
-      "Legalább 9 km távolság a repülőterek referenciapontjától",
-      "Legalább 3 km távolság a helikopterleszállóktól",
+      "Regisztrált drón: legalább 2 × 4 cm-es rögzített címkét visel a regisztrációs számmal, névvel, e-mail-címmel és az atencionalciudadano@aerocivil.gov.co címmel (RAC 100).",
+      "Open kategória (≤25 kg tömegű drónok, kizárólag nem kereskedelmi használat): a művelet előzetes engedély nélkül megengedett a RAC 100 szerint. Kereskedelmi használat = Specifikus kategória, engedéllyel.",
+      "25 kg feletti (legfeljebb 250 kg-os) drónok: csak a Specifikus kategóriában, az Aerocivil repülési engedélyével és alkalmassági bizonyítvánnyal rendelkező pilótával (RAC 100).",
+      "Legalább 2 km távolság katonai vagy rendőrségi bázisoktól, börtönöktől és kritikus infrastruktúrától, valamint minden olyan helytől, ahol az elnök tartózkodik (RAC 100).",
+      "Repülőterek: tilos repülni a repülőtéren és a vonatkoztatási ponttól (ARP) számított 6 km-en belül; 6 és 9 km között csak az Open kategóriában, legfeljebb 61 m-rel (200 ft) a legalacsonyabb küszöb felett és a ZNVD-n kívül — ellenőrizd a Visor Geográfico UAS-ban (RAC 100).",
+      "Legalább 3 km távolság a helikopter-leszállóhelyektől (RAC 100).",
       "Legalább 30 m távolság a részt nem vevő személyektől és épületektől",
-      "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS), és csak nappali órákban repülj",
-      "A GEO zónákat (drónok számára korlátozott területek) az Aerocivil határozza meg az ICAO-val összhangban"
+      "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS). Éjszaka csak folyamatosan bekapcsolt fényekkel és megfigyelővel (RAC 100).",
+      "A drónok számára kijelölt repülési tilalmi zónák (ZNVD), valamint a tiltott, korlátozott és veszélyes területek az Aerocivil Visor Geográfico UAS felületén ellenőrizhetők (RAC 100)."
     ],
     "importantNotes": [
       "📋 RAC 100 (jelenleg hatályos): a kolumbiai drónműveleteket szabályozó fő jogszabály. Felváltja a korábbi RAC 91 13. függelékét. Meghatározza az Open kategóriát (előzetes engedély nélküli művelet) és a Specifikus kategóriát (engedélyköteles művelet). A 100-MAUT-5.0-22-010-CI körlevél lépésről lépésre útmutatást ad a regisztrációs folyamathoz.",
+      "✈️ TURISTÁK: A RAC 100 a külföldiekre is vonatkozik. A 200 g-os és nehezebb drónokat érvényes útlevéllel kell regisztrálni a Plataforma UAS Colombia felületen; az eljárás ingyenes.",
       "🌳 NEMZETI PARKOK ÉS VÉDETT TERÜLETEK: Kolumbia Nemzeti Természeti Parkjai (PNN) külön engedély nélkül tiltják a drónokat az olyan parkokban, mint a Tayrona, a Cocuy, a Los Nevados és az Amacayacu. A kolumbiai Karib-térség és az Amazonas-régió további korlátozások alá esik — utazás előtt érdeklődj minden egyes parknál.",
-      "🏛️ KORLÁTOZOTT ÉS VÁROSI TERÜLETEK: Bogotá belvárosa (Casa de Nariño, Plaza Bolívar, El Dorado repülőtér (SKBO)), Cartagena óvárosa, katonai zónák, határok (Venezuela, Ecuador, Panama), hajózható folyók és olajfúró tornyok állandó korlátozás alatt állnak — ellenőrizd az Aerocivil GEO zónáit.",
-      "💰 BÜNTETÉSEK ÉS FELELŐSSÉG: Az engedély nélküli vagy az engedélyezett területeken kívüli üzemeltetés jelentős bírságot (UVT — Adóértékegység), a berendezés elkobzását, súlyos esetekben pedig büntetőjogi felelősséget vonhat maga után. Kereskedelmi használathoz felelősségbiztosítás szükséges."
+      "🏛️ KORLÁTOZOTT TERÜLETEK: tilos repülni a ZNVD zónákban (pl. az El Dorado SKBO körül) — minden repülés előtt ellenőrizd az Aerocivil Visor Geográfico UAS felületén.",
+      "💰 BÜNTETÉSEK ÉS FELELŐSSÉG: A regisztráció nélküli vagy az engedélyezett területeken kívüli üzemeltetés jelentős bírságot (UVT — Adóértékegység), a berendezés elkobzását, súlyos esetekben pedig büntetőjogi felelősséget vonhat maga után. Kereskedelmi használathoz felelősségbiztosítás szükséges."
     ],
     "primaryLinks": [
       {
-        "title": "Aerocivil — Pilóta nélküli légijármű-rendszerek (UAS/drónok)",
-        "description": "A Polgári Légiközlekedési Különleges Igazgatási Egység (UAEAC) hivatalos oldala a drónokról: RAC 100, tájékoztató körlevelek, UAS-regisztráció"
-      },
-      {
-        "title": "RPAS dokumentumok — Navigációs szolgáltatások",
-        "description": "Az RPAS-ok/drónok hivatalos dokumentumtára: űrlapok, regisztrációs útmutatók, a 100-MAUT-5.0-22-010-CI körlevél és az alkalmazandó szabályozás"
+        "title": "Aerocivil — Pilóta nélküli légi közlekedés (UAS/drónok)",
+        "description": "A Polgári Légiközlekedési Különleges Közigazgatási Egység (UAEAC) hivatalos drónoldala: RAC 100, tájékoztató körlevelek, UAS-regisztráció"
       },
       {
         "title": "Aerocivil — Gyakran ismételt kérdések a drónokról",
         "description": "Hivatalos GYIK-szakasz a drónokról és a városi légi mobilitásról, részletes válaszokkal az üzemeltetők gyakori kérdéseire"
       },
       {
-        "title": "Nemzeti Légiközlekedési Nyilvántartás — UAS",
-        "description": "Légiközlekedési regisztrációs rendszer a 250 g-nál nehezebb drónokhoz. Tartalmaz regisztrációs útmutatót és követelményeket: azonosítás, a drón fényképei (6 db, PDF <2MB) és digitális űrlap"
+        "title": "Aerocivil — Plataforma UAS Colombia (drónregisztráció)",
+        "description": "Az Aerocivil UAS e-szolgáltatási portálja: hozzáférés a Plataforma UAS Colombia felülethez a 200 g-os és nehezebb drónok regisztrálásához (ingyenes), a Visor Geográfico UAS-hoz és oktatóanyagokhoz"
       }
     ],
     "secondaryLinks": [
@@ -49,11 +48,11 @@
       },
       {
         "title": "Ügyfélszolgálat (e-mail + telefon)",
-        "description": "Az Aerocivil hivatalos e-mail címe a drónokkal kapcsolatos kérdésekhez. Telefon: +57 (601) 425 1000 vagy ingyenesen hívható 01 8000 112373. Hétfő–péntek, 8:00–16:30."
+        "description": "Az Aerocivil hivatalos e-mail-címe a drónokkal kapcsolatos kérdésekhez. Telefon: +57 (601) 425 1000 vagy +57 (601) 518 5214. Hétfő–péntek 8:00–16:30. Drónok: gdmua@aerocivil.gov.co"
       },
       {
         "title": "Kolumbiai légiközlekedési szabályozás (RAC)",
-        "description": "Kolumbiai légiközlekedési szabályozás (RAC). Tartalmazza a RAC 100-at (UAS-műveletek), a RAC 91 13. függelékét és minden, a drónokra alkalmazandó szabályozást"
+        "description": "Kolumbiai légiközlekedési szabályozás (RAC). Tartalmazza a RAC 100-at (UAS-műveletek, 2023 óta hatályos) és a drónokra alkalmazandó egyéb szabályozásokat"
       }
     ],
     "disclaimerText": "Repülés előtt mindig ellenőrizd a Polgári Légügyi Hatóság (Aerocivil) hivatalos forrásait. Ez az alkalmazás egy segédeszköz, nem jogi forrás. Kolumbia a RAC 100-at alkalmazza (UAS-műveletekre vonatkozó légiközlekedési szabályozás), amely kötelező regisztrációt ír elő a 200 g vagy annál nagyobb MTOW-jú drónokra az UAS-platformon keresztül.",

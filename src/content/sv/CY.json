@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "a1e69adb928a29b23e35f851c7f189c239b934c116c4c5c3bb8ff4997785f369",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "8d3736758eabe09f115c22b261f62052d660fd07794af65c1d39b8fa76ca192b",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Högst 120 m över marken (EASA öppen kategori)",
-      "Registrering som UAS-operatör (15 € / 3 år) om drönaren väger 250 g eller mer eller har en kamera",
-      "A1/A3-onlineutbildning krävs – lägsta ålder 16 år",
+      "I den öppna kategorin är den högsta höjden 120 m, mätt som avståndet från närmaste punkt på jordytan – inte bara rakt nedåt, så nära en sluttning kan även marken bredvid dig räknas. Inom 50 m från ett högt konstgjort hinder (över 105 m) kan den som ansvarar för hindret begära tillstånd att flyga upp till 15 m över hindrets höjd.",
+      "Du måste registrera dig som drönaroperatör om din drönare väger 250 g eller mer (eller skulle kunna överföra mer än 80 J rörelseenergi vid en kollision) – detta gäller även leksaker. Under 250 g krävs registrering ändå om drönaren har en sensor som kan samla in personuppgifter, såvida den inte räknas som leksak enligt EU:s direktiv om leksakers säkerhet. Krav på pilotutbildning/-intyg gäller separat och beror på drönarens klass och underkategori.",
+      "Märk ditt operatörsregistreringsnummer outplånligt på var och en av dina drönare och ladda upp det till systemet för fjärridentifiering (om ett sådant finns). Operatörsregistrering görs från 18 års ålder – för yngre kan en ansvarig person (t.ex. en förälder eller vårdnadshavare) registrera sig.",
+      "Drönare som har släppts ut på marknaden efter 01/01/2024 utan klassmärkning (C0–C6) får inte flyga i den öppna kategorin – endast i den specifika kategorin, med ett operativt tillstånd.",
+      "Lägsta ålder för att flyga självständigt i den öppna kategorin är 16 år – onlineutbildningen för A1/A3 (9 moduler, prov med 40 frågor, kostnad 15 euro) gäller i 5 år och erkänns i hela EU. Under den åldern är flygning endast tillåten under direkt uppsikt av en certifierad pilot.",
+      "Besökare från länder utanför EU: om Cypern är det första EU-land där du flyger görs operatörsregistreringen (där den krävs) hos Cyperns DCA (15 €, lägsta ålder 18 år); har du redan flugit i ett annat EU-land registrerar du dig inte igen. För underkategorierna A1/A3 behöver du ett A1/A3-pilotintyg utfärdat av ett EU-land (onlineutbildning och prov, 15 €); för en C0-drönare (<250 g) är provet inte obligatoriskt.",
       "Nattflygning är tillåten enligt EASA:s grundkrav för den öppna kategorin när det föreskrivna gröna blinkljuset används, såvida inte gällande geografiska bestämmelser eller nationella regler ställer strängare krav.",
-      "En säkerhetszon på 8 km runt flygplatser",
-      "Minst 1 km från bostadsområden (gäller främst underkategori A3 – strängare krav för tyngre drönare)",
-      "Håll alltid drönaren inom synhåll (VLOS)",
+      "Flygplatserna i Larnaca och Paphos: i zon A (röd) är all drönarflygning förbjuden; i zon B (gul) endast med tillstånd från DCA (ansök minst 10 arbetsdagar i förväg, ansvarsförsäkring mot tredje man 1 000 000 €). DCA ber besökare att hålla ett avstånd på minst 8 km från flygplatser och helikopterflygplatser.",
+      "Minst 150 m från bostads-, affärs- eller industriområden (kategori A3)",
+      "I den öppna kategorin ska du hålla drönaren inom ditt direkta synhåll, med blotta ögat (glasögon/kontaktlinser är tillåtna; kikare eller en skärm räknas inte) – eller med hjälp av en observatör, där ni hela tiden kommunicerar tydligt och effektivt, så att ni tillsammans övervakar luftrummet och undviker kollisioner. Läget ”Follow-me” är ett separat undantag, tillåtet upp till 50 m från piloten.",
       "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
+      "Brittiska baser (Akrotiri, Dhekelia): separat förvaltning med egen drönarlagstiftning, eget registreringsformulär och kartor över utpekade områden – kontrollera sbaadministration.org innan du flyger där.",
       "Norra Cypern (TRNC): separat jurisdiktion – andra regler",
-      "FN:s flygförbudszon: totalt flygförbud"
+      "FN:s buffertzon (UN Dead Zone): ingen verksamhet utan förhandsgodkännande från UNFICYP – flyg inte där."
     ],
     "importantNotes": [
       "Nattflygning är tillåten enligt EASA:s grundkrav för den öppna kategorin när det föreskrivna gröna blinkljuset används, såvida inte gällande geografiska bestämmelser eller nationella regler ställer strängare krav.",
-      "Ett avstånd på 1 kilometer från bostadsområden är mycket begränsande på en liten ö",
-      "Säkerhetszonerna på 8 kilometer runt flygplatser täcker en stor del av ön",
+      "Runt flygplatserna i Larnaca och Paphos: i zon A (röd) är drönarflygning förbjuden, i zon B (gul) endast med tillstånd från DCA.",
+      "Den förinstallerade geozonkartan på de flesta DJI-drönare är inte den korrekta för Cypern; för drönare i klass C1, C2, C3, C5, C6 ska du ladda in DCA:s officiella geozonfil (drones.gov.cy).",
       "Norra Cypern (TRNC) är en separat jurisdiktion med andra regler",
-      "FN:s buffertzon är ett strikt flygförbudsområde"
+      "FN:s buffertzon (UN Dead Zone): ingen verksamhet utan förhandsgodkännande från UNFICYP – flyg inte där."
     ],
     "primaryLinks": [
       {
@@ -32,7 +36,7 @@
       },
       {
         "title": "DCAD – Operatörsregistrering",
-        "description": "Registrering som UAS-pilot (15 € / 3 år, giltigt i alla EU-/EASA-länder)"
+        "description": "Registrering som UAS-operatör (15 € / 3 år, giltig i alla EU-/EASA-länder)"
       },
       {
         "title": "drones.gov.cy – Karta över geozoner",
@@ -53,7 +57,7 @@
         "description": "Information om flygplatserna i Larnaca och Pafos"
       }
     ],
-    "disclaimerText": "Kontrollera alltid de officiella källorna från DCA Cypern och drones.gov.cy före varje flygning. Den här appen är ett verktyg – inte en juridisk auktoritet. Cypern följer EASA-reglerna med stränga nationella tillägg, som ett förbud mot nattflygning.",
+    "disclaimerText": "Kontrollera alltid de officiella källorna från DCA Cypern och drones.gov.cy före varje flygning. Den här appen är ett verktyg – inte en juridisk auktoritet. Cypern följer EASA-reglerna, med nationella geografiska zoner (Κ.Δ.Π. 190/2024, i dess ändrade lydelse).",
     "sectionLabelRules": "GRUNDLÄGGANDE REGLER (EASA ÖPPEN KATEGORI)",
     "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
     "sectionLabelSecondary": "YTTERLIGARE RESURSER",

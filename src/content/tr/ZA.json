@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "fca3bbf5a00a2bc5c8ae02d7f663df3d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb076b85a229a810666fd05392ea183d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,19 +14,22 @@
     "dronePilotCredentialName": "Uzaktan Pilot Lisansı",
     "keyRules": [
       "Görüş hattı (VLOS) zorunludur — yatayda en fazla 500 m mesafe",
-      "İnsanlara, binalara ve araçlara en az 50 m mesafe",
-      "Havalimanlarından en az 10 km uzakta kalın — bu kural Güney Afrika'da sıkı biçimde uygulanır. Bir havalimanının yakınında uçmadan önce kesin güncel mesafeyi SACAA ile doğrulayın.",
-      "Kruger'de veya başka herhangi bir Güney Afrika ulusal parkında dron uçurmak için SANParks'tan açık izin gerekir (NEMA Protected Areas Act) — parkın en yüksek noktasının 2.500 ft üzerinden daha alçakta izinsiz uçmak yasaktır. Ayrıca, Güney Afrika hava sahasında sivil havacılık kurallarına uymadan herhangi bir UAV işletmek R50.000'e kadar para cezasına ve/veya 10 yıla kadar hapis cezasına yol açabilir.",
+      "Yerden azami 150 ft (45 m) — ve 300 m içindeki en yüksek engelin altında kalın (kısıtlı VLOS)",
+      "İnsanlardan, kamu yollarından ve binalardan en az 50 m mesafe (sahibi izin vermedikçe) — asla kimsenin tam üzerinden uçmayın",
+      "Herhangi bir hava meydanından — havalimanları, hava pistleri ve helipadlar (özel lodge pistleri dahil) — en az 10 km uzakta kalın. Güney Afrika'da sıkı biçimde uygulanır.",
+      "Kontrollü, kısıtlı veya yasak hava sahasında ya da cezaevlerinin, karakolların, olay yerlerinin, mahkemelerin, nükleer santrallerin veya ulusal kilit noktaların (national key points) yakınında/üzerinde uçmayın",
+      "Herhangi bir milli parkın (Kruger dahil), özel doğa rezervinin veya Dünya Mirası Alanı'nın en yüksek noktasının 2.500 ft'ten daha az üzerinde uçmak, o alanın kendi yönetim makamından önceden yazılı izin gerektirir (Protected Areas Act s47) — yalnızca SANParks parklarında değil. Bundan ayrı olarak, sivil havacılık kurallarını ihlal etmek para cezasına ve/veya 10 yıla kadar hapis cezasına yol açabilir.",
       "Yalnızca gündüz uçun — hava koşulları açık olmalıdır",
-      "Hobi amaçlı uçuş için kayıt veya lisans gerekmez",
-      "Ticari kullanım RPC (Uzaktan Pilot Sertifikası), ROC ve RLA gerektirir",
+      "7 kg'ın altındaki dronlarla özel, ticari olmayan uçuş için kayıt veya lisans gerekmez (yalnızca kısıtlı VLOS)",
+      "Özel uçuşlar yalnızca sahibi olduğunuz veya sahibinden üzerinde uçma izni aldığınız mülklerin üzerinde",
+      "Özel olmayan her kullanım (ticari, kurumsal veya kâr amacı gütmeyen) bir Remote Pilot Licence (RPL), bir UAS Operating Certificate (UASOC, eski adıyla ROC), bir RPAS Letter of Approval (RLA) ve SACAA kaydı (C of R) gerektirir; ticari kullanım ayrıca bir Air Service Licence (ASL) gerektirir",
       "Sigorta genellikle yalnızca ticari operasyonlar için gereklidir — ticari kullanımdan önce güncel SACAA gerekliliklerini doğrulayın.",
       "İnsan topluluklarının veya halka açık etkinliklerin üzerinden uçmayın"
     ],
     "importantNotes": [
-      "Herhangi bir ulusal parkta (Kruger dahil) SANParks izni olmadan uçmak NEMA Protected Areas Act'i ihlal eder; ayrıca sivil havacılık kurallarına uymadan bir UAV işletmek R50.000'e kadar para cezasına ve/veya 10 yıla kadar hapis cezasına yol açabilir.",
+      "Parkın yönetim makamından önceden yazılı izin almadan herhangi bir milli parkın (Kruger dahil) üzerinde 2.500 ft'in altında uçmak Protected Areas Act kapsamında bir suçtur — ilk suçta R5 milyona kadar para cezası ve/veya 5 yıla kadar hapis (tekrarında R10 milyon ve/veya 10 yıl). Sivil havacılık kurallarını ihlal etmek ayrıca para cezasına ve/veya 10 yıla kadar hapis cezasına yol açabilir.",
       "Güney Afrika'nın 10 km'lik havalimanı bölgesi, çoğu ülkedeki tipik 3–9 km mesafeden çok daha katıdır — güncel mesafeyi SACAA ile doğrulayın.",
-      "Ticari operatörlerin üç ayrı sertifikasyona ihtiyacı vardır: RPC, ROC ve RLA",
+      "Kurumsal ve kâr amacı gütmeyen operatörler ticari operatörlerle aynı onaylara ihtiyaç duyar — RPL, UASOC (eski adıyla ROC), RLA ve C of R; yalnızca Air Service Licence (ASL) ticari kullanıma özgüdür",
       "İhlaller cezai kovuşturmaya yol açabilir"
     ],
     "primaryLinks": [
@@ -42,7 +45,7 @@
     "secondaryLinks": [
       {
         "title": "SACAA — Ticari ruhsatlandırma",
-        "description": "Ticari dron operasyonları için RPC, ROC ve RLA gereklilikleri"
+        "description": "Özel olmayan dron operasyonları için RPL, UASOC, RLA, C of R ve ASL gereklilikleri"
       }
     ]
   }

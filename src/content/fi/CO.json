@@ -1,45 +1,44 @@
 {
   "meta": {
-    "sourceHash": "81c150124a0453afe7f5155ecf3def2f6e3595db14698b42ea98cfaec819abc2",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "739c62107e50c8694e19f4d73e36df062253357ffa3b107cac8d667605278391",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enimmäiskorkeus: 122 m (400 ft) maanpinnasta (AGL)",
-      "Suurin vaakaetäisyys: 750 m lennättäjästä (säilytä suora näköyhteys, VLOS)",
+      "Enimmäiskorkeus: 122 m (400 ft) maanpinnasta (RAC 100).",
+      "Suurin vaakaetäisyys: 750 m lennättäjästä suoraa näköyhteyttä (VLOS) ylläpitäen (RAC 100).",
       "Dronet, joiden suurin lentoonlähtömassa (MTOW) on vähintään 200 g: pakollinen rekisteröinti Aerocivilin UAS-alustalla",
-      "Avoin kategoria (dronet ≤25 kg): toiminta sallittu ilman ennakkolupaa määräyksen RAC 100 mukaisesti",
-      "B-luokka (25–150 kg): edellyttää aina Aerocivilin lupaa",
-      "Vähintään 9 km:n etäisyys lentoasemien vertailupisteestä",
-      "Vähintään 3 km:n etäisyys helikopterikentistä",
+      "Rekisteröity drone: siinä on vähintään 2 × 4 cm:n kiinteä tarra, jossa on rekisterinumero, nimi, sähköpostiosoite ja atencionalciudadano@aerocivil.gov.co (RAC 100).",
+      "Avoin kategoria (dronet ≤25 kg, vain ei-kaupallinen käyttö): toiminta sallittu ilman ennakkolupaa määräyksen RAC 100 mukaisesti. Kaupallinen käyttö = erityiskategoria luvalla.",
+      "Yli 25 kg:n dronet (enintään 250 kg): vain erityiskategoriassa, Aerocivilin lentoluvalla ja lentäjällä, jolla on kelpoisuustodistus (RAC 100).",
+      "Vähintään 2 km:n etäisyys sotilas- ja poliisitukikohdista, vankiloista ja kriittisestä infrastruktuurista sekä kaikista paikoista, joissa presidentti on läsnä (RAC 100).",
+      "Lentoasemat: lentäminen on kielletty lentoasemalla ja 6 km:n säteellä vertailupisteestä (ARP); 6–9 km:n etäisyydellä vain avoimessa kategoriassa, enintään 61 m (200 ft) alimman kynnyksen yläpuolella ja ZNVD-alueiden ulkopuolella — tarkista Visor Geográfico UAS (RAC 100).",
+      "Vähintään 3 km:n etäisyys helikopterikentistä (RAC 100).",
       "Vähintään 30 m:n etäisyys ihmisistä ja rakennuksista, jotka eivät osallistu lennätykseen",
-      "Pidä drone aina suorassa näköyhteydessä (VLOS) ja lennätä vain valoisan aikaan",
-      "GEO-vyöhykkeet (dronejen rajoitusalueet) määrittää Aerocivil ICAOn mukaisesti"
+      "Pidä drone aina suorassa näköyhteydessä (VLOS). Yöllä vain jatkuvasti päällä olevin valoin ja tähystäjän kanssa (RAC 100).",
+      "Dronejen lentokieltoalueet (ZNVD) sekä kielletyt, rajoitetut ja vaara-alueet voi tarkistaa Aerocivilin Visor Geográfico UAS -palvelusta (RAC 100)."
     ],
     "importantNotes": [
       "📋 RAC 100 (tällä hetkellä voimassa): Kolumbian pääasiallinen dronemääräys. Se korvaa aiemman RAC 91:n liitteen 13. Se määrittää avoimen kategorian (toiminta ilman ennakkolupaa) ja erityiskategorian (luvanvarainen). Yleiskirje 100-MAUT-5.0-22-010-CI sisältää vaiheittaiset ohjeet rekisteröintiprosessiin.",
+      "✈️ TURISTIT: RAC 100 koskee myös ulkomaalaisia. Vähintään 200 g painavat dronet rekisteröidään Plataforma UAS Colombia -palvelussa voimassa olevalla passilla; menettely on maksuton.",
       "🌳 KANSALLISPUISTOT JA SUOJELUALUEET: Kolumbian kansallispuistot (PNN) kieltävät dronet ilman erityislupaa puistoissa kuten Tayrona, Cocuy, Los Nevados ja Amacayacu. Kolumbian Karibialla ja Amazonian alueella on lisärajoituksia — tarkista kustakin puistosta ennen matkaa.",
-      "🏛️ RAJOITUS- JA KAUPUNKIALUEET: Bogotán keskusta (Casa de Nariño, Plaza Bolívar, El Dorado -lentoasema (SKBO)), Cartagenan muurien ympäröimä vanhakaupunki, sotilasalueet, rajat (Venezuela, Ecuador, Panama), purjehduskelpoiset joet ja öljynporauslautat ovat pysyvien rajoitusten alaisia — tarkista Aerocivilin GEO-vyöhykkeet.",
-      "💰 SEURAAMUKSET JA VASTUU: Toiminta ilman lupaa tai sallittujen alueiden ulkopuolella voi johtaa huomattaviin sakkoihin (UVT — verotusarvoyksikkö), laitteiston takavarikointiin ja vakavissa tapauksissa rikosoikeudelliseen vastuuseen. Kaupalliseen käyttöön: vastuuvakuutus vaaditaan."
+      "🏛️ RAJOITETUT ALUEET: lentäminen on kielletty ZNVD-alueilla (esim. El Doradon (SKBO) ympärillä) — tarkista Aerocivilin Visor Geográfico UAS ennen jokaista lentoa.",
+      "💰 SEURAAMUKSET JA VASTUU: Toiminta ilman rekisteröintiä tai sallittujen alueiden ulkopuolella voi johtaa huomattaviin sakkoihin (UVT — verotusarvoyksikkö), laitteiston takavarikointiin ja vakavissa tapauksissa rikosoikeudelliseen vastuuseen. Kaupalliseen käyttöön: vastuuvakuutus vaaditaan."
     ],
     "primaryLinks": [
       {
-        "title": "Aerocivil — Miehittämättömät ilma-alusjärjestelmät (UAS/dronet)",
-        "description": "Siviili-ilmailun erityishallintoyksikön (UAEAC) virallinen sivusto droneista: RAC 100, tiedotteet, UAS-rekisteröinti"
-      },
-      {
-        "title": "RPAS-asiakirjat — Lennonvarmistuspalvelut",
-        "description": "Virallinen RPAS-/droneasiakirjojen arkisto: lomakkeet, rekisteröintioppaat, yleiskirje 100-MAUT-5.0-22-010-CI ja sovellettavat määräykset"
+        "title": "Aerocivil — Miehittämätön ilmailu (UAS/dronet)",
+        "description": "Siviili-ilmailun erityishallintoyksikön (UAEAC) virallinen dronesivusto: RAC 100, tiedotteet (Informative Circulars), UAS-rekisteröinti"
       },
       {
         "title": "Aerocivil — Usein kysyttyä droneista",
         "description": "Virallinen usein kysytyt kysymykset -osio droneista ja kaupunkien ilmaliikkuvuudesta, jossa on yksityiskohtaiset vastaukset käyttäjien yleisiin kysymyksiin"
       },
       {
-        "title": "Kansallinen ilmailurekisteri — UAS",
-        "description": "Ilmailurekisteröintijärjestelmä yli 250 g painaville droneille. Sisältää rekisteröintioppaan ja vaatimukset: tunnistetiedot, kuvat dronesta (6 kpl, PDF <2 Mt) ja digitaalinen lomake"
+        "title": "Aerocivil — Plataforma UAS Colombia (dronen rekisteröinti)",
+        "description": "Aerocivilin sähköisten UAS-palvelujen portaali: pääsy Plataforma UAS Colombia -palveluun vähintään 200 g painavien dronejen rekisteröintiä varten (maksuton), Visor Geográfico UAS ja opastusvideot"
       }
     ],
     "secondaryLinks": [
@@ -49,11 +48,11 @@
       },
       {
         "title": "Kansalaispalvelut (sähköposti + puhelin)",
-        "description": "Aerocivilin virallinen sähköpostiosoite dronetiedusteluihin. Puhelin: +57 (601) 425 1000 tai maksuton 01 8000 112373. Ma–pe klo 8.00–16.30."
+        "description": "Aerocivilin virallinen sähköpostiosoite dronetiedusteluihin. Puhelin: +57 (601) 425 1000 tai +57 (601) 518 5214. Ma–pe klo 8.00–16.30. Dronet: gdmua@aerocivil.gov.co"
       },
       {
         "title": "Kolumbian ilmailumääräykset (RAC)",
-        "description": "Kolumbian ilmailumääräykset (RAC). Sisältää RAC 100 (UAS-toiminta), RAC 91 liite 13 ja kaikki droneihin sovellettavat määräykset"
+        "description": "Kolumbian ilmailumääräykset (RAC). Sisältää RAC 100:n (UAS-toiminta, voimassa vuodesta 2023) ja muut droneihin sovellettavat määräykset"
       }
     ],
     "disclaimerText": "Tarkista aina siviili-ilmailuviranomaisen (Aerocivil) viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Kolumbiassa on voimassa määräys RAC 100 (UAS-toiminnan ilmailumääräykset), joka edellyttää pakollista rekisteröintiä droneille, joiden MTOW on vähintään 200 g, UAS-alustan kautta.",

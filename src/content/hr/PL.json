@@ -1,28 +1,32 @@
 {
   "meta": {
-    "sourceHash": "b05d24f015f2308210145943a215484aa1c49ad8f402e6dfeecc2171445caa3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "71ddedd6eadd4ef67c92064fd4d382b6fa87094ff6d0bff888fecfd333d022c5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Najviše 120 m iznad razine tla (EASA Open kategorija)",
-      "Registracija kao UAS operater (besplatno) za dronove teške 250 g ili više ili opremljene kamerom",
-      "Potrebna je online obuka A1/A3 — najniža dob je 16 godina",
-      "Obavezna registracija putem aplikacije DroneTower u zonama kontroliranog zračnog prostora",
-      "Varšava: u blizini vladinih objekata potrebno je odobrenje tijela State Protection Service (SOP)",
-      "Uvijek držite dron u izravnom vidnom polju (VLOS)",
+      "U otvorenoj kategoriji najveća je visina 120 m, mjerena kao udaljenost do najbliže točke Zemljine površine — ne samo okomito prema dolje, pa se uz padinu može računati i teren pokraj vas. Unutar 50 m od visoke umjetne prepreke (više od 105 m), subjekt odgovoran za prepreku može zatražiti dozvolu za letenje do 15 m iznad visine prepreke.",
+      "Morate se registrirati kao operater drona ako vaš dron teži 250 g ili više (ili pri udaru može prenijeti više od 80 J energije) — to vrijedi čak i za igračke. Ispod 250 g registracija je i dalje potrebna ako dron ima senzor koji može bilježiti osobne podatke, osim ako se smatra igračkom prema EU Toy Safety Directive. Zahtjevi za obuku i certifikat pilota zasebni su i ovise o klasi i potkategoriji drona.",
+      "Od 13. studenoga 2025. operater drona poletne mase od 250 g do 20 kg mora imati obavezno osiguranje od odgovornosti prema trećima (OC) (minimalna svota osiguranja: protuvrijednost 50.000 SDR po štetnom događaju) — i za rekreativne letove.",
+      "U Poljskoj je od 27. veljače 2025. minimalna dob za otvorenu kategoriju 14 godina; besplatna online obuka i ispit vrijede 5 godina. Mlađe osobe smiju letjeti pod izravnim nadzorom pilota od najmanje 14 godina koji ima potrebnu osposobljenost (iznimke: dron igračka C0 u A1 i dron privatne izrade lakši od 250 g).",
+      "Svaki let drona u Poljskoj — bez obzira na masu ili lokaciju — mora se prije polijetanja prijaviti PAŻP-u putem funkcije Check-In u aplikaciji DroneTower (čl. 156a(2) Zakona o zrakoplovstvu, Prawo lotnicze). Na nekim mjestima, uključujući dijelove zona DRA-R CTR oko kontroliranih aerodroma, potrebna je i misija koju je odobrio PAŻP (Kreator Misji KSID na drony.gov.pl) — tada polijećete tek nakon što kontrolor TWR-a prihvati let u aplikaciji DroneTower.",
+      "Zone DRA-R CTR oko kontroliranih aerodroma, otvorena kategorija: bliže od 1 km od aerodroma — nema letova; 1–6 km — iznad 30 m AGL samo uz osposobljenost A2 (dronovi > 0,9 kg i uz odobrenu misiju), najviše 50 m AGL; dalje od 6 km — najviše 100 m AGL. U CTR-u je potrebna najmanje osposobljenost A1/A3 (i za dronove < 250 g). U CTR-u Rzeszów (EPRZ) vrijede drukčija pravila. Točne granice i uvjete provjerite u aplikaciji DroneTower ili DroneMap.",
+      "Varšava: središte grada pokriva trajna zona EPP21 WARSZAWA II — letovi dronova samo uz dozvolu upravitelja zone; uvjete i kontaktne podatke provjerite u aplikaciji DroneTower.",
+      "U otvorenoj kategoriji dron morate držati unutar vlastitog vidnog polja, bez pomagala (naočale/kontaktne leće su dopuštene; dalekozor ili zaslon ne računaju se) — ili letjeti uz pomoć promatrača, uz stalnu jasnu i učinkovitu komunikaciju između vas, kako biste zajedno mogli nadzirati zračni prostor i izbjeći sudare. Način „Follow-me“ zasebna je iznimka, dopušten do 50 m od pilota.",
       "Ne letite iznad okupljanja ljudi. Pravila za neuključene osobe ovise o potkategoriji, klasi i uvjetima leta; provjerite službenu tablicu.",
-      "Zone DRA-RM (ispod 6 km, s ograničenjima visine) i zone DRA-RH (iznad 6 km) — provjerite drony.gov.pl",
+      "Ograničene zone DRA-R dijele se prema vjerojatnosti dobivanja dozvole: DRA-RH (visoka), DRA-RM (srednja), DRA-RL (niska) — a ne prema visini (Smjernice predsjednika ULC-a br. 4/2025, Wytyczne nr 4/2025 Prezesa ULC). Prije leta u ograničenoj zoni provjerite drony.gov.pl.",
+      "Dronovi klasa C1, C2 i C3 moraju letjeti s uključenom i ažurnom daljinskom identifikacijom (Remote ID) koja emitira broj operatera; to ne vrijedi za klase C0/C4 ni za dronove bez oznake klase koji su stavljeni na tržište prije 1. siječnja 2024. ili su privatne izrade (u A1 lakši od 250 g ili u A3).",
       "Noćni let dopušten je prema osnovnim pravilima EASA otvorene kategorije kada se koristi propisano zeleno trepćuće svjetlo, osim ako važeća geografska zona ili nacionalno pravilo ne nameće stroži uvjet.",
-      "Nacionalni parkovi i područja Natura 2000: na snazi su ograničenja"
+      "Nacionalni parkovi mogu biti obuhvaćeni geografskim zonama DRA-R — letovi samo uz dozvolu upravitelja zone; prije leta provjerite zone u aplikaciji DroneTower (to vrijedi i za područja Natura 2000 i prirodne rezervate)."
     ],
     "importantNotes": [
-      "Aplikacija DroneTower potrebna je za prijavu letova u zonama CTR",
-      "Varšava: u blizini vladinih objekata potrebno je odobrenje tijela SOP",
+      "Check-In u aplikaciji DroneTower obavezan je prije svakog leta u Poljskoj — ne samo u zonama CTR.",
+      "Varšava ima trajne zabranjene zone objavljene u AIP-u, uključujući EPP9 WARSZAWA, EPP21 WARSZAWA II (središte grada) i EPP26 FRONTEX (krug od 500 m oko sjedišta Frontexa), kao i druge geografske zone za dronove. Prije leta provjerite ih i njihove uvjete u aplikaciji DroneTower ili DroneMap.",
       "Registracija je besplatna i vrijedi u svim EU/EASA zemljama",
-      "Kazne do 50.000 PLN za prekršaje",
+      "Turisti izvan EU/EASA (npr. iz SAD-a ili Ujedinjenog Kraljevstva): registrirajte se kao operater u prvoj zemlji EU-a u kojoj planirate letjeti — ako je to Poljska, na drony.gov.pl — i istaknite svoj broj operatera na dronu. Registracija iz druge EU/EASA zemlje vrijedi u Poljskoj; ne možete se registrirati dvaput.",
+      "Upravne kazne ULC-a: PLN 4.000 za svako kršenje pravila otvorene kategorije, PLN 10.000 za letenje protivno uvjetima geografske zone ili za neregistriranje kao operater; kršenje zabrana letenja (npr. iz sigurnosnih razloga) kazneno je djelo za koje je propisana kazna zatvora do 5 godina.",
       "GDPR se primjenjuje na snimanje slika osoba koje je moguće identificirati"
     ],
     "primaryLinks": [
@@ -31,22 +35,22 @@
         "description": "Službeni propisi i resursi o dronovima tijela za civilno zrakoplovstvo"
       },
       {
-        "title": "ULC — Registracija operatera",
-        "description": "Besplatna registracija kao UAS operater (vrijedi u svim EU/EASA zemljama)"
+        "title": "drony.gov.pl — Registracija operatera",
+        "description": "Besplatna registracija UAS operatera te online obuka i ispit (registracija vrijedi u svim EU/EASA zemljama)"
       },
       {
         "title": "PANSA — DroneMap",
-        "description": "Službena karta zračnog prostora koja prikazuje CTR-ove, ograničene zone i informacije u stvarnom vremenu"
+        "description": "Službena karta zračnog prostora koja prikazuje CTR-ove, zabranjene zone i informacije u stvarnom vremenu"
       },
       {
         "title": "DroneTower — Aplikacija za prijavu letova",
-        "description": "Obavezna aplikacija za prijavu letova u kontroliranom zračnom prostoru"
+        "description": "Obavezna aplikacija za prijavu (Check-In) svakog leta drona u Poljskoj"
       }
     ],
     "secondaryLinks": [
       {
         "title": "PANSA — NOTAM-i",
-        "description": "Aktivni NOTAM-i i privremena ograničenja zračnog prostora"
+        "description": "Ured PAŻP-a za NOTAM — informacije NOTAM za FIR Warszawa; aktualna ograničenja za dronove provjerite u aplikaciji DroneTower"
       },
       {
         "title": "ULC — Česta pitanja o dronovima",
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "SLUŽBENI IZVORI",
     "sectionLabelSecondary": "DODATNI RESURSI",
     "linksSheetTitle": "Zračni prostor i propisi — Poljska",
-    "dronePilotCredentialName": "Certifikat pilota drona"
+    "dronePilotCredentialName": "Kvalifikacije pilota drona"
   }
 }

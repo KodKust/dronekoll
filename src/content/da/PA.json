@@ -1,42 +1,44 @@
 {
   "meta": {
-    "sourceHash": "7ac6f58efeb57847db5c573b36f52f9091268fb859f217572eb22f0601db3ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "87a436fc2428e63cbeabda8e978948a403f544d76e6100f96d885f4d05ce52ec",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimal højde afhænger af vægten: ≤250 g → 30 m; 250 g–25 kg → 60 m; 25–150 kg → 120 m",
-      "Droner, der vejer mere end 250 g (alle anvendelser), kræver AAC-registrering — pris: US$5; registrering ved personligt fremmøde i Albrook",
-      "Rekreative droner, der vejer ≤250 g: Registrering er IKKE påkrævet, men alle andre regler gælder",
-      "Mindst 8 km fra lufthavne og flyvepladser",
-      "Mindst 30 m vandret og 10 m lodret fra personer",
-      "Hold altid dronen inden for synsvidde (VLOS)",
-      "Natflyvning er FORBUDT uden en specifik AAC-dispensation",
-      "Ansvarsforsikring er OBLIGATORISK for alle transaktioner",
-      "Obligatorisk samtykkeerklæring vedrørende: privat ejendom, oprindelige folks reservater, beskyttede områder og afvandingsområdet for Panama Canal",
-      "Kommerciel brug kræver en RPA-pilotlicens ud over droneregistrering"
+      "Den maksimale højde afhænger af RPA-klassen: Micro (≤250 g) → 100 ft (~30 m); Light (251 g–25 kg) → 400 ft (~120 m); Medium (26–150 kg) → 400 ft, men begrænset til 100 m uden Mode S-transponder (AAC-standarden §9.2, §10.1.1, §11.1.5, §11.1.10).",
+      "Alle RPA, også Micro-klassen (≤250 g), skal registreres hos AAC (§8.1, §9.1, §15.2 i standarden) — i modsætning til de fleste lande undtager Panama ikke de letteste droner fra registrering. Registreringen foregår personligt i Albrook; tjek det aktuelle gebyr.",
+      "Panama undtager IKKE lette fritidsdroner (≤250 g) fra registrering — i modsætning til de fleste lande kræver AAC-standarden (§8.1, §9.1) registrering for alle RPA-klasser, også Micro.",
+      "Enhver RPA-operation i Panama kræver en driftstilladelse fra AAC (§8.2, §8.20): indsend Form 005 (Solicitud de Permiso de Actividades Aéreas Especiales) mindst 5 hverdage i forvejen.",
+      "Minimumsafstand på 8 km (5 sømil) fra lufthavne og flyvepladser, Republikkens præsidentembede og fængsler (§8.10–8.11 i AAC-standarden). Standarden forbyder også flyvning på steder, der kompromitterer statens sikkerhed, såsom ambassader, offentlige institutioner og banker (§8.11), og AAC opretholder restriktioner over politistationer, hospitaler og Ministry of Security (AAC-meddelelse af 26/9/2025).",
+      "Under start og landing skal du holde mindst 30 m vandret og 10 m lodret afstand til personer, der ikke deltager i operationen (§13.1 i AAC-standarden).",
+      "Du skal til enhver tid holde dronen i direkte visuel kontakt (RACP).",
+      "Natflyvning er FORBUDT uden en specifik AAC-dispensation.",
+      "Ansvarsforsikring over for tredjemand er OBLIGATORISK for alle RPA-ejere (§8.4 i AAC-standarden), uanset brug. Flyvning over personer kræver desuden AAC-tilladelse og samtykke fra de involverede (§8.16).",
+      "Forbudte områder, restriktionsområder og fareområder (se AAC's AIP) kræver specifik tilladelse fra AAC og fra den myndighed, der har ansvaret for området — begge kræves (§13.1 d i AAC-standarden). I kanalzonen, beskyttede områder og oprindelige folks territorier skal du rådføre dig med den ansvarlige myndighed, før du ansøger om flyvetilladelsen.",
+      "Alle, der fører en RPA — også til fritidsbrug og i Micro-klassen (≤250 g) — skal have en AAC-fjernpilotlicens og en helbredsattest af klasse 3 (§8.3, §9.1, §10.1 i AAC-standarden). Kommerciel brug kræver desuden en tilladelse til kommercielle operationer (§13.3)."
     ],
     "importantNotes": [
-      "📏 HØJDER VARIERER EFTER VÆGT (unikt i Latinamerika): Panamas RACP har tre maksimale højdeniveauer baseret på dronens vægt: droner ≤250 g er begrænset til KUN 30 m, droner på 250 g–25 kg er begrænset til 60 m, og kun droner på 25 kg eller mere kan nå de sædvanlige 120 m. Tjek din drones vægt, før du planlægger din flyvehøjde.",
-      "✈️ TURISTER — 14-DAGES-REGLEN: Hvis dit ophold i Panama er ≤14 kalenderdage, kan du ansøge om særlig AAC-tilladelse uden at registrere dronen permanent. Ophold >14 dage: AAC-registrering er obligatorisk for droner >250 g. Rekreative droner ≤250 g er undtaget i begge tilfælde.",
-      "🚢 PANAMA CANAL — SÆRLIG RESTRIKTION: Panama Canal-bassinet (inklusive sluserne, Gatún Lake og tilstødende områder) kræver et obligatorisk Letter of Informed Consent fra Canal Authority før enhver flyvning. AAC vil IKKE godkende operationer over dette område uden dette brev. Dette gælder også for privat ejendom, oprindelige folks reservater og beskyttede områder.",
-      "🌳 BESKYTTEDE OMRÅDER OG MIAMBIENTE: Nationalparker som Soberanía, Volcán Barú, Coiba (et UNESCO-verdensarvsted) og Darién kræver en specifik tilladelse fra Ministry of the Environment (MiAmbiente). Øerne Bocas del Toro og Guna Yala har også restriktioner — koordinér med lokalsamfundet, før du flyver.",
-      "🏢 PERSONLIG REGISTRERING PÅKRÆVET: I modsætning til de fleste lande skal AAC-registrering ske PERSONLIGT på Albrook-kontoret (Building 805). Medbring: identifikation, den fysiske drone, den udfyldte formular og US$5. Tjek, om der er ledige tider, og hvor lang behandlingstiden er, før din rejse."
+      "I modsætning til mange lande inddeler Panama den maksimale højde efter RPA-klasse: 100 ft (~30 m) for Micro (≤250 g), 400 ft (~120 m) for Light (251 g–25 kg) og 400 ft for Medium (26–150 kg) — men sidstnævnte er begrænset til 100 m uden Mode S-transponder. Tjek din drones klasse, før du planlægger din flyvehøjde.",
+      "Turister: den særlige tilladelse for udenlandske RPA'er eller operatører (Form 004) gælder højst 15 dage og gives IKKE til fritidsaktiviteter (§8.22 i AAC-standarden). Fritidsflyvning kræver, at RPA'en registreres hos AAC (alle klasser, også Micro ≤250 g, §8.1), og en AAC-pilotlicens til RPA (§8.3); en udenlandsk licens valideres kun, hvis der findes en bilateral aftale (§18.17). Tjek med AAC, før du rejser.",
+      "PANAMAKANALEN — RESTRIKTIONSOMRÅDE: ifølge AAC's AIP (ENR 5) er operationer over slusene Gatún, Pedro Miguel og Miraflores, dæmningerne Gatún og Madden samt over ethvert skib, der passerer kanalen, underlagt restriktioner. Der kræves tilladelse fra AAC og fra den myndighed, der har ansvaret for området (§13.1 d i AAC-standarden).",
+      "Casco Antiguo, Cinta Costera, Av. Balboa og Calle 50 med omgivelser: ud over AAC-tilladelse skal du underrette Servicio de Protección Institucional (SPI) skriftligt.",
+      "🌳 BESKYTTEDE OMRÅDER (MiAmbiente): i SINAP's beskyttede områder må kun besøgende med gyldig licens/registrering bruge droner i overensstemmelse med de gældende procedurer og gebyrer (Resolución DM-0173-2026, art. 12). Tjek med områdets administration, før du flyver.",
+      "I modsætning til de fleste lande skal AAC-registreringen ske personligt i Albrook — tjek den aktuelle procedure og kravene før din ansøgning."
     ],
     "primaryLinks": [
       {
         "title": "AAC — Panamas civile luftfartsmyndighed",
-        "description": "Officiel hjemmeside for Panamas civile luftfartsmyndighed. Information om droneregistrering, RACP-forordninger og procedurer for indenlandske og udenlandske operatører"
+        "description": "Officiel hjemmeside for Panamas civile luftfartsmyndighed. Information om droneregistrering, RPAS-standarden og procedurer for indenlandske og udenlandske operatører"
       },
       {
-        "title": "RACP — Panamas civile luftfartsbestemmelser",
-        "description": "Adgang til de fuldstændige panamanske civile luftfartsbestemmelser. Afsnit om bestemmelser, der gælder for ubemandede luftfartøjer (RPA)"
+        "title": "Norma AAC/DG/DSA/001-2021 — fjernstyrede luftfartøjer (RPAS)",
+        "description": "Teksten til AAC-standarden med kravene til drift af fjernstyrede luftfartøjssystemer (RPAS) i Panama (PDF)"
       },
       {
         "title": "AAC's Albrook-kontor (personlig registrering påkrævet)",
-        "description": "Bygning 805, Albrook, første sal — direktoratet for luftfartssikkerhed. Droneregistrering SKAL ske personligt: medbring identifikation, selve dronen og den udfyldte formular. Pris: US$5"
+        "description": "Bygning 805, Albrook, stueetagen — dokumentationsafdelingen. Indsend en ansøgningsskrivelse (eller send den til correspondencia.aac@aeronautica.gob.pa); AAC tildeler dig en tid. Medbring registreringsformularen, en kopi af din RPA-licens, ID-kort, specifikationer, faktura, forsikringspolice og betalingskvittering. Pris: US$20"
       },
       {
         "title": "AAC — Pressemeddelelser og gældende bestemmelser",
@@ -46,7 +48,7 @@
     "secondaryLinks": [
       {
         "title": "STRI/Smithsonian — AAC-forskningsvejledning",
-        "description": "Detaljeret vejledning fra Smithsonian Tropical Research Institute om AAC-godkendelsesprocessen, inklusive samtykkeerklæringen for restriktionsbelagte områder"
+        "description": "Detaljeret vejledning fra Smithsonian Tropical Research Institute om AAC-godkendelsesprocessen, inklusive samtykkeerklæringen (Letter of Informed Consent) for restriktionsbelagte områder"
       },
       {
         "title": "MiAmbiente — Beskyttede områder (nationalparker)",
@@ -54,10 +56,10 @@
       },
       {
         "title": "Panamakanalen — Officiel information",
-        "description": "Panamakanalens myndighed. Kanalens afvandingsområde kræver en obligatorisk samtykkeerklæring — uden den vil AAC ikke give tilladelse"
+        "description": "Panamakanalens myndighed. Slusene, dæmningerne og skibe under gennemsejling er restriktionsområder (AIP ENR 5): der kræves tilladelse fra AAC og fra den myndighed, der har ansvaret for området"
       }
     ],
-    "disclaimerText": "Tjek altid AAC's officielle kilder, før du flyver. Denne app er et værktøj, ikke en juridisk myndighed. Panama håndhæver Civil Aviation Regulations (RACP), som omfatter vægtafhængige maksimale højder og særlige restriktioner over Panama Canal-bassinet.",
+    "disclaimerText": "Tjek altid AAC's officielle kilder, før du flyver. Denne app er et værktøj, ikke en juridisk myndighed. Panama anvender Norma AAC/DG/DSA/001-2021 med VÆGTAFHÆNGIGE maksimale højder og restriktionsområder i Panamakanalzonen (AIP ENR 5).",
     "sectionLabelRules": "VIGTIGSTE REGLER",
     "sectionLabelPrimary": "OFFICIELLE KILDER",
     "sectionLabelSecondary": "YDERLIGERE RESSOURCER",

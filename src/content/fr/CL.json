@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (zones inhabitées, loisir) : les drones pesant ≤750 g peuvent voler jusqu'à 50 m au-dessus de l'obstacle le plus élevé sur une propriété privée sans autorisation",
-      "DAN 151 (zones habitées/usage professionnel) : les drones de plus de 750 g nécessitent un enregistrement DGAC, une licence de télépilote et une autorisation opérationnelle",
-      "Hauteur totale maximale autorisée : 130 m AGL (DAN 151) — variable selon l'autorisation",
-      "Distance minimale de 2 km des aéroports et aérodromes",
+      "DAN 91.102(j) : sans autorisation de la DGAC, seuls les drones jusqu'à 750 g en polyéthylène expansé ou matériau équivalent, à usage privé ou récréatif, peuvent voler, dans des lieux privés et à 50 m maximum au-dessus de l'obstacle ou du bâtiment le plus haut. Tout autre vol nécessite une autorisation préalable de la DGAC.",
+      "DAN 151 (zones habitées, intérêt public ou travail aérien) : s'applique aux drones de tout poids (9 kg max.) et exige un enregistrement DGAC, une accréditation de télépilote, une assurance, un AOC ou CEO et une autorisation d'exploitation.",
+      "DAN 151 : le drone doit être équipé d'un parachute de secours pendant l'exploitation et pouvoir être contrôlé manuellement (9 kg max. hors parachute).",
+      "La limite générale est de 400 pieds (120 m) AGL — voler au-dessus nécessite une autorisation préalable de la DGAC (DAN 151 Ed. 3, en vigueur depuis mai 2024). Le DAN 91 actuel exprime la même limite par « 400 pieds (130 mètres) ».",
+      "Interdiction de voler à moins de 2 km du prolongement de l'axe de piste (mesuré depuis le seuil) ou à moins de 1 km parallèlement à l'axe de piste d'un aérodrome.",
+      "Aucune opération de drone dans les zones où un incendie est combattu par des aéronefs habités (DAN 91.102(i)(11) et DAN 151.103(g)(14)).",
       "Distance maximale de 500 m de l'opérateur (maintenir le contact visuel direct)",
-      "Gardez toujours le drone en vue directe (VLOS)",
+      "Vous devez garder à tout moment un contact visuel direct avec le drone pour diriger son vol.",
       "Les vols de nuit nécessitent une autorisation spécifique de la DGAC",
-      "Enregistrement DGAC : marque, modèle, numéro de série, poids maximal ≤9 kg pour l'usage autorisé, photo 10×15 cm",
-      "Une licence de télépilote nécessite un examen écrit (note minimale de 75 %) portant sur le DAN 151, le DAN 91, la météorologie et l'aérodynamique",
+      "Enregistrement DGAC (DAN 151.203) : fabricant/pays, marque, modèle, numéro de série et poids d'usine, avec une copie de votre pièce d'identité ; la demande se fait sur la plateforme web de la DGAC (depuis août 2026). Masse maximale au décollage 9 kg.",
+      "Accréditation de télépilote : au moins 18 ans, déclaration de formation et examen écrit (75 % minimum) portant sur le DAN 151, le DAN 91, les NOTAM, la météorologie et l'aérodynamique ; valable 36 mois.",
       "Assurance responsabilité civile (agréée par la JAC) requise pour l'usage professionnel"
     ],
     "importantNotes": [
-      "📋 DOUBLE CADRE RÉGLEMENTAIRE — DAN 91 vs DAN 151 : le Chili distingue les vols dans des zones INHABITÉES (DAN 91, plus permissif ; vols de loisir ≤750 g sans permis) des vols dans des zones HABITÉES ou d'intérêt public (DAN 151, qui exige un enregistrement, un télépilote certifié et une assurance). La réglementation applicable dépend du lieu ET de l'objectif.",
-      "✈️ TOURISTES ÉTRANGERS : les règles s'appliquent de la même manière aux non-résidents. Aucun enregistrement n'est requis pour les vols de loisir avec des drones pesant ≤750 g dans des zones privées inhabitées. Pour toute autre opération (tourisme, usage professionnel, à proximité de personnes, dans des parcs), les mêmes permis sont requis que pour les citoyens chiliens.",
-      "🌋 PARCS NATIONAUX ET RÉSERVES : la CONAF (National Forestry Corporation) interdit les drones sans permis spécial dans des parcs comme Torres del Paine, Lauca et le parc national du volcan Isluga. Antarctique chilien : réglementation spéciale de l'INACH. Renseignez-vous auprès de chaque parc ou réserve avant de partir.",
-      "🏔️ ZONES RÉGLEMENTÉES : centre de Santiago (La Moneda, Plaza de Armas), aéroport SCEL (Pudahuel), zones militaires et frontalières. Île de Pâques, île Robinson Crusoe, Antarctique : restrictions supplémentaires. Consultez l'AIP Chile (ENR 5.1) pour une carte des zones interdites, réglementées et dangereuses.",
-      "💰 RENOUVELLEMENT ANNUEL : l'enregistrement DGAC est valable 12 mois et doit être renouvelé chaque année. Voler sans enregistrement ni titre valide peut entraîner une amende, la confiscation de l'équipement et une interdiction d'exploitation."
+      "DOUBLE CADRE RÉGLEMENTAIRE — DAN 91 (zones inhabitées) : chaque vol nécessite une autorisation préalable de la DGAC, au cas par cas (annexe D). DAN 151 (zones habitées, intérêt public ou travail aérien) : enregistrement, accréditation, assurance et autorisation. Seule exception : drones ≤750 g en polyéthylène expansé ou matériau équivalent, usage récréatif, dans des lieux privés et ≤50 m au-dessus de l'obstacle le plus haut.",
+      "✈️ TOURISTES ÉTRANGERS : les règles s'appliquent également aux non-résidents. Sans autorisation de la DGAC, seuls sont autorisés les drones ≤750 g en polyéthylène expansé ou matériau équivalent, à usage récréatif, dans des lieux privés et ≤50 m au-dessus de l'obstacle le plus haut. Tout autre vol nécessite une autorisation préalable de la DGAC ; l'enregistrement DGAC exige une copie de votre pièce d'identité.",
+      "🌋 AIRES PROTÉGÉES : l'usage récréatif ou touristique des drones n'est autorisé dans aucune aire sauvage protégée de l'État (parcs nationaux, réserves, monuments naturels). La CONAF n'autorise les vols que dans des cas justifiés (recherche scientifique, surveillance ou autres fins de gestion) via conaf.cerofilas.gob.cl, et l'autorisation de la DGAC est alors également requise. Antarctique : réglementation spéciale de l'INACH.",
+      "🏔️ ZONES RÉGLEMENTÉES : interdiction de voler au-dessus de La Moneda (zone SC-P28), des installations militaires, des prisons et des installations stratégiques, ou dans les zones interdites, réglementées ou dangereuses de l'AIP Chile (ENR 5.1) ou des NOTAM.",
+      "💰 DURÉES DE VALIDITÉ : l'accréditation de télépilote dure 36 mois et se renouvelle par un nouvel examen (75 % min.) ; l'autorisation d'exploitation DAN 151 est valable jusqu'à 6 mois. Le non-respect de la réglementation de la DGAC peut entraîner des amendes, la suspension des opérations, la confiscation du matériel ou une responsabilité pénale si la sécurité aérienne est mise en danger."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Système officiel d'information aéronautique du Chili : NOTAM, zones interdites/réglementées/dangereuses (ENR 5), cartes, aérodromes"
       },
       {
-        "title": "Procédure d'enregistrement RPA (PDF officiel)",
-        "description": "Procédure officielle de la DGAC pour le nouvel enregistrement et la régularisation des drones (RPA). Inclut l'annexe B et les formulaires"
+        "title": "Enregistrement des drones (RPA) — nouvelle plateforme de la DGAC",
+        "description": "Enregistrement en ligne au registre national des RPA selon le DAN 151. L'enregistrement ne constitue pas en soi une autorisation de voler."
       }
     ],
     "secondaryLinks": [

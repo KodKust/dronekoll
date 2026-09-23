@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ab66a0144761f05a1cfb8f54499fb2e2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -11,19 +11,23 @@
     "sectionLabelPrimary": "VIRALLISET LÄHTEET",
     "sectionLabelSecondary": "LISÄRESURSSIT",
     "linksSheetTitle": "Ilmatila ja säännöt — Hongkong",
-    "dronePilotCredentialName": "SUA-lentäjän kelpuutus",
+    "dronePilotCredentialName": "Kauko-ohjaajan todistus (standard- / advanced-kelpuutus)",
     "keyRules": [
-      "Enintään 91 m (300 ft) maanpinnasta — matalampi kuin useimmissa maissa",
-      "Rekisteröinti vaaditaan kaikille yli 250 g painaville droneille eSUA-portaalin kautta",
+      "Enintään 91 m (300 ft) maanpinnasta luokan A2 droneille (250 g–7 kg) ja rekisteröidyille vapautetuille enintään 250 g:n malleille; rekisteröimättömät enintään 250 g:n dronet: enintään 30 m (100 ft)",
+      "Enimmäisnopeus 50 km/h (luokka A2); rekisteröimättömät enintään 250 g:n dronet enintään 20 km/h",
+      "Yli 250 g:n dronet — ja enintään 250 g:n dronet, joita lennetään luokan A1 rajojen ulkopuolella — on rekisteröitävä ja merkittävä eSUA-portaalin kautta, ja myös kauko-ohjaajan (vähintään 14-vuotias) on rekisteröidyttävä eSUA-palveluun. Koskee myös vierailijoita",
       "Lentoasemien lähialueiden rajoitukset määritellään Hongkongissa virallisesti julkaistuina rajoitettuina lentovyöhykkeinä (RFZ) HKIA:n ja muiden lentopaikkojen ja helikopterikenttien ympärillä, ja ne näkyvät CAD:n dronekartalla — yhtä kiinteää etäisyyttä ei ole. RFZ:n sisällä lentäminen edellyttää CAD:n lupaa, ja jotkin alueet (esim. Victoria Harbour) ovat rajoitettuja riippumatta etäisyydestä mihinkään lentoasemaan.",
-      "Vähintään 50 m:n etäisyys lennätykseen osallistumattomista ihmisistä",
+      "Ei lentämistä Penny's Bayn lähellä olevan kieltoalueen (esim. Hong Kong Disneyland) yllä — se on määrätty erillisellä lailla, eikä se sisälly CAD Drone Mapin RFZ-vyöhykkeisiin",
+      "Pysy vähintään 10 m:n (≤20 km/h) tai 30 m:n (yli 20 km/h, luokka A2) päässä sivullisista ihmisistä, ajoneuvoista, aluksista ja rakenteista; älä koskaan lennä niiden yllä",
       "Vain valoisa aika — ei yölennättämistä ilman erityislupaa",
       "Victoria Harbourin alue on rajoitettu",
       "Pidä drone aina näköyhteydessä (VLOS)",
+      "Yli 250 g:n droneissa on oltava geotietoisuus ja lentoloki; säilytä lentolokit 6 kuukautta",
       "Hongkongilla on omat sääntönsä — Manner-Kiinan määräyksiä EI sovelleta"
     ],
     "importantNotes": [
-      "Enimmäiskorkeus on vain 91 m (300 ft) — huomattavasti matalampi kuin useimpien maiden 120 m:n vakiokorkeus",
+      "Enimmäiskorkeus on 91 m (300 ft), ja rekisteröimättömillä enintään 250 g:n droneilla vain 30 m (100 ft) — selvästi alle useimpien maiden 120 m:n vakiokorkeuden",
+      "Vierailijat: yli 250 g:n dronet edellyttävät dronen ja lentäjän rekisteröintiä eSUA-palvelussa passilla (voimassa yleensä 6 kuukautta). CAD-tarraa ei voi tulostaa eikä sitä postiteta ulkomaille — nouda se CAD:n pääkonttorista tai tilaa se hongkongilaiseen osoitteeseen (esim. hotelliisi)",
       "Vakuutusta EI vaadita tavanomaisissa A1-luokan operaatioissa eikä standardiluokituksen A2-operaatioissa. 10 milj. HK$:n vakuutusturva koskee vaativia operaatioita ja B-luokan droneja; uudempi C-luokka (25–150 kg, otettu käyttöön 18.7.2025) edellyttää 15 milj. HK$:n vakuutusturvaa (25–75 kg) tai 20 milj. HK$:n vakuutusturvaa (75–150 kg). CAD:n omassa vaatimustaulukossa laajemman vakuutusvelvoitteen voimaantulopäivä on merkitty myöhemmin päätettäväksi — varmista nykytilanne ennen kuin oletat vakuutuksen olevan pakollinen omassa luokassasi.",
       "Hongkongin säännöt ovat täysin erilliset Manner-Kiinan säännöistä",
       "Victoria Harbourissa ja sen ympäristössä on lennätysrajoituksia",
@@ -46,11 +50,11 @@
     "secondaryLinks": [
       {
         "title": "CAD — Advanced Rating -koulutus",
-        "description": "Advanced Rating -koulutus vaaditaan yli 250 g painaville droneille"
+        "description": "Advanced Rating -koulutus — vaaditaan vain Advanced Operations -toimintaan"
       },
       {
         "title": "CAD — Vakuutusvaatimukset",
-        "description": "Pakolliset kolmannen osapuolen vakuutusvaatimukset dronetoiminnalle"
+        "description": "Kolmannen osapuolen vakuutus — pakollinen advanced-toiminnassa; ei vielä voimassa tavallisille luokan A2 lennoille"
       }
     ]
   }

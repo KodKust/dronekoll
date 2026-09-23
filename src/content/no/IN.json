@@ -1,33 +1,36 @@
 {
   "meta": {
-    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "17cf8ce1211fdb6fb07c1979f47d5e58",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
-    "disclaimerText": "Sjekk alltid offisielle DGCA- og DigitalSky-kilder før du flyr. Denne appen er et verktøy — ikke en rettskilde. India bruker en obligatorisk digital plattform for all etterlevelse av droneregelverket.",
+    "disclaimerText": "Sjekk alltid de offisielle kildene fra DGCA (eGCA) og DigitalSky før du flyr. Denne appen er et verktøy — ikke en rettskilde.",
     "sectionLabelRules": "NØKKELREGLER",
     "sectionLabelPrimary": "OFFISIELLE KILDER",
     "sectionLabelSecondary": "FLERE RESSURSER",
     "linksSheetTitle": "Luftrom og regler — India",
     "dronePilotCredentialName": "Fjernpilotsertifikat",
     "keyRules": [
-      "DigitalSky deler luftrommet inn i Green-soner (umiddelbar automatisert tillatelse), Yellow-soner (kontrollert luftrom, ~15–30 min automatisert behandling — dette inkluderer beltet rundt flyplassen, omtrent 8–12 km) og Red-soner (restriksjonsbelagt, manuell godkjenning kreves) — sjekk alltid DigitalSky før du flyr, siden de nøyaktige sonegrensene ved en bestemt flyplass kan avvike fra dette generelle mønsteret.",
+      "DigitalSky deler luftrommet inn i Green (ingen tillatelse nødvendig, opptil 120 m/400 ft), Yellow (tillatelse fra den aktuelle flygekontrollmyndigheten) og Red (kun tillatelse fra sentralregjeringen). 8–12 km fra omkretsen til en operativ flyplass gjelder Green bare opptil 60 m (200 ft); over dette er det Yellow. Sjekk alltid DigitalSky-kartet før du flyr.",
+      "Med mindre dronen er unntatt (Nano-droner opptil 250 g, eller modelldroner opptil 25 kg som bare brukes til utdanning, forskning eller fritid innenfor synsvidde), må den være i samsvar med et typesertifikat fra DGCA. DGCA har inntil videre midlertidig stanset registrering av droner uten typesertifikat (bare India-produserte Nano- og modelldroner kan søke direkte hos DGCA), og en uregistrert drone må ikke flys.",
       "Forsikring obligatorisk for alle kategorier unntatt Nano",
-      "Fjernpilotsertifikat (RPC) kreves ved kommersiell bruk av Micro-droner (250 g–2 kg) og større droner, og er obligatorisk for alle droner i Small-kategorien (2–25 kg) og høyere uansett formål. Nano (<250 g) trenger aldri RPC, heller ikke ved kommersiell bruk.",
+      "Fjernpilotsertifikat (RPC) kreves ved kommersiell bruk av Micro-droner (>250 g–2 kg) og større droner, og er obligatorisk for alle droner i Small-kategorien (2–25 kg) og høyere uansett formål. Nano (≤250 g) trenger aldri RPC, heller ikke ved kommersiell bruk.",
       "Hver flyging må skje innenfor synsvidde — dronen må til enhver tid være synlig med det blotte øye, uten kikkert eller lignende hjelpemidler — med mindre DGCA har gitt særskilt godkjenning for EVLOS/BVLOS.",
       "Flyging i Red-soner er strengt forbudt uten spesiell tillatelse fra den relevante myndigheten via DigitalSky."
     ],
     "importantNotes": [
-      "DigitalSky-registrering er obligatorisk for alle droner unntatt Nano (<250 g), som verken trenger registrering eller UIN. Flyging med en uregistrert drone som skulle vært registrert, kan føre til beslag.",
+      "Alle droner, også Nano (≤250 g), må registreres og ha et UIN (via DGCAs eGCA-portal) før de flys. Nano-droner er bare unntatt fra typesertifisering, fjernpilotsertifikat og ansvarsforsikring overfor tredjepart. Å fly en uregistrert drone gir risiko for sanksjoner og beslag.",
+      "Besøkende: import av droner til India er forbudt etter DGFT Notification 54/2022 (alle vektklasser, også ≤250 g), unntatt med DGFT-autorisasjon for statlig bruk/FoU eller forsvars-/sikkerhetsbruk. Registrering krever indisk pass eller et ID-dokument utstedt av indiske myndigheter samt adressebevis, så en besøkendes drone kan som regel ikke registreres eller flys lovlig.",
       "Røde soner inkluderer flyplasser, militære områder, grenser og sensitive steder",
-      "Forsikring er obligatorisk for droner i kategoriene Micro, Small og Medium"
+      "Forsikring er obligatorisk for droner i kategoriene Micro, Small og Medium",
+      "Enhver ulykke som involverer dronen din, må rapporteres til DGCA innen 48 timer."
     ],
     "primaryLinks": [
       {
         "title": "DigitalSky — DGCA-plattform",
-        "description": "Obligatorisk plattform for droneregistrering, flygetillatelser og sonesjekker"
+        "description": "Obligatorisk plattform for flygetillatelser og sonesjekker"
       },
       {
         "title": "DGCA — Droneforskrifter",

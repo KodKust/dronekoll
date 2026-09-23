@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (neobydlené oblasti, rekreační létání): drony s hmotností ≤750 g smějí létat až 50 m nad nejvyšší překážkou na soukromém pozemku bez povolení",
-      "DAN 151 (obydlené oblasti / profesionální využití): drony s hmotností nad 750 g vyžadují registraci u DGAC, pilotní licenci a provozní povolení",
-      "Maximální povolená celková výška: 130 m AGL (DAN 151) — liší se podle povolení",
-      "Minimální vzdálenost 2 km od letišť a letištních ploch",
+      "DAN 91.102(j): bez povolení DGAC smějí létat pouze drony do 750 g z pěnového polyethylenu nebo rovnocenného materiálu, k soukromému nebo rekreačnímu použití, na soukromých místech a nejvýše 50 m nad nejvyšší překážkou nebo budovou. Jakýkoli jiný let vyžaduje předchozí povolení DGAC.",
+      "DAN 151 (obydlené oblasti, veřejný zájem nebo letecké práce): platí pro drony jakékoli hmotnosti (max. 9 kg) a vyžaduje registraci u DGAC, průkaz dálkově řídícího pilota, pojištění, AOC nebo CEO a provozní povolení.",
+      "DAN 151: dron musí mít za provozu nouzový padák a musí být možné jej řídit ručně (max. 9 kg bez padáku).",
+      "Obecný limit je 400 stop (120 m) AGL — let nad ním vyžaduje předchozí povolení DGAC (DAN 151 Ed. 3, platí od května 2024). Aktuální DAN 91 uvádí tentýž limit jako „400 stop (130 metrů)“.",
+      "Žádné létání do 2 km od prodloužené osy dráhy (měřeno od prahu) ani do 1 km souběžně s osou dráhy letiště.",
+      "Žádný provoz dronů v oblastech, kde se hasí požár za pomoci letadel s posádkou (DAN 91.102(i)(11) a DAN 151.103(g)(14)).",
       "Maximální vzdálenost 500 m od operátora (udržujte přímý vizuální kontakt)",
-      "S dronem vždy udržujte přímý vizuální dohled (VLOS)",
+      "K řízení letu musíte s dronem po celou dobu udržovat přímý vizuální kontakt.",
       "Noční lety vyžadují zvláštní povolení od DGAC",
-      "Registrace u DGAC: značka, model, sériové číslo, maximální hmotnost ≤9 kg pro povolené využití, fotografie 10×15 cm",
-      "Pilotní licence vyžaduje písemnou zkoušku (minimální skóre 75 %) z DAN 151, DAN 91, meteorologie a aerodynamiky",
+      "Registrace u DGAC (DAN 151.203): výrobce/země, značka, model, výrobní číslo a tovární hmotnost, s kopií průkazu totožnosti; žádost se podává na webové platformě DGAC (od srpna 2026). Maximální vzletová hmotnost 9 kg.",
+      "Průkaz dálkově řídícího pilota: věk alespoň 18 let, prohlášení o výcviku a písemná zkouška (minimálně 75 %) z DAN 151, DAN 91, NOTAM, meteorologie a aerodynamiky; platí 36 měsíců.",
       "Pojištění odpovědnosti vůči třetím osobám (schválené JAC) vyžadováno pro profesionální využití"
     ],
     "importantNotes": [
-      "📋 DVOJÍ REGULAČNÍ RÁMEC — DAN 91 vs. DAN 151: Chile rozlišuje mezi létáním v NEOBYDLENÝCH oblastech (DAN 91, mírnější; rekreační lety ≤750 g bez povolení) a létáním v OBYDLENÝCH oblastech nebo oblastech veřejného zájmu (DAN 151, který vyžaduje registraci, certifikovaného pilota a pojištění). Příslušné předpisy závisí na místě A účelu.",
-      "✈️ ZAHRANIČNÍ TURISTÉ: Pravidla platí stejně pro nerezidenty. Pro rekreační lety s drony s hmotností ≤750 g v neobydlených soukromých oblastech se registrace nevyžaduje. Pro jakýkoli jiný provoz (cestovní ruch, profesionální využití, v blízkosti lidí, v parcích) jsou vyžadována stejná povolení jako pro chilské občany.",
-      "🌋 NÁRODNÍ PARKY A REZERVACE: CONAF (Národní lesní korporace) zakazuje drony bez zvláštního povolení v parcích jako Torres del Paine, Lauca a národní park Volcán Isluga. Chilská Antarktida: zvláštní předpisy od INACH. Před cestou se informujte u každého parku nebo rezervace.",
-      "🏔️ OMEZENÉ OBLASTI: centrum Santiaga (La Moneda, Plaza de Armas), letiště SCEL (Pudahuel), vojenské a příhraniční zóny. Velikonoční ostrov, ostrov Robinsona Crusoe, Antarktida: další omezení. Mapu zakázaných, omezených a nebezpečných oblastí viz AIP Chile (ENR 5.1).",
-      "💰 ROČNÍ OBNOVA: Registrace u DGAC platí 12 měsíců a musí se každoročně obnovovat. Provoz bez platné registrace nebo osvědčení může vést k pokutě, zabavení vybavení a zákazu provozu."
+      "DVOJÍ REGULAČNÍ RÁMEC — DAN 91 (neobydlené oblasti): každý let vyžaduje předchozí povolení DGAC, případ od případu (příloha D). DAN 151 (obydlené oblasti, veřejný zájem nebo letecké práce): registrace, průkaz, pojištění a povolení. Jediná výjimka: drony ≤750 g z pěnového polyethylenu nebo rovnocenného materiálu, rekreační použití, na soukromých místech a ≤50 m nad nejvyšší překážkou.",
+      "✈️ ZAHRANIČNÍ TURISTÉ: Pravidla platí stejně i pro nerezidenty. Bez povolení DGAC jsou povoleny pouze drony ≤750 g z pěnového polyethylenu nebo rovnocenného materiálu, k rekreačnímu použití, na soukromých místech a ≤50 m nad nejvyšší překážkou. Jakýkoli jiný let vyžaduje předchozí povolení DGAC; registrace u DGAC vyžaduje kopii průkazu totožnosti.",
+      "🌋 CHRÁNĚNÁ ÚZEMÍ: Rekreační ani turistické používání dronů není povoleno v žádném státem chráněném přírodním území (národní parky, rezervace, přírodní památky). CONAF povoluje lety jen v odůvodněných případech (vědecký výzkum, monitoring nebo jiné účely správy) přes conaf.cerofilas.gob.cl a pak je navíc nutné svolení DGAC. Antarktida: zvláštní předpisy INACH.",
+      "🏔️ OMEZENÉ OBLASTI: Žádné létání nad La Moneda (zóna SC-P28), vojenskými objekty, věznicemi a strategickými zařízeními ani v zakázaných, omezených nebo nebezpečných prostorech podle AIP Chile (ENR 5.1) nebo NOTAM.",
+      "💰 DOBA PLATNOSTI: Průkaz dálkově řídícího pilota platí 36 měsíců a obnovuje se novou zkouškou (min. 75 %); provozní povolení podle DAN 151 platí až 6 měsíců. Nedodržení předpisů DGAC může vést k pokutám, pozastavení provozu, zabavení vybavení nebo k trestní odpovědnosti při ohrožení bezpečnosti letectví."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Oficiální systém leteckých informací Chile: NOTAM, zakázané/omezené/nebezpečné oblasti (ENR 5), mapy, letiště"
       },
       {
-        "title": "Postup registrace RPA (oficiální PDF)",
-        "description": "Oficiální postup DGAC pro novou registraci a regularizaci dronů (RPA). Zahrnuje přílohu B a formuláře"
+        "title": "Registrace dronu (RPA) — nová platforma DGAC",
+        "description": "Online registrace v národním registru RPA podle DAN 151. Registrace sama o sobě není povolením k letu."
       }
     ],
     "secondaryLinks": [

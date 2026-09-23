@@ -1,39 +1,42 @@
 {
   "meta": {
-    "sourceHash": "3e613bc220104c49fdefbf291a938aa467571e67a289205a58faf313df54db6e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c7bb0eb5efb529d016ee7e14e38488c5a01fec2c25b6f85e5c65f17487613d71",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Azami irtifa: yerden 152 m (500 ft) (AGL)",
-      "Havalimanları ve hava meydanlarından en az 4 km uzakta kalın",
-      "İnsanlara, binalara veya nesnelere yatayda en az 30 m, dikeyde en az 20 m mesafe",
-      "Ticari kullanım (her ağırlıkta): MTC kaydı gereklidir + özel izin",
-      "Dronu her zaman doğrudan görüş hattı (VLOS) içinde tutun",
-      "Uçuşa yalnızca gündüz izin verilir — gece uçuşları DGAC'tan özel izin gerektirir",
-      "Kentsel alanlar: önceden MTC onayı gerektirir; kırsal alanlar: özel kısıtlama yoktur",
-      "İzin olmadan uçuşun kısıtlı olduğu alanlar: havalimanları, hava meydanları, stratejik tesisler ve nüfus yoğunluğu yüksek alanlar",
-      "Yasal ayrım: hobi amaçlı kullanım (eğlence) ile profesyonel/ticari kullanım (uzmanlık gerektiren faaliyetler)"
+      "Azami irtifa: yerden 152 m (500 ft) (AGL) (NTC 001-2015, md. 8(e)(10)).",
+      "Havalimanları ve hava meydanlarından en az 4 km uzakta kalın (NTC 001-2015, md. 8(e)(19)).",
+      "Uçuşun tüm aşamalarında insanlara, binalara veya engellere yatayda en az 30 m, dikeyde en az 20 m mesafe bırakın (NTC 001-2015, md. 8(e)(9)).",
+      "Otoyolların, karayollarının, patikaların, köprülerin, elektrik veya telekomünikasyon altyapısının (direkler, kuleler, kablolar, antenler), seyrüsefere elverişli su yollarının veya hidrokarbon boru hatlarının üzerinden uçmayın; bunların yakınında kenarlarından yatayda 30 m'den fazla uzakta kalın (NTC 001-2015, md. 8(e)(20)).",
+      "Hobi amaçlı kullanım: 2 kg'ın altındaki dronlar 30740 sayılı Kanun'un ve Yönetmeliğinin kapsamı dışındadır, ancak NTC 001-2015'in operasyon sınırlamaları (irtifa, mesafeler, bölgeler) tüm sivil kullanımlar için geçerlidir. 2 kg'dan itibaren ve hobi dışı tüm kullanımlarda dron DGAC'a kaydettirilmelidir; kayıt yaptırmamak para cezasıyla cezalandırılır (30740 sayılı Kanun, md. 3 ve 4); işlem MTC'nin Sanal Başvuru Masası (Mesa de Partes Virtual) üzerinden otomatiktir.",
+      "Hobi dışı kullanım (her ağırlıkta): dron kaydı, RPAS pilot akreditasyonu (18 yaş veya üzeri, bir CIAC'ta veya uçuş kulübünde RPAS kursu ve DGAC sınavı), en az 10 UIT tutarında hukuki sorumluluk sigortası ve DGAC izni (NTC 001-2015, para. 8(c)-(d)). Kayıt Ocak 2025'ten beri otomatiktir.",
+      "Dron her zaman pilotun doğrudan görüş hattı içinde kalmalıdır.",
+      "Uçuşa yalnızca gündüz izin verilir: NTC, gece koşullarında (gün batımından sonra veya gün doğumundan önce) operasyonu yasaklar (NTC 001-2015, md. 8(e)(13)).",
+      "Kentsel ve yerleşik alanlar: uçuşa izin verilmez. DGAC buna yalnızca istisnai olarak kamu kurumları, bunların yüklenicileri, kamu yararına olduğu ilan edilmiş hizmetler, itfaiye ve INDECI için, paraşütle donatılmış 6 kg'a kadar dronlarla izin verir. Her departman, il veya ilçe merkezi ve 1000'den fazla nüfuslu her yerleşim yeri kentsel alan sayılır. Kırsal alanlar: standardın genel sınırlamalarına tabidir (NTC 001-2015, md. 8(e)(2) ve (f)).",
+      "Kısıtlı alanlar: izin alınmadıkça havalimanları, hava meydanları, stratejik tesisler ve nüfus yoğunluğu yüksek alanlar.",
+      "Yasal ayrım: hobi amaçlı kullanım (eğlence) ile profesyonel/ticari kullanım (uzmanlık gerektiren faaliyetler); her biri için farklı gereklilikler geçerlidir."
     ],
     "importantNotes": [
       "🏛️ MACHU PICCHU VE ARKEOLOJİK ALANLAR: Kültür Bakanlığı, Machu Picchu, Nazca Çizgileri, Chan Chan, Caral, Kuélap ve diğer arkeolojik alanlarda özel izin olmadan dron kullanımını yasaklar. MTC iznine EK OLARAK Kültür Bakanlığı'ndan da izin alınması gerekir.",
       "🌳 KORUNAN DOĞAL ALANLAR VE AMAZON: SERNANP (Korunan Doğal Alanlar Ulusal Servisi), Manu, Tambopata ve Huascarán gibi parklarda dronlar için özel izin gerektirir. Amazon ve yerli topluluklar ek kısıtlamalara tabidir.",
-      "🏙️ LIMA VE CUSCO'DAKİ KENTSEL ALANLAR: Lima şehir merkezi (Plaza Mayor, Hükümet Sarayı), Jorge Chávez Havalimanı (LIM), Cusco şehir merkezi ve havalimanı (CUZ), askeri bölgeler ve elçilikler kalıcı kısıtlamalara tabidir. Cusco'nun tarihi merkezi Kültür Bakanlığı'ndan izin gerektirir."
+      "🏙️ LİMA VE CUSCO'DAKİ KENTSEL ALANLAR: Lima ve Cusco, istisnai izin olmadıkça uçuşa izin verilmeyen kentsel alanlardır (NTC 001-2015, md. 8(e)(2) ve (f)). Hükûmet Sarayı, askerî alanlar, Jorge Chávez (LIM) ve Cusco (CUZ) havalimanları ile AIP-Perú'da veya NOTAM'larda yayımlanan alanlar da kısıtlı alanlardır (md. 8(e)(19) ve (22)). Cusco'nun tarihî merkezi ayrıca Kültür Bakanlığı'nın olumlu görüşünü gerektirir (30740 sayılı Kanun, md. 2.5).",
+      "⚠️ CEZALAR: Dron mevzuata aykırı uçurulursa Ulusal Polis müdahale edip drona el koyabilir; DGAC para cezaları dahil yaptırımlar uygular (D.S. 012-2026-MTC, md. 7 ve 73; 30740 sayılı Kanun, md. 4)."
     ],
     "primaryLinks": [
       {
-        "title": "MTC — Dron İşletmek İçin Gereklilikler",
-        "description": "Ulaştırma ve İletişim Bakanlığı'nın (MTC) dron işletme gerekliliklerini listeleyen resmî web sitesi. NTC 001-2015 yönetmeliğini ve DGAC prosedürlerini içerir."
+        "title": "MTC — 30740 Sayılı Kanun'un Yönetmeliği (D.S. 012-2026-MTC)",
+        "description": "Resmî MTC yönetmeliği (29/05/2026). Yeni kategoriler ve lisanslar, DGAC NTC 001-2015'i güncellediğinde yürürlüğe girer; o zamana kadar NTC geçerlidir."
       },
       {
-        "title": "MTC Sanal Başvuru Masası — RPAS Kaydı",
-        "description": "MTC'nin dronları (RPAS) tümüyle çevrim içi kaydetmeye yönelik resmî çevrim içi platformu. \"Uzaktan Pilotlu Hava Aracı Sistemleri (RPAS) Kaydı\"nı seçin ve formu doldurun"
+        "title": "MTC Mesa de Partes Virtual (Sanal Başvuru Masası) — RPAS Kaydı",
+        "description": "MTC'nin dronları (RPAS) tamamen çevrim içi kaydetmeye yönelik resmî çevrim içi platformu. \"Registro de Aeronaves Pilotadas a Distancia (RPAS)\" (Uzaktan Pilotlu Hava Aracı Kaydı) seçeneğini seçin ve formu doldurun"
       },
       {
         "title": "MTC — Kurumsal Sayfa",
-        "description": "Ulaştırma ve İletişim Bakanlığı'nın ana web sitesi. DGAC tarafından sağlanan işlemlere, mevzuata ve havacılık hizmetlerine erişim"
+        "description": "Ulaştırma ve İletişim Bakanlığı'nın ana web sitesi. DGAC'ın işlemlerine, mevzuatına ve havacılık hizmetlerine erişim"
       },
       {
         "title": "DGAC — RPAS İletişim (İzinler)",
@@ -42,23 +45,23 @@
     ],
     "secondaryLinks": [
       {
-        "title": "El Peruano — Dron İzinleri (Resmî)",
-        "description": "El Peruano Resmî Gazetesi: MTC ve DGAC'a göre dron işletmek için gereken izinlere ilişkin resmî bilgi"
+        "title": "MTC — RPAS Pilot Akreditasyonu",
+        "description": "MTC sayfası (güncelleme: 11/08/2026): RPAS pilotlarının/operatörlerinin başvurusu, çevrim içi sınavı ve elektronik akreditasyonu (hobi dışı kullanım)."
       },
       {
-        "title": "TV Perú — Gerekliliklere İlişkin Resmî Rehber",
-        "description": "Kamu yayıncısı TV Perú'nun, MTC tarafından belirtilen dron işletme gereklilikleri hakkında güncel bilgi içeren resmî yayını"
+        "title": "MTC — Otomatik Dron Kaydı (2025)",
+        "description": "MTC duyurusu (26/01/2025): RPAS kaydı Sanal Başvuru Masası (Mesa de Partes Virtual) üzerinden yalnızca birkaç dakika sürer."
       },
       {
         "title": "MTC Ofisleri — Yüz Yüze Hizmet",
-        "description": "MTC Genel Merkezi: Jr. Zorritos 1203, Cercado de Lima. Yüz yüze RPAS işlemleri için bölgesel Vatandaş Hizmet Merkezlerinde de hizmet verilmektedir."
+        "description": "MTC Genel Merkezi: Jr. Zorritos 1203, Cercado de Lima. Yüz yüze RPAS işlemleri için bölgesel Vatandaş Hizmet Merkezlerinde (Centros de Atención al Ciudadano) de hizmet verilmektedir."
       }
     ],
-    "disclaimerText": "Uçmadan önce her zaman Ulaştırma ve İletişim Bakanlığı (MTC) bünyesindeki DGAC'ın resmî kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Peru, MTC'nin Sanal Başvuru Masası üzerinden basitleştirilmiş kayıtla Tamamlayıcı Teknik Standart (NTC) 001-2015'i uygular.",
+    "disclaimerText": "Uçmadan önce her zaman Ulaştırma ve İletişim Bakanlığı (MTC) bünyesindeki DGAC'ın resmî kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Peru, 30740 sayılı Kanun'u, bu kanunun Yönetmeliğini (D.S. No. 012-2026-MTC) ve NTC 001-2015'i, MTC'nin Sanal Başvuru Masası (Mesa de Partes Virtual) üzerinden basitleştirilmiş kayıtla uygular.",
     "sectionLabelRules": "TEMEL KURALLAR",
     "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
     "sectionLabelSecondary": "EK KAYNAKLAR",
     "linksSheetTitle": "Hava Sahası ve Mevzuat — Peru",
-    "dronePilotCredentialName": "RPAS Pilot Lisansı"
+    "dronePilotCredentialName": "RPAS Pilot/Operatör Akreditasyonu"
   }
 }

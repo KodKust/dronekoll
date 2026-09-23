@@ -1,34 +1,35 @@
 {
   "meta": {
-    "sourceHash": "8c56d8d6e542afc955c989bfd255bb6e85a0ed0ddb98d0c06385589c15af8287",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "1ccf0d60f2daab09a23a0c0e3bbd85b102fdef6468c55b05317299a6742f4265",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimālais augstums: 120 m (400 ft) virs zemes (AGL)",
-      "Minimālais attālums 8 km no lidostām un lidlaukiem",
-      "Minimālais attālums 30 m no cilvēkiem, dzīvniekiem un ēkām, kas nav iesaistītas",
+      "Maksimālais augstums: 120 m (400 ft) virs zemes, nekontrolētā gaisa telpā.",
+      "Minimālais attālums 8 km no jebkuras lidostas vai lidlauka; lidošanai tuvāk nepieciešams DGAC apstiprinājums un NOTAM izdošana.",
+      "Lido tikai tālu no pilsētu, ciemu vai apdzīvotu vietu blīvi apbūvētām teritorijām un tālu no cilvēku pulcēšanās brīvā dabā. Tuvāk drīkst darboties tikai ar īpašu DGAC apstiprinājumu, un nekad ne tuvāk par 30 m no šīm ēkām vai pulcēšanās vietām.",
       "VISIEM droniem, kas sver mazāk par 25 kg, jābūt identifikācijas plāksnītei ar sērijas numuru, īpašnieka vārdu un tālruņa numuru",
-      "Droni, kas sver 25 kg vai vairāk: obligāta reģistrācija vietnē drones.dgac.go.cr",
+      "Obligāta reģistrācija drones.dgac.go.cr: droni ≥25 kg un jebkura lietošana, kas nav atpūta (komerciāla vai nekomerciāla), neatkarīgi no svara",
       "Atpūtas lietošana <25 kg: NAV nepieciešama oficiāla reģistrācija, ja ievēro pamatnoteikumus",
       "Vienmēr turi dronu tiešā redzamības laukā (VLOS)",
       "Lidošana atļauta tikai dienā un labos laika apstākļos — nakts lidojumiem nepieciešama atļauja",
+      "Lietošana, kas nav atpūta un nav komerciāla (arī droni <25 kg): DGAC kompetences apliecība (min. 18 gadi), civiltiesiskās atbildības apdrošināšana un reģistrācija drones.dgac.go.cr",
       "Komerciāla lietošana: RPAS licence + Tehniskās padomes sertifikāts + DGAC ekspluatācijas sertifikāts",
       "Aizliegts lidot virs privātīpašuma bez atļaujas, cietumiem, ierobežotām zonām un lidostām"
     ],
     "importantNotes": [
       "🏷️ OBLIGĀTA IDENTIFIKĀCIJAS PLĀKSNĪTE: Lai gan droniem, kas sver mazāk par 25 kg, atpūtas lietošanai NAV nepieciešama oficiāla reģistrācija, VISIEM droniem jābūt identifikācijas plāksnītei ar sērijas numuru, īpašnieka vārdu un kontakttālruņa numuru. Šī ir stingrākā prasība fiziskajai identifikācijai.",
-      "✈️ ĀRVALSTU TŪRISTI: Noteikumi attiecas uz nerezidentiem. Atpūtas lietošanai: identifikācijas birka + pamatnoteikumu ievērošana (nelidot lidostu tuvumā, virs privātīpašuma vai cietumiem) — oficiāla reģistrācija nav nepieciešama. Muita, iebraucot valstī, var pieprasīt drona deklarāciju.",
-      "🌳 NACIONĀLIE PARKI UN SINAC: National System of Conservation Areas (SINAC) prasa īpašu atļauju droniem tādos parkos kā Manuel Antonio, Corcovado, Tortuguero, Arenal Volcano, Monteverde un Poás Volcano. Bioloģiskā daudzveidība un savvaļas dzīvnieki ir aizsargāti — pirms ceļojuma sazinies ar katru parku.",
-      "🏖️ TŪRISMA ZONAS UN LIDOSTAS: Pastāvīgi ierobežojumi attiecas uz SJO (Juan Santamaría, Alajuela), LIR (Liberia, Guanacaste), Presidential Palace, vēstniecībām un militārajām zonām. Tūristu pludmalēs, piemēram, Tamarindo, Manuel Antonio un Jacó, bieži ir papildu pašvaldību ierobežojumi.",
-      "💰 KOMERCIĀLA LIETOŠANA UN SODI: Komerciāli lidojumi bez RPAS licences vai Technical Council sertifikāta var izraisīt naudassodus, iekārtu konfiskāciju un darbības aizliegumu. Apmaksātam fotografēšanas/video darbam: iegūsti licenci pirms darbības uzsākšanas."
+      "✈️ ĀRVALSTU TŪRISTI: noteikumi attiecas uz nerezidentiem. Atpūtas lietošanai: identifikācijas plāksnīte + pamatnoteikumu ievērošana (nelidot lidostu tuvumā, virs privātīpašuma vai cietumiem) — oficiāla reģistrācija nav nepieciešama. Muita, iebraucot valstī, var pieprasīt drona deklarāciju. Ārvalstu piloti komerciāliem mērķiem: DGAC var validēt ārvalstu RPAS licenci (licencei un medicīniskajai apliecībai jābūt derīgām) uz ne vairāk kā 3 mēnešiem, pamatotos gadījumos pagarināmu tikai vienu reizi uz 3 mēnešiem. Validācija neaizstāj pārējās komerciālās lietošanas prasības.",
+      "🌳 NACIONĀLIE PARKI UN SINAC: droni nav atļauti Manuel Antonio nacionālajā parkā (SINAC). Citās aizsargājamās teritorijās tos var aizliegt vai ierobežot — noskaidro katrā teritorijā PIRMS ceļojuma.",
+      "🏖️ IEROBEŽOTĀS ZONAS: bez DGAC atļaujas aizliegts lidot AIP publicētajās aizliegtajās vai ierobežotajās zonās un 8 km rādiusā no tādām lidostām kā SJO un LIR. Pārbaudi arī iespējamos pašvaldību ierobežojumus.",
+      "💰 KOMERCIĀLA LIETOŠANA UN SODI: komerciāli lidojumi bez RPAS licences vai Technical Council sertifikāta var izraisīt naudassodus, iekārtu konfiskāciju un darbības aizliegumu. Apmaksātam fotografēšanas/video darbam: iegūsti licenci pirms darbības uzsākšanas."
     ],
     "primaryLinks": [
       {
         "title": "DGAC — Dronu reģistrs (īpašs portāls)",
-        "description": "Civilās aviācijas ģenerāldirektorāta oficiālā vietne dronu reģistrācijai un reģistrācijas numura iegūšanai. Platforma tieši RPAS"
+        "description": "Civilās aviācijas ģenerāldirektorāta oficiālais īpašais portāls dronu reģistrācijai un reģistrācijas numura iegūšanai. Platforma tieši RPAS"
       },
       {
         "title": "DGAC — Sākumlapa",
@@ -57,7 +58,7 @@
         "description": "Kostarikas oficiālā tūrisma vietne. Noderīga, lai izprastu tūrisma zonas ar īpašiem dronu ierobežojumiem"
       }
     ],
-    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi DGAC oficiālos avotus. Šī lietotne ir rīks, nevis juridiska instance. Kostarikā piemēro RAC OPS RPAS un DGAC Operational Directive. Visiem droniem jābūt identifikācijas plāksnītei; komerciālai lietošanai nepieciešams Civil Aviation Technical Council sertifikāts.",
+    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi DGAC oficiālos avotus. Šī lietotne ir rīks, nevis juridiska instance. Kostarikā piemēro RAC-RPAS (Decreto Ejecutivo N° 44615-MOPT, spēkā kopš 27/09/2024). Visiem droniem jābūt identifikācijas plāksnītei; komerciālai lietošanai nepieciešams Civil Aviation Technical Council sertifikāts.",
     "sectionLabelRules": "GALVENIE NOTEIKUMI",
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",

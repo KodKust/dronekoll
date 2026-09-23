@@ -1,63 +1,64 @@
 {
- "meta": {
-  "sourceHash": "c60fe25d411d1b17d1f39a3942f259be9fd7a6aefee2fdedfab7c81c48111b27",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Högst 120 m över marken (EASA öppen kategori)",
-   "Registrering krävs för drönare som väger 120 g eller mer (ett strängare krav än EASA:s gräns på 250 g)",
-   "A1/A3-onlineutbildningen är obligatorisk – lägsta ålder 16 år",
-   "Obligatorisk ansvarsförsäkring för all drönarverksamhet",
-   "Budapest: tillstånd för flygning i tätort måste sökas 30 dagar i förväg",
-   "Appen MyDroneSpace krävs för varje flygning",
-   "Håll alltid drönaren inom synhåll (VLOS)",
-   "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
-   "Minst 5 km från alla flygplatser eller landningsplatser",
-   "Parlamentet, regeringsbyggnader och militära områden: totalt flygförbud"
-  ],
-  "importantNotes": [
-   "Registrering är nu obligatorisk för drönare som väger 120 g eller mer – ett mycket strängare krav än EASA:s standardgräns på 250 g",
-   "I Budapest måste du ansöka om tillstånd 30 dagar i förväg – planera i god tid",
-   "Appen MyDroneSpace krävs för varje flygning",
-   "Ansvarsförsäkring är obligatorisk för alla drönare, oavsett vikt",
-   "GDPR gäller om du samlar in uppgifter om identifierbara personer"
-  ],
-  "primaryLinks": [
-   {
-    "title": "HungaroControl – Regler för drönare",
-    "description": "Officiella drönarregler och riktlinjer från den ungerska flygtrafiktjänsten"
-   },
-   {
-    "title": "MyDroneSpace – Registrering och flygning",
-    "description": "App för registrering och flyghantering (krävs för alla flygningar)"
-   },
-   {
-    "title": "MyDroneSpace – Luftrumskarta",
-    "description": "Officiell interaktiv karta som visar drönarzoner och luftrumsrestriktioner"
-   },
-   {
-    "title": "HungaroControl – Översikt över reglerna",
-    "description": "En översikt över reglerna för drönare i Ungern"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Luftfartsmyndigheten – Licensiering",
-    "description": "Information om licensiering från den ungerska civila luftfartsmyndigheten"
-   },
-   {
-    "title": "HungaroControl – Vanliga frågor om drönare",
-    "description": "Vanliga frågor om de ungerska reglerna för drönare"
-   }
-  ],
-  "disclaimerText": "Kontrollera alltid HungaroControls officiella källor och MyDroneSpace innan du flyger. Den här appen är bara ett verktyg – den är inte en juridisk auktoritet. Ungern följer EASA-reglerna med stränga nationella tillägg.",
-  "sectionLabelRules": "VIKTIGASTE REGLERNA (EASA ÖPPEN KATEGORI)",
-  "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
-  "sectionLabelSecondary": "YTTERLIGARE RESURSER",
-  "linksSheetTitle": "Luftrum och regler – Ungern",
-  "dronePilotCredentialName": "Drönarpilotcertifiering"
- }
+  "meta": {
+    "sourceHash": "92806b910a3a8d8837e79579753fac51d498af3b1113a2e662fd8b4a6e40e9d4",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "I den öppna kategorin är högsta höjd 120 m, mätt som avståndet till närmaste punkt på jordytan – inte bara rakt nedåt, så nära en sluttning kan även marken bredvid dig räknas in. Inom 50 m från ett högt konstgjort hinder (över 105 m) kan den som ansvarar för hindret begära tillstånd att flyga upp till 15 m över hindrets höjd.",
+      "Utöver operatörsregistreringen måste i Ungern även själva drönaren registreras hos luftfartsmyndigheten (enhetsregistrering) – ansökan ska lämnas in minst 10 dagar före flygningen, och det utfärdade registreringsmärket ska sitta väl synligt på drönaren. Enda undantaget är leksaksdrönare: en drönare som räknas som leksak, väger under 120 g, saknar dataregistrerande utrustning och inte kan flyga längre bort än 100 m.",
+      "För att flyga på egen hand i den öppna kategorin måste du vara minst 16 år – A1/A3-utbildningen hos KTI är gratis, och provet måste göras på plats vid KAV:s provcentrum (avgift: 12 700 Ft); intyget gäller i 5 år och erkänns i hela EU. Yngre piloter får bara flyga under direkt uppsikt av en pilot över 16 år som redan har klarat provet.",
+      "Ansvarsförsäkring är obligatorisk – enligt myndigheten är fritidsflygningar i den öppna kategorin med en drönare på upp till 250 g undantagna; ha försäkringsbeviset med dig när du flyger.",
+      "Över bebyggda områden – i alla städer och byar, inte bara Budapest – får drönare bara flygas i ad hoc-luftrum som utsetts av den militära luftfartsmyndigheten; ansökan ska lämnas in minst 30 dagar före den planerade flygningen. Undantag: leksaksdrönare, dvs. en drönare som räknas som leksak, väger under 120 g, saknar dataregistrerande utrustning och inte kan flyga längre bort än 100 m.",
+      "Appen MyDroneSpace krävs för varje flygning",
+      "I den öppna kategorin måste du hålla drönaren inom ditt eget direkta synhåll med blotta ögat (glasögon och linser går bra; kikare eller en skärm räknas inte) – eller använda en observatör som du hela tiden har tydlig och effektiv kommunikation med, så att ni tillsammans kan bevaka luftrummet och undvika kollisioner. Follow-me-läget är ett separat undantag och är tillåtet inom 50 m från piloten.",
+      "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
+      "Det finns inget enda EU-gemensamt avstånd som måste hållas till flygplatser. Restriktioner nära flygplatser publiceras som geografiska zoner (artikel 15), vars form och storlek varierar mellan flygplatser. Innan du flyger i närheten av en flygplats, ett flygfält eller en helikopterflygplats ska du kontrollera ditt lands officiella karta över drönarzoner; flygning i en kontrollzon (CTR) kräver normalt förhandstillstånd från flygtrafikledningen.",
+      "I Budapest CTR utanför LHBP No Drone Zone, och i de militära kontrollzonerna (MCTR) Kecskemét, Szolnok och Pápa utanför No Drone Zones, får du flyga upp till 40 m över marken utan klarering från flygtrafikledningen; flygning i No Drone Zones är förbjuden. Inom 2 km från referenspunkten på flygplatser utan ATZ, och inom 750 m från landningsplatser för ambulanshelikoptrar, får du bara flyga med flygplatsoperatörens samtycke, och du måste anmäla flygningen till luftfartsmyndigheten minst 2 dagar i förväg.",
+      "Det är förbjudet att flyga drönare inom 300 m från det prioriterade nationella minnesområdet (området kring parlamentet och Kossuthtorget), utpekade skyddade anläggningar och anläggningar av särskild betydelse för statens funktion; det är också förbjudet inom 300 m från utpekad kritisk infrastruktur och försvarsinfrastruktur, utom med operatörens tillstånd. Flygning är förbjuden i förbjudna områden (P), och i restriktionsområden (R) är den bara tillåten enligt gällande regler."
+    ],
+    "importantNotes": [
+      "I Ungern måste alla drönare utom leksaksdrönare registreras (enhetsregistrering) minst 10 dagar före flygningen – oavsett vikt.",
+      "Över bebyggda områden (inte bara i Budapest) får du bara flyga i ad hoc-luftrum – lämna in ansökan minst 30 dagar i förväg.",
+      "Appen MyDroneSpace krävs för varje flygning",
+      "Ansvarsförsäkring är obligatorisk – enligt myndigheten är fritidsflygningar i den öppna kategorin med en drönare på upp till 250 g undantagna.",
+      "GDPR gäller om du spelar in identifierbara personer"
+    ],
+    "primaryLinks": [
+      {
+        "title": "HungaroControl – Regler för drönare",
+        "description": "Officiella drönarregler och riktlinjer från den ungerska flygtrafiktjänsten"
+      },
+      {
+        "title": "MyDroneSpace – Registrering och flygning",
+        "description": "App för registrering och flyghantering (krävs för alla flygningar)"
+      },
+      {
+        "title": "MyDroneSpace – Luftrumskarta",
+        "description": "HungaroControls officiella webbgränssnitt mydronespace med drönarzoner och luftrumsrestriktioner (registrering/inloggning krävs)"
+      },
+      {
+        "title": "HungaroControl – Översikt över reglerna",
+        "description": "En översikt över reglerna för drönare i Ungern"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Luftfartsmyndigheten – Licensiering",
+        "description": "Information om licensiering från den ungerska civila luftfartsmyndigheten"
+      },
+      {
+        "title": "MyDroneSpace – Vanliga frågor om drönare",
+        "description": "Vanliga frågor om Ungerns drönarregler"
+      }
+    ],
+    "disclaimerText": "Kontrollera alltid HungaroControls officiella källor och MyDroneSpace innan du flyger. Den här appen är bara ett verktyg – den är inte en juridisk auktoritet. Ungern följer EASA-reglerna med stränga nationella tillägg.",
+    "sectionLabelRules": "VIKTIGASTE REGLERNA (EASA ÖPPEN KATEGORI)",
+    "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
+    "sectionLabelSecondary": "YTTERLIGARE RESURSER",
+    "linksSheetTitle": "Luftrum och regler – Ungern",
+    "dronePilotCredentialName": "Drönarpilotcertifiering"
+  }
 }

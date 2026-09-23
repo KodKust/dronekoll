@@ -1,28 +1,32 @@
 {
   "meta": {
-    "sourceHash": "000b9bfb30fd5dc95150d4d75572729ea894e9cb117bc556495e8105d1de0bf6",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "49588a835cca5391d11c172e7550ef7ac8f76a3c7fe6c69b2398693532352902",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálne 120 m nad úrovňou terénu (kategória EASA Open)",
-      "Registrácia cez portál D-Flight: základné predplatné €7/rok (PRO €28/rok) + povinný QR kód na každom drone (Base €7/UAS; prvý je zahrnutý v úvodnom predplatnom)",
-      "Povinné online školenie A1/A3 — minimálny vek: 16 rokov",
-      "Povinné poistenie zodpovednosti — najmenej 750 000 SDR (zvláštne práva čerpania)",
+      "V otvorenej kategórii je maximálna výška 120 m meraná ako vzdialenosť od najbližšieho bodu zemského povrchu — nie jednoducho zvislo nadol, takže pri svahu sa môže počítať aj terén vedľa vás. Do 50 m od vysokej umelej prekážky (vyššej ako 105 m) môže subjekt zodpovedný za prekážku požiadať o povolenie lietať až 15 m nad výškou prekážky.",
+      "Registrácia v Taliansku cez portál D-Flight (okrem výnimiek uvedených nižšie): základné predplatné 7 €/rok (PRO 28 €/rok) + povinný QR kód na každom drone (Base 7 €/UAS; prvý je zahrnutý v úvodnom predplatnom)",
+      "Oslobodené: drony-hračky (Directive 2009/48/EC) nevyžadujú registráciu, osvedčenie ani poistenie; drony pod 250 g bez kamery alebo mikrofónu nevyžadujú registráciu.",
+      "Zahraniční piloti: registrácia prevádzkovateľa platí vo všetkých krajinách EÚ a vo Švajčiarsku. Ak ste už zaregistrovaní vo svojej krajine EÚ, na D-Flight sa registrovať nemusíte: stačí na drone uviesť svoje číslo prevádzkovateľa. Osoby s bydliskom mimo EÚ (vrátane Spojeného kráľovstva) sa registrujú v prvej krajine EÚ, ktorú plánujú navštíviť.",
+      "V Taliansku je minimálny vek na lietanie v A1/A3 16 rokov; neplnoletí (vo veku 16 – 17 rokov) potrebujú na registráciu na portáli ENAC súhlas rodiča alebo zákonného zástupcu. Online osvedčenie (40 otázok) platí 5 rokov.",
+      "Poistenie zodpovednosti voči tretím osobám je povinné pre všetky drony (aj pod 250 g a pri rekreačnom použití), okrem dronov-hračiek (Dir. 2009/48/EC) — minimálne krytie 750 000 SDR podľa čl. 27 Regolamento UAS-IT a čl. 1015 Codice della Navigazione.",
       "Rím a Vatikán: rozsiahle bezletové zóny",
-      "Dron majte vždy vo vizuálnom dohľade (VLOS)",
+      "V otvorenej kategórii musíte dron udržiavať vo vlastnom priamom vizuálnom dohľade voľným okom (okuliare alebo kontaktné šošovky sú v poriadku; ďalekohľad ani obrazovka sa nepočítajú) — alebo lietať s pomocou pozorovateľa, pričom medzi vami musí byť neustále jasná a účinná komunikácia, aby ste spoločne mohli sledovať vzdušný priestor a predchádzať zrážkam. Režim „Follow-me“ je samostatná výnimka povolená do 50 m od pilota.",
       "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre osoby, ktoré nie sú priamo zapojené, závisia od podkategórie, triedneho označenia a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
-      "Minimálna vzdialenosť 5 km od akéhokoľvek letiska alebo letovej plochy",
-      "Nočný let je povolený v rámci základných požiadaviek EASA pre otvorenú kategóriu, ak sa používa požadované zelené blikajúce svetlo, pokiaľ platné geografické obmedzenie alebo vnútroštátne predpisy nestanovujú prísnejšie podmienky.",
-      "Historické lokality a archeologické oblasti môžu podliehať ďalším obmedzeniam"
+      "Neexistuje jediná vzdialenosť od letísk: letiskové geografické zóny (ENAC Circular ATM-09A) sa zverejňujú na D-Flight. V otvorenej kategórii je lietanie v týchto zónach zakázané; zóny začínajú v rôznej výške podľa farby (červená 0 m, oranžová 25 m, žltá 45 m); vo zvyšku ATZ a CTR zóna zvyčajne začína v 60 m. Pod týmito výškami môžete lietať bez rezervácie vzdušného priestoru; na lietanie v zónach potrebujete kategóriu Specific s povolením od ENAC alebo Aeronautica Militare.",
+      "Nočný let je povolený v rámci základných požiadaviek EASA pre otvorenú kategóriu za predpokladu, že sa používa požadované zelené blikajúce svetlo, pokiaľ vnútroštátny predpis alebo predpis pre konkrétnu geografickú zónu nestanovuje prísnejšie podmienky.",
+      "Historické lokality a archeologické oblasti môžu podliehať ďalším obmedzeniam",
+      "Prírodné parky: lietanie nad nimi je zakázané tam, kde je na D-Flight zverejnený zákaz schválený ENAC; na lietanie v nich potrebujete povolenie správy parku (Ente Parco).",
+      "Drony s triednym označením C1, C2 alebo C3: priama diaľková identifikácia a funkcia geografickej informovanosti (geo-awareness) musia byť aktívne a aktuálne."
     ],
     "importantNotes": [
-      "Predplatné D-Flight: základné €7/rok (PRO €28/rok pre kategóriu Specific). Prvý základný QR kód je zahrnutý v úvodnej aktivácii; ďalšie základné QR kódy stoja €7 za UAS (PRO €112 za UAS).",
+      "Predplatné D-Flight: základné 7 €/rok (PRO 28 €/rok pre kategóriu Specific). Prvý základný QR kód (Base) je zahrnutý v úvodnej aktivácii; ďalšie základné QR kódy stoja 7 € za UAS (PRO 112 € za UAS).",
       "Povinné poistenie s minimálnym krytím 750 000 SDR (zvláštne práva čerpania)",
-      "Rím a Vatikán majú jeden z najreštriktívnejších vzdušných priestorov pre drony v Európe.",
-      "Pokuty až do €100 000 za závažné porušenia",
+      "Rím: centrum mesta je z bezpečnostných dôvodov bezletovou zónou, kde je prelet zakázaný všetkým lietadlám vrátane dronov; prípadné výnimky si navyše vyžadujú povolenie od Prefettura di Roma. Vždy skontrolujte D-Flight.",
+      "Pokuty až do 100 000 € za závažné porušenia",
       "Pri zachytávaní snímok identifikovateľných osôb platí GDPR."
     ],
     "primaryLinks": [
@@ -32,7 +36,7 @@
       },
       {
         "title": "D-Flight — Registrácia a lietanie",
-        "description": "Registračný portál a mapa vzdušného priestoru (vyžaduje sa predplatné 6 €/mesiac)"
+        "description": "Portál na registráciu prevádzkovateľov a mapa vzdušného priestoru (mapy s bezplatným účtom; registrácia prevádzkovateľa so základným predplatným Base za 7 €/rok)"
       },
       {
         "title": "D-Flight — Mapa vzdušného priestoru",
@@ -40,13 +44,13 @@
       },
       {
         "title": "ENAC — Predpisy pre UAS",
-        "description": "Podrobnosti talianskych predpisov o UAS a národné úpravy pravidiel EASA"
+        "description": "Podrobnosti talianskych predpisov o UAS a národné doplnky k pravidlám EASA"
       }
     ],
     "secondaryLinks": [
       {
         "title": "ENAV — NOTAM",
-        "description": "Aktívne NOTAM a dočasné obmedzenia vzdušného priestoru"
+        "description": "Taliansky poskytovateľ letových navigačných služieb; prístup k NOTAM (Self Briefing) vyžaduje podpísanie Operation Letter"
       },
       {
         "title": "ENAC — Často kladené otázky o dronoch",

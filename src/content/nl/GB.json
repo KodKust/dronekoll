@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "efa2a30f33ab3aa81ade21c803c0ce10",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,21 @@
     "keyRules": [
       "Max. 120 m (400 ft) boven de grond",
       "Flyer ID vereist vanaf 100 g — slaag voor de online CAA-test (40 vragen, 75% slaaggrens)",
+      "Operator ID vereist als je drone 250 g+ weegt, of 100 g+ met een camera — £12,34 per jaar, eigenaar moet 18+ zijn; breng de ID aan op elke drone.",
       "Houd de drone altijd binnen je eigen directe zicht, zonder hulpmiddelen, en dichtbij genoeg om te kunnen zien in welke richting hij wijst en om ander luchtverkeer in de gaten te houden. Er bestaat geen vaste wettelijke maximumafstand in meters — hoe ver je kunt vliegen hangt af van het zicht, de verlichting en de drone zelf, niet van een vaste straal.",
-      "Minimaal 50 m van niet-betrokken personen (30 m / 5 m gelden alleen voor drones met een UK-klassemarkering en een A2-certificaat)",
-      "Rond luchthavens liggen Flight Restriction Zones (FRZ), maar hun precieze vorm en omvang verschillen per luchthaven — er bestaat geen universele ‘cirkel van 5 km’. Controleer voordat je nabij een luchthaven vliegt altijd de specifieke FRZ op de officiële droneveiligheidskaart van de CAA.",
+      "Drones onder 250 g, of van klasse UK0/UK1/C0 (C1 tot 31 dec 2027): je mag dichter bij en boven niet-betrokken personen vliegen, maar nooit boven mensenmassa's. Andere drones: houd minstens 50 m afstand van niet-betrokken personen en vlieg nooit boven hen; in de standaard subcategorie Far from People (A3) moet je ook 150 m wegblijven van woon-, recreatie-, handels- en industriegebieden (incl. parken, stranden en toeristische attracties). Met een A2-certificaat: UK2 (C2 tot eind 2027) 30 m, of 5 m in de modus voor lage snelheid; andere drones onder 2 kg 50 m.",
+      "Rond luchthavens liggen Flight Restriction Zones (FRZ), maar hun precieze vorm en omvang verschillen per luchthaven — er bestaat geen universele ‘cirkel van 5 km’. Controleer voordat je nabij een luchthaven vliegt altijd de specifieke FRZ op de officiële UAS-beperkingenkaart van NATS.",
+      "'s Nachts vliegen: er moet een groen knipperlicht aanstaan (monteer er een als je drone er geen heeft)",
       "Een aansprakelijkheidsverzekering voor derden (volgens EC Regulation 785/2004) is verplicht voor commerciële of andere niet-recreatieve vluchten, of voor elke drone van 20 kg of zwaarder — voor lichter recreatief gebruik is ze optioneel, maar aanbevolen.",
       "Remote ID wordt gefaseerd ingevoerd: vanaf januari 2026 voor drones met een UK-klassemarkering (UK1/UK2/UK3/UK5/UK6); vanaf januari 2028 volledig verplicht",
       "Het VK maakt GEEN deel uit van EASA — EU-pilotencertificaten zijn niet geldig in het VK",
-      "London heeft drie permanente beperkingsgebieden — R157 (Hyde Park/koninklijke residenties), R158 (City of London/Square Mile, een kleine zone van ~0.5 NM rond het financiële district) en R159 (Canary Wharf/Isle of Dogs). Alle drones zijn daar, ongeacht hun formaat, verboden tenzij toestemming is verkregen via een Non-Standard Flight-aanvraag bij NATS, die ten minste 28 dagen van tevoren moet worden ingediend. Parliament en Downing Street liggen in Westminster, buiten alle drie de R-zones, en worden via afzonderlijke mechanismen beschermd."
+      "Londen heeft permanente beperkte gebieden waar alle drones verboden zijn, ongeacht hun formaat: R157 (Hyde Park — omvat ook Westminster, het parlement, Downing Street en Buckingham Palace), R158 (City of London) en R159 (Isle of Dogs/Canary Wharf). Vliegen daar vereist een Enhanced Non-Standard Flight-toestemming via NATS — vraag deze minstens 21 dagen van tevoren aan (voor gebieden in Londen kan het langer duren). Windsor Castle (R156) en Windsor Great Park (R161) zijn eveneens permanente no-flygebieden voor drones."
     ],
     "importantNotes": [
-      "De registratiedrempel in het VK is 100 g — strenger dan de 250 g van de EU",
       "EU-/EASA-dronecertificaten worden sinds Brexit NIET erkend in het VK",
+      "EU-drones van C-klasse (C0–C4) mogen tot 31 december 2027 worden gevlogen als de overeenkomstige UK-klasse — de regels voor UK Flyer ID/Operator ID blijven gelden op basis van gewicht en camera.",
       "Gemeenten kunnen het vliegen op hun grond beperken — controleer dit voordat je in parken vliegt",
-      "Gevangenissen hebben no-flyzones van ~1 km — het in gevaar brengen van luchtvaartuigen kan tot 5 jaar gevangenis opleveren"
+      "Gevangenissen in Engeland en Wales hebben no-flyzones voor drones (exacte vorm per gevangenis — controleer de kaart). Het in gevaar brengen van een luchtvaartuig kan tot 5 jaar gevangenisstraf opleveren."
     ],
     "primaryLinks": [
       {
@@ -36,15 +38,15 @@
       },
       {
         "title": "CAA — Registreren (Flyer ID en Operator ID)",
-        "description": "Verkrijg je Flyer ID (verplicht vanaf 100 g) en Operator ID (verplicht vanaf 250 g)"
+        "description": "Verkrijg je Flyer ID (verplicht vanaf 100 g) en Operator ID (verplicht vanaf 250 g, of vanaf 100 g als de drone een camera heeft)"
       },
       {
         "title": "CAA — The Drone Code",
         "description": "Officiële regels: waar je mag vliegen, hoogtelimieten en veiligheidsvereisten"
       },
       {
-        "title": "Drone Assist — Luchtruimkaart",
-        "description": "Gratis app voor vluchtplanning met no-flyzones en luchtruimbeperkingen"
+        "title": "Drone Assist — luchtruimapp van derden",
+        "description": "Niet-officiële app (Altitude Angel) — controleer beperkingen altijd op de officiële UAS-beperkingenkaart van NATS"
       }
     ],
     "secondaryLinks": [
@@ -57,7 +59,7 @@
         "description": "Wanneer een droneverzekering vereist is (verplicht voor niet-recreatief gebruik)"
       },
       {
-        "title": "CAA — Remote ID-beleid",
+        "title": "CAA — Remote ID (wanneer je het moet inschakelen)",
         "description": "Britse Remote ID-vereisten vanaf januari 2026"
       }
     ]

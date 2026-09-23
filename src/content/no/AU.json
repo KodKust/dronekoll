@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "362edae763d5f971da0104f4b2bf8c97",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb2939eb8f1213b47dba87ec9440da8e",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,23 @@
     "keyRules": [
       "Maks 120 m over bakken (AGL)",
       "Minst 30 m fra personer som ikke er involvert — fly aldri over mennesker",
-      "Droner over 250 g må holde minst 5,5 km avstand fra en kontrollert flyplass. Droner under 250 g kan fly innenfor denne sonen, men bare opptil 45 m over bakken, utenfor flyplassområdet og uten å utgjøre en fare for andre luftfartøy.",
-      "Droner under 250 g: maksimal høyde 45 m innenfor en radius på 5,5 km fra en kontrollert flyplass",
+      "Droner over 250 g: ikke fly innenfor 5,5 km fra en kontrollert flyplass eller i en innflygings-/avgangsbane for en rullebane ut til 7 km (7–8,5 km: maks 90 m). Droner på 250 g eller mindre kan fly opptil 45 m over bakken innenfor 5,5 km, men aldri over eller i innflygings-/avgangsbaner, innenfor flyplassens område eller der de utgjør en fare for luftfartøy.",
+      "Innenfor 5,5 km fra en flyplass uten kontrolltårn, eller innenfor 1,4 km fra en landingsplass for helikopter: blir du oppmerksom på et bemannet luftfartøy eller helikopter, ikke ta av — flytt deg bort fra kursen og land så snart som mulig",
+      "Fly aldri over eller nær nødoperasjoner (politi, ambulanse, søk og redning, brannslukking) eller områder som berører offentlig sikkerhet",
       "Rekreasjonsflyging: kun i dagslys (fra borgerlig daggry til borgerlig skumring). Nattflyging krever RePL + ReOC-autorisasjon",
       "Hold alltid dronen innenfor synsvidde (VLOS)",
+      "Fly bare én drone om gangen",
       "Ingen registrering kreves for rekreasjonsdroner (uansett vekt under 25 kg, standardreglene gjelder)",
-      "Kommersiell bruk 2 kg+: fjernpilotlisens (RePL) kreves",
+      "Flyging i jobbsammenheng (alle vekter, også under 250 g): registrer dronen (gratis opptil 500 g; AUD 40 per drone over 500 g) og ha operatørakkreditering eller Remote Pilot Licence (RePL). Over 2 kg kreves som regel også RePL og ReOC. Droner registrert i utlandet kan ikke registreres i Australia — for jobbflyginger, få tillatelse fra CASA via myCASA",
       "Regler for nasjonalparker varierer fra delstat til delstat — sjekk før du flyr (noen forbyr droner helt)"
     ],
     "importantNotes": [
-      "Victoria forbyr droner i ALLE delstats- og nasjonalparker — ingen unntak uten tillatelse",
+      "Sydney Harbour og områdene rundt er en «no drone zone» (lavtflygende helikoptre og sjøfly) — mange turistmål er stengt for droner; sjekk en CASA-verifisert app",
+      "Victoria: rekreasjonsdroner er ikke tillatt i det hele tatt på områder forvaltet av Parks Victoria; dronefilming krever tillatelse fra Parks Victoria og en lisensiert, CASA-sertifisert operatør",
       "Nasjonalparker i NSW krever en tillatelse fra NPWS — bøter på opptil $3 300",
       "South Australia tillater bare droner i parker for vitenskapelig forskning eller kommersiell filming",
-      "Sanksjoner for ulovlig flyging kan overstige $10 000 AUD"
+      "Droner er forbudt i nasjonalparkene Uluṟu-Kata Tjuṯa og Kakadu (lovbrudd etter EPBC Act uten tillatelse)",
+      "CASA kan ilegge bøter på opptil AUD 1 820 per overtredelse; bøter i retten på opptil AUD 18 200, og opptil 2 års fengsel hvis dronen din setter luftfartøy i fare"
     ],
     "primaryLinks": [
       {
@@ -36,7 +40,7 @@
       },
       {
         "title": "OpenSky — Luftromskart",
-        "description": "CASA-verifiserte luftromsdata med sanntidsrestriksjoner og TFR-varsler"
+        "description": "CASA-verifiserte luftromsdata med sanntidsrestriksjoner"
       },
       {
         "title": "CASA — Registrering",

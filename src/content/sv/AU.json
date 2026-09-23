@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "362edae763d5f971da0104f4b2bf8c97",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb2939eb8f1213b47dba87ec9440da8e",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,23 @@
     "keyRules": [
       "Högst 120 m över marken (AGL)",
       "Minst 30 m från varje utomstående person – flyg aldrig över människor",
-      "Drönare över 250 g måste hålla minst 5,5 km avstånd till en kontrollerad flygplats. Drönare under 250 g får flyga inom den zonen, men bara upp till 45 m över marken, utanför flygplatsens område och utan att utgöra en fara för andra luftfartyg.",
-      "Drönare under 250 g: högst 45 m höjd inom 5,5 km från en kontrollerad flygplats",
+      "Drönare över 250 g: flyg inte inom 5,5 km från en kontrollerad flygplats eller i en banas in- eller utflygningsväg ut till 7 km (7–8,5 km: max 90 m). Drönare på 250 g eller mindre får flyga upp till 45 m över marken inom 5,5 km, men aldrig över eller i in- och utflygningsvägar, innanför flygplatsens gräns eller där de utgör en fara för luftfartyg.",
+      "Inom 5,5 km från en flygplats utan flygledartorn, eller inom 1,4 km från en landningsplats för helikoptrar: om du upptäcker ett bemannat luftfartyg eller en helikopter, starta inte – flytta drönaren ur dess färdväg och landa så snart som möjligt",
+      "Flyg aldrig över eller nära räddningsinsatser (polis, ambulans, sök- och räddning, brandbekämpning) eller områden som påverkar allmän säkerhet",
       "Nöjesflygning: endast under dagsljus (borgerlig gryning till borgerlig skymning). Nattflygning kräver RePL + ReOC-tillstånd",
       "Håll alltid drönaren inom synhåll (VLOS)",
+      "Flyg bara en drönare åt gången",
       "Ingen registrering krävs för drönare för nöjesbruk (oavsett vikt under 25 kg, standardregler gäller)",
-      "Kommersiell användning från 2 kg: fjärrpilotlicens (RePL) krävs",
+      "Flygning i arbetet (alla vikter, även under 250 g): registrera drönaren (kostnadsfritt upp till 500 g; 40 AUD per drönare över 500 g) och ha operatörsackreditering eller en Remote Pilot Licence (RePL). Över 2 kg krävs i regel även RePL och ReOC. Drönare som är registrerade utomlands kan inte registreras i Australien – för arbetsflygningar, skaffa tillstånd från CASA via myCASA",
       "Nationalparksreglerna varierar mellan delstater – kontrollera innan du flyger (vissa förbjuder drönare helt)"
     ],
     "importantNotes": [
-      "Victoria förbjuder drönare i ALLA delstats- och nationalparker – inga undantag utan tillstånd",
+      "Sydney Harbour och omgivande områden är en drönarfri zon (”no drone zone”) på grund av lågt flygande helikoptrar och sjöflygplan – många turistmål är avstängda; kontrollera i en CASA-verifierad app",
+      "Victoria: drönare för nöjesbruk är inte tillåtna alls på mark som förvaltas av Parks Victoria; drönarfilmning kräver tillstånd från Parks Victoria och en licensierad, CASA-certifierad operatör",
       "Nationalparker i NSW kräver tillstånd från NPWS – böter upp till 3 300 $",
       "South Australia tillåter drönare i parker endast för vetenskaplig forskning eller kommersiell filmning",
-      "Sanktioner för olaglig verksamhet kan överstiga 10 000 AUD"
+      "Drönare är förbjudna i nationalparkerna Uluṟu-Kata Tjuṯa och Kakadu (brott enligt EPBC Act utan tillstånd)",
+      "CASA kan utfärda böter på upp till 1 820 AUD per överträdelse; domstolsböter på upp till 18 200 AUD och upp till 2 års fängelse om din drönare utsätter luftfartyg för fara"
     ],
     "primaryLinks": [
       {
@@ -36,7 +40,7 @@
       },
       {
         "title": "OpenSky – Luftrumskarta",
-        "description": "CASA-verifierade luftrumsdata med realtidsrestriktioner och TFR-varningar"
+        "description": "CASA-verifierade luftrumsdata med realtidsrestriktioner"
       },
       {
         "title": "CASA – Registrering",

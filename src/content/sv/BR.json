@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Högsta höjd: 120 m (400 ft) över marken",
+      "Högsta höjd: 120 m (400 ft) AGL (ANAC); nöjesflygningar: högst 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "Drönare som väger mer än 250 g: obligatorisk registrering hos SISANT (ANAC)",
-      "Drönare som väger upp till 250 g: undantagna från registrering, automatiskt licensierade",
-      "Minst 5,4 km från flygplatser vid flygning på låg höjd",
-      "Minst 9 km från flygplatser vid flygning upp till 120 m",
+      "Drönare upp till 250 g behöver inte registreras i SISANT (ANAC Resolution nr 806). Sedan den 1 juli 2026 (ICA 100-40) kräver flygningar med dessa drönare också tillstånd via SARPAS (DECEA). Drönare över 250 g måste registreras i SISANT.",
+      "Flygrestriktionszoner kring flygplatser (FRZ) (ICA 100-40, i kraft sedan den 1 juli 2026): runt flygplatsen (ZEA) börjar FRZ vid marknivå ut till 1 740 m; du håller dig under den genom att flyga upp till 100 ft (30 m) bortom 1 740 m, 200 ft (60 m) bortom 2 350 m, 300 ft bortom 2 960 m och 400 ft bortom 3 570 m. I in- och utflygningssektorerna (ZAD) börjar FRZ vid marknivå ut till 3 550 m; därefter: 100 ft bortom 3 550 m, 200 ft bortom 4 480 m, 300 ft bortom 5 400 m och 400 ft bortom 6 320 m. Flygning inom FRZ kräver ett Termo de Coordenação och en ansökan i SARPAS minst 4 kalenderdagar i förväg.",
+      "Nöjesflygningar (ICA 100-40, art. 32): högsta höjd 200 ft (60 m) AGL och största horisontella avstånd 300 m. Nära flygplatser gäller FRZ-banden – kontrollera i SARPAS.",
       "Håll alltid drönaren inom synhåll (VLOS)",
-      "Minst 30 meter till personer som inte deltar i flygningen",
-      "Tillstånd via SARPAS (DECEA) krävs före varje flygning i kontrollerat luftrum",
+      "Minst 30 m till personer som inte deltar i flygningen",
+      "Varje flygning kräver tillstånd för tillträde till luftrummet via SARPAS (DECEA), även för drönare upp till 250 g. Minsta framförhållning: 30 minuter i den öppna kategorin; 4 eller 8 kalenderdagar för verksamhet som berör en FRZ eller restriktionsområden, BVLOS eller över 400 ft. Nöjesflygningar i ett EAC som är avsett för nöjesflygning är undantagna.",
       "Sändarutrustningen måste vara certifierad av ANATEL",
-      "Nattflygning kräver särskilt tillstånd och antikollisionsljus"
+      "Nattflygning: drönaren måste ha navigeringsljus (ICA 100-40, art. 20)",
+      "Piloter under 18 år måste alltid åtföljas av en pilot över 18 år som ansvarar för flygningen",
+      "Användning av drönare över 250 g för annat än nöjesbruk (RBAC nr 100): försäkring som täcker skador på tredje man är obligatorisk. Kravet på godkänt teoriprov hos ANAC (RBAC 100.13(b)) är slopat fram till den 31 december 2026 (Resolution nr 805/2026, art. 2)."
     ],
     "importantNotes": [
-      "Turister: Brasilien TILLÅTER nöjesflygning, men drönare som väger mer än 250 g måste registreras hos SISANT före flygningen",
-      "Böter från ANAC kan uppgå till 7 000 R$ per överträdelse – att flyga utan registrering eller SARPAS-tillstånd är en allvarlig överträdelse",
+      "Turister: Brasilien TILLÅTER nöjesflygning. Drönare över 250 g måste registreras i SISANT (utlänningar kan använda sitt pass), och flygningar kräver tillstånd via SARPAS (DECEA), även med drönare upp till 250 g.",
+      "ANAC:s böter för drönare utgår från referensbelopp på R$ 750 till R$ 4 500 per överträdelse (flygning utan registrering: R$ 2 250 – Resolution nr 762/2024); beroende på förmildrande och försvårande omständigheter kan slutbeloppet variera från 20 % till 300 % av det beloppet (Resolution nr 761/2024, art. 35). Att flyga utan tillstånd via SARPAS är en överträdelse av lufttrafikreglerna som prövas av JJAER (ICA 100-40, art. 66).",
       "Nationalparker (ICMBio) och urfolksområden (FUNAI) förbjuder i regel drönare utan särskilt tillstånd",
       "Stränder och turistområden i städer (Rio, São Paulo, Salvador) har kommunala begränsningar – hör med de lokala myndigheterna"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS – Flygtillstånd (DECEA)",
-        "description": "DECEA:s system för att ansöka om flygtillstånd i kontrollerat luftrum. Krävs före varje flygning"
+        "description": "DECEA:s system för att ansöka om tillstånd för tillträde till luftrummet, även för drönare upp till 250 g. Krävs före varje flygning"
       },
       {
         "title": "ANATEL – Utrustningscertifiering",
@@ -48,15 +50,15 @@
         "description": "Aktiva NOTAM och officiella flygkartor från DECEA för att kontrollera tillfälliga restriktioner"
       },
       {
-        "title": "ANAC – Vanliga frågor om drönare",
-        "description": "ANAC:s officiella svar på vanliga frågor från drönaroperatörer"
+        "title": "ANAC – Vanliga frågor om SISANT (drönarregistrering)",
+        "description": "ANAC:s officiella svar om registrering i SISANT, även för utlänningar"
       },
       {
-        "title": "RBAC-E nr 94 – Fullständig teknisk standard",
-        "description": "Särskild brasiliansk luftfartsföreskrift nr 94 – fullständig text som gäller drönare"
+        "title": "RBAC nr 100 – Fullständig teknisk standard",
+        "description": "Brasiliens civila luftfartsföreskrift nr 100 (ersätter RBAC-E nr 94) – fullständig text som gäller drönare"
       }
     ],
-    "disclaimerText": "Kontrollera alltid de officiella källorna från ANAC och DECEA innan du flyger. Den här appen är ett verktyg, inte en juridiskt bindande källa. Brasilien tillämpar RBAC-E nr 94 (som nu övergår till RBAC nr 100), som kräver obligatoriskt godkännande via SARPAS.",
+    "disclaimerText": "Kontrollera alltid de officiella källorna från ANAC och DECEA innan du flyger. Den här appen är ett verktyg, inte en juridiskt bindande källa. Brasilien tillämpar RBAC nr 100 och Resolution nr 806 (ANAC, sedan juni 2026) samt ICA 100-40 (DECEA, sedan juli 2026), med obligatoriskt tillstånd via SARPAS.",
     "sectionLabelRules": "VIKTIGASTE REGLERNA",
     "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
     "sectionLabelSecondary": "YTTERLIGARE RESURSER",

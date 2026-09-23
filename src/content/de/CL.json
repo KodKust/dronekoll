@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (unbewohnte Gebiete, Freizeit): Drohnen bis 750 g dürfen ohne Genehmigung bis zu 50 m über dem höchsten Hindernis auf Privatgrund fliegen",
-      "DAN 151 (bewohnte Gebiete/gewerbliche Nutzung): Für Drohnen über 750 g sind eine DGAC-Registrierung, eine Pilotenlizenz und eine Betriebsgenehmigung erforderlich",
-      "Maximal zulässige Gesamthöhe: 130 m AGL (DAN 151) – variiert je nach Genehmigung",
-      "Mindestabstand von 2 km zu Flughäfen und Flugplätzen",
+      "DAN 91.102(j): Ohne Genehmigung der DGAC dürfen nur Drohnen bis 750 g aus expandiertem Polyethylen oder gleichwertigem Material für private oder Freizeitzwecke fliegen, und zwar an privaten Orten und nicht höher als 50 m über dem höchsten Hindernis oder Gebäude. Jeder andere Flug erfordert eine vorherige Genehmigung der DGAC.",
+      "DAN 151 (bewohnte Gebiete, öffentliches Interesse oder Arbeitsflüge): gilt für Drohnen jedes Gewichts (max. 9 kg) und erfordert eine DGAC-Registrierung, eine Fernpilotenberechtigung, eine Versicherung, ein AOC oder CEO sowie eine Betriebsgenehmigung.",
+      "DAN 151: Die Drohne muss während des Betriebs einen Notfallfallschirm mitführen und manuell steuerbar sein (max. 9 kg ohne Fallschirm).",
+      "Die allgemeine Grenze liegt bei 400 Fuß (120 m) über Grund – darüber zu fliegen erfordert eine vorherige Genehmigung der DGAC (DAN 151 Ed. 3, in Kraft seit Mai 2024). Die aktuelle DAN 91 gibt dieselbe Grenze als „400 Fuß (130 Meter)“ an.",
+      "Kein Fliegen innerhalb von 2 km der verlängerten Pistenmittellinie (gemessen ab der Schwelle) oder innerhalb von 1 km parallel zur Pistenmittellinie eines Flugplatzes.",
+      "Keine Drohneneinsätze in Gebieten, in denen ein Brand mit bemannten Luftfahrzeugen bekämpft wird (DAN 91.102(i)(11) und DAN 151.103(g)(14)).",
       "Maximaler Abstand von 500 m zum Betreiber (direkten Sichtkontakt halten)",
-      "Halte die Drohne stets in direkter Sichtverbindung (VLOS)",
+      "Du musst jederzeit direkten Sichtkontakt zur Drohne halten, um ihren Flug zu steuern.",
       "Nachtflüge erfordern eine gesonderte Genehmigung der DGAC",
-      "DGAC-Registrierung: Hersteller, Modell, Seriennummer, Höchstgewicht ≤9 kg für den zugelassenen Betrieb, Foto 10×15 cm",
-      "Für die Pilotenlizenz ist eine schriftliche Prüfung (Mindestpunktzahl von 75 %) zu DAN 151, DAN 91, Meteorologie und Aerodynamik erforderlich",
+      "DGAC-Registrierung (DAN 151.203): Hersteller/Land, Marke, Modell, Seriennummer und Werksgewicht, mit einer Kopie deines Personalausweises; der Antrag wird auf der Webplattform der DGAC gestellt (seit August 2026). Maximales Startgewicht 9 kg.",
+      "Fernpilotenberechtigung: mindestens 18 Jahre alt, Schulungserklärung und schriftliche Prüfung (mindestens 75 %) zu DAN 151, DAN 91, NOTAM, Meteorologie und Aerodynamik; 36 Monate gültig.",
       "Haftpflichtversicherung (von der JAC zugelassen) für die gewerbliche Nutzung erforderlich"
     ],
     "importantNotes": [
-      "📋 ZWEIGETEILTER RECHTSRAHMEN – DAN 91 vs. DAN 151: Chile unterscheidet zwischen Flügen in UNBEWOHNTEN Gebieten (DAN 91, weniger restriktiv; Freizeitflüge ≤750 g ohne Genehmigung) und Flügen in BEWOHNTEN Gebieten oder Gebieten von öffentlichem Interesse (DAN 151; hier sind eine Registrierung, ein zertifizierter Pilot und eine Versicherung erforderlich). Welche Vorschriften gelten, hängt vom Ort UND vom Zweck ab.",
-      "✈️ AUSLÄNDISCHE TOURISTEN: Die Regeln gelten gleichermaßen für Nichtansässige. Für Freizeitflüge mit Drohnen bis 750 g auf unbewohntem Privatgrund ist keine Registrierung erforderlich. Für alle anderen Einsätze (touristische Flüge, gewerbliche Nutzung, in Personennähe, in Parks) sind dieselben Genehmigungen erforderlich wie für chilenische Staatsbürger.",
-      "🌋 NATIONALPARKS UND RESERVATE: Die CONAF (nationale Forstbehörde) verbietet Drohnen ohne Sondergenehmigung in Parks wie Torres del Paine, Lauca und dem Nationalpark Vulkan Isluga. Chilenische Antarktis: Sondervorschriften des INACH. Erkundige dich vor der Reise beim jeweiligen Park oder Reservat.",
-      "🏔️ SPERRGEBIETE: Innenstadt von Santiago (La Moneda, Plaza de Armas), Flughafen SCEL (Pudahuel), Militär- und Grenzzonen. Osterinsel, Robinson-Crusoe-Insel, Antarktis: zusätzliche Beschränkungen. Siehe AIP Chile (ENR 5.1) für eine Karte der Verbots-, Sperr- und Gefahrengebiete.",
-      "💰 JÄHRLICHE ERNEUERUNG: Die DGAC-Registrierung ist 12 Monate gültig und muss jährlich erneuert werden. Der Betrieb ohne gültige Registrierung oder Berechtigung kann ein Bußgeld, die Beschlagnahme der Ausrüstung und ein Betriebsverbot nach sich ziehen."
+      "DOPPELTER RECHTSRAHMEN – DAN 91 (unbewohnte Gebiete): Jeder Flug erfordert eine vorherige Genehmigung der DGAC, im Einzelfall (Anhang D). DAN 151 (bewohnte Gebiete, öffentliches Interesse oder Arbeitsflüge): Registrierung, Berechtigung, Versicherung und Genehmigung. Einzige Ausnahme: Drohnen ≤750 g aus expandiertem Polyethylen oder gleichwertigem Material, Freizeitnutzung, an privaten Orten und ≤50 m über dem höchsten Hindernis.",
+      "✈️ AUSLÄNDISCHE TOURISTEN: Die Regeln gelten gleichermaßen für Nichtansässige. Ohne Genehmigung der DGAC sind nur Drohnen ≤750 g aus expandiertem Polyethylen oder gleichwertigem Material, zur Freizeitnutzung, an privaten Orten und ≤50 m über dem höchsten Hindernis erlaubt. Jeder andere Flug erfordert eine vorherige Genehmigung der DGAC; für die DGAC-Registrierung ist eine Kopie deines Ausweises erforderlich.",
+      "🌋 SCHUTZGEBIETE: Die Nutzung von Drohnen zu Freizeit- oder touristischen Zwecken ist in keinem staatlichen Wildschutzgebiet (Nationalparks, Reservate, Naturdenkmäler) erlaubt. Die CONAF genehmigt Flüge nur in begründeten Fällen (wissenschaftliche Forschung, Monitoring oder andere Managementzwecke) über conaf.cerofilas.gob.cl, und dann ist zusätzlich eine Erlaubnis der DGAC erforderlich. Antarktis: Sonderregelungen des INACH.",
+      "🏔️ SPERRGEBIETE: Kein Fliegen über La Moneda (Zone SC-P28), militärischen Anlagen, Gefängnissen und strategischen Einrichtungen oder in Sperr-, Beschränkungs- oder Gefahrengebieten des AIP Chile (ENR 5.1) oder laut NOTAM.",
+      "💰 GÜLTIGKEITSDAUER: Die Fernpilotenberechtigung gilt 36 Monate und wird mit einer neuen Prüfung (mind. 75 %) erneuert; die Betriebsgenehmigung nach DAN 151 ist bis zu 6 Monate gültig. Verstöße gegen die Vorschriften der DGAC können Bußgelder, die Aussetzung des Betriebs, die Beschlagnahme der Ausrüstung oder strafrechtliche Haftung nach sich ziehen, wenn die Flugsicherheit gefährdet wird."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Offizielles Luftfahrtinformationssystem Chiles: NOTAMs, Verbots-/Sperr-/Gefahrengebiete (ENR 5), Karten, Flugplätze"
       },
       {
-        "title": "RPA-Registrierungsverfahren (offizielles PDF)",
-        "description": "Offizielles DGAC-Verfahren zur Neuregistrierung und Regularisierung von Drohnen (RPA). Enthält Anhang B und Formulare"
+        "title": "Drohnenregistrierung (RPA) – Neue DGAC-Plattform",
+        "description": "Online-Registrierung im nationalen RPA-Register nach DAN 151. Die Registrierung stellt für sich genommen keine Fluggenehmigung dar."
       }
     ],
     "secondaryLinks": [

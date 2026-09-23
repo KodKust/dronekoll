@@ -1,33 +1,36 @@
 {
   "meta": {
-    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "17cf8ce1211fdb6fb07c1979f47d5e58",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
-    "disclaimerText": "Kontrollera alltid de officiella källorna från DGCA och DigitalSky innan du flyger. Den här appen är ett verktyg – inte en juridisk auktoritet. Indien använder en obligatorisk digital plattform för att uppfylla alla drönarregler.",
+    "disclaimerText": "Kontrollera alltid de officiella källorna från DGCA (eGCA) och DigitalSky innan du flyger. Den här appen är ett verktyg – inte en juridisk auktoritet.",
     "sectionLabelRules": "VIKTIGASTE REGLERNA",
     "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
     "sectionLabelSecondary": "YTTERLIGARE RESURSER",
     "linksSheetTitle": "Luftrum och regler – Indien",
     "dronePilotCredentialName": "Fjärrpilotcertifikat",
     "keyRules": [
-      "DigitalSky delar in luftrummet i gröna zoner (omedelbart automatiskt tillstånd), gula zoner (kontrollerat luftrum, cirka 15–30 min automatisk handläggning – hit hör bältet runt flygplatser, ungefär 8–12 km) och röda zoner (restriktionsområden som kräver manuellt godkännande) – kontrollera alltid DigitalSky innan du flyger, eftersom de exakta zongränserna vid en enskild flygplats kan avvika från det generella mönstret.",
+      "DigitalSky delar in luftrummet i grön zon (inget tillstånd krävs, upp till 120 m/400 ft), gul zon (tillstånd från berörd flygtrafikledningsmyndighet) och röd zon (endast tillstånd från centralregeringen). 8–12 km från en operativ flygplats yttre gräns gäller grön zon bara upp till 60 m (200 ft); ovanför det är zonen gul. Kontrollera alltid DigitalSky-kartan innan du flyger.",
+      "Om drönaren inte är undantagen (Nano-drönare upp till 250 g, eller modelldrönare upp till 25 kg som bara används för utbildning, forskning eller fritidsflygning inom synhåll) måste den överensstämma med ett typcertifikat från DGCA. DGCA har tills vidare tillfälligt stoppat registreringen av drönare utan typcertifikat (endast Nano- och modelldrönare tillverkade i Indien kan ansöka direkt hos DGCA), och en oregistrerad drönare får inte flygas.",
       "Försäkring är obligatorisk för alla kategorier utom Nano",
-      "Fjärrpilotcertifikat (RPC) krävs för kommersiell användning av Micro (250 g–2 kg) och större drönare, och är obligatoriskt för alla drönare i klassen Small (2–25 kg) och uppåt oavsett syfte. Nano (under 250 g) kräver aldrig RPC, inte heller för kommersiell användning.",
+      "Fjärrpilotcertifikat (RPC) krävs för kommersiell användning av Micro (>250 g–2 kg) och större drönare, och är obligatoriskt för alla drönare i klassen Small (2–25 kg) och uppåt oavsett syfte. Nano (≤250 g) kräver aldrig RPC, inte heller för kommersiell användning.",
       "Under varje flygning måste drönaren hållas inom synhåll – den ska hela tiden vara synlig för blotta ögat, utan kikare eller liknande hjälpmedel – om inte DGCA har beviljat särskilt EVLOS- eller BVLOS-tillstånd.",
       "Flygning i röda zoner är strikt förbjuden utan särskilt tillstånd från behörig myndighet via DigitalSky."
     ],
     "importantNotes": [
-      "Registrering i DigitalSky är obligatorisk för alla drönare utom Nano (under 250 g), som varken kräver registrering eller UIN. Om du flyger en oregistrerad drönare som måste vara registrerad riskerar den att beslagtas.",
+      "Alla drönare, även Nano (≤250 g), måste registreras och ha ett UIN (via DGCA:s portal eGCA) innan de flygs. Nano-drönare är bara undantagna från typcertifiering, fjärrpilotcertifikat och ansvarsförsäkring mot tredje part. Den som flyger en oregistrerad drönare riskerar påföljder och beslag.",
+      "Besökare: import av drönare till Indien är förbjuden enligt DGFT Notification 54/2022 (alla viktklasser, även ≤250 g), utom med tillstånd från DGFT för statlig användning/FoU eller försvars-/säkerhetsändamål. Registrering kräver indiskt pass eller en id-handling utfärdad av indiska staten samt adressbevis, så en besökares drönare kan i regel inte registreras eller flygas lagligt.",
       "Röda zoner omfattar flygplatser, militära områden, gränser och känsliga platser",
-      "Försäkring är obligatorisk för drönare i kategorierna Micro, Small och Medium"
+      "Försäkring är obligatorisk för drönare i kategorierna Micro, Small och Medium",
+      "Alla olyckor som din drönare är inblandad i måste rapporteras till DGCA inom 48 timmar."
     ],
     "primaryLinks": [
       {
         "title": "DigitalSky – DGCA-plattform",
-        "description": "Obligatorisk plattform för drönarregistrering, flygtillstånd och zonkontroller"
+        "description": "Obligatorisk plattform för flygtillstånd och zonkontroller"
       },
       {
         "title": "DGCA – Regler för drönare",

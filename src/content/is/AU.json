@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "362edae763d5f971da0104f4b2bf8c97",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb2939eb8f1213b47dba87ec9440da8e",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,23 @@
     "keyRules": [
       "Að hámarki 120 m yfir jörðu (AGL)",
       "Að minnsta kosti 30 m frá hverjum þeim sem ekki tekur þátt í fluginu — fljúgðu aldrei yfir fólki",
-      "Drónar sem vega meira en 250 g verða að vera í að minnsta kosti 5,5 km fjarlægð frá stýrðum flugvelli. Drónar undir 250 g mega fljúga innan þess svæðis, en aðeins í allt að 45 m hæð yfir jörðu, utan marka flugvallarins og án þess að skapa hættu fyrir önnur loftför.",
-      "Drónar undir 250 g: að hámarki 45 m hæð innan 5,5 km frá stýrðum flugvelli",
+      "Drónar yfir 250 g: fljúgðu ekki innan 5,5 km frá flugvelli með flugstjórn eða í aðflugs-/brottflugsleið flugbrautar út að 7 km (7–8,5 km: að hámarki 90 m). Drónar sem vega 250 g eða minna mega fljúga allt að 45 m yfir jörðu innan 5,5 km, en aldrei yfir eða í aðflugs-/brottflugsleiðum, innan flugvallarmarka eða þar sem þeir skapa hættu fyrir loftför.",
+      "Innan 5,5 km frá flugvelli án flugturns, eða innan 1,4 km frá lendingarstað þyrlu: ef þú verður var við mannað loftfar eða þyrlu skaltu ekki taka á loft — farðu úr leið þess og lentu eins fljótt og auðið er",
+      "Fljúgðu aldrei yfir eða nálægt neyðaraðgerðum (lögreglu, sjúkraflutningum, leit og björgun, slökkvistarfi) eða svæðum sem varða almannaöryggi",
       "Tómstundaflug: aðeins að degi til (frá upphafi borgaralegrar morgunskímu til loka borgaralegrar kvöldskímu). Næturflug krefst RePL + ReOC heimildar",
       "Haltu ávallt sjónlínu (VLOS)",
+      "Fljúgðu aðeins einum dróna í einu",
       "Engin skráning nauðsynleg fyrir tómstundadróna (gildir um alla dróna undir 25 kg; staðalreglur gilda)",
-      "Atvinnunotkun 2 kg+: fjarflugmannsleyfi (RePL) nauðsynlegt",
+      "Flug í atvinnuskyni (öll þyngd, þ.m.t. undir 250 g): skráðu drónann (ókeypis upp að 500 g; 40 AUD á hvern dróna yfir 500 g) og hafðu rekstraraðilaviðurkenningu (operator accreditation) eða fjarflugmannsleyfi (RePL). Yfir 2 kg er almennt einnig krafist RePL og ReOC. Ekki er hægt að skrá erlendis skráða dróna í Ástralíu — fyrir flug í atvinnuskyni skaltu fá leyfi CASA í gegnum myCASA",
       "Reglur þjóðgarða eru breytilegar eftir fylkjum — athugaðu áður en þú flýgur (sumir banna dróna með öllu)"
     ],
     "importantNotes": [
-      "Viktoría bannar dróna í ÖLLUM fylkis- og þjóðgörðum — engar undantekningar án leyfis",
+      "Sydney Harbour og nærliggjandi svæði eru „drónabannsvæði“ (lágt fljúgandi þyrlur og sjóflugvélar) — margir ferðamannastaðir eru lokaðir drónum; athugaðu í forriti sem CASA hefur staðfest",
+      "Viktoría: tómstundadrónar eru alls ekki leyfðir á landi sem Parks Victoria stýrir; drónakvikmyndun krefst leyfis frá Parks Victoria og rekstraraðila með leyfi og CASA-vottun",
       "Þjóðgarðar í Nýja Suður-Wales krefjast leyfis frá NPWS — sektir allt að 3.300 $",
       "Suður-Ástralía heimilar dróna í görðum aðeins fyrir vísindarannsóknir eða kvikmyndun í atvinnuskyni",
-      "Viðurlög fyrir ólöglegan rekstur geta farið yfir 10.000 AUD"
+      "Drónar eru bannaðir í Uluṟu-Kata Tjuṯa- og Kakadu-þjóðgörðunum (brot samkvæmt EPBC Act án leyfis)",
+      "CASA getur sektað um allt að 1.820 AUD fyrir hvert brot; dómstólar um allt að 18.200 AUD, og allt að 2 ára fangelsi liggur við ef dróninn þinn stofnar loftförum í hættu"
     ],
     "primaryLinks": [
       {
@@ -36,7 +40,7 @@
       },
       {
         "title": "OpenSky — Loftrýmiskort",
-        "description": "CASA-staðfest loftrýmisgögn með rauntímatakmörkunum og TFR-viðvörunum"
+        "description": "CASA-staðfest loftrýmisgögn með rauntímatakmörkunum"
       },
       {
         "title": "CASA — Skráning",

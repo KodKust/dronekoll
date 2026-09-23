@@ -1,63 +1,70 @@
 {
- "meta": {
-  "sourceHash": "554dcb2ca7172e65f382ee60023e605b64f419f74a40862fa094a3c138b1853d",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-   "Rekisteröidy UAS-käyttäjäksi, jos dronesi painaa vähintään 250 g tai siinä on kamera",
-   "A1/A3-verkkokoulutus vaaditaan — vähimmäisikä 16 vuotta",
-   "Pakollinen vastuuvakuutus yli 1,5 kg painaville droneille; vähimmäiskattavuus riippuu painosta — 250–1 500 g: 150 000 €; 1 501–5 000 g: 500 000 €; >5 kg: 1 000 000 €",
-   "Lennättäminen on kielletty siltojen, rautateiden, moottoriteiden ja voimalinjojen yllä",
-   "Pidä drone aina näköyhteydessä (VLOS)",
-   "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-   "Vähintään 5 km:n etäisyys kaikista lentoasemista ja lentopaikoista",
-   "Yölento on sallittu EASA:n avoimen luokan perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
-   "Riian lentoaseman lähilentovyöhyke (CTR) kattaa merkittävän alueen"
-  ],
-  "importantNotes": [
-   "Vakuutus riippuu dronen painosta — 250–1 500 g: 150 000 €; 1 501–5 000 g: 500 000 €; >5 kg: 1 000 000 €",
-   "Lennättäminen siltojen, rautateiden, moottoriteiden ja voimalinjojen yllä on ehdottomasti kielletty",
-   "Riian lentoaseman lähilentovyöhyke (CTR) muodostaa laajan rajoitusalueen",
-   "Venäjän ja Valko-Venäjän raja-alueilla voi olla lisärajoituksia",
-   "GDPR-tietosuoja-asetus koskee tunnistettavien henkilöiden kuvaamista"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAA Latvia — Dronemääräykset",
-    "description": "Latvian siviili-ilmailuviraston viralliset dronemääräykset ja resurssit"
-   },
-   {
-    "title": "CAA Latvia — Rekisteröidy käyttäjäksi",
-    "description": "Rekisteröidy UAS-käyttäjäksi (voimassa kaikissa EU-/EASA-maissa)"
-   },
-   {
-    "title": "Airspace.lv — Dronekartta",
-    "description": "Virallinen ilmatilakartta, joka näyttää dronevyöhykkeet ja rajoitukset"
-   },
-   {
-    "title": "CAA Latvia — Määräysten yleiskatsaus",
-    "description": "Yleiskatsaus Latvian dronen lennätyssääntöihin"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "LGS — Latvian lennonvarmistus",
-    "description": "Latvian lennonvarmistuspalvelut ja tietoa ilmatilasta"
-   },
-   {
-    "title": "CAA Latvia — Usein kysyttyä droneista",
-    "description": "Usein kysyttyä Latvian dronemääräyksistä"
-   }
-  ],
-  "disclaimerText": "Tarkista aina siviili-ilmailuviraston viralliset lähteet ja airspace.lv ennen lentoa. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Latvia noudattaa EASAn määräyksiä kansallisine lisäyksineen.",
-  "sectionLabelRules": "TÄRKEIMMÄT SÄÄNNÖT (EASAN AVOIN KATEGORIA)",
-  "sectionLabelPrimary": "VIRALLISET LÄHTEET",
-  "sectionLabelSecondary": "LISÄRESURSSIT",
-  "linksSheetTitle": "Ilmatila ja säännöt — Latvia",
-  "dronePilotCredentialName": "Kaukolentäjän todistus"
- }
+  "meta": {
+    "sourceHash": "dffaad15a571e359fb1ed462806f7dd69c5c983c8a5aea73cf0df596497c54f0",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m, mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maasto voi olla ratkaiseva. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolella.",
+      "Sinun on rekisteröidyttävä dronen käyttäjäksi, jos dronesi painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g:n dronen kohdalla rekisteröinti vaaditaan silti, jos dronessa on henkilötietoja tallentamaan kykenevä anturi, ellei sitä katsota leluksi EU:n lelujen turvallisuusdirektiivin mukaan. Lentäjän koulutus- ja todistusvaatimukset ovat erillisiä ja riippuvat dronen luokasta ja alaluokasta.",
+      "Sinun on rekisteröidyttävä UAS-käyttäjäksi EU-asuinmaassasi (jos asut EU:n ulkopuolella — siinä EU-maassa, jossa lennät ensimmäisenä); rekisteröinti on voimassa koko EU:ssa, eikä rekisteröityminen kahdessa maassa samanaikaisesti ole sallittua. Latviassa rekisteröinti maksaa 5 € ja on voimassa 1 vuoden. Jokaiseen droneen on merkittävä UAS-käyttäjän rekisteröintinumero.",
+      "Vähintään 250 g:n drone edellyttää A1/A3-verkkokurssia ja -koetta. Vuodesta 2024 alkaen dronet, joilla ei ole C-luokkamerkkiä ja jotka painavat vähintään 250 g, saavat lentää vain A3-alaluokassa — kaukana ulkopuolisista henkilöistä ja vähintään 150 m:n päässä asuin-, liike-, teollisuus- ja virkistysalueista.",
+      "Latviassa itsenäisen lentämisen vähimmäisikä on 16 vuotta; nuoremmat lentäjät saavat lentää vain vähintään 16-vuotiaan pätevän kauko-ohjaajan välittömässä valvonnassa tai leluksi suunnitellulla C0-luokan dronella.",
+      "C1-, C2- (ja C3-) luokan dronejen on lennettävä suora etätunnistus (Remote ID) päällä ja UAS-käyttäjän rekisteröintinumero syötettynä.",
+      "Vastuuvakuutus on pakollinen, paitsi droneille, joiden massa on alle 250 g ja huippunopeus alle 19 m/s. Vähimmäisvakuutusmäärä: A1- ja A2-alaluokissa — 50 000 €; vähintään 20 kg:n droneille ja erityisessä kategoriassa — 750 000 SDR (asetus (EY) N:o 785/2004).",
+      "Yleistä kieltoa ei ole, mutta UAS-maantieteellisiä vyöhykkeitä voidaan perustaa valtion teiden, siltojen, rautatielaitteiden ja 110/330 kV:n voimalinjojen yläpuolelle (enintään 50 m:n etäisyydelle niistä) — tarkista airspace.lv. Vältä mahdollisuuksien mukaan lentämistä ihmisten, liikenteen, rakennusten ja rakennelmien yllä.",
+      "Sellaisten kriittisen infrastruktuurin kohteiden valokuvaaminen tai kuvaaminen, joissa on kyltti „BEZ SASKAŅOŠANAS FOTOGRAFĒT, FILMĒT AIZLIEGTS“, on kielletty.",
+      "Avoimessa kategoriassa drone on pidettävä omassa suorassa näköyhteydessäsi paljain silmin (silmälasit/piilolinssit käyvät; kiikarit tai näyttö eivät kelpaa) — tai lennä tarkkailijan avulla niin, että välillänne on koko ajan selkeä ja toimiva yhteys, jotta voitte yhdessä valvoa ilmatilaa ja välttää yhteentörmäyksiä. ”Follow-me”-tila on erillinen poikkeus, joka on sallittu enintään 50 m:n etäisyydellä lentäjästä.",
+      "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
+      "EU:ssa ei ole yhtä yhteistä etäisyyttä, joka lentoasemiin on pidettävä. Lentoasemien lähellä olevat rajoitukset julkaistaan maantieteellisinä vyöhykkeinä (15 artikla), joiden muoto ja koko vaihtelevat lentoasemittain. Ennen kuin lennät lentoaseman, lentopaikan tai helikopterikentän lähellä, tarkista maasi virallinen dronevyöhykekartta; lentäminen lähialueella (CTR) edellyttää yleensä lennonjohdon ennakkolupaa.",
+      "Latviassa 1. tammikuuta 2025 alkaen lennot UAS-maantieteellisillä vyöhykkeillä, joilla vaaditaan lentoilmoitus tai hyväksyntä, on ilmoitettava ennen lentoa CAA:n miehittämättömien ilma-alusten tietojärjestelmässä BGKIS (e.caa.gov.lv); muussa ETA-maassa tai Sveitsissä rekisteröidyt käyttäjät voivat myös luoda BGKIS-tilin. Hyväksyntä lentopaikkojen ympäristön vyöhykkeillä voi kestää enintään 5 työpäivää (enintään 30 päivää, jos lentosuunnitelmaa on muutettava).",
+      "Yölento on sallittu EASA:n avoimen luokan perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
+      "Riian CTR kattaa suuren osan Riikaa. Ilman erillistä hyväksyntää lentäminen on sallittua alle 50 m:n korkeudella maanpinnasta ja yli 5 km:n päässä kiitoteiden 18 ja 36 kynnyksistä enintään 2 kg:n dronella; yli 2 kg:n drone edellyttää lisäpätevyyttä (esim. A2-kelpoisuustodistus). Yli 50 m:n korkeudella tai 5 km:n vyöhykkeellä kiitoteiden kynnysten ympärillä jokainen lento on hyväksytettävä etukäteen VAS „Latvijas gaisa satiksme“ -yhtiöllä.",
+      "Poliisin, CAA:n, rajavartioston tai muun virkamiehen pyynnöstä keskeytä lento välittömästi ja esitä henkilöllisyystodistus – pidä se mukanasi.",
+      "Kauko-ohjaajalle tai tarkkailijalle, jonka veren alkoholipitoisuus ylittää 0,2 ‰ tai joka on päihdyttävien aineiden vaikutuksen alaisena, voidaan määrätä enintään 700 €:n sakko; testistä kieltäytyminen on kielletty. Sakot: enintään 700 € (esim. lentämisestä ilman pakollista vakuutusta), enintään 1 000 € sallitun korkeuden tai lentopaikkavyöhykkeen vaatimusten rikkomisesta."
+    ],
+    "importantNotes": [
+      "Vakuutus pakollinen, paitsi droneille < 250 g, joiden huippunopeus < 19 m/s; vähimmäismäärä A1/A2 — 50 000 €, vähintään 20 kg ja erityisessä kategoriassa — 750 000 SDR",
+      "UAS-maantieteellisiä vyöhykkeitä voi olla siltojen, rautateiden, valtion teiden ja 110/330 kV:n voimalinjojen yllä (enintään 50 m) — tarkista airspace.lv",
+      "Riian lentoaseman lähilentovyöhyke (CTR) muodostaa laajan rajoitusalueen",
+      "Valko-Venäjän ja Venäjän vastaisella rajalla on rajoitusalue EVR17A BORDER EAST (maanpinnasta 500 ft:iin, aktiivinen H24). Dronelennot siellä (myös < 250 g) ovat sallittuja vain valtion rajavartiolaitoksen ilmailu- ja erikoisoperaatio-osaston luvalla, joka on hankittava vähintään 24 tuntia ennen suunniteltua lentopäivää (asiakirjat on toimitettava vähintään 32 tuntia etukäteen).",
+      "GDPR-tietosuoja-asetus koskee tunnistettavien henkilöiden kuvaamista"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAA Latvia — Dronemääräykset",
+        "description": "Latvian siviili-ilmailuviraston viralliset dronemääräykset ja resurssit"
+      },
+      {
+        "title": "CAA Latvia — Rekisteröidy käyttäjäksi",
+        "description": "Rekisteröidy UAS-käyttäjäksi (voimassa kaikissa EU-/EASA-maissa)"
+      },
+      {
+        "title": "Airspace.lv — Dronekartta",
+        "description": "Virallinen ilmatilakartta, joka näyttää dronevyöhykkeet ja rajoitukset"
+      },
+      {
+        "title": "CAA Latvia — Määräysten yleiskatsaus",
+        "description": "Yleiskatsaus Latvian dronen lennätyssääntöihin"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "LGS — Latvian lennonvarmistus",
+        "description": "Latvian lennonvarmistuspalvelut ja tietoa ilmatilasta"
+      },
+      {
+        "title": "CAA Latvia – usein kysyttyä droneista",
+        "description": "Usein kysyttyä Latvian dronemääräyksistä"
+      }
+    ],
+    "disclaimerText": "Tarkista aina siviili-ilmailuviraston viralliset lähteet ja airspace.lv ennen lentoa. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Latvia noudattaa EASAn määräyksiä kansallisine lisäyksineen.",
+    "sectionLabelRules": "TÄRKEIMMÄT SÄÄNNÖT (EASAN AVOIN KATEGORIA)",
+    "sectionLabelPrimary": "VIRALLISET LÄHTEET",
+    "sectionLabelSecondary": "LISÄRESURSSIT",
+    "linksSheetTitle": "Ilmatila ja säännöt — Latvia",
+    "dronePilotCredentialName": "Kaukolentäjän todistus"
+  }
 }

@@ -1,28 +1,32 @@
 {
   "meta": {
-    "sourceHash": "b05d24f015f2308210145943a215484aa1c49ad8f402e6dfeecc2171445caa3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "71ddedd6eadd4ef67c92064fd4d382b6fa87094ff6d0bff888fecfd333d022c5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximum 120 m deasupra nivelului solului (categoria EASA Open)",
-      "Înregistrare ca operator UAS (gratuită) pentru dronele cu o greutate de 250 g sau mai mult ori echipate cu o cameră",
-      "Instruire online A1/A3 necesară — vârsta minimă 16 ani",
-      "Înregistrare obligatorie la DroneTower în zonele de spațiu aerian controlat",
-      "Varșovia: este necesară autorizarea din partea Serviciului de Protecție a Statului (SOP) în apropierea instalațiilor guvernamentale",
-      "Menține întotdeauna contactul vizual direct (VLOS) cu drona",
+      "În categoria deschisă, înălțimea maximă este de 120 m, măsurată ca distanța până la cel mai apropiat punct al suprafeței Pământului — nu pur și simplu pe verticală în jos, așa că în apropierea unei pante poate conta și terenul de lângă tine. La mai puțin de 50 m de un obstacol artificial înalt (peste 105 m), entitatea responsabilă de obstacol poate solicita permisiunea de a zbura până la 15 m deasupra înălțimii obstacolului.",
+      "Trebuie să te înregistrezi ca operator de drone dacă drona ta cântărește 250 g sau mai mult (sau ar putea transfera peste 80 J de energie la impact) — acest lucru se aplică chiar și jucăriilor. Sub 250 g, înregistrarea este totuși obligatorie dacă drona are un senzor capabil să capteze date cu caracter personal, cu excepția cazului în care este considerată jucărie conform Directivei UE privind siguranța jucăriilor. Cerințele privind instruirea/certificatul pilotului sunt separate și depind de clasa și subcategoria dronei.",
+      "Începând cu 13 noiembrie 2025, operatorul unei drone cu o masă la decolare între 250 g și 20 kg trebuie să aibă asigurare obligatorie de răspundere civilă față de terți (OC) (suma asigurată minimă: echivalentul a 50.000 SDR per eveniment) — inclusiv pentru zborurile recreative.",
+      "În Polonia, începând cu 27 februarie 2025, vârsta minimă pentru categoria deschisă este de 14 ani; instruirea online gratuită și examenul sunt valabile 5 ani. Persoanele mai tinere pot zbura sub supravegherea directă a unui pilot de cel puțin 14 ani care deține competența necesară (excepții: o dronă-jucărie C0 în A1 și o dronă construită în regie proprie sub 250 g).",
+      "Orice zbor cu drona în Polonia — indiferent de masă sau locație — trebuie raportat la PAŻP înainte de decolare prin Check-In în aplicația DroneTower (art. 156a alin. (2) din Legea aviației, Prawo lotnicze). În unele locuri, inclusiv în părți ale zonelor DRA-R CTR din jurul aerodromurilor controlate, este necesară și o misiune aprobată de PAŻP (Kreator Misji KSID pe drony.gov.pl) — în acest caz decolezi doar după acceptarea controlorului TWR în DroneTower.",
+      "Zonele DRA-R CTR din jurul aerodromurilor controlate, categoria deschisă: la mai puțin de 1 km de aerodrom — niciun zbor; 1–6 km — peste 30 m AGL doar cu competența A2 (pentru dronele > 0,9 kg este necesară și o misiune aprobată), maximum 50 m AGL; dincolo de 6 km — maximum 100 m AGL. Într-un CTR este necesară cel puțin competența A1/A3 (și pentru dronele < 250 g). În CTR Rzeșów (EPRZ) se aplică reguli diferite. Verifică limitele și condițiile exacte în DroneTower sau DroneMap.",
+      "Varșovia: centrul orașului este acoperit de zona permanentă EPP21 WARSZAWA II — zborurile cu drone doar cu permisiunea administratorului zonei; verifică condițiile și datele de contact în DroneTower.",
+      "În categoria deschisă trebuie să menții drona în propriul câmp vizual, cu ochiul liber (ochelarii/lentilele de contact sunt permise; binoclul sau un ecran nu contează) — sau să zbori cu ajutorul unui observator, menținând în permanență o comunicare clară și eficientă unul cu celălalt, pentru a supraveghea împreună spațiul aerian și a evita coliziunile. Modul „Follow-me” este o excepție separată, permisă până la 50 m de pilot.",
       "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
-      "Zonele DRA-RM (sub 6 km, cu restricții de altitudine) și zonele DRA-RH (peste 6 km) — verifică drony.gov.pl",
+      "Zonele restricționate DRA-R sunt împărțite după probabilitatea obținerii permisiunii: DRA-RH (ridicată), DRA-RM (medie), DRA-RL (scăzută) — nu după înălțime (Ghidul nr. 4/2025 al Președintelui ULC, Wytyczne nr 4/2025 Prezesa ULC). Verifică drony.gov.pl înainte de a zbura într-o zonă restricționată.",
+      "Dronele din clasele C1, C2 și C3 trebuie să zboare cu identificarea la distanță (Remote ID) pornită și actualizată, transmițând numărul de operator; acest lucru nu se aplică claselor C0/C4 și nici dronelor fără marcă de clasă introduse pe piață înainte de 1 ianuarie 2024 sau construite în regie proprie (în A1 sub 250 g sau în A3).",
       "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
-      "Parcuri naționale și situri Natura 2000: sunt în vigoare restricții"
+      "Parcurile naționale pot fi acoperite de zone geografice DRA-R — zboruri doar cu permisiunea administratorului zonei; verifică zonele în DroneTower înainte de zbor (acest lucru se aplică și siturilor Natura 2000 și rezervațiilor naturale)."
     ],
     "importantNotes": [
-      "Aplicația DroneTower este necesară pentru notificarea zborurilor în zonele CTR",
-      "Varșovia: este necesară aprobarea SOP în apropierea instalațiilor guvernamentale",
+      "Check-In în aplicația DroneTower este obligatoriu înainte de fiecare zbor în Polonia — nu doar în zonele CTR.",
+      "Varșovia are zone interzise permanente publicate în AIP, inclusiv EPP9 WARSZAWA, EPP21 WARSZAWA II (centrul orașului) și EPP26 FRONTEX (un cerc de 500 m în jurul sediului Frontex), precum și alte zone geografice pentru drone. Verifică-le, împreună cu condițiile lor, în DroneTower sau DroneMap înainte de zbor.",
       "Înregistrarea este gratuită și valabilă în toate țările UE/EASA",
-      "Amenzi de până la 50.000 PLN pentru încălcări",
+      "Turiști din afara UE/EASA (de ex. din SUA sau Regatul Unit): înregistrează-te ca operator în prima țară din UE în care plănuiești să zbori — dacă aceasta este Polonia, pe drony.gov.pl — și afișează numărul de operator pe dronă. O înregistrare dintr-o altă țară UE/EASA este valabilă în Polonia; nu te poți înregistra de două ori.",
+      "Sancțiuni administrative ULC: PLN 4.000 pentru fiecare încălcare a regulilor categoriei deschise, PLN 10.000 pentru zborul contrar condițiilor zonei geografice sau pentru neînregistrarea ca operator; încălcarea interdicțiilor de zbor (de ex. din motive de securitate) este infracțiune pedepsită cu închisoare de până la 5 ani.",
       "GDPR se aplică surprinderii de imagini cu persoane identificabile"
     ],
     "primaryLinks": [
@@ -31,22 +35,22 @@
         "description": "Reglementările și resursele oficiale privind dronele ale Autorității Aviației Civile"
       },
       {
-        "title": "ULC — înregistrarea operatorului",
-        "description": "Înregistrare gratuită ca operator UAS (valabilă în toate țările UE/EASA)"
+        "title": "drony.gov.pl — Înregistrarea operatorului",
+        "description": "Înregistrare gratuită ca operator UAS, plus instruire și examen online (înregistrarea este valabilă în toate țările UE/EASA)"
       },
       {
         "title": "PANSA — DroneMap",
-        "description": "Harta oficială a spațiului aerian care arată CTR-urile, zonele restricționate și informații în timp real"
+        "description": "Harta oficială a spațiului aerian care arată CTR-urile, zonele interzise și informații în timp real"
       },
       {
         "title": "DroneTower — aplicație de raportare a zborurilor",
-        "description": "O aplicație obligatorie pentru raportarea zborurilor în spațiul aerian controlat"
+        "description": "Aplicație obligatorie pentru raportarea (Check-In) fiecărui zbor cu drona în Polonia"
       }
     ],
     "secondaryLinks": [
       {
         "title": "PANSA — NOTAM-uri",
-        "description": "NOTAM-uri active și restricții temporare de spațiu aerian"
+        "description": "Biroul NOTAM al PAŻP — informații NOTAM pentru FIR Warszawa; verifică restricțiile actuale pentru drone în DroneTower"
       },
       {
         "title": "ULC — întrebări frecvente despre drone",
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "SURSE OFICIALE",
     "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
     "linksSheetTitle": "Spațiu aerian și reglementări — Polonia",
-    "dronePilotCredentialName": "Certificat de pilot de dronă"
+    "dronePilotCredentialName": "Calificări de pilot de dronă"
   }
 }

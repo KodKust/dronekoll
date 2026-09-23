@@ -1,37 +1,41 @@
 {
   "meta": {
-    "sourceHash": "0258b2fbabc593650880ece74911856f1605a5fe79493fbf6d850080a50767bb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df9f2f24f5ecd7e72d79bfda5248346b62c1b2691cd1a99bf51a529199ae5df8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Yerden en fazla 120 m (EASA Open kategorisi)",
-      "250 g veya daha ağır ya da kameralı dronlar için UAS operatörü olarak kayıt (ücretsiz)",
-      "A1/A3 çevrim içi eğitim gereklidir — asgari yaş 16",
-      "Havalimanlarının CTR ve ATZ'sinde uçuşlara yalnızca hava trafik kontrolü veya havalimanı işletmecisiyle koordinasyon sonrasında izin verilir",
-      "Otoyolların ve ana yolların üzerinden uçmak kısıtlıdır — bunlardan kaçının",
-      "Dronu her zaman doğrudan görüş hattınızda (VLOS) tutun",
+      "Açık kategoride azami yükseklik 120 m'dir ve yeryüzünün en yakın noktasına olan mesafe olarak ölçülür — yalnızca dümdüz aşağıya doğru değil; bu nedenle bir yamacın yakınında yanınızdaki zemin de hesaba katılabilir. Yüksek bir yapay engelin (105 m'den yüksek) 50 m yakınında, engelden sorumlu kuruluş engelin yüksekliğinin 15 m üzerine kadar uçmak için izin talep edebilir.",
+      "Dronunuz 250 g veya daha ağırsa (ya da çarpma anında 80 J'den fazla kinetik enerji aktarabilecekse) dron operatörü olarak kaydolmanız gerekir — bu oyuncaklar için bile geçerlidir. 250 g'ın altında, dronda kişisel veri toplayabilen bir sensör varsa, AB Oyuncak Güvenliği Direktifi kapsamında oyuncak sayılmadıkça kayıt yine de zorunludur. Eğitim/pilot lisansı gereklilikleri ayrıdır ve dronun sınıfına ve alt kategorisine bağlıdır.",
+      "Açık kategoride tek başına uçmak için asgari yaş 16'dır — A1/A3 çevrim içi eğitimi ve sınavı 5 yıl geçerlidir ve AB genelinde tanınır. Yaş sınırı yoktur: A1 alt kategorisinde oyuncak olan C0 sınıfı bir dron veya 250 g'ın altındaki kendi yapımı bir dron; bunların dışında daha genç pilotlar yalnızca yaş ve eğitim gerekliliklerini karşılayan bir pilotun doğrudan gözetimi altında uçabilir.",
+      "Turistler: başka bir AB/EASA ülkesinden alınmış operatör kaydı ve A1/A3 sertifikası Çek Cumhuriyeti'nde de geçerlidir (yalnızca bir ülkede kaydolabilirsiniz). AB dışından: uçacağınız ilk AB/EASA ülkesinde kaydolun (Çek Cumhuriyeti'nde dron.caa.gov.cz adresinde ÚCL'ye) ve dronunuz eğitim gerektiriyorsa eğitimi AB kurallarına göre tamamlayın – AB dışı ülkelerin sertifikaları tanınmaz.",
+      "Çek Cumhuriyeti'nde sorumluluk sigortası A2 alt kategorisinde ve A3'te 4 kg'ın üzerindeki dronlar için zorunludur (A1'de değil) — poliçenizin Çek Cumhuriyeti'ndeki uçuşları kapsadığını kontrol edin.",
+      "Havalimanı CTR ve ATZ'lerinde koordinasyon olmadan yalnızca ızgarada belirlenen yüksekliğe kadar uçabilirsiniz (DroneMap'te kontrol edin). Daha yükseğe yalnızca ŘLP ile koordinasyondan sonra ve uçuş DroneMap'te işaretlenmişse; bir CTR'nin iç bölgesinde uçuş her zaman DroneMap'te işaretlenmelidir ve ızgara yüksekliğinin üzerinde ayrıca havalimanı işletmecisiyle koordinasyon gerekir. Askeri havalimanlarında (MCTR) daha katı koşullar geçerlidir. Kontrolsüz havalimanlarında ızgara yüksekliğinin üzerine yalnızca AFIS veya havalimanı işletmecisiyle koordinasyondan sonra. DroneMap'te işaretleme, kayıt gerektirmeyen dronlar için geçerli değildir.",
+      "Yoğun nüfuslu alanlarda (LKR316 bölgesi) uçuş alanı DroneMap'te (dronemap.gov.cz) önceden işaretlenmelidir. İşaretleme (burada olduğu gibi CTR'lerde ve korunan doğa alanlarında da) yüksekliği, zamanı, dronun türünü ve ağırlık kategorisini ve operatörün kayıt numarasını içermelidir. Operatör kaydı gerekmeyen dronlar için geçerli değildir.",
+      "Ulusal parklar, korunan peyzaj alanları (CHKO) ve küçük ölçekli korunan alanlar, ör. doğa rezervleri (LKR318 bölgesi): uçuşlar yalnızca yetkili doğa koruma makamına önceden bildirim veya bu makamdan alınan izin temelinde ve uçuş alanı DroneMap'te işaretlenerek yapılabilir. Operatör kaydı gerekmeyen dronlar için geçerli değildir.",
+      "Yollar (LKR317 bölgesi): kural olarak, bir otoyolun veya I. sınıf yolun merkez hattının 50 m yakınında yalnızca ŘSD'nin onayıyla; kural olarak, II. ve III. sınıf yolların merkez hattının 15 m yakınında yalnızca yolun sahibinin veya yöneticisinin onayıyla (yoğun nüfuslu alanların dışındaki yerel yollar için de benzer şekilde). Uçuş alanı DroneMap'te işaretlenmelidir – operatör kaydı gerekmeyen dronlar için geçerli değildir.",
+      "Açık kategoride dronu çıplak gözle doğrudan görüş hattınızda tutmalısınız (gözlük/kontakt lens sorun değildir; dürbün veya ekran sayılmaz) — ya da bir gözlemcinin yardımıyla uçmalısınız; hava sahasını birlikte izleyip çarpışmaları önleyebilmeniz için aranızda her zaman açık ve etkili iletişim olmalıdır. “Follow-me” modu yalnızca A1 alt kategorisinde ayrı bir istisnadır ve pilottan 50 m içinde izin verilir.",
       "İnsan topluluklarının üzerinden uçmayın. Operasyona dahil olmayan kişilerle ilgili kurallar alt kategoriye, sınıf işaretine ve operasyon koşullarına bağlıdır; resmî matrisi kontrol edin.",
       "Gerekli yanıp sönen yeşil ışık kullanıldığında, yürürlükteki bir coğrafi bölge veya ulusal kural daha katı bir koşul getirmediği sürece EASA açık kategori temel kuralları kapsamında gece uçuşuna izin verilir.",
-      "İhlaller için 5.000.000 CZK'ye (≈ 185.000 €) kadar para cezası",
-      "Prag Kalesi ve hükümet binaları: uçuşun kesinlikle yasak olduğu bölgeler"
+      "İhlaller için 3.000.000 CZK'ye (≈ 120.000 €) kadar para cezası",
+      "Prag Kalesi ve hükümet binaları: uçuşun mutlak surette yasak olduğu bölgeler"
     ],
     "importantNotes": [
-      "Havalimanı CTR ve ATZ'leri içindeki uçuşlar hava trafik kontrolü veya havalimanı işletmecisiyle koordinasyon gerektirir",
-      "Çek Cumhuriyeti'nde otoyolların ve ana yolların üzerinden geçişler sınırlıdır — rotanızı bunlardan kaçınacak şekilde planlayın",
-      "5.000.000 CZK'ye (≈ 185.000 €) kadar para cezası",
+      "Havalimanı CTR ve ATZ'lerinde koordinasyon olmadan yalnızca ızgarada belirlenen yüksekliğe kadar (DroneMap'te kontrol edin); daha yükseğe yalnızca koordinasyondan sonra (CTR'de ŘLP ile, kontrolsüz havalimanlarında AFIS veya havalimanı işletmecisiyle) ve uçuş DroneMap'te işaretlenerek; bir CTR'nin iç bölgesinde işaretleme her zaman gereklidir",
+      "Yollar (LKR317 bölgesi): otoyollar ve I. sınıf yollar için, kural olarak merkez hattın 50 m yakınında yalnızca ŘSD'nin onayıyla; II. ve III. sınıf yollar için, kural olarak merkez hattın 15 m yakınında yalnızca yolun sahibinin veya yöneticisinin onayıyla",
+      "3.000.000 CZK'ye (≈ 120.000 €) kadar para cezası",
       "Prag Kalesi bölgesinde sıkı uçuş yasakları uygulanır",
       "Belirlenebilir görüntülerin toplanmasında GDPR geçerlidir"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Dron Mevzuatı",
+        "title": "ÚCL — Dron Mevzuatı",
         "description": "Sivil Havacılık Otoritesi'nin dronlara ilişkin resmî kuralları ve kaynakları"
       },
       {
-        "title": "CAA — Operatör Kaydı",
+        "title": "ÚCL — Operatör Kaydı",
         "description": "UAS operatörü olarak ücretsiz kayıt (tüm AB/EASA ülkelerinde geçerli)"
       },
       {
@@ -39,17 +43,17 @@
         "description": "Dron bölgelerini ve hava sahası kısıtlamalarını gösteren resmî etkileşimli harita"
       },
       {
-        "title": "CAC — Kurallara Genel Bakış",
+        "title": "ÚCL — Kurallara Genel Bakış",
         "description": "Çek Cumhuriyeti'nde dron uçurma kurallarına genel bakış"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Hava Trafik Kontrolü — NOTAM ve Hava Sahası",
-        "description": "Çek hava trafik kontrolü ve hava sahası bilgisi"
+        "title": "ŘLP — NOTAM ve Hava Sahası",
+        "description": "Çek hava trafik kontrolü ve hava sahası bilgileri"
       },
       {
-        "title": "CAA — Dronlar Hakkında SSS",
+        "title": "ÚCL — Dronlar Hakkında SSS",
         "description": "Çek Cumhuriyeti'nde dron mevzuatı hakkında sıkça sorulan sorular"
       }
     ],
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
     "sectionLabelSecondary": "EK KAYNAKLAR",
     "linksSheetTitle": "Hava Sahası ve Mevzuat — Çek Cumhuriyeti",
-    "dronePilotCredentialName": "Dron Pilot Lisansı"
+    "dronePilotCredentialName": "A1/A3 eğitim sertifikası"
   }
 }

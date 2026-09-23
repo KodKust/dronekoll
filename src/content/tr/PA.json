@@ -1,42 +1,44 @@
 {
   "meta": {
-    "sourceHash": "7ac6f58efeb57847db5c573b36f52f9091268fb859f217572eb22f0601db3ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "87a436fc2428e63cbeabda8e978948a403f544d76e6100f96d885f4d05ce52ec",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Azami yükseklik ağırlığa bağlıdır: ≤250 g → 30 m; 250 g–25 kg → 60 m; 25–150 kg → 120 m",
-      "250 g'dan ağır dronlar (tüm kullanımlar) AAC kaydı gerektirir — maliyet: 5 US$; kayıt Albrook'ta yüz yüze yapılır",
-      "Hobi amaçlı ≤250 g dronlar: kayıt GEREKMEZ, ancak diğer tüm kurallar geçerlidir",
-      "Havalimanları ve hava meydanlarından en az 8 km uzakta kalın",
-      "İnsanlara yatayda en az 30 m, dikeyde en az 10 m mesafe",
-      "Dronu her zaman doğrudan görüş hattı (VLOS) içinde tutun",
-      "Özel bir AAC muafiyeti olmadan gece uçuşları YASAKTIR",
-      "Tüm işlemler için sorumluluk sigortası ZORUNLUDUR",
-      "Şunlara ilişkin zorunlu Bilgilendirilmiş Onam Formu: özel mülk, yerli halk rezervleri, korunan alanlar ve Panama Kanalı havzası",
-      "Ticari kullanım, dron kaydına ek olarak RPA pilot lisansı gerektirir"
+      "Azami yükseklik RPA sınıfına bağlıdır: Mikro (≤250 g) → 100 ft (~30 m); Hafif (251 g–25 kg) → 400 ft (~120 m); Orta (26–150 kg) → 400 ft, ancak Mode S transponder olmadan 100 m ile sınırlıdır (AAC standardı §9.2, §10.1.1, §11.1.5, §11.1.10).",
+      "Mikro sınıfı (≤250 g) dahil her RPA, AAC'a kaydettirilmelidir (standardın §8.1, §9.1, §15.2'si) — çoğu ülkenin aksine Panama en hafif dronları kayıttan muaf tutmaz. Kayıt Albrook'ta yüz yüze yapılır; güncel ücreti kontrol edin.",
+      "Panama, hafif hobi dronlarını (≤250 g) kayıttan muaf TUTMAZ — çoğu ülkenin aksine AAC standardı (§8.1, §9.1), Mikro dahil tüm RPA sınıfları için kayıt şartı koyar.",
+      "Panama'daki her RPA operasyonu AAC'tan bir operasyon izni gerektirir (§8.2, §8.20): Form 005'i (Solicitud de Permiso de Actividades Aéreas Especiales) en az 5 iş günü önceden sunun.",
+      "Havalimanları ve hava meydanlarından, Cumhurbaşkanlığından ve cezaevlerinden en az 8 km (5 deniz mili) mesafe (AAC standardının §8.10–8.11'i). Standart ayrıca büyükelçilikler, kamu kurumları ve bankalar gibi devlet güvenliğini tehlikeye atan yerlerde uçmayı yasaklar (§8.11) ve AAC karakollar, hastaneler ve Güvenlik Bakanlığı üzerinde kısıtlamalar uygular (AAC'ın 26/9/2025 tarihli açıklaması).",
+      "Kalkış ve iniş sırasında operasyona dahil olmayan kişilerden yatayda en az 30 m, dikeyde en az 10 m uzakta kalın (AAC standardının §13.1'i).",
+      "Dronu her zaman doğrudan görsel temasınız içinde tutmalısınız (RACP).",
+      "Özel bir AAC muafiyeti olmadan gece uçuşları YASAKTIR.",
+      "Üçüncü şahıslara karşı hukuki sorumluluk sigortası, kullanım amacından bağımsız olarak her RPA sahibi için ZORUNLUDUR (AAC standardının §8.4'ü). İnsanların üzerinden uçmak ayrıca AAC izni ve ilgili kişilerin onayını gerektirir (§8.16).",
+      "Yasak, kısıtlı veya tehlikeli sahalar (bkz. AAC AIP) AAC'tan ve sahadan sorumlu makamdan özel izin gerektirir — her ikisi de zorunludur (AAC standardının §13.1 d'si). Kanal bölgesinde, korunan alanlarda ve yerli topraklarında uçuş iznine başvurmadan önce sorumlu makama danışın.",
+      "Hobi amaçlı ve Mikro sınıfı (≤250 g) dahil olmak üzere RPA işleten herkesin bir AAC uzaktan pilot lisansına ve Sınıf 3 sağlık sertifikasına sahip olması gerekir (AAC standardının §8.3, §9.1, §10.1'i). Ticari kullanım ayrıca ticari operasyon izni gerektirir (§13.3)."
     ],
     "importantNotes": [
-      "📏 İRTİFALAR AĞIRLIĞA GÖRE DEĞİŞİR (Latin Amerika'da benzersiz): Panama'nın RACP'si dron ağırlığına dayalı üç azami irtifa düzeyi içerir: ≤250 g dronlar YALNIZCA 30 m ile, 250 g–25 kg dronlar 60 m ile sınırlıdır ve yalnızca ≥25 kg dronlar standart 120 m'ye ulaşabilir. Uçuş irtifanızı planlamadan önce dronunuzun ağırlığını kontrol edin.",
-      "✈️ TURİSTLER — 14 GÜN KURALI: Panama'da kalış süreniz ≤14 takvim günü ise, dronu kalıcı olarak kaydettirmeden özel AAC izni başvurusunda bulunabilirsiniz. >14 günlük kalışlar: 250 g'dan ağır dronlar için AAC kaydı zorunludur. Hobi amaçlı ≤250 g dronlar her iki durumda da muaftır.",
-      "🚢 PANAMA KANALI — ÖZEL KISITLAMA: Kanal havzası (kanal havuzları, Gatún Gölü ve komşu alanlar dahil) herhangi bir uçuştan önce Kanal İdaresi'nden zorunlu bir Bilgilendirilmiş Onam Mektubu gerektirir. AAC, bu mektup olmadan bu alanın üzerindeki operasyonlara İZİN VERMEZ. Bu, özel mülk, yerli halk rezervleri ve korunan alanlar için de geçerlidir.",
-      "🌳 KORUNAN ALANLAR VE MIAMBIENTE: Soberanía, Volcán Barú, Coiba (bir UNESCO Dünya Mirası Alanı) ve Darién gibi ulusal parklar Çevre Bakanlığı'ndan (MiAmbiente) özel izin gerektirir. Bocas del Toro ve Guna Yala adaları da kısıtlamalara tabidir — operasyondan önce yerel toplulukla koordinasyon kurun.",
-      "🏢 YÜZ YÜZE KAYIT GEREKLİDİR: Çoğu ülkenin aksine, AAC kaydı Albrook ofisinde (Bina 805) YÜZ YÜZE yapılmalıdır. Yanınızda getirin: kimlik, dronun kendisi, doldurulmuş form ve 5 US$. Yolculuğunuzdan önce randevu durumunu ve işlem sürelerini kontrol edin."
+      "Birçok ülkenin aksine Panama azami yüksekliği RPA sınıfına göre kademelendirir: Mikro (≤250 g) için 100 ft (~30 m), Hafif (251 g–25 kg) için 400 ft (~120 m) ve Orta (26–150 kg) için 400 ft — ancak sonuncusu Mode S transponder olmadan 100 m ile sınırlıdır. Uçuş irtifanızı planlamadan önce dronunuzun sınıfını kontrol edin.",
+      "Turistler: yabancı RPA'lar veya operatörler için özel izin (Form 004) en fazla 15 gün sürer ve hobi faaliyetleri için VERİLMEZ (AAC standardının §8.22'si). Hobi amaçlı uçmak için RPA'nın AAC'a kaydettirilmesi (Mikro ≤250 g dahil tüm sınıflar, §8.1) ve bir AAC RPA pilot lisansı (§8.3) gerekir; yabancı lisans yalnızca ikili bir anlaşma varsa geçerli sayılır (§18.17). Seyahat etmeden önce AAC'a danışın.",
+      "PANAMA KANALI — KISITLI ALAN: AAC AIP'ye (ENR 5) göre Gatún, Pedro Miguel ve Miraflores kilitleri, Gatún ve Madden barajları ve Kanal'dan geçen herhangi bir gemi üzerindeki operasyonlar kısıtlıdır. AAC'tan ve sahadan sorumlu makamdan izin gerekir (AAC standardının §13.1 d'si).",
+      "Casco Antiguo, Cinta Costera, Av. Balboa ve Calle 50 ile çevreleri: AAC iznine ek olarak Servicio de Protección Institucional'ı (SPI) yazılı olarak bilgilendirmeniz gerekir.",
+      "🌳 KORUNAN ALANLAR (MiAmbiente): SINAP korunan alanlarında yalnızca geçerli lisansı/kaydı olan ziyaretçiler, ilgili prosedürlere ve ücretlere uygun olarak dron kullanabilir (Resolución DM-0173-2026, md. 12). Uçmadan önce alanın yönetimine danışın.",
+      "Çoğu ülkenin aksine AAC kaydı Albrook'ta yüz yüze yapılmalıdır — başvurunuzdan önce güncel prosedürü ve gereklilikleri kontrol edin."
     ],
     "primaryLinks": [
       {
         "title": "AAC — Panama Sivil Havacılık Otoritesi",
-        "description": "Panama Sivil Havacılık Otoritesi'nin resmî web sitesi. Dron kaydı, RACP mevzuatı ve yerli ve yabancı operatörlere yönelik işlemler hakkında bilgi"
+        "description": "Panama Sivil Havacılık Otoritesi'nin resmî web sitesi. Dron kaydı, RPAS standardı ve yerli ve yabancı operatörlere yönelik işlemler hakkında bilgi"
       },
       {
-        "title": "RACP — Panama Sivil Havacılık Yönetmeliği",
-        "description": "Panama Sivil Havacılık Yönetmeliğinin tamamına erişim. İnsansız hava araçlarına (RPA) uygulanan mevzuata ilişkin bölüm"
+        "title": "Norma AAC/DG/DSA/001-2021 — Uzaktan pilotlu hava araçları (RPAS)",
+        "description": "Panama'da uzaktan pilotlu hava aracı sistemlerinin (RPAS) işletilmesine ilişkin gereklilikleri belirleyen AAC standardının metni (PDF)"
       },
       {
         "title": "AAC Albrook Ofisi (yüz yüze kayıt gereklidir)",
-        "description": "Bina 805, Albrook, birinci kat — Havacılık Emniyeti Müdürlüğü. Dron kaydı YÜZ YÜZE yapılMALIdır: kimlik, dronun kendisi ve doldurulmuş formu getirin. Maliyet: 5 US$"
+        "description": "Bina 805, Albrook, zemin kat — Dokümantasyon Departmanı. Bir talep mektubu sunun (veya correspondencia.aac@aeronautica.gob.pa adresine gönderin); AAC size bir randevu verir. Kayıt formunu, RPA lisansınızın bir kopyasını, kimlik kartınızı, teknik özellikleri, faturayı, sigorta poliçesini ve ödeme makbuzunu getirin. Ücret: US$20"
       },
       {
         "title": "AAC — Basın Açıklamaları ve Güncel Mevzuat",
@@ -46,7 +48,7 @@
     "secondaryLinks": [
       {
         "title": "STRI/Smithsonian — AAC Araştırma Rehberi",
-        "description": "Smithsonian Tropikal Araştırma Enstitüsü'nün AAC izin sürecine ilişkin ayrıntılı rehberi; kısıtlı alanlar için Bilgilendirilmiş Onam Formu dahil"
+        "description": "Smithsonian Tropikal Araştırma Enstitüsü'nün AAC izin sürecine ilişkin ayrıntılı rehberi; kısıtlı alanlar için Bilgilendirilmiş Onam Mektubu dahil"
       },
       {
         "title": "MiAmbiente — Korunan Alanlar (Ulusal Parklar)",
@@ -54,10 +56,10 @@
       },
       {
         "title": "Panama Kanalı — Resmî Bilgi",
-        "description": "Panama Kanalı İdaresi. Kanal havzası zorunlu bir Bilgilendirilmiş Onam Mektubu gerektirir — onsuz AAC izin vermez"
+        "description": "Panama Kanalı İdaresi. Kilitler, barajlar ve geçiş yapan gemiler kısıtlı alanlardır (AIP ENR 5): AAC'tan ve sahadan sorumlu makamdan izin gerekir"
       }
     ],
-    "disclaimerText": "Uçmadan önce her zaman AAC'ın resmî kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Panama, ağırlığa bağlı azami irtifaları ve Panama Kanalı havzası üzerinde özel kısıtlamaları içeren Sivil Havacılık Yönetmeliğini (RACP) uygular.",
+    "disclaimerText": "Uçmadan önce her zaman AAC'ın resmî kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Panama, AĞIRLIĞA BAĞLI azami irtifalar ve Panama Kanalı bölgesinde kısıtlı alanlar (AIP ENR 5) içeren Norma AAC/DG/DSA/001-2021'i uygular.",
     "sectionLabelRules": "TEMEL KURALLAR",
     "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
     "sectionLabelSecondary": "EK KAYNAKLAR",

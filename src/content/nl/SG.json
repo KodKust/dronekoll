@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "56c3153444a663787bfd0ce0f2337746",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,20 +14,23 @@
     "dronePilotCredentialName": "UA-pilotenlicentie",
     "keyRules": [
       "Standaard max. 200 ft (60 m AMSL) — 400 ft (122 m) voor commerciële exploitanten met een licentie in aangewezen zones op meer dan 6 km van een luchthaven. Controleer de actuele zonekaarten en voorwaarden voordat je van de hogere limiet uitgaat.",
-      "Je moet je onbemande luchtvaartuig bij CAAS registreren als het meer dan 250 g weegt. Registratie kost SGD 25 en verloopt niet — je hoeft die alleen bij te werken of te annuleren als de drone verloren raakt, beschadigd raakt of wordt verkocht, of als het ID-label onleesbaar wordt.",
-      "Een UA Pilot Licence (UAPL) is vereist voor commercieel/professioneel gebruik, of voor elke drone die zwaarder is dan 7 kg, ongeacht het doel. Een Class B UAPL geldt voor lichtere commerciële drones onder 7 kg.",
-      "Blijf ten minste 5 km verwijderd van luchthavens en militaire vliegbases — controleer de exacte actuele afstand voordat je in de buurt van een vliegbasis vliegt.",
+      "Je moet je onbemande luchtvaartuig bij de CAAS registreren als het meer dan 250 g weegt. Registratie kost SGD 25 en verloopt niet — je hoeft die alleen bij te werken of te annuleren als de drone verloren raakt, beschadigd raakt of wordt verkocht, of als het ID-label onleesbaar wordt. Je moet minstens 16 zijn om te registreren; voor jongere piloten moet een ouder of voogd de drone registreren.",
+      "Recreatief buiten vliegen met een drone van meer dan 1,5 kg tot 7 kg vereist een UA Basic Training Certificate (eenmalige cursus van ~2 uur bij een door de CAAS goedgekeurde organisatie) of een UAPL, en de piloot moet minstens 16 zijn.",
+      "Een UA Pilot Licence (UAPL) is vereist voor elk commercieel/professioneel gebruik, ongeacht het gewicht, en voor elke drone die zwaarder is dan 7 kg, ongeacht het doel. Een Class A UAPL geldt voor drones tot 25 kg; een Class B UAPL is voor specifieke modellen boven 25 kg. Buitenlandse dronelicenties kunnen niet worden omgezet in een UAPL.",
+      "Blijf ten minste 5 km verwijderd van luchthavens en militaire vliegbases, tenzij je daarvoor een CAAS Activity Permit hebt — controleer de exacte actuele afstand voordat je in de buurt van een vliegbasis vliegt.",
+      "Een drone Singapore in- of uitvliegen (bijv. over de Straat Johor) is zonder grensoverschrijdende vergunning van de CAAS illegaal, ongeacht het gewicht van de drone.",
       "Broadcast Remote ID (B-RID) is sinds 1 december 2025 verplicht voor UA boven 250 g, behalve voor UA die binnen of in een afgesloten ruimte worden gebruikt, of wanneer de exploitant een Operator Permit heeft en de FlyItSafe app gebruikt.",
       "Nachtvluchten zijn alleen toegestaan als de vereiste verlichting actief is en VLOS te allen tijde wordt gehandhaafd; vliegen buiten direct zicht vereist een Operator Permit en Class 1 Activity Permit.",
       "Houd de drone altijd binnen direct zicht (VLOS)",
-      "Activiteitenvergunning vereist om in beperkte gebieden te vliegen",
+      "Voor recreatieve vluchten (drone tot 25 kg) is een CAAS Class 2 Activity Permit nodig om hoger dan 200 ft boven gemiddeld zeeniveau te vliegen, binnen 5 km van een luchthaven of militaire vliegbasis, of in een beperkt of gevaarlijk gebied. Voor beschermde gebieden is ook een vergunning van de Singapore Police Force nodig. Vliegen in verboden gebieden is nooit toegestaan.",
       "De straffen zijn gedifferentieerd: bij een eerste veroordeling voor ernstige overtredingen (bijv. vliegen in een verboden of beschermd gebied, of opereren onder invloed) kan de straf oplopen tot SGD 50.000 of 2 jaar gevangenisstraf — bij herhaling verdubbelt dit tot SGD 100.000 of 5 jaar. Minder zware overtredingen (bijv. vliegen met een niet-geregistreerde drone of een B-RID-overtreding) worden bestraft met maximaal SGD 10.000 en maximaal 6 maanden gevangenisstraf.",
       "Vlieg niet boven mensen, gebouwen of installaties waarvoor beperkingen gelden."
     ],
     "importantNotes": [
       "Singapore hanteert strenge, gedifferentieerde dronestraffen: bij een eerste veroordeling voor ernstige overtredingen, zoals vliegen in een beperkt gebied, kan de straf oplopen tot SGD 50.000 of 2 jaar gevangenisstraf — bij herhaling verdubbelt dit tot SGD 100.000 of 5 jaar. Minder zware overtredingen kennen lagere straffen (maximaal SGD 10.000 en maximaal 6 maanden).",
-      "De standaard hoogtelimiet is slechts 200 ft (60 m) — veel lager dan in de meeste landen",
+      "De standaard hoogtelimiet is slechts 200 ft (ongeveer 60 m) boven gemiddeld zeeniveau (AMSL), niet boven je startpunt. Vanaf hoger gelegen terrein of een dak heb je minder hoogte beschikbaar. Hoger vliegen vereist een CAAS Activity Permit.",
       "Broadcast Remote ID (B-RID) is sinds 1 december 2025 verplicht voor UA boven 250 g, met beperkte uitzonderingen voor gebruik binnenshuis en houders van een Operator Permit die de FlyItSafe app gebruiken.",
+      "Bezoekers zonder Singpass: maak ten minste 5 werkdagen vóór aankomst een UAPass-account aan. Koop het registratielabel van SGD 25 bij een aangewezen postkantoor van SingPost, of online (levering alleen binnen Singapore, tot 5 werkdagen). Bevestig het op de drone en registreer vervolgens op het UA Portal.",
       "Veel gebieden in Singapore zijn beperkt — raadpleeg altijd OneMap voordat je vliegt"
     ],
     "primaryLinks": [
@@ -40,12 +43,12 @@
         "description": "Officiële kaart van Singapore met vliegzones en beperkingen voor drones"
       },
       {
-        "title": "FlyItSafe — CAAS-app",
-        "description": "Officiële drone-veiligheidsapp van de CAAS met vliegzones en informatie over vergunningen"
+        "title": "CAAS — Vereisten voor vliegen met UA",
+        "description": "Officiële CAAS-regels voor recreatieve, educatieve en zakelijke dronevluchten in Singapore"
       },
       {
         "title": "CAAS — UA-registratie",
-        "description": "Registreer je drone en vraag online activiteitenvergunningen aan"
+        "description": "Zo registreer je je drone bij de CAAS: koop het label van SGD 25, bevestig het en registreer vervolgens op het UA Portal"
       }
     ],
     "secondaryLinks": [

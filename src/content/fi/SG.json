@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "e143fa8265c041b61af386bbfa68771e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "56c3153444a663787bfd0ce0f2337746",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,20 +14,23 @@
     "dronePilotCredentialName": "UA-lentäjän lupakirja",
     "keyRules": [
       "Vakioraja on 200 ft (60 m merenpinnasta) — 400 ft (122 m) koskee lupakirjallisia kaupallisia toimijoita nimetyillä vyöhykkeillä yli 6 km:n päässä lentoasemasta. Varmista voimassa olevat vyöhykekartat ja ehdot ennen kuin luotat korkeampaan rajaan.",
-      "Miehittämätön ilma-alus on rekisteröitävä CAAS:lle, jos se painaa yli 250 g. Rekisteröinti maksaa 25 SGD eikä vanhene — se on päivitettävä tai peruttava vain, jos drone katoaa, vaurioituu, myydään tai sen tunnusmerkintä muuttuu lukukelvottomaksi.",
-      "UA-ohjaajan lupakirja (UAPL) vaaditaan kaupalliseen tai ammattimaiseen käyttöön sekä kaikille yli 7 kg painaville droneille käyttötarkoituksesta riippumatta. Luokan B UAPL kattaa kevyemmät, alle 7 kg:n kaupalliset dronet.",
-      "Pysy vähintään 5 km:n päässä lentoasemista ja sotilaslentotukikohdista — varmista tarkka voimassa oleva etäisyys ennen lentoa minkään tukikohdan lähellä.",
+      "Miehittämätön ilma-alus on rekisteröitävä CAAS:lle, jos se painaa yli 250 g. Rekisteröinti maksaa 25 SGD eikä vanhene — se on päivitettävä tai peruttava vain, jos drone katoaa, vaurioituu, myydään tai sen tunnusmerkintä muuttuu lukukelvottomaksi. Rekisteröijän on oltava vähintään 16-vuotias; nuorempien lentäjien puolesta dronen rekisteröi vanhempi tai huoltaja.",
+      "Virkistyslentäminen ulkona yli 1,5 kg ja enintään 7 kg painavalla dronella edellyttää UA Basic Training Certificate -todistusta (kertaluonteinen, noin 2 tunnin kurssi CAAS:n hyväksymässä organisaatiossa) tai UAPL:ää, ja lentäjän on oltava vähintään 16-vuotias.",
+      "UA-ohjaajan lupakirja (UAPL) vaaditaan kaikkeen kaupalliseen tai ammattimaiseen käyttöön painosta riippumatta sekä kaikille yli 7 kg painaville droneille käyttötarkoituksesta riippumatta. Luokan A UAPL kattaa enintään 25 kg:n dronet; luokan B UAPL on tarkoitettu tietyille yli 25 kg:n malleille. Ulkomaisia dronelupakirjoja ei voi muuntaa UAPL:ksi.",
+      "Pysy vähintään 5 km:n päässä lentoasemista ja sotilaslentotukikohdista, ellei sinulla ole siihen CAAS:n toimintalupaa (Activity Permit) — varmista tarkka voimassa oleva etäisyys ennen lentoa minkään tukikohdan lähellä.",
+      "Dronella lentäminen Singaporeen tai sieltä pois (esim. Johorinsalmen yli) on laitonta ilman CAAS:n rajat ylittävän lennon lupaa dronen painosta riippumatta.",
       "Broadcast Remote ID (B-RID) on ollut pakollinen 1.12.2025 alkaen yli 250 g painaville miehittämättömille ilma-aluksille, paitsi sisätiloissa tai suljetuissa tiloissa käytettäville ilma-aluksille sekä silloin, kun toimijalla on Operator Permit ja hän käyttää FlyItSafe-sovellusta.",
       "Yölentäminen on sallittua vain, kun vaaditut valot ovat päällä ja näköyhteys säilyy koko ajan; näköyhteyden ulkopuolella lentäminen edellyttää Operator Permitiä ja Class 1 Activity Permitiä.",
       "Pidä drone aina näköyhteydessä (VLOS)",
-      "Toimintalupa vaaditaan lennättämiseen rajoitusalueilla",
+      "Virkistyslennoilla (drone enintään 25 kg) tarvitaan CAAS:n luokan 2 toimintalupa (Class 2 Activity Permit), jos lennät yli 200 ft keskimääräisen merenpinnan yläpuolella, 5 km:n säteellä lentoasemasta tai sotilaslentotukikohdasta tai millä tahansa rajoitus- tai vaara-alueella. Suojelluilla alueilla (protected areas) tarvitaan lisäksi Singapore Police Forcen lupa. Kieltoalueilla lentäminen ei ole koskaan sallittua.",
       "Seuraamukset ovat porrastetut: vakavista rikkomuksista (esim. lentämisestä kielletyllä tai suojatulla alueella tai lennättämisestä toimintakyvyn ollessa heikentynyt) ensimmäisestä tuomiosta voi seurata enintään 50 000 SGD:n sakko tai 2 vuotta vankeutta. Toistuvista rikkomuksista enimmäisrangaistus nousee 100 000 SGD:n sakkoon tai 5 vuoteen vankeutta. Lievemmistä rikkomuksista (esim. rekisteröimättömän dronen lennättämisestä tai B-RID-rikkomuksesta) voi seurata enintään 10 000 SGD:n sakko tai enintään 6 kuukautta vankeutta.",
       "Älä lennä ihmisten, rakennusten tai suojattujen laitosten yli."
     ],
     "importantNotes": [
       "Singaporessa droneihin liittyvät seuraamukset ovat tiukat ja porrastetut: vakavista rikkomuksista, kuten rajoitetulla alueella lentämisestä, ensimmäisestä tuomiosta voi seurata enintään 50 000 SGD:n sakko tai 2 vuotta vankeutta. Toistuvista rikkomuksista enimmäisrangaistus nousee 100 000 SGD:n sakkoon tai 5 vuoteen vankeutta. Lievemmistä rikkomuksista voi seurata enintään 10 000 SGD:n sakko tai enintään 6 kuukautta vankeutta.",
-      "Vakiokorkeusraja on vain 200 ft (60 m) — paljon matalampi kuin useimmissa maissa käytetty korkeusraja",
+      "Tavallinen korkeusraja on vain 200 ft (noin 60 m) keskimääräisen merenpinnan yläpuolella (AMSL), ei lähtöpisteesi yläpuolella. Korkealta maastolta tai katolta sinulla on vähemmän korkeutta käytettävissä. Korkeammalle lentäminen edellyttää CAAS:n toimintalupaa (Activity Permit).",
       "Broadcast Remote ID (B-RID) on ollut pakollinen 1.12.2025 alkaen yli 250 g painaville miehittämättömille ilma-aluksille (rajatuin poikkeuksin sisäkäytössä sekä Operator Permit -haltijoille, jotka käyttävät FlyItSafe-sovellusta).",
+      "Vierailijat ilman Singpassia: luo UAPass-tili vähintään 5 työpäivää ennen saapumista. Osta 25 SGD:n rekisteröintitarra nimetystä SingPostin postitoimistosta tai verkosta (toimitus vain Singaporen sisällä, enintään 5 työpäivää). Kiinnitä se droneen ja rekisteröidy sitten UA Portalissa.",
       "Monet alueet Singaporessa ovat rajoitettuja — tarkista aina OneMap ennen lennättämistä"
     ],
     "primaryLinks": [
@@ -40,12 +43,12 @@
         "description": "Singaporen virallinen kartta dronejen lennätysvyöhykkeineen ja rajoituksineen"
       },
       {
-        "title": "FlyItSafe — CAASin sovellus",
-        "description": "CAASin virallinen droneturvallisuussovellus, jossa lennätysvyöhykkeet ja lupatiedot"
+        "title": "CAAS — UA-lentämisen vaatimukset",
+        "description": "CAAS:n viralliset säännöt virkistys-, opetus- ja liiketoimintadronelennoille Singaporessa"
       },
       {
         "title": "CAAS — UA-rekisteröinti",
-        "description": "Rekisteröi dronesi ja hae toimintalupia verkossa"
+        "description": "Näin rekisteröit dronesi CAAS:lle: osta 25 SGD:n tarra, kiinnitä se ja rekisteröidy sitten UA Portalissa"
       }
     ],
     "secondaryLinks": [

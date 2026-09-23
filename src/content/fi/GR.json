@@ -1,61 +1,65 @@
 {
   "meta": {
-    "sourceHash": "6bd279870909de9539cac55440892030da06bb4b119368a297585876f27098df",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e631818b431dccaf473ebde5f460a6b9eb0f571b8775190b265998e6821bc00d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröidy UAS-käyttäjäksi (maksuton), jos drone painaa vähintään 250 g tai siinä on kamera",
-      "A1/A3-verkkokoulutus vaaditaan — vähimmäisikä 16 vuotta",
-      "Rajoitetut arkeologiset kohteet: Akropolis, Delfoi, Olympia ja muut",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä lähin piste voi olla myös vieressäsi oleva maasto. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
+      "Sinun on rekisteröidyttävä UAS-käyttäjäksi, jos dronesi painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g:n dronen kohdalla rekisteröinti vaaditaan silti, jos dronessa on henkilötietoja tallentamaan kykenevä anturi, ellei sitä pidetä EU:n lelujen turvallisuusdirektiivin mukaisena leluna. Lentäjän koulutus- ja todistusvaatimukset ovat erillisiä ja riippuvat dronen luokasta ja alaluokasta.",
+      "Käyttäjän rekisterinumero on kiinnitettävä kaikkiin droneihisi ja syötettävä etätunnistusjärjestelmään (Remote ID), jos dronessa sellainen on. Rekisteröinti uusitaan Kreikassa 3 vuoden kuluttua.",
+      "Vierailijat EU:n/EASAn ulkopuolisista maista: jos dronesi edellyttää rekisteröintiä (ks. yllä) etkä ole jo rekisteröitynyt toisessa EASA-valtiossa, rekisteröidy Kreikassa ennen lentämistä (ilman kreikkalaista verotunnistetta (AFM): erillinen hakemus passilla HCAA:n verkkosivustolla). Toisessa EASA-valtiossa asuvat rekisteröityvät asuinmaassaan. EU:n ulkopuolisten maiden koulutuksia ja lentäjäntodistuksia ei tunnusteta EU:ssa.",
+      "Vastuuvakuutus kolmansia osapuolia kohtaan vaaditaan jokaiselle ammattikäytössä olevalle dronelle sekä yksityiskäytössä oleville vähintään 4 kg painaville droneille (kansallinen lainsäädäntö).",
+      "Kreikassa vähimmäisikä on 16 vuotta — ikävaatimusta ei sovelleta, kun lennetään alaluokassa A1 C0-luokan dronella, joka on lelu, itse rakennetulla alle 250 g:n dronella tai sertifioidun lentäjän välittömässä valvonnassa.",
+      "Akropoliin, Delfoin ja Olympian kaltaiset alueet sijaitsevat keltaisilla/magentanvärisillä vyöhykkeillä — lennot ovat alueesta riippuen sallittuja ehdoin tai kokonaan kiellettyjä, ja HCAA:n ennakkohyväksyntä on haettava vähintään 5 työpäivää etukäteen.",
+      "Avoimessa kategoriassa dronen on pysyttävä suorassa näköyhteydessäsi paljain silmin (silmälasit/piilolinssit käyvät; kiikareita tai näyttöä ei lasketa) — tai tähystäjän avulla niin, että viestitte keskenänne selkeästi ja tehokkaasti koko ajan ja voitte yhdessä valvoa ilmatilaa ja välttää yhteentörmäykset. ”Follow me” -tila on erillinen poikkeus, joka on sallittu enintään 50 m:n päässä lentäjästä.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-      "Vähintään 8 km:n etäisyys jokaisesta lentoasemasta",
+      "EU:ssa ei ole yhtä yhteistä etäisyyttä, joka lentoasemiin on pidettävä. Lentoasemien lähellä olevat rajoitukset julkaistaan maantieteellisinä vyöhykkeinä (15 artikla), joiden muoto ja koko vaihtelevat lentoasemittain. Tarkista ennen lentämistä lentoaseman, lentopaikan tai helikopterikentän lähellä maasi virallinen dronevyöhykekartta; lähialueella (CTR) lentäminen edellyttää yleensä lennonjohdon ennakkolupaa.",
       "Yölento on sallittu EASA:n avoimen luokan perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
       "Saarten lentoasemat: tarkista DAGR-kartta huolellisesti — monilla saarilla on laajat lähilentovyöhykkeet (CTR)"
     ],
     "importantNotes": [
-      "Arkeologisilla kohteilla ja kulttuuriperintömuistomerkeillä lennättäminen on ehdottomasti kielletty — rikkomuksista määrätään ankaria sakkoja",
+      "Maastopalot: lentäminen on kielletty NOTAMilla määrätyillä vyöhykkeillä. Jos näet ilmasammutuskalustoa tai saat alueen palosta 112-viestin, keskeytä lento heti ja laskeudu. Rikkomukset: sakko, syytteeseenpano, dronen takavarikointi.",
+      "Arkeologiset kohteet ja kulttuuriperintömonumentit edellyttävät HCAA:n ennakkohyväksyntää (vähintään 5 työpäivää etukäteen) — ne eivät aina ole kokonaan kiellettyjä, mutta niitä valvotaan tiukasti.",
       "Saarten lentoasemat muodostavat laajoja rajoitusvyöhykkeitä",
-      "Sotilaskohteet: ehdottomat lennätyskieltoalueet (monet saarilla)",
+      "Älä lennä satamien, sairaaloiden, energia- ja tietoliikennelaitosten tai sotilas- tai valtionhallinnon laitosten yllä ilman HCAA:n ennakkolupaa — osa sotilas- ja valtionhallinnon laitoksista on DAGR-kartalla täysiä lentokieltoalueita (monet saarilla). Rikkomukset voivat johtaa sakkoihin, rikosoikeudellisiin rangaistuksiin ja laitteiston takavarikointiin.",
       "GDPR-tietosuoja-asetus koskee tunnistettavien henkilöiden kuvaamista"
     ],
     "primaryLinks": [
       {
         "title": "HCAA — Dronemääräykset",
-        "description": "Siviili-ilmailuviranomaisen viralliset dronesäännöt ja tiedot"
+        "description": "Kreikan siviili-ilmailuviranomaisen (HCAA) viralliset dronesäännöt ja tiedot"
       },
       {
-        "title": "HCAA — Lentäjän rekisteröinti",
-        "description": "Maksuton rekisteröityminen UAS-käyttäjäksi (voimassa kaikissa EU-/EASA-maissa)"
+        "title": "HCAA – Käyttäjän rekisteröinti",
+        "description": "Rekisteröityminen UAS-käyttäjäksi (Kreikassa asuville, maksu 20 €; rekisterinumero on voimassa kaikissa EU-/EASA-maissa)"
       },
       {
         "title": "DAGR — Dronejen ilmatilakartta",
         "description": "Virallinen maantieteellinen kartta Kreikan dronelentojen rajoituksista"
       },
       {
-        "title": "HCAA — Lentoilmoitus",
-        "description": "5 päivän ennakkolentoilmoituksen jättäminen (vaaditaan jokaista lentoa varten)"
+        "title": "HCAA – Lentoluvan hakemus (DAGR-vyöhykkeet)",
+        "description": "Hakemus lentojen hyväksymiseksi keltaisilla/magentanvärisillä DAGR-vyöhykkeillä (vähintään 5 työpäivää etukäteen)"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "HASP — Ilmailu-urheilu",
-        "description": "Kreikan ilmailu-urheiluliitto ja tietoa harrastelennättämisestä"
+        "title": "HASP – Lennonvarmistuspalvelun tarjoaja",
+        "description": "Kreikan lennonvarmistuspalvelun tarjoaja – DAGR:n ja NOTAMien ylläpitäjä"
       },
       {
         "title": "HCAA — Usein kysyttyä droneista",
         "description": "Usein kysyttyä Kreikan dronemääräyksistä"
       }
     ],
-    "disclaimerText": "Tarkista aina Kreikan siviili-ilmailuviranomaisen (HCAA) viralliset lähteet ja DAGR-kartta ennen jokaista lentoa. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Kreikka noudattaa EASAn määräyksiä kansallisine lisäyksineen, joihin kuuluu muun muassa pakollinen vaatimus tehdä lentoilmoitus 5 päivää etukäteen.",
-    "sectionLabelRules": "PERUSSÄÄNNÖT (EASAN AVOIN LUOKKA)",
+    "disclaimerText": "Tarkista aina Kreikan siviili-ilmailuviranomaisen (HCAA) viralliset lähteet ja DAGR-kartta ennen jokaista lentoa. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Kreikka noudattaa EASAn määräyksiä kansallisine lisäyksineen, joihin kuuluu muun muassa hakemuksen jättäminen HCAA:lle vähintään 5 työpäivää etukäteen lennoista keltaisilla/magentanvärisillä DAGR-vyöhykkeillä, joilla lentäminen on sallittua ehdoin.",
+    "sectionLabelRules": "PERUSSÄÄNNÖT (EASAN AVOIN KATEGORIA)",
     "sectionLabelPrimary": "VIRALLISET LÄHTEET",
     "sectionLabelSecondary": "LISÄRESURSSIT",
     "linksSheetTitle": "Ilmatila ja säännöt — Kreikka",
-    "dronePilotCredentialName": "UAS-käyttäjätodistus"
+    "dronePilotCredentialName": "Kauko-ohjaajan todistus"
   }
 }

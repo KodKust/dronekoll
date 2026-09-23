@@ -1,29 +1,31 @@
 {
   "meta": {
-    "sourceHash": "47a41506d19deb15105431406de97a85e0f50df03393c6614a5705e9ae49e4ed",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e298796c1eaac7b92a7459907101a83bde7d6991bc5edaa8bfcc7a38ac76248d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "DAN 91 (óbyggð svæði, tómstundaflug): Drónar sem vega ≤750 g mega fljúga upp í 50 m yfir hæsta hindrun á einkalandi án heimildar",
-      "DAN 151 (byggð svæði/atvinnunotkun): Drónar sem vega meira en 750 g krefjast skráningar hjá DGAC, flugmannsleyfis og rekstrarheimildar",
-      "Hámarksheimiluð heildarhæð: 130 m yfir jörðu (DAN 151) — fer eftir heimild",
-      "Lágmarksfjarlægð 2 km frá flugvöllum og öðrum flugstöðum",
+      "DAN 91.102(j): án heimildar DGAC mega aðeins drónar allt að 750 g úr þöndu pólýetýleni eða sambærilegu efni, til einka- eða tómstundanotkunar, fljúga, á einkasvæðum og ekki hærra en 50 m yfir hæstu hindrun eða byggingu. Allt annað flug krefst fyrirframheimildar DGAC.",
+      "DAN 151 (byggð svæði, almannahagsmunir eða verkflug): gildir um dróna af hvaða þyngd sem er (að hámarki 9 kg) og krefst skráningar hjá DGAC, fjarflugmannsskírteinis, tryggingar, AOC eða CEO og rekstrarheimildar.",
+      "DAN 151: dróninn verður að bera neyðarfallhlíf meðan á rekstri stendur, og það verður að vera hægt að stýra honum handvirkt (að hámarki 9 kg án fallhlífarinnar).",
+      "Almennu mörkin eru 400 fet (120 m) AGL — flug yfir þeim krefst fyrirframheimildar DGAC (DAN 151 Ed. 3, í gildi frá maí 2024). Núgildandi DAN 91 tilgreinir sömu mörk sem „400 fet (130 metrar)“.",
+      "Ekkert flug innan 2 km frá framlengdri miðlínu flugbrautar (mælt frá þröskuldi) eða innan 1 km samsíða miðlínu flugbrautar flugvallar.",
+      "Enginn drónarekstur á svæðum þar sem barist er við eld með mönnuðum loftförum (DAN 91.102(i)(11) og DAN 151.103(g)(14)).",
       "Hámarksfjarlægð 500 m frá stjórnanda (haltu beinni sjónsnertingu)",
-      "Haltu drónanum ávallt innan beinnar sjónlínu (VLOS)",
+      "Þú verður ávallt að halda beinu sjónsambandi við drónann til að stýra flugi hans.",
       "Næturflug krefst sérstakrar heimildar frá DGAC",
-      "Skráning hjá DGAC: framleiðandi, gerð, raðnúmer, hámarksþyngd ≤9 kg fyrir heimilaðan rekstur, 10×15 cm mynd",
-      "Flugmannsleyfi krefst skriflegs prófs (lágmarkseinkunn 75%) um DAN 151, DAN 91, veðurfræði og loftaflfræði",
+      "Skráning hjá DGAC (DAN 151.203): framleiðandi/land, tegund, gerð, raðnúmer og verksmiðjuþyngd, ásamt afriti af persónuskilríki þínu; umsóknin er gerð á vefvettvangi DGAC (frá ágúst 2026). Hámarksflugtaksþyngd 9 kg.",
+      "Fjarflugmannsskírteini: að minnsta kosti 18 ára, yfirlýsing um þjálfun og skriflegt próf (lágmark 75%) um DAN 151, DAN 91, NOTAM, veðurfræði og loftaflfræði; gildir í 36 mánuði.",
       "Ábyrgðartrygging gagnvart þriðja aðila (samþykkt af JAC) nauðsynleg fyrir atvinnunotkun"
     ],
     "importantNotes": [
-      "📋 TVÍÞÆTT REGLUVERK — DAN 91 vs. DAN 151: Chile gerir greinarmun á flugi á ÓBYGGÐUM svæðum (DAN 91, rýmri reglur; tómstundaflug ≤750 g án leyfis) og flugi á BYGGÐUM svæðum eða svæðum í almannaþágu (DAN 151, sem krefst skráningar, vottaðs flugmanns og tryggingar). Reglurnar sem gilda ráðast af staðsetningu OG tilgangi.",
-      "✈️ ERLENDIR FERÐAMENN: Reglurnar gilda jafnt um þá sem ekki eru búsettir. Skráning er ekki nauðsynleg fyrir tómstundaflug með drónum sem vega ≤750 g á óbyggðum einkasvæðum. Fyrir allan annan rekstur (ferðamannaflug, atvinnunotkun, flug nálægt fólki eða í þjóðgörðum) þarf sömu leyfi og fyrir chileska ríkisborgara.",
-      "🌋 ÞJÓÐGARÐAR OG FRIÐLÖND: CONAF (Landsskógræktarstofnun) bannar dróna án sérstaks leyfis í þjóðgörðum eins og Torres del Paine, Lauca og Isluga-eldfjallaþjóðgarði. Chileska Suðurskautslandið: sérstakar reglur frá INACH. Athugaðu hjá hverjum garði eða friðlandi áður en þú ferðast.",
-      "🏔️ TAKMÖRKUÐ SVÆÐI: Miðborg Santiago (La Moneda, Plaza de Armas), SCEL-flugvöllur (Pudahuel), her- og landamærasvæði. Páskaeyja, Robinson Crusoe-eyja, Suðurskautslandið: frekari takmarkanir. Sjá AIP Chile (ENR 5.1) fyrir kort af bönnuðum, takmörkuðum og hættulegum svæðum.",
-      "💰 ÁRLEG ENDURNÝJUN: Skráning hjá DGAC gildir í 12 mánuði og þarf að endurnýja hana árlega. Rekstur án gildrar skráningar eða skírteinis getur leitt til sektar, haldlagningar búnaðar og rekstrarbanns."
+      "TVÍÞÆTT REGLUVERK — DAN 91 (óbyggð svæði): hvert flug krefst fyrirframheimildar DGAC, í hverju tilviki fyrir sig (Annex D). DAN 151 (byggð svæði, almannahagsmunir eða verkflug): skráning, skírteini, trygging og heimild. Eina undantekningin: drónar ≤750 g úr þöndu pólýetýleni eða sambærilegu efni, tómstundanotkun, á einkasvæðum og ≤50 m yfir hæstu hindrun.",
+      "✈️ ERLENDIR FERÐAMENN: Reglurnar gilda jafnt um þá sem ekki eru búsettir. Án heimildar DGAC eru aðeins leyfðir drónar ≤750 g úr þöndu pólýetýleni eða sambærilegu efni, til tómstundanotkunar, á einkasvæðum og ≤50 m yfir hæstu hindrun. Allt annað flug krefst fyrirframheimildar DGAC; skráning hjá DGAC krefst afrits af persónuskilríki þínu.",
+      "🌋 VERNDARSVÆÐI: Tómstunda- eða ferðamannanotkun dróna er ekki leyfð á neinu verndarsvæði villtrar náttúru í eigu ríkisins (þjóðgörðum, friðlöndum, náttúruvættum). CONAF heimilar aðeins flug í rökstuddum tilvikum (vísindarannsóknir, vöktun eða annar stjórnunartilgangur) í gegnum conaf.cerofilas.gob.cl, og þá er einnig krafist leyfis DGAC. Suðurskautslandið: sérreglur frá INACH.",
+      "🏔️ TAKMÖRKUÐ SVÆÐI: Ekkert flug yfir La Moneda (svæði SC-P28), hernaðarmannvirkjum, fangelsum og mikilvægum innviðum, eða á bönnuðum, takmörkuðum eða hættusvæðum AIP Chile (ENR 5.1) eða NOTAM.",
+      "💰 GILDISTÍMI: Fjarflugmannsskírteinið gildir í 36 mánuði og er endurnýjað með nýju prófi (lágm. 75%); rekstrarheimild samkvæmt DAN 151 gildir í allt að 6 mánuði. Brot á reglum DGAC geta leitt til sekta, stöðvunar rekstrar, upptöku búnaðar eða refsiábyrgðar ef flugöryggi er stefnt í hættu."
     ],
     "primaryLinks": [
       {
@@ -39,8 +41,8 @@
         "description": "Opinbert flugmálaupplýsingakerfi Chile: NOTAM, bönnuð/takmörkuð/hættuleg svæði (ENR 5), kort, flugvellir"
       },
       {
-        "title": "Skráningarferli RPA (opinbert PDF)",
-        "description": "Opinbert ferli DGAC fyrir nýskráningu og skráningarlögfestingu dróna (RPA). Inniheldur viðauka B og eyðublöð"
+        "title": "Drónaskráning (RPA) — Nýr vettvangur DGAC",
+        "description": "Skráning á netinu í landsskrá RPA (National RPA Register) samkvæmt DAN 151. Skráning felur ekki í sér flugheimild."
       }
     ],
     "secondaryLinks": [

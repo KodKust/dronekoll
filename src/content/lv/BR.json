@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimālais augstums: 120 m (400 ft) virs zemes",
+      "Maksimālais augstums: 120 m (400 ft) AGL (ANAC); atpūtas lidojumi: ne vairāk kā 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "Droni, kas sver vairāk par 250 g: obligāta reģistrācija SISANT sistēmā (ANAC)",
-      "Droni, kas sver līdz 250 g: atbrīvoti no reģistrācijas, licencēti automātiski",
-      "Minimālais attālums 5,4 km no lidostām lidojumiem mazā augstumā",
-      "Minimālais attālums 9 km no lidostām lidojumiem līdz 120 m",
+      "Droni līdz 250 g nav jāreģistrē SISANT (ANAC Resolution No. 806). Kopš 2026. gada 1. jūlija (ICA 100-40) arī šo dronu lidojumiem nepieciešama atļauja, izmantojot SARPAS (DECEA). Droni virs 250 g jāreģistrē SISANT.",
+      "Lidostu lidojumu ierobežojuma zonas (FRZ) (ICA 100-40, spēkā kopš 2026. gada 1. jūlija): ap lidlauku (ZEA) FRZ sākas no zemes līmeņa līdz 1 740 m; zem tās paliec, lidojot līdz 100 ft (30 m) aiz 1 740 m, 200 ft (60 m) aiz 2 350 m, 300 ft aiz 2 960 m un 400 ft aiz 3 570 m. Pieejas un pacelšanās sektoros (ZAD) FRZ sākas no zemes līmeņa līdz 3 550 m; pēc tam: 100 ft aiz 3 550 m, 200 ft aiz 4 480 m, 300 ft aiz 5 400 m un 400 ft aiz 6 320 m. Lidošanai FRZ iekšienē nepieciešams Termo de Coordenação un SARPAS pieprasījums vismaz 4 kalendārās dienas iepriekš.",
+      "Atpūtas lidojumi (ICA 100-40, 32. pants): maksimālais augstums 200 ft (60 m) AGL un maksimālais horizontālais attālums 300 m. Lidlauku tuvumā piemēro FRZ joslas — pārbaudi SARPAS.",
       "Vienmēr turi dronu tiešā redzamības laukā (VLOS)",
-      "Minimālais attālums 30 metru no cilvēkiem, kuri nav iesaistīti operācijā",
-      "Pirms katra lidojuma kontrolētā gaisa telpā nepieciešama SARPAS (DECEA) atļauja",
+      "Minimālais attālums 30 m no cilvēkiem, kuri nav iesaistīti operācijā",
+      "Katram lidojumam nepieciešama piekļuves atļauja gaisa telpai, izmantojot SARPAS (DECEA), arī droniem līdz 250 g. Minimālais iepriekšējas pieteikšanas laiks: 30 minūtes atvērtajā kategorijā; 4 vai 8 kalendārās dienas operācijām, kas skar FRZ vai ierobežotās zonas, BVLOS vai virs 400 ft. Atpūtas lidojumi atpūtai paredzētā EAC ir atbrīvoti.",
       "Raidīšanas iekārtai jābūt ANATEL sertificētai",
-      "Nakts lidojumiem nepieciešama īpaša atļauja un pretsadursmes apgaismojums"
+      "Nakts lidojumi: dronam jābūt navigācijas ugunīm (ICA 100-40, 20. pants)",
+      "Pilotiem, kas jaunāki par 18 gadiem, vienmēr jābūt kopā ar pilotu, kurš vecāks par 18 gadiem un ir atbildīgs par operāciju",
+      "Dronu virs 250 g izmantošana citiem nolūkiem, nevis atpūtai (RBAC No. 100): obligāta apdrošināšana, kas sedz trešajām personām nodarītos zaudējumus. ANAC teorijas eksāmena nokārtošana (RBAC 100.13(b)) nav jāveic līdz 2026. gada 31. decembrim (Resolution No. 805/2026, 2. pants)."
     ],
     "importantNotes": [
-      "Tūristi: Brazīlija ATĻAUJ atpūtas lidojumus, taču droni, kas sver vairāk par 250 g, pirms lidojuma jāreģistrē SISANT sistēmā",
-      "ANAC uzliktie naudassodi var sasniegt R$ 7 000 par pārkāpumu — darbība bez reģistrācijas vai SARPAS atļaujas ir smags pārkāpums",
+      "Tūristi: Brazīlija ATĻAUJ atpūtas lidojumus. Droni virs 250 g jāreģistrē SISANT (ārzemnieki var izmantot pasi), un lidojumiem nepieciešama SARPAS (DECEA) atļauja, arī droniem līdz 250 g.",
+      "ANAC naudassodi par droniem sākas no bāzes summām R$ 750 līdz R$ 4 500 par pārkāpumu (darbība bez reģistrācijas: R$ 2 250 — Resolution No. 762/2024); atkarībā no mīkstinošiem un pastiprinošiem apstākļiem galīgā summa var būt no 20% līdz 300% no šīs summas (Resolution No. 761/2024, 35. pants). Lidošana bez SARPAS atļaujas ir gaisa satiksmes pārkāpums, ko izskata JJAER (ICA 100-40, 66. pants).",
       "Nacionālie parki (ICMBio) un pamatiedzīvotāju teritorijas (FUNAI) parasti aizliedz dronus bez īpašas atļaujas",
       "Pludmalēs un pilsētu tūrisma zonās (Rio, São Paulo, Salvador) ir spēkā pašvaldību ierobežojumi — noskaidro tos vietējās iestādēs"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — Lidojuma atļauja (DECEA)",
-        "description": "DECEA sistēma lidojuma atļaujas pieprasīšanai kontrolētā gaisa telpā. Nepieciešama pirms katra lidojuma"
+        "description": "DECEA sistēma piekļuves atļaujas gaisa telpai pieprasīšanai, arī droniem līdz 250 g. Nepieciešama pirms katra lidojuma"
       },
       {
         "title": "ANATEL — Iekārtu sertifikācija",
@@ -48,15 +50,15 @@
         "description": "Aktīvie NOTAM un oficiālās DECEA aeronavigācijas kartes, lai pārbaudītu pagaidu ierobežojumus"
       },
       {
-        "title": "ANAC — Biežāk uzdotie jautājumi par droniem",
-        "description": "ANAC oficiālās atbildes uz izplatītiem dronu operatoru jautājumiem"
+        "title": "ANAC — biežāk uzdotie jautājumi par SISANT (dronu reģistrācija)",
+        "description": "ANAC oficiālās atbildes par SISANT reģistrāciju, tostarp ārzemniekiem"
       },
       {
-        "title": "RBAC-E Nr. 94 — Pilns tehniskais standarts",
-        "description": "Brazīlijas īpašais civilās aviācijas regulējums Nr. 94 — pilns droniem piemērojamais teksts"
+        "title": "RBAC No. 100 — pilns tehniskais standarts",
+        "description": "Brazīlijas civilās aviācijas noteikumi No. 100 (aizstāj RBAC-E No. 94) — pilns droniem piemērojamais teksts"
       }
     ],
-    "disclaimerText": "Pirms lidošanas vienmēr iepazīsties ar ANAC un DECEA oficiālajiem avotiem. Šī lietotne ir rīks, nevis juridiska instance. Brazīlijā spēkā ir RBAC-E No. 94 (pašlaik notiek pāreja uz RBAC No. 100), kas paredz obligātu apstiprinājumu, izmantojot SARPAS.",
+    "disclaimerText": "Pirms lidošanas vienmēr iepazīsties ar ANAC un DECEA oficiālajiem avotiem. Šī lietotne ir rīks, nevis juridiska instance. Brazīlijā piemēro RBAC No. 100 un Resolution No. 806 (ANAC, kopš 2026. gada jūnija) un ICA 100-40 (DECEA, kopš 2026. gada jūlija), ar obligātu atļauju, izmantojot SARPAS.",
     "sectionLabelRules": "GALVENIE NOTEIKUMI",
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",

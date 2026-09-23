@@ -1,45 +1,44 @@
 {
   "meta": {
-    "sourceHash": "81c150124a0453afe7f5155ecf3def2f6e3595db14698b42ea98cfaec819abc2",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "739c62107e50c8694e19f4d73e36df062253357ffa3b107cac8d667605278391",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Hámarkshæð: 122 m (400 fet) yfir jörðu (AGL)",
-      "Mesta lárétta fjarlægð: 750 m frá stjórnanda (dróninn verður áfram að vera innan VLOS)",
+      "Hámarkshæð: 122 m (400 ft) yfir jörðu (RAC 100).",
+      "Mesta lárétta fjarlægð: 750 m frá stjórnanda, með beinni sjónlínu (VLOS) allan tímann (RAC 100).",
       "Drónar með hámarksflugtaksþyngd (MTOW) 200 g eða meira: skráningarskylda á UAS-vettvangi Aerocivil",
-      "Opinn flokkur (drónar ≤25 kg): rekstur heimill án fyrirframheimildar samkvæmt RAC 100",
-      "Flokkur B (25–150 kg): krefst ávallt heimildar frá Aerocivil",
-      "Lágmarksfjarlægð 9 km frá viðmiðunarpunkti flugvalla",
-      "Lágmarksfjarlægð 3 km frá þyrlupöllum",
+      "Skráður dróni: ber fastan merkimiða, að minnsta kosti 2 × 4 cm, með skráningarnúmeri, nafni, netfangi og atencionalciudadano@aerocivil.gov.co (RAC 100).",
+      "Opinn flokkur (drónar ≤25 kg, eingöngu til annarra nota en í atvinnuskyni): rekstur heimill án fyrirframheimildar samkvæmt RAC 100. Atvinnunotkun = sérstakur flokkur með heimild.",
+      "Drónar yfir 25 kg (allt að 250 kg): aðeins í sérstaka flokknum, með flugheimild frá Aerocivil og flugmanni sem hefur hæfnisvottorð (RAC 100).",
+      "Lágmarksfjarlægð 2 km frá her- eða lögreglustöðvum, fangelsum og mikilvægum innviðum, og frá hverjum þeim stað þar sem forsetinn er staddur (RAC 100).",
+      "Flugvellir: bannað er að fljúga á flugvellinum og innan 6 km frá viðmiðunarpunktinum (ARP); á milli 6 og 9 km aðeins í opna flokknum, að hámarki 61 m (200 ft) yfir lægsta þröskuldi og utan ZNVD — athugaðu Visor Geográfico UAS (RAC 100).",
+      "Lágmarksfjarlægð 3 km frá þyrlupöllum (RAC 100).",
       "Lágmarksfjarlægð 30 m frá fólki og byggingum sem ekki tengjast fluginu",
-      "Haltu drónanum ávallt innan beinnar sjónlínu (VLOS) og fljúgðu aðeins að degi til",
-      "GEO-svæði (takmörkuð svæði fyrir dróna) eru skilgreind af Aerocivil í samræmi við ICAO"
+      "Haltu drónanum ávallt innan beinnar sjónlínu (VLOS). Að nóttu aðeins með ljós stöðugt kveikt og með athuganda (RAC 100).",
+      "Flugbannssvæði dróna (ZNVD) og bönnuð svæði, takmörkuð svæði og hættusvæði má skoða í Visor Geográfico UAS hjá Aerocivil (RAC 100)."
     ],
     "importantNotes": [
       "📋 RAC 100 (nú í gildi): meginreglugerðin um dróna í Kólumbíu. Hún kemur í stað eldri RAC 91, Appendix 13. Hún skilgreinir opna flokkinn (rekstur án fyrirframheimildar) og sérstaka flokkinn (með heimild). Circular 100-MAUT-5.0-22-010-CI veitir leiðbeiningar skref fyrir skref um skráningarferlið.",
+      "✈️ FERÐAMENN: RAC 100 gildir einnig um útlendinga. Drónar frá 200 g eru skráðir á Plataforma UAS Colombia með gildu vegabréfi; ferlið er ókeypis.",
       "🌳 ÞJÓÐGARÐAR OG VERNDUÐ SVÆÐI: Þjóðgarðar Kólumbíu (PNN) banna dróna án sérstaks leyfis í þjóðgörðum eins og Tayrona, Cocuy, Los Nevados og Amacayacu. Kólumbíska Karíbahafið og Amasónsvæðið hafa frekari takmarkanir — athugaðu hjá hverjum garði áður en þú ferðast.",
-      "🏛️ TAKMÖRKUÐ SVÆÐI OG ÞÉTTBÝLI: Miðborg Bogotá (Casa de Nariño, Plaza Bolívar, El Dorado-flugvöllur (SKBO)), múrborgin í Cartagena, hersvæði, landamæri (Venesúela, Ekvador, Panama), skipgengar ár og olíuborpallar eru háð varanlegum takmörkunum — athugaðu GEO-svæði Aerocivil.",
-      "💰 VIÐURLÖG OG ÁBYRGÐ: Rekstur án leyfis eða utan heimilaðra svæða getur leitt til verulegra sekta (UVT — skattaverðmætiseining), haldlagningar búnaðar og, í alvarlegum tilvikum, refsiábyrgðar. Fyrir atvinnunotkun: ábyrgðartrygging er nauðsynleg."
+      "🏛️ TAKMÖRKUÐ SVÆÐI: bannað er að fljúga á ZNVD-svæðum (t.d. umhverfis El Dorado SKBO) — athugaðu Visor Geográfico UAS hjá Aerocivil fyrir hvert flug.",
+      "💰 VIÐURLÖG OG ÁBYRGÐ: Rekstur án skráningar eða utan heimilaðra svæða getur leitt til verulegra sekta (UVT — skattaverðmætiseining), haldlagningar búnaðar og, í alvarlegum tilvikum, refsiábyrgðar. Fyrir atvinnunotkun: ábyrgðartrygging er nauðsynleg."
     ],
     "primaryLinks": [
       {
-        "title": "Aerocivil — Fjarstýrð loftfarakerfi (UAS/drónar)",
-        "description": "Opinber vefur sérstakrar stjórnsýslueiningar flugmála (UAEAC) um dróna: RAC 100, upplýsingaumburðarbréf, UAS-skráning"
-      },
-      {
-        "title": "RPAS-skjöl — Leiðsöguþjónusta",
-        "description": "Opinbert safn skjala fyrir RPAS/dróna: eyðublöð, skráningarleiðbeiningar, umburðarbréf 100-MAUT-5.0-22-010-CI og gildandi reglugerðir"
+        "title": "Aerocivil — Ómönnuð flugstarfsemi (UAS/drónar)",
+        "description": "Opinber vefur Sérstakrar stjórnsýslueiningar almannaflugmála (UAEAC) um dróna: RAC 100, upplýsingadreifibréf (Informative Circulars), UAS-skráning"
       },
       {
         "title": "Aerocivil — Algengar spurningar um dróna",
         "description": "Opinber kafli með algengum spurningum um dróna og hreyfanleika í lofti í þéttbýli, með ítarlegum svörum við algengum spurningum rekstraraðila"
       },
       {
-        "title": "Landsflugskrá — UAS",
-        "description": "Flugskráningarkerfi fyrir dróna sem vega meira en 250 g. Inniheldur skráningarleiðbeiningar og kröfur: auðkenni, myndir af drónanum (6, PDF <2MB) og stafrænt eyðublað"
+        "title": "Aerocivil — Plataforma UAS Colombia (drónaskráning)",
+        "description": "Rafræn UAS-þjónustugátt Aerocivil: aðgangur að Plataforma UAS Colombia til að skrá dróna sem vega 200 g eða meira (ókeypis), Visor Geográfico UAS og kennsluefni"
       }
     ],
     "secondaryLinks": [
@@ -49,11 +48,11 @@
       },
       {
         "title": "Borgaraþjónusta (tölvupóstur + sími)",
-        "description": "Opinbert tölvupóstfang Aerocivil fyrir fyrirspurnir um dróna. Sími: +57 (601) 425 1000 eða gjaldfrjálst 01 8000 112373. Mánudaga–föstudaga, 8:00–16:30"
+        "description": "Opinbert tölvupóstfang Aerocivil fyrir fyrirspurnir um dróna. Sími: +57 (601) 425 1000 eða +57 (601) 518 5214. Mánudaga–föstudaga 8:00–16:30. Drónar: gdmua@aerocivil.gov.co"
       },
       {
         "title": "Flugmálareglugerðir Kólumbíu (RAC)",
-        "description": "Flugmálareglugerðir Kólumbíu (RAC). Inniheldur RAC 100 (UAS-rekstur), RAC 91 viðauka 13 og allar reglugerðir sem gilda um dróna"
+        "description": "Flugmálareglugerðir Kólumbíu (RAC). Inniheldur RAC 100 (UAS-rekstur, í gildi frá 2023) og aðrar reglugerðir sem gilda um dróna"
       }
     ],
     "disclaimerText": "Athugaðu ávallt opinberar heimildir flugmálayfirvalda (Aerocivil) áður en þú flýgur. Þetta forrit er verkfæri, ekki lögbær heimild. Kólumbía framfylgir RAC 100 (Aeronautical Regulations for UAS Operations), sem krefst skyldubundinnar skráningar á UAS Platform fyrir dróna með MTOW 200 g eða meira.",

@@ -1,34 +1,35 @@
 {
   "meta": {
-    "sourceHash": "8c56d8d6e542afc955c989bfd255bb6e85a0ed0ddb98d0c06385589c15af8287",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "1ccf0d60f2daab09a23a0c0e3bbd85b102fdef6468c55b05317299a6742f4265",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Högsta höjd: 120 m (400 ft) över marken (AGL)",
-      "Minst 8 km från flygplatser och flygfält",
-      "Minst 30 m till personer och djur som inte deltar samt till byggnader som inte ingår i verksamheten",
+      "Högsta höjd: 120 m (400 ft) över marken, i okontrollerat luftrum.",
+      "Minst 8 km från varje flygplats eller flygfält; att flyga närmare kräver godkännande från DGAC och att en NOTAM utfärdas.",
+      "Flyg endast på avstånd från tät bebyggelse i städer, samhällen eller bosättningar och från folksamlingar utomhus. Endast med särskilt godkännande från DGAC får du flyga närmare, och aldrig närmare än 30 m från sådan bebyggelse eller sådana folksamlingar.",
       "ALLA drönare som väger under 25 kg måste ha en identifieringsskylt med serienummer, ägarens namn och telefonnummer",
-      "Drönare som väger 25 kg eller mer: obligatorisk registrering på drones.dgac.go.cr",
+      "Obligatorisk registrering på drones.dgac.go.cr: drönare ≥25 kg och all användning som inte är nöjesbruk (kommersiell eller icke-kommersiell), oavsett vikt",
       "Nöjesbruk <25 kg: kräver INTE formell registrering om du följer grundreglerna",
       "Håll alltid drönaren inom synhåll (VLOS)",
       "Flygning är tillåten endast dagtid och i bra väder – nattflygning kräver tillstånd",
+      "Icke-kommersiell användning som inte är nöjesbruk (även drönare <25 kg): behörighetsintyg från DGAC (minst 18 år), ansvarsförsäkring och registrering på drones.dgac.go.cr",
       "Kommersiell användning: RPAS-licens + Technical Council-intyg + verksamhetstillstånd från DGAC",
       "Det är förbjudet att flyga över privat mark utan tillstånd, fängelser, restriktionsområden och flygplatser"
     ],
     "importantNotes": [
       "🏷️ OBLIGATORISK IDENTIFIERINGSSKYLT: Även om drönare som väger under 25 kg för nöjesbruk INTE kräver formell registrering, måste ALLA drönare ha en identifieringsskylt med serienummer, ägarens namn och ett telefonnummer. Detta är det strängaste kravet på fysisk identifiering.",
-      "✈️ UTLÄNDSKA TURISTER: Reglerna gäller även för personer som inte är bosatta i landet. För nöjesbruk: identifieringsskylt + följ grundreglerna (inga flygplatser, ingen privat mark, inga fängelser) – ingen formell registrering krävs. Tullen kan begära en drönardeklaration vid inresa i landet.",
-      "🌳 NATIONALPARKER OCH SINAC: Det nationella systemet för bevarandeområden (SINAC) kräver särskilt tillstånd för drönare i parker som Manuel Antonio, Corcovado, Tortuguero, vulkanen Arenal, Monteverde och vulkanen Poás. Biologisk mångfald och djurliv är skyddade – hör med varje park INNAN du reser.",
-      "🏖️ TURISTOMRÅDEN OCH FLYGPLATSER: SJO (Juan Santamaría, Alajuela), LIR (Liberia, Guanacaste), presidentpalatset, ambassader och militära zoner har permanenta restriktioner. Turiststränder som Tamarindo, Manuel Antonio och Jacó har ofta ytterligare kommunala restriktioner.",
+      "✈️ UTLÄNDSKA TURISTER: Reglerna gäller även för personer som inte är bosatta i landet. För nöjesbruk: identifieringsskylt + följ grundreglerna (inga flygplatser, ingen privat mark, inga fängelser) – ingen formell registrering krävs. Tullen kan begära en drönardeklaration vid inresa i landet. Utländska piloter i kommersiellt syfte: DGAC kan validera en utländsk RPAS-licens (licens och läkarintyg måste vara giltiga) i högst 3 månader, med förlängning endast en gång med 3 månader i motiverade fall. Valideringen ersätter inte övriga krav för kommersiell användning.",
+      "🌳 NATIONALPARKER OCH SINAC: drönare är inte tillåtna i nationalparken Manuel Antonio (SINAC). Andra skyddade områden kan förbjuda eller begränsa dem – kontrollera med varje område INNAN din resa.",
+      "🏖️ RESTRIKTIONSZONER: utan tillstånd från DGAC är det förbjudet att flyga i förbjudna zoner eller restriktionszoner som publicerats i AIP och inom 8 km från flygplatser som SJO och LIR. Kontrollera också eventuella kommunala restriktioner.",
       "💰 KOMMERSIELL ANVÄNDNING OCH SANKTIONER: Kommersiella flygningar utan RPAS-licens eller intyg från det tekniska rådet kan leda till böter, beslag av utrustning och förbud mot verksamhet. För betalt foto-/videoarbete: skaffa licensen innan du påbörjar verksamheten."
     ],
     "primaryLinks": [
       {
         "title": "DGAC – Drönarregister (särskild portal)",
-        "description": "Officiell webbplats för generaldirektoratet för civil luftfart för att registrera drönare och få ett registreringsnummer. Plattform särskilt för RPAS"
+        "description": "Generaldirektoratet för civil luftfarts officiella, dedikerade portal för att registrera drönare och få ett registreringsnummer. Plattform särskilt för RPAS"
       },
       {
         "title": "DGAC – Startsida",
@@ -57,7 +58,7 @@
         "description": "Costa Ricas officiella turistwebbplats. Användbar för att förstå vilka turistområden som har särskilda restriktioner för drönare"
       }
     ],
-    "disclaimerText": "Kontrollera alltid DGAC:s officiella källor innan du flyger. Den här appen är ett verktyg, inte en juridisk auktoritet. Costa Rica tillämpar RAC OPS RPAS och DGAC:s verksamhetsdirektiv. Alla drönare måste ha en identifieringsskylt; kommersiell användning kräver ett intyg från det tekniska rådet för civil luftfart.",
+    "disclaimerText": "Kontrollera alltid DGAC:s officiella källor innan du flyger. Den här appen är ett verktyg, inte en juridisk auktoritet. Costa Rica tillämpar RAC-RPAS (Decreto Ejecutivo N° 44615-MOPT, i kraft sedan 27/09/2024). Alla drönare måste ha en identifieringsskylt; kommersiell användning kräver ett intyg från det tekniska rådet för civil luftfart.",
     "sectionLabelRules": "VIKTIGASTE REGLERNA",
     "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
     "sectionLabelSecondary": "YTTERLIGARE RESURSER",

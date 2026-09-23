@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "362edae763d5f971da0104f4b2bf8c97",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "eb2939eb8f1213b47dba87ec9440da8e",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,23 @@
     "keyRules": [
       "Legfeljebb 120 m a talajszint felett (AGL)",
       "Legalább 30 m a nem érintett személyektől – soha ne repülj emberek felett",
-      "A 250 g-nál nehezebb drónokat legalább 5,5 km-re kell tartani az ellenőrzött repülőterektől. A 250 g alatti drónok repülhetnek ezen a zónán belül, de csak legfeljebb 45 m-rel a talajszint felett, a repülőtér határán kívül, és úgy, hogy ne veszélyeztessenek más légi járműveket.",
-      "250 g alatti drónok: legfeljebb 45 m magasság ellenőrzött repülőtér 5,5 km-es körzetén belül",
+      "250 g feletti drónok: ne repülj ellenőrzött repülőtértől 5,5 km-en belül, illetve a futópálya megközelítési/indulási útvonalában 7 km-ig (7–8,5 km: max. 90 m). A legfeljebb 250 g-os drónok 5,5 km-en belül legfeljebb 45 m-rel a talaj felett repülhetnek, de soha nem a megközelítési/indulási útvonalak felett vagy azokban, a repülőtér határán belül, vagy ahol veszélyt jelentenek a légi járművekre.",
+      "Irányítótorony nélküli repülőtértől 5,5 km-en belül vagy helikopter-leszállóhelytől 1,4 km-en belül: ha személyzettel rendelkező légi járműről vagy helikopterről szerzel tudomást, ne szállj fel — térj ki az útjából, és szállj le, amint lehetséges",
+      "Soha ne repülj veszélyhelyzeti műveletek (rendőrség, mentők, kutatás-mentés, tűzoltás) vagy a közbiztonságot érintő területek felett vagy közelében",
       "Szabadidős célú repülés: csak nappal (a reggeli polgári szürkülettől az esti polgári szürkületig). Az éjszakai repüléshez RePL + ReOC engedély szükséges",
       "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS)",
+      "Egyszerre csak egy drónt repültess",
       "A szabadidős drónokat nem kell regisztrálni (25 kg alatt bármilyen tömegűek lehetnek; az általános szabályok érvényesek)",
-      "A 2 kg-os vagy nehezebb drónok kereskedelmi célú használatához távpilóta-engedély (RePL) szükséges",
+      "Munkavégzés céljából történő repülés (bármilyen tömeg, a 250 g alattiakat is beleértve): regisztráld a drónt (500 g-ig ingyenes; 500 g felett drónonként 40 AUD), és rendelkezz üzemeltetői akkreditációval vagy távpilóta-engedéllyel (RePL). 2 kg felett általában RePL és ReOC is szükséges. Külföldön regisztrált drónok nem regisztrálhatók Ausztráliában — munkarepülésekhez kérj CASA-engedélyt a myCASA-n keresztül",
       "A nemzeti parki szabályok államonként eltérnek – repülés előtt ellenőrizd (egyesek teljesen tiltják a drónokat)"
     ],
     "importantNotes": [
-      "Victoria MINDEN állami és nemzeti parkban tiltja a drónokat – engedély nélkül nincs kivétel",
+      "A Sydney Harbour és környéke „drónmentes zóna” (alacsonyan repülő helikopterek és hidroplánok) — sok turisztikai helyszín tiltott terület; ellenőrizd egy CASA által ellenőrzött alkalmazásban",
+      "Victoria: a Parks Victoria által kezelt területeken a szabadidős drónok egyáltalán nem engedélyezettek; a drónos filmezéshez Parks Victoria-engedély és engedéllyel rendelkező, CASA által tanúsított üzemeltető szükséges",
       "Az NSW nemzeti parkjaiban NPWS-engedély szükséges — a bírság akár 3 300 $ is lehet",
       "Dél-Ausztrália csak tudományos kutatás vagy kereskedelmi filmezés céljából engedélyezi a drónokat a parkokban",
-      "A jogellenes műveletekért kiszabható büntetés meghaladhatja a 10 000 AUD-t"
+      "Az Uluṟu-Kata Tjuṯa és a Kakadu Nemzeti Parkban tilosak a drónok (engedély nélkül az EPBC Act szerint jogsértésnek minősül)",
+      "A CASA szabálysértésenként akár 1820 AUD bírságot szabhat ki; a bírósági bírság akár 18 200 AUD is lehet, és akár 2 év börtön is járhat, ha a drónod légi járművet veszélyeztet"
     ],
     "primaryLinks": [
       {
@@ -36,7 +40,7 @@
       },
       {
         "title": "OpenSky – Légtértérkép",
-        "description": "CASA által ellenőrzött légtéradatok valós idejű korlátozásokkal és TFR-riasztásokkal"
+        "description": "CASA által ellenőrzött légtéradatok valós idejű korlátozásokkal"
       },
       {
         "title": "CASA – Regisztráció",

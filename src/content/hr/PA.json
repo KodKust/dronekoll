@@ -1,42 +1,44 @@
 {
   "meta": {
-    "sourceHash": "7ac6f58efeb57847db5c573b36f52f9091268fb859f217572eb22f0601db3ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "87a436fc2428e63cbeabda8e978948a403f544d76e6100f96d885f4d05ce52ec",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimalna visina ovisi o težini: ≤250 g → 30 m; 250 g–25 kg → 60 m; 25–150 kg → 120 m",
-      "Dronovi teži od 250 g, neovisno o namjeni, moraju se registrirati kod tijela AAC; cijena je 5 USD, a registracija se obavlja osobno u uredu Albrook.",
-      "Rekreativni dronovi teški ≤250 g: Registracija NIJE potrebna, ali se primjenjuju sva ostala pravila",
-      "Minimalna udaljenost od 8 km od zračnih luka i uzletišta",
-      "Minimalna udaljenost od 30 m vodoravno i 10 m okomito od ljudi",
-      "Uvijek držite dron u izravnom vidnom polju (VLOS)",
-      "Noćni letovi ZABRANJENI su bez posebnog izuzeća tijela AAC",
-      "Osiguranje od građanske odgovornosti OBAVEZNO je za sve operacije",
-      "Obavezan obrazac informiranog pristanka u vezi s: privatnim posjedom, domorodačkim rezervatima, zaštićenim područjima i slivom Panamskog kanala",
-      "Komercijalna upotreba zahtijeva licenciju pilota RPA-a uz registraciju drona"
+      "Najveća visina ovisi o klasi RPA-a: Micro (≤250 g) → 100 ft (~30 m); Light (251 g–25 kg) → 400 ft (~120 m); Medium (26–150 kg) → 400 ft, ali ograničeno na 100 m bez transpondera Mode S (standard AAC, §9.2, §10.1.1, §11.1.5, §11.1.10).",
+      "Svaki RPA, uključujući klasu Micro (≤250 g), mora biti registriran kod AAC-a (§8.1, §9.1, §15.2 standarda) — za razliku od većine zemalja, Panama ne izuzima najlakše dronove od registracije. Registracija se obavlja osobno u Albrooku; provjerite aktualnu naknadu.",
+      "Panama NE izuzima lagane rekreativne dronove (≤250 g) od registracije — za razliku od većine zemalja, standard AAC (§8.1, §9.1) zahtijeva registraciju za sve klase RPA-a, uključujući Micro.",
+      "Za svaku operaciju RPA-a u Panami potrebno je operativno odobrenje AAC-a (§8.2, §8.20): podnesite obrazac 005 (Solicitud de Permiso de Actividades Aéreas Especiales) najmanje 5 radnih dana unaprijed.",
+      "Minimalna udaljenost od 8 km (5 nautičkih milja) od zračnih luka i aerodroma, Predsjedništva Republike i zatvora (§8.10–8.11 standarda AAC). Standard zabranjuje i letenje na mjestima koja ugrožavaju sigurnost države, poput veleposlanstava, javnih ustanova i banaka (§8.11), a AAC održava ograničenja iznad policijskih postaja, bolnica i Ministarstva sigurnosti (priopćenje AAC-a od 26/9/2025).",
+      "Tijekom polijetanja i slijetanja držite se najmanje 30 m vodoravno i 10 m okomito od osoba koje ne sudjeluju u operaciji (§13.1 standarda AAC).",
+      "Dron morate u svakom trenutku držati u izravnom vizualnom kontaktu (RACP).",
+      "Noćni letovi ZABRANJENI su bez posebnog izuzeća tijela AAC.",
+      "Osiguranje od građanske odgovornosti prema trećima OBAVEZNO je za svakog vlasnika RPA-a (§8.4 standarda AAC), bez obzira na upotrebu. Za letenje iznad ljudi potrebni su i odobrenje AAC-a i pristanak uključenih osoba (§8.16).",
+      "Za zabranjena, ograničena ili opasna područja (vidi AIP tijela AAC) potrebno je posebno odobrenje AAC-a i tijela nadležnog za područje — potrebna su oba (§13.1 d standarda AAC). U zoni Kanala, zaštićenim područjima i autohtonim teritorijima obratite se nadležnom tijelu prije podnošenja zahtjeva za dozvolu leta.",
+      "Svatko tko upravlja RPA-om — uključujući rekreativnu upotrebu i klasu Micro (≤250 g) — mora imati licenciju pilota na daljinu tijela AAC i liječničko uvjerenje klase 3 (§8.3, §9.1, §10.1 standarda AAC). Za komercijalnu upotrebu dodatno je potrebno odobrenje za komercijalne operacije (§13.3)."
     ],
     "importantNotes": [
-      "📏 VISINE VARIRAJU PREMA TEŽINI (jedinstveno u Latinskoj Americi): RACP Paname ima tri razine maksimalne visine ovisno o težini drona: dronovi ≤250 g ograničeni su na SAMO 30 m, dronovi teški 250 g–25 kg ograničeni su na 60 m, a samo dronovi teški ≥25 kg mogu doseći standardnih 120 m. Provjerite težinu svog drona prije planiranja visine leta.",
-      "✈️ TURISTI — PRAVILO 14 DANA: Ako je vaš boravak u Panami ≤14 kalendarskih dana, možete zatražiti posebno odobrenje AAC-a bez trajne registracije drona. Boravci >14 dana: registracija kod AAC-a obavezna je za dronove >250 g. Rekreativni dronovi ≤250 g izuzeti su u oba slučaja.",
-      "🚢 PANAMA CANAL — POSEBNO OGRANIČENJE: Za sliv kanala (uključujući prevodnice, Gatún Lake i susjedna područja) prije svakog leta obavezno je ishoditi Letter of Informed Consent od tijela Canal Authority. AAC NEĆE odobriti operacije iznad tog područja bez tog pisma. Isto vrijedi za privatni posjed, domorodačke rezervate i zaštićena područja.",
-      "🌳 ZAŠTIĆENA PODRUČJA I MIAMBIENTE: Nacionalni parkovi kao što su Soberanía, Volcán Barú, Coiba (UNESCO World Heritage Site) i Darién zahtijevaju posebnu dozvolu tijela Ministry of the Environment (MiAmbiente). Bocas del Toro i Guna Yala također imaju ograničenja — koordinirajte s lokalnom zajednicom prije letenja.",
-      "🏢 POTREBNA JE OSOBNA REGISTRACIJA: Za razliku od većine zemalja, registracija kod tijela AAC mora se obaviti OSOBNO u uredu Albrook (Building 805). Ponesite identifikacijski dokument, dron, ispunjeni obrazac i 5 USD. Prije putovanja provjerite dostupnost termina i rokove obrade."
+      "Za razliku od mnogih zemalja, Panama određuje najveću visinu prema klasi RPA-a: 100 ft (~30 m) za Micro (≤250 g), 400 ft (~120 m) za Light (251 g–25 kg) i 400 ft za Medium (26–150 kg) — ali potonja je ograničena na 100 m bez transpondera Mode S. Prije planiranja visine leta provjerite klasu svog drona.",
+      "Turisti: posebna dozvola za strane RPA-ove ili operatere (obrazac 004) traje najviše 15 dana i NE izdaje se za rekreativne aktivnosti (§8.22 standarda AAC). Za rekreativno letenje potrebni su registracija RPA-a kod AAC-a (sve klase, uključujući Micro ≤250 g, §8.1) i licencija pilota RPA-a tijela AAC (§8.3); strana licencija priznaje se samo ako postoji bilateralni sporazum (§18.17). Prije putovanja provjerite kod AAC-a.",
+      "PANAMSKI KANAL — OGRANIČENO PODRUČJE: prema AIP-u tijela AAC (ENR 5), operacije iznad prevodnica Gatún, Pedro Miguel i Miraflores, brana Gatún i Madden te iznad bilo kojeg broda koji prolazi Kanalom su ograničene. Potrebno je odobrenje AAC-a i tijela nadležnog za područje (§13.1 d standarda AAC).",
+      "Casco Antiguo, Cinta Costera, Av. Balboa i Calle 50 te okolna područja: uz odobrenje AAC-a morate dopisom obavijestiti Servicio de Protección Institucional (SPI).",
+      "🌳 ZAŠTIĆENA PODRUČJA (MiAmbiente): u zaštićenim područjima SINAP-a dronove smiju upotrebljavati samo posjetitelji s valjanom licencijom/registracijom, u skladu s primjenjivim postupcima i naknadama (Resolución DM-0173-2026, čl. 12). Prije leta provjerite kod uprave područja.",
+      "Za razliku od većine zemalja, registracija kod AAC-a mora se obaviti osobno u Albrooku — prije podnošenja zahtjeva provjerite aktualni postupak i uvjete."
     ],
     "primaryLinks": [
       {
         "title": "AAC — Tijelo za civilno zrakoplovstvo Paname",
-        "description": "Službena stranica Tijela za civilno zrakoplovstvo Paname. Informacije o registraciji dronova, RACP propisima i postupcima za domaće i strane operatere"
+        "description": "Službena stranica Tijela za civilno zrakoplovstvo Paname. Informacije o registraciji dronova, standardu za RPAS i postupcima za domaće i strane operatere"
       },
       {
-        "title": "RACP — Propisi o civilnom zrakoplovstvu Paname",
-        "description": "Pristup cjelovitim propisima o civilnom zrakoplovstvu Paname. Odjeljak o propisima primjenjivima na bespilotne zrakoplove (RPA)"
+        "title": "Norma AAC/DG/DSA/001-2021 — Zrakoplovi na daljinsko upravljanje (RPAS)",
+        "description": "Tekst standarda AAC kojim se utvrđuju zahtjevi za upravljanje sustavima zrakoplova na daljinsko upravljanje (RPAS) u Panami (PDF)"
       },
       {
         "title": "Ured AAC-a Albrook (potrebna osobna registracija)",
-        "description": "Zgrada 805, Albrook, prvi kat — Uprava za sigurnost zrakoplovstva. Registracija drona MORA se obaviti osobno: ponesite identifikaciju, sam dron i ispunjeni obrazac. Cijena: 5 USD"
+        "description": "Zgrada 805, Albrook, prizemlje — Odjel za dokumentaciju. Podnesite dopis sa zahtjevom (ili ga pošaljite na correspondencia.aac@aeronautica.gob.pa); AAC će vam dodijeliti termin. Ponesite obrazac za registraciju, presliku licencije za RPA, osobnu iskaznicu, specifikacije, račun, policu osiguranja i potvrdu o plaćanju. Cijena: 20 USD"
       },
       {
         "title": "AAC — Priopćenja i važeći propisi",
@@ -46,7 +48,7 @@
     "secondaryLinks": [
       {
         "title": "STRI/Smithsonian — Vodič za istraživanja AAC-a",
-        "description": "Detaljan vodič Smithsonianovog instituta za tropska istraživanja o postupku odobrenja AAC-a, uključujući obrazac informiranog pristanka za ograničena područja"
+        "description": "Detaljan vodič Smithsonianovog instituta za tropska istraživanja o postupku odobrenja AAC-a, uključujući pismo informiranog pristanka za ograničena područja"
       },
       {
         "title": "MiAmbiente — Zaštićena područja (nacionalni parkovi)",
@@ -54,10 +56,10 @@
       },
       {
         "title": "Panamski kanal — Službene informacije",
-        "description": "Uprava Panamskog kanala. Sliv Kanala zahtijeva obavezno pismo informiranog pristanka — bez njega AAC neće dati odobrenje"
+        "description": "Uprava Panamskog kanala. Prevodnice, brane i brodovi u tranzitu ograničena su područja (AIP ENR 5): potrebno je odobrenje AAC-a i tijela nadležnog za područje"
       }
     ],
-    "disclaimerText": "Uvijek prije leta provjerite službene izvore tijela AAC. Ova aplikacija je alat, a ne pravno tijelo. Panama primjenjuje Civil Aviation Regulations (RACP), koji uključuju maksimalne visine ovisne o težini i posebna ograničenja za sliv kanala Panama Canal.",
+    "disclaimerText": "Uvijek prije leta provjerite službene izvore tijela AAC. Ova aplikacija je alat, a ne pravno tijelo. Panama primjenjuje Norma AAC/DG/DSA/001-2021, s maksimalnim visinama OVISNIMA O TEŽINI i ograničenim područjima u zoni Panamskog kanala (AIP ENR 5).",
     "sectionLabelRules": "KLJUČNA PRAVILA",
     "sectionLabelPrimary": "SLUŽBENI IZVORI",
     "sectionLabelSecondary": "DODATNI RESURSI",

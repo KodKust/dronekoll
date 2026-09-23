@@ -1,29 +1,33 @@
 {
   "meta": {
-    "sourceHash": "787b0ffdb58f4e659dab084b584504eae2d084cddcc8121e3000d9d4781ddb6e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "64708e9a3d82a3a709ddda077adb46fb41b25644e94f27236ce2d35379ac40be",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimāli 120 m virs zemes (EASA atvērtā kategorija)",
-      "Reģistrēšanās par UAS operatoru (~€3) ir nepieciešama droniem, kas sver 250 g vai vairāk vai ir aprīkoti ar kameru.",
-      "Obligāta A1/A3 tiešsaistes apmācība — minimālais vecums 16 gadi",
-      "Obligāta trešo personu civiltiesiskās atbildības apdrošināšana — minimālais segums €1 000 000",
-      "Aizliegts nacionālajos parkos: Plitvice Lakes, Krka, Paklenica — dronu lidošana nav atļauta.",
-      "Vienmēr saglabā redzamības kontaktu ar dronu (VLOS)",
+      "Katrs dronu lidojums Horvātijā iepriekš jāapstiprina caur AMC (ad hoc gaisa telpas struktūras izveide) — visiem droniem neatkarīgi no masas. Vispirms AMC Portal jāreģistrē lietotāja konts (sagaidi, kamēr to apstrādā). Līdz 120 m ārpus CTR un līdz 50 m CTR iekšienē (ārpus zonām ap lidlaukiem un pagaidu lidojumu aizlieguma zonām) apstiprinājumu piešķir automātiski lidojuma dienā lietotnē AMC Portal Mobile; citos gadījumos — ar parasto procedūru (pieprasījums 7 dienas iepriekš).",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, ko mēra kā attālumu līdz tuvākajam zemes virsmas punktam — ne vienkārši taisni uz leju, tāpēc nogāzes tuvumā var skaitīties arī zeme tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (augstāka par 105 m) par šo šķērsli atbildīgā persona var lūgt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Tev jāreģistrējas kā drona operatoram, ja tavs drons sver 250 g vai vairāk (vai triecienā varētu nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas pat uz rotaļlietām. Zem 250 g reģistrācija tomēr ir obligāta, ja dronam ir sensors, kas spēj uztvert personas datus, izņemot gadījumu, ja tas tiek uzskatīts par rotaļlietu saskaņā ar ES Rotaļlietu drošuma direktīvu. Pilota apmācības/apliecības prasības ir atsevišķas un ir atkarīgas no drona klases un apakškategorijas.",
+      "Minimālais vecums patstāvīgai lidošanai atvērtajā kategorijā ir 16 gadi — A1/A3 tiešsaistes apmācība un eksāmens ir derīgi 5 gadus un atzīti visā ES. Jaunāki piloti drīkst lidot tikai sertificēta pilota tiešā uzraudzībā.",
+      "Trešo personu civiltiesiskās atbildības apdrošināšana (vismaz 750 000 SDR, Regulation (EC) 785/2004) ir obligāta, ja ar dronu veic aviācijas darbus — saskaņā ar CCAA tas ietver arī fotografēšanu un filmēšanu privātiem nolūkiem. Tīri atpūtas lidojumiem bez aviācijas darbiem (drons līdz 20 kg) tā nav obligāta.",
+      "Aizsargājamās dabas teritorijas (nacionālie parki, dabas parki u. c.): dronu lidojumi tikai ar iepriekšēju apstiprinājumu no publiskās iestādes, kas pārvalda teritoriju. Plitvices ezeru NP un Krkas NP filmēšana ar dronu ir aizliegta, izņemot izņēmuma gadījumus ar Iestādes apstiprinājumu.",
+      "Atvērtajā kategorijā dronam jābūt tavā tiešajā redzamībā ar neapbruņotu aci (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai ar novērotāja palīdzību, visu laiku skaidri un efektīvi sazinoties, lai kopā uzraudzītu gaisa telpu un izvairītos no sadursmēm. Režīms “Follow-me” ir atsevišķs izņēmums, kas atļauts līdz 50 m no pilota.",
       "Nelido pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz lidojumā neiesaistītām personām ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudi oficiālo tabulu.",
-      "Vismaz 5 km no jebkuras lidostas vai lidlauka",
+      "Horvātijā zonas ap lidlaukiem nosaka nacionāli (NN 20/2023, 4. pants): 1 500 m attālumā no kontrolēta lidlauka žoga un 500 m uz sāniem no pieejas ass līdz 3 500 m no sliekšņa lidojums ir nosacīti aizliegts (apstiprinājums tikai izņēmuma kārtā, ar parasto procedūru). Pārējā kontroles zonā (CTR) apstiprinājumu līdz 50 m virs zemes piešķir automātiski lietotnē AMC Portal Mobile, bet virs 50 m — tikai ar parasto procedūru. Nekontrolēta lidlauka tuvumā (1 500 m no tā malām, 500 m uz sāniem no pieejas ass līdz 2 500 m no sliekšņa) nepieciešama iepriekšēja lidlauka operatora piekrišana. Pirms lidošanas lidostas, lidlauka vai helikopteru laukuma tuvumā pārbaudi oficiālo dronu zonu karti.",
       "Nakts lidojumi ir atļauti saskaņā ar EASA atvērtās kategorijas pamatnoteikumiem, ja tiek izmantota prasītā mirgojošā zaļā gaisma, ja vien spēkā esoša ģeogrāfiskā zona vai valsts noteikums neparedz stingrāku nosacījumu.",
-      "Piekrastes teritorijas vasarā: iespējami papildu ierobežojumi"
+      "Nelido ugunsgrēku vai ārkārtas reaģēšanas vietu tuvumā — drons ugunsdzēsības gaisa kuģu darbības zonā apdraud ugunsdzēšanu. Pagaidu lidojumu aizlieguma zonas (piem., mači, pasākumi) tiek publicētas AMC Portal."
     ],
     "importantNotes": [
-      "Nacionālie parki (Plitvice, Krka, Paklenica) stingri aizliedz visus dronus",
-      "Obligāta apdrošināšana ar minimālo segumu €1 000 000",
-      "Reģistrācija ir ļoti lēta (~€3) un derīga visā ES.",
+      "Nacionālie parki, dabas parki un citas aizsargājamās teritorijas: dronu lidojumi tikai ar apstiprinājumu no publiskās iestādes, kas tās pārvalda; Plitvicē un Krkā filmēšana ar dronu ir aizliegta, izņemot izņēmuma gadījumus ar Iestādes apstiprinājumu",
+      "Civiltiesiskās atbildības apdrošināšana (vismaz 750 000 SDR) ir obligāta, ja veic aviācijas darbus — tostarp fotografēšanu un filmēšanu privātiem nolūkiem",
+      "Operatora reģistrācija ir derīga visā ES",
       "Dubrovnik vecpilsēta: rēķinies ar dronu lidojumu ierobežojumiem.",
-      "GDPR attiecas uz identificējamu personu filmēšanu."
+      "GDPR attiecas uz identificējamu personu filmēšanu.",
+      "Aerofotografēšanai var būt nepieciešams Valsts ģeodēzijas pārvaldes apstiprinājums (Uredba o snimanju iz zraka, NN 77/20) — pirms filmēšanas pārbaudi dgu.gov.hr.",
+      "Par nopietnu cilvēka savainojumu vai bīstamu pietuvošanos pilotējamam gaisa kuģim ziņo HACZ 72 stundu laikā (portāls Aviation Reporting).",
+      "Pārkāpumi tiek sodīti saskaņā ar Gaisa satiksmes likumu (Zakon o zračnom prometu) — naudassodi no 700 € un vairāk un reģistrācijas anulēšana."
     ],
     "primaryLinks": [
       {
@@ -32,15 +36,15 @@
       },
       {
         "title": "CCAA — Operatora reģistrācija",
-        "description": "Reģistrējies kā UAS operators (~€3, derīga visās ES/EASA valstīs)"
+        "description": "Reģistrējies kā UAS operators (reģistrācija derīga visās ES/EASA valstīs)"
       },
       {
         "title": "AMC Portal — Gaisa telpas karte",
         "description": "Croatia Control gaisa telpas pārvaldības un dronu zonu karte"
       },
       {
-        "title": "CCAA — Noteikumu pārskats",
-        "description": "Pārskats par dronu lidošanas noteikumiem Horvātijā"
+        "title": "CCAA — noteikumi ārvalstu pilotiem",
+        "description": "Kas jāzina, ja īslaicīgi lido ar dronu Horvātijā (CCAA lapa angļu valodā)"
       }
     ],
     "secondaryLinks": [
@@ -53,7 +57,7 @@
         "description": "Biežāk uzdotie jautājumi par dronu noteikumiem Horvātijā"
       }
     ],
-    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos CCAA avotus un AMC Portal. Šī lietotne ir rīks, nevis juridiska instance. Horvātija ievēro EASA noteikumus ar nacionālajiem papildinājumiem, tostarp aizliegumiem nacionālajos parkos.",
+    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos CCAA avotus un AMC Portal. Šī lietotne ir rīks, nevis juridiska instance. Horvātija ievēro EASA noteikumus ar nacionālajiem papildinājumiem, tostarp apstiprinājumu lidojumiem aizsargājamās dabas teritorijās.",
     "sectionLabelRules": "GALVENIE NOTEIKUMI (EASA ATVĒRTĀ KATEGORIJA)",
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",

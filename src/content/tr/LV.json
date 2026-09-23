@@ -1,28 +1,35 @@
 {
   "meta": {
-    "sourceHash": "554dcb2ca7172e65f382ee60023e605b64f419f74a40862fa094a3c138b1853d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "dffaad15a571e359fb1ed462806f7dd69c5c983c8a5aea73cf0df596497c54f0",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Yerden en fazla 120 m (EASA Open Kategorisi)",
-      "Dronunuz 250 g veya daha ağırsa ya da kameralıysa UAS operatörü olarak kaydolun",
-      "A1/A3 çevrim içi eğitim gereklidir — asgari yaş 16",
-      "1,5 kg'dan ağır dronlar için zorunlu sorumluluk sigortası; asgari teminat ağırlığa bağlıdır — 250–1.500 g: €150.000; 1.501–5.000 g: €500.000; >5 kg: €1.000.000",
-      "Köprülerin, demiryollarının, otoyolların ve elektrik hatlarının üzerinden uçmak yasaktır",
-      "Her zaman görüş hattını (VLOS) koruyun",
+      "Açık kategoride azami yükseklik 120 m'dir ve yalnızca dümdüz aşağıya doğru değil, yer yüzeyindeki en yakın noktaya olan mesafe olarak ölçülür — bu nedenle bir yamacın yakınında yandaki zemin de hesaba katılabilir. Yüksek bir yapay engelin (105 m'nin üzerinde) 50 m yakınında, engelden sorumlu kuruluş engelin yüksekliğinin 15 m üzerine kadar uçmak için izin talep edebilir.",
+      "Dronunuz 250 g veya daha ağırsa (ya da çarpışmada 80 J'den fazla kinetik enerji aktarabiliyorsa) dron operatörü olarak kaydolmanız gerekir — bu oyuncaklar için de geçerlidir. Dron 250 g'dan hafifse, kişisel veri toplayabilen bir sensörü varsa ve AB Oyuncak Güvenliği Direktifi kapsamında oyuncak sayılmıyorsa kayıt yine gereklidir. Pilot eğitimi/sertifika gereklilikleri ayrıdır ve dronun sınıfına ve alt kategorisine bağlıdır.",
+      "AB'de ikamet ettiğiniz ülkede UAS operatörü olarak kaydolmalısınız (AB dışında yaşıyorsanız — uçacağınız ilk AB ülkesinde); kayıt tüm AB'de geçerlidir ve aynı anda iki ülkede kaydolmaya izin verilmez. Letonya'da kayıt 5 €'dur ve 1 yıl geçerlidir. Her dron UAS operatör numarasıyla işaretlenmelidir.",
+      "250 g ve üzeri bir dron için A1/A3 çevrim içi kursu ve sınavı gerekir. 2024'ten beri C sınıf işareti olmayan ve 250 g veya daha ağır dronlar yalnızca A3 alt kategorisinde uçabilir — operasyona dahil olmayan kişilerden uzakta ve yerleşim, ticari, sanayi ve rekreasyon alanlarından en az 150 m uzakta.",
+      "Letonya'da bağımsız uçuş için asgari yaş 16'dır; daha genç pilotlar yalnızca en az 16 yaşında, yeterliliğe sahip bir uzaktan pilotun doğrudan gözetimi altında veya oyuncak olarak tasarlanmış C0 sınıfı bir dronla uçabilir.",
+      "C1, C2 (ve C3) sınıfı dronlar, UAS operatör numaranız girilmiş olarak doğrudan uzaktan tanımlama (Remote ID) etkinken uçmalıdır.",
+      "Kütlesi 250 g'ın altında ve azami hızı 19 m/s'nin altında olan dronlar hariç, hukuki sorumluluk sigortası zorunludur. Asgari limit: A1 ve A2 alt kategorilerinde — 50.000 €; 20 kg'dan itibaren dronlar için ve Specific kategorisinde — 750.000 SDR (Regulation (EC) No 785/2004).",
+      "Genel bir yasak yoktur, ancak devlet yolları, köprüler, demiryolu tesisleri ve 110/330 kV enerji hatları üzerinde (bunlardan 50 m'ye kadar) UAS coğrafi bölgeleri oluşturulabilir — airspace.lv'yi kontrol edin. Mümkün olduğunca insanların, trafiğin, binaların ve mühendislik yapılarının üzerinden uçmaktan kaçının.",
+      "„BEZ SASKAŅOŠANAS FOTOGRAFĒT, FILMĒT AIZLIEGTS“ işaretini taşıyan kritik altyapı nesnelerini filme almak veya fotoğraflamak yasaktır.",
+      "Açık kategoride dronu yardımcı araç kullanmadan, kendi doğrudan görüş hattınızda tutmalısınız (gözlük/kontakt lense izin verilir; dürbün veya ekran sayılmaz) — ya da hava sahasını birlikte izleyip çarpışmaları önleyebilmeniz için her an açık ve etkili karşılıklı iletişim sürdürerek bir gözlemcinin yardımıyla uçun. “Follow-me” modu ayrı bir istisnadır; pilottan 50 m'ye kadar izin verilir.",
       "İnsan topluluklarının üzerinden uçmayın. Operasyona dahil olmayan kişilerle ilgili kurallar alt kategoriye, sınıf işaretine ve operasyon koşullarına bağlıdır; resmî matrisi kontrol edin.",
-      "Herhangi bir havalimanı veya hava meydanından en az 5 km uzakta kalın",
+      "Havalimanlarından korunması gereken AB genelinde tek bir mesafe yoktur. Havalimanları yakınındaki kısıtlamalar, şekli ve boyutu havalimanından havalimanına değişen coğrafi bölgeler (Madde 15) olarak yayımlanır. Bir havalimanı, hava meydanı veya heliport yakınında uçmadan önce ülkenizin resmî dron bölgeleri haritasını kontrol edin; kontrol bölgesi (CTR) içinde uçmak genellikle hava trafik kontrolünden önceden izin almayı gerektirir.",
+      "Letonya'da 1 Ocak 2025'ten beri, uçuş bildirimi veya onayı gerektiren UAS coğrafi bölgelerindeki uçuşlar, uçuştan önce CAA İnsansız Hava Aracı Bilgi Sistemi BGKIS'te (e.caa.gov.lv) bildirilmelidir; başka bir AEA ülkesinde veya İsviçre'de kayıtlı operatörler de BGKIS hesabı oluşturabilir. Hava meydanları çevresindeki bölgelerde onay 5 iş gününe kadar sürebilir (uçuş planının değiştirilmesi gerekirse 30 güne kadar).",
       "Gerekli yanıp sönen yeşil ışık kullanıldığında, yürürlükteki bir coğrafi bölge veya ulusal kural daha katı bir koşul getirmediği sürece EASA açık kategori temel kuralları kapsamında gece uçuşuna izin verilir.",
-      "Riga Havalimanı CTR'si önemli bir alanı kapsar"
+      "Riga CTR'si Riga'nın büyük bir bölümünü kapsar. Ayrı bir onay olmadan, 2 kg'a kadar bir dronla yerden 50 m'nin altında ve 18 ile 36 numaralı pistlerin eşiklerinden 5 km'den fazla uzakta uçmaya izin verilir; 2 kg'ın üzerindeki bir dron ek yeterlilik gerektirir (ör. A2 yeterlilik sertifikası). 50 m'den yüksekte veya pist eşikleri çevresindeki 5 km'lik bölge içinde her uçuş önceden VAS „Latvijas gaisa satiksme“ ile onaylanmalıdır.",
+      "Polisin, CAA'nın, sınır muhafızlarının veya başka bir yetkilinin talebi üzerine uçuşu derhal durdurun ve bir kimlik belgesi gösterin — yanınızda bulundurun.",
+      "Kanındaki alkol konsantrasyonu 0,2 ‰'yi aşan veya sarhoş edici maddelerin etkisi altında olan bir uzaktan pilot ya da gözlemciye 700 €'ya kadar para cezası verilebilir; testi reddetmek yasaktır. Cezalar: 700 €'ya kadar (ör. zorunlu sigorta olmadan uçmak), izin verilen yükseklik veya hava meydanı bölgesi gerekliliklerinin ihlali için 1.000 €'ya kadar."
     ],
     "importantNotes": [
-      "Sigorta dronun ağırlığına bağlıdır — 250–1.500 g: €150.000; 1.501–5.000 g: €500.000; >5 kg: €1.000.000",
-      "Köprülerin, demiryollarının, otoyolların ve elektrik hatlarının üzerinden uçmak kesinlikle yasaktır",
+      "Sigorta zorunludur; azami hızı < 19 m/s olan < 250 g dronlar hariç; asgari A1/A2 — 50.000 €, 20 kg'dan itibaren ve Specific kategorisinde — 750.000 SDR",
+      "Köprüler, demiryolları, devlet yolları ve 110/330 kV enerji hatları üzerinde (50 m'ye kadar) UAS coğrafi bölgeleri geçerli olabilir — airspace.lv'yi kontrol edin",
       "Riga Havalimanı CTR'si geniş bir kısıtlı alan oluşturur",
-      "Rusya ve Belarus ile sınır bölgelerinde ek kısıtlamalar olabilir",
+      "Belarus ve Rusya sınırı boyunca EVR17A BORDER EAST kısıtlı alanı bulunur (yerden 500 ft'e kadar, H24 etkin). Burada dron uçuşlarına (< 250 g dahil) yalnızca Devlet Sınır Muhafızları Havacılık ve Özel Operasyonlar Dairesi'nin izniyle izin verilir; bu izin planlanan uçuş gününden en az 24 saat önce alınmalıdır (belgeler en az 32 saat önceden sunulmalıdır).",
       "Belirlenebilir kişilerin filme alınması ve fotoğraflanmasında GDPR geçerlidir"
     ],
     "primaryLinks": [
@@ -49,7 +56,7 @@
         "description": "Letonya hava trafik hizmetleri ve hava sahası bilgisi"
       },
       {
-        "title": "CAA Latvia — Dron SSS",
+        "title": "CAA Latvia – Dron SSS",
         "description": "Letonya'da dron mevzuatı hakkında sıkça sorulan sorular"
       }
     ],

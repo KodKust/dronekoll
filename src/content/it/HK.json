@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "803f2657ca6644f94ddb8d02a94fbf3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ab66a0144761f05a1cfb8f54499fb2e2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -11,19 +11,23 @@
     "sectionLabelPrimary": "FONTI UFFICIALI",
     "sectionLabelSecondary": "RISORSE AGGIUNTIVE",
     "linksSheetTitle": "Spazio aereo e regole — Hong Kong",
-    "dronePilotCredentialName": "Abilitazione di pilota SUA",
+    "dronePilotCredentialName": "Certificato di pilota remoto (abilitazione standard / avanzata)",
     "keyRules": [
-      "Massimo 91 m (300 ft) dal suolo — un limite inferiore a quello della maggior parte dei Paesi",
-      "Registrazione obbligatoria per tutti i droni di peso superiore a 250 g tramite il portale eSUA",
+      "Max 91 m (300 ft) dal suolo per i droni Cat. A2 (250 g–7 kg) e per i modelli esenti registrati fino a 250 g; droni non registrati fino a 250 g: max 30 m (100 ft)",
+      "Velocità max 50 km/h (Cat. A2); droni non registrati fino a 250 g: max 20 km/h",
+      "I droni oltre 250 g — e i droni fino a 250 g utilizzati oltre i limiti della Cat. A1 — devono essere registrati ed etichettati tramite il portale eSUA, e anche il pilota remoto (dai 14 anni) deve registrarsi su eSUA. Vale anche per i visitatori",
       "Le restrizioni vicino agli aeroporti di Hong Kong sono definite da Restricted Flying Zones (RFZ) pubblicate ufficialmente intorno a HKIA e ad altri aerodromi o eliporti, indicate sulla CAD Drone Map: non esiste un'unica distanza fissa. Per volare all'interno di una RFZ è necessaria l'autorizzazione del CAD e alcune aree, come Victoria Harbour, sono soggette a restrizioni indipendentemente dalla distanza da qualsiasi aeroporto.",
-      "Distanza minima di 50 m dalle persone non coinvolte",
+      "Vietato sorvolare la Prohibition Area vicino a Penny's Bay (ad es. Hong Kong Disneyland): è istituita da una legge separata e non rientra nelle zone RFZ della CAD Drone Map",
+      "Mantieni almeno 10 m (≤20 km/h) o 30 m (oltre 20 km/h, Cat. A2) da persone, veicoli, imbarcazioni e strutture non coinvolti; non sorvolarli mai",
       "Solo di giorno — vietato il volo notturno senza permesso speciale",
       "L'area di Victoria Harbour è soggetta a restrizioni",
       "Mantieni sempre il contatto visivo diretto (VLOS)",
+      "I droni oltre 250 g devono avere la geo-awareness e un registro di volo; conserva i registri di volo per 6 mesi",
       "Hong Kong ha regole proprie — NON quelle della Cina continentale"
     ],
     "importantNotes": [
-      "La quota massima è di soli 91 m (300 ft), nettamente inferiore allo standard di 120 m della maggior parte dei Paesi",
+      "La quota massima è di 91 m (300 ft), e di soli 30 m (100 ft) per i droni non registrati fino a 250 g: nettamente inferiore allo standard di 120 m della maggior parte dei Paesi",
+      "Visitatori: i droni oltre 250 g richiedono la registrazione del drone e del pilota su eSUA con il passaporto (normalmente valida 6 mesi). L'etichetta della CAD non può essere stampata e non viene spedita all'estero: ritirala presso la sede della CAD o fattela spedire a un indirizzo di Hong Kong (ad es. il tuo hotel)",
       "L'assicurazione NON è richiesta per le operazioni standard di Categoria A1 né per le operazioni A2 con abilitazione standard. La copertura di HK$10M si applica alle operazioni avanzate e ai droni di Categoria B; la nuova Categoria C (25–150 kg, introdotta il 18 luglio 2025) richiede HK$15M (25–75 kg) o HK$20M (75–150 kg). Nella propria tabella dei requisiti, il CAD indica come «to be determined» la data di entrata in vigore dell'estensione generale dell'obbligo assicurativo: verifica lo stato attuale prima di presumere che la copertura sia obbligatoria per la tua categoria specifica.",
       "Hong Kong ha regole completamente separate da quelle della Cina continentale",
       "Victoria Harbour e le aree circostanti hanno restrizioni al volo",
@@ -46,11 +50,11 @@
     "secondaryLinks": [
       {
         "title": "CAD — Formazione Advanced Rating",
-        "description": "Formazione con Advanced Rating richiesta per i droni di peso superiore a 250 g"
+        "description": "Formazione per l'Advanced Rating: richiesta solo per le Advanced Operations"
       },
       {
         "title": "CAD — Requisiti assicurativi",
-        "description": "Requisiti obbligatori dell'assicurazione di responsabilità civile verso terzi per le operazioni con droni"
+        "description": "Assicurazione verso terzi: obbligatoria per le operazioni avanzate; non ancora in vigore per i voli standard Cat. A2"
       }
     ]
   }

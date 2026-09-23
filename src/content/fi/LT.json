@@ -1,55 +1,58 @@
 {
   "meta": {
-    "sourceHash": "c6156d2d7270eed1f0bbf03a22c83cd1cf94b1875c9f45ae22d161f7fab4e957",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e93e943369b28f887990b72c587e2c372465bbacd9292903c416ee4c4ebf7e67",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröidy UAS-käyttäjäksi (10 €/vuosi), jos dronesi painaa vähintään 250 g tai siinä on kamera",
-      "Pakollinen A1/A3-verkkokoulutus — vähimmäisikä 16 vuotta",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m, mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maasto voi olla ratkaiseva. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolella.",
+      "Sinun on rekisteröidyttävä dronen käyttäjäksi, jos dronesi painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g:n dronen kohdalla rekisteröinti vaaditaan silti, jos dronessa on henkilötietoja tallentamaan kykenevä anturi, ellei sitä katsota leluksi EU:n lelujen turvallisuusdirektiivin mukaan. Lentäjän koulutus- ja todistusvaatimukset ovat erillisiä ja riippuvat dronen luokasta ja alaluokasta.",
+      "Rekisteröintinumeron on oltava näkyvissä dronessa ja (C1–C3-luokan droneissa) syötettynä Remote ID -järjestelmään",
+      "Dronet, joilla ei ole C-luokkamerkkiä (saatettu markkinoille ennen 2024-01-01), sekä itse rakennetut dronet saavat lentää vain A1-alaluokassa, jos niiden lentoonlähtömassa on alle 250 g, tai A3-alaluokassa, jos se on alle 25 kg",
+      "Kauko-ohjaajan vähimmäisikä on 16 vuotta (EU-sääntö; Liettua ei ole alentanut sitä). Nuoremmat lentäjät saavat lentää vain: vaatimukset täyttävän kauko-ohjaajan välittömässä valvonnassa; C0-luokan lelulla A1-alaluokassa; tai itse rakennetulla dronella, jonka lentoonlähtömassa on alle 250 g. A1/A3-koulutus ja -koe suoritetaan TKA-järjestelmässä, ja todistus on voimassa 5 vuotta.",
       "Vastuuvakuutus on pakollinen yli 20 kg painaville droneille",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Avoimessa kategoriassa drone on pidettävä omassa suorassa näköyhteydessäsi paljain silmin (silmälasit/piilolinssit käyvät; kiikarit tai näyttö eivät kelpaa) — tai lennä tarkkailijan avulla niin, että välillänne on koko ajan selkeä ja toimiva yhteys, jotta voitte yhdessä valvoa ilmatilaa ja välttää yhteentörmäyksiä. ”Follow-me”-tila on erillinen poikkeus, joka on sallittu enintään 50 m:n etäisyydellä lentäjästä.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-      "Vähintään 5 km:n etäisyys kaikista lentoasemista ja lentopaikoista",
+      "EU:ssa ei ole yhtä yhteistä etäisyyttä, joka lentoasemiin on pidettävä. Lentoasemien lähellä olevat rajoitukset julkaistaan maantieteellisinä vyöhykkeinä (15 artikla), joiden muoto ja koko vaihtelevat lentoasemittain – ennen kuin lennät lentoaseman, lentopaikan tai helikopterikentän lähellä, tarkista virallinen dronevyöhykekartta. Valvotussa ilmatilassa (Vilnan, Kaunasin, Palangan ja Šiauliain UR-vyöhykkeet) saat lentää avoimessa kategoriassa ilman ennakkolupaa vain vyöhykkeelle asetettuun korkeuteen asti – mitä lähempänä lentoasemaa, sitä matalammalle (korkeudet – utm.ans.lt; korkeammalle lentäminen edellyttää LTSA-menettelyn mukaisesti myönnettyä lupaa). Lentopaikkojen ATZ/TIZ-vyöhykkeillä lento on sovittava etukäteen lentopaikan omistajan tai pitäjän kanssa.",
+      "Lennot EYP-vyöhykkeillä ja sotilasalueiden (EYURM) yllä ovat kiellettyjä ilman lupaa; sama koskee aktivoituja EYR-vyöhykkeitä (aktivoinnista ilmoitetaan NOTAMilla)",
       "Yölento on sallittu EASA:n avoimen luokan perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
       "Kuurinkynnään kansallispuistossa on voimassa rajoituksia",
-      "Lisärajoituksia Venäjän ja Valko-Venäjän raja-alueilla"
+      "Valko-Venäjän ja Venäjän vastaisella raja-alueella (noin 7,4 km rajasta) lennot ilman ennakkokoordinointia ovat ehdottomasti kiellettyjä"
     ],
     "importantNotes": [
-      "Rekisteröinti maksaa 10 € vuodessa — se on uusittava vuosittain",
+      "Rekisteröinti ja rekisteröintitodistuksen myöntäminen/uusiminen maksaa 31 €",
       "Vakuutus vaaditaan vain yli 20 kg painaville droneille",
-      "Lennätysrajoituksia on voimassa Venäjän ja Valko-Venäjän raja-alueilla",
+      "Valko-Venäjän ja Venäjän vastaisella raja-alueella (noin 7,4 km rajasta) lennot ilman ennakkokoordinointia ovat ehdottomasti kiellettyjä",
       "Vilnan lentoaseman lähilentovyöhyke (CTR) kattaa suuren osan kaupungista",
       "GDPR-tietosuoja-asetus koskee tunnistettavien henkilöiden kuvaamista"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Dronesäännöt",
-        "description": "Siviili-ilmailuhallinnon viralliset dronemääräykset"
+        "title": "TKA – dronesäännöt",
+        "description": "Transporto kompetencijų agentūran (TKA) viralliset dronesäännöt"
       },
       {
-        "title": "TKA — Rekisteröidy käyttäjäksi",
-        "description": "Rekisteröityminen UAS-käyttäjäksi (10 € vuodessa, voimassa kaikissa EU-/EASA-maissa)"
+        "title": "TKA – rekisteröidy käyttäjäksi",
+        "description": "Rekisteröidy UAS-käyttäjäksi (31 €, voimassa kaikissa EU-/EASA-maissa)"
       },
       {
         "title": "UTM Lithuania — Ilmatilakartta",
         "description": "Virallinen UTM-ilmatilakartta, joka näyttää dronevyöhykkeet ja rajoitukset"
       },
       {
-        "title": "CAA — Sääntöjen yleiskatsaus",
-        "description": "Yleiskatsaus Liettuan dronen lennätyssääntöihin"
+        "title": "TKA – sääntöjen yleiskatsaus",
+        "description": "Yleiskatsaus Liettuan dronelentomääräyksiin"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Air Navigation — Lennonvarmistuspalvelut",
-        "description": "Liettuan lennonvarmistuspalvelu ja tietoa ilmatilasta"
+        "title": "Oro Navigacija – lennonvarmistuspalvelut",
+        "description": "Liettuan lennonvarmistuspalvelu ja ilmatilatiedot"
       },
       {
-        "title": "CAA — Usein kysyttyä droneista",
+        "title": "TKA – usein kysyttyä droneista",
         "description": "Usein kysyttyä Liettuan dronemääräyksistä"
       }
     ],

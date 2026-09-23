@@ -1,55 +1,58 @@
 {
   "meta": {
-    "sourceHash": "c6156d2d7270eed1f0bbf03a22c83cd1cf94b1875c9f45ae22d161f7fab4e957",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "e93e943369b28f887990b72c587e2c372465bbacd9292903c416ee4c4ebf7e67",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Yerden en fazla 120 m (EASA Open Kategorisi)",
-      "Dronunuz 250 g veya daha ağırsa ya da kamerayla donatılmışsa UAS operatörü olarak kaydolun (yılda €10)",
-      "Zorunlu A1/A3 çevrim içi eğitim — asgari yaş 16",
+      "Açık kategoride azami yükseklik 120 m'dir ve yalnızca dümdüz aşağıya doğru değil, yer yüzeyinin en yakın noktasına olan mesafe olarak ölçülür — bu nedenle bir yamacın yakınında uçarken yandaki zemin de hesaba katılabilir. Yüksek bir yapay engelin (105 m'nin üzerinde) 50 m yakınında, engelden sorumlu kuruluş engelin yüksekliğinin 15 m üzerine kadar uçmak için izin talep edebilir.",
+      "Dronunuz 250 g veya daha ağırsa (ya da çarpışmada 80 J'den fazla kinetik enerji aktarabiliyorsa) dron operatörü olarak kaydolmanız gerekir — bu oyuncaklar için bile geçerlidir. 250 g'ın altında, dronda kişisel veri toplayabilen bir sensör varsa, AB Oyuncak Güvenliği Direktifi kapsamında oyuncak sayılmadığı sürece kayıt yine gereklidir. Pilot eğitimi/sertifika gereklilikleri ayrıdır ve dronun sınıfına ve alt kategorisine bağlıdır.",
+      "Tescil numarası dronun üzerinde görünür olmalı ve (C1–C3 sınıfı dronlar için) Remote ID sistemine girilmelidir",
+      "C sınıf işareti olmayan (2024-01-01'den önce piyasaya sürülmüş) dronlar ve kendi yapımı dronlar, kalkış kütlesi 250 g'dan azsa yalnızca A1 alt kategorisinde, 25 kg'dan azsa A3 alt kategorisinde uçabilir",
+      "Uzaktan pilot için asgari yaş 16'dır (AB kuralı; Litvanya bunu düşürmemiştir). Daha genç pilotlar yalnızca şu durumlarda uçabilir: gereklilikleri karşılayan bir uzaktan pilotun doğrudan gözetimi altında; A1 alt kategorisinde C0 sınıfı bir oyuncakla; veya kalkış kütlesi 250 g'dan az olan kendi yapımı bir dronla. A1/A3 eğitimi ve sınavı TKA sisteminde tamamlanır ve sertifika 5 yıl geçerlidir.",
       "20 kg'dan ağır dronlar için sorumluluk sigortası zorunludur",
-      "Her zaman görüş hattını (VLOS) koruyun",
+      "Açık kategoride dronu hiçbir yardımcı araç kullanmadan, kendi doğrudan görüş hattınızda tutmalısınız (gözlük/kontakt lens sorun değildir; dürbün veya ekran sayılmaz) — ya da hava sahasını birlikte tarayıp çarpışmaları önleyebilmeniz için aranızda her an açık ve etkili iletişim sürdürerek bir gözlemcinin yardımıyla uçun. “Follow-me” modu ayrı bir istisnadır; pilottan 50 m'ye kadar izin verilir.",
       "İnsan topluluklarının üzerinden uçmayın. Operasyona dahil olmayan kişilerle ilgili kurallar alt kategoriye, sınıf işaretine ve operasyon koşullarına bağlıdır; resmî matrisi kontrol edin.",
-      "Herhangi bir havalimanı veya hava meydanından en az 5 km uzakta kalın",
+      "Havalimanlarından korunması gereken AB genelinde tek bir mesafe yoktur. Havalimanları yakınındaki kısıtlamalar, şekli ve boyutu havalimanından havalimanına değişen coğrafi bölgeler (Madde 15) olarak yayımlanır — bir havalimanı, hava meydanı veya heliport yakınında uçmadan önce resmî dron bölgeleri haritasını kontrol edin. Kontrollü hava sahasında (Vilnius, Kaunas, Palanga, Šiauliai UR bölgeleri) açık kategoride önceden izin almadan yalnızca bölge için belirlenen yüksekliğe kadar uçabilirsiniz — havalimanına ne kadar yakınsa o kadar alçak (yükseklikler: utm.ans.lt; daha yükseğe uçmak LTSA prosedürüne göre verilen bir izin gerektirir). Hava meydanlarının ATZ/TIZ bölgelerinde uçuş, hava meydanı sahibi veya işletmecisiyle önceden koordine edilmelidir.",
+      "EYP bölgelerinde ve askerî alanlar (EYURM) üzerinde izinsiz uçuşlar yasaktır; aynısı etkinleştirilmiş EYR bölgeleri için de geçerlidir (etkinleştirme NOTAM ile duyurulur)",
       "Gerekli yanıp sönen yeşil ışık kullanıldığında, yürürlükteki bir coğrafi bölge veya ulusal kural daha katı bir koşul getirmediği sürece EASA açık kategori temel kuralları kapsamında gece uçuşuna izin verilir.",
       "Kuron Dili (Curonian Spit) Ulusal Parkı'nda kısıtlamalar geçerlidir",
-      "Rusya ve Belarus ile sınır bölgelerinde ek kısıtlamalar"
+      "Belarus ve Rusya sınırları boyunca uzanan sınır bölgesinde (sınırdan yaklaşık 7,4 km) önceden koordinasyon yapılmadan uçuş yapmak kesinlikle yasaktır"
     ],
     "importantNotes": [
-      "Kayıt yılda €10'a mal olur — her yıl yenilenmesi gerekir",
+      "Kayıt ve kayıt belgesinin verilmesi/yenilenmesi 31 €'dur",
       "Sigorta yalnızca 20 kg'dan ağır dronlar için gereklidir",
-      "Rusya ve Belarus ile sınır bölgelerinde uçuş kısıtlamaları geçerlidir",
+      "Belarus ve Rusya sınırları boyunca uzanan sınır bölgesinde (sınırdan yaklaşık 7,4 km) önceden koordinasyon yapılmadan uçuş yapmak kesinlikle yasaktır",
       "Vilnius Havalimanı CTR'si şehrin büyük bir bölümünü kapsar",
       "Belirlenebilir kişiler filme alındığında veya fotoğraflandığında GDPR geçerlidir"
     ],
     "primaryLinks": [
       {
-        "title": "CAA — Dron Kuralları",
-        "description": "Sivil Havacılık İdaresi'nin resmî dron mevzuatı"
+        "title": "TKA – Dron Kuralları",
+        "description": "Transporto kompetencijų agentūra'nın (TKA) resmî dron kuralları"
       },
       {
-        "title": "TKA — Kullanıcı Olarak Kayıt",
-        "description": "UAS operatörü olarak kayıt (yılda €10, tüm AB/EASA ülkelerinde geçerli)"
+        "title": "TKA – Operatör Olarak Kayıt",
+        "description": "UAS operatörü olarak kaydolun (31 €, tüm AB/EASA ülkelerinde geçerli)"
       },
       {
         "title": "UTM Lithuania — Hava Sahası Haritası",
         "description": "Dron bölgelerini ve kısıtlamalarını gösteren resmî UTM hava sahası haritası"
       },
       {
-        "title": "CAA — Kurallara Genel Bakış",
+        "title": "TKA – Kurallara Genel Bakış",
         "description": "Litvanya'da dron uçuş mevzuatına genel bakış"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Air Navigation — Hava Seyrüsefer Hizmetleri",
+        "title": "Oro Navigacija – Hava Seyrüsefer Hizmetleri",
         "description": "Litvanya hava seyrüsefer hizmeti ve hava sahası bilgisi"
       },
       {
-        "title": "CAA — Dron SSS",
+        "title": "TKA – Dron SSS",
         "description": "Litvanya'da dron mevzuatı hakkında sıkça sorulan sorular"
       }
     ],

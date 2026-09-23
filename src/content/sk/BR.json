@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálna výška: 120 m (400 ft) nad úrovňou terénu",
+      "Maximálna výška: 120 m (400 ft) AGL (ANAC); rekreačné lety: najviac 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "Drony s hmotnosťou nad 250 g: povinná registrácia v systéme SISANT (ANAC)",
-      "Drony s hmotnosťou do 250 g: oslobodené od registrácie, automaticky licencované",
-      "Minimálna vzdialenosť 5,4 km od letísk pri letoch v malej výške",
-      "Minimálna vzdialenosť 9 km od letísk pri letoch do 120 m",
+      "Drony do 250 g sa nemusia registrovať v systéme SISANT (ANAC Resolution No. 806). Od 1. júla 2026 (ICA 100-40) vyžadujú lety aj s týmito dronmi povolenie cez SARPAS (DECEA). Drony nad 250 g musia byť zaregistrované v systéme SISANT.",
+      "Letiskové zóny obmedzenia letov (FRZ) (ICA 100-40, platné od 1. júla 2026): okolo letiska (ZEA) začína FRZ na úrovni terénu až do 1 740 m; pod ňou zostanete, ak lietate najviac do 100 ft (30 m) za hranicou 1 740 m, 200 ft (60 m) za 2 350 m, 300 ft za 2 960 m a 400 ft za 3 570 m. V sektoroch priblíženia a vzletu (ZAD) začína FRZ na úrovni terénu až do 3 550 m; ďalej: 100 ft za 3 550 m, 200 ft za 4 480 m, 300 ft za 5 400 m a 400 ft za 6 320 m. Let vo vnútri FRZ vyžaduje Termo de Coordenação a žiadosť v SARPAS najmenej 4 kalendárne dni vopred.",
+      "Rekreačné lety (ICA 100-40, čl. 32): maximálna výška 200 ft (60 m) AGL a maximálna horizontálna vzdialenosť 300 m. V blízkosti letísk platia pásma FRZ – overte si ich v SARPAS.",
       "Dron majte vždy v priamom vizuálnom dohľade (VLOS)",
-      "Minimálna vzdialenosť 30 metrov od osôb nezúčastnených na prevádzke",
-      "Pred každým letom v riadenom vzdušnom priestore je potrebné povolenie SARPAS (DECEA)",
+      "Minimálna vzdialenosť 30 m od osôb nezúčastnených na prevádzke",
+      "Každý let vyžaduje povolenie na vstup do vzdušného priestoru cez SARPAS (DECEA), vrátane dronov do 250 g. Minimálny predstih: 30 minút v kategórii Open; 4 alebo 8 kalendárnych dní pri prevádzke, ktorá zasahuje do FRZ alebo obmedzených oblastí, BVLOS alebo nad 400 ft. Rekreačné lety v EAC určenom na rekreáciu sú oslobodené.",
       "Vysielacie zariadenie musí byť certifikované úradom ANATEL",
-      "Nočné lety si vyžadujú osobitné povolenie a protizrážkové osvetlenie"
+      "Nočné lety: dron musí mať navigačné svetlá (ICA 100-40, čl. 20)",
+      "Piloti mladší ako 18 rokov musia byť vždy v sprievode pilota staršieho ako 18 rokov, ktorý zodpovedá za prevádzku",
+      "Nerekreačné použitie dronov nad 250 g (RBAC No. 100): poistenie krytia škôd spôsobených tretím osobám je povinné. Zloženie teoretickej skúšky ANAC (RBAC 100.13(b)) sa do 31. decembra 2026 nevyžaduje (Resolution No. 805/2026, čl. 2)."
     ],
     "importantNotes": [
-      "Turisti: Brazília POVOĽUJE rekreačné lety, no drony s hmotnosťou nad 250 g musia byť pred letom zaregistrované v systéme SISANT",
-      "Pokuty ukladané úradom ANAC môžu dosiahnuť R$ 7 000 za jedno porušenie — prevádzka bez registrácie alebo povolenia SARPAS je závažný priestupok",
+      "Turisti: Brazília POVOĽUJE rekreačné lety. Drony nad 250 g musia byť zaregistrované v systéme SISANT (cudzinci môžu použiť pas) a lety vyžadujú povolenie SARPAS (DECEA), aj s dronmi do 250 g.",
+      "Pokuty ANAC za drony vychádzajú z referenčných súm od R$ 750 do R$ 4 500 za porušenie (prevádzka bez registrácie: R$ 2 250 – Resolution No. 762/2024); v závislosti od poľahčujúcich a priťažujúcich okolností sa konečná suma môže pohybovať od 20 % do 300 % tejto sumy (Resolution No. 761/2024, čl. 35). Let bez povolenia SARPAS je porušením pravidiel letovej prevádzky, o ktorom rozhoduje JJAER (ICA 100-40, čl. 66).",
       "Národné parky (ICMBio) a domorodé územia (FUNAI) vo všeobecnosti zakazujú drony bez osobitného povolenia",
       "Pláže a mestské turistické oblasti (Rio, São Paulo, Salvador) podliehajú miestnym obmedzeniam — overte si ich u miestnych úradov"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — Povolenie na let (DECEA)",
-        "description": "Systém úradu DECEA na žiadanie o povolenie na let v riadenom vzdušnom priestore. Vyžaduje sa pred každým letom"
+        "description": "Systém úradu DECEA na žiadanie o povolenie na vstup do vzdušného priestoru, aj pre drony do 250 g. Vyžaduje sa pred každým letom"
       },
       {
         "title": "ANATEL — Certifikácia zariadení",
@@ -48,15 +50,15 @@
         "description": "Aktívne NOTAM a oficiálne letecké mapy úradu DECEA na overenie dočasných obmedzení"
       },
       {
-        "title": "ANAC — Často kladené otázky o dronoch",
-        "description": "Oficiálne odpovede úradu ANAC na bežné otázky prevádzkovateľov dronov"
+        "title": "ANAC — Často kladené otázky o SISANT (registrácia dronov)",
+        "description": "Oficiálne odpovede úradu ANAC o registrácii v SISANT, aj pre cudzincov"
       },
       {
-        "title": "RBAC-E č. 94 — Úplná technická norma",
-        "description": "Osobitný predpis brazílskeho civilného letectva č. 94 — úplné znenie platné pre drony"
+        "title": "RBAC No. 100 — Úplná technická norma",
+        "description": "Brazílsky predpis civilného letectva č. 100 (nahrádza RBAC-E No. 94) — úplné znenie platné pre drony"
       }
     ],
-    "disclaimerText": "Pred lietaním vždy konzultujte oficiálne zdroje úradov ANAC a DECEA. Táto aplikácia je nástroj, nie právny zdroj. Brazília uplatňuje RBAC-E No. 94 (momentálne prechádza na RBAC No. 100), ktorý vyžaduje povinné schválenie cez SARPAS.",
+    "disclaimerText": "Pred lietaním vždy konzultujte oficiálne zdroje úradov ANAC a DECEA. Táto aplikácia je nástroj, nie právny zdroj. Brazília uplatňuje RBAC No. 100 a Resolution No. 806 (ANAC, od júna 2026) a ICA 100-40 (DECEA, od júla 2026) s povinným povolením cez SARPAS.",
     "sectionLabelRules": "HLAVNÉ PRAVIDLÁ",
     "sectionLabelPrimary": "OFICIÁLNE ZDROJE",
     "sectionLabelSecondary": "ĎALŠIE ZDROJE",

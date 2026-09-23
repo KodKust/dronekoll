@@ -1,28 +1,35 @@
 {
   "meta": {
-    "sourceHash": "554dcb2ca7172e65f382ee60023e605b64f419f74a40862fa094a3c138b1853d",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "dffaad15a571e359fb1ed462806f7dd69c5c983c8a5aea73cf0df596497c54f0",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Högst 120 m över marken (EASA öppen kategori)",
-      "Registrera dig som UAS-operatör om drönaren väger 250 g eller mer eller är utrustad med kamera",
-      "A1/A3-onlineutbildning krävs – lägsta ålder 16 år",
-      "Obligatorisk ansvarsförsäkring mot tredje man för drönare som väger mer än 1,5 kg; minsta täckning beror på vikten – 250–1 500 g: 150 000 €; 1 501–5 000 g: 500 000 €; >5 kg: 1 000 000 €",
-      "Det är förbjudet att flyga över broar, järnvägar, motorvägar och kraftledningar",
-      "Håll alltid drönaren inom synhåll (VLOS)",
+      "I den öppna kategorin är högsta höjd 120 m, mätt som avståndet till närmaste punkt på markytan – inte bara rakt nedåt, så nära en sluttning kan även marken intill räknas in. Inom 50 m från ett högt konstgjort hinder (över 105 m) kan den som ansvarar för hindret begära tillstånd att flyga upp till 15 m över hindrets höjd.",
+      "Du måste registrera dig som drönaroperatör om drönaren väger 250 g eller mer (eller kan överföra mer än 80 J rörelseenergi vid en kollision) – det gäller även leksaker. Om den väger mindre än 250 g krävs registrering ändå om drönaren har en sensor som kan samla in personuppgifter, såvida den inte räknas som en leksak enligt EU Toy Safety Directive. Kraven på pilotutbildning och intyg är separata och beror på drönarens klass och underkategori.",
+      "Du måste registrera dig som UAS-operatör i det EU-land där du är bosatt (om du bor utanför EU – i det första EU-land där du flyger); registreringen gäller i hela EU, och det är inte tillåtet att vara registrerad i två länder samtidigt. I Lettland kostar registreringen 5 € och gäller i 1 år. Varje drönare ska märkas med UAS-operatörsnumret.",
+      "En drönare från 250 g kräver A1/A3-onlinekursen och provet. Sedan 2024 får drönare utan C-klassbeteckning som väger 250 g eller mer bara flyga i underkategorin A3 – långt från icke-inblandade personer och minst 150 m från bostads-, affärs-, industri- och rekreationsområden.",
+      "I Lettland är lägsta ålder för att flyga på egen hand 16 år; yngre piloter får bara flyga under direkt uppsikt av en behörig fjärrpilot som är minst 16 år, eller med en drönare i klass C0 som är konstruerad som leksak.",
+      "Drönare i klass C1, C2 (och C3) måste flyga med aktiv direkt fjärridentifiering (Remote ID) med ditt UAS-operatörsnummer inlagt.",
+      "Ansvarsförsäkring är obligatorisk, utom för drönare med en massa under 250 g och en högsta hastighet under 19 m/s. Lägsta försäkringsbelopp: i underkategorierna A1 och A2 – 50 000 €; för drönare från 20 kg och i den specifika kategorin – 750 000 SDR (förordning (EG) nr 785/2004).",
+      "Det finns inget generellt förbud, men geografiska UAS-zoner kan inrättas över statliga vägar, broar, järnvägsanläggningar och kraftledningar på 110/330 kV (upp till 50 m från dem) – kontrollera airspace.lv. Undvik om möjligt att flyga över människor, trafik, byggnader och tekniska konstruktioner.",
+      "Det är förbjudet att filma eller fotografera objekt inom kritisk infrastruktur som är märkta med skylten „BEZ SASKAŅOŠANAS FOTOGRAFĒT, FILMĒT AIZLIEGTS“.",
+      "I den öppna kategorin måste du hålla drönaren inom ditt eget direkta synhåll utan hjälpmedel (glasögon och linser är tillåtna; kikare eller en skärm räknas inte) – eller flyga med hjälp av en observatör, med tydlig och effektiv ömsesidig kommunikation hela tiden, så att ni tillsammans kan bevaka luftrummet och undvika kollisioner. Follow-me-läget är ett separat undantag och är tillåtet upp till 50 m från piloten.",
       "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
-      "Minst 5 km från alla flygplatser eller flygfält",
+      "Det finns inget enda EU-gemensamt avstånd som måste hållas till flygplatser. Restriktioner nära flygplatser publiceras som geografiska zoner (artikel 15), vars form och storlek varierar mellan flygplatser. Innan du flyger i närheten av en flygplats, ett flygfält eller en helikopterflygplats ska du kontrollera ditt lands officiella karta över drönarzoner; flygning i en kontrollzon (CTR) kräver normalt förhandstillstånd från flygtrafikledningen.",
+      "Sedan den 1 januari 2025 ska flygningar i Lettland i geografiska UAS-zoner som kräver anmälan eller godkännande anmälas före flygningen i CAA:s informationssystem för obemannade luftfartyg BGKIS (e.caa.gov.lv); operatörer som är registrerade i ett annat EES-land eller i Schweiz kan också skapa ett BGKIS-konto. Godkännande i zoner kring flygplatser kan ta upp till 5 arbetsdagar (upp till 30 dagar om färdplanen måste ändras).",
       "Nattflygning är tillåten enligt EASA:s grundkrav för den öppna kategorin när det föreskrivna gröna blinkljuset används, såvida inte gällande geografiska bestämmelser eller nationella regler ställer strängare krav.",
-      "CTR för Riga Airport täcker ett stort område"
+      "Riga CTR täcker en stor del av Riga. Utan särskilt godkännande är det tillåtet att flyga lägre än 50 m över marken och mer än 5 km från trösklarna på banorna 18 och 36 med en drönare på upp till 2 kg; en drönare över 2 kg kräver ytterligare behörighet (t.ex. ett A2-kompetensintyg). Högre än 50 m eller inom zonen på 5 km kring banornas trösklar måste varje flygning godkännas i förväg av VAS „Latvijas gaisa satiksme“.",
+      "På begäran av polis, CAA, gränsbevakning eller annan tjänsteman ska du omedelbart avbryta flygningen och visa en id-handling – ha den med dig.",
+      "En fjärrpilot eller observatör vars alkoholkoncentration i blodet överstiger 0,2 ‰ eller som är påverkad av berusningsmedel kan få böter på upp till 700 €; det är förbjudet att vägra ett test. Böter: upp till 700 € (t.ex. för att flyga utan obligatorisk försäkring), upp till 1 000 € för överträdelse av tillåten höjd eller kraven för flygplatszoner."
     ],
     "importantNotes": [
-      "Försäkringen beror på drönarens vikt – 250–1 500 g: 150 000 €; 1 501–5 000 g: 500 000 €; >5 kg: 1 000 000 €",
-      "Att flyga över broar, järnvägar, motorvägar och kraftledningar är strängt förbjudet",
+      "Försäkring obligatorisk, utom drönare < 250 g med högsta hastighet < 19 m/s; minst A1/A2 – 50 000 €, från 20 kg och i den specifika kategorin – 750 000 SDR",
+      "Geografiska UAS-zoner kan gälla över broar, järnvägar, statliga vägar och kraftledningar på 110/330 kV (upp till 50 m) – kontrollera airspace.lv",
       "CTR för Riga Airport utgör ett stort restriktionsområde",
-      "Det kan finnas ytterligare restriktioner i gränsområdena mot Ryssland och Belarus",
+      "Längs gränsen mot Belarus och Ryssland finns restriktionsområdet EVR17A BORDER EAST (från marken till 500 ft, aktivt H24). Drönarflygningar där (även < 250 g) är bara tillåtna med tillstånd från den statliga gränsbevakningens avdelning för luftfart och specialoperationer; tillståndet måste inhämtas minst 24 timmar före den planerade flygdagen (handlingarna ska lämnas in minst 32 timmar i förväg).",
       "GDPR gäller vid filmning och fotografering av identifierbara personer"
     ],
     "primaryLinks": [
@@ -49,8 +56,8 @@
         "description": "Lettisk flygtrafiktjänst och luftrumsinformation"
       },
       {
-        "title": "CAA Lettland – Vanliga frågor om drönare",
-        "description": "Vanliga frågor om reglerna för drönare i Lettland"
+        "title": "CAA Latvia – Vanliga frågor om drönare",
+        "description": "Vanliga frågor om drönarreglerna i Lettland"
       }
     ],
     "disclaimerText": "Kontrollera alltid den civila luftfartsmyndighetens officiella källor och airspace.lv innan du flyger. Den här appen är ett verktyg – inte en juridisk auktoritet. Lettland följer EASA-reglerna, med nationella tillägg.",

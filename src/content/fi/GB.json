@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "144a6693fcc93ba76558d5c5ed7b3d57",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "efa2a30f33ab3aa81ade21c803c0ce10",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -15,19 +15,21 @@
     "keyRules": [
       "Enintään 120 m (400 ft) maanpinnasta",
       "Flyer ID vaaditaan 100 g:sta alkaen — läpäise CAA:n verkkokoe (40 kysymystä, läpäisyraja 75 %)",
+      "Operator ID vaaditaan, jos dronesi painaa vähintään 250 g tai vähintään 100 g ja siinä on kamera — 12,34 £/vuosi, omistajan on oltava vähintään 18-vuotias; merkitse ID jokaiseen droneen.",
       "Pidä drone koko ajan omassa, apuvälineettömässä näköyhteydessäsi ja niin lähellä, että näet, mihin suuntaan se osoittaa, ja ehdit havaita muut ilma-alukset. Laissa ei ole kiinteää enimmäisetäisyyttä metreinä — se, kuinka kauas voit lentää, riippuu näkyvyydestä, valaistuksesta ja itse dronesta, ei määrätystä säteestä.",
-      "Vähintään 50 m lennätykseen osallistumattomista ihmisistä (30 m / 5 m koskevat vain UK-luokkamerkittyjä droneja, joilla on A2-todistus)",
-      "Lentorajoitusvyöhykkeet (FRZ) ympäröivät lentoasemia, mutta niiden tarkka muoto ja koko vaihtelevat lentoasemittain — yleispätevää \"5 km:n ympyrää\" ei ole. Tarkista aina kyseinen FRZ CAA:n virallisesta dronekartasta ennen kuin lennät lentoaseman lähellä.",
+      "Alle 250 g:n dronet tai UK0/UK1/C0-luokka (C1 31.12.2027 asti): saat lentää lähempänä sivullisia ihmisiä ja heidän yllään, mutta et koskaan väkijoukkojen yllä. Muut dronet: pysy vähintään 50 m:n päässä sivullisista äläkä koskaan lennä heidän yllään; tavallisessa Far from People (A3) -alaluokassa sinun on lisäksi pysyttävä 150 m:n päässä asuin-, virkistys-, liike- ja teollisuusalueista (mukaan lukien puistot, rannat ja matkailukohteet). A2-todistuksella: UK2 (C2 vuoden 2027 loppuun) 30 m tai 5 m hidastilassa; muut alle 2 kg:n dronet 50 m.",
+      "Lentorajoitusvyöhykkeet (FRZ) ympäröivät lentoasemia, mutta niiden tarkka muoto ja koko vaihtelevat lentoasemittain — yleispätevää ”5 km:n ympyrää” ei ole. Tarkista aina kyseinen FRZ NATSin virallisesta UAS-rajoituskartasta ennen kuin lennät lentoaseman lähellä.",
+      "Yölento: vihreän vilkkuvalon on oltava päällä (asenna sellainen, jos dronessasi ei ole)",
       "Vastuuvakuutus (EY-asetuksen 785/2004 mukaisesti) on pakollinen kaupallisessa tai muussa kuin harrastekäytössä sekä vähintään 20 kg painaville droneille — kevyempien dronejen harrastekäytössä se on vapaaehtoinen mutta suositeltava.",
       "Remote ID otetaan käyttöön asteittain: tammikuusta 2026 UK-luokkamerkityille droneille (UK1/UK2/UK3/UK5/UK6); täysin pakollinen tammikuussa 2028",
       "Yhdistynyt kuningaskunta EI kuulu EASA:an — EU:n lentäjätodistukset eivät ole voimassa Yhdistyneessä kuningaskunnassa",
-      "Lontoossa on kolme pysyvää rajoitusaluetta — R157 (Hyde Park ja kuninkaalliset residenssit), R158 (City of London eli Square Mile, pieni noin 0,5 NM:n vyöhyke finanssialueen ympärillä) ja R159 (Canary Wharf ja Isle of Dogs) — joilla kaikki dronet ovat kiellettyjä koosta riippumatta, ellei lentoon ole saatu hyväksyntää NATSille vähintään 28 vuorokautta etukäteen jätetyllä Non-Standard Flight -hakemuksella. Parlamentti ja Downing Street sijaitsevat Westminsterissä kaikkien kolmen R-vyöhykkeen ulkopuolella, ja niitä suojataan erillisin järjestelyin."
+      "Lontoossa on pysyviä rajoitusalueita, joilla kaikki dronet ovat kiellettyjä koosta riippumatta: R157 (Hyde Park — kattaa myös Westminsterin, parlamentin, Downing Streetin ja Buckinghamin palatsin), R158 (City of London) ja R159 (Isle of Dogs/Canary Wharf). Niillä lentäminen edellyttää NATSin kautta haettavaa Enhanced Non-Standard Flight -lupaa — hae vähintään 21 päivää etukäteen (Lontoon alueilla käsittely voi kestää pidempään). Myös Windsorin linna (R156) ja Windsor Great Park (R161) ovat pysyviä dronejen lentokieltoalueita."
     ],
     "importantNotes": [
-      "Yhdistyneen kuningaskunnan rekisteröintiraja on 100 g — tiukempi kuin EU:n 250 g",
       "EU:n/EASA:n dronetodistuksia EI tunnusteta Yhdistyneessä kuningaskunnassa brexitin jälkeen",
+      "EU:n C-luokan droneja (C0–C4) voi lentää vastaavana UK-luokkana 31.12.2027 asti — UK:n Flyer ID- ja Operator ID -säännöt ovat silti voimassa painon ja kameran mukaan.",
       "Paikallishallinnot voivat rajoittaa lennättämistä hallinnoimillaan alueilla — tarkista säännöt ennen lennättämistä puistoissa",
-      "Vankiloilla on ~1 km:n lennätyskieltovyöhykkeet — ilma-aluksen vaarantamisesta voi seurata jopa 5 vuotta vankeutta"
+      "Englannin ja Walesin vankiloilla on dronejen lentokieltovyöhykkeet (muoto vankilakohtainen — tarkista kartasta). Ilma-aluksen vaarantamisesta voi seurata jopa 5 vuotta vankeutta."
     ],
     "primaryLinks": [
       {
@@ -36,15 +38,15 @@
       },
       {
         "title": "CAA — Rekisteröinti (Flyer ID ja Operator ID)",
-        "description": "Hanki Flyer ID (pakollinen 100 g:sta) ja Operator ID (pakollinen 250 g:sta)"
+        "description": "Hanki Flyer ID (pakollinen 100 g:sta) ja Operator ID (pakollinen 250 g:sta, tai 100 g:sta, jos dronessa on kamera)"
       },
       {
         "title": "CAA — The Drone Code",
         "description": "Viralliset säännöt: missä saa lennättää, korkeusrajat ja turvallisuusvaatimukset"
       },
       {
-        "title": "Drone Assist — Ilmatilakartta",
-        "description": "Maksuton lennonsuunnittelusovellus, joka näyttää lennätyskieltoalueet ja ilmatilarajoitukset"
+        "title": "Drone Assist — kolmannen osapuolen ilmatilasovellus",
+        "description": "Epävirallinen sovellus (Altitude Angel) — varmista rajoitukset aina NATSin virallisesta UAS-rajoituskartasta"
       }
     ],
     "secondaryLinks": [
@@ -57,8 +59,8 @@
         "description": "Milloin dronevakuutus vaaditaan (pakollinen muuhun kuin harrastekäyttöön)"
       },
       {
-        "title": "CAA — Remote ID -käytäntö",
-        "description": "Yhdistyneen kuningaskunnan Remote ID -vaatimukset tammikuusta 2026"
+        "title": "CAA — Remote ID (milloin se on otettava käyttöön)",
+        "description": "Iso-Britannian Remote ID -vaatimukset tammikuusta 2026 alkaen"
       }
     ]
   }

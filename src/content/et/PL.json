@@ -1,28 +1,32 @@
 {
   "meta": {
-    "sourceHash": "b05d24f015f2308210145943a215484aa1c49ad8f402e6dfeecc2171445caa3b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "71ddedd6eadd4ef67c92064fd4d382b6fa87094ff6d0bff888fecfd333d022c5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimaalselt 120 m maapinnast (EASA avatud kategooria)",
-      "Registreeru tasuta UAS-operaatorina, kui droon kaalub 250 g või rohkem või on varustatud kaameraga",
-      "Nõutav A1/A3 veebikoolitus — vanuse alampiir 16 aastat",
-      "Kontrollitava õhuruumi tsoonides on kohustuslik registreerimine süsteemis DroneTower",
-      "Warsaw: valitsusrajatiste lähedal on vaja State Protection Service (SOP) luba",
-      "Hoia drooni alati otsenähtavuses (VLOS)",
+      "Avatud kategoorias on maksimaalne kõrgus 120 m, mida mõõdetakse kaugusena maapinna lähimast punktist — mitte lihtsalt otse alla, nii et nõlva lähedal võib arvesse minna ka sinu kõrval olev maastik. Kõrgest tehisrajatisest (üle 105 m) 50 m raadiuses võib rajatise eest vastutav üksus taotleda luba lennata kuni 15 m rajatise kõrgusest kõrgemal.",
+      "Pead end droonikäitajana registreerima, kui su droon kaalub 250 g või rohkem (või võib kokkupõrkel üle kanda rohkem kui 80 J energiat) — see kehtib isegi mänguasjade kohta. Alla 250 g on registreerimine siiski nõutav, kui droonil on isikuandmeid jäädvustada suutev andur, välja arvatud juhul, kui see loetakse ELi mänguasjade ohutuse direktiivi kohaselt mänguasjaks. Piloodi koolitus- ja sertifikaadinõuded on eraldi ning sõltuvad drooni klassist ja alamkategooriast.",
+      "Alates 13. novembrist 2025 peab 250 g kuni 20 kg stardimassiga drooni käitajal olema kohustuslik kolmanda isiku vastutuskindlustus (OC) (minimaalne kindlustussumma: 50 000 SDR ekvivalent kindlustusjuhtumi kohta) — ka harrastuslendude puhul.",
+      "Poolas on avatud kategooria vanuse alampiir alates 27. veebruarist 2025 14 aastat; tasuta veebikoolitus ja eksam kehtivad 5 aastat. Nooremad võivad lennata vähemalt 14-aastase, nõutavat pädevust omava piloodi otsese järelevalve all (erandid: C0 mängudroon A1-s ja isetehtud droon alla 250 g).",
+      "Igast droonilennust Poolas — olenemata massist või asukohast — tuleb enne õhkutõusmist PAŻP-ile teatada rakenduse DroneTower funktsiooniga Check-In (lennundusseaduse Prawo lotnicze art 156a lg 2). Mõnes kohas, sealhulgas kontrollitavate lennuväljade ümber olevate DRA-R CTR-tsoonide osades, on vaja ka PAŻP heakskiidetud missiooni (Kreator Misji KSID saidil drony.gov.pl) — siis tõused õhku alles pärast TWR-i lennujuhi nõusolekut DroneToweris.",
+      "DRA-R CTR-tsoonid kontrollitavate lennuväljade ümber, avatud kategooria: lennuväljale lähemal kui 1 km — lennud keelatud; 1–6 km — üle 30 m AGL ainult A2 pädevusega (droonid > 0,9 kg ka heakskiidetud missiooniga), maksimaalselt 50 m AGL; kaugemal kui 6 km — maksimaalselt 100 m AGL. CTR-is on nõutav vähemalt A1/A3 pädevus (ka droonidele < 250 g). Rzeszówi CTR-is (EPRZ) kehtivad teistsugused reeglid. Kontrolli täpseid piire ja tingimusi DroneToweris või DroneMapis.",
+      "Varssavi: kesklinna katab alaline tsoon EPP21 WARSZAWA II — droonilennud ainult tsooni haldaja loal; kontrolli tingimusi ja kontaktandmeid DroneToweris.",
+      "Avatud kategoorias pead hoidma drooni oma abivahenditeta nähtavuses (prillid/kontaktläätsed sobivad; binokkel või ekraan ei loe) — või lendama vaatleja abiga, hoides omavahel kogu aeg selget ja tõhusat sidet, et saaksite koos õhuruumi jälgida ja kokkupõrkeid vältida. Režiim „Follow-me” on eraldi erand, mis on lubatud kuni 50 m kaugusel piloodist.",
       "Ära lenda rahvakogunemiste kohal. Kõrvaliste isikute suhtes kehtivad reeglid sõltuvad alamkategooriast, klassimärgist ja käitamistingimustest; kontrolli ametlikku tabelit.",
-      "DRA-RM tsoonid (alla 6 km, kõrguspiirangutega) ja DRA-RH tsoonid (üle 6 km) — kontrolli drony.gov.pl",
+      "Piiranguga DRA-R tsoonid jagunevad loa saamise tõenäosuse järgi: DRA-RH (kõrge), DRA-RM (keskmine), DRA-RL (madal) — mitte kõrguse järgi (ULC presidendi suunised nr 4/2025, Wytyczne nr 4/2025 Prezesa ULC). Kontrolli enne piiranguga tsoonis lendamist drony.gov.pl.",
+      "C1-, C2- ja C3-klassi droonid peavad lendama sisselülitatud ja ajakohase kaugtuvastusega (Remote ID), mis edastab käitaja numbrit; see ei kehti klasside C0/C4 ega klassimärgita droonide kohta, mis on turule lastud enne 1. jaanuari 2024 või on isetehtud (A1-s alla 250 g või A3-s).",
       "EASA avatud kategooria baasnõuete kohaselt on öölend lubatud, kui kasutatakse nõutavat rohelist vilkuvat tuld, välja arvatud juhul, kui kehtiv geograafiline tsoon või riiklik eeskiri kehtestab rangema tingimuse.",
-      "Rahvuspargid ja Natura 2000 alad: kehtivad piirangud"
+      "Rahvusparke võivad katta DRA-R geograafilised tsoonid — lennud ainult tsooni haldaja loal; kontrolli enne lendamist tsoone DroneToweris (see kehtib ka Natura 2000 alade ja looduskaitsealade kohta)."
     ],
     "importantNotes": [
-      "Rakendus DroneTower on nõutav lennuteadete esitamiseks CTR-tsoonides",
-      "Warsaw: valitsusrajatiste lähedal on vaja SOP heakskiitu",
+      "Check-In rakenduses DroneTower on Poolas kohustuslik enne iga lendu — mitte ainult CTR-tsoonides.",
+      "Varssavis on AIP-s avaldatud alalised keelutsoonid, sealhulgas EPP9 WARSZAWA, EPP21 WARSZAWA II (kesklinn) ja EPP26 FRONTEX (500 m ring Frontexi peakorteri ümber), ning muud droonide geograafilised tsoonid. Kontrolli neid ja nende tingimusi enne lendamist DroneToweris või DroneMapis.",
       "Registreerimine on tasuta ja kehtib kõigis EL/EASA riikides",
-      "Trahvid rikkumiste eest kuni 50 000 PLN",
+      "Turistid väljastpoolt EL/EASA-t (nt USA-st või Ühendkuningriigist): registreeru käitajana esimeses EL-i riigis, kus plaanid lennata — kui see on Poola, siis saidil drony.gov.pl — ja kuva oma käitaja number droonil. Teise EL/EASA riigi registreering kehtib Poolas; kaks korda registreeruda ei saa.",
+      "ULC haldustrahvid: 4 000 PLN iga avatud kategooria reeglite rikkumise eest, 10 000 PLN geograafilise tsooni tingimuste vastaselt lendamise või käitajana registreerimata jätmise eest; lennukeeldude rikkumine (nt julgeolekukaalutlustel) on kuritegu, mille eest karistatakse kuni 5-aastase vangistusega.",
       "GDPR kohaldub selliste piltide salvestamisel, millelt saab isikuid tuvastada"
     ],
     "primaryLinks": [
@@ -31,22 +35,22 @@
         "description": "Tsiviillennundusameti ametlikud droone puudutavad määrused ja ressursid"
       },
       {
-        "title": "ULC — Operaatori registreerimine",
-        "description": "Tasuta registreerimine UAS-operaatorina (kehtib kõigis EL/EASA riikides)"
+        "title": "drony.gov.pl — Käitaja registreerimine",
+        "description": "Tasuta UAS-i käitaja registreerimine ning veebikoolitus ja eksam (registreering kehtib kõigis EL/EASA riikides)"
       },
       {
         "title": "PANSA — DroneMap",
-        "description": "Ametlik õhuruumi kaart, mis näitab CTR-e, piiranguga tsoone ja reaalajateavet"
+        "description": "Ametlik õhuruumi kaart, mis näitab CTR-e, keelutsoone ja reaalajateavet"
       },
       {
         "title": "DroneTower — Lennuteavituse rakendus",
-        "description": "Kohustuslik rakendus lendude teavitamiseks kontrollitavas õhuruumis"
+        "description": "Kohustuslik rakendus iga Poola droonilennu teatamiseks (Check-In)"
       }
     ],
     "secondaryLinks": [
       {
         "title": "PANSA — NOTAM-id",
-        "description": "Aktiivsed NOTAM-id ja ajutised õhuruumi piirangud"
+        "description": "PAŻP NOTAM-büroo — NOTAM-teave FIR Warszawa kohta; kontrolli kehtivaid droonipiiranguid DroneToweris"
       },
       {
         "title": "ULC — Droonide KKK",
@@ -58,6 +62,6 @@
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",
     "linksSheetTitle": "Õhuruum ja regulatsioonid — Poola",
-    "dronePilotCredentialName": "Droonipiloodi sertifikaat"
+    "dronePilotCredentialName": "Droonipiloodi kvalifikatsioonid"
   }
 }

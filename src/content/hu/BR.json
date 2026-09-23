@@ -1,26 +1,28 @@
 {
   "meta": {
-    "sourceHash": "ea748c7b76e601f153d4b211f861b85e22f55b9fa76145cee97fd3646d70f736",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bec97c97380102c0be9f7337564ebdfa78e1e4e604ee46aad735256345f2634d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximális repülési magasság: 120 m (400 ft) a talajszint felett",
+      "Legnagyobb magasság: 120 m (400 ft) AGL (ANAC); szabadidős repülések: legfeljebb 60 m (200 ft) AGL (DECEA, ICA 100-40)",
       "250 g-nál nehezebb drónok: kötelező regisztráció a SISANT-nál (ANAC)",
-      "Legfeljebb 250 g tömegű drónok: mentesülnek a regisztráció alól, automatikusan engedélyezettek",
-      "Legalább 5,4 km távolság a repülőterektől alacsony magasságú repülések esetén",
-      "Legalább 9 km távolság a repülőterektől a 120 m-ig terjedő repülések esetén",
+      "A legfeljebb 250 g-os drónokat nem kell regisztrálni a SISANT-ban (ANAC 806. sz. határozat). 2026. július 1. óta (ICA 100-40) ezekkel a drónokkal is SARPAS-engedély (DECEA) szükséges a repülésekhez. A 250 g feletti drónokat regisztrálni kell a SISANT-ban.",
+      "Repülőtéri repüléskorlátozási zónák (FRZ) (ICA 100-40, 2026. július 1. óta hatályos): a repülőtér körül (ZEA) az FRZ 1740 m-ig a talajszinttől kezdődik; alatta maradsz, ha 1740 m-en túl legfeljebb 100 ft (30 m), 2350 m-en túl 200 ft (60 m), 2960 m-en túl 300 ft, 3570 m-en túl pedig 400 ft magasan repülsz. A megközelítési és felszállási szektorokban (ZAD) az FRZ 3550 m-ig a talajszinttől kezdődik; ezt követően: 3550 m-en túl 100 ft, 4480 m-en túl 200 ft, 5400 m-en túl 300 ft és 6320 m-en túl 400 ft. Az FRZ-n belüli repüléshez Termo de Coordenação és legalább 4 naptári nappal előbb benyújtott SARPAS-kérelem szükséges.",
+      "Szabadidős repülések (ICA 100-40, 32. cikk): legfeljebb 200 ft (60 m) AGL magasság és legfeljebb 300 m vízszintes távolság. Repülőterek közelében az FRZ-sávok érvényesek – ellenőrizd a SARPAS-ban.",
       "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS)",
-      "Legalább 30 méter távolság a műveletben részt nem vevő személyektől",
-      "Ellenőrzött légtérben minden repülés előtt SARPAS (DECEA) engedély szükséges",
+      "Legalább 30 m távolság a műveletben részt nem vevő személyektől",
+      "Minden repüléshez légtér-hozzáférési engedély szükséges a SARPAS-on (DECEA) keresztül, a legfeljebb 250 g-os drónokhoz is. Minimális előzetes bejelentési idő: a nyílt kategóriában 30 perc; FRZ-t vagy korlátozott területeket érintő, BVLOS vagy 400 ft feletti műveleteknél 4 vagy 8 naptári nap. Kivételt képeznek a szabadidős célra kijelölt EAC-ban végzett szabadidős repülések.",
       "Az adóberendezést az ANATEL-nek kell hitelesítenie",
-      "Az éjszakai repülésekhez külön engedély és ütközésgátló világítás szükséges"
+      "Éjszakai repülések: a drónnak navigációs fényekkel kell rendelkeznie (ICA 100-40, 20. cikk)",
+      "A 18 év alatti pilótákat mindig egy 18 év feletti, a műveletért felelős pilótának kell kísérnie",
+      "A 250 g feletti drónok nem szabadidős használata (RBAC No. 100): kötelező a harmadik félnek okozott károkat fedező biztosítás. Az ANAC elméleti vizsgájának letétele (RBAC 100.13(b)) alól 2026. december 31-ig mentesség van (805/2026. sz. határozat, 2. cikk)."
     ],
     "importantNotes": [
-      "Turisták: Brazília ENGEDÉLYEZI a szabadidős repüléseket, de a 250 g-nál nehezebb drónokat a repülés előtt regisztrálni kell a SISANT-nál",
-      "Az ANAC által kiszabott bírság jogsértésenként elérheti a 7 000 R$-t — a regisztráció vagy SARPAS-engedély nélküli üzemeltetés súlyos szabálysértés",
+      "Turisták: Brazília ENGEDÉLYEZI a szabadidős repüléseket. A 250 g feletti drónokat regisztrálni kell a SISANT-ban (külföldiek útlevéllel is regisztrálhatnak), és a repülésekhez SARPAS-engedély (DECEA) szükséges, a legfeljebb 250 g-os drónokkal is.",
+      "Az ANAC drónokra kiszabott bírságai szabálysértésenként R$ 750 és R$ 4500 közötti alapösszegből indulnak (regisztráció nélküli üzemeltetés: R$ 2250 – 762/2024. sz. határozat); az enyhítő és súlyosító körülményektől függően a végső összeg ennek 20%-a és 300%-a között lehet (761/2024. sz. határozat, 35. cikk). A SARPAS-engedély nélküli repülés légiforgalmi szabálysértés, amelyről a JJAER dönt (ICA 100-40, 66. cikk).",
       "A nemzeti parkok (ICMBio) és az őslakos területek (FUNAI) általában külön engedély nélkül tiltják a drónokat",
       "A strandokon és a városi turistaövezetekben (Rio, São Paulo, Salvador) önkormányzati korlátozások vannak érvényben — érdeklődj a helyi hatóságoknál"
     ],
@@ -35,7 +37,7 @@
       },
       {
         "title": "SARPAS — Repülési engedély (DECEA)",
-        "description": "A DECEA rendszere, amelyen keresztül ellenőrzött légtérben repülési engedélyt lehet igényelni. Minden repülés előtt kötelező"
+        "description": "A DECEA rendszere a légtér-hozzáférési engedély igényléséhez, a legfeljebb 250 g-os drónokhoz is. Minden repülés előtt kötelező"
       },
       {
         "title": "ANATEL — Berendezés-hitelesítés",
@@ -48,15 +50,15 @@
         "description": "Aktív NOTAM-ok és hivatalos DECEA légiforgalmi térképek az ideiglenes korlátozások ellenőrzéséhez"
       },
       {
-        "title": "ANAC — Gyakran ismételt kérdések a drónokról",
-        "description": "Az ANAC hivatalos válaszai a drónüzemeltetők gyakori kérdéseire"
+        "title": "ANAC — Gyakran ismételt kérdések a SISANT-ról (drónregisztráció)",
+        "description": "Az ANAC hivatalos válaszai a SISANT-regisztrációról, külföldiek számára is"
       },
       {
-        "title": "RBAC-E No. 94 — Teljes műszaki szabvány",
-        "description": "A brazil polgári légiközlekedésre vonatkozó különleges rendelet, No. 94 — a drónokra alkalmazandó teljes szöveg"
+        "title": "RBAC No. 100 — Teljes műszaki szabvány",
+        "description": "100. sz. brazil polgári légügyi szabályzat (az RBAC-E No. 94 helyébe lép) — a drónokra alkalmazandó teljes szöveg"
       }
     ],
-    "disclaimerText": "Repülés előtt mindig ellenőrizd az ANAC és a DECEA hivatalos forrásait. Ez az alkalmazás egy segédeszköz, nem jogi forrás. Brazília a RBAC-E No. 94-et alkalmazza (jelenleg folyamatban van az átállás a RBAC No. 100-ra), amely kötelező jóváhagyást ír elő a SARPAS-on keresztül.",
+    "disclaimerText": "Repülés előtt mindig ellenőrizd az ANAC és a DECEA hivatalos forrásait. Ez az alkalmazás egy segédeszköz, nem jogi forrás. Brazília az RBAC No. 100-at és a 806. sz. határozatot (ANAC, 2026 júniusa óta), valamint az ICA 100-40-et (DECEA, 2026 júliusa óta) alkalmazza, a SARPAS-on keresztüli kötelező engedélyezéssel.",
     "sectionLabelRules": "FŐBB SZABÁLYOK",
     "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
     "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",

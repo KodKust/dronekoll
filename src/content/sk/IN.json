@@ -1,33 +1,36 @@
 {
   "meta": {
-    "sourceHash": "3a3b9b255bdedf5698cf0b9dcc6dcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "17cf8ce1211fdb6fb07c1979f47d5e58",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
-    "disclaimerText": "Pred lietaním vždy skontrolujte oficiálne zdroje DGCA a DigitalSky. Táto aplikácia je nástroj, nie právny zdroj. India používa povinnú digitálnu platformu pre všetky povinnosti súvisiace s dronmi.",
+    "disclaimerText": "Pred lietaním vždy skontrolujte oficiálne zdroje DGCA (eGCA) a DigitalSky. Táto aplikácia je nástroj, nie právny zdroj.",
     "sectionLabelRules": "KĽÚČOVÉ PRAVIDLÁ",
     "sectionLabelPrimary": "OFICIÁLNE ZDROJE",
     "sectionLabelSecondary": "ĎALŠIE ZDROJE",
     "linksSheetTitle": "Vzdušný priestor a pravidlá — India",
     "dronePilotCredentialName": "Osvedčenie diaľkovo riadiaceho pilota",
     "keyRules": [
-      "DigitalSky rozdeľuje vzdušný priestor na zelené zóny (okamžité automatizované povolenie), žlté zóny (riadený vzdušný priestor, automatizované spracovanie približne 15 – 30 min — zahŕňa pásmo okolo letiska, približne 8 – 12 km) a červené zóny (obmedzené, vyžaduje sa manuálne schválenie) — pred letom vždy skontrolujte DigitalSky, pretože presné hranice zón pri konkrétnom letisku sa môžu od tohto všeobecného vzoru líšiť.",
+      "DigitalSky rozdeľuje vzdušný priestor na zelenú zónu (bez povolenia, do 120 m/400 ft), žltú (povolenie príslušného orgánu riadenia letovej prevádzky) a červenú (iba povolenie ústrednej vlády). Vo vzdialenosti 8 – 12 km od hranice prevádzkovaného letiska platí zelená zóna iba do 60 m (200 ft); nad touto výškou je žltá. Pred lietaním vždy skontrolujte mapu DigitalSky.",
+      "Pokiaľ nie je dron oslobodený (drony Nano do 250 g alebo modelové drony do 25 kg používané iba na vzdelávanie, výskum alebo rekreáciu v rámci vizuálneho dohľadu), musí zodpovedať typovému osvedčeniu DGCA. DGCA dočasne pozastavil registráciu dronov bez typového osvedčenia až do odvolania (priamo na DGCA sa môžu obrátiť iba drony Nano a modelové drony vyrobené v Indii) a s nezaregistrovaným dronom sa nesmie lietať.",
       "Poistenie je povinné pre všetky kategórie okrem Nano",
-      "Remote Pilot Certificate (RPC) sa vyžaduje pri komerčnom použití dronov kategórie Micro (250 g – 2 kg) a väčších a je povinný pre všetky drony kategórie Small (2 – 25 kg) a vyšších kategórií bez ohľadu na účel. Pre kategóriu Nano (<250 g) sa RPC nevyžaduje nikdy, ani pri komerčnom použití.",
+      "Remote Pilot Certificate (RPC) sa vyžaduje pri komerčnom použití dronov kategórie Micro (>250 g – 2 kg) a väčších a je povinný pre všetky drony kategórie Small (2 – 25 kg) a vyšších kategórií bez ohľadu na účel. Kategória Nano (≤250 g) RPC nepotrebuje nikdy, ani pri komerčnom použití.",
       "Každý let musí zostať v priamom vizuálnom dohľade — dron musí byť po celý čas viditeľný voľným okom, bez ďalekohľadu alebo podobných pomôcok — pokiaľ DGCA neudelila osobitné povolenie EVLOS/BVLOS.",
       "Lietanie v červených zónach je bez osobitného povolenia príslušného orgánu prostredníctvom DigitalSky prísne zakázané."
     ],
     "importantNotes": [
-      "Registrácia v DigitalSky je povinná pre všetky drony okrem kategórie Nano (<250 g), ktorá nepotrebuje registráciu ani UIN. Lietaním s neregistrovaným dronom, ktorý registráciu vyžaduje, hrozí jeho zabavenie.",
+      "Všetky drony vrátane kategórie Nano (≤250 g) musia byť pred lietaním zaregistrované a mať UIN (cez portál eGCA úradu DGCA). Drony Nano sú oslobodené iba od typovej certifikácie, Remote Pilot Certificate a poistenia zodpovednosti voči tretím osobám. Za lietanie s nezaregistrovaným dronom hrozia pokuty a zhabanie dronu.",
+      "Návštevníci: dovoz dronov do Indie je podľa DGFT Notification 54/2022 zakázaný (všetky hmotnostné triedy vrátane ≤250 g), s výnimkou povolenia DGFT na vládne či výskumno-vývojové účely alebo na obranné/bezpečnostné použitie. Registrácia vyžaduje indický pas alebo doklad totožnosti vydaný indickou vládou a doklad o adrese, takže dron návštevníka spravidla nemožno legálne zaregistrovať ani s ním lietať.",
       "Červené zóny zahŕňajú letiská, vojenské oblasti, hranice a citlivé lokality",
-      "Poistenie je povinné pre drony kategórie Micro, Small a Medium"
+      "Poistenie je povinné pre drony kategórie Micro, Small a Medium",
+      "Každú nehodu, pri ktorej bol zapojený váš dron, musíte nahlásiť DGCA do 48 hodín."
     ],
     "primaryLinks": [
       {
         "title": "DigitalSky — Platforma DGCA",
-        "description": "Povinná platforma na registráciu dronov, letové povolenia a kontrolu zón"
+        "description": "Povinná platforma na letové povolenia a kontrolu zón"
       },
       {
         "title": "DGCA — Predpisy pre drony",

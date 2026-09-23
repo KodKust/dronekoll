@@ -1,63 +1,69 @@
 {
- "meta": {
-  "sourceHash": "508ee28346525a09001728f6f525106d73a15d373ba459d581dbbbe091cc7d62",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Maximum 120 m deasupra nivelului solului (categoria EASA Open)",
-   "Respectă în totalitate reglementările elvețiene FOCA privind dronele",
-   "Înregistrare prin sistemul elvețian (10 CHF, valabilă pe termen nelimitat) dacă drona cântărește 250 g sau mai mult ori este echipată cu o cameră",
-   "Asigurare de răspundere civilă obligatorie pentru dronele cu o greutate de peste 250 g (acoperire de 1 milion CHF)",
-   "Castelul din Vaduz: interdicție totală de zbor",
-   "Menține întotdeauna contactul vizual direct (VLOS) cu drona",
-   "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
-   "La cel puțin 5 km de orice aeroport sau aerodrom",
-   "O țară foarte mică — zborurile transfrontaliere către Elveția sau Austria necesită o atenție deosebită",
-   "Teren alpin: fii atent la rutele elicopterelor"
-  ],
-  "importantNotes": [
-   "Liechtenstein respectă în totalitate reglementările elvețiene FOCA",
-   "Același sistem de înregistrare ca în Elveția (10 CHF, nelimitat)",
-   "Castelul din Vaduz este o zonă de interdicție strictă de zbor",
-   "Țara are doar aproximativ 25 km lungime — este ușor să treci granița fără să vrei",
-   "GDPR se aplică (membru SEE) atunci când sunt filmate persoane identificabile"
-  ],
-  "primaryLinks": [
-   {
-    "title": "FOCA/BAZL — reglementări privind dronele",
-    "description": "Liechtenstein respectă reglementările elvețiene FOCA privind dronele"
-   },
-   {
-    "title": "FOCA — înregistrare ca operator",
-    "description": "Același sistem de înregistrare ca în Elveția (10 CHF, valabil pe termen nelimitat)"
-   },
-   {
-    "title": "Swiss Dronemap — harta spațiului aerian",
-    "description": "Harta oficială interactivă a dronelor (include Liechtenstein)"
-   },
-   {
-    "title": "Guvernul Liechtensteinului — aviație",
-    "description": "Portalul guvernamental al Liechtensteinului cu informații despre aviație"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Skyguide — controlul traficului aerian",
-    "description": "Controlul traficului aerian elvețian/liechtensteinez"
-   },
-   {
-    "title": "FOCA — întrebări frecvente despre drone",
-    "description": "Întrebări frecvente despre reglementările privind dronele"
-   }
-  ],
-  "disclaimerText": "Verifică întotdeauna sursele oficiale ale FOCA/BAZL și Swiss Dronemap înainte de fiecare zbor. Această aplicație este un instrument — nu o sursă juridică. Liechtenstein respectă reglementările elvețiene FOCA/EASA.",
-  "sectionLabelRules": "REGULI ESENȚIALE (CATEGORIA EASA OPEN)",
-  "sectionLabelPrimary": "SURSE OFICIALE",
-  "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
-  "linksSheetTitle": "Spațiu aerian și reglementări — Liechtenstein",
-  "dronePilotCredentialName": "Certificat de pilot la distanță"
- }
+  "meta": {
+    "sourceHash": "eee1f5c184b67a857980e5927e116be613b5cef533bad82326dd2e369b059d05",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "În categoria deschisă, înălțimea maximă este de 120 m, măsurată ca distanța față de cel mai apropiat punct al suprafeței Pământului — nu pur și simplu pe verticală în jos, așa că în apropierea unei pante poate conta și terenul de lângă tine. La mai puțin de 50 m de un obstacol artificial înalt (peste 105 m), entitatea responsabilă de obstacol poate solicita autorizarea de a zbura până la 15 m deasupra înălțimii obstacolului.",
+      "Respectă în totalitate reglementările elvețiene FOCA privind dronele",
+      "Trebuie să te înregistrezi ca operator de drone dacă drona ta cântărește 250 g sau mai mult (sau ar putea transfera peste 80 J de energie cinetică la impact) — acest lucru se aplică și jucăriilor. Sub 250 g, înregistrarea este totuși obligatorie dacă drona are un senzor capabil să capteze date cu caracter personal, cu excepția cazului în care este considerată jucărie conform Directivei UE privind siguranța jucăriilor. Numărul de operator (fără ultimele trei caractere) trebuie afișat vizibil pe fiecare dronă. Cerințele privind instruirea/competența pilotului sunt reglementate separat și depind de clasa și subcategoria dronei.",
+      "Vârsta minimă a pilotului la distanță (categoria deschisă): 12 ani; piloții mai tineri doar sub supravegherea unei persoane de cel puțin 16 ani care deține un certificat",
+      "Asigurare de răspundere civilă obligatorie pentru dronele cu o greutate de peste 250 g (acoperire de 1 milion CHF)",
+      "Remote ID (identificarea la distanță) trebuie să fie pornit în timpul zborului, cu numărul de operator salvat — cu excepția dronelor din clasa C0, a celor fără marcă de clasă (legacy) și a celor construite în regie proprie",
+      "Zonă permanentă de interdicție a zborului pentru drone „Regierungsgebäude – Landtag – Schloss Vaduz” (toate clasele de greutate). Permisele de derogare pot fi solicitate la Amt für Hochbau und Raumplanung.",
+      "Heliportul Balzers (LSXB): dronele de peste 250 g sunt interzise în anumite părți din Balzers, iar toate dronele direct la heliport — excepții doar cu permis",
+      "În categoria deschisă trebuie să menții drona în propriul câmp vizual, cu ochiul liber (ochelarii/lentilele de contact sunt permise; binoclul sau un ecran nu contează) — sau să zbori cu sprijinul unui observator, menținând în permanență o comunicare clară și eficientă între voi, astfel încât să supravegheați împreună spațiul aerian și să evitați coliziunile. Modul Follow-me este o excepție separată, permisă până la 50 m de pilot.",
+      "Zborurile de noapte doar în raza vizuală și cu luminile de poziție aprinse; redu distanța în mod corespunzător",
+      "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
+      "Nu există o distanță uniformă la nivelul UE pe care trebuie să o păstrezi față de aeroporturi. Restricțiile din apropierea aeroporturilor sunt publicate ca zone geografice (articolul 15), a căror formă și dimensiune diferă de la un aeroport la altul. Înainte de a zbura în apropierea unui aeroport, aerodrom sau heliport, verifică harta oficială a zonelor pentru drone din țara ta; zborul într-o zonă de control (CTR) necesită de regulă autorizarea prealabilă a controlului traficului aerian.",
+      "Înainte de fiecare zbor, verifică și DABS (Daily Airspace Bulletin Switzerland, skybriefing.com/de/dabs) — dacă zona de zbor este afectată, nu ai voie să zbori.",
+      "O țară foarte mică — zborurile transfrontaliere către Elveția sau Austria necesită o atenție deosebită",
+      "Teren alpin: fii atent la rutele elicopterelor"
+    ],
+    "importantNotes": [
+      "Liechtenstein respectă în totalitate reglementările elvețiene FOCA",
+      "Același sistem de înregistrare ca în Elveția (10 CHF, nelimitat)",
+      "Rezident într-un stat EASA (UE, Elveția, Liechtenstein, Norvegia, Islanda): înregistrează-te în țara de reședință — înregistrarea este valabilă în toate statele EASA. Rezident în afara statelor EASA: înregistrează-te înainte de zbor, dacă nu ești deja înregistrat într-un stat EASA (în Elveția prin dLIS la BAZL, CHF 10). Certificatele de pilot la distanță din state din afara EASA nu sunt recunoscute.",
+      "Zona „Regierungsgebäude – Landtag – Schloss Vaduz” este o zonă permanentă de interdicție a zborului pentru drone (toate clasele de greutate)",
+      "Țara are doar aproximativ 25 km lungime — este ușor să treci granița fără să vrei",
+      "GDPR se aplică (membru SEE) atunci când sunt filmate persoane identificabile"
+    ],
+    "primaryLinks": [
+      {
+        "title": "FOCA/BAZL — reglementări privind dronele",
+        "description": "Liechtenstein respectă reglementările elvețiene FOCA privind dronele"
+      },
+      {
+        "title": "FOCA — înregistrare ca operator",
+        "description": "Același sistem de înregistrare ca în Elveția (10 CHF, valabil pe termen nelimitat)"
+      },
+      {
+        "title": "Harta pentru drone BAZL — Harta spațiului aerian",
+        "description": "Harta oficială pentru drone a BAZL (se aplică și în Liechtenstein)"
+      },
+      {
+        "title": "Landespolizei Liechtenstein — Drone",
+        "description": "Informații despre drone și zonele de interdicție a zborului din Liechtenstein"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Skyguide — controlul traficului aerian",
+        "description": "Controlul traficului aerian elvețian/liechtensteinez"
+      },
+      {
+        "title": "FOCA — întrebări frecvente despre drone",
+        "description": "Întrebări frecvente despre reglementările privind dronele"
+      }
+    ],
+    "disclaimerText": "Verifică întotdeauna sursele oficiale ale FOCA/BAZL și harta pentru drone BAZL înainte de fiecare zbor. Această aplicație este un instrument — nu o sursă juridică. Liechtenstein respectă reglementările elvețiene FOCA/EASA.",
+    "sectionLabelRules": "REGULI ESENȚIALE (CATEGORIA EASA OPEN)",
+    "sectionLabelPrimary": "SURSE OFICIALE",
+    "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
+    "linksSheetTitle": "Spațiu aerian și reglementări — Liechtenstein",
+    "dronePilotCredentialName": "Certificat de pilot la distanță"
+  }
 }

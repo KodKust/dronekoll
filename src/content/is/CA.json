@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "51b497a18aafd4cff4e8165ebea4d22e",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "05a601befa3ab4524ab9e1c3f953a9bc",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-23",
     "sourceLang": "en"
   },
   "fields": {
@@ -14,21 +14,27 @@
     "dronePilotCredentialName": "Flugmannsvottorð",
     "keyRules": [
       "Að hámarki 122 m (400 fet) yfir jörðu",
-      "Sýndu skráningarnúmerið (C-F####) á drónanum",
+      "Fljúgðu aldrei innan 9,3 km (5 NM) frá gróðureldi eða innan öryggissvæðis neyðaraðgerðar (slyss, flóðs) — gildir um alla dróna, þar á meðal undir 250g.",
+      "Ekkert flug á eða nálægt auglýstum viðburðum (tónleikum, hátíðum, íþróttaviðburðum) án SFOC-RPAS — þetta á einnig við um dróna undir 250g.",
+      "Sýndu skráningarnúmer drónans (t.d. C-1234567890) greinilega á drónanum",
       "Grunnvottorð: 14 ára og eldri, 35 spurninga próf (65% til að standast) — aðeins óstýrt loftrými",
       "Framhaldsvottorð: 16 ára og eldri, 50 spurninga próf (80% til að standast) + flugmat — stýrt loftrými",
       "Drónar undir 250 g: hvorki þarf skráningu né vottorð",
+      "Erlendir gestir sem fljúga eigin dróna sem vegur 250g+: þú þarft kanadískt drónaflugmannsskírteini (leyfi frá heimalandinu gildir ekki) og Foreign SFOC-RPAS, því útlendingar geta ekki skráð dróna í Kanada. Sæktu um tímanlega — þjónustuviðmiðið er 30 virkir dagar. Undir 250g: ekkert SFOC nauðsynlegt nema á auglýstum viðburðum.",
       "Haltu ávallt sjónlínu (VLOS) — bein sjónsnerting án hjálpartækja",
       "Haltu 30 m láréttri fjarlægð frá fólki (grunnrekstur)",
-      "Nema farið sé eftir skilgreindu verklagi Transport Canada skal halda 5,6 km (3 NM) fjarlægð frá vottuðum flugvöllum og 1,9 km (1 NM) frá vottuðum þyrlupöllum. Flug í stýrðu loftrými krefst framhaldsvottorðs og NAV DRONE-heimildar.",
+      "Næturflug (drónar 250g+): dróninn verður að hafa ljós sem halda honum sýnilegum þér eða sjónrænum athuganda þínum, og kveikt verður að vera á þeim.",
+      "Drónar 250g+: ekkert flug innan 12 klukkustunda frá áfengisneyslu eða undir áhrifum",
+      "Basic: haltu þig í meira en 5,6 km (3 NM) fjarlægð frá vottuðum flugvöllum og 1,9 km (1 NM) frá vottuðum þyrluvöllum. Nær aðeins með Advanced-skírteini samkvæmt viðteknum verklagsreglum. Stýrt loftrými: Advanced-skírteini + dróni með samsvarandi öryggisyfirlýsingu + NAV DRONE heimild.",
+      "Innan 5,6 km (3 NM) frá miðju herflugvallar þarftu heimild frá Department of National Defence.",
       "Fylkis- og þjóðgarðar banna almennt tómstundaflug dróna — staðfest bann gildir í fylkisgörðum Alberta, Ontario og Bresku Kólumbíu og í öllum þjóðgörðum Parks Canada. Athugaðu reglur viðkomandi garðs áður en þú flýgur."
     ],
     "importantNotes": [
-      "Fylkisgarðar í Bresku Kólumbíu og Alberta banna tómstundadróna án leyfis",
+      "Fylkisgarðar í BC og Alberta: ólöglegt er að fljúga dróna án leyfis garðsins, og tómstundaflug er ekki leyft (Alberta: óháð stærð; BC: leyfi sjaldan veitt)",
       "Fylkisgarðar í Ontario og borgargarðar í Toronto banna tómstundadróna",
-      "Flest sveitarfélög banna dróna í almenningsgörðum án leyfis",
+      "Önnur sveitarfélög kunna einnig að banna dróna í borgargörðum án leyfis — kannaðu samþykktir sveitarfélagsins áður en þú flýgur",
       "Trygging er ekki nauðsynleg fyrir grunnrekstur en eindregið mælt með henni",
-      "Level 1 Complex Operations vottorð (frá nóvember 2025) gerir kleift að stunda áhættulítinn BVLOS-rekstur án SFOC"
+      "Level 1 Complex flugmannsskírteini (18+) leyfir BVLOS-flug með lítilli áhættu án SFOC frá 4. nóvember 2025 — en aðeins undir RPAS Operator Certificate (RPOC), sem þú eða rekstraraðilinn sem þú flýgur fyrir hefur"
     ],
     "primaryLinks": [
       {
@@ -37,7 +43,7 @@
       },
       {
         "title": "Transport Canada — Skráðu drónann þinn",
-        "description": "Skráðu dróna 250 g+ í gegnum Drone Management Portal (5 $, ~3 mínútur)"
+        "description": "Skráðu dróna 250g+ í gegnum Drone Management Portal (um 10 $, leiðrétt árlega; ~3 mínútur)"
       },
       {
         "title": "NAV DRONE — Stýrt loftrými",
