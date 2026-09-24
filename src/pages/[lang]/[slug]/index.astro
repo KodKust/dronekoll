@@ -142,17 +142,15 @@ const ldBlocks = [
         {h1.pre}{h1.article}<span class="h-accent">{h1.accent}</span>{h1.post}
       </h1>
       <p class="lede prose">{t('hero.lede.country', lang)}</p>
-      {/* Endast freshness-badgen: myndighet/regelverk/karta fanns tidigare
-          som chip här men dubblerades av snabbfakta-korten och ankarnavet
-          direkt nedanför ("kaka på kaka", Kristoffer 2026-07-30). */}
-      <div class="hero__meta">
-        <FreshnessBadge
-          lang={lang}
-          iso={page.iso}
-          lastVerified={c.lastVerified}
-          monitored={c.hasAirspaceOverlay}
-        />
-      </div>
+      {/* Bara feed-badgen (övervakade länder, visas endast vid degraderad feed):
+          myndighet/regelverk/karta fanns tidigare som chip här men dubblerades
+          av snabbfakta-korten ("kaka på kaka", Kristoffer 2026-07-30); datum-
+          stämpeln "Regler kontrollerade" är borttagen 2026-09-24. */}
+      {c.hasAirspaceOverlay && (
+        <div class="hero__meta">
+          <FreshnessBadge lang={lang} iso={page.iso} monitored />
+        </div>
+      )}
     </div>
   </section>
 
@@ -291,6 +289,11 @@ const ldBlocks = [
        (2026-07-15, mobil-overflow-läxan) */
     min-width: 0;
     max-width: 100%;
+  }
+  /* Feed-badgen är dold i normalläget (visas bara vid degraderad feed) — då ska
+     inte heller dess tomma behållare ta plats under ingressen. */
+  .hero__meta:has(> .freshness[hidden]) {
+    display: none;
   }
   .section-title { margin-bottom: var(--space-5); }
   .quick-answer { margin-bottom: var(--space-5); }

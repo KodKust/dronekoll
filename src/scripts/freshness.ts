@@ -3,14 +3,13 @@
  * Hämtar pappilappi status.json (CORS ok) och visar luftrumsFEEDENS status
  * som en SEPARAT, tydligt märkt notering.
  *
- * REPO-P0-03: badgens huvudtext ("Regler kontrollerade {datum}") är ett
- * juridiskt granskningsdatum och får ALDRIG skrivas över av teknisk
- * pipeline-/feed-status — en frisk feed är inte bevis för att reglerna är
- * aktuella. Vid frisk feed visas därför INGET extra (tystnad = normalläge,
- * ingen anledning att trumpeta en teknisk detalj). Vid degraderad feed
- * TILLÄGGS en distinkt notering — ersätter aldrig regel-datumet.
- * Fetch-fel → inget tillägg, SSR-texten står orörd. Ingen relativtid (den
- * beskrev feedens ålder, inte reglernas — konflationsrisk togs bort med den).
+ * Sedan 2026-09-24 bär badgen ingen egen text — datumstämpeln "Regler
+ * kontrollerade {datum}" är borttagen (se FreshnessBadge.astro). Badgen är
+ * dold (`hidden`) och visas BARA med feed-noteringen när en feed är
+ * degraderad. REPO-P0-03 gäller fortfarande: feed-status är teknisk status
+ * och får aldrig läsas som att reglerna är kontrollerade — frisk feed ⇒
+ * ingen badge alls (tystnad = normalläge). Fetch-fel → badgen förblir dold.
+ * Ingen relativtid (den beskrev feedens ålder, inte reglernas).
  */
 const badge = document.querySelector<HTMLElement>('[data-freshness]');
 
@@ -58,11 +57,12 @@ if (badge) {
 
       const note = document.createElement('span');
       note.className = 'freshness__feednote';
-      note.textContent = ' · ' + (badge.dataset.msgWarn || '');
+      note.textContent = badge.dataset.msgWarn || '';
       badge.querySelector('.freshness__text')?.appendChild(note);
+      badge.hidden = false; // badgen finns bara för att bära just den här noteringen
     })
     .catch(() => {
-      /* Inget tillägg — SSR-texten (regel-datumet) står orörd. */
+      /* Inget tillägg — badgen förblir dold. */
     });
 }
 
