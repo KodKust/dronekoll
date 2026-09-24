@@ -1,23 +1,23 @@
 {
   "meta": {
-    "sourceHash": "3be5ea4356d33508cdfa72168e28336876f3048cd12d77af66e6840fe65da1e4",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ca02f210ab67dc8eec19b622349f74c1c59940a9cc38a87f1711298b83f779a7",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalnie 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-      "Rejestracja jako operator UAS (bezpłatna, ważna 3 lata), jeśli dron waży 250 g lub więcej albo ma kamerę",
-      "Obowiązkowe szkolenie online A1/A3 dla dronów o masie 250 g lub więcej — minimalny wiek pilota: 16 lat.",
-      "Obowiązkowe ubezpieczenie od odpowiedzialności cywilnej dla dronów o masie powyżej 900 g",
-      "Zabronione są loty nad instalacjami wojskowymi, więzieniami, ambasadami i siłami bezpieczeństwa (Decree-Law No. 87/2021). Sintra-Cascais Natural Park wymaga zezwolenia ICNF.",
-      "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
+      "W kategorii otwartej maksymalna wysokość wynosi 120 m, mierzona jako odległość od najbliższego punktu powierzchni ziemi — nie po prostu pionowo w dół, więc w pobliżu zbocza może się liczyć również teren obok Ciebie. W promieniu 50 m od wysokiej sztucznej przeszkody (powyżej 105 m) podmiot odpowiedzialny za przeszkodę może wystąpić o zezwolenie na lot do 15 m powyżej wysokości przeszkody.",
+      "Musisz zarejestrować się jako operator drona, jeśli Twój dron waży 250 g lub więcej (lub może przekazać energię uderzenia większą niż 80 J) — dotyczy to nawet zabawek. Poniżej 250 g rejestracja nadal jest wymagana, jeśli dron ma czujnik zdolny do rejestrowania danych osobowych, chyba że jest uznawany za zabawkę w rozumieniu europejskiej dyrektywy w sprawie bezpieczeństwa zabawek. Wymogi dotyczące szkolenia/certyfikatu pilota są odrębne i zależą od klasy drona oraz podkategorii.",
+      "W Portugalii minimalny wiek do samodzielnego latania w kategorii otwartej wynosi 16 lat. Szkolenie i egzamin A1/A3 są bezpłatne, odbywają się online i są ważne 5 lat.",
+      "Ubezpieczenie od odpowiedzialności cywilnej wobec osób trzecich jest obowiązkowe dla dronów o MTOM powyżej 900 g (Decreto-Lei n.º 58/2018); minimalny zakres ochrony, warunki i sumę ubezpieczenia określa Portaria n.º 2/2021.",
+      "Loty nad organami władzy suwerennej, ambasadami i konsulatami, instalacjami wojskowymi, obiektami sił i służb bezpieczeństwa oraz więzieniami są zabronione, chyba że zezwoli na nie odpowiedzialny podmiot (ANAC Regulamento n.º 1093/2016, utrzymane w mocy przez Decreto-Lei n.º 87/2021). Sintra-Cascais Natural Park wymaga zezwolenia ICNF.",
+      "W kategorii otwartej musisz utrzymywać drona we własnym bezpośrednim zasięgu wzroku, gołym okiem (okulary/soczewki kontaktowe są dopuszczalne; lornetka ani ekran się nie liczą) — albo latać z pomocą obserwatora, przez cały czas utrzymując z nim jasną i skuteczną komunikację, tak aby wspólnie monitorować przestrzeń powietrzną i unikać kolizji. Tryb „follow-me” to osobny wyjątek, dozwolony do 50 m od pilota.",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
-      "Nie lataj w strefach ochronnych lotnisk i lądowisk dla śmigłowców (CTR/ATZ) bez zezwolenia — sprawdź strefy na mapie aplikacji oraz na voanaboa.pt.",
+      "Nie lataj w strefach ochronnych lotnisk i lądowisk dla śmigłowców (CTR/ATZ) bez zezwolenia — sprawdź strefy na mapie aplikacji oraz na dnt.anac.pt.",
       "Loty nocne są dozwolone w kategorii otwartej bez zezwolenia ANAC — włącz na dronie migające zielone światło.",
       "Azory i Madera: mogą obowiązywać dodatkowe ograniczenia regionalne",
-      "Fotografia i filmowanie z powietrza (oraz rozpowszechnianie takich materiałów) wymagają zezwolenia AAN — wnioski można składać bezpłatnie online za pośrednictwem platformy e-AAN."
+      "Rejestrowanie obrazów z powietrza wymaga uprzedniego zezwolenia Autoridade Aeronáutica Nacional (AAN) przez platformę e-AAN — jedyny kanał dla zdjęć lotniczych. Wniosek należy złożyć co najmniej 10 dni przed rozpoczęciem działalności; maksymalny przyznawany okres to 30 kolejnych dni (Guia Rápido e-AAN wydany przez AAN)."
     ],
     "importantNotes": [
       "Portugalia ma podwójny system: ANAC reguluje loty, natomiast AAN zezwala na rejestrowanie obrazów z powietrza.",
@@ -33,8 +33,11 @@
         "description": "Oficjalne zasady i materiały portugalskiego urzędu lotnictwa cywilnego dotyczące dronów"
       },
       {
+        "title": "ANAC — Mapa stref geograficznych UAS"
+      },
+      {
         "title": "ANAC — Rejestracja jako operator",
-        "description": "Bezpłatna rejestracja jako operator UAS (ważna 3 lata, uznawana we wszystkich krajach UE/EASA)"
+        "description": "Bezpłatna rejestracja jako operator UAS (ważna 3 lata, uznawana we wszystkich krajach UE/EASA). Rejestracji dokonuje się na uas.anac.pt; wymaga ona portugalskiego numeru NIF i aktywnego Chave Móvel Digital."
       },
       {
         "title": "NAV Portugal — Informacje o przestrzeni powietrznej",

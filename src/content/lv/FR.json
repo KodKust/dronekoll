@@ -1,27 +1,29 @@
 {
   "meta": {
-    "sourceHash": "3f4b20da70d5a10b806d80689b9428a53f6f6f6a4f589f0dc439331194e5f8eb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df6b14f4fc38b5f9f75477bc725375986243192e5884f43ee6f721a2e4667902",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne vairāk kā 120 m virs zemes (EASA atvērtā kategorija)",
-      "Reģistrācija AlphaTango ir nepieciešama (bez maksas, derīga 5 gadus) jebkuram dronam, kas sver 250 g vai vairāk vai ir aprīkots ar kameru",
-      "Obligāta A1/A3 tiešsaistes apmācība — minimālais vecums 14 gadi. Iepriekšējās BAPD apliecības (pašapliecinājumi) no 2026. gada 1. janvāra vairs nav derīgas.",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, ko mēra kā attālumu līdz tuvākajam Zemes virsmas punktam — nevis vienkārši taisni uz leju, tāpēc nogāzes tuvumā var tikt ņemta vērā arī zeme tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgā persona var lūgt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Tev jāreģistrējas kā drona operatoram, ja tavs drons sver 250 g vai vairāk (vai sadursmē var nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas pat uz rotaļlietām. Droniem, kas sver mazāk par 250 g, reģistrācija joprojām ir obligāta, ja dronam ir sensors, kas spēj uztvert personas datus, izņemot gadījumus, kad tas tiek uzskatīts par rotaļlietu saskaņā ar ES Rotaļlietu drošuma direktīvu. Prasības par tālvadības pilota apmācību/apliecību ir atsevišķas un atkarīgas no drona klases un apakškategorijas.",
+      "Francijā pastāv divas atsevišķas reģistrācijas: operatora reģistrācija (no 250 g vai ar personas datu sensoru) un paša gaisa kuģa reģistrācija AlphaTango, tiklīdz tā masa pārsniedz 800 g un/vai tas ir aprīkots ar elektroniskās identifikācijas ierīci. Reģistrācijas numurs jāpiestiprina pie gaisa kuģa.",
+      "Francijā minimālais vecums, lai atvērtajā kategorijā lidotu patstāvīgi, ir 14 gadi (bezmaksas tiešsaistes A1/A3 apmācība un eksāmens AlphaTango, derīgi 5 gadus, atzīti visā ES). Minimālā vecuma nav: A1 apakškategorijā ar C0 klases gaisa kuģi, kas atbilst Rotaļlietu direktīvai 2009/48/EK; ar privāti būvētu gaisa kuģi, kas sver mazāk par 250 g; vai tāda tālvadības pilota tiešā uzraudzībā, kuram ir vismaz 16 gadi, ja abiem ir nepieciešamā apmācība un nokārtoti eksāmeni. Šis pazeminātais vecums attiecas tikai uz Franciju — citā ES valstī piemēro attiecīgās valsts minimālo vecumu.",
       "Civiltiesiskās atbildības apdrošināšana ir stingri ieteicama atpūtas lietošanai (obligāta profesionālai vai komerciālai lietošanai)",
-      "Paris un Île-de-France: plašas lidojumu aizlieguma zonas — apmeklē Géoportail",
-      "Vienmēr turi dronu tiešā redzeslokā (VLOS)",
+      "Paris un Île-de-France: plašas lidojumu aizlieguma zonas — pārbaudi oficiālo DGAC karti (cartes.gouv.fr)",
+      "Nacionālais noteikums (arrêté “Espace”, 5. un 6. pants): atvērtajā kategorijā lidot virs publiskās telpas apdzīvotās vietās — ielām, laukumiem, publiskiem parkiem un dārziem, pludmalēm, promenādēm — atļauts tikai (i) operatora profesionālās darbības ietvaros, apdzīvotā teritorijā vismaz desmit darba dienas pirms lidojuma iesniedzot prefektam iepriekšēju deklarāciju caur AlphaTango (CERFA 15476), kuras rezultātā lidojumu var aizliegt vai ierobežot; vai (ii) vietās, kur prefekts atļauj atvērtās kategorijas vai aeromodeļu lidojumus. Atpūtas lietošanai tas faktiski izslēdz publisko telpu pilsētās un ciematos — ne tikai Parīzē.",
+      "Atvērtajā kategorijā dronam jāatrodas tavā tiešās redzamības zonā, uz to skatoties ar neapbruņotu aci (korektīvās brilles/lēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai arī lido ar novērotāja palīdzību, visu laiku uzturot skaidru un efektīvu saziņu savā starpā, lai kopā varētu uzraudzīt gaisa telpu un izvairīties no sadursmēm. Režīms “Follow-me” ir atsevišķs izņēmums, kas atļauts līdz 50 m attālumā no tālvadības pilota.",
       "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kuras nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
-      "Minimālais attālums 5 km no jebkuras lidostas vai lidlauka — taču kontroles zonā (CTR) nepieciešama iepriekšēja gaisa satiksmes vadības torņa atļauja",
-      "Nakts lidojumi ir atļauti saskaņā ar EASA atvērtās kategorijas pamatnosacījumiem, ja tiek izmantota nepieciešamā zaļā mirgojošā gaisma, ja vien spēkā esošie ģeogrāfiskās zonas ierobežojumi vai valsts noteikumi neparedz stingrākas prasības.",
+      "Nav vienota, visā ES noteikta attāluma, kas jāievēro no lidostām. Ierobežojumi lidostu tuvumā tiek publicēti kā ģeogrāfiskās zonas (15. pants), kuru forma un izmērs katrai lidostai atšķiras. Pirms lidošanas lidostas, lidlauka vai helikopteru laukuma tuvumā pārbaudi savas valsts oficiālo dronu zonu karti; lidošanai kontrolētajā zonā (CTR) parasti nepieciešama iepriekšēja gaisa satiksmes vadības atļauja.",
+      "Francijā nakts lidojumi atvērtajā kategorijā ir aizliegti, pat ja gaisa kuģis ir aprīkots ar gaismām (DSAC rokasgrāmata “Catégorie Ouverte”, §7). Aizliegums attiecas uz “aeronavigācijas nakti”: Francijas metropoles teritorijā tā sākas 30 minūtes pēc saulrieta un beidzas 30 minūtes pirms saullēkta. Izņēmumus var piešķirt teritoriāli kompetentais prefekts, un tie jāpieprasa vismaz 30 dienas pirms lidojumiem; izņēmumi ir arī noteiktas publicētas aeromodeļu lidošanas vietas.",
       "Specifiskā kategorija: Eiropas scenāriji STS-01 un STS-02 aizstāj iepriekšējos Francijas scenārijus S-1, S-2 un S-3 (izbeigti 2026. gadā)",
-      "Nacionālie parki un dabas rezervāti: dronu lietošana aizliegta bez prefektūras atļaujas"
+      "Nacionālie parki un dabas rezervāti: parki un rezervāti, virs kuriem lidot nedrīkst, tiek publicēti aeronavigācijas informācijā (AIP ENR 5.7.3) un ir redzami Géoportail kartē. Nacionālā parka kodolā lidot zemāk par 1000 m virs zemes aizliedz katra parka noteikumi, un par jebkādu izņēmumu lemj parka direktors — nevis prefektūra vai gaisa satiksmes vadība (Code de l'environnement, art. L331-4-1). Ārpus šiem parkiem un rezervātiem lidošana virs citām aizsargājamām teritorijām (Espaces Naturels Sensibles, Natura 2000 teritorijām u. c.) parasti nav aizliegta; to var uz laiku aizliegt ar prefekta rīkojumu."
     ],
     "importantNotes": [
       "AlphaTango reģistrācija ir bez maksas un derīga visās ES/EASA valstīs",
-      "Paris ir viena no stingrākajām lidojumu aizlieguma zonām Eiropā — praksē atpūtas lidošana nav iespējama",
+      "Parīzē visi lidojumi ārpus telpām ir aizliegti, pat privātīpašumā — Parīze ir gan apdzīvota vieta, gan “aizliegta” gaisa telpa (zona P 23)",
       "Naudassodi līdz 75 000 € un viens gads cietumā par smagiem pārkāpumiem",
       "Lidošana virs kodoliekārtām, militārām zonām un cietumiem ir noziedzīgs nodarījums",
       "Fiksējot identificējamus attēlus, jāievēro GDPR — tu esi atbildīgs par datu apstrādi."
@@ -36,8 +38,8 @@
         "description": "Bezmaksas reģistrācija kā UAS operatoram (derīga 5 gadus, atzīta visās ES/EASA valstīs)"
       },
       {
-        "title": "Geoportail — Dronu ierobežojumu karte",
-        "description": "Oficiālā karte, kurā redzamas lidojumu aizlieguma zonas, ierobežotās teritorijas un maksimāli atļautie augstumi"
+        "title": "cartes.gouv.fr — atvērtās kategorijas UAS un aeromodeļu ierobežojumi",
+        "description": "Oficiālā DGAC karte un dati: lidojumu aizlieguma zonas, ierobežotās zonas un maksimālie atļautie augstumi"
       },
       {
         "title": "Dronu lidošanas noteikumi — Service-Public.fr",

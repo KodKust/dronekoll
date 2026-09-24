@@ -1,26 +1,27 @@
 {
   "meta": {
-    "sourceHash": "33a814a3d0b5505e00903b83ae6e8352f9d6c524274ef27251d8bef1683efdd9",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bc6372b8db43aa400f327dcbe06c67e81c770544a50c90238e8b68a0ddad32f8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalna wysokość lotu 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-      "Zarejestruj się jako operator UAS (5863 ISK / 5 lat), jeśli Twój dron waży 250 g lub więcej albo ma kamerę",
-      "Kurs online A1/A3 jest obowiązkowy — minimalny wiek 16 lat",
-      "Ograniczenia na obszarach erupcji wulkanicznych: zawsze sprawdzaj bieżącą aktywność wulkaniczną",
-      "Parki narodowe (Vatnajökull, Þingvellir, Snæfellsjökull): od 17 maja 2026 r. odmawia się zgody na rekreacyjne loty dronów na 25+ obszarach chronionych (od decyzji wniesiono odwołanie)",
-      "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
+      "W kategorii otwartej maksymalną wysokość 120 m mierzy się jako odległość od najbliższego punktu powierzchni ziemi — nie tylko pionowo w dół, więc w pobliżu zbocza liczy się również grunt znajdujący się obok. W promieniu 50 m od wysokiej sztucznej przeszkody (powyżej 105 m) podmiot za nią odpowiedzialny może wystąpić o zezwolenie na lot do 15 m powyżej wysokości przeszkody.",
+      "Musisz zarejestrować się jako operator drona, jeśli dron waży 250 g lub więcej (albo może przekazać przy uderzeniu energię kinetyczną większą niż 80 J) — dotyczy to także zabawek. Poniżej 250 g rejestracja nadal jest wymagana, jeśli dron ma czujnik zdolny do gromadzenia danych osobowych, chyba że kwalifikuje się jako zabawka zgodnie z EU Toy Safety Directive. Wymagania dotyczące szkolenia/świadectwa pilota są odrębne i zależą od klasy i podkategorii drona.",
+      "Na Islandii minimalny wiek wynosi 16 lat — wyjątki dotyczą drona klasy C0 w podkategorii A1, prywatnie zbudowanego drona o masie poniżej 250 g lub lotów pod nadzorem certyfikowanego pilota zdalnego.",
+      "Podczas erupcji wulkanicznych Almannavarnir/Samgöngustofa mogą wprowadzać czasowe ograniczenia lotów dronów — ograniczenia mogą sięgać do 1500 ft, a całe obszary (np. półwysep Reykjanes podczas erupcji w lipcu 2025 r.) mogą zostać całkowicie zamknięte na czas trwania aktywności. Przed lotem zawsze sprawdzaj aktualną aktywność wulkaniczną.",
+      "Od 17 maja 2026 r. Náttúruverndarstofnun (a nie władze lotnicze) wydaje zezwolenia wyłącznie na komercyjne loty dronów na 27 obszarach chronionych. Ograniczenia mają trzy poziomy: 15 obszarów przez cały rok (m.in. Gullfoss, Geysir, Goðafoss, Skógafoss, Dyrhólaey, Látrabjarg oraz obszar ochrony Mývatn i Laxá), 11 obszarów od 1 maja do 15 września (m.in. Park Narodowy Snæfellsjökull, Dimmuborgir, Hornstrandir i Dynjandi) oraz Friðlandið að Fjallabaki od 15 czerwca do 15 września. Zezwolenia na badania naukowe, monitoring, filmowanie, fotografię komercyjną oraz wydarzenia wymagające zezwolenia są nadal wydawane. Þingvellir i Park Narodowy Vatnajökull nie znajdują się na tej liście i mają własne zasady.",
+      "Zabronione jest latanie bliżej niż 150 m od obiektów wrażliwych: elektrowni, podstacji, Alþingi, rezydencji prezydenta, ministerstw, ambasad, posterunków policji, więzień i szpitali, chyba że zezwolą na to ich właściciele lub osoby nimi zarządzające.",
+      "W kategorii otwartej musisz utrzymywać drona w zasięgu własnego wzroku bez użycia przyrządów (okulary lub soczewki kontaktowe są dozwolone; lornetka ani ekran się nie liczą) — albo latać z pomocą obserwatora, przy stałej, jasnej i skutecznej komunikacji między wami, tak abyście wspólnie mogli obserwować przestrzeń powietrzną i unikać kolizji. Tryb follow-me jest szczególnym wyjątkiem i jest dozwolony do 50 m od pilota.",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
-      "Co najmniej 2 km od lotnisk komercyjnych, 1,5 km od mniejszych lądowisk i miejsc lądowania",
+      "Latanie bez zezwolenia zarządzającego lotniskiem jest zabronione na lotniskach, na terenie lotnisk oraz w strefach ograniczeń wokół lotnisk obsługujących regularne połączenia — strefy ograniczeń to obszary pokazane na mapie w aplikacji (w wielu miejscach około 5 km). W strefie ograniczeń możesz jednak latać bez specjalnego zezwolenia, jeśli lecisz poniżej wysokości najwyższych przeszkód w promieniu 50 metrów od toru lotu drona. Zezwolenie: ISAVIA dla lotniska Keflavík, Innanlandsflugvellir ehf. dla pozostałych lotnisk obsługujących regularne połączenia.",
       "Obszary lęgowe ptaków: ograniczenia sezonowe (maj–sierpień)",
       "Trudne warunki wiatrowe: na Islandii wiatr często przekracza bezpieczne limity dla dronów"
     ],
     "importantNotes": [
       "W obszarach czynnych erupcji wulkanicznych mogą obowiązywać czasowe zakazy lotów — sprawdzaj przed każdym lotem",
-      "Od 17 maja 2026 r. Nature Conservation Agency odmawia zgody na rekreacyjne i szkoleniowe loty dronów na 25+ obszarach chronionych (w tym w parkach narodowych); od decyzji wniesiono odwołanie do Ministry of the Environment",
+      "Od 17 maja 2026 r. Náttúruverndarstofnun wydaje zezwolenia wyłącznie na komercyjne loty dronów na 27 obszarach chronionych — na części z nich przez cały rok, na innych tylko w miesiącach letnich. Sprawdź listę dla każdego obszaru na nattura.is.",
       "Islandzka pogoda jest zmienna — wiatr często przekracza bezpieczne limity dla dronów",
       "Sezon lęgowy ptaków (maj–sierpień): dodatkowe ograniczenia na wielu obszarach",
       "Islandia należy do EOG, ale nie do UE — przepisy EASA obowiązują na mocy Porozumienia EOG"
@@ -35,8 +36,8 @@
         "description": "Rejestracja jako operator UAS (5863 ISK / 5 lat, ważna w krajach EOG)"
       },
       {
-        "title": "FlyDrone.is — Mapa przestrzeni powietrznej",
-        "description": "Oficjalna interaktywna mapa dronowa pokazująca strefy zakazu lotów i ograniczenia"
+        "title": "FlyDrone.is – Rejestracja i egzamin A1/A3",
+        "description": "Strona rejestracyjna Samgöngustofa, na której operatorzy się rejestrują, zapoznają się z materiałami szkoleniowymi i zdają egzamin A1/A3 (5863 ISK, ważny 5 lat)"
       },
       {
         "title": "island.is — Rejestracja dronów",
@@ -49,8 +50,11 @@
         "description": "Islandzkie służby żeglugi powietrznej oraz informacje o przestrzeni powietrznej"
       },
       {
-        "title": "Umhverfisstofnun — Ochrona przyrody",
-        "description": "Informacje o parkach narodowych i obszarach chronionych od Agencji Ochrony Środowiska Islandii"
+        "title": "Náttúruverndarstofnun – Drony na obszarach chronionych",
+        "description": "Lista obszarów chronionych z ograniczeniami lotów dronów oraz obowiązujące w nich okresy"
+      },
+      {
+        "title": "Kortasjá – mapa dronowa"
       }
     ],
     "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła Samgöngustofa (ICETRA) oraz FlyDrone.is. Ta aplikacja jest narzędziem — a nie organem prawnym. Islandia stosuje przepisy EASA na mocy Porozumienia EOG, z dodatkami krajowymi.",

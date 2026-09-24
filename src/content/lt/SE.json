@@ -1,20 +1,20 @@
 {
   "meta": {
-    "sourceHash": "552be0e829692206489496fe6ca91a32ed231ba21bc0abd64eefd98c31764ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "2b6964864962d4242f59e63d9dc8bd2b290b6e70d78f6d916b4bea9755df4e04",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Didžiausias skrydžio aukštis: 120 m virš žemės paviršiaus (EASA atviroji kategorija).",
+      "Atvirojoje kategorijoje didžiausias aukštis yra 120 m, matuojant atstumą iki artimiausio žemės paviršiaus taško — ne vien tiesiai žemyn, todėl prie šlaito gali būti atsižvelgiama ir į greta esantį žemės paviršių. Kai skraidoma ne toliau kaip 50 m nuo aukšto žmogaus sukurto objekto (aukštesnio nei 105 m), už objektą atsakinga šalis gali paprašyti leidimo skristi iki 15 m virš objekto aukščio.",
       "Paprastai operatorius turi būti registruotas, jei dronas sveria bent 250 g arba turi kamerą ar jutiklį, galintį rinkti asmens duomenis, nebent dronui taikoma žaislams skirta išimtis. Reikalavimai dėl drono licencijos ir skrydžio atstumų priklauso nuo drono klasės, svorio ir pakategorės.",
-      "A1/A3 drono licencija reikalinga, jei dronas sveria 250 g ar daugiau — reikia išlaikyti mokamą internetinį teorijos testą, kurį administruoja Swedish Transport Agency; licencija galioja 5 metus. Mažiausias amžius savarankiškai valdyti droną — 15 metų. Jaunesni nei 15 metų gali skraidyti tik turėdami galiojančią drono licenciją ir prižiūrimi 16 metų ar vyresnio nuotolinio piloto, turinčio galiojančią drono licenciją.",
+      "Švedijoje, norint savarankiškai skraidyti su A1/A3 drono pažymėjimu, reikia būti 15 metų (internetinis teorijos testas Transportstyrelsen, mokamas, galioja 5 metus). Jaunesni nei 15 metų asmenys gali skraidyti tik tiesiogiai prižiūrimi nuotolinio piloto, kuriam yra bent 16 metų ir kuris pats turi galiojantį drono pažymėjimą.",
       "Operatoriaus numeris turi būti aiškiai pažymėtas ant drono.",
-      "Laikykite droną regėjimo lauke (VLOS) — neskraidykite už kampų ar už pastatų.",
-      "A1: lengvesni nei 250 g dronai — galima skristi virš operacijoje nedalyvaujančių asmenų, bet ne virš žmonių susibūrimų.",
-      "A2: iki 4 kg sveriantys dronai — ne arčiau kaip 30 m nuo pašalinių žmonių (5 m mažo greičio režimu). Reikalingas A2 pažymėjimas.",
-      "A3: iki 25 kg sveriantys dronai — ne arčiau kaip 150 m nuo gyvenamųjų, komercinių, pramoninių ir poilsio zonų.",
+      "Atvirojoje kategorijoje turite laikyti droną savo tiesioginiame regėjimo lauke be pagalbinių priemonių (akiniai ar kontaktiniai lęšiai tinka; žiūronai ar ekranas nelaikomi tinkamais) — arba skraidyti padedami stebėtojo, visą laiką palaikydami aiškų ir veiksmingą tarpusavio ryšį, kad kartu galėtumėte stebėti oro erdvę ir išvengti susidūrimų. Follow-me režimas yra atskira išimtis: leidžiama skristi iki 50 m nuo piloto.",
+      "A1: lengvesni nei 250 g dronai — galima skristi virš operacijoje nedalyvaujančių asmenų, bet niekada virš žmonių susibūrimų.",
+      "A2: iki 4 kg sveriantys dronai — ne arčiau kaip 30 m nuo operacijoje nedalyvaujančių žmonių (5 m įjungus mažo greičio režimą, ≤ 3 m/s) ir visada ne mažesniu atstumu nei skrydžio aukštis (taisyklė 1:1). Reikalingas A2 pažymėjimas.",
+      "A3: iki 25 kg sveriantys dronai — skraidykite tik ten, kur nesitikima operacijoje nedalyvaujančių žmonių, ir ne arčiau kaip 150 m horizontaliai nuo gyvenamųjų, komercinių, pramoninių ir poilsio zonų.",
       "Niekada neskraidykite virš minios be specialaus leidimo.",
       "Prieš kiekvieną skrydį patikrinkite LFV Drone Map ir NOTAM pranešimus."
     ],
@@ -27,38 +27,30 @@
     ],
     "primaryLinks": [
       {
-        "title": "Švedijos transporto agentūra — Dronų taisyklės",
-        "description": ""
+        "title": "Švedijos transporto agentūra — Dronų taisyklės"
       },
       {
-        "title": "LFV dronų žemėlapis — Oro erdvė",
-        "description": ""
+        "title": "LFV dronų žemėlapis — Oro erdvė"
       },
       {
-        "title": "Operatoriaus registracija (reikalinga nuo ≥250 g arba turint kamerą)",
-        "description": ""
+        "title": "Operatoriaus registracija (privaloma ≥250 g arba su kamera, 250 kr/metus)"
       },
       {
-        "title": "Drono licencija A1/A3 — Internetinis teorijos testas (reikalinga nuo ≥250 g, nuo 15 metų)",
-        "description": ""
+        "title": "Drono licencija A1/A3 — Internetinis teorijos testas (reikalinga nuo ≥250 g, nuo 15 metų)"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "A2 pažymėjimas (sunkesniems nei 500 g dronams arba skraidant arti žmonių)",
-        "description": ""
+        "title": "A2 pažymėjimas (sunkesniems nei 500 g dronams arba skraidant arti žmonių)"
       },
       {
-        "title": "AROweb — NOTAM ir AIP Sweden",
-        "description": ""
+        "title": "AROweb — NOTAM ir AIP Sweden"
       },
       {
-        "title": "Saugomi objektai — Kreipkitės į Švedijos ginkluotąsias pajėgas",
-        "description": ""
+        "title": "Saugomi objektai — Kreipkitės į Švedijos ginkluotąsias pajėgas"
       },
       {
-        "title": "Gamtos rezervatai — Pasitikslinkite apygardos administracinėje valdyboje",
-        "description": ""
+        "title": "Gamtos rezervatai — Pasitikslinkite apygardos administracinėje valdyboje"
       }
     ],
     "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius šaltinius. Ši programėlė yra įrankis, o ne teisinis šaltinis. Taisyklės gali keistis be išankstinio įspėjimo.",

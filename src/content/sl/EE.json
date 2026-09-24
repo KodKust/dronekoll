@@ -1,22 +1,22 @@
 {
   "meta": {
-    "sourceHash": "23f3ed06f9446eb9733c76bcdc77184702b32d1e071b7b4a74e10dadb06fcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "0ddaecf7ada88ef77cb8ed7fae4021c3fab852ece7e0827759a36641d94a5932",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Do 120 m nad tlemi (kategorija EASA Open)",
-      "Registracija kot upravljavec UAS (10 €/leto), če vaš dron tehta 250 g ali več oziroma je opremljen s kamero",
-      "Potrebno spletno usposabljanje A1/A3 — najnižja starost 16 let",
-      "Dron naj bo vedno v vašem vidnem polju (VLOS)",
+      "V kategoriji Open je največja višina 120 m, merjena kot razdalja do najbližje točke tal — ne zgolj navpično navzdol, zato se ob pobočju lahko upošteva tudi sosednje zemljišče. Poleg tega lahko na nekaterih območjih veljajo nižje višinske omejitve; te so prikazane na karti za drone. V polmeru 50 m od umetnega objekta lahko z dovoljenjem osebe ali subjekta, odgovornega zanj, letite do 15 m nad objektom.",
+      "Registrirati se morate kot upravljavec drona, če vaš dron tehta 250 g ali več (ali lahko ob trku prenese več kot 80 J kinetične energije) — to velja tudi za igrače. Pod 250 g je registracija še vedno obvezna, če ima dron senzor, ki lahko zbira osebne podatke, razen če se šteje za igračo po EU Toy Safety Directive. Zahteve glede usposabljanja oziroma potrdila pilota so ločene in so odvisne od razreda ter podkategorije drona.",
+      "V Estoniji je najnižja starost za pilote na daljavo 16 let — izjeme veljajo za drone razreda C0 v podkategoriji A1, za zasebno izdelane drone, lažje od 250 g, in za letenje pod neposrednim nadzorom pilota, ki izpolnjuje zahteve.",
+      "V kategoriji Open morate dron ohranjati v svojem neposrednem vidnem polju brez pripomočkov (očala/kontaktne leče so v redu; daljnogled ali zaslon ne štejeta) — ali pa letite s pomočjo opazovalca, s katerim neprekinjeno ohranjate jasno in učinkovito komunikacijo, da lahko skupaj spremljata zračni prostor in preprečujeta trčenja. Način follow-me je ločena izjema in je dovoljen do 50 m od pilota.",
       "Ne letite nad skupinami ljudi. Pravila za neudeležene osebe so odvisna od podkategorije, razredne oznake in pogojev delovanja; preverite uradno matriko.",
-      "Letenje je prepovedano v neposredni bližini letališč (omejitev višine 0 m) — omejena območja vedno preverite na estonski karti za drone.",
-      "Nočni leti so dovoljeni, če ima dron zeleno utripajočo luč — v bližini vzhodne meje velja nočna prepoved letenja (20.00–7.00).",
+      "V neposredni bližini letališč je višinska omejitev v kategoriji Open 0 m — letenje je mogoče le z operativnim dovoljenjem v posebni kategoriji.",
+      "Nočni leti so dovoljeni, če ima dron zeleno utripajočo luč (UAS.OPEN.060(2)(g)).",
       "CTR letališča Talin: skrbno ga preverite na estonski karti za drone",
       "Omejena območja okoli letališč na otokih (Saaremaa, Hiiumaa)",
-      "Rusko obmejno območje: leti z droni so popolnoma prepovedani v obmejni coni okrožja Ida-Viru; nočna prepoved letenja (20.00–7.00) velja vzdolž celotne vzhodne meje, prisotne pa so tudi znatne motnje GPS — preverite NOTAM."
+      "Ob državni meji je vzpostavljeno omejeno območje (do 300 m nad tlemi ali vodno gladino): leti so tam dovoljeni le z dovoljenjem Politsei- ja Piirivalveamet (PPA) (Vabariigi Valitsuse korraldus nr 229, točki 3.2 in 5.3). PPA ob meji določa tudi začasna omejena območja — preverite NOTAM-e. Na obmejnem območju prihaja do močnih motenj GPS."
     ],
     "importantNotes": [
       "Registracija stane 10 € na leto in velja v vseh državah EU/EASA",
@@ -32,7 +32,7 @@
       },
       {
         "title": "Prometni organ – registracija kot upravljavec",
-        "description": "Registracija kot upravljavec UAS (10 €/leto, veljavno v vseh državah EU/EASA)"
+        "description": "Registracija kot upravljavec UAS v informacijskem sistemu za nadzor letalske varnosti LOIS2 (državna pristojbina 10 €, velja eno leto, veljavno v vseh državah EU/EASA)"
       },
       {
         "title": "Estonska karta za drone (UTM)",

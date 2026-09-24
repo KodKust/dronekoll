@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "41a3bb2c31b60f9e99694313efa18c74c69ab8b4db7f6f293333679ae2e726e6",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "0ede9cfcfd08a21a6e8803c65b176c42069fea1dbd7cd454be9738c884575edd",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröidy UAS-käyttäjäksi (46,80 €, voimassa 3 vuotta), jos drone painaa vähintään 250 g tai siinä on kamera",
-      "A1/A3-verkkokoulutus vaaditaan — vähimmäisikä 16 vuotta",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maa voidaan laskea mukaan. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
+      "Sinun on rekisteröidyttävä UAS-käyttäjäksi, jos dronesi painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g:n dronen kohdalla rekisteröinti vaaditaan silti, jos dronessa on henkilötietoja tallentamaan kykenevä anturi, ellei sitä pidetä EU:n lelujen turvallisuusdirektiivin mukaisena leluna. Lentäjän koulutus- ja todistusvaatimukset säädetään erikseen, ja ne riippuvat dronen luokasta ja alaluokasta.",
+      "A1/A3-kelpoisuustodistuksen (maksuton verkkokurssi ja 40 kysymyksen koe) vähimmäisikä on 16 vuotta; käyttäjäksi voit rekisteröityä omissa nimissäsi vasta 18-vuotiaana. Nuoremmat lentäjät saavat lentää vain todistuksen omaavan kauko-ohjaajan välittömässä valvonnassa. Dronelupakirja (A1/A3-kelpoisuustodistus) on voimassa 5 vuotta, minkä jälkeen se on uusittava — ensimmäiset Itävallassa vuodesta 2021 alkaen myönnetyt todistukset vanhenevat vuonna 2026.",
       "Pakollinen vastuuvakuutus — vakuutusturva vähintään 750 000 SDR",
-      "Wien sijaitsee LO R 15 -lentorajoitusvyöhykkeellä: lennot ovat sallittuja vain Austro Controlin maksullisella luvalla — lukuun ottamatta alle 250 g painavia droneja, jotka lentävät enintään 30 m korkeudessa maanpinnasta.",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Wien sijaitsee rajoitusalueella LO R 15. Alle 250 g:n dronet saavat lentää enintään 30 m:n korkeudella ilman lupaa — mutta vain, jos lentoalueellasi ei ole lentopaikkaa, jolla ei ole omaa lentopaikkavyöhykettä: Wienissä näitä ovat kymmenen helikopterikenttää, joiden säde on noin 1 500 m ja joilla vaaditaan toiminta-aikoina Austro Control GmbH:n toimintalupa ”rajoitusalueille”. 250 g:sta alkaen vaaditaan aina maksullinen Austro Controlin lupa.",
+      "Avoimessa kategoriassa dronen on pysyttävä omassa näköyhteydessäsi paljain silmin (silmälasit/piilolinssit käyvät; kiikareita tai näyttöä ei lasketa) — tai lennä tähystäjän tuella niin, että viestitte keskenänne selkeästi ja tehokkaasti koko ajan ja voitte yhdessä tarkkailla ilmatilaa ja välttää yhteentörmäykset. Follow-me-tila on erillinen poikkeus, joka on sallittu enintään 50 m:n päässä lentäjästä.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-      "Huomioi Dronespace-kartan maantieteelliset UAS-alueet (§ 18b LVR) — lentopaikoilla, joilla ei ole lentopaikkavyöhykettä, suojasäteen sisällä saa lennättää vain toiminta-aikojen ulkopuolella; lentopaikkavyöhykkeillä tarvitaan lupa.",
+      "Noudata Dronespace-kartan UAS-maantieteellisiä vyöhykkeitä (§18b LVR). Miehittämättömien ilma-alusten (UAS) käyttö tietyllä säteellä sellaisista lentopaikoista, joilla ei ole omaa lentopaikkavyöhykettä, on yleensä sallittua vain niiden toiminta-aikojen ulkopuolella. Ennen lentoa dronen käyttäjien on selvitettävä lentopaikan voimassa olevat toiminta-ajat — joko ilmailujulkaisuista (esim. AIP, NOTAM) tai suoraan lentopaikan pitäjältä tai lentopaikan johdolta. Lentopaikan toiminta-aikoina dronetoiminta on sallittua vain seuraavin ehdoin: tunnustetuille pelastus- ja hätäorganisaatioille, terveyspalveluille tai väestönsuojeluviranomaisille, jos toiminta kuuluu niiden lakisääteisiin tehtäviin; EU-asetuksen 2019/947 mukaisella erityiskategorian (”specific”) toimintaluvalla, jos riskinarvio kattaa toiminnan lentopaikkojen lähellä; EU-asetuksen 2019/947 mukaisella LUC-todistuksella (light UAS operator certificate), jos se sallii toiminnan lentopaikkojen läheisyydessä; tai EU-asetuksen 2019/947 16 artiklan mukaisella luvalla, edellyttäen että kaikki ehdot ja vaatimukset täyttyvät.",
+      "UAS, joiden lentoonlähtömassa on alle 250 g ja joilla lennetään enintään 30 m:n korkeudella maanpinnasta, on vapautettu lähilentovyöhykkeiden suostumusvaatimuksesta ja rajoitusalueiden lupavaatimuksesta. Rajoitusalueilla vapautus koskee kuitenkin vain tilannetta, jossa lentoalueellasi ei ole lentopaikkaa, jolla ei ole omaa lentopaikkavyöhykettä.",
       "Yölennot avoimessa kategoriassa ovat sallittuja vihreällä vilkkuvalla valolla (EASAn mukaan vuodesta 2022) — tarkista aluekohtaiset tiedot Dronespace.at-palvelusta",
       "Kansallispuistot ja luonnonsuojelualueet: lisärajoituksia voimassa"
     ],
     "importantNotes": [
       "Rekisteröinti maksaa 46,80 € (voimassa 3 vuotta) ja on voimassa kaikissa EU-/EASA-maissa",
       "Pakollinen vakuutus, jonka vakuutusturva on vähintään 750 000 SDR",
-      "Wien (LO R 15): vähintään 250 g painaville droneille vaaditaan lupa — alle 250 g painaville droneille lupaa ei vaadita, kun ne lentävät enintään 30 m maanpinnan yläpuolella.",
+      "Wien (LO-R 15): Vähintään 250 g:n droneille vaaditaan lupa; alle 250 g:n dronet saavat lentää enintään 30 m:n korkeudella ilman lupaa. Tämä vapautus ei kuitenkaan päde, jos lentoalueellasi on lentopaikka, jolla ei ole omaa lentopaikkavyöhykettä — Wienissä näitä ovat kymmenen helikopterikenttää, joiden säde on noin 1500 m. Niillä pätee lisäksi seuraava: helikopterikentän toiminta-aikoina lentäminen on sallittua vain Austro Control GmbH:n ”rajoitusalueita” koskevalla toimintaluvalla.",
       "Alppialueet: varo pelastushelikopterien lentoreittejä",
       "GDPR-tietosuoja-asetus koskee tunnistettavien henkilöiden kuvaamista"
     ],

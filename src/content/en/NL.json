@@ -1,29 +1,30 @@
 {
   "meta": {
-    "sourceHash": "3f93b288335a64961197959526986fa369f18ef2ac4a0d684c859af0aa2a4931",
-    "sourceCountriesVersion": 193,
-    "sourceLastVerified": "2026-06-19",
-    "translatedAt": "2026-07-09",
-    "engine": "deepl"
+    "sourceHash": "3c54b50d3e51926a9a7b9c89db124d744240fd7e158e4869e88669a6d03744df",
+    "sourceCountriesVersion": 256,
+    "sourceLastVerified": "2026-08-26",
+    "translatedAt": "2026-09-24",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "Up to 120 m above the ground (EASA Open Category)",
-      "Register as a UAS operator with the RDW (€23 one-time fee + €13/year renewal fee) if the drone weighs 250 g or more or is equipped with a camera",
-      "A1/A3 online training is mandatory — minimum age 16",
-      "The 14-km CTR around Schiphol covers most of Amsterdam—see the official airspace map",
-      "Always maintain visual line of sight (VLOS) of the drone",
+      "In the open category, the maximum height is 120 m, measured as the distance to the closest point of the Earth's surface — not simply straight down, so near a slope the ground next to you may also count. Within 50 m of a tall artificial obstacle (taller than 105 m), the party responsible for the obstacle can request permission to fly up to 15 m above the height of the obstacle.",
+      "You must register as a drone operator if your drone weighs 250 g or more (or could transfer more than 80 J of kinetic energy in a collision) — this also applies to toys. Below 250 g, registration is still required if the drone has a sensor able to capture personal data, unless it qualifies as a toy under the EU Toy Safety Directive. Pilot training/certificate requirements are regulated separately and depend on the drone's class and subcategory.",
+      "In the Netherlands, the minimum age for the A1/A3 certificate is 16. If you are younger, an observer (with a valid certificate) must keep the drone in sight at all times and stay in contact with you.",
+      "The prohibited zone around Schiphol covers most of Amsterdam and surrounding areas — check the official map before every flight instead of relying on a fixed distance.",
+      "In the open category, you must keep the drone within your own line of sight, with the naked eye (glasses/contact lenses are fine; binoculars or a screen do not count) — or fly with the help of an observer, with whom you communicate clearly and effectively at all times, so that together you can monitor the airspace and avoid collisions. Follow-me mode is a separate exception, permitted up to 50 m from the pilot.",
       "Do not fly over assemblies of people. Rules for uninvolved persons depend on subcategory, class mark and operating conditions; check the official matrix.",
-      "A minimum distance of 3 km from small airports, with a larger buffer zone around Schiphol",
-      "Night flight is permitted under the EASA open-category baseline when the required green flashing light is used, unless a current geographic zone or national rule imposes a stricter condition.",
-      "Nature Areas (Natura 2000): Restrictions During the Breeding Season",
-      "Densely populated urban areas in the Randstad: check local municipal regulations"
+      "Restrictions around airports are published as no-fly zones on the official drone map; a large buffer zone applies around Schiphol. Check the map before flying near an airport — there is no single fixed distance that applies everywhere.",
+      "In the Netherlands, you may not fly at night in the open category. Flying is limited to the Uniform Daylight Period (Uniforme Daglicht Periode, UDP), which runs from sunrise to sunset. An exemption to fly outside the UDP can only be requested from the ILT for flights in the Specific category — this option does not exist for the open category.",
+      "Nature areas (Natura 2000): drone restrictions apply in some areas — these are set by the province or the area manager, not by a fixed season. Check the provincial rules and the zone information on the map before the flight.",
+      "Densely populated urban areas in the Randstad: check local municipal regulations",
+      "Distance from roads, railways and the high-voltage grid (Regeling onbemande luchtvaartuigen art. 6 and 8, open category): not within 50 m (A1/A2) or 150 m (A3) of motorways, expressways and roads with a speed limit of 80 km/h that are in use; not within 25 m (A1/A2) or 150 m (A3) of railways; and not within 150 m of objects or areas that are part of the electricity transmission system (the high-voltage grid)."
     ],
     "importantNotes": [
-      "The 14-km CTR around Schiphol effectively bans drones from flying over most of Amsterdam",
+      "An extensive prohibited zone applies around Schiphol, covering most of Amsterdam and surrounding recreational areas; check the official map before every flight instead of relying on a fixed distance.",
       "Registration through the RDW costs a one-time fee of €23 plus an annual renewal fee of €13 (effective 2025) — valid in all EU/EASA countries",
-      "Fines of up to €11,250 for violations",
-      "Military zones (Leeuwarden, Eindhoven, Volkel): absolute flight ban",
+      "Violations can lead to heavy fines, confiscation of the drone and, for repeat offences, even criminal prosecution — the amounts vary by offence.",
+      "Military airports Leeuwarden, Eindhoven and Volkel (CTR): flights in the open category are prohibited here; flights in the specific category require a privilege on the operational authorisation (IenW zone text, Regeling onbemande luchtvaartuigen art. 7).",
       "The GDPR applies when creating images that depict identifiable individuals"
     ],
     "primaryLinks": [
@@ -33,7 +34,7 @@
       },
       {
         "title": "RDW — Register as an operator",
-        "description": "Free registration as a UAS operator (valid in all EU/EASA countries)"
+        "description": "Registration as a UAS operator: €23 one-time, then €13 per year on renewal (operator number valid for 1 year; valid in all EU/EASA countries)"
       },
       {
         "title": "ILT — Overview of the Rules",

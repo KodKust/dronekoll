@@ -1,27 +1,29 @@
 {
   "meta": {
-    "sourceHash": "3f4b20da70d5a10b806d80689b9428a53f6f6f6a4f589f0dc439331194e5f8eb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df6b14f4fc38b5f9f75477bc725375986243192e5884f43ee6f721a2e4667902",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálne 120 m nad úrovňou terénu (kategória EASA Open)",
-      "Registrácia na AlphaTango sa vyžaduje (bezplatná, platná 5 rokov) pre akýkoľvek dron s hmotnosťou 250 g a viac alebo vybavený kamerou",
-      "Povinné online školenie A1/A3 — minimálny vek 14 rokov. Predchádzajúce osvedčenia BAPD (čestné vyhlásenia) už od 1. januára 2026 neplatia.",
+      "V kategórii Open je maximálna výška 120 m, meraná ako vzdialenosť k najbližšiemu bodu zemského povrchu — nie jednoducho zvislo nadol, takže pri svahu sa môže počítať aj terén vedľa vás. Do 50 m od vysokej umelej prekážky (vyššej ako 105 m) môže subjekt zodpovedný za prekážku požiadať o povolenie lietať až 15 m nad výškou prekážky.",
+      "Ako prevádzkovateľ dronu sa musíte zaregistrovať, ak váš dron váži 250 g alebo viac (alebo môže pri náraze odovzdať viac ako 80 J kinetickej energie) — platí to aj pre hračky. Pri hmotnosti pod 250 g je registrácia stále povinná, ak je dron vybavený snímačom schopným zaznamenávať osobné údaje, pokiaľ sa nepovažuje za hračku podľa EU Toy Safety Directive. Požiadavky na výcvik a osvedčenie diaľkovo riadiaceho pilota sú samostatné a závisia od triedy a podkategórie dronu.",
+      "Vo Francúzsku existujú súbežne dve samostatné registrácie: registrácia prevádzkovateľa (od 250 g alebo so snímačom osobných údajov) a registrácia samotného lietadla na AlphaTango, len čo jeho hmotnosť presiahne 800 g a/alebo je vybavené zariadením na elektronickú identifikáciu. Registračné číslo musí byť umiestnené na lietadle.",
+      "Vo Francúzsku je minimálny vek na samostatné lietanie v kategórii Open 14 rokov (bezplatné online školenie a skúška A1/A3 cez AlphaTango, platné 5 rokov, uznávané v celej EÚ). Minimálny vek sa neuplatňuje: v A1 s lietadlom triedy C0, ktoré spĺňa smernicu o hračkách 2009/48/ES; so súkromne postaveným lietadlom s hmotnosťou pod 250 g; alebo pod priamym dohľadom diaľkovo riadiaceho pilota vo veku najmenej 16 rokov, pričom obaja majú požadované školenie a skúšky. Tento znížený vek platí iba vo Francúzsku — v inej krajine EÚ platí minimálny vek danej krajiny.",
       "Poistenie zodpovednosti sa dôrazne odporúča na rekreačné použitie (povinné pri profesionálnom alebo komerčnom použití)",
-      "Paríž a Île-de-France: rozsiahle bezletové zóny — pozri Géoportail",
-      "Dron majte vždy vo vizuálnom dohľade (VLOS)",
+      "Paríž a Île-de-France: rozsiahle bezletové zóny — pozrite si oficiálnu mapu DGAC (cartes.gouv.fr)",
+      "Národné pravidlo (arrêté „Espace“, čl. 5 a 6): v kategórii Open je lietanie nad verejným priestorom v zastavaných oblastiach — ulicami, námestiami, verejnými parkami a záhradami, plážami, promenádami — povolené iba (i) v rámci profesionálnej činnosti prevádzkovateľa, pričom v obývanej oblasti s predchádzajúcim oznámením prefektovi cez AlphaTango (CERFA 15476) najmenej desať pracovných dní pred letom, ktoré môže viesť k zákazu alebo obmedzeniu; alebo (ii) na miestach, kde prefekt povolí lety v kategórii Open alebo lety modelov lietadiel. Pri rekreačnom použití to v praxi vylučuje verejný priestor v mestách a obciach — nielen v Paríži.",
+      "V kategórii Open udržiavajte dron vo vlastnom priamom vizuálnom dohľade bez pomôcok (dioptrické okuliare alebo šošovky sú povolené; ďalekohľad ani obrazovka sa nepočítajú) — alebo si nechajte pomôcť pozorovateľom, pričom medzi vami musí byť neustále jasná a účinná komunikácia, aby ste spoločne sledovali vzdušný priestor a predchádzali zrážkam. Režim „follow-me“ je samostatná výnimka povolená do 50 m od diaľkovo riadiaceho pilota.",
       "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre osoby, ktoré nie sú priamo zapojené, závisia od podkategórie, označenia triedy a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
-      "Minimálna vzdialenosť 5 km od akéhokoľvek letiska alebo letovej plochy — v riadenej zóne (CTR) sa však vyžaduje predchádzajúce povolenie riadiacej veže",
-      "Nočný let je povolený v rámci základných požiadaviek EASA pre otvorenú kategóriu, ak sa používa požadované zelené blikajúce svetlo, pokiaľ aktuálna geografická zóna alebo vnútroštátne pravidlo nestanovuje prísnejšie podmienky.",
+      "V rámci EÚ neexistuje jednotná vzdialenosť, ktorú treba dodržiavať od letísk. Obmedzenia v blízkosti letísk sa zverejňujú ako geografické zóny (článok 15), ktorých tvar a veľkosť sa líšia od letiska k letisku. Pred lietaním v blízkosti letiska, letiskovej plochy alebo heliportu skontrolujte oficiálnu mapu zón pre drony vo vašej krajine; lietanie v riadenom okrsku (CTR) si zvyčajne vyžaduje predchádzajúce povolenie od riadenia letovej prevádzky.",
+      "Vo Francúzsku je nočné lietanie v kategórii Open zakázané, aj keď je lietadlo vybavené svetlami (príručka DSAC „Catégorie Ouverte“, §7). Zákaz sa vzťahuje na „leteckú noc“: v metropolitnom Francúzsku začína 30 minút po západe slnka a končí 30 minút pred východom slnka. Výnimky môže udeliť miestne príslušný prefekt a treba o ne požiadať najmenej 30 dní pred letmi; výnimkou sú aj niektoré zverejnené lokality pre modely lietadiel.",
       "Kategória Specific: európske scenáre STS-01 a STS-02 nahrádzajú predchádzajúce francúzske scenáre S-1, S-2 a S-3 (zrušené v roku 2026)",
-      "Národné parky a prírodné rezervácie: používanie dronov je bez povolenia prefektúry zakázané"
+      "Národné parky a prírodné rezervácie: parky a rezervácie, nad ktorými sa nesmie lietať, sa zverejňujú prostredníctvom leteckých informácií (AIP ENR 5.7.3) a sú zobrazené na mape Géoportail. V jadrovej zóne národného parku je prelet vo výške menej ako 1 000 m nad zemou zakázaný vlastnými predpismi každého parku a o akejkoľvek výnimke rozhoduje riaditeľ parku — nie prefektúra ani riadenie letovej prevádzky (Code de l'environnement, čl. L331-4-1). Mimo týchto parkov a rezervácií prelet nad inými chránenými územiami (Espaces Naturels Sensibles, lokality Natura 2000 atď.) zvyčajne nie je zakázaný; môže byť dočasne zakázaný nariadením prefekta."
     ],
     "importantNotes": [
       "Registrácia na AlphaTango je bezplatná a platí vo všetkých krajinách EÚ/EASA",
-      "Paríž má jednu z najprísnejších bezletových zón v Európe — v praxi rekreačné lietanie nie je možné",
+      "Paríž: všetky lety vonku sú zakázané, a to aj na súkromnom pozemku — Paríž je zastavanou oblasťou a zároveň „zakázaným“ vzdušným priestorom (zóna P 23)",
       "Pokuty až do 75 000 € a jeden rok väzenia za závažné porušenia",
       "Lietanie nad jadrovými objektmi, vojenskými zónami a väznicami je trestný čin",
       "GDPR sa uplatňuje pri zachytávaní záberov, na ktorých možno identifikovať osoby — za spracovanie údajov zodpovedáte vy"
@@ -36,8 +38,8 @@
         "description": "Bezplatná registrácia ako prevádzkovateľ UAS (platná 5 rokov, uznávaná vo všetkých krajinách EÚ/EASA)"
       },
       {
-        "title": "Géoportail — Mapa obmedzení pre drony",
-        "description": "Oficiálna mapa zobrazujúca bezletové zóny, obmedzené oblasti a maximálne povolené výšky"
+        "title": "cartes.gouv.fr — Obmedzenia pre UAS a modely lietadiel v kategórii Open",
+        "description": "Oficiálna mapa a údaje DGAC: bezletové zóny, obmedzené zóny a maximálne povolené výšky"
       },
       {
         "title": "Pravidlá lietania s dronmi — Service-Public.fr",

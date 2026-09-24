@@ -1,26 +1,27 @@
 {
   "meta": {
-    "sourceHash": "33a814a3d0b5505e00903b83ae6e8352f9d6c524274ef27251d8bef1683efdd9",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bc6372b8db43aa400f327dcbe06c67e81c770544a50c90238e8b68a0ddad32f8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimaalne lennukõrgus 120 m maapinnast (EASA avatud kategooria)",
-      "Registreeru UAS-operaatorina (5 863 ISK / 5 aastat), kui sinu droon kaalub 250 g või rohkem või on kaameraga",
-      "A1/A3 veebikursus on kohustuslik — vanuse alampiir 16 aastat",
-      "Piirangud vulkaanipurske aladel: kontrolli alati praegust purskeaktiivsust",
-      "Rahvuspargid (Vatnajökull, Þingvellir, Snæfellsjökull): alates 17. maist 2026 ei anta 25+ kaitsealal harrastuslikele droonilendudele luba (otsus on edasi kaevatud)",
-      "Hoia drooni alati otsenähtavuses (VLOS)",
+      "Avatud kategoorias mõõdetakse maksimaalset kõrgust 120 m kaugusena Maa pinna lähima punktini — mitte lihtsalt otse alla, nii et nõlva lähedal võib arvesse minna ka sinu kõrval olev maapind. Kõrge inimtekkelise takistuse (üle 105 m) 50 m raadiuses võib takistuse eest vastutav osapool taotleda luba lennata kuni 15 m kõrgemale takistuse kõrgusest.",
+      "Pead registreeruma droonioperaatorina, kui sinu droon kaalub 250 g või rohkem (või võib kokkupõrkel üle kanda rohkem kui 80 J kineetilist energiat) — see kehtib ka mänguasjade kohta. Alla 250 g on registreerimine siiski nõutav, kui droonil on andur, mis suudab koguda isikuandmeid, välja arvatud juhul, kui see loetakse mänguasjaks EL-i mänguasjade ohutuse direktiivi alusel. Piloodi koolituse/tunnistuse nõuded on eraldi ja sõltuvad drooni klassist ja alamkategooriast.",
+      "Islandil on vanuse alampiir 16 — erandid kehtivad C0-klassi droonile alamkategoorias A1, eraviisiliselt ehitatud alla 250 g droonile või lendudele sertifitseeritud kaugpiloodi järelevalve all.",
+      "Vulkaanipursete ajal võivad Almannavarnir/Samgöngustofa kehtestada droonilendudele ajutisi piiranguid — piirangud võivad ulatuda kuni 1500 ft kõrguseni ja terved alad (nt Reykjanesi poolsaar 2025. aasta juuli purske ajal) võidakse aktiivsuse kestel täielikult sulgeda. Kontrolli enne lendamist alati praegust vulkaanilist aktiivsust.",
+      "Alates 17. maist 2026 väljastab Náttúruverndarstofnun (mitte lennundusasutused) 27 kaitsealal lube ainult ärilistele droonilendudele. Piirangud on kolmeastmelised: 15 ala aastaringselt (sh Gullfoss, Geysir, Goðafoss, Skógafoss, Dyrhólaey, Látrabjarg ning Mývatni ja Laxá kaitseala), 11 ala 1. maist 15. septembrini (sh Snæfellsjökulli rahvuspark, Dimmuborgir, Hornstrandir ja Dynjandi) ning Friðlandið að Fjallabaki 15. juunist 15. septembrini. Lube uurimistööks, seireks, filmimiseks, äriliseks pildistamiseks ja luba nõudvateks üritusteks antakse endiselt. Þingvellir ja Vatnajökulli rahvuspark ei ole selles loendis ning neil on oma reeglid.",
+      "Tundlikele rajatistele lähemal kui 150 m lendamine on keelatud: elektrijaamad, alajaamad, Alþingi, presidendi residents, ministeeriumid, saatkonnad, politseijaoskonnad, vanglad ja haiglad, välja arvatud omanike või nende valdajate loal.",
+      "Avatud kategoorias pead hoidma drooni oma palja silmaga otsenähtavuses (prillid/kontaktläätsed on lubatud; binokkel või ekraan ei lähe arvesse) — või lendama vaatleja abiga, kellega sul on kogu aeg selge ja tõhus side, et saaksite koos õhuruumi jälgida ja kokkupõrkeid vältida. Follow-me-režiim on eriline erand, mis on lubatud kuni 50 m kaugusel piloodist.",
       "Ära lenda rahvakogunemiste kohal. Kõrvaliste isikute suhtes kehtivad reeglid sõltuvad alamkategooriast, klassimärgist ja käitamistingimustest; kontrolli ametlikku tabelit.",
-      "Vähemalt 2 km kaugusel kommertslennujaamadest ning 1,5 km väiksematest lennuväljadest ja maandumiskohtadest",
+      "Ilma lennujaama käitaja loata on lendamine keelatud lennujaamades, lennujaama aladel ja regulaarlennuliiklusega lennujaamade ümber asuvates piirangutsoonides — piirangutsoonid on rakenduse kaardil näidatud alad (paljudes kohtades umbes 5 km). Piirangutsoonis võid siiski lennata ilma eriloata, kui lendad madalamal kui kõrgeimad takistused, mis asuvad drooni lennutrajektoorist kuni 50 m kaugusel. Luba: ISAVIA Keflavíki lennujaama puhul, Innanlandsflugvellir ehf. teiste regulaarlennuliiklusega lennujaamade puhul.",
       "Lindude pesitsusalad: hooajalised piirangud (mai–august)",
       "Rasked tuuleolud: Islandil ületab tuul sageli droonide ohutuspiire"
     ],
     "importantNotes": [
       "Aktiivsetel vulkaanipurske aladel võivad kehtida ajutised lennukeelud — kontrolli enne iga lendu",
-      "Alates 17. maist 2026 ei anna Nature Conservation Agency 25+ kaitsealal (rahvuspargid ja muud alad) luba harrastus- ega õppelennuks; otsus on edasi kaevatud Ministry of the Environment.",
+      "Alates 17. maist 2026 annab Náttúruverndarstofnun 27 kaitsealal lube ainult ärilisteks droonilendudeks — osal aladel aastaringselt, teistel ainult suvekuudel. Kontrolli iga ala loendit aadressil nattura.is.",
       "Islandi ilm on muutlik — tuul ületab sageli droonide piire",
       "Lindude pesitsushooaeg (mai–august): täiendavad piirangud paljudel aladel",
       "Island kuulub EEA-sse, kuid mitte EL-i — EASA reeglid kehtivad EEA Agreement alusel"
@@ -35,8 +36,8 @@
         "description": "Registreeru UAS-operaatorina (5863 ISK / 5 aastat, kehtib EMP riikides)"
       },
       {
-        "title": "FlyDrone.is — Õhuruumi kaart",
-        "description": "Ametlik interaktiivne droonikaart, mis näitab lennukeelutsoone ja piiranguid"
+        "title": "FlyDrone.is – Registreerimine ja A1/A3 eksam",
+        "description": "Samgöngustofa registreerimisleht, kus operaatorid registreeruvad, loevad õppematerjali ja sooritavad A1/A3 eksami (5863 ISK, kehtib 5 aastat)"
       },
       {
         "title": "island.is — Droonide registreerimine",
@@ -49,8 +50,11 @@
         "description": "Islandi aeronavigatsiooniteenused ja teave õhuruumi kohta"
       },
       {
-        "title": "Umhverfisstofnun — Looduskaitse",
-        "description": "Islandi Keskkonnaameti teave rahvusparkide ja kaitsealade kohta"
+        "title": "Náttúruverndarstofnun – Droonid kaitsealadel",
+        "description": "Droonilendude piirangutega kaitsealade loend ja kehtivad perioodid"
+      },
+      {
+        "title": "Kortasjá – droonikaart"
       }
     ],
     "disclaimerText": "Kontrolli enne lendamist alati Samgöngustofa (ICETRA) ja FlyDrone.is ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Island järgib EASA reegleid EEA Agreement alusel koos riiklike lisadega.",

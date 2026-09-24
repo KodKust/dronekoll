@@ -1,63 +1,64 @@
 {
- "meta": {
-  "sourceHash": "41a3bb2c31b60f9e99694313efa18c74c69ab8b4db7f6f293333679ae2e726e6",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Največ 120 m nad tlemi (kategorija EASA Open)",
-   "Registracija kot upravljavec UAS (46,80 €, veljavno 3 leta), če dron tehta 250 g ali več oziroma je opremljen s kamero",
-   "Potrebno spletno usposabljanje A1/A3 — najnižja starost 16 let",
-   "Obvezno zavarovanje odgovornosti — kritje najmanj 750.000 SDR",
-   "Dunaj je v coni omejitve letenja LO R 15: leti so dovoljeni le s plačanim dovoljenjem Austro Control — razen za drone, lažje od 250 g, ki letijo na višini največ 30 m nad tlemi.",
-   "Z dronom vedno ohranjajte vidno polje (VLOS)",
-   "Ne letite nad skupinami ljudi. Pravila za neudeležene osebe so odvisna od podkategorije, razredne oznake in pogojev delovanja; preverite uradno matriko.",
-   "Upoštevajte geografska območja UAS (§ 18b LVR) na karti Dronespace — na letaliških stezah brez letališke cone je letenje v zaščitnem polmeru dovoljeno le zunaj obratovalnih ur; letališke cone zahtevajo dovoljenje.",
-   "Nočni leti v kategoriji Open so dovoljeni z zeleno utripajočo lučjo (EASA od 2022) — preverite specifične cone na Dronespace.at",
-   "Nacionalni parki in naravni rezervati: veljajo dodatne omejitve"
-  ],
-  "importantNotes": [
-   "Registracija stane 46,80 € (veljavno 3 leta) in velja v vseh državah EU/EASA",
-   "Obvezno zavarovanje s kritjem najmanj 750.000 SDR",
-   "Dunaj (LO R 15): za drone, ki tehtajo 250 g ali več, so potrebna dovoljenja — droni, lažji od 250 g, dovoljenja ne potrebujejo le do 30 m nad tlemi.",
-   "Alpske regije: bodite pozorni na poti reševalnih helikopterjev",
-   "GDPR velja pri snemanju prepoznavnih posameznikov"
-  ],
-  "primaryLinks": [
-   {
-    "title": "Austro Control — predpisi za drone",
-    "description": "Uradni predpisi in viri za drone avstrijske kontrole zračnega prometa"
-   },
-   {
-    "title": "Austro Control — registracija kot upravljavec",
-    "description": "Registracija kot upravljavec UAS (46,80 €, veljavno 3 leta, veljavno v vseh državah EU/EASA)"
-   },
-   {
-    "title": "Dronespace.at — karta zračnega prostora",
-    "description": "Uradna interaktivna karta s prikazom con za drone in omejitev zračnega prostora"
-   },
-   {
-    "title": "Austro Control — usposabljanje in izpiti",
-    "description": "Informacije o tečajih in izpitih A1/A3 ter A2"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "BMIMI — letalstvo",
-    "description": "Informacije o letalstvu Zveznega ministrstva za inovacije, mobilnost in infrastrukturo"
-   },
-   {
-    "title": "Austro Control — pogosta vprašanja o dronih",
-    "description": "Pogosta vprašanja o predpisih za drone v Avstriji"
-   }
-  ],
-  "disclaimerText": "Pred vsakim letom vedno preverite uradne vire Austro Control in Dronespace.at. Ta aplikacija je orodje, ne pravni vir. Avstrija upošteva predpise EASA z nacionalnimi dodatki.",
-  "sectionLabelRules": "KLJUČNA PRAVILA (KATEGORIJA EASA OPEN)",
-  "sectionLabelPrimary": "URADNI VIRI",
-  "sectionLabelSecondary": "DODATNI VIRI",
-  "linksSheetTitle": "Zračni prostor in predpisi — Avstrija",
-  "dronePilotCredentialName": "Licenca za drone"
- }
+  "meta": {
+    "sourceHash": "0ede9cfcfd08a21a6e8803c65b176c42069fea1dbd7cd454be9738c884575edd",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "V kategoriji Open je največja višina 120 m, merjena kot razdalja do najbližje točke zemeljskega površja — ne preprosto navpično navzdol, zato lahko ob pobočju šteje tudi teren poleg vas. V razdalji 50 m od visoke umetne ovire (višje od 105 m) lahko subjekt, odgovoren za oviro, zaprosi za dovoljenje za let do 15 m nad višino ovire.",
+      "Kot upravljavec drona se morate registrirati, če vaš dron tehta 250 g ali več (ali bi lahko ob trku prenesel več kot 80 J kinetične energije) — to velja tudi za igrače. Pod 250 g je registracija še vedno obvezna, če ima dron senzor, ki lahko zajema osebne podatke, razen če velja za igračo po direktivi EU o varnosti igrač. Zahteve glede usposabljanja/potrdila pilota so urejene ločeno in so odvisne od razreda in podkategorije drona.",
+      "Za dokazilo o usposobljenosti A1/A3 (brezplačen spletni tečaj s testom s 40 vprašanji) je najnižja starost 16 let; kot upravljavec se lahko samostojno registrirate šele od 18. leta. Mlajši piloti lahko letijo le pod neposrednim nadzorom pilota na daljavo s potrdilom. Licenca za drone (dokazilo o usposobljenosti A1/A3) velja 5 let in jo je treba nato podaljšati — prva potrdila, izdana v Avstriji od leta 2021, potečejo leta 2026.",
+      "Obvezno zavarovanje odgovornosti — kritje najmanj 750.000 SDR",
+      "Dunaj je znotraj omejenega območja LO R 15. Droni pod 250 g lahko brez dovoljenja letijo do višine 30 m — vendar le, če v vašem območju letenja ni letališča brez letališke cone: na Dunaju je to deset heliportov s polmerom približno 1.500 m, kjer je med obratovalnim časom potrebno dovoljenje za delovanje Austro Control GmbH za »omejena območja«. Od 250 g je vedno potrebno plačljivo dovoljenje Austro Control.",
+      "V kategoriji Open morate dron ohranjati v lastnem vidnem polju s prostim očesom (očala/kontaktne leče so v redu; daljnogled ali zaslon ne štejeta) — ali leteti s pomočjo opazovalca, s katerim ves čas jasno in učinkovito komunicirate, da lahko skupaj spremljata zračni prostor in se izogibata trkom. Način »follow-me« je ločena izjema, dovoljena do 50 m od pilota.",
+      "Ne letite nad skupinami ljudi. Pravila za neudeležene osebe so odvisna od podkategorije, razredne oznake in pogojev delovanja; preverite uradno matriko.",
+      "Upoštevajte geografske cone UAS (§18b LVR) na karti Dronespace. Upravljanje brezpilotnih zrakoplovov (UAS) v določenem polmeru okoli letališč brez lastne letališke cone je praviloma dovoljeno le zunaj obratovalnega časa. Pred letom morajo upravljavci dronov ugotoviti trenutni obratovalni čas letališča — bodisi prek letalskih publikacij (npr. AIP, NOTAM) bodisi neposredno pri upravljavcu ali upravi letališča. Med obratovalnim časom letališča je delovanje dronov dovoljeno le pod naslednjimi pogoji: za priznane reševalne in nujne organizacije, zdravstvene službe ali organe civilne zaščite, če delovanje spada v njihovo zakonsko pristojnost; z operativno odobritvijo za kategorijo »posebna« po Uredbi EU 2019/947, če ocena tveganja zajema delovanje v bližini letališč; z LUC (light UAS operator certificate) po Uredbi EU 2019/947, če dovoljuje delovanje v bližini letališč; ali z dovoljenjem po členu 16 Uredbe EU 2019/947, če so izpolnjeni vsi pogoji in zahteve.",
+      "UAS z vzletno maso pod 250 g, ki letijo največ 30 m nad tlemi, so izvzeti iz zahteve po soglasju v kontroliranih conah in iz zahteve po dovoljenju v omejenih območjih. V omejenih območjih pa izjema velja le, če v vašem območju letenja ni letališča brez letališke cone.",
+      "Nočni leti v kategoriji Open so dovoljeni z zeleno utripajočo lučjo (EASA od 2022) — preverite specifične cone na Dronespace.at",
+      "Nacionalni parki in naravni rezervati: veljajo dodatne omejitve"
+    ],
+    "importantNotes": [
+      "Registracija stane 46,80 € (veljavno 3 leta) in velja v vseh državah EU/EASA",
+      "Obvezno zavarovanje s kritjem najmanj 750.000 SDR",
+      "Dunaj (LO-R 15): za drone, težke 250 g ali več, je potrebno dovoljenje; droni pod 250 g lahko brez dovoljenja letijo do višine 30 m. Ta izjema pa ne velja, če je v vašem območju letenja letališče brez letališke cone — na Dunaju je to deset heliportov s polmerom približno 1500 m. Tam velja tudi naslednje: med obratovalnim časom heliporta je letenje dovoljeno le z dovoljenjem za delovanje Austro Control GmbH za »omejena območja«.",
+      "Alpske regije: bodite pozorni na poti reševalnih helikopterjev",
+      "GDPR velja pri snemanju prepoznavnih posameznikov"
+    ],
+    "primaryLinks": [
+      {
+        "title": "Austro Control — predpisi za drone",
+        "description": "Uradni predpisi in viri za drone avstrijske kontrole zračnega prometa"
+      },
+      {
+        "title": "Austro Control — registracija kot upravljavec",
+        "description": "Registracija kot upravljavec UAS (46,80 €, veljavno 3 leta, veljavno v vseh državah EU/EASA)"
+      },
+      {
+        "title": "Dronespace.at — karta zračnega prostora",
+        "description": "Uradna interaktivna karta s prikazom con za drone in omejitev zračnega prostora"
+      },
+      {
+        "title": "Austro Control — usposabljanje in izpiti",
+        "description": "Informacije o tečajih in izpitih A1/A3 ter A2"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "BMIMI — letalstvo",
+        "description": "Informacije o letalstvu Zveznega ministrstva za inovacije, mobilnost in infrastrukturo"
+      },
+      {
+        "title": "Austro Control — pogosta vprašanja o dronih",
+        "description": "Pogosta vprašanja o predpisih za drone v Avstriji"
+      }
+    ],
+    "disclaimerText": "Pred vsakim letom vedno preverite uradne vire Austro Control in Dronespace.at. Ta aplikacija je orodje, ne pravni vir. Avstrija upošteva predpise EASA z nacionalnimi dodatki.",
+    "sectionLabelRules": "KLJUČNA PRAVILA (KATEGORIJA EASA OPEN)",
+    "sectionLabelPrimary": "URADNI VIRI",
+    "sectionLabelSecondary": "DODATNI VIRI",
+    "linksSheetTitle": "Zračni prostor in predpisi — Avstrija",
+    "dronePilotCredentialName": "Licenca za drone"
+  }
 }

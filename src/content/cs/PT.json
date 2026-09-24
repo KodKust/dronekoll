@@ -1,23 +1,23 @@
 {
   "meta": {
-    "sourceHash": "3be5ea4356d33508cdfa72168e28336876f3048cd12d77af66e6840fe65da1e4",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ca02f210ab67dc8eec19b622349f74c1c59940a9cc38a87f1711298b83f779a7",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálně 120 m nad úrovní terénu (kategorie EASA Open)",
-      "Registrace jako provozovatel UAS (zdarma, platná 3 roky), pokud dron váží 250 g nebo více nebo má kameru",
-      "Povinné online školení A1/A3 pro drony s hmotností 250 g nebo více — minimální věk pilota: 16 let.",
-      "Povinné pojištění odpovědnosti pro drony s hmotností nad 900 g",
-      "Létání nad vojenskými zařízeními, věznicemi, velvyslanectvími a bezpečnostními složkami je zakázáno (Decree-Law No. 87/2021). Sintra-Cascais Natural Park vyžaduje povolení od ICNF.",
-      "Dron vždy udržujte v přímém vizuálním dohledu (VLOS)",
+      "V kategorii Open je maximální výška 120 m, měřená jako vzdálenost k nejbližšímu bodu zemského povrchu — ne jednoduše svisle dolů, takže v blízkosti svahu se může počítat i terén vedle vás. Do 50 m od vysoké umělé překážky (vyšší než 105 m) může subjekt odpovědný za překážku požádat o povolení k letu až 15 m nad výšku překážky.",
+      "Jako provozovatel dronu se musíte zaregistrovat, pokud váš dron váží 250 g nebo více (nebo může předat energii nárazu vyšší než 80 J) — to platí i pro hračky. Pod 250 g je registrace přesto povinná, pokud má dron senzor schopný zachytit osobní údaje, ledaže je považován za hračku podle evropské směrnice o bezpečnosti hraček. Požadavky na výcvik/osvědčení pilota jsou samostatné a závisí na třídě a podkategorii dronu.",
+      "V Portugalsku je minimální věk pro samostatné létání v kategorii Open 16 let. Výcvik a zkouška A1/A3 jsou zdarma, absolvují se online a platí 5 let.",
+      "Pojištění odpovědnosti vůči třetím osobám je povinné pro drony s MTOM nad 900 g (Decreto-Lei n.º 58/2018); minimální krytí, podmínky a pojistnou částku stanoví Portaria n.º 2/2021.",
+      "Létání nad sídly orgánů svrchovanosti, velvyslanectvími a konzuláty, vojenskými zařízeními, zařízeními bezpečnostních sil a služeb a věznicemi je zakázáno, pokud to neschválí odpovědný subjekt (ANAC Regulamento n.º 1093/2016, ponechané v platnosti Decreto-Lei n.º 87/2021). Přírodní park Sintra-Cascais vyžaduje povolení od ICNF.",
+      "V kategorii Open musíte dron udržovat ve své vlastní přímé viditelnosti pouhým okem (brýle/kontaktní čočky jsou přípustné; dalekohled ani obrazovka se nepočítají) — nebo létat s pomocí pozorovatele, přičemž spolu musíte neustále jasně a účinně komunikovat, abyste společně mohli sledovat vzdušný prostor a vyhnout se srážkám. Režim follow-me je samostatná výjimka, povolená do vzdálenosti 50 m od pilota.",
       "Nelétejte nad shromážděními lidí. Pravidla pro nezúčastněné osoby závisí na podkategorii, označení třídy a provozních podmínkách; podívejte se do oficiální tabulky.",
-      "Nelétejte v ochranných zónách letišť a heliportů (CTR/ATZ) bez povolení — ověřte si zóny na mapě v aplikaci a na voanaboa.pt.",
+      "Nelétejte v ochranných zónách letišť a heliportů (CTR/ATZ) bez povolení — ověřte si zóny na mapě v aplikaci a na dnt.anac.pt.",
       "Noční lety jsou v kategorii Open povoleny bez povolení ANAC — na dronu rozsviťte blikající zelené světlo.",
       "Azory a Madeira: mohou platit další regionální omezení",
-      "Letecké fotografování a natáčení (a šíření takového materiálu) vyžadují povolení od AAN — žádosti lze podat zdarma online prostřednictvím platformy e-AAN."
+      "Pořizování leteckých snímků vyžaduje předchozí povolení od Autoridade Aeronáutica Nacional (AAN) prostřednictvím platformy e-AAN — jediného kanálu pro letecké snímkování. Žádost je nutné podat nejméně 10 dní před zahájením činnosti; maximální udělená doba je 30 po sobě jdoucích dní (Guia Rápido e-AAN od AAN)."
     ],
     "importantNotes": [
       "Portugalsko má dvojí systém: ANAC reguluje lety, zatímco AAN povoluje pořizování leteckých snímků.",
@@ -33,8 +33,11 @@
         "description": "Oficiální pravidla a zdroje portugalského úřadu civilního letectví týkající se dronů"
       },
       {
+        "title": "ANAC — mapa geozón UAS"
+      },
+      {
         "title": "ANAC — registrace jako provozovatel",
-        "description": "Bezplatná registrace jako provozovatel UAS (platná 3 roky, uznávaná ve všech zemích EU/EASA)"
+        "description": "Bezplatná registrace jako provozovatel UAS (platná 3 roky, uznávaná ve všech zemích EU/EASA). Registrace probíhá na uas.anac.pt a vyžaduje portugalské NIF a aktivní Chave Móvel Digital."
       },
       {
         "title": "NAV Portugal — informace o vzdušném prostoru",

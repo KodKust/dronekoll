@@ -1,20 +1,20 @@
 {
   "meta": {
-    "sourceHash": "552be0e829692206489496fe6ca91a32ed231ba21bc0abd64eefd98c31764ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "2b6964864962d4242f59e63d9dc8bd2b290b6e70d78f6d916b4bea9755df4e04",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Altitude de vol maximale : 120 m au-dessus du sol (catégorie ouverte EASA).",
+      "Dans la catégorie ouverte, la hauteur maximale de 120 m est mesurée comme la distance jusqu'au point le plus proche de la surface terrestre — et non simplement à la verticale vers le bas ; près d'une pente, le sol situé à côté de vous peut donc être pris en compte. À moins de 50 m d'un obstacle artificiel élevé (de plus de 105 m), la partie responsable de l'obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
       "En règle générale, l'exploitant doit être enregistré si le drone pèse au moins 250 g ou est équipé d'une caméra ou d'un capteur capable de collecter des données à caractère personnel, à moins qu'il ne relève de l'exception relative aux jouets. Les exigences en matière de licence de pilotage de drone et de distance dépendent de la classe, du poids et de la sous-catégorie du drone.",
-      "Un certificat de drone A1/A3 est requis si le drone pèse 250 g ou plus — examen théorique en ligne administré par la Swedish Transport Agency (payant ; le certificat est valable 5 ans). Âge minimum pour piloter un drone de manière autonome : 15 ans. Les moins de 15 ans ne peuvent voler qu'avec un certificat de drone valide et sous la supervision d'un télépilote âgé de 16 ans ou plus titulaire d'un certificat de drone valide.",
+      "En Suède, vous devez avoir 15 ans pour voler de manière autonome avec un certificat de drone A1/A3 (examen théorique en ligne auprès de Transportstyrelsen, payant, valable 5 ans). Les moins de 15 ans ne peuvent voler que sous la supervision directe d'un télépilote âgé d'au moins 16 ans et lui-même titulaire d'un certificat de drone valide.",
       "Le numéro d'exploitant doit être clairement apposé sur le drone.",
-      "Gardez le drone en vue directe (VLOS) — ne le faites pas passer hors de vue derrière un angle ou un bâtiment.",
-      "A1 : drones de moins de 250 g — vol autorisé au-dessus de personnes non impliquées (mais pas de rassemblements).",
-      "A2 : drones jusqu'à 4 kg — au moins 30 m des personnes présentes (5 m en mode basse vitesse). Nécessite un certificat A2.",
-      "A3 : drones jusqu'à 25 kg — au moins 150 m des zones résidentielles, commerciales, industrielles et de loisirs.",
+      "Dans la catégorie ouverte, vous devez garder le drone dans votre propre champ de vision direct, sans aide (les lunettes et lentilles sont autorisées ; les jumelles ou un écran ne comptent pas) — ou voler avec l'aide d'un observateur, en maintenant en permanence une communication claire et efficace entre vous, afin de pouvoir scruter ensemble l'espace aérien et éviter les collisions. Le mode Follow-me constitue une exception distincte, autorisée jusqu'à 50 m du télépilote.",
+      "A1 : drones de moins de 250 g — peuvent survoler des personnes non concernées, mais jamais des rassemblements de personnes.",
+      "A2 : drones jusqu'à 4 kg — au moins 30 m des personnes non concernées (5 m avec le mode basse vitesse activé, ≤ 3 m/s) et toujours au moins la hauteur de vol (règle 1:1). Nécessite un certificat A2.",
+      "A3 : drones jusqu'à 25 kg — volez uniquement là où aucune personne non concernée n'est censée être présente, et à au moins 150 m à l'horizontale des zones résidentielles, commerciales, industrielles et de loisirs.",
       "Ne survolez jamais un rassemblement de personnes sans autorisation spéciale.",
       "Consultez la carte des drones LFV (LFV Drone Map) et les NOTAM avant chaque vol."
     ],
@@ -27,38 +27,30 @@
     ],
     "primaryLinks": [
       {
-        "title": "Agence suédoise des transports — Réglementation des drones",
-        "description": ""
+        "title": "Agence suédoise des transports — Réglementation des drones"
       },
       {
-        "title": "LFV Drone Map — Espace aérien",
-        "description": ""
+        "title": "LFV Drone Map — Espace aérien"
       },
       {
-        "title": "Enregistrement de l'exploitant (requis si ≥250 g ou caméra)",
-        "description": ""
+        "title": "Enregistrement d'exploitant (requis si ≥250 g ou caméra, 250 kr/an)"
       },
       {
-        "title": "Certificat de drone A1/A3 — Examen théorique en ligne (requis si ≥250 g, à partir de 15 ans)",
-        "description": ""
+        "title": "Certificat de drone A1/A3 — Examen théorique en ligne (requis si ≥250 g, à partir de 15 ans)"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "Certificat A2 (drones de plus de 500 g ou vol à proximité de personnes)",
-        "description": ""
+        "title": "Certificat A2 (drones de plus de 500 g ou vol à proximité de personnes)"
       },
       {
-        "title": "AROweb — NOTAM et AIP Suède",
-        "description": ""
+        "title": "AROweb — NOTAM et AIP Suède"
       },
       {
-        "title": "Sites protégés — Contactez les forces armées suédoises",
-        "description": ""
+        "title": "Sites protégés — Contactez les forces armées suédoises"
       },
       {
-        "title": "Réserves naturelles — Renseignez-vous auprès de votre conseil d'administration du comté",
-        "description": ""
+        "title": "Réserves naturelles — Renseignez-vous auprès de votre conseil d'administration du comté"
       }
     ],
     "disclaimerText": "Vérifiez toujours les sources officielles avant de voler. Cette application est un outil — pas une source juridique. Les règles peuvent changer sans préavis.",

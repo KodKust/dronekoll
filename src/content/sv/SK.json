@@ -1,65 +1,72 @@
 {
- "meta": {
-  "sourceHash": "52f1e9302ec2bcb4cb052daf85c1bc4eb0d04440f50f5931718d7e36efc0852a",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Högst 120 m över marken (EASA öppen kategori)",
-   "Registrering som UAS-operatör hos transportmyndigheten för drönare som väger 250 g eller mer eller är utrustade med kamera",
-   "Obligatorisk A1/A3-onlineutbildning – lägsta ålder 16 år",
-   "Minsta avstånd per underkategori: A1 – flyg inte över kringstående; A2 – minst 30 m till människor (5 m i lågfartsläge); A3 – minst 150 m från bostads-, affärs-, industri- och rekreationsområden.",
-   "Håll alltid drönaren inom synhåll (VLOS)",
-   "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
-   "M. R. Štefánik-flygplatsen, Bratislava: totalt flygförbud inom en radie på 5 km upp till 500 m höjd (PUAS0103M, gäller från 6 december 2025). Flygplatserna Košice, Poprad, Žilina och Piešťany (gäller från 31 mars 2026): inom 5 km från flygplatsen är flygning över 30 m tillåten endast efter samordning – via e-post till flygtrafikledningsenheten minst 24 timmar i förväg.",
-   "Nattflygning är tillåten – drönaren måste ha ett grönt blinkande ljus tänt.",
-   "Nationalparker (Tatrabergen, Slovenska paradiset, Låga Tatra): restriktioner gäller",
-   "Bratislava slott och regeringsområden: flygförbudsområden",
-   "Kontrollera de geografiska UAS-zonerna (PUAS-/RUAS-zoner) före varje flygning – listan förvaltas av transportministeriet och transportmyndigheten, och zonerna kan ändras.",
-   "De militära flygfälten Malacky-Kuchyňa, Sliač och Prešov (RUAS-zoner): flygning är tillåten endast med godkännande av Slovakiens försvarsministerium."
-  ],
-  "importantNotes": [
-   "Avstånd till människor styrs av EASA:s underkategorier (A1/A2/A3) – den gamla nationella regeln om 50 meter gäller inte längre.",
-   "Registrering av UAS-operatörer hanteras av transportmyndigheten – giltig i hela EU/EASA",
-   "Tatrabergen och nationalparkerna har betydande restriktioner",
-   "Området kring M. R. Štefánik-flygplatsen: totalt drönarförbud inom en radie på 5 km (PUAS0103M) – detta täcker även en stor del av Bratislava.",
-   "GDPR gäller vid fångst av identifierbara bilder"
-  ],
-  "primaryLinks": [
-   {
-    "title": "Transportmyndigheten – Regler för drönare",
-    "description": "Officiella regler och resurser från transportmyndigheten om drönare"
-   },
-   {
-    "title": "Transportmyndigheten – Operatörsregistrering",
-    "description": "Registrering som UAS-operatör (giltig i alla EU-/EASA-länder)"
-   },
-   {
-    "title": "LPS – Luftrumskarta",
-    "description": "Karta över luftrum och drönarzoner från den slovakiska flygtrafiktjänsten"
-   },
-   {
-    "title": "Transportmyndigheten – Översikt över reglerna",
-    "description": "Översikt över reglerna för att flyga drönare i Slovakien"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "LPS – Flygtrafiktjänst",
-    "description": "Slovakisk flygtrafiktjänst och luftrumsinformation"
-   },
-   {
-    "title": "Transportmyndigheten – Vanliga frågor om drönare",
-    "description": "Vanliga frågor om reglerna för drönare i Slovakien"
-   }
-  ],
-  "disclaimerText": "Kontrollera alltid de officiella källorna från den civila luftfartsmyndigheten och LPS luftrumskarta innan du flyger. Den här appen är ett verktyg – inte en juridisk auktoritet. Slovakien följer EASA-reglerna med nationella tillägg.",
-  "sectionLabelRules": "VIKTIGASTE REGLERNA (EASA ÖPPEN KATEGORI)",
-  "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
-  "sectionLabelSecondary": "YTTERLIGARE RESURSER",
-  "linksSheetTitle": "Luftrum och regler – Slovakien",
-  "dronePilotCredentialName": "Drönarpilotlicens"
- }
+  "meta": {
+    "sourceHash": "6ba8a0d21aa6d8dafe028a7c48ce70de36567d44ff90036ca43f8450af32e0d5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "I den öppna kategorin är den högsta höjden 120 m, mätt som avståndet till närmaste punkt på jordytan – inte bara rakt nedåt, så nära en sluttning kan även marken bredvid dig räknas. Inom 50 m från ett högt konstgjort hinder (över 105 m) kan den som ansvarar för hindret begära tillstånd att flyga upp till 15 m över hindrets höjd.",
+      "Du måste registrera dig som drönaroperatör om din drönare väger 250 g eller mer (eller vid en kollision skulle kunna överföra mer än 80 J rörelseenergi) – det gäller även leksaker. Under 250 g är registrering ändå obligatorisk om drönaren har en sensor som kan samla in personuppgifter, såvida den inte räknas som en leksak enligt EU:s direktiv om leksakers säkerhet. Kraven på utbildning/intyg för piloter är separata och beror på drönarens klass och underkategori.",
+      "Det krävs en minimiålder på 16 år för att flyga självständigt i den öppna kategorin – A1/A3-utbildningen och provet (40 frågor, online) gäller i 5 år och erkänns i hela EU. Yngre piloter får flyga endast under direkt uppsikt av en certifierad fjärrpilot.",
+      "Minsta avstånd per underkategori: A1 – flyg inte över icke-inblandade personer; A2 – minst 30 m från icke-inblandade personer (5 m med aktiverad lågfartsfunktion ≤ 3 m/s) och alltid minst lika långt som flyghöjden (1:1-regeln); A3 – minst 150 m från bostads-, affärs-, industri- och rekreationsområden.",
+      "I den öppna kategorin ska du hålla drönaren inom ditt direkta synhåll, med blotta ögat (glasögon/kontaktlinser går bra; kikare eller en skärm räknas inte) – eller ta hjälp av en observatör, där ni hela tiden upprätthåller tydlig och effektiv kommunikation, så att ni tillsammans kan övervaka luftrummet och undvika kollisioner. Follow-me-läget är ett separat undantag, tillåtet upp till 50 m från piloten.",
+      "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
+      "Vid M. R. Štefánik-flygplatsen i Bratislava är civila drönarflygningar förbjudna inom en radie av 3 km från flygplatsens referenspunkt (48°10'12''N, 17°12'46''E), från markytan upp till 500 m över marken – zon RUAS098M enligt ministerns beslut nr 104/2026, i kraft från den 18 augusti 2026, som upphävde den tidigare zonen PUAS0103M. Förbudet gäller inte livräddande flygningar, ambulansflygningar och flygningar för sök och räddning (SAR), och inte heller flygningar som utförs med förhandsgodkännande från Slovakiens försvarsministerium och som är utrustade med ett system för fjärridentifiering. Inom en radie av 5 km (zon RUAS001-LZIBAD-D) är civil UAS-verksamhet tillåten endast i den specifika kategorin.",
+      "Sedan den 31 mars 2026 gäller nya regler i kontrollzonerna (CTR) Štefánik (Bratislava), Košice, Žilina, Piešťany och Tatry (Poprad) enligt transportmyndighetens beslut nr 1/2026: flygning utan tillstånd är möjlig endast på mer än 5 km avstånd från flygplatsen och upp till högst 30 m höjd, eller inom atypiskt luftrum (på mer än 5 km avstånd från flygplatsen, upp till byggnadens höjd och endast i dess omedelbara närhet, högst 30 m horisontellt avstånd från byggnaden). Verksamhet i en CTR i den mening som avses för de utpekade geografiska områdena får bedrivas endast med stöd av ett operativt tillstånd i den specifika kategorin.",
+      "I förberedelserna före flygning ingår att kontrollera att drönarens system för fjärridentifiering är aktivt och uppdaterat (NSAT).",
+      "Nattflygning är tillåten – drönaren måste ha ett grönt blinkande ljus tänt.",
+      "Nationalparker (Tatrabergen, Slovenska paradiset, Låga Tatra): restriktioner gäller",
+      "De militära flygfälten Malacky-Kuchyňa (RUAS077M), Sliač (RUAS080M) och Prešov (RUAS081M), vart och ett med en radie av 5 600 m: flygning endast med förhandsgodkännande från Slovakiens försvarsministerium och med ett aktivt system för fjärridentifiering (ministerns beslut nr 104/2026).",
+      "Kontrollera de geografiska UAS-zonerna (PUAS-/RUAS-zoner) före varje flygning – listan förvaltas av transportministeriet och transportmyndigheten, och zonerna kan ändras.",
+      "De militära flygfälten Malacky-Kuchyňa, Sliač och Prešov (RUAS-zoner): flygning är tillåten endast med godkännande av Slovakiens försvarsministerium."
+    ],
+    "importantNotes": [
+      "Avstånd till människor styrs av EASA:s underkategorier (A1/A2/A3) – den gamla nationella regeln om 50 meter gäller inte längre.",
+      "Registrering av UAS-operatörer hanteras av transportmyndigheten – giltig i hela EU/EASA",
+      "Tatrabergen och nationalparkerna har betydande restriktioner",
+      "Närheten till M. R. Štefánik-flygplatsen: civila UAS-flygningar är förbjudna inom en radie av 3 km (zon RUAS098M, ministerns beslut nr 104/2026, i kraft från den 18 augusti 2026); inom en radie av 5 km är verksamhet tillåten endast i den specifika kategorin (RUAS001-LZIBAD-D).",
+      "Försäkring är obligatorisk om du flyger en UAS i öppen kategori A2/A3, i den specifika kategorin eller i den certifierade kategorin (NSAT, vanliga frågor).",
+      "GDPR gäller vid fångst av identifierbara bilder"
+    ],
+    "primaryLinks": [
+      {
+        "title": "Geografiska UAS-områden – Transportmyndigheten",
+        "description": "Transportmyndighetens officiella sida med geografiska UAS-områden (KML för nedladdning). Förberedelse före flygning: sätt dig in i de geografiska områden som gäller just nu."
+      },
+      {
+        "title": "Transportmyndigheten – Regler för drönare",
+        "description": "Officiella regler och resurser från transportmyndigheten om drönare"
+      },
+      {
+        "title": "Transportmyndigheten – Operatörsregistrering",
+        "description": "Registrering som UAS-operatör (giltig i alla EU-/EASA-länder)"
+      },
+      {
+        "title": "LPS – Luftrumskarta",
+        "description": "Karta över luftrum och drönarzoner från den slovakiska flygtrafiktjänsten"
+      },
+      {
+        "title": "Transportmyndigheten – Översikt över reglerna",
+        "description": "Översikt över reglerna för att flyga drönare i Slovakien"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "LPS – Flygtrafiktjänst",
+        "description": "Slovakisk flygtrafiktjänst och luftrumsinformation"
+      },
+      {
+        "title": "Transportmyndigheten – Vanliga frågor om drönare",
+        "description": "Vanliga frågor om reglerna för drönare i Slovakien"
+      }
+    ],
+    "disclaimerText": "Kontrollera alltid de officiella källorna från den civila luftfartsmyndigheten och LPS luftrumskarta innan du flyger. Den här appen är ett verktyg – inte en juridisk auktoritet. Slovakien följer EASA-reglerna med nationella tillägg.",
+    "sectionLabelRules": "VIKTIGASTE REGLERNA (EASA ÖPPEN KATEGORI)",
+    "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
+    "sectionLabelSecondary": "YTTERLIGARE RESURSER",
+    "linksSheetTitle": "Luftrum och regler – Slovakien",
+    "dronePilotCredentialName": "Drönarpilotlicens"
+  }
 }

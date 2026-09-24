@@ -1,28 +1,30 @@
 {
   "meta": {
-    "sourceHash": "3f4b20da70d5a10b806d80689b9428a53f6f6f6a4f589f0dc439331194e5f8eb",
-    "sourceCountriesVersion": 193,
-    "sourceLastVerified": "2026-05-13",
-    "translatedAt": "2026-07-09",
-    "engine": "deepl"
+    "sourceHash": "df6b14f4fc38b5f9f75477bc725375986243192e5884f43ee6f721a2e4667902",
+    "sourceCountriesVersion": 256,
+    "sourceLastVerified": "2026-08-26",
+    "translatedAt": "2026-09-24",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "A maximum of 120 m above the ground (EASA Open Category)",
-      "Registration on AlphaTango is required (free, valid for 5 years) for any drone weighing 250 g or more, or equipped with a camera",
-      "Mandatory A1/A3 online training — minimum age 14. Former BAPD certificates (sworn statements) are no longer valid as of January 1, 2026.",
+      "In the Open Category, the maximum height is 120 m, measured as the distance to the closest point of the Earth's surface — not simply straight down, so near a slope the ground beside you can also count. Within 50 m of a tall artificial obstacle (over 105 m), the entity responsible for that obstacle may request permission to fly up to 15 m above the obstacle's height.",
+      "You must register as a drone operator if your drone weighs 250 g or more (or could transfer more than 80 J of kinetic energy on impact) — this applies even to toys. Below 250 g, registration is still mandatory if the drone is equipped with a sensor able to capture personal data, unless it is considered a toy under the EU Toy Safety Directive. Remote pilot training/certificate requirements are separate and depend on the drone's class and subcategory.",
+      "In France, two separate registrations coexist: operator registration (from 250 g or with a personal-data sensor) and registration of the aircraft itself on AlphaTango as soon as its mass exceeds 800 g and/or it is fitted with an electronic identification device. The registration number must be affixed to the aircraft.",
+      "In France, the minimum age to fly alone in the Open Category is 14 (free online A1/A3 training and exam via AlphaTango, valid for 5 years, recognized throughout the EU). There is no minimum age: in A1 with a class C0 aircraft that complies with Toy Directive 2009/48/EC; with a privately built aircraft under 250 g; or under the direct supervision of a remote pilot aged at least 16, both holding the required training and exams. This lowered age applies only in France — in another EU country, that country's minimum age applies.",
       "Liability insurance is strongly recommended for recreational use (required for professional or commercial use)",
-      "Paris and Île-de-France: Extensive No-Fly Zones — Visit Géoportail",
-      "Always keep the drone within visual line of sight (VLOS)",
+      "Paris and Île-de-France: Extensive No-Fly Zones — check the official DGAC map (cartes.gouv.fr)",
+      "National rule (arrêté “Espace”, arts. 5 and 6): in the Open Category, flying over public space in built-up areas — streets, squares, public parks and gardens, beaches, promenades — is only permitted (i) as part of the operator's professional activity, with, in a populated area, a prior declaration to the prefect via AlphaTango (CERFA 15476) at least ten working days before the flight, which may lead to a ban or a restriction; or (ii) at places where the prefect authorizes Open Category or model aircraft flights. For recreational use, this effectively rules out public space in towns and villages — not just Paris.",
+      "In the Open Category, keep the drone within your own direct line of sight, with the naked eye (corrective glasses/lenses allowed; binoculars or a screen do not count) — or be assisted by an observer, with clear and effective communication between you at all times, so that together you monitor the airspace and avoid collisions. “Follow-me” mode is a separate exception, permitted up to 50 m from the remote pilot.",
       "Do not fly over assemblies of people. Rules for uninvolved persons depend on subcategory, class mark and operating conditions; check the official matrix.",
-      "A minimum distance of 5 km from any airport or airfield—but within a control zone (CTR), prior authorization from the control tower is required",
-      "Night flight is permitted under the EASA open-category baseline when the required green flashing light is used, unless a current geographic zone or national rule imposes a stricter condition.",
+      "There is no single EU-wide distance to keep from airports. Restrictions near airports are published as geographical zones (Article 15) whose shape and size vary from airport to airport. Before flying near an airport, aerodrome or heliport, check your country's official drone zone map; flying in a control zone (CTR) normally requires prior authorization from air traffic control.",
+      "In France, night flying is prohibited in the Open Category, even if the aircraft is fitted with lights (DSAC guide “Catégorie Ouverte”, §7). The ban covers “aeronautical night”: in metropolitan France, it begins 30 minutes after sunset and ends 30 minutes before sunrise. Exemptions may be granted by the territorially competent prefect and must be requested at least 30 days before the flights; certain published model aircraft sites are also exceptions.",
       "Specific Category: European scenarios STS-01 and STS-02 replace the former French scenarios S-1, S-2, and S-3 (discontinued in 2026)",
-      "National Parks and Nature Reserves: Drone Use Prohibited Without Prefectural Authorization"
+      "National parks and nature reserves: parks and reserves that may not be overflown are published through aeronautical information (AIP ENR 5.7.3) and appear on the Géoportail map. In the core of a national park, overflight below a height of 1,000 m above the ground is prohibited by each park's own regulations, and any exemption is a matter for the park director — not the prefecture or air traffic control (Code de l'environnement, art. L331-4-1). Outside these parks and reserves, overflight of other protected areas (Espaces Naturels Sensibles, Natura 2000 sites, etc.) is usually not prohibited; it may be prohibited temporarily by prefectoral order."
     ],
     "importantNotes": [
       "AlphaTango registration is free and valid in all EU/EASA countries",
-      "Paris has one of the strictest no-fly zones in Europe—in practice, recreational flying is not possible",
+      "Paris: all outdoor flights are prohibited, even on private property — Paris is both a built-up area and “prohibited” airspace (zone P 23)",
       "Fines of up to 75,000 € and one year in prison for serious offenses",
       "Flying over nuclear sites, military zones, and prisons is a criminal offense",
       "The GDPR applies when capturing identifiable images—you are responsible for data processing"
@@ -37,8 +39,8 @@
         "description": "Free registration as a UAS operator (valid for 5 years, recognized in all EU/EASA countries)"
       },
       {
-        "title": "Geoportal — Map of Drone Restrictions",
-        "description": "Official map showing no-fly zones, restricted areas, and maximum permitted altitudes"
+        "title": "cartes.gouv.fr — Open Category UAS and model aircraft restrictions",
+        "description": "Official DGAC map and data: no-fly zones, restricted zones and maximum permitted heights"
       },
       {
         "title": "Drone Flying Rules — Service-Public.fr",

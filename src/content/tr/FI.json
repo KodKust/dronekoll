@@ -1,21 +1,21 @@
 {
   "meta": {
-    "sourceHash": "49389e227b39ad270162c3ac5b4ca7074db2b61d6472d7eff6c37ed05fab160b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c0578e66e699fe36cfd68936aab2c9a41e3b5869fd85affc213b0724574a07a2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Yerden en fazla 120 m (EASA Open kategorisi)",
-      "A1/A3 çevrim içi eğitim gereklidir — asgari yaş 16",
-      "Dronu her zaman doğrudan görüş hattınızda (VLOS) tutun",
+      "Açık kategoride izin verilen azami yükseklik 120 m'dir ve yer yüzeyinin en yakın noktasına olan mesafe olarak ölçülür — dümdüz aşağıya doğru değil; bu nedenle bir yamacın yakınında bitişikteki arazi de hesaba katılabilir. Yüksek bir yapay engelin (105 m'den yüksek) 50 m'lik yarıçapı içinde, engelden sorumlu kuruluş, engelin yüksekliğinin 15 m üzerine kadar uçmak için izin başvurusunda bulunabilir.",
+      "Finlandiya'da 250 gramdan ağır dronlar için uzaktan pilotun asgari yaşı 12'dir (Traficom); C0 sınıfı veya kendi yapımı 250 gramın altındaki dronlar için yaş veya eğitim şartı yoktur. Kaydı yapan operatörün (kullanıcının) her zaman yetişkin olması gerektiğini unutmayın — reşit olmayan bir pilot için operatör olarak veli kaydolur.",
+      "Açık kategoride dron, çıplak gözle kendi görüş hattınızda kalmalıdır (gözlük/kontakt lens sorun değildir; dürbün veya ekran sayılmaz) — ya da bir gözlemcinin yardımıyla uçabilirsiniz; hava sahasını birlikte izleyebilmeniz ve çarpışmalardan kaçınabilmeniz için onunla her zaman açık ve etkili bir iletişim sürdürmelisiniz. Follow-me modu ayrı bir istisnadır ve pilottan en fazla 50 m mesafede izin verilir.",
       "İnsan topluluklarının üzerinden uçmayın. Operasyona dahil olmayan kişilerle ilgili kurallar alt kategoriye, sınıf işaretine ve operasyon koşullarına bağlıdır; resmî matrisi kontrol edin.",
-      "Havalimanı CTR'leri ve UAS hava sahası bölgelerine ilişkin kısıtlamalara uyun — Droneinfo.fi'yi kontrol edin",
+      "Havalimanı CTR'lerinin ve UAS hava sahası bölgelerinin kısıtlamalarına uyun. Bölgeler Traficom'un OPS M1-29 düzenlemesinde tanımlanır; en son sürümü 16 Nisan 2026'da yürürlüğe girmiştir — güncel durumu Fintraffic Sky haritasında (sky.fintraffic.fi) kontrol edin.",
       "Dronda yeşil yanıp sönen bir tanımlama ışığı varsa ve görüş yeterliyse gece uçuşlarına izin verilir",
       "Doğu sınırı yakınında uçuş kısıtlamaları vardır — uçmadan önce etkilenen alanları kontrol edin",
       "Laponya'da, ren geyiği otlatma alanlarında mevsimsel kısıtlamalar olabilir",
-      "Alana özgü kısıtlamalar ve irtifa sınırları için Droneinfo.fi'yi kontrol edin"
+      "Alana özgü kısıtlamaları ve irtifa sınırlarını Fintraffic Sky haritasında (sky.fintraffic.fi) kontrol edin"
     ],
     "importantNotes": [
       "Doğu Sınırı (EFR100) bölgesi günün 24 saati aktiftir — artık haritada görünür",
@@ -31,11 +31,11 @@
       },
       {
         "title": "Traficom — Kaydolun",
-        "description": "UAS kullanıcısı olarak kayıt (3 yıl için €30 veya 5 yıl için €100, tüm AB/EASA ülkelerinde geçerli)"
+        "description": "UAS kullanıcısı olarak kayıt (1 yıl için 40 €, 3 yıl için 95 € veya 5 yıl için 125 €, tüm AB/EASA ülkelerinde geçerli)"
       },
       {
-        "title": "Droneinfo.fi — Hava Sahası Haritası",
-        "description": "Uçuşa yasak ve kısıtlı bölgeleri gösteren resmî etkileşimli dron haritası"
+        "title": "Fintraffic Sky – Hava Sahası Haritası",
+        "description": "Fintraffic ANS'nin UAS hava sahası bölgelerini ve yasak ve kısıtlı alanları gösteren etkileşimli hava sahası haritası (uygulamanın Hava Sahası düğmesinin arkasındaki haritayla aynı)"
       },
       {
         "title": "Traficom — Eğitim ve Sınavlar",
@@ -52,7 +52,7 @@
         "description": "Finlandiya'nın dron mevzuatı hakkında sıkça sorulan sorular"
       }
     ],
-    "disclaimerText": "Uçmadan önce her zaman Traficom'un resmî kaynaklarını ve Droneinfo.fi'yi kontrol edin. Bu uygulama bir araçtır, resmî bir merci değildir. Finlandiya, ek ulusal gerekliliklerle EASA mevzuatına uyar.",
+    "disclaimerText": "Uçmadan önce her zaman Traficom'un resmî kaynaklarını ve Fintraffic Sky haritasını kontrol edin. Bu uygulama bir araçtır, resmî bir merci değildir. Finlandiya, ek ulusal gerekliliklerle EASA mevzuatına uyar.",
     "sectionLabelRules": "TEMEL KURALLAR (EASA OPEN KATEGORİSİ)",
     "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
     "sectionLabelSecondary": "DAHA FAZLA BİLGİ",

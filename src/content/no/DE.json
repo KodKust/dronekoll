@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "2c58b7a31f1c8559936a55c3a5e025f7dd391e382ab6ecfeb89c30fa2c945c23",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef69e20c9988bcf5f856c6fb76c01616820e80425007ad49d1b4c9740db11a03",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maks. 120 m over bakkenivå (AGL) i åpen kategori",
-      "Registrering for droner som veier 250 g eller mer (eller under 250 g dersom de kan fotografere) — LBA-registreringsnummer",
+      "I Open-kategorien er maksimalhøyden 120 m, målt som avstanden til det nærmeste punktet på jordoverflaten — ikke bare rett ned, så nær en skråning kan også bakken ved siden av deg telle. Innenfor 50 m fra et høyt kunstig hinder (over 105 m) kan den som er ansvarlig for hinderet, be om tillatelse til å fly opptil 15 m over hinderets høyde.",
+      "Du må registrere deg som droneoperatør hvis dronen veier 250 g eller mer (eller kan overføre mer enn 80 J kinetisk energi ved et sammenstøt) — dette gjelder også leketøy. Under 250 g kreves registrering likevel hvis dronen har en sensor som kan registrere personopplysninger, med mindre den regnes som leketøy etter EU Toy Safety Directive. Krav til pilotopplæring/kompetanse reguleres separat og avhenger av dronens klasse og underkategori.",
       "LBA-operatørregistrering er avgiftsbelagt — minstealder er 16 år. Registreringsnummeret (e-ID) må være tydelig synlig på dronen.",
-      "A1/A3 fjernpilotsertifikat (avgiftsbelagt nettbasert prøve administrert av LBA) eller A2-sertifikat for å fly nærmere mennesker — sjekk gjeldende avgifter på lba.de",
-      "Obligatorisk ansvarsforsikring (Section 43 of the German Aviation Act) — også for droner til rekreasjonsbruk",
-      "Forbud mot å fly over boligeiendommer uten beboernes samtykke (Section 21h of the Air Traffic Regulations)",
-      "Innen 100 meter fra jernbaneanlegg, motorveier eller industrianlegg uten samtykke fra operatør eller eier",
-      "Flygeforbud i naturreservater og nasjonalparker",
-      "ED-R 146: permanent restriksjonssone over Berlin (regjeringskvarteret) — tillatelse kreves",
+      "I Tyskland er minstealderen for A1/A3-kompetansebeviset 16 år (nettbasert opplæring og eksamen, 40 spørsmål fra 9 fagområder, 75 % for å bestå, gyldig i 5 år) — unntak: flyging under direkte tilsyn av en fjernpilot med gyldig sertifikat.",
+      "Obligatorisk ansvarsforsikring (§43 Luftverkehrsgesetz) — gjelder også droner til rekreasjonsbruk, uavhengig av vekt.",
+      "Det er forbudt å fly over boligeiendommer uten uttrykkelig samtykke fra eierne eller andre berettigede brukere (§21h LuftVO). Unntak: droner under 250 g uten mulighet for opptak/overføring, eller flyginger i 100 m høyde eller mer under flere vilkår (berettiget interesse, intet offentlig område tilgjengelig, samtykke kan ikke med rimelighet innhentes, personverntiltak, kun 6–22 h, støygrenser overholdes).",
+      "Innenfor 100 m (sideveis og over) fra føderale hovedveier, føderale vannveier og jernbaneanlegg er drift bare tillatt hvis ETT av vilkårene i § 21h Abs. 3 Nr. 5 LuftVO er oppfylt: a) overflyging av en vei eller et jernbaneanlegg i «specific»-kategorien med en risikovurdering som tar hensyn til de særlige farene ved overflygingen; b) uttrykkelig samtykke fra ansvarlig myndighet eller operatøren av anlegget; c) flyhøyden over bakken er alltid mindre enn sideavstanden til infrastrukturen, og denne avstanden er alltid større enn 10 m; eller d) for føderale vannveier: kryssing langs korteste vei i en høyde på minst 100 m, uten å fly over skip eller skipsfartsanlegg. For industrianlegg, fengsler, militære anlegg og energianlegg gjelder avstanden på 100 m med mindre ansvarlig myndighet eller operatøren av anlegget gir uttrykkelig samtykke (Nr. 3). For jernbaneanlegg har DB InfraGO AG publisert kravene til jernbanekompatibel UAS-drift i NfL 1-2026-3788.",
+      "Naturreservater, nasjonalparker og Natura 2000-områder: overflyging er forbudt (§ 21h Abs. 3 Nr. 6 LuftVO) med mindre ansvarlig naturvernmyndighet uttrykkelig samtykker eller delstatslovgivningen regulerer driften annerledes. Utenfor nasjonalparker er drift også tillatt hvis alle fire vilkår er oppfylt samtidig: ikke sports- eller fritidsformål, flyhøyde over 100 m, kjennskap til og tilbørlig hensyn til verneformålet, og overflygingen er uunngåelig nødvendig for formålet med operasjonen.",
+      "ED-R 146: permanent restriksjonsområde over regjeringskvarteret i Berlin — tillatelse kreves. Sjekk gjeldende status på dipul.de før du flyr.",
+      "Siden 6. august 2026 gjelder sonemodellen for UAS-flyginger i kontrollsoner ved 24 flyplasser (DFS: NfL 2026-1-3960, som opphever NfL 2023-1-2705; DFS Aviation Services: NfL 2026-1-3981). Sone 1 — over flyplassen, innenfor 1 km fra flyplassens grense og i rullebanekorridorene forlenget med 5 km (1 km til hver side av rullebanens senterlinje) — har ingen generell klarering: der kreves det alltid en individuell klarering fra flygekontrollen, som søkes via ais.dfs.de med omtrent 14 dagers forvarsel. I sone 2 og 3 gjelder en generell klarering opptil henholdsvis 25 m og 45 m over flyplassens høyde eller over bakken (det som er lavest); i sone 4 opptil 100 m over flyplassens høyde eller 50 m over bakken (det som er høyest; ligger startpunktet under flyplassens høyde, gjelder 100 m over bakken). Den generelle klareringen gjelder bare UAS opptil 25 kg (modellfly opptil 5 kg), krever en bakkesikt på minst 800 m og utelukker autonome flyginger. Sjekk undersonen din og terrenghøyden i dipul Maptool før du flyr.",
       "Direct Remote ID har vært obligatorisk i hele EU for droner i klasse C1, C2 og C3 siden 1. januar 2024"
     ],
     "importantNotes": [
-      "dipul viser luftromsklasser, men ikke en fullstendig oversikt over restriksjonssoner — suppler med Droniq-appen",
+      "dipul viser luftromsklasser, men gir ikke en fullstendig oversikt over alle restriksjonsområder — før du flyr nær sensitive områder, bruk også Droniq-appen eller lignende.",
       "Utenlandske piloter med EU-registrering må likevel følge nasjonalt luftfartsregelverk",
-      "Å ta bilder på privat eiendom kan også reise GDPR-spørsmål"
+      "Fotografering av privat eiendom kan reise personvernspørsmål (DSGVO/GDPR) i tillegg til flytillatelsen etter §21h LuftVO."
     ],
     "primaryLinks": [
       {
@@ -51,8 +52,8 @@
         "description": "Søk om unntak for spesielle tilfeller"
       },
       {
-        "title": "BMDV – droneinformasjon",
-        "description": "Nasjonalt droneregelverk og rettslig grunnlag (§ 21h i den tyske luftfartsforskriften (LuftVO))"
+        "title": "BMV – Droneinformasjon",
+        "description": "Nasjonalt droneregelverk og rettsgrunnlag (§21h LuftVO)"
       }
     ],
     "disclaimerText": "Sjekk alltid offisielle kilder før du flyr. Denne appen er et verktøy — ikke en juridisk referanse. Reglene kan endres uten varsel.",

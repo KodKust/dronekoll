@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "36d02a53cfd249d58006a295f9a59616c0e6c70d5da2bf039b877f35892a3057",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6bf2e348b1896b08803a150a27a534a3546ea700b4d2c17be5329c5137833aca",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimalt 120 m over jorden (EASA's åbne kategori)",
-      "Obligatorisk A1/A3-onlineuddannelse — minimumsalder 14 år (registreringen skal foretages af en forælder eller værge for mindreårige på 14 og 15 år).",
+      "I den åbne kategori er den maksimale højde 120 m, målt som afstanden til det nærmeste punkt på jordens overflade — ikke blot lodret ned, så jorden ved siden af dig også kan tælle med ved en skråning. Inden for 50 m fra en høj kunstig forhindring (over 105 m) kan den enhed, der er ansvarlig for forhindringen, anmode om tilladelse til at flyve op til 15 m over forhindringens højde.",
+      "Obligatorisk, gratis A1/A3-onlineuddannelse via LearningZone-platformen fra Eurocontrol (FR/DE/EN/LB, adgang i 3 måneder, som kan fornyes); certifikatet er gyldigt i 5 år. Minimumsalderen for at operere et ubemandet luftfartøj i den »åbne« kategori er 14 år i Luxembourg (art. 2 i storhertugelig forordning af 22. december 2025); en yngre mindreårig flyver under opsyn af en person over 16 år med de påkrævede kvalifikationer. OPEN A2-prøven aflægges i DAC's lokaler og koster 45 €.",
       "Obligatorisk ansvarsforsikring (policenummer kræves ved registrering)",
       "CTR'en for Luxembourg-Findel Airport dækker en betydelig del af landet",
-      "Hold altid dronen inden for synsvidde (VLOS)",
+      "I den åbne kategori skal dronen holdes inden for din egen direkte synsvidde uden hjælpemidler (briller og kontaktlinser med styrke er tilladt; kikkert eller en skærm tæller ikke) — eller du kan få hjælp af en observatør, hvis I hele tiden har klar og effektiv kommunikation, så I sammen kan overvåge luftrummet og undgå kollisioner. Follow-me-tilstand er en særskilt undtagelse og er tilladt op til 50 m fra fjernpiloten.",
       "Man må ikke flyve over menneskemængder. Reglerne for uvedkommende afhænger af underkategori, klassemærke og driftsforhold; se den officielle oversigt.",
       "Overhold Luxembourg-Findel CTR og de geografiske UAS-zoner, der er offentliggjort på Geoportail.lu — der er ikke længere en fast bufferzone på 5 km efter EASA-harmoniseringen",
-      "Om natten kræver mange områder (især omkring Findel) en specifik tilladelse — tjek kravene for hvert område på drones.geoportail.lu.",
+      "Natflyvning er tilladt i den åbne kategori i Luxembourg under forudsætning af EASA's grundlæggende krav. Nogle geografiske zoner — især omkring Findel — stiller dog betingelser eller kræver en særlig tilladelse til natflyvning: tjek betingelserne for hver zone på g-o.lu/uas.",
       "Grand Ducal Palace, fængsler og militære zoner: forudgående tilladelse påkrævet — lokale stadioner og flyvepladser (Useldange, Noertrange): flyvning forbudt."
     ],
     "importantNotes": [
       "Obligatorisk forsikring; policenummer kræves ved registrering",
       "CTR'en for Luxembourg-Findel Airport dækker en stor del af dette lille land",
-      "Den nye nationale ramme (december 2025) indebærer strafferetlige sanktioner — op til 1 års fængsel og en bøde på €5.000 — for manglende forsikring eller registrering.",
-      "GDPR gælder, når man optager billeder, hvor personer kan identificeres"
+      "Den nye nationale ramme — loven af 19. december 2025 og storhertugelig forordning af 22. december 2025 om ubemandede luftfartøjer — supplerer de europæiske regler og indfører strafferetlige sanktioner for manglende overholdelse af forpligtelserne vedrørende registrering, forsikring og zoner. Siden 14. januar 2026 er der opkrævet gebyrer: 10 € for registrering eller fornyelse heraf, 30 € for en STS-erklæring, 45 € for OPEN A2-prøven.",
+      "GDPR gælder, når man optager billeder, hvor personer kan identificeres",
+      "Advarsel (DAC): De geozoner, som UAS-producenterne leverer, dækker ikke nødvendigvis alle restriktionszoner i Luxembourg, og der er INGEN automatisk overførsel af information mellem UAS-producenten og Geoportail. Kun de geografiske UAS-zoner, der vises på g-o.lu/uas, er juridisk gældende — geobegrænsningen i din fjernbetjening er ikke nok."
     ],
     "primaryLinks": [
       {
@@ -34,7 +35,7 @@
       },
       {
         "title": "Geoportail.lu — Dronekort",
-        "description": "Officiel geografisk portal med information om dronezoner"
+        "description": "Kun de geografiske UAS-zoner, der offentliggøres her, er juridisk gældende i Luxembourg"
       },
       {
         "title": "DAC — Oversigt over reglerne",

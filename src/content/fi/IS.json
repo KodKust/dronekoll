@@ -1,26 +1,27 @@
 {
   "meta": {
-    "sourceHash": "33a814a3d0b5505e00903b83ae6e8352f9d6c524274ef27251d8bef1683efdd9",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bc6372b8db43aa400f327dcbe06c67e81c770544a50c90238e8b68a0ddad32f8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Suurin lentokorkeus 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröidy UAS-käyttäjäksi (5 863 ISK / 5 vuotta), jos dronesi painaa vähintään 250 g tai siinä on kamera",
-      "A1/A3-verkkokurssi on pakollinen — vähimmäisikä 16 vuotta",
-      "Rajoituksia tulivuorenpurkausalueilla: tarkista aina ajankohtainen purkaustoiminta",
-      "Kansallispuistot (Vatnajökull, Þingvellir, Snæfellsjökull): 17. toukokuuta 2026 alkaen harrastelennätykseen ei myönnetä lupaa yli 25 suojelualueella (päätöksestä on valitettu)",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Avoimessa kategoriassa suurin sallittu korkeus 120 m mitataan etäisyytenä lähimpään maanpinnan kohtaan — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maasto voidaan laskea mukaan. 50 m:n säteellä korkeasta ihmisen rakentamasta esteestä (yli 105 m) esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
+      "Sinun on rekisteröidyttävä dronen käyttäjäksi, jos drone painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g painava drone on silti rekisteröitävä, jos siinä on anturi, joka pystyy keräämään henkilötietoja, ellei sitä katsota leluksi EU:n lelujen turvallisuusdirektiivin mukaisesti. Lentäjän koulutus- ja todistusvaatimukset ovat erillisiä ja riippuvat dronen luokasta ja alaluokasta.",
+      "Islannissa vähimmäisikä on 16 vuotta — poikkeukset koskevat C0-luokan dronea alaluokassa A1, itse rakennettua alle 250 g painavaa dronea sekä lentoja, joita valvoo todistuksen omaava kaukolentäjä.",
+      "Tulivuorenpurkausten aikana Almannavarnir/Samgöngustofa voi asettaa dronelennoille väliaikaisia rajoituksia — rajoitukset voivat ulottua 1 500 ft:n korkeuteen asti, ja kokonaisia alueita (esim. Reykjanesin niemimaa heinäkuun 2025 purkauksen aikana) voidaan sulkea kokonaan niin kauan kuin toiminta jatkuu. Tarkista aina ajankohtainen tulivuoritoiminta ennen lentämistä.",
+      "17. toukokuuta 2026 alkaen Náttúruverndarstofnun (ei ilmailuviranomaiset) myöntää lupia ainoastaan kaupallisille dronelennoille 27 suojelualueella. Rajoitukset ovat kolmiportaisia: 15 aluetta ympäri vuoden (mm. Gullfoss, Geysir, Goðafoss, Skógafoss, Dyrhólaey, Látrabjarg sekä Mývatnin ja Laxán suojelualue), 11 aluetta 1. toukokuuta–15. syyskuuta (mm. Snæfellsjökullin kansallispuisto, Dimmuborgir, Hornstrandir ja Dynjandi) sekä Friðlandið að Fjallabaki 15. kesäkuuta–15. syyskuuta. Lupia tutkimukseen, seurantaan, kuvaamiseen, kaupalliseen valokuvaukseen ja luvanvaraisiin tapahtumiin myönnetään edelleen. Þingvellir ja Vatnajökullin kansallispuisto eivät ole tällä listalla, ja niillä on omat sääntönsä.",
+      "Lentäminen alle 150 m:n etäisyydellä herkistä kohteista on kielletty: voimalaitokset, sähköasemat, Alþingi, presidentin asuinpaikka, ministeriöt, suurlähetystöt, poliisiasemat, vankilat ja sairaalat, ellei niiden omistaja tai haltija ole antanut lupaa.",
+      "Avoimessa kategoriassa dronen on pysyttävä omassa, paljain silmin ylläpidettävässä näköyhteydessäsi (silmälasit/piilolinssit käyvät; kiikari tai näyttö ei kelpaa) — tai voit lentää tarkkailijan avustamana pitäen koko ajan selkeän ja tehokkaan yhteyden toisiinne, jotta voitte yhdessä tarkkailla ilmatilaa ja välttää yhteentörmäykset. Follow-me-tila on erityinen poikkeus, sallittu enintään 50 m:n etäisyydellä ohjaajasta.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-      "Vähintään 2 km kaupallisista lentoasemista, 1,5 km pienemmistä lentopaikoista ja laskeutumispaikoista",
+      "Lentäminen ilman lentoaseman pitäjän lupaa on kielletty lentoasemilla, lentoasema-alueilla sekä säännöllisen liikenteen lentoasemien ympärillä olevilla rajoitusvyöhykkeillä — rajoitusvyöhykkeet ovat sovelluksen kartalla näkyvät alueet (monin paikoin noin 5 km). Rajoitusvyöhykkeellä saat kuitenkin lentää ilman erityislupaa, jos lennät alempana kuin korkeimmat esteet 50 metrin säteellä dronen lentoreitistä. Lupa: ISAVIA Keflavíkin lentoaseman osalta, Innanlandsflugvellir ehf. muiden säännöllisen liikenteen lentoasemien osalta.",
       "Lintujen pesimäalueet: kausirajoituksia (touko–elokuu)",
       "Vaikeat tuuliolosuhteet: Islannissa tuuli ylittää usein dronejen turvarajat"
     ],
     "importantNotes": [
       "Aktiivisilla tulivuorenpurkausalueilla voi olla väliaikaisia lennätyskieltoja — tarkista ennen jokaista lentoa",
-      "17. toukokuuta 2026 alkaen luonnonsuojeluvirasto ei myönnä lupaa harraste- ja opetuslennätykseen yli 25 suojelualueella (kansallispuistot ym.); päätöksestä on valitettu ympäristöministeriöön",
+      "17. toukokuuta 2026 alkaen Náttúruverndarstofnun myöntää lupia ainoastaan kaupallisille dronelennoille 27 suojelualueella — osalla ympäri vuoden, osalla vain kesäkuukausina. Tarkista kunkin alueen tiedot listalta osoitteessa nattura.is.",
       "Islannin sää on ailahtelevaa — tuuli ylittää usein dronejen rajat",
       "Lintujen pesimäkausi (touko–elokuu): lisärajoituksia monilla alueilla",
       "Islanti kuuluu ETA:han, mutta ei EU:hun — EASAn säännöt pätevät ETA-sopimuksen kautta"
@@ -35,8 +36,8 @@
         "description": "Rekisteröidy UAS-käyttäjäksi (5 863 ISK / 5 vuotta, voimassa ETA-maissa)"
       },
       {
-        "title": "FlyDrone.is — Ilmatilakartta",
-        "description": "Virallinen interaktiivinen dronekartta, joka näyttää lennätyskieltoalueet ja rajoitukset"
+        "title": "FlyDrone.is – Rekisteröinti ja A1/A3-koe",
+        "description": "Samgöngustofan rekisteröintisivusto, jossa käyttäjät rekisteröityvät, lukevat oppimateriaalin ja suorittavat A1/A3-kokeen (5 863 ISK, voimassa 5 vuotta)"
       },
       {
         "title": "island.is — Dronen rekisteröinti",
@@ -49,8 +50,11 @@
         "description": "Islannin lennonvarmistuspalvelut ja tietoa ilmatilasta"
       },
       {
-        "title": "Umhverfisstofnun — Luonnonsuojelu",
-        "description": "Tietoa kansallispuistoista ja suojelualueista Islannin ympäristövirastolta"
+        "title": "Náttúruverndarstofnun – Dronet suojelualueilla",
+        "description": "Luettelo suojelualueista, joilla on dronelentorajoituksia, sekä voimassa olevat ajanjaksot"
+      },
+      {
+        "title": "Kortasjá – dronekartta"
       }
     ],
     "disclaimerText": "Tarkista aina Samgöngustofan (ICETRA) ja FlyDrone.is-palvelun viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Islanti noudattaa EASAn sääntöjä ETA-sopimuksen kautta kansallisine lisäyksineen.",

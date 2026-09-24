@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "2c58b7a31f1c8559936a55c3a5e025f7dd391e382ab6ecfeb89c30fa2c945c23",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef69e20c9988bcf5f856c6fb76c01616820e80425007ad49d1b4c9740db11a03",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maks. 120 m virs zemes (AGL) atvērtajā kategorijā",
-      "Reģistrācija priekšmetiem, kas sver 250 g vai vairāk (vai mazāk par 250 g, ja tie tiek fotografēti) — LBA reģistrācijas numurs",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, mērot attālumu līdz tuvākajam Zemes virsmas punktam — nevis vienkārši vertikāli uz leju, tāpēc nogāzes tuvumā var ņemt vērā arī zemi tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgais subjekts var pieprasīt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Tev jāreģistrējas kā drona operatoram, ja drons sver 250 g vai vairāk (vai triecienā var nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas arī uz rotaļlietām. Ja drons sver mazāk par 250 g, reģistrācija joprojām ir nepieciešama, ja dronam ir sensors, kas spēj fiksēt personas datus, izņemot gadījumu, kad tas tiek uzskatīts par rotaļlietu saskaņā ar EU Toy Safety Directive. Pilota apmācības/kompetences prasības tiek regulētas atsevišķi un ir atkarīgas no drona klases un apakškategorijas.",
       "LBA operatora reģistrācija ir par maksu — minimālais vecums ir 16 gadi. Reģistrācijas numuram (e-ID) jābūt skaidri redzamam uz drona.",
-      "A1/A3 tālvadības pilota apliecība (LBA administrēts tiešsaistes tests par maksu) vai A2 apliecība lidošanai tuvāk cilvēkiem — pārbaudi pašreizējās maksas vietnē lba.de",
-      "Obligāta civiltiesiskās atbildības apdrošināšana (German Aviation Act 43. pants) — tostarp atpūtas droniem",
-      "Aizliegts lidot virs dzīvojamiem īpašumiem bez iedzīvotāju piekrišanas (Air Traffic Regulations 21h pants)",
-      "100 metru rādiusā no dzelzceļa iekārtām, automaģistrālēm vai rūpnieciskām iekārtām bez operatora vai īpašnieka piekrišanas",
-      "Lidojumu aizliegums dabas rezervātos un nacionālajos parkos",
-      "ED-R 146: pastāvīga ierobežota zona virs Berlīnes (valdības kvartāls) — nepieciešama atļauja",
+      "Vācijā minimālais vecums A1/A3 kompetences apliecības iegūšanai ir 16 gadi (tiešsaistes apmācība un eksāmens, 40 jautājumi no 9 tematiskajām jomām, nokārtošanai nepieciešami 75%, derīga 5 gadus) — izņēmums: lidošana tāda tālvadības pilota tiešā uzraudzībā, kuram ir derīga apliecība.",
+      "Obligāta civiltiesiskās atbildības apdrošināšana (§43 Luftverkehrsgesetz) — attiecas arī uz atpūtas droniem neatkarīgi no svara.",
+      "Aizliegts lidot virs dzīvojamiem īpašumiem bez īpašnieku vai citu pilnvaroto lietotāju skaidras piekrišanas (§21h LuftVO). Izņēmumi: droni, kas sver mazāk par 250 g un kuriem nav ierakstīšanas/pārraides iespēju, vai lidojumi 100 m augstumā vai augstāk, ja izpildīti vairāki nosacījumi (leģitīmas intereses, nav pieejamas publiskas teritorijas, piekrišanu nav iespējams saprātīgi iegūt, datu aizsardzības piesardzības pasākumi, tikai 6-22 h, ievēroti trokšņa ierobežojumi).",
+      "Tuvāk par 100 m (sāniski un virs) no federālajiem maģistrālajiem ceļiem, federālajiem ūdensceļiem un dzelzceļa objektiem ekspluatācija ir atļauta tikai tad, ja izpildīts VIENS no § 21h Abs. 3 Nr. 5 LuftVO nosacījumiem: a) ceļa vai dzelzceļa objekta pārlidojums \"specifiskajā\" kategorijā ar riska novērtējumu, kas ņem vērā pārlidojuma īpašos apdraudējumus; b) kompetentās iestādes vai objekta operatora skaidra piekrišana; c) lidojuma augstums virs zemes vienmēr ir mazāks par horizontālo attālumu līdz infrastruktūrai, un šis attālums vienmēr ir lielāks par 10 m; vai d) federālajiem ūdensceļiem: šķērsošana pa īsāko ceļu vismaz 100 m augstumā, nelidojot virs kuģiem vai kuģniecības iekārtām. Rūpnieciskiem objektiem, cietumiem, militāriem objektiem un enerģētikas objektiem piemēro 100 m attālumu, ja vien kompetentā iestāde vai objekta operators nedod skaidru piekrišanu (Nr. 3). Attiecībā uz dzelzceļa objektiem DB InfraGO AG dokumentā NfL 1-2026-3788 ir publicējis prasības ar dzelzceļu savietojamai UAS ekspluatācijai.",
+      "Dabas rezervāti, nacionālie parki un Natura 2000 teritorijas: pārlidošana ir aizliegta (§ 21h Abs. 3 Nr. 6 LuftVO), ja vien kompetentā dabas aizsardzības iestāde nedod skaidru piekrišanu vai federālās zemes tiesību akti neregulē ekspluatāciju citādi. Ārpus nacionālajiem parkiem ekspluatācija ir atļauta arī tad, ja vienlaikus izpildīti visi četri nosacījumi: nav sporta vai atpūtas mērķa, lidojuma augstums virs 100 m, aizsardzības mērķa pārzināšana un pienācīga ievērošana, un pārlidojums ir neizbēgami nepieciešams ekspluatācijas mērķa sasniegšanai.",
+      "ED-R 146: pastāvīga ierobežota zona virs Berlīnes valdības kvartāla — nepieciešama atļauja. Pirms lidošanas pārbaudi aktuālo statusu vietnē dipul.de.",
+      "Kopš 2026. gada 6. augusta 24 lidostās UAS lidojumiem kontroles zonās piemēro zonu modeli (DFS: NfL 2026-1-3960, ar ko atceļ NfL 2023-1-2705; DFS Aviation Services: NfL 2026-1-3981). 1. zonā — virs lidostas, 1 km rādiusā no tās robežas un skrejceļu koridoros, kas pagarināti par 5 km (pa 1 km pa kreisi un pa labi no skrejceļa ass līnijas), — vispārējās atļaujas nav: tur vienmēr nepieciešama individuāla gaisa satiksmes vadības atļauja, ko pieprasa vietnē ais.dfs.de aptuveni 14 dienas iepriekš. 2. un 3. zonā vispārējā atļauja ir spēkā attiecīgi līdz 25 m un 45 m virs lidlauka augstuma vai virs zemes (atkarībā no tā, kas ir zemāk); 4. zonā — līdz 100 m virs lidlauka augstuma vai 50 m virs zemes (atkarībā no tā, kas ir augstāk; ja pacelšanās punkts atrodas zemāk par lidlauka augstumu, piemēro 100 m virs zemes). Vispārējā atļauja attiecas tikai uz UAS līdz 25 kg (aeromodeļiem līdz 5 kg), prasa vismaz 800 m redzamību pie zemes un neattiecas uz autonomiem lidojumiem. Pirms lidošanas pārbaudi savu apakšzonu un reljefa augstumu dipul Maptool.",
       "Direct Remote ID visā ES ir obligāts C1, C2 un C3 klases droniem kopš 2024. gada 1. janvāra"
     ],
     "importantNotes": [
-      "dipul rāda gaisa telpas klases, taču ne pilnīgu ierobežoto zonu pārskatu — papildini ar Droniq lietotni",
+      "dipul rāda gaisa telpas klases, taču nesniedz pilnīgu pārskatu par visām ierobežotajām zonām — pirms lidošanas jutīgu teritoriju tuvumā izmanto arī Droniq lietotni vai līdzīgu.",
       "Ārvalstu pilotiem ar ES reģistrāciju joprojām jāievēro nacionālie aviācijas noteikumi",
-      "Fotografēšana privātīpašumā var radīt arī GDPR problēmas"
+      "Privāta īpašuma fotografēšana papildus lidojuma atļaujai saskaņā ar §21h LuftVO var radīt arī datu aizsardzības jautājumus (DSGVO/GDPR)."
     ],
     "primaryLinks": [
       {
@@ -51,8 +52,8 @@
         "description": "Piesakies atbrīvojumiem īpašiem gadījumiem"
       },
       {
-        "title": "BMDV — Dronu informācija",
-        "description": "Nacionālie dronu noteikumi un tiesiskais pamats (Vācijas Gaisa satiksmes noteikumu (LuftVO) 21h pants)"
+        "title": "BMV – Informācija par droniem",
+        "description": "Nacionālais dronu regulējums un juridiskais pamats (§21h LuftVO)"
       }
     ],
     "disclaimerText": "Pirms lidojuma vienmēr pārbaudi oficiālos avotus. Šī lietotne ir rīks, nevis juridiska atsauce. Noteikumi var mainīties bez iepriekšēja brīdinājuma.",

@@ -1,25 +1,27 @@
 {
   "meta": {
-    "sourceHash": "f36a1cf828ca8a0a643f670fd6a861c54e98b56220c07b5f5975ef302b2f4c03",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "933e44d2614cf2cedaee58cc5869444dec9c634eb2504dc1238b121b71e2d432",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Högst 120 m över marken (EASA öppen kategori enligt bilateralt avtal)",
-      "Registrera dig som UAS-operatör (10 CHF, gäller tills vidare) om drönaren väger 250 g eller mer eller är utrustad med kamera",
-      "A1/A3-onlineutbildning krävs för drönare som väger 250 g eller mer (intyget gäller i 5 år) – lägsta ålder 12 år; barn under 12 måste ha uppsikt av någon som är minst 16 år.",
+      "I den öppna kategorin mäts den högsta tillåtna höjden på 120 m som avståndet till närmaste punkt på jordytan – inte bara rakt nedåt, så nära en sluttning kan även marken bredvid dig räknas. Inom 50 m från ett högt konstgjort hinder (över 105 m) kan den som ansvarar för hindret begära tillstånd att flyga upp till 15 m över hindrets höjd.",
+      "Du måste registrera dig som drönaroperatör om drönaren väger 250 g eller mer (eller kan överföra mer än 80 J rörelseenergi vid en kollision) – det gäller även leksaker. Under 250 g krävs registrering ändå om drönaren har en sensor som kan samla in personuppgifter, såvida den inte räknas som en leksak enligt EU Toy Safety Directive. Kraven på pilotutbildning och certifikat regleras separat och beror på drönarens klass och underkategori.",
+      "I Schweiz är lägsta ålder för fjärrpiloter 12 år i kategorin ”öppen” och 14 år i kategorin ”specifik” (Art. 26 VLK, SR 748.941) – oavsett drönarens vikt. Yngre piloter får endast flyga under direkt uppsikt av en fjärrpilot som uppfyller kraven. Vid registreringen måste barn under 16 år ange en vårdnadshavare. A1/A3-kompetensbeviset tas online och gäller i 5 år.",
       "Obligatorisk ansvarsförsäkring för drönare som väger 250 g eller mer (täckning på 1 miljon CHF)",
       "Medlemmar i modellflygklubbar: ytterligare förmåner enligt FOCA:s regler",
-      "Håll alltid drönaren inom synhåll (VLOS)",
+      "I den öppna kategorin måste du hålla drönaren inom ditt eget synhåll med blotta ögat (glasögon och linser går bra; kikare eller en skärm räknas inte) – eller flyga med stöd av en observatör, med tydlig och effektiv kommunikation mellan er hela tiden, så att ni tillsammans kan bevaka luftrummet och undvika kollisioner. Follow-me-läget är ett separat undantag och är tillåtet upp till 50 m från piloten.",
       "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
-      "Inom 5 km från flygplatser och flygfält är verksamhet tillåten endast med flygfältets tillstånd (drönare som väger mer än 250 g).",
+      "För drönare över 250 g är flygning förbjuden på mindre än 5 km avstånd från banorna på en civil eller militär flygplats, och i en aktiv CTR om en höjd på 120 m över marken överskrids (Art. 28 VLK). Flygplatsledningen kan fastställa en mindre zon inom de 5 km; undantag beviljas av flygplatsledningen eller flygtrafikledningsenheten.",
+      "Oavsett vikt är flygning bland annat förbjuden över kriminalvårdsanstalter, över militära områden som anges i bilagan till VLK, över utomhusställverk på nätnivå 2 och inom 750 m från kärnkraftverk och mellanlagret i Würenlingen (Art. 27 VLK).",
       "Nationalparker: drönaranvändning begränsad eller förbjuden",
       "Bergsregioner: var uppmärksam på helikoptrars flygvägar (räddnings- och sightseeingflygningar)"
     ],
     "importantNotes": [
       "Registreringen kostar bara 10 CHF – en engångsavgift med obegränsad giltighet som inte behöver förnyas.",
+      "U-Space Zürich: Schweiz första U-Space-luftrum införs i Zürichs CTR (ca 10 km × 17 km); från slutet av 2026 blir det obligatoriskt för alla drönarpiloter i området att använda U-Space-tjänster (engångsregistrering hos en USSP krävs). Undantagna: drönare under 250 g, modellflygplan, statsluftfart. Rättslig grund: Art. 29a–29e VLK.",
       "Obligatorisk försäkring för drönare som väger 250 g eller mer (täckning: 1 miljon CHF)",
       "Schweiz är inte medlem i EU, men följer EASA-reglerna genom ett bilateralt avtal",
       "Flygvägar för helikoptrar är vanliga i Alperna – håll alltid koll på luftrummet",
@@ -51,6 +53,10 @@
       {
         "title": "SMV – Modellflyg",
         "description": "Schweiziska modellflygförbundet med klubbförmåner och platser"
+      },
+      {
+        "title": "DABS – Daily Airspace Bulletin Switzerland (BAZL)",
+        "description": "FOCA/BAZL: ”DABS ska därför också kontrolleras före varje flygning” – steg 2 i BAZL:s egen kontroll i tre steg"
       }
     ],
     "disclaimerText": "Kontrollera alltid de officiella källorna från FOCA/BAZL och den officiella drönarkartan på map.geo.admin.ch före varje flygning. Den här appen är ett verktyg – inte en rättskälla. Schweiz följer EASA-reglerna genom ett bilateralt avtal.",

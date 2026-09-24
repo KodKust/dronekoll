@@ -1,22 +1,24 @@
 {
   "meta": {
-    "sourceHash": "52f1e9302ec2bcb4cb052daf85c1bc4eb0d04440f50f5931718d7e36efc0852a",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "sourceHash": "6ba8a0d21aa6d8dafe028a7c48ce70de36567d44ff90036ca43f8450af32e0d5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Um máximo de 120 m acima do nível do solo (Categoria Aberta EASA)",
-      "Registo como operador de UAS junto da Autoridade dos Transportes para drones com peso igual ou superior a 250 g ou equipados com câmara",
-      "Formação online A1/A3 obrigatória — idade mínima de 16 anos",
-      "Distâncias mínimas por subcategoria: A1 — não sobrevoar pessoas não envolvidas; A2 — pelo menos 30 m de pessoas (5 m em modo de baixa velocidade); A3 — pelo menos 150 m de zonas residenciais, comerciais, industriais e recreativas.",
-      "Mantenha sempre a linha de vista direta (VLOS) com o drone",
+      "Na categoria aberta, a altura máxima é de 120 m, medida como a distância até ao ponto mais próximo da superfície terrestre — não simplesmente na vertical, pelo que, junto a uma encosta, o terreno ao seu lado também poderá contar. Num raio de 50 m de um obstáculo artificial alto (com mais de 105 m), a entidade responsável por esse obstáculo pode solicitar autorização para voar até 15 m acima da altura do obstáculo.",
+      "Tem de se registar como operador de drones se o drone pesar 250 g ou mais (ou puder transferir mais de 80 J de energia cinética em caso de impacto) — isto aplica-se também a brinquedos. Abaixo de 250 g, o registo continua a ser obrigatório se o drone tiver um sensor capaz de captar dados pessoais, salvo se for considerado um brinquedo ao abrigo da Diretiva da UE relativa à segurança dos brinquedos. Os requisitos de formação/certificado do piloto são distintos e dependem da classe e subcategoria do drone.",
+      "É exigida uma idade mínima de 16 anos para voar de forma independente na categoria aberta — a formação e o exame A1/A3 (40 perguntas, online) são válidos por 5 anos e reconhecidos em toda a UE. Os pilotos mais novos só podem voar sob a supervisão direta de um piloto remoto certificado.",
+      "Distâncias mínimas por subcategoria: A1 — não sobrevoar pessoas não envolvidas; A2 — pelo menos 30 m de pessoas não envolvidas (5 m com a função de modo de baixa velocidade ativa, ≤ 3 m/s) e sempre, no mínimo, a altura de voo (regra 1:1); A3 — pelo menos 150 m de zonas residenciais, comerciais, industriais e recreativas.",
+      "Na categoria aberta, tem de manter o drone em linha de vista direta, a olho nu (óculos/lentes de contacto são permitidos; binóculos ou um ecrã não contam) — ou recorrer à ajuda de um observador, mantendo sempre uma comunicação clara e eficaz entre ambos, para que em conjunto possam vigiar o espaço aéreo e evitar colisões. O modo “follow-me” é uma exceção distinta, permitida até 50 m do piloto.",
       "Não sobrevoe aglomerações de pessoas. As regras aplicáveis a pessoas não envolvidas dependem da subcategoria, da marca de classe e das condições de operação; consulte a matriz oficial.",
-      "Aeroporto M. R. Štefánik, Bratislava: proibição total de voos de drones num raio de 5 km até uma altitude de 500 m (PUAS0103M, em vigor a partir de 6 de dezembro de 2025). Aeroportos de Košice, Poprad, Žilina e Piešťany (em vigor a partir de 31 de março de 2026): num raio de 5 km do aeroporto, os voos acima de 30 m só são permitidos após coordenação — por e-mail para a unidade de controlo de tráfego aéreo, com pelo menos 24 horas de antecedência.",
+      "No Aeroporto M. R. Štefánik, em Bratislava, os voos civis de drones são proibidos num raio de 3 km do ponto de referência do aeródromo (48°10'12''N, 17°12'46''E), desde a superfície do solo até 500 m acima do nível do solo — zona RUAS098M, nos termos da Decisão do Ministro n.º 104/2026, em vigor desde 18 de agosto de 2026, que anulou a anterior zona PUAS0103M. A proibição não se aplica a voos para salvar vidas, voos de ambulância e voos de busca e salvamento (SAR), nem a voos realizados com a aprovação prévia do Ministério da Defesa da República Eslovaca que estejam equipados com um sistema de identificação remota. Num raio de 5 km (zona RUAS001-LZIBAD-D), as operações civis de UAS só são permitidas na categoria específica.",
+      "Desde 31 de março de 2026, aplicam-se novas regras nas zonas de controlo (CTR) de Štefánik (Bratislava), Košice, Žilina, Piešťany e Tatry (Poprad), nos termos da Decisão n.º 1/2026 da Autoridade dos Transportes: voar sem autorização só é possível a uma distância superior a 5 km do aeroporto e até uma altura máxima de 30 m, ou dentro de espaço aéreo atípico (a uma distância superior a 5 km do aeroporto, até à altura de um edifício e apenas na sua proximidade imediata, no máximo até uma distância horizontal de 30 m do edifício). As operações numa CTR, na aceção das zonas geográficas designadas, só podem ser realizadas com base numa autorização operacional na categoria específica.",
+      "A preparação pré-voo inclui verificar se o sistema de identificação remota do drone está ativo e atualizado (NSAT).",
       "Os voos noturnos são permitidos — o drone deve ter uma luz verde intermitente acesa.",
       "Parques nacionais (Montanhas Tatra, Paraíso Eslovaco, Baixos Tatras): estão em vigor restrições",
-      "Castelo de Bratislava e zonas governamentais: zonas de proibição de voo",
+      "Os aeródromos militares de Malacky-Kuchyňa (RUAS077M), Sliač (RUAS080M) e Prešov (RUAS081M), cada um com um raio de 5 600 m: voos apenas com a aprovação prévia do Ministério da Defesa da República Eslovaca e com um sistema de identificação remota ativo (Decisão do Ministro n.º 104/2026).",
       "Antes de cada voo, verifique as zonas geográficas de UAS (zonas PUAS/RUAS) — a lista é mantida pelo Ministério dos Transportes e pela Autoridade dos Transportes, e as zonas estão sujeitas a alteração.",
       "Os aeródromos militares de Malacky-Kuchyňa, Sliač e Prešov (zonas RUAS): os voos só são permitidos com a aprovação do Ministério da Defesa da República Eslovaca."
     ],
@@ -24,10 +26,15 @@
       "As distâncias de pessoas regem-se pelas subcategorias da EASA (A1/A2/A3) — a antiga regra nacional dos 50 metros deixou de se aplicar.",
       "O registo de operadores de UAS é tratado pela Autoridade dos Transportes — válido em toda a UE/EASA",
       "As Montanhas Tatra e os parques nacionais têm restrições significativas",
-      "A área em torno do Aeroporto M. R. Štefánik: proibição total de drones num raio de 5 km (PUAS0103M) — que abrange também grande parte de Bratislava.",
+      "Proximidade do Aeroporto M. R. Štefánik: os voos civis de UAS são proibidos num raio de 3 km (zona RUAS098M, Decisão do Ministro n.º 104/2026, em vigor desde 18 de agosto de 2026); num raio de 5 km, as operações só são permitidas na categoria específica (RUAS001-LZIBAD-D).",
+      "O seguro é obrigatório se operar um UAS na categoria aberta A2/A3, na categoria específica ou na categoria certificada (FAQ da NSAT).",
       "O RGPD aplica-se à captação de imagens de pessoas identificáveis"
     ],
     "primaryLinks": [
+      {
+        "title": "Zonas Geográficas de UAS — Autoridade dos Transportes",
+        "description": "Página oficial da Autoridade dos Transportes com as zonas geográficas de UAS (KML para descarregar). Preparação pré-voo: familiarize-se com as zonas geográficas atualmente em vigor."
+      },
       {
         "title": "Autoridade dos Transportes — Regulamentação de Drones",
         "description": "Regras e recursos oficiais da Autoridade dos Transportes para drones"

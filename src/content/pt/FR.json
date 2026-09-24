@@ -1,27 +1,29 @@
 {
   "meta": {
-    "sourceHash": "3f4b20da70d5a10b806d80689b9428a53f6f6f6a4f589f0dc439331194e5f8eb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df6b14f4fc38b5f9f75477bc725375986243192e5884f43ee6f721a2e4667902",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Um máximo de 120 m acima do solo (Categoria Aberta EASA)",
-      "É obrigatório o registo no AlphaTango (gratuito, válido por 5 anos) para qualquer drone com peso igual ou superior a 250 g, ou equipado com câmara",
-      "Formação online A1/A3 obrigatória — idade mínima de 14 anos. Os antigos certificados BAPD (declarações sob compromisso de honra) deixam de ser válidos a partir de 1 de janeiro de 2026.",
+      "Na categoria aberta, a altura máxima é de 120 m, medida como a distância até ao ponto mais próximo da superfície terrestre — não simplesmente na vertical, pelo que, junto a uma encosta, o terreno ao seu lado também pode contar. Num raio de 50 m de um obstáculo artificial alto (com mais de 105 m), a entidade responsável por esse obstáculo pode solicitar autorização para voar até 15 m acima da altura do obstáculo.",
+      "Tem de se registar como operador de drones se o drone pesar 250 g ou mais (ou puder transferir mais de 80 J de energia cinética em caso de impacto) — isto aplica-se mesmo a brinquedos. Abaixo de 250 g, o registo continua a ser obrigatório se o drone estiver equipado com um sensor capaz de captar dados pessoais, salvo se for considerado um brinquedo ao abrigo da Diretiva da UE relativa à segurança dos brinquedos. Os requisitos de formação/certificado do piloto remoto são distintos e dependem da classe e subcategoria do drone.",
+      "Em França coexistem dois registos distintos: o registo do operador (a partir de 250 g ou com um sensor de dados pessoais) e o registo da própria aeronave no AlphaTango, logo que a sua massa exceda 800 g e/ou esteja equipada com um dispositivo de identificação eletrónica. O número de registo tem de estar afixado na aeronave.",
+      "Em França, a idade mínima para voar sozinho na Categoria Aberta é de 14 anos (formação e exame A1/A3 online gratuitos através do AlphaTango, válidos por 5 anos e reconhecidos em toda a UE). Não existe idade mínima: em A1, com uma aeronave de classe C0 conforme com a Diretiva Brinquedos 2009/48/CE; com uma aeronave de construção privada com menos de 250 g; ou sob a supervisão direta de um piloto remoto com pelo menos 16 anos, tendo ambos a formação e os exames exigidos. Esta idade reduzida aplica-se apenas em França — noutro país da UE, aplica-se a idade mínima desse país.",
       "O seguro de responsabilidade civil é fortemente recomendado para uso recreativo (obrigatório para uso profissional ou comercial)",
-      "Paris e Île-de-France: extensas zonas de proibição de voo — consulte o Géoportail",
-      "Mantenha sempre o drone dentro da linha de vista direta (VLOS)",
+      "Paris e Île-de-France: extensas zonas de proibição de voo — consulte o mapa oficial da DGAC (cartes.gouv.fr)",
+      "Regra nacional (arrêté “Espace”, arts. 5 e 6): na Categoria Aberta, sobrevoar o espaço público em zonas urbanizadas — ruas, praças, parques e jardins públicos, praias, passeios — só é permitido (i) no âmbito da atividade profissional do operador, com, numa zona povoada, uma declaração prévia ao prefeito através do AlphaTango (CERFA 15476) pelo menos dez dias úteis antes do voo, o que pode levar a uma proibição ou a uma restrição; ou (ii) em locais onde o prefeito autorize voos da Categoria Aberta ou de aeromodelismo. Para uso recreativo, isto exclui na prática o espaço público em cidades e aldeias — não apenas Paris.",
+      "Na Categoria Aberta, mantenha o drone dentro da sua própria linha de vista direta, a olho nu (óculos/lentes corretivas são permitidos; binóculos ou um ecrã não contam) — ou faça-se assistir por um observador, mantendo sempre uma comunicação clara e eficaz entre ambos, para que em conjunto vigiem o espaço aéreo e evitem colisões. O modo “follow-me” é uma exceção distinta, permitida até 50 m do piloto remoto.",
       "Não sobrevoe aglomerações de pessoas. As regras aplicáveis a pessoas não envolvidas dependem da subcategoria, da marca de classe e das condições de operação; consulte a matriz oficial.",
-      "Uma distância mínima de 5 km de qualquer aeroporto ou aeródromo — mas, dentro de uma zona de controlo (CTR), é necessária autorização prévia da torre de controlo",
-      "Os voos noturnos são permitidos ao abrigo das normas de referência da categoria aberta da EASA, desde que seja utilizada a luz verde intermitente exigida, a menos que uma zona geográfica ou uma norma nacional em vigor imponha uma condição mais rigorosa.",
+      "Não existe uma distância única, aplicável em toda a UE, que tenha de manter em relação aos aeroportos. As restrições perto dos aeroportos são publicadas como zonas geográficas (Artigo 15), cuja forma e dimensão variam de aeroporto para aeroporto. Antes de voar perto de um aeroporto, aeródromo ou heliporto, consulte o mapa oficial de zonas de drones do seu país; voar numa zona de controlo (CTR) exige normalmente autorização prévia do controlo de tráfego aéreo.",
+      "Em França, os voos noturnos são proibidos na Categoria Aberta, mesmo que a aeronave esteja equipada com luzes (guia da DSAC “Catégorie Ouverte”, §7). A proibição abrange a “noite aeronáutica”: na França metropolitana, começa 30 minutos após o pôr do sol e termina 30 minutos antes do nascer do sol. Podem ser concedidas derrogações pelo prefeito territorialmente competente, que têm de ser solicitadas pelo menos 30 dias antes dos voos; certos locais de aeromodelismo publicados constituem também exceções.",
       "Categoria específica: os cenários europeus STS-01 e STS-02 substituem os antigos cenários franceses S-1, S-2 e S-3 (descontinuados em 2026)",
-      "Parques nacionais e reservas naturais: uso de drones proibido sem autorização da autoridade prefeitoral"
+      "Parques nacionais e reservas naturais: os parques e reservas que não podem ser sobrevoados são publicados através da informação aeronáutica (AIP ENR 5.7.3) e aparecem no mapa do Géoportail. Na zona central de um parque nacional, o sobrevoo abaixo de uma altura de 1 000 m acima do solo é proibido pela regulamentação própria de cada parque, e qualquer derrogação é da competência do diretor do parque — não da prefeitura nem do controlo de tráfego aéreo (Code de l'environnement, art. L331-4-1). Fora destes parques e reservas, o sobrevoo de outras áreas protegidas (Espaces Naturels Sensibles, sítios Natura 2000, etc.) normalmente não é proibido; pode ser proibido temporariamente por despacho prefeitoral."
     ],
     "importantNotes": [
       "O registo no AlphaTango é gratuito e válido em todos os países da UE/EASA",
-      "Paris tem uma das zonas de proibição de voo mais rigorosas da Europa — na prática, o voo recreativo não é possível",
+      "Paris: todos os voos ao ar livre são proibidos, mesmo em propriedade privada — Paris é simultaneamente uma zona urbanizada e um espaço aéreo “proibido” (zona P 23)",
       "Multas até 75 000 € e um ano de prisão por infrações graves",
       "Sobrevoar instalações nucleares, zonas militares e prisões é uma infração penal",
       "O RGPD aplica-se à captação de imagens de pessoas identificáveis — o utilizador é responsável pelo tratamento de dados"
@@ -36,8 +38,8 @@
         "description": "Registo gratuito como operador de UAS (válido por 5 anos, reconhecido em todos os países da UE/EASA)"
       },
       {
-        "title": "Géoportail — Mapa de Restrições a Drones",
-        "description": "Mapa oficial que mostra as zonas de proibição de voo, as áreas restritas e as altitudes máximas permitidas"
+        "title": "cartes.gouv.fr — Restrições para UAS da Categoria Aberta e aeromodelismo",
+        "description": "Mapa e dados oficiais da DGAC: zonas de proibição de voo, zonas restritas e alturas máximas permitidas"
       },
       {
         "title": "Regras de Voo de Drones — Service-Public.fr",

@@ -1,63 +1,64 @@
 {
- "meta": {
-  "sourceHash": "0b4390d8f9a3a6d8927fed8920fc55b966e27ba6f08dffbc604b7ea87d7fbd8b",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Maximum 120 m deasupra nivelului solului (categoria EASA Open)",
-   "Înregistrează-te ca operator UAS dacă drona cântărește 250 g sau mai mult ori este echipată cu o cameră",
-   "Curs online A1/A3 necesar — vârsta minimă 16 ani",
-   "Asigurare de răspundere civilă obligatorie — suma minimă de acoperire depinde de greutatea dronei; dronele cu o greutate de sub 250 g sunt scutite de cerința de acoperire minimă conform BEK 527 (iulie 2025)",
-   "CTR-ul Aeroportului Copenhaga acoperă centrul Copenhagăi — verifică Droneregler.dk",
-   "Menține întotdeauna contactul vizual direct (VLOS) cu drona",
-   "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
-   "La cel puțin 8 km de aeroporturile IMC (zbor instrumental), 4 km de aeroporturile VMC — BEK 527 (iulie 2025)",
-   "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
-   "Groenlanda și Insulele Feroe au reguli separate"
-  ],
-  "importantNotes": [
-   "Acoperirea minimă de asigurare este acum dependentă de greutate; dronele cu o greutate de sub 250 g sunt scutite de cerința de acoperire minimă începând cu BEK 527 (iulie 2025). Înregistrarea operatorului UAS este acum valabilă 3 ani.",
-   "CTR-ul Aeroportului Copenhaga acoperă cea mai mare parte a centrului Copenhagăi",
-   "Groenlanda și Insulele Feroe: se aplică reglementări separate",
-   "Încălcările pot atrage amenzi și urmărire penală",
-   "GDPR se aplică atunci când sunt surprinse imagini cu persoane identificabile"
-  ],
-  "primaryLinks": [
-   {
-    "title": "Autoritatea daneză a transporturilor — reglementări privind dronele",
-    "description": "Reglementările și resursele oficiale privind dronele ale Autorității daneze a transporturilor"
-   },
-   {
-    "title": "Autoritatea daneză a transporturilor — înregistrare ca operator",
-    "description": "Înregistrează-te ca operator UAS (valabilă în toate țările UE/EASA)"
-   },
-   {
-    "title": "Droneregler.dk — hărți și reguli",
-    "description": "Harta oficială interactivă a dronelor, cu zone, reguli și instrumente de planificare a zborului"
-   },
-   {
-    "title": "Naviair — informații despre spațiul aerian",
-    "description": "Serviciile daneze de navigație aeriană și informații despre spațiul aerian"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Autoritatea daneză a transporturilor — întrebări frecvente despre drone",
-    "description": "Întrebări frecvente despre reglementările privind dronele în Danemarca"
-   },
-   {
-    "title": "Aeromodelism în Danemarca",
-    "description": "Asociația daneză de aeromodelism, cu locațiile cluburilor"
-   }
-  ],
-  "disclaimerText": "Verifică întotdeauna sursele oficiale ale Autorității daneze a transporturilor și Droneregler.dk înainte de zbor. Această aplicație este un instrument — nu o autoritate juridică. Danemarca respectă reglementările EASA, cu adăugiri naționale.",
-  "sectionLabelRules": "REGULI ESENȚIALE (CATEGORIA EASA OPEN)",
-  "sectionLabelPrimary": "SURSE OFICIALE",
-  "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
-  "linksSheetTitle": "Spațiu aerian și reglementări — Danemarca",
-  "dronePilotCredentialName": "Licență de dronă"
- }
+  "meta": {
+    "sourceHash": "65a1d37d180bc9f71efb45273b737bb48f5042af6dc9db932ab420ce77d3ee10",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "În categoria deschisă, înălțimea maximă este de 120 m, măsurată ca distanța până la cel mai apropiat punct de pe suprafața solului — nu doar pe verticală în jos, astfel încât, în apropierea unei pante, poate conta și terenul de lângă tine. Pe o rază de 50 m în jurul unui obstacol artificial înalt (peste 105 m), persoana responsabilă de obstacol poate solicita permisiunea de a zbura până la 15 m deasupra înălțimii obstacolului.",
+      "Trebuie să te înregistrezi ca operator de dronă dacă drona ta cântărește 250 g sau mai mult (sau poate transfera, în caz de coliziune, o energie cinetică de peste 80 J) — acest lucru se aplică chiar și jucăriilor. Sub 250 g, înregistrarea este totuși necesară dacă drona are un senzor capabil să colecteze date cu caracter personal, cu excepția cazului în care este considerată jucărie în sensul Directivei UE privind siguranța jucăriilor. Cerințele privind instruirea/certificatul de pilot sunt separate și depind de clasa și subcategoria dronei.",
+      "În Danemarca, trebuie să ai cel puțin 15 ani pentru a zbura cu o dronă de peste 250 g. Dacă ai cel puțin 12 ani, poți zbura cu o dronă sub 250 g. Dacă ești mai tânăr, poți zbura numai sub supravegherea unei persoane de cel puțin 15 ani care îndeplinește cerințele privind licența de dronă.",
+      "Asigurare de răspundere civilă obligatorie (Legea daneză a navigației aeriene și Regulamentul UE 785/2004) cu o sumă asigurată de cel puțin 0,75 milioane DST — aceeași sumă indiferent de greutatea dronei. Microdronele sunt scutite doar de suma minimă, nu și de obligația de asigurare, și numai atunci când sunt îndeplinite toate cele trei condiții: masa la decolare sub 250 g, o viteză maximă care nu poate depăși 19 m/s și utilizare exclusiv personală sau de hobby. Sunt complet scutite dronele-jucărie cu marcaj C0, dronele-jucărie sub 250 g și sub 19 m/s introduse pe piață înainte de 1 ianuarie 2024, precum și autoritățile publice autoasigurate (§ 4 din Ordinul privind dronele, BEK 1649/2023, astfel cum a fost modificat prin BEK 527/2025).",
+      "CTR-ul Aeroportului Copenhaga acoperă cea mai mare parte a centrului Copenhagăi — verifică Droneregler.dk înainte de a zbura în zonă.",
+      "În categoria deschisă, trebuie să menții drona în propria ta rază vizuală directă, cu ochiul liber (ochelarii/lentilele de contact sunt în regulă; binoclul sau un ecran nu contează) — sau să zbori cu ajutorul unui observator, cu o comunicare clară și eficientă între voi în permanență, astfel încât împreună să puteți supraveghea spațiul aerian și evita coliziunile. Modul follow-me este o excepție separată, permisă până la 50 m de pilot.",
+      "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
+      "La cel puțin 8 km de aerodromurile IMC (zbor instrumental) și 4 km de aerodromurile VMC — cu un certificat de competență (certificat de competență A2), distanța poate fi redusă până la 2 km, cu limite de înălțime descrescătoare pe măsură ce te apropii de pistă (§ 9 și § 9 a din Ordinul privind dronele, BEK 527, în vigoare de la 1 iulie 2025). Păstrează, de asemenea, o distanță de 2 km față de locurile de aterizare de urgență pentru elicoptere.",
+      "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
+      "Groenlanda și Insulele Feroe au reguli separate"
+    ],
+    "importantNotes": [
+      "Asigurare de răspundere civilă: suma minimă este de 0,75 milioane DST, indiferent de greutatea dronei. Din 1 iulie 2025 (BEK 527), microdronele sub 250 g care nu pot zbura mai repede de 19 m/s și sunt folosite doar în scop privat/de hobby sunt scutite de suma minimă — nu și de obligația de asigurare. Utilizarea comercială nu este niciodată scutită.",
+      "CTR-ul Aeroportului Copenhaga acoperă cea mai mare parte a centrului Copenhagăi.",
+      "Groenlanda și Insulele Feroe: se aplică reglementări separate",
+      "Încălcările pot atrage amenzi și urmărire penală",
+      "GDPR se aplică atunci când sunt surprinse imagini cu persoane identificabile",
+      "Cerință viitoare: Trafikstyrelsen a pus în consultare o modificare a Ordinului privind dronele, care impune Remote ID sau altă formă de identificare la distanță pentru toate dronele de peste 250 g — și pentru dronele sub 250 g cu senzor în anumite zone pentru drone. Intrarea în vigoare este preconizată la 1 ianuarie 2027."
+    ],
+    "primaryLinks": [
+      {
+        "title": "Autoritatea daneză a transporturilor — reglementări privind dronele",
+        "description": "Reglementările și resursele oficiale privind dronele ale Autorității daneze a transporturilor"
+      },
+      {
+        "title": "Autoritatea daneză a transporturilor — înregistrare ca operator",
+        "description": "Înregistrează-te ca operator UAS (valabilă în toate țările UE/EASA)"
+      },
+      {
+        "title": "Droneregler.dk — hărți și reguli",
+        "description": "Harta oficială interactivă a dronelor, cu zone, reguli și instrumente de planificare a zborului"
+      },
+      {
+        "title": "Naviair — informații despre spațiul aerian",
+        "description": "Serviciile daneze de navigație aeriană și informații despre spațiul aerian"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Autoritatea daneză a transporturilor — întrebări frecvente despre drone",
+        "description": "Întrebări frecvente despre reglementările privind dronele în Danemarca"
+      },
+      {
+        "title": "Aeromodelism în Danemarca",
+        "description": "Asociația daneză de aeromodelism, cu locațiile cluburilor"
+      }
+    ],
+    "disclaimerText": "Verifică întotdeauna sursele oficiale ale Autorității daneze a transporturilor și Droneregler.dk înainte de zbor. Această aplicație este un instrument — nu o autoritate juridică. Danemarca respectă reglementările EASA, cu adăugiri naționale.",
+    "sectionLabelRules": "REGULI ESENȚIALE (CATEGORIA EASA OPEN)",
+    "sectionLabelPrimary": "SURSE OFICIALE",
+    "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
+    "linksSheetTitle": "Spațiu aerian și reglementări — Danemarca",
+    "dronePilotCredentialName": "Licență de dronă"
+  }
 }

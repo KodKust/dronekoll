@@ -1,67 +1,68 @@
 {
- "meta": {
-  "sourceHash": "cdf51635159a9ab6a3aeea2b4855eab4e7c0cffc1a63d0ea2536d0902dca0ee5",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Högst 120 m över marken (AGL)",
-   "Registrering krävs för drönare som väger 250 g eller mer, eller under 250 g om de har kamera",
-   "EU-registrering från ditt hemland är giltig – ingen ny norsk registrering krävs",
-   "Ansvarsförsäkring krävs normalt för vikter på 250 g eller mer (inget krav för vikter under 250 g i öppen kategori)",
-   "Tillstånd krävs inom 5 km från en flygplats – använd appen Ninox Drone",
-   "Centrala Oslo (R102) är ett permanent restriktionsområde – kräver tillstånd från luftfartsmyndigheten",
-   "Fjärridentifiering (Remote ID) krävs för drönare i klasserna C1–C3",
-   "Kontrollera alltid skyddade områden och nationalparker separat"
-  ],
-  "importantNotes": [
-   "Utländska piloter med kamera eller sensorer: anmäl till NSM (den nationella säkerhetsmyndigheten) innan du flyger",
-   "Svalbard har egna mycket stränga regler – se sysselmannens webbplats",
-   "Norge följer EASA:s öppna kategori fullt ut (öppen kategori A1/A2/A3)"
-  ],
-  "primaryLinks": [
-   {
-    "title": "Avinor – Flyga drönare i Norge",
-    "description": "Officiell startsida för drönarflygning – regler, kartor och tillstånd"
-   },
-   {
-    "title": "Avinors drönarkarta",
-    "description": "Officiell karta över restriktionsområden och flygförbudszoner"
-   },
-   {
-    "title": "Ninox Drone – Tillstånd nära en flygplats",
-    "description": "Ansök om tillstånd att flyga inom 5 km från en flygplats"
-   },
-   {
-    "title": "Flydrone.no – Registrering och certifiering",
-    "description": "Registrera dig som operatör och skaffa ett kompetensbevis"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Luftfartsmyndigheten – Regler för drönare",
-    "description": "Fullständiga norska regler för drönare"
-   },
-   {
-    "title": "IPPC.no – Officiella NOTAM",
-    "description": "Avinors officiella flyginformationstjänst – kontrollera vädret för din flygning"
-   },
-   {
-    "title": "NSM – Sensoranmälan (utländska piloter)",
-    "description": "Utländska piloter som har med sig kamera måste anmäla detta till NSM"
-   },
-   {
-    "title": "Sysselmannen – Drönare på Svalbard",
-    "description": "Särskilda och mycket stränga regler gäller på Svalbard"
-   }
-  ],
-  "disclaimerText": "Kontrollera alltid officiella källor innan du flyger. Den här appen är en resurs – inte en juridisk källa. Reglerna kan ändras utan förvarning.",
-  "sectionLabelRules": "VIKTIGA REGLER",
-  "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
-  "sectionLabelSecondary": "AVANCERAT / SÄRSKILDA FALL",
-  "linksSheetTitle": "Luftrum och regler – Norge",
-  "dronePilotCredentialName": "Drönarbevis"
- }
+  "meta": {
+    "sourceHash": "5646b8c07e69e790fbab03d3414fded620214417e727b8c7d6fe2c009d985a3c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "I den öppna kategorin är den högsta höjden 120 m, mätt som avståndet till närmaste punkt på jordytan – inte bara rakt nedåt, så nära en sluttning kan även marken bredvid dig räknas. Inom 50 m från ett högt konstgjort hinder (över 105 m) kan den som ansvarar för hindret ansöka om tillstånd att flyga upp till 15 m över hindrets höjd.",
+      "Du måste registrera dig som drönaroperatör om din drönare väger 250 g eller mer (eller vid en kollision kan överföra mer än 80 J rörelseenergi) – det gäller även leksaker. Under 250 g krävs registrering ändå om drönaren har en sensor som kan samla in personuppgifter, såvida den inte räknas som en leksak enligt EU:s direktiv om leksakers säkerhet. Kraven på utbildning/intyg för piloter är separata och beror på drönarens klass och underkategori.",
+      "I Norge är åldersgränsen för att flyga på egen hand 16 år. Undantag gäller för C0-drönare som klassas som leksaker och för privatbyggda drönare under 250 g med en maxhastighet under 19 m/s. Om du är under 16 år får du flyga under direkt uppsikt av en fjärrpilot som är minst 16 år och har ett giltigt kompetensbevis.",
+      "EU-registrering från ditt hemland är giltig – ingen ny norsk registrering krävs",
+      "Ansvarsförsäkring krävs normalt för vikter på 250 g eller mer (inget krav för vikter under 250 g i öppen kategori)",
+      "Tornklarering krävs för att flyga inom 5 km från en flygplats – kontakta flygtrafiktjänsten per telefon eller e-post, eller ansök via appen Ninox Drone (Avinor) där den används. Appen är inget krav.",
+      "Centrala Oslo (R102) är ett permanent restriktionsområde – flygning kräver förhandstillstånd från Luftfartstilsynet (ansök via Altinn eller postmottak@caa.no, handläggningstid cirka två veckor, avgiftsbelagt). Polisen beviljar normalt inte tillstånd på nyårsafton/nyårsdagen, 17 maj, dagen för Stortingets öppnande eller 10 december.",
+      "Fjärridentifiering (Remote ID) krävs för drönare i klasserna C1–C3",
+      "Kontrollera alltid skyddade områden och nationalparker separat"
+    ],
+    "importantNotes": [
+      "Utländska piloter med kamera eller sensorer: anmäl till NSM (den nationella säkerhetsmyndigheten) innan du flyger",
+      "Svalbard har egna mycket stränga regler – se sysselmannens webbplats",
+      "Norge följer EASA:s öppna kategori fullt ut (öppen kategori A1/A2/A3)"
+    ],
+    "primaryLinks": [
+      {
+        "title": "Avinor – Flyga drönare i Norge",
+        "description": "Officiell startsida för drönarflygning – regler, kartor och tillstånd"
+      },
+      {
+        "title": "Avinors drönarkarta",
+        "description": "Officiell karta över restriktionsområden och flygförbudszoner"
+      },
+      {
+        "title": "NinoxDrone – ansök om tillstånd",
+        "description": "Avinors portal för drönaroperatörer – ansökningar om att flyga nära flygplatser (app: NinoxDrone2)"
+      },
+      {
+        "title": "Flydrone.no – Registrering och certifiering",
+        "description": "Registrera dig som operatör och skaffa ett kompetensbevis"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Luftfartsmyndigheten – Regler för drönare",
+        "description": "Fullständiga norska regler för drönare"
+      },
+      {
+        "title": "IPPC.no – Officiella NOTAM",
+        "description": "Avinors officiella flyginformationstjänst – kontrollera vädret för din flygning"
+      },
+      {
+        "title": "NSM – Sensoranmälan (utländska piloter)",
+        "description": "Utländska piloter som har med sig kamera måste anmäla detta till NSM"
+      },
+      {
+        "title": "Sysselmannen – Drönare på Svalbard",
+        "description": "Särskilda och mycket stränga regler gäller på Svalbard"
+      }
+    ],
+    "disclaimerText": "Kontrollera alltid officiella källor innan du flyger. Den här appen är en resurs – inte en juridisk källa. Reglerna kan ändras utan förvarning.",
+    "sectionLabelRules": "VIKTIGA REGLER",
+    "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
+    "sectionLabelSecondary": "AVANCERAT / SÄRSKILDA FALL",
+    "linksSheetTitle": "Luftrum och regler – Norge",
+    "dronePilotCredentialName": "Drönarbevis"
+  }
 }

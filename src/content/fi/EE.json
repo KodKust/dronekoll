@@ -1,22 +1,22 @@
 {
   "meta": {
-    "sourceHash": "23f3ed06f9446eb9733c76bcdc77184702b32d1e071b7b4a74e10dadb06fcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "0ddaecf7ada88ef77cb8ed7fae4021c3fab852ece7e0827759a36641d94a5932",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröidy UAS-käyttäjäksi (10 €/vuosi), jos dronesi painaa vähintään 250 g tai siinä on kamera",
-      "A1/A3-verkkokoulutus vaaditaan — vähimmäisikä 16 vuotta",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Avoimessa kategoriassa suurin sallittu korkeus on 120 m, mitattuna etäisyytenä lähimpään maanpinnan kohtaan — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös viereinen maasto voidaan laskea mukaan. Lisäksi joillakin alueilla voi olla voimassa matalampia korkeusrajoja; ne löytyvät dronekartalta. 50 m:n säteellä keinotekoisesta rakennelmasta saat lentää enintään 15 m rakennelman yläpuolelle siitä vastaavan henkilön tai tahon luvalla.",
+      "Sinun on rekisteröidyttävä dronen käyttäjäksi, jos drone painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g painava drone on silti rekisteröitävä, jos siinä on anturi, joka pystyy keräämään henkilötietoja, ellei sitä katsota leluksi EU:n lelujen turvallisuusdirektiivin mukaisesti. Lentäjän koulutus- ja todistusvaatimukset ovat erillisiä ja riippuvat dronen luokasta ja alaluokasta.",
+      "Virossa kaukolentäjien vähimmäisikä on 16 vuotta — poikkeukset koskevat alaluokan A1 C0-luokan droneja, itse rakennettuja alle 250 g painavia droneja sekä lentämistä vaatimukset täyttävän lentäjän välittömässä valvonnassa.",
+      "Avoimessa kategoriassa dronen on pysyttävä omassa, paljain silmin ylläpidettävässä näköyhteydessäsi (silmälasit/piilolinssit käyvät; kiikari tai näyttö ei kelpaa) — tai voit lentää tarkkailijan avustamana pitäen hänen kanssaan jatkuvasti selkeän ja tehokkaan yhteyden, jotta voitte yhdessä tarkkailla ilmatilaa ja välttää yhteentörmäykset. Follow-me-tila on erillinen poikkeus, sallittu enintään 50 m:n etäisyydellä ohjaajasta.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-      "Lennättäminen on kielletty lentoasemien välittömässä läheisyydessä (0 m:n korkeusrajoitus) — tarkista rajoitusalueet aina Viron dronekartalta.",
-      "Yölennot ovat sallittuja, jos dronessa on vihreä vilkkuva valo — yölennätyskielto (klo 20.00–7.00) on voimassa itärajan lähellä.",
+      "Lentoasemien välittömässä läheisyydessä korkeusraja avoimessa kategoriassa on 0 m — lentäminen on mahdollista vain erityisen kategorian toimintaluvalla.",
+      "Yölennot ovat sallittuja, jos dronessa on vihreä vilkkuva valo (UAS.OPEN.060(2)(g)).",
       "Tallinnan lentoaseman lähilentovyöhyke (CTR): tarkista huolellisesti Viron dronekartalta",
       "Rajoitusalueita saarten lentoasemien ympärillä (Saarenmaa, Hiidenmaa)",
-      "Venäjän raja-alue: dronelennot ovat täysin kiellettyjä Ida-Virumaan rajavyöhykkeellä; yölennätyskielto (klo 20.00–7.00) on voimassa koko itärajalla, ja siellä esiintyy merkittäviä GPS-häiriöitä — tarkista NOTAM-ilmoitukset."
+      "Valtakunnanrajan läheisyyteen on perustettu rajoitusalue (enintään 300 m maan- tai vedenpinnasta): siellä saa lentää vain Politsei- ja Piirivalveamet (PPA) -viraston luvalla (Vabariigi Valitsuse korraldus nr 229, kohdat 3.2 ja 5.3). PPA perustaa rajan läheisyyteen myös väliaikaisia rajoitusalueita — tarkista NOTAMit. Raja-alueella esiintyy voimakkaita GPS-häiriöitä."
     ],
     "importantNotes": [
       "Rekisteröinti maksaa 10 € vuodessa ja on voimassa kaikissa EU-/EASA-maissa",
@@ -32,7 +32,7 @@
       },
       {
         "title": "Liikenneviranomainen — Rekisteröidy käyttäjäksi",
-        "description": "Rekisteröidy UAS-käyttäjäksi (10 €/vuosi, voimassa kaikissa EU-/EASA-maissa)"
+        "description": "Rekisteröidy UAS-käyttäjäksi ilmailun turvallisuusvalvonnan tietojärjestelmässä LOIS2 (valtion maksu 10 €, voimassa yhden vuoden, voimassa kaikissa EU-/EASA-maissa)"
       },
       {
         "title": "Viron dronekartta (UTM)",

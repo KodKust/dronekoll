@@ -1,18 +1,19 @@
 {
   "meta": {
-    "sourceHash": "cdf51635159a9ab6a3aeea2b4855eab4e7c0cffc1a63d0ea2536d0902dca0ee5",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "5646b8c07e69e790fbab03d3414fded620214417e727b8c7d6fe2c009d985a3c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (AGL)",
-      "Rekisteröinti vaaditaan vähintään 250 g painaville laitteille, tai alle 250 g, jos niissä on kamera",
+      "Avoimessa kategoriassa suurin sallittu korkeus on 120 m, mitattuna etäisyytenä lähimpään maanpinnan kohtaan — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maasto voidaan laskea mukaan. 50 m:n säteellä korkeasta keinotekoisesta esteestä (yli 105 m) esteestä vastaava henkilö voi hakea lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
+      "Sinun on rekisteröidyttävä dronen käyttäjäksi, jos drone painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g painava drone on silti rekisteröitävä, jos siinä on anturi, joka pystyy keräämään henkilötietoja, ellei sitä katsota leluksi EU:n lelujen turvallisuusdirektiivin mukaisesti. Lentäjän koulutus- ja todistusvaatimukset ovat erillisiä ja riippuvat dronen luokasta ja alaluokasta.",
+      "Norjassa itsenäisen lentämisen ikäraja on 16 vuotta. Poikkeukset koskevat leluiksi luokiteltuja C0-droneja sekä itse rakennettuja alle 250 g painavia droneja, joiden huippunopeus on alle 19 m/s. Jos olet alle 16-vuotias, saat lentää vähintään 16-vuotiaan, voimassa olevan pätevyystodistuksen omaavan kaukolentäjän välittömässä valvonnassa.",
       "Kotimaasi EU-rekisteröinti on voimassa — uutta norjalaista rekisteröintiä ei vaadita",
       "Vastuuvakuutus vaaditaan yleensä vähintään 250 g painaville droneille (ei vaatimusta alle 250 g painaville avoimessa kategoriassa)",
-      "Lupa vaaditaan 5 km:n säteellä lentoasemasta — käytä Ninox Drone -sovellusta",
-      "Oslon keskusta (R102) on pysyvä rajoitusalue — edellyttää siviili-ilmailuviranomaisen lupaa",
+      "Lentäminen 5 km:n säteellä lentoasemasta edellyttää lennonjohtoselvitystä — ota yhteyttä lennonvarmistuspalveluun puhelimitse tai sähköpostitse tai hae Ninox Drone -sovelluksen (Avinor) kautta, jos se on käytössä. Sovellus ei ole pakollinen.",
+      "Oslon keskusta (R102) on pysyvä rajoitusalue — lentäminen edellyttää Luftfartstilsynetin ennakkolupaa (haku Altinnin kautta tai osoitteeseen postmottak@caa.no, käsittelyaika n. kaksi viikkoa, maksullinen). Poliisi ei yleensä myönnä lupaa uudenvuodenaattona/-päivänä, 17. toukokuuta, Stortingin avajaispäivänä eikä 10. joulukuuta.",
       "Kaukotunnistus (Remote ID) vaaditaan luokkien C1–C3 droneille",
       "Tarkista aina suojelualueet ja kansallispuistot erikseen"
     ],
@@ -31,8 +32,8 @@
         "description": "Virallinen kartta rajoitusalueista ja lennätyskieltovyöhykkeistä"
       },
       {
-        "title": "Ninox Drone — Lupa lentoaseman lähellä",
-        "description": "Hae lupaa lennättääksesi 5 km:n säteellä lentoasemasta"
+        "title": "NinoxDrone – hae lupaa",
+        "description": "Avinorin portaali dronen käyttäjille – hakemukset lentämiseen lentoasemien lähellä (sovellus: NinoxDrone2)"
       },
       {
         "title": "Flydrone.no — Rekisteröinti ja sertifiointi",

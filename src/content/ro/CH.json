@@ -1,25 +1,27 @@
 {
   "meta": {
-    "sourceHash": "f36a1cf828ca8a0a643f670fd6a861c54e98b56220c07b5f5975ef302b2f4c03",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "933e44d2614cf2cedaee58cc5869444dec9c634eb2504dc1238b121b71e2d432",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximum 120 m deasupra nivelului solului (categoria EASA Open, în baza unui acord bilateral)",
-      "Înregistrare ca operator UAS (10 CHF, valabilă pe termen nelimitat) dacă drona cântărește 250 g sau mai mult ori este echipată cu o cameră",
-      "Instruire online A1/A3 necesară pentru drone cu o greutate de 250 g sau mai mult (certificat valabil 5 ani) — vârsta minimă 12 ani; copiii sub 12 ani trebuie supravegheați de o persoană de cel puțin 16 ani.",
+      "În categoria deschisă, înălțimea maximă este de 120 m, măsurată ca distanța până la cel mai apropiat punct de pe suprafața Pământului — nu pur și simplu pe verticală în jos, astfel încât, în apropierea unei pante, poate conta și terenul de lângă tine. Pe o rază de 50 m în jurul unui obstacol artificial înalt (peste 105 m), entitatea responsabilă de obstacol poate solicita permisiunea de a zbura până la 15 m deasupra înălțimii obstacolului.",
+      "Trebuie să te înregistrezi ca operator de dronă dacă drona ta cântărește 250 g sau mai mult (sau ar putea transfera, la impact, o energie cinetică de peste 80 J) — acest lucru se aplică și jucăriilor. Sub 250 g, înregistrarea este totuși necesară dacă drona are un senzor capabil să colecteze date cu caracter personal, cu excepția cazului în care este considerată jucărie în sensul Directivei UE privind siguranța jucăriilor. Cerințele privind instruirea/certificatul de pilot sunt reglementate separat și depind de clasa și subcategoria dronei.",
+      "În Elveția, vârsta minimă pentru piloții la distanță este de 12 ani în categoria operațională «deschisă» și de 14 ani în categoria «specifică» (art. 26 VLK, SR 748.941) — indiferent de greutatea dronei. Piloții mai tineri pot zbura numai sub supravegherea directă a unui pilot la distanță care îndeplinește cerințele. La înregistrare, copiii sub 16 ani trebuie să indice un reprezentant legal. Dovada de competență A1/A3 se obține online și este valabilă 5 ani.",
       "Asigurare de răspundere civilă obligatorie pentru dronele cu o greutate de 250 g sau mai mult (acoperire de 1 milion CHF)",
       "Membrii cluburilor de aeromodelism: privilegii suplimentare conform reglementărilor FOCA",
-      "Menține întotdeauna contactul vizual direct (VLOS) cu drona",
+      "În categoria deschisă, trebuie să menții drona în propria ta rază vizuală directă, cu ochiul liber (ochelarii/lentilele de contact sunt în regulă; binoclul sau un ecran nu contează) — sau să zbori cu sprijinul unui observator, cu o comunicare clară și eficientă între voi în permanență, astfel încât împreună să puteți supraveghea spațiul aerian și evita coliziunile. Modul follow-me este o excepție separată, permisă până la 50 m de pilot.",
       "Nu zbura deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; verifică matricea oficială.",
-      "În raza de 5 km a aeroporturilor și aerodromurilor, operarea este permisă doar cu autorizarea aerodromului (drone cu o greutate de peste 250 g).",
+      "Pentru dronele de peste 250 g, operarea este interzisă la o distanță mai mică de 5 km de pistele unui aerodrom civil sau militar, precum și într-un CTR activ dacă se depășește o înălțime de 120 m deasupra solului (art. 28 VLK). Conducerea aerodromului poate stabili o zonă redusă în interiorul celor 5 km; excepțiile sunt acordate de conducerea aerodromului sau de unitatea de control al traficului aerian.",
+      "Indiferent de greutate, operarea este interzisă, printre altele, deasupra unităților penitenciare, deasupra zonelor militare enumerate în anexa VLK, deasupra stațiilor de conexiuni exterioare de nivelul de rețea 2 și la mai puțin de 750 m de centralele nucleare și de depozitul intermediar Würenlingen (art. 27 VLK).",
       "Parcuri naționale: utilizarea dronelor este restricționată sau interzisă",
       "Regiuni montane: fii atent la rutele elicopterelor (salvare, zboruri turistice)"
     ],
     "importantNotes": [
       "Înregistrarea costă doar 10 CHF — o taxă unică, cu valabilitate nelimitată și fără reînnoire.",
+      "U-Space Zurich: primul spațiu aerian U-Space al Elveției este introdus în CTR-ul Zurich (aprox. 10 km × 17 km); utilizarea serviciilor U-Space va fi obligatorie pentru toți piloții de drone din zonă de la sfârșitul anului 2026 (este necesară o înregistrare unică la un USSP). Scutite: dronele sub 250 g, aeromodelele, zborurile de stat. Temei juridic: art. 29a–29e VLK.",
       "Asigurare obligatorie pentru dronele cu o greutate de 250 g sau mai mult (acoperire: 1 milion CHF)",
       "Elveția nu este membră a UE, dar respectă reglementările EASA printr-un acord bilateral",
       "Rutele alpine ale elicopterelor sunt frecvente — supraveghează întotdeauna spațiul aerian",
@@ -51,6 +53,10 @@
       {
         "title": "SMV — aeromodelism",
         "description": "Asociația elvețiană de aeromodelism, cu privilegii de club și locații"
+      },
+      {
+        "title": "DABS — Daily Airspace Bulletin Switzerland (BAZL)",
+        "description": "FOCA/BAZL: «Prin urmare, DABS trebuie verificat și înainte de fiecare zbor» — pasul 2 din verificarea în trei pași a BAZL"
       }
     ],
     "disclaimerText": "Înainte de fiecare zbor, verifică întotdeauna sursele oficiale ale FOCA/BAZL și harta oficială a dronelor la map.geo.admin.ch. Această aplicație este un instrument — nu o sursă juridică. Elveția respectă reglementările EASA printr-un acord bilateral.",

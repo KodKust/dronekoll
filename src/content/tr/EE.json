@@ -1,22 +1,22 @@
 {
   "meta": {
-    "sourceHash": "23f3ed06f9446eb9733c76bcdc77184702b32d1e071b7b4a74e10dadb06fcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "0ddaecf7ada88ef77cb8ed7fae4021c3fab852ece7e0827759a36641d94a5932",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Yerden en fazla 120 m (EASA Open Kategorisi)",
-      "Dronunuz 250 g veya daha ağırsa ya da kamerayla donatılmışsa UAS operatörü olarak kaydolun (yılda €10)",
-      "A1/A3 çevrim içi eğitim gereklidir — asgari yaş 16",
-      "Her zaman görüş hattını (VLOS) koruyun",
+      "Open kategorisinde azami yükseklik 120 m'dir ve zemindeki en yakın noktaya olan mesafe olarak ölçülür — yalnızca dikey olarak aşağıya doğru ölçülmez; bu nedenle bir yamacın yakınında bitişikteki zemin de hesaba katılabilir. Ayrıca bazı alanlarda daha düşük yükseklik sınırları geçerli olabilir; bunları dron haritasında bulabilirsiniz. Yapay bir yapının 50 m yarıçapı içinde, yapıdan sorumlu kişi veya kuruluşun izniyle yapının 15 m üzerine kadar uçabilirsiniz.",
+      "Dronunuz 250 g veya daha ağırsa (ya da bir çarpışmada 80 J'den fazla kinetik enerji aktarabiliyorsa) dron operatörü olarak kaydolmalısınız — bu oyuncaklar için de geçerlidir. 250 g'ın altında olsa bile dronda kişisel verileri toplayabilen bir sensör varsa, EU Toy Safety Directive kapsamında oyuncak sayılmadığı sürece kayıt yine gereklidir. Pilot eğitimi/sertifika gereklilikleri ayrıdır ve dronun sınıfına ve alt kategorisine bağlıdır.",
+      "Estonya'da uzaktan pilotlar için asgari yaş 16'dır — A1 alt kategorisindeki C0 sınıfı dronlar, 250 g'dan hafif özel yapım dronlar ve gereklilikleri karşılayan bir pilotun doğrudan gözetimi altında uçuş için istisnalar geçerlidir.",
+      "Open kategorisinde dronu kendi gözünüzle, yardımcı araç olmadan doğrudan görüş hattınız içinde tutmalısınız (gözlük/kontakt lens kullanılabilir; dürbün veya ekran sayılmaz) — ya da bir gözlemcinin yardımıyla uçmalısınız; birlikte hava sahasını izleyebilmeniz ve çarpışmaları önleyebilmeniz için onunla sürekli, açık ve etkili iletişimi sürdürmelisiniz. Follow-me modu ayrı bir istisnadır ve pilottan en fazla 50 m uzaklıkta izin verilir.",
       "İnsan topluluklarının üzerinden uçmayın. Operasyona dahil olmayan kişilerle ilgili kurallar alt kategoriye, sınıf işaretine ve operasyon koşullarına bağlıdır; resmî matrisi kontrol edin.",
-      "Havalimanlarının hemen yakınında uçmak yasaktır (0 m irtifa kısıtlaması) — kısıtlı bölgeleri her zaman Estonian Drone Map üzerinde kontrol edin.",
-      "Dronda yanıp sönen yeşil bir ışık varsa gece uçuşlarına izin verilir — doğu sınırı yakınında gece uçuş yasağı geçerlidir (20.00–07.00).",
+      "Havalimanlarının hemen yakınında Open kategorisindeki yükseklik sınırı 0 m'dir — uçuş yalnızca Specific kategorisi operasyonel izniyle mümkündür.",
+      "Dronda yanıp sönen yeşil bir ışık varsa gece uçuşlarına izin verilir (UAS.OPEN.060(2)(g)).",
       "Tallinn Havalimanı CTR'si: Estonian Drone Map üzerinde dikkatlice kontrol edin",
       "Adalardaki (Saaremaa, Hiiumaa) havalimanları çevresinde kısıtlı alanlar",
-      "Rus sınır bölgesi: Ida-Viru İli sınır bölgesinde dron uçuşları tümüyle yasaktır; tüm doğu sınırı boyunca gece uçuş yasağı (20.00–07.00) geçerlidir ve önemli GPS parazit sorunları vardır — NOTAM'ları kontrol edin."
+      "Devlet sınırı yakınında (yerden veya su seviyesinden 300 m'ye kadar) bir kısıtlı alan oluşturulmuştur: buradaki uçuşlar yalnızca Politsei- ja Piirivalveamet (PPA) izniyle yapılabilir (Vabariigi Valitsuse korraldus nr 229, bent 3.2 ve 5.3). PPA ayrıca sınır yakınında geçici kısıtlı alanlar da oluşturur — NOTAM'ları kontrol edin. Sınır bölgesinde güçlü GPS paraziti görülür."
     ],
     "importantNotes": [
       "Kayıt yılda €10'a mal olur ve tüm AB/EASA ülkelerinde geçerlidir",
@@ -32,7 +32,7 @@
       },
       {
         "title": "Ulaştırma Otoritesi — Operatör Olarak Kayıt",
-        "description": "UAS operatörü olarak kayıt (yılda €10, tüm AB/EASA ülkelerinde geçerli)"
+        "description": "LOIS2 havacılık güvenliği denetimi bilgi sisteminde UAS operatörü olarak kayıt (devlet harcı 10 €, bir yıl geçerli, tüm AB/EASA ülkelerinde geçerli)"
       },
       {
         "title": "Estonya Dron Haritası (UTM)",

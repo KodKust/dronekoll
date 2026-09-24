@@ -1,23 +1,23 @@
 {
   "meta": {
-    "sourceHash": "3be5ea4356d33508cdfa72168e28336876f3048cd12d77af66e6840fe65da1e4",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ca02f210ab67dc8eec19b622349f74c1c59940a9cc38a87f1711298b83f779a7",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröityminen UAS-käyttäjäksi (maksuton, voimassa 3 vuotta), jos drone painaa vähintään 250 g tai siinä on kamera",
-      "Pakollinen A1/A3-verkkokoulutus vähintään 250 g painaville droneille — lentäjän vähimmäisikä 16 vuotta.",
-      "Pakollinen vastuuvakuutus yli 900 g painaville droneille",
-      "Lennättäminen sotilaskohteiden, vankiloiden, suurlähetystöjen ja turvallisuusjoukkojen yllä on kielletty (asetuslaki nro 87/2021). Sintra-Cascaisin luonnonpuisto edellyttää ICNF:n lupaa.",
-      "Pidä drone aina suorassa näköyhteydessä (VLOS)",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maasto voidaan laskea mukaan. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
+      "Sinun on rekisteröidyttävä UAS-käyttäjäksi, jos dronesi painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J törmäysenergiaa) — tämä koskee myös leluja. Alle 250 g:n dronen kohdalla rekisteröinti vaaditaan silti, jos dronessa on henkilötietoja tallentamaan kykenevä anturi, ellei sitä pidetä eurooppalaisen lelujen turvallisuusdirektiivin mukaisena leluna. Lentäjän koulutus- ja todistusvaatimukset ovat erillisiä, ja ne riippuvat dronen luokasta ja alaluokasta.",
+      "Portugalissa avoimessa kategoriassa itsenäisen lentämisen vähimmäisikä on 16 vuotta. A1/A3-koulutus ja -koe ovat maksuttomia, ne suoritetaan verkossa, ja ne ovat voimassa 5 vuotta.",
+      "Kolmannen osapuolen vastuuvakuutus on pakollinen droneille, joiden MTOM on yli 900 g (Decreto-Lei n.º 58/2018); vähimmäisturva, ehdot ja pääoma määritellään asetuksessa Portaria n.º 2/2021.",
+      "Lennättäminen valtion ylimpien elinten, suurlähetystöjen ja konsulaattien, sotilaskohteiden, turvallisuusjoukkojen ja -palvelujen tilojen sekä vankiloiden yllä on kielletty, ellei vastuutaho ole antanut lupaa (ANAC Regulamento n.º 1093/2016, jonka Decreto-Lei n.º 87/2021 piti voimassa). Sintra-Cascaisin luonnonpuisto edellyttää ICNF:n lupaa.",
+      "Avoimessa kategoriassa dronen on pysyttävä omassa suorassa näköyhteydessäsi paljain silmin (silmälasit/piilolinssit käyvät; kiikareita tai näyttöä ei lasketa) — tai lennä tähystäjän avulla niin, että viestitte keskenänne selkeästi ja tehokkaasti koko ajan ja voitte yhdessä valvoa ilmatilaa ja välttää yhteentörmäykset. Follow-me-tila on erillinen poikkeus, joka on sallittu enintään 50 m:n päässä lentäjästä.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-      "Älä lennätä lentoasemien ja helikopterikenttien suojavyöhykkeillä (CTR/ATZ) ilman lupaa — tarkista vyöhykkeet sovelluksen kartalta ja osoitteesta voanaboa.pt.",
+      "Älä lennätä lentoasemien ja helikopterikenttien suojavyöhykkeillä (CTR/ATZ) ilman lupaa — tarkista vyöhykkeet sovelluksen kartalta ja osoitteesta dnt.anac.pt.",
       "Yölennot ovat sallittuja avoimessa kategoriassa ilman ANACin lupaa — kytke dronessa päälle vihreä vilkkuva valo.",
       "Azorit ja Madeira: lisäalueellisia rajoituksia voi olla voimassa",
-      "Ilmakuvaus ja -videointi (sekä tällaisen materiaalin levittäminen) edellyttävät AAN:n lupaa — hakemukset voi jättää maksutta verkossa e-AAN-alustan kautta."
+      "Ilmakuvien ottaminen edellyttää Autoridade Aeronáutica Nacionalin (AAN) ennakkolupaa e-AAN-alustan kautta — se on ainoa kanava ilmakartoituksille. Hakemus on jätettävä vähintään 10 päivää ennen toiminnan alkamista; pisin myönnettävä ajanjakso on 30 peräkkäistä päivää (AAN:n Guia Rápido e-AAN)."
     ],
     "importantNotes": [
       "Portugalissa on kaksiosainen järjestelmä: ANAC säätelee lentoja, kun taas AAN luvittaa ilmakuvien ottamisen.",
@@ -33,8 +33,11 @@
         "description": "Portugalin siviili-ilmailuviranomaisen viralliset dronesäännöt ja resurssit"
       },
       {
+        "title": "ANAC — UAS-geovyöhykekartta"
+      },
+      {
         "title": "ANAC — Rekisteröidy käyttäjäksi",
-        "description": "Maksuton rekisteröityminen UAS-käyttäjäksi (voimassa 3 vuotta, tunnustetaan kaikissa EU-/EASA-maissa)"
+        "description": "Maksuton rekisteröityminen UAS-käyttäjäksi (voimassa 3 vuotta, tunnustetaan kaikissa EU-/EASA-maissa). Rekisteröinti tehdään osoitteessa uas.anac.pt, ja se edellyttää portugalilaista NIF-numeroa ja aktiivista Chave Móvel Digital -tunnistusta."
       },
       {
         "title": "NAV Portugal — Tietoa ilmatilasta",

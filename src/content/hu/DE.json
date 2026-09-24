@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "2c58b7a31f1c8559936a55c3a5e025f7dd391e382ab6ecfeb89c30fa2c945c23",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef69e20c9988bcf5f856c6fb76c01616820e80425007ad49d1b4c9740db11a03",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Legfeljebb 120 m a talajszint felett (AGL) a nyílt kategóriában",
-      "Regisztráció szükséges a legalább 250 g tömegű drónokhoz (vagy a 250 g-nál könnyebbekhez, ha kamerával vannak felszerelve) — LBA-regisztrációs szám",
+      "A nyílt kategóriában a legnagyobb magasság 120 m, amelyet a földfelszín legközelebbi pontjától kell mérni – nem egyszerűen függőlegesen lefelé –, ezért lejtő közelében a melletted lévő talaj is számíthat. Egy 105 m-nél magasabb mesterséges akadály 50 m-es körzetében az akadályért felelős szervezet engedélyt kérhet az akadály magassága fölötti, legfeljebb 15 m-es repülésre.",
+      "Drónüzemeltetőként regisztrálnod kell, ha a drónod tömege legalább 250 g (vagy ütközéskor 80 J-nál több mozgási energiát adhat át) – ez a játékokra is vonatkozik. 250 g alatt is kötelező a regisztráció, ha a drón személyes adatok rögzítésére alkalmas érzékelővel rendelkezik, kivéve, ha az EU Toy Safety Directive szerint játéknak minősül. A pilótaképzésre és a tanúsítványra vonatkozó követelményeket külön szabályozzák, és a drón osztályától és alkategóriájától függenek.",
       "Az LBA-üzemben tartói regisztráció díjköteles – a minimális életkor 16 év. A regisztrációs számnak (e-ID) jól láthatóan kell szerepelnie a drónon.",
-      "A1/A3 távpilóta-tanúsítvány (az LBA által lebonyolított díjköteles online teszt) vagy A2 tanúsítvány az emberekhez közelebbi repüléshez — az aktuális díjakat nézd meg az lba.de oldalon",
-      "Kötelező felelősségbiztosítás (a német légiközlekedési törvény 43. §-a) – a kedvtelési célú drónokra is",
-      "Tilos lakóingatlanok felett repülni a lakók beleegyezése nélkül (a légiforgalmi rendelet 21h. §-a)",
-      "Vasúti létesítmények, autópályák vagy ipari létesítmények 100 méteres körzetében az üzemeltető vagy a tulajdonos beleegyezése nélkül",
-      "Repülési tilalom természetvédelmi területeken és nemzeti parkokban",
-      "ED-R 146: állandó korlátozott zóna Berlin felett (kormányzati negyed) – engedély szükséges",
+      "Németországban az A1/A3 kompetencia-igazolás minimális életkora 16 év (online képzés és vizsga, 40 kérdés 9 témakörből, a sikeres vizsgához 75% szükséges, 5 évig érvényes) – kivétel: repülés érvényes tanúsítvánnyal rendelkező távpilóta közvetlen felügyelete mellett.",
+      "Kötelező felelősségbiztosítás (§43 Luftverkehrsgesetz) – a kedvtelési célú drónokra is vonatkozik, tömegtől függetlenül.",
+      "Tilos lakóingatlanok felett repülni a tulajdonosok vagy más jogosult használók kifejezett hozzájárulása nélkül (§21h LuftVO). Kivételek: 250 g alatti drónok felvevő/továbbító képesség nélkül, vagy legalább 100 m magasságban végzett repülések több feltétel teljesülése esetén (jogos érdek, nincs rendelkezésre álló közterület, a hozzájárulás észszerűen nem szerezhető be, adatvédelmi óvintézkedések, csak 6-22 h között, a zajhatárértékek betartása).",
+      "A szövetségi főutak, szövetségi vízi utak és vasúti létesítmények 100 m-es körzetében (oldalirányban és felfelé) az üzemeltetés csak akkor megengedett, ha a § 21h Abs. 3 Nr. 5 LuftVO feltételei közül EGY teljesül: a) közút vagy vasúti létesítmény átrepülése a „különleges” kategóriában, olyan kockázatértékeléssel, amely figyelembe veszi az átrepülés sajátos veszélyeit; b) az illetékes hatóság vagy a létesítmény üzemeltetőjének kifejezett hozzájárulása; c) a talaj feletti repülési magasság mindig kisebb, mint az infrastruktúrától mért oldalirányú távolság, és ez a távolság mindig nagyobb 10 m-nél; vagy d) szövetségi vízi utak esetén: átkelés a legrövidebb útvonalon, legalább 100 m magasságban, hajók vagy hajózási létesítmények átrepülése nélkül. Ipari létesítmények, börtönök, katonai létesítmények és energetikai létesítmények esetén a 100 m-es távolság érvényes, kivéve, ha az illetékes hatóság vagy a létesítmény üzemeltetője kifejezett hozzájárulást ad (Nr. 3). A vasúti létesítményekre vonatkozóan a DB InfraGO AG az NfL 1-2026-3788 közleményben tette közzé a vasúttal összeegyeztethető UAS-üzemeltetés követelményeit.",
+      "Természetvédelmi területek, nemzeti parkok és Natura 2000 területek: az átrepülés tilos (§ 21h Abs. 3 Nr. 6 LuftVO), kivéve, ha az illetékes természetvédelmi hatóság kifejezetten hozzájárul, vagy a tartományi jog másként szabályozza az üzemeltetést. Nemzeti parkokon kívül az üzemeltetés akkor is megengedett, ha mind a négy feltétel egyszerre teljesül: nincs sport- vagy szabadidős cél, a repülési magasság 100 m felett van, a védelmi cél ismerete és megfelelő figyelembevétele, valamint az átrepülés az üzemeltetés céljához elkerülhetetlenül szükséges.",
+      "ED-R 146: állandó korlátozott terület Berlin kormányzati negyede felett – engedély szükséges. Repülés előtt ellenőrizd az aktuális állapotot a dipul.de oldalon.",
+      "2026. augusztus 6. óta 24 repülőtéren érvényes a zónamodell az irányított körzetekben végzett UAS-repülésekre (DFS: NfL 2026-1-3960, amely hatályon kívül helyezi az NfL 2023-1-2705-öt; DFS Aviation Services: NfL 2026-1-3981). Az 1. zónában – a repülőtér felett, annak határától 1 km-en belül, valamint a futópálya 5 km-rel meghosszabbított folyosóiban (a futópálya középvonalától jobbra és balra 1-1 km) – nincs általános engedély: ott mindig egyedi légiforgalmi irányítói engedély szükséges, amelyet az ais.dfs.de oldalon kell kérelmezni, kb. 14 nappal előre. A 2. és 3. zónában általános engedély érvényes 25 m-ig, illetve 45 m-ig a repülőtér magassága vagy a talaj felett (amelyik alacsonyabb); a 4. zónában 100 m-ig a repülőtér magassága felett vagy 50 m-ig a talaj felett (amelyik magasabb; ha a felszállási pont a repülőtér magassága alatt van, a talaj feletti 100 m érvényes). Az általános engedély csak a legfeljebb 25 kg-os UAS-okra (modellrepülőknél legfeljebb 5 kg) vonatkozik, legalább 800 m-es földi látástávolságot követel meg, és kizárja az autonóm repüléseket. Repülés előtt ellenőrizd az alzónádat és a terep magasságát a dipul Maptoolban.",
       "A közvetlen Remote ID 2024. január 1-je óta EU-szerte kötelező a C1, C2 és C3 osztályú drónokra"
     ],
     "importantNotes": [
-      "A dipul megjeleníti a légtérosztályokat, de nem ad teljes áttekintést a korlátozott zónákról — az információkat egészítsd ki a Droniq alkalmazással",
+      "A dipul megjeleníti a légtérosztályokat, de nem ad teljes áttekintést az összes korlátozott területről – érzékeny területek közelében végzett repülés előtt használd a Droniq alkalmazást vagy hasonlót is.",
       "Az EU-regisztrációval rendelkező külföldi pilótáknak is be kell tartaniuk a nemzeti légiközlekedési szabályokat",
-      "A magánterületen készített fényképek szintén felvethetnek GDPR-kérdéseket"
+      "A magánterület fényképezése a §21h LuftVO szerinti repülési engedélyen túl adatvédelmi kérdéseket is felvethet (DSGVO/GDPR)."
     ],
     "primaryLinks": [
       {
@@ -51,8 +52,8 @@
         "description": "Kérj felmentést különleges esetekre"
       },
       {
-        "title": "BMDV – dróninformáció",
-        "description": "Nemzeti drónszabályozás és jogalap (a német légiforgalmi rendelet (LuftVO) 21h. §-a)"
+        "title": "BMV – Drónokkal kapcsolatos információk",
+        "description": "Nemzeti drónszabályozás és jogalap (§21h LuftVO)"
       }
     ],
     "disclaimerText": "Repülés előtt mindig ellenőrizd a hivatalos forrásokat. Ez az alkalmazás egy segédeszköz – nem jogi forrás. A szabályok előzetes értesítés nélkül változhatnak.",

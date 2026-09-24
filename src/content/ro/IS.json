@@ -1,63 +1,67 @@
 {
- "meta": {
-  "sourceHash": "33a814a3d0b5505e00903b83ae6e8352f9d6c524274ef27251d8bef1683efdd9",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Altitudine maximă de zbor de 120 m deasupra nivelului solului (categoria EASA Open)",
-   "Înregistrează-te ca operator UAS (5.863 ISK / 5 ani) dacă drona cântărește 250 g sau mai mult ori are o cameră",
-   "Cursul online A1/A3 este obligatoriu — vârsta minimă 16 ani",
-   "Restricții în zonele cu erupții vulcanice: verifică întotdeauna activitatea eruptivă curentă",
-   "Parcuri naționale (Vatnajökull, Þingvellir, Snæfellsjökull): de la 17 mai 2026, zborul recreativ cu drone este refuzat în peste 25 de zone protejate (decizie contestată)",
-   "Menține întotdeauna drona în raza vizuală directă (VLOS)",
-   "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
-   "La cel puțin 2 km de aeroporturile comerciale, 1,5 km de aerodromurile mai mici și de zonele de aterizare",
-   "Zone de cuibărit al păsărilor: restricții sezoniere (mai–august)",
-   "Condiții dificile de vânt: în Islanda, vântul depășește adesea limitele de siguranță ale dronelor"
-  ],
-  "importantNotes": [
-   "În zonele cu erupții vulcanice active pot exista interdicții temporare de zbor — verifică înainte de fiecare zbor",
-   "De la 17 mai 2026, Agenția pentru conservarea naturii refuză zborul recreativ și de instruire cu drone în peste 25 de zone protejate (parcuri naționale și altele); decizia a fost contestată la Ministerul Mediului",
-   "Vremea islandeză este schimbătoare — vântul depășește adesea limitele dronelor",
-   "Sezonul de cuibărit al păsărilor (mai–august): restricții suplimentare în multe zone",
-   "Islanda face parte din SEE, dar nu din UE — regulile EASA se aplică prin Acordul SEE"
-  ],
-  "primaryLinks": [
-   {
-    "title": "Samgöngustofa — reguli privind dronele",
-    "description": "Regulile și îndrumările oficiale privind dronele ale Autorității Islandeze a Transporturilor (ICETRA)"
-   },
-   {
-    "title": "Samgöngustofa — înregistrare ca operator",
-    "description": "Înregistrare ca operator UAS (5.863 ISK / 5 ani, valabilă în țările SEE)"
-   },
-   {
-    "title": "FlyDrone.is — harta spațiului aerian",
-    "description": "Harta oficială interactivă a dronelor care arată zonele de interdicție de zbor și restricțiile"
-   },
-   {
-    "title": "island.is — înregistrarea dronelor",
-    "description": "Portalul digital de servicii al statului islandez pentru înregistrarea dronelor"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Isavia — navigație aeriană",
-    "description": "Serviciile islandeze de navigație aeriană și informații despre spațiul aerian"
-   },
-   {
-    "title": "Umhverfisstofnun — conservarea naturii",
-    "description": "Informații despre parcurile naționale și zonele protejate din partea Agenției de mediu a Islandei"
-   }
-  ],
-  "disclaimerText": "Verifică întotdeauna sursele oficiale ale Samgöngustofa (ICETRA) și FlyDrone.is înainte de zbor. Această aplicație este un instrument — nu o autoritate juridică. Islanda respectă regulile EASA prin Acordul SEE, cu adăugiri naționale.",
-  "sectionLabelRules": "REGULI ESENȚIALE (CATEGORIA EASA OPEN)",
-  "sectionLabelPrimary": "SURSE OFICIALE",
-  "sectionLabelSecondary": "INFORMAȚII SUPLIMENTARE",
-  "linksSheetTitle": "Spațiu aerian și reguli — Islanda",
-  "dronePilotCredentialName": "Certificat de competență A1/A3"
- }
+  "meta": {
+    "sourceHash": "bc6372b8db43aa400f327dcbe06c67e81c770544a50c90238e8b68a0ddad32f8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "În categoria deschisă, înălțimea maximă de 120 m se măsoară ca distanța până la cel mai apropiat punct de pe suprafața Pământului — nu pur și simplu pe verticală în jos, astfel încât, în apropierea unei pante, poate conta și terenul de lângă tine. Pe o rază de 50 m în jurul unui obstacol artificial înalt (peste 105 m), entitatea responsabilă de obstacol poate solicita permisiunea de a zbura până la 15 m deasupra înălțimii obstacolului.",
+      "Trebuie să te înregistrezi ca operator de dronă dacă drona ta cântărește 250 g sau mai mult (sau ar putea transfera, la impact, o energie cinetică de peste 80 J) — acest lucru se aplică și jucăriilor. Sub 250 g, înregistrarea este totuși necesară dacă drona are un senzor capabil să colecteze date cu caracter personal, cu excepția cazului în care este considerată jucărie în sensul Directivei UE privind siguranța jucăriilor. Cerințele privind instruirea/certificatul de pilot sunt separate și depind de clasa și subcategoria dronei.",
+      "În Islanda, vârsta minimă este de 16 ani — se aplică excepții pentru o dronă din clasa C0 în subcategoria A1, pentru o dronă construită în regie proprie sub 250 g sau pentru zborurile supravegheate de un pilot la distanță certificat.",
+      "În timpul erupțiilor vulcanice, Almannavarnir/Samgöngustofa pot impune restricții temporare asupra zborurilor cu drone — restricțiile se pot extinde până la 1.500 ft, iar zone întregi (de ex. Peninsula Reykjanes în timpul erupției din iulie 2025) pot fi închise complet cât timp durează activitatea. Verifică întotdeauna activitatea vulcanică actuală înainte de zbor.",
+      "Începând cu 17 mai 2026, Náttúruverndarstofnun (nu autoritățile aeronautice) eliberează autorizații numai pentru zborurile comerciale cu drone în 27 de zone protejate. Restricțiile sunt împărțite pe trei niveluri: 15 zone pe tot parcursul anului (inclusiv Gullfoss, Geysir, Goðafoss, Skógafoss, Dyrhólaey, Látrabjarg și zona protejată Mývatn și Laxá), 11 zone între 1 mai și 15 septembrie (inclusiv Parcul Național Snæfellsjökull, Dimmuborgir, Hornstrandir și Dynjandi) și Friðlandið að Fjallabaki între 15 iunie și 15 septembrie. Autorizațiile pentru cercetare, monitorizare, filmare, fotografie comercială și evenimente care necesită autorizație se acordă în continuare. Þingvellir și Parcul Național Vatnajökull nu figurează pe această listă și au propriile reguli.",
+      "Este interzis zborul la mai puțin de 150 m de structurile sensibile: centrale electrice, stații de transformare, Alþingi, reședința președintelui, ministere, ambasade, secții de poliție, penitenciare și spitale, cu excepția cazului în care proprietarii sau cei care le administrează permit acest lucru.",
+      "În categoria deschisă, trebuie să menții drona în propria ta rază vizuală directă, fără mijloace ajutătoare (ochelarii/lentilele de contact sunt în regulă; binoclul sau un ecran nu contează) — sau să zbori cu ajutorul unui observator, cu o comunicare clară și eficientă între voi în permanență, astfel încât împreună să puteți supraveghea spațiul aerian și evita coliziunile. Modul follow-me este o excepție specială, permisă până la 50 m de pilot.",
+      "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
+      "Zborul fără permisiunea operatorului aeroportului este interzis pe aeroporturi, în incinta aeroporturilor și în zonele restricționate din jurul aeroporturilor cu curse regulate — zonele restricționate sunt cele afișate pe harta din aplicație (în multe locuri aproximativ 5 km). Totuși, într-o zonă restricționată poți zbura fără permisiune specială dacă zbori sub înălțimea celor mai înalte obstacole aflate la mai puțin de 50 de metri de traiectoria de zbor a dronei. Permisiune: ISAVIA pentru Aeroportul Keflavík, Innanlandsflugvellir ehf. pentru celelalte aeroporturi cu curse regulate.",
+      "Zone de cuibărit al păsărilor: restricții sezoniere (mai–august)",
+      "Condiții dificile de vânt: în Islanda, vântul depășește adesea limitele de siguranță ale dronelor"
+    ],
+    "importantNotes": [
+      "În zonele cu erupții vulcanice active pot exista interdicții temporare de zbor — verifică înainte de fiecare zbor",
+      "Începând cu 17 mai 2026, Náttúruverndarstofnun acordă autorizații numai pentru zborurile comerciale cu drone în 27 de zone protejate — în unele pe tot parcursul anului, în altele doar în lunile de vară. Verifică lista pentru fiecare zonă pe nattura.is.",
+      "Vremea islandeză este schimbătoare — vântul depășește adesea limitele dronelor",
+      "Sezonul de cuibărit al păsărilor (mai–august): restricții suplimentare în multe zone",
+      "Islanda face parte din SEE, dar nu din UE — regulile EASA se aplică prin Acordul SEE"
+    ],
+    "primaryLinks": [
+      {
+        "title": "Samgöngustofa — reguli privind dronele",
+        "description": "Regulile și îndrumările oficiale privind dronele ale Autorității Islandeze a Transporturilor (ICETRA)"
+      },
+      {
+        "title": "Samgöngustofa — înregistrare ca operator",
+        "description": "Înregistrare ca operator UAS (5.863 ISK / 5 ani, valabilă în țările SEE)"
+      },
+      {
+        "title": "FlyDrone.is – înregistrare și examen A1/A3",
+        "description": "Site-ul de înregistrare al Samgöngustofa, unde operatorii se înregistrează, citesc materialul de studiu și susțin examenul A1/A3 (5.863 ISK, valabil 5 ani)"
+      },
+      {
+        "title": "island.is — înregistrarea dronelor",
+        "description": "Portalul digital de servicii al statului islandez pentru înregistrarea dronelor"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Isavia — navigație aeriană",
+        "description": "Serviciile islandeze de navigație aeriană și informații despre spațiul aerian"
+      },
+      {
+        "title": "Náttúruverndarstofnun – drone în zonele protejate",
+        "description": "Lista zonelor protejate cu restricții pentru zborurile cu drone și perioadele aplicabile"
+      },
+      {
+        "title": "Kortasjá – harta dronelor"
+      }
+    ],
+    "disclaimerText": "Verifică întotdeauna sursele oficiale ale Samgöngustofa (ICETRA) și FlyDrone.is înainte de zbor. Această aplicație este un instrument — nu o autoritate juridică. Islanda respectă regulile EASA prin Acordul SEE, cu adăugiri naționale.",
+    "sectionLabelRules": "REGULI ESENȚIALE (CATEGORIA EASA OPEN)",
+    "sectionLabelPrimary": "SURSE OFICIALE",
+    "sectionLabelSecondary": "INFORMAȚII SUPLIMENTARE",
+    "linksSheetTitle": "Spațiu aerian și reguli — Islanda",
+    "dronePilotCredentialName": "Certificat de competență A1/A3"
+  }
 }

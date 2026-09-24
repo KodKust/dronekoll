@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "36d02a53cfd249d58006a295f9a59616c0e6c70d5da2bf039b877f35892a3057",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6bf2e348b1896b08803a150a27a534a3546ea700b4d2c17be5329c5137833aca",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Pakollinen A1/A3-verkkokoulutus — vähimmäisikä 14 vuotta (14- ja 15-vuotiaiden alaikäisten rekisteröinnin tekee vanhempi tai huoltaja).",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maa voidaan laskea mukaan. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
+      "Pakollinen, maksuton A1/A3-verkkokoulutus Eurocontrolin LearningZone-alustalla (FR/DE/EN/LB, 3 kuukauden uusittava käyttöoikeus); todistus on voimassa 5 vuotta. Luxemburgissa miehittämättömän ilma-aluksen käytön vähimmäisikä ”avoimessa” kategoriassa on 14 vuotta (22. joulukuuta 2025 annetun suurherttuallisen asetuksen 2 art.); nuorempi alaikäinen lentää vaaditut pätevyydet omaavan yli 16-vuotiaan henkilön valvonnassa. OPEN A2 -koe suoritetaan DAC:n tiloissa, ja se maksaa 45 €.",
       "Pakollinen vastuuvakuutus (vakuutusnumero vaaditaan ilmoittautumisen yhteydessä)",
       "Luxembourg-Findelin lentoaseman lähilentovyöhyke (CTR) kattaa merkittävän osan maasta",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Avoimessa kategoriassa pidä drone omassa suorassa näköyhteydessäsi paljain silmin (korjaavat silmälasit/piilolinssit sallittu; kiikareita tai näyttöä ei lasketa) — tai käytä apunasi tähystäjää niin, että viestitte keskenänne selkeästi ja tehokkaasti koko ajan ja valvotte yhdessä ilmatilaa ja vältätte yhteentörmäykset. ”Follow-me”-tila on erillinen poikkeus, joka on sallittu enintään 50 m:n päässä kauko-ohjaajasta.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
       "Noudata Luxembourg-Findelin lähilentovyöhykettä (CTR) ja Geoportail.lu-palvelussa julkaistuja UAS-maantieteellisiä vyöhykkeitä — kiinteää 5 km:n suojavyöhykettä ei enää ole EASA-sääntöjen yhdenmukaistamisen jälkeen",
-      "Yöllä monilla alueilla (erityisesti Findelin ympäristössä) vaaditaan erityislupa — tarkista kunkin alueen vaatimukset osoitteesta drones.geoportail.lu.",
+      "Yölennättäminen on Luxemburgissa sallittu avoimessa kategoriassa EASAn perusvaatimusten mukaisesti. Jotkin maantieteelliset vyöhykkeet — erityisesti Findelin ympäristössä — asettavat kuitenkin ehtoja tai edellyttävät erillistä yölentolupaa: tarkista kunkin vyöhykkeen ehdot osoitteesta g-o.lu/uas.",
       "Suurherttuan palatsi, vankeuslaitokset ja sotilasalueet: ennakkolupa vaaditaan — paikalliset stadionit ja lentopaikat (Useldange, Noertrange): lennättäminen kielletty."
     ],
     "importantNotes": [
       "Pakollinen vakuutus; vakuutusnumero vaaditaan ilmoittautumisen yhteydessä",
       "Luxembourg-Findelin lentoaseman lähilentovyöhyke (CTR) kattaa suuren osan tästä pienestä maasta",
-      "Uuden kansallisen säännöstön (joulukuu 2025) mukaan vakuutuksen tai rekisteröinnin laiminlyönnistä voi seurata rikosoikeudellisia seuraamuksia — jopa 1 vuoden vankeusrangaistus ja 5 000 €:n sakko.",
-      "GDPR-tietosuoja-asetus koskee tunnistettavien kuvien ottamista"
+      "Uusi kansallinen säännöstö — 19. joulukuuta 2025 annettu laki ja 22. joulukuuta 2025 annettu suurherttuallinen asetus miehittämättömistä ilma-aluksista — täydentää eurooppalaisia määräyksiä ja ottaa käyttöön rikosoikeudelliset seuraamukset rekisteröinti-, vakuutus- ja vyöhykevelvoitteiden laiminlyönnistä. 14. tammikuuta 2026 alkaen on peritty maksuja: 10 € rekisteröinnistä tai sen uusimisesta, 30 € STS-ilmoituksesta ja 45 € OPEN A2 -kokeesta.",
+      "GDPR-tietosuoja-asetus koskee tunnistettavien kuvien ottamista",
+      "Varoitus (DAC): UAS-valmistajien tarjoamat Geozones-tiedot eivät välttämättä kata kaikkia Luxemburgin rajoitusalueita, eikä UAS-valmistajan ja Geoportailin välillä ole MITÄÄN automaattista tiedonsiirtoa. Vain osoitteessa g-o.lu/uas näytetyt UAS-maantieteelliset vyöhykkeet ovat oikeudellisesti sovellettavia — kauko-ohjaimesi georajoitus ei riitä."
     ],
     "primaryLinks": [
       {
@@ -34,7 +35,7 @@
       },
       {
         "title": "Geoportail.lu — Dronekartta",
-        "description": "Virallinen maantieteellinen portaali dronevyöhykkeitä koskevine tietoineen"
+        "description": "Luxemburgissa oikeudellisesti sovellettavia ovat vain täällä julkaistut UAS-maantieteelliset vyöhykkeet"
       },
       {
         "title": "DAC — Sääntöjen yleiskatsaus",

@@ -1,27 +1,27 @@
 {
   "meta": {
-    "sourceHash": "e6b2b7ef595a946c4fd009b44046d64770faa9411a520492ab5a176d0099aefc",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "9f66cfb99f81b71253523a7a699005c1e9e10cb5b222429f5e95834f233cde0d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröidy UAS-käyttäjäksi (40 € / 30 kuukautta), jos drone painaa vähintään 250 g tai siinä on kamera",
-      "Ilmainen A1/A3-verkkokoe saatavilla Slovenian CAA:n kautta",
-      "Kielletty asuttujen alueiden yllä — ainoa poikkeus koskee enintään 1 200 g painavia droneja, jotka lentävät enintään 50 m korkeudessa maanomistajan suostumuksella ja kun lennosta on ilmoitettu virastolle etukäteen.",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Avoimessa kategoriassa suurin sallittu korkeus on 120 m, mitattuna etäisyytenä lähimpään maanpinnan kohtaan — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maasto voidaan laskea mukaan. 50 m:n säteellä korkeasta keinotekoisesta esteestä (yli 105 m) esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
+      "Sinun on rekisteröidyttävä dronen käyttäjäksi, jos drone painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J energiaa) — tämä koskee myös leluja. Alle 250 g painava drone on silti rekisteröitävä pakollisesti, jos siinä on anturi, joka pystyy keräämään henkilötietoja, ellei sitä katsota leluksi EU:n lelujen turvallisuusdirektiivin mukaisesti. Lentäjän koulutus- ja todistusvaatimukset ovat erillisiä ja riippuvat dronen luokasta ja alaluokasta.",
+      "Sloveniassa itsenäisen lentämisen vähimmäisikä on 16 vuotta — verkkokoulutus ja A1/A3-koe ovat voimassa 5 vuotta, ja ne järjestää siviili-ilmailuvirasto (Javna agencija za civilno letalstvo, CAA).",
+      "Lentäminen avoimessa kategoriassa asuttujen alueiden yllä on kielletty. Asetuksen (Uredba) 14 artiklan mukainen poikkeus pätee vain, jos kaikki ehdot täyttyvät: järjestelmän massa enintään 1200 g, korkeus enintään 50 m maanpinnasta (AGL), toiminta vain päiväsaikaan, kiinteistön omistajan tai käyttäjän ennakkohyväksyntä sekä jätetty ennakkoilmoitus lennosta. Kun se on turvallisen toiminnan kannalta ehdottoman välttämätöntä, ilma-alus saa olla enintään kymmenen metrin päässä kiinteistön rajan ulkopuolella.",
+      "Avoimessa kategoriassa dronen on pysyttävä omassa, paljain silmin ylläpidettävässä näköyhteydessäsi (silmälasit/piilolinssit käyvät; kiikari tai näyttö ei kelpaa) — tai voit lentää tarkkailijan avustamana pitäen koko ajan selkeän ja tehokkaan yhteyden toisiinne, jotta voitte yhdessä tarkkailla ilmatilaa ja välttää yhteentörmäykset. \"Follow-me\"-tila on erillinen poikkeus, sallittu enintään 50 m:n etäisyydellä ohjaajasta.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
       "Yölento on sallittu EASA:n avoimen luokan perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
-      "Triglavin kansallispuisto: dronejen lennättäminen on kielletty ilman puistohallinnon ennakkolupaa.",
-      "Lähilentovyöhyke (CTR, esim. Ljubljana): yli 5 km:n päässä lentoasemasta lennätä enintään 50 m korkeudessa maanpinnasta; lähempänä tai korkeammalla vain Slovenian lennonjohdon luvalla.",
+      "Triglavin kansallispuisto: ilma-alusten lentäminen alle 1000 jalan (304,8 m) korkeudella lennon aikaisen korkeimman kohdan tai esteen yläpuolella on kielletty puiston alueella (ZTNP-1, 13 artikla, kohta 40), mikä avoimessa kategoriassa tarkoittaa täyskieltoa. Puiston hallinnoijan suostumus on mahdollinen vain puiston kartoitukseen sekä elokuva-, video- ja dokumenttikuvaukseen; virkistyslentämiseen suostumusta ei anneta.",
+      "Lentopaikoilla, joilla ei ole lentopaikan lennonjohtoa (esim. Lesce, Celje, Murska Sobota — sekä Portorož, Maribor ja Cerklje lennonjohdon toiminta-aikojen ulkopuolella), dronejen lentäminen on kielletty 2600 m:n säteellä kiitotiestä (Uredba, Ur. l. RS 39/24, 13 artikla). Kielto ei koske tilanteita, joissa miehittämättömien ilma-alusjärjestelmien lentämisen menettelyt on erikseen määritelty lentopaikan pitäjän lentopaikan käyttöohjeissa, tai jos UAS-käyttäjä saa lentopaikan pitäjältä ennakkohyväksynnän.",
       "Ydinlaitosalue (NEK Krško): lennättäminen sallittu vain Slovenian ydinturvallisuusviranomaisen ja sisäministeriön luvalla."
     ],
     "importantNotes": [
-      "Verkkokoulutus ja A1/A3-koe ovat maksuttomia (sisältyvät rekisteröintiin).",
+      "Verkkokoulutus ja A1/A3-koe sisältyvät CAA Slovenian käyttäjärekisteröinnin hintaan — ne eivät ole erillinen maksuton palvelu.",
       "Asuttujen alueiden yllä lennättäminen edellyttää lisälupia",
-      "Rekisteröinti maksaa 40 € 30 kuukaudelta",
+      "Käyttäjän rekisteröinti maksaa 50,00 € verkossa rekisteröidyttäessä tai muuten 70,00 €, ja hintaan sisältyvät verkkokoulutus sekä A1- ja A3-koe. A2-kokeen hinta on 40,00 € (CAA:n hinnasto, Uradni list RS, nro 38/17, 40/17 – oik. ja 202/20).",
       "Triglavin kansallispuistossa on dronerajoituksia",
       "GDPR-tietosuoja-asetus koskee henkilön tunnistamisen mahdollistavien tietojen keräämistä"
     ],
@@ -32,15 +32,15 @@
       },
       {
         "title": "Slovenian CAA — Käyttäjän rekisteröinti",
-        "description": "Rekisteröityminen UAS-käyttäjäksi (40 € / 30 kuukautta, voimassa kaikissa EU-/EASA-maissa)"
+        "description": "Rekisteröityminen UAS-käyttäjäksi: 50 € verkossa tai 70 € (sisältää verkkokoulutuksen sekä A1- ja A3-kokeen; CAA:n hinnasto, Ur. l. RS 38/17, 40/17 ja 202/20). CAA:n mukaan rekisteröinti on tarkoitus uusia 2,5 vuoden (30 kuukauden) välein. Voimassa kaikissa EU-/EASA-maissa."
       },
       {
         "title": "Slovenian CAA — Ilmatilakartta",
         "description": "ArcGIS-pohjainen ilmatilakartta, joka näyttää dronevyöhykkeet ja rajoitukset"
       },
       {
-        "title": "Slovenian CAA — Ilmainen A1/A3-koe",
-        "description": "Ilmainen verkkokoulutus ja A1/A3-koe"
+        "title": "CAA Slovenia — A1/A3-koulutus ja -koe",
+        "description": "Verkkokoulutus ja A1/A3-koe sisältyvät maksulliseen käyttäjärekisteröintiin (50 € / 70 €); A2-koe maksaa 40 €."
       }
     ],
     "secondaryLinks": [

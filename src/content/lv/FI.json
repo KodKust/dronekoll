@@ -1,21 +1,21 @@
 {
   "meta": {
-    "sourceHash": "49389e227b39ad270162c3ac5b4ca7074db2b61d6472d7eff6c37ed05fab160b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c0578e66e699fe36cfd68936aab2c9a41e3b5869fd85affc213b0724574a07a2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne vairāk kā 120 m virs zemes (EASA atvērtā kategorija)",
-      "Nepieciešama A1/A3 tiešsaistes apmācība — minimālais vecums 16 gadi",
-      "Vienmēr turi dronu tiešā redzeslokā (VLOS)",
+      "Atvērtajā kategorijā maksimālais atļautais augstums ir 120 m, ko mēra kā attālumu līdz tuvākajam zemes virsmas punktam — nevis taisni uz leju, tāpēc nogāzes tuvumā var ņemt vērā arī blakus esošo reljefu. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgā persona var pieteikties atļaujai lidot līdz 15 m virs šķēršļa augstuma.",
+      "Somijā tālvadības pilota minimālais vecums ir 12 gadi droniem, kas sver vairāk par 250 gramiem (Traficom); C0 klases vai paša būvētiem droniem, kas sver mazāk par 250 gramiem, vecuma vai apmācības prasību nav. Ņem vērā, ka operatoram (lietotājam), kas veic reģistrāciju, vienmēr jābūt pilngadīgam — nepilngadīga pilota vietā kā operators reģistrējas aizbildnis.",
+      "Atvērtajā kategorijā dronam jāatrodas tavā tiešās redzamības zonā, uz to skatoties ar neapbruņotu aci (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai arī lido ar novērotāja palīdzību, visu laiku uzturot skaidru un efektīvu saziņu savā starpā, lai kopā varētu uzraudzīt gaisa telpu un izvairīties no sadursmēm. Režīms “Follow-me” ir atsevišķs izņēmums, kas atļauts ne tālāk kā 50 m attālumā no pilota.",
       "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kuras nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
-      "Ievēro ierobežojumus lidostu CTR un UAS gaisa telpas zonās — pārbaudi Droneinfo.fi",
+      "Ievēro lidostu CTR un UAS gaisa telpas zonu ierobežojumus. Zonas noteiktas Traficom noteikumos OPS M1-29, kuru jaunākā versija stājās spēkā 2026. gada 16. aprīlī — aktuālo situāciju pārbaudi Fintraffic Sky kartē (sky.fintraffic.fi).",
       "Nakts lidojumi ir atļauti, ja dronam ir zaļa mirgojoša identifikācijas gaisma un redzamība ir pietiekama",
       "Austrumu robežas tuvumā ir lidojumu ierobežojumi — pirms lidošanas pārbaudi skartās teritorijas",
       "Lapland ziemeļbriežu ganību teritorijās var būt sezonāli ierobežojumi",
-      "Vietnē Droneinfo.fi pārbaudi konkrētajai teritorijai noteiktos ierobežojumus un augstuma ierobežojumus"
+      "Fintraffic Sky kartē (sky.fintraffic.fi) pārbaudi konkrētajai teritorijai noteiktos ierobežojumus un augstuma ierobežojumus"
     ],
     "importantNotes": [
       "“Eastern Border” (EFR100) zona ir aktīva 24 stundas diennaktī — tagad redzama kartē",
@@ -31,11 +31,11 @@
       },
       {
         "title": "Traficom — Reģistrējies",
-        "description": "Reģistrējies kā UAS lietotājs (€30 par 3 gadiem vai €100 par 5 gadiem, derīga visās ES/EASA valstīs)"
+        "description": "Reģistrējies kā UAS lietotājs (40 € par 1 gadu, 95 € par 3 gadiem vai 125 € par 5 gadiem, derīga visās ES/EASA valstīs)"
       },
       {
-        "title": "Droneinfo.fi — Gaisa telpas karte",
-        "description": "Oficiālā interaktīvā dronu karte, kurā redzamas lidojumu aizlieguma un ierobežotās zonas"
+        "title": "Fintraffic Sky – gaisa telpas karte",
+        "description": "Fintraffic ANS interaktīvā gaisa telpas karte, kurā redzamas UAS gaisa telpas zonas, kā arī aizliegtās un ierobežotās teritorijas (tā pati karte, kas atveras ar lietotnes gaisa telpas pogu)"
       },
       {
         "title": "Traficom — Apmācība un eksāmeni",
@@ -52,7 +52,7 @@
         "description": "Biežāk uzdotie jautājumi par Somijas dronu noteikumiem"
       }
     ],
-    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi Traficom oficiālos avotus un Droneinfo.fi. Šī lietotne ir rīks, nevis oficiāla instance. Somija ievēro EASA noteikumus ar papildu nacionālajām prasībām.",
+    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi Traficom oficiālos avotus un Fintraffic Sky karti. Šī lietotne ir rīks, nevis oficiāla instance. Somija ievēro EASA noteikumus ar papildu nacionālajām prasībām.",
     "sectionLabelRules": "GALVENIE NOTEIKUMI (EASA ATVĒRTĀ KATEGORIJA)",
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU INFORMĀCIJA",

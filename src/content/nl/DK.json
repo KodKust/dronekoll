@@ -1,29 +1,30 @@
 {
   "meta": {
-    "sourceHash": "0b4390d8f9a3a6d8927fed8920fc55b966e27ba6f08dffbc604b7ea87d7fbd8b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "65a1d37d180bc9f71efb45273b737bb48f5042af6dc9db932ab420ce77d3ee10",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Max. 120 m boven de grond (EASA Open categorie)",
-      "Registreer je als UAS-exploitant als de drone 250 g of meer weegt of is uitgerust met een camera",
-      "A1/A3-onlinecursus vereist — minimumleeftijd 16",
-      "Verplichte aansprakelijkheidsverzekering — het minimale dekkingsbedrag hangt af van het dronegewicht; drones die minder dan 250 g wegen zijn onder BEK 527 (juli 2025) vrijgesteld van de minimale dekkingseis",
-      "De CTR van Copenhagen Airport beslaat het centrum van Kopenhagen — raadpleeg Droneregler.dk",
-      "Houd de drone altijd binnen direct zicht (VLOS)",
+      "In de open categorie is de maximale hoogte 120 m, gemeten als de afstand tot het dichtstbijzijnde punt van het grondoppervlak — niet alleen recht naar beneden, dus bij een helling kan ook de grond naast je meetellen. Binnen 50 m van een hoog kunstmatig obstakel (hoger dan 105 m) kan degene die verantwoordelijk is voor het obstakel toestemming aanvragen om tot 15 m boven de hoogte van het obstakel te vliegen.",
+      "Je moet je als drone-exploitant registreren als je drone 250 g of meer weegt (of bij een botsing meer dan 80 J aan kinetische energie kan overdragen) — dit geldt zelfs voor speelgoed. Onder 250 g is registratie toch verplicht als de drone een sensor heeft die persoonsgegevens kan vastleggen, tenzij hij als speelgoed wordt beschouwd in de zin van de EU-speelgoedrichtlijn. De eisen voor opleiding/certificaat van de piloot staan daar los van en hangen af van de klasse en subcategorie van de drone.",
+      "In Denemarken moet je ten minste 15 jaar oud zijn om met een drone van meer dan 250 g te vliegen. Als je ten minste 12 jaar oud bent, mag je met een drone van minder dan 250 g vliegen. Ben je jonger, dan mag je alleen vliegen onder toezicht van iemand van ten minste 15 jaar die aan de eisen voor het dronecertificaat voldoet.",
+      "Verplichte aansprakelijkheidsverzekering (Danish Air Navigation Act en EU-verordening 785/2004) met een verzekerd bedrag van ten minste 0,75 miljoen SDR — hetzelfde bedrag ongeacht het gewicht van de drone. Microdrones zijn alleen vrijgesteld van het minimumbedrag, niet van de verzekeringsplicht, en alleen wanneer aan alle drie de voorwaarden is voldaan: een startmassa onder 250 g, een maximumsnelheid die niet hoger kan zijn dan 19 m/s, en uitsluitend persoonlijk gebruik of hobbygebruik. Volledig vrijgesteld zijn speelgoeddrones met een C0-markering, speelgoeddrones onder 250 g en onder 19 m/s die vóór 1 januari 2024 in de handel zijn gebracht, en zelfverzekerde overheidsinstanties (§ 4 van de Drone Order, BEK 1649/2023 zoals gewijzigd bij BEK 527/2025).",
+      "De CTR van Copenhagen Airport beslaat het grootste deel van het centrum van Kopenhagen — raadpleeg Droneregler.dk voordat je in het gebied vliegt.",
+      "In de open categorie moet je de drone binnen je eigen directe zichtlijn houden, met het blote oog (bril/contactlenzen zijn toegestaan; een verrekijker of een scherm telt niet) — of vliegen met hulp van een waarnemer, waarbij jullie te allen tijde duidelijk en effectief met elkaar communiceren, zodat jullie samen het luchtruim kunnen bewaken en botsingen kunnen vermijden. De follow-me-modus is een afzonderlijke uitzondering, toegestaan tot 50 m van de piloot.",
       "Vlieg niet over mensenmassa’s. De regels voor niet-betrokken personen zijn afhankelijk van de subcategorie, de klasse-aanduiding en de bedrijfsomstandigheden; raadpleeg de officiële matrix.",
-      "Ten minste 8 km tot IMC-luchthavens (instrumentvliegen), 4 km tot VMC-luchthavens — BEK 527 (juli 2025)",
+      "Ten minste 8 km van IMC-vliegvelden (instrumentvliegen) en 4 km van VMC-vliegvelden — met een bekwaamheidscertificaat (A2-bekwaamheidscertificaat) kan de afstand worden verkleind tot 2 km, met lagere hoogtegrenzen naarmate je dichter bij de baan komt (§ 9 en § 9 a van de Drone Order, BEK 527, van kracht sinds 1 juli 2025). Houd ook een afstand van 2 km aan tot noodlandingsplaatsen voor helikopters.",
       "Nachtvluchten zijn toegestaan volgens de EASA-basisnorm voor de open categorie wanneer het vereiste groene knipperlicht wordt gebruikt, tenzij een actuele geografische zone of nationale regel een strengere voorwaarde oplegt.",
       "Groenland en de Faeröer hebben aparte regels"
     ],
     "importantNotes": [
-      "De minimale verzekeringsdekking is nu gewichtsafhankelijk; drones die minder dan 250 g wegen zijn sinds de invoering van BEK 527 (juli 2025) vrijgesteld van de minimale dekkingseis. De registratie als UAS-exploitant is nu 3 jaar geldig.",
-      "De CTR van Copenhagen Airport beslaat het grootste deel van het centrum van Kopenhagen",
+      "Aansprakelijkheidsverzekering: het minimumbedrag is 0,75 miljoen SDR, ongeacht het gewicht van de drone. Sinds 1 juli 2025 (BEK 527) zijn microdrones onder 250 g die niet sneller dan 19 m/s kunnen vliegen en alleen voor privé-/hobbydoeleinden worden gebruikt, vrijgesteld van het minimumbedrag — niet van de verzekeringsplicht. Commercieel gebruik is nooit vrijgesteld.",
+      "De CTR van Copenhagen Airport beslaat het grootste deel van het centrum van Kopenhagen.",
       "Voor Groenland en de Faeröer gelden aparte regels",
       "Bij overtredingen kunnen boetes en strafrechtelijke vervolging worden opgelegd",
-      "De GDPR is van toepassing wanneer herkenbare beelden worden gemaakt"
+      "De GDPR is van toepassing wanneer herkenbare beelden worden gemaakt",
+      "Toekomstige eis: Trafikstyrelsen heeft een wijziging van de Drone Order ter consultatie voorgelegd die Remote ID of een andere vorm van identificatie op afstand verplicht stelt voor alle drones boven 250 g — en voor drones onder 250 g met een sensor in bepaalde dronezones. Verwachte inwerkingtreding: 1 januari 2027."
     ],
     "primaryLinks": [
       {

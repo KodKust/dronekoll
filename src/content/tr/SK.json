@@ -1,22 +1,24 @@
 {
   "meta": {
-    "sourceHash": "52f1e9302ec2bcb4cb052daf85c1bc4eb0d04440f50f5931718d7e36efc0852a",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ba8a0d21aa6d8dafe028a7c48ce70de36567d44ff90036ca43f8450af32e0d5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Yerden en fazla 120 m (EASA Open kategorisi)",
-      "250 g veya daha ağır ya da kamerayla donatılmış dronlar için Transport Authority'ye UAS operatörü olarak kaydolun",
-      "A1/A3 çevrim içi eğitim zorunludur — asgari yaş 16",
-      "Alt kategoriye göre asgari mesafeler: A1 — operasyona dahil olmayan kişilerin üzerinden uçmayın; A2 — insanlardan en az 30 m uzakta kalın (düşük hız modunda 5 m); A3 — yerleşim, ticaret, sanayi ve rekreasyon alanlarından en az 150 m uzakta kalın.",
-      "Dronu her zaman doğrudan görüş hattınızda (VLOS) tutun",
+      "Açık kategoride azami yükseklik 120 m'dir ve yeryüzünün en yakın noktasına olan mesafe olarak ölçülür — yalnızca dümdüz aşağıya doğru değil; bu nedenle bir yamacın yakınında yanınızdaki arazi de hesaba katılabilir. Yüksek bir yapay engelin (105 m'den yüksek) 50 m yakınında, engelden sorumlu kuruluş, engelin yüksekliğinin 15 m üzerine kadar uçmak için izin talep edebilir.",
+      "Dronunuz 250 g veya daha ağırsa (ya da bir çarpışmada 80 J'den fazla kinetik enerji aktarabiliyorsa) dron operatörü olarak kaydolmanız gerekir — bu, oyuncaklar için de geçerlidir. 250 g'ın altında, dronda kişisel veri yakalayabilen bir sensör varsa, AB Oyuncak Güvenliği Direktifi kapsamında oyuncak sayılmadığı sürece kayıt yine de zorunludur. Pilot eğitimi/sertifikası gereklilikleri ayrıdır ve dronun sınıfına ve alt kategorisine bağlıdır.",
+      "Açık kategoride bağımsız uçmak için asgari 16 yaş gerekir — A1/A3 eğitimi ve sınavı (40 soru, çevrim içi) 5 yıl geçerlidir ve tüm AB'de tanınır. Daha genç pilotlar yalnızca sertifikalı bir uzaktan pilotun doğrudan gözetimi altında uçabilir.",
+      "Alt kategoriye göre asgari mesafeler: A1 — operasyona dahil olmayan kişilerin üzerinden uçmayın; A2 — operasyona dahil olmayan kişilerden en az 30 m (etkin düşük hız modu işleviyle ≤ 3 m/s iken 5 m) ve her zaman en az uçuş yüksekliği kadar (1:1 kuralı); A3 — yerleşim, ticaret, sanayi ve rekreasyon alanlarından en az 150 m uzakta kalın.",
+      "Açık kategoride dronu çıplak gözle doğrudan görüş hattınızda tutmalısınız (gözlük/kontakt lens sorun değildir; dürbün veya ekran sayılmaz) — ya da yardım için bir gözlemci görevlendirin; hava sahasını birlikte izleyebilmeniz ve çarpışmalardan kaçınabilmeniz için aranızda her zaman açık ve etkili bir iletişim olmalıdır. \"Follow-me\" modu ayrı bir istisnadır ve pilottan en fazla 50 m mesafeye kadar izin verilir.",
       "İnsan topluluklarının üzerinden uçmayın. Operasyona dahil olmayan kişilerle ilgili kurallar alt kategoriye, sınıf işaretine ve operasyon koşullarına bağlıdır; resmî matrisi kontrol edin.",
-      "M. R. Štefánik Havalimanı, Bratislava: 5 km yarıçapında ve 500 m irtifaya kadar dron uçuşları tamamen yasaktır (PUAS0103M, 6 Aralık 2025'ten itibaren geçerli). Košice, Poprad, Žilina ve Piešťany Havalimanları (31 Mart 2026'dan itibaren geçerli): havalimanının 5 km çevresinde, 30 m'nin üzerindeki uçuşlara yalnızca hava trafik kontrol birimiyle en az 24 saat önceden e-posta yoluyla koordinasyon kurulduktan sonra izin verilir.",
+      "Bratislava'daki M. R. Štefánik Havalimanı'nda, hava meydanı referans noktasının (48°10'12''N, 17°12'46''E) 3 km yarıçapı içinde, yer yüzeyinden yer seviyesinin 500 m üzerine kadar sivil dron uçuşları yasaktır — 18 Ağustos 2026'dan itibaren yürürlükte olan ve önceki PUAS0103M bölgesini iptal eden 104/2026 sayılı Bakan Kararı kapsamındaki RUAS098M bölgesi. Yasak; hayat kurtarma uçuşları, ambulans uçuşları ve arama kurtarma (SAR) uçuşları için ve Ministry of Defense of the Slovak Republic'in önceden onayıyla gerçekleştirilen, uzaktan tanımlama sistemiyle donatılmış uçuşlar için geçerli değildir. 5 km yarıçap içinde (RUAS001-LZIBAD-D bölgesi), sivil UAS operasyonlarına yalnızca specific kategoride izin verilir.",
+      "31 Mart 2026'dan bu yana Štefánik (Bratislava), Košice, Žilina, Piešťany ve Tatry (Poprad) kontrol bölgelerinde (CTR), Ulaştırma Otoritesi'nin 1/2026 sayılı kararı uyarınca yeni kurallar geçerlidir: izinsiz uçuş yalnızca havalimanından 5 km'den fazla mesafede ve en fazla 30 m yüksekliğe kadar ya da atipik hava sahası içinde (havalimanından 5 km'den fazla mesafede, bir binanın yüksekliğine kadar ve yalnızca onun hemen yakınında, binadan en fazla 30 m yatay mesafeye kadar) mümkündür. Belirlenmiş coğrafi alanlar anlamında bir CTR içindeki operasyonlar, yalnızca specific kategoride bir operasyonel izne dayanılarak gerçekleştirilebilir.",
+      "Uçuş öncesi hazırlık, dronun uzaktan tanımlama sisteminin etkin ve güncel olduğunun doğrulanmasını içerir (NSAT).",
       "Gece uçuşlarına izin verilir — dronda yanıp sönen yeşil bir ışık açık olmalıdır.",
       "Ulusal parklar (Tatra Dağları, Slovak Cenneti, Alçak Tatralar): kısıtlamalar geçerlidir",
-      "Bratislava Kalesi ve hükümet bölgeleri: uçuşa yasak bölgeler",
+      "Malacky-Kuchyňa (RUAS077M), Sliač (RUAS080M) ve Prešov (RUAS081M) askeri hava meydanları, her biri 5.600 m yarıçaplı: uçuşlar yalnızca Ministry of Defense of the Slovak Republic'in önceden onayıyla ve etkin bir uzaktan tanımlama sistemiyle (104/2026 sayılı Bakan Kararı).",
       "Her uçuştan önce UAS coğrafi alanlarını (PUAS/RUAS bölgeleri) kontrol edin — liste Ministry of Transportation ve Transportation Authority tarafından tutulur ve bölgeler değişebilir.",
       "Malacky-Kuchyňa, Sliač ve Prešov askeri hava meydanları (RUAS bölgeleri): uçuşlara yalnızca Ministry of Defense of the Slovak Republic onayıyla izin verilir."
     ],
@@ -24,10 +26,15 @@
       "İnsanlara olan mesafeler EASA alt kategorileriyle (A1/A2/A3) düzenlenir — eski 50 metrelik ulusal kural artık geçerli değildir.",
       "UAS operatörlerinin kaydı Transportation Authority tarafından yürütülür — kayıt AB/EASA genelinde geçerlidir",
       "Tatra Dağları ve ulusal parklarda önemli kısıtlamalar vardır",
-      "M. R. Štefánik Havalimanı çevresinde: 5 km yarıçapında dron uçuşları tamamen yasaktır (PUAS0103M) — bu bölge Bratislava'nın büyük bir bölümünü de kapsar.",
+      "M. R. Štefánik Havalimanı çevresi: 3 km yarıçap içinde sivil UAS uçuşları yasaktır (RUAS098M bölgesi, 104/2026 sayılı Bakan Kararı, 18 Ağustos 2026'dan itibaren yürürlükte); 5 km yarıçap içinde operasyonlara yalnızca specific kategoride izin verilir (RUAS001-LZIBAD-D).",
+      "Açık kategoride A2/A3'te, specific kategoride veya sertifikalı kategoride bir UAS işletiyorsanız sigorta zorunludur (NSAT SSS).",
       "Belirlenebilir görüntülerin kaydedilmesinde GDPR geçerlidir"
     ],
     "primaryLinks": [
+      {
+        "title": "UAS Coğrafi Alanları — Ulaştırma Otoritesi",
+        "description": "UAS coğrafi alanlarını içeren resmî Ulaştırma Otoritesi sayfası (indirilebilir KML). Uçuş öncesi hazırlık: güncel olarak geçerli coğrafi alanları öğrenin."
+      },
       {
         "title": "Ulaştırma Otoritesi — Dron Mevzuatı",
         "description": "Ulaştırma Otoritesi'nin dronlara ilişkin resmî kuralları ve kaynakları"

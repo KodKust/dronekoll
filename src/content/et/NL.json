@@ -1,28 +1,29 @@
 {
   "meta": {
-    "sourceHash": "3f93b288335a64961197959526986fa369f18ef2ac4a0d684c859af0aa2a4931",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "3c54b50d3e51926a9a7b9c89db124d744240fd7e158e4869e88669a6d03744df",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Kuni 120 m maapinnast (EASA avatud kategooria)",
-      "Registreeru UAS-operaatorina RDW-s (23 € ühekordne tasu + 13 €/aasta uuendustasu), kui droon kaalub 250 g või rohkem või on kaameraga varustatud",
-      "A1/A3 veebikoolitus on kohustuslik — vanuse alampiir 16 aastat",
-      "14 km CTR Schipholi ümber katab suurema osa Amsterdamist — vaata ametlikku õhuruumi kaarti",
-      "Hoia drooni alati otsenähtavuses (VLOS)",
+      "Avatud kategoorias on maksimaalne kõrgus 120 m, mida mõõdetakse kaugusena Maa pinna lähima punktini — mitte lihtsalt otse alla, nii et nõlva lähedal võib arvesse minna ka sinu kõrval olev maapind. Kõrge tehisliku takistuse (kõrgem kui 105 m) 50 m raadiuses võib takistuse eest vastutav osapool taotleda luba lennata kuni 15 m kõrgemale takistuse kõrgusest.",
+      "Pead registreeruma droonioperaatorina, kui sinu droon kaalub 250 g või rohkem (või võib kokkupõrkel üle kanda rohkem kui 80 J kineetilist energiat) — see kehtib ka mänguasjade kohta. Alla 250 g on registreerimine siiski nõutav, kui droonil on andur, mis suudab koguda isikuandmeid, välja arvatud juhul, kui see kvalifitseerub mänguasjaks EL-i mänguasjade ohutuse direktiivi alusel. Piloodi koolituse/tunnistuse nõuded on reguleeritud eraldi ja sõltuvad drooni klassist ja alamkategooriast.",
+      "Madalmaades on A1/A3 sertifikaadi vanuse alampiir 16. Kui oled noorem, peab vaatleja (kehtiva sertifikaadiga) hoidma drooni kogu aeg silmas ja olema sinuga ühenduses.",
+      "Schipholi ümbruse keelutsoon katab suurema osa Amsterdamist ja ümbritsevatest aladest — kontrolli enne iga lendu ametlikku kaarti, selle asemel et tugineda kindlale kaugusele.",
+      "Avatud kategoorias pead hoidma drooni oma palja silmaga otsenähtavuses (prillid/kontaktläätsed on lubatud; binokkel või ekraan ei lähe arvesse) — või lendama vaatleja abiga, kellega sul on kogu aeg selge ja tõhus side, et saaksite koos õhuruumi jälgida ja kokkupõrkeid vältida. Follow-me-režiim on eraldi erand, mis on lubatud kuni 50 m kaugusel piloodist.",
       "Ära lenda rahvakogunemiste kohal. Kõrvaliste isikute suhtes kehtivad reeglid sõltuvad alamkategooriast, klassimärgist ja käitamistingimustest; kontrolli ametlikku tabelit.",
-      "Väikelennujaamadest vähemalt 3 km kaugusel; Schipholi ümber kehtib suurem puhvertsoon",
-      "EASA avatud kategooria baasnõuete kohaselt on öölend lubatud, kui kasutatakse nõutavat rohelist vilkuvat tuld, välja arvatud juhul, kui kehtiv geograafiline tsoon või riiklik eeskiri kehtestab rangema tingimuse.",
-      "Loodusalad (Natura 2000): piirangud pesitsushooajal",
-      "Randstadi tihedalt asustatud linnaalad: kontrolli kohalike omavalitsuste määrusi"
+      "Lennujaamade ümbruse piirangud on avaldatud ametlikul droonikaardil lennukeelutsoonidena; Schipholi ümber kehtib suur puhvertsoon. Kontrolli kaarti enne lennujaama lähedal lendamist — ühte kindlat kaugust, mis kehtiks kõikjal, ei ole.",
+      "Madalmaades ei tohi avatud kategoorias öösel lennata. Lendamine on piiratud ühtse päevavalgusperioodiga (Uniforme Daglicht Periode, UDP), mis kestab päikesetõusust päikeseloojanguni. Erandit UDP-väliseks lendamiseks saab ILT-lt taotleda ainult erikategooria lendudele — avatud kategoorias see võimalus puudub.",
+      "Loodusalad (Natura 2000): mõnel alal kehtivad droonipiirangud — need kehtestab provints või ala haldaja, mitte kindel hooaeg. Kontrolli enne lendu provintsi reegleid ja kaardil olevat tsooniteavet.",
+      "Randstadi tihedalt asustatud linnaalad: kontrolli kohalike omavalitsuste määrusi",
+      "Kaugus teedest, raudteedest ja kõrgepingevõrgust (Regeling onbemande luchtvaartuigen art. 6 ja 8, avatud kategooria): mitte lähemal kui 50 m (A1/A2) või 150 m (A3) kasutuses olevatest kiirteedest, kiirliiklusteedest ja teedest, mille kiiruspiirang on 80 km/h; mitte lähemal kui 25 m (A1/A2) või 150 m (A3) raudteedest; ning mitte lähemal kui 150 m objektidest või aladest, mis on osa elektri ülekandesüsteemist (kõrgepingevõrk)."
     ],
     "importantNotes": [
-      "14 km CTR Schipholi ümber keelab tegelikult droonilennud suurema osa Amsterdami kohal",
+      "Schipholi ümber kehtib ulatuslik keelutsoon, mis katab suurema osa Amsterdamist ja ümbritsevatest puhkealadest; kontrolli enne iga lendu ametlikku kaarti, selle asemel et tugineda kindlale kaugusele.",
       "Registreerimine RDW kaudu maksab ühekordse tasu 23 € ja iga-aastase uuendustasu 13 € (kehtib alates 2025. aastast) — registreering kehtib kõigis EL/EASA riikides",
-      "Trahvid rikkumiste eest kuni 11 250 €",
-      "Sõjaväetsoonid (Leeuwarden, Eindhoven, Volkel): absoluutne lennukeeld",
+      "Rikkumised võivad kaasa tuua suuri trahve, drooni konfiskeerimise ja korduvate rikkumiste korral isegi kriminaalvastutusele võtmise — summad sõltuvad rikkumisest.",
+      "Sõjaväelennuväljad Leeuwarden, Eindhoven ja Volkel (CTR): avatud kategoorias on lennud siin keelatud; erikategooria lendudeks on vajalik vastav õigus käitamisloas (IenW tsoonitekst, Regeling onbemande luchtvaartuigen art. 7).",
       "GDPR kohaldub tuvastatavaid isikuid kujutavate piltide loomisel"
     ],
     "primaryLinks": [
@@ -32,7 +33,7 @@
       },
       {
         "title": "RDW — Registreeru operaatorina",
-        "description": "Tasuta registreerimine UAS-operaatorina (kehtib kõigis EL/EASA riikides)"
+        "description": "Registreerimine UAS-operaatorina: ühekordselt 23 €, seejärel uuendamisel 13 € aastas (operaatorinumber kehtib 1 aasta; kehtib kõigis EL/EASA riikides)"
       },
       {
         "title": "ILT — Reeglite ülevaade",

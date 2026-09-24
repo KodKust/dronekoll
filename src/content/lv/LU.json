@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "36d02a53cfd249d58006a295f9a59616c0e6c70d5da2bf039b877f35892a3057",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6bf2e348b1896b08803a150a27a534a3546ea700b4d2c17be5329c5137833aca",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne vairāk kā 120 m virs zemes (EASA atvērtā kategorija)",
-      "Obligāta A1/A3 tiešsaistes apmācība — minimālais vecums 14 gadi (nepilngadīgajiem 14 un 15 gadu vecumā reģistrācija jāveic vecākam vai aizbildnim).",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, ko mēra kā attālumu līdz tuvākajam Zemes virsmas punktam — nevis vienkārši taisni uz leju, tāpēc nogāzes tuvumā var tikt ņemta vērā arī zeme tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgā persona var lūgt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Obligāta bezmaksas A1/A3 tiešsaistes apmācība Eurocontrol platformā LearningZone (FR/DE/EN/LB, 3 mēnešu piekļuve, ko var atjaunot); apliecība derīga 5 gadus. Minimālais vecums bezpilota gaisa kuģa ekspluatācijai “atvērtajā” kategorijā Luksemburgā ir 14 gadi (2025. gada 22. decembra Lielhercogistes noteikumu 2. pants); jaunāks nepilngadīgais lido tādas personas uzraudzībā, kurai ir vairāk nekā 16 gadi un nepieciešamā kvalifikācija. OPEN A2 eksāmenu kārto DAC telpās, un tas maksā 45 €.",
       "Obligāta civiltiesiskās atbildības apdrošināšana (reģistrējoties nepieciešams polises numurs)",
       "Luxembourg-Findel Airport CTR aptver ievērojamu valsts daļu",
-      "Vienmēr turi dronu redzamības laukā (VLOS)",
+      "Atvērtajā kategorijā dronam jāatrodas tavā tiešās redzamības zonā, uz to skatoties ar neapbruņotu aci (korektīvās brilles/lēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai arī lido ar novērotāja palīdzību, visu laiku uzturot skaidru un efektīvu saziņu savā starpā, lai kopā varētu uzraudzīt gaisa telpu un izvairīties no sadursmēm. Režīms “Follow-me” ir atsevišķs izņēmums, kas atļauts līdz 50 m attālumā no tālvadības pilota.",
       "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kuras nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
       "Ievēro Luxembourg-Findel CTR un UAS ģeogrāfiskās zonas, kas publicētas vietnē Geoportail.lu — pēc EASA saskaņošanas vienota 5 km buferzona vairs nepastāv",
-      "Naktī daudzām teritorijām (īpaši Findel apkārtnē) nepieciešama īpaša atļauja — pārbaudi katras teritorijas prasības vietnē drones.geoportail.lu.",
+      "Luksemburgā nakts lidojumi atvērtajā kategorijā ir atļauti, ievērojot EASA pamatprasības. Tomēr dažas ģeogrāfiskās zonas — īpaši ap Findel — nosaka nosacījumus vai prasa īpašu atļauju lidojumiem naktī: katras zonas nosacījumus pārbaudi vietnē g-o.lu/uas.",
       "Grand Ducal Palace, ieslodzījuma vietas un militārās zonas: nepieciešama iepriekšēja atļauja — vietējos stadionos un lidlaukos (Useldange, Noertrange) lidot ir aizliegts."
     ],
     "importantNotes": [
       "Obligāta apdrošināšana; reģistrējoties nepieciešams polises numurs",
       "Luxembourg-Findel Airport CTR aptver lielu daļu šīs mazās valsts",
-      "Jaunais nacionālais ietvars (2025. gada decembris) paredz kriminālsodus — līdz 1 gadam cietumā un €5 000 naudassodu — par apdrošināšanas nenoslēgšanu vai nereģistrēšanos.",
-      "GDPR piemēro, fiksējot identificējamus attēlus"
+      "Jaunais nacionālais regulējums — 2025. gada 19. decembra likums un 2025. gada 22. decembra Lielhercogistes noteikumi par bezpilota gaisa kuģiem — papildina Eiropas regulējumu un ievieš kriminālsodus par reģistrācijas, apdrošināšanas un zonu pienākumu neievērošanu. Kopš 2026. gada 14. janvāra ir noteiktas maksas: 10 € par reģistrāciju vai tās atjaunošanu, 30 € par STS deklarāciju, 45 € par OPEN A2 eksāmenu.",
+      "GDPR piemēro, fiksējot identificējamus attēlus",
+      "Brīdinājums (DAC): UAS ražotāju nodrošinātās ģeozonas ne vienmēr aptver visas ierobežotās zonas Luksemburgā, un NENOTIEK automātiska informācijas apmaiņa starp UAS ražotāju un Geoportail. Juridiski piemērojamas ir tikai vietnē g-o.lu/uas parādītās UAS ģeogrāfiskās zonas — ar tavas tālvadības pults ģeoierobežojumu nepietiek."
     ],
     "primaryLinks": [
       {
@@ -34,7 +35,7 @@
       },
       {
         "title": "Geoportail.lu — Dronu karte",
-        "description": "Oficiālais ģeogrāfiskais portāls ar informāciju par dronu zonām"
+        "description": "Luksemburgā juridiski piemērojamas ir tikai šeit publicētās UAS ģeogrāfiskās zonas"
       },
       {
         "title": "DAC — Noteikumu pārskats",

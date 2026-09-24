@@ -1,23 +1,23 @@
 {
   "meta": {
-    "sourceHash": "3be5ea4356d33508cdfa72168e28336876f3048cd12d77af66e6840fe65da1e4",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ca02f210ab67dc8eec19b622349f74c1c59940a9cc38a87f1711298b83f779a7",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
-      "UAS-üzemben tartóként való regisztráció (ingyenes, 3 évig érvényes), ha a drón tömege legalább 250 g, vagy kamerája van",
-      "Kötelező A1/A3 online képzés a legalább 250 g tömegű drónokhoz – a pilóta minimális életkora: 16 év.",
-      "Kötelező felelősségbiztosítás a 900 g-nál nehezebb drónokra",
-      "Katonai létesítmények, börtönök, nagykövetségek és biztonsági erők feletti repülés tilos (87/2021. sz. törvényerejű rendelet). A Sintra-Cascais Természeti Park az ICNF engedélyét igényli.",
-      "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS)",
+      "A nyílt kategóriában a legnagyobb magasság 120 m, a Föld felszínének legközelebbi pontjától mérve – nem egyszerűen függőlegesen lefelé, így lejtő közelében a melletted lévő terep is számíthat. Egy 105 m-nél magasabb mesterséges akadály 50 m-es körzetében az akadályért felelős szervezet engedélyt kérhet arra, hogy az akadály magasságánál legfeljebb 15 m-rel magasabban is lehessen repülni.",
+      "Drónüzemben tartóként regisztrálnod kell, ha a drónod 250 g-os vagy nehezebb (vagy több mint 80 J ütközési energiát adhat át) – ez még a játékokra is vonatkozik. 250 g alatt is szükséges a regisztráció, ha a drón személyes adatok rögzítésére alkalmas érzékelővel van felszerelve, kivéve, ha az európai játékbiztonsági irányelv szerint játéknak minősül. A pilótaképzésre/-bizonyítványra vonatkozó követelmények ettől függetlenek, és a drón osztályától és alkategóriájától függenek.",
+      "Portugáliában a nyílt kategóriában az önálló repülés alsó korhatára 16 év. Az A1/A3 képzés és vizsga ingyenes, online végezhető, és 5 évig érvényes.",
+      "A 900 g-nál nagyobb MTOM-ú drónokra kötelező a harmadik személyekkel szembeni felelősségbiztosítás (Decreto-Lei n.º 58/2018); a minimális fedezetet, a feltételeket és a biztosítási összeget a Portaria n.º 2/2021 határozza meg.",
+      "A szuverenitási szervek, nagykövetségek és konzulátusok, katonai létesítmények, a biztonsági erők és szolgálatok létesítményei, valamint börtönök feletti repülés tilos, kivéve, ha a felelős szerv engedélyezi (ANAC Regulamento n.º 1093/2016, amelyet a Decreto-Lei n.º 87/2021 hatályban tartott). A Sintra-Cascais Természeti Park az ICNF engedélyét igényli.",
+      "A nyílt kategóriában a drónt közvetlen látótávolságon belül kell tartanod, szabad szemmel (szemüveg/kontaktlencse elfogadható; távcső vagy képernyő nem számít) – vagy egy megfigyelő segítségével, úgy, hogy mindvégig egyértelműen és hatékonyan kommunikáltok egymással, így együtt figyelhetitek a légteret és kerülhetitek el az ütközéseket. A „follow-me” (követő) mód külön kivétel, a pilótától legfeljebb 50 m-ig engedélyezett.",
       "Ne repülj embercsoportosulások felett. A műveletben részt nem vevő személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; ellenőrizd a hivatalos táblázatot.",
-      "Ne repülj repülőterek és helikopter-leszállóhelyek védőzónáiban (CTR/ATZ) engedély nélkül – ellenőrizd a zónákat az alkalmazás térképén és a voanaboa.pt oldalon.",
+      "Ne repülj repülőterek és helikopter-leszállóhelyek védőzónáiban (CTR/ATZ) engedély nélkül – ellenőrizd a zónákat az alkalmazás térképén és a dnt.anac.pt oldalon.",
       "Az éjszakai repülés a nyílt kategóriában ANAC-engedély nélkül megengedett – kapcsolj be egy villogó zöld fényt a drónon.",
       "Azori-szigetek és Madeira: további regionális korlátozások lehetnek érvényben",
-      "A légi fényképezés és filmezés (valamint az ilyen anyagok terjesztése) az AAN engedélyét igényli – a kérelmek ingyenesen benyújthatók online az e-AAN platformon keresztül."
+      "Légi felvételek készítéséhez az Autoridade Aeronáutica Nacional (AAN) előzetes engedélye szükséges az e-AAN platformon keresztül – ez a légi felmérések egyetlen csatornája. A kérelmet legalább 10 nappal a tevékenység megkezdése előtt kell benyújtani; a megadható leghosszabb időszak 30 egymást követő nap (az AAN Guia Rápido e-AAN útmutatója)."
     ],
     "importantNotes": [
       "Portugáliában kettős rendszer működik: az ANAC a repüléseket szabályozza, míg az AAN a légi felvételek készítését engedélyezi.",
@@ -33,8 +33,11 @@
         "description": "A portugál polgári repülési hatóság hivatalos drónszabályai és forrásai"
       },
       {
+        "title": "ANAC – UAS-geozónatérkép"
+      },
+      {
         "title": "ANAC – Regisztrálj üzemben tartóként",
-        "description": "Ingyenes regisztráció UAS-üzemben tartóként (3 évig érvényes, minden EU-/EASA-országban elismert)"
+        "description": "Ingyenes regisztráció UAS-üzemben tartóként (3 évig érvényes, minden EU-/EASA-országban elismert). A regisztráció az uas.anac.pt oldalon történik, és portugál NIF, valamint aktív Chave Móvel Digital szükséges hozzá."
       },
       {
         "title": "NAV Portugal – Légtér-információ",

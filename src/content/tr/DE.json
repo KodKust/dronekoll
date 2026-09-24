@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "2c58b7a31f1c8559936a55c3a5e025f7dd391e382ab6ecfeb89c30fa2c945c23",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef69e20c9988bcf5f856c6fb76c01616820e80425007ad49d1b4c9740db11a03",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Open kategoride yerden en fazla 120 m (AGL)",
-      "250 g veya daha ağır dronlar için kayıt (kameralıysa 250 g'dan hafif olanlar da) — LBA kayıt numarası",
+      "Open kategorisinde azami yükseklik 120 m'dir ve yeryüzünün en yakın noktasına olan mesafe olarak ölçülür — yalnızca dikey olarak aşağıya doğru ölçülmez; bu nedenle bir yamacın yakınında yanınızdaki zemin de hesaba katılabilir. Yüksekliği 105 m'yi aşan yapay bir engelin 50 m yakınında, engelden sorumlu kuruluş engelin yüksekliğinin 15 m üzerine kadar uçuş için izin talep edebilir.",
+      "Dronunuz 250 g veya daha ağırsa (ya da çarpma anında 80 J'den fazla kinetik enerji aktarabiliyorsa) dron operatörü olarak kaydolmalısınız — bu oyuncaklar için de geçerlidir. 250 g'ın altında olsa bile dronda kişisel verileri toplayabilen bir sensör varsa, EU Toy Safety Directive kapsamında oyuncak sayılmadığı sürece kayıt yine gereklidir. Pilot eğitimi/sertifika gereklilikleri ayrıca düzenlenir ve dronun sınıfına ve alt kategorisine bağlıdır.",
       "LBA operatör kaydı ücrete tabidir — asgari yaş 16. Kayıt numarası (e-ID) dronun üzerinde açıkça görünür olmalıdır.",
-      "A1/A3 Uzaktan Pilot Sertifikası (LBA tarafından uygulanan ücretli çevrim içi sınav) veya insanlara daha yakın uçuşlar için A2 Sertifikası — güncel ücretleri lba.de adresinden kontrol edin",
-      "Zorunlu sorumluluk sigortası (Alman Havacılık Yasası'nın 43. maddesi) — hobi amaçlı dronlar dahil",
-      "Sakinlerin onayı olmadan konut mülklerinin üzerinden uçmak yasaktır (Hava Trafik Yönetmeliği'nin 21h maddesi)",
-      "İşletmecinin veya sahibinin onayı olmadan demiryolu tesislerine, otoyollara veya sanayi tesislerine 100 metre mesafe içinde uçmak yasaktır",
-      "Doğa rezervleri ve ulusal parklarda uçuş yasağı",
-      "ED-R 146: Berlin'in hükümet bölgesi üzerinde kalıcı kısıtlı bölge — izin gereklidir",
+      "Almanya'da A1/A3 yeterlilik belgesi için asgari yaş 16'dır (çevrim içi eğitim ve sınav; 9 konu alanından 40 soru, geçmek için %75, 5 yıl geçerli) — istisna: geçerli sertifikaya sahip bir uzaktan pilotun doğrudan gözetimi altında uçmak.",
+      "Zorunlu sorumluluk sigortası (§43 Luftverkehrsgesetz) — ağırlıktan bağımsız olarak hobi amaçlı dronlar için de geçerlidir.",
+      "Konut mülklerinin üzerinden, sahiplerinin veya diğer yetkili kullanıcıların açık rızası olmadan uçmak yasaktır (§21h LuftVO). İstisnalar: kayıt/iletim özelliği olmayan 250 g altı dronlar veya çeşitli koşullar altında 100 m ya da daha yüksek irtifada yapılan uçuşlar (meşru menfaat, kullanılabilecek kamusal alan bulunmaması, rızanın makul ölçüde alınamaması, veri koruma önlemleri, yalnızca saat 6-22 arası, gürültü sınırlarına uyulması).",
+      "Federal karayolları, federal su yolları ve demiryolu tesislerinin 100 m yakınında (yanal olarak ve üstte), operasyona yalnızca § 21h Abs. 3 Nr. 5 LuftVO'daki koşullardan BİRİ karşılanırsa izin verilir: a) üzerinden uçuşun özel tehlikelerini hesaba katan bir risk değerlendirmesiyle \"specific\" kategoride bir karayolu veya demiryolu tesisinin üzerinden uçuş; b) yetkili makamın veya tesis işletmecisinin açık rızası; c) yerden uçuş yüksekliği her zaman altyapıya olan yanal mesafeden azdır ve bu mesafe her zaman 10 m'den fazladır; veya d) federal su yolları için: gemilerin veya denizcilik tesislerinin üzerinden uçmadan, en az 100 m yükseklikte en kısa yoldan geçiş. Sanayi tesisleri, cezaevleri, askerî tesisler ve enerji tesisleri için, yetkili makam veya tesis işletmecisi açık rıza vermedikçe 100 m mesafe geçerlidir (Nr. 3). Demiryolu tesisleri için DB InfraGO AG, demiryoluyla uyumlu UAS operasyonuna ilişkin gereklilikleri NfL 1-2026-3788'de yayımlamıştır.",
+      "Doğa koruma alanları, ulusal parklar ve Natura 2000 alanları: yetkili doğa koruma makamı açıkça rıza göstermedikçe veya eyalet hukuku operasyonu farklı düzenlemedikçe üzerlerinden uçmak yasaktır (§ 21h Abs. 3 Nr. 6 LuftVO). Ulusal parkların dışında, dört koşulun tümü aynı anda karşılanırsa operasyona ayrıca izin verilir: spor veya eğlence amacı olmaması, 100 m'nin üzerinde uçuş yüksekliği, koruma amacının bilinmesi ve uygun şekilde dikkate alınması ve üzerinden uçuşun operasyonun amacı için kaçınılmaz olarak gerekli olması.",
+      "ED-R 146: Berlin'in hükümet bölgesi üzerinde kalıcı kısıtlı bölge — izin gereklidir. Uçmadan önce güncel durumu dipul.de üzerinden kontrol edin.",
+      "6 Ağustos 2026'dan beri kontrol bölgelerindeki UAS uçuşları için bölge modeli 24 havalimanında geçerlidir (DFS: NfL 2023-1-2705'i yürürlükten kaldıran NfL 2026-1-3960; DFS Aviation Services: NfL 2026-1-3981). Bölge 1'de — havalimanının üzeri, sınırından itibaren 1 km içi ve 5 km uzatılmış pist koridorları (pist merkez hattının sağına ve soluna 1'er km) — genel izin yoktur: burada her zaman bireysel bir hava trafik kontrol izni gerekir; bu izne yaklaşık 14 gün önceden ais.dfs.de üzerinden başvurulur. Bölge 2 ve 3'te, meydan rakımının veya yerin (hangisi daha düşükse) sırasıyla 25 m ve 45 m üzerine kadar genel izin geçerlidir; bölge 4'te meydan rakımının 100 m veya yerin 50 m üzerine kadar (hangisi daha yüksekse; kalkış noktası meydan rakımının altındaysa yerden 100 m geçerlidir). Genel izin yalnızca 25 kg'a kadar UAS'ler (model hava araçları için 5 kg'a kadar) için geçerlidir, en az 800 m yer görüşü gerektirir ve otonom uçuşları kapsamaz. Uçmadan önce alt bölgenizi ve arazi rakımını dipul Maptool'da kontrol edin.",
       "Direct Remote ID, 1 Ocak 2024'ten beri C1, C2 ve C3 sınıfı dronlar için AB genelinde zorunludur"
     ],
     "importantNotes": [
-      "dipul hava sahası sınıflarını gösterir, ancak kısıtlı bölgelerin eksiksiz bir görünümünü sunmaz — Droniq uygulamasıyla tamamlayın",
+      "dipul hava sahası sınıflarını gösterir, ancak tüm kısıtlı bölgelerin eksiksiz bir görünümünü sunmaz — hassas alanların yakınında uçmadan önce Droniq uygulamasını veya benzerini de kullanın.",
       "AB kaydına sahip yabancı pilotlar yine de ulusal havacılık mevzuatına uymalıdır",
-      "Özel mülkte fotoğraf çekmek de GDPR sorunlarına yol açabilir"
+      "Özel mülklerin fotoğrafını çekmek, §21h LuftVO kapsamındaki uçuş izninin yanı sıra veri koruma (DSGVO/GDPR) sorunlarına da yol açabilir."
     ],
     "primaryLinks": [
       {
@@ -51,8 +52,8 @@
         "description": "Özel durumlar için muafiyet başvurusunda bulunun"
       },
       {
-        "title": "BMDV – Dron Bilgisi",
-        "description": "Ulusal dron mevzuatı ve yasal dayanak (Alman Hava Trafik Yönetmeliği'nin (LuftVO) §21h maddesi)"
+        "title": "BMV – Dron Bilgileri",
+        "description": "Ulusal dron mevzuatı ve yasal dayanak (§21h LuftVO)"
       }
     ],
     "disclaimerText": "Uçuşunuzdan önce her zaman resmî kaynakları kontrol edin. Bu uygulama bir araçtır, yasal bir referans değildir. Kurallar önceden bildirilmeksizin değişebilir.",

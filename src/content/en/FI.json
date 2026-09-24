@@ -1,22 +1,22 @@
 {
   "meta": {
-    "sourceHash": "49389e227b39ad270162c3ac5b4ca7074db2b61d6472d7eff6c37ed05fab160b",
-    "sourceCountriesVersion": 193,
-    "sourceLastVerified": "2026-06-05",
-    "translatedAt": "2026-07-09",
-    "engine": "deepl"
+    "sourceHash": "c0578e66e699fe36cfd68936aab2c9a41e3b5869fd85affc213b0724574a07a2",
+    "sourceCountriesVersion": 256,
+    "sourceLastVerified": "2026-08-26",
+    "translatedAt": "2026-09-24",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "No more than 120 m above ground level (EASA Open category)",
-      "A1/A3 Online Training Required – Minimum Age 16",
-      "Always maintain visual line of sight (VLOS) with the drone",
+      "In the open category, the maximum permitted height is 120 m, measured as the distance to the closest point on the ground surface — not straight down, so near a slope the adjacent terrain may also be taken into account. Within a 50 m radius of a tall artificial obstacle (over 105 m), the entity responsible for the obstacle may apply for permission to fly up to 15 m above the obstacle’s height.",
+      "In Finland, the minimum age for a remote pilot is 12 years for drones weighing over 250 grams (Traficom); for C0-class or self-built drones under 250 grams, there is no age or training requirement. Note that the registering operator (user) must always be an adult — for a minor pilot, a guardian registers as the operator.",
+      "In the open category, the drone must stay within your own unaided visual line of sight (glasses/contact lenses are fine; binoculars or a screen are not) — or you can fly assisted by an observer, maintaining clear and effective communication with them at all times so that together you can monitor the airspace and avoid collisions. Follow-me mode is a separate exception, permitted at a maximum distance of 50 m from the pilot.",
       "Do not fly over assemblies of people. Rules for uninvolved persons depend on subcategory, class mark and operating conditions; check the official matrix.",
-      "Follow the restrictions for airport CTRs and UAS airspace zones — check Droneinfo.fi",
+      "Comply with the restrictions of airport CTRs and UAS airspace zones. The zones are defined in Traficom’s regulation OPS M1-29, the latest version of which entered into force on 16 April 2026 — check the current situation on the Fintraffic Sky map (sky.fintraffic.fi).",
       "Night flights are permitted if the drone has a green flashing identification light and visibility is sufficient",
       "There are flight restrictions near the eastern border—check the affected areas before flying",
       "In Lapland, there may be seasonal restrictions in reindeer herding areas",
-      "Check Droneinfo.fi for area-specific restrictions and altitude limits"
+      "Check area-specific restrictions and altitude limits on the Fintraffic Sky map (sky.fintraffic.fi)"
     ],
     "importantNotes": [
       "The Eastern Border (EFR100) zone is active 24 hours a day — now visible on the map",
@@ -32,11 +32,11 @@
       },
       {
         "title": "Traficom – Sign Up",
-        "description": "Register as a UAS user (€30 for 3 years or €100 for 5 years, valid in all EU/EASA countries)"
+        "description": "Register as a UAS user (40 € for 1 year, 95 € for 3 years or 125 € for 5 years, valid in all EU/EASA countries)"
       },
       {
-        "title": "Droneinfo.fi – Airspace Map",
-        "description": "Official interactive drone map showing no-fly and restricted zones"
+        "title": "Fintraffic Sky – Airspace Map",
+        "description": "Fintraffic ANS’s interactive airspace map showing UAS airspace zones as well as prohibited and restricted areas (the same map as behind the app’s Airspace button)"
       },
       {
         "title": "Traficom – Training and Exams",
@@ -53,7 +53,7 @@
         "description": "Frequently Asked Questions About Finland's Drone Regulations"
       }
     ],
-    "disclaimerText": "Always check Traficom’s official sources and Droneinfo.fi before flying. This app is a tool—not an official authority. Finland complies with EASA regulations, with additional national requirements.",
+    "disclaimerText": "Always check Traficom’s official sources and the Fintraffic Sky map before flying. This app is a tool—not an official authority. Finland complies with EASA regulations, with additional national requirements.",
     "sectionLabelRules": "KEY RULES (EASA OPEN CATEGORY)",
     "sectionLabelPrimary": "OFFICIAL SOURCES",
     "sectionLabelSecondary": "MORE INFORMATION",

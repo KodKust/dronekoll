@@ -1,63 +1,63 @@
 {
- "meta": {
-  "sourceHash": "23f3ed06f9446eb9733c76bcdc77184702b32d1e071b7b4a74e10dadb06fcc66",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Până la 120 m deasupra nivelului solului (categoria EASA Open)",
-   "Înregistrează-te ca operator UAS (10 €/an) dacă drona cântărește 250 g sau mai mult ori este echipată cu o cameră",
-   "Instruire online A1/A3 necesară — vârsta minimă 16 ani",
-   "Menține întotdeauna raza vizuală directă (VLOS)",
-   "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
-   "Zborul este interzis în imediata vecinătate a aeroporturilor (restricție de altitudine de 0 m) — verifică întotdeauna zonele restricționate pe harta estoniană a dronelor (Estonian Drone Map).",
-   "Zborurile de noapte sunt permise dacă drona are o lumină verde intermitentă — o interdicție de zbor pe timp de noapte (20:00–07:00) este în vigoare în apropierea frontierei estice.",
-   "CTR-ul Aeroportului Tallinn: verifică-l cu atenție pe Estonian Drone Map",
-   "Zone restricționate în jurul aeroporturilor de pe insule (Saaremaa, Hiiumaa)",
-   "Zona de frontieră cu Rusia: zborurile cu drone sunt complet interzise în zona de frontieră a comitatului Ida-Viru; o interdicție de zbor pe timp de noapte (20:00–07:00) este în vigoare de-a lungul întregii frontiere estice, iar problemele semnificative de interferență GPS — verifică NOTAM-urile."
-  ],
-  "importantNotes": [
-   "Înregistrarea costă 10 € pe an și este valabilă în toate țările UE/EASA",
-   "CTR-ul Aeroportului Tallinn acoperă o zonă semnificativă",
-   "Zborurile cu drone sunt strict restricționate în zona de frontieră cu Rusia: există o interdicție totală în zona de frontieră a comitatului Ida-Viru, o interdicție de zbor pe timp de noapte de-a lungul frontierei estice și un risc de interferență GPS. Verifică întotdeauna Estonian Drone Map și NOTAM-urile.",
-   "Estonia are un sistem de înregistrare digital bine dezvoltat",
-   "GDPR se aplică atunci când faci fotografii sau filmezi persoane identificabile"
-  ],
-  "primaryLinks": [
-   {
-    "title": "Autoritatea de Transport — reglementări privind dronele",
-    "description": "Regulile și liniile directoare oficiale privind dronele ale Autorității Estoniene a Transporturilor"
-   },
-   {
-    "title": "Autoritatea de Transport — înregistrare ca operator",
-    "description": "Înregistrează-te ca operator UAS (10 €/an, valabilă în toate țările UE/EASA)"
-   },
-   {
-    "title": "Harta dronelor din Estonia (UTM)",
-    "description": "Harta oficială UTM a spațiului aerian pentru drone și restricții"
-   },
-   {
-    "title": "Autoritatea de Transport — prezentare generală a regulilor",
-    "description": "Prezentare generală a reglementărilor Estoniei privind dronele"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "EANS — serviciul de navigație aeriană",
-    "description": "Serviciile estoniene de navigație aeriană și informații despre spațiul aerian"
-   },
-   {
-    "title": "Autoritatea de Transport — întrebări frecvente despre drone",
-    "description": "Întrebări frecvente despre reglementările Estoniei privind dronele"
-   }
-  ],
-  "disclaimerText": "Înainte de zbor, verifică întotdeauna sursele oficiale ale Autorității de Transport și Estonian Drone Map. Această aplicație este un instrument — nu o autoritate juridică. Estonia respectă reglementările EASA, cu modificări naționale.",
-  "sectionLabelRules": "REGULI DE BAZĂ (CATEGORIA EASA OPEN)",
-  "sectionLabelPrimary": "SURSE OFICIALE",
-  "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
-  "linksSheetTitle": "Spațiu aerian și reglementări — Estonia",
-  "dronePilotCredentialName": "Certificat de pilot la distanță"
- }
+  "meta": {
+    "sourceHash": "0ddaecf7ada88ef77cb8ed7fae4021c3fab852ece7e0827759a36641d94a5932",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "În categoria Open, înălțimea maximă este de 120 m, măsurată ca distanță până la cel mai apropiat punct al solului — nu pur și simplu pe verticală, așa că în apropierea unei pante poate conta și terenul adiacent. În plus, în unele zone se pot aplica limite de înălțime mai mici; acestea pot fi găsite pe harta dronelor. Pe o rază de 50 m față de o structură artificială, poți zbura până la 15 m peste structură cu permisiunea persoanei sau entității responsabile de aceasta.",
+      "Trebuie să te înregistrezi ca operator de drone dacă drona cântărește 250 g sau mai mult (ori poate transfera peste 80 J de energie cinetică la o coliziune) — acest lucru se aplică și jucăriilor. Sub 250 g, înregistrarea este totuși necesară dacă drona are un senzor capabil să colecteze date cu caracter personal, cu excepția cazului în care se încadrează drept jucărie conform Directivei UE privind siguranța jucăriilor. Cerințele de formare/certificat pentru pilot sunt separate și depind de clasa și subcategoria dronei.",
+      "În Estonia, vârsta minimă pentru piloții la distanță este de 16 ani — se aplică excepții pentru dronele din clasa C0 în subcategoria A1, pentru dronele construite în regie proprie cu o greutate sub 250 g și atunci când zbori sub supravegherea directă a unui pilot care îndeplinește cerințele.",
+      "În categoria Open, trebuie să menții drona în raza ta vizuală directă, fără mijloace optice (ochelarii/lentilele de contact sunt în regulă; binoclul sau un ecran nu contează) — sau să zbori cu ajutorul unui observator, păstrând o comunicare continuă, clară și eficientă cu acesta, astfel încât împreună să puteți supraveghea spațiul aerian și să evitați coliziunile. Modul follow-me este o excepție separată, permisă până la 50 m de pilot.",
+      "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
+      "În imediata apropiere a aeroporturilor, limita de înălțime în categoria Open este de 0 m — zborul este posibil numai cu o autorizație operațională în categoria specifică.",
+      "Zborurile de noapte sunt permise dacă drona are o lumină verde intermitentă (UAS.OPEN.060(2)(g)).",
+      "CTR-ul Aeroportului Tallinn: verifică-l cu atenție pe Estonian Drone Map",
+      "Zone restricționate în jurul aeroporturilor de pe insule (Saaremaa, Hiiumaa)",
+      "În apropierea frontierei de stat a fost instituită o zonă restricționată (până la 300 m deasupra nivelului solului sau al apei): zborurile acolo pot avea loc numai cu permisiunea Politsei- ja Piirivalveamet (PPA) (Vabariigi Valitsuse korraldus nr 229, punctele 3.2 și 5.3). PPA instituie și zone restricționate temporare în apropierea frontierei — verifică NOTAM-urile. În zona de frontieră apar interferențe GPS puternice."
+    ],
+    "importantNotes": [
+      "Înregistrarea costă 10 € pe an și este valabilă în toate țările UE/EASA",
+      "CTR-ul Aeroportului Tallinn acoperă o zonă semnificativă",
+      "Zborurile cu drone sunt strict restricționate în zona de frontieră cu Rusia: există o interdicție totală în zona de frontieră a comitatului Ida-Viru, o interdicție de zbor pe timp de noapte de-a lungul frontierei estice și un risc de interferență GPS. Verifică întotdeauna Estonian Drone Map și NOTAM-urile.",
+      "Estonia are un sistem de înregistrare digital bine dezvoltat",
+      "GDPR se aplică atunci când faci fotografii sau filmezi persoane identificabile"
+    ],
+    "primaryLinks": [
+      {
+        "title": "Autoritatea de Transport — reglementări privind dronele",
+        "description": "Regulile și liniile directoare oficiale privind dronele ale Autorității Estoniene a Transporturilor"
+      },
+      {
+        "title": "Autoritatea de Transport — înregistrare ca operator",
+        "description": "Înregistrează-te ca operator UAS în sistemul informatic de supraveghere a siguranței aviației LOIS2 (taxă de stat 10 €, valabilă un an, valabilă în toate țările UE/EASA)"
+      },
+      {
+        "title": "Harta dronelor din Estonia (UTM)",
+        "description": "Harta oficială UTM a spațiului aerian pentru drone și restricții"
+      },
+      {
+        "title": "Autoritatea de Transport — prezentare generală a regulilor",
+        "description": "Prezentare generală a reglementărilor Estoniei privind dronele"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "EANS — serviciul de navigație aeriană",
+        "description": "Serviciile estoniene de navigație aeriană și informații despre spațiul aerian"
+      },
+      {
+        "title": "Autoritatea de Transport — întrebări frecvente despre drone",
+        "description": "Întrebări frecvente despre reglementările Estoniei privind dronele"
+      }
+    ],
+    "disclaimerText": "Înainte de zbor, verifică întotdeauna sursele oficiale ale Autorității de Transport și Estonian Drone Map. Această aplicație este un instrument — nu o autoritate juridică. Estonia respectă reglementările EASA, cu modificări naționale.",
+    "sectionLabelRules": "REGULI DE BAZĂ (CATEGORIA EASA OPEN)",
+    "sectionLabelPrimary": "SURSE OFICIALE",
+    "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
+    "linksSheetTitle": "Spațiu aerian și reglementări — Estonia",
+    "dronePilotCredentialName": "Certificat de pilot la distanță"
+  }
 }

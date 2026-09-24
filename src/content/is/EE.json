@@ -1,22 +1,22 @@
 {
   "meta": {
-    "sourceHash": "23f3ed06f9446eb9733c76bcdc77184702b32d1e071b7b4a74e10dadb06fcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "0ddaecf7ada88ef77cb8ed7fae4021c3fab852ece7e0827759a36641d94a5932",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Allt að 120 m yfir jörðu (EASA opinn flokkur)",
-      "Skráðu þig sem rekstraraðila fjarstýrðra loftfara (10 €/ári) ef dróninn þinn vegur 250 g eða meira eða er búinn myndavél",
-      "A1/A3 netþjálfun nauðsynleg — lágmarksaldur 16",
-      "Haltu ávallt sjónlínu (VLOS)",
+      "Í opna flokknum er hámarkshæðin 120 m, mæld sem fjarlægðin að næsta punkti á jörðinni — ekki einfaldlega beint niður, þannig að við brekku getur aðliggjandi jörð einnig talist með. Auk þess geta lægri hæðarmörk gilt á sumum svæðum; þau má finna á drónakortinu. Innan 50 m radíuss frá manngerðu mannvirki má fljúga allt að 15 m yfir mannvirkinu með leyfi þess einstaklings eða aðila sem ber ábyrgð á því.",
+      "Þú verður að skrá þig sem drónarekstraraðila ef dróninn vegur 250 g eða meira (eða getur miðlað meira en 80 J hreyfiorku við árekstur) — þetta gildir einnig um leikföng. Undir 250 g er skráning samt nauðsynleg ef dróninn er með skynjara sem getur safnað persónuupplýsingum, nema hann teljist leikfang samkvæmt EU Toy Safety Directive. Kröfur um þjálfun/skírteini flugmanns eru aðskildar og ráðast af flokksmerkingu drónans og undirflokki.",
+      "Í Eistlandi er lágmarksaldur fjarflugmanna 16 ár — undantekningar gilda um dróna í flokki C0 í undirflokki A1, um heimasmíðaða dróna sem vega minna en 250 g og þegar flogið er undir beinu eftirliti flugmanns sem uppfyllir kröfurnar.",
+      "Í opna flokknum skaltu halda drónanum innan eigin beinnar sjónlínu án hjálpartækja (gleraugu/augnlinsur eru í lagi; sjónauki eða skjár telst ekki með) — eða fljúga með aðstoð áhorfanda og viðhalda stöðugum, skýrum og skilvirkum samskiptum ykkar á milli, þannig að þið getið saman fylgst með loftrýminu og forðast árekstra. Follow-me-stillingin er sérstök undantekning, heimil allt að 50 m frá flugmanninum.",
       "Fljúgðu ekki yfir mannfjölda. Reglur um óviðkomandi einstaklinga fara eftir undirflokki, flokksmerkingu og flugskilyrðum; athugaðu opinberu töfluna.",
-      "Flug er bannað í næsta nágrenni flugvalla (0 m hæðartakmörkun) — athugaðu ávallt takmörkuð svæði á Estonian Drone Map.",
-      "Næturflug er heimilt ef dróninn er með blikkandi grænt ljós — bann við næturflugi er í gildi nálægt austurlandamærunum (kl. 20:00–07:00).",
+      "Í næsta nágrenni flugvalla eru hæðarmörkin í opna flokknum 0 m — flug er aðeins mögulegt með rekstrarheimild í sérstaka flokknum.",
+      "Næturflug er heimilt ef dróninn er með blikkandi grænt ljós (UAS.OPEN.060(2)(g)).",
       "Tallinn Airport CTR: athugaðu það vandlega á Estonian Drone Map",
       "Takmörkuð svæði í kringum flugvellina á eyjunum (Saaremaa, Hiiumaa)",
-      "Landamærasvæði við Rússland: drónaflug er algjörlega bannað á landamærasvæði Ida-Viru County; bann við næturflugi (kl. 20:00–07:00) er í gildi meðfram öllum austurlandamærunum og umtalsverðar GPS-truflanir eru á svæðinu — athugaðu NOTAM."
+      "Takmörkunarsvæði hefur verið komið á nálægt ríkislandamærunum (allt að 300 m yfir yfirborði jarðar eða vatns): þar má aðeins fljúga með leyfi frá Politsei- ja Piirivalveamet (PPA) (Vabariigi Valitsuse korraldus nr 229, liðir 3.2 og 5.3). PPA setur einnig tímabundin takmörkunarsvæði nálægt landamærunum — athugaðu NOTAM. Mikil GPS-truflun er á landamærasvæðinu."
     ],
     "importantNotes": [
       "Skráning kostar 10 € á ári og gildir í öllum ESB/EASA-löndum",
@@ -32,7 +32,7 @@
       },
       {
         "title": "Samgöngustofa – Skráðu þig sem rekstraraðili",
-        "description": "Skráðu þig sem rekstraraðili fjarstýrðra loftfara (10 €/ári, gildir í öllum ESB/EASA-löndum)"
+        "description": "Skráðu þig sem rekstraraðila fjarstýrðra loftfara í upplýsingakerfi flugöryggiseftirlits, LOIS2 (ríkisgjald 10 €, gildir í eitt ár, gildir í öllum ESB/EASA-löndum)"
       },
       {
         "title": "Eistneska drónakortið (UTM)",

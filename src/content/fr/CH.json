@@ -1,25 +1,27 @@
 {
   "meta": {
-    "sourceHash": "f36a1cf828ca8a0a643f670fd6a861c54e98b56220c07b5f5975ef302b2f4c03",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "933e44d2614cf2cedaee58cc5869444dec9c634eb2504dc1238b121b71e2d432",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Un maximum de 120 m au-dessus du sol (catégorie ouverte EASA dans le cadre d'un accord bilatéral)",
-      "Enregistrez-vous comme exploitant d'UAS (10 CHF, valable indéfiniment) si le drone pèse 250 g ou plus ou est équipé d'une caméra",
-      "Formation en ligne A1/A3 requise pour un poids de 250 g ou plus (certificat valable 5 ans) — âge minimum 12 ans ; les enfants de moins de 12 ans doivent être supervisés par une personne de 16 ans ou plus.",
+      "Dans la catégorie ouverte, la hauteur maximale est de 120 m, mesurée comme la distance jusqu'au point le plus proche de la surface terrestre — et pas simplement à la verticale : près d'une pente, le sol à côté de vous peut donc aussi compter. À moins de 50 m d'un obstacle artificiel élevé (plus de 105 m), l'entité responsable de l'obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
+      "Vous devez vous enregistrer comme exploitant de drone si votre drone pèse 250 g ou plus (ou peut transmettre plus de 80 J d'énergie cinétique en cas d'impact) — cela vaut aussi pour les jouets. En dessous de 250 g, l'enregistrement reste requis si le drone est équipé d'un capteur capable de capter des données personnelles, sauf s'il est considéré comme un jouet au sens de la directive européenne relative à la sécurité des jouets. Les exigences de formation/de certificat du pilote sont réglementées séparément et dépendent de la classe et de la sous-catégorie du drone.",
+      "En Suisse, l'âge minimum des télépilotes est de 12 ans dans la catégorie d'exploitation « ouverte » et de 14 ans dans la catégorie « spécifique » (art. 26 VLK, SR 748.941) — quel que soit le poids du drone. Les pilotes plus jeunes ne peuvent voler que sous la supervision directe d'un télépilote qui remplit les exigences. Lors de l'enregistrement, les enfants de moins de 16 ans doivent désigner un représentant légal. La preuve de compétences A1/A3 s'obtient en ligne et est valable 5 ans.",
       "Assurance responsabilité civile obligatoire pour les drones de 250 g ou plus (couverture de 1 million CHF)",
       "Membres de clubs d'aéromodélisme : privilèges supplémentaires selon la réglementation de FOCA",
-      "Gardez toujours une vue directe (VLOS) sur le drone",
+      "Dans la catégorie ouverte, vous devez garder le drone dans votre propre champ de vision, à l'œil nu (lunettes/lentilles de contact autorisées ; les jumelles ou un écran ne comptent pas) — ou voler avec l'aide d'un observateur, en maintenant à tout moment une communication claire et efficace entre vous, afin de surveiller ensemble l'espace aérien et d'éviter les collisions. Le mode Follow-me est une exception distincte, autorisée jusqu'à 50 m du pilote.",
       "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
-      "À moins de 5 km des aéroports et aérodromes, l'exploitation n'est autorisée qu'avec l'accord de l'aérodrome (drones de plus de 250 g).",
+      "Pour les drones de plus de 250 g, l'exploitation est interdite à moins de 5 km des pistes d'un aérodrome civil ou militaire, ainsi que dans une CTR active si une hauteur de 120 m au-dessus du sol est dépassée (art. 28 VLK). La direction de l'aérodrome peut définir une zone réduite à l'intérieur des 5 km ; des exceptions sont accordées par la direction de l'aérodrome ou par le service de contrôle de la circulation aérienne.",
+      "Quel que soit le poids, l'exploitation est notamment interdite au-dessus des établissements pénitentiaires, au-dessus des zones militaires énumérées dans l'annexe de la VLK, au-dessus des postes de couplage extérieurs du niveau de réseau 2, ainsi qu'à moins de 750 m des centrales nucléaires et du dépôt intermédiaire de Würenlingen (art. 27 VLK).",
       "Parcs nationaux : usage des drones restreint ou interdit",
       "Régions de montagne : attention aux trajectoires des hélicoptères (sauvetage, vols panoramiques)"
     ],
     "importantNotes": [
       "L'enregistrement ne coûte que 10 CHF, payables une seule fois ; sa validité est illimitée et aucun renouvellement n'est requis.",
+      "U-Space Zurich : le premier espace aérien U-Space de Suisse est en cours d'introduction dans la CTR de Zurich (env. 10 km × 17 km) ; l'utilisation des services U-Space sera obligatoire pour tous les télépilotes de drones dans la zone à partir de fin 2026 (enregistrement unique auprès d'un USSP requis). Exemptés : drones de moins de 250 g, modèles réduits d'aéronefs, vols d'État. Base légale : art. 29a–29e VLK.",
       "Assurance obligatoire pour les drones de 250 g ou plus (couverture : 1 million CHF)",
       "La Suisse n'est pas membre de l'UE, mais applique la réglementation EASA dans le cadre d'un accord bilatéral",
       "Les routes empruntées par les hélicoptères sont courantes dans les Alpes — surveillez toujours l'espace aérien",
@@ -51,6 +53,10 @@
       {
         "title": "SMV — Aéromodélisme",
         "description": "Association suisse d'aéromodélisme avec privilèges de club et emplacements"
+      },
+      {
+        "title": "DABS — Daily Airspace Bulletin Switzerland (BAZL)",
+        "description": "FOCA/BAZL : « Le DABS doit donc également être consulté avant chaque vol » — étape 2 de la vérification en trois étapes du BAZL lui-même"
       }
     ],
     "disclaimerText": "Avant chaque vol, vérifiez toujours les sources officielles de FOCA/BAZL et la carte officielle des drones sur map.geo.admin.ch. Cette application est un outil, pas une source juridique. La Suisse suit la réglementation EASA dans le cadre d'un accord bilatéral.",

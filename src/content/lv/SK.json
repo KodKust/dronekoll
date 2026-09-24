@@ -1,22 +1,24 @@
 {
   "meta": {
-    "sourceHash": "52f1e9302ec2bcb4cb052daf85c1bc4eb0d04440f50f5931718d7e36efc0852a",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ba8a0d21aa6d8dafe028a7c48ce70de36567d44ff90036ca43f8450af32e0d5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne vairāk kā 120 m virs zemes (EASA atvērtā kategorija)",
-      "Ja drons sver 250 g vai vairāk vai ir aprīkots ar kameru, jāreģistrējas Transport Authority kā UAS operatoram.",
-      "Nepieciešama A1/A3 tiešsaistes apmācība — minimālais vecums 16 gadi",
-      "Minimālie attālumi pēc apakškategorijas: A1 — nelido virs neiesaistītām personām; A2 — vismaz 30 m no cilvēkiem (5 m mazā ātruma režīmā); A3 — vismaz 150 m no dzīvojamām, komerciālām, rūpnieciskām un atpūtas zonām.",
-      "Vienmēr saglabā tiešu redzamības kontaktu (VLOS) ar dronu",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, ko mēra kā attālumu līdz tuvākajam Zemes virsmas punktam — nevis vienkārši taisni uz leju, tāpēc nogāzes tuvumā var tikt ņemta vērā arī zeme tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgā persona var lūgt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Tev jāreģistrējas kā drona operatoram, ja tavs drons sver 250 g vai vairāk (vai trieciena brīdī var nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas pat uz rotaļlietām. Droniem, kas sver mazāk par 250 g, reģistrācija joprojām ir obligāta, ja dronam ir sensors, kas spēj uztvert personas datus, izņemot gadījumus, kad tas tiek uzskatīts par rotaļlietu saskaņā ar ES Rotaļlietu drošuma direktīvu. Prasības par pilota apmācību/apliecību ir atsevišķas un atkarīgas no drona klases un apakškategorijas.",
+      "Lai patstāvīgi lidotu atvērtajā kategorijā, minimālais vecums ir 16 gadi — A1/A3 apmācība un eksāmens (40 jautājumi, tiešsaistē) ir derīgi 5 gadus un atzīti visā ES. Jaunāki piloti drīkst lidot tikai sertificēta tālvadības pilota tiešā uzraudzībā.",
+      "Minimālie attālumi pēc apakškategorijas: A1 — nelido virs neiesaistītām personām; A2 — vismaz 30 m no neiesaistītām personām (5 m ar aktivizētu mazā ātruma režīma funkciju ≤ 3 m/s) un vienmēr vismaz lidojuma augstuma attālumā (noteikums 1:1); A3 — vismaz 150 m no dzīvojamām, komerciālām, rūpnieciskām un atpūtas zonām.",
+      "Atvērtajā kategorijā dronam jāatrodas tavā tiešās redzamības zonā, uz to skatoties ar neapbruņotu aci (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai arī lido ar novērotāja palīdzību, visu laiku uzturot skaidru un efektīvu saziņu savā starpā, lai kopā varētu uzraudzīt gaisa telpu un izvairīties no sadursmēm. Režīms “Follow-me” ir atsevišķs izņēmums, kas atļauts līdz 50 m attālumā no pilota.",
       "Nelido pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kas nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudi oficiālo tabulu.",
-      "M. R. Štefánik Airport, Bratislava: pilnīgs dronu lidojumu aizliegums 5 km rādiusā līdz 500 m augstumam (PUAS0103M, spēkā no 2025. gada 6. decembra). Košice, Poprad, Žilina un Piešťany lidostās (spēkā no 2026. gada 31. marta) 5 km rādiusā no lidostas lidojumi virs 30 m ir atļauti tikai pēc saskaņošanas — vismaz 24 stundas iepriekš nosūtot e-pastu gaisa satiksmes vadības vienībai.",
+      "M. R. Štefánik Airport Bratislavā civilo dronu lidojumi ir aizliegti 3 km rādiusā no lidlauka kontrolpunkta (48°10'12''N, 17°12'46''E), no zemes virsmas līdz 500 m virs zemes līmeņa — zona RUAS098M saskaņā ar ministra lēmumu Nr. 104/2026, kas stājās spēkā 2026. gada 18. augustā un atcēla iepriekšējo zonu PUAS0103M. Aizliegums neattiecas uz dzīvību glābšanas lidojumiem, neatliekamās medicīniskās palīdzības lidojumiem un meklēšanas un glābšanas (SAR) lidojumiem, kā arī uz lidojumiem, kas veikti ar Ministry of Defense of the Slovak Republic iepriekšēju apstiprinājumu ar dronu, kas aprīkots ar tālidentifikācijas sistēmu. 5 km rādiusā (zona RUAS001-LZIBAD-D) civilās UAS darbības atļautas tikai specifiskajā kategorijā.",
+      "Kopš 2026. gada 31. marta kontrolētajās zonās (CTR) Štefánik (Bratislava), Košice, Žilina, Piešťany un Tatry (Poprad) saskaņā ar Transport Authority lēmumu Nr. 1/2026 ir spēkā jauni noteikumi: lidot bez atļaujas iespējams tikai vairāk nekā 5 km attālumā no lidostas un līdz maksimālajam augstumam 30 m vai netipiskajā gaisa telpā (vairāk nekā 5 km attālumā no lidostas, līdz ēkas augstumam un tikai tās tiešā tuvumā, ne tālāk kā 30 m horizontālā attālumā no ēkas). Darbības CTR noteikto ģeogrāfisko zonu izpratnē drīkst veikt tikai, pamatojoties uz ekspluatācijas atļauju specifiskajā kategorijā.",
+      "Sagatavošanās lidojumam ietver pārbaudi, vai drona tālidentifikācijas sistēma ir aktīva un atjaunināta (NSAT).",
       "Nakts lidojumi ir atļauti — dronam jābūt ieslēgtai zaļai mirgojošai gaismai.",
       "Nacionālie parki (Tatra Mountains, Slovak Paradise, Low Tatras): spēkā ir ierobežojumi",
-      "Bratislava Castle un valdības teritorijas: lidojumu aizlieguma zonas",
+      "Malacky-Kuchyňa (RUAS077M), Sliač (RUAS080M) un Prešov (RUAS081M) militārie lidlauki, katrs ar 5600 m rādiusu: lidojumi tikai ar Ministry of Defense of the Slovak Republic iepriekšēju apstiprinājumu un ar aktīvu tālidentifikācijas sistēmu (ministra lēmums Nr. 104/2026).",
       "Pirms katra lidojuma pārbaudi UAS ģeogrāfiskās teritorijas (PUAS/RUAS zonas) — sarakstu uztur Ministry of Transportation un Transportation Authority, un zonas var mainīties.",
       "Malacky-Kuchyňa, Sliač un Prešov militārajos lidlaukos (RUAS zonas) lidojumi ir atļauti tikai ar Ministry of Defense of the Slovak Republic atļauju."
     ],
@@ -24,10 +26,15 @@
       "Attālumus no cilvēkiem regulē EASA apakškategorijas (A1/A2/A3) — vecais nacionālais 50 metru noteikums vairs nav spēkā.",
       "UAS operatoru reģistrāciju veic Transport Authority — tā ir derīga visā ES/EASA",
       "Tatra Mountains teritorijā un nacionālajos parkos ir būtiski ierobežojumi",
-      "Teritorijā ap M. R. Štefánik Airport ir pilnīgs dronu aizliegums 5 km rādiusā (PUAS0103M) — tas aptver arī lielu daļu Bratislavas.",
+      "M. R. Štefánik Airport apkārtne: civilie UAS lidojumi ir aizliegti 3 km rādiusā (zona RUAS098M, ministra lēmums Nr. 104/2026, spēkā no 2026. gada 18. augusta); 5 km rādiusā darbības atļautas tikai specifiskajā kategorijā (RUAS001-LZIBAD-D).",
+      "Apdrošināšana ir obligāta, ja UAS izmanto atvērtās kategorijas A2/A3 apakškategorijā, specifiskajā kategorijā vai sertificētajā kategorijā (NSAT FAQ).",
       "GDPR attiecas uz identificējamu attēlu fiksēšanu"
     ],
     "primaryLinks": [
+      {
+        "title": "UAS ģeogrāfiskās teritorijas — Transporta iestāde",
+        "description": "Transporta iestādes oficiālā lapa ar UAS ģeogrāfiskajām teritorijām (KML lejupielādei). Sagatavošanās lidojumam: iepazīsties ar pašlaik spēkā esošajām ģeogrāfiskajām teritorijām."
+      },
       {
         "title": "Transporta iestāde — Dronu noteikumi",
         "description": "Transporta iestādes oficiālie noteikumi un resursi par droniem"

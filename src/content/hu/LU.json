@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "36d02a53cfd249d58006a295f9a59616c0e6c70d5da2bf039b877f35892a3057",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6bf2e348b1896b08803a150a27a534a3546ea700b4d2c17be5329c5137833aca",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Legfeljebb 120 m-rel a talaj felett (EASA nyílt kategória)",
-      "Kötelező A1/A3 online képzés – legalább 14 éves kortól (a 14 és 15 éves kiskorúak esetében a regisztrációt szülőnek vagy gondviselőnek kell elvégeznie).",
+      "A nyílt kategóriában a legnagyobb magasság 120 m, a Föld felszínének legközelebbi pontjától mérve – nem egyszerűen függőlegesen lefelé, így lejtő közelében a melletted lévő terep is számíthat. Egy 105 m-nél magasabb mesterséges akadály 50 m-es körzetében az akadályért felelős szervezet engedélyt kérhet arra, hogy az akadály magasságánál legfeljebb 15 m-rel magasabban is lehessen repülni.",
+      "Kötelező, ingyenes A1/A3 online képzés az Eurocontrol LearningZone platformján (FR/DE/EN/LB, 3 hónapos, megújítható hozzáférés); a tanúsítvány 5 évig érvényes. Luxemburgban a pilóta nélküli légi jármű „nyílt” kategóriában történő üzemeltetésének alsó korhatára 14 év (a 2025. december 22-i nagyhercegi rendelet 2. cikke); a fiatalabb kiskorú egy 16 évnél idősebb, az előírt képesítésekkel rendelkező személy felügyelete mellett repülhet. Az OPEN A2 vizsgát a DAC helyiségeiben kell letenni, díja 45 €.",
       "Kötelező felelősségbiztosítás (a kötvényszám bejelentkezéskor szükséges)",
       "A Luxembourg-Findel repülőtér CTR-je az ország jelentős részét lefedi",
-      "Mindig tartsd a drónt vizuális látótávolságon belül (VLOS)",
+      "A nyílt kategóriában a drónt közvetlen látótávolságon belül kell tartanod, szabad szemmel (korrekciós szemüveg/kontaktlencse megengedett; távcső vagy képernyő nem számít) – vagy egy megfigyelő segítségével, úgy, hogy mindvégig egyértelműen és hatékonyan kommunikáltok egymással, így együtt figyelhetitek a légteret és kerülhetitek el az ütközéseket. A „follow-me” (követő) mód külön kivétel, a távpilótától legfeljebb 50 m-ig megengedett.",
       "Ne repülj embercsoportok felett. A műveletben részt nem vevő személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; ellenőrizd a hivatalos táblázatot.",
       "Tartsd be a Luxembourg-Findel CTR-re és a Geoportail.lu oldalon közzétett UAS-földrajzi zónákra vonatkozó szabályokat – az EASA-harmonizációt követően már nincs egységes 5 km-es pufferzóna",
-      "Éjszaka sok terület (különösen Findel környékén) külön engedélyt igényel – az egyes területekre vonatkozó követelményeket a drones.geoportail.lu oldalon ellenőrizd.",
+      "Luxemburgban a nyílt kategóriában megengedett az éjszakai repülés, az EASA alapkövetelményeinek betartásával. Egyes földrajzi zónák azonban – különösen Findel környékén – feltételeket vagy külön éjszakai engedélyt írnak elő: az egyes zónák feltételeit a g-o.lu/uas oldalon ellenőrizd.",
       "A Nagyhercegi Palota, a büntetés-végrehajtási intézetek és a katonai zónák esetében előzetes engedély szükséges; a helyi stadionok és repülőterek (Useldange, Noertrange) területén tilos repülni."
     ],
     "importantNotes": [
       "Kötelező biztosítás; a kötvényszám bejelentkezéskor szükséges",
       "A Luxembourg-Findel repülőtér CTR-je ennek a kis országnak nagy részét lefedi",
-      "Az új nemzeti keretszabályozás (2025. december) büntetőjogi szankciókat ír elő – akár 1 év börtön és 5000 € bírság – a biztosítás vagy a regisztráció elmulasztásáért.",
-      "A GDPR alkalmazandó, amikor azonosítható képeket rögzítesz"
+      "Az új nemzeti keret – a pilóta nélküli légi járművekről szóló 2025. december 19-i törvény és 2025. december 22-i nagyhercegi rendelet – kiegészíti az európai szabályozást, és büntetőjogi szankciókat vezet be a regisztrációs, biztosítási és zónákra vonatkozó kötelezettségek megszegése esetére. 2026. január 14. óta díjak vannak érvényben: 10 € a regisztrációért vagy annak megújításáért, 30 € egy STS-nyilatkozatért, 45 € az OPEN A2 vizsgáért.",
+      "A GDPR alkalmazandó, amikor azonosítható képeket rögzítesz",
+      "Figyelmeztetés (DAC): az UAS-gyártók által biztosított geozónák nem feltétlenül fedik le Luxemburg összes korlátozott zónáját, és NINCS automatikus információátadás az UAS-gyártó és a Geoportail között. Jogilag csak a g-o.lu/uas oldalon megjelenített UAS-földrajzi zónák alkalmazandók – a távirányítód geokorlátozása nem elegendő."
     ],
     "primaryLinks": [
       {
@@ -34,7 +35,7 @@
       },
       {
         "title": "Geoportail.lu – Dróntérkép",
-        "description": "Hivatalos földrajzi portál a drónzónákra vonatkozó információkkal"
+        "description": "Luxemburgban jogilag csak az itt közzétett UAS-földrajzi zónák alkalmazandók"
       },
       {
         "title": "DAC – A szabályok áttekintése",

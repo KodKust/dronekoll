@@ -1,63 +1,63 @@
 {
- "meta": {
-  "sourceHash": "e6b2b7ef595a946c4fd009b44046d64770faa9411a520492ab5a176d0099aefc",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Upp till 120 m över marken (EASA öppen kategori)",
-   "Registrering som UAS-operatör (40 € / 30 månader) för drönare som väger 250 g eller mer eller är utrustade med kamera",
-   "Kostnadsfritt A1/A3-onlineprov tillgängligt via CAA Slovenien",
-   "Förbjudet över befolkade områden – det enda undantaget gäller drönare som väger upp till 1 200 g, som flyger på högst 50 m höjd, med markägarens samtycke och efter förhandsanmälan av flygningen till myndigheten.",
-   "Håll alltid drönaren inom synhåll (VLOS)",
-   "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
-   "Nattflygning är tillåten enligt EASA:s grundkrav för den öppna kategorin när det föreskrivna gröna blinkljuset används, såvida inte gällande geografiska bestämmelser eller nationella regler ställer strängare krav.",
-   "Nationalparken Triglav: Det är förbjudet att flyga drönare utan förhandstillstånd från parkförvaltningen.",
-   "CTR (t.ex. Ljubljana): mer än 5 km från flygplatsen får du flyga på högst 50 m höjd över marken; närmare eller högre endast med godkännande av den slovenska flygtrafikledningen.",
-   "Kärnkraftsanläggningens område (NEK Krško): Flygning är tillåten endast med tillstånd från den slovenska myndigheten för kärnsäkerhet och inrikesministeriet."
-  ],
-  "importantNotes": [
-   "Onlineutbildningen och A1/A3-provet är kostnadsfria (ingår i registreringen).",
-   "Flygning över befolkade områden kräver ytterligare tillstånd",
-   "Registreringen kostar 40 € för 30 månader",
-   "Nationalparken Triglav har restriktioner för drönare",
-   "GDPR gäller vid insamling av personligt identifierbar information"
-  ],
-  "primaryLinks": [
-   {
-    "title": "CAA Slovenien – Regler för drönare",
-    "description": "Officiella föreskrifter och resurser från Republiken Sloveniens civila luftfartsmyndighet om drönare"
-   },
-   {
-    "title": "CAA Slovenien – Operatörsregistrering",
-    "description": "Registrering som UAS-operatör (40 € / 30 månader, giltigt i alla EU-/EASA-länder)"
-   },
-   {
-    "title": "CAA Slovenien – Luftrumskarta",
-    "description": "ArcGIS-baserad luftrumskarta som visar drönarzoner och restriktioner"
-   },
-   {
-    "title": "CAA Slovenien – Kostnadsfritt A1/A3-prov",
-    "description": "Kostnadsfri onlineutbildning och A1/A3-prov"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "Slovenia Control – Luftrumsinformation",
-    "description": "Sloveniens flygtrafikledning och luftrumsinformation"
-   },
-   {
-    "title": "CAA Slovenien – Vanliga frågor om drönare",
-    "description": "Vanliga frågor om reglerna för drönare i Slovenien"
-   }
-  ],
-  "disclaimerText": "Kontrollera alltid CAA Sloveniens officiella källor innan du flyger. Den här appen är ett verktyg – inte en juridisk auktoritet. Slovenien följer EASA-reglerna med nationella tillägg.",
-  "sectionLabelRules": "VIKTIGASTE REGLERNA (EASA ÖPPEN KATEGORI)",
-  "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
-  "sectionLabelSecondary": "YTTERLIGARE RESURSER",
-  "linksSheetTitle": "Luftrum och regler – Slovenien",
-  "dronePilotCredentialName": "Drönarpilotcertifikat"
- }
+  "meta": {
+    "sourceHash": "9f66cfb99f81b71253523a7a699005c1e9e10cb5b222429f5e95834f233cde0d",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "I den öppna kategorin mäts den högsta tillåtna höjden på 120 m som avståndet till närmaste punkt på jordytan – inte bara rakt nedåt, så nära en sluttning kan även marken bredvid dig räknas. Inom 50 m från ett högt konstgjort hinder (över 105 m) kan den som ansvarar för hindret begära tillstånd att flyga upp till 15 m över hindrets höjd.",
+      "Som drönaroperatör måste du registrera dig om drönaren väger 250 g eller mer (eller kan överföra mer än 80 J energi vid en kollision) – det gäller även leksaker. Under 250 g är registrering ändå obligatorisk om drönaren har en sensor som kan samla in personuppgifter, såvida den inte räknas som en leksak enligt EU Toy Safety Directive. Kraven på utbildning och pilotcertifikat är separata och beror på drönarens klass och underkategori.",
+      "I Slovenien är lägsta ålder för att flyga på egen hand 16 år – onlineutbildningen och A1/A3-provet gäller i 5 år och genomförs av den civila luftfartsmyndigheten (Javna agencija za civilno letalstvo, CAA).",
+      "Det är förbjudet att flyga i den öppna kategorin över befolkade områden. Undantaget enligt artikel 14 i förordningen (Uredba) gäller endast om alla villkor är uppfyllda: systemmassa upp till 1 200 g, höjd upp till 50 m över marken (AGL), flygning endast dagtid, förhandsgodkännande från fastighetens ägare eller nyttjare samt en inskickad förhandsanmälan om flygningen. När det är absolut nödvändigt för att flygningen ska kunna genomföras säkert får luftfartyget befinna sig högst tio meter utanför fastighetsgränsen.",
+      "I den öppna kategorin måste du hålla drönaren inom ditt direkta synhåll med blotta ögat (glasögon och linser går bra; kikare eller en skärm räknas inte) – eller flyga med hjälp av en observatör, med tydlig och effektiv kommunikation mellan er hela tiden, så att ni tillsammans kan bevaka luftrummet och undvika kollisioner. ”Follow-me”-läget är ett separat undantag och är tillåtet upp till 50 m från piloten.",
+      "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
+      "Nattflygning är tillåten enligt EASA:s grundkrav för den öppna kategorin när det föreskrivna gröna blinkljuset används, såvida inte gällande geografiska bestämmelser eller nationella regler ställer strängare krav.",
+      "Nationalparken Triglav: det är förbjudet att flyga luftfartyg lägre än 1 000 fot (304,8 m) över den högsta aktuella punkten eller det högsta hindret under flygningen inom parkområdet (ZTNP-1, artikel 13, punkt 40), vilket för den öppna kategorin innebär ett totalförbud. Parkförvaltarens samtycke är möjligt endast för kartläggning samt film-, video- och dokumentärinspelning av parken; samtycke ges inte för fritidsflygning.",
+      "Vid flygplatser utan flygplatskontroll (t.ex. Lesce, Celje, Murska Sobota – och även Portorož, Maribor och Cerklje utanför flygplatskontrollens öppettider) är det förbjudet att flyga drönare inom 2 600 m från banan (Uredba, Ur. l. RS 39/24, artikel 13). Förbudet gäller inte om procedurer för flygning med obemannade luftfartygssystem är särskilt fastställda i flygplatsoperatörens instruktioner för användning av flygplatsen, eller om UAS-operatören får förhandsgodkännande från flygplatsoperatören.",
+      "Kärnkraftsanläggningens område (NEK Krško): Flygning är tillåten endast med tillstånd från den slovenska myndigheten för kärnsäkerhet och inrikesministeriet."
+    ],
+    "importantNotes": [
+      "Onlinekursen och A1/A3-provet ingår i priset för operatörsregistreringen hos CAA Slovenien – de är inte en separat kostnadsfri tjänst.",
+      "Flygning över befolkade områden kräver ytterligare tillstånd",
+      "Operatörsregistreringen kostar 50,00 € vid registrering online och annars 70,00 €, och priset inkluderar onlinekursen samt A1- och A3-provet. Beloppet 40,00 € gäller för A2-provet (CAA:s taxa, Uradni list RS, nr 38/17, 40/17 – rättelse och 202/20).",
+      "Nationalparken Triglav har restriktioner för drönare",
+      "GDPR gäller vid insamling av personligt identifierbar information"
+    ],
+    "primaryLinks": [
+      {
+        "title": "CAA Slovenien – Regler för drönare",
+        "description": "Officiella föreskrifter och resurser från Republiken Sloveniens civila luftfartsmyndighet om drönare"
+      },
+      {
+        "title": "CAA Slovenien – Operatörsregistrering",
+        "description": "Registrering som UAS-operatör: 50 € online eller 70 € (inkluderar onlinekursen samt A1- och A3-provet; CAA:s taxa, Ur. l. RS 38/17, 40/17 och 202/20). Enligt CAA förväntas registreringen förnyas med 2,5 års mellanrum (30 månader). Giltigt i alla EU-/EASA-länder."
+      },
+      {
+        "title": "CAA Slovenien – Luftrumskarta",
+        "description": "ArcGIS-baserad luftrumskarta som visar drönarzoner och restriktioner"
+      },
+      {
+        "title": "CAA Slovenien – A1/A3-utbildning och prov",
+        "description": "Onlinekursen och A1/A3-provet ingår i den avgiftsbelagda operatörsregistreringen (50 € / 70 €); A2-provet kostar 40 €."
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "Slovenia Control – Luftrumsinformation",
+        "description": "Sloveniens flygtrafikledning och luftrumsinformation"
+      },
+      {
+        "title": "CAA Slovenien – Vanliga frågor om drönare",
+        "description": "Vanliga frågor om reglerna för drönare i Slovenien"
+      }
+    ],
+    "disclaimerText": "Kontrollera alltid CAA Sloveniens officiella källor innan du flyger. Den här appen är ett verktyg – inte en juridisk auktoritet. Slovenien följer EASA-reglerna med nationella tillägg.",
+    "sectionLabelRules": "VIKTIGASTE REGLERNA (EASA ÖPPEN KATEGORI)",
+    "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
+    "sectionLabelSecondary": "YTTERLIGARE RESURSER",
+    "linksSheetTitle": "Luftrum och regler – Slovenien",
+    "dronePilotCredentialName": "Drönarpilotcertifikat"
+  }
 }

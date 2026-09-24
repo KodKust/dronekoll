@@ -1,22 +1,24 @@
 {
   "meta": {
-    "sourceHash": "52f1e9302ec2bcb4cb052daf85c1bc4eb0d04440f50f5931718d7e36efc0852a",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ba8a0d21aa6d8dafe028a7c48ce70de36567d44ff90036ca43f8450af32e0d5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Največ 120 m nad tlemi (kategorija EASA Open)",
-      "Registracija kot upravljavec UAS pri Transport Authority za drone, ki tehtajo 250 g ali več oziroma so opremljeni s kamero",
-      "Potrebno spletno usposabljanje A1/A3 — najnižja starost 16 let",
-      "Najmanjše razdalje po podkategorijah: A1 — ne letite nad mimoidočimi; A2 — najmanj 30 m od ljudi (5 m v načinu nizke hitrosti); A3 — najmanj 150 m od stanovanjskih, poslovnih, industrijskih in rekreacijskih območij.",
-      "Vedno ohranjajte neposreden vidni stik z dronom (VLOS)",
+      "V kategoriji Open je največja višina 120 m, merjena kot razdalja do najbližje točke zemeljske površine — ne zgolj navpično navzdol, zato se ob pobočju lahko upošteva tudi teren ob vas. Znotraj 50 m od visokega umetnega objekta (višjega od 105 m) lahko subjekt, odgovoren za objekt, zaprosi za dovoljenje za letenje do 15 m nad višino objekta.",
+      "Registrirati se morate kot upravljavec drona, če vaš dron tehta 250 g ali več (ali lahko ob trku prenese več kot 80 J kinetične energije) — to velja tudi za igrače. Pod 250 g je registracija še vedno obvezna, če ima dron senzor, ki lahko zajema osebne podatke, razen če se šteje za igračo po EU Toy Safety Directive. Zahteve glede usposabljanja oziroma potrdila pilota so ločene in so odvisne od razreda ter podkategorije drona.",
+      "Za samostojno letenje v kategoriji Open je zahtevana najnižja starost 16 let — usposabljanje in izpit A1/A3 (40 vprašanj, prek spleta) veljata 5 let in sta priznana po vsej EU. Mlajši piloti smejo leteti le pod neposrednim nadzorom pilota na daljavo s potrdilom.",
+      "Najmanjše razdalje po podkategorijah: A1 — ne letite nad neudeleženimi osebami; A2 — najmanj 30 m od neudeleženih oseb (5 m z vklopljeno funkcijo načina nizke hitrosti ≤ 3 m/s) in vedno najmanj toliko, kolikor znaša višina leta (pravilo 1:1); A3 — najmanj 150 m od stanovanjskih, poslovnih, industrijskih in rekreacijskih območij.",
+      "V kategoriji Open morate dron ohranjati v neposrednem vidnem polju s prostim očesom (očala/kontaktne leče so v redu; daljnogled ali zaslon ne štejeta) — ali pa si pomagajte z opazovalcem, pri čemer morata ves čas jasno in učinkovito komunicirati, da lahko skupaj spremljata zračni prostor in preprečujeta trčenja. Način »follow-me« je ločena izjema in je dovoljen do 50 m od pilota.",
       "Ne letite nad skupinami ljudi. Pravila za neudeležene osebe so odvisna od podkategorije, razredne oznake in pogojev delovanja; preverite uradno matriko.",
-      "M. R. Štefánik Airport, Bratislava: popolna prepoved letov z droni v polmeru 5 km do višine 500 m (PUAS0103M, velja od 6. decembra 2025). Za Košice, Poprad, Žilina, and Piešťany Airports (velja od 31. marca 2026): v polmeru 5 km od letališča so leti nad 30 m dovoljeni le po predhodni uskladitvi po e-pošti z enoto kontrole zračnega prometa najmanj 24 ur vnaprej.",
+      "Na letališču M. R. Štefánik v Bratislavi so civilni leti z droni prepovedani v polmeru 3 km od referenčne točke letališča (48°10'12''N, 17°12'46''E), od površine tal do 500 m nad tlemi — cona RUAS098M po odločbi ministra št. 104/2026, ki velja od 18. avgusta 2026 in je razveljavila prejšnjo cono PUAS0103M. Prepoved ne velja za lete za reševanje življenj, lete reševalnih zrakoplovov ter iskalne in reševalne lete (SAR), prav tako ne za lete, ki se izvajajo s predhodno odobritvijo Ministry of Defense of the Slovak Republic in so opremljeni s sistemom za identifikacijo na daljavo. V polmeru 5 km (cona RUAS001-LZIBAD-D) so civilne operacije UAS dovoljene le v posebni kategoriji.",
+      "Od 31. marca 2026 v kontroliranih conah (CTR) Štefánik (Bratislava), Košice, Žilina, Piešťany in Tatry (Poprad) veljajo nova pravila po odločbi Transport Authority št. 1/2026: letenje brez dovoljenja je mogoče le na razdalji več kot 5 km od letališča in do največje višine 30 m ali v atipičnem zračnem prostoru (na razdalji več kot 5 km od letališča, do višine stavbe in le v njeni neposredni bližini, največ do vodoravne razdalje 30 m od stavbe). Operacije v CTR v smislu določenih geografskih območij se lahko izvajajo le na podlagi operativnega dovoljenja v posebni kategoriji.",
+      "Priprava pred letom vključuje preverjanje, ali je sistem za identifikacijo drona na daljavo aktiven in posodobljen (NSAT).",
       "Nočni leti so dovoljeni — dron mora imeti prižgano zeleno utripajočo luč.",
       "Nacionalni parki (Tatra Mountains, Slovak Paradise, Low Tatras): veljajo omejitve",
-      "Bratislava Castle in vladna območja: cone prepovedi letenja",
+      "Vojaška vzletišča Malacky-Kuchyňa (RUAS077M), Sliač (RUAS080M) in Prešov (RUAS081M), vsako s polmerom 5600 m: leti le s predhodno odobritvijo Ministry of Defense of the Slovak Republic in z aktivnim sistemom za identifikacijo na daljavo (odločba ministra št. 104/2026).",
       "Pred vsakim letom preverite geografska območja UAS (cone PUAS/RUAS) — seznam vodita Ministry of Transportation in Transportation Authority, cone pa se lahko spreminjajo.",
       "Vojaška vzletišča Malacky-Kuchyňa, Sliač in Prešov (cone RUAS): leti so dovoljeni le z odobritvijo Ministry of Defense of the Slovak Republic."
     ],
@@ -24,10 +26,15 @@
       "Razdalje od ljudi urejajo podkategorije EASA (A1/A2/A3) — staro nacionalno pravilo 50 metrov ne velja več.",
       "Registracijo upravljavcev UAS ureja Transport Authority — registracija velja po vsej EU/EASA",
       "Za Tatra Mountains in nacionalne parke veljajo pomembne omejitve",
-      "Območje okoli M. R. Štefánik Airport: popolna prepoved dronov v polmeru 5 km (PUAS0103M) — to pokriva tudi velik del Bratislava.",
+      "Okolica letališča M. R. Štefánik: civilni leti UAS so prepovedani v polmeru 3 km (cona RUAS098M, odločba ministra št. 104/2026, velja od 18. avgusta 2026); v polmeru 5 km so operacije dovoljene le v posebni kategoriji (RUAS001-LZIBAD-D).",
+      "Zavarovanje je obvezno, če upravljate UAS v kategoriji Open A2/A3, v posebni kategoriji ali v certificirani kategoriji (NSAT FAQ).",
       "GDPR velja za zajemanje posnetkov, na katerih je mogoče prepoznati posameznike"
     ],
     "primaryLinks": [
+      {
+        "title": "Geografska območja UAS — Prometni organ",
+        "description": "Uradna stran prometnega organa z geografskimi območji UAS (KML za prenos). Priprava pred letom: seznanite se s trenutno veljavnimi geografskimi območji."
+      },
       {
         "title": "Prometni organ — predpisi za drone",
         "description": "Uradna pravila in viri prometnega organa za drone"

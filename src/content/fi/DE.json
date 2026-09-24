@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "2c58b7a31f1c8559936a55c3a5e025f7dd391e382ab6ecfeb89c30fa2c945c23",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef69e20c9988bcf5f856c6fb76c01616820e80425007ad49d1b4c9740db11a03",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enint. 120 m maanpinnasta (AGL) avoimessa kategoriassa",
-      "Rekisteröinti vähintään 250 g painaville laitteille (tai alle 250 g, jos siinä on kamera) — LBA-rekisterinumero",
+      "Avoimessa kategoriassa suurin sallittu korkeus on 120 m, mitattuna etäisyytenä lähimpään maanpinnan kohtaan — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maasto voidaan laskea mukaan. 50 m:n säteellä korkeasta keinotekoisesta esteestä (yli 105 m) esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
+      "Sinun on rekisteröidyttävä dronen käyttäjäksi, jos drone painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g painava drone on silti rekisteröitävä, jos siinä on anturi, joka pystyy keräämään henkilötietoja, ellei sitä katsota leluksi EU:n lelujen turvallisuusdirektiivin mukaisesti. Lentäjän koulutus- ja todistusvaatimukset säännellään erikseen, ja ne riippuvat dronen luokasta ja alaluokasta.",
       "LBA-käyttäjärekisteröinti on maksullinen — vähimmäisikä 16 vuotta. Rekisterinumeron (e-ID) on oltava selvästi näkyvissä dronessa.",
-      "A1/A3-kaukolentäjän todistus (LBA:n maksullinen verkkokoe) tai A2-todistus lähempänä ihmisiä lentämiseen — tarkista ajantasaiset maksut osoitteesta lba.de",
-      "Pakollinen vastuuvakuutus (German Aviation Actin 43 §) — myös harrastedroneille",
-      "Lennättäminen asuinkiinteistöjen yllä ilman asukkaiden suostumusta on kielletty (Air Traffic Regulationsin 21h §)",
-      "Lennättäminen enintään 100 metrin etäisyydellä rautatielaitteista, moottoriteistä tai teollisuuslaitoksista ilman pitäjän tai omistajan suostumusta on kielletty",
-      "Lennätyskielto luonnonsuojelualueilla ja kansallispuistoissa",
-      "ED-R 146: pysyvä rajoitusvyöhyke Berliinin yllä (hallintokortteli) — lupa vaaditaan",
+      "Saksassa A1/A3-pätevyystodistuksen vähimmäisikä on 16 vuotta (verkkokoulutus ja -koe, 40 kysymystä 9 aihealueelta, hyväksymisraja 75 %, voimassa 5 vuotta) — poikkeus: lentäminen voimassa olevan todistuksen omaavan kaukolentäjän välittömässä valvonnassa.",
+      "Pakollinen vastuuvakuutus (§43 Luftverkehrsgesetz) — koskee myös harrastedroneja painosta riippumatta.",
+      "Asuinkiinteistöjen yllä lentäminen ilman omistajien tai muiden käyttöoikeuden haltijoiden nimenomaista suostumusta on kielletty (§21h LuftVO). Poikkeukset: alle 250 g painavat dronet, joissa ei ole tallennus- tai lähetysominaisuutta, tai lennot vähintään 100 m:n korkeudessa useiden ehtojen täyttyessä (oikeutettu etu, julkista aluetta ei ole käytettävissä, suostumusta ei voida kohtuudella saada, tietosuojaa koskevat varotoimet, vain klo 6–22, melurajoja noudatetaan).",
+      "100 m:n etäisyydellä (sivusuunnassa ja yläpuolella) liittovaltion valtateistä, liittovaltion vesiväylistä ja rautatielaitteista toiminta on sallittua vain, jos YKSI § 21h Abs. 3 Nr. 5 LuftVO:n ehdoista täyttyy: a) tien tai rautatielaitteen ylilento \"erityisessä\" kategoriassa riskinarvioinnilla, jossa otetaan huomioon ylilennon erityiset vaarat; b) toimivaltaisen viranomaisen tai laitteen ylläpitäjän nimenomainen suostumus; c) lentokorkeus maanpinnasta on aina pienempi kuin sivuttaisetäisyys infrastruktuuriin, ja tämä etäisyys on aina yli 10 m; tai d) liittovaltion vesiväylien osalta: ylitys lyhintä reittiä vähintään 100 m:n korkeudessa lentämättä alusten tai merenkulkulaitteiden yli. Teollisuuslaitoksiin, vankiloihin, sotilaslaitoksiin ja energialaitoksiin sovelletaan 100 m:n etäisyyttä, ellei toimivaltainen viranomainen tai laitoksen ylläpitäjä anna nimenomaista suostumusta (Nr. 3). Rautatielaitteiden osalta DB InfraGO AG on julkaissut rautatieyhteensopivan UAS-toiminnan vaatimukset julkaisussa NfL 1-2026-3788.",
+      "Luonnonsuojelualueet, kansallispuistot ja Natura 2000 -alueet: ylilento on kielletty (§ 21h Abs. 3 Nr. 6 LuftVO), ellei toimivaltainen luonnonsuojeluviranomainen anna nimenomaista suostumusta tai osavaltion laki säätele toimintaa toisin. Kansallispuistojen ulkopuolella toiminta on sallittua myös, jos kaikki neljä ehtoa täyttyvät samanaikaisesti: ei urheilu- tai virkistystarkoitusta, lentokorkeus yli 100 m, suojelutarkoituksen tunteminen ja asianmukainen huomioon ottaminen, ja ylilento on toiminnan tarkoituksen kannalta välttämätön.",
+      "ED-R 146: pysyvä rajoitusalue Berliinin hallintokorttelin yllä — lupa vaaditaan. Tarkista ajantasainen tilanne dipul.de-palvelusta ennen lentämistä.",
+      "6. elokuuta 2026 alkaen lähilentovyöhykkeillä tapahtuviin UAS-lentoihin sovelletaan vyöhykemallia 24 lentoasemalla (DFS: NfL 2026-1-3960, joka kumoaa julkaisun NfL 2023-1-2705; DFS Aviation Services: NfL 2026-1-3981). Vyöhykkeellä 1 — lentoaseman yläpuolella, 1 km:n etäisyydellä sen rajasta sekä 5 km:llä jatketuissa kiitotiekäytävissä (1 km kiitotien keskilinjan vasemmalle ja oikealle puolelle) — ei ole yleislupaa: siellä vaaditaan aina yksilöllinen lennonjohtoselvitys, jota haetaan ais.dfs.de-palvelun kautta noin 14 päivää etukäteen. Vyöhykkeillä 2 ja 3 yleislupa on voimassa 25 m:n ja vastaavasti 45 m:n korkeuteen asti lentopaikan korkeudesta tai maanpinnasta (kumpi on matalampi); vyöhykkeellä 4 100 m:n korkeuteen lentopaikan korkeudesta tai 50 m:n korkeuteen maanpinnasta (kumpi on korkeampi; jos lentoonlähtöpiste on lentopaikan korkeuden alapuolella, sovelletaan 100 m maanpinnasta). Yleislupa koskee vain enintään 25 kg:n UAS-laitteita (lennokit enintään 5 kg), edellyttää vähintään 800 m:n maanäkyvyyttä eikä koske autonomisia lentoja. Tarkista alavyöhykkeesi ja maaston korkeus dipul Maptoolista ennen lentämistä.",
       "Direct Remote ID on ollut EU:n laajuisesti pakollinen luokkien C1, C2 ja C3 droneille 1. tammikuuta 2024 alkaen"
     ],
     "importantNotes": [
-      "dipul näyttää ilmatilaluokat, mutta ei täydellistä yleiskuvaa rajoitusvyöhykkeistä — täydennä Droniq-sovelluksella",
+      "dipul näyttää ilmatilaluokat, mutta ei anna täydellistä yleiskuvaa kaikista rajoitusalueista — käytä ennen lentämistä herkkien alueiden lähellä myös Droniq-sovellusta tai vastaavaa.",
       "EU:ssa rekisteröityjen ulkomaisten lentäjien on silti noudatettava kansallisia ilmailumääräyksiä",
-      "Valokuvien ottaminen yksityisalueella voi myös aiheuttaa GDPR-ongelmia"
+      "Yksityisomaisuuden kuvaaminen voi aiheuttaa tietosuojakysymyksiä (DSGVO/GDPR) §21h LuftVO:n mukaisen lentoluvan lisäksi."
     ],
     "primaryLinks": [
       {
@@ -51,8 +52,8 @@
         "description": "Hae poikkeuslupia erityistapauksiin"
       },
       {
-        "title": "BMDV — Dronetietoa",
-        "description": "Kansalliset dronemääräykset ja oikeusperusta (Saksan lentoliikennemääräysten (LuftVO) 21h §)"
+        "title": "BMV – Tietoa droneista",
+        "description": "Kansallinen dronesääntely ja oikeusperusta (§21h LuftVO)"
       }
     ],
     "disclaimerText": "Tarkista aina viralliset lähteet ennen lentoa. Tämä sovellus on työkalu, ei oikeudellinen tietolähde. Säännöt voivat muuttua ilman ennakkoilmoitusta.",

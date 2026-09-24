@@ -1,25 +1,27 @@
 {
   "meta": {
-    "sourceHash": "f36a1cf828ca8a0a643f670fd6a861c54e98b56220c07b5f5975ef302b2f4c03",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "933e44d2614cf2cedaee58cc5869444dec9c634eb2504dc1238b121b71e2d432",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimaalselt 120 m maapinnast (EASA avatud kategooria kahepoolse kokkuleppe alusel)",
-      "Registreeru UAS-operaatorina (10 CHF, kehtib tähtajatult), kui droon kaalub 250 g või rohkem või on kaameraga varustatud",
-      "Vähemalt 250 g kaaluvate droonide puhul on nõutav A1/A3 veebikoolitus (sertifikaat kehtib 5 aastat) — vanuse alampiir on 12; alla 12-aastased peavad olema vähemalt 16-aastase isiku järelevalve all.",
+      "Avatud kategoorias on maksimaalne kõrgus 120 m, mida mõõdetakse kaugusena Maa pinna lähima punktini — mitte lihtsalt otse alla, nii et nõlva lähedal võib arvesse minna ka sinu kõrval olev maapind. Kõrge tehisliku takistuse (üle 105 m) 50 m raadiuses võib takistuse eest vastutav üksus taotleda luba lennata kuni 15 m kõrgemale takistuse kõrgusest.",
+      "Pead registreeruma droonioperaatorina, kui sinu droon kaalub 250 g või rohkem (või võib kokkupõrkel üle kanda rohkem kui 80 J kineetilist energiat) — see kehtib ka mänguasjade kohta. Alla 250 g on registreerimine siiski nõutav, kui droonil on andur, mis suudab koguda isikuandmeid, välja arvatud juhul, kui see loetakse mänguasjaks EL-i mänguasjade ohutuse direktiivi alusel. Piloodi koolituse/tunnistuse nõuded on reguleeritud eraldi ja sõltuvad drooni klassist ja alamkategooriast.",
+      "Šveitsis on kaugpilootide vanuse alampiir «avatud» käitamiskategoorias 12 aastat ja «erikategoorias» 14 aastat (Art. 26 VLK, SR 748.941) — olenemata drooni kaalust. Nooremad piloodid tohivad lennata ainult nõuetele vastava kaugpiloodi otsese järelevalve all. Registreerimisel peavad alla 16-aastased lapsed nimetama seadusliku esindaja. A1/A3 pädevustunnistus omandatakse veebis ja see kehtib 5 aastat.",
       "Kohustuslik vastutuskindlustus 250 g ja raskematele droonidele (kate 1 miljon CHF)",
       "Mudellennuklubide liikmed: täiendavad õigused FOCA määruste alusel",
-      "Hoia drooni alati otsenähtavuses (VLOS)",
+      "Avatud kategoorias pead hoidma drooni oma palja silmaga otsenähtavuses (prillid/kontaktläätsed on lubatud; binokkel või ekraan ei lähe arvesse) — või lendama vaatleja abiga, kellega sul on kogu aeg selge ja tõhus side, et saaksite koos õhuruumi jälgida ja kokkupõrkeid vältida. Follow-me-režiim on eraldi erand, mis on lubatud kuni 50 m kaugusel piloodist.",
       "Ära lenda rahvakogunemiste kohal. Kõrvaliste isikute suhtes kehtivad reeglid sõltuvad alamkategooriast, klassimärgist ja käitamistingimustest; kontrolli ametlikku tabelit.",
-      "5 km raadiuses lennujaamadest ja lennuväljadest on käitamine lubatud ainult lennuvälja loal (üle 250 g kaaluvad droonid).",
+      "Üle 250 g droonide käitamine on keelatud tsiviil- või sõjaväelennuvälja stardiradadest vähem kui 5 km kaugusel ning aktiivses CTR-is, kui ületatakse 120 m kõrgus maapinnast (Art. 28 VLK). Lennuvälja juhtkond võib 5 km piires määrata vähendatud tsooni; erandeid annab lennuvälja juhtkond või lennujuhtimisüksus.",
+      "Olenemata kaalust on käitamine keelatud muu hulgas parandusasutuste kohal, VLK lisas loetletud sõjaväealade kohal, 2. võrgutaseme välijaotusseadmete kohal ning 750 m raadiuses tuumaelektrijaamadest ja Würenlingeni vaheladustamisrajatisest (Art. 27 VLK).",
       "Rahvuspargid: droonide kasutamine piiratud või keelatud",
       "Mägipiirkonnad: arvesta helikopterite lennutrajektooridega (pääste- ja vaatelennud)"
     ],
     "importantNotes": [
       "Registreerimine maksab vaid 10 CHF — ühekordne tasu piiramatu kehtivusega ja uuendamist ei nõuta.",
+      "U-Space Zurich: Šveitsi esimene U-Space õhuruum võetakse kasutusele Zürichi CTR-is (u 10 km × 17 km); alates 2026. aasta lõpust on U-Space teenuste kasutamine piirkonnas kohustuslik kõigile droonipilootidele (nõutav ühekordne registreerimine USSP juures). Vabastatud: alla 250 g droonid, mudellennukid, riiklikud lennud. Õiguslik alus: Art. 29a–29e VLK.",
       "Kohustuslik kindlustus 250 g ja raskematele droonidele (kate: 1 miljon CHF)",
       "Šveits ei ole EL-i liige, kuid järgib EASA määrusi kahepoolse kokkuleppe kaudu",
       "Alpides on helikopterite lennumarsruudid tavalised — jälgi alati õhuruumi",
@@ -51,6 +53,10 @@
       {
         "title": "SMV — Mudellennundus",
         "description": "Šveitsi Mudellennunduse Liit klubi õiguste ja asukohtadega"
+      },
+      {
+        "title": "DABS — Daily Airspace Bulletin Switzerland (BAZL)",
+        "description": "FOCA/BAZL: «Seetõttu tuleb enne iga lendu kontrollida ka DABS-i» — BAZL-i enda kolmeastmelise kontrolli 2. samm"
       }
     ],
     "disclaimerText": "Kontrolli enne iga lendu alati FOCA/BAZL-i ametlikke allikaid ja ametlikku droonikaarti aadressil map.geo.admin.ch. See rakendus on abivahend, mitte õigusallikas. Šveits järgib EASA määrusi kahepoolse kokkuleppe kaudu.",

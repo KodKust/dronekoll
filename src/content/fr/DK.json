@@ -1,29 +1,30 @@
 {
   "meta": {
-    "sourceHash": "0b4390d8f9a3a6d8927fed8920fc55b966e27ba6f08dffbc604b7ea87d7fbd8b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "65a1d37d180bc9f71efb45273b737bb48f5042af6dc9db932ab420ce77d3ee10",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Max. 120 m au-dessus du sol (catégorie ouverte EASA)",
-      "Enregistrez-vous comme exploitant d'UAS si le drone pèse 250 g ou plus ou est équipé d'une caméra",
-      "Cours en ligne A1/A3 requis — âge minimum 16 ans",
-      "Assurance responsabilité civile obligatoire — le montant minimal de couverture dépend du poids du drone ; les drones de moins de 250 g sont dispensés de l'exigence de couverture minimale au titre du BEK 527 (juillet 2025)",
-      "La CTR de l'aéroport de Copenhague couvre le centre de Copenhague — consultez Droneregler.dk",
-      "Gardez toujours le drone en vue directe (VLOS)",
+      "Dans la catégorie ouverte, la hauteur maximale est de 120 m, mesurée comme la distance jusqu'au point le plus proche de la surface terrestre — et pas simplement à la verticale : près d'une pente, le sol à côté de vous peut donc aussi compter. À moins de 50 m d'un obstacle artificiel élevé (plus de 105 m), la personne responsable de l'obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
+      "Vous devez vous enregistrer comme exploitant de drone si votre drone pèse 250 g ou plus (ou peut transmettre plus de 80 J d'énergie cinétique en cas de collision) — cela vaut même pour les jouets. En dessous de 250 g, l'enregistrement reste requis si le drone est équipé d'un capteur capable de capter des données personnelles, sauf s'il est considéré comme un jouet au sens de la directive européenne relative à la sécurité des jouets. Les exigences de formation/de certificat du pilote sont distinctes et dépendent de la classe et de la sous-catégorie du drone.",
+      "Au Danemark, vous devez avoir au moins 15 ans pour faire voler un drone de plus de 250 g. Si vous avez au moins 12 ans, vous pouvez faire voler un drone de moins de 250 g. Si vous êtes plus jeune, vous ne pouvez voler que sous la supervision d'une personne âgée d'au moins 15 ans qui remplit les exigences du certificat de drone.",
+      "Assurance responsabilité civile obligatoire (loi danoise sur la navigation aérienne et règlement (UE) 785/2004) avec une somme assurée d'au moins 0,75 million de DTS — le même montant quel que soit le poids du drone. Les micro-drones ne sont exemptés que du montant minimum, pas de l'obligation d'assurance, et uniquement lorsque les trois conditions sont remplies : masse au décollage inférieure à 250 g, vitesse maximale ne pouvant pas dépasser 19 m/s, et usage exclusivement personnel ou de loisir. Sont totalement exemptés les drones jouets portant le marquage C0, les drones jouets de moins de 250 g et de moins de 19 m/s mis sur le marché avant le 1er janvier 2024, ainsi que les autorités publiques auto-assurées (§ 4 de l'arrêté sur les drones, BEK 1649/2023 modifié par BEK 527/2025).",
+      "La CTR de l'aéroport de Copenhague couvre la majeure partie du centre de Copenhague — consultez Droneregler.dk avant de voler dans la zone.",
+      "Dans la catégorie ouverte, vous devez garder le drone dans votre propre champ de vision, à l'œil nu (lunettes/lentilles de contact autorisées ; les jumelles ou un écran ne comptent pas) — ou voler avec l'aide d'un observateur, en maintenant à tout moment une communication claire et efficace entre vous, afin de surveiller ensemble l'espace aérien et d'éviter les collisions. Le mode Follow-me est une exception distincte, autorisée jusqu'à 50 m du pilote.",
       "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
-      "Au moins 8 km des aéroports IMC (vol aux instruments), 4 km des aéroports VMC — BEK 527 (juillet 2025)",
+      "Au moins 8 km des aérodromes IMC (vol aux instruments) et 4 km des aérodromes VMC — avec un certificat d'aptitude (certificat d'aptitude A2), la distance peut être réduite jusqu'à 2 km, avec des limites de hauteur décroissantes à l'approche de la piste (§ 9 et § 9 a de l'arrêté sur les drones, BEK 527 en vigueur depuis le 1er juillet 2025). Gardez également une distance de 2 km par rapport aux sites d'atterrissage d'urgence pour hélicoptères.",
       "Les vols de nuit sont autorisés dans le cadre des exigences de base de l'EASA pour la catégorie ouverte lorsque le feu vert clignotant requis est utilisé, sauf si une zone géographique applicable ou une règle nationale impose une condition plus stricte.",
       "Le Groenland et les îles Féroé ont des règles distinctes"
     ],
     "importantNotes": [
-      "La couverture d'assurance minimale dépend désormais du poids ; les drones de moins de 250 g sont dispensés de l'exigence de couverture minimale depuis l'entrée en vigueur du BEK 527 (juillet 2025). L'enregistrement d'exploitant d'UAS est désormais valable 3 ans.",
-      "La CTR de l'aéroport de Copenhague couvre la majeure partie du centre de Copenhague",
+      "Assurance responsabilité civile : le montant minimum est de 0,75 million de DTS quel que soit le poids du drone. Depuis le 1er juillet 2025 (BEK 527), les micro-drones de moins de 250 g qui ne peuvent pas voler à plus de 19 m/s et sont utilisés uniquement à des fins privées/de loisir sont exemptés du montant minimum — pas de l'obligation d'assurance. L'usage commercial n'est jamais exempté.",
+      "La CTR de l'aéroport de Copenhague couvre la majeure partie du centre de Copenhague.",
       "Des réglementations distinctes s'appliquent au Groenland et aux îles Féroé",
       "Les infractions peuvent entraîner des amendes et des poursuites pénales",
-      "Le GDPR s'applique lors de la prise d'images permettant d'identifier des personnes"
+      "Le GDPR s'applique lors de la prise d'images permettant d'identifier des personnes",
+      "Exigence à venir : Trafikstyrelsen a mis en consultation une modification de l'arrêté sur les drones qui exige le Remote ID ou une autre identification à distance pour tous les drones de plus de 250 g — et pour les drones de moins de 250 g équipés d'un capteur dans certaines zones pour drones. Entrée en vigueur prévue le 1er janvier 2027."
     ],
     "primaryLinks": [
       {

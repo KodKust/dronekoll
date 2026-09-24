@@ -1,28 +1,29 @@
 {
   "meta": {
-    "sourceHash": "2c58b7a31f1c8559936a55c3a5e025f7dd391e382ab6ecfeb89c30fa2c945c23",
-    "sourceCountriesVersion": 193,
-    "sourceLastVerified": "2026-06-19",
-    "translatedAt": "2026-07-09",
-    "engine": "deepl"
+    "sourceHash": "ef69e20c9988bcf5f856c6fb76c01616820e80425007ad49d1b4c9740db11a03",
+    "sourceCountriesVersion": 256,
+    "sourceLastVerified": "2026-08-26",
+    "translatedAt": "2026-09-24",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "Max. 120 m above ground level (AGL) in the open category",
-      "Registration for items weighing 250 g or more (or less than 250 g if photographed) — LBA registration number",
+      "In the open category, the maximum height is 120 m, measured as the distance to the closest point of the Earth's surface — not simply straight down, so near a slope the ground beside you can also count. Within 50 m of a tall artificial obstacle (over 105 m), the entity responsible for the obstacle can request permission to fly up to 15 m above the height of the obstacle.",
+      "You must register as a drone operator if your drone weighs 250 g or more (or could transfer more than 80 J of kinetic energy on impact) — this also applies to toys. Below 250 g, registration is still required if the drone has a sensor capable of capturing personal data, unless it is considered a toy under the EU Toy Safety Directive. Pilot training/competency requirements are regulated separately and depend on the drone's class and subcategory.",
       "LBA operator registration is subject to a fee — minimum age is 16. The registration number (e-ID) must be clearly visible on the drone.",
-      "A1/A3 Remote Pilot Certificate (fee-based online test administered by the LBA) or A2 Certificate for flying closer to people — check current fees at lba.de",
-      "Mandatory Liability Insurance (Section 43 of the German Aviation Act) — including for recreational drones",
-      "Prohibition on flying over residential properties without the residents' consent (Section 21h of the Air Traffic Regulations)",
-      "Within 100 meters of railroad facilities, highways, or industrial facilities without the consent of the operator or owner",
-      "Flight Ban in Nature Reserves and National Parks",
-      "ED-R 146: Permanent Restricted Zone over Berlin (Government District) — Permission Required",
+      "In Germany, the minimum age for the A1/A3 proof of competency is 16 (online training and exam, 40 questions from 9 subject areas, 75% to pass, valid for 5 years) — exception: flying under the direct supervision of a remote pilot with a valid certificate.",
+      "Mandatory liability insurance (§43 Luftverkehrsgesetz) — also applies to recreational drones, regardless of weight.",
+      "Flying over residential properties without the explicit consent of the owners or other authorized users is prohibited (§21h LuftVO). Exceptions: drones under 250 g without recording/transmission capability, or flights at 100 m altitude or higher under several conditions (legitimate interest, no public area available, consent cannot reasonably be obtained, data protection precautions, only 6-22 h, noise limits observed).",
+      "Within 100 m (laterally and above) of federal trunk roads, federal waterways and railway facilities, operation is only permitted if ONE of the conditions of § 21h Abs. 3 Nr. 5 LuftVO is met: a) overflight of a road or railway facility in the \"specific\" category with a risk assessment that accounts for the particular hazards of the overflight; b) explicit consent of the competent authority or the operator of the facility; c) the flight height above ground is always less than the lateral distance to the infrastructure, and this distance is always greater than 10 m; or d) for federal waterways: crossing by the shortest route at a height of at least 100 m, without flying over ships or shipping facilities. For industrial facilities, prisons, military facilities and energy facilities, the 100 m distance applies unless the competent authority or the operator of the facility gives explicit consent (Nr. 3). For railway facilities, DB InfraGO AG has published the requirements for railway-compatible UAS operation in NfL 1-2026-3788.",
+      "Nature reserves, national parks and Natura 2000 areas: overflight is prohibited (§ 21h Abs. 3 Nr. 6 LuftVO) unless the competent nature conservation authority explicitly consents or state law regulates operation differently. Outside national parks, operation is also permitted if all four conditions are met at the same time: no sporting or recreational purpose, flight height above 100 m, knowledge and appropriate consideration of the protection purpose, and the overflight is unavoidably necessary for the purpose of the operation.",
+      "ED-R 146: permanent restricted area over Berlin's government district — permission required. Check the current status on dipul.de before flying.",
+      "Since August 6, 2026, the zone model for UAS flights in control zones applies at 24 airports (DFS: NfL 2026-1-3960, which repeals NfL 2023-1-2705; DFS Aviation Services: NfL 2026-1-3981). Zone 1 — above the airport, within 1 km of its boundary, and in the runway corridors extended by 5 km (1 km each to the left and right of the runway centerline) — has no general clearance: an individual air traffic control clearance is always required there, applied for via ais.dfs.de with about 14 days' lead time. In zones 2 and 3, a general clearance applies up to 25 m and 45 m respectively above aerodrome elevation or above ground (whichever is lower); in zone 4 up to 100 m above aerodrome elevation or 50 m above ground (whichever is higher; if the take-off point is below aerodrome elevation, 100 m above ground applies). The general clearance only applies to UAS up to 25 kg (model aircraft up to 5 kg), requires a ground visibility of at least 800 m and excludes autonomous flights. Check your sub-zone and the terrain elevation in the dipul Maptool before flying.",
       "Direct Remote ID has been mandatory EU-wide for C1, C2, and C3 class drones since January 1, 2024"
     ],
     "importantNotes": [
-      "dipul shows airspace classes, but not a complete overview of restricted zones — supplement with the Droniq app",
+      "dipul shows airspace classes but does not provide a complete overview of all restricted areas — before flying near sensitive areas, also use the Droniq app or similar.",
       "Foreign pilots with EU registration must still comply with national aviation regulations",
-      "Taking photos on private property can also raise GDPR issues"
+      "Photographing private property may raise data protection issues (DSGVO/GDPR) in addition to the flight permission under §21h LuftVO."
     ],
     "primaryLinks": [
       {
@@ -52,8 +53,8 @@
         "description": "Apply for exemptions for special cases"
       },
       {
-        "title": "BMDV – Drone Information",
-        "description": "National Drone Regulations and Legal Basis (§21h of the German Air Traffic Regulations (LuftVO))"
+        "title": "BMV – Drone Information",
+        "description": "National drone regulation and legal basis (§21h LuftVO)"
       }
     ],
     "disclaimerText": "Always check official sources before your flight. This app is a tool—not a legal reference. Rules are subject to change without notice.",

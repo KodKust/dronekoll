@@ -1,18 +1,19 @@
 {
   "meta": {
-    "sourceHash": "cdf51635159a9ab6a3aeea2b4855eab4e7c0cffc1a63d0ea2536d0902dca0ee5",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "5646b8c07e69e790fbab03d3414fded620214417e727b8c7d6fe2c009d985a3c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Legfeljebb 120 m a talajszint felett (AGL)",
-      "A regisztráció kötelező a legalább 250 g tömegű drónok esetében, valamint a 250 g-nál könnyebb, kamerával felszerelt drónok esetében is",
+      "A nyílt kategóriában a legnagyobb magasság 120 m, a Föld felszínének legközelebbi pontjától mérve – nem csak függőlegesen lefelé, így lejtő közelében a melletted lévő talaj is számíthat. Egy 105 m-nél magasabb mesterséges akadály 50 m-es körzetében az akadályért felelős személy engedélyt kérelmezhet arra, hogy az akadály magasságánál legfeljebb 15 m-rel magasabban is lehessen repülni.",
+      "Drónüzemben tartóként regisztrálnod kell, ha a drónod 250 g-os vagy nehezebb (vagy ütközéskor több mint 80 J mozgási energiát adhat át) – ez még a játékokra is vonatkozik. 250 g alatt is szükséges a regisztráció, ha a drón személyes adatok rögzítésére alkalmas érzékelővel van felszerelve, kivéve, ha az uniós játékbiztonsági irányelv szerint játéknak minősül. A pilótaképzésre/-bizonyítványra vonatkozó követelmények ettől függetlenek, és a drón osztályától és alkategóriájától függenek.",
+      "Norvégiában az önálló repülés korhatára 16 év. Kivételt képeznek a játéknak minősülő C0 drónok, valamint a 250 g alatti, 19 m/s alatti maximális sebességű, saját építésű drónok. Ha 16 évesnél fiatalabb vagy, egy legalább 16 éves, érvényes kompetenciatanúsítvánnyal rendelkező távpilóta közvetlen felügyelete mellett repülhetsz.",
       "A saját hazádban kiállított EU-regisztráció érvényes – nincs szükség új norvég regisztrációra",
       "A felelősségbiztosítás általában kötelező a legalább 250 g tömegű drónoknál (a 250 g-nál könnyebb drónokra a nyílt kategóriában nincs ilyen követelmény)",
-      "Repülőtér 5 km-es körzetében engedély szükséges – használd a Ninox Drone alkalmazást",
-      "Oslo belvárosa (R102) állandó korlátozott terület – a polgári légügyi hatóság engedélyét igényli",
+      "Repülőtér 5 km-es körzetében való repüléshez toronyengedély szükséges – vedd fel a kapcsolatot a légiforgalmi szolgálattal telefonon vagy e-mailben, vagy ahol használatban van, kérelmezd a Ninox Drone alkalmazáson (Avinor) keresztül. Az alkalmazás használata nem követelmény.",
+      "Oslo belvárosa (R102) állandó korlátozott terület – a repüléshez a Luftfartstilsynet előzetes engedélye szükséges (kérelmezés az Altinnon vagy a postmottak@caa.no címen, kb. két hét ügyintézési idő, díjköteles). A rendőrség szilveszterkor/újév napján, május 17-én, a Storting megnyitásának napján és december 10-én általában nem ad engedélyt.",
       "A távoli azonosítás (Remote ID) kötelező a C1–C3 osztályú drónoknál",
       "A védett területeket és nemzeti parkokat mindig külön ellenőrizd"
     ],
@@ -31,8 +32,8 @@
         "description": "A korlátozott és tiltott zónák hivatalos térképe"
       },
       {
-        "title": "Ninox Drone – Engedély repülőtér közelében",
-        "description": "Igényelj engedélyt a repülőtér 5 km-es körzetében történő repüléshez"
+        "title": "NinoxDrone – engedélykérelem",
+        "description": "Az Avinor portálja drónüzemeltetőknek – kérelmek repülőterek közelében történő repüléshez (alkalmazás: NinoxDrone2)"
       },
       {
         "title": "Flydrone.no – Regisztráció és tanúsítás",

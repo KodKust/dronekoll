@@ -1,22 +1,22 @@
 {
   "meta": {
-    "sourceHash": "23f3ed06f9446eb9733c76bcdc77184702b32d1e071b7b4a74e10dadb06fcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "0ddaecf7ada88ef77cb8ed7fae4021c3fab852ece7e0827759a36641d94a5932",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Hasta 120 m sobre el nivel del suelo (categoría abierta de EASA)",
-      "Regístrate como operador de UAS (10 €/año) si tu dron pesa 250 g o más o lleva cámara",
-      "Formación en línea A1/A3 requerida; edad mínima 16 años",
-      "Mantén siempre el contacto visual directo (VLOS)",
+      "En la categoría abierta, la altura máxima es de 120 m, medida como la distancia al punto más cercano del terreno, no simplemente en vertical hacia abajo, así que cerca de una pendiente también puede contar el terreno adyacente. Además, en algunas zonas pueden aplicarse límites de altura más bajos; puedes consultarlos en el mapa de drones. En un radio de 50 m de una estructura artificial, puedes volar hasta 15 m por encima de la estructura con el permiso de la persona o entidad responsable de ella.",
+      "Debes registrarte como operador de drones si tu dron pesa 250 g o más (o puede transferir más de 80 J de energía cinética en una colisión); esto también se aplica a los juguetes. Por debajo de 250 g, el registro sigue siendo obligatorio si el dron tiene un sensor capaz de recopilar datos personales, salvo que se considere un juguete según la Directiva de la UE sobre la seguridad de los juguetes. Los requisitos de formación/certificado de piloto son aparte y dependen de la clase y la subcategoría del dron.",
+      "En Estonia, la edad mínima para los pilotos a distancia es de 16 años; hay excepciones para los drones de clase C0 en la subcategoría A1, para los drones de construcción propia de menos de 250 g y cuando se vuela bajo la supervisión directa de un piloto que cumpla los requisitos.",
+      "En la categoría abierta debes mantener el dron dentro de tu línea de visión directa, sin ayudas ópticas (las gafas o lentes de contacto están bien; los prismáticos o una pantalla no cuentan), o volar con la ayuda de un observador, manteniendo con él una comunicación continua, clara y eficaz para vigilar juntos el espacio aéreo y evitar colisiones. El modo follow-me es una excepción aparte, permitida hasta 50 m del piloto.",
       "No vueles sobre concentraciones de personas. Las normas para las personas no implicadas dependen de la subcategoría, la marca de clase y las condiciones operativas; consulta la matriz oficial.",
-      "Está prohibido volar en las inmediaciones de los aeropuertos (restricción de altitud de 0 m); consulta siempre las zonas restringidas en el Estonian Drone Map.",
-      "Los vuelos nocturnos están permitidos si el dron lleva una luz verde intermitente; hay una prohibición de vuelo nocturno en vigor cerca de la frontera oriental (de 20:00 a 7:00).",
+      "En las inmediaciones de los aeropuertos, el límite de altura en la categoría abierta es de 0 m: solo se puede volar con una autorización operacional de la categoría específica.",
+      "Los vuelos nocturnos están permitidos si el dron lleva una luz verde intermitente (UAS.OPEN.060(2)(g)).",
       "CTR del Aeropuerto de Tallin: revísalo con atención en el Estonian Drone Map",
       "Zonas restringidas alrededor de los aeropuertos de las islas (Saaremaa, Hiiumaa)",
-      "Zona fronteriza rusa: el vuelo de drones está totalmente prohibido en la zona fronteriza del condado de Ida-Viru; hay una prohibición de vuelo nocturno (de 20:00 a 7:00) en vigor a lo largo de toda la frontera oriental, y existen problemas importantes de interferencia de GPS; consulta los NOTAM."
+      "Se ha establecido una zona restringida cerca de la frontera estatal (hasta 300 m sobre el nivel del suelo o del agua): los vuelos en ella solo pueden realizarse con un permiso de la Politsei- ja Piirivalveamet (PPA) (Vabariigi Valitsuse korraldus nr 229, puntos 3.2 y 5.3). La PPA también establece zonas restringidas temporales cerca de la frontera; consulta los NOTAM. En la zona fronteriza se producen fuertes interferencias de GPS."
     ],
     "importantNotes": [
       "El registro cuesta 10 € al año y es válido en todos los países de la UE/EASA",
@@ -32,7 +32,7 @@
       },
       {
         "title": "Autoridad de Transporte — Regístrate como operador",
-        "description": "Regístrate como operador de UAS (10 €/año, válido en todos los países de la UE/EASA)"
+        "description": "Regístrate como operador de UAS en el sistema de información de supervisión de la seguridad aérea LOIS2 (tasa estatal de 10 €, válido durante un año, válido en todos los países de la UE/EASA)"
       },
       {
         "title": "Mapa de drones de Estonia (UTM)",

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "sourceHash": "004d6fde4894978be0e705543cec7048",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "cdde29cca7c7e3c85db89e62a8a6861f",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
@@ -19,10 +19,10 @@
       "A2 apliecība darbībām cilvēku tuvumā (eksāmens + praktiskais tests pie apstiprināta apmācības sniedzēja).",
       "Īrijas EASA reģistrācija ir derīga visās ES dalībvalstīs",
       "Atvērtajā kategorijā turi dronu savā nepastarpinātā redzamības laukā bez palīglīdzekļiem (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns netiek uzskatīts par tiešu redzamību) — vai lido ar novērotāja palīdzību, visu laiku uzturot skaidru un efektīvu saziņu, lai jūs kopā varētu uzraudzīt gaisa telpu un izvairīties no sadursmēm. Follow-me režīms ir atsevišķs izņēmums, kas atļauts līdz 50 m no pilota.",
-      "Minimālais attālums 30 m no cilvēkiem, cilvēku pūļiem, transportlīdzekļiem un ēkām.",
+      "Īrijā nav viena vispārēja attāluma no cilvēkiem. Tas, kas piemērojams, ir atkarīgs no drona klases marķējuma un apakškategorijas: A1 drīksti lidot cilvēku tuvumā, bet jāizvairās no lidošanas virs neiesaistītām personām; A2 jāievēro vismaz 30 m horizontāls attālums no neiesaistītām personām (5 m mazā ātruma režīmā ar C2 dronu); A3 jāatrodas vismaz 150 m no dzīvojamām, komerciālām, rūpnieciskām un atpūtas zonām, un darbības zonā nedrīkst būt neiesaistītu personu. Nekad nelido virs cilvēku pulcēšanās vietām.",
       "Nav viena visā ES noteikta attāluma, kas jāievēro no lidostām. Ierobežojumi lidostu tuvumā tiek publicēti kā ģeogrāfiskās zonas (Article 15), kuru forma un izmērs dažādās lidostās atšķiras. Pirms lidošanas jebkuras lidostas, lidlauka vai helikopteru lidlauka tuvumā pārbaudi savas valsts oficiālo dronu zonu karti; lidošanai kontroles zonā (CTR) parasti nepieciešama iepriekšēja gaisa satiksmes vadības atļauja.",
-      "Phoenix Park (Dublin): absolūts dronu aizliegums.",
-      "Nacionālajiem parkiem nepieciešama NPWS atļauja — vairums aizliedz dronus ligzdošanas sezonā"
+      "Phoenix Park (Dublina): drona lidojumam nepieciešama iepriekšēja Department of Justice atļauja (coflights@justice.ie) — to nevar saņemt jau gaisā",
+      "Īrijas nacionālie parki ir valsts zeme, kur papildus EASA/IAA aviācijas noteikumiem, kas ir spēkā visur, piemēro arī paša parka apmeklētāju noteikumus: lidot bez parka atļaujas nav atļauts, un Killarney atpūtas nolūkos dronu lidojumi nav atļauti vispār."
     ],
     "importantNotes": [
       "Gardaí (policija) par pārkāpumiem var uz vietas uzlikt naudassodu €500+ apmērā (no 2025. gada augusta).",
@@ -38,15 +38,15 @@
       },
       {
         "title": "IAA — Reģistrējies kā operators",
-        "description": "Reģistrējies kā UAS operators (€40, derīga 2 gadus, derīga visās ES/EASA valstīs)"
+        "description": "Reģistrējies kā UAS operators (€41, derīga 2 gadus, derīga visās ES/EASA valstīs)"
       },
       {
         "title": "IAA — Ģeogrāfisko zonu karte",
-        "description": "Oficiālā sarkano/dzelteno/zaļo zonu karte — pārbaudi pirms katra lidojuma"
+        "description": "Oficiālās IAA UAS ģeogrāfiskās zonas, publicētas kā ED-269/ED-318 datu fails — tikai uzziņai, nav paredzētas navigācijai. Pārbaudi pirms katra lidojuma."
       },
       {
         "title": "SafeDrone — Gaisa telpas karte",
-        "description": "Meklē pēc atrašanās vietas vai Eircode gaisa telpas ierobežojumus un zonu informāciju"
+        "description": "Kopienas karte, kas veidota uz oficiālo IAA zonu datu pamata — ņem vērā, ka zilās zonas ir Safe Drone Academy neoficiāli papildinājumi. Vienmēr salīdzini ar IAA pašas UAS Geographical Zones datiem."
       }
     ],
     "secondaryLinks": [

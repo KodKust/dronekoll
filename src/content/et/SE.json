@@ -1,20 +1,20 @@
 {
   "meta": {
-    "sourceHash": "552be0e829692206489496fe6ca91a32ed231ba21bc0abd64eefd98c31764ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "2b6964864962d4242f59e63d9dc8bd2b290b6e70d78f6d916b4bea9755df4e04",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimaalne lennukõrgus: 120 m maapinnast (EASA avatud kategooria).",
+      "Avatud kategoorias on maksimaalne kõrgus 120 m, mida mõõdetakse kaugusena maapinna lähima punktini — mitte ainult otse alla, nii et nõlva lähedal võib arvesse minna sinu kõrval olev maapind. Kõrge inimtekkelise takistuse (üle 105 m) 50 m raadiuses võib takistuse eest vastutav osapool taotleda luba lennata kuni 15 m kõrgemale takistuse kõrgusest.",
       "Operaator peab tavaliselt registreeruma, kui droon kaalub vähemalt 250 g või sellel on kaamera või andur, millega saab koguda isikuandmeid, välja arvatud juhul, kui droon kuulub mänguasjaerandi alla. Droonilitsentside ja lennukauguste nõuded sõltuvad drooni klassist, kaalust ja alamkategooriast.",
-      "A1/A3 droonilitsents on nõutav, kui droon kaalub 250 g või rohkem — Swedish Transport Agency korraldatav tasuline veebipõhine teooriatest; litsents kehtib 5 aastat. Drooni iseseisva käitamise vanuse alampiir on 15 aastat. Alla 15-aastased võivad lennata ainult kehtiva droonilitsentsiga ning vähemalt 16-aastase ja kehtivat droonilitsentsi omava kaugpiloodi järelevalve all.",
+      "Rootsis pead A1/A3 droonisertifikaadiga iseseisvalt lendamiseks olema 15-aastane (Transportstyrelseni tasuline veebipõhine teooriatest, kehtib 5 aastat). Alla 15-aastased tohivad lennata ainult vähemalt 16-aastase kaugpiloodi otsese järelevalve all, kellel endal on kehtiv droonisertifikaat.",
       "Operaatorinumber peab olema droonil selgelt märgitud.",
-      "Hoia drooni otsenähtavuses (VLOS) — ära lenda ümber nurga ega hoonete taha.",
-      "A1: alla 250 g kaaluvad droonid — võib lennata lennutegevusega mitteseotud isikute kohal (mitte rahvahulkade kohal).",
-      "A2: kuni 4 kg kaaluvad droonid — vähemalt 30 m kaugusel kõrvalistest inimestest (5 m madala kiiruse režiimis). Vajalik on A2 sertifikaat.",
-      "A3: kuni 25 kg kaaluvad droonid — vähemalt 150 m elu-, äri-, tööstus- ja puhkealadest.",
+      "Avatud kategoorias pead hoidma drooni oma palja silmaga otsenähtavuses (prillid/kontaktläätsed on lubatud; binokkel või ekraan ei lähe arvesse) — või lendama vaatleja abiga, kellega sul on kogu aeg selge ja tõhus side, et saaksite koos õhuruumi jälgida ja kokkupõrkeid vältida. Follow-me-režiim on eraldi erand, mis on lubatud kuni 50 m kaugusel piloodist.",
+      "A1: alla 250 g kaaluvad droonid — võib lennata lennutegevusega mitteseotud isikute kohal, kuid mitte kunagi rahvahulkade kohal.",
+      "A2: kuni 4 kg kaaluvad droonid — vähemalt 30 m kaugusel lennutegevusega mitteseotud isikutest (5 m aktiveeritud madala kiiruse režiimis, ≤ 3 m/s) ja alati vähemalt lennukõrgusega võrdsel kaugusel (reegel 1:1). Vajalik on A2 sertifikaat.",
+      "A3: kuni 25 kg kaaluvad droonid — lenda ainult seal, kus lennutegevusega mitteseotud isikute viibimist ei ole oodata, ja vähemalt 150 m horisontaalsel kaugusel elu-, äri-, tööstus- ja puhkealadest.",
       "Ära kunagi lenda rahvahulkade kohal ilma eriloata.",
       "Kontrolli enne iga lendu LFV Drone Map kaarti ja NOTAM-teateid."
     ],
@@ -27,38 +27,30 @@
     ],
     "primaryLinks": [
       {
-        "title": "Transpordiamet — Droonimäärused",
-        "description": ""
+        "title": "Transpordiamet — Droonimäärused"
       },
       {
-        "title": "LFV droonikaart — Õhuruum",
-        "description": ""
+        "title": "LFV droonikaart — Õhuruum"
       },
       {
-        "title": "Operaatori registreerimine (nõuab ≥250 g või kaamerat)",
-        "description": ""
+        "title": "Operaatori registreerimine (nõutav ≥250 g või kaameraga droonile, 250 kr/aastas)"
       },
       {
-        "title": "Droonilitsents A1/A3 — Veebipõhine teooriatest (nõuab ≥250 g, vanus 15 ja üle)",
-        "description": ""
+        "title": "Droonilitsents A1/A3 — Veebipõhine teooriatest (nõuab ≥250 g, vanus 15 ja üle)"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "A2 sertifikaat (üle 500 g kaaluvad droonid või inimeste lähedal lendamine)",
-        "description": ""
+        "title": "A2 sertifikaat (üle 500 g kaaluvad droonid või inimeste lähedal lendamine)"
       },
       {
-        "title": "AROweb — NOTAM ja AIP Rootsi",
-        "description": ""
+        "title": "AROweb — NOTAM ja AIP Rootsi"
       },
       {
-        "title": "Kaitstavad objektid — Võta ühendust Rootsi kaitsejõududega",
-        "description": ""
+        "title": "Kaitstavad objektid — Võta ühendust Rootsi kaitsejõududega"
       },
       {
-        "title": "Looduskaitsealad — Kontrolli oma maakonnavalitsusega",
-        "description": ""
+        "title": "Looduskaitsealad — Kontrolli oma maakonnavalitsusega"
       }
     ],
     "disclaimerText": "Kontrolli enne lendamist alati ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Reeglid võivad muutuda ette teatamata.",

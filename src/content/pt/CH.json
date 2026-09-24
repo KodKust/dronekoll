@@ -1,25 +1,27 @@
 {
   "meta": {
-    "sourceHash": "f36a1cf828ca8a0a643f670fd6a861c54e98b56220c07b5f5975ef302b2f4c03",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "sourceHash": "933e44d2614cf2cedaee58cc5869444dec9c634eb2504dc1238b121b71e2d432",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Um máximo de 120 m acima do nível do solo (Categoria Aberta EASA, ao abrigo de um acordo bilateral)",
-      "Registe-se como operador de UAS (10 CHF, válido indefinidamente) se o drone tiver peso igual ou superior a 250 g ou estiver equipado com câmara",
-      "Formação online A1/A3 obrigatória para pesos iguais ou superiores a 250 g (certificado válido por 5 anos) — idade mínima de 12 anos; as crianças com menos de 12 anos devem ser supervisionadas por alguém com 16 anos ou mais.",
+      "Na categoria aberta, a altura máxima é de 120 m, medida como a distância até ao ponto mais próximo da superfície terrestre — não simplesmente na vertical, pelo que, junto a uma encosta, o terreno ao seu lado também pode contar. Num raio de 50 m de um obstáculo artificial alto (com mais de 105 m), a entidade responsável pelo obstáculo pode solicitar autorização para voar até 15 m acima da altura do obstáculo.",
+      "Tem de se registar como operador de drones se o drone pesar 250 g ou mais (ou puder transferir mais de 80 J de energia cinética em caso de impacto) — isto aplica-se também a brinquedos. Abaixo de 250 g, o registo continua a ser obrigatório se o drone tiver um sensor capaz de captar dados pessoais, salvo se for considerado um brinquedo ao abrigo da Diretiva da UE relativa à segurança dos brinquedos. Os requisitos de formação/certificado do piloto são regulados separadamente e dependem da classe e subcategoria do drone.",
+      "Na Suíça, a idade mínima para pilotos remotos é de 12 anos na categoria de operação «aberta» e de 14 anos na categoria «específica» (art. 26 VLK, SR 748.941) — independentemente do peso do drone. Os pilotos mais novos só podem voar sob a supervisão direta de um piloto remoto que cumpra os requisitos. No registo, as crianças com menos de 16 anos têm de indicar um representante legal. A prova de competência A1/A3 obtém-se online e é válida por 5 anos.",
       "Seguro de responsabilidade civil obrigatório para drones com peso igual ou superior a 250 g (cobertura de 1 milhão de CHF)",
       "Membros de clubes de aeromodelismo: privilégios adicionais ao abrigo da regulamentação da FOCA",
-      "Mantenha sempre a linha de vista direta (VLOS) com o drone",
+      "Na categoria aberta, tem de manter o drone dentro da sua própria linha de vista, a olho nu (óculos/lentes de contacto são permitidos; binóculos ou um ecrã não contam) — ou voar com o apoio de um observador, mantendo sempre uma comunicação clara e eficaz entre ambos, para que em conjunto possam vigiar o espaço aéreo e evitar colisões. O modo follow-me é uma exceção distinta, permitida até 50 m do piloto.",
       "Não sobrevoe aglomerações de pessoas. As regras aplicáveis a pessoas não envolvidas dependem da subcategoria, da marca de classe e das condições de operação; consulte a matriz oficial.",
-      "Num raio de 5 km de aeroportos e aeródromos, a operação só é permitida com a autorização do aeródromo (drones com peso superior a 250 g).",
+      "Para drones com mais de 250 g, a operação é proibida a uma distância inferior a 5 km das pistas de um aeródromo civil ou militar e, numa CTR ativa, se for excedida uma altura de 120 m acima do solo (art. 28 VLK). A direção do aeródromo pode definir uma zona reduzida dentro dos 5 km; as exceções são concedidas pela direção do aeródromo ou pelo órgão de controlo de tráfego aéreo.",
+      "Independentemente do peso, a operação é proibida, entre outros locais, sobre estabelecimentos prisionais, sobre áreas militares enumeradas no anexo da VLK, sobre instalações de comutação ao ar livre do nível de rede 2 e a menos de 750 m de centrais nucleares e do armazém intermédio de Würenlingen (art. 27 VLK).",
       "Parques nacionais: uso de drones restrito ou proibido",
       "Regiões montanhosas: tenha atenção às rotas de helicópteros (salvamento, voos panorâmicos)"
     ],
     "importantNotes": [
       "O registo custa apenas 10 CHF — uma taxa única, com validade ilimitada e sem necessidade de renovação.",
+      "U-Space Zurique: o primeiro espaço aéreo U-Space da Suíça está a ser introduzido na CTR de Zurique (aprox. 10 km × 17 km); a utilização dos serviços U-Space será obrigatória para todos os pilotos de drones na área a partir do final de 2026 (é necessário um registo único junto de um USSP). Isentos: drones com menos de 250 g, aeromodelos, voos de Estado. Base jurídica: art. 29a–29e VLK.",
       "Seguro obrigatório para drones com peso igual ou superior a 250 g (cobertura: 1 milhão de CHF)",
       "A Suíça não é membro da UE, mas cumpre a regulamentação da EASA através de um acordo bilateral",
       "As rotas alpinas de helicópteros são frequentes — vigie sempre o espaço aéreo",
@@ -51,6 +53,10 @@
       {
         "title": "SMV — Aeromodelismo",
         "description": "Associação Suíça de Aeromodelismo, com privilégios de clube e locais"
+      },
+      {
+        "title": "DABS — Daily Airspace Bulletin Switzerland (BAZL)",
+        "description": "FOCA/BAZL: «Por isso, o DABS também tem de ser consultado antes de cada voo» — passo 2 da verificação em três passos da própria BAZL"
       }
     ],
     "disclaimerText": "Antes de cada voo, verifique sempre as fontes oficiais da FOCA/BAZL e o mapa oficial de drones em map.geo.admin.ch. Esta aplicação é uma ferramenta — não uma fonte legal. A Suíça segue a regulamentação da EASA através de um acordo bilateral.",

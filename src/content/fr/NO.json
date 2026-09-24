@@ -1,18 +1,19 @@
 {
   "meta": {
-    "sourceHash": "cdf51635159a9ab6a3aeea2b4855eab4e7c0cffc1a63d0ea2536d0902dca0ee5",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "5646b8c07e69e790fbab03d3414fded620214417e727b8c7d6fe2c009d985a3c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "120 m maximum au-dessus du sol (AGL)",
-      "L'enregistrement est requis pour les appareils pesant 250 g ou plus, ou de moins de 250 g s'ils sont équipés d'une caméra",
+      "Dans la catégorie ouverte, la hauteur maximale est de 120 m, mesurée comme la distance jusqu'au point le plus proche de la surface terrestre — et pas simplement à la verticale : près d'une pente, le sol à côté de vous peut donc aussi compter. À moins de 50 m d'un obstacle artificiel élevé (plus de 105 m), la personne responsable de l'obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
+      "Vous devez vous enregistrer comme exploitant de drone si votre drone pèse 250 g ou plus (ou peut transmettre plus de 80 J d'énergie cinétique en cas de collision) — cela vaut même pour les jouets. En dessous de 250 g, l'enregistrement reste requis si le drone est équipé d'un capteur capable de capter des données personnelles, sauf s'il est considéré comme un jouet au sens de la directive européenne relative à la sécurité des jouets. Les exigences de formation/de certificat du pilote sont distinctes et dépendent de la classe et de la sous-catégorie du drone.",
+      "En Norvège, l'âge minimum pour voler seul est de 16 ans. Des exceptions s'appliquent aux drones C0 classés comme jouets et aux drones de construction privée de moins de 250 g dont la vitesse maximale est inférieure à 19 m/s. Si vous avez moins de 16 ans, vous pouvez voler sous la supervision directe d'un télépilote âgé d'au moins 16 ans et titulaire d'un certificat d'aptitude valide.",
       "L'enregistrement UE de votre pays d'origine est valable — aucun nouvel enregistrement norvégien n'est nécessaire",
       "Une assurance responsabilité civile est normalement requise à partir de 250 g (aucune obligation en dessous de 250 g en catégorie ouverte)",
-      "Une autorisation est requise dans un rayon de 5 km d'un aéroport — utilisez l'application Ninox Drone",
-      "Le centre-ville d'Oslo (R102) est une zone réglementée permanente — l'autorisation de la Civil Aviation Authority est requise.",
+      "Une autorisation de la tour est requise pour voler à moins de 5 km d'un aéroport — contactez le service de la circulation aérienne par téléphone ou par e-mail, ou faites la demande via l'application Ninox Drone (Avinor) là où elle est utilisée. L'application n'est pas obligatoire.",
+      "Le centre d'Oslo (R102) est une zone réglementée permanente — y voler nécessite une autorisation préalable de Luftfartstilsynet (demande via Altinn ou postmottak@caa.no, délai de traitement d'environ deux semaines, payant). La police n'accorde normalement pas d'autorisation le soir du Nouvel An/le jour de l'An, le 17 mai, le jour d'ouverture du Storting ni le 10 décembre.",
       "L'identification à distance (Remote ID) est obligatoire pour les drones des classes C1 à C3",
       "Vérifiez toujours séparément les zones protégées et les parcs nationaux"
     ],
@@ -31,8 +32,8 @@
         "description": "Carte officielle des zones réglementées et des zones interdites"
       },
       {
-        "title": "Ninox Drone — Autorisation à proximité d'un aéroport",
-        "description": "Demandez l'autorisation de voler dans un rayon de 5 km d'un aéroport"
+        "title": "NinoxDrone – demander une autorisation",
+        "description": "Portail d'Avinor pour les exploitants de drones – demandes de vol près des aéroports (application : NinoxDrone2)"
       },
       {
         "title": "Flydrone.no — Enregistrement et certification",

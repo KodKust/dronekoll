@@ -1,21 +1,21 @@
 {
   "meta": {
-    "sourceHash": "49389e227b39ad270162c3ac5b4ca7074db2b61d6472d7eff6c37ed05fab160b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c0578e66e699fe36cfd68936aab2c9a41e3b5869fd85affc213b0724574a07a2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne daugiau kaip 120 m virš žemės paviršiaus (EASA atviroji kategorija)",
-      "Reikalinga A1/A3 internetinė mokymo programa — mažiausias amžius 16 metų",
-      "Visada išlaikykite tiesioginį regėjimo ryšį su dronu (VLOS)",
+      "Atvirojoje kategorijoje didžiausias leidžiamas aukštis yra 120 m, matuojamas kaip atstumas iki artimiausio žemės paviršiaus taško — ne statmenai žemyn, todėl prie šlaito gali būti atsižvelgiama ir į gretimą reljefą. 50 m spinduliu nuo aukštos dirbtinės kliūties (aukštesnės nei 105 m) už kliūtį atsakingas subjektas gali kreiptis dėl leidimo skristi iki 15 m aukščiau kliūties.",
+      "Suomijoje minimalus nuotolinio piloto amžius yra 12 metų dronams, sveriantiems daugiau nei 250 gramų (Traficom); C0 klasės arba savadarbiams lengvesniems nei 250 gramų dronams amžiaus ar mokymo reikalavimų nėra. Atkreipkite dėmesį, kad besiregistruojantis operatorius (naudotojas) visada turi būti pilnametis — nepilnamečio piloto atveju operatoriumi registruojasi globėjas.",
+      "Atvirojoje kategorijoje dronas turi likti jūsų paties tiesioginio regėjimo lauke be optinių priemonių (akiniai / kontaktiniai lęšiai tinka; žiūronai ar ekranas – ne) — arba galite skristi padedami stebėtojo, visą laiką palaikydami su juo aiškų ir veiksmingą ryšį, kad kartu galėtumėte stebėti oro erdvę ir išvengti susidūrimų. „Follow-me“ režimas yra atskira išimtis, leidžiama ne didesniu kaip 50 m atstumu nuo piloto.",
       "Neskriskite virš žmonių susibūrimų. Neįtrauktiems asmenims taikomos taisyklės priklauso nuo subkategorijos, klasės žymos ir eksploatavimo sąlygų; patikrinkite oficialią lentelę.",
-      "Laikykitės oro uostų CTR ir UAS oro erdvės zonų ribojimų — tikrinkite Droneinfo.fi",
+      "Laikykitės oro uostų CTR ir UAS oro erdvės zonų ribojimų. Zonos nustatytos Traficom reglamente OPS M1-29, kurio naujausia redakcija įsigaliojo 2026 m. balandžio 16 d. — dabartinę padėtį tikrinkite Fintraffic Sky žemėlapyje (sky.fintraffic.fi).",
       "Naktiniai skrydžiai leidžiami, jei dronas turi žalią mirksintį atpažinimo žibintą ir matomumas yra pakankamas",
       "Prie rytinės sienos galioja skrydžių ribojimai — prieš skrydį patikrinkite teritorijas, kurioms jie taikomi",
       "Lapland teritorijoje šiaurės elnių ganymo vietose gali galioti sezoniniai ribojimai",
-      "Tikrinkite Droneinfo.fi dėl konkrečioms teritorijoms taikomų ribojimų ir aukščio ribų"
+      "Konkrečioms teritorijoms taikomus ribojimus ir aukščio ribas tikrinkite Fintraffic Sky žemėlapyje (sky.fintraffic.fi)"
     ],
     "importantNotes": [
       "Eastern Border (EFR100) zona aktyvi 24 valandas per parą — dabar matoma žemėlapyje",
@@ -31,11 +31,11 @@
       },
       {
         "title": "Traficom — Registruokitės",
-        "description": "Registruokitės kaip UAS naudotojas (30 € 3 metams arba 100 € 5 metams, galioja visose ES/EASA šalyse)"
+        "description": "Registruokitės kaip UAS naudotojas (40 € 1 metams, 95 € 3 metams arba 125 € 5 metams, galioja visose ES/EASA šalyse)"
       },
       {
-        "title": "Droneinfo.fi — Oro erdvės žemėlapis",
-        "description": "Oficialus interaktyvus dronų žemėlapis, rodantis draudžiamąsias ir ribojamas zonas"
+        "title": "Fintraffic Sky – Oro erdvės žemėlapis",
+        "description": "Fintraffic ANS interaktyvus oro erdvės žemėlapis, kuriame rodomos UAS oro erdvės zonos, taip pat draudžiamosios ir ribojamosios teritorijos (tas pats žemėlapis, kuris atsidaro paspaudus programėlės mygtuką „Oro erdvė“)"
       },
       {
         "title": "Traficom — Mokymai ir egzaminai",
@@ -52,7 +52,7 @@
         "description": "Dažnai užduodami klausimai apie Suomijos dronų taisykles"
       }
     ],
-    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius Traficom šaltinius ir Droneinfo.fi. Ši programėlė yra įrankis, o ne oficiali institucija. Suomija laikosi EASA taisyklių su papildomais nacionaliniais reikalavimais.",
+    "disclaimerText": "Prieš skrydį visada pasitikrinkite oficialius Traficom šaltinius ir Fintraffic Sky žemėlapį. Ši programėlė yra įrankis, o ne oficiali institucija. Suomija laikosi EASA taisyklių su papildomais nacionaliniais reikalavimais.",
     "sectionLabelRules": "PAGRINDINĖS TAISYKLĖS (EASA ATVIROJI KATEGORIJA)",
     "sectionLabelPrimary": "OFICIALŪS ŠALTINIAI",
     "sectionLabelSecondary": "DAUGIAU INFORMACIJOS",

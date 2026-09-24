@@ -1,25 +1,27 @@
 {
   "meta": {
-    "sourceHash": "f36a1cf828ca8a0a643f670fd6a861c54e98b56220c07b5f5975ef302b2f4c03",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "933e44d2614cf2cedaee58cc5869444dec9c634eb2504dc1238b121b71e2d432",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálne 120 m nad úrovňou terénu (kategória EASA Open na základe bilaterálnej dohody)",
-      "Registrácia ako prevádzkovateľ UAS (CHF 10, platná neobmedzene), ak dron váži 250 g a viac alebo je vybavený kamerou",
-      "Online školenie A1/A3 sa vyžaduje pre drony s hmotnosťou 250 g a viac (osvedčenie platí 5 rokov) — minimálny vek je 12 rokov; deti mladšie ako 12 rokov musia byť pod dohľadom osoby vo veku 16 rokov alebo staršej.",
+      "V otvorenej kategórii je maximálna výška 120 m, meraná ako vzdialenosť k najbližšiemu bodu zemského povrchu — nie jednoducho zvislo nadol, takže pri svahu sa môže počítať aj terén vedľa vás. Do 50 m od vysokej umelej prekážky (vyššej ako 105 m) môže subjekt zodpovedný za prekážku požiadať o povolenie lietať až 15 m nad výškou prekážky.",
+      "Ako prevádzkovateľ dronu sa musíte zaregistrovať, ak váš dron váži 250 g alebo viac (alebo môže pri náraze odovzdať viac ako 80 J kinetickej energie) — platí to aj pre hračky. Pri hmotnosti pod 250 g sa registrácia stále vyžaduje, ak má dron snímač schopný zaznamenávať osobné údaje, pokiaľ sa nepovažuje za hračku podľa EU Toy Safety Directive. Požiadavky na výcvik a osvedčenie pilota sú upravené samostatne a závisia od triedy a podkategórie dronu.",
+      "Vo Švajčiarsku je minimálny vek diaľkovo riadiacich pilotov 12 rokov v prevádzkovej kategórii «open» a 14 rokov v kategórii «specific» (čl. 26 VLK, SR 748.941) — bez ohľadu na hmotnosť dronu. Mladší piloti smú lietať iba pod priamym dohľadom diaľkovo riadiaceho pilota, ktorý spĺňa požiadavky. Pri registrácii musia deti mladšie ako 16 rokov uviesť zákonného zástupcu. Doklad o spôsobilosti A1/A3 sa získava online a platí 5 rokov.",
       "Povinné poistenie zodpovednosti pre drony s hmotnosťou 250 g a viac (krytie CHF 1 milión)",
       "Členovia klubov leteckých modelárov: ďalšie výhody podľa predpisov FOCA",
-      "Dron majte vždy vo vizuálnom dohľade (VLOS)",
+      "V otvorenej kategórii musíte udržiavať dron vo vlastnom priamom vizuálnom dohľade bez pomôcok (okuliare alebo kontaktné šošovky sú v poriadku; ďalekohľad ani obrazovka sa nepočítajú) — alebo lietať s podporou pozorovateľa, pričom medzi vami musí byť neustále jasná a účinná komunikácia, aby ste spoločne mohli sledovať vzdušný priestor a predchádzať zrážkam. Režim follow-me je samostatná výnimka povolená do 50 m od pilota.",
       "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre nezúčastnené osoby závisia od podkategórie, označenia triedy a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
-      "V okruhu 5 km od letísk a letových plôch je prevádzka povolená iba s povolením príslušného letiska alebo letovej plochy (drony s hmotnosťou nad 250 g).",
+      "Pri dronoch s hmotnosťou nad 250 g je prevádzka zakázaná vo vzdialenosti menej ako 5 km od vzletových a pristávacích dráh civilného alebo vojenského letiska a v aktívnom CTR, ak sa prekročí výška 120 m nad zemou (čl. 28 VLK). Správa letiska môže v rámci 5 km vymedziť zmenšenú zónu; výnimky udeľuje správa letiska alebo stanovište riadenia letovej prevádzky.",
+      "Bez ohľadu na hmotnosť je prevádzka zakázaná okrem iného nad nápravnými zariadeniami, nad vojenskými priestormi uvedenými v prílohe VLK, nad vonkajšími rozvodňami sieťovej úrovne 2 a do 750 m od jadrových elektrární a medziskladu Würenlingen (čl. 27 VLK).",
       "Národné parky: používanie dronov obmedzené alebo zakázané",
       "Horské oblasti: majte na pamäti trasy vrtuľníkov (záchranné, vyhliadkové lety)"
     ],
     "importantNotes": [
       "Registrácia stojí iba CHF 10 — jednorazový poplatok s neobmedzenou platnosťou a bez potreby obnovovania.",
+      "U-Space Zürich: prvý vzdušný priestor U-Space vo Švajčiarsku sa zavádza v CTR Zürich (cca 10 km × 17 km); používanie služieb U-Space bude pre všetkých pilotov dronov v tejto oblasti povinné od konca roka 2026 (vyžaduje sa jednorazová registrácia u USSP). Výnimky: drony s hmotnosťou pod 250 g, modely lietadiel, štátne lety. Právny základ: čl. 29a–29e VLK.",
       "Povinné poistenie pre drony s hmotnosťou 250 g a viac (krytie: CHF 1 milión)",
       "Švajčiarsko nie je členom EÚ, ale predpisy EASA dodržiava na základe bilaterálnej dohody",
       "Alpské trasy vrtuľníkov sú bežné — vždy sledujte vzdušný priestor",
@@ -51,6 +53,10 @@
       {
         "title": "SMV — Letecké modelárstvo",
         "description": "Švajčiarsky zväz leteckého modelárstva s klubovými výhodami a lokalitami"
+      },
+      {
+        "title": "DABS — Daily Airspace Bulletin Switzerland (BAZL)",
+        "description": "FOCA/BAZL: «DABS preto treba skontrolovať aj pred každým letom» — 2. krok vlastnej trojstupňovej kontroly BAZL"
       }
     ],
     "disclaimerText": "Pred každým letom vždy skontrolujte oficiálne zdroje FOCA/BAZL a oficiálnu mapu dronov na map.geo.admin.ch. Táto aplikácia je nástroj, nie právny zdroj. Švajčiarsko sa riadi predpismi EASA na základe bilaterálnej dohody.",

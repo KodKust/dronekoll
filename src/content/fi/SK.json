@@ -1,22 +1,24 @@
 {
   "meta": {
-    "sourceHash": "52f1e9302ec2bcb4cb052daf85c1bc4eb0d04440f50f5931718d7e36efc0852a",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ba8a0d21aa6d8dafe028a7c48ce70de36567d44ff90036ca43f8450af32e0d5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröidy UAS-käyttäjäksi liikenneviranomaiselle, jos drone painaa vähintään 250 g tai siinä on kamera",
-      "Pakollinen A1/A3-verkkokoulutus — vähimmäisikä 16 vuotta",
-      "Vähimmäisetäisyydet alaluokittain: A1 — älä lennätä sivullisten yllä; A2 — vähintään 30 m ihmisistä (5 m hidaslentotilassa); A3 — vähintään 150 m asuin-, liike-, teollisuus- ja virkistysalueista.",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maa voidaan laskea mukaan. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
+      "Sinun on rekisteröidyttävä UAS-käyttäjäksi, jos dronesi painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g:n dronen kohdalla rekisteröinti on silti pakollinen, jos dronessa on henkilötietoja tallentamaan kykenevä anturi, ellei sitä pidetä EU:n lelujen turvallisuusdirektiivin mukaisena leluna. Lentäjän koulutus- ja todistusvaatimukset ovat erillisiä, ja ne riippuvat dronen luokasta ja alaluokasta.",
+      "Avoimessa kategoriassa itsenäinen lentäminen edellyttää vähintään 16 vuoden ikää — A1/A3-koulutus ja -koe (40 kysymystä, verkossa) ovat voimassa 5 vuotta, ja ne tunnustetaan koko EU:ssa. Nuoremmat lentäjät saavat lentää vain todistuksen omaavan kauko-ohjaajan välittömässä valvonnassa.",
+      "Vähimmäisetäisyydet alaluokittain: A1 — älä lennätä ulkopuolisten henkilöiden yllä; A2 — vähintään 30 m ulkopuolisista henkilöistä (5 m, kun hidaslentotila ≤ 3 m/s on käytössä) ja aina vähintään lentokorkeuden verran (1:1-sääntö); A3 — vähintään 150 m asuin-, liike-, teollisuus- ja virkistysalueista.",
+      "Avoimessa kategoriassa dronen on pysyttävä suorassa näköyhteydessäsi paljain silmin (silmälasit/piilolinssit käyvät; kiikareita tai näyttöä ei lasketa) — tai ota avuksesi tähystäjä, jonka kanssa viestitte selkeästi ja tehokkaasti koko ajan, jotta voitte yhdessä valvoa ilmatilaa ja välttää yhteentörmäykset. ”Follow-me”-tila on erillinen poikkeus, joka on sallittu enintään 50 m:n päässä lentäjästä.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-      "M. R. Štefánikin lentoasema, Bratislava: täydellinen lennätyskielto 5 km:n säteellä aina 500 m korkeuteen asti (PUAS0103M, voimassa 6. joulukuuta 2025 alkaen). Košicen, Popradin, Žilinan ja Piešťanyn lentoasemat (voimassa 31. maaliskuuta 2026 alkaen): 5 km:n säteellä lentoasemasta yli 30 m:n lennot ovat sallittuja vain koordinoinnin jälkeen — sähköpostitse lennonjohtoyksikölle vähintään 24 tuntia etukäteen.",
+      "Bratislavan M. R. Štefánikin lentoasemalla siviilidronejen lennot ovat kiellettyjä 3 km:n säteellä lentopaikan vertailupisteestä (48°10'12''N, 17°12'46''E) maanpinnasta 500 m:n korkeuteen maanpinnasta — vyöhyke RUAS098M ministerin päätöksen nro 104/2026 mukaisesti, voimassa 18. elokuuta 2026 alkaen; päätöksellä kumottiin aiempi vyöhyke PUAS0103M. Kielto ei koske hengenpelastuslentoja, ambulanssilentoja eikä etsintä- ja pelastuslentoja (SAR), eikä lentoja, jotka tehdään Slovakian tasavallan puolustusministeriön ennakkohyväksynnällä ja joissa on käytössä etätunnistusjärjestelmä. 5 km:n säteellä (vyöhyke RUAS001-LZIBAD-D) siviilien UAS-toiminta on sallittua vain erityiskategoriassa.",
+      "31. maaliskuuta 2026 alkaen lähilentovyöhykkeillä (CTR) Štefánik (Bratislava), Košice, Žilina, Piešťany ja Tatry (Poprad) sovelletaan liikenneviranomaisen päätöksen nro 1/2026 mukaisia uusia sääntöjä: ilman lupaa lentäminen on mahdollista vain yli 5 km:n etäisyydellä lentoasemasta ja enintään 30 m:n korkeudelle tai epätyypillisessä ilmatilassa (yli 5 km:n etäisyydellä lentoasemasta, enintään rakennuksen korkeudelle ja vain sen välittömässä läheisyydessä, enintään 30 m:n vaakaetäisyydellä rakennuksesta). Toimintaa lähilentovyöhykkeellä (CTR) nimettyjen maantieteellisten alueiden tarkoittamassa merkityksessä saa harjoittaa vain erityiskategorian toimintaluvan perusteella.",
+      "Lentoa edeltävään valmisteluun kuuluu sen tarkistaminen, että dronen etätunnistusjärjestelmä on päällä ja ajan tasalla (NSAT).",
       "Yölennot ovat sallittuja — dronessa on oltava päällä vihreä vilkkuva valo.",
       "Kansallispuistot (Tatravuoret, Slovakian paratiisi, Matalat Tatrat): rajoituksia voimassa",
-      "Bratislavan linna ja hallintoalueet: lennätyskieltoalueita",
+      "Malacky-Kuchyňan (RUAS077M), Sliačin (RUAS080M) ja Prešovin (RUAS081M) sotilaslentopaikat, kunkin säde 5 600 m: lennot vain Slovakian tasavallan puolustusministeriön ennakkohyväksynnällä ja etätunnistusjärjestelmän ollessa päällä (ministerin päätös nro 104/2026).",
       "Tarkista ennen jokaista lentoa UAS-maantieteelliset alueet (PUAS-/RUAS-vyöhykkeet) — luetteloa ylläpitävät liikenneministeriö ja liikenneviranomainen, ja vyöhykkeet voivat muuttua.",
       "Malacky-Kuchyňan, Sliačin ja Prešovin sotilaslentopaikat (RUAS-vyöhykkeet): lennot ovat sallittuja vain Slovakian tasavallan puolustusministeriön luvalla."
     ],
@@ -24,10 +26,15 @@
       "Etäisyydet ihmisistä määräytyvät EASAn alaluokkien (A1/A2/A3) mukaan — vanha kansallinen 50 metrin sääntö ei enää päde.",
       "UAS-käyttäjien rekisteröinnistä vastaa liikenneviranomainen, ja rekisteröinti on voimassa koko EU:ssa/EASA-alueella",
       "Tatravuorilla ja kansallispuistoissa on merkittäviä rajoituksia",
-      "M. R. Štefánikin lentoaseman ympäristö: täydellinen lennätyskielto 5 km:n säteellä (PUAS0103M) — tämä kattaa myös suuren osan Bratislavasta.",
+      "M. R. Štefánikin lentoaseman lähialue: siviilien UAS-lennot ovat kiellettyjä 3 km:n säteellä (vyöhyke RUAS098M, ministerin päätös nro 104/2026, voimassa 18. elokuuta 2026 alkaen); 5 km:n säteellä toiminta on sallittua vain erityiskategoriassa (RUAS001-LZIBAD-D).",
+      "Vakuutus on pakollinen, jos käytät UAS:ää avoimen kategorian alaluokissa A2/A3, erityiskategoriassa tai sertifioidussa kategoriassa (NSAT:n usein kysytyt kysymykset).",
       "GDPR-tietosuoja-asetus koskee tunnistettavien kuvien ottamista"
     ],
     "primaryLinks": [
+      {
+        "title": "UAS-maantieteelliset alueet — Liikenneviranomainen",
+        "description": "Liikenneviranomaisen virallinen sivu UAS-maantieteellisine alueineen (KML ladattavissa). Lentoa edeltävä valmistelu: tutustu voimassa oleviin maantieteellisiin alueisiin."
+      },
       {
         "title": "Liikenneviranomainen — Dronemääräykset",
         "description": "Liikenneviranomaisen viralliset dronesäännöt ja resurssit"

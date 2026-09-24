@@ -1,59 +1,60 @@
 {
- "meta": {
-  "sourceHash": "3f93b288335a64961197959526986fa369f18ef2ac4a0d684c859af0aa2a4931",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Până la 120 m deasupra solului (categoria EASA Open)",
-   "Înregistrează-te ca operator UAS la RDW (taxă unică de 23 € + taxă anuală de reînnoire de 13 €) dacă drona cântărește 250 g sau mai mult ori este echipată cu o cameră",
-   "Instruirea online A1/A3 este obligatorie — vârsta minimă 16 ani",
-   "CTR-ul de 14 km din jurul Schiphol acoperă cea mai mare parte a Amsterdamului — vezi harta oficială a spațiului aerian",
-   "Menține întotdeauna contactul vizual direct (VLOS) cu drona",
-   "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
-   "Distanță minimă de 3 km față de aeroporturile mici, cu o zonă-tampon mai mare în jurul Schiphol",
-   "Zborul pe timp de noapte este permis în conformitate cu cerințele de bază ale EASA pentru categoria deschisă, cu condiția utilizării luminii verzi intermitente obligatorii, cu excepția cazului în care o reglementare națională sau specifică unei zone geografice în vigoare impune o condiție mai strictă.",
-   "Zone naturale (Natura 2000): restricții în sezonul de cuibărit",
-   "Zone urbane dens populate din Randstad: verifică reglementările municipale locale"
-  ],
-  "importantNotes": [
-   "CTR-ul de 14 km din jurul Schiphol interzice de fapt zborul dronelor deasupra celei mai mari părți a Amsterdamului",
-   "Înregistrarea prin RDW costă o taxă unică de 23 € plus o taxă anuală de reînnoire de 13 € (din 2025) — valabilă în toate țările UE/EASA",
-   "Amenzi de până la 11.250 € pentru încălcări",
-   "Zone militare (Leeuwarden, Eindhoven, Volkel): interdicție totală de zbor",
-   "GDPR se aplică atunci când sunt create imagini care înfățișează persoane identificabile"
-  ],
-  "primaryLinks": [
-   {
-    "title": "ILT — reglementări privind dronele",
-    "description": "Regulile oficiale ale Inspectoratului pentru Mediu și Transport"
-   },
-   {
-    "title": "RDW — înregistrare ca operator",
-    "description": "Înregistrare gratuită ca operator UAS (valabilă în toate țările UE/EASA)"
-   },
-   {
-    "title": "ILT — prezentare generală a regulilor",
-    "description": "Prezentare generală a regulilor pentru zborul cu drone în Țările de Jos"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "LVNL — controlul traficului aerian",
-    "description": "Controlul traficului aerian neerlandez și informații despre spațiul aerian"
-   },
-   {
-    "title": "Guvernul central — reglementări privind dronele",
-    "description": "Portal guvernamental cu informații despre reglementările privind dronele"
-   }
-  ],
-  "disclaimerText": "Verifică întotdeauna sursele oficiale ale ILT și RDW și harta spațiului aerian a IenW înainte de zbor. Această aplicație este un instrument — nu o sursă juridică. Țările de Jos respectă reglementările EASA.",
-  "sectionLabelRules": "REGULI ESENȚIALE (CATEGORIA EASA OPEN)",
-  "sectionLabelPrimary": "SURSE OFICIALE",
-  "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
-  "linksSheetTitle": "Spațiu aerian și reglementări — Țările de Jos",
-  "dronePilotCredentialName": "Licență de pilot A1/A3"
- }
+  "meta": {
+    "sourceHash": "3c54b50d3e51926a9a7b9c89db124d744240fd7e158e4869e88669a6d03744df",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "În categoria deschisă, înălțimea maximă este de 120 m, măsurată ca distanța până la cel mai apropiat punct de pe suprafața Pământului — nu pur și simplu pe verticală în jos, astfel încât, în apropierea unei pante, poate conta și terenul de lângă tine. Pe o rază de 50 m în jurul unui obstacol artificial înalt (peste 105 m), entitatea responsabilă de obstacol poate solicita permisiunea de a zbura până la 15 m deasupra înălțimii obstacolului.",
+      "Trebuie să te înregistrezi ca operator de dronă dacă drona ta cântărește 250 g sau mai mult (sau ar putea transfera, în caz de coliziune, o energie cinetică de peste 80 J) — acest lucru se aplică și jucăriilor. Sub 250 g, înregistrarea este totuși necesară dacă drona are un senzor capabil să colecteze date cu caracter personal, cu excepția cazului în care este considerată jucărie în sensul Directivei UE privind siguranța jucăriilor. Cerințele privind instruirea/certificatul de pilot sunt reglementate separat și depind de clasa și subcategoria dronei.",
+      "În Țările de Jos, vârsta minimă pentru certificatul A1/A3 este de 16 ani. Dacă ești mai tânăr, un observator (cu un certificat valabil) trebuie să mențină în permanență drona în raza vizuală și să rămână în contact cu tine.",
+      "Zona interzisă din jurul Schiphol acoperă cea mai mare parte a Amsterdamului și a împrejurimilor — verifică harta oficială înainte de fiecare zbor, în loc să te bazezi pe o distanță fixă.",
+      "În categoria deschisă, trebuie să menții drona în propria ta rază vizuală directă, cu ochiul liber (ochelarii/lentilele de contact sunt în regulă; binoclul sau un ecran nu contează) — sau să zbori cu ajutorul unui observator, cu o comunicare clară și eficientă între voi în permanență, astfel încât împreună să puteți supraveghea spațiul aerian și evita coliziunile. Modul follow-me este o excepție separată, permisă până la 50 m de pilot.",
+      "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
+      "Restricțiile din jurul aeroporturilor sunt publicate ca zone de interdicție a zborului pe harta oficială a dronelor; în jurul Schiphol se aplică o zonă-tampon extinsă. Verifică harta înainte de a zbura în apropierea unui aeroport — nu există o distanță fixă unică valabilă peste tot.",
+      "În Țările de Jos nu ai voie să zbori noaptea în categoria deschisă. Zborul este limitat la Perioada uniformă de lumină naturală (Uniforme Daglicht Periode, UDP), care durează de la răsăritul până la apusul soarelui. O derogare pentru a zbura în afara UDP poate fi solicitată de la ILT numai pentru zborurile din categoria specifică — această opțiune nu există pentru categoria deschisă.",
+      "Zone naturale (Natura 2000): în unele zone se aplică restricții pentru drone — acestea sunt stabilite de provincie sau de administratorul zonei, nu printr-un sezon fix. Verifică regulile provinciale și informațiile despre zone de pe hartă înainte de zbor.",
+      "Zone urbane dens populate din Randstad: verifică reglementările municipale locale",
+      "Distanța față de drumuri, căi ferate și rețeaua de înaltă tensiune (Regeling onbemande luchtvaartuigen art. 6 și 8, categoria deschisă): nu la mai puțin de 50 m (A1/A2) sau 150 m (A3) de autostrăzile, drumurile expres și drumurile cu limită de viteză de 80 km/h aflate în folosință; nu la mai puțin de 25 m (A1/A2) sau 150 m (A3) de căile ferate; și nu la mai puțin de 150 m de obiectele sau zonele care fac parte din sistemul de transport al energiei electrice (rețeaua de înaltă tensiune)."
+    ],
+    "importantNotes": [
+      "În jurul Schiphol se aplică o zonă interzisă extinsă, care acoperă cea mai mare parte a Amsterdamului și zonele de agrement din împrejurimi; verifică harta oficială înainte de fiecare zbor, în loc să te bazezi pe o distanță fixă.",
+      "Înregistrarea prin RDW costă o taxă unică de 23 € plus o taxă anuală de reînnoire de 13 € (din 2025) — valabilă în toate țările UE/EASA",
+      "Încălcările pot atrage amenzi mari, confiscarea dronei și, în caz de recidivă, chiar urmărire penală — sumele variază în funcție de încălcare.",
+      "Aeroporturile militare Leeuwarden, Eindhoven și Volkel (CTR): zborurile în categoria deschisă sunt interzise aici; zborurile în categoria specifică necesită un privilegiu în autorizația operațională (textul zonei IenW, Regeling onbemande luchtvaartuigen art. 7).",
+      "GDPR se aplică atunci când sunt create imagini care înfățișează persoane identificabile"
+    ],
+    "primaryLinks": [
+      {
+        "title": "ILT — reglementări privind dronele",
+        "description": "Regulile oficiale ale Inspectoratului pentru Mediu și Transport"
+      },
+      {
+        "title": "RDW — înregistrare ca operator",
+        "description": "Înregistrare ca operator UAS: 23 € o singură dată, apoi 13 € pe an la reînnoire (numărul de operator este valabil 1 an; valabil în toate țările UE/EASA)"
+      },
+      {
+        "title": "ILT — prezentare generală a regulilor",
+        "description": "Prezentare generală a regulilor pentru zborul cu drone în Țările de Jos"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "LVNL — controlul traficului aerian",
+        "description": "Controlul traficului aerian neerlandez și informații despre spațiul aerian"
+      },
+      {
+        "title": "Guvernul central — reglementări privind dronele",
+        "description": "Portal guvernamental cu informații despre reglementările privind dronele"
+      }
+    ],
+    "disclaimerText": "Verifică întotdeauna sursele oficiale ale ILT și RDW și harta spațiului aerian a IenW înainte de zbor. Această aplicație este un instrument — nu o sursă juridică. Țările de Jos respectă reglementările EASA.",
+    "sectionLabelRules": "REGULI ESENȚIALE (CATEGORIA EASA OPEN)",
+    "sectionLabelPrimary": "SURSE OFICIALE",
+    "sectionLabelSecondary": "RESURSE SUPLIMENTARE",
+    "linksSheetTitle": "Spațiu aerian și reglementări — Țările de Jos",
+    "dronePilotCredentialName": "Licență de pilot A1/A3"
+  }
 }

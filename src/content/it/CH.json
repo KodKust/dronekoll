@@ -1,25 +1,27 @@
 {
   "meta": {
-    "sourceHash": "f36a1cf828ca8a0a643f670fd6a861c54e98b56220c07b5f5975ef302b2f4c03",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "933e44d2614cf2cedaee58cc5869444dec9c634eb2504dc1238b121b71e2d432",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Massimo 120 m dal suolo (categoria Open EASA in base a un accordo bilaterale)",
-      "Registrati come operatore UAS (CHF 10, validità illimitata) se il drone pesa 250 g o più o è dotato di fotocamera",
-      "Formazione online A1/A3 richiesta per i droni di peso pari o superiore a 250 g (certificato valido per 5 anni) — età minima 12 anni; i minori di 12 anni devono essere sorvegliati da una persona di almeno 16 anni.",
+      "Nella categoria Open, l'altezza massima è di 120 m, misurata come distanza dal punto più vicino della superficie terrestre, non semplicemente in verticale verso il basso: vicino a un pendio può quindi contare anche il terreno accanto a te. Entro 50 m da un ostacolo artificiale alto (oltre 105 m), il soggetto responsabile dell'ostacolo può richiedere l'autorizzazione a volare fino a 15 m sopra l'altezza dell'ostacolo.",
+      "Devi registrarti come operatore di droni se il drone pesa 250 g o più (oppure può trasferire più di 80 J di energia cinetica in caso di impatto): ciò vale anche per i giocattoli. Sotto i 250 g la registrazione è comunque richiesta se il drone ha un sensore in grado di acquisire dati personali, salvo che sia considerato un giocattolo ai sensi della EU Toy Safety Directive. I requisiti di formazione/certificazione del pilota sono regolati separatamente e dipendono dalla classe e dalla sottocategoria del drone.",
+      "In Svizzera l'età minima per i piloti remoti è di 12 anni nella categoria operativa «open» e di 14 anni nella categoria «specific» (art. 26 VLK, SR 748.941), indipendentemente dal peso del drone. I piloti più giovani possono volare solo sotto la supervisione diretta di un pilota remoto che soddisfa i requisiti. Al momento della registrazione, i minori di 16 anni devono indicare un rappresentante legale. Il certificato di competenza A1/A3 si ottiene online ed è valido 5 anni.",
       "Assicurazione di responsabilità civile obbligatoria per i droni di peso pari o superiore a 250 g (copertura di CHF 1 milione)",
       "Soci di club di aeromodellismo: privilegi aggiuntivi ai sensi della normativa FOCA",
-      "Mantieni sempre il contatto visivo diretto (VLOS) con il drone",
+      "Nella categoria Open devi mantenere il drone entro la tua linea di vista, a occhio nudo (occhiali e lenti a contatto sono ammessi; binocolo o schermo non contano), oppure volare con il supporto di un osservatore, mantenendo sempre una comunicazione chiara ed efficace tra voi, così da poter sorvegliare insieme lo spazio aereo ed evitare collisioni. La modalità Follow-me è un'eccezione distinta, consentita fino a 50 m dal pilota.",
       "Non sorvolare assembramenti di persone. Le norme per le persone non coinvolte dipendono dalla sottocategoria, dalla marcatura di classe e dalle condizioni operative; consulta la tabella ufficiale.",
-      "Entro 5 km da aeroporti e aviosuperfici, il volo è consentito solo con l'autorizzazione dell'aerodromo interessato (droni di peso superiore a 250 g).",
+      "Per i droni oltre 250 g è vietato l'impiego a una distanza inferiore a 5 km dalle piste di un aerodromo civile o militare e, in un CTR attivo, se si supera un'altezza di 120 m dal suolo (art. 28 VLK). La direzione dell'aerodromo può definire una zona ridotta all'interno dei 5 km; le eccezioni sono concesse dalla direzione dell'aerodromo o dall'ente di controllo del traffico aereo.",
+      "Indipendentemente dal peso, l'impiego è vietato, tra l'altro, sopra gli istituti penitenziari, sopra le aree militari elencate nell'allegato della VLK, sopra gli impianti di distribuzione all'aperto del livello di rete 2 ed entro 750 m dalle centrali nucleari e dal deposito intermedio di Würenlingen (art. 27 VLK).",
       "Parchi nazionali: uso dei droni limitato o vietato",
       "Regioni montane: presta attenzione alle rotte degli elicotteri (soccorso, voli panoramici)"
     ],
     "importantNotes": [
       "La registrazione costa solo CHF 10 — una tariffa una tantum con validità illimitata e senza necessità di rinnovo.",
+      "U-Space Zurigo: il primo spazio aereo U-Space della Svizzera viene introdotto nel CTR di Zurigo (circa 10 km × 17 km); dalla fine del 2026 l'uso dei servizi U-Space sarà obbligatorio per tutti i piloti di droni nell'area (è richiesta una registrazione una tantum presso un USSP). Esenti: droni sotto i 250 g, aeromodelli, voli di Stato. Base giuridica: art. 29a–29e VLK.",
       "Assicurazione obbligatoria per i droni di peso pari o superiore a 250 g (copertura: CHF 1 milione)",
       "La Svizzera non è membro dell'UE, ma applica la normativa EASA tramite un accordo bilaterale",
       "Le rotte degli elicotteri in area alpina sono frequenti: tieni sempre d'occhio lo spazio aereo",
@@ -51,6 +53,10 @@
       {
         "title": "SMV — Aeromodellismo",
         "description": "Associazione svizzera di aeromodellismo con privilegi per i soci e ubicazioni dei club"
+      },
+      {
+        "title": "DABS — Daily Airspace Bulletin Switzerland (BAZL)",
+        "description": "FOCA/BAZL: «Il DABS deve quindi essere consultato anche prima di ogni volo» — passo 2 della verifica in tre passi della stessa BAZL"
       }
     ],
     "disclaimerText": "Prima di ogni volo, verifica sempre le fonti ufficiali della FOCA/BAZL e la mappa ufficiale dei droni su map.geo.admin.ch. Questa app è uno strumento, non una fonte giuridica. La Svizzera segue la normativa EASA tramite un accordo bilaterale.",

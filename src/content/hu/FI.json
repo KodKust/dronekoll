@@ -1,21 +1,21 @@
 {
   "meta": {
-    "sourceHash": "49389e227b39ad270162c3ac5b4ca7074db2b61d6472d7eff6c37ed05fab160b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c0578e66e699fe36cfd68936aab2c9a41e3b5869fd85affc213b0724574a07a2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Legfeljebb 120 m a talajszint felett (EASA nyílt kategória)",
-      "A1/A3 online képzés szükséges – legalább 16 éves kortól",
-      "Mindig tartsd a drónt közvetlen látótávolságon belül (VLOS)",
+      "A nyílt kategóriában a legnagyobb megengedett magasság 120 m, a földfelszín legközelebbi pontjától mérve – nem függőlegesen lefelé, így lejtő közelében a szomszédos terep is figyelembe vehető. Egy 105 m-nél magasabb mesterséges akadály 50 m-es sugarú körzetében az akadályért felelős szervezet engedélyt kérelmezhet arra, hogy az akadály magasságánál legfeljebb 15 m-rel magasabban is lehessen repülni.",
+      "Finnországban a távpilóta alsó korhatára a 250 grammnál nehezebb drónoknál 12 év (Traficom); a 250 gramm alatti C0 osztályú vagy saját építésű drónoknál nincs életkori vagy képzési követelmény. Fontos, hogy a regisztráló üzemben tartónak (felhasználónak) mindig nagykorúnak kell lennie – kiskorú pilóta esetén a gondviselő regisztrál üzemben tartóként.",
+      "A nyílt kategóriában a drónnak a saját, szabad szemmel fenntartott látótávolságodon belül kell maradnia (szemüveg/kontaktlencse megengedett; távcső vagy képernyő nem) – vagy repülhetsz egy megfigyelő segítségével, akivel mindvégig egyértelműen és hatékonyan kommunikálsz, így együtt figyelhetitek a légteret és kerülhetitek el az ütközéseket. A „follow-me” (követő) mód külön kivétel, a pilótától legfeljebb 50 m távolságig engedélyezett.",
       "Ne repülj embertömeg felett. A műveletben részt nem vevő személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; ellenőrizd a hivatalos táblázatot.",
-      "Tartsd be a repülőtéri CTR-ekre és az UAS-légtéri zónákra vonatkozó korlátozásokat – nézd meg a Droneinfo.fi oldalt",
+      "Tartsd be a repülőterek CTR-jeinek és az UAS-légtérzónáknak a korlátozásait. A zónákat a Traficom OPS M1-29 rendelete határozza meg, amelynek legújabb változata 2026. április 16-án lépett hatályba – az aktuális helyzetet a Fintraffic Sky térképen (sky.fintraffic.fi) ellenőrizd.",
       "Az éjszakai repülés akkor engedélyezett, ha a drón zöld villogó azonosító fénnyel rendelkezik, és a látótávolság megfelelő",
       "A keleti határ közelében repülési korlátozások vannak – ellenőrizd az érintett területeket a repülés előtt",
       "Lappföldön szezonális korlátozások lehetnek a rénszarvastartó területeken",
-      "A területspecifikus korlátozásokat és magasságkorlátokat ellenőrizd a Droneinfo.fi oldalon"
+      "A területspecifikus korlátozásokat és magasságkorlátokat ellenőrizd a Fintraffic Sky térképen (sky.fintraffic.fi)"
     ],
     "importantNotes": [
       "A keleti határ (EFR100) zónája napi 24 órában aktív – mostantól látható a térképen",
@@ -31,11 +31,11 @@
       },
       {
         "title": "Traficom – regisztráció",
-        "description": "Regisztrálj UAS-felhasználóként (30 € 3 évre vagy 100 € 5 évre, minden EU-/EASA-országban érvényes)"
+        "description": "Regisztrálj UAS-felhasználóként (40 € 1 évre, 95 € 3 évre vagy 125 € 5 évre, minden EU-/EASA-országban érvényes)"
       },
       {
-        "title": "Droneinfo.fi – légtértérkép",
-        "description": "Hivatalos interaktív dróntérkép a repülési tilalmi és korlátozott zónák megjelenítésével"
+        "title": "Fintraffic Sky – légtértérkép",
+        "description": "A Fintraffic ANS interaktív légtértérképe az UAS-légtérzónákkal, valamint a tiltott és korlátozott területekkel (ugyanaz a térkép, amely az alkalmazás Légtér gombja mögött van)"
       },
       {
         "title": "Traficom – képzések és vizsgák",
@@ -52,7 +52,7 @@
         "description": "Gyakran ismételt kérdések Finnország drónszabályozásáról"
       }
     ],
-    "disclaimerText": "Repülés előtt mindig ellenőrizd a Traficom hivatalos forrásait és a Droneinfo.fi oldalt. Ez az alkalmazás egy segédeszköz, nem hivatalos hatósági forrás. Finnország az EASA szabályait követi, további nemzeti követelményekkel.",
+    "disclaimerText": "Repülés előtt mindig ellenőrizd a Traficom hivatalos forrásait és a Fintraffic Sky térképet. Ez az alkalmazás egy segédeszköz, nem hivatalos hatósági forrás. Finnország az EASA szabályait követi, további nemzeti követelményekkel.",
     "sectionLabelRules": "FŐBB SZABÁLYOK (EASA NYÍLT KATEGÓRIA)",
     "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
     "sectionLabelSecondary": "TOVÁBBI INFORMÁCIÓK",

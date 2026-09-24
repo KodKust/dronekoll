@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "2c58b7a31f1c8559936a55c3a5e025f7dd391e382ab6ecfeb89c30fa2c945c23",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef69e20c9988bcf5f856c6fb76c01616820e80425007ad49d1b4c9740db11a03",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Högst 120 m över marken (AGL) i öppen kategori",
-      "Registrering för drönare som väger 250 g eller mer (eller under 250 g om de har kamera) – registreringsnummer från LBA",
+      "I den öppna kategorin mäts den högsta tillåtna höjden på 120 m som avståndet till närmaste punkt på jordytan – inte bara rakt nedåt, så nära en sluttning kan även marken bredvid dig räknas. Inom 50 m från ett högt konstgjort hinder (över 105 m) kan den som ansvarar för hindret begära tillstånd att flyga upp till 15 m över hindrets höjd.",
+      "Du måste registrera dig som drönaroperatör om drönaren väger 250 g eller mer (eller kan överföra mer än 80 J rörelseenergi vid en kollision) – det gäller även leksaker. Under 250 g krävs registrering ändå om drönaren har en sensor som kan samla in personuppgifter, såvida den inte räknas som en leksak enligt EU Toy Safety Directive. Kraven på pilotutbildning och certifikat regleras separat och beror på drönarens klass och underkategori.",
       "Operatörsregistreringen hos LBA är avgiftsbelagd – lägsta ålder är 16 år. Registreringsnumret (e-ID) måste vara tydligt synligt på drönaren.",
-      "A1/A3-fjärrpilotcertifikat (avgiftsbelagt onlineprov hos LBA) eller A2-intyg för att flyga närmare människor – kontrollera aktuella avgifter på lba.de",
-      "Obligatorisk ansvarsförsäkring (§ 43 i den tyska luftfartslagen) – även för drönare för nöjesbruk",
-      "Förbud mot att flyga över bostadsfastigheter utan de boendes samtycke (§ 21h i luftfartsföreskrifterna)",
-      "Flygning inom 100 meter från järnvägsanläggningar, motorvägar eller industrianläggningar är förbjuden utan operatörens eller ägarens samtycke",
-      "Flygförbud i naturreservat och nationalparker",
-      "ED-R 146: Permanent restriktionszon över Berlin (regeringskvarteren) – tillstånd krävs",
+      "I Tyskland är lägsta ålder för A1/A3-kompetensbeviset 16 år (onlineutbildning och prov, 40 frågor från 9 ämnesområden, 75 % för godkänt, giltigt i 5 år) – undantag: flygning under direkt uppsikt av en fjärrpilot med giltigt certifikat.",
+      "Obligatorisk ansvarsförsäkring (§43 Luftverkehrsgesetz) – gäller även drönare för nöjesbruk, oavsett vikt.",
+      "Det är förbjudet att flyga över bostadsfastigheter utan uttryckligt samtycke från ägarna eller andra behöriga nyttjare (§21h LuftVO). Undantag: drönare under 250 g utan möjlighet att spela in eller överföra, eller flygningar på 100 m höjd eller högre under flera villkor (berättigat intresse, inget allmänt område tillgängligt, samtycke kan inte rimligen inhämtas, dataskyddsåtgärder, endast kl. 6–22, bullergränser respekteras).",
+      "Inom 100 m (i sidled och ovanför) från federala huvudvägar, federala vattenvägar och järnvägsanläggningar är flygning endast tillåten om ETT av villkoren i § 21h Abs. 3 Nr. 5 LuftVO är uppfyllt: a) överflygning av en väg eller järnvägsanläggning i kategorin ”specifik” med en riskbedömning som tar hänsyn till de särskilda riskerna med överflygningen; b) uttryckligt samtycke från behörig myndighet eller från anläggningens operatör; c) flyghöjden över marken är alltid mindre än det horisontella avståndet till infrastrukturen, och detta avstånd är alltid större än 10 m; eller d) för federala vattenvägar: att korsa vattenvägen den kortaste vägen på minst 100 m höjd, utan att flyga över fartyg eller sjöfartsanläggningar. För industrianläggningar, fängelser, militära anläggningar och energianläggningar gäller avståndet på 100 m, såvida inte behörig myndighet eller anläggningens operatör ger uttryckligt samtycke (Nr. 3). För järnvägsanläggningar har DB InfraGO AG publicerat kraven för järnvägskompatibel UAS-flygning i NfL 1-2026-3788.",
+      "Naturreservat, nationalparker och Natura 2000-områden: överflygning är förbjuden (§ 21h Abs. 3 Nr. 6 LuftVO) såvida inte behörig naturvårdsmyndighet uttryckligen samtycker eller delstatens lagstiftning reglerar flygningen på annat sätt. Utanför nationalparker är flygning även tillåten om alla fyra villkor är uppfyllda samtidigt: inget sport- eller fritidsändamål, flyghöjd över 100 m, kännedom om och vederbörlig hänsyn till skyddssyftet, och överflygningen är oundgängligen nödvändig för flygningens syfte.",
+      "ED-R 146: permanent restriktionsområde över regeringskvarteren i Berlin – tillstånd krävs. Kontrollera aktuell status på dipul.de innan du flyger.",
+      "Sedan den 6 augusti 2026 gäller zonmodellen för UAS-flygningar i kontrollzoner vid 24 flygplatser (DFS: NfL 2026-1-3960, som upphäver NfL 2023-1-2705; DFS Aviation Services: NfL 2026-1-3981). Zon 1 – över flygplatsen, inom 1 km från dess gräns och i korridorerna i banornas förlängning upp till 5 km (1 km åt vänster och höger om banans centrumlinje) – har ingen generell klarering: där krävs alltid en individuell klarering från flygtrafikledningen, som söks via ais.dfs.de med cirka 14 dagars framförhållning. I zon 2 och 3 gäller en generell klarering upp till 25 m respektive 45 m över flygplatsens höjd eller över marken (det som är lägst); i zon 4 upp till 100 m över flygplatsens höjd eller 50 m över marken (det som är högst; om startplatsen ligger lägre än flygplatsens höjd gäller 100 m över marken). Den generella klareringen gäller endast UAS upp till 25 kg (modellflygplan upp till 5 kg), kräver en sikt vid marken på minst 800 m och utesluter autonoma flygningar. Kontrollera din delzon och terränghöjden i dipul Maptool innan du flyger.",
       "Direct Remote ID har varit obligatoriskt i hela EU för drönare i klasserna C1, C2 och C3 sedan den 1 januari 2024"
     ],
     "importantNotes": [
-      "dipul visar luftrumsklasser, men inte en fullständig översikt över restriktionszoner – komplettera med appen Droniq",
+      "dipul visar luftrumsklasser men ger ingen fullständig översikt över alla restriktionsområden – använd även appen Droniq eller liknande innan du flyger nära känsliga områden.",
       "Utländska piloter med EU-registrering måste ändå följa de nationella luftfartsföreskrifterna",
-      "Att ta foton på privat mark kan också väcka GDPR-frågor"
+      "Att fotografera privat egendom kan väcka dataskyddsfrågor (DSGVO/GDPR) utöver flygtillståndet enligt §21h LuftVO."
     ],
     "primaryLinks": [
       {
@@ -51,8 +52,8 @@
         "description": "Ansök om undantag för särskilda fall"
       },
       {
-        "title": "BMDV – Drönarinformation",
-        "description": "Nationella regler för drönare och rättslig grund (§ 21h i de tyska luftfartsföreskrifterna, LuftVO)"
+        "title": "BMV – Information om drönare",
+        "description": "Nationella drönarregler och rättslig grund (§21h LuftVO)"
       }
     ],
     "disclaimerText": "Kontrollera alltid officiella källor före din flygning. Den här appen är ett verktyg – inte en juridisk referens. Reglerna kan ändras utan förvarning.",

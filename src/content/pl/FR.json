@@ -1,27 +1,29 @@
 {
   "meta": {
-    "sourceHash": "3f4b20da70d5a10b806d80689b9428a53f6f6f6a4f589f0dc439331194e5f8eb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df6b14f4fc38b5f9f75477bc725375986243192e5884f43ee6f721a2e4667902",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalnie 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-      "Rejestracja na AlphaTango jest wymagana (bezpłatna, ważna 5 lat) dla każdego drona o masie 250 g lub więcej albo wyposażonego w kamerę",
-      "Obowiązkowe szkolenie online A1/A3 — minimalny wiek 14 lat. Dawne certyfikaty BAPD (oświadczenia honorowe) nie są już ważne od 1 stycznia 2026 r.",
+      "W kategorii otwartej maksymalna wysokość wynosi 120 m, mierzona jako odległość od najbliższego punktu powierzchni ziemi — nie po prostu pionowo w dół, więc w pobliżu zbocza może się liczyć również teren obok Ciebie. W promieniu 50 m od wysokiej sztucznej przeszkody (powyżej 105 m) podmiot odpowiedzialny za przeszkodę może wystąpić o zgodę na lot do 15 m powyżej wysokości przeszkody.",
+      "Musisz zarejestrować się jako operator drona, jeśli Twój dron waży 250 g lub więcej (lub przy uderzeniu mógłby przekazać energię kinetyczną większą niż 80 J) — dotyczy to nawet zabawek. Poniżej 250 g rejestracja nadal jest obowiązkowa, jeśli dron jest wyposażony w czujnik zdolny do rejestrowania danych osobowych, chyba że jest uznawany za zabawkę w rozumieniu unijnej dyrektywy w sprawie bezpieczeństwa zabawek. Wymogi dotyczące szkolenia/certyfikatu pilota zdalnego są odrębne i zależą od klasy drona oraz podkategorii.",
+      "We Francji współistnieją dwie odrębne rejestracje: rejestracja operatora (od 250 g lub z czujnikiem danych osobowych) oraz rejestracja samego statku powietrznego na AlphaTango, gdy tylko jego masa przekracza 800 g i/lub jest on wyposażony w urządzenie do identyfikacji elektronicznej. Numer rejestracyjny musi być umieszczony na statku powietrznym.",
+      "We Francji minimalny wiek do samodzielnego latania w kategorii otwartej wynosi 14 lat (bezpłatne szkolenie online i egzamin A1/A3 przez AlphaTango, ważne 5 lat, uznawane w całej UE). Minimalny wiek nie obowiązuje: w A1 ze statkiem powietrznym klasy C0 zgodnym z dyrektywą w sprawie zabawek 2009/48/WE; z samodzielnie zbudowanym statkiem powietrznym poniżej 250 g; lub pod bezpośrednim nadzorem pilota zdalnego w wieku co najmniej 16 lat, gdy obaj mają wymagane szkolenie i zdane egzaminy. Ten obniżony wiek obowiązuje tylko we Francji — w innym kraju UE obowiązuje minimalny wiek tego kraju.",
       "Ubezpieczenie od odpowiedzialności cywilnej jest zdecydowanie zalecane do użytku rekreacyjnego (wymagane do użytku zawodowego lub komercyjnego)",
-      "Paryż i Île-de-France: rozległe strefy zakazu lotów — odwiedź Géoportail",
-      "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
+      "Paryż i Île-de-France: rozległe strefy zakazu lotów — sprawdź oficjalną mapę DGAC (cartes.gouv.fr)",
+      "Przepis krajowy (arrêté „Espace”, art. 5 i 6): w kategorii otwartej loty nad przestrzenią publiczną na obszarach zabudowanych — ulicami, placami, parkami i ogrodami publicznymi, plażami, promenadami — są dozwolone tylko (i) w ramach działalności zawodowej operatora, a na obszarze zaludnionym po uprzednim zgłoszeniu prefektowi przez AlphaTango (CERFA 15476) co najmniej dziesięć dni roboczych przed lotem, co może skutkować zakazem lub ograniczeniem; albo (ii) w miejscach, w których prefekt zezwala na loty w kategorii otwartej lub loty modeli latających. W przypadku użytku rekreacyjnego wyklucza to w praktyce przestrzeń publiczną w miastach i wsiach — nie tylko w Paryżu.",
+      "W kategorii otwartej musisz utrzymywać drona we własnym bezpośrednim zasięgu wzroku, gołym okiem (okulary/soczewki korekcyjne są dozwolone; lornetka ani ekran się nie liczą) — albo korzystać z pomocy obserwatora, przez cały czas utrzymując z nim jasną i skuteczną komunikację, tak aby wspólnie monitorować przestrzeń powietrzną i unikać kolizji. Tryb „follow-me” to osobny wyjątek, dozwolony do 50 m od pilota zdalnego.",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
-      "Minimalna odległość 5 km od każdego lotniska lub lądowiska — jednak w strefie kontrolowanej (CTR) wymagana jest uprzednia zgoda wieży kontroli ruchu lotniczego",
-      "Lot nocny jest dozwolony zgodnie z podstawowymi wymogami EASA dla kategorii otwartej, pod warunkiem stosowania wymaganego migającego zielonego światła, chyba że obowiązujące przepisy dotyczące strefy geograficznej lub przepisy krajowe nakładają bardziej rygorystyczne warunki.",
+      "Nie istnieje jedna, ogólnounijna odległość, jaką należy zachować od lotnisk. Ograniczenia w pobliżu lotnisk są publikowane jako strefy geograficzne (art. 15), których kształt i wielkość różnią się w zależności od lotniska. Przed lotem w pobliżu portu lotniczego, lotniska lub lądowiska dla śmigłowców sprawdź oficjalną mapę stref dla dronów w swoim kraju; lot w strefie kontrolowanej lotniska (CTR) zwykle wymaga uprzedniej zgody kontroli ruchu lotniczego.",
+      "We Francji loty nocne w kategorii otwartej są zabronione, nawet jeśli statek powietrzny jest wyposażony w światła (przewodnik DSAC „Catégorie Ouverte”, §7). Zakaz obejmuje „noc lotniczą”: we Francji metropolitalnej zaczyna się ona 30 minut po zachodzie słońca i kończy 30 minut przed wschodem słońca. Odstępstwa może przyznać właściwy terytorialnie prefekt, a wniosek należy złożyć co najmniej 30 dni przed lotami; wyjątkiem są również niektóre opublikowane miejsca lotów modeli latających.",
       "Kategoria szczególna: europejskie scenariusze STS-01 i STS-02 zastępują dawne francuskie scenariusze S-1, S-2 i S-3 (wycofane w 2026 r.)",
-      "Parki narodowe i rezerwaty przyrody: użycie dronów zabronione bez zezwolenia prefektury"
+      "Parki narodowe i rezerwaty przyrody: parki i rezerwaty, nad którymi nie wolno przelatywać, są publikowane w informacji lotniczej (AIP ENR 5.7.3) i widnieją na mapie Géoportail. W strefie centralnej parku narodowego przeloty poniżej wysokości 1000 m nad ziemią są zabronione przez regulamin danego parku, a o wszelkich odstępstwach decyduje dyrektor parku — nie prefektura ani kontrola ruchu lotniczego (Code de l'environnement, art. L331-4-1). Poza tymi parkami i rezerwatami przeloty nad innymi obszarami chronionymi (Espaces Naturels Sensibles, obszary Natura 2000 itp.) zwykle nie są zabronione; mogą zostać czasowo zakazane zarządzeniem prefekta."
     ],
     "importantNotes": [
       "Rejestracja na AlphaTango jest bezpłatna i ważna we wszystkich krajach UE/EASA",
-      "Paryż ma jedną z najsurowszych stref zakazu lotów w Europie — w praktyce loty rekreacyjne są niemożliwe",
+      "Paryż: wszystkie loty na zewnątrz są zabronione, nawet na terenie prywatnym — Paryż jest zarówno obszarem zabudowanym, jak i przestrzenią powietrzną „zakazaną” (strefa P 23)",
       "Grzywny do 75 000 € i do roku pozbawienia wolności za poważne wykroczenia",
       "Loty nad obiektami jądrowymi, strefami wojskowymi i więzieniami są przestępstwem",
       "RODO ma zastosowanie przy utrwalaniu wizerunków osób możliwych do zidentyfikowania — to Ty odpowiadasz za przetwarzanie danych"
@@ -36,8 +38,8 @@
         "description": "Bezpłatna rejestracja jako operator UAS (ważna 5 lat, uznawana we wszystkich krajach UE/EASA)"
       },
       {
-        "title": "Geoportal — Mapa ograniczeń dla dronów",
-        "description": "Oficjalna mapa pokazująca strefy zakazu lotów, obszary zastrzeżone oraz maksymalne dozwolone wysokości"
+        "title": "cartes.gouv.fr — Ograniczenia dla UAS kategorii otwartej i modeli latających",
+        "description": "Oficjalna mapa i dane DGAC: strefy zakazu lotów, strefy ograniczeń i maksymalne dozwolone wysokości"
       },
       {
         "title": "Zasady latania dronem — Service-Public.fr",

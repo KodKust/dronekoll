@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "2c58b7a31f1c8559936a55c3a5e025f7dd391e382ab6ecfeb89c30fa2c945c23",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef69e20c9988bcf5f856c6fb76c01616820e80425007ad49d1b4c9740db11a03",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Máx. 120 m sobre el nivel del suelo (AGL) en la categoría abierta",
-      "Registro para aparatos de 250 g o más (o de menos de 250 g si llevan cámara); número de registro de la LBA",
+      "En la categoría abierta, la altura máxima es de 120 m, medida como la distancia al punto más cercano de la superficie terrestre, no simplemente en vertical hacia abajo, así que cerca de una pendiente también puede contar el terreno que tienes al lado. A menos de 50 m de un obstáculo artificial alto (de más de 105 m), la entidad responsable del obstáculo puede solicitar permiso para volar hasta 15 m por encima de la altura del obstáculo.",
+      "Debes registrarte como operador de drones si tu dron pesa 250 g o más (o podría transferir más de 80 J de energía cinética en un impacto); esto también se aplica a los juguetes. Por debajo de 250 g, el registro sigue siendo obligatorio si el dron tiene un sensor capaz de captar datos personales, salvo que se considere un juguete según la Directiva de la UE sobre la seguridad de los juguetes. Los requisitos de formación/certificado de piloto se regulan por separado y dependen de la clase y la subcategoría del dron.",
       "El registro de operador de la LBA conlleva una tasa; la edad mínima es 16 años. El número de registro (e-ID) debe estar claramente visible en el dron.",
-      "Certificado de piloto a distancia A1/A3 (examen en línea de pago administrado por la LBA) o certificado A2 para volar más cerca de personas; consulta las tasas vigentes en lba.de",
-      "Seguro de responsabilidad civil obligatorio (sección 43 de la German Aviation Act), también para drones recreativos",
-      "Prohibición de volar sobre propiedades residenciales sin el consentimiento de los residentes (sección 21h de las Air Traffic Regulations)",
-      "No vueles a menos de 100 metros de instalaciones ferroviarias, autopistas o instalaciones industriales sin el consentimiento del operador o propietario",
-      "Prohibición de vuelo en reservas naturales y parques nacionales",
-      "ED-R 146: zona restringida permanente sobre Berlín (distrito gubernamental); se requiere permiso",
+      "En Alemania, la edad mínima para el certificado de competencia A1/A3 es de 16 años (formación y examen en línea, 40 preguntas de 9 áreas temáticas, 75 % para aprobar, válido durante 5 años); excepción: volar bajo la supervisión directa de un piloto a distancia con un certificado válido.",
+      "Seguro de responsabilidad civil obligatorio (§43 Luftverkehrsgesetz): también se aplica a los drones recreativos, independientemente de su peso.",
+      "Está prohibido sobrevolar propiedades residenciales sin el consentimiento expreso de los propietarios u otros usuarios autorizados (§21h LuftVO). Excepciones: drones de menos de 250 g sin capacidad de grabación/transmisión, o vuelos a 100 m de altura o más bajo varias condiciones (interés legítimo, ninguna zona pública disponible, imposibilidad razonable de obtener el consentimiento, medidas de protección de datos, solo de 6 a 22 h, respetando los límites de ruido).",
+      "A menos de 100 m (lateralmente y en altura) de carreteras federales principales, vías navegables federales e instalaciones ferroviarias, la operación solo está permitida si se cumple UNA de las condiciones del § 21h Abs. 3 Nr. 5 LuftVO: a) sobrevuelo de una carretera o instalación ferroviaria en la categoría «específica» con una evaluación de riesgos que tenga en cuenta los peligros particulares del sobrevuelo; b) consentimiento expreso de la autoridad competente o del operador de la instalación; c) la altura de vuelo sobre el suelo es siempre inferior a la distancia lateral a la infraestructura, y esta distancia es siempre superior a 10 m; o d) en vías navegables federales: cruce por el camino más corto a una altura de al menos 100 m, sin sobrevolar barcos ni instalaciones de navegación. En instalaciones industriales, prisiones, instalaciones militares e instalaciones energéticas se aplica la distancia de 100 m, salvo que la autoridad competente o el operador de la instalación dé su consentimiento expreso (Nr. 3). Para las instalaciones ferroviarias, DB InfraGO AG ha publicado los requisitos para una operación de UAS compatible con el ferrocarril en NfL 1-2026-3788.",
+      "Reservas naturales, parques nacionales y zonas Natura 2000: está prohibido sobrevolarlos (§ 21h Abs. 3 Nr. 6 LuftVO), salvo que la autoridad competente de conservación de la naturaleza lo consienta expresamente o que la legislación del estado federado regule la operación de otra forma. Fuera de los parques nacionales, la operación también está permitida si se cumplen las cuatro condiciones a la vez: ningún fin deportivo ni recreativo, altura de vuelo superior a 100 m, conocimiento y consideración adecuada del objetivo de protección, y que el sobrevuelo sea inevitablemente necesario para el fin de la operación.",
+      "ED-R 146: zona restringida permanente sobre el distrito gubernamental de Berlín; se requiere permiso. Consulta el estado actual en dipul.de antes de volar.",
+      "Desde el 6 de agosto de 2026, el modelo de zonas para vuelos de UAS en zonas de control se aplica en 24 aeropuertos (DFS: NfL 2026-1-3960, que deroga la NfL 2023-1-2705; DFS Aviation Services: NfL 2026-1-3981). La zona 1 (sobre el aeropuerto, a menos de 1 km de su límite y en los corredores de pista prolongados 5 km, 1 km a cada lado del eje de pista) no tiene autorización general: allí siempre se requiere una autorización individual del control de tráfico aéreo, que se solicita a través de ais.dfs.de con unos 14 días de antelación. En las zonas 2 y 3 se aplica una autorización general hasta 25 m y 45 m, respectivamente, sobre la elevación del aeródromo o sobre el suelo (lo que sea menor); en la zona 4, hasta 100 m sobre la elevación del aeródromo o 50 m sobre el suelo (lo que sea mayor; si el punto de despegue está por debajo de la elevación del aeródromo, se aplican 100 m sobre el suelo). La autorización general solo se aplica a UAS de hasta 25 kg (aeromodelos de hasta 5 kg), requiere una visibilidad en tierra de al menos 800 m y excluye los vuelos autónomos. Comprueba tu subzona y la elevación del terreno en el dipul Maptool antes de volar.",
       "El Direct Remote ID es obligatorio en toda la UE para drones de clase C1, C2 y C3 desde el 1 de enero de 2024"
     ],
     "importantNotes": [
-      "dipul muestra las clases de espacio aéreo, pero no un panorama completo de las zonas restringidas; complétalo con la app Droniq",
+      "dipul muestra las clases de espacio aéreo, pero no ofrece un panorama completo de todas las zonas restringidas; antes de volar cerca de zonas sensibles, usa también la app Droniq o una similar.",
       "Los pilotos extranjeros con registro de la UE deben cumplir igualmente la normativa aeronáutica nacional",
-      "Tomar fotos en una propiedad privada también puede plantear problemas de RGPD"
+      "Fotografiar propiedades privadas puede plantear cuestiones de protección de datos (DSGVO/GDPR), además del permiso de vuelo según el §21h LuftVO."
     ],
     "primaryLinks": [
       {
@@ -51,8 +52,8 @@
         "description": "Solicita exenciones para casos especiales"
       },
       {
-        "title": "BMDV — Información sobre drones",
-        "description": "Normativa nacional de drones y base legal (§21h del Reglamento alemán de tráfico aéreo (LuftVO))"
+        "title": "BMV – Información sobre drones",
+        "description": "Normativa nacional de drones y base jurídica (§21h LuftVO)"
       }
     ],
     "disclaimerText": "Consulta siempre las fuentes oficiales antes de tu vuelo. Esta app es una herramienta, no una referencia legal. Las reglas pueden cambiar sin previo aviso.",

@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "33a814a3d0b5505e00903b83ae6e8352f9d6c524274ef27251d8bef1683efdd9",
-    "sourceCountriesVersion": 193,
-    "sourceLastVerified": "2026-06-19",
-    "translatedAt": "2026-07-09",
-    "engine": "manual"
+    "sourceHash": "bc6372b8db43aa400f327dcbe06c67e81c770544a50c90238e8b68a0ddad32f8",
+    "sourceCountriesVersion": 256,
+    "sourceLastVerified": "2026-08-26",
+    "translatedAt": "2026-09-24",
+    "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
-      "Maximum flight altitude 120 m above ground level (EASA Open category)",
-      "Register as a UAS operator (ISK 5,863 / 5 years) if your drone weighs 250 g or more or has a camera",
-      "The A1/A3 online course is mandatory — minimum age 16",
-      "Restrictions in volcanic eruption areas: always check current eruption activity",
-      "National parks (Vatnajökull, Þingvellir, Snæfellsjökull): from 17 May 2026 recreational drone flying is refused in 25+ protected areas (decision under appeal)",
-      "Always keep the drone within visual line of sight (VLOS)",
+      "In the open category, the maximum height of 120 m is measured as the distance to the closest point of the Earth's surface — not simply straight down, so near a slope the ground beside you can also count. Within 50 m of a tall man-made obstacle (over 105 m), the party responsible for the obstacle can request permission to fly up to 15 m above the obstacle's height.",
+      "You must register as a drone operator if your drone weighs 250 g or more (or could transfer more than 80 J of kinetic energy on impact) — this also applies to toys. Under 250 g, registration is still required if the drone has a sensor able to collect personal data, unless it counts as a toy under the EU Toy Safety Directive. Pilot training/certificate requirements are separate and depend on the drone's class and subcategory.",
+      "In Iceland the minimum age is 16 — exceptions apply to a C0-class drone in subcategory A1, a privately built drone under 250 g, or flights supervised by a certified remote pilot.",
+      "During volcanic eruptions, Almannavarnir/Samgöngustofa may impose temporary restrictions on drone flights — restrictions can extend up to 1,500 ft, and entire areas (e.g. the Reykjanes Peninsula during the July 2025 eruption) can be closed completely while activity lasts. Always check current volcanic activity before flying.",
+      "From 17 May 2026, Náttúruverndarstofnun (not the aviation authorities) issues permits only for commercial drone flights in 27 protected areas. The restrictions come in three tiers: 15 areas all year round (incl. Gullfoss, Geysir, Goðafoss, Skógafoss, Dyrhólaey, Látrabjarg and the Mývatn and Laxá conservation area), 11 areas from 1 May to 15 September (incl. Snæfellsjökull National Park, Dimmuborgir, Hornstrandir and Dynjandi) and Friðlandið að Fjallabaki from 15 June to 15 September. Permits for research, monitoring, filming, commercial photography and events requiring a permit are still granted. Þingvellir and Vatnajökull National Park are not on this list and have their own rules.",
+      "Flying closer than 150 m to sensitive structures is prohibited: power plants, substations, Alþingi, the President's residence, ministries, embassies, police stations, prisons and hospitals, unless permitted by the owners or those in control of them.",
+      "In the open category you must keep the drone within your own unaided line of sight (glasses/contact lenses are fine; binoculars or a screen do not count) — or fly with the help of an observer, with clear and effective communication between you at all times, so that together you can monitor the airspace and avoid collisions. Follow-me mode is a special exemption, permitted up to 50 m from the pilot.",
       "Do not fly over assemblies of people. Rules for uninvolved persons depend on subcategory, class mark and operating conditions; check the official matrix.",
-      "At least 2 km from commercial airports, 1.5 km from smaller airfields and landing sites",
+      "Flying without permission from the airport operator is prohibited at airports, within airport areas and within the restricted zones around scheduled-service airports — the restricted zones are the areas shown on the map in the app (in many places about 5 km). Within a restricted zone, however, you may fly without special permission if you fly below the height of the highest obstacles within 50 metres of the drone's flight path. Permission: ISAVIA for Keflavík Airport, Innanlandsflugvellir ehf. for other scheduled-service airports.",
       "Bird nesting areas: seasonal restrictions (May–August)",
       "Difficult wind conditions: in Iceland the wind often exceeds drone safety limits"
     ],
     "importantNotes": [
       "Active volcanic eruption areas may have temporary flight bans — check before every flight",
-      "From 17 May 2026 the Nature Conservation Agency refuses recreational and instructional drone flying in 25+ protected areas (national parks and more); the decision has been appealed to the Ministry of the Environment",
+      "From 17 May 2026, Náttúruverndarstofnun grants permits only for commercial drone flights in 27 protected areas — some all year round, others only during the summer months. Check the list for each area on nattura.is.",
       "Icelandic weather is volatile — the wind often exceeds drone limits",
       "Bird nesting season (May–August): additional restrictions in many areas",
       "Iceland is in the EEA but not the EU — EASA rules apply through the EEA Agreement"
@@ -36,8 +37,8 @@
         "description": "Register as a UAS operator (ISK 5,863 / 5 years, valid in EEA countries)"
       },
       {
-        "title": "FlyDrone.is — Airspace map",
-        "description": "Official interactive drone map showing no-fly zones and restrictions"
+        "title": "FlyDrone.is – Registration and A1/A3 exam",
+        "description": "Samgöngustofa's registration site where operators register, read the study material and take the A1/A3 exam (ISK 5,863, valid for 5 years)"
       },
       {
         "title": "island.is — Drone registration",
@@ -50,8 +51,11 @@
         "description": "Icelandic air navigation services and airspace information"
       },
       {
-        "title": "Umhverfisstofnun — Nature conservation",
-        "description": "Information on national parks and protected areas from the Environment Agency of Iceland"
+        "title": "Náttúruverndarstofnun – Drones in protected areas",
+        "description": "List of protected areas with drone flight restrictions and the periods that apply"
+      },
+      {
+        "title": "Kortasjá – drone map"
       }
     ],
     "disclaimerText": "Always check the official sources of Samgöngustofa (ICETRA) and FlyDrone.is before flying. This app is a tool — not a legal authority. Iceland follows EASA rules through the EEA Agreement with national additions.",

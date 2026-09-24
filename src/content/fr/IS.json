@@ -1,26 +1,27 @@
 {
   "meta": {
-    "sourceHash": "33a814a3d0b5505e00903b83ae6e8352f9d6c524274ef27251d8bef1683efdd9",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bc6372b8db43aa400f327dcbe06c67e81c770544a50c90238e8b68a0ddad32f8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Altitude de vol maximale de 120 m au-dessus du sol (catégorie ouverte EASA)",
-      "Enregistrez-vous comme exploitant d'UAS (5 863 ISK / 5 ans) si votre drone pèse 250 g ou plus ou dispose d'une caméra",
-      "Le cours en ligne A1/A3 est obligatoire — âge minimum 16 ans",
-      "Restrictions dans les zones d'éruption volcanique : vérifiez toujours l'activité éruptive en cours",
-      "Parcs nationaux (Vatnajökull, Þingvellir, Snæfellsjökull) : à partir du 17 mai 2026, l’autorisation de faire voler des drones à des fins de loisir est refusée dans 25 zones protégées ou plus (décision faisant l’objet d’un recours)",
-      "Gardez toujours le drone en vue directe (VLOS)",
+      "Dans la catégorie ouverte, la hauteur maximale de 120 m est mesurée comme la distance jusqu'au point le plus proche de la surface terrestre — et non simplement à la verticale vers le bas ; près d'une pente, le sol situé à côté de vous peut donc aussi être pris en compte. À moins de 50 m d'un obstacle artificiel élevé (de plus de 105 m), la partie responsable de l'obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
+      "Vous devez vous enregistrer comme exploitant de drone si votre drone pèse 250 g ou plus (ou peut transférer plus de 80 J d'énergie cinétique en cas d'impact) — cela s'applique aussi aux jouets. En dessous de 250 g, l'enregistrement reste obligatoire si le drone est équipé d'un capteur capable de recueillir des données à caractère personnel, sauf s'il est considéré comme un jouet au sens de l'EU Toy Safety Directive. Les exigences de formation et de certificat du télépilote sont distinctes et dépendent de la classe du drone et de la sous-catégorie.",
+      "En Islande, l'âge minimum est de 16 ans — des exceptions s'appliquent aux drones de classe C0 en sous-catégorie A1, aux drones de construction privée de moins de 250 g ou aux vols supervisés par un télépilote certifié.",
+      "Lors d'éruptions volcaniques, Almannavarnir/Samgöngustofa peuvent imposer des restrictions temporaires aux vols de drones — ces restrictions peuvent s'étendre jusqu'à 1 500 ft, et des zones entières (par ex. la péninsule de Reykjanes lors de l'éruption de juillet 2025) peuvent être entièrement fermées tant que l'activité se poursuit. Vérifiez toujours l'activité volcanique en cours avant de voler.",
+      "À partir du 17 mai 2026, Náttúruverndarstofnun (et non les autorités de l'aviation) ne délivre d'autorisations que pour les vols de drones commerciaux dans 27 zones protégées. Les restrictions s'appliquent selon trois niveaux : 15 zones toute l'année (dont Gullfoss, Geysir, Goðafoss, Skógafoss, Dyrhólaey, Látrabjarg et la zone de conservation de Mývatn et Laxá), 11 zones du 1er mai au 15 septembre (dont le parc national du Snæfellsjökull, Dimmuborgir, Hornstrandir et Dynjandi) et Friðlandið að Fjallabaki du 15 juin au 15 septembre. Les autorisations pour la recherche, le suivi, le tournage, la photographie commerciale et les événements soumis à autorisation continuent d'être accordées. Þingvellir et le parc national du Vatnajökull ne figurent pas sur cette liste et ont leurs propres règles.",
+      "Il est interdit de voler à moins de 150 m d'installations sensibles : centrales électriques, postes électriques, Alþingi, résidence du président, ministères, ambassades, commissariats de police, prisons et hôpitaux, sauf autorisation de leurs propriétaires ou de ceux qui en ont le contrôle.",
+      "Dans la catégorie ouverte, vous devez garder le drone dans votre propre champ de vision direct, sans aide (les lunettes et lentilles sont autorisées ; les jumelles ou un écran ne comptent pas) — ou voler avec l'aide d'un observateur, en maintenant en permanence une communication claire et efficace entre vous, afin de pouvoir surveiller ensemble l'espace aérien et éviter les collisions. Le mode Follow-me constitue une exemption particulière, autorisée jusqu'à 50 m du télépilote.",
       "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
-      "À au moins 2 km des aéroports commerciaux, 1,5 km des petits aérodromes et sites d'atterrissage",
+      "Sans autorisation de l'exploitant de l'aéroport, il est interdit de voler sur les aéroports, dans les enceintes aéroportuaires et dans les zones réglementées autour des aéroports desservis par des vols réguliers — les zones réglementées sont celles indiquées sur la carte de l'application (à de nombreux endroits, environ 5 km). Dans une zone réglementée, vous pouvez toutefois voler sans autorisation spéciale si vous volez en dessous de la hauteur des obstacles les plus élevés situés à moins de 50 mètres de la trajectoire de vol du drone. Autorisation : ISAVIA pour l'aéroport de Keflavík, Innanlandsflugvellir ehf. pour les autres aéroports desservis par des vols réguliers.",
       "Zones de nidification des oiseaux : restrictions saisonnières (mai–août)",
       "Conditions de vent difficiles : en Islande, le vent dépasse souvent les limites de sécurité des drones"
     ],
     "importantNotes": [
       "Les zones d'éruption volcanique active peuvent faire l'objet d'interdictions de vol temporaires — vérifiez avant chaque vol",
-      "À partir du 17 mai 2026, la Nature Conservation Agency refuse les vols de drones de loisir et de formation dans 25 zones protégées ou plus (parcs nationaux et autres) ; la décision a fait l’objet d’un recours auprès du Ministry of the Environment",
+      "À partir du 17 mai 2026, Náttúruverndarstofnun ne délivre d'autorisations que pour les vols de drones commerciaux dans 27 zones protégées — certaines toute l'année, d'autres uniquement pendant les mois d'été. Consultez la liste de chaque zone sur nattura.is.",
       "La météo islandaise est instable — le vent dépasse souvent les limites opérationnelles des drones",
       "Saison de nidification des oiseaux (mai–août) : restrictions supplémentaires dans de nombreuses zones",
       "L’Islande fait partie de l’EEE mais pas de l’UE — la réglementation EASA s’applique via l’accord EEE"
@@ -35,8 +36,8 @@
         "description": "Enregistrez-vous comme exploitant d'UAS (5 863 ISK / 5 ans, valable dans les pays de l'EEE)"
       },
       {
-        "title": "FlyDrone.is — Carte de l'espace aérien",
-        "description": "Carte interactive officielle des drones indiquant les zones d'interdiction de vol et les restrictions"
+        "title": "FlyDrone.is – Enregistrement et examen A1/A3",
+        "description": "Site d'enregistrement de Samgöngustofa où les exploitants s'enregistrent, consultent le matériel pédagogique et passent l'examen A1/A3 (5 863 ISK, valable 5 ans)"
       },
       {
         "title": "island.is — Enregistrement des drones",
@@ -49,8 +50,11 @@
         "description": "Services islandais de navigation aérienne et informations sur l'espace aérien"
       },
       {
-        "title": "Umhverfisstofnun — Conservation de la nature",
-        "description": "Informations sur les parcs nationaux et les zones protégées de l'Agence islandaise de l'environnement"
+        "title": "Náttúruverndarstofnun – Drones dans les zones protégées",
+        "description": "Liste des zones protégées soumises à des restrictions de vol de drones et des périodes applicables"
+      },
+      {
+        "title": "Kortasjá – carte des drones"
       }
     ],
     "disclaimerText": "Vérifiez toujours les sources officielles de Samgöngustofa (ICETRA) et FlyDrone.is avant de voler. Cette application est un outil, pas une autorité juridique. L'Islande suit la réglementation EASA via l'accord EEE avec des ajouts nationaux.",

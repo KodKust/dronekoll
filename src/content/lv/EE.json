@@ -1,22 +1,22 @@
 {
   "meta": {
-    "sourceHash": "23f3ed06f9446eb9733c76bcdc77184702b32d1e071b7b4a74e10dadb06fcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "0ddaecf7ada88ef77cb8ed7fae4021c3fab852ece7e0827759a36641d94a5932",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Līdz 120 m virs zemes (EASA atvērtā kategorija)",
-      "Reģistrējies kā UAS operators (10 € gadā), ja tavs drons sver 250 g vai vairāk vai ir aprīkots ar kameru",
-      "Nepieciešama A1/A3 tiešsaistes apmācība — minimālais vecums 16 gadi",
-      "Vienmēr turi dronu tiešā redzeslokā (VLOS)",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, mērot attālumu līdz tuvākajam zemes virsmas punktam — nevis vienkārši vertikāli uz leju, tāpēc nogāzes tuvumā var ņemt vērā arī blakus esošo zemi. Turklāt dažās teritorijās var būt spēkā zemāki augstuma ierobežojumi; tie ir redzami dronu kartē. 50 m rādiusā no mākslīgas būves drīksti lidot līdz 15 m virs būves, ja to atļauj par būvi atbildīgā persona vai organizācija.",
+      "Tev jāreģistrējas kā drona operatoram, ja drons sver 250 g vai vairāk (vai sadursmē spēj nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas arī uz rotaļlietām. Ja drons sver mazāk par 250 g, reģistrācija joprojām ir nepieciešama, ja dronam ir sensors, kas spēj vākt personas datus, izņemot gadījumu, kad tas kvalificējas kā rotaļlieta saskaņā ar EU Toy Safety Directive. Pilota apmācības/apliecības prasības ir atsevišķas un atkarīgas no drona klases un apakškategorijas.",
+      "Igaunijā minimālais vecums tālvadības pilotiem ir 16 gadi — izņēmumi attiecas uz C0 klases droniem A1 apakškategorijā, privāti būvētiem droniem, kas sver mazāk par 250 g, un lidošanu prasībām atbilstoša pilota tiešā uzraudzībā.",
+      "Atvērtajā kategorijā tev jātur drons savā tiešajā redzamības laukā bez palīglīdzekļiem (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai jālido ar novērotāja palīdzību, nepārtraukti uzturot ar viņu skaidru un efektīvu saziņu, lai jūs kopā varētu uzraudzīt gaisa telpu un izvairīties no sadursmēm. Follow-me režīms ir atsevišķs izņēmums, kas atļauts līdz 50 m no pilota.",
       "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kuras nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
-      "Lidošana ir aizliegta lidostu tiešā tuvumā (0 m augstuma ierobežojums) — vienmēr pārbaudi Estonian Drone Map norādītās ierobežotās zonas.",
-      "Nakts lidojumi ir atļauti, ja dronam ir mirgojoša zaļa gaisma — nakts lidojumu aizliegums ir spēkā pie austrumu robežas (20:00–7:00).",
+      "Lidostu tiešā tuvumā augstuma ierobežojums atvērtajā kategorijā ir 0 m — lidot iespējams tikai ar specifiskās kategorijas ekspluatācijas atļauju.",
+      "Nakts lidojumi ir atļauti, ja dronam ir mirgojoša zaļa gaisma (UAS.OPEN.060(2)(g)).",
       "Tallinn Airport CTR: rūpīgi pārbaudi to Estonian Drone Map",
       "Ierobežotās zonas ap salu lidostām (Saaremaa, Hiiumaa)",
-      "Krievijas pierobeža: dronu lidojumi ir pilnīgi aizliegti Ida-Viru County pierobežas zonā; nakts lidojumu aizliegums (20:00–7:00) ir spēkā gar visu austrumu robežu, un pastāv būtiski GPS traucējumi — pārbaudi NOTAM."
+      "Valsts robežas tuvumā ir noteikta ierobežota zona (līdz 300 m virs zemes vai ūdens līmeņa): lidojumi tajā drīkst notikt tikai ar Politsei- ja Piirivalveamet (PPA) atļauju (Vabariigi Valitsuse korraldus nr 229, 3.2. un 5.3. punkts). PPA robežas tuvumā nosaka arī pagaidu ierobežotās zonas — pārbaudi NOTAM. Pierobežā ir spēcīgi GPS traucējumi."
     ],
     "importantNotes": [
       "Reģistrācija maksā 10 € gadā un ir derīga visās ES/EASA valstīs",
@@ -32,7 +32,7 @@
       },
       {
         "title": "Transporta iestāde — Reģistrējies kā operators",
-        "description": "Reģistrējies kā UAS operators (10 € gadā, derīga visās ES/EASA valstīs)"
+        "description": "Reģistrējies kā UAS operators aviācijas drošības uzraudzības informācijas sistēmā LOIS2 (valsts nodeva 10 €, derīga vienu gadu, derīga visās ES/EASA valstīs)"
       },
       {
         "title": "Igaunijas dronu karte (UTM)",

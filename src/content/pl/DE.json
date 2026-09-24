@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "2c58b7a31f1c8559936a55c3a5e025f7dd391e382ab6ecfeb89c30fa2c945c23",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef69e20c9988bcf5f856c6fb76c01616820e80425007ad49d1b4c9740db11a03",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maks. 120 m nad poziomem gruntu (AGL) w kategorii otwartej",
-      "Rejestracja dronów o masie 250 g lub większej (a także dronów poniżej 250 g, jeśli są wyposażone w kamerę) — numer rejestracyjny LBA",
+      "W kategorii otwartej maksymalną wysokość 120 m mierzy się jako odległość od najbliższego punktu powierzchni ziemi — nie tylko pionowo w dół, więc w pobliżu zbocza liczy się również grunt znajdujący się obok. W promieniu 50 m od wysokiej sztucznej przeszkody (powyżej 105 m) podmiot za nią odpowiedzialny może wystąpić o zezwolenie na lot do 15 m powyżej wysokości przeszkody.",
+      "Musisz zarejestrować się jako operator drona, jeśli dron waży 250 g lub więcej (albo może przekazać przy uderzeniu energię kinetyczną większą niż 80 J) — dotyczy to także zabawek. Poniżej 250 g rejestracja nadal jest wymagana, jeśli dron ma czujnik umożliwiający rejestrowanie danych osobowych, chyba że kwalifikuje się jako zabawka zgodnie z EU Toy Safety Directive. Wymagania dotyczące szkolenia/kompetencji pilota są uregulowane odrębnie i zależą od klasy i podkategorii drona.",
       "Rejestracja operatora w LBA jest płatna — minimalny wiek to 16 lat. Numer rejestracyjny (e-ID) musi być wyraźnie widoczny na dronie.",
-      "Świadectwo pilota zdalnego A1/A3 (płatny egzamin online prowadzony przez LBA) lub certyfikat A2 do lotów bliżej osób — sprawdź aktualne opłaty na lba.de",
-      "Obowiązkowe ubezpieczenie od odpowiedzialności cywilnej (§ 43 niemieckiej ustawy lotniczej) — również dla dronów rekreacyjnych",
-      "Zakaz lotów nad nieruchomościami mieszkalnymi bez zgody mieszkańców (§ 21h przepisów o ruchu lotniczym)",
-      "Loty w promieniu 100 metrów od obiektów kolejowych, autostrad lub obiektów przemysłowych wymagają zgody operatora lub właściciela",
-      "Zakaz lotów w rezerwatach przyrody i parkach narodowych",
-      "ED-R 146: stała strefa zastrzeżona nad Berlinem (dzielnica rządowa) — wymagane zezwolenie",
+      "W Niemczech minimalny wiek dla świadectwa kompetencji A1/A3 wynosi 16 lat (szkolenie i egzamin online, 40 pytań z 9 obszarów tematycznych, próg zaliczenia 75%, ważne 5 lat) — wyjątek: lot pod bezpośrednim nadzorem pilota zdalnego z ważnym świadectwem.",
+      "Obowiązkowe ubezpieczenie od odpowiedzialności cywilnej (§43 Luftverkehrsgesetz) — dotyczy również dronów rekreacyjnych, niezależnie od masy.",
+      "Loty nad nieruchomościami mieszkalnymi bez wyraźnej zgody właścicieli lub innych uprawnionych użytkowników są zabronione (§21h LuftVO). Wyjątki: drony poniżej 250 g bez możliwości nagrywania/transmisji albo loty na wysokości 100 m lub wyższej przy spełnieniu kilku warunków (uzasadniony interes, brak dostępnego obszaru publicznego, zgody nie da się rozsądnie uzyskać, zabezpieczenia w zakresie ochrony danych, wyłącznie 6-22 h, przestrzeganie limitów hałasu).",
+      "W odległości do 100 m (w poziomie i nad nimi) od federalnych dróg dalekobieżnych, federalnych dróg wodnych i urządzeń kolejowych operacja jest dozwolona tylko wtedy, gdy spełniony jest JEDEN z warunków § 21h Abs. 3 Nr. 5 LuftVO: a) przelot nad drogą lub urządzeniem kolejowym w kategorii „szczególnej” z oceną ryzyka uwzględniającą szczególne zagrożenia związane z przelotem; b) wyraźna zgoda właściwego organu lub zarządcy obiektu; c) wysokość lotu nad ziemią jest zawsze mniejsza niż odległość w poziomie od infrastruktury, a odległość ta wynosi zawsze więcej niż 10 m; lub d) w przypadku federalnych dróg wodnych: przekraczanie najkrótszą drogą na wysokości co najmniej 100 m, bez przelatywania nad statkami lub urządzeniami żeglugowymi. W przypadku zakładów przemysłowych, zakładów karnych, obiektów wojskowych i obiektów energetycznych obowiązuje odległość 100 m, chyba że właściwy organ lub zarządca obiektu wyrazi wyraźną zgodę (Nr. 3). W odniesieniu do urządzeń kolejowych DB InfraGO AG opublikowała wymagania dotyczące operacji UAS zgodnych z wymogami kolei w NfL 1-2026-3788.",
+      "Rezerwaty przyrody, parki narodowe i obszary Natura 2000: przeloty są zabronione (§ 21h Abs. 3 Nr. 6 LuftVO), chyba że właściwy organ ochrony przyrody wyrazi wyraźną zgodę lub prawo kraju związkowego reguluje operacje inaczej. Poza parkami narodowymi operacja jest również dozwolona, jeśli jednocześnie spełnione są wszystkie cztery warunki: brak celu sportowego lub rekreacyjnego, wysokość lotu powyżej 100 m, znajomość i odpowiednie uwzględnienie celu ochrony oraz to, że przelot jest nieodzowny dla celu operacji.",
+      "ED-R 146: stała strefa zastrzeżona nad berlińską dzielnicą rządową — wymagane zezwolenie. Przed lotem sprawdź aktualny status na dipul.de.",
+      "Od 6 sierpnia 2026 r. na 24 lotniskach obowiązuje model stref dla lotów UAS w strefach kontrolowanych lotnisk (DFS: NfL 2026-1-3960, który uchyla NfL 2023-1-2705; DFS Aviation Services: NfL 2026-1-3981). W strefie 1 — nad lotniskiem, w odległości do 1 km od jego granicy oraz w korytarzach drogi startowej przedłużonych o 5 km (po 1 km w lewo i w prawo od osi drogi startowej) — nie ma zezwolenia ogólnego: zawsze wymagane jest indywidualne zezwolenie kontroli ruchu lotniczego, o które należy wystąpić przez ais.dfs.de z wyprzedzeniem około 14 dni. W strefach 2 i 3 zezwolenie ogólne obowiązuje odpowiednio do 25 m i 45 m powyżej wysokości lotniska lub nad ziemią (w zależności od tego, która wartość jest niższa); w strefie 4 do 100 m powyżej wysokości lotniska lub 50 m nad ziemią (w zależności od tego, która wartość jest wyższa; jeśli punkt startu znajduje się poniżej wysokości lotniska, obowiązuje 100 m nad ziemią). Zezwolenie ogólne dotyczy wyłącznie UAS do 25 kg (modele latające do 5 kg), wymaga widzialności przy ziemi co najmniej 800 m i wyklucza loty autonomiczne. Przed lotem sprawdź swoją podstrefę i wysokość terenu w dipul Maptool.",
       "Bezpośredni Remote ID jest obowiązkowy w całej UE dla dronów klas C1, C2 i C3 od 1 stycznia 2024 r."
     ],
     "importantNotes": [
-      "dipul pokazuje klasy przestrzeni powietrznej, ale nie zapewnia pełnego przeglądu stref zastrzeżonych — informacje uzupełnij w aplikacji Droniq",
+      "dipul pokazuje klasy przestrzeni powietrznej, ale nie zapewnia pełnego przeglądu wszystkich obszarów zastrzeżonych — przed lotem w pobliżu obszarów wrażliwych korzystaj również z aplikacji Droniq lub podobnej.",
       "Zagraniczni piloci z rejestracją UE muszą i tak przestrzegać krajowych przepisów lotniczych",
-      "Robienie zdjęć na terenie prywatnym może również rodzić kwestie związane z RODO"
+      "Fotografowanie prywatnych nieruchomości może, oprócz kwestii zezwolenia na lot na podstawie §21h LuftVO, rodzić problemy z zakresu ochrony danych (DSGVO/RODO)."
     ],
     "primaryLinks": [
       {
@@ -51,8 +52,8 @@
         "description": "Składanie wniosków o odstępstwa w szczególnych przypadkach"
       },
       {
-        "title": "BMDV – Informacje o dronach",
-        "description": "Krajowe przepisy dronowe oraz podstawa prawna (§ 21h niemieckich przepisów o ruchu lotniczym (LuftVO))"
+        "title": "BMV – Informacje o dronach",
+        "description": "Krajowe przepisy dotyczące dronów i podstawa prawna (§21h LuftVO)"
       }
     ],
     "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła. Ta aplikacja jest narzędziem, a nie źródłem prawa. Przepisy mogą ulec zmianie bez powiadomienia.",

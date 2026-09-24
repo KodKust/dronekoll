@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "41a3bb2c31b60f9e99694313efa18c74c69ab8b4db7f6f293333679ae2e726e6",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "0ede9cfcfd08a21a6e8803c65b176c42069fea1dbd7cd454be9738c884575edd",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne vairāk kā 120 m virs zemes (EASA atvērtā kategorija)",
-      "Reģistrējies kā UAS operators (€46,80, derīga 3 gadus), ja drons sver 250 g vai vairāk vai ir aprīkots ar kameru",
-      "Nepieciešama A1/A3 tiešsaistes apmācība — minimālais vecums 16 gadi",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, mērot attālumu līdz tuvākajam Zemes virsmas punktam — nevis vienkārši vertikāli uz leju, tāpēc nogāzes tuvumā var ņemt vērā arī zemi tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgais subjekts var pieprasīt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Tev jāreģistrējas kā drona operatoram, ja drons sver 250 g vai vairāk (vai triecienā var nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas arī uz rotaļlietām. Ja drons sver mazāk par 250 g, reģistrācija joprojām ir nepieciešama, ja dronam ir sensors, kas spēj fiksēt personas datus, izņemot gadījumu, kad tas tiek uzskatīts par rotaļlietu saskaņā ar EU Toy Safety Directive. Pilota apmācības/apliecības prasības tiek regulētas atsevišķi un ir atkarīgas no drona klases un apakškategorijas.",
+      "A1/A3 kompetences apliecībai (bezmaksas tiešsaistes kurss ar 40 jautājumu testu) minimālais vecums ir 16 gadi; patstāvīgi reģistrēties kā operators var tikai no 18 gadu vecuma. Jaunāki piloti drīkst lidot tikai sertificēta tālvadības pilota tiešā uzraudzībā. Drona licence (A1/A3 kompetences apliecība) ir derīga 5 gadus, un pēc tam tā jāatjauno — pirmās Austrijā kopš 2021. gada izsniegtās apliecības zaudē derīgumu 2026. gadā.",
       "Obligāta civiltiesiskās atbildības apdrošināšana — segums vismaz 750 000 SDR",
-      "Vīne atrodas LO R 15 lidojumu ierobežojumu zonā: lidojumi atļauti tikai ar Austro Control maksas atļauju — izņemot dronus, kas sver mazāk par 250 g un lido ne augstāk par 30 m virs zemes.",
-      "Vienmēr turi dronu tiešā redzamībā (VLOS)",
+      "Vīne atrodas ierobežotajā zonā LO R 15. Droni, kas sver mazāk par 250 g, drīkst lidot līdz 30 m augstumam bez atļaujas — bet tikai tad, ja tavā lidojuma zonā nav lidlauka bez lidlauka zonas: Vīnē tie ir desmit helikopteru laukumi ar aptuveni 1 500 m rādiusu, kur to darba laikā nepieciešama Austro Control GmbH ekspluatācijas atļauja \"ierobežotajām zonām\". No 250 g vienmēr nepieciešama maksas Austro Control atļauja.",
+      "Atvērtajā kategorijā tev jātur drons savā redzamības laukā ar neapbruņotu aci (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai jālido ar novērotāja atbalstu, visu laiku uzturot savstarpēji skaidru un efektīvu saziņu, lai jūs varētu kopīgi pārlūkot gaisa telpu un izvairīties no sadursmēm. Follow-me režīms ir atsevišķs izņēmums, kas atļauts līdz 50 m no pilota.",
       "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kas nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
-      "Ņem vērā ģeogrāfiskās UAS teritorijas (§ 18b LVR) Dronespace kartē — lidlaukos bez lidlauka zonas lidošana aizsardzības rādiusā atļauta tikai ārpus darba laika; lidlauka zonām nepieciešama atļauja.",
+      "Ievēro UAS ģeogrāfiskās zonas (§18b LVR) Dronespace kartē. Bezpilota gaisa kuģu (UAS) ekspluatācija noteiktā rādiusā ap lidlaukiem, kuriem nav savas lidlauka zonas, parasti ir atļauta tikai ārpus to darba laika. Pirms lidojuma dronu operatoriem jānoskaidro lidlauka aktuālais darba laiks — vai nu aviācijas publikācijās (piem., AIP, NOTAM), vai tieši pie lidlauka operatora vai lidlauka vadības. Lidlauka darba laikā dronu ekspluatācija ir atļauta tikai ar šādiem nosacījumiem: atzītām glābšanas un ārkārtas situāciju organizācijām, veselības dienestiem vai civilās aizsardzības iestādēm, ja ekspluatācija ietilpst to likumā noteiktajā kompetencē; ar ekspluatācijas atļauju \"specifiskajai\" kategorijai saskaņā ar Regulu (ES) 2019/947, ja riska novērtējums aptver darbības lidlauku tuvumā; ar LUC (light UAS operator certificate) saskaņā ar Regulu (ES) 2019/947, ja tas atļauj darbības lidlauku tuvumā; vai ar atļauju saskaņā ar Regulas (ES) 2019/947 16. pantu, ja ir izpildīti visi nosacījumi un prasības.",
+      "UAS ar pacelšanās masu mazāku par 250 g, kas lido ne augstāk par 30 m virs zemes, ir atbrīvoti no piekrišanas prasības kontroles zonās un no atļaujas prasības ierobežotajās zonās. Tomēr ierobežotajās zonās atbrīvojums ir spēkā tikai tad, ja tavā lidojuma zonā nav lidlauka bez lidlauka zonas.",
       "Nakts lidojumi atvērtajā kategorijā ir atļauti ar mirgojošu zaļu gaismu (EASA kopš 2022. gada) — pārbaudi konkrētās zonas vietnē Dronespace.at",
       "Nacionālajos parkos un dabas rezervātos ir spēkā papildu ierobežojumi"
     ],
     "importantNotes": [
       "Reģistrācija maksā €46,80 (derīga 3 gadus) un ir derīga visās ES/EASA valstīs",
       "Obligāta apdrošināšana ar segumu vismaz 750 000 SDR",
-      "Vīne (LO R 15): atļaujas nepieciešamas droniem, kas sver 250 g vai vairāk — droniem, kas sver mazāk par 250 g, atļauja nav nepieciešama tikai tad, ja tie lido ne augstāk par 30 m virs zemes.",
+      "Vīne (LO-R 15): droniem, kas sver 250 g vai vairāk, nepieciešama atļauja; droni, kas sver mazāk par 250 g, drīkst lidot līdz 30 m augstumam bez atļaujas. Tomēr šis atbrīvojums nav spēkā, ja tavā lidojuma zonā atrodas lidlauks bez lidlauka zonas — Vīnē tie ir desmit helikopteru laukumi ar aptuveni 1500 m rādiusu. Tur turklāt piemēro: helikopteru laukuma darba laikā lidot drīkst tikai ar Austro Control GmbH ekspluatācijas atļauju \"ierobežotajām zonām\".",
       "Alpu reģioni: ņem vērā glābšanas helikopteru maršrutus",
       "GDPR attiecas uz identificējamu personu fiksēšanu"
     ],

@@ -1,20 +1,20 @@
 {
   "meta": {
-    "sourceHash": "552be0e829692206489496fe6ca91a32ed231ba21bc0abd64eefd98c31764ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "2b6964864962d4242f59e63d9dc8bd2b290b6e70d78f6d916b4bea9755df4e04",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimālais lidojuma augstums: 120 m virs zemes (EASA atvērtā kategorija).",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, mērot attālumu līdz tuvākajam zemes virsmas punktam — nevis vienkārši vertikāli uz leju, tāpēc nogāzes tuvumā var ņemt vērā arī zemi tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgā puse var pieprasīt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
       "Parasti operators ir jāreģistrē, ja drons sver vismaz 250 g vai ir aprīkots ar kameru vai sensoru, kas spēj vākt personas datus, ja vien uz to neattiecas rotaļlietu izņēmums. Prasības attiecībā uz dronu pilota apliecībām un lidojuma attālumiem ir atkarīgas no drona klases, svara un apakškategorijas.",
-      "A1/A3 drona licence ir nepieciešama, ja drons sver 250 g vai vairāk — tiešsaistes teorijas tests, ko administrē Swedish Transport Agency (par maksu; licence derīga 5 gadus). Minimālais vecums patstāvīgai drona vadīšanai: 15 gadi. Personas, kas jaunākas par 15 gadiem, drīkst lidot tikai ar derīgu drona licenci tāda tālvadības pilota uzraudzībā, kurš ir vismaz 16 gadus vecs un kuram ir derīga drona licence.",
+      "Zviedrijā, lai patstāvīgi lidotu ar A1/A3 drona apliecību, jābūt 15 gadus vecam (Transportstyrelsen tiešsaistes teorijas tests, par maksu, derīgs 5 gadus). Personas, kas jaunākas par 15 gadiem, drīkst lidot tikai tāda tālvadības pilota tiešā uzraudzībā, kurš ir vismaz 16 gadus vecs un kuram pašam ir derīga drona apliecība.",
       "Operatora numuram jābūt skaidri marķētam uz drona.",
-      "Turi dronu redzamības laukā (VLOS) — nelido aiz stūriem vai aiz ēkām.",
-      "A1: droni, kas sver mazāk par 250 g, drīkst lidot virs lidojumā neiesaistītām personām, bet ne virs cilvēku pūļiem.",
-      "A2: droni, kas sver līdz 4 kg — vismaz 30 m no neiesaistītiem cilvēkiem (5 m mazā ātruma režīmā). Nepieciešama A2 apliecība.",
-      "A3: droni, kas sver līdz 25 kg — vismaz 150 m no dzīvojamām, komerciālām, rūpnieciskām un atpūtas zonām.",
+      "Atvērtajā kategorijā tev jātur drons savā redzamības laukā bez palīglīdzekļiem (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai jālido ar novērotāja palīdzību, visu laiku uzturot savstarpēji skaidru un efektīvu saziņu, lai jūs kopā varētu pārlūkot gaisa telpu un izvairīties no sadursmēm. Follow-me režīms ir atsevišķs izņēmums, kas atļauts līdz 50 m no pilota.",
+      "A1: droni, kas sver mazāk par 250 g — drīkst lidot virs lidojumā neiesaistītām personām, bet nekad virs cilvēku pūļiem.",
+      "A2: droni, kas sver līdz 4 kg — vismaz 30 m no neiesaistītiem cilvēkiem (5 m ar aktivizētu mazā ātruma režīmu, ≤ 3 m/s) un vienmēr vismaz lidojuma augstuma attālumā (1:1 noteikums). Nepieciešama A2 apliecība.",
+      "A3: droni, kas sver līdz 25 kg — lido tikai tur, kur nav sagaidāma neiesaistītu cilvēku klātbūtne, un vismaz 150 m horizontāli no dzīvojamām, komerciālām, rūpnieciskām un atpūtas zonām.",
       "Nekad nelido virs ļaužu pūļa bez īpašas atļaujas.",
       "Pirms katra lidojuma pārbaudi LFV dronu karti un NOTAM."
     ],
@@ -27,38 +27,30 @@
     ],
     "primaryLinks": [
       {
-        "title": "Zviedrijas Transporta aģentūra — Dronu noteikumi",
-        "description": ""
+        "title": "Zviedrijas Transporta aģentūra — Dronu noteikumi"
       },
       {
-        "title": "LFV dronu karte — Gaisa telpa",
-        "description": ""
+        "title": "LFV dronu karte — Gaisa telpa"
       },
       {
-        "title": "Operatora reģistrācija (nepieciešams ≥250 g vai kamera)",
-        "description": ""
+        "title": "Operatora reģistrācija (nepieciešama ≥250 g vai ar kameru, 250 kr gadā)"
       },
       {
-        "title": "Drona licence A1/A3 — Tiešsaistes teorijas tests (nepieciešams ≥250 g, no 15 gadiem)",
-        "description": ""
+        "title": "Drona licence A1/A3 — Tiešsaistes teorijas tests (nepieciešams ≥250 g, no 15 gadiem)"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "A2 apliecība (droniem, kas sver vairāk par 500 g vai lido cilvēku tuvumā)",
-        "description": ""
+        "title": "A2 apliecība (droniem, kas sver vairāk par 500 g vai lido cilvēku tuvumā)"
       },
       {
-        "title": "AROweb — NOTAM un AIP Sweden",
-        "description": ""
+        "title": "AROweb — NOTAM un AIP Sweden"
       },
       {
-        "title": "Aizsargājamās vietas — Sazinies ar Zviedrijas Bruņotajiem spēkiem",
-        "description": ""
+        "title": "Aizsargājamās vietas — Sazinies ar Zviedrijas Bruņotajiem spēkiem"
       },
       {
-        "title": "Dabas rezervāti — Noskaidro savā pašvaldības administrācijā",
-        "description": ""
+        "title": "Dabas rezervāti — Noskaidro savā pašvaldības administrācijā"
       }
     ],
     "disclaimerText": "Pirms lidošanas vienmēr pārbaudi oficiālos avotus. Šī lietotne ir rīks, nevis juridisks avots. Noteikumi var mainīties bez iepriekšēja brīdinājuma.",

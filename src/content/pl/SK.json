@@ -1,22 +1,24 @@
 {
   "meta": {
-    "sourceHash": "52f1e9302ec2bcb4cb052daf85c1bc4eb0d04440f50f5931718d7e36efc0852a",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ba8a0d21aa6d8dafe028a7c48ce70de36567d44ff90036ca43f8450af32e0d5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalnie 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-      "Rejestracja jako operator UAS, prowadzona przez Transport Authority, jest wymagana dla dronów o masie 250 g lub większej albo wyposażonych w kamerę",
-      "Wymagane szkolenie online A1/A3 — minimalny wiek 16 lat",
-      "Minimalne odległości według podkategorii: A1 — nie lataj nad osobami postronnymi; A2 — co najmniej 30 m od osób (5 m w trybie niskiej prędkości); A3 — co najmniej 150 m od obszarów mieszkalnych, handlowych, przemysłowych i rekreacyjnych.",
-      "Zawsze utrzymuj z dronem kontakt wzrokowy (VLOS)",
+      "W kategorii otwartej maksymalna wysokość wynosi 120 m, mierzona jako odległość od najbliższego punktu powierzchni ziemi — nie po prostu pionowo w dół, więc w pobliżu zbocza może się liczyć również teren obok Ciebie. W promieniu 50 m od wysokiej sztucznej przeszkody (powyżej 105 m) podmiot odpowiedzialny za przeszkodę może wystąpić o zezwolenie na lot do 15 m powyżej wysokości przeszkody.",
+      "Musisz zarejestrować się jako operator drona, jeśli Twój dron waży 250 g lub więcej (lub przy uderzeniu mógłby przekazać energię kinetyczną większą niż 80 J) — dotyczy to nawet zabawek. Poniżej 250 g rejestracja nadal jest obowiązkowa, jeśli dron ma czujnik zdolny do rejestrowania danych osobowych, chyba że jest uznawany za zabawkę w rozumieniu unijnej dyrektywy w sprawie bezpieczeństwa zabawek. Wymogi dotyczące szkolenia/certyfikatu pilota są odrębne i zależą od klasy drona oraz podkategorii.",
+      "Do samodzielnego latania w kategorii otwartej wymagany jest wiek co najmniej 16 lat — szkolenie i egzamin A1/A3 (40 pytań, online) są ważne 5 lat i uznawane w całej UE. Młodsi piloci mogą latać wyłącznie pod bezpośrednim nadzorem certyfikowanego pilota zdalnego.",
+      "Minimalne odległości według podkategorii: A1 — nie lataj nad osobami postronnymi; A2 — co najmniej 30 m od osób postronnych (5 m przy aktywnej funkcji trybu niskiej prędkości ≤ 3 m/s) i zawsze co najmniej tyle, ile wynosi wysokość lotu (zasada 1:1); A3 — co najmniej 150 m od obszarów mieszkalnych, handlowych, przemysłowych i rekreacyjnych.",
+      "W kategorii otwartej musisz utrzymywać drona w bezpośrednim zasięgu wzroku, gołym okiem (okulary/soczewki kontaktowe są w porządku; lornetka ani ekran się nie liczą) — albo skorzystać z pomocy obserwatora, przez cały czas utrzymując z nim jasną i skuteczną komunikację, tak aby wspólnie monitorować przestrzeń powietrzną i unikać kolizji. Tryb „follow-me” to osobny wyjątek, dozwolony do 50 m od pilota.",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
-      "M. R. Štefánik Airport w Bratislava: całkowity zakaz lotów dronów w promieniu 5 km do wysokości 500 m (PUAS0103M, obowiązujący od 6 grudnia 2025). Lotniska Košice, Poprad, Žilina i Piešťany (od 31 marca 2026): w promieniu 5 km od lotniska loty powyżej 30 m są dozwolone wyłącznie po koordynacji — pocztą elektroniczną z jednostką kontroli ruchu lotniczego co najmniej 24 godziny wcześniej.",
+      "Na lotnisku im. M. R. Štefánika w Bratysławie cywilne loty dronów są zabronione w promieniu 3 km od punktu odniesienia lotniska (48°10'12''N, 17°12'46''E), od powierzchni ziemi do 500 m nad poziomem terenu — strefa RUAS098M na mocy decyzji ministra nr 104/2026, obowiązującej od 18 sierpnia 2026 r., która uchyliła wcześniejszą strefę PUAS0103M. Zakaz nie dotyczy lotów ratujących życie, lotów sanitarnych ani lotów poszukiwawczo-ratowniczych (SAR), ani lotów wykonywanych za uprzednią zgodą Ministry of Defense of the Slovak Republic, wyposażonych w system zdalnej identyfikacji. W promieniu 5 km (strefa RUAS001-LZIBAD-D) cywilne operacje UAS są dozwolone wyłącznie w kategorii szczególnej.",
+      "Od 31 marca 2026 r. w strefach kontrolowanych (CTR) Štefánik (Bratysława), Košice, Žilina, Piešťany i Tatry (Poprad) obowiązują nowe zasady na mocy decyzji Transport Authority nr 1/2026: latanie bez zezwolenia jest możliwe tylko w odległości większej niż 5 km od lotniska i do wysokości maksymalnie 30 m albo w nietypowej przestrzeni powietrznej (w odległości większej niż 5 km od lotniska, do wysokości budynku i tylko w jego bezpośrednim sąsiedztwie, maksymalnie w odległości poziomej 30 m od budynku). Operacje w CTR w rozumieniu wyznaczonych stref geograficznych mogą być wykonywane wyłącznie na podstawie zezwolenia na operację w kategorii szczególnej.",
+      "Przygotowanie do lotu obejmuje sprawdzenie, czy system zdalnej identyfikacji drona jest aktywny i aktualny (NSAT).",
       "Loty nocne są dozwolone — dron musi mieć włączone zielone migające światło.",
       "Parki narodowe (Tatry, Słowacki Raj, Niżne Tatry): obowiązują ograniczenia",
-      "Zamek Bratysławski i obszary rządowe: strefy zakazu lotów",
+      "Lotniska wojskowe Malacky-Kuchyňa (RUAS077M), Sliač (RUAS080M) i Prešov (RUAS081M), każde w promieniu 5600 m: loty wyłącznie za uprzednią zgodą Ministry of Defense of the Slovak Republic i z aktywnym systemem zdalnej identyfikacji (decyzja ministra nr 104/2026).",
       "Przed każdym lotem sprawdź strefy geograficzne UAS (strefy PUAS/RUAS) — wykaz prowadzą Ministry of Transportation oraz Transportation Authority, a strefy mogą ulegać zmianom.",
       "Lotniska wojskowe Malacky-Kuchyňa, Sliač i Prešov (strefy RUAS): loty są dozwolone wyłącznie za zgodą Ministry of Defense of the Slovak Republic."
     ],
@@ -24,10 +26,15 @@
       "Odległości od osób reguluje podział na podkategorie EASA (A1/A2/A3) — dawna krajowa zasada 50 metrów już nie obowiązuje.",
       "Rejestracją operatorów UAS zajmuje się Transport Authority — rejestracja jest ważna w całej UE/EASA",
       "Tatry i parki narodowe objęte są znacznymi ograniczeniami",
-      "Obszar wokół M. R. Štefánik Airport: całkowity zakaz lotów dronów w promieniu 5 km (PUAS0103M) — obejmuje to również dużą część Bratislava.",
+      "Okolice lotniska im. M. R. Štefánika: cywilne loty UAS są zabronione w promieniu 3 km (strefa RUAS098M, decyzja ministra nr 104/2026, obowiązująca od 18 sierpnia 2026 r.); w promieniu 5 km operacje są dozwolone wyłącznie w kategorii szczególnej (RUAS001-LZIBAD-D).",
+      "Ubezpieczenie jest obowiązkowe, jeśli wykonujesz operacje UAS w kategorii otwartej A2/A3, w kategorii szczególnej lub w kategorii certyfikowanej (FAQ NSAT).",
       "RODO ma zastosowanie przy wykonywaniu zdjęć umożliwiających identyfikację osób"
     ],
     "primaryLinks": [
+      {
+        "title": "Strefy geograficzne UAS — Urząd Transportu",
+        "description": "Oficjalna strona Urzędu Transportu ze strefami geograficznymi UAS (KML do pobrania). Przygotowanie do lotu: zapoznaj się z aktualnie obowiązującymi strefami geograficznymi."
+      },
       {
         "title": "Urząd Transportu — Przepisy dronowe",
         "description": "Oficjalne zasady i materiały Urzędu Transportu dotyczące dronów"

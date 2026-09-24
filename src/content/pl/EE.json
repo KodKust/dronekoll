@@ -1,22 +1,22 @@
 {
   "meta": {
-    "sourceHash": "23f3ed06f9446eb9733c76bcdc77184702b32d1e071b7b4a74e10dadb06fcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "0ddaecf7ada88ef77cb8ed7fae4021c3fab852ece7e0827759a36641d94a5932",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Do 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-      "Zarejestruj się jako operator UAS (10 €/rok), jeśli Twój dron waży 250 g lub więcej albo jest wyposażony w kamerę",
-      "Wymagane szkolenie online A1/A3 — minimalny wiek 16 lat",
-      "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
+      "W kategorii otwartej maksymalna wysokość wynosi 120 m i mierzy się ją jako odległość od najbliższego punktu na ziemi — nie tylko pionowo w dół, więc w pobliżu zbocza może się liczyć również sąsiedni grunt. Ponadto na niektórych obszarach mogą obowiązywać niższe limity wysokości; można je znaleźć na mapie dronowej. W promieniu 50 m od sztucznej konstrukcji możesz latać do 15 m powyżej tej konstrukcji za zgodą osoby lub podmiotu za nią odpowiedzialnego.",
+      "Musisz zarejestrować się jako operator drona, jeśli dron waży 250 g lub więcej (albo może przekazać przy zderzeniu energię kinetyczną większą niż 80 J) — dotyczy to także zabawek. Poniżej 250 g rejestracja nadal jest wymagana, jeśli dron ma czujnik umożliwiający gromadzenie danych osobowych, chyba że kwalifikuje się jako zabawka zgodnie z EU Toy Safety Directive. Wymagania dotyczące szkolenia/świadectwa pilota są odrębne i zależą od klasy i podkategorii drona.",
+      "W Estonii minimalny wiek pilotów zdalnych wynosi 16 lat — wyjątki dotyczą dronów klasy C0 w podkategorii A1, prywatnie zbudowanych dronów o masie poniżej 250 g oraz lotów pod bezpośrednim nadzorem pilota spełniającego wymagania.",
+      "W kategorii otwartej musisz utrzymywać drona w bezpośrednim zasięgu własnego wzroku bez użycia przyrządów (okulary lub soczewki kontaktowe są dozwolone; lornetka ani ekran się nie liczą) — albo latać z pomocą obserwatora, utrzymując z nim stałą, jasną i skuteczną komunikację, tak abyście wspólnie mogli obserwować przestrzeń powietrzną i unikać kolizji. Tryb follow-me jest odrębnym wyjątkiem i jest dozwolony do 50 m od pilota.",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
-      "Loty są zabronione w bezpośrednim sąsiedztwie lotnisk (ograniczenie wysokości 0 m) — zawsze sprawdzaj strefy zastrzeżone na estońskiej mapie dronowej.",
-      "Loty nocne są dozwolone, jeśli dron ma migające zielone światło — w pobliżu wschodniej granicy obowiązuje nocny zakaz lotów (20:00–7:00).",
+      "W bezpośrednim sąsiedztwie lotnisk limit wysokości w kategorii otwartej wynosi 0 m — latać można wyłącznie z zezwoleniem operacyjnym w kategorii szczególnej.",
+      "Loty nocne są dozwolone, jeśli dron ma migające zielone światło (UAS.OPEN.060(2)(g)).",
       "CTR lotniska w Tallinie: dokładnie sprawdź na estońskiej mapie dronowej",
       "Obszary zastrzeżone wokół lotnisk na wyspach (Saaremaa, Hiiumaa)",
-      "Strefa przygraniczna z Rosją: loty dronów są całkowicie zabronione w strefie przygranicznej hrabstwa Ida-Viru; wzdłuż całej wschodniej granicy obowiązuje nocny zakaz lotów (20:00–7:00), a występują znaczne zakłócenia GPS — sprawdzaj komunikaty NOTAM."
+      "W pobliżu granicy państwowej ustanowiono obszar ograniczeń (do 300 m nad poziomem gruntu lub wody): loty mogą się tam odbywać wyłącznie za zezwoleniem Politsei- ja Piirivalveamet (PPA) (Vabariigi Valitsuse korraldus nr 229, pkt 3.2 i 5.3). PPA ustanawia również czasowe obszary ograniczeń w pobliżu granicy — sprawdzaj komunikaty NOTAM. W strefie przygranicznej występują silne zakłócenia GPS."
     ],
     "importantNotes": [
       "Rejestracja kosztuje 10 € rocznie i jest ważna we wszystkich krajach UE/EASA",
@@ -32,7 +32,7 @@
       },
       {
         "title": "Urząd Transportu – Rejestracja jako operator",
-        "description": "Rejestracja jako operator UAS (10 €/rok, ważna we wszystkich krajach UE/EASA)"
+        "description": "Rejestracja jako operator UAS w systemie informacyjnym nadzoru nad bezpieczeństwem lotniczym LOIS2 (opłata skarbowa 10 €, ważna przez rok, ważna we wszystkich krajach UE/EASA)"
       },
       {
         "title": "Estońska mapa dronowa (UTM)",

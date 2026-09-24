@@ -1,25 +1,27 @@
 {
   "meta": {
-    "sourceHash": "f36a1cf828ca8a0a643f670fd6a861c54e98b56220c07b5f5975ef302b2f4c03",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-25",
+    "sourceHash": "933e44d2614cf2cedaee58cc5869444dec9c634eb2504dc1238b121b71e2d432",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximaal 120 m boven de grond (EASA Open categorie op grond van een bilaterale overeenkomst)",
-      "Registreer je als UAS-exploitant (CHF 10, onbeperkt geldig) als de drone 250 g of meer weegt of is uitgerust met een camera",
-      "A1/A3-onlinetraining vereist vanaf 250 g (certificaat 5 jaar geldig) — minimumleeftijd 12; kinderen onder de 12 moeten onder toezicht staan van iemand van 16 jaar of ouder.",
+      "In de open categorie is de maximale hoogte 120 m, gemeten als de afstand tot het dichtstbijzijnde punt van het aardoppervlak — niet simpelweg recht naar beneden, dus bij een helling kan ook de grond naast je meetellen. Binnen 50 m van een hoog kunstmatig obstakel (hoger dan 105 m) kan de entiteit die verantwoordelijk is voor het obstakel toestemming aanvragen om tot 15 m boven de hoogte van het obstakel te vliegen.",
+      "Je moet je als drone-exploitant registreren als je drone 250 g of meer weegt (of bij een botsing meer dan 80 J aan kinetische energie kan overdragen) — dit geldt ook voor speelgoed. Onder 250 g is registratie toch vereist als de drone een sensor heeft die persoonsgegevens kan vastleggen, tenzij hij als speelgoed wordt beschouwd in de zin van de EU-speelgoedrichtlijn. De eisen voor opleiding/certificaat van de piloot worden afzonderlijk geregeld en hangen af van de klasse en subcategorie van de drone.",
+      "In Zwitserland is de minimumleeftijd voor piloten op afstand 12 jaar in de categorie «open» en 14 jaar in de categorie «specifiek» (Art. 26 VLK, SR 748.941) — ongeacht het gewicht van de drone. Jongere piloten mogen alleen vliegen onder direct toezicht van een piloot op afstand die aan de eisen voldoet. Bij de registratie moeten kinderen onder 16 jaar een wettelijke vertegenwoordiger opgeven. Het A1/A3-bekwaamheidsbewijs wordt online behaald en is 5 jaar geldig.",
       "Verplichte aansprakelijkheidsverzekering voor drones die 250 g of meer wegen (dekking van CHF 1 miljoen)",
       "Leden van modelvliegclubs: aanvullende voorrechten onder FOCA-regelgeving",
-      "Houd de drone altijd binnen direct zicht (VLOS)",
+      "In de open categorie moet je de drone binnen je eigen directe zichtlijn houden, met het blote oog (bril/contactlenzen zijn toegestaan; een verrekijker of een scherm telt niet) — of vliegen met hulp van een waarnemer, waarbij jullie te allen tijde duidelijk en effectief met elkaar communiceren, zodat jullie samen het luchtruim kunnen bewaken en botsingen kunnen vermijden. De follow-me-modus is een afzonderlijke uitzondering, toegestaan tot 50 m van de piloot.",
       "Vlieg niet over mensenmassa’s. De regels voor niet-betrokken personen zijn afhankelijk van de subcategorie, de klasse-aanduiding en de bedrijfsomstandigheden; raadpleeg de officiële matrix.",
-      "Binnen 5 km van luchthavens en vliegvelden is opereren alleen toegestaan met toestemming van het vliegveld (drones die meer dan 250 g wegen).",
+      "Voor drones van meer dan 250 g is het gebruik verboden op minder dan 5 km van de start- en landingsbanen van een civiel of militair vliegveld, en in een actieve CTR als een hoogte van 120 m boven de grond wordt overschreden (Art. 28 VLK). De vliegveldleiding kan binnen de 5 km een kleinere zone vaststellen; uitzonderingen worden verleend door de vliegveldleiding of de luchtverkeersleidingsdienst.",
+      "Ongeacht het gewicht is het gebruik onder meer verboden boven penitentiaire inrichtingen, boven militaire terreinen zoals vermeld in de bijlage bij de VLK, boven buitenschakelinstallaties van netniveau 2 en binnen 750 m van kerncentrales en de tussenopslagfaciliteit Würenlingen (Art. 27 VLK).",
       "Nationale parken: dronegebruik beperkt of verboden",
       "Berggebieden: houd rekening met de vliegroutes van helikopters (reddings- en rondvluchten)"
     ],
     "importantNotes": [
       "Registratie kost slechts CHF 10 — een eenmalige vergoeding met onbeperkte geldigheid waarvoor geen verlenging nodig is.",
+      "U-Space Zürich: het eerste U-Space-luchtruim van Zwitserland wordt ingevoerd in de CTR van Zürich (ca. 10 km × 17 km); vanaf eind 2026 is het gebruik van U-Space-diensten verplicht voor alle dronepiloten in het gebied (eenmalige registratie bij een USSP vereist). Vrijgesteld: drones onder 250 g, modelvliegtuigen, staatsvluchten. Rechtsgrondslag: Art. 29a–29e VLK.",
       "Verplichte verzekering voor drones die 250 g of meer wegen (dekking: CHF 1 miljoen)",
       "Zwitserland is geen lid van de EU, maar houdt zich aan de EASA-regelgeving via een bilaterale overeenkomst",
       "Alpiene helikopterroutes komen vaak voor — houd het luchtruim altijd in de gaten",
@@ -51,6 +53,10 @@
       {
         "title": "SMV — Modelvliegen",
         "description": "Zwitserse modelvliegvereniging met clubvoorrechten en locaties"
+      },
+      {
+        "title": "DABS — Daily Airspace Bulletin Switzerland (BAZL)",
+        "description": "FOCA/BAZL: «De DABS moet daarom ook vóór elke vlucht worden gecontroleerd» — stap 2 van de eigen driestapscontrole van het BAZL"
       }
     ],
     "disclaimerText": "Raadpleeg vóór elke vlucht altijd de officiële bronnen van FOCA/BAZL en de officiële dronekaart op map.geo.admin.ch. Deze app is een hulpmiddel — geen juridische bron. Zwitserland volgt de EASA-regelgeving via een bilaterale overeenkomst.",

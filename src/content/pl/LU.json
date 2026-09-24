@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "36d02a53cfd249d58006a295f9a59616c0e6c70d5da2bf039b877f35892a3057",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6bf2e348b1896b08803a150a27a534a3546ea700b4d2c17be5329c5137833aca",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalnie 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-      "Obowiązkowe szkolenie online A1/A3 — minimalny wiek 14 lat (dla nieletnich w wieku 14 i 15 lat rejestracji musi dokonać rodzic lub opiekun).",
+      "W kategorii otwartej maksymalna wysokość wynosi 120 m, mierzona jako odległość od najbliższego punktu powierzchni ziemi — nie po prostu pionowo w dół, więc w pobliżu zbocza może się liczyć również teren obok Ciebie. W promieniu 50 m od wysokiej sztucznej przeszkody (powyżej 105 m) podmiot odpowiedzialny za przeszkodę może wystąpić o zezwolenie na lot do 15 m powyżej wysokości przeszkody.",
+      "Obowiązkowe, bezpłatne szkolenie online A1/A3 na platformie LearningZone Eurocontrol (FR/DE/EN/LB, odnawialny dostęp na 3 miesiące); certyfikat ważny 5 lat. Minimalny wiek do wykonywania operacji bezzałogowym statkiem powietrznym w kategorii „otwartej” wynosi w Luksemburgu 14 lat (art. 2 rozporządzenia wielkoksiążęcego z 22 grudnia 2025 r.); młodszy małoletni lata pod nadzorem osoby powyżej 16 lat posiadającej wymagane kwalifikacje. Egzamin OPEN A2 zdaje się w siedzibie DAC, a jego koszt wynosi 45 €.",
       "Obowiązkowe ubezpieczenie od odpowiedzialności cywilnej (numer polisy wymagany przy rejestracji lotu)",
       "CTR lotniska Luxembourg-Findel obejmuje znaczną część kraju",
-      "Zawsze utrzymuj drona w zasięgu wzroku (VLOS)",
+      "W kategorii otwartej musisz utrzymywać drona we własnym bezpośrednim zasięgu wzroku, gołym okiem (okulary/soczewki korekcyjne są dozwolone; lornetka ani ekran się nie liczą) — albo korzystać z pomocy obserwatora, przez cały czas utrzymując z nim jasną i skuteczną komunikację, tak aby wspólnie monitorować przestrzeń powietrzną i unikać kolizji. Tryb „follow-me” to osobny wyjątek, dozwolony do 50 m od pilota zdalnego.",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
       "Przestrzegaj CTR Luxembourg-Findel oraz stref geograficznych UAS opublikowanych na Geoportail.lu — po harmonizacji EASA nie obowiązuje już jednolita strefa buforowa o promieniu 5 km",
-      "Nocą wiele obszarów (zwłaszcza wokół Findel) wymaga szczególnego zezwolenia — sprawdź wymagania dla każdego obszaru na drones.geoportail.lu.",
+      "Loty nocne w kategorii otwartej są w Luksemburgu dozwolone z zastrzeżeniem podstawowych wymogów EASA. Niektóre strefy geograficzne — zwłaszcza wokół Findel — nakładają jednak warunki lub wymagają szczególnego zezwolenia na loty nocne: sprawdź warunki dla każdej strefy na g-o.lu/uas.",
       "Pałac Wielkoksiążęcy, zakłady karne i strefy wojskowe: wymagane wcześniejsze zezwolenie — lokalne stadiony i lądowiska (Useldange, Noertrange): loty zabronione."
     ],
     "importantNotes": [
       "Ubezpieczenie obowiązkowe; numer polisy wymagany przy rejestracji lotu",
       "CTR lotniska Luxembourg-Findel obejmuje dużą część tego małego kraju",
-      "Nowe krajowe ramy prawne (grudzień 2025) przewidują sankcje karne — karę do 1 roku pozbawienia wolności i grzywnę w wysokości 5 000 € — za brak ubezpieczenia lub rejestracji.",
-      "RODO ma zastosowanie przy wykonywaniu zdjęć umożliwiających identyfikację osób"
+      "Nowe ramy krajowe — ustawa z 19 grudnia 2025 r. i rozporządzenie wielkoksiążęce z 22 grudnia 2025 r. w sprawie bezzałogowych statków powietrznych — uzupełniają przepisy europejskie i wprowadzają sankcje karne za nieprzestrzeganie obowiązków dotyczących rejestracji, ubezpieczenia i stref. Od 14 stycznia 2026 r. obowiązują opłaty: 10 € za rejestrację lub jej odnowienie, 30 € za deklarację STS, 45 € za egzamin OPEN A2.",
+      "RODO ma zastosowanie przy wykonywaniu zdjęć umożliwiających identyfikację osób",
+      "Ostrzeżenie (DAC): strefy geograficzne (Geozones) udostępniane przez producentów UAS niekoniecznie obejmują wszystkie strefy ograniczeń w Luksemburgu i NIE ma automatycznej wymiany informacji między producentem UAS a Geoportail. Prawnie obowiązują wyłącznie strefy geograficzne UAS pokazane na g-o.lu/uas — geoograniczenie w Twoim kontrolerze nie wystarczy."
     ],
     "primaryLinks": [
       {
@@ -34,7 +35,7 @@
       },
       {
         "title": "Geoportail.lu — Mapa dronowa",
-        "description": "Oficjalny portal geograficzny z informacjami o strefach dla dronów"
+        "description": "Prawnie obowiązujące w Luksemburgu są wyłącznie strefy geograficzne UAS opublikowane w tym serwisie"
       },
       {
         "title": "DAC — Przegląd zasad",

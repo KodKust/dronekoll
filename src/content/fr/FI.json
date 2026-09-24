@@ -1,21 +1,21 @@
 {
   "meta": {
-    "sourceHash": "49389e227b39ad270162c3ac5b4ca7074db2b61d6472d7eff6c37ed05fab160b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c0578e66e699fe36cfd68936aab2c9a41e3b5869fd85affc213b0724574a07a2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Pas plus de 120 m au-dessus du sol (catégorie ouverte EASA)",
-      "Formation en ligne A1/A3 requise — âge minimum 16 ans",
-      "Gardez toujours une vue directe (VLOS) sur le drone",
+      "Dans la catégorie ouverte, la hauteur maximale autorisée est de 120 m, mesurée comme la distance jusqu'au point le plus proche de la surface du sol — et non à la verticale ; près d'une pente, le terrain adjacent peut donc aussi être pris en compte. Dans un rayon de 50 m autour d'un obstacle artificiel élevé (de plus de 105 m), l'entité responsable de l'obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
+      "En Finlande, l'âge minimum d'un télépilote est de 12 ans pour les drones de plus de 250 grammes (Traficom) ; pour les drones de classe C0 ou construits soi-même de moins de 250 grammes, il n'y a aucune exigence d'âge ni de formation. Notez que l'exploitant qui s'enregistre (l'utilisateur) doit toujours être majeur — pour un pilote mineur, c'est un tuteur légal qui s'enregistre comme exploitant.",
+      "Dans la catégorie ouverte, vous devez garder le drone dans votre propre champ de vision direct, sans aide (les lunettes et lentilles sont autorisées ; les jumelles ou un écran ne comptent pas) — ou voler avec l'aide d'un observateur, en maintenant en permanence une communication claire et efficace avec lui, afin de pouvoir surveiller ensemble l'espace aérien et éviter les collisions. Le mode Follow-me constitue une exception distincte, autorisée à une distance maximale de 50 m du télépilote.",
       "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
-      "Respectez les restrictions des CTR d'aéroport et des zones d'espace aérien UAS — consultez Droneinfo.fi",
+      "Respectez les restrictions des CTR d'aéroport et des zones d'espace aérien UAS. Les zones sont définies dans le règlement OPS M1-29 de Traficom, dont la dernière version est entrée en vigueur le 16 avril 2026 — vérifiez la situation actuelle sur la carte Fintraffic Sky (sky.fintraffic.fi).",
       "Les vols de nuit sont autorisés si le drone dispose d'un feu vert clignotant d'identification et si la visibilité est suffisante",
       "Des restrictions de vol sont en vigueur à proximité de la frontière orientale — vérifiez les zones concernées avant de voler",
       "En Laponie, des restrictions saisonnières peuvent s'appliquer dans les zones d'élevage de rennes",
-      "Consultez Droneinfo.fi pour les restrictions et limites d'altitude propres à chaque zone"
+      "Consultez la carte Fintraffic Sky (sky.fintraffic.fi) pour les restrictions et limites d'altitude propres à chaque zone"
     ],
     "importantNotes": [
       "La zone « Eastern Border » (EFR100) est active 24 heures sur 24 — désormais visible sur la carte",
@@ -31,11 +31,11 @@
       },
       {
         "title": "Traficom — S'inscrire",
-        "description": "Enregistrez-vous comme utilisateur d'UAS (30 € pour 3 ans ou 100 € pour 5 ans, valable dans tous les pays de l'UE/EASA)"
+        "description": "Enregistrez-vous comme utilisateur d'UAS (40 € pour 1 an, 95 € pour 3 ans ou 125 € pour 5 ans, valable dans tous les pays de l'UE/EASA)"
       },
       {
-        "title": "Droneinfo.fi — Carte de l'espace aérien",
-        "description": "Carte interactive officielle des drones indiquant les zones d'interdiction de vol et les zones réglementées"
+        "title": "Fintraffic Sky – Carte de l'espace aérien",
+        "description": "Carte interactive de l'espace aérien de Fintraffic ANS affichant les zones d'espace aérien UAS ainsi que les zones interdites et réglementées (la même carte que celle derrière le bouton « Espace aérien » de l'application)"
       },
       {
         "title": "Traficom — Formation et examens",
@@ -52,7 +52,7 @@
         "description": "Questions fréquentes sur la réglementation finlandaise des drones"
       }
     ],
-    "disclaimerText": "Vérifiez toujours les sources officielles de Traficom et Droneinfo.fi avant de voler. Cette application est un outil, pas une autorité officielle. La Finlande applique la réglementation EASA, avec des exigences nationales supplémentaires.",
+    "disclaimerText": "Vérifiez toujours les sources officielles de Traficom et la carte Fintraffic Sky avant de voler. Cette application est un outil, pas une autorité officielle. La Finlande applique la réglementation EASA, avec des exigences nationales supplémentaires.",
     "sectionLabelRules": "RÈGLES CLÉS (CATÉGORIE OUVERTE EASA)",
     "sectionLabelPrimary": "SOURCES OFFICIELLES",
     "sectionLabelSecondary": "PLUS D'INFORMATIONS",

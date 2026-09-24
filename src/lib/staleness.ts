@@ -13,6 +13,13 @@
  *     translate_en.py:s source_payload, dupliceringen etablerad i
  *     scripts/check-en-staleness.mjs).
  *
+ * KEDJAN (2026-09-24): recept 1 räcker inte ensamt. En matriscell som matchar
+ * EN-overlayn är ändå inaktuell om EN-overlayn själv är inaktuell mot
+ * countries.json (recept 3) — annars godtog appen en gammal översättning så
+ * länge radantalet råkade stämma (sv/DE bar juli-texter som "färska" i två
+ * månader; EC 23/9). isCellStale kräver därför färsk EN för icke-EN-länders
+ * matrisceller. Spegel i scripts/check-matrix-staleness.mjs.
+ *
  * En stale cell SKEPPAS (graciös degradering på sajten) men flaggas i
  * endpointens meta.stale — appen förkastar då cellen och visar native
  * (hellre helnative än halvgammal översättning).
@@ -103,5 +110,12 @@ export function expectedCellSourceHash(country: Country, lang: string): string |
  *  tillbaka på native. Okänd förväntan → false (aldrig falskt larm). */
 export function isCellStale(overlay: EnOverlay, country: Country, lang: string): boolean {
   const expected = expectedCellSourceHash(country, lang);
-  return expected !== null && overlay.meta.sourceHash !== expected;
+  if (expected !== null && overlay.meta.sourceHash !== expected) return true;
+  // Kedjan: matriscellen i ett icke-EN-land är översatt ur EN-overlayn — är den
+  // inaktuell mot countries.json är cellen det också (se filhuvudet).
+  if (lang !== 'en' && country.languageCode !== 'en') {
+    const en = loadEnOverlays().get(country.isoCode.toUpperCase());
+    if (en && en.meta.sourceHash !== enHash(country)) return true;
+  }
+  return false;
 }

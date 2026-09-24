@@ -1,18 +1,19 @@
 {
   "meta": {
-    "sourceHash": "cdf51635159a9ab6a3aeea2b4855eab4e7c0cffc1a63d0ea2536d0902dca0ee5",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "5646b8c07e69e790fbab03d3414fded620214417e727b8c7d6fe2c009d985a3c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximum 120 m deasupra nivelului solului (AGL)",
-      "Înregistrarea este necesară pentru dispozitivele cu o greutate de 250 g sau mai mult ori sub 250 g dacă au o cameră",
+      "În categoria Open, înălțimea maximă este de 120 m, măsurată ca distanță până la cel mai apropiat punct al suprafeței terestre — nu pur și simplu pe verticală, așa că în apropierea unei pante poate conta și terenul de alături. Pe o rază de 50 m față de un obstacol artificial înalt (peste 105 m), persoana responsabilă de obstacol poate solicita permisiunea de a zbura până la 15 m peste înălțimea obstacolului.",
+      "Trebuie să te înregistrezi ca operator de drone dacă drona cântărește 250 g sau mai mult (ori poate transfera peste 80 J de energie cinetică la o coliziune) — acest lucru se aplică și jucăriilor. Sub 250 g, înregistrarea este totuși necesară dacă drona are un senzor capabil să capteze date cu caracter personal, cu excepția cazului în care se încadrează drept jucărie conform Directivei UE privind siguranța jucăriilor. Cerințele de formare/certificat pentru pilot sunt separate și depind de clasa și subcategoria dronei.",
+      "În Norvegia, limita de vârstă pentru a zbura singur este de 16 ani. Excepțiile se aplică dronelor C0 clasificate drept jucării și dronelor construite în regie proprie sub 250 g, cu o viteză maximă sub 19 m/s. Dacă ai sub 16 ani, poți zbura sub supravegherea directă a unui pilot la distanță care are cel puțin 16 ani și deține un certificat de competență valabil.",
       "Înregistrarea UE din țara ta de origine este valabilă — nu este necesară o nouă înregistrare norvegiană",
       "Asigurarea de răspundere civilă este necesară în mod normal pentru dronele cu o greutate de 250 g sau mai mult (nu este necesară pentru dronele cu o greutate sub 250 g în categoria Open)",
-      "Este necesar un permis în raza de 5 km a unui aeroport — folosește aplicația Ninox Drone",
-      "Centrul orașului Oslo (R102) este o zonă restricționată permanent — necesită autorizarea Autorității Aviației Civile",
+      "Pentru a zbura pe o rază de 5 km de un aeroport este necesară autorizarea turnului de control — contactează serviciul de trafic aerian telefonic sau prin e-mail ori depune cererea prin aplicația Ninox Drone (Avinor), acolo unde este utilizată. Aplicația nu este obligatorie.",
+      "Centrul orașului Oslo (R102) este o zonă restricționată permanent — zborul necesită permisiunea prealabilă a Luftfartstilsynet (cererea se depune prin Altinn sau la postmottak@caa.no, timp de procesare de aproximativ două săptămâni, contra cost). În mod normal, poliția nu acordă permisiunea în noaptea de Revelion/ziua de Anul Nou, pe 17 mai, în ziua deschiderii Storting sau pe 10 decembrie.",
       "Identificarea la distanță (Remote ID) este necesară pentru dronele din clasele C1–C3",
       "Verifică întotdeauna separat zonele protejate și parcurile naționale"
     ],
@@ -31,8 +32,8 @@
         "description": "Harta oficială a zonelor restricționate și de interdicție de zbor"
       },
       {
-        "title": "Ninox Drone — autorizație în apropierea unui aeroport",
-        "description": "Solicită autorizația de a zbura în raza de 5 km a unui aeroport"
+        "title": "NinoxDrone – solicită permisiunea",
+        "description": "Portalul Avinor pentru operatorii de drone – cereri pentru zboruri în apropierea aeroporturilor (aplicație: NinoxDrone2)"
       },
       {
         "title": "Flydrone.no — înregistrare și certificare",

@@ -1,23 +1,23 @@
 {
   "meta": {
-    "sourceHash": "3be5ea4356d33508cdfa72168e28336876f3048cd12d77af66e6840fe65da1e4",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ca02f210ab67dc8eec19b622349f74c1c59940a9cc38a87f1711298b83f779a7",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximum 120 m deasupra nivelului solului (categoria EASA Open)",
-      "Înregistrare ca operator UAS (gratuită, valabilă 3 ani) dacă drona cântărește 250 g sau mai mult ori are o cameră",
-      "Instruire online A1/A3 obligatorie pentru dronele cu o greutate de 250 g sau mai mult — vârsta minimă a pilotului: 16 ani.",
-      "Asigurare de răspundere civilă obligatorie pentru dronele cu o greutate de peste 900 g",
-      "Zborul deasupra instalațiilor militare, penitenciarelor, ambasadelor și forțelor de ordine este interzis (Decretul-lege nr. 87/2021). Parcul Natural Sintra-Cascais necesită autorizarea ICNF.",
-      "Menține întotdeauna contactul vizual direct cu drona (VLOS)",
+      "În categoria Open, înălțimea maximă este de 120 m, măsurată ca distanță până la cel mai apropiat punct al suprafeței terestre — nu pur și simplu pe verticală, așa că în apropierea unei pante contează și terenul de alături. Pe o rază de 50 m față de un obstacol artificial înalt (peste 105 m), entitatea responsabilă de obstacol poate solicita autorizarea de a zbura până la 15 m peste înălțimea obstacolului.",
+      "Trebuie să te înregistrezi ca operator de drone dacă drona cântărește 250 g sau mai mult (ori poate transfera peste 80 J de energie de impact) — acest lucru se aplică și jucăriilor. Sub 250 g, înregistrarea este totuși necesară dacă drona are un senzor capabil să capteze date cu caracter personal, cu excepția cazului în care este considerată jucărie conform Directivei europene privind siguranța jucăriilor. Cerințele de formare/certificat pentru pilot sunt separate și depind de clasa și subcategoria dronei.",
+      "În Portugalia, vârsta minimă pentru a zbura independent în categoria Open este de 16 ani. Formarea și examenul A1/A3 sunt gratuite, se susțin online și sunt valabile 5 ani.",
+      "Asigurarea de răspundere civilă față de terți este obligatorie pentru dronele cu o MTOM de peste 900 g (Decreto-Lei n.º 58/2018); acoperirea minimă, condițiile și capitalul sunt stabilite în Portaria n.º 2/2021.",
+      "Zborul deasupra organelor suverane, ambasadelor și consulatelor, instalațiilor militare, sediilor forțelor și serviciilor de securitate și penitenciarelor este interzis fără autorizarea entității responsabile (ANAC Regulamento n.º 1093/2016, menținut în vigoare prin Decreto-Lei n.º 87/2021). Parcul Natural Sintra-Cascais necesită autorizarea ICNF.",
+      "În categoria Open, trebuie să menții drona în propria ta rază vizuală directă, cu ochiul liber (ochelarii/lentilele de contact sunt în regulă; binoclul sau un ecran nu contează) — sau să zbori cu ajutorul unui observator, păstrând în permanență o comunicare clară și eficientă între voi, astfel încât împreună să puteți supraveghea spațiul aerian și să evitați coliziunile. Modul follow-me este o excepție separată, permisă până la 50 m de pilot.",
       "Nu zburați deasupra adunărilor de persoane. Regulile aplicabile persoanelor neimplicate depind de subcategorie, de marca de clasă și de condițiile de operare; consultați matricea oficială.",
-      "Nu zbura în zonele de protecție ale aeroporturilor și heliporturilor (CTR/ATZ) fără autorizare — verifică zonele pe harta aplicației și la voanaboa.pt.",
+      "Nu zbura în zonele de protecție ale aeroporturilor și heliporturilor (CTR/ATZ) fără autorizare — verifică zonele pe harta aplicației și la dnt.anac.pt.",
       "Zborurile de noapte sunt permise în categoria Open fără autorizarea ANAC — aprinde o lumină verde intermitentă pe dronă.",
       "Azore și Madeira: pot fi aplicabile restricții regionale suplimentare",
-      "Fotografierea și filmarea aeriană (precum și difuzarea acestor materiale) necesită autorizarea AAN — cererile pot fi depuse gratuit online prin platforma e-AAN."
+      "Captarea de imagini aeriene necesită autorizarea prealabilă a Autoridade Aeronáutica Nacional (AAN) prin platforma e-AAN — singurul canal pentru ridicările aeriene. Cererea trebuie depusă cu cel puțin 10 zile înainte de începerea activității; perioada maximă acordată este de 30 de zile consecutive (Guia Rápido e-AAN al AAN)."
     ],
     "importantNotes": [
       "Portugalia are un sistem dublu: ANAC reglementează zborurile, iar AAN autorizează captarea de imagini aeriene.",
@@ -33,8 +33,11 @@
         "description": "Reguli și resurse oficiale ale autorității portugheze a aviației civile privind dronele"
       },
       {
+        "title": "ANAC — harta zonelor geografice UAS"
+      },
+      {
         "title": "ANAC — înregistrare ca operator",
-        "description": "Înregistrare gratuită ca operator UAS (valabilă 3 ani, recunoscută în toate țările UE/EASA)"
+        "description": "Înregistrare gratuită ca operator UAS (valabilă 3 ani, recunoscută în toate țările UE/EASA). Înregistrarea se face pe uas.anac.pt și necesită un NIF portughez și o Chave Móvel Digital activă."
       },
       {
         "title": "NAV Portugal — informații despre spațiul aerian",

@@ -1,28 +1,29 @@
 {
   "meta": {
-    "sourceHash": "3f93b288335a64961197959526986fa369f18ef2ac4a0d684c859af0aa2a4931",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "3c54b50d3e51926a9a7b9c89db124d744240fd7e158e4869e88669a6d03744df",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Do 120 m nad poziomem gruntu (kategoria otwarta EASA)",
-      "Zarejestruj się jako operator UAS w RDW (jednorazowa opłata 23 € + 13 €/rok za odnowienie), jeśli dron waży 250 g lub więcej albo jest wyposażony w kamerę",
-      "Szkolenie online A1/A3 jest obowiązkowe — minimalny wiek 16 lat",
-      "CTR o promieniu 14 km wokół Schiphol obejmuje większość Amsterdamu — zobacz oficjalną mapę przestrzeni powietrznej",
-      "Zawsze utrzymuj z dronem kontakt wzrokowy (VLOS)",
+      "W kategorii otwartej maksymalną wysokość 120 m mierzy się jako odległość od najbliższego punktu powierzchni ziemi — nie tylko pionowo w dół, więc w pobliżu zbocza liczy się również grunt znajdujący się obok. W promieniu 50 m od wysokiej sztucznej przeszkody (powyżej 105 m) podmiot za nią odpowiedzialny może wystąpić o zezwolenie na lot do 15 m powyżej wysokości przeszkody.",
+      "Musisz zarejestrować się jako operator drona, jeśli dron waży 250 g lub więcej (albo może przekazać przy uderzeniu energię kinetyczną większą niż 80 J) — dotyczy to także zabawek. Poniżej 250 g rejestracja nadal jest wymagana, jeśli dron ma czujnik umożliwiający rejestrowanie danych osobowych, chyba że kwalifikuje się jako zabawka zgodnie z EU Toy Safety Directive. Wymagania dotyczące szkolenia/świadectwa pilota są uregulowane odrębnie i zależą od klasy i podkategorii drona.",
+      "W Holandii minimalny wiek dla świadectwa A1/A3 wynosi 16 lat. Jeśli jesteś młodszy, obserwator (z ważnym świadectwem) musi przez cały czas utrzymywać drona w zasięgu wzroku i pozostawać z tobą w kontakcie.",
+      "Strefa zakazu lotów wokół Schiphol obejmuje większą część Amsterdamu i okolic — przed każdym lotem sprawdź oficjalną mapę, zamiast polegać na stałej odległości.",
+      "W kategorii otwartej musisz utrzymywać drona w zasięgu własnego wzroku, gołym okiem (okulary lub soczewki kontaktowe są dozwolone; lornetka ani ekran się nie liczą) — albo latać z pomocą obserwatora, z którym przez cały czas komunikujesz się jasno i skutecznie, tak abyście wspólnie mogli obserwować przestrzeń powietrzną i unikać kolizji. Tryb follow-me jest odrębnym wyjątkiem i jest dozwolony do 50 m od pilota.",
       "Nie należy przelatywać nad zgromadzeniami ludzi. Zasady dotyczące osób postronnych zależą od podkategorii, oznaczenia klasy i warunków eksploatacji; należy zapoznać się z oficjalną tabelą.",
-      "Minimalna odległość 3 km od małych lotnisk, z większą strefą buforową wokół Schiphol",
-      "Lot nocny jest dozwolony zgodnie z podstawowymi wymogami EASA dla kategorii otwartej, pod warunkiem stosowania wymaganego migającego zielonego światła, chyba że obowiązujące przepisy dotyczące strefy geograficznej lub przepisy krajowe nakładają bardziej rygorystyczne warunki.",
-      "Obszary przyrodnicze (Natura 2000): ograniczenia w okresie lęgowym",
-      "Gęsto zaludnione obszary miejskie w Randstad: sprawdź lokalne przepisy gminne"
+      "Ograniczenia wokół lotnisk są publikowane jako strefy zakazu lotów na oficjalnej mapie dronowej; wokół Schiphol obowiązuje duża strefa buforowa. Przed lotem w pobliżu lotniska sprawdź mapę — nie istnieje jedna stała odległość obowiązująca wszędzie.",
+      "W Holandii w kategorii otwartej nie wolno latać w nocy. Loty są ograniczone do Jednolitego Okresu Dziennego (Uniforme Daglicht Periode, UDP), który trwa od wschodu do zachodu słońca. O zwolnienie umożliwiające loty poza UDP można wystąpić do ILT wyłącznie w przypadku lotów w kategorii szczególnej — w kategorii otwartej taka możliwość nie istnieje.",
+      "Obszary przyrodnicze (Natura 2000): na niektórych obszarach obowiązują ograniczenia dla dronów — ustala je prowincja lub zarządca obszaru, a nie stały sezon. Przed lotem sprawdź przepisy prowincji oraz informacje o strefach na mapie.",
+      "Gęsto zaludnione obszary miejskie w Randstad: sprawdź lokalne przepisy gminne",
+      "Odległość od dróg, linii kolejowych i sieci wysokiego napięcia (Regeling onbemande luchtvaartuigen art. 6 i 8, kategoria otwarta): nie bliżej niż 50 m (A1/A2) lub 150 m (A3) od użytkowanych autostrad, dróg ekspresowych i dróg z ograniczeniem prędkości do 80 km/h; nie bliżej niż 25 m (A1/A2) lub 150 m (A3) od linii kolejowych; oraz nie bliżej niż 150 m od obiektów lub obszarów stanowiących część systemu przesyłu energii elektrycznej (sieci wysokiego napięcia)."
     ],
     "importantNotes": [
-      "CTR o promieniu 14 km wokół Schiphol skutecznie zakazuje lotów dronów nad większością Amsterdamu",
+      "Wokół Schiphol obowiązuje rozległa strefa zakazu lotów, obejmująca większą część Amsterdamu i okoliczne tereny rekreacyjne; przed każdym lotem sprawdź oficjalną mapę, zamiast polegać na stałej odległości.",
       "Rejestracja w RDW kosztuje jednorazowo 23 € oraz 13 € rocznie za odnowienie (od 2025 r.) — jest ważna we wszystkich krajach UE/EASA",
-      "Grzywny do 11 250 € za naruszenia",
-      "Strefy wojskowe (Leeuwarden, Eindhoven, Volkel): bezwzględny zakaz lotów",
+      "Naruszenia mogą skutkować wysokimi grzywnami, konfiskatą drona, a w przypadku powtarzających się wykroczeń nawet postępowaniem karnym — kwoty zależą od rodzaju naruszenia.",
+      "Lotniska wojskowe Leeuwarden, Eindhoven i Volkel (CTR): loty w kategorii otwartej są tu zabronione; loty w kategorii szczególnej wymagają uprawnienia w zezwoleniu operacyjnym (tekst strefy IenW, Regeling onbemande luchtvaartuigen art. 7).",
       "RODO ma zastosowanie przy tworzeniu obrazów przedstawiających możliwe do zidentyfikowania osoby"
     ],
     "primaryLinks": [
@@ -32,7 +33,7 @@
       },
       {
         "title": "RDW — Rejestracja jako operator",
-        "description": "Rejestracja jako operator UAS (ważna we wszystkich krajach UE/EASA)"
+        "description": "Rejestracja jako operator UAS: jednorazowo 23 €, następnie 13 € rocznie za odnowienie (numer operatora ważny 1 rok; ważny we wszystkich krajach UE/EASA)"
       },
       {
         "title": "ILT — Przegląd zasad",

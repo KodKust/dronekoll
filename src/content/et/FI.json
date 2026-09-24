@@ -1,21 +1,21 @@
 {
   "meta": {
-    "sourceHash": "49389e227b39ad270162c3ac5b4ca7074db2b61d6472d7eff6c37ed05fab160b",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "c0578e66e699fe36cfd68936aab2c9a41e3b5869fd85affc213b0724574a07a2",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Mitte üle 120 m maapinnast (EASA avatud kategooria)",
-      "Nõutav A1/A3 veebikoolitus — vanuse alampiir 16 aastat",
-      "Hoia drooni alati otsenähtavuses (VLOS)",
+      "Avatud kategoorias on suurim lubatud kõrgus 120 m, mõõdetuna kaugusena maapinna lähima punktini — mitte otse alla, seega võidakse nõlva lähedal arvesse võtta ka kõrvalolevat maastikku. Kõrge tehisliku takistuse (üle 105 m) 50 m raadiuses võib takistuse eest vastutav üksus taotleda luba lennata kuni 15 m takistuse kõrgusest kõrgemal.",
+      "Soomes on kaugpiloodi vanuse alampiir üle 250 grammi kaaluvate droonide puhul 12 aastat (Traficom); C0-klassi või ise ehitatud alla 250 grammi droonide puhul vanuse- ega koolitusnõuet ei ole. Pane tähele, et registreeruv operaator (kasutaja) peab alati olema täisealine — alaealise piloodi puhul registreerub operaatorina eestkostja.",
+      "Avatud kategoorias peab droon püsima sinu enda abivahenditeta otsenähtavuses (prillid/kontaktläätsed on lubatud; binokkel või ekraan ei ole) — või võid lennata vaatleja abiga, säilitades temaga kogu aeg selge ja tõhusa side, et saaksite koos õhuruumi jälgida ja kokkupõrkeid vältida. Follow-me režiim on eraldi erand, mis on lubatud maksimaalselt 50 m kaugusel piloodist.",
       "Ära lenda rahvakogunemiste kohal. Kõrvaliste isikute suhtes kehtivad reeglid sõltuvad alamkategooriast, klassimärgist ja käitamistingimustest; kontrolli ametlikku tabelit.",
-      "Järgi lennujaamade CTR-ide ja UAS-i õhuruumi tsoonide piiranguid — kontrolli Droneinfo.fi",
+      "Järgi lennujaamade CTR-ide ja UAS-i õhuruumitsoonide piiranguid. Tsoonid on määratletud Traficom määruses OPS M1-29, mille uusim versioon jõustus 16. aprillil 2026 — kontrolli ajakohast olukorda Fintraffic Sky kaardilt (sky.fintraffic.fi).",
       "Öölennud on lubatud, kui droonil on roheline vilkuv tuvastustuli ja nähtavus on piisav",
       "Idapiiri lähedal kehtivad lennupiirangud — kontrolli enne lendamist asjaomaseid alasid",
       "Lapimaal võivad põhjapõdrakasvatuse aladel kehtida hooajalised piirangud",
-      "Vaata veebisaidilt Droneinfo.fi piirkonnapõhiseid piiranguid ja kõrguspiire"
+      "Kontrolli piirkonnapõhiseid piiranguid ja kõrguspiire Fintraffic Sky kaardilt (sky.fintraffic.fi)"
     ],
     "importantNotes": [
       "Eastern Border (EFR100) tsoon on aktiivne ööpäev läbi — nüüd on see kaardil nähtav",
@@ -31,11 +31,11 @@
       },
       {
         "title": "Traficom — Registreeru",
-        "description": "Registreeru UAS-kasutajana (30 € 3 aasta või 100 € 5 aasta eest, kehtib kõigis EL/EASA riikides)"
+        "description": "Registreeru UAS-kasutajana (40 € 1 aasta, 95 € 3 aasta või 125 € 5 aasta eest, kehtib kõigis EL/EASA riikides)"
       },
       {
-        "title": "Droneinfo.fi — Õhuruumi kaart",
-        "description": "Ametlik interaktiivne droonikaart, mis näitab lennukeelu- ja piiranguga tsoone"
+        "title": "Fintraffic Sky – õhuruumi kaart",
+        "description": "Fintraffic ANS interaktiivne õhuruumi kaart, mis näitab UAS-i õhuruumitsoone ning keelu- ja piiranguga alasid (sama kaart, mis on rakenduse õhuruuminupu taga)"
       },
       {
         "title": "Traficom — Koolitus ja eksamid",
@@ -52,7 +52,7 @@
         "description": "Korduma kippuvad küsimused Soome droonimääruste kohta"
       }
     ],
-    "disclaimerText": "Kontrolli enne lendamist alati Traficom ametlikke allikaid ja veebisaiti Droneinfo.fi. See rakendus on abivahend, mitte ametiasutus. Soome järgib EASA määrusi koos täiendavate riiklike nõuetega.",
+    "disclaimerText": "Kontrolli enne lendamist alati Traficom ametlikke allikaid ja Fintraffic Sky kaarti. See rakendus on abivahend, mitte ametiasutus. Soome järgib EASA määrusi koos täiendavate riiklike nõuetega.",
     "sectionLabelRules": "PÕHIREEGLID (EASA AVATUD KATEGOORIA)",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISATEAVE",

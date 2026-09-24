@@ -1,23 +1,23 @@
 {
   "meta": {
-    "sourceHash": "3be5ea4356d33508cdfa72168e28336876f3048cd12d77af66e6840fe65da1e4",
-    "engine": "opus-4-8",
-    "translatedAt": "2026-07-10",
+    "sourceHash": "ca02f210ab67dc8eec19b622349f74c1c59940a9cc38a87f1711298b83f779a7",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Máximo de 120 m sobre el nivel del suelo (categoría Abierta de EASA)",
-      "Registro como operador de UAS (gratuito, válido durante 3 años) si el dron pesa 250 g o más o lleva cámara",
-      "Formación en línea A1/A3 obligatoria para drones de 250 g o más; edad mínima del piloto: 16 años.",
-      "Seguro de responsabilidad civil obligatorio para drones de más de 900 g",
-      "Está prohibido volar sobre instalaciones militares, prisiones, embajadas y fuerzas de seguridad (Decreto-Ley n.º 87/2021). El Parque Natural de Sintra-Cascais requiere autorización del ICNF.",
-      "Mantén siempre el dron dentro de tu campo visual directo (VLOS)",
+      "En la categoría Abierta, la altura máxima es de 120 m, medida como la distancia al punto más cercano de la superficie terrestre, no simplemente en vertical hacia abajo; por tanto, cerca de una pendiente también puede contar el terreno situado a tu lado. A menos de 50 m de un obstáculo artificial alto (de más de 105 m), la entidad responsable del obstáculo puede solicitar autorización para volar hasta 15 m por encima de la altura del obstáculo.",
+      "Debes registrarte como operador de drones si tu dron pesa 250 g o más (o puede transferir más de 80 J de energía de impacto); esto se aplica incluso a los juguetes. Por debajo de 250 g, el registro sigue siendo obligatorio si el dron tiene un sensor capaz de captar datos personales, salvo que se considere un juguete conforme a la Directiva europea sobre la seguridad de los juguetes. Los requisitos de formación y certificación del piloto son independientes y dependen de la clase y la subcategoría del dron.",
+      "En Portugal, la edad mínima para volar de forma independiente en la categoría Abierta es de 16 años. La formación y el examen A1/A3 son gratuitos, se realizan en línea y son válidos durante 5 años.",
+      "El seguro de responsabilidad civil frente a terceros es obligatorio para drones con una MTOM superior a 900 g (Decreto-Lei n.º 58/2018); la cobertura mínima, las condiciones y el capital se establecen en la Portaria n.º 2/2021.",
+      "Está prohibido volar sobre órganos de soberanía, embajadas y consulados, instalaciones militares, instalaciones de las fuerzas y servicios de seguridad y prisiones, salvo autorización de la entidad responsable (Regulamento n.º 1093/2016 de ANAC, mantenido en vigor por el Decreto-Lei n.º 87/2021). El Parque Natural de Sintra-Cascais requiere autorización del ICNF.",
+      "En la categoría Abierta, debes mantener el dron dentro de tu propia línea de visión directa, a simple vista (se permiten gafas o lentillas; los prismáticos o una pantalla no cuentan), o volar con la ayuda de un observador, manteniendo en todo momento una comunicación clara y eficaz entre ambos, para que juntos puedan vigilar el espacio aéreo y evitar colisiones. El modo Follow-me es una excepción aparte, permitida hasta 50 m del piloto.",
       "No sobrevuele concentraciones de personas. Las normas para las personas no implicadas dependen de la subcategoría, la marca de clase y las condiciones de funcionamiento; consulte la matriz oficial.",
-      "No vueles en zonas de protección de aeropuertos y helipuertos (CTR/ATZ) sin autorización; consulta las zonas en el mapa de la app y en voanaboa.pt.",
+      "No vueles en zonas de protección de aeropuertos y helipuertos (CTR/ATZ) sin autorización; consulta las zonas en el mapa de la app y en dnt.anac.pt.",
       "Los vuelos nocturnos están permitidos en la categoría Abierta sin autorización de ANAC; enciende una luz verde intermitente en el dron.",
       "Azores y Madeira: pueden aplicar restricciones regionales adicionales",
-      "La fotografía y filmación aérea (y la distribución de dicho material) requieren autorización de la AAN; las solicitudes pueden presentarse gratuitamente en línea a través de la plataforma e-AAN."
+      "La captación de imágenes aéreas requiere autorización previa de la Autoridade Aeronáutica Nacional (AAN) a través de la plataforma e-AAN, el único canal para los levantamientos aéreos. La solicitud debe presentarse al menos 10 días antes del inicio de la actividad; el período máximo concedido es de 30 días consecutivos (Guia Rápido e-AAN de la AAN)."
     ],
     "importantNotes": [
       "Portugal tiene un sistema doble: ANAC regula los vuelos, mientras que la AAN autoriza la captación de imágenes aéreas.",
@@ -33,8 +33,11 @@
         "description": "Reglas y recursos oficiales de la autoridad de aviación civil portuguesa sobre drones"
       },
       {
+        "title": "ANAC — Mapa de geozonas UAS"
+      },
+      {
         "title": "ANAC — Regístrate como operador",
-        "description": "Registro gratuito como operador de UAS (válido durante 3 años, reconocido en todos los países de la UE/EASA)"
+        "description": "Registro gratuito como operador de UAS (válido durante 3 años, reconocido en todos los países de la UE/EASA). El registro se realiza en uas.anac.pt y requiere un NIF portugués y una Chave Móvel Digital activa."
       },
       {
         "title": "NAV Portugal — Información del espacio aéreo",

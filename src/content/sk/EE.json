@@ -1,22 +1,22 @@
 {
   "meta": {
-    "sourceHash": "23f3ed06f9446eb9733c76bcdc77184702b32d1e071b7b4a74e10dadb06fcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "0ddaecf7ada88ef77cb8ed7fae4021c3fab852ece7e0827759a36641d94a5932",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Do 120 m nad úrovňou terénu (kategória EASA Open)",
-      "Zaregistrujte sa ako prevádzkovateľ UAS (10 €/rok), ak váš dron váži 250 g a viac alebo je vybavený kamerou",
-      "Vyžaduje sa online školenie A1/A3 — minimálny vek 16 rokov",
-      "Vždy udržiavajte vizuálny dohľad (VLOS)",
+      "V otvorenej kategórii je maximálna výška 120 m, meraná ako vzdialenosť k najbližšiemu bodu zemského povrchu — nie jednoducho zvislo nadol, takže pri svahu sa môže počítať aj priľahlý terén. V niektorých oblastiach môžu navyše platiť nižšie výškové limity; nájdete ich na mape dronov. V okruhu 50 m od umelej stavby môžete so súhlasom osoby alebo subjektu, ktorý za ňu zodpovedá, lietať až 15 m nad stavbou.",
+      "Ako prevádzkovateľ dronu sa musíte zaregistrovať, ak váš dron váži 250 g alebo viac (alebo môže pri náraze odovzdať viac ako 80 J kinetickej energie) — platí to aj pre hračky. Pri hmotnosti pod 250 g sa registrácia stále vyžaduje, ak má dron snímač schopný zaznamenávať osobné údaje, pokiaľ nejde o hračku podľa EU Toy Safety Directive. Požiadavky na výcvik a osvedčenie pilota sú samostatné a závisia od triedy a podkategórie dronu.",
+      "V Estónsku je minimálny vek diaľkovo riadiacich pilotov 16 rokov — výnimky platia pre drony triedy C0 v podkategórii A1, pre súkromne postavené drony s hmotnosťou menej ako 250 g a pri lietaní pod priamym dohľadom pilota, ktorý spĺňa požiadavky.",
+      "V otvorenej kategórii musíte udržiavať dron vo vlastnom priamom vizuálnom dohľade bez pomôcok (okuliare alebo kontaktné šošovky sú v poriadku; ďalekohľad ani obrazovka sa nepočítajú) — alebo lietať s pomocou pozorovateľa, s ktorým udržiavate nepretržitú, jasnú a účinnú komunikáciu, aby ste spoločne mohli sledovať vzdušný priestor a predchádzať zrážkam. Režim follow-me je samostatná výnimka povolená do 50 m od pilota.",
       "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre osoby, ktoré nie sú priamo zapojené, závisia od podkategórie, označenia triedy a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
-      "Lietanie je zakázané v bezprostrednej blízkosti letísk (výškové obmedzenie 0 m) — vždy si overte obmedzené zóny na Estonian Drone Map.",
-      "Nočné lety sú povolené, ak má dron blikajúce zelené svetlo — v blízkosti východnej hranice platí zákaz nočných letov (20:00 – 7:00).",
+      "V bezprostrednej blízkosti letísk je výškový limit v otvorenej kategórii 0 m — lietať je možné iba s prevádzkovým povolením v špecifickej kategórii.",
+      "Nočné lety sú povolené, ak má dron blikajúce zelené svetlo (UAS.OPEN.060(2)(g)).",
       "CTR letiska Tallinn: dôkladne si ho overte na Estonian Drone Map",
       "Obmedzené oblasti okolo letísk na ostrovoch (Saaremaa, Hiiumaa)",
-      "Oblasť ruskej hranice: lety dronov sú v pohraničnej zóne kraja Ida-Viru úplne zakázané; pozdĺž celej východnej hranice platí zákaz nočných letov (20:00 – 7:00) a vyskytujú sa významné problémy s rušením GPS — skontrolujte NOTAM."
+      "V blízkosti štátnej hranice bola zriadená obmedzená oblasť (do 300 m nad úrovňou zeme alebo vody): lety sa tam môžu uskutočniť iba s povolením od Politsei- ja Piirivalveamet (PPA) (Vabariigi Valitsuse korraldus nr 229, body 3.2 a 5.3). PPA tiež zriaďuje v blízkosti hranice dočasné obmedzené oblasti — skontrolujte NOTAM. V pohraničnej oblasti dochádza k silnému rušeniu GPS."
     ],
     "importantNotes": [
       "Registrácia stojí 10 € ročne a platí vo všetkých krajinách EÚ/EASA",
@@ -32,7 +32,7 @@
       },
       {
         "title": "Úrad pre dopravu – Registrácia prevádzkovateľa",
-        "description": "Registrácia ako prevádzkovateľ UAS (10 €/rok, platná vo všetkých krajinách EÚ/EASA)"
+        "description": "Registrácia ako prevádzkovateľ UAS v informačnom systéme dohľadu nad bezpečnosťou letectva LOIS2 (správny poplatok 10 €, platná jeden rok, platná vo všetkých krajinách EÚ/EASA)"
       },
       {
         "title": "Estónska mapa dronov (UTM)",

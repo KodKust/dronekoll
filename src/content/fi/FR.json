@@ -1,27 +1,29 @@
 {
   "meta": {
-    "sourceHash": "3f4b20da70d5a10b806d80689b9428a53f6f6f6a4f589f0dc439331194e5f8eb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df6b14f4fc38b5f9f75477bc725375986243192e5884f43ee6f721a2e4667902",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröinti AlphaTango-palvelussa vaaditaan (maksuton, voimassa 5 vuotta) kaikille vähintään 250 g painaville tai kameralla varustetuille droneille",
-      "Pakollinen A1/A3-verkkokoulutus — vähimmäisikä 14 vuotta. Vanhat BAPD-todistukset (valaehtoiset vakuutukset) eivät ole enää voimassa 1. tammikuuta 2026 alkaen.",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maa voidaan laskea mukaan. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
+      "Sinun on rekisteröidyttävä UAS-käyttäjäksi, jos dronesi painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g:n dronen kohdalla rekisteröinti on silti pakollinen, jos dronessa on henkilötietoja tallentamaan kykenevä anturi, ellei sitä pidetä EU:n lelujen turvallisuusdirektiivin mukaisena leluna. Kauko-ohjaajan koulutus- ja todistusvaatimukset ovat erillisiä, ja ne riippuvat dronen luokasta ja alaluokasta.",
+      "Ranskassa on rinnakkain kaksi erillistä rekisteröintiä: käyttäjän rekisteröinti (250 g:sta alkaen tai jos dronessa on henkilötietoja tallentava anturi) ja itse ilma-aluksen rekisteröinti AlphaTangossa heti, kun sen massa ylittää 800 g ja/tai siihen on asennettu elektroninen tunnistuslaite. Rekisteröintinumero on kiinnitettävä ilma-alukseen.",
+      "Ranskassa avoimessa kategoriassa yksin lentämisen vähimmäisikä on 14 vuotta (maksuton A1/A3-verkkokoulutus ja -koe AlphaTangon kautta, voimassa 5 vuotta, tunnustetaan koko EU:ssa). Vähimmäisikää ei ole: alaluokassa A1 C0-luokan ilma-aluksella, joka täyttää leludirektiivin 2009/48/EY vaatimukset; yksityisesti rakennetulla alle 250 g:n ilma-aluksella; tai vähintään 16-vuotiaan kauko-ohjaajan välittömässä valvonnassa, kun molemmilla on vaadittu koulutus ja suoritetut kokeet. Tämä alennettu ikäraja koskee vain Ranskaa — toisessa EU-maassa sovelletaan kyseisen maan vähimmäisikää.",
       "Vastuuvakuutusta suositellaan vahvasti harrastekäyttöön (vaaditaan ammatti- tai kaupalliseen käyttöön)",
-      "Pariisi ja Île-de-France: laajoja lennätyskieltoalueita — käy Géoportailissa",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Pariisi ja Île-de-France: laajoja lennätyskieltoalueita — tarkista DGAC:n virallinen kartta (cartes.gouv.fr)",
+      "Kansallinen sääntö (arrêté ”Espace”, art. 5 ja 6): avoimessa kategoriassa lennättäminen julkisen tilan yllä taajama-alueilla — kaduilla, aukioilla, julkisissa puistoissa ja puutarhoissa, rannoilla ja rantakaduilla — on sallittua vain (i) osana käyttäjän ammatillista toimintaa, jolloin asutulla alueella on tehtävä ennakkoilmoitus prefektille AlphaTangon kautta (CERFA 15476) vähintään kymmenen työpäivää ennen lentoa, mikä voi johtaa kieltoon tai rajoitukseen; tai (ii) paikoissa, joissa prefekti sallii avoimen kategorian tai lennokkien lennot. Harrastekäytössä tämä käytännössä sulkee pois julkisen tilan kaupungeissa ja kylissä — ei vain Pariisissa.",
+      "Avoimessa kategoriassa pidä drone omassa suorassa näköyhteydessäsi paljain silmin (korjaavat silmälasit/piilolinssit sallittu; kiikareita tai näyttöä ei lasketa) — tai käytä apunasi tähystäjää niin, että viestitte keskenänne selkeästi ja tehokkaasti koko ajan ja valvotte yhdessä ilmatilaa ja vältätte yhteentörmäykset. ”Follow-me”-tila on erillinen poikkeus, joka on sallittu enintään 50 m:n päässä kauko-ohjaajasta.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-      "Vähintään 5 km:n etäisyys kaikista lentoasemista ja lentopaikoista — mutta lähilentovyöhykkeellä (CTR) vaaditaan lennonjohtotornin ennakkolupa",
-      "Yölento on sallittu EASA:n avoimen luokan perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
+      "Lentoasemista pidettävää yhtä, koko EU:ssa sovellettavaa etäisyyttä ei ole. Lentoasemien lähellä olevat rajoitukset julkaistaan maantieteellisinä vyöhykkeinä (15 artikla), joiden muoto ja koko vaihtelevat lentoasemittain. Tarkista maasi virallinen dronevyöhykekartta ennen kuin lennät lentoaseman, lentopaikan tai helikopterikentän lähellä; lennättäminen lähilentovyöhykkeellä (CTR) edellyttää yleensä lennonjohdon ennakkolupaa.",
+      "Ranskassa yölennättäminen on kielletty avoimessa kategoriassa, vaikka ilma-alukseen olisi asennettu valot (DSAC:n opas ”Catégorie Ouverte”, §7). Kielto koskee ”ilmailullista yötä”: Manner-Ranskassa se alkaa 30 minuuttia auringonlaskun jälkeen ja päättyy 30 minuuttia ennen auringonnousua. Alueellisesti toimivaltainen prefekti voi myöntää poikkeuksia, ja niitä on haettava vähintään 30 päivää ennen lentoja; myös tietyt julkaistut lennokkipaikat ovat poikkeuksia.",
       "Erityiskategoria: eurooppalaiset skenaariot STS-01 ja STS-02 korvaavat aiemmat ranskalaiset skenaariot S-1, S-2 ja S-3 (poistuivat käytöstä 2026)",
-      "Kansallispuistot ja luonnonsuojelualueet: dronejen käyttö kielletty ilman prefektuurin lupaa"
+      "Kansallispuistot ja luonnonsuojelualueet: puistot ja suojelualueet, joiden yli ei saa lentää, julkaistaan ilmailutiedoissa (AIP ENR 5.7.3), ja ne näkyvät Géoportail-kartalla. Kansallispuiston ydinalueella ylilento alle 1 000 m:n korkeudella maanpinnasta on kielletty kunkin puiston omilla säännöillä, ja mahdollisista poikkeuksista päättää puiston johtaja — ei prefektuuri tai lennonjohto (Code de l'environnement, art. L331-4-1). Näiden puistojen ja suojelualueiden ulkopuolella muiden suojelualueiden (Espaces Naturels Sensibles, Natura 2000 -alueet jne.) ylilento ei yleensä ole kielletty; se voidaan kieltää tilapäisesti prefektin määräyksellä."
     ],
     "importantNotes": [
       "AlphaTango-rekisteröinti on maksuton ja voimassa kaikissa EU-/EASA-maissa",
-      "Pariisissa on yksi Euroopan tiukimmista lennätyskieltoalueista — käytännössä harrastelennättäminen ei ole mahdollista",
+      "Pariisi: kaikki ulkolennot ovat kiellettyjä, myös yksityisellä maalla — Pariisi on sekä taajama-alue että ”kielletty” ilmatila (vyöhyke P 23)",
       "Sakot jopa 75 000 € ja vuosi vankeutta vakavista rikkomuksista",
       "Lennättäminen ydinlaitosten, sotilasalueiden ja vankiloiden yllä on rikos",
       "GDPR-tietosuoja-asetus koskee tunnistettavien kuvien ottamista — olet vastuussa tietojen käsittelystä"
@@ -36,8 +38,8 @@
         "description": "Maksuton rekisteröityminen UAS-käyttäjäksi (voimassa 5 vuotta, tunnustetaan kaikissa EU-/EASA-maissa)"
       },
       {
-        "title": "Géoportail — Dronerajoitusten kartta",
-        "description": "Virallinen kartta, joka näyttää lennätyskieltoalueet, rajoitusalueet ja suurimmat sallitut korkeudet"
+        "title": "cartes.gouv.fr — Avoimen kategorian UAS- ja lennokkirajoitukset",
+        "description": "DGAC:n virallinen kartta ja aineisto: lennätyskieltoalueet, rajoitusalueet ja suurimmat sallitut korkeudet"
       },
       {
         "title": "Dronen lennätyssäännöt — Service-Public.fr",

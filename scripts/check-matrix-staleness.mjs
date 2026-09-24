@@ -7,6 +7,9 @@
  *  - EN-nativt land: trunkerad sha256(JSON.stringify(fields)) —
  *    spegel av build-matrix-source.mjs fieldsFromCountry()
  * EN-katalogen vaktas separat av check-en-staleness.mjs (python-receptet).
+ * KEDJAN (2026-09-24): en icke-EN-lands matriscell räknas också som stale när
+ * dess EN-overlay själv är inaktuell mot countries.json — samma regel som
+ * isCellStale (annars "färsk" cell på en gammal engelsk källa).
  *
  * Stale celler skeppar ändå (endpointen flaggar dem; appen faller till
  * native) — detta script är siktdjup, inte grind. Exit 0 alltid.
@@ -45,6 +48,26 @@ function fieldsFromCountry(c) {
 const matrixHash = (obj) =>
   createHash('sha256').update(JSON.stringify(obj), 'utf8').digest('hex').slice(0, 32);
 
+/** Python json.dumps(sort_keys=True, separators=(",",":")) — spegel av check-en-staleness.mjs. */
+function canonical(value) {
+  if (Array.isArray(value)) return `[${value.map(canonical).join(',')}]`;
+  if (value !== null && typeof value === 'object') {
+    return `{${Object.keys(value).sort().map((k) => `${JSON.stringify(k)}:${canonical(value[k])}`).join(',')}}`;
+  }
+  if (value === undefined) return 'null';
+  return JSON.stringify(value);
+}
+/** translate_en.py source_payload → EN-overlayns förväntade hash. */
+const enHash = (c) => createHash('sha256').update(canonical(fieldsFromCountry(c)), 'utf8').digest('hex');
+
+function enOverlayStale(iso) {
+  const country = countriesByIso.get(iso);
+  if (!country || country.languageCode === 'en') return false;
+  const p = join(EN_DIR, `${iso}.json`);
+  if (!existsSync(p)) return false;
+  return JSON.parse(readFileSync(p, 'utf8')).meta?.sourceHash !== enHash(country);
+}
+
 const countriesByIso = new Map(
   loadCountries().countries
     .filter((c) => c.isoCode !== 'OTHER')
@@ -81,7 +104,7 @@ for (const lang of readdirSync(CONTENT)) {
     cells++;
     const cell = JSON.parse(readFileSync(join(dir, f), 'utf8'));
     const expected = expectedHash(iso);
-    if (expected !== null && cell.meta?.sourceHash !== expected) {
+    if ((expected !== null && cell.meta?.sourceHash !== expected) || enOverlayStale(iso)) {
       stale++;
       (staleByLang[lang] ??= []).push(iso);
     }

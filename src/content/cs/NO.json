@@ -1,18 +1,19 @@
 {
   "meta": {
-    "sourceHash": "cdf51635159a9ab6a3aeea2b4855eab4e7c0cffc1a63d0ea2536d0902dca0ee5",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "5646b8c07e69e790fbab03d3414fded620214417e727b8c7d6fe2c009d985a3c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximálně 120 m nad úrovní terénu (AGL)",
-      "Registrace je vyžadována pro drony s hmotností 250 g nebo více nebo lehčí než 250 g, pokud mají kameru",
+      "V otevřené kategorii je maximální výška 120 m, měřená jako vzdálenost k nejbližšímu bodu zemského povrchu — nejen svisle dolů, takže v blízkosti svahu se může počítat i terén vedle vás. Do 50 m od vysoké umělé překážky (vyšší než 105 m) může osoba odpovědná za překážku požádat o povolení k letu až 15 m nad výšku překážky.",
+      "Jako provozovatel dronu se musíte zaregistrovat, pokud váš dron váží 250 g nebo více (nebo může při srážce předat kinetickou energii vyšší než 80 J) — to platí i pro hračky. Pod 250 g je registrace přesto povinná, pokud má dron senzor schopný zachytit osobní údaje, ledaže je považován za hračku podle směrnice EU o bezpečnosti hraček. Požadavky na výcvik/osvědčení pilota jsou samostatné a závisí na třídě a podkategorii dronu.",
+      "V Norsku je věková hranice pro samostatné létání 16 let. Výjimky platí pro drony C0 klasifikované jako hračky a pro soukromě postavené drony pod 250 g s maximální rychlostí nižší než 19 m/s. Pokud je vám méně než 16 let, smíte létat pod přímým dohledem dálkově řídícího pilota, kterému je alespoň 16 let a který má platné osvědčení o způsobilosti.",
       "Registrace EU z vaší domovské země platí — nová norská registrace se nevyžaduje",
       "Pojištění odpovědnosti je obvykle vyžadováno pro drony s hmotností 250 g nebo více (v otevřené kategorii se pro drony lehčí než 250 g nevyžaduje)",
-      "Do 5 km od letiště je vyžadováno povolení — použijte aplikaci Ninox Drone",
-      "Centrum města Oslo (R102) je trvale omezená oblast — je nutné povolení od Civil Aviation Authority",
+      "Pro let do 5 km od letiště je vyžadováno povolení od věže — kontaktujte stanoviště letových provozních služeb telefonicky nebo e-mailem, případně požádejte přes aplikaci Ninox Drone (Avinor) tam, kde se používá. Aplikace není povinná.",
+      "Centrum Osla (R102) je trvale omezený prostor — let vyžaduje předchozí povolení od Luftfartstilsynet (žádost přes Altinn nebo postmottak@caa.no, doba vyřízení přibližně dva týdny, zpoplatněno). Policie obvykle neuděluje povolení na Silvestra/Nový rok, 17. května, v den zahájení zasedání Stortingu ani 10. prosince.",
       "Dálková identifikace (Remote ID) je vyžadována pro drony třídy C1–C3",
       "Chráněné oblasti a národní parky si vždy ověřte zvlášť"
     ],
@@ -31,8 +32,8 @@
         "description": "Oficiální mapa omezených oblastí a zakázaných zón"
       },
       {
-        "title": "Ninox Drone – povolení v blízkosti letiště",
-        "description": "Požádejte o povolení k létání do 5 km od letiště"
+        "title": "NinoxDrone – žádost o povolení",
+        "description": "Portál Avinor pro provozovatele dronů – žádosti o lety v blízkosti letišť (aplikace: NinoxDrone2)"
       },
       {
         "title": "Flydrone.no – registrace a certifikace",

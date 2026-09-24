@@ -1,20 +1,20 @@
 {
   "meta": {
-    "sourceHash": "552be0e829692206489496fe6ca91a32ed231ba21bc0abd64eefd98c31764ced",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "2b6964864962d4242f59e63d9dc8bd2b290b6e70d78f6d916b4bea9755df4e04",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Suurin lentokorkeus: 120 m maanpinnasta (EASAn avoin kategoria).",
+      "Avoimessa kategoriassa enimmäiskorkeus on 120 m mitattuna etäisyytenä maanpinnan lähimpään pisteeseen — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maa voidaan laskea mukaan. Korkean keinotekoisen esteen (yli 105 m) 50 m:n säteellä esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
       "Toimijan on yleensä rekisteröidyttävä, jos drone painaa vähintään 250 g tai siinä on kamera tai henkilötietoja keräävä anturi, ellei drone kuulu lelupoikkeuksen piiriin. Dronelupakirja- ja etäisyysvaatimukset riippuvat dronen luokasta, painosta ja alaluokasta.",
-      "A1/A3-dronelupakirja vaaditaan, jos drone painaa vähintään 250 g — Transportstyrelsenin verkossa järjestämä teoriakoe (maksullinen; lupakirja voimassa 5 vuotta). Vähimmäisikä dronen itsenäiseen lennättämiseen: 15 vuotta. Alle 15-vuotiaat saavat lennättää vain voimassa olevalla dronelupakirjalla vähintään 16-vuotiaan, voimassa olevan dronelupakirjan omaavan kaukolentäjän valvonnassa.",
+      "Ruotsissa sinun on oltava 15-vuotias lentääksesi itsenäisesti A1/A3-dronetodistuksella (Transportstyrelsenin maksullinen verkkoteoriakoe, voimassa 5 vuotta). Alle 15-vuotias saa lentää vain sellaisen kauko-ohjaajan välittömässä valvonnassa, joka on vähintään 16-vuotias ja jolla on itsellään voimassa oleva dronetodistus.",
       "Toimijanumeron on oltava selvästi merkittynä droneen.",
-      "Pidä drone näköyhteydessä (VLOS) — älä lennätä kulmien taakse tai rakennusten taakse.",
-      "A1: Alle 250 g painavat dronet — saa lennättää lennätykseen osallistumattomien henkilöiden yllä (ei väkijoukkojen).",
-      "A2: Enintään 4 kg painavat dronet — vähintään 30 m sivullisista (5 m hidaslentotilassa). Vaatii A2-todistuksen.",
-      "A3: Enintään 25 kg painavat dronet — vähintään 150 m asuin-, liike-, teollisuus- ja virkistysalueista.",
+      "Avoimessa kategoriassa dronen on pysyttävä omassa näköyhteydessäsi paljain silmin (silmälasit/piilolinssit käyvät; kiikareita tai näyttöä ei lasketa) — tai lennä tähystäjän avulla niin, että viestitte keskenänne selkeästi ja tehokkaasti koko ajan ja voitte yhdessä tarkkailla ilmatilaa ja välttää yhteentörmäykset. Follow-me-tila on erillinen poikkeus, joka on sallittu enintään 50 m:n päässä lentäjästä.",
+      "A1: Alle 250 g painavat dronet — saa lennättää lennätykseen osallistumattomien henkilöiden yllä, mutta ei koskaan väkijoukkojen yllä.",
+      "A2: Enintään 4 kg painavat dronet — vähintään 30 m lennätykseen osallistumattomista henkilöistä (5 m, kun hidaslentotila on käytössä, ≤ 3 m/s) ja aina vähintään lentokorkeuden verran (1:1-sääntö). Vaatii A2-todistuksen.",
+      "A3: Enintään 25 kg painavat dronet — lennätä vain siellä, missä lennätykseen osallistumattomia henkilöitä ei odoteta olevan, ja vähintään 150 m:n vaakaetäisyydellä asuin-, liike-, teollisuus- ja virkistysalueista.",
       "Älä koskaan lennätä väkijoukkojen yllä ilman erityislupaa.",
       "Tarkista LFV:n dronekartta ja NOTAMit ennen jokaista lentoa."
     ],
@@ -27,38 +27,30 @@
     ],
     "primaryLinks": [
       {
-        "title": "Transportstyrelsen — Dronemääräykset",
-        "description": ""
+        "title": "Transportstyrelsen — Dronemääräykset"
       },
       {
-        "title": "LFV:n dronekartta — Ilmatila",
-        "description": ""
+        "title": "LFV:n dronekartta — Ilmatila"
       },
       {
-        "title": "Käyttäjän rekisteröinti (vaatii ≥250 g tai kameran)",
-        "description": ""
+        "title": "Käyttäjän rekisteröinti (vaaditaan, jos ≥250 g tai kamera, 250 kr/vuosi)"
       },
       {
-        "title": "Dronelupakirja A1/A3 — Verkkoteoriakoe (vaatii ≥250 g, 15 vuodesta ylöspäin)",
-        "description": ""
+        "title": "Dronelupakirja A1/A3 — Verkkoteoriakoe (vaatii ≥250 g, 15 vuodesta ylöspäin)"
       }
     ],
     "secondaryLinks": [
       {
-        "title": "A2-todistus (yli 500 g painavat dronet tai lennättäminen ihmisten lähellä)",
-        "description": ""
+        "title": "A2-todistus (yli 500 g painavat dronet tai lennättäminen ihmisten lähellä)"
       },
       {
-        "title": "AROweb — NOTAM ja AIP Ruotsi",
-        "description": ""
+        "title": "AROweb — NOTAM ja AIP Ruotsi"
       },
       {
-        "title": "Suojelukohteet — Ota yhteyttä Puolustusvoimiin",
-        "description": ""
+        "title": "Suojelukohteet — Ota yhteyttä Puolustusvoimiin"
       },
       {
-        "title": "Luonnonsuojelualueet — Tarkista lääninhallitukselta",
-        "description": ""
+        "title": "Luonnonsuojelualueet — Tarkista lääninhallitukselta"
       }
     ],
     "disclaimerText": "Tarkista aina viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen lähde. Säännöt voivat muuttua ilman ennakkoilmoitusta.",

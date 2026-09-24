@@ -1,22 +1,22 @@
 {
   "meta": {
-    "sourceHash": "23f3ed06f9446eb9733c76bcdc77184702b32d1e071b7b4a74e10dadb06fcc66",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "0ddaecf7ada88ef77cb8ed7fae4021c3fab852ece7e0827759a36641d94a5932",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Jusqu'à 120 m au-dessus du sol (catégorie ouverte EASA)",
-      "Enregistrez-vous comme exploitant d'UAS (10 €/an) si votre drone pèse 250 g ou plus ou est équipé d'une caméra",
-      "Formation en ligne A1/A3 requise — âge minimum 16 ans",
-      "Gardez toujours une vue directe (VLOS)",
+      "Dans la catégorie ouverte, la hauteur maximale est de 120 m, mesurée comme la distance jusqu'au point le plus proche du sol — et non simplement à la verticale vers le bas ; près d'une pente, le sol adjacent peut donc aussi être pris en compte. En outre, des limites de hauteur plus basses peuvent s'appliquer dans certaines zones ; elles figurent sur la carte des drones. Dans un rayon de 50 m autour d'une structure artificielle, vous pouvez voler jusqu'à 15 m au-dessus de celle-ci avec l'autorisation de la personne ou de l'entité qui en est responsable.",
+      "Vous devez vous enregistrer comme exploitant de drone si votre drone pèse 250 g ou plus (ou peut transférer plus de 80 J d'énergie cinétique lors d'une collision) — cela s'applique aussi aux jouets. En dessous de 250 g, l'enregistrement reste obligatoire si le drone est équipé d'un capteur capable de recueillir des données à caractère personnel, sauf s'il est considéré comme un jouet au sens de l'EU Toy Safety Directive. Les exigences de formation et de certificat du télépilote sont distinctes et dépendent de la classe du drone et de la sous-catégorie.",
+      "En Estonie, l'âge minimum des télépilotes est de 16 ans — des exceptions s'appliquent aux drones de classe C0 en sous-catégorie A1, aux drones de construction privée de moins de 250 g et aux vols effectués sous la supervision directe d'un pilote qui remplit les exigences.",
+      "Dans la catégorie ouverte, vous devez garder le drone dans votre propre champ de vision direct, sans aide (les lunettes et lentilles sont autorisées ; les jumelles ou un écran ne comptent pas) — ou voler avec l'aide d'un observateur, en maintenant avec lui une communication continue, claire et efficace, afin de pouvoir surveiller ensemble l'espace aérien et éviter les collisions. Le mode Follow-me constitue une exception distincte, autorisée jusqu'à 50 m du télépilote.",
       "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
-      "Le vol est interdit à proximité immédiate des aéroports (restriction d'altitude à 0 m) — vérifiez toujours les zones réglementées sur l'Estonian Drone Map.",
-      "Les vols de nuit sont autorisés si le drone dispose d'un feu vert clignotant — une interdiction de vol nocturne est en vigueur près de la frontière orientale (20 h–7 h).",
+      "À proximité immédiate des aéroports, la limite de hauteur dans la catégorie ouverte est de 0 m — voler n'y est possible qu'avec une autorisation d'exploitation dans la catégorie spécifique.",
+      "Les vols de nuit sont autorisés si le drone dispose d'un feu vert clignotant (UAS.OPEN.060(2)(g)).",
       "CTR de l'aéroport de Tallinn : vérifiez-la attentivement sur l'Estonian Drone Map",
       "Zones réglementées autour des aéroports des îles (Saaremaa, Hiiumaa)",
-      "Zone frontalière russe : les vols de drones sont totalement interdits dans la zone frontalière du comté d'Ida-Viru ; une interdiction de vol nocturne (20 h–7 h) est en vigueur le long de toute la frontière orientale, et il existe d'importants problèmes de brouillage GPS — vérifiez les NOTAM."
+      "Une zone réglementée a été établie près de la frontière de l'État (jusqu'à 300 m au-dessus du niveau du sol ou de l'eau) : les vols n'y sont possibles qu'avec une autorisation de la Politsei- ja Piirivalveamet (PPA) (Vabariigi Valitsuse korraldus nr 229, points 3.2 et 5.3). La PPA établit également des zones réglementées temporaires près de la frontière — consultez les NOTAM. De fortes interférences GPS se produisent dans la zone frontalière."
     ],
     "importantNotes": [
       "L'enregistrement coûte 10 € par an et est valable dans tous les pays de l'UE/EASA",
@@ -32,7 +32,7 @@
       },
       {
         "title": "Autorité des transports — S'enregistrer comme exploitant",
-        "description": "Enregistrez-vous comme exploitant d'UAS (10 €/an, valable dans tous les pays de l'UE/EASA)"
+        "description": "Enregistrez-vous comme exploitant d'UAS dans le système d'information de surveillance de la sécurité aérienne LOIS2 (taxe d'État de 10 €, valable un an, valable dans tous les pays de l'UE/EASA)"
       },
       {
         "title": "Carte des drones d'Estonie (UTM)",

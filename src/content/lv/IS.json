@@ -1,26 +1,27 @@
 {
   "meta": {
-    "sourceHash": "33a814a3d0b5505e00903b83ae6e8352f9d6c524274ef27251d8bef1683efdd9",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "bc6372b8db43aa400f327dcbe06c67e81c770544a50c90238e8b68a0ddad32f8",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimālais lidojuma augstums 120 m virs zemes (EASA atvērtā kategorija)",
-      "Reģistrējies kā UAS operators (ISK 5 863 / 5 gadi), ja tavs drons sver 250 g vai vairāk vai ir aprīkots ar kameru",
-      "A1/A3 tiešsaistes kurss ir obligāts — minimālais vecums 16 gadi",
-      "Ierobežojumi vulkānu izvirdumu zonās: vienmēr pārbaudi pašreizējo izvirduma aktivitāti",
-      "Nacionālie parki (Vatnajökull, Þingvellir, Snæfellsjökull): no 2026. gada 17. maija atpūtas lidojumi ar droniem ir liegti 25+ aizsargājamās teritorijās (lēmums tiek pārsūdzēts)",
-      "Vienmēr turi dronu redzamības laukā (VLOS)",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, mērot attālumu līdz tuvākajam Zemes virsmas punktam — nevis vienkārši vertikāli uz leju, tāpēc nogāzes tuvumā var ņemt vērā arī zemi tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgā puse var pieprasīt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Tev jāreģistrējas kā drona operatoram, ja drons sver 250 g vai vairāk (vai triecienā var nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas arī uz rotaļlietām. Ja drons sver mazāk par 250 g, reģistrācija joprojām ir nepieciešama, ja dronam ir sensors, kas spēj vākt personas datus, izņemot gadījumu, kad tas tiek uzskatīts par rotaļlietu saskaņā ar EU Toy Safety Directive. Pilota apmācības/apliecības prasības ir atsevišķas un atkarīgas no drona klases un apakškategorijas.",
+      "Islandē minimālais vecums ir 16 gadi — izņēmumi attiecas uz C0 klases dronu A1 apakškategorijā, privāti būvētu dronu, kas sver mazāk par 250 g, vai lidojumiem sertificēta tālvadības pilota uzraudzībā.",
+      "Vulkānu izvirdumu laikā Almannavarnir/Samgöngustofa var noteikt pagaidu ierobežojumus dronu lidojumiem — ierobežojumi var sniegties līdz 1 500 ft, un veselas teritorijas (piem., Reykjanes pussala 2025. gada jūlija izvirduma laikā) var tikt pilnībā slēgtas, kamēr aktivitāte turpinās. Pirms lidošanas vienmēr pārbaudi aktuālo vulkānisko aktivitāti.",
+      "No 2026. gada 17. maija Náttúruverndarstofnun (nevis aviācijas iestādes) 27 aizsargājamās teritorijās izsniedz atļaujas tikai komerciāliem dronu lidojumiem. Ierobežojumi ir trīs līmeņos: 15 teritorijās visu gadu (tostarp Gullfoss, Geysir, Goðafoss, Skógafoss, Dyrhólaey, Látrabjarg un Mývatn un Laxá dabas aizsardzības teritorija), 11 teritorijās no 1. maija līdz 15. septembrim (tostarp Snæfellsjökull National Park, Dimmuborgir, Hornstrandir un Dynjandi) un Friðlandið að Fjallabaki no 15. jūnija līdz 15. septembrim. Atļaujas pētniecībai, monitoringam, filmēšanai, komerciālai fotografēšanai un pasākumiem, kuriem nepieciešama atļauja, joprojām tiek izsniegtas. Þingvellir un Vatnajökull National Park nav šajā sarakstā, un tiem ir savi noteikumi.",
+      "Aizliegts lidot tuvāk par 150 m jutīgām būvēm: elektrostacijām, apakšstacijām, Alþingi, prezidenta rezidencei, ministrijām, vēstniecībām, policijas iecirkņiem, cietumiem un slimnīcām, ja vien to neatļauj to īpašnieki vai pārvaldītāji.",
+      "Atvērtajā kategorijā tev jātur drons savā tiešā redzamības laukā bez palīglīdzekļiem (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai jālido ar novērotāja palīdzību, visu laiku uzturot savstarpēji skaidru un efektīvu saziņu, lai jūs kopā varētu uzraudzīt gaisa telpu un izvairīties no sadursmēm. Follow-me režīms ir īpašs izņēmums, kas atļauts līdz 50 m no pilota.",
       "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kuras nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
-      "Vismaz 2 km no komerciālām lidostām, 1,5 km no mazākiem lidlaukiem un nolaišanās vietām",
+      "Bez lidostas operatora atļaujas aizliegts lidot lidostās, lidostu teritorijās un ierobežotajās zonās ap regulāro reisu lidostām — ierobežotās zonas ir lietotnes kartē parādītās teritorijas (daudzviet aptuveni 5 km). Tomēr ierobežotajā zonā drīksti lidot bez īpašas atļaujas, ja lido zemāk par augstāko šķēršļu augstumu 50 metru rādiusā no drona lidojuma trajektorijas. Atļauja: ISAVIA — Keflavík Airport, Innanlandsflugvellir ehf. — pārējās regulāro reisu lidostas.",
       "Putnu ligzdošanas zonas: sezonālie ierobežojumi (maijs–augusts)",
       "Sarežģīti vēja apstākļi: Islandē vējš bieži pārsniedz dronu drošības robežas"
     ],
     "importantNotes": [
       "Aktīvo vulkānu izvirdumu zonās var būt pagaidu lidojumu aizliegumi — pārbaudi pirms katra lidojuma",
-      "No 2026. gada 17. maija Nature Conservation Agency neatļauj atpūtas un mācību lidojumus ar droniem 25+ aizsargājamās teritorijās (nacionālajos parkos un citur); lēmums ir pārsūdzēts ministrijā Ministry of the Environment",
+      "No 2026. gada 17. maija Náttúruverndarstofnun 27 aizsargājamās teritorijās izsniedz atļaujas tikai komerciāliem dronu lidojumiem — dažās visu gadu, citās tikai vasaras mēnešos. Sarakstu par katru teritoriju pārbaudi vietnē nattura.is.",
       "Islandes laikapstākļi ir mainīgi — vējš bieži pārsniedz dronu drošas ekspluatācijas robežas",
       "Putnu ligzdošanas sezona (maijs–augusts): papildu ierobežojumi daudzās teritorijās",
       "Islande ir EEZ, bet ne ES — EASA noteikumi tiek piemēroti saskaņā ar EEA Agreement"
@@ -35,8 +36,8 @@
         "description": "Reģistrējies kā UAS operators (ISK 5 863 / 5 gadi, derīga EEZ valstīs)"
       },
       {
-        "title": "FlyDrone.is — Gaisa telpas karte",
-        "description": "Oficiālā interaktīvā dronu karte, kurā redzamas lidojumu aizlieguma zonas un ierobežojumi"
+        "title": "FlyDrone.is – Reģistrācija un A1/A3 eksāmens",
+        "description": "Samgöngustofa reģistrācijas vietne, kurā operatori reģistrējas, lasa mācību materiālus un kārto A1/A3 eksāmenu (ISK 5 863, derīgs 5 gadus)"
       },
       {
         "title": "island.is — Dronu reģistrācija",
@@ -49,8 +50,11 @@
         "description": "Islandes aeronavigācijas pakalpojumi un gaisa telpas informācija"
       },
       {
-        "title": "Umhverfisstofnun — Dabas aizsardzība",
-        "description": "Informācija par nacionālajiem parkiem un aizsargājamām teritorijām no Islandes Vides aģentūras"
+        "title": "Náttúruverndarstofnun – Droni aizsargājamās teritorijās",
+        "description": "Aizsargājamo teritoriju saraksts ar dronu lidojumu ierobežojumiem un periodiem, kad tie ir spēkā"
+      },
+      {
+        "title": "Kortasjá – dronu karte"
       }
     ],
     "disclaimerText": "Pirms lidošanas vienmēr pārbaudi Samgöngustofa (ICETRA) un FlyDrone.is oficiālos avotus. Šī lietotne ir rīks, nevis juridiska instance. Islande piemēro EASA noteikumus saskaņā ar EEA Agreement, papildinot tos ar nacionālajām prasībām.",

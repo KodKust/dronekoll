@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "36d02a53cfd249d58006a295f9a59616c0e6c70d5da2bf039b877f35892a3057",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6bf2e348b1896b08803a150a27a534a3546ea700b4d2c17be5329c5137833aca",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Un máximo de 120 m sobre el suelo (categoría Abierta de EASA)",
-      "Formación en línea A1/A3 obligatoria; edad mínima 14 años (el registro debe completarlo el padre, la madre o el tutor en el caso de menores de 14 y 15 años).",
+      "En la categoría abierta, la altura máxima es de 120 m, medida como la distancia al punto más cercano de la superficie terrestre, no simplemente en vertical hacia abajo; por tanto, cerca de una pendiente también puede contar el terreno situado a tu lado. A menos de 50 m de un obstáculo artificial alto (de más de 105 m), la entidad responsable del obstáculo puede solicitar autorización para volar hasta 15 m por encima de la altura del obstáculo.",
+      "Formación en línea A1/A3 obligatoria y gratuita a través de la plataforma LearningZone de Eurocontrol (FR/DE/EN/LB, acceso renovable de 3 meses); el certificado es válido durante 5 años. La edad mínima para operar una aeronave no tripulada en la categoría «abierta» es de 14 años en Luxemburgo (art. 2 del Reglamento Gran Ducal de 22 de diciembre de 2025); un menor que no alcance esa edad vuela bajo la supervisión de una persona mayor de 16 años que tenga las cualificaciones exigidas. El examen OPEN A2 se realiza en las instalaciones de la DAC y cuesta 45 €.",
       "Seguro de responsabilidad civil obligatorio (se exige el número de póliza al registrarse)",
       "El CTR del Aeropuerto de Luxemburgo-Findel cubre una parte importante del país",
-      "Mantén siempre el dron dentro de tu campo visual (VLOS)",
+      "En la categoría abierta, debes mantener el dron dentro de tu propia línea de visión directa, a simple vista (se permiten gafas o lentillas; los prismáticos o una pantalla no cuentan), o volar con la ayuda de un observador, manteniendo en todo momento una comunicación clara y eficaz entre ambos, para que juntos puedan vigilar el espacio aéreo y evitar colisiones. El modo «Follow-me» es una excepción aparte, permitida hasta 50 m del piloto a distancia.",
       "No vueles sobre concentraciones de personas. Las normas para las personas no implicadas dependen de la subcategoría, la marca de clase y las condiciones de operación; consulta la matriz oficial.",
       "Respeta el CTR de Luxemburgo-Findel y las zonas geográficas UAS publicadas en Geoportail.lu; tras la armonización de EASA ya no existe una zona de amortiguación fija de 5 km",
-      "De noche, muchas zonas (en particular alrededor de Findel) requieren un permiso específico; consulta los requisitos de cada zona en drones.geoportail.lu.",
+      "Los vuelos nocturnos están permitidos en la categoría abierta en Luxemburgo, con sujeción a los requisitos básicos de EASA. Sin embargo, algunas zonas geográficas, en particular alrededor de Findel, imponen condiciones o una autorización nocturna específica: consulta las condiciones de cada zona en g-o.lu/uas.",
       "Palacio Gran Ducal, centros penitenciarios y zonas militares: se requiere autorización previa; estadios y aeródromos locales (Useldange, Noertrange): vuelo prohibido."
     ],
     "importantNotes": [
       "Seguro obligatorio; se exige el número de póliza al registrarse",
       "El CTR del Aeropuerto de Luxemburgo-Findel cubre gran parte de este pequeño país",
-      "El nuevo marco nacional (diciembre de 2025) contempla sanciones penales —hasta 1 año de prisión y una multa de 5.000 €— por no contratar seguro o no registrarse.",
-      "El RGPD se aplica al captar imágenes identificables"
+      "El nuevo marco nacional (la Ley de 19 de diciembre de 2025 y el Reglamento Gran Ducal de 22 de diciembre de 2025 sobre aeronaves no tripuladas) complementa la normativa europea e introduce sanciones penales por el incumplimiento de las obligaciones de registro, seguro y zonas. Desde el 14 de enero de 2026 se aplican tasas: 10 € por el registro o su renovación, 30 € por una declaración STS y 45 € por el examen OPEN A2.",
+      "El RGPD se aplica al captar imágenes identificables",
+      "Advertencia (DAC): las geozonas que proporcionan los fabricantes de UAS no cubren necesariamente todas las zonas restringidas de Luxemburgo, y NO hay transferencia automática de información entre el fabricante del UAS y el Geoportail. Solo las zonas geográficas UAS que se muestran en g-o.lu/uas son jurídicamente aplicables: la georrestricción de tu radiocontrol no basta."
     ],
     "primaryLinks": [
       {
@@ -34,7 +35,7 @@
       },
       {
         "title": "Geoportail.lu — Mapa de drones",
-        "description": "Portal geográfico oficial con información sobre las zonas de drones"
+        "description": "Solo las zonas geográficas UAS publicadas aquí son jurídicamente aplicables en Luxemburgo"
       },
       {
         "title": "DAC — Resumen de las reglas",

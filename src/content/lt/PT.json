@@ -1,23 +1,23 @@
 {
   "meta": {
-    "sourceHash": "3be5ea4356d33508cdfa72168e28336876f3048cd12d77af66e6840fe65da1e4",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ca02f210ab67dc8eec19b622349f74c1c59940a9cc38a87f1711298b83f779a7",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne daugiau kaip 120 m virš žemės paviršiaus (EASA atviroji kategorija)",
-      "UAS operatoriaus registracija (nemokama, galioja 3 metus) reikalinga, jei dronas sveria 250 g ar daugiau arba turi kamerą.",
-      "Privaloma A1/A3 internetinė mokymo programa dronams, sveriantiems 250 g ar daugiau — mažiausias piloto amžius: 16 metų.",
-      "Privalomasis civilinės atsakomybės draudimas sunkesniems nei 900 g dronams",
-      "Draudžiama skristi virš karinių objektų, kalėjimų, ambasadų ir saugumo pajėgų (Decree-Law No. 87/2021). Norint skristi Sintra-Cascais Natural Park, reikalingas ICNF leidimas.",
-      "Visada laikykite droną tiesioginiame regėjimo lauke (VLOS)",
+      "Atvirojoje kategorijoje didžiausias aukštis yra 120 m, matuojamas kaip atstumas iki artimiausio Žemės paviršiaus taško — ne tiesiog statmenai žemyn, todėl prie šlaito gali būti skaičiuojamas ir šalia jūsų esantis reljefas. Ne didesniu kaip 50 m atstumu nuo aukštos dirbtinės kliūties (aukštesnės nei 105 m) už kliūtį atsakingas subjektas gali paprašyti leidimo skristi iki 15 m aukščiau kliūties.",
+      "Kaip dronų operatorius privalote registruotis, jei jūsų dronas sveria 250 g ar daugiau (arba gali perduoti daugiau kaip 80 J smūgio energijos) — tai taikoma net žaislams. Jei dronas lengvesnis nei 250 g, registracija vis tiek privaloma, jei jame yra jutiklis, galintis fiksuoti asmens duomenis, nebent pagal Europos žaislų saugos direktyvą jis laikomas žaislu. Piloto mokymo / pažymėjimo reikalavimai yra atskiri ir priklauso nuo drono klasės ir pakategorės.",
+      "Portugalijoje minimalus amžius savarankiškai skraidyti atvirojoje kategorijoje yra 16 metų. A1/A3 mokymai ir egzaminas yra nemokami, vyksta internetu ir galioja 5 metus.",
+      "Civilinės atsakomybės draudimas privalomas dronams, kurių MTOM viršija 900 g (Decreto-Lei n.º 58/2018); minimali draudimo apsauga, sąlygos ir kapitalas nustatyti Portaria n.º 2/2021.",
+      "Skristi virš suverenių institucijų, ambasadų ir konsulatų, karinių objektų, saugumo pajėgų ir tarnybų objektų bei kalėjimų draudžiama, nebent tai leidžia atsakingas subjektas (ANAC Regulamento n.º 1093/2016, paliktas galioti Decreto-Lei n.º 87/2021). Norint skristi Sintra-Cascais Natural Park, reikalingas ICNF leidimas.",
+      "Atvirojoje kategorijoje dronas turi būti jūsų paties tiesioginio regėjimo lauke, stebimas plika akimi (akiniai / kontaktiniai lęšiai leidžiami; žiūronai ar ekranas neįskaitomi) — arba skriskite padedami stebėtojo, visą laiką palaikydami aiškų ir veiksmingą tarpusavio ryšį, kad kartu galėtumėte stebėti oro erdvę ir išvengti susidūrimų. „Follow-me“ režimas yra atskira išimtis, leidžiama iki 50 m nuo piloto.",
       "Neskriskite virš žmonių susibūrimų. Neįtrauktiems asmenims taikomos taisyklės priklauso nuo subkategorijos, klasės žymos ir eksploatavimo sąlygų; patikrinkite oficialią lentelę.",
-      "Neskraidykite oro uostų ir sraigtasparnių aikštelių apsaugos zonose (CTR/ATZ) be leidimo — zonas tikrinkite programėlės žemėlapyje ir voanaboa.pt.",
+      "Neskraidykite oro uostų ir sraigtasparnių aikštelių apsaugos zonose (CTR/ATZ) be leidimo — zonas tikrinkite programėlės žemėlapyje ir dnt.anac.pt.",
       "Naktiniai skrydžiai atvirojoje kategorijoje leidžiami be ANAC leidimo — įjunkite ant drono esantį žalią mirksintį žibintą.",
       "Azores ir Madeira: gali galioti papildomi regioniniai ribojimai.",
-      "Aerofotografijai ir filmavimui (bei tokios medžiagos platinimui) reikalingas AAN leidimas — prašymus galima pateikti nemokamai internetu per e-AAN platformą."
+      "Norint fiksuoti vaizdus iš oro, reikalingas išankstinis Autoridade Aeronáutica Nacional (AAN) leidimas per e-AAN platformą — vienintelį aerofotografavimo kanalą. Prašymas turi būti pateiktas ne vėliau kaip likus 10 dienų iki veiklos pradžios; ilgiausias suteikiamas laikotarpis — 30 dienų iš eilės (AAN Guia Rápido e-AAN)."
     ],
     "importantNotes": [
       "Portugalijoje veikia dviguba sistema: ANAC reglamentuoja skrydžius, o AAN išduoda leidimus fiksuoti vaizdus iš oro.",
@@ -33,8 +33,11 @@
         "description": "Oficialios Portugalijos civilinės aviacijos institucijos taisyklės ir ištekliai dėl dronų"
       },
       {
+        "title": "ANAC — UAS geografinių zonų žemėlapis"
+      },
+      {
         "title": "ANAC — Registruokitės kaip operatorius",
-        "description": "Nemokama registracija kaip UAS operatorius (galioja 3 metus, pripažįstama visose ES/EASA šalyse)"
+        "description": "Nemokama registracija kaip UAS operatorius (galioja 3 metus, pripažįstama visose ES/EASA šalyse). Registruojamasi uas.anac.pt; reikalingas Portugalijos NIF ir aktyvus Chave Móvel Digital."
       },
       {
         "title": "NAV Portugal — Oro erdvės informacija",

@@ -1,18 +1,19 @@
 {
   "meta": {
-    "sourceHash": "cdf51635159a9ab6a3aeea2b4855eab4e7c0cffc1a63d0ea2536d0902dca0ee5",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "5646b8c07e69e790fbab03d3414fded620214417e727b8c7d6fe2c009d985a3c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maximaal 120 m boven de grond (AGL)",
-      "Registratie is vereist voor drones die 250 g of meer wegen, of minder dan 250 g als ze een camera hebben",
+      "In de open categorie bedraagt de maximale hoogte 120 m, gemeten als de afstand tot het dichtstbijzijnde punt van het aardoppervlak — niet simpelweg recht naar beneden; bij een helling kan dus ook de grond naast je meetellen. Binnen 50 m van een hoog kunstmatig obstakel (hoger dan 105 m) kan de persoon die voor het obstakel verantwoordelijk is toestemming aanvragen om tot 15 m boven de hoogte van het obstakel te vliegen.",
+      "Je moet je als drone-exploitant registreren als je drone 250 g of meer weegt (of bij een botsing meer dan 80 J aan kinetische energie kan overdragen) — dit geldt ook voor speelgoed. Onder 250 g is registratie nog steeds vereist als de drone een sensor heeft waarmee persoonsgegevens kunnen worden vastgelegd, tenzij hij volgens de EU Toy Safety Directive als speelgoed geldt. De vereisten voor pilotenopleiding en certificaten staan hier los van en hangen af van de klasse en subcategorie van de drone.",
+      "In Noorwegen is de leeftijdsgrens om zelfstandig te vliegen 16 jaar. Uitzonderingen gelden voor C0-drones die als speelgoed zijn geclassificeerd en voor zelfgebouwde drones onder 250 g met een maximumsnelheid van minder dan 19 m/s. Ben je jonger dan 16, dan mag je vliegen onder rechtstreeks toezicht van een piloot op afstand die minstens 16 jaar is en een geldig bekwaamheidscertificaat heeft.",
       "EU-registratie uit je thuisland is geldig — een nieuwe Noorse registratie is niet vereist",
       "Een aansprakelijkheidsverzekering is normaal gesproken vereist vanaf 250 g (geen vereiste onder 250 g in de Open categorie)",
-      "Binnen 5 km van een luchthaven is een vergunning vereist — gebruik de Ninox Drone-app",
-      "Het centrum van Oslo (R102) is een permanent beperkingsgebied — voor vliegen daar is toestemming van de Civil Aviation Authority vereist.",
+      "Voor vliegen binnen 5 km van een luchthaven is toestemming van de verkeerstoren vereist — neem telefonisch of per e-mail contact op met de luchtverkeersdienst, of vraag toestemming aan via de Ninox Drone-app (Avinor) waar die in gebruik is. De app is geen vereiste.",
+      "Centraal Oslo (R102) is een permanent beperkt gebied — voor vliegen is voorafgaande toestemming van Luftfartstilsynet vereist (aanvragen via Altinn of postmottak@caa.no, ca. twee weken behandeltijd, tegen betaling). De politie verleent normaal gesproken geen toestemming op oudejaarsavond/nieuwjaarsdag, 17 mei, de openingsdag van het Storting of 10 december.",
       "Remote Identification (Remote ID) is vereist voor drones van de klassen C1–C3",
       "Controleer beschermde gebieden en nationale parken altijd afzonderlijk"
     ],
@@ -31,8 +32,8 @@
         "description": "Officiële kaart van beperkte gebieden en verboden zones"
       },
       {
-        "title": "Ninox Drone — Toestemming nabij een luchthaven",
-        "description": "Vraag toestemming aan om binnen 5 km van een luchthaven te vliegen"
+        "title": "NinoxDrone – toestemming aanvragen",
+        "description": "Het portaal van Avinor voor drone-exploitanten – aanvragen om nabij luchthavens te vliegen (app: NinoxDrone2)"
       },
       {
         "title": "Flydrone.no — Registratie en certificering",

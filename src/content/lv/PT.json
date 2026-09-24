@@ -1,23 +1,23 @@
 {
   "meta": {
-    "sourceHash": "3be5ea4356d33508cdfa72168e28336876f3048cd12d77af66e6840fe65da1e4",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ca02f210ab67dc8eec19b622349f74c1c59940a9cc38a87f1711298b83f779a7",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne vairāk kā 120 m virs zemes (EASA atvērtā kategorija)",
-      "UAS operatora reģistrācija (bez maksas, derīga 3 gadus), ja drons sver 250 g vai vairāk vai ir aprīkots ar kameru",
-      "Obligāta A1/A3 tiešsaistes apmācība droniem, kas sver 250 g vai vairāk — pilota minimālais vecums: 16 gadi.",
-      "Obligāta civiltiesiskās atbildības apdrošināšana droniem, kas sver vairāk par 900 g",
-      "Lidošana virs militāriem objektiem, cietumiem, vēstniecībām un drošības spēkiem ir aizliegta (Decree-Law No. 87/2021). Lidošanai parkā Sintra-Cascais Natural Park nepieciešama ICNF atļauja.",
-      "Vienmēr turi dronu tiešā redzamības laukā (VLOS)",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, ko mēra kā attālumu līdz tuvākajam Zemes virsmas punktam — nevis vienkārši taisni uz leju, tāpēc nogāzes tuvumā var tikt ņemts vērā arī reljefs tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgā persona var lūgt atļauju lidot līdz 15 m virs šķēršļa augstuma.",
+      "Tev jāreģistrējas kā drona operatoram, ja tavs drons sver 250 g vai vairāk (vai trieciena brīdī var nodot vairāk nekā 80 J enerģijas) — tas attiecas pat uz rotaļlietām. Droniem, kas sver mazāk par 250 g, reģistrācija joprojām ir obligāta, ja dronam ir sensors, kas spēj uztvert personas datus, izņemot gadījumus, kad tas tiek uzskatīts par rotaļlietu saskaņā ar Eiropas Rotaļlietu drošuma direktīvu. Prasības par pilota apmācību/apliecību ir atsevišķas un atkarīgas no drona klases un apakškategorijas.",
+      "Portugālē minimālais vecums, lai patstāvīgi lidotu atvērtajā kategorijā, ir 16 gadi. A1/A3 apmācība un eksāmens ir bez maksas, tiek kārtoti tiešsaistē un ir derīgi 5 gadus.",
+      "Civiltiesiskās atbildības apdrošināšana ir obligāta droniem, kuru MTOM pārsniedz 900 g (Decreto-Lei n.º 58/2018); minimālais segums, nosacījumi un kapitāls noteikti Portaria n.º 2/2021.",
+      "Lidošana virs valsts suverēnās varas institūcijām, vēstniecībām un konsulātiem, militāriem objektiem, drošības spēku un dienestu objektiem un cietumiem ir aizliegta, ja vien to nav atļāvusi atbildīgā iestāde (ANAC Regulamento n.º 1093/2016, kas paliek spēkā ar Decreto-Lei n.º 87/2021). Lidošanai parkā Sintra-Cascais Natural Park nepieciešama ICNF atļauja.",
+      "Atvērtajā kategorijā dronam jāatrodas tavā tiešās redzamības zonā, uz to skatoties ar neapbruņotu aci (brilles/kontaktlēcas ir atļautas; binoklis vai ekrāns neskaitās) — vai arī lido ar novērotāja palīdzību, visu laiku uzturot skaidru un efektīvu saziņu savā starpā, lai kopā varētu uzraudzīt gaisa telpu un izvairīties no sadursmēm. Režīms “Follow-me” ir atsevišķs izņēmums, kas atļauts līdz 50 m attālumā no pilota.",
       "Nelido pāri cilvēku pūļiem. Noteikumi par lidojumā neiesaistītām personām ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudi oficiālo tabulu.",
-      "Nelido lidostu un helikopteru laukumu aizsardzības zonās (CTR/ATZ) bez atļaujas — pārbaudi zonas lietotnes kartē un vietnē voanaboa.pt.",
+      "Nelido lidostu un helikopteru laukumu aizsardzības zonās (CTR/ATZ) bez atļaujas — pārbaudi zonas lietotnes kartē un vietnē dnt.anac.pt.",
       "Nakts lidojumi atvērtajā kategorijā ir atļauti bez ANAC atļaujas — ieslēdz dronam mirgojošu zaļu gaismu.",
       "Azores un Madeira: var būt piemērojami papildu reģionālie ierobežojumi",
-      "Aerofotografēšanai un filmēšanai (un šāda materiāla izplatīšanai) nepieciešama AAN atļauja — pieteikumus var iesniegt bez maksas tiešsaistē e-AAN platformā."
+      "Aerouzņēmumu fiksēšanai nepieciešama iepriekšēja Autoridade Aeronáutica Nacional (AAN) atļauja, ko saņem e-AAN platformā — vienīgajā kanālā aerouzņēmumu veikšanai. Pieteikums jāiesniedz vismaz 10 dienas pirms darbības sākuma; maksimālais piešķirtais periods ir 30 dienas pēc kārtas (AAN Guia Rápido e-AAN)."
     ],
     "importantNotes": [
       "Portugālei ir divkārša sistēma: ANAC regulē lidojumus, savukārt AAN atļauj aerofotouzņēmumu fiksēšanu.",
@@ -33,8 +33,11 @@
         "description": "Portugāles civilās aviācijas iestādes oficiālie noteikumi un resursi par droniem"
       },
       {
+        "title": "ANAC — UAS ģeozonu karte"
+      },
+      {
         "title": "ANAC — Reģistrējies kā operators",
-        "description": "Bezmaksas reģistrācija kā UAS operatoram (derīga 3 gadus, atzīta visās ES/EASA valstīs)"
+        "description": "Bezmaksas reģistrācija kā UAS operatoram (derīga 3 gadus, atzīta visās ES/EASA valstīs). Reģistrācija notiek vietnē uas.anac.pt, un tai nepieciešams Portugāles NIF un aktīva Chave Móvel Digital."
       },
       {
         "title": "NAV Portugal — Gaisa telpas informācija",

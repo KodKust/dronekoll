@@ -1,25 +1,27 @@
 {
   "meta": {
-    "sourceHash": "f36a1cf828ca8a0a643f670fd6a861c54e98b56220c07b5f5975ef302b2f4c03",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "933e44d2614cf2cedaee58cc5869444dec9c634eb2504dc1238b121b71e2d432",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimalt 120 m over bakken (EASA Open-kategori under en bilateral avtale)",
-      "Registrer deg som UAS-operatør (CHF 10, gyldig på ubestemt tid) hvis dronen veier 250 g eller mer eller er utstyrt med kamera",
-      "A1/A3 nettbasert opplæring kreves for droner som veier 250 g eller mer (sertifikatet er gyldig i 5 år) — minstealder 12 år; barn under 12 må være under tilsyn av noen som er 16 år eller eldre.",
+      "I Open-kategorien er maksimalhøyden 120 m, målt som avstanden til det nærmeste punktet på jordoverflaten — ikke bare rett ned, så nær en skråning kan også bakken ved siden av deg telle. Innenfor 50 m fra et høyt kunstig hinder (over 105 m) kan den som er ansvarlig for hinderet, be om tillatelse til å fly opptil 15 m over hinderets høyde.",
+      "Du må registrere deg som droneoperatør hvis dronen veier 250 g eller mer (eller kan overføre mer enn 80 J kinetisk energi ved et sammenstøt) — dette gjelder også leketøy. Under 250 g kreves registrering likevel hvis dronen har en sensor som kan registrere personopplysninger, med mindre den regnes som leketøy etter EU Toy Safety Directive. Krav til pilotopplæring/sertifikat reguleres separat og avhenger av dronens klasse og underkategori.",
+      "I Sveits er minstealderen for fjernpiloter 12 år i driftskategorien «open» og 14 år i kategorien «specific» (Art. 26 VLK, SR 748.941) — uavhengig av dronens vekt. Yngre piloter kan bare fly under direkte tilsyn av en fjernpilot som oppfyller kravene. Ved registrering må barn under 16 år oppgi en verge. A1/A3-kompetansebeviset tas på nett og er gyldig i 5 år.",
       "Obligatorisk ansvarsforsikring for droner som veier 250 g eller mer (dekning på CHF 1 million)",
       "Medlemmer av modellflyklubber: ytterligere privilegier under FOCA-forskriftene",
-      "Hold alltid dronen innenfor synsvidde (VLOS)",
+      "I Open-kategorien må du holde dronen innenfor din egen synsvidde, med det blotte øye (briller/kontaktlinser er greit; kikkert eller skjerm teller ikke) — eller fly med støtte fra en observatør, med tydelig og effektiv kommunikasjon mellom dere til enhver tid, slik at dere sammen kan overvåke luftrommet og unngå kollisjoner. Follow-me-modus er et særskilt unntak og er tillatt opptil 50 m fra piloten.",
       "Du må ikke fly over folkemengder. Reglene for uvedkommende avhenger av underkategori, klassemerke og driftsforhold; sjekk den offisielle oversikten.",
-      "Innenfor 5 km fra flyplasser og flystriper er operasjon kun tillatt med flyplassens autorisasjon (droner som veier mer enn 250 g).",
+      "For droner over 250 g er drift forbudt i en avstand på mindre enn 5 km fra rullebanene til en sivil eller militær flyplass, og i en aktiv CTR hvis en høyde på 120 m over bakken overskrides (Art. 28 VLK). Flyplassledelsen kan fastsette en redusert sone innenfor de 5 km; unntak gis av flyplassledelsen eller flygekontrollenheten.",
+      "Uavhengig av vekt er drift blant annet forbudt over kriminalomsorgsanstalter, over militære områder som er oppført i VLK-vedlegget, over utendørs koblingsanlegg på nettnivå 2 og innenfor 750 m fra kjernekraftverk og mellomlageret i Würenlingen (Art. 27 VLK).",
       "Nasjonalparker: dronebruk begrenset eller forbudt",
       "Fjellområder: vær oppmerksom på helikoptrenes flyruter (rednings- og sightseeingflyginger)"
     ],
     "importantNotes": [
       "Registreringen koster bare CHF 10 — et engangsgebyr med ubegrenset gyldighet og ingen fornyelse kreves.",
+      "U-Space Zürich: Sveits' første U-Space-luftrom innføres i Zürich CTR (ca. 10 km × 17 km); bruk av U-Space-tjenester blir obligatorisk for alle dronepiloter i området fra slutten av 2026 (engangsregistrering hos en USSP kreves). Unntatt: droner under 250 g, modellfly, statlige flyginger. Rettsgrunnlag: Art. 29a–29e VLK.",
       "Obligatorisk forsikring for droner som veier 250 g eller mer (dekning: CHF 1 million)",
       "Sveits er ikke medlem av EU, men følger EASA-forskriftene gjennom en bilateral avtale",
       "Alpine helikopterruter er vanlige — hold alltid et øye med luftrommet",
@@ -51,6 +53,10 @@
       {
         "title": "SMV — Modellflyging",
         "description": "Den sveitsiske modellflyforeningen med klubbprivilegier og lokasjoner"
+      },
+      {
+        "title": "DABS — Daily Airspace Bulletin Switzerland (BAZL)",
+        "description": "FOCA/BAZL: «DABS må derfor også sjekkes før hver flyging» — trinn 2 i BAZLs egen kontroll i tre trinn"
       }
     ],
     "disclaimerText": "Sjekk alltid de offisielle kildene fra FOCA/BAZL og det offisielle dronekartet på map.geo.admin.ch før hver flyging. Denne appen er et verktøy — ikke en juridisk kilde. Sveits følger EASA-forskriftene gjennom en bilateral avtale.",

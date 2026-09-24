@@ -1,18 +1,19 @@
 {
   "meta": {
-    "sourceHash": "cdf51635159a9ab6a3aeea2b4855eab4e7c0cffc1a63d0ea2536d0902dca0ee5",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "5646b8c07e69e790fbab03d3414fded620214417e727b8c7d6fe2c009d985a3c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksymalnie 120 m nad poziomem gruntu (AGL)",
-      "Rejestracja jest wymagana dla dronów o masie 250 g lub większej, a także dla dronów o masie poniżej 250 g, jeśli mają kamerę",
+      "W kategorii otwartej maksymalna wysokość wynosi 120 m, mierzona jako odległość od najbliższego punktu powierzchni ziemi — nie po prostu pionowo w dół, więc w pobliżu zbocza może się liczyć również teren obok Ciebie. W promieniu 50 m od wysokiej sztucznej przeszkody (powyżej 105 m) osoba odpowiedzialna za przeszkodę może złożyć wniosek o zgodę na lot do 15 m powyżej wysokości przeszkody.",
+      "Musisz zarejestrować się jako operator drona, jeśli Twój dron waży 250 g lub więcej (lub może przy zderzeniu przekazać energię kinetyczną większą niż 80 J) — dotyczy to nawet zabawek. Poniżej 250 g rejestracja nadal jest wymagana, jeśli dron ma czujnik zdolny do rejestrowania danych osobowych, chyba że jest uznawany za zabawkę w rozumieniu unijnej dyrektywy w sprawie bezpieczeństwa zabawek. Wymogi dotyczące szkolenia/certyfikatu pilota są odrębne i zależą od klasy drona oraz podkategorii.",
+      "W Norwegii granica wieku dla samodzielnego latania wynosi 16 lat. Wyjątki dotyczą dronów C0 zaklasyfikowanych jako zabawki oraz samodzielnie zbudowanych dronów poniżej 250 g o prędkości maksymalnej poniżej 19 m/s. Jeśli masz mniej niż 16 lat, możesz latać pod bezpośrednim nadzorem pilota zdalnego, który ma co najmniej 16 lat i posiada ważne świadectwo kompetencji.",
       "Rejestracja UE z Twojego kraju macierzystego jest ważna — nowa norweska rejestracja nie jest wymagana",
       "Ubezpieczenie od odpowiedzialności cywilnej jest zwykle wymagane przy masie 250 g lub więcej (brak wymogu przy masie poniżej 250 g w kategorii otwartej)",
-      "W promieniu 5 km od lotniska wymagane jest zezwolenie — użyj aplikacji Ninox Drone",
-      "Śródmieście Oslo (R102) to stała strefa zastrzeżona — loty wymagają zezwolenia Civil Aviation Authority",
+      "Aby latać w promieniu 5 km od lotniska, wymagana jest zgoda wieży — skontaktuj się ze służbą ruchu lotniczego telefonicznie lub e-mailem albo złóż wniosek przez aplikację Ninox Drone (Avinor) tam, gdzie jest używana. Aplikacja nie jest wymogiem.",
+      "Centrum Oslo (R102) to stała strefa ograniczeń — lot wymaga uprzedniej zgody Luftfartstilsynet (wniosek przez Altinn lub postmottak@caa.no, czas rozpatrzenia ok. dwóch tygodni, podlega opłacie). Policja zwykle nie wydaje zgody w sylwestra/Nowy Rok, 17 maja, w dniu otwarcia Stortingu ani 10 grudnia.",
       "Zdalna identyfikacja (Remote ID) jest wymagana dla dronów klas C1–C3",
       "Zawsze sprawdzaj osobno obszary chronione i parki narodowe"
     ],
@@ -31,8 +32,8 @@
         "description": "Oficjalna mapa obszarów zastrzeżonych i stref zakazu lotów"
       },
       {
-        "title": "Ninox Drone – Zezwolenie w pobliżu lotniska",
-        "description": "Złóż wniosek o zezwolenie na loty w promieniu 5 km od lotniska"
+        "title": "NinoxDrone – złóż wniosek o zgodę",
+        "description": "Portal Avinor dla operatorów dronów – wnioski o loty w pobliżu lotnisk (aplikacja: NinoxDrone2)"
       },
       {
         "title": "Flydrone.no – Rejestracja i certyfikacja",

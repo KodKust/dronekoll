@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "2c58b7a31f1c8559936a55c3a5e025f7dd391e382ab6ecfeb89c30fa2c945c23",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef69e20c9988bcf5f856c6fb76c01616820e80425007ad49d1b4c9740db11a03",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Max. 120 m nad úrovní terénu (AGL) v otevřené kategorii",
-      "Registrace pro zařízení s hmotností 250 g nebo více (nebo lehčí než 250 g, pokud pořizují snímky) — registrační číslo LBA",
+      "V otevřené kategorii je maximální výška 120 m měřena jako vzdálenost k nejbližšímu bodu zemského povrchu — ne pouze svisle dolů, takže u svahu se může započítávat i zem vedle vás. Do vzdálenosti 50 m od vysoké umělé překážky (vyšší než 105 m) může subjekt odpovědný za tuto překážku požádat o povolení k letu až 15 m nad její výšku.",
+      "Jako provozovatel dronu se musíte zaregistrovat, pokud váš dron váží 250 g nebo více (nebo může při nárazu předat více než 80 J kinetické energie) — platí to i pro hračky. U dronu lehčího než 250 g je registrace stále povinná, pokud má senzor schopný zachytit osobní údaje, ledaže se podle EU Toy Safety Directive považuje za hračku. Požadavky na výcvik nebo způsobilost pilota se řídí samostatně a závisí na třídě a podkategorii dronu.",
       "Registrace provozovatele u LBA je zpoplatněna — minimální věk je 16 let. Registrační číslo (e-ID) musí být na dronu dobře viditelné.",
-      "Osvědčení dálkově řídícího pilota A1/A3 (zpoplatněný online test spravovaný LBA) nebo osvědčení A2 pro létání blíže k lidem — aktuální poplatky si ověřte na lba.de",
-      "Povinné pojištění odpovědnosti (§ 43 německého zákona o letectví) — včetně rekreačních dronů",
-      "Zákaz létání nad obytnými pozemky bez souhlasu obyvatel (§ 21h předpisu o leteckém provozu)",
-      "Do 100 metrů od železničních zařízení, dálnic nebo průmyslových zařízení bez souhlasu provozovatele nebo vlastníka",
-      "Zákaz letů v přírodních rezervacích a národních parcích",
-      "ED-R 146: trvalá omezená zóna nad Berlínem (vládní čtvrť) — vyžadováno povolení",
+      "V Německu je minimální věk pro osvědčení o způsobilosti A1/A3 16 let (online školení a zkouška, 40 otázek z 9 tematických oblastí, k úspěchu je potřeba 75 %, platnost 5 let) — výjimka: létání pod přímým dohledem dálkově řídícího pilota s platným osvědčením.",
+      "Povinné pojištění odpovědnosti (§43 Luftverkehrsgesetz) — platí i pro rekreační drony, bez ohledu na hmotnost.",
+      "Létání nad obytnými pozemky bez výslovného souhlasu vlastníků nebo jiných oprávněných uživatelů je zakázáno (§21h LuftVO). Výjimky: drony lehčí než 250 g bez schopnosti záznamu či přenosu nebo lety ve výšce 100 m a více za několika podmínek (oprávněný zájem, není k dispozici žádná veřejná plocha, souhlas nelze rozumně získat, opatření na ochranu údajů, pouze 6-22 h, dodržení hlukových limitů).",
+      "Do vzdálenosti 100 m (do strany i nahoru) od spolkových dálkových silnic, spolkových vodních cest a železničních zařízení je provoz povolen pouze tehdy, je-li splněna JEDNA z podmínek § 21h Abs. 3 Nr. 5 LuftVO: a) přelet silnice nebo železničního zařízení ve „specifické“ kategorii s posouzením rizik, které zohledňuje zvláštní nebezpečí přeletu; b) výslovný souhlas příslušného úřadu nebo provozovatele zařízení; c) výška letu nad zemí je vždy menší než boční vzdálenost od infrastruktury a tato vzdálenost je vždy větší než 10 m; nebo d) u spolkových vodních cest: překročení nejkratší cestou ve výšce nejméně 100 m, bez přeletu nad loděmi nebo lodními zařízeními. U průmyslových zařízení, věznic, vojenských zařízení a energetických zařízení platí vzdálenost 100 m, pokud příslušný úřad nebo provozovatel zařízení neudělí výslovný souhlas (Nr. 3). Pro železniční zařízení zveřejnila DB InfraGO AG požadavky na provoz UAS slučitelný s železnicí v NfL 1-2026-3788.",
+      "Přírodní rezervace, národní parky a oblasti Natura 2000: přelet je zakázán (§ 21h Abs. 3 Nr. 6 LuftVO), ledaže k tomu příslušný orgán ochrany přírody dá výslovný souhlas nebo zemské právo upravuje provoz jinak. Mimo národní parky je provoz povolen také tehdy, jsou-li současně splněny všechny čtyři podmínky: žádný sportovní ani rekreační účel, výška letu nad 100 m, znalost a přiměřené zohlednění účelu ochrany a přelet je pro účel provozu nevyhnutelně nutný.",
+      "ED-R 146: trvalá omezená zóna nad berlínskou vládní čtvrtí — vyžadováno povolení. Před letem si ověřte aktuální stav na dipul.de.",
+      "Od 6. srpna 2026 platí na 24 letištích zónový model pro lety UAS v řízených okrscích (DFS: NfL 2026-1-3960, které ruší NfL 2023-1-2705; DFS Aviation Services: NfL 2026-1-3981). Zóna 1 — nad letištěm, do 1 km od jeho hranice a v koridorech drah prodloužených o 5 km (po 1 km vlevo a vpravo od osy dráhy) — nemá obecné povolení: vždy je tam nutné individuální povolení řízení letového provozu, o které se žádá přes ais.dfs.de s předstihem přibližně 14 dní. V zónách 2 a 3 platí obecné povolení do 25 m, resp. 45 m nad nadmořskou výškou letiště nebo nad zemí (podle toho, co je nižší); v zóně 4 do 100 m nad nadmořskou výškou letiště nebo 50 m nad zemí (podle toho, co je vyšší; pokud je místo vzletu níže než nadmořská výška letiště, platí 100 m nad zemí). Obecné povolení platí pouze pro UAS do 25 kg (modely letadel do 5 kg), vyžaduje dohlednost při zemi alespoň 800 m a vylučuje autonomní lety. Před letem si v dipul Maptool ověřte svou podzónu a nadmořskou výšku terénu.",
       "Direct Remote ID je v celé EU povinné pro drony třídy C1, C2 a C3 od 1. ledna 2024"
     ],
     "importantNotes": [
-      "dipul zobrazuje třídy vzdušného prostoru, ale neposkytuje úplný přehled omezených zón — informace doplňte pomocí aplikace Droniq",
+      "dipul zobrazuje třídy vzdušného prostoru, ale neposkytuje úplný přehled všech omezených zón — před létáním v blízkosti citlivých oblastí použijte také aplikaci Droniq nebo podobnou.",
       "Zahraniční piloti s registrací v EU musí přesto dodržovat vnitrostátní letecké předpisy",
-      "Pořizování snímků na soukromém pozemku může rovněž vyvolat otázky ohledně GDPR"
+      "Fotografování soukromého majetku může kromě povolení k letu podle §21h LuftVO vyvolat i otázky ochrany osobních údajů (DSGVO/GDPR)."
     ],
     "primaryLinks": [
       {
@@ -51,8 +52,8 @@
         "description": "Žádost o výjimky pro zvláštní případy"
       },
       {
-        "title": "BMDV – informace o dronech",
-        "description": "Vnitrostátní předpisy pro drony a právní základ (§ 21h německého předpisu o leteckém provozu (LuftVO))"
+        "title": "BMV – informace o dronech",
+        "description": "Vnitrostátní úprava dronů a právní základ (§21h LuftVO)"
       }
     ],
     "disclaimerText": "Před letem si vždy ověřte oficiální zdroje. Tato aplikace je pomůcka, nikoli právní zdroj. Pravidla se mohou změnit bez předchozího upozornění.",

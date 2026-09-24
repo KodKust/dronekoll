@@ -1,59 +1,60 @@
 {
- "meta": {
-  "sourceHash": "3f93b288335a64961197959526986fa369f18ef2ac4a0d684c859af0aa2a4931",
-  "engine": "opus-4-8",
-  "translatedAt": "2026-07-10",
-  "sourceLang": "en"
- },
- "fields": {
-  "keyRules": [
-   "Upp till 120 m över marken (EASA öppen kategori)",
-   "Registrera dig som UAS-operatör hos RDW (23 € engångsavgift + 13 €/år i förnyelseavgift) om drönaren väger 250 g eller mer eller är utrustad med kamera",
-   "A1/A3-onlineutbildning är obligatorisk – lägsta ålder 16 år",
-   "Den 14 km stora kontrollzonen (CTR) runt Schiphol täcker större delen av Amsterdam – se den officiella luftrumskartan",
-   "Håll alltid drönaren inom synhåll (VLOS)",
-   "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
-   "Minst 3 km från mindre flygplatser, med en större buffertzon runt Schiphol",
-   "Nattflygning är tillåten enligt EASA:s grundkrav för den öppna kategorin när det föreskrivna gröna blinkljuset används, såvida inte gällande geografiska bestämmelser eller nationella regler ställer strängare krav.",
-   "Naturområden (Natura 2000): restriktioner under häckningssäsongen",
-   "Tätbefolkade stadsområden i Randstad: kontrollera lokala kommunala föreskrifter"
-  ],
-  "importantNotes": [
-   "Den 14 km stora kontrollzonen (CTR) runt Schiphol innebär i praktiken drönarförbud över större delen av Amsterdam",
-   "Registrering via RDW kostar en engångsavgift på 23 € plus en årlig förnyelseavgift på 13 € (från 2025) – giltig i alla EU-/EASA-länder",
-   "Böter på upp till 11 250 € för överträdelser",
-   "Militära zoner (Leeuwarden, Eindhoven, Volkel): absolut flygförbud",
-   "GDPR gäller när du skapar bilder som visar identifierbara personer"
-  ],
-  "primaryLinks": [
-   {
-    "title": "ILT – Regler för drönare",
-    "description": "Officiella regler från inspektionen för livsmiljö och transport"
-   },
-   {
-    "title": "RDW – Registrera dig som operatör",
-    "description": "Registrering som UAS-operatör (giltig i alla EU-/EASA-länder)"
-   },
-   {
-    "title": "ILT – Översikt över reglerna",
-    "description": "Översikt över reglerna för att flyga drönare i Nederländerna"
-   }
-  ],
-  "secondaryLinks": [
-   {
-    "title": "LVNL – Flygtrafikledning",
-    "description": "Nederländsk flygtrafikledning och luftrumsinformation"
-   },
-   {
-    "title": "Regeringen – Regler för drönare",
-    "description": "Regeringsportal med information om reglerna för drönare"
-   }
-  ],
-  "disclaimerText": "Kontrollera alltid de officiella källorna från ILT och RDW samt luftrumskartan från IenW innan du flyger. Den här appen är ett verktyg – inte en juridisk källa. Nederländerna följer EASA-reglerna.",
-  "sectionLabelRules": "VIKTIGASTE REGLERNA (EASA ÖPPEN KATEGORI)",
-  "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
-  "sectionLabelSecondary": "YTTERLIGARE RESURSER",
-  "linksSheetTitle": "Luftrum och regler – Nederländerna",
-  "dronePilotCredentialName": "A1/A3-pilotlicens"
- }
+  "meta": {
+    "sourceHash": "3c54b50d3e51926a9a7b9c89db124d744240fd7e158e4869e88669a6d03744df",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
+    "sourceLang": "en"
+  },
+  "fields": {
+    "keyRules": [
+      "I den öppna kategorin mäts den högsta tillåtna höjden på 120 m som avståndet till närmaste punkt på jordytan – inte bara rakt nedåt, så nära en sluttning kan även marken bredvid dig räknas. Inom 50 m från ett högt konstgjort hinder (över 105 m) kan den som ansvarar för hindret begära tillstånd att flyga upp till 15 m över hindrets höjd.",
+      "Du måste registrera dig som drönaroperatör om drönaren väger 250 g eller mer (eller kan överföra mer än 80 J rörelseenergi vid en kollision) – det gäller även leksaker. Under 250 g krävs registrering ändå om drönaren har en sensor som kan samla in personuppgifter, såvida den inte räknas som en leksak enligt EU Toy Safety Directive. Kraven på pilotutbildning och certifikat regleras separat och beror på drönarens klass och underkategori.",
+      "I Nederländerna är lägsta ålder för A1/A3-certifikatet 16 år. Är du yngre måste en observatör (med giltigt certifikat) hela tiden hålla drönaren inom synhåll och ha kontakt med dig.",
+      "Förbudszonen runt Schiphol täcker större delen av Amsterdam med omgivningar – kontrollera den officiella kartan före varje flygning i stället för att förlita dig på ett fast avstånd.",
+      "I den öppna kategorin måste du hålla drönaren inom ditt eget synhåll med blotta ögat (glasögon och linser går bra; kikare eller en skärm räknas inte) – eller flyga med hjälp av en observatör, med tydlig och effektiv kommunikation mellan er hela tiden, så att ni tillsammans kan bevaka luftrummet och undvika kollisioner. Follow-me-läget är ett separat undantag och är tillåtet upp till 50 m från piloten.",
+      "Flyg inte över folksamlingar. Reglerna för icke-inblandade personer beror på underkategori, klassbeteckning och driftsförhållanden; se den officiella tabellen.",
+      "Restriktioner runt flygplatser publiceras som flygförbudszoner på den officiella drönarkartan; runt Schiphol gäller en stor buffertzon. Kontrollera kartan innan du flyger nära en flygplats – det finns inget enskilt fast avstånd som gäller överallt.",
+      "I Nederländerna får du inte flyga på natten i den öppna kategorin. Flygning är begränsad till den enhetliga dagsljusperioden (Uniforme Daglicht Periode, UDP), som varar från soluppgång till solnedgång. Undantag för att flyga utanför UDP kan endast sökas hos ILT för flygningar i kategorin specifik – den möjligheten finns inte för den öppna kategorin.",
+      "Naturområden (Natura 2000): drönarrestriktioner gäller i vissa områden – de fastställs av provinsen eller områdesförvaltaren, inte efter en fast säsong. Kontrollera provinsens regler och zoninformationen på kartan före flygningen.",
+      "Tätbefolkade stadsområden i Randstad: kontrollera lokala kommunala föreskrifter",
+      "Avstånd till vägar, järnvägar och högspänningsnätet (Regeling onbemande luchtvaartuigen art. 6 och 8, öppen kategori): inte inom 50 m (A1/A2) eller 150 m (A3) från motorvägar, motortrafikleder och vägar med en hastighetsgräns på 80 km/h som är i bruk; inte inom 25 m (A1/A2) eller 150 m (A3) från järnvägar; och inte inom 150 m från objekt eller områden som ingår i elöverföringssystemet (högspänningsnätet)."
+    ],
+    "importantNotes": [
+      "En omfattande förbudszon gäller runt Schiphol och täcker större delen av Amsterdam och omgivande rekreationsområden; kontrollera den officiella kartan före varje flygning i stället för att förlita dig på ett fast avstånd.",
+      "Registrering via RDW kostar en engångsavgift på 23 € plus en årlig förnyelseavgift på 13 € (från 2025) – giltig i alla EU-/EASA-länder",
+      "Överträdelser kan leda till höga böter, beslag av drönaren och vid upprepade förseelser till och med åtal – beloppen varierar beroende på förseelse.",
+      "De militära flygplatserna Leeuwarden, Eindhoven och Volkel (CTR): flygningar i den öppna kategorin är förbjudna här; flygningar i kategorin specifik kräver ett privilegium i det operativa tillståndet (zontext från IenW, Regeling onbemande luchtvaartuigen art. 7).",
+      "GDPR gäller när du skapar bilder som visar identifierbara personer"
+    ],
+    "primaryLinks": [
+      {
+        "title": "ILT – Regler för drönare",
+        "description": "Officiella regler från inspektionen för livsmiljö och transport"
+      },
+      {
+        "title": "RDW – Registrera dig som operatör",
+        "description": "Registrering som UAS-operatör: 23 € i engångsavgift, därefter 13 € per år vid förnyelse (operatörsnumret gäller i 1 år; giltigt i alla EU-/EASA-länder)"
+      },
+      {
+        "title": "ILT – Översikt över reglerna",
+        "description": "Översikt över reglerna för att flyga drönare i Nederländerna"
+      }
+    ],
+    "secondaryLinks": [
+      {
+        "title": "LVNL – Flygtrafikledning",
+        "description": "Nederländsk flygtrafikledning och luftrumsinformation"
+      },
+      {
+        "title": "Regeringen – Regler för drönare",
+        "description": "Regeringsportal med information om reglerna för drönare"
+      }
+    ],
+    "disclaimerText": "Kontrollera alltid de officiella källorna från ILT och RDW samt luftrumskartan från IenW innan du flyger. Den här appen är ett verktyg – inte en juridisk källa. Nederländerna följer EASA-reglerna.",
+    "sectionLabelRules": "VIKTIGASTE REGLERNA (EASA ÖPPEN KATEGORI)",
+    "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
+    "sectionLabelSecondary": "YTTERLIGARE RESURSER",
+    "linksSheetTitle": "Luftrum och regler – Nederländerna",
+    "dronePilotCredentialName": "A1/A3-pilotlicens"
+  }
 }

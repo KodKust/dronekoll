@@ -1,27 +1,28 @@
 {
   "meta": {
-    "sourceHash": "2c58b7a31f1c8559936a55c3a5e025f7dd391e382ab6ecfeb89c30fa2c945c23",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "ef69e20c9988bcf5f856c6fb76c01616820e80425007ad49d1b4c9740db11a03",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimaalselt 120 m maapinnast (AGL) avatud kategoorias",
-      "Registreerimine on nõutav vähemalt 250 g kaaluvate droonide puhul (või alla 250 g kaaluvate droonide puhul, kui neil on kaamera) — LBA registreerimisnumber",
+      "Avatud kategoorias on maksimaalne kõrgus 120 m, mida mõõdetakse kaugusena Maa pinna lähima punktini — mitte lihtsalt otse alla, nii et nõlva lähedal võib arvesse minna ka sinu kõrval olev maapind. Kõrge tehisliku takistuse (üle 105 m) 50 m raadiuses võib takistuse eest vastutav üksus taotleda luba lennata kuni 15 m kõrgemale takistuse kõrgusest.",
+      "Pead registreeruma droonioperaatorina, kui sinu droon kaalub 250 g või rohkem (või võib kokkupõrkel üle kanda rohkem kui 80 J kineetilist energiat) — see kehtib ka mänguasjade kohta. Alla 250 g on registreerimine siiski nõutav, kui droonil on andur, mis suudab koguda isikuandmeid, välja arvatud juhul, kui see loetakse mänguasjaks EL-i mänguasjade ohutuse direktiivi alusel. Piloodi koolituse/pädevuse nõuded on reguleeritud eraldi ja sõltuvad drooni klassist ja alamkategooriast.",
       "LBA operaatori registreerimine on tasuline — vanuse alampiir on 16. Registreerimisnumber (e-ID) peab olema droonil selgelt nähtav.",
-      "A1/A3 kaugpiloodi sertifikaat (LBA korraldatav tasuline veebitest) või A2 sertifikaat inimestele lähemal lendamiseks — kontrolli kehtivaid tasusid aadressil lba.de",
-      "Kohustuslik vastutuskindlustus (Section 43 of the German Aviation Act) — ka harrastusdroonidele",
-      "Keeld lennata elamukinnistute kohal ilma elanike nõusolekuta (Section 21h of the Air Traffic Regulations)",
-      "100 meetri raadiuses raudteerajatistest, kiirteedest või tööstusrajatistest ilma käitaja või omaniku nõusolekuta",
-      "Lennukeeld looduskaitsealadel ja rahvusparkides",
-      "ED-R 146: alaline piirangutsoon Berliini valitsuskvartali kohal — luba nõutav",
+      "Saksamaal on A1/A3 pädevustunnistuse vanuse alampiir 16 (veebikoolitus ja eksam, 40 küsimust 9 teemavaldkonnast, läbimiseks 75%, kehtib 5 aastat) — erand: lendamine kehtiva tunnistusega kaugpiloodi otsese järelevalve all.",
+      "Kohustuslik vastutuskindlustus (§43 Luftverkehrsgesetz) — kehtib ka harrastusdroonidele, olenemata kaalust.",
+      "Elamukinnistute kohal lendamine ilma omanike või muude volitatud kasutajate selgesõnalise nõusolekuta on keelatud (§21h LuftVO). Erandid: alla 250 g droonid ilma salvestus-/edastusvõimeta või lennud 100 m kõrgusel või kõrgemal mitme tingimuse täitmisel (õigustatud huvi, avalikku ala pole saadaval, nõusolekut ei ole mõistlikult võimalik saada, andmekaitse ettevaatusabinõud, ainult 6-22 h, mürapiirangutest kinnipidamine).",
+      "100 m raadiuses (külgsuunas ja ülevalt) föderaalsetest magistraalteedest, föderaalsetest veeteedest ja raudteerajatistest on käitamine lubatud ainult siis, kui on täidetud ÜKS § 21h Abs. 3 Nr. 5 LuftVO tingimustest: a) tee või raudteerajatise ülelend „erikategoorias“ riskihindamisega, mis arvestab ülelennu eriliste ohtudega; b) pädeva asutuse või rajatise käitaja selgesõnaline nõusolek; c) lennukõrgus maapinnast on alati väiksem kui külgmine kaugus taristust ja see kaugus on alati suurem kui 10 m; või d) föderaalsete veeteede puhul: ületamine lühimat teed pidi vähemalt 100 m kõrgusel, lendamata laevade või laevandusrajatiste kohal. Tööstusrajatiste, vanglate, sõjaväerajatiste ja energiarajatiste puhul kehtib 100 m kaugus, välja arvatud juhul, kui pädev asutus või rajatise käitaja annab selgesõnalise nõusoleku (Nr. 3). Raudteerajatiste puhul on DB InfraGO AG avaldanud raudteega ühilduva UAS-käitamise nõuded dokumendis NfL 1-2026-3788.",
+      "Looduskaitsealad, rahvuspargid ja Natura 2000 alad: ülelend on keelatud (§ 21h Abs. 3 Nr. 6 LuftVO), välja arvatud juhul, kui pädev looduskaitseasutus annab selgesõnalise nõusoleku või liidumaa õigus reguleerib käitamist teisiti. Väljaspool rahvusparke on käitamine lubatud ka siis, kui kõik neli tingimust on täidetud samaaegselt: puudub spordi- või vaba aja eesmärk, lennukõrgus üle 100 m, kaitse-eesmärgi tundmine ja asjakohane arvestamine ning ülelend on käitamise eesmärgi jaoks vältimatult vajalik.",
+      "ED-R 146: alaline piirangutsoon Berliini valitsuskvartali kohal — luba nõutav. Kontrolli enne lendamist praegust olukorda aadressil dipul.de.",
+      "Alates 6. augustist 2026 kehtib kontrolltsoonides UAS-lendude tsoonimudel 24 lennujaamas (DFS: NfL 2026-1-3960, mis tühistab NfL 2023-1-2705; DFS Aviation Services: NfL 2026-1-3981). Tsoonis 1 — lennujaama kohal, 1 km raadiuses selle piirist ja 5 km võrra pikendatud stardiraja koridorides (kumbki 1 km stardiraja telgjoonest vasakule ja paremale) — üldluba ei kehti: seal on alati nõutav individuaalne lennujuhtimisluba, mida taotletakse ais.dfs.de kaudu umbes 14 päeva ette. Tsoonides 2 ja 3 kehtib üldluba vastavalt kuni 25 m ja 45 m üle lennuvälja kõrguse või üle maapinna (kumb on madalam); tsoonis 4 kuni 100 m üle lennuvälja kõrguse või 50 m üle maapinna (kumb on kõrgem; kui stardikoht on lennuvälja kõrgusest madalamal, kehtib 100 m üle maapinna). Üldluba kehtib ainult kuni 25 kg UAS-idele (mudellennukid kuni 5 kg), nõuab vähemalt 800 m maapealset nähtavust ja välistab autonoomsed lennud. Kontrolli enne lendamist oma alamtsooni ja maastiku kõrgust tööriistas dipul Maptool.",
       "Direct Remote ID on olnud C1-, C2- ja C3-klassi droonidele kogu EL-is kohustuslik alates 1. jaanuarist 2024"
     ],
     "importantNotes": [
-      "dipul näitab õhuruumiklasse, kuid mitte täielikku ülevaadet piirangutsoonidest — kasuta lisaks rakendust Droniq",
+      "dipul näitab õhuruumiklasse, kuid ei anna täielikku ülevaadet kõigist piirangualadest — enne tundlike alade lähedal lendamist kasuta lisaks rakendust Droniq või sarnast.",
       "EL-i registreeringuga välispiloodid peavad siiski järgima riiklikke lennundusmäärusi",
-      "Eravaldusel pildistamine võib samuti tekitada GDPR-i küsimusi"
+      "Eravara pildistamine võib lisaks §21h LuftVO kohasele lennuloale tõstatada andmekaitseküsimusi (DSGVO/GDPR)."
     ],
     "primaryLinks": [
       {
@@ -51,8 +52,8 @@
         "description": "Taotle erandeid erijuhtudeks"
       },
       {
-        "title": "BMDV — Droonide teave",
-        "description": "Riiklikud droonimäärused ja õiguslik alus (Saksa lennuliikluseeskirjade (LuftVO) § 21h)"
+        "title": "BMV – Teave droonide kohta",
+        "description": "Riiklik droonide regulatsioon ja õiguslik alus (§21h LuftVO)"
       }
     ],
     "disclaimerText": "Kontrolli enne lendu alati ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Reeglid võivad muutuda ette teatamata.",

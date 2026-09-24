@@ -1,28 +1,29 @@
 {
   "meta": {
-    "sourceHash": "3f93b288335a64961197959526986fa369f18ef2ac4a0d684c859af0aa2a4931",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "3c54b50d3e51926a9a7b9c89db124d744240fd7e158e4869e88669a6d03744df",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Enintään 120 m maanpinnasta (EASAn avoin kategoria)",
-      "Rekisteröidy UAS-käyttäjäksi RDW:lle (23 €:n kertamaksu + 13 €/vuosi uusimismaksu), jos drone painaa vähintään 250 g tai siinä on kamera",
-      "A1/A3-verkkokoulutus on pakollinen — vähimmäisikä 16 vuotta",
-      "Schipholin ympärillä oleva 14 km:n lähilentovyöhyke (CTR) kattaa suurimman osan Amsterdamista — katso virallinen ilmatilakartta",
-      "Pidä drone aina näköyhteydessä (VLOS)",
+      "Avoimessa kategoriassa suurin sallittu korkeus on 120 m, mitattuna etäisyytenä lähimpään maanpinnan kohtaan — ei pelkästään suoraan alaspäin, joten rinteen lähellä myös vieressäsi oleva maasto voidaan laskea mukaan. 50 m:n säteellä korkeasta keinotekoisesta esteestä (yli 105 m) esteestä vastaava taho voi pyytää lupaa lentää enintään 15 m esteen korkeuden yläpuolelle.",
+      "Sinun on rekisteröidyttävä dronen käyttäjäksi, jos drone painaa vähintään 250 g (tai voi törmäyksessä siirtää yli 80 J liike-energiaa) — tämä koskee myös leluja. Alle 250 g painava drone on silti rekisteröitävä, jos siinä on anturi, joka pystyy keräämään henkilötietoja, ellei sitä katsota leluksi EU:n lelujen turvallisuusdirektiivin mukaisesti. Lentäjän koulutus- ja todistusvaatimukset säännellään erikseen, ja ne riippuvat dronen luokasta ja alaluokasta.",
+      "Alankomaissa A1/A3-todistuksen vähimmäisikä on 16 vuotta. Jos olet nuorempi, tarkkailijan (jolla on voimassa oleva todistus) on pidettävä drone koko ajan näkyvissä ja oltava yhteydessä sinuun.",
+      "Schipholin ympärillä oleva kieltoalue kattaa suurimman osan Amsterdamista ja ympäröivistä alueista — tarkista virallinen kartta ennen jokaista lentoa sen sijaan, että luottaisit kiinteään etäisyyteen.",
+      "Avoimessa kategoriassa dronen on pysyttävä omassa, paljain silmin ylläpidettävässä näköyhteydessäsi (silmälasit/piilolinssit käyvät; kiikari tai näyttö ei kelpaa) — tai voit lentää tarkkailijan avustamana pitäen koko ajan selkeän ja tehokkaan yhteyden toisiinne, jotta voitte yhdessä tarkkailla ilmatilaa ja välttää yhteentörmäykset. Follow-me-tila on erillinen poikkeus, sallittu enintään 50 m:n etäisyydellä ohjaajasta.",
       "Älä lennä ihmisjoukkojen yli. Ulkopuolisia henkilöitä koskevat säännöt riippuvat alaluokasta, luokkamerkistä ja toimintaolosuhteista; tarkista virallinen taulukko.",
-      "Vähintään 3 km:n etäisyys pienistä lentoasemista; Schipholin ympärillä on laajempi suojavyöhyke",
-      "Yölento on sallittu EASA:n avoimen luokan perusvaatimusten mukaisesti, kun vaadittua vihreää vilkkuvaloa käytetään, ellei voimassa oleva maantieteellinen vyöhyke tai kansallinen sääntö aseta tiukempia ehtoja.",
-      "Luonnonalueet (Natura 2000): rajoituksia pesimäkauden aikana",
-      "Randstadin tiheästi asutut kaupunkialueet: tarkista paikalliset kunnalliset määräykset"
+      "Lentoasemien ympäristön rajoitukset julkaistaan lennätyskieltovyöhykkeinä virallisella dronekartalla; Schipholin ympärillä on laaja puskurivyöhyke. Tarkista kartta ennen kuin lennät lentoaseman lähellä — yhtä kaikkialla sovellettavaa kiinteää etäisyyttä ei ole.",
+      "Alankomaissa et saa lentää yöllä avoimessa kategoriassa. Lentäminen on rajoitettu yhtenäiseen päivänvalojaksoon (Uniforme Daglicht Periode, UDP), joka kestää auringonnoususta auringonlaskuun. Poikkeusta UDP:n ulkopuolella lentämiseen voi hakea ILT:ltä vain erityisen kategorian lennoille — tätä mahdollisuutta ei ole avoimessa kategoriassa.",
+      "Luontoalueet (Natura 2000): joillakin alueilla on dronerajoituksia — ne asettaa maakunta tai alueen hallinnoija, eivätkä ne perustu kiinteään kauteen. Tarkista maakunnan säännöt ja kartan vyöhyketiedot ennen lentoa.",
+      "Randstadin tiheästi asutut kaupunkialueet: tarkista paikalliset kunnalliset määräykset",
+      "Etäisyys teistä, rautateistä ja suurjänniteverkosta (Regeling onbemande luchtvaartuigen art. 6 ja 8, avoin kategoria): ei alle 50 m:n (A1/A2) tai 150 m:n (A3) etäisyydellä käytössä olevista moottoriteistä, moottoriliikenneteistä ja teistä, joiden nopeusrajoitus on 80 km/h; ei alle 25 m:n (A1/A2) tai 150 m:n (A3) etäisyydellä rautateistä; eikä alle 150 m:n etäisyydellä kohteista tai alueista, jotka kuuluvat sähkönsiirtojärjestelmään (suurjänniteverkkoon)."
     ],
     "importantNotes": [
-      "Schipholin ympärillä oleva 14 km:n lähilentovyöhyke (CTR) käytännössä kieltää dronejen lennättämisen suurimman osan Amsterdamin yllä",
+      "Schipholin ympärillä on laaja kieltoalue, joka kattaa suurimman osan Amsterdamista ja ympäröivistä virkistysalueista; tarkista virallinen kartta ennen jokaista lentoa sen sijaan, että luottaisit kiinteään etäisyyteen.",
       "Rekisteröinti RDW:n kautta maksaa 23 €:n kertamaksun ja 13 €:n vuosittaisen uusimismaksun (vuodesta 2025 alkaen) — voimassa kaikissa EU-/EASA-maissa",
-      "Sakot rikkomuksista jopa 11 250 €",
-      "Sotilasalueet (Leeuwarden, Eindhoven, Volkel): ehdoton lennätyskielto",
+      "Rikkomukset voivat johtaa suuriin sakkoihin, dronen takavarikointiin ja toistuvista rikkomuksista jopa rikossyytteeseen — summat vaihtelevat rikkomuksen mukaan.",
+      "Sotilaslentoasemat Leeuwarden, Eindhoven ja Volkel (CTR): avoimen kategorian lennot ovat täällä kiellettyjä; erityisen kategorian lennot edellyttävät toimintaluvassa myönnettyä oikeutta (IenW-vyöhyketeksti, Regeling onbemande luchtvaartuigen art. 7).",
       "GDPR-tietosuoja-asetus koskee tunnistettavia henkilöitä esittävien kuvien ottamista"
     ],
     "primaryLinks": [
@@ -32,7 +33,7 @@
       },
       {
         "title": "RDW — Rekisteröidy käyttäjäksi",
-        "description": "Rekisteröityminen UAS-käyttäjäksi (voimassa kaikissa EU-/EASA-maissa)"
+        "description": "Rekisteröityminen UAS-käyttäjäksi: 23 € kertamaksu, sen jälkeen 13 € vuodessa uusittaessa (käyttäjänumero voimassa 1 vuoden; voimassa kaikissa EU-/EASA-maissa)"
       },
       {
         "title": "ILT — Sääntöjen yleiskatsaus",

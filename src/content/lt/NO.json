@@ -1,18 +1,19 @@
 {
   "meta": {
-    "sourceHash": "cdf51635159a9ab6a3aeea2b4855eab4e7c0cffc1a63d0ea2536d0902dca0ee5",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "5646b8c07e69e790fbab03d3414fded620214417e727b8c7d6fe2c009d985a3c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne daugiau kaip 120 m virš žemės paviršiaus (AGL)",
-      "Registracija privaloma 250 g ir sunkesniems įrenginiams arba lengvesniems nei 250 g, jei jie turi kamerą",
+      "Atvirojoje kategorijoje didžiausias aukštis yra 120 m, matuojamas kaip atstumas iki artimiausio žemės paviršiaus taško — ne vien statmenai žemyn, todėl prie šlaito gali būti skaičiuojamas ir šalia jūsų esantis reljefas. Ne didesniu kaip 50 m atstumu nuo aukštos dirbtinės kliūties (aukštesnės nei 105 m) už kliūtį atsakingas asmuo gali kreiptis dėl leidimo skristi iki 15 m aukščiau kliūties.",
+      "Kaip dronų operatorius privalote registruotis, jei jūsų dronas sveria 250 g ar daugiau (arba susidūrimo metu gali perduoti daugiau kaip 80 J kinetinės energijos) — tai taikoma net žaislams. Jei dronas lengvesnis nei 250 g, registracija vis tiek privaloma, jei jame yra jutiklis, galintis fiksuoti asmens duomenis, nebent pagal ES žaislų saugos direktyvą jis laikomas žaislu. Piloto mokymo / pažymėjimo reikalavimai yra atskiri ir priklauso nuo drono klasės ir pakategorės.",
+      "Norvegijoje amžiaus riba skraidyti savarankiškai yra 16 metų. Išimtys taikomos C0 dronams, priskiriamiems žaislams, ir privačiai pagamintiems lengvesniems nei 250 g dronams, kurių didžiausias greitis mažesnis nei 19 m/s. Jei jums dar nėra 16 metų, galite skraidyti tiesiogiai prižiūrimi ne jaunesnio kaip 16 metų nuotolinio piloto, turinčio galiojantį kompetencijos pažymėjimą.",
       "ES registracija iš jūsų šalies galioja — naujos Norvegijos registracijos nereikia",
       "Civilinės atsakomybės draudimas paprastai privalomas nuo 250 g (lengvesniems nei 250 g atvirojoje kategorijoje reikalavimas netaikomas)",
-      "5 km spinduliu nuo oro uosto reikalingas leidimas — naudokite programėlę Ninox Drone",
-      "Downtown Oslo (R102) yra nuolatinė ribojamoji zona — reikalingas Civil Aviation Authority leidimas",
+      "Norint skristi 5 km spinduliu nuo oro uosto, reikalingas skrydžių valdymo bokšto leidimas — susisiekite su skrydžių valdymo tarnyba telefonu ar el. paštu arba pateikite prašymą per Ninox Drone programėlę (Avinor), kur ji naudojama. Programėlė nėra privaloma.",
+      "Oslo centras (R102) yra nuolatinė ribojamoji teritorija — skrydžiams reikalingas išankstinis Luftfartstilsynet leidimas (prašymą teikite per Altinn arba postmottak@caa.no, nagrinėjama apie dvi savaites, taikomas mokestis). Policija paprastai neišduoda leidimų Naujųjų metų išvakarėse / Naujųjų metų dieną, gegužės 17 d., Stortingo sesijos atidarymo dieną ar gruodžio 10 d.",
       "Nuotolinis atpažinimas (Remote ID) privalomas C1–C3 klasės dronams",
       "Saugomas teritorijas ir nacionalinius parkus visada tikrinkite atskirai"
     ],
@@ -31,8 +32,8 @@
         "description": "Oficialus ribojamų teritorijų ir draudžiamųjų zonų žemėlapis"
       },
       {
-        "title": "Ninox Drone — Leidimas prie oro uosto",
-        "description": "Prašykite leidimo skristi 5 km spinduliu nuo oro uosto"
+        "title": "NinoxDrone – prašymas dėl leidimo",
+        "description": "Avinor portalas dronų operatoriams – prašymai skristi netoli oro uostų (programėlė: NinoxDrone2)"
       },
       {
         "title": "Flydrone.no — Registracija ir sertifikavimas",

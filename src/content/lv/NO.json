@@ -1,18 +1,19 @@
 {
   "meta": {
-    "sourceHash": "cdf51635159a9ab6a3aeea2b4855eab4e7c0cffc1a63d0ea2536d0902dca0ee5",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "5646b8c07e69e790fbab03d3414fded620214417e727b8c7d6fe2c009d985a3c",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimāli 120 m virs zemes (AGL)",
-      "Reģistrācija nepieciešama priekšmetiem, kas sver 250 g vai vairāk, vai mazāk par 250 g, ja tiem ir kamera",
+      "Atvērtajā kategorijā maksimālais augstums ir 120 m, ko mēra kā attālumu līdz tuvākajam Zemes virsmas punktam — nevis vienkārši taisni uz leju, tāpēc nogāzes tuvumā var tikt ņemta vērā arī zeme tev blakus. 50 m rādiusā no augsta mākslīga šķēršļa (virs 105 m) par šķērsli atbildīgā persona var pieteikties atļaujai lidot līdz 15 m virs šķēršļa augstuma.",
+      "Tev jāreģistrējas kā drona operatoram, ja tavs drons sver 250 g vai vairāk (vai sadursmē var nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas pat uz rotaļlietām. Droniem, kas sver mazāk par 250 g, reģistrācija joprojām ir obligāta, ja dronam ir sensors, kas spēj uztvert personas datus, izņemot gadījumus, kad tas tiek uzskatīts par rotaļlietu saskaņā ar ES Rotaļlietu drošuma direktīvu. Prasības par pilota apmācību/apliecību ir atsevišķas un atkarīgas no drona klases un apakškategorijas.",
+      "Norvēģijā vecuma ierobežojums patstāvīgai lidošanai ir 16 gadi. Izņēmumi attiecas uz C0 droniem, kas klasificēti kā rotaļlietas, un uz privāti būvētiem droniem, kas sver mazāk par 250 g un kuru maksimālais ātrums ir mazāks par 19 m/s. Ja tev nav 16 gadu, tu drīksti lidot tāda tālvadības pilota tiešā uzraudzībā, kuram ir vismaz 16 gadi un derīga kompetences apliecība.",
       "ES reģistrācija no tavas mītnes valsts ir derīga — jauna Norvēģijas reģistrācija nav nepieciešama",
       "Civiltiesiskās atbildības apdrošināšana parasti nepieciešama droniem, kas sver 250 g vai vairāk (atvērtajā kategorijā tā nav nepieciešama droniem, kas sver mazāk par 250 g)",
-      "5 km rādiusā no lidostas nepieciešama atļauja — izmanto Ninox Drone lietotni",
-      "Oslo centrs (R102) ir pastāvīga ierobežotā teritorija — nepieciešama Civil Aviation Authority atļauja",
+      "Lai lidotu 5 km rādiusā no lidostas, nepieciešama torņa atļauja — sazinies ar gaisa satiksmes dienestu pa tālruni vai e-pastu vai piesakies lietotnē Ninox Drone (Avinor), kur tā tiek izmantota. Lietotne nav obligāta.",
+      "Oslo centrs (R102) ir pastāvīga ierobežotā zona — lai lidotu, nepieciešama iepriekšēja Luftfartstilsynet atļauja (piesakies caur Altinn vai postmottak@caa.no, apstrādes laiks aptuveni divas nedēļas, par maksu). Policija parasti nepiešķir atļauju Vecgada vakarā/Jaungada dienā, 17. maijā, Storting atklāšanas dienā vai 10. decembrī.",
       "Tālidentifikācija (Remote ID) ir nepieciešama C1–C3 klases droniem",
       "Vienmēr atsevišķi pārbaudi aizsargājamās teritorijas un nacionālos parkus"
     ],
@@ -31,8 +32,8 @@
         "description": "Oficiālā ierobežoto teritoriju un aizlieguma zonu karte"
       },
       {
-        "title": "Ninox Drone — Atļauja lidostas tuvumā",
-        "description": "Piesakies atļaujai lidot 5 km rādiusā no lidostas"
+        "title": "NinoxDrone – piesakies atļaujai",
+        "description": "Avinor portāls dronu operatoriem – pieteikumi lidojumiem lidostu tuvumā (lietotne: NinoxDrone2)"
       },
       {
         "title": "Flydrone.no — Reģistrācija un sertifikācija",

@@ -1,22 +1,24 @@
 {
   "meta": {
-    "sourceHash": "52f1e9302ec2bcb4cb052daf85c1bc4eb0d04440f50f5931718d7e36efc0852a",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "6ba8a0d21aa6d8dafe028a7c48ce70de36567d44ff90036ca43f8450af32e0d5",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Maksimalt 120 m over jorden (EASA's åbne kategori)",
-      "Registrering som UAS-operatør hos Transport Authority for droner, der vejer 250 g eller mere eller er udstyret med et kamera",
-      "Påkrævet A1/A3-onlineuddannelse — minimumsalder 16 år",
-      "Minimumsafstande efter underkategori: A1 — flyv ikke over uvedkommende personer; A2 — mindst 30 m fra personer (5 m i lavhastighedstilstand); A3 — mindst 150 m fra bolig-, erhvervs-, industri- og rekreative områder.",
-      "Hold altid dronen inden for synsvidde (VLOS)",
+      "I den åbne kategori er den maksimale højde 120 m, målt som afstanden til det nærmeste punkt på jordens overflade — ikke blot lodret ned, så jorden ved siden af dig også kan tælle med ved en skråning. Inden for 50 m fra en høj kunstig forhindring (over 105 m) kan den enhed, der er ansvarlig for forhindringen, anmode om tilladelse til at flyve op til 15 m over forhindringens højde.",
+      "Du skal registrere dig som droneoperatør, hvis din drone vejer 250 g eller mere (eller kan overføre mere end 80 J i kinetisk energi ved et sammenstød) — det gælder også legetøj. Under 250 g kræves registrering stadig, hvis dronen har en sensor, der kan registrere personoplysninger, medmindre den regnes som legetøj efter EU Toy Safety Directive. Kravene til pilotuddannelse og certifikat er separate og afhænger af dronens klasse og underkategori.",
+      "Der kræves en minimumsalder på 16 år for at flyve selvstændigt i den åbne kategori — A1/A3-uddannelsen og -prøven (40 spørgsmål, online) er gyldige i 5 år og anerkendt i hele EU. Yngre piloter må kun flyve under direkte opsyn af en certificeret fjernpilot.",
+      "Minimumsafstande efter underkategori: A1 — flyv ikke over uvedkommende personer; A2 — mindst 30 m fra uvedkommende personer (5 m med aktiv lavhastighedsfunktion ≤ 3 m/s) og altid mindst flyvehøjden (1:1-reglen); A3 — mindst 150 m fra bolig-, erhvervs-, industri- og rekreative områder.",
+      "I den åbne kategori skal dronen holdes inden for din egen direkte synsvidde uden hjælpemidler (briller og kontaktlinser er tilladt; kikkert eller en skærm tæller ikke) — eller du kan få hjælp af en observatør, hvis I hele tiden har klar og effektiv kommunikation, så I sammen kan overvåge luftrummet og undgå kollisioner. Follow-me-tilstand er en særskilt undtagelse og er tilladt op til 50 m fra piloten.",
       "Man må ikke flyve over menneskemængder. Reglerne for uvedkommende afhænger af underkategori, klassemærke og driftsforhold; se den officielle oversigt.",
-      "M. R. Štefánik Airport, Bratislava: fuldstændigt forbud mod droneflyvning inden for en radius på 5 km op til en højde på 500 m (PUAS0103M, gældende fra 6. december 2025). Lufthavnene Košice, Poprad, Žilina og Piešťany (gældende fra 31. marts 2026): inden for 5 km fra lufthavnen er flyvning over 30 m kun tilladt efter koordinering — via e-mail til flyvekontrolenheden mindst 24 timer i forvejen.",
+      "Ved M. R. Štefánik Airport i Bratislava er civile droneflyvninger forbudt inden for en radius af 3 km fra flyvepladsens referencepunkt (48°10'12''N, 17°12'46''E), fra jordoverfladen op til 500 m over jorden — zone RUAS098M i henhold til Minister's Decision No. 104/2026, gældende fra 18. august 2026, som ophævede den tidligere zone PUAS0103M. Forbuddet gælder ikke for livreddende flyvninger, ambulanceflyvninger og eftersøgnings- og redningsflyvninger (SAR) og heller ikke for flyvninger, der udføres med forudgående godkendelse fra Ministry of Defense of the Slovak Republic, og som er udstyret med et system til fjernidentifikation. Inden for en radius af 5 km (zone RUAS001-LZIBAD-D) er civile UAS-operationer kun tilladt i den specifikke kategori.",
+      "Siden 31. marts 2026 gælder der nye regler i kontrolzonerne (CTR) Štefánik (Bratislava), Košice, Žilina, Piešťany og Tatry (Poprad) i henhold til Transport Authority Decision No. 1/2026: flyvning uden tilladelse er kun mulig i en afstand af mere end 5 km fra lufthavnen og op til en maksimal højde på 30 m, eller i atypisk luftrum (i en afstand af mere end 5 km fra lufthavnen, op til en bygnings højde og kun i dens umiddelbare nærhed, højst op til en vandret afstand af 30 m fra bygningen). Operationer i en CTR i betydningen af de udpegede geografiske områder må kun udføres på grundlag af en driftstilladelse i den specifikke kategori.",
+      "Forberedelsen før flyvning omfatter at kontrollere, at dronens system til fjernidentifikation er aktivt og opdateret (NSAT).",
       "Natflyvning er tilladt — dronen skal have et grønt blinkende lys tændt.",
       "Nationalparker (Tatra Mountains, Slovak Paradise, Low Tatras): Der gælder restriktioner",
-      "Bratislava Castle og regeringsområder: flyveforbudszoner",
+      "De militære flyvepladser Malacky-Kuchyňa (RUAS077M), Sliač (RUAS080M) og Prešov (RUAS081M), hver med en radius på 5.600 m: flyvning kun med forudgående godkendelse fra Ministry of Defense of the Slovak Republic og med et aktivt system til fjernidentifikation (Minister's Decision No. 104/2026).",
       "Tjek de geografiske UAS-områder (PUAS/RUAS-zoner) før hver flyvning — listen vedligeholdes af Ministry of Transportation og Transportation Authority, og zonerne kan ændre sig.",
       "De militære flyvepladser Malacky-Kuchyňa, Sliač og Prešov (RUAS-zoner): Flyvning er kun tilladt med godkendelse fra Ministry of Defense of the Slovak Republic."
     ],
@@ -24,10 +26,15 @@
       "Afstande til personer er reguleret af EASA-underkategorierne (A1/A2/A3) — den gamle nationale regel om 50 meter gælder ikke længere.",
       "Registrering af UAS-operatører håndteres af Transport Authority — registreringen er gyldig i hele EU/EASA",
       "Tatra Mountains og nationalparkerne har betydelige restriktioner",
-      "Området omkring M. R. Štefánik Airport: et totalt forbud mod droner inden for en radius på 5 km (PUAS0103M) — dette dækker også en stor del af Bratislava.",
+      "Området omkring M. R. Štefánik Airport: civile UAS-flyvninger er forbudt inden for en radius af 3 km (zone RUAS098M, Minister's Decision No. 104/2026, gældende fra 18. august 2026); inden for en radius af 5 km er operationer kun tilladt i den specifikke kategori (RUAS001-LZIBAD-D).",
+      "Forsikring er obligatorisk, hvis du opererer et UAS i den åbne kategori A2/A3, i den specifikke kategori eller i den certificerede kategori (NSAT FAQ).",
       "GDPR gælder for optagelse af billeder, hvor personer kan identificeres"
     ],
     "primaryLinks": [
+      {
+        "title": "Geografiske UAS-områder — Transport Authority",
+        "description": "Transport Authority's officielle side med geografiske UAS-områder (KML til download). Forberedelse før flyvning: sæt dig ind i de aktuelt gældende geografiske områder."
+      },
       {
         "title": "Dopravný úrad — Droneregler",
         "description": "Officielle regler og ressourcer fra Dopravný úrad (transportmyndigheden) vedrørende droner"

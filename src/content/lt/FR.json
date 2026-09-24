@@ -1,27 +1,29 @@
 {
   "meta": {
-    "sourceHash": "3f4b20da70d5a10b806d80689b9428a53f6f6f6a4f589f0dc439331194e5f8eb",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "df6b14f4fc38b5f9f75477bc725375986243192e5884f43ee6f721a2e4667902",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Ne daugiau kaip 120 m virš žemės paviršiaus (EASA atviroji kategorija)",
-      "Registracija AlphaTango privaloma (nemokama, galioja 5 metus) bet kokiam dronui, sveriančiam 250 g ar daugiau arba turinčiam kamerą",
-      "Privalomi A1/A3 internetiniai mokymai — mažiausias amžius 14 metų. Ankstesni BAPD pažymėjimai (priesaika patvirtinti pareiškimai) nebegalioja nuo 2026 m. sausio 1 d.",
+      "Atvirojoje kategorijoje didžiausias aukštis yra 120 m, matuojamas kaip atstumas iki artimiausio Žemės paviršiaus taško — ne tiesiog statmenai žemyn, todėl prie šlaito gali būti skaičiuojamas ir šalia jūsų esantis reljefas. Ne didesniu kaip 50 m atstumu nuo aukštos dirbtinės kliūties (aukštesnės nei 105 m) už kliūtį atsakingas subjektas gali paprašyti leidimo skristi iki 15 m aukščiau kliūties.",
+      "Kaip dronų operatorius privalote registruotis, jei jūsų dronas sveria 250 g ar daugiau (arba susidūrimo metu gali perduoti daugiau kaip 80 J kinetinės energijos) — tai taikoma net žaislams. Jei dronas lengvesnis nei 250 g, registracija vis tiek privaloma, jei jame yra jutiklis, galintis fiksuoti asmens duomenis, nebent pagal ES žaislų saugos direktyvą jis laikomas žaislu. Nuotolinio piloto mokymo / pažymėjimo reikalavimai yra atskiri ir priklauso nuo drono klasės ir pakategorės.",
+      "Prancūzijoje egzistuoja dvi atskiros registracijos: operatoriaus registracija (nuo 250 g arba turint asmens duomenų jutiklį) ir paties orlaivio registracija AlphaTango, kai tik jo masė viršija 800 g ir (arba) jame įrengtas elektroninio identifikavimo įtaisas. Registracijos numeris turi būti pritvirtintas prie orlaivio.",
+      "Prancūzijoje minimalus amžius skraidyti savarankiškai atvirojoje kategorijoje yra 14 metų (nemokami internetiniai A1/A3 mokymai ir egzaminas per AlphaTango, galioja 5 metus, pripažįstami visoje ES). Minimalus amžius netaikomas: A1 pakategorėje su C0 klasės orlaiviu, atitinkančiu Žaislų direktyvą 2009/48/EB; su privačiai pagamintu lengvesniu nei 250 g orlaiviu; arba skrendant tiesiogiai prižiūrint ne jaunesniam kaip 16 metų nuotoliniam pilotui, kai abu yra baigę reikiamus mokymus ir išlaikę egzaminus. Šis sumažintas amžius taikomas tik Prancūzijoje — kitoje ES šalyje taikomas tos šalies minimalus amžius.",
       "Civilinės atsakomybės draudimas primygtinai rekomenduojamas pramoginiam naudojimui (privalomas profesionaliam ar komerciniam naudojimui)",
-      "Paris ir Île-de-France: plačios neskraidymo zonos — apsilankykite Géoportail",
-      "Visada laikykite droną regėjimo lauke (VLOS)",
+      "Paryžius ir Île-de-France: plačios neskraidymo zonos — patikrinkite oficialų DGAC žemėlapį (cartes.gouv.fr)",
+      "Nacionalinė taisyklė (arrêté „Espace“, 5 ir 6 str.): atvirojoje kategorijoje skristi virš viešųjų erdvių užstatytose teritorijose — gatvių, aikščių, viešųjų parkų ir sodų, paplūdimių, promenadų — leidžiama tik (i) vykdant operatoriaus profesinę veiklą, o apgyvendintoje teritorijoje — iš anksto pateikus deklaraciją prefektui per AlphaTango (CERFA 15476) ne vėliau kaip likus dešimčiai darbo dienų iki skrydžio; dėl jos skrydis gali būti uždraustas arba apribotas; arba (ii) vietose, kuriose prefektas leidžia atvirosios kategorijos ar aviamodelių skrydžius. Pramoginiams skrydžiams tai praktiškai atmeta viešąsias erdves miestuose ir kaimuose — ne tik Paryžiuje.",
+      "Atvirojoje kategorijoje dronas turi būti jūsų paties tiesioginio regėjimo lauke, stebimas plika akimi (korekciniai akiniai / lęšiai leidžiami; žiūronai ar ekranas neįskaitomi) — arba skriskite padedami stebėtojo, visą laiką palaikydami aiškų ir veiksmingą tarpusavio ryšį, kad kartu galėtumėte stebėti oro erdvę ir išvengti susidūrimų. „Follow-me“ režimas yra atskira išimtis, leidžiama iki 50 m nuo nuotolinio piloto.",
       "Neskriskite virš žmonių susibūrimų. Neįtrauktiems asmenims taikomos taisyklės priklauso nuo subkategorijos, klasės žymos ir eksploatavimo sąlygų; patikrinkite oficialią lentelę.",
-      "Mažiausias 5 km atstumas nuo bet kurio oro uosto ar aerodromo — tačiau kontrolės zonoje (CTR) būtinas išankstinis skrydžių valdymo bokšto leidimas",
-      "Pagal EASA atvirosios kategorijos bazinius reikalavimus naktinis skrydis leidžiamas, jei naudojamas privalomas žalias mirksintis žibintas, išskyrus atvejus, kai galiojančios geografinės zonos ar nacionalinės taisyklės numato griežtesnes sąlygas.",
+      "Vieno visoje ES taikomo atstumo nuo oro uostų nėra. Ribojimai netoli oro uostų skelbiami kaip geografinės zonos (15 straipsnis), kurių forma ir dydis kiekviename oro uoste skiriasi. Prieš skrisdami netoli oro uosto, aerodromo ar sraigtasparnių aikštelės, patikrinkite savo šalies oficialų dronų zonų žemėlapį; skrydžiui kontroliuojamojoje zonoje (CTR) paprastai reikia išankstinio skrydžių valdymo tarnybos leidimo.",
+      "Prancūzijoje atvirojoje kategorijoje skristi naktį draudžiama, net jei orlaivyje įrengti žibintai (DSAC vadovas „Catégorie Ouverte“, §7). Draudimas taikomas „aeronautinei nakčiai“: žemyninėje Prancūzijoje ji prasideda praėjus 30 minučių po saulėlydžio ir baigiasi likus 30 minučių iki saulėtekio. Išimtis gali suteikti teritoriškai kompetentingas prefektas, jų reikia prašyti ne vėliau kaip likus 30 dienų iki skrydžių; išimtys taip pat taikomos kai kurioms paskelbtoms aviamodelių aikštelėms.",
       "Specialioji kategorija: Europos scenarijai STS-01 ir STS-02 pakeičia ankstesnius Prancūzijos scenarijus S-1, S-2 ir S-3 (nebegalioja nuo 2026 m.)",
-      "Nacionaliniai parkai ir gamtos rezervatai: dronų naudojimas draudžiamas be prefektūros leidimo"
+      "Nacionaliniai parkai ir gamtos rezervatai: parkai ir rezervatai, virš kurių skraidyti negalima, skelbiami aeronautinėje informacijoje (AIP ENR 5.7.3) ir rodomi Géoportail žemėlapyje. Nacionalinio parko branduolio zonoje skristi žemiau nei 1 000 m aukštyje virš žemės draudžiama pagal kiekvieno parko taisykles, o dėl bet kokios išimties sprendžia parko direktorius — ne prefektūra ar skrydžių valdymo tarnyba (Code de l'environnement, art. L331-4-1). Už šių parkų ir rezervatų ribų skrydžiai virš kitų saugomų teritorijų (Espaces Naturels Sensibles, Natura 2000 teritorijų ir kt.) paprastai nedraudžiami; jie gali būti laikinai uždrausti prefekto įsakymu."
     ],
     "importantNotes": [
       "AlphaTango registracija nemokama ir galioja visose ES/EASA šalyse",
-      "Paris turi vieną griežčiausių neskraidymo zonų Europoje — praktiškai pramoginiai skrydžiai neįmanomi",
+      "Paryžius: visi skrydžiai lauke draudžiami, net privačioje valdoje — Paryžius yra ir užstatyta teritorija, ir „draudžiamoji“ oro erdvė (zona P 23)",
       "Baudos iki 75 000 € ir vieni metai laisvės atėmimo už sunkius pažeidimus",
       "Skrydis virš branduolinių objektų, karinių zonų ir kalėjimų yra nusikalstama veika",
       "Fiksuojant atpažįstamus vaizdus taikomas GDPR — už duomenų tvarkymą atsakote jūs"
@@ -36,8 +38,8 @@
         "description": "Nemokama registracija kaip UAS operatorius (galioja 5 metus, pripažįstama visose ES/EASA šalyse)"
       },
       {
-        "title": "Géoportail — Dronų ribojimų žemėlapis",
-        "description": "Oficialus žemėlapis, rodantis draudžiamąsias skrydžių zonas, ribojamas teritorijas ir didžiausią leistiną aukštį"
+        "title": "cartes.gouv.fr — Atvirosios kategorijos UAS ir aviamodelių ribojimai",
+        "description": "Oficialus DGAC žemėlapis ir duomenys: neskraidymo zonos, ribojamosios zonos ir didžiausi leidžiami aukščiai"
       },
       {
         "title": "Dronų skraidymo taisyklės — Service-Public.fr",

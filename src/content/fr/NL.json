@@ -1,28 +1,29 @@
 {
   "meta": {
-    "sourceHash": "3f93b288335a64961197959526986fa369f18ef2ac4a0d684c859af0aa2a4931",
-    "engine": "gpt-5.6",
-    "translatedAt": "2026-07-26",
+    "sourceHash": "3c54b50d3e51926a9a7b9c89db124d744240fd7e158e4869e88669a6d03744df",
+    "engine": "opus-5-5",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
-      "Jusqu'à 120 m au-dessus du sol (catégorie ouverte EASA)",
-      "Enregistrez-vous comme exploitant d'UAS auprès du RDW (frais uniques de 23 € + 13 €/an de renouvellement) si le drone pèse 250 g ou plus ou est équipé d'une caméra",
-      "La formation en ligne A1/A3 est obligatoire — âge minimum 16 ans",
-      "La CTR de 14 km autour de Schiphol couvre la majeure partie d'Amsterdam — consultez la carte officielle de l'espace aérien",
-      "Gardez toujours une vue directe (VLOS) sur le drone",
+      "Dans la catégorie ouverte, la hauteur maximale est de 120 m, mesurée comme la distance jusqu'au point le plus proche de la surface terrestre — et pas simplement à la verticale : près d'une pente, le sol à côté de vous peut donc aussi compter. À moins de 50 m d'un obstacle artificiel élevé (plus de 105 m), le responsable de l'obstacle peut demander l'autorisation de voler jusqu'à 15 m au-dessus de la hauteur de l'obstacle.",
+      "Vous devez vous enregistrer comme exploitant de drone si votre drone pèse 250 g ou plus (ou peut transmettre plus de 80 J d'énergie cinétique en cas de collision) — cela vaut aussi pour les jouets. En dessous de 250 g, l'enregistrement reste requis si le drone est équipé d'un capteur capable de capter des données personnelles, sauf s'il est considéré comme un jouet au sens de la directive européenne relative à la sécurité des jouets. Les exigences de formation/de certificat du pilote sont réglementées séparément et dépendent de la classe et de la sous-catégorie du drone.",
+      "Aux Pays-Bas, l'âge minimum pour le certificat A1/A3 est de 16 ans. Si vous êtes plus jeune, un observateur (titulaire d'un certificat valide) doit garder le drone en vue à tout moment et rester en contact avec vous.",
+      "La zone interdite autour de Schiphol couvre la majeure partie d'Amsterdam et de ses environs — consultez la carte officielle avant chaque vol au lieu de vous fier à une distance fixe.",
+      "Dans la catégorie ouverte, vous devez garder le drone dans votre propre champ de vision, à l'œil nu (lunettes/lentilles de contact autorisées ; les jumelles ou un écran ne comptent pas) — ou voler avec l'aide d'un observateur, en maintenant à tout moment une communication claire et efficace entre vous, afin de surveiller ensemble l'espace aérien et d'éviter les collisions. Le mode Follow-me est une exception distincte, autorisée jusqu'à 50 m du pilote.",
       "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
-      "Une distance minimale de 3 km des petits aéroports, avec une zone tampon plus large autour de Schiphol",
-      "Les vols de nuit sont autorisés dans le cadre des exigences de base de l'EASA pour la catégorie ouverte lorsque le feu vert clignotant requis est utilisé, sauf si une zone géographique en vigueur ou une règle nationale impose une condition plus stricte.",
-      "Zones naturelles (Natura 2000) : restrictions pendant la période de reproduction",
-      "Zones urbaines densément peuplées de la Randstad : vérifiez la réglementation municipale locale"
+      "Les restrictions autour des aéroports sont publiées sous forme de zones d'interdiction de vol sur la carte officielle des drones ; une vaste zone tampon s'applique autour de Schiphol. Consultez la carte avant de voler près d'un aéroport — il n'existe pas de distance fixe unique applicable partout.",
+      "Aux Pays-Bas, vous ne pouvez pas voler de nuit dans la catégorie ouverte. Les vols sont limités à la période de jour uniforme (Uniforme Daglicht Periode, UDP), qui va du lever au coucher du soleil. Une dérogation pour voler en dehors de l'UDP ne peut être demandée à l'ILT que pour des vols dans la catégorie spécifique — cette possibilité n'existe pas pour la catégorie ouverte.",
+      "Espaces naturels (Natura 2000) : des restrictions pour les drones s'appliquent dans certaines zones — elles sont fixées par la province ou le gestionnaire du site, et non selon une saison fixe. Vérifiez les règles provinciales et les informations de zone sur la carte avant le vol.",
+      "Zones urbaines densément peuplées de la Randstad : vérifiez la réglementation municipale locale",
+      "Distance par rapport aux routes, aux voies ferrées et au réseau à haute tension (Regeling onbemande luchtvaartuigen art. 6 et 8, catégorie ouverte) : pas à moins de 50 m (A1/A2) ou 150 m (A3) des autoroutes, des voies express et des routes limitées à 80 km/h en service ; pas à moins de 25 m (A1/A2) ou 150 m (A3) des voies ferrées ; et pas à moins de 150 m des objets ou zones faisant partie du réseau de transport d'électricité (le réseau à haute tension)."
     ],
     "importantNotes": [
-      "La CTR de 14 km autour de Schiphol interdit de fait les vols de drones au-dessus de la majeure partie d'Amsterdam",
+      "Une vaste zone interdite s'applique autour de Schiphol, couvrant la majeure partie d'Amsterdam et des zones de loisirs environnantes ; consultez la carte officielle avant chaque vol au lieu de vous fier à une distance fixe.",
       "L'enregistrement via le RDW coûte des frais uniques de 23 € plus des frais de renouvellement annuels de 13 € (à partir de 2025) — valable dans tous les pays de l'UE/EASA",
-      "Amendes pouvant atteindre 11 250 € en cas d'infraction",
-      "Zones militaires (Leeuwarden, Eindhoven, Volkel) : interdiction absolue de vol",
+      "Les infractions peuvent entraîner de lourdes amendes, la confiscation du drone et, en cas de récidive, même des poursuites pénales — les montants varient selon l'infraction.",
+      "Aéroports militaires de Leeuwarden, Eindhoven et Volkel (CTR) : les vols dans la catégorie ouverte y sont interdits ; les vols dans la catégorie spécifique nécessitent un privilège sur l'autorisation d'exploitation (texte de zone de l'IenW, Regeling onbemande luchtvaartuigen art. 7).",
       "Le RGPD s'applique lors de la création d'images représentant des personnes identifiables"
     ],
     "primaryLinks": [
@@ -32,7 +33,7 @@
       },
       {
         "title": "RDW — S'enregistrer comme exploitant",
-        "description": "Enregistrement gratuit comme exploitant d'UAS (valable dans tous les pays de l'UE/EASA)"
+        "description": "Enregistrement comme exploitant d'UAS : 23 € une seule fois, puis 13 € par an lors du renouvellement (numéro d'exploitant valable 1 an ; valable dans tous les pays de l'UE/EASA)"
       },
       {
         "title": "ILT — Aperçu des règles",
