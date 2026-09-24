@@ -1,21 +1,21 @@
 {
   "meta": {
-    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "sourceHash": "598648bf9ad976b71f062fbc74df23827f04c0f7b71a9b0e59c8661198aefd38",
     "engine": "opus-5-5",
-    "translatedAt": "2026-09-23",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maksimal flyhøyde er 120 m (400 ft) over bakken.",
-      "Droner («Small») opptil 25 kg krever ikke registrering hos DINACIA for fritidsbruk — de kan fly fritt opptil 120 m, unntatt i flyplassoner.",
+      "Droner («Small») opptil 25 kg som utelukkende brukes til fritidsformål, krever verken registrering, luftdyktighetsbevis eller operatørtillatelse fra DINACIA — men de må ikke fly høyere enn 120 m, og heller ikke fly i kontrollert luftrom eller i en trafikksone ved flyplass uten ATM-autorisasjon.",
       "I Montevideo har DINACIA utpekt 4 soner for fritidsflyging med Small-droner (opptil 25 kg), i avgrensede sektorer av: Parque Baroffio (nordre del), Parque Marcos Sastre (nær Ruta 8), Parque Miguelete (strekningen mellom Silva og Bvar. Aparicio Saravia) og Parque Tomkinson (unntatt området til babyfotballklubben). Maksimal høyde i disse sonene: 30 m over bakken (DINACIA Res. 093/2019, AIP ENR 5.5).",
       "Droner fra 25 til 260 kg («Medium») må registreres hos DINACIA og få et identifikasjonsnummer som er synlig på fartøyet.",
       "Piloten må til enhver tid holde dronen innenfor direkte synsvidde.",
       "Flyging over tettbygde områder (byer, tettsteder, boligstrøk) er ikke tillatt uten uttrykkelig autorisasjon fra luftfartsmyndigheten.",
       "Unngå flyplasser, flystriper og kontrollert luftrom (CTR) med mindre det er gitt uttrykkelig autorisasjon.",
       "En rimelig avstand fra personer og bygninger som ikke er involvert (anbefalt: 30 m)",
-      "Flyging kun tillatt om dagen — nattflyging krever spesifikk tillatelse",
+      "Fly alltid under visuelle meteorologiske forhold (VMC); det anbefales å fly bare på dagtid.",
       "Kommersiell bruk krever obligatorisk ansvarsforsikring eller luftfartsforsikring, i tillegg til den tilsvarende tillatelsen fra DINACIA.",
       "Operasjoner som krever uttrykkelig autorisasjon (over befolkede områder eller folkeansamlinger, i flyplassoner, i forbudte områder eller restriksjonsområder, eller for kommersiell bruk): søk hos DINACIA via UTM-plattformen (utm.dinacia.gub.uy)."
     ],
@@ -33,15 +33,15 @@
       },
       {
         "title": "UTM DINACIA — Plattform for registrering og tillatelse",
-        "description": "DINACIAs offisielle UTM-plattform (Unmanned Traffic Management) for registrering av droner (≥25 kg) og innsending av søknader om driftstillatelse. Krever registrert bruker"
+        "description": "DINACIAs offisielle UTM-plattform (Unmanned Traffic Management) for registrering av droner og innsending av søknader om driftstillatelse; den må alltid brukes ved flyging i kommersielt øyemed. Krever registrert bruker"
       },
       {
         "title": "DINACIA — Utstedelse av DAOD-tillatelse",
         "description": "DINACIA-rundskriv (CA.UY.PEL.07.02) med kravene for DAOD Operator Permit. Obligatorisk for droner over 25 kg og for all betalt bruk."
       },
       {
-        "title": "DINACIA — LAR 61 pilotsertifikater",
-        "description": "LAR 61 (pilotsertifikater og rettigheter) — regelverk som gjelder for luftfartsdrift, inkludert RPAS"
+        "title": "DINACIA — Soner for fritidsflyging med droner (Res. 093/2019)",
+        "description": "DINACIA-resolusjon 093/2019: soner i Montevideo utpekt for fritidsbruk av droner, i en høyde på ikke mer enn 30 meter over bakken"
       }
     ],
     "secondaryLinks": [
@@ -50,15 +50,15 @@
         "description": "Hovednettsted for det nasjonale direktoratet for sivil luftfart og luftfartsinfrastruktur. Tilgang til prosedyrer, regelverk og luftfartstjenester"
       },
       {
-        "title": "Prosedyre: Luftfartssertifikater (gub.uy)",
-        "description": "Offisiell prosedyre på gub.uy for utstedelse og godkjenning av luftfartssertifikater — inkludert fjernpiloter for profesjonell dronebruk"
+        "title": "Prosedyre: DAOD Operator Permit (gub.uy)",
+        "description": "Offisiell prosedyre på gub.uy for utstedelse av Remote Device Operator Permit (DAOD), som kan startes på nett."
       },
       {
         "title": "AUD — Uruguays droneforening",
         "description": "Uruguays droneforening: et fellesskap av piloter, undervisningsressurser og oppdateringer om regelverk som gjelder for operatører i Uruguay"
       }
     ],
-    "disclaimerText": "Sjekk alltid DINACIAs offisielle kilder før du flyr. Denne appen er et verktøy, ikke en juridisk myndighet. Uruguay håndhever DINACIA-resolusjon 291/2014 og de uruguayanske luftfartsbestemmelsene (RAU). Droner som veier mindre enn 25 kg krever ikke registrering; alle andre gjør det.",
+    "disclaimerText": "Sjekk alltid DINACIAs offisielle kilder før du flyr. Denne appen er et verktøy, ikke en juridisk myndighet. Uruguay håndhever DINACIA-resolusjon 291/2014 og de uruguayanske luftfartsbestemmelsene (RAU). Droner opptil 25 kg som utelukkende brukes til fritidsformål, krever ikke registrering; droner som brukes kommersielt, og droner over 25 kg, krever det.",
     "sectionLabelRules": "VIKTIGE REGLER",
     "sectionLabelPrimary": "OFFISIELLE KILDER",
     "sectionLabelSecondary": "TILLEGGSRESSURSER",

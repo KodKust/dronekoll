@@ -1,21 +1,21 @@
 {
   "meta": {
-    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "sourceHash": "598648bf9ad976b71f062fbc74df23827f04c0f7b71a9b0e59c8661198aefd38",
     "engine": "opus-5-5",
-    "translatedAt": "2026-09-23",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Azami uçuş irtifası yerden 120 m'dir (400 ft).",
-      "25 kg'a kadar dronlar ('Small') hobi amaçlı kullanım için DINACIA kaydı gerektirmez — havalimanı bölgeleri dışında 120 m'ye kadar serbestçe uçabilirler.",
+      "Yalnızca hobi amaçlı kullanılan 25 kg'a kadar dronlar ('Small') DINACIA'dan kayıt, uçuşa elverişlilik sertifikası veya operatör izni gerektirmez — ancak 120 m'nin üzerinde uçamaz, ATM izni olmadan kontrollü hava sahasında veya bir hava meydanı trafik bölgesinde de uçamazlar.",
       "Montevideo'da DINACIA, Small dronlar (25 kg'a kadar) için şu parkların belirlenmiş sektörlerinde 4 hobi uçuş bölgesi belirlemiştir: Parque Baroffio (kuzey bölümü), Parque Marcos Sastre (Ruta 8 yakını), Parque Miguelete (Silva ile Bvar. Aparicio Saravia arasındaki kesim) ve Parque Tomkinson (bebek futbolu kulübü alanı hariç). Bu bölgelerde azami irtifa: yerden 30 m (DINACIA Res. 093/2019, AIP ENR 5.5).",
       "25 ile 260 kg arasındaki dronlar ('Medium') DINACIA'ya kaydettirilmeli ve cihaz üzerinde görünür bir kimlik numarası almalıdır.",
       "Pilot dronu her zaman doğrudan görüş hattı içinde tutmalıdır.",
       "Havacılık otoritesinin açık izni olmadan yoğun nüfuslu alanların (şehirler, kasabalar, mahalleler) üzerinden uçmaya izin verilmez.",
       "Açıkça izin verilmedikçe havalimanlarından, hava meydanlarından ve kontrollü hava sahasından (CTR) kaçının.",
       "Operasyona dahil olmayan kişilerden ve binalardan makul bir mesafe bırakın (önerilen: 30 m)",
-      "Uçuşa yalnızca gündüz izin verilir — gece uçuşları özel izin gerektirir",
+      "Her zaman görsel meteorolojik koşullarda (VMC) uçun; yalnızca gündüz uçulması önerilir.",
       "Ticari kullanım, ilgili DINACIA iznine ek olarak zorunlu hukuki sorumluluk veya havacılık sigortası gerektirir.",
       "Açık izin gerektiren operasyonlar (yerleşim alanları veya insan toplulukları üzerinde, havalimanı bölgelerinde, yasak veya kısıtlı sahalarda ya da ticari kullanım için): UTM platformu (utm.dinacia.gub.uy) üzerinden DINACIA'ya başvurun."
     ],
@@ -33,15 +33,15 @@
       },
       {
         "title": "UTM DINACIA — Kayıt ve İzin Platformu",
-        "description": "DINACIA'nın dronları (≥25 kg) kaydetmek ve operasyon izni başvurusu yapmak için resmî UTM (İnsansız Trafik Yönetimi) platformu. Kayıtlı bir kullanıcı gerektirir"
+        "description": "DINACIA'nın dronları kaydetmek ve operasyon izni başvurusu yapmak için resmî UTM (İnsansız Trafik Yönetimi) platformu; ticari amaçlı uçuşlarda her zaman kullanılmalıdır. Kayıtlı bir kullanıcı gerektirir"
       },
       {
         "title": "DINACIA — DAOD İzninin Verilmesi",
         "description": "DAOD Operatör İzni gerekliliklerini içeren DINACIA genelgesi (CA.UY.PEL.07.02). 25 kg'ın üzerindeki dronlar ve tüm ücretli kullanımlar için zorunludur."
       },
       {
-        "title": "DINACIA — LAR 61 Pilot Lisansları",
-        "description": "LAR 61 (Pilot Lisansları ve Yetkileri) — RPAS dahil havacılık operasyonlarına uygulanan mevzuat"
+        "title": "DINACIA — Hobi Amaçlı Dron Uçuş Bölgeleri (Res. 093/2019)",
+        "description": "DINACIA Resolution 093/2019: Montevideo'da yerden en fazla 30 metre yükseklikte hobi amaçlı dron kullanımı için belirlenmiş bölgeler"
       }
     ],
     "secondaryLinks": [
@@ -50,15 +50,15 @@
         "description": "Ulusal Sivil Havacılık ve Havacılık Altyapısı Müdürlüğü'nün ana web sitesi. İşlemlere, mevzuata ve havacılık hizmetlerine erişim"
       },
       {
-        "title": "İşlem: Havacılık Lisansları (gub.uy)",
-        "description": "gub.uy'da havacılık lisanslarının verilmesi ve yetkilendirilmesine ilişkin resmî işlem — profesyonel dron kullanımı için uzaktan pilotlar dahil"
+        "title": "İşlem: DAOD Operatör İzni (gub.uy)",
+        "description": "Uzaktan Cihaz Operatör İzni'nin (DAOD) verilmesine ilişkin, çevrim içi olarak başlatılabilen gub.uy üzerindeki resmî işlem."
       },
       {
         "title": "AUD — Uruguay Dron Derneği",
         "description": "Uruguay Dron Derneği: pilotlar topluluğu, eğitim kaynakları ve Uruguay'daki operatörlere uygulanan mevzuattaki güncellemeler"
       }
     ],
-    "disclaimerText": "Uçmadan önce her zaman DINACIA'nın resmî kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Uruguay, DINACIA Resolution 291/2014 ve Uruguayan Aeronautical Regulations (RAU) hükümlerini uygular. 25 kg'dan hafif dronlar için kayıt gerekmez; diğer tüm dronlar için gerekir.",
+    "disclaimerText": "Uçmadan önce her zaman DINACIA'nın resmî kaynaklarını kontrol edin. Bu uygulama bir araçtır, yasal bir merci değildir. Uruguay, DINACIA Resolution 291/2014 ve Uruguayan Aeronautical Regulations (RAU) hükümlerini uygular. Yalnızca hobi amaçlı kullanılan 25 kg'a kadar dronlar kayıt gerektirmez; ticari amaçla kullanılanlar ve 25 kg'ın üzerindekiler kayıt gerektirir.",
     "sectionLabelRules": "TEMEL KURALLAR",
     "sectionLabelPrimary": "RESMÎ KAYNAKLAR",
     "sectionLabelSecondary": "EK KAYNAKLAR",

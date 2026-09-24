@@ -1,21 +1,21 @@
 {
   "meta": {
-    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "sourceHash": "598648bf9ad976b71f062fbc74df23827f04c0f7b71a9b0e59c8661198aefd38",
     "engine": "opus-5-5",
-    "translatedAt": "2026-09-23",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Suurin lentokorkeus on 120 m (400 ft) maanpinnasta.",
-      "Enintään 25 kg:n dronet ('Small') eivät vaadi DINACIA-rekisteröintiä virkistyskäyttöön — ne saavat lentää vapaasti 120 m:iin asti, paitsi lentopaikkavyöhykkeillä.",
+      "Yksinomaan virkistyskäytössä olevat enintään 25 kg:n dronet ('Small') eivät tarvitse DINACIAn rekisteröintiä, lentokelpoisuustodistusta eikä käyttäjälupaa — mutta niillä ei saa lentää yli 120 m:n korkeudella eikä valvotussa ilmatilassa tai lentopaikan liikennevyöhykkeellä ilman ATM-lupaa.",
       "Montevideossa DINACIA on osoittanut Small-droneille (enintään 25 kg) 4 virkistyslentoaluetta seuraavien puistojen määritellyillä osilla: Parque Baroffio (pohjoinen alue), Parque Marcos Sastre (lähellä Ruta 8:aa), Parque Miguelete (Silvan ja Bvar. Aparicio Saravian välinen osuus) ja Parque Tomkinson (paitsi lasten jalkapalloseuran alue). Enimmäiskorkeus näillä alueilla: 30 m maanpinnasta (DINACIA Res. 093/2019, AIP ENR 5.5).",
       "25–260 kg:n dronet ('Medium') on rekisteröitävä DINACIAlle, ja ne saavat tunnistenumeron, jonka on oltava näkyvissä laitteessa.",
       "Lentäjän on pidettävä drone koko ajan suorassa näköyhteydessä.",
       "Tiheästi asuttujen alueiden (kaupungit, taajamat, asuinalueet) yllä lentäminen ei ole sallittua ilman ilmailuviranomaisen nimenomaista lupaa.",
       "Vältä lentoasemia, lentopaikkoja ja valvottua ilmatilaa (CTR), ellei sinulla ole nimenomaista lupaa.",
       "Pidä kohtuullinen etäisyys ulkopuolisista ihmisistä ja rakennuksista (suositus: 30 m)",
-      "Lennättäminen sallittu vain päivällä — yölennot edellyttävät erillistä lupaa",
+      "Lennätä aina näkösääolosuhteissa (VMC); on suositeltavaa lentää vain päiväsaikaan.",
       "Kaupallinen käyttö edellyttää pakollista vastuu- tai ilmailuvakuutusta sekä vastaavaa DINACIAn lupaa.",
       "Nimenomaista lupaa vaativat toiminnot (asuttujen alueiden tai ihmisjoukkojen yllä, lentopaikkavyöhykkeillä, kielto- tai rajoitusalueilla tai kaupallisessa käytössä): hae lupaa DINACIAlta UTM-alustan kautta (utm.dinacia.gub.uy)."
     ],
@@ -33,15 +33,15 @@
       },
       {
         "title": "UTM DINACIA — Rekisteröinti- ja lupa-alusta",
-        "description": "DINACIAn virallinen UTM-alusta (miehittämättömän liikenteen hallinta) dronejen (≥25 kg) rekisteröintiin ja toimintalupahakemusten jättämiseen. Vaatii rekisteröidyn käyttäjän"
+        "description": "DINACIAn virallinen UTM-alusta (miehittämättömän liikenteen hallinta) dronejen rekisteröintiin ja toimintalupahakemusten jättämiseen; sitä on aina käytettävä kaupallisissa lennoissa. Vaatii rekisteröidyn käyttäjän"
       },
       {
         "title": "DINACIA — DAOD-luvan myöntäminen",
         "description": "DINACIAn kiertokirje (CA.UY.PEL.07.02), jossa esitetään DAOD-käyttäjäluvan vaatimukset. Pakollinen yli 25 kg:n droneille ja kaikkeen maksulliseen käyttöön."
       },
       {
-        "title": "DINACIA — LAR 61 -lentäjän lupakirjat",
-        "description": "LAR 61 (lentäjän lupakirjat ja kelpuutukset) — ilmailutoimintaan sovellettavat määräykset, mukaan lukien RPAS"
+        "title": "DINACIA — Dronejen virkistyslentoalueet (Res. 093/2019)",
+        "description": "DINACIAn päätös 093/2019: Montevideoon osoitetut alueet dronejen virkistyskäyttöön enintään 30 metrin korkeudella maanpinnasta"
       }
     ],
     "secondaryLinks": [
@@ -50,15 +50,15 @@
         "description": "Siviili-ilmailun ja ilmailun infrastruktuurin kansallisen viraston pääsivusto. Pääsy menettelyihin, määräyksiin ja ilmailupalveluihin"
       },
       {
-        "title": "Menettely: Ilmailulupakirjat (gub.uy)",
-        "description": "Virallinen menettely gub.uy-sivustolla ilmailulupakirjojen myöntämiseen ja hyväksymiseen — mukaan lukien kaukolentäjät dronejen ammattikäyttöön"
+        "title": "Menettely: DAOD-käyttäjälupa (gub.uy)",
+        "description": "Virallinen menettely gub.uy-sivustolla kauko-ohjattavan laitteen käyttäjäluvan (DAOD) myöntämiseksi; menettelyn voi aloittaa verkossa."
       },
       {
         "title": "AUD — Uruguayn droneyhdistys",
         "description": "Uruguayn droneyhdistys: lentäjien yhteisö, koulutusresurssit ja päivitykset Uruguayn käyttäjiin sovellettavista määräyksistä"
       }
     ],
-    "disclaimerText": "Tarkista aina DINACIAn viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Uruguayssa on voimassa DINACIAn päätös 291/2014 ja Uruguayn ilmailumääräykset (RAU). Alle 25 kg painavia droneja ei tarvitse rekisteröidä; kaikki muut on rekisteröitävä.",
+    "disclaimerText": "Tarkista aina DINACIAn viralliset lähteet ennen lennättämistä. Tämä sovellus on työkalu, ei oikeudellinen viranomainen. Uruguayssa on voimassa DINACIAn päätös 291/2014 ja Uruguayn ilmailumääräykset (RAU). Yksinomaan virkistyskäytössä olevia enintään 25 kg:n droneja ei tarvitse rekisteröidä; kaupallisessa käytössä olevat ja yli 25 kg:n dronet on rekisteröitävä.",
     "sectionLabelRules": "TÄRKEIMMÄT SÄÄNNÖT",
     "sectionLabelPrimary": "VIRALLISET LÄHTEET",
     "sectionLabelSecondary": "LISÄRESURSSIT",

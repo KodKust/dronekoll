@@ -1,22 +1,22 @@
 {
   "meta": {
-    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
-    "sourceCountriesVersion": 254,
+    "sourceHash": "598648bf9ad976b71f062fbc74df23827f04c0f7b71a9b0e59c8661198aefd38",
+    "sourceCountriesVersion": 257,
     "sourceLastVerified": "2026-05-04",
-    "translatedAt": "2026-09-23",
+    "translatedAt": "2026-09-24",
     "engine": "opus-5-5"
   },
   "fields": {
     "keyRules": [
       "Maximum flight altitude is 120 m (400 ft) above ground level.",
-      "Drones ('Small') up to 25 kg do not require DINACIA registration for recreational use — they may fly freely up to 120 m, except in aerodrome zones.",
+      "Drones ('Small') up to 25 kg used exclusively for recreation do not require registration, an airworthiness certificate or an operator permit from DINACIA — but they may not fly above 120 m, nor fly in controlled airspace or an aerodrome traffic zone without ATM authorization.",
       "In Montevideo, DINACIA has designated 4 recreational flying zones for Small drones (up to 25 kg), in defined sectors of: Parque Baroffio (northern area), Parque Marcos Sastre (near Ruta 8), Parque Miguelete (stretch between Silva and Bvar. Aparicio Saravia) and Parque Tomkinson (except the baby football club area). Maximum altitude in these zones: 30 m above ground (DINACIA Res. 093/2019, AIP ENR 5.5).",
       "Drones from 25 to 260 kg ('Medium') must be registered with DINACIA and receive an identification number visible on the device.",
       "The pilot must keep the drone within direct line of sight at all times.",
       "Flying over densely populated areas (cities, towns, neighborhoods) is not permitted without express authorization from the aeronautical authority.",
       "Avoid airports, airfields, and controlled airspace (CTR) unless expressly authorized.",
       "A reasonable distance from people and buildings not involved (recommended: 30 m)",
-      "Flight permitted only during the day — night flights require specific authorization",
+      "Always fly in visual meteorological conditions (VMC); flying only during daytime is recommended.",
       "Commercial use requires mandatory civil liability or aviation insurance, in addition to the corresponding DINACIA permit.",
       "Operations requiring express authorization (over populated areas or gatherings of people, in aerodrome zones, in prohibited or restricted areas, or for commercial use): apply to DINACIA via the UTM platform (utm.dinacia.gub.uy)."
     ],
@@ -34,15 +34,15 @@
       },
       {
         "title": "UTM DINACIA — Registration and Authorization Platform",
-        "description": "DINACIA's official UTM (Unmanned Traffic Management) platform for registering drones (≥25 kg) and submitting applications for operating authorization. Requires a registered user"
+        "description": "DINACIA's official UTM (Unmanned Traffic Management) platform for registering drones and submitting applications for operating authorization; it must always be used when flying for commercial purposes. Requires a registered user"
       },
       {
         "title": "DINACIA — Issuance of DAOD Permit",
         "description": "DINACIA circular (CA.UY.PEL.07.02) with the requirements for the DAOD Operator Permit. Mandatory for drones over 25 kg and for all paid use."
       },
       {
-        "title": "DINACIA — LAR 61 Pilot Licenses",
-        "description": "LAR 61 (Pilot Licenses and Ratings) — regulations applicable to aviation operations, including RPAS"
+        "title": "DINACIA — Recreational Drone Flying Zones (Res. 093/2019)",
+        "description": "DINACIA Resolution 093/2019: zones designated in Montevideo for recreational drone use, at a height of no more than 30 meters above ground"
       }
     ],
     "secondaryLinks": [
@@ -51,15 +51,15 @@
         "description": "Main website of the National Directorate of Civil Aviation and Aeronautical Infrastructure. Access to procedures, regulations, and aeronautical services"
       },
       {
-        "title": "Procedure: Aviation Licenses (gub.uy)",
-        "description": "Official procedure on gub.uy for the issuance and authorization of aviation licenses — including remote pilots for professional drone use"
+        "title": "Procedure: DAOD Operator Permit (gub.uy)",
+        "description": "Official procedure on gub.uy for the issuance of the Remote Device Operator Permit (DAOD), which can be started online."
       },
       {
         "title": "AUD — Uruguayan Drone Association",
         "description": "Uruguayan Drone Association: a community of pilots, educational resources, and updates on regulations applicable to operators in Uruguay"
       }
     ],
-    "disclaimerText": "Always check DINACIA’s official sources before flying. This app is a tool, not a legal authority. Uruguay enforces DINACIA Resolution 291/2014 and the Uruguayan Aeronautical Regulations (RAU). Drones weighing less than 25 kg do not require registration; all others do.",
+    "disclaimerText": "Always check DINACIA’s official sources before flying. This app is a tool, not a legal authority. Uruguay enforces DINACIA Resolution 291/2014 and the Uruguayan Aeronautical Regulations (RAU). Drones up to 25 kg used exclusively for recreation do not require registration; those used commercially and those over 25 kg do.",
     "sectionLabelRules": "KEY RULES",
     "sectionLabelPrimary": "OFFICIAL SOURCES",
     "sectionLabelSecondary": "ADDITIONAL RESOURCES",

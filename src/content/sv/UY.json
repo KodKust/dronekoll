@@ -1,21 +1,21 @@
 {
   "meta": {
-    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "sourceHash": "598648bf9ad976b71f062fbc74df23827f04c0f7b71a9b0e59c8661198aefd38",
     "engine": "opus-5-5",
-    "translatedAt": "2026-09-23",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Högsta flyghöjd är 120 m (400 ft) över marken.",
-      "Drönare ('Small') upp till 25 kg kräver inte registrering hos DINACIA för nöjesbruk – de får flyga fritt upp till 120 m, utom i flygplatszoner.",
+      "Drönare ('Small') upp till 25 kg som enbart används för nöjesbruk kräver varken registrering, luftvärdighetsbevis eller operatörstillstånd från DINACIA – men de får inte flyga högre än 120 m, och inte heller i kontrollerat luftrum eller i en flygplats trafikzon utan ATM-tillstånd.",
       "I Montevideo har DINACIA utsett 4 zoner för fritidsflygning med Small-drönare (upp till 25 kg), i avgränsade sektorer av: Parque Baroffio (norra delen), Parque Marcos Sastre (nära Ruta 8), Parque Miguelete (sträckan mellan Silva och Bvar. Aparicio Saravia) och Parque Tomkinson (utom barnfotbollsklubbens område). Högsta höjd i dessa zoner: 30 m över marken (DINACIA Res. 093/2019, AIP ENR 5.5).",
       "Drönare från 25 till 260 kg ('Medium') måste registreras hos DINACIA och få ett identifieringsnummer som syns på farkosten.",
       "Piloten måste hela tiden hålla drönaren inom direkt synhåll.",
       "Flygning över tätbefolkade områden (städer, samhällen, bostadsområden) är inte tillåten utan uttryckligt tillstånd från luftfartsmyndigheten.",
       "Undvik flygplatser, flygfält och kontrollerat luftrum (CTR) om du inte har uttryckligt tillstånd.",
       "Ett rimligt avstånd till människor och byggnader som inte deltar (rekommendation: 30 m)",
-      "Flygning tillåten endast under dagtid – nattflygning kräver särskilt tillstånd",
+      "Flyg alltid under visuella meteorologiska förhållanden (VMC); det rekommenderas att bara flyga dagtid.",
       "Kommersiell användning kräver obligatorisk ansvarsförsäkring eller luftfartsförsäkring, utöver motsvarande tillstånd från DINACIA.",
       "Operationer som kräver uttryckligt tillstånd (över befolkade områden eller folksamlingar, i flygplatszoner, i förbjudna områden eller restriktionsområden, eller för kommersiell användning): ansök hos DINACIA via UTM-plattformen (utm.dinacia.gub.uy)."
     ],
@@ -33,15 +33,15 @@
       },
       {
         "title": "UTM DINACIA – Registrerings- och tillståndsplattform",
-        "description": "DINACIA:s officiella UTM-plattform (Unmanned Traffic Management) för att registrera drönare (≥25 kg) och ansöka om verksamhetstillstånd. Kräver en registrerad användare"
+        "description": "DINACIA:s officiella UTM-plattform (Unmanned Traffic Management) för att registrera drönare och ansöka om verksamhetstillstånd; den måste alltid användas vid kommersiell flygning. Kräver en registrerad användare"
       },
       {
         "title": "DINACIA – Utfärdande av DAOD-tillstånd",
         "description": "DINACIA-cirkulär (CA.UY.PEL.07.02) med kraven för DAOD-operatörstillstånd. Obligatoriskt för drönare över 25 kg och för all betald användning."
       },
       {
-        "title": "DINACIA – LAR 61 pilotlicenser",
-        "description": "LAR 61 (pilotlicenser och behörigheter) – föreskrifter som gäller luftfartsverksamhet, inklusive RPAS"
+        "title": "DINACIA – Zoner för fritidsflygning med drönare (Res. 093/2019)",
+        "description": "DINACIA:s resolution 093/2019: zoner som utsetts i Montevideo för fritidsflygning med drönare, på en höjd av högst 30 meter över marken"
       }
     ],
     "secondaryLinks": [
@@ -50,15 +50,15 @@
         "description": "Huvudwebbplats för den nationella myndigheten för civil luftfart och luftfartsinfrastruktur. Tillgång till ärenden, föreskrifter och luftfartstjänster"
       },
       {
-        "title": "Förfarande: Luftfartslicenser (gub.uy)",
-        "description": "Officiellt förfarande på gub.uy för utfärdande och godkännande av luftfartslicenser – inklusive fjärrpiloter för yrkesmässig drönaranvändning"
+        "title": "Ärende: DAOD-operatörstillstånd (gub.uy)",
+        "description": "Officiellt ärende på gub.uy för utfärdande av operatörstillståndet för fjärrstyrda enheter (DAOD), som kan påbörjas online."
       },
       {
         "title": "AUD – Uruguays drönarförening",
         "description": "Uruguays drönarförening: en gemenskap av piloter, utbildningsresurser och uppdateringar om föreskrifter som gäller operatörer i Uruguay"
       }
     ],
-    "disclaimerText": "Kontrollera alltid DINACIA:s officiella källor innan du flyger. Den här appen är ett verktyg, inte en juridisk auktoritet. Uruguay tillämpar DINACIA:s resolution 291/2014 och de uruguayanska luftfartsföreskrifterna (RAU). Drönare som väger under 25 kg kräver ingen registrering; alla andra gör det.",
+    "disclaimerText": "Kontrollera alltid DINACIA:s officiella källor innan du flyger. Den här appen är ett verktyg, inte en juridisk auktoritet. Uruguay tillämpar DINACIA:s resolution 291/2014 och de uruguayanska luftfartsföreskrifterna (RAU). Drönare upp till 25 kg som enbart används för nöjesbruk kräver ingen registrering; det gör däremot drönare som används kommersiellt och drönare över 25 kg.",
     "sectionLabelRules": "VIKTIGASTE REGLERNA",
     "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
     "sectionLabelSecondary": "YTTERLIGARE RESURSER",

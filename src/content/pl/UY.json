@@ -1,21 +1,21 @@
 {
   "meta": {
-    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "sourceHash": "598648bf9ad976b71f062fbc74df23827f04c0f7b71a9b0e59c8661198aefd38",
     "engine": "opus-5-5",
-    "translatedAt": "2026-09-23",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maksymalna wysokość lotu wynosi 120 m (400 ft) nad poziomem gruntu.",
-      "Drony („Small”) do 25 kg nie wymagają rejestracji w DINACIA do użytku rekreacyjnego — mogą swobodnie latać do 120 m, z wyjątkiem stref lotniskowych.",
+      "Drony („Small”) do 25 kg używane wyłącznie rekreacyjnie nie wymagają rejestracji, świadectwa zdatności do lotu ani zezwolenia operatora DINACIA — nie mogą jednak latać powyżej 120 m ani w przestrzeni kontrolowanej lub strefie ruchu lotniska bez zezwolenia ATM.",
       "W Montevideo DINACIA wyznaczyła 4 strefy lotów rekreacyjnych dla dronów Small (do 25 kg), w określonych sektorach: Parque Baroffio (część północna), Parque Marcos Sastre (w pobliżu Ruta 8), Parque Miguelete (odcinek między Silva a Bvar. Aparicio Saravia) i Parque Tomkinson (z wyjątkiem terenu dziecięcego klubu piłkarskiego). Maksymalna wysokość w tych strefach: 30 m nad ziemią (DINACIA Res. 093/2019, AIP ENR 5.5).",
       "Drony od 25 do 260 kg („Medium”) muszą zostać zarejestrowane w DINACIA i otrzymać numer identyfikacyjny widoczny na urządzeniu.",
       "Pilot musi przez cały czas utrzymywać drona w bezpośrednim zasięgu wzroku.",
       "Loty nad gęsto zaludnionymi obszarami (miastami, miejscowościami, osiedlami) nie są dozwolone bez wyraźnego zezwolenia władz lotniczych.",
       "Unikaj lotnisk, lądowisk i przestrzeni kontrolowanej (CTR), chyba że masz wyraźne zezwolenie.",
       "Zachowaj rozsądną odległość od osób postronnych i budynków niezwiązanych z operacją (zalecana: 30 m)",
-      "Lot dozwolony wyłącznie za dnia — loty nocne wymagają szczególnego zezwolenia",
+      "Zawsze lataj w warunkach meteorologicznych dla lotów z widocznością (VMC); zalecane są loty wyłącznie za dnia.",
       "Użytek komercyjny wymaga obowiązkowego ubezpieczenia od odpowiedzialności cywilnej lub ubezpieczenia lotniczego, oprócz odpowiedniego zezwolenia DINACIA.",
       "Operacje wymagające wyraźnego zezwolenia (nad obszarami zaludnionymi lub zgromadzeniami ludzi, w strefach lotniskowych, w strefach zakazanych lub ograniczonych albo do użytku komercyjnego): złóż wniosek do DINACIA przez platformę UTM (utm.dinacia.gub.uy)."
     ],
@@ -33,15 +33,15 @@
       },
       {
         "title": "UTM DINACIA — Platforma rejestracji i zezwoleń",
-        "description": "Oficjalna platforma UTM (Unmanned Traffic Management) DINACIA do rejestracji dronów (≥25 kg) oraz składania wniosków o zezwolenie operacyjne. Wymaga zarejestrowanego użytkownika"
+        "description": "Oficjalna platforma UTM (Unmanned Traffic Management) DINACIA do rejestracji dronów oraz składania wniosków o zezwolenie operacyjne; przy lotach w celach komercyjnych należy z niej zawsze korzystać. Wymaga zarejestrowanego użytkownika"
       },
       {
         "title": "DINACIA — Wydanie zezwolenia DAOD",
         "description": "Okólnik DINACIA (CA.UY.PEL.07.02) z wymaganiami dotyczącymi zezwolenia operatora DAOD. Obowiązkowe dla dronów powyżej 25 kg i każdego odpłatnego użytku."
       },
       {
-        "title": "DINACIA — Licencje pilotów LAR 61",
-        "description": "LAR 61 (licencje i uprawnienia pilotów) — przepisy mające zastosowanie do operacji lotniczych, w tym RPAS"
+        "title": "DINACIA — Strefy lotów rekreacyjnych dronami (Res. 093/2019)",
+        "description": "DINACIA Resolution 093/2019: strefy wyznaczone w Montevideo do rekreacyjnego użytkowania dronów, na wysokości nie większej niż 30 metrów nad ziemią"
       }
     ],
     "secondaryLinks": [
@@ -50,15 +50,15 @@
         "description": "Główna strona Krajowej Dyrekcji Lotnictwa Cywilnego i Infrastruktury Lotniczej. Dostęp do procedur, przepisów i usług lotniczych"
       },
       {
-        "title": "Procedura: Licencje lotnicze (gub.uy)",
-        "description": "Oficjalna procedura na gub.uy dotycząca wydawania i zatwierdzania licencji lotniczych — w tym pilotów zdalnych do zawodowego użytku dronów"
+        "title": "Procedura: zezwolenie operatora DAOD (gub.uy)",
+        "description": "Oficjalna procedura na gub.uy dotycząca wydania zezwolenia operatora urządzenia zdalnie sterowanego (DAOD), którą można rozpocząć online."
       },
       {
         "title": "AUD — Urugwajskie Stowarzyszenie Dronów",
         "description": "Urugwajskie Stowarzyszenie Dronów: społeczność pilotów, materiały edukacyjne oraz aktualizacje przepisów mających zastosowanie do operatorów w Urugwaju"
       }
     ],
-    "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła DINACIA. Ta aplikacja jest narzędziem, a nie organem prawnym. W Urugwaju obowiązują DINACIA Resolution 291/2014 oraz Uruguayan Aeronautical Regulations (RAU). Drony o masie poniżej 25 kg nie wymagają rejestracji; wszystkie pozostałe jej wymagają.",
+    "disclaimerText": "Przed lotem zawsze sprawdzaj oficjalne źródła DINACIA. Ta aplikacja jest narzędziem, a nie organem prawnym. W Urugwaju obowiązują DINACIA Resolution 291/2014 oraz Uruguayan Aeronautical Regulations (RAU). Drony do 25 kg używane wyłącznie rekreacyjnie nie wymagają rejestracji; drony używane komercyjnie oraz drony powyżej 25 kg jej wymagają.",
     "sectionLabelRules": "KLUCZOWE ZASADY",
     "sectionLabelPrimary": "ŹRÓDŁA OFICJALNE",
     "sectionLabelSecondary": "DODATKOWE MATERIAŁY",

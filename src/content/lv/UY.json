@@ -1,21 +1,21 @@
 {
   "meta": {
-    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "sourceHash": "598648bf9ad976b71f062fbc74df23827f04c0f7b71a9b0e59c8661198aefd38",
     "engine": "opus-5-5",
-    "translatedAt": "2026-09-23",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maksimālais lidojuma augstums ir 120 m (400 ft) virs zemes līmeņa.",
-      "Droniem ('Small') līdz 25 kg atpūtas lietošanai nav nepieciešama DINACIA reģistrācija — tie drīkst brīvi lidot līdz 120 m, izņemot lidlauku zonās.",
+      "Droniem ('Small') līdz 25 kg, kurus izmanto tikai atpūtai, nav nepieciešama reģistrācija, lidojumderīguma sertifikāts vai DINACIA operatora atļauja — taču tie nedrīkst lidot augstāk par 120 m, kā arī lidot kontrolētajā gaisa telpā vai lidlauka satiksmes zonā bez ATM atļaujas.",
       "Montevideo DINACIA ir noteikusi 4 atpūtas lidojumu zonas Small droniem (līdz 25 kg) noteiktos sektoros: Parque Baroffio (ziemeļu daļa), Parque Marcos Sastre (pie Ruta 8), Parque Miguelete (posms starp Silva un Bvar. Aparicio Saravia) un Parque Tomkinson (izņemot bērnu futbola kluba teritoriju). Maksimālais augstums šajās zonās: 30 m virs zemes (DINACIA Res. 093/2019, AIP ENR 5.5).",
       "Droni no 25 līdz 260 kg ('Medium') jāreģistrē DINACIA, un tiem jāsaņem identifikācijas numurs, kas redzams uz ierīces.",
       "Pilotam visu laiku jātur drons tiešā redzamības laukā.",
       "Lidot virs blīvi apdzīvotām teritorijām (pilsētām, ciemiem, apkaimēm) nav atļauts bez aviācijas iestādes skaidras atļaujas.",
       "Izvairies no lidostām, lidlaukiem un kontrolētās gaisa telpas (CTR), ja vien nav skaidras atļaujas.",
       "Ievēro saprātīgu attālumu no cilvēkiem, kuri nav iesaistīti lidojumā, un no ēkām (ieteicams: 30 m)",
-      "Lidojumi atļauti tikai dienā — nakts lidojumiem nepieciešama īpaša atļauja",
+      "Vienmēr lido vizuālajos meteoroloģiskajos apstākļos (VMC); ieteicams lidot tikai dienas laikā.",
       "Komerciālai lietošanai papildus attiecīgajai DINACIA atļaujai obligāti nepieciešama civiltiesiskās atbildības vai aviācijas apdrošināšana.",
       "Darbības, kurām nepieciešama skaidra atļauja (virs apdzīvotām teritorijām vai cilvēku pulcēšanās vietām, lidlauku zonās, aizliegtajās vai ierobežotajās zonās vai komerciālai lietošanai): piesakies DINACIA, izmantojot UTM platformu (utm.dinacia.gub.uy)."
     ],
@@ -33,15 +33,15 @@
       },
       {
         "title": "UTM DINACIA — Reģistrācijas un atļauju platforma",
-        "description": "DINACIA oficiālā UTM (bezpilota satiksmes pārvaldības) platforma dronu (≥25 kg) reģistrācijai un ekspluatācijas atļaujas pieteikumu iesniegšanai. Nepieciešams reģistrēts lietotājs"
+        "description": "DINACIA oficiālā UTM (bezpilota satiksmes pārvaldības) platforma dronu reģistrācijai un ekspluatācijas atļaujas pieteikumu iesniegšanai; tā vienmēr jāizmanto, lidojot komerciālos nolūkos. Nepieciešams reģistrēts lietotājs"
       },
       {
         "title": "DINACIA — DAOD atļaujas izsniegšana",
         "description": "DINACIA apkārtraksts (CA.UY.PEL.07.02) ar prasībām DAOD operatora atļaujai. Obligāta droniem virs 25 kg un jebkurai maksas lietošanai."
       },
       {
-        "title": "DINACIA — LAR 61 pilotu licences",
-        "description": "LAR 61 (pilotu licences un kvalifikācijas) — noteikumi, kas piemērojami aviācijas darbībai, tostarp RPAS"
+        "title": "DINACIA — Atpūtas lidojumu zonas droniem (Res. 093/2019)",
+        "description": "DINACIA Resolution 093/2019: Montevideo noteiktās zonas atpūtas dronu lietošanai augstumā, kas nepārsniedz 30 metrus virs zemes"
       }
     ],
     "secondaryLinks": [
@@ -50,15 +50,15 @@
         "description": "Nacionālā civilās aviācijas un aeronavigācijas infrastruktūras direktorāta galvenā vietne. Piekļuve procedūrām, noteikumiem un aeronavigācijas pakalpojumiem"
       },
       {
-        "title": "Procedūra: aviācijas licences (gub.uy)",
-        "description": "Oficiāla procedūra vietnē gub.uy aviācijas licenču izdošanai un apstiprināšanai — tostarp tālvadības pilotiem profesionālai dronu lietošanai"
+        "title": "Procedūra: DAOD operatora atļauja (gub.uy)",
+        "description": "Oficiālā procedūra gub.uy vietnē tālvadības ierīces operatora atļaujas (DAOD) izsniegšanai; to var uzsākt tiešsaistē."
       },
       {
         "title": "AUD — Urugvajas dronu asociācija",
         "description": "Urugvajas dronu asociācija: pilotu kopiena, izglītojoši resursi un jaunumi par Urugvajas operatoriem piemērojamo regulējumu"
       }
     ],
-    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi DINACIA oficiālos avotus. Šī lietotne ir rīks, nevis juridiska instance. Urugvajā spēkā ir DINACIA Resolution 291/2014 un Uruguayan Aeronautical Regulations (RAU). Droniem, kas sver mazāk par 25 kg, reģistrācija nav nepieciešama; visiem pārējiem tā ir nepieciešama.",
+    "disclaimerText": "Pirms lidošanas vienmēr pārbaudi DINACIA oficiālos avotus. Šī lietotne ir rīks, nevis juridiska instance. Urugvajā spēkā ir DINACIA Resolution 291/2014 un Uruguayan Aeronautical Regulations (RAU). Droniem līdz 25 kg, kurus izmanto tikai atpūtai, reģistrācija nav nepieciešama; droniem, kurus izmanto komerciāli, un droniem virs 25 kg tā ir nepieciešama.",
     "sectionLabelRules": "GALVENIE NOTEIKUMI",
     "sectionLabelPrimary": "OFICIĀLIE AVOTI",
     "sectionLabelSecondary": "PAPILDU RESURSI",

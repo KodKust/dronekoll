@@ -1,21 +1,21 @@
 {
   "meta": {
-    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "sourceHash": "598648bf9ad976b71f062fbc74df23827f04c0f7b71a9b0e59c8661198aefd38",
     "engine": "opus-5-5",
-    "translatedAt": "2026-09-23",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "De maximale vlieghoogte is 120 m (400 ft) boven de grond.",
-      "Drones ('Small') tot 25 kg vereisen geen DINACIA-registratie voor recreatief gebruik — ze mogen vrij vliegen tot 120 m, behalve in zones rond luchtvaartterreinen.",
+      "Drones ('Small') tot 25 kg die uitsluitend recreatief worden gebruikt, hebben geen registratie, luchtwaardigheidsbewijs of exploitantenvergunning van DINACIA nodig — maar ze mogen niet hoger dan 120 m vliegen, en ook niet in gecontroleerd luchtruim of de verkeerszone van een luchtvaartterrein zonder ATM-toestemming.",
       "In Montevideo heeft DINACIA 4 recreatieve vliegzones aangewezen voor Small-drones (tot 25 kg), in afgebakende sectoren van: Parque Baroffio (noordelijk deel), Parque Marcos Sastre (bij Ruta 8), Parque Miguelete (stuk tussen Silva en Bvar. Aparicio Saravia) en Parque Tomkinson (behalve het terrein van de babyvoetbalclub). Maximale hoogte in deze zones: 30 m boven de grond (DINACIA Res. 093/2019, AIP ENR 5.5).",
       "Drones van 25 tot 260 kg ('Medium') moeten bij DINACIA worden geregistreerd en krijgen een identificatienummer dat zichtbaar op het toestel staat.",
       "De piloot moet de drone te allen tijde binnen direct zicht houden.",
       "Vliegen boven dichtbevolkte gebieden (steden, dorpen, wijken) is niet toegestaan zonder uitdrukkelijke toestemming van de luchtvaartautoriteit.",
       "Vermijd luchthavens, vliegvelden en gecontroleerd luchtruim (CTR), tenzij daarvoor uitdrukkelijk toestemming is gegeven.",
       "Een redelijke afstand tot niet-betrokken personen en gebouwen (aanbevolen: 30 m)",
-      "Vliegen is alleen overdag toegestaan — nachtvluchten vereisen specifieke toestemming",
+      "Vlieg altijd in visuele meteorologische omstandigheden (VMC); het wordt aanbevolen alleen overdag te vliegen.",
       "Voor commercieel gebruik is een wettelijke aansprakelijkheids- of luchtvaartverzekering verplicht, naast de bijbehorende vergunning van DINACIA.",
       "Operaties waarvoor uitdrukkelijke toestemming nodig is (boven bewoonde gebieden of mensenmenigten, in zones rond luchtvaartterreinen, in verboden of beperkte gebieden, of voor commercieel gebruik): vraag deze aan bij DINACIA via het UTM-platform (utm.dinacia.gub.uy)."
     ],
@@ -33,15 +33,15 @@
       },
       {
         "title": "UTM DINACIA — Registratie- en toestemmingsplatform",
-        "description": "Het officiële UTM-platform (Unmanned Traffic Management) van DINACIA om drones (≥25 kg) te registreren en aanvragen voor operationele toestemming in te dienen. Vereist een geregistreerde gebruiker"
+        "description": "Het officiële UTM-platform (Unmanned Traffic Management) van DINACIA om drones te registreren en aanvragen voor operationele toestemming in te dienen; bij vluchten voor commerciële doeleinden moet het altijd worden gebruikt. Vereist een geregistreerde gebruiker"
       },
       {
         "title": "DINACIA — Afgifte van de DAOD-vergunning",
         "description": "Circulaire van DINACIA (CA.UY.PEL.07.02) met de vereisten voor de DAOD Operator Permit. Verplicht voor drones boven 25 kg en voor elk betaald gebruik."
       },
       {
-        "title": "DINACIA — LAR 61 pilotenlicenties",
-        "description": "LAR 61 (pilotenlicenties en bevoegdheden) — regelgeving die van toepassing is op luchtvaartoperaties, waaronder RPAS"
+        "title": "DINACIA — Recreatieve vliegzones voor drones (Res. 093/2019)",
+        "description": "DINACIA Resolution 093/2019: in Montevideo aangewezen zones voor recreatief dronegebruik, op een hoogte van niet meer dan 30 meter boven de grond"
       }
     ],
     "secondaryLinks": [
@@ -50,15 +50,15 @@
         "description": "Hoofdwebsite van het Nationaal Directoraat Burgerluchtvaart en Luchtvaartinfrastructuur. Toegang tot procedures, regelgeving en luchtvaartdiensten"
       },
       {
-        "title": "Procedure: luchtvaartlicenties (gub.uy)",
-        "description": "Officiële procedure op gub.uy voor de afgifte en toestemming van luchtvaartlicenties — waaronder piloten op afstand voor professioneel dronegebruik"
+        "title": "Procedure: DAOD-exploitantenvergunning (gub.uy)",
+        "description": "Officiële procedure op gub.uy voor de afgifte van de exploitantenvergunning voor op afstand bestuurde apparaten (DAOD), die online kan worden gestart."
       },
       {
         "title": "AUD — Uruguayaanse Drone-vereniging",
         "description": "Uruguayaanse Drone-vereniging: een gemeenschap van piloten, educatieve hulpmiddelen en updates over regelgeving die van toepassing is op exploitanten in Uruguay"
       }
     ],
-    "disclaimerText": "Raadpleeg altijd de officiële bronnen van DINACIA voordat je vliegt. Deze app is een hulpmiddel, geen juridische autoriteit. Uruguay handhaaft DINACIA Resolution 291/2014 en de Uruguayan Aeronautical Regulations (RAU). Drones die minder dan 25 kg wegen hoeven niet te worden geregistreerd; alle andere wel.",
+    "disclaimerText": "Raadpleeg altijd de officiële bronnen van DINACIA voordat je vliegt. Deze app is een hulpmiddel, geen juridische autoriteit. Uruguay handhaaft DINACIA Resolution 291/2014 en de Uruguayan Aeronautical Regulations (RAU). Drones tot 25 kg die uitsluitend recreatief worden gebruikt hoeven niet te worden geregistreerd; drones voor commercieel gebruik en drones boven 25 kg wel.",
     "sectionLabelRules": "BELANGRIJKSTE REGELS",
     "sectionLabelPrimary": "OFFICIËLE BRONNEN",
     "sectionLabelSecondary": "AANVULLENDE HULPBRONNEN",

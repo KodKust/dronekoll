@@ -1,21 +1,21 @@
 {
   "meta": {
-    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "sourceHash": "598648bf9ad976b71f062fbc74df23827f04c0f7b71a9b0e59c8661198aefd38",
     "engine": "opus-5-5",
-    "translatedAt": "2026-09-23",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "A maximális repülési magasság 120 m (400 ft) a talajszint felett.",
-      "A legfeljebb 25 kg-os („Kicsi”) drónokat szabadidős használat esetén nem kell regisztrálni a DINACIA-nál – szabadon repülhetnek 120 m-ig, a repülőtéri zónák kivételével.",
+      "A kizárólag szabadidős célra használt, legfeljebb 25 kg-os („Kicsi”) drónokhoz nem kell regisztráció, légialkalmassági bizonyítvány vagy üzemeltetői engedély a DINACIA-tól — de nem repülhetnek 120 m felett, és ATM-engedély nélkül ellenőrzött légtérben vagy repülőtéri forgalmi körzetben sem.",
       "Montevideóban a DINACIA 4 szabadidős repülési zónát jelölt ki a Kicsi drónok (legfeljebb 25 kg) számára, a következő parkok meghatározott részein: Parque Baroffio (északi terület), Parque Marcos Sastre (a Ruta 8 közelében), Parque Miguelete (a Silva és a Bvar. Aparicio Saravia közötti szakasz) és Parque Tomkinson (a gyermekfoci-klub területe kivételével). A maximális magasság ezekben a zónákban: 30 m a talaj felett (DINACIA Res. 093/2019, AIP ENR 5.5).",
       "A 25 és 260 kg közötti („Közepes”) drónokat regisztrálni kell a DINACIA-nál, és a gépen látható azonosító számot kapnak.",
       "A pilótának mindvégig közvetlen látótávolságon belül kell tartania a drónt.",
       "Sűrűn lakott területek (városok, települések, lakónegyedek) felett a légügyi hatóság kifejezett engedélye nélkül nem szabad repülni.",
       "Kerüld a repülőtereket, leszállópályákat és az ellenőrzött légteret (CTR), hacsak nincs rá kifejezett engedélyed.",
       "Ésszerű távolság a részt nem vevő személyektől és épületektől (ajánlott: 30 m)",
-      "A repülés csak nappal engedélyezett — az éjszakai repülésekhez külön engedély szükséges",
+      "Mindig vizuális meteorológiai körülmények (VMC) között repülj; csak nappali repülés ajánlott.",
       "Kereskedelmi használathoz a megfelelő DINACIA-engedélyen felül kötelező polgári jogi felelősség- vagy légiközlekedési biztosítás is szükséges.",
       "Kifejezett engedélyt igénylő műveletek (lakott területek vagy embercsoportok felett, repülőtéri zónákban, tiltott vagy korlátozott területeken, illetve kereskedelmi használat esetén): a kérelmet a DINACIA-hoz az UTM platformon (utm.dinacia.gub.uy) keresztül kell benyújtani."
     ],
@@ -33,15 +33,15 @@
       },
       {
         "title": "UTM DINACIA — Regisztrációs és engedélyezési platform",
-        "description": "A DINACIA hivatalos UTM (Pilóta nélküli forgalomirányítás) platformja a drónok (≥25 kg) regisztrálásához és az üzemeltetési engedélyek iránti kérelmek benyújtásához. Regisztrált felhasználó szükséges"
+        "description": "A DINACIA hivatalos UTM (Pilóta nélküli forgalomirányítás) platformja a drónok regisztrálásához és az üzemeltetési engedélyek iránti kérelmek benyújtásához; kereskedelmi célú repülésnél mindig használni kell. Regisztrált felhasználó szükséges"
       },
       {
         "title": "DINACIA — DAOD-engedély kiadása",
         "description": "DINACIA-körlevél (CA.UY.PEL.07.02) a DAOD-üzemeltetői engedély követelményeivel. 25 kg feletti drónokhoz és minden fizetett használathoz kötelező."
       },
       {
-        "title": "DINACIA — LAR 61 pilótaengedélyek",
-        "description": "LAR 61 (Pilótaengedélyek és jogosítások) — a légiközlekedési műveletekre alkalmazandó szabályozás, beleértve az RPAS-t is"
+        "title": "DINACIA — Szabadidős drónrepülési zónák (Res. 093/2019)",
+        "description": "A DINACIA 093/2019. sz. határozata: Montevideóban szabadidős drónhasználatra kijelölt zónák, legfeljebb 30 méteres magassággal a talaj felett"
       }
     ],
     "secondaryLinks": [
@@ -50,15 +50,15 @@
         "description": "A Nemzeti Polgári Légügyi és Légiközlekedési Infrastruktúra Igazgatóság fő oldala. Hozzáférés az eljárásokhoz, szabályozáshoz és légiközlekedési szolgáltatásokhoz"
       },
       {
-        "title": "Eljárás: Légiközlekedési engedélyek (gub.uy)",
-        "description": "Hivatalos eljárás a gub.uy oldalon a légiközlekedési engedélyek kiadásához és engedélyezéséhez — beleértve a professzionális drónhasználathoz szükséges távpilótákat is"
+        "title": "Eljárás: DAOD-üzemeltetői engedély (gub.uy)",
+        "description": "Hivatalos eljárás a gub.uy oldalon a távirányítású eszközök üzemeltetői engedélyének (DAOD) kiadásához, amely online is elindítható."
       },
       {
         "title": "AUD — Uruguayi Drónszövetség",
         "description": "Uruguayi Drónszövetség: pilóták közössége, oktatási erőforrások és naprakész információk az uruguayi üzemeltetőkre alkalmazandó szabályozásról"
       }
     ],
-    "disclaimerText": "Repülés előtt mindig ellenőrizd a DINACIA hivatalos forrásait. Ez az alkalmazás egy segédeszköz, nem jogi forrás. Uruguay a DINACIA 291/2014. sz. határozatát és az uruguayi légiközlekedési szabályozást (RAU) alkalmazza. A 25 kg-nál könnyebb drónok nem igényelnek regisztrációt; az összes többi igen.",
+    "disclaimerText": "Repülés előtt mindig ellenőrizd a DINACIA hivatalos forrásait. Ez az alkalmazás egy segédeszköz, nem jogi forrás. Uruguay a DINACIA 291/2014. sz. határozatát és az uruguayi légiközlekedési szabályozást (RAU) alkalmazza. A kizárólag szabadidős célra használt, legfeljebb 25 kg-os drónokat nem kell regisztrálni; a kereskedelmi célra használtakat és a 25 kg felettieket igen.",
     "sectionLabelRules": "FŐBB SZABÁLYOK",
     "sectionLabelPrimary": "HIVATALOS FORRÁSOK",
     "sectionLabelSecondary": "TOVÁBBI FORRÁSOK",

@@ -1,21 +1,21 @@
 {
   "meta": {
-    "sourceHash": "ef5e83edc106c0feb3a1f1e27eb65805a0d53b5f0778b0a199615bfd39a964d2",
+    "sourceHash": "598648bf9ad976b71f062fbc74df23827f04c0f7b71a9b0e59c8661198aefd38",
     "engine": "opus-5-5",
-    "translatedAt": "2026-09-23",
+    "translatedAt": "2026-09-24",
     "sourceLang": "en"
   },
   "fields": {
     "keyRules": [
       "Maksimaalne lennukõrgus on 120 m (400 ft) maapinnast.",
-      "Kuni 25 kg droonid ('Small') ei vaja harrastuslikuks kasutuseks DINACIA registreerimist — nendega võib vabalt lennata kuni 120 m kõrguseni, välja arvatud lennuväljade tsoonides.",
+      "Kuni 25 kg droonid ('Small'), mida kasutatakse üksnes harrastuseks, ei vaja DINACIA registreerimist, lennukõlblikkussertifikaati ega operaatoriluba — kuid nendega ei tohi lennata kõrgemal kui 120 m ega lennata kontrollitavas õhuruumis või lennuvälja liiklustsoonis ilma ATM loata.",
       "Montevideos on DINACIA määranud Small-droonidele (kuni 25 kg) 4 harrastuslennutsooni järgmiste parkide kindlaksmääratud sektorites: Parque Baroffio (põhjaosa), Parque Marcos Sastre (Ruta 8 lähedal), Parque Miguelete (lõik Silva ja Bvar. Aparicio Saravia vahel) ja Parque Tomkinson (välja arvatud lastejalgpalliklubi ala). Maksimaalne kõrgus nendes tsoonides: 30 m maapinnast (DINACIA Res. 093/2019, AIP ENR 5.5).",
       "25–260 kg droonid ('Medium') tuleb registreerida DINACIA-s ja neile antakse seadmel nähtav identifitseerimisnumber.",
       "Piloot peab hoidma drooni kogu aeg otseses nähtavuses.",
       "Tihedalt asustatud alade (linnad, alevid, elurajoonid) kohal lendamine ei ole ilma lennundusasutuse sõnaselge loata lubatud.",
       "Väldi lennujaamu, lennuvälju ja kontrollitavat õhuruumi (CTR), välja arvatud sõnaselge loa olemasolul.",
       "Hoia lennutegevusega mitteseotud inimestest ja hoonetest mõistlikku kaugust (soovituslik: 30 m)",
-      "Lendamine lubatud ainult päeval — öölennud nõuavad eriluba",
+      "Lenda alati visuaalsetes meteoroloogilistes tingimustes (VMC); soovitatav on lennata ainult päevasel ajal.",
       "Äriline kasutus nõuab lisaks vastavale DINACIA loale kohustuslikku tsiviilvastutus- või lennunduskindlustust.",
       "Sõnaselget luba nõudvad käitamised (asustatud alade või rahvakogunemiste kohal, lennuväljade tsoonides, keelu- või piirangualadel või äriliseks kasutuseks): esita taotlus DINACIA-le UTM platvormi kaudu (utm.dinacia.gub.uy)."
     ],
@@ -33,15 +33,15 @@
       },
       {
         "title": "UTM DINACIA — Registreerimis- ja loaplatvorm",
-        "description": "DINACIA ametlik UTM-platvorm (mehitamata liikluse haldus) droonide (≥25 kg) registreerimiseks ja käitamisloa taotluste esitamiseks. Nõuab registreeritud kasutajat"
+        "description": "DINACIA ametlik UTM-platvorm (mehitamata liikluse haldus) droonide registreerimiseks ja käitamisloa taotluste esitamiseks; äriliseks otstarbeks lendamisel tuleb seda alati kasutada. Nõuab registreeritud kasutajat"
       },
       {
         "title": "DINACIA — DAOD-loa väljastamine",
         "description": "DINACIA ringkiri (CA.UY.PEL.07.02) DAOD-operaatoriloa nõuetega. Kohustuslik üle 25 kg droonidele ja igasuguseks tasuliseks kasutuseks."
       },
       {
-        "title": "DINACIA — LAR 61 piloodilitsentsid",
-        "description": "LAR 61 (piloodilitsentsid ja pädevusmärked) — lennundusoperatsioonidele, sh RPAS-ile, kohalduvad määrused"
+        "title": "DINACIA — Harrastuslike droonilendude tsoonid (Res. 093/2019)",
+        "description": "DINACIA Resolution 093/2019: Montevideos droonide harrastuslikuks kasutamiseks määratud tsoonid, kus lennukõrgus ei tohi ületada 30 meetrit maapinnast"
       }
     ],
     "secondaryLinks": [
@@ -50,15 +50,15 @@
         "description": "Riikliku Tsiviillennunduse ja Lennundustaristu Direktoraadi peamine veebisait. Juurdepääs toimingutele, määrustele ja lennundusteenustele"
       },
       {
-        "title": "Toiming: lennunduslitsentsid (gub.uy)",
-        "description": "Ametlik toiming gub.uy-l lennunduslitsentside väljastamiseks ja lubade andmiseks — sh kaugpiloodid professionaalseks droonikasutuseks"
+        "title": "Menetlus: DAOD-operaatoriluba (gub.uy)",
+        "description": "Ametlik menetlus gub.uy-s kaugjuhitava seadme operaatoriloa (DAOD) väljastamiseks; menetlust saab alustada veebis."
       },
       {
         "title": "AUD — Uruguay Drooniühing",
         "description": "Uruguay Drooniühing: pilootide kogukond, õppematerjalid ja uuendused Uruguay operaatoritele kohalduvate määruste kohta"
       }
     ],
-    "disclaimerText": "Kontrolli enne lendamist alati DINACIA ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Uruguays kehtivad DINACIA Resolution 291/2014 ja Uruguayan Aeronautical Regulations (RAU). Alla 25 kg kaaluvad droonid ei vaja registreerimist; kõik teised droonid vajavad.",
+    "disclaimerText": "Kontrolli enne lendamist alati DINACIA ametlikke allikaid. See rakendus on abivahend, mitte õigusallikas. Uruguays kehtivad DINACIA Resolution 291/2014 ja Uruguayan Aeronautical Regulations (RAU). Kuni 25 kg droonid, mida kasutatakse üksnes harrastuseks, ei vaja registreerimist; äriliselt kasutatavad ja üle 25 kg droonid vajavad.",
     "sectionLabelRules": "PÕHIREEGLID",
     "sectionLabelPrimary": "AMETLIKUD ALLIKAD",
     "sectionLabelSecondary": "LISARESSURSID",
