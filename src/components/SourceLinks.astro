@@ -12,8 +12,9 @@ interface Props {
 const { links } = Astro.props;
 
 // v8-revision: ingen "Verifierad"-badge på första kortet. En källa är inte
-// verifierad enbart för att den ligger på index 0 (REPO-P0-03). Verifiering
-// visas per claim (legalStatus), aldrig per källkorts-position.
+// verifierad enbart för att den ligger på index 0 (REPO-P0-03). (Per-claim-
+// statusen legalStatus pensionerades 2026-09-24 — sajten visar ingen
+// verifieringsstämpel alls, varken per land, claim eller källkort.)
 const items = links.map((l) => {
   let domain = '';
   try {

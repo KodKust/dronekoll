@@ -9,7 +9,9 @@
  *   1. Struktur: kända id:n, inget tomt, rätt språk, inga tillagda poster.
  *   2. Tal + enheter: varje mätvärde i källan ska finnas i översättningen.
  *      Tusentalsavgränsare och decimaltecken normaliseras (2,500 = 2 500),
- *      men VÄRDET måste stämma.
+ *      men VÄRDET måste stämma. Kända falsklarm (översatt tidsenhet, turkiskt
+ *      "%75", "għal"/"gün"/"r." som enhetsbokstav) blir VARNING när talet står
+ *      kvar — se scripts/lib/measures.mjs (självtest: scripts/test-measures.mjs).
  *   3. Skyddade termer: förkortningar och egennamn ur källan ska stå kvar.
  *   4. Oöversatt: identisk med engelskan → varning (kan vara legitimt för
  *      korta egennamnsrader, men ska synas).
@@ -23,6 +25,7 @@
 import { createHash } from 'node:crypto';
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { compareMeasures } from './lib/measures.mjs';
 
 const ROOT = process.cwd();
 const CONTENT = join(ROOT, 'src', 'content');
@@ -70,15 +73,6 @@ function expectedHash(iso) {
   return c ? matrixHash(fieldsFromCountry(c)) : null;
 }
 
-/** Mätvärden: tal + enhet. Normaliserar 2,500 / 2 500 / 2.500 → 2500. */
-const NUM_UNIT = /(\d[\d., \s]*)\s*(kg|g\b|km|m\b|ft|NM|J\b|%|SGD|HK\$|€|£|\$|R\b|år|years?|months?|min)/gi;
-const norm = (s) => s.replace(/[\s .,]/g, '');
-function measures(text) {
-  const out = new Set();
-  for (const m of String(text).matchAll(NUM_UNIT)) out.add(`${norm(m[1])}${m[2].toLowerCase()}`);
-  return out;
-}
-
 /** Skyddade termer: versala förkortningar (≥2 tecken) och kända egennamn. */
 const PROTECTED = /\b(EASA|FAA|CAA|CAAP|CAAS|CAD|DGCA|SACAA|SANParks|NATS|GCAA|DCAA|NOTAM|VLOS|BVLOS|EVLOS|FPV|MTOM|B-RID|RPC|UAPL|FRIA|FRZ|RFZ|CTR|NEMA|DigitalSky|NAV DRONE|Transport Canada|Parks Canada|Marine Mammals Protection Regulations|PCAR|FlyItSafe|My Drone Hub|HKIA|NAIA|SISANT|UIN|DOC|eVTOL|Part \d+|A1\/A3|A2|R1\d\d)\b/g;
 const protectedTerms = (t) => new Set(String(t).match(PROTECTED) ?? []);
@@ -97,8 +91,9 @@ for (const it of items) {
   const tr = String(it.tr ?? '').trim();
   if (!tr) { errors.push(`${it.id}: tom översättning`); continue; }
 
-  const miss = [...measures(it.en)].filter((m) => !measures(tr).has(m));
+  const { missing: miss, accepted } = compareMeasures(it.en, tr);
   if (miss.length) errors.push(`${it.id}: mätvärde saknas eller ändrat → ${miss.join(', ')}`);
+  for (const a of accepted) warnings.push(`${it.id}: mätvärde ${a.token} godtaget — ${a.why} (talet står kvar)`);
 
   const lostTerms = [...protectedTerms(it.en)].filter((t) => !tr.includes(t));
   if (lostTerms.length) errors.push(`${it.id}: skyddad term borta → ${lostTerms.join(', ')}`);

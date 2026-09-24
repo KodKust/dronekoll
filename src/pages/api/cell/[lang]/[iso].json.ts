@@ -23,29 +23,16 @@ import {
 } from '../../../../lib/ingest';
 import { LANGUAGE_CODES } from '../../../../lib/model';
 import { isCellStale } from '../../../../lib/staleness';
-import type { Country, EnOverlay, LegalClaimStatus } from '../../../../lib/schema';
+import type { Country, EnOverlay } from '../../../../lib/schema';
 
-// v8-revision: svarsformatets egen version (bumpa vid formförändring i meta/fields/
-// legalStatus). Separat från legalStatus.schemaVersion (auditdatans version,
-// tools/legal/generate_countries.py). Nya nycklar är alltid tillägg — gamla
-// appversioner läser bara namngivna fält och ignorerar okända rotnycklar, så en
-// bump kräver ingen egen versionsgrind så länge fältet bara VÄXER.
-const API_SCHEMA_VERSION = 2;
-
-// Whitelist av vad som exponeras publikt per claim — held/proposedReplacementEn är
-// interna redaktionella arbetsfält (generatorns håll-tills-omskrivning-workflow),
-// inte menade för slutanvändare.
-function claimStatus(c: LegalClaimStatus) {
-  return {
-    claimId: c.claimId,
-    status: c.status,
-    reviewState: c.reviewState,
-    layer: c.layer ?? null,
-    sources: c.sources,
-    checkedAt: c.checkedAt ?? null,
-    nextReviewAt: c.nextReviewAt ?? null,
-  };
-}
+// v8-revision: svarsformatets egen version (bumpa vid formförändring i meta/fields).
+// Appen läser bara namngivna fält och ignorerar okända rotnycklar — och läser inte
+// apiSchemaVersion alls — så en bump kräver ingen egen versionsgrind.
+// 3 (2026-09-24): rotnyckeln legalStatus borttagen. Fältet var pensionerat i
+// countries.json samma dag (renderades aldrig; hamnade ur position vid varje
+// radändring — 1 066 celler bar null efter källförvaltningen 23/9). Ingen
+// app-version har någonsin läst det (dronarkartan lib/, hela git-historiken).
+const API_SCHEMA_VERSION = 3;
 
 interface CellProps {
   overlay: EnOverlay;
@@ -78,27 +65,6 @@ export const GET: APIRoute = ({ props, params }) => {
   const { overlay, merged, country, version } = props as CellProps;
   const lang = params.lang as string;
 
-  // legalStatus.keyRules/importantNotes är positionellt alignade mot BASENS
-  // country.keyRules/importantNotes (generatorns invariant, validerad 818/818).
-  // Översättning byter aldrig ordning/antal (staleness-vakterna kräver exakt
-  // längdmatchning) → samma positioner gäller merged.keyRules/importantNotes.
-  // Trots det: en API-gräns litar inte blint på interna invarianter — vid
-  // längdmiss utelämnas legalStatus helt hellre än att skicka fel-alignad data.
-  const ls = country.legalStatus;
-  const legalStatus =
-    ls && ls.keyRules.length === merged.keyRules.length && ls.importantNotes.length === merged.importantNotes.length
-      ? {
-          schemaVersion: ls.schemaVersion,
-          auditVersion: ls.auditVersion,
-          pageVerified: ls.pageVerified,
-          keyRules: ls.keyRules.map(claimStatus),
-          importantNotes: ls.importantNotes.map(claimStatus),
-          disclaimer: ls.disclaimer
-            ? { claimId: ls.disclaimer.claimId, status: ls.disclaimer.status, reviewState: ls.disclaimer.reviewState }
-            : null,
-        }
-      : null;
-
   const body = {
     meta: {
       iso: country.isoCode,
@@ -114,10 +80,6 @@ export const GET: APIRoute = ({ props, params }) => {
       // v8: svarsformatets version — se konstanten ovan.
       apiSchemaVersion: API_SCHEMA_VERSION,
     },
-    // v8: NY rotnyckel, additiv (gamla appversioner ignorerar okända rotnycklar).
-    // Per-claim käll-/granskningsstatus, positionellt alignad med fields.keyRules/
-    // importantNotes. null om något inte kan garanteras alignat (se ovan).
-    legalStatus,
     fields: {
       keyRules: merged.keyRules,
       importantNotes: merged.importantNotes,

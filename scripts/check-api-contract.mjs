@@ -62,7 +62,7 @@ else if (failures === 0) ok(`visitor: ${visitorFiles.length} språkfiler, ${visi
 
 // ── /api/cell/{lang}/{iso}.json ─────────────────────────────────────────────
 const cellDir = join(DIST, 'cell');
-let cellFilesChecked = 0, legalStatusPresent = 0, legalStatusNull = 0;
+let cellFilesChecked = 0;
 const cellFailuresBefore = failures;
 if (existsSync(cellDir)) {
   for (const lang of readdirSync(cellDir)) {
@@ -86,34 +86,19 @@ if (existsSync(cellDir)) {
       if (!isStringArray(body.fields?.keyRules)) fail(`${path}: fields.keyRules måste vara string[]`);
       if (!isStringArray(body.fields?.importantNotes)) fail(`${path}: fields.importantNotes måste vara string[]`);
 
-      const ls = body.legalStatus;
-      if (ls === null) {
-        legalStatusNull++;
-      } else if (ls) {
-        legalStatusPresent++;
-        if (ls.keyRules.length !== body.fields.keyRules.length) {
-          fail(`${path}: legalStatus.keyRules.length (${ls.keyRules.length}) ≠ fields.keyRules.length (${body.fields.keyRules.length})`);
-        }
-        if (ls.importantNotes.length !== body.fields.importantNotes.length) {
-          fail(`${path}: legalStatus.importantNotes.length (${ls.importantNotes.length}) ≠ fields.importantNotes.length (${body.fields.importantNotes.length})`);
-        }
-        for (const c of [...ls.keyRules, ...ls.importantNotes]) {
-          if (!isNonEmptyString(c.claimId)) fail(`${path}: claim saknar claimId`);
-          if (!isNonEmptyString(c.status)) fail(`${path}: ${c.claimId ?? '?'} saknar status`);
-          if (!isNonEmptyString(c.reviewState)) fail(`${path}: ${c.claimId ?? '?'} saknar reviewState`);
-        }
-      } else {
-        fail(`${path}: legalStatus-nyckel saknas helt (varken objekt eller null)`);
+      // legalStatus pensionerades 2026-09-24 (apiSchemaVersion 3): nyckeln får inte
+      // komma tillbaka — inte ens som null. Den var positionellt knuten till
+      // fields-raderna och hamnade ur position vid varje radändring.
+      if ('legalStatus' in body) fail(`${path}: legalStatus är pensionerad — nyckeln får inte finnas (apiSchemaVersion 3)`);
+      if (typeof body.meta?.apiSchemaVersion === 'number' && body.meta.apiSchemaVersion < 3) {
+        fail(`${path}: meta.apiSchemaVersion ${body.meta.apiSchemaVersion} < 3 (legalStatus-borttagningen kräver 3)`);
       }
     }
   }
 }
 if (cellFilesChecked === 0) fail('inga cell-filer hittades i dist/api/cell/');
 else if (failures === cellFailuresBefore) {
-  ok(`cell: ${cellFilesChecked} filer OK (legalStatus: ${legalStatusPresent} med, ${legalStatusNull} utan)`);
-}
-if (legalStatusNull > 0) {
-  console.warn(`  ⚠ ${legalStatusNull} celler saknar legalStatus (längdmiss mot fields — se cell-endpointens defensiva fallback)`);
+  ok(`cell: ${cellFilesChecked} filer OK (ingen bär legalStatus, alla apiSchemaVersion ≥ 3)`);
 }
 
 console.log(failures === 0 ? '\nAPI-kontrakt GRÖNT.' : `\n${failures} kontraktsfel.`);
