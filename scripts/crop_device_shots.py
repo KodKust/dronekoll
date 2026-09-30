@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Enhetsbilder till app-CTA-panelen — croppade ur befintliga butiks-PNG:er.
 
-Källa: ~/Desktop/Drönarkartan/App Store/Råa skärmdumpar/<Land>/Klara för ASC/<locale>/01_*.png
-(1290×2796-kompositer med renderad titanram + skugga på vit botten;
-crop-konstanter ur generate_screenshots_final.py: telefonen ligger ~y530–2790).
+Källa (sedan 2026-09-30, ljusa temat): ~/Desktop/Drönarkartan/App Store/Skärmdumpar 1.2.6/<Land>/NN_screenshot.png
+(1290×2796-kompositer med renderad titanram + skugga på vit botten; samma
+geometri som de gamla »Klara för ASC«-seten: telefonen ligger ~y530–2790).
+Bildordningen skiljer sig mellan set — se FEATURE_SLOTS.
 
 Per SPRÅK väljs bästa käll-land (svenska sidor får svenska app-UI:t osv;
 språk utan butiks-set faller tillbaka på engelska). Ut: public/device/{lang}.webp
@@ -20,7 +21,7 @@ from PIL import Image, ImageChops
 
 SITE_ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = SITE_ROOT / "public" / "device"
-SRC_ROOT = Path.home() / "Desktop" / "Drönarkartan" / "App Store" / "Råa skärmdumpar"
+SRC_ROOT = Path.home() / "Desktop" / "Drönarkartan" / "App Store" / "Skärmdumpar 1.2.6"
 
 # språk → käll-landsmapp (iOS-butikens 29 locale-set)
 LANG_TO_DIR = {
@@ -28,8 +29,9 @@ LANG_TO_DIR = {
     "de": "Germany", "fr": "France", "es": "Spain", "pt": "Portugal",
     "it": "Italy", "nl": "Netherlands", "pl": "Poland", "cs": "Czech Republic",
     "sk": "Slovakia", "hu": "Hungary", "hr": "Croatia", "ro": "Romania",
-    "el": "Greece", "tr": "Turkey", "uk": "Ukraina", "en": "United States",
-    # is/sl/bg/lt/lv/et/mt saknar butiks-set → en-fallback (hanteras nedan)
+    "el": "Greece", "tr": "Turkey", "uk": "Ukraine", "en": "United States",
+    "is": "Island", "sl": "Slovenia", "et": "Estonia CPP",
+    # bg/lt/lv/mt saknar butiks-set → en-fallback (hanteras nedan)
 }
 FALLBACK = "en"
 CROP_TOP, CROP_BOTTOM = 530, 2790  # ur generate_screenshots_final.py-geometrin
@@ -37,16 +39,7 @@ TARGET_W = 640
 
 
 def find_source(country_dir: str) -> Path | None:
-    base = SRC_ROOT / country_dir / "Klara för ASC"
-    if not base.is_dir():
-        return None
-    for locale_dir in sorted(base.iterdir()):
-        if not locale_dir.is_dir():
-            continue
-        shots = sorted(locale_dir.glob("01_*.png")) or sorted(locale_dir.glob("*.png"))
-        if shots:
-            return shots[0]
-    return None
+    return find_slot(country_dir, "01")
 
 
 def autotrim_white(img: Image.Image, tol: int = 8) -> Image.Image:
@@ -57,40 +50,40 @@ def autotrim_white(img: Image.Image, tol: int = 8) -> Image.Image:
     return img.crop(bbox) if bbox else img
 
 
-# Feature-sidornas bilder: slot per funktion, [overlay-källa, icke-overlay-källa].
-# Icke-overlay-set = overlay-sekvensen minus zonkarte-introparet (allt −2) —
-# verifierat visuellt 2026-07-09 (BR 01 = vindbilden = SE 03).
-# null i pos 2 → EN-fallback för icke-overlay-språk (t.ex. kart-heron finns
-# bara i overlay-set).
-FEATURE_SLOTS: dict[str, tuple[str, str | None]] = {
-    "flight-log": ("07", "05"),
-    "measure": ("03", "01"),
-    "checklists": ("08", "06"),
-    "map": ("01", None),
+# Feature-sidornas bilder: slot per funktion, [overlay-källa, icke-overlay-källa, Tyskland].
+# 1.2.6-seten (verifierat visuellt 2026-09-30 på Island/Polen/Tyskland):
+#   overlay (10):  01 karta · 02 zonblad · 03 vind · 04 flyglogg · 05 checklista · 06 ND ·
+#                  07 resa · 08 flygvarning · 09 trafik · 10 mät
+#   NOTAM-only (8): 01 vind · 02 checklista · 03 flyglogg · 04 ND · 05 resa · 06 flygvarning ·
+#                  07 trafik · 08 mät
+#   Tyskland (9):  01 karta · 02 zonblad · 03 lager · 04 flugbuch · 05 checkliste · 06 ND ·
+#                  07 reise · 08 messen · 09 regeln
+# None → EN-fallback (kart-heron finns bara i overlay-set).
+FEATURE_SLOTS: dict[str, tuple[str, str | None, str]] = {
+    "flight-log": ("04", "03", "04"),
+    "measure": ("10", "08", "08"),
+    "checklists": ("05", "02", "05"),
+    "map": ("01", None, "01"),
 }
 # Crop-källländer med overlay-set (10 slots); övriga har 8-slots-setet.
 OVERLAY_SOURCE_DIRS = {
     "Sweden", "Denmark", "Norway", "Finland", "France", "Spain", "Portugal",
-    "Netherlands", "Romania", "Slovakia", "United States", "Austria CPP",
-    "Ireland CPP", "Luxemburg CPP",
+    "Netherlands", "Romania", "Slovakia", "United States", "Island", "Slovenia",
+    "Estonia CPP",
 }
+GERMANY_DIR = "Germany"
 
 
 def find_slot(country_dir: str, slot: str) -> Path | None:
-    base = SRC_ROOT / country_dir / "Klara för ASC"
+    base = SRC_ROOT / country_dir
     if not base.is_dir():
         return None
-    for locale_dir in sorted(base.iterdir()):
-        if not locale_dir.is_dir():
-            continue
-        shots = sorted(locale_dir.glob(f"{slot}_*.png"))
-        if shots:
-            return shots[0]
-    return None
+    shots = sorted(base.glob(f"{slot}_*.png"))
+    return shots[0] if shots else None
 
 
 def crop_features(force: bool) -> None:
-    for feature, (slot_overlay, slot_plain) in FEATURE_SLOTS.items():
+    for feature, (slot_overlay, slot_plain, slot_de) in FEATURE_SLOTS.items():
         out_dir = OUT_DIR / feature
         out_dir.mkdir(parents=True, exist_ok=True)
         for lang in sorted(set(list(LANG_TO_DIR) + ["is", "sl", "bg", "lt", "lv", "et", "mt"])):
@@ -100,8 +93,10 @@ def crop_features(force: bool) -> None:
             country_dir = LANG_TO_DIR.get(lang)
             src = None
             if country_dir:
-                is_overlay_src = country_dir in OVERLAY_SOURCE_DIRS
-                slot = slot_overlay if is_overlay_src else slot_plain
+                if country_dir == GERMANY_DIR:
+                    slot = slot_de
+                else:
+                    slot = slot_overlay if country_dir in OVERLAY_SOURCE_DIRS else slot_plain
                 if slot:
                     src = find_slot(country_dir, slot)
             if src is None:
@@ -119,7 +114,7 @@ def crop_features(force: bool) -> None:
             ratio = TARGET_W / img.width
             img = img.resize((TARGET_W, int(img.height * ratio)), Image.LANCZOS)
             img.save(out, "WEBP", quality=82)
-            print(f"✓ {feature}/{lang} ← {src.parent.parent.parent.name} slot {src.name[:2]}")
+            print(f"✓ {feature}/{lang} ← {src.parent.name} slot {src.name[:2]}")
 
 
 def main() -> None:
