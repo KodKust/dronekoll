@@ -104,6 +104,8 @@ export type Country = z.infer<typeof CountrySchema>;
 export interface CountriesFile {
   version: number;
   countries: Country[];
+  /** Toppnivå `mapTiles` (appens baskartor) — rå; tolkas i lib/basemap.ts. */
+  mapTiles?: unknown;
 }
 
 /** Innehålls-overlay per språk: src/content/{lang}/{ISO}.json.

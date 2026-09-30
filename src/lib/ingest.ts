@@ -62,7 +62,7 @@ export function loadCountriesFile(): CountriesFile {
     }
     parsed.push(res.data);
   }
-  _countries = { version: outer.version, countries: parsed };
+  _countries = { version: outer.version, countries: parsed, mapTiles: outer.mapTiles };
   return _countries;
 }
 

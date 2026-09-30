@@ -1,14 +1,18 @@
 /**
  * Zonkartan — lazy Leaflet-ö (ramverksfri).
  *
- * Renderare: Leaflet + Carto Voyager-RASTER = appens egen ljusa baskarta
- * (map_screen.dart:941) → webbkartan ser ut som appen. ~42KB gz, laddas
+ * Renderare: Leaflet + appens ljusa baskarta (stilen "förenklad", i dag Esri
+ * Light Gray) → webbkartan ser ut som appen. ~42KB gz, laddas
  * dynamiskt FÖRST vid synlighet/interaktion — aldrig i sidans kritiska väg.
+ * Baskartans adress står ALDRIG här: den kommer ur cfg.basemap (countries.json
+ * mapTiles.simplified, se src/lib/basemap.ts). Hit hårdkodades CARTO Voyager
+ * — det gav "API KEY REQUIRED" över varje zonkarta från slutet av aug 2026.
  *
  * Config (data-map-config, byggs av build-manifest + sidmallen):
  * {
  *   bounds: [[latMin,lonMin],[latMax,lonMax]],
  *   attribution: "IenW ED-269 · …",
+ *   basemap: { url, referenceUrl, attribution, attributionUrl, maxNativeZoom },
  *   layers: [{ id, url, gzBytes, typeProp, zoneKeyDefault, defaultOn, label }],
  *   styles: { KEY: { fill, stroke, width } },   // bara landets typer
  *   titles: { KEY: "CTR — kontrollzon" }        // classifier_strings, sidans språk
@@ -33,9 +37,17 @@ interface ZoneStyle {
   stroke: string;
   width: number;
 }
+interface Basemap {
+  url: string;
+  referenceUrl: string | null;
+  attribution: string;
+  attributionUrl: string | null;
+  maxNativeZoom: number;
+}
 interface MapCfg {
   bounds: [[number, number], [number, number]];
   attribution?: string;
+  basemap: Basemap;
   layers: LayerCfg[];
   styles: Record<string, ZoneStyle>;
   titles: Record<string, string>;
@@ -126,13 +138,26 @@ if (host && rawCfg) {
     map.on('click', () => map.scrollWheelZoom.enable());
     map.fitBounds(cfg.bounds, { padding: [12, 12] });
 
-    // Appens ljusa baskarta (map_screen.dart:941) — samma värld som i appen.
-    L.tileLayer('https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>' +
-        (cfg.attribution ? ` · ${cfg.attribution}` : ''),
+    const esc = (s: unknown) =>
+      String(s).replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[ch]!);
+
+    // Appens ljusa baskarta ("förenklad") — samma värld och samma källa som i
+    // appen. Över maxNativeZoom skalas plattorna upp (Esri Light Gray tar slut
+    // vid z16 och svarar sedan med en generisk tom platta). Etikettlagret ligger
+    // direkt ovanpå basen och under zonerna — appens ordning (map_screen.dart).
+    // Krediteringen är leverantörens text ordagrant, aldrig översatt.
+    const bm = cfg.basemap;
+    const credit = bm.attributionUrl
+      ? `<a href="${esc(bm.attributionUrl)}" rel="noopener" target="_blank">${esc(bm.attribution)}</a>`
+      : esc(bm.attribution);
+    L.tileLayer(bm.url, {
+      attribution: credit + (cfg.attribution ? ` · ${cfg.attribution}` : ''),
+      maxNativeZoom: bm.maxNativeZoom,
       maxZoom: 19,
     }).addTo(map);
+    if (bm.referenceUrl) {
+      L.tileLayer(bm.referenceUrl, { maxNativeZoom: bm.maxNativeZoom, maxZoom: 19 }).addTo(map);
+    }
 
     const resolveKey = (props: Record<string, unknown>, layer: LayerCfg): string => {
       const raw =
@@ -148,8 +173,6 @@ if (host && rawCfg) {
     };
 
     const popupHtml = (props: Record<string, unknown>, key: string): string => {
-      const esc = (s: unknown) =>
-        String(s).replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[ch]!);
       const rows: string[] = [];
       const title = cfg.titles[key] ?? cfg.titles[key.replace(/_[A-Z]{2}$/, '')] ?? key;
       rows.push(`<strong>${esc(title)}</strong>`);

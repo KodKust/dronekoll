@@ -514,6 +514,57 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
   }
 }
 
+// ── 12. Zonkartans baskarta kommer ur datan — aldrig ur koden ───────────────
+// zone-map.ts hade CARTO Voyager hårdkodad. CARTO började vattenstämpla anonyma
+// anrop i slutet av aug 2026 ("API KEY REQUIRED") och varje zonkarta bar
+// stämpeln till 2026-09-30 — appen hade bytt leverantör 3/9, men sajtens egen
+// adress låg i ett annat repo och ingen sökte där. Nu läser kartan appens
+// mapTiles.simplified (src/lib/basemap.ts). Vakten fäller om (a) en sida med
+// zonkarta saknar giltig basemap i sin config, eller (b) ett klientskript bär
+// en tile-mall ({z}/{x}/{y} i någon ordning) — en adress i koden är fällan.
+{
+  // Astro skriver attributvärden med numeriska entiteter (&#34; för ") — avkoda
+  // numeriska och namngivna i ETT pass, så att &amp;#34; aldrig avkodas två gånger.
+  const NAMED = { quot: '"', amp: '&', lt: '<', gt: '>', apos: "'" };
+  const decode = (s) =>
+    s.replace(/&(#x[0-9a-f]+|#\d+|quot|amp|lt|gt|apos);/gi, (_, e) =>
+      e[0] !== '#'
+        ? NAMED[e.toLowerCase()]
+        : String.fromCodePoint(e[1] === 'x' || e[1] === 'X' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10)),
+    );
+  const validTemplate = (u) =>
+    typeof u === 'string' && u.startsWith('https://') && ['{z}', '{x}', '{y}'].every((p) => u.includes(p));
+  const bad = [];
+  const hosts = new Set();
+  let checked = 0;
+  for (const [url, html] of pageByUrl) {
+    const m = html.match(/data-map-config="([^"]*)"/);
+    if (!m) continue;
+    checked++;
+    let bm;
+    try {
+      bm = JSON.parse(decode(m[1])).basemap;
+    } catch {
+      bad.push(`${url} (config går inte att parsa)`);
+      continue;
+    }
+    if (!validTemplate(bm?.url) || typeof bm?.attribution !== 'string' || !bm.attribution.trim()) bad.push(url);
+    else hosts.add(new URL(bm.url).host);
+  }
+  const astroDir = join(DIST, '_astro');
+  const literal = existsSync(astroDir)
+    ? readdirSync(astroDir).filter(
+        (f) => f.endsWith('.js') && /\{z\}\/\{[xy]\}\/\{[xy]\}/.test(readFileSync(join(astroDir, f), 'utf8')),
+      )
+    : [];
+  if (checked === 0) fail('Baskartevakt: ingen sida bär data-map-config — zonkartan saknas eller mönstret har ändrats');
+  if (bad.length) fail(`Zonkarta utan giltig basemap i config (${bad.length}): ${bad.slice(0, 5).join(' · ')}`);
+  if (literal.length)
+    fail(`Tile-adress hårdkodad i klientskript (${literal.join(', ')}) — baskartan ska komma ur cfg.basemap (src/lib/basemap.ts)`);
+  if (checked && !bad.length && !literal.length)
+    ok(`Baskarta ur datan: ${checked} zonkartor med giltig basemap (${[...hosts].join(', ')}), inga tile-adresser i klientskripten`);
+}
+
 // ── 6. Sträng-/notvakt: visitor-notes struktur + platshållare/skriftsystem ───
 // Kompletterar sektion 5: den vaktar web_strings-nycklar, denna vaktar de 49
 // landsnoterna (inga { } som bryter t()-substitution, skiljetecken, längd,

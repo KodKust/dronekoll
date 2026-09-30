@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
-"""Statiska Voyager-kartor för icke-overlay-länder (fas 3, ENGÅNGS + on-demand).
+"""Statiska kartor för icke-overlay-länder (fas 3, ENGÅNGS + on-demand).
 
-Hämtar Carto Voyager-raster-tiles (appens egen ljusa baskarta,
-map_screen.dart:941) för varje icke-overlay-lands bbox, syr ihop, beskär,
+Hämtar raster-tiles ur appens ljusa baskarta (stilen "förenklad":
+countries.json mapTiles.simplified — samma källa som zonkartan, se
+src/lib/basemap.ts) för varje icke-overlay-lands bbox, syr ihop, beskär,
 bränner in attribution och sparar WebP → public/static-maps/{iso}.webp.
+
+⚠ Här stod CARTO Voyager hårdkodad. CARTO vattenstämplar anonyma anrop sedan
+slutet av aug 2026 ("API KEY REQUIRED") — en ny körning hade bränt in stämpeln
+i bilden. De befintliga bilderna renderades 2026-07-09/10, före stämpeln: rena
+Voyager-bilder med CARTO-kreditering. Rendera inte om dem utan skäl (--force).
 Committas som byggartefakter — INGEN tile-hämtning i CI-bygget (artigt mot
 tile-servern; ~600 tiles totalt, engångs).
 
@@ -26,10 +32,41 @@ from PIL import Image, ImageDraw
 
 SITE_ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = SITE_ROOT / "public" / "static-maps"
-TILE_URL = "https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png"
-ATTRIBUTION = "© OpenStreetMap contributors © CARTO"
+# Samma värden som FALLBACK_BASEMAP i src/lib/basemap.ts (= appens
+# MapTileStyle.defaults['simplified']) — används bara när datan saknar en
+# giltig mapTiles.simplified.
+FALLBACK_BASEMAP = {
+    "url": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+    "referenceUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}",
+    "attribution": "Esri, HERE, Garmin, (c) OpenStreetMap contributors, and the GIS user community",
+}
 TARGET_W, TARGET_H = 1200, 900  # 4:3, matchar kartramen
-TILE = 512  # @2x-tiles
+TILE = 256  # Esri Light Gray levererar 256 px (ingen @2x)
+MAX_Z = 12  # = gamla z11 med 512 px-tiles
+
+
+def _valid_template(u) -> bool:
+    return isinstance(u, str) and u.startswith("https://") and all(p in u for p in ("{z}", "{x}", "{y}"))
+
+
+def basemap_from(data: dict) -> dict:
+    """mapTiles.simplified om url och kreditering finns — annars HELA fallbacken
+    (aldrig en ny leverantörs plattor under den gamlas kreditering)."""
+    tiles = data.get("mapTiles")
+    raw = tiles.get("simplified") if isinstance(tiles, dict) else None
+    raw = raw if isinstance(raw, dict) else {}
+    attribution = raw.get("attribution")
+    attribution = attribution.strip() if isinstance(attribution, str) else ""
+    if not _valid_template(raw.get("url")) or not attribution:
+        print("⚠ countries.json saknar giltig mapTiles.simplified — använder Esri-fallbacken")
+        return FALLBACK_BASEMAP
+    ref = raw.get("referenceUrl")
+    return {"url": raw["url"], "referenceUrl": ref if _valid_template(ref) else None, "attribution": attribution}
+
+
+def tile_url(template: str, z: int, x: int, y: int) -> str:
+    # replace, inte format: Leaflet-platshållare som {r} får inte ge KeyError
+    return template.replace("{z}", str(z)).replace("{x}", str(x)).replace("{y}", str(y)).replace("{r}", "")
 
 
 def lonlat_to_pixels(lon: float, lat: float, z: int) -> tuple[float, float]:
@@ -50,7 +87,7 @@ CROP_OVERRIDES = {
 
 
 def pick_zoom(lat_min, lat_max, lon_min, lon_max) -> int:
-    for z in range(11, 2, -1):
+    for z in range(MAX_Z, 2, -1):
         x0, y1 = lonlat_to_pixels(lon_min, lat_min, z)
         x1, y0 = lonlat_to_pixels(lon_max, lat_max, z)
         if (x1 - x0) <= TARGET_W * 0.92 and (y1 - y0) <= TARGET_H * 0.92:
@@ -58,7 +95,8 @@ def pick_zoom(lat_min, lat_max, lon_min, lon_max) -> int:
     return 3
 
 
-def render(iso: str, bbox: tuple[float, float, float, float], session: requests.Session) -> Image.Image:
+def render(iso: str, bbox: tuple[float, float, float, float], session: requests.Session,
+           basemap: dict) -> Image.Image:
     lat_min, lat_max, lon_min, lon_max = bbox
     z = pick_zoom(lat_min, lat_max, lon_min, lon_max)
 
@@ -77,11 +115,18 @@ def render(iso: str, bbox: tuple[float, float, float, float], session: requests.
             if ty < 0 or ty > max_tile:
                 continue
             wrapped_tx = tx % (2 ** z)
-            resp = session.get(TILE_URL.format(z=z, x=wrapped_tx, y=ty), timeout=30)
+            pos = ((tx - tx0) * TILE, (ty - ty0) * TILE)
+            resp = session.get(tile_url(basemap["url"], z, wrapped_tx, ty), timeout=30)
             resp.raise_for_status()
-            canvas.paste(Image.open(BytesIO(resp.content)).convert("RGB"),
-                         ((tx - tx0) * TILE, (ty - ty0) * TILE))
+            canvas.paste(Image.open(BytesIO(resp.content)).convert("RGB"), pos)
             n_tiles += 1
+            if basemap.get("referenceUrl"):
+                # Etikettlagret (transparent PNG) ovanpå basen
+                resp = session.get(tile_url(basemap["referenceUrl"], z, wrapped_tx, ty), timeout=30)
+                resp.raise_for_status()
+                labels = Image.open(BytesIO(resp.content)).convert("RGBA")
+                canvas.paste(labels, pos, labels)
+                n_tiles += 1
             time.sleep(0.1)  # artighet
 
     crop_x, crop_y = int(px0 - tx0 * TILE), int(py0 - ty0 * TILE)
@@ -89,7 +134,7 @@ def render(iso: str, bbox: tuple[float, float, float, float], session: requests.
 
     # Attribution (krav) — diskret platta nere till höger
     draw = ImageDraw.Draw(img, "RGBA")
-    text = ATTRIBUTION
+    text = basemap["attribution"]
     tw = draw.textlength(text)
     pad = 8
     draw.rectangle(
@@ -115,6 +160,7 @@ def main():
         raise SystemExit("countries.json saknas — kör npm run fetch-data")
 
     data = json.loads(countries_path.read_text())
+    basemap = basemap_from(data)
     # ALLA länder — icke-overlay använder bilden som huvudkarta, overlay-länder
     # som fallback när interaktiva lager saknas (SE/ES tills fetchers i drift).
     targets = [c for c in data["countries"] if c["isoCode"] != "OTHER"]
@@ -135,7 +181,7 @@ def main():
             continue
         print(f"{iso} …", flush=True)
         bbox = CROP_OVERRIDES.get(iso) or (c["latMin"], c["latMax"], c["lonMin"], c["lonMax"])
-        img = render(iso, bbox, session)
+        img = render(iso, bbox, session, basemap)
         img.save(out, "WEBP", quality=80)
         print(f"  ✓ {out.name} ({out.stat().st_size // 1024} kB)")
         done += 1

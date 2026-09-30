@@ -1,11 +1,13 @@
 /**
  * Bygger kart-config-payloaden per overlay-sida: manifestets lager +
  * zonstilar (subset när lagrens zoneTypes är kända) + lokaliserade
- * zontitlar ur classifier_strings. Saknas manifest/stilar (före fas 4-körning)
+ * zontitlar ur classifier_strings + baskartan (lib/basemap.ts, appens
+ * mapTiles.simplified). Saknas manifest/stilar (före fas 4-körning)
  * returneras null → MapSection renderar skeleton utan hydrering.
  */
 import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
+import { basemap } from './basemap';
 import { loadClassifierStrings } from './ingest';
 
 interface LayerCfg {
@@ -93,6 +95,7 @@ export function mapConfigFor(iso: string, lang: string): object | null {
   return {
     bounds: m.bounds,
     attribution: m.attribution,
+    basemap: basemap(),
     layers: layers.map(({ zoneTypes: _zt, pendingFetcher: _pf, ...rest }) => rest),
     styles: subset,
     titles,
