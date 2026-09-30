@@ -119,7 +119,10 @@ for (const country of countriesFile.countries) {
   }
 
   manifest[iso] = {
-    bounds: [
+    // Startvyn, inte datan: ov.bounds när landsrutan gör huvudlandet
+    // oigenkännligt litet (PT med Azorerna, US med Alaska + Hawaii) — samma
+    // skäl som CROP_OVERRIDES i render_static_maps.py.
+    bounds: ov.bounds ?? [
       [country.latMin, country.lonMin],
       [country.latMax, country.lonMax],
     ],

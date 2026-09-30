@@ -1,5 +1,5 @@
 {
-  "_comment": "Människokuraterade kart-lager per land — slås ihop ÖVER det som build-manifest.mjs härleder ur countries.json. Nycklar per land: layers (ersätter helt när satt), attribution, dropDerived (true = ignorera countries.json-feeds). Verifieras/förfinas i fas 4-QA mot pappilappi/airspace/-inventariet.",
+  "_comment": "Människokuraterade kart-lager per land — slås ihop ÖVER det som build-manifest.mjs härleder ur countries.json. Nycklar per land: layers (ersätter helt när satt), attribution, dropDerived (true = ignorera countries.json-feeds), bounds (startvyn [[latMin,lonMin],[latMax,lonMax]] när landsrutan gör huvudlandet oigenkännligt — PT utan Azorerna/Madeira, US utan Alaska/Hawaii; zonerna där nås genom utzoomning). Verifieras/förfinas i fas 4-QA mot pappilappi/airspace/-inventariet.",
 
   "CH": {
     "_why": "Appens primär är geoadmin-API (ej CORS-vänlig för webben); pappilappi har 9 statiska ch-*-feeds som täcker webbfallet.",
@@ -41,6 +41,7 @@
     "_why": "Många feeds — kuraterat urval: UASFM-grid + klasser default av (tunga), säkerhetslager på.",
     "dropDerived": true,
     "attribution": "FAA",
+    "bounds": [[24.4, -125.0], [49.4, -66.9]],
     "layers": [
       { "id": "us-uasfm", "url": "https://pappilappi.com/airspace/web/us.geojson", "typeProp": "type", "defaultOn": false, "label": "UASFM grid" },
       { "id": "us-classes", "url": "https://pappilappi.com/airspace/web/us-classes.geojson", "typeProp": "type", "defaultOn": true, "label": "Class B/C/D/E2" },
@@ -112,7 +113,7 @@
   "EE": { "attribution": "Transpordiamet" },
   "IS": { "attribution": "Samgöngustofa" },
   "LU": { "attribution": "DAC · geoportail.lu" },
-  "PT": { "attribution": "ANAC · AAN" },
+  "PT": { "attribution": "ANAC · AAN", "bounds": [[36.9, -9.6], [42.2, -6.1]] },
   "RO": { "attribution": "AACR" },
   "SI": { "attribution": "CAA Slovenija" },
   "SK": { "attribution": "Dopravný úrad" }
