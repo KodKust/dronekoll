@@ -178,6 +178,20 @@ const defaultZoneCount = ((mapConfig as { layers?: { defaultOn?: boolean; featur
   :global(.zonemap-loadbtn:hover) {
     border-color: var(--accent);
   }
+  /* Leaflet 1.9 blandar plattorna med mix-blend-mode: plus-lighter (mot
+     Chromium-glipor). På retina vid halvstegs-zoom (zoomSnap 0.5) adderas
+     kantpixlarna i stället till VITA hårlinjer tvärs över kartan — mätt i
+     Chrome 2026-09-30 på Finland: tre linjer i 1280 px @2x, en i 390 px @2x;
+     normal blandning: noll linjer, noll glipor (DPR 1 sömlöst i båda lägena).
+     Syntes knappt mot CARTO:s nästan vita land, tydligt mot Esris grå.
+     Runtime-element → :global; den scopade ramen vinner mot leaflet.css. */
+  .mapframe__canvas :global(img.leaflet-tile) { mix-blend-mode: normal; }
+  /* Esris kreditering är längre än CARTO:s — i den kvadratiska mobilramen blev
+     den tre rader över kartans södra del. Synlig på kartan (villkoret), men så
+     diskret som möjligt (Kristoffers linje för krediteringar 2026-09-03). */
+  @media (max-width: 560px) {
+    .mapframe__canvas :global(.leaflet-control-attribution) { font-size: 10px; line-height: 1.3; }
+  }
   .mapframe__glyph { animation: pulse-dot var(--dur-pulse) ease-in-out infinite; }
 
   .mapframe__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
