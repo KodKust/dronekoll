@@ -1,7 +1,8 @@
 {
-  "_comment": "Bulgariska landsnamn i formen 'i {land}' — HELA prepositionsfrasen. Bulgariskan har tappat kasusböjningen, så namnet står i nominativ; prepositionen är 'в', men blir 'във' framför namn som börjar på В eller Ф (във Франция, във Финландия, във Филипини) eftersom 'в Ф-' är outtalbart. Mallen skriver {countryIn} ENSAMT. 'gen' utelämnas — inga bulgariska mallar använder genitiv. Nytt land -> lägg till här, annars faller verify-build sektion 7.",
+  "_comment": "Bulgariska landsnamn i formen 'i {land}' — HELA prepositionsfrasen. Bulgariskan har tappat kasusböjningen, så namnet står i nominativ; prepositionen är 'в', men blir 'във' framför namn som börjar på В eller Ф (във Франция, във Финландия, във Филипини) eftersom 'в Ф-' är outtalbart. Mallen skriver {countryIn} ENSAMT. 'gen' utelämnas — inga bulgariska mallar använder genitiv. Nytt land -> lägg till här, annars faller verify-build sektion 7. Namn som i bulgariskan bär bestämd artikel efter preposition (в Съединените щати, във Филипините, в Доминиканската република, в Обединените арабски емирства) markeras \"article\": true — då kräver check-country-forms att varje ord i visningsnamnet inleder motsvarande ord i formen (artikelsuffixet -те/-та) i stället för ordagrann träff.",
   "AE": {
-    "in": "в Обединени арабски емирства"
+    "in": "в Обединените арабски емирства",
+    "article": true
   },
   "AR": {
     "in": "в Аржентина"
@@ -49,7 +50,8 @@
     "in": "в Дания"
   },
   "DO": {
-    "in": "в Доминиканска република"
+    "in": "в Доминиканската република",
+    "article": true
   },
   "EC": {
     "in": "в Еквадор"
@@ -127,7 +129,8 @@
     "in": "в Перу"
   },
   "PH": {
-    "in": "във Филипини"
+    "in": "във Филипините",
+    "article": true
   },
   "PL": {
     "in": "в Полша"
@@ -157,7 +160,8 @@
     "in": "в Украйна"
   },
   "US": {
-    "in": "в Съединени щати"
+    "in": "в Съединените щати",
+    "article": true
   },
   "UY": {
     "in": "в Уругвай"

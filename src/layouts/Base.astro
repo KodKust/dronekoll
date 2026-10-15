@@ -38,7 +38,9 @@ const {
   lang,
   canonical = new URL(Astro.url.pathname, Astro.site).href,
   alternates = [],
-  ogImage,
+  // Standardbild för sidor utan egen OG (hubbar, appöversikt, metodsida,
+  // integritet) — annars delas de utan bild. Engelsk text i bilden.
+  ogImage = 'https://dronekoll.com/og/home.jpg',
   noindex = false,
 } = Astro.props;
 ---

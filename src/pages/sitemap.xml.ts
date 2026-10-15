@@ -89,6 +89,9 @@ export const GET: APIRoute = () => {
     }
   }
 
+  // Integritetspolicyn — indexerbar (canonical, ingen noindex), alltså med här.
+  entries.push(urlEntry(`${SITE}/privacy/`, [], BUILD_DATE, '0.3', 'yearly'));
+
   const xml = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">',

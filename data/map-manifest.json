@@ -15,14 +15,14 @@
       "attribution": "DAC · geoportail.lu",
       "layers": [
         {
-          "gzBytes": 7467,
+          "gzBytes": 10501,
           "zoneTypes": [
             "ATZ",
             "CTR",
             "P",
             "RSTA"
           ],
-          "featureCount": 47,
+          "featureCount": 43,
           "id": "lu-zones",
           "url": "https://pappilappi.com/airspace/web/lu-zones.geojson",
           "typeProp": "_zoneType",
@@ -44,19 +44,29 @@
       "attribution": "CAA Slovenija",
       "layers": [
         {
-          "gzBytes": 78537,
+          "gzBytes": 17552,
           "zoneTypes": [
             "ATZ",
             "CTR",
-            "DNGA",
-            "P",
-            "RSTA"
+            "P"
           ],
-          "featureCount": 70,
-          "id": "si-zones",
-          "url": "https://pappilappi.com/airspace/web/si-zones.geojson",
+          "featureCount": 54,
+          "id": "si-aviation",
+          "url": "https://pappilappi.com/airspace/web/si-aviation.geojson",
           "typeProp": "_zoneType",
           "defaultOn": true
+        },
+        {
+          "gzBytes": 337174,
+          "zoneTypes": [
+            "SI_NATURE",
+            "SI_NP"
+          ],
+          "featureCount": 461,
+          "id": "si-nature",
+          "url": "https://pappilappi.com/airspace/web/si-nature.geojson",
+          "typeProp": "_zoneType",
+          "defaultOn": false
         }
       ]
     },
@@ -74,11 +84,11 @@
       "attribution": "BAZL/BAFU/VBS · geo.admin.ch",
       "layers": [
         {
-          "gzBytes": 8504,
+          "gzBytes": 2203,
           "zoneTypes": [
             "UAS_AKT_CH"
           ],
-          "featureCount": 73,
+          "featureCount": 32,
           "id": "ch-uas",
           "url": "https://pappilappi.com/airspace/web/ch-uas-aktivitaetszonen.geojson",
           "typeProp": "_zoneType",
@@ -87,7 +97,7 @@
           "label": "UAS-zoner"
         },
         {
-          "gzBytes": 11644,
+          "gzBytes": 11657,
           "zoneTypes": [
             "CTR_CH"
           ],
@@ -100,7 +110,7 @@
           "label": "CTR"
         },
         {
-          "gzBytes": 24826,
+          "gzBytes": 25880,
           "zoneTypes": [
             "TMA_CH"
           ],
@@ -113,7 +123,7 @@
           "label": "TMA"
         },
         {
-          "gzBytes": 19711,
+          "gzBytes": 19693,
           "zoneTypes": [
             "CTA_CH"
           ],
@@ -126,7 +136,7 @@
           "label": "CTA"
         },
         {
-          "gzBytes": 7392,
+          "gzBytes": 10699,
           "zoneTypes": [
             "SICHERHEIT_CH"
           ],
@@ -139,11 +149,11 @@
           "label": "Sicherheitszonen"
         },
         {
-          "gzBytes": 62706,
+          "gzBytes": 60604,
           "zoneTypes": [
             "JAGDBANN_CH"
           ],
-          "featureCount": 114,
+          "featureCount": 43,
           "id": "ch-jagdbann",
           "url": "https://pappilappi.com/airspace/web/ch-jagdbanngebiete.geojson",
           "typeProp": "_zoneType",
@@ -152,11 +162,11 @@
           "label": "Jagdbanngebiete"
         },
         {
-          "gzBytes": 16130,
+          "gzBytes": 21824,
           "zoneTypes": [
             "VOGELRES_CH"
           ],
-          "featureCount": 106,
+          "featureCount": 35,
           "id": "ch-vogel",
           "url": "https://pappilappi.com/airspace/web/ch-vogelreservate.geojson",
           "typeProp": "_zoneType",
@@ -165,7 +175,7 @@
           "label": "Vogelreservate"
         },
         {
-          "gzBytes": 14521,
+          "gzBytes": 34014,
           "zoneTypes": [
             "SCHIESS_CH"
           ],
@@ -178,11 +188,11 @@
           "label": "Schiessanzeigen"
         },
         {
-          "gzBytes": 433112,
+          "gzBytes": 417866,
           "zoneTypes": [
             "OBSTACLE_CH"
           ],
-          "featureCount": 14336,
+          "featureCount": 14449,
           "id": "ch-hinder",
           "url": "https://pappilappi.com/airspace/web/ch-luftfahrthindernis.geojson",
           "typeProp": "_zoneType",
@@ -206,17 +216,31 @@
       "attribution": "Dopravný úrad",
       "layers": [
         {
-          "gzBytes": 49695,
+          "gzBytes": 68165,
           "zoneTypes": [
             "CTR",
             "P",
+            "PARAGLIDER",
+            "PARAJUMP",
             "RSTA"
           ],
-          "featureCount": 100,
+          "featureCount": 145,
           "id": "sk-zones",
           "url": "https://pappilappi.com/airspace/web/sk-zones.geojson",
           "typeProp": "_zoneType",
           "defaultOn": true
+        },
+        {
+          "gzBytes": 15171,
+          "zoneTypes": [
+            "D",
+            "RSTA"
+          ],
+          "featureCount": 11,
+          "id": "sk-reservations",
+          "url": "https://pappilappi.com/airspace/web/sk-reservations.geojson",
+          "typeProp": "_zoneType",
+          "defaultOn": false
         }
       ]
     },
@@ -234,7 +258,7 @@
       "attribution": "IenW ED-269 · PDOK",
       "layers": [
         {
-          "gzBytes": 40166,
+          "gzBytes": 99675,
           "zoneTypes": [
             "CTR_NL",
             "HEMS_NL",
@@ -252,17 +276,7 @@
           "label": "UAS-zones"
         },
         {
-          "gzBytes": 58055,
-          "zoneTypes": [],
-          "featureCount": 0,
-          "id": "nl-pdok",
-          "url": "https://pappilappi.com/airspace/web/nl-pdok.geojson",
-          "typeProp": "_zoneType",
-          "defaultOn": false,
-          "label": "PDOK-zones"
-        },
-        {
-          "gzBytes": 42600,
+          "gzBytes": 158847,
           "zoneTypes": [
             "NATURE_NL"
           ],
@@ -290,10 +304,19 @@
       "attribution": "IAA",
       "layers": [
         {
-          "gzBytes": 0,
-          "featureCount": 0,
+          "gzBytes": 82521,
+          "zoneTypes": [
+            "ATZ",
+            "CTR",
+            "CTR_SPECIFIC_IE",
+            "INFO_IE",
+            "P",
+            "RSTA",
+            "TMA"
+          ],
+          "featureCount": 89,
           "id": "ie-primary",
-          "url": "https://gist.githubusercontent.com/KodKust/c52cf5d3ef3370a7d4c26d9c2b616506/raw/iaa_simplified.geojson",
+          "url": "https://pappilappi.com/airspace/web/ie-ed269.geojson",
           "typeProp": "_zoneType",
           "defaultOn": true
         }
@@ -302,25 +325,26 @@
     "PT": {
       "bounds": [
         [
-          29.8,
-          -31.6
+          36.9,
+          -9.6
         ],
         [
-          42.3,
-          -6
+          42.2,
+          -6.1
         ]
       ],
       "attribution": "ANAC · AAN",
       "layers": [
         {
-          "gzBytes": 67564,
+          "gzBytes": 96231,
           "zoneTypes": [
             "ATZ",
             "CTR",
             "P",
+            "PT_NATURE",
             "RSTA"
           ],
-          "featureCount": 329,
+          "featureCount": 377,
           "id": "pt-zones",
           "url": "https://pappilappi.com/airspace/web/pt-zones.geojson",
           "typeProp": "_zoneType",
@@ -342,11 +366,12 @@
       "attribution": "Samgöngustofa",
       "layers": [
         {
-          "gzBytes": 105059,
+          "gzBytes": 35258,
           "zoneTypes": [
+            "DNGA",
             "RSTA"
           ],
-          "featureCount": 271,
+          "featureCount": 284,
           "id": "is-zones",
           "url": "https://pappilappi.com/airspace/web/is-zones.geojson",
           "typeProp": "_zoneType",
@@ -368,14 +393,17 @@
       "attribution": "Transpordiamet",
       "layers": [
         {
-          "gzBytes": 5546,
+          "gzBytes": 33324,
           "zoneTypes": [
+            "ATZ",
             "CTR",
             "DNGA",
-            "P",
+            "DNGA_ADVISORY",
+            "INFO_EE",
+            "NOTAM",
             "RSTA"
           ],
-          "featureCount": 223,
+          "featureCount": 236,
           "id": "ee-zones",
           "url": "https://pappilappi.com/airspace/web/ee-zones.geojson",
           "typeProp": "_zoneType",
@@ -397,14 +425,17 @@
       "attribution": "Austro Control",
       "layers": [
         {
-          "gzBytes": 81672,
+          "gzBytes": 53263,
           "zoneTypes": [
             "ATZ",
             "CTR",
+            "DNGA_ADVISORY",
+            "MODELLFLUG_AT",
             "P",
-            "RSTA"
+            "RSTA",
+            "TMA"
           ],
-          "featureCount": 239,
+          "featureCount": 287,
           "id": "at-zones",
           "url": "https://pappilappi.com/airspace/web/at-zones.geojson",
           "typeProp": "_zoneType",
@@ -426,13 +457,14 @@
       "attribution": "Trafikstyrelsen · Miljøstyrelsen",
       "layers": [
         {
-          "gzBytes": 112514,
+          "gzBytes": 228838,
           "zoneTypes": [
             "INFRA_DK",
+            "MIL_DK",
             "ORANGE_OPMERK_DK",
             "ROD_FLYG_DK"
           ],
-          "featureCount": 843,
+          "featureCount": 886,
           "id": "dk-primary",
           "url": "https://pappilappi.com/airspace/web/dk-primary.geojson",
           "typeProp": "_zoneType",
@@ -440,7 +472,7 @@
           "label": "Dronezoner"
         },
         {
-          "gzBytes": 18766,
+          "gzBytes": 106689,
           "zoneTypes": [
             "GRON_NATUR"
           ],
@@ -468,8 +500,9 @@
       "attribution": "AACR",
       "layers": [
         {
-          "gzBytes": 52627,
+          "gzBytes": 85980,
           "zoneTypes": [
+            "P",
             "RSTA"
           ],
           "featureCount": 1272,
@@ -477,6 +510,239 @@
           "url": "https://pappilappi.com/airspace/web/ro-zones.geojson",
           "typeProp": "_zoneType",
           "defaultOn": true
+        }
+      ]
+    },
+    "DE": {
+      "bounds": [
+        [
+          47.3,
+          5.9
+        ],
+        [
+          55.1,
+          15.1
+        ]
+      ],
+      "attribution": "DFS dipul (CC BY-ND 4.0) · BfN (GeoNutzV)",
+      "layers": [
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "kontrollzonen",
+          "url": "https://pappilappi.com/airspace/web/de/kontrollzonen.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_CTR",
+          "defaultOn": true
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "flugbeschraenkungsgebiete",
+          "url": "https://pappilappi.com/airspace/web/de/flugbeschraenkungsgebiete.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_RESTRICTED",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "flughaefen",
+          "url": "https://pappilappi.com/airspace/web/de/flughaefen.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_AIRPORT",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "flugplaetze",
+          "url": "https://pappilappi.com/airspace/web/de/flugplaetze.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_AIRPORT",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "temporaere_betriebseinschraenkungen",
+          "url": "https://pappilappi.com/airspace/web/de/temporaere_betriebseinschraenkungen.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_TEMP",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "militaerische_anlagen",
+          "url": "https://pappilappi.com/airspace/web/de/militaerische_anlagen.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_MIL",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "natur",
+          "url": "https://pappilappi.com/airspace/web/de/natur.geojson",
+          "typeProp": "_zoneType",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "natur2000",
+          "url": "https://pappilappi.com/airspace/web/de/natur2000.geojson",
+          "typeProp": "_zoneType",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "windkraftanlagen",
+          "url": "https://pappilappi.com/airspace/web/de/windkraftanlagen.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_WIND",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "freibaeder",
+          "url": "https://pappilappi.com/airspace/web/de/freibaeder.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_BATHING",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "krankenhaeuser",
+          "url": "https://pappilappi.com/airspace/web/de/krankenhaeuser.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_HOSPITAL",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "polizei",
+          "url": "https://pappilappi.com/airspace/web/de/polizei.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_GOV",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "sicherheitsbehoerden",
+          "url": "https://pappilappi.com/airspace/web/de/sicherheitsbehoerden.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_GOV",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "behoerden",
+          "url": "https://pappilappi.com/airspace/web/de/behoerden.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_GOV",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "umspannwerke",
+          "url": "https://pappilappi.com/airspace/web/de/umspannwerke.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_INDUSTRY",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "kraftwerke",
+          "url": "https://pappilappi.com/airspace/web/de/kraftwerke.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_INDUSTRY",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "justizvollzugsanstalten",
+          "url": "https://pappilappi.com/airspace/web/de/justizvollzugsanstalten.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_PRISON",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "diplomatische_vertretungen",
+          "url": "https://pappilappi.com/airspace/web/de/diplomatische_vertretungen.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_GOV",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "internationale_organisationen",
+          "url": "https://pappilappi.com/airspace/web/de/internationale_organisationen.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_GOV",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "labore",
+          "url": "https://pappilappi.com/airspace/web/de/labore.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_INDUSTRY",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "seewasserstrassen",
+          "url": "https://pappilappi.com/airspace/web/de/seewasserstrassen.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_WATERWAY",
+          "defaultOn": false
+        },
+        {
+          "gzBytes": 0,
+          "featureCount": 0,
+          "pendingFetcher": true,
+          "id": "schifffahrtsanlagen",
+          "url": "https://pappilappi.com/airspace/web/de/schifffahrtsanlagen.geojson",
+          "typeProp": "_zoneType",
+          "zoneKeyDefault": "DE_WATERWAY",
+          "defaultOn": false
         }
       ]
     },
@@ -494,11 +760,21 @@
       "attribution": "ENAIRE · Parques Nacionales",
       "layers": [
         {
-          "gzBytes": 61451,
+          "gzBytes": 970768,
           "zoneTypes": [
-            "RSTA"
+            "AERO_ES",
+            "AERO_ES_RING",
+            "CTR",
+            "ENR55_ES",
+            "HKP1K_ES",
+            "HKP1K_ES_RING",
+            "INFRA_ES",
+            "P",
+            "RSTA",
+            "RVF_ES",
+            "URBANO_ES"
           ],
-          "featureCount": 1688,
+          "featureCount": 1638,
           "id": "es-zones",
           "url": "https://pappilappi.com/airspace/web/es-zones.geojson",
           "typeProp": "_zoneType",
@@ -507,9 +783,10 @@
           "pendingFetcher": true
         },
         {
-          "gzBytes": 10657,
+          "gzBytes": 62711,
           "zoneTypes": [
-            "PARQUE_NACIONAL_ES"
+            "PARQUE_NACIONAL_ES",
+            "ZPP_ES"
           ],
           "featureCount": 27,
           "id": "es-parques",
@@ -535,15 +812,16 @@
       "attribution": "IGN · DGAC",
       "layers": [
         {
-          "gzBytes": 4087432,
+          "gzBytes": 3630926,
           "zoneTypes": [
             "FR_FORBIDDEN",
             "FR_MAX100",
             "FR_MAX30",
             "FR_MAX50",
-            "FR_MAX60"
+            "FR_MAX60",
+            "FR_UNKNOWN"
           ],
-          "featureCount": 448,
+          "featureCount": 3589,
           "id": "fr-drones",
           "url": "https://pappilappi.com/airspace/web/fr-drones.geojson",
           "typeProp": "_zoneType",
@@ -551,7 +829,7 @@
           "label": "Zones drones (IGN)"
         },
         {
-          "gzBytes": 35506,
+          "gzBytes": 138469,
           "zoneTypes": [
             "PARC_NATIONAL_FR"
           ],
@@ -564,7 +842,7 @@
           "label": "Parcs nationaux"
         },
         {
-          "gzBytes": 23085,
+          "gzBytes": 34953,
           "zoneTypes": [
             "ZICAD_FR"
           ],
@@ -592,7 +870,7 @@
       "attribution": "Traficom · SYKE · AIS Finland",
       "layers": [
         {
-          "gzBytes": 26294,
+          "gzBytes": 44307,
           "zoneTypes": [
             "CTR_FI",
             "HEMS_FI",
@@ -603,7 +881,7 @@
             "P_FI",
             "RESTRICTED_FI"
           ],
-          "featureCount": 721,
+          "featureCount": 736,
           "id": "fi-primary",
           "url": "https://pappilappi.com/airspace/web/fi-primary.geojson",
           "typeProp": "_zoneType",
@@ -611,7 +889,7 @@
           "label": "UAS-vyöhykkeet"
         },
         {
-          "gzBytes": 8546,
+          "gzBytes": 11731,
           "zoneTypes": [
             "EFD_FI",
             "EFP_FI",
@@ -625,11 +903,11 @@
           "label": "EFP/EFR/EFD"
         },
         {
-          "gzBytes": 213151,
+          "gzBytes": 1624995,
           "zoneTypes": [
             "GRON_NATUR_FI"
           ],
-          "featureCount": 2099,
+          "featureCount": 1778,
           "id": "fi-natur",
           "url": "https://pappilappi.com/airspace/web/fi-natur.geojson",
           "typeProp": "_zoneType",
@@ -653,7 +931,7 @@
       "attribution": "LFV",
       "layers": [
         {
-          "gzBytes": 22681,
+          "gzBytes": 50567,
           "zoneTypes": [
             "ATZ",
             "CTR",
@@ -664,7 +942,7 @@
             "SUP",
             "TIZ"
           ],
-          "featureCount": 366,
+          "featureCount": 412,
           "id": "se-zones",
           "url": "https://pappilappi.com/airspace/web/se-zones.geojson",
           "typeProp": "_zoneType",
@@ -688,22 +966,20 @@
       "attribution": "Avinor · Miljødirektoratet · NVE",
       "layers": [
         {
-          "gzBytes": 227600,
+          "gzBytes": 89820,
           "zoneTypes": [
+            "DNGA",
             "NO_CTR_TIZ",
+            "NO_EMBASSY",
             "NO_MARINE_RESTRICTED",
             "NO_MILITARY_RANGE",
-            "NO_NATURE_FERDSEL",
-            "NO_NATURE_FORSVAR",
-            "NO_NATURE_LANDING",
-            "NO_NATURE_LOWFLY",
             "NO_NFZ_AERODROME",
             "NO_PRISON",
             "NO_RESTRICTED_AREA",
             "NO_RESTRICTED_DORMANT",
             "NO_RESTRICTED_R102"
           ],
-          "featureCount": 8015,
+          "featureCount": 456,
           "id": "no-zones",
           "url": "https://pappilappi.com/airspace/web/no.geojson",
           "typeProp": "_zoneType",
@@ -711,9 +987,11 @@
           "label": "Restriksjonsområder"
         },
         {
-          "gzBytes": 10786,
-          "zoneTypes": [],
-          "featureCount": 0,
+          "gzBytes": 12917,
+          "zoneTypes": [
+            "NO_INFRA_NVE"
+          ],
+          "featureCount": 39,
           "id": "no-nve",
           "url": "https://pappilappi.com/airspace/web/no-nve-infra.geojson",
           "typeProp": "_zoneType",
@@ -726,25 +1004,25 @@
     "US": {
       "bounds": [
         [
-          17,
-          -179.5
+          24.4,
+          -125
         ],
         [
-          71.5,
-          -65
+          49.4,
+          -66.9
         ]
       ],
       "attribution": "FAA",
       "layers": [
         {
-          "gzBytes": 876694,
+          "gzBytes": 1026685,
           "zoneTypes": [
             "UASFM_HIGH",
             "UASFM_LOW",
             "UASFM_MID",
             "UASFM_NOFLY"
           ],
-          "featureCount": 7134,
+          "featureCount": 12346,
           "id": "us-uasfm",
           "url": "https://pappilappi.com/airspace/web/us.geojson",
           "typeProp": "type",
@@ -752,14 +1030,14 @@
           "label": "UASFM grid"
         },
         {
-          "gzBytes": 169596,
+          "gzBytes": 425862,
           "zoneTypes": [
             "CLASS_B",
             "CLASS_C",
             "CLASS_D",
             "CLASS_E2"
           ],
-          "featureCount": 1796,
+          "featureCount": 1798,
           "id": "us-classes",
           "url": "https://pappilappi.com/airspace/web/us-classes.geojson",
           "typeProp": "type",
@@ -767,14 +1045,14 @@
           "label": "Class B/C/D/E2"
         },
         {
-          "gzBytes": 79872,
+          "gzBytes": 168031,
           "zoneTypes": [
             "SUA_MOA",
             "SUA_PROHIBITED",
             "SUA_RESTRICTED",
             "SUA_WARNING"
           ],
-          "featureCount": 1494,
+          "featureCount": 1498,
           "id": "us-sua",
           "url": "https://pappilappi.com/airspace/web/us-sua.geojson",
           "typeProp": "type",
@@ -782,7 +1060,7 @@
           "label": "Special Use Airspace"
         },
         {
-          "gzBytes": 509,
+          "gzBytes": 1190,
           "zoneTypes": [
             "NSUFR_US"
           ],
@@ -808,11 +1086,11 @@
           "label": "DC SFRA"
         },
         {
-          "gzBytes": 80339,
+          "gzBytes": 441194,
           "zoneTypes": [
             "NPS_PARK"
           ],
-          "featureCount": 418,
+          "featureCount": 442,
           "id": "us-nps",
           "url": "https://pappilappi.com/airspace/web/us-nps.geojson",
           "typeProp": "type",
@@ -821,11 +1099,11 @@
           "label": "National Parks"
         },
         {
-          "gzBytes": 384796,
+          "gzBytes": 2431465,
           "zoneTypes": [
             "USFWS_REFUGE"
           ],
-          "featureCount": 1094,
+          "featureCount": 1085,
           "id": "us-wildlife",
           "url": "https://pappilappi.com/airspace/web/us-wildlife-refuges.geojson",
           "typeProp": "type",
@@ -834,11 +1112,11 @@
           "label": "Wildlife Refuges"
         },
         {
-          "gzBytes": 149890,
+          "gzBytes": 182269,
           "zoneTypes": [
             "FRIA_US"
           ],
-          "featureCount": 2671,
+          "featureCount": 2723,
           "id": "us-fria",
           "url": "https://pappilappi.com/airspace/web/us-fria.geojson",
           "typeProp": "type",

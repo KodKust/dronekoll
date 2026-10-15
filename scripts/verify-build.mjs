@@ -215,7 +215,7 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
 // blandspråkskänsliga i18n-nycklar i REQUIRE_27 så bygget vaktar dem.
 {
   const LANGS = ['bg','cs','da','de','el','en','es','et','fi','fr','hr','hu','is','it','lt','lv','mt','nl','no','pl','pt','ro','sk','sl','sv','tr','uk'];
-  const REQUIRE_27 = ['sources.verified', 'map.openOfficial', 'related.title', 'quickanswer.title', 'quickanswer.body',
+  const REQUIRE_27 = ['sources.verified', 'map.openOfficial', 'map.openSource', 'faq.tpl.zones.nomap', 'sources.disclaimer', 'related.title', 'quickanswer.title', 'quickanswer.body',
     // Turist-/utlännings-FAQ: samma blandspråksrisk. Landsnoterna (visitor-notes.json)
     // vaktas av sektion 6 — här vaktas bara mallarna.
     'faq.q.visitor', 'faq.tpl.visitor.easa', 'faq.tpl.visitor.other', 'faq.tpl.visitor.generic',

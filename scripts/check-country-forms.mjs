@@ -50,6 +50,7 @@ const PREPOSITIONS = {
   ro: ['în'],
   nl: ['in', 'op'], // ö-stater tar 'op' (op Malta, op IJsland, op de Filipijnen)
   de: ['in', 'im', 'auf'], // ö-stater tar 'auf' (auf Malta, auf den Philippinen)
+  sv: ['i', 'på'], // ö-stater tar 'på' (på Island, på Malta, på Cypern, på Filippinerna)
 };
 
 function loadNames(lang) {
@@ -109,6 +110,17 @@ for (const file of files.sort()) {
       if (form.trim() === name.trim() && !forms[iso].indeclinable) {
         wrong.push(`${iso} "${form}" är oböjd (sätt "indeclinable": true om det stämmer)`);
       }
+    } else if (forms[iso].article) {
+      // Bestämd artikel som suffix (bg "Съединени щати" → "в Съединените щати"):
+      // ordagrann träff är omöjlig. Varje ord i namnet måste i stället inleda
+      // motsvarande ord i formen (efter prepositionen) och får förlängas med
+      // högst ett kort artikelsuffix — en påhittad stam fångas ändå.
+      const nw = name.trim().split(/\s+/);
+      const fw = form.trim().split(/\s+/).slice(1);
+      const okArticle =
+        nw.length === fw.length &&
+        nw.every((w, i) => fw[i].toLowerCase().startsWith(w.toLowerCase()) && fw[i].length - w.length <= 3);
+      if (!okArticle) wrong.push(`${iso} "${form}" matchar inte "${name}" + artikelsuffix`);
     } else if (!form.toLowerCase().includes(name.toLowerCase())) {
       // Skiftlägesokänsligt: artikelsammansmältning kan ändra initialen
       // (mt "Il-Brażil" -> "fil-Brażil"), och källdatan är inte konsekvent i

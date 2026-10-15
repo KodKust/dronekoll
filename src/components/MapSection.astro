@@ -28,6 +28,12 @@ const c = page.country;
 const interactive = c.hasAirspaceOverlay && !!mapConfig;
 // Zonsumma till klick-att-ladda-knappens etikett ("Ladda {n} zoner ({mb} MB)").
 // {mb} lämnas kvar som platshållare — zone-map.ts fyller den vid rendering.
+// Kartknappen får lova "officiell drönarkarta" bara när datans egen etikett
+// (airspaceMapLabel) säger att länken är en karta. Etiketten visas inte själv —
+// den är app-ägd på ett språk (mest engelska) och gav blandspråk på 26 språk
+// (Fas 2). Länkar till portaler, AIP:er, startsidor och EASA-bulletinen (UA)
+// får den neutrala "officiella källan".
+const linkIsMap = /map|kart|karte|carte|zemljevid|visor|kort/i.test(c.airspaceMapLabel ?? '');
 const defaultZoneCount = ((mapConfig as { layers?: { defaultOn?: boolean; featureCount?: number }[] } | null)?.layers ?? [])
   .filter((l) => l.defaultOn)
   .reduce((sum, l) => sum + (l.featureCount || 0), 0);
@@ -89,7 +95,7 @@ const defaultZoneCount = ((mapConfig as { layers?: { defaultOn?: boolean; featur
   {c.airspaceMapUrl && (
     <figcaption class="mapframe__caption">
       <a href={c.airspaceMapUrl} rel="noopener nofollow" target="_blank">
-        {t('map.openOfficial', page.lang)}
+        {t(linkIsMap ? 'map.openOfficial' : 'map.openSource', page.lang)}
       </a>
     </figcaption>
   )}

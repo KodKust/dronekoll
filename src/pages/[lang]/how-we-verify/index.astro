@@ -114,6 +114,11 @@ const ldBlocks = [
         <div class="content">
           <h2 id={s.id}>{s.title}</h2>
           <p class="prose method-body">{s.body}</p>
+          {/* Felrapport-avsnittet hänvisar till kontaktuppgifterna i
+              integritetspolicyn — länka dit direkt (ingen adress exponeras här). */}
+          {s.id === 'method-s5' && (
+            <p class="prose method-body"><a href="/privacy/">{t('footer.privacy', lang)} →</a></p>
+          )}
         </div>
       </section>
     ))}

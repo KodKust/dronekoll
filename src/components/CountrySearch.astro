@@ -28,7 +28,6 @@ const [cPre, cPost = ''] = t('home.trust.countries', lang, { n: '__N__' }).split
       autocomplete="off"
       aria-label={t('grid.search', lang)}
     />
-    <kbd aria-hidden="true">/</kbd>
   </div>
   <p class="caption tnum grid-count" data-lang={lang} aria-live="polite">
     {cPre}<span id="grid-count-n">{total.toLocaleString(lang)}</span>{cPost}
@@ -57,12 +56,6 @@ const [cPre, cPost = ''] = t('home.trust.countries', lang, { n: '__N__' }).split
       }
       if (empty) empty.hidden = hits > 0;
       if (countEl) countEl.textContent = fmt.format(hits);
-    });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === '/' && document.activeElement !== input) {
-        e.preventDefault();
-        input.focus();
-      }
     });
   }
 </script>
@@ -105,17 +98,6 @@ const [cPre, cPost = ''] = t('home.trust.countries', lang, { n: '__N__' }).split
     font-size: var(--text-body);
     color: var(--ink);
   }
-  .grid-search kbd {
-    background: var(--soft-btn);
-    border-radius: 6px;
-    padding: 2px 8px;
-    font-size: var(--text-caption);
-    font-family: var(--font-body);
-    color: var(--ink-3);
-  }
   .grid-count { white-space: nowrap; }
   .grid-empty { margin-bottom: var(--space-5); color: var(--ink-2); }
-  @media (max-width: 768px) {
-    .grid-search kbd { display: none; }
-  }
 </style>

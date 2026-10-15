@@ -1,6 +1,6 @@
 /**
  * SEO-byggare: titlar/beskrivningar (via web-strängarna) + JSON-LD.
- * Regler: dateModified = lastVerified · FAQPage ENDAST för synligt renderade
+ * Regler: inget dateModified (kontrolldatumet visas inte sedan 2026-09-24) · FAQPage ENDAST för synligt renderade
  * Q/A · SoftwareApplication utan aggregateRating tills äkta betyg hämtas.
  */
 import { t } from './i18n';
@@ -100,7 +100,9 @@ export function webPageLd(page: PageEntry, title: string, description: string) {
     description,
     url: SITE + page.urlPath,
     inLanguage: page.lang,
-    ...(page.country.lastVerified ? { dateModified: page.country.lastVerified } : {}),
+    // Inget dateModified ur lastVerified: kontrolldatumet togs bort från sidan
+    // 2026-09-24 (lästes som "kontrollerat mot myndigheten") — schemat ska inte
+    // bära det sidan medvetet slutat påstå.
     isPartOf: { '@type': 'WebSite', name: brandForLang(page.lang), url: SITE },
   };
 }
@@ -266,12 +268,16 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
   // overlay-varianten lovar zoner "på denna sida" → kräver att sidkartan faktiskt
   // är interaktiv (annars ljög SE/ES-pending). NOTAM-länder lovar app-NOTAM;
   // bas-länder får inga app-datalöften alls. Går även in i FAQPage-JSON-LD.
+  // notam/base-mallarna lovar "den officiella kartan under Källor" — utan
+  // airspaceMapUrl (PH/ZA) finns ingen sådan länk, så de får nomap-varianten.
   const zonesKey =
     c.hasAirspaceOverlay && opts.interactiveMap
       ? 'faq.tpl.zones.overlay'
-      : c.hasNotam
-        ? 'faq.tpl.zones.notam'
-        : 'faq.tpl.zones.base';
+      : !c.airspaceMapUrl
+        ? 'faq.tpl.zones.nomap'
+        : c.hasNotam
+          ? 'faq.tpl.zones.notam'
+          : 'faq.tpl.zones.base';
   items.push({
     id: 'zones',
     q: t('faq.q.zones', lang, { ...cp }),

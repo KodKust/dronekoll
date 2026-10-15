@@ -26,6 +26,7 @@ import { splitCountryHeading } from '../../../lib/country-forms.mjs';
 import { zoneCountByIso } from '../../../lib/ingest';
 import { mapConfigFor } from '../../../lib/mapconfig';
 import { t } from '../../../lib/i18n';
+import { webDisclaimer } from '../../../lib/web-disclaimer';
 import {
   countryTitle,
   countryDescription,
@@ -240,7 +241,7 @@ const ldBlocks = [
         </section>
       )}
 
-      {c.disclaimerText && <p class="small disclaimer">{c.disclaimerText}</p>}
+      {c.disclaimerText && <p class="small disclaimer">{webDisclaimer(c.disclaimerText, lang)}</p>}
     </div>
   </section>
 

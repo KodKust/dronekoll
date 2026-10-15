@@ -54,6 +54,18 @@ const NAME_OVERRIDES = {
     ro: 'Hong Kong', sk: 'Hongkong', sl: 'Hongkong', sv: 'Hongkong',
     tr: 'Hong Kong', uk: 'Гонконг',
   },
+  // Språkrättelser 2026-10-15 (sajtgranskningen runda 2). Objektform = namnet
+  // rättas men den redan publicerade sluggen LÅSES (slugs är append-only —
+  // en ny slug vore en ny URL och tappade sidans söktrafik).
+  LU: { no: { name: 'Luxembourg', slug: 'luxemburg' } }, // Språkrådet; CLDR nb ger "Luxemburg"
+  CZ: { pt: { name: 'Chéquia', slug: 'tchequia' } }, // pt-PT (CLDR pt = pt-BR)
+  EE: { pt: 'Estónia' },
+  LV: { pt: 'Letónia' },
+  PL: { pt: 'Polónia' },
+  RO: { pt: 'Roménia' },
+  SI: { pt: 'Eslovénia' },
+  DO: { mt: { name: 'ir-Repubblika Dominikana', slug: 'ir-repubblika-dominicana' } }, // maltesiskan saknar bokstaven c
+  BR: { mt: 'il-Brażil' }, // gemen artikel som alla andra mt-namn
 };
 
 const out = {};
@@ -68,9 +80,12 @@ for (const c of countriesFile.countries) {
   out[iso] = {};
   for (const lang of LANGS) {
     if (lang === c.languageCode) continue; // native → slugs.json.local
-    const name = NAME_OVERRIDES[iso]?.[lang] ?? (dn[lang].of(iso) || s.en.name);
+    const ov = NAME_OVERRIDES[iso]?.[lang];
+    const name = (typeof ov === 'object' ? ov.name : ov) ?? (dn[lang].of(iso) || s.en.name);
     let slug;
-    if (NON_LATIN.has(lang)) {
+    if (typeof ov === 'object' && ov.slug) {
+      slug = ov.slug;
+    } else if (NON_LATIN.has(lang)) {
       slug = enSlug; // ASCII-URL, namnet bär skriften
     } else {
       slug = slugify(name) || enSlug;

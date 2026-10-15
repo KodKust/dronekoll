@@ -179,9 +179,9 @@ for (const c of countries) {
       lang: v.lang,
       displayName: v.name,
     });
-    const caption = c.lastVerified
-      ? t('freshness.updated', v.lang).replace('{date}', c.lastVerified)
-      : `${brandFor(v.lang)} · ${year}`;
+    // freshness.updated togs bort i 4ad9abd (ingen datumstämpel, beslut 2026-09-24) —
+    // t() gav då nyckelnamnet rått i alla 1 621 bilder. Bildtexten är alltid varumärke + år.
+    const caption = `${brandFor(v.lang)} · ${year}`;
     const dir = join(OUT, v.lang);
     mkdirSync(dir, { recursive: true });
     bytes += await render(
@@ -226,9 +226,7 @@ for (const c of countries) {
       lang,
       displayName: entry.name,
     });
-    const caption = c.lastVerified
-      ? t('freshness.updated', lang).replace('{date}', c.lastVerified)
-      : `${brandFor(lang)} · ${year}`;
+    const caption = `${brandFor(lang)} · ${year}`;
     const dir = join(OUT, lang);
     mkdirSync(dir, { recursive: true });
     bytes += await render(
