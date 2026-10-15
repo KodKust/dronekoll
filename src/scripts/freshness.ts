@@ -44,7 +44,7 @@ if (badge) {
     c.kind ? c.kind === 'feed' : /^(Feed:|Primär)/.test(c.name || '');
 
   fetch('https://pappilappi.com/status/status.json', {
-    signal: AbortSignal.timeout(3000),
+    signal: typeof AbortSignal.timeout === 'function' ? AbortSignal.timeout(3000) : undefined,
   })
     .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
     .then((data: { countries?: CountryStatus[] }) => {

@@ -16,7 +16,7 @@ import Footer from '../../../components/Footer.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import FeatureCard from '../../../components/FeatureCard.astro';
 import AppCta from '../../../components/AppCta.astro';
-import { LANGUAGE_CODES, featureCluster, brandForLang, tFeature, featuresForLang, siteCounts } from '../../../lib/model';
+import { LANGUAGE_CODES, featureCluster, brandForLang, tFeature, featuresForLang, siteCounts, hubPath } from '../../../lib/model';
 import { t } from '../../../lib/i18n';
 import { softwareAppLd, organizationLd, webSiteLd } from '../../../lib/seo';
 
@@ -57,7 +57,7 @@ const ldBlocks = [organizationLd(), webSiteLd(lang), softwareAppLd(lang)];
   <section class="band band--paper app-hero">
     <div class="shell app-hero__grid">
       <div class="hero-seq app-hero__copy">
-        <Breadcrumbs items={[{ label: t('bc.home', lang), href: `/${lang}/` }, { label: t('app.bc', lang) }]} />
+        <Breadcrumbs items={[{ label: t('bc.home', lang), href: hubPath(lang) }, { label: t('app.bc', lang) }]} />
         <h1>
           {t('app.overview.h1.pre', lang)}{' '}
           <span class="h-accent">{t('app.overview.h1.accent', lang)}</span>

@@ -12,6 +12,9 @@ import type { Country } from './schema';
 
 export const SITE = 'https://dronekoll.com';
 
+/** Hubbens sökväg per språk. Engelskans kanoniska hubb är "/" (se hubCluster). */
+export const hubPath = (lang: string) => (lang === 'en' ? '/' : `/${lang}/`);
+
 /** Appens 27 språk med nativt visningsnamn (språkväxlaren). */
 export const LANGUAGES: Record<string, string> = {
   bg: 'Български',

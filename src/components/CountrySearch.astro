@@ -30,7 +30,7 @@ const [cPre, cPost = ''] = t('home.trust.countries', lang, { n: '__N__' }).split
     />
     <kbd aria-hidden="true">/</kbd>
   </div>
-  <p class="caption tnum grid-count" data-lang={lang}>
+  <p class="caption tnum grid-count" data-lang={lang} aria-live="polite">
     {cPre}<span id="grid-count-n">{total.toLocaleString(lang)}</span>{cPost}
   </p>
 </div>
@@ -48,7 +48,7 @@ const [cPre, cPost = ''] = t('home.trust.countries', lang, { n: '__N__' }).split
       'en';
     const fmt = new Intl.NumberFormat(lang);
     input.addEventListener('input', () => {
-      const q = input.value.trim().toLowerCase();
+      const q = input.value.trim().toLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
       let hits = 0;
       for (const c of cards) {
         const show = q === '' || c.dataset.names!.includes(q);

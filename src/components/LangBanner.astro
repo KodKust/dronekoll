@@ -77,7 +77,7 @@ for (const code of LANGUAGE_CODES) {
 
     // Första stödda webbläsarspråket (sv-SE → sv)
     const want = (navigator.languages ?? [navigator.language])
-      .map((l) => l.toLowerCase().split('-')[0])
+      .map((l) => { const b = l.toLowerCase().split('-')[0]; return b === 'nb' || b === 'nn' ? 'no' : b; })
       .find((l) => supported.has(l));
 
     const dismissed = safeStorageGet('langSuggest');
@@ -91,6 +91,7 @@ for (const code of LANGUAGE_CODES) {
       link.querySelector('span')!.textContent = texts[want].text;
       const closeBtn = banner.querySelector<HTMLButtonElement>('.langbanner__close')!;
       closeBtn.setAttribute('aria-label', texts[want].close);
+      banner.lang = want;
       banner.hidden = false;
 
       closeBtn.addEventListener('click', () => {

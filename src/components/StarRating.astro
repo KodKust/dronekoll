@@ -20,7 +20,7 @@ const fill = Math.max(0, Math.min(100, (value / 5) * 100));
     <span class="starrate__empty">★★★★★</span>
     <span class="starrate__fill">★★★★★</span>
   </span>
-  <span class="starrate__num">{value.toLocaleString(lang)}</span>
+  <span class="starrate__num">{value.toLocaleString(lang)}<span class="sr-only"> / 5</span></span>
   <span class="starrate__src">{source}</span>
 </span>
 

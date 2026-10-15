@@ -75,7 +75,7 @@ function canonical(value: unknown): string {
 /** Spegel av translate_en.py:s source_payload (via check-en-staleness.mjs). */
 function enSourcePayload(c: Country): FieldsPayload {
   const payload: FieldsPayload = {};
-  for (const k of STRING_FIELDS) if (c[k]) payload[k] = c[k];
+  for (const k of STRING_FIELDS) payload[k] = c[k] ?? null;
   for (const k of LIST_FIELDS) payload[k] = c[k] ?? [];
   payload.primaryLinks = (c.primaryLinks ?? []).map((l) => ({
     title: l.title ?? '',

@@ -4,7 +4,7 @@
  * Q/A · SoftwareApplication utan aggregateRating tills äkta betyg hämtas.
  */
 import { t } from './i18n';
-import { brandForLang, SITE, type PageEntry } from './model';
+import { brandForLang, SITE, hubPath, type PageEntry } from './model';
 // Kasusformerna (och H1-uppdelningen) bor i country-forms.mjs så att
 // scripts/og-images.mjs kan dela exakt samma logik — se filens huvudkommentar.
 import { capitalizeLeadingArticle, countryParams } from './country-forms.mjs';
@@ -77,7 +77,7 @@ export function breadcrumbLd(page: PageEntry) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: t('bc.home', page.lang), item: `${SITE}/${page.lang}/` },
+      { '@type': 'ListItem', position: 1, name: t('bc.home', page.lang), item: SITE + hubPath(page.lang) },
       { '@type': 'ListItem', position: 2, name: page.displayName, item: SITE + page.urlPath },
     ],
   };
@@ -133,7 +133,7 @@ export function softwareAppLd(lang: string) {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
     name: brandForLang(lang),
-    operatingSystem: 'iOS',
+    operatingSystem: 'iOS, Android',
     applicationCategory: 'UtilitiesApplication',
     url: APP_STORE_URL,
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, // gratis att ladda ner
@@ -213,7 +213,7 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
 
   // 1. Behörighet/licens
   if (c.dronePilotCredentialName && reg) {
-    const easa = /EASA|2019\/947/i.test(c.regulatoryBase ?? '');
+    const easa = page.iso.toUpperCase() !== 'GB' && /EASA|2019\/947/i.test(c.regulatoryBase ?? '');
     items.push({
       id: 'credential',
       q: t('faq.q.credential', lang, { ...cp }),
@@ -232,7 +232,7 @@ export function buildFaq(page: PageEntry, opts: { interactiveMap?: boolean } = {
   //    (faq.tpl.visitor.other) eller ärlig generisk fallback. note slås upp på
   //    EXAKT sidans språk (aldrig cross-lang-fallback) → aldrig blandspråk.
   if (reg) {
-    const easaV = /EASA|2019\/947/i.test(c.regulatoryBase ?? '');
+    const easaV = page.iso.toUpperCase() !== 'GB' && /EASA|2019\/947/i.test(c.regulatoryBase ?? '');
     const note = loadVisitorNotes()[page.iso.toUpperCase()]?.[lang];
     let a: string;
     if (easaV) {

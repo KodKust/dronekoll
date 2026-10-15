@@ -14,7 +14,7 @@ import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
 import BenefitGrid from '../../../../components/BenefitGrid.astro';
 import FaqBlock from '../../../../components/FaqBlock.astro';
 import AppCta from '../../../../components/AppCta.astro';
-import { loadFeatures, featureLangs, featureCluster, brandForLang, siteCounts, SITE } from '../../../../lib/model';
+import { loadFeatures, featureLangs, featureCluster, brandForLang, siteCounts, SITE, hubPath } from '../../../../lib/model';
 import { t } from '../../../../lib/i18n';
 import { breadcrumbLd, faqLd, softwareAppLd, webPageLd, organizationLd, type FaqItem } from '../../../../lib/seo';
 import type { PageEntry } from '../../../../lib/model';
@@ -79,7 +79,7 @@ const ldBlocks = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: t('bc.home', lang), item: `${SITE}/${lang}/` },
+      { '@type': 'ListItem', position: 1, name: t('bc.home', lang), item: SITE + hubPath(lang) },
       { '@type': 'ListItem', position: 2, name: t('app.bc', lang), item: `${SITE}/${lang}/app/` },
       { '@type': 'ListItem', position: 3, name, item: `${SITE}/${lang}/app/${feature}/` },
     ],
@@ -112,7 +112,7 @@ const ldBlocks = [
       <div class="hero-seq feat-hero__text">
         <Breadcrumbs
           items={[
-            { label: t('bc.home', lang), href: `/${lang}/` },
+            { label: t('bc.home', lang), href: hubPath(lang) },
             { label: t('app.bc', lang), href: `/${lang}/app/` },
             { label: name },
           ]}

@@ -13,7 +13,7 @@
  */
 import Wordmark from './Wordmark.astro';
 import LanguageSwitcher from './LanguageSwitcher.astro';
-import { brandForLang } from '../lib/model';
+import { brandForLang, hubPath } from '../lib/model';
 import { t } from '../lib/i18n';
 import type { Alternate } from '../lib/model';
 
@@ -28,9 +28,9 @@ const brand = brandForLang(lang);
 
 <header class="site-header">
   <div class="shell site-header__inner">
-    <Wordmark brand={brand} href={`/${lang}/`} />
-    <nav class="site-header__nav" aria-label="Site">
-      <a class="site-header__link" href={`/${lang}/`}>{t('nav.allCountries', lang)}</a>
+    <Wordmark brand={brand} href={hubPath(lang)} />
+    <nav class="site-header__nav" aria-label={t('a11y.nav.site', lang)}>
+      <a class="site-header__link" href={hubPath(lang)}>{t('nav.allCountries', lang)}</a>
       <a class="site-header__link" href={`/${lang}/app/`}>{t('app.bc', lang)}</a>
       <LanguageSwitcher lang={lang} cluster={cluster} />
 
@@ -44,7 +44,7 @@ const brand = brandForLang(lang);
           </svg>
         </summary>
         <div class="site-menu__pop card">
-          <a class="site-menu__link" href={`/${lang}/`}>{t('nav.allCountries', lang)}</a>
+          <a class="site-menu__link" href={hubPath(lang)}>{t('nav.allCountries', lang)}</a>
           <a class="site-menu__link" href={`/${lang}/app/`}>{t('app.bc', lang)}</a>
         </div>
       </details>
@@ -66,6 +66,13 @@ const brand = brandForLang(lang);
     for (const d of document.querySelectorAll('details.site-menu[open]')) {
       d.removeAttribute('open');
       d.querySelector<HTMLElement>('summary')?.focus();
+    }
+  });
+  // T_a11y-12: stäng när fokus tabbar ut ur popovern, annars ligger den kvar
+  // (z-index 60 i den sticky headern) och döljer det som fått fokus.
+  document.addEventListener('focusin', (e) => {
+    for (const d of document.querySelectorAll('details.site-menu[open]')) {
+      if (!d.contains(e.target as Node)) d.removeAttribute('open');
     }
   });
 </script>

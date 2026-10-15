@@ -21,7 +21,7 @@ import FreshnessBadge from '../../../components/FreshnessBadge.astro';
 import MapSection from '../../../components/MapSection.astro';
 import AppCta from '../../../components/AppCta.astro';
 import CountryGrid from '../../../components/CountryGrid.astro';
-import { allCountryPages, relatedCountries, enArticle, type PageEntry } from '../../../lib/model';
+import { allCountryPages, relatedCountries, enArticle, hubPath, type PageEntry } from '../../../lib/model';
 import { splitCountryHeading } from '../../../lib/country-forms.mjs';
 import { zoneCountByIso } from '../../../lib/ingest';
 import { mapConfigFor } from '../../../lib/mapconfig';
@@ -126,7 +126,7 @@ const ldBlocks = [
     <div class="content hero-seq">
       <Breadcrumbs
         items={[
-          { label: t('bc.home', lang), href: `/${lang}/` },
+          { label: t('bc.home', lang), href: hubPath(lang) },
           { label: page.displayName },
         ]}
       />
@@ -190,7 +190,7 @@ const ldBlocks = [
         return (
           <p class="small map-zoneline tnum">
             {pre}
-            <span data-countup={zoneCount} data-lang={lang}>{zoneCount.toLocaleString(lang)}</span>
+            <span data-countup={zoneCount} data-lang={lang} aria-hidden="true">{zoneCount.toLocaleString(lang)}</span><span class="sr-only">{zoneCount.toLocaleString(lang)}</span>
             {post}
           </p>
         );
@@ -256,7 +256,7 @@ const ldBlocks = [
         deviceImage2={existsSync(join(process.cwd(), 'public', 'device', 'flight-log', `${lang}.webp`))
           ? `/device/flight-log/${lang}.webp`
           : undefined}
-        deviceAlt={t('cta.appstore.alt', lang)}
+        deviceAlt=""
       />
     </div>
   </section>

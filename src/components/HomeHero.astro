@@ -73,11 +73,11 @@ const [zPre, zPost = ''] = t('home.trust.zones', lang, { n: '__N__' }).split('__
       </div>
       <div class="home-hero__trust">
         <span class="pill home-trust tnum">
-          {cPre}<span data-countup={totalCountries} data-lang={lang}>{totalCountries.toLocaleString(lang)}</span>{cPost}
+          {cPre}<span data-countup={totalCountries} data-lang={lang} aria-hidden="true">{totalCountries.toLocaleString(lang)}</span><span class="sr-only">{totalCountries.toLocaleString(lang)}</span>{cPost}
         </span>
         {totalZones > 0 && (
           <span class="pill home-trust tnum">
-            {zPre}<span data-countup={totalZones} data-lang={lang}>{totalZones.toLocaleString(lang)}</span>{zPost}
+            {zPre}<span data-countup={totalZones} data-lang={lang} aria-hidden="true">{totalZones.toLocaleString(lang)}</span><span class="sr-only">{totalZones.toLocaleString(lang)}</span>{zPost}
           </span>
         )}
         <span class="pill home-trust">

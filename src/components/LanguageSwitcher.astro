@@ -4,7 +4,7 @@
  * länkar den till landets andra språkversion när den finns (via klustret),
  * annars till målspråkets hubb. Ren <details>-popover, noll ramverk.
  */
-import { LANGUAGES, type Alternate } from '../lib/model';
+import { LANGUAGES, hubPath, type Alternate } from '../lib/model';
 import { t } from '../lib/i18n';
 
 interface Props {
@@ -20,17 +20,18 @@ for (const alt of cluster) {
 const entries = Object.entries(LANGUAGES).map(([code, name]) => ({
   code,
   name,
-  href: targets[code] ?? `/${code}/`,
+  href: targets[code] ?? hubPath(code),
   current: code === lang,
 }));
 ---
 
 <details class="langswitch">
-  <summary class="pill langswitch__trigger" aria-label={t('langswitch.label', lang)}>
+  <summary class="pill langswitch__trigger">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
       <circle cx="12" cy="12" r="9" />
       <path d="M3.5 12h17M12 3.5c2.7 2.4 4 5.4 4 8.5s-1.3 6.1-4 8.5c-2.7-2.4-4-5.4-4-8.5s1.3-6.1 4-8.5z" />
     </svg>
+    <span class="sr-only">{t('langswitch.label', lang)}</span>
     <span class="langswitch__code">{lang.toUpperCase()}</span>
   </summary>
   <div class="langswitch__pop card">
@@ -65,6 +66,13 @@ const entries = Object.entries(LANGUAGES).map(([code, name]) => ({
     for (const d of document.querySelectorAll('details.langswitch[open]')) {
       d.removeAttribute('open');
       d.querySelector<HTMLElement>('summary')?.focus();
+    }
+  });
+  // T_a11y-12: stäng när fokus tabbar ut ur popovern, annars ligger den kvar
+  // (z-index 60 i den sticky headern) och döljer det som fått fokus.
+  document.addEventListener('focusin', (e) => {
+    for (const d of document.querySelectorAll('details.langswitch[open]')) {
+      if (!d.contains(e.target as Node)) d.removeAttribute('open');
     }
   });
 </script>

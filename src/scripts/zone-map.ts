@@ -70,15 +70,12 @@ if (host && rawCfg) {
   // ut. Enda statuselementet (role=status) skapas/uppdateras via textContent
   // — aldrig innerHTML — och placeras EFTER kartcanvasen, före "officiell
   // karta"-länken. Kartan är planeringsstöd; den ger aldrig ensam klartecken.
-  let statusEl: HTMLElement | null = null;
+  const statusEl = document.createElement('div');
+  statusEl.className = 'mapframe__warning';
+  statusEl.setAttribute('role', 'status');
+  host.insertAdjacentElement('afterend', statusEl);
   const announce = (message: string) => {
     if (!message) return;
-    if (!statusEl) {
-      statusEl = document.createElement('div');
-      statusEl.className = 'mapframe__warning';
-      statusEl.setAttribute('role', 'status');
-      host!.insertAdjacentElement('afterend', statusEl);
-    }
     statusEl.textContent = message;
   };
 
@@ -114,7 +111,7 @@ if (host && rawCfg) {
     io.observe(host);
   } else {
     // Klick-att-ladda: knapp med storleksangivelse
-    const mb = Math.max(0.1, defaultBytes / 1_000_000).toFixed(1);
+    const mb = Math.max(0.1, defaultBytes / 1_000_000).toLocaleString(document.documentElement.lang || undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 });
     const btn = document.createElement('button');
     btn.className = 'zonemap-loadbtn';
     btn.textContent = (host.dataset.msgLoadTemplate ?? 'Load zones ({mb} MB)').replace('{mb}', mb);
@@ -128,13 +125,19 @@ if (host && rawCfg) {
     const L = (await import('leaflet')).default;
 
     host!.querySelector('.mapframe__skeleton')?.remove();
+    const hadFocus = document.activeElement?.classList.contains('zonemap-loadbtn');
     host!.querySelector('.zonemap-loadbtn')?.remove();
 
     const map = L.map(host!, {
       preferCanvas: true,
       scrollWheelZoom: false, // aktiveras vid klick — ingen scrollfälla
       zoomSnap: 0.5,
+      zoomControl: false,
     });
+    L.control.zoom({ zoomInTitle: host!.dataset.msgZoomIn, zoomOutTitle: host!.dataset.msgZoomOut }).addTo(map);
+    host!.setAttribute('role', 'region');
+    host!.setAttribute('aria-label', host!.dataset.msgLabel ?? '');
+    if (hadFocus) host!.focus();
     map.on('click', () => map.scrollWheelZoom.enable());
     map.fitBounds(cfg.bounds, { padding: [12, 12] });
 
@@ -174,8 +177,8 @@ if (host && rawCfg) {
 
     const popupHtml = (props: Record<string, unknown>, key: string): string => {
       const rows: string[] = [];
-      const title = cfg.titles[key] ?? cfg.titles[key.replace(/_[A-Z]{2}$/, '')] ?? key;
-      rows.push(`<strong>${esc(title)}</strong>`);
+      const title = cfg.titles[key] ?? cfg.titles[key.replace(/_[A-Z]{2}$/, '')] ?? (key === 'DEFAULT' ? '' : key);
+      if (title) rows.push(`<strong>${esc(title)}</strong>`);
       const name = props['name'] ?? props['identifier'] ?? props['Name'];
       if (name) rows.push(esc(name));
       const lo = props['lowerLimit'];
@@ -277,6 +280,11 @@ if (host && rawCfg) {
                   const key = resolveKey(f.properties ?? {}, layer);
                   lyr.bindPopup(popupHtml(f.properties ?? {}, key), { maxWidth: 280 });
                 },
+                pointToLayer: (f, latlng) => {
+                  const key = resolveKey(f.properties ?? {}, layer);
+                  const s = cfg.styles[key] ?? cfg.styles['DEFAULT'];
+                  return L.circleMarker(latlng, { radius: 5, color: s.stroke, weight: 1.5, fillColor: s.fill, fillOpacity: 1 });
+                },
               }).addTo(group);
             })
             .catch(() => {
@@ -287,7 +295,7 @@ if (host && rawCfg) {
               announce(host!.dataset.msgLayerError ?? '');
             });
         });
-        const mb = layer.gzBytes ? ` (~${Math.max(0.1, layer.gzBytes / 1_000_000).toFixed(1)} MB)` : '';
+        const mb = layer.gzBytes ? ` (~${Math.max(0.1, layer.gzBytes / 1_000_000).toLocaleString(document.documentElement.lang || undefined, { minimumFractionDigits: 1, maximumFractionDigits: 1 })} MB)` : '';
         control.addOverlay(group, `${layer.label ?? layer.id}${mb}`);
       }
       control.addTo(map);

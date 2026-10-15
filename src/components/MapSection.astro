@@ -44,6 +44,9 @@ const defaultZoneCount = ((mapConfig as { layers?: { defaultOn?: boolean; featur
       data-msg-partial={t('map.partial', page.lang, { loaded: '{loaded}', total: '{total}' })}
       data-msg-layer-error={t('map.layerError', page.lang)}
       data-msg-legend={t('map.legend', page.lang)}
+      data-msg-zoom-in={t('map.zoomIn', page.lang)}
+      data-msg-zoom-out={t('map.zoomOut', page.lang)}
+      data-msg-label={t('map.title', page.lang)}
       data-msg-load-template={t('map.load', page.lang, {
         n: defaultZoneCount.toLocaleString(page.lang),
         mb: '{mb}',
@@ -211,6 +214,7 @@ const defaultZoneCount = ((mapConfig as { layers?: { defaultOn?: boolean; featur
     border: 1px solid var(--border);
   }
   .mapframe__caption { margin-top: var(--space-3); font-size: var(--text-small); }
+  .mapframe__caption a { color: var(--accent-ink); }
   /* App-pitch vid kartan: dämpad accent-yta i briefing-registret — ett
      erbjudande i förbifarten, inte en banner. Badges = officiella märkena
      (Apple kräver ≥40px höjd). */
@@ -248,4 +252,5 @@ const defaultZoneCount = ((mapConfig as { layers?: { defaultOn?: boolean; featur
     font-size: var(--text-small);
     font-weight: 500;
   }
+  :global(.mapframe__warning:empty) { display: none; }
 </style>

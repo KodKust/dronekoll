@@ -1,12 +1,17 @@
 ---
 /** Brödsmulor — caption-storlek, chevron-separatorer. BreadcrumbList-schema sätts i sidmallen. */
+import { t } from '../lib/i18n';
+
 interface Props {
   items: Array<{ label: string; href?: string }>;
 }
 const { items } = Astro.props;
+// Alla anropare ligger under /[lang]/ — språket tas ur ruttparametern så att
+// skärmläsaretiketten blir lokaliserad utan att anroparna behöver ändras.
+const lang = (Astro.params.lang as string | undefined) ?? 'en';
 ---
 
-<nav class="bc" aria-label="Breadcrumb">
+<nav class="bc" aria-label={t('a11y.nav.breadcrumb', lang)}>
   <ol>
     {items.map((item, i) => (
       <li>

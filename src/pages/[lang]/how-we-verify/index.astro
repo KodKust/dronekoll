@@ -25,8 +25,8 @@ import {
   methodLangs,
   methodCluster,
   brandForLang,
-  hubCluster,
   SITE,
+  hubPath,
 } from '../../../lib/model';
 import { t } from '../../../lib/i18n';
 import { organizationLd } from '../../../lib/seo';
@@ -72,7 +72,7 @@ const ldBlocks = [
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: t('bc.home', lang), item: `${SITE}/${lang}/` },
+      { '@type': 'ListItem', position: 1, name: t('bc.home', lang), item: SITE + hubPath(lang) },
       { '@type': 'ListItem', position: 2, name: t('method.bc', lang), item: `${SITE}/${lang}/how-we-verify/` },
     ],
   },
@@ -87,7 +87,7 @@ const ldBlocks = [
     ))}
   </Fragment>
 
-  <Header lang={lang} cluster={hubCluster()} />
+  <Header lang={lang} cluster={methodCluster()} />
 
   <main id="main-content">
     {/* ── Hero ───────────────────────────────────────────────────────── */}
@@ -95,7 +95,7 @@ const ldBlocks = [
       <div class="content hero-seq">
         <Breadcrumbs
           items={[
-            { label: t('bc.home', lang), href: `/${lang}/` },
+            { label: t('bc.home', lang), href: hubPath(lang) },
             { label: t('method.bc', lang) },
           ]}
         />

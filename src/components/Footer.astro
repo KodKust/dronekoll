@@ -4,7 +4,7 @@
  * cameo). Mono-wordmark + disclaimer, språkgrid, legal/om/källor, bygg-datum.
  */
 import Wordmark from './Wordmark.astro';
-import { LANGUAGES, brandForLang, tFeature, featuresForLang, methodLangs } from '../lib/model';
+import { LANGUAGES, brandForLang, tFeature, featuresForLang, methodLangs, hubPath } from '../lib/model';
 import { t } from '../lib/i18n';
 
 interface Props {
@@ -27,7 +27,7 @@ const buildDate = new Date().toISOString().slice(0, 10);
         <p class="overline site-footer__label">{t('footer.languages', lang)}</p>
         <ul class="site-footer__langs">
           {Object.entries(LANGUAGES).map(([code, name]) => (
-            <li><a href={`/${code}/`} lang={code}>{name}</a></li>
+            <li><a href={hubPath(code)} lang={code}>{name}</a></li>
           ))}
         </ul>
       </nav>
@@ -42,7 +42,7 @@ const buildDate = new Date().toISOString().slice(0, 10);
         </ul>
       </nav>
 
-      <nav aria-label="Legal">
+      <nav aria-label={t('a11y.nav.legal', lang)}>
         <ul class="site-footer__legal">
           {/* Metodsidan bär sajtens E-E-A-T: vem som sammanställt reglerna och
               hur de kontrolleras. Länkas från varje sida — en förtroendesida
@@ -51,7 +51,7 @@ const buildDate = new Date().toISOString().slice(0, 10);
             <li><a href={`/${lang}/how-we-verify/`}>{t('method.bc', lang)}</a></li>
           )}
           <li><a href="/privacy/">{t('footer.privacy', lang)}</a></li>
-          <li><a href={`/${lang}/`}>{t('nav.allCountries', lang)}</a></li>
+          <li><a href={hubPath(lang)}>{t('nav.allCountries', lang)}</a></li>
         </ul>
       </nav>
     </div>
@@ -61,7 +61,7 @@ const buildDate = new Date().toISOString().slice(0, 10);
     </p>
     {/* Varumärkeskrav för de officiella butiksmärkena (Apple/Google badge-
         riktlinjer). Engelska på alla språk — juridisk notis, översätts inte. */}
-    <p class="caption site-footer__trademarks">
+    <p class="caption site-footer__trademarks" lang="en">
       Apple, the Apple logo and App&nbsp;Store are trademarks of Apple Inc.
       Google Play and the Google Play logo are trademarks of Google LLC.
     </p>
@@ -74,6 +74,7 @@ const buildDate = new Date().toISOString().slice(0, 10);
   .site-footer { color: rgba(255, 255, 255, 0.80); }
   .site-footer a { color: rgba(255, 255, 255, 0.80); }
   .site-footer a:hover { color: #fff; }
+  .site-footer a:focus-visible { outline-color: #fff; }
   .site-footer__grid {
     display: grid;
     grid-template-columns: 1.2fr 1.8fr 0.8fr 0.8fr;
@@ -107,7 +108,7 @@ const buildDate = new Date().toISOString().slice(0, 10);
   }
   .site-footer__trademarks {
     margin-top: var(--space-2);
-    color: rgba(255, 255, 255, 0.44);
+    color: rgba(255, 255, 255, 0.62);
   }
   @media (max-width: 768px) {
     .site-footer__grid { grid-template-columns: 1fr; gap: var(--space-6); }

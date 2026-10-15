@@ -15,6 +15,7 @@ import skyUrl from '../assets/brand/dronekoll-sky-background-v1.webp?url';
 import LangBanner from '../components/LangBanner.astro';
 import { GOATCOUNTER_CODE, GOOGLE_SITE_VERIFICATION } from '../lib/seo';
 import { t } from '../lib/i18n';
+import { brandForLang } from '../lib/model';
 
 export interface Alternate {
   hreflang: string; // t.ex. "nl", "en", "x-default"
@@ -29,6 +30,7 @@ interface Props {
   alternates?: Alternate[];// hreflang-kluster inkl. självreferens
   ogImage?: string;        // absolut URL till OG-bild
   noindex?: boolean;
+  analytics?: boolean;     // false = ingen GoatCounter (t.ex. /go)
 }
 
 const {
@@ -39,6 +41,7 @@ const {
   alternates = [],
   ogImage,
   noindex = false,
+  analytics = true,
 } = Astro.props;
 ---
 
@@ -49,7 +52,7 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonical} />
+    {!noindex && <link rel="canonical" href={canonical} />}
     {noindex && <meta name="robots" content="noindex" />}
     {alternates.map((a) => <link rel="alternate" hreflang={a.hreflang} href={a.href} />)}
 
@@ -73,12 +76,16 @@ const {
     <meta property="og:url" content={canonical} />
     {ogImage && <meta property="og:image" content={ogImage} />}
     {ogImage && <meta name="twitter:card" content="summary_large_image" />}
+    {ogImage && <meta property="og:image:width" content="1200" />}
+    {ogImage && <meta property="og:image:height" content="630" />}
+    {ogImage && <meta property="og:image:alt" content={title} />}
+    <meta property="og:site_name" content={brandForLang(lang)} />
 
     <slot name="head" />
 
     {/* GoatCounter — cookiefri analys (gated: renderas bara när GOATCOUNTER_CODE satt).
         Beacon + iOS/Android-klick-events för pappilappi/status-baren. */}
-    {GOATCOUNTER_CODE && (
+    {GOATCOUNTER_CODE && analytics && (
       <Fragment>
         {/* Preconnect till beacon-värden — sparar DNS+TLS när count.js hämtas.
             Utan crossorigin: count.js laddas som vanligt script (ej CORS), så
@@ -89,22 +96,22 @@ const {
           async
           src="//gc.zgo.at/count.js"
         ></script>
+        {/* Store-klick → events, med GoatCounters inbyggda land-data per hit.
+            Delegerad lyssnare täcker alla store-länkar.
+
+            SEDAN 2026-07-29 bär sökvägen språk och PLACERING:
+              ios-click/sv/header · ios-click/de/appblock · android-click/en/hero
+            Tidigare räknades varje klick som bara "ios-click", vilket gjorde det
+            omöjligt att se VILKEN knapp som konverterar — och därmed omöjligt att
+            flytta den till rätt ställe på annat än känsla.
+
+            ⚠️ Historiken bryter av här: gamla "ios-click" går inte att jämföra
+            rakt av med de nya sökvägarna. Summera på prefix när du ser bakåt.
+
+            Placeringen kommer ur data-cta på länken; saknas den används "other",
+            så en ny knapp någon glömmer märka fortfarande räknas — bara inte
+            tillskrivs. Språket läses ur <html lang>, ingen koppling till bygget. */}
         <script is:inline>
-          {/* Store-klick → events, med GoatCounters inbyggda land-data per hit.
-              Delegerad lyssnare täcker alla store-länkar.
-
-              SEDAN 2026-07-29 bär sökvägen språk och PLACERING:
-                ios-click/sv/header · ios-click/de/appblock · android-click/en/hero
-              Tidigare räknades varje klick som bara "ios-click", vilket gjorde det
-              omöjligt att se VILKEN knapp som konverterar — och därmed omöjligt att
-              flytta den till rätt ställe på annat än känsla.
-
-              ⚠️ Historiken bryter av här: gamla "ios-click" går inte att jämföra
-              rakt av med de nya sökvägarna. Summera på prefix när du ser bakåt.
-
-              Placeringen kommer ur data-cta på länken; saknas den används "other",
-              så en ny knapp någon glömmer märka fortfarande räknas — bara inte
-              tillskrivs. Språket läses ur <html lang>, ingen koppling till bygget. */}
           document.addEventListener('click', function (e) {
             var a = e.target.closest && e.target.closest('a[href]');
             if (!a || !window.goatcounter || !window.goatcounter.count) return;

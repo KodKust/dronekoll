@@ -15,7 +15,7 @@ const { lang, sections } = Astro.props;
 const items = sections.map((id) => ({ id, label: t(`anchor.${id}`, lang) }));
 ---
 
-<nav class="anchor-nav" aria-label="On this page">
+<nav class="anchor-nav" aria-label={t('a11y.nav.onThisPage', lang)}>
   <div class="shell anchor-nav__inner">
     {items.map((i) => (
       <a class="pill anchor-nav__pill" href={`#${i.id}`} data-anchor={i.id}>{i.label}</a>
