@@ -30,7 +30,6 @@ interface Props {
   alternates?: Alternate[];// hreflang-kluster inkl. självreferens
   ogImage?: string;        // absolut URL till OG-bild
   noindex?: boolean;
-  analytics?: boolean;     // false = ingen GoatCounter (t.ex. /go)
 }
 
 const {
@@ -41,7 +40,6 @@ const {
   alternates = [],
   ogImage,
   noindex = false,
-  analytics = true,
 } = Astro.props;
 ---
 
@@ -85,7 +83,7 @@ const {
 
     {/* GoatCounter — cookiefri analys (gated: renderas bara när GOATCOUNTER_CODE satt).
         Beacon + iOS/Android-klick-events för pappilappi/status-baren. */}
-    {GOATCOUNTER_CODE && analytics && (
+    {GOATCOUNTER_CODE && (
       <Fragment>
         {/* Preconnect till beacon-värden — sparar DNS+TLS när count.js hämtas.
             Utan crossorigin: count.js laddas som vanligt script (ej CORS), så

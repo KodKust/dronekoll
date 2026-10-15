@@ -165,7 +165,7 @@ const brand = brandForLang(lang);
     .site-header__nav { gap: var(--space-3); }
   }
   /* 320px-säkring: språkväxlaren visar bara globen (etiketten finns i
-     aria-label), wordmarken krymper en aning. */
+     en sr-only-span), wordmarken krymper en aning. */
   @media (max-width: 380px) {
     .site-header__nav :global(.langswitch__code) { display: none; }
     .site-header :global(.wordmark__name) { font-size: 1rem; }

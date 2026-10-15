@@ -280,11 +280,6 @@ if (host && rawCfg) {
                   const key = resolveKey(f.properties ?? {}, layer);
                   lyr.bindPopup(popupHtml(f.properties ?? {}, key), { maxWidth: 280 });
                 },
-                pointToLayer: (f, latlng) => {
-                  const key = resolveKey(f.properties ?? {}, layer);
-                  const s = cfg.styles[key] ?? cfg.styles['DEFAULT'];
-                  return L.circleMarker(latlng, { radius: 5, color: s.stroke, weight: 1.5, fillColor: s.fill, fillOpacity: 1 });
-                },
               }).addTo(group);
             })
             .catch(() => {
