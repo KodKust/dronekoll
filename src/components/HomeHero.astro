@@ -14,7 +14,9 @@
 import { Picture } from 'astro:assets';
 import droneImg from '../assets/brand/dronekoll-drone-underside-camera-down.png';
 import { t } from '../lib/i18n';
-import { APP_STORE_URL, PLAY_STORE_URL } from '../lib/seo';
+import { appStoreUrl, playStoreUrl } from '../lib/seo';
+const appStoreHref = appStoreUrl(Astro.props.lang, 'hero');
+const playStoreHref = playStoreUrl(Astro.props.lang, 'hero');
 
 interface Props {
   lang: string;
@@ -44,7 +46,7 @@ const [zPre, zPost = ''] = t('home.trust.zones', lang, { n: '__N__' }).split('__
             officiella märkena bär igenkänning/trovärdighet. Klickspårningen i
             Base.astro fångar länkarna på href-domänen; data-cta = placering. */}
         <div class="home-hero__stores">
-          <a href={APP_STORE_URL} rel="noopener" data-cta="hero">
+          <a href={appStoreHref} rel="noopener" data-cta="hero">
             <img
               src="/badges/app-store-badge.svg"
               alt={t('cta.appstore.alt', lang)}
@@ -54,8 +56,8 @@ const [zPre, zPost = ''] = t('home.trust.zones', lang, { n: '__N__' }).split('__
               decoding="async"
             />
           </a>
-          {PLAY_STORE_URL && (
-            <a href={PLAY_STORE_URL} rel="noopener" data-cta="hero">
+          {playStoreHref && (
+            <a href={playStoreHref} rel="noopener" data-cta="hero">
               <img
                 src="/badges/google-play-badge.svg"
                 alt={t('cta.play.alt', lang)}

@@ -11,7 +11,9 @@
  */
 import { t } from '../lib/i18n';
 import type { PageEntry } from '../lib/model';
-import { APP_STORE_URL, PLAY_STORE_URL } from '../lib/seo';
+import { appStoreUrl, playStoreUrl } from '../lib/seo';
+const appStoreHref = appStoreUrl(Astro.props.page.lang, 'map');
+const playStoreHref = playStoreUrl(Astro.props.page.lang, 'map');
 
 interface Props {
   page: PageEntry;
@@ -110,7 +112,7 @@ const defaultZoneCount = ((mapConfig as { layers?: { defaultOn?: boolean; featur
   <aside class="map-appcta">
     <p class="map-appcta__text">{t('map.appPitch', page.lang)}</p>
     <div class="map-appcta__badges">
-      <a href={APP_STORE_URL} rel="noopener" data-cta="map">
+      <a href={appStoreHref} rel="noopener" data-cta="map">
         <img
           src="/badges/app-store-badge.svg"
           alt={t('cta.appstore.alt', page.lang)}
@@ -120,8 +122,8 @@ const defaultZoneCount = ((mapConfig as { layers?: { defaultOn?: boolean; featur
           decoding="async"
         />
       </a>
-      {PLAY_STORE_URL && (
-        <a href={PLAY_STORE_URL} rel="noopener" data-cta="map">
+      {playStoreHref && (
+        <a href={playStoreHref} rel="noopener" data-cta="map">
           <img
             src="/badges/google-play-badge.svg"
             alt={t('cta.play.alt', page.lang)}

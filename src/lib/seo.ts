@@ -19,6 +19,25 @@ export const APP_STORE_URL = 'https://apps.apple.com/app/dronekoll/id6761332194'
 export const PLAY_STORE_URL: string | null =
   'https://play.google.com/store/apps/details?id=se.dronarkartan.dronarkartan';
 
+/** Butiksattribution (2026-10-21). Apples kampanjlänk (pt = leverantörs-ID ur ASC:s
+ *  kampanjlänk-generator, ct ≤ 40 tecken [A-Za-z0-9_-]) gör att App Store Connects
+ *  rapporter r4/r225 (Campaign-kolumnen) kan tillskriva sajten installer och provstarter;
+ *  Plays `referrer` ger UTM-källa i Play Console. Utan dessa syns sajtens installer
+ *  ingenstans (GoatCounter mäter bara klicket). `placement` = samma värde som data-cta
+ *  på knappen (hero/appblock/map), så butikssiffran kan läggas bredvid klicksiffran. */
+export const APPLE_PT = '128716043';
+const ctSafe = (s: string) => s.toLowerCase().replace(/[^a-z0-9_-]/g, '_');
+export function appStoreUrl(lang: string, placement: string): string {
+  return `https://apps.apple.com/app/apple-store/id6761332194?pt=${APPLE_PT}&ct=${ctSafe(`web_${lang}_${placement}`)}&mt=8`;
+}
+export function playStoreUrl(lang: string, placement: string): string | null {
+  if (!PLAY_STORE_URL) return null;
+  const ref = encodeURIComponent(
+    `utm_source=dronekoll&utm_medium=web&utm_campaign=${ctSafe(`${lang}_${placement}`)}`,
+  );
+  return `${PLAY_STORE_URL}&referrer=${ref}`;
+}
+
 /** GoatCounter-analys (cookiefri). GATED: null → ingen beacon, inget klick-spår.
  *  FLIP: när Kristoffer skapat gratiskontot, sätt subdomänen (t.ex. 'dronekoll' om
  *  sajten blir dronekoll.goatcounter.com), bygg om → beacon + iOS/Android-klick-events
