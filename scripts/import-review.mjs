@@ -124,7 +124,7 @@ function measures(t) {
   for (const m of splitRanges(t).matchAll(NUM_UNIT)) out.add(norm(m[1]));
   return out;
 }
-const PROTECTED = /\b(EASA|FAA|CAA|CAAP|CAAS|CAD|DGCA|SACAA|SANParks|NATS|GCAA|DCAA|Traficom|NOTAM|VLOS|BVLOS|EVLOS|FPV|MTOM|B-RID|RPC|UAPL|FRIA|FRZ|RFZ|CTR|NEMA|DigitalSky|PCAR|FlyItSafe|HKIA|NAIA|SISANT|UIN|eVTOL|Part \d+)\b/g;
+const PROTECTED = /\b(EASA|FAA|CAA|CAAP|CAAS|CAD|DGCA|SACAA|SANParks|NATS|GCAA|DCAA|Traficom|NOTAM|VLOS|BVLOS|EVLOS|FPV|MTOM|B-RID|RPC|UAPL|FRIA|FRZ|RFZ|CTR|NEMA|DigitalSky|PCAR|FlyItSafe|HKIA|NAIA|SISANT|UIN|eVTOL|Remote ID|Part \d+)\b/g;
 const terms = (t) => new Set(String(t).match(PROTECTED) ?? []);
 
 /** Vad står i katalogen just nu för ett id? null om posten inte går att slå upp. */
