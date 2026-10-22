@@ -66,6 +66,9 @@ jobs:
       - name: "Matris-staleness (warn-only — stale celler flaggas i /api/cell/)"
         run: node scripts/check-matrix-staleness.mjs
 
+      - name: "Resident-staleness (warn-only — stale resident-källor utelämnas ur cellen)"
+        run: node scripts/check-resident-staleness.mjs
+
       - name: "Intern länkkontroll (fail-closed — brutna länkar fäller bygget)"
         run: node scripts/check-links.mjs
 

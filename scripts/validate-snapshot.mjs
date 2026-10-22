@@ -53,6 +53,26 @@ for (const f of ['classifier_strings.json', 'schema_baseline.json', 'web-manifes
   if (existsSync(join(ROOT, p))) loadJson(p); // fyller errors[] vid parsefel
 }
 
+// airspace_rules.json (resident-cellernas regelkälla, CH fr/it): zones-objekt
+// med ISO-prefixade poster. En trunkerad fetch (få nycklar) ska aldrig
+// committas — den hade gjort varje resident-cell stale på en gång.
+const rulesPath = 'data/live/airspace_rules.json';
+if (existsSync(join(ROOT, rulesPath))) {
+  const rules = loadJson(rulesPath);
+  if (rules) {
+    const zones = rules.zones;
+    if (!zones || typeof zones !== 'object' || Array.isArray(zones))
+      errors.push('airspace_rules.json: zones saknas/fel typ');
+    else {
+      const keys = Object.keys(zones);
+      if (keys.length < 150) errors.push(`airspace_rules.json: bara ${keys.length} poster (< 150) — trunkerad fetch?`);
+      if (!keys.some((k) => k.startsWith('CH:'))) errors.push('airspace_rules.json: inga CH:-poster');
+      const bad = keys.filter((k) => !zones[k] || typeof zones[k].rule !== 'string');
+      if (bad.length) errors.push(`airspace_rules.json: ${bad.length} poster saknar rule-sträng (${bad.slice(0, 3).join(', ')})`);
+    }
+  }
+}
+
 if (errors.length) {
   console.error('✗ Snapshot-validering MISSLYCKADES — committar INTE:');
   for (const e of errors) console.error(`  - ${e}`);

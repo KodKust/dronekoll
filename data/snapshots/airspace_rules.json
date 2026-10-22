@@ -1,0 +1,1283 @@
+{
+  "version": "2026-09-06",
+  "zones": {
+    "AT:ATZ": {
+      "rule": "Bedingte Zone (ATZ), oft bei Großveranstaltungen. Ein Flug ist nur mit einer Betriebsbewilligung der Austro Control GmbH für diese Zone erlaubt — bescheidpflichtig. Eine Dronespace-Flugplanaktivierung bestätigt diese Bewilligung NICHT.",
+      "source": "Austro Control — UAS-Geozonen (dronespace.at)",
+      "verified": "2026-08-01"
+    },
+    "AT:CTR": {
+      "rule": "Kontrollzone (CTR). Der Betrieb von unbemannten Luftfahrzeugen ist innerhalb von Kontrollzonen nur mit Zustimmung der in Betracht kommenden Flugverkehrskontrollstelle zulässig. Die Zustimmung für die zivilen Kontrollzonen holst du über die Flugplanabgabe im Austro Control Dronespace System ein; UAS mit einer höchstzulässigen Startmasse von weniger als 250 g, die bis zu einer maximalen Flughöhe von 30 Meter über Grund genutzt werden, sind von dieser Zustimmungspflicht in den zivilen Kontrollzonen ausgenommen. Bei den militärischen Kontrollzonen Langenlebarn und Zeltweg ist die Zustimmung der örtlich zuständigen Militärflugleitung einzuholen — dort gilt die 250-g-Ausnahme nicht. Betriebszeiten und zonenspezifische Vorgaben stehen in der AIP und in den Angaben der Zone.",
+      "source": "Austro Control — UAS-Geozonen: Kontrollzonen (dronespace.at)",
+      "verified": "2026-09-05"
+    },
+    "AT:DNGA_ADVISORY": {
+      "rule": "Militärisches Gefahrengebiet (LO D) — acht alpine Übungsräume des Bundesheeres. Der Zonentext von Austro Control lautet: «Einflug auf eigene Gefahr! Bekanntmachung Aktivierung mittels NOTAM.» Zuständig ist das Bundesministerium für Landesverteidigung (Luftverkehrsregeln 2014, § 18b Abs. 6) — nicht die Flugverkehrskontrolle und nicht ein Flugplatz. Prüfe vor dem Flug die NOTAM und die Angaben der Zone.",
+      "source": "Austro Control — UAS-Geozonen, ED-269-Datensatz (dronespace.at)",
+      "verified": "2026-09-05"
+    },
+    "AT:P": {
+      "rule": "Verbotszone (P). Ein Drohnenflug in diesem Gebiet ist laut Austro Control nicht erlaubt. Prüfe dronespace.at für aktuelle Details zur jeweiligen Zone.",
+      "source": "Austro Control — UAS-Geozonen (dronespace.at)",
+      "verified": "2026-08-01"
+    },
+    "AT:RSTA": {
+      "rule": "Flugbeschränkungsgebiet (RSTA), bescheidpflichtig. Ein Flug ist nur mit einer Betriebsbewilligung der Austro Control GmbH für Flugbeschränkungsgebiete erlaubt. Eine Dronespace-Flugplanaktivierung bestätigt diese Bewilligung NICHT.",
+      "source": "Austro Control — UAS-Geozonen (dronespace.at)",
+      "verified": "2026-08-01"
+    },
+    "AT:TMA": {
+      "rule": "Militärischer Nahkontrollbezirk (MTMA) Langenlebarn bzw. Zeltweg — freigabepflichtig. Der Zonentext von Austro Control lautet: «Holen Sie eine Zustimmung der örtlich zuständigen Militärflugleitung ein» (Militärflugleitung Langenlebarn bzw. Militärflugleitung Zeltweg). Rechtsgrundlage laut Datensatz: Luftverkehrsregeln 2014 i.d.g.F., § 18b Abs. 6. Der Nahkontrollbezirk beginnt laut Datensatz erst mehrere hundert Meter über Grund — die genaue Unter- und Obergrenze steht in den Angaben der Zone.",
+      "source": "Austro Control — UAS-Geozonen, ED-269-Datensatz (dronespace.at): MTMA Langenlebarn/Zeltweg, REQ_AUTHORISATION",
+      "verified": "2026-09-16"
+    },
+    "ATZ": {
+      "rule": "Trafikzon (ATZ). Flygning får endast ske efter samråd med berörd flygplats. Kontakta flygplatsen innan start.",
+      "source": "Transportstyrelsen TSFS 2017:110 2 kap. 11 §",
+      "verified": "2026-09-02"
+    },
+    "CH:CTA_CH": {
+      "rule": "Kontrollbezirk (CTA) — kontrollierter Luftraum um Flugplätze. Gestützt auf LFG Art. 40 und VFSD Art. 2 Abs. 1 legt das BAZL die Luftraumstruktur und die Luftraumklassen fest. Das Volumen beginnt erst auf der für die Zone angegebenen Höhe, und diese Untergrenzen liegen weit über 120 m über Grund; Drohnenflüge der offenen Kategorie unter 120 m finden deshalb unterhalb des kontrollierten Luftraums statt und sind von der Zone in der Regel nicht betroffen. Wer in den Luftraum aufsteigen will, braucht eine Koordination mit skyguide. Prüfe das angegebene Höhenband der Zone, NOTAM und weitere Zonen am Ort.",
+      "source": "BAZL — CTA Kontrollbezirke",
+      "verified": "2026-08-08"
+    },
+    "CH:CTR": {
+      "rule": "Äußere Flugplatzzone. Laut BAZL sind hier Drohnen über 250 g ohne Bewilligung verboten. Milder als die Kernzone, aber ebenfalls flugplatznah — prüfe die genaue Regel vor dem Start.",
+      "source": "BAZL — Einschränkungen für Drohnen (geo.admin.ch)",
+      "verified": "2026-08-01"
+    },
+    "CH:CTR_CH": {
+      "rule": "Kontrollzone (CTR) um einen Flugplatz. Das BAZL hält für Schweizer Kontrollzonen fest: «Der Betrieb von unbemannten Luftfahrzeugen mit einem Gewicht von mehr als 250 g ist ab einer Höhe von 120 m über Grund verboten.» Unterhalb von 120 m greift dieses Verbot nicht — andere Zonen, NOTAM und lokale Einschränkungen können am selben Ort trotzdem gelten, und in unmittelbarer Flugplatznähe können eigene Regeln bestehen. Bewilligungen sind bei skyguide einzuholen; gemäss Zonendaten ist das Gesuch mindestens 14 Tage im Voraus einzureichen. Reicht die Zone über die Landesgrenze, gelten für diesen Teil die Regeln des Nachbarlandes.",
+      "source": "BAZL — CTR Kontrollzonen",
+      "verified": "2026-08-08"
+    },
+    "CH:DNGA": {
+      "rule": "Sensible Infrastruktur (BAZL-Kategorie «Sensibel») — z. B. Gefängnisse, Kraftwerke oder Spitäler. Drohnenflüge sind hier eingeschränkt oder verboten; prüfe die genaue Einschränkung auf der BAZL-Karte.",
+      "source": "BAZL — Einschränkungen für Drohnen (geo.admin.ch)",
+      "verified": "2026-08-01"
+    },
+    "CH:JAGDBANN_CH": {
+      "rule": "Eidgenössisches Jagdbanngebiet (Wildschutz). Die Drohnenkarte des BAZL hält für diese Gebiete fest: «Der Betrieb von unbemannten Luftfahrzeugen ist verboten.» Das Verbot gilt dauerhaft und für alle Drohnen, unabhängig vom Gewicht. Ausnahmebewilligungen können bei der zuständigen kantonalen Fachstelle beantragt werden; gemäss Zonendaten ist das Gesuch mindestens 10 Tage vor dem Flug einzureichen. Kantone können zusätzlich eigene, strengere Regeln erlassen.",
+      "source": "BAZL — Einschränkungen für Drohnen (geo.admin.ch); BAFU — Eidg. Jagdbanngebiete (Perimeter)",
+      "verified": "2026-08-08"
+    },
+    "CH:OBSTACLE_CH": {
+      "rule": "Luftfahrthindernisse gemäss VIL (SR 748.131.1): Bauten und Anlagen — unter anderem Antennen, Gebäude, Kabel, Krane, Seilbahnen, Hochspannungsleitungen und Windenergieanlagen —, die den Betrieb von Luftfahrzeugen oder von Flugsicherungsanlagen erschweren, gefährden oder verunmöglichen können. Der Datensatz ist nicht vollständig: Pflanzen sind ausgenommen, in unbebauten Gebieten werden Hindernisse erst ab 25 Metern erfasst (Mobilkrane erst ab 40 Metern) und in bebauten Gebieten erst ab 60 Metern; sicherheitsrelevante Hindernisse in der Umgebung von Flugplätzen unterhalb dieser Höhen liegen in einem separaten BAZL-Layer, der hier nicht dargestellt wird. Rechnen Sie deshalb mit Hindernissen, die auf der Karte fehlen. Halte Sichtkontakt zur Drohne und genügend Abstand zu Kabeln, Seilbahnen und Masten — besonders bei beweglichen Seilen wie Skiliften und Materialseilbahnen.",
+      "source": "BAZL — Luftfahrthindernis (VIL, SR 748.131.1)",
+      "verified": "2026-08-08"
+    },
+    "CH:P": {
+      "rule": "Flugplatz-Kernzone. Laut BAZL sind hier alle Drohnen unabhängig vom Gewicht ohne Bewilligung verboten. Strengste Zone rund um Schweizer Flugplätze — halte dich fern.",
+      "source": "BAZL — Einschränkungen für Drohnen (geo.admin.ch)",
+      "verified": "2026-08-01"
+    },
+    "CH:RSTA": {
+      "rule": "Naturschutzgebiet mit Drohneneinschränkung (BAZL-Kategorie «Natur»). Die Drohnenkarte des BAZL hält für diese Gebiete fest: «Der Betrieb von unbemannten Luftfahrzeugen ist verboten.» Das Verbot gilt dauerhaft und für alle Drohnen, unabhängig vom Gewicht. Ausnahmebewilligungen können bei der zuständigen — meist kantonalen — Fachstelle beantragt werden; welche Stelle das ist und wie viel Vorlauf sie verlangt, steht in den Angaben der Zone.",
+      "source": "BAZL — Einschränkungen für Drohnen (geo.admin.ch), Feld zone_restriction_de",
+      "verified": "2026-09-05"
+    },
+    "CH:SCHIESS_CH": {
+      "rule": "Militärisches Schiess- und Übungsgebiet (VBS). Die Schweizer Armee hält fest: «Das Betreten des gefährdeten Gebietes ist lebensgefährlich und daher verboten. Den Weisungen der Absperrposten ist Folge zu leisten.» Fliege nie über ein aktives Schiessgebiet. Die hier angezeigten Schiesszeiten stammen aus den publizierten Schiessanzeigen und decken nur die nächsten zehn Tage ab. Fehlende Zeiten heissen nicht, dass das Gebiet sicher ist — und auch nicht, dass nichts publiziert wurde: für einen Teil der Sektoren hat die Armee für dieses Fenster keine Anzeige gemacht, für einen anderen ausdrücklich «kein Schiessen», und die App unterscheidet die beiden Fälle heute nicht. Prüfe vor dem Flug die aktuelle Schiessanzeige für den Ort.",
+      "source": "VBS — Schiessanzeigen (geo.admin.ch)",
+      "verified": "2026-09-05"
+    },
+    "CH:SICHERHEIT_CH": {
+      "rule": "Sicherheitszonenplan eines Flugplatzes. Der Zonenplan zeigt die Eigentumsbeschränkungen nach Fläche und Höhe und stellt mit der Veröffentlichung in den kantonalen Publikationsorganen «eine öffentlich-rechtliche Eigentumsbeschränkung» dar — er richtet sich damit an Grundeigentümer und Bauherren. Er ist kein UAS-Gebiet und enthält keine eigene Bewilligungspflicht für Drohnenflüge. An Flugplätzen gelten trotzdem eigene Drohnenregeln: prüfe die BAZL-Flugplatzperimeter (SIL bzw. SPM), die Kontrollzone (CTR) und die NOTAM.",
+      "source": "BAZL — Sicherheitszonenplan",
+      "verified": "2026-08-08"
+    },
+    "CH:TMA_CH": {
+      "rule": "Nahkontrollbezirk (TMA) — kontrollierter Luftraum um Flugplätze. Gestützt auf LFG Art. 40 und VFSD Art. 2 Abs. 1 legt das BAZL die Luftraumstruktur und die Luftraumklassen fest. Das Volumen beginnt erst auf der für die Zone angegebenen Höhe, und diese Untergrenzen liegen weit über 120 m über Grund; Drohnenflüge der offenen Kategorie unter 120 m finden deshalb unterhalb des kontrollierten Luftraums statt und sind von der Zone in der Regel nicht betroffen. Wer in den Luftraum aufsteigen will, braucht eine Koordination mit skyguide. Prüfe das angegebene Höhenband der Zone, NOTAM und weitere Zonen am Ort.",
+      "source": "BAZL — TMA Nahkontrollbezirke",
+      "verified": "2026-08-08"
+    },
+    "CH:UAS_AKT_CH": {
+      "rule": "UAS-Aktivitätszone (UAS Awareness Map) des BAZL. Das Gebiet zeigt genehmigte BVLOS-Betriebsaktivitäten von unbemannten Luftfahrzeugen; die Veröffentlichung soll das Situationsbewusstsein der bemannten Luftfahrt erhöhen und Kontaktinformationen bereitstellen. Für die meisten dieser Gebiete ist die Zone keine Flugeinschränkung: laut BAZL hat die Konsultation dieser Informationen «keinen Einfluss auf die Flugsicherheit» und ist «nicht verpflichtend»; die dargestellten Gebiete «dienen ausschliesslich der situativen Information». AUSNAHME: Trägt der Zonentext des BAZL selbst «TEMPO R-AREA …» (z. B. Hinterrhein, Amlikon), handelt es sich um ein zeitweiliges Beschränkungsgebiet — dann gelten dessen Bedingungen und der DABS-Aktivitätsstatus. Rechne in jedem Fall mit anderen Drohnen in der Luft und beachte die übrigen Regeln am Ort.",
+      "source": "BAZL — UAS-Aktivitätszonen",
+      "verified": "2026-09-06"
+    },
+    "CH:VOGELRES_CH": {
+      "rule": "Eidgenössisches Wasser- und Zugvogelreservat. Die Drohnenkarte des BAZL hält fest: «Der Betrieb von unbemannten Luftfahrzeugen ist verboten.» Das Verbot gilt dauerhaft und für alle Drohnen unabhängig vom Gewicht — also auch ausserhalb der Brut- und Zugzeiten. Ausnahmebewilligungen können bei der zuständigen kantonalen Fachstelle beantragt werden; gemäss Zonendaten ist das Gesuch mindestens 10 Tage vor dem Flug einzureichen. Die weiteren Schutzbestimmungen des Objekts stehen im Objektblatt.",
+      "source": "BAZL — Einschränkungen für Drohnen (geo.admin.ch); BAFU — Eidg. Vogelreservate (Perimeter)",
+      "verified": "2026-08-08"
+    },
+    "CTA_CH": {
+      "rule": "Kontrollbezirk (CTA) — kontrollierter Luftraum um Flugplätze. Gestützt auf LFG Art. 40 und VFSD Art. 2 Abs. 1 legt das BAZL die Luftraumstruktur und die Luftraumklassen fest. Das Volumen beginnt erst auf der für die Zone angegebenen Höhe, und diese Untergrenzen liegen weit über 120 m über Grund; Drohnenflüge der offenen Kategorie unter 120 m finden deshalb unterhalb des kontrollierten Luftraums statt und sind von der Zone in der Regel nicht betroffen. Wer in den Luftraum aufsteigen will, braucht eine Koordination mit skyguide. Prüfe das angegebene Höhenband der Zone, NOTAM und weitere Zonen am Ort.",
+      "source": "BAZL — CTA Kontrollbezirke",
+      "verified": "2026-08-08"
+    },
+    "CTR": {
+      "rule": "Kontrollerat luftrum (CTR).\n• Inom 5 km från bana: ATC-klarering krävs innan start.\n• Mer än 5 km från bana: max 50 m utan klarering för drönare ≤ 7 kg och hastighet < 90 km/h — men bara 10 m i kontrollzonerna vid Karlsborg, Linköping/Malmen, Linköping/SAAB, Luleå/Kallax, Ronneby, Såtenäs, Uppsala, Vidsel, Visby, Hagshult och Jokkmokk. Över 7 kg krävs alltid klarering.",
+      "source": "Transportstyrelsen TSFS 2017:110 3 kap. 3 §",
+      "verified": "2026-09-02"
+    },
+    "CTR_CH": {
+      "rule": "Kontrollzone (CTR) um einen Flugplatz. Das BAZL hält für Schweizer Kontrollzonen fest: «Der Betrieb von unbemannten Luftfahrzeugen mit einem Gewicht von mehr als 250 g ist ab einer Höhe von 120 m über Grund verboten.» Unterhalb von 120 m greift dieses Verbot nicht — andere Zonen, NOTAM und lokale Einschränkungen können am selben Ort trotzdem gelten, und in unmittelbarer Flugplatznähe können eigene Regeln bestehen. Bewilligungen sind bei skyguide einzuholen; gemäss Zonendaten ist das Gesuch mindestens 14 Tage im Voraus einzureichen. Reicht die Zone über die Landesgrenze, gelten für diesen Teil die Regeln des Nachbarlandes.",
+      "source": "BAZL — CTR Kontrollzonen",
+      "verified": "2026-08-08"
+    },
+    "CTR_FI": {
+      "rule": "Rajoittava UAS-ilmatilavyöhyke Traficomin mukaan — ei ATS-lähilennonjohtoalue (CTR). Rajoittavilla UAS-ilmatilavyöhykkeillä on korvattu 31.12.2020 alkaen kansallisen määräyksen OPS M1-32 mukaiset lentoasemien, lentopaikkojen ja helikopterilentopaikkojen suojaetäisyydet. Valvotulla lentoasemalla koordinointi tehdään Fintraffic ANS:n (lennonjohto) kanssa; valvomattomien lentopaikkojen ja helikopterilentopaikkojen osalta lennättäjä tai operaattori vastaa itse siitä, että lennätys koordinoidaan lentopaikan pitäjän kanssa — lennonvarmistusyksiköt eivät koordinoi lennätyksiä näiden tahojen kanssa.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269); Fintraffic ANS",
+      "verified": "2026-08-08"
+    },
+    "CTR_NL": {
+      "rule": "Luchthaven-CTR (controlezone) volgens de Nederlandse ED-269-regelgeving. Vluchten in de OPEN categorie zijn hier niet toegestaan. Voor vluchten met een gemiddeld risico (specifieke categorie) gelden speciale regels: u mag deze alleen uitvoeren met een exploitatievergunning, waarin staat waar u wel en niet mag vliegen. Controleer de NOTAM.",
+      "source": "LVNL/IenW — ED-269 drone-zones (NL)",
+      "verified": "2026-08-08"
+    },
+    "DE:DE_AIRPORT": {
+      "rule": "Schutzbereich um Flugplätze (§ 21h Abs. 3 Nr. 1–2 LuftVO). Flugplätze, die keine Flughäfen sind: 1,5 km um die Begrenzung — Betrieb nur in der „speziellen“ Kategorie oder mit Zustimmung der Luftaufsichtsstelle, der Flugleitung oder des Betreibers am Flugplatz. Flughäfen: 1 000 m um die Begrenzung sowie weniger als 1 000 m seitlich der in beide Richtungen um je 5 km verlängerten Bahnmittellinien — Betrieb nur in der „speziellen“ Kategorie — eine Zustimmung des Betreibers oder der Luftaufsicht ersetzt das dort nicht; daneben kann allein die Landesluftfahrtbehörde nach § 21i LuftVO im begründeten Einzelfall zulassen.",
+      "source": "§ 21h Abs. 3 Nr. 1–2 LuftVO · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE:DE_BATHING": {
+      "rule": "Freibad oder Badestrand. Flug über dem Gelände ist nur außerhalb der Betriebs- bzw. Badezeiten zulässig. Die Zeiten variieren je nach Anlage und Saison — vor Ort prüfen.",
+      "source": "DFS/dipul — § 21h Abs. 3 Nr. 8 LuftVO",
+      "verified": "2026-08-01"
+    },
+    "DE:DE_CTR": {
+      "rule": "Kontrollzone um einen Flugplatz mit Flugverkehrskontrolle. Drohnenflüge erfordern eine Flugverkehrskontrollfreigabe (FVK) nach § 21 LuftVO. An 24 Flughäfen gilt seit dem 6. August 2026 das Zonenmodell: um die Start- und Landebahnen (Zone 1) gibt es keine allgemeine Freigabe — dort ist immer eine individuelle FVK erforderlich. Weiter außen gilt eine allgemeine Freigabe bis 25 m (Zone 2) bzw. 45 m (Zone 3) über Flugplatzhöhe/über Grund, wobei der NIEDRIGERE Wert maßgeblich ist; in Zone 4 bis 100 m über Flugplatzhöhe oder 50 m über Grund, wobei der HÖHERE Wert maßgeblich ist — liegt der Aufstiegsort unter der Flugplatzhöhe, gilt 100 m über Grund. Sie gilt nur bis 25 kg Startmasse (Flugmodelle 5 kg), mit mindestens 800 m Bodensicht und ohne autonome Flüge. Prüfe deinen Standort vor dem Flug.",
+      "source": "§ 21h Abs. 3 Nr. 9 LuftVO · DFS NfL 2026-1-3960 Auflage 9",
+      "verified": "2026-09-01"
+    },
+    "DE:DE_GOV": {
+      "rule": "Verfassungsorgan, oberste und obere Bundes- oder Landesbehörde, diplomatische und konsularische Vertretung, internationale Organisation oder Liegenschaft von Polizei und anderen Sicherheitsbehörden (§ 21h Abs. 3 Nr. 4 LuftVO). Der Betrieb über dem Objekt und im seitlichen Abstand von 100 m ist nur mit ausdrücklicher Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen zulässig.",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE:DE_HOSPITAL": {
+      "rule": "Krankenhaus. Flug über der Einrichtung und im Abstand von 100 m ist nur mit ausdrücklicher Zustimmung des Betreibers zulässig. Achtung: Rettungshubschrauber können jederzeit starten und landen.",
+      "source": "DFS/dipul — § 21h Abs. 3 Nr. 10 LuftVO",
+      "verified": "2026-08-01"
+    },
+    "DE:DE_INDUSTRY": {
+      "rule": "Industrieanlage, Kraftwerk, Umspannwerk oder Labor der Schutzstufe 4 (§ 21h Abs. 3 Nr. 3 LuftVO). Der Betrieb über der Anlage und im seitlichen Abstand von 100 m ist nur mit ausdrücklicher Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen zulässig.",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE:DE_MIL": {
+      "rule": "Militärische Anlage oder Organisation (§ 21h Abs. 3 Nr. 3 LuftVO). Der Betrieb über der Anlage und im seitlichen Abstand von 100 m ist nur mit ausdrücklicher Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen zulässig. Zusätzlich können Fotografierverbote gelten.",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE:DE_NATURE": {
+      "rule": "Naturschutzgebiet (§ 23 Abs. 1 BNatSchG) oder Nationalpark (§ 24 BNatSchG). Der Überflug ist nach § 21h Abs. 3 Nr. 6 LuftVO verboten, außer die zuständige Naturschutzbehörde stimmt ausdrücklich zu oder Landesrecht regelt den Betrieb abweichend. Außerhalb von Nationalparks zusätzlich nur, wenn ALLE vier Voraussetzungen zusammen erfüllt sind: kein Sport- oder Freizeitflug, Höhe von mehr als 100 Metern, Kenntnis und Beachtung des Schutzzwecks, und der Überflug ist für den Betriebszweck unumgänglich erforderlich. Darüber hinaus kann die Landesluftfahrtbehörde nach § 21i LuftVO im begründeten Einzelfall zulassen.",
+      "source": "§ 21h Abs. 3 Nr. 6 LuftVO · DFS/dipul Rechtsgrundlagen · BfN (Daten)",
+      "verified": "2026-09-02"
+    },
+    "DE:DE_NATURE_2000": {
+      "rule": "Natura-2000-Gebiet (FFH- oder Vogelschutzgebiet, § 7 Abs. 1 Nr. 6 und 7 BNatSchG). Der Überflug ist nach § 21h Abs. 3 Nr. 6 LuftVO verboten — in eigenem Recht, unabhängig davon, ob ein Naturschutzgebiet überlappt. Zulässig nur mit ausdrücklicher Zustimmung der zuständigen Naturschutzbehörde, bei abweichender landesrechtlicher Regelung oder, außerhalb von Nationalparks, wenn ALLE vier Voraussetzungen zusammen erfüllt sind: kein Sport- oder Freizeitflug, Höhe von mehr als 100 Metern, Kenntnis und Beachtung des Schutzzwecks, und der Überflug ist für den Betriebszweck unumgänglich erforderlich. Für Freizeitflüge bleibt der Weg über die Zustimmung der Naturschutzbehörde — oder eine Zulassung der Landesluftfahrtbehörde nach § 21i LuftVO im begründeten Einzelfall.",
+      "source": "§ 21h Abs. 3 Nr. 6 LuftVO · DFS/dipul Rechtsgrundlagen · BfN (Daten)",
+      "verified": "2026-09-02"
+    },
+    "DE:DE_POWERLINE": {
+      "rule": "Hochspannungsleitung mit Schutzkorridor — Anlage der zentralen Energieverteilung (§ 21h Abs. 3 Nr. 3 LuftVO). Der Betrieb im Korridor (100 m seitlicher Abstand) ist nur mit ausdrücklicher Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen zulässig. Leitungen sind aus der Luft schwer erkennbar — erhebliche Kollisionsgefahr.",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE:DE_PRISON": {
+      "rule": "Justizvollzugsanstalt oder Einrichtung des Maßregelvollzugs (§ 21h Abs. 3 Nr. 3 LuftVO). Der Betrieb über dem Gelände und im seitlichen Abstand von 100 m ist nur mit ausdrücklicher Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen zulässig.",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE:DE_RAIL": {
+      "rule": "Bahnanlage mit 100-m-Korridor (§ 21h Abs. 3 Nr. 5 LuftVO). Der Betrieb über der Anlage und im seitlichen Abstand von 100 m ist zulässig, wenn EINE dieser Bedingungen erfüllt ist: a) Überflug in der „speziellen“ Kategorie, wenn die besonderen Gefahren des Überflugs in der Risikobewertung nach Art. 11 DVO (EU) 2019/947 ausreichend berücksichtigt sind; b) ausdrückliche Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen; c) die Flughöhe über Grund ist stets kleiner als der seitliche Abstand zur Anlage, und dieser Abstand ist stets größer als 10 Meter. Vorsicht: Oberleitungen (15 kV).",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE:DE_RESIDENTIAL": {
+      "rule": "Wohngrundstück — Überflug ist verboten, außer: Eigentümer stimmt ausdrücklich zu, das Gerät wiegt ≤ 0,25 kg ohne Bild-/Ton-/Funksensoren, oder die Flughöhe beträgt ≥ 100 m mit berechtigtem Zweck, Privatsphärenschutz und nicht zwischen 22 und 6 Uhr.",
+      "source": "DFS/dipul — § 21h Abs. 3 Nr. 7 LuftVO",
+      "verified": "2026-08-01"
+    },
+    "DE:DE_RESTRICTED": {
+      "rule": "Flugbeschränkungsgebiet (ED-R) nach § 17 LuftVO — der Einflug ist ohne Genehmigung verboten, auch für Drohnen aller Kategorien; ein Einflug ohne Genehmigung ist eine Straftat nach § 62 LuftVG. In der Regel genehmigt das Bundesaufsichtsamt für Flugsicherung (BAF): Antrag an ed-r@baf.bund.de, meist mindestens vier Wochen im Voraus. Für Einzelfälle nennt § 17 Abs. 2 LuftVO zusätzlich die zuständige Flugverkehrskontrollstelle.",
+      "source": "DFS/dipul — § 17 LuftVO",
+      "verified": "2026-09-01"
+    },
+    "DE:DE_ROAD": {
+      "rule": "Bundesautobahn oder Bundesstraße mit 100-m-Korridor (§ 21h Abs. 3 Nr. 5 LuftVO). Der Betrieb über der Straße und im seitlichen Abstand von 100 m ist zulässig, wenn EINE dieser Bedingungen erfüllt ist: a) Überflug in der „speziellen“ Kategorie, wenn die besonderen Gefahren des Überflugs in der Risikobewertung nach Art. 11 DVO (EU) 2019/947 ausreichend berücksichtigt sind; b) ausdrückliche Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen; c) die Flughöhe über Grund ist stets kleiner als der seitliche Abstand zur Straße, und dieser Abstand ist stets größer als 10 Meter.",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE:DE_TEMP": {
+      "rule": "Zeitlich begrenzte Betriebseinschränkung — z. B. Militärübungen, Polizeieinsätze, geschützte Anlagen oder Großveranstaltungen. Die maßgebliche Rechtsgrundlage steht in den Bedingungen der Zone (meist § 17 LuftVO, teils § 21h Abs. 3 Nr. 11 LuftVO). Das Verbot gilt nur im angegebenen Zeitraum; außerhalb gelten die regulären Regeln der Zone. An Unfall- und Einsatzorten sowie bei angemeldeten Manövern und Übungen der Streitkräfte (§ 21h Abs. 3 Nr. 11 LuftVO) kann der zuständige Einsatzleiter dem Betrieb zustimmen.",
+      "source": "§ 17 und § 21h Abs. 3 Nr. 11 LuftVO · DFS/dipul — temporäre Betriebseinschränkungen",
+      "verified": "2026-09-02"
+    },
+    "DE:DE_WATERWAY": {
+      "rule": "Bundeswasserstraße mit 100-m-Korridor (§ 21h Abs. 3 Nr. 5 LuftVO). Im Korridor zulässig, wenn EINE dieser Bedingungen erfüllt ist: ausdrückliche Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtung; Flughöhe stets kleiner als der seitliche Abstand und Abstand stets größer als 10 m; oder für die Querung: mindestens 100 m über Grund oder Wasser, kürzester Weg, keine Schiffe und keine Schifffahrtsanlagen (Schleusen, Wehre, Schiffshebewerke, Liegestellen) überfliegen. Die Risikobewertung der „speziellen“ Kategorie (Buchstabe a) gilt nur für Bundesfernstraßen und Bahnanlagen, nicht für Wasserstraßen.",
+      "source": "§ 21h Abs. 3 Nr. 5 LuftVO · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE:DE_WIND": {
+      "rule": "Windkraftanlage — Anlage der zentralen Energieerzeugung (§ 21h Abs. 3 Nr. 3 LuftVO). Der Betrieb über der Anlage und im seitlichen Abstand von 100 m ist nur mit ausdrücklicher Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen zulässig. Rotorturbulenz ist auch in größerem Abstand gefährlich für leichte Drohnen.",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE_AIRPORT": {
+      "rule": "Schutzbereich um Flugplätze (§ 21h Abs. 3 Nr. 1–2 LuftVO). Flugplätze, die keine Flughäfen sind: 1,5 km um die Begrenzung — Betrieb nur in der „speziellen“ Kategorie oder mit Zustimmung der Luftaufsichtsstelle, der Flugleitung oder des Betreibers am Flugplatz. Flughäfen: 1 000 m um die Begrenzung sowie weniger als 1 000 m seitlich der in beide Richtungen um je 5 km verlängerten Bahnmittellinien — Betrieb nur in der „speziellen“ Kategorie — eine Zustimmung des Betreibers oder der Luftaufsicht ersetzt das dort nicht; daneben kann allein die Landesluftfahrtbehörde nach § 21i LuftVO im begründeten Einzelfall zulassen.",
+      "source": "§ 21h Abs. 3 Nr. 1–2 LuftVO · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE_BATHING": {
+      "rule": "Freibad oder Badestrand. Flug über dem Gelände ist nur außerhalb der Betriebs- bzw. Badezeiten zulässig. Die Zeiten variieren je nach Anlage und Saison — vor Ort prüfen.",
+      "source": "DFS/dipul — § 21h Abs. 3 Nr. 8 LuftVO",
+      "verified": "2026-08-01"
+    },
+    "DE_CTR": {
+      "rule": "Kontrollzone um einen Flugplatz mit Flugverkehrskontrolle. Drohnenflüge erfordern eine Flugverkehrskontrollfreigabe (FVK) nach § 21 LuftVO. An 24 Flughäfen gilt seit dem 6. August 2026 das Zonenmodell: um die Start- und Landebahnen (Zone 1) gibt es keine allgemeine Freigabe — dort ist immer eine individuelle FVK erforderlich. Weiter außen gilt eine allgemeine Freigabe bis 25 m (Zone 2) bzw. 45 m (Zone 3) über Flugplatzhöhe/über Grund, wobei der NIEDRIGERE Wert maßgeblich ist; in Zone 4 bis 100 m über Flugplatzhöhe oder 50 m über Grund, wobei der HÖHERE Wert maßgeblich ist — liegt der Aufstiegsort unter der Flugplatzhöhe, gilt 100 m über Grund. Sie gilt nur bis 25 kg Startmasse (Flugmodelle 5 kg), mit mindestens 800 m Bodensicht und ohne autonome Flüge. Prüfe deinen Standort vor dem Flug.",
+      "source": "§ 21h Abs. 3 Nr. 9 LuftVO · DFS NfL 2026-1-3960 Auflage 9",
+      "verified": "2026-09-01"
+    },
+    "DE_GOV": {
+      "rule": "Verfassungsorgan, oberste und obere Bundes- oder Landesbehörde, diplomatische und konsularische Vertretung, internationale Organisation oder Liegenschaft von Polizei und anderen Sicherheitsbehörden (§ 21h Abs. 3 Nr. 4 LuftVO). Der Betrieb über dem Objekt und im seitlichen Abstand von 100 m ist nur mit ausdrücklicher Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen zulässig.",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE_HOSPITAL": {
+      "rule": "Krankenhaus. Flug über der Einrichtung und im Abstand von 100 m ist nur mit ausdrücklicher Zustimmung des Betreibers zulässig. Achtung: Rettungshubschrauber können jederzeit starten und landen.",
+      "source": "DFS/dipul — § 21h Abs. 3 Nr. 10 LuftVO",
+      "verified": "2026-08-01"
+    },
+    "DE_INDUSTRY": {
+      "rule": "Industrieanlage, Kraftwerk, Umspannwerk oder Labor der Schutzstufe 4 (§ 21h Abs. 3 Nr. 3 LuftVO). Der Betrieb über der Anlage und im seitlichen Abstand von 100 m ist nur mit ausdrücklicher Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen zulässig.",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE_MIL": {
+      "rule": "Militärische Anlage oder Organisation (§ 21h Abs. 3 Nr. 3 LuftVO). Der Betrieb über der Anlage und im seitlichen Abstand von 100 m ist nur mit ausdrücklicher Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen zulässig. Zusätzlich können Fotografierverbote gelten.",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE_NATURE": {
+      "rule": "Naturschutzgebiet (§ 23 Abs. 1 BNatSchG) oder Nationalpark (§ 24 BNatSchG). Der Überflug ist nach § 21h Abs. 3 Nr. 6 LuftVO verboten, außer die zuständige Naturschutzbehörde stimmt ausdrücklich zu oder Landesrecht regelt den Betrieb abweichend. Außerhalb von Nationalparks zusätzlich nur, wenn ALLE vier Voraussetzungen zusammen erfüllt sind: kein Sport- oder Freizeitflug, Höhe von mehr als 100 Metern, Kenntnis und Beachtung des Schutzzwecks, und der Überflug ist für den Betriebszweck unumgänglich erforderlich. Darüber hinaus kann die Landesluftfahrtbehörde nach § 21i LuftVO im begründeten Einzelfall zulassen.",
+      "source": "§ 21h Abs. 3 Nr. 6 LuftVO · DFS/dipul Rechtsgrundlagen · BfN (Daten)",
+      "verified": "2026-09-02"
+    },
+    "DE_NATURE_2000": {
+      "rule": "Natura-2000-Gebiet (FFH- oder Vogelschutzgebiet, § 7 Abs. 1 Nr. 6 und 7 BNatSchG). Der Überflug ist nach § 21h Abs. 3 Nr. 6 LuftVO verboten — in eigenem Recht, unabhängig davon, ob ein Naturschutzgebiet überlappt. Zulässig nur mit ausdrücklicher Zustimmung der zuständigen Naturschutzbehörde, bei abweichender landesrechtlicher Regelung oder, außerhalb von Nationalparks, wenn ALLE vier Voraussetzungen zusammen erfüllt sind: kein Sport- oder Freizeitflug, Höhe von mehr als 100 Metern, Kenntnis und Beachtung des Schutzzwecks, und der Überflug ist für den Betriebszweck unumgänglich erforderlich. Für Freizeitflüge bleibt der Weg über die Zustimmung der Naturschutzbehörde — oder eine Zulassung der Landesluftfahrtbehörde nach § 21i LuftVO im begründeten Einzelfall.",
+      "source": "§ 21h Abs. 3 Nr. 6 LuftVO · DFS/dipul Rechtsgrundlagen · BfN (Daten)",
+      "verified": "2026-09-02"
+    },
+    "DE_POWERLINE": {
+      "rule": "Hochspannungsleitung mit Schutzkorridor — Anlage der zentralen Energieverteilung (§ 21h Abs. 3 Nr. 3 LuftVO). Der Betrieb im Korridor (100 m seitlicher Abstand) ist nur mit ausdrücklicher Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen zulässig. Leitungen sind aus der Luft schwer erkennbar — erhebliche Kollisionsgefahr.",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE_PRISON": {
+      "rule": "Justizvollzugsanstalt oder Einrichtung des Maßregelvollzugs (§ 21h Abs. 3 Nr. 3 LuftVO). Der Betrieb über dem Gelände und im seitlichen Abstand von 100 m ist nur mit ausdrücklicher Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen zulässig.",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE_RAIL": {
+      "rule": "Bahnanlage mit 100-m-Korridor (§ 21h Abs. 3 Nr. 5 LuftVO). Der Betrieb über der Anlage und im seitlichen Abstand von 100 m ist zulässig, wenn EINE dieser Bedingungen erfüllt ist: a) Überflug in der „speziellen“ Kategorie, wenn die besonderen Gefahren des Überflugs in der Risikobewertung nach Art. 11 DVO (EU) 2019/947 ausreichend berücksichtigt sind; b) ausdrückliche Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen; c) die Flughöhe über Grund ist stets kleiner als der seitliche Abstand zur Anlage, und dieser Abstand ist stets größer als 10 Meter. Vorsicht: Oberleitungen (15 kV).",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE_RESIDENTIAL": {
+      "rule": "Wohngrundstück — Überflug ist verboten, außer: Eigentümer stimmt ausdrücklich zu, das Gerät wiegt ≤ 0,25 kg ohne Bild-/Ton-/Funksensoren, oder die Flughöhe beträgt ≥ 100 m mit berechtigtem Zweck, Privatsphärenschutz und nicht zwischen 22 und 6 Uhr.",
+      "source": "DFS/dipul — § 21h Abs. 3 Nr. 7 LuftVO",
+      "verified": "2026-08-01"
+    },
+    "DE_RESTRICTED": {
+      "rule": "Flugbeschränkungsgebiet (ED-R) nach § 17 LuftVO — der Einflug ist ohne Genehmigung verboten, auch für Drohnen aller Kategorien; ein Einflug ohne Genehmigung ist eine Straftat nach § 62 LuftVG. In der Regel genehmigt das Bundesaufsichtsamt für Flugsicherung (BAF): Antrag an ed-r@baf.bund.de, meist mindestens vier Wochen im Voraus. Für Einzelfälle nennt § 17 Abs. 2 LuftVO zusätzlich die zuständige Flugverkehrskontrollstelle.",
+      "source": "DFS/dipul — § 17 LuftVO",
+      "verified": "2026-09-01"
+    },
+    "DE_ROAD": {
+      "rule": "Bundesautobahn oder Bundesstraße mit 100-m-Korridor (§ 21h Abs. 3 Nr. 5 LuftVO). Der Betrieb über der Straße und im seitlichen Abstand von 100 m ist zulässig, wenn EINE dieser Bedingungen erfüllt ist: a) Überflug in der „speziellen“ Kategorie, wenn die besonderen Gefahren des Überflugs in der Risikobewertung nach Art. 11 DVO (EU) 2019/947 ausreichend berücksichtigt sind; b) ausdrückliche Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen; c) die Flughöhe über Grund ist stets kleiner als der seitliche Abstand zur Straße, und dieser Abstand ist stets größer als 10 Meter.",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE_TEMP": {
+      "rule": "Zeitlich begrenzte Betriebseinschränkung — z. B. Militärübungen, Polizeieinsätze, geschützte Anlagen oder Großveranstaltungen. Die maßgebliche Rechtsgrundlage steht in den Bedingungen der Zone (meist § 17 LuftVO, teils § 21h Abs. 3 Nr. 11 LuftVO). Das Verbot gilt nur im angegebenen Zeitraum; außerhalb gelten die regulären Regeln der Zone. An Unfall- und Einsatzorten sowie bei angemeldeten Manövern und Übungen der Streitkräfte (§ 21h Abs. 3 Nr. 11 LuftVO) kann der zuständige Einsatzleiter dem Betrieb zustimmen.",
+      "source": "§ 17 und § 21h Abs. 3 Nr. 11 LuftVO · DFS/dipul — temporäre Betriebseinschränkungen",
+      "verified": "2026-09-02"
+    },
+    "DE_WATERWAY": {
+      "rule": "Bundeswasserstraße mit 100-m-Korridor (§ 21h Abs. 3 Nr. 5 LuftVO). Im Korridor zulässig, wenn EINE dieser Bedingungen erfüllt ist: ausdrückliche Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtung; Flughöhe stets kleiner als der seitliche Abstand und Abstand stets größer als 10 m; oder für die Querung: mindestens 100 m über Grund oder Wasser, kürzester Weg, keine Schiffe und keine Schifffahrtsanlagen (Schleusen, Wehre, Schiffshebewerke, Liegestellen) überfliegen. Die Risikobewertung der „speziellen“ Kategorie (Buchstabe a) gilt nur für Bundesfernstraßen und Bahnanlagen, nicht für Wasserstraßen.",
+      "source": "§ 21h Abs. 3 Nr. 5 LuftVO · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DE_WIND": {
+      "rule": "Windkraftanlage — Anlage der zentralen Energieerzeugung (§ 21h Abs. 3 Nr. 3 LuftVO). Der Betrieb über der Anlage und im seitlichen Abstand von 100 m ist nur mit ausdrücklicher Zustimmung der zuständigen Stelle oder des Betreibers der Einrichtungen zulässig. Rotorturbulenz ist auch in größerem Abstand gefährlich für leichte Drohnen.",
+      "source": "§ 21h Abs. 3 LuftVO (gesetze-im-internet.de, gelesen 2026-09-02) · DFS/dipul Rechtsgrundlagen",
+      "verified": "2026-09-02"
+    },
+    "DK:GRON_NATUR": {
+      "rule": "Grøn zone på Trafikstyrelsens kort. De fleste af områderne er fuglebeskyttelses- eller habitatområder efter § 14 i dronebekendtgørelsen, men kortet bærer også områder under andre bestemmelser. Nogle af områderne er droneforbudszoner eller fredninger — for flere af dem gælder forbuddet hele året; her gælder § 14-tilladelsesvejen ikke, og zonens navn og områdets egen begrundelse siger hvad der gælder. For fuglebeskyttelses- og habitatområderne gælder § 14: droneoperationer må ikke finde sted uden tilladelse fra Trafikstyrelsen (stk. 1); uden for de i bilag 2 nævnte områders beskyttelsesperioder er de tilladt (stk. 4), og inden for beskyttelsesperioden kræver flyvning tilladelse, som søges via de blanketter, Trafikstyrelsen stiller til rådighed på www.virk.dk eller på Trafikstyrelsens hjemmeside (§ 31). Undtagelse (stk. 2): myndighedernes eller grundejerens nødvendige opgaver i forbindelse med tilsyn, vedligeholdelse, offentlige overvågningsaktiviteter og kontrolopgaver af anlæg, ejendomme, skovbrug, landbrug og dyrehold kræver ingen ansøgning. Fjernpiloten, der gennemfører droneoperationen, skal have et kompetencecertifikat (stk. 5). Beskyttelsesperioden fastsættes for hvert enkelt område i bilag 2 og varierer fra område til område — for mange områder gælder den hele året. Tjek områdets beskyttelsesperiode og aktive status på droneregler.dk før flyvning.",
+      "source": "Trafikstyrelsen — BEK nr 1649 af 12/12/2023 § 14 samt § 31, som ændret ved BEK nr 527 af 20/05/2025; NaturOmraader (feltet theme skiller Natura 2000 fra Droneforbudszone/Fredning)",
+      "verified": "2026-09-04"
+    },
+    "DK:GUL_RSTA_DK": {
+      "rule": "Restriktionsområde (GUL), som aktiveres ved NOTAM. Når området er aktivt, er flyvning i området forbudt. Appen viser ikke områdets øjeblikkelige status — tjek altid gældende NOTAM før flyvning. Aktive restriktionsområder vises også af NOTAM-laget.",
+      "source": "Trafikstyrelsen droneluftrum.dk / Naviair — restriktionsområder (EK R), aktiveres ved NOTAM",
+      "verified": "2026-08-12"
+    },
+    "DK:INDFLYV_DK": {
+      "rule": "Ind- og udflyvningsplan som offentliggjort på www.dronezoner.dk. Reglen følger flyvepladsens type — se zonens navn: IMC-flyveplads (§ 9 stk. 2): med kompetencecertifikat 100 meter over banehøjde inde i ind- og udflyvningen i 6–8 km-båndet, 120 meter over terræn uden for. Militær flyvestation (§ 9 stk. 3): ingen særskilt højde — højst 40 meter over banehøjde fra 8 km ind til 3 km. VMC-flyveplads (§ 9 a): ingen særskilt højde — zonen er 4 km. Arealet ligger i flyvepladsens røde zone, hvis regler og krav om tilladelse fortsat gælder.",
+      "source": "Trafikstyrelsen — BEK nr 1649 af 12/12/2023 § 9 og § 9 a, som ændret ved BEK nr 527 af 20/05/2025; Ind- og udflyvningsplaner/188 + flyvepladsklasser (DZ_IMC_VMC_Vandflyvepladser_2025)",
+      "verified": "2026-09-02"
+    },
+    "DK:INFRA_DK": {
+      "rule": "Sikringskritisk zone (blå zone) efter §§ 11-13 i dronebekendtgørelsen — bl.a. diplomatiske repræsentationer (ambassader), domstole, kolonne 3-virksomheder, politiets ejendomme og kriminalforsorgens institutioner (§ 11) samt militære områder (§ 13). I disse zoner er droneflyvning som udgangspunkt ikke tilladt, medmindre du har fået tilladelse fra Trafikstyrelsen; ved de militære sikringskritiske zoner skal du have tilladelse fra Forsvarskommandoen og ikke Trafikstyrelsen. Afstandskravet følger objektet: 150 meter horisontal afstand efter § 11 og 1000 meter fra militære områder — 300 meter, hvis det militære område ligger i en byzone (§ 13).",
+      "source": "Trafikstyrelsen — BEK nr 1649 af 12/12/2023 §§ 11-13, som ændret ved BEK nr 527 af 20/05/2025; DroneZoner BLÅ",
+      "verified": "2026-08-08"
+    },
+    "DK:JERNBANE_DK": {
+      "rule": "Jernbanezone efter § 16 i dronebekendtgørelsen. Droneoperationer må ikke finde sted nærmere end 15 meter horisontal afstand fra jernbaner og bybaner, medmindre der forinden er indhentet tilladelse fra den ansvarlige infrastrukturforvalter. Kører en bybane under jorden, finder kravet ikke anvendelse. Fjernpiloten, som gennemfører droneoperationen, skal have et kompetencecertifikat. Tilladelsen indhentes hos infrastrukturforvalteren (fx Banedanmark) — det er hovedvejen; Trafikstyrelsen kan i særlige tilfælde dispensere fra bestemmelserne, herunder afstandskrav og kompetencekrav (§ 30), og ansøgninger efter §§ 9-19 indsendes via de blanketter, Trafikstyrelsen stiller til rådighed på www.virk.dk eller på Trafikstyrelsens hjemmeside (§ 31).",
+      "source": "Trafikstyrelsen — BEK nr 1649 af 12/12/2023 § 16 samt §§ 30-31, som ændret ved BEK nr 527 af 20/05/2025; DRONEZONER_Infrastruktur_WFL1/5",
+      "verified": "2026-09-04"
+    },
+    "DK:MIL_DK": {
+      "rule": "Militært sikringskritisk område (blå zone, § 13) — Forsvarets områder, herunder skydeterræner og andre øvelsesområder samt midlertidige militære områder. Droneflyvning må ikke finde sted nærmere end 1000 meter horisontal afstand fra det militære område, medmindre der forinden er indhentet tilladelse fra Forsvarskommandoen; ligger det militære område i en byzone, er afstanden 300 meter. Tilladelsen søges hos Forsvarskommandoen — for de fleste områder gennem samtykke fra Forsvarets Servicecenter (ETK-KTP-SERVICECENTER@MIL.DK) — ikke hos Trafikstyrelsen; zonens egen tekst angiver den konkrete kontaktvej og eventuelle undtagelser (fx kongehusets områder og midlertidige militære områder).",
+      "source": "Trafikstyrelsen — BEK nr 1649 af 12/12/2023 § 13, som ændret ved BEK nr 527 af 20/05/2025; DroneZoner BLÅ (Paragraf 13); kontaktvej fra zonens egen tekst",
+      "verified": "2026-09-16"
+    },
+    "DK:ORANGE_OPMERK_DK": {
+      "rule": "Opmærksomhedsområde (orange zone) — de orange zoner på kortet visualiserer mindre og/eller private flyvepladser, svæveflyvepladser, vandflyvepladser eller faldskærmsområder. Vær ekstra opmærksom på anden luftfart, og tjek NOTAM og lokale opslag før flyvning. Se Trafikstyrelsens vejledning til dronezoner.",
+      "source": "Trafikstyrelsen — DroneZoner ORANGE (droneregler.dk)",
+      "verified": "2026-08-08"
+    },
+    "DK:ROD_FLYG_DK": {
+      "rule": "Flyvesikringskritisk zone (rød zone) efter dronebekendtgørelsen — kontrolzone omkring lufthavn eller militær flyveplads, helikopterzone eller flyvesikringsanlæg. I disse zoner er droneflyvning som udgangspunkt ikke tilladt, medmindre du har fået tilladelse fra Trafikstyrelsen gennem ansøgning. Det er en skriftlig ansøgning hos myndigheden — ikke en klarering, du kan få af lufttrafiktjenesten (ATC) på stedet. Der gælder dog nogle undtagelser for fjernpiloter med A2 kompetencecertifikat — se Trafikstyrelsens vejledning til dronezoner.",
+      "source": "Trafikstyrelsen — BEK nr 1649 af 12/12/2023, som ændret ved BEK nr 527 af 20/05/2025; DroneZoner RØD",
+      "verified": "2026-08-08"
+    },
+    "DK:VEJ70_DK": {
+      "rule": "Vejzone efter § 17 i dronebekendtgørelsen. Droneoperationer må ikke finde sted over offentlige veje, hvor den tilladte hastighed er højere end 70 km/t, medmindre der forinden er indhentet tilladelse fra den ansvarlige infrastrukturforvalter. Fjernpiloten, som gennemfører droneoperationen, skal have et kompetencecertifikat. Undtagelse (stk. 2): vejen må krydses uden tilladelse, når formålet med flyvningen er at krydse den — men kun når der ikke forekommer trafik på vejen, efter den korteste rute over vejen og uden unødigt ophold. Tilladelsen indhentes hos infrastrukturforvalteren (fx Vejdirektoratet) — det er hovedvejen; Trafikstyrelsen kan i særlige tilfælde dispensere fra bestemmelserne, herunder afstandskrav og kompetencekrav (§ 30), og ansøgninger efter §§ 9-19 indsendes via de blanketter, Trafikstyrelsen stiller til rådighed på www.virk.dk eller på Trafikstyrelsens hjemmeside (§ 31).",
+      "source": "Trafikstyrelsen — BEK nr 1649 af 12/12/2023 § 17 samt §§ 30-31, som ændret ved BEK nr 527 af 20/05/2025; DRONEZONER_Infrastruktur_WFL1/4",
+      "verified": "2026-09-04"
+    },
+    "DNGA": {
+      "rule": "Farligt luftrum (DNGA). Kontrollera aktuella NOTAM — aktivering kan ske utan förvarning.",
+      "source": "LFV AIP ENR 5.2",
+      "verified": "2026-03-27"
+    },
+    "EE:ATZ": {
+      "rule": "Lennuvälja liiklustsoon (ATZ), tingimuslik (CONDITIONAL) tsoonitüüp. Droonilend eeldab tavaliselt kooskõlastamist lennuväljaga, sest tegevus võib mõjutada teisi õhusõidukeid. Kontrolli tsooni tingimusi äpist enne lendu.",
+      "source": "EANS / Transpordiamet droonikaart (utm.eans.ee) — ED-269 CONDITIONAL",
+      "verified": "2026-08-01"
+    },
+    "EE:CTR": {
+      "rule": "CTR-tüüpi tsoonid: lennuväljade lähialad, ajutised NOTAM-põhised ohualad ja õhusõidukite treeningalad. Droonilennuks on tavaliselt vaja luba lennujuhtimiselt või tegevusluba tsoonis määratud kõrgusest kõrgemal. Kontrolli tsooni teadet äpist enne lendu.",
+      "source": "EANS / Transpordiamet droonikaart (utm.eans.ee) — ED-269 CTR-rühm",
+      "verified": "2026-08-01"
+    },
+    "EE:DNGA": {
+      "rule": "Ohuala (DNGA): NOTAM-iga AKTIVEERITUD ohuala, kus toimub laske- või õppetegevus. Kontrolli kehtivaid NOTAM-eid ja ala aktiivsust enne lendu; ära lenda alale selle aktiivsuse ajal.",
+      "source": "EANS / Transpordiamet droonikaart (utm.eans.ee) — ED-269 DNGA",
+      "verified": "2026-09-10"
+    },
+    "EE:DNGA_ADVISORY": {
+      "rule": "Ohuala (DNGA): piirkonnas võib toimuda meeskonnaga õhusõidukite tegevust (nt lennuakrobaatika, treeninglennud) või langevarjumootoriga lende. Droonilend ei ole formaalselt keelatud, kuid lenda ettevaatlikult ja jälgi õhuruumi.",
+      "source": "EANS / Transpordiamet droonikaart (utm.eans.ee) — ED-269 DNGA",
+      "verified": "2026-09-05"
+    },
+    "EE:INFO_EE": {
+      "rule": "Teabeala (INFO) — Transpordiameti geograafiline UAS-ala, mille piirang on NO_RESTRICTION: lendamine avatud kategoorias on lubatud ja eraldi luba ei ole nõutav. Kõrguspiirang on alapõhine — Eesti INFO-aladel 20–120 meetrit maapinnast — ja on kirjas ala enda andmetes. Lendamine peab vastama avatud kategooria üldtingimustele (EL 2019/947). Enne lendu kontrolli ala andmeid ja NOTAM-teateid.",
+      "source": "Transpordiamet / EANS — Eesti droonikaart, ED-269 (utm.eans.ee)",
+      "verified": "2026-09-05"
+    },
+    "EE:P": {
+      "rule": "Keeluala (P). Kontrolli alati tsooni kõrguspiire enne lendu. Eesti riigiülene P-tsoon EEGZS1 algab 121 m kõrguselt ja ei piira avatud kategooria lendu kuni 120 m — EANS sõnastab selle nii: «Kui soovite lennata kõrguspiirist kõrgemal või vabana muudest avatud kategooria reeglitest, peab teil olema erikategooria käitamisluba.» Maapinnalt algavas keelualas on droonilend ilma loata keelatud.",
+      "source": "EANS / Transpordiamet droonikaart (utm.eans.ee) — ED-269 PROHIBITED",
+      "verified": "2026-08-22"
+    },
+    "EE:RSTA": {
+      "rule": "RSTA-tsoonid hõlmavad UAS-piirangutsoone ja endisi ICAO piirangualasid — nt piirivöönd, looduskaitsealad, vanglad. Droonilennuks on tavaliselt vaja kirjalik luba vastutavalt asutuselt (Kaitsevägi, PPA, Keskkonnaamet, Kaitsepolitsei või Päästeamet). Täpne kontakt on tsooni teates.",
+      "source": "EANS / Transpordiamet droonikaart (utm.eans.ee) — ED-269 RSTA",
+      "verified": "2026-08-01"
+    },
+    "EFD_FI": {
+      "rule": "Vaara-alue (EFD) AIS Finland eAIP ENR 5.1:n mukaan: määritellyn kokoinen ilmatila, jossa voi tiettyinä aikoina esiintyä ilma-aluksille vaarallista toimintaa — esimerkiksi miehittämätöntä ilmailua, purjelentoa tai muuta usein toistuvaa harrasteilmailua. Joillakin alueilla esiintyy myös sotilastoimintaa. Alueet aktivoidaan NOTAMilla: tarkista aktivointitilanne aina ais.fi-sivulta tai NOTAM-näkymästä ennen lentoa ja koordinoi lento alueella toimivan tahon kanssa.",
+      "source": "AIS Finland eAIP ENR 5.1 (EFD-sarja); Fintraffic ANS",
+      "verified": "2026-08-08"
+    },
+    "EFP_FI": {
+      "rule": "Kieltoalue (EFP) AIS Finland eAIP ENR 5.1:n ja valtioneuvoston asetuksen 930/2014 mukaan — mm. Loviisan ja Olkiluodon ydinvoimalat, Kilpilahden jalostamoalue, Helsingin Meilahden, Munkkiniemen ja Kruununhaan hallintoalueet sekä Turun lähellä sijaitseva Luonnonmaa. Lennättäminen on kielletty ilman erityistä lupaa, jota haetaan Traficomilta. Traficom voi erityisistä syistä myöntää luvan Meilahdessa, Munkkiniemessä, Luonnonmaalla ja Kruununhaassa kuultuaan tasavallan presidentin kansliaa tai valtioneuvoston kansliaa sen mukaan, minkä tahon suojaamiseksi alue on perustettu, ja Loviisassa, Olkiluodossa ja Kilpilahdessa kuultuaan sisäministeriötä.",
+      "source": "AIS Finland eAIP ENR 5.1 (EFP-sarja); Fintraffic ANS",
+      "verified": "2026-08-08"
+    },
+    "EFR_FI": {
+      "rule": "Rajoitusalue (EFR) AIS Finland eAIP ENR 5.1:n mukaan. EFR100 myötäilee Venäjän vastaista itärajaa ja on voimassa H24; muut EFR-alueet kattavat sotilasalueita, saaria (Russarö, Örö, Isokari) ja muita arkaluonteisia kohteita. Luvan ilmailutoimintaan rajoitusalueella myöntää Puolustusvoimat: kaikki nykyisin voimassa olevat rajoitusalueet on perustettu Puolustusvoimien tarpeisiin (VNa 930/2014, liite 2 b). Traficom voi 5 §:n 1 momentin nojalla myöntää luvan muiden kuin Puolustusvoimien tarpeisiin perustetuilla rajoitusalueilla, mutta voimassa olevassa liitteessä 2 a todetaan: ”Rajoitusalueita ei ole”.",
+      "source": "AIS Finland eAIP ENR 5.1 (EFR-sarja); Fintraffic ANS",
+      "verified": "2026-08-08"
+    },
+    "ES:ATZ": {
+      "rule": "Zona geográfica de UAS de aeródromo de uso restringido o campo de ultraligeros (Real Decreto 517/2024, artículo 41.1.c). ENAIRE indica para estas zonas: «NO permitido el vuelo a drones excepto coordinación con la infraestructura». En la zona interior la coordinación es siempre necesaria; en la zona exterior solo por encima de 45 m medidos desde el punto de referencia del aeródromo. El contacto figura en el texto de la zona. Para las ATZ del espacio aéreo controlado (nombre «ATZ …», límite inferior 60 m) rigen las reglas del artículo 42: VLOS hasta 60 m fuera de las zonas de aeródromo sin autorización ATC.",
+      "source": "Real Decreto 517/2024, artículos 41.1.c y 42 (BOE-A-2024-11377) · ENAIRE INSIGNIA (mensaje de zona, capa 2)",
+      "verified": "2026-09-02",
+      "note": "Legacy-rad: binärer före nyckeldelningen 2026-09 mappar SUPERFICIE (ULM-fält) och ENAIRE-ATZ till nyckeln ATZ; nyare binärer använder AERO_ES/AERO_ES_RING respektive CTR."
+    },
+    "ES:CTR": {
+      "rule": "Espacio aéreo controlado o zona de información de vuelo (CTR, ATZ, FIZ y las TMA/CTA con límite inferior de 60 m): zona geográfica de UAS general por seguridad operacional (Real Decreto 517/2024, artículo 42). La operación está prohibida salvo que se cumpla una de estas reglas: a) vuelo VLOS a una altura máxima de 60 m y fuera de las zonas de aeródromos y helipuertos del artículo 41 — este vuelo está exento de plan de vuelo y de la autorización previa del control de tránsito aéreo o comunicación al AFIS (art. 42.3); o b) operación conforme al procedimiento operativo de coordinación establecido con el proveedor ATS (art. 43). Si esta zona es una zona de aeródromo del artículo 41 (su nombre lleva el indicador del aeródromo, p. ej. LEBZ0 o LEBZ45), rige en su lugar la coordinación con el gestor del aeródromo: en la zona interior siempre; en la zona exterior solo por encima de 45 m sobre el punto de referencia del aeródromo — ENAIRE lo indica en el texto de la zona.",
+      "source": "Real Decreto 517/2024, artículos 42 y 43 (BOE-A-2024-11377, texto consolidado) · ENAIRE INSIGNIA",
+      "verified": "2026-09-02"
+    },
+    "ES:HKP1K_ES": {
+      "rule": "Zona interior de protección de helipuerto. En toda la zona el vuelo de drones está prohibido —desde el nivel de la superficie hasta el límite superior— salvo coordinación previa con el helipuerto. Consulte el texto propio de la zona para las distancias aplicables.",
+      "source": "ENAIRE INSIGNIA · RD 517/2024 art. 41.1.b y 41.2",
+      "verified": "2026-09-01"
+    },
+    "ES:HKP1K_ES_RING": {
+      "rule": "Zona exterior de protección de helipuerto. El límite de 90 m se mide desde el punto de referencia del aeródromo, no desde el suelo en el que usted se encuentra. Por debajo de 90 m ENAIRE indica que no es necesario coordinar la operación; por encima, la coordinación es necesaria.",
+      "source": "ENAIRE INSIGNIA · RD 517/2024 art. 41.1.d",
+      "verified": "2026-09-01"
+    },
+    "ES:P": {
+      "rule": "Zona prohibida (P). El vuelo de drones no está permitido; ENAIRE indica en los datos de la zona únicamente el organismo responsable (en general el Ministerio de Defensa), sin una vía de autorización general. Compruebe los límites verticales en el texto de la zona: algunas zonas se aplican solo por encima de una altitud determinada.",
+      "source": "ENAIRE INSIGNIA / AESA",
+      "verified": "2026-09-02"
+    },
+    "ES:PARQUE_NACIONAL_ES": {
+      "rule": "Superficie del registro del OAPN de los parques nacionales de España. El nombre de la zona indica en qué parte se encuentra: «(parque)» es la superficie del propio parque nacional; «zona periférica» es la Zona Periférica de Protección (ZPP), situada fuera del parque. Dentro del parque nacional el vuelo de drones está prohibido según la Ley 30/2014 (Ley de Parques Nacionales), cuyo art. 7.3.e solo permite el sobrevuelo a menos de 3 000 m sobre el terreno con autorización expresa (el RD 493/2021 fija límites propios, más bajos, para determinados parques — en todos los casos muy por encima del techo de la categoría abierta). Lo que rige en la zona periférica de protección lo determinan las normas propias del parque: consúltelas antes de volar. La información y el contacto del parque figuran en los datos de la zona.",
+      "source": "OAPN (MITECO) — Ley 30/2014 · art. 7.3.e (BOE-A-2014-12588)",
+      "verified": "2026-09-02"
+    },
+    "ES:RSTA": {
+      "rule": "Zona restringida (R) o zona de fotografía restringida. En una zona restringida el vuelo está prohibido salvo autorización del organismo responsable que figura en los datos de la zona — en la mayoría de las zonas militares el Ministerio de Defensa; en algunas, la dependencia ATS indicada (por ejemplo la torre del aeródromo). En una zona de fotografía restringida el vuelo no está prohibido: la restricción afecta a la toma de imágenes aéreas, que requiere solicitar las condiciones técnicas al CECAF (Centro Cartográfico y Fotográfico del Ejército del Aire). Compruebe el texto y los límites verticales de la zona: algunas se aplican solo a partir de una altitud determinada.",
+      "source": "ENAIRE INSIGNIA — zonas R y RVF · CECAF",
+      "verified": "2026-09-02"
+    },
+    "FI:CTR_FI": {
+      "rule": "Rajoittava UAS-ilmatilavyöhyke Traficomin mukaan — ei ATS-lähilennonjohtoalue (CTR). Rajoittavilla UAS-ilmatilavyöhykkeillä on korvattu 31.12.2020 alkaen kansallisen määräyksen OPS M1-32 mukaiset lentoasemien, lentopaikkojen ja helikopterilentopaikkojen suojaetäisyydet. Valvotulla lentoasemalla koordinointi tehdään Fintraffic ANS:n (lennonjohto) kanssa; valvomattomien lentopaikkojen ja helikopterilentopaikkojen osalta lennättäjä tai operaattori vastaa itse siitä, että lennätys koordinoidaan lentopaikan pitäjän kanssa — lennonvarmistusyksiköt eivät koordinoi lennätyksiä näiden tahojen kanssa.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269); Fintraffic ANS",
+      "verified": "2026-08-08"
+    },
+    "FI:EFD_FI": {
+      "rule": "Vaara-alue (EFD) AIS Finland eAIP ENR 5.1:n mukaan: määritellyn kokoinen ilmatila, jossa voi tiettyinä aikoina esiintyä ilma-aluksille vaarallista toimintaa — esimerkiksi miehittämätöntä ilmailua, purjelentoa tai muuta usein toistuvaa harrasteilmailua. Joillakin alueilla esiintyy myös sotilastoimintaa. Alueet aktivoidaan NOTAMilla: tarkista aktivointitilanne aina ais.fi-sivulta tai NOTAM-näkymästä ennen lentoa ja koordinoi lento alueella toimivan tahon kanssa.",
+      "source": "AIS Finland eAIP ENR 5.1 (EFD-sarja); Fintraffic ANS",
+      "verified": "2026-08-08"
+    },
+    "FI:EFP_FI": {
+      "rule": "Kieltoalue (EFP) AIS Finland eAIP ENR 5.1:n ja valtioneuvoston asetuksen 930/2014 mukaan — mm. Loviisan ja Olkiluodon ydinvoimalat, Kilpilahden jalostamoalue, Helsingin Meilahden, Munkkiniemen ja Kruununhaan hallintoalueet sekä Turun lähellä sijaitseva Luonnonmaa. Lennättäminen on kielletty ilman erityistä lupaa, jota haetaan Traficomilta. Traficom voi erityisistä syistä myöntää luvan Meilahdessa, Munkkiniemessä, Luonnonmaalla ja Kruununhaassa kuultuaan tasavallan presidentin kansliaa tai valtioneuvoston kansliaa sen mukaan, minkä tahon suojaamiseksi alue on perustettu, ja Loviisassa, Olkiluodossa ja Kilpilahdessa kuultuaan sisäministeriötä.",
+      "source": "AIS Finland eAIP ENR 5.1 (EFP-sarja); Fintraffic ANS",
+      "verified": "2026-08-08"
+    },
+    "FI:EFR_FI": {
+      "rule": "Rajoitusalue (EFR) AIS Finland eAIP ENR 5.1:n mukaan. EFR100 myötäilee Venäjän vastaista itärajaa ja on voimassa H24; muut EFR-alueet kattavat sotilasalueita, saaria (Russarö, Örö, Isokari) ja muita arkaluonteisia kohteita. Luvan ilmailutoimintaan rajoitusalueella myöntää Puolustusvoimat: kaikki nykyisin voimassa olevat rajoitusalueet on perustettu Puolustusvoimien tarpeisiin (VNa 930/2014, liite 2 b). Traficom voi 5 §:n 1 momentin nojalla myöntää luvan muiden kuin Puolustusvoimien tarpeisiin perustetuilla rajoitusalueilla, mutta voimassa olevassa liitteessä 2 a todetaan: ”Rajoitusalueita ei ole”.",
+      "source": "AIS Finland eAIP ENR 5.1 (EFR-sarja); Fintraffic ANS",
+      "verified": "2026-08-08"
+    },
+    "FI:GRON_NATUR_FI": {
+      "rule": "Natura 2000 -alue (SAC luontodirektiivin tai SPA lintudirektiivin mukaan); aineisto Sykeltä (Suomen ympäristökeskus). Se, että alue kuuluu Natura 2000 -verkostoon, ei sinänsä kerro, onko dronen lennättäminen siellä sallittua. Luonnonsuojelualueilla, kuten kansallispuistoissa, voi olla rajoitusalueita, joilla liikkuminen on kielletty ainakin osan vuodesta; liikkumiskielto voi olla myös pysyvä ja ympärivuotinen, ja se koskee myös pudonneen dronen noutamista. Rajoitukset löytyvät kohteiden kartoilta sekä järjestyssäännöstä — tarkista ne Metsähallitukselta ennen lentoa. Herkintä on muutto- ja pesintäaika, maaliskuun alusta lokakuun loppuun.",
+      "source": "Syke (Suomen ympäristökeskus) — Natura 2000, INSPIRE-aineisto; Metsähallitus",
+      "verified": "2026-08-08"
+    },
+    "FI:HEMS_FI": {
+      "rule": "UAS-vyöhyke sairaala-alueella. Traficom on perustanut vyöhykkeen arkaluonteisuuden perusteella (SENSITIVE) ja luokittelee sen REQ_AUTHORISATION-vyöhykkeeksi — lennättäminen vyöhykkeellä vaatii luvan. Vyöhykkeestä vastaava viranomainen on Traficom: tarkista vyöhykkeen ehdot äläkä lennä ilman vyöhykkeen edellyttämää lupaa.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269)",
+      "verified": "2026-08-08"
+    },
+    "FI:INFO_FI": {
+      "rule": "Tiedotusvyöhyke ilman muodollisia UAS-lentorajoituksia Traficomin UAS-luokituksen mukaan (NO_RESTRICTION, salliva vyöhyke). Vyöhyke on kuitenkin perustettu muuta UAS-toimintaa varten — testi-, tutkimus- ja teollisuusalueita varten — joten alueella voi olla muita miehittämättömiä ilma-aluksia ilmassa. Ole valppaana ja tarkista aina paikalliset opasteet ja NOTAM ennen lentoa.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269)",
+      "verified": "2026-08-08"
+    },
+    "FI:INFRA_FI": {
+      "rule": "Kriittinen infrastruktuuri — satama tai voimalaitos. Näillä vyöhykkeillä lennättäminen on sallittua ainoastaan kyseessä olevan vyöhykkeen ehtoja noudattamalla. Vyöhykkeen on perustanut Traficom, joka on vyöhykkeestä vastaava viranomainen, ja ehdot käyvät ilmi vyöhykepäätöksestä. Tarkista tämän vyöhykkeen ehdot ennen lentoa.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269)",
+      "verified": "2026-08-08"
+    },
+    "FI:LENNOKKI_FI": {
+      "rule": "Lennokkikerhon kenttä. Ei muodollisia UAS-lentorajoituksia, mutta ole valppaana — muita UAS- ja lennokkilentäjiä voi olla paikalla. Kunnioita kerhon sääntöjä alueella lentäessäsi.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269)",
+      "verified": "2026-08-01"
+    },
+    "FI:MIL_FI": {
+      "rule": "Puolustusvoimien alue — pysyvä tai tilapäinen rajoitusalue. Pysyvien ja tilapäisten rajoitusalueiden sisällä lennättäminen on kiellettyä ilman erillistä lupaa Puolustusvoimilta. Lisäksi maanpuolustukseen liittyvien harjoitusten, varikkojen tai muun toiminnan kuvaaminen on kiellettyä ilman erillistä lupaa, jota tulee hakea Pääesikunnalta — kielto koskee myös kartalla näkyvien vyöhykkeiden ulkopuolisia kohteita. Ilmakuvauslupaa haetaan osoitteesta puolustusvoimat.fi/ilmakuvauslupa.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269); Puolustusvoimat",
+      "verified": "2026-08-08"
+    },
+    "FI:P_FI": {
+      "rule": "PROHIBITED-vyöhyke Traficomin UAS-luokituksen mukaan. Vyöhyke on perustettu Traficomin päätöksellä tai määräyksellä, ja siitä vastaava viranomainen on Traficom. UAS-lennättäminen vyöhykkeellä on kielletty. Vyöhykettä ja sen ehtoja koskevat kysymykset osoitetaan Traficomille.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269)",
+      "verified": "2026-08-08"
+    },
+    "FI:RESTRICTED_FI": {
+      "rule": "Turvallisuusluokiteltu vyöhyke Traficomin UAS-luokituksen mukaan. UAS-lento vaatii Traficomin tai kohteen omistajan erityisluvan; hae lupaa traficom.fi:n kautta. Osa näistä vyöhykkeistä on merkitty Traficomin UAS-aineistossa kieltäviksi — muun muassa suurlähetystöalueet ja ”Helsinki pelastuslaitos UAS” -vyöhykkeet. Niillä lennättäminen on kielletty, ei luvanvaraista. Tarkista vyöhykkeen nimi ja tila traficom.fi:stä ennen lennon suunnittelua.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269); traficom.fi",
+      "verified": "2026-09-05"
+    },
+    "FR:FR_FORBIDDEN": {
+      "rule": "« Vol interdit » sur la carte des restrictions drones DGAC/IGN. Le motif le plus fréquent n'est pas la proximité d'un aérodrome mais l'espace public en agglomération — la remarque de la DGAC/IGN pour ces zones indique : « Évolution interdite en espace public en agglomération sauf conformément à l'arrêté Espace. » D'autres zones rouges se situent à proximité d'aérodromes ou d'installations militaires et sensibles ; certaines portent en outre une obligation de notification pour les drones dès 900 g. Considérez le vol comme interdit ici et vérifiez le motif, les limites exactes et les conditions sur le Géoportail avant de voler.",
+      "source": "DGAC/IGN — Géoportail restrictions UAS (WFS)",
+      "verified": "2026-08-08"
+    },
+    "FR:FR_MAX100": {
+      "rule": "Pour cette zone, la DGAC et l'IGN indiquent une hauteur maximale de vol sans accord préalable de 100 m. Cette hauteur ne se compte pas depuis le sol où vous vous trouvez : « Les hauteurs de vol mentionnées dans la présente annexe sont à considérer par rapport à l'altitude de référence de l'infrastructure concernée » (GUIDE DSAC CATÉGORIE OUVERTE, annexe 4). L'altitude de référence propre à la zone figure dans les conditions de la zone (« Altitude de référence »). Si le sol où vous vous trouvez est plus haut que l'altitude de référence, il vous reste moins de 100 m avant le plafond ; voler plus haut suppose un accord préalable.",
+      "source": "DGAC/IGN — Géoportail restrictions UAS (WFS)",
+      "verified": "2026-08-08"
+    },
+    "FR:FR_MAX30": {
+      "rule": "Pour cette zone, la DGAC et l'IGN indiquent une hauteur maximale de vol sans accord préalable de 30 m. Cette hauteur ne se compte pas depuis le sol où vous vous trouvez : « Les hauteurs de vol mentionnées dans la présente annexe sont à considérer par rapport à l'altitude de référence de l'infrastructure concernée » (GUIDE DSAC CATÉGORIE OUVERTE, annexe 4). L'altitude de référence propre à la zone figure dans les conditions de la zone (« Altitude de référence »). Si le sol où vous vous trouvez est plus haut que l'altitude de référence, il vous reste moins de 30 m avant le plafond ; voler plus haut suppose un accord préalable.",
+      "source": "DGAC/IGN — Géoportail restrictions UAS (WFS)",
+      "verified": "2026-08-08"
+    },
+    "FR:FR_MAX50": {
+      "rule": "Pour cette zone, la DGAC et l'IGN indiquent une hauteur maximale de vol sans accord préalable de 50 m. Cette hauteur ne se compte pas depuis le sol où vous vous trouvez : « Les hauteurs de vol mentionnées dans la présente annexe sont à considérer par rapport à l'altitude de référence de l'infrastructure concernée » (GUIDE DSAC CATÉGORIE OUVERTE, annexe 4). L'altitude de référence propre à la zone figure dans les conditions de la zone (« Altitude de référence »). Si le sol où vous vous trouvez est plus haut que l'altitude de référence, il vous reste moins de 50 m avant le plafond ; voler plus haut suppose un accord préalable.",
+      "source": "DGAC/IGN — Géoportail restrictions UAS (WFS)",
+      "verified": "2026-08-08"
+    },
+    "FR:FR_MAX60": {
+      "rule": "Pour cette zone, la DGAC et l'IGN indiquent une hauteur maximale de vol sans accord préalable de 60 m. Cette hauteur ne se compte pas depuis le sol où vous vous trouvez : « Les hauteurs de vol mentionnées dans la présente annexe sont à considérer par rapport à l'altitude de référence de l'infrastructure concernée » (GUIDE DSAC CATÉGORIE OUVERTE, annexe 4). L'altitude de référence propre à la zone figure dans les conditions de la zone (« Altitude de référence »). Si le sol où vous vous trouvez est plus haut que l'altitude de référence, il vous reste moins de 60 m avant le plafond ; voler plus haut suppose un accord préalable.",
+      "source": "DGAC/IGN — Géoportail restrictions UAS (WFS)",
+      "verified": "2026-08-08"
+    },
+    "FR:FR_UNKNOWN": {
+      "rule": "La remarque de la zone dans les données DGAC/IGN indique : « Notification préalable obligatoire pour les aéronefs de masse supérieure à 900g. » Le GUIDE DSAC CATÉGORIE OUVERTE précise l'obligation : « tous les vols d'UAS de plus de 900 grammes dans ces zones doivent faire l'objet d'une notification aux Armées (via AlphaTango), pendant les heures d'activité et ce quelle que soit la hauteur de vol. » La zone ne fixe pas de hauteur maximale : l'obligation s'applique quelle que soit la hauteur de vol. Vérifiez les conditions de la zone et le Géoportail avant de voler.",
+      "source": "DGAC/IGN — Géoportail restrictions UAS (WFS)",
+      "verified": "2026-08-08"
+    },
+    "FR:PARC_NATIONAL_FR": {
+      "rule": "Le survol du cœur du parc national à une hauteur inférieure à 1 000 m du sol est interdit par la réglementation propre à chaque parc. L'habilitation figure au code de l'environnement art. L331-4-1, qui permet de « soumettre à un régime particulier et, le cas échéant, interdire […] le survol du coeur du parc à une hauteur inférieure à 1 000 mètres du sol ». Les drones sont des aéronefs motorisés. La dérogation relève du directeur du parc — et non du contrôle aérien. Le nom de la zone indique dans quelle partie du parc vous vous trouvez ; vérifiez l'arrêté du parc concerné avant de voler.",
+      "source": "Parcs nationaux de France — data.gouv.fr (Etalab 2.0)",
+      "verified": "2026-08-08"
+    },
+    "FR:ZICAD_FR": {
+      "rule": "Zone Interdite à la Captation Aérienne des Données (ZICAD), établie par arrêté interministériel. Le vol peut être autorisé (vérifiez la DGAC séparément), mais toute prise de vue, vidéo ou captation de données y est interdite — infraction pénale en droit français.",
+      "source": "DGAC — arrêté interministériel (ZICAD)",
+      "verified": "2026-08-01"
+    },
+    "FRIA_US": {
+      "rule": "FAA-Recognized Identification Area (FRIA): drones without Remote ID may fly here — a permitted area, not a restriction. Both the drone and the pilot must stay within the FRIA boundary and the pilot must be able to see the drone at all times. The FRIA exempts you from Remote ID only: in Class B, C or D airspace or a Class E surface area you still need prior FAA authorization (LAANC or FAADroneZone, 14 CFR 107.41), and registration and the Part 107 or recreational rules apply as usual.",
+      "source": "FAA — FRIA program (faa.gov/uas/getting_started/remote_id/fria) + 14 CFR 107.41",
+      "verified": "2026-09-02"
+    },
+    "FR_FORBIDDEN": {
+      "rule": "« Vol interdit » sur la carte des restrictions drones DGAC/IGN. Le motif le plus fréquent n'est pas la proximité d'un aérodrome mais l'espace public en agglomération — la remarque de la DGAC/IGN pour ces zones indique : « Évolution interdite en espace public en agglomération sauf conformément à l'arrêté Espace. » D'autres zones rouges se situent à proximité d'aérodromes ou d'installations militaires et sensibles ; certaines portent en outre une obligation de notification pour les drones dès 900 g. Considérez le vol comme interdit ici et vérifiez le motif, les limites exactes et les conditions sur le Géoportail avant de voler.",
+      "source": "DGAC/IGN — Géoportail restrictions UAS (WFS)",
+      "verified": "2026-08-08"
+    },
+    "FR_MAX100": {
+      "rule": "Pour cette zone, la DGAC et l'IGN indiquent une hauteur maximale de vol sans accord préalable de 100 m. Cette hauteur ne se compte pas depuis le sol où vous vous trouvez : « Les hauteurs de vol mentionnées dans la présente annexe sont à considérer par rapport à l'altitude de référence de l'infrastructure concernée » (GUIDE DSAC CATÉGORIE OUVERTE, annexe 4). L'altitude de référence propre à la zone figure dans les conditions de la zone (« Altitude de référence »). Si le sol où vous vous trouvez est plus haut que l'altitude de référence, il vous reste moins de 100 m avant le plafond ; voler plus haut suppose un accord préalable.",
+      "source": "DGAC/IGN — Géoportail restrictions UAS (WFS)",
+      "verified": "2026-08-08"
+    },
+    "FR_MAX30": {
+      "rule": "Pour cette zone, la DGAC et l'IGN indiquent une hauteur maximale de vol sans accord préalable de 30 m. Cette hauteur ne se compte pas depuis le sol où vous vous trouvez : « Les hauteurs de vol mentionnées dans la présente annexe sont à considérer par rapport à l'altitude de référence de l'infrastructure concernée » (GUIDE DSAC CATÉGORIE OUVERTE, annexe 4). L'altitude de référence propre à la zone figure dans les conditions de la zone (« Altitude de référence »). Si le sol où vous vous trouvez est plus haut que l'altitude de référence, il vous reste moins de 30 m avant le plafond ; voler plus haut suppose un accord préalable.",
+      "source": "DGAC/IGN — Géoportail restrictions UAS (WFS)",
+      "verified": "2026-08-08"
+    },
+    "FR_MAX50": {
+      "rule": "Pour cette zone, la DGAC et l'IGN indiquent une hauteur maximale de vol sans accord préalable de 50 m. Cette hauteur ne se compte pas depuis le sol où vous vous trouvez : « Les hauteurs de vol mentionnées dans la présente annexe sont à considérer par rapport à l'altitude de référence de l'infrastructure concernée » (GUIDE DSAC CATÉGORIE OUVERTE, annexe 4). L'altitude de référence propre à la zone figure dans les conditions de la zone (« Altitude de référence »). Si le sol où vous vous trouvez est plus haut que l'altitude de référence, il vous reste moins de 50 m avant le plafond ; voler plus haut suppose un accord préalable.",
+      "source": "DGAC/IGN — Géoportail restrictions UAS (WFS)",
+      "verified": "2026-08-08"
+    },
+    "FR_MAX60": {
+      "rule": "Pour cette zone, la DGAC et l'IGN indiquent une hauteur maximale de vol sans accord préalable de 60 m. Cette hauteur ne se compte pas depuis le sol où vous vous trouvez : « Les hauteurs de vol mentionnées dans la présente annexe sont à considérer par rapport à l'altitude de référence de l'infrastructure concernée » (GUIDE DSAC CATÉGORIE OUVERTE, annexe 4). L'altitude de référence propre à la zone figure dans les conditions de la zone (« Altitude de référence »). Si le sol où vous vous trouvez est plus haut que l'altitude de référence, il vous reste moins de 60 m avant le plafond ; voler plus haut suppose un accord préalable.",
+      "source": "DGAC/IGN — Géoportail restrictions UAS (WFS)",
+      "verified": "2026-08-08"
+    },
+    "FR_UNKNOWN": {
+      "rule": "La remarque de la zone dans les données DGAC/IGN indique : « Notification préalable obligatoire pour les aéronefs de masse supérieure à 900g. » Le GUIDE DSAC CATÉGORIE OUVERTE précise l'obligation : « tous les vols d'UAS de plus de 900 grammes dans ces zones doivent faire l'objet d'une notification aux Armées (via AlphaTango), pendant les heures d'activité et ce quelle que soit la hauteur de vol. » La zone ne fixe pas de hauteur maximale : l'obligation s'applique quelle que soit la hauteur de vol. Vérifiez les conditions de la zone et le Géoportail avant de voler.",
+      "source": "DGAC/IGN — Géoportail restrictions UAS (WFS)",
+      "verified": "2026-08-08"
+    },
+    "GRON_NATUR": {
+      "rule": "Grøn zone på Trafikstyrelsens kort. De fleste af områderne er fuglebeskyttelses- eller habitatområder efter § 14 i dronebekendtgørelsen, men kortet bærer også områder under andre bestemmelser. Nogle af områderne er droneforbudszoner eller fredninger — for flere af dem gælder forbuddet hele året; her gælder § 14-tilladelsesvejen ikke, og zonens navn og områdets egen begrundelse siger hvad der gælder. For fuglebeskyttelses- og habitatområderne gælder § 14: droneoperationer må ikke finde sted uden tilladelse fra Trafikstyrelsen (stk. 1); uden for de i bilag 2 nævnte områders beskyttelsesperioder er de tilladt (stk. 4), og inden for beskyttelsesperioden kræver flyvning tilladelse, som søges via de blanketter, Trafikstyrelsen stiller til rådighed på www.virk.dk eller på Trafikstyrelsens hjemmeside (§ 31). Undtagelse (stk. 2): myndighedernes eller grundejerens nødvendige opgaver i forbindelse med tilsyn, vedligeholdelse, offentlige overvågningsaktiviteter og kontrolopgaver af anlæg, ejendomme, skovbrug, landbrug og dyrehold kræver ingen ansøgning. Fjernpiloten, der gennemfører droneoperationen, skal have et kompetencecertifikat (stk. 5). Beskyttelsesperioden fastsættes for hvert enkelt område i bilag 2 og varierer fra område til område — for mange områder gælder den hele året. Tjek områdets beskyttelsesperiode og aktive status på droneregler.dk før flyvning.",
+      "source": "Trafikstyrelsen — BEK nr 1649 af 12/12/2023 § 14 samt § 31, som ændret ved BEK nr 527 af 20/05/2025; NaturOmraader (feltet theme skiller Natura 2000 fra Droneforbudszone/Fredning)",
+      "verified": "2026-09-04"
+    },
+    "GRON_NATUR_FI": {
+      "rule": "Natura 2000 -alue (SAC luontodirektiivin tai SPA lintudirektiivin mukaan); aineisto Sykeltä (Suomen ympäristökeskus). Se, että alue kuuluu Natura 2000 -verkostoon, ei sinänsä kerro, onko dronen lennättäminen siellä sallittua. Luonnonsuojelualueilla, kuten kansallispuistoissa, voi olla rajoitusalueita, joilla liikkuminen on kielletty ainakin osan vuodesta; liikkumiskielto voi olla myös pysyvä ja ympärivuotinen, ja se koskee myös pudonneen dronen noutamista. Rajoitukset löytyvät kohteiden kartoilta sekä järjestyssäännöstä — tarkista ne Metsähallitukselta ennen lentoa. Herkintä on muutto- ja pesintäaika, maaliskuun alusta lokakuun loppuun.",
+      "source": "Syke (Suomen ympäristökeskus) — Natura 2000, INSPIRE-aineisto; Metsähallitus",
+      "verified": "2026-08-08"
+    },
+    "HEMS_FI": {
+      "rule": "UAS-vyöhyke sairaala-alueella. Traficom on perustanut vyöhykkeen arkaluonteisuuden perusteella (SENSITIVE) ja luokittelee sen REQ_AUTHORISATION-vyöhykkeeksi — lennättäminen vyöhykkeellä vaatii luvan. Vyöhykkeestä vastaava viranomainen on Traficom: tarkista vyöhykkeen ehdot äläkä lennä ilman vyöhykkeen edellyttämää lupaa.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269)",
+      "verified": "2026-08-08"
+    },
+    "HEMS_NL": {
+      "rule": "Trauma- of ambulancehelikopter-zone: medische helikopters kunnen hier 24/7 onaangekondigd landen. Drone-vluchten zijn binnen de zone verboden om botsingen te voorkomen. Hoor je een helikopter, land dan je drone onmiddellijk.",
+      "source": "IenW — ED-269 drone-zones (NL)",
+      "verified": "2026-08-01"
+    },
+    "HKP1K": {
+      "rule": "Skyddszon kring helikopterflygplats. Flygning får endast ske i samråd med berörd helikopterflygplats — avståndet framgår av zonens egna uppgifter. Helikoptrar rör sig ofta nära marken och utan förvarning.",
+      "source": "Transportstyrelsen / ENAIRE — se zonens uppgifter",
+      "verified": "2026-09-01"
+    },
+    "IE:ATZ": {
+      "rule": "Model aircraft exemption zone. Exempts registered model aircraft, flown under a recognised model flying club, from the restrictions of the surrounding UAS geographical zone. Not a general clearance for other drones — check the zone card for exact conditions.",
+      "source": "IAA — ED-269 UAS Geographic Zones",
+      "verified": "2026-08-01"
+    },
+    "IE:CTR": {
+      "rule": "Control zone (CTR) from the IAA UAS geographic zone map — a zone whose own message publishes a height for the open category. For the Amber zones that height is commonly 15–30 m AGL, written as the greater of that height and the height of an obstacle within 50 m; Dublin's Casement Terrain zone (U98) publishes 60 m. Up to the published height open category flight is permitted; above it, only Specific Category operations with the zone authority's prior approval. The height that applies here is the one in this zone's own message on the zone card.",
+      "source": "IAA — ED-269 UAS Geographic Zones (zone messages) · Aeronautical Notice U.04",
+      "verified": "2026-09-10"
+    },
+    "IE:DNGA": {
+      "rule": "Danger area — hazardous or restricted-activity zone (e.g. scheduled UAS testing). The restriction is not always active — check the zone card for current activation times and contact the zone authority before flying.",
+      "source": "IAA — ED-269 UAS Geographic Zones",
+      "verified": "2026-08-01"
+    },
+    "IE:INFO_IE": {
+      "rule": "Information zone — no formal drone restriction. Marks an active aerodrome with low-level manned flight (e.g. training circuits). No permit is required, but read the zone description, watch for manned traffic, and share flight plans via the contact given.",
+      "source": "IAA — ED-269 UAS Geographic Zones",
+      "verified": "2026-08-01"
+    },
+    "IE:P": {
+      "rule": "Prohibited (Red) zone under the IAA's UAS airspace scheme. Flight requires prior authorisation from the zone authority named on the zone card, and it cannot be granted in the air. Which operating category may request access is stated in the zone's own text — for most Red zones the Specific Category only, but some also admit Open Category requests.",
+      "source": "IAA — ED-269 UAS Geographic Zones",
+      "verified": "2026-08-08"
+    },
+    "IE:RSTA": {
+      "rule": "Sensitive area — e.g. a military installation, prison, or similar site. Flight requires prior authorisation from the responsible zone authority (Defence Forces, Irish Prison Service, AirNav Ireland, etc.) — apply well in advance; check the zone card for contact details.",
+      "source": "IAA — ED-269 UAS Geographic Zones",
+      "verified": "2026-08-01"
+    },
+    "IE:TMA": {
+      "rule": "Control Zone — Green (outer) zone. Open category flight is permitted up to the height limit shown on the zone card (commonly around 90 m AGL); above that, only Specific Category operations with the zone authority's prior approval.",
+      "source": "IAA — ED-269 UAS Geographic Zones",
+      "verified": "2026-08-01"
+    },
+    "INFO_FI": {
+      "rule": "Tiedotusvyöhyke ilman muodollisia UAS-lentorajoituksia Traficomin UAS-luokituksen mukaan (NO_RESTRICTION, salliva vyöhyke). Vyöhyke on kuitenkin perustettu muuta UAS-toimintaa varten — testi-, tutkimus- ja teollisuusalueita varten — joten alueella voi olla muita miehittämättömiä ilma-aluksia ilmassa. Ole valppaana ja tarkista aina paikalliset opasteet ja NOTAM ennen lentoa.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269)",
+      "verified": "2026-08-08"
+    },
+    "INFO_IE": {
+      "rule": "Information zone — no formal drone restriction. Marks an active aerodrome with low-level manned flight (e.g. training circuits). No permit is required, but read the zone description, watch for manned traffic, and share flight plans via the contact given.",
+      "source": "IAA — ED-269 UAS Geographic Zones",
+      "verified": "2026-08-01"
+    },
+    "INFRA_DK": {
+      "rule": "Sikringskritisk zone (blå zone) efter §§ 11-13 i dronebekendtgørelsen — bl.a. diplomatiske repræsentationer (ambassader), domstole, kolonne 3-virksomheder, politiets ejendomme og kriminalforsorgens institutioner (§ 11) samt militære områder (§ 13). I disse zoner er droneflyvning som udgangspunkt ikke tilladt, medmindre du har fået tilladelse fra Trafikstyrelsen; ved de militære sikringskritiske zoner skal du have tilladelse fra Forsvarskommandoen og ikke Trafikstyrelsen. Afstandskravet følger objektet: 150 meter horisontal afstand efter § 11 og 1000 meter fra militære områder — 300 meter, hvis det militære område ligger i en byzone (§ 13).",
+      "source": "Trafikstyrelsen — BEK nr 1649 af 12/12/2023 §§ 11-13, som ændret ved BEK nr 527 af 20/05/2025; DroneZoner BLÅ",
+      "verified": "2026-08-08"
+    },
+    "INFRA_FI": {
+      "rule": "Kriittinen infrastruktuuri — satama tai voimalaitos. Näillä vyöhykkeillä lennättäminen on sallittua ainoastaan kyseessä olevan vyöhykkeen ehtoja noudattamalla. Vyöhykkeen on perustanut Traficom, joka on vyöhykkeestä vastaava viranomainen, ja ehdot käyvät ilmi vyöhykepäätöksestä. Tarkista tämän vyöhykkeen ehdot ennen lentoa.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269)",
+      "verified": "2026-08-08"
+    },
+    "INFRA_NL": {
+      "rule": "Zonering voor industriegebieden, vitale infrastructuur en beveiligde gebieden (Regeling zonering onbemande luchtvaartuigen). In deze zones geldt een verbod voor vluchten met onbemande luchtvaartuigen in de open categorie. De wijzigingsregeling geldt met ingang van 1 januari 2026. Contact: droneloket@minienw.nl.",
+      "source": "IenW — Regeling zonering onbemande luchtvaartuigen (Stcrt. 2025, 38071)",
+      "verified": "2026-08-08"
+    },
+    "IS:RSTA": {
+      "rule": "Þú ert innan skilgreinds drónabannsvæðis (RSTA) hjá Samgöngustofu — oftast lögreglu-, sendiráðs-, fangelsis-, virkjunar- eða flugvallarsvæði. Flug er óheimilt án leyfis frá ábyrgu yfirvaldi. Friðlýst svæði eru að langmestu leyti EKKI í þessu lagi. Fimm þeirra (Mývatn, Snæfellsjökull, Dimmuborgir, Grótta og Skútustaðagígar) eru nú teiknuð eftir friðlýsingarmörkum Náttúruverndarstofnunar. Á 27 friðlýstum svæðum sem Náttúruverndarstofnun telur upp í reglum sínum (15 allt árið, m.a. Gullfoss, Geysir, Goðafoss, Skógafoss, Dyrhólaey og Látrabjarg; 11 frá 1. maí til 15. september; Friðlandið að Fjallabaki 15. júní–15. september) er flug dróna óheimilt og stofnunin veitir einungis leyfi í atvinnuskyni — ekki fyrir tómstundaflug. Á öðrum friðlýstum svæðum fer leyfisskylda eftir reglum viðkomandi svæðis; flettu upp reglum svæðisins áður en þú flýgur.",
+      "source": "Samgöngustofa (ICETRA) — RSTA drónabannsvæði, LMÍ kort (uppfært vikulega) · Náttúruverndarstofnun — reglur um notkun dróna á friðlýstum svæðum",
+      "verified": "2026-09-05"
+    },
+    "IS:DNGA": {
+      "rule": "Hættusvæði (D) samkvæmt AIP Íslands ENR 5.1. Svæðið er ekki alltaf virkt — virknitími og skilyrði koma fram í upplýsingum svæðisins, t.d. BID12 Mosfellsbær: «Svæðið er einungis virkt þegar flugturninn í Reykjavík hefur samþykkt listflug í svæðinu. Virkjun svæðisins er auglýst með BIRK ATIS á 128.100 MHZ eða í síma +354 424 4049.»",
+      "source": "Samgöngustofa — AIP Ísland ENR 5.1 (eaip.isavia.is)",
+      "verified": "2026-10-20"
+    },
+    "JAGDBANN_CH": {
+      "rule": "Eidgenössisches Jagdbanngebiet (Wildschutz). Die Drohnenkarte des BAZL hält für diese Gebiete fest: «Der Betrieb von unbemannten Luftfahrzeugen ist verboten.» Das Verbot gilt dauerhaft und für alle Drohnen, unabhängig vom Gewicht. Ausnahmebewilligungen können bei der zuständigen kantonalen Fachstelle beantragt werden; gemäss Zonendaten ist das Gesuch mindestens 10 Tage vor dem Flug einzureichen. Kantone können zusätzlich eigene, strengere Regeln erlassen.",
+      "source": "BAZL — Einschränkungen für Drohnen (geo.admin.ch); BAFU — Eidg. Jagdbanngebiete (Perimeter)",
+      "verified": "2026-08-08"
+    },
+    "LENNOKKI_FI": {
+      "rule": "Lennokkikerhon kenttä. Ei muodollisia UAS-lentorajoituksia, mutta ole valppaana — muita UAS- ja lennokkilentäjiä voi olla paikalla. Kunnioita kerhon sääntöjä alueella lentäessäsi.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269)",
+      "verified": "2026-08-01"
+    },
+    "LFA_NL": {
+      "rule": "Laagvliegroute of -gebied voor bemand luchtverkeer: civiele en militaire vliegtuigen en helikopters vliegen hier laag. Open categorie: maximaal 30 meter boven het dichtstbijzijnde punt van het aardoppervlak (Regeling zonering onbemande luchtvaartuigen art. 2), en alleen voor drones van de A1-categorie tot 250 gram of de A2-categorie tot 4 kilogram — A3 is hier niet toegestaan. Controleer altijd de actuele NOTAM voordat je vliegt.",
+      "source": "IenW — ED-269 drone-zones (NL) · Regeling zonering onbemande luchtvaartuigen art. 2 · Rijksoverheid",
+      "verified": "2026-09-02"
+    },
+    "LU:ATZ": {
+      "rule": "Zone conditionnelle (ATZ) — les six secteurs A1 de l'aéroport du Findel et les hélistations d'hôpitaux. Chaque vol doit être notifié par courrier électronique au moins 24 heures avant le début du vol : à l'ANA pour les secteurs du Findel, et aux destinataires désignés pour chaque hélistation (par exemple Hôpitaux Robert Schuman et Luxembourg Air Rescue) — l'adresse figure dans les informations de la zone (règlement ministériel du 16 décembre 2020, art. 4 à 7, 9 et 11 pour les secteurs du Findel, art. 16 à 25 pour les hélistations). Sans notification dans ce délai, le vol n'est pas conforme.",
+      "source": "Règlement ministériel du 16 décembre 2020 (Legilux) · DAC Luxembourg — geoportail.lu/zones (CC0)",
+      "verified": "2026-09-02"
+    },
+    "LU:CTR": {
+      "rule": "Zone d'approche de l'aéroport de Luxembourg — vol de drones soumis à autorisation de l'Administration de la Navigation Aérienne (ANA). Consultez g-o.lu/uas avant de voler.",
+      "source": "DAC/ANA Luxembourg — geoportail.lu/zones (CC0)",
+      "verified": "2026-08-01"
+    },
+    "LU:P": {
+      "rule": "Zone interdite au vol de drones (ex. stades, aérodromes locaux, zones militaires), définie par la DAC. Consultez g-o.lu/uas pour connaître les conditions d'accès aux zones géographiques UAS avant de voler.",
+      "source": "DAC Luxembourg — geoportail.lu/zones (CC0)",
+      "verified": "2026-08-01"
+    },
+    "LU:RSTA": {
+      "rule": "Zone soumise à autorisation préalable (ex. prisons, Palais grand-ducal, sites sensibles). Le vol de drones y nécessite une autorisation de l'autorité compétente — consultez g-o.lu/uas pour la procédure.",
+      "source": "DAC Luxembourg — geoportail.lu/zones (CC0)",
+      "verified": "2026-08-01"
+    },
+    "MIL_FI": {
+      "rule": "Puolustusvoimien alue — pysyvä tai tilapäinen rajoitusalue. Pysyvien ja tilapäisten rajoitusalueiden sisällä lennättäminen on kiellettyä ilman erillistä lupaa Puolustusvoimilta. Lisäksi maanpuolustukseen liittyvien harjoitusten, varikkojen tai muun toiminnan kuvaaminen on kiellettyä ilman erillistä lupaa, jota tulee hakea Pääesikunnalta — kielto koskee myös kartalla näkyvien vyöhykkeiden ulkopuolisia kohteita. Ilmakuvauslupaa haetaan osoitteesta puolustusvoimat.fi/ilmakuvauslupa.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269); Puolustusvoimat",
+      "verified": "2026-08-08"
+    },
+    "MIL_NL": {
+      "rule": "Defensie oefengebied (EHR/EHTSA/EHTRA). In veel van deze zones geldt: alle vluchten zijn verboden tenzij de Militaire luchtverkeersdienstverlener toestemming heeft gegeven. Andere militaire zones kennen zo'n toestemmingsroute niet, en in sommige gelden andere voorwaarden — lees de voorwaarden van de zone zelf en controleer de NOTAM. Contact: droneloket@minienw.nl.",
+      "source": "Ministerie van Defensie — ED-269 drone-zones (NL)",
+      "verified": "2026-08-08"
+    },
+    "NATURE_NL": {
+      "rule": "Natura 2000-gebied (vogel- of habitatbescherming). In sommige Natura 2000-gebieden is dronevliegen beperkt of verboden — dit bepaalt de provincie of de gebiedsbeheerder. Controleer de regels van de provincie en de gebiedsbeheerder (bijvoorbeeld Staatsbosbeheer of Natuurmonumenten) voordat u vliegt.",
+      "source": "RVO — Natura 2000 (ED-269 NL)",
+      "verified": "2026-08-08"
+    },
+    "NL:CTR_NL": {
+      "rule": "Luchthaven-CTR (controlezone) volgens de Nederlandse ED-269-regelgeving. Vluchten in de OPEN categorie zijn hier niet toegestaan. Voor vluchten met een gemiddeld risico (specifieke categorie) gelden speciale regels: u mag deze alleen uitvoeren met een exploitatievergunning, waarin staat waar u wel en niet mag vliegen. Controleer de NOTAM.",
+      "source": "LVNL/IenW — ED-269 drone-zones (NL)",
+      "verified": "2026-08-08"
+    },
+    "NL:HEMS_NL": {
+      "rule": "Trauma- of ambulancehelikopter-zone: medische helikopters kunnen hier 24/7 onaangekondigd landen. Drone-vluchten zijn binnen de zone verboden om botsingen te voorkomen. Hoor je een helikopter, land dan je drone onmiddellijk.",
+      "source": "IenW — ED-269 drone-zones (NL)",
+      "verified": "2026-08-01"
+    },
+    "NL:INFRA_NL": {
+      "rule": "Zonering voor industriegebieden, vitale infrastructuur en beveiligde gebieden (Regeling zonering onbemande luchtvaartuigen). In deze zones geldt een verbod voor vluchten met onbemande luchtvaartuigen in de open categorie. De wijzigingsregeling geldt met ingang van 1 januari 2026. Contact: droneloket@minienw.nl.",
+      "source": "IenW — Regeling zonering onbemande luchtvaartuigen (Stcrt. 2025, 38071)",
+      "verified": "2026-08-08"
+    },
+    "NL:LFA_NL": {
+      "rule": "Laagvliegroute of -gebied voor bemand luchtverkeer: civiele en militaire vliegtuigen en helikopters vliegen hier laag. Open categorie: maximaal 30 meter boven het dichtstbijzijnde punt van het aardoppervlak (Regeling zonering onbemande luchtvaartuigen art. 2), en alleen voor drones van de A1-categorie tot 250 gram of de A2-categorie tot 4 kilogram — A3 is hier niet toegestaan. Controleer altijd de actuele NOTAM voordat je vliegt.",
+      "source": "IenW — ED-269 drone-zones (NL) · Regeling zonering onbemande luchtvaartuigen art. 2 · Rijksoverheid",
+      "verified": "2026-09-02"
+    },
+    "NL:MIL_NL": {
+      "rule": "Defensie oefengebied (EHR/EHTSA/EHTRA). In veel van deze zones geldt: alle vluchten zijn verboden tenzij de Militaire luchtverkeersdienstverlener toestemming heeft gegeven. Andere militaire zones kennen zo'n toestemmingsroute niet, en in sommige gelden andere voorwaarden — lees de voorwaarden van de zone zelf en controleer de NOTAM. Contact: droneloket@minienw.nl.",
+      "source": "Ministerie van Defensie — ED-269 drone-zones (NL)",
+      "verified": "2026-08-08"
+    },
+    "NL:NATURE_NL": {
+      "rule": "Natura 2000-gebied (vogel- of habitatbescherming). In sommige Natura 2000-gebieden is dronevliegen beperkt of verboden — dit bepaalt de provincie of de gebiedsbeheerder. Controleer de regels van de provincie en de gebiedsbeheerder (bijvoorbeeld Staatsbosbeheer of Natuurmonumenten) voordat u vliegt.",
+      "source": "RVO — Natura 2000 (ED-269 NL)",
+      "verified": "2026-08-08"
+    },
+    "NL:P_NL": {
+      "rule": "Verboden gebied (P_NL) — paleizen en gebouwen van het Koninklijk Huis en de beschermde natuurgebieden boven de Waddenzee; de Dodenherdenking-zones gelden op 4 mei. Alle vluchten met drones zijn hier verboden, in elke categorie (Rijksoverheid: 'Verboden gebieden voor alle vluchten met drones'; IenW ED-269: PROHIBITED).",
+      "source": "IenW — ED-269 drone-zones (NL) · Rijksoverheid, 'Waar mag ik vliegen met een drone?'",
+      "verified": "2026-09-02"
+    },
+    "NL:RESTRICTED_NL": {
+      "rule": "Gebied met een vliegverbod vanuit beveiligingsoverwegingen — de overkoepelende ED-269 CONDITIONAL-categorie (o.a. rond ambassades, overheidsgebouwen of kritieke locaties). Volgens de zonetekst van IenW zijn vluchten in de open categorie hier verboden; vluchten in de specifieke categorie vereisen een privilege op de exploitatievergunning. Lees de zonetekst voor de toestemmingsroute.",
+      "source": "IenW — ED-269 drone-zones, CONDITIONAL (NL)",
+      "verified": "2026-09-03"
+    },
+    "NO:NO_CTR_TIZ": {
+      "rule": "Du er i en kontrollsone (CTR) eller trafikkinformasjonssone (TIZ) rundt en lufthavn. Kontakt lufttrafikktjenesten før flyging — per telefon, e-post eller via appen Ninox Drone der den er i bruk. Appen er et hjelpemiddel, ikke et krav. Sonen kan strekke seg lenger enn 5 km-sonen.",
+      "source": "Luftfartstilsynet / Avinor — RPAS i CTR/TIZ",
+      "verified": "2026-09-01"
+    },
+    "NO:NO_INFRA_NVE": {
+      "rule": "Vindkraftpark fra NVEs register. Rotorbladene sveiper høyt over bakken og verkene skaper kraftig turbulens i le — både bladene og turbulensen kan nå langt utenfor tårnfoten. Hold god margin til verkene, og verifiser driftsstatus og kraftverkseier via NVE-lenken i info-kortet.",
+      "source": "NVE (Norges vassdrags- og energidirektorat) — Vindkraftområder, NLOD 2.0",
+      "verified": "2026-08-08"
+    },
+    "NO:NO_MARINE_RESTRICTED": {
+      "rule": "Sjøforsvarets marine skyte- og øvingsfelt. Restriksjoner gjelder all luftaktivitet, inkludert droner, under aktive skytetider. Verifiser status via NOTAM eller Sjøforsvaret før du flyr over området.",
+      "source": "Sjøforsvaret / Geonorge — marine skyte- og øvingsfelt (NLOD)",
+      "verified": "2026-08-01"
+    },
+    "NO:NO_MILITARY_RANGE": {
+      "rule": "Forsvarets skyte- og øvingsfelt — brukes aktivt til militære operasjoner. Flyging over eller nær militære områder krever tillatelse fra stedlig leder. De fleste militære områder har også en sensorforbudssone, der det i tillegg kreves tillatelse fra Nasjonal sikkerhetsmyndighet (NSM). Kontroller feltets aktivitetsstatus før du flyr i nærheten.",
+      "source": "Forsvarsbygg / Geonorge — skyte- og øvingsfelt (NLOD)",
+      "verified": "2026-09-01"
+    },
+    "NO:NO_NATURE_FERDSEL": {
+      "rule": "Området har ferdselsforbud i deler av året. Miljødirektoratet skriver at å fly drone inn i et verneområde i ferdselsforbudstida vil kunne være forstyrrende, og dermed forbudt — også når droneflyging ikke er nevnt i verneforskriften. Sjekk sonens datoer og unntak på naturbase.no. Unødig forstyrrelse av dyrelivet er alltid forbudt.",
+      "source": "Miljødirektoratet — Naturbase (verneforskrift, ferdselsforbud)",
+      "verified": "2026-08-22"
+    },
+    "NO:NO_NATURE_FORSVAR": {
+      "rule": "Sonen kommer fra Miljødirektoratets lag for restriksjoner som gjelder Forsvaret spesielt. Miljødirektoratet regner ikke drone som luftfartøy, så laget sier ingenting om droner — og ingen høyde gjør flygingen tillatt. Hva som gjelder for deg, står i områdets verneforskrift: i nasjonalparker er bruk av droner som hovedregel forbudt, og det er forbudt i mange naturreservater. Les sonens forskrift på naturbase.no før flyging.",
+      "source": "Miljødirektoratet / Forsvarsbygg — Naturbase (forsvarsrelatert naturvern)",
+      "verified": "2026-08-22"
+    },
+    "NO:NO_NATURE_LANDING": {
+      "rule": "Sonen kommer fra Miljødirektoratets lag for landingsforbud, som gjelder luftfartøy — Miljødirektoratet regner ikke drone som luftfartøy, så verneforskriften for området gjelder i stedet. I nasjonalparker og de store landskapsvernområdene er bruk av droner som hovedregel forbudt, og det er forbudt i mange naturreservater. Mange soner har i tillegg sesongbegrensning. Les sonens forskrift på naturbase.no før flyging.",
+      "source": "Miljødirektoratet — Naturbase (vern_restriksjonsomrader: landingsforbud for luftfartøy) · datasettbeskrivelsen: «droner regnes ikke som luftfartøy» · verneforskrift per område (Lovdata)",
+      "verified": "2026-09-03"
+    },
+    "NO:NO_NATURE_LOWFLY": {
+      "rule": "Sonen kommer fra Miljødirektoratets lag for lavflyging under 300 m. Det forbudet gjelder luftfartøy — Miljødirektoratet skriver at det ikke rammer bruken av droner. Dronereglene står i stedet i områdets verneforskrift, og den setter ingen høydegrense: ingen høyde gjør flygingen tillatt. I nasjonalparker er bruk av droner som hovedregel forbudt, og det er forbudt i mange naturreservater. Les sonens forskrift på naturbase.no før flyging.",
+      "source": "Miljødirektoratet — brev til nasjonalpark- og verneområdestyrene 06.03.2019 (ref 2018/12818) + Naturbase (verneforskrift)",
+      "verified": "2026-08-22"
+    },
+    "NO:NO_NFZ_AERODROME": {
+      "rule": "Du er innenfor 5 km fra en lufthavn (drone-restriksjonssone). Droneflyging krever klarering fra tårnet — de fleste lufthavner betjenes av Avinor. Sonen gjelder lufthavner, ikke mindre landingsplasser, og heller ikke Værøy helikopterhavn. Klarering kan gis per telefon eller e-post til lufttrafikktjenesten, eller via Ninox Drone-appen der den er i bruk — appen er ikke et krav.",
+      "source": "Avinor — Dronekart / Dronerestriksjonsområder (avinor.no/dronekart) · Luftfartstilsynets veileder («ingen krav til å benytte Ninox Drone»)",
+      "verified": "2026-09-03"
+    },
+    "NO:NO_PRISON": {
+      "rule": "Forskrift FOR-2020-11-25-2460 § 8: det er ikke tillatt å fly ubemannet luftfartøy over eller i nærheten av fengsler uten tillatelse fra stedlig leder. Åtte fengsler har i tillegg permanente restriksjonsområder (EN R104–R108, R205, R206, R404) etter forskrift FOR-2018-12-05-1807 — radius og vilkår står i sonens egne opplysninger, og forskriftens § 3 lar fengselsledelsen eller Luftfartstilsynet gi særskilt tillatelse.",
+      "source": "Luftfartstilsynet — FOR-2020-11-25-2460 § 8 og FOR-2018-12-05-1807 (Lovdata); dronesoner.no",
+      "verified": "2026-09-08"
+    },
+    "NO:NO_RESTRICTED_AREA": {
+      "rule": "Permanent AIP-restriksjonsområde (militært eller kritisk infrastruktur). Droneflyging er forbudt uten særskilt tillatelse fra Luftfartstilsynet. Verifiser høyde-intervall og aktivitetsstatus før flyging.",
+      "source": "Luftfartstilsynet — AIP ENR 5.1 / Lovdata-forskrift (permanent R-sone)",
+      "verified": "2026-08-01"
+    },
+    "NO:NO_RESTRICTED_DORMANT": {
+      "rule": "Dette er en sovende R-sone — ikke permanent forbudt. Den aktiveres bare via NOTAM fra politimyndighet (statsbesøk, terrortrussel, demonstrasjoner). Ikke aktiv: vanlige droneregler gjelder. Aktiv: all flyging forbudt. Sjekk dagens NOTAM på ippc.no.",
+      "source": "Luftfartstilsynet — Lovdata-forskrift, NOTAM-aktivert R-sone (ippc.no)",
+      "verified": "2026-08-01"
+    },
+    "NO:NO_RESTRICTED_R102": {
+      "rule": "Du er i EN R 102 — restriksjonsområde rundt Slottet, Stortinget, Regjeringskvartalet og Akershus festning. 1 NM radius, GND til 3000 ft AMSL. Droneflyging krever særskilt tillatelse fra Luftfartstilsynet, egen søknad per flyging. Dispensasjon forutsetter et samfunnsnyttig formål — næringsvirksomhet regnes som samfunnsnyttig (Luftfartstilsynet).",
+      "source": "Luftfartstilsynet — AIP ENR 5.1, EN R 102 (Lovdata) · Luftfartstilsynet, søknad R-102 («Næringsvirksomhet blir ansett som samfunnsnyttig»)",
+      "verified": "2026-09-03"
+    },
+    "NOTAM": {
+      "rule": "Tillfällig NOTAM-baserad restriktion. En NOTAM kan innebära förbud, varning (t.ex. fallskärmshopp, ballong, militärövning) eller driftinformation — kontrollera aktuell NOTAM hos LFV innan flygning.",
+      "source": "LFV AIP / NOTAM",
+      "verified": "2026-08-01"
+    },
+    "NO_CTR_TIZ": {
+      "rule": "Du er i en kontrollsone (CTR) eller trafikkinformasjonssone (TIZ) rundt en lufthavn. Kontakt lufttrafikktjenesten før flyging — per telefon, e-post eller via appen Ninox Drone der den er i bruk. Appen er et hjelpemiddel, ikke et krav. Sonen kan strekke seg lenger enn 5 km-sonen.",
+      "source": "Luftfartstilsynet / Avinor — RPAS i CTR/TIZ",
+      "verified": "2026-09-01"
+    },
+    "NO_INFRA_NVE": {
+      "rule": "Vindkraftpark fra NVEs register. Rotorbladene sveiper høyt over bakken og verkene skaper kraftig turbulens i le — både bladene og turbulensen kan nå langt utenfor tårnfoten. Hold god margin til verkene, og verifiser driftsstatus og kraftverkseier via NVE-lenken i info-kortet.",
+      "source": "NVE (Norges vassdrags- og energidirektorat) — Vindkraftområder, NLOD 2.0",
+      "verified": "2026-08-08"
+    },
+    "NO_MARINE_RESTRICTED": {
+      "rule": "Sjøforsvarets marine skyte- og øvingsfelt. Restriksjoner gjelder all luftaktivitet, inkludert droner, under aktive skytetider. Verifiser status via NOTAM eller Sjøforsvaret før du flyr over området.",
+      "source": "Sjøforsvaret / Geonorge — marine skyte- og øvingsfelt (NLOD)",
+      "verified": "2026-08-01"
+    },
+    "NO_MILITARY_RANGE": {
+      "rule": "Forsvarets skyte- og øvingsfelt — brukes aktivt til militære operasjoner. Flyging over eller nær militære områder krever tillatelse fra stedlig leder. De fleste militære områder har også en sensorforbudssone, der det i tillegg kreves tillatelse fra Nasjonal sikkerhetsmyndighet (NSM). Kontroller feltets aktivitetsstatus før du flyr i nærheten.",
+      "source": "Forsvarsbygg / Geonorge — skyte- og øvingsfelt (NLOD)",
+      "verified": "2026-09-01"
+    },
+    "NO_NATURE_FERDSEL": {
+      "rule": "Området har ferdselsforbud i deler av året. Miljødirektoratet skriver at å fly drone inn i et verneområde i ferdselsforbudstida vil kunne være forstyrrende, og dermed forbudt — også når droneflyging ikke er nevnt i verneforskriften. Sjekk sonens datoer og unntak på naturbase.no. Unødig forstyrrelse av dyrelivet er alltid forbudt.",
+      "source": "Miljødirektoratet — Naturbase (verneforskrift, ferdselsforbud)",
+      "verified": "2026-08-22"
+    },
+    "NO_NATURE_FORSVAR": {
+      "rule": "Sonen kommer fra Miljødirektoratets lag for restriksjoner som gjelder Forsvaret spesielt. Miljødirektoratet regner ikke drone som luftfartøy, så laget sier ingenting om droner — og ingen høyde gjør flygingen tillatt. Hva som gjelder for deg, står i områdets verneforskrift: i nasjonalparker er bruk av droner som hovedregel forbudt, og det er forbudt i mange naturreservater. Les sonens forskrift på naturbase.no før flyging.",
+      "source": "Miljødirektoratet / Forsvarsbygg — Naturbase (forsvarsrelatert naturvern)",
+      "verified": "2026-08-22"
+    },
+    "NO_NATURE_LANDING": {
+      "rule": "Sonen kommer fra Miljødirektoratets lag for landingsforbud, som gjelder luftfartøy — Miljødirektoratet regner ikke drone som luftfartøy, så verneforskriften for området gjelder i stedet. I nasjonalparker og de store landskapsvernområdene er bruk av droner som hovedregel forbudt, og det er forbudt i mange naturreservater. Mange soner har i tillegg sesongbegrensning. Les sonens forskrift på naturbase.no før flyging.",
+      "source": "Miljødirektoratet — Naturbase (vern_restriksjonsomrader: landingsforbud for luftfartøy) · datasettbeskrivelsen: «droner regnes ikke som luftfartøy» · verneforskrift per område (Lovdata)",
+      "verified": "2026-09-03"
+    },
+    "NO_NATURE_LOWFLY": {
+      "rule": "Sonen kommer fra Miljødirektoratets lag for lavflyging under 300 m. Det forbudet gjelder luftfartøy — Miljødirektoratet skriver at det ikke rammer bruken av droner. Dronereglene står i stedet i områdets verneforskrift, og den setter ingen høydegrense: ingen høyde gjør flygingen tillatt. I nasjonalparker er bruk av droner som hovedregel forbudt, og det er forbudt i mange naturreservater. Les sonens forskrift på naturbase.no før flyging.",
+      "source": "Miljødirektoratet — brev til nasjonalpark- og verneområdestyrene 06.03.2019 (ref 2018/12818) + Naturbase (verneforskrift)",
+      "verified": "2026-08-22"
+    },
+    "NO_NFZ_AERODROME": {
+      "rule": "Du er innenfor 5 km fra en lufthavn (drone-restriksjonssone). Droneflyging krever klarering fra tårnet — de fleste lufthavner betjenes av Avinor. Sonen gjelder lufthavner, ikke mindre landingsplasser, og heller ikke Værøy helikopterhavn. Klarering kan gis per telefon eller e-post til lufttrafikktjenesten, eller via Ninox Drone-appen der den er i bruk — appen er ikke et krav.",
+      "source": "Avinor — Dronekart / Dronerestriksjonsområder (avinor.no/dronekart) · Luftfartstilsynets veileder («ingen krav til å benytte Ninox Drone»)",
+      "verified": "2026-09-03"
+    },
+    "NO_PRISON": {
+      "rule": "Permanent restriksjonsområde over norsk fengsel — 0,5 NM (926 m) radius. All flyging er forbudt uten særskilt tillatelse; fengselsledelsen eller Luftfartstilsynet kan gi slik tillatelse (forskrift FOR-2018-12-05-1807 § 3).",
+      "source": "Luftfartstilsynet — forskrift FOR-2018-12-05-1807 (Lovdata)",
+      "verified": "2026-09-03"
+    },
+    "NO_RESTRICTED_AREA": {
+      "rule": "Permanent AIP-restriksjonsområde (militært eller kritisk infrastruktur). Droneflyging er forbudt uten særskilt tillatelse fra Luftfartstilsynet. Verifiser høyde-intervall og aktivitetsstatus før flyging.",
+      "source": "Luftfartstilsynet — AIP ENR 5.1 / Lovdata-forskrift (permanent R-sone)",
+      "verified": "2026-08-01"
+    },
+    "NO_RESTRICTED_DORMANT": {
+      "rule": "Dette er en sovende R-sone — ikke permanent forbudt. Den aktiveres bare via NOTAM fra politimyndighet (statsbesøk, terrortrussel, demonstrasjoner). Ikke aktiv: vanlige droneregler gjelder. Aktiv: all flyging forbudt. Sjekk dagens NOTAM på ippc.no.",
+      "source": "Luftfartstilsynet — Lovdata-forskrift, NOTAM-aktivert R-sone (ippc.no)",
+      "verified": "2026-08-01"
+    },
+    "NO_RESTRICTED_R102": {
+      "rule": "Du er i EN R 102 — restriksjonsområde rundt Slottet, Stortinget, Regjeringskvartalet og Akershus festning. 1 NM radius, GND til 3000 ft AMSL. Droneflyging krever særskilt tillatelse fra Luftfartstilsynet, egen søknad per flyging. Dispensasjon forutsetter et samfunnsnyttig formål — næringsvirksomhet regnes som samfunnsnyttig (Luftfartstilsynet).",
+      "source": "Luftfartstilsynet — AIP ENR 5.1, EN R 102 (Lovdata) · Luftfartstilsynet, søknad R-102 («Næringsvirksomhet blir ansett som samfunnsnyttig»)",
+      "verified": "2026-09-03"
+    },
+    "NSUFR_US": {
+      "rule": "FAA National Security UAS Flight Restriction (14 CFR 99.7, FDC NOTAM 7/7282): all UAS flight is prohibited inside the area, from the surface to the ceiling shown for the zone (400 ft AGL at most sites), for every category and purpose of drone flight. The FAA publishes standing restrictions that remain in effect 24 hours a day, 7 days a week, and part-time restrictions with an activation window shown in the zone's own data; treat a part-time area as closed unless the FAA's current data confirms it is not active. Entry only by exception: pre-approval from the facility's designated point of contact or the FAA System Operations Support Center.",
+      "source": "FAA — 14 CFR 99.7 / FDC NOTAM 7/7282 (National_Security_UAS_Flight_Restrictions + Part_Time services)",
+      "verified": "2026-09-02"
+    },
+    "OBSTACLE_CH": {
+      "rule": "Luftfahrthindernisse gemäss VIL (SR 748.131.1): Bauten und Anlagen — unter anderem Antennen, Gebäude, Kabel, Krane, Seilbahnen, Hochspannungsleitungen und Windenergieanlagen —, die den Betrieb von Luftfahrzeugen oder von Flugsicherungsanlagen erschweren, gefährden oder verunmöglichen können. Der Datensatz ist nicht vollständig: Pflanzen sind ausgenommen, in unbebauten Gebieten werden Hindernisse erst ab 25 Metern erfasst (Mobilkrane erst ab 40 Metern) und in bebauten Gebieten erst ab 60 Metern; sicherheitsrelevante Hindernisse in der Umgebung von Flugplätzen unterhalb dieser Höhen liegen in einem separaten BAZL-Layer, der hier nicht dargestellt wird. Rechnen Sie deshalb mit Hindernissen, die auf der Karte fehlen. Halte Sichtkontakt zur Drohne und genügend Abstand zu Kabeln, Seilbahnen und Masten — besonders bei beweglichen Seilen wie Skiliften und Materialseilbahnen.",
+      "source": "BAZL — Luftfahrthindernis (VIL, SR 748.131.1)",
+      "verified": "2026-08-08"
+    },
+    "ORANGE_OPMERK_DK": {
+      "rule": "Opmærksomhedsområde (orange zone) — de orange zoner på kortet visualiserer mindre og/eller private flyvepladser, svæveflyvepladser, vandflyvepladser eller faldskærmsområder. Vær ekstra opmærksom på anden luftfart, og tjek NOTAM og lokale opslag før flyvning. Se Trafikstyrelsens vejledning til dronezoner.",
+      "source": "Trafikstyrelsen — DroneZoner ORANGE (droneregler.dk)",
+      "verified": "2026-08-08"
+    },
+    "P": {
+      "rule": "Förbudsområde — flygning med drönare är förbjuden här utan tillstånd från ansvarig myndighet. Kontrollera zonens villkor och giltighet i LFV AIP (Sverige använder beteckningen R-område, restriktionsområde, i ENR 5.1).",
+      "source": "LFV AIP ENR 5.1",
+      "verified": "2026-08-01"
+    },
+    "PARC_NATIONAL_FR": {
+      "rule": "Le survol du cœur du parc national à une hauteur inférieure à 1 000 m du sol est interdit par la réglementation propre à chaque parc. L'habilitation figure au code de l'environnement art. L331-4-1, qui permet de « soumettre à un régime particulier et, le cas échéant, interdire […] le survol du coeur du parc à une hauteur inférieure à 1 000 mètres du sol ». Les drones sont des aéronefs motorisés. La dérogation relève du directeur du parc — et non du contrôle aérien. Le nom de la zone indique dans quelle partie du parc vous vous trouvez ; vérifiez l'arrêté du parc concerné avant de voler.",
+      "source": "Parcs nationaux de France — data.gouv.fr (Etalab 2.0)",
+      "verified": "2026-08-08"
+    },
+    "PARQUE_NACIONAL_ES": {
+      "rule": "Superficie del registro del OAPN de los parques nacionales de España. El nombre de la zona indica en qué parte se encuentra: «(parque)» es la superficie del propio parque nacional; «zona periférica» es la Zona Periférica de Protección (ZPP), situada fuera del parque. Dentro del parque nacional el vuelo de drones está prohibido según la Ley 30/2014 (Ley de Parques Nacionales). Lo que rige en la zona periférica de protección lo determinan las normas propias del parque: consúltelas antes de volar. La información y el contacto del parque figuran en los datos de la zona.",
+      "source": "OAPN (MITECO) — Ley 30/2014",
+      "verified": "2026-08-08"
+    },
+    "PT:ATZ": {
+      "rule": "Zona de tráfego de aeródromo (ATZ) — aeródromos civis, heliportos, campos de ultraleves e TRMZ, e as Áreas 1, 2 e 3 de proteção operacional dos aeroportos. A regra consta da mensagem da própria zona: nos aeródromos, heliportos, ultraleves e TRMZ, na categoria Aberta o voo é permitido apenas até à altura dos obstáculos num raio de 75 m — acima disso é obrigatória a autorização prévia do Diretor do Aeródromo, do Diretor da Pista, do AFIS ou do Diretor do Heliporto, conforme a zona; nas Áreas 1, 2 e 3 a categoria Aberta pode voar até 30, 60 ou 80 m SFC consoante a área ou até à altura dos obstáculos num raio de 75 m, sendo obrigatória a função no UA que indique a altura acima da superfície (SFC). O limite superior indicado na ficha da zona é o teto da zona, não a altura a que pode voar.",
+      "source": "ANAC — dnt.anac.pt (ED-269): mensagens das zonas «Civil Aerodrome», «Heliport», «Ultralight», «TRMZ», «Área 1/2/3» · CategoriaAberta.aspx",
+      "verified": "2026-09-02"
+    },
+    "PT:CTR": {
+      "rule": "Zona de controlo militar (MCTR) — Base das Lajes (LPLA), a única zona classificada como CTR no ficheiro ED-269 da ANAC. Todas as categorias: todos os voos UAS carecem de autorização prévia da AAN — Autoridade Aeronáutica Nacional (e-AAN, aan.pt). Não existe altura livre para a categoria Aberta nesta zona.",
+      "source": "ANAC — dnt.anac.pt (ED-269), zona 7005UA «Military Area MCTR» · AAN",
+      "verified": "2026-09-02"
+    },
+    "PT:P": {
+      "rule": "Zona proibida (P): inclui heliportos (incl. hospitalares), núcleos de aeroportos, instalações sensíveis e áreas naturais protegidas. Na categoria Aberta o voo está proibido; qualquer exceção exige autorização da entidade responsável (ANAC, ICNF ou operador local).",
+      "source": "ANAC / ICNF — voanaboa.pt",
+      "verified": "2026-08-01"
+    },
+    "PT:RSTA": {
+      "rule": "Zona sujeita a autorização prévia (RSTA): abrange sobretudo áreas militares (AAN) e espaços naturais ou património protegido (ICNF, IFCN, DRAAC nos Açores). A autorização deve ser solicitada à entidade indicada na ficha da zona antes do voo.",
+      "source": "ANAC / AAN / ICNF — voanaboa.pt",
+      "verified": "2026-08-01"
+    },
+    "PT:PT_NATURE": {
+      "rule": "Área natural publicada pela ANAC como zona geográfica UAS de informação: restriction NO_RESTRICTION e zoneAuthority.purpose INFORMATION, motivo NATURE — a ANAC não a classifica como zona sujeita a autorização. Não é uma proibição geral de voo e o destinatário não é o controlo de tráfego aéreo nem um aeródromo; a regra consta da mensagem da própria zona, e há duas famílias. (1) Área de proteção de cetáceos na Madeira (Cetáceos Madeira, 8521UA), autoridade IFCN, IP-RAM: a mensagem da ANAC é «Consultar a página web do IFCN, IP-RAM.» — consulte as condições do IFCN, IP-RAM (ifcn.madeira.gov.pt) antes de voar sobre a área. (2) Zonas de Proteção Especial para aves (ZPE), autoridade ICNF, I.P.: a mensagem da ANAC é «Zona de Protecao Especial para aves. Proibida a sua perturbacao. Mais informacao contacte ICNF» — perturbar as aves é proibido, mesmo onde o voo em si não carece de autorização da ANAC. Para o sobrevoo de áreas de jurisdição do ICNF, I.P. existe o formulário «Pedido de parecer para o sobrevoo de drones em áreas de jurisdição do ICNF, I.P.» (peso, altitude máxima de voo, datas de início e fim da atividade e cartografia KMZ, para rtn@icnf.pt); esse parecer não dispensa outras autorizações, nomeadamente da ANAC e da AAN/FAP.",
+      "source": "ANAC — zonas geográficas UAS (ED-269): mensagens «Zona de Protecao Especial para aves. Proibida a sua perturbacao…» (ZPE, autoridade ICNF, I.P.) e «Consultar a página web do IFCN, IP-RAM.» (Cetáceos Madeira, autoridade IFCN, IP-RAM), ambas restriction NO_RESTRICTION + purpose INFORMATION · ICNF, I.P. — «Pedido de parecer para o sobrevoo de drones em áreas de jurisdição do ICNF, I.P.» (rtn@icnf.pt) · IFCN, IP-RAM",
+      "verified": "2026-09-05"
+    },
+    "P_FI": {
+      "rule": "PROHIBITED-vyöhyke Traficomin UAS-luokituksen mukaan. Vyöhyke on perustettu Traficomin päätöksellä tai määräyksellä, ja siitä vastaava viranomainen on Traficom. UAS-lennättäminen vyöhykkeellä on kielletty. Vyöhykettä ja sen ehtoja koskevat kysymykset osoitetaan Traficomille.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269)",
+      "verified": "2026-08-08"
+    },
+    "P_NL": {
+      "rule": "Verboden gebied (P_NL) — paleizen en gebouwen van het Koninklijk Huis en de beschermde natuurgebieden boven de Waddenzee; de Dodenherdenking-zones gelden op 4 mei. Alle vluchten met drones zijn hier verboden, in elke categorie (Rijksoverheid: 'Verboden gebieden voor alle vluchten met drones'; IenW ED-269: PROHIBITED).",
+      "source": "IenW — ED-269 drone-zones (NL) · Rijksoverheid, 'Waar mag ik vliegen met een drone?'",
+      "verified": "2026-09-02"
+    },
+    "REC_FIXED_SITE_US": {
+      "rule": "FAA-published fixed site for recreational flying, established by an agreement with the FAA — a permitted area, not a restriction. Fly no higher than the site's published ceiling (49 USC 44809(c)(2)(C)). In Class B, C or D airspace or a Class E surface area, the site's written agreement with the FAA authorizes flight up to that ceiling (49 USC 44809(c)(2)(A)) — follow its operating limitations, available from the fixed site sponsor; outside the agreement you need LAANC or FAADroneZone.",
+      "source": "FAA — Recreational Flyer Fixed Sites dataset + 49 USC 44809(c)(2)(C)",
+      "verified": "2026-09-02"
+    },
+    "RESTRICTED_FI": {
+      "rule": "Turvallisuusluokiteltu vyöhyke Traficomin UAS-luokituksen mukaan. UAS-lento vaatii Traficomin tai kohteen omistajan erityisluvan; hae lupaa traficom.fi:n kautta. Osa näistä vyöhykkeistä on merkitty Traficomin UAS-aineistossa kieltäviksi — muun muassa suurlähetystöalueet ja ”Helsinki pelastuslaitos UAS” -vyöhykkeet. Niillä lennättäminen on kielletty, ei luvanvaraista. Tarkista vyöhykkeen nimi ja tila traficom.fi:stä ennen lennon suunnittelua.",
+      "source": "Traficom UAS-vyöhyketiedot (ED-269); traficom.fi",
+      "verified": "2026-09-05"
+    },
+    "RESTRICTED_NL": {
+      "rule": "Gebied met een vliegverbod vanuit beveiligingsoverwegingen — de overkoepelende ED-269 CONDITIONAL-categorie (o.a. rond ambassades, overheidsgebouwen of kritieke locaties). Volgens de zonetekst van IenW zijn vluchten in de open categorie hier verboden; vluchten in de specifieke categorie vereisen een privilege op de exploitatievergunning. Lees de zonetekst voor de toestemmingsroute.",
+      "source": "IenW — ED-269 drone-zones, CONDITIONAL (NL)",
+      "verified": "2026-09-03"
+    },
+    "RO:P": {
+      "rule": "Zonă interzisă (P) — perimetrul unei centrale nuclearoelectrice, publicat de ROMATSA de la sol până la 4000 FT QNH. Pentru RZ 4434 textul zonei spune «NO ACCESS Nuclear Energy Plant»; pentru RZ 4435 excepțiile sunt rezervate exclusiv aeronavelor de stat românești (SAR, evacuare medicală, poliție aeriană, măsurători radiologice, intervenții la alerte nucleare sau radiologice reale ori de exercițiu). Datele zonei nu indică nicio cale de autorizare pentru drone. Verifică datele proprii ale zonei și NOTAM înainte de zbor.",
+      "source": "ROMATSA — zone restricționate UAV (flightplan.romatsa.ro), câmpul contact al zonei",
+      "verified": "2026-09-05"
+    },
+    "RO:RSTA": {
+      "rule": "Zonă UAV restricționată (RSTA) — parte din spațiul aerian administrat de ROMATSA, de ex. lângă aeroporturi (Henri Coandă ș.a.) sau alte obiective. Zborul necesită autorizare, de regulă GND–120 m AGL; datele de contact pentru autorizare variază pe zonă și sunt indicate în date.",
+      "source": "AACR / ROMATSA — flightplan.romatsa.ro",
+      "verified": "2026-08-01"
+    },
+    "ROD_FLYG_DK": {
+      "rule": "Flyvesikringskritisk zone (rød zone) efter dronebekendtgørelsen — kontrolzone omkring lufthavn eller militær flyveplads, helikopterzone eller flyvesikringsanlæg. I disse zoner er droneflyvning som udgangspunkt ikke tilladt, medmindre du har fået tilladelse fra Trafikstyrelsen gennem ansøgning. Det er en skriftlig ansøgning hos myndigheden — ikke en klarering, du kan få af lufttrafiktjenesten (ATC) på stedet. Der gælder dog nogle undtagelser for fjernpiloter med A2 kompetencecertifikat — se Trafikstyrelsens vejledning til dronezoner.",
+      "source": "Trafikstyrelsen — BEK nr 1649 af 12/12/2023, som ændret ved BEK nr 527 af 20/05/2025; DroneZoner RØD",
+      "verified": "2026-08-08"
+    },
+    "RSTA": {
+      "rule": "Restriktionsområde (R-område) enligt landets AIP ENR 5.1. Flygning förbjuden utan särskilt tillstånd från ansvarig myndighet — kontrollera zonens villkor och giltighet.",
+      "source": "AIP ENR 5.1",
+      "verified": "2026-09-01"
+    },
+    "RWY5K": {
+      "rule": "5 km-skyddszon kring landningsbana. Lågflygningslättnaden gäller inte här — i CTR krävs klarering vid varje tillfälle då tjänsten är öppen, i TIZ dubbelriktad radioförbindelse med AFIS. Kontakta flygplatsen före flygning.",
+      "source": "Transportstyrelsen TSFS 2017:110 3 kap. 3–4 §§",
+      "verified": "2026-09-01"
+    },
+    "SCHIESS_CH": {
+      "rule": "Militärisches Schiess- und Übungsgebiet (VBS). Die Schweizer Armee hält fest: «Das Betreten des gefährdeten Gebietes ist lebensgefährlich und daher verboten. Den Weisungen der Absperrposten ist Folge zu leisten.» Fliege nie über ein aktives Schiessgebiet. Die hier angezeigten Schiesszeiten stammen aus den publizierten Schiessanzeigen und decken nur die nächsten zehn Tage ab. Fehlende Zeiten heissen nicht, dass das Gebiet sicher ist — und auch nicht, dass nichts publiziert wurde: für einen Teil der Sektoren hat die Armee für dieses Fenster keine Anzeige gemacht, für einen anderen ausdrücklich «kein Schiessen», und die App unterscheidet die beiden Fälle heute nicht. Prüfe vor dem Flug die aktuelle Schiessanzeige für den Ort.",
+      "source": "VBS — Schiessanzeigen (geo.admin.ch)",
+      "verified": "2026-09-05"
+    },
+    "SE:HKP1K_SE": {
+      "rule": "Flygning närmare än 1 000 m från de helikopterflygplatser som anges i AIP AD 1.1 mom 11 får endast ske i samråd med berörd helikopterflygplats. Regeln har ingen höjdgräns och gäller både öppen och specifik kategori.",
+      "source": "Transportstyrelsen TSFS 2017:110 3 kap. 1 § p13 · LFV AIP AD 1.1",
+      "verified": "2026-09-01"
+    },
+    "SE:SE_NP": {
+      "rule": "Start- och landningsförbud kan gälla enligt nationalparkens föreskrifter. För flygning inom restriktionsområde upprättat över en nationalpark krävs separat ansökan till Länsstyrelsen om undantagstillstånd. Även med tillstånd gäller samma avståndsregler som vanligt i öppen kategori.",
+      "source": "Transportstyrelsen — Drönarflygguiden · Naturvårdsverket",
+      "verified": "2026-08-09"
+    },
+    "SE:SE_NR": {
+      "rule": "Start- och landningsförbud kan råda i naturreservat. Det är Länsstyrelsen som beslutar om tillstånd för start och landning — en ansökan kan därför behöva skickas dit. Är du osäker på vad som gäller, kontakta berörd länsstyrelse.",
+      "source": "Transportstyrelsen — Drönarflygguiden · Naturvårdsverket",
+      "verified": "2026-08-09"
+    },
+    "SE:SE_NR_KOMMUNAL": {
+      "rule": "Start- och landningsförbud kan råda i naturreservat. Det är Länsstyrelsen som beslutar om tillstånd för start och landning i naturreservat och nationalparker. Detta reservat är bildat av kommunen — se zonens myndighetsuppgift i kortet.",
+      "source": "Transportstyrelsen — Drönarflygguiden · Naturvårdsverket",
+      "verified": "2026-08-09"
+    },
+    "SE_NP": {
+      "rule": "Start- och landningsförbud kan gälla enligt nationalparkens föreskrifter. För flygning inom restriktionsområde upprättat över en nationalpark krävs separat ansökan till Länsstyrelsen om undantagstillstånd. Även med tillstånd gäller samma avståndsregler som vanligt i öppen kategori.",
+      "source": "Transportstyrelsen — Drönarflygguiden · Naturvårdsverket",
+      "verified": "2026-08-09"
+    },
+    "SE_NR": {
+      "rule": "Start- och landningsförbud kan råda i naturreservat. Det är Länsstyrelsen som beslutar om tillstånd för start och landning — en ansökan kan därför behöva skickas dit. Är du osäker på vad som gäller, kontakta berörd länsstyrelse.",
+      "source": "Transportstyrelsen — Drönarflygguiden · Naturvårdsverket",
+      "verified": "2026-08-09"
+    },
+    "SE_NR_KOMMUNAL": {
+      "rule": "Start- och landningsförbud kan råda i naturreservat. Det är Länsstyrelsen som beslutar om tillstånd för start och landning i naturreservat och nationalparker. Detta reservat är bildat av kommunen — se zonens myndighetsuppgift i kortet.",
+      "source": "Transportstyrelsen — Drönarflygguiden · Naturvårdsverket",
+      "verified": "2026-08-09"
+    },
+    "SFRA_DC": {
+      "rule": "Washington DC Special Flight Rules Area (14 CFR part 93, subpart V): a 30 NM ring around the DCA VOR/DME as the FAA describes it (14 CFR 93.335 writes '30-mile radius'). Inside the 15 NM Flight Restricted Zone unmanned aircraft are prohibited without specific FAA authorization; between 15 and 30 NM recreational flying is allowed under 49 USC 44809 and the conditions of the NOTAM, and Part 107 flying under the operator's certificate, exemption or waiver. Read the current NOTAM before you fly.",
+      "source": "FAA — 14 CFR 93 subpart V (DC SFRA / FRZ) + FAA DC No Drone Zone NOTAM",
+      "verified": "2026-09-02"
+    },
+    "SI:ATZ": {
+      "rule": "Prometna cona letališča (ATZ). Za let z dronom je praviloma potrebna predhodna najava oziroma dovoljenje pristojnega letališča (TWR/AFIS) — preverite pogoje za posamezno cono.",
+      "source": "CAA Slovenija — geografske omejitve UAS (caa.si)",
+      "verified": "2026-08-01"
+    },
+    "SI:CTR": {
+      "rule": "Nadzorovana cona (CTR), npr. okoli Ljubljane. V odprti kategoriji je let z dronom prepovedan znotraj 5 km od referenčne točke letališča (ARP); v preostalem delu CTR je prepovedan na višini 50 m ali več. V posebni kategoriji je potrebna predhodna odobritev izvajalca služb zračnega prometa (Uredba, Ur. l. RS 39/24, 13. člen).",
+      "source": "Uredba (Ur. l. RS 39/24), 13. člen",
+      "verified": "2026-08-08"
+    },
+    "SI:DNGA": {
+      "rule": "Nevarno območje (DNGA). V coni potekajo nevarne dejavnosti (npr. vojaške vaje), ki niso vedno aktivne — pred letom preverite trenutni NOTAM za čas aktivacije.",
+      "source": "CAA Slovenija — geografske omejitve UAS (caa.si)",
+      "verified": "2026-08-01"
+    },
+    "SI:P": {
+      "rule": "Prepovedana cona (P) — npr. jedrski objekt NEK Krško ali prepovedano letališče. Letenje z dronom je prepovedano brez dovoljenja pristojnega organa (za NEK Krško: Uprava RS za jedrsko varnost in MNZ).",
+      "source": "CAA Slovenija / Uprava RS za jedrsko varnost",
+      "verified": "2026-08-01"
+    },
+    "SI:RSTA": {
+      "rule": "Območje z omejitvami (RSTA) — npr. Triglavski narodni park, Luka Koper ali TEŠ. V Triglavskem narodnem parku je letenje z droni prepovedano brez predhodnega dovoljenja uprave parka; drugod veljajo pogoji, določeni za posamezno cono.",
+      "source": "CAA Slovenija / Javni zavod Triglavski narodni park",
+      "verified": "2026-08-01"
+    },
+    "SICHERHEIT_CH": {
+      "rule": "Sicherheitszonenplan eines Flugplatzes. Der Zonenplan zeigt die Eigentumsbeschränkungen nach Fläche und Höhe und stellt mit der Veröffentlichung in den kantonalen Publikationsorganen «eine öffentlich-rechtliche Eigentumsbeschränkung» dar — er richtet sich damit an Grundeigentümer und Bauherren. Er ist kein UAS-Gebiet und enthält keine eigene Bewilligungspflicht für Drohnenflüge. An Flugplätzen gelten trotzdem eigene Drohnenregeln: prüfe die BAZL-Flugplatzperimeter (SIL bzw. SPM), die Kontrollzone (CTR) und die NOTAM.",
+      "source": "BAZL — Sicherheitszonenplan",
+      "verified": "2026-08-08"
+    },
+    "SK:CTR": {
+      "rule": "Letisková zóna CTR – Štefánik (Bratislava), Košice, Žilina, Piešťany, Tatry (Poprad). Civilná prevádzka UAS je povolená len v osobitnej kategórii, spravidla len počas prevádzkových hodín TWR alebo nepretržite (H24) podľa zóny. Vo vonkajšom prstenci CTR (30–120 m) platí výnimka pre atypický vzdušný priestor: podľa Dopravného úradu je to vzdušný priestor vo vzdialenosti viac ako 5 km od letiska, do výšky budovy a len v jej bezprostrednej blízkosti, najviac do horizontálnej vzdialenosti 30 m od budovy — v samotnej zóne letiska (GND–120 m) taká výnimka neplatí. Postup koordinácie: oznámenie musí byť doručené stanovišťu ATC najneskôr 24 hodín pred plánovaným časom letu, 15 minút pred vzletom treba telefonicky požiadať o povolenie, počas celého letu byť dostupný na 2 telefónnych kontaktoch uvedených v oznámení a bezodkladne oznámiť prerušenie a ukončenie letu.",
+      "source": "Dopravný úrad SR — Riadené okrsky CTR a Postup koordinácie UAS v CTR (letectvo.nsat.sk) · LPS SR — gis.lps.sk",
+      "verified": "2026-09-05"
+    },
+    "SK:D": {
+      "rule": "Nebezpečné priestory (D) — AIP SR ENR 5.1.4 publikuje dva. LZD1 Sklené: kruh s polomerom 1 km so stredom v bode 484417N 0184952E, 6 500 ft AMSL / GND; «Aktivovaný: MON-THU: 0500-1100 (0400-1000), 1200-1700 (1100-1600); FRI: 0500-1100 (0400-1000), 1200-1300 (1100-1200); EXC HOL» — «Likvidácia vojenskej nevybuchnutej munície. Odporúčané opatrenie: vyhnúť sa». LZD2 Slovnaft: kruh s polomerom 300 m so stredom v bode 480629N 0171138E, 1 500 ft AMSL / GND; «Aktivovaný: H24» — «Ropná rafinéria. Vypúšťanie plynov. Nebezpečenstvo výbuchu.»; AIP dodáva: «Kvôli vyhnutiu sa nebezpečnému priestoru sa všetkým štandardným prístrojovým odletom z RWY 22 AD LZIB odporúča dodržiavať nominálnu trať.» Časové údaje sú uvedené tak, ako ich publikuje AIP, vrátane údajov v zátvorkách. Podľa AIP SR ENR 5.1.1.3 je nebezpečný priestor vymedzený vzdušný priestor, v ktorom sa môžu v určenom čase vykonávať činnosti nebezpečné pre let lietadla. Doba činnosti a povaha nebezpečenstva sú uvedené pri každom priestore — prečítajte si ich pred letom a skontrolujte aktuálne NOTAM.",
+      "source": "LPS SR, š. p. — AIP SR ENR 5.1.4 (AIP_SR_EFF_03SEP2026, aim.lps.sk)",
+      "verified": "2026-09-05"
+    },
+    "SK:P": {
+      "rule": "Zakázaná zóna (P), napr. vojenský priestor (MOSR) alebo PUAS-zóna — ako zákaz dronov v okruhu 5 km okolo letiska M. R. Štefánika (PUAS0103M). Platnosť je väčšinou trvalá; niektoré zóny platia len počas uvedeného obdobia. Do tejto kategórie patria aj zakázané priestory, ktoré v AIP SR ENR 5.1.2 publikuje LPS SR, š. p.: LZP1 Mochovce a LZP29 Jaslovské Bohunice (jadrové elektrárne, 5 000 ft AMSL / GND) a LZP23 Šaľa (chemický závod, 4 000 ft AMSL / GND) — kruh s polomerom 2 km, H24. Podľa AIP SR ENR 5.1.1.1 je zakázaný priestor vymedzený vzdušný priestor, v ktorom je letová činnosť zakázaná.",
+      "source": "Dopravný úrad SR — zóny PUAS (letectvo.nsat.sk); LPS SR, š. p. — AIP SR ENR 5.1.2 (aim.lps.sk)",
+      "verified": "2026-09-05"
+    },
+    "SK:RSTA": {
+      "rule": "Obmedzená zóna (RSTA) — dve rodiny s rôznymi adresátmi; podmienky sú vždy uvedené v údajoch zóny. (1) Priestory RUAS Dopravného úradu s trvalou platnosťou: let UAS je povolený iba na základe predchádzajúceho súhlasu — pri väčšine zón Ministerstva obrany Slovenskej republiky (žiadosť na MOSR.UAS@mod.gov.sk najmenej 20 pracovných dní vopred; UAS musí byť vybavený systémom diaľkovej identifikácie), pri ostatných správcu príslušného chráneného objektu. (2) Priestory R publikované v AIP SR ENR 5.1 (LPS SR): podmienka je uvedená pri každom priestore — spravidla súhlas AMC alebo príslušného vojenského stanovišťa, s lehotou a spojením podľa AIP. LZR55: «Vstup len so súhlasom AMC, TEL: +421/960/46 22 31. Žiadosť o povolenie sa predkladá najmenej 30 minút vopred v slovenskom jazyku.» LZR225/LZR314/LZR315: «Vstup len so súhlasom stanovišťa MIL TWR …; súhlas musí byť získaný minimálne 3 minúty vopred na … FREQ …». Pri priestoroch spravovaných AMC (napr. LZR24) je plánovaná doba činnosti dostupná v správe AUP/UUP a skutočná doba činnosti od príslušného stanovišťa ATS.",
+      "source": "Dopravný úrad SR — zemepisné oblasti UAS (KML 2026-08) · MO SR — žiadosť o súhlas · AIP SR ENR 5.1 (AIP_SR_EFF_03SEP2026)",
+      "verified": "2026-09-05"
+    },
+    "SK:PARAGLIDER": {
+      "rule": "Priestor padákového a závesného lietania (AIP SR ENR 5.5.2.2). Mapová značka má podľa AIP SR «význam navigačnej výstrahy na vykonávanie padákového a závesného lietania» v kruhu s polomerom 1,5 NM od stredu vzletovej plochy, vertikálne od GND do hornej hranice vzdušného priestoru triedy G; «Táto navigačná výstraha platí od BMCT do EECT celoročne.» Pilotom sa odporúča obletieť priestor «vo vzdialenosti najmenej 1 NM od publikovaného priestoru». Prekrytie s TRA/R a ďalšie podmienky sú v údajoch zóny.",
+      "source": "LPS SR, š. p. — AIP SR ENR 5.5.2",
+      "verified": "2026-10-20"
+    },
+    "SK:PARAJUMP": {
+      "rule": "Letisko s výsadkovou činnosťou (AIP SR ENR 5.5.1.3). Symbol padáka má podľa AIP SR «význam navigačnej výstrahy na vykonávanie výsadkovej činnosti v horizontálnych hraniciach ATZ od GND do hornej hranice vzdušného priestoru triedy G». Výstraha platí celoročne od BMCT do EECT (H24 pri letiskách schválených aj na nočnú prevádzku); v priestoroch podľa ENR 5.5.1.4 len po telefonickej aktivácii. Pilotom sa odporúča obletieť letisko «vo vzdialenosti najmenej 1 NM od publikovanej horizontálnej hranice ATZ, pokiaľ na tomto letisku nezamýšľajú pristáť». Frekvencia a prekrytie s vyhradenými priestormi sú v údajoch zóny.",
+      "source": "LPS SR, š. p. — AIP SR ENR 5.5.1",
+      "verified": "2026-10-20"
+    },
+    "SUP": {
+      "rule": "Tillfällig restriktion (AIP SUP). Kontrollera giltighetsperiod och villkor i LFV AIP.",
+      "source": "LFV AIP SUP",
+      "verified": "2026-03-27"
+    },
+    "TIZ": {
+      "rule": "Trafikinformationszon (TIZ) — okontrollerat G-luftrum. Piloten ska upprätthålla dubbelriktad radioförbindelse, eller motsvarande, efter överenskommelse med AFIS-enheten. Inom 5 km från banan gäller ingen lågflygningslättnad; utanför gäller den upp till 50 m för drönare på högst 7 kg i högst 90 km/h.",
+      "source": "Transportstyrelsen TSFS 2017:110 3 kap. 4 §",
+      "verified": "2026-09-01"
+    },
+    "TMA_CH": {
+      "rule": "Nahkontrollbezirk (TMA) — kontrollierter Luftraum um Flugplätze. Gestützt auf LFG Art. 40 und VFSD Art. 2 Abs. 1 legt das BAZL die Luftraumstruktur und die Luftraumklassen fest. Das Volumen beginnt erst auf der für die Zone angegebenen Höhe, und diese Untergrenzen liegen weit über 120 m über Grund; Drohnenflüge der offenen Kategorie unter 120 m finden deshalb unterhalb des kontrollierten Luftraums statt und sind von der Zone in der Regel nicht betroffen. Wer in den Luftraum aufsteigen will, braucht eine Koordination mit skyguide. Prüfe das angegebene Höhenband der Zone, NOTAM und weitere Zonen am Ort.",
+      "source": "BAZL — TMA Nahkontrollbezirke",
+      "verified": "2026-08-08"
+    },
+    "UAS_AKT_CH": {
+      "rule": "UAS-Aktivitätszone (UAS Awareness Map) des BAZL. Das Gebiet zeigt genehmigte BVLOS-Betriebsaktivitäten von unbemannten Luftfahrzeugen; die Veröffentlichung soll das Situationsbewusstsein der bemannten Luftfahrt erhöhen und Kontaktinformationen bereitstellen. Für die meisten dieser Gebiete ist die Zone keine Flugeinschränkung: laut BAZL hat die Konsultation dieser Informationen «keinen Einfluss auf die Flugsicherheit» und ist «nicht verpflichtend»; die dargestellten Gebiete «dienen ausschliesslich der situativen Information». AUSNAHME: Trägt der Zonentext des BAZL selbst «TEMPO R-AREA …» (z. B. Hinterrhein, Amlikon), handelt es sich um ein zeitweiliges Beschränkungsgebiet — dann gelten dessen Bedingungen und der DABS-Aktivitätsstatus. Rechne in jedem Fall mit anderen Drohnen in der Luft und beachte die übrigen Regeln am Ort.",
+      "source": "BAZL — UAS-Aktivitätszonen",
+      "verified": "2026-09-06"
+    },
+    "US:NOTAM": {
+      "rule": "Temporary NOTAM-based restriction. A NOTAM may impose a prohibition, a warning (e.g. parachute jumping, balloon activity, military exercise) or operational information — check current NOTAMs with the FAA before flying.",
+      "source": "FAA NOTAM Search",
+      "verified": "2026-08-08"
+    },
+    "US:RSTA": {
+      "rule": "Federally regulated overflight area. Powered flight below the posted minimum altitude is prohibited without prior authorisation from the managing federal agency — check the zone's own details for the altitude, the agency and any transit exception. For NOAA's National Marine Sanctuaries, 15 CFR 922.82(a)(11) sets a 1,000 ft AGL minimum over the waters of the seven Special Wildlife Protection Zones in Greater Farallones and states that the prohibition covers model aircraft, quadcopters and drones; because 14 CFR 107.51(b) caps small unmanned aircraft at 400 ft AGL, every lawful drone altitude there is below the minimum.",
+      "source": "NOAA ONMS — 15 CFR 922.82(a)(11) (eCFR) · 14 CFR 107.51(b)",
+      "verified": "2026-09-06"
+    },
+    "USFWS_REFUGE": {
+      "rule": "U.S. Fish & Wildlife Service National Wildlife Refuge. 50 CFR 27.34 prohibits both the unauthorized landing or take-off on the refuge and the unauthorized operation of aircraft at altitudes resulting in harassment of wildlife. The airspace itself is FAA-governed, but low flight that harasses wildlife is prohibited by the refuge rule — plan launch and recovery outside the refuge boundary and keep your altitude.",
+      "source": "USFWS — 50 CFR 27.34 (eCFR)",
+      "verified": "2026-09-02"
+    },
+    "VOGELRES_CH": {
+      "rule": "Eidgenössisches Wasser- und Zugvogelreservat. Die Drohnenkarte des BAZL hält fest: «Der Betrieb von unbemannten Luftfahrzeugen ist verboten.» Das Verbot gilt dauerhaft und für alle Drohnen unabhängig vom Gewicht — also auch ausserhalb der Brut- und Zugzeiten. Ausnahmebewilligungen können bei der zuständigen kantonalen Fachstelle beantragt werden; gemäss Zonendaten ist das Gesuch mindestens 10 Tage vor dem Flug einzureichen. Die weiteren Schutzbestimmungen des Objekts stehen im Objektblatt.",
+      "source": "BAZL — Einschränkungen für Drohnen (geo.admin.ch); BAFU — Eidg. Vogelreservate (Perimeter)",
+      "verified": "2026-08-08"
+    },
+    "ZICAD_FR": {
+      "rule": "Zone Interdite à la Captation Aérienne des Données (ZICAD), établie par arrêté interministériel. Le vol peut être autorisé (vérifiez la DGAC séparément), mais toute prise de vue, vidéo ou captation de données y est interdite — infraction pénale en droit français.",
+      "source": "DGAC — arrêté interministériel (ZICAD)",
+      "verified": "2026-08-01"
+    },
+    "ES:INFRA_ES": {
+      "rule": "Zona geográfica de UAS de protección de infraestructuras: ferrocarril gestionado por ADIF/ADIF AV, instalaciones energéticas y otras. La mayoría de las zonas exigen notificación previa al gestor de la infraestructura; algunas requieren su autorización. El tipo de requisito y el contacto figuran en el texto propio de la zona (ENAIRE).",
+      "source": "ENAIRE INSIGNIA — capa Infraestructuras (SRV_UAS_ZG, capa 0) · Real Decreto 517/2024",
+      "verified": "2026-09-02"
+    },
+    "ES:AERO_ES_RING": {
+      "rule": "Zona exterior de protección de aeródromo o de campo de ultraligeros (Real Decreto 517/2024, artículo 41.1.a y c, 2.º): se aplica por encima de 45 m medidos desde el punto de referencia del aeródromo (ARP) y hasta 900 m. Por debajo de 45 m sobre el ARP, ENAIRE indica que no es necesario coordinar la operación; por encima, el vuelo está prohibido salvo coordinación con el gestor del aeródromo conforme al artículo 43. Los 45 m se miden desde el ARP, no desde el suelo en el que se encuentra: en terreno más alto que el aeródromo, el límite se alcanza más abajo.",
+      "source": "Real Decreto 517/2024, artículos 41.1.a) y 43 (BOE-A-2024-11377) · ENAIRE INSIGNIA",
+      "verified": "2026-09-02"
+    },
+    "ES:RVF_ES": {
+      "rule": "Zona de fotografía restringida (RVF). El vuelo en sí no está prohibido por esta zona; la restricción afecta a la toma de fotografías y grabaciones aéreas, que requiere solicitar las condiciones técnicas al CECAF (Centro Cartográfico y Fotográfico del Ejército del Aire) antes de la operación. Compruebe si coinciden otras zonas (aeródromos, espacio aéreo controlado, infraestructuras).",
+      "source": "ENAIRE INSIGNIA — zonas RVF · CECAF",
+      "verified": "2026-09-02"
+    },
+    "ES:URBANO_ES": {
+      "rule": "Zona geográfica de UAS en entorno urbano (Real Decreto 517/2024, artículo 40). El vuelo no está prohibido, pero los operadores obligados a registrarse deben comunicarlo previamente al Ministerio del Interior con una antelación mínima de cinco días naturales (art. 40.3.a); las autoridades de seguridad pública pueden limitar o prohibir la operación. En categoría abierta no se pueden sobrevolar edificios ni domicilios, y debe mantenerse una distancia horizontal de al menos 5 m (clase C1, ≥ 250 g) o 30 m (clase C2 < 4 kg; 5 m con el modo de baja velocidad activo) respecto a ellos, salvo autorización del titular o responsable del edificio (art. 40.3.b y 40.4). Compruebe el texto de la zona.",
+      "source": "Real Decreto 517/2024, artículo 40 (BOE-A-2024-11377) · ENAIRE INSIGNIA — capa Urbano",
+      "verified": "2026-09-02"
+    },
+    "ES:ZPP_ES": {
+      "rule": "Zona periférica de protección de un parque nacional (Ley 30/2014). La prohibición de sobrevuelo a baja altura sin autorización expresa (art. 7.3.e: 3 000 m sobre el terreno, con límites propios para determinados parques según el RD 493/2021) rige dentro del territorio del parque; en la zona periférica se aplican la normativa del parque y la de la comunidad autónoma. Consulte al organismo gestor del parque antes de volar.",
+      "source": "Ley 30/2014, de 3 de diciembre, de Parques Nacionales (BOE-A-2014-12588) · OAPN",
+      "verified": "2026-09-02"
+    },
+    "ES:AERO_ES": {
+      "rule": "Zona interior de protección de aeródromo o de campo de ultraligeros (Real Decreto 517/2024, artículo 41.1.a y c, 1.º): desde el nivel de la superficie hasta 45 m sobre el punto de referencia del aeródromo. ENAIRE indica: «NO permitido el vuelo a drones excepto coordinación con el aeródromo» — la coordinación con el gestor (procedimiento del artículo 43, con respuesta afirmativa expresa) es siempre necesaria. El contacto figura en el texto de la zona.",
+      "source": "Real Decreto 517/2024, artículos 41 y 43 (BOE-A-2024-11377) · ENAIRE INSIGNIA (mensaje de zona, capa 2)",
+      "verified": "2026-09-02"
+    },
+    "ES:ENR55_ES": {
+      "rule": "Zona del AIP ENR 5.5, de dos tipos. La mayoría (234 de 262) son campos de aeromodelismo con una EXENCIÓN para la categoría «abierta»: allí se permiten las operaciones de aeromodelismo en subcategoría A3 sin los requisitos de edad y formación del Reglamento (UE) 2019/947, siempre que se cumplan los requisitos alternativos indicados por ENAIRE; para el resto de operadores no es una restricción, pero cuente con tráfico de aeromodelos y con el límite superior de la zona. Las demás (28) son áreas de actividad aérea deportiva (paracaidismo, vuelo libre, vuelo sin motor) que ENAIRE califica de «peligrosa para el vuelo de drones» — evítelas mientras la actividad esté en curso. El texto propio de la zona indica de cuál se trata.",
+      "source": "AIP España ENR 5.5 · ENAIRE INSIGNIA (mensaje de zona, capa 2) · Real Decreto 517/2024",
+      "verified": "2026-09-02"
+    },
+    "ES:TMA": {
+      "rule": "Área de control terminal (TMA) o área de control (CTA) cuyo límite inferior está por encima de 120 m sobre el suelo (por ejemplo 213 m o 305 m): en el suelo no limita el vuelo de drones en categoría abierta. Por encima de su límite inferior rigen las reglas del espacio aéreo controlado (Real Decreto 517/2024, artículo 42): operación prohibida salvo coordinación con el proveedor ATS conforme al artículo 43. Las TMA/CTA con límite inferior de 60 m se muestran como zona de control (CTR). Los límites verticales exactos figuran en los datos de la zona.",
+      "source": "Real Decreto 517/2024, artículos 42 y 43 (BOE-A-2024-11377) · ENAIRE INSIGNIA (TMA/CTA con límite inferior > 120 m; las cinco con 60 m se muestran como CTR — mätt 2026-09-02)",
+      "verified": "2026-09-02"
+    },
+    "SI:SI_NP": {
+      "rule": "Triglavski narodni park. Varstveni režim iz ZTNP-1 (13. člen, 40. točka) prepoveduje letenje z zrakoplovi pod 1000 čevlji (304,8 m) nad najvišjo trenutno točko oziroma oviro med letenjem — za odprto kategorijo je to popolna prepoved. Brez soglasja je uporaba dronov dopustna le za zaščito, reševanje in pomoč ob nesrečah, obrambo države in policijske naloge; s soglasjem upravljavca parka izjemoma za znanstvenoraziskovalne dejavnosti, geodetsko snemanje ter filmsko, video in dokumentarno snemanje. Za rekreativno letenje soglasja ni.",
+      "source": "ZTNP-1, Ur. l. RS 52/10, 13. člen 40. točka (uradni-list.si) · Javni zavod Triglavski narodni park",
+      "verified": "2026-09-02"
+    },
+    "SI:SI_NATURE": {
+      "rule": "Zavarovano območje narave ali območje Natura 2000 (vir: ARSO). Uredba (Ur. l. RS 39/24, 18. člen): pristojno ministrstvo lahko zahteva določitev geografskih območij, na katerih so prepovedi ali omejitve operacij brezpilotnih zrakoplovov določene v predpisih o ohranjanju narave; podrobnejši pogoji so v teh predpisih oziroma se opredelijo pri določitvi posameznega območja. To ni splošna prepoved letenja in naslovnik ni kontrola zračnega prometa — preverite varstveni režim posameznega območja in navodila upravljavca, zlasti v času gnezdenja.",
+      "source": "Uredba o izvajanju izvedbene uredbe (EU) o UAS, Ur. l. RS 39/24, 18. člen · ARSO (Zavarovana območja, Natura 2000)",
+      "verified": "2026-09-02"
+    },
+    "SI:SI_BUILT": {
+      "rule": "Pozidano zemljišče. V odprti kategoriji so operacije brezpilotnih zrakoplovov prepovedane na območju stavb in nadzemnih gradbenih inženirskih objektov, kjer so ljudje (Uredba, Ur. l. RS 39/24, 14. člen). Izjema velja le, če so izpolnjeni vsi pogoji: masa UAS do 1200 g, višina do 50 m nad tlemi, izključno podnevi, odobritev lastnika ali uporabnika nepremičnine in oddana predhodna najava leta (CAA: 12 ur pred operacijo na uav@caa.si). Kadar je to nujno za varno izvedbo in za najkrajši potrebni čas, se zrakoplov lahko nahaja največ 10 m čez mejo nepremičnine. Sloj je vrisan informativno — velja besedilo Uredbe.",
+      "source": "Uredba, Ur. l. RS 39/24, 14. člen · CAA Slovenija (najava leta) · MKGP (dejanska raba)",
+      "verified": "2026-09-02"
+    },
+    "ES:HKP1K": {
+      "rule": "Zona de protección de helipuerto (Real Decreto 517/2024, artículo 41.1.b y d). ENAIRE publica dos zonas por helipuerto: la interior, desde el nivel de la superficie, donde el vuelo está prohibido salvo coordinación previa con el helipuerto; y la exterior, que se aplica por encima de 90 m sobre el punto de referencia del helipuerto y bajo la cual ENAIRE indica que no es necesario coordinar. Las distancias y el contacto figuran en el texto propio de la zona.",
+      "source": "Real Decreto 517/2024, artículo 41.1.b y d (BOE-A-2024-11377) · ENAIRE INSIGNIA",
+      "verified": "2026-09-02",
+      "note": "Legacy-rad: binärer ≤ 1.2.3 producerar HKP1K för ES (R1 L5). Nyare binärer använder HKP1K_ES/HKP1K_ES_RING."
+    },
+    "ES:DNGA": {
+      "rule": "Zona geográfica de UAS de protección de infraestructuras (ferrocarril gestionado por ADIF/ADIF AV, instalaciones energéticas y otras). La mayoría de las zonas exigen notificación previa al gestor de la infraestructura; algunas requieren su autorización. El tipo de requisito y el contacto figuran en el texto propio de la zona (ENAIRE).",
+      "source": "ENAIRE INSIGNIA — capa Infraestructuras (SRV_UAS_ZG, capa 0) · Real Decreto 517/2024",
+      "verified": "2026-09-02",
+      "note": "Legacy-rad: binärer ≤ 1.2.3 producerar DNGA för ES-infrastrukturlagret (R1 L5). Nyare binärer använder INFRA_ES."
+    },
+    "WILDERNESS_US": {
+      "rule": "Congressionally designated Wilderness (U.S. Forest Service or Bureau of Land Management). Drones count as motorized equipment and mechanical transport under Section 4(c) of the Wilderness Act: the Forest Service states they cannot take off from, land in, or be operated from a Wilderness Area (36 CFR 261.18(a) and (c); BLM wilderness 43 CFR 6302.20(d) and (e)). The ban is on use from the ground inside the boundary — FAA rules govern the airspace above. Take off and land outside the wilderness boundary.",
+      "source": "USFS — fs.usda.gov/managing-land/fire/aviation/uas/recreation; 36 CFR 261.18; 43 CFR 6302.20; 16 USC 1133(c)",
+      "verified": "2026-09-02"
+    },
+    "NO:NO_NSM_SENSOR": {
+      "rule": "Forbudsområde fastsatt av Nasjonal sikkerhetsmyndighet (NSM) med særskilt forbud mot bruk av luftbårne fotosensorer (forskrift FOR-2018-06-22-951 § 3). Forbudet følger objektet: også innhenting av informasjon om området med luftbårne fotosensorer UTENFOR området omfattes (§ 5 og § 6 første ledd). Tillatelse etter § 6 andre ledd gis bare til forvaltningsorganer og operatørselskap med leverandørklarering KONFIDENSIELT eller høyere; for privatpersoner er eneste vei en tidsbegrenset dispensasjon etter § 6 tredje ledd, kun for UGRADERT informasjonsinnhenting og etter samtykke fra objekt- eller områdeeier. NSM kan unnlate å publisere enkelte områder (§ 4); laget er ikke komplett.",
+      "source": "Nasjonal sikkerhetsmyndighet — Forbudsområder (åpne data via Geonorge) · forskrift FOR-2018-06-22-951 §§ 3–6 (Lovdata)",
+      "verified": "2026-09-03"
+    },
+    "NO_NSM_SENSOR": {
+      "rule": "Forbudsområde fastsatt av Nasjonal sikkerhetsmyndighet (NSM) med særskilt forbud mot bruk av luftbårne fotosensorer (forskrift FOR-2018-06-22-951 § 3). Forbudet følger objektet: også innhenting av informasjon om området med luftbårne fotosensorer UTENFOR området omfattes (§ 5 og § 6 første ledd). Tillatelse etter § 6 andre ledd gis bare til forvaltningsorganer og operatørselskap med leverandørklarering KONFIDENSIELT eller høyere; for privatpersoner er eneste vei en tidsbegrenset dispensasjon etter § 6 tredje ledd, kun for UGRADERT informasjonsinnhenting og etter samtykke fra objekt- eller områdeeier. NSM kan unnlate å publisere enkelte områder (§ 4); laget er ikke komplett.",
+      "source": "Nasjonal sikkerhetsmyndighet — Forbudsområder (åpne data via Geonorge) · forskrift FOR-2018-06-22-951 §§ 3–6 (Lovdata)",
+      "verified": "2026-09-03"
+    },
+    "NL:PARAJUMP": {
+      "rule": "Parachutespringgebied volgens LVNL (AIP-gegevens). Dit is vliegveiligheidsinformatie voor bemand luchtverkeer, geen UAS-geografische zone: springers dalen zonder waarschuwing — vermijd het gebied tijdens actieve perioden en controleer de NOTAM.",
+      "source": "LVNL — Airspaces_data (Parajump), CC BY 4.0",
+      "verified": "2026-09-03"
+    },
+    "IE:CTR_SPECIFIC_IE": {
+      "rule": "An IAA UAS geographic zone in the air-traffic family that publishes NO height for the open category — an aerodrome control zone, a terrain sector inside one, or another area the IAA restricts for air-traffic reasons. The zone's own message states only that \"Access may be requested through the zone authority\", on most of these zones followed by \"for Specific Category operations.\" There is therefore no height at which open category flight is permitted here: flying requires the zone authority's prior approval. The zone card names that authority and carries the IAA's own wording for this zone.",
+      "source": "IAA — ED-269 UAS Geographic Zones (zone messages) · Aeronautical Notice U.04",
+      "verified": "2026-09-05"
+    },
+    "IE:PARAJUMP": {
+      "rule": "Parachuting area of operation (AIP Ireland ENR 5.5). AirNav Ireland: «Aerial Sporting and Recreational Activity areas, as described in the following sections, are not designated airspaces but show the delineation of airspace established to identify areas within which frequent aviation activities are conducted.» Parachuting takes place daily during daylight hours; the zone card gives the vertical limits and the ATC permission required for operation above 4,500 ft AMSL.",
+      "source": "AirNav Ireland (AIS) — AIP Ireland ENR 5.5",
+      "verified": "2026-10-20"
+    },
+    "EE:NOTAM": {
+      "rule": "NOTAM-teatest tuletatud ala EANS-i lennuinfobülletäänist (PIB): NOTAM-iga kehtestatud ajutine piiranguala või AIP-i piirangu- või eraldatud ala aktiveerimine. Mis alal kehtib, on kirjas ala enda teates. Enamikul aladest tuleb sisenemiseks saada luba teates nimetatud kontaktilt («PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM …»). Kaitseministeeriumi valitsemisala objektide kohal on lend ilma Kaitseväega eelnevalt kooskõlastamata keelatud — taotlus lennuluba@mil.ee vähemalt 5 tööpäeva ette. Politsei- ja Piirivalveameti aladel on kõigil õhusõidukitel, kaasa arvatud mehitamata õhusõidukitel, keelatud alale lennata ilma ameti loata; osal aladest on eraldi öeldud, et mitteosalevad õhusõidukid (sealhulgas UA) ei tohi alale siseneda. Mõni teade annab üksnes teavet tegevuse kohta ja luba ei nõua. Ala kehtib ainult NOTAM-i kehtivusajal ja sageli üksnes teates märgitud kellaaegadel — kontrolli enne lendu ala teadet ja kehtivat NOTAM-it.",
+      "source": "EANS — lennuinfobülletään (PIB) / NOTAM · Eesti droonikaart (utm.eans.ee)",
+      "verified": "2026-09-05"
+    },
+    "SE:TMA": {
+      "rule": "Terminalområde (TMA) — kontrollerat luftrum kring en eller flera flygplatser, normalt ovanför kontrollzonen. Flygning i kontrollerat luftrum får bara ske efter särskilt tillstånd av, och på de villkor som lämnas från, berörd flygkontrollenhet (klarering). Drönarundantaget — 50 m över marken, och 10 m i kontrollzonerna vid de elva uppräknade militära flygplatserna — gäller enligt samma paragraf uttryckligen inom KONTROLLZON och omfattar inte TMA. Zonen börjar först vid sin undre gräns, som anges i zonens uppgifter; under den gränsen gäller reglerna för det luftrum som ligger där i stället.",
+      "source": "Transportstyrelsen TSFS 2017:110 3 kap. 3 § · LFV drönarkarta (mais:EXES)",
+      "verified": "2026-09-05"
+    },
+    "AT:MODELLFLUG_AT": {
+      "rule": "Modellfluggebiet — Modellfluggelände eines Vereins. Austro Control führt die Zone im ED-269-Datensatz als NO_RESTRICTION; der Zonentext lautet: «Modellfluggebiet: Es ist mit erhöhtem Aufkommen unbemannter Luftfahrzeuge zu rechnen.» Für einen durchfliegenden Piloten ändert die Zone keine Regel: die Genehmigung nach Art. 16 der VO (EU) 2019/947 gilt dem Verein, nicht Ihrem Flug. Ausschau halten, mit Modellflugbetrieb rechnen und die Vereinsregeln beachten, wenn innerhalb des Gebiets geflogen wird. Rechtsgrundlage: Luftverkehrsregeln 2014, § 18b Abs. 1. Die am selben Punkt geltenden Zonen — in Österreich typischerweise die Kontrollzone (CTR) — gelten mit ihren eigenen Regeln weiter.",
+      "source": "Austro Control — UAS-Geozonen, ED-269-Datensatz (dronespace.at)",
+      "verified": "2026-09-07"
+    },
+    "FI:DNGA_ADVISORY": {
+      "rule": "Neuvoa-antava vaara-alue AIS Finlandin lentokäsikirjan (eAIP) kohdan ENR 5.3 «Muu ilmailulle vaarallinen toiminta ja muut mahdolliset vaaratekijät» mukaan. Taulukon sarakkeen otsikko on «Advisory measures», neuvoa-antavat toimenpiteet: viranomainen ei kiellä lentämistä eikä vaadi tälle vyöhykkeelle lupaa, vaan kehottaa varovaisuuteen. Nämä alueet EIVÄT ole valtioneuvoston asetuksen 930/2014 mukaisia kielto- tai rajoitusalueita — ne ovat eri lista. Alueita on viittä lajia: avolouhokset (EFLH), luotausasemat (EFWS), ampumarata-alueet (EFSR), teollisuuslaitos (EFHZ) ja lasermittausalueet (EFLZ). Avolouhoksista lentokäsikirja sanoo itse (ENR 5.3.2.4.2): koska räjäytyksistä ei ilmoiteta AIS-julkaisulla eivätkä ne tavallisesti ole myöskään ATS-yksiköiden tiedossa, lentämistä tällaisten alueiden läheisyydessä tulee välttää. Lue vyöhykkeen omat tiedot — viranomaisen huomautus ja toiminta-aika — ennen lentoa. Sama paikka voi silti kuulua johonkin toiseen vyöhykkeeseen, jolla on omat rajoituksensa; tämä vyöhyke ei kerro niistä.",
+      "source": "AIS Finland eAIP ENR 5.3 (Fintraffic ANS) — avolouhokset EFLH, luotausasemat EFWS, ampumarata-alueet EFSR, teollisuuslaitos EFHZ, lasermittausalueet EFLZ",
+      "verified": "2026-09-07"
+    },
+    "NO:DNGA": {
+      "rule": "Fareområde etter AIP Norge ENR 5.1: virksomhet som kan være farlig for luftfarten (militær aktivitet, skyting, sprengning). Sanntidsaktiverte områder skal anses som aktive med mindre lufttrafikktjenesten har bekreftet at de ikke er det; øvrige aktiveres via NOTAM. Se sonens egne opplysninger og gjeldende NOTAM før flyging.",
+      "source": "Luftfartstilsynet — dronesoner.no (AIP Norge ENR 5.1)",
+      "verified": "2026-09-08"
+    },
+    "NO:NO_EMBASSY": {
+      "rule": "Forskrift FOR-2020-11-25-2460 § 8: det er ikke tillatt å fly ubemannet luftfartøy over eller i nærheten av ambassader uten tillatelse fra stedlig leder. Grensen på kartet er bygningen slik Luftfartstilsynets kart viser den; forbudet gjelder også i nærheten.",
+      "source": "Luftfartstilsynet — FOR-2020-11-25-2460 § 8 (Lovdata); dronesoner.no",
+      "verified": "2026-09-08"
+    }
+  }
+}

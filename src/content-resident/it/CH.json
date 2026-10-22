@@ -1,0 +1,217 @@
+{
+ "meta": {
+  "sourceHash": "99b6f00611c6d7f6d6d522c158eb6ee6",
+  "sourceLang": "de",
+  "engine": "opus-5-5",
+  "translatedAt": "2026-10-22",
+  "reviewLevel": "ai_qa"
+ },
+ "fields": {
+  "checklist": [
+   {
+    "title": "Ispezione quotidiana",
+    "items": [
+     "Drone completo e privo di danni visibili",
+     "Eliche intatte e montate correttamente",
+     "Fotocamera e sensori puliti",
+     "Batterie cariche, senza rigonfiamenti o danni",
+     "Scheda di memoria inserita, con spazio sufficiente",
+     "Firmware e app aggiornati",
+     "Radiocomando e display funzionanti"
+    ]
+   },
+   {
+    "title": "Prima del decollo",
+    "items": [
+     "Spazio aereo verificato sulla mappa dei droni dell'UFAC (map.geo.admin.ch)",
+     "Non entro 5 km da aeroporti o aerodromi",
+     "Non nel Parco Nazionale né in una riserva naturale senza autorizzazione",
+     "Assicurazione di responsabilità civile valida per droni oltre 250 g (CHF 1 milione)",
+     "Registrazione dell'operatore presso l'UFAC e certificato A1/A3 al seguito",
+     "Rotte degli elicotteri in montagna considerate",
+     "Visibilità e condizioni di luce sufficienti",
+     "Ambiente circostante valutato (persone, veicoli, edifici)",
+     "Distanza dalle persone non coinvolte confermata in base alla sottocategoria: A2 almeno 30 m (5 m con modalità a bassa velocità attivata ≤ 3 m/s) e sempre almeno pari all'altezza di volo (regola 1:1), A3 almeno 150 m da aree residenziali, commerciali, industriali o ricreative"
+    ]
+   },
+   {
+    "title": "Verifica del sistema",
+    "items": [
+     "Segnale GPS sufficiente (almeno 8 satelliti)",
+     "Home point impostato",
+     "Stato della bussola senza avvisi",
+     "IMU/sensori senza messaggi di errore",
+     "Altezza di Return-to-home impostata correttamente",
+     "Altezza massima impostata a 120 m o meno",
+     "Fotocamera configurata (foto/video/esposizione)"
+    ]
+   },
+   {
+    "title": "Subito dopo il decollo",
+    "items": [
+     "Volo stazionario stabile confermato",
+     "Risposta ai comandi corretta",
+     "Virata di prova eseguita",
+     "Dati di telemetria verificati (GPS, segnale, batteria)"
+    ]
+   },
+   {
+    "title": "Durante il volo",
+    "items": [
+     "Tenere sempre il drone a vista (VLOS)",
+     "Mantenere la distanza in base alla sottocategoria: A2 almeno 30 m dalle persone non coinvolte (5 m con modalità a bassa velocità attivata ≤ 3 m/s) e sempre almeno pari all'altezza di volo (regola 1:1), A3 almeno 150 m da aree residenziali, commerciali, industriali o ricreative",
+     "Prestare attenzione ai cambiamenti del vento",
+     "Pianificare il rientro con una riserva di batteria sufficiente (>30 %)",
+     "Interrompere subito il volo in caso di avvisi tecnici"
+    ]
+   },
+   {
+    "title": "Dopo l'atterraggio",
+    "items": [
+     "Registrazione interrotta",
+     "Drone e radiocomando spenti",
+     "Attrezzatura controllata per danni o surriscaldamento",
+     "Livello della batteria annotato",
+     "Batterie ricaricate se necessario",
+     "Volo documentato se necessario"
+    ]
+   }
+  ],
+  "onboarding": [
+   {
+    "title": "Tutto ciò che ti serve in volo. Tutto in un unico posto.",
+    "body": ""
+   },
+   {
+    "title": "I tuoi dati sono tuoi",
+    "body": "Il tuo registro di volo, il tuo {0} e la tua posizione vengono salvati solo sul tuo telefono. Non possiamo vedere dove voli — e non vogliamo nemmeno farlo.",
+    "tag": "Protezione dei dati"
+   },
+   {
+    "title": "Puoi volare qui?",
+    "body": "La mappa dei droni dell'UFAC in sovrimpressione, sempre aggiornata, e i NOTAM — tocca una zona per avere la risposta. In più, un avviso push sulla schermata di blocco quando si avvicinano aeromobili.",
+    "tag": "Spazio aereo e avviso"
+   },
+   {
+    "title": "Non perdere il tuo drone per colpa del vento",
+    "body": "Informazioni su vento e meteo su misura per il tuo modello di drone — così sai quando è sicuro decollare.",
+    "tag": "Il tuo drone"
+   },
+   {
+    "title": "Questo è solo l'inizio",
+    "body": "Checklist, registri di volo, pianificazione e molto altro ti aspettano."
+   }
+  ],
+  "onboardingExtended": [
+   {
+    "title": "DrohnenKoll",
+    "body": "Sicurezza · Semplicità · Controllo"
+   },
+   {
+    "title": "I tuoi dati sono tuoi",
+    "body": "Registro di volo, {0} e posizione\nrestano solo sul tuo telefono.\nNon possiamo vedere dove voli —\ne non vogliamo nemmeno farlo.",
+    "tag": "PROTEZIONE DEI DATI"
+   },
+   {
+    "title": "Niente multe, niente errori",
+    "body": "Restrizioni ufficiali direttamente sulla mappa —\naggiornate in tempo reale dall'UFAC.\nNOTAM, zone di controllo, divieti per i droni.\nVedi a colpo d'occhio se la tua posizione\nè adatta al volo.",
+    "tag": "FONTI UFFICIALI"
+   },
+   {
+    "title": "Non perdere mai il tuo drone\nper colpa del vento",
+    "body": "L'app conosce il limite di vento e la\nclasse IP del tuo drone. Se viene superato,\nricevi un avviso prima del decollo.\nIl vento è misurato a 10, 80 e 120 m.",
+    "tag": "IL TUO DRONE"
+   },
+   {
+    "title": "Sappi che lo spazio aereo\nè tuo",
+    "body": "Avviso in tempo reale quando un aereo o un\nelicottero si avvicina alla tua posizione.\nGiallo = attenzione  ·  Rosso = agisci subito.\nMai una brutta sorpresa sopra di te.",
+    "tag": "ALLERTA VOLO"
+   },
+   {
+    "title": "Non tralasciare mai\nnulla di critico",
+    "body": "38 punti da verificare prima del decollo —\nspazio aereo, GPS, vento, batterie, sensori.\nAggiungi pure i tuoi punti da controllare.\nQuando hai fretta, dimentichi le cose.",
+    "tag": "CHECKLIST"
+   },
+   {
+    "title": "Il certificato in tasca,\nquando qualcuno lo chiede",
+    "body": "Polizia, proprietario del terreno o direttore di volo —\nil tuo {0} è sempre disponibile\noffline nell'app.\nAvvia il timer al decollo — il tempo di volo\nviene registrato con posizione e drone.",
+    "tag": "CERTIFICATO E REGISTRO"
+   },
+   {
+    "title": "Vento a più altezze —\nnon solo al suolo",
+    "body": "Il drone incontra un vento diverso dal tuo.\nDrohnenKoll mostra il vento a 10, 80 e\n120 m di altezza — dove il drone vola davvero.\nCon raffiche e temperatura in tempo reale.",
+    "tag": "METEO"
+   },
+   {
+    "title": "Pianifica il volo\nin anticipo",
+    "body": "Cerca indirizzi, posiziona segnaposto, traccia raggi di sicurezza.\nStabilisci con precisione dove volerà il drone\nprima di decollare — e mostra ad amici o\nclienti cosa stai pianificando.",
+    "tag": "PIANIFICAZIONE"
+   },
+   {
+    "title": "Tutto pronto per volare in sicurezza",
+    "body": "DrohnenKoll ti aiuta a volare in modo più sicuro — prima di ogni decollo verifica le regole ufficiali."
+   }
+  ],
+  "rules": {
+   "CTA_CH": {
+    "rule": "Regione di controllo (CTA) — spazio aereo controllato attorno agli aerodromi. In virtù dell'art. 40 LFG (LNA) e dell'art. 2 cpv. 1 VFSD (OSA), l'UFAC (Ufficio federale dell'aviazione civile) stabilisce la struttura e le classi dello spazio aereo. Il volume inizia solo all'altezza indicata per la zona, e questi limiti inferiori si trovano ben oltre i 120 m sopra il suolo; i voli con droni della categoria aperta al di sotto dei 120 m si svolgono quindi sotto lo spazio aereo controllato e di norma non sono interessati dalla zona. Chi vuole salire in questo spazio aereo deve coordinarsi con skyguide. Verifica la fascia di altezza indicata per la zona, i NOTAM e le altre zone sul posto.",
+    "source": "UFAC — CTA regioni di controllo"
+   },
+   "CTR": {
+    "rule": "Zona esterna dell'aerodromo. Secondo l'UFAC qui i droni di peso superiore a 250 g sono vietati senza autorizzazione. Meno restrittiva della zona centrale, ma anch'essa vicina all'aerodromo — verifica la regola esatta prima del decollo.",
+    "source": "UFAC — Restrizioni per droni (geo.admin.ch)"
+   },
+   "CTR_CH": {
+    "rule": "Zona di controllo (CTR) attorno a un aerodromo. Per le zone di controllo svizzere l'UFAC (Ufficio federale dell'aviazione civile) precisa: «L'esercizio di aeromobili senza occupanti di peso superiore a 250 g è vietato a partire da un'altezza di 120 m sopra il suolo.» Al di sotto dei 120 m questo divieto non si applica — nello stesso luogo possono comunque valere altre zone, NOTAM e restrizioni locali, e nelle immediate vicinanze dell'aerodromo possono vigere regole specifiche. Le autorizzazioni vanno richieste a skyguide; secondo i dati della zona, la domanda va presentata almeno 14 giorni in anticipo. Se la zona si estende oltre il confine nazionale, per quella parte valgono le regole del Paese confinante.",
+    "source": "UFAC — CTR zone di controllo"
+   },
+   "DNGA": {
+    "rule": "Infrastruttura sensibile (categoria UFAC «Zone sensibili») — ad es. carceri, centrali elettriche o ospedali. Qui i voli con droni sono limitati o vietati; verifica la restrizione esatta sulla mappa dell'UFAC.",
+    "source": "UFAC — Restrizioni per droni (geo.admin.ch)"
+   },
+   "JAGDBANN_CH": {
+    "rule": "Bandita federale di caccia (protezione della fauna selvatica). Per queste zone la mappa dei droni dell'UFAC (Ufficio federale dell'aviazione civile) precisa: «L'esercizio di aeromobili senza occupanti è vietato.» Il divieto vale in modo permanente e per tutti i droni, indipendentemente dal peso. I permessi d'esenzione possono essere richiesti al servizio cantonale specializzato competente; secondo i dati della zona, la domanda va presentata almeno 10 giorni prima del volo. I Cantoni possono inoltre emanare regole proprie più severe.",
+    "source": "UFAC — Restrizioni per droni (geo.admin.ch); UFAM — Bandite federali di caccia (perimetri)"
+   },
+   "OBSTACLE_CH": {
+    "rule": "Ostacoli alla navigazione aerea ai sensi della VIL (OSIA; RS 748.131.1): costruzioni e impianti — tra cui antenne, edifici, cavi, gru, impianti a fune, linee aeree dell'alta tensione e impianti eolici — che possono rendere difficoltoso, mettere in pericolo o rendere impossibile l'esercizio di aeromobili o di installazioni di sicurezza aerea. I dati non sono completi: le piante sono escluse, nelle zone non edificate gli ostacoli vengono rilevati solo a partire da 25 metri (le gru mobili solo da 40 metri) e nelle zone edificate solo da 60 metri; gli ostacoli rilevanti per la sicurezza nei dintorni degli aerodromi al di sotto di queste altezze figurano in un livello separato dell'UFAC (Ufficio federale dell'aviazione civile), che qui non è rappresentato. Aspettati quindi ostacoli che non figurano sulla mappa. Mantieni il contatto visivo con il drone e una distanza sufficiente da cavi, impianti a fune e piloni — soprattutto con funi in movimento come sciovie e teleferiche per il trasporto di materiale.",
+    "source": "UFAC — Ostacolo alla navigazione aerea (OSIA, RS 748.131.1)"
+   },
+   "P": {
+    "rule": "Zona centrale dell'aerodromo. Secondo l'UFAC qui tutti i droni, indipendentemente dal peso, sono vietati senza autorizzazione. La zona più restrittiva attorno agli aerodromi svizzeri — tieniti lontano.",
+    "source": "UFAC — Restrizioni per droni (geo.admin.ch)"
+   },
+   "RSTA": {
+    "rule": "Riserva naturale con restrizioni per i droni (categoria UFAC «Zone protette»). Per queste zone la mappa dei droni dell'UFAC (Ufficio federale dell'aviazione civile) precisa: «L'esercizio di aeromobili senza occupanti è vietato.» Il divieto vale in modo permanente e per tutti i droni, indipendentemente dal peso. I permessi d'esenzione possono essere richiesti al servizio specializzato competente, di solito cantonale; quale servizio sia e quanto preavviso richieda è indicato nelle informazioni della zona.",
+    "source": "UFAC — Restrizioni per droni (geo.admin.ch), campo zone_restriction_it"
+   },
+   "SCHIESS_CH": {
+    "rule": "Zona militare di tiro e d'esercitazione (DDPS). L'Esercito svizzero precisa: «Dato il pericolo di morte, è vietato l'accesso alla zona di pericolo. Le istruzioni delle sentinelle devono essere osservate.» Non volare mai sopra una zona di tiro attiva. Gli orari di tiro indicati qui provengono dagli avvisi di tiro pubblicati e coprono solo i prossimi dieci giorni. L'assenza di orari non significa che la zona sia sicura — e nemmeno che non sia stato pubblicato nulla: per una parte dei settori l'Esercito non ha emesso alcun avviso per questo periodo, per un'altra ha indicato espressamente «nessun tiro», e oggi l'app non distingue i due casi. Prima del volo verifica l'avviso di tiro aggiornato per il luogo.",
+    "source": "DDPS — Avvisi di tiro (geo.admin.ch)"
+   },
+   "SICHERHEIT_CH": {
+    "rule": "Piano delle zone di sicurezza di un aerodromo. Il piano di zona indica le restrizioni della proprietà in superficie e in altezza e, con la pubblicazione negli organi cantonali ufficiali, rappresenta «una restrizione di diritto pubblico della proprietà» — si rivolge quindi a proprietari fondiari e committenti. Non è una zona UAS e non comporta un proprio obbligo di autorizzazione per i voli con droni. Presso gli aerodromi valgono comunque regole proprie per i droni: verifica i perimetri degli aerodromi dell'UFAC (SIL/PSIA o SPM/PSM), la zona di controllo (CTR) e i NOTAM.",
+    "source": "UFAC — Piano delle zone di sicurezza"
+   },
+   "TMA_CH": {
+    "rule": "Regione di controllo terminale (TMA) — spazio aereo controllato attorno agli aerodromi. In virtù dell'art. 40 LFG (LNA) e dell'art. 2 cpv. 1 VFSD (OSA), l'UFAC (Ufficio federale dell'aviazione civile) stabilisce la struttura e le classi dello spazio aereo. Il volume inizia solo all'altezza indicata per la zona, e questi limiti inferiori si trovano ben oltre i 120 m sopra il suolo; i voli con droni della categoria aperta al di sotto dei 120 m si svolgono quindi sotto lo spazio aereo controllato e di norma non sono interessati dalla zona. Chi vuole salire in questo spazio aereo deve coordinarsi con skyguide. Verifica la fascia di altezza indicata per la zona, i NOTAM e le altre zone sul posto.",
+    "source": "UFAC — TMA regioni di controllo terminali"
+   },
+   "UAS_AKT_CH": {
+    "rule": "Zona di attività UAS (mappa UAS Awareness) dell'UFAC (Ufficio federale dell'aviazione civile). L'area indica operazioni BVLOS autorizzate di aeromobili senza occupanti; la pubblicazione mira ad aumentare la consapevolezza situazionale dell'aviazione con equipaggio e a fornire informazioni di contatto. Per la maggior parte di queste aree la zona non costituisce una restrizione di volo: secondo l'UFAC la consultazione di queste informazioni «non modifica la sicurezza del volo» e «non è obbligatoria»; le aree visualizzate sono «fornite esclusivamente a fini di consapevolezza situazionale». ECCEZIONE: se il testo della zona dell'UFAC contiene esso stesso «TEMPO R-AREA …» (ad es. Hinterrhein, Amlikon), si tratta di una zona regolamentata temporanea — in tal caso valgono le sue condizioni e lo stato di attività nel DABS. In ogni caso, aspettati altri droni in volo e rispetta le altre regole valide sul posto.",
+    "source": "UFAC — Zone di attività UAS"
+   },
+   "VOGELRES_CH": {
+    "rule": "Riserva federale di uccelli acquatici e migratori. La mappa dei droni dell'UFAC (Ufficio federale dell'aviazione civile) precisa: «L'esercizio di aeromobili senza occupanti è vietato.» Il divieto vale in modo permanente e per tutti i droni, indipendentemente dal peso — quindi anche al di fuori dei periodi di nidificazione e di migrazione. I permessi d'esenzione possono essere richiesti al servizio cantonale specializzato competente; secondo i dati della zona, la domanda va presentata almeno 10 giorni prima del volo. Le altre disposizioni di protezione dell'oggetto figurano nella scheda dell'oggetto.",
+    "source": "UFAC — Restrizioni per droni (geo.admin.ch); UFAM — Riserve federali di uccelli (perimetri)"
+   }
+  },
+  "links": {
+   "foca_drones": "https://www.bazl.admin.ch/it/droni",
+   "foca_register": "https://www.bazl.admin.ch/it/registrazione-operatore-droni",
+   "foca_rules": "https://www.bazl.admin.ch/it/regole-volo-droni",
+   "dabs": "https://www.bazl.admin.ch/it/restrizioni-geografiche-volo"
+  },
+  "airspaceMapUrl": "https://map.geo.admin.ch/?lang=it&topic=aviation&layers=ch.bazl.einschraenkungen-drohnen"
+ }
+}
