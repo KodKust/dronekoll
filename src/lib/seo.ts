@@ -49,7 +49,7 @@ export const GOATCOUNTER_CODE: string | null = 'dronekoll';
  *  content="...", inte hela <meta>-taggen), bygg om och deploya → klicka
  *  "Verifiera" i Search Console. Taggen kan ligga kvar efteråt; tas den bort
  *  kan Google avverifiera propertyn senare. */
-export const GOOGLE_SITE_VERIFICATION: string | null = null;
+export const GOOGLE_SITE_VERIFICATION: string | null = 'UQ433BlMH-LUuu79Bm--u-J7AXBnYSH3wnKnHiX9a8k';
 
 /** Socialt bevis (data/rating.json, manuellt underhållet). */
 import { readFileSync as _rfs, existsSync as _ex } from 'node:fs';
