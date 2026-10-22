@@ -22,7 +22,7 @@ import MapSection from '../../../components/MapSection.astro';
 import AppCta from '../../../components/AppCta.astro';
 import CountryGrid from '../../../components/CountryGrid.astro';
 import { allCountryPages, relatedCountries, enArticle, hubPath, type PageEntry } from '../../../lib/model';
-import { splitCountryHeading } from '../../../lib/country-forms.mjs';
+import { countryParams, splitCountryHeading } from '../../../lib/country-forms.mjs';
 import { zoneCountByIso } from '../../../lib/ingest';
 import { mapConfigFor } from '../../../lib/mapconfig';
 import { t } from '../../../lib/i18n';
@@ -167,7 +167,7 @@ const ldBlocks = [
           titleAs="h2"
           titleId="quickanswer-heading"
         >
-          {t('quickanswer.body', lang, { country: enArticle(page.iso, lang) ? 'The ' + page.displayName : page.displayName, year })}
+          {t('quickanswer.body', lang, { ...countryParams(page.iso, lang, page.displayName), country: enArticle(page.iso, lang) ? 'The ' + page.displayName : page.displayName, year })}
         </Callout>
       </div>
       <QuickFacts page={page} zoneCount={zoneCount} />
