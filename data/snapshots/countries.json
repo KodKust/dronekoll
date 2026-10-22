@@ -1,5 +1,5 @@
 {
-  "version": 260,
+  "version": 262,
   "touristContent": {
     "baseUrl": "https://dronekoll.com"
   },
@@ -780,7 +780,7 @@
         "In der offenen Kategorie müssen Sie die Drohne in Ihrer eigenen Sichtlinie, mit bloßem Auge halten (Brille/Kontaktlinsen sind in Ordnung; Fernglas oder Bildschirm zählen nicht) — oder mit Unterstützung eines Beobachters fliegen, wobei jederzeit eine klare und wirksame Kommunikation zwischen Ihnen bestehen muss, damit Sie gemeinsam den Luftraum beobachten und Kollisionen vermeiden können. Der Follow-me-Modus ist eine separate Ausnahme, erlaubt bis zu 50 m vom Piloten entfernt.",
         "Nachtflüge nur auf Sichtweite und mit eingeschalteten Positionslichtern; Distanz entsprechend verkürzen",
         "Fliegen Sie nicht über Menschenansammlungen. Die Vorschriften für unbeteiligte Personen hängen von der Unterkategorie, der Klassenkennzeichnung und den Betriebsbedingungen ab; bitte beachten Sie die offizielle Matrix.",
-        "Es gibt keinen einheitlichen EU-weiten Abstand, den Sie zu Flughäfen einhalten müssen. Beschränkungen in der Nähe von Flughäfen werden als geografische Gebiete (Artikel 15) veröffentlicht, deren Form und Größe von Flughafen zu Flughafen variieren. Bevor Sie in der Nähe eines Flughafens, Flugplatzes oder Hubschrauberlandeplatzes fliegen, prüfen Sie die offizielle Drohnen-Zonenkarte Ihres Landes; das Fliegen innerhalb einer Kontrollzone (CTR) erfordert in der Regel eine vorherige Genehmigung der Flugverkehrskontrolle.",
+        "Es gibt keinen einheitlichen EU-weiten Abstand, den Sie zu Flughäfen einhalten müssen. Beschränkungen in der Nähe von Flughäfen werden als geografische Gebiete (Artikel 15) veröffentlicht, deren Form und Größe von Flughafen zu Flughafen variieren. Bevor Sie in der Nähe eines Flughafens, Flugplatzes oder Hubschrauberlandeplatzes fliegen, prüfen Sie die offizielle Drohnen-Zonenkarte; das Fliegen innerhalb einer Kontrollzone (CTR) erfordert in der Regel eine vorherige Genehmigung der Flugverkehrskontrolle.",
         "Vor jedem Flug zusätzlich das DABS (Daily Airspace Bulletin Switzerland, skybriefing.com/de/dabs) prüfen — ist das Fluggebiet betroffen, darf nicht geflogen werden.",
         "Sehr kleines Land — grenzüberschreitende Flüge in die Schweiz oder nach Österreich erfordern Aufmerksamkeit",
         "Alpines Gelände: auf Hubschrauberrouten achten"
@@ -5387,7 +5387,7 @@
         "Assurance obligatoire avec numéro de police requis lors de l’enregistrement",
         "La CTR de l’aéroport de Luxembourg-Findel couvre une grande partie de ce petit pays",
         "Le nouveau cadre national — loi du 19 décembre 2025 et règlement grand-ducal du 22 décembre 2025 relatif aux aéronefs sans équipage à bord — complète la réglementation européenne et introduit des sanctions pénales en cas de non-respect des obligations d'enregistrement, d'assurance et de zones. Des frais s'appliquent depuis le 14 janvier 2026 : 10 € pour l'enregistrement ou son renouvellement, 30 € pour une déclaration STS, 45 € pour l'examen OPEN A2.",
-        "Le RGPD s’applique lors de la capture d’images identifiables",
+        "Le RGPD s’applique lors de la capture d’images de personnes identifiables",
         "Attention (DAC) : les Geozones fournies par les fabricants d’UAS ne couvrent pas forcément toutes les zones restreintes du territoire luxembourgeois, et il n’y a PAS de transfert automatique d’informations entre le fabricant de l’UAS et le Géoportail. Seules les zones géographiques UAS indiquées sur g-o.lu/uas sont légalement applicables — la géorestriction de votre télécommande ne suffit pas."
       ],
       "lastVerified": "2026-08-26",
@@ -7191,7 +7191,7 @@
         "Brussel (geozone EBR-01): over of binnen 50 m van ambassades, federale overheidsinstellingen en internationale instellingen vliegen alleen met voorafgaande toestemming van de betrokken instelling",
         "De gecontroleerde luchthavens (Brussel, Antwerpen, Charleroi, Luik, Oostende) en militaire vliegvelden hebben CTR-geozones met strenge voorwaarden; Kortrijk-Wevelgem heeft een RMZ/TMZ-geozone.",
         "Boetes en strafrechtelijke vervolging mogelijk bij overtredingen",
-        "AVG/GDPR is van toepassing bij het maken van herkenbare beelden"
+        "AVG/GDPR is van toepassing bij het maken van beelden van herkenbare personen"
       ],
       "lastVerified": "2026-09-23",
       "verifiedBy": "BCAA (official sources)",
@@ -7435,7 +7435,7 @@
           "zoneKeyDefault": "OBSTACLE_CH",
           "pointBufferM": 50,
           "authority": "BAZL",
-          "defaultDescription": "Luftfahrthindernis — Hochspannungsleitungen, Antennenmaste, Seilbahnen, Kräne und Gebäude. Der Datensatz ist nicht vollständig. Rechne deshalb mit Hindernissen, die auf der Karte fehlen.",
+          "defaultDescription": "Luftfahrthindernis — Hochspannungsleitungen, Antennenmaste, Seilbahnen, Kräne und Gebäude. Der Datensatz ist nicht vollständig. Rechnen Sie deshalb mit Hindernissen, die auf der Karte fehlen.",
           "viewportCull": true,
           "viewportCullMaxDeg": 0.6
         },
@@ -7940,7 +7940,7 @@
         "Tatry a národné parky majú významné obmedzenia",
         "Okolie letiska M. R. Štefánika: zákaz civilných letov UAS v okruhu 3 km (zóna RUAS098M, rozhodnutie ministra č. 104/2026 platné od 18.08.2026); v okruhu 5 km je prevádzka povolená len v osobitnej kategórii (RUAS001-LZIBAD-D).",
         "Poistenie je povinné, ak prevádzkujete UAS v otvorenej kategórii A2/A3, v osobitnej kategórii alebo v osvedčenej kategórii (NSAT FAQ).",
-        "GDPR platí pri zachytávaní identifikovateľných snímok"
+        "GDPR platí pri zachytávaní snímok identifikovateľných osôb"
       ],
       "lastVerified": "2026-08-26",
       "verifiedBy": "Dopravný úrad (official sources) + audit 2026-08-26",
@@ -8283,7 +8283,7 @@
         "Registratie via RDW kost €23 eenmalig + €13/jaar verlenging (sinds 2025) — geldig in alle EU/EASA-landen.",
         "Overtredingen kunnen leiden tot forse boetes, inbeslagname van de drone en bij herhaling zelfs strafvervolging — de bedragen verschillen per overtreding.",
         "Militaire luchthavens Leeuwarden, Eindhoven en Volkel (CTR): vluchten in de open categorie zijn hier verboden; vluchten in de specifieke categorie vereisen een privilege op de exploitatievergunning (IenW-zonetekst, Regeling onbemande luchtvaartuigen art. 7).",
-        "AVG/GDPR is van toepassing bij het maken van herkenbare beelden."
+        "AVG/GDPR is van toepassing bij het maken van beelden van herkenbare personen."
       ],
       "lastVerified": "2026-08-26",
       "verifiedBy": "ILT (official sources) + audit 2026-08-26",
@@ -8953,26 +8953,26 @@
       ],
       "keyRules": [
         "Atklātajā kategorijā maksimālais augstums ir 120 m, mērot kā attālumu līdz tuvākajam zemes virsmas punktam — ne tikai tieši lejup, tāpēc nogāzes tuvumā var ņemt vērā arī zemi blakus. 50 m attālumā no augsta mākslīga šķēršļa (virs 105 m) maksimālo augstumu var palielināt līdz 15 m virs šķēršļa augstuma, ja to pieprasa par šķērsli atbildīgā struktūra.",
-        "Jums jāreģistrējas kā drona operatoram, ja jūsu drons sver 250 g vai vairāk (vai sadursmes gadījumā varētu nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas arī uz rotaļlietām. Ja svars ir mazāks par 250 g, reģistrācija tomēr ir nepieciešama, ja dronam ir sensors, kas spēj fiksēt personas datus, ja vien tas nav uzskatāms par rotaļlietu saskaņā ar ES Rotaļlietu drošības direktīvu. Pilota apmācības/sertifikāta prasības ir atsevišķas un atkarīgas no drona klases un apakškategorijas.",
-        "Jums jāreģistrējas kā UAS ekspluatantam savā ES dzīvesvietas valstī (ja dzīvojat ārpus ES — pirmajā ES valstī, kurā lidojat); reģistrācija ir derīga visā ES, un vienlaikus reģistrēties divās valstīs nav atļauts. Latvijā reģistrācija maksā 5 € un ir derīga 1 gadu. Katrs drons jāmarķē ar UAS ekspluatanta numuru.",
+        "Tev jāreģistrējas kā drona operatoram, ja tavs drons sver 250 g vai vairāk (vai sadursmes gadījumā varētu nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas arī uz rotaļlietām. Ja svars ir mazāks par 250 g, reģistrācija tomēr ir nepieciešama, ja dronam ir sensors, kas spēj fiksēt personas datus, ja vien tas nav uzskatāms par rotaļlietu saskaņā ar ES Rotaļlietu drošības direktīvu. Pilota apmācības/sertifikāta prasības ir atsevišķas un atkarīgas no drona klases un apakškategorijas.",
+        "Tev jāreģistrējas kā UAS ekspluatantam savā ES dzīvesvietas valstī (ja dzīvo ārpus ES — pirmajā ES valstī, kurā lido); reģistrācija ir derīga visā ES, un vienlaikus reģistrēties divās valstīs nav atļauts. Latvijā reģistrācija maksā 5 € un ir derīga 1 gadu. Katrs drons jāmarķē ar UAS ekspluatanta numuru.",
         "Dronam no 250 g nepieciešams A1/A3 tiešsaistes kurss un eksāmens. Droni bez C klases marķējuma un ar masu 250 g vai vairāk kopš 2024. gada drīkst lidot tikai A3 apakškategorijā — tālu no lidojumā neiesaistītām personām un vismaz 150 m no dzīvojamām, tirdzniecības, rūpniecības un atpūtas teritorijām.",
         "Latvijā patstāvīgai lidošanai nepieciešamais minimālais vecums ir 16 gadi; jaunāki drīkst lidot tikai kvalificēta, vismaz 16 gadus veca tālvadības pilota tiešā uzraudzībā, vai ar rotaļlietai paredzētu C0 klases dronu.",
-        "C1, C2 (un C3) klases droniem jālido ar aktīvu tiešo attālināto identifikāciju (Remote ID), kurā ievadīts jūsu UAS ekspluatanta numurs.",
+        "C1, C2 (un C3) klases droniem jālido ar aktīvu tiešo attālināto identifikāciju (Remote ID), kurā ievadīts tavs UAS ekspluatanta numurs.",
         "Civiltiesiskās atbildības apdrošināšana ir obligāta, izņemot dronus, kuru masa ir mazāka par 250 g un maksimālais ātrums mazāks par 19 m/s. Minimālais limits: A1 un A2 apakškategorijā — 50 000 €; dronam no 20 kg un specifiskajā kategorijā — 750 000 SDR (Regula (EK) Nr. 785/2004).",
-        "Nav vispārēja aizlieguma, taču virs valsts autoceļiem, tiltiem, dzelzceļa objektiem un 110/330 kV elektrolīnijām (līdz 50 m no tiem) var būt noteiktas UAS ģeogrāfiskās zonas — pārbaudiet airspace.lv. Pēc iespējas izvairieties lidot pāri cilvēkiem, satiksmei, ēkām un inženierbūvēm.",
+        "Nav vispārēja aizlieguma, taču virs valsts autoceļiem, tiltiem, dzelzceļa objektiem un 110/330 kV elektrolīnijām (līdz 50 m no tiem) var būt noteiktas UAS ģeogrāfiskās zonas — pārbaudi airspace.lv. Pēc iespējas izvairies lidot pāri cilvēkiem, satiksmei, ēkām un inženierbūvēm.",
         "Aizliegts filmēt vai fotografēt kritiskās infrastruktūras objektus, pie kuriem ir zīme „BEZ SASKAŅOŠANAS FOTOGRAFĒT, FILMĒT AIZLIEGTS“.",
-        "Atklātajā kategorijā jums drons jātur savas tiešās redzamības robežās bez palīglīdzekļiem (brilles/kontaktlēcas ir pieļaujamas; binoklis vai ekrāns neskaitās) — vai arī jālido ar novērotāja palīdzību, uzturot skaidru un efektīvu savstarpējo saziņu visu laiku, lai kopā varētu novērot gaisa telpu un izvairīties no sadursmēm. „Follow-me“ režīms ir atsevišķs izņēmums, atļauts līdz 50 m no pilota.",
-        "Nelidojiet pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kas nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudiet oficiālo tabulu.",
-        "Nav vienota ES mēroga attāluma, kas jāievēro no lidostām. Ierobežojumi lidostu tuvumā tiek publicēti kā ģeogrāfiskās zonas (15. pants), kuru forma un lielums atšķiras atkarībā no lidostas. Pirms lidošanas lidostas, lidlauka vai helikopteru laukuma tuvumā pārbaudiet savas valsts oficiālo dronu zonu karti; lidošanai kontrolētā zonā (CTR) parasti nepieciešama iepriekšēja gaisa satiksmes vadības atļauja.",
+        "Atklātajā kategorijā tev drons jātur savas tiešās redzamības robežās bez palīglīdzekļiem (brilles/kontaktlēcas ir pieļaujamas; binoklis vai ekrāns neskaitās) — vai arī jālido ar novērotāja palīdzību, uzturot skaidru un efektīvu savstarpējo saziņu visu laiku, lai kopā varētu novērot gaisa telpu un izvairīties no sadursmēm. „Follow-me“ režīms ir atsevišķs izņēmums, atļauts līdz 50 m no pilota.",
+        "Nelido pāri cilvēku pulcēšanās vietām. Noteikumi attiecībā uz personām, kas nav iesaistītas lidojumā, ir atkarīgi no apakškategorijas, klases marķējuma un ekspluatācijas apstākļiem; pārbaudi oficiālo tabulu.",
+        "Nav vienota ES mēroga attāluma, kas jāievēro no lidostām. Ierobežojumi lidostu tuvumā tiek publicēti kā ģeogrāfiskās zonas (15. pants), kuru forma un lielums atšķiras atkarībā no lidostas. Pirms lidošanas lidostas, lidlauka vai helikopteru laukuma tuvumā pārbaudi oficiālo dronu zonu karti; lidošanai kontrolētā zonā (CTR) parasti nepieciešama iepriekšēja gaisa satiksmes vadības atļauja.",
         "Latvijā kopš 2025. gada 1. janvāra lidojumi UAS ģeogrāfiskajās zonās, kurās noteikta lidojumu pieteikšana vai saskaņošana, pirms lidojuma jāpiesaka CAA Bezpilota gaisa kuģu informācijas sistēmā BGKIS (e.caa.gov.lv); arī citā EEZ valstī vai Šveicē reģistrēti ekspluatanti var izveidot BGKIS kontu. Saskaņošana zonās ap lidlaukiem var ilgt līdz 5 darbdienām (ja jāmaina lidojuma plāns – līdz 30 dienām).",
         "Nakts lidojumi ir atļauti saskaņā ar EASA atklātās kategorijas pamatnosacījumiem, ja tiek izmantota nepieciešamā zaļā mirgojošā gaisma, ja vien spēkā esošie ģeogrāfiskās zonas vai valsts noteikumi neparedz stingrākus nosacījumus.",
         "Rīgas CTR aptver lielu daļu Rīgas. Tajā bez atsevišķas saskaņošanas atļauts lidot zemāk par 50 m virs zemes un ārpus 5 km no skrejceļu 18 un 36 sliekšņiem ar dronu līdz 2 kg; dronam virs 2 kg nepieciešama papildu kvalifikācija (piem., A2 kompetences sertifikāts). Augstāk par 50 m vai 5 km zonā ap skrejceļu sliekšņiem lidojums katru reizi iepriekš jāsaskaņo ar VAS „Latvijas gaisa satiksme“.",
-        "Pēc policijas, CAA, robežsardzes vai citas amatpersonas pieprasījuma nekavējoties pārtrauciet lidojumu un uzrādiet personu apliecinošu dokumentu – ņemiet to līdzi.",
+        "Pēc policijas, CAA, robežsardzes vai citas amatpersonas pieprasījuma nekavējoties pārtrauc lidojumu un uzrādi personu apliecinošu dokumentu – ņem to līdzi.",
         "Tālvadības pilotam vai novērotājam, kura alkohola koncentrācija asinīs pārsniedz 0,2 ‰ vai kurš atrodas apreibinošu vielu ietekmē, var piemērot naudas sodu līdz 700 €; atteikties no pārbaudes aizliegts. Sodi: līdz 700 € (piem., lidojot bez obligātās apdrošināšanas), līdz 1000 € par pieļaujamā augstuma vai lidlauka zonas prasību pārkāpumu."
       ],
       "importantNotes": [
         "Apdrošināšana obligāta, izņemot dronus < 250 g ar maks. ātrumu < 19 m/s; minimums A1/A2 — 50 000 €, no 20 kg un specifiskajā kategorijā — 750 000 SDR",
-        "Virs tiltiem, dzelzceļiem, valsts autoceļiem un 110/330 kV elektrolīnijām var būt UAS ģeogrāfiskās zonas (līdz 50 m) — pārbaudiet airspace.lv",
+        "Virs tiltiem, dzelzceļiem, valsts autoceļiem un 110/330 kV elektrolīnijām var būt UAS ģeogrāfiskās zonas (līdz 50 m) — pārbaudi airspace.lv",
         "Rīgas lidostas CTR (kontrolētā gaisa telpa) aptver lielu daļu Rīgas — bez saskaņošanas ar LGS tikai zemāk par 50 m un ārpus 5 km no skrejceļu 18/36 sliekšņiem; dronam virs 2 kg nepieciešama papildu kvalifikācija",
         "Gar Baltkrievijas un Krievijas robežu ir ierobežotā zona EVR17A BORDER EAST (no zemes līdz 500 ft, darbības laiks H24). Dronu lidojumi tajā (arī < 250 g) atļauti tikai ar Valsts robežsardzes Aviācijas un speciālo operāciju pārvaldes atļauju, kas jāsaņem vismaz 24 stundas pirms plānotās lidojuma dienas (dokumenti jāiesniedz vismaz 32 stundas iepriekš).",
         "VDAR (GDPR) attiecas uz identificējamu personu filmēšanu un fotografēšanu"
@@ -9284,7 +9284,7 @@
         "A MyDroneSpace alkalmazás minden repüléshez kötelező",
         "A nyílt kategóriában a drónt saját, szabad szemmel történő közvetlen látótávolságon belül kell tartania (szemüveg/kontaktlencse rendben van; távcső vagy képernyő nem számít) — vagy megfigyelő segítségét igénybe véve, akivel mindvégig egyértelmű és hatékony kommunikációt tart fenn, hogy együtt figyelemmel kísérhessék a légteret és elkerüljék az ütközéseket. A „follow-me” mód külön kivétel, amely a pilótától számított 50 m-en belül engedélyezett.",
         "Ne repüljön emberek csoportjai felett! A nem érintett személyekre vonatkozó szabályok az alkategóriától, az osztályjelöléstől és az üzemeltetési feltételektől függenek; kérjük, ellenőrizze a hivatalos táblázatot.",
-        "Nincs egységes, uniós szintű távolság, amelyet a repülőterektől tartani kell. A repülőterek közelében érvényes korlátozásokat földrajzi zónaként teszik közzé (15. cikk), amelyek alakja és mérete repülőterenként eltér. Mielőtt repülőtér, leszállóhely vagy helikopterleszálló közelében repülne, ellenőrizze országa hivatalos drónzóna-térképét; az ellenőrzött zónában (CTR) való repülés általában a légiforgalmi irányítás előzetes engedélyét igényli.",
+        "Nincs egységes, uniós szintű távolság, amelyet a repülőterektől tartani kell. A repülőterek közelében érvényes korlátozásokat földrajzi zónaként teszik közzé (15. cikk), amelyek alakja és mérete repülőterenként eltér. Mielőtt repülőtér, leszállóhely vagy helikopterleszálló közelében repülne, ellenőrizze a hivatalos drónzóna-térképet; az ellenőrzött zónában (CTR) való repülés általában a légiforgalmi irányítás előzetes engedélyét igényli.",
         "Budapest CTR-ben az LHBP No Drone Zone-on kívül, valamint a kecskeméti, szolnoki és pápai katonai irányítói körzetben (MCTR) a No Drone Zone-okon kívül légiforgalmi irányítói engedély nélkül legfeljebb 40 m-ig repülhetsz a talaj felett; a No Drone Zone-okban tilos repülni. ATZ nélküli repülőterek vonatkoztatási pontjától 2 km-en, mentőhelikopter-leszállóhelyektől 750 m-en belül csak a repülőtér üzemben tartójának hozzájárulásával repülhetsz, és ezt legalább 2 nappal előre be kell jelentened a légiközlekedési hatóságnak.",
         "Tilos drónnal repülni a kiemelt nemzeti emlékhely (az Országház és a Kossuth tér környéke), a kijelölt védett létesítmények és az állam működése szempontjából kiemelten fontos létesítmények 300 méteres körzete felett; a kijelölt kritikus és védelmi infrastruktúra 300 méteres körzete felett is tilos, kivéve az üzemeltető engedélyével. Tiltott (P) légtérben tilos repülni, korlátozott (R) légtérben csak az arra vonatkozó szabályok szerint."
       ],
@@ -9615,7 +9615,7 @@
         "Silnice (zóna LKR317): u dálnic a silnic I. třídy zpravidla do 50 m od osy jen se souhlasem ŘSD, u silnic II. a III. třídy zpravidla do 15 m od osy jen se souhlasem vlastníka nebo správce komunikace",
         "Pokuty až 3 000 000 Kč (≈ 120 000 €)",
         "Praha: zakázané prostory pro drony LKP1 PRAŽSKÝ HRAD, LKP329 VLTAVA a LKP330 DEJVICE – let jen s povolením ÚCL a souhlasem policie",
-        "GDPR platí při pořizování identifikovatelných snímků"
+        "GDPR platí při pořizování snímků identifikovatelných osob"
       ],
       "lastVerified": "2026-09-23",
       "verifiedBy": "ÚCL (official sources)",
@@ -10261,7 +10261,7 @@
         "Irish EASA registration is valid across all EU member states",
         "In the open category, keep the drone within your own unaided visual line of sight (glasses/contacts are fine; binoculars or a screen don't count) — or fly with an observer's help, keeping clear and effective communication between you at all times, so together you can watch the airspace and avoid collisions. Follow-me mode is a separate exception, allowed up to 50 m from the pilot.",
         "There is no single blanket distance from people in Ireland. What applies depends on your drone's class marking and subcategory: in A1 you may fly close to people but must avoid overflying uninvolved persons; in A2 you must keep at least 30 m horizontally from uninvolved persons (5 m in low-speed mode with a C2 drone); in A3 you must be at least 150 m from residential, commercial, industrial and recreational areas with no uninvolved persons in the operating area. Never fly over assemblies of people.",
-        "There is no single EU-wide distance you must keep from airports. Restrictions near airports are published as geographic zones (Article 15) whose shape and size vary from airport to airport. Before flying anywhere near an airport, airfield or heliport, check your country's official drone-zone map; flying inside a control zone (CTR) normally requires prior authorisation from air traffic control.",
+        "There is no single EU-wide distance you must keep from airports. Restrictions near airports are published as geographic zones (Article 15) whose shape and size vary from airport to airport. Before flying anywhere near an airport, airfield or heliport, check the official drone-zone map; flying inside a control zone (CTR) normally requires prior authorisation from air traffic control.",
         "Phoenix Park (Dublin): drone flight requires prior permission from the Department of Justice (coflights@justice.ie) — it cannot be granted in the air",
         "Ireland's national parks are State land where, on top of the EASA/IAA aviation rules that apply everywhere, the park's own visitor rules apply: flying is not permitted without a permit from the park, and Killarney does not allow recreational drone flying at all."
       ],
@@ -10270,7 +10270,7 @@
         "Northern Ireland is part of the UK — completely different rules (UK CAA, not IAA/EASA)",
         "Restriction zones around airports vary in size; the zone around Dublin Airport covers significant portions of the city. Check the official Irish drone map before flying near an airport.",
         "Flying without authorization in red zones is a criminal offence",
-        "GDPR applies when capturing identifiable images — you are a data controller"
+        "GDPR applies when capturing images of identifiable individuals — you are a data controller"
       ],
       "lastVerified": "2026-08-26",
       "verifiedBy": "IAA (official sources) + audit 2026-08-26",
@@ -10598,7 +10598,7 @@
         "Seguro obrigatório para drones com mais de 900 g",
         "É proibido sobrevoar instalações militares, prisões e embaixadas; o voo em áreas sob jurisdição militar carece de autorização da AAN.",
         "Época de fogos florestais: podem aplicar-se restrições adicionais ao uso de drones",
-        "O RGPD aplica-se à captação de imagens identificáveis"
+        "O RGPD aplica-se à captação de imagens de pessoas identificáveis"
       ],
       "lastVerified": "2026-08-26",
       "verifiedBy": "ANAC (official sources) + audit 2026-08-26",
@@ -12344,7 +12344,7 @@
         "Københavns Lufthavns CTR dækker størstedelen af centrale København.",
         "Grønland og Færøerne: særskilt regulering gælder.",
         "Bøder og strafferetlig forfølgelse er mulige ved overtrædelser.",
-        "GDPR gælder, når der optages genkendelige billeder.",
+        "GDPR gælder, når der optages billeder af genkendelige personer.",
         "Kommende krav: Trafikstyrelsen har sendt en ændring af dronebekendtgørelsen i høring, som stiller krav om Remote-ID eller anden fjernidentifikation for alle droner over 250 g — og for droner under 250 g med sensor i visse dronezoner. Forventet ikrafttræden 1. januar 2027."
       ],
       "lastVerified": "2026-08-26",
@@ -13001,7 +13001,7 @@
         "Taxa de înregistrare ca operator UAS este de 20 € conform Ordinului MTI nr. 1280/2021; AACR nu publică tariful pe pagina principală — plata se face în platforma online uas.caa.ro.",
         "Zborul recreativ în oraș nu este interzis prin lege, dar în practică majoritatea centrelor urbane se află într-o zonă restricționată ROMATSA care începe de la sol (GND–120 m AGL) — planifică cererea de autorizare (de regulă aviz MApN, aerofoto@mapn.ro) din timp.",
         "Zona de excludere de 30 km vizează granița cu Ucraina (Dobrogea de Nord), prin ordin comun MApN–MTI din septembrie 2023",
-        "GDPR se aplică la capturarea de imagini identificabile",
+        "GDPR se aplică la capturarea de imagini cu persoane identificabile",
         "Certificatele de înregistrare și A1/A3 emise de un alt stat membru UE/SEE sunt valabile în România, fără a fi necesară o nouă înregistrare — conform principiului de recunoaștere reciprocă din Regulamentul UE 2019/947."
       ],
       "lastVerified": "2026-08-26",
@@ -14304,7 +14304,7 @@
         "El registro en AESA es gratuito y válido en todos los países de la UE/EASA.",
         "Las multas oscilan entre 60 € y 225 000 € según la gravedad (Ley 21/2003 de Seguridad Aérea).",
         "Bases militares y edificios gubernamentales: zonas de exclusión aérea absolutas.",
-        "Se aplica el RGPD al captar imágenes identificables."
+        "Se aplica el RGPD al captar imágenes de personas identificables."
       ],
       "lastVerified": "2026-08-26",
       "verifiedBy": "AESA (official sources) + audit 2026-08-26",
@@ -15001,7 +15001,7 @@
         "Règle nationale (arrêté « Espace », art. 5 et 6) : en catégorie Ouverte, le vol au-dessus de l'espace public en agglomération — rues, places, parcs et jardins publics, plages, promenades — n'est autorisé que (i) dans le cadre de l'activité professionnelle de l'exploitant, avec en zone peuplée une déclaration préalable au préfet via AlphaTango (CERFA 15476) au moins dix jours ouvrables avant le vol, pouvant entraîner une interdiction ou une restriction ; ou (ii) aux lieux où le préfet autorise les vols en catégorie ouverte ou en aéromodélisme. Pour le loisir, cela exclut de fait l'espace public des villes et villages — pas seulement Paris.",
         "Dans la catégorie ouverte, gardez le drone dans votre propre champ de vision direct, à l'œil nu (lunettes/lentilles correctives autorisées ; jumelles ou écran ne comptent pas) — ou faites-vous assister par un observateur, avec une communication claire et efficace entre vous à tout moment, afin de surveiller ensemble l'espace aérien et d'éviter les collisions. Le mode « follow-me » est une exception distincte, autorisée jusqu'à 50 m du télépilote.",
         "Ne survolez pas les rassemblements de personnes. Les règles applicables aux personnes non concernées dépendent de la sous-catégorie, de la marque de classe et des conditions d'exploitation ; consultez le tableau officiel.",
-        "Il n'existe pas de distance unique à respecter vis-à-vis des aéroports à l'échelle de l'UE. Les restrictions à proximité des aéroports sont publiées sous forme de zones géographiques (article 15) dont la forme et la taille varient d'un aéroport à l'autre. Avant de voler à proximité d'un aéroport, d'un aérodrome ou d'un héliport, consultez la carte officielle des zones pour drones de votre pays ; voler dans une zone de contrôle (CTR) nécessite normalement une autorisation préalable du contrôle aérien.",
+        "Il n'existe pas de distance unique à respecter vis-à-vis des aéroports à l'échelle de l'UE. Les restrictions à proximité des aéroports sont publiées sous forme de zones géographiques (article 15) dont la forme et la taille varient d'un aéroport à l'autre. Avant de voler à proximité d'un aéroport, d'un aérodrome ou d'un héliport, consultez la carte officielle des zones pour drones ; voler dans une zone de contrôle (CTR) nécessite normalement une autorisation préalable du contrôle aérien.",
         "En France, le vol de nuit est interdit en catégorie Ouverte, même si l'aéronef est équipé de dispositifs d'éclairage (guide DSAC « Catégorie Ouverte », §7). L'interdiction porte sur la « nuit aéronautique » : en métropole, elle commence 30 minutes après le coucher du soleil et se termine 30 minutes avant le lever du soleil. Des dérogations peuvent être accordées par le préfet territorialement compétent, à demander au moins 30 jours avant les vols ; certains sites d'aéromodélisme publiés font aussi exception.",
         "Catégorie Spécifique : scénarios européens STS-01 / STS-02 remplacent les anciens scénarios français S-1/S-2/S-3 (supprimés en 2026)",
         "Parcs nationaux et réserves naturelles : les parcs et réserves interdits de survol sont publiés par la voie de l'information aéronautique (AIP ENR 5.7.3) et figurent sur la carte Géoportail. Dans le cœur d'un parc national, le survol à une hauteur inférieure à 1 000 m du sol est interdit par la réglementation propre à chaque parc, et la dérogation relève du directeur du parc — ni de la préfecture ni du contrôle aérien (code de l'environnement art. L331-4-1). En dehors de ces parcs et réserves, le survol d'autres espaces protégés (Espaces Naturels Sensibles, zones Natura 2000, etc.) n'est habituellement pas interdit ; il peut l'être de façon temporaire par arrêté préfectoral."
@@ -15011,7 +15011,7 @@
         "Paris : tous les vols en extérieur sont interdits, même dans les espaces privés — Paris est à la fois une agglomération et un espace aérien « interdit » (zone P 23)",
         "Amendes jusqu’à 75 000 € et 1 an d’emprisonnement pour les infractions graves",
         "Le survol des sites nucléaires, zones militaires et prisons constitue une infraction pénale",
-        "Le RGPD s’applique lors de la capture d’images identifiables — vous êtes responsable du traitement des données"
+        "Le RGPD s’applique lors de la capture d’images de personnes identifiables — vous êtes responsable du traitement des données"
       ],
       "lastVerified": "2026-08-26",
       "verifiedBy": "DGAC + Service Public.fr + Géoportail + audit 2026-08-26",
@@ -15332,7 +15332,7 @@
         "Assicurazione obbligatoria con copertura minima di 750.000 DSP (Diritti Speciali di Prelievo)",
         "Roma: il centro città è una no-fly zone per motivi di sicurezza, in cui il sorvolo è vietato a tutti gli aeromobili, droni inclusi; eventuali deroghe richiedono anche il nulla osta della Prefettura di Roma. Verifica sempre su D-Flight.",
         "Sanzioni amministrative (D.Lgs. 173/2017): da 1.000 a 10.000 € per il pilota (da 5.000 a 50.000 € per le operazioni a scopo commerciale), da 10.000 a 100.000 € per le organizzazioni; restano applicabili le disposizioni penali del Codice della Navigazione",
-        "Il GDPR si applica quando si riprendono immagini identificabili"
+        "Il GDPR si applica quando si riprendono immagini di persone identificabili"
       ],
       "lastVerified": "2026-09-23",
       "verifiedBy": "ENAC (official sources) + audit 2026-05-04",
@@ -16024,7 +16024,7 @@
         "Περιοχές όπως η Ακρόπολη, οι Δελφοί και η Ολυμπία εντάσσονται σε ζώνες Yellow/Magenta — οι πτήσεις επιτρέπονται υπό όρους ή απαγορεύονται πλήρως ανάλογα με τη συγκεκριμένη περιοχή, και απαιτείται προηγούμενη έγκριση από την ΑΠΑ τουλάχιστον 5 εργάσιμες ημέρες πριν.",
         "Στην ανοικτή κατηγορία, διατηρείτε το drone εντός της άμεσης οπτικής σας επαφής, με γυμνό μάτι (γυαλιά/φακοί επαφής επιτρέπονται· κιάλια ή οθόνη δεν μετρούν) — ή με τη βοήθεια ενός παρατηρητή, με σαφή και αποτελεσματική επικοινωνία μεταξύ σας ανά πάσα στιγμή, ώστε να παρακολουθείτε μαζί τον εναέριο χώρο και να αποφεύγετε συγκρούσεις. Η λειτουργία «follow-me» αποτελεί ξεχωριστή εξαίρεση, επιτρεπτή έως 50 m από τον χειριστή.",
         "Μην πετάτε πάνω από συγκεντρώσεις ανθρώπων. Οι κανόνες για τα μη εμπλεκόμενα άτομα εξαρτώνται από την υποκατηγορία, το σήμα κλάσης και τις συνθήκες λειτουργίας· ανατρέξτε στον επίσημο πίνακα.",
-        "Δεν υπάρχει ενιαία απόσταση σε επίπεδο ΕΕ που πρέπει να τηρείτε από τα αεροδρόμια. Οι περιορισμοί κοντά σε αεροδρόμια δημοσιεύονται ως γεωγραφικές ζώνες (άρθρο 15), το σχήμα και το μέγεθος των οποίων διαφέρουν από αεροδρόμιο σε αεροδρόμιο. Πριν πετάξετε κοντά σε αεροδρόμιο, πεδίο προσγείωσης ή ελικοδρόμιο, ελέγξτε τον επίσημο χάρτη ζωνών drone της χώρας σας· η πτήση εντός ζώνης ελέγχου (CTR) απαιτεί κανονικά προηγούμενη άδεια από τον έλεγχο εναέριας κυκλοφορίας.",
+        "Δεν υπάρχει ενιαία απόσταση σε επίπεδο ΕΕ που πρέπει να τηρείτε από τα αεροδρόμια. Οι περιορισμοί κοντά σε αεροδρόμια δημοσιεύονται ως γεωγραφικές ζώνες (άρθρο 15), το σχήμα και το μέγεθος των οποίων διαφέρουν από αεροδρόμιο σε αεροδρόμιο. Πριν πετάξετε κοντά σε αεροδρόμιο, πεδίο προσγείωσης ή ελικοδρόμιο, ελέγξτε τον επίσημο χάρτη ζωνών drone· η πτήση εντός ζώνης ελέγχου (CTR) απαιτεί κανονικά προηγούμενη άδεια από τον έλεγχο εναέριας κυκλοφορίας.",
         "Οι νυχτερινές πτήσεις επιτρέπονται σύμφωνα με τις βασικές προδιαγραφές της ανοικτής κατηγορίας της EASA, υπό την προϋπόθεση ότι χρησιμοποιείται το απαιτούμενο πράσινο αναλαμπικό φως, εκτός εάν ισχύει κάποιος γεωγραφικός περιορισμός ή εθνικός κανόνας που επιβάλλει αυστηρότερους όρους.",
         "Νησιωτικά αεροδρόμια: έλεγξε προσεκτικά τον χάρτη DAGR – πολλά νησιά έχουν μεγάλες ζώνες ελέγχου (CTR)."
       ],
@@ -16925,7 +16925,7 @@
       "flagEmoji": "🇸🇪",
       "hasAirspaceOverlay": true,
       "airspaceButtonLabel": "Luftrum",
-      "linksSheetTitle": "Luftrum & regler",
+      "linksSheetTitle": "Luftrum & regler — Sverige",
       "verificationWord": "Kontrollerad",
       "sectionLabelPrimary": "OFFICIELLA KÄLLOR",
       "sectionLabelSecondary": "AVANCERAT / SPECIELLA FALL",
@@ -17927,7 +17927,7 @@
           "url": "https://pappilappi.com/airspace/no-nsm-sensor.geojson",
           "ttlMinutes": 10080,
           "label": "no-nsm-sensor",
-          "sourceLabel": "NSM forbudsområder (Nasjonal sikkerhetsmyndighet)",
+          "sourceLabel": "NSM-forbudsområder (Nasjonal sikkerhetsmyndighet)",
           "authority": "Nasjonal sikkerhetsmyndighet (NSM)"
         }
       ]
@@ -19683,7 +19683,7 @@
       "sectionLabelPrimary": "ОФІЦІЙНІ ДЖЕРЕЛА",
       "sectionLabelRules": "ВАЖЛИВА ІНФОРМАЦІЯ",
       "sectionLabelSecondary": "ДОДАТКОВО",
-      "linksSheetTitle": "Посилання та правила",
+      "linksSheetTitle": "Посилання та правила — Україна",
       "dronePilotCredentialName": "Посвідчення пілота дрона",
       "compassBearings": [
         "Пн",
