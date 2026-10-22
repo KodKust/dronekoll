@@ -24,10 +24,17 @@ const { lang } = Astro.props;
 // Text per målspråk (fallback en hanteras av t()). REPO-A11Y-02: stäng-
 // etiketten måste också vara på MÅLSPRÅKET (hela bannern är det) — inte den
 // bokstavliga symbolen "✕", som skärmläsare läser upp olika/obegripligt.
+// Språknamnet står i LÖPTEXT i mallen ("disponible en {language}", "på
+// {language}") — de här språken skriver språknamn med gemen där, medan
+// LANGUAGES bär menyformen med versal (Français, Svenska). Övriga mallar
+// sätter namnet efter kolon, i citattecken eller i språk som versaliserar
+// språknamn (de, nl, mt, tr, en) och lämnas orörda. Språkgranskningen 2026-10-21.
+const LOWERCASE_IN_RUNNING_TEXT = new Set(['sv', 'no', 'da', 'fr', 'es', 'it', 'pt', 'hu', 'lt', 'ro', 'bg']);
 const texts: Record<string, { text: string; close: string }> = {};
 for (const code of LANGUAGE_CODES) {
+  const language = LOWERCASE_IN_RUNNING_TEXT.has(code) ? LANGUAGES[code].toLowerCase() : LANGUAGES[code];
   texts[code] = {
-    text: t('langbanner.text', code, { language: LANGUAGES[code] }),
+    text: t('langbanner.text', code, { language }),
     close: t('langbanner.close', code),
   };
 }

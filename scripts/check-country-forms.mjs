@@ -51,6 +51,8 @@ const PREPOSITIONS = {
   nl: ['in', 'op'], // ö-stater tar 'op' (op Malta, op IJsland, op de Filipijnen)
   de: ['in', 'im', 'auf'], // ö-stater tar 'auf' (auf Malta, auf den Philippinen)
   sv: ['i', 'på'], // ö-stater tar 'på' (på Island, på Malta, på Cypern, på Filippinerna)
+  da: ['i', 'på'], // dansk: på Island, på Malta, på Cypern; i Filippinerne, i New Zealand
+  no: ['i', 'på'], // bokmål: på Island, på Malta, på Kypros, på Filippinene, på New Zealand
 };
 
 function loadNames(lang) {

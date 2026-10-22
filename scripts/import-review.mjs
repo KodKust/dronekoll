@@ -102,7 +102,14 @@ const norm = (s) => s.replace(/[\s.,]/g, '');
  */
 const splitRanges = (t) => String(t).replace(/[-–—−]/g, '|');
 
-const NUM_TOKEN = /\d{1,3}(?:[  ](?=\d{3}\b)\d{3})*(?:[.,]\d+)?|\d+(?:[.,]\d+)?/g;
+/**
+ * Tusentalsgruppen kräver MINST en grupp (+, inte *). Med * matchade första
+ * alternativet "120" i "1200 g" (och lämnade "0"), medan measures() via sin
+ * enhets-lookahead backade till andra alternativet och fick "1200" — samma tal
+ * tokeniserades olika på de två sidorna, och varje rättelse som bar ett
+ * fyrsiffrigt mätvärde avvisades som "mätvärde borta" (pt SI 2026-10-21).
+ */
+const NUM_TOKEN = /\d{1,3}(?:[  ](?=\d{3}\b)\d{3})+(?:[.,]\d+)?|\d+(?:[.,]\d+)?/g;
 function numbers(t) {
   return new Set([...splitRanges(t).matchAll(NUM_TOKEN)].map((m) => norm(m[0])));
 }
