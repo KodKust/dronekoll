@@ -14,7 +14,8 @@ import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
 import BenefitGrid from '../../../../components/BenefitGrid.astro';
 import FaqBlock from '../../../../components/FaqBlock.astro';
 import AppCta from '../../../../components/AppCta.astro';
-import { loadFeatures, featureLangs, featureCluster, brandForLang, siteCounts, SITE, hubPath } from '../../../../lib/model';
+import { loadFeatures, featureLangs, featureCluster, brandForLang, siteCounts, countriesForLang, SITE, hubPath } from '../../../../lib/model';
+import CountryGrid from '../../../../components/CountryGrid.astro';
 import { t } from '../../../../lib/i18n';
 import { breadcrumbLd, faqLd, softwareAppLd, webPageLd, organizationLd, type FaqItem } from '../../../../lib/seo';
 import type { PageEntry } from '../../../../lib/model';
@@ -55,6 +56,32 @@ for (const n of [1, 2, 3, 4]) {
   const a = t(`feat.${feature}.faq${n}.a`, lang, vars);
   if (!q.startsWith('feat.') && !a.startsWith('feat.')) faqItems.push({ q, a });
 }
+
+// Landslista (SEO 2026-10-22): funktionssidorna var ~250 ord × 27 språk utan en
+// enda länk till landssidorna, och Search Console sköt upp /app/map/ i 23 språk.
+// Kartsidan listar de länder som HAR zonlager (svaret på faq3 »Vilka länder
+// omfattar zonkartan?« — rubriken återanvänds), resesidan alla länder. Varje
+// kort är en brödtextlänk till landssidan på sidans språk. Rubrikerna är
+// befintliga strängar — ingen ny text. Siffran styrs av datan, inte av prosa.
+// Bokstavsordning på sidans språk som på hubben (R1 J1 22/10: ISO-ordning gav
+// »Förenade Arabemiraten, Argentina, Österrike …«). filter() ger en ny array —
+// ingen cache muteras av sort().
+const byName = (pages: PageEntry[]) =>
+  [...pages].sort((a, b) => a.displayName.localeCompare(b.displayName, lang));
+const countryList: { heading: string; pages: PageEntry[] } | null = (() => {
+  if (feature === 'map') {
+    const faqHeading = t('feat.map.faq3.q', lang, vars);
+    return {
+      heading: faqHeading.startsWith('feat.') ? t('map.title', lang) : faqHeading,
+      pages: byName(countriesForLang(lang).filter((p) => p.country.hasAirspaceOverlay)),
+    };
+  }
+  if (feature === 'travel') {
+    return { heading: t('nav.allCountries', lang), pages: byName(countriesForLang(lang)) };
+  }
+  return null;
+})();
+const hasCountryList = !!countryList && countryList.pages.length > 0;
 
 const deviceImage = existsSync(
   join(process.cwd(), 'public', 'device', feature, `${lang}.webp`),
@@ -139,9 +166,21 @@ const ldBlocks = [
     </div>
   </section>
 
+  {/* ── Landslista (kartsidan: zonlager-länder, resesidan: alla) ─────── */}
+  {hasCountryList && countryList && (
+    <section class="band band--paper" aria-labelledby="countries-heading">
+      <div class="content">
+        <h2 class="section-title" id="countries-heading">{countryList.heading}</h2>
+        <CountryGrid lang={lang} pages={countryList.pages} />
+      </div>
+    </section>
+  )}
+
   {/* ── FAQ ──────────────────────────────────────────────────────────── */}
+  {/* Bandrytmen (paper/canvas växelvis) hålls när landslistan skjuts in:
+      FAQ och CTA byter ton på just de sidor som bär listan. */}
   {faqItems.length > 0 && (
-    <section class="band band--paper">
+    <section class={`band ${hasCountryList ? 'band--canvas' : 'band--paper'}`}>
       <div class="content">
         <h2 class="section-title">{t('faq.title', lang)}</h2>
         <FaqBlock items={faqItems} />
@@ -150,7 +189,7 @@ const ldBlocks = [
   )}
 
   {/* ── CTA ──────────────────────────────────────────────────────────── */}
-  <section class="band band--canvas">
+  <section class={`band ${hasCountryList ? 'band--paper' : 'band--canvas'}`}>
     <div class="wide">
       <AppCta lang={lang} />
     </div>
