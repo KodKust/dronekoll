@@ -260,8 +260,22 @@ export function countriesForLang(lang: string): PageEntry[] {
  * överlappar/angränsar) — robust mot öterritorier som annars drar centroiden
  * ut i havet (PT:s bbox rymmer Azorerna → centroid mitt i Atlanten). Centroid-
  * avstånd bara som tiebreak mellan angränsande länder.
+ *
+ * INKOMMANDE GARANTI (SEO 2026-10-22): grannskapet är inte symmetriskt — Malta
+ * och Sydafrika valde sina fyra grannar men ingen valde dem tillbaka, Island/
+ * Nya Zeeland/Kanada fick en enda länk. Search Console 22/10 visade att just de
+ * sidorna låg i »Upptäckt – inte indexerad« (Malta i 14 av 27 språk). Därför
+ * fylls listorna på så att VARJE land länkas från minst MIN_INBOUND andra
+ * landssidor på samma språk: ett underlänkat land läggs till hos sina närmaste
+ * grannar (max MAX_RELATED kort per sida). Deterministiskt: samma data → samma
+ * listor på alla språk.
  */
-export function relatedCountries(page: PageEntry, n = 4): PageEntry[] {
+const MIN_INBOUND = 3;
+const MAX_RELATED = 6;
+const _relatedByLang = new Map<string, Map<string, PageEntry[]>>();
+
+/** Alla andra länder på språket, närmast först (bbox-kantavstånd, centroid som tiebreak). */
+function nearestCountries(page: PageEntry): PageEntry[] {
   const a = page.country;
   const acx = (a.latMin + a.latMax) / 2;
   const acy = (a.lonMin + a.lonMax) / 2;
@@ -278,9 +292,41 @@ export function relatedCountries(page: PageEntry, n = 4): PageEntry[] {
       const cent = ((b.latMin + b.latMax) / 2 - acx) ** 2 + ((b.lonMin + b.lonMax) / 2 - acy) ** 2;
       return { p, edge, cent };
     })
-    .sort((x, y) => x.edge - y.edge || x.cent - y.cent)
-    .slice(0, n)
+    .sort((x, y) => x.edge - y.edge || x.cent - y.cent || x.p.iso.localeCompare(y.p.iso))
     .map((x) => x.p);
+}
+
+function relatedMapFor(lang: string, n: number): Map<string, PageEntry[]> {
+  const key = `${lang}:${n}`;
+  const cached = _relatedByLang.get(key);
+  if (cached) return cached;
+
+  const pages = [...countriesForLang(lang)].sort((a, b) => a.iso.localeCompare(b.iso));
+  const lists = new Map<string, PageEntry[]>();
+  const inbound = new Map<string, number>();
+  for (const p of pages) {
+    lists.set(p.iso, nearestCountries(p).slice(0, n));
+    inbound.set(p.iso, 0);
+  }
+  for (const list of lists.values())
+    for (const p of list) inbound.set(p.iso, (inbound.get(p.iso) ?? 0) + 1);
+
+  // Fyll på: underlänkade länder i ISO-ordning, hos sina närmaste grannar först.
+  for (const p of pages) {
+    for (const neighbour of nearestCountries(p)) {
+      if ((inbound.get(p.iso) ?? 0) >= MIN_INBOUND) break;
+      const list = lists.get(neighbour.iso)!;
+      if (list.length >= MAX_RELATED || list.some((x) => x.iso === p.iso)) continue;
+      list.push(p);
+      inbound.set(p.iso, (inbound.get(p.iso) ?? 0) + 1);
+    }
+  }
+  _relatedByLang.set(key, lists);
+  return lists;
+}
+
+export function relatedCountries(page: PageEntry, n = 4): PageEntry[] {
+  return relatedMapFor(page.lang, n).get(page.iso) ?? nearestCountries(page).slice(0, n);
 }
 
 /**

@@ -376,6 +376,61 @@ for (const f of ['privacy.html', 'google7779d86ca4c6fa72.html']) {
     ok(`Rubrikstruktur hel — inga trasiga aria-referenser, inga id-dubbletter (${n} sidor)`);
 }
 
+// ── 9b. Intern länkning: grannblocket ≥ 3 inkommande per land, landslistan på
+// kartsidan = zonlager-länderna (SEO-vågen 2026-10-22, R1 J2) ─────────────────
+// Search Console 22/10: Malta och Sydafrika hade NOLL länkar från andra
+// landssidor (grannblocket var osymmetriskt) och låg i »Upptäckt – inte
+// indexerad« i 14 av 27 språk. relatedCountries garanterar nu ≥3 inkommande
+// per land och språk, och /app/map/ listar alla länder med zonlager. Utan vakt
+// var båda byggen gröna — med och utan vågen. Räknas i renderad HTML, per språk.
+{
+  const MIN_INBOUND = 3;
+  const inbound = new Map(); // "lang|/lang/slug/" -> antal landssidor som länkar dit i #related
+  const countryUrls = new Set();
+  let mapPages = 0;
+  const mapBad = [];
+  const overlayIsos = countriesFile
+    ? new Set(
+        countriesFile.countries
+          .filter((c) => c.hasAirspaceOverlay && slugIsos.includes(c.isoCode.toUpperCase()))
+          .map((c) => c.isoCode.toUpperCase()),
+      )
+    : null;
+  for (const [fullUrl, html] of pageByUrl) {
+    const url = fullUrl.slice(SITE.length); // pageByUrl nycklas med absolut URL
+    const m = url.match(/^\/([a-z]{2})\/([^/]+)\/$/);
+    if (m && !['app', 'how-we-verify'].includes(m[2]) && /id="rules"/.test(html)) {
+      countryUrls.add(url);
+      const rel = html.match(/id="related"[\s\S]*?<\/section>/);
+      if (!rel) continue;
+      for (const h of rel[0].matchAll(/cgrid__card" href="([^"]+)"/g)) {
+        if (h[1] === url) fail(`Grannblock: ${url} länkar till sig själv`);
+        inbound.set(h[1], (inbound.get(h[1]) ?? 0) + 1);
+      }
+    }
+    const fm = url.match(/^\/([a-z]{2})\/app\/map\/$/);
+    if (fm && overlayIsos) {
+      mapPages++;
+      const sec = html.match(/id="countries-heading"[\s\S]*?<\/section>/);
+      const cards = sec ? [...sec[0].matchAll(/cgrid__card" href="/g)].length : 0;
+      if (cards !== overlayIsos.size) mapBad.push(`${url}: ${cards} kort, väntade ${overlayIsos.size}`);
+    }
+  }
+  const starved = [...countryUrls].filter((u) => (inbound.get(u) ?? 0) < MIN_INBOUND);
+  if (countryUrls.size < 1000) fail(`Grannblocksvakt nådde bara ${countryUrls.size} landssidor — mönstret trasigt?`);
+  else if (starved.length) {
+    fail(`Grannblock: ${starved.length} landssidor har < ${MIN_INBOUND} inkommande grannlänkar`);
+    for (const u of starved.slice(0, 8)) console.error(`  ${u}: ${inbound.get(u) ?? 0}`);
+  } else ok(`Grannblock: alla ${countryUrls.size} landssidor har ≥ ${MIN_INBOUND} inkommande grannlänkar på sitt språk`);
+  if (overlayIsos) {
+    if (mapPages === 0) fail('Kartsidans landslista: ingen /app/map/-sida hittad');
+    else if (mapBad.length) {
+      fail(`Kartsidans landslista: ${mapBad.length} sidor avviker från ${overlayIsos.size} zonlager-länder`);
+      for (const b of mapBad.slice(0, 5)) console.error(`  ${b}`);
+    } else ok(`Kartsidans landslista: ${mapPages}/${mapPages} /app/map/ listar ${overlayIsos.size} zonlager-länder`);
+  }
+}
+
 // ── 10. Sitemapen får bara innehålla kanoniska URL:er ───────────────────────
 // En sitemap är en lista över sidor vi BER Google indexera. Står där en sida
 // som samtidigt säger "originalet finns någon annanstans" ger vi två motstridiga

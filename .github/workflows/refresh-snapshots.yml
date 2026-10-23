@@ -26,6 +26,9 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: 22
+          # Astro 7.4 kräver Node ≥ 22.23.4; runnerns cache gav 22.23.3 22/10 (deploy 39843048260
+          # föll) medan föregående runner hade 22.23.4. check-latest hämtar alltid senaste 22.x.
+          check-latest: true
 
       - name: Hämta färsk data till live/
         run: node scripts/fetch-data.mjs
