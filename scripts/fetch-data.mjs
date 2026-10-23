@@ -41,6 +41,12 @@ const SOURCES = [
     url: `https://gist.githubusercontent.com/KodKust/830c9b410d257ea5e13f8cff07473aa2/raw/tour_strings.json?cb=${cb}`,
   },
   {
+    // Zonreglerna (appens airspace_rules.json) — källa för resident-cellernas
+    // regelöversättningar (CH fr/it, 2026-10-22; src/lib/resident.ts).
+    name: 'airspace_rules.json',
+    url: `https://gist.githubusercontent.com/KodKust/dd9d6be7635b53f6dbcb18d7ec0067ea/raw/airspace_rules.json?cb=${cb}`,
+  },
+  {
     name: 'schema_baseline.json',
     url: `https://pappilappi.com/status/schema_baseline.json?cb=${cb}`,
   },

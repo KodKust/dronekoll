@@ -1,0 +1,217 @@
+{
+ "meta": {
+  "sourceHash": "99b6f00611c6d7f6d6d522c158eb6ee6",
+  "sourceLang": "de",
+  "engine": "opus-5-5",
+  "translatedAt": "2026-10-22",
+  "reviewLevel": "ai_qa"
+ },
+ "fields": {
+  "checklist": [
+   {
+    "title": "Inspection quotidienne",
+    "items": [
+     "Drone complet et sans dommages visibles",
+     "Hélices intactes et correctement montées",
+     "Caméra et capteurs propres",
+     "Batteries chargées, sans gonflement ni dommage",
+     "Carte mémoire insérée, avec suffisamment d'espace libre",
+     "Micrologiciel et application à jour",
+     "Radiocommande et écran fonctionnels"
+    ]
+   },
+   {
+    "title": "Avant le décollage",
+    "items": [
+     "Espace aérien vérifié sur la carte des drones de l'OFAC (map.geo.admin.ch)",
+     "Pas à moins de 5 km d'un aéroport ou d'un aérodrome",
+     "Pas dans le Parc national ni dans une réserve naturelle sans autorisation",
+     "Assurance responsabilité civile valable pour les drones de plus de 250 g (1 million CHF)",
+     "Enregistrement d'exploitant OFAC et certificat A1/A3 emportés",
+     "Routes d'hélicoptères en montagne prises en compte",
+     "Visibilité et luminosité suffisantes",
+     "Environnement évalué (personnes, véhicules, bâtiments)",
+     "Distance aux personnes non impliquées confirmée selon la sous-catégorie : A2 au moins 30 m (5 m avec le mode basse vitesse activé ≤ 3 m/s) et toujours au moins la hauteur de vol (règle 1:1), A3 au moins 150 m des zones résidentielles, commerciales, industrielles ou récréatives"
+    ]
+   },
+   {
+    "title": "Vérification du système",
+    "items": [
+     "Signal GPS suffisant (au moins 8 satellites)",
+     "Point de retour défini",
+     "État de la boussole sans avertissement",
+     "IMU/capteurs sans message d'erreur",
+     "Hauteur de retour automatique correctement réglée",
+     "Hauteur maximale réglée à 120 m ou moins",
+     "Caméra configurée (photo/vidéo/exposition)"
+    ]
+   },
+   {
+    "title": "Juste après le décollage",
+    "items": [
+     "Vol stationnaire stable confirmé",
+     "Réponse correcte aux commandes",
+     "Virage de test effectué",
+     "Données de télémétrie vérifiées (GPS, signal, batterie)"
+    ]
+   },
+   {
+    "title": "Pendant le vol",
+    "items": [
+     "Garder le drone en permanence à vue (VLOS)",
+     "Respecter la distance selon la sous-catégorie : A2 au moins 30 m des personnes non impliquées (5 m avec le mode basse vitesse activé ≤ 3 m/s) et toujours au moins la hauteur de vol (règle 1:1), A3 au moins 150 m des zones résidentielles, commerciales, industrielles ou récréatives",
+     "Surveiller les changements de vent",
+     "Prévoir le retour avec une réserve de batterie suffisante (>30 %)",
+     "Interrompre immédiatement le vol en cas d'avertissement technique"
+    ]
+   },
+   {
+    "title": "Après l'atterrissage",
+    "items": [
+     "Enregistrement arrêté",
+     "Drone et radiocommande éteints",
+     "Équipement vérifié (dommages ou surchauffe)",
+     "Niveau de batterie noté",
+     "Batteries rechargées si nécessaire",
+     "Vol documenté si nécessaire"
+    ]
+   }
+  ],
+  "onboarding": [
+   {
+    "title": "Tout ce dont tu as besoin dans les airs. Tout au même endroit.",
+    "body": ""
+   },
+   {
+    "title": "Tes données t'appartiennent",
+    "body": "Ton carnet de vol, ton {0} et ta position ne sont enregistrés que sur ton téléphone. Nous ne pouvons pas voir où tu voles — et nous ne le voulons pas.",
+    "tag": "Protection des données"
+   },
+   {
+    "title": "Peux-tu voler ici ?",
+    "body": "La carte des drones de l'OFAC en surcouche, mise à jour en continu, et les NOTAM — touche une zone pour avoir la réponse. En plus, une alerte push sur l'écran verrouillé quand des aéronefs approchent.",
+    "tag": "Espace aérien et alerte"
+   },
+   {
+    "title": "Ne laisse pas le vent emporter ton drone",
+    "body": "Infos vent et météo adaptées à ton modèle de drone — pour que tu saches quand décoller en toute sécurité.",
+    "tag": "Ton drone"
+   },
+   {
+    "title": "Ce n'est qu'un début",
+    "body": "Check-lists, carnets de vol, planification et bien plus encore t'attendent."
+   }
+  ],
+  "onboardingExtended": [
+   {
+    "title": "DrohnenKoll",
+    "body": "Sécurité · Simplicité · Contrôle"
+   },
+   {
+    "tag": "PROTECTION DES DONNÉES",
+    "title": "Tes données t'appartiennent",
+    "body": "Carnet de vol, {0} et position\nrestent uniquement sur ton téléphone.\nNous ne pouvons pas voir où tu voles —\net nous ne le voulons pas."
+   },
+   {
+    "tag": "SOURCES OFFICIELLES",
+    "title": "Pas d'amendes, pas d'erreurs",
+    "body": "Restrictions officielles directement sur la carte —\nmises à jour en temps réel par l'OFAC.\nNOTAM, zones de contrôle, interdictions de drones.\nVois d'un coup d'œil si ton emplacement\nse prête au vol."
+   },
+   {
+    "tag": "TON DRONE",
+    "title": "Ne laisse jamais le vent\nemporter ton drone",
+    "body": "L'app connaît la limite de vent et\nla classe IP de ton drone. En cas de dépassement,\ntu reçois une alerte avant le décollage.\nLe vent est mesuré à 10, 80 et 120 m."
+   },
+   {
+    "tag": "ALERTE DE VOL",
+    "title": "Sache que l'espace aérien\nest à toi",
+    "body": "Alerte en temps réel quand un avion ou\nun hélicoptère approche de ta position.\nJaune = attention  ·  Rouge = agis immédiatement.\nJamais de mauvaise surprise au-dessus de toi."
+   },
+   {
+    "tag": "CHECK-LIST",
+    "title": "Ne rate jamais rien\nde critique",
+    "body": "38 points à vérifier avant le décollage —\nespace aérien, GPS, vent, batteries, capteurs.\nN'hésite pas à ajouter tes propres points à vérifier.\nQuand on est pressé, on oublie des choses."
+   },
+   {
+    "tag": "CERTIFICAT ET CARNET",
+    "title": "Justificatif en poche\nquand on te le demande",
+    "body": "Police, propriétaire du terrain ou directeur des vols —\nton {0} est toujours disponible\nhors ligne dans l'app.\nLance le chrono au décollage — le temps de vol\nest enregistré avec la position et le drone."
+   },
+   {
+    "tag": "MÉTÉO",
+    "title": "Vent à plusieurs altitudes —\npas seulement au sol",
+    "body": "Le drone ne subit pas le même vent que toi.\nDrohnenKoll affiche le vent à 10, 80 et\n120 m de hauteur — là où le drone vole vraiment.\nAvec rafales et température en temps réel."
+   },
+   {
+    "tag": "PLANIFICATION",
+    "title": "Planifie ton vol\nà l'avance",
+    "body": "Chercher une adresse, placer des épingles, tracer des rayons de sécurité.\nDéfinis précisément où le drone doit voler\navant de décoller — et montre à tes amis ou\nà tes clients ce que tu prévois."
+   },
+   {
+    "title": "Prêt à voler en sécurité",
+    "body": "DrohnenKoll t'aide à voler de façon plus sûre — vérifie les règles officielles avant chaque décollage."
+   }
+  ],
+  "rules": {
+   "CTA_CH": {
+    "rule": "Région de contrôle (CTA) — espace aérien contrôlé autour des aérodromes. Sur la base de l'art. 40 LFG (LA) et de l'art. 2, al. 1 VFSD (OSNA), l'OFAC (Office fédéral de l'aviation civile) fixe la structure de l'espace aérien et les classes d'espace aérien. Le volume ne commence qu'à l'altitude indiquée pour la zone, et ces limites inférieures se situent bien au-delà de 120 m au-dessus du sol ; les vols de drones de la catégorie ouverte en dessous de 120 m se déroulent donc sous l'espace aérien contrôlé et ne sont en règle générale pas concernés par la zone. Toute montée dans cet espace aérien nécessite une coordination avec skyguide. Vérifie la tranche d'altitude indiquée pour la zone, les NOTAM et les autres zones sur place.",
+    "source": "OFAC — Régions de contrôle (CTA)"
+   },
+   "CTR": {
+    "rule": "Zone extérieure d'aérodrome. Selon l'OFAC, les drones de plus de 250 g y sont interdits sans autorisation. Moins stricte que la zone centrale, mais elle aussi proche de l'aérodrome — vérifie la règle exacte avant le décollage.",
+    "source": "OFAC — Restrictions pour drones (geo.admin.ch)"
+   },
+   "CTR_CH": {
+    "rule": "Zone de contrôle (CTR) autour d'un aérodrome. Pour les zones de contrôle suisses, l'OFAC (Office fédéral de l'aviation civile) indique : « L'exploitation d'aéronefs sans occupants d'un poids supérieur à 250 g est interdite à partir d'une hauteur de 120 m au-dessus du sol. » En dessous de 120 m, cette interdiction ne s'applique pas — d'autres zones, des NOTAM et des restrictions locales peuvent néanmoins s'appliquer au même endroit, et des règles propres peuvent exister à proximité immédiate de l'aérodrome. Les autorisations sont à demander à skyguide ; selon les données de la zone, la demande doit être déposée au moins 14 jours à l'avance. Si la zone s'étend au-delà de la frontière nationale, les règles du pays voisin s'appliquent à cette partie.",
+    "source": "OFAC — Zones de contrôle (CTR)"
+   },
+   "DNGA": {
+    "rule": "Infrastructure sensible (catégorie OFAC « Sensible ») — p. ex. prisons, centrales électriques ou hôpitaux. Les vols de drones y sont restreints ou interdits ; vérifie la restriction exacte sur la carte de l'OFAC.",
+    "source": "OFAC — Restrictions pour drones (geo.admin.ch)"
+   },
+   "JAGDBANN_CH": {
+    "rule": "District franc fédéral (protection de la faune sauvage). La carte des drones de l'OFAC (Office fédéral de l'aviation civile) indique pour ces zones : « L'exploitation d'aéronefs sans occupants est interdite. » L'interdiction est permanente et s'applique à tous les drones, quel que soit leur poids. Des autorisations exceptionnelles peuvent être demandées au service cantonal compétent ; selon les données de la zone, la demande doit être déposée au moins 10 jours avant le vol. Les cantons peuvent en outre édicter leurs propres règles, plus strictes.",
+    "source": "OFAC — Restrictions pour drones (geo.admin.ch) ; OFEV — Districts francs fédéraux (périmètres)"
+   },
+   "OBSTACLE_CH": {
+    "rule": "Obstacles à la navigation aérienne selon la VIL (OSIA, RS 748.131.1) : constructions et installations — notamment antennes, bâtiments, câbles, grues, installations à câbles, lignes à haute tension et éoliennes — susceptibles de gêner, de mettre en danger ou d'empêcher l'exploitation d'aéronefs ou d'installations de navigation aérienne. Le jeu de données n'est pas complet : les plantes en sont exclues, les obstacles ne sont recensés qu'à partir de 25 mètres hors des zones construites (grues mobiles à partir de 40 mètres) et à partir de 60 mètres dans les zones construites ; les obstacles importants pour la sécurité aux abords des aérodromes, en dessous de ces hauteurs, figurent dans une couche distincte de l'OFAC (Office fédéral de l'aviation civile), qui n'est pas affichée ici. Attends-toi donc à des obstacles absents de la carte. Garde le contact visuel avec le drone et une distance suffisante avec les câbles, les téléphériques et les pylônes — en particulier avec les câbles mobiles, comme ceux des téléskis et des téléphériques de transport de matériel.",
+    "source": "OFAC — Obstacles à la navigation aérienne (VIL, RS 748.131.1)"
+   },
+   "P": {
+    "rule": "Zone centrale d'aérodrome. Selon l'OFAC, tous les drones y sont interdits sans autorisation, quel que soit leur poids. Zone la plus stricte autour des aérodromes suisses — tiens-toi à l'écart.",
+    "source": "OFAC — Restrictions pour drones (geo.admin.ch)"
+   },
+   "RSTA": {
+    "rule": "Zone de protection de la nature avec restriction pour les drones (catégorie OFAC « Nature »). La carte des drones de l'OFAC indique pour ces zones : « L'exploitation d'aéronefs sans occupants est interdite. » L'interdiction est permanente et s'applique à tous les drones, quel que soit leur poids. Des autorisations exceptionnelles peuvent être demandées au service compétent — le plus souvent cantonal ; le service concerné et le délai qu'il exige sont indiqués dans les informations de la zone.",
+    "source": "OFAC — Restrictions pour drones (geo.admin.ch), champ zone_restriction_fr"
+   },
+   "SCHIESS_CH": {
+    "rule": "Zone militaire de tir et d'exercice (DDPS). L'Armée suisse indique : « Vu le danger de mort, il est interdit de pénétrer dans la zone dangereuse. Les instructions des sentinelles doivent être strictement observées. » Ne survole jamais une zone de tir active. Les horaires de tir affichés ici proviennent des avis de tir publiés et ne couvrent que les dix prochains jours. L'absence d'horaires ne signifie pas que la zone est sûre — ni que rien n'a été publié : pour une partie des secteurs, l'armée n'a publié aucun avis pour cette période ; pour une autre, elle a expressément indiqué « Pas de tir », et l'app ne distingue actuellement pas les deux cas. Avant le vol, vérifie l'avis de tir en vigueur pour le lieu.",
+    "source": "DDPS — Avis de tir (geo.admin.ch)"
+   },
+   "SICHERHEIT_CH": {
+    "rule": "Plan de la zone de sécurité d'un aérodrome. Le plan de zone indique les restrictions de la propriété en surface et en hauteur et constitue, dès sa publication dans les organes officiels cantonaux, « une restriction de droit public apportée à la propriété foncière » — il s'adresse donc aux propriétaires fonciers et aux maîtres d'ouvrage. Ce n'est pas une zone géographique UAS et il ne prévoit aucune obligation d'autorisation propre pour les vols de drones. Les aérodromes ont toutefois leurs propres règles pour les drones : vérifie les périmètres d'aérodrome de l'OFAC (SIL [PSIA] ou SPM [PSM]), la zone de contrôle (CTR) et les NOTAM.",
+    "source": "OFAC — Plan de la zone de sécurité"
+   },
+   "TMA_CH": {
+    "rule": "Région de contrôle terminale (TMA) — espace aérien contrôlé autour des aérodromes. Sur la base de l'art. 40 LFG (LA) et de l'art. 2, al. 1 VFSD (OSNA), l'OFAC (Office fédéral de l'aviation civile) fixe la structure de l'espace aérien et les classes d'espace aérien. Le volume ne commence qu'à l'altitude indiquée pour la zone, et ces limites inférieures se situent bien au-delà de 120 m au-dessus du sol ; les vols de drones de la catégorie ouverte en dessous de 120 m se déroulent donc sous l'espace aérien contrôlé et ne sont en règle générale pas concernés par la zone. Toute montée dans cet espace aérien nécessite une coordination avec skyguide. Vérifie la tranche d'altitude indiquée pour la zone, les NOTAM et les autres zones sur place.",
+    "source": "OFAC — Régions de contrôle terminales (TMA)"
+   },
+   "UAS_AKT_CH": {
+    "rule": "Zone d'activité UAS (UAS Awareness Map) de l'OFAC. La zone indique des opérations BVLOS autorisées d'aéronefs sans occupants ; la publication vise à améliorer la connaissance de la situation pour l'aviation habitée et à fournir des informations de contact. Pour la plupart de ces zones, il ne s'agit pas d'une restriction de vol : selon l'OFAC, la consultation de ces informations « n'influence pas la sécurité du vol » et « n'est pas obligatoire » ; les zones affichées « sont fournies uniquement à des fins d'information contextuelle ». EXCEPTION : si le texte de zone de l'OFAC porte lui-même « TEMPO R-AREA … » (p. ex. Hinterrhein, Amlikon), il s'agit d'une zone réglementée temporaire — ses conditions et le statut d'activité DABS s'appliquent alors. Dans tous les cas, attends-toi à d'autres drones en vol et respecte les autres règles applicables sur place.",
+    "source": "OFAC — Zones d'activité UAS"
+   },
+   "VOGELRES_CH": {
+    "rule": "Réserve fédérale d'oiseaux d'eau et de migrateurs. La carte des drones de l'OFAC (Office fédéral de l'aviation civile) indique : « L'exploitation d'aéronefs sans occupants est interdite. » L'interdiction est permanente et s'applique à tous les drones, quel que soit leur poids — donc aussi en dehors des périodes de nidification et de migration. Des autorisations exceptionnelles peuvent être demandées au service cantonal compétent ; selon les données de la zone, la demande doit être déposée au moins 10 jours avant le vol. Les autres dispositions de protection applicables figurent dans la fiche de l'objet.",
+    "source": "OFAC — Restrictions pour drones (geo.admin.ch) ; OFEV — Réserves d'oiseaux d'eau et de migrateurs (périmètres)"
+   }
+  },
+  "links": {
+   "foca_drones": "https://www.bazl.admin.ch/fr/drones",
+   "foca_register": "https://www.bazl.admin.ch/fr/enregistrement-exploitant-drones",
+   "foca_rules": "https://www.bazl.admin.ch/fr/regles-vol-drones",
+   "dabs": "https://www.bazl.admin.ch/fr/restrictions-geographiques-vol"
+  },
+  "airspaceMapUrl": "https://map.geo.admin.ch/?lang=fr&topic=aviation&layers=ch.bazl.einschraenkungen-drohnen"
+ }
+}

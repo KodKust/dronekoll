@@ -128,6 +128,26 @@ export function loadOverlaysFor(lang: string): Map<string, EnOverlay> {
 }
 export const loadEnOverlays = () => loadOverlaysFor('en');
 
+/** Zonreglerna (appens airspace_rules.json, Gist dd9d6be7…) — källa för
+ *  resident-cellernas regelöversättningar (src/lib/resident.ts). Saknas
+ *  filen (gammal checkout utan snapshot) ⇒ null: resident-fälten blir då
+ *  stale och utelämnas, aldrig ett byggfel. */
+export interface AirspaceRulesFile {
+  version?: string;
+  zones?: Record<string, { rule?: string; source?: string; verified?: string }>;
+}
+let _rules: AirspaceRulesFile | null | undefined;
+export function loadAirspaceRules(): AirspaceRulesFile | null {
+  if (_rules !== undefined) return _rules;
+  try {
+    _rules = readJsonWithFallback('airspace_rules.json') as AirspaceRulesFile;
+  } catch (err) {
+    console.warn(`⚠ airspace_rules.json saknas — resident-celler får ingen regelkälla (${(err as Error).message})`);
+    _rules = null;
+  }
+  return _rules;
+}
+
 /** Slår ihop en overlays fält ÖVER landets baskälla (parallella länk-arrayer). */
 function applyOverlay(country: Country, overlay: EnOverlay): Country {
   const f = overlay.fields;

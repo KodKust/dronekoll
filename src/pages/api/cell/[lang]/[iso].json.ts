@@ -22,6 +22,7 @@ import {
   translatedContent,
 } from '../../../../lib/ingest';
 import { LANGUAGE_CODES } from '../../../../lib/model';
+import { residentFieldsFor } from '../../../../lib/resident';
 import { isCellStale } from '../../../../lib/staleness';
 import type { Country, EnOverlay } from '../../../../lib/schema';
 
@@ -32,7 +33,13 @@ import type { Country, EnOverlay } from '../../../../lib/schema';
 // countries.json samma dag (renderades aldrig; hamnade ur position vid varje
 // radändring — 1 066 celler bar null efter källförvaltningen 23/9). Ingen
 // app-version har någonsin läst det (dronarkartan lib/, hela git-historiken).
-const API_SCHEMA_VERSION = 3;
+// 4 (2026-10-22): resident-fälten (CH fr/it, src/lib/resident.ts) — frivilliga
+// fields.onboarding / onboardingExtended / rules / airspaceMapUrl samt
+// links[].localizedUrl; checklist kan nu även komma ur resident-källan.
+// Emitteras BARA för celler med färsk resident-källa; alla andra celler är
+// byte-identiska med v3 sånär som på versionsnumret. Äldre appar ignorerar
+// de nya nycklarna (tourist_cell.dart läser namngivna fält).
+const API_SCHEMA_VERSION = 4;
 
 interface CellProps {
   overlay: EnOverlay;
@@ -64,6 +71,18 @@ export function getStaticPaths() {
 export const GET: APIRoute = ({ props, params }) => {
   const { overlay, merged, country, version } = props as CellProps;
   const lang = params.lang as string;
+  // Resident-fälten (CH fr/it): null när ingen källa finns eller den är stale
+  // — då är cellen exakt en vanlig matriscell.
+  const resident = residentFieldsFor(country, lang);
+  const link = (l: Country['primaryLinks'][number]) => ({
+    id: l.id ?? null,
+    url: l.url,
+    title: l.title,
+    description: l.description ?? null,
+    // Språkad adress för en bofast/besökare på det här språket (BAZL:s
+    // /fr/-sida i stället för /de/). Appen byter bara vid samma värdnamn.
+    ...(resident && l.id && resident.links[l.id] ? { localizedUrl: resident.links[l.id] } : {}),
+  });
 
   const body = {
     meta: {
@@ -83,25 +102,25 @@ export const GET: APIRoute = ({ props, params }) => {
     fields: {
       keyRules: merged.keyRules,
       importantNotes: merged.importantNotes,
-      primaryLinks: merged.primaryLinks.map((l) => ({
-        id: l.id ?? null,
-        url: l.url,
-        title: l.title,
-        description: l.description ?? null,
-      })),
-      secondaryLinks: merged.secondaryLinks.map((l) => ({
-        id: l.id ?? null,
-        url: l.url,
-        title: l.title,
-        description: l.description ?? null,
-      })),
+      primaryLinks: merged.primaryLinks.map(link),
+      secondaryLinks: merged.secondaryLinks.map(link),
       disclaimerText: merged.disclaimerText,
       sectionLabelRules: merged.sectionLabelRules,
       sectionLabelPrimary: merged.sectionLabelPrimary,
       sectionLabelSecondary: merged.sectionLabelSecondary,
       linksSheetTitle: merged.linksSheetTitle,
       dronePilotCredentialName: merged.dronePilotCredentialName ?? null,
-      checklist: overlay.fields.checklist ?? null,
+      checklist: resident?.checklist ?? overlay.fields.checklist ?? null,
+      // Resident-fälten: nycklarna finns BARA när källan finns och är färsk —
+      // en vanlig cell bär dem inte alls (ingen null-brus i 1 400 filer).
+      ...(resident
+        ? {
+            onboarding: resident.onboarding,
+            onboardingExtended: resident.onboardingExtended,
+            rules: resident.rules,
+            airspaceMapUrl: resident.airspaceMapUrl,
+          }
+        : {}),
     },
   };
   return new Response(JSON.stringify(body), {

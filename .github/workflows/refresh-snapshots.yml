@@ -39,7 +39,7 @@ jobs:
       - name: Kopiera in i snapshots/ och committa vid ändring
         run: |
           mkdir -p data/snapshots
-          for f in countries.json classifier_strings.json schema_baseline.json web-manifest.json; do
+          for f in countries.json classifier_strings.json schema_baseline.json web-manifest.json airspace_rules.json; do
             if [ -f "data/live/$f" ]; then
               cp "data/live/$f" "data/snapshots/$f"
             fi

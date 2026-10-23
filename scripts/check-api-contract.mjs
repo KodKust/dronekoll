@@ -64,6 +64,7 @@ else if (failures === 0) ok(`visitor: ${visitorFiles.length} språkfiler, ${visi
 const cellDir = join(DIST, 'cell');
 let cellFilesChecked = 0;
 const cellFailuresBefore = failures;
+const residentCells = [];
 if (existsSync(cellDir)) {
   for (const lang of readdirSync(cellDir)) {
     const langDir = join(cellDir, lang);
@@ -93,12 +94,50 @@ if (existsSync(cellDir)) {
       if (typeof body.meta?.apiSchemaVersion === 'number' && body.meta.apiSchemaVersion < 3) {
         fail(`${path}: meta.apiSchemaVersion ${body.meta.apiSchemaVersion} < 3 (legalStatus-borttagningen kräver 3)`);
       }
+
+      // Resident-fälten (apiSchemaVersion 4, CH fr/it): frivilliga, men NÄR de
+      // finns måste formen vara exakt den tourist_cell.dart parsar — en trasig
+      // slide/regelpost gör hela listan null i appen (tyst, inte hårt).
+      const fl = body.fields ?? {};
+      const isSlide = (s) =>
+        s && typeof s === 'object' && typeof s.title === 'string' && typeof s.body === 'string' &&
+        (s.tag === undefined || typeof s.tag === 'string');
+      for (const key of ['onboarding', 'onboardingExtended']) {
+        if (key in fl && fl[key] !== null) {
+          if (!Array.isArray(fl[key]) || !fl[key].every(isSlide)) fail(`${path}: fields.${key} måste vara [{title, body, tag?}]`);
+          else if (fl[key].length === 0) fail(`${path}: fields.${key} är tom — utelämna nyckeln i stället`);
+        }
+      }
+      if ('rules' in fl && fl.rules !== null) {
+        if (typeof fl.rules !== 'object' || Array.isArray(fl.rules)) fail(`${path}: fields.rules måste vara {TYP: {rule, source}}`);
+        else
+          for (const [k, r] of Object.entries(fl.rules)) {
+            if (!r || typeof r.rule !== 'string' || r.rule.length === 0 || typeof r.source !== 'string')
+              fail(`${path}: fields.rules.${k} måste vara {rule: string≠'', source: string}`);
+            if (k !== k.toUpperCase() || k.includes(':')) fail(`${path}: fields.rules-nyckeln "${k}" ska vara VERSAL utan ISO-prefix`);
+          }
+      }
+      if ('airspaceMapUrl' in fl && fl.airspaceMapUrl !== null && !isNonEmptyString(fl.airspaceMapUrl))
+        fail(`${path}: fields.airspaceMapUrl måste vara icke-tom sträng eller utelämnas`);
+      for (const key of ['primaryLinks', 'secondaryLinks']) {
+        for (const l of fl[key] ?? []) {
+          if ('localizedUrl' in l && !isNonEmptyString(l.localizedUrl)) fail(`${path}: ${key} localizedUrl måste vara icke-tom sträng`);
+          if (isNonEmptyString(l.localizedUrl) && new URL(l.localizedUrl).host !== new URL(l.url).host)
+            fail(`${path}: ${key} localizedUrl byter värdnamn (${l.url} → ${l.localizedUrl})`);
+        }
+      }
+      if (fl.checklist !== null && fl.checklist !== undefined) {
+        if (!Array.isArray(fl.checklist) || !fl.checklist.every((s) => s && typeof s.title === 'string' && isStringArray(s.items)))
+          fail(`${path}: fields.checklist måste vara [{title, items: string[]}]`);
+      }
+      if ('onboarding' in fl || 'rules' in fl) residentCells.push(path);
     }
   }
 }
 if (cellFilesChecked === 0) fail('inga cell-filer hittades i dist/api/cell/');
 else if (failures === cellFailuresBefore) {
   ok(`cell: ${cellFilesChecked} filer OK (ingen bär legalStatus, alla apiSchemaVersion ≥ 3)`);
+  ok(`cell: ${residentCells.length} med resident-fält${residentCells.length ? ' — ' + residentCells.join(', ') : ''}`);
 }
 
 console.log(failures === 0 ? '\nAPI-kontrakt GRÖNT.' : `\n${failures} kontraktsfel.`);
