@@ -1,5 +1,5 @@
 {
-  "version": 262,
+  "version": 266,
   "touristContent": {
     "baseUrl": "https://dronekoll.com"
   },
@@ -444,8 +444,8 @@
         }
       ],
       "keyRules": [
-        "Azami uçuş yüksekliği 120 metredir (400 ft); P0/P1 uçuşlarında İHA görüş hattında (VLOS) tutulmalı ve pilottan 3.000 m'den fazla uzaklaşmamalıdır. 120 m üzeri uçuş yalnızca P2 lisansıyla ve ilgili kurumlarla koordinasyonla mümkündür.",
-        "İHA'nızı, optik veya elektronik cihaz yardımı olmaksızın doğrudan görsel temas halinde, her zaman görüş hattınız içinde tutmalısınız (SHT-İHA).",
+        "Azami uçuş yüksekliği 120 metredir (400 ft); P0/P1 uçuşlarında İHA görsel görüş hattında (VLOS) tutulmalı ve pilottan 3.000 m'den fazla uzaklaşmamalıdır. 120 m üzeri uçuş yalnızca P2 lisansıyla ve ilgili kurumlarla koordinasyonla mümkündür.",
+        "İHA'nızı, optik veya elektronik cihaz yardımı olmaksızın doğrudan görsel temas halinde, her zaman görsel görüş hattınız içinde tutmalısınız (SHT-İHA).",
         "Amatör (P0) uçuşlar yalnızca gündüz yapılabilir; gece operasyonu P1 veya P2 lisansıyla ve uygun donanımla mümkündür (SHT-İHA md. 15). Geçiş süresince (31.07.2027'ye kadar) gece uçuşu için SHGM'den izin alın.",
         "Havalimanları çevresinde uçmadan önce iha.shgm.gov.tr (ileride İHATTYS) haritasını kontrol edin; yeşil bölge dışındaki tüm sahalarda uçuş SHGM iznine tabidir. Yeni SHT-İHA sabit bir mesafe belirtmez; eski talimattaki 9 km (5 NM) güvenli asgari mesafe olarak korunmalıdır.",
         "Kalabalık üzerinde uçuş yüksek riskli operasyon sayılır; P0 ve P1 pilotlarına kapalıdır ve yalnızca P2 lisansı kapsamında yapılabilir (SHT-İHA md. 6). Yeni talimat sabit bir mesafe belirtmez; insanlardan ve yapılardan en az 50 m uzak durmak (eski talimattaki değer) güvenli asgari olarak önerilir.",
@@ -700,7 +700,7 @@
       "verificationWord": "Verifiziert",
       "sectionLabelPrimary": "OFFIZIELLE QUELLEN",
       "sectionLabelSecondary": "WEITERE RESSOURCEN",
-      "sectionLabelRules": "WICHTIGSTE REGELN (EASA OPEN-KATEGORIE)",
+      "sectionLabelRules": "WICHTIGSTE REGELN (OFFENE KATEGORIE NACH EASA)",
       "disclaimerText": "Prüfe vor jedem Flug stets die offiziellen Quellen von FOCA/BAZL und die BAZL-Drohnenkarte. Diese App ist ein Werkzeug — keine Rechtsquelle. Liechtenstein folgt den Schweizer FOCA/EASA-Regelungen.",
       "compassBearings": [
         "N",
@@ -7508,7 +7508,7 @@
           "Militärische Schiessgebiete mit tagesaktuellen Schiesszeiten (VBS)",
           "UAS-Aktivitätszonen — gemeldete Drohnenaktivität mit Gültigkeitszeiten",
           "Luftfahrthindernisse — Masten, Seilbahnen, Kräne (beim Hineinzoomen sichtbar)",
-          "NOTAM — Temporäre Einschränkungen (global, täglich aktualisiert)"
+          "NOTAM — Temporäre Beschränkungen (global, täglich aktualisiert)"
         ],
         "notShown": [
           "Privatgrundstücke und Lärmschutzzonen"
@@ -7520,7 +7520,7 @@
       "verificationWord": "Verifiziert",
       "sectionLabelPrimary": "OFFIZIELLE QUELLEN",
       "sectionLabelSecondary": "WEITERE RESSOURCEN",
-      "sectionLabelRules": "WICHTIGSTE REGELN (EASA OPEN-KATEGORIE)",
+      "sectionLabelRules": "WICHTIGSTE REGELN (OFFENE KATEGORIE NACH EASA)",
       "disclaimerText": "Prüfe vor jedem Flug stets die offiziellen Quellen von FOCA/BAZL und die offizielle Drohnenkarte auf map.geo.admin.ch. Diese App ist ein Werkzeug — keine Rechtsquelle. Die Schweiz folgt den EASA-Regelungen über ein bilaterales Abkommen.",
       "compassBearings": [
         "N",
@@ -7727,7 +7727,7 @@
         },
         {
           "title": "Verliere deine Drohne nicht an den Wind",
-          "body": "Wind- und Wetterinfos zugeschnitten auf dein Drohnenmodell — damit du weißt, wann der Start sicher ist.",
+          "body": "Wind- und Wetterinfos zugeschnitten auf dein Drohnenmodell — damit du weisst, wann der Start sicher ist.",
           "tag": "Deine Drohne",
           "icon": "airplanemode_active",
           "iconColor": "FF7043",
@@ -7759,7 +7759,7 @@
         },
         {
           "tag": "OFFIZIELLE QUELLEN",
-          "title": "Keine Bußgelder, keine Fehler",
+          "title": "Keine Bussgelder, keine Fehler",
           "body": "Offizielle Beschränkungen direkt auf der Karte —\nin Echtzeit aktualisiert von BAZL.\nNOTAM, Kontrollzonen, Drohnenverbote.\nSieh auf einen Blick, ob dein Standort\nzum Fliegen geeignet ist.",
           "icon": "public",
           "iconColor": "26C6DA",
@@ -7922,7 +7922,7 @@
       "keyRules": [
         "V otvorenej kategórii je maximálna výška 120 m, meraná ako vzdialenosť k najbližšiemu bodu zemského povrchu — nie jednoducho priamo dole, takže v blízkosti svahu sa môže počítať aj zem vedľa vás. Do 50 m od vysokej umelej prekážky (nad 105 m) sa maximálna výška môže na požiadanie subjektu zodpovedného za túto prekážku zvýšiť až o 15 m nad výšku prekážky.",
         "Musíte sa zaregistrovať ako prevádzkovateľ dronu, ak váš dron váži 250 g alebo viac (alebo by mohol pri náraze preniesť viac ako 80 J kinetickej energie) — platí to aj pre hračky. Pod 250 g je registrácia stále povinná, ak má dron senzor schopný zachytávať osobné údaje, pokiaľ sa nepovažuje za hračku podľa smernice EÚ o bezpečnosti hračiek. Požiadavky na výcvik/preukaz pilota sú samostatné a závisia od triedy a podkategórie dronu.",
-        "Vek minimálne 16 rokov je potrebný na to, aby ste v otvorenej kategórii lietali samostatne — školenie a skúška A1/A3 (40 otázok, online) sú platné 5 rokov a uznávané v celej EÚ. Mladší môžu lietať len pod priamym dohľadom certifikovaného diaľkového pilota.",
+        "Vek minimálne 16 rokov je potrebný na to, aby ste v otvorenej kategórii lietali samostatne — školenie a skúška A1/A3 (40 otázok, online) sú platné 5 rokov a uznávané v celej EÚ. Mladší môžu lietať len pod priamym dohľadom certifikovaného pilota na diaľku.",
         "Odstupy podľa podkategórie: A1 — nelietajte nad nezúčastnenými osobami, A2 — najmenej 30 m od nezúčastnených osôb (5 m s aktívnou funkciou režimu nízkej rýchlosti ≤ 3 m/s) a vždy aspoň výška letu (pravidlo 1:1), A3 — najmenej 150 m od obytných, obchodných, priemyselných a rekreačných priestorov.",
         "V otvorenej kategórii musíte držať dron v priamom vizuálnom dohľade voľným okom (okuliare/kontaktné šošovky sú v poriadku; ďalekohľad alebo obrazovka sa nepočíta) — alebo si prizvať na pomoc pozorovateľa, s jasnou a účinnou komunikáciou medzi vami po celý čas, aby ste spolu mohli sledovať vzdušný priestor a predchádzať zrážkam. Režim „follow-me“ je samostatná výnimka, povolená do 50 m od pilota.",
         "Nelietajte nad zhromaždeniami ľudí. Pravidlá pre osoby, ktoré nie sú priamo zapojené, závisia od podkategórie, triedy a prevádzkových podmienok; pozrite si oficiálnu tabuľku.",
@@ -8451,7 +8451,7 @@
           "Kritieke infrastructuur (INFRA_NL) — Seveso/industrie/havens (regelwijziging 1 januari 2026)",
           "Traumahelikopter-zones (HEMS_NL)",
           "Natura 2000-gebieden via RVO (NATURE_NL) — vogel- en habitatbescherming",
-          "NOTAM — Tijdelijke beperkingen (globaal, dagelijks bijgewerkt)"
+          "NOTAM — Tijdelijke beperkingen (wereldwijd, dagelijks bijgewerkt)"
         ],
         "notShown": [
           "Wegen (≥ 80 km/u), spoorlijnen en het hoogspanningsnet — afstandsregels (art. 6 en 8), geen zones op de kaart",
@@ -8633,7 +8633,7 @@
       ],
       "keyRules": [
         "Atviroje kategorijoje didžiausias aukštis yra 120 m, matuojamas kaip atstumas iki artimiausio žemės paviršiaus taško — ne tiesiog tiesiai žemyn, todėl netoli šlaito greta esantis gruntas taip pat gali būti įskaičiuotas. 50 m atstumu nuo aukštos dirbtinės kliūties (aukštesnės nei 105 m) už kliūtį atsakingo subjekto prašymu didžiausias aukštis gali būti padidintas iki 15 m virš kliūties aukščio.",
-        "Turite užsiregistruoti kaip drono operatorius, jei jūsų dronas sveria 250 g ar daugiau (arba susidūrimo metu galėtų perduoti daugiau nei 80 J kinetinės energijos) — tai taikoma net žaislams. Esant mažesniam nei 250 g svoriui, registracija vis tiek reikalinga, jei dronas turi jutiklį, galintį fiksuoti asmens duomenis, nebent jis laikomas žaislu pagal ES žaislų saugos direktyvą. Piloto mokymo / pažymėjimo reikalavimai yra atskiri ir priklauso nuo drono klasės ir pakategorės.",
+        "Turite užsiregistruoti kaip drono naudotojas, jei jūsų dronas sveria 250 g ar daugiau (arba susidūrimo metu galėtų perduoti daugiau nei 80 J kinetinės energijos) — tai taikoma net žaislams. Esant mažesniam nei 250 g svoriui, registracija vis tiek reikalinga, jei dronas turi jutiklį, galintį fiksuoti asmens duomenis, nebent jis laikomas žaislu pagal ES žaislų saugos direktyvą. Piloto mokymo / pažymėjimo reikalavimai yra atskiri ir priklauso nuo drono klasės ir pakategorės.",
         "Registracijos numeris turi būti matomas ant drono ir (C1–C3 klasės dronams) įvestas į nuotolinio identifikavimo (Remote ID) sistemą",
         "Dronai be C klasės ženklo (pateikti rinkai iki 2024-01-01) ir privačiai sukonstruoti dronai gali skristi tik A1 pakategorėje, jei jų kilimo masė mažesnė nei 250 g, arba A3 pakategorėje, jei mažesnė nei 25 kg",
         "Nuotolinio piloto minimalus amžius – 16 metų (ES taisyklė; Lietuva jo nemažino). Jaunesni gali skristi tik: tiesiogiai prižiūrimi reikalavimus atitinkančio nuotolinio piloto; su C0 klasės žaislu A1 pakategorėje; arba su privačiai sukonstruotu dronu, kurio kilimo masė mažesnė nei 250 g. A1/A3 mokymas ir egzaminas atliekami TKA sistemoje, pažymėjimas galioja 5 metus.",
@@ -8920,9 +8920,9 @@
         },
         {
           "id": "caalv_register",
-          "title": "CAA – Reģistrēties kā operatoram",
+          "title": "CAA – Reģistrēties kā ekspluatantam",
           "url": "https://droni.caa.gov.lv/registracija/",
-          "description": "Reģistrējies kā UAS operators (derīgs visās ES/EASA valstīs)"
+          "description": "Reģistrējies kā UAS ekspluatants (derīgs visās ES/EASA valstīs)"
         },
         {
           "id": "airspace_lv",
@@ -8953,7 +8953,7 @@
       ],
       "keyRules": [
         "Atklātajā kategorijā maksimālais augstums ir 120 m, mērot kā attālumu līdz tuvākajam zemes virsmas punktam — ne tikai tieši lejup, tāpēc nogāzes tuvumā var ņemt vērā arī zemi blakus. 50 m attālumā no augsta mākslīga šķēršļa (virs 105 m) maksimālo augstumu var palielināt līdz 15 m virs šķēršļa augstuma, ja to pieprasa par šķērsli atbildīgā struktūra.",
-        "Tev jāreģistrējas kā drona operatoram, ja tavs drons sver 250 g vai vairāk (vai sadursmes gadījumā varētu nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas arī uz rotaļlietām. Ja svars ir mazāks par 250 g, reģistrācija tomēr ir nepieciešama, ja dronam ir sensors, kas spēj fiksēt personas datus, ja vien tas nav uzskatāms par rotaļlietu saskaņā ar ES Rotaļlietu drošības direktīvu. Pilota apmācības/sertifikāta prasības ir atsevišķas un atkarīgas no drona klases un apakškategorijas.",
+        "Tev jāreģistrējas kā drona ekspluatantam, ja tavs drons sver 250 g vai vairāk (vai sadursmes gadījumā varētu nodot vairāk nekā 80 J kinētiskās enerģijas) — tas attiecas arī uz rotaļlietām. Ja svars ir mazāks par 250 g, reģistrācija tomēr ir nepieciešama, ja dronam ir sensors, kas spēj fiksēt personas datus, ja vien tas nav uzskatāms par rotaļlietu saskaņā ar ES Rotaļlietu drošības direktīvu. Pilota apmācības/sertifikāta prasības ir atsevišķas un atkarīgas no drona klases un apakškategorijas.",
         "Tev jāreģistrējas kā UAS ekspluatantam savā ES dzīvesvietas valstī (ja dzīvo ārpus ES — pirmajā ES valstī, kurā lido); reģistrācija ir derīga visā ES, un vienlaikus reģistrēties divās valstīs nav atļauts. Latvijā reģistrācija maksā 5 € un ir derīga 1 gadu. Katrs drons jāmarķē ar UAS ekspluatanta numuru.",
         "Dronam no 250 g nepieciešams A1/A3 tiešsaistes kurss un eksāmens. Droni bez C klases marķējuma un ar masu 250 g vai vairāk kopš 2024. gada drīkst lidot tikai A3 apakškategorijā — tālu no lidojumā neiesaistītām personām un vismaz 150 m no dzīvojamām, tirdzniecības, rūpniecības un atpūtas teritorijām.",
         "Latvijā patstāvīgai lidošanai nepieciešamais minimālais vecums ir 16 gadi; jaunāki drīkst lidot tikai kvalificēta, vismaz 16 gadus veca tālvadības pilota tiešā uzraudzībā, vai ar rotaļlietai paredzētu C0 klases dronu.",
@@ -9106,7 +9106,7 @@
       "hasNotam": true,
       "onboardingExtended": [
         {
-          "title": "Viss, kas jums nepieciešams, ir gaisā. Viss vienuviet.",
+          "title": "Viss, kas tev nepieciešams, ir gaisā. Viss vienuviet.",
           "body": "",
           "icon": "flight_takeoff",
           "iconColor": "448AFF",
@@ -9175,7 +9175,7 @@
         {
           "tag": "PLĀNOŠANA",
           "title": "Plāno lidojumu\niepriekš",
-          "body": "Meklē adreses, novietojiet kniepadatas,\nzīmē drošības rādiusus.\nIzlem precīzi, kur drons lidos\npirms pacelšanās — un parādi draugiem vai\nklientiem to, ko plāno.",
+          "body": "Meklē adreses, novieto kniepadatas,\nzīmē drošības rādiusus.\nIzlem precīzi, kur drons lidos\npirms pacelšanās — un parādi draugiem vai\nklientiem to, ko plāno.",
           "icon": "straighten",
           "iconColor": "FFB74D",
           "spotlight": "tools",
@@ -9183,7 +9183,7 @@
         },
         {
           "title": "Tas ir tikai sākums",
-          "body": "Jūs gaida kontrolsaraksti, lidojumu žurnāli, plānošana un daudz kas cits.",
+          "body": "Tevi gaida kontrolsaraksti, lidojumu žurnāli, plānošana un daudz kas cits.",
           "icon": "rocket_launch",
           "iconColor": "00E676"
         }
@@ -10166,7 +10166,7 @@
           "Prohibited areas (Cork CTR terrain, Cork Prison)",
           "Temporary zones — stadiums, parades, BVLOS operations, military exercises",
           "Model flying club exemption zones",
-          "NOTAM — Temporary restrictions (global, updated daily)"
+          "NOTAM — temporary restrictions (global, updated daily)"
         ],
         "notShown": [
           "SDA zones (Specific Drone Activity — unofficial, SafeDrone Academy data)",
@@ -11174,7 +11174,7 @@
       "sectionLabelPrimary": "OPINBERAR HEIMILDIR",
       "sectionLabelSecondary": "FREKARI UPPLÝSINGAR",
       "sectionLabelRules": "HELSTU REGLUR (EASA OPNI FLOKKURINN)",
-      "disclaimerText": "Athugaðu alltaf opinberar heimildir Samgöngustofu (ICETRA) og FlyDrone.is áður en þú flýgur. Þetta app er tæki – ekki lagalegt yfirvald. Ísland fylgir EASA-reglum í gegnum EES-samninginn með innlendum viðbótum.",
+      "disclaimerText": "Athugaðu alltaf opinberar heimildir Samgöngustofu (ICETRA) og FlyDrone.is áður en þú flýgur. Þetta app er tæki — ekki lagalegt yfirvald. Ísland fylgir EASA-reglum í gegnum EES-samninginn með innlendum viðbótum.",
       "compassBearings": [
         "N",
         "NNA",
@@ -11204,25 +11204,25 @@
       "primaryLinks": [
         {
           "id": "icetra_drones",
-          "title": "Samgöngustofa – Reglur um dróna",
+          "title": "Samgöngustofa — Reglur um dróna",
           "url": "https://island.is/en/o/transport-authority/drones",
           "description": "Opinberar reglur og leiðbeiningar Samgöngustofu (ICETRA) um dróna"
         },
         {
           "id": "icetra_register",
-          "title": "Samgöngustofa – Skráðu þig sem rekstraraðila",
+          "title": "Samgöngustofa — Skráðu þig sem rekstraraðila",
           "url": "https://island.is/en/o/transport-authority/drones",
           "description": "Skráðu þig sem UAS-rekstraraðila (5.863 ISK / 5 ár, gildir í EES-löndum)"
         },
         {
           "id": "flydrone",
-          "title": "FlyDrone.is – Skráning og A1/A3-próf",
+          "title": "FlyDrone.is — Skráning og A1/A3-próf",
           "url": "https://flydrone.is",
           "description": "Skráningarsíða Samgöngustofu þar sem rekstraraðilar skrá sig, lesa námsefnið og taka A1/A3-prófið (5.863 ISK, gildir í 5 ár)"
         },
         {
           "id": "island_is",
-          "title": "island.is – Skráning dróna",
+          "title": "island.is — Skráning dróna",
           "url": "https://island.is",
           "description": "Stafræn þjónustugátt íslenska ríkisins fyrir drónaskráningu"
         }
@@ -11230,18 +11230,18 @@
       "secondaryLinks": [
         {
           "id": "isavia",
-          "title": "Isavia – Flugleiðsögn",
+          "title": "Isavia — Flugleiðsögn",
           "url": "https://www.isavia.is",
           "description": "Íslensk flugleiðsöguþjónusta og upplýsingar um loftrými"
         },
         {
           "id": "ust",
-          "title": "Náttúruverndarstofnun – Drónar á friðlýstum svæðum",
+          "title": "Náttúruverndarstofnun — Drónar á friðlýstum svæðum",
           "url": "https://www.nattura.is/stofnunin/reglur-um-notkun-drona",
           "description": "Listi yfir friðlýst svæði með takmörkunum á drónaflugi og tímabilin sem gilda"
         },
         {
-          "title": "Kortasjá – drónakort",
+          "title": "Kortasjá — drónakort",
           "url": "https://kort.gis.is/mapview/?app=dronar"
         }
       ],
@@ -11259,11 +11259,11 @@
         "Erfið vindskilyrði: á Íslandi fer vindur oft yfir öryggismörk dróna."
       ],
       "importantNotes": [
-        "Virk eldgosasvæði geta haft tímabundið flugbann – athugaðu fyrir hvert flug",
+        "Virk eldgosasvæði geta haft tímabundið flugbann — athugaðu fyrir hvert flug",
         "Frá 17. maí 2026 veitir Náttúruverndarstofnun einungis leyfi fyrir drónaflug í atvinnuskyni á 27 friðlýstum svæðum — sum allt árið, önnur aðeins yfir sumarmánuðina. Athugaðu listann fyrir hvert svæði á nattura.is.",
-        "Íslenskt veðurfar er rysjótt – vindur fer oft yfir mörk dróna",
+        "Íslenskt veðurfar er rysjótt — vindur fer oft yfir mörk dróna",
         "Fuglavarpstími (maí–ágúst): viðbótartakmarkanir á mörgum svæðum",
-        "Ísland er í EES en ekki ESB – EASA-reglur gilda í gegnum EES-samninginn"
+        "Ísland er í EES en ekki ESB — EASA-reglur gilda í gegnum EES-samninginn"
       ],
       "lastVerified": "2026-08-26",
       "verifiedBy": "ICETRA (official sources) + audit 2026-08-26",
@@ -11857,7 +11857,7 @@
       "verificationWord": "Verifiziert",
       "sectionLabelPrimary": "OFFIZIELLE QUELLEN",
       "sectionLabelSecondary": "WEITERE RESSOURCEN",
-      "sectionLabelRules": "WICHTIGSTE REGELN (EASA OPEN-KATEGORIE)",
+      "sectionLabelRules": "WICHTIGSTE REGELN (OFFENE KATEGORIE NACH EASA)",
       "disclaimerText": "Prüfe vor jedem Flug stets die offiziellen Quellen von Austro Control und Dronespace.at. Diese App ist ein Werkzeug — keine Rechtsquelle. Österreich folgt den EASA-Regelungen mit nationalen Ergänzungen.",
       "compassBearings": [
         "N",
@@ -11935,7 +11935,7 @@
         "Fliegen Sie nicht über Menschenansammlungen. Die Vorschriften für unbeteiligte Personen hängen von der Unterkategorie, der Klassenkennzeichnung und den Betriebsbedingungen ab; bitte beachten Sie die offizielle Matrix.",
         "Beachten Sie die geografischen UAS-Gebiete (§18b LVR) auf der Dronespace-Karte. Der Betrieb von unbemannten Luftfahrzeugen (UAS) in einem bestimmten Umkreis um Flugplätze ohne eigene Flugplatzzone ist grundsätzlich nur außerhalb der Betriebszeiten erlaubt. Vor dem Flug müssen sich Drohnenbetreiber:innen über die aktuellen Betriebszeiten des Flugplatzes informieren – entweder über luftfahrtspezifische Veröffentlichungen (z. B. AIP, NOTAM) oder direkt beim Flugplatzhalter bzw. der Flugplatzleitung. Während der Betriebszeiten des Flugplatzes ist der Drohnenbetrieb nur unter folgenden Bedingungen zulässig: für anerkannte Rettungs- und Einsatzorganisationen, Gesundheitsdienste oder Katastrophenschutzbehörden, sofern der Einsatz in deren gesetzlichen Aufgabenbereich fällt; mit einer Betriebsgenehmigung für die Kategorie \"specific\" gemäß EU-Verordnung 2019/947, wenn die Risikobewertung den Betrieb in der Nähe von Flugplätzen abdeckt; mit einem LUC-Zertifikat (light UAS operator certificate) gemäß EU-Verordnung 2019/947, wenn dieses den Betrieb im Flugplatzumfeld erlaubt; oder mit einer Genehmigung nach Artikel 16 der EU-Verordnung 2019/947, sofern alle Bedingungen und Auflagen eingehalten werden.",
         "UAS unter 250 g Startmasse, die bis maximal 30 m über Grund geflogen werden, sind von der Zustimmungspflicht in Kontrollzonen und von der Bewilligungspflicht in Flugbeschränkungsgebieten ausgenommen. In Flugbeschränkungsgebieten gilt die Ausnahme jedoch nur, wenn innerhalb Ihres Flugbereichs kein Flugplatz ohne Flugplatzzone liegt.",
-        "Nachtflug in der Open-Kategorie zulässig mit grün blinkender Leuchte (EASA seit 2022) — prüfe spezifische Zonen auf Dronespace.at",
+        "Nachtflug in der offenen Kategorie zulässig mit grün blinkender Leuchte (EASA seit 2022) — prüfe spezifische Zonen auf Dronespace.at",
         "Nationalparks und Naturschutzgebiete: zusätzliche Einschränkungen gelten"
       ],
       "importantNotes": [
@@ -14292,8 +14292,8 @@
         "Debes registrarte como operador de drones si tu dron pesa 250 g o más (o puede transferir más de 80 J de energía de impacto) — esto se aplica incluso a los juguetes. Por debajo de 250 g, el registro sigue siendo obligatorio si el dron lleva un sensor capaz de captar datos personales, salvo que se considere un juguete según la Directiva de Seguridad de los Juguetes de la UE. Los requisitos de formación/certificado de piloto son independientes y dependen de la clase y subcategoría del dron.",
         "En España, la edad mínima según el RD 517/2024 (art. 7) es de 12 años para drones C0 en subcategoría A1, y de 14 años para C1/C2 y A3 sin supervisión directa; en ambos casos se requiere completar la formación y el examen A1/A3 en línea.",
         "Vuelos en entorno urbano o sobre concentraciones de personas: los operadores de UAS sujetos a la obligación de registrarse deben comunicarlo previamente al Ministerio del Interior con una antelación mínima de cinco días naturales respecto a la fecha prevista para el inicio de la operación (art. 40 del RD 517/2024).",
-        "En la categoría abierta, debe mantener el dron dentro de su propio contacto visual directo, a simple vista (gafas/lentillas correctoras están bien; prismáticos o pantalla no cuentan) — o volar con la ayuda de un observador, manteniendo una comunicación clara y eficaz entre ustedes en todo momento, para que juntos puedan vigilar el espacio aéreo y evitar colisiones. El modo «follow-me» es una excepción independiente, permitida hasta 50 m del piloto.",
-        "No sobrevuele concentraciones de personas. Las normas para las personas no implicadas dependen de la subcategoría, la marca de clase y las condiciones de funcionamiento; consulte la matriz oficial.",
+        "En la categoría abierta, debe mantener el dron dentro de su alcance visual (VLOS), a simple vista (gafas/lentillas correctoras están bien; prismáticos o pantalla no cuentan) — o volar con la ayuda de un observador, manteniendo una comunicación clara y eficaz entre ustedes en todo momento, para que juntos puedan vigilar el espacio aéreo y evitar colisiones. El modo «follow-me» es una excepción independiente, permitida hasta 50 m del piloto.",
+        "No sobrevuele concentraciones de personas. Las normas para las personas no participantes dependen de la subcategoría, la marca de clase y las condiciones de funcionamiento; consulte la matriz oficial.",
         "Respete las zonas geográficas de UAS en torno a aeropuertos y aeródromos (RD 517/2024) — compruebe siempre el mapa de ENAIRE Drones.",
         "Vuelo nocturno permitido en categoría abierta — el dron debe llevar una luz verde intermitente visible.",
         "Los parques nacionales requieren permiso expreso de las autoridades del parque.",
@@ -14909,7 +14909,7 @@
           "Zones autour des aéroports et aérodromes",
           "Zones interdites à la captation aérienne (ZICAD) — prise de vues par drone interdite même si le vol est autorisé",
           "Parcs nationaux (11) — cœurs, aires d'adhésion et réserves intégrales ; vol interdit dans les cœurs",
-          "NOTAM — Restrictions temporaires (global, mise à jour quotidienne)"
+          "NOTAM — Restrictions temporaires (monde entier, mise à jour quotidienne)"
         ],
         "notShown": [
           "Restrictions temporaires militaires (consultez le SIA)",
@@ -17887,11 +17887,11 @@
           "Sjøforsvarets forbudsområder (NO_MARINE_RESTRICTED) — Sjøforsvaret",
           "Fengsler (NO_PRISON) — Lovdata-forskrift og Kriminalomsorgen (dronesoner.no)",
           "Ambassader (NO_EMBASSY) — Luftfartstilsynet (dronesoner.no)",
-          "NSM forbudsområder — sensorforbud for foto/film (NO_NSM_SENSOR) — Nasjonal sikkerhetsmyndighet",
+          "NSM-forbudsområder — sensorforbud for foto/film (NO_NSM_SENSOR) — Nasjonal sikkerhetsmyndighet",
           "Verneområder — lavflygingslag for luftfartøy (< 300 m) (NO_NATURE_LOWFLY) — Miljødirektoratet",
           "Verneområder — landingsforbudslag for luftfartøy (NO_NATURE_LANDING) — Miljødirektoratet",
           "Verneområder — ferdselsforbud (NO_NATURE_FERDSEL) — sesongbasert, Miljødirektoratet",
-          "Forsvars-relatert naturvern (NO_NATURE_FORSVAR) — Miljødirektoratet",
+          "Forsvarsrelatert naturvern (NO_NATURE_FORSVAR) — Miljødirektoratet",
           "R102 Oslo Sentrum (NO_RESTRICTED_R102) — permanent restriksjonssone",
           "NVE vindkraftparker (NO_INFRA_NVE) — rotorblad og turbulens rekker langt utenfor tårnfoten, hold god avstand",
           "NOTAM — Midlertidige restriksjoner (globalt, oppdateres daglig)"
@@ -18697,7 +18697,7 @@
           "✈️ Class B/C/D/E2 controlled airspace (FAA Sectional — context for UASFM)",
           "🛡 Special Use Airspace (Prohibited, Restricted, MOA, Warning)",
           "🚁 Heliports (1,600+ medical/public helipads in airspace overlay; 3,000+ map pins including private — H-symbol on map)",
-          "🦅 National Wildlife Refuges (USFWS) — unauthorized take-off, landing and low flight that harasses wildlife prohibited (50 CFR 27.34); shown when zoomed in",
+          "🦅 National Wildlife Refuges (USFWS) — unauthorized takeoff, landing and low flight that harasses wildlife prohibited (50 CFR 27.34); shown when zoomed in",
           "🏕 Wilderness Areas (USFS/BLM) — launching, landing and operating drones from inside the boundary prohibited (36 CFR 261.18, 43 CFR 6302.20); shown when zoomed in",
           "🏛 Washington DC SFRA (30 NM ring, 14 CFR 93) — inner 15 NM FRZ: no drone flight without specific FAA authorization; 15–30 NM: recreational flying under the NOTAM's conditions, Part 107 under certificate or waiver",
           "🛑 National Security UAS Flight Restrictions (NSUFR, 14 CFR 99.7) — standing 24/7 sites and part-time sites closed while active",
